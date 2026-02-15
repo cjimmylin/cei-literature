@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Mo
 local_pdf: "[[PDFs/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Multicultural/Cross-cultural
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BLOOM, BLOOMZ, Baichuan, Baichuan-2, ChatGPT, FLAN-T5-XXL, Flan-T5, Flan-T5-Base, Flan-T5-Large, Flan-T5-Small, Flan-T5-XL, GPT-4, GPT3, GPT3.5, GPT4, Llama, Llama-2, Llama 2, T5, T5-Base, T5-Large, T5-Small, T5-XL, T5-XXL"

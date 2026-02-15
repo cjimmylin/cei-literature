@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,18 +20,18 @@ pdf_extract: "PDF Extracts/2025/2025-team-SEA-LION Southeast Asian Languages in 
 local_pdf: "[[PDFs/2025/2025-team-SEA-LION Southeast Asian Languages in One.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Recently, Large Language Models (LLMs) have dominated much of the artificial intelligence scene with their ability to process and generate natural languages. However, the majority of LLM research and development remains English-centric, leaving low-resource languages such as those in the Southeast Asian (SEA) region underrepresented. To address this representation gap, we introduce LlamaSEA-LION-8B-IT and Gemma-SEA-LION9B-IT, two cutting-edge multilingual LLMs designed for SEA languages."
 data_description: "Multilingual benchmark"

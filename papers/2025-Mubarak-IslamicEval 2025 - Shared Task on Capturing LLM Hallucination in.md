@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,22 +16,22 @@ external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.67.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md"
 local_pdf: "[[PDFs/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "Hallucination in Large Language Models (LLMs) remains a significant challenge and continues to draw substantial research attention. The problem becomes especially critical when hallucinations arise in sensitive domains, such as religious discourse. To address this gap, we introduce IslamicEval 2025—the first shared task specifically focused on evaluating and detecting hallucinations in Islamic content."
 research_topic: "Truthfulness & Factuality"
-data_description: N/A
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, Gemma"
 DATA_URL: "https://www.codabench.org/competitions/9820/"
@@ -56,7 +57,7 @@ DATA_URL: "https://www.codabench.org/competitions/9820/"
 
 ## Abstract
 
-*(To be fetched)*
+Hallucination in Large Language Models (LLMs) remains a significant challenge and continues to draw substantial research attention. The problem becomes especially critical when hallucinations arise in sensitive domains, such as religious discourse. To address this gap, we introduce IslamicEval 2025—the first shared task specifically focused on evaluating and detecting hallucinations in Islamic content. The task consists of two subtasks: (1) Hallucination Detection and Correction of quoted verses (Ayahs) from the Holy Quran and quoted Hadiths; and (2) Qur’an and Hadith Question Answering, which assesses retrieval models and LLMs by requiring answers to be retrieved from grounded, authoritative sources. Thirteen teams participated in the final phase of the shared task, employing a range of pipelines and frameworks. Their diverse approaches underscore both the complexity of the task and the importance of effectively managing hallucinations in Islamic discourse.
 
 ## Dataset Information
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/2024/2024-Sharma-Towards Understanding Sycophancy in 
 local_pdf: "[[PDFs/2024/2024-Sharma-Towards Understanding Sycophancy in Language Models.pdf]]"
 publication: "ICLR 2024"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Human feedback is commonly utilized to finetune AI assistants. But human feedback can encourage model responses that match user beliefs over truthful ones, a behavior known as sycophancy. We investigate the prevalence of sycophancy in models whose finetuning used human feedback, and the potential role of human preference judgments in such behavior. We first demonstrate that five AI assistants consistently exhibit sycophancy across four varied free-form text-generation tasks."
 research_topic: "Truthfulness & Factuality"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/meg-tong/sycophancy-eval"

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate comprehensive benchmark survey report from 20260208-benchmark_survey_candidates.json.
-Categorizes all 528 candidates into 10 categories and produces a full markdown report.
+Generate comprehensive benchmark survey report from benchmark_survey_candidates.json.
+Categorizes all candidates into 10 categories and produces a full markdown report.
 """
 
 import json
@@ -10,8 +10,8 @@ import sys
 from collections import defaultdict, Counter
 from pathlib import Path
 
-INPUT_FILE = Path(__file__).parent.parent / "logs" / "20260208-benchmark_survey_candidates.json"
-OUTPUT_FILE = Path(__file__).parent.parent / "STATISTICS" / "20260208-llm-ethics-benchmark-survey.md"
+INPUT_FILE = Path(__file__).parent.parent / "logs" / "20260215-benchmark_survey_candidates.json"
+OUTPUT_FILE = Path(__file__).parent.parent / "STATISTICS" / "20260215-llm-ethics-benchmark-survey.md"
 
 # ── Category definitions with keyword/phrase matching ──────────────────────
 

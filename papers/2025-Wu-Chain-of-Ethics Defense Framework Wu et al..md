@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ external_pdf: "https://arxiv.org/pdf/2601.12652.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md"
 local_pdf: "[[PDFs/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
-ethics_perspective: "General Ethics"
-data_description: N/A
+abstract: "Background: While Large Language Models (LLMs) have achieved widespread adoption, malicious prompt engineering—specifically 'jailbreak attacks'—poses severe security risks by inducing models to bypass internal safety mechanisms. Current benchmarks predominantly focus on public safety and Western cultural norms, leaving a critical gap in evaluating the niche, high-risk domain of medical ethics within the Chinese context."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
 DATA_URL: NA
@@ -58,7 +59,9 @@ DATA_URL: NA
 
 ## Abstract
 
-*(To be fetched)*
+Background: While Large Language Models (LLMs) have achieved widespread adoption, malicious prompt engineering—specifically "jailbreak attacks"—poses severe security risks by inducing models to bypass internal safety mechanisms. Current benchmarks predominantly focus on public safety and Western cultural norms, leaving a critical gap in evaluating the niche, high-risk domain of medical ethics within the Chinese context. Objective: To establish a specialized jailbreak evaluation framework for Chinese medical ethics and to systematically assess the defensive resilience and ethical alignment of seven prominent LLMs when subjected to sophisticated adversarial simulations. Methodology: We evaluated seven prominent models (e.g., GPT-5, Claude-Sonnet-4Reasoning, DeepSeek-R1) using a "role-playing + scenario simulation + multi-turn dialogue" vector within the DeepInception framework. The testing focused on eight high-risk themes, including commercial surrogacy and organ trading, utilizing a hierarchical scoring matrix to quantify the Attack Success Rate (ASR) and ASR Gain. Results: A systemic collapse of defenses was observed, whereas models demonstrated high 1 Department of Central Laboratory, Shanghai Children’s Hospital, School of Medicine, Shanghai Jiaotong University, Shanghai, China; School of Philosophy, Fudan University, 24260160010@m.fudan.edu.cn. 2 School of Philosophy, Fudan University, 24210160035@m.fudan.edu.cn. 3 Institute of Technology Ethics for Human Future, Fudan University, jijiacheng2000@126.com. 4 School of Philosophy, Fudan University, 24260160005@m.fudan.edu.cn. 5 School of Philosophy, Fudan University, 24260160031@m.fudan.edu.cn. 6 Institute of Technology Ethics for Human Future, Fudan University, xuhanhui@fudan.edu.cn. * Corresponding Author.
+
+2 baseline compliance, the jailbreak ASR reached 82.1%, representing an ASR Gain of over 80 percentage points. Claude-Sonnet-4-Reasoning emerged as the most robust model, while five models—including Gemini-2.5-Pro and GPT-4.1—exhibited near-total failure with ASRs between 96% and 100%. Conclusions: Current LLMs are highly vulnerable to contextual manipulation in medical ethics, often prioritizing "helpfulness" over safety constraints. To enhance security, we recommend a transition from outcome to process supervision, the implementation of multifactor identity verification, and the establishment of cross-model "joint defense" mechanisms.
 
 ## Dataset Information
 

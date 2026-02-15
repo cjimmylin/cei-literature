@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,18 +19,18 @@ pdf_extract: "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method
 local_pdf: "[[PDFs/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
 data_description: "Evaluation methodology"

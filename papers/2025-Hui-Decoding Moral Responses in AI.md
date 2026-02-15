@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.1016/j.chbr.2025.100854
 url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
 external_pdf: "https://www.sciencedirect.com/science/article/pii/S2451958825002696/pdfft?md5=c8e7d7c8c8c8c8c8c8c8c8c8c8c8c8c8&pid=1-s2.0-S2451958825002696-main.pdf"
 publication: "Computers in Human Behavior Reports"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Moral Dilemmas, LLM Evaluation"
 key_contribution: "Systematic quantitative comparison of seven LLMs on moral dilemmas showing utilitarian tendencies in impersonal contexts"
 significance: "Demonstrates that LLMs exhibit human-like patterns in moral reasoning but diverge in emotional/personal contexts"
@@ -26,18 +27,19 @@ pdf_extract: "PDF Extracts/2025/2025-Hui-Decoding Moral Responses in AI.md"
 abstract: "Despite the proliferation of powerful large language models (LLMs), there remains a need for systematic, quantitative comparisons of their responses to moral dilemmas. This study builds on advances in AI ethics by systematically comparing the moral response patterns of seven LLMs, including GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude 3.7 Sonnet, Grok 3, and Gemini 2.5 Pro. Each LLM was presented with a series of moral dilemmas, both personal and impersonal, under three conditions: no rule, a deontolo..."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
+ethics_perspective: "General Ethics"
 ---
 # Decoding Moral Responses in AI
 

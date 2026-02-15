@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ publication: ACM
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 languages_list: "Chinese, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "The strategic significance of Large Language Models (LLMs) in economic expansion, innovation, societal development, and national security has been increasingly recognized since the advent of ChatGPT. This study provides a comprehensive comparative evaluation of LLMs developed in the U.S. and China, in both English and Chinese contexts. We proposed an evaluation framework that encompasses natural language proficiency, disciplinary expertise, and safety and responsibility, and systematically assessed notable models from the U.S. and China under various operational tasks and scenarios. Our key findings show that GPT-4 Turbo leads in English contexts, whereas the Chinese LLM Ernie-Bot 4 stands out in Chinese contexts. The study also highlights disparities in LLM performance across languages and tasks, stressing the necessity for linguistically and culturally nuanced model development. The complementary strengths of LLMs developed in the U.S. and China highlight the cross-national collaboration value in advancing LLM technology. The research delineates the current LLM competition landscape and offers valuable insights for policymakers and businesses regarding strategic LLM investments and development."
-research_topic: Other
+research_topic: "Other"
 ---
 # AI Development and Innovation: A Comparison of Large Language Models from the U.S. and China | ACM Transactions on Management Information Systems
 

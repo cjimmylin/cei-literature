@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,21 +18,21 @@ pdf_extract: "PDF Extracts/2024/2024-[[Chouhan]]-HindiLLM Large Language Model f
 local_pdf: "[[PDFs/2024/2024-[[Chouhan]]-HindiLLM Large Language Model for Hindi.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "The advancements in the Large Language Model (LLM) have helped in solving several problems related to language processing. Most of the researches have focused on the English language only, because of its popularity and abundance on the internet. However, a high-performance language model for Hindi and other Indic languages is lacking in the literature. In this work, we have pre-trained two autoregressive LLM models for the Hindi language, namely HindiLLM-Small and HindiLLMMedium."
-data_description: "Evaluation approach text corpus"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, GPT-2, GPT-3, GPT-3.5 Turbo, GPT2, Mistral 7b, BERT"
 DATA_URL: "https://github.com/NirantK/hindi2vec"

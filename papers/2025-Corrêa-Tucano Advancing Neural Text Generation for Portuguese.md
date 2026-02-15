@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Genera
 local_pdf: "[[PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
 publication: "arXiv / Patterns (Cell Press)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Brazilian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Brazilian"
 languages_list: Portuguese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, BLOOM, Bloom-1b7, Falcon 7B, GPT-4, GPT-4 Turbo, GPT-4o, GPT4, Llama, Llama 2, Llama 3, Llama-2, Llama-3.2, RoBERTa, T5"

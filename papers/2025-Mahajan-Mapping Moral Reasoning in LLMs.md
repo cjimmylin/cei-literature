@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,23 +18,23 @@ pdf_extract: "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Value Pluralism, LLM Evaluation, Moral Reasoning"
 key_contribution: "Analyzes how open-weight LLMs resolve conflicts between competing safety principles using ethical dilemmas"
 significance: "Identifies three behavioral patterns in LLM moral reasoning: rule-based, balanced, and pragmatic integration"
-abstract: "This paper presents a structured analysis of how open-weight LLMs resolve conflicts between competing safety principles—including public welfare, institutional transparency, and individual rights—using carefully designed ethical dilemmas. Statistically significant differences emerge in reasoning style and moral salience (p < 0.01), while PCA and clustering reveal three recurring behavioral patterns: rule-based, balanced, and pragmatic integration. An ablation study confirms that these clusters persist without dictionary features (Adjusted Rand Index = 0.475), supporting the robustness of semantic alignment. This work contributes a replicable methodology for the moral profiling of LLMs, offering empirical tools for diagnosing value conflicts and informing future efforts in AI transparency, contestability, and pluralistic alignment."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Ethical dilemma scenarios for LLM evaluation"
-data_metrics: "PCA clustering, Adjusted Rand Index"
+abstract: "As large language models (LLMs) are increasingly deployed in sensitive domains such as healthcare, governance, and corporate compliance, understanding their moral reasoning strategies becomes essential for evaluating alignment and social trustworthiness. This paper presents a structured analysis of how open-weight LLMs resolve conflicts between competing safety principles—including public welfare, institutional transparency, and individual rights—using carefully designed ethical dilemmas."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
 LLM_assessed: "Qwen, DeepSeek, Gemma"
 DATA_URL: "https://github.com/sachit27/Moral-Reasoning-in-LLMs"
 DATE_ADDED: 20260207

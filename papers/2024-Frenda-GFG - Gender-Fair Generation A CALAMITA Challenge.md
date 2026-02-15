@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,19 +17,19 @@ publication: "arXiv / CLiC-it 2024"
 pdf_extract: "PDF Extracts/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md"
 local_pdf: "[[PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Italian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: "English, Italian"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,24 +16,24 @@ authors: "Bokai Chen; Weiwei Zheng; Liang Zhao; Xiaojun Ding"
 doi: 10.1057/s41599-025-04657-7
 url: "https://www.nature.com/articles/s41599-025-04657-7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PYP5EUPP/Chen et al. - 2025 - Leveraging large language models to assist philosophical counseling prospective techniques, value,.pdf"
-national_ethnic_cultural: N/A
-religious_values: "Confucianism"
-religious_values_list: "Confucianism"
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Social & Cultural Values"
 key_contribution: "Explored using LLMs for 'philosophical counseling' (logic-based therapy), analyzing potential and ethical challenges like lack of empathy."
 significance: "Investigates a niche but high-stakes application: AI as a counselor for existential/philosophical issues, raising questions about 'machine empathy' and the therapeutic alliance."
 tags: 
 abstract: "Abstract Large language models (LLMs) have emerged as transformative tools with the potential to revolutionize philosophical counseling. By harnessing their advanced natural language processing and reasoning capabilities, LLMs offer innovative solutions to overcome limitations inherent in traditional counseling approaches—such as counselor scarcity, difficulties in identifying mental health issues, subjective outcome assessment, and cultural adaptation challenges. In this study, we explore cutti"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4"
 DATA_URL: NA

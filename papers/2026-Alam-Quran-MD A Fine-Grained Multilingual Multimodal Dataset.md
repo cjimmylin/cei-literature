@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual M
 local_pdf: "[[PDFs/2026/2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset.pdf]]"
 publication: "NeurIPS 2025 Datasets and Benchmarks Track / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
-abstract: "We present QURAN-MD, a comprehensive multimodal dataset of the Qur'an that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Qur'anic recitation, we include verse-level audio from 32 distinct reciters, reflecting diverse recitation styles and dialectical nuances."
-data_description: Dataset
+abstract: "We present QURAN-MD, a comprehensive multimodal dataset of the Qur’an that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Qur’anic recitation, we include verse-level audio from 32 distinct reciters, reflecting diverse recitation styles and dialectical nuances."
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset"

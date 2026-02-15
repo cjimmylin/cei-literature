@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,21 +19,21 @@ pdf_extract:
 local_pdf: N/A
 publication: "WebSearch: INDIC-BIAS benchmark"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Comprehensive benchmark by AI4Bharat to evaluate LLM fairness in Indian contexts across multiple Indic languages. AI4Bharat's multi-language Indian fairness benchmark. Likely covers Dravidian languages given AI4Bharat's Indic language scope."
-data_description: Benchmark
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/AI4Bharat/indic-bias"

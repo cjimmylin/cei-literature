@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2024/2024-Zeng-Leveraging Large Language Models for C
 local_pdf: "[[PDFs/2024/2024-Zeng-Leveraging Large Language Models for Code-Mixed.pdf]]"
 publication: "WebSearch: Malayalam code-mixed sentiment LLM"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Code-mixing (CM), where speakers blend languages within a single expression, is prevalent in multilingual societies but poses challenges for natural language processing due to its complexity and limited data. We propose using a large language model to generate synthetic CM data, which is then used to enhance the performance of task-specific models for CM sentiment analysis. Our results show that in SpanishEnglish, synthetic data improved the F1 score by 9."
-data_description: "Evaluation methodology"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/lindazeng979/LLM-CMSA"

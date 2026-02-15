@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2024/2024-Mago-Classification of Buddhist Verses The 
 local_pdf: "[[PDFs/2024/2024-Mago-Classification of Buddhist Verses The Efficacy.pdf]]"
 publication: "NLP4DH 2024 (4th International Conference on Natural Language Processing for Digital Humanities), pages 377-385, Miami, USA"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Buddhism
-religious_values_list: Buddhism
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: 
-data_description: N/A
+abstract: "This study assesses the ability of machine learning to classify verses from Buddhist texts into two categories: Therigatha and Theragatha, attributed to female and male authors, respectively. It highlights the difficulties in data preprocessing and the use of Transformer-based models on Devanagari script due to limited vocabulary, demonstrating that simple statistical models can be equally effective."
+data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Electra, RoBERTa, T5, T5-base, BERT"
 DATA_URL: "Dataset provided for further study (per paper)"

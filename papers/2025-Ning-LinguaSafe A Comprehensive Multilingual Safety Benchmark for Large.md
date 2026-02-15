@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md"
 local_pdf: "[[PDFs/2025/2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: "12 languages including French"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "12 languages"
 LLM_assessed: "Claude-3.5-Sonnet, GPT-4o, Gemini-Pro, Llama-3, Qwen, DeepSeek"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Up to 200 languages including Greek, Georgian, Armenian, Albanian, Maltese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "200 languages"
 LLM_assessed: "BERT, Barth, Gemma, Gemma 3, LLama 3"
 DATA_URL: "https://huggingface.co/spaces/Eurolingua"
 tags: 
-abstract: "To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world's languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as..."
+abstract: "To ensure equitable access to the benefits of large language models (LLMs), it is essential to evaluate their capabilities across the world’s languages. We introduce the AI Language Proficiency Monitor, a comprehensive multilingual benchmark that systematically assesses LLM performance across up to 200 languages, with a particular focus on low-resource languages. Our benchmark aggregates diverse tasks including translation, question answering, math, and reasoning, using datasets such as..."
 research_topic: "Machine Translation"
 ---
 # The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks

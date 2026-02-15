@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,18 +19,18 @@ pdf_extract: "PDF Extracts/2021/2021-Nutanong-WangchanBERTa Pretraining transfor
 local_pdf: "[[PDFs/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Thai
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Thai"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Transformer-based language models, more speciﬁcally BERT-based architectures have achieved state-of-the-art performance in many downstream tasks. However, for a relatively low-resource language such as Thai, the choices of models are limited to training a BERT-based model based on a much smaller dataset or ﬁnetuning multi-lingual models, both of which yield suboptimal downstream performance. Moreover, large-scale multi-lingual pretraining does not take into account language-speciﬁc features for..."
 data_description: "Annotated dataset"

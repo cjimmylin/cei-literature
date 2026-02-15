@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/2024/2024-Wang-Possibilities and challenges in the mo
 local_pdf: "[[PDFs/2024/2024-Wang-Possibilities and challenges in the moral growth of LLMs.pdf]]"
 publication: "Ethics and Information Technology"
 ethics_perspective: "Moral Development Theory"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Dewey Moral Development"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Moral Development, RLHF, Deontology, AI Alignment"
 key_contribution: "Analyzes LLM moral development through RLHF using Dewey's moral philosophy framework"
 significance: "Argues LLMs cannot reach 'character stage' of moral development due to lack of self-consciousness, emphasizing need for external governance"
-abstract: "With the rapid expansion of parameters in large language models (LLMs) and the application of Reinforcement Learning with Human Feedback (RLHF), there has been a noticeable growth in the moral competence of LLMs. However, the authors argue that LLMs' moral development through RLHF remains constrained and does not reach the 'character stage' described by Dewey, possibly due to their lack of self-consciousness. This fundamental difference underscores both the limitations of LLMs' moral growth and the challenges of applying RLHF for AI alignment, emphasizing the need for external societal governance and legal regulation."
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "With the rapid expansion of parameters in large language models (LLMs) and the application of Reinforcement Learning with Human Feedback (RLHF), there has been a noticeable growth in the moral competence of LLMs. However, several questions warrant further exploration: Is it really possible for LLMs to fully align with human values through RLHF? How can the current moral growth be philosophically contextualized?"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, GPT-3, ChatGPT"
 DATA_URL: NA

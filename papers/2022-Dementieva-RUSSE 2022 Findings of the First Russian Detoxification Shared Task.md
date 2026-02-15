@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,27 @@ external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-
 publication: "RUSSE / Dialogue Conference"
 pdf_extract: "PDF Extracts/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md"
 local_pdf: "[[PDFs/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Russian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Russian, American"
 languages_list: Russian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, T5, T5-based"
 DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
 tags: 
-abstract: "First shared task on Russian text detoxification with parallel corpus of toxic sentences and manually written non-toxic paraphrases. 6,948 training sentences from Odnoklassniki, Pikabu, and Twitter. Manual final evaluation."
+abstract: "Text detoxification is the task of rewriting a toxic text into a neutral text while preserving its original content. It has a wide range of applications, e.g. moderation of output of neural chatbots or suggesting less emotional version of posts on social networks. This paper provides a description of RUSSE-2022 competition of detoxification methods for the Russian language. This is the first competition which features (i) parallel training data and (ii) manual evaluation."
 research_topic: Other
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora
 

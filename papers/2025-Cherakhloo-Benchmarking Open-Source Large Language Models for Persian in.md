@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Cherakhloo-Benchmarking Open-Source Large L
 local_pdf: "[[PDFs/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Iranian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Iranian"
 languages_list: Persian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Falcon3, Gemma 2, Gemma2, LLaMA3.1, LLaMA3.2, Llama 2, Mistral, Qwen2, Qwen2.5"

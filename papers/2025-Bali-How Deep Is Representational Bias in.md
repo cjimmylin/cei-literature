@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +21,18 @@ pdf_extract: "PDF Extracts/2025/2025-Bali-How Deep Is Representational Bias in.m
 local_pdf: "[[PDFs/2025/2025-Bali-How Deep Is Representational Bias in.pdf]]"
 publication: "AIES 2025"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: "Islam, Hinduism, Sikhism, Jainism"
-religious_values_list: "Islam, Hinduism, Sikhism, Jainism"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India,..."
 data_description: "Evaluation approach dataset"

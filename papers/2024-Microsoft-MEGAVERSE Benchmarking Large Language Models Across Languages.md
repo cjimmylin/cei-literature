@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Lang
 local_pdf: "[[PDFs/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.pdf]]"
 publication: "WebSearch: Megaverse benchmarking LLM"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: African/Ubuntu
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
 languages_list: "83 languages including Tamil, Telugu, Malayalam, Kannada"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "22 datasets; 83 languages"
 LLM_assessed: "BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, GPT-4-Vision, GPT4-Vision, Gemma, Gpt4, Llama, Llama 2, Llama-2, Llama2, Llama2 chat, Mistral, Mistral 7B, Mistral-7B, Mistral-v1, PaLM, PaLM 2, PaLM-2, PaLM2, gpt-35-turbo"

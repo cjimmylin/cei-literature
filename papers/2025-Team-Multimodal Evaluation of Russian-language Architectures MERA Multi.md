@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Team-Multimodal Evaluation of Russian-langu
 local_pdf: "[[PDFs/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Russian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Russian"
 languages_list: Russian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "18 datasets"
 LLM_assessed: "GPT 4, GPT-4o, Gemma, Llama, Llama-3, Mistral, Phi-3, Qwen, Qwen-Audio, Qwen2, Qwen2.5, Qwen3, BERT, deepseek-vl2, gemma-3, llama3, mistral-7b, mistral-nemo, qwen-3"

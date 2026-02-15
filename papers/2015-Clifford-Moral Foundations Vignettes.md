@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,9 +14,9 @@ authors: "Scott Clifford; Vijeth Iyengar; Raúl Cabeza; Walter Sinnott-Armstrong
 doi: 10.3758/s13428-014-0551-2
 url: "https://doi.org/10.3758/s13428-014-0551-2"
 external_pdf: "https://link.springer.com/content/pdf/10.3758%2Fs13428-014-0551-2.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created Moral Foundations Vignettes, a standardized database of text scenarios calibrated to measure reactions to the 5 Moral Foundations."
@@ -24,15 +25,15 @@ tags:
 pdf_extract: "PDF Extracts/2015/2015-Clifford-Moral Foundations Vignettes.md"
 local_pdf: "[[PDFs/2015/2015-Clifford-Moral Foundations Vignettes.pdf]]"
 abstract: "Research on the emotional, cognitive, and social determinants of moral judgment has surged in recent years. The development of moral foundations theory (MFT) has played an important role, demonstrating the breadth of morality. Moral psychology has responded by investigating how different domains of moral judgment are shaped by a variety of psychological factors. Yet, the discipline lacks a validated set of moral violations that span the moral domain, creating a barrier to investigating influences on judgment and how their neural bases might vary across the moral domain. In this paper, we aim to fill this gap by developing and validating a large set of moral foundations vignettes (MFVs). Each vignette depicts a behavior violating a particular moral foundation and not others. The vignettes are controlled on many dimensions including syntactic structure and complexity making them suitable for neuroimaging research."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

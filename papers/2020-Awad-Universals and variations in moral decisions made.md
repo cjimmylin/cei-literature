@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Edmond Awad; Sohan Dsouza; Azim Shariff; Iyad Rahwan; Jean-François B
 doi: 10.1073/pnas.1911517117
 url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3UPAJU7/Awad et al. - 2020 - Universals and variations in moral decisions made in 42 countries by 70,000 participants.pdf"
-national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed 70k responses from 42 countries to sacrificial dilemmas, finding universal qualitative ordering but significant quantitative cultural variation driven by 'relational mobility'."
 significance: "Demonstrates that while some moral cognitive processes are universal, local culture (e.g., relational risks) heavily modulates the acceptability of utilitarian sacrifice."
 tags: 
 abstract: "When do people find it acceptable to sacrifice one life to save many? Cross-cultural studies suggested a complex pattern of universals and variations in the way people approach this question, but data were often based on small samples from a small number of countries outside of the Western world. Here we analyze responses to three sacrificial dilemmas by 70,000 participants in 10 languages and 42 countries. In every country, the three dilemmas displayed the same qualitative ordering of sacrifice"
 pdf: "https://www.pnas.org/content/pnas/117/5/2332.full.pdf"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
-data_metrics: "10 languages"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"

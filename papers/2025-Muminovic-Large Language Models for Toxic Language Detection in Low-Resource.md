@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Muminovic-Large Language Models for Toxic L
 local_pdf: "[[PDFs/2025/2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Bosnian, Croatian, Serbian"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, claude-3-opus"

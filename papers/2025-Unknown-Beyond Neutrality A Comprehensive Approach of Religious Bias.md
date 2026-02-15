@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,20 +21,20 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
 languages_list: "Arabic, English"
-religious_values: "Multiple Religions"
-religious_values_list: "Multiple Religions"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Gemma 2, Gemma2, InstructGPT, Llama-2, Llama, LLaMA 3, Llama-3, Llama2, Llama3, Mistral, Mistral 7B, Mistral-7B, Mixtral, Qwen, Qwen 3, Qwen3, Vicuna"
 DATA_URL: NA

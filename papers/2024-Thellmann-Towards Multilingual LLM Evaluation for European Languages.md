@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluati
 local_pdf: "[[PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 15 other European languages"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "Barth, Barth4, Bloom, Bloom-7b1, Bloomz, ChatGPT, Gemma, Gemma-1.1, Gemma-2, Llama-2, LLama-3.1, Llama, Llama-3, Mistral-7B, Mistral-NeMo, Mixtral, Mixtral-8x7B, Phi-3-medium, Phi-3-mini, Qwen, Qwen2, Vicuna, Vicuna-13, BERT, command-r, GPT-4, mistralai"

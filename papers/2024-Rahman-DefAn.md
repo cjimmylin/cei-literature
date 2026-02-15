@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ doi: 10.48550/arXiv.2406.09155
 url: "http://arxiv.org/abs/2406.09155"
 external_pdf: "http://arxiv.org/pdf/2406.09155.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Rahman-DefAn.md"
-abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, revo- lutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims that contradict established facts, deviating from prompts, and producing inconsistent responses when the same prompt is presented multiple times. Addressing these issues is challenging due to the lack of com- prehensive and easily assessable benchmark datasets. Most existing datasets are small and"
+abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, revolutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims that contradict established facts, deviating from prompts, and producing inconsistent responses when the same prompt is presented multiple times. Addressing these issues is challenging due to the lack of comprehensive and easily assessable benchmark datasets."
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated remarkable capabilities, revo- lutionizing the integration of AI in daily life applications. However, they are prone to hallucinations, generating claims | Overview: DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation A B M Ashikur Rahman∗ ICS Department KFUPM Dhahran, KSA - 31261 g202204800@kfupm.edu.sa Saeed Anwar ICS Department, KFUPM JRCAI, SDAI | Key Findings: A B M Ashikur Rahman∗ ICS Department KFUPM Dhahran, KSA - 31261 g202204800@kfupm.edu.sa Saeed Anwar ICS Department, KFUPM JRCAI, SDAIA-KFUPM Dhahran,  | Conclusions: This paper introduces a comprehensive benchmark dataset designed for evaluating hallucinations in LLMs. To facilitate accurate assessment and evaluati"
 local_pdf: [[PDFs/2024/2024-Rahman-DefAn.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "75,000 prompts"
 LLM_assessed: "GPT-3.5, Llama-2, Llama-3, Gemini, Mixtral"

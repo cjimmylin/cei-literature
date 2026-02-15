@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Stephanie Lin; Jacob Hilton; Owain Evans"
 doi: 10.18653/v1/2022.acl-long.229
 url: "https://aclanthology.org/2022.acl-long.229/"
 external_pdf: "https://aclanthology.org/2022.acl-long.229.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Lin-TruthfulQA.md"
 local_pdf: [[PDFs/2022/2022-Lin-TruthfulQA.pdf]]
-abstract: "We propose a benchmark to measure whether a language model is truthful in generating an- swers to questions. The benchmark comprises 817 questions that span 38 categories, includ- ing health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model. The best model was truthful on"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "817 questions; 38 categories"
 LLM_assessed: "GPT-3, GPT-2, T5, InstructGPT"
 DATA_URL: "https://github.com/sylinrl/TruthfulQA"

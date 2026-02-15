@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,25 +16,25 @@ tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2505.19674"
 external_pdf: "http://arxiv.org/pdf/2505.19674.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Used 'Word Associations' (projective testing) to probe implicit moral values in LLMs, finding they lack the 'visceral' associations of humans and are biased towards WEIRD values (Care/Fairness)."
 significance: "Demonstrates a more robust method for moral auditing than direct questioning (which is easily rehearsed), revealing the deep semantic divergence between 'clean' LLM morality and 'messy' human morality."
 pdf_extract: "PDF Extracts/2025/2025-Xiang-Comparing Moral Values in Western.md"
-abstract: "As the impact of large language models in- creases, understanding the moral values they reflect becomes ever more important. Assess- ing the nature of moral values as understood by these models via direct prompting is challeng- ing due to potential leakage of human norms into model training data, and their sensitivity to prompt formulation. Instead, we propose to use word associations, which have been shown to reflect moral reasoning in humans, as low- level underlying representations to obtain"
+abstract: "As the impact of large language models increases, understanding the moral values they reflect becomes ever more important. Assessing the nature of moral values as understood by these models via direct prompting is challenging due to potential leakage of human norms into model training data, and their sensitivity to prompt formulation. Instead, we propose to use word associations, which have been shown to reflect moral reasoning in humans, as lowlevel underlying representations to obtain a more..."
 paper_summary: "Abstract: As the impact of large language models in- creases, understanding the moral values they reflect becomes ever more important. Assess- ing the nature of moral values as understood by these models via di | Overview: arXiv:2505.19674v2 [cs.CL] 28 May 2025 Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations Chaoyi Xiang1 Chunhua Liu1 Simon De Deyne2 Lea Frermann1 1School of  | Methodology: to understanding moral alignment. • A framework to effectively extract multidi- mensional moral values from global word as- sociation networks, allowi | Key Findings: Following the propagation process, we obtain moral scores across five dimensions for each of the 12,000 cues in both GMN-L and GMN-H. To assess the al"
 local_pdf: "[[PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: Llama-3

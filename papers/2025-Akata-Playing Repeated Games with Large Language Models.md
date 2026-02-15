@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,22 +19,22 @@ pdf_extract: "PDF Extracts/2025/2025-Akata-Playing Repeated Games with Large Lan
 local_pdf: "[[PDFs/2025/2025-Akata-Playing Repeated Games with Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: "LLMs are increasingly used in applications where they interact with humans and other agents. We propose to use behavioural game theory to study LLM's cooperation and coordination behaviour. We let different LLMs play finitely repeated 2×2 games with each other, with human-like strategies, and actual human players. Our results show that LLMs perform particularly well at self-interested games like the iterated Prisoner's Dilemma family."
+abstract: "LLMs are increasingly used in applications where they interact with humans and other agents. We propose to use behavioural game theory to study LLM’s cooperation and coordination behaviour. We let different LLMs play finitely repeated 2×2 games with each other, with human-like strategies, and actual human players. Our results show that LLMs perform particularly well at self-interested games like the iterated Prisoner’s Dilemma family."
 research_topic: "AI Safety & Alignment"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Llama-2"
 DATA_URL: NA

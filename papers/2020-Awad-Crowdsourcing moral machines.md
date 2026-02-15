@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Edmond Awad; Sohan Dsouza; Jean-François Bonnefon; Azim Shariff; Iyad
 doi: 10.1145/3339904
 url: "https://dl.acm.org/doi/10.1145/3339904"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3339904"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing experiment to gather human perspectives on how autonomous machines should handle moral dilemmas."
 significance: "Laid the groundwork for the largest cross-cultural study of machine ethics, providing the data necessary to understand regional variations in moral intuition for autonomous vehicle regulation."
 tags: 
 abstract: "A platform for creating a crowdsourced picture of human opinions on how machines should handle moral dilemmas."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmar
 local_pdf: "[[PDFs/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Polish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, Llama, Llama-2, Llama-3, Llama-3.1, Mistral, Mistral Large, Mistral- Large, Mistral-7B, Mistral-Large, Mixtral, Qwen, Qwen2, WizardLM, gemma, GPT-2, gpt2, mistralai, phi-1, phi-1 1, phi-1_5"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: "International Journal of Interactive Mobile Technologies"
 pdf_extract: "PDF Extracts/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Albanian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "mBERT, XLM-RoBERTa"
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "This paper aims to advance AI-based hate speech (HS) detection in the Albanian language, which is resource-limited in natural language processing (NLP). Addressing the challenge of limited data, we developed a human-annotated dataset of over 11,000 comments, carefully curated from various Albanian social media platforms, containing a substantial number of HS instances. The dataset was annotated using a detailed two-layer taxonomy to capture the complex dimensions of HS."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration

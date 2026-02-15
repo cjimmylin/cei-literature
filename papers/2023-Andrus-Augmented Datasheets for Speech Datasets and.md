@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ authors: "McKane Andrus"
 doi: 10.1145/3593013.3594049
 url: "https://dl.acm.org/doi/10.1145/3593013.3594049"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/GRACZJJQ/Andrus and others - 2023 - Augmented Datasheets for Speech Datasets and Ethical Decision-Making.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Machine Ethics"
 key_contribution: "Proposed 'augmented datasheets' for speech datasets including new fields for speaker demographics and ethical considerations, specifically for speech technology."
 significance: "Adapts the general 'datasheets for datasets' framework to the specific high-stakes domain of voice AI, addressing issues like accent bias and speaker consent."
 tags: 
-abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT);\nhowever, the lack of diversity of the underlying training data can lead to\nserious limitations in building equitable and robust SLT products, especially\nalong dimensions of language, accent, dialect, variety, and speech impairment -\nand the intersectionality of speech features with socioeconomic and demographic\nfeatures. Furthermore, there is often a lack of oversight on the underlying\ntraining data - commonly built on massive web-crawling and/or publicly\navailable speech - with regard to the ethics of such data collection. To\nencourage standardized documentation of such speech data components, we\nintroduce an augmented datasheet for speech datasets, which can be used in\naddition to \"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT); however, the lack of diversity of the underlying training data can lead to serious limitations in building equitable and robust SLT products, especially along dimensions of language, accent, dialect, variety, and speech impairment—and the intersectionality of speech features with socioeconomic and demographic features. Furthermore, there is often a lack of oversight on the underlying training data—commonly built on..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT"
 DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"

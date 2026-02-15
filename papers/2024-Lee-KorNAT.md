@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Jiyoung Lee; Minwoo Kim; Seungho Kim; Junghwan Kim; Seunghyun Won; Hwa
 doi: 10.18653/v1/2024.findings-acl.666
 url: "https://aclanthology.org/2024.findings-acl.666/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/K6EDWHWM/Lee et al. - 2024 - KorNAT LLM Alignment Benchmark for Korean Social Values and Common Knowledge.pdf"
-national_ethnic_cultural: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Korean"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Korean, AI Safety & Alignment"
 key_contribution: "Created KorNAT, a benchmark for 'national alignment' with South Korea, comprising social values (survey-based) and common knowledge (textbook-based)."
 significance: "Defines 'National Alignment' as a distinct goal from 'Human Alignment', showing that general models often fail on specific cultural norms (Korean values) even if they are generally 'helpful'."
 tags: 
-abstract: "For Large Language Models (LLMs) to be effectively deployed in a specific country, they must possess an understanding of the nation's culture and basic knowledge. To this end, we introduce National Alignment, which measures an alignment between an LLM and a targeted country from two aspects: social value alignment and common knowledge alignment. Social value alignment evaluates how well the model understands nation-specific social values, while common knowledge alignment examines how well the mo"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "For Large Language Models (LLMs) to be effectively deployed in a specific country, they must possess an understanding of the nation’s culture and basic knowledge. To this end, we introduce National Alignment, which measures an alignment between an LLM and a targeted country from two aspects: social value alignment and common knowledge alignment. Social value alignment evaluates how well the model understands nation-specific social values, while common knowledge alignment examines how well the..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"

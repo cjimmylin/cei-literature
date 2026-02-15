@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,21 +17,22 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042037/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11042037&blobtype=pdf"
 publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md"
+local_pdf: "N/A"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "English, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, DeBERTa, DeBERTa-based, GPT-3"
 DATA_URL: "https://github.com/KhouloudMN97/A-Survey-on-Multi-lingual-"

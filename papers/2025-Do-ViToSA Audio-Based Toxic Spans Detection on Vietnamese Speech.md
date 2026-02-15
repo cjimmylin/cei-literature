@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ pdf_extract: "PDF Extracts/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection
 local_pdf: "[[PDFs/2025/2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.pdf]]"
 publication: "arXiv / INTERSPEECH 2025"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT"

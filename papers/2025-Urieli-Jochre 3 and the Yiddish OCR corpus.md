@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ pdf_extract: "PDF Extracts/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.
 local_pdf: "[[PDFs/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Yiddish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "186k tokens; 660m word"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://gitlab.com/jochre/corpora/jochre-yiddish-corpus"
 tags: 
 abstract: "We describe the construction of a publicly available Yiddish OCR Corpus, and describe and evaluate the open source OCR tool suite Jochre 3, including an Alto editor for corpus annotation, OCR software for Alto OCR layer generation, and a customizable OCR search engine. The current version of the Yiddish OCR corpus contains 658 pages, 186K tokens and 840K glyphs. The Jochre 3 OCR tool uses various fine-tuned YOLOv8 models for top-down page layout analysis, and a custom CNN network for glyph..."
-research_topic: Other
+research_topic: "Other"
 ---
 # Jochre 3 and the Yiddish OCR corpus
 

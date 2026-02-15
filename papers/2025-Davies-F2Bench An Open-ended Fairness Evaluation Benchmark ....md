@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md"
 local_pdf: "[[PDFs/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese, Japanese"
 languages_list: "Chinese, English, Japanese, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
-data_metrics: "Not specified"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness text corpus"
+data_metrics: "2,568 instances"
 LLM_assessed: "ChatGPT, DeepSeek, DeepSeek 1, DeepSeek-V3, GPT-4, Gemma, Gemma2, LLaMA2, Llama, Qwen 2.5, Qwen2, Qwen2.5, BERT"
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: ". Warning: This paper contains content that may be offensive or harmful With the growing adoption of large language models (LLMs) in NLP tasks, concerns about their fairness have intensified. Yet, most existing fairness benchmarks rely on closed-ended evaluation formats, which diverge from realworld open-ended interactions. These formats are prone to position bias and introduce a 'minimum score' effect, where models can earn partial credit simply by guessing."
 ethics_perspective: "Bias & Fairness"
 ---
 # F2Bench: An Open-ended Fairness Evaluation Benchmark ...

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,26 @@ pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-Alif Advancing Urdu Large Langu
 local_pdf: "[[PDFs/2025/2025-[[Unknown]]-Alif Advancing Urdu Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Developing a high-performing large language models (LLMs) for low-resource languages such as Urdu, present several challenges. These challenges include the scarcity of high-quality datasets, multilingual inconsistencies, and safety concerns. Existing multilingual LLMs often address these issues by translating large volumes of available data. However, such translations often lack quality and cultural nuance while also incurring significant costs for data curation and training."
-data_description: "Text corpus"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, ChatGPT, Cohere-Aya, Dolly, GPT-4o, Gemma, GPT-4, Llama, Llama-3.1, Mistral- 7B, Mistral-7B, Qwen-2.5, Qwen2.5, BERT, llama."
 DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
 ethics_perspective: "AI Safety & Alignment"
+research_topic: "Machine Translation"
 ---
 # Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation
 

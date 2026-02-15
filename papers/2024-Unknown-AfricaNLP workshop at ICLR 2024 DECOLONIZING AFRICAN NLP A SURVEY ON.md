@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ publication: OpenReview
 pdf_extract: "PDF Extracts/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md"
 local_pdf: "[[PDFs/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: African/Ubuntu
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
-religious_values: "African indigenous spirituality / Ubuntu philosophy"
-religious_values_list: "African indigenous spirituality / Ubuntu philosophy"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "This research paper explores the imperative to decolonize African Natural Language Processing (NLP) by addressing power dynamics and data colonialism within technology development. Based on the historical context of colonialism in Africa, the paper examines the pervasive influence of colonial traces on the research and development of NLPs, highlighting the marginalization of African languages, cultures, and voices."
 research_topic: "NLP & Representation Learning"
 ---
 # AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER

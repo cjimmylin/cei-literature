@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,18 +20,18 @@ pdf_extract: "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Lan
 local_pdf: "[[PDFs/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.pdf]]"
 publication: "AI & Society (Springer) / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Note: This paper includes examples of potentially offensive content related to religious bias, presented solely for academic purposes. The widespread adoption of language models highlights the need for critical examinations of their inherent biases, particularly concerning religion. This study systematically investigates religious bias in both language models and text-to-image generation models, analyzing both opensource and closed-source systems."
 data_description: "Evaluation approach"

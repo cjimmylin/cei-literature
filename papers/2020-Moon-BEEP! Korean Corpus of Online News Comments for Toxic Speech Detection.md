@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Com
 local_pdf: "[[PDFs/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.pdf]]"
 publication: "arXiv / SocialNLP@ACL 2020"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, German, Italian"
 languages_list: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ url: "https://doi.org/10.1080/07268602.2024.2380661"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3WM3XWB/Rodríguez Louro and Collard - 2024 - The Yarning Corpus Aboriginal English in Southwest Western Australia.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
-national_ethnic_cultural: Australian/Aboriginal
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American, Australian/Aboriginal, Multicultural/Cross-cultural"
+religious_values: "Indigenous Spirituality"
+religious_values_list: "Indigenous Spirituality"
+moral_psychology: "N/A"
 newtags: Australian/Aboriginal
 tags: 
 research_topic: Other
-abstract: "The Yarning Corpus consists of acrolectal Aboriginal English data gathered in metropolitan Perth, WA. It features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. Using this corpus, we sought to uncover variation and change in Aboriginal English in Nyungar Country, Southwest WA. We designed a cross-cultural research model that allowed us to document sociolinguistic aspects of Aboriginal English 'yarning' – a First Nations cultural form of storytelling and conversation which we used to capture diverse voices in sociolinguistic research. The corpus features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. These materials amount to 517,600 words of unscripted, interactional speech data from 36 women and 22 men aged 10–88 who speak Aboriginal English as their vernacular. We focus on speakers who use Aboriginal English as their main language of communication, and who do not speak ancestral languages fluently. The Yarning Corpus allowed us to enrich sociolinguistic research methods by utilizing an approach grounded in a relational ethic. It also made it possible to explore the quotative system of Aboriginal English, and to contribute to more inclusive models in the design of medical media and Artificial Intelligence-powered technologies for First Nations communities."
+abstract: "The Yarning Corpus consists of acrolectal Aboriginal English data gathered in metropolitan Perth, WA. It features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. Using this corpus, we sought to uncover variation and change in Aboriginal English in Nyungar Country, Southwest WA. We designed a cross-cultural research model that allowed us to document sociolinguistic aspects of Aboriginal English “yarning” – a First Nations cultural form of storytelling..."
 pdf: "https://doi.org/10.1080/07268602.2024.2380661"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "517,600 words"
 LLM_assessed: NA

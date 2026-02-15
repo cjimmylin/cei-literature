@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ external_pdf: "https://johnhooker.tepper.cmu.edu/machineEthicsNonintuitive2.pdf"
 pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.md"
 local_pdf: "[[PDFs/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.pdf]]"
 publication: "AIES '18: AAAI/ACM Conference on AI, Ethics, and Society"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Modal-Logic, Machine-Ethics, Kantian-Ethics, AI-Transparency"
 key_contribution: "Formalizes Kantian deontological principles in quantified modal logic, avoiding reliance on moral intuitions"
 significance: "Provides formal logical basis for machine ethics that enables AI to explain its moral decisions"
 tags: 
-abstract: "The authors propose a deontological approach to machine ethics that avoids some weaknesses of an intuition-based system, such as that of Anderson and Anderson. In particular, it has no need to deal with conflicting intuitions, and it yields a more satisfactory account of when autonomy should be respected. They begin with a 'dual standpoint' theory of action that regards actions as grounded in reasons and therefore as having a conditional form that is suited to machine instructions. They then derive ethical principles based on formal properties that the reasons must exhibit to be coherent, and formulate the principles using quantified modal logic. The authors conclude that deontology not only provides a more satisfactory basis for machine ethics but endows the machine with an ability to explain its actions, thus contributing to transparency in AI."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
+abstract: "We propose a deontological approach to machine (or AI) ethics that avoids some weaknesses of an intuition-based system, such as that of Anderson and Anderson. In particular, it has no need to deal with conﬂicting intuitions, and it yields a more satisfactory account of when autonomy should be respected. We begin with a “dual standpoint” theory of action that regards actions as grounded in reasons and therefore as having a conditional form that is suited to machine instructions."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
 research_topic: "Machine Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 ---

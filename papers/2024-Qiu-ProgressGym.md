@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ doi: 10.48550/arXiv.2406.20087
 url: "http://arxiv.org/abs/2406.20087"
 external_pdf: "http://arxiv.org/pdf/2406.20087.pdf"
 publication: "Neural Information Processing Systems"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced ProgressGym, an experimental framework for 'progress alignment' that uses 9 centuries of historical text to teach agents to emulate the mechanics of human moral progress."
 significance: "Addresses the risk of 'value lock-in' (failing to account for future moral progress) by creating a testbed where agents must anticipate and adapt to historical shifts in moral values, rather than just mirroring contemporary static norms."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Qiu-ProgressGym.md"
-abstract: "Frontier AI systems, including large language models (LLMs), hold increasing influence over the epistemology of human users. Such influence can reinforce prevailing societal values, potentially contributing to the lock-in of misguided moral beliefs and, consequently, the perpetuation of problematic moral practices on a broad scale. We introduce progress alignment as a technical solution to mitigate this imminent risk. Progress alignment algorithms learn to emulate the mechanics of human moral pr"
+abstract: "Frontier AI systems, including large language models (LLMs), hold increasing influence over the epistemology of human users. Such influence can reinforce prevailing societal values, potentially contributing to the lock-in of misguided moral beliefs and, consequently, the perpetuation of problematic moral practices on a broad scale. We introduce progress alignment as a technical solution to mitigate this imminent risk."
 paper_summary: "Abstract: Frontier AI systems, including large language models (LLMs), hold increasing influence over the epistemology of human users. Such influence can reinforce prevailing societal values, potentially contri | Overview: ProgressGym: Alignment with a Millennium of Moral Progress Tianyi Qiu1∗† Yang Zhang1∗ Xuchuan Huang1 Jasmine Xinze Li2 Jiaming Ji1 Yaodong Yang1 1 Peking University 2 Cornell University Abstract Front | Methodology: to progress alignment is the emergence of novel concepts. While quantitative extrapolations of moral trends are relatively easy to learn from historic | Key Findings: 24 F Implementation Details of ProgressGym Challenges 25 F.1 The PG-Follow Challenge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 F. | Conclusions: In this study, we introduce progress alignment as a solution to risks of value lock-in in human-AI interactions, and build the ProgressGym framework t"
 local_pdf: [[PDFs/2024/2024-Qiu-ProgressGym.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, GPT-4"

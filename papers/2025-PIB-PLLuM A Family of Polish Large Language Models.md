@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ pdf_extract: "PDF Extracts/2025/2025-PIB-PLLuM A Family of Polish Large Language
 local_pdf: "[[PDFs/2025/2025-PIB-PLLuM A Family of Polish Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Polish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 3.5 Sonnet, Claude-3.7-Sonnet, Command-R, DeepSeek, DeepSeek-V3, GPT 4, GPT-4, GPT4, Gemma, Gemma-3, Grok-3, Llama, LLaMA 3.1, LLama-3.1, LLama-3.3, Llama 3, Llama 3.3, Llama-3, Llama-4, Llama3.1, Mistral, Mistral-7B, Mistral-Nemo, Mistral-Small, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Phi-3, Qwen, claude-3, RoBERTa"
 DATA_URL: "https://github.com/MeetKai/functionary"
 tags: 
 abstract: 
-research_topic: Other
+research_topic: "Other"
 ---
 # PLLuM: A Family of Polish Large Language Models
 

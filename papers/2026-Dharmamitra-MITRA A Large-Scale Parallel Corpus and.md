@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,18 +20,18 @@ pdf_extract: "PDF Extracts/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Co
 local_pdf: "[[PDFs/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
-religious_values: Buddhism
-religious_values_list: Buddhism
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Ancient Buddhist literature features frequent, yet often unannotated, textual parallels spread across diverse languages: Sanskrit, P¯ali, Buddhist Chinese, Tibetan, and more. The scale of this material makes manual examination prohibitive. We present the MITRA framework, which consists of a novel pipeline for multilingual parallel passage mining, MITRA-parallel, a large-scale corpus of 1.74 million parallel sentence pairs between Sanskrit, Chinese, and Tibetan, and the development of the..."
 data_description: "Multilingual benchmark annotated dataset"

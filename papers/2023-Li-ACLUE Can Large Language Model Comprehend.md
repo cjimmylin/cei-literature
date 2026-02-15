@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2023/2023-Li-ACLUE Can Large Language Model Comprehen
 local_pdf: "[[PDFs/2023/2023-Li-ACLUE Can Large Language Model Comprehend.pdf]]"
 publication: "RANLP 2023 (ALP Workshop)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
-religious_values: "Confucianism, Taoism"
-religious_values_list: "Confucianism, Taoism"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Large language models (LLMs) have showcased remarkable capabilities in understanding and generating language. However, their ability in comprehending ancient languages, particularly ancient Chinese, remains largely unexplored. To bridge this gap, we present ACLUE, an evaluation benchmark designed to assess the capability of language models in comprehending ancient Chinese. ACLUE consists of 15 tasks cover a range of skills, spanning phonetic, lexical, syntactic, semantic, inference and knowledge."
-data_description: Benchmark
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BLOOM, BLOOMZ, Baichuan, Baichuan-7B, ChatGLM, ChatGLM-6B, ChatGLM2, ChatGPT, Falcon-40B, Llama, LLaMA 36.4, T5"
 DATA_URL: "https://github.com/isen-zhang/ACLUE ; https://huggingface.co/datasets/tyouisen/aclue"

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,20 +22,20 @@ publication: "KIPS Annual Conference 2025"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Korean
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean"
 languages_list: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5"
 DATA_URL: NA

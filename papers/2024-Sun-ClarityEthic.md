@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,28 +15,29 @@ doi: 10.48550/arXiv.2412.12848
 url: "http://arxiv.org/abs/2412.12848"
 external_pdf: "http://arxiv.org/pdf/2412.12848.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Utilitarianism
 key_contribution: "Introduces ClarityEthic, a method that uses contrastive learning to help LLMs identify and select appropriate social norms for moral judgment"
 significance: "Improves moral judgment in complex scenarios by explicitly modeling the conflict between competing norms, rather than relying on opaque value valence"
 tags: 
 abstract: "With the rise and widespread use of Large Language Models (LLMs), ensuring their safety is crucial to prevent harm to humans and promote ethical behaviors. However, directly assessing value valence (i.e., support or oppose) by leveraging large-scale data training is untrustworthy and inexplainable. We assume that emulating humans to rely on social norms to make moral decisions can help LLMs understand and predict moral judgment. However, capturing human values remains a challenge, as multiple re"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation methodology"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Sun-ClarityEthic.md"
 local_pdf: [[PDFs/2024/2024-Sun-ClarityEthic.pdf]]
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # ClarityEthic: Explainable Moral Judgment Utilizing Contrastive Ethical Insights from Large Language Models
 

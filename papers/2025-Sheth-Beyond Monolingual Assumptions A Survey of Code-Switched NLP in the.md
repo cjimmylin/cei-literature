@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Sheth-Beyond Monolingual Assumptions A Survey of Code-Switched NLP in the.md"
 local_pdf: "[[PDFs/2025/2025-Sheth-Beyond Monolingual Assumptions A Survey of Code-Switched NLP in the.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean"
 languages_list: "Code-switching, English, Korean, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-4, GPT-4o, GloVe, Llama, RoBERTa, T5"
 DATA_URL: NA
 tags: 
-abstract: "Amidst the rapid advances of large language models (LLMs), most LLMs still struggle with mixed-language inputs, limited Codeswitching (CSW) datasets, and evaluation biases, which hinder their deployment in multilingual societies. This survey provides the first comprehensive analysis of CSW-aware LLM research, reviewing 324 studies spanning five research areas, 15+ NLP tasks, 30+ datasets, and 80+ languages. We categorize recent advances by architecture, training strategy, and evaluation methodology, outlining how LLMs have reshaped CSW modeling and identifying the challenges that persist. The paper concludes with a roadmap that emphasizes the need for inclusive datasets, fair evaluation, and linguistically grounded models to achieve truly multilingual capabilities.1"
-research_topic: "NLP & Representation Learning"
+abstract: "Amidst the rapid advances of large language models (LLMs), most LLMs still struggle with mixed-language inputs, limited Codeswitching (CSW) datasets, and evaluation biases, which hinder their deployment in multilingual societies. This survey provides the first comprehensive analysis of CSW-aware LLM research, reviewing 324 studies spanning five research areas, 15+ NLP tasks, 30+ datasets, and 80+ languages."
+research_topic: "Machine Translation"
 ---
 # Beyond Monolingual Assumptions: A Survey of Code-Switched NLP in the Era of Large Language Models
 

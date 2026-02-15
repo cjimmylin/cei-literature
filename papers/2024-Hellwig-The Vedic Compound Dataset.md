@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2024/2024-Hellwig-The Vedic Compound Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Hellwig-The Vedic Compound Dataset.pdf]]"
 publication: "MWE-UD Workshop @ LREC-COLING 2024"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Hinduism
-religious_values_list: Hinduism
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Iranian"
+religious_values: "Hinduism"
+religious_values_list: "Hinduism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
-abstract: "> First annotated compound dataset from Vedic Sanskrit, covering five of six basic compound types. Provides resources for computational study of Vedic Hindu texts. Useful for downstream NLP benchmarking on ancient Hindu religious language."
-data_description: Dataset
+abstract: "This paper introduces the Vedic Compound Dataset (VCD), the first resource providing annotated compounds from Vedic Sanskrit, a South Asian Indo-European language used from ca. 1500 to 500 BCE. The VCD aims at facilitating the study of language change in early Indo-Iranian and offers comparative material for quantitative cross-linguistic research on compounds. The process of annotating Vedic compounds is complex as they contain five of the six basic types of compounds defined by Scalise and..."
+data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/SvenSellmer/VedicCompoundDataset"

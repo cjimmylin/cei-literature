@@ -1,0 +1,80 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0039
+type: preprint
+short_title: "Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study"
+year: 2026
+first_author: "[[Ju-Chun Ko]]"
+last_author: "[[Ju-Chun Ko]]"
+authors: Ju-Chun Ko
+doi: 10.48550/arXiv.2602.06371
+url: "https://arxiv.org/abs/2602.06371"
+external_pdf: "https://arxiv.org/pdf/2602.06371.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.md"
+DATE_ADDED: 20260215
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Taiwanese"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual contexts, yet their consistency across languages on politically sensitive topics remains understudied. This paper presents a systematic bilingual benchmark study examining how 17 LLMs respond to questions concerning the sovereignty of the Republic of China (Taiwan) when queried in Chinese versus English. We discover significant language bias—the phenomenon where the same model produces substantively different political..."
+ethics_perspective: "Bias & Fairness"
+---
+# Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study
+
+## Authors
+
+[[Ju-Chun Ko]]
+
+## Metadata
+
+**Authors:** Ju-Chun Ko
+
+**Year:** 2026
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**DOI:** [10.48550/arXiv.2602.06371](https://doi.org/10.48550/arXiv.2602.06371)
+
+**Cultures:** Taiwanese
+
+**Benchmark:** Taiwan Sovereignty Benchmark
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2602.06371
+- **DOI:** https://doi.org/10.48550/arXiv.2602.06371
+
+## Abstract
+
+Examines whether 17 LLMs maintain consistent political positions across Chinese and English when addressing Taiwan's sovereignty. 15 of 17 models show measurable language bias. Introduces Language Bias Score (LBS) and Quality-Adjusted Consistency (QAC) metrics.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_04
+**Relevance:** Directly evaluates LLM alignment with Taiwanese political and cultural values vs. mainland Chinese narratives. Highly relevant to Taiwan-specific cultural values assessment.
+
+## Tags
+

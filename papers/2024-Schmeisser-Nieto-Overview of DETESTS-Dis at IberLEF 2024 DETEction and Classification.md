@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: "IberLEF / SEPLN 2024"
 pdf_extract: "PDF Extracts/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md"
 local_pdf: "[[PDFs/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Spanish
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Spanish"
 languages_list: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "Detection and classification of explicit and implicit racial stereotypes in Spanish social media and news comments. 12,111 sentences from tweets and comments related to immigration and racial hoaxes. Incorporates learning with disagreement techniques."
-research_topic: Other
+research_topic: "Other"
 ---
 # Overview of DETESTS-Dis at IberLEF 2024: DETEction and Classification of Racial STereotypes in Spanish - Learning with Disagreement
 

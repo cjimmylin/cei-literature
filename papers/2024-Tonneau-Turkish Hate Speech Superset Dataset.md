@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,21 +19,21 @@ pdf_extract: "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Datase
 local_pdf: "[[PDFs/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.pdf]]"
 publication: HuggingFace
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: "Aggregated superset of Turkish hate speech datasets available on HuggingFace, combining multiple existing Turkish hate speech resources. Consolidated Turkish hate speech dataset combining multiple sources. Useful for comprehensive toxicity and hate speech evaluation in Turkish LLMs."
-data_description: Dataset
+abstract: "Social media posts containing hate speech are reproduced and redistributed at an accelerated pace, reaching greater audiences at a higher speed. We present a machine learning system for automatic detection of hate speech in Turkish, along with a hate speech dataset consisting of tweets collected in two separate domains. We first adopted a definition for hate speech that is in line with our goals and amenable to easy annotation; then designed the annotation schema for annotating the collected..."
+data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"

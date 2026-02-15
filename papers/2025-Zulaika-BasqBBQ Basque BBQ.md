@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,26 @@ external_pdf: "https://arxiv.org/pdf/2308.10684v2.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zulaika-BasqBBQ Basque BBQ.md"
 local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ Basque BBQ.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "In this paper, we propose a new metric to measure the SOS bias in language models (LMs). Then, we validate the SOS bias and investigate the effectiveness of removing it. Finally, we investigate the impact of the SOS bias in LMs on their performance and fairness on hate speech detection. Our results suggest that all the inspected LMs are SOS biased. And that the SOS bias is reflective of the online hate experienced by marginalized identities."
 research_topic: Other
-data_description: N/A
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, ALBERT"
 DATA_URL: "https://huggingface.co/datasets/sst"
+ethics_perspective: "Bias & Fairness"
 ---
 # BasqBBQ (Basque BBQ)
 
@@ -58,7 +60,7 @@ DATA_URL: "https://huggingface.co/datasets/sst"
 
 ## Abstract
 
-*(To be fetched)*
+In this paper, we propose a new metric to measure the SOS bias in language models (LMs). Then, we validate the SOS bias and investigate the effectiveness of removing it. Finally, we investigate the impact of the SOS bias in LMs on their performance and fairness on hate speech detection. Our results suggest that all the inspected LMs are SOS biased. And that the SOS bias is reflective of the online hate experienced by marginalized identities. The results indicate that using debias methods from the literature worsens the SOS bias in LMs for some sensitive attributes and improves it for others. Finally, Our results suggest that the SOS bias in the inspected LMs has an impact on their fairness of hate speech detection. However, there is no strong evidence that the SOS bias has an impact on the performance of hate speech detection.
 
 ## Dataset Information
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety 
 local_pdf: "[[PDFs/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indonesian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indonesian"
 languages_list: "Indonesian, Javanese, Minangkabau, Sundanese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 312, GPT-4o, Gemma, Gemma2, LLaMA 3.116, LLaMA-3.1, Llama, Qwen, Qwen-14B, Qwen-14B14, Qwen-7B, Qwen2.5, claude-3, claude-3-haiku, gemma-2"

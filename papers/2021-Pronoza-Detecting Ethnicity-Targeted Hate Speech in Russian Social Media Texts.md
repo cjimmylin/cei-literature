@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,20 +20,20 @@ external_pdf: "https://riunet.upv.es/bitstream/10251/183078/3/PronozaPanichevaKo
 publication: "Information Processing and Management (Elsevier)"
 pdf_extract: "PDF Extracts/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md"
 local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Russian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Russian"
 languages_list: Russian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/hse-scila/ethnohate-project"

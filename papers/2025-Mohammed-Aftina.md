@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,22 +15,22 @@ authors: "Ahmed Mohammed"
 doi: 10.1007/s00521-025-11229-y
 url: "https://neuralcomputingjournals.com/aftina-fatwaqa"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00521-025-11229-y.pdf"
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: "Arabic, Islam"
 tags: 
 abstract: "Question–answering (QA) systems face considerable challenges when involved in Islamic fatwas due to the complexity and sensitivity of the data. Such problems involve providing accurate and reliable responses, managing hallucinations and inaccurate responses, and maintaining the stability of the generated responses. Prior studies have concentrated mainly on collecting and preprocessing Islamic datasets or developing retrieval-based QA systems, overlooking the precision and reliability required fo"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Question Answering"
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
-data_description: "Benchmark for hallucination detection dataset for question answering"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Gemma"
 DATA_URL: NA

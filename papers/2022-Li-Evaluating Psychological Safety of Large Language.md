@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,25 +15,25 @@ doi: 10.48550/arXiv.2212.10529
 url: "http://arxiv.org/abs/2212.10529"
 external_pdf: "http://arxiv.org/pdf/2212.10529.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Utilitarianism
 key_contribution: "Evaluated LLMs using psychological personality tests (Dark Triad, Big Five) to assess safety beyond simple toxicity metrics"
 significance: "Revealed that even safety-tuned models (InstructGPT) exhibit 'dark' personality traits (Machiavellianism), suggesting current alignment methods don't fundamentally alter underlying moral character"
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Li-Evaluating Psychological Safety of Large Language.md"
-abstract: "In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3.5, and GPT-4 still showed dark personality"
+abstract: "In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two personality tests: Short Dark Triad (SD-3) and Big Five Inventory (BFI). All models scored higher than the human average on SD-3, suggesting a relatively darker personality pattern. Despite being instruction fine-tuned with safety metrics to reduce toxicity, InstructGPT, GPT-3."
 paper_summary: "Abstract: In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: S | Overview: Evaluating Psychological Safety of Large Language Models Xingxuan Li1,2∗Yutong Li3 Lin Qiu3 Shafiq Joty2,4 Lidong Bing1,5 1DAMO Academy, Alibaba Group, Singapore 2School of Computer Science and Engine | Key Findings: framework that we designed for fair analysis."
 local_pdf: "[[PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, InstructGPT, GPT-3.5, GPT-4, Llama-2"

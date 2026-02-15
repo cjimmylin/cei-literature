@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiativ
 local_pdf: "[[PDFs/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indonesian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "137 datasets"
 LLM_assessed: "BERT, BLOOMZ, Bloom, GPT-2"

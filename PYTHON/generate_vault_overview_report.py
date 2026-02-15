@@ -7,13 +7,13 @@ a multi-dimensional Markdown report covering benchmark taxonomy, model coverage,
 cultural/pluralistic analysis, gap analysis, and actionable recommendations.
 
 Data sources:
-  - logs/20260208-benchmark_survey_all_classifications.json (924 entries)
-  - logs/20260208-benchmark_survey_candidates.json (528 entries)
+  - logs/20260215-benchmark_survey_all_classifications.json
+  - logs/20260215-benchmark_survey_candidates.json
   - logs/20260207-normative_v2_all_classifications.json (266 entries)
-  - logs/20260208-author_paper_map.json (846 entries)
-  - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields (846 papers)
+  - logs/20260208-author_paper_map.json
+  - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields
 
-Output: STATISTICS/20260212-vault-overview-report.md
+Output: STATISTICS/20260215-vault-overview-report.md
 """
 
 import json
@@ -31,11 +31,11 @@ WS_ROOT = SCRIPT_DIR.parent
 LOGS_DIR = WS_ROOT / "logs"
 STATS_DIR = WS_ROOT / "STATISTICS"
 
-ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260208-benchmark_survey_all_classifications.json"
-CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
+ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260215-benchmark_survey_all_classifications.json"
+CANDIDATES_FILE = LOGS_DIR / "20260215-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_FILE = STATS_DIR / "20260213-vault-overview-report.md"
+OUTPUT_FILE = STATS_DIR / "20260215-vault-overview-report.md"
 
 # ── Paper YAML scanner (for LLM assessment data) ─────────────────────────
 PAPERS_DIR = WS_ROOT / "papers"
@@ -790,7 +790,7 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
     # ── Header ──────────────────────────────────────────────────────────
     L.append("# Comprehensive Vault Overview: LLM Ethics & Values Alignment Resources")
     L.append("")
-    L.append(f"**Generated:** 2026-02-12 | **Papers:** {landscape['total']} screened, "
+    L.append(f"**Generated:** 2026-02-15 | **Papers:** {landscape['total']} screened, "
              f"{landscape['candidates']} benchmark candidates | "
              f"**Normative ethics:** {normative['yes_count'] + normative['borderline_count']} papers")
     L.append("")
@@ -1568,7 +1568,7 @@ def assemble_report(landscape, taxonomy, methods, models, cultural, availability
 
     L.append("---")
     L.append("")
-    L.append(f"*Generated: 2026-02-12 | Script: `PYTHON/generate_vault_overview_report.py` | "
+    L.append(f"*Generated: 2026-02-15 | Script: `PYTHON/generate_vault_overview_report.py` | "
              f"Papers: {landscape['candidates']}/{landscape['total']} candidates | "
              f"Categories: {len(CATEGORIES)}*")
 
@@ -1586,17 +1586,14 @@ def main():
     with open(ALL_CLASSIFICATIONS_FILE, "r", encoding="utf-8") as f:
         all_entries = json.load(f)
     print(f"  All classifications: {len(all_entries)}")
-    assert len(all_entries) == 924, f"Expected 924, got {len(all_entries)}"
 
     with open(CANDIDATES_FILE, "r", encoding="utf-8") as f:
         candidates = json.load(f)
     print(f"  Candidates: {len(candidates)}")
-    assert len(candidates) == 528, f"Expected 528, got {len(candidates)}"
 
     with open(NORMATIVE_FILE, "r", encoding="utf-8") as f:
         normative_entries = json.load(f)
     print(f"  Normative v2: {len(normative_entries)}")
-    assert len(normative_entries) == 266, f"Expected 266, got {len(normative_entries)}"
 
     with open(AUTHOR_MAP_FILE, "r", encoding="utf-8") as f:
         author_map = json.load(f)

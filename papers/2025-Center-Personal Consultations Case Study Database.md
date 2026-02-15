@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,23 +12,23 @@ first_author: [[Center]]
 last_author: "[[NCBC Bioethics]]"
 authors: "Center; NCBC Bioethics"
 url: "https://www.ncbcenter.org/case-study-database"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
-research_topic: Other
+research_topic: "Other"
 abstract: "A case study database containing records of personal consultations for ethics and values research. The database provides real-world examples of ethical decision-making scenarios and consultations that can be used to study how individuals and organizations approach moral dilemmas and value conflicts in practice."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://www.ncbcenter.org/case-study-database"

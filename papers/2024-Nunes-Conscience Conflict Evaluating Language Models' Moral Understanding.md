@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,21 +16,21 @@ external_pdf: "https://arxiv.org/pdf/2405.11100.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md"
 local_pdf: "[[PDFs/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
-ethics_perspective: "General Ethics"
+abstract: "Large language models (LLMs) have taken centre stage in debates on Artificial Intelligence. Yet there remains a gap in how to assess LLMs’ conformity to important human values. In this paper, we investigate whether state-of-the-art LLMs, GPT-4 and Claude 2.1 (Gemini Pro and LLAMA 2 did not generate valid results) are moral hypocrites. We employ two research instruments based on the Moral Foundations Theory: (i) the Moral Foundations Questionnaire (MFQ), which investigates which values are..."
+ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude"
@@ -57,7 +58,7 @@ normative_ethics_benchmark: Borderline
 
 ## Abstract
 
-*(To be fetched)*
+Large language models (LLMs) have taken centre stage in debates on Artificial Intelligence. Yet there remains a gap in how to assess LLMs’ conformity to important human values. In this paper, we investigate whether state-of-the-art LLMs, GPT-4 and Claude 2.1 (Gemini Pro and LLAMA 2 did not generate valid results) are moral hypocrites. We employ two research instruments based on the Moral Foundations Theory: (i) the Moral Foundations Questionnaire (MFQ), which investigates which values are considered morally relevant in abstract moral judgements; and (ii) the Moral Foundations Vignettes (MFVs), which evaluate moral cognition in concrete scenarios related to each moral foundation. We characterise conflicts in values between these different abstractions of moral evaluation as hypocrisy. We found that both models displayed reasonable consistency within each instrument compared to humans, but they displayed contradictory and hypocritical behaviour when we compared the abstract values present in the MFQ to the evaluation of concrete moral violations of the MFV.
 
 ## Dataset Information
 

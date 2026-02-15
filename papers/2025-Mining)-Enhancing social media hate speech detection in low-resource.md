@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "Springer Social Network Analysis and Mining"
 pdf_extract: "PDF Extracts/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.md"
 local_pdf: "[[PDFs/2025/2025-Mining)-Enhancing social media hate speech detection in low-resource.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+national_ethnic_cultural: "N/A"
 languages_list: Albanian
-religious_values: "Multi-religious (general religious hate speech)"
-religious_values_list: "Multi-religious (general religious hate speech)"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: XLM-RoBERTa
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "Hate speech (HS) on social media exposes public discourse and community well-being. Despite its prevalence, majority of the research and technological advances have focused on rich-resourced languages. In contrast, Albanian, a language marked by dialects, limited NLP tools, and scarcity of annotated data, remains underexplored. To address this gap, this paper explores the enhancement of automatic hate speech detection in Albanian social media using advanced deep neural techniques."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI

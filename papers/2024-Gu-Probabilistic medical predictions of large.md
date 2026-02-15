@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang"
 doi: 10.1038/s41746-024-01366-4
 url: "https://www.nature.com/articles/s41746-024-01366-4"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MQMSE9SR/Gu et al. - 2024 - Probabilistic medical predictions of large language models.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 research_topic: Other
-abstract: "Large Language Models (LLMs) have shown promise in clinical applications through prompt engineering, allowing flexible clinical predictions. However, they struggle to produce reliable prediction probabilities, which are crucial for transparency and decision-making. While explicit prompts can lead LLMs to generate probability estimates, their numerical reasoning limitations raise concerns about reliability. We compared explicit probabilities from text generation to implicit probabilities derived from the likelihood of predicting the correct label token. Across six advanced open-source LLMs and five medical datasets, explicit probabilities consistently underperformed implicit probabilities in discrimination, precision, and recall. This discrepancy is more pronounced with smaller LLMs and imbalanced datasets, highlighting the need for cautious interpretation, improved probability estimation methods, and further research for clinical use of LLMs."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Large Language Models (LLMs) have shown promise in clinical applications through prompt engineering, allowing flexible clinical predictions. However, they struggle to produce reliable prediction probabilities, which are crucial for transparency and decision-making. While explicit prompts can lead LLMs to generate probability estimates, their numerical reasoning limitations raise concerns about reliability."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Applied Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Qwen, Llama-3, Gemma, Mistral, Phi"
 DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"

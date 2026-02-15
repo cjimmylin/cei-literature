@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,27 +16,27 @@ doi: 10.48550/arXiv.2412.17686
 url: "http://arxiv.org/abs/2412.17686"
 external_pdf: "http://arxiv.org/pdf/2412.17686.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a holistic survey of Large Language Model safety, examining potential risks (bias, toxicity, etc.) and associated mitigation strategies."
 significance: "Synthesizes the fragmented safety landscape into a unified overview, helping researchers navigate the 'new frontier' of AI risks in deployment."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Shi-Large Language Model Safety.md"
-abstract: "The rapid development and deployment of large language models (LLMs) have introduced a new frontier in artificial intelligence, marked by unprecedented capabilities in natural language understanding and generation. However, the increasing integration of these models into critical applications raises substantial safety concerns, necessitating a thorough examination of their potential risks and associated mitigation strategies. This survey provides a comprehensive overview of the current landscape"
+abstract: "The rapid development and deployment of large language models (LLMs) have introduced a new frontier in artificial intelligence, marked by unprecedented capabilities in natural language understanding and generation. However, the increasing integration of these models into critical applications raises substantial safety concerns, necessitating a thorough examination of their potential risks and associated mitigation strategies."
 paper_summary: "Abstract: The rapid development and deployment of large language models (LLMs) have introduced a new frontier in artificial intelligence, marked by unprecedented capabilities in natural language understanding a | Overview: Large Language Model Safety: A Holistic Survey Dan Shi1∗, Tianhao Shen1∗, Yufei Huang1, Zhigen Li1,2, Yongqi Leng1, Renren Jin1, Chuang Liu1, Xinwei Wu1, Zishan Guo1, Linhao Yu1, Ling Shi1, Bojian Jia | Methodology: . . . . . . . . . . . . . . . . . . . . . . . . . . 73 | Key Findings: . . . . . . . . . . . . . . . . 75 | Conclusions: 94 6 --- Page 7 --- 1 Introduction In 1950, Alan Turing posed the question, 'Can machines think?' (Turing, 1950). At that time, the prevailing answer"
 local_pdf: "[[PDFs/2024/2024-Shi-Large Language Model Safety.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Baichuan, Bartlett, Bloomberg, Claude, Claude 3, DeepSeek-AI, GPT-2, GPT-3, GPT-4, Gemini, Llama, Llama 3, Llama Guard, Mistral AI, Qwen, Qwen2, grok"
 DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"

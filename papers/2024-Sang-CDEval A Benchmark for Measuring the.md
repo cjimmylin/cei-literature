@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,18 +20,18 @@ pdf_extract: "PDF Extracts/2024/2024-Sang-CDEval A Benchmark for Measuring the.m
 local_pdf: "[[PDFs/2024/2024-Sang-CDEval A Benchmark for Measuring the.pdf]]"
 publication: "Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP (C3NLP @ LREC-COLING 2024)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "As the scaling of Large Language Models (LLMs) has dramatically enhanced their capabilities, there has been a growing focus on the alignment problem to ensure their responsible and ethical use. While existing alignment efforts predominantly concentrate on universal values such as the HHH (helpfulness, honesty, and harmlessness), the aspect of culture, which is inherently pluralistic and diverse, has not received adequate attention."
 data_description: "Benchmark for moral/ethical reasoning text corpus"

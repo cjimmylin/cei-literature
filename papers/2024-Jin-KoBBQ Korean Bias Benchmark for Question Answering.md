@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Questio
 local_pdf: "[[PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
 publication: "arXiv / TACL 2024"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Korean, American"
 languages_list: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "76,048 samples; 12 categories"
 LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-4, claude-2.0, claude-instant, gpt-3.5-turbo"

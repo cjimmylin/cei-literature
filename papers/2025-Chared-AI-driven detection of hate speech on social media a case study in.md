@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: Springer
 pdf_extract: "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md"
 local_pdf: "[[PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: French
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian, Arabic, French"
 languages_list: French
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "CamemBERT, DistilCamemBERT, DeHateBERT"
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "In today’s digital age, the rise of online hate speech–fueled by user anonymity and widespread use of platforms like X– has become a serious issue. It is a challenge for both social media companies and authorities in their efforts to maintain a safe and respectful online environment. Hate speech (HS) is mostly seen as an intentional act of aggressive behavior towards anyone based on their personal traits."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AI-driven detection of hate speech on social media: a case study in the French language

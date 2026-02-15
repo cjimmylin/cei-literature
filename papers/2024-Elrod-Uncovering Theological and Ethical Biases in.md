@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Bi
 local_pdf: "[[PDFs/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.pdf]]"
 publication: "HIPHIL Novum, 9(1), 2--45"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Hebrew/Israeli
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Hebrew/Israeli"
+religious_values: "Christianity"
+religious_values_list: "Christianity"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: "Summary: Uses creative text generation tasks based on the Ten Commandments (Exodus 20) and the Book of Jonah to probe theological and ethical biases. Finds a prevalent progressive bias across all models, aligning with contemporary socio-political and environmental concerns. Combines qualitative hermeneutical analysis with quantitative textual analysis."
-data_description: N/A
+abstract: "This paper explores theological and ethical biases in LLMs through a novel approach involving creative text generation tasks based on biblical texts, specifically the Ten Commandments and the Book of Jonah. Utilizing models such as GPT-4 Turbo, Claude v2, PaLM 2 Chat, Llama 2 70B, and Zephyr 7B, the study employs a combination of qualitative hermeneutical analysis and quantitative textual analysis. Findings reveal a prevalent progressive bias in these models, evident in their interpretations of..."
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 2, Claude-2., GPT-2, GPT-4, GPT-4 Turbo, Llama, Llama 2, PaLM, PaLM 2, Zephyr, Zephyr 7B"
 DATA_URL: "https://github.com/cjhutto/vaderSentiment"

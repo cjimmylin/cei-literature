@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Lucas Dixon; John Li; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman"
 doi: 10.1145/3278721.3278729
 url: "https://dl.acm.org/doi/10.1145/3278721.3278729"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7UNGXMSM/Dixon et al. - 2018 - Measuring and Mitigating Unintended Bias in Text Classification.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "One of the first papers to define 'unintended bias' in text classification (e.g., toxicity detectors flagging 'I am a gay man' as toxic) and proposed a 'balancing' mitigation strategy."
 significance: "A seminal work in fairness for NLP, addressing the 'identity term bias' where models learn that mention of a minority group = toxicity, leading to censorship of those groups."
 tags: 
-abstract: "We introduce and illustrate a new approach to measuring and mitigating unintended bias in machine learning models. Our definition of unintended bias is parameterized by a test set and a subset of input features. We illustrate how this can be used to evaluate text classifiers using a synthetic test set and a public corpus of comments annotated for toxicity from Wikipedia Talk pages. We also demonstrate how imbalances in training data can lead to unintended bias in the resulting models, and theref"
+abstract: "We introduce and illustrate a new approach to measuring and mitigating unintended bias in machine learning models. Our definition of unintended bias is parameterized by a test set and a subset of input features. We illustrate how this can be used to evaluate text classifiers using a synthetic test set and a public corpus of comments annotated for toxicity from Wikipedia Talk pages. We also demonstrate how imbalances in training data can lead to unintended bias in the resulting models, and..."
 pdf: "https://dl.acm.org/doi/pdf/10.1145/3278721.3278729"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: NA

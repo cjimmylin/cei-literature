@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2024/2024-team-SeaLLMs 3 Open Foundation and Chat Mul
 local_pdf: "[[PDFs/2024/2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
 languages_list: "Burmese, Chinese, Indonesian, Khmer, Lao, Thai, Vietnamese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama-3, Qwen, Qwen2"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,27 +14,28 @@ authors: "Alon Jacovi; Andrew Wang; Chris Alberti; Connie Tao; Jon Lipovetz; Kat
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ELGTPL3J/Jacovi et al. - The FACTS Grounding Leaderboard Benchmarking LLMs' Ability to Ground Responses to Long-Form Input.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jacovi-The FACTS Grounding Leaderboard.md"
 local_pdf: "[[PDFs/2025/2025-Jacovi-The FACTS Grounding Leaderboard.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Hallucination & Truthfulness"
 key_contribution: "Introduced the FACTS Grounding Leaderboard to evaluate LLMs' ability to generate long-form responses that are fully grounded in a provided 32k token context."
 significance: "Benchmarks 'long-context faithfulness', a critical capability for RAG systems to ensure that models do not hallucinate information outside of the retrieved documents."
 tags: 
 abstract: "We introduce FACTS Grounding, an online leaderboard and associated benchmark that evaluates language models' ability to generate text that is factually accurate with respect to given context in the user prompt. In our benchmark, each prompt includes a user request and a full document, with a maximum length of 32k tokens, requiring long-form responses. The long-form responses are required to be fully grounded in the provided context document while fulfilling the user request. Models are evaluated using automated judge models in two phases: (1) responses are disqualified if they do not fulfill the user request; (2) they are judged as accurate if the response is fully grounded in the provided document. The automated judge models were comprehensively evaluated against a held-out test-set to pick the best prompt template, and the final factuality score is an aggregate of multiple judge models to mitigate evaluation bias. The FACTS Grounding leaderboard will be actively maintained over time, and contains both public and private splits to allow for external participation while guarding the integrity of the leaderboard. It can be found at https://www.kaggle.com/facts-leaderboard."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Hallucination & Truthfulness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Benchmark for bias and fairness"
-data_metrics: "32k tokens"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 LLM_assessed: "Gemini, GPT-4o, Claude"
 DATA_URL: "https://www.kaggle.com/facts-leaderboard"
+research_topic: "Other"
 ---
 # The FACTS Grounding Leaderboard: Benchmarking LLMs’ Ability to Ground Responses to Long-Form Input
 

@@ -34,6 +34,25 @@
 
 ---
 
+## 2026-02-15 (Session 80)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-15 | Classification | **`languages_list` YAML field as classification input:** `classify_cultural()` only reading title+abstract missed papers with generic English titles but correct `languages_list: "Japanese"`. Adding `languages_list` as a 3rd search string increased Japanese from 7→50, Korean similarly. Always check if YAML metadata fields can supplement keyword detection. |
+| 2026-02-15 | YAML | **`\s*` regex crosses newlines in YAML parsing:** In `re.MULTILINE` mode, `\s*` after a colon matches `\n` and captures the next field's name. Fix: use `[^\S\n]*` for "whitespace excluding newlines". This caused the Human View guard to false-positive on every paper. |
+| 2026-02-15 | Classification | **Ubuntu Philosophy as ethical tradition:** Added to `RELIGIOUS_PATTERNS` even though it's a philosophical tradition, not a religion. This is pragmatic — `religious_values` is where ethical traditions are tracked for gap analysis. Labeled "Ubuntu Philosophy" (not "Ubuntu Religion") to be precise. |
+| 2026-02-15 | Workflows | **Report Immutability Rule:** NEVER overwrite existing reports. Always create NEW reports with NEW date prefixes. Old reports are historical snapshots. Added as Essential Rule #3 in CLAUDE.md. |
+| 2026-02-15 | Workflows | **Background agent + inline fix race condition:** When both a background agent and inline code fix the same 6 files, duplicate YAML fields appear. Always check for duplicates after concurrent modifications to the same files. |
+| 2026-02-15 | Data Quality | **Vault count update:** 2,008 papers (was 1,847). 161 new from cultural values search. 1,775 have PDFs (88%), 233 N/A. All 2,008 pass validation. |
+
+## 2026-02-15 (Session 79)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-15 | YAML | **Import Script Variable Interpolation Bug Pattern:** `import_culture_search_papers.py` had `DATA_URL: ` (static blank) instead of f-string interpolation, while `doi` and `url` used the correct pattern `f'field: "{value}"' if value ... else 'field: '`. When creating import scripts with many YAML template lines, audit every field for correct variable interpolation — it's easy to miss one in a block of 30+ `fm_lines.append()` calls. |
+| 2026-02-15 | Workflows | **Two-Pass PDF Acquisition Yields ~81%:** Batch downloader (arXiv-focused, 3s delay) gets ~70% of papers. Comprehensive PDF finder (13-strategy waterfall) recovers ~15% more. Combined: 130/161 = 80.7%. The remaining ~19% are paywalled journals, bot-blocked sites (Cloudflare), and regional publications. Manual browser download is the only option for those. |
+| 2026-02-15 | Data Quality | **Verify On-Disk State Over Batch Log Output:** Classification batch showed "SKIP (Human View)" for all 161 papers, but all papers were actually classified correctly on disk. The display code may have used a stale `.pyc` cache. When validating pipeline results, always check the actual file state (`grep ethics_overall papers/*.md`) rather than trusting batch log messages. |
+
 ## 2026-02-15 (Session 78)
 
 | Date | Category | Learning |

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +21,18 @@ pdf_extract: "PDF Extracts/2024/2024-Mandikal-Ancient Wisdom Modern Tools Explor
 local_pdf: "[[PDFs/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.pdf]]"
 publication: "ML4AL Workshop, ACL 2024 (Outstanding Paper Award)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "LLMs have revolutionized the landscape of information retrieval and knowledge dissemination. However, their application in specialized areas is often hindered by factual inaccuracies and hallucinations, especially in long-tail knowledge distributions. We explore the potential of retrieval-augmented generation (RAG) models for long-form question answering (LFQA) in a specialized knowledge domain. We present VedantaNY-10M, a dataset curated from extensive public discourses on the ancient Indian..."
 data_description: "Benchmark for hallucination detection dataset for question answering"

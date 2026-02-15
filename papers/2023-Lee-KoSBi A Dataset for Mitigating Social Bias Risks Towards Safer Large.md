@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,20 +20,20 @@ pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social B
 local_pdf: "[[PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
 publication: "arXiv / ACL 2023 Industry Track"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Korean
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean"
 languages_list: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "15 categories"
 LLM_assessed: "BERT, GPT-3"
 DATA_URL: "https://github.com/Beomi/KcELECTRA"

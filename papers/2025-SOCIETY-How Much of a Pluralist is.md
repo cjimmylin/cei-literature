@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2025/2025-SOCIETY-How Much of a Pluralist is.md"
 local_pdf: "[[PDFs/2025/2025-SOCIETY-How Much of a Pluralist is.pdf]]"
 publication: "AI & SOCIETY (Springer)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: "Introduces pluralism as a benchmark metric for AI chatbots using the 'Magic Wand Survey' measuring cognitive pluralism (recognizing multiple perspectives) and behavioral pluralism (willingness to preserve difference). Chatbots show higher cognitive than behavioral pluralism; cognitive pluralism exceeds human levels but behavioral pluralism is lower on morally charged issues. Gemini 1.5 Pro most pluralistic; ChatGPT 4o the least. Directly relevant to multi-faith AI evaluation."
-data_description: N/A
+abstract: "This study introduces pluralism as a benchmark for evaluating generative AI chatbots’ ability to navigate and potentially endorse diverse values and perspectives. Pluralism—the recognition and valuing of multiple, distinct perspectives—is essential for contemporary democratic societies, making systematic assessment of how AI systems handle value pluralism crucial. Using the Magic Wand Survey (MWS), which presents diverse value conflicts, we empirically measured 2 dimensions of..."
+data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3.5, Claude 3.5 Sonnet, DeepSeek"
 DATA_URL: NA
-ethics_perspective: "General Ethics"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # How Much of a Pluralist is ChatGPT? A Comparative Study of Value Pluralism in Generative AI Chatbots
 

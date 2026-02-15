@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ doi: N/A
 url: "https://www.researchgate.net/publication/380938771_Through_Eudaimonia's_Lenses_EudAImonic_Well-Being_Variables_As_Guiding_Principles_For_AI_Design"
 pdf_extract: "PDF Extracts/2024/2024-Jörs-Through Eudaimonia's Lenses.md"
 local_pdf: "[[PDFs/2024/2024-Jörs-Through Eudaimonia's Lenses.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Integrates eudaimonic well-being principles into Human-Centered AI (HCAI) design to foster user flourishing"
 significance: "Shifts the HCAI focus from mere satisfaction or efficiency to supporting deeper human potential and virtuous living"
 abstract: "Psychological-philosophical perspectives on well-being have recently become relevant in the field of human-centered artificial intelligence (HCAI). A key challenge for HCAI involves analyzing how AI impacts well-being, specifically eudaimonic well-being. This paper explores eudaimonic well-being variables as guiding principles for AI design, proposing a framework to analyze AI's impact on human flourishing beyond simple user satisfaction or task performance."
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: Yes
-research_topic: Other
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

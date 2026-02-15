@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "ACL Anthology (EMNLP 2024 Demo)"
 pdf_extract: "PDF Extracts/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md"
 local_pdf: "[[PDFs/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indonesian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese, Indonesian"
 languages_list: Indonesian
-religious_values: "Islam; Christianity"
-religious_values_list: "Islam; Christianity"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-4o mini, GPT-4, RoBERTa, GPT-3, GPT-3.5, gpt-3.5-turbo"
 DATA_URL: NA
 tags: 
-abstract: "NLP-based hate speech classifier for texts targeting vulnerable groups in Indonesia (Shia, Ahmadiyyah, Christians, LGBTQ+, Chinese Indonesians, people with disabilities). Deployed as monitoring dashboard for Indonesian elections."
+abstract: "Online hate speech propagation is a complex issue, deeply influenced by both the perpetrator and the target’s cultural, historical, and societal contexts. Consequently, developing a universally robust hate speech classifier for diverse social media texts remains a challenging and unsolved task. The lack of mechanisms to track the spread and severity of hate speech further complicates the formulation of effective solutions."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Monitoring Hate Speech in Indonesia: An NLP-based Classification of Social Media Texts

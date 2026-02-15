@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract:
 local_pdf: N/A
 publication: "OpenReview / Workshop paper"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "First multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains. Best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Shortcomings stem from limited Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and model tendency to default to non-Islamic knowledge."
-data_description: Benchmark
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust and https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Al
 doi: 10.1609/aies.v7i1.31710
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/4LU2FNH5/Pistilli et al. - 2024 - CIVICS Building a Dataset for Examining Culturally-Informed Values in Large Language Models.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "General Ethics"
 key_contribution: "Introduced CIVICS, a multilingual dataset of value-laden prompts on sensitive topics (LGBTQI+, welfare, etc.) to examine culturally-informed values in LLMs."
 significance: "Reveals the implicit value variability in models across languages and topics, showing that refusals and responses are disparately triggered depending on the cultural context of the prompt."
 tags: 
-abstract: "This paper introduces the \"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
 ethics_perspective: "General Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"

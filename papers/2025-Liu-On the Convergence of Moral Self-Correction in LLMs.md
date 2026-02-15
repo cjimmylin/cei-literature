@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-On the Convergence of Moral Self-Correc
 local_pdf: "[[PDFs/2025/2025-Liu-On the Convergence of Moral Self-Correction in LLMs.pdf]]"
 publication: "AACL-IJCNLP 2025"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Large Language Models (LLMs) are able to improve their responses when instructed to do so, a capability known as self-correction. When instructions provide only a general and abstract goal without specific details about potential issues in the response, LLMs must rely on their internal knowledge to improve response quality, a process referred to as intrinsic selfcorrection. The empirical success of intrinsic self-correction is evident in various applications, but how and why it is effective..."
 ethics_perspective: "Toxicity & Hate Speech"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Mistral, GPT-4"
 DATA_URL: NA

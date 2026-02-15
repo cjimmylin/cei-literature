@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,26 +18,26 @@ publication: "ACM / 11th Hellenic Conference on AI"
 pdf_extract: "PDF Extracts/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md"
 local_pdf: "[[PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Greek
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1"
 tags: 
-abstract: 
-research_topic: "NLP & Representation Learning"
+abstract: "Transformer-based language models, such as BERT and its variants, have achieved state-of-the-art performance in several downstream natural language processing (NLP) tasks on generic benchmark datasets (e.g., GLUE, SQUAD, RACE). However, these models have mostly been applied to the resource-rich English language. In this paper, we present GREEK-BERT, a monolingual BERT-based language model for modern Greek. We evaluate its performance in three NLP tasks, i.e."
+research_topic: "Bias & Fairness"
 ---
 # GREEK-BERT: The Greeks visiting Sesame Street
 

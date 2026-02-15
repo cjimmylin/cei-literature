@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,20 +20,20 @@ pdf_extract: "PDF Extracts/2025/2025-Miranda-FilBench Can LLMs Understand and Ge
 local_pdf: "[[PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
 publication: "ACL Anthology (EMNLP 2025)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Filipino
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Filipino"
 languages_list: "Cebuano, Filipino/Tagalog"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, ChatGPT, GPT-4, GPT-4o, Gemma, Gemma 2, Llama, LLaMa 3, Llama 3.1, Llama 4, Llama-4, Mixtral 8x22B, Qwen, Qwen2.5, gpt-4o-mini, mistral.ai"
 DATA_URL: "https://huggingface.co/spaces/OALL"

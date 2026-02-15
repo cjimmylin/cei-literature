@@ -1,0 +1,81 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0133
+type: preprint
+short_title: "SwiLTra-Bench: The Swiss Legal Translation Benchmark"
+year: 2025
+first_author: "[[Joel Niklaus]]"
+last_author: "[[Yingqiang Gao]]"
+authors: Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, et al.
+doi: 10.18653/v1/2025.acl-long.725
+url: "https://arxiv.org/abs/2503.01372"
+external_pdf: "https://arxiv.org/pdf/2503.01372.pdf"
+publication: arXiv / ACL 2025
+local_pdf: "[[PDFs/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.md"
+DATE_ADDED: 20260215
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Swiss"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: "https://github.com/JoelNiklaus/SwissLegalTranslations"
+tags: 
+abstract: "In Switzerland legal translation is uniquely important due to the country’s four official languages and requirements for multilingual legal documentation. However, this process traditionally relies on professionals who must be both legal experts and skilled translators— creating bottlenecks and impacting effective access to justice. To address this challenge, we introduce SwiLTra-Bench, a comprehensive multilingual benchmark of over 180K aligned Swiss legal translation pairs comprising laws,..."
+ethics_perspective: "AI Safety & Alignment"
+---
+# SwiLTra-Bench: The Swiss Legal Translation Benchmark
+
+## Authors
+
+[[Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, et al.]]
+
+## Metadata
+
+**Authors:** Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, et al.
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv / ACL 2025
+
+**DOI:** [10.18653/v1/2025.acl-long.725](https://doi.org/10.18653/v1/2025.acl-long.725)
+
+**Cultures:** Swiss
+
+**Benchmark:** SwiLTra-Bench
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2503.01372
+- **DOI:** https://doi.org/10.18653/v1/2025.acl-long.725
+- **Code/Data:** https://github.com/JoelNiklaus/SwissLegalTranslations
+
+## Abstract
+
+Comprehensive multilingual benchmark of 180K+ aligned Swiss legal translation pairs across all Swiss languages plus English. Includes SwiLTra-Judge for automated translation quality assessment. Frontier models outperform fine-tuned open SLMs.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_24
+**Relevance:** Evaluates LLMs on Swiss multilingual legal context across all four Swiss official languages. Tests cultural-legal competence specific to Swiss society.
+
+## Tags
+

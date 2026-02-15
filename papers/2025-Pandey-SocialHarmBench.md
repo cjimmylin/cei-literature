@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,26 @@ pdf_extract: "PDF Extracts/0000/2025-Pandey-SocialHarmBench.md"
 local_pdf: "[[PDFs/2025/2025-Pandey-SocialHarmBench.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in contexts where their failures can have direct sociopolitical consequences. Yet, existing safety benchmarks rarely test vulnerabilities in domains such as political manipulation, propaganda and disinformation generation, or surveillance and information control. We introduce SOCIALHARMBENCH, a dataset of 585 prompts spanning 7 sociopolitical categories and 34 countries, designed to surface where LLMs most acutely fail in politically..."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Benchmark for ai safety dataset"
-data_metrics: "585 prompts"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini, Gemma, Llama-3, Mistral, Qwen, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/psyonp/SocialHarmBench, https://github.com/psyonp/SocialHarmBench"
+research_topic: "Other"
 ---
 # SocialHarmBench
 

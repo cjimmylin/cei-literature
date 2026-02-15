@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,21 +27,21 @@ pdf_access_url: "https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "Socius (SAGE)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Christianity, Judaism, Islam"
-religious_values_list: "Christianity, Judaism, Islam"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Examines whether LLMs hold implicit assumptions about religious identities by generating 175 sermons specifying different combinations of race and religion. Finds Evangelical Protestant pastors had easier-to-read sermons while Jewish rabbis and Muslim imams had more difficult synthetic texts. Novel readability-based bias measurement approach. Tests five major LLMs for intersectional race-religion bias."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

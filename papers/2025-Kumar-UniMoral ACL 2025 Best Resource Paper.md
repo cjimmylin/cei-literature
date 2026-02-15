@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,22 +16,22 @@ external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md"
 local_pdf: "[[PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which is spoken by over 285 million people and ranked 6th globally, remains underexplored. Existing ethics benchmarks are largely English-centric and shaped by Western frameworks, overlooking cultural nuances critical for real-world deployment. To address this, we introduce BengaliMoralBench, the first large-scale ethics benchmark for the Bengali..."
 research_topic: Other
-data_description: N/A
+data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Gemma, Qwen, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
@@ -56,7 +57,7 @@ DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
 
 ## Abstract
 
-*(To be fetched)*
+As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which is spoken by over 285 million people and ranked 6th globally, remains underexplored. Existing ethics benchmarks are largely English-centric and shaped by Western frameworks, overlooking cultural nuances critical for real-world deployment. To address this, we introduce BengaliMoralBench, the first large-scale ethics benchmark for the Bengali language and socio-cultural contexts. It covers five moral domains, Daily Activities, Habits, Parenting, Family Relationships, and Religious Activities, subdivided into 50 culturally relevant subtopics. Each scenario is annotated via native-speaker consensus using three ethical lenses: Virtue, Commonsense, and Justice ethics. We conduct systematic zero-shot evaluation of prominent multilingual LLMs, including Llama, Gemma, Qwen, and DeepSeek, using a unified prompting protocol and standard metrics. Performance varies widely (50-91% accuracy), with qualitative analysis revealing consistent weaknesses in cultural grounding, commonsense reasoning, and moral fairness. BengaliMoralBench provides a foundation for responsible localization, enabling culturally aligned evaluation and supporting the deployment of ethically robust AI in diverse, low-resource multilingual settings such as Bangladesh. Code: GitHub (shahriyar-zaman/BengaliMoralBench) Benchmark: HuggingFace (ciol-research/BengaliMoralBench) Correspondence: Shahriyar Zaman Ridoy (shahriyar.ridoy@northsouth.edu)
 
 ## Dataset Information
 

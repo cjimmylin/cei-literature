@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,22 +17,22 @@ pdf_extract: "PDF Extracts/2024/2024-Vida-Decoding Multilingual Moral Preference
 local_pdf: "[[PDFs/2024/2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.pdf]]"
 publication: "AIES 2024"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
-religious_values_list: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: "Large language models (LLMs) increasingly find their way into the most diverse areas of our everyday lives. They indirectly influence people's decisions or opinions through their daily use. Therefore, understanding how and which moral judgements these LLMs make is crucial. However, morality is not universal and depends on the cultural background. This raises the question of whether these cultural preferences are also reflected in LLMs when prompted in different languages or whether moral..."
+abstract: "Large language models (LLMs) increasingly find their way into the most diverse areas of our everyday lives. They indirectly influence people’s decisions or opinions through their daily use. Therefore, understanding how and which moral judgements these LLMs make is crucial. However, morality is not universal and depends on the cultural background. This raises the question of whether these cultural preferences are also reflected in LLMs when prompted in different languages or whether moral..."
 ethics_perspective: "Bias & Fairness"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "6500 scenarios"
 LLM_assessed: "Falcon, Gemini, Llama-2, Llama-3, GPT-3.5"
 DATA_URL: "https://github.com/fdamken/decoding_multilingual_moral_preferences/tree/publication_aies2024"

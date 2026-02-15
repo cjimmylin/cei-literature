@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2024/2024-Veitsman-Recent Advancements and Challenges
 local_pdf: "[[PDFs/2024/2024-Veitsman-Recent Advancements and Challenges of Turkic.pdf]]"
 publication: "arxiv.org / ACL 2025 LoResLM Workshop"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Research in NLP for Central Asian Turkic languages - Kazakh, Uzbek, Kyrgyz, and Turkmen - faces typical low-resource language challenges like data scarcity, limited linguistic resources and technology development. However, recent advancements have included the collection of language-specific datasets and the development of models for downstream tasks. Thus, this paper aims to summarize recent progress and identify future research directions."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, Llama-2, RoBERTa"
 DATA_URL: NA

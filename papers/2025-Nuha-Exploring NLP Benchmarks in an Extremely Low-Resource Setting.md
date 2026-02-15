@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.md"
 local_pdf: "[[PDFs/2025/2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: Multilingual
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, LLaMA 3.1, LLaMA 93.99, RoBERTa"
 DATA_URL: NA
 tags: 
-abstract: "The effectiveness of Large Language Models (LLMs) diminishes for extremely low-resource languages, such as indigenous languages, primarily due to the lack of labeled data. Despite growing interest, the availability of high-quality natural language processing (NLP) datasets for these languages remains limited, making it difficult to develop robust language technologies. This paper addresses such gap by focusing on Ladin, an endangered Romance language, specifically targeting the Val Badia variant. Leveraging a small set of parallel Ladin–Italian sentence pairs, we create synthetic datasets for sentiment analysis and multiple-choice question answering (MCQA) by translating monolingual Italian data. To ensure linguistic quality and reliability, we apply rigorous filtering and back-translation procedures in our method. We further demonstrate that incorporating these synthetic datasets into machine translation training leads to substantial improvements over existing Italian–Ladin translation baselines. Our contributions include the first publicly available sentiment analysis and MCQA datasets for Ladin, establishing foundational resources that can support broader NLP research and downstream applications for this underrepresented language."
+abstract: "The effectiveness of Large Language Models (LLMs) diminishes for extremely low-resource languages, such as indigenous languages, primarily due to the lack of labeled data. Despite growing interest, the availability of high-quality natural language processing (NLP) datasets for these languages remains limited, making it difficult to develop robust language technologies. This paper addresses such gap by focusing on Ladin, an endangered Romance language, specifically targeting the Val Badia variant."
 research_topic: "NLP & Representation Learning"
 ---
 # Exploring NLP Benchmarks in an Extremely Low-Resource Setting

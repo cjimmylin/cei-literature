@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md
 local_pdf: "[[PDFs/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.pdf]]"
 publication: "Conference on Human Freedom and AI / ResearchGate"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Islam, Christianity, Buddhism, Judaism, Hinduism"
-religious_values_list: "Islam, Christianity, Buddhism, Judaism, Hinduism"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam, Buddhism, Judaism"
+religious_values_list: "Islam, Buddhism, Judaism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
-abstract: "Comprehensive evaluation of ChatGPT for religious bias using 112 morality and ethics questions tailored to five belief systems. Identifies six types of bias: explicit, anthropomorphic, statement, framing, coverage, and information bias. Finds biases often favor Buddhism or secular humanism and/or disfavor Abrahamic religions. GPT-4 mitigates three bias types but amplifies two others. No prompt engineering approach eliminates all biases."
-data_description: Benchmark
+abstract: "The objectives of this study are to: 1) estimate the frequency of six types of biases in ChatGPT’s responses to religious belief-specific morality and ethics questions, 2) assess how those biases vary by religious belief and ChatGPT model version and 3) determine how model engineering techniques affect these biases. ChatGPT responses were collected from a set of 112 general morality and ethics questions, each individually tailored to five different belief systems: Zen Buddhism, Catholicism,..."
+data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, gpt-3.5-turbo"
 DATA_URL: "https://osf.io/b2ug9/download"

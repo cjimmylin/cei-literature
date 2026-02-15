@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ publication: "CLiC-it 2024 / GitHub"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Italian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: Italian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/SapienzaNLP/ita-bench"
 tags: 
 abstract: 
-research_topic: Other
+research_topic: "Other"
 ---
 # ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Nir Eisikovits; Dan Feldman"
 doi: 10.1515/mopp-2021-0026
 url: "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html"
 publication: "Moral Philosophy and Politics"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Eisikovits-AI and Phronesis.md"
-abstract: "This paper argues that the growing prevalence of statistical machine learning in everyday decision making effectively replaces many of our practical judgments. It leans on Aristotle's account of how phronesis develops to examine the implications for human moral development."
+abstract: "We argue that the growing prevalence of statistical machine learning in everyday decision making – from creditworthiness to police force allocation – effectively replaces many of our humdrum practical judgments and that this will eventually undermine our capacity for making such judgments. We lean on Aristotle’s famous account of how phronesis and moral virtues develop to make our case. If Aristotle is right that the habitual exercise of practical judgment allows us to incrementally hone..."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Eisikovits-AI and Phronesis.pdf]]"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Impact on Practical Wisdom"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: 
-data_metrics: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 ---

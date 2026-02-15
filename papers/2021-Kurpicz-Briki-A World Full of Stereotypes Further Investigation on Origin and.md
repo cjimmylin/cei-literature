@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ publication: "Frontiers in Big Data"
 pdf_extract: "PDF Extracts/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md"
 local_pdf: "[[PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French, German, Italian"
 languages_list: "French, German, Italian, Swedish"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "word2vec"
 DATA_URL: NA

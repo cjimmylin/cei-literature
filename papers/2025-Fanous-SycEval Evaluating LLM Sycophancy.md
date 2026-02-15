@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,21 +19,21 @@ pdf_extract: "PDF Extracts/2025/2025-Fanous-SycEval Evaluating LLM Sycophancy.md
 local_pdf: "[[PDFs/2025/2025-Fanous-SycEval Evaluating LLM Sycophancy.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Large language models (LLMs) are increasingly applied in educational, clinical, and professional settings, but their tendency for sycophancy—prioritizing user agreement over independent reasoning—poses risks to reliability. This study introduces a framework to evaluate sycophantic behavior in ChatGPT-4o, Claude-Sonnet, and Gemini-1.5-Pro across AMPS (mathematics) and MedQuad (medical advice) datasets. Sycophantic behavior was observed in 58."
-research_topic: Other
+research_topic: "Other"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Llama-3"

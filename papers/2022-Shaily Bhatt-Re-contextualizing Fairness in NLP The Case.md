@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +21,18 @@ pdf_extract: "PDF Extracts/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in
 local_pdf: "[[PDFs/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.pdf]]"
 publication: "AACL-IJCNLP 2022"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: "Multiple (Hinduism, Islam, Sikhism, Jainism, Christianity)"
-religious_values_list: "Multiple (Hinduism, Islam, Sikhism, Jainism, Christianity)"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Recent research has revealed undesirable biases in NLP data and models. However, these efforts focus on social disparities in West, and are not directly portable to other geo-cultural contexts. In this paper, we focus on NLP fairness in the context of India. We start with a brief account of the prominent axes of social disparities in India. We build resources for fairness evaluation in the Indian context and use them to demonstrate prediction biases along some of the axes."
 data_description: "Evaluation framework text corpus"

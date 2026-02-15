@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,23 +18,23 @@ pdf_extract: "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-
 local_pdf: "[[PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: 
+abstract: "Assessing the ethical biases of large language models (LLMs) is crucial for their clinical application. To evaluate the ethical behavior of LLMs in clinical settings, we introduce a text corpus that focuses on ethical dilemmas. The corpus comprises 50 scenarios of clinical cases, each consisting of a clinical situation and options that impose ethical dilemmas. Each option is scored based on four ethical principles, enabling the evaluation of the ethical decision-making capabilities of LLMs..."
 ethics_perspective: "Applied Ethics"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
+data_description: "Evaluation approach text corpus"
+data_metrics: "50 scenarios"
 LLM_assessed: "GPT-4"
 DATA_URL: NA
 normative_ethics_benchmark: Borderline
@@ -62,7 +63,7 @@ normative_ethics_benchmark: Borderline
 
 ## Abstract
 
-*(To be fetched)*
+Assessing the ethical biases of large language models (LLMs) is crucial for their clinical application. To evaluate the ethical behavior of LLMs in clinical settings, we introduce a text corpus that focuses on ethical dilemmas. The corpus comprises 50 scenarios of clinical cases, each consisting of a clinical situation and options that impose ethical dilemmas. Each option is scored based on four ethical principles, enabling the evaluation of the ethical decision-making capabilities of LLMs based on their decision trajectories. The GPT-4 and GEMINI LLMs demonstrate significantly higher ethical scores than random selection across all ethical principles. Furthermore, both LLMs demonstrate adaptability to instructions for specific cases, revealing ethical vulnerabilities because they comply with ethically undesirable instructions. Future corpus expansion may allow evaluating diverse cultural and institutional contexts, thereby enhancing ethical evaluation. Keywords. Large Language Model, Artificial Intelligence Safety, Medical Ethics
 
 ## Dataset Information
 

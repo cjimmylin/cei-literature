@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; 
 doi: 10.18653/v1/2024.emnlp-main.982
 url: "https://aclanthology.org/2024.emnlp-main.982/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TV58P8JC/Abdulhai et al. - 2024 - Moral Foundations of Large Language Models.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Analyzed LLMs using Moral Foundations Theory (MFT), finding they exhibit specific political/moral biases that can be adversarially steered."
 significance: "Maps LLM 'bias' to established psychological dimensions (Care, Fairness, Liberty, etc.), providing a more granular understanding of model personality than just 'good/bad'."
 tags: 
-abstract: "Moral foundations theory (MFT) is a social psychological theory that decomposes human moral reasoning into five factors, including care/harm, liberty/oppression, and sanctity/degradation (Graham et al., 2009). People vary in the weight they place on these dimensions when making moral decisions, in part due to their cultural upbringing and political ideology. As large language models (LLMs) are trained on datasets collected from the internet, they may reflect the biases that are present in such c"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Moral foundations theory (MFT) is a social psychological theory that decomposes human moral reasoning into five factors, including care/harm, liberty/oppression, and sanctity/degradation (Graham et al., 2009). People vary in the weight they place on these dimensions when making moral decisions, in part due to their cultural upbringing and political ideology. As large language models (LLMs) are trained on datasets collected from the internet, they may reflect the biases that are present in such..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, ChatGPT, PaLM"

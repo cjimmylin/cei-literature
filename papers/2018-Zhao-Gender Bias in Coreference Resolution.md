@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,27 +16,28 @@ url: "https://arxiv.org/abs/1804.06876"
 pdf_extract: "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.md"
 local_pdf: "[[PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf]]"
 external_pdf: "https://arxiv.org/pdf/1804.06876.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Deontology
 key_contribution: "Creates WinoBias, a coreference resolution benchmark specifically designed to detect gender bias (stereotypical vs anti-stereotypical occupations)"
 significance: "A foundational operationalization of the deontological duty of 'fairness' in NLP, moving from abstract bias to concrete measurable failure modes"
 tags: 
-abstract: "We introduce a new benchmark, WinoBias, for coreference resolution focused on gender bias. Our corpus contains Winograd-schema style sentences with entities corresponding to people referred by their occupation (e.g. the nurse, the doctor, the carpenter). We demonstrate that a rule-based, a feature-rich, and a neural coreference system all link gendered pronouns to pro-stereotypical entities with higher accuracy than anti-stereotypical entities, by an average difference of 21.1 in F1 score. Finally, we demonstrate a data-augmentation approach that, in combination with existing word-embedding debiasing techniques, removes the bias demonstrated by these systems in WinoBias without significantly affecting their performance on existing coreference benchmark datasets."
+abstract: "We present an empirical study of gender bias in coreference resolution systems. We ﬁrst introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these Winogender schemas, we evaluate and conﬁrm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
 paper_summary: "Introduces WinoBias, a benchmark for coreference resolution focused on gender bias. Demonstrates that rule-based, feature-rich, and neural coreference systems link gendered pronouns to pro-stereotypical entities with higher accuracy than anti-stereotypical entities (21.1 F1 difference). Proposes a data-augmentation debiasing approach."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
-data_description: "Benchmark for bias and fairness text corpus"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
+ethics_perspective: "Bias & Fairness"
 ---
  Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods
 

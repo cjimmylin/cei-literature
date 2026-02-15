@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,22 +16,22 @@ external_pdf: "https://arxiv.org/pdf/2502.05849.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.md"
 local_pdf: "[[PDFs/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "Recent failures such as Google Gemini generating people of color in Nazi-era uniforms illustrate how AI outputs can be factually plausible yet socially harmful. AI models are increasingly evaluated for “fairness,” yet existing benchmarks often conflate two fundamentally different dimensions: factual correctness and normative fairness. A model may generate responses that are factually accurate but socially unfair, or conversely, appear fair while distorting factual reality."
 ethics_perspective: "Bias & Fairness"
-data_description: "Evaluation approach"
+data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
@@ -57,7 +58,7 @@ DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
 
 ## Abstract
 
-*(To be fetched)*
+Recent failures such as Google Gemini generating people of color in Nazi-era uniforms illustrate how AI outputs can be factually plausible yet socially harmful. AI models are increasingly evaluated for “fairness,” yet existing benchmarks often conflate two fundamentally different dimensions: factual correctness and normative fairness. A model may generate responses that are factually accurate but socially unfair, or conversely, appear fair while distorting factual reality. We argue that identifying the boundary between fact and fair is essential for meaningful fairness evaluation. We introduce FACT-OR-FAIR, a benchmark with (i) objective queries aligned with descriptive, factbased judgments, and (ii) subjective queries aligned with normative, fairness-based judgments. Our queries are constructed from 19 statistics and are grounded in cognitive psychology, drawing on representativeness bias, attribution bias, and ingroup–outgroup bias to explain why models often misalign fact and fairness. Experiments across ten frontier models reveal different levels of fact-fair trade-offs. By reframing fairness evaluation, we provide both a new theoretical lens and a practical benchmark to advance the responsible model assessments. Our test suite is publicly available at https: //github.com/uclanlp/Fact-or-Fair.
 
 ## Dataset Information
 

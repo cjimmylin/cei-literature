@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "IEEE ICCIA 2024"
 pdf_extract: "PDF Extracts/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md"
 local_pdf: "[[PDFs/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indonesian"
 languages_list: Kazakh
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe/"
 tags: 
-abstract: "Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for destructive speech in Kazakh. Covers cyberbullying, racism, religious extremism, nationalistic extremism."
+abstract: "Stemming and lemmatization are text preprocessing methods that aim to convert words into their root and to the canonical or dictionary form. Some previous studies state that using stemming and lemmatization worsens the performance of text classification models. However, some other studies report the positive impact of using stemming and lemmatization in supporting the performance of text classification models."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Kazakh Language Dataset for Hate Speech Detection on Social Media Text

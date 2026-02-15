@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Zhaowei Zhang; Fengshuo Bai; Jun Gao; Yaodong Yang"
 doi: 10.48550/arXiv.2310.00378
 url: "http://arxiv.org/abs/2310.00378"
 external_pdf: "http://arxiv.org/pdf/2310.00378.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Developed ValueDCG, a metric to distinguish between an LLM's 'know what' (superficial knowledge) and 'know why' (deep understanding) of human values."
 significance: "Shows that while larger models improve at 'knowing what', their ability to 'understand why' often stagnates or declines, suggesting they may act as 'stochastic parrots' of values without true alignment."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Zhang-ValueDCG.md"
-abstract: "Personal values are a crucial factor behind hu- man decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure they accurately under- stand human values to ensure their safety. How- ever, evaluating their grasp of these values is complex due to the value's intricate and adapt- able nature. We argue that truly understand- ing values in LLMs requires considering both 'know what' and 'know why'. To this end, w"
+abstract: "Personal values are a crucial factor behind human decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure they accurately understand human values to ensure their safety. However, evaluating their grasp of these values is complex due to the value’s intricate and adaptable nature. We argue that truly understanding values in LLMs requires considering both “know what” and “know why”."
 paper_summary: "Abstract: Personal values are a crucial factor behind hu- man decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure | Overview: ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models Zhaowei Zhang1,2, Fengshuo Bai1,2*, Jun Gao3, Yaodong Yang1, 1Institute for Artificial Intelligence, Peking Unive | Methodology: Our method proposes a measurement ValueDCG with an engineering implementation framework that can effectively quantify the DCG (Saunders et al., 2022)  | Key Findings: framework quantifies both 'know what' and 'know why' and computes ValueDCG based on their dis- crepancy. For the input requirements, we input the data"
 local_pdf: [[PDFs/2024/2024-Zhang-ValueDCG.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Llama-3"

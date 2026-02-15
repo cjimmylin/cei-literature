@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/0000/2025-Li-LegalAgentBench.md"
 local_pdf: "[[PDFs/2025/2025-Li-LegalAgentBench.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "With the increasing intelligence and autonomy of LLM agents, their potential applications in the legal domain are becoming increasingly apparent. However, existing general-domain benchmarks cannot fully capture the complexity and subtle nuances of real-world judicial cognition and decision-making. Therefore, we propose LegalAgentBench, a comprehensive benchmark specifically designed to evaluate LLM Agents in the Chinese legal domain."
-research_topic: "Machine Learning"
-data_description: "Benchmark annotated dataset"
+research_topic: "Other"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o mini, GPT-3.5, Claude, Llama-3, Qwen"
 DATA_URL: "https://github.com/CSHaitao/LegalAgentBench"

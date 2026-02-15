@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ authors: "Hayfa A. Aleid; Aqil M. Azmi"
 doi: 10.1007/s44443-025-00128-w
 url: "https://link.springer.com/10.1007/s44443-025-00128-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00128-w.pdf"
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: "Arabic, Islam, Utilitarianism"
 key_contribution: "Introduces Hajj-FQA, a benchmark Arabic dataset for question answering on Hajj fatwas to develop specialized religious chatbots"
 significance: "Fills a critical gap in Arabic-language religious QA resources, enabling accurate, domain-specific responses for pilgrims"
 tags: 
 abstract: "Deep learning has signiﬁcantly advanced the question-answering (QA) systems across various sectors. However, Arabiclanguage systems for Hajj-related fatwas (non-binding Islamic legal opinions issued by muftis) remain underdeveloped. This paper introduces Hajj-FQA, a benchmark Arabic dataset speciﬁcally designed to develop HajjBot - a specialized chatbot for fatwas QA during the annual Hajj pilgrimage. The dataset captures the unique linguistic and jurisprudential characteristics of pilgrims' inq"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Multilingual benchmark dataset for question answering"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, DeBERTa, T5, BART"
 DATA_URL: "https://github.com/Omarito2412/ASKFM"

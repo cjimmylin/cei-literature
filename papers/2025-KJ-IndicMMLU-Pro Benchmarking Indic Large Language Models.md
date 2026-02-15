@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract: "PDF Extracts/2025/2025-KJ-IndicMMLU-Pro Benchmarking Indic Large L
 local_pdf: "[[PDFs/2025/2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models.pdf]]"
 publication: "WebSearch: IndicMMLU-Pro benchmark"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Known by more than 1.5 billion people in the Indian subcontinent, Indic languages present unique challenges and opportunities for natural language processing (NLP) research due to their rich cultural heritage, linguistic diversity, and complex structures. IndicMMLU-Pro is a comprehensive benchmark designed to evaluate Large Language Models (LLMs) across Indic languages, building upon the MMLU Pro (Massive Multitask Language Understanding) framework."
-data_description: "Multilingual benchmark dataset"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3.1, Llama-3.1, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/LinguaLift/IndicMMLU-"
-research_topic: "NLP & Representation Learning"
+research_topic: "Other"
 ---
 # IndicMMLU-Pro: Benchmarking Indic Large Language Models on Multi-Task Language Understanding
 

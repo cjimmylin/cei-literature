@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2025/2025-Susanto-A Multi-Labeled Dataset for Indones
 local_pdf: "[[PDFs/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indonesian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indonesian"
 languages_list: Indonesian
-religious_values: "Multi-religious (Islam, Christianity, Hinduism)"
-religious_values_list: "Multi-religious (Islam, Christianity, Hinduism)"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark text corpus for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4o, GPT-4o-mini, Llama3.1"
 DATA_URL: "https://huggingface.co/datasets/Exqrch/IndoDiscourse"
 tags: 
-abstract: "Polarization is defined as divisive opinions held by two or more groups on substantive issues. As the world's third-largest democracy, Indonesia faces growing concerns about the interplay between political polarization and online toxicity, which is often directed at vulnerable minority groups. Despite the importance of this issue, previous NLP research has not fully explored the relationship between toxicity and polarization."
+abstract: "Polarization is defined as divisive opinions held by two or more groups on substantive issues. As the world’s third-largest democracy, Indonesia faces growing concerns about the interplay between political polarization and online toxicity, which is often directed at vulnerable minority groups. Despite the importance of this issue, previous NLP research has not fully explored the relationship between toxicity and polarization."
 research_topic: "Bias & Fairness"
 ---
 # A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information

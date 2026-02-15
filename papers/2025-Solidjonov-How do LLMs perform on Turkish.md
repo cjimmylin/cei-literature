@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,25 +25,25 @@ pdf_access_url: "https://doi.org/10.1080/23311983.2025.2600519"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ScienceDirect / Expert Systems with Applications"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets. Covers fairness, truthfulness, ethics, and NLP proficiency dimensions. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness. Directly evaluates ethics, fairness, and trustworthiness of LLMs in Turkish. Multi-faceted evaluation including prompt robustness and comparison of fine-tuned vs chat models."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-research_topic: Other
+research_topic: "Other"
 ---
 # How do LLMs perform on Turkish? A multi-faceted multi-prompt evaluation
 

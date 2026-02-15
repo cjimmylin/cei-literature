@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,21 +24,21 @@ pdf_access_url: "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ResearchGate / IOS Press"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Large-scale Nepali hate speech dataset focused on political discourse and community targeting."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/shucoll/NEHate"

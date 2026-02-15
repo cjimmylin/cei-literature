@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
 local_pdf: "[[PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "American"
 languages_list: "English, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/facebookresearch/XLM"
 tags: 
-abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need for efficient multilingual hate speech detection approaches. In particular, such approaches should be able to leverage the limited cross-lingual resources currently existing in their learning process. The cross-lingual transfer in this task has been difficult to achieve successfully. Therefore, we propose a simple yet effective method to approach this problem. To our knowledge, ours is the first attempt to create a multilingual embedding model specific to this problem. We validate the effectiveness of our approach by performing an extensive comparative evaluation against several well-known general-purpose language models that, unlike ours, have been trained on massive amounts of data. We focus on a zero-shot crosslingual evaluation scenario in which we classify hate speech in one language without having access to any labeled data. Despite its simplicity, our embeddings outperform more complex models for most experimental settings we tested. In addition, we provide further evidence of the effectiveness of our approach through an ad hoc qualitative exploratory analysis, which captures how hate speech is displayed in different languages. This analysis allows us to find new cross-lingual relations between words in the hate-speech domain. Overall, our findings indicate common patterns in how hate speech is expressed across languages and that our proposed model can capture such relationships significantly."
+abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need..."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ publication: "arXiv / ACL Anthology"
 pdf_extract: "PDF Extracts/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.md"
 local_pdf: "[[PDFs/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: French
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: French
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, PAGnol"

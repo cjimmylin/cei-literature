@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,26 @@ pdf_extract: "PDF Extracts/2025/2025-Sermsri-Debiasing Large Language Models in 
 local_pdf: "[[PDFs/2025/2025-Sermsri-Debiasing Large Language Models in Thai.pdf]]"
 publication: "ACL Anthology (WiNLP 2025)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Thai
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Thai"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Political stance detection in low-resource and culturally complex settings poses a critical challenge for large language models (LLMs). In the Thai political landscape—rich with indirect expressions, polarized figures, and sentimentstance entanglement—LLMs often exhibit systematic biases, including sentiment leakage and entity favoritism. These biases not only compromise model fairness but also degrade predictive reliability in real-world applications."
-data_description: Dataset
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-3"
 DATA_URL: NA
 ethics_perspective: "Bias & Fairness"
+research_topic: "Social & Cultural Analysis"
 ---
 # Debiasing Large Language Models in Thai Political Stance Detection via Counterfactual Calibration
 

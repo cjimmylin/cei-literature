@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ authors: "Katharina Kann; Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; John E.
 doi: 10.3389/frai.2022.995667
 url: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V529JKHQ/Kann et al. - 2022 - AmericasNLI Machine translation and natural language inference systems for Indigenous languages of.pdf"
-national_ethnic_cultural: American
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: American
 tags: 
-abstract: "Little attention has been paid to the development of human language technology for truly low-resource languages—i.e., languages with limited amounts of digitally available text data, such as Indigenous languages. However, it has been shown that pretrained multilingual models are able to perform crosslingual transfer in a zero-shot setting even for low-resource languages which are unseen during pretraining. Yet, prior work evaluating performance on unseen languages has largely been limited to sha"
+abstract: "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al."
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
 local_pdf: [[PDFs/2022/2022-Kann-AmericasNLI.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
+data_metrics: "10 languages"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/abteen/americasnli"
 ---

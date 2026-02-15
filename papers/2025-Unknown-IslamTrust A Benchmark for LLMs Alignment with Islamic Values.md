@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: OpenReview
 pdf_extract: "PDF Extracts/2025/2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama, Llama-3.1, Llama., llama 3"
 DATA_URL: "https://huggingface.co/QCRI/Fanar-1-9B-Instruct"
 tags: 
-abstract: 
+abstract: "The alignment of most Large Language Models (LLMs) to broad, often non-Islamic ethical principles creates a significant gap for users from specific cultural and religious backgrounds. LLMs used within Muslim communities for Islamic Q&A should be based on Islamic ethics, derived from scholarly consensus. A standardized benchmark that can evaluate this is currently absent; hence, this work introduces IslamTrust, a novel, multilingual benchmark that is designed to evaluate the alignment of LLMs..."
 ethics_perspective: "Social & Cultural Values"
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values

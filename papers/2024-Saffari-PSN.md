@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,25 +15,25 @@ authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierr
 url: "https://arxiv.org/abs/2406.09123"
 external_pdf: "https://arxiv.org/pdf/2406.09123.pdf"
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
-religious_values: "Islam"
-religious_values_list: "Islam"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Iranian, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Created the Iranian Social Norms (ISN) dataset, containing 1,699 Farsi social norms annotated with context and scope, to test LLM cross-cultural understanding."
 significance: "Addresses the lack of non-Western norm datasets, showing that LLMs struggle significantly with Iran-specific norms compared to English ones, highlighting the linguistic and cultural gaps in current models."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Saffari-PSN.md"
-abstract: "Creating globally inclusive AI systems de- mands datasets reflecting diverse social norms. Iran, with its unique cultural blend, offers an ideal case study, with Farsi adding lin- guistic complexity. In this work, we in- troduce the Iranian Social Norms (ISN) dataset, a novel collection of 1,699 Iranian social norms, including environments, demo- graphic features, and scope annotation, along- side English translations. Our evaluation of 6 Large Language Models (LLMs) in classi- fying Iranian soc"
+abstract: "Creating globally inclusive AI systems demands datasets reflecting diverse social norms. Iran, with its unique cultural blend, offers an ideal case study, with Farsi adding linguistic complexity. In this work, we introduce the Iranian Social Norms (ISN) dataset, a novel collection of 1,699 Iranian social norms, including environments, demographic features, and scope annotation, alongside English translations."
 paper_summary: "Abstract: Creating globally inclusive AI systems de- mands datasets reflecting diverse social norms. Iran, with its unique cultural blend, offers an ideal case study, with Farsi adding lin- guistic complexity.  | Overview: Can I introduce my boyfriend to my grandmother? Evaluating Large Language Models Capabilities on Iranian Social Norm Classification Hamidreza Saffari*1, Mohammadamin Shafiei∗2, Donya Rooein∗3, Frances | Conclusions: We released and described Iranian Social Norms (ISN), the first resource explicitly captur- ing cultural norms within Iranian society, codify- ing con"
 local_pdf: [[PDFs/2024/2024-Saffari-PSN.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Mixtral, Qwen, GPT-4"

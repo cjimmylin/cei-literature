@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract:
 local_pdf: N/A
 publication: "CHiPSAL 2025 Workshop (co-located with COLING 2025, Abu Dhabi)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religious hate speech and identifying targeted religions in code-mixed Hindi-English. Benchmarks cutting-edge LLMs (Meta, Google, OpenAI, Nvidia) and Indic-specific LLMs (Sarvam, Indic-Gemma, Airavata). Finds that Indic-LLMs instruction-tuned on Indian content underperform. Uses knowledge-distillation based fine-tuning with rationale extraction to improve performance."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

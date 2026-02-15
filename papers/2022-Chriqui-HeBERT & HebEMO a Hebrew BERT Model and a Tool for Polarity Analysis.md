@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model
 local_pdf: "[[PDFs/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.pdf]]"
 publication: "arXiv / INFORMS Journal on Data Science"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-national_ethnic_cultural: Hebrew/Israeli
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+national_ethnic_cultural: "Hebrew/Israeli"
 languages_list: Hebrew
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,22 +14,22 @@ last_author: "[[R. Masood]]"
 authors: "R. Masood"
 url: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C5KAAG92/Masood - 2024 - Hadith QA Pairs Dataset.pdf"
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: Islam
 tags: 
 abstract: "A dataset of question-answer pairs derived from authentic Hadith collections for training and evaluating QA systems on Islamic texts. The dataset provides structured QA pairs covering various topics from Hadith literature, enabling research on question answering systems that can accurately understand and respond to queries about Islamic traditions and teachings."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Question Answering"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation approach dataset for question answering"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"

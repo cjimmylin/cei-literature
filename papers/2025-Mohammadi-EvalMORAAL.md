@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,24 +19,24 @@ pdf_extract: "PDF Extracts/2025/2025-Mohammadi-EvalMORAAL.md"
 local_pdf: [[PDFs/2025/2025-Mohammadi-EvalMORAAL.pdf]]
 external_pdf: "https://arxiv.org/pdf/2510.05942.pdf"
 publication: arXiv
-ethics_perspective: "Cross-Cultural Ethics"
-national_ethnic_cultural: "Western vs Non-Western"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "World Values Survey"
+ethics_perspective: "AI Safety & Alignment"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Cross-Cultural Ethics, LLM Evaluation, Moral Alignment"
 key_contribution: "Transparent CoT framework evaluating moral alignment in 20 LLMs using World Values Survey and PEW data"
 significance: "Reveals 21-point Western vs non-Western alignment gap; Claude-3-Opus achieves r=0.890 survey correlation"
-abstract: "EvalMORAAL is a transparent chain-of-thought (CoT) framework that uses two scoring methods (log-probabilities and direct ratings) plus a model-as-judge peer review to evaluate moral alignment in 20 large language models. The researchers assess models on the World Values Survey (55 countries, 19 topics) and the PEW Global Attitudes Survey (39 countries, 8 topics). The framework adds three parts: (1) two scoring methods for all models to enable fair comparison, (2) a structured chain-of-thought protocol with self-consistency checks, and (3) a model-as-judge peer review that flags 348 conflicts using a data-driven threshold. Key findings include top models aligning closely with survey responses (Pearson's r approximately 0.90 on WVS), but a clear regional difference: Western regions average r=0.82 while non-Western regions average r=0.61 (a 0.21 absolute gap)."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "World Values Survey, PEW Global Attitudes Survey"
-data_metrics: "Pearson correlation, regional alignment scores"
+abstract: "We present EvalMORAAL1, a transparent chain-of-thought (CoT) framework that uses two scoring methods (log-probabilities and direct ratings) plus a model-as-judge peer review to evaluate moral alignment in 20 large language models. We assess models on the World Values Survey (55 countries, 19 topics) and the PEW Global Attitudes Survey (39 countries, 8 topics). With EvalMORAAL, top models align closely with survey responses (Pearson’s 𝑟≈0.90 on WVS)."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-3, Qwen, Mistral, DeepSeek, Phi"
 DATA_URL: NA
 ---

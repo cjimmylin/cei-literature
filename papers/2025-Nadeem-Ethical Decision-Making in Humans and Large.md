@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,22 +13,22 @@ first_author: "[[Mohammad Nadeem]]"
 last_author: "[[Afreen, Shagufta]]"
 authors: "[[Nadeem, Mohammad]]; [[Afreen, Shagufta]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/CTQZ79SQ/Nadeem and Afreen - 2025 - Ethical Decision-Making in Humans and Large Language Models Insights from Five Moral Domains.pdf"
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Benchmarks 5 major LLMs against human judgments across 5 moral domains, identifying distinct 'moral personalities' (e.g., Gemini=Util, Copilot=Deont)"
 significance: "Provides empirical proof that different RLHF recipes create distinct moral 'characters', necessitating transparent categorization of model ethics"
 tags: 
-abstract: "Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions—especially in socially and emotionally complex situations—remains uncertain. Objectives: This study assesses the alignment between ethical judgments made by five widely used LLMs (GPT-4.0, Copilot, Gemini, Perple"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+abstract: "Received: 28 Dec 2024 Revised: 18 Feb 2025 Accepted: 26 Feb 2025 Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions—especially in socially and emotionally complex situations—remains uncertain."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, DeepSeek"

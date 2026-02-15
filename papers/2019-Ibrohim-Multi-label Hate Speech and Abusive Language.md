@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Muhammad Okky Ibrohim; Indra Budi"
 doi: 10.18653/v1/W19-3506
 url: "https://www.aclweb.org/anthology/W19-3506"
 external_pdf: "https://www.aclweb.org/anthology/W19-3506.pdf"
-national_ethnic_cultural: Indonesian
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "Indonesian"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Indonesian, Value Pluralism / Schwartz, Toxicity & Hate Speech"
 key_contribution: "Developed a multi-label classification framework for hate speech detection on Indonesian Twitter, identifying target, category, and level of offensiveness."
 significance: "Addresses the lack of safety resources for low-resource languages (Indonesian), enabling more nuanced content moderation that distinguishes between different types and severities of hate."
 tags: 
-abstract: "Hate speech and abusive language spreading on social media need to be detected automatically to avoid conﬂicts between citizens. Moreover, hate speech has a target, category, and level that also need to be detected to help the authority in prioritizing which hate speech must be addressed immediately. This research discusses multi-label text classiﬁcation for abusive language and hate speech detection including detecting the target, category, and level of hate speech in Indonesian Twitter using m"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Hate speech and abusive language spreading on social media need to be detected automatically to avoid conﬂicts between citizens. Moreover, hate speech has a target, category, and level that also need to be detected to help the authority in prioritizing which hate speech must be addressed immediately. This research discusses multi-label text classiﬁcation for abusive language and hate speech detection including detecting the target, category, and level of hate speech in Indonesian Twitter using..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection"

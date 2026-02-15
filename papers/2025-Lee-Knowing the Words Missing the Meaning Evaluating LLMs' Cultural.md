@@ -1,0 +1,78 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0027
+type: journalArticle
+short_title: "Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms"
+year: 2025
+first_author: "[[Eunsol Lee]]"
+last_author: "[[Dongyub Oh]]"
+authors: Eunsol Lee, Heeseon Do, Minseok Kim, Dongyub Oh
+doi: 10.3390/app15137561
+url: "https://www.mdpi.com/2076-3417/15/13/7561"
+publication: MDPI Applied Sciences
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260215
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: "https://github.com/es133lolo/Knowing-the-Words-Missing-the-Meaning"
+tags: 
+abstract:
+research_topic: "Social & Cultural Analysis"
+---
+# Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms
+
+## Authors
+
+[[Eunsol Lee, Heeseon Do, Minseok Kim, Dongyub Oh]]
+
+## Metadata
+
+**Authors:** Eunsol Lee, Heeseon Do, Minseok Kim, Dongyub Oh
+
+**Year:** 2025
+
+**Type:** journalArticle
+
+**Venue:** MDPI Applied Sciences
+
+**DOI:** [10.3390/app15137561](https://doi.org/10.3390/app15137561)
+
+**Cultures:** Korean
+
+## Links
+
+- **DOI:** https://doi.org/10.3390/app15137561
+- **URL:** https://www.mdpi.com/2076-3417/15/13/7561
+- **Code/Data:** https://github.com/es133lolo/Knowing-the-Words-Missing-the-Meaning
+
+## Abstract
+
+Benchmark evaluating LLMs' cultural understanding through Sino-Korean words and four-character idioms. Four question categories: idioms, synonyms, antonyms, homophones with 200 samples each. GPT-4o shows highest accuracy but relies on primary dictionary definitions and Chinese usages rather than Korean-specific meanings.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_03
+**Relevance:** Evaluates LLMs' understanding of uniquely Korean cultural meanings in Sino-Korean vocabulary, revealing cultural interpretation gaps.
+
+## Tags
+

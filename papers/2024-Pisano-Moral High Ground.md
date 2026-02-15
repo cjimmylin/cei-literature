@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ last_author: "[[Kush R. Varshney]]"
 authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney"
 url: "https://openreview.net/forum?id=11nZWTg0mS"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7KJT72S3/8903_Moral_High_Ground_A_text_.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Introduced 'Moral High Ground', a text-based games benchmark for evaluating moral and ethical reasoning in LLMs, specifically focusing on moral values and business principles."
 significance: "Provides an interactive environment (games) to test moral reasoning, offering a more dynamic evaluation of alignment than static QA benchmarks."
 tags: 
-abstract: "This paper introduces a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate moral and ethical reasoning in interactive environments."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "In this paper, we introduce a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate the moral and ethical reasoning abilities of large language models using text-based games, which can be played by both human players and models. We present these games to the player as an interaction between the player and the environment."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "Flan-T5, Falcon, Llama-2"

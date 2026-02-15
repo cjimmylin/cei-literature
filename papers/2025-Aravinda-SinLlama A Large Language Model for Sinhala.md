@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model fo
 local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Sinhala
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, RoBERTa, BERT"

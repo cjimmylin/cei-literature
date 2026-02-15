@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,21 +22,21 @@ pdf_extract: "PDF Extracts/2024/2024-Hutchinson-Modeling the Sacred Consideratio
 local_pdf: "[[PDFs/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.pdf]]"
 publication: "Findings of NAACL 2024"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Multiple Religions"
-religious_values_list: "Multiple Religions"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "This position paper concerns the use of religious texts in Natural Language Processing (NLP), which is of special interest to the Ethics of NLP. Religious texts are expressions of culturally important values, and machine learned models have a propensity to reproduce cultural values encoded in their training data. Furthermore, translations of religious texts are frequently used by NLP researchers when language data is scarce."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"

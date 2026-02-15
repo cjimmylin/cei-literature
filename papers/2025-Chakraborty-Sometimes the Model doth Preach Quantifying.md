@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +21,18 @@ pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Sometimes the Model doth Preach
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.pdf]]"
 publication: "arXiv (preprint)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, American"
-religious_values: "Hinduism, Sikhism, Islam, Christianity"
-religious_values_list: "Hinduism, Sikhism, Islam, Christianity"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Large Language Models (LLMs) are capable of generating opinions and propagating bias unknowingly, originating from unrepresentative and non-diverse data collection. Prior research has analysed these opinions with respect to the West, particularly the United States. However, insights thus produced may not be generalized in non-Western populations. With the widespread usage of LLM systems by users across several different walks of life, the cultural sensitivity of each generated output is of..."
 data_description: "Evaluation framework dataset"

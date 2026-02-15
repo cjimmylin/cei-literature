@@ -1,0 +1,77 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0062
+type: preprint
+short_title: "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs"
+year: 2025
+first_author: "[[Longxu Dou]]"
+last_author: "[[Qian Liu]]"
+authors: Longxu Dou, Qian Liu, et al.
+url: "https://arxiv.org/abs/2502.12982"
+external_pdf: "https://arxiv.org/pdf/2502.12982.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.md"
+DATE_ADDED: 20260215
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Filipino, Indonesian, Malay, Thai, Vietnamese, and 8 more SEA languages"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: "https://github.com/sail-sg/sailor2"
+tags: 
+abstract: "Sailor2 is a family of cutting-edge multilingual language models for SouthEast Asian (SEA) languages, available in 1B, 8B, and 20B sizes to suit diverse applications. Building on Qwen2.5, Sailor2 undergoes continuous pre-training on 500B tokens (400B SEA-specific and 100B replay tokens) to support 13 SEA languages while retaining proficiency in Chinese and English. Sailor2-20B model achieves a 50-50 win rate against GPT-4o across SEA languages."
+research_topic: "Machine Translation"
+---
+# Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs
+
+## Authors
+
+[[Longxu Dou, Qian Liu, et al.]]
+
+## Metadata
+
+**Authors:** Longxu Dou, Qian Liu, et al.
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Cultures:** Filipino, Indonesian, Malay, Thai, Vietnamese, and 8 more SEA languages
+
+**Benchmark:** Sailor2
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2502.12982
+- **Code/Data:** https://github.com/sail-sg/sailor2
+
+## Abstract
+
+Multilingual LLM family (1B/8B/20B) for 13 SEA languages. Built on Qwen2.5 with 500B tokens (400B SEA-specific). Sailor2-20B achieves 50-50 win rate against GPT-4o across SEA languages. Evaluation includes cultural understanding about SEA cuisine and traditions.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_09
+**Relevance:** SEA-focused LLM evaluated on cultural understanding including Indonesian and Malay cuisine and traditions.
+
+## Tags
+

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debia
 local_pdf: "[[PDFs/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf]]"
 publication: "arXiv / ACL Anthology (ACL 2025 Findings)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indonesian"
 languages_list: Indonesian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Mistral, Mistral 0.3 Instruct, Mistral 0.3 57, Mistral 0.3 68, Mistral 7B"
 DATA_URL: "https://github.com/veranep/crosslingualdetoxdebias"
 tags: 
-abstract: "Recent generative large language models (LLMs) show remarkable performance in nonEnglish languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model's bias and toxicity, but also on its ability to produce..."
+abstract: "Recent generative large language models (LLMs) show remarkable performance in nonEnglish languages, but when prompted in those languages they tend to express higher harmful social biases and toxicity levels. Prior work has shown that finetuning on specialized datasets can mitigate this behavior, and doing so in English can transfer to other languages. In this work, we investigate the impact of different finetuning methods on the model’s bias and toxicity, but also on its ability to produce..."
 ethics_perspective: "Bias & Fairness"
 ---
 # Cross-Lingual Transfer of Debiasing and Detoxification in Multilingual LLMs: An Extensive Investigation

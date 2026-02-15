@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ publication: Web
 pdf_extract: PDF Extracts/2024/2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic.md
 local_pdf: "[[PDFs/2024/2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
 languages_list: "Arabic, Egyptian Arabic, Gulf Arabic, Levantine, Maghrebi"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "A significant issue in today’s global society is hate speech, which is defined as any kind of expression that attempts to degrade an individual or a society based on attributes such as race, color, nationality, gender, or religion (Schmidt and Wiegand, 2017). In this paper, we present a Web-based hate speech detection system that focuses on the Arabic language and supports its various dialects. The system is designed to detect hate speech within a given sentence or within a file containing..."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Web-Based Hate Speech Detection System for Dialectal Arabic

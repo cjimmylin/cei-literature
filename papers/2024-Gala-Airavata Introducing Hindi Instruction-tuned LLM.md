@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ pdf_extract: "PDF Extracts/2024/2024-[[Gala]]-Airavata Introducing Hindi Instruc
 local_pdf: "[[PDFs/2024/2024-[[Gala]]-Airavata Introducing Hindi Instruction-tuned LLM.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Hindi instruction-tuned LLM with evaluation benchmarks and framework for assessing performance across Hindi tasks. Hindi instruction-following LLM with evaluation framework."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, ChatGPT, Dolly, GPT-4, Llama, Llama 2, Llama2"
 DATA_URL: "https://github.com/AI4Bharat/IndicInstruct"
-research_topic: Other
+research_topic: "Other"
 ---
 # Airavata: Introducing Hindi Instruction-tuned LLM
 

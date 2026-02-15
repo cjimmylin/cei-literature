@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ last_author: "[[Tsutomu Sawai]]"
 authors: "Shimpei Okamoto; Masanori Kataoka; Makoto Itano; Tsutomu Sawai"
 doi: 10.1186/s12909-025-06801-y
 url: "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-06801-y"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics"
 key_contribution: "Proposes using 'v-rules' (virtue-based instructions) to guide LLMs in modeling virtuous behaviors for medical ethics education"
 significance: "Explores the potential of LLMs not just as information sources but as tools for cultivating practical wisdom and moral character in professionals"
 osint_source: "Recovered via HTML"
 abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: NA

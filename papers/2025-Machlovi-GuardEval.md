@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,22 +19,22 @@ pdf_extract: "PDF Extracts/0000/2025-Machlovi-GuardEval.md"
 local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: 
-research_topic: Other
-data_description: N/A
+research_topic: "Other"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: "https://huggingface.co/meta-llama/Llama-Guard-3-8B"

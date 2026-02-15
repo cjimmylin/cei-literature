@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,27 +16,27 @@ doi: 10.1101/2024.09.18.24313931
 url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"
 publication: medRxiv
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: Yes
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Healthcare Ethics, Utilitarianism, Deontology, Medical AI, Trolley Problem"
 key_contribution: "Evaluates 14 LLMs including GPT-o1 on medical versions of trolley dilemma, finding inconsistent utilitarian vs deontological alignment"
 significance: "Critical finding that some LLMs endorsed clearly unethical actions (e.g., amputation without consent) up to 80% of the time; raises serious concerns for clinical AI deployment"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.md"
-abstract: "In moral philosophy, two foundational approaches shape ethical decisions: deontology and utilitarianism, often exemplified by the 'Trolley' dilemma. We conducted an experiment evaluating multiple LLMs, including OpenAI's GPT-o1, across five medical versions of this dilemma. While some models adhered to established ethical standards, others inconsistently favored utilitarian outcomes, raising concerns about their alignment with human medical ethics."
+abstract: "In moral philosophy, two foundational approaches shape ethical decisions: deontology and utilitarianism, often exemplified by the “Trolley” dilemma. We conducted an experiment evaluating multiple LLMs, including OpenAI’s GPT-o1, across five medical versions of this dilemma. While some models adhered to established ethical standards, others inconsistently favored utilitarian outcomes, raising concerns about their alignment with human medical ethics."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Five medical versions of trolley dilemma tested on 14 LLMs with 50 responses per model"
-data_metrics: "Binary yes/no ethical decisions across utilitarian vs deontological frameworks"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
 DATA_URL: NA
 normative_ethics_benchmark: Yes

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,26 @@ pdf_extract: "PDF Extracts/0000/2026-Li-PluriHarms.md"
 local_pdf: "[[PDFs/2026/2026-Li-PluriHarms.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Current AI safety frameworks, which often treat harmfulness as binary, lack the flexibility to handle borderline cases where humans meaningfully disagree. To build more pluralistic systems, it is essential to move beyond consensus and instead understand where and why disagreements arise. We introduce PLURIHARMS, a benchmark designed to systematically study human harm judgments across two key dimensions—the harm axis (benign to harmful) and the agreement axis (agreement to disagreement)."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Benchmark for ai safety"
-data_metrics: "150 prompts"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Qwen, DeepSeek"
 DATA_URL: "https://jl3676.github.io/PluriHarms"
+research_topic: "Other"
 ---
 # PluriHarms
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ authors: "Siya Qi; Lin Gui; Yulan He; Zheng Yuan"
 doi: 10.48550/arXiv.2404.12041
 url: "http://arxiv.org/abs/2404.12041"
 external_pdf: "http://arxiv.org/pdf/2404.12041.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Qi-A Survey of Automatic Hallucination Evaluation on.md"
-abstract: "The rapid advancement of Large Language Models (LLMs) has brought a pressing challenge: how to reliably assess hallucinations to guarantee model trustworthiness. Although Automatic Hallucination Evaluation (AHE) has become an indispensable component of this effort, the field remains fragmented in its methodologies, limiting both conceptual clarity and practical progress. This survey addresses this critical gap through a systematic analysis of 105 evaluation methods, revealing that 77.1% specific"
+abstract: "The rapid advancement of Large Language Models (LLMs) has brought a pressing challenge: how to reliably assess hallucinations to guarantee model trustworthiness. Although Automatic Hallucination Evaluation (AHE) has become an indispensable component of this effort, the field remains fragmented in its methodologies, limiting both conceptual clarity and practical progress. This survey addresses this critical gap through a systematic analysis of 105 evaluation methods, revealing that 77."
 paper_summary: "Abstract: The rapid advancement of Large Language Models (LLMs) has brought a pressing challenge: how to reliably assess hallucinations to guarantee model trustworthiness. Although Automatic Hallucination Evalu | Overview: A Survey of Automatic Hallucination Evaluation on Natural Language Generation Siya Qi siya.qi@kcl.ac.uk King's College London Lin Gui lin.1.gui@kcl.ac.uk King's College London Yulan He yulan.he@kcl.ac | Methodology: Metric SF WF Before LLM Era Factacc WikiFact Wikipedia, Wikidata KB Triplet Summ Transformer Triplet Extraction P, R, F1 ✓ ✗ FactCC FactCC CNN/DM, XSu | Key Findings: in NLG. The search was performed across multiple sources covering the period from January 2020 to July 2025. Specifically, we queried DBLP2 as our pri | Conclusions: (Wang et al., 2025)."
 local_pdf: "[[PDFs/2025/2025-Qi-A Survey of Automatic Hallucination Evaluation on.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BART, BART Counterfactual, BART-base, BERT, Baichuan2, ChatGPT, Claude, Claude-Haiku, Claude-Sonnet, DeBERTa NLI, DeBERTa-v3, DeBERTaV3, Dolly, ELECTRA, Falcon Instruct, Falcon-7b, Flan-T5, Flan-T5 NLI, GPT-2, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT3, GPT4, Gemini, Gemma, Gemma-2, InstructGPT, Llama, LLaMA 2, LLaMA 2 Chat, Llama-2, LLaMA-2-chat, LLaMa2, Llama-3, Llama2-Chat, Llama3, Mistral Instruct, Mistral-7B, OPT6, Phi-3-3, Qwen, Qwen-2.5, RoBERTa, T5, T5 Answer, T5 NLI, T5 Word, T5-small, Vicuna, text-davinci-003"

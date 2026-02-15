@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Gamboa-Filipino Benchmarks for Measuring Se
 local_pdf: "[[PDFs/2025/2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.pdf]]"
 publication: "arXiv / ACL Anthology (LoResLM @ COLING 2025)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Filipino
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Filipino"
 languages_list: Filipino/Tagalog
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, GPT-4, Mistral, RoBERTa, llama3"

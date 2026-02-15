@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "WebSearch: Ubuntu ethics AI African values benchmark"
 pdf_extract: "PDF Extracts/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md"
 local_pdf: "[[PDFs/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: African/Ubuntu
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
 languages_list: 
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: "Explores how the Sub-Saharan African value of Ubuntu could improve terms on which African populations are included in global AI ethics discourses. Argues Ubuntu has immense value for applied normative ethics in AI."
+abstract: "The article concerns research in the normative social science and is aimed at making a contentious argument that the conceptual frameworks which underpinned much of the literature and research on social exclusion are rooted in European and Anglo Saxon traditions. As such they ignore the contributions made by people of Africa, Asia and Latin America. The discourse regarding social exclusion and social inclusion could therefore not be only with a Western perspective, but should note that the..."
 ethics_perspective: "Social & Cultural Values"
 ---
 # The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective

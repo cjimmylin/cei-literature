@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ doi: 10.48550/arXiv.1907.00430
 url: "https://arxiv.org/abs/1907.00430"
 external_pdf: "https://arxiv.org/pdf/1907.00430.pdf"
 publication: arXiv
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Utilitarianism, Utility Functions, Value Alignment"
 key_contribution: "Proposes augmented utilitarianism for AI utility functions based on moral intuitions"
 significance: "Addresses variety requirements for ethical utility functions in value alignment"
 tags: 
 pdf_extract: "PDF Extracts/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.md"
-abstract: "This work addresses value alignment in AI safety by examining how ethical utility functions should reflect the complexity of human moral intuitions. The authors conduct a transdisciplinary analysis drawing on neuroscience and psychology to assess moral variety, then propose that for the utility function of an AI not to violate human ethical intuitions, it trivially has to be a model of these intuitions. They integrate augmented utilitarianism as an ethical framework...."
+abstract: "Being a complex subject of major importance in AI Safety research, value alignment has been studied from various perspectives in the last years. However, no ﬁnal consensus on the design of ethical utility functions facilitating AI value alignment has been achieved yet. Given the urgency to identify systematic solutions, we postulate that it might be useful to start with the simple fact that for the utility function of an AI not to violate human ethical intuitions, it trivially has to be a model..."
 paper_summary: 
 local_pdf: "[[PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

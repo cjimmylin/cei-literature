@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Luana Bulla; Stefano De Giorgis; Misael Mongiovì; Aldo Gangemi"
 doi: 10.1016/j.chbr.2025.100609
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IHQZ47VE/Bulla et al. - 2025 - Large Language Models meet moral values A comprehensive assessment of moral abilities.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Machine Ethics"
 key_contribution: "Evaluated the ability of LLMs (GPT-4, Llama, etc.) to perform *unsupervised* moral classification on the Moral Foundation Reddit Corpus, comparing them to human annotations."
 significance: "Assesses whether general-purpose LLMs can replace specific supervised models for moral sensing, finding that GPT-4 is superior but significant variations exist across moral domains."
 tags: 
 abstract: "Automatic moral classification in textual data is crucial for various fields including Natural Language Processing (NLP), social sciences, and ethical AI development. Despite advancements in supervised models, their performance often suffers when faced with real-world scenarios due to overfitting to specific data distributions. To address these limitations, we propose leveraging state-of-the-art Large Language Models (LLMs) trained on extensive common-sense data for unsupervised moral classifica"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Machine Ethics"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation framework text corpus"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://osf.io/kw6rc/?view_only=73c3d8e2f7c9483ea012347d70d27b6f"

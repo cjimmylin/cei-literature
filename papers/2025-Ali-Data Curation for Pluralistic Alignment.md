@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,25 +13,25 @@ first_author: "[[Dalia Ali]]"
 last_author: "[[Orestis Papakyriakopoulos]]"
 authors: "Dalia Ali; Aysenur Kocak; Michèle Wieland; Dora Zhao; Allison Koenecke; Orestis Papakyriakopoulos"
 url: "https://openreview.net/forum?id=JH9xhvSr4q"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Focuses on curating training data to ensure diverse ('pluralistic') value representation."
 significance: "Addresses the 'data upstream' problem: you can't have pluralistic models if your training data is mono-cultural; curation is the first step in alignment."
 tags: 
 external_pdf: "https://openreview.net/pdf?id=JH9xhvSr4q"
-abstract: "Human feedback datasets are central to AI alignment, yet the current data collection methods do not necessarily capture diverse and complex human values. Existing alignment datasets focus broadly on Harmfulness and Helpfulness, but dataset curation should also aim to dissect these broad categories into more specific dimensions. This paper introduces a pluralistic alignment dataset that integrates the dimensions of Toxicity, Emotional Awareness, Sensitivity and Openness, Helpfulness, and Stereotypical Bias, reveals undiscovered tensions in human ratings on AI-generated content, shows how demographics and political ideologies shape human preferences in alignment datasets, and highlights issues in data collection and model fine-tuning."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "We propose WHoW, an evaluation framework for analyzing the facilitation strategies of moderators across different domains/scenarios by examining their motives (Why), dialogue acts (How) and target speaker (Who). Using this framework, we annotated 5,657 moderation sentences with human judges and 15,494 sentences with GPT-4o from two domains: TV debates and radio panel discussions. Comparative analysis demonstrates the framework’s cross-domain generalisability and reveals distinct moderation..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: "Dataset for toxicity detection"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o"
 DATA_URL: NA

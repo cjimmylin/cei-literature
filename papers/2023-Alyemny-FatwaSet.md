@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,21 +13,21 @@ first_author: "[[Ohoud Alyemny]]"
 last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 url: "https://www.mdpi.com/2306-5729/8/11/156"
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: Islam
 tags: 
-abstract: "FatwaSet is the first public Arabic dataset of Islamic fatwas. The data were collected from 13 trusted websites in Arab countries, including Saudi Arabia, Egypt, Jordan, Qatar, and Syria. An exploratory data analysis reveals a total of 130,182 records. FatwaSet is a rich resource containing fatwas and their surrounding metadata, suitable for NLP tasks such as language modeling, question answering, author attribution, topic identification, and text classification."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "Question Answering"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. In this paper, we present fatwaset, the ﬁrst public Arabic dataset of Islamic fatwas. It contains Islamic fatwas that we collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: NA

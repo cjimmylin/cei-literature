@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,25 +14,25 @@ last_author: "[[Dimitrov, Denis]]"
 authors: "[[Vasilev, Viacheslav]]; [[Agafonova, Julia]]; [[Gerasimenko, Nikolai]]; [[Kapitanov, Alexander]]; [[Mikhailova, Polina]]; [[Mironova, Evelina]]; [[Dimitrov, Denis]]"
 url: "https://aclanthology.org/2025.findings-naacl.425/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JFUIN3WV/2025 - RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf"
-national_ethnic_cultural: Russian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Russian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Russian, Social & Cultural Values"
 key_contribution: "Proposes the RusCode benchmark, consisting of 1250 text prompts in 19 categories (art, folk traditions, etc.) to evaluate Russian cultural code representation in text-to-image models."
 significance: "Mitigates Western/English-speaking cultural bias in generative CV models, ensuring unique cultural characteristics of diverse language groups are accurately represented."
 tags: 
-abstract: "This paper introduces RusCode, a benchmark specifically designed to evaluate the Russian Cultural Code in text-to-image generation models. Current generative models exhibit a strong Anglo-Centric bias, often failing to correctly render concepts specific to Russian history, folklore, and daily life. RusCode consists of 1250 text prompts across 19 categories (e.g., fairytale characters like Baba Yaga, historical architecture, and specific cultural artifacts). The study compares major models (like Midjourney, Kandinsky, and Stable Diffusion), revealing significant gaps in cultural competence."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "1250 prompts; 19 categories"
+data_metrics: "19 categories"
 LLM_assessed: "Ernie"
 DATA_URL: "https://github.com/ai-forever/RusCode"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"

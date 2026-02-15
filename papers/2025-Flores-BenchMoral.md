@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,24 +13,24 @@ last_author: "[[Félix B. A. Flores]]"
 authors: "Félix B. A. Flores"
 url: "https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-benchmarking-to-assess-the-moral-sensitivity-of"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PC7NWK8G/BenchMoral_ A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish. — EA Forum.pdf"
-national_ethnic_cultural: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Spanish"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Spanish, General Ethics"
 key_contribution: "A benchmark for assessing moral sensitivity of LLMs in *Spanish*."
 significance: "Addresses the linguistic gap for Spanish value alignment."
 tags: 
 abstract: "BenchMoral is a benchmark designed to evaluate the moral sensitivity of large language models using the MFQ-30 moral foundations questionnaire adapted to Spanish. The research addresses a significant gap: while most ethical AI evaluations focus on English, millions of Spanish speakers lack culturally and linguistically tailored assessments. The study measures how ChatGPT 4.0 Mini, Llama 3.0, and DeepSeek R1 respond to five moral domains: care, fairness, loyalty, authority, and sanctity. Key findings suggest that moral understanding does not equal human moral mimicry."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Benchmark for moral/ethical reasoning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Llama-3, DeepSeek"
 DATA_URL: NA

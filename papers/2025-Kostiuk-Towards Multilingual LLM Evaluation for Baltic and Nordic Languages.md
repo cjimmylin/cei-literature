@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md"
 local_pdf: "[[PDFs/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
 languages_list: "Lithuanian, Nordic languages"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Llama-3.1, Qwen2"

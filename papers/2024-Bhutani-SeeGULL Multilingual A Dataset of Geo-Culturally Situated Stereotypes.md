@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,19 +21,19 @@ pdf_extract: "PDF Extracts/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of G
 local_pdf: "[[PDFs/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf]]"
 publication: "arXiv / COLM 2024"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Brazilian"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Portuguese, Russian, Spanish, Swahili, Tamil, Thai, Turkish, Vietnamese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "20 languages"
 LLM_assessed: "GPT-4 Turbo, GPT-4, Mistral, Mixtral 8X7B, PaLM 2, Palm"

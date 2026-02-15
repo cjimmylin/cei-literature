@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China's Minority.md"
 local_pdf: "[[PDFs/2025/2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China's Minority.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: "Chinese, Multilingual, Uyghur"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma 3, Gemma-2, Gemma-3, Llama-3.1, Qwen, Qwen-2.5, Qwen-3, Llama-3, llama2"
 DATA_URL: "https://github.com/microsoft/DeepSpeed"

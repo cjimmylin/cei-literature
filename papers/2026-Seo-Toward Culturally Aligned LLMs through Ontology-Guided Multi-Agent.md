@@ -1,0 +1,76 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0109
+type: preprint
+short_title: Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
+year: 2026
+first_author: "[[Wonduk Seo]]"
+last_author: "[[Wonduk Seo]]"
+authors: Wonduk Seo et al.
+url: "https://arxiv.org/abs/2601.21700"
+external_pdf: "https://arxiv.org/pdf/2601.21700.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.pdf]]"
+pdf_extract: "PDF Extracts/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.md"
+DATE_ADDED: 20260215
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "pan-Latin American"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract: "Large Language Models (LLMs) increasingly support culturally sensitive decision making, yet often exhibit misalignment due to skewed pretraining data and the absence of structured value representations. Existing methods can steer outputs, but often lack demographic grounding and treat values as independent, unstructured signals, reducing consistency and interpretability. We propose OG-MAR, an Ontology-Guided MultiAgent Reasoning framework."
+ethics_perspective: "AI Safety & Alignment"
+---
+# Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
+
+## Authors
+
+[[Wonduk Seo et al.]]
+
+## Metadata
+
+**Authors:** Wonduk Seo et al.
+
+**Year:** 2026
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Cultures:** pan-Latin American
+
+**Benchmark:** OG-MAR (with LAPOP Latin America benchmark)
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2601.21700
+
+## Abstract
+
+Proposes OG-MAR framework using WVS data and cultural ontology. Evaluated on six regional benchmarks including LAPOP (Latin American Public Opinion Project) with 590 instances from 64,352 respondents across 48 value-related items. LAPOP provides a regionally distinct Latin American testbed for evaluating LLM cultural alignment.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_19
+**Relevance:** RELEVANT. Uses LAPOP AmericasBarometer data as a dedicated Latin American evaluation benchmark for LLM cultural alignment, making it one of the few papers with an explicit Latin American values evaluation component.
+
+## Tags
+

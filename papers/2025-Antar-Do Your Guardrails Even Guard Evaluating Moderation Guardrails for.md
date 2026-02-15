@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,22 +20,22 @@ pdf_extract: "PDF Extracts/2025/2025-Antar-Do Your Guardrails Even Guard Evaluat
 local_pdf: "[[PDFs/2025/2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "Ensuring that large language models (LLMs) align with human values and goals is crucial for their adoption in highstakes decision-making. To guard against incorrect, misleading, or otherwise unexpected or undesirable LLM outputs, guardrail engineers implement guardrails based on expert knowledge from subject-matter authorities to steer and align pre-trained LLMs. Existing evaluation methods assess LLM performance, with and without guardrails, but provide limited insight into the contribution of..."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Evaluation approach"
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, GPT-4, GPT-4o, Llama, Llama Guard, PaLM, T5"
 DATA_URL: NA
@@ -63,7 +64,7 @@ DATA_URL: NA
 
 ## Abstract
 
-*(To be fetched)*
+Ensuring that large language models (LLMs) align with human values and goals is crucial for their adoption in highstakes decision-making. To guard against incorrect, misleading, or otherwise unexpected or undesirable LLM outputs, guardrail engineers implement guardrails based on expert knowledge from subject-matter authorities to steer and align pre-trained LLMs. Existing evaluation methods assess LLM performance, with and without guardrails, but provide limited insight into the contribution of each individual guardrail and its interactions on alignment. Here, we present a method to evaluate and select guardrails that best align LLM outputs with empirical evidence representing expert knowledge. Through evaluation with real-world illustrative examples of resume quality and recidivism prediction, we show that our method effectively identifies useful moderation guardrails in a way that could help guardrail engineers interpret contributions of different guardrails to “user-LLM” alignment.
 
 ## Dataset Information
 

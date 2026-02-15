@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,27 +15,28 @@ authors: "Gavin Leech; Simson Garfinkel; Misha Yagudin; Alexander Briand; Aleksa
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TZNF2SVG/Leech et al. - Ten Hard Problems in Artificial Intelligence We Must Get Right.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.md"
 local_pdf: "[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Responsible AI"
 key_contribution: "Outlines 10 'hard problems' for AI2050 (e.g., alignment, assurance, governance, philosophical disruptions) that must be solved to avoid risks and realize AI's promise."
 significance: "Provides a high-level strategic roadmap for the field, connecting technical alignment challenges (like goal specification) with broader sociotechnical and political issues."
 tags: 
 abstract: "We explore the AI2050 \"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Responsible AI"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Bartlett, Codex, GPT-3, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/Veriﬁed-Intelligence/alpha-beta-"
+research_topic: "Other"
 ---
 # Ten Hard Problems in Artificial Intelligence We Must Get Right
 

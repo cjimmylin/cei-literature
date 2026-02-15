@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.md"
 local_pdf: "[[PDFs/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "English, Greek"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-Krikri-8B, Llama-3.1-8B, Meltemi"
 DATA_URL: "https://huggingface.co/ilsp/Llama-Krikri-8B-Base"
 tags: 
-abstract: "We introduce Llama-Krikri-8B, a cutting-edge Large Language Model tailored for the Greek language, built on Meta's Llama 3.1-8B. LlamaKrikri-8B has been extensively trained on highquality Greek data to ensure superior adaptation to linguistic nuances. With 8 billion parameters, it offers advanced capabilities while maintaining efficient computational performance. Llama-Krikri-8B supports both Modern Greek and English, and is also equipped to handle polytonic text and Ancient Greek."
+abstract: "We introduce Llama-Krikri-8B, a cutting-edge Large Language Model tailored for the Greek language, built on Meta’s Llama 3.1-8B. LlamaKrikri-8B has been extensively trained on highquality Greek data to ensure superior adaptation to linguistic nuances. With 8 billion parameters, it offers advanced capabilities while maintaining efficient computational performance. Llama-Krikri-8B supports both Modern Greek and English, and is also equipped to handle polytonic text and Ancient Greek."
 research_topic: "Machine Translation"
 ---
 # Krikri: Advancing Open Large Language Models for Greek

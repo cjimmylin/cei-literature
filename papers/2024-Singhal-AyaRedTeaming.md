@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://arxiv.org/abs/2406.18682"
 external_pdf: "https://arxiv.org/pdf/2406.18682.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Released AyaRedTeaming, the first multilingual red-teaming dataset distinguishing between global harms (universal) and local harms (culture-specific) across 6 languages."
 significance: "Criticizes the Western-centric focus of current safety alignment, showing that models need specific optimization to handle culture-variant safety preferences without degrading general performance."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Singhal-AyaRedTeaming.md"
-abstract: "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and cult"
+abstract: "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and..."
 paper_summary: "Abstract: A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monol | Overview: The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm Aakanksha⋆ Cohere For AI Arash Ahmadian Cohere & Cohere For AI Beyza Ermis Cohere For AI Seraphina Goldfarb-Tarra | Methodology: DPO(IFT) SFT-Preferred DPO(SFT) SFT-Random Figure 1: Trade-off between general performance and safety performance of different mitigation techniques w | Key Findings: We use the LLM-as-an-evaluator setup with GPT-4 to classify the model generations as harmful or not and validate the reliability of this approach with | Conclusions: In this work, we demonstrate the importance of a wide variety of alignment methods to tackle the dual challenge of mitigating both local and global ha"
 local_pdf: [[PDFs/2024/2024-Singhal-AyaRedTeaming.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "6 languages"
 LLM_assessed: "Bartolo, Command R, Command R+, Dolly, Dolly-200, GPT-4, GPT4, Gemma, Mistral, ChatGPT"

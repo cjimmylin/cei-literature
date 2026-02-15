@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Francesco Croce; Maksym Andriushchenko; Vikash Sehwag; Edoardo Debened
 doi: 10.48550/arXiv.2010.09670
 url: "http://arxiv.org/abs/2010.09670"
 external_pdf: "http://arxiv.org/pdf/2010.09670.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Established RobustBench, a standardized benchmark and leaderboard for adversarial robustness in image classification, evaluating 120+ models."
 significance: "Provided a systematic reality check for the field of adversarial defense, identifying overestimations in prior work and setting a reliable standard for progress tracking."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Croce-RobustBench.md"
 local_pdf: [[PDFs/2021/2021-Croce-RobustBench.pdf]]
-abstract: "As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust models. A key challenge in benchmarking robustness is that its evaluation is often error-prone leading to robustness overesti- mation. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reﬂects the robustness of the considered models within a re"
+abstract: "As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust models. A key challenge in benchmarking robustness is that its evaluation is often error-prone leading to robustness overestimation. Our goal is to establish a standardized benchmark of adversarial robustness, which as accurately as possible reﬂects the robustness of the considered models within a..."
 paper_summary: "Abstract: As a research community, we are still lacking a systematic understanding of the progress on adversarial robustness which often makes it hard to identify the most promising ideas in training robust mod | Overview: RobustBench: a standardized adversarial robustness benchmark Francesco Croce∗ Univ. of Tübingen Maksym Andriushchenko∗ EPFL Vikash Sehwag∗ Princeton Univ. Edoardo Debenedetti∗ EPFL Nicolas Flammarion  | Methodology: are made available by the authors, it is often time-consuming and not straightforward to integrate them in the same framework because of many factors  | Key Findings: is that it is a computationally hard problem even for simple ℓp-bounded perturbations [70] and exact approaches [138] do not scale to large enough mod"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: NA

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ authors: "Nathan Moss"
 doi: 10.1145/3593013.3594098
 url: "https://dl.acm.org/doi/10.1145/3593013.3594098"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LVYMDI7H/Moss and others - 2023 - Bias on Demand A Modelling Framework That Generates Synthetic Data With Bias.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "A framework to generate synthetic data with *controlled bias* ('Bias on Demand')."
 significance: "Useful for creating stress-tests: instead of waiting for bias to appear, we can manufacture biased datasets to test if our mitigation strategies work."
 tags: 
-abstract: "Recommendation systems increasingly depend on massive human-labeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models -- based on these labels -- are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are ``consistently conceptualized'' across annotators of different demographics. In a case study of video game labels, we conduct a survey on 5,174 gamers, identify a subset of inconsistently conceptualized game labels, perform causal analyses, and suggest both cultural and linguistic reasons for cross-country differences in label annotation. We further demonstrate that predictive models of game annotations perform better on global train sets as opposed to homogeneous (single-country) train sets. Finally, we provide a generalizable framework for practitioners to audit their own data annotation processes for consistent label conceptualization, and encourage practitioners to consider global inclusivity in recommendation systems starting from the early stages of annotator recruitment and data-labeling."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Recommendation systems increasingly depend on massive humanlabeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models—based on these labels—are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are “consistently conceptualized” across annotators of different demographics."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"

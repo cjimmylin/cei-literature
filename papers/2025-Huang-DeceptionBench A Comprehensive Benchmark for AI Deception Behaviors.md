@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,22 +17,22 @@ pdf_extract: "PDF Extracts/2025/2025-Huang-DeceptionBench A Comprehensive Benchm
 local_pdf: "[[PDFs/2025/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Despite the remarkable advances of Large Language Models (LLMs) across diverse cognitive tasks, the rapid enhancement of these capabilities also introduces emergent deception behaviors that may induce severe risks in high-stakes deployments. More critically, the characterization of deception across realistic real-world scenarios remains underexplored. To bridge this gap, we establish DeceptionBench, the first benchmark that systematically evaluates how deceptive tendencies manifest across..."
 research_topic: "Truthfulness & Factuality"
-data_description: Benchmark
+data_description: "Benchmark"
 data_metrics: "1,000 samples; over 1,000 samples"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, DeepSeek, Qwen"
 DATA_URL: "https://github.com/Aries-iai/DeceptionBench"

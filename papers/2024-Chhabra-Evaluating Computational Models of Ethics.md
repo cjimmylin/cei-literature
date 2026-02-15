@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Jatin Chhabra; Kartik Sama; Jay Deshmukh"
 doi: 10.1007/s43681-024-00532-4
 url: "https://link.springer.com/article/10.1007/s43681-024-00532-4"
 publication: "AI and Ethics"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Chhabra-Evaluating Computational Models of Ethics.md"
-abstract: "This paper presents SPECTRA (Strategic Protocol Evaluation and Configuration Testbed for Responsible Autonomy), a general purpose multi-agent, message-passing framework on which different models of computational ethics can be implemented, including deontology, utilitarianism, virtue ethics and computational transcendence."
+abstract: "Computational models for ethical autonomy, are crucial for building trustworthy autonomous systems. While different paradigms of ethical autonomy are pursued, comparing and contrasting these paradigms remains a challenge. In this work, we present SPECTRA (Strategic Protocol Evaluation and Configuration Testbed for Responsible Autonomy) a general purpose multi-agent, message-passing framework on top of which, different models of computational ethics can be implemented."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Chhabra-Evaluating Computational Models of Ethics.pdf]]"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: Yes
-utilitarian_ethics: Yes
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
 research_topic: "SPECTRA Ethical Framework"
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: 
-data_metrics: 
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 normative_ethics_benchmark: Borderline

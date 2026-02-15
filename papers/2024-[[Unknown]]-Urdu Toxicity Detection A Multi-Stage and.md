@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,25 +24,25 @@ pdf_access_url: "https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: MDPI
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman Urdu comments from social media, achieving 95% F1-score with data augmentation techniques. Large-scale Urdu toxicity detection benchmark relevant to safety evaluation."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
-research_topic: Other
+research_topic: "Other"
 ---
 # Urdu Toxicity Detection: A Multi-Stage and Multi-Label Classification Approach
 

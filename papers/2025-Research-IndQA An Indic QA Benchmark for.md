@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2025/2025-Research-IndQA An Indic QA Benchmark for.md
 local_pdf: "[[PDFs/2025/2025-Research-IndQA An Indic QA Benchmark for.pdf]]"
 publication: "IBM Research"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "QA benchmark across 12 languages and 10 domains including law, health, history, and current affairs. Multi-domain Indic QA benchmark covering culturally relevant domains."
-data_description: Benchmark
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Llama, llama 2, Llama-2, llama2.70, llama2.70. chat, mixtral 8x7b"
 DATA_URL: NA

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.md"
 local_pdf: "[[PDFs/2025/2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: German
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
 languages_list: German
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4o, GPT-4o-mini, Llama-3"

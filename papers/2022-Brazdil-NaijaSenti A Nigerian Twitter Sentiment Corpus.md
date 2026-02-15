@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,18 +19,18 @@ pdf_extract: "PDF Extracts/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Senti
 local_pdf: "[[PDFs/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.pdf]]"
 publication: "WebSearch: NaijaSenti Nigerian sentiment Hausa Yoruba Igbo dataset"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, American"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Sentiment analysis is one of the most widely studied applications in NLP, but most work focuses on languages with large amounts of data. We introduce the ﬁrst large-scale human-annotated Twitter sentiment dataset for the four most widely spoken languages in Nigeria—Hausa, Igbo, Nigerian-Pidgin, and Yorùbá—consisting of around 30,000 annotated tweets per language, including a signiﬁcant fraction of code-mixed tweets."
 data_description: "Evaluation methodology annotated dataset"

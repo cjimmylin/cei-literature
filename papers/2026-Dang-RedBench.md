@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,26 @@ pdf_extract: "PDF Extracts/0000/2026-Dang-RedBench.md"
 local_pdf: "[[PDFs/2026/2026-Dang-RedBench.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "As large language models (LLMs) become integral to safety-critical applications, ensuring their robustness against adversarial prompts is paramount. However, existing red teaming datasets suffer from inconsistent risk categorizations, limited domain coverage, and outdated evaluations, hindering systematic vulnerability assessments. To address these challenges, we introduce RedBench, a universal dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising..."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Benchmark for ai safety dataset"
-data_metrics: "29,362 samples"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Gemma, Qwen, Mistral, GPT-4"
 DATA_URL: "https://github.com/knoveleng/redeval"
+research_topic: "Other"
 ---
 # RedBench
 

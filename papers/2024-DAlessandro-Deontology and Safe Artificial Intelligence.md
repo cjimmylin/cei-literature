@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ external_pdf: "https://philarchive.org/archive/DALDAS"
 pdf_extract: "PDF Extracts/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.md"
 local_pdf: "[[PDFs/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.pdf]]"
 publication: "Philosophical Studies"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, AI-Safety, AI-Alignment, Moral-Philosophy"
 key_contribution: "Argues that while deontology is attractive alignment target, deontological AI systems may pose distinctive safety risks"
 significance: "Critical analysis challenging assumption that moral alignment automatically yields safe AI behavior"
 tags: 
-abstract: "Of the ethical frameworks taken most seriously by philosophers, deontology looks like an especially promising candidate for an alignment target. It's perhaps the most popular moral theory among both professional ethicists and the general public, and it presents a relatively tractable technical challenge since well-developed formal logics of deontic inference already exist, and language models have shown promise at classifying acts into deontologically relevant categories. Research has begun on equipping AIs with deontic constraints via a combination of top-down and bottom-up methods. However, deontological morality is no royal road to safe AI. The problem isn't just the trickiness of achieving complete alignment—there's reason to think that deontological AI systems might pose distinctive safety risks of their own."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
+abstract: "The ﬁeld of AI safety aims to prevent increasingly capable artiﬁcially intelligent systems from causing humans harm. Research on moral alignment is widely thought to oﬀer a promising safety strategy: if we can equip AI systems with appropriate ethical rules, according to this line of thought, they’ll be unlikely to disempower, destroy or otherwise seriously harm us. Deontological morality looks like a particularly attractive candidate for an alignment target, given its popularity, relative..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 ---

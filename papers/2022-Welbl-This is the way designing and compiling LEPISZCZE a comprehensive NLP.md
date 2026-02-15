@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2022/2022-Welbl-This is the way designing and compili
 local_pdf: "[[PDFs/2022/2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.pdf]]"
 publication: "arXiv / NeurIPS 2022"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: Polish
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, RoBERTa, XLNet, BERT"

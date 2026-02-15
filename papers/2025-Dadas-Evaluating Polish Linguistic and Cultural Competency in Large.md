@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Dadas-Evaluating Polish Linguistic and Cult
 local_pdf: "[[PDFs/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Polish
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Sonnet, Command-R, DeepSeek-V3, GPT-4, GPT-4o, Llama 3, Llama 3.1, Llama-3, Mistral, Mistral-7b, Mistral-Large, Qwen-2.5, Qwen2"

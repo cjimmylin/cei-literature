@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Rajitha Ramanayake; Vivek Nallur"
 doi: 10.1007/s44206-022-00001-7
 url: "https://link.springer.com/10.1007/s44206-022-00001-7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITG56NXR/Ramanayake and Nallur - 2022 - Pro-Social Rule Breaking as a Benchmark of Ethical Intelligence in Socio-Technical Systems.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Argues for 'pro-social rule breaking' as a benchmark for ethical intelligence in AI systems, moving beyond simple rule-following."
 significance: "Proposes that true ethical behavior in AI requires the capability to recognize when moral goals outweigh rigid rule-based constraints, offering a more sophisticated metric for alignment."
 tags: 
-abstract: "The current mainstream approaches to ethical intelligence in modern socio-technical systems have weaknesses. This paper argues that implementing and validating prosocial rule breaking behaviour can be used as a mechanism to overcome these weaknesses and introduce a sample scenario that can be used to validate this behaviour."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "The current mainstream approaches to ethical intelligence in modern socio-technical systems have weaknesses. This paper argues that implementing and validating prosocial rule breaking behaviour can be used as a mechanism to overcome these weaknesses and introduce a sample scenario that can be used to validate this behaviour. Keywords Machine ethics · Pro-social rule breaking · Socio-technical systems 1 Current Approaches to Ethical Agents Incidents resulting in unethical outcomes from..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
 ethics_perspective: "General Ethics"
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: "Benchmark for moral/ethical reasoning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

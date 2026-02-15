@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ pdf_extract: "PDF Extracts/2025/2025-Menke-How Effective Is Constitutional AI in
 local_pdf: "[[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2503.17365.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Utilitarianism
 key_contribution: "Studies the effectiveness of Constitutional AI (CAI) self-critique on small (7-9B) models like DeepSeek-R1 and Llama 3"
 significance: "Finds that CAI efficacy is highly architecture-dependent; Llama models improve significantly, while others show little gain, suggesting alignment techniques are not essentially transferable across model sizes"
 tags: 
-abstract: "Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI's self-critique mechanism on small, uncensored 7-9B parameter models: DeepSeek-R1-8B, Gemma-2-9B, Llama 3.1-8B, and Qwen2.5-7B. We show that while Llama-based models exhibited significant harm reduction through self-critique, other architectures demonstrated less improvement in harm detection after abliteration. These result"
+abstract: "Recent incidents highlight safety risks in Large Language Models (LLMs), motivating research into alignment methods like Constitutional AI (CAI). This paper explores CAI’s self-critique mechanism on small, uncensored 7-9B parameter models: DeepSeek-R1-8B, Gemma-2-9B, Llama 3.1-8B, and Qwen2.5-7B. We show that while Llama-based models exhibited significant harm reduction through self-critique, other architectures demonstrated less improvement in harm detection after abliteration."
 paper_summary: "Abstract: Recent incidents highlight safety risks in Large Language Models (LLMs), mo- tivating research into alignment methods like Constitutional AI (CAI). This pa- per explores CAI's self-critique mechanism  | Overview: HOW EFFECTIVE IS CONSTITUTIONAL AI IN SMALL LLMS? A STUDY ON DEEPSEEK-R1 AND ITS PEERS Antonio-Gabriel Chac´on Menke Shibaura Institute of Technology, Tokyo Kempten University of Applied Sciences, Kem | Methodology: We experiment with four small instruction models in the 7-9B parameter range: DeepSeek-R1-Distill-Llama-8B (DeepSeek-AI et al., 2025) (R1-Llama); Gemm | Conclusions: Figure 1 shows that models based on the Llama architecture (R1-Llama and Llama-3.1) demon- strated the strongest harm reduction in their revised respo"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Benchmark for moral/ethical reasoning"
-data_metrics: "90 prompts"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "DeepSeek, Gemma, Llama-3, Qwen"
 DATA_URL: "https://zenodo.org/records/12608602"
 ---

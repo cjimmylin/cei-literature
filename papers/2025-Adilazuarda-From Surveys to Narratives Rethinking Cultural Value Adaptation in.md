@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,22 +17,22 @@ pdf_extract: "PDF Extracts/2025/2025-Adilazuarda-From Surveys to Narratives Reth
 local_pdf: "[[PDFs/2025/2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Adapting cultural values in Large Language Models (LLMs) presents significant challenges, particularly due to biases and limited training data. Prior work primarily aligns LLMs with different cultural values using World Values Survey (WVS) data. However, it remains unclear whether this approach effectively captures cultural nuances or produces distinct cultural representations for various downstream tasks."
 ethics_perspective: "Social & Cultural Values"
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Gemma, Qwen"
 DATA_URL: "https://github.com/faridlazuarda/from-surveys-to-narratives"

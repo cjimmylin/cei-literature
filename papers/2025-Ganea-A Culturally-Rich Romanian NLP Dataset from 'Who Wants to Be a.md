@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ publication: "arXiv / RANLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md"
 local_pdf: "[[PDFs/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: French
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: Romanian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, GPT-4, Gemini, Gemma, Gemma-2, Gemma2, Llama, LLaMA 3.3, LLaMA3, LLaMA3., Llama-3, Llama-3.1, Llama-3.3, Mistral 7b, Mistral-7B, PaLM, Phi-4, Phi-4 56, Qwen, Qwen2.5, RoBERTa, gemini-1.5-flash"

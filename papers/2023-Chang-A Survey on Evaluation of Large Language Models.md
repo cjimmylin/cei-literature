@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,10 +16,10 @@ doi: 10.48550/arXiv.2307.03109
 url: "http://arxiv.org/abs/2307.03109"
 external_pdf: "http://arxiv.org/pdf/2307.03109.pdf"
 publication: "ACM Transactions on Intelligent Systems and Technology"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Provides a comprehensive survey of LLM evaluation methods, categorizing benchmarks by domain (reasoning, ethics, medical, agentic) and methodology."
 significance: "Serves as a foundational reference for the field, organizing the fragmented landscape of evaluation into a structured taxonomy and identifying key gaps in current assessment capabilities."
@@ -27,18 +28,19 @@ pdf_extract: "PDF Extracts/2023/2023-Chang-A Survey on Evaluation of Large Langu
 abstract: "Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT perform on the United States Medical Licensing Examination? the implications of large language models for medical education and knowledge assessment. JMIR Medical Education 9, 1 (2023), e45312. [58] Jesse Graham, Jonathan Haidt, Sena Koleva, Matt Motyl, Ravi Iyer, Sean P Wojcik, and Peter H Ditto. 201"
 paper_summary: "Abstract: Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT pe | Overview: 111 A Survey on Evaluation of Large Language Models YUPENG CHANG∗and XU WANG∗, School of Artificial Intelligence, Jilin University, China JINDONG WANG†, Microsoft Research Asia, China YUAN WU†, School | Methodology: References Human-in-the-loop AdaVision [50], AdaTest [164] Crowd-sourcing testing DynaBench [94], DynaBoard [132], DynamicTempLAMA [135], DynaTask [18 | Key Findings: What to evaluate (Sec. 3) Natural language processing Natural language understanding: (1) Sentiment analysis: Bang et al. [6]/ Liang et al. [114]/ Lop | Conclusions: Evaluation carries profound significance, becoming imperative in the advancement of AI models, especially within the context of large language models."
 local_pdf: "[[PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, BLOOM, Bart, Bartolo, ChatGPT, Claude, Claude 1, Claude 2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, Llama2, Llama2., RoBERTa, Vicuna, text-davinci-002"
 DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
+research_topic: "Other"
 ---
 # A Survey on Evaluation of Large Language Models
 

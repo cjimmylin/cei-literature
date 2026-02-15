@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,29 +15,30 @@ doi: 10.48550/arXiv.2310.12773
 url: "https://arxiv.org/abs/2310.12773"
 external_pdf: "https://arxiv.org/pdf/2310.12773.pdf"
 publication: arXiv
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "RLHF, AI Safety, Constrained Optimization"
 key_contribution: "Proposes Safe RLHF that decouples helpfulness and harmlessness with separate models"
 significance: "Addresses the tension between helpfulness and safety in RLHF alignment"
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Dai-Safe RLHF.md"
-abstract: "This research addresses the challenge of balancing AI system performance with safety in large language models. The authors propose Safe RLHF, an algorithm that explicitly decouples human preferences regarding helpfulness and harmlessness by training separate reward and cost models. The approach formalizes safety as a constrained optimization problem and employs the Lagrangian method to dynamically balance these competing objectives during model fine-tuning...."
+abstract: "With the development of large language models (LLMs), striking a balance between the performance and safety of AI systems has never been more critical. However, the inherent tension between the objectives of helpfulness and harmlessness presents a significant challenge during LLM training. To address this issue, we propose Safe Reinforcement Learning from Human Feedback (Safe RLHF), a novel algorithm for human value alignment."
 paper_summary: 
 local_pdf: "[[PDFs/2023/2023-Dai-Safe RLHF.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Llama"
 DATA_URL: "https://github.com/PKU-Alignment/safe-rlhf"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Safe RLHF
 

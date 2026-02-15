@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2023/2023-Bhardwaj-Red-Teaming Large Language Models 
 local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+national_ethnic_cultural: "Chinese, Vietnamese"
 languages_list: "Chinese, English, Vietnamese"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multi-task benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA"

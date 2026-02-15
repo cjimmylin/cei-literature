@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Laura Gustafson; Chloe Rolland; Nikhila Ravi; Quentin Duval; Aaron Adc
 doi: 10.1109/ICCV51070.2023.01863
 url: "https://ieeexplore.ieee.org/document/10377223/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RS2ZQBS3/Gustafson et al. - 2023 - FACET Fairness in Computer Vision Evaluation Benchmark.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Released FACET (Fairness in Computer Vision Evaluation), a benchmark of 32k images with expert-annotated person-related attributes (skin tone, hair type) to measure CV model fairness."
 significance: "Enables granular analysis of performance disparities in vision tasks (classification, detection) across intersectional demographics, revealing significant biases in state-of-the-art models."
 tags: 
-abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models. We present a new benchmark named FACET (FAirness in Compute"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA

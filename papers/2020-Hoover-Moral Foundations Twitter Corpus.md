@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ authors: "Joe Hoover; Gwenyth Portillo-Wightman; Leigh Yeh; Shreya Havaldar; Aid
 doi: 10.1177/1948550619876629
 url: "https://doi.org/10.1177/1948550619876629"
 external_pdf: "https://journals.sagepub.com/doi/pdf/10.1177/1948550619876629"
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created the MFTC, a large corpus of 35k tweets annotated for 10 Moral Foundations, across 7 distinct domains (e.g., #BlueLivesMatter, #Sandy, etc.)."
 significance: "The gold-standard dataset for studying 'moral sentiment' in natural language social media analysis, enabling researchers to track how moral values drive online polarization and diffusion."
 tags: 
-abstract: "Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging, and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated fr"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena, such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
 LLM_assessed: NA

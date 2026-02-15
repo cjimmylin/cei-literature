@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,25 +22,25 @@ pdf_extract: "PDF Extracts/2022/2022-Unknown-Addressing Religious Hate Online Fr
 local_pdf: "[[PDFs/2022/2022-Unknown-Addressing Religious Hate Online From Taxonomy.pdf]]"
 publication: "PeerJ Computer Science"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Multiple Religions"
-religious_values_list: "Multiple Religions"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Proposes a fine-grained labeling scheme for religious hate speech detection covering the three main monotheistic religions. Creates a bilingual Twitter dataset (English and Italian) annotated with the proposed scheme. Experiments with classifiers from traditional ML to transformers on two tasks: abusive language detection and religious hate speech detection. Addresses the gap of scattered efforts in religious hate data and methods."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/dhfbk/religious-hate-speech"
-research_topic: Other
+research_topic: "Other"
 ---
 # Addressing Religious Hate Online: From Taxonomy Creation to Automated Detection
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,27 +14,27 @@ last_author: "[[Jared Kaplan]]"
 authors: "Yuntao Bai; Andy Jones; Kamal Ndousse; Amanda Askell; Anna Chen; Nova DasSarma; Dawn Drain; Stanislav Fort; Deep Ganguli; Tom Henighan; Nicholas Joseph; Saurav Kadavath; Jackson Kernion; Tom Conerly; Sheer El-Showk; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Tristan Hume; Scott Johnston; Shauna Kravec; Liane Lovitt; Neel Nanda; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Ben Mann; Jared Kaplan"
 url: "https://arxiv.org/abs/2204.05862"
 external_pdf: "https://arxiv.org/pdf/2204.05862.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "The seminal Anthropic paper introducing 'Constitutional AI' precursor concepts (RLHF for H&H), showing that alignment improves performance on almost all NLP tasks (compatibility) and exploring the 'alignment tax'."
 significance: "Established the standard 'Helpful & Harmless' (imperfect but influential) dichotomy and the RLHF methodology that defined the ChatGPT/Claude era."
 tags: 
 osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2022/2022-Bai-Training a Helpful and Harmless Assistant with.md"
-abstract: "We apply preference modeling and reinforcement learning from human feedback (RLHF) to ﬁnetune language models to act as helpful and harmless assistants. We ﬁnd this align- ment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data, efﬁcient"
+abstract: "We apply preference modeling and reinforcement learning from human feedback (RLHF) to ﬁnetune language models to act as helpful and harmless assistants. We ﬁnd this alignment training improves performance on almost all NLP evaluations, and is fully compatible with training for specialized skills such as python coding and summarization. We explore an iterated online mode of training, where preference models and RL policies are updated on a weekly cadence with fresh human feedback data,..."
 paper_summary: "Abstract: We apply preference modeling and reinforcement learning from human feedback (RLHF) to ﬁnetune language models to act as helpful and harmless assistants. We ﬁnd this align- ment training improves perfo | Overview: Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback Yuntao Bai∗, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, D | Methodology: for either helpfulness and harmlessness (HH) or for helpfulness only. We present both Elo scores and a match to the frequency with which crowdworkers  | Key Findings: comparisons (see Figure 10 left). These are all examples of failures of honesty, where the better choice is honest but unhelpful, while the incorrect  | Conclusions: 34"
 local_pdf: "[[PDFs/2022/2022-Bai-Training a Helpful and Harmless Assistant with.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, GPT-3, InstructGPT, LaMDA, Palm, BERT, codex, grok"

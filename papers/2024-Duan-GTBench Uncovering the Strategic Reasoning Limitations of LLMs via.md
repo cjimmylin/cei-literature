@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,21 +17,21 @@ pdf_extract: "PDF Extracts/2024/2024-Duan-GTBench Uncovering the Strategic Reaso
 local_pdf: "[[PDFs/2024/2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.pdf]]"
 publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: "As Large Language Models (LLMs) are integrated into critical real-world applications, their strategic and logical reasoning abilities are increasingly crucial. This paper evaluates LLMs' reasoning abilities in competitive environments through game-theoretic tasks, e.g., board and card games that require pure logic and strategic reasoning to compete with opponents. We first propose GTBENCH, a languagedriven environment composing 10 widely-recognized tasks, across a comprehensive game taxonomy:..."
-research_topic: Other
+abstract: "As Large Language Models (LLMs) are integrated into critical real-world applications, their strategic and logical reasoning abilities are increasingly crucial. This paper evaluates LLMs’ reasoning abilities in competitive environments through game-theoretic tasks, e.g., board and card games that require pure logic and strategic reasoning to compete with opponents. We first propose GTBENCH, a languagedriven environment composing 10 widely-recognized tasks, across a comprehensive game taxonomy:..."
+research_topic: "Other"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2, CodeLlama, Mistral, DeepSeek"

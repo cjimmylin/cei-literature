@@ -24,8 +24,8 @@ sys.path.insert(0, str(WORKSPACE / ".agent" / "lib"))
 from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, STATISTICS_DIR, LOGS_DIR
 
-INPUT_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
-OUTPUT_FILE = STATISTICS_DIR / "20260213-ethical-values-alignment-benchmarks-report.md"
+INPUT_FILE = LOGS_DIR / "20260215-benchmark_survey_candidates.json"
+OUTPUT_FILE = STATISTICS_DIR / "20260215-ethical-values-alignment-benchmarks-report.md"
 
 # Also import classify_entry from sibling script
 sys.path.insert(0, str(SCRIPT_DIR))
@@ -747,10 +747,10 @@ def generate_report(section_entries, all_entries, anchor_count, new_count):
     lines.append("# Ethical Values Alignment Benchmarks for LLMs")
     lines.append("## Comprehensive Research Report — Updated")
     lines.append("")
-    lines.append("**Generated:** 2026-02-10")
+    lines.append("**Generated:** 2026-02-15")
     lines.append("**Previous version:** 2026-02-07 (39 entries)")
     lines.append("**Scope:** Papers with implementable datasets, benchmarks, code, or evaluation frameworks for assessing LLM alignment with ethical values")
-    lines.append("**Source:** CEI Literature Vault (846 papers) + 528-candidate benchmark survey")
+    lines.append("**Source:** CEI Literature Vault (1847 papers) + benchmark candidate survey")
     lines.append("**Anchor paper:** Hendrycks et al. (2021) \"Aligning AI with Shared Human Values\" (ICLR 2021)")
     lines.append("")
     lines.append("---")
@@ -912,7 +912,7 @@ def generate_report(section_entries, all_entries, anchor_count, new_count):
     lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append("*Generated: 2026-02-10 | Script: `PYTHON/generate_values_alignment_report.py` | Source: 846-paper vault + 528-candidate survey*")
+    lines.append("*Generated: 2026-02-15 | Script: `PYTHON/generate_values_alignment_report.py` | Source: 1847-paper vault + benchmark candidate survey*")
 
     return "\n".join(lines)
 

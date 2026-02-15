@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: "IberLEF / SEPLN"
 pdf_extract: "PDF Extracts/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md"
 local_pdf: "[[PDFs/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Spanish
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Spanish"
 languages_list: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GloVe"
 DATA_URL: "https://github.com/dccuchile/beto"
 tags: 
-abstract: "First task focused on detecting different levels of toxicity in Spanish news comments related to immigration. Two subtasks: binary toxicity detection and toxicity level detection. Uses NewsCom-TOX dataset with 4,359 Spanish comments."
-research_topic: Other
+abstract: "In this paper we present the DETOXIS task, DEtection of TOxicity in comments In Spanish, which took place as part of the IberLEF 2021 Workshop on Iberian Languages Evaluation Forum at the SEPLN 2021 Conference. We describe the NewsCom-TOX dataset used for training and testing the systems, the metrics applied for their evaluation and the results obtained by the submitted approaches. We also provide an error analysis of the results of these systems."
+research_topic: "Machine Learning"
 ---
 # Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish
 

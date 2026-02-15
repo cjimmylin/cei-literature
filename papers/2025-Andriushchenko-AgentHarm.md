@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Maksym Andriushchenko; Alexandra Souly; Mateusz Dziemian; Derek Duenas
 doi: 10.48550/arXiv.2410.09024
 url: "http://arxiv.org/abs/2410.09024"
 external_pdf: "http://arxiv.org/pdf/2410.09024.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Released AgentHarm, a benchmark for evaluating the safety of LLM Agents across 110 malicious tasks (e.g., fraud, harassment) requiring multi-step tool use."
 significance: "Addresses the 'agentic safety gap', testing not just whether a model generates harmful text, but whether it will actively *execute* harmful commercial/cyber actions when instructed."
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Andriushchenko-AgentHarm.md"
-abstract: "The robustness of LLMs to jailbreak attacks, where users design prompts to cir- cumvent safety measures and misuse model capabilities, has been studied primar- ily for LLMs acting as simple chatbots. Meanwhile, LLM agents—which use external tools and can execute multi-stage tasks—may pose a greater risk if mis- used, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm. The benchmark includes a diverse set of 110 expl"
+abstract: "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents—which use external tools and can execute multi-stage tasks—may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm."
 paper_summary: "Abstract: The robustness of LLMs to jailbreak attacks, where users design prompts to cir- cumvent safety measures and misuse model capabilities, has been studied primar- ily for LLMs acting as simple chatbots.  | Overview: Published as a conference paper at ICLR 2025 AGENTHARM: A BENCHMARK FOR MEASURING HARMFULNESS OF LLM AGENTS Maksym Andriushchenko1,†,∗, Alexandra Souly2,∗ Mateusz Dziemian1, Derek Duenas1, Maxwell Lin | Key Findings: in jailbroken models with reduced capabilities (Souly et al., 2024). Attacks against agents may be less concerning if they do not result in strong age | Conclusions: Limitations. We note several limitations of our work: • The prompts are only in English, and do not consider other languages which may impact per- for"
 local_pdf: [[PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, Mistral, Llama-3"

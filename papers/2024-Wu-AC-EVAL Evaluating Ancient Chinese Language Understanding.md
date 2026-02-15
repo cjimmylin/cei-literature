@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Langu
 local_pdf: "[[PDFs/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.pdf]]"
 publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
-religious_values: "Confucianism and Taoism"
-religious_values_list: "Confucianism and Taoism"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Given the importance of ancient Chinese in capturing the essence of rich historical and cultural heritage, the rapid advancements in Large Language Models (LLMs) necessitate benchmarks that can effectively evaluate their understanding of ancient contexts. To meet this need, we present AC-EVAL, an innovative benchmark designed to assess the advanced knowledge and reasoning capabilities of LLMs within the context of ancient Chinese."
-data_description: Benchmark
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Baichuan, Baichuan2, ChatGLM, ChatGLM3, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama, LLaMA2, Qwen, Qwen-72B, Qwen-7B, Qwen-Chat, Qwen-Chat9, Qwen-max, gpt-3.5-turbo"
 DATA_URL: "https://github.com/yuting-wei/AC-EVAL"

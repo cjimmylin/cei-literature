@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2023/2023-Unknown-Toxicity Posts and Hateful Comments
 local_pdf: "[[PDFs/2023/2023-Unknown-Toxicity Posts and Hateful Comments Detection.pdf]]"
 publication: "RMUTL Engineering Journal"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Thai
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Thai"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Uses a dataset of 2,160 posts from the Thai toxicity Twitter corpus for training and verifying Thai language toxic and hateful classification using supervised ensemble methods. Thai toxicity detection dataset from Twitter. Relevant to toxicity and hate speech evaluation in Thai."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: NA

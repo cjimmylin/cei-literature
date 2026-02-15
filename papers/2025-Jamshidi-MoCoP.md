@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,10 +14,10 @@ authors: "[[Saeid Jamshidi]]; [[Kawser Wazed Nafi]]; [[Arghavan Moradi Dakhel]];
 doi: 10.48550/arXiv.2512.03026
 url: "https://arxiv.org/abs/2512.03026"
 external_pdf: "https://arxiv.org/pdf/2512.03026.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduces a dataset-free, closed-loop framework for continuous moral stability evaluation"
 significance: "Enables monitoring of 'moral drift' and consistency over time and contexts"
@@ -25,15 +26,15 @@ pdf_extract: "PDF Extracts/0000/2025-Jamshidi-MoCoP.md"
 abstract: "The rapid advancement and adaptability of Large Language Mod- els (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different con- texts or temporal scales. This study presen"
 paper_summary: "Abstract: The rapid advancement and adaptability of Large Language Mod- els (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existin | Overview: The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh SWAT Laboratory, Polytec | Methodology: Building upon the conceptual foundation established in Section 1, the proposed Moral Consistency Pipeline (MoCoP) operationalizes continuous ethical e | Key Findings: for Large Language Models Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh SWAT Laboratory, Polytechnique Montr | Conclusions: The evaluation of the MoCoP demonstrates a mathematically grounded mechanism for continuous moral auditing in LLMs. The strong in- verse relation betw"
 local_pdf: "[[PDFs/2025/2025-Jamshidi-MoCoP.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation framework dataset for toxicity detection"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, DeepSeek"
 DATA_URL: NA

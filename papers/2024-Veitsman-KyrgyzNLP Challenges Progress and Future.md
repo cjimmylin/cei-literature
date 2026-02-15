@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ publication: Springer
 pdf_extract: "PDF Extracts/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md"
 local_pdf: "[[PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, RoBERTa"
 DATA_URL: "https://github.com/Akyl-AI/kyrgyz-alpaca"
 tags: 
-abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance, especially for LRLs where automatic evaluations can fall short. In recent assessments of the resources for Turkic languages, Kyrgyz is labeled with the status 'Scraping By', a severely under-resourced language spoken by millions. This is concerning given the growing importance of the language, not only in Kyrgyzstan but also among diaspora communities where it holds no official status. We review prior efforts in the field, noting that many of the publicly available resources have only recently been developed, with few exceptions beyond dictionaries (the processed data used for the analysis is presented at https://kyrgyznlp.github.io/). While recent papers have made some headway, much more remains to be done. Despite interest and support from both business and government sectors in the Kyrgyz Republic, the situation for Kyrgyz language resources remains challenging. We stress the importance of community-driven efforts to build these resources, ensuring the future advancement sustainability. We then share our view of the most pressing challenges in Kyrgyz NLP. Finally, we propose a roadmap for future development in terms of research topics and language resources."
-research_topic: Other
+abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance,..."
+research_topic: "NLP & Representation Learning"
 ---
 # KyrgyzNLP: Challenges, Progress, and Future
 

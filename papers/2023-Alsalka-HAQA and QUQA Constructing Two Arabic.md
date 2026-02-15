@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arab
 local_pdf: "[[PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.pdf]]"
 publication: "RANLP 2023 / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: "Creates two Arabic QA corpora: QUQA for the Quran (covering ~47% of Quran verses) and HAQA for Hadith. The most extensive collection of Arabic QA pairs for the Quran. Questions span factual, inferential, and interpretive types. Useful as gold-standard evaluation datasets for LLMs."
-data_description: Dataset
-data_metrics: "Not specified"
+abstract: "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question-Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA)."
+data_description: "Evaluation approach text corpus for question answering"
+data_metrics: "1598 question"
 LLM_assessed: "NA"
 DATA_URL: "http://github.com/scsaln/HAQA-and-QUQA"
-research_topic: Other
+research_topic: "Machine Learning"
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
 

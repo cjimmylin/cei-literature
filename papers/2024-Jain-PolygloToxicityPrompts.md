@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ tags:
 url: "http://arxiv.org/abs/2405.09373"
 external_pdf: "http://arxiv.org/pdf/2405.09373.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: Jainism
-religious_values_list: Jainism
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Released PTP, a dataset of 425k naturally occurring toxic prompts across 17 languages, derived from a 100M document crawl."
 significance: "Addressing the 'English-centricity' of toxicity evaluation, finding that toxicity generation is worse in lower-resource languages and that standard safety tuning often fails to generalize multilingually."
 pdf_extract: "PDF Extracts/2024/2024-Jain-PolygloToxicityPrompts.md"
-abstract: "Recent advances in large language models (LLMs) have led to their exten- sive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, existing toxicity bench- marks are overwhelmingly focused on English, posing serious risks to deploying LLMs in other languages. We address this by introducing POLY- GLOTOXICITYPROMPTS (PTP), the first large-scale multilingual toxicity evaluation benchmark of 425K naturally occurring prompts spanning 17"
+abstract: "Recent advances in large language models (LLMs) have led to their extensive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, existing toxicity benchmarks are overwhelmingly focused on English, posing serious risks to deploying LLMs in other languages. We address this by introducing POLYGLOTOXICITYPROMPTS (PTP), the first large-scale multilingual toxicity evaluation benchmark of 425K naturally occurring prompts spanning 17..."
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have led to their exten- sive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, exist | Overview: Published as a conference paper at COLM 2024 PolygloToxicityPrompts : Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models Warning: this paper discusses content that some may  | Methodology: does not have any significant impact. Our findings shed light on crucial shortcomings of LLM safeguarding and highlight areas for future research. Cod | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam | Conclusions: We present POLYGLOTOXICITYPROMPTS, the first large-scale multilingual benchmark of 425K naturally occurring prompts across 17 languages for evaluating"
 local_pdf: [[PDFs/2024/2024-Jain-PolygloToxicityPrompts.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Multilingual benchmark for ai safety"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
 data_metrics: "17 languages"
 LLM_assessed: "GPT-3.5, Llama-2, Qwen, BLOOM, Mistral"
 DATA_URL: "https://huggingface.co/datasets/ToxicityPrompts/PolygloToxicityPrompts"

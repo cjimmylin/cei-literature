@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,18 +20,18 @@ pdf_extract: "PDF Extracts/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced 
 local_pdf: "[[PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.pdf]]"
 publication: ScienceDirect
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "This paper addresses the challenge of learning to recite the Quran for non-Arabic speakers. We explore the possibility of crowdsourcing a carefully annotated Quranic dataset, on top of which AI models can be built to simplify the learning process. In particular, we use the volunteer-based crowdsourcing genre and implement a crowdsourcing API to gather audio assets. We integrated the API into an existing mobile application called NamazApp to collect audio recitations."
 data_description: "Annotated dataset"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Li-Untangling Input Language from Reasoning
 local_pdf: "[[PDFs/2025/2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: "Chinese, English"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, Claude, Claude 1.00, Claude 11.5, Claude 42.7, Claude-Sonnet, DeepSeek, DeepSeek 0, DeepSeek-R1, Grok, Grok 0, Grok-4, Llama, Llama-4, Qwen, Qwen 28.6, Qwen 37.1, Qwen3"

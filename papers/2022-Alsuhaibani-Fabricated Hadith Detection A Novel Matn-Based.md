@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2022/2022-Alsuhaibani-Fabricated Hadith Detection A N
 local_pdf: "[[PDFs/2022/2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.pdf]]"
 publication: "IEEE Access"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Creates MAHADDAT, the first dataset dedicated to fabricated (Mawdu) Hadith detection. Uses Matn (textual content) analysis rather than solely Sanad (narrator chain). BERT-based system achieves 92.47% F1 score. Foundational resource for Hadith authenticity verification using NLP."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, RoBERTa, XLNet"
 DATA_URL: "MAHADDAT dataset (released with paper)"

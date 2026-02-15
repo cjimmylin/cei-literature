@@ -1,0 +1,77 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0060
+type: preprint
+short_title: "Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages"
+year: 2025
+first_author: "[[Tarek Naous]]"
+last_author: "[[Wei Xu]]"
+authors: Tarek Naous, Anagha Savit, Carlos Rafael Catalan, Geyang Guo, Jaehyeok Lee, Kyungdon Lee, Lheane Marie Dizon, Mengyu Ye, Neel Kothari, Sahajpreet Singh, Sarah Masud, Tanish Patwa, Trung Thanh Tran, Zohaib Khan, Alan Ritter, JinYeong Bak, Keisuke Sakaguchi, Tanmoy Chakraborty, Yuki Arase, Wei Xu
+url: "https://arxiv.org/abs/2510.05291"
+external_pdf: "https://arxiv.org/pdf/2510.05291.pdf"
+publication: arXiv
+local_pdf: "[[PDFs/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md"
+DATE_ADDED: 20260215
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic, Western"
+cultures_nationalities_list: "Chinese, Gujarati, Hindi, Japanese, Korean, Malayalam, Marathi, Urdu, Vietnamese"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for bias and fairness"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: "https://github.com/tareknaous/camellia"
+tags: 
+abstract: "As Large Language Models (LLMs) gain stronger multilingual capabilities, their ability to handle culturally diverse entities becomes crucial. Prior work has shown that LLMs often favor Western-associated entities in Arabic, raising concerns about cultural fairness. Due to the lack of multilingual benchmarks, it remains unclear if such biases also manifest in different non-Western languages. In this paper, we introduce Camellia, a benchmark for measuring entity-centric cultural biases in nine..."
+ethics_perspective: "Social & Cultural Values"
+---
+# Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages
+
+## Authors
+
+[[Tarek Naous, Anagha Savit, Carlos Rafael Catalan, Geyang Guo, Jaehyeok Lee, Kyungdon Lee, Lheane Marie Dizon, Mengyu Ye, Neel Kothari, Sahajpreet Singh, Sarah Masud, Tanish Patwa, Trung Thanh Tran, Zohaib Khan, Alan Ritter, JinYeong Bak, Keisuke Sakaguchi, Tanmoy Chakraborty, Yuki Arase, Wei Xu]]
+
+## Metadata
+
+**Authors:** Tarek Naous, Anagha Savit, Carlos Rafael Catalan, Geyang Guo, Jaehyeok Lee, Kyungdon Lee, Lheane Marie Dizon, Mengyu Ye, Neel Kothari, Sahajpreet Singh, Sarah Masud, Tanish Patwa, Trung Thanh Tran, Zohaib Khan, Alan Ritter, JinYeong Bak, Keisuke Sakaguchi, Tanmoy Chakraborty, Yuki Arase, Wei Xu
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv
+
+**Cultures:** Chinese, Gujarati, Hindi, Japanese, Korean, Malayalam, Marathi, Urdu, Vietnamese
+
+**Benchmark:** Camellia
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2510.05291
+- **Code/Data:** https://github.com/tareknaous/camellia
+
+## Abstract
+
+Benchmark for measuring entity-centric cultural biases in nine Asian languages spanning six distinct Asian cultures, including Vietnamese. Includes 19,530 entities manually annotated for cultural association and 2,173 masked contexts from social media. Shows LLMs favor Western-associated entities in 30-40% of cases even in non-Western contexts.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_08
+**Relevance:** Directly includes Vietnamese as one of nine Asian languages. Measures entity-centric cultural biases revealing Western bias in LLMs when handling Vietnamese and other Asian cultural contexts. Highly relevant for assessing cultural values alignment.
+
+## Tags
+

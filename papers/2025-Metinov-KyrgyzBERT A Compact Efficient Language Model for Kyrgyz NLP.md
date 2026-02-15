@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md"
 local_pdf: "[[PDFs/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: NA
 tags: 
-abstract: "The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35.9M parameter model developed with a custom tokenizer to optimally handle the language's unique morphological characteristics. To demonstrate its effectiveness, we construct a new, high-quality sentiment analysis benchmark, kyrgyz-sst2, by translating the Stanford Sentiment Treebank and manually annotating the entire test set. Our experiments show that our finetuned model, kyrgyzbert_sst2, achieves an F1-score of 0.8280, a result highly competitive with a finetuned mBERT model five times its size. We publicly release all artifacts from this study, providing a comprehensive suite of tools to accelerate NLP research for the Kyrgyz language."
+abstract: "The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35."
 research_topic: "NLP & Representation Learning"
 ---
 # KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP

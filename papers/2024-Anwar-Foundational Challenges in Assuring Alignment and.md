@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,27 +16,27 @@ doi: 10.48550/arXiv.2404.09932
 url: "http://arxiv.org/abs/2404.09932"
 external_pdf: "http://arxiv.org/pdf/2404.09932.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Identified 18 foundational challenges and ~200 concrete research questions for assuring LLM alignment and safety, spanning scientific, methodological, and sociotechnical domains."
 significance: "A comprehensive roadmap paper that organizes the fragmented alignment field, defining the critical open problems to guide future research and funding."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.md"
-abstract: "This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose 200+ concrete research questions. Corresponding author: Usman Anwar «usmananwar391@gmail.com» 1 arXiv:2404.09932v2 [cs.LG] 6 Sep 2024 --- Page 2 --- Contents 1"
+abstract: "This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific understanding of LLMs, development and deployment methods, and sociotechnical challenges. Based on the identified challenges, we pose 200+ concrete research questions. Corresponding author: Usman Anwar «usmananwar391@gmail.com» 1 arXiv:2404.09932v2 [cs.LG] 6 Sep"
 paper_summary: "Abstract: This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific underst | Overview: Published in Transactions on Machine Learning Research (09/2024) Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar1 Abulhair Saparov∗2, Javier Rando∗3, Dani | Methodology: also runs the risk of missing backup or secondary computational nodes from the identified circuits, which only becomes active when the primary computa | Key Findings: . . . . . . . . . . . . . . . . . . . . . . 55 | Conclusions: 110"
 local_pdf: "[[PDFs/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, ChatGPT, Claude, Claude-2., GPT-4, Gemini, Llama, PALM-2, PaLM"
 DATA_URL: "https://github.com/AntonOsika/gpt-engineer"

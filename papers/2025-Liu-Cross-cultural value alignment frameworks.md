@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,23 +19,23 @@ local_pdf: "[[PDFs/2025/2025-Liu-Cross-cultural value alignment frameworks.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.17256.pdf"
 publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"
-national_ethnic_cultural: "Chinese vs Western"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Chinese, American, Western, Multicultural/Cross-cultural"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Cross-Cultural Ethics, Value Alignment, LLM Evaluation"
 key_contribution: "Develops Multi-Layered Auditing Platform comparing value alignment in China-origin and Western-origin LLMs"
 significance: "Shows larger LLMs favor deontological perspective; reveals cultural differences in ethical reasoning across 20+ models"
-abstract: "As Large Language Models (LLMs) increasingly influence high-stakes decision-making across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a Multi-Layered Auditing Platform for Responsible AI that systematically evaluates cross-cultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced Framework (DEF) for quantifying cultural fidelity, First-Token Probability Alignment for distributional accuracy, and Multi-stAge Reasoning frameworK (MARK) for interpretable decision-making. The comparative analysis covers 20+ leading models including Qwen, GPT-4o, Claude, LLaMA, and DeepSeek. Key findings include that LLMs prioritize truth over loyalty in 93.48% of cases and long-term over short-term considerations in 83.69% of cases, with larger LLMs tending to support a deontological perspective."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Ethical Dilemma Corpus, cross-cultural evaluation datasets"
-data_metrics: "Truth vs loyalty rates, temporal stability, cultural fidelity scores"
+abstract: "As Large Language Models (LLMs) increasingly influence high-stakes decisionmaking across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a MultiLayered Auditing Platform for Responsible AI that systematically evaluates crosscultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for moral/ethical reasoning text corpus"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
 DATA_URL: NA
 ---

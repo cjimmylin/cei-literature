@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ doi: 10.48550/arXiv.2211.09110
 url: "http://arxiv.org/abs/2211.09110"
 external_pdf: "http://arxiv.org/pdf/2211.09110.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Established HELM (Holistic Evaluation of Language Models), a massive benchmarking initiative evaluating 30 prominent models across 42 scenarios and 7 metrics (accuracy, fairness, bias, toxicity, etc.)."
 significance: "Shifted the field's evaluation standard from identifying 'state-of-the-art' on single metrics to analyzing trade-offs (e.g., accuracy vs. fairness) and ensuring comprehensive transparency across diverse use cases."
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Liang-Holistic Evaluation of Language Models.md"
-abstract: "Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and met- rics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what's missing or"
+abstract: "Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and metrics (i.e. desiderata) that are of interest for LMs."
 paper_summary: "Abstract: Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation o | Overview: Published in Transactions on Machine Learning Research (08/2023) Holistic Evaluation of Language Models Percy Liang†, Rishi Bommasani†, Tony Lee†, Dimitris Tsipras‡, Dilara Soylu‡, Michihiro Yasunaga‡ | Methodology: employed throughout linguistics (Chomsky, 1957) that helps to tease out fine-grained understanding of specific linguistic phenomena. Together, the two | Key Findings: No canonical tasks/not task-centric Semantics: Lexical Word sense disambiguation, word sense induction Semantics: Sentence-level Semantics, Textual In | Conclusions: 75 10 What is missing 77 10.1 Missing scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 10.2 Missing"
 local_pdf: "[[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "42 scenarios; 21 scenarios"
 LLM_assessed: "GPT-3, InstructGPT, GPT-J, GPT-NeoX, T5, OPT, BLOOM"

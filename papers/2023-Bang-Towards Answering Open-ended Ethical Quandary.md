@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,27 +15,27 @@ authors: "Yejin Bang; Nayeon Lee; Tiezheng Yu; Leila Khalatbari; Yan Xu; Samuel 
 doi: 10.48550/arXiv.2205.05989
 url: "http://arxiv.org/abs/2205.05989"
 external_pdf: "http://arxiv.org/pdf/2205.05989.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed the task of 'Ethical Quandary Generative Question Answering', prompting LLMs to provide deliberative, multi-perspective answers (Socratic method) rather than single-oracle verdicts."
 significance: "Shifts the goal of ethical AI from 'giving the right answer' to 'facilitating moral deliberation', evaluating whether models can reason through conflicting principles (e.g., utilitarian vs. deontological) in open-ended scenarios."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Bang-Towards Answering Open-ended Ethical Quandary.md"
-abstract: "Considerable advancements have been made in various NLP tasks based on the impressive power of large language models (LLMs) and many NLP applications are deployed in our daily lives. In this work, we challenge the capability of LLMs with the new task of ETHICAL QUANDARY GENERATIVE QUES- TION ANSWERING. Ethical quandary questions are more chal- lenging to address because multiple conﬂicting answers may exist to a single quandary. We explore the current capability of LLMs in providing an answer wi"
+abstract: "Considerable advancements have been made in various NLP tasks based on the impressive power of large language models (LLMs) and many NLP applications are deployed in our daily lives. In this work, we challenge the capability of LLMs with the new task of ETHICAL QUANDARY GENERATIVE QUESTION ANSWERING. Ethical quandary questions are more challenging to address because multiple conﬂicting answers may exist to a single quandary."
 paper_summary: "Abstract: Considerable advancements have been made in various NLP tasks based on the impressive power of large language models (LLMs) and many NLP applications are deployed in our daily lives. In this work, we  | Overview: Towards Answering Open-ended Ethical Quandary Questions Yejin Bang,1 Nayeon Lee,1 Tiezheng Yu,1 Leila Khalatbari,1 Yan Xu,1 Samuel Cahyawijaya,1 Dan Su,1 Bryan Wilie,1 Romain Barraud,1 Elham J. Barezi | Methodology: We conduct an experiment with LLMs with few-shot in- context prompt learning in ETHICAL QUANDARY GQA. Inspired by the characteristics of ethical quand | Key Findings: Q1: Can AISOCRATES answer from multiple perspec- tives? This aspect is of great interest in ETHICAL QUANDARY GQA. As shown in Figure 1, AISOCRATES pro | Conclusions: of responsible AI systems for open-ended questions by chal- lenging the capability of AI to provide relevant and nuanced answers to ethical quandary q"
 local_pdf: "[[PDFs/2023/2023-Bang-Towards Answering Open-ended Ethical Quandary.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: NA

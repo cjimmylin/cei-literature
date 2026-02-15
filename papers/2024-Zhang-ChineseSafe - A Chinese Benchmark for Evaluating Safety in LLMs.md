@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,20 +18,20 @@ pdf_extract: "PDF Extracts/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for
 local_pdf: "[[PDFs/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: "With the rapid development of Large language models (LLMs), understanding the capabilities of LLMs in identifying unsafe content has become increasingly important. While previous works have introduced several benchmarks to evaluate the safety risk of LLMs, the community still has a limited understanding of current LLMs' capability to recognize illegal and unsafe content in Chinese contexts. In this work, we present a Chinese safety benchmark (ChineseSafe) to facilitate research on the content..."
+abstract: "With the rapid development of Large language models (LLMs), understanding the capabilities of LLMs in identifying unsafe content has become increasingly important. While previous works have introduced several benchmarks to evaluate the safety risk of LLMs, the community still has a limited understanding of current LLMs’ capability to recognize illegal and unsafe content in Chinese contexts. In this work, we present a Chinese safety benchmark (ChineseSafe) to facilitate research on the content..."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "205,034 examples; 20,000 examples"

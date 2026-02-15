@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ doi: 10.48550/arXiv.2408.03361
 url: "http://arxiv.org/abs/2408.03361"
 external_pdf: "http://arxiv.org/pdf/2408.03361.pdf"
 publication: "Neural Information Processing Systems"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Chen-GMAI-MMBench.md"
-abstract: "Large Vision-Language Models (LVLMs) are capable of handling diverse data types such as imaging, text, and physiological signals, and can be applied in vari- ous fields. In the medical field, LVLMs have a high potential to offer substantial assistance for diagnosis and treatment. Before that, it is crucial to develop bench- marks to evaluate LVLMs' effectiveness in various medical applications. Current benchmarks are often built upon specific academic literature, mainly focusing on a single doma"
+abstract: "Large Vision-Language Models (LVLMs) are capable of handling diverse data types such as imaging, text, and physiological signals, and can be applied in various fields. In the medical field, LVLMs have a high potential to offer substantial assistance for diagnosis and treatment. Before that, it is crucial to develop benchmarks to evaluate LVLMs’ effectiveness in various medical applications. Current benchmarks are often built upon specific academic literature, mainly focusing on a single domain,..."
 paper_summary: "Abstract: Large Vision-Language Models (LVLMs) are capable of handling diverse data types such as imaging, text, and physiological signals, and can be applied in vari- ous fields. In the medical field, LVLMs ha | Overview: GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI Pengcheng Chen1,2∗Jin Ye1,3∗† Guoan Wang1,4∗Yanjun Li1,4 Zhongying Deng5 Wei Li1,6 Tianbin Li1 Haodong Duan1 Zi | Methodology: for the semantic segmentation and quantitative analysis of retinal arteries and veins in infrared reflectance imaging. IEEE Journal of Biomedical and  | Key Findings: across all clinical aspects. A comprehensive benchmark should be easily customized to evaluate any specific abilities of LVLMs for each clinical profe | Conclusions: The development of GMAI-MMBench as a benchmark for evaluating LVLMs' capabilities represents a significant advancement in the pursuit of general medic"
 local_pdf: [[PDFs/2024/2024-Chen-GMAI-MMBench.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "284 datasets"
 LLM_assessed: "GPT-4, Gemini, Claude, DeepSeek, Qwen"

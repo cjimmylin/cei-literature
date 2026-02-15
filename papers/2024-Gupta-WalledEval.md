@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,26 @@ pdf_extract: "PDF Extracts/0000/2024-Gupta-WalledEval.md"
 local_pdf: "[[PDFs/2024/2024-Gupta-WalledEval.pdf]]"
 publication: "EMNLP 2024"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "WALLEDEVAL is a comprehensive AI safety testing toolkit designed to evaluate large language models (LLMs). It accommodates a diverse range of models, including both open-weight and API-based ones, and features over 35 safety benchmarks covering areas such as multilingual safety, exaggerated safety, and prompt injections. The framework supports both LLM and judge benchmarking and incorporates custom mutators to test safety against various text-style mutations, such as future tense and..."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Multilingual benchmark for ai safety text corpus"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Phi, GPT-4, Claude, Gemini"
 DATA_URL: "https://github.com/walledai/walledeval"
+research_topic: "Other"
 ---
 # WalledEval
 

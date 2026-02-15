@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract: "PDF Extracts/2025/2025-Al-SEADialogues A Multilingual Culturally G
 local_pdf: "[[PDFs/2025/2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Although numerous datasets have been developed to support dialogue systems, most existing chit-chat datasets overlook the cultural nuances inherent in natural human conversations. To address this gap, we introduce SEADIALOGUES, a culturally grounded dialogue dataset centered on Southeast Asia, a region with over 700 million people and immense cultural diversity. Our dataset features dialogues in eight languages from six Southeast Asian countries, many of which are low-resource despite having..."
-data_description: "Dataset for conversational ai"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o mini, Llama, Llama-3.1, Qwen-14B"
 DATA_URL: NA
-research_topic: "Dialogue Systems"
+research_topic: "Machine Translation"
 ---
 # SEADialogues: A Multilingual Culturally Grounded Multi-turn Dialogue Dataset on Southeast Asian Languages
 

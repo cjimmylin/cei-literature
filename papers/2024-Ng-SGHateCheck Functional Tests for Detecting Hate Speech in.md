@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ publication: "ACL Anthology (WOAH 2024)"
 pdf_extract: "PDF Extracts/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.md"
 local_pdf: "[[PDFs/2024/2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Singaporean
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Singaporean"
 languages_list: Malay
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Llama, LLaMA2, Mistral, Mistral 7B"
 DATA_URL: "https://github.com/Social-AI-Studio/SGHateCheck"
 tags: 
-abstract: "21,152 test cases (15,052 hateful, 6,100 non-hateful) across Singlish, Mandarin, Malay, and Tamil. 21 functional tests for Malay. Reveals LLM biases toward non-hateful classifications in monolingual models."
+abstract: "To address the limitations of current hate speech detection models, we introduce SGHateCheck, a novel framework designed for the linguistic and cultural context of Singapore and Southeast Asia. It extends the functional testing approach of HateCheck and MHC, employing large language models for translation and paraphrasing into Singapore’s main languages, and refining these with native annotators. SGHateCheck reveals critical flaws in state-of-theart models, highlighting their inadequacy in..."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore

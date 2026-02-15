@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Mohamed Akrout; Robert Steinbauer"
 doi: "arXiv:2002.00213"
 url: "https://arxiv.org/abs/2002.00213"
 publication: arXiv
-national_ethnic_cultural: N/A
-religious_values: Confucianism
-religious_values_list: Confucianism
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md"
 abstract: "This paper describes the GAMA (Genetic-inspired Autonomous Moral Agent) project, which implements a genetic-inspired autonomous moral agent. Unlike the majority of other implementations of machine ethics, this model is agent-centered and emphasizes the developmental and behavioral aspects of the ethical agent."
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "GAMA Moral Agent"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: 
-data_metrics: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2025/2025-Griffiths-Explicitly Unbiased Large Languag
 local_pdf: "[[PDFs/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.pdf]]"
 publication: "PNAS (Proceedings of the National Academy of Sciences)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Multiple Religions"
-religious_values_list: "Multiple Religions"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Introduces two psychological measures (LLM Word Association Test and LLM Relative Decision Test) adapted from the Implicit Association Test to reveal implicit bias in explicitly unbiased LLMs. Finds pervasive stereotype biases across race, gender, religion, and health in 8 value-aligned models. For religion, all three tested religions show small negativity bias, with small pro-Christian bias over Islamic and Jewish groups. Sizable effects on discriminatory decisions."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Claude-3-Opus, Claude-3-Sonnet, Claude3-Opus, Claude3-Sonnet, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2Chat, Llama2"
 DATA_URL: "LLM Word Association Test, LLM Relative Decision Test (methodological tools)"
-research_topic: Other
+research_topic: "Other"
 ---
 # Explicitly Unbiased Large Language Models Still Form Biased Associations
 

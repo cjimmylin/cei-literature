@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md"
 local_pdf: "[[PDFs/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic, French, Italian, Spanish, Russian, Hebrew/Israeli"
 languages_list: "Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/gabrielStanworthy/mt_gender"
 tags: 
-abstract: 
+abstract: "We present the ﬁrst challenge set and evaluation protocol for the analysis of gender bias in machine translation (MT). Our approach uses two recent coreference resolution datasets composed of English sentences which cast participants into non-stereotypical gender roles (e.g., “The doctor asked the nurse to help her in the operation”). We devise an automatic gender bias evaluation method for eight target languages with grammatical gender, based on morphological analysis (e.g."
 ethics_perspective: "Bias & Fairness"
 ---
 # Evaluating Gender Bias in Machine Translation (WinoMT)

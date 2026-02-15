@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,21 +24,21 @@ pdf_access_url: "https://www.mdpi.com/2079-9292/14/24/4919/pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: HuggingFace
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Turkish offensive language detection dataset available on HuggingFace for training and evaluating models on offensive content in Turkish. Publicly available Turkish offensive language dataset for safety evaluation of Turkish language models."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"

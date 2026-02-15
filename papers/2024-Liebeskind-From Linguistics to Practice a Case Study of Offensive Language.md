@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: "ACL Anthology (WOAH 2024)"
 pdf_extract: "PDF Extracts/2024/2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.md"
 local_pdf: "[[PDFs/2024/2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Hebrew/Israeli
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Hebrew/Israeli"
 languages_list: Hebrew
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/christinacdl/XLM_"
 tags: 
-abstract: "Introduces a streamlined taxonomy for categorizing offensive language in Hebrew with seven levels (six explicit and one implicit), adapted to reflect unique linguistic and cultural nuances of Hebrew. Dataset constructed to validate the taxonomy."
+abstract: "The perception of offensive language varies based on cultural, social, and individual perspectives. With the spread of social media, there has been an increase in offensive content online, necessitating advanced solutions for its identiﬁcation and moderation. This paper addresses the practical application of an offensive language taxonomy, speciﬁcally targeting Hebrew social media texts. By introducing a newly annotated dataset, modeled after the taxonomy of explicit offensive language of..."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # From Linguistics to Practice: a Case Study of Offensive Language Taxonomy in Hebrew

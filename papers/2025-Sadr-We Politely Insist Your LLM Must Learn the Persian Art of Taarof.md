@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ pdf_extract: "PDF Extracts/2025/2025-Sadr-We Politely Insist Your LLM Must Learn
 local_pdf: "[[PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
 publication: "arXiv / EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Iranian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Iranian"
 languages_list: Persian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude 3.5, Claude 3.5 Haiku, Claude haiku, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, Llama 3, Claude"
 DATA_URL: "https://github.com/niktaas/TAAROFBENCH"

@@ -1,0 +1,78 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0096
+type: conferencePaper
+short_title: "Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy"
+year: 2025
+first_author: "[[Unknown]]"
+last_author: "[[Unknown]]"
+authors: Unknown
+doi: 10.1007/s43681-025-00746-0
+url: "https://link.springer.com/article/10.1007/s43681-025-00746-0"
+external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00746-0.pdf"
+publication: AI and Ethics (Springer)
+local_pdf: "[[PDFs/2025-Unknown-Where are the missing values an exploration of the need to.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Where are the missing values an exploration of the need to.md"
+DATE_ADDED: 20260215
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Sub-Saharan African, Ubuntu"
+languages_list: 
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_perspective: "Social & Cultural Values"
+---
+# Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Unknown
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** AI and Ethics (Springer)
+
+**DOI:** [10.1007/s43681-025-00746-0](https://doi.org/10.1007/s43681-025-00746-0)
+
+**Cultures:** Sub-Saharan African, Ubuntu
+
+## Links
+
+- **DOI:** https://doi.org/10.1007/s43681-025-00746-0
+- **URL:** https://link.springer.com/article/10.1007/s43681-025-00746-0
+
+## Abstract
+
+Examines how Ubuntu philosophy can and should inform AI policies in Africa. Finds current AI policies in Africa have not incorporated Ubuntu values as a fundamental guiding principle but have adopted Eurocentric values instead.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_16
+**Relevance:** Policy analysis paper arguing for Ubuntu values in African AI governance. Not a direct benchmark but identifies the gap: no existing AI benchmarks operationalize Ubuntu ethics.
+
+## Tags
+

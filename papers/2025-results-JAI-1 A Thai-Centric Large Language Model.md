@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ pdf_extract: "PDF Extracts/2025/2025-results-JAI-1 A Thai-Centric Large Language
 local_pdf: "[[PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Thai
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Thai"
 languages_list: Thai
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Gemma-3, Llama, Llama-3, Llama3.3, Phi-3, Phi-3-medium, Qwen-3, Qwen1.5, Qwen2, Qwen2.5, phi-3 47, phi-4 18"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
-abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model's parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
+abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model’s parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # JAI-1: A Thai-Centric Large Language Model

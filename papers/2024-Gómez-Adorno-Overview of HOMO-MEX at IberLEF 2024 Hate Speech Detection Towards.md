@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "IberLEF / SEPLN 2024"
 pdf_extract: "PDF Extracts/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.md"
 local_pdf: "[[PDFs/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Spanish
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
 languages_list: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT2, GloVE, RoBERTa"
 DATA_URL: NA
 tags: 
-abstract: "Shared task detecting and classifying LGBT+phobic content in Mexican Spanish digital posts and song lyrics. ~12,000 tweets (2012-2022). Three tracks: multi-class LGBT+phobia, specific phobia types (Gayphobia, Lesbophobia, Transphobia, Biphobia, Aphobia), and song lyrics."
+abstract: "Hate speech is a significant threat to social diversity and human rights. Detecting anti-LGBT hate speech on social media is a complex area of research that requires a multifaceted and adaptable approach. This work aims to present a review of recent efforts in the investigation of hate speech towards the LGBT population on social networks and explore the use of computational techniques for the detection and classification of these speeches."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population

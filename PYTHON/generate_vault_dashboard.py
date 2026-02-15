@@ -6,13 +6,13 @@ Processes existing JSON classification data to produce a single-page interactive
 HTML dashboard with ECharts visualizations, filterable tables, and KPI cards.
 
 Data sources:
-  - logs/20260208-benchmark_survey_all_classifications.json (924 entries)
-  - logs/20260208-benchmark_survey_candidates.json (528 entries)
+  - logs/20260215-benchmark_survey_all_classifications.json
+  - logs/20260215-benchmark_survey_candidates.json
   - logs/20260207-normative_v2_all_classifications.json (266 entries)
-  - logs/20260208-author_paper_map.json (846 entries)
-  - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields (846 papers)
+  - logs/20260208-author_paper_map.json
+  - papers/*.md YAML frontmatter: LLM_assessed, DATA_URL fields
 
-Output: STATISTICS/20260212-vault-dashboard.html
+Output: STATISTICS/20260215-vault-dashboard.html
 """
 
 import json
@@ -30,11 +30,11 @@ WS_ROOT = SCRIPT_DIR.parent
 LOGS_DIR = WS_ROOT / "logs"
 STATS_DIR = WS_ROOT / "STATISTICS"
 
-ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260208-benchmark_survey_all_classifications.json"
-CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
+ALL_CLASSIFICATIONS_FILE = LOGS_DIR / "20260215-benchmark_survey_all_classifications.json"
+CANDIDATES_FILE = LOGS_DIR / "20260215-benchmark_survey_candidates.json"
 NORMATIVE_FILE = LOGS_DIR / "20260207-normative_v2_all_classifications.json"
 AUTHOR_MAP_FILE = LOGS_DIR / "20260208-author_paper_map.json"
-OUTPUT_FILE = STATS_DIR / "20260213-vault-dashboard.html"
+OUTPUT_FILE = STATS_DIR / "20260215-vault-dashboard.html"
 
 # ── Paper YAML scanner (for LLM assessment data) ─────────────────────────
 PAPERS_DIR = WS_ROOT / "papers"
@@ -893,7 +893,7 @@ select.filter-input {{ cursor: pointer; }}
 <div class="header">
   <div class="header-content">
     <h1>CEI Literature Vault — LLM Ethics & Values Alignment</h1>
-    <div class="subtitle">924 papers screened &bull; 528 benchmark candidates &bull; Generated 2026-02-12</div>
+    <div class="subtitle" id="subtitle">Loading...</div>
     <div class="tabs" id="tabs">
       <div class="tab active" data-tab="overview">Overview</div>
       <div class="tab" data-tab="taxonomy">Taxonomy</div>
@@ -1008,7 +1008,7 @@ select.filter-input {{ cursor: pointer; }}
 </div><!-- /main -->
 
 <div class="footer">
-  CEI Literature Vault &bull; Generated 2026-02-12 &bull; 924 papers &bull; Script: generate_vault_dashboard.py
+  CEI Literature Vault &bull; Generated 2026-02-15 &bull; Script: generate_vault_dashboard.py
 </div>
 
 <!-- ═══ DATA & SCRIPTS ══════════════════════════════════════════════ -->
@@ -1073,6 +1073,10 @@ function animateValue(el, end, suffix='') {{
     }});
   }}, 200);
 }})();
+
+// ── Populate subtitle from data ──────────────────────────────────────
+document.getElementById('subtitle').textContent =
+  DATA.kpi.total + ' papers screened \u2022 ' + DATA.kpi.candidates + ' benchmark candidates \u2022 Generated 2026-02-15';
 
 // ── ECharts helpers ───────────────────────────────────────────────────
 function initChart(id) {{
@@ -1675,11 +1679,11 @@ def main():
 
     # Verification
     print("\n=== VERIFICATION ===")
-    print(f"  KPI total:      {data['kpi']['total']} (expect 924)")
-    print(f"  KPI candidates:  {data['kpi']['candidates']} (expect 528)")
-    print(f"  KPI public:      {data['kpi']['public']} (expect ~287)")
-    print(f"  KPI pluralistic: {data['kpi']['pluralisticPct']}% (expect ~76%)")
-    print(f"  KPI normative:   {data['kpi']['normative']} (expect 45)")
+    print(f"  KPI total:      {data['kpi']['total']}")
+    print(f"  KPI candidates:  {data['kpi']['candidates']}")
+    print(f"  KPI public:      {data['kpi']['public']}")
+    print(f"  KPI pluralistic: {data['kpi']['pluralisticPct']}%")
+    print(f"  KPI normative:   {data['kpi']['normative']}")
     print(f"  Categories:      {len(data['categories'])}")
     print(f"  Models:          {len(data['models'])}")
     print(f"  Methods:         {len(data['methods'])}")

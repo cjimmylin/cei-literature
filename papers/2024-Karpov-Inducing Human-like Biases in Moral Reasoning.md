@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ doi: 10.48550/arXiv.2411.15386
 url: "http://arxiv.org/abs/2411.15386"
 external_pdf: "http://arxiv.org/pdf/2411.15386.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Fine-tuned LLMs on human behavioral (ETHICS) and fMRI brain data to see if models become more 'human-like' in moral reasoning. Result: Accuracy improved, but 'BrainScore' (alignment with fMRI signals) did not."
 significance: "A fascinating negative result suggesting that behavioral alignment (outputting the right answer) does not imply mechanistic alignment (thinking like a human brain)."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md"
-abstract: "In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explore if fine-tuning several LLMs on the fMRI data of humans performing moral reasoning can improve the BrainScore. We fine-tune several LLMs (BERT, RoBERTa, DeBERTa) on moral reasoning behavioral data from the ETHICS benchmark [Hendrycks et al., 2020], on the moral reasoning fMRI data from Koster-Hale"
+abstract: "In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explore if fine-tuning several LLMs on the fMRI data of humans performing moral reasoning can improve the BrainScore. We fine-tune several LLMs (BERT, RoBERTa, DeBERTa) on moral reasoning behavioral data from the ETHICS benchmark [Hendrycks et al."
 paper_summary: "Abstract: In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explor | Overview: Inducing Human-like Biases in Moral Reasoning Language Models Artem Karpov ∗ Independent Seong Hah Cho ∗ Independent Austin Meek ∗ University of Delaware Raymond Koopmanschap Independent Lucy Farnik U | Methodology: 3.1 Benchmark and Dataset To quantitatively measure the moral reasoning performance of the fine-tuned LLMs, we used the common sense category of the E"
 local_pdf: "[[PDFs/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, DeBERTa"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,21 +19,21 @@ pdf_extract: "PDF Extracts/2024/2024-Zolkepli-MaLLaM - Malaysia Large Language M
 local_pdf: "[[PDFs/2024/2024-Zolkepli-MaLLaM - Malaysia Large Language Model.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Malay
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
-data_metrics: 349gb
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "349gb"
 LLM_assessed: "Llama, Llama2, Mistral"
 DATA_URL: "https://github.com/ChenghaoMou/text-dedup"
 tags: 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ authors: "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rak
 doi: 10.47760/ijcsmc.2021.v10i04.017
 url: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
 external_pdf: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: Islam
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Munshi-Towards an Automated Islamic Fatwa System.md"
 paper_summary: "Overview: Amr A. Munshi et al, International Journal of Computer Science and Mobile Computing, Vol.10 Issue.4, April- 2021, pg. 118-131 © 2021, IJCSMC All Rights Reserved 118 Available Online at www.ijcsmc.com  | Conclusions: In this paper we present the first steps towards building an Automated Fatwa System using AI and Deep Learning NLP methods. We survey the State-of-Art"
 local_pdf: "[[PDFs/2021/2021-Munshi-Towards an Automated Islamic Fatwa System.pdf]]"
-abstract: "Islam is the second largest and the fastest growing religion. The Islamic Law, Sharia, represents a profound component of the day-to-day lives of Muslims. This creates a lot of queries, about specific problems, that requires answers, or Fatwas. While sources of Sharia are available for anyone, it often requires a highly qualified person, the Mufti, to provide Fatwa. To get certified for Fatwa, the Mufti needs to undergo a sophisticated and long education process that starts from basic to high sc"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Islam is the second largest and the fastest growing religion. The Islamic Law, Sharia, represents a profound component of the day-to-day lives of Muslims. This creates a lot of queries, about specific problems, that requires answers, or Fatwas. While sources of Sharia are available for anyone, it often requires a highly qualified person, the Mufti, to provide Fatwa. To get certified for Fatwa, the Mufti needs to undergo a sophisticated and long education process that starts from basic to high..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"

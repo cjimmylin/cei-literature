@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ tags:
 url: "http://arxiv.org/abs/2310.19852"
 external_pdf: "http://arxiv.org/pdf/2310.19852.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "A comprehensive survey organizing the AI alignment field into RICE principles (Robustness, Interpretability, Controllability, Ethicality) and identifying 'forward' vs 'backward' alignment."
 significance: "Provides a unifying taxonomy for the disparate subfields of alignment research, helping researchers see how robustness, interpretability, and ethics connect."
 pdf_extract: "PDF Extracts/2023/2023-Ji-AI Alignment.md"
-abstract: "AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview of the alignment field, in this survey, we delve into the core concepts, methodology, and practice of align- ment. First, we identify four principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality (RICE). Guided by these four principles, we outl"
+abstract: "AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview of the alignment field, in this survey, we delve into the core concepts, methodology, and practice of alignment. First, we identify four principles as the key objectives of AI alignment: Robustness, Interpretability, Controllability, and Ethicality (RICE)."
 paper_summary: "Abstract: AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview | Overview: AI Alignment: A Comprehensive Survey Jiaming Ji*,1 Tianyi Qiu*,1 Boyuan Chen*,1 Borong Zhang*,1 Hantao Lou1 Kaile Wang1 Yawen Duan2 Zhonghao He2 Lukas Vierling3 Donghai Hong1 Jiayi Zhou1 Zhaowei Zhang | Methodology: Robustness Interpretability Controllability Ethicality Learning from Feedback (§2) Preference Modeling (§2.2) • ◦ Policy Learning (§2.3) RL/PbRL/IRL/  | Key Findings: can be simpler than task completion28. Therefore, harnessing the evaluative capabilities of AI systems can result in distributions of capacity that ar | Conclusions: 60"
 local_pdf: "[[PDFs/2023/2023-Ji-AI Alignment.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 2, Claude-2., GPT-4, Gemma, Llama2, Vicuna, Llama, Llama-2, llama."

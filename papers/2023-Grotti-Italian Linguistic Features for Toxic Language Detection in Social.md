@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ publication: "Italian Journal of Computational Linguistics"
 pdf_extract: PDF Extracts/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.md
 local_pdf: "[[PDFs/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Italian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: Italian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "PoliBERT, UmBERTo, bert-base-italian-xxl-uncased"
 DATA_URL: "https://github.com/musixmatchresearch/umberto"

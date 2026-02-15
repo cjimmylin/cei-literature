@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ doi: 10.18653/v1/2023.emnlp-main.862
 url: "https://aclanthology.org/2023.emnlp-main.862/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZYT6SY9F/Muhammad et al. - 2023 - AfriSenti A Twitter Sentiment Analysis Benchmark for African Languages.pdf"
 national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Arabic, African/Ubuntu, Brazilian"
 tags: 
-abstract: "We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSentiSemEval is a sentiment classiﬁcation challenge in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yorùbá) (Muhammad et al., 2023), using data labeled with 3 sentiment classes. We present three subtasks: (1) Task A: monolingual classiﬁcation, which"
+abstract: "Africa is home to over 2,000 languages from more than six language families and has the highest linguistic diversity among all continents. These include 75 languages with at least one million speakers each. Yet, there is little NLP research conducted on African languages. Crucial to enabling such research is the availability of high-quality annotated datasets. In this paper, we introduce AfriSenti, a sentiment analysis benchmark that contains a total of >110,000 tweets in 14 African languages..."
 pdf: "http://arxiv.org/pdf/2302.08956"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-AfriSenti.md"
 local_pdf: [[PDFs/2023/2023-Muhammad-AfriSenti.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
 LLM_assessed: "BERT, Debertav3"

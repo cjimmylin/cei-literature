@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,24 +13,24 @@ last_author: "[[Dominique Bouchard]]"
 authors: "Dominique Bouchard"
 url: "https://medium.com/cvs-health-tech-blog/how-to-assess-your-llm-use-case-for-bias-and-fairness-with-langfair-7be89c0c4fab"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DJYXXBYZ/Bouchard - 2025 - How to Assess Your LLM Use Case for Bias and Fairness with LangFair.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Describes LangFair, a toolkit/library for assessing bias and fairness metrics in LLM use cases."
 significance: "Provides a practical resource for practitioners to operationalize fairness auditing in industry deployments of LLMs."
 tags: 
 abstract: "Current AI evaluation methods relying on static, model-only tests fail to account for harms that emerge through sustained human-AI interaction. This paper proposes a shift towards evaluation based on interactional ethics, focusing on interaction harms like inappropriate parasocial relationships, social manipulation, and cognitive overreliance that develop over time. The authors present practical principles for designing interactive evaluations including ecologically valid scenarios, human impact metrics, and diverse human participation approaches."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation methodology"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: Gemini
 DATA_URL: "https://github.com/cvs-health/langfair"

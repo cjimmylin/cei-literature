@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ doi: 10.1145/3715275.3732174
 url: "https://dl.acm.org/doi/10.1145/3715275.3732174"
 external_pdf: "https://philarchive.org/archive/KNETHP"
 publication: "ACM FAccT"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Value Alignment, Fairness"
 key_contribution: "Empirically demonstrates value forks between human and AI agents in moral trade-offs"
 significance: "Shows AI may need different ethical standards than humans, complicating alignment"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.md"
-abstract: "In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs. AI) matters for what should be done in moral trade-offs. We find that, relative to a human decision-maker, participants more often judge that AI agents should opt for fairness at the expense of maximizing utility. Aligning AI with human values may require that an AI act differently from what a human agent should do, even when facing the exact same dilemma...."
+abstract: "Complex moral trade-offs are a basic feature of human life: for example, confronted with scarce medical resources, doctors must frequently choose who amongst equally deserving candidates receives medical treatment. But choosing what to do in moral trade-offs is no longer a ‘humans-only’ task, but often falls to AI agents. In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Bloomsbury"
 DATA_URL: "https://osf.io/rqkcz"

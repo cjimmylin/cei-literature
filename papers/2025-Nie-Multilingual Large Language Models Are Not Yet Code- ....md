@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,27 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Nie-Multilingual Large Language Models Are Not Yet Code- ....md"
 local_pdf: "[[PDFs/2025/2025-Nie-Multilingual Large Language Models Are Not Yet Code- ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean, French, German, Italian, Spanish"
 languages_list: "Code-switching, English, Korean, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Falcon 7B, Falcon-7b, GPT3, GPT3.5-TURBO, LLama1, LLama2, Llama-2, Llama-2-CHAT, Mistral, Mistral 7B, Mistral-7B, Llama, mistral 30 35"
 DATA_URL: "https://github.com/oscar-project/ungoliant"
 tags: 
-abstract: "While preliminary findings indicate that multilingual LLMs exhibit reduced bias compared to monolingual ones, a comprehensive understanding of the effect of multilingual training on bias mitigation, is lacking. This study addresses this gap by systematically training six LLMs of identical size (2.6B parameters) and architecture: five monolingual models (English, German, French, Italian, and Spanish) and one multilingual model trained on an equal distribution of data across these languages, all using publicly available data. To ensure robust evaluation, standard bias benchmarks were automatically translated into the five target languages and verified for both translation quality and bias preservation by human annotators. Our results consistently demonstrate that multilingual training effectively mitigates bias. Moreover, we observe that multilingual models achieve not only lower bias but also superior prediction accuracy when compared to monolingual models with the same amount of training data, model architecture, and size."
+abstract: "While preliminary findings indicate that multilingual LLMs exhibit reduced bias compared to monolingual ones, a comprehensive understanding of the effect of multilingual training on bias mitigation, is lacking. This study addresses this gap by systematically training six LLMs of identical size (2.6B parameters) and architecture: five monolingual models (English, German, French, Italian, and Spanish) and one multilingual model trained on an equal distribution of data across these languages, all..."
 research_topic: "Machine Translation"
+ethics_perspective: "Bias & Fairness"
 ---
 # Multilingual Large Language Models Are Not (Yet) Code- ...
 

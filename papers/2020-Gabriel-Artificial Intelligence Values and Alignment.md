@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ authors: "Iason Gabriel"
 doi: 10.1007/s11023-020-09539-2
 url: "https://link.springer.com/article/10.1007/s11023-020-09539-2"
 publication: "Minds and Machines"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.md"
-abstract: "This paper looks at philosophical questions that arise in the context of AI alignment. It defends three propositions: normative and technical aspects of the AI alignment problem are interrelated; there are significant differences between AI that aligns with instructions, intentions, revealed preferences, ideal preferences, interests and values; and a principle-based approach to AI alignment has considerable advantages."
+abstract: "This paper looks at philosophical questions that arise in the context of AI alignment. It defends three propositions. First, normative and technical aspects of the AI alignment problem are interrelated, creating space for productive engagement between people working in both domains. Second, it is important to be clear about the goal of alignment. There are significant differences between AI that aligns with instructions, intentions, revealed preferences, ideal preferences, interests and values."
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: Yes
-utilitarian_ethics: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
 research_topic: "AI Alignment & Normative Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: 
-data_metrics: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "Barto"
 DATA_URL: NA
 ---

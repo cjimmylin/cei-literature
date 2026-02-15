@@ -234,16 +234,24 @@ def parse_date_arg(argv, default="20260207"):
     return default
 
 
-def get_papers_needing_processing(date_added="20260207"):
-    """Find all papers with matching DATE_ADDED and empty classification fields."""
+def get_papers_needing_processing(date_added="20260207", all_papers=False):
+    """Find papers needing classification processing.
+
+    Args:
+        date_added: Filter by DATE_ADDED value (default: 20260207)
+        all_papers: If True, return ALL papers regardless of DATE_ADDED or field state
+    """
     papers = []
     for f in sorted(PAPERS_DIR.glob('*.md')):
         try:
-            content = f.read_text(encoding='utf-8')
-            if f'DATE_ADDED: {date_added}' in content:
-                # Check if classification fields are still empty
-                if re.search(r'^ethics_overall:\s*(""\s*)?$', content, re.MULTILINE):
-                    papers.append(f)
+            if all_papers:
+                papers.append(f)
+            else:
+                content = f.read_text(encoding='utf-8')
+                if f'DATE_ADDED: {date_added}' in content:
+                    # Check if classification fields are still empty
+                    if re.search(r'^ethics_overall:\s*(""\s*)?$', content, re.MULTILINE):
+                        papers.append(f)
         except Exception:
             pass
     return papers
@@ -260,6 +268,19 @@ def process_paper(paper_path, dry_run=False):
     Returns dict with results summary.
     """
     frontmatter, body = read_paper(paper_path)
+
+    # Guard: skip papers with manual Human View corrections
+    hv_match = re.search(r'^Human View:[^\S\n]*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
+    if hv_match and hv_match.group(1).strip():
+        return {
+            'abstract_found': False,
+            'ethics_overall': 'SKIP',
+            'ethics_perspective': '',
+            'cultural': 'SKIP',
+            'religious': 'SKIP',
+            'moral_psych': 'SKIP',
+            'is_benchmark': 'SKIP',
+        }
 
     # Extract title from body
     title_match = re.search(r'^# (.+)$', body, re.MULTILINE)
@@ -301,7 +322,10 @@ def process_paper(paper_path, dry_run=False):
         frontmatter = update_field(frontmatter, 'research_topic', research_topic)
 
     # --- Step 5: Stage 5 - Cultural/Religious ---
-    cultural = ccr.classify_cultural(title, abstract or '')
+    # Extract languages_list from YAML for cultural classification
+    lang_match = re.search(r'^languages_list:\s*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
+    languages_list = lang_match.group(1).strip() if lang_match else ""
+    cultural = ccr.classify_cultural(title, abstract or '', languages_list)
     religious = ccr.classify_religious(title, abstract or '')
     religious_list = ccr.classify_religious_list(title, abstract or '')
     frontmatter = update_field(frontmatter, 'national_ethnic_cultural', cultural)
@@ -338,19 +362,24 @@ def process_paper(paper_path, dry_run=False):
 
 def main():
     if len(sys.argv) < 3:
-        print(f"Usage: {sys.argv[0]} START END [--dry-run] [--date YYYYMMDD]")
+        print(f"Usage: {sys.argv[0]} START END [--dry-run] [--date YYYYMMDD] [--all]")
         print("  START, END: 1-indexed positions in paper list")
         print("  --date: filter by DATE_ADDED (default: 20260207)")
+        print("  --all: process ALL papers regardless of DATE_ADDED or field state")
         sys.exit(1)
 
     date_added = parse_date_arg(sys.argv)
     start = int(sys.argv[1])
     end = int(sys.argv[2])
     dry_run = '--dry-run' in sys.argv
+    all_mode = '--all' in sys.argv
 
     # Get all papers needing processing
-    print(f"Filtering by DATE_ADDED: {date_added}")
-    all_papers = get_papers_needing_processing(date_added)
+    if all_mode:
+        print("Mode: ALL papers (re-classification)")
+    else:
+        print(f"Filtering by DATE_ADDED: {date_added}")
+    all_papers = get_papers_needing_processing(date_added, all_papers=all_mode)
     total = len(all_papers)
     print(f"Total papers needing processing: {total}")
 
@@ -371,15 +400,20 @@ def main():
         try:
             result = process_paper(paper_path, dry_run=dry_run)
 
-            if result['abstract_found']:
-                abstracts_found += 1
-            if result['ethics_overall'] == 'Yes':
-                ethics_yes += 1
-
             # Truncate filename for display
             name = paper_path.stem
             if len(name) > 80:
                 name = name[:77] + '...'
+
+            if result['ethics_overall'] == 'SKIP':
+                skipped += 1
+                print(f"  [{i:3d}] SKIP (Human View): {name}")
+                continue
+
+            if result['abstract_found']:
+                abstracts_found += 1
+            if result['ethics_overall'] == 'Yes':
+                ethics_yes += 1
 
             abstract_flag = "ABS" if result['abstract_found'] else "---"
             ethics_flag = result['ethics_overall'][:3]

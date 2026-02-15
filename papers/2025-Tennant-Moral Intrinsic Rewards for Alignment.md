@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ doi: N/A
 url: "https://openreview.net/forum?id=ZFk4eh0WcL"
 external_pdf: "https://openreview.net/pdf?id=ZFk4eh0WcL"
 publication: "ICLR Workshop"
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Deontology, Intrinsic Rewards, RL"
 key_contribution: "Introduces intrinsic reward functions encoding deontological and utilitarian ethics for RL"
 significance: "Proposes transparent alternative to RLHF using explicit ethical frameworks"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.md"
-abstract: "The paper introduces intrinsic reward functions that explicitly encode core human values for automated Reinforcement Learning-based fine-tuning of foundation agent models. As an initial implementation, the paper evaluates training using the traditional philosophical frameworks of Deontological Ethics and Utilitarianism, quantifying moral rewards for agents in terms of actions and consequences on the Iterated Prisoner's Dilemma environment...."
+abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. While their applications are currently rather specialized, several research efforts are under way to develop more generalist agents. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: Gemma
 DATA_URL: "https://github.com/liza-tennant/LLM_morality"

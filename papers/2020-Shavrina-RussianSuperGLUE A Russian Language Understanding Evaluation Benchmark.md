@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2020/2020-Shavrina-RussianSuperGLUE A Russian Languag
 local_pdf: "[[PDFs/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2020)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Russian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Russian"
 languages_list: Russian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, T5"

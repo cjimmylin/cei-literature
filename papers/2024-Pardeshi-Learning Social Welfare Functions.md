@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,29 +14,30 @@ authors: "[[Pardeshi, Kanad Shrikar]]; [[Shapira, Itai]]; [[Procaccia, Ariel D.]
 doi: 10.48550/arXiv.2410.15000
 url: "https://arxiv.org/abs/2410.15000"
 external_pdf: "https://arxiv.org/pdf/2410.15000.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Social Welfare Functions, Machine Learning"
 key_contribution: "Establishes the statistical learnability of weighted power mean social welfare functions"
 significance: "Provides the theoretical machine learning foundation for inferring societal utility functions from data"
 ethics_perspective: "Learning Social Welfare Functions"
 pdf_extract: "PDF Extracts/2024/2024-Pardeshi-Learning Social Welfare Functions.md"
-abstract: "Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is not an eigenvalue of P, then by the interlacing theorem, we have mG(−1) ≤n−d−1. In this article, we characterize the extremal graphs where equality holds. Moreover, for the completeness of the results, we also characterize the graphs G that achieve mG(−1) = n −d −1 when −1 is an eigenvalue of P. Th"
+abstract: "Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is not an eigenvalue of P, then by the interlacing theorem, we have mG(−1) ≤n−d−1. In this article, we characterize the extremal graphs where equality holds. Moreover, for the completeness of the results, we also characterize the graphs G that achieve mG(−1) = n −d −1 when −1 is an eigenvalue of P."
 paper_summary: "Abstract: Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is | Overview: A complete characterization of graphs for which mG(−1) = n −d −1 Songnian Xu, Wenhao Zhen, Dein Wong∗ School of Mathematics, China University of Mining and Tecnology, Xuzhou, China. Abstract Let G be"
 local_pdf: "[[PDFs/2024/2024-Pardeshi-Learning Social Welfare Functions.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+research_topic: "Other"
 ---
 # Learning Social Welfare Functions
 

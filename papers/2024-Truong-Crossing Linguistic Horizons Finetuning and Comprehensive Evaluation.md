@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2024/2024-Truong-Crossing Linguistic Horizons Finetun
 local_pdf: "[[PDFs/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.pdf]]"
 publication: "ACL Anthology / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BLOOM, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT4, Gemma, Llama, Llama-2, Mistral, Mistral 7b, Mixtral, Mixtral 8"

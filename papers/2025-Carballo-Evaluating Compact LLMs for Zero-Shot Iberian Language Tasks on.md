@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Carballo-Evaluating Compact LLMs for Zero-S
 local_pdf: "[[PDFs/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.pdf]]"
 publication: "arXiv / SEPLN"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Spanish, Brazilian"
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek-R1, GPT-4, Gemma, Gemma 2, Gemma-2, Llama, Llama-3.1, Mistral Small, Mistral-3-24B, Mistral-7B, Qwen-7B, Qwen2, Qwen2.5"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-González-Borrego-IberBench LLM Evaluation 
 local_pdf: "[[PDFs/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Brazilian"
 languages_list: "Basque, Catalan, English, Galician, Portuguese, Spanish"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "101 datasets"
 LLM_assessed: "GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4"

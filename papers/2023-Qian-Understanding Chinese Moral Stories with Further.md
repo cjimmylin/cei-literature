@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Jing Qian"
 doi: 10.5121/ijnlc.2023.12201
 url: "https://doi.org/10.5121/ijnlc.2023.12201"
 external_pdf: "https://aircconline.com/ijnlc/V12N2/12223ijnlc01.pdf"
-national_ethnic_cultural: Chinese
-religious_values: Confucianism
-religious_values_list: Confucianism
-moral_psychology: N/A
+national_ethnic_cultural: "Chinese"
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
+moral_psychology: "N/A"
 newtags: "Chinese, General Ethics"
 key_contribution: "Presented STORAL-ZH, a Chinese dataset of human-written moral stories, and evaluated models on their ability to understand and generate moral narratives."
 significance: "Addresses the lack of non-English resources for moral narrative understanding, ensuring that AI moral reasoning evaluations extend to Chinese cultural contexts and storytelling traditions."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Qian-Understanding Chinese Moral Stories with Further.md"
 local_pdf: "[[PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
-abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The 'pre- training + fine-tuning' paradigm is widely embraced in neural language models. In this pa"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "General Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The “pretraining + fine-tuning” paradigm is widely embraced in neural language models."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: NA

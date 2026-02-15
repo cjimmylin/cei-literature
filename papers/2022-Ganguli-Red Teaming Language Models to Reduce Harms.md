@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ last_author: "[[Jack Clark]]"
 authors: "Deep Ganguli; Liane Lovitt; Jackson Kernion; Amanda Askell; Yuntao Bai; Saurav Kadavath; Ben Mann; Ethan Perez; Nicholas Schiefer; Kamal Ndousse; Andy Jones; Sam Bowman; Anna Chen; Tom Conerly; Nova DasSarma; Dawn Drain; Nelson Elhage; Sheer El-Showk; Stanislav Fort; Zac Hatfield-Dodds; Tom Henighan; Danny Hernandez; Tristan Hume; Josh Jacobson; Scott Johnston; Shauna Kravec; Catherine Olsson; Sam Ringer; Eli Tran-Johnson; Dario Amodei; Tom Brown; Nicholas Joseph; Sam McCandlish; Chris Olah; Jared Kaplan; Jack Clark"
 url: "https://arxiv.org/abs/2209.07858"
 external_pdf: "https://arxiv.org/pdf/2209.07858.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Released a dataset of 38,961 red team attacks and analyzed scaling behaviors for red teaming across model sizes and types (including RLHF models)."
 significance: "Provides a foundational resource for the community to study adversarial attacks and effective red teaming practices, finding that RLHF models become increasingly difficult to red team as they scale."
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.md"
-abstract: "We describe our early efforts to red team language models in order to simultaneously dis- cover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. First, we investigate scaling behaviors for red teaming across 3 model sizes (2.7B, 13B, and 52B parameters) and 4 model types: a plain language model (LM); an LM prompted to be helpful, honest, and harmless; an LM with rejection sampling; and a model trained to be helpful and harmless using reinforcem"
+abstract: "We describe our early efforts to red team language models in order to simultaneously discover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. First, we investigate scaling behaviors for red teaming across 3 model sizes (2.7B, 13B, and 52B parameters) and 4 model types: a plain language model (LM); an LM prompted to be helpful, honest, and harmless; an LM with rejection sampling; and a model trained to be helpful and harmless using..."
 paper_summary: "Abstract: We describe our early efforts to red team language models in order to simultaneously dis- cover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. Fir | Overview: Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned Deep Ganguli∗, Liane Lovitt∗, Jackson Kernion∗, Amanda Askell, Yuntao Bai, Saurav Kadavath, Ben Mann, Ethan | Conclusions: 5.1 Limitations and Future Work We red team language models in the form of an AI assistant, which has the beneﬁt of allowing the red team to probe the"
 local_pdf: "[[PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Bartolo"

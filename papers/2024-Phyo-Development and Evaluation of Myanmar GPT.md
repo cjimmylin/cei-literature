@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,18 +25,18 @@ pdf_access_url: "http://dx.doi.org/10.2139/ssrn.4871732"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: SSRN
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models. First Myanmar-specific GPT model with evaluation. Foundation model for future Myanmar values/ethics evaluation."
 data_description: "Evaluation approach"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"
 pdf_extract: PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md
 local_pdf: "[[PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Kurdish (Sorani)"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4"
 DATA_URL: "https://data.mendeley.com/datasets/h5t7p4bcj2/1"

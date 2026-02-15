@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,18 +24,18 @@ pdf_access_url: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "Information Processing and Management"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "21,759 Urdu tweets classified for hateful vs neutral content, with hateful tweets sub-categorized into interfaith, sectarian, ethnic, and other categories. Highly relevant: addresses inter-faith, sectarian, and ethnic hatred in Urdu, directly related to cultural values and religious bias."
 data_description: "Benchmark dataset"

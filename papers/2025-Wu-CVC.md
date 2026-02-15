@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,24 +18,24 @@ pdf_extract: "PDF Extracts/0000/2025-Wu-CVC.md"
 local_pdf: "[[PDFs/2025/2025-Wu-CVC.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
-national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Chinese, Deontology"
 key_contribution: "Constructs the 'Chinese Values Corpus' (CVC) with 250k value rules based on a hierarchical framework of core Chinese values"
 significance: "Addresses western cultural bias by providing a large-scale, culturally adaptive benchmark for Chinese value alignment"
 abstract: "Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are constrained by Western cultural bias and incomplete domestic frameworks reliant on non-native rules; furthermore, the lack of scalable, rule-driven scenario generation methods makes evaluations costly and inadequate across diverse cultural contexts. To address these challenges, we propose a hierarch"
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with mainstream human val- ues and ethical norms is crucial for the safe and sustainable development of AI. Current value evaluation and alignment are  | Overview: C-VARC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models Ping Wu1,4,†, Guobin Shen1,4,†, Dongcheng Zhao2,3,5,†, Yuwei Wang5,† Yiting Dong1,4, Yu Shi4, Enmeng Lu2,3, | Key Findings: In ethics and moral psychology, moral dilemmas entail decisions between competing obligations, each involving the compromise of certain values[46]. Th"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark for moral/ethical reasoning text corpus"
-data_metrics: "Not specified"
+ethics_overall: "Unknown"
+virtue_ethics: "Unknown"
+deontological_ethics: "Unknown"
+utilitarian_ethics: "Unknown"
+is_benchmark: "Unknown"
+is_eval: "Unknown"
+is_dataset: "Unknown"
+data_description: "Unknown"
+data_metrics: "Unknown"
 LLM_assessed: "GPT-4o, Claude, Gemini, Llama-3, DeepSeek, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Beijing-AISI/C-VARC"
 DATE_ADDED: 20260207

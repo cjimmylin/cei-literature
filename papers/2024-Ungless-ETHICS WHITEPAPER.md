@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,24 +13,24 @@ first_author: "[[Eddie L Ungless]]"
 last_author: "[[Alexandra Birch]]"
 authors: "Eddie L Ungless; Nikolas Vitsakis; Zeerak Talat; James Garforth; Björn Ross; Arno Onken; Atoosa Kasirzadeh; Alexandra Birch"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/X4AQDWVV/Ungless et al. - ETHICS WHITEPAPER Whitepaper on Ethical Research into Large Language Models.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "General Ethics"
 key_contribution: "Published a comprehensive whitepaper detailing best practices and ethical considerations for research into and with Large Language Models."
 significance: "Serves as a practical guide for researchers/industry to navigate the ethical landscape of LLM development, addressing issues from data procurement to deployment impact."
 tags: 
-abstract: "This whitepaper offers an overview of the ethical considerations surrounding research into or with large language models (LLMs). As LLMs become more integrated into widely used applications, their societal impact increases, bringing important ethical questions to the forefront. With a growing body of work examining the ethical development, deployment, and use of LLMs, this whitepaper provides a comprehensive and practical guide to best practices, designed to help those in research and in industry to uphold the highest ethical standards in their work."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "General Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "There is a significant body of work looking at the ethical considerations of large language models (LLMs): critiquing tools to measure performance and harms; proposing toolkits to aid in ideation; discussing the risks to workers; considering legislation around privacy and security etc. As yet there is no work that integrates these resources into a single practical guide that focuses on LLMs; we attempt this ambitious goal."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Privacy & Data Ethics"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"

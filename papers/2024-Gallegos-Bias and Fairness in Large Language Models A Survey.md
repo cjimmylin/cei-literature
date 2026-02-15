@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ publication: "arXiv / ACL Anthology"
 pdf_extract: "PDF Extracts/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md"
 local_pdf: "[[PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: "Multiple including French"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BART, BERT, Bartl, GPT-4"
 DATA_URL: "https://github.com/i-gallegos/Fair-LLM-Benchmark"

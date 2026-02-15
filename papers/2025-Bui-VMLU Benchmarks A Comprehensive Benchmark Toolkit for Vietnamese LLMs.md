@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multi-task benchmark dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-Mini, GPT4o, LlamA-3.2, Llama, Llama-3, Llama-3.1, Llama-3.3, Llama3, Llama3.3, Qwen, Qwen 2.5, Qwen2.5"
 DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
 tags: 
-abstract: 
-research_topic: "Machine Learning"
+abstract: "The evolution of Large Language Models (LLMs) has underscored the necessity for benchmarks designed for various languages and cultural contexts. To address this need for Vietnamese, we present the first Vietnamese Multitask Language Understanding (VMLU) Benchmarks. The VMLU benchmarks consist of four datasets that assess different capabilities of LLMs, including general knowledge, reading comprehension, reasoning, and conversational skills."
+research_topic: "Question Answering"
 ---
 # VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs
 

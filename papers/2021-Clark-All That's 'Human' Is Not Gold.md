@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ tags:
 url: "http://arxiv.org/abs/2107.00061"
 external_pdf: "http://arxiv.org/pdf/2107.00061.pdf"
 publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021)"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 pdf_extract: "PDF Extracts/2021/2021-Clark-All That's 'Human' Is Not Gold.md"
 local_pdf: "[[PDFs/2021/2021-Clark-All That's 'Human' Is Not Gold.pdf]]"
-abstract: "Human evaluations are typically considered the gold standard in natural language gener- ation, but as models' ﬂuency improves, how well can evaluators detect and judge machine- generated text? We run a study assessing non- experts' ability to distinguish between human- and machine-authored text (GPT2 and GPT3) in three domains (stories, news articles, and recipes). We ﬁnd that, without training, evalua- tors distinguished between GPT3- and human- authored text at random chance level. We explore"
+abstract: "Human evaluations are typically considered the gold standard in natural language generation, but as models’ ﬂuency improves, how well can evaluators detect and judge machinegenerated text? We run a study assessing nonexperts’ ability to distinguish between humanand machine-authored text (GPT2 and GPT3) in three domains (stories, news articles, and recipes). We ﬁnd that, without training, evaluators distinguished between GPT3- and humanauthored text at random chance level."
 paper_summary: "Abstract: Human evaluations are typically considered the gold standard in natural language gener- ation, but as models' ﬂuency improves, how well can evaluators detect and judge machine- generated text? We run  | Overview: All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text Elizabeth Clark1 Tal August1 Soﬁa Serrano1 Nikita Haduong1 Suchin Gururangan1 Noah A. Smith1,2 1Paul G. Allen School of Co | Key Findings: criteria is left to the discretion of the evaluator. Though other evaluations are broken down along speciﬁc dimensions of text quality (e.g., grammat- | Conclusions: Overall, none of our three training methods sig- niﬁcantly improved evaluators' ability to detect machine-generated text reliably across text do- main"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: Other
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, GPT-3"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,24 +18,24 @@ pdf_extract: "PDF Extracts/2024/2024-Rane-Concept Alignment.md"
 local_pdf: "[[PDFs/2024/2024-Rane-Concept Alignment.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.08672.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Deontology
 key_contribution: "Argues that 'concept alignment' (shared conceptual ontology) is a prerequisite for value alignment, preventing 'verbal' agreement masking deep misalignment"
 significance: "Shifts focus from high-level ethical rules to the lower-level conceptual structures required for agents to meaningfully understand those rules"
 tags: 
-abstract: "Discussion of AI alignment (alignment between humans and AI systems) has fo- cused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can even attempt to align values, it is imperative that AI systems and humans align the concepts they use to understand the world. We integrate ideas from philosophy, cognitive science, and deep learn- ing to explain the need for concept alignment, not just value alignment, between humans and machines. We"
+abstract: "Discussion of AI alignment (alignment between humans and AI systems) has focused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can even attempt to align values, it is imperative that AI systems and humans align the concepts they use to understand the world. We integrate ideas from philosophy, cognitive science, and deep learning to explain the need for concept alignment, not just value alignment, between humans and machines."
 paper_summary: "Abstract: Discussion of AI alignment (alignment between humans and AI systems) has fo- cused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can eve | Overview: arXiv:2401.08672v1 [cs.LG] 9 Jan 2024 Concept Alignment Sunayana Rane ∗ Department of Computer Science Princeton University Princeton, NJ 08540 srane@princeton.edu Polyphony J. Bruna ∗ Department of C"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation framework"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: NA

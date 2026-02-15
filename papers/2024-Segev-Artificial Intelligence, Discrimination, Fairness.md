@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,28 +15,29 @@ doi: 10.1007/s11023-024-09702-z
 url: "https://doi.org/10.1007/s11023-024-09702-z"
 external_pdf: 
 publication: "Minds and Machines"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Hebrew/Israeli"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.md"
-abstract: "This paper examines moral concerns about AI systems, focusing on discrimination and fairness. It analyzes the inputs and outputs of AI systems and their moral implications, addressing questions about when AI-based discrimination is morally problematic and what fairness requires in AI contexts."
+abstract: "Should the input data of artificial intelligence (AI) systems include factors such as race or sex when these factors may be indicative of morally significant facts? More importantly, is it wrong to rely on the output of AI tools whose input includes fac­ tors such as race or sex? And is it wrong to rely on the output of AI systems when it is correlated with factors such as race or sex (whether or not its input includes such factors)? The answers to these questions are controversial."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+ethics_perspective: "Bias & Fairness"
 ---
 # Artificial Intelligence, Discrimination, Fairness, and Other Moral Concerns
 

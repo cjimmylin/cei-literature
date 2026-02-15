@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.48550/arXiv.2505.11454
 url: "http://arxiv.org/abs/2505.11454"
 external_pdf: "http://arxiv.org/pdf/2505.11454.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced HumaniBench, a benchmark of 32k image-question pairs for evaluating Large Multimodal Models (LMMs) on human-centric values like empathy, inclusivity, and fairness."
 significance: "Addresses the lack of ethical evaluation for multimodal models, revealing that while proprietary models excel in reasoning, they still struggle to balance accuracy with inclusive and ethical behavior compared to open-source alternatives."
@@ -26,19 +27,20 @@ pdf_extract: "PDF Extracts/0000/2025-Raza-HumaniBench.md"
 paper_summary: "Overview: HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation Shaina Razaa,∗, Aravind Narayanana,1, Vahid Reza Khazaiea,1, Ashmal Vayanib,1, Ahmed Y. Radwana, Mukund S. Chettiara, Aman | Methodology: In this section, we describe the overall framework of Hu- maniBench, as illustrated in Figure. 1. Section 3.1 presents the HC principles that underpin | Key Findings: Shaina Razaa,∗, Aravind Narayanana,1, Vahid Reza Khazaiea,1, Ashmal Vayanib,1, Ahmed Y. Radwana, Mukund S. Chettiara, Amandeep Singha, Mubarak Shahb a | Conclusions: HumaniBench provides a unified, HC framework for evaluating the strengths and weaknesses of modern LMMs across seven principles (fairness, ethics, und"
 local_pdf: "[[PDFs/2025/2025-Raza-HumaniBench.pdf]]"
 abstract: "Large multimodal models (LMMs) have been widely tested on tasks like visual question answering (VQA), image captioning, and grounding, but lack rigorous evaluation for alignment with human-centered (HC) values such as fairness, ethics, and inclusivity. To address this gap, we introduce HumaniBench, a novel benchmark of 32,000 real-world imagequestion pairs and an evaluation suite. Labels are generated via an AI-assisted pipeline and validated by experts. HumaniBench assesses LMMs across seven ke"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Multilingual benchmark for moral/ethical reasoning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini, Phi, Qwen, Llama-3, Gemma, DeepSeek"
 DATA_URL: "https://huggingface.co/vector-institute/HumaniBench, https://github.com/VectorInstitute/HumaniBench"
 DATE_ADDED: 20260207
+research_topic: "Computer Vision & Multimodal"
 ---
 # HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation
 

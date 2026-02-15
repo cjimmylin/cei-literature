@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,26 @@ external_pdf: "https://openreview.net/pdf?id=mdA5lVvNcU"
 pdf_extract: "PDF Extracts/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md"
 local_pdf: "[[PDFs/2024/2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as ‘safety’ and ‘robustness’ requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and..."
 research_topic: Other
-data_description: Benchmark
+data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o mini"
 DATA_URL: NA
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Measuring What Matters -- Construct Validity in LLM Benchmarks
 
@@ -57,7 +59,7 @@ DATA_URL: NA
 
 ## Abstract
 
-*(To be fetched)*
+Evaluating large language models (LLMs) is crucial for both assessing their capabilities and identifying safety or robustness issues prior to deployment. Reliably measuring abstract and complex phenomena such as ‘safety’ and ‘robustness’ requires strong construct validity, that is, having measures that represent what matters to the phenomenon. With a team of 29 expert reviewers, we conduct a systematic review of 445 LLM benchmarks from leading conferences in natural language processing and machine learning. Across the reviewed articles, we find patterns related to the measured phenomena, tasks, and scoring metrics which undermine the validity of the resulting claims. To address these shortcomings, we provide eight key recommendations and detailed actionable guidance to researchers and practitioners in developing LLM benchmarks.
 
 ## Dataset Information
 

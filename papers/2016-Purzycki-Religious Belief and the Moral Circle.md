@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,25 +14,25 @@ last_author: "[[Joseph Henrich]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"
 url: "https://www.nature.com/articles/sdata201660"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D4GRALMJ/Purzycki and others - 2016 - Religious Belief and the Moral Circle Cross-Cultural Dataset.pdf"
-national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Published the 'Religious Belief and the Moral Circle' cross-cultural dataset, part of a larger project (The Evolution of Religion and Morality) investigating the link between 'moralistic gods' and prosocial behavior."
 significance: "Provides the empirical data underpinning major theories in the evolution of religion, offering a crucial resource for testing whether belief in punitive gods expands the moral circle beyond local kin."
 tags: 
 osint_source: "Recovered via HTML"
 abstract: "A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The Evolution of Religion and Morality Project sought to generate a data set that systematically probed individual level measures sampling across a wider range of human populations. The set includes data from behavioral economic experiments and detailed surveys of demographics, religious beliefs and practices, material security, and intergroup perceptions."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation approach dataset"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/FilipeMaia/owl"

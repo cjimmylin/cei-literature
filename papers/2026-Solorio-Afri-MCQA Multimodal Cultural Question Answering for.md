@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,20 +20,20 @@ pdf_extract: "PDF Extracts/2026/2026-Solorio-Afri-MCQA Multimodal Cultural Quest
 local_pdf: "[[PDFs/2026/2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for.pdf]]"
 publication: "WebSearch: Afri-MCQA multimodal cultural question answering"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: "Africa is home to over one-third of the world's languages, yet remains underrepresented in AI research. We introduce Afri-MCQA, the first Multilingual Cultural Question-Answering benchmark covering 7.5k Q&A pairs across 15 African languages from 12 countries. The benchmark offers parallel English-African language Q&A pairs across text and speech modalities and was entirely created by native speakers."
+abstract: "Africa is home to over one-third of the world’s languages, yet remains underrepresented in AI research. We introduce Afri-MCQA, the first Multilingual Cultural Question-Answering benchmark covering 7.5k Q&A pairs across 15 African languages from 12 countries. The benchmark offers parallel English-African language Q&A pairs across text and speech modalities and was entirely created by native speakers."
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o-mini, Gemma, Gemma3, GPT-4o, Qwen, Qwen 2.5, Qwen-3B, Qwen-7B"

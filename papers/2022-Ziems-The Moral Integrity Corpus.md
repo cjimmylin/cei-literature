@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,27 +14,27 @@ authors: "Caleb Ziems; Jane Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
 doi: 10.18653/v1/2022.acl-long.261
 url: "https://aclanthology.org/2022.acl-long.261/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S8U8PDKM/Ziems et al. - 2022 - The Moral Integrity Corpus A Benchmark for Ethical Dialogue Systems.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Released the Moral Integrity Corpus (MIC), containing 38k prompt-reply pairs and 99k 'Rules of Thumb' (RoTs) that explicitly explicate the moral assumptions of chatbot responses."
 significance: "Enables 'moral transparency' in dialogue systems, allowing models to generate not just a response but also the underlying moral principle (RoT) justifying it, facilitating better control and evaluation."
 tags: 
-abstract: "Content Warning: some examples in this paper may be offensive or upsetting."
+abstract: "' Content Warning: some examples in this paper may be offensive or upsetting. Conversational agents have come increasingly closer to human competence in open-domain dialogue settings; however, such models can reﬂect insensitive, hurtful, or entirely incoherent viewpoints that erode a user’s trust in the moral integrity of the system. Moral deviations are difﬁcult to mitigate because moral judgments are not universal, and there may be multiple competing judgments that apply to a situation..."
 pdf: "http://arxiv.org/pdf/2204.03021"
 pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
 local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
 publication: "ACL 2022"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "General Ethics"
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, T5, BART, BERT, ALBERT"

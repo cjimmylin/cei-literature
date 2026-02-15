@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract: "PDF Extracts/2024/2024-Arif-Generalists vs Specialists Evaluating 
 local_pdf: "[[PDFs/2024/2024-Arif-Generalists vs Specialists Evaluating Large Language.pdf]]"
 publication: "EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "In this paper, we compare generalpurpose models, GPT-4-Turbo and Llama-3-8b, with special-purpose models—XLM-Roberta-large, mT5-large, and Llama-3-8b—that have been fine-tuned on specific tasks. We focus on seven classification and seven generation tasks to evaluate the performance of these models on Urdu language. Urdu has 70 million native speakers, yet it remains underrepresented in Natural Language Processing (NLP)."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, BLOOMZ, ChatGPT, Claude, Claude 3.5 Sonnet, Claude., GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Gemma, Llama-3, Llama, Llama-2, Llama., Llama8, Llama8., Mistral, PaLM-2, PaLM2, RoBERTa, llama3"
 DATA_URL: "https://github.com/meta-llama/llama3"
-research_topic: "NLP & Representation Learning"
+research_topic: "Other"
 ---
 # Generalists vs. Specialists: Evaluating Large Language Models for Urdu
 

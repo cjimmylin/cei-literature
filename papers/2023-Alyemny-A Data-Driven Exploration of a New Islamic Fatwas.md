@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,22 +14,22 @@ authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 doi: 10.3390/data8100155
 url: "https://www.mdpi.com/2306-5729/8/10/155"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/A4GPKYSQ/Alyemny et al. - 2023 - A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks.pdf"
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: "Arabic, Islam"
 tags: 
-abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. FatwaSet is the first available public Arabic dataset for Islamic fatwas. The dataset contains Islamic fatwas collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites. FatwaSet is a rich resource as it does not only contain fatwas but also includes a considerable set of their surrounding metadata. It can be used for many NLP tasks, such as language modeling, question answering, author attribution, topic identification, text classification, and text summarization."
+abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. In this paper, we present fatwaset, the ﬁrst public Arabic dataset of Islamic fatwas. It contains Islamic fatwas that we collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites."
 pdf: "https://www.mdpi.com/2306-5729/8/10/155/pdf?version=1697687515"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: NA

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,20 +20,20 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md"
 local_pdf: "[[PDFs/2025/2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Multilingual
-religious_values: "Multi-religious (Hinduism, Islam, Sikhism, Judaism)"
-religious_values_list: "Multi-religious (Hinduism, Islam, Sikhism, Judaism)"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa"
 DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B"

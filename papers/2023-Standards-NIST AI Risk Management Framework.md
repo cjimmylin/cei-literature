@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ last_author: "[[National Institute of Standards and Technology (NIST)]]"
 authors: "National Institute of Standards and Technology (NIST)"
 url: "https://www.nist.gov/itl/ai-risk-management-framework"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S3GSZDAU/Standards and Technology (NIST) - 2023 - NIST AI Risk Management Framework.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
-research_topic: Other
+research_topic: "Other"
 abstract: "The NIST AI Risk Management Framework (AI RMF) offers a resource to organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework. The framework is built on four core functions: Govern, Map, Measure, and Manage, which are interconnected processes designed to be implemented iteratively throughout an AI system's lifecycle."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation framework"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

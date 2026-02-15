@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,28 +16,29 @@ doi: 10.48550/arXiv.2411.14442
 url: "http://arxiv.org/abs/2411.14442"
 external_pdf: "http://arxiv.org/pdf/2411.14442.pdf"
 publication: arXiv
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Šekrst-AI Ethics by Design.md"
-abstract: "This paper presents a framework for implementing customizable guardrails for responsible AI development, focusing on AI ethics by design principles. It addresses how ethical considerations can be integrated into AI systems from the development stage rather than as an afterthought."
+abstract: "This paper explores the development of an ethical guardrail framework for AI systems, emphasizing the importance of customizable guardrails that align with diverse user values and underlying ethics. We address the challenges of AI ethics by proposing a structure that integrates rules, policies, and AI assistants to ensure responsible AI behavior, while comparing the proposed framework to the existing state-of-the-art guardrails."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Llama, Mixtral"
 DATA_URL: NA
+ethics_perspective: "Responsible AI"
 ---
 # AI Ethics by Design: Implementing Customizable Guardrails for Responsible AI Development
 

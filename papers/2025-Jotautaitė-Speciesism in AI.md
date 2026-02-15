@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Monika Jotautaitė; Lucius Caviola; David A Brewster; Thilo Hagendorff
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XG6G6KHG/Jotautaitė et al. - Speciesism in AI Evaluating Discrimination Against Animals in Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jotautaitė-Speciesism in AI.md"
 local_pdf: "[[PDFs/2025/2025-Jotautaitė-Speciesism in AI.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Investigated 'speciesism' in LLMs via SpeciesismBench, finding models condemn racism/sexism but often rationalize harm to farmed animals."
 significance: "Expands the 'moral circle' of AI evaluations to non-human animals, revealing that 'aligned' models reflect the deep-seated speciesist norms of current society."
 tags: 
-abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership—and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established psycho"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership— and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, o1, o3, Claude, Llama-3, Gemini, DeepSeek, Grok, Qwen"

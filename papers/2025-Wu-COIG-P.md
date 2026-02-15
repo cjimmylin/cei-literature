@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,10 +13,10 @@ last_author: "[[Chenghua Lin]]"
 authors: "M-A-P Team; Siwei Wu; Jincheng Ren; Xinrun Du; Shuyue Guo; Xingwei Qu; Yiming Liang; Jie Liu; Yunwen Li; Tianyu Zheng; Boyu Feng; Huaqing Yuan; Zenith Wang; Jiaheng Liu; Wenhao Huang; Chenglin Cai; Haoran Que; Jian Yang; Yuelin Bai; Zekun Moore Wang; Zhouliang Yu; Qunshu Lin; Ding Pan; Yuchen Jiang; Tiannan Wang; Wangchunshu Zhou; Shenzhi Wang; Xingyuan Bu; Minghao Liu; Guoyin Wang; Ge Zhang; Chenghua Lin"
 url: "https://arxiv.org/abs/2504.05535"
 external_pdf: "https://arxiv.org/pdf/2504.05535.pdf"
-national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Introduced COIG-P, a large-scale Chinese preference dataset (1M+ pairs) across 6 domains, and CRBench, a reward model benchmark, created via a scalable LLM-only pipeline."
 significance: "Enables high-quality value alignment for Chinese LLMs at a massive scale, bypassing the bottlenecks of human annotation and achieving significant performance boosts in alignment assessments."
@@ -24,16 +25,16 @@ pdf_extract: "PDF Extracts/0000/2025-Wu-COIG-P.md"
 abstract: "Aligning large language models (LLMs) with human preferences has achieved remarkable success. However, existing Chinese preference datasets are limited by small scale, narrow domain coverage, and lack of rigorous data validation. Additionally, the reliance on human annotators for instruction and response labeling significantly constrains the scalability of human preference datasets. To address these challenges, we design an LLM-based Chinese preference dataset annotation pipeline with no human i"
 paper_summary: "Abstract: Aligning large language models (LLMs) with human preferences has achieved remarkable success. However, existing Chinese preference datasets are limited by small scale, narrow domain coverage, and lack | Overview: M-A-P COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values M-A-P, 2077AI Abstract Aligning large language models (LLMs) with human preferences has achieved | Key Findings: models may favor responses that resemble their own outputs [Li et al., 2024a, Liu et al., 2024b]. Furthermore, even in LLM-driven pipelines, certain s | Conclusions: 13 8 Contributions and Acknowledgments 15 A Prompts 21 B Open-source datasets 22 C Examples 24 2 --- Page 3 ---"
 local_pdf: "[[PDFs/2025/2025-Wu-COIG-P.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark dataset"
-data_metrics: "0 language"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-3.5, Claude, DeepSeek, Qwen, Gemini"
 DATA_URL: "https://github.com/multimodal-art-projection/COIG-P"
 publication: arXiv

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Jwala Dhamala; Tony Sun; Varun Kumar; Satyapriya Krishna; Yada Pruksac
 doi: 10.1145/3442188.3445924
 url: "http://arxiv.org/abs/2101.11718"
 external_pdf: "http://arxiv.org/pdf/2101.11718.pdf"
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Proposed BOLD, a large-scale dataset (23k prompts) for benchmarking bias in open-ended generation across profession, gender, race, religion, and politics."
 significance: "One of the standard benchmarks for open-ended generative bias, shifting evaluation from classification tasks to the more complex domain of text completion."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Dhamala-BOLD.md"
 local_pdf: [[PDFs/2021/2021-Dhamala-BOLD.pdf]]
-abstract: "Recent advances in deep learning techniques have enabled ma- chines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstream applications from conversation bots to auto- matic storytelling, they have been shown to generate texts that exhibit social biases. To systematically study and benchmark social biases in open-ended language generation, we introduce the Bias in Open-Ended Language Generation Dataset (BOLD), a larg"
+abstract: "Recent advances in deep learning techniques have enabled machines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstream applications from conversation bots to automatic storytelling, they have been shown to generate texts that exhibit social biases. To systematically study and benchmark social biases in open-ended language generation, we introduce the Bias in Open-Ended Language Generation Dataset (BOLD), a..."
 paper_summary: "Abstract: Recent advances in deep learning techniques have enabled ma- chines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstre | Overview: BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation Jwala Dhamala∗ Amazon Alexa AI-NU USA Tony Sun∗ UC Santa Barbara USA Varun Kumar Amazon Alexa AI-NU USA Satyapriya Kris | Conclusions: We presented a novel dataset BOLD and a set of metrics to evaluate fairness in open-ended language generation. Our experiments on evaluating the biase"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, BERT"

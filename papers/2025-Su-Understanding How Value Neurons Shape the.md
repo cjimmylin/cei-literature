@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ tags:
 url: "http://arxiv.org/abs/2505.17712"
 external_pdf: "http://arxiv.org/pdf/2505.17712.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Introduced ValueLocate, a mechanistic interpretability framework, and ValueInsight, a dataset grounded in the Schwartz Values Survey, to localize value-critical neurons in LLMs."
 significance: "Moves beyond behavioral alignment by establishing causal links between specific neurons and ethical orientations, providing a foundation for interpretable and targeted value interventions."
 pdf_extract: "PDF Extracts/2025/2025-Su-Understanding How Value Neurons Shape the.md"
-abstract: "Rapid integration of large language models (LLMs) into societal applications has intensi- fied concerns about their alignment with univer- sal ethical principles, as their internal value rep- resentations remain opaque despite behavioral alignment advancements. Current approaches struggle to systematically interpret how val- ues are encoded in neural architectures, lim- ited by datasets that prioritize superficial judg- ments over mechanistic analysis. We intro- duce ValueLocate, a mechanistic i"
+abstract: "Rapid integration of large language models (LLMs) into societal applications has intensified concerns about their alignment with universal ethical principles, as their internal value representations remain opaque despite behavioral alignment advancements. Current approaches struggle to systematically interpret how values are encoded in neural architectures, limited by datasets that prioritize superficial judgments over mechanistic analysis."
 paper_summary: "Abstract: Rapid integration of large language models (LLMs) into societal applications has intensi- fied concerns about their alignment with univer- sal ethical principles, as their internal value rep- resentat | Overview: arXiv:2505.17712v1 [cs.CL] 23 May 2025 Understanding How Value Neurons Shape the Generation of Specified Values in LLMs Yi Su*,1,2, Jiayi Zhang*,1,3, Shu Yang†,1,2, Xinhai Wang1,2, Lijie Hu†,1,2, Di W | Methodology: cannot be applied to value-related neurons as deac- tivation will be meaningless. To address this issue, we propose a method that aims to manipulate a | Key Findings: value-related neurons. The details of the baselines are presented in Appendix D. • LPIP: Locating neurons using Log Probabil- ity and Inner Products ("
 local_pdf: "[[PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, Gemma"
 DATA_URL: NA

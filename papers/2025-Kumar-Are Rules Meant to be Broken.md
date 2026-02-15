@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,23 +17,23 @@ url: "http://arxiv.org/abs/2502.14083"
 external_pdf: "http://arxiv.org/pdf/2502.14083.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural, Utilitarianism"
 key_contribution: "Introduces UniMoral, a multilingual dataset (6 languages) integrating psychological and social-media moral dilemmas to benchmark reasoning across cultures"
 significance: "Demonstrates that while LLMs mimic structured ethical rules, they still require specialized approaches to handle the 'cultural relativity' of moral reasoning"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-Are Rules Meant to be Broken.md"
-abstract: "Moral reasoning is a complex cognitive pro- cess shaped by individual experiences and cul- tural contexts and presents unique challenges for computational analysis. While natural lan- guage processing (NLP) offers promising tools for studying this phenomenon, current research lacks cohesion, employing discordant datasets and tasks that examine isolated aspects of moral reasoning. We bridge this gap with UNI- MORAL, a unified dataset integrating psycho- logically grounded and social-media-derived"
+abstract: "Moral reasoning is a complex cognitive process shaped by individual experiences and cultural contexts and presents unique challenges for computational analysis. While natural language processing (NLP) offers promising tools for studying this phenomenon, current research lacks cohesion, employing discordant datasets and tasks that examine isolated aspects of moral reasoning. We bridge this gap with UNIMORAL, a unified dataset integrating psychologically grounded and social-media-derived moral..."
 paper_summary: "Abstract: Moral reasoning is a complex cognitive pro- cess shaped by individual experiences and cul- tural contexts and presents unique challenges for computational analysis. While natural lan- guage processing | Overview: Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UNIMORAL Shivani Kumar University of Michigan kshivan@umich.edu David Jurgens University of Mi | Key Findings: metric, as it emphasizes semantic similarity rather than exact word matches. [I] Action Prediction 0 20 40 60 Score Arabic Chinese English Hindi Russi | Conclusions: Moral reasoning is a complex process and here we introduce UNIMORAL to unify the multiple strands of NLP research on moral reasoning. UNI- MORAL is a"
 local_pdf: "[[PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Phi, Llama-3, DeepSeek"

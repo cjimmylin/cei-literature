@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,27 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.md"
 local_pdf: "[[PDFs/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: "Cantonese, Chinese, Hakka, Min"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/kalvinchang/yubao"
 tags: 
-abstract: "Despite having hundreds of millions of speakers, Chinese dialects lag behind Mandarin in speech and language technologies. Most varieties are primarily spoken, making dialectto-Mandarin speech-LLMs (large language models) more practical than dialect LLMs. Building dialect-to-Mandarin speechLLMs requires speech representations with cross-dialect semantic alignment between Chinese dialects and Mandarin. In this paper, we achieve such a cross-dialect semantic alignment by training a speech encoder with ASR (automatic speech recognition)only data, as demonstrated by speech-to-speech retrieval on a new benchmark of spoken Chinese varieties that we contribute. Our speech encoder further demonstrates state-of-the-art ASR performance on Chinese dialects. Together, our Chinese dialect benchmark, semantically aligned speech representations, and speech-to-speech retrieval evaluation lay the groundwork for future Chinese dialect speech-LLMs. We release the benchmark at https://github.com/kalvinchang/yubao."
+abstract: "Despite having hundreds of millions of speakers, Chinese dialects lag behind Mandarin in speech and language technologies. Most varieties are primarily spoken, making dialectto-Mandarin speech-LLMs (large language models) more practical than dialect LLMs. Building dialect-to-Mandarin speechLLMs requires speech representations with cross-dialect semantic alignment between Chinese dialects and Mandarin."
 research_topic: Other
+ethics_perspective: "AI Safety & Alignment"
 ---
 # Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: Springer
 pdf_extract: "PDF Extracts/2024/2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.md"
 local_pdf: "[[PDFs/2024/2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Kyrgyz-KTMU"
 tags: 
-abstract: "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classiﬁcation in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classiﬁcation in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions for future work."
-research_topic: Other
+abstract: "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classiﬁcation in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classiﬁcation in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions..."
+research_topic: "Machine Learning"
 ---
 # Benchmarking Multilabel Topic Classification in the Kyrgyz Language
 

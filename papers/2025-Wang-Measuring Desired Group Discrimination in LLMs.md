@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ last_author: "[[Koyejo, Sanmi]]"
 authors: "[[Wang, Angelina]]; [[Phan, Michelle]]; [[Ho, Daniel E.]]; [[Koyejo, Sanmi]]"
 url: "https://aclanthology.org/2025.acl-long.341/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/42WJ28G6/2025 - Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite).pdf"
-national_ethnic_cultural: American
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: "American, Islam, Bias & Fairness"
 key_contribution: "Presented a benchmark suite (DiffAware) to measure 'desired group discrimination'—contexts where treating groups differently is appropriate (e.g., medical or legal distinctions)."
 significance: "Critiques the standard 'color-blind' fairness approach, showing that bias mitigation strategies can backfire by preventing models from making necessary, context-aware distinctions between groups."
 tags: 
-abstract: "Algorithmic fairness has conventionally adopted the mathematically convenient perspective of racial color-blindness (i.e., difference unaware treatment). However, we contend that in a range of important settings, group difference awareness matters. For example, differentiating between groups may be necessary in legal contexts (e.g., the U.S. compulsory draft applies to men but not women) and harm assessments (e.g., referring to girls as 'terrorists' may be less harmful than referring to Muslim people as such). Thus, in contrast to most fairness work, we study fairness through the perspective of treating people differently — when it is contextually appropriate to. We first introduce an important distinction between descriptive (fact-based), normative (value-based), and correlation (association-based) benchmarks. This distinction is significant because each category requires separate interpretation and mitigation tailored to its specific characteristics. Then, we present a benchmark suite composed of eight different scenarios for a total of 16k questions that enables us to assess difference awareness. Finally, we show results across ten models that demonstrate difference awareness is a distinct dimension to fairness where existing bias mitigation strategies may backfire."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Algorithmic fairness has conventionally adopted the mathematically convenient perspective of racial color-blindness (i.e., difference unaware treatment). However, we contend that in a range of important settings, group difference awareness matters. For example, differentiating between groups may be necessary in legal contexts (e.g., the U.S. compulsory draft applies to men but not women) and harm assessments (e.g."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "16k questions"
 LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,25 +16,25 @@ tags:
 url: "http://arxiv.org/abs/2505.08734"
 external_pdf: "http://arxiv.org/pdf/2505.08734.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Applied Ethics"
 key_contribution: "Created NurValues, a benchmark for *nursing* value alignment with 1,100 clinical cases annotated for specialized values (Altruism, Dignity, Justice)."
 significance: "Shows that general 'medical LLMs' often fail on professional ethics (e.g., patient dignity), underscoring the need for domain-specific value alignment beyond generic 'helpfulness'."
 pdf_extract: "PDF Extracts/2025/2025-Yao-NurValues.md"
-abstract: "This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice, and Professionalism. The benchmark com- prises 1,100 real-world nursing behavior instances collected through a five-month longitudinal field study across three hospitals of varying tiers. These instances are annotated by five clinical nurses and then augmented with LLM-generated counterfactuals with"
+abstract: "This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice, and Professionalism. The benchmark comprises 1,100 real-world nursing behavior instances collected through a five-month longitudinal field study across three hospitals of varying tiers. These instances are annotated by five clinical nurses and then augmented with LLM-generated counterfactuals with..."
 paper_summary: "Abstract: This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice,  | Overview: arXiv:2505.08734v1 [cs.CL] 13 May 2025 NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context Ben Yao1, Qiuchi Li2, Yazhou Zhang3∗, Siyu Yang4, Bohan Zhang1, Pra | Methodology: in 15, while the underline font indicates the second-best result. Dataset Model 0-Shot 2-Shot 6-Shot 10-Shot Acc. Ma-F1 Acc. Ma-F1 Acc. Ma-F1 Acc. Ma- | Key Findings: confirms that the rewritten dialogues retain high topical consistency with the original instances. Using three SoTA LLMs to score semantic similarity, | Conclusions: In this paper, we introduce NurValues, the first real-world healthcare benchmark for evaluating LLMs' nursing values. Built from 1,100 real-world nurs"
 local_pdf: [[PDFs/2025/2025-Yao-NurValues.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Applied Ethics"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, o1, Claude, Gemini, DeepSeek, Llama-3, Llama, Qwen"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,22 +19,22 @@ pdf_extract: "PDF Extracts/2025/2025-Jiang-Investigating Machine Moral Judgement
 local_pdf: "[[PDFs/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.pdf]]"
 publication: "Nature Machine Intelligence"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: 
 ethics_perspective: "General Ethics"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, T5"
 DATA_URL: "https://github.com/liweijiang/delphi.git"

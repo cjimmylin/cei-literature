@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/2025/2025-Iftikhar-How LLM Counselors Violate Ethical
 local_pdf: "[[PDFs/2025/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
-ethics_perspective: "General Ethics"
-data_description: N/A
+abstract: "Large language models (LLMs) were not designed to replace healthcare workers, but they are being used in ways that can lead users to overestimate the types of roles that these systems can assume. While prompt engineering has been shown to improve LLMs’ clinical effectiveness in mental health applications, little is known about whether such strategies help models adhere to ethical principles for real-world deployment."
+ethics_perspective: "Bias & Fairness"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-3, Claude"
 DATA_URL: "https://github.com/brownhci/human-llm-cbt-evals"
@@ -61,7 +62,7 @@ DATA_URL: "https://github.com/brownhci/human-llm-cbt-evals"
 
 ## Abstract
 
-*(To be fetched)*
+Large language models (LLMs) were not designed to replace healthcare workers, but they are being used in ways that can lead users to overestimate the types of roles that these systems can assume. While prompt engineering has been shown to improve LLMs’ clinical effectiveness in mental health applications, little is known about whether such strategies help models adhere to ethical principles for real-world deployment. In this study, we conducted an 18-month ethnographic collaboration with mental health practitioners (three clinically licensed psychologists and seven trained peer counselors) to map LLM counselors’ behavior during a session to professional codes of conduct established by organizations like the American Psychological Association (APA). Through qualitative analysis and expert evaluation of N = 137 sessions (110 self-counseling; 27 simulated), we outline a framework of 15 ethical violations mapped to 5 major themes. These include: Lack of Contextual Understanding, where the counselor fails to account for users’ lived experiences, leading to oversimplified, contextually irrelevant, and one-size-fitsall intervention; Poor Therapeutic Collaboration, where the counselor’s low turn-taking behavior and invalidating outputs limit users’ agency over their therapeutic experience; Deceptive Empathy, where the counselor’s simulated anthropomorphic responses (“I hear you”, “I understand”) create a false sense of emotional connection; Unfair Discrimination, where the counselor’s responses exhibit algorithmic bias and cultural insensitivity toward marginalized populations; and Lack of Safety & Crisis Management, where individuals who are “knowledgeable enough” to correct LLM outputs are at an advantage, while others, due to lack of clinical knowledge and digital literacy, are more likely to suffer from clinically inappropriate responses. Reflecting on these findings through a practitioner-informed lens, we argue that reducing psychotherapy—a deeply meaningful and relational process—to a language generation task can have serious and harmful implications in practice. We conclude by discussing policy-oriented accountability mechanisms for emerging LLM counselors.
 
 ## Dataset Information
 

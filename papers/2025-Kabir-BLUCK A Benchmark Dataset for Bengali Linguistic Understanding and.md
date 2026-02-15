@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract: "PDF Extracts/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali
 local_pdf: "[[PDFs/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Bengali
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "23 categories"
 LLM_assessed: "Claude 3.5, Claude 3.5-Sonnet, Claude-3.5, Claude-3.5-Haiku, Claude-3.5-Sonnet, DeepSeekV3, GPT-4o, GPT-4o-mini, Llama-3.1, Llama-3.3, llama 3"
 DATA_URL: NA
 tags: 
-abstract: "In this work, we introduce BLUCK, a new dataset designed to measure the performance of Large Language Models (LLMs) in Bengali linguistic understanding and cultural knowledge. Our dataset comprises 2366 multiple-choice questions (MCQs) carefully curated from compiled collections of several college and job level examinations and spans 23 categories covering knowledge on Bangladesh's culture and history and Bengali linguistics."
+abstract: "In this work, we introduce BLUCK, a new dataset designed to measure the performance of Large Language Models (LLMs) in Bengali linguistic understanding and cultural knowledge. Our dataset comprises 2366 multiple-choice questions (MCQs) carefully curated from compiled collections of several college and job level examinations and spans 23 categories covering knowledge on Bangladesh’s culture and history and Bengali linguistics."
 research_topic: "Machine Learning"
 ---
 # BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge

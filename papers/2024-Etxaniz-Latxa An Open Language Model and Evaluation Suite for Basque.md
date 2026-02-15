@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ publication: "arXiv / ACL 2024"
 pdf_extract: "PDF Extracts/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.md"
 local_pdf: "[[PDFs/2024/2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Basque
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "5,169 questions; 16,774 questions; 4.3m documents"
 LLM_assessed: "Latxa (LLaMa-based), Irati, Llama-2, Mistral"

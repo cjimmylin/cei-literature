@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,22 +14,22 @@ authors: "Whitepaper Alycia Colijn; Heramb Podar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RWCWHF43/Colijn and Podar - Technical Risks of (Lethal) Autonomous Weapons Systems.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.md"
 local_pdf: "[[PDFs/2025/2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Value Pluralism / Schwartz"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz"
 tags: 
 abstract: "The autonomy and adaptability of (Lethal) Autonomous Weapons Systems, (L)AWS in short, promise unprecedented operational capabilities, but they also introduce profound risks that challenge the principles of control, accountability, and stability in international security. This report outlines the key technological risks associated with (L)AWS deployment, emphasizing their unpredictability, lack of transparency, and operational unreliability, which can lead to severe unintended consequences. Key Takeaways: 1. Proposed advantages of (L)AWS can only be achieved through objectification and classification, but a range of systematic risks limit the reliability and predictability of classifying algorithms. 2. These systematic risks include the black-box nature of AI decision-making, susceptibility to reward hacking, goal misgeneralization and potential for emergent behaviors that escape human control. 3. (L)AWS could act in ways that are not just unexpected but also uncontrollable, undermining mission objectives and potentially escalating conflicts. 4. Even rigorously tested systems may behave unpredictably and harmfully in real-world conditions, jeopardizing both strategic stability and humanitarian principles."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

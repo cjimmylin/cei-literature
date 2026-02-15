@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,22 +16,22 @@ external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
 pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md"
 local_pdf: "[[PDFs/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
-ethics_perspective: "Moral Reasoning & Psychology"
-data_description: "Evaluation approach"
+abstract: "Large language models demonstrate remarkable generalization across tasks, yet 1 their reliability in complex domains like moral reasoning remains uncertain. We 2 introduce the first open-source benchmark explicitly designed to evaluate ethical 3 consistency, providing a structured diagnostic of how models handle dilemmas with 4 clarifying and contradictory follow-ups. Our framework yields quantifiable yes/no 5 responses and introduces two novel metrics: the Ethical Consistency Index (ECI) 6 and..."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek, Mistral, Gemini, GPT-4"
 DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"
@@ -57,7 +58,7 @@ normative_ethics_benchmark: Borderline
 
 ## Abstract
 
-*(To be fetched)*
+Large language models demonstrate remarkable generalization across tasks, yet 1 their reliability in complex domains like moral reasoning remains uncertain. We 2 introduce the first open-source benchmark explicitly designed to evaluate ethical 3 consistency, providing a structured diagnostic of how models handle dilemmas with 4 clarifying and contradictory follow-ups. Our framework yields quantifiable yes/no 5 responses and introduces two novel metrics: the Ethical Consistency Index (ECI) 6 and an entropy-based Inconsistency Score, capturing both contradictions and re7 sponse variability. Applying the benchmark to state-of-the-art models—Deepseek8 R1, Mistral Small-32B, Gemini-2.5, and GPT-4.1-mini—we compare model perfor9 mance against human baselines. Results show models achieve middling levels of 10 ethical consistency, lacking what is required of it. These findings highlight ethical 11 stance as a steerable but fragile trait, raising concerns for high-stakes deployment. 12 By situating moral reasoning within evaluation, we underscore the need for holis13 tic benchmarks that capture emergent behaviors, and we release our benchmark 14 to foster community progress toward more reliable and aligned LLMs (https: 15 //anonymous.4open.science/r/TrolleyBench-FD46/README.md).
 
 ## Dataset Information
 

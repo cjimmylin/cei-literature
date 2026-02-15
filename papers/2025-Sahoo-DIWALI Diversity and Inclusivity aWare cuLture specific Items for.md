@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWar
 local_pdf: "[[PDFs/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for.pdf]]"
 publication: "arXiv / EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
 languages_list: "Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Gemma, Gemma 2, Gemma-2, Llama, Llama 2, Llama 3.1, Llama 3.2, Llama-2, Llama-3.1, Llama-3.2, Mistral, Mistral 7B, Mistral 7BInstruct, Mistral-7B, llama 3"

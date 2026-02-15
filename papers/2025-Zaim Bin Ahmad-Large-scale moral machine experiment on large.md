@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,22 +15,22 @@ doi: 10.1371/journal.pone.0322776
 url: "https://dx.plos.org/10.1371/journal.pone.0322776"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D7GUWN8N/Zaim Bin Ahmad and Takemoto - 2025 - Large-scale moral machine experiment on large language models.pdf"
 ethics_perspective: "AI Safety & Alignment"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "Trolley / Dilemmas (Psych), AI Safety & Alignment"
 key_contribution: "Replicated the Moral Machine Experiment on 52 LLMs using Conjoint Analysis, finding that larger models (10B+) align more closely with human utilitarian preferences."
 significance: "Confirms the 'Scaling Law of Morality': bigger models get better at mimicking human norms (specifically Western utilitarian ones), but also exhibit 'hyper-biases' (e.g., extreme speciesism)."
-abstract: "The rapid advancement of Large Language Models (LLMs) and their potential integration into autonomous driving systems necessitates understanding their moral decisionmaking capabilities. While our previous study examined four prominent LLMs using the Moral Machine experimental framework, the dynamic landscape of LLM development demands a more comprehensive analysis. Here, we evaluate moral judgments across 52 different LLMs, including multiple versions of proprietary models (GPT, Claude, Gemini)"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark for moral/ethical reasoning dataset"
+abstract: "The rapid advancement of Large Language Models (LLMs) and their potential integration into autonomous driving systems necessitates understanding their moral decisionmaking capabilities. While our previous study examined four prominent LLMs using the Moral Machine experimental framework, the dynamic landscape of LLM development demands a more comprehensive analysis. Here, we evaluate moral judgments across 52 different LLMs, including multiple versions of proprietary models (GPT, Claude, Gemini)..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Gemini, Llama-2, Llama-3, Gemma, PaLM, PaLM-2, Vicuna, Mistral, Phi, o1"
 DATA_URL: "https://github.com/kztakemoto/mmllm"

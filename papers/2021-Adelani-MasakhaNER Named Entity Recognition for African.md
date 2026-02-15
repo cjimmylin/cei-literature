@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,21 +19,21 @@ pdf_extract: "PDF Extracts/2021/2021-Adelani-MasakhaNER Named Entity Recognition
 local_pdf: "[[PDFs/2021/2021-Adelani-MasakhaNER Named Entity Recognition for African.pdf]]"
 publication: "WebSearch: MasakhaNER African languages named entity recognition"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "We take a step towards addressing the under­ representation of the African continent in NLP research by bringing together different stakeholders to create the first large, publicly available, high­quality dataset for named en­ tity recognition (NER) in ten African lan­ guages. We detail the characteristics of these languages to help researchers and practition­ ers better understand the challenges they pose for NER tasks."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/masakhane-io/masakhane-ner"

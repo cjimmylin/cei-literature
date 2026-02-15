@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,24 +12,24 @@ first_author: "[[Julia Maria Struß]]"
 last_author: "[[Manfred Klenner]]"
 authors: "Julia Maria Struß; Melanie Siegel; Josef Ruppenhofer; Michael Wiegand; Manfred Klenner"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITICC3WW/Struß et al. - Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language.pdf"
-national_ethnic_cultural: German
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "German"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "German, Toxicity & Hate Speech"
 key_contribution: "Shared task on offensive language identification in German tweets, introducing implicit vs explicit offense classification."
 significance: "A standard reference for German toxicity detection, highlighting the difficulty of detecting 'implicit' offense (sarcasm, dogwhistles) compared to explicit slurs."
 tags: 
 abstract: "We present the second edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. Two subtasks were continued from the ﬁrst edition, namely a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. As a novel subtask, we introduce the classiﬁcation of offensive tweets as explicit or implicit."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: NA

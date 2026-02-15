@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract:
 local_pdf: N/A
 publication: "ROCLING 2023 (35th Conference on Computational Linguistics and Speech Processing) / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Evaluates GPT-4 on Quranic question answering using the newly created QUQA dataset (2,189 questions). Finds GPT-4 struggles with classical Arabic, semantic ambiguity, and contextual meaning. Three main issues: misinterpretation of religious context, unreliable answers not grounded in authoritative Islamic sources, and sensitivity to phrasing variations. Follow-up work showed RAG substantially improved results."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "QUQA dataset (available via thesis/ACL)"
-research_topic: Other
+research_topic: "Other"
 ---
 # Is GPT-4 a Good Islamic Expert for Answering Quran Questions?
 

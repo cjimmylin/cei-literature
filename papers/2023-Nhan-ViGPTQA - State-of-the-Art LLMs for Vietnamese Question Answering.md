@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: "ACL Anthology / EMNLP 2023 Industry"
 pdf_extract: "PDF Extracts/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md"
 local_pdf: "[[PDFs/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, Llama, Llama2, Vicuna, gpt-3.5-turbo, GPT-4"
 DATA_URL: "https://huggingface.co/VietAI/gpt-neo-1"
 tags: 
-abstract: 
+abstract: "Large language models (LLMs) and their applications in low-resource languages (such as in Vietnamese) are limited due to lack of training data and benchmarking datasets. This paper introduces a practical real-world implementation of a question answering system for Vietnamese, called ViGPTQA, leveraging the power of LLM. Since there is no effective LLM in Vietnamese to date, we also propose, evaluate, and open-source an instruction-tuned LLM for Vietnamese, named ViGPT."
 research_topic: "Question Answering"
 ---
 # ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations

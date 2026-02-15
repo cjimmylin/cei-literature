@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: OpenReview
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Evaluating LLMs' Language Confusion in Code-switching Context Juhyun.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Evaluating LLMs' Language Confusion in Code-switching Context Juhyun.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Code-switching
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4o, Qwen, Qwen 2.5"
 DATA_URL: "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0.1-32B"
 tags: 
 abstract: 
-research_topic: Other
+research_topic: "Other"
 ---
 # Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun Oh KAIST
 

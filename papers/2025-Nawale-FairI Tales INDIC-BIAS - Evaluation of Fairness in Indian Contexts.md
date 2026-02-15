@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,18 +19,18 @@ pdf_extract: "PDF Extracts/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation 
 local_pdf: "[[PDFs/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: "Islam, Christianity, Hinduism, Sikhism, Jainism"
-religious_values_list: "Islam, Christianity, Hinduism, Sikhism, Jainism"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Warning: This paper includes content that may be considered offensive or upsetting. Existing studies on fairness are largely Westernfocused, making them inadequate for culturally diverse countries such as India. To address this gap, we introduce INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes."
 ethics_perspective: "Bias & Fairness"

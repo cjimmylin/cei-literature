@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2023/2023-Augustyniak-Massively Multilingual Corpus o
 local_pdf: "[[PDFs/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.pdf]]"
 publication: "arXiv / NeurIPS 2023"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 21 other languages"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "350 datasets; 27 languages; 6 language"
 LLM_assessed: "BERT, GloVe, Word2Vec, RoBERTa"

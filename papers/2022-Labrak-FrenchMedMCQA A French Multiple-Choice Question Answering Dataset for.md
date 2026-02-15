@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md"
 local_pdf: "[[PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: French
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: French
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Text corpus for question answering"
 data_metrics: "3,105 questions"
 LLM_assessed: "CamemBERT, BioBERT, PubMedBERT, XLM-RoBERTa, BARThez"

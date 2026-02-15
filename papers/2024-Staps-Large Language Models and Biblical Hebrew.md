@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract: "PDF Extracts/2024/2024-Staps-Large Language Models and Biblical He
 local_pdf: "[[PDFs/2024/2024-Staps-Large Language Models and Biblical Hebrew.pdf]]"
 publication: "HIPHIL Novum, 9(1), 46--55"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Hebrew/Israeli
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Hebrew/Israeli"
+religious_values: "Christianity"
+religious_values_list: "Christianity"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: "Summary: Critically evaluates whether LLMs can be useful for Biblical Hebrew scholarship. Exposes fundamental issues with GPT-based methods for this domain while identifying potential forward paths with machine learning methods for specific linguistic tasks."
-data_description: N/A
+abstract: "Researchers have been relying on computational methods to study Biblical Hebrew for a long time already. The recent improvements to and easy availability of Large Language Models (LLMs) like GPT prompt the question whether these models can be useful for our work as well. This paper tempers the expectations, showing that a critical analysis of earlier work exposes fundamental issues with methods involving GPT."
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://huggingface.co/gngpostalsrvc/COHeN"
-research_topic: Other
+research_topic: "Machine Learning"
 ---
 # Large Language Models and Biblical Hebrew: Limitations, Pitfalls, Opportunities
 

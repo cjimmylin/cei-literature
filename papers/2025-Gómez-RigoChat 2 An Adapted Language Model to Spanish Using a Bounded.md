@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ pdf_extract: "PDF Extracts/2025/2025-Gómez-RigoChat 2 An Adapted Language Model
 local_pdf: "[[PDFs/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Spanish
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Spanish"
 languages_list: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4o, GPT-4o-mini, Gemma, GPT-4, Llama, Llama 3.1, Llama-3.1, Qwen-2.5, Qwen2, Qwen2.5, gemma-2, llama 3, llama."
 DATA_URL: "https://github.com/huggingface/peft"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Coh
 doi: 10.1038/sdata.2016.99
 url: "https://www.nature.com/articles/sdata201699"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQRCW8LB/Purzycki et al. - 2016 - Cross-cultural dataset for the evolution of religion and morality project.pdf"
-national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Value Pluralism / Schwartz"
+national_ethnic_cultural: "Multicultural/Cross-cultural"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Produced a cross-cultural dataset examining the evolution of religion and morality, sampling from diverse populations beyond standard WEIRD (Western, Educated, Industrialized, Rich, Democratic) societies."
 significance: "Provides rare empirical data on religious beliefs and moral behavior from non-market-integrated societies, offering a crucial baseline for understanding the universality vs. specificity of human moral evolution."
 tags: 
 abstract: "Abstract A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The bulk of this research, however, draws from coded qualitative ethnographies rather than from standardized methods specifically designed to measure religious beliefs and behaviors. Psychological data sets that examine religious thought and behavior in controlled conditions tend to be disproportionately sampled from student populations. Some cross-national databases e"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation methodology dataset"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"

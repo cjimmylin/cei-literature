@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.48550/arXiv.2312.17479
 url: "http://arxiv.org/abs/2312.17479"
 external_pdf: "http://arxiv.org/pdf/2312.17479.pdf"
 publication: "PLoS ONE"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Social & Cultural Values"
 key_contribution: "Proposed using Inverse Reinforcement Learning (IRL) for AI to implicitly learn the moral values of a specific culture by observing human behavior in a virtual environment."
 significance: "A theoretical and practical step towards 'cultural attunement', showing that AI can learn local norms from observation rather than needing explicit top-down rule programming."
@@ -26,15 +27,15 @@ pdf_extract: "PDF Extracts/2023/2023-Oliveira-Culturally-Attuned Moral Machines.
 paper_summary: "Overview: Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning Nigini Oliveiraa, Jasmine Lia, Koosha Khalvatia, Rodolfo Cortes Barraganb, Kath | Methodology: using an experimental paradigm in which AI agents use IRL to learn different reward functions, which govern the agents' moral values, by observing the | Conclusions: Given the rapid strides being made in AI research today, a question of utmost importance is how AI systems can be im- bued with human values and moral"
 local_pdf: "[[PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf]]"
 abstract: "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, eth"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

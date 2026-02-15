@@ -1,0 +1,77 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0010
+type: preprint
+short_title: "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models"
+year: 2025
+first_author: "[[Yuhang Wu]]"
+last_author: "[[Yuxiao Dong]]"
+authors: Yuhang Wu, Wenmeng Yu, Yean Cheng, Yan Wang, Xiaohan Zhang, Jiazheng Xu, Ming Ding, Yuxiao Dong
+url: "https://arxiv.org/abs/2406.09295"
+external_pdf: "https://arxiv.org/pdf/2406.09295.pdf"
+publication: arXiv / ACL 2025
+local_pdf: "[[PDFs/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.md"
+DATE_ADDED: 20260215
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "4,978 question"
+LLM_assessed: 
+DATA_URL: "https://github.com/THUDM/AlignMMBench"
+tags: 
+abstract: "Evaluating the alignment capabilities of large Vision-Language Models (VLMs) is essential for determining their effectiveness as helpful assistants. However, existing benchmarks primarily focus on basic abilities using nonverbal methods, such as yes-no and multiple-choice questions. In this paper, we address this gap by introducing AlignMMBench, which provides more nuanced evaluations of alignment capabilities and is the first benchmark specifically designed for Chinese visual contexts."
+ethics_perspective: "AI Safety & Alignment"
+---
+# AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models
+
+## Authors
+
+[[Yuhang Wu, Wenmeng Yu, Yean Cheng, Yan Wang, Xiaohan Zhang, Jiazheng Xu, Ming Ding, Yuxiao Dong]]
+
+## Metadata
+
+**Authors:** Yuhang Wu, Wenmeng Yu, Yean Cheng, Yan Wang, Xiaohan Zhang, Jiazheng Xu, Ming Ding, Yuxiao Dong
+
+**Year:** 2025
+
+**Type:** preprint
+
+**Venue:** arXiv / ACL 2025
+
+**Cultures:** Chinese
+
+**Benchmark:** AlignMMBench
+
+## Links
+
+- **arXiv:** https://arxiv.org/abs/2406.09295
+- **Code/Data:** https://github.com/THUDM/AlignMMBench
+
+## Abstract
+
+First benchmark for Chinese visual contexts in multimodal LLMs. Contains 1,054 images and 4,978 question-answer pairs across 13 tasks. Proposes CritiqueVLM evaluator and alignment score metric.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_01
+**Relevance:** Chinese-specific multimodal alignment benchmark. Published at ACL 2025. Tests cultural alignment in visual-language understanding for Chinese contexts.
+
+## Tags
+

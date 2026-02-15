@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ doi: 10.48550/arXiv.2307.14324
 url: "http://arxiv.org/abs/2307.14324"
 external_pdf: "http://arxiv.org/pdf/2307.14324.pdf"
 publication: "Neural Information Processing Systems"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Introduced statistical measures to quantify the consistency and uncertainty of LLM moral choices in high- vs low-ambiguity scenarios."
 significance: "Shows that while models align with commonsense in unambiguous cases, they exhibit significant uncertainty and sensitivity to wording in ambiguous moral scenarios."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md"
-abstract: "This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM 'making a choice', the associated uncertainty, and the consistency of that choice. (2) We apply this method to study what moral beliefs are encoded in different LLMs, esp"
+abstract: "This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for eliciting beliefs encoded in LLMs. We introduce statistical measures and evaluation metrics that quantify the probability of an LLM 'making a choice', the associated uncertainty, and the consistency of that choice."
 paper_summary: "Abstract: This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for el | Overview: Evaluating the Moral Beliefs Encoded in LLMs Warning: This paper contains moral scenarios which are controversial and offensive in nature. Nino Scherrer ∗1, Claudia Shi ∗1,2, Amir Feder 2, and David M"
 local_pdf: "[[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, PaLM-2, Flan-T5, BLOOM, OPT"

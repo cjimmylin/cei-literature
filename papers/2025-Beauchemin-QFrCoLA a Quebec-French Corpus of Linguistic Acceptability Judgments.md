@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,19 +17,19 @@ publication: "arXiv / ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md"
 local_pdf: "[[PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: French
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: "Quebecois French"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, CamemBERT, XLM-RoBERTa, BLOOM-7B, BLOOMZ-7B, Mistral-7B, Llama-3.1-8B, Lucie"

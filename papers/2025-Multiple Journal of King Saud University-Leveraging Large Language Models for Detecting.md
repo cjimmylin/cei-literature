@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract: "PDF Extracts/0000/2025-Multiple Journal of King Saud University-Le
 local_pdf: "[[PDFs/2025/2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.pdf]]"
 publication: "Journal of King Saud University Computer and Information Sciences"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Introduces ELQV (Emotionally-Labeled Quran Verses), 2,100 verses annotated for four emotions (fear 32.14%, joy 28.05%, anger 23.57%, sadness 16.24%) by Arabic linguistics/Islamic law PhD experts. Evaluates LLMs' ability to comprehend emotional semantics in Classical Arabic scripture and 7 English translations. Cohen's Kappa scores range 0.29-0.35 between translations and Arabic readers."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ELMo, GloVe, Word2Vec, XLNet"
 DATA_URL: "https://github.com/Arwaalmrzoqi/ELQV"
-research_topic: Other
+research_topic: "Other"
 ---
 # Leveraging Large Language Models for Detecting and Preserving Emotions in Quran Translations (ELQV)
 

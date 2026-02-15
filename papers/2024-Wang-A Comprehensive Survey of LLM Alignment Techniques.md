@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ tags:
 url: "http://arxiv.org/abs/2407.16216"
 external_pdf: "http://arxiv.org/pdf/2407.16216.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a comprehensive survey of LLM alignment techniques (RLHF, RLAIF, DPO, PPO, etc.), categorizing them by methodology and objective."
 significance: "Offers a structured overview of the rapidly evolving alignment landscape, helping researchers navigate the trade-offs between different fine-tuning methods for helpfulness and safety."
 pdf_extract: "PDF Extracts/2024/2024-Wang-A Comprehensive Survey of LLM Alignment Techniques.md"
-abstract: "With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parameters, large language models (LLMs) are now capable of generating factual and coherent responses to human queries. However, the mixed quality of training data can lead to the generation of undesired responses, presenting a significant challenge. Over the past two years, various methods have been prop"
+abstract: "With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parameters, large language models (LLMs) are now capable of generating factual and coherent responses to human queries. However, the mixed quality of training data can lead to the generation of undesired responses, presenting a significant challenge."
 paper_summary: "Abstract: With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parame | Overview: A COMPREHENSIVE SURVEY OF LLM ALIGNMENT TECHNIQUES: RLHF, RLAIF, PPO, DPO AND MORE Zhichao Wang*, Bin Bi*, Shiva Kumar Pentyala, Kiran Ramnath, Sougata Chaudhuri, Shubham Mehrotra, Zixu (James) Zhu, X | Methodology: encompassed two primary stages: 1. Supervised learning through Critiques and Revisions guided by a 'constitution' and 2. RLAIF. In the initial stage,  | Key Findings: results demonstrated that RSO surpassed previous methods including SLiC and DPO across multiple metrics, including human evaluation. RSO also showed b"
 local_pdf: "[[PDFs/2024/2024-Wang-A Comprehensive Survey of LLM Alignment Techniques.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude-3, GPT-2, GPT-3, GPT-4, GPT-4-Turbo, InstructGPT, Llama, LlaMA3, Llama 2, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral Large, Mistral-7B, PaLM 2, Phi-2, T5-Large, T5-XXL"

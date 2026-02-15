@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2025/2025-Magdy-Fabricating Holiness Characterizing R
 local_pdf: "[[PDFs/2025/2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.pdf]]"
 publication: "ICWSM 2026 (AAAI Press) / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Misinformation is a growing concern in a decade involving critical global events. While social media regulation is mainly dedicated towards the detection and prevention of fake news and political misinformation, there is limited research about religious misinformation which has only been addressed through qualitative approaches. In this work, we study the spread of fabricated quotes (Hadith) that are claimed to belong to Prophet Muhammad (the prophet of Islam) as a case study demonstrating one..."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"

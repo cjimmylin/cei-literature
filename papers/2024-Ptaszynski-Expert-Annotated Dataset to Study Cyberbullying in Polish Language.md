@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,26 +22,27 @@ publication: "MDPI Data"
 pdf_extract: "PDF Extracts/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md"
 local_pdf: "[[PDFs/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Polish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, distilbert"
 DATA_URL: "https://github.com/bear/python-twitter"
 tags: 
-abstract: "Expert-annotated dataset for cyberbullying and hate-speech detection in Polish with two quality-controlled annotation versions. Binary (harmful/non-harmful) and multi-class (cyberbullying/hate-speech/non-harmful) tasks."
+abstract: "We introduce the first dataset of harmful and offensive language collected from the Polish Internet. This dataset was meticulously curated to facilitate the exploration of harmful online phenomena such as cyberbullying and hate speech, which have exhibited a significant surge both within the Polish Internet as well as globally. The dataset was systematically collected and then annotated using two approaches."
 research_topic: "Machine Learning"
+ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Expert-Annotated Dataset to Study Cyberbullying in Polish Language
 

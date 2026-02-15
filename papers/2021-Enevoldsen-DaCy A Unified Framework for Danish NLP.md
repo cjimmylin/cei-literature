@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,19 +17,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md"
 local_pdf: "[[PDFs/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Danish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multi-task benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ELECTRA, BERT, XLM-RoBERTa"

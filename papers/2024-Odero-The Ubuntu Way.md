@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
 pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
 local_pdf: "[[PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
-national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "German"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa"
 significance: "Challenges Western-centric bioethics by establishing a relational, community-centered virtue framework as essential for equitable and culturally competent AI deployment in the Global South"
-abstract: "The integration of artificial intelligence (AI) in health research has grown rapidly, particularly in African nations. However, the ethical frameworks governing AI use in health research are often based on Western philosophies, focusing on individualism, and may not fully address the unique challenges and cultural contexts of African communities. This paper advocates for the incorporation of African philosophies, specifically Ubuntu, into AI health research ethics frameworks. The proposed framework highlights four key principles derived from Ubuntu: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making. These principles are aligned with global ethical standards such as justice, beneficence, transparency, and accountability but are adapted to reflect the communal and relational values inherent in Ubuntu."
+abstract: "Background Effective Public Financial Management (PFM) approaches are imperative in the quest for efficiency in health service delivery. Reviews conducted in this area have assessed the impact of PFM approaches on health system efficiency but have left out the mechanisms through which PFM influences efficiency. This scoping review aims to synthesize evidence on the mechanisms by which PFM influences health system efficiency."
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,18 +18,18 @@ pdf_extract: "PDF Extracts/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safe
 local_pdf: "[[PDFs/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "The rapid development of generative AI has brought value- and ethics-related risks to the forefront, making value safety a critical concern while a unified consensus remains lacking. In this work, we propose an internationally inclusive and resilient unified value framework, the GenAI Value Safety Scale (GVSScale): Grounded in a lifecycle-oriented perspective, we develop a taxonomy of GenAI value safety risks and construct the GenAI Value Safety Incident Repository (GVSIR), and further derive..."
 ethics_perspective: "AI Safety & Alignment"

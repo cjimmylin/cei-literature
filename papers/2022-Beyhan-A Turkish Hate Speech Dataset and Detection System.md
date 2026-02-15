@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
 publication: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md"
 local_pdf: "[[PDFs/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Turkish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: NA
 tags: 
-abstract: "Turkish hate speech dataset from two domains: Istanbul Convention withdrawal tweets and Refugees tweets. BERTurk-based detection system achieving 77% and 71% accuracy respectively."
+abstract: "Social media posts containing hate speech are reproduced and redistributed at an accelerated pace, reaching greater audiences at a higher speed. We present a machine learning system for automatic detection of hate speech in Turkish, along with a hate speech dataset consisting of tweets collected in two separate domains. We first adopted a definition for hate speech that is in line with our goals and amenable to easy annotation; then designed the annotation schema for annotating the collected..."
 ethics_perspective: "Toxicity & Hate Speech"
 authors_incomplete: false
 ---

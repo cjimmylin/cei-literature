@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,24 +13,24 @@ last_author: "[[Boyd-Graber, Jordan]]"
 authors: "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard, Louis-François]]; [[Si, Chenglei]]; [[Anati, Svetlina]]; [[Tagliabue, Valen]]; [[Kost, Anson]]; [[Carnahan, Christopher]]; [[Boyd-Graber, Jordan]]"
 url: "https://aclanthology.org/2023.emnlp-main.302/"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.302.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz"
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Schulhoff-HackAPrompt.md"
 local_pdf: [[PDFs/2023/2023-Schulhoff-HackAPrompt.pdf]]
-abstract: "Large Language Models (LLMs) are deployed in interactive contexts with direct user engage- ment, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking. T"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Large Language Models (LLMs) are deployed in interactive contexts with direct user engagement, such as chatbots and writing assistants. These deployments are vulnerable to prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of large-scale resources and quantitative studies on prompt hacking."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, ChatGPT, Flan-T5"
 DATA_URL: NA

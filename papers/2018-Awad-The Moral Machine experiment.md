@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ doi: 10.1038/s41586-018-0637-6
 url: "https://www.nature.com/articles/s41586-018-0637-6"
 external_pdf: "https://ore.exeter.ac.uk/repository/bitstream/10871/39187/4/Moral%20Machine.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: "American, Multicultural/Cross-cultural, Trolley / Dilemmas (Psych), Machine Ethics"
 key_contribution: "Deployed the Moral Machine experiment (40M decisions) to map global moral preferences for autonomous vehicles, identifying universal trends and cultural variations."
 significance: "The foundational large-scale study of machine ethics, revealing that ethical preferences are not universal but culturally clustered (Western vs. Eastern vs. Southern), complicating global alignment."
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
 ethics_perspective: "Machine Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://goo.gl/JXRrBP"

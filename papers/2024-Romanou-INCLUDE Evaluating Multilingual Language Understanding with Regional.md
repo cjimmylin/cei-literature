@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md"
 local_pdf: "[[PDFs/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French"
 languages_list: "44 languages including French, Albanian, Armenian, Georgian, Greek, Maltese, and 39 other languages"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4, Gemini, Claude, Llama, Mistral, and other multilingual LLMs"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,28 +15,29 @@ authors: "Iason Gabriel; Geoff Keeling"
 doi: 10.1007/s11098-025-02300-4
 url: "https://link.springer.com/article/10.1007/s11098-025-02300-4"
 publication: "Philosophical Studies"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.md"
-abstract: "The normative challenge of AI alignment centres upon what goals or values ought to be encoded in AI systems. This paper argues that intent alignment is incomplete and proposes a fairness-based framework for AI alignment that addresses trade-offs without relying on contested moral frameworks."
+abstract: "The normative challenge of AI alignment centres upon what goals or values ought to be encoded in AI systems to govern their behaviour. A number of answers have been proposed, including the notion that AI must be aligned with human intentions or that it should aim to be helpful, honest and harmless. Nonetheless, both accounts suffer from critical weaknesses. On the one hand, they are incomplete: neither specification provides adequate guidance to AI systems, deployed across various domains with..."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Alignment & Fairness"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: 
-data_metrics: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-4"
 DATA_URL: NA
+ethics_perspective: "AI Safety & Alignment"
 ---
 # AI Alignment as Fair Treatment of Claims
 

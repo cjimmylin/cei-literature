@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,29 +15,30 @@ doi: N/A
 url: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 publication: "CEUR Workshop Proceedings"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Machine Ethics, AI Alignment"
 key_contribution: "Argues AI is inherently utilitarian by design due to optimization objectives"
 significance: "Clarifies relationship between machine ethics and alignment approaches"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.md"
-abstract: "AI, in its current form, can be argued to be utilitarian (a form of consequentialism), by design. In supervised learning, an objective function is optimized to maximize accuracy or minimize error in predictions, while in reinforcement learning, a reward function is maximized. This paper examines the relationship between Machine Ethics and AI Alignment fields and their approaches to ethical AI...."
+abstract: "Machine ethics and AI alignment have become increasingly important research disciplines in the context of modern AI technologies. Recently, there has been ambiguity regarding the specific aspects of ethical AI development that pertain to the two academic disciplines, often resulting in the interchangeable use of these terminologies. In this position paper, we explore these two disciplines by discussing ongoing research and clarifying their goals."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+ethics_perspective: "Machine Ethics"
 ---
 # Machine Ethics or AI Alignment
 

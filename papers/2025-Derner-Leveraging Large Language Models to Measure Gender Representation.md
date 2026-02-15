@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to 
 local_pdf: "[[PDFs/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Spanish
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "French, Spanish"
 languages_list: "French, Spanish"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama 3, Llama 3.1, Llama 3.2, Qwen 2.5, gpt-4-turbo, GPT-4o, llama-3.3, llama3.1, llama3.2, Qwen, qwen-2.5, qwen2.5"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with
 local_pdf: "[[PDFs/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Bengali
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "2 token"
 LLM_assessed: "BERT, ChatGPT, GPT-4, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.2, t5 4"

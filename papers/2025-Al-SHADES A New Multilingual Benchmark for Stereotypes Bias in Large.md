@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md"
 local_pdf: "[[PDFs/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+national_ethnic_cultural: "N/A"
 languages_list: "English, Multilingual"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
-data_metrics: "Not specified"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for bias and fairness annotated dataset"
+data_metrics: "16 languages"
 LLM_assessed: "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm"
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new..."
 ethics_perspective: "Bias & Fairness"
 ---
 # SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large Language Models (2025) – AI Advisory Boards

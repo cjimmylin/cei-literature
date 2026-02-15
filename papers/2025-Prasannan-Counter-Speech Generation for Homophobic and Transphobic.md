@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2025/2025-Prasannan-Counter-Speech Generation for Hom
 local_pdf: "[[PDFs/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.pdf]]"
 publication: "WebSearch: Malayalam hate speech counter-speech"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Analysis of counter-speech generation for homophobic and transphobic content in Malayalam, covering both Malayalam script and Latin-script transliteration. Chatbot system achieved 0.99 stance accuracy and 0.03 toxicity score. Malayalam-specific values-relevant research on LGBTQIA+ hate speech. Addresses cultural-linguistic challenges in counter-speech for underrepresented Malayalam community."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-4, GPT-4o"
 DATA_URL: NA
-research_topic: Other
+research_topic: "Other"
 ---
 # Counter-Speech Generation for Homophobic and Transphobic Social Media Content in Malayalam
 

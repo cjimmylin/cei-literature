@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,25 +16,25 @@ tags:
 url: "http://arxiv.org/abs/2310.05818"
 external_pdf: "http://arxiv.org/pdf/2310.05818.pdf"
 publication: arXiv.org
-national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Benchmark (SuperCLUE-Safety) for Chinese LLMs, testing open-ended questions across 20 safety dimensions with adversarial interactions."
 significance: "A key benchmark for the Chinese AI ecosystem, showing that closed-source Chinese models often outperform open ones in safety, and providing a localized safety standard."
 pdf_extract: "PDF Extracts/2023/2023-Xu-SC-Safety.md"
-abstract: "Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkable abilities in natural language understanding and generation. However, alongside their posi- tive impact on our daily tasks, they can also produce harm- ful content that negatively affects societal perceptions. To systematically assess the safety of Chinese LLMs, we in- troduce SuperCLUE-Safety (SC-Safety), a multi-round ad- versarial benchmark with 4912 open-ended questions cover- ing more than 20 safety sub-dimens"
+abstract: "Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkable abilities in natural language understanding and generation. However, alongside their positive impact on our daily tasks, they can also produce harmful content that negatively affects societal perceptions. To systematically assess the safety of Chinese LLMs, we introduce SuperCLUE-Safety (SC-Safety), a multi-round adversarial benchmark with 4912 open-ended questions covering more than 20 safety sub-dimensions."
 paper_summary: "Abstract: Large language models (LLMs), like ChatGPT and GPT-4, have demonstrated remarkable abilities in natural language understanding and generation. However, alongside their posi- tive impact on our daily t | Overview: SC-Safety: A Multi-round Open-ended Question Adversarial Safety Benchmark for Large Language Models in Chinese Liang Xu, Kangkang Zhao, Lei Zhu, Hang Xue CLUE team clues@cluebenchmarks.com Abstract La | Methodology: Safety risks primarily arise from LLMs' open-ended gener- ative nature instead of close-ended recognition. Therefore, we design open-ended subjective  | Key Findings: We evaluated 13 major LLMs that support Chinese, includ- ing 7 commercial services, and 6 open-sourced models. In- formation on models is shown in Tab | Conclusions: The introduction of SuperCLUE-Safety(SC-Safety) pro- vides a comprehensive and challenging benchmark for eval- uating the safety of Chinese language m"
 local_pdf: [[PDFs/2023/2023-Xu-SC-Safety.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Alpaca, Vicuna, Qwen, Falcon"

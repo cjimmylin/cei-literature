@@ -2,6 +2,89 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 80 (Feb 15, 2026) - Post-Wave Gap Closure: Classification Fixes + Report Regeneration
+
+### Overview
+Executed the remediation plan to bring the vault's analytics infrastructure up to date with the full 2,008-paper scope. Fixed classification undercounting bugs, re-classified all papers, removed hardcoded assertions, updated report file paths, and generated fresh reports with 20260215 dates.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers re-classified | 2,008 (all, 0 errors) |
+| Classification fixes | 3 (languages_list param, Ubuntu Philosophy, expanded Indigenous) |
+| Japanese tag impact | 7 → 50 papers |
+| Ubuntu Philosophy (new) | 0 → 8 papers |
+| Indigenous Spirituality | 3 → 9 papers |
+| Korean tag count | 63 papers |
+| Scripts modified | 7 |
+| Reports generated | 6 (all with 20260215- dates) |
+| Hardcoded assertions removed | 3 (in generate_vault_overview_report.py) |
+| local_pdf fields fixed | 6 papers (missing field added) |
+| Validation | 2,008/2,008 pass, 0 errors |
+
+### Key Learnings
+- **Classification:** `languages_list` YAML field was the missing link — papers with generic English titles but correct language metadata were being missed by `classify_cultural()`
+- **YAML Regex:** `\s*` in `re.MULTILINE` mode crosses newlines — use `[^\S\n]*` for line-bounded whitespace matching
+- **Report Immutability:** New Essential Rule #3 — NEVER overwrite existing reports, always create new ones with new date prefixes
+
+### Files Changed
+- PYTHON/: 7 scripts modified (classify_cultural_religious.py, batch_abstract_and_classify.py, 5 report generators)
+- papers/: 2,008 re-classified (cultural/religious tags updated)
+- STATISTICS/: 6 new reports (20260215-*)
+- logs/: 2 baseline JSON copies (20260215-benchmark_survey_*.json)
+- CLAUDE.md: Updated stats + Essential Rule #3 (Report Immutability)
+
+### Pending (Future Sessions)
+- Phase 2: LLM Assessment enrichment (~732 papers still need assessment)
+- Phase 3: Benchmark deep-read for ~1,001 wave papers (20-agent swarm to update benchmark_survey JSON from 924→2,008 scope)
+- Phase 4D: Push updated dashboards to GitHub Pages
+
+## Session 79 (Feb 15, 2026) - Cultural Values Alignment Paper Search Import
+
+### Overview
+Continued the cultural values alignment literature search pipeline. 30 search agents (covering East Asian, South/SE Asian, Middle Eastern, African, Latin American, European, and cross-cultural sources) had completed their searches in the previous session. This session consolidated, deduplicated, imported, and ran the full enrichment pipeline (PDF download → extract → classify → validate) on all results.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Agent JSON files processed | 30 |
+| Raw papers found | 526 |
+| After internal dedup | 375 (58 merge groups) |
+| Already in vault | 212 |
+| Truly new | 163 |
+| Papers imported | 161 (2 skipped: 1 exists, 1 similar) |
+| PDFs downloaded (batch) | 112 |
+| PDFs downloaded (comprehensive) | 18 |
+| Total PDFs | 130/161 (80.7%) |
+| PDF extracts created | 130 |
+| Papers classified | 161/161 |
+| Ethics=Yes | 76 (47%) |
+| Ethics=No | 85 (53%) |
+| Vault total | 2,008 papers |
+| Validation | 2,008/2,008 PASS, 0 errors |
+
+### Key Learnings
+- [YAML] Bug in `import_culture_search_papers.py` line 325: `DATA_URL` field was hardcoded blank instead of using the f-string interpolation pattern used by `doi` and `url` fields. 209/526 papers had `data_url` values that would have been lost. Always verify interpolation of extracted variables in YAML template lines.
+- [Workflows] Batch download + comprehensive PDF finder two-pass pattern yields ~81% PDF acquisition (112 batch + 18 comprehensive = 130/161). The comprehensive finder's 13-strategy waterfall (Unpaywall, arXiv, Semantic Scholar, etc.) recovers ~15% more PDFs from non-arXiv sources.
+- [Classification] The `batch_abstract_and_classify.py` "SKIP (Human View)" log message was misleading — papers were actually processed and classified correctly. The display code likely used a stale `.pyc` cache from before the `[^\S\n]*` regex fix. Always verify on-disk state rather than trusting batch log output.
+
+### Bug Fixed
+- `PYTHON/import_culture_search_papers.py` line 325: Changed `DATA_URL: ` (static empty) to f-string interpolation with N/A guard
+
+### Scripts Created (previous session, used this session)
+- `PYTHON/consolidate_culture_search.py` — 3-layer dedup (DOI → arXiv → title overlap) + vault cross-reference
+- `PYTHON/import_culture_search_papers.py` — Paper file creation with CULT key series
+- `PYTHON/consolidate_culture_lists.py` — Culture list consolidation utility
+- `PYTHON/generate_culture_list_batches.py` — Batch generator for culture list enrichment
+
+### Files Changed
+- papers/: 161 new, ~1,847 modified (classification re-run)
+- PDF Extracts/: 130 new
+- PYTHON/: 1 bug fix (`import_culture_search_papers.py`)
+- logs/: 1 new master list, download/extract/classify logs
+
+---
+
 ## Session 78 (Feb 15, 2026) - Religious Tradition Reclassification & Gap Analysis
 
 ### Overview

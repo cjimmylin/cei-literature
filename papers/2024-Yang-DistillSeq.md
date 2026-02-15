@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,25 +16,25 @@ doi: 10.1145/3650212.3680304
 tags: 
 url: "http://arxiv.org/abs/2407.10106"
 external_pdf: "http://arxiv.org/pdf/2407.10106.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed DistillSeq, a cost-effective framework for safety alignment testing that uses knowledge distillation and automated red-teaming to generate effective test cases."
 significance: "Reduces the computational cost of red-teaming while significantly improving the detection of safety vulnerabilities (higher attack success rate discovery) compared to baseline methods."
 pdf_extract: "PDF Extracts/2024/2024-Yang-DistillSeq.md"
-abstract: "Large Language Models (LLMs) have showcased their remarkable capabilities in diverse domains, encompassing natural language un- derstanding, translation, and even code generation. The potential for LLMs to generate harmful content is a significant concern. This risk necessitates rigorous testing and comprehensive evaluation of LLMs to ensure safe and responsible use. However, extensive testing of LLMs requires substantial computational resources, making it an expensive endeavor. Therefore, explo"
+abstract: "Large Language Models (LLMs) have showcased their remarkable capabilities in diverse domains, encompassing natural language understanding, translation, and even code generation. The potential for LLMs to generate harmful content is a significant concern. This risk necessitates rigorous testing and comprehensive evaluation of LLMs to ensure safe and responsible use. However, extensive testing of LLMs requires substantial computational resources, making it an expensive endeavor."
 paper_summary: "Abstract: Large Language Models (LLMs) have showcased their remarkable capabilities in diverse domains, encompassing natural language un- derstanding, translation, and even code generation. The potential for LL | Overview: DistillSeq: A Framework for Safety Alignment Testing in Large Language Models using Knowledge Distillation Mingke Yang ShanghaiTech University Shanghai, China yangmk@shanghaitech.edu.cn Yuqi Chen∗ Sha | Methodology: This section initiates with an explanation of the problem and sub- sequently elaborates on the two stages in our proposed framework, DistillSeq. The p | Key Findings: In this section, we present our evaluation of DistillSeq. The im- plementation details of DistillSeq are available on our project website 2. To assess | Conclusions: In this paper, we introduce a novel framework named DistillSeq, designed to minimize the cost of testing LLMs. Our approach com- bines knowledge disti"
 local_pdf: [[PDFs/2024/2024-Yang-DistillSeq.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Vicuna, Llama"

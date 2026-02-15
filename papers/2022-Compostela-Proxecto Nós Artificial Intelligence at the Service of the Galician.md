@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ publication: "ACL Anthology (TDLE 2022)"
 pdf_extract: "PDF Extracts/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.md"
 local_pdf: "[[PDFs/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Galician
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: "Not specified"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "1 language"
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Major initiative providing Galician NLP resources: TTS, ASR, text generation, machine translation, information extraction, opinion mining, fact checking. Includes Corpusnós for training LLMs."
-research_topic: Other
+abstract: "Proxecto Nós is an initiative aimed at providing the Galician language with openly licensed resources, tools, and demonstrators in the area of intelligent technologies. The Project has two main scientific and technological objectives: (i) to integrate the Galician language into cuttingedge AI and language technologies, thus enabling the natural use of Galician in human-machine interactions; and (ii) to improve the state of the art of language technologies for Galician."
+research_topic: "Other"
 ---
 # Proxecto Nós: Artificial Intelligence at the Service of the Galician Language
 

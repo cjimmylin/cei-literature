@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Amit Moryossef; Roee Aharoni; Yoav Goldberg"
 doi: 10.18653/v1/W19-3807
 url: "https://www.aclweb.org/anthology/W19-3807"
 external_pdf: "https://arxiv.org/pdf/1903.03467v1.pdf"
-national_ethnic_cultural: Hebrew/Israeli
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Hebrew/Israeli"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Hebrew/Israeli
 tags: 
-abstract: "When translating from a language that does not morphologically mark information such as gender and number into a language that does, translation systems must 'guess' this missing information, often leading to incorrect translations in the given context. We propose a black-box approach for injecting the missing information to a pre-trained neural machine translation system, allowing to control the morphological variations in the generated translations without changing the underlying model or trai"
+abstract: "When translating from a language that does not morphologically mark information such as gender and number into a language that does, translation systems must “guess” this missing information, often leading to incorrect translations in the given context. We propose a black-box approach for injecting the missing information to a pre-trained neural machine translation system, allowing to control the morphological variations in the generated translations without changing the underlying model or..."
 pdf_extract: "PDF Extracts/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md"
 local_pdf: "[[PDFs/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA

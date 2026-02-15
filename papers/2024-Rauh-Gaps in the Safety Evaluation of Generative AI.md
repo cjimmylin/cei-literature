@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,22 +19,22 @@ pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Gener
 local_pdf: "[[PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Jainism
-religious_values_list: Jainism
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "Generative AI systems produce a range of ethical and social risks. Evaluation of these risks is a critical step on the path to ensuring the safety of these systems. However, evaluation requires the availability of validated and established measurement approaches and tools. In this paper, we provide an empirical review of the methods and tools that are available for evaluating known safety of generative AI systems to date."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Evaluation approach"
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "BLOOM, ChatGPT, Claude, GPT-3, GPT-4, Vicuna"
 DATA_URL: "https://dpmd.ai/EvalsRepo"
@@ -62,7 +63,7 @@ DATA_URL: "https://dpmd.ai/EvalsRepo"
 
 ## Abstract
 
-*(To be fetched)*
+Generative AI systems produce a range of ethical and social risks. Evaluation of these risks is a critical step on the path to ensuring the safety of these systems. However, evaluation requires the availability of validated and established measurement approaches and tools. In this paper, we provide an empirical review of the methods and tools that are available for evaluating known safety of generative AI systems to date. To this end, we review more than 200 safetyrelated evaluations that have been applied to generative AI systems. We categorise each evaluation along multiple axes to create a detailed snapshot of the safety evaluation landscape to date. We release this data for researchers and AI safety practitioners (https://dpmd.ai/EvalsRepo). Analysing the current safety evaluation landscape reveals three systemic “evaluation gaps”. First, a “modality gap” emerges as few safety evaluations exist for non-text modalities. Second, a “risk coverage gap” arises as evaluations for several ethical and social risks are simply lacking. Third, a “context gap” arises as most safety evaluations are model-centric and fail to take into account the broader context in which AI systems operate. Devising next steps for safety practitioners based on these findings, we present tactical “low-hanging fruit” steps towards closing the identified evaluation gaps and their limitations. We close by discussing the role and limitations of safety evaluation to ensure the safety of generative AI systems.
 
 ## Dataset Information
 

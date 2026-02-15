@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,25 +15,25 @@ doi: 10.48550/arXiv.2505.21479
 url: "https://arxiv.org/abs/2505.21479"
 external_pdf: "https://arxiv.org/pdf/2505.21479.pdf"
 publication: "EMNLP 2025"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: Yes
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Consequentialism, Moral-Reasoning, LLM-Evaluation, Trolley-Problem"
 key_contribution: "Introduces taxonomy of moral rationales; finds LLM chains-of-thought favor deontological principles while post-hoc explanations shift to consequentialism"
 significance: "Reveals systematic differences in how LLMs reason vs explain moral decisions, important for interpretability"
 tags: 
-abstract: "The researchers investigate how large language models approach ethical decision-making by analyzing over 600 distinct trolley problems. Their framework classifies reasoning according to consequentialist versus deontological ethical theories. Key finding: LLM chains-of-thought tend to favor deontological principles based on moral obligations, while post-hoc explanations shift notably toward consequentialist rationales that emphasize utility. The work aims to advance safe deployment of language models in high-stakes contexts."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
+abstract: "As AI systems increasingly navigate applications in healthcare, law, and governance, understanding how they handle ethically complex scenarios becomes critical. Previous work has mainly examined the moral judgments in large language models (LLMs), rather than their underlying moral reasoning process. In contrast, we focus on a large-scale analysis of the moral reasoning traces provided by LLMs. Furthermore, unlike prior work that attempted to draw inferences from only a handful of moral..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
 research_topic: "LLM Moral Reasoning"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "600+ trolley problem scenarios with moral reasoning analysis"
-data_metrics: "Moral reasoning classification"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-3, Llama, Gemma, Qwen, Mistral, DeepSeek, Phi"
 DATA_URL: "https://github.com/keenansamway/moral-lens"
 pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ last_author: "[[Future of Life]]"
 authors: "Institute; Future of Life"
 url: "https://futureoflife.org/ai-safety-index-summer-2025/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NQNT4L9B/AI-Safety-Index-Summer-2025-2-page-v4.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "A report tracking the state of AI safety metrics and policy developments."
 significance: "High-level tracking of industry and policy progress in AI safety."
 tags: 
 abstract: "The AI Safety Index provides an independent assessment of leading AI companies' efforts to manage both immediate harms and catastrophic risks from advanced AI systems. Conducted with an expert review panel of distinguished AI researchers and governance specialists, this evaluation reveals an industry struggling to keep pace with its own rapid capability advances with critical gaps in risk management and safety planning. The index evaluates companies on indicators of responsible AI development and deployment practices spanning six critical domains."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek"
 DATA_URL: NA

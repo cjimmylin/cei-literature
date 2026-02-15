@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,24 +17,24 @@ url: "https://journals.sagepub.com/doi/10.1177/01461672221103058"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsch - 2023 - Deontology and Utilitarianism in Real Life A Set of Moral Dilemmas Based on Historic Events.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Körner-Deontology and Utilitarianism in Real Life.md"
 local_pdf: "[[PDFs/2023/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
-national_ethnic_cultural: American
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces a set of moral dilemmas based on real-life historic events to test deontology vs utilitarianism in a realistic setting"
 significance: "Shows that 'factual' dilemmas are perceived as more realistic/less absurd than standard trolley problems, improving validity of moral cognition research"
 tags: 
-abstract: "Moral dilemmas are frequently used to examine psychological processes that drive decisions between adhering to deontological norms and optimizing the outcome. However, commonly used dilemmas are generally unrealistic and confound moral principle and (in)action so that results obtained with these dilemmas might not generalize to other situations. In the present research, we introduce new dilemmas that are based on real-life events. In two studies (a European student sample and a North American MT"
+abstract: "Moral dilemmas are frequently used to examine psychological processes that drive decisions between adhering to deontological norms and optimizing the outcome. However, commonly used dilemmas are generally unrealistic and confound moral principle and (in)action so that results obtained with these dilemmas might not generalize to other situations. In the present research, we introduce new dilemmas that are based on real-life events."
 pdf: "https://doi.org/10.1177/01461672221103058"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Bartels"
 DATA_URL: "https://osf.io/cg5tq"

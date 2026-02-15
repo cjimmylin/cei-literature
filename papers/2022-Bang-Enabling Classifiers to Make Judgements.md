@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ doi: 10.48550/arXiv.2210.07652
 url: "http://arxiv.org/abs/2210.07652"
 external_pdf: "http://arxiv.org/pdf/2210.07652.pdf"
 publication: TRUSTNLP
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a framework for value-aligned classification that uses explicitly written human values in prompts to guide model predictions, rather than relying on implicit training data."
 significance: "Demonstrates that explicitly instructing models with human values improves inclusivity and explainability in sensitive tasks like toxicity detection, surpassing baselines that rely solely on fine-tuning."
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Bang-Enabling Classifiers to Make Judgements.md"
-abstract: "Many NLP classiﬁcation tasks, such as sex- ism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. There- fore, we introduce a framework for value- aligned classiﬁcation that performs prediction based on explicitly written human values in the command. Along with the task, we propose a practical approach that distills value-aligned knowledge from large-scale language models (LLMs) to construct value-aligned classiﬁers in"
+abstract: "Many NLP classiﬁcation tasks, such as sexism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. Therefore, we introduce a framework for valuealigned classiﬁcation that performs prediction based on explicitly written human values in the command. Along with the task, we propose a practical approach that distills value-aligned knowledge from large-scale language models (LLMs) to construct value-aligned classiﬁers in two..."
 paper_summary: "Abstract: Many NLP classiﬁcation tasks, such as sex- ism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. There- fore, we introduc | Overview: Enabling Classiﬁers to Make Judgements Explicitly Aligned with Human Values Yejin Bang1∗Tiezheng Yu1∗ Andrea Madotto2 Zhaojiang Lin2 Mona Diab2 Pascale Fung1† 1The Hong Kong University of Science and  | Methodology: avoids costly human labeling or crowd sourcing of values, allowing easier extensions to other value- aligned tasks in different domains. We further in | Key Findings: LLMs are powerful few-shot learners, yet they are not perfect. Thus, we conduct human evaluation on two categories' data (Inter- nalized sexism and Pa"
 local_pdf: "[[PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "OPT, ALBERT, RoBERTa, BART"

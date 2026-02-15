@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,26 +17,26 @@ publication: "ACL Anthology (LREC 2022)"
 pdf_extract: "PDF Extracts/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md"
 local_pdf: "[[PDFs/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Basque
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERTeus, mBERT, mT5, XLM-RoBERTa"
 DATA_URL: "https://github.com/orai-nlp/BasqueGLUE"
 tags: 
-abstract: 
-research_topic: "Machine Learning"
+abstract: "Language models depend on massive text corpora that are often filtered for quality, a process that can unintentionally exclude non-standard linguistic varieties, reduce model robustness and reinforce representational biases. In this paper, we argue that language models should aim to capture the full spectrum of language variation (dialectal, historical, informal, etc.) rather than relying solely on standardized text."
+research_topic: "AI Safety & Alignment"
 ---
 # BasqueGLUE: A Natural Language Understanding Benchmark for Basque
 

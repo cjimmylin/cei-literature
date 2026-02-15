@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract: "PDF Extracts/2022/2022-Varshney-Debiased Large Language Models Sti
 local_pdf: "[[PDFs/2022/2022-Varshney-Debiased Large Language Models Still Associate.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Islam
-religious_values_list: Islam
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam"
+religious_values_list: "Islam"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Recent work demonstrates a bias in the GPT-3 model towards generating violent text completions when prompted about Muslims, compared with Christians and Hindus. Two pre-registered replication attempts, one exact and one approximate, found only the weakest bias in the more recent Instruct Series version of GPT-3, fine-tuned to eliminate biased and toxic outputs. Few violent completions were observed."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3"
 DATA_URL: "https://osf.io/u8xtv"

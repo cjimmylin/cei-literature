@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ doi: 10.48550/arXiv.2508.00238
 url: "http://arxiv.org/abs/2508.00238"
 external_pdf: "http://arxiv.org/pdf/2508.00238.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "General Ethics"
 key_contribution: "Analyzed 22 million words from podcasts, finding a significant post-2022 shift in human spoken language that correlates with LLM lexical patterns."
 significance: "Provides early evidence of 'model-to-human' alignment, where AI usage begins to alter human language and potentially the concepts we use to think."
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Anderson-Model Misalignment and Language Change.md"
-abstract: "In recent years, written language, particularly in science and education, has undergone remarkable shifts in word usage. These changes are widely attributed to the growing influence of Large Language Models (LLMs), which frequently rely on a distinct lexical style. Divergences between model output and target audience norms can be viewed as a form of mis- alignment. While these shifts are often linked to using Arti- ficial Intelligence (AI) directly as a tool to generate text, it remains unclear"
+abstract: "In recent years, written language, particularly in science and education, has undergone remarkable shifts in word usage. These changes are widely attributed to the growing influence of Large Language Models (LLMs), which frequently rely on a distinct lexical style. Divergences between model output and target audience norms can be viewed as a form of misalignment. While these shifts are often linked to using Artificial Intelligence (AI) directly as a tool to generate text, it remains unclear..."
 paper_summary: "Abstract: In recent years, written language, particularly in science and education, has undergone remarkable shifts in word usage. These changes are widely attributed to the growing influence of Large Language  | Overview: Model Misalignment and Language Change: Traces of AI-Associated Language in Unscripted Spoken English Bryce Anderson*, Riley Galpin, Tom S. Juzek* Florida State University Abstract In recent years, wr | Key Findings: of LMs. arXiv preprint arXiv:2502.13195. Welbl, J.; Glaese, A.; Uesato, J.; Dathathri, S.; Mellor, J.; Hendricks, L. A.; Anderson, K.; Kohli, P.; Copp | Conclusions: General discussion Overall, we observe a significant positive tendency, which stands in contrast to the baseline words, for which changes are roughly"
 local_pdf: "[[PDFs/2025/2025-Anderson-Model Misalignment and Language Change.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"

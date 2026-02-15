@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,24 +17,24 @@ pdf_extract: "PDF Extracts/2024/2024-Yu-CMoralEval.md"
 local_pdf: [[PDFs/2024/2024-Yu-CMoralEval.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, American"
-religious_values: Confucianism
-religious_values_list: Confucianism
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Chinese, American, Deontology"
 key_contribution: "Creates a moral evaluation benchmark (CMoralEval) for Chinese LLMs based on explicit moral norms and anomies"
 significance: "Addresses the lack of culturally specific moral benchmarks, revealing Chinese LLMs' limitations in handling local ethical contexts"
 tags: 
-abstract: "What a large language model (LLM) would re- spond in ethically relevant context? In this pa- per, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CMoralEval are two-fold: 1) a Chinese TV program discussing Chinese moral norms with stories from the society and 2) a col- lection of Chinese moral anomies from various newspapers and academic papers on morality. With these sources, we aim to create a moral evaluation dataset characterized by diversi"
+abstract: "What a large language model (LLM) would respond in ethically relevant context? In this paper, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CMoralEval are two-fold: 1) a Chinese TV program discussing Chinese moral norms with stories from the society and 2) a collection of Chinese moral anomies from various newspapers and academic papers on morality."
 paper_summary: "Abstract: What a large language model (LLM) would re- spond in ethically relevant context? In this pa- per, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CM | Overview: Findings of the Association for Computational Linguistics: ACL 2024, pages 11817–11837 August 11-16, 2024 ©2024 Association for Computational Linguistics CMoralEval: A Moral Evaluation Benchmark for C | Conclusions: In this paper, we have presented CMoralEval, a dataset comprising over 30,000 entries that span five moral categories, two types of scenarios and two"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark for moral/ethical reasoning text corpus for toxicity detection"
-data_metrics: "Not specified"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "14,964 instances; 15,424 instances"
 LLM_assessed: "ChatGPT, Llama-2, Qwen, Alpaca"
 DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,24 +18,24 @@ pdf_extract: "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Value
 local_pdf: "[[PDFs/2025/2025-Sorensen-Operationalizing Pluralistic Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
-ethics_perspective: "Value Pluralism"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Value Pluralism / Schwartz"
+ethics_perspective: "AI Safety & Alignment"
+national_ethnic_cultural: "German, American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, Value Pluralism, AI Alignment, Safety Trade-offs"
 key_contribution: "Reveals trade-offs between safety, inclusivity, and model behavior when aligning LLMs with pluralistic values"
 significance: "Demonstrates that single alignment objective cannot represent everyone; highlights whose voices shape AI safety"
-abstract: "As LLMs are deployed across real-world applications, aligning them with human values has become a core technical and ethical challenge. Yet human values are not monolithic; they reflect diverse and often conflicting beliefs. It is no longer realistic to assume that a single alignment objective can represent everyone, particularly given concerns about whose voices shape AI safety research. This paper operationalizes pluralistic values in LLM alignment and reveals trade-offs in safety, inclusivity, and model behavior. The research examines how different value frameworks (including deontological and consequentialist approaches) interact when implemented in alignment systems."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Pluralistic alignment evaluation"
-data_metrics: "Safety-inclusivity trade-off metrics"
+abstract: "Although large language models (LLMs) are increasingly trained using human feedback for safety and alignment with human values, alignment decisions often overlook human social diversity. This study examines how incorporating pluralistic values affects LLM behavior by systematically evaluating demographic variation and design parameters in the alignment pipeline. We collect alignment data from US and German participants (N = 1,095 participants, 27,375 ratings) who rated LLM responses across five..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
 LLM_assessed: Vicuna
 DATA_URL: "https://github.com/DALIAALISIDDIG/AlignCure"
 normative_ethics_benchmark: Borderline

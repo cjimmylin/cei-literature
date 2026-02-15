@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.48550/arXiv.1811.05594
 url: "http://arxiv.org/abs/1811.05594"
 external_pdf: "http://arxiv.org/pdf/1811.05594.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Machine Ethics"
 key_contribution: "Developed TrolleyMod v1.0, an open-source platform based on the CARLA simulator for collecting data on human ethical decision-making in driving scenarios (trolley problems)."
 significance: "Enables the collection of high-fidelity behavioral data to train value-aligned autonomous vehicles that reflect actual human moral intuitions in dynamic, physical environments."
@@ -25,16 +26,16 @@ tags:
 pdf_extract: "PDF Extracts/2018/2018-Behzadan-TrolleyMod v1.0.md"
 local_pdf: "[[PDFs/2018/2018-Behzadan-TrolleyMod v1.0.pdf]]"
 paper_summary: "Overview: arXiv:1811.05594v1 [cs.AI] 14 Nov 2018 TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles Vahid Behzadan1, James Minton1, and Ar"
-abstract: "This paper presents TrolleyMod v1.0, an open-source platform based on the CARLA simulator for the collection of ethical decision-making data for autonomous vehicles. This platform is designed to facilitate experiments aiming to observe and record human decisions and actions in high-ﬁdelity simulations of ethical dilemmas that occur in the context of driving. Targeting experiments in the class of trolley problems, TrolleyMod provides a seamless approach to creating new experimental settings and e"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "This paper presents TrolleyMod v1.0, an open-source platform based on the CARLA simulator for the collection of ethical decision-making data for autonomous vehicles. This platform is designed to facilitate experiments aiming to observe and record human decisions and actions in high-ﬁdelity simulations of ethical dilemmas that occur in the context of driving. Targeting experiments in the class of trolley problems, TrolleyMod provides a seamless approach to creating new experimental settings and..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/zminton/TrolleyMod/wiki"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,22 +13,22 @@ last_author: "[[Shivam Aditya]]"
 authors: "[[Aditya, Shivam]]"
 doi: 10.5281/zenodo.XXXXX
 url: "https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-human-values-and"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Virtue Ethics, Utilitarianism"
 key_contribution: "Advocates for Virtue Ethics as a complement to deontological and utilitarian frameworks for AI alignment to address global governance challenges"
 significance: "Addresses the gap in global ethical frameworks by emphasizing human welfare and flourishing through character-based AI alignment"
-abstract: "This article addresses the challenge of establishing ethical governance for AI across social, economic, and political domains. It highlights virtue ethics as a critical theoretical framework for aligning artificial intelligence with human values and progress. The paper explores the multifaceted nature of AI alignment, including the technical challenges of reward modeling and the sociocultural dimensions of value pluralism. It advocates for embedding human-aligned virtues into AI systems to ensure they contribute to human welfare and flourishing in an increasingly automated world."
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "This article examines the critical challenge of establishing ethical governance frameworks for artificial intelligence systems as they increasingly influence decision-making across social, economic, and political domains. The article analyzes the multidimensional nature of AI alignment, exploring both technical dimensions—including explainability challenges, value alignment algorithms, and safety mechanisms—and sociocultural dimensions encompassing cultural variations in ethical priorities and..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

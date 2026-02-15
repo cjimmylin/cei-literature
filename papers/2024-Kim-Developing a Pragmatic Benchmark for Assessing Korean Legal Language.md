@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2024/2024-Kim-Developing a Pragmatic Benchmark for As
 local_pdf: "[[PDFs/2024/2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language.pdf]]"
 publication: "arXiv / EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, American"
 languages_list: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "510 examples; 288 examples; 2,510 examples"
 LLM_assessed: "ALBERT, BERT, Bloom, Claude, Claude-3, Claude-3-opus, Claude-3-sonnet, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama, Llama-3, Llama3, Mistral, Qwen-72b, Qwen2, mistral-7b"

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,26 +21,26 @@ publication: "Journal of the Brazilian Computer Society 2025"
 pdf_extract: "PDF Extracts/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md"
 local_pdf: "[[PDFs/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Brazilian
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Brazilian"
 languages_list: Portuguese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "BART, BERT, Flan-T5-based, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, GPT2, GPT4o, GPT4o-mini, Gemma, Gemma-2, Llama, Llama 3, Llama-2, Llama-3, Qwen, Qwen-2.5, Qwen1.5, T5, T5-based, opt125M_portuguese"
 DATA_URL: "https://github.com/MeLLL-UFF/brfauna-gen-eval"
 tags: 
-abstract: "Comprehensive evaluation of Brazilian Portuguese LLMs (Sabiá-3, Tucano, Bode, Cabra, Periquito, Boto) across summarization, simplification, and generative QA tasks vs GPT-4o."
-research_topic: Other
+abstract: "Large Language Models (LLMs) are now embedded in widely used applications worldwide, yet their evaluation still centers on narrow, discriminative benchmarks. These pipelines often overlook key generative aspects such as discourse coherence, linguistic transformations, and adequacy, which are crucial for real-world applications. In addition, most large-scale evaluations remain heavily biased toward English, limiting our understanding of LLM performance in other languages."
+research_topic: "Question Answering"
 ---
 # Exploring Brazil's LLM Fauna: Investigating the Generative Performance of Large Language Models in Portuguese
 

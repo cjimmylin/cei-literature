@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,22 +13,22 @@ last_author: "[[Yongbin Li]]"
 authors: "Jinyang Li; Binyuan Hui; Ge Qu; Jiaxi Yang; Binhua Li; Bowen Li; Bailin Wang; Bowen Qin; Ruiying Geng; Nan Huo; Xuanhe Zhou; Chenhao Ma; Guoliang Li; Kevin Chen-Chuan Chang; Fei Huang; Reynold Cheng; Yongbin Li"
 url: "https://bird-bench.github.io/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TFIDUKB8/Li and others - 2023 - BIRD BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 research_topic: Other
-abstract: "Text-to-SQL parsing, which aims at converting natural language instructions into executable SQLs, has gained increasing attention in recent years. In particular, Codex and ChatGPT have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database contents leaving the gap between academic study and real-world applications. To mitigate this gap, we present BIRD, a BIg benchmark for laRge-scale Database grounded in text-to-SQL tasks, containing 12,751 pairs of text-to-SQL data and 95 databases with a total size of 33.4 GB, spanning 37 professional domains. The emphasis on database values highlights new challenges including dirty database contents, external knowledge between NL questions and database contents, and SQL efficiency."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "General Ethics"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+abstract: "Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database values leaving the gap between academic study and real-world applications."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Hallucination & Truthfulness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"

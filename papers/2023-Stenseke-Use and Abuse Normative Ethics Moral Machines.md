@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.3233/FAIA220614
 url: "https://ebooks.iospress.nl/doi/10.3233/FAIA220614"
 external_pdf: N/A
 publication: "Social Robots in Social Institutions (IOS Press)"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, Deontology, Machine Ethics, Normative Ethics"
 key_contribution: "Critiques applying normative frameworks directly to machines"
 significance: "Argues machines lack resources to justify normative theory use"
@@ -26,17 +27,18 @@ pdf_extract:
 abstract: "The paper asks how we develop AI systems that adhere to human norms and values, and whether it's promising to develop systems based on normative frameworks such as consequentialism, deontology, or virtue ethics. While many machine ethics researchers answer yes, the author challenges this methodological strategy by exploring the difference between normative ethics in human practices versus machines...."
 paper_summary: 
 local_pdf: N/A
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+ethics_perspective: "General Ethics"
 ---
 # Use and Abuse Normative Ethics Moral Machines
 

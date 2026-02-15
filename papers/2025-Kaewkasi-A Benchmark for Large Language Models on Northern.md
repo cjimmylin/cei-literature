@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,25 +13,25 @@ last_author: "[[Potsawee Manakul]]"
 authors: "Peerat Limkonchotiwat; Kanruethai Masuk; Surapon Nonesung; Chalermpun Mai-On; Sarana Nutanong; Wuttikorn Ponwitayarat; Potsawee Manakul"
 url: "https://arxiv.org/abs/2504.05898"
 external_pdf: "https://arxiv.org/pdf/2504.05898.pdf"
-national_ethnic_cultural: Thai
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Thai"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Thai
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md"
-abstract: "Large language models show promising results in various NLP tasks. Despite these successes, the robustness and consistency of LLMs in un- derrepresented languages remain largely unex- plored, especially concerning local dialects. Ex- isting benchmarks also focus on main dialects, neglecting LLMs' ability on local dialect texts. In this paper, we introduce a Thai local dialect benchmark covering Northern (Lanna), North- eastern (Isan), and Southern (Dambro) Thai, evaluating LLMs on five NLP tasks"
+abstract: "Large language models show promising results in various NLP tasks. Despite these successes, the robustness and consistency of LLMs in underrepresented languages remain largely unexplored, especially concerning local dialects. Existing benchmarks also focus on main dialects, neglecting LLMs’ ability on local dialect texts. In this paper, we introduce a Thai local dialect benchmark covering Northern (Lanna), Northeastern (Isan), and Southern (Dambro) Thai, evaluating LLMs on five NLP tasks:..."
 paper_summary: "Abstract: Large language models show promising results in various NLP tasks. Despite these successes, the robustness and consistency of LLMs in un- derrepresented languages remain largely unex- plored, especial | Overview: Assessing Thai Dialect Performance in LLMs with Automatic Benchmarks and Human Evaluation Peerat Limkonchotiwat1,4,*, Kanruethai Masuk,2,*, Surapon Nonesung3,*, Chalermpun Mai-On2,*, Sarana Nutanong2, | Key Findings: Peerat Limkonchotiwat1,4,*, Kanruethai Masuk,2,*, Surapon Nonesung3,*, Chalermpun Mai-On2,*, Sarana Nutanong2, Wuttikorn Ponwitayarat2,*, Potsawee Man | Conclusions: Our study highlights the significant performance gap in LLMs when processing Thai local dialects. While proprietary models like GPT-4 and Gemini demon"
 local_pdf: "[[PDFs/2025/2025-Kaewkasi-A Benchmark for Large Language Models on Northern.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, GPT-4, Gemini"
 DATA_URL: "https://github.com/mrpeerat/Thai_local_benchmark"

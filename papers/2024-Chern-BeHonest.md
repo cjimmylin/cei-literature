@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,28 +13,28 @@ last_author: "[[Pengfei Liu]]"
 authors: "Steffi Chern; Zhulin Hu; Yuqing Yang; Ethan Chern; Yuan Guo; Jiahe Jin; Binjie Wang; Pengfei Liu"
 url: "https://arxiv.org/abs/2406.13261"
 external_pdf: "https://arxiv.org/pdf/2406.13261.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced BeHonest, a benchmark for honesty covering 3 aspects: knowledge boundaries (refusal), deceit avoidance, and consistency."
 significance: "Defines 'honesty' operationally for LLMs beyond just 'factuality', including the crucial ability to say 'I don't know' and resisting pressure to lie."
 tags: 
 osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2024/2024-Chern-BeHonest.md"
-abstract: "Previous works on Large Language Models (LLMs) have mainly focused on evaluating their helpfulness or harmlessness. However, honesty, another crucial alignment criterion, has received relatively less attention. Dishonest behaviors in LLMs, such as spreading misinformation and defrauding users, present severe risks that intensify as these models approach superintelligent levels. Enhancing honesty in LLMs addresses critical limitations and helps uncover latent capabilities that are not readily exp"
+abstract: "Previous works on Large Language Models (LLMs) have mainly focused on evaluating their helpfulness or harmlessness. However, honesty, another crucial alignment criterion, has received relatively less attention. Dishonest behaviors in LLMs, such as spreading misinformation and defrauding users, present severe risks that intensify as these models approach superintelligent levels. Enhancing honesty in LLMs addresses critical limitations and helps uncover latent capabilities that are not readily..."
 paper_summary: "Abstract: Previous works on Large Language Models (LLMs) have mainly focused on evaluating their helpfulness or harmlessness. However, honesty, another crucial alignment criterion, has received relatively less  | Overview: BEHONEST: Benchmarking Honesty in Large Language Models Steffi Chern2,5∗ Zhulin Hu1,5∗ Yuqing Yang3,5∗ Ethan Chern1,5† Yuan Guo1,5† Jiahe Jin1,5 Binjie Wang3,5 Pengfei Liu1,4,5‡ 1Shanghai Jiao Tong Un | Key Findings: details. To gain a global understanding of the progress made by current LLMs regarding honesty, we evaluate several popular models. These include the  | Conclusions: In this paper, we introduce BEHONEST, the first comprehensive benchmark for as- sessing honesty in LLMs. Our goal is to raise awareness about the capa"
 local_pdf: [[PDFs/2024/2024-Chern-BeHonest.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "10 scenarios"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/GAIR-NLP/BeHonest"

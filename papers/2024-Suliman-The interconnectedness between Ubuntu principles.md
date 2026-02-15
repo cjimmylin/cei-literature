@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ authors: "Zuleika Suliman; Ntshimane Elphas Mohale; Kgabo Bridget Maphoto; Kersh
 doi: 10.1007/s44217-024-00289-2
 url: "https://link.springer.com/10.1007/s44217-024-00289-2"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/L3SX86XW/Suliman et al. - 2024 - The interconnectedness between Ubuntu principles and generative artificial intelligence in distance.pdf"
-national_ethnic_cultural: African/Ubuntu
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "African/Ubuntu"
+religious_values: "Ubuntu Philosophy"
+religious_values_list: "Ubuntu Philosophy"
+moral_psychology: "N/A"
 newtags: "African/Ubuntu, Utilitarianism"
 key_contribution: "Explores the fusion of Ubuntu principles with Generative AI in distance higher education to foster inclusivity and decolonize curriculum"
 significance: "Advocates for using AI not just as a tool but as a medium to restore self-determination and community well-being (Ubuntu) in educational systems"
 tags: 
-abstract: "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders. Generative artificial intelligence promotes epistemological access for"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: NA

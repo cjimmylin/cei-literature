@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ publication: "ACL Anthology / EMNLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.md"
 local_pdf: "[[PDFs/2025/2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Polish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3., Llama-Guard, Llama3.1, Mistral12b, Mixtral, Mixtral 8x7B, gpt-4o-mini"
 DATA_URL: "https://huggingface.co/datasets/argilla"
 tags: 
-abstract: "First Polish preference dataset for LLM alignment, created entirely through human annotation to reflect Polish language and cultural nuances. Includes response rating, ranking, and multi-turn dialog data."
+abstract: "Alignment is the critical process of minimizing harmful outputs by teaching large language models (LLMs) to prefer safe, helpful and appropriate responses. While the majority of alignment research and datasets remain overwhelmingly English-centric, ensuring safety across diverse linguistic and cultural contexts requires localized resources. In this paper, we introduce the first Polish preference dataset PLLuM-Align, created entirely through human annotation to reflect Polish language and..."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment

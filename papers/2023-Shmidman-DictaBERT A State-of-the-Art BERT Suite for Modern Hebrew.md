@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,20 +18,20 @@ pdf_extract: "PDF Extracts/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT 
 local_pdf: "[[PDFs/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Hebrew/Israeli
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Hebrew/Israeli"
 languages_list: Hebrew
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT"
 DATA_URL: "https://github.com/IAHLT/iahlt.github"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,21 +19,21 @@ pdf_extract: "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-Eng
 local_pdf: "[[PDFs/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.pdf]]"
 publication: "WebSearch: Somali NLP benchmark dataset evaluation hate speech"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "Jainism"
+religious_values_list: "Jainism"
+moral_psychology: "Cognitive Developmental"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: "Benchmark dataset of 3,012 Somali-English code-switched texts containing explicit hate speech. Finds LLMs perform well on English segments but struggle with Somali, especially when English portion has positive sentiment. First hate speech detection study focused on Somali language. Directly relevant to toxicity evaluation in Somali. Reveals LLM limitations in Somali hate speech detection."
-data_description: N/A
+abstract: "Social media has become a bedrock for people to voice their opinions worldwide. Due to the greater sense of freedom with the anonymity feature, it is possible to disregard social etiquette online and attack others without facing severe consequences, inevitably propagating hate speech. The current measures to sift the online content and offset the hatred spread do not go far enough. One factor contributing to this is the prevalence of regional languages in social media and the paucity of..."
+data_description: "Evaluation methodology dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "https://github.com/anubhakabra/MoH_Hate_Speech_Detection.git"

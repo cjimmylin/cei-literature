@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,22 +20,22 @@ pdf_extract: "PDF Extracts/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safet
 local_pdf: "[[PDFs/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.pdf]]"
 publication: OpenReview
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Multicultural/Cross-cultural
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Safeguard models help large language models (LLMs) detect and block harmful content, but most evaluations remain English-centric and overlook linguistic and cultural diversity. Existing multilingual safety benchmarks often rely on machine-translated English data, which fails to capture nuances in low-resource languages. Southeast Asian (SEA) languages are underrepresented despite the region's linguistic diversity and unique safety concerns, from culturally sensitive political speech to..."
-data_description: "Multilingual benchmark for ai safety"
-data_metrics: "21,640 samples"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Gemma-3, Gemma3, LLaMA-3.1, LLaMA-3.3, Llama, Llama-3.2, LlamaGuard, Qwen 494M"
 DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,20 +20,20 @@ external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504998/pdf/main.pdf"
 publication: "ScienceDirect / Data in Brief"
 pdf_extract: "PDF Extracts/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.md"
 local_pdf: "[[PDFs/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Spanish
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Spanish"
 languages_list: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://zenodo.org/records/15101403"

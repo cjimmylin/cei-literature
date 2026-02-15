@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ publication: "arXiv / EMNLP 2024"
 pdf_extract: "PDF Extracts/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Norwegian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NorGPT-369M, NorGPT-3B, NorGPT-23B, NorLlama-3B, NB-GPT-J-6B, GPT-3.5-Turbo"

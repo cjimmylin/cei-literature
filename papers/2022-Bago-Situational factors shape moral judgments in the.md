@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,26 +17,27 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/9RF87LAQ/Bago et al. - 2019
 pdf_extract: "PDF Extracts/2022/2022-Bago-Situational factors shape moral judgments in the.md"
 local_pdf: "[[PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]"
 publication: "Nature Human Behaviour"
-national_ethnic_cultural: American
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Replicated Greene's trolley dilemma experiments across 45 countries, testing the universality of situational factors on deontological vs utilitarian judgment"
 significance: "Confirmed that situational factors (like physical contact) universally influence moral judgment across cultures, supporting a dual-process model of moral cognition"
 tags: 
 abstract: "Much research on moral judgment is centered on moral dilemmas in which deontological perspectives (i.e., emphasizing rules, individual rights and duties) are in conflict with utilitarian judgements (i.e., following the greater good defined through consequences). A central finding of this field Greene et al. showed that psychological and situational factors (e.g., the intent of the agent, or physical contact between the agent and the victim) play an important role in people's use of deontological"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/marton-balazs-kovacs/trolleyMultilabReplication"
+ethics_perspective: "General Ethics"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample
 

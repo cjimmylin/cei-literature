@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +21,18 @@ pdf_extract: "PDF Extracts/2021/2021-Mohit Chandra-Subverting the Jewtocracy Onl
 local_pdf: "[[PDFs/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.pdf]]"
 publication: "ACM Web Science Conference 2021"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Judaism"
-religious_values_list: "Judaism"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "The exponential rise of online social media has enabled the creation, distribution, and consumption of information at an unprecedented rate. However, it has also led to the burgeoning of various forms of online abuse. Increasing cases of online antisemitism have become one of the major concerns because of its socio-political consequences. Unlike other major forms of online abuse like racism, sexism, etc., online antisemitism has not been studied much from a machine learning perspective."
 data_description: "Benchmark text corpus"

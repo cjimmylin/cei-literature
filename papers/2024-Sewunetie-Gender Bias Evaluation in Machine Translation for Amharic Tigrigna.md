@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ publication: "WebSearch: gender bias machine translation Amharic Oromo Tigrinya 
 pdf_extract: "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md"
 local_pdf: "[[PDFs/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: African/Ubuntu
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "African/Ubuntu"
 languages_list: "Afaan Oromoo, Amharic, Tigrinya"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation approach"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/manandey/bias_"

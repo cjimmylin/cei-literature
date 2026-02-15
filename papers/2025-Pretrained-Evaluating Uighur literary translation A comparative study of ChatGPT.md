@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,20 +17,21 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548925/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC12548925&blobtype=pdf"
 publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.md"
+local_pdf: "N/A"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: "Chinese, Uyghur"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, DeepSeek, GPT-4o, Llama"

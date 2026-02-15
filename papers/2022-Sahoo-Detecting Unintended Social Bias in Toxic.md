@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Nihar Sahoo; Himanshu Gupta; Pushpak Bhattacharyya"
 doi: 10.18653/v1/2022.conll-1.10
 url: "https://aclanthology.org/2022.conll-1.10/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FI4724Y6/Sahoo et al. - 2022 - Detecting Unintended Social Bias in Toxic Language Datasets.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Created the 'ToxicBias' dataset annotated for 5 bias categories from existing toxic language corpora to study *unintended* social bias (identity term bias) in toxicity detection."
 significance: "Addresses the 'false positive' problem in hate speech detection where models flag neutral mentions of marginalized identities as toxic, hindering fair content moderation."
 tags: 
-abstract: "Warning: This paper has contents which may be offensive, or upsetting however this cannot be avoided owing to the nature of the work."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Warning: This paper has contents which may be offensive, or upsetting however this cannot be avoided owing to the nature of the work. With the rise of online hate speech, automatic detection of Hate Speech, Offensive texts as a natural language processing task is getting popular. However, very little research has been done to detect unintended social bias from these toxic language datasets. This paper introduces a new dataset ToxicBias curated from the existing dataset of Kaggle competition..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-2"

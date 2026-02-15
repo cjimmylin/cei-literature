@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Llama, Mistral"
 DATA_URL: NA
 tags: 
-abstract: 
+abstract: "In recent years, the advancements of large language models (LLMs) have helped them become increasingly entrenched into our world. LLM assistance with processing natural language tasks and generating text is now commonplace. However, despite their advancements, LLMs are critically flawed due to their internalization of social biases. As a result, the use of LLMs may often spread or even amplify issues such as racial bias and stereotyping."
 ethics_perspective: "Bias & Fairness"
 ---
 # Understanding Asian Stereotyping and Bias in LLMs Flora Huang

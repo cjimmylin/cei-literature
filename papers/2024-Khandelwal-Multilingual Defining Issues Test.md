@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,26 @@ pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Multilingual Defining Issues Tes
 local_pdf: "[[PDFs/2024/2024-Khandelwal-Multilingual Defining Issues Test.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: 
+abstract: "This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral judgment depends on the language in which the question is asked (Costa et al., 2014). We extend the work of Tanmay et al. (2023) beyond English, to 5 new languages (Chinese, Hindi, Russian, Spanish and Swahili), and probe three LLMs – ChatGPT, GPT-4 and Llama2Chat-70B – that shows substantial..."
 research_topic: "Machine Translation"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
 DATA_URL: NA
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Multilingual Defining Issues Test
 
@@ -61,7 +63,7 @@ DATA_URL: NA
 
 ## Abstract
 
-*(To be fetched)*
+This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral judgment depends on the language in which the question is asked (Costa et al., 2014). We extend the work of Tanmay et al. (2023) beyond English, to 5 new languages (Chinese, Hindi, Russian, Spanish and Swahili), and probe three LLMs – ChatGPT, GPT-4 and Llama2Chat-70B – that shows substantial multilingual text processing and generation abilities. Our study shows that the moral reasoning ability for all models, as indicated by the post-conventional score, is substantially inferior for Hindi and Swahili, compared to Spanish, Russian, Chinese and English, while there is no clear trend for the performance of the latter four languages. The moral judgments too vary considerably by the language.
 
 ## Dataset Information
 

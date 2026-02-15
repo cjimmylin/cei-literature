@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ tags:
 url: "http://arxiv.org/abs/2212.10465"
 external_pdf: "http://arxiv.org/pdf/2212.10465.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 pdf_extract: "PDF Extracts/2022/2022-Kim-SODA.md"
-abstract: "Data scarcity has been a long standing issue in the field of open-domain social dialogue. To quench this thirst, we present SODA: the first publicly available, million-scale high-quality social dialogue dataset. By contextualizing so- cial commonsense knowledge from a knowl- edge graph, we are able to distill an exception- ally broad spectrum of social interactions from a large language model. Human evaluation shows that conversations in SODA are more consistent, specific, and (surprisingly) nat"
+abstract: "Data scarcity has been a long standing issue in the field of open-domain social dialogue. To quench this thirst, we present SODA: the first publicly available, million-scale high-quality social dialogue dataset. By contextualizing social commonsense knowledge from a knowledge graph, we are able to distill an exceptionally broad spectrum of social interactions from a large language model. Human evaluation shows that conversations in SODA are more consistent, specific, and (surprisingly) natural..."
 paper_summary: "Abstract: Data scarcity has been a long standing issue in the field of open-domain social dialogue. To quench this thirst, we present SODA: the first publicly available, million-scale high-quality social dialog | Overview: SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization Hyunwoo Kim♡♠ Jack Hessel♡ Liwei Jiang♡♢ Peter West♢ Ximing Lu♢ Youngjae Yu♡ Pei Zhou♡♣ Ronan Le Bras♡ Malihe Alikha | Key Findings: shows that conversations in SODA are more consistent, specific, and (surprisingly) natural than those in prior human-authored datasets. Using SODA, we | Conclusions: We presented SODA, the first million-scale dia- logue dataset covering an exceptionally wide range of social interactions to alleviate the data scarci"
 local_pdf: [[PDFs/2022/2022-Kim-SODA.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Dialogue Systems"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, ChatGPT, Llama, T5"

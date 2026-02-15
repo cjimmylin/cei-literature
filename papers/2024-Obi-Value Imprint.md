@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,24 +18,24 @@ pdf_extract: "PDF Extracts/2024/2024-Obi-Value Imprint.md"
 local_pdf: "[[PDFs/2024/2024-Obi-Value Imprint.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2411.11937.pdf"
 publication: "Neural Information Processing Systems"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces 'Value Imprint', a framework for auditing RLHF datasets which reveals that current datasets prioritize information-utility values over prosocial virtues like justice and well-being"
 significance: "Provides a methodology for empirical axiology in AI, exposing the potential 'virtue gap' in RLHF training data where moral character is often subordinated to efficient information retrieval"
 tags: 
-abstract: "LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT Compari"
+abstract: "LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT..."
 paper_summary: "Abstract: LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized th | Overview: Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets Ike Obi Purdue University West Lafayette, Indiana Rohan Pant Purdue University West Lafayette, Indiana Srishti Shekha | Methodology: 3.1 Experiment Dataset We collected the datasets for this research from different developer collaboration platforms. We collected the Anthropic/hh-rlh | Key Findings: of a section of the classification output to examine their performance. We followed the evaluation with an additional round of analysis to examine how | Conclusions: In this research, we introduced Value Imprint, a technique for auditing and classifying the human values embedded within RLHF datasets. Findings from"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/hv-rsrch/valueimprint"

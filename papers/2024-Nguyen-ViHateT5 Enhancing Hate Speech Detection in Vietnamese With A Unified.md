@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detec
 local_pdf: "[[PDFs/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.pdf]]"
 publication: "ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT, RoBERTa, T5, T5-base, T5-based"

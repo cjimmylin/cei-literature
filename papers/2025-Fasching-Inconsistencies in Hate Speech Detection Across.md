@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2025/2025-Fasching-Inconsistencies in Hate Speech Det
 local_pdf: "[[PDFs/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.pdf]]"
 publication: "WebSearch: inconsistencies hate speech LLM Dravidian"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Content moderation systems powered by large language models (LLMs) are increasingly deployed to detect hate speech; however, no systematic comparison exists between different systems. If different systems produce different outcomes for the same content, it undermines consistency and predictability, leading to moderation decisions that appear arbitrary or unfair. Analyzing seven leading models—dedicated Moderation Endpoints (OpenAI, Mistral), frontier LLMs (Claude 3."
-data_description: "Evaluation approach dataset for hate speech detection"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3.5, GPT-4o, MISTRAL LARGE, Mistral"
 DATA_URL: NA

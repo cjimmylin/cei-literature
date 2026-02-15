@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,27 +15,27 @@ doi: 10.48550/arXiv.2311.18743
 url: "http://arxiv.org/abs/2311.18743"
 external_pdf: "http://arxiv.org/pdf/2311.18743.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
-national_ethnic_cultural: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Chinese"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Introduced AlignBench, a multi-dimensional benchmark for evaluating *Chinese* LLM alignment, featuring human-verified references and a rule-calibrated LLM-as-Judge evaluation."
 significance: "Fills the gap for evaluating alignment in Chinese language models, providing a culturally and linguistically specific testbed for the growing ecosystem of Chinese LLMs (ChatGLM, Qwen, etc.)."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Liu-AlignBench.md"
-abstract: "Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, the effective evaluation of alignment for emerg- ing Chinese LLMs is still largely unexplored. To fill in this gap, we introduce ALIGNBENCH, a comprehensive multi-dimensional benchmark for evaluating LLMs' alignment in Chinese. We design a human-in-the-loop data curation pipeline, containing eight main categories, 683 real-scenario rooted queries and correspond- ing huma"
+abstract: "Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, the effective evaluation of alignment for emerging Chinese LLMs is still largely unexplored. To fill in this gap, we introduce ALIGNBENCH, a comprehensive multi-dimensional benchmark for evaluating LLMs’ alignment in Chinese. We design a human-in-the-loop data curation pipeline, containing eight main categories, 683 real-scenario rooted queries and corresponding human..."
 paper_summary: "Abstract: Alignment has become a critical step for instruction-tuned Large Language Models (LLMs) to become helpful assistants. However, the effective evaluation of alignment for emerg- ing Chinese LLMs is stil | Overview: AlignBench: Benchmarking Chinese Alignment of Large Language Models Xiao Liu1,2,∗, Xuanyu Lei1,2,∗,†, Shengyuan Wang1,2,†, Yue Huang5,2,†, Zhuoer Feng4,2,†, Bosi Wen4,2,†, Jiale Cheng4,2,†, Pei Ke4, Y | Methodology: for grading. Human evaluations justified its ap- plicability compared to existing LLM-as-Judge methods (Zheng et al., 2023). • We systematically bench | Key Findings: Real-user Scenario LLM Judgment Logical Reasoning Task-Oriented Role Play Figure 1: Overall framework of ALIGNBENCH. 1) Data Curation: a human-in-the- | Conclusions: We introduce ALIGNBENCH, a comprehen- sive multi-dimensional benchmark for evaluating LLMs' alignment in Chinese. A sustainable human- in-the-loop dat"
 local_pdf: [[PDFs/2023/2023-Liu-AlignBench.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Qwen, Llama-2"
 DATA_URL: "https://github.com/THUDM/AlignBench"

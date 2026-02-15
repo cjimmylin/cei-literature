@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,18 +20,18 @@ pdf_extract: "PDF Extracts/2024/2024-Choi-CaLMQA Exploring culturally specific l
 local_pdf: "[[PDFs/2024/2024-Choi-CaLMQA Exploring culturally specific long-form question.pdf]]"
 publication: "WebSearch: CaLMQA culturally specific long-form question answering"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Despite rising global usage of large language models (LLMs), their ability to generate longform answers to culturally specific questions remains unexplored in many languages. To fill this gap, we perform the first study of textual multilingual long-form QA by creating CALMQA, a dataset of 51.7K culturally specific questions across 23 different languages. We define culturally specific questions as those that refer to concepts unique to one or a few cultures, or have different answers depending..."
 data_description: "Evaluation methodology dataset for question answering"

@@ -26,9 +26,9 @@
 
 | Item | Count | Location |
 |------|-------|----------|
-| Papers | 1,847 | `papers/` |
-| PDFs | 1,789 | External (`PDFs/YYYY/`) |
-| Extracts | 2,333 | `PDF Extracts/YYYY/` |
+| Papers | 2,008 | `papers/` |
+| PDFs | 1,868 | External (`PDFs/YYYY/`) |
+| Extracts | 2,451 | `PDF Extracts/YYYY/` |
 | Authors | 4,869 | `Authors/` |
 | AI Labs | 14 labs, 350+ papers | `AI Labs/` |
 
@@ -60,7 +60,20 @@ write_paper(filepath, frontmatter, body, validate=True)  # Validation mandatory
 
 **Reference:** `@_OPERATING-SYSTEM/Standards/yaml-standards.md`
 
-### 3. Git Tracking
+### 3. Report Immutability
+**NEVER overwrite or regenerate existing reports.** Always create NEW reports with NEW date prefixes.
+
+```bash
+# ❌ FORBIDDEN — overwriting existing report
+OUTPUT_FILE = "20260212-vault-overview-report.md"  # already exists!
+
+# ✅ REQUIRED — new date = new file
+OUTPUT_FILE = "20260215-vault-overview-report.md"  # fresh date
+```
+
+**Why:** Old reports are historical snapshots. Overwriting destroys provenance.
+
+### 4. Git Tracking
 **This repository is tracked on GitHub.** Commit meaningful changes.
 
 ```bash

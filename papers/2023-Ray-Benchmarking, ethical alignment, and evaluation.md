@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ authors: "Partha Pratim Ray"
 doi: 10.1016/j.tbench.2023.100136
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BA3ZHLQG/Ray - 2023 - Benchmarking, ethical alignment, and evaluation framework for conversational AI Advancing responsib.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Value Pluralism / Schwartz"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed a multidimensional evaluation framework for ChatGPT, analyzing existing benchmarks (GLUE, HELM, etc.) and adding new standards for 'context adaptability' and 'community involvement'."
 significance: "One of the early comprehensive frameworks specifically targeting the ethical evaluation of conversational AI like ChatGPT, moving beyond simple accuracy metrics to diverse social impact standards."
 tags: 
 abstract: "Conversational AI systems like ChatGPT have seen remarkable advancements in recent years, revolutionizing human–computer interactions. However, evaluating the performance and ethical implications of these systems remains a challenge. This paper delves into the creation of rigorous benchmarks, adaptable standards, and an intelligent evaluation methodology tailored specifically for ChatGPT. We meticulously analyze several prominent benchmarks, including GLUE, SuperGLUE, SQuAD, CoQA, Persona-Chat,"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Benchmark for moral/ethical reasoning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://github.com/alexa/alexa-with-dstc10-track2-dataset"

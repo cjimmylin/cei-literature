@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,27 +13,28 @@ last_author: "[[Nathan Rourke]]"
 authors: "[[Rourke, Nathan]]"
 doi: N/A
 url: "https://www.goodreads.com/book/show/226055728-mind-crime"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, Deontology"
 key_contribution: "Introduces the concept of 'mind crime' and explores the moral status of potential digital minds, linking the treatment of AI to human moral character"
 significance: "Expands the scope of virtue ethics to include the moral patienthood of AI entities, arguing that our treatment of them reflects and potentially corrupts our own virtues"
 abstract: "This book explores the moral implications of advanced artificial intelligence, particularly the potential for conscious digital minds. Rourke introduces the concept of \"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 pdf_extract: 
 local_pdf: N/A
+ethics_perspective: "General Ethics"
 ---
 # Mind Crime: The Moral Frontier of Artificial Intelligence
 

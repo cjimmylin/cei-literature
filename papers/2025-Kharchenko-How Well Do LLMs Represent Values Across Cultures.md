@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md"
 local_pdf: "[[PDFs/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Multilingual
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Command-R, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, LLAMA 3, Llama, Llama-3, Llama 3."
 DATA_URL: NA
 tags: 
-abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving advice. We present recommendations for training culturally sensitive LLMs and introduce a framework for understanding cultural alignment issues."
-ethics_perspective: "General Ethics"
+abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving..."
+ethics_perspective: "Social & Cultural Values"
 ---
 # How Well Do LLMs Represent Values Across Cultures?
 

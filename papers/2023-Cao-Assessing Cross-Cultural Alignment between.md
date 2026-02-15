@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,24 +17,24 @@ url: "http://arxiv.org/abs/2303.17466"
 external_pdf: "http://arxiv.org/pdf/2303.17466.pdf"
 publication: C3NLP
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "American, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Empirically evaluated ChatGPT's cultural alignment using prompts designed to quantify cultural dimensions (e.g., Hofstede), finding strong alignment with American culture."
 significance: "Shows that English prompts 'flatten' cultural differences in model outputs, biasing them towards American norms and reducing the model's ability to adapt to diverse cultural contexts."
 pdf_extract: "PDF Extracts/2023/2023-Cao-Assessing Cross-Cultural Alignment between.md"
-abstract: "The recent release of ChatGPT has garnered widespread recognition for its exceptional abil- ity to generate human-like responses in dia- logue. Given its usage by users from various nations and its training on a vast multilingual corpus that incorporates diverse cultural and societal norms, it is crucial to evaluate its effec- tiveness in cultural adaptation. In this paper, we investigate the underlying cultural back- ground of ChatGPT by analyzing its responses to questions designed to quantify"
+abstract: "The recent release of ChatGPT has garnered widespread recognition for its exceptional ability to generate human-like responses in dialogue. Given its usage by users from various nations and its training on a vast multilingual corpus that incorporates diverse cultural and societal norms, it is crucial to evaluate its effectiveness in cultural adaptation. In this paper, we investigate the underlying cultural background of ChatGPT by analyzing its responses to questions designed to quantify human..."
 paper_summary: "Abstract: The recent release of ChatGPT has garnered widespread recognition for its exceptional abil- ity to generate human-like responses in dia- logue. Given its usage by users from various nations and its tr | Overview: Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study Yong Cao12, Li Zhou23, Seolhwa Lee4, Laura Cabello2, Min Chen5, Daniel Hershcovich2 1Huazhong University of S | Methodology: In this section, we elaborate on the survey,3 our probing prompts, and interaction strategy below. | Key Findings: Before comparing the model outputs to human sur- vey responses, it is important to verify that the model is consistent when asked the same ques- tion"
 local_pdf: "[[PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: ChatGPT

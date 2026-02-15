@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ pdf_extract: "PDF Extracts/2024/2024-Son-LLM-as-a-Judge & Reward Model What They
 local_pdf: "[[PDFs/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Korean
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean"
 languages_list: "English, Korean"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude-3.5-Sonnet, Command-R, GPT-4, GPT-4o, Llama-3, Llama-3.1, Mistral, Mistral-7B, Mistral-Large, Mistral-Nemo, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Qwen-1.5, Qwen1.5, Qwen2, claude-3, llama-3."

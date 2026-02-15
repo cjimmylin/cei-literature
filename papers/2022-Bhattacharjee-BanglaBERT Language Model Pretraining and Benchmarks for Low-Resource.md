@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ publication: "ACL Anthology (NAACL 2022 Findings)"
 pdf_extract: "PDF Extracts/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md"
 local_pdf: "[[PDFs/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Bengali
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
-data_metrics: "Not specified"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset for question answering"
+data_metrics: "27.5 gb"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/csebuetnlp/banglabert"
 tags: 
-abstract: "First Bangla Language Understanding Benchmark (BLUB) with four NLU tasks (text classification, sequence labeling, span prediction). Introduces BanglaBERT pretrained model. Establishes baseline for Bangla NLU evaluation."
+abstract: "In this work, we introduce BanglaBERT, a BERT-based Natural Language Understanding (NLU) model pretrained in Bangla, a widely spoken yet low-resource language in the NLP literature. To pretrain BanglaBERT, we collect 27.5 GB of Bangla pretraining data (dubbed ‘Bangla2B+’) by crawling 110 popular Bangla sites. We introduce two downstream task datasets on natural language inference and question answering and benchmark on four diverse NLU tasks covering text classiﬁcation, sequence labeling, and..."
 research_topic: "NLP & Representation Learning"
 ---
 # BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla

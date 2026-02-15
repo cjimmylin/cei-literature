@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Nguyen-VM14K First Vietnamese Medical Bench
 local_pdf: "[[PDFs/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "4k questions; 10k questions; 2k questions"
 LLM_assessed: "Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, Llama 4, Llama-3, Llama-3.1, Qwen 3, Qwen3, ChatGPT, GPT-4"

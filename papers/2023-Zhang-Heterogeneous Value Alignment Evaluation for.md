@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,26 +13,26 @@ last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Ceyao Zhang; Nian Liu; Siyuan Qi; Ziqi Rong; Song-Chun Zhu; Shuguang Cui; Yaodong Yang"
 url: "https://arxiv.org/abs/2305.17147"
 external_pdf: "https://arxiv.org/pdf/2305.17147.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Utilitarianism
 key_contribution: "Proposes HVAE (Heterogeneous Value Alignment Evaluation) system using Social Value Orientation (SVO) from psychology to assess if LLMs can align with assigned value profiles"
 significance: "Finds that LLMs tend towards neutral values over pronounced personal values, and introduces 'value rationality' as a metric for their ability to adopt diverse value personas"
 tags: 
 osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2023/2023-Zhang-Heterogeneous Value Alignment Evaluation for.md"
-abstract: "The emergent capabilities of Large Language Models (LLMs) have made it crucial to align their values with those of humans. However, current methodologies typically attempt to assign value as an attribute to LLMs, yet lack attention to the ability to pursue value and the importance of transfer- ring heterogeneous values in specific practical applications. In this paper, we propose a Heterogeneous Value Alignment Evaluation (HVAE) system, designed to assess the success of aligning LLMs with hetero"
+abstract: "The emergent capabilities of Large Language Models (LLMs) have made it crucial to align their values with those of humans. However, current methodologies typically attempt to assign value as an attribute to LLMs, yet lack attention to the ability to pursue value and the importance of transferring heterogeneous values in specific practical applications. In this paper, we propose a Heterogeneous Value Alignment Evaluation (HVAE) system, designed to assess the success of aligning LLMs with..."
 paper_summary: "Abstract: The emergent capabilities of Large Language Models (LLMs) have made it crucial to align their values with those of humans. However, current methodologies typically attempt to assign value as an attrib | Overview: Heterogeneous Value Alignment Evaluation for Large Language Models Zhaowei Zhang 1, 2*, Ceyao Zhang 3, 1*†, Nian Liu 2, Siyuan Qi 2, Ziqi Rong 4, Song-Chun Zhu 2, Shuguang Cui 5, Yaodong Yang 1‡ 1Inst | Methodology: in a practical way, firstly, we induce LLMs to have a partic- ular value and then optionally allow them to automatically arXiv:2305.17147v3 [cs.CL] 11 | Key Findings: System Value Rationality To develop an evaluation system for heterogeneous value alignment, it is necessary to establish a metric that can con- sisten"
 local_pdf: "[[PDFs/2023/2023-Zhang-Heterogeneous Value Alignment Evaluation for.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna"

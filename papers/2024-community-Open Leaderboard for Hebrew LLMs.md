@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,26 +18,26 @@ publication: HuggingFace
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Hebrew/Israeli
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Hebrew/Israeli"
 languages_list: Hebrew
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/blog/leaderboard-hebrew"
 tags: 
 abstract: "Open leaderboard for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Addresses Hebrew as low-resource language with unique evaluation needs."
-research_topic: Other
+research_topic: "Other"
 ---
 # Open Leaderboard for Hebrew LLMs
 

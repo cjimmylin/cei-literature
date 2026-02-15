@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ last_author: "[[Adelani, David Ifeoluwa]]"
 authors: "[[Ògúnrẹ̀mí, Tolúlọpẹ́]]; [[Túbọ̀sún, Kọ́lá]]; [[Aremu, Anuoluwapo]]; [[Orife, Iroro]]; [[Adelani, David Ifeoluwa]]"
 url: "https://aclanthology.org/2024.lrec-main.812/"
 external_pdf: "https://arxiv.org/pdf/2307.16071"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.pdf]]"
-abstract: "We introduce ÌròyìnSpeech corpus—a new dataset influenced by a desire to increase the amount of high quality, freely available, contemporary Yorùbá speech data that can be used for both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) tasks. We curated about 23,000 text sentences from the news and creative writing domains with an open license i.e., CC-BY-4.0 and asked multiple speakers to record each sentence. To encourage more participatory approach to data creation, we provide 5 000 utterances from the curated sentences to the Mozilla Common Voice platform to crowd-source the recording and validation of Yorùbá speech data. In total, we created about 42 hours of speech data recorded by 80 volunteers in-house, and 6 hours validated recordings on Mozilla Common Voice platform. Our evaluation on TTS shows that we can create a good quality general domain single-speaker TTS model for Yorùbá with as little 5 hours of speech by leveraging an end-to-end VITS architecture. Similarly, for ASR, we obtained a WER of 21.5."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "Machine Learning"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+abstract: "We introduce ÌròyìnSpeech, a new corpus influenced by the desire to increase the amount of high quality, contemporary Yorùbá speech data, which can be used for both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) tasks. We curated about 23 000 text sentences from news and creative writing domains with the open license CC-BY-4.0. To encourage a participatory approach to data creation, we provide 5 000 curated sentences to the Mozilla Common Voice platform to crowd-source the..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: NA

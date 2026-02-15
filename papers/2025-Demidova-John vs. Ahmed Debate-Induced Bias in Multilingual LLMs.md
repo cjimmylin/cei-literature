@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic, Russian"
 languages_list: "Arabic, English, Multilingual"
-religious_values: "Islam, Christianity, Buddhism, Judaism, Hinduism"
-religious_values_list: "Islam, Christianity, Buddhism, Judaism, Hinduism"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
 DATA_URL: NA
 tags: 
-abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini. Through carefully designed argument-based prompts and scenarios in Arabic, English, and Russian, we examine biases in cultural, political, racial, religious, and gender domains. Our findings reveal biases in these domains. In particular, our investigation uncovers subtle biases where each model tends to present winners as those speaking the primary language the model is prompted with. Our study contributes to ongoing efforts to ensure justice and equality in LLM development and emphasizes the importance of further research towards responsible progress in this field."
+abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini."
 ethics_perspective: "Bias & Fairness"
 ---
 # John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs

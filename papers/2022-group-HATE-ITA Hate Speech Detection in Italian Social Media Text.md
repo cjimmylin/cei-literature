@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ publication: "ACL Anthology (WOAH @ NAACL 2022)"
 pdf_extract: "PDF Extracts/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md"
 local_pdf: "[[PDFs/2022/2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Italian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: "English, Italian"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "AlBERTo, BERT-Italian, GilBERTo, UmBERTo, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/dhfbk/hate-ita"
 tags: 
-abstract: 
+abstract: "Warning: This paper contains examples of language that some people may find offensive. Online hate speech is a dangerous phenomenon that can (and should) be promptly counteracted properly. While Natural Language Processing has been successfully used for the purpose, many of the research efforts are directed toward the English language. This choice severely limits the classification power in non-English languages."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HATE-ITA: Hate Speech Detection in Italian Social Media Text

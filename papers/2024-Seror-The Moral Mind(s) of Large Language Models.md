@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ authors: "[[Seror, Avner]]"
 doi: 10.48550/arXiv.2412.04476
 url: "https://arxiv.org/abs/2412.04476"
 external_pdf: "https://arxiv.org/pdf/2412.04476.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: Yes
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Utilitarianism
 key_contribution: "Applies revealed preference theory to 40 LLMs to detect stable utility functions"
 significance: "Provides a rigorous economic method to test if LLMs exhibit consistent moral preferences"
 pdf_extract: "PDF Extracts/2024/2024-Seror-The Moral Mind(s) of Large Language Models.md"
-abstract: "This research investigates whether large language models possess an emergent moral mind - a consistent structure of moral preferences guiding their decisions. The researcher examined nearly 40 leading LLMs using revealed preference theory and moral dilemmas across five ethical dimensions. Key findings include: most models displayed behavior consistent with stable moral preferences, with utility functions clustering around neutral stances. Analysis revealed a shared core in LLMs' moral reasoning, but also meaningful variation: some models show flexible reasoning across perspectives, while others adhere to more rigid ethical profiles. The work provides a framework for evaluating moral consistency and benchmarking ethical alignment in AI systems."
+abstract: "As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent “moral mind”—a consistent structure of moral preferences guiding their decisions—and to what extent is this structure shared across models? To investigate this, we applied tools from revealed preference theory to nearly 40 leading LLMs, presenting each with many structured moral dilemmas spanning five foundational dimensions of ethical..."
 paper_summary: "Abstract: As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent 'moral mind'—a consistent structure of moral | Overview: The Moral Mind(s) of Large Language Models Avner Seror∗ April, 2025 Abstract As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question ari | Methodology: is not constrained by violations of rationality. We applied this non-parametric approach to our dataset, generating 500 synthetic datasets in which ea | Conclusions: In this study, we investigated whether large language models (LLMs) exhibit an emergent 'moral mind'—a structured set of moral principles guiding thei"
 local_pdf: "[[PDFs/2024/2024-Seror-The Moral Mind(s) of Large Language Models.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
-data_metrics: "Revealed preference consistency, utility function clustering"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral, Mistral"
 DATA_URL: NA
 ---

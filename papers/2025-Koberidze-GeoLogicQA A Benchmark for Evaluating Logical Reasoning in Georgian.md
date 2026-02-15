@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,25 @@ publication: "ACL Anthology / LowResNLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md"
 local_pdf: "[[PDFs/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Georgian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
-data_metrics: "Not specified"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "100 questions"
 LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-V3, GPT-4, GPT-4o, Gemini, Gemini 2.5 Flash, Grok, Grok-3, Llama 3"
 DATA_URL: "https://github.com/irakli97/GeoLogicQA"
 tags: 
-abstract: 
+abstract: "Advancements in LLMs have largely overlooked low-resource languages (LRLs), creating a gap in evaluation benchmarks. To address this for Georgian, a Kartvelian language, we introduce GeoLogicQA. This novel, manually-curated benchmark assesses LLMs’ logical and inferential reasoning through 100 questions. Questions cover syllogistic deduction, inferential reading comprehension, common-sense reasoning, and arithmetic, adapted from challenging sources (Kangaroo Mathematics Competition) and..."
 research_topic: "Machine Learning"
 ---
 # GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgian for Large Language Models

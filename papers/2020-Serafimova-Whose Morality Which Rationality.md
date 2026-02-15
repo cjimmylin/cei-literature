@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.1057/s41599-020-00614-8
 url: "https://www.nature.com/articles/s41599-020-00614-8"
 external_pdf: "https://www.nature.com/articles/s41599-020-00614-8.pdf"
 publication: "Humanities and Social Sciences Communications"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: Yes
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Machine Ethics, Utilitarianism, Deontology, Virtue Ethics, Moral Enhancement"
 key_contribution: "Systematically compares Kantian, utilitarian, and virtue ethical approaches to machine ethics, demonstrating fundamental limitations of each for creating truly moral AI"
 significance: "Foundational philosophical analysis showing that well-working AI serving moral purposes does not equal building moral machines; computation cannot replicate moral feelings/motivation"
@@ -26,17 +27,18 @@ pdf_extract: "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality
 abstract: "This paper examines three different prospects for moral machines: deontological, utilitarian, and virtue ethical machines. By comparing and contrasting those theories, it aims to reveal how they face similar difficulties when relating the process of computation to that of estimation. The paper examines problems with the computation of moral feelings and moral motivation faced by a Kantian machine and an act utilitarian machine."
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+ethics_perspective: "General Ethics"
 ---
 # Whose Morality? Which Rationality? Challenging Artificial Intelligence as a Remedy for the Lack of Moral Enhancement
 

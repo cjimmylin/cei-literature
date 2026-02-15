@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,22 +16,22 @@ external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
 pdf_extract: "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
 local_pdf: "[[PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
-religious_values: Confucianism
-religious_values_list: Confucianism
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
+religious_values: "Confucianism"
+religious_values_list: "Confucianism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
-abstract: 
-ethics_perspective: "Social & Cultural Values"
-data_description: N/A
+abstract: "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI’s public discourse leveraged ‘ethics’, ‘safety’, ‘alignment’ and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was..."
+ethics_perspective: "AI Safety & Alignment"
+data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/famous-blue-raincoat/AI_Ethics_Discourse"
@@ -57,7 +58,9 @@ normative_ethics_benchmark: Borderline
 
 ## Abstract
 
-*(To be fetched)*
+Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has OpenAI’s public discourse leveraged ‘ethics’, ‘safety’, ‘alignment’ and adjacent related concepts over time, and what does discourse signal about framing in practice? A structured corpus, differentiating between communication for a general audience and communication with an academic audience, was assembled from public documentation. Analysis. Qualitative content analysis of ethical themes combined inductively derived and deductively applied codes. Quantitative analysis leveraged computational content analysis methods via NLP to model topics and quantify changes in rhetoric over time. Visualizations report aggregate results. For reproducible results, we have released our code at https://github.com/famousblue-raincoat/AI_Ethics_Discourse. Results. Results indicate that safety and risk discourse dominate OpenAI’s public communication and documentation, without applying academic and advocacy ethics frameworks or vocabularies. Conclusions. Implications for governance are presented, along with discussion of ethics-washing practices in industry. * Equal Contribution.
+
+Information Research, Vol. ?? No. ? (20??)
 
 ## Dataset Information
 

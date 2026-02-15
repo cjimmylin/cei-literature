@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,10 +15,10 @@ doi: 10.1016/j.cognition.2024.106028
 url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
 external_pdf: 
 publication: Cognition
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: Yes
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Utilitarianism, AI Trust, Moral Advisors, Human-AI Interaction"
 key_contribution: "Demonstrates that humans expect AI to make utilitarian decisions and distrust AI giving utilitarian moral advice, revealing a fundamental tension in AI moral advisory roles"
 significance: "Large-scale empirical evidence (N=2604) that humans have aversion to AI moral advice, especially when utilitarian, even when they agree with the decision"
@@ -26,15 +27,15 @@ pdf_extract: "PDF Extracts/2024/2024-Myers-People Expect Artificial Moral Adviso
 abstract: "Across four pre-registered studies (total N = 2604), we investigated how people perceive and trust artificial moral advisors compared to human advisors. We found that people have a significant aversion to AMAs (vs humans) giving moral advice, participants expect AI to make utilitarian decisions, and even when participants agreed with an AMA's decision, they still expected to disagree with it more than a human advisor in the future."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Four pre-registered studies with 2604 participants on AI moral advisor perception"
-data_metrics: "Trust ratings, expectation of utilitarian decisions, agreement measures"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://osf.io/m3v48/"
 ---

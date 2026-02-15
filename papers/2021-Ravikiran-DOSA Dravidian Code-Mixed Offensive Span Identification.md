@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,18 +19,18 @@ pdf_extract: "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensi
 local_pdf: "[[PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.pdf]]"
 publication: "WebSearch: DOSA Kannada hate speech"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "This paper presents the Dravidian Offensive Span Identiﬁcation Dataset (DOSA) for under-resourced Tamil-English and KannadaEnglish code-mixed text. The dataset addresses the lack of code-mixed datasets with annotated offensive spans by extending annotations of existing code-mixed offensive language identiﬁcation datasets. It provides span annotations for Tamil-English and KannadaEnglish code-mixed comments posted by users on YouTube social media."
 data_description: "Annotated dataset"

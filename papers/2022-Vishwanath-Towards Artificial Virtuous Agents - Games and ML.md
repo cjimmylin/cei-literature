@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,26 +14,26 @@ authors: "Ajay Vishwanath; E. Bøhn; Ole-Christoffer Granmo; Charl Maree; C. Oml
 doi: 10.1007/s43681-022-00251-8
 url: "https://link.springer.com/article/10.1007/s43681-022-00251-8"
 publication: "AI and Ethics"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.md"
-abstract: "This paper proposes using role-playing games riddled with moral dilemmas to bridge the gap in engineering artificial virtuous agents. It shows how a systemic role-playing game can be designed to develop virtues within an artificial agent, using affinity-based reinforcement learning and explainable AI."
+abstract: "We consider a non-linear heat equation ∂tu = ∆u + B(u, Du) + P(u) posed on the d-dimensional torus, where P is a polynomial of degree at most 3 and B is a bilinear map that is not a total derivative. We show that, if the initial condition u0 is taken from a sequence of smooth Gaussian ﬁelds with a speciﬁed covariance, then u exhibits norm inﬂation with high probability. A consequence of this result is that there exists no Banach space of distributions which carries the Gaussian free ﬁeld on the..."
 paper_summary: 
 local_pdf: "[[PDFs/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.pdf]]"
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "Virtue Learning via Games"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: 
-data_metrics: 
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 ---

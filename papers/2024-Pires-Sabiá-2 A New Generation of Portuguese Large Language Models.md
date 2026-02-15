@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,26 +20,26 @@ pdf_extract: "PDF Extracts/2024/2024-Pires-Sabiá-2 A New Generation of Portugue
 local_pdf: "[[PDFs/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "American, Brazilian"
 languages_list: Portuguese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "Claude 3 Sonnet, Claude 3, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Mistral Medium, Mistral large"
 DATA_URL: NA
 tags: 
-abstract: "We introduce Sabi´a-2, a family of large language models trained on Portuguese texts. The models are evaluated on a diverse range of exams, including entry-level tests for Brazilian universities, professional certification exams, and graduate-level exams for various disciplines such as accounting, economics, engineering, law and medicine. Our results reveal that our best model so far, Sabi´a-2 Medium, matches or surpasses GPT4's performance in 23 out of 64 exams and outperforms GPT-3."
-research_topic: Other
+abstract: "We introduce Sabi´a-2, a family of large language models trained on Portuguese texts. The models are evaluated on a diverse range of exams, including entry-level tests for Brazilian universities, professional certification exams, and graduate-level exams for various disciplines such as accounting, economics, engineering, law and medicine. Our results reveal that our best model so far, Sabi´a-2 Medium, matches or surpasses GPT4’s performance in 23 out of 64 exams and outperforms GPT-3."
+research_topic: "Other"
 ---
 # Sabiá-2: A New Generation of Portuguese Large Language Models
 

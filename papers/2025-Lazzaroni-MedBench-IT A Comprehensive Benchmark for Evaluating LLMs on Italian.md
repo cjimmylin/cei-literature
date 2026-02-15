@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,19 +19,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md"
 local_pdf: "[[PDFs/2025/2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Italian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: Italian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 3.5 Haiku, Claude 3.5, Claude 3.5 Sonnet, DeepSeek Chat, DeepSeek Reasoner, DeepSeek-R1, DeepSeek, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, GPT-4o, GPT-4o mini, Gemma, Gemma 2, Llama 3, Llama 3.1, Mistral 7B, Phi-4, Phi-4 and, Qwen 2.5, gemma-2, o1-preview"

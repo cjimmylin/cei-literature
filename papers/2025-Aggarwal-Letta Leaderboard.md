@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,22 +14,22 @@ last_author: "[[Letta Team]]"
 authors: "[[Charles Packer]]; [[Sarah Wooders]]; Letta Team"
 url: "https://www.letta.com/blog/letta-leaderboard"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ASQRZ4EW/Aggarwal and others - 2025 - Letta Leaderboard Benchmarking Agentic Memory in LLMs.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The Letta Leaderboard is a comprehensive benchmark suite that evaluates how effectively LLMs manage agentic memory. It measures two foundational aspects of context management: core memory (in-context memory) and archival memory (external memory). The benchmark evaluates stateful agents' fundamental capabilities on reading, writing, and updating memories using fictional question-answering datasets with supporting facts to minimize prior knowledge from LLM training."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "Machine Learning"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark dataset"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-4"
 DATA_URL: NA

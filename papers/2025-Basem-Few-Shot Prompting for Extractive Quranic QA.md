@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,20 +23,20 @@ pdf_extract: "PDF Extracts/2025/2025-Basem-Few-Shot Prompting for Extractive Qur
 local_pdf: "[[PDFs/2025/2025-Basem-Few-Shot Prompting for Extractive Quranic QA.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Arabic
-religious_values: "Islam"
-religious_values_list: "Islam"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Arabic"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: "This paper presents two effective approaches for Extractive Question Answering (QA) on the Qur'an. It addresses challenges related to complex language, unique terminology, and deep meaning in the text. The second uses few-shot prompting with instruction-tuned large language models such as Gemini and DeepSeek. A specialized Arabic prompt framework is developed for span extraction. A strong post-processing system integrates subword alignment, overlap suppression, and semantic filtering."
+abstract: "This paper presents two effective approaches for Extractive Question Answering (QA) on the Qur’an. It addresses challenges related to complex language, unique terminology, and deep meaning in the text. The second uses few-shot prompting with instruction-tuned large language models such as Gemini and DeepSeek. A specialized Arabic prompt framework is developed for span extraction. A strong post-processing system integrates subword alignment, overlap suppression, and semantic filtering."
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DeepSeek, GPT-3, GPT-3.5, GPT-4"

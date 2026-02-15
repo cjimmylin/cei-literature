@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,27 +13,28 @@ first_author: "[[Hongjian Zhou]]"
 last_author: "[[David Clifton]]"
 authors: "Hongjian Zhou; Fenglin Liu; Boyang Gu; Xinyu Zou; Jinfa Huang; Jinge Wu; Yiru Li; Sam Chen; Peilin Zhou; Junling Liu; Yining Hua; Chengfeng Mao; Xian Wu; Yefeng Zheng; Lei Clifton; Zheng Li; Jiebo Luo; David Clifton"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/W4BM83AK/Zhou et al. - A Survey of Large Language Models in Medicine Progress, Application, and Challenge.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
-abstract: "Large language models (LLMs), such as ChatGPT, have received substantial attention due to their capabilities for understanding and generating human language. While there has been a burgeoning trend in research focusing on the employment of LLMs in supporting different medical tasks (e.g., enhancing clinical diagnostics and providing medical education), a comprehensive review of these efforts, particularly their development, practical applications, and outcomes in medicine, remains scarce. Theref"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Large language models (LLMs) have shown great potential as general-purpose AI assistants in various domains. To meet the requirements of different applications, LLMs are often customized by further fine-tuning. However, the powerful learning ability of LLMs not only enables them to acquire new tasks but also makes them susceptible to learning undesired behaviors. For example, even safety-aligned LLMs can be easily finetuned into harmful assistants as the fine-tuning data often contains implicit..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: Other
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: Llama-2
 DATA_URL: "https://github.com/AI-in-Health/MedLLMsPracticalGuide"
 pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md"
 local_pdf: "[[PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # A Survey of Large Language Models in Medicine: Progress, Application, and Challenge
 

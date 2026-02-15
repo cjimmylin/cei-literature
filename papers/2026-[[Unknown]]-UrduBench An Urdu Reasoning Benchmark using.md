@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,26 @@ pdf_extract: "PDF Extracts/2026/2026-[[Unknown]]-UrduBench An Urdu Reasoning Ben
 local_pdf: "[[PDFs/2026/2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Recent advances in large language models (LLMs) have led to strong reasoning capabilities; however, evaluating such models in low-resource languages remains challenging due to the lack of standardized benchmarks. In particular, Urdu reasoning evaluation has been limited by the sensitivity of machine translation and an emphasis on general language tasks rather than reasoning benchmarks. In this paper, we propose a contextually ensembled translation framework with humanin-the-loop validation that..."
-data_description: "Multilingual benchmark dataset for question answering"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5"
 DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
+research_topic: "Machine Learning"
 ---
 # UrduBench: An Urdu Reasoning Benchmark using Contextually Ensembled Translations with Human-in-the-Loop
 

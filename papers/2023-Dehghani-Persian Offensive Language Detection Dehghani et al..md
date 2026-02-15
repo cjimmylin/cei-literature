@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ publication: "Machine Learning (Springer)"
 pdf_extract: "PDF Extracts/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..md"
 local_pdf: "[[PDFs/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Iranian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Iranian"
 languages_list: Persian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec"
 DATA_URL: NA
 tags: 
-abstract: "Database of 33k Persian abusive language tweets tested using 648 abusive Persian words. Deep neural network based on BERT implementation achieves good performance."
+abstract: "With the proliferation of social networks and their impact on human life, one of the rising problems in this environment is the rise in verbal and written insults and hatred. As one of the significant platforms for distributing text-based content, Twitter frequently publishes its users’ abusive remarks. Creating a model that requires a complete collection of offensive sentences is the initial stage in recognizing objectionable phrases."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Persian Offensive Language Detection (Dehghani et al.)

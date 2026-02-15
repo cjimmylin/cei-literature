@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,22 +19,22 @@ pdf_extract: "PDF Extracts/2024/2024-Varshney-Decolonial AI Alignment - Openness
 local_pdf: "[[PDFs/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.pdf]]"
 publication: "AIES 2024"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Buddhism, Hinduism"
-religious_values_list: "Buddhism, Hinduism"
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Buddhism"
+religious_values_list: "Buddhism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: 
 ethics_perspective: "AI Safety & Alignment"
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/Jacaranda/UlizaLlama"

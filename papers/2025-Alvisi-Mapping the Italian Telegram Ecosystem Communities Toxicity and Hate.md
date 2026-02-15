@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,19 +21,19 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md"
 local_pdf: "[[PDFs/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Italian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Italian"
 languages_list: Italian
-religious_values: "Judaism (and Christianity, Islam as hate targets)"
-religious_values_list: "Judaism (and Christianity, Islam as hate targets)"
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Mixtral"

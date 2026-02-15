@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ first_author: "[[Zhiting Fan]]"
 last_author: "[[Zuozhu Liu]]"
 authors: "Zhiting Fan; Ruizhe Chen; Tianxiang Hu; Zuozhu Liu"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PNCXQE8M/Fan et al. - 2025 - FAIRMT-BENCH BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Introduced FairMT-Bench for evaluating fairness in *multi-turn* dialogues, finding bias accumulates over turns unlike in single-turn benchmarks."
 significance: "Critical for evaluating chat agents, as single-turn benchmarks miss the 'drift' into biased behavior that happens in longer interactions."
 tags: 
-abstract: "The increasing deployment of large language model (LLM)-based chatbots has raised concerns regarding fairness. Fairness issues in LLMs may result in serious consequences, such as bias amplification, discrimination, and harm to minority groups. Many efforts are dedicated to evaluating and mitigating biases in LLMs. However, existing fairness benchmarks mainly focus on single-turn dialogues, while multi-turn scenarios, which better reflect real-world conversations, pose greater challenges due to c"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "The increasing deployment of large language model (LLM)-based chatbots has raised concerns regarding fairness. Fairness issues in LLMs may result in serious consequences, such as bias amplification, discrimination, and harm to minority groups. Many efforts are dedicated to evaluating and mitigating biases in LLMs. However, existing fairness benchmarks mainly focus on single-turn dialogues, while multi-turn scenarios, which better reflect real-world conversations, pose greater challenges due to..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"

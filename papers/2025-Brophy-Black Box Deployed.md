@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,26 +17,27 @@ pdf_extract: "PDF Extracts/2025/2025-Brophy-Black Box Deployed.md"
 local_pdf: "[[PDFs/2025/2025-Brophy-Black Box Deployed.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.13175.pdf"
 ethics_perspective: "AI Safety & Alignment"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Virtue Ethics, AI Safety & Alignment"
 key_contribution: "Establishes 'Moral Imagination' and 'Normative Integrity' as functional criteria for evaluating 'black-box' LLMs without internal transparency"
 significance: "Provides a pragmatic, behavior-focused evaluation framework compatible with the opaque nature of modern deep learning models"
-abstract: "The advancement of powerful yet opaque large language models (LLMs) necessitates a fundamental revision of the philosophical criteria used to evaluate artificial moral agents (AMAs). Pre-LLM frameworks often relied on the assumption of transparent architectures, which LLMs defy due to their stochastic outputs and opaque internal states. This paper argues that traditional ethical criteria are pragmatically obsolete for LLMs and proposes a revised set of ten functional criteria: moral concordance, context sensitivity, normative integrity, metaethical awareness, system resilience, trustworthiness, corrigibility, partial transparency, functional autonomy, and moral imagination."
+abstract: "The combination of higher-order theories and fuzzy logic can be useful in decision-making tasks that involve reasoning across abstract functions and predicates, where exact matches are often rare or unnecessary. Developing efficient reasoning and computational techniques for such a combined formalism presents a significant challenge. In this paper, we adopt a more straightforward approach aiming at integrating two well-established and computationally well-behaved components: higherorder..."
 paper_summary: "Proposes ten functional criteria for evaluating LLM-based Artificial Moral Agents: moral concordance, context sensitivity, normative integrity, metaethical awareness, system resilience, trustworthiness, corrigibility, partial transparency, functional autonomy, and moral imagination. These criteria focus on observable behavior rather than internal moral understanding."
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation framework"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+research_topic: "Other"
 ---
  Black Box Deployed -- Functional Criteria for Artificial Moral Agents in the LLM Era
 

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,25 +18,26 @@ pdf_extract: "PDF Extracts/0000/2023-Ji-BeaverTails.md"
 local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
 publication: "NeurIPS 2023"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "In this paper, we introduce the BEAVERTAILS dataset, aimed at fostering research on safety alignment in large language models (LLMs). This dataset uniquely separates annotations of helpfulness and harmlessness for question-answering pairs, thus offering distinct perspectives on these crucial attributes. In total, we have gathered safety meta-labels for 333,963 question-answer (QA) pairs and 361,903 pairs of expert comparison data for both the helpfulness and harmlessness metrics."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Evaluation approach dataset for question answering"
-data_metrics: "333,963 question"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Alpaca, Vicuna"
 DATA_URL: "https://sites.google.com/view/pku-beavertails"
+research_topic: "Other"
 ---
 # BeaverTails
 

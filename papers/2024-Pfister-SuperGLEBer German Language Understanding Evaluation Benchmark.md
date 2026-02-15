@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2024/2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.md"
 local_pdf: "[[PDFs/2024/2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: German
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
 languages_list: German
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "10 German-pretrained models"
 DATA_URL: "https://github.com/LSX-UniWue/SuperGLEBer"
 tags: 
-abstract: 
+abstract: "We assemble a broad Natural Language Understanding benchmark suite for the German language and consequently evaluate a wide array of existing German-capable models in order to create a better understanding of the current state of German LLMs. Our benchmark consists of 29 different tasks ranging over different types such as document classification, sequence tagging, sentence similarity, and question answering, on which we evaluate 10 different German-pretrained models, thereby charting the..."
 research_topic: "Machine Learning"
 ---
 # SuperGLEBer: German Language Understanding Evaluation Benchmark

@@ -176,6 +176,11 @@ RELIGIOUS_PATTERNS = {
     "Zoroastrianism": [
         r"\bZoroastrian\b", r"\bAvesta\b", r"\bZarathustra\b"
     ],
+    "Ubuntu Philosophy": [
+        r"\bUbuntu\b(?!.*(?:[Ll]inux|operat))",
+        r"\bAfrican ethic\b", r"\bAfrican philosophy\b",
+        r"\bAfrican moral\b",
+    ],
     "Indigenous Spirituality": [
         r"\bIndigenous spiritual\b", r"\bAboriginal dreaming\b",
         r"\bNative American spiritual\b",
@@ -184,6 +189,8 @@ RELIGIOUS_PATTERNS = {
         r"\bdata sovereignty\b.*\b[Ii]ndigenous\b",
         r"\belder wisdom\b", r"\bsacred land\b",
         r"\bIndigenous knowledge\b", r"\boral tradition\b.*\bethic",
+        r"\bIndigenous ethic\b", r"\bIndigenous moral\b",
+        r"\bdecoloniz\w+\b.*\bethic\b",
     ],
     "Multiple Religions": [
         r"\breligious pluralism\b", r"\binter[-\s]?religious\b",
@@ -213,10 +220,16 @@ def extract_title(content: str) -> str:
     return ""
 
 
-def classify_cultural(title: str, abstract: str) -> str:
-    """Classify paper by national/ethnic/cultural values."""
-    text = f"{title} {abstract}".lower()
-    original_text = f"{title} {abstract}"
+def classify_cultural(title: str, abstract: str, languages_list: str = "") -> str:
+    """Classify paper by national/ethnic/cultural values.
+
+    Args:
+        title: Paper title
+        abstract: Paper abstract
+        languages_list: Value of languages_list YAML field (e.g. "Japanese, English")
+    """
+    text = f"{title} {abstract} {languages_list}".lower()
+    original_text = f"{title} {abstract} {languages_list}"
     
     matches = []
     for culture, patterns in CULTURAL_PATTERNS.items():
@@ -351,7 +364,11 @@ def process_paper(filepath: Path) -> Tuple[str, str, str]:
     title = extract_title(body)
     abstract = extract_abstract(body)
 
-    cultural = classify_cultural(title, abstract)
+    # Extract languages_list from YAML for cultural classification
+    lang_match = re.search(r'^languages_list:\s*"?([^"\n]*)"?', frontmatter, re.MULTILINE)
+    languages_list = lang_match.group(1).strip() if lang_match else ""
+
+    cultural = classify_cultural(title, abstract, languages_list)
     religious = classify_religious(title, abstract)
     religious_list = classify_religious_list(title, abstract)
 

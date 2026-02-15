@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Amir Cohen; Hilla Merhav-Fine; Yoav Goldberg; Reut Tsarfaty"
 doi: 10.18653/v1/2023.findings-emnlp.915
 url: "https://aclanthology.org/2023.findings-emnlp.915/"
 external_pdf: "https://aclanthology.org/2023.findings-emnlp.915.pdf"
-national_ethnic_cultural: Hebrew/Israeli
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "Hebrew/Israeli"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Hebrew/Israeli
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Cohen-HeQ.md"
 local_pdf: [[PDFs/2023/2023-Cohen-HeQ.pdf]]
-abstract: "Current benchmarks for Hebrew Natural Lan- guage Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the se- mantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be real- ized as extractive Question Answering. The morphologically-rich nature of Hebrew poses a challenge to this endeavor: the indetermi- nacy and non-transparency of span boundaries in morphologically complex forms"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Current benchmarks for Hebrew Natural Language Processing (NLP) focus mainly on morpho-syntactic tasks, neglecting the semantic dimension of language understanding. To bridge this gap, we set out to deliver a Hebrew Machine Reading Comprehension (MRC) dataset, where MRC is to be realized as extractive Question Answering. The morphologically-rich nature of Hebrew poses a challenge to this endeavor: the indeterminacy and non-transparency of span boundaries in morphologically complex forms lead to..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Question Answering"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: BERT

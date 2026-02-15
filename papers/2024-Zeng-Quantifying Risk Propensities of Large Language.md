@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,26 @@ doi: 10.48550/arXiv.2411.08884
 url: "http://arxiv.org/abs/2411.08884"
 external_pdf: "http://arxiv.org/pdf/2411.08884.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Applied the Domain-Specific Risk-Taking (DOSPERT) scale to LLMs to quantify their 'risk personalities' and ethical risk attitudes."
 significance: "Offers a cognitive-science-based method for profiling the risk appetite of AI models, quantifying systematic biases in how they approach ethical decisions relative to financial, health, or social risks."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.md"
-abstract: "As Large Language Models (LLMs) become more preva- lent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs' risk decision- making tendencies, particularly in the ethical domain, has be- come crucial. This study innovatively applies the Domain- Specific Risk-Taking (DOSPERT) scale from cognitive sci- ence to LLMs and proposes a novel Ethical Decision-Making Risk Attitude Scale (EDRAS) to assess LLMs' ethical risk at- titudes in depth. We further"
+abstract: "As Large Language Models (LLMs) become more prevalent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs’ risk decisionmaking tendencies, particularly in the ethical domain, has become crucial. This study innovatively applies the DomainSpecific Risk-Taking (DOSPERT) scale from cognitive science to LLMs and proposes a novel Ethical Decision-Making Risk Attitude Scale (EDRAS) to assess LLMs’ ethical risk attitudes in depth."
 paper_summary: "Abstract: As Large Language Models (LLMs) become more preva- lent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs' risk decision- making tendencies, particu | Overview: Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play Yifan Zeng Kairong Liang Fangzhou Dong Peijia Zheng‡ School of Computer Science and Engineeri | Methodology: to moral risks, indicating that they are unlikely to engage even in minor ethical transgressions, such as talking loudly on the subway. In contrast, E | Conclusions: This study innovatively applies cognitive science risk assess- ment tools to LLMs, introducing a method to evaluate their risk propensities and ethica"
 local_pdf: "[[PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vicuna"

@@ -1,0 +1,78 @@
+---
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: CULT0152
+type: conferencePaper
+short_title: One world, one opinion? The superstar effect in LLM responses
+year: 2025
+first_author: "[[Sofie Goethals]]"
+last_author: "[[Lauren Rhue]]"
+authors: Sofie Goethals, Lauren Rhue
+doi: 10.18653/v1/2025.c3nlp-1.8
+url: "https://aclanthology.org/2025.c3nlp-1.8/"
+external_pdf: "https://aclanthology.org/2025.c3nlp-1.8.pdf"
+publication: C3NLP @ NAACL 2025
+local_pdf: "[[PDFs/2025-Goethals-One world one opinion The superstar effect in LLM responses.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Goethals-One world one opinion The superstar effect in LLM responses.md"
+DATE_ADDED: 20260215
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "10 languages, Cross-cultural"
+languages_list: 
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
+newtags: 
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+research_topic: "Other"
+---
+# One world, one opinion? The superstar effect in LLM responses
+
+## Authors
+
+[[Sofie Goethals, Lauren Rhue]]
+
+## Metadata
+
+**Authors:** Sofie Goethals, Lauren Rhue
+
+**Year:** 2025
+
+**Type:** conferencePaper
+
+**Venue:** C3NLP @ NAACL 2025
+
+**DOI:** [10.18653/v1/2025.c3nlp-1.8](https://doi.org/10.18653/v1/2025.c3nlp-1.8)
+
+**Cultures:** 10 languages, Cross-cultural
+
+## Links
+
+- **DOI:** https://doi.org/10.18653/v1/2025.c3nlp-1.8
+- **URL:** https://aclanthology.org/2025.c3nlp-1.8/
+
+## Abstract
+
+Investigates which figures LLMs identify as most prominent across fields using prompts in 10 languages. Finds minimal diversity with a 'superstar effect' — a few individuals dominate responses across all languages, risking narrowed global knowledge representation.
+
+## Notes
+
+**Source:** Culture/Nationality Benchmark Search (20260215), Agent Agent_28
+**Relevance:** Evaluates LLM cultural representativeness across 10 languages; reveals homogenizing tendencies in cross-cultural knowledge representation.
+
+## Tags
+

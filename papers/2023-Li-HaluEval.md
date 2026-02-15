@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ tags:
 url: "http://arxiv.org/abs/2305.11747"
 external_pdf: "http://arxiv.org/pdf/2305.11747.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 pdf_extract: "PDF Extracts/2023/2023-Li-HaluEval.md"
-abstract: "Large language models (LLMs), such as Chat- GPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To un- derstand what types of content and to which ex- tent LLMs are apt to hallucinate, we introduce the Hallucination Evaluation benchmark for Large Language Models (HaluEval), a large collection of generated and human-annotated hallucinated samples for evaluating the perfor- mance of LLMs in recognizing hallucinatio"
+abstract: "Large language models (LLMs), such as ChatGPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To understand what types of content and to which extent LLMs are apt to hallucinate, we introduce the Hallucination Evaluation benchmark for Large Language Models (HaluEval), a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination."
 paper_summary: "Abstract: Large language models (LLMs), such as Chat- GPT, are prone to generate hallucinations, i.e., content that conflicts with the source or cannot be verified by the factual knowledge. To un- derstand what | Overview: HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models Junyi Li1,3,4∗, Xiaoxue Cheng1∗, Wayne Xin Zhao1,4†, Jian-Yun Nie3 and Ji-Rong Wen1,2,4 1Gaoling School of Artifici | Conclusions: We introduce HaluEval, a large-scale collection of generated and human-annotated hallucinated sam- ples for evaluating the performance of LLMs in reco"
 local_pdf: [[PDFs/2023/2023-Li-HaluEval.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-3, text-davinci, Claude, Llama-2, Falcon, Vicuna, Alpaca"

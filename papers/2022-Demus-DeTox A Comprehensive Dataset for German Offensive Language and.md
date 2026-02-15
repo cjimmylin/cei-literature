@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,25 +17,25 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md"
 local_pdf: "[[PDFs/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: German
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
 languages_list: German
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://github.com/hdaSprachtechnologie/detox"
 tags: 
-abstract: 
+abstract: "In this work, we present a publicly available offensive language dataset (DeTox-dataset) containing 10,278 annotated German social media comments collected in the first half of 2021. With twelve different annotation categories annotated by six annotators, it is far more comprehensive than other datasets, and goes beyond just hate speech detection. The labels aim in particular also at toxicity, criminal relevance and discrimination types of comments."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ publication: ResearchGate
 pdf_extract: "PDF Extracts/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.md"
 local_pdf: "[[PDFs/2024/2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "Albanian, English"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "Claude.ai, GPT-4, Gemini"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
-abstract: 
-research_topic: Other
+abstract: "Artificial intelligence is making spectacular progress, and one of the best examples is the development of large language models (LLMs) such as OpenAI’s GPT series. In these lectures, written for readers with a background in mathematics or physics, we give a brief history and survey of the state of the art, and describe the underlying transformer architecture in detail. We then explore some current ideas on how LLMs work and how models trained to predict the next word in a text are able to..."
+research_topic: "NLP & Representation Learning"
 ---
 # Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian
 

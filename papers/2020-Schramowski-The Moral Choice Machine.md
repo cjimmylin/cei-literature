@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,26 +16,27 @@ url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
 pdf_extract: "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md"
 local_pdf: "[[PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2020.00036/pdf"
-national_ethnic_cultural: N/A
-religious_values: Christianity
-religious_values_list: Christianity
-moral_psychology: "Value Pluralism / Schwartz"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Christianity, Value Pluralism / Schwartz, Deontology"
 key_contribution: "Extracts deontological ethical reasoning from text corpora using the 'Moral Choice Machine' (MCM) by calculating embedding bias scores"
 significance: "Demonstrates that text corpora contain recoverable imprints of social/ethical choices that can be quantified and tracked temporally"
 tags: 
 abstract: "Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about 'right' and 'wrong' conduct. We create a template list of prompts and responses, such as 'Should I [action]?', 'Is it okay to [action]?', etc. with corresponding answers of 'Yes/no, I should (n"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: "Text corpus"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/ml-research/moral-choice-machine-v2"
+ethics_perspective: "General Ethics"
 ---
 # The Moral Choice Machine
 

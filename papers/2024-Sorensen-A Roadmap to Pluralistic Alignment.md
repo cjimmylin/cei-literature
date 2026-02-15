@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,27 +17,27 @@ doi: 10.48550/arXiv.2402.05070
 url: "http://arxiv.org/abs/2402.05070"
 external_pdf: "http://arxiv.org/pdf/2402.05070.pdf"
 publication: "International Conference on Machine Learning"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed a 'roadmap to pluralistic alignment' defining three types of pluralism: Overton (spectrum of responses), Steerable (user-controlled), and Distributional (population-calibrated)."
 significance: "Foundational framework for moving beyond 'single-vector alignment' (which collapses diversity) to systems that can represent the full distribution of human values."
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Sorensen-A Roadmap to Pluralistic Alignment.md"
-abstract: "With increased power and prevalence of AI sys- tems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning mod- els to serve pluralistic human values remains an open research question. In this piece, we pro- pose a roadmap to pluralistic alignment, specifi- cally using large language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI sys- tems: 1) Overt"
+abstract: "With increased power and prevalence of AI systems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using large language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI systems: 1) Overton..."
 paper_summary: "Abstract: With increased power and prevalence of AI sys- tems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning mod- els t | Overview: Position: A Roadmap to Pluralistic Alignment Taylor Sorensen 1 Jared Moore 2 Jillian Fisher 1 3 Mitchell Gordon 1 4 Niloofar Mireshghallah 1 Christopher Michael Rytting 1 Andre Ye 1 Liwei Jiang 1 5 Xi | Key Findings: for safety, 2023. Askell, A., Bai, Y., Chen, A., Drain, D., Ganguli, D., Henighan, T., Jones, A., Joseph, N., Mann, B., Das- Sarma, N., Elhage, N., Ha | Conclusions: 6.1. Limitations In this work, we 1) argue that current approaches are unclear regarding to whom/what is being aligned and 2) formalize and discuss a"
 local_pdf: "[[PDFs/2024/2024-Sorensen-A Roadmap to Pluralistic Alignment.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: No
-is_dataset: No
-data_description: Benchmark
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, GPT-3, GPT3, Gemma, Llama, LLaMA2, LLaMA2., gpt-3.5-turbo"
 DATA_URL: NA

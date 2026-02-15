@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/2023/2023-[[Sabane]]-Breaking Language Barriers A Que
 local_pdf: "[[PDFs/2023/2023-[[Sabane]]-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "The recent advances in deep-learning have led to the development of highly sophisticated systems with an unquenchable appetite for data. On the other hand, building good deep-learning models for low-resource languages remains a challenging task. This paper focuses on developing a Question Answering dataset for two such languages- Hindi and Marathi. Despite Hindi being the 3rd most spoken language worldwide, with 345 million speakers, and Marathi being the 11th most spoken language globally,..."
-data_description: "Evaluation methodology dataset for question answering"
-data_metrics: "28,000 samples; 0 dataset"
+data_description: "Dataset"
+data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: NA
 research_topic: "Machine Learning"

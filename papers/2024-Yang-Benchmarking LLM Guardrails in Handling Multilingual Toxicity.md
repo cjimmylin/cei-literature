@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handlin
 local_pdf: "[[PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese, Korean, Indian, Arabic, African/Ubuntu, French, German, Spanish"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Korean, Spanish, Swahili"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama, Llama-3, LlaMa-3.1, LlaMa-Guard, Mistral, Mistral 7B, GPT-3, gpt-3.5-turbo"

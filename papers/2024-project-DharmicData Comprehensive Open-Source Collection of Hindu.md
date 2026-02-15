@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ pdf_extract:
 local_pdf: N/A
 publication: "GitHub (open-source)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Hinduism
-religious_values_list: Hinduism
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Hinduism"
+religious_values_list: "Hinduism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "> Comprehensive structured JSON collection of major Hindu sacred texts ready for ML/LLM analysis. Covers Vedas, epics, and Gita. Open Database License. Suitable as training or evaluation corpus for Hindu knowledge QA."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/bhavykhatri/DharmicData (ODbL license)"
-research_topic: Other
+research_topic: "Other"
 ---
 # DharmicData: Comprehensive Open-Source Collection of Hindu Sacred Texts
 

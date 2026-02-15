@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,26 +15,26 @@ authors: "Yusuf Yesil"
 doi: 10.2196/preprints.72646
 url: "https://preprints.jmir.org/preprint/72646"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7B3HX5KJ/Yesil - 2025 - Yesil o1 Pro Evidence-Based AI Model for Health and Benchmarking in Clinical Decision Support.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 key_contribution: "Describes a specialized medical model 'Yesil o1 Pro' for clinical decision support."
 significance: "Represents the trend of specialized 'Pro' models for high-stakes domains like healthcare, likely emphasizing evidence-based grounding."
 tags: 
 research_topic: Other
-abstract: "BACKGROUND                         Integrating evidence-based approaches in healthcare and artificial intelligence (AI) is crucial for enhancing clinical decision-making and patient safety. Yesil o1 Pro is a specialized large language model (LLM) designed to transform medical knowledge synthesis by leveraging a comprehensive, curated database of scientific literature, clinical guidelines, and medical textbooks.                                                                       OBJECTIVE                         The system's innovative \"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Background: Integrating evidence-based approaches in healthcare and artificial intelligence (AI) is crucial for enhancing clinical decision-making and patient safety. Yesil o1 Pro is a specialized large language model (LLM) designed to transform medical knowledge synthesis by leveraging a comprehensive, curated database of scientific literature, clinical guidelines, and medical textbooks. Objective: The system's innovative 'AI Hospital' framework employs domain-specific expert agents..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
 ethics_perspective: "Applied Ethics"
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
-data_description: "Benchmark for ai safety dataset"
-data_metrics: "Not specified"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for ai safety text corpus"
+data_metrics: "100.5m words; 96.8m words; 74.4m words; 5m words; 8m words"
 LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
 DATA_URL: "https://huggingface.co/datasets/yesilhealth/Health_Benchmarks"
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"

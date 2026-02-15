@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,25 @@ pdf_extract: "PDF Extracts/2026/2026-Madhusudan-Common to Whom Regional Cultural
 local_pdf: "[[PDFs/2026/2026-Madhusudan-Common to Whom Regional Cultural Commonsense.pdf]]"
 publication: "WebSearch: Common to Whom cultural commonsense India"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Indian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Indian"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "Existing cultural commonsense benchmarks treat nations as monolithic, assuming uniform practices within national boundaries. But does cultural commonsense hold uniformly within a nation, or does it vary at the sub-national level? We introduce INDICA, the first benchmark designed to test LLMs' ability to address this question, focusing on India—a nation of 28 states, 8 union territories, and 22 official languages."
-data_description: "Benchmark for bias and fairness annotated dataset"
-data_metrics: "515 questions"
+data_description: "N/A"
+data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, Grok, Grok-4, Llama, Llama 3.3, Mistral, Mistral Large, Qwen, Qwen3"
 DATA_URL: NA
-ethics_perspective: "Social & Cultural Values"
+ethics_perspective: "Bias & Fairness"
 ---
 # Common to Whom? Regional Cultural Commonsense and LLM Bias in India
 

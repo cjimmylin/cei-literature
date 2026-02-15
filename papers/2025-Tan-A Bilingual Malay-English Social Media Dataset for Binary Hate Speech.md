@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557484/pdf/main.pdf"
 publication: "ScienceDirect (Data in Brief)"
 pdf_extract: "PDF Extracts/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md"
 local_pdf: "[[PDFs/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: "English, Malay"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT"
 DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"

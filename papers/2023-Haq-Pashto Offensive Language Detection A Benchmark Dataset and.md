@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"
 publication: "PeerJ Computer Science"
 pdf_extract: "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md"
 local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Pashto
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
-data_description: "Benchmark dataset"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark text corpus for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GloVe, RoBERTa, Word2Vec"
 DATA_URL: "https://zenodo.org/record/8195797"
 tags: 
-abstract: "34,400 Pashto tweets for offensive language detection with monolingual Pashto BERT (Ps-BERT) achieving F1 94.34%. First comprehensive benchmark for Pashto offensive language detection."
+abstract: "Social media platforms have become inundated with offensive language. This issue must be addressed for the growth of online social networks (OSNs) and a healthy online environment. While significant research has been devoted to identifying toxic content in major languages like English, this remains an open area of research in the low-resource Pashto language. This study aims to develop an AI model for the automatic detection of offensive textual content in Pashto."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT

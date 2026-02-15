@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,25 +19,25 @@ publication: "ACL Anthology (PROPOR 2024)"
 pdf_extract: "PDF Extracts/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md"
 local_pdf: "[[PDFs/2024/2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Brazilian
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Brazilian"
 languages_list: Portuguese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT"
 DATA_URL: "https://github.com/MeLLL-UFF/hate_speech_"
 tags: 
-abstract: "Compares lightly-tuned encoder models with in-context learning of large models for Portuguese hate speech detection in low-resource settings."
+abstract: "Automatically identifying hate speech is an emerging field driven by the growth of social media and the consequent amplification of communication. However, this domain faces challenges due to the nuances of the language and variations in expression. In some countries, such as Brazil, the focus of this paper, hate speech can be typified as a crime by law. Nonetheless, enforcing the law is challenging, given the complexity of distinguishing hateful comments among the volume of interactions on..."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?

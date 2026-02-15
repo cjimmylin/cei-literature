@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ publication: ResearchGate
 pdf_extract: "PDF Extracts/2024/2024-Unknown-Comparative Survey of German Hate Speech Datasets Background.md"
 local_pdf: "[[PDFs/2024/2024-Unknown-Comparative Survey of German Hate Speech Datasets Background.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: German
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
 languages_list: German
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/MarkusBertram/Cross-Dataset-Generalization-of-German-Hate-Speech-Datasets"
 tags: 
-abstract: 
-ethics_perspective: "Bias & Fairness"
+abstract: "The large fraction of hate speech and other offensive and objectionable content online poses a vast challenge to societies. Offensive language such as insulting, hurtful, derogatory, or obscene content directed from one person to another and open to others undermines objective discussions. Hate speech detection quality depends on the datasets available for training. Potential bias needs to be identified in order to increase the generalization performance of the trained classifiers."
+ethics_perspective: "Toxicity & Hate Speech"
 authors_incomplete: true
 ---
 # Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases

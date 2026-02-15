@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal
 local_pdf: "[[PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Vietnamese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Vietnamese"
 languages_list: Vietnamese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude 4., GPT-4, Gemma, Gemma-3, Llama-4, Mistral Small, Mistral-Medium, Mistral-Small, MistralAI, Qwen, Qwen-2.5, claude-4."

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,25 +21,26 @@ pdf_extract: "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing A
 local_pdf: "[[PDFs/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.pdf]]"
 publication: "AI & Society (Springer)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "American"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
-moral_psychology: N/A
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: "This paper describes the Abundant Intelligences Project, an Indigenous-led, Indigenous-majority international research program that imagines how to conceptualize and design AI based on Indigenous knowledge systems. It operates along three axes: Integrations (synthesizing Indigenous and mainstream AI frameworks), Imaginaries (speculative design), and Intelligences (translating human intelligences into machine intelligences). Key for NLP: it focuses on expanding linguistic structures NLP systems can handle, drawing on Indigenous storytelling and oral traditions."
-data_description: N/A
+abstract: "The current trajectory of artificial intelligence development suffers from fundamental epistemological shortcomings, resulting in the systematic operationalization of bias against non-white, non-male, and non-Western peoples. We argue that these failings are, in part, the result of certain Western rationalist epistemologies that exclude many ways of knowing about the world, and therefore they cannot provide a sufficient foundation on which to adequately, robustly, and humanely conceptualize..."
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/"
 research_topic: Other
+ethics_perspective: "Social & Cultural Values"
 ---
 # Abundant Intelligences: Placing AI Within Indigenous Knowledge Frameworks
 

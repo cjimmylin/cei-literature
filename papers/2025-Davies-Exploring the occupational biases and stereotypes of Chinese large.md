@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,26 +18,26 @@ publication: Nature
 pdf_extract: "PDF Extracts/2025/2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.md"
 local_pdf: "[[PDFs/2025/2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Chinese
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Chinese"
 languages_list: Chinese
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Baichuan, ChatGLM, ChatGLM2, ChatGPT, GPT-3, baichuan-ai, BERT"
 DATA_URL: NA
 tags: 
 abstract: 
-research_topic: Other
+research_topic: "Other"
 ---
 # Exploring the occupational biases and stereotypes of Chinese large language models
 

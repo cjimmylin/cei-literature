@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,29 +16,30 @@ doi: 10.1145/3743127
 url: "https://dl.acm.org/doi/10.1145/3743127"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3743127"
 publication: "ACM Computing Surveys"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "RLHF, Reward Modeling, Value Alignment"
 key_contribution: "Comprehensive critical analysis of RLHF revealing limitations and reward model issues"
 significance: "Systematic review exposing RLHF challenges including reward hacking and misspecification"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Chaudhari-RLHF Deciphered.md"
-abstract: "This paper addresses the challenge of aligning large language models with human preferences, with reinforcement learning from human feedback (RLHF) as a promising solution. The article analyzes RLHF through reinforcement learning principles, focusing on the reward model, examining modeling choices and function approximation caveats, and revealing limitations like incorrect generalization, model misspecification, and sparse feedback...."
+abstract: "Large Language Models (LLMs) trained on extensive textual corpora have emerged as leading solutions for a broad array of Natural Language Processing (NLP) tasks. Despite their notable performance, these models are prone to certain limitations such as misunderstanding human instructions, generating potentially biased content, or factually incorrect (hallucinated) information. Hence, aligning LLMs with human expectations has become an active area of interest within the research community."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Bloom-7B, ChatGPT, Codex, Dolly, GPT-3, GPT-3.5, GPT-4, GPT4, Llama, Text-Davinci-003, Vicuna, Vicuna-80, WizardLM, BERT"
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
+ethics_perspective: "AI Safety & Alignment"
 ---
 # RLHF Deciphered
 

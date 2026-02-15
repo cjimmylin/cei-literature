@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Simões-SESGO Spanish Evaluation of Stereot
 local_pdf: "[[PDFs/2025/2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.pdf]]"
 publication: "arXiv / AAAI AIES"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American, Latin American"
 languages_list: Spanish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation framework text corpus for toxicity detection"
 data_metrics: "4,000 prompts"
 LLM_assessed: "Claude 3, Claude 3., Claude 3.5 Haiku, DeepSeek R1, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama 3.1, Llama 3, Llama-3.1, Qwen, Claude"

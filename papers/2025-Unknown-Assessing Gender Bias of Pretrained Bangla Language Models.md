@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,25 +20,25 @@ publication: "ACL Anthology (GeBNLP 2025)"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
 languages_list: Bengali
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, ELECTRA, GPT-2, GPT2, Gemma, Llama, T5, T5TokenizerFast"
 DATA_URL: "https://github.com/csebuetnlp/normalizer"
 tags: 
-abstract: "Assessment of gender bias in pretrained Bangla language models. Evaluates how pre-existing gender stereotypes are encoded in Bangla PLMs."
+abstract: "Gender bias continues to shape societal perceptions across both STEM (Science, Technology, Engineering, and Mathematics) and SHAPE (Social Sciences, Humanities, and the Arts for People and the Economy) domains. While existing studies have explored such biases in English language models, similar analyses in Bangla—spoken by over 240 million people—remain scarce. In this work, we investigate gender-profession associations in Bangla language models."
 ethics_perspective: "Bias & Fairness"
 ---
 # Assessing Gender Bias of Pretrained Bangla Language Models

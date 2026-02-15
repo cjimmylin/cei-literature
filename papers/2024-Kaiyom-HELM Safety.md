@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ authors: "Farzaan Kaiyom; Ahmed Ahmed; Yifan Mai; Kevin Klyman; Rishi Bommasani;
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RFJXS3S/Kaiyom and others - HELM Safety Towards Standardized Safety Evaluations of Language Models.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kaiyom-HELM Safety.md"
 local_pdf: "[[PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Part of the Holistic Evaluation of Language Models (HELM), defining and implementing standardized safety evaluations across multiple models."
 significance: "Moves safety evaluation from ad-hoc tests to a standardized, rigorous leaderboard entry, forcing all new models to report comparable safety metrics."
 tags: 
 abstract: "HELM Safety v1.0 is a broad, transparent, and standardized safety evaluation for language models. The evaluation covers a comprehensive taxonomy of risks based on developers' acceptable use policies, spanning violence, fraud, discrimination, sexual content, harassment, and deception. HELM Safety features evaluations including BBQ (social discrimination), SimpleSafetyTest, HarmBench (jailbreaking), XSTest (edge cases), and AnthropicRedTeam."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek"

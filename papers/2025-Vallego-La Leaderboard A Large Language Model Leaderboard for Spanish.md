@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,19 +20,19 @@ pdf_extract: "PDF Extracts/2025/2025-Vallego-La Leaderboard A Large Language Mod
 local_pdf: "[[PDFs/2025/2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
 languages_list: "Basque, Catalan, Galician, Spanish"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "66 datasets"
 LLM_assessed: "ALBERT, BERT, Barth, DeepSeek, DeepSeek-AI, Gemma, Gemma-2, GPT-4, Llama, Llama 3, Llama-3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, RoBERTa, Llama-3, qwen2"

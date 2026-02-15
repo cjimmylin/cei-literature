@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,21 +22,21 @@ pdf_extract:
 local_pdf: N/A
 publication: "Procedia Computer Science"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Islam; Hinduism"
-religious_values_list: "Islam; Hinduism"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 tags: 
 abstract: "Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. Creates two datasets: binary (hate/not) and five-class categorization including Blasphemy and Ethnic Hatred. Achieves 98.8% accuracy (binary) and 98.6% (multiclass). Addresses Bangla-specific religious sensitivity challenges between Muslim and Hindu communities."
-data_description: Dataset
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

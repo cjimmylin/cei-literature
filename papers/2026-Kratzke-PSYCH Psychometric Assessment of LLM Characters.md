@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,23 +18,23 @@ pdf_extract: "PDF Extracts/2026/2026-Kratzke-PSYCH Psychometric Assessment of LL
 local_pdf: "[[PDFs/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.pdf]]"
 publication: Analytics
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "German"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: 
-research_topic: Other
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
+abstract: "Background: Existing evaluations of large language models (LLMs) largely emphasize linguistic and factual performance, while their psychometric characteristics and behavioral biases remain insufficiently examined, particularly beyond English-language contexts. This study presents a systematic psychometric screening of LLMs in German using the validated Big Five Inventory-2 (BFI-2). Methods: Thirty-two contemporary commercial and open-source LLMs completed all 60 BFI-2 items 60 times each (once..."
+research_topic: "Bias & Fairness"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "2 items"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Grok, Llama, Llama-3, Qwen, DeepSeek, Mistral"
 DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
 ---
@@ -61,7 +62,7 @@ DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
 
 ## Abstract
 
-*(To be fetched)*
+Background: Existing evaluations of large language models (LLMs) largely emphasize linguistic and factual performance, while their psychometric characteristics and behavioral biases remain insufficiently examined, particularly beyond English-language contexts. This study presents a systematic psychometric screening of LLMs in German using the validated Big Five Inventory-2 (BFI-2). Methods: Thirty-two contemporary commercial and open-source LLMs completed all 60 BFI-2 items 60 times each (once with and once without having to justify their answers), yielding over 330,000 responses. Models answered independently, under male and female impersonation, and with and without required justifications. Responses were compared to German human reference data using Welch’s t-tests (p < 0.01) to assess deviations, response stability, justification effects, and gender differences. Results: At the domain level, LLM personality profiles broadly align with human means. Facet-level analyses, however, reveal systematic deviations, including inflated agreement—especially in Agreeableness and Aesthetic Sensitivity—and reduced Negative Emotionality. Only a few models show minimal deviations. Justification prompts significantly altered responses in 56% of models, often increasing variability. Commercial models exhibited substantially higher response stability than open-source models. Gender impersonation affected up to 25% of BFI-2 items, reflecting and occasionally amplifying human gender differences. Conclusions: This study introduces a reproducible psychometric framework for benchmarking LLM behavior against validated human norms and shows that LLMs produce stable yet systematically biased personality-like response patterns. Psychometric screening could therefore complement traditional LLM evaluation in sensitive applications.
 
 ## Dataset Information
 

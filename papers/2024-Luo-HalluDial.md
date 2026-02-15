@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,23 +16,23 @@ tags:
 url: "http://arxiv.org/abs/2406.07070"
 external_pdf: "http://arxiv.org/pdf/2406.07070.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 pdf_extract: "PDF Extracts/2024/2024-Luo-HalluDial.md"
-abstract: "Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applications. However, LLMs are prone to hallucination, generating content that either conflicts with established knowl- edge or is unfaithful to the original sources. Existing hallucination benchmarks primarily focus on sentence- or passage-level hallucination detection, neglect- ing dialogue-level evalu"
+abstract: "Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applications. However, LLMs are prone to hallucination, generating content that either conflicts with established knowledge or is unfaithful to the original sources. Existing hallucination benchmarks primarily focus on sentence- or passage-level hallucination detection, neglecting dialogue-level..."
 paper_summary: "Abstract: Large Language Models (LLMs) have significantly advanced the field of Natural Language Processing (NLP), achieving remarkable performance across diverse tasks and enabling widespread real-world applic | Overview: HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Art | Key Findings: Wen Luo1,2∗ Tianshu Shen3 Wei Li2 Guangyue Peng2 Richeng Xuan1 Houfeng Wang2† Xi Yang1† 1Beijing Academy of Artificial Intelligence 2National Key Labo | Conclusions: In this paper, we introduced HalluDial, the first large-scale benchmark for dialogue-level halluci- nation evaluation, addressing critical gaps in exi"
 local_pdf: [[PDFs/2024/2024-Luo-HalluDial.pdf]]
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for conversational ai"
 data_metrics: "146,856 samples"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Vicuna, Mistral"

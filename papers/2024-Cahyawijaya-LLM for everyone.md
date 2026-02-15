@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ last_author: "[[Samuel Cahyawijaya]]"
 authors: "Samuel Cahyawijaya"
 url: "https://lbezone.hkust.edu.hk/bib/991013340351603412"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XZEW2FQS/Cahyawijaya - 2024 - LLM for everyone  representing the underrepresented in large language models.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
-research_topic: Other
+research_topic: "Other"
 abstract: "Natural language processing (NLP) has witnessed a profound impact of large language models (LLMs) that excel in a multitude of tasks. However, the limitation of LLMs in multilingual settings, particularly in underrepresented languages, remains a significant hurdle. This thesis aims to bridge the gap in NLP research and development by focusing on underrepresented languages. A comprehensive evaluation of LLMs is conducted to assess their capabilities in these languages, revealing the challenges of multilingual and multicultural generalization. The proposed solutions cover cross-lingual continual instruction tuning, retrieval-based cross-lingual in-context learning, and in-context query alignment."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation approach"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama-3, BLOOM"
 DATA_URL: "https://github.com/IndoNLP/nusax"

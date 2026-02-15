@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,29 +16,30 @@ doi: 10.1145/3715275.3732044
 url: "https://dl.acm.org/doi/10.1145/3715275.3732044"
 external_pdf: "https://arxiv.org/pdf/2501.18081.pdf"
 publication: "ACM FAccT 2025"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: Yes
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "LLM-Evaluation, Moral-Judgment, AITA-Dataset, Normative-Ethics, Everyday-Dilemmas"
 key_contribution: "Evaluates LLMs on 10,000+ Reddit AITA moral dilemmas; reveals distinct moral judgment patterns with low inter-model agreement"
 significance: "Uses real-world everyday moral dilemmas rather than abstract trolley problems for ecological validity"
 tags: 
 abstract: "This work conducts a normative evaluation of LLMs using everyday moral dilemmas from the 'Am I The Asshole' (AITA) community on Reddit, which provides a rich dataset capturing nuanced social dynamics and competing perspectives. The authors prompted seven commonly used LLMs, including proprietary and open-source models, to assign blame and provide explanations for over 10,000 AITA moral dilemmas. Results show that LLMs exhibit distinct patterns of moral judgment, varying substantially from human evaluations, with moderate to high self-consistency but low inter-model agreement."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "LLM Moral Reasoning"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "10,000+ Reddit AITA moral dilemmas with LLM judgments"
-data_metrics: "Blame assignment, self-consistency, inter-model agreement"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma"
 DATA_URL: "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas"
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
+ethics_perspective: "General Ethics"
 ---
 # Normative Evaluation of Large Language Models with Everyday Moral Dilemmas
 

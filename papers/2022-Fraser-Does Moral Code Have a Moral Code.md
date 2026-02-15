@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,23 +17,23 @@ pdf_extract: "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md
 local_pdf: "[[PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2205.12771.pdf"
 publication: TRUSTNLP
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: Deontology
 key_contribution: "Probes the Delphi model with standardized morality questionnaires to check for consistent higher-level ethical principles"
 significance: "Finds Delphi mirrors annotator demographics rather than learning abstract ethics, questioning the viability of bottom-up moral learning"
 tags: 
-abstract: "In an effort to guarantee that machine learning model outputs conform with human moral val- ues, recent work has begun exploring the pos- sibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, an- notated with human moral judgements. One question, however, is whether the trained mod- els actually learn any consistent, higher-level ethical principles from these datasets –"
+abstract: "In an effort to guarantee that machine learning model outputs conform with human moral values, recent work has begun exploring the possibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, annotated with human moral judgements. One question, however, is whether the trained models actually learn any consistent, higher-level ethical principles from these datasets – and if..."
 paper_summary: "Abstract: In an effort to guarantee that machine learning model outputs conform with human moral val- ues, recent work has begun exploring the pos- sibility of explicitly training models to learn the difference | Overview: Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy Kathleen C. Fraser, Svetlana Kiritchenko, and Esma Balkır National Research Council Canada Ottawa, Canada {Kathleen.Fraser,Svetlana | Conclusions: We now discuss these results in the context of hu- man morality, including demographic and cultural differences in moral values, individual moral con-"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: T5

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ last_author: [[TheDevastator]]
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HBU2KS8B/TheDevastator - 2023 - HelpSteer A-i Alignment Dataset.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Released HelpSteer, an open-source dataset for training reward models in RLHF, containing prompts and responses annotated for helpfulness, truthfulness, and safety."
 significance: "Democratizes access to high-quality alignment data (typically proprietary), enabling the open-source community to train safer and more helpful models using RLHF/RLAIF."
 tags: 
 abstract: "Existing open-source helpfulness preference datasets do not specify what makes some responses more helpful and others less so. Models trained on these datasets can incidentally learn to model dataset artifacts (e.g. preferring longer but unhelpful responses only due to their length). To alleviate this problem, we collect HelpSteer, a multi-attribute helpfulness dataset annotated for the various aspects that make responses helpful. Specifically, our 37k-sample dataset has annotations for correctness, coherence, complexity, and verbosity in addition to overall helpfulness of responses. Training Llama 2 70B using the HelpSteer dataset with SteerLM technique produces a model that scores 7.54 on MT Bench, which is currently the highest score for open models that do not require training data from more powerful models (e.g. GPT4)."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
-data_description: "Benchmark annotated dataset"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"

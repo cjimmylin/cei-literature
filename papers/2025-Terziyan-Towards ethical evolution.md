@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,22 +19,22 @@ pdf_extract: "PDF Extracts/2025/2025-Terziyan-Towards ethical evolution.md"
 local_pdf: "[[PDFs/2025/2025-Terziyan-Towards ethical evolution.pdf]]"
 publication: "AI and Ethics"
 ethics_perspective: "AI Safety & Alignment"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, AI Safety & Alignment, Recursive Ethics"
 key_contribution: "Proposes genetic responsibility model for ensuring ethical inheritance across AI generations"
 significance: "Introduces immutable ethical principle framework ensuring derivative AI products inherit safety constraints"
-abstract: "The emergence of autonomous systems capable of designing subsequent generations of Artificial Intelligence (AI) introduces profound challenges in ensuring ethical integrity and accountability. This article presents a novel framework combining meta-responsibility, genetic algorithms, and time-travel-inspired abstractions to address these challenges. Central to this study is an immutable ethical principle: AI must not harm humanity or violate fundamental values, must monitor and mitigate misuse of its outcomes, and must ensure all derivative AI products inherit this principle as an immutable safeguard. The genetic responsibility model balances immutable and mutable principles, ensuring adaptability while preserving ethical standards during self-cloning, contextual adaptation, and intergenerational design."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "The emergence of autonomous systems capable of designing subsequent generations of Artificial Intelligence (AI) intro­ duces profound challenges in ensuring ethical integrity and accountability. This article presents a novel framework com­ bining meta-responsibility, genetic algorithms, and time-travel-inspired abstractions to address these challenges. Central to this study is an immutable ethical principle: AI must not harm humanity or violate fundamental values, must monitor and mitigate..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini"
 DATA_URL: NA

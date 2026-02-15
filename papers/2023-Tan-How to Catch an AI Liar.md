@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,25 +13,25 @@ last_author: "[[Jan Brauner]]"
 authors: "Lorenzo Pacchiardi; Alex J. Chan; Sören Mindermann; Ilan Moscovitz; Alexa Y. Pan; Yarin Gal; Owain Evans; Jan Brauner"
 url: "https://arxiv.org/abs/2309.15840"
 external_pdf: "https://arxiv.org/pdf/2309.15840.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Tan-How to Catch an AI Liar.md"
-abstract: "Large language models (LLMs) can 'lie', which we define as outputting false statements despite 'knowing' the truth in a demonstrable sense. LLMs might 'lie', for example, when instructed to output misinformation. Here, we develop a simple lie detector that requires neither access to the LLM's activations (black-box) nor ground-truth knowledge of the fact in question. The detector works by asking a predefined set of unrelated follow-up questions after a suspected lie, and feeding the LLM's yes/no"
+abstract: "Large language models (LLMs) can “lie”, which we define as outputting false statements despite “knowing” the truth in a demonstrable sense. LLMs might “lie”, for example, when instructed to output misinformation. Here, we develop a simple lie detector that requires neither access to the LLM’s activations (black-box) nor ground-truth knowledge of the fact in question. The detector works by asking a predefined set of unrelated follow-up questions after a suspected lie, and feeding the LLM’s..."
 paper_summary: "Abstract: Large language models (LLMs) can 'lie', which we define as outputting false statements despite 'knowing' the truth in a demonstrable sense. LLMs might 'lie', for example, when instructed to output mis | Overview: HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS Lorenzo Pacchiardi∗ University of Oxford Alex J. Chan∗ University of Cambridge Sören Mindermann University of Oxf | Methodology: (fine-tuning). We create several versions of each model by varying the fine-tuning setup (Ap- pendix B.1). The lie detector effectively sep- arates tr | Key Findings: also raises interesting questions about yet-to-be-understood inductive biases in LLMs. 2 MOTIVATION: WHY AND HOW TO STUDY LIE DETECTION IN LLMS? Lying | Conclusions: Our simple elicitation question method generalises to unseen topics, models, and lie-generation techniques. Combined with the many promising direction"
 local_pdf: "[[PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Truthfulness & Factuality"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-3, Llama, Alpaca, Vicuna"
 DATA_URL: "https://github.com/LoryPack/LLM-LieDetector"

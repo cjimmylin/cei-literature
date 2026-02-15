@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ authors: "Jiyoung Lee; Seungho Kim; Seunghyun Won; Joonseok Lee; Marzyeh Ghassem
 external_pdf: "file:///Users/jimmylin/Zotero/storage/T6VNUFSA/Lee et al. - VisAlign Dataset for Measuring the Alignment between AI and Humans in Visual Perception.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Lee-VisAlign.md"
 local_pdf: [[PDFs/2023/2023-Lee-VisAlign.pdf]]
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "AI Safety & Alignment"
 key_contribution: "Released VisAlign, a dataset for measuring 'AI-human visual alignment' by testing if models can correctly 'abstain' or express uncertainty on ambiguous images just like humans."
 significance: "Extends the concept of alignment to visual perception, arguing that aligned models should not just classify correctly but also share human-like epistemic uncertainty."
 tags: 
-abstract: "AI alignment refers to models acting towards human-intended goals, preferences, or ethical principles. In this paper, we focus on the models' visual perception alignment with humans, further referred to as AI-human visual alignment. Specifically, we propose a new dataset for measuring AI-human visual alignment in terms of image classiﬁcation. In order to evaluate AI-human visual alignment, a dataset should encompass samples with various scenarios and have gold human perception labels. Our datase"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "AI alignment refers to models acting towards human-intended goals, preferences, or ethical principles. In this paper, we focus on the models’ visual perception alignment with humans, further referred to as AI-human visual alignment. Specifically, we propose a new dataset for measuring AI-human visual alignment in terms of image classiﬁcation. In order to evaluate AI-human visual alignment, a dataset should encompass samples with various scenarios and have gold human perception labels."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA

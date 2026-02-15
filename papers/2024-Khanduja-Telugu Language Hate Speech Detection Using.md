@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,18 +25,18 @@ pdf_access_url: "https://doi.org/10.1016/j.sasc.2024.200112"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "WebSearch: Telugu hate speech detection"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
 abstract: "Created monolingual Telugu corpus of tweets annotated for hate/non-hate. Compared mBERT, DistilBERT, IndicBERT, NLLB, MuRIL, XLM-RoBERTa, Indic-Bart. mBERT achieved 98.2% accuracy. Telugu-specific hate speech corpus and benchmark. Evaluates multiple transformer models on Telugu hate detection."
 data_description: "Evaluation approach dataset"

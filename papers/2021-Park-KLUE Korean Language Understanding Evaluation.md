@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,19 +18,19 @@ pdf_extract: "PDF Extracts/2021/2021-Park-KLUE Korean Language Understanding Eva
 local_pdf: "[[PDFs/2021/2021-Park-KLUE Korean Language Understanding Evaluation.pdf]]"
 publication: "arXiv / NeurIPS 2021 Datasets Track"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: Korean
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Korean"
 languages_list: Korean
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, DeBERTa, ELECTRA, ELMo, GPT-2, GPT-3, RoBERTa, XLNet"

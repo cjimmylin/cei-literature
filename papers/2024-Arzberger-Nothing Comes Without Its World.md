@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,27 +17,28 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31617/33784/
 pdf_extract: "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md"
 local_pdf: "[[PDFs/2024/2024-Arzberger-Nothing Comes Without Its World.pdf]]"
 publication: "AIES 2024"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "RLHF, Feminist-Epistemology, Situated-Values, Values-Alignment, AI-Safety"
 key_contribution: "Critiques RLHF through feminist epistemology lens; proposes situated annotation, expressive instruction, reflexive adaptation"
 significance: "Reveals fundamental limitations of RLHF for capturing situated human values in diverse contexts"
 tags: 
-abstract: "This perspective paper unpacks the limitations of predominant alignment practices of reinforcement learning from human feedback (RLHF) for LLMs through the lens of situated values and proposes three research directions to address these shortcomings. The authors build on feminist epistemology to argue that at the design-time, RLHF has problems with representation in the subjects providing feedback and implicitness in the conceptualization of values and situations of real-world users while lacking system adaptation to real user situations at the use-time. To address these shortcomings, they propose three research directions: 1) situated annotation, 2) expressive instruction, and 3) reflexive adaptation."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Work on value alignment aims to ensure that human values are respected by AI systems. However, existing approaches tend to rely on universal framings of human values that obscure the question of which values the systems should capture and align with, given the variety of operational situations. This often results in AI systems that privilege only a selected few while perpetuating problematic norms grounded on biases, ultimately causing equity and justice issues."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF
 

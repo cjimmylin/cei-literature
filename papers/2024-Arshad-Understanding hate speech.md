@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ authors: "Muhammad Umair Arshad; Waseem Shahzad"
 doi: 10.7717/peerj-cs.2372
 url: "https://peerj.com/articles/cs-2372"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/P2VZGTF3/Arshad and Shahzad - 2024 - Understanding hate speech the HateInsights dataset and model interpretability.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced HateInsights, a hate speech dataset with dual evaluations (class labels + rationales) to assess model interpretability alongside classification performance."
 significance: "Reveals that high-performing hate speech classifiers often fail on explainability metrics (plausibility/faithfulness), arguing that effective moderation requires transparent reasoning, not just accurate flag-prediction."
 tags: 
-abstract: "The persistence of hate speech continues to pose an obstacle in the realm of online social media. Despite the continuous evolution of advanced models for identifying hate speech, the critical dimensions of interpretability and explainability have not received proportional scholarly attention. In this article, we introduce the HateInsights dataset, a groundbreaking benchmark in the ﬁeld of hate speech datasets, encompassing diverse aspects of this widespread issue. Within our dataset, each indivi"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "The persistence of hate speech continues to pose an obstacle in the realm of online social media. Despite the continuous evolution of advanced models for identifying hate speech, the critical dimensions of interpretability and explainability have not received proportional scholarly attention. In this article, we introduce the HateInsights dataset, a groundbreaking benchmark in the ﬁeld of hate speech datasets, encompassing diverse aspects of this widespread issue."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"

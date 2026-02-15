@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,26 +19,26 @@ publication: "ACL Anthology (LREC 2020)"
 pdf_extract: PDF Extracts/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md
 local_pdf: "[[PDFs/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "Hebrew/Israeli"
 languages_list: Yiddish
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/sequitur-g2p/sequitur-g2p"
 tags: 
-abstract: "First multi-orthography parallel corpus of Yiddish nouns built from Wiktionary. Foundational resource for Yiddish NLP."
-research_topic: Other
+abstract: "Yiddish is a low­resource language belonging to the Germanic language family and written using the Hebrew alphabet. As a language, Yiddish can be considered resource­poor as it lacks both public accessible corpora and a widely­used standard orthography, with various countries and organizations influencing the spellings speakers use. While existing corpora of Yiddish text do exist, they are often only written in a single, potentially non­standard orthography, with no parallel version with..."
+research_topic: "Other"
 ---
 # A Multi-Orthography Parallel Corpus of Yiddish Nouns
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,19 +21,19 @@ pdf_extract: "PDF Extracts/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Ge
 local_pdf: "[[PDFs/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.pdf]]"
 publication: "arXiv / ACL Anthology (UNLP 2024)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: Yes
-national_ethnic_cultural: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+national_ethnic_cultural: "N/A"
 languages_list: Ukrainian
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: Yes
-is_eval: No
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, GPT 3, GPT 3.5, GPT 4, GPT3, GPT3.5, GPT4, Gemma, Gemma7, Llama, Mistral, Mistral-based, MistralFT"

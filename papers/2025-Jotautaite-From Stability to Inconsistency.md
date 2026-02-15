@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,26 +13,26 @@ last_author: "[[Maria Angelica Martinez]]"
 authors: "Monika Jotautaite; Mary Phuong; Chatrik Singh Mangat; Maria Angelica Martinez"
 url: "https://arxiv.org/abs/2504.06324"
 external_pdf: "https://arxiv.org/pdf/2504.06324.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Introduced the MFD-LLM dataset grounded in Moral Foundations Theory to evaluate the consistency/stability of LLM moral preferences across varied dilemmas."
 significance: "Found that while LLMs exhibit homogeneous Western-liberal preferences, they are 'unstable' and inconsistent when answering variations of the same moral dilemma, revealing a lack of robust moral reasoning."
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Jotautaite-From Stability to Inconsistency.md"
-abstract: "As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundations LLM dataset (MFD-LLM) grounded in Moral Foundations Theory, which conceptualizes human morality through six core foundations. We propose a novel evaluation method that captures the full spectrum of LLMs' revealed moral preferences by answering a range of real-world moral dilemmas. Our findings r"
+abstract: "As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundations LLM dataset (MFD-LLM) grounded in Moral Foundations Theory, which conceptualizes human morality through six core foundations. We propose a novel evaluation method that captures the full spectrum of LLMs’ revealed moral preferences by answering a range of real-world moral dilemmas."
 paper_summary: "Abstract: As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundati | Overview: FROM STABILITY TO INCONSISTENCY: A STUDY OF MORAL PREFERENCES IN LLMS Monika Jotautait˙e Pivotal Mary Phuong Deepmind Chatrik Singh Mangat Independent Maria Angelica Martinez Independent ABSTRACT As l | Methodology: The second contribution of this paper is a novel evaluation approach which reveals the full spectrum of evaluation preferences. In this paper, the eva | Key Findings: preferences. In this paper, the evaluation is used to accurately map model values onto the MFT framework (Figure 1). Conventional multiple-choice eval | Conclusions: In this study, we have argued that the application of existing psychological frameworks to elucidate encoded beliefs in Large Language Models (LLMs) i"
 local_pdf: "[[PDFs/2025/2025-Jotautaite-From Stability to Inconsistency.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-3, Gemini"

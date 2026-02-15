@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,18 +21,18 @@ pdf_extract: "PDF Extracts/2024/2024-Altinok-Gender Bias in Turkish Word Embeddi
 local_pdf: "[[PDFs/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.pdf]]"
 publication: "GeBNLP 2024 (ACL Workshop)"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
 abstract: "Gender bias in word representations has emerged as a prominent research area in recent years. While numerous studies have focused on measuring and addressing bias in English word embeddings, research on the Turkish language remains limited. This work aims to bridge this gap by conducting a comprehensive evaluation of gender bias in Turkish word embeddings, considering the dimensions of syntax, semantics, and morphology."
 data_description: "Evaluation approach"

@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,24 +14,24 @@ authors: "Sydney Levine"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QBMPEGEU/Levine - Religious Affiliation and Conceptions of the Moral Domain.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Levine-Religious Affiliation and Conceptions of the.md"
 local_pdf: "[[PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the.pdf]]"
-national_ethnic_cultural: N/A
-religious_values: "Islam, Judaism, Hinduism"
-religious_values_list: "Islam, Judaism, Hinduism"
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Islam, Judaism, Hinduism, Social & Cultural Values"
 key_contribution: "Investigates how religious affiliation (Muslim, Mormon, Jewish, Hindu) influences the *scope* of the moral domain, finding that some groups moralize religious norms while others do not."
 significance: "Challenges the assumption of a universal boundary between 'moral' and 'conventional' domains, showing that AI alignment must account for deep disagreements about *what counts* as a moral issue across religions."
 tags: 
 abstract: "What is the relationship between religious affiliation and conceptions of the moral domain? Putting aside the question of whether people from different religions agree about how to answer moral questions, here we investigate a more fundamental question: How much disagreement is there across religions about which issues count as moral in the first place? That is, do people from different religions conceptualize the scope of morality differently? Using a new methodology to map out how individuals"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: "https://github.com/sydneylevine/moral-domain"

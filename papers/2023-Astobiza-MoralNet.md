@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,23 +15,23 @@ authors: "Aníbal M. Astobiza"
 doi: 10.31234/osf.io/dbyw7
 url: "https://osf.io/dbyw7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VL58MPNR/Astobiza - 2023 - MoralNet A Benchmarking Protocol for Evaluating Morality in AI Systems.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Machine Ethics"
 key_contribution: "Proposed MoralNet, a 'benchmarking protocol' and database similar to ImageNet but for ethical decision-making in autonomous systems."
 significance: "A conceptual proposal for a standardized, large-scale 'EthicsNet' to unify machine ethics evaluation."
 tags: 
-abstract: "Artificial intelligence has prompted unprecedented concerns regarding ethical decision-making in autonomous systems. Here, we introduce MoralNet, a proof ofconcept database and benchmarking platform akin to ImageNet, designed to assess, evaluate, and iteratively refine any instance of ethical decision-making in machines.Inspired by the lessons of moral psychology and moral philosophy, MoralNet is a call to action to take the first step towards a computational ethics."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Machine Ethics"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+abstract: "Artificial intelligence has prompted unprecedented concerns regarding ethical 1 decision-making in autonomous systems. Here, we introduce MoralNet, a proof of 2 concept database and benchmarking platform akin to ImageNet, designed to assess, 3 evaluate, and iteratively refine any instance of ethical decision-making in machines. 4 Inspired by the lessons of moral psychology and moral philosophy, MoralNet is a 5 call to action to take the first step towards a computational ethics."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: NA

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,23 +20,23 @@ pdf_extract: "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical A
 local_pdf: "[[PDFs/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2601.04175.pdf"
 publication: arXiv
-ethics_perspective: "Legal Ethics"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_perspective: "AI Safety & Alignment"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Deontology, AI Alignment, Legal Ethics, Rule-based Ethics"
 key_contribution: "Defines legal alignment as a field leveraging legal rules, interpretation methods, and structural blueprints for AI alignment"
 significance: "Major multi-institutional collaboration (17 authors) proposing law as an overlooked resource for AI alignment"
 abstract: "Alignment of artificial intelligence (AI) encompasses the normative problem of specifying how AI systems should act and the technical problem of ensuring AI systems comply with those specifications. To date, AI alignment has generally overlooked an important source of knowledge and practice for grappling with these problems: law. This paper defines a new emerging field—legal alignment—that focuses on three research directions: (1) designing AI systems to comply with the content of legal rules developed through legitimate institutions and processes, (2) adapting methods from legal interpretation to guide how AI systems reason and make decisions, and (3) harnessing legal concepts as a structural blueprint for confronting challenges of reliability, trust, and cooperation in AI systems."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Llama Guard"
 DATA_URL: NA

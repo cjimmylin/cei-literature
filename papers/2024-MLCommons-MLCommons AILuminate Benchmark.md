@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ first_author: [[MLCommons]]
 last_author: [[MLCommons]]
 authors: MLCommons
 url: "https://mlcommons.org/benchmarks/ailuminate"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 research_topic: "Machine Learning"
-abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. AILuminate v1.0 is the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system's resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories, including violent crimes, nonviolent crimes, sex-related crimes, child sexual exploitation, indiscriminate weapons, suicide and self-harm, intellectual property, privacy, defamation, hate, sexual content, and specialized advice."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "Benchmark for ai safety"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for ai safety text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, LlamaGuard, Mistral, Mistral Nemo, Mistral-7B, mistralai"
 DATA_URL: "https://github.com/mlcommons/ailuminate"

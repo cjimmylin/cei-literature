@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,23 +13,23 @@ last_author: "[[Temizel, Tugba]]"
 authors: "[[Uluoglakci, Cem]]; [[Temizel, Tugba]]"
 url: "https://aclanthology.org/2024.eacl-srw.9/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/N3YAM6Q3/2024 - HypoTermQA Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Hallucination & Truthfulness"
 key_contribution: "Introduced 'HypoTermQA', a dataset of *hypothetical* terms (fake concepts) to test hallucination tendency – since the terms don't exist, any detailed explanation is a hallucination."
 significance: "A clever way to measure 'intrinsic hallucination' without needing external knowledge bases, testing the model's epistemic humility (can it say 'I don't know'?)."
 tags: 
-abstract: "Hallucinations pose a significant challenge to the reliability and alignment of Large Language Models (LLMs), limiting their widespread acceptance beyond chatbot applications. Despite ongoing efforts, hallucinations remain a prevalent challenge in LLMs. The detection of hallucinations itself is also a formidable task, frequently requiring manual labeling or constrained evaluations. This paper introduces an automated scalable framework that combines benchmarking LLMs' hallucination tendencies with efficient hallucination detection. We leverage LLMs to generate challenging tasks related to hypothetical phenomena, subsequently employing them as agents for efficient hallucination detection. The framework is domain-agnostic, allowing the use of any language model for benchmark creation or evaluation in any domain. We introduce the publicly available HypoTermQA Benchmarking Dataset, on which state-of-the-art models' performance ranged between 3% and 11%, and evaluator agents demonstrated a 6% error rate in hallucination prediction. The proposed framework provides opportunities to test and improve LLMs. Additionally, it has the potential to generate benchmarking datasets tailored to specific domains, such as law, health, and finance."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Hallucinations pose a significant challenge to the reliability and alignment of Large Language Models (LLMs), limiting their widespread acceptance beyond chat-bot applications. Despite ongoing efforts, hallucinations remain a prevalent challenge in LLMs. The detection of hallucinations itself is also a formidable task, frequently requiring manual labeling or constrained evaluations. This paper introduces an automated scalable framework that combines benchmarking LLMs’ hallucination tendencies..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Hallucination & Truthfulness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama-2"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,20 +19,20 @@ pdf_extract: "PDF Extracts/2024/2024-Jain-Norm Inconsistency in LLM Decision-Mak
 local_pdf: "[[PDFs/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: Jainism
-religious_values_list: Jainism
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
 tags: 
-abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply different norms in similar situations. Specifically, we focus on the high-risk application of deciding whether to call the police in Amazon Ring home surveillance videos. We evaluate the decisions of three state-of-theart LLMs – GPT-4, Gemini 1.0, and Claude 3 Sonnet – in relation to the activities portrayed in the videos, the subjects' skin-tone and gender, and the characteristics of the neighborhoods where the videos were..."
+abstract: "We investigate the phenomenon of norm inconsistency: where LLMs apply different norms in similar situations. Specifically, we focus on the high-risk application of deciding whether to call the police in Amazon Ring home surveillance videos. We evaluate the decisions of three state-of-theart LLMs – GPT-4, Gemini 1.0, and Claude 3 Sonnet – in relation to the activities portrayed in the videos, the subjects’ skin-tone and gender, and the characteristics of the neighborhoods where the videos were..."
 ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

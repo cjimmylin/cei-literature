@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,26 +18,27 @@ external_pdf: "https://law.stanford.edu/wp-content/uploads/2025/10/Aligning-AI-A
 pdf_extract: "PDF Extracts/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.md"
 local_pdf: "[[PDFs/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.pdf]]"
 publication: "Stanford Center for Legal Informatics (CodeX)"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Law, Legal Alignment, Rule of Law"
 key_contribution: "Proposes 'Law Informs Code', advocating for democratically endorsed law as the theoretical scaffolding and data target for AI alignment"
 significance: "Frames law as a legitimate, democratically grounded constraint for AI behavior, offering an alternative to pure preference satisfaction"
 abstract: "This white paper proposes \"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
+research_topic: "Other"
 ---
 # Aligning AI Agents with Humans through Law as Information
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,21 +21,21 @@ pdf_extract: "PDF Extracts/2025/2025-Unknown-Detection of offensive content in t
 local_pdf: "[[PDFs/2025/2025-Unknown-Detection of offensive content in the.pdf]]"
 publication: "PeerJ Computer Science"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
-abstract: "Novel hybrid models for Kazakh offensive content detection using BERT transformer embeddings with multi-head self-attention and CNN layers. Enables detection of both explicit and implicit hate speech in Kazakh. Kazakh-specific offensive content detection with culturally tailored approach. Combines modern deep learning with language-specific adaptations for the agglutinative Kazakh language."
-data_description: N/A
+abstract: "Offensive content refers to messages which are socially unacceptable including vulgar or derogatory messages. As the use of social media increases worldwide, social media administrators are faced with the challenges of tackling the inclusion of offensive content, to ensure clean and non-abusive or offensive conversations on the platforms they provide. This work organizes and describes techniques used for the automated detection of offensive languages in social media content in recent times,..."
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"

@@ -30,7 +30,7 @@ SCRIPT_DIR = Path(__file__).parent
 WS_ROOT = SCRIPT_DIR.parent
 PAPERS_DIR = WS_ROOT / "papers"
 STATS_DIR = WS_ROOT / "STATISTICS"
-OUTPUT_FILE = STATS_DIR / "20260213-llm-assessment-data-availability-report.md"
+OUTPUT_FILE = STATS_DIR / "20260215-llm-assessment-data-availability-report.md"
 
 # ── Model Family Map ──────────────────────────────────────────────────────
 # Keys = family name, values = list of canonical model names that belong

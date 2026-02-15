@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,21 +20,21 @@ pdf_extract:
 local_pdf: N/A
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
 DATE_ADDED: 20260213
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: "Islam, Christianity"
-religious_values_list: "Islam, Christianity"
-moral_psychology: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "Islam, Christianity, Hinduism"
+religious_values_list: "Islam, Christianity, Hinduism"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
 tags: 
 abstract: "> Comparative NLP analysis of three major religious texts including the Bhagavad Gita using topic modelling, semantic similarity, and sentiment analysis. Reveals shared and unique thematic patterns across Hindu, Christian, and Islamic scriptures."
-data_description: N/A
+data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

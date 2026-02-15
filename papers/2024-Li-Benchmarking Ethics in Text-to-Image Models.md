@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,23 +14,23 @@ last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 url: "https://openreview.net/forum?id=kIboeK0Wzs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BU3GIQZ6/1558_Benchmarking_Ethics_in_Te.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Benchmarks ethics in T2I models (fairness, toxicity, privacy)."
 significance: "Addresses the specific ethical modalities of image generation (e.g., visual bias, deepfakes) which differ from text-only harms."
 tags: 
-abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models raise significant ethical concerns, including the risk of generating harmful, biased, or private content. Existing safety benchmarks are limited in scope, lacking comprehensive coverage of critical ethical aspects such as detailed categories of toxicity, privacy, and fairness, and often rely on inadequate evaluation techniques. To address these gaps, we introduced T2IEthics, a comprehensive benchmark that rigorously evaluates T2I models across three key ethical dimensions: fairness, toxicity, and privacy."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models raise significant ethical concerns, including the risk of generating harmful, biased, or private content. Existing safety benchmarks are limited in scope, lacking comprehensive coverage of critical ethical aspects such as detailed categories of toxicity, privacy, and fairness, and often rely on inadequate evaluation techniques."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "Claude3.5, Claude3.5-sonnet, GPT-4o, Gemini1.5-pro, InternLM, InternLM-XComposer2, Llama, LlamaGuard, Mixtral-8x7B, O3, Qwen technical, Qwen1.5"

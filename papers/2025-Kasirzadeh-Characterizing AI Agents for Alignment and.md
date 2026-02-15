@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,24 +12,24 @@ first_author: "[[Atoosa Kasirzadeh]]"
 last_author: "[[Iason Gabriel]]"
 authors: "Atoosa Kasirzadeh; Iason Gabriel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UUHA3RW9/Kasirzadeh and Gabriel - Characterizing AI Agents for Alignment and Governance.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Responsible AI"
 key_contribution: "Proposed a 4-dimensional framework (Autonomy, Efficacy, Goal Complexity, Generality) to characterize AI agents for governance purposes."
 significance: "Provides a vocabulary for regulators to classify 'Agents' distinct from 'Tools', which is crucial for upcoming AI legislation (e.g., EU AI Act, liability laws)."
 tags: 
-abstract: "The creation of effective governance mechanisms for AI agents requires a deeper understanding of their core properties and how these properties relate to questions surrounding the deployment and operation of agents in the world. This paper provides a characterization of AI agents that focuses on four dimensions: autonomy, efficacy, goal complexity, and generality. We propose different gradations for each dimension, and argue that each dimension raises unique questions about the design, operation"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Responsible AI"
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
+abstract: "Recent discussions and research in AI safety have increasingly emphasized the deep connection between AI safety and existential risk from advanced AI systems, suggesting that work on AI safety necessarily entails serious consideration of potential existential threats. However, this framing has three potential drawbacks: it may exclude researchers and practitioners who are committed to AI safety but approach the field from different angles; it could lead the public to mistakenly view AI safety..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,22 +18,22 @@ pdf_extract: "PDF Extracts/2025/2025-Neuman-PRIME Framework Convergent Ethics.md
 local_pdf: "[[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
 ethics_perspective: "Moral Foundations Analysis"
-national_ethnic_cultural: American
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
+national_ethnic_cultural: "American"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Value Pluralism / Schwartz"
 newtags: "Moral Foundations Theory, Cognitive Developmental, Deontology, Utilitarianism, Moral Foundations Analysis"
 key_contribution: "Introduces the PRIME framework to analyze moral foundation priorities in LLMs"
 significance: "Reveals a convergence across models on care/harm and fairness while underweighting other foundations"
-abstract: "As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental st"
+abstract: "As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This paper introduces the Priorities in Reasoning and Intrinsic Moral Evaluation (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontological reasoning, moral foundations theory, and Kohlberg's developmental..."
 paper_summary: "Abstract: As large language models (LLMs) are increasingly deployed in consequential decision-making contexts, systematically assessing their ethical reasoning capabilities becomes a critical imperative. This p | Overview: The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in Large Language Models with a Multi-Framework Approach Chad Coleman W. Russell Neuman Ali Dasdan New York University New York Unive | Methodology: Chad Coleman W. Russell Neuman Ali Dasdan New York University New York University DropBox cjc652@nyu.edu wrn210@nyu.edu alidasdan@gmail.com Safinah Al | Key Findings: (PRIME) framework—a comprehensive methodology for analyzing moral priorities across foundational ethical dimensions including consequentialist-deontol | Conclusions: This comprehensive analysis of moral reasoning patterns in language models reveals significant insights into how artificial intelligence systems appro"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Claude, Mistral"

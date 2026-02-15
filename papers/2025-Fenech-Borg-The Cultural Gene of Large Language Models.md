@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,8 +17,8 @@ url: "http://arxiv.org/abs/2508.12411"
 external_pdf: "http://arxiv.org/pdf/2508.12411.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
-religious_values: N/A
-religious_values_list: N/A
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Chinese, Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Investigates the 'cultural genes' of LLMs using a Cultural Probe Dataset (CPD), comparing the value orientations (Individualism vs. Collectivism) of Western (GPT-4) vs. Eastern (ERNIE) models."
@@ -25,15 +26,15 @@ significance: "Provides quantitative evidence that LLMs mirror the cultural norm
 pdf_extract: "PDF Extracts/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.md"
 paper_summary: "Overview: The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases Emanuel Z. Fenech-Borg Department of Communications University of Malta Msida MSD  | Methodology: for quantifying these ingrained 'genes' is still nascent. The challenge is immense, as these models are increasingly tasked with sensitive roles in do | Conclusions: In this section, we present the empirical results of our comparative study, followed by an in-depth discussion of their implications. Our findings pro"
 local_pdf: "[[PDFs/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf]]"
-abstract: "Large language models (LLMs) are deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. We propose the notion of a \"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Large Language Models (LLMs) are being deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. This paper investigates the concept of ”cultural genes”—systematic value orientations that LLMs inherit from their training corpora. We introduce a novel methodology centered on a Cultural Probe Dataset (CPD) designed to evaluate models along key cross-cultural psychological dimensions, specifically Individualism-Collectivism (IDV) and Power Distance (PDI)."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4

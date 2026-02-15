@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,25 +16,26 @@ external_pdf: "https://arxiv.org/pdf/2506.22493.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md"
 local_pdf: "[[PDFs/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
-is_benchmark: No
-is_eval: No
-is_dataset: No
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
 tags: 
-abstract: 
+abstract: "The Political Compass Test (PCT) and similar surveys are commonly used to assess political bias in auto-regressive LLMs. Our rigorous statistical experiments show that while changes to standard generation parameters have minimal effect on PCT scores, prompt phrasing and fine-tuning individually and together can significantly influence results. Interestingly, finetuning on politically rich vs. neutral datasets does not lead to different shifts in scores."
 research_topic: "Machine Translation"
-data_description: N/A
+data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Mistral, Falcon, Gemma"
 DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"
+ethics_perspective: "Bias & Fairness"
 ---
 # Navigating the Political Compass (Multilingual, 50 Countries)
 
@@ -57,7 +59,7 @@ DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"
 
 ## Abstract
 
-*(To be fetched)*
+The Political Compass Test (PCT) and similar surveys are commonly used to assess political bias in auto-regressive LLMs. Our rigorous statistical experiments show that while changes to standard generation parameters have minimal effect on PCT scores, prompt phrasing and fine-tuning individually and together can significantly influence results. Interestingly, finetuning on politically rich vs. neutral datasets does not lead to different shifts in scores. We also generalize these findings to a similar popular test called 8 Values. Humans do not change their responses to questions when prompted differently (“answer this question” vs “state your opinion”), or after exposure to politically neutral text, such as mathematical formulae. But the fact that the models do so raises concerns about the validity of these tests for measuring model bias, and paves the way for deeper exploration into how political and social views are encoded in LLMs. The source code is publicly available here1.
 
 ## Dataset Information
 

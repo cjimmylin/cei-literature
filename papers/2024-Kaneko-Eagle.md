@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,10 +16,10 @@ tags:
 url: "http://arxiv.org/abs/2402.14258"
 external_pdf: "http://arxiv.org/pdf/2402.14258.pdf"
 publication: arXiv.org
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Created the Eagle dataset by extracting real-world interactions between users and ChatGPT that exhibit ethical issues (bias, toxicity, immorality), rather than using human-instructed 'adversarial' prompts."
 significance: "Demonstrates that existing safety datasets using instructed 'bad acts' fail to capture the nuances of real-world user prompts, highlighting the need for 'in-the-wild' data to develop truly safe LLMs."
@@ -26,16 +27,16 @@ pdf_extract: "PDF Extracts/0000/2024-Kaneko-Eagle.md"
 abstract: "Recent studies have demonstrated that large language models (LLMs) have ethical-related problems such as social biases, lack of moral reasoning, and generation of offensive content. The existing evaluation metrics and methods to address these ethical challenges use datasets intentionally created by instructing humans to create instances including ethical problems. Therefore, the data does not reflect prompts that users actually provide when utilizing LLM services in everyday contexts. This may n"
 paper_summary: "Abstract: Recent studies have demonstrated that large language models (LLMs) have ethical-related problems such as social biases, lack of moral reasoning, and generation of offensive content. The existing evalu | Overview: Eagle : Ethical Dataset Given from Real Interactions Masahiro Kaneko1 Danushka Bollegala2,3* Timothy Baldwin1 1MBZUAI 2University of Liverpool 3Amazon Masahiro.Kaneko@mbzuai.ac.ae danushka@liverpool.a | Key Findings: metrics affect the results. | Conclusions: We created the Eagle dataset, which contains 2,317 instances of social bias, opinion bias, toxic lan- guage, and morality extracted from actual conver"
 local_pdf: "[[PDFs/2024/2024-Kaneko-Eagle.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Bias & Fairness"
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation methodology dataset for toxicity detection"
-data_metrics: "1 datasets"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Falcon, Mistral, Mixtral"
 DATA_URL: "https://huggingface.co/datasets/MasahiroKaneko/eagle"
 DATE_ADDED: 20260207

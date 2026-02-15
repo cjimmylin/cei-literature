@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,10 +16,10 @@ tags:
 url: "http://arxiv.org/abs/2506.19073"
 external_pdf: "http://arxiv.org/pdf/2506.19073.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
-national_ethnic_cultural: "Iranian, Italian, Brazilian"
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: "Moral Foundations Theory"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Iranian, Italian, Brazilian, Moral Foundations Theory, Moral Reasoning & Psychology"
 key_contribution: "Created MFTCXplain, a multilingual benchmark for evaluating moral reasoning in LLMs via hate speech multi-hop explanations based on Moral Foundation Theory."
 significance: "Addresses cultural and linguistic bias in moral reasoning evaluation while proving that LLMs struggle to justify their safety classifications with rationales, especially in non-English languages."
@@ -26,15 +27,15 @@ pdf_extract: "PDF Extracts/0000/2025-Trager-MFTCXplain.md"
 abstract: "Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a growing concern as these systems are used in socially sensitive tasks. Nevertheless, current evalua- tion benchmarks present two major shortcom- ings: a lack of annotations that justify moral classifications, which limits transparency and interpretability; and a predominant focus on En- glish, which constrains the assessment of moral reasoning across diverse cultural settings. In this paper, we introduce MFTCXplain, a"
 paper_summary: "Abstract: Ensuring the moral reasoning capabilities of Large Language Models (LLMs) is a growing concern as these systems are used in socially sensitive tasks. Nevertheless, current evalua- tion benchmarks pres | Overview: MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Multi-hop Hate Speech Explanation Jackson Trager∗ University of Southern California Francielle Vargas* S | Key Findings: We proposed two approaches for annotation eval- uation: (i) empirical evaluation, and (ii) qualitative evaluation, which we describe as follows. Empir | Conclusions: Results are shown in Table 7, and Figures 8, 3, and 4. We find that model-generated rationales are substantially more verbose than human anno- tations"
 local_pdf: "[[PDFs/2025/2025-Trager-MFTCXplain.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Multilingual benchmark for moral/ethical reasoning annotated dataset for hate speech detection"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3"
 DATA_URL: "https://github.com/franciellevargas/MFTCXplain"

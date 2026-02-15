@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,24 +13,24 @@ last_author: "[[Röttger, Paul]]"
 authors: "[[Kirk, Hannah]]; [[Yin, Wenjie]]; [[Vidgen, Bertie]]; [[Röttger, Paul]]"
 url: "https://aclanthology.org/2023.semeval-1.305/"
 external_pdf: "http://arxiv.org/pdf/2303.04222"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Kirk-SemEval-2023 Task 10.md"
 local_pdf: "[[PDFs/2023/2023-Kirk-SemEval-2023 Task 10.pdf]]"
-abstract: "Online sexism is a widespread and harmful phenomenon. Automated tools can assist the detection of sexism at scale. Binary detection, however, disregards the diversity of sexist con- tent, and fails to provide clear explanations for why something is sexist. To address this issue, we introduce SemEval Task 10 on the Explain- able Detection of Online Sexism (EDOS). We make three main contributions: i) a novel hi- erarchical taxonomy of sexist content, which includes granular vectors of sexism to ai"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+abstract: "Online sexism is a widespread and harmful phenomenon. Automated tools can assist the detection of sexism at scale. Binary detection, however, disregards the diversity of sexist content, and fails to provide clear explanations for why something is sexist. To address this issue, we introduce SemEval Task 10 on the Explainable Detection of Online Sexism (EDOS). We make three main contributions: i) a novel hierarchical taxonomy of sexist content, which includes granular vectors of sexism to aid..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Interpretability & Explainability"
-is_benchmark: No
-is_eval: No
-is_dataset: Yes
-data_description: Dataset
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "DeBERTa, RoBERTa"
 DATA_URL: "https://github.com/rewire-online/edos"

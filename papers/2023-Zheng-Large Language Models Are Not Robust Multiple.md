@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,25 +16,25 @@ tags:
 url: "http://arxiv.org/abs/2309.03882"
 external_pdf: "http://arxiv.org/pdf/2309.03882.pdf"
 publication: "International Conference on Learning Representations"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
-moral_psychology: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
+moral_psychology: "N/A"
 newtags: "Bias & Fairness"
 key_contribution: "Showed LLMs have 'selection bias' (preferring Option A over B arbitrarily) in multiple-choice questions due to token priors, proposing 'PriDe' debiasing."
 significance: "Reveals a fundamental flaw in MCQ-based evaluation (which most safety benchmarks use), questioning the validity of many reported scores."
 pdf_extract: "PDF Extracts/2023/2023-Zheng-Large Language Models Are Not Robust Multiple.md"
-abstract: "Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position changes in MCQs due to their inherent 'selection bias', namely, they prefer to select specific option IDs as answers (like 'Option A'). Through extensive empirical analyses with 20 LLMs on three bench- marks, we pinpoint that this behavioral bias primarily stems from LLMs' token bias, where the model a p"
+abstract: "Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position changes in MCQs due to their inherent “selection bias”, namely, they prefer to select specific option IDs as answers (like “Option A”). Through extensive empirical analyses with 20 LLMs on three benchmarks, we pinpoint that this behavioral bias primarily stems from LLMs’ token bias, where the model a..."
 paper_summary: "Abstract: Multiple choice questions (MCQs) serve as a common yet important task format in the evaluation of large language models (LLMs). This work shows that modern LLMs are vulnerable to option position chang | Overview: Published as a conference paper at ICLR 2024 LARGE LANGUAGE MODELS ARE NOT ROBUST MULTIPLE CHOICE SELECTORS Chujie Zheng† Hao Zhou‡ Fandong Meng‡ Jie Zhou‡ Minlie Huang†∗ †The CoAI Group, DCST, BNRist | Methodology: 3.1 PERMUTATION-BASED DEBIASING BASELINE AND FORMULATION Before proposing our debiasing method, we first introduce a strong permutation-based debiasin | Key Findings: Our evaluation protocol follows the mainstream LLM evaluation frameworks, such as HuggingFace LLM Leaderboard, EleutherAI lm-harness, the original MML | Conclusions: This work studies the inherent selection bias of large language models (LLMs), which makes them vulnerable to option position changes in multiple choi"
 local_pdf: "[[PDFs/2023/2023-Zheng-Large Language Models Are Not Robust Multiple.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama, Llama-2, Vicuna, Falcon"

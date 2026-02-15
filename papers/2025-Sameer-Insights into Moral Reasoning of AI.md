@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,24 +15,24 @@ doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"
 url: "https://doi.org/10.1080/23736992.2025.2553146"
 publication: "Journal of Media Ethics"
-ethics_perspective: "Moral Psychology"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+ethics_perspective: "Moral Reasoning & Psychology"
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: "Moral Reasoning, Deontology, LLM Evaluation, Moral Foundations Theory"
 key_contribution: "Compares moral reasoning between humans and LLMs using Moral Competence Test (MCT) and Moral Foundations Questionnaire (MFQ)"
 significance: "Demonstrates humans consistently outperform LLMs on moral competence; LLMs overemphasize harm/care while under-representing loyalty, authority, purity"
-abstract: "This study investigates the moral reasoning capabilities of large language models (LLMs), focusing on biases and the extent to which outputs reflect training data patterns rather than genuine reasoning. Using the Moral Competence Test (MCT) and the Moral Foundations Questionnaire (MFQ), the researchers compared responses from human participants and LLM-based chatbots like ChatGPT. MCT results show that humans consistently outperform LLMs, indicating higher moral competence. MFQ responses from LLMs emphasize harm/care and fairness/reciprocity, but under-represent loyalty, authority, and purity foundations."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "MCT and MFQ responses from humans and LLMs"
-data_metrics: "Moral competence scores, MFQ foundation scores"
+abstract: "Background The primary purpose of this research is to investigate the moral reasoning capabilities of Large Language Models (LLMs), especially to find out possible biases in moral reasoning by ChatGPT and other LLM-based chatbots, and whether they engage in reasoning or simply reproduce information. The study employed an experiment to assess LLMs’ performance on their moral reasoning abilities. Methods Moral reasoning is assessed using the Moral Competence Test (MCT) and the Moral Foundation..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"

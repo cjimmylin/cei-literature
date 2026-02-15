@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,25 +14,25 @@ authors: "[[Wang, Jiahao]]; [[Xue, Songkai]]; [[Li, Jinghui]]; [[Wang, Xiaozhen]
 doi: 10.48550/arXiv.2511.00379
 url: "https://arxiv.org/abs/2511.00379"
 external_pdf: "https://arxiv.org/pdf/2511.00379.pdf"
-national_ethnic_cultural: N/A
-religious_values: N/A
-religious_values_list: N/A
+national_ethnic_cultural: "N/A"
+religious_values: "N/A"
+religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: "Value Pluralism / Schwartz, Moral Reasoning & Psychology"
 key_contribution: "Proposed an 'ethical reasoning paradigm' for LLMs involving a 5-step process (fact gathering to reflection) to align with diverse regional values (tested on SafeWorld benchmark)."
 significance: "Promotes 'procedural alignment' (teaching models *how* to reason ethically) over just 'behavioral alignment' (teaching models *what* to say), enabling better cross-cultural adaptability."
 pdf_extract: "PDF Extracts/2025/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md"
-abstract: "Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Cur- rent alignment approaches often yield superficial conformity rather than genuine ethical understanding, failing to address the complex, context-dependent nature of human values. In this paper, we propose a novel ethical reasoning paradigm for LLMs inspired by well-established ethical decision-making models, aiming at enh"
+abstract: "Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Current alignment approaches often yield superficial conformity rather than genuine ethical understanding, failing to address the complex, context-dependent nature of human values. In this paper, we propose a novel ethical reasoning paradigm for LLMs inspired by well-established ethical decision-making models, aiming at..."
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Cur- rent alignment approac | Overview: Diverse Human Value Alignment for Large Language Models via Ethical Reasoning Jiahao Wang1*, Songkai Xue1, Jinghui Li1, Xiaozhen Wang1 1Trustworthy Technology and Engineering (TTE) Laboratory, Huawei  | Methodology: against several competitors, including general Chain-of- Thoughts (CoT) prompting (Wei et al. 2022) and the state- of-the-art method in ethical judgme | Key Findings: steps that consider the ethical consequences of poten- tial actions on stakeholders. This analysis involves causal reasoning and weighing potential ha | Conclusions: This work presents the first theory-grounded ethical reason- ing paradigm addressing the critical challenge of aligning LLMs with diverse human values"
 local_pdf: "[[PDFs/2025/2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.pdf]]"
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, DeepSeek, Qwen"

@@ -2,6 +2,37 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 77 (Feb 14, 2026) - Wave 3 Enrichment Gap-Closing & Unknown Author Resolution
+
+### Overview
+Continued Wave 3 enrichment from previous Codex thread. Ran three parallel tasks: (1) resolved unknown/placeholder authors for 123 papers across all waves, (2) attempted automated PDF acquisition for 34 LSRC papers missing PDFs, (3) checked for manually downloaded PDFs to ingest. Created a new comprehensive author resolution script combining discovery + application in a single pass with 6-source API waterfall.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Unknown Authors Resolved | 37/123 (30.1%) |
+| Resolution Sources | OpenAlex: 30, arXiv ID: 5, CrossRef: 1, S2: 1 |
+| Papers Renamed | 37 (paper + PDF + extract) |
+| PDFs Downloaded | 4/34 (EuropePMC, direct publisher, ACL Anthology) |
+| PDF Extracts Created | 4 |
+| Manual Ingest | 0 (no downloads found) |
+| Unknown Authors Remaining | 86 |
+| Final Validation | 1847/1847 PASS, 0 errors |
+
+### Key Learnings
+- [API] OpenAlex is the most reliable free academic metadata API for author resolution -- resolved 30/37 (81%) of successful lookups. Semantic Scholar's rate limiting makes it nearly useless for batch operations.
+- [Author Management] The 86 unresolvable "Unknown" papers are predominantly non-academic resources (blog posts, workshop pages, Chinese government docs, dataset announcements).
+- [API] arXiv rate limits compound over long runs -- by paper ~75, both title search and ID lookup return HTTP 429 or timeouts.
+
+### Files Changed
+- papers/: 273 modified (37 author updates + 236 from prior Codex session), 2 new (renamed from [[Unknown]])
+- PDF Extracts/: 2 new, 2 deleted (renamed from [[Unknown]])
+- PYTHON/resolve_all_unknown_authors.py: NEW comprehensive script
+- logs/20260214-all-unknown-authors-resolved.json: Resolution results
+- logs/20260214-pdf-acquisition-pass2.json: PDF download results
+
+---
+
 ## Session 76 (Feb 14, 2026) - LLM Assessment Enrichment for Recent Wave Papers
 
 ### Overview

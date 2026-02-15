@@ -37,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4o, GPT-4o-mini, Llama3.1"
 DATA_URL: "https://huggingface.co/datasets/Exqrch/IndoDiscourse"
 tags: 
-abstract: "Polarization is defined as divisive opinions held by two or more groups on substantive issues. As the world’s third-largest democracy, Indonesia faces growing concerns about the interplay between political polarization and online toxicity, which is often directed at vulnerable minority groups. Despite the importance of this issue, previous NLP research has not fully explored the relationship between toxicity and polarization."
+abstract: "Polarization is defined as divisive opinions held by two or more groups on substantive issues. As the world's third-largest democracy, Indonesia faces growing concerns about the interplay between political polarization and online toxicity, which is often directed at vulnerable minority groups. Despite the importance of this issue, previous NLP research has not fully explored the relationship between toxicity and polarization."
 research_topic: "Bias & Fairness"
 ---
 # A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information

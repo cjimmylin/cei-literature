@@ -6,7 +6,7 @@ Human View note:
 Not AI: 
 key: LSRC0796
 type: conferencePaper
-short_title: "Ensuring Indigenous Peoples’ rights in the age of AI | United Nations"
+short_title: "Ensuring Indigenous Peoples' rights in the age of AI | United Nations"
 year: 2025
 first_author: "[[Unknown]]"
 last_author: "[[Unknown]]"

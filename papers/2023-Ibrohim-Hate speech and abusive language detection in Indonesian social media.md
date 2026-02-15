@@ -1,0 +1,79 @@
+---
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: LSRC0126
+type: journalArticle
+short_title: "Hate speech and abusive language detection in Indonesian social media: Progress and challenges"
+year: 2025
+first_author: "[[Muhammad Okky Ibrohim]]"
+last_author: "[[Indra Budi]]"
+authors: Muhammad Okky Ibrohim; Indra Budi
+doi: 10.1016/j.heliyon.2023.e18647
+url: "https://www.sciencedirect.com/science/article/pii/S2405844023058553"
+publication: "ScienceDirect (Heliyon)"
+pdf_extract: "PDF Extracts/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.md"
+local_pdf: "[[PDFs/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.pdf]]"
+external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10447929&blobtype=pdf"
+DATE_ADDED: 20260213
+ethics_overall: No
+virtue_ethics: No
+deontological_ethics: No
+utilitarian_ethics: No
+national_ethnic_cultural: Indonesian
+languages_list: Indonesian
+religious_values: N/A
+religious_values_list: N/A
+moral_psychology: N/A
+newtags: 
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
+data_metrics: "Not specified"
+LLM_assessed: NA
+DATA_URL: NA
+tags: 
+abstract: "Survey of hate speech and abusive language detection in Indonesian social media, documenting progress and challenges in building detection systems for Indonesian online toxicity."
+ethics_perspective: "Toxicity & Hate Speech"
+---
+# Hate speech and abusive language detection in Indonesian social media: Progress and challenges
+
+## Authors
+
+[[Unknown]]
+
+## Metadata
+
+**Authors:** Muhammad Okky Ibrohim, Indra Budi
+
+**Year:** 2023
+
+**Type:** journalArticle
+
+**Venue:** ScienceDirect (Heliyon)
+
+**Languages:** Indonesian
+
+## Links
+
+- **URL:** https://www.sciencedirect.com/science/article/pii/S2405844023058553
+
+## Abstract
+
+Survey of hate speech and abusive language detection in Indonesian social media, documenting progress and challenges in building detection systems for Indonesian online toxicity.
+
+## Data Description
+
+Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+
+## Notes
+
+**Source:** Language-Organized Benchmark Search (20260213), Agent A6
+**Relevance:** Comprehensive survey of Indonesian hate speech detection efforts, documenting available datasets and evaluation methods.
+
+## Tags
+

@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: 338NF5GT
 type: journalArticle
-short_title: "“Do Anything Now”"
+short_title: "'Do Anything Now'"
 year: 2025
 first_author: "[[Xinyue Shen]]"
 last_author: "[[Yang Zhang]]"
@@ -33,8 +33,8 @@ data_description: "Evaluation framework dataset"
 data_metrics: "107,250 samples"
 LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
-pdf_extract: "PDF Extracts/2023/2023-Shen-“Do Anything Now”.md"
-local_pdf: "[[PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
+pdf_extract: "PDF Extracts/2023/2023-Shen-'Do Anything Now'.md"
+local_pdf: "[[PDFs/2023/2023-Shen-'Do Anything Now'.pdf]]"
 ---
 # “Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models
 

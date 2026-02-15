@@ -31,7 +31,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "In the Indian subcontinent, Telugu, one of India’s six classical languages, is the most widely spoken Dravidian Language. Despite its 96 million speaker base worldwide, Telugu remains underrepresented in the global NLP and Machine Learning landscape, mainly due to lack of high-quality annotated resources. This work introduces TeSent, a comprehensive benchmark dataset for sentiment classification, a key text classification problem, in Telugu."
+abstract: "In the Indian subcontinent, Telugu, one of India's six classical languages, is the most widely spoken Dravidian Language. Despite its 96 million speaker base worldwide, Telugu remains underrepresented in the global NLP and Machine Learning landscape, mainly due to lack of high-quality annotated resources. This work introduces TeSent, a comprehensive benchmark dataset for sentiment classification, a key text classification problem, in Telugu."
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"

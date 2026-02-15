@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Despite having a population of twenty million, Kazakhstan’s culture and language remain underrepresented in the field of natural language processing. Although large language models (LLMs) continue to advance worldwide, progress in Kazakh language has been limited, as seen in the scarcity of dedicated models and benchmark evaluations. To address this gap, we introduce KazMMLU, the first MMLU-style dataset specifically designed for Kazakh language."
+abstract: "Despite having a population of twenty million, Kazakhstan's culture and language remain underrepresented in the field of natural language processing. Although large language models (LLMs) continue to advance worldwide, progress in Kazakh language has been limited, as seen in the scarcity of dedicated models and benchmark evaluations. To address this gap, we introduce KazMMLU, the first MMLU-style dataset specifically designed for Kazakh language."
 data_description: "Multilingual benchmark dataset"
 data_metrics: "23,000 questions"
 LLM_assessed: "ALBERT, BLOOM, BLOOMZ, DeepSeek, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Gemma-2., LLama-3.1, Llama, Llama., Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5"

@@ -6,7 +6,7 @@ Human View note:
 Not AI: 
 key: 3YCY3Z9T
 type: journalArticle
-short_title: "Metaethical perspectives on ‘benchmarking’ AI"
+short_title: "Metaethical perspectives on 'benchmarking' AI"
 year: 2025
 first_author: "[[Travis LaCroix]]"
 last_author: "[[Alexandra Sasha Luccioni]]"
@@ -22,7 +22,7 @@ newtags: "American, AI Safety & Alignment"
 key_contribution: "Meta-ethical critique arguing that establishing a universal 'ethics benchmark' for AI is philosophically impossible due to the relative nature of values."
 significance: "Challenges the industry's rush toward standardized 'ethics scores', proposing instead that we must explicitly measure 'value alignment' (which acknowledges specific, relative value systems) rather than a generic notion of 'ethics'."
 tags: 
-abstract: "Benchmarks are seen as the cornerstone for measuring technical progress in artificial intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to emotion recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the ‘ethicality’ of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to devel"
+abstract: "Benchmarks are seen as the cornerstone for measuring technical progress in artificial intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to emotion recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the 'ethicality' of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to devel"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -35,8 +35,8 @@ data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3"
 DATA_URL: NA
-pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md"
-local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md"
+local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.pdf]]"
 ---
 # Metaethical perspectives on ‘benchmarking’ AI ethics
 

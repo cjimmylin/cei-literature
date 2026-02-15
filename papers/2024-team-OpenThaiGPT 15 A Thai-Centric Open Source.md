@@ -31,7 +31,7 @@ is_benchmark: Yes
 is_eval: No
 is_dataset: No
 tags: 
-abstract: "OpenThaiGPT 1.5 is an advanced Thai language chat model based on Qwen v2.5, ﬁnetuned on over 2,000,000 Thai instruction pairs. This report provides an engineering perspective on the model’s development, capabilities, and performance. We discuss the model’s architecture, training process, and key features, including multi-turn conversation support, Retrieval Augmented Generation (RAG) compatibility, and tool-calling functionality. Benchmark results demonstrate OpenThaiGPT 1."
+abstract: "OpenThaiGPT 1.5 is an advanced Thai language chat model based on Qwen v2.5, ﬁnetuned on over 2,000,000 Thai instruction pairs. This report provides an engineering perspective on the model's development, capabilities, and performance. We discuss the model's architecture, training process, and key features, including multi-turn conversation support, Retrieval Augmented Generation (RAG) compatibility, and tool-calling functionality. Benchmark results demonstrate OpenThaiGPT 1."
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "Claude 3.5 Sonnet, GPT-4o, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Qwen, Qwen2, Qwen2.5"

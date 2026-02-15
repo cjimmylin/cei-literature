@@ -29,7 +29,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Emotional intelligence in large language models (LLMs) is of great importance in Natural Language Processing. However, the previous research mainly focus on basic sentiment analysis tasks, such as emotion recognition, which is not enough to evaluate LLMs’ overall emotional intelligence. Therefore, this paper presents a novel framework named EmotionQueen for evaluating the emotional intelligence of LLMs."
+abstract: "Emotional intelligence in large language models (LLMs) is of great importance in Natural Language Processing. However, the previous research mainly focus on basic sentiment analysis tasks, such as emotion recognition, which is not enough to evaluate LLMs' overall emotional intelligence. Therefore, this paper presents a novel framework named EmotionQueen for evaluating the emotional intelligence of LLMs."
 research_topic: "NLP & Representation Learning"
 data_description: Benchmark
 data_metrics: "Not specified"

@@ -14,8 +14,9 @@ last_author: [[Ghayoomi]]
 authors: "Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi"
 url: "https://tjee.tabrizu.ac.ir/article_15794.html"
 publication: "Tabriz Journal of Electrical Engineering"
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2023/2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md"
+local_pdf: "[[PDFs/2023/2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.pdf]]"
+external_pdf: "https://tjee.tabrizu.ac.ir/article_15794_1a75a5b450027a6f41f6dfb9e8cf3e51.pdf?lang=en"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

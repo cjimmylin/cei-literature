@@ -35,7 +35,7 @@ data_metrics: "Not specified"
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
-abstract: "Please check and cite the published version of this paper in the Proceedings of the 19th AAAI International Conference on Web and Social Media (ICWSM’25). Proprietary public APIs play a crucial and growing role as research tools among social scientists. Among such APIs, Google’s machine learning-based Perspective API is extensively utilized for assessing the toxicity of social media messages, providing both an important resource for researchers and automatic content moderation."
+abstract: "Please check and cite the published version of this paper in the Proceedings of the 19th AAAI International Conference on Web and Social Media (ICWSM'25). Proprietary public APIs play a crucial and growing role as research tools among social scientists. Among such APIs, Google's machine learning-based Perspective API is extensively utilized for assessing the toxicity of social media messages, providing both an important resource for researchers and automatic content moderation."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Toxic Bias: Perspective API Misreads German as More Toxic

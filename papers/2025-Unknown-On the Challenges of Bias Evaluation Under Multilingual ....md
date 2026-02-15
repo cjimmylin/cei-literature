@@ -16,7 +16,7 @@ url: "https://aclanthology.org/2022.bigscience-1.3.pdf"
 external_pdf: "https://aclanthology.org/2022.bigscience-1.3.pdf"
 publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/0000/2025-Unknown-On the Challenges of Bias Evaluation Under Multilingual ....md"
-local_pdf: "[[PDFs/2025-Unknown-On the Challenges of Bias Evaluation Under Multilingual ....pdf]]"
+local_pdf: "[[PDFs/2025/2025-Unknown-On the Challenges of Bias Evaluation Under Multilingual ....pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

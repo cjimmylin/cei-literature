@@ -34,7 +34,7 @@ data_metrics: "Not specified"
 LLM_assessed: "o3-pro, multiple LLMs"
 DATA_URL: "https://scale.com/leaderboard/multinrc"
 tags: 
-abstract: "Although recent Large Language Models (LLMs) have shown rapid improvement on reasoning benchmarks in English, the evaluation of such LLMs’ multilingual reasoning capability across diverse languages and cultural contexts remains limited. Existing multilingual reasoning benchmarks are typically constructed by translating existing English reasoning benchmarks, biasing these benchmarks towards reasoning problems with context in English language/cultures."
+abstract: "Although recent Large Language Models (LLMs) have shown rapid improvement on reasoning benchmarks in English, the evaluation of such LLMs' multilingual reasoning capability across diverse languages and cultural contexts remains limited. Existing multilingual reasoning benchmarks are typically constructed by translating existing English reasoning benchmarks, biasing these benchmarks towards reasoning problems with context in English language/cultures."
 research_topic: "Machine Translation"
 ---
 # MultiNRC: A Challenging and Native Multilingual Reasoning Evaluation Benchmark for LLMs

@@ -30,7 +30,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Preference elicitation frameworks feature heavily in the research on participatory ethical AI tools and provide a viable mechanism to enquire and incorporate the moral values of various stakeholders. As part of the elicitation process, surveys about moral preferences, opinions, and judgments are typically administered only once to each participant. This methodological practice is reasonable if participants’ responses are stable over time such that, all other relevant factors being held..."
+abstract: "Preference elicitation frameworks feature heavily in the research on participatory ethical AI tools and provide a viable mechanism to enquire and incorporate the moral values of various stakeholders. As part of the elicitation process, surveys about moral preferences, opinions, and judgments are typically administered only once to each participant. This methodological practice is reasonable if participants' responses are stable over time such that, all other relevant factors being held..."
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

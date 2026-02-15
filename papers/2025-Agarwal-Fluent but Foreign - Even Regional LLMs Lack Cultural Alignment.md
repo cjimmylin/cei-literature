@@ -29,7 +29,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building “regional” or “sovereign” LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions—values and practices—grounded in nationally representative surveys and community-sourced QA datasets."
+abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building 'regional' or 'sovereign' LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions—values and practices—grounded in nationally representative surveys and community-sourced QA datasets."
 ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"

@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs’ cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
+abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs' cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
 data_description: "Benchmark dataset"
 data_metrics: "52.6k question"
 LLM_assessed: "Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen1.5, gpt-3.5-turbo"

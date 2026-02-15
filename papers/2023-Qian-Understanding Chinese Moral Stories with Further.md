@@ -23,7 +23,7 @@ significance: "Addresses the lack of non-English resources for moral narrative u
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Qian-Understanding Chinese Moral Stories with Further.md"
 local_pdf: "[[PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
-abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The “pre- training + fine-tuning” paradigm is widely embraced in neural language models. In this pa"
+abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The 'pre- training + fine-tuning' paradigm is widely embraced in neural language models. In this pa"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

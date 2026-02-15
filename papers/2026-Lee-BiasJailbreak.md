@@ -13,7 +13,7 @@ authors: "Isack Lee, Haebin Seong"
 url: "https://arxiv.org/abs/2410.13334"
 external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
 pdf_extract: "PDF Extracts/0000/2026-Lee-BiasJailbreak.md"
-local_pdf: "[[PDFs/2026-Lee-BiasJailbreak.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Lee-BiasJailbreak.pdf]]"
 publication: "AAAI 2026"
 DATE_ADDED: 20260207
 ethics_overall: No
@@ -29,7 +29,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 tags: 
-abstract: "Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as ‘jailbreaks’, where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks."
+abstract: "Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as 'jailbreaks', where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks."
 ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"

@@ -29,7 +29,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Large Language Models’ (LLMs) programming capabilities enable their participation in open-source games: a game-theoretic setting in which players submit computer programs in lieu of actions. These programs offer numerous advantages, including interpretability, inter-agent transparency, and formal verifiability; additionally, they enable program equilibria, solutions that leverage the transparency of code and are inaccessible within normal-form settings."
+abstract: "Large Language Models' (LLMs) programming capabilities enable their participation in open-source games: a game-theoretic setting in which players submit computer programs in lieu of actions. These programs offer numerous advantages, including interpretability, inter-agent transparency, and formal verifiability; additionally, they enable program equilibria, solutions that leverage the transparency of code and are inaccessible within normal-form settings."
 research_topic: "Interpretability & Explainability"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"

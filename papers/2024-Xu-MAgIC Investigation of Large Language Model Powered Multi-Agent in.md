@@ -29,7 +29,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Large Language Models (LLMs) have significantly advanced natural language processing, demonstrating exceptional reasoning, tool usage, and memory capabilities. As their applications expand into multi-agent environments, there arises a need for a comprehensive evaluation framework that captures LLMs’ reasoning, planning, collaboration, and other social abilities. This work introduces a novel competitionbased benchmark framework specifically designed to assess LLMs within multi-agent settings,..."
+abstract: "Large Language Models (LLMs) have significantly advanced natural language processing, demonstrating exceptional reasoning, tool usage, and memory capabilities. As their applications expand into multi-agent environments, there arises a need for a comprehensive evaluation framework that captures LLMs' reasoning, planning, collaboration, and other social abilities. This work introduces a novel competitionbased benchmark framework specifically designed to assess LLMs within multi-agent settings,..."
 research_topic: "Truthfulness & Factuality"
 data_description: Benchmark
 data_metrics: "Not specified"

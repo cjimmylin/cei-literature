@@ -25,7 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/0000/2025-Takeshita-JETHICS.md"
 abstract: "In this work, we propose JETHICS, a Japanese dataset for evaluating ethics understanding of AI models. JETHICS contains 78K examples and is built by following the construction meth- ods of the existing English ETHICS dataset. It includes four categories based normative theo- ries and concepts from ethics and political phi- losophy; and one representing commonsense morality. Our evaluation experiments on non- proprietary large language models (LLMs) and on GPT-4o reveal that even GPT-4o achieves"
 paper_summary: "Abstract: In this work, we propose JETHICS, a Japanese dataset for evaluating ethics understanding of AI models. JETHICS contains 78K examples and is built by following the construction meth- ods of the existin | Overview: arXiv:2506.16187v1 [cs.CL] 19 Jun 2025 JETHICS: Japanese Ethics Understanding Evaluation Dataset Masashi Takeshita Nagoya University takeshita.masashi.68@gmail.com Rafal Rzepka Hokkaido University rze | Conclusions: We first analyze the dataset. The low kappa score (0.18) in the utilitarianism category likely stems from the fact that crowdworkers were asked to jud"
-local_pdf: "[[PDFs/2025-Takeshita-JETHICS.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Takeshita-JETHICS.pdf]]"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

@@ -29,7 +29,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 tags: 
-abstract: "As autonomous agents become more prevalent, understanding their collective behaviour in strategic interactions is crucial. This study investigates the emergent cooperative tendencies of systems of Large Language Model (LLM) agents in a social dilemma. Unlike previous research where LLMs output individual actions, we prompt state-of-theart LLMs to generate complete strategies for iterated Prisoner’s Dilemma."
+abstract: "As autonomous agents become more prevalent, understanding their collective behaviour in strategic interactions is crucial. This study investigates the emergent cooperative tendencies of systems of Large Language Model (LLM) agents in a social dilemma. Unlike previous research where LLMs output individual actions, we prompt state-of-theart LLMs to generate complete strategies for iterated Prisoner's Dilemma."
 research_topic: "NLP & Representation Learning"
 data_description: N/A
 data_metrics: "Not specified"

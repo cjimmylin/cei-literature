@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Africa’s rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa’s language landscape with an empirical evaluation using SAHARA— a comprehensive benchmark we curate from large-scale, publicly accessible datasets capturing the continent’s linguistic diversity."
+abstract: "Africa's rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa's language landscape with an empirical evaluation using SAHARA— a comprehensive benchmark we curate from large-scale, publicly accessible datasets capturing the continent's linguistic diversity."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4"

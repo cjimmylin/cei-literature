@@ -30,7 +30,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 tags: 
-abstract: "How could LLMs influence our democracy? We investigate LLMs’ political leanings and the potential influence of LLMs on voters by conducting multiple experiments in a U.S. presidential election context. Through a voting simulation, we first demonstrate 18 openand closed-weight LLMs’ political preference for a Democratic nominee over a Republican nominee. We show how this leaning towards the Democratic nominee becomes more pronounced in instruction-tuned models compared to their base versions by..."
+abstract: "How could LLMs influence our democracy? We investigate LLMs' political leanings and the potential influence of LLMs on voters by conducting multiple experiments in a U.S. presidential election context. Through a voting simulation, we first demonstrate 18 openand closed-weight LLMs' political preference for a Democratic nominee over a Republican nominee. We show how this leaning towards the Democratic nominee becomes more pronounced in instruction-tuned models compared to their base versions by..."
 ethics_perspective: "AI Safety & Alignment"
 data_description: N/A
 data_metrics: "Not specified"

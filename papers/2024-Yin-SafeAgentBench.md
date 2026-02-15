@@ -14,7 +14,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
 pdf_extract: "PDF Extracts/0000/2024-Yin-SafeAgentBench.md"
-local_pdf: "[[PDFs/2024-Yin-SafeAgentBench.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Yin-SafeAgentBench.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No
@@ -30,7 +30,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions. However, a foreseeable issue is that those embodied agents can also flawlessly execute some hazardous tasks, potentially causing damages in the real world. Existing benchmarks predominantly overlook critical safety risks, focusing solely on planning performance, while a few evaluate LLMs’ safety awareness only on non-interactive..."
+abstract: "With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions. However, a foreseeable issue is that those embodied agents can also flawlessly execute some hazardous tasks, potentially causing damages in the real world. Existing benchmarks predominantly overlook critical safety risks, focusing solely on planning performance, while a few evaluate LLMs' safety awareness only on non-interactive..."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"

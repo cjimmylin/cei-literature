@@ -22,6 +22,7 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 from collections import Counter
 from dataclasses import dataclass
@@ -30,6 +31,13 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 import fitz
+
+# Add PYTHON dir to path for yaml_frontmatter_utils import
+_script_dir = Path(__file__).resolve().parent
+if str(_script_dir) not in sys.path:
+    sys.path.insert(0, str(_script_dir))
+
+from yaml_frontmatter_utils import extract_frontmatter, parse_frontmatter, validate_frontmatter  # noqa: E402
 
 print = functools.partial(print, flush=True)
 
@@ -146,11 +154,12 @@ def get_pdfs_dir() -> Path:
     return Path(cfg["pdf_path"]).resolve()
 
 
-def extract_field(text: str, name: str) -> str:
-    m = re.search(rf"^{re.escape(name)}:\s*(.*)$", text, flags=re.MULTILINE)
-    if not m:
-        return ""
-    return m.group(1).strip()
+def _strip_quotes(s: str) -> str:
+    """Strip surrounding single or double quotes from a value."""
+    s = s.strip()
+    if len(s) >= 2 and ((s.startswith('"') and s.endswith('"')) or (s.startswith("'") and s.endswith("'"))):
+        return s[1:-1].strip()
+    return s
 
 
 def parse_paper_meta(paper_file: str) -> Optional[PaperMeta]:
@@ -158,13 +167,18 @@ def parse_paper_meta(paper_file: str) -> Optional[PaperMeta]:
     if not p.exists():
         return None
     txt = p.read_text(encoding="utf-8", errors="ignore")
-    short_title = extract_field(txt, "short_title").strip('"').strip("'")
-    title = short_title or extract_field(txt, "title").strip('"').strip("'") or p.stem
-    year = extract_field(txt, "year").strip('"').strip("'")
-    doi = extract_field(txt, "doi").strip('"').strip("'")
-    url = extract_field(txt, "url").strip('"').strip("'")
-    external_pdf = extract_field(txt, "external_pdf").strip('"').strip("'")
-    local_pdf = extract_field(txt, "local_pdf").strip('"').strip("'")
+    try:
+        fm_text, _body = extract_frontmatter(txt)
+        fields = parse_frontmatter(fm_text)
+    except ValueError:
+        return None
+    short_title = _strip_quotes(fields.get("short_title", ""))
+    title = short_title or _strip_quotes(fields.get("title", "")) or p.stem
+    year = _strip_quotes(fields.get("year", ""))
+    doi = _strip_quotes(fields.get("doi", ""))
+    url = _strip_quotes(fields.get("url", ""))
+    external_pdf = _strip_quotes(fields.get("external_pdf", ""))
+    local_pdf = _strip_quotes(fields.get("local_pdf", ""))
     if doi:
         doi = doi.replace("https://doi.org/", "").replace("http://doi.org/", "")
         doi = doi.replace("doi:", "").strip().rstrip(".")
@@ -345,7 +359,7 @@ def compute_year(paper: PaperMeta) -> str:
     return "0000"
 
 
-def safe_update_external_pdf(paper_path: Path, pdf_url: str) -> None:
+def safe_update_external_pdf(paper_path: Path, pdf_url: str) -> bool:
     text = paper_path.read_text(encoding="utf-8")
     new_line = f'external_pdf: "{pdf_url.replace(chr(34), chr(39))}"'
     if re.search(r"^external_pdf:.*$", text, flags=re.MULTILINE):
@@ -354,10 +368,21 @@ def safe_update_external_pdf(paper_path: Path, pdf_url: str) -> None:
         text = re.sub(r"(^url:.*$\n)", r"\1" + new_line + "\n", text, count=1, flags=re.MULTILINE)
     else:
         text = text.replace("DATE_ADDED:", new_line + "\nDATE_ADDED:", 1)
+    # Validate frontmatter before writing
+    try:
+        fm_text, _body = extract_frontmatter(text)
+        is_valid, issues = validate_frontmatter(fm_text)
+        if not is_valid:
+            print(f"  WARN: validate_frontmatter failed for {paper_path.name}: {issues}")
+            return False
+    except ValueError as exc:
+        print(f"  WARN: frontmatter extraction failed for {paper_path.name}: {exc}")
+        return False
     paper_path.write_text(text, encoding="utf-8")
+    return True
 
 
-def safe_update_local_pdf(paper_path: Path, rel_pdf_path: str) -> None:
+def safe_update_local_pdf(paper_path: Path, rel_pdf_path: str) -> bool:
     text = paper_path.read_text(encoding="utf-8")
     # Obsidian wikilinks cannot safely represent paths containing "[[" or "]]".
     if "[[" in rel_pdf_path or "]]" in rel_pdf_path:
@@ -378,7 +403,18 @@ def safe_update_local_pdf(paper_path: Path, rel_pdf_path: str) -> None:
         text = re.sub(r"(^url:.*$\n)", r"\1" + new_line + "\n", text, count=1, flags=re.MULTILINE)
     else:
         text = text.replace("DATE_ADDED:", new_line + "\nDATE_ADDED:", 1)
+    # Validate frontmatter before writing
+    try:
+        fm_text, _body = extract_frontmatter(text)
+        is_valid, issues = validate_frontmatter(fm_text)
+        if not is_valid:
+            print(f"  WARN: validate_frontmatter failed for {paper_path.name}: {issues}")
+            return False
+    except ValueError as exc:
+        print(f"  WARN: frontmatter extraction failed for {paper_path.name}: {exc}")
+        return False
     paper_path.write_text(text, encoding="utf-8")
+    return True
 
 
 def file_has_valid_local_pdf(paper: PaperMeta, pdfs_dir: Path) -> bool:

@@ -34,6 +34,20 @@
 
 ---
 
+## 2026-02-14
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-14 | Data Quality | **Codex Dedup Forensics — 3-Phase Trace:** Codex's dedup ran in 3 distinct phases: (1) exact-pass: 32 groups, 34 papers recycled; (2) manual-confident: 5 groups, 5 papers recycled; (3) interim cleanup: 3 papers recycled (LSRC0311 wrong PDF, 2 others). Total: 42 papers removed (1889→1847). The `dedup_final_summary.json` only shows phase 1 count (1855), causing apparent discrepancy. Always check ALL dedup logs (`consolidation_log.json` + `final_summary.json`) to get the complete picture. |
+| 2026-02-14 | YAML | **Codex Scripts Bypass Vault Safety Patterns:** All 3 Codex-created scripts (`apply_alt_method_direct_candidates.py`, `fix_placeholder_author_filenames.py`, `recover_no_extract_pdfs_from_urls.py`) reimplemented YAML parsing instead of importing shared `yaml_frontmatter_utils.py`. None called `validate_frontmatter()` before file writes. Refactoring pattern: add `sys.path` setup for shared imports, delegate to `extract_frontmatter()`/`parse_frontmatter()`, and gate all writes on `validate_frontmatter()` returning True. |
+| 2026-02-14 | YAML | **Validation-Before-I/O Ordering Bug:** `recover_no_extract_pdfs_from_urls.py` performed `shutil.move()` and `write_extract()` BEFORE `validate_frontmatter()`. If validation failed, orphaned PDF/extract artifacts remained on disk. Fix: reorder operations so validation is the first step after constructing new YAML content, before any filesystem side effects. General principle: validate early, I/O late. |
+| 2026-02-14 | Data Quality | **Curly Quote Prevalence:** 327/1847 papers (18%) had Unicode curly quotes in YAML frontmatter. Sources: copy-paste from PDFs and web pages during import. Fix script: `PYTHON/fix_curly_quotes.py` replaces `\u201c`/`\u201d`/`\u2018`/`\u2019` with straight `'` (single quote for all, since `validate_frontmatter()` counts `"` chars). Only operates on frontmatter section between `---` delimiters to avoid corrupting body content. |
+| 2026-02-14 | Author Management | **Web-Only Papers Resist API Author Resolution:** Of 103 remaining [[Unknown]] papers, 88 have only web URLs (no DOIs, no arXiv IDs). `discover_unknown_authors.py` resolved all API-accessible papers in earlier sessions; the remainder are regional conference proceedings, blog posts, and dataset pages that require manual web browsing or scraping. The "existing_yaml" source in the script is unreliable — it copies the placeholder `[[Unknown]]` back as a "resolution". |
+| 2026-02-14 | PDF Processing | **Root-Level PDF Orphans Were Duplicates:** 51 of 60 root-level PDFs in `../PDFs/` were byte-identical copies of files already in year subdirectories (`../PDFs/YYYY/`). The 9 genuine orphans were migrated successfully by `migrate_pdfs_to_year_dirs.py`. The 51 duplicates likely came from Codex running `comprehensive_pdf_finder.py` which downloads to root level, followed by a migration pass that copied (not moved) to year dirs. Safe to RECYCLE-BIN all root-level duplicates after verifying year-subdir copy exists. |
+| 2026-02-14 | Workflows | **Parallel Agent Swarm for Audit Tasks:** 3-wave execution pattern works well for audit/remediation: Wave 1 (3 independent agents: bug fix + curly quotes, count investigation, script refactoring), Wave 2 (2 agents: PDF migration, author resolution), Wave 3 (validation). Key constraint: subagents may lack Bash permissions that the main session has — always have a fallback plan to run scripts directly if agent permissions are denied. |
+
+---
+
 ## 2026-02-13
 
 | Date | Category | Learning |

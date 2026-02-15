@@ -6,7 +6,7 @@ Human View note:
 Not AI: 
 key: LSRC0646
 type: conferencePaper
-short_title: "Uyghur Poetry in Translation: Perhat Tursun’s “Elegy” – Fairbank Center for Chinese Studies"
+short_title: "Uyghur Poetry in Translation: Perhat Tursun's 'Elegy' – Fairbank Center for Chinese Studies"
 year: 2025
 first_author: "[[Reyila Dilnigar]]"
 last_author: "[[Reyila Dilnigar]]"

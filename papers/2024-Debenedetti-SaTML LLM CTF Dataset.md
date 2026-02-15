@@ -30,7 +30,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: Yes
 tags: 
-abstract: "Large language model systems face important security risks from maliciously crafted messages that aim to overwrite the system’s original instructions or leak private data. To study this problem, we organized a capture-the-flag competition at IEEE SaTML 2024, where the flag is a secret string in the LLM system prompt. The competition was organized in two phases. In the first phase, teams developed defenses to prevent the model from leaking the secret."
+abstract: "Large language model systems face important security risks from maliciously crafted messages that aim to overwrite the system's original instructions or leak private data. To study this problem, we organized a capture-the-flag competition at IEEE SaTML 2024, where the flag is a secret string in the LLM system prompt. The competition was organized in two phases. In the first phase, teams developed defenses to prevent the model from leaking the secret."
 research_topic: "Machine Learning"
 data_description: Dataset
 data_metrics: "Not specified"

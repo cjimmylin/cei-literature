@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Language models (LMs) are indispensable tools shaping modern workflows, but their global effectiveness depends on understanding local socio-cultural contexts. To address this, we introduce SANSKRITI, a benchmark designed to evaluate language models’ comprehension of India’s rich cultural diversity. Comprising of 21,853 meticulously curated question-answer pairs spanning 28 states and 8 union territories, SANSKRITI is the largest dataset for testing Indian cultural knowledge."
+abstract: "Language models (LMs) are indispensable tools shaping modern workflows, but their global effectiveness depends on understanding local socio-cultural contexts. To address this, we introduce SANSKRITI, a benchmark designed to evaluate language models' comprehension of India's rich cultural diversity. Comprising of 21,853 meticulously curated question-answer pairs spanning 28 states and 8 union territories, SANSKRITI is the largest dataset for testing Indian cultural knowledge."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, GPT-4o, Gemma, Gemma-2, Llama, LLAMA-3., LLAMA-3.1, LLAMA-3.2, Mistral, Mistral-7B, Phi-3-medium, Phi3-medium, Qwen-2.5, Qwen2, Qwen2.5, GPT-3"

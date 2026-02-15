@@ -15,7 +15,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03273"
 external_pdf: "https://arxiv.org/pdf/2601.03273.pdf"
 pdf_extract: "PDF Extracts/0000/2025-Machlovi-GuardEval.md"
-local_pdf: "[[PDFs/2025-Machlovi-GuardEval.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Machlovi-GuardEval.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
 ethics_overall: No

@@ -16,7 +16,7 @@ authors_incomplete: false
 url: 
 external_pdf: "http://www.gbv.de/dms/bowker/toc/9780415749237.pdf"
 pdf_extract: "PDF Extracts/0000/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md"
-local_pdf: "[[PDFs/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf]]"
 publication: "Submitted to NeurIPS 2025 (under review)"
 DATE_ADDED: 20260213
 ethics_overall: No

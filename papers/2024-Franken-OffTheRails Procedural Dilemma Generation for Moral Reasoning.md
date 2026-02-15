@@ -30,7 +30,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "As AI systems like language models are increasingly integrated into decision-making processes affecting people’s lives, it’s critical to ensure that these systems have sound moral reasoning. To test whether they do, we need to develop systematic evaluations. We provide a framework that uses a language model to translate causal graphs that capture key aspects of moral dilemmas into prompt templates. With this framework, we procedurally generated a large and diverse set of moral dilemmas— the..."
+abstract: "As AI systems like language models are increasingly integrated into decision-making processes affecting people's lives, it's critical to ensure that these systems have sound moral reasoning. To test whether they do, we need to develop systematic evaluations. We provide a framework that uses a language model to translate causal graphs that capture key aspects of moral dilemmas into prompt templates. With this framework, we procedurally generated a large and diverse set of moral dilemmas— the..."
 ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "50 scenarios"

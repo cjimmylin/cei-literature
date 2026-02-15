@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "The advancement of Large Language Models (LLMs) has transformed natural language processing; however, their safety mechanisms remain under-explored in low-resource, multilingual settings. Here, we aim to bridge this gap. In particular, we introduce SGToxicGuard, a novel dataset and evaluation framework for benchmarking LLM safety in Singapore’s diverse linguistic context, including Singlish, Chinese, Malay, and Tamil."
+abstract: "The advancement of Large Language Models (LLMs) has transformed natural language processing; however, their safety mechanisms remain under-explored in low-resource, multilingual settings. Here, we aim to bridge this gap. In particular, we introduce SGToxicGuard, a novel dataset and evaluation framework for benchmarking LLM safety in Singapore's diverse linguistic context, including Singlish, Chinese, Malay, and Tamil."
 data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, LLaMA-3.1, Mistral, Mistral 0.74 2, Mistral 11.47 69, Mistral-7B, Qwen, Qwen 0.12, Qwen 0.90, Qwen2.5"

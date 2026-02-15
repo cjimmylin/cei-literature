@@ -30,7 +30,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "With the rapid development of Large language models (LLMs), understanding the capabilities of LLMs in identifying unsafe content has become increasingly important. While previous works have introduced several benchmarks to evaluate the safety risk of LLMs, the community still has a limited understanding of current LLMs’ capability to recognize illegal and unsafe content in Chinese contexts. In this work, we present a Chinese safety benchmark (ChineseSafe) to facilitate research on the content..."
+abstract: "With the rapid development of Large language models (LLMs), understanding the capabilities of LLMs in identifying unsafe content has become increasingly important. While previous works have introduced several benchmarks to evaluate the safety risk of LLMs, the community still has a limited understanding of current LLMs' capability to recognize illegal and unsafe content in Chinese contexts. In this work, we present a Chinese safety benchmark (ChineseSafe) to facilitate research on the content..."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "205,034 examples; 20,000 examples"

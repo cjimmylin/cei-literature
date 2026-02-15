@@ -2,6 +2,42 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 75 (Feb 14, 2026) - Codex Session Audit & Remediation
+
+### Overview
+Audited three OpenAI Codex sessions (GPT-5.3-Codex) that ran on the vault 2026-02-13/14, assessing artifacts, fixing script bugs, and cleaning up data quality issues. Executed a 6-task remediation plan across 3 waves with parallel agent swarms.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Tasks Completed | 6/6 (A-F) |
+| Script Bug Fixed | `recover_no_extract_pdfs_from_urls.py` — validation-before-I/O reorder |
+| Scripts Refactored | 3 Codex scripts → shared `yaml_frontmatter_utils` imports + validation |
+| Curly Quotes Fixed | 327 files, 672 replacements, 0 remaining |
+| Count Discrepancy | RESOLVED: 1889 → 1847 (34 exact dedup + 5 manual + 3 cleanup = 42 recycled) |
+| Orphan PDFs Cleaned | 9 migrated to year dirs + 51 duplicates → RECYCLE-BIN |
+| Unknown Authors | 103 remain (web-only content, no API resolution possible) |
+| Final Validation | 1847/1847 PASS, 0 errors |
+
+### Key Learnings
+- [Data Quality] Codex dedup pipeline was correct — full forensic trace confirmed 42 papers properly recycled across 3 phases (exact, manual-confident, cleanup)
+- [YAML] Codex-created scripts bypassed `validate_frontmatter()` — all 3 refactored to enforce validation before writes
+- [Author Management] Of 103 remaining [[Unknown]] papers, 88 are web-only content with no DOIs/arXiv IDs — API resolution is infeasible; needs manual lookup or web scraping
+- [PDF Processing] Root-level PDF orphans (51) were duplicates of year-subdir copies, not missing migrations — safely recycled
+
+### Files Changed
+- `PYTHON/recover_no_extract_pdfs_from_urls.py`: Critical bug fix + refactor
+- `PYTHON/apply_alt_method_direct_candidates.py`: Refactored to use shared utils
+- `PYTHON/fix_placeholder_author_filenames.py`: Refactored to use shared utils
+- `PYTHON/fix_curly_quotes.py`: New script (curly quote normalization)
+- 327 paper files: curly quote fixes in YAML
+- 59 paper files: `local_pdf` wikilink updates (orphan PDF migration)
+- 51 PDFs moved to RECYCLE-BIN (duplicate orphans)
+- `CLAUDE.md`: Updated paper/PDF/extract/author counts
+- `docs/SESSION_HISTORY.md`: This entry
+
+---
+
 ## Session 74 (Feb 14, 2026) - End-Session Closure + Memory Consolidation
 
 ### Overview

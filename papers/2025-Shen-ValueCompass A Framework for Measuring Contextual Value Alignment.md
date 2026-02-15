@@ -29,7 +29,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "As AI advances, aligning it with diverse human and societal values grows critical. But how do we define these values and measure AI’s adherence to them? We present ValueCompass, a framework grounded in psychological theories, to assess human-AI alignment. Applying it to five diverse LLMs and 112 humans from seven countries across four scenarios—collaborative writing, education, public sectors, and healthcare—we uncover key misalignments."
+abstract: "As AI advances, aligning it with diverse human and societal values grows critical. But how do we define these values and measure AI's adherence to them? We present ValueCompass, a framework grounded in psychological theories, to assess human-AI alignment. Applying it to five diverse LLMs and 112 humans from seven countries across four scenarios—collaborative writing, education, public sectors, and healthcare—we uncover key misalignments."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

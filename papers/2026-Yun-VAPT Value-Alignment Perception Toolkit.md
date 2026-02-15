@@ -30,7 +30,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Does AI understand human values? While this remains an open philosophical question, we take a pragmatic stance by introducing VAPT, the Value-Alignment Perception Toolkit, for studying how LLMs reflect people’s values and how people judge those reflections. 20 participants texted a chatbot over a month, then completed a 2-hour interview with our toolkit evaluating AI’s ability to extract (pull details regarding), embody (make decisions guided by), and explain (provide proof of) their values."
+abstract: "Does AI understand human values? While this remains an open philosophical question, we take a pragmatic stance by introducing VAPT, the Value-Alignment Perception Toolkit, for studying how LLMs reflect people's values and how people judge those reflections. 20 participants texted a chatbot over a month, then completed a 2-hour interview with our toolkit evaluating AI's ability to extract (pull details regarding), embody (make decisions guided by), and explain (provide proof of) their values."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: Claude

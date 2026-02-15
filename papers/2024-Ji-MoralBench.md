@@ -13,7 +13,7 @@ authors: "[[Ji, Jianchao]]; [[Chen, Yutong]]; [[Jin, Mingyu]]; [[Xu, Wujiang]]; 
 doi: 10.48550/arXiv.2406.04428
 url: "http://arxiv.org/abs/2406.04428"
 pdf_extract: "PDF Extracts/0000/2024-Ji-MoralBench.md"
-local_pdf: "[[PDFs/2024-Ji-MoralBench.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Ji-MoralBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2406.04428.pdf"
 publication: "SIGKDD Explorations"
 national_ethnic_cultural: N/A

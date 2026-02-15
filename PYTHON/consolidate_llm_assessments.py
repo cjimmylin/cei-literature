@@ -225,9 +225,10 @@ def apply_to_paper(paper_path, entry, dry_run=False):
     except (ValueError, UnicodeDecodeError) as e:
         return {"status": "error", "error": str(e)}
 
-    # Check if already has non-empty LLM_assessed (idempotent)
+    # Check if already has real (non-placeholder) LLM_assessed (idempotent)
     fields = parse_frontmatter(fm_text)
-    if fields.get("LLM_assessed", "").strip():
+    existing_llm = fields.get("LLM_assessed", "").strip()
+    if existing_llm and existing_llm.upper() not in ("NA", "N/A"):
         return {"status": "skipped", "reason": "already has LLM_assessed"}
 
     # Insert YAML fields
@@ -238,11 +239,21 @@ def apply_to_paper(paper_path, entry, dry_run=False):
     if not is_valid:
         return {"status": "error", "error": "YAML validation failed: {}".format(issues)}
 
-    # Insert body section (only if there's a description and no existing ## Data Description)
+    # Insert or replace body section
     new_body = body
     desc = entry.get("data_description", "")
-    if desc and "## Data Description" not in body:
-        new_body = insert_data_description(body, desc)
+    if desc:
+        if "## Data Description" not in body:
+            new_body = insert_data_description(body, desc)
+        else:
+            # Replace existing Data Description content (backfill placeholder)
+            new_body = re.sub(
+                r'(## Data Description\n\n)(.*?)(\n\n## |\n\n---|\Z)',
+                lambda m: m.group(1) + desc.strip() + '\n' + m.group(3),
+                body,
+                count=1,
+                flags=re.DOTALL,
+            )
 
     if dry_run:
         return {"status": "dry_run", "would_update": True}

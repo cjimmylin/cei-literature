@@ -215,6 +215,9 @@ def yaml_scalar_line(key: str, value: str) -> str:
 
 
 def set_yaml_scalar(frontmatter: str, key: str, value: str, anchors: list[str]) -> tuple[str, str]:
+    # NOTE: This uses the safe regex-based in-place pattern (not parse/rebuild round-trip)
+    # which preserves list-based fields (tags, etc.). Intentionally kept instead of
+    # yaml_utils.add_field() which uses the unsafe round-trip pattern.
     line = yaml_scalar_line(key, value)
     pattern = r"^{}:.*$".format(re.escape(key))
     replaced, count = re.subn(pattern, line, frontmatter, count=1, flags=re.MULTILINE)
@@ -371,10 +374,8 @@ def main() -> None:
             continue
 
         if not args.dry_run:
-            shutil.move(str(tmp_pdf), str(pdf_dest))
-            pages = write_extract(pdf_dest, extract_dest)
-
-            # Update frontmatter fields.
+            # Build and validate new frontmatter BEFORE moving any files,
+            # so a validation failure does not leave orphaned PDF/extract artifacts.
             new_fm, _ = set_yaml_scalar(
                 fm_text,
                 "local_pdf",
@@ -394,7 +395,13 @@ def main() -> None:
                 result["error"] = "; ".join(issues)
                 results.append(result)
                 counts["yaml_validation_failed"] += 1
+                # Clean up the downloaded temp PDF — do NOT move it to dest.
+                tmp_pdf.unlink(missing_ok=True)
                 continue
+
+            # Validation passed — safe to persist artifacts and update YAML.
+            shutil.move(str(tmp_pdf), str(pdf_dest))
+            pages = write_extract(pdf_dest, extract_dest)
 
             new_content = f"---\n{new_fm.rstrip()}\n---\n{body}"
             paper_path.write_text(new_content, encoding="utf-8")

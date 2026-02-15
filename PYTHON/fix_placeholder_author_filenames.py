@@ -48,6 +48,11 @@ if str(WORKSPACE_ROOT / ".agent") not in sys.path:
     sys.path.insert(0, str(WORKSPACE_ROOT / ".agent"))
 
 from vault_config import LOGS_DIR, PAPERS_DIR, PDFS_DIR, PDF_EXTRACTS_DIR, WORKSPACE_ROOT as VC_WORKSPACE_ROOT
+from yaml_frontmatter_utils import (  # noqa: E402
+    extract_frontmatter,
+    parse_frontmatter,
+    validate_frontmatter,
+)
 
 
 DATE_TAG = "20260214"
@@ -244,29 +249,17 @@ def parse_authors_field(raw_value: str) -> List[str]:
 
 
 def split_frontmatter(content: str) -> Optional[Tuple[str, str]]:
-    if not content.startswith("---"):
+    """Extract YAML frontmatter from content. Delegates to shared extract_frontmatter()."""
+    try:
+        fm, body = extract_frontmatter(content)
+        return fm, body
+    except ValueError:
         return None
-    m = re.search(r"\n---\s*\n", content[3:])
-    if not m:
-        return None
-    end = 3 + m.start()
-    frontmatter = content[3:end]
-    body = content[end + 5 :]
-    return frontmatter, body
 
 
 def parse_fields(frontmatter: str) -> Dict[str, str]:
-    fields: Dict[str, str] = {}
-    for line in frontmatter.splitlines():
-        if not line.strip():
-            continue
-        if line.startswith(" ") or line.startswith("\t"):
-            continue
-        if ":" not in line:
-            continue
-        key, value = line.split(":", 1)
-        fields[key.strip()] = value.strip()
-    return fields
+    """Parse frontmatter fields. Delegates to shared parse_frontmatter()."""
+    return parse_frontmatter(frontmatter)
 
 
 def get_field(fields: Dict[str, str], key: str) -> str:
@@ -1036,6 +1029,16 @@ def main() -> int:
             updated_content = build_updated_paper_content(plan)
 
             if not dry_run:
+                # Validate frontmatter before writing
+                try:
+                    updated_fm, _updated_body = extract_frontmatter(updated_content)
+                    is_valid, fm_issues = validate_frontmatter(updated_fm)
+                    if not is_valid:
+                        plan.error = f"validate_frontmatter failed: {fm_issues}"
+                        raise ValueError(plan.error)
+                except ValueError:
+                    raise
+
                 target_paper_path.write_text(updated_content, encoding="utf-8")
                 plan.paper_updated = True
                 changed_files.append(target_paper_path.relative_to(VC_WORKSPACE_ROOT).as_posix())

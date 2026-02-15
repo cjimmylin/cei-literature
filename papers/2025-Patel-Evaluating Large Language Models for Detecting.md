@@ -33,7 +33,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Detecting hateful content is a challenging and important problem. Automated tools, like machine-learning models, can help, but they require continuous training to adapt to the everchanging landscape of social media. In this work, we evaluate eight open-source LLMs’ capability to detect antisemitic content, specifically leveraging in-context definition. We also study how LLMs understand and explain their decisions given a moderation policy as a guideline."
+abstract: "Detecting hateful content is a challenging and important problem. Automated tools, like machine-learning models, can help, but they require continuous training to adapt to the everchanging landscape of social media. In this work, we evaluate eight open-source LLMs' capability to detect antisemitic content, specifically leveraging in-context definition. We also study how LLMs understand and explain their decisions given a moderation policy as a guideline."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, Gemma, Gemma-3, Gemma3, Llama, Llama 3.1, Llama 11, Llama 8, Llama-3, Llama-3., Llama-3.1, Mistral 8B, Mistral 2410 4, Mistral 24B, Mistral 2501 5, Mistral- 2410, Mistral-2501 24B, Qwen, qwenlm"

@@ -15,8 +15,9 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 publication: HuggingFace
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2024/2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.pdf]]"
+external_pdf: "https://aclanthology.org/2025.gebnlp-1.10.pdf"
 DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: No

@@ -12,7 +12,7 @@ last_author: "[[Luciano Del Corro]]"
 authors: "Giovanni Franco Gabriel Marraffini; Andrés Cotton; Noe Fabian Hsueh; Axel Fridman; Juan Wisznia; Luciano Del Corro"
 doi: 10.18653/v1/2024.emnlp-main.1224
 url: "https://aclanthology.org/2024.emnlp-main.1224/"
-external_pdf: "file:///Users/jimmylin/Zotero/storage/93ZH8FHU/Marraffini et al. - 2024 - The Greatest Good Benchmark Measuring LLMs’ Alignment with Utilitarian Moral Dilemmas.pdf"
+external_pdf: "file:///Users/jimmylin/Zotero/storage/93ZH8FHU/Marraffini et al. - 2024 - The Greatest Good Benchmark Measuring LLMs' Alignment with Utilitarian Moral Dilemmas.pdf"
 national_ethnic_cultural: N/A
 religious_values: N/A
 religious_values_list: N/A
@@ -21,7 +21,7 @@ newtags: Utilitarianism
 key_contribution: "Introduces 'The Greatest Good Benchmark' to evaluate LLM alignment specifically with utilitarian moral dilemmas (instrumental harm, impartial beneficence)"
 significance: "Reveals that LLMs consistently reject instrumental harm (unlike strict utilitarians) but favor impartial beneficence, showcasing a distinct 'artificial moral compass' different from human lay populations"
 tags: 
-abstract: "The question of how to make decisions that maximise the well-being of all persons is very relevant to design language models that are beneficial to humanity and free from harm. We introduce the Greatest Good Benchmark (GGB), to evaluate LLMs moral judgments using utilitarian dilemmas. Our framework enables a direct comparison between the moral preferences of LLMs and humans, contributing to a deeper understanding of LLMs’ alignment with human moral values. Analyzing 15 diverse models, we uncover"
+abstract: "The question of how to make decisions that maximise the well-being of all persons is very relevant to design language models that are beneficial to humanity and free from harm. We introduce the Greatest Good Benchmark (GGB), to evaluate LLMs moral judgments using utilitarian dilemmas. Our framework enables a direct comparison between the moral preferences of LLMs and humans, contributing to a deeper understanding of LLMs' alignment with human moral values. Analyzing 15 diverse models, we uncover"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

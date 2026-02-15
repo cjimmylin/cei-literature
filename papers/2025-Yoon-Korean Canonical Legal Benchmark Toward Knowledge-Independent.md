@@ -36,7 +36,7 @@ data_metrics: "283 questions; 169 questions; 2,739 instance"
 LLM_assessed: "Claude, Claude 3.5 Haiku, Claude 3.7 Sonnet, Claude Opus, Claude Sonnet, DeepSeek, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, LLAMA 4, Phi-4-mini"
 DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
-abstract: "We introduce the Korean Canonical Legal Benchmark (KCL), a benchmark designed to assess language models’ legal reasoning capabilities independently of domain-specific knowledge. KCL provides question-level supporting precedents, enabling a more faithful disentanglement of reasoning ability from parameterized knowledge. KCL consists of two components: (1) KCL-MCQA, multiple-choice problems of 283 questions with 1,103 aligned precedents, and (2) KCL-Essay, open-ended generation problems of 169..."
+abstract: "We introduce the Korean Canonical Legal Benchmark (KCL), a benchmark designed to assess language models' legal reasoning capabilities independently of domain-specific knowledge. KCL provides question-level supporting precedents, enabling a more faithful disentanglement of reasoning ability from parameterized knowledge. KCL consists of two components: (1) KCL-MCQA, multiple-choice problems of 283 questions with 1,103 aligned precedents, and (2) KCL-Essay, open-ended generation problems of 169..."
 research_topic: "Machine Learning"
 ---
 # Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities

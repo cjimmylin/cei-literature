@@ -29,7 +29,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Existing research assesses LLMs’ values by analyzing their stated inclinations, overlooking potential discrepancies between stated values and actions—termed the “Value-Action Gap.” This study introduces ValueActionLens, a framework to evaluate the alignment between LLMs’ stated values and their value-informed actions. The framework includes a dataset of 14.8k value-informed actions across 12 cultures and 11 social topics, along with two tasks measuring alignment through three metrics."
+abstract: "Existing research assesses LLMs' values by analyzing their stated inclinations, overlooking potential discrepancies between stated values and actions—termed the 'Value-Action Gap.' This study introduces ValueActionLens, a framework to evaluate the alignment between LLMs' stated values and their value-informed actions. The framework includes a dataset of 14.8k value-informed actions across 12 cultures and 11 social topics, along with two tasks measuring alignment through three metrics."
 ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"

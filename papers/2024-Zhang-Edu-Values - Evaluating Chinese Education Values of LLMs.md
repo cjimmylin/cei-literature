@@ -30,7 +30,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "In this paper, we present Edu-Values, the first Chinese education values evaluation benchmark that includes seven core values: professional philosophy, teachers’ professional ethics, education laws and regulations, cultural literacy, educational knowledge and skills, basic competencies and subject knowledge. We meticulously design 1,418 questions, covering multiple-choice, multi-modal question answering, subjective analysis, adversarial prompts, and Chinese traditional culture (short answer)..."
+abstract: "In this paper, we present Edu-Values, the first Chinese education values evaluation benchmark that includes seven core values: professional philosophy, teachers' professional ethics, education laws and regulations, cultural literacy, educational knowledge and skills, basic competencies and subject knowledge. We meticulously design 1,418 questions, covering multiple-choice, multi-modal question answering, subjective analysis, adversarial prompts, and Chinese traditional culture (short answer)..."
 ethics_perspective: "Social & Cultural Values"
 data_description: Benchmark
 data_metrics: "1,418 questions"

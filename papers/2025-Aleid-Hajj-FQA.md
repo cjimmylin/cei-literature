@@ -22,7 +22,7 @@ newtags: "Arabic, Islam, Utilitarianism"
 key_contribution: "Introduces Hajj-FQA, a benchmark Arabic dataset for question answering on Hajj fatwas to develop specialized religious chatbots"
 significance: "Fills a critical gap in Arabic-language religious QA resources, enabling accurate, domain-specific responses for pilgrims"
 tags: 
-abstract: "Deep learning has signiﬁcantly advanced the question-answering (QA) systems across various sectors. However, Arabiclanguage systems for Hajj-related fatwas (non-binding Islamic legal opinions issued by muftis) remain underdeveloped. This paper introduces Hajj-FQA, a benchmark Arabic dataset speciﬁcally designed to develop HajjBot - a specialized chatbot for fatwas QA during the annual Hajj pilgrimage. The dataset captures the unique linguistic and jurisprudential characteristics of pilgrims’ inq"
+abstract: "Deep learning has signiﬁcantly advanced the question-answering (QA) systems across various sectors. However, Arabiclanguage systems for Hajj-related fatwas (non-binding Islamic legal opinions issued by muftis) remain underdeveloped. This paper introduces Hajj-FQA, a benchmark Arabic dataset speciﬁcally designed to develop HajjBot - a specialized chatbot for fatwas QA during the annual Hajj pilgrimage. The dataset captures the unique linguistic and jurisprudential characteristics of pilgrims' inq"
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No
@@ -36,7 +36,7 @@ data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, DeBERTa, T5, BART"
 DATA_URL: "https://github.com/Omarito2412/ASKFM"
 pdf_extract: "PDF Extracts/0000/2025-Aleid-Hajj-FQA.md"
-local_pdf: "[[PDFs/2025-Aleid-Hajj-FQA.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]"
 DATE_ADDED: 20260207
 ---
 # Hajj-FQA: A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas

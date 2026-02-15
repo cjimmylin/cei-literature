@@ -33,7 +33,7 @@ is_benchmark: No
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Although LLMs have been extremely effective in a large number of complex tasks, their understanding and functionality for regional languages and cultures are not well studied. In this paper, we explore the ability of various LLMs to comprehend the cultural aspects of two regional languages: Malayalam (state of Kerala, India) and Yoruba (West Africa). Using Hofstede’s six cultural dimensions: Power Distance (PDI), Individualism (IDV), Motivation towards Achievement and Success (MAS), Uncertainty..."
+abstract: "Although LLMs have been extremely effective in a large number of complex tasks, their understanding and functionality for regional languages and cultures are not well studied. In this paper, we explore the ability of various LLMs to comprehend the cultural aspects of two regional languages: Malayalam (state of Kerala, India) and Yoruba (West Africa). Using Hofstede's six cultural dimensions: Power Distance (PDI), Individualism (IDV), Motivation towards Achievement and Success (MAS), Uncertainty..."
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma"

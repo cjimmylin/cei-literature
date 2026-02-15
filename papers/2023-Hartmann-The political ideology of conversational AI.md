@@ -12,7 +12,7 @@ last_author: "[[Maximilian Witte]]"
 authors: "Jochen Hartmann; Jasper Schwenzow; Maximilian Witte"
 doi: 10.2139/ssrn.4316084
 url: "https://www.ssrn.com/abstract=4316084"
-external_pdf: "file:///Users/jimmylin/Zotero/storage/BFN6ITR4/Hartmann et al. - 2023 - The political ideology of conversational AI Converging evidence on ChatGPT’s pro-environmental, lef.pdf"
+external_pdf: "file:///Users/jimmylin/Zotero/storage/BFN6ITR4/Hartmann et al. - 2023 - The political ideology of conversational AI Converging evidence on ChatGPT's pro-environmental, lef.pdf"
 national_ethnic_cultural: N/A
 religious_values: N/A
 religious_values_list: N/A

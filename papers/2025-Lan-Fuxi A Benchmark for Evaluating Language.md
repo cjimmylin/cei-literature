@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "Ancient Chinese text processing presents unique challenges for large language models (LLMs) due to its distinct linguistic features, complex structural constraints, and rich cultural context. While existing benchmarks have primarily focused on evaluating comprehension through multiple-choice questions, there remains a critical gap in assessing models’ generative capabilities in classical Chinese. We introduce Fùxì, a comprehensive benchmark that evaluates both understanding and generation..."
+abstract: "Ancient Chinese text processing presents unique challenges for large language models (LLMs) due to its distinct linguistic features, complex structural constraints, and rich cultural context. While existing benchmarks have primarily focused on evaluating comprehension through multiple-choice questions, there remains a critical gap in assessing models' generative capabilities in classical Chinese. We introduce Fùxì, a comprehensive benchmark that evaluates both understanding and generation..."
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o-mini, Internlm2, Llama, LLaMA-31, Qwen-Max, Qwen2, Qwen2.5, alpaca, internlm25, llama 3"

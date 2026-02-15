@@ -6,7 +6,7 @@ Human View note:
 Not AI: 
 key: LSRC0671
 type: journalArticle
-short_title: "Benchmarking four large language models’ performance of addressing Chinese patients' inquiries about dry eye disease: A two-phase study - ScienceDirect"
+short_title: "Benchmarking four large language models' performance of addressing Chinese patients' inquiries about dry eye disease: A two-phase study - ScienceDirect"
 year: 2025
 first_author: "[[Unknown]]"
 last_author: "[[Unknown]]"

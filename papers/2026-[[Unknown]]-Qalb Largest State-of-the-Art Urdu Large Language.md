@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "Despite remarkable progress in large language models, Urdu—a language spoken by over 230 million people—remains critically underrepresented in modern NLP systems. Existing multilingual models demonstrate poor performance on Urdu-specific tasks, struggling with the language’s complex morphology, right-to-left Nastaliq script, and rich literary traditions. Even the base LLaMA-3.1 8B-Instruct model shows limited capability in generating fluent, contextually appropriate Urdu text."
+abstract: "Despite remarkable progress in large language models, Urdu—a language spoken by over 230 million people—remains critically underrepresented in modern NLP systems. Existing multilingual models demonstrate poor performance on Urdu-specific tasks, struggling with the language's complex morphology, right-to-left Nastaliq script, and rich literary traditions. Even the base LLaMA-3.1 8B-Instruct model shows limited capability in generating fluent, contextually appropriate Urdu text."
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, Llama 3, Mistral, Mistral-Nemo, Qwen, Qwen2.5"

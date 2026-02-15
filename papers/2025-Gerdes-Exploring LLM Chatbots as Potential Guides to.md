@@ -21,7 +21,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Explores the potential of LLM chatbots to act as Socratic guides for virtue ethics reflection, drawing on Kierkegaard's thought experiments and a case study on euthanasia"
 significance: "Examines the limits of AI as a moral advisor, arguing that while it can support ethical reflection, the 'leap' of moral decision-making remains a strictly human responsibility"
 tags: 
-abstract: "This paper explores Søren Kierkegaard’s engagement with virtue ethics. While valuing Aristotle’s focus on moral character and practical wisdom, Kierkegaard advanced virtue ethics further. He critiqued the clergy of his time for their hypocrisy, imagining replacing untrustworthy priests with machines delivering sermons and ethical guidance. Revisiting this thought experiment in light of LLMs, the paper explores the role of Kierkegaard’s insights in the discourse on ethical guidance, illustrating"
+abstract: "This paper explores Søren Kierkegaard's engagement with virtue ethics. While valuing Aristotle's focus on moral character and practical wisdom, Kierkegaard advanced virtue ethics further. He critiqued the clergy of his time for their hypocrisy, imagining replacing untrustworthy priests with machines delivering sermons and ethical guidance. Revisiting this thought experiment in light of LLMs, the paper explores the role of Kierkegaard's insights in the discourse on ethical guidance, illustrating"
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

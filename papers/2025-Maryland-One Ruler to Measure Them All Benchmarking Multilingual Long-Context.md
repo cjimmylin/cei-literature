@@ -36,7 +36,7 @@ data_metrics: "128k tokens; 26 languages"
 LLM_assessed: "DeepSeek-AI, DeepSeek, Deepseek-R1, GPT-4o, LLaMA 3.1, LLaMA 3.3, Llama, Llama 3, Llama-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen2.5"
 DATA_URL: "https://github.com/Blkzer0/Wordlists"
 tags: 
-abstract: "We present ONERULER, a multilingual benchmark designed to evaluate long-context language models across 26 languages. ONERULER adapts the English-only RULER benchmark (Hsieh et al., 2024) by including seven synthetic tasks that test both retrieval and aggregation, including new variations of the “needle-in-a-haystack” task that allow for the possibility of a nonexistent needle. We create ONERULER through a two-step process, first writing English instructions for each task and then collaborating..."
+abstract: "We present ONERULER, a multilingual benchmark designed to evaluate long-context language models across 26 languages. ONERULER adapts the English-only RULER benchmark (Hsieh et al., 2024) by including seven synthetic tasks that test both retrieval and aggregation, including new variations of the 'needle-in-a-haystack' task that allow for the possibility of a nonexistent needle. We create ONERULER through a two-step process, first writing English instructions for each task and then collaborating..."
 research_topic: "Machine Translation"
 ---
 # One Ruler to Measure Them All: Benchmarking Multilingual Long-Context Language Models

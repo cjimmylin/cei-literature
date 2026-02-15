@@ -37,7 +37,7 @@ data_metrics: "10,600 samples"
 LLM_assessed: "ALBERT, Alpaca, Claude, Claude 3.74, Claude-3.5-Sonnet, Falcon 23, Falcon 24, Falcon 27, Falcon-3, GPT-4, GPT-4o, Gemma, Gemma 24.87, Gemma 29.26, Gemma 41.94, Gemma-2, LLaMA 3.1, LLaMA-3.1, Llama, Qwen, Qwen 26.63, Qwen 39.64, Qwen 40.58, Qwen-2.5, Qwen2.5, RoBERTa, BERT"
 DATA_URL: "https://huggingface.co/datasets/AmanMussa"
 tags: 
-abstract: "Instruction tuning in low-resource languages remains underexplored due to limited text data, particularly in government and cultural domains. To address this, we introduce and open-source a large-scale (10,600 samples) instruction-following (IFT) dataset, covering key institutional and cultural knowledge relevant to Kazakhstan. Our dataset enhances LLMs’ understanding of procedural, legal, and structural governance topics."
+abstract: "Instruction tuning in low-resource languages remains underexplored due to limited text data, particularly in government and cultural domains. To address this, we introduce and open-source a large-scale (10,600 samples) instruction-following (IFT) dataset, covering key institutional and cultural knowledge relevant to Kazakhstan. Our dataset enhances LLMs' understanding of procedural, legal, and structural governance topics."
 research_topic: "Machine Learning"
 ---
 # Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh

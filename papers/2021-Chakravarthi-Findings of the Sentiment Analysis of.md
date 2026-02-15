@@ -31,7 +31,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: No
 tags: 
-abstract: "We present the results of the Dravidian-CodeMix shared task1 held at FIRE 2021, a track on sentiment analysis for Dravidian Languages in Code-Mixed Text. We describe the task, its organization, and the submitted systems. This shared task is the continuation of last year’s Dravidian-CodeMix shared task2 held at FIRE 2020. This year’s tasks included code-mixing at the intra-token and inter-token levels. Additionally, apart from Tamil and Malayalam, Kannada was also introduced."
+abstract: "We present the results of the Dravidian-CodeMix shared task1 held at FIRE 2021, a track on sentiment analysis for Dravidian Languages in Code-Mixed Text. We describe the task, its organization, and the submitted systems. This shared task is the continuation of last year's Dravidian-CodeMix shared task2 held at FIRE 2020. This year's tasks included code-mixing at the intra-token and inter-token levels. Additionally, apart from Tamil and Malayalam, Kannada was also introduced."
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT, RoBERTa, Word2Vec"

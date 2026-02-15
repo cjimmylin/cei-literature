@@ -37,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/HooshvareLab/roberta-fa-zwnj-base"
 tags: 
-abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals’ psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
+abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals' psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # ParsOffensive: Persian Offensive Comments Dataset

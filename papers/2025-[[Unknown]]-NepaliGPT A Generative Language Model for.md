@@ -31,7 +31,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: Yes
 tags: 
-abstract: "After the release of ChatGPT, Large Language Models (LLMs) have gained huge popularity in recent days and thousands of variants of LLMs have been released. However, there isn’t any generative language model for the Nepali language, due to which other downstream tasks, including fine-tuning, have not been explored yet. To fill this research gap in the Nepali NLP space, this research proposes NepaliGPT, a generative large language model tailored specifically for the Nepali language."
+abstract: "After the release of ChatGPT, Large Language Models (LLMs) have gained huge popularity in recent days and thousands of variants of LLMs have been released. However, there isn't any generative language model for the Nepali language, due to which other downstream tasks, including fine-tuning, have not been explored yet. To fill this research gap in the Nepali NLP space, this research proposes NepaliGPT, a generative large language model tailored specifically for the Nepali language."
 data_description: "Benchmark text corpus"
 data_metrics: "4296 question"
 LLM_assessed: "GPT-2"

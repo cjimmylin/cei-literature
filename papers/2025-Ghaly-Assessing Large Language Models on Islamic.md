@@ -32,7 +32,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "This paper evaluates the knowledge and reasoning capabilities of Large Language Models in Islamic inheritance law, known as 'ilm al-maw¯ar¯ıth. We assess the performance of seven LLMs using a benchmark of 1,000 multiple-choice questions covering diverse inheritance scenarios, designed to test each model’s ability, from understanding the inheritance context to computing the distribution of shares prescribed by Islamic jurisprudence."
+abstract: "This paper evaluates the knowledge and reasoning capabilities of Large Language Models in Islamic inheritance law, known as 'ilm al-maw¯ar¯ıth. We assess the performance of seven LLMs using a benchmark of 1,000 multiple-choice questions covering diverse inheritance scenarios, designed to test each model's ability, from understanding the inheritance context to computing the distribution of shares prescribed by Islamic jurisprudence."
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama, LLaMA 3, Mistral, Mistral 44.5 58, Mistral-Saba"

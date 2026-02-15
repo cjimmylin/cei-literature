@@ -6,7 +6,7 @@ Human View note:
 Not AI: 
 key: LSRC0654
 type: conferencePaper
-short_title: "On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng’s English Version"
+short_title: "On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng's English Version"
 year: 2025
 first_author: "[[Wushouer Silamu]]"
 last_author: "[[Wushouer Silamu]]"

@@ -36,7 +36,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Gemma-3, Llama, Llama-3, Llama3.3, Phi-3, Phi-3-medium, Qwen-3, Qwen1.5, Qwen2, Qwen2.5, phi-3 47, phi-4 18"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
-abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model’s parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
+abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model's parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # JAI-1: A Thai-Centric Large Language Model

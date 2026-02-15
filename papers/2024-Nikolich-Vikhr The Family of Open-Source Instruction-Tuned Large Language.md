@@ -38,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ALBERT, GPT-3, GPT-3.5, GPT-4, Llama-2, Llama, Mistral-0.2-Instruct, Mistral-7B, BERT, llama3"
 DATA_URL: "https://huggingface.co/datasets/Vikhrmodels"
 tags: 
-abstract: "There has been a surge in the development of various Large Language Models (LLMs). However, text generation for languages other than English often faces significant challenges, including poor generation quality and reduced computational performance due to the disproportionate representation of tokens in the model’s vocabulary. In this work, we address these issues by developing a pipeline for the adaptation of English-oriented pre-trained models to other languages and constructing efficient..."
+abstract: "There has been a surge in the development of various Large Language Models (LLMs). However, text generation for languages other than English often faces significant challenges, including poor generation quality and reduced computational performance due to the disproportionate representation of tokens in the model's vocabulary. In this work, we address these issues by developing a pipeline for the adaptation of English-oriented pre-trained models to other languages and constructing efficient..."
 research_topic: "NLP & Representation Learning"
 ---
 # Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian

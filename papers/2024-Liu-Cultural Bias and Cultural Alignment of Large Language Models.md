@@ -37,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4-turbo, GPT-4o"
 DATA_URL: "https://osf.io/preprints"
 tags: 
-abstract: "Culture fundamentally shapes people’s reasoning, behavior, and communication. As people increasingly use generative artificial intelligence (AI) to expedite and automate personal and professional tasks, cultural values embedded in AI models may bias people’s authentic expression and contribute to the dominance of certain cultures. We conduct a disaggregated evaluation of cultural bias for five widely used large language models (OpenAI’s GPT-4o/4-turbo/4/3."
+abstract: "Culture fundamentally shapes people's reasoning, behavior, and communication. As people increasingly use generative artificial intelligence (AI) to expedite and automate personal and professional tasks, cultural values embedded in AI models may bias people's authentic expression and contribute to the dominance of certain cultures. We conduct a disaggregated evaluation of cultural bias for five widely used large language models (OpenAI's GPT-4o/4-turbo/4/3."
 ethics_perspective: "Social & Cultural Values"
 ---
 # Cultural Bias and Cultural Alignment of Large Language Models

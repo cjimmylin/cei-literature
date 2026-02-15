@@ -29,7 +29,7 @@ is_benchmark: Yes
 is_eval: Yes
 is_dataset: No
 tags: 
-abstract: "LLMs exhibit promising Social Intelligence (SI) in modeling human behavior, raising the need to evaluate LLMs’ SI and their discrepancy with humans. SI equips humans with interpersonal abilities to behave wisely in navigating social interactions to achieve social goals. This presents an operational evaluation paradigm: outcome-oriented goal achievement evaluation and process-oriented interpersonal ability evaluation, which existing work fails to address."
+abstract: "LLMs exhibit promising Social Intelligence (SI) in modeling human behavior, raising the need to evaluate LLMs' SI and their discrepancy with humans. SI equips humans with interpersonal abilities to behave wisely in navigating social interactions to achieve social goals. This presents an operational evaluation paradigm: outcome-oriented goal achievement evaluation and process-oriented interpersonal ability evaluation, which existing work fails to address."
 research_topic: "Social & Cultural Analysis"
 data_description: Benchmark
 data_metrics: "Not specified"

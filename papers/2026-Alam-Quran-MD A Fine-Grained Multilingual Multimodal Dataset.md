@@ -32,7 +32,7 @@ is_benchmark: No
 is_eval: No
 is_dataset: Yes
 tags: 
-abstract: "We present QURAN-MD, a comprehensive multimodal dataset of the Qur’an that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Qur’anic recitation, we include verse-level audio from 32 distinct reciters, reflecting diverse recitation styles and dialectical nuances."
+abstract: "We present QURAN-MD, a comprehensive multimodal dataset of the Qur'an that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Qur'anic recitation, we include verse-level audio from 32 distinct reciters, reflecting diverse recitation styles and dialectical nuances."
 data_description: Dataset
 data_metrics: "Not specified"
 LLM_assessed: NA

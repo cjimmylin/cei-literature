@@ -56,9 +56,10 @@ def resolve_extract_path(paper_path, fm_text):
 
 
 def has_llm_assessed(fm_text):
-    """Check if the paper already has a non-empty LLM_assessed field."""
+    """Check if the paper already has a real (non-placeholder) LLM_assessed field."""
     fields = parse_frontmatter(fm_text)
-    return bool(fields.get("LLM_assessed", "").strip())
+    value = fields.get("LLM_assessed", "").strip()
+    return bool(value) and value.upper() not in ("NA", "N/A")
 
 
 def main():
@@ -69,7 +70,15 @@ def main():
                         help="Number of batches (default: auto — 10 for pilot, 20 for full)")
     parser.add_argument("--keys", type=str, default="",
                         help="Filter by LSRC key range, e.g. LSRC0428:LSRC0551")
+    parser.add_argument("--since", type=str, default="",
+                        help="Only include papers created on or after this date (YYYY-MM-DD)")
     args = parser.parse_args()
+
+    # Parse --since date filter
+    since_date = None
+    if args.since:
+        since_date = datetime.strptime(args.since, "%Y-%m-%d")
+        print("Date filter: created on or after {}".format(args.since))
 
     # Parse key range filter
     key_start = key_end = None
@@ -106,6 +115,13 @@ def main():
         if has_llm_assessed(fm_text):
             skipped += 1
             continue
+
+        # Apply date filter if specified
+        if since_date:
+            created = datetime.fromtimestamp(paper_path.stat().st_birthtime)
+            if created < since_date:
+                skipped += 1
+                continue
 
         # Apply key range filter if specified
         if key_start and key_end:

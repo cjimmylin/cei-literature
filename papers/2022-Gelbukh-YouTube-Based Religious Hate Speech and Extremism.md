@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Creates a novel dataset for religious hate speech detection from YouTube comments. Applies data mining techniques on comments from religious videos to filter religion-oriented messages and detect videos used for spreading hate. Provides SVM, Logistic Regression, and k-NN baselines. Addresses the understudied platform of YouTube for religious extremism detection."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # YouTube-Based Religious Hate Speech and Extremism Detection Dataset with Machine Learning Baselines
@@ -70,7 +71,8 @@ YouTube comments dataset from religious videos
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+The PDF extract appears to contain the wrong paper content, showing a legal analysis article titled 'The Future of Freedom of Expression Online' by Evelyn Mary Aswad from Duke Law & Technology Review, rather than a paper about YouTube-based religious hate speech. The extracted content discusses aligning corporate speech codes with international human rights law, particularly the ICCPR. No LLM models were tested or evaluated in the extracted content.
+
 
 ## Notes
 

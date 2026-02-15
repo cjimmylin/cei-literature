@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/gabrielStanovsky/mt_gender"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/gabrielStanworthy/mt_gender"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -71,7 +72,7 @@ This paper introduces WinoMT, a challenge set of 3,888 English sentences derived
 
 ## Data Description
 
-WinoMT challenge set of 3,888 English segments for evaluating gender bias in machine translation to 8+ languages. Tests four commercial MT systems (Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN) and two academic MT models, not LLMs. Uses morphological analysis to detect gender bias in translations.
+The paper introduces WinoMT, a challenge set of 3,888 English sentences for evaluating gender bias in machine translation, composed from the Winogender and WinoBias coreference datasets. The sentences are balanced between male/female genders and stereotypical/non-stereotypical gender-role assignments. The authors evaluate four commercial MT systems (Google Translate, Microsoft Translator, Amazon Translate, SYSTRAN) and two academic models across eight target languages, finding significant gender-biased translation errors. No LLMs from the canonical list were tested.
 
 
 ## Detailed Summary

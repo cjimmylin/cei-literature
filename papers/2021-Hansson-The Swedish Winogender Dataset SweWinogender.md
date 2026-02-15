@@ -1,4 +1,5 @@
 ---
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://spraakbanken.gu.se/en/resources/swewinogender"
 tags: 
 abstract: 
@@ -72,7 +73,7 @@ This paper presents SweWinogender, a Swedish adaptation of the WinoGender benchm
 
 ## Data Description
 
-Swedish adaptation of WinoGender benchmark for measuring gender bias in coreference resolution. Released with reference statistics on gender distribution between occupations in Swedish corpus material. Designed for coreference resolution systems, not specifically LLMs.
+The paper introduces SweWinogender, a Swedish diagnostic dataset for measuring gender bias in coreference resolution systems, modeled after the English Winogender benchmark. The dataset contains 624 Swedish sentences with pronoun resolution tasks across 43 occupations, accompanied by real-world gender statistics from Statistics Sweden (SCB) and corpus-based gender-occupation association statistics from the Swedish Culturomics Gigaword corpus. No LLM models were tested or evaluated in this work.
 
 
 ## Notes

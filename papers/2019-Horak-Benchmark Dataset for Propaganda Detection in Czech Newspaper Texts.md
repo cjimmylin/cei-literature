@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "8,646 Czech newspaper articles annotated for 17 manipulative techniques from outlets including Sputnik News and Parlamentni listy. Addresses propaganda and media manipulation detection in Czech."
 research_topic: "Machine Learning"
@@ -69,7 +70,8 @@ research_topic: "Machine Learning"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+The paper introduces a benchmark dataset of 7,494 Czech newspaper articles from four digital news servers annotated for the presence of manipulative propaganda techniques including blaming, demonizing, labelling, fear mongering, and fabulation. The dataset contains 3.7 million tokens and is evaluated using 10 machine learning classifiers (including SVMs, Naive Bayes, Random Forest, Ridge) with bag-of-words TF-IDF features. No LLMs were tested.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: Other
@@ -66,7 +67,8 @@ Based on the search results, I found the article you're looking for: Title: "Eva
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It examines the reliability of error-based and scale-based methods for assessing literary translations (English-Chinese and Chinese-English) in a classroom context, using generalizability theory. The study involves 36 MTI students' translations scored by 9 raters.
+
 
 ## Notes
 

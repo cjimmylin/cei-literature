@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://www.kaggle.com/fandaoerji/molhw-ooo"
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -66,7 +67,8 @@ I found the research paper you were looking for. The paper "Recognizing Textual 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+MOLHW is a Mongolian online handwriting dataset containing 164,631 word-level samples written by 200 writers, covering 40,605 common Mongolian words selected from a large Mongolian corpus. The coordinate trajectory data were collected via a dedicated mobile phone application, annotated with Latin transliteration of Mongolian grapheme codes, and evaluated using three recognition models (encoder-decoder with attention, Transformer, and LSTM-CTC), achieving a best word error rate of 16.969% with the Transformer model.
+
 
 ## Notes
 

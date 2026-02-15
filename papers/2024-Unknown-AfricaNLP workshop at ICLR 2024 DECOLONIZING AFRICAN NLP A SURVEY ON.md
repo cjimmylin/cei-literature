@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper is a survey and position paper exploring the decolonization of African Natural Language Processing (NLP), addressing power dynamics and data colonialism in technology development. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, instead providing critical analysis, case studies of projects like Masakhane and mPedigree, and future directions for equitable NLP research in Africa.
+
 
 ## Notes
 

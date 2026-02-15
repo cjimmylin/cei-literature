@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Novel hybrid models for Kazakh offensive content detection using BERT transformer embeddings with multi-head self-attention and CNN layers. Enables detection of both explicit and implicit hate speech in Kazakh. Kazakh-specific offensive content detection with culturally tailored approach. Combines modern deep learning with language-specific adaptations for the agglutinative Kazakh language."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detection of offensive content in the Kazakh language using machine learning and deep learning approaches
@@ -66,7 +67,8 @@ Novel hybrid models for Kazakh offensive content detection using BERT transforme
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper is a literature review surveying techniques for automated detection of offensive language in social media. It reviews 40 studies across natural language processing, deep learning, hybrid, and multilingual approaches using algorithms such as SVM, Naive Bayes, LSTM, and CNN. No specific dataset or benchmark is introduced by the paper itself.
+
 
 ## Notes
 

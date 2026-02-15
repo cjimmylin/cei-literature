@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/ZeerakW/hatespeech"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/paulafortuna/Portuguese-Hate-Speech-Dataset"
 tags: 
 abstract: "5,668 Portuguese tweets annotated with hierarchical hate speech scheme containing 81 categories. Expert-annotated with fine-grained intersection of hate speech types."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,7 +71,8 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/ZeerakW/hatespeech.
+The paper presents a new Portuguese hate speech dataset of 5,668 tweets with two annotation schemes: binary (hate/no-hate) by 18 non-expert annotators, and a fine-grained hierarchical multi-label scheme with 81 hate speech categories annotated by experts. A baseline classification experiment using pre-trained GloVe word embeddings with LSTM and xgBoost achieves F1 scores of 0.78 (cross-validation) and 0.72 (test set). No LLMs were tested.
+
 
 ## Notes
 

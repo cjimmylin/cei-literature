@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "As a multi-ethnic country with a large population, China is endowed with diverse dialects, which brings considerable challenges to speech recognition work. In fact, due to geographical location, population migration, and other factors, the research progress and practical application of Chinese dialect speech recognition are currently at different stages. Therefore, exploring the significant regional heterogeneities in specific recognition approaches and effects, dialect corpus, and other resources is of vital importance for Chinese speech recognition work. Based on this, we first start with the regional classification of dialects and analyze the pivotal acoustic characteristics of dialects, including specific vowels and tones patterns. Secondly, we comprehensively summarize the existing dialect phonetic corpus in China, which is of some assistance in exploring the general construction methods of dialect phonetic corpus. Moreover, we expound on the general process of dialect recognition. Several critical dialect recognition approaches are summarized and introduced in detail, especially the hybrid method of Artificial Neural Network (ANN) combined with the Hidden Markov Model(HMM), as well as the End-to-End (E2E). Thirdly, through the in-depth comparison of their principles, merits, disadvantages, and recognition performance for different dialects, the development trends and challenges in dialect recognition in the future are pointed out. Finally, some application examples of dialect speech recognition are collected and discussed. Keywords Chinese dialect · Dialect corpus · Dialectal acoustic modeling · Automatic speech recognition · Deep neural network · End-to-end * Qianyu Mai nmu.csq@gmail.com Qiang Li dr.qiangli@gmail.com Mandou Wang nxmd.wang@gmail.com Mingjuan Ma mamingjuan2009@163.com 1 School of Computer Science and Engineering, North Minzu University, Yinchuan 750021, China 2 School of Economics, North Minzu University, Yinchaun 750021, China Q. Li et al. 1 3 25 Page 2 of 39"
 research_topic: Other
@@ -72,7 +73,8 @@ As a multi-ethnic country with a large population, China is endowed with diverse
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper is a comprehensive survey of Chinese dialect speech recognition (DSR) published in Artificial Intelligence Review (2024). It reviews 246 articles on dialect recognition approaches including HMM, DNN, and End-to-End methods across seven major Chinese dialect categories. The paper catalogs existing dialect speech corpora and recognition techniques but does not test or evaluate any LLM models.
+
 
 ## Notes
 

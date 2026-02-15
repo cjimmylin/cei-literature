@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://zenodo.org/records/15101403"
 tags: 
 abstract: "Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles."
@@ -67,7 +68,8 @@ Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability t
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://zenodo.org/records/15101403.
+This paper presents a dataset of 30 multiple-choice questions designed to assess the capability of Large Language Models in handling different Spanish dialects. The dataset covers lexical and morphosyntactic variations across seven Spanish varieties (Andean, Antillean, Chilean, Continental Caribbean, Mexican/Central American, Peninsular, and Rioplatense). While the paper states LLMs were tested on these questions, the specific models tested are reported in a separate companion paper (arXiv:2504.20049), and no specific model names are identified in this data article extract.
+
 
 ## Notes
 

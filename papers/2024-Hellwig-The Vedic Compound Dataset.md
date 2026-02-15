@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "> First annotated compound dataset from Vedic Sanskrit, covering five of six basic compound types. Provides resources for computational study of Vedic Hindu texts. Useful for downstream NLP benchmarking on ancient Hindu religious language."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/SvenSellmer/VedicCompoundDataset"
 research_topic: "Machine Learning"
 ---
 # The Vedic Compound Dataset (VCD)
@@ -73,7 +74,8 @@ Annotated compounds from Vedic Sanskrit (1500-500 BCE texts)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+The Vedic Compound Dataset (VCD) is the first annotated compound resource for Vedic Sanskrit, containing nearly 7,000 two-word compounds with morphological, syntactic (internal and external UD relations), chronological, and subtradition annotations. The dataset classifies compounds into five categories based on Scalise and Bisetto's scheme (coordinate, subordinate, attributive, each endo- or exocentric). A multinomial regression classifier was tested on this linguistic dataset, but no LLMs were evaluated.
+
 
 ## Notes
 

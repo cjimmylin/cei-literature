@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Attention-based BERT model for Kazakh hate speech detection. Applies transformer architecture to identify harmful content in Kazakh language texts. Kazakh-specific hate speech detection using BERT attention mechanisms. Addresses safety evaluation needs for Kazakh language content."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Detection in the Kazakh Language Utilizing an Attention-Based BERT Model
@@ -65,7 +66,8 @@ Attention-based BERT model for Kazakh hate speech detection. Applies transformer
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper presents a multi-class hate speech classification model for Kazakh-language texts using TF-IDF, MTF-IDF vectorization combined with LSTM, XGBoost, and MLPClassifier algorithms. The dataset contains texts divided into five categories (racism, bullying, violence, nationalism, neutral) and was constructed in a prior study (Bolatbek et al. 2024). The LSTM model achieved the highest accuracy at 89%.
+
 
 ## Notes
 

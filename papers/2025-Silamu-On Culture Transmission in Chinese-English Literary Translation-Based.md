@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -66,7 +67,8 @@ Based on the search results, I found the article you're looking for: Title: "Eva
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a translation studies paper analyzing cultural translatability in the Chinese-English literary translation of Qian Zhongshu's novel Weicheng (Fortress Besieged), examining foreignization and domestication strategies through qualitative analysis of idioms, word plays, allusions, and cultural references.
+
 
 ## Notes
 

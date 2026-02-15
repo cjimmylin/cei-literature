@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Survey of Kurdish NLP pipeline covering all dialects. Identifies challenges in data scarcity, lack of standard orthography, and absence of NLP expertise for Kurdish."
 research_topic: "NLP & Representation Learning"
@@ -68,7 +69,8 @@ Survey of Kurdish NLP pipeline covering all dialects. Identifies challenges in d
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper is a survey of Kurdish Natural Language Processing (KNLP) research covering both Sorani and Kurmanji dialects. It reviews existing work on text cleaning, tokenization, POS tagging, lemmatization/stemming, named entity recognition, and applications including fake news detection, dialect recognition, machine translation, and speech recognition, using various Kurdish corpora such as Pewan, KTC, and KDC-4007.
+
 
 ## Notes
 

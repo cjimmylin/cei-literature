@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "The Open Ko-LLM Leaderboard has been instrumental in benchmarking Korean Large Language Models (LLMs), yet it has certain limitations. Notably, the disconnect between quantitative improvements on the overly academic leaderboard benchmarks and the qualitative impact of the models should be addressed. Furthermore, the benchmark suite is largely composed of translated versions of their English counterparts, which may not fully capture the intricacies of the Korean language."
 research_topic: "Machine Learning"
@@ -68,7 +69,8 @@ Nine benchmarks covering reasoning, instruction-following, emotional intelligenc
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper introduces the Open Ko-LLM Leaderboard2, a Korean LLM evaluation platform with nine benchmark tasks including Ko-GPQA, Ko-WinoGrande, Ko-GSM8K, Ko-EQ-Bench, Ko-IFEval, KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, and Ko-Helpfulness. Dataset sizes range from 171 to 10,000 samples. While the leaderboard evaluates many Korean LLMs, all datasets are kept private, and the paper does not report results for specific canonical LLM names from the assessment list.
+
 
 ## Notes
 

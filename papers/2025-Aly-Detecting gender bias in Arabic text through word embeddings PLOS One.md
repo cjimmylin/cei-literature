@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/aiamourad/AraGenderBias"
+LLM_assessed: "Word2Vec"
+DATA_URL: "https://github.com/aiamourad/AraGenderBias, https://doi.org/10.5281/zenodo.13772479"
 tags: 
 abstract: "For generations, women have fought to achieve equal rights with those of men. Many historians and social scientists examined this uphill path with a focus on women's rights and economic status in the West. Other parts of the world, such as the Middle East, remain understudied, with a noticeable shortage in gender-based statistics in the economic arena. According to the sociocognitive theory of critical discourse analysis, social behaviors and norms are reflected by language discourses, which motivates the present study, where we examine gender-based biases in various occupations, as reflected through various textual corpora. Several works in literature have shown that word embedding models can learn biases from the textual data they are trained on, which can propagate societal prejudices that have been implicitly embedded in such text. In our study, we adapt WEAT and Direct Bias quantification tests for Arabic, to examine gender bias with respect to a wide set of occupations as reflected in various Arabic text datasets. These datasets include two Lebanese news archives, Arabic Wikipedia, and electronic newspapers in UAE, Egypt, and Morocco, thus providing different outlooks into female and male engagements in various professions. Our WEAT tests across all datasets indicate that words related to careers, science, and intellectual pursuits are linked to men. In contrast, words related to family and art are associated with women across all datasets. The Direct Bias analysis shows a consistent female gender bias towards professions such as nurse, house cleaner, maid, secretary, and dancer. As the Moroccan News Articles Dataset (MNAD) showed, females were also associated with additional occupations such as researcher, doctor, and professor. Considering that the Arab world remains short on census data exploring gender-based disparities across various professions, our work provides evidence that such stereotypes persist till this day."
 ethics_perspective: "Bias & Fairness"
@@ -71,7 +72,8 @@ For generations, women have fought to achieve equal rights with those of men. Ma
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/aiamourad/AraGenderBias.
+This paper uses Word2Vec (CBOW model) trained on multiple Arabic text corpora including Lebanese news archives (Annahar 1933-2009, Assafir 1974-2011), Arabic Wikipedia, and electronic newspapers from UAE, Egypt, and Morocco to detect gender bias in Arabic word embeddings. The study applies adapted WEAT and Direct Bias quantification tests with custom Arabic word pair lists covering occupations, gender terms, and semantic categories. Code and data are available on GitHub and Zenodo.
+
 
 ## Notes
 

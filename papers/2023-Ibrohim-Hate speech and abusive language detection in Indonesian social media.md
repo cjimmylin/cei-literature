@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Survey of hate speech and abusive language detection in Indonesian social media, documenting progress and challenges in building detection systems for Indonesian online toxicity."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,7 +69,8 @@ Survey of hate speech and abusive language detection in Indonesian social media,
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper is a systematic literature review of 27 selected papers on Indonesian hate speech and abusive language (HSAL) detection, using the Kitchenham framework. It surveys existing datasets (primarily from Twitter, Facebook, Instagram, YouTube, and LINE), methods (classic machine learning and deep learning approaches), and identifies challenges for Indonesian HSAL detection across text, speech, and image modalities.
+
 
 ## Notes
 

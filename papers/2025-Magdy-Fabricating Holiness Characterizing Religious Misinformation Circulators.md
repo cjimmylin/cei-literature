@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Misinformation is a growing concern in a decade involving critical global events. While social media regulation is mainly dedicated towards the detection and prevention of fake news and political misinformation, there is limited research about religious misinformation which has only been addressed through qualitative approaches. In this work, we study the spread of fabricated quotes (Hadith) that are claimed to belong to Prophet Muhammad (the prophet of Islam) as a case study demonstrating one..."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Truthfulness & Factuality"
 ---
 # Fabricating Holiness: Characterizing Religious Misinformation Circulators on Arabic Social Media
@@ -70,7 +71,8 @@ Fabricated Hadith dataset from Arabic social media (size in paper)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper studies the spread of fabricated Hadith (quotes attributed to Prophet Muhammad) on Arabic social media (Twitter/X) as a case of religious misinformation. The dataset includes 559 circulators and 559 debunkers of fabricated Hadith, collected using the MAHADDAT dataset (2,452 fabricated hadiths), Islamweb archives, and refuting terms. Logistic regression was used to classify users, achieving 87.7% accuracy. No LLM models were tested or evaluated.
+
 
 ## Notes
 

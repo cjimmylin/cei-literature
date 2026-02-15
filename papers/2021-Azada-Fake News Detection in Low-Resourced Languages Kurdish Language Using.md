@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://www.kaggle.com/raniaazad/kurdish-fake-news-dataset"
 tags: 
 abstract: "Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 real, 50,211 fake). Hybrid FastText-LSTM achieves 94.25% accuracy."
 research_topic: "Machine Learning"
@@ -70,7 +71,8 @@ Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 rea
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+The paper introduces KurdFake, a novel Kurdish fake news corpus containing two sets of 10,000 annotated news items each (crawled fake news and manipulated text from real news) in the Sorani Kurdish dialect. The corpus was created by harvesting 5,000 real news from four official Kurdish Facebook pages and matching them with fake or manipulated counterparts. Five traditional machine learning classifiers (NB, SVM, LR, DT, RF) were applied using TF-IDF features, with no LLM models tested.
+
 
 ## Notes
 

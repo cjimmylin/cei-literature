@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://songys.github.io/Korean-HF-datasets-catalog/, https://songys.github.io/Chinese-HF-datasets-catalog/, https://songys.github.io/Japanese-HF-datasets-catalog/, https://songys.github.io/English-HF-datasets-catalog/"
 tags: 
 abstract: 
 research_topic: Other
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about Central Asian languag
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper presents a cross-linguistic comparative analysis of over 3,300 Chinese, Japanese, and Korean (CJK) datasets on the HuggingFace platform. The study examines dataset metadata across four categories (scale and composition, development patterns, documentation quality, and cultural characteristics) using quantitative and qualitative methods. No LLMs were directly tested or evaluated; the focus is on dataset ecosystem analysis. Web-based catalogs for each language are provided as living documents.
+
 
 ## Notes
 

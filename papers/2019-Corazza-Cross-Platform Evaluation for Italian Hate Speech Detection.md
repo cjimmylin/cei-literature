@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +39,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -76,7 +77,7 @@ This paper conducts a cross-platform evaluation of hate speech detection models 
 
 ## Data Description
 
-Cross-platform evaluation study for Italian hate speech detection across Facebook, Twitter, Instagram, and WhatsApp. Shows that combining platform-dependent datasets for training is beneficial. The paper focuses on evaluation methodology rather than introducing a new dataset.
+The paper performs a comparative evaluation of hate speech detection across four Italian social media platforms (Facebook, Twitter, Instagram, WhatsApp) using a modular neural architecture with GRU-based recurrent layers and FastText embeddings. The datasets include 4,000 tweets, 4,000 Facebook comments, 6,710 Instagram messages, and 1,640 WhatsApp messages annotated for hate speech. The study examines cross-platform training effects but does not test any LLMs.
 
 
 ## Notes

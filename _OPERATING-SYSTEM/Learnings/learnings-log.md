@@ -34,7 +34,17 @@
 
 ---
 
-## 2026-02-14
+## 2026-02-14 (Session 77)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-14 | API | **OpenAlex Dominates Author Resolution for Non-arXiv Papers:** In a 123-paper batch of Unknown-author papers, OpenAlex title search resolved 30 papers (81% of all successes) vs arXiv ID 5, CrossRef 1, S2 1. OpenAlex handles Unicode titles, diacritics, and non-English academic papers well. It has generous rate limits (~1s delay sufficient). Semantic Scholar was essentially unusable -- even with 15s delays + 2-minute 429 backoff, it stayed rate-limited for the entire run. For batch author resolution, skip S2 entirely and allocate its slot to a second OpenAlex query variant. |
+| 2026-02-14 | Author Management | **86 Unknown Papers Are Non-Academic Resources:** The remaining unresolvable papers fall into 4 categories: (1) blog posts/web articles, (2) Chinese government white papers/CSDN blogs, (3) conference/workshop event pages (not papers), (4) dataset pages (HuggingFace, NLP Database). These will never resolve via academic APIs. Options: manual attribution from page metadata, reclassification as grey literature, or accept "Unknown" as valid for non-academic resources. |
+| 2026-02-14 | API | **arXiv Rate Limits Compound Over Long Runs:** arXiv title search starts returning HTTP 429 and read timeouts after ~75 API calls in a single script run, even with 3s delays. Solution: implement a "retry-later" queue that saves failed arXiv IDs and retries them in a separate run after cooldown (arXiv resets after ~30 minutes). |
+| 2026-02-14 | PDF Processing | **Manual Browser Download Queue Has 8 High-Priority Targets:** Of 28 failed PDF downloads, 8 are accessible but Cloudflare/login-blocked: 3 SSRN (free login), 3 ScienceDirect OA (Cloudflare JS), 1 TechRxiv, 1 ResearchSquare. EuropePMC's `ptpmcrender` endpoint is the most effective automated bypass for Cloudflare-protected OA papers. |
+| 2026-02-14 | Workflows | **Combined Discover+Apply Script Pattern:** `resolve_all_unknown_authors.py` combines previously separate discover + apply into a single-pass script with atomic per-paper resolution. The S2 backoff pattern (`S2_SKIP_UNTIL` global timestamp + 2-min cooldown on 429) prevents wasting time on permanently rate-limited APIs. |
+
+## 2026-02-14 (Session 75)
 
 | Date | Category | Learning |
 |------|----------|----------|

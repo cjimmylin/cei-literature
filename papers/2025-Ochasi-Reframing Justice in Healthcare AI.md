@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Reframing Justice in Healthcare AI: An Ubuntu-Based Approach for Africa
 
@@ -55,7 +56,7 @@ This paper introduces **Ubuntu** as a guiding framework for AI in African health
 
 ## Data Description
 
-The PDF extract for this paper is mismatched and contains content about Pilates Reformer spring resistance effects on core muscle activity rather than the expected healthcare AI justice content. No LLM assessment or dataset information can be determined from the available extract.
+The PDF extract for this paper is a placeholder awaiting correct PDF download (Wiley requires browser download). Based on the abstract, this paper introduces Ubuntu, a traditional African ethical philosophy, as a guiding framework for AI in African healthcare. It does not introduce or utilize a specific dataset or benchmark for LLM assessment.
 
 
 ## Notes

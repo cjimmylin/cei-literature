@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Benchmarks Whisper ASR model on Pashto, Punjabi, and Urdu. Few-shot fine-tuning significantly reduces WER for Pashto's complex phonetic structures."
 research_topic: Other
@@ -67,7 +68,8 @@ Benchmarks Whisper ASR model on Pashto, Punjabi, and Urdu. Few-shot fine-tuning 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper benchmarks OpenAI's Whisper automatic speech recognition model (Small, Medium, and Large variants) on three low-resource South Asian languages: Pashto, Punjabi, and Urdu. The evaluation uses curated datasets including the ELRA-S0381 Pashto Broadcast dataset (108 hours), a custom in-house Punjabi dataset, the Urdu Broadcast dataset (~800 hours), and the Urdu Telephonic dataset (111.5 hours), with 15-hour subsets used for few-shot fine-tuning and separate evaluation splits. No canonical LLMs from the assessment list were tested.
+
 
 ## Notes
 

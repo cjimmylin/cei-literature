@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://zenodo.org/record/7775521"
 tags: 
 abstract: "Bengali Identity Bias Evaluation Dataset with 25,396 gender-based sentence pairs (female/male), 11,724 religion-based pairs (Hindu/Muslim), 13,528 nationality-based pairs (Bangladeshi/Indian). Addresses cultural factors like religion and nationality in bias evaluation."
@@ -71,7 +72,8 @@ Bengali Identity Bias Evaluation Dataset with 25,396 gender-based sentence pairs
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://zenodo.org/record/7775521.
+BIBED (Bengali Identity-Bias Evaluation Dataset) contains over 121,000 sentences organized using the Resource Description Framework (RDF/JSON). The dataset includes explicit bias evaluation sentence pairs across gender (female/male), religion (Hindu/Muslim), and nationality (Bangladeshi/Indian) dimensions, as well as implicit bias evaluation data based on noun phrases and colloquial lexicons. Data was compiled from existing Bengali corpora, template-based sentence generation, and curated lists of culturally relevant names and kinship terms.
+
 
 ## Notes
 

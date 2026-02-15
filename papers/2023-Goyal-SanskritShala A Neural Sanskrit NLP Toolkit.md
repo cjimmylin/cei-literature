@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "We present a neural Sanskrit Natural Language Processing (NLP) toolkit named SanskritShala1 to facilitate computational linguistic analyses for several tasks such as word segmentation, morphological tagging, dependency parsing, and compound type identification. Our systems currently report state-of-the-art performance on available benchmark datasets for all tasks. SanskritShala is deployed as a web-based application, which allows a user to get real-time analysis for the given input."
 data_description: "Benchmark annotated dataset"
 data_metrics: "7 word"
-LLM_assessed: NA
-DATA_URL: "https://cnerg.iitkgp.ac.in/sanskritshala / https://github.com/Jivnesh/SanskritShala"
+LLM_assessed: "Word2Vec, GloVe, ELMo, ALBERT"
+DATA_URL: "https://github.com/Jivnesh/SanskritShala"
 research_topic: "NLP & Representation Learning"
 ---
 # SanskritShala: A Neural Sanskrit NLP Toolkit with Web-Based Interface for Pedagogical and Annotation Purposes
@@ -71,7 +72,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://cnerg.iitkgp.ac.in/sanskritshala / https://github.com/Jivnesh/SanskritShala.
+SanskritShala provides a neural Sanskrit NLP toolkit with four task modules (word segmentation, morphological tagging, dependency parsing, compound type identification) and seven pretrained word embedding models (word2vec, GloVe, fastText, charLM, ELMo, ALBERT, LCM) trained on publicly available Sanskrit corpora. The toolkit also includes four intrinsic evaluation datasets for analogy prediction, synonym detection, relatedness, and concept categorization, built from Sanskrit WordNet, Amarakosa, and Sanskrit Heritage Reader.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Given a data set and a learning task such as classification, there are two prime motives for executing some kind of data set reduction. On one hand there is the possible algorithm performance improvement. On the other hand the decrease in the overall size of the data set can bring advantages in storage space used and time spent computing. Our purpose is to determine the importance of several basic reduction techniques on Support Vector Machines, by comparing their relative performance improvement when applied on the standard REUTERS-21578 benchmark."
 ethics_perspective: "General Ethics"
@@ -67,7 +68,8 @@ Given a data set and a learning task such as classification, there are two prime
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical linguistics paper (in Mongolian) exploring the concept of textual value through the lens of Saussurean semiotics, Hjelmslev's Glossematics, Humboldt's language theory, and Chomsky's computational linguistics, arguing that the meaning and value of texts derive from the positional relationships of their components rather than from individual constituent properties.
+
 
 ## Notes
 

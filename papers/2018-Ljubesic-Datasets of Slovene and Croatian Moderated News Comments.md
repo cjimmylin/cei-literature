@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/UCSM-DUE/IWG_"
+LLM_assessed: "NA"
+DATA_URL: "http://hdl.handle.net/11356/1201"
 tags: 
 abstract: 
 research_topic: Other
@@ -67,7 +68,8 @@ Two large datasets of moderated news comments from Slovene RTV MCC and Croatian 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/UCSM-DUE/IWG_.
+The paper presents two large datasets of moderated news comments: the Slovene MMC dataset (7.6 million comments, 325 million words) and the Croatian STY dataset (17 million comments, 407 million words), spanning eight and ten years respectively. Comments include metadata on whether they were deleted by moderators. The authors build baseline fastText classification models achieving ROC AUC scores of 0.794 (MMC) and 0.793 (STY) for detecting inappropriate content. No LLMs were tested.
+
 
 ## Notes
 

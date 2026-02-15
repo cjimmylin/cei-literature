@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/fchollet/keras"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/omilab/Neural-Sentiment-Analyzer-for-Modern-Hebrew"
 tags: 
 abstract: "First sentiment analysis benchmark for Modern Hebrew based on 12,804 social media comments from Israel president's Facebook page. Token-based and morpheme-based settings. 89% accuracy baseline."
 research_topic: "NLP & Representation Learning"
@@ -70,7 +71,8 @@ First sentiment analysis benchmark for Modern Hebrew based on 12,804 social medi
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/fchollet/keras.
+The paper introduces a new sentiment analysis benchmark for Modern Hebrew consisting of 12,804 user comments scraped from the official Facebook page of Israel's president, annotated for positive, negative, and neutral sentiment by two trained annotators. The dataset is split into 10,244 training and 2,560 test comments, provided in both token-based and morpheme-based representational forms. The authors evaluate various neural network architectures (MLP, CNN, LSTM, BiLSTM) on this benchmark rather than testing any LLM.
+
 
 ## Notes
 

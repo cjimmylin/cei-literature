@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ tags:
 abstract: "Framework for hate speech detection in accented and low-resource Malayalam speech using balanced learning, multi-level validation, and robustness evaluation. Establishes transferable framework for multilingual content moderation. Malayalam speech-based hate speech detection. Addresses accent-specific challenges in content moderation relevant to cultural values enforcement."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Novel Deep Learning Framework with Advanced Feature Engineering for Hate Speech Detection in Accented Malayalam Speech
@@ -65,7 +66,8 @@ Framework for hate speech detection in accented and low-resource Malayalam speec
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper proposes SigNet and SigNet2.0, deep learning frameworks for radio signal modulation classification using a trainable signal-to-matrix (S2M) operator paired with CNN architectures (ResNet50). The study evaluates on two datasets: RML2016.10a (220,000 samples, 11 modulation types) and Sig2019-12 (468,000 samples, 12 modulation types), comparing against baselines including 1D-ResNet, 2D-CNN, LSTM, and MCLDNN. No large language models are tested or evaluated.
+
 
 ## Notes
 

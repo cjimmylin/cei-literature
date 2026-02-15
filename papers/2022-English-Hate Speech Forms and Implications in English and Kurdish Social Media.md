@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Cross-linguistic analysis of hate speech patterns finding Kurdish commentators primarily use dehumanization and demonization patterns distinct from English hate speech."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,7 +69,8 @@ Cross-linguistic analysis of hate speech patterns finding Kurdish commentators p
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper presents a qualitative linguistic analysis of hate speech in English and Kurdish Facebook comments on similar political posts using Bahador's (2020) Intense Scale of Hate Speech model. The study analyzes 15 comments per language across three posts, finding Kurdish commentators favor dehumanization/demonization while English commentators prefer negative characterization. This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/alshabae/FairArRecSys"
 tags: 
 abstract: "Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a population whose dialectal diversity is underrepresented in recommendation system research. By uncovering performance gaps across dialectal variation, we highlight the intersection of NLP and recommendation system and underscore the broader social impact of NLP. Our findings emphasize the importance of interdisciplinary approaches in building fair recommendation systems, particularly for global and local platforms serving diverse Arabic-speaking communities. The source code is available at https: //github.com/alshabae/FairArRecSys."
 ethics_perspective: "Bias & Fairness"
@@ -68,7 +69,8 @@ Recommendation systems play a critical role in shaping user experiences and acce
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper investigates fairness disparities in recommendation systems for Arabic-speaking users across dialectal groups. It uses two publicly available Arabic book review datasets: BRAD (33,986 users, 4,978 items, 455,912 interactions) and LABR (5,891 users, 1,333 items, 45,681 interactions). A BERT-based model is used for Arabic dialect identification to group users, and recommendation models (TTNN, DeepFM, Matrix Factorization) are evaluated for fairness across dialect groups at country, regional, and MSA-vs-dialectal levels.
+
 
 ## Notes
 

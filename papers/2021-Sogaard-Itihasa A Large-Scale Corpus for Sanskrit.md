@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ tags:
 abstract: "This work introduces Itih¯asa, a large-scale translation dataset containing 93,000 pairs of Sanskrit shlokas and their English translations. The shlokas are extracted from two Indian epics viz., The R¯am¯ayana and The Mah¯abh¯arata. We ﬁrst describe the motivation behind the curation of such a dataset and follow up with empirical analysis to bring out its nuances. We then benchmark the performance of standard translation models on this corpus and show that even state-of-the-art transformer..."
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/rahular/itihasa"
 research_topic: "Machine Learning"
 ---
@@ -71,7 +72,8 @@ research_topic: "Machine Learning"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/rahular/itihasa.
+The paper introduces Itihasa, a large-scale Sanskrit-English translation dataset containing 93,000 pairs of Sanskrit shlokas and their English translations extracted from The Ramayana and The Mahabharata. The authors benchmark performance using Moses (SMT) and five Transformer-based seq2seq models (B2B-Tiny through B2B-Base) initialized with standard BERT architectures, achieving 7-8 BLEU points at best. No LLMs from the canonical list were tested; only custom-trained small translation models were evaluated.
+
 
 ## Notes
 

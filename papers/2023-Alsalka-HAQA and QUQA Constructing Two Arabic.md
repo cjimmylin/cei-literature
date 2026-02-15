@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Creates two Arabic QA corpora: QUQA for the Quran (covering ~47% of Quran verses) and HAQA for Hadith. The most extensive collection of Arabic QA pairs for the Quran. Questions span factual, inferential, and interpretive types. Useful as gold-standard evaluation datasets for LLMs."
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://aclanthology.org/2023.ranlp-1.10/"
+LLM_assessed: "NA"
+DATA_URL: "http://github.com/scsaln/HAQA-and-QUQA"
 research_topic: Other
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
@@ -70,7 +71,8 @@ QUQA: 3,369 records (2,189 unique questions, 301K+ tokens); HAQA: Hadith QA corp
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://aclanthology.org/2023.ranlp-1.10/.
+The paper presents two Arabic question-answering datasets for Islamic texts: HAQA (1,598 question-answer pairs for Hadith Sharif) and QUQA (3,382 question-answer pairs for the Quran). HAQA is the first publicly available Arabic Hadith QA dataset, while QUQA is the most extensive Quran QA collection, integrating existing datasets (AQQAC, AyaTEC) with new data from expert books. The datasets are designed for use as gold-standard evaluation sets and training data for language models, but no LLM models were tested in this paper.
+
 
 ## Notes
 

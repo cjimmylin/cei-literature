@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ tags:
 abstract: "Hate speech detection in social media texts is an important Natural language Processing task, which has several crucial applications like sentiment analysis, investigating cyber bullying and examining socio-political controversies. While relevant research has been done independently on code-mixed social media texts and hate speech detection, our work is the ﬁrst attempt in detecting hate speech in HindiEnglish code-mixed social media text."
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/deepanshu1995/HateSpeech-Hindi-"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/deepanshu1995/HateSpeech-Hindi-English-Code-Mixed-Social-Media-Text"
 ---
 # Hindi-English Code-Mixed Social Media Text for Hate Speech Detection
 
@@ -63,7 +64,8 @@ First attempt at detecting hate speech in Hindi-English code-mixed text with ~4,
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/deepanshu1995/HateSpeech-Hindi-.
+The paper presents an annotated corpus of 4,575 Hindi-English code-mixed tweets for hate speech detection, with word-level language tags (English, Hindi, other) and binary hate/normal speech labels. The dataset includes 1,661 hate speech tweets and 2,914 normal speech tweets. The authors evaluate SVM and Random Forest classifiers using character n-grams, word n-grams, punctuation, negation, and lexicon features, achieving best accuracy of 71.7% with SVM.
+
 
 ## Notes
 

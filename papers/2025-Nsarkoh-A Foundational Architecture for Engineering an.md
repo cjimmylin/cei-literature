@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Proposes a foundational architectural blueprint for developing AI models (especially LLMs) aligned with Africa's socio-technical environment. Addresses the bias in Western-centric training data by proposing a unified framework for integrating data from academic libraries, transaction systems, and informal processes into a self-renewing AI system that respects Africa's linguistic diversity, oral culture, and communal values."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: Other
 ---
 # A Foundational Architecture for Engineering an Afrocentric AI Training and Renewal Platform
@@ -70,7 +71,8 @@ N/A (architectural blueprint)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+The PDF extract for this paper contains incorrect content (a paper about Internet architecture research and standardization by Papadimitriou et al., not the intended Nsarkoh paper). No valid extract is available for analysis.
+
 
 ## Notes
 

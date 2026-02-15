@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Racism and intolerance on social media contribute to a toxic online environment which may spill offline to foster hatred, and eventually lead to physical violence. That is the case with online antisemitism, the specific category of hatred considered in this study. Tracking antisemitic themes and their associated terminology over time in online discussions could help monitor the sentiments of their participants and their evolution, and possibly offer avenues for intervention that may prevent the..."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Monitoring the Evolution of Antisemitic Discourse on Extremist Social Media Using BERT
@@ -70,7 +71,8 @@ Develops custom BERT-based classifiers to identify antisemitic discourse with hi
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper uses a dataset of antisemitic posts collected from extremist social media platforms, labeled by a data team using third-party software Pyrra into predefined historic antisemitic tropes. The authors fine-tuned a BERT uncased model on this domain-specific data to generate contextual embeddings, then applied a novel continual divisive clustering algorithm to monitor the evolution of antisemitic themes over time. The dataset and coding statement are available upon request.
+
 
 ## Notes
 

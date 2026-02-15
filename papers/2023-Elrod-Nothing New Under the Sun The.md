@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Summary: Investigates GPT's capabilities in biblical studies across three categories: knowledge retrieval/language understanding, generative modeling/creative problem solving, and command interpretation/query parsing. Demonstrates both limitations and proficiencies for Biblical Hebrew NLP."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: Other
 ---
 # Nothing New Under the Sun? The Study of Biblical Hebrew in the Era of Generative Pre-trained AI
@@ -70,7 +71,8 @@ N/A (experiments using ETCBC BHSA dataset and Text-Fabric Python libraries)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a bibliometric review of Google Scholar Metrics (2013 version), analyzing its features, limitations, and journal ranking capabilities for scientific publications across multiple languages.
+
 
 ## Notes
 

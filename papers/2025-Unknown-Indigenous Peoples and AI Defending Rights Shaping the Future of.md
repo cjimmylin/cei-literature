@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Social & Cultural Analysis"
@@ -67,7 +68,8 @@ I've completed the web search for "indigenous languages AI ethics cultural value
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This is a UN concept note for the International Day of the World's Indigenous Peoples 2025, themed 'Indigenous Peoples and AI: Defending Rights, Shaping Futures.' It is a policy discussion document addressing Indigenous rights in AI governance, data sovereignty, environmental impacts of AI infrastructure, and Indigenous-led AI innovations. No dataset or benchmark is introduced.
+
 
 ## Notes
 

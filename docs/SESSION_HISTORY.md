@@ -2,6 +2,37 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 76 (Feb 14, 2026) - LLM Assessment Enrichment for Recent Wave Papers
+
+### Overview
+Enriched 269 recently-imported papers (created since Feb 12) with LLM assessment data using a 10-agent swarm. Fixed 4 bugs in the assessment pipeline scripts (NA sentinel values, date filtering, Data Description replacement), then generated batches, ran agents, consolidated, and validated.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers Enriched | 269/269 |
+| Papers with LLM Models Found | 7 (GPT-4, BERT, Word2Vec, Qwen, etc.) |
+| Papers with DATA_URLs Found | 33 (GitHub, HuggingFace, Zenodo, Mendeley) |
+| Data Descriptions Written | 269 (all "Backfill summary" placeholders replaced) |
+| Bugs Fixed | 4 (NA sentinel x2, --since flag, Data Description replacement) |
+| Agent Swarm Size | 10 agents in 2 waves of 5 |
+| Filename Mismatches Fixed | 8 (3 curly quotes, 5 author renames) |
+| Final Validation | 1847/1847 PASS, 0 errors |
+
+### Key Learnings
+- [Workflows] NA sentinel values (`LLM_assessed: NA`) treated as "already processed" by `has_llm_assessed()` because `bool("NA")` is True — must explicitly exclude sentinels
+- [Data Quality] Agent JSON filenames drift from disk due to curly-vs-straight quotes and author renames — pre-consolidation reconciliation step essential
+- [Workflows] Only 91/269 (34%) had PDF extracts — extract acquisition remains the enrichment bottleneck
+
+### Files Changed
+- 269 paper files: LLM_assessed, DATA_URL YAML updates + Data Description body replacements
+- `PYTHON/generate_llm_assessment_batches.py`: Bug fix (NA sentinel) + `--since` date filter
+- `PYTHON/consolidate_llm_assessments.py`: Bug fix (NA sentinel) + Data Description replacement
+- `docs/SESSION_HISTORY.md`: This entry
+- `_OPERATING-SYSTEM/Learnings/learnings-log.md`: 4 entries
+
+---
+
 ## Session 75 (Feb 14, 2026) - Codex Session Audit & Remediation
 
 ### Overview

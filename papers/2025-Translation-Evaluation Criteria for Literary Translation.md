@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ I found a highly relevant result! The study "Evaluating Uighur literary translat
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a translation studies paper discussing objective and subjective criteria for evaluating literary translation quality, illustrated through a comparative analysis of the Armenian translation of Saint-John Perse's poem 'Rains' examining equivalence, line lengthening, and translator freedom.
+
 
 ## Notes
 

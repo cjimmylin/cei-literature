@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "This paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame­ works through a comparative analysis of Māori Kaitiakitanga and Navajo Hózhó principles. While prior research empha­ sizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into AI governance. The study proposes culturally relevant AI governance frameworks by highlighting the unique contribu­ tions of each Indigenous knowledge system and identifying common ground. Additionally, it examines the synergies and tensions between Indigenous values and principal AI ethical frameworks—such as fairness, accountability, and transpar­ ency—resulting in targeted recommendations for incorporating Indigenous perspectives into AI governance. This research aims to cultivate a more inclusive and equitable AI landscape that honors the rights and values of Indigenous peoples while leveraging their insights to address ethical dilemmas in AI governance. Additionally, this paper demonstrates how these ethical principles translate to practical requirements for individual AI projects, showing that IKS integration prevents project failure and ensures operational viability in Indigenous contexts. The analysis juxtaposes Indigenous perspectives on collective data ownership, ecological stewardship, and relational accountability against prevailing AI ethical norms, uncovering critical shortcomings in current frameworks regarding Indigenous priorities. It draws on specific examples from Māori environmental management and Navajo health initiatives. This research illustrates how Kaitiakitanga and Hózhó can enhance data sovereignty, ecological sustainability, and community-driven decision-making in AI governance. Suggested strategies include mandated Indigenous representation in AI policymaking, culturally appropriate data gover­ nance protocols, and community-led impact assessment frameworks. Keywords AI g"
 ethics_perspective: "Responsible AI"
@@ -72,7 +73,8 @@ This paper addresses a significant gap in AI governance by examining the limitat
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a qualitative comparative analysis of Maori Kaitiakitanga and Navajo Hozho Indigenous knowledge systems and their potential integration into AI governance frameworks. The authors explicitly state that no datasets were generated or analysed during the study.
+
 
 ## Notes
 

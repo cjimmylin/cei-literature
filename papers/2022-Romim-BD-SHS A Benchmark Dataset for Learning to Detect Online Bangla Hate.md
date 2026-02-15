@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/strohne/Facepager"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/naurosromim/hate-speech-dataset-for-Bengali-social-media"
 tags: 
 abstract: "Social media platforms and online streaming services have spawned a new breed of Hate Speech (HS). Due to the massive amount of user-generated content on these sites, modern machine learning techniques are found to be feasible and cost-effective to tackle this problem. However, linguistically diverse datasets covering different social contexts in which offensive language is typically used are required to train generalizable models."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,7 +72,8 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/strohne/Facepager.
+The paper introduces BD-SHS, a large manually annotated Bangla hate speech benchmark dataset containing over 50,200 offensive comments crawled from social media and streaming sites, with 24,156 tagged as hate speech. The dataset uses a three-level hierarchical annotation scheme (HS identification, target identification, HS type categorization). Benchmark models include SVM with TF-IDF features and BiLSTM with various word embeddings (BengFastText, multilingual FastText, and a custom informal text FastText), achieving a best F1-score of 91.0%. No LLM models from the canonical list were tested.
+
 
 ## Notes
 

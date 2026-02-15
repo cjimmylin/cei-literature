@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ tags:
 abstract: "Developing effective scene text detection and recognition models hinges on extensive training data, which can be both laborious and costly to obtain, especially for low-resourced languages. Conventional methods tailored for Latin characters often falter with non-Latin scripts due to challenges like character stacking, diacritics, and variable character widths without clear word boundaries. In this paper, we introduce the first Khmer scene-text dataset, featuring 1,544 expert-annotated images,..."
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://gitlab.com/vannkinhnom123/khmerst"
 research_topic: "Machine Learning"
 ---
@@ -69,7 +70,8 @@ First Khmer scene-text dataset with 1,544 expert-annotated images (997 indoor, 5
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://gitlab.com/vannkinhnom123/khmerst.
+KhmerST is the first Khmer scene-text dataset, containing 1,544 expert-annotated images (997 indoor, 547 outdoor scenes) from various locations in Cambodia. Annotations include line-level text and polygonal bounding box coordinates. The benchmark evaluates scene-text detection using YOLO models (v1, v5, v8, v10) and text recognition using TrOCR and Tesseract OCR. No canonical LLMs were tested; this is a computer vision OCR dataset.
+
 
 ## Notes
 

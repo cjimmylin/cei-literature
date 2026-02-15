@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Develops Thai hate-speech classification method with various loss functions on a corpus of ordinal-imbalanced Thai text, addressing the challenge of hate speech severity grading in Thai social media. Thai-specific hate speech dataset with ordinal severity labels. Relevant to nuanced toxicity evaluation."
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Detection in Thai Social Media with Ordinal-Imbalanced Text Classification
@@ -69,7 +70,8 @@ Develops Thai hate-speech classification method with various loss functions on a
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+The PDF extract appears to contain the wrong paper content, showing a legal analysis article titled 'The Future of Freedom of Expression Online' by Evelyn Mary Aswad from Duke Law & Technology Review, rather than a paper about hate speech detection in Thai social media. No LLM models were tested or evaluated in the extracted content, and no dataset or benchmark related to Thai hate speech detection is present.
+
 
 ## Notes
 

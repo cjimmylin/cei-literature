@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/strohne/Facepager"
+LLM_assessed: "GPT-4"
+DATA_URL: "https://data.mendeley.com/datasets/h5t7p4bcj2/1"
 tags: 
 abstract: "First publicly available aspect-based sentiment analysis dataset for Sorani Kurdish with 4,000+ quadruplet ABSA entries in restaurant review domain. Perso-Arabic script."
 research_topic: "NLP & Representation Learning"
@@ -69,7 +70,8 @@ First publicly available aspect-based sentiment analysis dataset for Sorani Kurd
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/strohne/Facepager.
+This paper introduces KurdABSA, the first publicly available aspect-based sentiment analysis (ABSA) dataset for the Sorani dialect of Kurdish, containing over 4,000 quadruplet annotations in the restaurant review domain. The dataset was automatically annotated using GPT-4 Turbo with a prompt-based few-shot learning approach, guided by 35 manually annotated examples verified by native Kurdish-language experts. The data was collected from public Facebook and Instagram restaurant review pages in the Kurdistan Region.
+
 
 ## Notes
 

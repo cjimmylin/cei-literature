@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: No
 is_dataset: Yes
 data_description: Dataset
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://huggingface.co/datasets/TUKE-KEMT/hate_speech_slovak"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/TUKE-KEMT/toxic-sk, https://huggingface.co/datasets/TUKE-KEMT/hate_speech_slovak, https://huggingface.co/datasets/TUKE-KEMT/senti-sk"
 tags: 
 abstract: "Three new annotated Slovak datasets for toxicity detection, hate speech detection, and sentiment analysis. Addresses gap in Slovak NLP resources for automated moderation."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -75,7 +76,8 @@ Three new annotated Slovak datasets for toxicity detection, hate speech detectio
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/TUKE-KEMT/hate_speech_slovak.
+This paper introduces three new annotated Slovak-language datasets for toxicity, hate speech, and sentiment analysis. ToxicSK contains 8,840 Facebook comments (balanced toxic/non-toxic). The hate_speech_slovak dataset contains 13,189 Facebook posts annotated for hate speech (3,605 hateful, 9,584 neutral). SentiSK contains 34,006 Facebook comments annotated into three sentiment categories (20,668 negative, 9,581 neutral, 3,779 positive). The datasets are hosted on HuggingFace under the TUKE-KEMT organization. No LLMs were directly tested or evaluated in this paper.
+
 
 ## Notes
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -65,6 +66,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Explores whether AI will serve as a 'revolution' or a 'new colonizer' for Indigenous peoples. Examines AI in judicial processes and its impact on Indigenous Peoples' legal rights. Argues that Indigenous data sovereignty must guide 21st-century data governance and AI development.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a legal analysis examining whether AI serves as a revolution or new colonizer for Indigenous peoples, focusing on algorithmic bias in judicial processes and Indigenous data sovereignty.
+
 
 ## Notes
 

@@ -19,7 +19,7 @@ authors: Amogh Gupta, Niharika Patil, Sourojit Ghosh, SnehalKumar (Neil) S Gaikw
 url: "https://arxiv.org/abs/2601.14506"
 external_pdf: "https://arxiv.org/pdf/2601.14506.pdf"
 publication: arXiv / FAccT 2026
-local_pdf: "[[PDFs/2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Indian, American"

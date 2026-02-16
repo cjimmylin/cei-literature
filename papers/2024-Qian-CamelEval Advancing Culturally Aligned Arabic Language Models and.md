@@ -20,7 +20,7 @@ doi: 10.48550/arXiv.2409.12623
 url: "https://arxiv.org/abs/2409.12623"
 external_pdf: "https://arxiv.org/pdf/2409.12623.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"

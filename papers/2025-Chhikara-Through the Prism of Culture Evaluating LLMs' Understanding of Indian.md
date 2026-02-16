@@ -20,7 +20,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2501.16748"
 external_pdf: "https://arxiv.org/pdf/2501.16748.pdf"
 publication: arXiv / FAccT 2025
-local_pdf: "[[PDFs/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"

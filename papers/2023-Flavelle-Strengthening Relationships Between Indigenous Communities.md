@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Addresses barriers to collaboration between documentary linguists, computational linguists, and Indigenous communities for NLP-assisted language revitalization. Recommends increased opportunities for awareness-building and skills-training in computational linguistics tailored to Indigenous community members' needs.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It addresses barriers to collaboration between documentary linguists, computational linguists, and Indigenous communities for NLP-assisted language revitalization.
+
 
 ## Notes
 

@@ -2,6 +2,33 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 87 (Feb 16, 2026) - Vault Cleanup: Root PDFs, Legacy Ethics, ZERO Assessment
+
+### Overview
+Three-pronged vault cleanup: sorted 128 misplaced root-level PDFs into year subdirectories with YAML wikilink updates, recycled 3 legacy ethics classification directories (84 duplicate files), and enriched 32 ZERO (religious tradition import) papers with LLM assessment metadata via 2-agent swarm.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Root PDFs sorted | 128 → `PDFs/YYYY/` (79×2025, 32×2024, 11×2026, 5×2023, 1×2022) |
+| Paper YAML updated (local_pdf) | 128 |
+| Legacy ethics dirs recycled | 3 dirs, 84 files → `RECYCLE-BIN/20260216-legacy-ethics-pdfs/` |
+| ZERO papers LLM-assessed | 32/32 (1 GPT-4, 31 NA) |
+| ZERO papers with DATA_URL | 4/32 |
+| New scripts | 1 (`PYTHON/sort_root_pdfs.py`) |
+| Final validation | 2,034/2,034 pass, 0 errors |
+
+### Key Learnings
+- [Workflows] Two-pass YAML regex (exact wikilink match → broad `local_pdf:` fallback) ensures 100% update coverage even when wikilink format varies
+- [Workflows] `--keys ZERO0001:ZERO0032` flag on `generate_llm_assessment_batches.py` enables targeted enrichment of paper subsets without re-processing the vault
+- [Data Quality] Religious tradition papers are overwhelmingly non-LLM: 31/32 ZERO papers got NA; only exception is GPT-4 Vision in an art installation (AInimism)
+
+### Files Changed
+- papers/: 160 modified (128 local_pdf wikilinks + 32 LLM assessment enrichment)
+- PYTHON/: 1 new script (`sort_root_pdfs.py`)
+- logs/: 6 new files (2 batches, 2 agent results, 1 manifest, 1 consolidation)
+- RECYCLE-BIN/: 3 legacy ethics dirs (84 PDFs total)
+
 ## Session 86 (Feb 16, 2026) - Multi-Wave Plan: Reports, Data Fixes, Religious Tradition Search
 
 ### Overview

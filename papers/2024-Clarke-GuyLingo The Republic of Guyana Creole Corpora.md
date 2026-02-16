@@ -19,7 +19,7 @@ authors: Christopher Clarke, Roland Daynauth, Charlene Wilkinson, Hubert Devonis
 url: "https://arxiv.org/abs/2405.03832"
 external_pdf: "https://arxiv.org/pdf/2405.03832.pdf"
 publication: NAACL 2024
-local_pdf: "[[PDFs/2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Systematic literature review of 53 articles (2012-2023) addressing the intersection of Indigenous Knowledge Systems and AI. Identifies four overlapping categories: AI assisting IKS promotion, pitfalls of AI for Indigenous peoples, and how IKS can enrich AI development. Raises critical ethical questions about Indigenous Data Sovereignty, consent, and cultural appropriateness.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a systematic literature review of 53 articles (2012-2023) addressing the intersection of Indigenous Knowledge Systems and AI, covering ethical questions about data sovereignty, consent, and cultural appropriateness.
+
 
 ## Notes
 

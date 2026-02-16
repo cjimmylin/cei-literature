@@ -20,7 +20,7 @@ doi: 10.18653/v1/2025.acl-long.1092
 url: "https://arxiv.org/abs/2505.19484"
 external_pdf: "https://arxiv.org/pdf/2505.19484.pdf"
 publication: ACL 2025
-local_pdf: "[[PDFs/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

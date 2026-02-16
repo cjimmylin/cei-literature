@@ -20,7 +20,7 @@ doi: 10.48550/arXiv.2404.01954
 url: "https://arxiv.org/abs/2404.01954"
 external_pdf: "https://arxiv.org/pdf/2404.01954.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024-Yoo-HyperCLOVA X Technical Report.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Yoo-HyperCLOVA X Technical Report.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yoo-HyperCLOVA X Technical Report.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Korean"

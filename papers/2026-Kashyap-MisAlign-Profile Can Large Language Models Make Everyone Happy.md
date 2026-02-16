@@ -19,7 +19,7 @@ authors: "Usman Naseem; Gautam Siddharth Kashyap; Ebad Shabbir; Sushant Kumar Ra
 url: "https://arxiv.org/abs/2602.11091"
 external_pdf: "https://arxiv.org/pdf/2602.11091.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

@@ -19,7 +19,7 @@ authors: Feiyan Liu, Siyan Zhao, Chenxun Zhuo, Tianming Liu, Bao Ge
 url: "https://arxiv.org/abs/2601.02830"
 external_pdf: "https://arxiv.org/pdf/2601.02830.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese, American"

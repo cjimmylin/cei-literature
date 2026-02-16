@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -65,6 +66,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Input paper for Australia's ACOLA Horizon Scanning Project on AI. Addresses Indigenous data sovereignty — the rights of Indigenous peoples to own, control, access, and possess data about their members, knowledge systems, customs, or territories — in the context of AI development.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a policy-oriented input paper for Australia's ACOLA Horizon Scanning Project addressing Indigenous data sovereignty in the context of AI development.
+
 
 ## Notes
 

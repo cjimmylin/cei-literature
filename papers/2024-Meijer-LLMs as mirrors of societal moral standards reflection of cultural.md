@@ -19,7 +19,7 @@ authors: Mijntje Meijer, Hadi Mohammadi, Ayoub Bagheri
 url: "https://arxiv.org/abs/2412.00962"
 external_pdf: "https://arxiv.org/pdf/2412.00962.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

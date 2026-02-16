@@ -19,7 +19,7 @@ authors: Po-Heng Chen, Sijia Cheng, Wei-Lin Chen, Yen-Ting Lin, Yun-Nung Chen
 url: "https://arxiv.org/abs/2403.20180"
 external_pdf: "https://arxiv.org/pdf/2403.20180.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

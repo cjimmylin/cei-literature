@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Zoroastrian
 religious_values_list: "Zoroastrian"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -65,6 +66,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Proposes computational tools for text criticism of the Avesta (Zoroastrian sacred texts), combining philological analysis with computer-based methods to calculate pregenealogical coherence. Addresses the complex transmission of Avestan liturgical texts used in Zoroastrian ceremonies since the sixth century BC, producing computational stemmata.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes computational tools for text criticism of the Avesta (Zoroastrian sacred texts), combining philological analysis with computer-based methods to calculate pregenealogical coherence and produce computational stemmata.
+
 
 ## Notes
 

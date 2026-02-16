@@ -20,7 +20,7 @@ authors: Sirui Han, Junqi Zhu, Ruiyuan Zhang, Yike Guo
 url: "https://arxiv.org/abs/2507.11502"
 external_pdf: "https://arxiv.org/pdf/2507.11502.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

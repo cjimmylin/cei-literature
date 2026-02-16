@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Describes how to operationalize FAIR Principles for scientific data together with CARE Principles for Indigenous Data Governance. Enhances machine actionability while bringing people and purpose to resolve Indigenous Peoples' rights and interests in their data across the data lifecycle, particularly relevant to big data and AI systems.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It provides practical guidance on operationalizing FAIR Principles for scientific data together with CARE Principles for Indigenous Data Governance across the data lifecycle.
+
 
 ## Notes
 

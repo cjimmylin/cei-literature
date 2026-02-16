@@ -20,7 +20,7 @@ doi: 10.48550/arXiv.2511.18852
 url: "https://arxiv.org/abs/2511.18852"
 external_pdf: "https://arxiv.org/pdf/2511.18852.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"

@@ -20,7 +20,7 @@ doi: 10.18653/v1/2025.naacl-long.402
 url: "https://aclanthology.org/2025.naacl-long.402/"
 external_pdf: "https://arxiv.org/pdf/2410.15453.pdf"
 publication: NAACL 2025
-local_pdf: "[[PDFs/2025-Nikandrou-CROPE Evaluating In-Context Adaptation of Vision and Language Models.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Nikandrou-CROPE Evaluating In-Context Adaptation of Vision and Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nikandrou-CROPE Evaluating In-Context Adaptation of Vision and Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"

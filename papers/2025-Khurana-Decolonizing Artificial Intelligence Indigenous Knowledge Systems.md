@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Explores epistemological critique of AI from Indigenous scholars, technologists, and artists. Foregrounds relationality, land-based intelligence, and spiritual responsibility as foundations for ethical technological practice. Argues for epistemic pluralism and solidarity — reorienting AI from extractive to relational ontologies.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper exploring epistemological critiques of AI from Indigenous scholars, centering relationality, land-based intelligence, and spiritual responsibility.
+
 
 ## Notes
 

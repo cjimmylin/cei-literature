@@ -19,7 +19,7 @@ authors: Sean Kim, Hyuhng Joon Kim
 url: "https://arxiv.org/abs/2506.21881"
 external_pdf: "https://arxiv.org/pdf/2506.21881.pdf"
 publication: arXiv / ACL 2025 SRW
-local_pdf: "[[PDFs/2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

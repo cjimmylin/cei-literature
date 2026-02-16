@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Multi-tradition
 religious_values_list: "Baha'i, Buddhism, Christianity, Hinduism, Islam"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: "https://asianresearchcenter.org/document/download/697/6-rsc-vol21-no2-ty-1708660977.pdf"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -66,6 +67,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Exploratory research examining the impact of AI on religious practices and ethics across multiple faith traditions. Covers the Baha'i International Community's engagement with AI ethics at the UN (2021), discusses how the Baha'i Faith positions science and religion as complementary forces, and calls for religious institutions to develop AI ethics codes and e-literacy programs.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is an exploratory survey examining the impact of AI on religious practices and ethics across multiple faith traditions including Baha'i, Buddhism, Christianity, Hinduism, and Islam.
+
 
 ## Notes
 

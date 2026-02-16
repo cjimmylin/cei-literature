@@ -19,7 +19,7 @@ authors: Vincent Koc
 url: "https://arxiv.org/abs/2501.11496"
 external_pdf: "https://arxiv.org/pdf/2501.11496.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Koc-Generative AI and Large Language Models in Language Preservation.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Koc-Generative AI and Large Language Models in Language Preservation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Koc-Generative AI and Large Language Models in Language Preservation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Shinto
 religious_values_list: "Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Proposes 'mind-infusing animism' as a new relational framework for evaluating the moral treatment of robots, inspired by Japanese animistic thought (Shinto). Distinguishes between mind-reading animism (static properties) and mind-infusing animism (dynamically constructed through interaction), drawing on philosopher Omori Shozo.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes 'mind-infusing animism' as a relational framework for evaluating the moral treatment of robots, inspired by Japanese Shinto animistic philosophy and philosopher Omori Shozo.
+
 
 ## Notes
 

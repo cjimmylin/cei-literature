@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Zoroastrian
 religious_values_list: "Zoroastrian"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -65,6 +66,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Combines grammar-guided term extraction with zero-shot translation using LLMs to generate syntactically and semantically accurate Pahlavi (Middle Persian) sentences. Generates 360 expert-validated parallel English-Pahlavi texts. Pahlavi was the language of Zoroastrian Middle Persian texts and the majority of surviving Pahlavi texts are religious Zoroastrian writings.
+
+## Data Description
+
+The paper generates 360 expert-validated parallel English-Pahlavi text pairs using grammar-guided term extraction combined with zero-shot LLM translation. The data consists of syntactically and semantically accurate Pahlavi (Middle Persian) sentences for a low-resource ancient language used in Zoroastrian religious literature.
+
 
 ## Notes
 

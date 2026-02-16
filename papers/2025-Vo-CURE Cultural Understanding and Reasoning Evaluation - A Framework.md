@@ -19,7 +19,7 @@ authors: Truong Vo; Sanmi Koyejo
 url: "https://arxiv.org/abs/2511.12014"
 external_pdf: "https://arxiv.org/pdf/2511.12014.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

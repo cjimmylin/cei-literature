@@ -20,7 +20,7 @@ doi: 10.18653/v1/2025.acl-long.725
 url: "https://arxiv.org/abs/2503.01372"
 external_pdf: "https://arxiv.org/pdf/2503.01372.pdf"
 publication: arXiv / ACL 2025
-local_pdf: "[[PDFs/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

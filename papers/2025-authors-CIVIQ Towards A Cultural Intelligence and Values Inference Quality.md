@@ -19,7 +19,7 @@ authors: Multiple authors
 url: "https://arxiv.org/abs/2512.05176"
 external_pdf: "https://arxiv.org/pdf/2512.05176.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.pdf]]"
+local_pdf: "[[PDFs/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Korean, American"

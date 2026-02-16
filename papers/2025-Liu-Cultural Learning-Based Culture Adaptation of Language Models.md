@@ -19,7 +19,7 @@ authors: Chen Cecilia Liu, Anna Korhonen, Iryna Gurevych
 url: "https://arxiv.org/abs/2504.02953"
 external_pdf: "https://arxiv.org/pdf/2504.02953.pdf"
 publication: arXiv / ACL 2025
-local_pdf: "[[PDFs/2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Argues that the Common Rule needs revision regarding AI/ML in health research with Indigenous Peoples. Without greater consideration of collective harms, AI/ML technology can circumvent Indigenous self-determination. Calls for incorporating CARE Principles to address group harms and govern machine learning on Indigenous data.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a policy paper arguing for Common Rule revisions to govern machine learning on Indigenous data, incorporating CARE Principles to address collective harms.
+
 
 ## Notes
 

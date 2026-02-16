@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,8 +28,8 @@ religious_values: Shinto
 religious_values_list: "Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -71,6 +72,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Uses Japanese Shinto narratives to defamiliarise voice assistants, drawing on the similarity between how assistants 'inhabit' objects and how kami inhabit natural and man-made entities. Describes an alternate future where assistant presences live inside objects, foregrounding phenomenological quirks of current voice assistant design patterns.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It uses Shinto kami narratives as a design fiction lens to defamiliarize voice assistant interaction patterns, describing alternate futures where assistant presences inhabit objects.
+
 
 ## Notes
 

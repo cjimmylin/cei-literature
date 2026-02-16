@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +27,7 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://abundant-intelligences.net/"
 tags: 
 abstract:
@@ -70,6 +71,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Presents a new research agenda — Abundant Intelligences — an Indigenous-led, Indigenous-majority international research program that reimagines how to conceptualize and design AI based on Indigenous knowledge systems. Argues that Western rationalist epistemologies provide insufficient foundations for AI and proposes IK systems as engines of abundance rather than scarcity.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents the Abundant Intelligences research program, an Indigenous-led international initiative reimagining how to conceptualize and design AI based on Indigenous knowledge systems across three axes: Integrations, Imaginaries, and Intelligences.
+
 
 ## Notes
 

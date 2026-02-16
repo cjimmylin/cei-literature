@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -65,6 +66,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Analyzes the effects of AI on First Nations in Ontario, Canada. Lays out the nature of AI technology, proposed regulations, and consequences for First Nations communities. Notes AI has potential but comes paired with serious risks for First Nations peoples.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a policy paper from the Chiefs of Ontario analyzing the effects of AI on First Nations communities in Ontario, Canada, including proposed regulations and consequences.
+
 
 ## Notes
 

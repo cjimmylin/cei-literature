@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +27,7 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://aclanthology.org/volumes/2024.americasnlp-1/"
 tags: 
 abstract:
@@ -72,6 +73,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Proceedings of the 4th AmericasNLP workshop at NAACL 2024 in Mexico City. Includes shared tasks on machine translation into Indigenous languages and creation of educational materials. Features work on Chatino, Guarani, Quechua, Rarámuri, Bribri, Maya, and other Indigenous American languages.
+
+## Data Description
+
+This is a proceedings volume for the AmericasNLP 2024 workshop, containing shared tasks on machine translation into Indigenous languages of the Americas and creation of educational materials. The workshop includes benchmark evaluations using ChrF++ metrics and human evaluation for Indigenous language machine translation systems across languages such as Chatino, Guarani, Quechua, Raramuri, Bribri, and Maya.
+
 
 ## Notes
 

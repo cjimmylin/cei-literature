@@ -19,7 +19,7 @@ authors: Shuyi Liu, Simiao Cui, Haoran Bu, Yuming Shang, Xi Zhang
 url: "https://arxiv.org/abs/2502.18935"
 external_pdf: "https://arxiv.org/pdf/2502.18935.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

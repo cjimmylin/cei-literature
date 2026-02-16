@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,7 +28,7 @@ religious_values: Zoroastrian
 religious_values_list: "Zoroastrian"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/openscilab/parsipy"
 tags: 
 abstract:
@@ -72,6 +73,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 NLP toolkit for historical Persian languages offering modules for tokenization, lemmatization, POS tagging, phoneme-to-transliteration conversion, and word embedding. Demonstrates utility through processing of Parsig (Middle Persian/Pahlavi) texts. The majority of surviving Parsig texts are religious Zoroastrian writings composed in Book Pahlavi script.
+
+## Data Description
+
+ParsiPy is an open-source Python NLP toolkit for historical Persian languages providing modules for tokenization, lemmatization, POS tagging, phoneme-to-transliteration conversion, and word embedding. It is demonstrated on Parsig (Middle Persian/Pahlavi) texts, which are predominantly Zoroastrian religious writings.
+
 
 ## Notes
 

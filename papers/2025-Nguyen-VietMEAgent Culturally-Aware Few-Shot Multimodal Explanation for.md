@@ -19,7 +19,7 @@ authors: Hai-Dang Nguyen, Minh-Anh Dang, Minh-Tan Le, Minh-Tuan Le
 url: "https://arxiv.org/abs/2511.09058"
 external_pdf: "https://arxiv.org/pdf/2511.09058.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Vietnamese"

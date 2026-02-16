@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Confucianism, Shinto
 religious_values_list: "Confucianism, Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Proposes harmony as an additional core principle for AI ethics, drawing on its centrality in East Asian cultures. Discusses the Japanese concept of Wa — derived from Confucian harmony but shaped distinctly by contact with Shinto — and the concept of Takt as means to build harmonizing AI systems for social good.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes harmony as an additional core principle for AI ethics, drawing on the Japanese concept of Wa shaped by Confucian and Shinto traditions.
+
 
 ## Notes
 

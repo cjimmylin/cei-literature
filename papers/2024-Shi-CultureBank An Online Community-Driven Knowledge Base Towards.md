@@ -19,7 +19,7 @@ authors: Weiyan Shi, Ryan Li, Yutong Zhang, Caleb Ziems, Chunhua Yu, Raya Horesh
 url: "https://arxiv.org/abs/2404.15238"
 external_pdf: "https://arxiv.org/pdf/2404.15238.pdf"
 publication: HuggingFace
-local_pdf: "[[PDFs/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

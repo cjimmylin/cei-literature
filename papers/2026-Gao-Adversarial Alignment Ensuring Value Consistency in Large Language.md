@@ -19,7 +19,7 @@ authors: Yuan Gao, Zhigang Liu, Xinyu Yao, Bo Chen, Xiaobing Zhao
 url: "https://arxiv.org/abs/2601.13137"
 external_pdf: "https://arxiv.org/pdf/2601.13137.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

@@ -19,7 +19,7 @@ authors: Fajri Koto, Rituraj Joshi, Nurdaulet Mukhituly, Yuxia Wang, Zhuohan Xie
 url: "https://arxiv.org/abs/2503.01493"
 external_pdf: "https://arxiv.org/pdf/2503.01493.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Russian"

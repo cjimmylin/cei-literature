@@ -19,7 +19,7 @@ authors: "Khanh-Tung Tran, Barry O'Sullivan, Hoang D. Nguyen"
 url: "https://arxiv.org/abs/2505.13498"
 external_pdf: "https://arxiv.org/pdf/2505.13498.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

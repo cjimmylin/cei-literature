@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Buddhism, Shinto
 religious_values_list: "Buddhism, Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Examines Japanese philosophical thought from the Meiji Restoration onward (Fukuzawa, Nishida, Watsuji) and distills four ethical 'spices' — community, wholeness, sincerity, heart — for AI ethics. Discusses Shinto animism's influence on Japanese attitudes toward AI/robots and the concept of Wa (harmony) as shaped by Shinto and Confucian traditions.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It examines Japanese philosophical thought from the Meiji Restoration onward to distill four ethical principles — community, wholeness, sincerity, heart — for emotional AI ethics informed by Shinto animism.
+
 
 ## Notes
 

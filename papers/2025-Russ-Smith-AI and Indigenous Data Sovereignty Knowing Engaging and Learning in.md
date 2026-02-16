@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Examines how AI development takes place in a digital context informed by older colonial knowledges. Argues that digital and data colonialism are contemporary expressions of colonialism where extracting Indigenous land and Indigenous data are equivalent. Necessitates Indigenous-led responses centering Indigenous Data Sovereignty.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It examines how AI development is informed by colonial knowledges and argues that extracting Indigenous data is equivalent to extracting Indigenous land, necessitating Indigenous-led Data Sovereignty responses.
+
 
 ## Notes
 

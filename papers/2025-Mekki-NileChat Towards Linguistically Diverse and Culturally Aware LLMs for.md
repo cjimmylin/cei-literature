@@ -20,7 +20,7 @@ doi: 10.48550/arXiv.2505.18383
 url: "https://arxiv.org/abs/2505.18383"
 external_pdf: "https://arxiv.org/pdf/2505.18383.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"

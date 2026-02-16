@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Zoroastrian
 religious_values_list: "Zoroastrian"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Discusses computational tools for creating a stemma of Avestan manuscripts including a letter similarity matrix, morphological expander, and co-occurrence networks. Proposes a comprehensive database for Avestan texts linking manuscripts, translations, and linguistic analyses. Covers over 300 known Avestan manuscripts classified into Pahlavi and Sade groups.
+
+## Data Description
+
+This paper proposes a comprehensive database for Avestan texts linking manuscripts, translations, and linguistic analyses. It covers over 300 known Avestan manuscripts classified into Pahlavi and Sade groups, with computational tools including a letter similarity matrix, morphological expander, and co-occurrence networks.
+
 
 ## Notes
 

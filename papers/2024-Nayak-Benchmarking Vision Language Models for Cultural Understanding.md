@@ -20,7 +20,7 @@ doi: 10.18653/v1/2024.emnlp-main.329
 url: "https://arxiv.org/abs/2407.10920"
 external_pdf: "https://arxiv.org/pdf/2407.10920.pdf"
 publication: arXiv / EMNLP 2024
-local_pdf: "[[PDFs/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu, American"

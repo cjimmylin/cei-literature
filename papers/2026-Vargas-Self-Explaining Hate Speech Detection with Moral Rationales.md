@@ -19,7 +19,7 @@ authors: Francielle Vargas, Jackson Trager, Diego Alves, Surendrabikram Thapa, M
 url: "https://arxiv.org/abs/2601.03481"
 external_pdf: "https://arxiv.org/pdf/2601.03481.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Brazilian"

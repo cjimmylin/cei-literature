@@ -19,7 +19,7 @@ authors: Xinyu Zhang, Pei Zhang, Shuang Luo, Jialong Tang, Yu Wan, Baosong Yang,
 url: "https://aclanthology.org/2025.findings-emnlp.552/"
 external_pdf: "https://arxiv.org/pdf/2509.10886.pdf"
 publication: Findings of EMNLP 2025
-local_pdf: "[[PDFs/2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

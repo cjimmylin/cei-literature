@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,7 +27,7 @@ religious_values: Buddhism, Shinto
 religious_values_list: "Buddhism, Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://hal.science/hal-03525267/"
 tags: 
 abstract:
@@ -70,6 +71,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Critically examines the Western scholarship pattern of importing Japanese ethics (including Shinto values) into AI/robot ethics without deeper examination. Uses ethnographic study of cross-cultural debate about AIBO robot to assess whether Shinto-derived values are practically relevant to human-robot interaction.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It uses an ethnographic study of cross-cultural debate about the AIBO robot to assess whether Shinto-derived values are practically relevant to human-robot interaction ethics.
+
 
 ## Notes
 

@@ -20,7 +20,7 @@ doi: 10.48550/arXiv.2309.12053
 url: "https://arxiv.org/abs/2309.12053"
 external_pdf: "https://arxiv.org/pdf/2309.12053.pdf"
 publication: arXiv / NAACL
-local_pdf: "[[PDFs/2023-Huang-AceGPT Localizing Large Language Models in Arabic.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Huang-AceGPT Localizing Large Language Models in Arabic.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Huang-AceGPT Localizing Large Language Models in Arabic.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic"

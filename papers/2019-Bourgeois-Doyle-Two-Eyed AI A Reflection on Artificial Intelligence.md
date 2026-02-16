@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,8 +26,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -65,6 +66,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Proposes a 'Two-Eyed' concept (based on Mi'kmaw Etuaptmumk) for guiding AI development. Advocates integrating Indigenous ways of knowing — including narrative storytelling, systems thinking, and seeing life in all things — with Western concepts of knowledge to pursue ethical AI.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical reflection proposing a Two-Eyed concept based on Mi'kmaw Etuaptmumk for integrating Indigenous ways of knowing with Western AI development.
+
 
 ## Notes
 

@@ -21,7 +21,7 @@ doi: 10.18653/v1/2025.findings-emnlp.1043
 url: "https://aclanthology.org/2025.findings-emnlp.1043/"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.1043.pdf"
 publication: Findings of EMNLP 2025
-local_pdf: "[[PDFs/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

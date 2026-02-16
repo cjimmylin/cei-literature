@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Shinto
 religious_values_list: "Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "No"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Foundational paper on Shinto techno-animism. Deploys Japanese techno-animism as a site of theoretical experimentation, showing how Shinto cosmograms provide an alternative framework for interpreting the immanent, affective, and enabling powers of non-humans in collective life. Extends actor-network theory through Shinto perspectives.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical work deploying Shinto cosmograms and actor-network theory to interpret the enabling powers of non-human agencies in collective life.
+
 
 ## Notes
 

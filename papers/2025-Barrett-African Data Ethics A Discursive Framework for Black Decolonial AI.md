@@ -20,7 +20,7 @@ doi: 10.1145/3715275.3732023
 url: "https://dl.acm.org/doi/full/10.1145/3715275.3732023"
 external_pdf: "https://arxiv.org/pdf/2502.16043.pdf"
 publication: ACM FAccT 2025
-local_pdf: "[[PDFs/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "African/Ubuntu"

@@ -19,7 +19,7 @@ authors: Not specified in search results
 url: "https://arxiv.org/abs/2602.10732"
 external_pdf: "https://arxiv.org/pdf/2602.10732.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.pdf]]"
+local_pdf: "[[PDFs/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Arabic, African/Ubuntu, Multicultural/Cross-cultural"

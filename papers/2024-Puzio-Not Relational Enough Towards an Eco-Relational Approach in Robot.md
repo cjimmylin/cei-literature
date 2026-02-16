@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Shinto
 religious_values_list: "Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Proposes an eco-relational approach to robot ethics that draws on Shinto-inspired techno-animism, new animism, and deep ecology. Argues for recognizing the relationality with non-human entities like robots on a deeper level, disrupting traditional Western ethical concepts of autonomy, agency, and responsibility.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical paper proposing an eco-relational approach to robot ethics drawing on Shinto-inspired techno-animism, new animism, and deep ecology.
+
 
 ## Notes
 

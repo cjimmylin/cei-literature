@@ -21,7 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25409"
 external_pdf: "https://arxiv.org/pdf/2510.25409.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

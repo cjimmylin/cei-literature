@@ -21,7 +21,7 @@ doi: 10.18653/v1/2025.c3nlp-1.8
 url: "https://aclanthology.org/2025.c3nlp-1.8/"
 external_pdf: "https://aclanthology.org/2025.c3nlp-1.8.pdf"
 publication: C3NLP @ NAACL 2025
-local_pdf: "[[PDFs/2025-Goethals-One world one opinion The superstar effect in LLM responses.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Goethals-One world one opinion The superstar effect in LLM responses.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Goethals-One world one opinion The superstar effect in LLM responses.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "N/A"

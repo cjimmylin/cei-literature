@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Buddhism, Shinto
 religious_values_list: "Buddhism, Shinto"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Empirically examines how moral care for robots is influenced by religiosity and religion-related values (animism, anthropocentrism) in US and Japanese samples grounded in Abrahamic and Shinto-Buddhist traditions (N=3,781). Finds moral care for robots higher in Japan, with positive association with animism in Japan and negative association with anthropocentrism in the US.
+
+## Data Description
+
+This paper uses a cross-cultural survey dataset of 3,781 participants from the United States and Japan examining how religiosity and religion-related values (animism, anthropocentrism) influence moral care attitudes toward robots. The data is from Shinto-Buddhist and Abrahamic religious contexts.
+
 
 ## Notes
 

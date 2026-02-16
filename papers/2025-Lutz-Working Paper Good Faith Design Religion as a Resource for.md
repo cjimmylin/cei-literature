@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,8 +28,8 @@ religious_values: Multi-tradition
 religious_values_list: "Buddhism, Christianity, Hinduism, Islam, Judaism, Mormonism, Shinto, Sikhism, Taoism"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -70,6 +71,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 Interview study with 48 religious people/experts from 11 faiths including Shinto, documenting how religious people experience and imagine technologies. Shinto participants discussed AI temple guides and shrine maintenance via immersive projections. Distills six design values: wonder, humility, space, embodiedness, community, and eternity.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents an interview study with 48 religious people and experts from 11 faiths documenting how religious practitioners experience and imagine technologies, distilling six design values.
+
 
 ## Notes
 

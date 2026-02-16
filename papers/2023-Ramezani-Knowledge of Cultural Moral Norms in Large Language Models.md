@@ -19,7 +19,7 @@ authors: Aida Ramezani, Xu Yang
 url: "https://arxiv.org/abs/2306.01857"
 external_pdf: "https://arxiv.org/pdf/2306.01857.pdf"
 publication: arXiv / ACL 2023
-local_pdf: "[[PDFs/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

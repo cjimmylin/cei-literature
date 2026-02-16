@@ -20,7 +20,7 @@ doi: 10.48550/arXiv.2507.04014
 url: "https://aclanthology.org/2025.findings-acl.794/"
 external_pdf: "https://arxiv.org/pdf/2507.04014.pdf"
 publication: arXiv / ACL Anthology (ACL 2025 Findings)
-local_pdf: "[[PDFs/2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"

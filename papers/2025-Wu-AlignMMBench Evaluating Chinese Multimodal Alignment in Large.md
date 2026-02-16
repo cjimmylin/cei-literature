@@ -19,7 +19,7 @@ authors: Yuhang Wu, Wenmeng Yu, Yean Cheng, Yan Wang, Xiaohan Zhang, Jiazheng Xu
 url: "https://arxiv.org/abs/2406.09295"
 external_pdf: "https://arxiv.org/pdf/2406.09295.pdf"
 publication: arXiv / ACL 2025
-local_pdf: "[[PDFs/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese"

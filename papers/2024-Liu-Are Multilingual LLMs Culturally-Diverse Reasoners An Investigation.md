@@ -19,7 +19,7 @@ authors: Chen Cecilia Liu, Fajri Koto, Timothy Baldwin, Iryna Gurevych
 url: "https://arxiv.org/abs/2309.08591"
 external_pdf: "https://arxiv.org/pdf/2309.08591.pdf"
 publication: arXiv / NAACL 2024
-local_pdf: "[[PDFs/2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Multicultural/Cross-cultural"

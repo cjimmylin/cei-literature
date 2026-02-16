@@ -19,7 +19,7 @@ authors: Cohen, Yotam; Shenhav, Shaul; Loewenthal, Alon
 url: "https://arxiv.org/abs/2508.15483"
 external_pdf: "https://arxiv.org/pdf/2508.15483.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"

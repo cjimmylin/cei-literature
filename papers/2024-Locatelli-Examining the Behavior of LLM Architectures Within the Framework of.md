@@ -19,7 +19,7 @@ authors: Marcelo Sartori Locatelli, Matheus Prado Miranda, Igor Joaquim da Silva
 url: "https://arxiv.org/abs/2408.05035"
 external_pdf: "https://arxiv.org/pdf/2408.05035.pdf"
 publication: arXiv
-local_pdf: "[[PDFs/2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Brazilian"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,8 +27,8 @@ religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 
 newtags: 
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_overall: "Yes"
@@ -69,6 +70,11 @@ data_metrics: "Not specified"
 ## Abstract
 
 First study to use an Indigenous methods framework to examine bias in NLP. Argues that NLP data and modeling practices privilege dominant languages, leaving speakers of Indigenous and minoritized languages behind, and that identifying solutions to NLP bias requires broadening methodological toolkits from the perspective of impacted communities.
+
+## Data Description
+
+This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is the first study to apply an Indigenous methods framework to examine bias in NLP systems affecting speakers of Indigenous and minoritized languages.
+
 
 ## Notes
 

@@ -19,7 +19,7 @@ authors: Cohen, Amir DN; Tsarfaty, Reut
 url: "https://arxiv.org/abs/2508.01812"
 external_pdf: "https://arxiv.org/pdf/2508.01812.pdf"
 publication: arXiv / EMNLP 2023 Findings
-local_pdf: "[[PDFs/2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.pdf]]"
+local_pdf: "[[PDFs/2023/2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Hebrew/Israeli"

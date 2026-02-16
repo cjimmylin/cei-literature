@@ -20,7 +20,7 @@ authors: Inter-American Development Bank (IDB)
 url: "https://publications.iadb.org/en/performance-artificial-intelligence-use-indigenous-american-languages"
 external_pdf: "https://core.ac.uk/download/671663544.pdf"
 publication: IDB Publication
-local_pdf: "[[PDFs/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.pdf]]"
+local_pdf: "[[PDFs/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "American"

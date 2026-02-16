@@ -34,6 +34,14 @@
 
 ---
 
+## 2026-02-16 (Session 87)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Workflows | **Two-Pass YAML Regex for Wikilink Updates:** When updating `local_pdf` wikilinks after moving PDFs, use exact old-value match first (`re.escape(old_wikilink)`), then fall back to broad `^(local_pdf:\s*)[^\n]*$` replacement. This handles format variations (quoted vs unquoted, root vs year-subdir paths) and achieved 128/128 (100%) updates with zero mismatches. Pattern reusable for any field value migration. |
+| 2026-02-16 | Workflows | **Targeted Batch Generation with --keys Flag:** `generate_llm_assessment_batches.py --keys ZERO0001:ZERO0032 --num-batches 2` isolates exactly the 32 religious tradition imports for enrichment without re-processing 2,002 already-enriched papers. The string comparison on YAML `key` field works because all key prefixes sort independently (LSRC, CVSR, RLSR, ZERO). |
+| 2026-02-16 | Data Quality | **Religious Tradition Papers Are Non-LLM:** 31/32 ZERO papers (Indigenous, Shinto, Zoroastrian, Baha'i) received `LLM_assessed: "NA"`. The sole exception — `2025-M. Thasin-AInimism` — uses GPT-4 Vision in an art installation exploring Shinto-inspired animism. Confirms these papers are philosophical/cultural, not empirical LLM benchmarking. |
+
 ## 2026-02-16 (Session 86 RIGHT)
 
 | Date | Category | Learning |

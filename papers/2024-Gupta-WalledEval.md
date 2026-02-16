@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Gupta, Prannaya]], [[Yau, Le Qi]], [[Low, Hao Han]], [[Lee, I-Shiang]], [[Lim, Hugo Maximus]], [[Teoh, Yu Xin]], [[Koh, Jia Hng]], [[Liew, Dar Win]], [[Bhardwaj, Rishabh]], [[Bhardwaj, Rajat]], [[Poria, Soujanya]]
+[[Gupta, Prannaya]], [[Yunjia Qi|Yau, Le Qi]], [[Low, Hao Han]], [[Lee, I-Shiang]], [[Lim, Hugo Maximus]], [[Teoh, Yu Xin]], [[Koh, Jia Hng]], [[Liew, Dar Win]], [[Rishabh Bhardwaj|Bhardwaj, Rishabh]], [[Bhardwaj, Rajat]], [[Soujanya Poria|Poria, Soujanya]]
 
 ## Metadata
 

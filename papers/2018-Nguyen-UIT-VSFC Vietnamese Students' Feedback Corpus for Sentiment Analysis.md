@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis"
 year: 2025
 first_author: "[[Kiet Van Nguyen]]"
-last_author: [[others]]
+last_author: "[[Kiet Van Nguyen]]"
 authors: "Kiet Van Nguyen, others"
 doi: 10.1109/KSE.2018.8573337
 url: "https://ieeexplore.ieee.org/document/8573337/"
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -51,7 +53,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Kiet Van Nguyen, others]]
+[[Kiet Van Nguyen]]
 
 ## Metadata
 

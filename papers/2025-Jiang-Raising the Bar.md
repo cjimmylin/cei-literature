@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.48550/arXiv.2406.14230
 url: "http://arxiv.org/abs/2406.14230"
 external_pdf: "http://arxiv.org/pdf/2406.14230.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz, Trolley / Dilemmas (Psych)"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2025/2025-Jiang-Raising the Bar.md"
 abstract: "Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical challenges. Measuring value alignment of LLMs becomes crucial for their regulation and responsible deployment. Although numerous benchmarks have been constructed to assess social bias, toxicity, and ethical issues in LLMs, those static benchmarks suffer from evaluation chronoeffect, in which, as models rapidly evolve,..."
 paper_summary: "Abstract: Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical chal- lenges. Measuri | Overview: arXiv:2406.14230v5 [cs.CL] 11 Jun 2025 Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing Han Jiang 1 Xiaoyuan Yi* 2 Zhihua Wei* 1 Ziang Xiao 3 Shu Wang | Methodology: 3.1. Formalization and Preliminaries Formalization Given a group of m examinee LLMs E = {ei}m i=1 and a static dataset containing n test items X = {xj | Key Findings: CAT GETA 2 3 2 1 3 Figure 2. An illustration of Static Evaluation, CAT, and GETA: (1) The static evaluation method directly applies existing benchmark | Conclusions: The rapid development of LLMs poses a unique challenge for accurately assessing their underlying value and ethical alignment, referred to as the evalu"
 local_pdf: "[[PDFs/2025/2025-Jiang-Raising the Bar.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

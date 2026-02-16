@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Galatolo-Beyond Ethical Alignment|Beyond Ethical Alignment]]
 
 ## Notes
 
 
+
+
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 [Additional context or contact information]

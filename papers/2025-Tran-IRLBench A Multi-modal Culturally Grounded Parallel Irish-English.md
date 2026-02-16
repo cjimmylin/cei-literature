@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Khanh-Tung Tran, Barry O'Sullivan, Hoang D. Nguyen]]
+[[Kien Tran|Khanh-Tung Tran]], [[Barry O'Sullivan]], [[Hoang D. Nguyen]]
 
 ## Metadata
 

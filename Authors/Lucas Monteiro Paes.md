@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Buyl-AI Alignment at Your Discretion|AI Alignment at Your Discretion]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Buyl-AI Alignment at Your Discretion*: Affiliation: University of Oxford
+- *From 2025-Buyl-AI Alignment at Your Discretion*: Affiliation: University of Oxford
 - *From 2025-Buyl-AI Alignment at Your Discretion*: Affiliation: University of Oxford
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

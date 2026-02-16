@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Multilingual Multicultural Evaluating Gaps Between Multilingual"
 year: 2025
 first_author: "[[Rystrøm, Jonathan]]"
-last_author: "[[Hale, Scott]]"
+last_author: "[[Scott Hale]]"
 authors: "[[Jonathan Rystrøm]]; [[Hannah Rose Kirk]]; [[Scott Hale]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16534"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Dutch, American, Brazilian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Danish, Dutch, American, Brazilian, Multicultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Jonathan Rystrøm]], [[Hannah Rose Kirk]], [[Scott Hale]]
+[[Jonathan H. Rystrøm|Jonathan Rystrøm]], [[Hannah Rose Kirk]], [[Scott A. Hale|Scott Hale]]
 
 ## Metadata
 

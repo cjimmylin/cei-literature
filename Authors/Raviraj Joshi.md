@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Jadhav-On Limitations of LLM as Annotator for Low Resource Languages Marathi|On Limitations of LLM as Annotator for Low Resource Languages Marathi]]
+
+- [[2024-Velankar-SamPar A Marathi Hate Speech Dataset|SamPar A Marathi Hate Speech Dataset]] (Last Author)
 
 ## External Links & Profiles
 

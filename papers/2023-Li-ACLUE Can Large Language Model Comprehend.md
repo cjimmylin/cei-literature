@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "ACLUE Can Large Language Model Comprehend"
 year: 2025
 first_author: "[[Yixuan Zhang, Haonan Li]]"
-last_author: "[[Yixuan Zhang, Haonan Li]]"
+last_author: "[[Haonan Li Yixuan Zhang]]"
 authors: "[[Yixuan Zhang, Haonan Li]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.09550"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Yixuan Zhang, Haonan Li]]
+[[Haonan Li Yixuan Zhang]]
 
 ## Metadata
 

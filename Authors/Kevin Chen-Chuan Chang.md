@@ -1,9 +1,9 @@
 ---
 name: "Kevin Chen-Chuan Chang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Hong Kong 2 DAMO Academy, Alibaba Group"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "binyuan.hby@alibaba-inc.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Li-BIRD|BIRD]]]]
+
 
 - [[2023-Li-BIRD|BIRD]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

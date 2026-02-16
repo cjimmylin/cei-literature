@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi|Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
+- *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
 - *From 2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi*:, Email: walsanie@kacst.gov.sa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

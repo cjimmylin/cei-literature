@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: preprint
 short_title: "Vedanta Datasets"
 year: 2025
 first_author: "[[project), Atmabodha (community]]"
-last_author: "[[project), Atmabodha (community]]"
+last_author: "[[Atmabodha (community project)]]"
 authors: "[[Atmabodha (community project)]]"
 authors_incomplete: false
 url: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

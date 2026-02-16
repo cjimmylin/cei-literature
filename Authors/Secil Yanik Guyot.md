@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
 
 ## Notes
 
 
+
+
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 [Additional context or contact information]

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Shaona Ghosh; Heather Frase; Adina Williams; Sarah Luger; Paul Röttge
 url: "https://arxiv.org/abs/2503.05731"
 external_pdf: "https://arxiv.org/pdf/2503.05731.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Group-AILuminate.md"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
 paper_summary: "Abstract: The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMI- NATE v1.0, the first comprehensive industry-stan | Overview: 1 AILUMINATE: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons Shaona Ghosh1 Heather Frase2 Adina Williams3 Sarah Luger4 Paul Röttger5 Fazl Barez6,7 Sean McGregor8 Kenneth Fric | Methodology: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 | Key Findings: mechanism; a small number of human ratings serve to assess and improve evaluator performance."
 local_pdf: [[PDFs/2025/2025-Group-AILuminate.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

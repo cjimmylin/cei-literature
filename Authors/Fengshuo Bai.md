@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhang-PoliCon|PoliCon]]
 - [[2024-Zhang-ValueDCG|ValueDCG]]
 
 ## Notes
 
 
+
+
+- *From 2024-Zhang-ValueDCG*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: jungao@bupt.edu.cn
+- *From 2024-Zhang-ValueDCG*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: changwindeg@gmail.com
 - *From 2024-Zhang-ValueDCG*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: yaodong.yang@pku.edu.cn
 [Additional context or contact information]

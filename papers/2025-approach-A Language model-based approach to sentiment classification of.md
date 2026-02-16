@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: journalArticle
 short_title: "A Language model-based approach to sentiment classification of languages in central Asia"
 year: 2025
 first_author: "[[approach, A Language model-based]]"
-last_author: "[[approach, A Language model-based]]"
+last_author: "[[A Language model-based]]"
 authors: "[[approach, A Language model-based]]"
 authors_incomplete: false
 url: "https://www.nature.com/articles/s41598-025-22198-6"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kazakh, Kyrgyz, Central Asian"
 languages_list: "Kyrgyz, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[A Language model-based approach]]
+[[A Language model-based approach|approach]], [[A Language model-based]]
 
 ## Metadata
 

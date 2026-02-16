@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2211.05521"
 external_pdf: "http://arxiv.org/pdf/2211.05521.pdf"
 publication: "British Machine Vision Conference"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2022/2022-Jeong-Zero-shot Visual Commonsense Immorali
 abstract: "Artiﬁcial intelligence is currently powering diverse real-world applications. These applications have shown promising performance, but raise complicated ethical issues, i.e. how to embed ethics to make AI applications behave morally. One way toward moral AI systems is by imitating human prosocial behavior and encouraging some form of good behavior in systems. However, learning such normative ethics (especially from images) is challenging mainly due to a lack of data and labeling complexity."
 paper_summary: "Abstract: Artiﬁcial intelligence is currently powering diverse real-world applications. These applications have shown promising performance, but raise complicated ethical issues, i.e. how to embed ethics to mak | Overview: arXiv:2211.05521v1 [cs.CV] 10 Nov 2022 JEONG ET AL.: ZERO-SHOT VISUAL COMMONSENSE IMMORALITY 1 Zero-shot Visual Commonsense Immorality Prediction Yujin Jeong1 eugene6923@korea.ac.kr Seongbeom Park1 ps | Conclusions: Predicting immorality from images is of paramount importance regarding social safety. In this work, we ﬁrst utilized CLIP-based text-image joint embed"
 local_pdf: "[[PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

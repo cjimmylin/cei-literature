@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Spanish, American"
+cultures_nationalities_list: "Spanish, Basque, Chinese, American"
 languages_list: "Basque, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Miguel Romero-Arjona]], [[Pablo Valle]], [[Juan C. Alonso]], [[Ana B. Sánchez]], [[Miriam Ugarte]], [[Antonia Cazalilla]], [[Vicente Cambrón]], [[José A. Parejo]], [[Aitor Arrieta]], [[Sergio Segura]]
+[[Romero-Arjona, Miguel]], [[Valle, Pablo]], [[Alonso, Juan C]], [[Sánchez, Ana B]], [[Ugarte, Miriam]], [[Cazalilla, Antonia]], [[Cambrón, Vicente]], [[Parejo, José A]], [[Arrieta, Aitor]], [[Segura, Sergio]]
 
 ## Metadata
 

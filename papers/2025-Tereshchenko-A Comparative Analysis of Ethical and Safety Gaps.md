@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2505.04654"
 external_pdf: "http://arxiv.org/pdf/2505.04654.pdf"
 publication: "Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Tereshchenko-A Comparative Analysis of Ethi
 abstract: "Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these advancements also raise critical ethical questions regarding safety, potential misuse, discrimination and overall societal impact. This article provides a comparative analysis of the ethical performance of various AI models, including the brand-new DeepSeekV3 (R1 with reasoning and without),..."
 paper_summary: "Abstract: Artificial Intelligence (AI) and Large Language Models (LLMs) have rapidly evolved in recent years, showcasing remarkable capabilities in natural language understanding and generation. However, these  | Overview: A Comparative Analysis of Ethical and Safety Gaps in LLMs using Relative Danger Coefficient Yehor Tereshchenko and Mika Hämäläinen Metropolia University of Applied Sciences Helsinki, Finland firstname | Conclusions: This comparative study set out to examine the ethical and safety gaps of state-of-the-art Large Language Models (LLMs)—including newly intro- duced sy"
 local_pdf: "[[PDFs/2025/2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets"
 year: 2025
 first_author: "[[Tonneau, Manuel]]"
-last_author: "[[Tonneau, Manuel]]"
-authors: "[[Tonneau, Manuel]]"
-authors_incomplete: true
+last_author: "[[Röttger, Paul]]"
+authors: "[[Tonneau, Manuel]]; [[Liu, Diyi]]; [[Fraiberger, Samuel]]; [[Schroeder, Ralph]]; [[Hale, Scott A.]]; [[Röttger, Paul]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2404.17874"
 external_pdf: "https://arxiv.org/pdf/2404.17874.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Spanish, American"
+cultures_nationalities_list: "Arabic, Spanish, American"
 languages_list: "Arabic, English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Manuel Tonneau, et al.]]
+[[Manuel Tonneau|Tonneau, Manuel]], [[Liu, Diyi]], [[Fraiberger, Samuel]], [[Schroeder, Ralph]], [[Hale, Scott A]], [[Paul Röttger|Röttger, Paul]]
 
 ## Metadata
 
-**Authors:** Manuel Tonneau, et al.
+**Authors:** Tonneau, Manuel; Liu, Diyi; Fraiberger, Samuel; Schroeder, Ralph; Hale, Scott A.; Röttger, Paul
 
 **Year:** 2024
 

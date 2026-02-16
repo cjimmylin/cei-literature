@@ -47,6 +47,8 @@ Goldberg has conducted extensive digital ethnographic studies with extremist gro
 
 ## Papers in this Vault
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ Goldberg has conducted extensive digital ethnographic studies with extremist gro
 
 ## Notes
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Her work at the intersection of political psychology and AI engineering is critical for developing "human-centric" defenses against the large-scale generation of disinformation by LLMs.

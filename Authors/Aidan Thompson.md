@@ -21,10 +21,16 @@ Aidan Thompson is a researcher affiliated with the Jubilee Centre for Character 
 ## Papers in this Vault
 
 
+
+
 - [[2023-Maile-The choice of deontological, virtue ethical, and|The choice of deontological, virtue ethical, and]]
 
 ## Notes
 
 
+
+
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 - *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 Works with Kristjan Kristjansson and colleagues at the Jubilee Centre, a leading research center for character education and virtue ethics. The paper in this vault was published in Ethics & Behavior.

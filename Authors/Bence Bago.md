@@ -47,6 +47,8 @@ Dr. Bago has published extensively on the "Trolley Problem" and other situationa
 ## Papers in this Vault
 
 
+
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]] (First Author)
 
 ## External Links & Profiles

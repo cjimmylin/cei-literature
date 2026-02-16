@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving|PersuasionBench & PersuasionArena: Measuring and Improving Persuasiveness of Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com
+- *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com
 - *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

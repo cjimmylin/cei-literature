@@ -46,6 +46,8 @@ He is a leading expert in the use of stories for value alignment, demonstrating 
 
 ## Papers in this Vault
 
+
+
 - [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical|The Goofus & Gallant Story Corpus for Practical]] (Last Author)
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ He is a leading expert in the use of stories for value alignment, demonstrating 
 
 ## Notes
 
+
+
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: harrison@cs.uky.edu
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sa.nahian@uky.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sa.nahian@uky.edu
 [Brent's work is critical for bridging the gap between technical reinforcement learning and human value systems.]

@@ -1,7 +1,7 @@
 ---
 name: "Maier, Maximilian"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Cheung-LLMs Amplified Cognitive Biases Moral|LLMs Amplified Cognitive Biases]]]]
+
 
 - [[2025-Cheung-LLMs Amplified Cognitive Biases Moral|LLMs Amplified Cognitive Biases]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Cheung-LLMs Amplified Cognitive Biases Moral*: Affiliation: University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025
+- *From 2025-Cheung-LLMs Amplified Cognitive Biases Moral*: Affiliation: University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

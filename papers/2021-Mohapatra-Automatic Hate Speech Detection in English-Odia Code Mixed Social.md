@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,11 +21,13 @@ external_pdf: "https://web.archive.org/web/20220617211948if_/https://www.mdpi.co
 publication: "MDPI Applied Sciences"
 pdf_extract: "PDF Extracts/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md"
 local_pdf: "[[PDFs/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.pdf]]"
+DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 languages_list: "English, Odia"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Sudhir Kumar Mohapatra]], [[S. Prasad]], [[D. K. Bebarta]], [[T. K. Das]], [[Kathiravan Srinivasan]], [[Yuh-Chung Hu]]
+[[Mohapatra, Sudhir Kumar]], [[Prasad, S]], [[Bebarta, D. K]], [[Das, T. K]], [[Srinivasan, Kathiravan]], [[Hu, Yuh-Chung]]
 
 ## Metadata
 

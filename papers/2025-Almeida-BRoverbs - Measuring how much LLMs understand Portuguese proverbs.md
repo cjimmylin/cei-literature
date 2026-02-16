@@ -44,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Thales Sales Almeida, Giovana Kerche Bonás, João Guilherme Alves Santos]]
+[[Thales Sales Almeida]], [[Giovana Kerche Bonás]], [[João Guilherme Alves Santos]]
 
 ## Metadata
 

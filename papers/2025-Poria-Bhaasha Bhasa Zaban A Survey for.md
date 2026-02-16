@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Bhaasha Bhasa Zaban A Survey for"
 year: 2025
 first_author: "[[Poria, Sampoorna]]"
-last_author: "[[Huang, Xiaolei]]"
+last_author: "[[Xiaolei Huang]]"
 authors: "[[Sampoorna Poria]]; [[Xiaolei Huang]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.11570"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "South Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Sampoorna Poria]], [[Xiaolei Huang]]
+[[Soujanya Poria|Sampoorna Poria]], [[Xiaolei Huang]]
 
 ## Metadata
 

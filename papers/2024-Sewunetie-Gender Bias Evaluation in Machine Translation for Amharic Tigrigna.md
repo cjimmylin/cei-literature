@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo"
 year: 2025
 first_author: "[[Walelign Sewunetie]]"
-last_author: "[[Seid Yimam]]"
+last_author: "[[Seid Yimam Hussien Seid]]"
 authors: "Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigatu, Gashaw Gebremeskel, Zewdie Mossie, Hussien Seid, Seid Yimam"
 url: "https://aclanthology.org/2024.gitt-1.1/"
 external_pdf: "https://aclanthology.org/2024.gitt-1.1.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 languages_list: "Afaan Oromoo, Amharic, Tigrinya"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigatu, Gashaw Gebremeskel, Zewdie Mossie, Hussien Seid, Seid Yimam]]
+[[Atnafu Tonja Walelign Sewunetie]], [[Hellina Hailu Nigatu Tadesse Belay]], [[Zewdie Mossie Gashaw Gebremeskel]], [[Seid Yimam Hussien Seid]]
 
 ## Metadata
 

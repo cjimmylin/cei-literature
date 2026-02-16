@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: Yes
 Human View Date: 2026/1/24
 Human View note: "Police use of moral reasoning"
@@ -15,6 +17,7 @@ doi: 10.1080/10508422.2022.2124995
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2022.2124995"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M4TD65P2/Maile et al. - 2023 - The choice of deontological, virtue ethical, and consequentialist moral reasoning strategies by pre-.pdf"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -23,6 +26,7 @@ key_contribution: "Empirically analyzes the moral reasoning strategies of UK pol
 significance: "Provides empirical data on how professional moral decision-making occurs in practice, highlighting the gap between theoretical virtue ethics and applied rule-following in high-stakes professions"
 tags: 
 abstract: "Drawing upon cross-sectional research with pre- and in-service police officers in the U.K. (N = 571), this paper reports on the moral reasoning strategies favored by the respondents in dealing with bespoke work-related moral quandaries specific to the professional practice of policing. The dominant form of moral reasoning in dealing with those dilemmas was deontological (rule-based). The second most frequently selected reasoning strategy was virtue ethical. Further analysis of the police researc"
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

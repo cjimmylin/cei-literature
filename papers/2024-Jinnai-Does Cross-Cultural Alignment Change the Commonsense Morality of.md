@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?"
 year: 2025
 first_author: "[[Y Jinnai]]"
-last_author: [[Y]]
+last_author: "[[Y]]"
 authors: "Jinnai, Y"
 publication: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2406.16316v1.pdf"
@@ -21,6 +22,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Japanese, Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -14,6 +16,7 @@ doi: 10.1080/14746700.2025.2514300
 url: "https://www.tandfonline.com/doi/full/10.1080/14746700.2025.2514300"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZWBBJPDD/Gerdes and Øhrstrøm - 2025 - Exploring LLM Chatbots as Potential Guides to Virtue Ethics Limits and Possibilities, with a Case S.pdf"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: N/A
@@ -22,6 +25,7 @@ key_contribution: "Explores the potential of LLM chatbots to act as Socratic gui
 significance: "Examines the limits of AI as a moral advisor, arguing that while it can support ethical reflection, the 'leap' of moral decision-making remains a strictly human responsibility"
 tags: 
 abstract: "This paper explores Søren Kierkegaard's engagement with virtue ethics. While valuing Aristotle's focus on moral character and practical wisdom, Kierkegaard advanced virtue ethics further. He critiqued the clergy of his time for their hypocrisy, imagining replacing untrustworthy priests with machines delivering sermons and ethical guidance. Revisiting this thought experiment in light of LLMs, the paper explores the role of Kierkegaard's insights in the discourse on ethical guidance, illustrating"
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

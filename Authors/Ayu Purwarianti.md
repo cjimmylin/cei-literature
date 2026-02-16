@@ -18,11 +18,21 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wiyono-IndoPref|IndoPref]]
+- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
+- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]] (Last Author)
 - [[2023-Rizqullah-QASiNa|QASiNa]]
+- [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
+- [[2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural|IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: razifrizqullah@gmail.com
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae
 - *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae
 [Additional context or contact information]

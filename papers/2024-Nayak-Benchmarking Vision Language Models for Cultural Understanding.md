@@ -10,7 +10,7 @@ type: preprint
 short_title: Benchmarking Vision Language Models for Cultural Understanding
 year: 2024
 first_author: "[[Shravan Nayak]]"
-last_author: "[[Aishwarya Agrawal]]"
+last_author: "[[Aishwarya Agrawal Karolina Stanczak]]"
 authors: Shravan Nayak, Kanishk Jain, Rabiul Awal, Siva Reddy, Sjoerd van Steenkiste, Lisa Anne Hendricks, Karolina Stanczak, Aishwarya Agrawal
 doi: 10.18653/v1/2024.emnlp-main.329
 url: "https://arxiv.org/abs/2407.10920"
@@ -45,7 +45,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Shravan Nayak, Kanishk Jain, Rabiul Awal, Siva Reddy, Sjoerd van Steenkiste, Lisa Anne Hendricks, Karolina Stanczak, Aishwarya Agrawal]]
+[[Kanishk Jain Shravan Nayak]], [[Siva Reddy Rabiul Awal]], [[Lisa Anne Hendricks Sjoerd van Steenkiste]], [[Aishwarya Agrawal Karolina Stanczak]]
 
 ## Metadata
 

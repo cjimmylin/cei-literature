@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Adapting LLMs to Hebrew Unveiling DictaLM"
 year: 2025
 first_author: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
-last_author: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
+last_author: "[[Moshe Koppel Amir DN Cohen]]"
 authors: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.07080"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Hebrew, Israeli"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]
+[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
 
 ## Metadata
 

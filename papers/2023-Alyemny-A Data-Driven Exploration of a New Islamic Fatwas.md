@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.3390/data8100155
 url: "https://www.mdpi.com/2306-5729/8/10/155"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/A4GPKYSQ/Alyemny et al. - 2023 - A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks.pdf"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -23,6 +25,7 @@ newtags: "Arabic, Islam"
 tags: 
 abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. In this paper, we present fatwaset, the ﬁrst public Arabic dataset of Islamic fatwas. It contains Islamic fatwas that we collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites."
 pdf: "https://www.mdpi.com/2306-5729/8/10/155/pdf?version=1697687515"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

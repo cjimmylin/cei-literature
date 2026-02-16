@@ -46,6 +46,8 @@ He has been instrumental in organizing large-scale AI safety events, including t
 
 ## Papers in this Vault
 
+
+
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Hancox-Li-Is ETHICS about ethics|Is ETHICS about ethics?]] (Last Author)
 
@@ -63,5 +65,9 @@ He has been instrumental in organizing large-scale AI safety events, including t
 
 ## Notes
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Borhane is a key intellectual leader in the sociotechnical and participatory side of AI accountability.]

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "JainGPT AI-Powered Chatbot for Jain Literature"
 year: 2025
 first_author: "[[collections), JainKnowledge.com (built on JainELibrary.org and JainQQ.org]]"
-last_author: "[[collections), JainKnowledge.com (built on JainELibrary.org and JainQQ.org]]"
+last_author: "[[JainQQ.org collections)]]"
 authors: "[[JainKnowledge.com (built on JainELibrary.org]]; [[JainQQ.org collections)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Jainism"
 religious_values_list: "Jainism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Dialogue Systems"
 
 ## Authors
 
-[[JainKnowledge.com (built on JainELibrary.org and JainQQ.org collections)]]
+[[JainKnowledge.com (built on JainELibrary.org]], [[JainQQ.org collections)]]
 
 ## Metadata
 

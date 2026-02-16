@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Sachdeva-Deliberative Dynamics and Value Alignment|Deliberative Dynamics and Value Alignment]] (Last Author)
 - [[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas|Normative Evaluation of LLMs]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley
+- *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley
 - *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley
 [Additional context or contact information]

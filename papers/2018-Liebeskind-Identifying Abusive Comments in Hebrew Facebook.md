@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Identifying Abusive Comments in Hebrew Facebook"
 year: 2025
 first_author: "[[Chaya Liebeskind]]"
-last_author: "[[Shmuel Liebeskind]]"
+last_author: "[[Shmuel Liebeskind Chaya Liebeskind]]"
 authors: "Chaya Liebeskind, Shmuel Liebeskind"
 doi: 10.1109/ICSEE.2018.8646190
 url: "https://ieeexplore.ieee.org/document/8646190"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Chaya Liebeskind, Shmuel Liebeskind]]
+[[Shmuel Liebeskind Chaya Liebeskind]]
 
 ## Metadata
 

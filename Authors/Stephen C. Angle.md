@@ -1,7 +1,7 @@
 ---
 name: "Stephen C. Angle"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable as PDF"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2021-Angle-Can AI Lead to Genuine Virtue Confucian|Can AI Lead to Genuine Virtue Confucian]] (First Author)]]
+
 
 - [[2021-Angle-Can AI Lead to Genuine Virtue Confucian|Can AI Lead to Genuine Virtue Confucian]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2021-Angle-Can AI Lead to Genuine Virtue Confucian*: Affiliation: lable as PDF
+- *From 2021-Angle-Can AI Lead to Genuine Virtue Confucian*: Affiliation: lable as PDF
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

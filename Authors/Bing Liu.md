@@ -50,6 +50,9 @@ He has authored foundational textbooks, including *Sentiment Analysis: Mining Op
 
 ## Papers in this Vault
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Chiu-MoReBench|MoReBench]]
 
 ## External Links & Profiles
@@ -61,5 +64,9 @@ He has authored foundational textbooks, including *Sentiment Analysis: Mining Op
 
 ## Notes
 
+
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 [Bing is a legendary researcher whose work on sentiment and lifelong learning is foundational to AI.]

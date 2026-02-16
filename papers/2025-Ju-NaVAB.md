@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Ju, Chengyi]]; [[Shi, Weijie]]; [[Liu, Chengzhong]]; [[Ji, Jiaming]]
 url: "https://aclanthology.org/2025.findings-acl.1028/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Benchmarking Multi-National Value Alignment for Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, French, German, American"
+cultures_nationalities_list: "Chinese, American, British, French, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ key_contribution: "Introduced NaVAB, a benchmark for multi-national value alignm
 significance: "Moves beyond 'Western vs non-Western' to fine-grained national distinctions (e.g., French vs German values), providing a scalable pipeline for national value alignment."
 tags: 
 abstract: "Do Large Language Models (LLMs) hold positions that conflict with your country’s values? Occasionally they do! However, existing works primarily focus on ethical reviews, failing to capture the diversity of national values, which encompass broader policy, legal, and moral considerations. Furthermore, current benchmarks that rely on spectrum tests using manually designed questionnaires are not easily scalable."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

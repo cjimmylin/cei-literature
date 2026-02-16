@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-15*
+*Last updated: 2026-02-16*
 
 ---
 
@@ -33,6 +33,14 @@
 - Link to relevant Standards/ files if applicable
 
 ---
+
+## 2026-02-16 (Session 83)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Workflows | **Culture List 20-Agent Consolidation Pattern:** `consolidate_culture_lists.py` processed 20 agent JSON outputs (1,845 entries) with zero validation errors. Idempotent design: skip papers with existing non-N/A values, safe regex in-place update for the rest. The 3-strategy waterfall (replace → insert after anchor → append) handles all YAML layouts. Log at `logs/20260216-culture_list_consolidation.json`. |
+| 2026-02-16 | Data Quality | **Curly Quote Filename Mismatch (Recurring):** 9 of 1,845 papers failed exact-match lookup because agent JSON had straight quotes (`"`, `'`) while disk filenames had Unicode curly quotes (`\u201c`, `\u2019`). All 9 were pre-populated by earlier batch processing, so no data was lost. This is the 3rd occurrence of this pattern (also hit in Session 81 dedup, Session 80 classification). Consider adding a `normalize_filename()` utility that strips/normalizes quotes for all future agent ↔ disk lookups. |
+| 2026-02-16 | Data Quality | **Culture Distribution Insights:** 1,275/2,002 papers (63.7%) have culture/nationality data. Chinese (169) dominates, followed by Indian (135) and Arabic (105). 727 papers (36.3%) are legitimately N/A (general AI safety/ethics not targeting specific cultures). The distribution reflects the field's research focus: East Asian NLP is well-studied, while African (44), Latin American (Brazilian 34), and Indigenous traditions have sparse coverage. |
 
 ## 2026-02-15 (Session 81)
 

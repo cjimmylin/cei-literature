@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ url: "https://arxiv.org/abs/2511.11790"
 external_pdf: "https://arxiv.org/pdf/2511.11790.pdf"
 publication: arXiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -24,6 +27,7 @@ pdf_extract: "PDF Extracts/2024/2024-Kirgis-Differences in Moral Foundations of 
 abstract: "Large language models are increasingly being used in critical domains of politics, business, and education, but the nature of their normative ethical judgment remains opaque. Alignment research has, to date, not sufficiently utilized perspectives and insights from the field of moral psychology to inform training and evaluation of frontier models. I perform a synthetic experiment on a wide range of models from most major model providers using Jonathan Haidt’s influential moral foundations theory..."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

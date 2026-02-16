@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0417
 type: preprint
 short_title: "NitiBench A Comprehensive Study of LLM"
 year: 2025
-first_author: "[[Pothavorn, Pirat]]"
-last_author: "[[Chaksangchaichot, Chompakorn]]"
-authors: "[[Pothavorn, Pirat]]; [[Chaksangchaichot, Chompakorn]]"
-authors_incomplete: true
+first_author: "[[Akarajaradwong, Pawitsapak]]"
+last_author: "[[Nutanong, Sarana]]"
+authors: "[[Akarajaradwong, Pawitsapak]]; [[Pothavorn, Pirat]]; [[Chaksangchaichot, Chompakorn]]; [[Tasawong, Panuthep]]; [[Nopparatbundit, Thitiwat]]; [[Pratai, Keerakiat]]; [[Nutanong, Sarana]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.10868"
 external_pdf: "https://arxiv.org/pdf/2502.10868.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pothavorn-NitiBench A Comprehensive Study of LLM.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Pothavorn, Pirat]], [[Chaksangchaichot, Chompakorn]]
+[[Akarajaradwong, Pawitsapak]], [[Pothavorn, Pirat]], [[Chaksangchaichot, Chompakorn]], [[Tasawong, Panuthep]], [[Nopparatbundit, Thitiwat]], [[Pratai, Keerakiat]], [[Nutanong, Sarana]]
 
 ## Metadata
 
-**Authors:** Pirat Pothavorn; Chompakorn Chaksangchaichot
+**Authors:** Akarajaradwong, Pawitsapak; Pothavorn, Pirat; Chaksangchaichot, Chompakorn; Tasawong, Panuthep; Nopparatbundit, Thitiwat; Pratai, Keerakiat; Nutanong, Sarana
 
 **Year:** 2025
 

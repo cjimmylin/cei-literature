@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +12,9 @@ type: preprint
 short_title: "Bias and Fairness in Large Language Models: A Survey"
 year: 2025
 first_author: "[[Gallegos, Isabel O.]]"
-last_author: "[[Gallegos, Isabel O.]]"
-authors: "[[Gallegos, Isabel O.]]"
-authors_incomplete: true
+last_author: "[[Ahmed, Nesreen K]]"
+authors: "[[Gallegos, Isabel O.]]; [[Rossi, Ryan A.]]; [[Barrow, Joe]]; [[Tanjim, Md Mehrab]]; [[Kim, Sungchul]]; [[Dernoncourt, Franck]]; [[Yu, Tong]]; [[Zhang, Ruiyi]]; [[Ahmed, Nesreen K.]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2024.cl-3.8/"
 external_pdf: "https://arxiv.org/pdf/2309.00770.pdf"
 publication: "arXiv / ACL Anthology"
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "N/A"
 languages_list: "Multiple including French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +47,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Isabel O. Gallegos, et al.]]
+[[Gallegos, Isabel O]], [[Rossi, Ryan A]], [[Barrow, Joe]], [[Tanjim, Md Mehrab]], [[Kim, Sungchul]], [[Dernoncourt, Franck]], [[Yongqi Tong|Yu, Tong]], [[Zhang, Ruiyi]], [[Ahmed, Nesreen K]]
 
 ## Metadata
 
-**Authors:** Isabel O. Gallegos, et al.
+**Authors:** Gallegos, Isabel O.; Rossi, Ryan A.; Barrow, Joe; Tanjim, Md Mehrab; Kim, Sungchul; Dernoncourt, Franck; Yu, Tong; Zhang, Ruiyi; Ahmed, Nesreen K.
 
 **Year:** 2024
 

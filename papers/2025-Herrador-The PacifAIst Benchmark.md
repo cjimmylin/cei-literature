@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2508.09762"
 external_pdf: "http://arxiv.org/pdf/2508.09762.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2025/2025-Herrador-The PacifAIst Benchmark.md"
 abstract: "As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating underlying behavioral alignment. Current safety benchmarks do not systematically probe a model’s decision-making in scenarios where its own instrumental goals—such as self-preservation, resource acquisition, or goal completion—conflict with human safety."
 paper_summary: "Abstract: As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating un- der | Overview: The PacifAIst Benchmark: Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety? Manuel Herrador Muñoz | mherrador@ujaen.es Polytechnic School of Jaen, University of Jaen Spain A | Methodology: is the creation of dynamic or 'living' benchmarks. LiveBench, for example, limits contamination by releasing new questions regularly, ensuring a porti | Key Findings: The development of PacifAIst is situated within a rich and rapidly evolving landscape of LLM evaluation. This landscape can be un- derstood as progres | Conclusions: This section interprets the results from the PacifAIst benchmark, discusses their implications for the field of AI safety, acknowledges the limitation"
 local_pdf: "[[PDFs/2025/2025-Herrador-The PacifAIst Benchmark.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

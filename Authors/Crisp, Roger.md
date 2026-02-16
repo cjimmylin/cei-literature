@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Constantinescu-Can Robotic AI Be Virtuous|Can Robotic AI Be Virtuous]] (Last Author)]]
+
 
 - [[2022-Constantinescu-Can Robotic AI Be Virtuous|Can Robotic AI Be Virtuous]] (Last Author)
 

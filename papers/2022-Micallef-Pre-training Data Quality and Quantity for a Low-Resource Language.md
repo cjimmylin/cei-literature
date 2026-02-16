@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: conferencePaper
 short_title: "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese"
 year: 2025
 first_author: "[[Micallef, Kurt]]"
-last_author: "[[Micallef, Kurt]]"
-authors: "[[Micallef, Kurt]]"
-authors_incomplete: true
+last_author: "[[Borg, Claudia]]"
+authors: "[[Micallef, Kurt]]; [[Gatt, Albert]]; [[Tanti, Marc]]; [[Plas, Lonneke van der]]; [[Borg, Claudia]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2022.deeplo-1.10/"
 external_pdf: "https://arxiv.org/pdf/2205.10517.pdf"
 publication: "ACL Anthology / DeepLo 2022"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Maltese"
 languages_list: Maltese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Kurt Micallef, Albert Gatt et al.]]
+[[Micallef, Kurt]], [[Gatt, Albert]], [[Tanti, Marc]], [[Plas, Lonneke van der]], [[Borg, Claudia]]
 
 ## Metadata
 
-**Authors:** Kurt Micallef, Albert Gatt et al.
+**Authors:** Micallef, Kurt; Gatt, Albert; Tanti, Marc; Plas, Lonneke van der; Borg, Claudia
 
 **Year:** 2022
 

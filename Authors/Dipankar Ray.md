@@ -20,10 +20,16 @@ Dipankar Ray is a researcher who has worked on natural language processing, part
 ## Papers in this Vault
 
 
+
+
 - [[2022-Hartvigsen-ToxiGen|ToxiGen]]
 
 ## Notes
 
 
+
+
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: maartensap@cmu.edu
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: tomh@mit.edu
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: skgabrie@cs.washington.edu
 Contributor to influential work on hate speech detection datasets.

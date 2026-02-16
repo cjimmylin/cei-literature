@@ -35,6 +35,9 @@ Chris Olah is a Co-founder and Member of Technical Staff at Anthropic. He is wid
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
 - [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
 - [[2021-Askell-A General Language Assistant as a Laboratory for|A General Language Assistant as a Laboratory for]]
@@ -47,5 +50,9 @@ Chris Olah is a Co-founder and Member of Technical Staff at Anthropic. He is wid
 ## Notes
 
 
+
+
+- *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
+- *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 Chris Olah's work is fundamental to the "inner alignment" agenda, providing the best hope for understanding *why* models do what they do.

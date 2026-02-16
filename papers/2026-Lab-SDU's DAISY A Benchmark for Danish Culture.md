@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "SDU's DAISY: A Benchmark for Danish Culture"
 year: 2025
 first_author: "[[Various (SDU/Schneiderkamp Lab)]]"
-last_author: "[[Various (SDU/Schneiderkamp Lab)]]"
+last_author: "[[Various (SDUSchneiderkamp Lab)]]"
 authors: "Various (SDU/Schneiderkamp Lab)"
 url: "https://arxiv.org/abs/2601.19930"
 external_pdf: "https://arxiv.org/pdf/2601.19930.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Danish"
 languages_list: Danish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Various (SDU/Schneiderkamp Lab)]]
+[[Various (SDUSchneiderkamp Lab)]]
 
 ## Metadata
 

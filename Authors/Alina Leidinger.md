@@ -32,6 +32,8 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 
 ## Papers in this Vault
 
+
+
 - [[2024-Pistilli-CIVICS|CIVICS]]
 
 ## External Links & Profiles
@@ -41,5 +43,9 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 
 ## Notes
 
+
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Focused on the socio-technical factors that influence how LLMs refuse or censor content.]

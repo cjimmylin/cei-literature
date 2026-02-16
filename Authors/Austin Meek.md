@@ -26,10 +26,16 @@ University of Delaware
 ## Papers in this Vault
 
 
+
+
 - [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]]
 
 ## Notes
 
 
+
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 Contributed to research exploring whether behavioral alignment (models producing correct answers) implies mechanistic alignment (models reasoning like human brains), finding that accuracy improvements do not necessarily improve BrainScore alignment with fMRI data.

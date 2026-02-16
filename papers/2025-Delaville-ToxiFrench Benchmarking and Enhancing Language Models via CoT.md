@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection"
 year: 2025
 first_author: "[[Delaville, Axel]]"
-last_author: "[[Delaville, Axel]]"
+last_author: "[[Axel Delaville]]"
 authors: "[[Delaville, Axel]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2508.11281"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: French
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Axel Delaville, et al.]]
+[[Axel Delaville]]
 
 ## Metadata
 

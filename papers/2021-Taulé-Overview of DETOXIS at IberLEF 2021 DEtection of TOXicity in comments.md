@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
 year: 2025
 first_author: "[[Taulé, Mariona]]"
-last_author: "[[Taulé, Mariona]]"
+last_author: "[[Mariona Taulé]]"
 authors: "[[Taulé, Mariona]]"
 authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6390/0"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Mariona Taulé, et al.]]
+[[Mariona Taulé]]
 
 ## Metadata
 

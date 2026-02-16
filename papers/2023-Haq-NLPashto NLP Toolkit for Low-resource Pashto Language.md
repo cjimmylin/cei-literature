@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ year: 2025
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
 authors: "[[Haq, Ijazul]]; [[Qiu, Weidong]]; [[Guo, Jie]]; [[Tang, Peng]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://github.com/dr-ijaz/nlpashto"
 external_pdf: "http://thesai.org/Downloads/Volume14No6/Paper_142-NLPashto_NLP_Toolkit_for_Low_resource_Pashto_Language.pdf"
 publication: IJACSA
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Pashtun"
 languages_list: Pashto
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +52,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Metadata
 
-**Authors:** Ijazul Haq; Weidong Qiu; Jie Guo; Peng Tang
+**Authors:** Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng
 
 **Year:** 2023
 

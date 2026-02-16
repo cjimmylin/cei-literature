@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ url: "http://arxiv.org/abs/2407.16216"
 external_pdf: "http://arxiv.org/pdf/2407.16216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -29,6 +32,7 @@ pdf_extract: "PDF Extracts/2024/2024-Wang-A Comprehensive Survey of LLM Alignmen
 abstract: "With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parameters, large language models (LLMs) are now capable of generating factual and coherent responses to human queries. However, the mixed quality of training data can lead to the generation of undesired responses, presenting a significant challenge."
 paper_summary: "Abstract: With advancements in self-supervised learning, the availability of trillions tokens in a pre-training corpus, instruction fine-tuning, and the development of large Transformers with billions of parame | Overview: A COMPREHENSIVE SURVEY OF LLM ALIGNMENT TECHNIQUES: RLHF, RLAIF, PPO, DPO AND MORE Zhichao Wang*, Bin Bi*, Shiva Kumar Pentyala, Kiran Ramnath, Sougata Chaudhuri, Shubham Mehrotra, Zixu (James) Zhu, X | Methodology: encompassed two primary stages: 1. Supervised learning through Critiques and Revisions guided by a 'constitution' and 2. RLAIF. In the initial stage,  | Key Findings: results demonstrated that RSO surpassed previous methods including SLiC and DPO across multiple metrics, including human evaluation. RSO also showed b"
 local_pdf: "[[PDFs/2024/2024-Wang-A Comprehensive Survey of LLM Alignment Techniques.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

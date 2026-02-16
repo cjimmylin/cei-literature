@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]]
 
 ## Notes
 
 
+
+
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 - *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 [Additional context or contact information]

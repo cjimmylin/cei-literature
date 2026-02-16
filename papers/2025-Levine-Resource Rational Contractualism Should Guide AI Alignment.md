@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ local_pdf: "[[PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guid
 external_pdf: "https://arxiv.org/pdf/2506.17434.pdf"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Proposes 'Resource-Rational Contractualism' (RRC) as a 'Syste
 significance: "Uses contractualist theory to model agreements under ideal conditions, providing a robust alternative to simple preference heuristics"
 abstract: "AI systems will soon have to navigate human environments and make decisions that affect people and other AI agents whose goals and values diverge. Contractualist alignment proposes grounding those decisions in agreements that diverse stakeholders would endorse under the right conditions, yet securing such agreement at scale remains costly and slow—even for advanced AI. We therefore propose Resource-Rational Contractualism (RRC): a framework where AI systems approximate the agreements rational..."
 paper_summary: "Abstract: AI systems will soon have to navigate human environments and make decisions that affect people and other AI agents whose goals and values diverge. Contrac- tualist alignment proposes grounding those d | Overview: arXiv:2506.17434v1 [cs.AI] 20 Jun 2025 Resource Rational Contractualism Should Guide AI Alignment Sydney Levine1,2, Matija Franklin3, Tan Zhi-Xuan2, Secil Yanik Guyot4, Lionel Wong5, Daniel Kilov4, Ye | Methodology: in the broader AI alignment literature. In §3, we de- scribe the RRC Framework and provide several exam- ples (inspired by human moral cognition) of h | Conclusions: Humans are faced with the challenge of how to navigate complex social situations with limited resources. AI systems are also engaging in this endeavor"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

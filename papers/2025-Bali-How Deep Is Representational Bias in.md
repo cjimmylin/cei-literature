@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "How Deep Is Representational Bias in"
 year: 2025
 first_author: "[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]"
-last_author: "[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]"
+last_author: "[[Kalika Bali Aditya Vashistha]]"
 authors: "[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.03712"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]
+[[Monojit Choudhury Agrima Seth]], [[Kentaro Toyama Sunayana Sitaram]], [[Kalika Bali Aditya Vashistha]]
 
 ## Metadata
 

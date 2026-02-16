@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and|QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: wajdi.zaghouani@northwestern.edu
+- *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: aerbad@qu.edu.qa
 - *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: aerbad@qu.edu.qa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

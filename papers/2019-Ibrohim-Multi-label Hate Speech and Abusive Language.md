@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.18653/v1/W19-3506
 url: "https://www.aclweb.org/anthology/W19-3506"
 external_pdf: "https://www.aclweb.org/anthology/W19-3506.pdf"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -24,6 +26,7 @@ key_contribution: "Developed a multi-label classification framework for hate spe
 significance: "Addresses the lack of safety resources for low-resource languages (Indonesian), enabling more nuanced content moderation that distinguishes between different types and severities of hate."
 tags: 
 abstract: "Hate speech and abusive language spreading on social media need to be detected automatically to avoid conﬂicts between citizens. Moreover, hate speech has a target, category, and level that also need to be detected to help the authority in prioritizing which hate speech must be addressed immediately. This research discusses multi-label text classiﬁcation for abusive language and hate speech detection including detecting the target, category, and level of hate speech in Indonesian Twitter using..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

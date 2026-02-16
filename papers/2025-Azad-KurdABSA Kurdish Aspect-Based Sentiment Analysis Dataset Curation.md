@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,11 +20,13 @@ external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"
 pdf_extract: PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md
 local_pdf: "[[PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
+DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kurdish"
 languages_list: "Kurdish (Sorani)"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Unknown]]
+[[Rania Azad]], [[Soran Saeed]]
 
 ## Metadata
 

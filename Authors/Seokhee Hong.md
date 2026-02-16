@@ -18,10 +18,21 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
+- [[2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do|LLM-as-a-Judge & Reward Model: What They Can and Cannot Do]] (Last Author)
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Lee-KoSBI|KoSBI]]
+- [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]]
 
 ## Notes
 
 
+
+
+- *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org
+- *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org
 [Additional context or contact information]

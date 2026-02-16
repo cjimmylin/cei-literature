@@ -32,6 +32,8 @@ Chenglei Si is a PhD student in Natural Language Processing (NLP) at Stanford Un
 ## Papers in this Vault
 
 
+
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## External Links & Profiles
@@ -42,5 +44,9 @@ Chenglei Si is a PhD student in Natural Language Processing (NLP) at Stanford Un
 ## Notes
 
 
+
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu
 Chenglei Si's work on HackAPrompt provided one of the first large-scale empirical datasets demonstrating the fragility of LLM instruction following under adversarial pressure.

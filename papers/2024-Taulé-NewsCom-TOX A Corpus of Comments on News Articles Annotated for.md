@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,9 +13,9 @@ type: conferencePaper
 short_title: "NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish"
 year: 2025
 first_author: "[[Taulé, Mariona]]"
-last_author: "[[Nofre, Montserrat]]"
-authors: "[[Taulé, Mariona]]; [[Nofre, Montserrat]]"
-authors_incomplete: true
+last_author: "[[Bonet, Xavier]]"
+authors: "[[Taulé, Mariona]]; [[Nofre, Montserrat]]; [[Bargiela, Víctor]]; [[Bonet, Xavier]]"
+authors_incomplete: false
 doi: 10.1007/s10579-023-09711-x
 url: "https://link.springer.com/article/10.1007/s10579-023-09711-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-023-09711-x.pdf"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -48,11 +50,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Mariona Taulé, Montserrat Nofre, et al.]]
+[[Taulé, Mariona]], [[Nofre, Montserrat]], [[Bargiela, Víctor]], [[Bonet, Xavier]]
 
 ## Metadata
 
-**Authors:** Mariona Taulé, Montserrat Nofre, et al.
+**Authors:** Taulé, Mariona; Nofre, Montserrat; Bargiela, Víctor; Bonet, Xavier
 
 **Year:** 2024
 

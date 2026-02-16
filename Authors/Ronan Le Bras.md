@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
 - [[2022-Kim-SODA|SODA]]
@@ -27,5 +29,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2021-Emelin-Moral Stories*: Affiliation: University of Edinburgh, ♠Allen Institute for Artiﬁcial Intelligence, Email: D.Emelin@sms.ed.ac.uk
+- *From 2021-Emelin-Moral Stories*: Affiliation: University of Edinburgh, ♠Allen Institute for Artiﬁcial Intelligence, Email: D.Emelin@sms.ed.ac.uk
 - *From 2021-Emelin-Moral Stories*: Affiliation: University of Edinburgh, ♠Allen Institute for Artiﬁcial Intelligence, Email: D.Emelin@sms.ed.ac.uk
 [Additional context or contact information]

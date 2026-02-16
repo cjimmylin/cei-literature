@@ -33,6 +33,8 @@ In 2023, Clark gave a briefing at the first United Nations Security Council meet
 ## Papers in this Vault
 
 
+
+
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 - [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
 - [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]] (Last Author)
@@ -41,5 +43,9 @@ In 2023, Clark gave a briefing at the first United Nations Security Council meet
 ## Notes
 
 
+
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 Born in Brighton, England. Co-founded Anthropic with former OpenAI colleagues including Dario Amodei and Daniela Amodei.

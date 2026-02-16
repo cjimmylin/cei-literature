@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Ka
 url: "https://arxiv.org/abs/2404.16019"
 external_pdf: "https://arxiv.org/pdf/2404.16019.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

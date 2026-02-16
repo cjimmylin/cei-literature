@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0830
 type: conferencePaper
 short_title: "GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Khanuja, Simran]]"
+last_author: "[[Choudhury, M]]"
+authors: "[[Khanuja, Simran]]; [[Dandapat, Sandipan]]; [[Srinivasan, A.]]; [[Sitaram, Sunayana]]; [[Choudhury, M.]]"
+authors_incomplete: false
 url: "https://www.researchgate.net/publication/343300735_GLUECoS_An_Evaluation_Benchmark_for_Code-Switched_NLP"
 external_pdf: "https://www.aclweb.org/anthology/2020.acl-main.329.pdf"
 publication: ResearchGate
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, Indian"
+cultures_nationalities_list: "Indian, Spanish, Korean"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Unknown]]
+[[Khanuja, Simran]], [[Dandapat, Sandipan]], [[Srinivasan, A]], [[Sunayana Sitaram|Sitaram, Sunayana]], [[Choudhury, M]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Khanuja, Simran; Dandapat, Sandipan; Srinivasan, A.; Sitaram, Sunayana; Choudhury, M.
 
 **Year:** 2025
 

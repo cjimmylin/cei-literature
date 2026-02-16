@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[Södahl Bladsjö, Tom]]; [[Muñoz Sánchez, Ricardo]]"
 url: "https://aclanthology.org/2025.gebnlp-1.5/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/95P47V4W/2025 - MARB A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +25,7 @@ key_contribution: "Presented MARB, a dataset for studying 'reporting bias'—the
 significance: "Demonstrates that bias in LMs manifests not just as stereotypes but as 'reporting bias' (mentioning race/gender only when it's non-normative), offering a new diagnostic tool for subtle social exclusions."
 tags: 
 abstract: "Reporting bias is the tendency for speakers to omit unnecessary or obvious information while mentioning things they consider relevant or surprising. In descriptions of people, reporting bias can manifest as a tendency to over report on attributes that deviate from the norm. While social bias in language models has garnered a lot of attention in recent years, a majority of the existing work equates “bias” with “stereotypes”."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

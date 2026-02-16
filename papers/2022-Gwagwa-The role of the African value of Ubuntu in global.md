@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.1016/j.patter.2022.100462
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HH8893VS/Gwagwa et al. - 2022 - The role of the African value of Ubuntu in global AI inclusion discourse A normative ethics perspec.pdf"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
@@ -24,6 +26,7 @@ key_contribution: "Explores how the African value of Ubuntu (relational ethics) 
 significance: "Brings a non-Western, communal ethical framework to AI, challenging individualistic Western norms and offering a path for more inclusive global AI governance."
 tags: 
 abstract: "Historically, Sub-Saharan Africa (SSA) has been excluded from the beneﬁts of the previous industrial revolutions, as its people and their resources and aspirations have been objectiﬁed through foreign domination, and its culture has either been fragmented or appropriated. While artiﬁcial intelligence (AI) is poised to generate vast amounts of wealth, its application could lead to further social and economic exclusion of SSA due to a lack of access to technological advancements and the historical"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

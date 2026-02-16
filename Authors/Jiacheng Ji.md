@@ -1,9 +1,9 @@
 ---
 name: "Jiacheng Ji"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "pilgrim@sjtu.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]]]]
+
 
 - [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
+- *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

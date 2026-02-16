@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.18653/v1/2023.emnlp-main.862
 url: "https://aclanthology.org/2023.emnlp-main.862/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZYT6SY9F/Muhammad et al. - 2023 - AfriSenti A Twitter Sentiment Analysis Benchmark for African Languages.pdf"
 national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
+cultures_nationalities_list: "African, Arabic, Brazilian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

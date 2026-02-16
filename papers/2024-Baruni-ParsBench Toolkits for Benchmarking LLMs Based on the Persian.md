@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0144
 type: conferencePaper
 short_title: "ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks"
 year: 2025
-first_author: "[[Baruni, Sara]]"
+first_author: "[[Abaskohi, Amirhossein]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
-authors: "[[Baruni, Sara]]; [[Masoudi, Mostafa]]; [[Hadi, Mohammad]]; [[Kamahi, Sepehr]]; [[Mahdizadeh, Samin]]; [[Yaghoobzadeh, Yadollah]]"
-authors_incomplete: true
+authors: "[[Abaskohi, Amirhossein]]; [[Baruni, Sara]]; [[Masoudi, Mostafa]]; [[Abbasi, Nesa]]; [[Babalou, Mohammad Hadi]]; [[Edalat, Ali]]; [[Kamahi, Sepehr]]; [[Sani, Samin Mahdizadeh]]; [[Naghavian, Nikoo]]; [[Namazifard, Danial]]; [[Sadeghi, Pouya]]; [[Yaghoobzadeh, Yadollah]]"
+authors_incomplete: false
 url: "https://github.com/ParsBench/ParsBench"
 external_pdf: "https://arxiv.org/pdf/2404.02403"
 publication: "GitHub / HuggingFace"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Other"
 
 ## Authors
 
-[[Baruni, Sara]], [[Masoudi, Mostafa]], [[Hadi, Mohammad]], [[Kamahi, Sepehr]], [[Mahdizadeh, Samin]], [[Yaghoobzadeh, Yadollah]]
+[[Abaskohi, Amirhossein]], [[Baruni, Sara]], [[Masoudi, Mostafa]], [[Abbasi, Nesa]], [[Babalou, Mohammad Hadi]], [[Edalat, Ali]], [[Kamahi, Sepehr]], [[Sani, Samin Mahdizadeh]], [[Naghavian, Nikoo]], [[Namazifard, Danial]], [[Sadeghi, Pouya]], [[Yaghoobzadeh, Yadollah]]
 
 ## Metadata
 
-**Authors:** Sara Baruni; Mostafa Masoudi; Mohammad Hadi; Sepehr Kamahi; Samin Mahdizadeh; Yadollah Yaghoobzadeh
+**Authors:** Abaskohi, Amirhossein; Baruni, Sara; Masoudi, Mostafa; Abbasi, Nesa; Babalou, Mohammad Hadi; Edalat, Ali; Kamahi, Sepehr; Sani, Samin Mahdizadeh; Naghavian, Nikoo; Namazifard, Danial; Sadeghi, Pouya; Yaghoobzadeh, Yadollah
 
 **Year:** 2024
 

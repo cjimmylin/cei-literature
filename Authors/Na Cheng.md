@@ -1,7 +1,7 @@
 ---
 name: "Na Cheng"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lability of trillions tokens in a pre-training"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]] (Last Author)]]
+
 
 - [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Wang-A Comprehensive Survey of LLM Alignment Techniques*: Affiliation: lability of trillions tokens in a pre-training
+- *From 2024-Wang-A Comprehensive Survey of LLM Alignment Techniques*: Affiliation: lability of trillions tokens in a pre-training
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

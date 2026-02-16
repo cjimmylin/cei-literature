@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]]
 - [[2024-Saffari-PSN|PSN]]
 
 ## Notes
 
 
+
+
+- *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
+- *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: francesco.pierri@polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
 [Additional context or contact information]

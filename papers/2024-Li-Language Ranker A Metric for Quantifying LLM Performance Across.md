@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multiple including Kurdish (0.308), Pashto (0.284)"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Zihao Li]], [[Yucheng Shi]], [[Zirui Liu]], [[Fan Yang]], [[Ali Payani]], [[Ninghao Liu]], [[Mengnan Du]]
+[[Li, Zihao]], [[Shi, Yucheng]], [[Liu, Zirui]], [[Yang, Fan]], [[Ali Payani|Payani, Ali]], [[Liu, Ninghao]], [[Du, Mengnan]]
 
 ## Metadata
 

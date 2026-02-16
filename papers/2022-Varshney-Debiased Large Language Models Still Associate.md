@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Debiased Large Language Models Still Associate"
 year: 2025
 first_author: "[[Babak Hemmatian, Lav R. Varshney]]"
-last_author: "[[Babak Hemmatian, Lav R. Varshney]]"
+last_author: "[[Lav R. Varshney Babak Hemmatian]]"
 authors: "[[Babak Hemmatian, Lav R. Varshney]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2208.04417"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Babak Hemmatian, Lav R. Varshney]]
+[[Lav R. Varshney Babak Hemmatian]]
 
 ## Metadata
 

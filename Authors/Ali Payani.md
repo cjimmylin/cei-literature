@@ -32,9 +32,16 @@ Ali's research addresses the "double-edged sword" of model editing—how correct
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]]
+- [[2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across|Language Ranker: A Metric for Quantifying LLM Performance Across Languages]]
 
 ## Notes
 
+
+
+- *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
+- *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 - *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 [A pioneer in applying uncertainty quantification to assess the risks of AI knowledge updates.]

@@ -50,7 +50,10 @@ She has received some of the most prestigious awards in AI, including the IJCAI 
 
 ## Papers in this Vault
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Mazeika-HarmBench|HarmBench]]
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]] (Last Author)
@@ -71,5 +74,9 @@ She has received some of the most prestigious awards in AI, including the IJCAI 
 
 ## Notes
 
+
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 [Bo Li is a central figure in the technical AI safety and robustness research community.]

@@ -35,6 +35,8 @@ Charlotte Laclau is an Associate Professor in the Department of Image, Data, and
 ## Papers in this Vault
 
 
+
+
 - [[2025-Leteno-Histoires Morales|Histoires Morales]]
 
 ## External Links & Profiles
@@ -45,5 +47,9 @@ Charlotte Laclau is an Associate Professor in the Department of Image, Data, and
 ## Notes
 
 
+
+
+- *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: thibaud.leteno@univ-st-etienne.fr
+- *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: thibaud.leteno@univ-st-etienne.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr
 Charlotte Laclau's research provides essential tools for building fair and interpretable machine learning systems in an increasingly data-driven world.

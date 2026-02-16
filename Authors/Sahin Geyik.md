@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
 ## Notes
 
 
+
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 [Additional context or contact information]

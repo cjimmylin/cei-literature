@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,19 +13,20 @@ type: conferencePaper
 short_title: "A survey of multilingual large language models - PMC"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783891/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11783891&blobtype=pdf"
 publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Masood-A survey of multilingual large language models - PMC.md"
-local_pdf: "N/A"
+local_pdf: "[[PDFs/2025/2025-Masood-A survey of multilingual large language models - PMC.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Kyrgyz, Maori, Multilingual, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Adnan Masood, Ph]]
+[[Ph Adnan Masood]]
 
 ## Metadata
 

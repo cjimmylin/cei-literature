@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen]]
+[[Long Nguyen|Luan Thanh Nguyen]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
 
 ## Metadata
 

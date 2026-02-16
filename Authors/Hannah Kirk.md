@@ -25,6 +25,8 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 ## Papers in this Vault
 
 
+
+
 - [[2024-Röttger-XSTest|XSTest]]
 - [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]] (First Author)
 
@@ -38,5 +40,9 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 ## Notes
 
 
+
+
+- *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
+- *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 - *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 Best Paper Award at NeurIPS 2024 (Datasets & Benchmarks track) for PRISM Alignment Dataset. Outstanding Paper Award at ACL 2024 for work on political bias in AI. Degrees from Oxford (MSc), Cambridge (BA), and Peking University (MA).

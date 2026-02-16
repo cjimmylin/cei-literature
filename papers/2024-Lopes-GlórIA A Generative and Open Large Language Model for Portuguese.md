@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Portuguese"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Ricardo Lopes, João Magalhães, David Semedo]]
+[[Ricardo Lopes]], [[João Magalhães]], [[David Semedo]]
 
 ## Metadata
 

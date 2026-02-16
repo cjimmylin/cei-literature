@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Nadeem-Ethical Decision-Making in Humans and Large|Ethical Decision-Making in Humans and Large]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India
+- *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India
 - *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India
 [Additional context or contact information]

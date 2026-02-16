@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464"
 external_pdf: "https://doi.org/10.36571/ajsp661"
 publication: "Journal of Experimental Social Psychology"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2022/2022-Zhang-Artificial Intelligence and Moral Dil
 abstract: "Artificial intelligence (AI) has become deeply integrated into daily life; thus, it is important to examine how people perceive AI as it functions as a decision-maker, especially in situations involving moral dilemmas. Across four studies (N = 804), we found that people perceive AI as more likely to make utilitarian choices than human beings are. Perceived warmth accounts for people's perceived differences in decision making between human beings and AI."
 paper_summary: 
 local_pdf: "[[PDFs/2022/2022-Zhang-Artificial Intelligence and Moral Dilemmas.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

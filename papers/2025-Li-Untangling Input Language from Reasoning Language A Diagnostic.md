@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Authors
 
-[[Nan Li]], [[Bo Kang]], [[Tijl De Bie]]
+[[Li, Nan]], [[Kang, Bo]], [[Tijl De Bie|De Bie, Tijl]]
 
 ## Metadata
 

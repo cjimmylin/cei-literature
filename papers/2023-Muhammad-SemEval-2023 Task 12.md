@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ tags:
 url: "http://arxiv.org/abs/2304.06845"
 external_pdf: "http://arxiv.org/pdf/2304.06845.pdf"
 national_ethnic_cultural: "Arabic, African/Ubuntu, Brazilian"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ pdf_extract: "PDF Extracts/2023/2023-Muhammad-SemEval-2023 Task 12.md"
 abstract: "We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSentiSemEval is a sentiment classiﬁcation challenge in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yorùbá) (Muhammad et al., 2023), using data labeled with 3 sentiment classes."
 paper_summary: "Abstract: We present the ﬁrst Africentric SemEval Shared task, Sentiment Analysis for African Languages (AfriSenti-SemEval)1. AfriSenti- SemEval is a sentiment classiﬁcation chal- lenge in 14 African languages  | Overview: SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval) Shamsuddeen Hassan Muhammad1,2+∗, Idris Abdulmumin3+∗, Seid Muhie Yimam4∗, David Ifeoluwa Adelani5∗, Ibrahim Sa'id Ah | Methodology: involved continued pre-training of the PLM on the monolingual portion of the Leipzig Corpus Collec- tion (Goldhahn et al., 2012) (covering Wikipedia,  | Key Findings: All three tasks in the AfriSenti-SemEval shared task required participants to perform a sentiment (negative, neutral, positive) classiﬁcation. To eval | Conclusions: We summarize some of the approaches that led to the best results in different sub-tasks. Sub-task A All of the top-10 best-performing teams with syste"
 local_pdf: "[[PDFs/2023/2023-Muhammad-SemEval-2023 Task 12.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Cultural Bias and Cultural Alignment of Large Language Models"
 year: 2025
 first_author: "[[Yongshuo Liu]]"
-last_author: "[[Nanyun Peng]]"
+last_author: "[[Nanyun Peng Linyuan Gong]]"
 authors: "Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng"
 doi: 10.1093/pnasnexus/pgae346
 url: "https://arxiv.org/abs/2311.14096"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Dutch, Russian, Brazilian"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "Arabic, Chinese, Dutch, English, French, German, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish, Swahili"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng]]
+[[Di Jin Yongshuo Liu]], [[Neil Zhenqiang Gong|Nanyun Peng Linyuan Gong]]
 
 ## Metadata
 

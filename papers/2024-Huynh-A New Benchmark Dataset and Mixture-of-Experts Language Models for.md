@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Tin Van Huynh]], [[Kiet Van Nguyen]], [[Ngan Luu-Thuy Nguyen]]
+[[Van Huynh, Tin]], [[Van Nguyen, Kiet]], [[Nguyen, Ngan Luu-Thuy]]
 
 ## Metadata
 

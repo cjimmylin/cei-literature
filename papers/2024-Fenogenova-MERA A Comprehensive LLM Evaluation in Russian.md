@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Fenogenova, Alena]]; [[Chervyakov, Artem]]; [[Martynov, Nikita]]; [[
 url: "https://aclanthology.org/2024.acl-long.534/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ESQLWPZ/2024 - MERA A Comprehensive LLM Evaluation in Russian.pdf"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ key_contribution: "Introduced MERA, a comprehensive instruction-tuning benchmark
 significance: "The primary benchmark for the Russian AI ecosystem, revealing that Russian open models still lag behind closed Western models (GPT-4) and human performance."
 tags: 
 abstract: "Over the past few years, one of the most notable advancements in AI research has been in foundation models (FMs), headlined by the rise of language models (LMs). However, despite researchers’ attention and the rapid growth in LM application, the capabilities, limitations, and associated risks still need to be better understood. To address these issues, we introduce a new instruction benchmark, MERA, oriented towards the FMs’ performance on the Russian language."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

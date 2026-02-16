@@ -19,10 +19,16 @@ Jiayi Ye is a researcher focused on trustworthy AI and role-playing LLMs. Curren
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## Notes
 
 
+
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 Jiayi Ye is actively seeking a PhD position starting in Fall 2026. Their recent work includes TRUSTEVAL, a dynamic evaluation toolkit for generative foundation models published at NAACL 2025. They have had papers accepted at ICLR 2025 and NeurIPSW 2024.

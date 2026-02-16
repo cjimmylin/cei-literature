@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ DATA_URL: "https://github.com/BenchRisk"
 
 ## Authors
 
-[[McGregor, Sean]], [[Lu, Victor]], [[Tashev, Vassil]], [[Foundjem, Armstrong]], [[Ramasethu, Aishwarya]], [[Zarkouei, Sadegh AlMahdi Kazemi]], [[Knotz, Chris]], [[Chen, Kongtao]], [[Parrish, Alicia]], [[Reuel, Anka]], [[Frase, Heather]]
+[[McGregor, Sean]], [[Lu, Victor]], [[Tashev, Vassil]], [[Foundjem, Armstrong]], [[Ramasethu, Aishwarya]], [[Zarkouei, Sadegh AlMahdi Kazemi]], [[Knotz, Chris]], [[Chen, Kongtao]], [[Alicia Parrish|Parrish, Alicia]], [[Anka Reuel|Reuel, Anka]], [[Frase, Heather]]
 
 ## Metadata
 

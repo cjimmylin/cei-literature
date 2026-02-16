@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]]]
+
 
 - [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
 

@@ -49,7 +49,10 @@ Hendrycks has authored influential work on AI alignment and safety, including se
 ## Papers in this Vault
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
+- [[2025-Hendrycks-MUST An Explainable AI-Based Framework for Multilingual Hate Speech|MUST: An Explainable AI-Based Framework for Multilingual Hate Speech Detection | IEEE Journals & Magazine | IEEE Xplore]] (First Author)
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]]
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]] (Last Author)
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]] (Last Author)
@@ -75,5 +78,9 @@ Hendrycks has authored influential work on AI alignment and safety, including se
 ## Notes
 
 
+
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 Dan Hendrycks is a leading figure in the AI safety community, bridging academic research with practical policy and organizational leadership in addressing catastrophic AI risks.

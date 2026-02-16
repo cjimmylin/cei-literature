@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Shao-Character-LLM A Trainable Agent for Role-Playing|Character-LLM: A Trainable Agent for Role-Playing]]
 
 ## Notes
 
 
+
+
+- *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
+- *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
 - *From 2023-Shao-Character-LLM A Trainable Agent for Role-Playing*: Affiliation: School of Computer Science, Fudan University
 [Additional context or contact information]

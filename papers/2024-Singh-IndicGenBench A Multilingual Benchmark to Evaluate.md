@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0495
 type: preprint
 short_title: "IndicGenBench A Multilingual Benchmark to Evaluate"
 year: 2025
-first_author: "[[Singh]]"
-last_author: "[[Gupta]]"
-authors: "[[Singh]]; [[Gupta]]"
-authors_incomplete: true
+first_author: "[[Singh, Harman]]"
+last_author: "[[Talukdar, Partha]]"
+authors: "[[Singh, Harman]]; [[Gupta, Nitish]]; [[Bharadwaj, Shikhar]]; [[Tewari, Dinesh]]; [[Talukdar, Partha]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2404.16816"
 external_pdf: "https://arxiv.org/pdf/2404.16816.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Singh]], [[Gupta]], [[and others (Google)]]
+[[Singh, Harman]], [[Gupta, Nitish]], [[Bharadwaj, Shikhar]], [[Tewari, Dinesh]], [[Talukdar, Partha]]
 
 ## Metadata
 
-**Authors:** Singh; Gupta; and others (Google)
+**Authors:** Singh, Harman; Gupta, Nitish; Bharadwaj, Shikhar; Tewari, Dinesh; Talukdar, Partha
 
 **Year:** 2024
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Sri Lankan"
 languages_list: Sinhala
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Tharindu Ranasinghe]], [[Isuri Anuradha]], [[Damith Premasiri]], [[Kanishka Silva]], [[Hansi Hettiarachchi]], [[Lasitha Uyangodage]], [[Marcos Zampieri]]
+[[Ranasinghe, Tharindu]], [[Anuradha, Isuri]], [[Premasiri, Damith]], [[Silva, Kanishka]], [[Hettiarachchi, Hansi]], [[Uyangodage, Lasitha]], [[Marcos Zampieri|Zampieri, Marcos]]
 
 ## Metadata
 

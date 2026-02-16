@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements|SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements]]
 - [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]]
 
 ## Notes
 
 
+
+
+- *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
+- *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 - *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 [Additional context or contact information]

@@ -36,6 +36,8 @@ Together with co-authors Fabian Suchanek and Gerhard Weikum, Kasneci contributed
 ## Papers in this Vault
 
 
+
+
 - [[2025-Yuan-Probabilistic Aggregation and Targeted Embedding|Probabilistic Aggregation and Targeted Embedding]] (Last Author)
 
 ## Links
@@ -47,5 +49,9 @@ Together with co-authors Fabian Suchanek and Gerhard Weikum, Kasneci contributed
 ## Notes
 
 
+
+
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 Kasneci's work on responsible data science and AI fairness contributes significantly to understanding how to develop trustworthy AI systems that align with societal values.

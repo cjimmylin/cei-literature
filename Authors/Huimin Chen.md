@@ -1,9 +1,9 @@
 ---
 name: "Huimin Chen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable Preference Optimization - PDF Extract'"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yijuguo@ruc.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]]]
+
 
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

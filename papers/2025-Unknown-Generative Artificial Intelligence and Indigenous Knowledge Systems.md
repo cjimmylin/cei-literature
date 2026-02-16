@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice"
 year: 2025
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (Global South systematic review authors)]]"
 authors: Unknown (Global South systematic review authors)
 url: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/view/1602"
 external_pdf: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/download/1602/1221"

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2505.11615.pdf"
 publication: arXiv.org
 research_topic: "NLP & Representation Learning"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ paper_summary: "Abstract: Changing the behavior of large language models (LLMs) 
 local_pdf: "[[PDFs/2025/2025-Zhu-Steering Risk Preferences in Large Language.pdf]]"
 key_contribution: "Proposes a principled approach for steering risk preferences in LLMs by aligning behavioral representations (elicited via MCMC) with neural representations (activations)."
 significance: "Bridges the gap between behavioral psychometrics and mechanistic interpretability, providing a lightweight, training-free way to control model risk-taking behavior for safer alignment."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

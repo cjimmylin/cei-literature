@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning"
 year: 2025
 first_author: "[[Bin Wang]]"
-last_author: "[[Chen, Nancy F.]]"
+last_author: "[[Chen, Nancy F]]"
 authors: "[[Bin Wang]]; [[Liu, Zhengyuan]]; [[Huang, Xin]]; [[Jiao, Fangkai]]; [[Ding, Yang]]; [[Aw, AiTi]]; [[Chen, Nancy F.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2309.04766"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Bin Wang]], [[Zhengyuan Liu]], [[Xin Huang]], [[Fangkai Jiao]], [[Yang Ding]], [[AiTi Aw]], [[Nancy F. Chen]]
+[[Bin Wang]], [[Liu, Zhengyuan]], [[Huang, Xin]], [[Jiao, Fangkai]], [[Ding, Yang]], [[Aw, AiTi]], [[Chen, Nancy F]]
 
 ## Metadata
 

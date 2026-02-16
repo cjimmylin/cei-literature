@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment"
 year: 2025
 first_author: "[[D. Agarwal]]"
-last_author: [[A]]
+last_author: "[[A]]"
 authors: "Agarwal, D., Shukla, A., Sitaram, S., & Vashistha, A"
 url: "https://arxiv.org/abs/2505.21548"
 external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, American"
+cultures_nationalities_list: "Indian, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

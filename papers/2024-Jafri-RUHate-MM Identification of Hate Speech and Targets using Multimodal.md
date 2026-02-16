@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0319
 type: conferencePaper
 short_title: "RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis"
 year: 2025
-first_author: "[[Jafri, Farhan]]"
-last_author: "[[Jafri, Farhan]]"
-authors: "[[Jafri, Farhan]]"
-authors_incomplete: true
+first_author: "[[Thapa, Surendrabikram]]"
+last_author: "[[Naseem, Usman]]"
+authors: "[[Thapa, Surendrabikram]]; [[Jafri, Farhan Ahmad]]; [[Rauniyar, Kritesh]]; [[Nasim, Mehwish]]; [[Naseem, Usman]]"
+authors_incomplete: false
 doi: 10.1145/3589335.3651973
 url: "https://dl.acm.org/doi/10.1145/3589335.3651973"
 external_pdf: "https://vtechworks.lib.vt.edu/bitstreams/c4bc5298-22c5-4ec6-9839-6954f5cbf350/download"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian, Ukrainian"
 languages_list: "English, Russian, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Farhan Jafri, et al.]]
+[[Thapa, Surendrabikram]], [[Jafri, Farhan Ahmad]], [[Rauniyar, Kritesh]], [[Nasim, Mehwish]], [[Naseem, Usman]]
 
 ## Metadata
 
-**Authors:** Farhan Jafri, et al.
+**Authors:** Thapa, Surendrabikram; Jafri, Farhan Ahmad; Rauniyar, Kritesh; Nasim, Mehwish; Naseem, Usman
 
 **Year:** 2024
 

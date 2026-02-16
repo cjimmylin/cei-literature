@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "Monitoring the Evolution of Antisemitic Discourse"
 year: 2025
 first_author: "[[University), Multiple authors (American]]"
-last_author: "[[University), Multiple authors (American]]"
+last_author: "[[Multiple authors (American University)]]"
 authors: "[[Multiple authors (American University)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.05548"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

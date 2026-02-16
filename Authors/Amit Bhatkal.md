@@ -20,10 +20,16 @@ Amit Bhatkal is a researcher at Mohamed bin Zayed University of Artificial Intel
 ## Papers in this Vault
 
 
+
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Contributed to the ALM-bench project, a benchmark for evaluating Large Multimodal Models across 100 languages with focus on cultural diversity and linguistic inclusivity.

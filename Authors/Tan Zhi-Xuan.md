@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
 - [[2024-Zhi-Xuan-Beyond Preferences in AI Alignment|Beyond Preferences in AI Alignment]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Zhi-Xuan-Beyond Preferences in AI Alignment*: Affiliation: University College London
+- *From 2024-Zhi-Xuan-Beyond Preferences in AI Alignment*: Affiliation: University College London
 - *From 2024-Zhi-Xuan-Beyond Preferences in AI Alignment*: Affiliation: University College London
 [Additional context or contact information]

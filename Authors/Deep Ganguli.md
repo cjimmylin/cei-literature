@@ -48,6 +48,9 @@ Ganguli has co-authored foundational work in AI safety, including influential pa
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]] (Last Author)
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]] (Last Author)
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]] (Last Author)
@@ -66,5 +69,9 @@ Ganguli has co-authored foundational work in AI safety, including influential pa
 ## Notes
 
 
+
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 Deep Ganguli's work represents a comprehensive approach to AI alignment that extends beyond technical safety to encompass societal impacts and democratic governance of AI systems.

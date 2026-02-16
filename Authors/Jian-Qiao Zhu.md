@@ -20,11 +20,18 @@ Assistant Professor at University of Hong Kong's Department of Psychology, affil
 ## Papers in this Vault
 
 
+
+
+- [[2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU|Measuring Hong Kong Massive Multi-Task Language Understanding (HKMMLU)]]
 - [[2025-Zhu-Steering Risk Preferences in Large Language|Steering Risk Preferences in Large Language]] (First Author)
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## Notes
 
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Additional context or contact information]

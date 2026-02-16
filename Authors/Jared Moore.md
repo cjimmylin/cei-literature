@@ -20,6 +20,8 @@ PhD student in Computer Science at Stanford University focusing on social reason
 ## Papers in this Vault
 
 
+
+
 - [[2024-Moore-Are Large Language Models Consistent over|Are Large Language Models Consistent over]] (First Author)
 - [[2024-Moore-Intuitions of Compromise|Intuitions of Compromise]] (First Author)
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
@@ -27,5 +29,9 @@ PhD student in Computer Science at Stanford University focusing on social reason
 ## Notes
 
 
+
+
+- *From 2024-Moore-Are Large Language Models Consistent over*:, Email: jlcmoore@stanford.edu
+- *From 2024-Moore-Are Large Language Models Consistent over*:, Email: diyiy@stanford.edu
 - *From 2024-Moore-Are Large Language Models Consistent over*:, Email: jlcmoore@stanford.edu
 [Additional context or contact information]

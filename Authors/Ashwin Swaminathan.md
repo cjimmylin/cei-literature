@@ -1,9 +1,9 @@
 ---
 name: "Ashwin Swaminathan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Oxford1 AWS AI Labs2"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "prannay@robots.ox.ac.uk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-THRONE|THRONE]]]]
+
 
 - [[2024-Li-THRONE|THRONE]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

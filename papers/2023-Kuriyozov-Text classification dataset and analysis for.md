@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "Text classification dataset and analysis for"
 year: 2025
 first_author: "[[Kuriyozov, Elmurod]]"
-last_author: "[[Kuriyozov, Elmurod]]"
-authors: "[[Kuriyozov, Elmurod]]"
-authors_incomplete: true
+last_author: "[[Matlatipov, Gayrat]]"
+authors: "[[Kuriyozov, Elmurod]]; [[Salaev, Ulugbek]]; [[Matlatipov, Sanatbek]]; [[Matlatipov, Gayrat]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2302.14494"
 external_pdf: "https://arxiv.org/pdf/2302.14494.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kuriyozov-Text classification dataset and analysis for.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Elmurod Kuriyozov et al]]
+[[Kuriyozov, Elmurod]], [[Salaev, Ulugbek]], [[Matlatipov, Sanatbek]], [[Matlatipov, Gayrat]]
 
 ## Metadata
 
-**Authors:** Elmurod Kuriyozov et al.
+**Authors:** Kuriyozov, Elmurod; Salaev, Ulugbek; Matlatipov, Sanatbek; Matlatipov, Gayrat
 
 **Year:** 2023
 

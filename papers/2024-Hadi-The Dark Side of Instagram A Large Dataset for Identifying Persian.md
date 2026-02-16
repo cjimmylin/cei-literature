@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Persian, Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"

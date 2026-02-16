@@ -18,11 +18,19 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
+- [[2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts|Safety Evaluation of DeepSeek Models in Chinese Contexts]]
 - [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## Notes
 
 
+
+
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 [Additional context or contact information]

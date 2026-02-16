@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/TZNF2SVG/Leech et al. - Ten
 pdf_extract: "PDF Extracts/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.md"
 local_pdf: "[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Outlines 10 'hard problems' for AI2050 (e.g., alignment, assu
 significance: "Provides a high-level strategic roadmap for the field, connecting technical alignment challenges (like goal specification) with broader sociotechnical and political issues."
 tags: 
 abstract: "We explore the AI2050 \"
+DATE_ADDED: 20260129
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

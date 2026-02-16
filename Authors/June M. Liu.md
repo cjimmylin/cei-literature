@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language|EmoBench: Evaluating the Emotional Intelligence of Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn
+- *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

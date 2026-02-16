@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ pdf_extract: "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.
 local_pdf: "[[PDFs/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.pdf]]"
 publication: arXiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Proposes formal methods using deontic + temporal logic for sp
 significance: "Demonstrates practical application on COMPAS and loan prediction systems, revealing ethical failures"
 tags: 
 abstract: "Ensuring ethical behavior in Artificial Intelligence (AI) systems amidst their increasing ubiquity and influence is a major concern the world over. The use of formal methods in AI ethics is a possible crucial approach for specifying and verifying the ethical behavior of AI systems. This paper proposes a formalization based on deontic logic to define and evaluate the ethical behavior of AI systems, focusing on system-level specifications, contributing to this important goal."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

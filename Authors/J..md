@@ -1,7 +1,7 @@
 ---
 name: "J."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labels, leveraging its extensive knowledge and"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,12 +55,12 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Elkins-Negation Sensitivity Index NSI|Negation Sensitivity Index (NSI)]] (Last Author)
-- [[2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical|Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions]] (Last Author)
-- [[2024-Yao-CLAVE ValEval|CLAVE / ValEval]]]]
+
 
 - [[2026-Elkins-Negation Sensitivity Index NSI|Negation Sensitivity Index (NSI)]] (Last Author)
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical|Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions]] (Last Author)
+- [[2025-Nsarkoh-A Foundational Architecture for Engineering an|A Foundational Architecture for Engineering an]] (Last Author)
 - [[2024-Yao-CLAVE ValEval|CLAVE / ValEval]]
 
 ## External Links & Profiles
@@ -87,6 +87,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Yao-CLAVE ValEval*: Affiliation: labels, leveraging its extensive knowledge and
+- *From 2024-Yao-CLAVE ValEval*: Affiliation: labels, leveraging its extensive knowledge and
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

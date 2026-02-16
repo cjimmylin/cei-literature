@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Arabic"
+cultures_nationalities_list: "Chinese, Japanese, Arabic"
 languages_list: "Arabic, Chinese, English, Japanese, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Nishat Raihan]], [[Antonios Anastasopoulos]], [[Marcos Zampieri]]
+[[Raihan, Nishat]], [[Anastasopoulos, Antonios]], [[Marcos Zampieri|Zampieri, Marcos]]
 
 ## Metadata
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ url: "https://germevalmp2023.github.io/data/"
 pdf_extract: "PDF Extracts/2019/2019-Kreutz-GermEval 2019 Task 2.md"
 local_pdf: "[[PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +25,7 @@ key_contribution: "A shared task dataset for identifying offensive language in *
 significance: "Benchmark resource for German hate speech detection."
 tags: 
 abstract: "This paper presents an overview of the second edition of the GermEval Shared Task on the Identification of Offensive Language, dealing with the classification of German tweets from Twitter. Two subtasks were continued from the first edition, namely a coarse-grained binary classification task and a fine-grained multi-class classification task. As a novel subtask, the classification of offensive tweets as explicit or implicit was introduced. The shared task had 13 participating groups submitting runs across the three subtasks."
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

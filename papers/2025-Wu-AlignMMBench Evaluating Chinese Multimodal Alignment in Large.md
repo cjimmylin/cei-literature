@@ -10,7 +10,7 @@ type: preprint
 short_title: "AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models"
 year: 2025
 first_author: "[[Yuhang Wu]]"
-last_author: "[[Yuxiao Dong]]"
+last_author: "[[Yuxiao Dong Ming Ding]]"
 authors: Yuhang Wu, Wenmeng Yu, Yean Cheng, Yan Wang, Xiaohan Zhang, Jiazheng Xu, Ming Ding, Yuxiao Dong
 url: "https://arxiv.org/abs/2406.09295"
 external_pdf: "https://arxiv.org/pdf/2406.09295.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Yuhang Wu, Wenmeng Yu, Yean Cheng, Yan Wang, Xiaohan Zhang, Jiazheng Xu, Ming Ding, Yuxiao Dong]]
+[[Wenshan Wu|Wenmeng Yu Yuhang Wu]], [[Yan Wang Yean Cheng]], [[Jiazheng Xu Xiaohan Zhang]], [[Yang Ding|Yuxiao Dong Ming Ding]]
 
 ## Metadata
 

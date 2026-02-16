@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing"
 year: 2025
 first_author: [[Jafarinejad]]
-last_author: [[Karimi]]
+last_author: "[[Karimi Khodabakhsh]]"
 authors: "Jafarinejad, Rahimi, Khodabakhsh, Karimi"
 url: "https://cke.um.ac.ir/article_46412.html"
 external_pdf: "https://cke.um.ac.ir/article_46412_dc00307da37c32ca327cb54c47db3a32.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Jafarinejad, Rahimi, Khodabakhsh, Karimi]]
+[[Rahimi Jafarinejad]], [[Karimi Khodabakhsh]]
 
 ## Metadata
 

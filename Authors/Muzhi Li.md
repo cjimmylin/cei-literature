@@ -18,7 +18,9 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2022-Hu-“I’m sorry to hear that”|“I’m sorry to hear that”]]
+
+
+- [[2022-Hu-“I’m sorry to hear that”|'I'm sorry to hear that']]
 
 ## Notes
 

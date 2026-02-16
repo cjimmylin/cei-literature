@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Hua-TrustAgent|TrustAgent]] (Last Author)
 - [[2024-Ji-MoralBench|MoralBench]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
+- *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 [Additional context or contact information]

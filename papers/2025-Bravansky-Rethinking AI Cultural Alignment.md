@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Michal Bravansky, Filip Trhlik, Fazl Barez]]
+[[Michal Bravansky]], [[Filip Trhlik]], [[Fazl Barez]]
 
 ## Metadata
 

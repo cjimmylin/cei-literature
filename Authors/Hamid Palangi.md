@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Hartvigsen-ToxiGen|ToxiGen]]
 
 ## Notes
 
 
+
+
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: maartensap@cmu.edu
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: tomh@mit.edu
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: skgabrie@cs.washington.edu
 [Additional context or contact information]

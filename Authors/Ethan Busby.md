@@ -36,6 +36,8 @@ Published in top political science journals including Journal of Politics and Po
 ## Papers in this Vault
 
 
+
+
 - [[2023-Rytting-Towards Coding Social Science Datasets with|Towards Coding Social Science Datasets with]]
 
 ## External Links & Profiles
@@ -46,5 +48,9 @@ Published in top political science journals including Journal of Politics and Po
 ## Notes
 
 
+
+
+- *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
+- *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
 - *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
 Political scientist exploring how AI can assist traditional social science research methods.

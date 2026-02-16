@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Huang, Yufei]]; [[Xiong, Deyi]]"
 url: "https://aclanthology.org/2024.lrec-main.260/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/843YR4ZV/2024 - CBBQ A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration.pdf"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ key_contribution: "Created 'CBBQ' (Chinese Bias Benchmark for QA), a dataset of 
 significance: "A massive resource for Chinese societal bias, showing that all Chinese LLMs exhibit strong biases, and uniquely exploring 'moral self-correction' in Chinese."
 tags: 
 abstract: "Holistically measuring societal biases of large language models is crucial for detecting and reducing ethical risks in highly capable AI models. In this work, we present a Chinese Bias Benchmark dataset that consists of over 100K questions jointly constructed by human experts and generative language models, covering stereotypes and societal biases in 14 social dimensions related to Chinese culture and values."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

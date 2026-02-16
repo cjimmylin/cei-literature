@@ -35,6 +35,8 @@ Eric Xing is a Professor of Machine Learning at Carnegie Mellon University and s
 ## Papers in this Vault
 
 
+
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## External Links
@@ -46,5 +48,9 @@ Eric Xing is a Professor of Machine Learning at Carnegie Mellon University and s
 ## Notes
 
 
+
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 Eric Xing's TrustLLM benchmark provides comprehensive evaluation of LLM trustworthiness, addressing critical dimensions including ethics, safety, and fairness.

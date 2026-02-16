@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Shaily Bhatt, and others (Google Research)]]
+[[Shaily Bhatt]], [[Research, others (Google]]
 
 ## Metadata
 

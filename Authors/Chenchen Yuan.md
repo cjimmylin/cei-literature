@@ -31,6 +31,8 @@ Chenchen Yuan is a researcher at the University of Tübingen, Germany, working i
 ## Papers in this Vault
 
 
+
+
 - [[2025-Yuan-Probabilistic Aggregation and Targeted Embedding|Probabilistic Aggregation and Targeted Embedding]] (First Author)
 
 ## External Links & Profiles
@@ -40,5 +42,9 @@ Chenchen Yuan is a researcher at the University of Tübingen, Germany, working i
 ## Notes
 
 
+
+
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 Chenchen Yuan's work provides a mathematical foundation for synthesizing ethical judgments in multi-agent or multi-model systems.

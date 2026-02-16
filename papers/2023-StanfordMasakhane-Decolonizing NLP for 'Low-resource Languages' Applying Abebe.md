@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics"
 year: 2025
 first_author: "[[Authors from Stanford/Masakhane]]"
-last_author: "[[Authors from Stanford/Masakhane]]"
+last_author: "[[Authors from StanfordMasakhane]]"
 authors: "Authors from Stanford/Masakhane"
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584"
 external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "African"
 languages_list: 
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Authors from Stanford/Masakhane]]
+[[Authors from StanfordMasakhane]]
 
 ## Metadata
 

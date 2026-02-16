@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German, Spanish, Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Unknown]]
+[[Francielle Vargas]], [[Isabelle Carvalho]], [[Thiago Alexandre Salgueiro Pardo]], [[Fabrí­cio Benevenuto]]
 
 ## Metadata
 

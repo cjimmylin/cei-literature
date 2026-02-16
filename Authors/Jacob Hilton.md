@@ -49,10 +49,16 @@ Jacob Hilton is Executive Director and researcher at the Alignment Research Cent
 ## Papers in this Vault
 
 
+
+
 - [[2022-Lin-TruthfulQA|TruthfulQA]]
 
 ## Notes
 
 
+
+
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
+- *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: sylin07@gmail.com
 - *From 2022-Lin-TruthfulQA*: Affiliation: University of Oxford, Email: owaine@gmail.com
 Left OpenAI in 2023. When departing, signed a non-disparagement agreement to retain vested equity (later released by OpenAI following investigative reporting). Active contributor to LessWrong and the AI Alignment Forum.

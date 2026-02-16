@@ -1,9 +1,9 @@
 ---
 name: "Markus Kneer"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Graz"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "markus.kneer@uni-graz.at"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Kneer-Hard Problem AI Alignment Value Forks|Hard Problem AI Alignment Value Forks]] (First Author)]]
+
 
 - [[2025-Kneer-Hard Problem AI Alignment Value Forks|Hard Problem AI Alignment Value Forks]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Kneer-Hard Problem AI Alignment Value Forks*: Affiliation: University of Graz, Email: j.b.viehoff@uu.nl
+- *From 2025-Kneer-Hard Problem AI Alignment Value Forks*: Affiliation: University of Graz, Email: markus.kneer@uni-graz.at
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

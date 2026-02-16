@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "Artificial intelligence ethics in authoritarian Vietnam: governance, trust, and societal tensions"
 year: 2025
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (Taylor & Francis article)]]"
 authors: "Unknown (Taylor & Francis article)"
 doi: 10.1080/25741292.2025.2529625
 url: "https://www.tandfonline.com/doi/full/10.1080/25741292.2025.2529625"

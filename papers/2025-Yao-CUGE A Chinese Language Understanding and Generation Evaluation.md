@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Cantonese, Chinese, Hakka, Min"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Yuan Yao]], [[Qingxiu Dong]], [[Jian Guan]], [[Boxi Cao]], [[Zhengyan Zhang]], [[Chaojun Xiao]], [[Xiaozhi Wang]], [[Fanchao Qi]], [[Junwei Bao]], [[Jinran Nie]], [[Zheni Zeng]], [[Yuxian Gu]], [[Kun Zhou]], [[Xuancheng Huang]], [[Wenhao Li]], [[Shuhuai Ren]], [[Jinliang Lu]], [[Chengqiang Xu]], [[Huadong Wang]], [[Guoyang Zeng]], [[Zile Zhou]], [[Jiajun Zhang]], [[Juanzi Li]], [[Minlie Huang]], [[Rui Yan]], [[Xiaodong He]], [[Xiaojun Wan]], [[Xin Zhao]], [[Xu Sun]], [[Yang Liu]], [[Zhiyuan Liu]], [[Xianpei Han]], [[Erhong Yang]], [[Zhifang Sui]], [[Maosong Sun]]
+[[Yao, Yuan]], [[Dong, Qingxiu]], [[Guan, Jian]], [[Cao, Boxi]], [[Zhang, Zhengyan]], [[Xiao, Chaojun]], [[Xiaozhi Wang|Wang, Xiaozhi]], [[Qi, Fanchao]], [[Bao, Junwei]], [[Nie, Jinran]], [[Zeng, Zheni]], [[Gu, Yuxian]], [[Kun Zhou|Zhou, Kun]], [[Huang, Xuancheng]], [[Li, Wenhao]], [[Ren, Shuhuai]], [[Lu, Jinliang]], [[Xu, Chengqiang]], [[Wang, Huadong]], [[Zeng, Guoyang]], [[Zhou, Zile]], [[Zhang, Jiajun]], [[Juanzi Li|Li, Juanzi]], [[Minlie Huang|Huang, Minlie]], [[Yan, Rui]], [[He, Xiaodong]], [[Xiaojun Wan|Wan, Xiaojun]], [[Zhao, Xin]], [[Sun, Xu]], [[Yang Liu|Liu, Yang]], [[Liu, Zhiyuan]], [[Han, Xianpei]], [[Yang, Erhong]], [[Sui, Zhifang]], [[Maosong Sun|Sun, Maosong]]
 
 ## Metadata
 

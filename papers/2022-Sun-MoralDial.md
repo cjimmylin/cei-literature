@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2212.10720"
 external_pdf: "http://arxiv.org/pdf/2212.10720.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2022/2022-Sun-MoralDial.md"
 abstract: "Morality in dialogue systems has raised great attention in research recently. A moral dialogue system aligned with users’ values could enhance conversation engagement and user connections. In this paper, we propose a framework, MORALDIAL to train and evaluate moral dialogue systems. In our framework, we first explore the communication mechanisms of morality and resolve expressed morality into three parts, which indicate the roadmap for building a moral dialogue system."
 paper_summary: "Abstract: Morality in dialogue systems has raised great attention in research recently. A moral dia- logue system aligned with users' values could enhance conversation engagement and user con- nections. In this | Overview: MoralDial: A Framework to Train and Evaluate Moral Dialogue Systems via Moral Discussions Hao Sun1, Zhexin Zhang1, Fei Mi2, Yasheng Wang2, Wei Liu3, Jianwei Cui3, Bin Wang3, Qun Liu2, Minlie Huang1∗ 1 | Methodology: constructing moral discussions between sim- ulated specific users and the dialogue system. The constructed discussions consist of express- ing, explai | Key Findings: Automatic open-domain dialogue evaluation is pretty difficult due to the essence of one-to-many mapping. Traditional reference-based methods do not we | Conclusions: State (conversation-level), and (3) Discusser Be- arXiv:2212.10720v2 [cs.CL] 26 May 2023 --- Page 2 --- Expression of basic RoTs Moral Explanation Mor"
 local_pdf: [[PDFs/2022/2022-Sun-MoralDial.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

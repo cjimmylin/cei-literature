@@ -17,8 +17,9 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]]
-- [[2024-Zhang-MIRAGE-Bench|MIRAGE-Bench]]
+
+
+- [[2025-Zhang-Cognitive Bias in Generative AI Influences|Cognitive Bias in Generative AI Influences]] (First Author)
 
 ## Notes
 

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Akata-Playing Repeated Games with Large Language Models|Playing Repeated Games with Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
+- *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
 - *From 2025-Akata-Playing Repeated Games with Large Language Models*: Affiliation: Institute for Human-Centered AI, Helmholtz Munich, Oberschleißheim, Germany, Email: elif.akata@uni-tuebingen.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

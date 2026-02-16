@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli, Hebrew"
 languages_list: "English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Andy Rosenbaum]], [[Assaf Siani]], [[Ilan Kernerman]]
+[[Rosenbaum, Andy]], [[Siani, Assaf]], [[Kernerman, Ilan]]
 
 ## Metadata
 

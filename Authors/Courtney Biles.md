@@ -39,6 +39,8 @@ Courtney Biles worked at Alphabet for 18 years—12 at Google and 6 at Google De
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
 
@@ -51,5 +53,9 @@ Courtney Biles worked at Alphabet for 18 years—12 at Google and 6 at Google De
 ## Notes
 
 
+
+
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 Courtney Biles' long tenure at Alphabet (18 years) provided deep institutional knowledge of AI development practices. Their contributions to DeepMind's AI ethics research, particularly the foundational risk taxonomy papers, have been widely influential in shaping how the AI safety community thinks about language model risks. The interdisciplinary workshop methodology they participated in—bringing together researchers from multiple fields—represents best practices for comprehensive AI risk assessment.

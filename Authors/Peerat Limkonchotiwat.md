@@ -30,10 +30,20 @@ His work on Thai dialect benchmarking evaluates LLM performance on Northern (Lan
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]]
 - [[2025-Kaewkasi-A Benchmark for Large Language Models on Northern|A Benchmark for Large Language Models on Northern]] (First Author)
+- [[2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA|SEA-SafeguardBench Evaluating AI Safety in SEA]] (Last Author)
+- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
+- [[2024-Porkaew-Representing the Under-Represented Cultural and Core|Representing the Under-Represented Cultural and Core]]
 
 ## Notes
 
 
+
+
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
+- *From 2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA*: Affiliation: Laban et al, Email: peerat@aisingapore.org
 - *From 2025-Kaewkasi-A Benchmark for Large Language Models on Northern*: Affiliation: Institute of Science and Technology, Email: peerat@aisingapore.org
 Pioneering work in advancing NLP capabilities for underrepresented Southeast Asian languages, particularly Thai and its regional dialects, addressing the gap in language model performance for low-resource languages.

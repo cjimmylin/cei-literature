@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations
 year: 2025
 first_author: "[[Yong Cao]]"
-last_author: "[[Daniel Hershcovich]]"
+last_author: "[[Daniel Hershcovich Paul Rottger]]"
 authors: Yong Cao, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Rottger, Daniel Hershcovich
 url: "https://aclanthology.org/2025.naacl-long.162/"
 external_pdf: "https://arxiv.org/pdf/2502.07068v2.pdf"
@@ -44,7 +44,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Yong Cao, Haijiang Liu, Arnav Arora, Isabelle Augenstein, Paul Rottger, Daniel Hershcovich]]
+[[Haijiang Liu Yong Cao]], [[Isabelle Augenstein Arnav Arora]], [[Daniel Hershcovich Paul Rottger]]
 
 ## Metadata
 

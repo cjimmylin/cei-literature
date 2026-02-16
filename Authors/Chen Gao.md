@@ -37,6 +37,8 @@ Chen Gao is a Research-track Assistant Professor at BNRist, Tsinghua University.
 ## Papers in this Vault
 
 
+
+
 - [[2023-Gao-Large Language Models Empowered Agent-based|Large Language Models Empowered Agent-based]] (First Author)
 
 ## External Links & Profiles
@@ -46,5 +48,9 @@ Chen Gao is a Research-track Assistant Professor at BNRist, Tsinghua University.
 ## Notes
 
 
+
+
+- *From 2023-Gao-Large Language Models Empowered Agent-based*: Affiliation: University, Beijing, China
+- *From 2023-Gao-Large Language Models Empowered Agent-based*: Affiliation: University, Beijing, China
 - *From 2023-Gao-Large Language Models Empowered Agent-based*: Affiliation: University, Beijing, China
 Chen Gao bridges the gap between traditional simulation/recommender systems and modern generative agent architectures.

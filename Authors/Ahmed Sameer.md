@@ -1,7 +1,7 @@
 ---
 name: "Ahmed Sameer"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology Dhanbad"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Sameer-Insights into Moral Reasoning of AI|Insights into Moral Reasoning of AI]] (First Author)]]
+
 
 - [[2025-Sameer-Insights into Moral Reasoning of AI|Insights into Moral Reasoning of AI]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
+- *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

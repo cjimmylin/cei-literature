@@ -1,7 +1,7 @@
 ---
 name: "M-A-P Team"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labeling significantly constrains the scalability of human"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,12 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Wu-COIG-P|COIG-P]] (First Author)]]
 
+
+- [[2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi|Multimodal Evaluation of Russian-language Architectures (MERA Multi)]] (First Author)
 - [[2025-Wu-COIG-P|COIG-P]] (First Author)
+- [[2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video|ViMUL A Culturally-diverse Multilingual Multimodal Video]] (First Author)
+- [[2024-team-MahaMarathi-7B Marathi Large Language Model|MahaMarathi-7B Marathi Large Language Model]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +86,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

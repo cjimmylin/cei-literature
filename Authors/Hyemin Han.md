@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Han-Moral Exemplars in AI Education|Moral Exemplars in AI Education]] (First Author)]]
+
 
 - [[2024-Han-Moral Exemplars in AI Education|Moral Exemplars in AI Education]] (First Author)
 

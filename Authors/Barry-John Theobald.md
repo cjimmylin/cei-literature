@@ -46,6 +46,8 @@ Dr. Theobald has a strong background in audiovisual speech recognition and lip-r
 
 ## Papers in this Vault
 
+
+
 - [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
 
 ## External Links & Profiles
@@ -60,5 +62,9 @@ Dr. Theobald has a strong background in audiovisual speech recognition and lip-r
 
 ## Notes
 
+
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 His work on preference-based alignment and synthetic labeling is central to the debate on scalable oversight in AI safety.

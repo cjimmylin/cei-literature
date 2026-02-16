@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1145/3593013.3594049
 url: "https://dl.acm.org/doi/10.1145/3593013.3594049"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/GRACZJJQ/Andrus and others - 2023 - Augmented Datasheets for Speech Datasets and Ethical Decision-Making.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Proposed 'augmented datasheets' for speech datasets including
 significance: "Adapts the general 'datasheets for datasets' framework to the specific high-stakes domain of voice AI, addressing issues like accent bias and speaker consent."
 tags: 
 abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT); however, the lack of diversity of the underlying training data can lead to serious limitations in building equitable and robust SLT products, especially along dimensions of language, accent, dialect, variety, and speech impairment—and the intersectionality of speech features with socioeconomic and demographic features. Furthermore, there is often a lack of oversight on the underlying training data—commonly built on..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

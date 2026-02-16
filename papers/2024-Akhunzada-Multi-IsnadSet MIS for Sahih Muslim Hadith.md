@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,14 +15,14 @@ type: preprint
 short_title: "Multi-IsnadSet MIS for Sahih Muslim Hadith"
 year: 2024
 first_author: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]"
-last_author: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]"
+last_author: "[[Adnan Akhunzada Muhammad Shahzad Shaikh]]"
 authors: "[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]"
 authors_incomplete: false
 doi: 10.1016/j.dib.2024.110439
 url: "https://doi.org/10.1016/j.dib.2024.110439"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11096860&blobtype=pdf"
 pdf_extract: "PDF Extracts/2024/2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md"
-local_pdf: "N/A"
+local_pdf: "[[PDFs/2024/2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "not_pdf_header (HTTP 200)"
@@ -33,6 +35,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -52,7 +55,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Aziz Mehmood Farooqi, Rauf Ahmed Shams Malick, Muhammad Shahzad Shaikh, Adnan Akhunzada]]
+[[Rauf Ahmed Shams Malick Aziz Mehmood Farooqi]], [[Adnan Akhunzada Muhammad Shahzad Shaikh]]
 
 ## Metadata
 

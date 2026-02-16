@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Consortium-The Vals Legal AI Report (VLAIR)|The Vals Legal AI Report (VLAIR)]] (Last Author)
 
 ## Notes

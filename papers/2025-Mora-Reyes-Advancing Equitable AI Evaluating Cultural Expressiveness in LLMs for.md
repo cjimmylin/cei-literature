@@ -44,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Brigitte A. Mora-Reyes, Jennifer A. Drewyor, Abel A. Reyes-Angulo]]
+[[Brigitte A. Mora-Reyes]], [[Jennifer A. Drewyor]], [[Abel A. Reyes-Angulo]]
 
 ## Metadata
 

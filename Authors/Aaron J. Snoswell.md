@@ -46,6 +46,8 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 
 ## Papers in this Vault
 
+
+
 - [[2025-El Masri-Towards Attuned AI|Towards Attuned AI]] (Last Author)
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]]
 - [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]] (First Author)
@@ -65,5 +67,9 @@ His doctoral work introduced new algorithms for Inverse Reinforcement Learning t
 
 ## Notes
 
+
+
+- *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: a.snoswell@qut.edu.au
+- *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: a.snoswell@qut.edu.au
 - *From 2025-El Masri-Towards Attuned AI*: Affiliation: University of Technology, Email: rayane.elmasri@hdr.qut.edu.au
 [Aaron is a leading researcher in the Australian AI safety and ethics community.]

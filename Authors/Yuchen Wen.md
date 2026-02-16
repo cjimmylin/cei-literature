@@ -21,10 +21,16 @@ Yuchen Wen is a researcher at the Institute of Computing Technology, Chinese Aca
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 [Additional context or contact information]

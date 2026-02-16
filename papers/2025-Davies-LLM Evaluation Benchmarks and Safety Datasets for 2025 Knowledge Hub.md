@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese"
+cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"

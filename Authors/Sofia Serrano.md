@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2021-Clark-All That's 'Human' Is Not Gold|All That's 'Human' Is Not Gold]]
 
 ## Notes
 
 
+
+
+- *From 2021-Clark-All That's 'Human' Is Not Gold*: Affiliation: School of Computer Science & Engineering, University of Washington
+- *From 2021-Clark-All That's 'Human' Is Not Gold*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2021-Clark-All That's 'Human' Is Not Gold*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

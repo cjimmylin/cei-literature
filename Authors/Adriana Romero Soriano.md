@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models|Towards Geographic Inclusion in the Evaluation of Text-to-Image Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
+- *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
 - *From 2024-Hall-Towards Geographic Inclusion in the Evaluation of Text-to-Image Models*: Affiliation: University, Canada CIFAR AI Chair, Canada
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

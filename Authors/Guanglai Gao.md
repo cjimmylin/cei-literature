@@ -43,7 +43,10 @@ The Center hosts 31 research personnel, including 13 professors, 2 research fell
 ## Papers in this Vault
 
 
+
+
 - [[2025-Lan-McBE|McBE]] (Last Author)
+- [[2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large|McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models]] (Last Author)
 - [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 
 ## Links
@@ -54,5 +57,9 @@ The Center hosts 31 research personnel, including 13 professors, 2 research fell
 ## Notes
 
 
+
+
+- *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: fenglixu@tsinghua.edu.cn
+- *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: liyong07@tsinghua.edu.cn
 - *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: sukiennikn10@mails.tsinghua.edu.cn
 Professor Gao's work on Mongolian NLP addresses the challenges of processing a low-resource language with unique morphological characteristics, contributing to linguistic diversity in AI systems.

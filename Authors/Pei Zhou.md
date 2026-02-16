@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Kim-SODA|SODA]]
 
 ## Notes
 
 
+
+
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 [Additional context or contact information]

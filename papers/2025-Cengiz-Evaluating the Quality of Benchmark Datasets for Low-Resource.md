@@ -44,7 +44,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Ayse Aysu Cengiz, Ahmet Kaan Sever, Elif Ecem Umutlu, Naime Seyma Erdem, Burak Aytan, Busra Tufan, Abdullah Topraksoy, Esra Darici, Cagri Toraman]]
+[[Ayse Aysu Cengiz]], [[Ahmet Kaan Sever]], [[Elif Ecem Umutlu]], [[Naime Seyma Erdem]], [[Burak Aytan]], [[Busra Tufan]], [[Abdullah Topraksoy]], [[Esra Darici]], [[Cagri Toraman]]
 
 ## Metadata
 

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2411.15386"
 external_pdf: "http://arxiv.org/pdf/2411.15386.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Karpov-Inducing Human-like Biases in Moral 
 abstract: "In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explore if fine-tuning several LLMs on the fMRI data of humans performing moral reasoning can improve the BrainScore. We fine-tune several LLMs (BERT, RoBERTa, DeBERTa) on moral reasoning behavioral data from the ETHICS benchmark [Hendrycks et al."
 paper_summary: "Abstract: In this work, we study the alignment (BrainScore) of large language models (LLMs) fine-tuned for moral reasoning on behavioral data and/or brain data of humans performing the same task. We also explor | Overview: Inducing Human-like Biases in Moral Reasoning Language Models Artem Karpov ∗ Independent Seong Hah Cho ∗ Independent Austin Meek ∗ University of Delaware Raymond Koopmanschap Independent Lucy Farnik U | Methodology: 3.1 Benchmark and Dataset To quantitatively measure the moral reasoning performance of the fine-tuned LLMs, we used the common sense category of the E"
 local_pdf: "[[PDFs/2024/2024-Karpov-Inducing Human-like Biases in Moral Reasoning.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

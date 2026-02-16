@@ -29,6 +29,8 @@ Carolina Camassa is a researcher at the Bank of Italy's Applied IT Research Team
 
 ## Papers in this Vault
 
+
+
 - [[2024-Bignotti-Legal Minds, Algorithmic Decisions|Legal Minds, Algorithmic Decisions]] (Last Author)
 
 ## External Links & Profiles
@@ -37,5 +39,9 @@ Carolina Camassa is a researcher at the Bank of Italy's Applied IT Research Team
 
 ## Notes
 
+
+
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 Highly relevant to AI ethics through her empirical work demonstrating that LLMs encode systematic value biases when reasoning about constitutional principles. Her research shows how AI systems may favor certain interpretive frameworks over others in legal contexts, with implications for AI deployment in judicial and policy settings.

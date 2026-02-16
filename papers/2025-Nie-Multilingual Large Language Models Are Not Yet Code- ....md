@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, French, German, Italian, Spanish"
+cultures_nationalities_list: "Korean, French, German, Italian, Spanish"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Shangrui Nie]], [[Michael Fromm]], [[Charles Welch]], [[Rebekka Görge]], [[Akbar Karimi]], [[Joan Plepi]], [[Nazia Afsan Mowmita]], [[Nicolas Flores-Herr]], [[Mehdi Ali]], [[Lucie Flek]]
+[[Shangrui Nie|Nie, Shangrui]], [[Fromm, Michael]], [[Welch, Charles]], [[Görge, Rebekka]], [[Karimi, Akbar]], [[Plepi, Joan]], [[Mowmita, Nazia Afsan]], [[Flores-Herr, Nicolas]], [[Ali, Mehdi]], [[Flek, Lucie]]
 
 ## Metadata
 

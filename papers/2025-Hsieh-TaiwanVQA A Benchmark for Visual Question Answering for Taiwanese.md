@@ -43,7 +43,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Hsin-Yi Hsieh, Shang Wei Liu, Chang Chih Meng, Shuo-Yueh Lin, Chen Chien-Hua, Hung-Ju Lin, Hen-Hsen Huang, I-Chen Wu]]
+[[Hsin-Yi Hsieh]], [[Shang Wei Liu]], [[Chang Chih Meng]], [[Shuo-Yueh Lin]], [[Chen Chien-Hua]], [[Hung-Ju Lin]], [[Hen-Hsen Huang]], [[I-Chen Wu]]
 
 ## Metadata
 

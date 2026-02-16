@@ -34,10 +34,16 @@ Bollegala's research spans computational semantics, word representations, and fa
 ## Papers in this Vault
 
 
+
+
 - [[2024-Kaneko-Eagle|Eagle]]
 
 ## Notes
 
 
+
+
+- *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: Masahiro.Kaneko@mbzuai.ac.ae
+- *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: Timothy.Baldwin@mbzuai.ac.ae
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 Bollegala serves on the editorial boards of several NLP journals and is an active member of the ACL community. His work on bias detection in NLP has contributed to the growing field of fairness in AI systems.

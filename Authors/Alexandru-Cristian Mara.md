@@ -32,9 +32,15 @@ Alexandru's research investigates the ideological and political dimensions of ar
 ## Papers in this Vault
 
 
+
+
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
 
 ## Notes
 
+
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: tijl.debie@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 [Founder of Nobl.ai, focusing on trust and safety in AI representations.]

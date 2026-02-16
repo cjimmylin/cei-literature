@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean"
 year: 2025
 first_author: "[[Eunsu Kim]]"
-last_author: "[[Alice Oh]]"
+last_author: "[[Alice Oh James Thorne]]"
 authors: "Eunsu Kim, Juyoung Suk, Philhoon Oh, Haneul Yoo, James Thorne, Alice Oh"
 doi: 10.18653/v1/2024.lrec-main.296
 url: "https://arxiv.org/abs/2403.06412"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Eunsu Kim, Juyoung Suk, Philhoon Oh, Haneul Yoo, James Thorne, Alice Oh]]
+[[Juyoung Suk Eunsu Kim]], [[Haneul Yoo Philhoon Oh]], [[Alice Oh James Thorne]]
 
 ## Metadata
 

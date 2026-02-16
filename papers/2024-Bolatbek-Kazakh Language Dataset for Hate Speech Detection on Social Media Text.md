@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Kazakh Language Dataset for Hate Speech Detection on Social Media Text"
 year: 2025
 first_author: "[[Milana Bolatbek]]"
-last_author: "[[Zhastay Yeltay]]"
+last_author: "[[Zhastay Yeltay Shynar Mussiraliyeva]]"
 authors: "Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay"
 url: "https://ieeexplore.ieee.org/document/10719327/"
 external_pdf: "https://core.ac.uk/download/666045464.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Kazakh"
 languages_list: Kazakh
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]
+[[Moldir Sagynay Milana Bolatbek]], [[Zhastay Yeltay Shynar Mussiraliyeva]]
 
 ## Metadata
 

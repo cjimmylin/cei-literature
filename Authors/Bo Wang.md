@@ -47,6 +47,8 @@ Wang is a co-developer of "SafeDialBench," a comprehensive benchmark for evaluat
 ## Papers in this Vault
 
 
+
+
 - [[2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs|Edu-Values -- Evaluating Chinese Education Values of LLMs]]
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ Wang is a co-developer of "SafeDialBench," a comprehensive benchmark for evaluat
 
 ## Notes
 
+
+
+- *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: ronglu@tju.edu.cn
+- *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: bo_wang@tju.edu.cn
 - *From 2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs*: Affiliation: lable at https://github, Email: zhangpeiyi@tju.edu.cn
 His focus on "Dialogue Safety" provides a critical bridge between linguistic performance and ethical alignment in conversational AI.

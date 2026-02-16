@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli"
+cultures_nationalities_list: "Russian, Ukrainian, German, Spanish, Chinese, Arabic, Indian, Italian, French, Hebrew, Japanese, Ethiopian, Tatar"
 languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Daryna Dementieva, Daniil Moskovskiy, Alexander Panchenko et al.]]
+[[Dementieva, Daryna]], [[Daniil Moskovskiy|Moskovskiy, Daniil]]
 
 ## Metadata
 

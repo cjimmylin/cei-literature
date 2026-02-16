@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "DOSA Dravidian Code-Mixed Offensive Span Identification"
 year: 2025
 first_author: "[[Ravikiran, Manikandan]]"
-last_author: [[Annamalai]]
+last_author: "[[Annamalai]]"
 authors: "[[Ravikiran, Manikandan]]; [[Annamalai]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2021.dravidianlangtech-1.2/"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

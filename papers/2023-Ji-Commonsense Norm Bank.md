@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Xuhui Ji"
 url: "https://ceur-ws.org/Vol-3547/paper3.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3547/paper3.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2023/2023-Ji-Commonsense Norm Bank.md"
 abstract: "Moral AI has been studied in the fields of philosophy and artificial intelligence. Although most existing studies are only theoretical, recent developments in AI have made it increasingly necessary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choiceworthiness (MEC) algorithm, which aggregates outputs of models based on three normative theories of normative ethics..."
 paper_summary: "Abstract: Moral AI has been studied in the fields of philosophy and artificial intelligence. Although most existing studies are only theoretical, recent developments in AI have made it increasingly necessary to | Overview: Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory Masashi Takeshita1, Rafal Rzepka2 and Kenji Araki2 1Graduate School of Information Science and Technol | Methodology: where some tokens in the original sentence are masked, Generator (Masked Language Model [cf. 10]) fills the masked tokens with words using, and Detect | Key Findings: We assess the performance of our model through a evaluation process, which involves two distinct methods | Conclusions: 7.1. On the performance of MEC and theory-based models As seen from the results of Experiment 1 (Table 2), DeBERTa-v3 yielded superior performance com"
 local_pdf: "[[PDFs/2023/2023-Ji-Commonsense Norm Bank.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

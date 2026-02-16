@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.1073/pnas.1911517117
 url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3UPAJU7/Awad et al. - 2020 - Universals and variations in moral decisions made in 42 countries by 70,000 participants.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ significance: "Demonstrates that while some moral cognitive processes are univer
 tags: 
 abstract: "When do people find it acceptable to sacrifice one life to save many? Cross-cultural studies suggested a complex pattern of universals and variations in the way people approach this question, but data were often based on small samples from a small number of countries outside of the Western world. Here we analyze responses to three sacrificial dilemmas by 70,000 participants in 10 languages and 42 countries. In every country, the three dilemmas displayed the same qualitative ordering of sacrifice"
 pdf: "https://www.pnas.org/content/pnas/117/5/2332.full.pdf"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

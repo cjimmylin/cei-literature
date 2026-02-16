@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[Uluoglakci, Cem]]; [[Temizel, Tugba]]"
 url: "https://aclanthology.org/2024.eacl-srw.9/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/N3YAM6Q3/2024 - HypoTermQA Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +25,7 @@ key_contribution: "Introduced 'HypoTermQA', a dataset of *hypothetical* terms (f
 significance: "A clever way to measure 'intrinsic hallucination' without needing external knowledge bases, testing the model's epistemic humility (can it say 'I don't know'?)."
 tags: 
 abstract: "Hallucinations pose a significant challenge to the reliability and alignment of Large Language Models (LLMs), limiting their widespread acceptance beyond chat-bot applications. Despite ongoing efforts, hallucinations remain a prevalent challenge in LLMs. The detection of hallucinations itself is also a formidable task, frequently requiring manual labeling or constrained evaluations. This paper introduces an automated scalable framework that combines benchmarking LLMs’ hallucination tendencies..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

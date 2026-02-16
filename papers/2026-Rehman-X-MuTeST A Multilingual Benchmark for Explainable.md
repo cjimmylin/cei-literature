@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0316
 type: preprint
 short_title: "X-MuTeST A Multilingual Benchmark for Explainable"
 year: 2025
-first_author: "[[Rehman, Zia]]"
-last_author: "[[Rehman, Zia]]"
-authors: "[[Rehman, Zia]]"
-authors_incomplete: true
+first_author: "[[Rehman, Mohammad Zia Ur]]"
+last_author: "[[Kumar, Nagendra]]"
+authors: "[[Rehman, Mohammad Zia Ur]]; [[Kasu, Sai Kartheek Reddy]]; [[Koppula, Shashivardhan Reddy]]; [[Chirra, Sai Rithwik Reddy]]; [[Singh, Shwetank Shekhar]]; [[Kumar, Nagendra]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.03194"
 external_pdf: "https://arxiv.org/pdf/2601.03194.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Responsible AI"
 
 ## Authors
 
-[[Rehman, Zia]], [[and others]]
+[[Rehman, Mohammad Zia Ur]], [[Kasu, Sai Kartheek Reddy]], [[Koppula, Shashivardhan Reddy]], [[Chirra, Sai Rithwik Reddy]], [[Singh, Shwetank Shekhar]], [[Kumar, Nagendra]]
 
 ## Metadata
 
-**Authors:** Rehman, Zia; and others
+**Authors:** Rehman, Mohammad Zia Ur; Kasu, Sai Kartheek Reddy; Koppula, Shashivardhan Reddy; Chirra, Sai Rithwik Reddy; Singh, Shwetank Shekhar; Kumar, Nagendra
 
 **Year:** 2026
 

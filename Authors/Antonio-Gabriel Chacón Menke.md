@@ -37,10 +37,16 @@ Menke's research on Constitutional AI in small LLMs reveals important architectu
 ## Papers in this Vault
 
 
+
+
 - [[2025-Menke-How Effective Is Constitutional AI in Small LLMs|How Effective Is Constitutional AI in Small LLMs?]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
+- *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: z524055@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 His work is particularly relevant for deploying safe AI systems in resource-limited environments where large models are impractical, demonstrating that alignment techniques must be adapted to specific model architectures rather than applied universally.

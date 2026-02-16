@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "Benchmarking Open-Source Large Language Models for Persian in Zero-Shot and Few-Shot Learning"
 year: 2025
 first_author: "[[Cherakhloo, Mahdi]]"
-last_author: "[[Cherakhloo, Mahdi]]"
-authors: "[[Cherakhloo, Mahdi]]"
-authors_incomplete: true
+last_author: "[[Vahdat, Bijan Vosoughi]]"
+authors: "[[Cherakhloo, Mahdi]]; [[Abbasi, Arash]]; [[Sarafraz, Mohammad Saeid]]; [[Vahdat, Bijan Vosoughi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.12807"
 external_pdf: "https://arxiv.org/pdf/2510.12807.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Mahdi Cherakhloo et al.]]
+[[Cherakhloo, Mahdi]], [[Abbasi, Arash]], [[Sarafraz, Mohammad Saeid]], [[Vahdat, Bijan Vosoughi]]
 
 ## Metadata
 
-**Authors:** Mahdi Cherakhloo et al.
+**Authors:** Cherakhloo, Mahdi; Abbasi, Arash; Sarafraz, Mohammad Saeid; Vahdat, Bijan Vosoughi
 
 **Year:** 2025
 

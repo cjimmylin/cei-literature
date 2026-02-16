@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Building Domain-Specific LLMs Faithful To The"
 year: 2025
 first_author: "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]"
-last_author: "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]"
+last_author: "[[Rayhan Patel]]"
 authors: "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.06652"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Shabaz Patel, Hassan Kane, Rayhan Patel]]
+[[Sahil Patel|Shabaz Patel]], [[Hassan Kane]], [[Roma Patel|Rayhan Patel]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Khmer LLM Cambodias First Native Language"
 year: 2025
 first_author: "[[Intelligence, AI Angkor]]"
-last_author: "[[Intelligence, AI Angkor]]"
+last_author: "[[AI Angkor Intelligence]]"
 authors: "[[AI Angkor Intelligence]]"
 authors_incomplete: false
 url: "https://www.angkor-intelligence.com/projects/khmer-llm"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cambodian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

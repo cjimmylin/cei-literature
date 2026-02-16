@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP"
 year: 2025
 first_author: "[[Cristina Bosco]]"
-last_author: "[[Francesca D'Errico]]"
+last_author: "[[Francesca D'Errico Marina Paciello]]"
 authors: "Cristina Bosco, Viviana Patti, Simona Frenda, Alessandra T. Cignarella, Marina Paciello, Francesca D'Errico"
 doi: 10.1016/j.ipm.2022.103118
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457322002199"
@@ -28,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: Italian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -48,7 +50,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Cristina Bosco, Viviana Patti, Simona Frenda, Alessandra T. Cignarella, Marina Paciello, Francesca D'Errico]]
+[[Viviana Patti Cristina Bosco]], [[Alessandra T. Cignarella Simona Frenda]], [[Francesca D'Errico Marina Paciello]]
 
 ## Metadata
 

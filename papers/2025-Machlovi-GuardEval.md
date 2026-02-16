@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ DATA_URL: "https://huggingface.co/meta-llama/Llama-Guard-3-8B"
 
 ## Authors
 
-[[Machlovi, Naseem]], [[Saleki, Maryam]], [[Amin, Ruhul]], [[Rahouti, Mohamed]], [[Al-Maliki, Shawqi]], [[Qadir, Junaid]], [[Abdallah, Mohamed M.]], [[Al-Fuqaha, Ala]]
+[[Machlovi, Naseem]], [[Saleki, Maryam]], [[Amin, Ruhul]], [[Rahouti, Mohamed]], [[Al-Maliki, Shawqi]], [[Junaid Qadir|Qadir, Junaid]], [[Abdallah, Mohamed M]], [[Al-Fuqaha, Ala]]
 
 ## Metadata
 

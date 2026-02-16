@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.18653/v1/2023.semeval-1.41
 url: "https://aclanthology.org/2023.semeval-1.41/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/2GNWRXJ3/Chang et al. - 2023 - niceNLP at SemEval-2023 Task 10 Dual Model Alternate Pseudo-labeling Improves Your Predictions.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ abstract: "Sexism is a growing online problem. It harms women who are targeted a
 pdf: "https://aclanthology.org/2023.semeval-1.41.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 local_pdf: "[[PDFs/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

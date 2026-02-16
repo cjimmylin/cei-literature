@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: Arabic
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Yanaka et al.]]
+[[Yanaka]]
 
 ## Metadata
 

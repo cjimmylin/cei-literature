@@ -44,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Chuxue Cao, Zhenghao Zhu, Junqi Zhu, Guoying Lu, Siyu Peng, Juntao Dai, Weijie Shi, Sirui Han, Yike Guo]]
+[[Chuxue Cao]], [[Zhu|Zhenghao Zhu]], [[Jian-Qiao Zhu|Junqi Zhu]], [[Guoying Lu]], [[Siyu Peng]], [[Juntao Dai]], [[Weijie Shi]], [[Sirui Han]], [[Yike Guo]]
 
 ## Metadata
 

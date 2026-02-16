@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "The Gospel Coalition AI Christian Benchmark"
 year: 2025
 first_author: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
-last_author: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
+last_author: "[[Dan Doriani (The Gospel Coalition)]]"
 authors: "[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Casey Sapp, Kyle Horne, Ken Churchill, Andrew Clark, Andrew Noble, Peter Williams, Mary Hannah, Gavin Ortlund, Hans Madueme, Uche Anizor, Nadya Williams, Michael Kruger, Dan Doriani (The Gospel Coalition)]]
+[[Casey Sapp]], [[Kyle Horne]], [[Ken Churchill]], [[Andrew Clark]], [[Andrew Noble]], [[Peter Williams]], [[Mary Hannah]], [[Gavin Ortlund]], [[Hans Madueme]], [[Uche Anizor]], [[Nadya Williams]], [[Michael Kruger]], [[Dan Doriani (The Gospel Coalition)]]
 
 ## Metadata
 

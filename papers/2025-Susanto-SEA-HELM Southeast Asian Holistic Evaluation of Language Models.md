@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "SEA-HELM: Southeast Asian Holistic Evaluation of Language Models"
 year: 2025
 first_author: "[[Yosephine Susanto]]"
-last_author: "[[William Chandra Tjhi]]"
+last_author: "[[William Chandra Tjhi Yifan Mai]]"
 authors: "Yosephine Susanto, Adithya Venkatadri Hulagadri, Jann Railey Montalan, Jian Gang Ngui, Xian Bin Yong, Weiqi Leong, Hamsawardhini Rengarajan, Peerat Limkonchotiwat, Yifan Mai, William Chandra Tjhi"
 url: "https://arxiv.org/abs/2502.14301"
 external_pdf: "https://arxiv.org/pdf/2502.14301.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"
 languages_list: "Filipino, Filipino/Tagalog, Indonesian, Javanese, Malay, Sundanese, Tamil, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Yosephine Susanto, Adithya Venkatadri Hulagadri, Jann Railey Montalan, Jian Gang Ngui, Xian Bin Yong, Weiqi Leong, Hamsawardhini Rengarajan, Peerat Limkonchotiwat, Yifan Mai, William Chandra Tjhi]]
+[[Adithya Venkatadri Hulagadri Yosephine Susanto]], [[Jann Railey Montalan|Jian Gang Ngui Jann Railey Montalan]], [[Weiqi Leong Xian Bin Yong]], [[Peerat Limkonchotiwat Hamsawardhini Rengarajan]], [[William Chandra Tjhi Yifan Mai]]
 
 ## Metadata
 

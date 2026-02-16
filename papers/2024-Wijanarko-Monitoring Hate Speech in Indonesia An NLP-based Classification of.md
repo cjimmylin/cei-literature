@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Monitoring Hate Speech in Indonesia: An NLP-based Classification of Social Media Texts"
 year: 2025
 first_author: [[Wijanarko]]
-last_author: [[Wijaya]]
+last_author: "[[Wijaya Hong]]"
 authors: "Wijanarko, Susanto, Pratama, Idris, Hong, Wijaya"
 url: "https://aclanthology.org/2024.emnlp-demo.15/"
 external_pdf: "https://aclanthology.org/2024.emnlp-demo.15.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian"
+cultures_nationalities_list: "Chinese, Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Wijanarko, Susanto, Pratama, Idris, Hong, Wijaya]]
+[[Susanto Wijanarko]], [[Idris Pratama]], [[Wijaya Hong]]
 
 ## Metadata
 

@@ -48,6 +48,8 @@ Akinremi is a co-author of the "NaijaVoices" dataset, one of the largest and mos
 ## Papers in this Vault
 
 
+
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ Akinremi is a co-author of the "NaijaVoices" dataset, one of the largest and mos
 
 ## Notes
 
+
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 Bunmi's dedication to "Women in Data Science" and her focus on African linguistic representative data makes her a key figure in the "Fairness and Representation" pillar of AI ethics.

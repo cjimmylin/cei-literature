@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2404.16698"
 external_pdf: "http://arxiv.org/pdf/2404.16698.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Piatti-Cooperate or Collapse.md"
 abstract: "As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a generative simulation platform designed to study strategic interactions and cooperative decision-making in LLMs. In GOVSIM, a society of AI agents must collectively balance exploiting a common resource with sustaining it for future use."
 paper_summary: "Abstract: As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a gene | Overview: Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents Giorgio Piatti1,∗ Zhijing Jin1,2,3,∗ Max Kleiman-Weiner4,∗ Bernhard Schölkopf2 Mrinmaya Sachan1 Rada Mihalcea5 1E | Methodology: Common Information For each of the scenarios we use the same description used in the simulation, but using controlled settings: the only memory presen | Key Findings: failures across machine learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021. [ | Conclusions: RULES: You are John, a fisherman, and you fish each month in a lake along with four other fishermen (Kate, Jack, Emma, Luke). The lake has a carrying"
 local_pdf: "[[PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

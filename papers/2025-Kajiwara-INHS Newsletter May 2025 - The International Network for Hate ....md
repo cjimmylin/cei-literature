@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "INHS Newsletter May 2025 - The International Network for Hate ..."
 year: 2025
 first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
 external_pdf: "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: Japanese
 religious_values: "N/A"
 religious_values_list: "N/A"

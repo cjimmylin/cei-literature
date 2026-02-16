@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts|Safety Evaluation of DeepSeek Models in Chinese Contexts]]
 - [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
 
 ## Notes
 
 
+
+
+- *From 2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts*: Affiliation: Research Institute, China Unicom
+- *From 2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts*: Affiliation: Research Institute, China Unicom
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 [Additional context or contact information]

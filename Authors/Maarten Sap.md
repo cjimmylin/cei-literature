@@ -23,7 +23,13 @@ Maarten Sap is an Assistant Professor at Carnegie Mellon University's Language T
 ## Papers in this Vault
 
 
+
+
+- [[2026-Li-PluriHarms|PluriHarms]]
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value|EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions]] (Last Author)
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
+- [[2025-Li-SafetyAnalyst|SafetyAnalyst]]
 - [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]]
 - [[2025-Rao-NormAd|NormAd]] (Last Author)
 - [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]] (Last Author)
@@ -40,5 +46,9 @@ Maarten Sap is an Assistant Professor at Carnegie Mellon University's Language T
 ## Notes
 
 
+
+
+- *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
+- *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

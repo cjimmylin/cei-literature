@@ -21,10 +21,17 @@ Masahiro Kaneko is a Postdoc at Mohamed bin Zayed University of Artificial Intel
 ## Papers in this Vault
 
 
+
+
+- [[2025-Liu-On the Alignment of Large Language Models with Global Human Opinion|On the Alignment of Large Language Models with Global Human Opinion]]
 - [[2024-Kaneko-Eagle|Eagle]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: yangliu@nlp.ist.i.kyoto
+- *From 2025-Liu-On the Alignment of Large Language Models with Global Human Opinion*:, Email: yangliu@nlp.ist.i.kyoto
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 [Additional context or contact information]

@@ -47,8 +47,15 @@ Despite being early in his career, he has co-authored influential work on the em
 
 ## Papers in this Vault
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Lee-When Prompting Fails to Sway|When Prompting Fails to Sway]] (First Author)
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -63,5 +70,9 @@ Despite being early in his career, he has co-authored influential work on the em
 
 ## Notes
 
+
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: chohyunsoo@ewha.ac.kr
 - *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu
 [Bruce is a promising young researcher focusing on the technical alignment of AI agents.]

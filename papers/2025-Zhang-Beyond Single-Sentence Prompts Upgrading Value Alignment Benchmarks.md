@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Yazhou Zhang, Qimeng Liu, Qiuchi Li, Peng Zhang, Jing Qin]]
+[[Yazhou Zhang]], [[Qun Liu|Qimeng Liu]], [[Qiuchi Li]], [[Peng Zhang]], [[Jing Qin]]
 
 ## Metadata
 

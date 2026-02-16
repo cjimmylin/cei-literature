@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "HRET: A Self-Evolving LLM Evaluation Toolkit for Korean"
 year: 2025
 first_author: "[[Guijin Son]]"
-last_author: "[[Jihyung Moon]]"
+last_author: "[[Jihyung Moon Huiseo Kim]]"
 authors: "Guijin Son, Hyunwoo Ko, Hanwool Lee, Suwan Kim, Huiseo Kim, Jihyung Moon"
 url: "https://arxiv.org/abs/2503.22968"
 external_pdf: "https://arxiv.org/pdf/2503.22968.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Guijin Son, Hyunwoo Ko, Hanwool Lee, Suwan Kim, Huiseo Kim, Jihyung Moon]]
+[[Hyunwoo Ko Guijin Son]], [[Suwan Kim Hanwool Lee]], [[Jihyung Moon Huiseo Kim]]
 
 ## Metadata
 

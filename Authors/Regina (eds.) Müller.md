@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Hähnel-A Companion to Applied Philosophy of AI|A Companion to Applied Philosophy of AI]] (Last Author)
 
 ## Notes

@@ -31,10 +31,16 @@ Reed Enger is a Research Scientist at Google DeepMind, contributing to research 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Contributor to Google DeepMind's influential report on the ethics of advanced AI assistants, addressing key challenges in responsible AI development.

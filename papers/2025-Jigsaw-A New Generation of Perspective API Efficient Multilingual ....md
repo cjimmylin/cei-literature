@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: conferencePaper
 short_title: "A New Generation of Perspective API: Efficient Multilingual ..."
 year: 2025
 first_author: [[Jigsaw]]
-last_author: [[Jigsaw]]
+last_author: "[[Jigsaw]]"
 authors: Jigsaw
 doi: 10.1145/3534678.3539147
 url: "https://dl.acm.org/doi/pdf/10.1145/3534678.3539147"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

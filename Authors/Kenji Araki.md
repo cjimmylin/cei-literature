@@ -18,7 +18,9 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2023-Boddington-Normative Ethical Theory AI Ethics|Towards Theory-based Moral AI]] (Last Author)
+
+
+- [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense|JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding]] (Last Author)
 
 ## Notes
 

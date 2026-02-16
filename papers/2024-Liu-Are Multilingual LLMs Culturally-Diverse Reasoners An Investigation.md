@@ -10,7 +10,7 @@ type: preprint
 short_title: Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings
 year: 2024
 first_author: "[[Chen Cecilia Liu]]"
-last_author: "[[Iryna Gurevych]]"
+last_author: "[[Iryna Gurevych Timothy Baldwin]]"
 authors: Chen Cecilia Liu, Fajri Koto, Timothy Baldwin, Iryna Gurevych
 url: "https://arxiv.org/abs/2309.08591"
 external_pdf: "https://arxiv.org/pdf/2309.08591.pdf"
@@ -44,7 +44,7 @@ research_topic: "Dialogue Systems"
 
 ## Authors
 
-[[Chen Cecilia Liu, Fajri Koto, Timothy Baldwin, Iryna Gurevych]]
+[[Fenglin Liu|Fajri Koto Chen Cecilia Liu]], [[Iryna Gurevych Timothy Baldwin]]
 
 ## Metadata
 

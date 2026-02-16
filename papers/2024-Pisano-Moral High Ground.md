@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Kart
 url: "https://openreview.net/forum?id=11nZWTg0mS"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7KJT72S3/8903_Moral_High_Ground_A_text_.pdf"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +25,7 @@ key_contribution: "Introduced 'Moral High Ground', a text-based games benchmark 
 significance: "Provides an interactive environment (games) to test moral reasoning, offering a more dynamic evaluation of alignment than static QA benchmarks."
 tags: 
 abstract: "In this paper, we introduce a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate the moral and ethical reasoning abilities of large language models using text-based games, which can be played by both human players and models. We present these games to the player as an interaction between the player and the environment."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding"
 year: 2025
 first_author: "[[Wilie, Bryan]]"
-last_author: "[[Winata, Genta Indra]]"
-authors: "[[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Winata, Genta Indra]]"
-authors_incomplete: true
+last_author: "[[Purwarianti, Ayu]]"
+authors: "[[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Winata, Genta Indra]]; [[Cahyawijaya, Samuel]]; [[Li, Xiaohong]]; [[Lim, Zhi Yuan]]; [[Soleman, Sidik]]; [[Mahendra, Rahmad]]; [[Fung, Pascale]]; [[Bahar, Syafri]]; [[Purwarianti, Ayu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2009.05387"
 external_pdf: "https://arxiv.org/pdf/2009.05387.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Bryan Wilie, Karissa Vincentio, Genta Indra Winata, Samuel Cahyawijaya et al.]]
+[[Bryan Wilie|Wilie, Bryan]], [[Vincentio, Karissa]], [[Genta Indra Winata|Winata, Genta Indra]], [[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Li, Xiaohong]], [[Lim, Zhi Yuan]], [[Soleman, Sidik]], [[Mahendra, Rahmad]], [[Pascale Fung|Fung, Pascale]], [[Bahar, Syafri]], [[Ayu Purwarianti|Purwarianti, Ayu]]
 
 ## Metadata
 
-**Authors:** Bryan Wilie, Karissa Vincentio, Genta Indra Winata, Samuel Cahyawijaya et al.
+**Authors:** Wilie, Bryan; Vincentio, Karissa; Winata, Genta Indra; Cahyawijaya, Samuel; Li, Xiaohong; Lim, Zhi Yuan; Soleman, Sidik; Mahendra, Rahmad; Fung, Pascale; Bahar, Syafri; Purwarianti, Ayu
 
 **Year:** 2020
 

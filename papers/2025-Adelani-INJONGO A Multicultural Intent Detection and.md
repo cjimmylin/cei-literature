@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "INJONGO A Multicultural Intent Detection and"
 year: 2025
 first_author: "[[Hao Yu, Jesujoba O. Alabi, Andiswa Bukula, Jian Yun Zhuang, En-Shiun Annie Lee, Tadesse Kebede Guge, Israel Abebe Azime, Happy Buzaaba, Blessing Kudzaishe Sibanda, Godson K. Kalipe, Jonathan Mukiibi, Salomon Kabongo Kabenamualu, Mmasibidi Setaka, Lolwethu Ndolela, Nkiruka Odu, Rooweither Mabuya, Shamsuddeen Hassan Muhammad, Salomey Osei, Sokhar Samb, Juliet W. Murage, Dietrich Klakow, David Ifeoluwa Adelani]]"
-last_author: "[[Hao Yu, Jesujoba O. Alabi, Andiswa Bukula, Jian Yun Zhuang, En-Shiun Annie Lee, Tadesse Kebede Guge, Israel Abebe Azime, Happy Buzaaba, Blessing Kudzaishe Sibanda, Godson K. Kalipe, Jonathan Mukiibi, Salomon Kabongo Kabenamualu, Mmasibidi Setaka, Lolwethu Ndolela, Nkiruka Odu, Rooweither Mabuya, Shamsuddeen Hassan Muhammad, Salomey Osei, Sokhar Samb, Juliet W. Murage, Dietrich Klakow, David Ifeoluwa Adelani]]"
+last_author: "[[David Ifeoluwa Adelani Dietrich Klakow]]"
 authors: "[[Hao Yu, Jesujoba O. Alabi, Andiswa Bukula, Jian Yun Zhuang, En-Shiun Annie Lee, Tadesse Kebede Guge, Israel Abebe Azime, Happy Buzaaba, Blessing Kudzaishe Sibanda, Godson K. Kalipe, Jonathan Mukiibi, Salomon Kabongo Kabenamualu, Mmasibidi Setaka, Lolwethu Ndolela, Nkiruka Odu, Rooweither Mabuya, Shamsuddeen Hassan Muhammad, Salomey Osei, Sokhar Samb, Juliet W. Murage, Dietrich Klakow, David Ifeoluwa Adelani]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.09814"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Hao Yu, Jesujoba O. Alabi, Andiswa Bukula, Jian Yun Zhuang, En-Shiun Annie Lee, Tadesse Kebede Guge, Israel Abebe Azime, Happy Buzaaba, Blessing Kudzaishe Sibanda, Godson K. Kalipe, Jonathan Mukiibi, Salomon Kabongo Kabenamualu, Mmasibidi Setaka, Lolwethu Ndolela, Nkiruka Odu, Rooweither Mabuya, Shamsuddeen Hassan Muhammad, Salomey Osei, Sokhar Samb, Juliet W. Murage, Dietrich Klakow, David Ifeoluwa Adelani]]
+[[Jesujoba O. Alabi Hao Yu]], [[Jian Yun Zhuang Andiswa Bukula]], [[Tadesse Kebede Guge En-Shiun Annie Lee]], [[Happy Buzaaba Israel Abebe Azime]], [[Godson K. Kalipe Blessing Kudzaishe Sibanda]], [[Salomon Kabongo Kabenamualu Jonathan Mukiibi]], [[Lolwethu Ndolela Mmasibidi Setaka]], [[Rooweither Mabuya Nkiruka Odu]], [[Salomey Osei Shamsuddeen Hassan Muhammad]], [[Juliet W. Murage Sokhar Samb]], [[David Ifeoluwa Adelani Dietrich Klakow]]
 
 ## Metadata
 

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Tinh Son Luong; Thanh-Thien Le; Linh Ngo Van; Thien Huu Nguyen"
 url: "https://arxiv.org/abs/2405.10659"
 external_pdf: "https://arxiv.org/pdf/2405.10659.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Luong-Realistic Evaluation of Toxicity in L
 abstract: "Large language models (LLMs) have become integral to our professional workflows and daily lives. Nevertheless, these machine companions of ours have a critical flaw: the huge amount of data which endows them with vast and diverse knowledge, also exposes them to the inevitable toxicity and bias. While most LLMs incorporate defense mechanisms to prevent the generation of harmful content, these safeguards can be easily bypassed with minimal prompt engineering."
 paper_summary: "Abstract: Large language models (LLMs) have become integral to our professional workflows and daily lives. Nevertheless, these machine companions of ours have a critical flaw: the huge amount of data which endo | Overview: Realistic Evaluation of Toxicity in Large Language Models Tinh Son Luong1∗, Thanh-Thien Le2∗, Linh Ngo Van3†, Thien Huu Nguyen2,4 1Oraichain Labs 2VinAI Research 3Hanoi University of Science and Techn"
 local_pdf: "[[PDFs/2024/2024-Luong-Realistic Evaluation of Toxicity in Large.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -61,7 +65,7 @@ Large language models (LLMs) have become integral to our professional workflows 
 
 ## Authors
 
-[[Tinh Son Luong]], [[Thanh-Thien Le]], [[Linh Ngo Van]], [[Thao Nguyen|Thien Huu Nguyen]]
+[[Tinh Son Luong]], [[Thanh-Thien Le]], [[Linh Ngo Van]], [[Thien Huu Nguyen]]
 
 ## Data Description
 

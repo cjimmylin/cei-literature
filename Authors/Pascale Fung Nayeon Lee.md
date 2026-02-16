@@ -1,9 +1,9 @@
 ---
 name: "Pascale Fung Nayeon Lee"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Centre for Artificial Intelligence Research (CAiRE)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yjbang@connect.ust.hk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said|Measuring Political Bias in LLMs: What Is Said and How It Is Said]] (Last Author)]]
+
 
 - [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said|Measuring Political Bias in LLMs: What Is Said and How It Is Said]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said*: Affiliation: Centre for Artificial Intelligence Research (CAiRE), Email: yjbang@connect.ust.hk
+- *From 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said*: Affiliation: Centre for Artificial Intelligence Research (CAiRE), Email: yjbang@connect.ust.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

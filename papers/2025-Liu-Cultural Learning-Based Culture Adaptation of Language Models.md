@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Chen Cecilia Liu, Anna Korhonen, Iryna Gurevych]]
+[[Chen Cecilia Liu]], [[Anna Korhonen]], [[Iryna Gurevych]]
 
 ## Metadata
 

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/T6VNUFSA/Lee et al. - VisAl
 pdf_extract: "PDF Extracts/2023/2023-Lee-VisAlign.md"
 local_pdf: [[PDFs/2023/2023-Lee-VisAlign.pdf]]
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Released VisAlign, a dataset for measuring 'AI-human visual a
 significance: "Extends the concept of alignment to visual perception, arguing that aligned models should not just classify correctly but also share human-like epistemic uncertainty."
 tags: 
 abstract: "AI alignment refers to models acting towards human-intended goals, preferences, or ethical principles. In this paper, we focus on the models’ visual perception alignment with humans, further referred to as AI-human visual alignment. Specifically, we propose a new dataset for measuring AI-human visual alignment in terms of image classiﬁcation. In order to evaluate AI-human visual alignment, a dataset should encompass samples with various scenarios and have gold human perception labels."
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

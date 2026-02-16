@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Kumar, Ritesh]]; [[Ojha, Atul Kr.]]; [[Malmasi, Shervin]]; [[Zampier
 url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian, Bengali, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ tags:
 abstract: "In this paper, we present the report and ﬁndings of the Shared Task on Aggression and Gendered Aggression Identiﬁcation organised as part of the Second Workshop on Trolling, Aggression and Cyberbullying (TRAC - 2) at LREC 2020. The task consisted of two sub-tasks - aggression identiﬁcation (sub-task A) and gendered aggression identiﬁcation (sub-task B) - in three languages - Bengali, Hindi and English."
 pdf_extract: "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md"
 local_pdf: "[[PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

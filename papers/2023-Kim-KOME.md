@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
 url: "https://sociology.kaist.ac.kr/works/kome-korean-online-moral-emotion-a-korean-dataset-of-fine-grained-moral-emotions-korea-computer-congress-2023-june"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/98WEUINE/Kim and others - 2023 - KOME A Korean Dataset of Fine-Grained Moral Emotions.pdf"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +28,7 @@ abstract: "In order to determine the status of malaria among schoolchildren on K
 pdf: "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kim-KOME.md"
 local_pdf: [[PDFs/2023/2023-Kim-KOME.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

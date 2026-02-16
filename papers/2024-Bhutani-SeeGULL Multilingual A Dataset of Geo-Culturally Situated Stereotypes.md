@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Brazilian"
+cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Italian, Spanish, Russian, Brazilian"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Portuguese, Russian, Spanish, Swahili, Tamil, Thai, Turkish, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ abstract: "While generative multilingual models are rapidly being deployed, thei
 
 ## Authors
 
-[[Mukul Bhutani]], [[Kevin Robinson]], [[Vinodkumar Prabhakaran]], [[Shachi Dave]], [[Sunipa Dev]]
+[[Bhutani, Mukul]], [[Robinson, Kevin]], [[Vinodkumar Prabhakaran|Prabhakaran, Vinodkumar]], [[Dave, Shachi]], [[Dev, Sunipa]]
 
 ## Metadata
 

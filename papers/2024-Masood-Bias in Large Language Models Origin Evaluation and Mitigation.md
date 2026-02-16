@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +12,7 @@ type: preprint
 short_title: "Bias in Large Language Models: Origin, Evaluation, and Mitigation"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/html/2411.10915v1"
 external_pdf: "https://arxiv.org/pdf/2411.10915.pdf"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Adnan Masood, Ph]]
+[[Ph Adnan Masood]]
 
 ## Metadata
 

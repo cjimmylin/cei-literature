@@ -47,6 +47,9 @@ Yao has contributed to surveys on LLMs for subjective language understanding, hi
 ## Papers in this Vault
 
 
+
+
+- [[2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese|Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan]] (First Author)
 - [[2025-Yao-NurValues|NurValues]] (First Author)
 
 ## External Links & Profiles
@@ -57,5 +60,9 @@ Yao has contributed to surveys on LLMs for subjective language understanding, hi
 
 ## Notes
 
+
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 His work on "NurValues" is a direct contribution to the quantifiable alignment of AI with diverse human value systems.

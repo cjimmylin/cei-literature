@@ -21,10 +21,16 @@ Bin Fu is a researcher at the Shenzhen Institute of Advanced Technology (SIAT), 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Notes
 
 
+
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 Co-author on GMAI-MMBench, a comprehensive multimodal evaluation benchmark for general medical AI published at NeurIPS 2024.

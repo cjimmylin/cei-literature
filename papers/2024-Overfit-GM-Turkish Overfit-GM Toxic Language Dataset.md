@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Turkish Overfit-GM Toxic Language Dataset"
 year: 2025
 first_author: [[Overfit-GM]]
-last_author: [[Overfit-GM]]
+last_author: "[[Overfit-GM]]"
 authors: [[Overfit-GM]]
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

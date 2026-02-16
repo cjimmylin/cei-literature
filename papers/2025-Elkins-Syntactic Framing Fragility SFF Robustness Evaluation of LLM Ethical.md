@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions"
 year: 2025
 first_author: "[[K. & Chun Elkins]]"
-last_author: [[J.]]
+last_author: "[[J.]]"
 authors: "Elkins, K. & Chun, J."
 url: "https://arxiv.org/abs/2601.09724"
 external_pdf: "https://arxiv.org/pdf/2601.09724.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Reuel-BetterBench|BetterBench]] (Last Author)]]
+
 
 - [[2024-Reuel-BetterBench|BetterBench]] (Last Author)
 

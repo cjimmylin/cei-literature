@@ -19,5 +19,7 @@ Founder and CEO of Norm AI, a regulatory AI company. Fellow at Stanford CodeX le
 
 ## Papers in this Vault
 
+
+
 - [[2025-Nay-Aligning AI Agents with Humans through Law as Information|Aligning AI Agents with Humans through Law as Information]] (First Author)
 - [[2023-Guha-LegalBench|LegalBench]]

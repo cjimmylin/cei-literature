@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/1607.06520"
 external_pdf: "http://arxiv.org/pdf/1607.06520.pdf"
 publication: "Proceedings of the 30th Conference on Neural Information Processing Systems (NIPS 2016)"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2016/2016-Bolukbasi-Man is to Computer Programmer as 
 local_pdf: "[[PDFs/2016/2016-Bolukbasi-Man is to Computer Programmer as Woman is to.pdf]]"
 abstract: "The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors which has been used in many machine learning and natural language processing tasks. We show that even word embeddings trained on Google News articles exhibit female/male gender stereotypes to a disturbing extent."
 paper_summary: "Abstract: The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors whic | Overview: Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings Tolga Bolukbasi1, Kai-Wei Chang2, James Zou2, Venkatesh Saligrama1,2, Adam Kalai2 1Boston University, 8 Saint Mary's S | Conclusions: Word embeddings help us further our understanding of bias in language. We ﬁnd a single direction that largely captures gender, that helps us capture a"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

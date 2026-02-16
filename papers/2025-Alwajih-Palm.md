@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "http://arxiv.org/abs/2503.00151"
 external_pdf: "http://arxiv.org/pdf/2503.00151.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ pdf_extract: "PDF Extracts/2025/2025-Alwajih-Palm.md"
 abstract: "As large language models (LLMs) become increasingly integrated into daily life, ensuring their cultural sensitivity and inclusivity is paramount. We introduce PALM, a year-long community-driven project covering all 22 Arab countries. The dataset includes instructions (input, response pairs) in both Modern Standard Arabic (MSA) and dialectal Arabic (DA), spanning 20 diverse topics. Built by a team of 44 researchers across the Arab world, all of whom are authors of this paper, PALM offers a..."
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into daily life, ensur- ing their cultural sensitivity and inclusivity is paramount. We introduce PALM, a year-long community-driven proj | Overview: Palm: A Culturally Inclusive and Linguistically Diverse Dataset for Arabic LLMs Fakhraddin Alwajih1*, Abdellah El Mekki1,2*, Samar Mohamed Magdy1,2, Abdelrahim A. Elmadany1, Omer Nacar5, ElMoatez Bill | Methodology: ingredients steps way method dish meat meal steps activities city date play tourist name reason hotels city trip places information places city beache | Key Findings: Request/Desire Support/Assist Miscellaneous write give mention explain describe provide summarize discuss talk tell say choose make do complete use pr | Conclusions: Here, we analyze results of a subset of 12 LLMs that yield notable insights.7 5https://langchain.com/ 6We also apply the same methodology to evaluate"
 local_pdf: [[PDFs/2025/2025-Alwajih-Palm.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

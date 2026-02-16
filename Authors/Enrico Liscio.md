@@ -35,6 +35,8 @@ Enrico Liscio is a PhD candidate at Delft University of Technology, working on v
 ## Papers in this Vault
 
 
+
+
 - [[2024-Park-Morality is Non-Binary|Morality is Non-Binary]]
 
 ## External Links
@@ -45,5 +47,9 @@ Enrico Liscio is a PhD candidate at Delft University of Technology, working on v
 ## Notes
 
 
+
+
+- *From 2024-Park-Morality is Non-Binary*: Affiliation: University of Technology, the Netherlands, Email: E.Liscio@tudelft.nl
+- *From 2024-Park-Morality is Non-Binary*: Affiliation: University of Technology, the Netherlands, Email: E.Liscio@tudelft.nl
 - *From 2024-Park-Morality is Non-Binary*: Affiliation: University of Technology, the Netherlands, Email: E.Liscio@tudelft.nl
 Enrico Liscio's work challenges simplistic approaches to moral AI, advocating for systems that can handle the complexity and plurality of human moral values.

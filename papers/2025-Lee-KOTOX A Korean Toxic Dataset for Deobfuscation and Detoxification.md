@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "KOTOX: A Korean Toxic Dataset for Deobfuscation and Detoxification"
 year: 2025
 first_author: "[[Yejin Lee]]"
-last_author: "[[Yo-Sub Han]]"
+last_author: "[[Yo-Sub Han Yeonsoo Kim]]"
 authors: "Yejin Lee, Su-Hyeon Kim, Hyundong Jin, Dayoung Kim, Yeonsoo Kim, Yo-Sub Han"
 url: "https://arxiv.org/abs/2510.10961"
 external_pdf: "https://arxiv.org/pdf/2510.10961.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, American"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Yejin Lee, Su-Hyeon Kim, Hyundong Jin, Dayoung Kim, Yeonsoo Kim, Yo-Sub Han]]
+[[Su-Hyeon Kim Yejin Lee]], [[Dayoung Kim Hyundong Jin]], [[Yo-Sub Han Yeonsoo Kim]]
 
 ## Metadata
 

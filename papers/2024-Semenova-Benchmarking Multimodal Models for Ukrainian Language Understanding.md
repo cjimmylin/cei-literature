@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Benchmarking Multimodal Models for Ukrainian Language Understanding Across Academic and Cultural Domains"
 year: 2025
 first_author: "[[Semenova, Lesia]]"
-last_author: "[[Semenova, Lesia]]"
+last_author: "[[Lesia Semenova]]"
 authors: "[[Semenova, Lesia]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2411.14647"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Ukrainian"
 languages_list: Ukrainian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Computer Vision & Multimodal"
 
 ## Authors
 
-[[Lesia Semenova et al.]]
+[[Lesia Semenova]]
 
 ## Metadata
 

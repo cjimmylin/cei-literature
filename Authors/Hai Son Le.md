@@ -1,7 +1,7 @@
 ---
 name: "Hai Son Le"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Toronto"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Pandey-SocialHarmBench|SocialHarmBench]]]]
 
+
+- [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]]
 - [[2025-Pandey-SocialHarmBench|SocialHarmBench]]
 
 ## External Links & Profiles
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Pandey-SocialHarmBench*: Affiliation: University of Toronto
+- *From 2025-Pandey-SocialHarmBench*: Affiliation: University of Toronto
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

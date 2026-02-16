@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Dario Amodei; Chris Olah; Jacob Steinhardt; Paul Christiano; John Schu
 url: "https://arxiv.org/abs/1606.06565"
 external_pdf: "https://arxiv.org/pdf/1606.06565.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2016/2016-Amodei-Concrete Problems in AI Safety.md"
 local_pdf: "[[PDFs/2016/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
 abstract: "Rapid progress in machine learning and artiﬁcial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, deﬁned as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of ﬁve practical research problems related to accident risk, categorized according to whether the problem originates..."
 paper_summary: "Abstract: Rapid progress in machine learning and artiﬁcial intelligence (AI) has brought increasing atten- tion to the potential impacts of AI technologies on society. In this paper we discuss one such potentia | Overview: Concrete Problems in AI Safety Dario Amodei∗ Google Brain Chris Olah∗ Google Brain Jacob Steinhardt Stanford University Paul Christiano UC Berkeley John Schulman OpenAI Dan Man´e Google Brain Abstract | Methodology: to scalable oversight that is complementary to the approach embodied in semi-supervised RL. • Hierarchical reinforcement learning. Hierarchical reinfo | Conclusions: This paper analyzed the problem of accidents in machine learning systems and particularly rein- forcement learning agents, where an accident is deﬁned"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

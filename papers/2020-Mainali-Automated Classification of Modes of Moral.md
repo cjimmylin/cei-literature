@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ last_author: "[[Chen, Daniel L]]"
 authors: "[[Mainali, Nischal]]; [[Meier, Liam]]; [[Ash, Elliott]]; [[Chen, Daniel L]]"
 external_pdf: "https://hal.science/hal-04163443/file/Automated_Classification_of_Modes_of_Moral_Reasoning_in_Judicial_Decisions_ComputationalLegalStudies.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ pdf_extract: "PDF Extracts/2020/2020-Mainali-Automated Classification of Modes o
 local_pdf: "[[PDFs/2020/2020-Mainali-Automated Classification of Modes of Moral.pdf]]"
 tags: 
 abstract: "What modes of moral reasoning do judges employ? We construct a linear SVM classiﬁer for moral reasoning mode trained on applied ethics articles written by consequentialists and deontologists. The model can classify a paragraph of text in held out data with over 90 percent accuracy. We then apply this classiﬁer to a corpus of circuit court opinions. We show that the use of consequentialist reasoning has increased over time."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "UbuntuGuard A Culturally-Grounded Policy Benchmark for"
 year: 2025
 first_author: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
-last_author: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
+last_author: "[[Carsten Eickhoff]]"
 authors: "[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.12696"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Tassallah Abdullahi, Macton Mgonzo, Mardiyyah Oduwole, Paul Okewunmi, Abraham Owodunni, Ritambhara Singh, Carsten Eickhoff]]
+[[Tassallah Abdullahi]], [[Macton Mgonzo]], [[Mardiyyah Oduwole]], [[Paul Okewunmi]], [[Abraham Owodunni]], [[Ritambhara Singh]], [[Carsten Eickhoff]]
 
 ## Metadata
 

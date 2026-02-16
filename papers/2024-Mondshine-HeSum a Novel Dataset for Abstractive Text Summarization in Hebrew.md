@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew"
 year: 2025
 first_author: "[[Itai Mondshine]]"
-last_author: "[[Reut Tsarfaty]]"
+last_author: "[[Reut Tsarfaty Asaf Achi Mordechai]]"
 authors: "Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty"
 url: "https://arxiv.org/abs/2406.03897"
 external_pdf: "https://arxiv.org/pdf/2406.03897.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty]]
+[[Tzuf Paz-Argaman Itai Mondshine]], [[Reut Tsarfaty Asaf Achi Mordechai]]
 
 ## Metadata
 

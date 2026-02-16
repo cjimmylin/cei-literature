@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling"
 year: 2025
 first_author: "[[Matus Pikuliak]]"
-last_author: "[[Marian Simko]]"
+last_author: "[[Marian Simko Stefan Oresko]]"
 authors: "Matus Pikuliak, Andrea Hrckova, Stefan Oresko, Marian Simko"
 url: "https://arxiv.org/abs/2311.18711"
 external_pdf: "https://arxiv.org/pdf/2311.18711.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian, Slavic"
 languages_list: "Belarusian, Croatian, Czech, English, Polish, Russian, Serbian, Slovak, Slovenian, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[Matus Pikuliak, Andrea Hrckova, Stefan Oresko, Marian Simko]]
+[[Andrea Hrckova Matus Pikuliak]], [[Marian Simko Stefan Oresko]]
 
 ## Metadata
 

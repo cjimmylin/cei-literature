@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and|Jailbreaking LLMs with Arabic Transliteration and]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
+- *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 - *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 [Additional context or contact information]

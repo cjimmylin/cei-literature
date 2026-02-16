@@ -32,6 +32,8 @@ Professor Jorge's research focuses on extracting structured knowledge from unstr
 
 ## Papers in this Vault
 
+
+
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## External Links & Profiles
@@ -40,5 +42,9 @@ Professor Jorge's research focuses on extracting structured knowledge from unstr
 
 ## Notes
 
+
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 [Coordinates major AI laboratories in Porto, focusing on decision support and narrative analysis.]

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian"
 year: 2025
 first_author: "[[Liu, Peng]]"
-last_author: "[[Drange, Lovise Bortne]]"
-authors: "[[Liu, Peng]]; [[Rodahl, Terje]]; [[Drange, Lovise Bortne]]"
-authors_incomplete: true
+last_author: "[[Yang, Zhirong]]"
+authors: "[[Liu, Peng]]; [[Zhang, Lemei]]; [[Farup, Terje]]; [[Lauvrak, Even W.]]; [[Ingvaldsen, Jon Espen]]; [[Eide, Simen]]; [[Gulla, Jon Atle]]; [[Yang, Zhirong]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2312.01314"
 external_pdf: "https://arxiv.org/pdf/2312.01314.pdf"
 publication: "arXiv / EMNLP 2024"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Norwegian"
 languages_list: Norwegian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Peng Liu, Terje Rodahl, Lovise Bortne Drange, Marita Kolby Dahl et al.]]
+[[Liu, Peng]], [[Zhang, Lemei]], [[Farup, Terje]], [[Lauvrak, Even W]], [[Ingvaldsen, Jon Espen]], [[Eide, Simen]], [[Gulla, Jon Atle]], [[Yang, Zhirong]]
 
 ## Metadata
 
-**Authors:** Peng Liu, Terje Rodahl, Lovise Bortne Drange, Marita Kolby Dahl et al.
+**Authors:** Liu, Peng; Zhang, Lemei; Farup, Terje; Lauvrak, Even W.; Ingvaldsen, Jon Espen; Eide, Simen; Gulla, Jon Atle; Yang, Zhirong
 
 **Year:** 2024
 

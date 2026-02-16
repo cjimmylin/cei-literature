@@ -3,7 +3,7 @@ name: "Goel"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "aritra.das@ashoka.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Goel-Building Interpretable Models for Moral Decision-Making|Building Interpretable Models for Moral Decision-Making]] (First Author)]]
+
 
 - [[2026-Goel-Building Interpretable Models for Moral Decision-Making|Building Interpretable Models for Moral Decision-Making]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Goel-Building Interpretable Models for Moral Decision-Making*:, Email: aritra.das@ashoka.edu
+- *From 2026-Goel-Building Interpretable Models for Moral Decision-Making*:, Email: aritra.das@ashoka.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

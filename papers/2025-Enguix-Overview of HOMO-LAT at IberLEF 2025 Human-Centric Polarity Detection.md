@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American, Latin American"
+cultures_nationalities_list: "Latin American, Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Gemma Bel Enguix, Helena Gómez Adorno, Sergio Luís Ojeda-Trueba, et al.]]
+[[Enguix, Gemma Bel]], [[Adorno, Helena Gómez]], [[Ojeda-Trueba, Sergio Luís]]
 
 ## Metadata
 

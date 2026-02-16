@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Samuel Cahyawijaya]], [[Genta Indra Winata]], [[Bryan Wilie]], [[Karissa Vincentio]], [[Xiaohong Li]], [[Adhiguna Kuncoro]], [[Sebastian Ruder]], [[Zhi Yuan Lim]], [[Syafri Bahar]], [[Masayu Leylia Khodra]], [[Ayu Purwarianti]], [[Pascale Fung]]
+[[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Genta Indra Winata|Winata, Genta Indra]], [[Bryan Wilie|Wilie, Bryan]], [[Vincentio, Karissa]], [[Li, Xiaohong]], [[Kuncoro, Adhiguna]], [[Sebastian Ruder|Ruder, Sebastian]], [[Lim, Zhi Yuan]], [[Bahar, Syafri]], [[Khodra, Masayu Leylia]], [[Ayu Purwarianti|Purwarianti, Ayu]], [[Pascale Fung|Fung, Pascale]]
 
 ## Metadata
 

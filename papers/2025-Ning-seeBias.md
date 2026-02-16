@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Yilin Ning; Yian Ma; Mingxuan Liu; Xin Li; Nan Liu"
 url: "https://arxiv.org/abs/2504.08418"
 external_pdf: "https://arxiv.org/pdf/2504.08418.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2025/2025-Ning-seeBias.md"
 abstract: "Fairness in artificial intelligence (AI) prediction models is increasingly emphasized to support responsible adoption in high-stakes domains such as health care and criminal justice. Guidelines and implementation frameworks highlight the importance of both predictive accuracy and equitable outcomes. However, current fairness toolkits often evaluate classification performance disparities in isolation, with limited attention to other critical aspects such as calibration."
 paper_summary: "Abstract: Fairness in artificial intelligence (AI) prediction models is increasingly emphasized to support responsible adoption in high-stakes domains such as health care and criminal justice. Guidelines and im | Overview: 1 seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness Yilin Ning1,2, Yian Ma1,2, Mingxuan Liu1,2, Xin Li1,2, Nan Liu1,2,3,4* 1Centre for Quantitative Medicine, Duke-NUS Medical Sch | Key Findings: Inspired by the comprehensive assessment in fairmodels, seeBias visually evaluates a wider range of performance metrics in addition to TPR and FPR to  | Conclusions: Bias in AI models has been a significant concern in high-stakes applications such as criminal justice and healthcare (1,29–31). Current efforts to eva"
 local_pdf: [[PDFs/2025/2025-Ning-seeBias.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "https://arxiv.org/abs/2310.12773"
 external_pdf: "https://arxiv.org/pdf/2310.12773.pdf"
 publication: arXiv
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2023/2023-Dai-Safe RLHF.md"
 abstract: "With the development of large language models (LLMs), striking a balance between the performance and safety of AI systems has never been more critical. However, the inherent tension between the objectives of helpfulness and harmlessness presents a significant challenge during LLM training. To address this issue, we propose Safe Reinforcement Learning from Human Feedback (Safe RLHF), a novel algorithm for human value alignment."
 paper_summary: 
 local_pdf: "[[PDFs/2023/2023-Dai-Safe RLHF.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -67,7 +71,7 @@ This research addresses the challenge of balancing AI system performance with sa
 
 ## Authors
 
-[[Josef Dai]], [[Xuehai Pan]], [[Rui Sun|Ruiyang Sun]], [[Jiaming Ji]], [[Xinbo Xu]], [[Mickel Liu]], [[Yizhou Wang]], [[Yaodong Yang]]
+[[Josef Dai]], [[Xuehai Pan]], [[Ruiyang Sun]], [[Jiaming Ji]], [[Xinbo Xu]], [[Mickel Liu]], [[Yizhou Wang]], [[Yaodong Yang]]
 
 ## Key Contribution
 

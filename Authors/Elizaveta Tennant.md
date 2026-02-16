@@ -35,6 +35,8 @@ Elizaveta Tennant is a PhD student at the University of Bath, working on the int
 ## Papers in this Vault
 
 
+
+
 - [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]] (First Author)
 - [[2025-Tennant-Moral Alignment for LLM Agents|Moral Alignment for LLM Agents]] (First Author)
 - [[2025-Tennant-Moral Intrinsic Rewards for Alignment|Moral Intrinsic Rewards for Alignment]] (First Author)
@@ -43,5 +45,9 @@ Elizaveta Tennant is a PhD student at the University of Bath, working on the int
 ## Notes
 
 
+
+
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: m.musolesi@ucl.ac.uk
+- *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: s.hailes@ucl.ac.uk
 - *From 2025-Tennant-Moral Alignment for LLM Agents*: Affiliation: University College London, Email: s.hailes@ucl.ac.uk
 Elizaveta Tennant is emerging as a significant contributor to the field of AI moral alignment, with multiple publications addressing the challenge of value alignment in AI systems.

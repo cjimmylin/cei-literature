@@ -45,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Yasser Ashraf, Yuxia Wang, Bin Gu, Preslav Nakov, Timothy Baldwin]]
+[[Yasser Ashraf]], [[Yuxia Wang]], [[Bin Gu]], [[Preslav Nakov]], [[Timothy Baldwin]]
 
 ## Metadata
 

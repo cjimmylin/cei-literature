@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Basque"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Muitze Zulaika]]
+[[Zulaika, Muitze]], [[Saralegi, Xabier]]
 
 ## Metadata
 

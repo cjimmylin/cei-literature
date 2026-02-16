@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Shahriar-Priv-IQ|Priv-IQ]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca
+- *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: shahrias@uoguelph.ca
 - *From 2025-Shahriar-Priv-IQ*: Affiliation: School of Computer Science, University of Guelph, Guelph, ON N1G 2W1, Canada; drozita@uoguelph, Email: drozita@uoguelph.ca
 [Additional context or contact information]

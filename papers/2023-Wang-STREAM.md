@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2310.05563"
 external_pdf: "http://arxiv.org/pdf/2310.05563.pdf"
 publication: "Ai & Society"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2023/2023-Wang-STREAM.md"
 abstract: "This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to provide ethics datasets and knowledge bases to help promote AI models 'follow good advice as naturally as a stream follows its course'. By creating a comprehensive and representative platform that accurately mirrors the moral judgments of diverse groups including humans and AIs, we hope to..."
 paper_summary: "Abstract: This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to pr | Overview: STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models Yuwei Wang1,2,3,†, Enmeng Lu1,2,3,†, Zizhe Ruan1,2,3, Yao Liang2,4, and Yi Zeng1,2,3,4,†,* 1Internatio"
 local_pdf: [[PDFs/2023/2023-Wang-STREAM.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

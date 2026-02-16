@@ -25,10 +25,16 @@ Atkinson's work focuses on evaluating the ethical capabilities and limitations o
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
 
 ## Notes
 
 
+
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu
 Atkinson's work on ethics benchmarks contributes to the important task of ensuring AI systems can be evaluated for their ethical reasoning capabilities.

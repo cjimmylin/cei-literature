@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2407.04069"
 external_pdf: "http://arxiv.org/pdf/2407.04069.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2024/2024-Laskar-A Systematic Survey and Critical Rev
 abstract: "Large Language Models (LLMs) have recently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. However, a thorough evaluation of these models is crucial before deploying them in realworld applications to ensure they produce reliable performance. Despite the wellestablished importance of evaluating LLMs in the community, the complexity of the evaluation process has led to varied evaluation setups, causing inconsistencies in..."
 paper_summary: "Abstract: Large Language Models (LLMs) have re- cently gained significant attention due to their remarkable capabilities in performing diverse tasks across various domains. How- ever, a thorough evaluation of t | Overview: A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations Md Tahmid Rahman Laskar†,||,∗, Sawsan Alqahtani§, M Saiful Bari¶,∗ Mizanur Rah | Methodology: Parsing Script Design: Evaluating LLM- generated responses is difficult because they often produce verbose outputs (see Table 6 for some examples). Th | Key Findings: of LLMs often focus only on benchmark tasks, datasets, and evaluation criteria, neglecting the broader complexities. This oversight can under- mine th"
 local_pdf: "[[PDFs/2024/2024-Laskar-A Systematic Survey and Critical Review on.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

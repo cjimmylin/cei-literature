@@ -10,8 +10,8 @@ type: preprint
 short_title: "ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding"
 year: 2025
 first_author: "[[Israel Abebe Azime]]"
-last_author: "[[Tadesse Destaw Belay]]"
-authors: Israel Abebe Azime, Atnafu Lambebo Tonja, Tadesse Destaw Belay et al.
+last_author: "[[D. Klakow]]"
+authors: "Israel Abebe Azime; A. Tonja; Tadesse Destaw Belay; Yonas Chanie; Bontu Fufa Balcha; Negasi Haile Abadi; Henok Biadglign Ademtew; Mulubrhan Abebe Nerea; Debela Desalegn Yadeta; Derartu Dagne Geremew; Assefa Atsbiha tesfau; Philipp Slusallek; T. Solorio; D. Klakow"
 url: "https://arxiv.org/abs/2411.05049"
 external_pdf: "https://arxiv.org/pdf/2411.05049.pdf"
 publication: arXiv / NAACL 2025 Findings
@@ -44,7 +44,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Israel Abebe Azime, Atnafu Lambebo Tonja, Tadesse Destaw Belay et al.]]
+[[Israel Abebe Azime]], [[A. Tonja]], [[Tadesse Belay|Tadesse Destaw Belay]], [[Yonas Chanie]], [[Bontu Fufa Balcha]], [[Negasi Haile Abadi]], [[Henok Biadglign Ademtew]], [[Mulubrhan Abebe Nerea]], [[Debela Desalegn Yadeta]], [[Derartu Dagne Geremew]], [[Assefa Atsbiha tesfau]], [[Philipp Slusallek]], [[Thamar Solorio|T. Solorio]], [[D. Klakow]]
 
 ## Metadata
 

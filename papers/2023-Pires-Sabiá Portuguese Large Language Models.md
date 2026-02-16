@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Sabiá: Portuguese Large Language Models"
 year: 2025
 first_author: "[[Ramon Pires]]"
-last_author: "[[Rodrigo Nogueira]]"
+last_author: "[[Rodrigo Nogueira Thales Sales Almeida]]"
 authors: "Ramon Pires, Hugo Abonizio, Thales Sales Almeida, Rodrigo Nogueira"
 url: "https://arxiv.org/abs/2304.07880"
 external_pdf: "https://arxiv.org/pdf/2304.07880.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian, Portuguese"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Ramon Pires, Hugo Abonizio, Thales Sales Almeida, Rodrigo Nogueira]]
+[[Hugo Abonizio Ramon Pires]], [[Rodrigo Nogueira Thales Sales Almeida]]
 
 ## Metadata
 

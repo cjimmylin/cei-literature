@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators|LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: c4shah@ucsd.edu
+- *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: aka002@ucsd.edu
 - *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: c4shah@ucsd.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

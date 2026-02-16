@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in|MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: zhoudaquan21@gmail.com
+- *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: cathyxl2016@gmail.com.
 - *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: zhendong@berkeley.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

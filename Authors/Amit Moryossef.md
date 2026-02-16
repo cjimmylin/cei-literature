@@ -21,10 +21,16 @@ Amit Moryossef is a researcher affiliated with Bar-Ilan University, working on n
 ## Papers in this Vault
 
 
+
+
 - [[2019-Moryossef-Filling Gender & Number Gaps in Neural Machine|Filling Gender & Number Gaps in Neural Machine]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2019-Moryossef-Filling Gender & Number Gaps in Neural Machine*: Affiliation: University, Ramat Gan, Israel
+- *From 2019-Moryossef-Filling Gender & Number Gaps in Neural Machine*: Affiliation: University, Ramat Gan, Israel
 - *From 2019-Moryossef-Filling Gender & Number Gaps in Neural Machine*: Affiliation: University, Ramat Gan, Israel
 Developed black-box methods for injecting gender and number information into pre-trained neural machine translation systems, improving translation accuracy for English-to-Hebrew translation by up to 2.3 BLEU points on female-speaker test sets.

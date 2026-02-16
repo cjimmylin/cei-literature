@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
+- *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

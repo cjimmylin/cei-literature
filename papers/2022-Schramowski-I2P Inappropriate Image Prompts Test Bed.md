@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ DATA_URL: "https://github.com/ml-research/Q16"
 
 ## Authors
 
-[[Schramowski, Patrick]], [[Tauchmann, Christopher]], [[Kersting, Kristian]]
+[[Patrick Schramowski|Schramowski, Patrick]], [[Tauchmann, Christopher]], [[Kristian Kersting|Kersting, Kristian]]
 
 ## Metadata
 

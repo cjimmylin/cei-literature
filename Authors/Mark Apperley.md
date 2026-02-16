@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Trye-Harnessing Indigenous Tweets|Harnessing Indigenous Tweets]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
+- *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 - *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 [Additional context or contact information]

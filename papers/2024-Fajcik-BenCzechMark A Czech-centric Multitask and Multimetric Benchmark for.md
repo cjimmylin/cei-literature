@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism"
 year: 2025
 first_author: "[[Fajcik, Martin]]"
-last_author: "[[Hradis, Michal]]"
-authors: "[[Fajcik, Martin]]; [[Docekal, Martin]]; [[Dolezal, Jan]]; [[Ondrej, Karel]]; [[Benes, Karel]]; [[Kapsa, Jan]]; [[Smrz, Pavel]]; [[Polok, Alexander]]; [[Hradis, Michal]]"
-authors_incomplete: true
+last_author: "[[Kydlicek, Hynek]]"
+authors: "[[Fajcik, Martin]]; [[Docekal, Martin]]; [[Dolezal, Jan]]; [[Ondrej, Karel]]; [[Beneš, Karel]]; [[Kapsa, Jan]]; [[Smrz, Pavel]]; [[Polok, Alexander]]; [[Hradis, Michal]]; [[Neverilova, Zuzana]]; [[Horak, Ales]]; [[Sabol, Radoslav]]; [[Stefanik, Michal]]; [[Jirkovsky, Adam]]; [[Adamczyk, David]]; [[Hyner, Petr]]; [[Hula, Jan]]; [[Kydlicek, Hynek]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.17933"
 external_pdf: "https://arxiv.org/pdf/2412.17933.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Czech"
 languages_list: Czech
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Martin Fajcik, Martin Docekal, Jan Dolezal, Karel Ondrej, Karel Benes, Jan Kapsa, Pavel Smrz, Alexander Polok, Michal Hradis, et al.]]
+[[Fajcik, Martin]], [[Docekal, Martin]], [[Dolezal, Jan]], [[Ondrej, Karel]], [[Beneš, Karel]], [[Kapsa, Jan]], [[Smrz, Pavel]], [[Polok, Alexander]], [[Hradis, Michal]], [[Neverilova, Zuzana]], [[Horak, Ales]], [[Sabol, Radoslav]], [[Stefanik, Michal]], [[Jatowt, Adam|Jirkovsky, Adam]], [[Anat Ben David|Adamczyk, David]], [[Hyner, Petr]], [[Hula, Jan]], [[Kydlicek, Hynek]]
 
 ## Metadata
 
-**Authors:** Martin Fajcik, Martin Docekal, Jan Dolezal, Karel Ondrej, Karel Benes, Jan Kapsa, Pavel Smrz, Alexander Polok, Michal Hradis, et al.
+**Authors:** Fajcik, Martin; Docekal, Martin; Dolezal, Jan; Ondrej, Karel; Beneš, Karel; Kapsa, Jan; Smrz, Pavel; Polok, Alexander; Hradis, Michal; Neverilova, Zuzana; Horak, Ales; Sabol, Radoslav; Stefanik, Michal; Jirkovsky, Adam; Adamczyk, David; Hyner, Petr; Hula, Jan; Kydlicek, Hynek
 
 **Year:** 2024
 

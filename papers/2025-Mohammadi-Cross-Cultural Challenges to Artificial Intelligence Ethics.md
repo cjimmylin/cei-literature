@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: conferencePaper
 short_title: "Cross-Cultural Challenges to Artificial Intelligence Ethics"
 year: 2025
 first_author: "[[Hadi Mohammadi]]"
-last_author: [[Yasmeen]]
+last_author: "[[Yasmeen Hadi Mohammadi]]"
 authors: "Hadi Mohammadi, Yasmeen"
 url: "https://www.mdpi.com/2813-0324/8/1/21"
 publication: MDPI
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "N/A"
 languages_list: "Arabic, English, Multilingual, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Hadi Mohammadi, Yasmeen]]
+[[Yasmeen Hadi Mohammadi]]
 
 ## Metadata
 

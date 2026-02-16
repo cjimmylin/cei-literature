@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Arabic, French"
+cultures_nationalities_list: "French"
 languages_list: French
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Zahim Chared]], [[Clément Jantet]], [[Calliste Ravix]], [[Robin Salmi]], [[Ehtesham Hashmi]], [[Sule YAYILGAN YILDIRIM]]
+[[Chared, Zahim]], [[Jantet, Clément]], [[Ravix, Calliste]], [[Salmi, Robin]], [[Hashmi, Ehtesham]], [[YILDIRIM, Sule YAYILGAN]]
 
 ## Metadata
 

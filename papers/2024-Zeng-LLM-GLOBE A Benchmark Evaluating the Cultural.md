@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "LLM-GLOBE A Benchmark Evaluating the Cultural"
 year: 2025
 first_author: "[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]"
-last_author: "[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]"
+last_author: "[[Yi Zeng]]"
 authors: "[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.06032"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]
+[[Elise Karinshak]], [[Amanda Hu]], [[Kewen Kong]], [[Vishwanatha Rao]], [[Jingren Wang]], [[Jindong Wang]], [[Yi Zeng]]
 
 ## Metadata
 

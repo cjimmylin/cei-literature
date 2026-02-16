@@ -20,10 +20,16 @@ Researcher affiliated with Stanford University. Co-authored "Morality is Non-Bin
 ## Papers in this Vault
 
 
+
+
 - [[2024-Park-Morality is Non-Binary|Morality is Non-Binary]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Park-Morality is Non-Binary*: Affiliation: University of Technology, the Netherlands, Email: E.Liscio@tudelft.nl
+- *From 2024-Park-Morality is Non-Binary*: Affiliation: University of Technology, the Netherlands, Email: E.Liscio@tudelft.nl
 - *From 2024-Park-Morality is Non-Binary*: Affiliation: University of Technology, the Netherlands, Email: E.Liscio@tudelft.nl
 [Additional context or contact information]

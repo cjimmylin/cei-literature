@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Dicta-LM 3.0: Advancing The Frontier of Hebrew Sovereign LLMs"
 year: 2025
 first_author: "[[Shaltiel Shmidman]]"
-last_author: "[[Moshe Koppel]]"
+last_author: "[[Moshe Koppel Amir DN Cohen]]"
 authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://dicta.org.il/publications/DictaLM_3_0___Techincal_Report.pdf"
 external_pdf: "https://arxiv.org/pdf/2602.02104.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli, Hebrew"
 languages_list: "English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]
+[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
 
 ## Metadata
 

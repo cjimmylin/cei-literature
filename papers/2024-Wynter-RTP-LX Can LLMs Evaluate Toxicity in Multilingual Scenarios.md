@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?"
 year: 2025
 first_author: "[[Adrian de Wynter]]"
-last_author: "[[German Rigau]]"
+last_author: "[[German Rigau Karthik Narasimhan]]"
 authors: "Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau"
 url: "https://arxiv.org/abs/2404.14397"
 external_pdf: "https://arxiv.org/pdf/2404.14397.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Hebrew/Israeli"
+cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Israeli"
 languages_list: "Arabic, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau]]
+[[Ishaan Watts Adrian de Wynter]], [[Minghui Zhang Tua Wongsangaroonsri]], [[Lena Baber Noura Farra]], [[Judit Dominguez Samantha Claudet]], [[Anna Kaminskaya Aishwarya Gupta]], [[Jongho Lee Maram Kurdi]], [[Aadil Mufti Mahsa Moghimi]], [[German Rigau Karthik Narasimhan]]
 
 ## Metadata
 

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Maarten Wilders; Inigo Martinez de Rituerto de Troya; Roel Dobbe"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36748"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -24,6 +27,7 @@ pdf_extract: "PDF Extracts/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics
 abstract: "This paper investigates how the Socratic Dialogue can cultivate moral virtues among AI practitioners, focusing on core virtues identified by Hagendorff as essential to ethical AI practice: justice, care, honesty, responsibility, practical wisdom (phronesis), and fortitude. Using a case study conducted at a financial bank’s transaction monitoring department, we examine how structured ethical deliberation cultivates the dispositions needed to navigate moral complexity in AI ethics."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"

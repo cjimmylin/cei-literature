@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/F8XQ7HNN/Hatemo et al. - Re
 pdf_extract: "PDF Extracts/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.md"
 local_pdf: "[[PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
@@ -23,6 +26,7 @@ key_contribution: "Investigated ethical reasoning in LLaMA, Mistral, and Qwen us
 significance: "Found significant biases in model decisions based on nationality, and distinct 'moral personalities' (e.g., Mistral's tendency to intervene vs. Qwen's passivity), revealing the brittleness of current alignment."
 tags: 
 abstract: "The trolley problem has long served as a lens for exploring moral decision-making, now gaining renewed significance in the context of artificial intelligence (AI). This study investigates ethical reasoning in three open-source large language models (LLMs)—LLaMA, Mistral and Qwen—through variants of the trolley problem. By introducing demographic prompts (age, nationality and gender) into three scenarios (switch, loop and footbridge), we systematically evaluate LLM responses against human survey..."
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

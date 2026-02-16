@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "IndQA An Indic QA Benchmark for"
 year: 2025
 first_author: "[[Research, AI4Bharat / IBM]]"
-last_author: "[[Research, AI4Bharat / IBM]]"
+last_author: "[[AI4Bharat IBM Research]]"
 authors: "[[AI4Bharat / IBM Research]]"
 authors_incomplete: false
 url: "https://www.ibm.com/think/news/indqa-llm-benchmark"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[AI4Bharat / IBM Research]]
+[[AI4Bharat IBM Research]]
 
 ## Metadata
 

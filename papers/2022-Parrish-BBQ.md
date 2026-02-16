@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ doi: 10.18653/v1/2022.findings-acl.165
 url: "https://aclanthology.org/2022.findings-acl.165/"
 external_pdf: "https://aclanthology.org/2022.findings-acl.165.pdf"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ tags:
 abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
 pdf_extract: "PDF Extracts/2022/2022-Parrish-BBQ.md"
 local_pdf: [[PDFs/2022/2022-Parrish-BBQ.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

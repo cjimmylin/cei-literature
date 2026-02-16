@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
+- *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
 - *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
 [Additional context or contact information]

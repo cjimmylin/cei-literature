@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2307.03109"
 external_pdf: "http://arxiv.org/pdf/2307.03109.pdf"
 publication: "ACM Transactions on Intelligent Systems and Technology"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Chang-A Survey on Evaluation of Large Langu
 abstract: "Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT perform on the United States Medical Licensing Examination? the implications of large language models for medical education and knowledge assessment. JMIR Medical Education 9, 1 (2023), e45312. [58] Jesse Graham, Jonathan Haidt, Sena Koleva, Matt Motyl, Ravi Iyer, Sean P Wojcik, and Peter H Ditto. 201"
 paper_summary: "Abstract: Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT pe | Overview: 111 A Survey on Evaluation of Large Language Models YUPENG CHANG∗and XU WANG∗, School of Artificial Intelligence, Jilin University, China JINDONG WANG†, Microsoft Research Asia, China YUAN WU†, School | Methodology: References Human-in-the-loop AdaVision [50], AdaTest [164] Crowd-sourcing testing DynaBench [94], DynaBoard [132], DynamicTempLAMA [135], DynaTask [18 | Key Findings: What to evaluate (Sec. 3) Natural language processing Natural language understanding: (1) Sentiment analysis: Bang et al. [6]/ Liang et al. [114]/ Lop | Conclusions: Evaluation carries profound significance, becoming imperative in the advancement of AI models, especially within the context of large language models."
 local_pdf: "[[PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

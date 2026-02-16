@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Detecting Hate Speech Online: A Case of Croatian"
 year: 2025
 first_author: "[[Mladen Karan]]"
-last_author: "[[Jan Snajder]]"
+last_author: "[[Jan Snajder Mladen Karan]]"
 authors: "Mladen Karan, Jan Snajder"
 doi: 10.1007/978-3-030-38833-1_16
 url: "https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16"
@@ -30,6 +31,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Croatian"
 languages_list: Croatian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +52,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Mladen Karan, Jan Snajder]]
+[[Jan Snajder Mladen Karan]]
 
 ## Metadata
 

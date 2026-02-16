@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Mengyuan Zhang]], [[Ruihui Wang]], [[Bo Xia]], [[Yuan Sun]], [[Xiaobing Zhao]]
+[[Zhang, Mengyuan]], [[Wang, Ruihui]], [[Xia, Bo]], [[Sun, Yuan]], [[Zhao, Xiaobing]]
 
 ## Metadata
 

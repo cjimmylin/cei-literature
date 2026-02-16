@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Albertina: Advancing Neural Encoding of Portuguese"
 year: 2025
 first_author: "[[PORTULAN/CLUL team]]"
-last_author: "[[PORTULAN/CLUL team]]"
+last_author: "[[PORTULANCLUL team]]"
 authors: "PORTULAN/CLUL team"
 url: "https://arxiv.org/abs/2305.06721"
 external_pdf: "https://arxiv.org/pdf/2305.06721.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American, Brazilian"
+cultures_nationalities_list: "Portuguese, Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[PORTULAN/CLUL team]]
+[[PORTULANCLUL team]]
 
 ## Metadata
 

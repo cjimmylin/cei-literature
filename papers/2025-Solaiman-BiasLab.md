@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2505.16081"
 external_pdf: "http://arxiv.org/pdf/2505.16081.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

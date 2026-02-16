@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "The Five Tests Designing and Evaluating"
 year: 2025
 first_author: "[[Munn, Luke]]"
-last_author: "[[Munn, Luke]]"
+last_author: "[[Luke Munn]]"
 authors: "[[Luke Munn]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indigenous Australian"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "Value Pluralism / Schwartz"

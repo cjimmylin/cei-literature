@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.1007/s44443-025-00128-w
 url: "https://link.springer.com/10.1007/s44443-025-00128-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00128-w.pdf"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic, Islamic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

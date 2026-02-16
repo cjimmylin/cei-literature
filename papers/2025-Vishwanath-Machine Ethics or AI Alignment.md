@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 publication: "CEUR Workshop Proceedings"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Vishwanath-Machine Ethics or AI Alignment.m
 abstract: "Machine ethics and AI alignment have become increasingly important research disciplines in the context of modern AI technologies. Recently, there has been ambiguity regarding the specific aspects of ethical AI development that pertain to the two academic disciplines, often resulting in the interchangeable use of these terminologies. In this position paper, we explore these two disciplines by discussing ongoing research and clarifying their goals."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

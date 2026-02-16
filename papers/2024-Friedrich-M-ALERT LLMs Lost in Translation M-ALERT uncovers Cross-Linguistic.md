@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German, Italian, Spanish"
+cultures_nationalities_list: "French, German, Italian, Spanish"
 languages_list: "English, French, German, Italian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Felix Friedrich, Simone Teber, Patrick Schramowski, Manuel Brack, Kristian Kersting]]
+[[Felix Friedrich]], [[Simone Teber]], [[Patrick Schramowski]], [[Manuel Brack]], [[Kristian Kersting]]
 
 ## Metadata
 

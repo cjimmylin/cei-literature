@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: Indigenous Language Technology in the Age of Machine Learning
 year: 2024
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (Tandfonline authors)]]"
 authors: Unknown (Tandfonline authors)
 doi: 10.1080/08003831.2024.2410124
 url: "https://www.tandfonline.com/doi/full/10.1080/08003831.2024.2410124"

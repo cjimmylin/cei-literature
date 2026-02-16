@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Uzbek"
 languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Elmurod Kuriyozov]], [[Sanatbek Matlatipov]], [[Miguel A. Alonso]], [[Carlos Gómez-Rodríguez]]
+[[Kuriyozov, Elmurod]], [[Matlatipov, Sanatbek]], [[Alonso, Miguel A]], [[Gómez-Rodríguez, Carlos]]
 
 ## Metadata
 

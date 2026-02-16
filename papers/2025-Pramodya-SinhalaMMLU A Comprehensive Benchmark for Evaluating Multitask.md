@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Sri Lankan, Sinhala"
 languages_list: Sinhala
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Ashmari Pramodya]], [[Nirasha Nelki]], [[Heshan Shalinda]], [[Chamila Liyanage]], [[Yusuke Sakai]], [[Randil Pushpananda]], [[Ruvan Weerasinghe]], [[Hidetaka Kamigaito]], [[Taro Watanabe]]
+[[Pramodya, Ashmari]], [[Nelki, Nirasha]], [[Shalinda, Heshan]], [[Liyanage, Chamila]], [[Sakai, Yusuke]], [[Pushpananda, Randil]], [[Weerasinghe, Ruvan]], [[Kamigaito, Hidetaka]], [[Watanabe, Taro]]
 
 ## Metadata
 

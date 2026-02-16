@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Other"
 
 ## Authors
 
-Unknown
+[[Jay Gala]], [[Thanmay Jayakumar]], [[Jaavid Aktar Husain]], [[Aswanth Kumar M]], [[Mohammed Safi Ur Rahman Khan]], [[Diptesh Kanojia]], [[Ratish Puduppully]], [[Mitesh M. Khapra]], [[Raj Dabre]], [[Rudra Murthy]], [[Anoop Kunchukuttan]]
 
 ## Metadata
 

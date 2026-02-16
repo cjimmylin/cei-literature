@@ -45,6 +45,8 @@ First author of "MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Mode
 ## Papers in this Vault
 
 
+
+
 - [[2025-Fu-MME-CoT|MME-CoT]] (First Author)
 
 ## Links

@@ -47,6 +47,8 @@ She has developed practical guidelines for Kenyan Research Ethics Committees (RE
 ## Papers in this Vault
 
 
+
+
 - [[2024-Odero-The Ubuntu Way|The Ubuntu Way]] (First Author)
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ She has developed practical guidelines for Kenyan Research Ethics Committees (RE
 
 ## Notes
 
+
+
+- *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
+- *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 - *From 2024-Odero-The Ubuntu Way*: Affiliation: Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Na, Email: AMusiega@kemri-wellcome.org
 Brenda's work on "Ubuntu-based AI Ethics" is a vital contribution to the "Global South" perspective on AI alignment, emphasizing collective well-being over purely algorithmic metrics.

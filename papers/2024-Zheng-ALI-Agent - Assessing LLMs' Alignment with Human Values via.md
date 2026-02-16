@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ normative_ethics_benchmark: Borderline
 
 ## Authors
 
-[[Zheng, Jingnan]], [[Wang, Han]], [[Zhang, An]], [[Nguyen, Tai D.]], [[Sun, Jun]], [[Chua, Tat-Seng]]
+[[Zheng, Jingnan]], [[Wang, Han]], [[Zhiyu An|Zhang, An]], [[Nguyen, Tai D]], [[Sun, Jun]], [[Chua, Tat-Seng]]
 
 ## Metadata
 

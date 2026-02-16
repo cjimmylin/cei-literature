@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
 ## Notes
 
 
+
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 [Additional context or contact information]

@@ -18,7 +18,10 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
+- [[2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized|Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity]]
 - [[2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on|Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters]] (Last Author)
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
 - [[2023-Wang-DecodingTrust|DecodingTrust]]
@@ -28,5 +31,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 [Additional context or contact information]

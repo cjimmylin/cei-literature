@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of|MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of*: Affiliation: laboration and Competition of - PDF Extract", Email: kunlunz2@illinois.edu
+- *From 2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of*: Affiliation: laboration and Competition of - PDF Extract", Email: kunlunz2@illinois.edu
 - *From 2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of*: Affiliation: laboration and Competition of - PDF Extract", Email: kunlunz2@illinois.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

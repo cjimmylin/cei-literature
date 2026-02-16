@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate|Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways]] (First Author)
 - [[2022-Trye-Harnessing Indigenous Tweets|Harnessing Indigenous Tweets]]
 
 ## Notes
 
 
+
+
+- *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
+- *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 - *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 [Additional context or contact information]

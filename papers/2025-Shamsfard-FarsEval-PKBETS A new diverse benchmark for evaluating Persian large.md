@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian, Persian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Mehrnoush Shamsfard]], [[Zahra Saaberi]], [[Mostafa Karimi manesh]], [[Seyed Mohammad Hossein Hashemi]], [[Zahra Vatankhah]], [[Motahareh Ramezani]], [[Niki Pourazin]], [[Tara Zare]], [[Maryam Azimi]], [[Sarina Chitsaz]], [[Sama Khoraminejad]], [[Morteza Mahdavi Mortazavi]], [[Mohammad Mahdi Chizari]], [[Sahar Maleki]], [[Seyed Soroush Majd]], [[Mostafa Masumi]], [[Sayed Ali Musavi Khoeini]], [[Amir Mohseni]], [[Sogol Alipour]]
+[[Shamsfard, Mehrnoush]], [[Saaberi, Zahra]], [[manesh, Mostafa Karimi]], [[Hashemi, Seyed Mohammad Hossein]], [[Vatankhah, Zahra]], [[Ramezani, Motahareh]], [[Pourazin, Niki]], [[Zare, Tara]], [[Azimi, Maryam]], [[Chitsaz, Sarina]], [[Khoraminejad, Sama]], [[Mortazavi, Morteza Mahdavi]], [[Chizari, Mohammad Mahdi]], [[Maleki, Sahar]], [[Majd, Seyed Soroush]], [[Masumi, Mostafa]], [[Khoeini, Sayed Ali Musavi]], [[Mohseni, Amir]], [[Alipour, Sogol]]
 
 ## Metadata
 

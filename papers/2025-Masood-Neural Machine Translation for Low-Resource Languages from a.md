@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Neural Machine Translation for Low-Resource Languages from a Chinese-centric Perspective: A Survey | ACM Transactions on Asian and Low-Resource Language Information Processing"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"
 doi: 10.1145/3665244
 url: "https://dl.acm.org/doi/10.1145/3665244"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Chinese, English, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Adnan Masood, Ph]]
+[[Ph Adnan Masood]]
 
 ## Metadata
 

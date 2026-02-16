@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "N/A"
 languages_list: "Multiple including Russian, Bulgarian, Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +49,7 @@ authors_incomplete: false
 
 ## Authors
 
-[[Jiayang Song]], [[Yuheng Huang]], [[Zhehua Zhou]], [[Lei Ma]]
+[[Jinwang Song|Jiayang Song]], [[Yuheng Huang]], [[Zhehua Zhou]], [[Lei Ma]]
 
 ## Metadata
 

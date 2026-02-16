@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2018-Zhao-Gender Bias in Coreference Resolution|Gender Bias in Coreference Resolution]]
 
 ## Notes
 
 
+
+
+- *From 2018-Zhao-Gender Bias in Coreference Resolution*: Affiliation: lable coreference
+- *From 2018-Zhao-Gender Bias in Coreference Resolution*: Affiliation: lable coreference
 - *From 2018-Zhao-Gender Bias in Coreference Resolution*: Affiliation: lable coreference
 [Additional context or contact information]

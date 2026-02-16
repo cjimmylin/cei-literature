@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1007/s43681-022-00251-8
 url: "https://link.springer.com/article/10.1007/s43681-022-00251-8"
 publication: "AI and Ethics"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2022/2022-Vishwanath-Towards Artificial Virtuous Agen
 abstract: "We consider a non-linear heat equation ∂tu = ∆u + B(u, Du) + P(u) posed on the d-dimensional torus, where P is a polynomial of degree at most 3 and B is a bilinear map that is not a total derivative. We show that, if the initial condition u0 is taken from a sequence of smooth Gaussian ﬁelds with a speciﬁed covariance, then u exhibits norm inﬂation with high probability. A consequence of this result is that there exists no Banach space of distributions which carries the Gaussian free ﬁeld on the..."
 paper_summary: 
 local_pdf: "[[PDFs/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"

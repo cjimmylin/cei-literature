@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Guijin Son, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim]]
+[[Guijin Son]], [[Hwaran Lee|Hanwool Lee]], [[Suwan Kim]], [[Huiseo Kim]], [[Jaecheol Lee]], [[Je Won Yeom]], [[Jihyu Jung]], [[Jung Woo Kim]], [[Songseong Kim]]
 
 ## Metadata
 

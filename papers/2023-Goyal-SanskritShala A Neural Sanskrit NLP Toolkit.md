@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "SanskritShala A Neural Sanskrit NLP Toolkit"
 year: 2025
 first_author: "[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, Pawan Goyal]]"
-last_author: "[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, Pawan Goyal]]"
+last_author: "[[Pawan Goyal]]"
 authors: "[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, Pawan Goyal]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2302.09527"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Tushar Sandhan, Anshul Agarwal, Jivnesh Sandhan, Laxmidhar Behera, Pawan Goyal]]
+[[Tushar Sandhan]], [[Anshul Agarwal]], [[Jivnesh Sandhan]], [[Laxmidhar Behera]], [[Pawan Goyal]]
 
 ## Metadata
 

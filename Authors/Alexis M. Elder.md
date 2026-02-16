@@ -30,6 +30,8 @@ Alexis M. Elder is an Associate Professor of Philosophy at the University of Min
 ## Papers in this Vault
 
 
+
+
 - [[2025-Elder-The Ethics of Digital Ghosts|The Ethics of Digital Ghosts]] (First Author)
 
 ## Links

@@ -21,10 +21,16 @@ Monika Jotautaitė is an independent researcher working on LLM evaluations and A
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
+- *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 - *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge
 [Additional context or contact information]

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Yejin Bang; Ziwei Ji; Alan Schelten; Anthony Hartshorn; Tara Fowler; C
 url: "https://arxiv.org/abs/2504.17550"
 external_pdf: "https://arxiv.org/pdf/2504.17550.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ pdf_extract: "PDF Extracts/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.
 paper_summary: "Overview: HalluLens: LLM Hallucination Benchmark Yejin Bang3,∗, Ziwei Ji3,∗, Alan Schelten2, Anthony Hartshorn2, Tara Fowler2, Cheng Zhang2, Nicola Cancedda1, Pascale Fung1,3 1FAIR at Meta, 2GenAI at Meta, 3HKU | Methodology: allows room for model improvement and prevents the benchmark from becoming obsolete quickly. Reproducibility: To foster consensus and transparency in  | Key Findings: of a model's performance, rather than encouraging narrow optimization for the benchmark itself – a pitfall known as Goodhart's law. By focusing on rea | Conclusions: Table 7 shows the false acceptance rates in percentages for each subtasks and average of those two. We find that the absolute performance vary across"
 local_pdf: "[[PDFs/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf]]"
 abstract: "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Meadows-LocalValueBench|LocalValueBench]]
 
 ## Notes
 
 
+
+
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 [Additional context or contact information]

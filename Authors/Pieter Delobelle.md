@@ -35,6 +35,9 @@ Pieter Delobelle is a postdoctoral researcher at KU Leuven specializing in fairn
 
 ## Papers in this Vault
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## Links

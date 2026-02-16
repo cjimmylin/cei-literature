@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Turkish Offensive Language Detection Dataset"
 year: 2025
 first_author: [[Toygar]]
-last_author: [[Toygar]]
+last_author: "[[Toygar]]"
 authors: [[Toygar]]
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
@@ -30,6 +31,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

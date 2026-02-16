@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jourdan-FairTranslate|FairTranslate]]
 
 ## Notes
 
 
+
+
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 [Additional context or contact information]

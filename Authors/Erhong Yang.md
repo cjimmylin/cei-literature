@@ -1,9 +1,9 @@
 ---
 name: "Erhong Yang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Oxford, Department of Computer Science"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "elle.yang@cs.ox.ac.uk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE A Chinese Language Understanding and Generation Evaluation]]
+
+- [[2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.|Reward Model Perspectives on Demographic Alignment (Elle et al.)]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.*: Affiliation: University of Oxford, Department of Computer Science, Email: elle.yang@cs.ox.ac.uk
+- *From 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.*: Affiliation: University of Oxford, Department of Computer Science, Email: elle.yang@cs.ox.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

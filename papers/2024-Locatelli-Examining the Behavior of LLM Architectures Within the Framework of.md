@@ -44,7 +44,7 @@ research_topic: "Interpretability & Explainability"
 
 ## Authors
 
-[[Marcelo Sartori Locatelli, Matheus Prado Miranda, Igor Joaquim da Silva Costa, Matheus Torres Prates, Victor Thomé, Mateus Zaparoli Monteiro, Tomas Lacerda, Adriana Pagano, Eduardo Rios Neto, Wagner Meira Jr., Virgilio Almeida]]
+[[Marcelo Sartori Locatelli]], [[Matheus Prado Miranda]], [[Igor Joaquim da Silva Costa]], [[Matheus Torres Prates]], [[Victor Thomé]], [[Mateus Zaparoli Monteiro]], [[Tomas Lacerda]], [[Adriana Pagano]], [[Eduardo Rios Neto]], [[Wagner Meira Jr]], [[Virgilio Almeida]]
 
 ## Metadata
 

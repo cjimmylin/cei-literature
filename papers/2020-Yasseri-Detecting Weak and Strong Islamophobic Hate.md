@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ type: journal_article
 short_title: "Detecting Weak and Strong Islamophobic Hate"
 year: 2025
 first_author: "[[Bertie Vidgen, Taha Yasseri]]"
-last_author: "[[Bertie Vidgen, Taha Yasseri]]"
+last_author: "[[Taha Yasseri Bertie Vidgen]]"
 authors: "[[Bertie Vidgen, Taha Yasseri]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/1812.10400"
@@ -27,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Bertie Vidgen, Taha Yasseri]]
+[[Taha Yasseri Bertie Vidgen]]
 
 ## Metadata
 

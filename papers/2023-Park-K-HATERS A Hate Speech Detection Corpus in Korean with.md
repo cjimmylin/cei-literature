@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "K-HATERS: A Hate Speech Detection Corpus in Korean with Target-Specific Ratings"
 year: 2025
 first_author: "[[Chaewon Park]]"
-last_author: "[[Kunwoo Park]]"
+last_author: "[[Kunwoo Park Kyubyong Park]]"
 authors: "Chaewon Park, Soohwan Kim, Kyubyong Park, Kunwoo Park"
 doi: 10.18653/v1/2023.findings-emnlp.952
 url: "https://arxiv.org/abs/2310.15439"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Chaewon Park, Soohwan Kim, Kyubyong Park, Kunwoo Park]]
+[[Soohwan Kim Chaewon Park]], [[Kunwoo Park Kyubyong Park]]
 
 ## Metadata
 

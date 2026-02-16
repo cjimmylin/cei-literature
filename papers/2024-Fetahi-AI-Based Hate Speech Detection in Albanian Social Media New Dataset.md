@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Albanian"
 languages_list: Albanian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Etrit Fetahi, Majlinda Hamiti, Arianit Susuri, Jaumin Ajdari, Xhemal Zenuni]]
+[[Etrit Fetahi]], [[Majlinda Hamiti]], [[Arianit Susuri]], [[Jaumin Ajdari]], [[Xhemal Zenuni]]
 
 ## Metadata
 

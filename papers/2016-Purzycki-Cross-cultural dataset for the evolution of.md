@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.1038/sdata.2016.99
 url: "https://www.nature.com/articles/sdata201699"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQRCW8LB/Purzycki et al. - 2016 - Cross-cultural dataset for the evolution of religion and morality project.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +26,7 @@ key_contribution: "Produced a cross-cultural dataset examining the evolution of 
 significance: "Provides rare empirical data on religious beliefs and moral behavior from non-market-integrated societies, offering a crucial baseline for understanding the universality vs. specificity of human moral evolution."
 tags: 
 abstract: "Abstract A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The bulk of this research, however, draws from coded qualitative ethnographies rather than from standardized methods specifically designed to measure religious beliefs and behaviors. Psychological data sets that examine religious thought and behavior in controlled conditions tend to be disproportionately sampled from student populations. Some cross-national databases e"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

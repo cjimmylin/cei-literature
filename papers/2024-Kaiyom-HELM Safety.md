@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/5RFJXS3S/Kaiyom and others 
 pdf_extract: "PDF Extracts/2024/2024-Kaiyom-HELM Safety.md"
 local_pdf: "[[PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Part of the Holistic Evaluation of Language Models (HELM), de
 significance: "Moves safety evaluation from ad-hoc tests to a standardized, rigorous leaderboard entry, forcing all new models to report comparable safety metrics."
 tags: 
 abstract: "HELM Safety v1.0 is a broad, transparent, and standardized safety evaluation for language models. The evaluation covers a comprehensive taxonomy of risks based on developers' acceptable use policies, spanning violence, fraud, discrimination, sexual content, harassment, and deception. HELM Safety features evaluations including BBQ (social discrimination), SimpleSafetyTest, HarmBench (jailbreaking), XSTest (edge cases), and AnthropicRedTeam."
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

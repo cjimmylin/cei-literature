@@ -35,6 +35,9 @@ Her work has been featured in Nature, The New York Times, The Washington Post, M
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2024-Pistilli-CIVICS|CIVICS]] (First Author)
 
@@ -48,5 +51,9 @@ Her work has been featured in Nature, The New York Times, The Washington Post, M
 ## Notes
 
 
+
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 Self-describes as "an atypical philosopher, one who spends more time with engineers and machine learning models than with ancient texts." Emphasizes that "Ethics is not a constraint that slows down technological innovation."

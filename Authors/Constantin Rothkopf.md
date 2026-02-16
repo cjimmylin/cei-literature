@@ -34,6 +34,8 @@ Constantin Rothkopf is a full professor at TU Darmstadt's Institute for Psycholo
 
 ## Papers in this Vault
 
+
+
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
 
 ## External Links & Profiles
@@ -44,5 +46,9 @@ Constantin Rothkopf is a full professor at TU Darmstadt's Institute for Psycholo
 
 ## Notes
 
+
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: cigdem.turan@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 Relevant to AI ethics through his work on the Moral Choice Machine and broader contributions to understanding human cognition for AI development. His position at the intersection of cognitive science and AI, particularly through hessian.AI and ELLIS, makes his perspective valuable for human-centered AI alignment research. The ACTOR project aims to better understand human behavior to inform AI development.

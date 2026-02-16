@@ -30,6 +30,8 @@ He has published hundreds of papers at top venues (ACL, EMNLP, NAACL, NeurIPS, I
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -47,5 +49,9 @@ He has published hundreds of papers at top venues (ACL, EMNLP, NAACL, NeurIPS, I
 ## Notes
 
 
+
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 Mohit Bansal is a leading figure in NLP research with major contributions to multimodal AI and language generation. His work on trustworthy AI systems is particularly relevant to AI safety and ethics research.

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "A Dataset for Investigating Tagalog-English Code-Switching"
 year: 2025
 first_author: [[Herrera]]
-last_author: [[Megan]]
+last_author: "[[Megan Herrera]]"
 authors: "Herrera, Megan"
 url: "https://aclanthology.org/2022.lrec-1.225.pdf"
 external_pdf: "https://aclanthology.org/2022.lrec-1.225.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
+cultures_nationalities_list: "Filipino"
 languages_list: "Code-switching, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Herrera, Megan]]
+[[Megan Herrera]]
 
 ## Metadata
 

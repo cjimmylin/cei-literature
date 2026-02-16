@@ -49,7 +49,10 @@ Gabriel led one of DeepMind's largest ethics foresight projects to date, produci
 ## Papers in this Vault
 
 
+
+
 - [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Gabriel-AI Alignment as Fair Treatment of Claims|AI Alignment as Fair Treatment of Claims]] (First Author)
 - [[2025-Kasirzadeh-Characterizing AI Agents for Alignment and|Characterizing AI Agents for Alignment and]] (Last Author)
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]] (Last Author)
@@ -72,5 +75,9 @@ Gabriel led one of DeepMind's largest ethics foresight projects to date, produci
 ## Notes
 
 
+
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 Iason Gabriel's work represents a vital bridge between philosophical ethics and practical AI development, bringing rigorous moral frameworks to bear on the most pressing challenges in AI safety and alignment.

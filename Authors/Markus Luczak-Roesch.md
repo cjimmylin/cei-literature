@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Fischer-What does ChatGPT return about human values|What does ChatGPT return about human values?]]
 
 ## Notes
 
 
+
+
+- *From 2023-Fischer-What does ChatGPT return about human values*: Affiliation: Research Group, Institute D’Or for Research and Teaching, Rua, Email: ronald.fischer@idor.org
+- *From 2023-Fischer-What does ChatGPT return about human values*: Affiliation: Research Group, Institute D’Or for Research and Teaching, Rua, Email: Johannes.karl@dcu.ie
 - *From 2023-Fischer-What does ChatGPT return about human values*: Affiliation: Research Group, Institute D’Or for Research and Teaching, Rua, Email: ronald.fischer@idor.org
 [Additional context or contact information]

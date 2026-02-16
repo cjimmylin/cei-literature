@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
+cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Wang, et al.]]
+[[Wang]]
 
 ## Metadata
 

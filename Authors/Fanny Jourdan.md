@@ -47,6 +47,8 @@ Jourdan created FairTranslate, a novel, fully human-annotated dataset designed t
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jourdan-FairTranslate|FairTranslate]] (First Author)
 
 ## External Links & Profiles
@@ -59,5 +61,9 @@ Jourdan created FairTranslate, a novel, fully human-annotated dataset designed t
 ## Notes
 
 
+
+
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: cecile.favre@univ-lyon2.fr
+- *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 - *From 2025-Jourdan-FairTranslate*: Affiliation: label (male, female, or inclusive), Email: fanny.jourdan@irt-saintexupery.com
 Fanny Jourdan's work on FairTranslate addresses the critical challenge of non-binary gender representation in machine translation, moving beyond traditional binary approaches to create more inclusive AI systems.

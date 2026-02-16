@@ -38,6 +38,8 @@ The research employed a novel typology for ethical reasoning and an interrogatio
 ## Papers in this Vault
 
 
+
+
 - [[2024-Meadows-LocalValueBench|LocalValueBench]] (First Author)
 
 ## Links
@@ -47,5 +49,9 @@ The research employed a novel typology for ethical reasoning and an interrogatio
 ## Notes
 
 
+
+
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 Meadows' work on localized value benchmarks contributes to understanding how AI systems can be evaluated against diverse cultural and regulatory standards, which is essential for responsible AI deployment globally.

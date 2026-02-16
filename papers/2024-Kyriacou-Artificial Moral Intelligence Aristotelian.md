@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -14,6 +16,7 @@ url: "https://link.springer.com/article/10.1007/s43681-024-00543-1"
 pdf_extract: "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md"
 local_pdf: "[[PDFs/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes
@@ -22,6 +25,7 @@ key_contribution: "Argues human rational intelligence is not mechanically comput
 significance: "Rigorous Aristotelian critique of AI moral intelligence claims based on computability arguments"
 external_pdf: N/A
 abstract: "The paper argues that AI systems solve problems based on mechanically computational, means-end reasoning (called 'mechanical instrumental rationality'), while human intelligence, to the extent that it is rational, is not mechanically computable - not reducible to mechanical computations for at least four basic reasons. These include that human intelligence is categorically normative, AI lacks autonomous reasons-responsiveness, rational human intelligence necessarily involves indispensable affective experience, and practical wisdom (phronesis) requires genuine understanding."
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

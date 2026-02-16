@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 languages_list: English
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Yang Liu]], [[Masahiro Kaneko]], [[Chenhui Chu]]
+[[Yang Liu|Liu, Yang]], [[Masahiro Kaneko|Kaneko, Masahiro]], [[Chu, Chenhui]]
 
 ## Metadata
 

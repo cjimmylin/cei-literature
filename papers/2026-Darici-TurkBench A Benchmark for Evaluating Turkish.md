@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "TurkBench A Benchmark for Evaluating Turkish"
 year: 2025
 first_author: "[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan, Gorkem Sevinc, Mete Mert Birdal, Yusuf Faruk Guldemir, Ali Bugra Kanburoglu, Sezen Felekoglu, Osman Gurlek, Sarp Kantar, Birsen Sahin Kutuk, Busra Tufan, Elif Genc, Serkan Coskun, Gupse Ekin Demir, Muhammed Emin Arayici, Olgun Dursun, Onur Gungor, Susan Uskudarli, Abdullah Topraksoy, Esra Darici]]"
-last_author: "[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan, Gorkem Sevinc, Mete Mert Birdal, Yusuf Faruk Guldemir, Ali Bugra Kanburoglu, Sezen Felekoglu, Osman Gurlek, Sarp Kantar, Birsen Sahin Kutuk, Busra Tufan, Elif Genc, Serkan Coskun, Gupse Ekin Demir, Muhammed Emin Arayici, Olgun Dursun, Onur Gungor, Susan Uskudarli, Abdullah Topraksoy, Esra Darici]]"
+last_author: "[[Esra Darici Abdullah Topraksoy]]"
 authors: "[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan, Gorkem Sevinc, Mete Mert Birdal, Yusuf Faruk Guldemir, Ali Bugra Kanburoglu, Sezen Felekoglu, Osman Gurlek, Sarp Kantar, Birsen Sahin Kutuk, Busra Tufan, Elif Genc, Serkan Coskun, Gupse Ekin Demir, Muhammed Emin Arayici, Olgun Dursun, Onur Gungor, Susan Uskudarli, Abdullah Topraksoy, Esra Darici]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07020"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Cagri Toraman, Ahmet Kaan Sever, Ayse Aysu Cengiz, Elif Ecem Arslan, Gorkem Sevinc, Mete Mert Birdal, Yusuf Faruk Guldemir, Ali Bugra Kanburoglu, Sezen Felekoglu, Osman Gurlek, Sarp Kantar, Birsen Sahin Kutuk, Busra Tufan, Elif Genc, Serkan Coskun, Gupse Ekin Demir, Muhammed Emin Arayici, Olgun Dursun, Onur Gungor, Susan Uskudarli, Abdullah Topraksoy, Esra Darici]]
+[[Ahmet Kaan Sever Cagri Toraman]], [[Elif Ecem Arslan Ayse Aysu Cengiz]], [[Mete Mert Birdal Gorkem Sevinc]], [[Ali Bugra Kanburoglu Yusuf Faruk Guldemir]], [[Osman Gurlek Sezen Felekoglu]], [[Birsen Sahin Kutuk Sarp Kantar]], [[Elif Genc Busra Tufan]], [[Gupse Ekin Demir Serkan Coskun]], [[Olgun Dursun Muhammed Emin Arayici]], [[Susan Uskudarli Onur Gungor]], [[Esra Darici Abdullah Topraksoy]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models"
 year: 2025
 first_author: "[[Yeeun Kim]]"
-last_author: "[[Wonseok Hwang]]"
+last_author: "[[Wonseok Hwang Hai Jin Park]]"
 authors: "Yeeun Kim, Young Rok Choi, Eunkyung Choi, Jinhwan Choi, Hai Jin Park, Wonseok Hwang"
 doi: 10.18653/v1/2024.findings-emnlp.319
 url: "https://arxiv.org/abs/2410.08731"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, American"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Yeeun Kim, Young Rok Choi, Eunkyung Choi, Jinhwan Choi, Hai Jin Park, Wonseok Hwang]]
+[[Young Rok Choi Yeeun Kim]], [[Jinhwan Choi Eunkyung Choi]], [[Woomyoung Park|Wonseok Hwang Hai Jin Park]]
 
 ## Metadata
 

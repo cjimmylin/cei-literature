@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Qi-A Survey of Automatic Hallucination Evaluation on|A Survey of Automatic Hallucination Evaluation on]] (Last Author)
 - [[2025-Zhang-REVAL|REVAL]]
 
 ## Notes
 
 
+
+
+- *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: zheng.yuan1@sheffield.ac.uk
+- *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: siya.qi@kcl.ac.uk
 - *From 2025-Qi-A Survey of Automatic Hallucination Evaluation on*: Affiliation: College London, Email: zheng.yuan1@sheffield.ac.uk
 [Additional context or contact information]

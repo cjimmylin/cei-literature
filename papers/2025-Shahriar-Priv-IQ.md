@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,12 +19,14 @@ external_pdf: "https://doi.org/10.3390/ai6020029"
 pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
 local_pdf: [[PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) and generative artiﬁcial intelligence (AI) have demonstrated notable capabilities, achieving human-level performance in intelligent tasks like medical exams. Despite the introduction of extensive LLM evaluations and benchmarks in disciplines like education, software development, and general intelligence, a privacy-centric perspective remains underexplored in the literature."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

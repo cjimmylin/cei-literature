@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "BaniDB Shabad OS Digital Gurbani Database"
 year: 2025
 first_author: "[[projects), Khalis Foundation / Shabad OS (community]]"
-last_author: "[[projects), Khalis Foundation / Shabad OS (community]]"
+last_author: "[[Khalis Foundation Shabad OS (community projects)]]"
 authors: "[[Khalis Foundation / Shabad OS (community projects)]]"
 authors_incomplete: false
 url: 
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Sikhism"
 religious_values_list: "Sikhism"
 moral_psychology: "N/A"
@@ -50,7 +52,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Khalis Foundation / Shabad OS (community projects)]]
+[[Khalis Foundation Shabad OS (community projects)]]
 
 ## Metadata
 

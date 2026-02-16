@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Shen-HateBench|HateBench]]
 
 ## Notes
 
 
+
+
+- *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
+- *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
 - *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
 [Additional context or contact information]

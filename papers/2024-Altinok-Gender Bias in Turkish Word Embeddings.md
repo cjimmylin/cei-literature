@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Gender Bias in Turkish Word Embeddings"
 year: 2025
 first_author: "[[Altinok, Duygu]]"
-last_author: "[[Altinok, Duygu]]"
+last_author: "[[Duygu Altinok]]"
 authors: "[[Altinok, Duygu]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.gebnlp-1.13.pdf"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Altinok, Duygu]]
+[[Duygu Altinok]]
 
 ## Metadata
 

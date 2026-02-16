@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Da Yin, Haoyi Qiu, Kung-Hsiang Huang, Kai-Wei Chang, Nanyun Peng]]
+[[Dawei Yin|Da Yin]], [[Han Qiu|Haoyi Qiu]], [[Kexin Huang|Kung-Hsiang Huang]], [[Kai-Wei Chang]], [[Nanyun Peng]]
 
 ## Metadata
 

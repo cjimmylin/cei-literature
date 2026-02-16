@@ -1,0 +1,517 @@
+[
+  {
+    "filename": "2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md",
+    "decision": "Exclude",
+    "reasoning": "Survey paper reviewing existing Kurdish NLP tools and methods from 2010-2021. No new benchmark, dataset, or metric is introduced. The paper identifies challenges and gaps but does not contribute a concrete evaluation resource."
+  },
+  {
+    "filename": "2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md",
+    "decision": "Yes",
+    "reasoning": "Introduces AfriQA, the first cross-lingual QA dataset for African languages with 12,000+ XOR QA examples across 10 African languages. Questions in African languages with context passages in English/French. Publicly available on HuggingFace.",
+    "benchmark_name": "AfriQA",
+    "what_measures": "Cross-lingual question answering capabilities for African languages; cultural knowledge retrieval",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "African languages (10 languages including Swahili, Yoruba, Hausa, Igbo, etc.)"
+  },
+  {
+    "filename": "2023-Keutzer-MITRA-zh An Efficient Open Machine Translation.md",
+    "decision": "Yes",
+    "reasoning": "Presents MITRA-zh machine translation solution for Buddhist Chinese with 209,454 bitext pairs for training and 2,300 manually curated bitext pairs for evaluation. Part of the Dharmamitra project with open-source release.",
+    "benchmark_name": "MITRA-zh Evaluation Set",
+    "what_measures": "Machine translation quality for classical Buddhist Chinese to English",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Chinese Buddhist texts (Classical Chinese)"
+  },
+  {
+    "filename": "2023-Khan-The Tarteel Dataset Crowd-Sourced and Labeled.md",
+    "decision": "Yes",
+    "reasoning": "First large-scale crowd-sourced Quranic recitation dataset with ~25,000 audio clips (67.39 hours) from 1,200+ unique individuals. Schema enables standardized paired Quranic audio-text datasets for ASR tasks.",
+    "benchmark_name": "Tarteel Dataset",
+    "what_measures": "Automatic speech recognition quality for Quranic recitation",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Quranic recitation (Islamic religious texts)"
+  },
+  {
+    "filename": "2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md",
+    "decision": "Yes",
+    "reasoning": "Introduces PerBOLD, a large Persian offensive language dataset of ~30,000 Instagram comments with two-level manual annotation for offensive language detection including fine-grained types. Significant expansion over existing Persian datasets.",
+    "benchmark_name": "PerBOLD",
+    "what_measures": "Offensive language detection in Persian social media content",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Persian/Iranian (Instagram social media)"
+  },
+  {
+    "filename": "2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a Llama2-finetuned LLM for Odia language but does not introduce a specific benchmark, dataset, or evaluation metric. The paper focuses on model development rather than evaluation infrastructure."
+  },
+  {
+    "filename": "2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md",
+    "decision": "Yes",
+    "reasoning": "First open Polish dataset of 691,662 posts from Wykop.pl banned by moderators, with 24,000 publicly released samples annotated as harmful/neutral. Addresses offensive language detection in Polish with GitHub release.",
+    "benchmark_name": "BAN-PL",
+    "what_measures": "Harmful and offensive content detection in Polish social media",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Polish (social media platform Wykop.pl)"
+  },
+  {
+    "filename": "2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md",
+    "decision": "Yes",
+    "reasoning": "Introduces IndoMMLU, the first multi-task language understanding benchmark for Indonesian culture and languages with 14,981 questions across 64 tasks from primary school to university entrance exams, including nine regional languages. Publicly available on GitHub.",
+    "benchmark_name": "IndoMMLU",
+    "what_measures": "Multitask language understanding and cultural knowledge across Indonesian and regional languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Indonesian and regional languages (Acehnese, Balinese, Banjarese, Buginese, Indonesian, Javanese, Madurese, Minangkabau, Sundanese, Toba Batak)"
+  },
+  {
+    "filename": "2023-Kuriyozov-Text classification dataset and analysis for.md",
+    "decision": "Yes",
+    "reasoning": "Presents a new Uzbek text classification dataset with 512,750 articles (120M+ words) across 15 categories from news and press websites. First comprehensive text classification benchmark for Uzbek. Available on GitHub.",
+    "benchmark_name": "Uzbek Text Classification Dataset",
+    "what_measures": "Multi-label text classification across 15 categories for Uzbek language",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Uzbek language"
+  },
+  {
+    "filename": "2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks.md",
+    "decision": "Yes",
+    "reasoning": "Collection of German translations of popular English LLM benchmarks including MMLU-DE, hellaswag_de, arc_challenge_de, truthful_qa_de, and GSM8K. Available on HuggingFace for German LLM evaluation.",
+    "benchmark_name": "GermanBenchmark",
+    "what_measures": "Reasoning, knowledge, common-sense understanding, and truthfulness in German language",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "German language"
+  },
+  {
+    "filename": "2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md",
+    "decision": "Yes",
+    "reasoning": "Introduces KoSBi, a Korean social bias dataset with 34K pairs of contexts and sentences covering 72 demographic groups in 15 categories. Labels as safe/unsafe with cognitive, emotional, and behavioral bias annotations. Available on GitHub.",
+    "benchmark_name": "KoSBi",
+    "what_measures": "Social bias across 72 Korean demographic groups with multi-dimensional bias annotations",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Korean (72 Korean-specific demographic groups)"
+  },
+  {
+    "filename": "2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.md",
+    "decision": "Yes",
+    "reasoning": "Presents SQuARe with 49K Korean sensitive questions and 88K responses (42K acceptable, 46K non-acceptable). Covers contentious, ethical, and predictive questions. Created through human-in-the-loop with HyperCLOVA. Available on GitHub.",
+    "benchmark_name": "SQuARe",
+    "what_measures": "Sensitive question handling and ethical response generation in Korean",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Korean language"
+  },
+  {
+    "filename": "2023-Li-ACLUE Can Large Language Model Comprehend.md",
+    "decision": "Yes",
+    "reasoning": "Introduces ACLUE benchmark with 15 tasks covering phonetic, lexical, syntactic, semantic, inference, and knowledge domains for ancient Chinese texts spanning 2070 BCE to 1368 CE. Integrated into EleutherAI's lm-evaluation-harness with public leaderboard. Available on GitHub and HuggingFace.",
+    "benchmark_name": "ACLUE",
+    "what_measures": "Ancient Chinese language understanding across 5 categories including Confucian and Taoist texts",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Ancient Chinese (Xia Dynasty to Ming Dynasty, encompassing Confucian and Taoist traditions)"
+  },
+  {
+    "filename": "2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.md",
+    "decision": "Exclude",
+    "reasoning": "Position paper advocating for fairness research in Portuguese NLP. Does not introduce a specific benchmark, dataset, or metric. Discusses existing biases but does not contribute concrete evaluation resources."
+  },
+  {
+    "filename": "2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned.md",
+    "decision": "Yes",
+    "reasoning": "Introduces TC-Eval benchmark suite covering contextual QA, world knowledge (TTQA, TMMLU), summarization, classification, and table understanding for Traditional Chinese as used in Taiwan. Evaluates cultural and linguistic alignment.",
+    "benchmark_name": "TC-Eval",
+    "what_measures": "Traditional Chinese language understanding and Taiwanese cultural context across multiple NLP tasks",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Taiwanese Traditional Chinese"
+  },
+  {
+    "filename": "2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md",
+    "decision": "Exclude",
+    "reasoning": "Introduction/survey paper on neural machine translation for Indigenous languages of the Americas. Discusses challenges and techniques but does not introduce a specific benchmark or dataset."
+  },
+  {
+    "filename": "2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md",
+    "decision": "Yes",
+    "reasoning": "Introduces HateM, the first benchmark dataset for detecting hate speech in Malay with 4,892 annotated tweets. Available on GitHub.",
+    "benchmark_name": "HateM",
+    "what_measures": "Hate speech detection in Malay language",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Malay language"
+  },
+  {
+    "filename": "2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md",
+    "decision": "Yes",
+    "reasoning": "Introduces Ex-ThaiHate, the first benchmark hate speech corpus in Thai with four annotation types: hate, sentiment, emotion, and rationales (explainability). Includes rationale annotations showing which phrases justify hate speech classification.",
+    "benchmark_name": "Ex-ThaiHate",
+    "what_measures": "Hate speech detection with sentiment, emotion, and explainability annotations in Thai",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Thai language"
+  },
+  {
+    "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+    "decision": "Yes",
+    "reasoning": "Proposes an evaluation framework adapting Maori scholar Sir Hirini Moko Mead's five Tests for assessing AI systems according to Indigenous Maori principles including Tapu, Mauri, and Take-utu-ea. Provides concrete rubrics for evaluation.",
+    "benchmark_name": "The Five Tests (Maori AI Evaluation Framework)",
+    "what_measures": "AI system alignment with Indigenous Maori knowledge and values",
+    "data_type": "evaluation_framework",
+    "is_public": true,
+    "cultural_scope": "Maori Indigenous knowledge (New Zealand)"
+  },
+  {
+    "filename": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+    "decision": "Yes",
+    "reasoning": "Shared task for hate speech detection in Assamese, Bengali, Bodo, and Sinhala with benchmark datasets. Facebook/YouTube comments annotated HOF/NOT. Best Macro F1: Assamese 0.73, Bengali 0.77, Bodo 0.85. Multiple teams participated.",
+    "benchmark_name": "HASOC 2023",
+    "what_measures": "Hate speech and offensive content detection across Assamese, Bengali, Bodo, Gujarati, and Sinhala",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "South Asian languages (Assamese, Bengali, Bodo, Gujarati, Sinhala)"
+  },
+  {
+    "filename": "2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md",
+    "decision": "Yes",
+    "reasoning": "Human-annotated Vietnamese dataset for abusive content in narrative texts from VnExpress. Covers six abuse categories: Physical, Sexual, Financial/Economic, Cultural/Identity, Verbal/Emotional, Mental/Psychological.",
+    "benchmark_name": "Vietnamese Abusive Span Dataset",
+    "what_measures": "Abusive content detection across 6 categories including Cultural/Identity abuse in Vietnamese",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Vietnamese language and culture"
+  },
+  {
+    "filename": "2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md",
+    "decision": "Exclude",
+    "reasoning": "Presents PhoGPT, a 4B-parameter Vietnamese LLM, but does not introduce a specific benchmark or evaluation dataset. The paper focuses on model development rather than evaluation infrastructure."
+  },
+  {
+    "filename": "2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md",
+    "decision": "Yes",
+    "reasoning": "Introduces RMDM, a multilabel Vietnamese dataset for fake news and evidence verification in legal contexts with 1,556 samples. Four labels: real, misinformation, disinformation, mal-information. Evaluates LLM performance on Vietnamese information integrity.",
+    "benchmark_name": "RMDM",
+    "what_measures": "Fake news detection and evidence verification in Vietnamese legal contexts",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Vietnamese language (legal context)"
+  },
+  {
+    "filename": "2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md",
+    "decision": "Yes",
+    "reasoning": "Introduces VLSP-LLM benchmark including Vietnamese adaptations of ARC Challenge, HellaSwag, MMLU, TruthfulQA, and Vietnamese Vicuna Benchmark. Evaluates Vietnamese cultural and linguistic knowledge.",
+    "benchmark_name": "VLSP-LLM / Vicuna-vi",
+    "what_measures": "Vietnamese cultural knowledge, factual accuracy, and reasoning abilities",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Vietnamese language and culture"
+  },
+  {
+    "filename": "2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md",
+    "decision": "Yes",
+    "reasoning": "Introduces ViGPT instruction-tuned LLM with new benchmark datasets for Vietnamese question answering encompassing AI and human-generated data. Provides comprehensive evaluation framework for Vietnamese LLMs.",
+    "benchmark_name": "ViGPTQA",
+    "what_measures": "Question answering capabilities in Vietnamese",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Vietnamese language"
+  },
+  {
+    "filename": "2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md",
+    "decision": "Yes",
+    "reasoning": "Comprehensive benchmarking platform for Scandinavian languages with 4 NLP tasks including new ScandiQA (question answering) and ScaLA (linguistic acceptability) datasets. Covers Danish, Swedish, Norwegian, Icelandic, and Faroese. Available on GitHub with online leaderboard.",
+    "benchmark_name": "ScandEval",
+    "what_measures": "NLP capabilities across 4 tasks for Scandinavian languages including linguistic acceptability and question answering",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Scandinavian languages (Danish, Swedish, Norwegian, Icelandic, Faroese)"
+  },
+  {
+    "filename": "2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Introduces NorBench with 9 datasets including NoCoLA (linguistic acceptability) and NorQuAD (question answering). Includes diagnostic tasks probing gender bias and toxic language affinity using HONEST metric adapted for Norwegian. Available on GitHub.",
+    "benchmark_name": "NorBench",
+    "what_measures": "Norwegian NLP capabilities including gender bias and toxicity assessment",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Norwegian language (Bokmål and Nynorsk)"
+  },
+  {
+    "filename": "2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.md",
+    "decision": "Yes",
+    "reasoning": "Largest Korean offensive language corpus with ~192K news comments and target-specific offensiveness ratings on 3-point Likert scale. Multi-label target categories: gender, age, race, religion, politics, job, disability, individuals. Available on GitHub.",
+    "benchmark_name": "K-HATERS",
+    "what_measures": "Offensive language detection with target-specific ratings across 8 Korean demographic categories",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Korean language and culture"
+  },
+  {
+    "filename": "2023-Patel-Building Domain-Specific LLMs Faithful To The.md",
+    "decision": "Exclude",
+    "reasoning": "Framework paper proposing approaches for developing Islamic worldview-aligned LLMs. Does not introduce a specific benchmark or dataset, but rather discusses methodologies and challenges."
+  },
+  {
+    "filename": "2023-Pires-Sabiá Portuguese Large Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Introduces Poeta benchmark of 14 diverse Portuguese tasks for evaluating Portuguese LLMs. Sabiá-65B performs on par with GPT-3.5-turbo on Portuguese tasks.",
+    "benchmark_name": "Poeta",
+    "what_measures": "Comprehensive Portuguese language understanding across 14 tasks",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Portuguese language"
+  },
+  {
+    "filename": "2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md",
+    "decision": "Yes",
+    "reasoning": "Comprehensive gender bias evaluation framework for Spanish language models. Evaluates 20 Spanish pretrained models including BETO, MarIA, ELECTRICIDAD using masked language modeling. Finds systematic gender biases in Spanish models.",
+    "benchmark_name": "Spanish Gender Bias Evaluation Framework",
+    "what_measures": "Gender bias in Spanish language models through masked language modeling",
+    "data_type": "evaluation_framework",
+    "is_public": false,
+    "cultural_scope": "Spanish language"
+  },
+  {
+    "filename": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Uses World Values Survey (55 countries) and PEW Global Attitudes survey (40 countries) to probe LLMs for cultural moral knowledge. Creates evaluation dataset testing whether English LLMs encode moral variation across cultures including African nations.",
+    "benchmark_name": "Cultural Moral Norms Dataset (WVS/PEW-based)",
+    "what_measures": "Cross-cultural moral norm knowledge across 55-40 countries",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Global (55 countries in WVS, 40 in PEW, including African nations)"
+  },
+  {
+    "filename": "2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.md",
+    "decision": "Yes",
+    "reasoning": "QA dataset for Hindi and Marathi languages serving 714 million speakers combined. Addresses low-resource language challenges for two major Indian languages.",
+    "benchmark_name": "Hindi-Marathi QA Dataset",
+    "what_measures": "Question answering capabilities in Hindi and Marathi",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Hindi and Marathi (Indian languages)"
+  },
+  {
+    "filename": "2023-Schwarting-The eBible Corpus Data and Model.md",
+    "decision": "Yes",
+    "reasoning": "Largest standardized Bible corpus for NLP with 1,009 translations aligned by verse across 833 languages in 75 language families. Introduces model performance benchmarks built on NLLB neural machine translation. Available on HuggingFace and GitHub.",
+    "benchmark_name": "eBible Corpus",
+    "what_measures": "Machine translation quality for Bible texts across 833 languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Global (833 languages, 75 language families)"
+  },
+  {
+    "filename": "2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Introduces HeRo benchmark suite for Hebrew NLP evaluation including NER (BMC and NeMO), sentiment classification (SMCD with 8,465 deduplicated samples), and QA tasks. Establishes evaluation standards for Modern Hebrew.",
+    "benchmark_name": "HeRo Benchmark Suite",
+    "what_measures": "NER, sentiment analysis, and QA in Modern Hebrew",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Modern Hebrew"
+  },
+  {
+    "filename": "2023-Sheykhlan-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md",
+    "decision": "Yes",
+    "reasoning": "Introduces Pars-HaO, a 3-class dataset of 8,013 Persian tweets for hate and offensive language detection. Combines comments from hate-speech-prone pages with keyword-based collection approaches and labeled by three annotators.",
+    "benchmark_name": "Pars-HaO",
+    "what_measures": "Hate speech and offensive language detection in Persian",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Persian language (Twitter)"
+  },
+  {
+    "filename": "2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md",
+    "decision": "Yes",
+    "reasoning": "Introduces DictaBERT Hebrew Benchmarks covering prefix segmentation, morphological tagging, NER, and QA for Modern Hebrew. Fine-tuned models allow any developer to perform these tasks with single API calls. Available on HuggingFace.",
+    "benchmark_name": "DictaBERT Hebrew Benchmarks",
+    "what_measures": "Multiple Hebrew NLP tasks including morphology, NER, and QA",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Modern Hebrew"
+  },
+  {
+    "filename": "2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces DictaLM, a 7B parameter Hebrew LLM, but does not introduce a specific benchmark or evaluation dataset. The paper focuses on model development and uses existing Hebrew QA datasets (HeQ, ParaShoot) for evaluation."
+  },
+  {
+    "filename": "2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+    "decision": "Yes",
+    "reasoning": "First large-scale, consistently labeled dataset for antisemitism detection based on IHRA definition with 6,941 tweets (expanded to 11,311 tweets in Version 3). Annotators forced to specify which part of IHRA definition applies. Available on Zenodo.",
+    "benchmark_name": "Antisemitism Twitter Dataset (ISCA)",
+    "what_measures": "Antisemitism detection based on IHRA definition",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "English (antisemitism targeting Jewish communities)"
+  },
+  {
+    "filename": "2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical/ethical framework paper applying relational ethics to African language NLP. Advocates for decolonizing approach but does not introduce a specific benchmark, dataset, or metric."
+  },
+  {
+    "filename": "2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md",
+    "decision": "Yes",
+    "reasoning": "Introduces BHASA (original version of SEA-HELM) with three components: NLP benchmark (8 tasks), LINDSEA linguistic diagnostic toolkit, and cultural diagnostics dataset probing cultural representation and sensitivity. Available on GitHub.",
+    "benchmark_name": "BHASA",
+    "what_measures": "NLP capabilities, linguistic diagnostics, and cultural representation across Southeast Asian languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Southeast Asian languages (Indonesian, Thai, Vietnamese, etc.)"
+  },
+  {
+    "filename": "2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.md",
+    "decision": "Yes",
+    "reasoning": "Foundational Japanese commonsense morality dataset with 19,963 sentence pairs labeled as morally acceptable or unacceptable, reflecting Japanese annotators' moral judgments. Addresses cultural dependence of commonsense morality. Available on GitHub.",
+    "benchmark_name": "JCommonsenseMorality",
+    "what_measures": "Japanese commonsense morality judgments",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Japanese culture and values"
+  },
+  {
+    "filename": "2023-Trepczynski-Religion Theology and Philosophical Skills of.md",
+    "decision": "Yes",
+    "reasoning": "Uses theology and religion as evaluation domains for LLM philosophical skills. Tests chatbots on: (1) the four senses of Scripture, (2) abstract theological statements, (3) logical formulas derived from religious texts. Provides benchmark framework for rating interpretive, deductive reasoning, and ontological skills.",
+    "benchmark_name": "Theological Evaluation Framework",
+    "what_measures": "Philosophical and interpretive skills using theological reasoning tasks",
+    "data_type": "evaluation_framework",
+    "is_public": false,
+    "cultural_scope": "Christian theology (medieval hermeneutics)"
+  },
+  {
+    "filename": "2023-University-Antisemitism on Twitter A Dataset for.md",
+    "decision": "Yes",
+    "reasoning": "Large-scale dataset of 6,941 tweets (Version 1) covering conversations about Jews, Israel, and antisemitism from January 2019 to December 2021. 18% meet IHRA definition of antisemitic messages. Available on Zenodo.",
+    "benchmark_name": "Antisemitism on Twitter Dataset",
+    "what_measures": "Antisemitism detection based on IHRA definition",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "English (antisemitism targeting Jewish communities)"
+  },
+  {
+    "filename": "2023-University-Harmful Communication Detection of Toxic Language and Threats on.md",
+    "decision": "Exclude",
+    "reasoning": "Study applying BERT-based models to detect toxic language and threats in Swedish. Does not introduce a new dataset or benchmark, but rather applies existing methods to Swedish social media data without public data release."
+  },
+  {
+    "filename": "2023-Unknown-Toxicity Posts and Hateful Comments Detection.md",
+    "decision": "Exclude",
+    "reasoning": "Uses existing dataset of 2,160 posts from Thai toxicity Twitter corpus. Does not introduce a new benchmark or dataset, but rather applies ensemble methods to an existing corpus."
+  },
+  {
+    "filename": "2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluation study testing Muslim-violence bias in GPT models across multiple prompt formats. Does not introduce a new benchmark or dataset, but rather conducts pre-registered experiments using existing prompting approaches."
+  },
+  {
+    "filename": "2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md",
+    "decision": "Yes",
+    "reasoning": "Introduces DUMB (Dutch Model Benchmark) with 9 tasks including 4 new for Dutch: WiC-NL, DPR, COPA-NL, SQuAD-NL. Also includes DALC v2.0 for abusive language detection. Proposes Relative Error Reduction metric. Available on GitHub with online leaderboard.",
+    "benchmark_name": "DUMB",
+    "what_measures": "Comprehensive Dutch NLP evaluation including sentiment, hate speech, NLI, and QA",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Dutch language"
+  },
+  {
+    "filename": "2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md",
+    "decision": "Yes",
+    "reasoning": "Introduces SeaEval benchmark with 29 datasets including 7 new ones for cultural understanding and cross-lingual consistency. Evaluates cultural practices, nuances, and values across 7 languages including Indonesian, Malay, and Filipino. Available on GitHub.",
+    "benchmark_name": "SeaEval",
+    "what_measures": "Cross-lingual alignment and cultural reasoning across Southeast Asian languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Southeast Asian (7 languages including Filipino/Tagalog, Indonesian, Malay)"
+  },
+  {
+    "filename": "2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+    "decision": "Yes",
+    "reasoning": "Comprehensive bias evaluation framework using GPT-4 to assess bias across 9 categories including gender, religion, race, sexual orientation, age, nationality, disability, physical appearance, and socioeconomic status. Identifies bias types, keywords, causes, and mitigation suggestions.",
+    "benchmark_name": "GPTBIAS",
+    "what_measures": "Multi-dimensional bias across 9 demographic categories including intersectional biases",
+    "data_type": "evaluation_framework",
+    "is_public": false,
+    "cultural_scope": "Global (9 demographic categories)"
+  },
+  {
+    "filename": "2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md",
+    "decision": "Yes",
+    "reasoning": "Benchmark corpus of 21,759 Urdu tweets classified for hateful vs neutral content, with hateful tweets sub-categorized into interfaith, sectarian, ethnic, and other categories. Addresses inter-faith, sectarian, and ethnic hatred in Urdu.",
+    "benchmark_name": "ISE-Hate",
+    "what_measures": "Inter-faith, sectarian, and ethnic hate speech detection in Urdu",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Urdu language (Pakistan/India)"
+  },
+  {
+    "filename": "2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md",
+    "decision": "Yes",
+    "reasoning": "Large-scale dataset of 13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Available on GitHub.",
+    "benchmark_name": "NEHATE",
+    "what_measures": "Hate speech detection with target categorization in Nepali political discourse",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Nepali language (political context)"
+  },
+  {
+    "filename": "2023-researchers-Transformer-Based Language Models for Bulgarian.md",
+    "decision": "Exclude",
+    "reasoning": "Presents approach for training Bulgarian language models with bias mitigation. Does not introduce a specific benchmark or dataset, but rather describes training methodology and evaluation on existing Bulgarian NLU tasks."
+  },
+  {
+    "filename": "2023-team-Albertina Advancing Neural Encoding of Portuguese.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces Albertina PT-* DeBERTa-based foundation model for Portuguese. Evaluated on existing ASSIN-2 and GLUE translations. Does not introduce new benchmarks or datasets."
+  },
+  {
+    "filename": "2023-team-SeaLLMs Large Language Models for Southeast.md",
+    "decision": "Yes",
+    "reasoning": "Introduces SeaRefuse benchmark assessing LLM ability to refuse questions beyond knowledge boundaries for Southeast Asian languages. SeaLLM-13B evaluated on multiple SEA languages including Thai, Khmer, Lao, and Burmese.",
+    "benchmark_name": "SeaRefuse",
+    "what_measures": "Knowledge boundary assessment and refusal capabilities in Southeast Asian languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Southeast Asian (Thai, Khmer, Lao, Burmese, etc.)"
+  },
+  {
+    "filename": "2023-team-Typhoon Thai Large Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Introduces ThaiExam benchmark based on Thai high-school and investment professional examinations to assess Thai knowledge in LLMs. Tests Thai-specific cultural and educational knowledge.",
+    "benchmark_name": "ThaiExam",
+    "what_measures": "Thai educational knowledge and cultural understanding",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Thai language and culture"
+  },
+  {
+    "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+    "decision": "Yes",
+    "reasoning": "Comprehensive evaluation using 112 morality and ethics questions tailored to five belief systems (Zen Buddhism, Catholicism, Islam, Judaism, Secular Humanism). Identifies six types of religious bias. Dataset of 45,920 query responses (11.4 million words). Available on OSF.",
+    "benchmark_name": "Religious Bias Benchmarks",
+    "what_measures": "Religious bias across 5 belief systems with 6 bias types",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Multi-religious (Zen Buddhism, Catholicism, Islam, Judaism, Secular Humanism)"
+  },
+  {
+    "filename": "2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Creates new Turkish LLM leaderboard with two new Turkish evaluation benchmarks: TruthfulQA-TR and ARC-TR (translated and validated from English). Also introduces Turkish instruction-tuning dataset of 50,817 samples. Available on GitHub.",
+    "benchmark_name": "Turkish LLM Leaderboard (TruthfulQA-TR, ARC-TR)",
+    "what_measures": "Truthfulness and reasoning in Turkish language",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Turkish language and culture"
+  }
+]

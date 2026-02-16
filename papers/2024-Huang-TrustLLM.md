@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ local_pdf: [[PDFs/2024/2024-Huang-TrustLLM.pdf]]
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Establishes a comprehensive benchmark (TRUSTLLM) across 8 dim
 significance: "Finds that while LLMs have basic moral understanding, they fall short in complex scenarios and proprietary models outperform open-source ones"
 abstract: "Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges, particularly in the realm of trustworthiness. Therefore, ensuring the trustworthiness of LLMs emerges as an important topic. This paper introduces TRUSTLLM, a comprehensive study of trustworthiness in LLMs, including principles for different dimensions of trustworthiness, established benchmark,..."
 paper_summary: "Abstract: Large language models (LLMs), exemplified by ChatGPT, have gained considerable attention for their excellent natural language processing capabilities. Nonetheless, these LLMs present many challenges,  | Overview: TRUSTLLM: TRUSTWORTHINESS IN LARGE LANGUAGE MODELS – A PRINCIPLE AND BENCHMARK Yue Huang1,2∗† ‡ Lichao Sun1∗† Haoran Wang3∗Siyuan Wu4∗‡ Qihui Zhang4∗‡ Yuan Li5 ‡ Chujie Gao4∗‡ Yixin Huang6∗Wenhan Lyu7 | Key Findings: provides a significant reference value for relevant open-weight developers. Both the model itself and trustworthiness-related technology should be tra | Conclusions: 79 17 Acknowledgement 79 4 --- Page 5 --- TRUSTLLM 1 Introduction The advent of large language models (LLMs) marks a significant milestone in natural"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

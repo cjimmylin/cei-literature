@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Krishanu Maity]], [[Shaubhik Bhattacharya]], [[Salisa Phosit]], [[Sawarod Kongsamlit]], [[Sriparna Saha]], [[Kitsuchart Pasupa]]
+[[Krishanu Maity]], [[Shaubhik Bhattacharya]], [[Salisa Phosit]], [[Sawarod Kongsamlit]], [[Samirit Saha|Sriparna Saha]], [[Kitsuchart Pasupa]]
 
 ## Metadata
 

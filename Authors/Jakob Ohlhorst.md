@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Ohlhorst-Virtues for AI|Virtues for AI]] (First Author)]]
+
 
 - [[2025-Ohlhorst-Virtues for AI|Virtues for AI]] (First Author)
 

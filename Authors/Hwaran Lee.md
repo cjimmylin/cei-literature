@@ -47,9 +47,28 @@ Lee created two groundbreaking datasets for Korean AI safety: KoSBI, a social bi
 ## Papers in this Vault
 
 
+
+
 - [[2026-Lee-BiasJailbreak|BiasJailbreak]] (First Author)
+- [[2025-Alkhushayni-Multilingual Sentiment Analysis with Data Augmentation A|Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese]] (Last Author)
+- [[2025-Lee-Knowing the Words Missing the Meaning Evaluating LLMs' Cultural|Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms]] (First Author)
+- [[2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual|Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding]] (Last Author)
+- [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]]
+- [[2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering|KoBBQ: Korean Bias Benchmark for Question Answering]]
 - [[2024-Lee-KorNAT|KorNAT]]
+- [[2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models|HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models]]
+- [[2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean|KMMLU: Measuring Massive Multitask Language Understanding in Korean]]
+- [[2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do|LLM-as-a-Judge & Reward Model: What They Can and Cannot Do]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Lee-KoSBI|KoSBI]] (First Author)
+- [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]] (First Author)
 
 ## External Links & Profiles
 
@@ -61,5 +80,9 @@ Lee created two groundbreaking datasets for Korean AI safety: KoSBI, a social bi
 ## Notes
 
 
+
+
+- *From 2026-Lee-BiasJailbreak*:, Email: hbseong97@gmail.com
+- *From 2026-Lee-BiasJailbreak*:, Email: isacklee224@gmail.com
 - *From 2026-Lee-BiasJailbreak*:, Email: hbseong97@gmail.com
 Hwaran Lee's work represents critical contributions to Korean sociolinguistics and AI safety research, addressing the unique cultural and linguistic aspects of Korean society and ensuring AI systems are equitable across languages and cultures.

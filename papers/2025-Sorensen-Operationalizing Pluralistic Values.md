@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "German, American"
+cultures_nationalities_list: "American, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +29,7 @@ newtags: "Deontology, Value Pluralism, AI Alignment, Safety Trade-offs"
 key_contribution: "Reveals trade-offs between safety, inclusivity, and model behavior when aligning LLMs with pluralistic values"
 significance: "Demonstrates that single alignment objective cannot represent everyone; highlights whose voices shape AI safety"
 abstract: "Although large language models (LLMs) are increasingly trained using human feedback for safety and alignment with human values, alignment decisions often overlook human social diversity. This study examines how incorporating pluralistic values affects LLM behavior by systematically evaluating demographic variation and design parameters in the alignment pipeline. We collect alignment data from US and German participants (N = 1,095 participants, 27,375 ratings) who rated LLM responses across five..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

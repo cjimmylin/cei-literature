@@ -1,0 +1,564 @@
+# Author-Paper Link Verification Report
+
+**Date:** 2026-02-15
+**Papers:** 2002
+**Author Profiles:** 8463
+
+## Summary
+
+| Check | Status | Count |
+|-------|--------|-------|
+| Papers with first_author | PASS | 2002/2002 |
+| Papers with last_author | PASS | 2002/2002 |
+| first_author consistency | WARN | 412 mismatches |
+| last_author consistency | WARN | 437 mismatches |
+| No remaining et al. | PASS | 0 unflagged |
+| Flagged incomplete | INFO | 156 |
+| Author profiles exist | WARN | 3224 missing |
+| Profile paper lists | WARN | 461 missing entries |
+| Position annotations | WARN | 47 errors |
+
+## Errors
+
+No errors found.
+
+## Warnings
+
+- first_author mismatch: 412 papers
+-   - 0000-collections-JainGPT AI-Powered Chatbot for Jain Literature: first_author='collections), JainKnowledge.com (built on JainELibrary.org and JainQQ.org' vs authors[0]='JainKnowledge.com (built on JainELibrary.org'
+-   - 0000-project-Vedanta Datasets: first_author='project), Atmabodha (community' vs authors[0]='Atmabodha (community project)'
+-   - 0000-projects-BaniDB Shabad OS Digital Gurbani Database: first_author='projects), Khalis Foundation / Shabad OS (community' vs authors[0]='Khalis Foundation / Shabad OS (community projects)'
+-   - 2016-Holyoak-Deontological coherence: first_author='Keith J. Holyoak' vs authors[0]='Holyoak, Keith J.'
+-   - 2016-Xu-How Can a Deontological Decision Lead to Moral: first_author='Zhi Xing Xu' vs authors[0]='Xu, Zhi Xing'
+-   - 2018-Berberich-The Virtuous Machine: first_author='Nicolas Berberich' vs authors[0]='Berberich, Nicolas'
+-   - 2018-Kim-Toward Non-Intuition-Based Machine Ethics: first_author='Tae Wan Kim' vs authors[0]='Kim, Tae Wan'
+-   - 2018-Mishra-Are They Our Brothers Analysis and: first_author='Nuha Albadi, Maram Kurdi, Shivakant Mishra' vs authors[0]='Nuha Albadi'
+-   - 2018-Zhao-Gender Bias in Coreference Resolution: first_author='Jieyu Zhao' vs authors[0]='Zhao, Jieyu'
+-   - 2019-He-Unlearn Dataset Bias in Natural Language: first_author='He He' vs authors[0]='He, He'
+- last_author mismatch: 437 papers
+-   - 0000-projects-BaniDB Shabad OS Digital Gurbani Database: last_author='Khalis Foundation Shabad OS (community projects)' vs authors[-1]='Khalis Foundation / Shabad OS (community projects)'
+-   - 2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual: last_author='Alexandre Mouzalon Marcelo Finger' vs authors[-1]='Alexandre Mouzalon'
+-   - 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook: last_author='Shmuel Liebeskind Chaya Liebeskind' vs authors[-1]='Shmuel Liebeskind'
+-   - 2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis: last_author='Kiet Van Nguyen' vs authors[-1]='others'
+-   - 2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings: last_author='Vinicius Woloszyn Bruna Santana' vs authors[-1]='Vinicius Woloszyn'
+-   - 2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification: last_author='Kaggle' vs authors[-1]='Kaggle /'
+-   - 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text: last_author='Nguyen Van Phu' vs authors[-1]='others'
+-   - 2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset: last_author='AzariJafari' vs authors[-1]='Amirak, Azadeh'
+-   - 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech: last_author='Cristina Bosco' vs authors[-1]='Russo, Irene'
+-   - 2020-Carroll-The CARE Principles for Indigenous Data Governance: last_author='Maui Hudson Jane Anderson' vs authors[-1]='Maui Hudson'
+- Missing author profiles: 3224
+-   - & Bagheri
+-   - & Hu
+-   - & Lauscher
+-   - & Li
+-   - & Mazumder
+-   - & Pierri
+-   - & Vashistha
+-   - & Xie
+-   - (Authors from MDPI Religions)
+-   - (LessWrong community project)
+-   - (Multiple authors -- survey paper)
+-   - (Published in Sadhana journal, 2024
+-   - 2022)
+-   - 2024)
+-   - 2025)
+-   - 5 others
+-   - A
+-   - A, Snegha
+-   - A. Owodunni
+-   - A.B.
+-   ... and 3204 more
+-   Profile 'Abdessalam Bouchekif' missing paper: 2025-Ghaly-Assessing Large Language Models on Islamic
+-   Profile 'Abdullah Mushtaq' missing paper: 2025-Qadir-Can LLMs Write Faithfully An Agent-Based
+-   Profile 'Abdullah Topraksoy' missing paper: 2026-Darici-TurkBench A Benchmark for Evaluating Turkish
+-   Profile 'Abigail Oppong' missing paper: 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained
+-   Profile 'Abinew Ali Ayele' missing paper: 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025
+-   Profile 'Aco, Elyanah' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Aditi Khandelwal' missing paper: 2024-Khandelwal-Multilingual Defining Issues Test
+-   Profile 'Ahmet Kaan Sever' missing paper: 2026-Darici-TurkBench A Benchmark for Evaluating Turkish
+-   Profile 'Akhmed Sakip' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Alabi, Jesujoba' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Alena Fenogenova' missing paper: 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark
+-   Profile 'Alexander Panchenko' missing paper: 2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'
+-   Profile 'Alexander Panchenko' missing paper: 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025
+-   Profile 'Alexandra Sasha Luccioni' missing paper: 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in
+-   Profile 'Alham Fikri Aji' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Alham Fikri Aji' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'Ali, Mehdi' missing paper: 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages
+-   Profile 'Alina Leidinger' missing paper: 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in
+-   Profile 'Aline Paes' missing paper: 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings
+-   Profile 'Alipio Jorge' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Allison Koenecke' missing paper: 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified
+-   Profile 'Amy X. Zhang' missing paper: 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment
+-   Profile 'Andiswa Bukula' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Andraz Pelicon' missing paper: 2022-Pollak-Embeddings Models for Buddhist Sanskrit
+-   Profile 'Andrea W Wen-Yi' missing paper: 2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language
+-   Profile 'Andreas Hotho' missing paper: 2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark
+-   Profile 'Angelika Romanou' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Angelina Wang' missing paper: 2025-Griffiths-Explicitly Unbiased Large Language Models Still
+-   Profile 'Anoop Kunchukuttan' missing paper: 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit
+-   Profile 'Antoine Bosselut' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Anuoluwapo Aremu' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Anushka' missing paper: 2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for
+-   Profile 'Arnav Arora' missing paper: 2025-Borenstein-Investigating Human Values in Online Communities
+-   Profile 'Arnav Arora' missing paper: 2025-Cao-Specializing Large Language Models to Simulate Survey Response
+-   Profile 'Artetxe, Mikel' missing paper: 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque
+-   Profile 'Artur Kiulian' missing paper: 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and
+-   Profile 'Ashutosh Modi' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'Atnafu Lambebo Tonja' missing paper: 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained
+-   Profile 'Atoosa Kasirzadeh' missing paper: 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in
+-   Profile 'Aurélie Névéol' missing paper: 2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social
+-   Profile 'Ayoub Bagheri' missing paper: 2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures
+-   Profile 'Ayse Aysu Cengiz' missing paper: 2026-Darici-TurkBench A Benchmark for Evaluating Turkish
+-   Profile 'Azime, Israel Abebe' missing paper: 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering
+-   Profile 'B.' missing paper: 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of
+-   Profile 'Babak Hemmatian' missing paper: 2022-Varshney-Debiased Large Language Models Still Associate
+-   Profile 'Babak Hemmatian' missing paper: 2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT
+-   Profile 'Bahar, Syafri' missing paper: 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural
+-   Profile 'Barbara Plank' missing paper: 2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic
+-   Profile 'Beatrice Savoldi' missing paper: 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge
+-   Profile 'Benyou Wang' missing paper: 2023-Huang-AceGPT Localizing Large Language Models in Arabic
+-   Profile 'Bertie Vidgen' missing paper: 2020-Yasseri-Detecting Weak and Strong Islamophobic Hate
+-   Profile 'Beyza Ermis' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Bo Chen' missing paper: 2025-Zhao-WenyanGPT A Large Language Model for
+-   Profile 'Bonaventure F. P. Dossou' missing paper: 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained
+-   Profile 'Brendan Kennedy' missing paper: 2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A
+-   Profile 'Bukula, Andiswa' missing paper: 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African
+-   Profile 'Busra Tufan' missing paper: 2026-Darici-TurkBench A Benchmark for Evaluating Turkish
+-   Profile 'Buzaaba, Happy' missing paper: 2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for
+-   Profile 'Byoung-Tak Zhang' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Cagri Toraman' missing paper: 2026-Darici-TurkBench A Benchmark for Evaluating Turkish
+-   Profile 'Caleb Ziems' missing paper: 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards
+-   Profile 'Caliskan, Aylin' missing paper: 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores
+-   Profile 'Camacho-Collados, Jose' missing paper: 2024-Bang-BLEnD A Benchmark for LLMs on
+-   Profile 'Caputo' missing paper: 2026-Kolt-Legal Alignment for Safe and Ethical AI
+-   Profile 'Chae, Dong-Kyu' missing paper: 2025-Kumar-SweEval Do LLMs Really Swear A
+-   Profile 'Chakravarthi, Bharathi Raja' missing paper: 2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language
+-   Profile 'Chakravarthi, Bharathi Raja' missing paper: 2021-Chakravarthi-Findings of the Sentiment Analysis of
+-   Profile 'Chan Young Park' missing paper: 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment
+-   Profile 'Chandra Khatri' missing paper: 2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training
+-   Profile 'Chanjun Park' missing paper: 2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean
+-   Profile 'Chanjun Park' missing paper: 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical
+-   Profile 'Chanjun Park' missing paper: 2024-Park-Understanding LLM Development Through Longitudinal Study Insights
+-   Profile 'Chaya Liebeskind' missing paper: 2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook
+-   Profile 'Chen Cecilia Liu' missing paper: 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation
+-   Profile 'Cheng Li' missing paper: 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language
+-   Profile 'Chukwuneke, Chiamaka' missing paper: 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for
+-   Profile 'Chukwuneke, Chiamaka' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Cinoo Lee' missing paper: 2025-Cheng-ELEPHANT Social Sycophancy
+-   Profile 'Cristina Bosco' missing paper: 2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where
+-   Profile 'Cruz, Jan Christian Blaise' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Cruz, Jan Christian Blaise' missing paper: 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering
+-   Profile 'D'Alessandro' missing paper: 2024-DAlessandro-Deontology and Safe Artificial Intelligence
+-   Profile 'D.' missing paper: 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of
+-   Profile 'Dahyun Kim' missing paper: 2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean
+-   Profile 'Dahyun Kim' missing paper: 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical
+-   Profile 'Dan Jurafsky' missing paper: 2025-Cheng-ELEPHANT Social Sycophancy
+-   Profile 'Dan' missing paper: 2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing
+-   Profile 'Daniel Hershcovich' missing paper: 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with
+-   Profile 'Daniel Hershcovich' missing paper: 2025-Cao-Specializing Large Language Models to Simulate Survey Response
+-   Profile 'Daniil Moskovskiy' missing paper: 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025
+-   Profile 'Danushka Bollegala' missing paper: 2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating
+-   Profile 'David Jurgens' missing paper: 2025-Kumar-UniMoral ACL 2025 Best Resource Paper
+-   Profile 'David Mimno' missing paper: 2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language
+-   Profile 'Delong Chen' missing paper: 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said
+-   Profile 'Denis Shevelev' missing paper: 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark
+-   Profile 'Deyi Xiong' missing paper: 2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist
+-   Profile 'Deyi Xiong' missing paper: 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist
+-   Profile 'Diana Turmakhan' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Diandaru, Ryandito' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Diandaru, Ryandito' missing paper: 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering
+-   Profile 'Dietrich Klakow' missing paper: 2024-Adelani-Uhura A Benchmark for Evaluating Scientific
+-   Profile 'Dietrich Klakow' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Dietrich Klakow' missing paper: 2025-Klakow-Charting the Landscape of African NLP
+-   Profile 'Dirk Hovy' missing paper: 2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and
+-   Profile 'Diyi Yang' missing paper: 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards
+-   Profile 'Dragomir Radev' missing paper: 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark
+-   Profile 'Ekaterina Kochmar' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Enzo Ferrante' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Eric Atwell' missing paper: 2022-Atwell-Challenging the Transformer-based Models with a
+-   Profile 'Esra Darici' missing paper: 2026-Darici-TurkBench A Benchmark for Evaluating Turkish
+-   Profile 'Eun-Ju Lee' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Eunsu Kim' missing paper: 2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in
+-   Profile 'Ezeani, Ignatius' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Fahim Faisal' missing paper: 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and
+-   Profile 'Fan Gao' missing paper: 2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark
+-   Profile 'Fan Gao' missing paper: 2025-Yu-TLUE A Tibetan Language Understanding Evaluation
+-   Profile 'Flores-Herr, Nicolas' missing paper: 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages
+-   Profile 'Francesco Pierri' missing paper: 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic
+-   Profile 'Gabriel Assis' missing paper: 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings
+-   Profile 'Georg Rehm' missing paper: 2025-Barth-Multilingual European Language Models Benchmarking Approaches and
+-   Profile 'Giada Pistilli' missing paper: 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in
+-   Profile 'Gitau, Catherine' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Gjergji Kasneci' missing paper: 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and
+-   Profile 'Goyal, Naman' missing paper: 2025-Basile-NepX-Hate A Nepali Hate Speech Corpus
+-   Profile 'Grigori Sidorov' missing paper: 2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism
+-   Profile 'Gu' missing paper: 2025-Liu-Cross-cultural value alignment frameworks
+-   Profile 'Gu' missing paper: 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese
+-   Profile 'Guijin Son' missing paper: 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean
+-   Profile 'Guijin Son' missing paper: 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite
+-   Profile 'Gunhee Kim' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Guo, Jie' missing paper: 2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and
+-   Profile 'Guo' missing paper: 2024-Wang-Possibilities and challenges in the moral growth of LLMs
+-   Profile 'Hadi Mohammadi' missing paper: 2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics
+-   Profile 'Hadi Mohammadi' missing paper: 2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures
+-   Profile 'Haijiang Liu' missing paper: 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with
+-   Profile 'Haijiang Liu' missing paper: 2025-Cao-Specializing Large Language Models to Simulate Survey Response
+-   Profile 'Hamsawardhini Rengarajan' missing paper: 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models
+-   Profile 'Haneul Yoo' missing paper: 2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in
+-   Profile 'Haneul Yoo' missing paper: 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering
+-   Profile 'Hanin Atwany' missing paper: 2024-Demidova-dblp ArabicNLP 2024
+-   Profile 'Hanin Atwany' missing paper: 2025-Demidova-SIGARAB - Arabic NLP Archives
+-   Profile 'Hanin Atwany' missing paper: 2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs
+-   Profile 'Hao Wang' missing paper: 2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark
+-   Profile 'Hao Yu' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Haonan Li' missing paper: 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A
+-   Profile 'Haonan Li' missing paper: 2023-Li-ACLUE Can Large Language Model Comprehend
+-   Profile 'Happy Buzaaba' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Haq, Ijazul' missing paper: 2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and
+-   Profile 'Heba Sbahi' missing paper: 2025-Ghaly-Assessing Large Language Models on Islamic
+-   Profile 'Hector Allende-Cid' missing paper: 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social
+-   Profile 'Hee, Ming Shan' missing paper: 2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety
+-   Profile 'Hitomi Yanaka' missing paper: 2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating
+-   Profile 'Hitoshi Iyatomi' missing paper: 2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via
+-   Profile 'Hong' missing paper: 2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of
+-   Profile 'Hudi, Frederikus' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Huiseo Kim' missing paper: 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean
+-   Profile 'Hwaran Lee' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Hyunseung Lim' missing paper: 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation
+-   Profile 'Hyunwoo Ko' missing paper: 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean
+-   Profile 'Hyunwoo Ko' missing paper: 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite
+-   Profile 'Ibrahim Ghaznavi' missing paper: 2025-Qadir-Can LLMs Write Faithfully An Agent-Based
+-   Profile 'Ibrahim Sa'id Ahmad' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Idris Abdulmumin' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Ife Adebara' missing paper: 2023-Inciarte-SERENGETI Massively Multilingual Language Models for
+-   Profile 'Ignatius, Ryan' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Ilia Sucholutsky' missing paper: 2025-Griffiths-Explicitly Unbiased Large Language Models Still
+-   Profile 'Ilias Chalkidis' missing paper: 2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street
+-   Profile 'Iryna Gurevych' missing paper: 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation
+-   Profile 'Isabelle Augenstein' missing paper: 2025-Borenstein-Investigating Human Values in Online Communities
+-   Profile 'Isabelle Augenstein' missing paper: 2025-Cao-Specializing Large Language Models to Simulate Survey Response
+-   Profile 'Ishaan Watts' missing paper: 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios
+-   Profile 'Islam Oshallah' missing paper: 2025-Mohammed-Cross-Language Approach for Quranic QA
+-   Profile 'Israel Abebe Azime' missing paper: 2024-Adelani-Uhura A Benchmark for Evaluating Scientific
+-   Profile 'Israel Abebe Azime' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'J.' missing paper: 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of
+-   Profile 'J.' missing paper: 2024-Wang-Possibilities and challenges in the moral growth of LLMs
+-   Profile 'Jacki O'Neill' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'James Thorne' missing paper: 2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in
+-   Profile 'Jan Batzner' missing paper: 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and
+-   Profile 'Jan Pfister' missing paper: 2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark
+-   Profile 'Jaya, James' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Jian Gang Ngui' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Jian Gang Ngui' missing paper: 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models
+-   Profile 'Jian Kang' missing paper: 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified
+-   Profile 'Jiaojiao Zhao' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Jiebo Luo' missing paper: 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified
+-   Profile 'Jihyung Moon' missing paper: 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean
+-   Profile 'Jindong Wang' missing paper: 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language
+-   Profile 'Jinguang Gu' missing paper: 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with
+-   Profile 'Jinhwan Choi' missing paper: 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language
+-   Profile 'Jiseon Kim' missing paper: 2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and
+-   Profile 'Jiseon Kim' missing paper: 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering
+-   Profile 'Jonibek Mansurov' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Joonsuk Park' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Juhyun Oh' missing paper: 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation
+-   Profile 'Junaid Qadir' missing paper: 2025-Qadir-Can LLMs Write Faithfully An Agent-Based
+-   Profile 'Kalipe, Godson' missing paper: 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African
+-   Profile 'Karolina Stanczak' missing paper: 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding
+-   Profile 'Karthik Narasimhan' missing paper: 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios
+-   Profile 'Katharina Beckh' missing paper: 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social
+-   Profile 'Katrin Klug' missing paper: 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social
+-   Profile 'Keisuke Sakaguchi' missing paper: 2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages
+-   Profile 'Kelly Marchisio' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Kevin Lu' missing paper: 2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in
+-   Profile 'Khabsa, Madian' missing paper: 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...
+-   Profile 'Kiet Van Nguyen' missing paper: 2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech
+-   Profile 'Kim, Eunsu' missing paper: 2024-Bang-BLEnD A Benchmark for LLMs on
+-   Profile 'Kim, Sungchul' missing paper: 2024-Gallegos-Bias and Fairness in Large Language Models A Survey
+-   Profile 'Kumar Tanmay' missing paper: 2024-Khandelwal-Multilingual Defining Issues Test
+-   Profile 'Kunat Pipatanakul' missing paper: 2024-Tharnpipitchai-Typhoon 2 A Family of Open
+-   Profile 'Kuriyozov, Elmurod' missing paper: 2023-Kuriyozov-Text classification dataset and analysis for
+-   Profile 'Kurt Keutzer' missing paper: 2023-Keutzer-MITRA-zh An Efficient Open Machine Translation
+-   Profile 'Kurt Keutzer' missing paper: 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language
+-   Profile 'Kurt Micallef' missing paper: 2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller
+-   Profile 'Lav R. Varshney' missing paper: 2022-Varshney-Debiased Large Language Models Still Associate
+-   Profile 'Lav R. Varshney' missing paper: 2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT
+-   Profile 'Lazar' missing paper: 2026-Kolt-Legal Alignment for Safe and Ethical AI
+-   Profile 'Leon Derczynski' missing paper: 2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate
+-   Profile 'Leong, Wei Qi' missing paper: 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic
+-   Profile 'Leong, Wei Qi' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Li, Xiaohong' missing paper: 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural
+-   Profile 'Lim, Zhi Yuan' missing paper: 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural
+-   Profile 'Lin, Min' missing paper: 2024-SUTD-Sailor Open Language Models for South-East
+-   Profile 'Lin' missing paper: 2024-Wang-Possibilities and challenges in the moral growth of LLMs
+-   Profile 'Linyi Yang' missing paper: 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language
+-   Profile 'Lisa Anne Hendricks' missing paper: 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding
+-   Profile 'Liu' missing paper: 2025-Liu-Cross-cultural value alignment frameworks
+-   Profile 'Liu' missing paper: 2024-Wang-Possibilities and challenges in the moral growth of LLMs
+-   Profile 'Lovenia, Holy' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Lovenia, Holy' missing paper: 2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering
+-   Profile 'Lujain Ibrahim' missing paper: 2025-Cheng-ELEPHANT Social Sycophancy
+-   Profile 'Mabuya, Rooweither' missing paper: 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African
+-   Profile 'Mahendra, Rahmad' missing paper: 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural
+-   Profile 'Mahendra, Rahmad' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Maiya Goloburda' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Manuel' missing paper: 2024-Tonneau-Turkish Hate Speech Superset Dataset
+-   Profile 'Manuel' missing paper: 2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API
+-   Profile 'Maram Kurdi' missing paper: 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios
+-   Profile 'Margaret Mitchell' missing paper: 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in
+-   Profile 'Maria Tikhonova' missing paper: 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark
+-   Profile 'Marzieh Fadaee' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Masoudi, Mostafa' missing paper: 2025-Hosseinbeigi-Advancing Persian LLM Evaluation
+-   Profile 'Matlatipov, Sanatbek' missing paper: 2023-Kuriyozov-Text classification dataset and analysis for
+-   Profile 'Mbaye, Derguene' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Meeyoung Cha' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Meijuan An' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Michael Wiegand' missing paper: 2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and
+-   Profile 'Min Si Thu' missing paper: 2024-Phyo-Development and Evaluation of Myanmar GPT
+-   Profile 'Min Si Thu' missing paper: 2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for
+-   Profile 'Miryam de Lhoneux' missing paper: 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit
+-   Profile 'Mohamed Basem' missing paper: 2025-Mohammed-Cross-Language Approach for Quranic QA
+-   Profile 'Mohammadi' missing paper: 2025-Mohammadi-EvalMORAAL
+-   Profile 'Mohammed Ghaly' missing paper: 2025-Ghaly-Assessing Large Language Models on Islamic
+-   Profile 'Mona Diab' missing paper: 2024-AlKhamissi-Investigating Cultural Alignment of LLMs
+-   Profile 'Muhammad Abdul-Mageed' missing paper: 2023-Inciarte-SERENGETI Massively Multilingual Language Models for
+-   Profile 'Muhammad Farid Adilazuarda' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'Mukhammed Togmanov' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Mukiibi, Jonathan' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Mustafa Jarrar' missing paper: 2023-Hamad-Offensive Hebrew Corpus and Detection using BERT
+-   Profile 'Myra Cheng' missing paper: 2025-Cheng-ELEPHANT Social Sycophancy
+-   Profile 'Nako Sung' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Nanyun Peng' missing paper: 2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models
+-   Profile 'Naome A. Etori' missing paper: 2024-Adelani-Uhura A Benchmark for Evaluating Scientific
+-   Profile 'Naome A. Etori' missing paper: 2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in
+-   Profile 'Naseem, Usman' missing paper: 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media
+-   Profile 'Naseem, Usman' missing paper: 2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal
+-   Profile 'Nayeon Lee' missing paper: 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said
+-   Profile 'Nayeon Lee' missing paper: 2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and
+-   Profile 'Nayeon Lee' missing paper: 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering
+-   Profile 'Ngui, Jian Gang' missing paper: 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic
+-   Profile 'Niklas Muennighoff' missing paper: 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of
+-   Profile 'Nurdaulet Mukhituly' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Nurkhan Laiyk' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Nurul Aisyah' missing paper: 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A
+-   Profile 'Ochieng, Millicent' missing paper: 2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages
+-   Profile 'Odu, Nkiruka' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Ogayo, Perez' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Ogueji, Kelechi' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Oladipo, Akintunde' missing paper: 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for
+-   Profile 'Oliver Hellwig' missing paper: 2024-Hellwig-The Vedic Compound Dataset
+-   Profile 'Omid Ghahroodi' missing paper: 2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian
+-   Profile 'Oxana Vitman' missing paper: 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and
+-   Profile 'Parinthapat Pengpun' missing paper: 2024-Tharnpipitchai-Typhoon 2 A Family of Open
+-   Profile 'Parmonangan, Ivan Halim' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Pascale Fung' missing paper: 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said
+-   Profile 'Pavel Brazdil' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Pawan Goyal' missing paper: 2025-Goyal-Vedavani A Benchmark Corpus for ASR
+-   Profile 'Peerat Limkonchotiwat' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Peerat Limkonchotiwat' missing paper: 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models
+-   Profile 'Pepa Atanasova' missing paper: 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark
+-   Profile 'Pilehvar, Mohammad Taher' missing paper: 2024-Bang-BLEnD A Benchmark for LLMs on
+-   Profile 'Potsawee Manakul' missing paper: 2024-Tharnpipitchai-Typhoon 2 A Family of Open
+-   Profile 'Pradhyumna Lavania' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'Preslav Nakov' missing paper: 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark
+-   Profile 'Preslav Nakov' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Putra, Ilham Firdausi' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Putri, Rifki Afina' missing paper: 2024-Bang-BLEnD A Benchmark for LLMs on
+-   Profile 'Qingsong Wen' missing paper: 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language
+-   Profile 'Qiu, Weidong' missing paper: 2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and
+-   Profile 'Quan Ze Chen' missing paper: 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment
+-   Profile 'Rafay Naeem' missing paper: 2025-Qadir-Can LLMs Write Faithfully An Agent-Based
+-   Profile 'Rafi, Taki Hasan' missing paper: 2025-Kumar-SweEval Do LLMs Really Swear A
+-   Profile 'Ramon Pires' missing paper: 2023-Pires-Sabiá Portuguese Large Language Models
+-   Profile 'Raya Horesh' missing paper: 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards
+-   Profile 'Rengarajan, Hamsawardhini' missing paper: 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic
+-   Profile 'Reut Tsarfaty' missing paper: 2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2
+-   Profile 'Reut Tsarfaty' missing paper: 2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your
+-   Profile 'Reut Tsarfaty' missing paper: 2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew
+-   Profile 'Richard Khoury' missing paper: 2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments
+-   Profile 'Rishabh Bhardwaj' missing paper: 2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for
+-   Profile 'Rodrigo Nogueira' missing paper: 2023-Pires-Sabiá Portuguese Large Language Models
+-   Profile 'Rogerio Abreu de Paula' missing paper: 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards
+-   Profile 'Rooweither Mabuya' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Ruiyuan Zhang' missing paper: 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong
+-   Profile 'Ryoma Kumon' missing paper: 2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating
+-   Profile 'S.' missing paper: 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of
+-   Profile 'Saaberi, Zahra' missing paper: 2025-Hosseinbeigi-Advancing Persian LLM Evaluation
+-   Profile 'Saeed Almheiri' missing paper: 2025-Sadallah-Commonsense Reasoning in Arab Culture
+-   Profile 'Sagnik Mukherjee' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'Sahoo, Nihar Ranjan' missing paper: 2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian
+-   Profile 'Salomey Osei' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Salomey Osei' missing paper: 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained
+-   Profile 'Samer Rashwani' missing paper: 2025-Ghaly-Assessing Large Language Models on Islamic
+-   Profile 'Sanghoon Kim' missing paper: 2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean
+-   Profile 'Santoso, Jennifer' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Sanwoolu' missing paper: 2025-Sanwoolu-Kantian deontology for AI
+-   Profile 'Sara Bourbour Hosseinbeigi' missing paper: 2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple
+-   Profile 'Sara Hooker' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Sara Shatnawi' missing paper: 2025-Sadallah-Commonsense Reasoning in Arab Culture
+-   Profile 'Sarana Nutanong' missing paper: 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models
+-   Profile 'Sarmad Hussain' missing paper: 2025-Sehar-Benchmarking Whisper for Low-Resource Speech Recognition An N-Shot
+-   Profile 'Sebastian Houben' missing paper: 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social
+-   Profile 'Sebastian Nehrdich' missing paper: 2023-Keutzer-MITRA-zh An Efficient Open Machine Translation
+-   Profile 'Sebastian Nehrdich' missing paper: 2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and
+-   Profile 'Sebastian Nehrdich' missing paper: 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language
+-   Profile 'Sebastian Ruder' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Sebastian Ruder' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Seid Yimam' missing paper: 2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna
+-   Profile 'Senja Pollak' missing paper: 2022-Pollak-Embeddings Models for Buddhist Sanskrit
+-   Profile 'Seokhee Hong' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Seth' missing paper: 2026-Kolt-Legal Alignment for Safe and Ethical AI
+-   Profile 'Shahd Gaben' missing paper: 2025-Ghaly-Assessing Large Language Models on Islamic
+-   Profile 'Shaily Bhatt' missing paper: 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation
+-   Profile 'Shalaka Satheesh' missing paper: 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social
+-   Profile 'Shamsuddeen Hassan Muhammad' missing paper: 2024-Adelani-Uhura A Benchmark for Evaluating Scientific
+-   Profile 'Shamsuddeen Hassan Muhammad' missing paper: 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus
+-   Profile 'Shamsuddeen Hassan Muhammad' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Shayne Longpre' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Shen' missing paper: 2025-Shen-Alignment and Safety in LLMs Survey
+-   Profile 'Shiguo Lian' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Shivalika Singh' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Shivani Kumar' missing paper: 2025-Kumar-UniMoral ACL 2025 Best Resource Paper
+-   Profile 'Shravan Nayak' missing paper: 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding
+-   Profile 'Shu Yang' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Shubham Agarwal' missing paper: 2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training
+-   Profile 'Shukla' missing paper: 2025-Terziyan-Towards ethical evolution
+-   Profile 'Sibanda, Blessing' missing paper: 2021-Adelani-MasakhaNER Named Entity Recognition for African
+-   Profile 'Siddhant Singh' missing paper: 2024-Adilazuarda-Towards Measuring and Modeling 
+-   Profile 'Sirui Han' missing paper: 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong
+-   Profile 'Sittipong Sripaisarnmongkol' missing paper: 2024-Tharnpipitchai-Typhoon 2 A Family of Open
+-   Profile 'Siva Reddy' missing paper: 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding
+-   Profile 'Sjoerd van Steenkiste' missing paper: 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding
+-   Profile 'So' missing paper: 2024-So-AI Trained on Confucian Analects
+-   Profile 'Son T. Luu' missing paper: 2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech
+-   Profile 'Sophia Ananiadou' missing paper: 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek
+-   Profile 'Soroa, Aitor' missing paper: 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque
+-   Profile 'Soujanya Poria' missing paper: 2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for
+-   Profile 'Sukyung Lee' missing paper: 2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean
+-   Profile 'Sukyung Lee' missing paper: 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical
+-   Profile 'Sunayana Sitaram' missing paper: 2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical
+-   Profile 'Sunayana Sitaram' missing paper: 2025-Bali-How Deep Is Representational Bias in
+-   Profile 'Surapon Nonesung' missing paper: 2024-Tharnpipitchai-Typhoon 2 A Family of Open
+-   Profile 'Susanto, Lucky' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Susanto, Yosephine' missing paper: 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic
+-   Profile 'Suwan Kim' missing paper: 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean
+-   Profile 'Suwan Kim' missing paper: 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite
+-   Profile 'Tadesse Belay' missing paper: 2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna
+-   Profile 'Tadesse Kebede Guge' missing paper: 2025-Adelani-INJONGO A Multicultural Intent Detection and
+-   Profile 'Takumi Ohashi' missing paper: 2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via
+-   Profile 'Takyoung Kim' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Tang, Peng' missing paper: 2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and
+-   Profile 'Tanjim, Md Mehrab' missing paper: 2024-Gallegos-Bias and Fairness in Large Language Models A Survey
+-   Profile 'Te Taka Keegan' missing paper: 2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use
+-   Profile 'Teena Hassan' missing paper: 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social
+-   Profile 'Thales Sales Almeida' missing paper: 2023-Pires-Sabiá Portuguese Large Language Models
+-   Profile 'Thomas L. Griffiths' missing paper: 2025-Griffiths-Explicitly Unbiased Large Language Models Still
+-   Profile 'Timothy Baldwin' missing paper: 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A
+-   Profile 'Timothy Baldwin' missing paper: 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation
+-   Profile 'Tjhi, William Chandra' missing paper: 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic
+-   Profile 'Unso Eun Seo Jo' missing paper: 2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language
+-   Profile 'Usman Naseem' missing paper: 2026-Nadeem-Bias Beyond Borders
+-   Profile 'Utkarsh Agarwal' missing paper: 2024-Khandelwal-Multilingual Defining Issues Test
+-   Profile 'Viviana Patti' missing paper: 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge
+-   Profile 'Viviana Patti' missing paper: 2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where
+-   Profile 'Vladislav Mikhailov' missing paper: 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark
+-   Profile 'Wang' missing paper: 2024-Wang-Possibilities and challenges in the moral growth of LLMs
+-   Profile 'Wei Qi Leong' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Wei Xu' missing paper: 2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages
+-   Profile 'Wei Xu' missing paper: 2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training
+-   Profile 'Wei-Yin Ko' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Wenjing Zhang' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'William Chandra Tjhi' missing paper: 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models
+-   Profile 'William' missing paper: 2024-DAlessandro-Deontology and Safe Artificial Intelligence
+-   Profile 'Wonseok Hwang' missing paper: 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language
+-   Profile 'Xiao' missing paper: 2025-Liu-Cross-cultural value alignment frameworks
+-   Profile 'Xiaobing Zhao' missing paper: 2025-Zhao-WenyanGPT A Large Language Model for
+-   Profile 'Xiaohan Zhang' missing paper: 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large
+-   Profile 'Xing Xie' missing paper: 2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language
+-   Profile 'Xintong Wang' missing paper: 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025
+-   Profile 'Xudong Han' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Xuechunzi Bai' missing paper: 2025-Griffiths-Explicitly Unbiased Large Language Models Still
+-   Profile 'Xuejiao Lei' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Xun Wu' missing paper: 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with
+-   Profile 'Ya-Ting Pai' missing paper: 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in
+-   Profile 'Yacine Jernite' missing paper: 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in
+-   Profile 'Yaghoobzadeh, Yadollah' missing paper: 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian
+-   Profile 'Yejin Bang' missing paper: 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said
+-   Profile 'Yejin Choi' missing paper: 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large
+-   Profile 'Yevhen Kostiuk' missing paper: 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and
+-   Profile 'Yi Zeng' missing paper: 2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach
+-   Profile 'Yifan Mai' missing paper: 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models
+-   Profile 'Yike Guo' missing paper: 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong
+-   Profile 'Yixuan Zhang' missing paper: 2023-Li-ACLUE Can Large Language Model Comprehend
+-   Profile 'Yong Cao' missing paper: 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with
+-   Profile 'Yong Cao' missing paper: 2025-Cao-Specializing Large Language Models to Simulate Survey Response
+-   Profile 'Yong, Zheng-Xin' missing paper: 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub
+-   Profile 'Yosephine Susanto' missing paper: 2024-Hooker-Global MMLU Understanding and Addressing Cultural
+-   Profile 'Yosephine Susanto' missing paper: 2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models
+-   Profile 'Yulia Tsvetkov' missing paper: 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and
+-   Profile 'Yun-Nung Chen' missing paper: 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in
+-   Profile 'Yun-Nung Chen' missing paper: 2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned
+-   Profile 'Yungi Kim' missing paper: 2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean
+-   Profile 'Yungi Kim' missing paper: 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical
+-   Profile 'Yuxia Wang' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+-   Profile 'Yuxiao Dong' missing paper: 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large
+-   Profile 'Zhaoxiang Liu' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Zhenhong Long' missing paper: 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese
+-   Profile 'Zhenhong Zhou' missing paper: 2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against
+-   Profile 'Zhuohan Xie' missing paper: 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a
+
+## Missing Author Profiles (3224)
+
+- & Bagheri
+- & Hu
+- & Lauscher
+- & Li
+- & Mazumder
+- & Pierri
+- & Vashistha
+- & Xie
+- (Authors from MDPI Religions)
+- (LessWrong community project)
+- (Multiple authors -- survey paper)
+- (Published in Sadhana journal, 2024
+- 2022)
+- 2024)
+- 2025)
+- 5 others
+- A
+- A, Snegha
+- A. Owodunni
+- A.B.
+- A.R.
+- AI4Bharat / IBM Research
+- Aadil Mufti
+- Aarohi Srivastava
+- Aaryamonvikram Singh
+- Abaskohi, Amirhossein
+- Abbasi, Arash
+- Abbasi, Mohammad Amin
+- Abbasi, Nesa
+- Abdallah, Mohamed M.
+- AbdelRahim Elmadany
+- Abdelhalim, S.
+- Abdelrahman M Shaker
+- Abdelrahman Sadallah
+- Abdullah
+- Abdullahi, Muhammad
+- Abdulmohsen Alharthi
+- Abed, Sa’ed
+- Abercrombie, Gavin
+- Abha, Azizah Mamun
+- Abhinay Beerukuri
+- Abid Rafiq
+- Abid, Abubakar
+- Abonizio, Hugo
+- Abou, Anas
+- Absalom E. Ezugwu
+- Abzaliev, Artem
+- Adam Kasumovic
+- Adamczyk, David
+- Adarsh Agrawal
+
+... and 3174 more

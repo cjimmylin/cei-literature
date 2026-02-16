@@ -50,6 +50,8 @@ Amanda McCroskery is a Manager at Google DeepMind specializing in Social AI Poli
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -64,5 +66,9 @@ Amanda McCroskery is a Manager at Google DeepMind specializing in Social AI Poli
 ## Notes
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Amanda McCroskery's work bridges the gap between theoretical AI ethics and practical implementation in industry settings. Her focus on "moral imagination"—the capacity to recognize how limited perspectives affect decision-making—offers a practical framework for embedding ethical thinking in engineering cultures. Her work on AI agent accountability is particularly relevant as LLMs become more agentic.

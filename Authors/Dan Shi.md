@@ -47,6 +47,8 @@ Shi led the development of "Large Language Model Safety: A Holistic Survey" (Dec
 ## Papers in this Vault
 
 
+
+
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]] (First Author)
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ Shi led the development of "Large Language Model Safety: A Holistic Survey" (Dec
 ## Notes
 
 
+
+
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 Dan Shi's holistic survey represents an important contribution to synthesizing the rapidly growing field of LLM safety research, providing researchers and practitioners with a comprehensive overview of challenges and solutions.

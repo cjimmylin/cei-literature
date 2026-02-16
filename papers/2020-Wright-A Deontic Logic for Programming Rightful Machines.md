@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ pdf_extract: "PDF Extracts/2020/2020-Wright-A Deontic Logic for Programming Righ
 local_pdf: "[[PDFs/2020/2020-Wright-A Deontic Logic for Programming Rightful Machines.pdf]]"
 publication: "AIES '20: AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Defines 'rightful machine' concept and develops non-monotonic
 significance: "Provides formal framework for programming AI that conforms to principles of justice and public law"
 tags: 
 abstract: "In this paper, I set out some basic elements of a deontic logic with an implementation appropriate for handling conflicting legal obligations for purposes of programming autonomous machine agents. Relying on Immanuel Kant’s philosophy of law, I argue that a deontic logic of the law should not try to work around such conflicts but, instead, identify and expose them so that the rights and duties that generate inconsistencies can be explicitly qualified and the conflicts resolved."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

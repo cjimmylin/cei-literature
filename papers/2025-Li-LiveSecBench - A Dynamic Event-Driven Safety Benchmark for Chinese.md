@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://livesecbench.intokentech.cn/"
 
 ## Authors
 
-[[Li, Yudong]], [[Yang, Peiru]], [[Huang, Feng]], [[Yang, Zhongliang]], [[Wang, Kecheng]], [[Li, Haitian]], [[Chen, Baocheng]], [[An, Xingyu]], [[Liu, Ziyu]], [[Yang, Youdan]], [[Chen, Kejiang]], [[Wan, Sifang]], [[Wang, Xu]], [[Sun, Yufei]], [[Wu, Liyan]], [[Zhou, Ruiqi]], [[Wen, Wenya]], [[Gu, Xingchi]], [[Zhang, Tianxin]], [[Gao, Yue]], [[Huang, Yongfeng]]
+[[Li, Yudong]], [[Yang, Peiru]], [[Huang, Feng]], [[Yang, Zhongliang]], [[Wang, Kecheng]], [[Li, Haitian]], [[Chen, Baocheng]], [[An, Xingyu]], [[Liu, Ziyu]], [[Yang, Youdan]], [[Chen, Kejiang]], [[Wan, Sifang]], [[Xu Wang|Wang, Xu]], [[Sun, Yufei]], [[Wu, Liyan]], [[Zhou, Ruiqi]], [[Wen, Wenya]], [[Gu, Xingchi]], [[Zhang, Tianxin]], [[Gao, Yue]], [[Huang, Yongfeng]]
 
 ## Metadata
 

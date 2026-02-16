@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding"
 year: 2024
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (mair-lab)]]"
 authors: Unknown (mair-lab)
 url: "https://huggingface.co/datasets/mair-lab/CulturalVQA"
 publication: HuggingFace

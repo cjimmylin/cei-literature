@@ -10,7 +10,7 @@ type: preprint
 short_title: "HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong"
 year: 2025
 first_author: "[[Sirui Han]]"
-last_author: "[[Yike Guo]]"
+last_author: "[[Yike Guo Ruiyuan Zhang]]"
 authors: Sirui Han, Junqi Zhu, Ruiyuan Zhang, Yike Guo
 url: "https://arxiv.org/abs/2507.11502"
 external_pdf: "https://arxiv.org/pdf/2507.11502.pdf"
@@ -44,7 +44,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Sirui Han, Junqi Zhu, Ruiyuan Zhang, Yike Guo]]
+[[Jiawei Han|Junqi Zhu Sirui Han]], [[Yike Guo Ruiyuan Zhang]]
 
 ## Metadata
 

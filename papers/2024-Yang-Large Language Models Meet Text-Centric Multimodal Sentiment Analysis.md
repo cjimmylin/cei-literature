@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Computer Vision & Multimodal"
 
 ## Authors
 
-[[Hao Yang]], [[Yanyan Zhao]], [[Yang Wu]], [[Shilong Wang]], [[Tian Zheng]], [[Hongbo Zhang]], [[Zongyang Ma]], [[Wanxiang Che]], [[Bing Qin]]
+[[Yang, Hao]], [[Zhao, Yanyan]], [[Wu, Yang]], [[Wang, Shilong]], [[Zheng, Tian]], [[Zhang, Hongbo]], [[Ma, Zongyang]], [[Che, Wanxiang]], [[Qin, Bing]]
 
 ## Metadata
 

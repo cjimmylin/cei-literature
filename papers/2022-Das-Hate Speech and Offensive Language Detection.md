@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ year: 2025
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
 authors: "[[Das, Mithun]]; [[Banerjee, Somnath]]; [[Saha, Punyajoy]]; [[Mukherjee, Animesh]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000250"
 external_pdf: "https://arxiv.org/pdf/2210.03479v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Das, Mithun]], [[Banerjee, Somnath]], [[Saha, Punyajoy]], [[Mukherjee, Animesh]]
+[[Das, Mithun]], [[Somnath Banerjee|Banerjee, Somnath]], [[Punyajoy Saha|Saha, Punyajoy]], [[Animesh Mukherjee|Mukherjee, Animesh]]
 
 ## Metadata
 
-**Authors:** Mithun Das; Somnath Banerjee; Punyajoy Saha; Animesh Mukherjee
+**Authors:** Das, Mithun; Banerjee, Somnath; Saha, Punyajoy; Mukherjee, Animesh
 
 **Year:** 2022
 

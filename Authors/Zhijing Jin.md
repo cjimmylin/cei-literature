@@ -21,7 +21,10 @@ Zhijing Jin is an incoming Assistant Professor at the University of Toronto and 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]] (Last Author)
+- [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling|EMNLP (Educator-role Moral and Normative LLMs Profiling)]]
 - [[2025-Pandey-SocialHarmBench|SocialHarmBench]] (Last Author)
 - [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]] (Last Author)
@@ -31,5 +34,9 @@ Zhijing Jin is an incoming Assistant Professor at the University of Toronto and 
 ## Notes
 
 
+
+
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 [Additional context or contact information]

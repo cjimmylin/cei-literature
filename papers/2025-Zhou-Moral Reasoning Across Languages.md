@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "http://arxiv.org/abs/2504.19759"
 external_pdf: "http://arxiv.org/pdf/2504.19759.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Vietnamese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

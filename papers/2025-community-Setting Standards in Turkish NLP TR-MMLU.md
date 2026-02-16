@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Setting Standards in Turkish NLP TR-MMLU"
 year: 2025
 first_author: "[[community), Multiple authors (Turkish NLP]]"
-last_author: "[[community), Multiple authors (Turkish NLP]]"
+last_author: "[[Multiple authors (Turkish NLP community)]]"
 authors: "[[Multiple authors (Turkish NLP community)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.00593"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

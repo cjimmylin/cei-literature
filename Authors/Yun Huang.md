@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: huashen@nyu.edu
+- *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: tmitra@uw.edu
 - *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: reshmighosh@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

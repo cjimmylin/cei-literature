@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "MarIA and BETO are Sexist: Evaluating Gender Bias in Large Language Models for Spanish"
 year: 2025
 first_author: "[[Plaza-del-Arco, Flor Miriam]]"
-last_author: "[[Plaza-del-Arco, Flor Miriam]]"
+last_author: "[[Flor Miriam Plaza-del-Arco]]"
 authors: "[[Plaza-del-Arco, Flor Miriam]]"
 authors_incomplete: true
 doi: 10.1007/s10579-023-09670-3
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Flor Miriam Plaza-del-Arco, et al.]]
+[[Flor Plaza-del-Arco|Flor Miriam Plaza-del-Arco]]
 
 ## Metadata
 

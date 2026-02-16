@@ -1,6 +1,6 @@
 ---
 name: "Cheng"
-affiliation: "University/Organization"
+affiliation: "University, 2 hon9kon9ize, 3 The Education University of Hong Kong"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]]
+
+
+- [[2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language|HKCanto-Eval: A Benchmark for Evaluating Cantonese Language Understanding and Cultural Comprehension in LLMs]]
 
 ## Notes
 
+
+
+- *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: jed.cheng@mag.ed.kyushu
+- *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: lchaakming@eduhk.hk
 [Additional context or contact information]

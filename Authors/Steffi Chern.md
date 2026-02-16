@@ -24,10 +24,16 @@ Her research is affiliated with Professor Pengfei Liu's group at Shanghai Jiao T
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chern-BeHonest|BeHonest]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 The BeHonest benchmark has received 7 citations as of August 2025 and is publicly available at https://github.com/GAIR-NLP/BeHonest.

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://huggingface.co/datasets/neurips-dataset-1211/DIVE"
 
 ## Authors
 
-[[Rastogi, Charvi]], [[Teh, Tian Huey]], [[Mishra, Pushkar]], [[Patel, Roma]], [[Wang, Ding]], [[Díaz, Mark]], [[Parrish, Alicia]], [[Davani, Aida Mostafazadeh]], [[Ashwood, Zoe]], [[Paganini, Michela]], [[Prabhakaran, Vinodkumar]], [[Rieser, Verena]], [[Aroyo, Lora]]
+[[Rastogi, Charvi]], [[Teh, Tian Huey]], [[Pushkar Mishra|Mishra, Pushkar]], [[Roma Patel|Patel, Roma]], [[Ding Wang|Wang, Ding]], [[Díaz, Mark]], [[Alicia Parrish|Parrish, Alicia]], [[Aida Mostafazadeh Davani|Davani, Aida Mostafazadeh]], [[Ashwood, Zoe]], [[Paganini, Michela]], [[Vinodkumar Prabhakaran|Prabhakaran, Vinodkumar]], [[Verena Rieser|Rieser, Verena]], [[Lora Aroyo|Aroyo, Lora]]
 
 ## Metadata
 

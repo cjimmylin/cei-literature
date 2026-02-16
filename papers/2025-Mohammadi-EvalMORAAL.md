@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2510.05942.pdf"
 publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ newtags: "Deontology, Cross-Cultural Ethics, LLM Evaluation, Moral Alignment"
 key_contribution: "Transparent CoT framework evaluating moral alignment in 20 LLMs using World Values Survey and PEW data"
 significance: "Reveals 21-point Western vs non-Western alignment gap; Claude-3-Opus achieves r=0.890 survey correlation"
 abstract: "We present EvalMORAAL1, a transparent chain-of-thought (CoT) framework that uses two scoring methods (log-probabilities and direct ratings) plus a model-as-judge peer review to evaluate moral alignment in 20 large language models. We assess models on the World Values Survey (55 countries, 19 topics) and the PEW Global Attitudes Survey (39 countries, 8 topics). With EvalMORAAL, top models align closely with survey responses (Pearson’s 𝑟≈0.90 on WVS)."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

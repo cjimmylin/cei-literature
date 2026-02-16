@@ -1,9 +1,9 @@
 ---
 name: "Lanxin Ni"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Artificial Intelligence, Beihang University, Beijing, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "lanxin.ni.law@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Yu-MSLR-Bench Multi-Step Legal Reasoning|MSLR-Bench (Multi-Step Legal Reasoning)]]]]
+
 
 - [[2025-Yu-MSLR-Bench Multi-Step Legal Reasoning|MSLR-Bench (Multi-Step Legal Reasoning)]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com
+- *From 2025-Yu-MSLR-Bench Multi-Step Legal Reasoning*: Affiliation: School of Artificial Intelligence, Beihang University, Beijing, China, Email: lanxin.ni.law@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

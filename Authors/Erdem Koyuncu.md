@@ -28,6 +28,8 @@ Erdem Koyuncu is an Assistant Professor at the University of Illinois Chicago, w
 ## Papers in this Vault
 
 
+
+
 - [[2024-Wong-The Humanistic Buddhism Corpus (HBC)|The Humanistic Buddhism Corpus (HBC)]] (Last Author)
 
 ## External Links
@@ -38,5 +40,9 @@ Erdem Koyuncu is an Assistant Professor at the University of Illinois Chicago, w
 ## Notes
 
 
+
+
+- *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
+- *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
 - *From 2024-Wong-The Humanistic Buddhism Corpus (HBC)*: Affiliation: University of Illinois Chicago
 Erdem Koyuncu's contributions to the Humanistic Buddhism Corpus support research at the intersection of NLP and religious studies.

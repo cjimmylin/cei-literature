@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Semantic and Sentiment Analysis of Selected"
 year: 2025
 first_author: "[[Rohitash Chandra, Venkatesh Kulkarni]]"
-last_author: "[[Rohitash Chandra, Venkatesh Kulkarni]]"
+last_author: "[[Venkatesh Kulkarni Rohitash Chandra]]"
 authors: "[[Rohitash Chandra, Venkatesh Kulkarni]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2201.03115"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Rohitash Chandra, Venkatesh Kulkarni]]
+[[Vikas Chandra|Venkatesh Kulkarni Rohitash Chandra]]
 
 ## Metadata
 

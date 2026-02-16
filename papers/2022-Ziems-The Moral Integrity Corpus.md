@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.18653/v1/2022.acl-long.261
 url: "https://aclanthology.org/2022.acl-long.261/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S8U8PDKM/Ziems et al. - 2022 - The Moral Integrity Corpus A Benchmark for Ethical Dialogue Systems.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf: "http://arxiv.org/pdf/2204.03021"
 pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
 local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
 publication: "ACL 2022"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

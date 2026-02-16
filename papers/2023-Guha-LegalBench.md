@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Neel Guha; Julian Nyarko; Daniel E. Ho; Christopher Ré; Adam Chilton;
 url: "https://arxiv.org/abs/2308.11462"
 external_pdf: "https://arxiv.org/pdf/2308.11462.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ pdf_extract: "PDF Extracts/2023/2023-Guha-LegalBench.md"
 abstract: "The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this question, we present LEGALBENCH: a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six different types of legal reasoning. LEGALBENCH was built through an interdisciplinary process, in which we collected tasks designed and hand-crafted by legal professionals."
 paper_summary: "Abstract: The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this que | Overview: LEGALBENCH: A COLLABORATIVELY BUILT BENCHMARK FOR MEASURING LEGAL REASONING IN LARGE LANGUAGE MODELS Neel Guha∗1, Julian Nyarko∗1, Daniel E. Ho∗1, Christopher Ré∗1, Adam Chilton2, Aditya Narayana3, Al | Key Findings: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 | Conclusions: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16"
 local_pdf: [[PDFs/2023/2023-Guha-LegalBench.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -28,6 +31,7 @@ newtags: "Deontology, AI Safety & Alignment, LLM Survey, Ethical Constraints"
 key_contribution: "Comprehensive survey of alignment techniques, training protocols, and empirical findings for LLM safety"
 significance: "Covers domain-specific safety benchmarks addressing refusal behavior, adversarial robustness, and adherence to ethical constraints"
 abstract: "Due to the remarkable capabilities and growing impact of large language models (LLMs), they have been deeply integrated into many aspects of society. Thus, ensuring their alignment with human values and intentions has emerged as a critical challenge. This survey provides a comprehensive overview of practical alignment techniques, training protocols, and empirical findings in LLM alignment. We analyze the development of alignment methods across diverse paradigms, characterizing the fundamental..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

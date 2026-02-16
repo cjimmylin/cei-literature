@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Investigating Gender Bias in Turkish Language"
 year: 2025
 first_author: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
-last_author: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
+last_author: "[[Georg Rehm]]"
 authors: "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11726"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]
+[[Orhun Caglidil]], [[Malte Ostendorff]], [[Georg Rehm]]
 
 ## Metadata
 

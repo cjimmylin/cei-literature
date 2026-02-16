@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "AfriHate A Multilingual Collection of Hate"
 year: 2025
 first_author: "[[Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, David Ifeoluwa Adelani, Ibrahim Said Ahmad, Saminu Mohammad Aliyu, Nelson Odhiambo Onyango, Lilian D. A. Wanzare, Samuel Rutunda, Lukman Jibril Aliyu, Esubalew Alemneh, Oumaima Hourrane, Hagos Tesfahun Gebremichael, Elyas Abdi Ismail, Meriem Beloucif, Ebrahim Chekol Jibril, Andiswa Bukula, Rooweither Mabuya, Salomey Osei, Abigail Oppong, Tadesse Destaw Belay, Tadesse Kebede Guge, Tesfa Tegegne Asfaw, Chiamaka Ijeoma Chukwuneke, Paul Roettger, Seid Muhie Yimam, Nedjma Ousidhoum]]"
-last_author: "[[Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, David Ifeoluwa Adelani, Ibrahim Said Ahmad, Saminu Mohammad Aliyu, Nelson Odhiambo Onyango, Lilian D. A. Wanzare, Samuel Rutunda, Lukman Jibril Aliyu, Esubalew Alemneh, Oumaima Hourrane, Hagos Tesfahun Gebremichael, Elyas Abdi Ismail, Meriem Beloucif, Ebrahim Chekol Jibril, Andiswa Bukula, Rooweither Mabuya, Salomey Osei, Abigail Oppong, Tadesse Destaw Belay, Tadesse Kebede Guge, Tesfa Tegegne Asfaw, Chiamaka Ijeoma Chukwuneke, Paul Roettger, Seid Muhie Yimam, Nedjma Ousidhoum]]"
+last_author: "[[Nedjma Ousidhoum]]"
 authors: "[[Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, David Ifeoluwa Adelani, Ibrahim Said Ahmad, Saminu Mohammad Aliyu, Nelson Odhiambo Onyango, Lilian D. A. Wanzare, Samuel Rutunda, Lukman Jibril Aliyu, Esubalew Alemneh, Oumaima Hourrane, Hagos Tesfahun Gebremichael, Elyas Abdi Ismail, Meriem Beloucif, Ebrahim Chekol Jibril, Andiswa Bukula, Rooweither Mabuya, Salomey Osei, Abigail Oppong, Tadesse Destaw Belay, Tadesse Kebede Guge, Tesfa Tegegne Asfaw, Chiamaka Ijeoma Chukwuneke, Paul Roettger, Seid Muhie Yimam, Nedjma Ousidhoum]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08284"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Shamsuddeen Hassan Muhammad, Idris Abdulmumin, Abinew Ali Ayele, David Ifeoluwa Adelani, Ibrahim Said Ahmad, Saminu Mohammad Aliyu, Nelson Odhiambo Onyango, Lilian D. A. Wanzare, Samuel Rutunda, Lukman Jibril Aliyu, Esubalew Alemneh, Oumaima Hourrane, Hagos Tesfahun Gebremichael, Elyas Abdi Ismail, Meriem Beloucif, Ebrahim Chekol Jibril, Andiswa Bukula, Rooweither Mabuya, Salomey Osei, Abigail Oppong, Tadesse Destaw Belay, Tadesse Kebede Guge, Tesfa Tegegne Asfaw, Chiamaka Ijeoma Chukwuneke, Paul Roettger, Seid Muhie Yimam, Nedjma Ousidhoum]]
+[[Shamsuddeen Hassan Muhammad]], [[Idris Abdulmumin]], [[Abinew Ali Ayele]], [[David Ifeoluwa Adelani]], [[Ibrahim Sa'id Ahmad|Ibrahim Said Ahmad]], [[Saminu Mohammad Aliyu]], [[Nelson Odhiambo Onyango]], [[Lilian D. A. Wanzare]], [[Samuel Rutunda]], [[Lukman Jibril Aliyu]], [[Esubalew Alemneh]], [[Oumaima Hourrane]], [[Hagos Gebremichael|Hagos Tesfahun Gebremichael]], [[Elyas Abdi Ismail]], [[Meriem Beloucif]], [[Ebrahim Chekol Jibril]], [[Andiswa Bukula]], [[Rooweither Mabuya]], [[Salomey Osei]], [[Abigail Oppong]], [[Tadesse Belay|Tadesse Destaw Belay]], [[Tadesse Kebede Guge]], [[Tesfa Tegegne Asfaw]], [[Chiamaka Ijeoma Chukwuneke]], [[Paul Roettger]], [[Seid Muhie Yimam]], [[Nedjma Ousidhoum]]
 
 ## Metadata
 

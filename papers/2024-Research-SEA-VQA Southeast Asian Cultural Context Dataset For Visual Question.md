@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering"
 year: 2025
 first_author: "[[Research, Vision]]"
-last_author: "[[Research, Vision]]"
+last_author: "[[Vision Research]]"
 authors: "[[Research, Vision]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.alvr-1.15/"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indonesian, Filipino, Southeast Asian"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"

@@ -38,6 +38,8 @@ Federico Bianchi is a Research Scientist affiliated with Stanford University and
 ## Papers in this Vault
 
 
+
+
 - [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]] (First Author)
 - [[2024-Röttger-XSTest|XSTest]]
 
@@ -54,5 +56,9 @@ Federico Bianchi is a Research Scientist affiliated with Stanford University and
 ## Notes
 
 
+
+
+- *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
+- *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 Federico Bianchi's work on XSTest addresses an important problem in AI safety: the trade-off between making models safe and keeping them helpful. His research demonstrates that overly cautious safety measures can reduce model utility for legitimate users.

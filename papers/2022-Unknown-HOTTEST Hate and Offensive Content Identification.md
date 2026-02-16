@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,10 +13,10 @@ key: EXSR0587
 type: preprint
 short_title: "HOTTEST Hate and Offensive Content Identification"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Rajalakshmi, R.]]"
+last_author: "[[M, Anand Kumar]]"
+authors: "[[Rajalakshmi, R.]]; [[Selvaraj, Srivarshan]]; [[R, Faerie Mattins]]; [[Vasudevan, Pavitra]]; [[M, Anand Kumar]]"
+authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000870"
 external_pdf: "https://core.ac.uk/download/143686156.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Unknown-HOTTEST Hate and Offensive Content Identification.md"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Unknown]]
+[[Rajalakshmi, R]], [[Selvaraj, Srivarshan]], [[R, Faerie Mattins]], [[Vasudevan, Pavitra]], [[M, Anand Kumar]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Rajalakshmi, R.; Selvaraj, Srivarshan; R, Faerie Mattins; Vasudevan, Pavitra; M, Anand Kumar
 
 **Year:** 2022
 

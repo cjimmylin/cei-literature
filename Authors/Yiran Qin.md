@@ -1,6 +1,6 @@
 ---
 name: "Yiran Qin"
-affiliation: "University/Organization"
+affiliation: "University 3 Fudan University 4 Harbin Institute of Technology"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -18,9 +18,15 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Li-T2ISafety|T2ISafety]]
 - [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
 
 ## Notes
 
+
+
+- *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
+- *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
 [Additional context or contact information]

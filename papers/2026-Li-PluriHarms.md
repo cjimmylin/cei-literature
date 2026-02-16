@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Li, Jing-Jing]], [[Mire, Joel]], [[Fleisig, Eve]], [[Pyatkin, Valentina]], [[Collins, Anne]], [[Sap, Maarten]], [[Levine, Sydney]]
+[[Li, Jing-Jing]], [[Mire, Joel]], [[Eve Fleisig|Fleisig, Eve]], [[Valentina Pyatkin|Pyatkin, Valentina]], [[Collins, Anne]], [[Maarten Sap|Sap, Maarten]], [[Sydney Levine|Levine, Sydney]]
 
 ## Metadata
 

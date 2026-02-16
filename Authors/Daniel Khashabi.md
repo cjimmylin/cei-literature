@@ -35,7 +35,10 @@ Daniel Khashabi is an Assistant Professor at Johns Hopkins University, specializ
 
 ## Papers in this Vault
 
+
+
 - [[2022-Kim-ProsocialDialog|ProsocialDialog]]
+- [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]] (First Author)
 
 ## Links
 - Website: https://danielkhashabi.com/

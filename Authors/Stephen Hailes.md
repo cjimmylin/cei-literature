@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]]
 - [[2025-Tennant-Moral Alignment for LLM Agents|Moral Alignment for LLM Agents]]
 - [[2025-Tennant-Moral Intrinsic Rewards for Alignment|Moral Intrinsic Rewards for Alignment]]
@@ -26,5 +28,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations*: Affiliation: Department of Computer Science, Email: m.musolesi@ucl.ac.uk
+- *From 2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations*: Affiliation: Department of Computer Science, Email: s.hailes@ucl.ac.uk
 - *From 2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations*: Affiliation: Department of Computer Science, Email: s.hailes@ucl.ac.uk
 [Additional context or contact information]

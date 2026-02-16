@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: EXSR0324
 type: preprint
 short_title: "Alif Advancing Urdu Large Language Models"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Shafique, Muhammad Ali]]"
+last_author: "[[Farooq, Hamza]]"
+authors: "[[Shafique, Muhammad Ali]]; [[Mehreen, Kanwal]]; [[Arham, Muhammad]]; [[Amjad, Maaz]]; [[Butt, Sabur]]; [[Farooq, Hamza]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.09051"
 external_pdf: "https://arxiv.org/pdf/2510.09051.pdf"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-Alif Advancing Urdu Large Language Models.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Urdu, Pakistani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-Unknown
+[[Safinah Ali|Shafique, Muhammad Ali]], [[Mehreen, Kanwal]], [[Ahmada, Muhammad|Arham, Muhammad]], [[Amjad, Maaz]], [[Butt, Sabur]], [[Farooq, Hamza]]
 
 ## Metadata
 
-**Authors:** [[Unknown]]
+**Authors:** Shafique, Muhammad Ali; Mehreen, Kanwal; Arham, Muhammad; Amjad, Maaz; Butt, Sabur; Farooq, Hamza
 
 **Year:** 2025
 

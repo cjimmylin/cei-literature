@@ -45,7 +45,7 @@ research_topic: "Computer Vision & Multimodal"
 
 ## Authors
 
-[[Malvina Nikandrou, Georgios Pantazopoulos, Nikolas Vitsakis, Ioannis Konstas, Alessandro Suglia]]
+[[Malvina Nikandrou]], [[Georgios Pantazopoulos]], [[Nikolas Vitsakis]], [[Ioannis Konstas]], [[Alessandro Suglia]]
 
 ## Metadata
 

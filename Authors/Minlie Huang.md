@@ -18,10 +18,15 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Li-LegalAgentBench|LegalAgentBench]] (Last Author)
+- [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]]
 - [[2025-Zhang-AISafetyLab|AISafetyLab]] (Last Author)
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]] (Last Author)
 - [[2024-Chen-ToMBench|ToMBench]] (Last Author)
 - [[2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language|EmoBench: Evaluating the Emotional Intelligence of Large Language Models]] (Last Author)
+- [[2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents|Agent-SafetyBench: Evaluating the Safety of LLM Agents]] (Last Author)
 - [[2024-Zhang-SafetyBench|SafetyBench]] (Last Author)
 - [[2023-Liu-AgentBench|AgentBench]]
 - [[2023-Liu-AlignBench|AlignBench]]
@@ -31,5 +36,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
+- *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: aihuang@tsinghua.edu.cn
 [Additional context or contact information]

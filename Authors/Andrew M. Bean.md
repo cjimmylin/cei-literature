@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]] (First Author)
 - [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]]
 - [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
@@ -85,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Kirk-The PRISM Alignment Project*: Affiliation: University of Oxford
+- *From 2024-Kirk-The PRISM Alignment Project*: Affiliation: University of Oxford
 - *From 2024-Kirk-The PRISM Alignment Project*: Affiliation: University of Oxford
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

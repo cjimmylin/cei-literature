@@ -32,9 +32,17 @@ Abraham's research focuses on the technical and socio-cultural challenges of spe
 ## Papers in this Vault
 
 
+
+
+- [[2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for|UbuntuGuard A Culturally-Grounded Policy Benchmark for]]
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
+- [[2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering|AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset]]
 
 ## Notes
 
+
+
+- *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
+- *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 [Focuses on the empowerment of African linguistic identities through voice AI.]

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "BuddhismEval A Bilingual Benchmark for Buddhist"
 year: 2025
 first_author: "[[Nethmi Muthugala, Deyi Xiong]]"
-last_author: "[[Nethmi Muthugala, Deyi Xiong]]"
+last_author: "[[Deyi Xiong Nethmi Muthugala]]"
 authors: "[[Nethmi Muthugala, Deyi Xiong]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Sri Lankan, Sinhala"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Nethmi Muthugala, Deyi Xiong]]
+[[Deyi Xiong Nethmi Muthugala]]
 
 ## Metadata
 

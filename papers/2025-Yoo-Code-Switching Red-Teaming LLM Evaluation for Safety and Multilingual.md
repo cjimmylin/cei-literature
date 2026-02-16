@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Korean, Thai, Vietnamese, Arabic, African/Ubuntu, Italian"
+cultures_nationalities_list: "Chinese, Korean, Thai, Vietnamese, Arabic, Italian, African"
 languages_list: "Arabic, Bengali, Chinese, English, Italian, Javanese, Korean, Swahili, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Haneul Yoo, Yongjin Yang, Hwaran Lee]]
+[[Haneul Yoo]], [[Yongjin Yang]], [[Hwaran Lee]]
 
 ## Metadata
 

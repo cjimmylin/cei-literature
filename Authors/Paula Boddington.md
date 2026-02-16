@@ -1,7 +1,7 @@
 ---
 name: "Paula Boddington"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Information Science and Technology, Hokkaido University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Boddington-Normative Ethical Theory AI Ethics|Normative Ethical Theory AI Ethics]] (First Author)]]
 
+
+- [[2023-Boddington-Normative Ethical Theory AI Ethics|Normative Ethical Theory AI Ethics]] (First Author)
 
 ## External Links & Profiles
 
@@ -82,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Boddington-Normative Ethical Theory AI Ethics*: Affiliation: School of Information Science and Technology, Hokkaido University
+- *From 2023-Boddington-Normative Ethical Theory AI Ethics*: Affiliation: School of Information Science and Technology, Hokkaido University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

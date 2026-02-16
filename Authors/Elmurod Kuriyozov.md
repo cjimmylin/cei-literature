@@ -1,9 +1,9 @@
 ---
 name: "Elmurod Kuriyozov"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, 14, Kh"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "s.matlatipov@nuu.uz"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Kuriyozov-Construction and Evaluation of Sentiment Datasets for Low-Resource|Construction and Evaluation of Sentiment Datasets for Low-Resource]]
+- [[2023-Kuriyozov-Text classification dataset and analysis for|Text classification dataset and analysis for]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Kuriyozov-Text classification dataset and analysis for*: Affiliation: University, 14, Kh, Email: s.matlatipov@nuu.uz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -29,10 +29,16 @@ Ike Obi is a PhD Candidate at Purdue University whose research lies at the inter
 ## Papers in this Vault
 
 
+
+
 - [[2024-Obi-Value Imprint|Value Imprint]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Obi-Value Imprint*: Affiliation: labels generated from the annotation as ground truth data for
+- *From 2024-Obi-Value Imprint*: Affiliation: labels generated from the annotation as ground truth data for
 - *From 2024-Obi-Value Imprint*: Affiliation: labels generated from the annotation as ground truth data for
 Ike Obi's Value Imprint research is foundational for understanding how human values are (and are not) represented in AI training data, directly supporting the vault's focus on ethical AI development and value alignment.

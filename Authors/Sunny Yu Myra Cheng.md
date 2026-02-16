@@ -3,7 +3,7 @@ name: "Sunny Yu Myra Cheng"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "y.v.chen@ieee.org"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,11 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]] (First Author)]]
+
 
 - [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]] (First Author)
+- [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]]
+- [[2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model|An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)]]
 
 ## External Links & Profiles
 
@@ -83,6 +85,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
+- *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: y.v.chen@ieee.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

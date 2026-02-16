@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +11,7 @@ type: preprint
 short_title: "Reward Model Perspectives on Demographic Alignment (Elle et al.)"
 year: 2025
 first_author: "[[Yang, Elle Michelle]]"
-last_author: "[[Yang, Elle Michelle]]"
+last_author: "[[Elle Michelle Yang]]"
 authors: "[[Yang, Elle Michelle]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.06391"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/socialnlp/rmp"
 
 ## Authors
 
-[[S. Elle]]
+[[Erhong Yang|Elle Michelle Yang]]
 
 ## Metadata
 

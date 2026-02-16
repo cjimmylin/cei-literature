@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +49,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Wenhan Han]], [[Yifan Zhang]], [[Zhixun Chen]], [[Binbin Liu]], [[Haobin Lin]], [[Bingni Zhang]], [[Taifeng Wang]], [[Mykola Pechenizkiy]], [[Meng Fang]], [[Yin Zheng]]
+[[Wenhan Han]], [[Yifan Zhang]], [[Zhixun Chen]], [[Binbin Liu]], [[Haobin Lin]], [[Bingni Zhang]], [[Taifeng Wang]], [[Mykola Pechenizkiy]], [[Ming Fang|Meng Fang]], [[Yefeng Zheng|Yin Zheng]]
 
 ## Metadata
 

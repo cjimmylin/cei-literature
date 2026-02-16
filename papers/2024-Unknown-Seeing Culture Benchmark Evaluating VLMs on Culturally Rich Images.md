@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "Seeing Culture Benchmark: Evaluating VLMs on Culturally Rich Images from Southeast Asia"
 year: 2024
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (Multimedia-SMU)]]"
 authors: Unknown (Multimedia-SMU)
 url: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 publication: HuggingFace

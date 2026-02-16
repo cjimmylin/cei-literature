@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2311.07723"
 external_pdf: "http://arxiv.org/pdf/2311.07723.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2023/2023-Clymer-Generalization Analogies.md"
 abstract: "As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feedback instead of genuinely striving to follow instructions; however, this risk can be mitigated by controlling how LLMs generalize human feedback to situations where it is unreliable. To better understand how reward models generalize, we craft 69 distribution shifts spanning 8 categories."
 paper_summary: "Abstract: As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions | Overview: Generalization Analogies (GENIES): A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains Joshua Clymer 1 Garrett Baker 2 Rohan Subramani 1 Sam Wang 1 Abstract As AI systems become more in"
 local_pdf: "[[PDFs/2023/2023-Clymer-Generalization Analogies.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

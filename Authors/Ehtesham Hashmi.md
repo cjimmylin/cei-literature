@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Chared-AI-driven detection of hate speech on social media a case study in|AI-driven detection of hate speech on social media a case study in]]
+
+- [[2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific|Enhancing Multilingual Hate Speech Detection: From Language-Specific Insights to Cross-Linguistic Integration]] (First Author)
 
 ## External Links & Profiles
 

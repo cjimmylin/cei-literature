@@ -47,6 +47,8 @@ Saffari led the development of the Iranian Social Norms (ISN) dataset, the first
 ## Papers in this Vault
 
 
+
+
 - [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]] (First Author)
 - [[2024-Saffari-PSN|PSN]] (First Author)
 
@@ -59,5 +61,9 @@ Saffari led the development of the Iranian Social Norms (ISN) dataset, the first
 ## Notes
 
 
+
+
+- *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
+- *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: francesco.pierri@polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
 Hamidreza Saffari's work on Iranian social norms represents a critical contribution to ensuring AI systems understand and respect cultural diversity beyond Western contexts, highlighting the importance of culturally-specific datasets.

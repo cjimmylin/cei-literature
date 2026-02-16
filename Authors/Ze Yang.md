@@ -18,10 +18,18 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Lin-MORALISE|MORALISE]]
+- [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
+- [[2022-Yang-CINO A Chinese Minority Pre-trained Language Model|CINO: A Chinese Minority Pre-trained Language Model]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 [Additional context or contact information]

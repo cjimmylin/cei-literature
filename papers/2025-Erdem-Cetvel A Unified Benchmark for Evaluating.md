@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Cetvel A Unified Benchmark for Evaluating"
 year: 2025
 first_author: "[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]"
-last_author: "[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]"
+last_author: "[[Aykut Erdem Gozde Gul Sahin]]"
 authors: "[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.16431"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Yakup Abrek Er, Ilker Kesen, Gozde Gul Sahin, Aykut Erdem]]
+[[Ilker Kesen Yakup Abrek Er]], [[Aykut Erdem Gozde Gul Sahin]]
 
 ## Metadata
 

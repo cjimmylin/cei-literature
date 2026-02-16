@@ -22,8 +22,11 @@ Liwei Jiang is a final-year Ph.D. candidate in the Paul G. Allen School of Compu
 ## Papers in this Vault
 
 
+
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]] (First Author)
+- [[2025-Li-SafetyAnalyst|SafetyAnalyst]]
 - [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]]
 - [[2024-Chiu-DailyDilemmas|DailyDilemmas]]
 - [[2024-Jiang-Can Language Models Reason about Individualistic|Can Language Models Reason about Individualistic]] (First Author)
@@ -39,5 +42,9 @@ Liwei Jiang is a final-year Ph.D. candidate in the Paul G. Allen School of Compu
 ## Notes
 
 
+
+
+- *From 2023-Rao-What Makes it Ok to Set a Fire Iterative*: Affiliation: School of Computer Science & Engineering, University of Washington
+- *From 2023-Rao-What Makes it Ok to Set a Fire Iterative*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2023-Rao-What Makes it Ok to Set a Fire Iterative*: Affiliation: School of Computer Science & Engineering, University of Washington
 [Additional context or contact information]

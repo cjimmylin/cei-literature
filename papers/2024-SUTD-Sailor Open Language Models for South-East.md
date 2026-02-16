@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0525
 type: preprint
 short_title: "Sailor Open Language Models for South-East"
 year: 2025
-first_author: "[[Dou]]"
-last_author: "[[Dou]]"
-authors: "[[Dou]]"
-authors_incomplete: true
+first_author: "[[Dou, Longxu]]"
+last_author: "[[Lin, Min]]"
+authors: "[[Dou, Longxu]]; [[Liu, Qian]]; [[Zeng, Guangtao]]; [[Guo, Jia]]; [[Zhou, Jiahui]]; [[Lu, Wei]]; [[Lin, Min]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2404.03608"
 external_pdf: "https://arxiv.org/pdf/2404.03608.pdf"
 pdf_extract: "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-East.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Thai, Vietnamese"
+cultures_nationalities_list: "Chinese, Indonesian, Thai, Vietnamese, Southeast Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Dou, Liu et al. (Sea AI Lab / SUTD)]]
+[[Dou, Longxu]], [[Liu, Qian]], [[Zeng, Guangtao]], [[Guo, Jia]], [[Zhou, Jiahui]], [[Lu, Wei]], [[Lin, Min]]
 
 ## Metadata
 
-**Authors:** Dou, Liu et al. (Sea AI Lab / SUTD)
+**Authors:** Dou, Longxu; Liu, Qian; Zeng, Guangtao; Guo, Jia; Zhou, Jiahui; Lu, Wei; Lin, Min
 
 **Year:** 2024
 

@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Pourbahman-ELAB|ELAB]] (Last Author)
+- [[2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian|Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
+- *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 [Additional context or contact information]

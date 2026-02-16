@@ -32,6 +32,8 @@ ChengCheng Tan is a key contributor to FAR.AI (Foundational Alignment Research),
 ## Papers in this Vault
 
 
+
+
 - [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]]
 
 ## External Links & Profiles
@@ -41,5 +43,9 @@ ChengCheng Tan is a key contributor to FAR.AI (Foundational Alignment Research),
 ## Notes
 
 
+
+
+- *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
+- *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
 - *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
 ChengCheng Tan's work is unique in its focus on the "positive" side of alignment—ensuring AI contributes to human wellbeing rather than just avoiding harm.

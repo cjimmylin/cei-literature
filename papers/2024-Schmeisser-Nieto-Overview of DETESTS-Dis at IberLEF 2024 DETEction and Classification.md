@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Schmeisser-Nieto, et al.]]
+[[Schmeisser-Nieto]]
 
 ## Metadata
 

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://www.researchgate.net/publication/381504958_Phronesis_for_AI_System
 pdf_extract: "PDF Extracts/2025/2025-Krzanowski-Phronesis for AI Systems.md"
 local_pdf: "[[PDFs/2025/2025-Krzanowski-Phronesis for AI Systems.pdf]]"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Explores the conceptual foundations and feasibility of implem
 significance: "Defines 'quasi-phronesis' as a critical goal for creating context-sensitive AI agents capable of navigating complex ethical landscapes without rigid rules"
 external_pdf: "https://philpapers.org/archive/KRZAOP-2.pdf"
 abstract: "This paper explores the definition and relevance of phronesis (practical wisdom) for AI systems. It discusses the conceptual foundations of synthetic phronesis, reviews current research on embedding moral judgment into AI, and examines the prospects for creating architectures capable of context-dependent moral reasoning. The authors argue that while AI currently lacks the lived experience of human phronesis, developing \"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"

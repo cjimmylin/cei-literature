@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value|AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment]]
 - [[2023-Duan-Denevil|Denevil]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
+- *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2023-Duan-Denevil*: Affiliation: University, 2Microsoft Research Asia, Email: stduan22@m.fudan.edu.cn
 [Additional context or contact information]

@@ -20,10 +20,16 @@ Vanessa Rebecca Wiyono is an Undergraduate Informatics Engineering student at In
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wiyono-IndoPref|IndoPref]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
+- *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu
 - *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
 [Additional context or contact information]

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ pdf_extract: "PDF Extracts/2024/2024-DAlessandro-Deontology and Safe Artificial 
 local_pdf: "[[PDFs/2024/2024-DAlessandro-Deontology and Safe Artificial Intelligence.pdf]]"
 publication: "Philosophical Studies"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Argues that while deontology is attractive alignment target, 
 significance: "Critical analysis challenging assumption that moral alignment automatically yields safe AI behavior"
 tags: 
 abstract: "The ﬁeld of AI safety aims to prevent increasingly capable artiﬁcially intelligent systems from causing humans harm. Research on moral alignment is widely thought to oﬀer a promising safety strategy: if we can equip AI systems with appropriate ethical rules, according to this line of thought, they’ll be unlikely to disempower, destroy or otherwise seriously harm us. Deontological morality looks like a particularly attractive candidate for an alignment target, given its popularity, relative..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented"
 year: 2025
 first_author: "[[Mandikal, Priyanka]]"
-last_author: "[[Mandikal, Priyanka]]"
+last_author: "[[Priyanka Mandikal]]"
 authors: "[[Priyanka Mandikal]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2408.11903"
@@ -26,6 +27,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"

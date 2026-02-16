@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/E7EZLTEZ/Li et al. - T2ISaf
 pdf_extract: "PDF Extracts/2025/2025-Li-T2ISafety.md"
 local_pdf: [[PDFs/2025/2025-Li-T2ISafety.pdf]]
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ key_contribution: "Released T2ISafety, a benchmark for assessing fairness, toxic
 significance: "Highlights that current T2I models suffer from persistent racial bias and privacy leakage, providing a specialized tool to evaluate visual generation safety beyond simple text filters."
 tags: 
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models present notable safety concerns, including the risk of generating harmful, biased, or private content. Current research on assessing T2I safety remains in its early stages. While some efforts have been made to evaluate models on specific safety dimensions, many critical risks remain unexplored."
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

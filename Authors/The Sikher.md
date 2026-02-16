@@ -1,6 +1,6 @@
 ---
 name: "The Sikher"
-affiliation: "University/Organization"
+affiliation: "lable openly at http://api"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -18,8 +18,14 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2010-Project-GurbaniDB|GurbaniDB]] (Last Author)
 
 ## Notes
 
+
+
+- *From 2010-Project-GurbaniDB*: Affiliation: lable openly at http://api
+- *From 2010-Project-GurbaniDB*: Affiliation: lable openly at http://api
 [Additional context or contact information]

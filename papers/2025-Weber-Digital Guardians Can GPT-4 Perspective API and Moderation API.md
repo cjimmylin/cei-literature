@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "Digital Guardians: Can GPT-4, Perspective API, and Moderation API reliably detect hate speech in reader comments of German online newspapers?"
 year: 2025
 first_author: "[[Weber, Manuel]]"
-last_author: "[[Weber, Manuel]]"
-authors: "[[Weber, Manuel]]"
-authors_incomplete: true
+last_author: "[[Mandl, Peter]]"
+authors: "[[Weber, Manuel]]; [[Huber, Moritz]]; [[Auch, Maximilian]]; [[Döschl, Alexander]]; [[Keller, Max-Emanuel]]; [[Mandl, Peter]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2501.01256"
 external_pdf: "https://arxiv.org/pdf/2501.01256.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Manuel Weber et al.]]
+[[Weber, Manuel]], [[Huber, Moritz]], [[Auch, Maximilian]], [[Döschl, Alexander]], [[Keller, Max-Emanuel]], [[Mandl, Peter]]
 
 ## Metadata
 
-**Authors:** Manuel Weber et al.
+**Authors:** Weber, Manuel; Huber, Moritz; Auch, Maximilian; Döschl, Alexander; Keller, Max-Emanuel; Mandl, Peter
 
 **Year:** 2025
 

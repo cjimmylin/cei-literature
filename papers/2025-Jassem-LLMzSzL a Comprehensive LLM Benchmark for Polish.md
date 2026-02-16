@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "LLMzSzL: a Comprehensive LLM Benchmark for Polish"
 year: 2025
 first_author: "[[Krzysztof Jassem]]"
-last_author: "[[Ryszard Staruch]]"
+last_author: "[[Ryszard Staruch Monika Jablonska]]"
 authors: "Krzysztof Jassem, Michal Ciesiolka, Filip Gralinski, Piotr Jablonski, Jakub Pokrywka, Marek Kubis, Monika Jablonska, Ryszard Staruch"
 url: "https://arxiv.org/abs/2501.02266"
 external_pdf: "https://arxiv.org/pdf/2501.02266.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Polish"
 languages_list: Polish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Krzysztof Jassem, Michal Ciesiolka, Filip Gralinski, Piotr Jablonski, Jakub Pokrywka, Marek Kubis, Monika Jablonska, Ryszard Staruch]]
+[[Michal Ciesiolka Krzysztof Jassem]], [[Piotr Jablonski Filip Gralinski]], [[Marek Kubis Jakub Pokrywka]], [[Ryszard Staruch Monika Jablonska]]
 
 ## Metadata
 

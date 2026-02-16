@@ -1,7 +1,7 @@
 ---
 name: "Jie Lu"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Tokyo 2Riken"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Yanaka-JBBQ|JBBQ]]]]
 
+
+- [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]]
 - [[2024-Yanaka-JBBQ|JBBQ]]
 
 ## External Links & Profiles
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

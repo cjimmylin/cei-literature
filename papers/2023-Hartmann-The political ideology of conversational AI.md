@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.2139/ssrn.4316084
 url: "https://www.ssrn.com/abstract=4316084"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BFN6ITR4/Hartmann et al. - 2023 - The political ideology of conversational AI Converging evidence on ChatGPT's pro-environmental, lef.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ abstract: "Conversational artificial intelligence (AI) disrupts how humans inter
 pdf: "http://arxiv.org/pdf/2301.01768"
 pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
 local_pdf: "[[PDFs/2023/2023-Hartmann-The political ideology of conversational AI.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

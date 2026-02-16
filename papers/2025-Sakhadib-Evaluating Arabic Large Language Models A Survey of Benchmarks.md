@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps"
 year: 2025
 first_author: [[Sakhadib]]
-last_author: [[Sakhadib]]
+last_author: "[[Sakhadib]]"
 authors: Sakhadib
 url: "https://arxiv.org/html/2510.13430v1"
 external_pdf: "https://arxiv.org/pdf/2510.13430.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: Arabic
 religious_values: "N/A"
 religious_values_list: "N/A"

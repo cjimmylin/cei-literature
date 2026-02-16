@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Myung-PapersPlease|PapersPlease]]
 
 ## Notes
 
 
+
+
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 - *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 [Additional context or contact information]

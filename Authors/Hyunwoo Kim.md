@@ -49,8 +49,12 @@ Kim created ProsocialDialog, the first large-scale multi-turn dialogue dataset t
 ## Papers in this Vault
 
 
+
+
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2022-Kim-ProsocialDialog|ProsocialDialog]] (First Author)
 - [[2022-Kim-SODA|SODA]] (First Author)
+- [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 
 ## External Links & Profiles
 
@@ -62,5 +66,9 @@ Kim created ProsocialDialog, the first large-scale multi-turn dialogue dataset t
 ## Notes
 
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: myeon9h@kaist.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 Hyunwoo Kim's work on prosocial AI represents a critical contribution to developing AI systems that can navigate complex social situations while promoting positive, ethical behavior.

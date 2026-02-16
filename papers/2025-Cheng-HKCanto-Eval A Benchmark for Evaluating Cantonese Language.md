@@ -44,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Tsz Chung Cheng, Chung Shing Cheng, Chaak Ming Lau, Eugene Tin-Ho Lam, Chun Yat Wong, Hoi On Yu, Cheuk Hei Chong]]
+[[Tsz Chung Cheng]], [[Cheng|Chung Shing Cheng]], [[Chiu Lun Lau|Chaak Ming Lau]], [[Eugene Tin-Ho Lam]], [[Chun Yat Wong]], [[Hoi On Yu]], [[Cheuk Hei Chong]]
 
 ## Metadata
 

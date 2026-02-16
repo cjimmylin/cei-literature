@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Basque, Spanish"
 languages_list: "Basque, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Jaione Bengoetxea]], [[Itziar Gonzalez-Dios]], [[Rodrigo Agerri]]
+[[Bengoetxea, Jaione]], [[Gonzalez-Dios, Itziar]], [[Agerri, Rodrigo]]
 
 ## Metadata
 

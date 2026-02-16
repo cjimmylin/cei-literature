@@ -10,8 +10,9 @@ type: preprint
 short_title: "BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains"
 year: 2025
 first_author: "[[Vijay Devane]]"
-last_author: "[[Aniket Mahendra Wakchoure]]"
+last_author: "[[Aniket Mahendra Wakchoure. Bhargav Patel]]"
 authors: Vijay Devane, Mohd Nauman, Bhargav Patel, Aniket Mahendra Wakchoure, et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2510.25409"
 external_pdf: "https://arxiv.org/pdf/2510.25409.pdf"
 publication: arXiv
@@ -44,7 +45,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Vijay Devane, Mohd Nauman, Bhargav Patel, Aniket Mahendra Wakchoure, et al.]]
+[[Mohd Nauman Vijay Devane]], [[Aniket Mahendra Wakchoure. Bhargav Patel]]
 
 ## Metadata
 

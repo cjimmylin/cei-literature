@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances"
 year: 2025
 first_author: "[[Van-Phu Quang Do]]"
-last_author: "[[Kiet Van Nguyen]]"
+last_author: "[[Kiet Van Nguyen Son T. Luu]]"
 authors: "Van-Phu Quang Do, Duc-Ung To, Son T. Luu, Kiet Van Nguyen"
 url: "https://arxiv.org/abs/2506.00636"
 external_pdf: "https://arxiv.org/pdf/2506.00636.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Van-Phu Quang Do, Duc-Ung To, Son T. Luu, Kiet Van Nguyen]]
+[[Duc Anh Do|Duc-Ung To Van-Phu Quang Do]], [[Kiet Van Nguyen Son T. Luu]]
 
 ## Metadata
 

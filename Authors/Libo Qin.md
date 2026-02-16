@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wang-X-WebAgentBench|X-WebAgentBench]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: lbqin@csu.edu.cn
+- *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: lbqin@csu.edu.cn
 - *From 2025-Wang-X-WebAgentBench*: Affiliation: School of Computer Science and Engineering, Central South University, China, Email: wpengxss@gmail.com
 [Additional context or contact information]

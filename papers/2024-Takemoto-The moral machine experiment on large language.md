@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.1098/rsos.231393
 url: "https://royalsocietypublishing.org/doi/10.1098/rsos.231393"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XC5F78B6/Takemoto - 2024 - The moral machine experiment on large language models.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
@@ -23,6 +26,7 @@ key_contribution: "Replicated the Moral Machine Experiment (trolley problems) on
 significance: "Found that while LLMs broadly align with human utilitarian preferences (save more lives), they are more 'uncompromising' and rigid than humans, lacking the nuanced 'milder inclinations' of human moral judgment."
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

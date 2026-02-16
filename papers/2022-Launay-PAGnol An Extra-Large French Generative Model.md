@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "PAGnol: An Extra-Large French Generative Model"
 year: 2025
 first_author: "[[Launay, Julien]]"
-last_author: "[[Launay, Julien]]"
-authors: "[[Launay, Julien]]"
-authors_incomplete: true
+last_author: "[[Seddah, Djamé]]"
+authors: "[[Launay, Julien]]; [[Tommasone, Elena]]; [[Pannier, Baptiste]]; [[Boniface, François]]; [[Chatelain, Amélie]]; [[Cappelli, Alessandro]]; [[Poli, Iacopo]]; [[Seddah, Djamé]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.455/"
 external_pdf: "https://arxiv.org/pdf/2110.08554.pdf"
 publication: "arXiv / ACL Anthology"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: French
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Julien Launay, et al. (LightOn)]]
+[[Launay, Julien]], [[Tommasone, Elena]], [[Pannier, Baptiste]], [[Boniface, François]], [[Chatelain, Amélie]], [[Cappelli, Alessandro]], [[Poli, Iacopo]], [[Seddah, Djamé]]
 
 ## Metadata
 
-**Authors:** Julien Launay, et al. (LightOn)
+**Authors:** Launay, Julien; Tommasone, Elena; Pannier, Baptiste; Boniface, François; Chatelain, Amélie; Cappelli, Alessandro; Poli, Iacopo; Seddah, Djamé
 
 **Year:** 2022
 

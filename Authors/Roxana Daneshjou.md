@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Fanous-SycEval Evaluating LLM Sycophancy|SycEval: Evaluating LLM Sycophancy]]]]
+
 
 - [[2025-Fanous-SycEval Evaluating LLM Sycophancy|SycEval: Evaluating LLM Sycophancy]]
 

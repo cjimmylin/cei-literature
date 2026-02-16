@@ -44,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Vera Neplenbroek, Arianna Bisazza, Raquel Fernandez]]
+[[Vera Neplenbroek]], [[Arianna Bisazza]], [[Raquel Fernández|Raquel Fernandez]]
 
 ## Metadata
 

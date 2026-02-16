@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese"
 languages_list: Chinese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Tian Lan]], [[Xiangdong Su]], [[Xu Liu]], [[Ruirui Wang]], [[Ke Chang]], [[Jiang Li]], [[Guanglai Gao]]
+[[Tian Lan|Lan, Tian]], [[Xiangdong Su|Su, Xiangdong]], [[Xu Liu|Liu, Xu]], [[Ruirui Wang|Wang, Ruirui]], [[Ke Chang|Chang, Ke]], [[Jiang Li|Li, Jiang]], [[Guanglai Gao|Gao, Guanglai]]
 
 ## Metadata
 

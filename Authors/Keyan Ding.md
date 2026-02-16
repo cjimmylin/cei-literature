@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Feng-ERPO|ERPO]]
+- [[2024-Jin-WenMind A Comprehensive Benchmark for Evaluating|WenMind A Comprehensive Benchmark for Evaluating]]
 
 ## Notes
 
 
+
+
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: ly10061105@gmail.com
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: yongxin_shi@foxmail.com
 - *From 2025-Feng-ERPO*: Affiliation: College of Computer Science and Technology, Zhejiang University
 [Additional context or contact information]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 languages_list: "Assamese, Bengali, Bodo, Gujarati, Sinhala"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Nikhil Narayan]], [[Mrutyunjay Biswal]], [[Pramod Goyal]], [[Abhranta Panigrahi]]
+[[Narayan, Nikhil]], [[Biswal, Mrutyunjay]], [[Goyal, Pramod]], [[Panigrahi, Abhranta]]
 
 ## Metadata
 

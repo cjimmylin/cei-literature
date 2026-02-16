@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ year: 2025
 first_author: "[[Tahir, Munief Hassan]]"
 last_author: "[[Hussain, Sarmad]]"
 authors: "[[Tahir, Munief Hassan]]; [[Shams, Sana]]; [[Fiaz, Layba]]; [[Adeeba, Farah]]; [[Hussain, Sarmad]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://arxiv.org/abs/2405.15453"
 external_pdf: "https://arxiv.org/pdf/2405.15453.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -48,7 +51,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Metadata
 
-**Authors:** Munief Hassan Tahir; Sana Shams; Layba Fiaz; Farah Adeeba; Sarmad Hussain
+**Authors:** Tahir, Munief Hassan; Shams, Sana; Fiaz, Layba; Adeeba, Farah; Hussain, Sarmad
 
 **Year:** 2024
 

@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Shuyi Liu, Simiao Cui, Haoran Bu, Yuming Shang, Xi Zhang]]
+[[Shuyi Liu]], [[Simiao Cui]], [[Haoran Bu]], [[Yuming Shang]], [[Xi Zhang]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages"
 year: 2025
 first_author: "[[Fahim Faisal]]"
-last_author: "[[Yulia Tsvetkov]]"
+last_author: "[[Yulia Tsvetkov David Chiang]]"
 authors: "Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov"
 url: "https://arxiv.org/html/2403.11009v1"
 external_pdf: "https://arxiv.org/pdf/2403.11009.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov]]
+[[Orevaoghene Ahia Fahim Faisal]], [[Kabir Ahuja Aarohi Srivastava]], [[Yulia Tsvetkov David Chiang]]
 
 ## Metadata
 

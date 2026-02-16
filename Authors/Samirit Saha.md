@@ -1,9 +1,9 @@
 ---
 name: "Samirit Saha"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology, Kharagpur, India"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "animeshm@cse.iitkgp.ac.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,13 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain|Building a Llama2-finetuned LLM for Odia Language Utilizing Domain]]
+
+- [[2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating|SANSKRITI A Comprehensive Benchmark for Evaluating]] (Last Author)
+- [[2024-Sadhu-Social Bias in Large Language Models|Social Bias in Large Language Models]] (Last Author)
+- [[2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech|A Deep Learning Framework for the Detection of Malay Hate Speech]]
+- [[2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for|Ex-ThaiHate A Generative Multi-task Framework for]]
+- [[2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for|Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +87,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
+- *From 2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

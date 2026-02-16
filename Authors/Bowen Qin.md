@@ -47,6 +47,9 @@ Qin achieved the #1 spot on the Spider (Text-to-SQL) and CSQA leaderboards. His 
 
 ## Papers in this Vault
 
+
+
+- [[2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark|LaoBench A Large-Scale Multidimensional Lao Benchmark]]
 - [[2023-Li-BIRD|BIRD]]
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
@@ -58,5 +61,9 @@ Qin achieved the #1 spot on the Spider (Text-to-SQL) and CSQA leaderboards. His 
 
 ## Notes
 
+
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 Bowen's work on "Text-to-SQL" and "Dialogue Hallucinations" is a key technical contribution to the goal of "honest" AI—systems that accurately report what they know and what is in the data.

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ type: conferencePaper
 short_title: "Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link"
 year: 2025
 first_author: "[[Ofosu-Asare, Yaw]]"
-last_author: "[[Ofosu-Asare, Yaw]]"
+last_author: "[[Yaw Ofosu-Asare]]"
 authors: "[[Ofosu-Asare, Yaw]]"
 authors_incomplete: false
 doi: 10.1007/s00146-024-02065-0
@@ -28,6 +30,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"

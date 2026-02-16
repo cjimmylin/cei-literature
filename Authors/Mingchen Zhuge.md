@@ -20,10 +20,16 @@ Mingchen Zhuge is a PhD candidate at KAUST supervised by Prof. Jürgen Schmidhub
 ## Papers in this Vault
 
 
+
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: cszhao@meta.com
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 [Additional context or contact information]

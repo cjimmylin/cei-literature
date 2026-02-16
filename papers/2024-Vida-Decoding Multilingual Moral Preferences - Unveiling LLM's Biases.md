@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +11,7 @@ type: conferencePaper
 short_title: "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment"
 year: 2025
 first_author: "[[K. Vida]]"
-last_author: [[A]]
+last_author: "[[A]]"
 authors: "Vida, K., Damken, F., & Lauscher, A"
 url: "https://arxiv.org/abs/2407.15184"
 external_pdf: "https://arxiv.org/pdf/2407.15184.pdf"
@@ -22,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"

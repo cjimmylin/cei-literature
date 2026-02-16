@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "AfriStereo A Culturally Grounded Dataset for"
 year: 2025
 first_author: "[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani]]"
-last_author: "[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani]]"
+last_author: "[[Ignatius Ezeani]]"
 authors: "[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2511.22016"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Senegalese, Kenyan, Nigerian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Yann Le Beux, Oluchi Audu, Oche D. Ankeli, Dhananjay Balakrishnan, Melissah Weya, Marie D. Ralaiarinosy, Ignatius Ezeani]]
+[[Yann Le Beux]], [[Oluchi Audu]], [[Oche D. Ankeli]], [[Dhananjay Balakrishnan]], [[Melissah Weya]], [[Marie D. Ralaiarinosy]], [[Ignatius Ezeani]]
 
 ## Metadata
 

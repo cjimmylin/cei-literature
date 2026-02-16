@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1007/978-3-031-93415-5_6
 url: "https://link.springer.com/chapter/10.1007/978-3-031-93415-5_6"
 publication: "HCII 2025 - Artificial Intelligence in HCI"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Used mechanistic interpretability to identify specific 'moral
 significance: "Moves beyond behavioral analysis to finding the *physical* location of moral reasoning in model weights, opening the door for precise circuit-level editing of moral alignment."
 tags: 
 abstract: "This paper systematically investigates how large language models (LLMs) encode moral reasoning across six moral dimensions: care, fairness, loyalty, authority, sanctity, and liberty. We propose a novel interpretability pipeline that combines differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons aligned with each moral dimension. Our curated dataset of 240 validated moral and immoral statement pairs guides this exploration and..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -31,6 +31,8 @@ Cheng-Yang Fu is a researcher at Meta AI within the Fundamental AI Research (FAI
 ## Papers in this Vault
 
 
+
+
 - [[2025-Fu-MME-CoT|MME-CoT]]
 - [[2025-Zhang-MedHallTune|MedHallTune]]
 - [[2023-Gustafson-FACET|FACET]]
@@ -42,5 +44,9 @@ Cheng-Yang Fu is a researcher at Meta AI within the Fundamental AI Research (FAI
 ## Notes
 
 
+
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 Cheng-Yang Fu's work is instrumental in providing the tools necessary to hold computer vision systems accountable for their performance across diverse human populations.

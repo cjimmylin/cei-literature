@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino"
+cultures_nationalities_list: "Southeast Asian, Indonesian, Filipino, Vietnamese, Thai, Malaysian, Singaporean, Cambodian, Laotian, Burmese, Bruneian"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Tushar Pranav]], [[Eshan Pandey]], [[Austria Lyka Diane Bala]], [[Aman Chadha]], [[Indriyati Atmosukarto]], [[Donny Soh Cheng Lock]]
+[[Pranav, Tushar]], [[Pandey, Eshan]], [[Bala, Austria Lyka Diane]], [[Aman Chadha|Chadha, Aman]], [[Atmosukarto, Indriyati]], [[Lock, Donny Soh Cheng]]
 
 ## Metadata
 

@@ -47,6 +47,8 @@ With over 10,000 citations, Professor Gipp is a leading researcher in informatio
 ## Papers in this Vault
 
 
+
+
 - [[2025-Becker-Stay Focused|Stay Focused]] (Last Author)
 
 ## External Links & Profiles
@@ -62,5 +64,9 @@ With over 10,000 citations, Professor Gipp is a leading researcher in informatio
 
 ## Notes
 
+
+
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 His work on "Scientific Information Analytics" is highly relevant to the meta-research and verification components of AI safety and alignment.

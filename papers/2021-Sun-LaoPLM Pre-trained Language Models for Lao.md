@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "LaoPLM Pre-trained Language Models for Lao"
 year: 2025
 first_author: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
-last_author: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
+last_author: "[[Weiwei Sun]]"
 authors: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2110.05896"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Laotian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Guilin Lin, Jie Fu, Weiwei Sun]]
+[[Guilin Lin]], [[Jie Fu]], [[Weiwei Sun]]
 
 ## Metadata
 

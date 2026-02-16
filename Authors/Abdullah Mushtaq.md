@@ -32,6 +32,8 @@ Abdullah is a primary developer of WorldView-Bench, a benchmark designed to eval
 ## Papers in this Vault
 
 
+
+
 - [[2025-Mushtaq-WorldView-Bench|WorldView-Bench]] (First Author)
 
 ## External Links & Profiles
@@ -41,5 +43,9 @@ Abdullah is a primary developer of WorldView-Bench, a benchmark designed to eval
 
 ## Notes
 
+
+
+- *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: ibrahim.ghaznavi@itu.edu.pk
+- *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: bscs20078@itu.edu.pk
 - *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: jqadir@qu.edu.qa
 [Specializes in quantifying and mitigating cultural polarization in generative AI.]

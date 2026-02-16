@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "https://arxiv.org/abs/2512.23508"
 external_pdf: "https://arxiv.org/pdf/2512.23508.pdf"
 publication: arXiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -29,6 +32,7 @@ pdf_extract: "PDF Extracts/2025/2025-Benavoli-AI Safety Uncertainty Incomplete P
 abstract: "How can we ensure that AI systems are aligned with human values and remain safe? We can study this problem through the frameworks of the AI assistance and the AI shutdown games. The AI assistance problem concerns designing an AI agent that helps a human to maximise their utility function(s). However, only the human knows these function(s); the AI assistant must learn them. The shutdown problem instead concerns designing AI agents that: shut down when a shutdown button is pressed; neither try to..."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Benavoli-AI Safety Uncertainty Incomplete Preferences.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

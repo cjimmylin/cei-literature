@@ -34,7 +34,12 @@ Contributed to the SHADES benchmark for evaluating social biases across multiple
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles|CreoleVal: Multilingual Multitask Benchmarks for Creoles]]
+- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## External Links & Profiles
 
@@ -43,5 +48,9 @@ Contributed to the SHADES benchmark for evaluating social biases across multiple
 ## Notes
 
 
+
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Researcher focused on ensuring NLP bias evaluation methods work across languages, not just English.

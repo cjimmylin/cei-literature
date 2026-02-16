@@ -22,6 +22,9 @@ At Meta, he contributed to fbgemm, achieving greater than 2x performance gains t
 ## Papers in this Vault
 
 
+
+
+- [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]]
 - [[2024-Yu-CMoralEval|CMoralEval]]
 
 ## Links
@@ -32,5 +35,9 @@ At Meta, he contributed to fbgemm, achieving greater than 2x performance gains t
 ## Notes
 
 
+
+
+- *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: jiahuizhao7@163.com
+- *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 Research spans ML systems optimization and NLP applications. Work on fbgemm has been deployed at Facebook/Meta for production inference workloads.

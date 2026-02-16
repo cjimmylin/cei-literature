@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
+- *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 - *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 [Additional context or contact information]

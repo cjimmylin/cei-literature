@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection"
 year: 2025
 first_author: [[Saha]]
-last_author: [[Saha]]
+last_author: "[[Saha]]"
 authors: Saha
 url: "https://hate-alert.github.io/publication/saha2021hate/"
 external_pdf: "https://arxiv.org/pdf/2102.10084v1.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 languages_list: "Kannada-English, Malayalam-English, Tamil-English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Saha]]
+[[Samirit Saha|Saha]]
 
 ## Metadata
 

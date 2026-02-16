@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "BiasLab (Multilingual Dual-Framing Framework)"
 year: 2025
 first_author: "[[Guey, William]]"
-last_author: "[[Gomes, Jose O.]]"
+last_author: "[[Gomes, Jose O]]"
 authors: "[[Guey, William]]; [[Zhang, Wei]]; [[Rau, Pei-Luen Patrick]]; [[Bougault, Pierrick]]; [[Moura, Vitor D. de]]; [[Ucar, Bertan]]; [[Gomes, Jose O.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06861"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://github.com/williamguey/LLMbiaslab"
 
 ## Authors
 
-[[Guey, William]], [[Zhang, Wei]], [[Rau, Pei-Luen Patrick]], [[Bougault, Pierrick]], [[Moura, Vitor D. de]], [[Ucar, Bertan]], [[Gomes, Jose O.]]
+[[Guey, William]], [[Zhang, Wei]], [[Rau, Pei-Luen Patrick]], [[Bougault, Pierrick]], [[Moura, Vitor D. de]], [[Ucar, Bertan]], [[Gomes, Jose O]]
 
 ## Metadata
 

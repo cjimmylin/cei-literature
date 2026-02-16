@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.18653/v1/S19-2007
 url: "https://www.aclweb.org/anthology/S19-2007"
 external_pdf: "https://aclanthology.org/S19-2007.pdf"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +28,7 @@ tags:
 abstract: "The paper describes the organization of the SemEval 2019 Task 5 about the detection of hate speech against immigrants and women in Spanish and English messages extracted from Twitter. The task is organized in two related classiﬁcation subtasks: a main binary subtask for detecting the presence of hate speech, and a ﬁner-grained one devoted to identifying further features in hateful contents such as the aggressive attitude and the target harassed, to distinguish if the incitement is against an..."
 pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md"
 local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

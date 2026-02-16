@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2501.16750"
 external_pdf: "http://arxiv.org/pdf/2501.16750.pdf"
 publication: "USENIX Security Symposium"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2025/2025-Shen-HateBench.md"
 abstract: "Large Language Models (LLMs) have raised increasing concerns about their misuse in generating hate speech. Among all the efforts to address this issue, hate speech detectors play a crucial role. However, the effectiveness of different detectors against LLM-generated hate speech remains largely unknown. In this paper, we propose HATEBENCH, a framework for benchmarking hate speech detectors on LLM-generated hate speech."
 paper_summary: "Abstract: Large Language Models (LLMs) have raised increasing con- cerns about their misuse in generating hate speech. Among all the efforts to address this issue, hate speech detectors play a crucial role. How | Overview: To Appear in the 34th USENIX Security Symposium, August 2025. HATEBENCH: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns Xinyue Shen1 Yixin Wu1 Yiting Qu1 Michael Backes | Conclusions: In this paper, we perform the first assessment of hate speech detectors against LLM-generated content and hate cam- paigns. We construct an LLM-genera"
 local_pdf: [[PDFs/2025/2025-Shen-HateBench.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +11,7 @@ type: conferencePaper
 short_title: "Robustness of Large Language Models in Moral Judgements"
 year: 2025
 first_author: "[[S. & Demberg Oh]]"
-last_author: [[V]]
+last_author: "[[V]]"
 authors: "Oh, S. & Demberg, V"
 doi: 10.1098/rsos.241229
 url: "https://doi.org/10.1098/rsos.241229"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"

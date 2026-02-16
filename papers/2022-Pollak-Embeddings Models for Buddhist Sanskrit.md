@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Embeddings Models for Buddhist Sanskrit"
 year: 2025
 first_author: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
-last_author: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
+last_author: "[[Senja Pollak Andraz Pelicon]]"
 authors: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
 authors_incomplete: false
 url: 
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -50,7 +52,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]
+[[Matej Martinc Ligeia Lugli]], [[Senja Pollak Andraz Pelicon]]
 
 ## Metadata
 

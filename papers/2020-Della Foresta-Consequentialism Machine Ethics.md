@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://montrealethics.ai/consequentialism-and-machine-ethics-towards-a-fo
 external_pdf: N/A
 publication: "Montreal AI Ethics Institute"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2020/2020-Della Foresta-Consequentialism Machine Ethi
 abstract: "This paper argues that Consequentialism represents a kind of ethical theory that is the most plausible to serve as a basis for a machine ethic. The paper outlines the concept of an artificial moral agent and the essential properties of Consequentialism, presents a scenario involving autonomous vehicles, evaluates a Deontological approach, and discusses the problem of moral conflict. The monism of Consequentialism ensures that moral conflicts cannot arise...."
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Della Foresta-Consequentialism Machine Ethics.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

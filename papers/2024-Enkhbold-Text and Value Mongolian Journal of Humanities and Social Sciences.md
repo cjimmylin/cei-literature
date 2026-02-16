@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Text and Value | Mongolian Journal of Humanities and Social Sciences"
 year: 2025
 first_author: [[Enkhbold]]
-last_author: [[Enkhbold]]
+last_author: "[[Enkhbold]]"
 authors: Enkhbold
 url: "https://mongoliajol.info/index.php/MJHSS/article/view/4920"
 external_pdf: "https://mongoliajol.info/index.php/MJHSS/article/download/4920/4361"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

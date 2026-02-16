@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades"
 year: 2025
 first_author: "[[Urchs, Stefanie]]"
-last_author: "[[Urchs, Stefanie]]"
-authors: "[[Urchs, Stefanie]]"
-authors_incomplete: true
+last_author: "[[Thiemichen, Stephanie]]"
+authors: "[[Urchs, Stefanie]]; [[Thurner, Veronika]]; [[Aßenmacher, Matthias]]; [[Heumann, Christian]]; [[Thiemichen, Stephanie]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.05388"
 external_pdf: "https://arxiv.org/pdf/2506.05388.pdf"
 publication: "arXiv / ACL 2025"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ abstract: "Open-access corpora are essential for advancing natural language proc
 
 ## Authors
 
-[[Stefanie Urchs, Sigurd Thurner et al.]]
+[[Urchs, Stefanie]], [[Thurner, Veronika]], [[Aßenmacher, Matthias]], [[Heumann, Christian]], [[Thiemichen, Stephanie]]
 
 ## Metadata
 
-**Authors:** Stefanie Urchs, Sigurd Thurner et al.
+**Authors:** Urchs, Stefanie; Thurner, Veronika; Aßenmacher, Matthias; Heumann, Christian; Thiemichen, Stephanie
 
 **Year:** 2025
 

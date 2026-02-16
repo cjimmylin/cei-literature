@@ -37,6 +37,8 @@ Carol Chen is a Member of Technical Staff at Anthropic, where she has been a res
 ## Papers in this Vault
 
 
+
+
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
@@ -55,5 +57,9 @@ Carol Chen is a Member of Technical Staff at Anthropic, where she has been a res
 ## Notes
 
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 Carol Chen brings an unconventional background to AI safety research, having started her programming career as a teenager at Shopify. Her research at Anthropic spans both technical interpretability work and important questions about cultural representation in AI systems.

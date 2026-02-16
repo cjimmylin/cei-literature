@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Jiawei Gu]], [[Xuhui Jiang]], [[Zhichao Shi]], [[Hexiang Tan]], [[Xuehao Zhai]], [[Chengjin Xu]], [[Wei Li]], [[Yinghan Shen]], [[Shengjie Ma]], [[Honghao Liu]], [[Saizhuo Wang]], [[Kun Zhang]], [[Yuanzhuo Wang]], [[Wen Gao]], [[Lionel Ni]], [[Jian Guo]]
+[[Gu, Jiawei]], [[Jiang, Xuhui]], [[Shi, Zhichao]], [[Tan, Hexiang]], [[Zhai, Xuehao]], [[Xu, Chengjin]], [[Wei Li|Li, Wei]], [[Shen, Yinghan]], [[Ma, Shengjie]], [[Liu, Honghao]], [[Wang, Saizhuo]], [[Zhang, Kun]], [[Wang, Yuanzhuo]], [[Wen Gao|Gao, Wen]], [[Ni, Lionel]], [[Guo, Jian]]
 
 ## Metadata
 

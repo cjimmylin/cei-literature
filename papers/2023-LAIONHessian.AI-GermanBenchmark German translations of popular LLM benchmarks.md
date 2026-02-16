@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "GermanBenchmark: German translations of popular LLM benchmarks"
 year: 2025
 first_author: "[[Bjorn Pluster (LAION/Hessian.AI)]]"
-last_author: "[[Bjorn Pluster (LAION/Hessian.AI)]]"
+last_author: "[[Bjorn Pluster (LAIONHessian.AI)]]"
 authors: "Bjorn Pluster (LAION/Hessian.AI)"
 url: "https://github.com/bjoernpl/GermanBenchmark"
 publication: GitHub
@@ -21,6 +22,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -41,7 +43,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Bjorn Pluster (LAION/Hessian.AI)]]
+[[Bjorn Pluster (LAIONHessian.AI)]]
 
 ## Metadata
 

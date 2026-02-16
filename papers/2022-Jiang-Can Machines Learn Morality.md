@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ tags:
 url: "http://arxiv.org/abs/2110.07574"
 external_pdf: "http://arxiv.org/pdf/2110.07574.pdf"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2022/2022-Jiang-Can Machines Learn Morality.md"
 abstract: "As AI systems become increasingly powerful and pervasive, there are growing concerns about machines’ morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity..."
 paper_summary: "Abstract: As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality re | Overview: CAN MACHINES LEARN MORALITY? THE Delphi EXPERIMENT Liwei Jiang♣♡Jena D. Hwang♡Chandra Bhagavatula♡Ronan Le Bras♡Jenny Liang♡ Jesse Dodge♡Keisuke Sakaguchi♡Maxwell Forbes♣Jon Borchardt♡Saadia Gabriel♣  | Methodology: would force scientists to impose their own value choices and principles in the system they build, which is not an appropriate social role for scientis | Key Findings: 43 Appendix F Examples from the ETHICS Benchmark 43 Appendix G Probing with Universal Declaration of Human Rights 43 Appendix H Fortifying Delphi agai"
 local_pdf: "[[PDFs/2022/2022-Jiang-Can Machines Learn Morality.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

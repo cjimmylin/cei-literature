@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0729
 type: conferencePaper
 short_title: "Mind the Dialect: NLP Advancements Uncover Fairness ..."
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Alshabanah, Abdulla]]"
+last_author: "[[Annavaram, Murali]]"
+authors: "[[Alshabanah, Abdulla]]; [[Annavaram, Murali]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 publication: "ACL Anthology"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Unknown]]
+[[Alshabanah, Abdulla]], [[Abhejay Murali|Annavaram, Murali]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Alshabanah, Abdulla; Annavaram, Murali
 
 **Year:** 2025
 

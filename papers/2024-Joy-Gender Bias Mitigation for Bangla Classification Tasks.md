@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0175
 type: preprint
 short_title: "Gender Bias Mitigation for Bangla Classification Tasks"
 year: 2025
-first_author: "[[Joy]]"
-last_author: "[[S.K.S.]]"
-authors: "[[Joy]]; [[S.K.S.]]"
-authors_incomplete: true
+first_author: "[[Joy, Sajib Kumar Saha]]"
+last_author: "[[Shahariar, G M]]"
+authors: "[[Joy, Sajib Kumar Saha]]; [[Mahy, Arman Hassan]]; [[Sultana, Meherin]]; [[Abha, Azizah Mamun]]; [[Ahmmed, MD Piyal]]; [[Dong, Yue]]; [[Shahariar, G M]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2411.10636"
 external_pdf: "https://arxiv.org/pdf/2411.10636.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi, Bengali"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Joy, S.K.S. et al.]]
+[[Joy, Sajib Kumar Saha]], [[Mahy, Arman Hassan]], [[Sultana, Meherin]], [[Abha, Azizah Mamun]], [[Ahmmed, MD Piyal]], [[Dong, Yue]], [[Saeed, Ari M|Shahariar, G M]]
 
 ## Metadata
 
-**Authors:** Joy, S.K.S. et al.
+**Authors:** Joy, Sajib Kumar Saha; Mahy, Arman Hassan; Sultana, Meherin; Abha, Azizah Mamun; Ahmmed, MD Piyal; Dong, Yue; Shahariar, G M
 
 **Year:** 2024
 

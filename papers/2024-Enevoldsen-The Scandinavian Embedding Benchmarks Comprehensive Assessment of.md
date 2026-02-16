@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding"
 year: 2025
 first_author: "[[Kenneth Enevoldsen]]"
-last_author: "[[Kristoffer Laigaard Nielbo]]"
+last_author: "[[Kristoffer Laigaard Nielbo Niklas Muennighoff]]"
 authors: "Kenneth Enevoldsen, Marton Kardos, Niklas Muennighoff, Kristoffer Laigaard Nielbo"
 url: "https://arxiv.org/abs/2406.02396"
 external_pdf: "https://arxiv.org/pdf/2406.02396.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Scandinavian"
 languages_list: "Danish, Norwegian, Swedish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Kenneth Enevoldsen, Marton Kardos, Niklas Muennighoff, Kristoffer Laigaard Nielbo]]
+[[Marton Kardos Kenneth Enevoldsen]], [[Kristoffer Laigaard Nielbo Niklas Muennighoff]]
 
 ## Metadata
 

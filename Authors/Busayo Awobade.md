@@ -46,6 +46,8 @@ Awobade is a key author of "AfriSpeech-MultiBench," a critical benchmark suite f
 
 ## Papers in this Vault
 
+
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## External Links & Profiles
@@ -56,5 +58,9 @@ Awobade is a key author of "AfriSpeech-MultiBench," a critical benchmark suite f
 
 ## Notes
 
+
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 Busayo's research on "Verticalized Multidomain" benchmarks is essential for testing whether AI models truly generalize across the varied linguistic landscapes of Nigeria and broader Africa.

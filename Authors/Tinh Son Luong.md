@@ -26,10 +26,16 @@ This research was conducted in collaboration with Thanh-Thien Le (VinAI Research
 ## Papers in this Vault
 
 
+
+
 - [[2024-Luong-Realistic Evaluation of Toxicity in Large|Realistic Evaluation of Toxicity in Large]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: thien@cs.oregon.edu
+- *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: thien@cs.oregon.edu
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: linhnv@soict.hust.edu.vn
 The paper was published at ACL 2024 in Bangkok, Thailand, and has received 7 citations as of August 2025. The work represents an important contribution to understanding the true extent of toxicity vulnerabilities in modern LLMs.

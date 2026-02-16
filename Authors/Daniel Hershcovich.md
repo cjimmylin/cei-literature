@@ -35,7 +35,11 @@ Daniel Hershcovich is an Assistant Professor at the University of Copenhagen, sp
 
 ## Papers in this Vault
 
+
+
 - [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]]
+- [[2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large|Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation]] (Last Author)
+- [[2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles|CreoleVal: Multilingual Multitask Benchmarks for Creoles]]
 - [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]] (Last Author)
 
 ## Links

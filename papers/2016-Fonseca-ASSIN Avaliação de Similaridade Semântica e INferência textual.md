@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "ASSIN: Avaliação de Similaridade Semântica e INferência textual"
 year: 2025
 first_author: "[[Erick Fonseca]]"
-last_author: "[[Alexandre Mouzalon]]"
+last_author: "[[Alexandre Mouzalon Marcelo Finger]]"
 authors: "Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon"
 url: "http://nilc.icmc.usp.br/assin/"
 publication: NILC/USP
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian, Portuguese"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon]]
+[[Leandro Borges dos Santos Erick Fonseca]], [[Alexandre Mouzalon Marcelo Finger]]
 
 ## Metadata
 

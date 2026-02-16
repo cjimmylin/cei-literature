@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Overview of EXIST 2022: sEXism Identification in Social neTworks"
 year: 2025
 first_author: "[[Rodríguez-Sánchez, Francisco]]"
-last_author: "[[Rodríguez-Sánchez, Francisco]]"
+last_author: "[[Francisco Rodríguez-Sánchez]]"
 authors: "[[Rodríguez-Sánchez, Francisco]]"
 authors_incomplete: true
 url: "https://nlp.uned.es/exist2022/"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: "English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[Francisco Rodríguez-Sánchez, et al.]]
+[[Francisco Rodríguez-Sánchez]]
 
 ## Metadata
 

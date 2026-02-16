@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "SERENGETI Massively Multilingual Language Models for"
 year: 2025
 first_author: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
-last_author: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
+last_author: "[[Alcides Alcoba Inciarte Muhammad Abdul-Mageed]]"
 authors: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2212.10785"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]
+[[AbdelRahim Elmadany Ife Adebara]], [[Alcides Alcoba Inciarte Muhammad Abdul-Mageed]]
 
 ## Metadata
 

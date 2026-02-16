@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2507.20796.pdf"
 publication: arXiv
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: "French, American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ newtags: "Kantian Ethics, Deontology, AI Alignment, LLM Fine-tuning"
 key_contribution: "Proposes supervised fine-tuning pipeline aligning LLM agents with homo economicus and homo moralis (Kantian universalizability) preferences"
 significance: "Empirically tests Kantian moral concern parameter in GPT-4o; applies fine-tuned agents to autonomous vehicles and algorithmic pricing"
 abstract: "Understanding how large language model (LLM) agents behave in strategic interactions is essential as these systems increasingly participate autonomously in economically and morally consequential decisions. We evaluate LLM preferences using canonical economic games, finding substantial deviations from human behavior. Models like GPT-4o show excessive cooperation and limited incentive sensitivity, while reasoning models, such as o3-mini, align more consistently with payoff-maximizing strategies."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

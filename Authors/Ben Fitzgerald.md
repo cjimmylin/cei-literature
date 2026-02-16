@@ -47,6 +47,8 @@ Fitzgerald has provided critical analyses of ethics models like Delphi, identify
 ## Papers in this Vault
 
 
+
+
 - [[2024-Fitzgerald-Some Issues in Predictive Ethics Modeling|Some Issues in Predictive Ethics Modeling]] (First Author)
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ Fitzgerald has provided critical analyses of ethics models like Delphi, identify
 
 ## Notes
 
+
+
+- *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬
+- *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬
 - *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬
 His research is a vital critique for anyone building "Moral LLMs," highlighting the fragility of current alignment benchmarks.

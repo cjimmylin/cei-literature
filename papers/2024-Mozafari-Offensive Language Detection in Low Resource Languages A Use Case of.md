@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Marzieh Mozafari]], [[Khouloud Mnassri]], [[R. Farahbakhsh]], [[Noel Crespi]]
+[[Mozafari, Marzieh]], [[Mnassri, Khouloud]], [[Farahbakhsh, R]], [[Crespi, Noel]]
 
 ## Metadata
 

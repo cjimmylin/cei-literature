@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Unknown]]
+[[Muhammad Okky Ibrohim]], [[Indra Budi]]
 
 ## Metadata
 

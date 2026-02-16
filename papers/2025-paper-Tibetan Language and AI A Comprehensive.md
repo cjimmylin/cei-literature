@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Tibetan Language and AI A Comprehensive"
 year: 2025
 first_author: "[[paper), (Multiple authors -- survey]]"
-last_author: "[[paper), (Multiple authors -- survey]]"
+last_author: "[[(Multiple authors -- survey paper)]]"
 authors: "[[(Multiple authors -- survey paper)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.19144"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

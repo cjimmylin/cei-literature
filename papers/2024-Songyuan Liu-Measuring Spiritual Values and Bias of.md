@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ type: preprint
 short_title: "Measuring Spiritual Values and Bias of"
 year: 2025
 first_author: "[[Songyuan Liu, and 5 others]]"
-last_author: "[[Songyuan Liu, and 5 others]]"
+last_author: "[[5 others]]"
 authors: "[[Songyuan Liu,]]; [[5 others]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.11647"
@@ -27,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Songyuan Liu, and 5 others]]
+[[Songyuan Liu]], [[5 others]]
 
 ## Metadata
 

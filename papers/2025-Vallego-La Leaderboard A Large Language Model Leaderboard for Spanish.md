@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0211
 type: preprint
 short_title: "La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America"
 year: 2025
-first_author: "[[Vallego, Jorge]]"
-last_author: "[[Vallecillo, Estrella]]"
-authors: "[[Vallego, Jorge]]; [[Aula, Javier]]; [[Plaza-del, Flor Miriam]]; [[Vallecillo, Estrella]]"
-authors_incomplete: true
+first_author: "[[Grandury, María]]"
+last_author: "[[Zubiaga, Irune]]"
+authors: "[[Grandury, María]]; [[Aula-Blasco, Javier]]; [[Falcão, Júlia]]; [[Fourrier, Clémentine]]; [[González, Miguel]]; [[Martínez, Gonzalo]]; [[Santamaría, Gonzalo]]; [[Agerri, Rodrigo]]; [[Aldama, Nuria]]; [[Chiruzzo, Luis]]; [[Conde, Javier]]; [[Gómez, Helena]]; [[Guerrero, Marta]]; [[Ivetta, Guido]]; [[López, Natalia]]; [[Plaza-del-Arco, Flor Miriam]]; [[Martín-Valdivia, María Teresa]]; [[Montoro, Helena]]; [[Muñoz, Carmen]]; [[Reviriego, Pedro]]; [[Rosado, Leire]]; [[Vaca, Alejandro]]; [[Vallecillo-Rodríguez, María Estrella]]; [[Vallego, Jorge]]; [[Zubiaga, Irune]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2507.00999"
 external_pdf: "https://arxiv.org/pdf/2507.00999.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Spanish, Latin American"
 languages_list: "Basque, Catalan, Galician, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Vallego, Jorge]], [[Aula, Javier]], [[Plaza-del, Flor Miriam]], [[Vallecillo, Estrella]]
+[[Grandury, María]], [[Aula, Javier|Aula-Blasco, Javier]], [[Júlia Falcão|Falcão, Júlia]], [[Fourrier, Clémentine]], [[González, Miguel]], [[Martínez, Gonzalo]], [[Santamaría, Gonzalo]], [[Agerri, Rodrigo]], [[Aldama, Nuria]], [[Luis Chiruzzo|Chiruzzo, Luis]], [[Conde, Javier]], [[Gómez, Helena]], [[Guerrero, Marta]], [[Ivetta, Guido]], [[López, Natalia]], [[Plaza-del, Flor Miriam|Plaza-del-Arco, Flor Miriam]], [[Martín-Valdivia, María Teresa]], [[Montoro, Helena]], [[Muñoz, Carmen]], [[Reviriego, Pedro]], [[Rosado, Leire]], [[Vaca, Alejandro]], [[Vallecillo, Estrella|Vallecillo-Rodríguez, María Estrella]], [[Vallego, Jorge]], [[Zubiaga, Irune]]
 
 ## Metadata
 
-**Authors:** Jorge Vallego; Javier Aula; Flor Miriam Plaza-del; Estrella Vallecillo
+**Authors:** Grandury, María; Aula-Blasco, Javier; Falcão, Júlia; Fourrier, Clémentine; González, Miguel; Martínez, Gonzalo; Santamaría, Gonzalo; Agerri, Rodrigo; Aldama, Nuria; Chiruzzo, Luis; Conde, Javier; Gómez, Helena; Guerrero, Marta; Ivetta, Guido; López, Natalia; Plaza-del-Arco, Flor Miriam; Martín-Valdivia, María Teresa; Montoro, Helena; Muñoz, Carmen; Reviriego, Pedro; Rosado, Leire; Vaca, Alejandro; Vallecillo-Rodríguez, María Estrella; Vallego, Jorge; Zubiaga, Irune
 
 **Year:** 2025
 

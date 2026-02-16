@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Korean, Spanish"
+cultures_nationalities_list: "Korean, Spanish"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Katherine Xie]], [[Nitya Babbar]], [[Vicky Chen]], [[Yoanna Turura]]
+[[Xie, Katherine]], [[Babbar, Nitya]], [[Chen, Vicky]], [[Turura, Yoanna]]
 
 ## Metadata
 

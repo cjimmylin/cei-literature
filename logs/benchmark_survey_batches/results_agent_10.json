@@ -1,414 +1,509 @@
 [
   {
-    "filename": "2024-Ren-Safetywashing.md",
+    "filename": "2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md",
     "decision": "Yes",
-    "benchmark_name": "Safetywashing Meta-Analysis",
-    "what_measures": "Correlation between AI safety benchmarks and general capabilities/compute, identifying which safety benchmarks genuinely measure safety vs. proxying for capabilities",
-    "how_measures": "Meta-analysis correlating dozens of existing safety benchmarks (machine ethics, bias, toxicity, alignment) with upstream capabilities and training compute across dozens of models",
-    "dataset_size": "Dozens of safety benchmarks analyzed across dozens of models",
-    "models_evaluated": "Dozens of state-of-the-art models (comprehensive meta-analysis)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Conducts a comprehensive empirical meta-analysis of AI safety benchmarks including machine ethics, bias, and toxicity benchmarks, proposing a framework for developing more meaningful safety metrics separable from capabilities."
-  },
-  {
-    "filename": "2024-Ren-ValueBench.md",
-    "decision": "Yes",
-    "benchmark_name": "ValueBench",
-    "what_measures": "Value orientations and value understanding in LLMs using established psychometric instruments covering 453 multifaceted value dimensions",
-    "how_measures": "44 established psychometric inventories adapted for LLM evaluation; evaluation pipeline with realistic human-AI interactions plus open-ended value extraction/generation tasks",
-    "dataset_size": "44 inventories, 453 value dimensions",
-    "models_evaluated": "6 representative LLMs",
-    "pluralistic_relevance": "Yes",
-    "availability": "Public (GitHub: Value4AI/ValueBench)",
-    "reasoning": "Introduces the first comprehensive psychometric benchmark for evaluating value orientations in LLMs, directly measuring pluralistic human values across hundreds of dimensions."
-  },
-  {
-    "filename": "2024-Reuel-BetterBench.md",
-    "decision": "Exclude",
-    "reasoning": "Meta-assessment framework for evaluating benchmark quality (46 best practices applied to 24 AI benchmarks). Does not itself create an ethics/morality benchmark; it is a methodology paper about benchmark design quality in general AI evaluation, not specifically about ethical reasoning or moral judgment."
-  },
-  {
-    "filename": "2024-Ribeiro-Machine Ethics Architecture of Virtue.md",
-    "decision": "Exclude",
-    "reasoning": "Purely theoretical/philosophical paper arguing virtue ethics is suitable for robot moral behavior. No empirical evaluation, no benchmark, no dataset, no AI model testing."
-  },
-  {
-    "filename": "2024-Rodríguez Louro-The Yarning Corpus.md",
-    "decision": "Exclude",
-    "reasoning": "Sociolinguistic corpus of Aboriginal English speech data. While culturally significant and mentions AI applications tangentially, it is not a benchmark or evaluation for assessing LLM ethical/moral reasoning."
-  },
-  {
-    "filename": "2024-Rottger-Political Compass or Spinning Arrow.md",
-    "decision": "Yes",
-    "benchmark_name": "Political Compass Test (PCT) evaluation framework",
-    "what_measures": "Values and opinions in LLMs, particularly political biases and the robustness/reliability of constrained vs. unconstrained value evaluation paradigms",
-    "how_measures": "Systematic comparison of forced-choice (multiple-choice), paraphrased, and open-ended answer formats on the PCT's 62 Likert-scale statements",
-    "dataset_size": "62 PCT statements with multiple paraphrase variants",
-    "models_evaluated": "Multiple LLMs (specific set not listed in paper profile)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Empirically evaluates LLMs on a political values instrument (PCT), demonstrating methodological issues with constrained value evaluation and proposing recommendations for more meaningful values evaluation. This is a duplicate of the Rottger paper below."
-  },
-  {
-    "filename": "2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md",
-    "decision": "Yes",
-    "benchmark_name": "SafetyPrompts",
-    "what_measures": "Comprehensive catalogue of LLM safety evaluation datasets covering bias, toxicity, and catastrophic risk",
-    "how_measures": "Systematic review of 144 open datasets for LLM safety evaluation; living catalogue at SafetyPrompts.com",
-    "dataset_size": "144 datasets reviewed",
-    "models_evaluated": "N/A (survey/catalogue, not direct model evaluation)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public (SafetyPrompts.com)",
-    "reasoning": "While primarily a survey, it introduces SafetyPrompts.com as a living catalogue tool and systematizes the landscape of safety evaluation datasets. Qualifies as introducing an evaluation methodology/framework for LLM safety assessment."
-  },
-  {
-    "filename": "2024-Rozado-The Political Preferences of LLMs.md",
-    "decision": "Yes",
-    "benchmark_name": "Political Orientation Test Battery",
-    "what_measures": "Political preferences and biases embedded in LLMs across multiple ideological dimensions",
-    "how_measures": "11 political orientation tests administered to 24 LLMs with 10 trials each (2,640 total test administrations); also demonstrates steering via SFT",
-    "dataset_size": "11 tests x 10 trials x 24 LLMs = 2,640 administrations",
-    "models_evaluated": "24 state-of-the-art conversational LLMs (closed and open source) plus 5 base models",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Comprehensive empirical evaluation of political value preferences in LLMs using 11 distinct political orientation tests, finding systematic left-of-center biases. Directly evaluates LLM values at scale."
-  },
-  {
-    "filename": "2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.md",
-    "decision": "Yes",
-    "benchmark_name": "Global Representation Evaluation",
-    "what_measures": "Impact of LLM alignment (RLHF/DPO) on global representation across English dialects, multilingualism, and worldwide opinions",
-    "how_measures": "Multi-axis evaluation examining disparities in dialect handling, language performance, and global opinion representation before and after alignment",
-    "dataset_size": "Multi-axis evaluation across dialects, languages, global opinions",
-    "models_evaluated": "Multiple aligned LLMs (Starling, Llama-2-Chat, others)",
-    "pluralistic_relevance": "Yes",
-    "availability": "Public (GitHub)",
-    "reasoning": "Empirically evaluates how alignment procedures create disparities in global value/opinion representation, directly measuring cross-cultural impacts of LLM alignment on value-laden topics."
-  },
-  {
-    "filename": "2024-Röttger-Political Compass or Spinning Arrow.md",
-    "decision": "Yes",
-    "benchmark_name": "Political Compass Test (PCT) evaluation framework",
-    "what_measures": "Values and opinions in LLMs via the Political Compass Test, examining robustness of constrained vs. unconstrained evaluation",
-    "how_measures": "Systematic review of PCT-based LLM evaluations; experiments comparing forced-choice, paraphrased, and open-ended answer formats on 62 Likert-scale statements",
-    "dataset_size": "62 PCT statements with multiple format variants",
-    "models_evaluated": "Multiple LLMs (systematic review covers many prior studies)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Duplicate entry of the Rottger paper above. Empirically evaluates LLMs on political values using the PCT, demonstrating that current constrained evaluation paradigms for values/opinions produce unreliable results. Proposes recommendations for more meaningful evaluations."
-  },
-  {
-    "filename": "2024-Röttger-XSTest.md",
-    "decision": "Yes",
-    "benchmark_name": "XSTest",
-    "what_measures": "Exaggerated safety behaviors (over-refusals) in LLMs, measuring the safety-helpfulness tradeoff",
-    "how_measures": "Test suite of 250 safe prompts (across 10 types) that models should NOT refuse, plus 200 unsafe contrast prompts that models should refuse",
-    "dataset_size": "450 prompts (250 safe + 200 unsafe)",
-    "models_evaluated": "State-of-the-art language models (specific models in paper)",
-    "pluralistic_relevance": "No",
-    "availability": "Public",
-    "reasoning": "Introduces a structured test suite for evaluating LLM safety calibration, specifically measuring whether models correctly distinguish safe from unsafe prompts. Directly relevant to safety evaluation with ethical dimensions."
-  },
-  {
-    "filename": "2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.md",
-    "decision": "Exclude",
-    "reasoning": "EmoBench evaluates emotional intelligence (emotion understanding and application) in LLMs. While it involves prosocial reasoning about emotional responses, it focuses on emotion recognition and regulation rather than moral reasoning, ethical judgment, or value alignment specifically."
-  },
-  {
-    "filename": "2024-Saffari-PSN.md",
-    "decision": "Yes",
-    "benchmark_name": "ISN (Iranian Social Norms)",
-    "what_measures": "LLM comprehension of Iranian social norms, testing cross-cultural understanding of social norms in Farsi and English",
-    "how_measures": "Social norm classification task with varied prompts (geographic context, linguistic context) evaluated on 6 LLMs",
-    "dataset_size": "1,699 Iranian social norms with environment, demographic, and scope annotations",
-    "models_evaluated": "6 LLMs",
+    "benchmark_name": "CALAMITA",
+    "what_measures": "Comprehensive Italian LLM abilities across 22 challenges and ~100 subtasks including linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation.",
+    "how_measures": "Community-driven collaborative evaluation using lm-eval-harness framework on centralized pipeline; heterogeneous datasets and metrics organized by ability taxonomy across multiple-choice and open-ended formats.",
+    "dataset_size": "22 challenges, ~100 subtasks",
+    "models_evaluated": "LLAMA3.1-8B, ANITA-8B, Minerva-7B-Instruct, LLaMA-3.1-Instruct-70B",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Creates a novel cross-cultural social norms dataset for evaluating LLMs on Iranian/Farsi norms, directly measuring cultural value understanding and revealing significant cross-cultural gaps in LLM performance."
+    "reasoning": "Large-scale collaborative Italian LLM benchmark explicitly including fairness evaluation as a task category. Introduces a comprehensive evaluation framework with published datasets and code."
   },
   {
-    "filename": "2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md",
+    "filename": "2024-project-DharmicData Comprehensive Open-Source Collection of Hindu.md",
     "decision": "Yes",
-    "benchmark_name": "IndiBias",
-    "what_measures": "Social biases in LLMs within the Indian cultural context across gender, religion, caste, age, region, physical appearance, occupation, and intersectional dimensions",
-    "how_measures": "Sentence pairs and tuples for bias measurement using multiple metrics; adapted from CrowS-Pairs with Indian-specific augmentation via LLMs",
-    "dataset_size": "800 sentence pairs + 300 tuples for intersectional bias",
-    "models_evaluated": "10 language models",
-    "pluralistic_relevance": "Yes",
-    "availability": "Public (GitHub: sahoonihar/IndiBias)",
-    "reasoning": "Creates a comprehensive bias benchmark specifically for Indian cultural context including caste-based bias, religious bias, and intersectional dimensions not covered by Western benchmarks."
-  },
-  {
-    "filename": "2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.md",
-    "decision": "Exclude",
-    "reasoning": "Policy proposal for FDA/FAA-style approval regulation of frontier AI. Purely governance/regulatory analysis with no empirical evaluation, benchmark, or dataset for assessing LLM ethics or moral reasoning."
-  },
-  {
-    "filename": "2024-Segev-Artificial Intelligence, Discrimination, Fairness.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical analysis of discrimination and fairness in AI systems from a normative ethics perspective. No empirical evaluation, no benchmark, no dataset. Purely conceptual argumentation about when AI discrimination is morally problematic."
-  },
-  {
-    "filename": "2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md",
-    "decision": "Yes",
-    "benchmark_name": "Scruples (DILEMMAS and ANECDOTES)",
-    "what_measures": "LLM calibration on morally ambiguous scenarios, comparing model probability distributions with human ethical judgments",
-    "how_measures": "Token probability extraction and comparison with human annotations using cross-entropy and Dirichlet scores on two moral scenario datasets (DILEMMAS for pairwise comparison, ANECDOTES for individual narratives)",
-    "dataset_size": "Uses existing Scruples datasets (DILEMMAS + ANECDOTES)",
-    "models_evaluated": "Llama-3.1-8b, Zephyr-7b-beta, Mistral-7b (compared with GPT-4o, BERT, RoBERTa)",
-    "pluralistic_relevance": "No",
-    "availability": "Public (uses existing Scruples datasets)",
-    "reasoning": "Empirically evaluates LLM ethical judgment calibration on morally ambiguous scenarios, measuring alignment between model and human moral judgments, with fine-tuning experiments to improve ethical reasoning."
-  },
-  {
-    "filename": "2024-Seror-Moral Minds of LLMs.md",
-    "decision": "Yes",
-    "benchmark_name": "Moral Minds Framework (Revealed Preference)",
-    "what_measures": "Moral preference consistency and structure in LLMs across five ethical dimensions (Truth, Machine, Consent, Risk, Autonomy)",
-    "how_measures": "Revealed preference theory from economics; structured moral dilemmas; probabilistic rationality test (GARP); utility function estimation via MILP; similarity network analysis",
-    "dataset_size": "Structured moral dilemmas across 5 dimensions, tested on ~40 LLMs",
-    "models_evaluated": "Nearly 40 leading LLMs including GPT-4, Claude-3, Gemini 1.5, Mixtral, Llama-based models",
-    "pluralistic_relevance": "Yes",
-    "availability": "Not stated",
-    "reasoning": "Duplicate of the Seror paper below. Applies revealed preference theory to evaluate moral consistency across ~40 LLMs, providing a framework for benchmarking ethical alignment. Tests across multiple ethical dimensions."
-  },
-  {
-    "filename": "2024-Seror-The Moral Mind(s) of Large Language Models.md",
-    "decision": "Yes",
-    "benchmark_name": "Moral Minds Framework (Priced Survey Methodology / Revealed Preference)",
-    "what_measures": "Whether LLMs exhibit emergent moral preferences - consistent structures of moral preferences across five foundational ethical dimensions",
-    "how_measures": "Priced Survey Methodology adapting revealed preference theory; structured moral dilemmas; GARP rationality tests; utility function estimation; non-parametric permutation similarity networks",
-    "dataset_size": "Structured moral dilemmas across 5 dimensions, tested on ~40 LLMs with 500 synthetic datasets for validation",
-    "models_evaluated": "Nearly 40 leading LLMs (GPT-4, Claude-3, Gemini 1.5, Mixtral, Llama variants, others)",
-    "pluralistic_relevance": "Yes",
-    "availability": "Not stated",
-    "reasoning": "Novel application of revealed preference theory from economics to evaluate moral consistency and heterogeneity across ~40 LLMs, providing a rigorous empirical framework for benchmarking ethical alignment."
-  },
-  {
-    "filename": "2024-Sharma-Towards Understanding Sycophancy in Language Models.md",
-    "decision": "Yes",
-    "benchmark_name": "Sycophancy Evaluation",
-    "what_measures": "Sycophancy behavior in AI assistants - tendency to match user beliefs over truthful/correct responses, measuring misalignment between truthfulness and user-pleasing",
-    "how_measures": "Four free-form text-generation tasks testing whether models wrongly admit mistakes, give biased feedback, and mimic user errors; analysis of human preference data using Bayesian logistic regression",
-    "dataset_size": "Multiple evaluation tasks in JSONL format",
-    "models_evaluated": "5 AI assistants (Anthropic models and others)",
-    "pluralistic_relevance": "No",
-    "availability": "Public (GitHub: meg-tong/sycophancy-eval)",
-    "reasoning": "Creates evaluation tasks for measuring sycophancy as a safety/alignment behavior, demonstrating that RLHF-trained models systematically sacrifice truthfulness for user agreement. Relevant to value alignment and safety evaluation."
-  },
-  {
-    "filename": "2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md",
-    "decision": "Exclude",
-    "reasoning": "Multimodal empathy dataset for human-AI interaction. While empathy is morally relevant, this focuses on predicting individuals' empathic responses in storytelling contexts, not on evaluating LLM moral reasoning, ethical judgment, or value alignment."
-  },
-  {
-    "filename": "2024-Shi-Large Language Model Safety.md",
-    "decision": "Exclude",
-    "reasoning": "Survey paper on LLM safety that reviews existing risks and mitigation strategies. Does not introduce its own benchmark, dataset, or evaluation methodology."
-  },
-  {
-    "filename": "2024-Singh-Aya Dataset.md",
-    "decision": "Exclude",
-    "reasoning": "Massively multilingual instruction-tuned model and dataset (101 languages). While it includes toxicity/bias/safety evaluations as part of its comprehensive assessment, its primary contribution is multilingual instruction-following capability, not ethics/morality benchmarking specifically."
-  },
-  {
-    "filename": "2024-Singhal-AyaRedTeaming.md",
-    "decision": "Yes",
-    "benchmark_name": "AyaRedTeaming",
-    "what_measures": "Multilingual safety alignment distinguishing global harms (universal across cultures) from local harms (culture-specific), measuring cross-lingual safety across 6 languages",
-    "how_measures": "Human-annotated red-teaming prompts in 6 languages categorized into global vs. local harm; multiple alignment techniques (DPO, SFT) compared for safety-performance tradeoff",
-    "dataset_size": "Red-teaming prompts across 6 languages (exact count not specified in profile)",
-    "models_evaluated": "Multiple models tested with different alignment approaches",
+    "benchmark_name": "DharmicData",
+    "what_measures": "Provides structured Hindu sacred text corpus (Vedas, epics, Gita) suitable as training or evaluation corpus for Hindu knowledge QA.",
+    "how_measures": "Comprehensive structured JSON collection of major Hindu sacred texts designed for ML/LLM analysis, released under Open Database License.",
+    "dataset_size": "Multiple sacred texts including Mahabharata (~1 lakh shlokas), Rigveda, Yajurveda, Atharvaveda, Bhagavad Gita, Valmiki Ramayana, Ramcharitmanas",
+    "models_evaluated": "None specified",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Creates the first multilingual red-teaming dataset distinguishing between culture-universal and culture-specific harms, directly addressing cross-cultural value alignment in LLM safety."
+    "reasoning": "Open-source dataset of Hindu sacred texts specifically designed for LLM training/evaluation on Hindu religious knowledge. Directly relevant to religious values in AI."
   },
   {
-    "filename": "2024-Smith-Living Well with AI.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical paper arguing Aristotelian virtue ethics provides a better framework for living well with AI than principlist approaches. No empirical evaluation, no benchmark, no dataset."
-  },
-  {
-    "filename": "2024-So-AI Trained on Confucian Analects.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical/theoretical paper proposing Confucian-imbued AI as a framework for addressing ethical dilemmas. No empirical evaluation of LLMs, no benchmark or dataset created."
-  },
-  {
-    "filename": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
-    "decision": "Exclude",
-    "reasoning": "Duplicate of the So paper above. Theoretical/proposal paper with no empirical AI evaluation component, no benchmark, no dataset."
-  },
-  {
-    "filename": "2024-Sorensen-A Roadmap to Pluralistic Alignment.md",
+    "filename": "2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.md",
     "decision": "Yes",
-    "benchmark_name": "Pluralistic Alignment Benchmark Framework",
-    "what_measures": "Pluralism in AI value alignment - whether models can represent diverse values (Overton, Steerable, Distributional pluralism)",
-    "how_measures": "Proposes three classes of pluralistic benchmarks (multi-objective, tradeoff steerable, jury-pluralistic); includes empirical evidence that standard alignment reduces distributional pluralism",
-    "dataset_size": "Framework with empirical experiments (specific dataset sizes not stated)",
-    "models_evaluated": "Multiple LLMs (empirical evidence from own experiments and other work)",
+    "benchmark_name": "EthioBenchmark",
+    "what_measures": "NLP capabilities for Ethiopian languages including sentiment analysis, NER, and other downstream tasks across five Ethiopian languages.",
+    "how_measures": "Evaluates EthioLLM variants against multilingual baselines (XLM-R, AfroXLMR, AfroLM, EthioMT5) on downstream NLP tasks for Ethiopian languages.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "EthioLLM-small, EthioLLM-base, EthioLLM-large, XLM-R, AfroXLMR, AfroLM, EthioMT5",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "While primarily a position paper, it formalizes pluralistic benchmarks for value alignment and provides empirical evidence that current alignment techniques reduce value pluralism. Proposes a concrete evaluation framework for pluralistic values."
+    "reasoning": "Introduces EthioBenchmark for evaluating Ethiopian language LLMs, with task evaluation datasets. Ethiopian languages carry cultural and religious significance."
   },
   {
-    "filename": "2024-Sorensen-Value Kaleidoscope ValuePrism.md",
+    "filename": "2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md",
     "decision": "Yes",
-    "benchmark_name": "ValuePrism / Value Kaleidoscope (Kaleido)",
-    "what_measures": "Pluralistic human values, rights, and duties contextualized in real-world situations; ability to generate, explain, and assess the relevance and valence of values",
-    "how_measures": "Large-scale dataset of contextualized values generated by GPT-4 and human-validated; multitask model (Kaleido) for value generation, explanation, and assessment; cross-framework transfer evaluation",
-    "dataset_size": "218,000 values, rights, and duties linked to 31,000 human-written situations",
-    "models_evaluated": "GPT-4 (as teacher), Kaleido (light-weight open model), evaluated against human annotators from diverse backgrounds",
+    "benchmark_name": "Indic-Bias",
+    "what_measures": "Fairness of LLMs across 85 Indian identity groups, focusing on bias and stereotypes through judgment and generation tasks across multiple Indic languages.",
+    "how_measures": "Tests LLM responses for bias and stereotypical associations across 85 identity groups using judgment and generation tasks in multiple Indic languages.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "Not specified",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Creates a large-scale pluralistic values dataset and a dedicated model for value reasoning. Directly measures how AI handles competing values, rights, and duties in contextualized scenarios."
+    "reasoning": "Explicitly designed to evaluate fairness and bias of LLMs in Indian contexts across 85 identity groups and multiple Indic languages. Directly relevant to pluralistic/cross-cultural AI ethics."
   },
   {
-    "filename": "2024-Sorensen-Value Kaleidoscope.md",
+    "filename": "2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate.md",
     "decision": "Yes",
-    "benchmark_name": "ValuePrism / Value Kaleidoscope (Kaleido)",
-    "what_measures": "Pluralistic human values, rights, and duties in context; ability to model value conflicts and pluralism",
-    "how_measures": "Large-scale contextualized values dataset; multitask model for generating, explaining, and assessing values; cross-framework transfer evaluation",
-    "dataset_size": "218,000 values, rights, and duties linked to 31,000 situations",
-    "models_evaluated": "GPT-4, Kaleido, evaluated with diverse human annotators",
+    "benchmark_name": "Indic-Bias",
+    "what_measures": "LLM fairness in Indian contexts across multiple Indic languages, evaluating bias and stereotypes.",
+    "how_measures": "Multi-language fairness benchmark evaluating LLM outputs for biased associations related to Indian identity groups.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "Not specified",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Duplicate of the ValuePrism paper above. Creates large-scale pluralistic values dataset and dedicated value reasoning model."
+    "reasoning": "Same Indic-Bias benchmark (GitHub repo entry) specifically designed to evaluate LLM fairness for Indian contexts. This appears to be a duplicate entry of the same benchmark."
   },
   {
-    "filename": "2024-Sorin-Ethical Alignment of LLMs in Healthcare.md",
+    "filename": "2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md",
     "decision": "Yes",
-    "benchmark_name": "Medical Trolley Dilemma Evaluation",
-    "what_measures": "Deontological vs. utilitarian ethical alignment of LLMs in healthcare contexts using medical versions of trolley dilemmas",
-    "how_measures": "Five medical versions of the trolley dilemma presented to 14 LLMs with 50 responses per model (700 total prompts); binary yes/no ethical decisions analyzed for utilitarian vs. deontological tendencies",
-    "dataset_size": "5 medical dilemma scenarios, 700 total prompts",
-    "models_evaluated": "14 LLMs including GPT-o1",
-    "pluralistic_relevance": "Partial",
-    "availability": "Not stated",
-    "reasoning": "Directly evaluates LLM ethical decision-making on medical trolley problems, measuring utilitarian vs. deontological alignment. Found some models endorsed clearly unethical actions (e.g., amputation without consent) up to 80% of the time."
-  },
-  {
-    "filename": "2024-Souly-StrongREJECT.md",
-    "decision": "Yes",
-    "benchmark_name": "StrongREJECT",
-    "what_measures": "Jailbreak effectiveness and LLM safety robustness; measures whether jailbreak attacks actually produce harmful content vs. degraded gibberish",
-    "how_measures": "Dataset of forbidden prompts requiring specific harmful information plus automated evaluator measuring harmfulness of responses; achieves SOTA agreement with human judgments",
-    "dataset_size": "Not specified in profile (prompts across 6 harm categories)",
-    "models_evaluated": "Multiple victim models evaluated against various jailbreak methods",
-    "pluralistic_relevance": "No",
-    "availability": "Public (strong-reject.readthedocs.io)",
-    "reasoning": "Introduces a rigorous benchmark for evaluating LLM safety against jailbreaks with an automated evaluator that achieves state-of-the-art agreement with human judgments of harm."
-  },
-  {
-    "filename": "2024-Srivastava-Functional Benchmarks for Robust Evaluation of.md",
-    "decision": "Exclude",
-    "reasoning": "Proposes functional variants of reasoning benchmarks (specifically MATH benchmark) to measure reasoning robustness. Focuses on mathematical reasoning capabilities, not ethical/moral reasoning or value alignment."
-  },
-  {
-    "filename": "2024-Stenseke-Computational Complexity of Ethics.md",
-    "decision": "Exclude",
-    "reasoning": "Theoretical paper analyzing normative ethics frameworks (consequentialism, deontology, virtue ethics) through computational complexity theory. No empirical LLM evaluation, no benchmark, no dataset."
-  },
-  {
-    "filename": "2024-Street-LLMs achieve adult human performance on.md",
-    "decision": "Exclude",
-    "reasoning": "Evaluates LLMs on higher-order theory of mind (ToM) tasks. While ToM is related to social cognition, this focuses on cognitive reasoning about mental states, not moral reasoning or ethical judgment specifically."
-  },
-  {
-    "filename": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
-    "decision": "Exclude",
-    "reasoning": "Conceptual/theoretical article about integrating Ubuntu philosophy with generative AI in distance education. No empirical evaluation, no benchmark, no dataset for assessing LLM ethics."
-  },
-  {
-    "filename": "2024-Sun-Benchmarking Hallucination in Large Language.md",
-    "decision": "Exclude",
-    "reasoning": "Benchmarks LLM hallucination using unanswerable math word problems. Focuses on factual hallucination in mathematical reasoning, not moral/ethical reasoning or value alignment."
-  },
-  {
-    "filename": "2024-Sun-ClarityEthic.md",
-    "decision": "Yes",
-    "benchmark_name": "ClarityEthic",
-    "what_measures": "Moral judgment in LLMs by identifying and selecting appropriate social norms for ethical decision-making in complex scenarios with competing norms",
-    "how_measures": "Contrastive learning approach to uncover relevant social norms from different perspectives; evaluation on moral judgment tasks comparing against state-of-the-art approaches",
-    "dataset_size": "Not specified (uses existing moral judgment datasets)",
-    "models_evaluated": "Multiple LLMs (specific models not listed in available profile)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Not stated (paper was withdrawn from arXiv)",
-    "reasoning": "Introduces a novel moral judgment method using contrastive learning to help LLMs identify appropriate social norms. Conducts extensive experiments on moral judgment tasks and includes human evaluation of generated social norm explanations."
-  },
-  {
-    "filename": "2024-Sun-Towards Friendly AI.md",
-    "decision": "Exclude",
-    "reasoning": "Comprehensive review paper on Friendly AI proposing an 'as-if friendship' framework. Survey/review paper that does not introduce its own evaluation methodology, benchmark, or dataset for assessing LLM moral reasoning."
-  },
-  {
-    "filename": "2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical paper analyzing AI virtue from Aristotelian-Thomistic perspective. Purely theoretical with no empirical evaluation, benchmark, or dataset."
-  },
-  {
-    "filename": "2024-Takemoto-The moral machine experiment on large language.md",
-    "decision": "Yes",
-    "benchmark_name": "Moral Machine Experiment for LLMs",
-    "what_measures": "Ethical decision-making tendencies of LLMs on trolley-problem-style autonomous vehicle dilemmas across 9 moral dimensions (species, social value, gender, age, fitness, utilitarianism, interventionism, relationship, law)",
-    "how_measures": "50,000 Moral Machine scenarios presented as text to LLMs; responses compared to human preferences from original Moral Machine dataset using correlation and deviation measures",
-    "dataset_size": "50,000 generated scenarios with LLM responses",
-    "models_evaluated": "GPT-3.5, GPT-4, PaLM 2, Llama 2",
-    "pluralistic_relevance": "Partial",
-    "availability": "Code available (supplementary materials)",
-    "reasoning": "Replicates the Moral Machine Experiment on LLMs, systematically comparing LLM moral judgments to human preferences across multiple ethical dimensions. Finds significant quantitative disparities with LLMs being more uncompromising."
-  },
-  {
-    "filename": "2024-Team-FABLE Fairness and Bias in LLM Evaluation.md",
-    "decision": "Yes",
-    "benchmark_name": "FACT-OR-FAIR",
-    "what_measures": "Fairness and bias in LLMs, distinguishing between factual correctness and normative fairness using cognitive psychology frameworks (representativeness bias, attribution bias, ingroup-outgroup bias)",
-    "how_measures": "Benchmark with objective queries (fact-based) and subjective queries (fairness-based) constructed from 19 statistics; automated evaluation via toxicity/hate speech classifiers",
-    "dataset_size": "156 curated prompts across 4 categories (from profile); queries from 19 statistics (from PDF extract)",
-    "models_evaluated": "10 frontier models",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public (GitHub: uclanlp/Fact-or-Fair)",
-    "reasoning": "Introduces FACT-OR-FAIR benchmark that distinguishes factual correctness from normative fairness in LLM evaluation, grounded in cognitive psychology. Tests 10 frontier models on fact-fair trade-offs."
-  },
-  {
-    "filename": "2024-Team-GuardBench.md",
-    "decision": "Yes",
-    "benchmark_name": "GuardBench",
-    "what_measures": "Safety of guardrail models (input-output filters) for LLMs, measuring ability to detect unsafe content across multiple languages",
-    "how_measures": "Large-scale benchmark comprising 40 safety evaluation datasets with automated evaluation pipeline; includes first large-scale prompt moderation datasets in German, French, Italian, and Spanish",
-    "dataset_size": "40 safety evaluation datasets aggregated; multilingual prompt moderation datasets",
-    "models_evaluated": "Multiple recent guardrail models compared with general-purpose instruction-following models",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public (GitHub: AmenRa/guardbench, Python library)",
-    "reasoning": "Creates a comprehensive safety evaluation benchmark aggregating 40 datasets with multilingual coverage, providing standardized evaluation for LLM guardrail models."
-  },
-  {
-    "filename": "2024-Team-WildGuard.md",
-    "decision": "Yes",
-    "benchmark_name": "WildGuard / WildGuardMix / WildGuardTest",
-    "what_measures": "LLM safety across 13 risk categories: malicious intent detection, safety risk detection in responses, and model refusal rate determination",
-    "how_measures": "Multi-task safety moderation dataset with vanilla and adversarial jailbreak prompts paired with refusal/compliance responses; human-annotated test set",
-    "dataset_size": "92K labeled examples (WildGuardMix); 5K human-annotated test items (WildGuardTest)",
-    "models_evaluated": "10+ guardrail models compared; also benchmarked against GPT-4",
-    "pluralistic_relevance": "No",
+    "benchmark_name": "IndicAlign-Toxic",
+    "what_measures": "Safety alignment of Indic LLMs via toxic prompt handling across 14 Indian languages.",
+    "how_measures": "Provides 123K pairs of toxic prompts and non-toxic responses for training/evaluating safety alignment in Indic LLMs.",
+    "dataset_size": "123K prompt-response pairs, 22 languages, 251B tokens total suite",
+    "models_evaluated": "ChatGPT, DOLLY, LLAMA2, Llama, Mixtral, MIXTRAL-8X7B",
+    "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Introduces a large-scale multi-task safety moderation benchmark and model, covering 13 risk categories with both training and human-annotated test data. Achieves SOTA in safety moderation."
+    "reasoning": "Includes IndicAlign-Toxic, a toxicity safety alignment dataset for Indic LLMs in 14 languages. Part of a comprehensive suite for Indic language model development."
   },
   {
-    "filename": "2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.md",
+    "filename": "2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md",
     "decision": "Exclude",
-    "reasoning": "Agent-based modeling study of moral behavior dynamics in heterogeneous populations of RL agents with different ethical frameworks (deontological, consequentialist, virtue-based). While it studies moral reasoning in AI agents, it uses simulated social dilemma environments to study multi-agent dynamics, not benchmarking LLMs on ethical evaluation."
+    "reasoning": "QA benchmark for Indic languages focused on factual knowledge retrieval across 20 languages, not ethics/bias/fairness evaluation."
   },
   {
-    "filename": "2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md",
+    "filename": "2024-team-MahaMarathi-7B Marathi Large Language Model.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a Marathi language model, not a benchmark or dataset for AI ethics evaluation."
+  },
+  {
+    "filename": "2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a Thai-centric LLM with evaluation on general Thai benchmarks, not an ethics/bias benchmark or dataset."
+  },
+  {
+    "filename": "2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md",
     "decision": "Yes",
-    "benchmark_name": "Chinese SafetyQA",
-    "what_measures": "LLM factuality in safety-critical domains including law, policy, and ethics in Chinese language context",
-    "how_measures": "Short-form factuality questions covering safety knowledge; evaluation of factuality abilities, RAG ability, and robustness against attacks",
-    "dataset_size": "2,000+ high-quality safety examples",
-    "models_evaluated": "Multiple LLMs (comprehensive evaluation)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public (GitHub: OpenStellarTeam/ChineseSafetyQA)",
-    "reasoning": "Creates a Chinese-language safety factuality benchmark covering law, policy, and ethics domains, directly measuring LLM safety knowledge accuracy in Chinese regulatory/ethical contexts."
+    "benchmark_name": "SeaLLMs 3 Safety Evaluation",
+    "what_measures": "Safety of LLMs for Southeast Asian languages, measuring safe response rates across multiple SEA languages.",
+    "how_measures": "Evaluates LLM safety by measuring safe response rates per language (achieving 79.7% average), particularly for Javanese, Khmer, Lao, Burmese, Thai, and Chinese.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama-3, Qwen, Qwen2",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Includes safety evaluation metrics for SEA languages with per-language safe rate measurements. Ethics classification is Yes and safety alignment is the core contribution."
+  },
+  {
+    "filename": "2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+    "decision": "Yes",
+    "benchmark_name": "VLegal-Bench",
+    "what_measures": "Vietnamese legal reasoning of LLMs across 22 tasks at 5 cognitive reasoning levels, including ethical reasoning assessment for fairness, impartiality, privacy, and bias detection.",
+    "how_measures": "10,450 expert-verified samples across 22 tasks organized by cognitive complexity levels (Bloom's taxonomy), evaluated with standard NLP metrics.",
+    "dataset_size": "10,450 expert-verified samples across 22 tasks",
+    "models_evaluated": "Bloom, Claude Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama-2, Llama-3.1, Qwen2.5, internlm-chat",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "First comprehensive Vietnamese legal LLM benchmark with explicit ethical reasoning assessment including bias detection, fairness, and moral consistency evaluation in Vietnamese legal contexts."
+  },
+  {
+    "filename": "2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with.md",
+    "decision": "Yes",
+    "benchmark_name": "HS-Assamese / HS-Bodo",
+    "what_measures": "Hate speech detection in low-resource Assamese and Bodo languages from social media content.",
+    "how_measures": "Creates hate speech datasets from Facebook/YouTube comments, evaluates ML, DL, and BERT models on binary hate/non-hate classification.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERT, RoBERTa, Word2Vec, various ML/DL models",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Creates first hate speech datasets for low-resource Assamese and Bodo languages. Relevant to ethics evaluation for underrepresented Indian linguistic communities."
+  },
+  {
+    "filename": "2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.md",
+    "decision": "Exclude",
+    "reasoning": "Systematic review and cross-validation of Turkish sentiment analysis datasets and tools, not an ethics/bias benchmark."
+  },
+  {
+    "filename": "2025-2025-Pretrained Models Against Traditional Machine Learning.md",
+    "decision": "Exclude",
+    "reasoning": "Compares pretrained language models vs traditional ML for Hadith authentication; focused on Islamic text classification, not AI ethics benchmarking."
+  },
+  {
+    "filename": "2025-A.-Operationalizing Cultural Values in Language Models A Comparative.md",
+    "decision": "Yes",
+    "benchmark_name": "Hofstede Cultural Values LLM Evaluation",
+    "what_measures": "Cultural values embedded in LLMs using Hofstede's cultural dimensions framework, comparing Russian and Western models on cultural value alignment.",
+    "how_measures": "Evaluates LLM responses against Hofstede's cultural dimensions to determine whether models reflect collectivist vs individualist cultural tendencies.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "GPT-4o, YandexGPT, GigaChat, Claude Sonnet, Gemini",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Directly evaluates cultural value alignment of LLMs using Hofstede's framework, comparing underrepresented Russian models with Western ones. Relevant to cross-cultural AI ethics."
+  },
+  {
+    "filename": "2025-ADL Center for Technology and Society Daniel Kelley-Generating Hate Anti-Jewish and Anti-Israel Bias.md",
+    "decision": "Yes",
+    "benchmark_name": "ADL Anti-Jewish/Anti-Israel LLM Bias Evaluation",
+    "what_measures": "Anti-Jewish and anti-Israel bias in major LLMs across 6 categories: bias against Jews, bias against Israel, Gaza/Hamas war, antisemitic conspiracy theories, Holocaust conspiracy theories, and general antisemitism.",
+    "how_measures": "Tests 8,600 queries per model across 6 antisemitism categories, evaluating responses for concerning antisemitic content.",
+    "dataset_size": "8,600 queries per model, 34,400 total responses",
+    "models_evaluated": "4 major LLMs (specific names not identified in metadata), Meta's Llama performed worst",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Most comprehensive evaluation to date of anti-Jewish and anti-Israel bias in LLMs. Introduces a structured evaluation framework with 34,400 responses across 6 antisemitism categories."
+  },
+  {
+    "filename": "2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.md",
+    "decision": "Yes",
+    "benchmark_name": "Swahili Sociolinguistic Diversity Benchmark",
+    "what_measures": "Sociolinguistic diversity in Swahili NLP, evaluating model fairness across tribal, gender, and education intersections using health-related psychometric tasks.",
+    "how_measures": "Taxonomy-guided evaluation using 2,170 free-text responses from Kenyan speakers, examining tribal influences, urban vernacular, code-mixing, and model prediction errors across pre-trained and instruction-tuned models.",
+    "dataset_size": "2,170 free-text responses",
+    "models_evaluated": "BERT, Llama 3.1, Qwen2, Qwen2.5, RoBERTa",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "First taxonomy-guided evaluation of Swahili NLP addressing sociolinguistic diversity. Reveals strong tribal disparities in model fairness metrics and intersectional bias analysis."
+  },
+  {
+    "filename": "2025-Abdelhalim-Full article Artificial intelligence tools and literary translation a.md",
+    "decision": "Exclude",
+    "reasoning": "Comparative study of ChatGPT and Google Translate for literary translation from Saudi EFL student perspectives, not an ethics benchmark."
+  },
+  {
+    "filename": "2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.md",
+    "decision": "Yes",
+    "benchmark_name": "SAHARA",
+    "what_measures": "LLM performance across 517 African languages covering 16 NLP tasks compiled from 30 publicly accessible datasets.",
+    "how_measures": "Comprehensive benchmark with public leaderboard evaluating models on standardized NLP tasks across African languages, revealing performance gaps for indigenous languages.",
+    "dataset_size": "517 languages, 16 tasks, 30 datasets",
+    "models_evaluated": "BERT, Claude, Claude-4-Sonnet, CommandR, GPT-4, Gemma-2, Gemma-3, Llama-3.1, Llama3.2, Phi-3, Phi-4",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Most extensive African language NLP benchmark covering 517 languages. While not solely ethics-focused, provides crucial infrastructure for evaluating cultural and value alignment in African linguistic contexts."
+  },
+  {
+    "filename": "2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md",
+    "decision": "Exclude",
+    "reasoning": "Kurdish semantic textual similarity dataset focused on linguistic NLP task, not ethics/bias evaluation."
+  },
+  {
+    "filename": "2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting.md",
+    "decision": "Yes",
+    "benchmark_name": "AfriMTEB",
+    "what_measures": "Text embedding quality across 59 African languages, including hate speech detection, intent detection, and emotion classification tasks.",
+    "how_measures": "Regional expansion of MMTEB covering 14 tasks and 38 datasets, evaluating embedding models on retrieval, classification, clustering tasks including hate speech detection.",
+    "dataset_size": "59 languages, 14 tasks, 38 datasets",
+    "models_evaluated": "BERT, Gemma, Mistral-7B, Qwen2, Qwen3, RoBERTa",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Regional MTEB extension for 59 African languages that includes hate speech detection and emotion classification tasks directly relevant to ethics/bias assessment in African contexts."
+  },
+  {
+    "filename": "2025-Adelani-INJONGO A Multicultural Intent Detection and.md",
+    "decision": "Exclude",
+    "reasoning": "Multicultural intent detection and slot-filling dataset for 16 African languages, focused on conversational AI task performance rather than ethics/bias evaluation."
+  },
+  {
+    "filename": "2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md",
+    "decision": "Exclude",
+    "reasoning": "General-purpose multilingual benchmark for 20 Indonesian languages covering QA, inference, and translation tasks, not specifically ethics/bias focused."
+  },
+  {
+    "filename": "2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+    "decision": "Yes",
+    "benchmark_name": "Religious Bias Evaluation Framework",
+    "what_measures": "Religious bias in language models and text-to-image generation models across open-source and closed-source systems, testing disproportionate stereotypes associated with religions.",
+    "how_measures": "Uses ~400 naturally occurring prompts for mask filling, prompt completion, and image generation; evaluates cross-domain biases intersecting religion with gender, age, and nationality; tests debiasing strategies.",
+    "dataset_size": "~400 unique prompts, 5,000 generated images",
+    "models_evaluated": "ALBERT, BERT, Claude-2.1, DistilBERT, GPT-2, GPT-3, GPT-3.5, GPT-4, Llama 2, Llama 3, Mixtral 8x7B, RoBERTa, T5, Vicuna",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Systematic investigation of religious bias across 20+ language and text-to-image models with publicly available prompts and images. Directly relevant to pluralistic religious values in AI."
+  },
+  {
+    "filename": "2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.md",
+    "decision": "Yes",
+    "benchmark_name": "SEADialogues",
+    "what_measures": "Cultural appropriateness in conversational AI for Southeast Asian languages, testing whether LLMs handle culturally grounded multi-turn dialogues properly.",
+    "how_measures": "Multilingual culturally grounded multi-turn dialogue dataset in 8 SEA languages from 6 countries, evaluating model responses for cultural appropriateness.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "GPT-4, GPT-4o mini, Llama-3.1, Qwen-14B",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces a culturally grounded dialogue dataset for SEA languages specifically designed to evaluate cultural appropriateness in conversational AI."
+  },
+  {
+    "filename": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md",
+    "decision": "Yes",
+    "benchmark_name": "SHADES",
+    "what_measures": "Culturally-specific stereotypes in LLMs across 20 regions and 16 languages, spanning multiple identity categories subject to discrimination.",
+    "how_measures": "Multilingual parallel dataset with 300+ stereotypes from 37 regions translated across 16 languages with annotated features; evaluates base and instruction-tuned models for stereotype recognition and reflection.",
+    "dataset_size": "300+ stereotypes from 37 regions, 16 languages",
+    "models_evaluated": "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama2, Llama3, Mistral-7B, Qwen, Qwen2",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Multilingual stereotype bias benchmark covering 20 regions and 16 languages. Directly evaluates culturally-specific stereotypes learned by LLMs."
+  },
+  {
+    "filename": "2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md",
+    "decision": "Yes",
+    "benchmark_name": "SHADES",
+    "what_measures": "Culturally-specific stereotypes in LLMs across 20 regions and 16 languages, with multiple identity categories subject to discrimination worldwide.",
+    "how_measures": "Multilingual parallel dataset with 300+ stereotypes from 37 regions, translated across 16 languages, annotated with features for stereotype analysis. Templates enable unlimited generation of new evaluation data.",
+    "dataset_size": "300+ stereotypes, 37 regions, 16 languages",
+    "models_evaluated": "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama2, Llama3, Mistral-7B, Qwen, Qwen2",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Same SHADES benchmark (Montreal AI Ethics Institute coverage). Introduces multilingual stereotype evaluation dataset from culturally diverse perspectives."
+  },
+  {
+    "filename": "2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md",
+    "decision": "Yes",
+    "benchmark_name": "SHADES",
+    "what_measures": "Culturally-specific stereotypes learned by LLMs across 37 regions and 16 languages.",
+    "how_measures": "Multilingual parallel dataset with template-paired stereotypes enabling evaluation of base and instruction-tuned models for stereotype bias. Available on HuggingFace (LanguageShades/BiasShades).",
+    "dataset_size": "300+ stereotypes, 37 regions, 16 languages",
+    "models_evaluated": "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama2, Llama3, Mistral-7B, Qwen, Qwen2",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Full paper version of SHADES (NAACL 2025 long paper). This is the primary publication for this multilingual stereotype benchmark."
+  },
+  {
+    "filename": "2025-Alkhushayni-Multilingual Sentiment Analysis with Data Augmentation A.md",
+    "decision": "Exclude",
+    "reasoning": "Cross-language sentiment analysis evaluation in French, German, and Japanese using traditional ML approaches, not an ethics/bias benchmark."
+  },
+  {
+    "filename": "2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs.md",
+    "decision": "Yes",
+    "benchmark_name": "BRoverbs",
+    "what_measures": "LLM understanding of Brazilian Portuguese proverbs, encapsulating cultural wisdom, figurative expressions, and complex syntactic structures.",
+    "how_measures": "Tests 20 models on proverb comprehension tasks designed to evaluate Brazilian cultural knowledge, using questions derived from culturally embedded proverbs.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "GPT-4o, GPT-4o-mini, Claude-3.5-Sonnet, Claude-3.5-Haiku, Sabia-3, Qwen-2.5 variants, Llama variants, Tucano variants, TinyLlama, Curio-7B",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces a culturally grounded benchmark testing LLM understanding of Brazilian cultural wisdom through proverbs. Reveals performance gaps in Portuguese cultural knowledge."
+  },
+  {
+    "filename": "2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluates cross-cultural transfer of commonsense reasoning across Arab countries using existing datasets, but primarily an evaluation methodology paper rather than introducing a new benchmark/dataset."
+  },
+  {
+    "filename": "2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md",
+    "decision": "Exclude",
+    "reasoning": "Large-scale analysis of Italian Telegram toxicity and hate speech patterns using existing tools; uses LLMs as analytical instruments rather than introducing an ethics benchmark."
+  },
+  {
+    "filename": "2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md",
+    "decision": "Exclude",
+    "reasoning": "Meta-analysis applying Data Feminism principles to assess bias reporting in English and Arabic NLP research; proposes an interactive form but does not introduce a benchmark/dataset."
+  },
+  {
+    "filename": "2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....md",
+    "decision": "Yes",
+    "benchmark_name": "ArGAN",
+    "what_measures": "Gender, ability, and nationality bias in LLMs for Arabic language, examining deep-rooted biases in low-resource language models.",
+    "how_measures": "Dataset of Arabic prompts evaluating LLM outputs for bias related to gender, ability, and nationality categories; tests models including DeepSeek v3 and GPT-4o.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "DeepSeek v3, GPT-4o, LLama 3.3",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces ArGAN, an Arabic bias evaluation dataset covering gender, ability, and nationality. Directly relevant to cross-cultural bias assessment in Arabic AI."
+  },
+  {
+    "filename": "2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.md",
+    "decision": "Yes",
+    "benchmark_name": "Arabic Gender Bias Word Lists (WEAT/Direct Bias adapted for Arabic)",
+    "what_measures": "Gender bias in Arabic text via word embeddings, examining occupational stereotypes across Arabic text corpora from Lebanon, UAE, Egypt, and Morocco.",
+    "how_measures": "Adapts WEAT and Direct Bias quantification tests for Arabic, evaluating gender associations in Word2Vec embeddings trained on multiple Arabic text corpora.",
+    "dataset_size": "Multiple Arabic text corpora (Lebanese news archives 1933-2011, Arabic Wikipedia, UAE/Egypt/Morocco newspapers)",
+    "models_evaluated": "Word2Vec (CBOW)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces Arabic-adapted WEAT and Direct Bias tests with custom word pair lists for evaluating gender bias in Arabic language models. Code and data publicly available on GitHub and Zenodo."
+  },
+  {
+    "filename": "2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....md",
+    "decision": "Yes",
+    "benchmark_name": "Multilingual DisCo Extension for Indian Languages",
+    "what_measures": "Gender biases in pre-trained masked language models across multilingual settings, extending the DisCo benchmark to Indian languages.",
+    "how_measures": "Extends DisCo bias evaluation to different Indian languages using human annotations; evaluates debiasing methods for massively multilingual models.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERT, RoBERTa (massively multilingual models)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Creates a multilingual gender bias benchmark by extending DisCo to Indian languages with human annotations. Directly addresses gap in non-English, non-Western bias evaluation."
+  },
+  {
+    "filename": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+    "decision": "Exclude",
+    "reasoning": "Qualitative survey study of African AI professionals' moral perspectives on trust in AI; does not introduce a benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.md",
+    "decision": "Exclude",
+    "reasoning": "Case study using LLMs as tools for finding common ground between Israeli and Palestinian peacebuilders; GPT-4 used as analytical instrument, not evaluated/benchmarked."
+  },
+  {
+    "filename": "2025-Aravinda-SinLlama A Large Language Model for Sinhala.md",
+    "decision": "Exclude",
+    "reasoning": "Presents SinLlama, a Sinhala-specific LLM based on Llama-3-8B; introduces a model, not an ethics benchmark or dataset."
+  },
+  {
+    "filename": "2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md",
+    "decision": "Exclude",
+    "reasoning": "Icelandic cultural knowledge QA benchmark focused on factual knowledge about Icelandic culture/history, not AI ethics evaluation."
+  },
+  {
+    "filename": "2025-Asgari-I Am Aligned But With Whom.md",
+    "decision": "Yes",
+    "benchmark_name": "MENAValues",
+    "what_measures": "Cultural alignment of LLMs with MENA region values, using population-level survey response distributions from 16 countries to evaluate multilingual biases.",
+    "how_measures": "Structured dataset from authoritative human surveys capturing MENA sociocultural landscape; evaluates Cross-Lingual Value Shifts, Reasoning-Induced Degradation, and Logit Leakage phenomena.",
+    "dataset_size": "Population-level survey distributions from 16 MENA countries",
+    "models_evaluated": "GPT-4, GPT-4o-mini, Llama-3.1, Mistral-7B",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Novel benchmark evaluating LLM cultural alignment with MENA values from 16 countries. Discovers three previously unknown bias phenomena. Directly relevant to pluralistic cross-cultural AI ethics."
+  },
+  {
+    "filename": "2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluates generative performance of Brazilian Portuguese LLMs on summarization, simplification, and QA tasks; focused on general NLP performance, not ethics/bias."
+  },
+  {
+    "filename": "2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces a Kurdish BERT model for sentiment analysis; a language model contribution, not an ethics benchmark."
+  },
+  {
+    "filename": "2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md",
+    "decision": "Exclude",
+    "reasoning": "First Kurdish aspect-based sentiment analysis dataset for restaurant reviews; NLP resource, not ethics/bias evaluation."
+  },
+  {
+    "filename": "2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md",
+    "decision": "Yes",
+    "benchmark_name": "ProverbEval",
+    "what_measures": "LLM understanding of cultural proverbs in low-resource Ethiopian languages (4 Ethiopian languages + English), testing cultural knowledge comprehension.",
+    "how_measures": "Three tasks: meaning multiple-choice, fill-in-the-blank, and proverb generation. Reveals up to 50% performance variance from choice order sensitivity.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "GPT-4o, Gemma-2-9B, Gemma-2-27B, Aya-101, Llama-3",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces ProverbEval, a benchmark for evaluating LLM understanding of Ethiopian cultural proverbs. Tests cultural knowledge as a proxy for cultural values alignment."
+  },
+  {
+    "filename": "2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md",
+    "decision": "Yes",
+    "benchmark_name": "IndoSafety",
+    "what_measures": "Culturally grounded safety of LLMs for Indonesian context, covering Pancasila ideology, ethnic/religious sensitivities across 5 language varieties.",
+    "how_measures": "2,500 human-verified test examples across formal/colloquial Indonesian, Javanese, Sundanese, and Minangkabau, incorporating culturally specific safety categories.",
+    "dataset_size": "2,500 test examples, 5 language varieties",
+    "models_evaluated": "Claude-3, GPT-4o, Gemma-2, LLaMA-3.1, Qwen-7B, Qwen-14B, Qwen2.5",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "First culturally grounded safety evaluation for Indonesian languages, incorporating Pancasila ideology and ethnic/religious sensitivities. Directly relevant to pluralistic AI safety."
+  },
+  {
+    "filename": "2025-Bai-Explicitly unbiased large language models still form biased.md",
+    "decision": "Yes",
+    "benchmark_name": "LLM Word Association Test (LLM-WAT) / LLM Relative Decision Test (LLM-RDT)",
+    "what_measures": "Implicit biases in value-aligned LLMs across 4 social categories (race, gender, religion, health) and 21 stereotypes, revealing biases that explicit tests miss.",
+    "how_measures": "Two prompt-based measures adapted from psychology: LLM-WAT (adapted from Implicit Association Test) reveals implicit bias via word associations; LLM-RDT detects subtle discrimination in contextual decisions via relative evaluations.",
+    "dataset_size": "4 social categories, 21 stereotypes, 8 value-aligned models",
+    "models_evaluated": "Alpaca, Claude, Claude-3-Opus, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, Llama2Chat, Llama3, Llama3-Chat",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces two novel bias evaluation measures (LLM-WAT and LLM-RDT) that expose implicit biases across race, gender, religion, and health categories in value-aligned models. Published in PNAS."
+  },
+  {
+    "filename": "2025-Bali-How Deep Is Representational Bias in.md",
+    "decision": "Yes",
+    "benchmark_name": "Representational Bias Audit Framework (Caste/Religion in India)",
+    "what_measures": "Depth of representational biases for caste and religion in LLMs when generating stories about Indian life events (birth, wedding, death rituals).",
+    "how_measures": "Systematic audit prompting GPT-4 Turbo to generate 7,200+ stories about significant Indian life events, measuring overrepresentation of culturally dominant groups and evaluating efficacy of prompt-based debiasing.",
+    "dataset_size": "7,200+ generated stories",
+    "models_evaluated": "GPT-4, GPT-4 Turbo",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Systematic audit revealing deeply encoded representational biases for caste and religion in GPT-4 Turbo in Indian context. Demonstrates 'winner-take-all' bias quality."
+  },
+  {
+    "filename": "2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md",
+    "decision": "Exclude",
+    "reasoning": "Dutch text embedding benchmark (40 datasets) and models focused on NLP embedding quality, not AI ethics evaluation."
+  },
+  {
+    "filename": "2025-Bar-DharmaBench Evaluating Language Models on Buddhist.md",
+    "decision": "Yes",
+    "benchmark_name": "DharmaBench",
+    "what_measures": "Language model capabilities on Buddhist texts in Sanskrit and Tibetan, with 13 classification and detection tasks.",
+    "how_measures": "13 tasks (6 Sanskrit, 7 Tibetan, 4 shared) for classification and detection on Buddhist texts, released under CC-BY-4 License.",
+    "dataset_size": "13 tasks (6 Sanskrit, 7 Tibetan, 4 shared)",
+    "models_evaluated": "Not specified",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Benchmark for evaluating LLMs on Buddhist religious texts in Sanskrit and Tibetan. Directly relevant to religious values assessment in AI."
+  },
+  {
+    "filename": "2025-Barov-TUMLU A Unified and Native Language.md",
+    "decision": "Exclude",
+    "reasoning": "Natively developed MMLU benchmark for 8 Turkic languages focused on general knowledge understanding, not ethics/bias evaluation."
+  },
+  {
+    "filename": "2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md",
+    "decision": "Exclude",
+    "reasoning": "Meta-analysis of seven multilingual European benchmarks identifying cultural bias challenges; does not introduce a new benchmark but reviews existing ones."
+  },
+  {
+    "filename": "2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md",
+    "decision": "Exclude",
+    "reasoning": "Develops prompting methodology for Quranic QA extraction; uses existing shared task dataset, does not introduce an ethics benchmark."
+  },
+  {
+    "filename": "2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes a two-stage framework for Quranic QA retrieval and extraction; method paper using existing shared task data, not an ethics benchmark."
+  },
+  {
+    "filename": "2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md",
+    "decision": "Yes",
+    "benchmark_name": "NepX-Hate",
+    "what_measures": "Hate speech in Nepali social media with fine-grained sociocultural annotations including casteism and xenophobia categories.",
+    "how_measures": "10,000 annotated tweets labeled for hate speech presence, fine-grained category (casteism, xenophobia), offensiveness, target type, and sentiment.",
+    "dataset_size": "10,000 annotated tweets",
+    "models_evaluated": "BERT, GPT-4o-mini, GPT-4, RoBERTa",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "First comprehensive Nepali hate speech dataset with sociocultural annotations including casteism and xenophobia categories. Directly relevant to ethics evaluation in South Asian contexts."
+  },
+  {
+    "filename": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+    "decision": "Yes",
+    "benchmark_name": "Dutch Counterfactual Fairness Framework",
+    "what_measures": "Counterfactual fairness of hate speech detection models in Dutch, examining whether predictions change based solely on protected attributes.",
+    "how_measures": "Creates Dutch Social Group Terms list, generates counterfactual data using LLMs, evaluates models using Counterfactual Token Fairness (CTF), equality of odds, and demographic parity metrics.",
+    "dataset_size": "Not stated (curated Dutch Social Group Terms + generated counterfactual data)",
+    "models_evaluated": "BERTje, BERT, RoBERTa (transformer-based models)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "First fairness assessment for Dutch hate speech detection introducing Dutch Social Group Terms and counterfactual fairness evaluation methodology with publicly available code."
+  },
+  {
+    "filename": "2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md",
+    "decision": "Exclude",
+    "reasoning": "Quebec-French linguistic acceptability corpus focused on grammatical judgments, not AI ethics/bias evaluation."
+  },
+  {
+    "filename": "2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluates NLI performance on Basque and Spanish geographic variants; linguistic variation study, not an AI ethics benchmark."
   }
 ]

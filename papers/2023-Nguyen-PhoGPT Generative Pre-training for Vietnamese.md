@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "PhoGPT: Generative Pre-training for Vietnamese"
 year: 2025
 first_author: "[[Dat Quoc Nguyen]]"
-last_author: "[[Hung Bui]]"
+last_author: "[[Hung Bui Dinh Phung]]"
 authors: "Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui"
 url: "https://arxiv.org/abs/2311.02945"
 external_pdf: "https://arxiv.org/pdf/2311.02945.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui]]
+[[Long Nguyen|Linh The Nguyen Dat Quoc Nguyen]], [[Dung Ngoc Nguyen Chi Tran]], [[Hung Bui Dinh Phung]]
 
 ## Metadata
 

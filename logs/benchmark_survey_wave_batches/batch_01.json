@@ -1,0 +1,592 @@
+[
+  {
+    "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[JainKnowledge.com (built on JainELibrary.org]]; [[JainQQ.org collections)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "0000-project-Vedanta Datasets.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Atmabodha (community project)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "0000-projects-BaniDB Shabad OS Digital Gurbani Database.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Khalis Foundation / Shabad OS (community projects)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Erick Fonseca, Leandro Borges dos Santos, Marcelo Finger, Alexandre Mouzalon",
+    "year": "2025",
+    "doi": "",
+    "url": "http://nilc.icmc.usp.br/assin/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+    "has_extract": true,
+    "authors": "Adam Amram, Anat Ben David, Reut Tsarfaty",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/C18-1190/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md",
+    "has_extract": true,
+    "authors": "[[Bohra]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/W18-1105/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Chaya Liebeskind, Shmuel Liebeskind",
+    "year": "2025",
+    "doi": "10.1109/ICSEE.2018.8646190",
+    "url": "https://ieeexplore.ieee.org/document/8646190",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md",
+    "has_extract": true,
+    "authors": "Nikola Ljubesic, Tomaz Erjavec, Darja Fiser",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/W18-5116/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Mishra-Are They Our Brothers Analysis and.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Mishra-Are They Our Brothers Analysis and.md",
+    "has_extract": true,
+    "authors": "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Kiet Van Nguyen, others",
+    "year": "2025",
+    "doi": "10.1109/KSE.2018.8573337",
+    "url": "https://ieeexplore.ieee.org/document/8573337/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md",
+    "has_extract": true,
+    "authors": "Bruna Santana, Vinicius Woloszyn",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.inf.ufrgs.br/propor-2018/wp-content/uploads/2018/10/PROPOR2018-SRW_paper_6.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md",
+    "pdf_extract_path": "PDF Extracts/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md",
+    "has_extract": true,
+    "authors": "Michael Wiegand, Melanie Siegel, Josef Ruppenhofer",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md",
+    "has_extract": true,
+    "authors": "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/S19-2007/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md",
+    "has_extract": true,
+    "authors": "Michele Corazza; Stefano Menini; Elena Cabrio; Sara Tonelli; Serena Villata",
+    "year": "2025",
+    "doi": "",
+    "url": "https://hal.science/hal-02381152",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md",
+    "has_extract": true,
+    "authors": "Paula Fortuna, João Rocha da Silva, Juan Soler-Company, Leo Wanner, Sérgio Nunes",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/W19-3510/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md",
+    "has_extract": true,
+    "authors": "Ales Horak, Vit Baisa, Ondrej Herman",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/R19-1010/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+    "has_extract": true,
+    "authors": "[[Jikeli, Cavar,]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/1910.01214",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md",
+    "has_extract": true,
+    "authors": "Nikola Ljubesic, Darja Fiser, Tomaz Erjavec",
+    "year": "2025",
+    "doi": "10.1007/978-3-030-27947-9_9",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-27947-9_9",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md",
+    "has_extract": true,
+    "authors": "[[Ousidhoum, Nedjma]]; [[Lin, Zizheng]]; [[Zhang, Hongming]]; [[Song, Yangqiu]]; [[Yeung, Dit-Yan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/1908.11049",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md",
+    "has_extract": true,
+    "authors": "Ho Thanh Phuong, Nguyen Van Phu, others",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/1911.09339",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+    "has_extract": true,
+    "authors": "Michal Ptaszynski, Agata Pieciukiewicz, Pawel Dybala",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/ptaszynski/cyberbullying-Polish",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md",
+    "pdf_extract_path": "PDF Extracts/2019/2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md",
+    "has_extract": true,
+    "authors": "Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/P19-1164/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Mik3M4n (DILCRAH collaboration)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/Mik3M4n/help_dicrah",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md",
+    "has_extract": true,
+    "authors": "[[Amirkhani, Hossein]]; [[AzariJafari, Mohammad]]; [[Faridan-Jahromi, Soroush]]; [[Kouhkan, Zeinab]]; [[Pourjafari, Zohreh]]; [[Amirak, Azadeh]]",
+    "year": "2025",
+    "doi": "10.1007/s00500-023-08959-3",
+    "url": "https://arxiv.org/abs/2009.08820",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md",
+    "has_extract": true,
+    "authors": "[[Sanguinetti, M.]]; [[Comandini, Gloria]]; [[Nuovo, Elisa Di]]; [[Frenda, Simona]]; [[Stranisci, M.]]; [[Bosco, C.]]; [[Caselli, Tommaso]]; [[Patti, V.]]; [[Russo, Irene]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/346997652_HaSpeeDe_2_EVALITA2020_Overview_of_the_EVALITA_2020_Hate_Speech_Detection_Task",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Carroll-The CARE Principles for Indigenous Data Governance.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Stephanie Russo Carroll, Ibrahim Garba, Oscar L. Figueroa-Rodriguez, Jarita Holbrook, Raymond Lovett, Simeon Materechera, Mark Parsons, Kay Raseroka, Desi Rodriguez-Lonebear, Robyn Rowe, Rodrigo Sara, Jennifer D. Walker, Jane Anderson, Maui Hudson",
+    "year": "2020",
+    "doi": "10.5334/dsj-2020-043",
+    "url": "https://datascience.codata.org/articles/10.5334/dsj-2020-043",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Ema-Artificial Intelligence and Indigenous Perspectives Protecting and.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Arisa Ema, Katsue Nagakura, Takanori Fujita",
+    "year": "2020",
+    "doi": "10.1145/3375627.3375845",
+    "url": "https://dl.acm.org/doi/10.1145/3375627.3375845",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Karan-Detecting Hate Speech Online A Case of Croatian.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Mladen Karan, Jan Snajder",
+    "year": "2025",
+    "doi": "10.1007/978-3-030-38833-1_16",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md",
+    "has_extract": true,
+    "authors": "[[Koto, Fajri]]; [[Rahimi, Afshin]]; [[Lau, Jey Han]]; [[Baldwin, Timothy]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2011.00677",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md",
+    "has_extract": true,
+    "authors": "John Koutsikakis, Ilias Chalkidis, Prodromos Malakasiotis, Ion Androutsopoulos",
+    "year": "2025",
+    "doi": "10.1145/3411408.3411440",
+    "url": "https://dl.acm.org/doi/10.1145/3411408.3411440",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md",
+    "has_extract": true,
+    "authors": "Mascha Kurpicz-Briki",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-2624/paper6.pdf",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md",
+    "has_extract": true,
+    "authors": "Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2010.04543",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md",
+    "has_extract": true,
+    "authors": "Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, Grigorios Tsoumakas",
+    "year": "2025",
+    "doi": "10.1007/s40747-021-00608-2",
+    "url": "https://arxiv.org/abs/2006.08328",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md",
+    "has_extract": true,
+    "authors": "Jihyung Moon, Won Ik Cho, Junbum Lee",
+    "year": "2025",
+    "doi": "10.18653/v1/2020.socialnlp-1.4",
+    "url": "https://arxiv.org/abs/2005.12503",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md",
+    "has_extract": true,
+    "authors": "[[Nozza, Debora]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://amievalita2020.github.io/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Pitenis-Offensive Language Identification in Greek.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification in Greek.md",
+    "has_extract": true,
+    "authors": "Zeses Pitenis, Marcos Zampieri, Tharindu Ranasinghe",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2020.lrec-1.629/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md",
+    "has_extract": true,
+    "authors": "Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2005.00630",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Sandaruwan-Sinhala Hate Speech Detection in Social Media using Text Mining and.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "H. M. S. T. Sandaruwan; S. A. S. Lorensuhewa; M. Kalyani",
+    "year": "2025",
+    "doi": "10.1109/MERCon50084.2020.9023655",
+    "url": "https://ieeexplore.ieee.org/document/9023655/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md",
+    "has_extract": true,
+    "authors": "Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev",
+    "year": "2025",
+    "doi": "10.18653/v1/2020.emnlp-main.381",
+    "url": "https://arxiv.org/abs/2010.15925",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Shekhar-Automating News Comment Moderation with Limited Resources.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md",
+    "has_extract": true,
+    "authors": "Ravi Shekhar, Marko Pranjic, Senja Pollak, Andraz Pelicon, Matthew Purver",
+    "year": "2025",
+    "doi": "",
+    "url": "https://jlcl.org/article/view/224",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md",
+    "has_extract": true,
+    "authors": "Gudbjartur Ingi Sigurbergsson, Leon Derczynski",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2020.lrec-1.430/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.md",
+    "has_extract": true,
+    "authors": "Wushouer Silamu",
+    "year": "2025",
+    "doi": "",
+    "url": "http://www.cttl.org/uploads/5/2/4/3/5243866/cttl_e_2020_9_lyu_wang_and_xiangling_wang.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Fábio Souza, Rodrigo Nogueira, Roberto Lotufo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/345395208_BERTimbau_Pretrained_BERT_Models_for_Brazilian_Portuguese",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md",
+    "has_extract": true,
+    "authors": "Jonne Sälevä",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2020.lrec-1.119/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Jason Edward Lewis, Angie Abdilla, Noelani Arista, Kaipulaumakaniolono Baker, Scott Benesiinaabandan, Michelle Bohan Brown, Melanie Cheung, Meredith Coleman, Ashley Cordes, Joel Davison, Kupono Duncan, Sergio Garzon, D. Fox Harrell, Peter-Lucas Jones, Kekuhi Kealiikanakaoleohaililani, Megan Kelleher, Suzanne Kite, Olin Lagon, Jason Leigh, Maroussia Levesque, Keoni Mahelona, Caleb Moses, Isaac Nahuewai, Kari Noe, Danielle Marie Olson, Oiwi Parker Jones, Caroline Running Wolf, Michael Running Wolf, Marlee Silva, Skawennati Fragnito, Hemi Whaanga]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "has_extract": true,
+    "authors": "[[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Winata, Genta Indra]]; [[Cahyawijaya, Samuel]]; [[Li, Xiaohong]]; [[Lim, Zhi Yuan]]; [[Soleman, Sidik]]; [[Mahendra, Rahmad]]; [[Fung, Pascale]]; [[Bahar, Syafri]]; [[Purwarianti, Ayu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2009.05387",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+    "has_extract": true,
+    "authors": "[[Bertie Vidgen, Taha Yasseri]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/1812.10400",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-Zueva-Reducing Unintended Identity Bias in Russian Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-Zueva-Reducing Unintended Identity Bias in Russian Hate Speech Detection.md",
+    "has_extract": true,
+    "authors": "Nadezhda Zueva, Madina Kabirova, Pavel Kalaidin",
+    "year": "2025",
+    "doi": "10.18653/v1/2020.alw-1.8",
+    "url": "https://arxiv.org/abs/2010.11666",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.md",
+    "pdf_extract_path": "PDF Extracts/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.md",
+    "has_extract": true,
+    "authors": "[[AI4Bharat team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2020.findings-emnlp.445/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Adelani-MasakhaNER Named Entity Recognition for African.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Adelani-MasakhaNER Named Entity Recognition for African.md",
+    "has_extract": true,
+    "authors": "[[Adelani, David Ifeoluwa]]; [[Abbott, Jade]]; [[Neubig, Graham]]; [[D'souza, Daniel]]; [[Kreutzer, Julia]]; [[Lignos, Constantine]]; [[Palen-Michel, Chester]]; [[Buzaaba, Happy]]; [[Rijhwani, Shruti]]; [[Ruder, Sebastian]]; [[Mayhew, Stephen]]; [[Azime, Israel Abebe]]; [[Muhammad, Shamsuddeen]]; [[Emezue, Chris Chinenye]]; [[Nakatumba-Nabende, Joyce]]; [[Ogayo, Perez]]; [[Aremu, Anuoluwapo]]; [[Gitau, Catherine]]; [[Mbaye, Derguene]]; [[Alabi, Jesujoba]]; [[Yimam, Seid Muhie]]; [[Gwadabe, Tajuddeen]]; [[Ezeani, Ignatius]]; [[Niyongabo, Rubungo Andre]]; [[Mukiibi, Jonathan]]; [[Otiende, Verrah]]; [[Orife, Iroro]]; [[David, Davis]]; [[Ngom, Samba]]; [[Adewumi, Tosin]]; [[Rayson, Paul]]; [[Adeyemi, Mofetoluwa]]; [[Muriuki, Gerald]]; [[Anebi, Emmanuel]]; [[Chukwuneke, Chiamaka]]; [[Odu, Nkiruka]]; [[Wairagala, Eric Peter]]; [[Oyerinde, Samuel]]; [[Siro, Clemencia]]; [[Bateesa, Tobius Saul]]; [[Oloyede, Temilola]]; [[Wambui, Yvonne]]; [[Akinode, Victor]]; [[Nabagereka, Deborah]]; [[Katusiime, Maurice]]; [[Awokoya, Ayodele]]; [[MBOUP, Mouhamadane]]; [[Gebreyohannes, Dibora]]; [[Tilaye, Henok]]; [[Nwaike, Kelechi]]; [[Wolde, Degaga]]; [[Faye, Abdoulaye]]; [[Sibanda, Blessing]]; [[Ahia, Orevaoghene]]; [[Dossou, Bonaventure F. P.]]; [[Ogueji, Kelechi]]; [[DIOP, Thierno Ibrahima]]; [[Diallo, Abdoulaye]]; [[Akinfaderin, Adewale]]; [[Marengereke, Tendai]]; [[Osei, Salomey]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2103.11811",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md",
+    "has_extract": true,
+    "authors": "[[Azada, Rania]]; [[Mohammeda, Bilal]]; [[Mahmuda, Rawaz]]; [[Zrara, Lanya]]; [[Sdiqa, Shajwan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://turcomat.org/index.php/turkbilmat/article/view/8393",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md",
+    "has_extract": true,
+    "authors": "Dan Bareket, Reut Tsarfaty",
+    "year": "2025",
+    "doi": "10.1162/tacl_a_00404",
+    "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00404/107206",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "has_extract": true,
+    "authors": "[[Cahyawijaya, Samuel]]; [[Winata, Genta Indra]]; [[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Li, Xiaohong]]; [[Kuncoro, Adhiguna]]; [[Ruder, Sebastian]]; [[Lim, Zhi Yuan]]; [[Bahar, Syafri]]; [[Khodra, Masayu Leylia]]; [[Purwarianti, Ayu]]; [[Fung, Pascale]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2104.08200",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md",
+    "has_extract": true,
+    "authors": "[[Rodriguez-Penagos, Carlos]]; [[Armentano-Oller, Carme]]; [[Villegas, Marta]]; [[Melero, Maite]]; [[Gonzalez, Aitor]]; [[Bonet, Ona de Gibert]]; [[Pio, Casimiro Carrino]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2112.01894",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Chakravarthi-Findings of the Sentiment Analysis of.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.md",
+    "has_extract": true,
+    "authors": "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Thavareesan, Sajeetha]]; [[Chinnappa, Dhivya]]; [[Thenmozhi, Durairaj]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]; [[Hande, Adeep]]; [[Ponnusamy, Rahul]]; [[Banerjee, Shubhanker]]; [[Vasantharajan, Charangan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2111.09811",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md",
+    "has_extract": true,
+    "authors": "Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko",
+    "year": "2025",
+    "doi": "10.3390/mti5090054",
+    "url": "https://www.mdpi.com/2414-4088/5/9/54",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md",
+    "has_extract": true,
+    "authors": "Kenneth C. Enevoldsen, Lasse Hansen, Kristoffer Nielbo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2107.05295",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Hansson-The Swedish Winogender Dataset SweWinogender.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.md",
+    "has_extract": true,
+    "authors": "Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.nodalida-main.52/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Jiang-Pre-trained Models and Evaluation Data for.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.md",
+    "has_extract": true,
+    "authors": "[[Jiang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-92310-5_52",
+    "body_richness": "thin"
+  }
+]

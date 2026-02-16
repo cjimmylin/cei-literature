@@ -35,6 +35,8 @@ Eric Schulz is the Director of the Computational Principles of Intelligence Lab 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Akata-Playing Repeated Games with Large Language Models|Playing Repeated Games with Large Language Models]] (Last Author)
 - [[2024-Hagendorff-Machine Psychology|Machine Psychology]] (Last Author)
 
@@ -47,5 +49,9 @@ Eric Schulz is the Director of the Computational Principles of Intelligence Lab 
 ## Notes
 
 
+
+
+- *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
+- *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
 - *From 2024-Hagendorff-Machine Psychology*: Affiliation: University of Stuttgart
 Eric Schulz's work on machine psychology establishes methods for understanding AI systems using the tools of cognitive science and psychology.

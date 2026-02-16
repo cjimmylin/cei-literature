@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: conference_paper
 short_title: "Persistent Anti-Muslim Bias in Large Language"
 year: 2025
 first_author: "[[Abubakar Abid, Maheen Farooqi, James Zou]]"
-last_author: "[[Abubakar Abid, Maheen Farooqi, James Zou]]"
+last_author: "[[James Zou]]"
 authors: "[[Abubakar Abid, Maheen Farooqi, James Zou]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2101.05783"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Abubakar Abid, Maheen Farooqi, James Zou]]
+[[Abubakar Abid]], [[Maheen Farooqi]], [[James Zou]]
 
 ## Metadata
 

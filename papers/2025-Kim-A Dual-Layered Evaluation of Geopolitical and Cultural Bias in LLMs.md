@@ -10,7 +10,7 @@ type: preprint
 short_title: A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs
 year: 2025
 first_author: "[[Sean Kim]]"
-last_author: "[[Hyuhng Joon Kim]]"
+last_author: "[[Hyuhng Joon Kim Sean Kim]]"
 authors: Sean Kim, Hyuhng Joon Kim
 url: "https://arxiv.org/abs/2506.21881"
 external_pdf: "https://arxiv.org/pdf/2506.21881.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Sean Kim, Hyuhng Joon Kim]]
+[[Hyuhng Joon Kim Sean Kim]]
 
 ## Metadata
 

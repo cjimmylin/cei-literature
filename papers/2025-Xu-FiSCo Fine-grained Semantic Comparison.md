@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +11,7 @@ type: preprint
 short_title: "FiSCo (Fine-grained Semantic Comparison)"
 year: 2025
 first_author: "[[Xu, Weijie]]"
-last_author: "[[Reddy, Chandan K.]]"
+last_author: "[[Reddy, Chandan K]]"
 authors: "[[Xu, Weijie]]; [[Wang, Yiwen]]; [[Xue, Chi]]; [[Hu, Xiangkun]]; [[Fang, Xi]]; [[Dong, Guimin]]; [[Reddy, Chandan K.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.19028"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/HuXiangkun/FiSCo"
 
 ## Authors
 
-[[Xu, Weijie]], [[Wang, Yiwen]], [[Xue, Chi]], [[Hu, Xiangkun]], [[Fang, Xi]], [[Dong, Guimin]], [[Reddy, Chandan K.]]
+[[Xu, Weijie]], [[Wang, Yiwen]], [[Xue, Chi]], [[Hu, Xiangkun]], [[Fang, Xi]], [[Dong, Guimin]], [[Reddy, Chandan K]]
 
 ## Metadata
 

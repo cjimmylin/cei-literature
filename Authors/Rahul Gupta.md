@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]]
 - [[2025-Liu-Can LLMs Grasp Implicit Cultural Values|Can LLMs Grasp Implicit Cultural Values?]]
 - [[2023-Li-On the steerability of large language models|On the steerability of large language models]] (Last Author)
@@ -26,5 +28,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: jhuan236@jh.edu
+- *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: jhuan236@jh.edu
 - *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: bwjiang@seas.upenn.edu
 [Additional context or contact information]

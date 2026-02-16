@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0426
 type: preprint
 short_title: "SEADialogues A Multilingual Culturally Grounded Multi-turn"
 year: 2025
-first_author: "[[Al, Muhammad Alif]]"
-last_author: "[[Indra, Genta]]"
-authors: "[[Al, Muhammad Alif]]; [[Satria, Maxalmina]]; [[Fikri, Alham]]; [[Indra, Genta]]"
-authors_incomplete: true
+first_author: "[[Kautsar, Muhammad Dehan Al]]"
+last_author: "[[Winata, Genta Indra]]"
+authors: "[[Kautsar, Muhammad Dehan Al]]; [[Candra, Aswin]]; [[Hakim, Muhammad Alif Al]]; [[Kahfi, Maxalmina Satria]]; [[Koto, Fajri]]; [[Aji, Alham Fikri]]; [[Limkonchotiwat, Peerat]]; [[Chuangsuwanich, Ekapol]]; [[Winata, Genta Indra]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07069"
 external_pdf: "https://arxiv.org/pdf/2508.07069.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indonesian, Thai, Vietnamese, Filipino, Malaysian, Burmese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Al, Muhammad Alif]], [[Satria, Maxalmina]], [[Fikri, Alham]], [[Indra, Genta]]
+[[Kautsar, Muhammad Dehan Al]], [[Candra, Aswin]], [[Hussein M. Al|Hakim, Muhammad Alif Al]], [[Kahfi, Maxalmina Satria]], [[Koto, Fajri]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]], [[Chuangsuwanich, Ekapol]], [[Genta Indra Winata|Winata, Genta Indra]]
 
 ## Metadata
 
-**Authors:** Muhammad Alif Al; Maxalmina Satria; Alham Fikri; Genta Indra
+**Authors:** Kautsar, Muhammad Dehan Al; Candra, Aswin; Hakim, Muhammad Alif Al; Kahfi, Maxalmina Satria; Koto, Fajri; Aji, Alham Fikri; Limkonchotiwat, Peerat; Chuangsuwanich, Ekapol; Winata, Genta Indra
 
 **Year:** 2025
 

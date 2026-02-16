@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: journalArticle
 short_title: "Large language models are biased — local initiatives are fighting for change"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"
 url: "https://www.nature.com/articles/d41586-025-03891-y"
 publication: Nature
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +46,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Adnan Masood, Ph]]
+[[Ph Adnan Masood]]
 
 ## Metadata
 

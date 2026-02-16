@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1007/s43681-025-00703-x
 url: "https://link.springer.com/10.1007/s43681-025-00703-x"
 external_pdf: "https://doi.org/10.1007/s43681-025-00703-x"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Meta-ethical critique arguing that establishing a universal '
 significance: "Challenges the industry's rush toward standardized 'ethics scores', proposing instead that we must explicitly measure 'value alignment' (which acknowledges specific, relative value systems) rather than a generic notion of 'ethics'."
 tags: 
 abstract: "Benchmarks are seen as the cornerstone for measuring technical progress in artificial intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to emotion recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the 'ethicality' of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to devel"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

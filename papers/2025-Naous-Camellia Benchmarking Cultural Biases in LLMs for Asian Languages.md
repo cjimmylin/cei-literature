@@ -10,7 +10,7 @@ type: preprint
 short_title: "Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages"
 year: 2025
 first_author: "[[Tarek Naous]]"
-last_author: "[[Wei Xu]]"
+last_author: "[[Wei Xu Yuki Arase]]"
 authors: Tarek Naous, Anagha Savit, Carlos Rafael Catalan, Geyang Guo, Jaehyeok Lee, Kyungdon Lee, Lheane Marie Dizon, Mengyu Ye, Neel Kothari, Sahajpreet Singh, Sarah Masud, Tanish Patwa, Trung Thanh Tran, Zohaib Khan, Alan Ritter, JinYeong Bak, Keisuke Sakaguchi, Tanmoy Chakraborty, Yuki Arase, Wei Xu
 url: "https://arxiv.org/abs/2510.05291"
 external_pdf: "https://arxiv.org/pdf/2510.05291.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Tarek Naous, Anagha Savit, Carlos Rafael Catalan, Geyang Guo, Jaehyeok Lee, Kyungdon Lee, Lheane Marie Dizon, Mengyu Ye, Neel Kothari, Sahajpreet Singh, Sarah Masud, Tanish Patwa, Trung Thanh Tran, Zohaib Khan, Alan Ritter, JinYeong Bak, Keisuke Sakaguchi, Tanmoy Chakraborty, Yuki Arase, Wei Xu]]
+[[Anagha Savit Tarek Naous]], [[Geyang Guo Carlos Rafael Catalan]], [[Kyungdon Lee Jaehyeok Lee]], [[Mengyu Ye Lheane Marie Dizon]], [[Sahajpreet Singh Neel Kothari]], [[Tanish Patwa Sarah Masud]], [[Zohaib Khan Trung Thanh Tran]], [[JinYeong Bak Alan Ritter]], [[Tanmoy Chakraborty Keisuke Sakaguchi]], [[Wei Xu Yuki Arase]]
 
 ## Metadata
 

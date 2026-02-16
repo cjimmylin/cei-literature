@@ -33,10 +33,18 @@ Hao Chen is a 4th-year PhD candidate at Carnegie Mellon University, advised by P
 ## Papers in this Vault
 
 
+
+
+- [[2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic|SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset]]
+- [[2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large|OmniEduBench: A Comprehensive Chinese Benchmark for Evaluating Large Language Models in Education]]
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic*: Affiliation: laboration framework specifically designed for efficient and
+- *From 2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic*: Affiliation: laboration framework specifically designed for efficient and
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 Research focuses on data-centric approaches to foundation model development and evaluation.

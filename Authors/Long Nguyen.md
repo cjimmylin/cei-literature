@@ -1,7 +1,7 @@
 ---
 name: "Long Nguyen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Laboratory, Faculty of"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,14 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Nguyen-VM14K First Vietnamese Medical Benchmark|VM14K First Vietnamese Medical Benchmark]]
+
+- [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]] (Last Author)
+- [[2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified|ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model]] (First Author)
+- [[2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large|ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models]] (Last Author)
+- [[2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese|PhoGPT: Generative Pre-training for Vietnamese]] (First Author)
+- [[2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and|SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese]] (First Author)
+- [[2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media|Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +88,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

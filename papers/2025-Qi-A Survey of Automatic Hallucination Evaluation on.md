@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.48550/arXiv.2404.12041
 url: "http://arxiv.org/abs/2404.12041"
 external_pdf: "http://arxiv.org/pdf/2404.12041.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Qi-A Survey of Automatic Hallucination Eval
 abstract: "The rapid advancement of Large Language Models (LLMs) has brought a pressing challenge: how to reliably assess hallucinations to guarantee model trustworthiness. Although Automatic Hallucination Evaluation (AHE) has become an indispensable component of this effort, the field remains fragmented in its methodologies, limiting both conceptual clarity and practical progress. This survey addresses this critical gap through a systematic analysis of 105 evaluation methods, revealing that 77."
 paper_summary: "Abstract: The rapid advancement of Large Language Models (LLMs) has brought a pressing challenge: how to reliably assess hallucinations to guarantee model trustworthiness. Although Automatic Hallucination Evalu | Overview: A Survey of Automatic Hallucination Evaluation on Natural Language Generation Siya Qi siya.qi@kcl.ac.uk King's College London Lin Gui lin.1.gui@kcl.ac.uk King's College London Yulan He yulan.he@kcl.ac | Methodology: Metric SF WF Before LLM Era Factacc WikiFact Wikipedia, Wikidata KB Triplet Summ Transformer Triplet Extraction P, R, F1 ✓ ✗ FactCC FactCC CNN/DM, XSu | Key Findings: in NLG. The search was performed across multiple sources covering the period from January 2020 to July 2025. Specifically, we queried DBLP2 as our pri | Conclusions: (Wang et al., 2025)."
 local_pdf: "[[PDFs/2025/2025-Qi-A Survey of Automatic Hallucination Evaluation on.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

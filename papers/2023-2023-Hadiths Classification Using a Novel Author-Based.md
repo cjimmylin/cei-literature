@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Hadiths Classification Using a Novel Author-Based"
 year: 2025
 first_author: "[[2023), Multiple (MDPI Big Data and Cognitive Computing]]"
-last_author: "[[2023), Multiple (MDPI Big Data and Cognitive Computing]]"
+last_author: "[[Cognitive Computing 2023)]]"
 authors: "[[Multiple (MDPI Big Data]]; [[Cognitive Computing 2023)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Multiple (MDPI Big Data and Cognitive Computing 2023)]]
+[[Multiple (MDPI Big Data]], [[Cognitive Computing 2023)]]
 
 ## Metadata
 

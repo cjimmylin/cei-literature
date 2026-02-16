@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "AfriMTEB and AfriE5 Benchmarking and Adapting"
 year: 2025
 first_author: "[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]"
-last_author: "[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]"
+last_author: "[[David Ifeoluwa Adelani]]"
 authors: "[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.23896"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]
+[[Kosei Uemura]], [[Miaoran Zhang]], [[David Ifeoluwa Adelani]]
 
 ## Metadata
 

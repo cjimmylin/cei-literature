@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://link.springer.com/article/10.1007/s10462-024-10732-3"
 external_pdf: "https://arxiv.org/pdf/2302.04218.pdf"
 publication: "Artificial Intelligence Review"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2024/2024-Stenseke-Computational Complexity of Ethics
 abstract: "Why should moral philosophers, moral psychologists, and machine ethicists care about computational complexity? Debates on whether artiﬁcial intelligence (AI) can or should be used to solve problems in ethical domains have mainly been driven by what AI can or cannot do in terms of human capacities. In this paper, we tackle the problem from the other end by exploring what kind of moral machines are possible based on what computational systems can or cannot do."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"

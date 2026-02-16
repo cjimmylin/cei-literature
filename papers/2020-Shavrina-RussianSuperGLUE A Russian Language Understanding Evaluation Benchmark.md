@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark"
 year: 2025
 first_author: "[[Tatiana Shavrina]]"
-last_author: "[[Andrey Evlampiev]]"
+last_author: "[[Andrey Evlampiev Andrey Chertok]]"
 authors: "Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev"
 doi: 10.18653/v1/2020.emnlp-main.381
 url: "https://arxiv.org/abs/2010.15925"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 languages_list: Russian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev]]
+[[Alena Fenogenova Tatiana Shavrina]], [[Denis Shevelev Emelyanov Anton]], [[Valentin Malykh Ekaterina Artemova]], [[Maria Tikhonova Vladislav Mikhailov]], [[Andrey Evlampiev Andrey Chertok]]
 
 ## Metadata
 

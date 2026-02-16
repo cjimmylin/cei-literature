@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "CultureLLM Incorporating Cultural Differences into Large"
 year: 2025
 first_author: "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]"
-last_author: "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]"
+last_author: "[[Xing Xie]]"
 authors: "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2402.10946"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]
+[[Cheng Li]], [[Mengzhou Chen]], [[Jindong Wang]], [[Sunayana Sitaram]], [[Xing Xie]]
 
 ## Metadata
 

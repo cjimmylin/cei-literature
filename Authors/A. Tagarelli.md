@@ -1,7 +1,7 @@
 ---
 name: "A. Tagarelli"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Calabria, Italy"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Zangari-A survey on moral foundation theory and pre-trained language models|A survey on moral foundation theory and pre-trained language models]]
+
+- [[2026-Tagarelli-Culturally Grounded Personas in Large Language Models|Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Tagarelli-Culturally Grounded Personas in Large Language Models*: Affiliation: University of Calabria, Italy
+- *From 2026-Tagarelli-Culturally Grounded Personas in Large Language Models*: Affiliation: University of Calabria, Italy
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

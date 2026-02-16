@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Notes
 
 
+
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 [Additional context or contact information]

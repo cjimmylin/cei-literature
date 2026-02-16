@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
+cultures_nationalities_list: "Filipino"
 languages_list: "Cebuano, Filipino/Tagalog"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Lester James V. Miranda]], [[Elyanah Aco]], [[Conner Manuel]], [[Jan Christian Blaise Cruz]], [[Joseph Marvin Imperial]]
+[[Miranda, Lester James V]], [[Aco, Elyanah]], [[Manuel, Conner]], [[Cruz, Jan Christian Blaise]], [[Joseph Marvin Imperial|Imperial, Joseph Marvin]]
 
 ## Metadata
 

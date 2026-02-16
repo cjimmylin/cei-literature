@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,13 +18,14 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042037/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11042037&blobtype=pdf"
 publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md"
-local_pdf: "N/A"
+local_pdf: "[[PDFs/2025/2025-Unknown-A survey on multi-lingual offensive language detection - PMC.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Multilingual/Cross-cultural"
 languages_list: "English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

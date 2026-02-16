@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://github.com/sahoonihar/IndiBias"
 
 ## Authors
 
-[[Sahoo, Nihar Ranjan]], [[Kulkarni, Pranamya Prashant]], [[Asad, Narjis]], [[Ahmad, Arif]], [[Goyal, Tanu]], [[Garimella, Aparna]], [[Bhattacharyya, Pushpak]]
+[[Sahoo, Nihar Ranjan]], [[Kulkarni, Pranamya Prashant]], [[Asad, Narjis]], [[Ahmad, Arif]], [[Goyal, Tanu]], [[Garimella, Aparna]], [[Pushpak Bhattacharyya|Bhattacharyya, Pushpak]]
 
 ## Metadata
 

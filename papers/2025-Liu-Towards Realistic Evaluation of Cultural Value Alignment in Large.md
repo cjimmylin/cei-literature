@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
+cultures_nationalities_list: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Unknown]]
+[[Haijiang Liu]], [[Yong Cao]], [[Xun Wu]], [[Chen Qiu]], [[Jinguang Gu]], [[Maofu Liu]], [[Daniel Hershcovich]]
 
 ## Metadata
 

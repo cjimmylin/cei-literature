@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0214
 type: preprint
 short_title: "Sabiá-2: A New Generation of Portuguese Large Language Models"
 year: 2025
-first_author: "[[Pires, Ramon]]"
+first_author: "[[Almeida, Thales Sales]]"
 last_author: "[[Pires, Ramon]]"
-authors: "[[Pires, Ramon]]"
-authors_incomplete: true
+authors: "[[Almeida, Thales Sales]]; [[Abonizio, Hugo]]; [[Nogueira, Rodrigo]]; [[Pires, Ramon]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.09887"
 external_pdf: "https://arxiv.org/pdf/2403.09887.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American, Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Other"
 
 ## Authors
 
-[[Ramon Pires, et al.]]
+[[Almeida, Thales Sales]], [[Abonizio, Hugo]], [[Nogueira, Rodrigo]], [[Pires, Ramon]]
 
 ## Metadata
 
-**Authors:** Ramon Pires, et al.
+**Authors:** Almeida, Thales Sales; Abonizio, Hugo; Nogueira, Rodrigo; Pires, Ramon
 
 **Year:** 2024
 

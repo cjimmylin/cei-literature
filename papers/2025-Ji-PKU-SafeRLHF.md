@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Ji, Jiaming]], [[Hong, Donghai]], [[Zhang, Borong]], [[Chen, Boyuan]], [[Dai, Juntao]], [[Zheng, Boren]], [[Qiu, Tianyi]], [[Zhou, Jiayi]], [[Wang, Kaile]], [[Li, Boxuan]], [[Han, Sirui]], [[Guo, Yike]], [[Yang, Yaodong]]
+[[Jiaming Ji|Ji, Jiaming]], [[Donghai Hong|Hong, Donghai]], [[Borong Zhang|Zhang, Borong]], [[Boyuan Chen|Chen, Boyuan]], [[Juntao Dai|Dai, Juntao]], [[Zheng, Boren]], [[Tianyi Qiu|Qiu, Tianyi]], [[Jiayi Zhou|Zhou, Jiayi]], [[Kaile Wang|Wang, Kaile]], [[Li, Boxuan]], [[Sirui Han|Han, Sirui]], [[Yike Guo|Guo, Yike]], [[Yaodong Yang|Yang, Yaodong]]
 
 ## Metadata
 

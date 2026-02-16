@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2024-Phyo-Development and Evaluation of Myanmar GPT.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Min Si Thu, Pyae Sone Phyo]]",
+    "year": "2024",
+    "doi": "10.2139/ssrn.4871732",
+    "url": "https://doi.org/10.2139/ssrn.4871732",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md",
+    "has_extract": true,
+    "authors": "Matus Pikuliak, Andrea Hrckova, Stefan Oresko, Marian Simko",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.18711",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[Almeida, Thales Sales]]; [[Abonizio, Hugo]]; [[Nogueira, Rodrigo]]; [[Pires, Ramon]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.09887",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md",
+    "has_extract": true,
+    "authors": "Giada Pistilli, Alina Leidinger, Yacine Jernite, Atoosa Kasirzadeh, Alexandra Sasha Luccioni, Margaret Mitchell",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2405.13974",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Porkaew-Representing the Under-Represented Cultural and Core.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.md",
+    "has_extract": true,
+    "authors": "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.04795",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md",
+    "has_extract": true,
+    "authors": "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.10489",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md",
+    "has_extract": true,
+    "authors": "[[Ptaszynski, Michal]]; [[Pieciukiewicz, Agata]]; [[Dybala, Pawel]]; [[Skrzek, Pawel]]; [[Soliwoda, Kamil]]; [[Fortuna, Marcin]]; [[Leliwa, Gniewosz]]; [[Wroczynski, Michal]]",
+    "year": "2025",
+    "doi": "10.3390/data9010001",
+    "url": "https://www.mdpi.com/2306-5729/9/1/1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Published in Sadhana journal-Transformer-based Pouranic Topic Classification in Indian.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[(Published in Sadhana journal, 2024]]; [[specific author names not confirmed via search)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.md",
+    "has_extract": true,
+    "authors": "[[Putri, Rifki Afina]]; [[Haznitrama, Faiz Ghifari]]; [[Adhista, Dea]]; [[Oh, Alice]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.17302",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md",
+    "has_extract": true,
+    "authors": "Zhaozhi Qian, Faroq Altam, Muhammad Alqurishi, Riad Souissi",
+    "year": "2024",
+    "doi": "10.48550/arXiv.2409.12623",
+    "url": "https://arxiv.org/abs/2409.12623",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Dung Nguyen Quang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.md",
+    "has_extract": true,
+    "authors": "Sunny Rai, Khushang Jilesh Zaveri, Shreya Havaldar, Soumna Nema, Lyle Ungar, Sharath Chandra Guntuku",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.11333",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md",
+    "has_extract": true,
+    "authors": "[[Ranasinghe, Tharindu]]; [[Anuradha, Isuri]]; [[Premasiri, Damith]]; [[Silva, Kanishka]]; [[Hettiarachchi, Hansi]]; [[Uyangodage, Lasitha]]; [[Zampieri, Marcos]]",
+    "year": "2025",
+    "doi": "10.1007/s10579-024-09723-1",
+    "url": "https://link.springer.com/article/10.1007/s10579-024-09723-1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Rehm-Investigating Gender Bias in Turkish Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.md",
+    "has_extract": true,
+    "authors": "[[Orhun Caglidil, Malte Ostendorff, Georg Rehm]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.11726",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Religions-The Use of Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Religions-The Use of Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[(Authors from MDPI Religions)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md",
+    "has_extract": true,
+    "authors": "[[Research, Vision]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.alvr-1.15/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md",
+    "has_extract": true,
+    "authors": "[[Romanou, Angelika]]; [[Foroutan, Negar]]; [[Sotnikova, Anna]]; [[Chen, Zeming]]; [[Nelaturu, Sree Harsha]]; [[Singh, Shivalika]]; [[Maheshwary, Rishabh]]; [[Altomare, Micol]]; [[Haggag, Mohamed A.]]; [[A, Snegha]]; [[Amayuelas, Alfonso]]; [[Amirudin, Azril Hafizi]]; [[Aryabumi, Viraat]]; [[Boiko, Danylo]]; [[Chang, Michael]]; [[Chim, Jenny]]; [[Cohen, Gal]]; [[Dalmia, Aditya Kumar]]; [[Diress, Abraham]]; [[Duwal, Sharad]]; [[Dzenhaliou, Daniil]]; [[Florez, Daniel Fernando Erazo]]; [[Farestam, Fabian]]; [[Imperial, Joseph Marvin]]; [[Islam, Shayekh Bin]]; [[Isotalo, Perttu]]; [[Jabbarishiviari, Maral]]; [[Karlsson, Börje F.]]; [[Khalilov, Eldar]]; [[Klamm, Christopher]]; [[Koto, Fajri]]; [[Krzemiński, Dominik]]; [[Melo, Gabriel Adriano de]]; [[Montariol, Syrielle]]; [[Nan, Yiyang]]; [[Niklaus, Joel]]; [[Novikova, Jekaterina]]; [[Ceron, Johan Samir Obando]]; [[Paul, Debjit]]; [[Ploeger, Esther]]; [[Purbey, Jebish]]; [[Rajwal, Swati]]; [[Ravi, Selvan Sunitha]]; [[Rydell, Sara]]; [[Santhosh, Roshan]]; [[Sharma, Drishti]]; [[Skenduli, Marjana Prifti]]; [[Moakhar, Arshia Soltani]]; [[Moakhar, Bardia Soltani]]; [[Tamir, Ran]]; [[Tarun, Ayush Kumar]]; [[Wasi, Azmine Toushik]]; [[Weerasinghe, Thenuka Ovin]]; [[Yilmaz, Serhan]]; [[Zhang, Mike]]; [[Schlag, Imanol]]; [[Fadaee, Marzieh]]; [[Hooker, Sara]]; [[Bosselut, Antoine]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.19799",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.md",
+    "has_extract": true,
+    "authors": "[[Romero, David]]; [[Lyu, Chenyang]]; [[Wibowo, Haryo Akbarianto]]; [[Lynn, Teresa]]; [[Hamed, Injy]]; [[Kishore, Aditya Nanda]]; [[Mandal, Aishik]]; [[Dragonetti, Alina]]; [[Abzaliev, Artem]]; [[Tonja, Atnafu Lambebo]]; [[Balcha, Bontu Fufa]]; [[Whitehouse, Chenxi]]; [[Salamea, Christian]]; [[Velasco, Dan John]]; [[Adelani, David Ifeoluwa]]; [[Meur, David Le]]; [[Villa-Cueva, Emilio]]; [[Koto, Fajri]]; [[Farooqui, Fauzan]]; [[Belcavello, Frederico]]; [[Batnasan, Ganzorig]]; [[Vallejo, Gisela]]; [[Caulfield, Grainne]]; [[Ivetta, Guido]]; [[Song, Haiyue]]; [[Ademtew, Henok Biadglign]]; [[Maina, Hernán]]; [[Lovenia, Holy]]; [[Azime, Israel Abebe]]; [[Cruz, Jan Christian Blaise]]; [[Gala, Jay]]; [[Geng, Jiahui]]; [[Ortiz-Barajas, Jesus-German]]; [[Baek, Jinheon]]; [[Dunstan, Jocelyn]]; [[Alemany, Laura Alonso]]; [[Nagasinghe, Kumaranage Ravindu Yasas]]; [[Benotti, Luciana]]; [[D'Haro, Luis Fernando]]; [[Viridiano, Marcelo]]; [[Estecha-Garitagoitia, Marcos]]; [[Cabrera, Maria Camila Buitrago]]; [[Rodríguez-Cantelar, Mario]]; [[Jouitteau, Mélanie]]; [[Mihaylov, Mihail]]; [[Imam, Mohamed Fazli Mohamed]]; [[Adilazuarda, Muhammad Farid]]; [[Gochoo, Munkhjargal]]; [[Otgonbold, Munkh-Erdene]]; [[Etori, Naome]]; [[Niyomugisha, Olivier]]; [[Silva, Paula Mónica]]; [[Chitale, Pranjal]]; [[Dabre, Raj]]; [[Chevi, Rendi]]; [[Zhang, Ruochen]]; [[Diandaru, Ryandito]]; [[Cahyawijaya, Samuel]]; [[Góngora, Santiago]]; [[Jeong, Soyeong]]; [[Purkayastha, Sukannya]]; [[Kuribayashi, Tatsuki]]; [[Clifford, Teresa]]; [[Jayakumar, Thanmay]]; [[Torrent, Tiago Timponi]]; [[Ehsan, Toqeer]]; [[Araujo, Vladimir]]; [[Kementchedjhieva, Yova]]; [[Burzo, Zara]]; [[Lim, Zheng Wei]]; [[Yong, Zheng Xin]]; [[Ignat, Oana]]; [[Nwatu, Joan]]; [[Mihalcea, Rada]]; [[Solorio, Thamar]]; [[Aji, Alham Fikri]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.05967",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-SUTD-Sailor Open Language Models for South-East.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-East.md",
+    "has_extract": true,
+    "authors": "[[Dou, Longxu]]; [[Liu, Qian]]; [[Zeng, Guangtao]]; [[Guo, Jia]]; [[Zhou, Jiahui]]; [[Lu, Wei]]; [[Lin, Min]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.03608",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Sadhu-Social Bias in Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sadhu-Social Bias in Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[Sadhu, Saha,]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.03536",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Beksultan Sagyndyk, Sanzhar Murzakhmetov, Sanzhar Umbet, Kirill Yakunin",
+    "year": "2024",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md",
+    "has_extract": true,
+    "authors": "[[Sahoo, Nihar Ranjan]]; [[Beria, Gyana Prakash]]; [[Bhattacharyya, Pushpak]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30237",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Saito-Why We Build Local Large Language Models An Observational Analysis.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Saito-Why We Build Local Large Language Models An Observational Analysis.md",
+    "has_extract": true,
+    "authors": "Koshiro Saito, Sakae Mizuki, Masanari Ohi, Taishi Nakamura, Taihei Shiotani, Koki Maeda, Youmi Ma, Kakeru Hattori, Kazuki Fujii, Takumi Okamoto, Shigeki Ishida, Hiroya Takamura, Rio Yokota, Naoaki Okazaki",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.14471",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Saketos-The Large Language Model GreekLegalRoBERTa.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.md",
+    "has_extract": true,
+    "authors": "[[Saketos, Vasileios]]; [[Pantazi, Despina-Athanasia]]; [[Koubarakis, Manolis]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.12852",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Sang-CDEval A Benchmark for Measuring the.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sang-CDEval A Benchmark for Measuring the.md",
+    "has_extract": true,
+    "authors": "[[Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie, Jitao Sang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.16421",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md",
+    "has_extract": true,
+    "authors": "[[Schmeisser-Nieto]]",
+    "year": "2025",
+    "doi": "",
+    "url": "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6620",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md",
+    "has_extract": true,
+    "authors": "[[Arda Yuksel, Abdullatif Koksal, Lutfi Kerem Senel, Anna Korhonen, Hinrich Schutze]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.12402",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md",
+    "has_extract": true,
+    "authors": "[[Semenova, Lesia]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.14647",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md",
+    "has_extract": true,
+    "authors": "Agrima Seth, Sanchit Ahuja, Kalika Bali, Sunayana Sitaram",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.14651",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+    "has_extract": true,
+    "authors": "Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigatu, Gashaw Gebremeskel, Zewdie Mossie, Hussien Seid, Seid Yimam",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.gitt-1.1/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md",
+    "has_extract": true,
+    "authors": "Gautam Kishore Shahi, Tim A. Majchrzak",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.05287",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md",
+    "has_extract": true,
+    "authors": "Weiyan Shi, Ryan Li, Yutong Zhang, Caleb Ziems, Chunhua Yu, Raya Horesh, Rogerio Abreu de Paula, Diyi Yang",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.15238",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Silano-Towards Abundant Intelligences Considerations for Indigenous.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Julia A. Silano",
+    "year": "2024",
+    "doi": "10.1177/08404704241257144",
+    "url": "https://journals.sagepub.com/doi/10.1177/08404704241257144",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md",
+    "has_extract": true,
+    "authors": "[[Jhessica Silva]]; [[Diego A. B. Moreira]]; [[Gabriel O. dos Santos]]; [[Alef Ferreira]]; [[Helena Maia]]; [[Sandra Avila]]; [[Helio Pedrini]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.15791",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model.md",
+    "has_extract": true,
+    "authors": "Mariana O. Silva; Michele A. Brandão; Mirella M. Moro",
+    "year": "2025",
+    "doi": "",
+    "url": "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Simpson-Parity Benchmark for Measuring Bias in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.md",
+    "has_extract": true,
+    "authors": "Stephen J. Simpson; Jonathan Nukpezah; Kie Brooks; Raaghav Pandya",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md",
+    "has_extract": true,
+    "authors": "[[Singh, Harman]]; [[Gupta, Nitish]]; [[Bharadwaj, Shikhar]]; [[Tewari, Dinesh]]; [[Talukdar, Partha]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.16816",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Singla-Samayik A Benchmark and Dataset for.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Singla-Samayik A Benchmark and Dataset for.md",
+    "has_extract": true,
+    "authors": "[[Ayush Maheshwari, Ashim Gupta, Amrith Krishna, Atul Kumar Singh, Ganesh Ramakrishnan, G. Anil Kumar, Jitin Singla]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2305.14004",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models.md",
+    "has_extract": true,
+    "authors": "Guijin Son, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim",
+    "year": "2025",
+    "doi": "10.18653/v1/2024.lrec-main.704",
+    "url": "https://arxiv.org/abs/2309.02706",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md",
+    "has_extract": true,
+    "authors": "Guijin Son, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman",
+    "year": "2025",
+    "doi": "10.18653/v1/2025.naacl-long.206",
+    "url": "https://arxiv.org/abs/2402.11548",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md",
+    "has_extract": true,
+    "authors": "Guijin Son, Hyunwoo Ko, Hoyoung Lee, Yewon Kim, Seunghyeok Hong",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2409.11239",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md",
+    "has_extract": true,
+    "authors": "[[Son, Guijin]]; [[Yoon, Dongkeun]]; [[Suk, Juyoung]]; [[Aula-Blasco, Javier]]; [[Aslan, Mano]]; [[Kim, Vu Trong]]; [[Islam, Shayekh Bin]]; [[Prats-Cristià, Jaume]]; [[Tormo-Bañuelos, Lucía]]; [[Kim, Seungone]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.17578",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md",
+    "has_extract": true,
+    "authors": "[[Jiayang Song]]; [[Yuheng Huang]]; [[Zhehua Zhou]]; [[Lei Ma]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.07342",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+    "has_extract": true,
+    "authors": "[[Songyuan Liu,]]; [[5 others]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.11647",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Staps-Large Language Models and Biblical Hebrew.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Staps-Large Language Models and Biblical Hebrew.md",
+    "has_extract": true,
+    "authors": "[[Camil Staps]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Sun-1 Benchmarking GPT-4 against Human Translators A.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Sun-1 Benchmarking GPT-4 against Human Translators A.md",
+    "has_extract": true,
+    "authors": "Rui Sun",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/pdf/2411.13775",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+    "has_extract": true,
+    "authors": "[[Susanto, Lucky]]; [[Wijanarko, Musa Izzanardi]]; [[Pratama, Prasetia Anugrah]]; [[Hong, Traci]]; [[Idris, Ika]]; [[Aji, Alham Fikri]]; [[Wijaya, Derry]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.19349",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md",
+    "has_extract": true,
+    "authors": "[[Tahir, Munief Hassan]]; [[Shams, Sana]]; [[Fiaz, Layba]]; [[Adeeba, Farah]]; [[Hussain, Sarmad]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2405.15453",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model.md",
+    "has_extract": true,
+    "authors": "Zhi-Rui Tam, Ya-Ting Pai, Yen-Wei Lee, Jun-Da Chen, Wei-Min Chu, Sega Cheng, Hong-Han Shuai",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.01858",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.md",
+    "has_extract": true,
+    "authors": "[[Taulé, Mariona]]; [[Nofre, Montserrat]]; [[Bargiela, Víctor]]; [[Bonet, Xavier]]",
+    "year": "2025",
+    "doi": "10.1007/s10579-023-09711-x",
+    "url": "https://link.springer.com/article/10.1007/s10579-023-09711-x",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Team-Bielik 7B v0.1 A Polish Language Model - Development Insights and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Team-Bielik 7B v0.1 A Polish Language Model - Development Insights and.md",
+    "has_extract": true,
+    "authors": "The Bielik LLM Team",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.18565",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Tharnpipitchai-Typhoon 2 A Family of Open.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tharnpipitchai-Typhoon 2 A Family of Open.md",
+    "has_extract": true,
+    "authors": "[[Kunat Pipatanakul, Potsawee Manakul, Natapong Nitarach, Warit Sirichotedumrong, Surapon Nonesung, Teetouch Jaknamon, Parinthapat Pengpun, Pittawat Taveekitworachai, Adisai Na-Thalang, Sittipong Sripaisarnmongkol, Krisanapong Jirayoot, Kasima Tharnpipitchai]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.13702",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md",
+    "has_extract": true,
+    "authors": "[[Thellmann, Klaudia]]; [[Stadler, Bernhard]]; [[Fromm, Michael]]; [[Buschhoff, Jasper Schulze]]; [[Jude, Alex]]; [[Barth, Fabio]]; [[Leveling, Johannes]]; [[Flores-Herr, Nicolas]]; [[Köhler, Joachim]]; [[Jäkel, René]]; [[Ali, Mehdi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.08928",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Min Si Thu, Pyae Sone Phyo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Kyaw Yet Thu et al.",
+    "year": "2024",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/kyawyethu/MixCuBe",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md",
+    "has_extract": true,
+    "authors": "[[Tonneau, Manuel]]; [[Liu, Diyi]]; [[Fraiberger, Samuel]]; [[Schroeder, Ralph]]; [[Hale, Scott A.]]; [[Röttger, Paul]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.17874",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md",
+    "has_extract": true,
+    "authors": "[[Tonneau, Manuel]]; [[Liu, Diyi]]; [[Malhotra, Niyati]]; [[Hale, Scott A.]]; [[Fraiberger, Samuel P.]]; [[Orozco-Olvera, Victor]]; [[Röttger, Paul]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.15462",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Tonneau-Turkish Hate Speech Superset Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Tonneau-Turkish Hate Speech Superset Dataset.md",
+    "has_extract": true,
+    "authors": "[[Tonneau, Manuel]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset",
+    "body_richness": "thin"
+  }
+]

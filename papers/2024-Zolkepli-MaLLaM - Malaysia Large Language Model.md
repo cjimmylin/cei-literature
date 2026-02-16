@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "MaLLaM -- Malaysia Large Language Model"
 year: 2025
 first_author: "[[Husein Zolkepli]]"
-last_author: "[[Aisyah Razak]]"
+last_author: "[[Aisyah Razak Husein Zolkepli]]"
 authors: "Husein Zolkepli, Aisyah Razak"
 url: "https://arxiv.org/abs/2401.14680"
 external_pdf: "https://arxiv.org/pdf/2401.14680.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Malaysian"
 languages_list: Malay
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Husein Zolkepli, Aisyah Razak]]
+[[Aisyah Razak Husein Zolkepli]]
 
 ## Metadata
 

@@ -35,6 +35,8 @@ Daniel L. Chen is a Professor at Toulouse School of Economics and directs resear
 
 ## Papers in this Vault
 
+
+
 - [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences|Aligning LLM Agents with Rational and Kantian Preferences]]
 - [[2020-Mainali-Automated Classification of Modes of Moral|Automated Classification of Modes of Moral]] (Last Author)
 

@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2024-Wang-Fake Alignment FINE Framework|Fake Alignment (FINE Framework)]] (First Author)
+
+
+- [[2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large|LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models]]
 - [[2023-Huang-Flames|Flames]]
 
 ## Notes
 
 
+
+
+- *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
+- *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 - *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 [Additional context or contact information]

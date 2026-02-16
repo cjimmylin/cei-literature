@@ -43,7 +43,7 @@ abstract: "Despite the growing utility of Large Language Models (LLMs) for simul
 
 ## Authors
 
-[[Andrea Tagarelli]]
+[[A. Tagarelli|Andrea Tagarelli]]
 
 ## Metadata
 

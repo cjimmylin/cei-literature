@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "GreekBarBench: A Challenging Benchmark for Free-Text Legal Reasoning and Citations"
 year: 2025
 first_author: "[[Odysseas S. Chlapanis]]"
-last_author: "[[Ion Androutsopoulos]]"
+last_author: "[[Ion Androutsopoulos Nikolaos Aletras]]"
 authors: "Odysseas S. Chlapanis, Dimitrios Galanis, Nikolaos Aletras, Ion Androutsopoulos"
 url: "https://arxiv.org/abs/2505.17267"
 external_pdf: "https://arxiv.org/pdf/2505.17267.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Odysseas S. Chlapanis, Dimitrios Galanis, Nikolaos Aletras, Ion Androutsopoulos]]
+[[Dimitrios Galanis Odysseas S. Chlapanis]], [[Ion Androutsopoulos Nikolaos Aletras]]
 
 ## Metadata
 

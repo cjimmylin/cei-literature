@@ -1,4 +1,6 @@
 ---
+
+
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -13,6 +15,7 @@ url: "https://arxiv.org/abs/2601.05437"
 pdf_extract: "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md"
 local_pdf: "[[PDFs/2026/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes
@@ -21,6 +24,7 @@ key_contribution: "Uses Moral Foundations Theory with mechanistic interpretabili
 significance: "Demonstrates moral understanding in LLMs emerges as latent pattern from language statistics, not mimicry"
 external_pdf: "https://arxiv.org/pdf/2601.05437"
 abstract: "The researchers investigated whether LLMs genuinely encode moral reasoning or merely replicate surface-level moral language. Employing Moral Foundations Theory as their analytical lens, they examined two instruction-tuned models using three complementary techniques: layer-specific analysis of moral concept representations, sparse autoencoders to identify features supporting moral reasoning, and causal interventions via steering. Their findings demonstrate that both models represent moral foundations in a structured, layer-dependent way that aligns with human judgments, with sparse features showing semantic connections to specific moral domains. The work suggests moral understanding in LLMs emerges as a latent pattern from the statistical regularities of language alone rather than mimicry."
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: No
 deontological_ethics: No

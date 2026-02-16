@@ -21,10 +21,16 @@ Anand Kannappan is a Research Scientist at Patronus AI, focusing on evaluation m
 ## Papers in this Vault
 
 
+
+
 - [[2025-Deshpande-TRAIL|TRAIL]]
 
 ## Notes
 
 
+
+
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 Works on developing robust evaluation methods for agentic AI systems at Patronus AI.

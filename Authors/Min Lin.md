@@ -1,9 +1,9 @@
 ---
 name: "Min Lin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "ymcui@ir.hit.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Wang-Large and Small models for collaborative cross-lingual data|Large and Small models for collaborative cross-lingual data]]
+
+- [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]] (Last Author)
+- [[2022-Yang-CINO A Chinese Minority Pre-trained Language Model|CINO: A Chinese Minority Pre-trained Language Model]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
+- *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -1,9 +1,9 @@
 ---
 name: "Zae Myung Kim"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Minnesota, 2Grammarly"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "vipul.raheja@grammarly.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Guo-COBBLER|COBBLER]]]]
+
 
 - [[2023-Guo-COBBLER|COBBLER]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
+- *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

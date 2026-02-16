@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Fabricated Hadith Detection A Novel Matn-Based"
 year: 2025
 first_author: "[[Kamel Gaanoun, Mohammed Alsuhaibani]]"
-last_author: "[[Kamel Gaanoun, Mohammed Alsuhaibani]]"
+last_author: "[[Mohammed Alsuhaibani Kamel Gaanoun]]"
 authors: "[[Kamel Gaanoun, Mohammed Alsuhaibani]]"
 authors_incomplete: false
 url: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Kamel Gaanoun, Mohammed Alsuhaibani]]
+[[Mohammed Alsuhaibani Kamel Gaanoun]]
 
 ## Metadata
 

@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models|LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)]] (First Author)
+
+
 - [[2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models|LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction]]
 
 ## External Links & Profiles
@@ -84,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
+- *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 - *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

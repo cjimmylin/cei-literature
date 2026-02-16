@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Pisano-Moral High Ground|Moral High Ground]]
 
 ## Notes

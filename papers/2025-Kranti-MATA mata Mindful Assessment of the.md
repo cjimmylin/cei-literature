@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "MATA mata Mindful Assessment of the"
 year: 2025
 first_author: "[[Kranti, Chalamalasetti]]"
-last_author: "[[Kranti, Chalamalasetti]]"
-authors: "[[Kranti, Chalamalasetti]]"
-authors_incomplete: true
+last_author: "[[Vajjala, Sowmya]]"
+authors: "[[Kranti, Chalamalasetti]]; [[Vajjala, Sowmya]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.13526"
 external_pdf: "https://arxiv.org/pdf/2508.13526.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Chalamalasetti Kranti]], [[and others]]
+[[Kranti, Chalamalasetti]], [[Vajjala, Sowmya]]
 
 ## Metadata
 
-**Authors:** Chalamalasetti Kranti; and others
+**Authors:** Kranti, Chalamalasetti; Vajjala, Sowmya
 
 **Year:** 2025
 

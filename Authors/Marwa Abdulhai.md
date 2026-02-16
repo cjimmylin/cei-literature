@@ -22,10 +22,17 @@ Marwa Abdulhai is a Cooperative AI PhD Fellow at UC Berkeley. She completed her 
 ## Papers in this Vault
 
 
+
+
+- [[2025-Salehi-Blind Faith User Preference and Expert|Blind Faith User Preference and Expert]]
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 [Additional context or contact information]

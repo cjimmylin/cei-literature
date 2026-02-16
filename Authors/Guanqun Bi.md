@@ -37,6 +37,8 @@ ToMBench is a systematic, automated, and original bilingual Theory of Mind (ToM)
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chen-ToMBench|ToMBench]]
 
 ## Links
@@ -47,5 +49,9 @@ ToMBench is a systematic, automated, and original bilingual Theory of Mind (ToM)
 ## Notes
 
 
+
+
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: aihuang@tsinghua.edu.cn
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 - *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 Bi's work on Theory of Mind benchmarks and character-based AI contributes to understanding how well AI systems can model human social cognition and personality.

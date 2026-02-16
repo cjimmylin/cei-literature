@@ -20,10 +20,16 @@ Soumya Barikeri is a Senior Data Scientist NLP at LangTec based in Bengaluru, In
 ## Papers in this Vault
 
 
+
+
 - [[2021-Barikeri-REDDITBIAS|REDDITBIAS]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: iv250@cam.ac.uk
+- *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: soumyabarikeri@gmail.com
 - *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: soumyabarikeri@gmail.com
 [Additional context or contact information]

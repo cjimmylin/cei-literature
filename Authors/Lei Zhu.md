@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Xu-SC-Safety|SC-Safety]]
 
 ## Notes
 
 
+
+
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 - *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 [Additional context or contact information]

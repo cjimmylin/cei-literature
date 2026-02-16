@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0728
 type: conferencePaper
 short_title: "The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Rayes, Lubana Al]]"
+last_author: "[[Elnagar, Ashraf]]"
+authors: "[[Rayes, Lubana Al]]; [[Elnagar, Ashraf]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 external_pdf: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 publication: "ACL Anthology"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Other"
 
 ## Authors
 
-[[Unknown]]
+[[Rayes, Lubana Al]], [[Elnagar, Ashraf]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Rayes, Lubana Al; Elnagar, Ashraf
 
 **Year:** 2025
 

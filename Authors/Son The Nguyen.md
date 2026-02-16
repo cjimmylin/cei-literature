@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Karra-Estimating the Personality of White-Box Language|Estimating the Personality of White-Box Language]]
 
 ## Notes
 
 
+
+
+- *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: skarra7@uic.edu
+- *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: snguye65@uic.edu
 - *From 2023-Karra-Estimating the Personality of White-Box Language*: Affiliation: labandhulaa, Email: snguye65@uic.edu
 [Additional context or contact information]

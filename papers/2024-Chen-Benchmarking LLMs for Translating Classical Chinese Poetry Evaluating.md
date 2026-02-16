@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Andong Chen]], [[Lianzhang Lou]], [[Kehai Chen]], [[Xuefeng Bai]], [[Yang Xiang]], [[Muyun Yang]], [[Tiejun Zhao]], [[Min Zhang]]
+[[Chen, Andong]], [[Lou, Lianzhang]], [[Chen, Kehai]], [[Bai, Xuefeng]], [[Xiang, Yang]], [[Yang, Muyun]], [[Zhao, Tiejun]], [[Zhang, Min]]
 
 ## Metadata
 

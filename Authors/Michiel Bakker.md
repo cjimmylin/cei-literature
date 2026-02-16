@@ -30,6 +30,8 @@ His work on "Value Profiles for Encoding Human Variation" represents an importan
 ## Papers in this Vault
 
 
+
+
 - [[2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs|OvertonScore: Benchmarking Overton Pluralism in LLMs]] (Last Author)
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
@@ -42,5 +44,9 @@ His work on "Value Profiles for Encoding Human Variation" represents an importan
 ## Notes
 
 
+
+
+- *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
+- *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 Michiel Bakker's research on value pluralism and human variation in AI alignment is particularly relevant to discussions about whose values AI systems should reflect and how to handle value disagreement.

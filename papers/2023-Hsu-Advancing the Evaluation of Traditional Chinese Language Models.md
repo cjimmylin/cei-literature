@@ -10,7 +10,7 @@ type: preprint
 short_title: "Advancing the Evaluation of Traditional Chinese Language Models: Towards a Comprehensive Benchmark Suite (TC-Eval)"
 year: 2023
 first_author: "[[Chan-Jan Hsu]]"
-last_author: "[[Da-shan Shiu]]"
+last_author: "[[Da-shan Shiu Yi-Chang Chen]]"
 authors: Chan-Jan Hsu, Chang-Le Liu, Feng-Ting Liao, Po-Chun Hsu, Yi-Chang Chen, Da-shan Shiu
 url: "https://arxiv.org/abs/2309.08448"
 external_pdf: "https://arxiv.org/pdf/2309.08448.pdf"
@@ -44,7 +44,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Chan-Jan Hsu, Chang-Le Liu, Feng-Ting Liao, Po-Chun Hsu, Yi-Chang Chen, Da-shan Shiu]]
+[[Chang-Le Liu Chan-Jan Hsu]], [[Po-Chun Hsu Feng-Ting Liao]], [[Da-shan Shiu Yi-Chang Chen]]
 
 ## Metadata
 

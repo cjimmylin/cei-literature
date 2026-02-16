@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch"
 year: 2025
 first_author: "[[Shalaka Satheesh]]"
-last_author: "[[Teena Hassan]]"
+last_author: "[[Teena Hassan Sebastian Houben]]"
 authors: "Shalaka Satheesh, Katrin Klug, Katharina Beckh, Hector Allende-Cid, Sebastian Houben, Teena Hassan"
 url: "https://arxiv.org/abs/2507.16442"
 external_pdf: "https://arxiv.org/pdf/2507.16442.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, Dutch, American"
+cultures_nationalities_list: "Dutch, French, American"
 languages_list: "Dutch, English, French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Shalaka Satheesh, Katrin Klug, Katharina Beckh, Hector Allende-Cid, Sebastian Houben, Teena Hassan]]
+[[Katrin Klug Shalaka Satheesh]], [[Hector Allende-Cid Katharina Beckh]], [[Teena Hassan Sebastian Houben]]
 
 ## Metadata
 

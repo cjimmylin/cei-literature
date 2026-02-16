@@ -21,11 +21,17 @@ Hongyi Wang is an Assistant Professor at the Computer Science Department at Rutg
 ## Papers in this Vault
 
 
+
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
 
 ## Notes
 
 
+
+
+- *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
+- *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 - *From 2024-Li-Quantifying AI Psychology*: Affiliation: University of Cambridge
 His expertise in ML systems and scalability contributes to enabling large-scale trustworthy AI research.

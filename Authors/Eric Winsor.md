@@ -27,10 +27,16 @@ Eric Winsor is a researcher at the UK AI Safety Institute (AISI), contributing t
 ## Papers in this Vault
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 
 ## Notes
 
 
+
+
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 Eric Winsor's work on the AgentHarm benchmark contributes to understanding the vulnerabilities of AI agents to harmful manipulation.

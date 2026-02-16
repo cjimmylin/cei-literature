@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English"
 year: 2025
 first_author: "[[Aurélie Névéol]]"
-last_author: "[[Karën Fort]]"
+last_author: "[[Karën Fort Julien Bezançon]]"
 authors: "Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort"
 url: "https://aclanthology.org/2022.acl-long.583/"
 external_pdf: "https://aclanthology.org/2022.acl-long.583.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, American"
+cultures_nationalities_list: "French"
 languages_list: French
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort]]
+[[Yoann Dupont Aurélie Névéol]], [[Karën Fort Julien Bezançon]]
 
 ## Metadata
 

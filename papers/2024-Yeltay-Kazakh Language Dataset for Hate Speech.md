@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Kazakh Language Dataset for Hate Speech"
 year: 2024
 first_author: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
-last_author: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
+last_author: "[[Zhastay Yeltay Shynar Mussiraliyeva]]"
 authors: "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]"
 authors_incomplete: false
 doi: 10.1109/ICCIA62557.2024.10719327
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -50,7 +52,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]
+[[Moldir Sagynay Milana Bolatbek]], [[Zhastay Yeltay Shynar Mussiraliyeva]]
 
 ## Metadata
 

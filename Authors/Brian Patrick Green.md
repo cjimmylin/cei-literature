@@ -46,6 +46,8 @@ He has collaborated with the Vatican and the World Economic Forum on establishin
 
 ## Papers in this Vault
 
+
+
 - [[2023-Hou-A Multi-Level Framework for the AI Alignment|A Multi-Level Framework for the AI Alignment]] (Last Author)
 - [[2023-Hou-Foundational Moral Values for AI Alignment|Foundational Moral Values for AI Alignment]] (Last Author)
 
@@ -62,5 +64,9 @@ He has collaborated with the Vatican and the World Economic Forum on establishin
 
 ## Notes
 
+
+
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
 - *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
 [Brian is a leading expert in the intersection of religious ethics and technological governance.]

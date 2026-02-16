@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi, Indian"
 languages_list: "Bengali, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Shimanto Bhowmik]], [[Tawsif Tashwar Dipto]], [[Md Sazzad Islam]], [[Sheryl Hsu]], [[Tahsin Reasat]]
+[[Bhowmik, Shimanto]], [[Dipto, Tawsif Tashwar]], [[Islam, Md Sazzad]], [[Hsu, Sheryl]], [[Reasat, Tahsin]]
 
 ## Metadata
 

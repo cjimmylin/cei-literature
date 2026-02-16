@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 
 ## Authors
 
-[[Chen, Ziyu]], [[Sun, Junfei]], [[Li, Chenxi]], [[Nguyen, Tuan Dung]], [[Yao, Jing]], [[Yi, Xiaoyuan]], [[Xie, Xing]], [[Tan, Chenhao]], [[Xie, Lexing]]
+[[Chen, Ziyu]], [[Sun, Junfei]], [[Li, Chenxi]], [[Nguyen, Tuan Dung]], [[Jing Yao|Yao, Jing]], [[Xiaoyuan Yi|Yi, Xiaoyuan]], [[Xing Xie|Xie, Xing]], [[Tan, Chenhao]], [[Xie, Lexing]]
 
 ## Metadata
 

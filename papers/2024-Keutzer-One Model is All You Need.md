@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "One Model is All You Need"
 year: 2025
 first_author: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
-last_author: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
+last_author: "[[Kurt Keutzer]]"
 authors: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.13920"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian, Sanskrit"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]
+[[Sebastian Nehrdich]], [[Oliver Hellwig]], [[Kurt Keutzer]]
 
 ## Metadata
 

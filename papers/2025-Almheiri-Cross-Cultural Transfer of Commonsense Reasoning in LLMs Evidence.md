@@ -45,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Saeed Almheiri, Rania Hossam, Mena Attia, Chenxi Wang, Preslav Nakov, Timothy Baldwin, Fajri Koto]]
+[[Saeed Almheiri]], [[Rania Hossam]], [[Mena Attia]], [[Chenxi Wang]], [[Preslav Nakov]], [[Timothy Baldwin]], [[Fajri Koto]]
 
 ## Metadata
 

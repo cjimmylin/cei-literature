@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Computer Vision & Multimodal"
 
 ## Authors
 
-[[Vy Tuong Dang]], [[An Vo]], [[Emilio Villa-Cueva]], [[Quang Tau]], [[Duc Dm]], [[Thamar Solorio]], [[Daeyoung Kim]]
+[[Dang, Vy Tuong]], [[Vo, An]], [[Emilio Villa-Cueva|Villa-Cueva, Emilio]], [[Tau, Quang]], [[Dm, Duc]], [[Thamar Solorio|Solorio, Thamar]], [[Kim, Daeyoung]]
 
 ## Metadata
 

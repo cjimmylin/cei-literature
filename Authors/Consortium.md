@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Consortium-The Vals Legal AI Report (VLAIR)|The Vals Legal AI Report (VLAIR)]] (First Author)]]
+
 
 - [[2025-Consortium-The Vals Legal AI Report (VLAIR)|The Vals Legal AI Report (VLAIR)]] (First Author)
 

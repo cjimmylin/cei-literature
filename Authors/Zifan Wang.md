@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Mazeika-HarmBench|HarmBench]]
 - [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]]
@@ -25,5 +27,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 [Additional context or contact information]

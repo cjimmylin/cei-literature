@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts"
 year: 2025
 first_author: "[[A. Nakanishi]]"
-last_author: [[F]]
+last_author: "[[F]]"
 authors: "Nakanishi, A., Sano, Y., Liu, G., & Pierri, F"
 url: "https://arxiv.org/abs/2503.01947"
 external_pdf: "https://arxiv.org/pdf/2503.01947.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese"
+cultures_nationalities_list: "Chinese, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

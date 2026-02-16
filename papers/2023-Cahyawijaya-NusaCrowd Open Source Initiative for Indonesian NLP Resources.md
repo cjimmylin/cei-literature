@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Samuel Cahyawijaya]], [[Holy Lovenia]], [[Alham Fikri Aji]], [[Genta Indra Winata]], [[Bryan Wilie]], [[Rahmad Mahendra]], [[Christian Wibisono]], [[Ade Romadhony]], [[Karissa Vincentio]], [[Fajri Koto]], [[Jennifer Santoso]], [[David Moeljadi]], [[Cahya Wirawan]], [[Frederikus Hudi]], [[Ivan Halim Parmonangan]], [[Ika Alfina]], [[Muhammad Satrio Wicaksono]], [[Ilham Firdausi Putra]], [[Samsul Rahmadani]], [[Yulianti Oenang]], [[Ali Akbar Septiandri]], [[James Jaya]], [[Kaustubh D. Dhole]], [[Arie Ardiyanti Suryani]], [[Rifki Afina Putri]], [[Dan Su]], [[Keith Stevens]], [[Made Nindyatama Nityasya]], [[Muhammad Farid Adilazuarda]], [[Ryan Ignatius]], [[Ryandito Diandaru]], [[Tiezheng Yu]], [[Vito Ghifari]], [[Wenliang Dai]], [[Yan Xu]], [[Dyah Damapuspita]], [[Cuk Tho]], [[Ichwanul Muslim Karo Karo]], [[Tirana Noor Fatyanosa]], [[Ziwei Ji]], [[Pascale Fung]], [[Graham Neubig]], [[Timothy Baldwin]], [[Sebastian Ruder]], [[Herry Sujaini]], [[Sakriani Sakti]], [[Ayu Purwarianti]]
+[[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Lovenia, Holy]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Genta Indra Winata|Winata, Genta Indra]], [[Bryan Wilie|Wilie, Bryan]], [[Mahendra, Rahmad]], [[Wibisono, Christian]], [[Romadhony, Ade]], [[Vincentio, Karissa]], [[Koto, Fajri]], [[Santoso, Jennifer]], [[Moeljadi, David]], [[Wirawan, Cahya]], [[Hudi, Frederikus]], [[Parmonangan, Ivan Halim]], [[Alfina, Ika]], [[Wicaksono, Muhammad Satrio]], [[Putra, Ilham Firdausi]], [[Rahmadani, Samsul]], [[Oenang, Yulianti]], [[Septiandri, Ali Akbar]], [[Jaya, James]], [[Dhole, Kaustubh D]], [[Suryani, Arie Ardiyanti]], [[Putri, Rifki Afina]], [[Dan Su|Su, Dan]], [[Stevens, Keith]], [[Nityasya, Made Nindyatama]], [[Muhammad Farid Adilazuarda|Adilazuarda, Muhammad Farid]], [[Ignatius, Ryan]], [[Diandaru, Ryandito]], [[Tiezheng Yu|Yu, Tiezheng]], [[Ghifari, Vito]], [[Dai, Wenliang]], [[Yan Xu|Xu, Yan]], [[Damapuspita, Dyah]], [[Tho, Cuk]], [[Karo, Ichwanul Muslim Karo]], [[Fatyanosa, Tirana Noor]], [[Ziwei Ji|Ji, Ziwei]], [[Pascale Fung|Fung, Pascale]], [[Graham Neubig|Neubig, Graham]], [[Timothy Baldwin|Baldwin, Timothy]], [[Sebastian Ruder|Ruder, Sebastian]], [[Sujaini, Herry]], [[Sakti, Sakriani]], [[Ayu Purwarianti|Purwarianti, Ayu]]
 
 ## Metadata
 

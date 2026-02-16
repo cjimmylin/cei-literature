@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models|EmpatheticDialogues: Towards Empathetic Open-domain Conversation Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
+- *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
 - *From 2019-Rashkin-EmpatheticDialogues Towards Empathetic Open-domain Conversation Models*: Affiliation: School of Computer Science & Engineering, University of Washington, Email: hrashkin@cs.washington.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

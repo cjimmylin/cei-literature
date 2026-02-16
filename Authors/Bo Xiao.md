@@ -47,6 +47,8 @@ Dr. Xiao has published over 60 peer-reviewed papers with high citation impact. H
 ## Papers in this Vault
 
 
+
+
 - [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ Dr. Xiao has published over 60 peer-reviewed papers with high citation impact. H
 
 ## Notes
 
+
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: r.zhang@prhk.ltd
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 His work on "health informatics" is a vital area for AI ethics, as it deals directly with high-stakes decisions and sensitive human data in robotic surgery and patient care.

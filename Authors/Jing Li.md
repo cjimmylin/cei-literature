@@ -1,7 +1,7 @@
 ---
 name: "Jing Li"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computing, The Hong Kong Polytechnic University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Zhao-CoSafe|CoSafe]]]]
+
 
 - [[2024-Zhao-CoSafe|CoSafe]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Zhao-CoSafe*: Affiliation: Department of Computing, The Hong Kong Polytechnic University
+- *From 2024-Zhao-CoSafe*: Affiliation: Department of Computing, The Hong Kong Polytechnic University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

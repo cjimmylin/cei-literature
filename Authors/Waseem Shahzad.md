@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Arshad-Understanding hate speech|Understanding hate speech]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
+- *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 - *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 [Additional context or contact information]

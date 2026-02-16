@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation|BELLS: A Framework Towards Future Proof Benchmarks for the Evaluation of LLM Safeguards]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation*: Affiliation: Centre pour la S´ecurit´e de l’IA, Email: diego@securite-ia.fr
+- *From 2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation*: Affiliation: Centre pour la S´ecurit´e de l’IA, Email: diego@securite-ia.fr
 - *From 2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation*: Affiliation: Centre pour la S´ecurit´e de l’IA, Email: diego@securite-ia.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

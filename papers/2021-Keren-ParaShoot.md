@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ doi: 10.18653/v1/2021.mrqa-1.11
 url: "https://aclanthology.org/2021.mrqa-1.11/"
 external_pdf: "https://aclanthology.org/2021.mrqa-1.11.pdf"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +25,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Keren-ParaShoot.md"
 local_pdf: [[PDFs/2021/2021-Keren-ParaShoot.pdf]]
 abstract: "NLP research in Hebrew has largely focused on morphology and syntax, where rich annotated datasets in the spirit of Universal Dependencies are available. Semantic datasets, however, are in short supply, hindering crucial advances in the development of NLP technology in Hebrew. In this work, we present PARASHOOT, the ﬁrst question answering dataset in modern Hebrew. The dataset follows the format and crowdsourcing methodology of SQuAD, and contains approximately 3000 annotated examples, similar..."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

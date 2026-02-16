@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Tamil-Llama A New Tamil Language Model"
 year: 2025
 first_author: [[Abhinand]]
-last_author: [[Abhinand]]
+last_author: "[[Abhinand]]"
 authors: [[Abhinand]]
 authors_incomplete: false
 url: "https://arxiv.org/abs/2311.05845"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

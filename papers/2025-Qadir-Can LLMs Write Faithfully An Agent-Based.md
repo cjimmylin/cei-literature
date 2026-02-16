@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Can LLMs Write Faithfully An Agent-Based"
 year: 2025
 first_author: "[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir]]"
-last_author: "[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir]]"
+last_author: "[[Junaid Qadir Ala Al-Fuqaha]]"
 authors: "[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.24438"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic, Islamic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Abdullah Mushtaq, Rafay Naeem, Ezieddin Elmahjub, Ibrahim Ghaznavi, Shawqi Al-Maliki, Mohamed Abdallah, Ala Al-Fuqaha, Junaid Qadir]]
+[[Rafay Naeem Abdullah Mushtaq]], [[Ibrahim Ghaznavi Ezieddin Elmahjub]], [[Mohamed Abdallah Shawqi Al-Maliki]], [[Junaid Qadir Ala Al-Fuqaha]]
 
 ## Metadata
 

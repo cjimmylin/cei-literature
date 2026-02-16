@@ -1,7 +1,7 @@
 ---
 name: "Alessio Benavoli"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computer Science and Statistics, Trinity College Dublin, Dublin, Ireland"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Benavoli-AI Safety Uncertainty Incomplete Preferences|AI Safety Uncertainty Incomplete Preferences]] (First Author)]]
+
 
 - [[2025-Benavoli-AI Safety Uncertainty Incomplete Preferences|AI Safety Uncertainty Incomplete Preferences]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Benavoli-AI Safety Uncertainty Incomplete Preferences*: Affiliation: School of Computer Science and Statistics, Trinity College Dublin, Dublin, Ireland
+- *From 2025-Benavoli-AI Safety Uncertainty Incomplete Preferences*: Affiliation: School of Computer Science and Statistics, Trinity College Dublin, Dublin, Ireland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

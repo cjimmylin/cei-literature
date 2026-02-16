@@ -22,10 +22,18 @@ Viacheslav Vasilev is pursuing a PhD in Mathematics and Computer Science at Mosc
 ## Papers in this Vault
 
 
+
+
 - [[2025-Vasilev-RusCode|RusCode]] (First Author)
+- [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]] (First Author)
+- [[2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused|CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
+- *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 [Additional context or contact information]

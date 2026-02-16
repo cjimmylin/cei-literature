@@ -10,7 +10,7 @@ type: preprint
 short_title: "CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns"
 year: 2026
 first_author: "[[Zhenhong Zhou]]"
-last_author: "[[Zhigang Zeng]]"
+last_author: "[[Zhigang Zeng Kun Wang]]"
 authors: Zhenhong Zhou, Shilinlu Yan, Chuanpu Liu, Qiankun Li, Kun Wang, Zhigang Zeng
 url: "https://arxiv.org/abs/2601.00588"
 external_pdf: "https://arxiv.org/pdf/2601.00588.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Zhenhong Zhou, Shilinlu Yan, Chuanpu Liu, Qiankun Li, Kun Wang, Zhigang Zeng]]
+[[Shilinlu Yan Zhenhong Zhou]], [[Qun Liu|Qiankun Li Chuanpu Liu]], [[Zhigang Zeng Kun Wang]]
 
 ## Metadata
 

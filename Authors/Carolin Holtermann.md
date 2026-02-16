@@ -31,6 +31,10 @@ Carolin Holtermann is a research assistant and doctoral candidate at the Univers
 
 ## Papers in this Vault
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects|Large Language Models Discriminate Against Speakers of German Dialects]]
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
@@ -40,5 +44,9 @@ Carolin Holtermann is a research assistant and doctoral candidate at the Univers
 
 ## Notes
 
+
+
+- *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: carolin.holtermann@uni-hamburg.de
+- *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: carolin.holtermann@uni-hamburg.de
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Highly relevant to AI ethics through her work on stereotype assessment in multilingual LLMs. Notable quote: "It's obvious that this kind of model is not inclusive. Only 20 percent of the world's population speak English fluently. For many other languages, the quality of the results are much worse, which means that many people simply cannot use these models."

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Margaret Mitchell; Hamdan Al-Ali; Giuseppe Attanasio; Ioana Baldini; M
 url: "https://aclanthology.org/2025.naacl-long.600/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/8RXAIHQP/Mitchell et al. - SHADES Towards a Multilingual Assessment of Stereotypes in Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Transformer-Based Language Models for Bulgarian"
 year: 2025
 first_author: "[[INSAIT / CLaDA-BG researchers]]"
-last_author: "[[INSAIT / CLaDA-BG researchers]]"
+last_author: "[[INSAIT CLaDA-BG researchers]]"
 authors: "INSAIT / CLaDA-BG researchers"
 url: "https://aclanthology.org/2023.ranlp-1.77.pdf"
 external_pdf: "https://doi.org/10.26615/978-954-452-092-2_077"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bulgarian"
 languages_list: Bulgarian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[INSAIT / CLaDA-BG researchers]]
+[[INSAIT CLaDA-BG researchers]]
 
 ## Metadata
 

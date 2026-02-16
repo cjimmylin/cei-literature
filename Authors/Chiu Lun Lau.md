@@ -1,9 +1,9 @@
 ---
 name: "Chiu Lun Lau"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, 2 hon9kon9ize, 3 The Education University of Hong Kong"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "lchaakming@eduhk.hk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,8 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]]]]
 
+
+- [[2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language|HKCanto-Eval: A Benchmark for Evaluating Cantonese Language Understanding and Cultural Comprehension in LLMs]]
 - [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]]
 
 ## External Links & Profiles
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: jed.cheng@mag.ed.kyushu
+- *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: lchaakming@eduhk.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

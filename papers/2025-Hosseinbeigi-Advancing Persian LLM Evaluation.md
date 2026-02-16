@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,9 +13,9 @@ type: conferencePaper
 short_title: "Advancing Persian LLM Evaluation"
 year: 2025
 first_author: "[[Hosseinbeigi, Sara Bourbour]]"
-last_author: "[[Hosseinbeigi, Sara Bourbour]]"
-authors: "[[Hosseinbeigi, Sara Bourbour]]"
-authors_incomplete: true
+last_author: "[[Abbasi, Mohammad Amin]]"
+authors: "[[Hosseinbeigi, Sara Bourbour]]; [[Rohani, Behnam]]; [[Masoudi, Mostafa]]; [[Shamsfard, M.]]; [[Saaberi, Zahra]]; [[Manesh, Mostafa Karimi]]; [[Abbasi, Mohammad Amin]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-naacl.147/"
 external_pdf: "https://aclanthology.org/2025.findings-naacl.147.pdf"
 publication: "NAACL 2025 Findings"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Sara Bourbour Hosseinbeigi et al.]]
+[[Hosseinbeigi, Sara Bourbour]], [[Rohani, Behnam]], [[Masoudi, Mostafa]], [[Shamsfard, M]], [[Saaberi, Zahra]], [[Manesh, Mostafa Karimi]], [[Abbasi, Mohammad Amin]]
 
 ## Metadata
 
-**Authors:** Sara Bourbour Hosseinbeigi et al.
+**Authors:** Hosseinbeigi, Sara Bourbour; Rohani, Behnam; Masoudi, Mostafa; Shamsfard, M.; Saaberi, Zahra; Manesh, Mostafa Karimi; Abbasi, Mohammad Amin
 
 **Year:** 2025
 

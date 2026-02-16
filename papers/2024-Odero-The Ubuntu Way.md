@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://wellcomeopenresearch.org/articles/9-625"
 pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
 local_pdf: "[[PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Proposes a research ethics framework integrating Ubuntu princ
 significance: "Challenges Western-centric bioethics by establishing a relational, community-centered virtue framework as essential for equitable and culturally competent AI deployment in the Global South"
 abstract: "Background Effective Public Financial Management (PFM) approaches are imperative in the quest for efficiency in health service delivery. Reviews conducted in this area have assessed the impact of PFM approaches on health system efficiency but have left out the mechanisms through which PFM influences efficiency. This scoping review aims to synthesize evidence on the mechanisms by which PFM influences health system efficiency."
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Wen Lai]], [[Mohsen Mesgar]], [[Alexander Fraser]]
+[[Lai, Wen]], [[Mesgar, Mohsen]], [[Fraser, Alexander]]
 
 ## Metadata
 

@@ -46,6 +46,8 @@ Jiang co-authored "Raising the Bar: Investigating the Values of Large Language M
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jiang-Raising the Bar|Raising the Bar]] (First Author)
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ Jiang co-authored "Raising the Bar: Investigating the Values of Large Language M
 ## Notes
 
 
+
+
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
 Han Jiang's work on generative evolving testing addresses a critical challenge in AI safety evaluation, ensuring that benchmarks remain effective as models continue to advance.

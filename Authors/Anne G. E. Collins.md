@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety|SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety*: Affiliation: labels that describe potential im-, Email: jl3676@berkeley.edu
+- *From 2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety*: Affiliation: labels that describe potential im-, Email: jl3676@berkeley.edu
 - *From 2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety*: Affiliation: labels that describe potential im-, Email: jl3676@berkeley.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

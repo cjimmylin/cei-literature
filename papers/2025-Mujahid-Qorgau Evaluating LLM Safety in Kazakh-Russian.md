@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: EXSR0420
 type: preprint
 short_title: "Qorgau Evaluating LLM Safety in Kazakh-Russian"
 year: 2025
-first_author: "[[Sametov, Daulet]]"
-last_author: "[[Mujahid, Aidar]]"
-authors: "[[Sametov, Daulet]]; [[Mujahid, Aidar]]"
-authors_incomplete: true
+first_author: "[[Goloburda, Maiya]]"
+last_author: "[[Nakov, Preslav]]"
+authors: "[[Goloburda, Maiya]]; [[Laiyk, Nurkhan]]; [[Turmakhan, Diana]]; [[Wang, Yuxia]]; [[Togmanov, Mukhammed]]; [[Mansurov, Jonibek]]; [[Sametov, Askhat]]; [[Mukhituly, Nurdaulet]]; [[Wang, Minghan]]; [[Orel, Daniil]]; [[Mujahid, Zain Muhammad]]; [[Koto, Fajri]]; [[Baldwin, Timothy]]; [[Nakov, Preslav]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.13640"
 external_pdf: "https://arxiv.org/pdf/2502.13640.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Kazakh, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Daulet Sametov, Aidar Mujahid, et al]]
+[[Goloburda, Maiya]], [[Laiyk, Nurkhan]], [[Turmakhan, Diana]], [[Yuxia Wang|Wang, Yuxia]], [[Togmanov, Mukhammed]], [[Jonibek Mansurov|Mansurov, Jonibek]], [[Sametov, Askhat]], [[Nurdaulet Mukhituly|Mukhituly, Nurdaulet]], [[Wang, Minghan]], [[Orel, Daniil]], [[Mujahid, Zain Muhammad]], [[Koto, Fajri]], [[Timothy Baldwin|Baldwin, Timothy]], [[Preslav Nakov|Nakov, Preslav]]
 
 ## Metadata
 
-**Authors:** Daulet Sametov, Aidar Mujahid, et al.
+**Authors:** Goloburda, Maiya; Laiyk, Nurkhan; Turmakhan, Diana; Wang, Yuxia; Togmanov, Mukhammed; Mansurov, Jonibek; Sametov, Askhat; Mukhituly, Nurdaulet; Wang, Minghan; Orel, Daniil; Mujahid, Zain Muhammad; Koto, Fajri; Baldwin, Timothy; Nakov, Preslav
 
 **Year:** 2025
 

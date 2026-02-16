@@ -39,6 +39,8 @@ Chao Peng is a Research Scientist at Meta AI (FAIR) and a PhD student at the Uni
 ## Papers in this Vault
 
 
+
+
 - [[2023-Xu-CValues|CValues]]
 
 ## External Links & Profiles
@@ -49,5 +51,9 @@ Chao Peng is a Research Scientist at Meta AI (FAIR) and a PhD student at the Uni
 ## Notes
 
 
+
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 Chao Peng bridges the gap between massive-scale industrial perception systems (Megvii, NIO) and cutting-edge multimodal research at Meta AI.

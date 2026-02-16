@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social|Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: jzl@deepmind.com
+- *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: jzl@deepmind.com
 - *From 2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social*: Affiliation: College London, Email: richard.willis@kcl.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

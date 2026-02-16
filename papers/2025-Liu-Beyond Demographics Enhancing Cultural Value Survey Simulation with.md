@@ -10,7 +10,7 @@ type: preprint
 short_title: "Beyond Demographics: Enhancing Cultural Value Survey Simulation with Multi-Stage Personality-Driven Cognitive Reasoning"
 year: 2025
 first_author: "[[Haijiang Liu]]"
-last_author: "[[Jinguang Gu]]"
+last_author: "[[Jinguang Gu Daniel Hershcovich]]"
 authors: Haijiang Liu, Qiyuan Li, Chao Gao, Yong Cao, Xiangyu Xu, Xun Wu, Daniel Hershcovich, Jinguang Gu
 url: "https://arxiv.org/abs/2508.17855"
 external_pdf: "https://arxiv.org/pdf/2508.17855.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Haijiang Liu, Qiyuan Li, Chao Gao, Yong Cao, Xiangyu Xu, Xun Wu, Daniel Hershcovich, Jinguang Gu]]
+[[Qun Liu|Qiyuan Li Haijiang Liu]], [[Yong Cao Chao Gao]], [[Xun Wu Xiangyu Xu]], [[Jinguang Gu Daniel Hershcovich]]
 
 ## Metadata
 

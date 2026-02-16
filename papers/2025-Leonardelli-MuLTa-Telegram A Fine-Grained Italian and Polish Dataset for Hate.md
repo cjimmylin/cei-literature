@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian, Polish"
 languages_list: "Italian, Polish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Unknown]]
+[[Leonardelli, Elisa]], [[Casula, Camilla]], [[Vecellio Salto, Sebastiano]], [[Bak, Joanna Ewa]], [[Muratore, Elisa]], [[Kolos, Anna]], [[Louf, Thomas]], [[Tonelli, Sara]]
 
 ## Metadata
 

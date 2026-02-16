@@ -18,11 +18,18 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models|LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction]]
+- [[2025-Ni-A Survey on Large Language Model Benchmarks|A Survey on Large Language Model Benchmarks]] (Last Author)
 - [[2025-Wu-OpenDeception|OpenDeception]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
+- *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 - *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 [Additional context or contact information]

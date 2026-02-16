@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Open or Closed LLM for Lesser-Resourced Languages? Lessons from Greek"
 year: 2025
 first_author: "[[John Pavlopoulos]]"
-last_author: "[[Maria Gavriilidou]]"
+last_author: "[[Maria Gavriilidou Kanella Pouli]]"
 authors: "John Pavlopoulos, Juli Bakagianni, Kanella Pouli, Maria Gavriilidou"
 url: "https://arxiv.org/abs/2501.12826"
 external_pdf: "https://arxiv.org/pdf/2501.12826.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[John Pavlopoulos, Juli Bakagianni, Kanella Pouli, Maria Gavriilidou]]
+[[Juli Bakagianni John Pavlopoulos]], [[Maria Gavriilidou Kanella Pouli]]
 
 ## Metadata
 

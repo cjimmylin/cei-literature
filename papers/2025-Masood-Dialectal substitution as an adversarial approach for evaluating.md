@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: journalArticle
 short_title: "Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: [[Ph]]
+last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"
 url: "https://www.nature.com/articles/s41598-026-36252-4"
 external_pdf: "https://www.nature.com/articles/s41598-026-36252-4_reference.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Adnan Masood, Ph]]
+[[Ph Adnan Masood]]
 
 ## Metadata
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Mytho-Annotator An Annotation Tool for Indian"
 year: 2025
 first_author: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]"
-last_author: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]"
+last_author: "[[Dipankar Das Prasun Sarkar]]"
 authors: "[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]"
 authors_incomplete: false
 url: 
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
@@ -50,7 +52,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Apurba Paul, Anupam Mondal, Sainik Kumar Mahata, Srijan Seal, Prasun Sarkar, Dipankar Das]]
+[[Aditya Paul|Anupam Mondal Apurba Paul]], [[Srijan Seal Sainik Kumar Mahata]], [[Dipankar Das Prasun Sarkar]]
 
 ## Metadata
 

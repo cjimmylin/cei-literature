@@ -1,7 +1,7 @@
 ---
 name: "Ahmed Ahmed"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute recently reported"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Group-AILuminate|AILuminate]]
-- [[2024-Kaiyom-HELM Safety|HELM Safety]]]]
+
 
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Kaiyom-HELM Safety|HELM Safety]]
@@ -85,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported
+- *From 2024-Kaiyom-HELM Safety*: Affiliation: Institute recently reported
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

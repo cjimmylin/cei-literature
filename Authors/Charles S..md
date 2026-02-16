@@ -1,6 +1,6 @@
 ---
 name: "Charles S."
-affiliation: "University/Organization"
+affiliation: "University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2025-Bryan-Virtue Ethics and Postponing Human Extinction|Virtue Ethics and Postponing Human Extinction]]
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 
 ## Notes
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 [Additional context or contact information]

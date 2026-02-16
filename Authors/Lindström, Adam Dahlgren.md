@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits|Helpful Harmless Honest Limits]] (First Author)]]
+
 
 - [[2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits|Helpful Harmless Honest Limits]] (First Author)
 

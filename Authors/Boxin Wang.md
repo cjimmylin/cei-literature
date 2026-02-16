@@ -38,6 +38,8 @@ Wang has made significant contributions to AI safety and trustworthiness researc
 ## Papers in this Vault
 
 
+
+
 - [[2023-Wang-DecodingTrust|DecodingTrust]] (First Author)
 
 ## External Links & Profiles
@@ -55,5 +57,9 @@ Wang has made significant contributions to AI safety and trustworthiness researc
 ## Notes
 
 
+
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 His work at NVIDIA on trustworthy LLMs represents a critical bridge between academic AI safety research and industrial-scale deployment, ensuring that frontier models maintain safety properties at scale.

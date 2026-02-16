@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP"
 year: 2025
 first_author: "[[Metinov, Adilet]]"
-last_author: "[[Kabaeva, Gulnara D.]]"
+last_author: "[[Kabaeva, Gulnara D]]"
 authors: "[[Metinov, Adilet]]; [[Kudakeeva, Gulida M.]]; [[Kabaeva, Gulnara D.]]"
 authors_incomplete: false
 url: "https://arxiv.org/html/2511.20182"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kyrgyz"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Adilet Metinov]], [[Gulida M. Kudakeeva]], [[Gulnara D. Kabaeva]]
+[[Metinov, Adilet]], [[Kudakeeva, Gulida M]], [[Kabaeva, Gulnara D]]
 
 ## Metadata
 

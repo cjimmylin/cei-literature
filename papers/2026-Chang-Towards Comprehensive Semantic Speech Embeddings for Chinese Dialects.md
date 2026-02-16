@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Cantonese, Chinese, Hakka, Min"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Kalvin Chang]], [[Yiwen Shao]], [[Jiahong Li]], [[Dong Yu]]
+[[Chang, Kalvin]], [[Shao, Yiwen]], [[Li, Jiahong]], [[Dong Yu|Yu, Dong]]
 
 ## Metadata
 

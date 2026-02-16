@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "All Languages Matter: On the Multilingual Safety of Large Language Models"
 year: 2025
 first_author: "[[Wang, Wenxuan]]"
-last_author: "[[Wang, Wenxuan]]"
-authors: "[[Wang, Wenxuan]]"
-authors_incomplete: true
+last_author: "[[Lyu, Michael]]"
+authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]"
+authors_incomplete: false
 doi: 10.18653/v1/2024.findings-acl.349
 url: "https://arxiv.org/abs/2310.00905"
 external_pdf: "https://arxiv.org/pdf/2310.00905.pdf"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
+cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Wenxuan Wang, et al.]]
+[[Wenxuan Wang|Wang, Wenxuan]], [[Zhaopeng Tu|Tu, Zhaopeng]], [[Chang Chen|Chen, Chang]], [[Youliang Yuan|Yuan, Youliang]], [[Jen-tse Huang|Huang, Jen-tse]], [[Wenxiang Jiao|Jiao, Wenxiang]], [[Michael Lyu|Lyu, Michael]]
 
 ## Metadata
 
-**Authors:** Wenxuan Wang, et al.
+**Authors:** Wang, Wenxuan; Tu, Zhaopeng; Chen, Chang; Yuan, Youliang; Huang, Jen-tse; Jiao, Wenxiang; Lyu, Michael
 
 **Year:** 2024
 

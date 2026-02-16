@@ -44,7 +44,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Cohen, Amir DN]], [[Tsarfaty, Reut]]
+[[Cohen, Amir DN]], [[Reut Tsarfaty|Tsarfaty, Reut]]
 
 ## Metadata
 

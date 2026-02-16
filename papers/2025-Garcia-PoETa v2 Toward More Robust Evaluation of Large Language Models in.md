@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Portuguese, Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Eduardo Garcia, Matheus Pires, Tiago Pimentel, et al.]]
+[[Garcia, Eduardo]], [[Pires, Matheus]], [[Pimentel, Tiago]]
 
 ## Metadata
 

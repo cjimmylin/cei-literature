@@ -26,6 +26,8 @@ University of Central Florida, Center for Research in Computer Vision
 ## Papers in this Vault
 
 
+
+
 - [[2025-Narnaware-SB-Bench|SB-Bench]]
 - [[2025-Raza-HumaniBench|HumaniBench]]
 - [[2024-Vayani-All Languages Matter|All Languages Matter]] (First Author)
@@ -33,5 +35,9 @@ University of Central Florida, Center for Research in Computer Vision
 ## Notes
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Co-author on ALM-bench, the largest multilingual multimodal benchmark covering 100 languages, and SB-Bench for evaluating stereotype biases in LMMs.

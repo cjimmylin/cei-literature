@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Azerbaijani Toxicity Classifier"
 year: 2025
 first_author: "[[Azerbaijan, LocalDoc]]"
-last_author: "[[Azerbaijan, LocalDoc]]"
+last_author: "[[LocalDoc Azerbaijan]]"
 authors: "[[LocalDoc Azerbaijan]]"
 authors_incomplete: false
 url: "https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Azerbaijani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

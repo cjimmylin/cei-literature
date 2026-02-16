@@ -44,7 +44,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Md Arid Hasan, Maram Hasanain, Fatema Ahmad, Sahinur Rahman Laskar, Sunaya Upadhyay, Vrunda N Sukhadia, Mucahid Kutlu, Shammur Absar Chowdhury, Firoj Alam]]
+[[Md Arid Hasan]], [[Maram Hasanain]], [[Fatema Ahmad]], [[Sahinur Rahman Laskar]], [[Sunaya Upadhyay]], [[Vrunda N Sukhadia]], [[Mucahid Kutlu]], [[Shammur Absar Chowdhury]], [[Firoj Alam]]
 
 ## Metadata
 

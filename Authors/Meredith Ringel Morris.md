@@ -22,11 +22,17 @@ Meredith Ringel Morris is Director and Principal Scientist for Human-AI Interact
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2023-Morris-Levels of AGI|Levels of AGI]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
+- *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
 - *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
 [Additional context or contact information]

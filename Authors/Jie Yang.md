@@ -22,11 +22,17 @@ Yang co-leads the research line on Crowd Computing & Human-Centered AI and co-di
 ## Papers in this Vault
 
 
+
+
 - [[2024-Arzberger-Nothing Comes Without Its World|Nothing Comes Without Its World]] (Last Author)
 - [[2024-Gu-Probabilistic medical predictions of large|Probabilistic medical predictions of large]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
+- *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
 - *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
 His work has received the Best Paper Award at AAAI HCOMP (2022), Best Paper Award nomination at The Web Conference (2022), Best Paper Award at ACM HT Conference (2017), and multiple other recognitions. He has published 70+ papers in leading venues including WWW, HCOMP, SIGIR, CHI, AAAI, EMNLP, and TKDE. Citations: 3,935+.

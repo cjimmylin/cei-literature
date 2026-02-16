@@ -45,7 +45,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Shudong Liu, Yiqiao Jin, Cheng Li, Derek F. Wong, Qingsong Wen, Lichao Sun, Haipeng Chen, Xing Xie, Jindong Wang]]
+[[Shudong Liu]], [[Yiqiao Jin]], [[Cheng Li]], [[Derek F. Wong]], [[Qingsong Wen]], [[Lichao Sun]], [[Haipeng Chen]], [[Xing Xie]], [[Jindong Wang]]
 
 ## Metadata
 

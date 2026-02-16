@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +12,7 @@ type: conferencePaper
 short_title: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 year: 2025
 first_author: "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]"
-last_author: "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]"
+last_author: "[[A Leaderboard to Benchmark Ethical Biases in]]"
 authors: "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]"
 authors_incomplete: false
 url: "https://ceur-ws.org/Vol-3744/paper1.pdf"
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[A Leaderboard to Benchmark Ethical Biases in LLMs]]
+[[LLMs]], [[A Leaderboard to Benchmark Ethical Biases in]]
 
 ## Metadata
 

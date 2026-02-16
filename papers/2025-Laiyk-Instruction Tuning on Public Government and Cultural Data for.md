@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0062
 type: preprint
 short_title: "Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh"
 year: 2025
-first_author: "[[Laiyk]]"
-last_author: "[[Laiyk]]"
-authors: "[[Laiyk]]"
-authors_incomplete: true
+first_author: "[[Laiyk, Nurkhan]]"
+last_author: "[[Koto, Fajri]]"
+authors: "[[Laiyk, Nurkhan]]; [[Orel, Daniil]]; [[Joshi, Rituraj]]; [[Goloburda, Maiya]]; [[Wang, Yuxia]]; [[Nakov, Preslav]]; [[Koto, Fajri]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.13647"
 external_pdf: "https://arxiv.org/pdf/2502.13647.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kazakh"
 languages_list: Kazakh
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Laiyk et al.]]
+[[Laiyk, Nurkhan]], [[Orel, Daniil]], [[Joshi, Rituraj]], [[Goloburda, Maiya]], [[Yuxia Wang|Wang, Yuxia]], [[Preslav Nakov|Nakov, Preslav]], [[Koto, Fajri]]
 
 ## Metadata
 
-**Authors:** Laiyk et al.
+**Authors:** Laiyk, Nurkhan; Orel, Daniil; Joshi, Rituraj; Goloburda, Maiya; Wang, Yuxia; Nakov, Preslav; Koto, Fajri
 
 **Year:** 2025
 

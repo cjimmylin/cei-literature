@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Finnish"
 languages_list: Finnish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Md Saroar Jahan, Mourad Oussalah, Nabil Arhab]]
+[[Md Saroar Jahan]], [[Mourad Oussalah]], [[Nabil Arhab]]
 
 ## Metadata
 

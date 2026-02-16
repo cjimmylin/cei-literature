@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Challenging the Transformer-based Models with a"
 year: 2025
 first_author: "[[Shatha Altammami, Eric Atwell]]"
-last_author: "[[Shatha Altammami, Eric Atwell]]"
+last_author: "[[Eric Atwell Shatha Altammami]]"
 authors: "[[Shatha Altammami, Eric Atwell]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Shatha Altammami, Eric Atwell]]
+[[Eric Atwell Shatha Altammami]]
 
 ## Metadata
 

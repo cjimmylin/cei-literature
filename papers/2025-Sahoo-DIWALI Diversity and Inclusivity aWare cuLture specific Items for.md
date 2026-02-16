@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0181
 type: preprint
 short_title: "DIWALI: Diversity and Inclusivity aWare cuLture specific Items for India Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context"
 year: 2025
-first_author: "[[Sahoo, P.]]"
-last_author: "[[P.]]"
-authors: "[[Sahoo, P.]]; [[P.]]"
-authors_incomplete: true
+first_author: "[[Sahoo, Pramit]]"
+last_author: "[[Desarkar, Maunendra Sankar]]"
+authors: "[[Sahoo, Pramit]]; [[Brahma, Maharaj]]; [[Desarkar, Maunendra Sankar]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17399"
 external_pdf: "https://arxiv.org/pdf/2509.17399.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Assamese, Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Sahoo, P. et al.]]
+[[Sahoo, Pramit]], [[Brahma, Maharaj]], [[Desarkar, Maunendra Sankar]]
 
 ## Metadata
 
-**Authors:** Sahoo, P. et al.
+**Authors:** Sahoo, Pramit; Brahma, Maharaj; Desarkar, Maunendra Sankar
 
 **Year:** 2025
 

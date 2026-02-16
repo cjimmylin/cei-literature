@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation"
 year: 2025
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (NYTK Research Group)]]"
 authors: Unknown (NYTK Research Group)
 url: "https://aclanthology.org/2025.gem-1.32.pdf"
 publication: ACL Anthology
@@ -43,7 +43,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Unknown (NYTK Research Group)]]
+[[Unknown (CIS NLP group)|Unknown (NYTK Research Group)]]
 
 ## Metadata
 

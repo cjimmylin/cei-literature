@@ -18,11 +18,18 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2022-Kim-ProsocialDialog|ProsocialDialog]]
 - [[2022-Kim-SODA|SODA]]
 
 ## Notes
 
 
+
+
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 [Additional context or contact information]

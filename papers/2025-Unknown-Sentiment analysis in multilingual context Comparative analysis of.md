@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,13 +18,14 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10560063/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10560063&blobtype=pdf"
 publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.md"
-local_pdf: "N/A"
+local_pdf: "[[PDFs/2025/2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, Sharun Akter]]
+[[David Jurgens Shivani Kumar|Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, Sharun Akter]]
 
 ## Metadata
 

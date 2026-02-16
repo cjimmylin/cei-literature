@@ -25,6 +25,9 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 ## Papers in this Vault
 
 
+
+
+- [[2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual|Multilingual Multicultural Evaluating Gaps Between Multilingual]]
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]]
@@ -41,5 +44,9 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 ## Notes
 
 
+
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 Best Paper Award at NeurIPS 2024 (Datasets & Benchmarks track) for PRISM Alignment Dataset. Outstanding Paper Award at ACL 2024 for work on political bias in AI. Degrees from Oxford (MSc), Cambridge (BA), and Peking University (MA). Note: This is the same person as [[Hannah Kirk]].

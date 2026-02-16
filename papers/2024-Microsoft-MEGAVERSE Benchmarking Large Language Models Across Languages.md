@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0056
 type: conferencePaper
 short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Ahuja, Sanchit]]"
+last_author: "[[Sitaram, Sunayana]]"
+authors: "[[Ahuja, Sanchit]]; [[Aggarwal, Divyanshu]]; [[Gumma, Varun]]; [[Watts, Ishaan]]; [[Sathe, Ashutosh]]; [[Ochieng, Millicent]]; [[Hada, Rishav]]; [[Jain, Prachi]]; [[Axmed, Maxamed]]; [[Bali, Kalika]]; [[Sitaram, Sunayana]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2311.07463"
 external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "83 languages including Tamil, Telugu, Malayalam, Kannada"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Not fully listed in search results (Microsoft)]]
+[[Ahuja, Sanchit]], [[Aggarwal, Divyanshu]], [[Varun Gumma|Gumma, Varun]], [[Ishaan Watts|Watts, Ishaan]], [[Sathe, Ashutosh]], [[Ochieng, Millicent]], [[Hada, Rishav]], [[Jain, Prachi]], [[Axmed, Maxamed]], [[Bali, Kalika]], [[Sunayana Sitaram|Sitaram, Sunayana]]
 
 ## Metadata
 
-**Authors:** Not fully listed in search results (Microsoft)
+**Authors:** Ahuja, Sanchit; Aggarwal, Divyanshu; Gumma, Varun; Watts, Ishaan; Sathe, Ashutosh; Ochieng, Millicent; Hada, Rishav; Jain, Prachi; Axmed, Maxamed; Bali, Kalika; Sitaram, Sunayana
 
 **Year:** 2024
 

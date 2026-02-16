@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Catapang-EMoTES-3K|EMoTES-3K]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
+- *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 [Additional context or contact information]

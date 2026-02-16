@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Conitzer-Social Choice for AI Alignment|Social Choice for AI Alignment]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: marko@yorku.ca
+- *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: marko@yorku.ca
 - *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: marko@yorku.ca
 [Additional context or contact information]

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Evaluating and Improving Cultural Awareness of"
 year: 2025
 first_author: "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]"
-last_author: "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]"
+last_author: "[[Min Zhang]]"
 authors: "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.21798"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]
+[[Hongbin Zhang]], [[Kehai Chen]], [[Xuefeng Bai]], [[Yang Xiang]], [[Min Zhang]]
 
 ## Metadata
 

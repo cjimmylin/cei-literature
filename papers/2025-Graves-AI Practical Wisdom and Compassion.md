@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_GRAVES2025
@@ -14,6 +16,7 @@ url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"
 pdf_extract: "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md"
 local_pdf: "[[PDFs/2025/2025-Graves-AI Practical Wisdom and Compassion.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: Buddhism
 religious_values_list: Buddhism
 moral_psychology: Yes
@@ -22,6 +25,7 @@ key_contribution: "Proposes artificial practical wisdom grounded in compassion a
 significance: "Novel cross-cultural virtue ethics framework for AI with practical healthcare applications"
 external_pdf: N/A
 abstract: "Practical wisdom (phronesis) is the context-sensitive capacity to skillfully achieve morally good outcomes in complex situations. Developing artificial practical wisdom offers a more ethically robust and achievable goal for AI development than artificial general intelligence (AGI). While identifying what is morally good in ethically complex situations remains challenging, grounding artificial practical wisdom explicitly in compassion effectively reduces ethical risks associated with AI-induced suffering, surpassing conventional alignment strategies like rule-based guardrails or predefined reward systems. As a theoretical foundation for initial development of artificial practical wisdom, this virtue ethics approach integrates Aristotelian practical wisdom with cross-cultural perspectives on suffering and compassion from utilitarianism, the Capability Approach, Buddhism, and contemporary moral psychology. Operationalizing compassionate AI involves recognizing suffering, empathetic engagement, context-sensitive moral decision making, and motivational responses. Compassionate AI demonstrates immediate practical benefits, particularly in healthcare, by measurably improving patient outcomes, enhancing well-being, and reducing caregiver burdens."
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

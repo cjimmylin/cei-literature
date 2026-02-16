@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,9 +13,9 @@ type: preprint
 short_title: "Two-Stage Quranic QA via Ensemble Retrieval"
 year: 2025
 first_author: "[[Basem, Mohamed]]"
-last_author: "[[Basem, Mohamed]]"
-authors: "[[Basem, Mohamed]]"
-authors_incomplete: true
+last_author: "[[Kassab, Hozaifa]]"
+authors: "[[Basem, Mohamed]]; [[Oshallah, Islam]]; [[Hamdi, Ali]]; [[Shaban, Khaled]]; [[Kassab, Hozaifa]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.06971"
 external_pdf: "https://arxiv.org/pdf/2508.06971.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Mohamed Basem et al]]
+[[Mohamed Basem|Basem, Mohamed]], [[Oshallah, Islam]], [[Hamdi, Ali]], [[Shaban, Khaled]], [[Kassab, Hozaifa]]
 
 ## Metadata
 
-**Authors:** Mohamed Basem et al.
+**Authors:** Basem, Mohamed; Oshallah, Islam; Hamdi, Ali; Shaban, Khaled; Kassab, Hozaifa
 
 **Year:** 2025
 

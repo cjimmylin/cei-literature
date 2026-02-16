@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: conference_paper
 short_title: "Religious Bias Benchmarks for ChatGPT"
 year: 2025
 first_author: "[[AI), Multiple authors (presented at conference on Human Freedom and]]"
-last_author: "[[AI), Multiple authors (presented at conference on Human Freedom and]]"
+last_author: "[[AI)]]"
 authors: "[[Multiple authors (presented at conference on Human Freedom]]; [[AI)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam, Buddhism, Judaism"
 religious_values_list: "Islam, Buddhism, Judaism"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Multiple authors (presented at conference on Human Freedom and AI)]]
+[[Multiple authors (presented at conference on Human Freedom]], [[AI)]]
 
 ## Metadata
 

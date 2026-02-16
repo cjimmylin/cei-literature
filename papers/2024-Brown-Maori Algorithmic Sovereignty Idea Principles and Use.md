@@ -10,7 +10,7 @@ type: preprint
 short_title: "Maori Algorithmic Sovereignty: Idea, Principles, and Use"
 year: 2024
 first_author: "[[Paul T. Brown]]"
-last_author: "[[Te Taka Keegan]]"
+last_author: "[[Te Taka Keegan Natalie Kusabs]]"
 authors: Paul T. Brown, Daniel Wilson, Kiri West, Kirita-Rose Escott, Kiya Basabas, Ben Ritchie, Danielle Lucas, Ivy Taia, Natalie Kusabs, Te Taka Keegan
 doi: 10.5334/dsj-2024-015
 url: "https://datascience.codata.org/articles/10.5334/dsj-2024-015"
@@ -45,7 +45,7 @@ ethics_perspective: "Responsible AI"
 
 ## Authors
 
-[[Paul T. Brown, Daniel Wilson, Kiri West, Kirita-Rose Escott, Kiya Basabas, Ben Ritchie, Danielle Lucas, Ivy Taia, Natalie Kusabs, Te Taka Keegan]]
+[[Tom Brown|Daniel Wilson Paul T. Brown]], [[Kirita-Rose Escott Kiri West]], [[Ben Ritchie Kiya Basabas]], [[Ivy Taia Danielle Lucas]], [[Te Taka Keegan Natalie Kusabs]]
 
 ## Metadata
 

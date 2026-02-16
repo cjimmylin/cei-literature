@@ -33,9 +33,16 @@ Alexander lead researcher on the RusCode project, a unique benchmark designed to
 ## Papers in this Vault
 
 
+
+
 - [[2025-Vasilev-RusCode|RusCode]]
+- [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
 
 ## Notes
 
+
+
+- *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
+- *From 2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 [Extensive expertise in specialized datasets, including Slovo (Sign Language) and HaGRID (Hand Gestures).]

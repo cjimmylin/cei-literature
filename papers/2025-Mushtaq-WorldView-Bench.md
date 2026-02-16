@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ authors: "Abdullah Mushtaq; Imran Taj; Rafay Naeem; Ibrahim Ghaznavi; Junaid Qad
 url: "https://arxiv.org/abs/2505.09595"
 external_pdf: "https://arxiv.org/pdf/2505.09595.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2025/2025-Mushtaq-WorldView-Bench.md"
 abstract: "Large Language Models (LLMs) are predominantly trained and aligned in ways that reinforce Western-centric epistemologies and socio-cultural norms, leading to cultural homogenization and limiting their ability to reflect global civilizational plurality. Existing benchmarking frameworks fail to adequately capture this bias, as they rely on rigid, closedform assessments that overlook the complexity of cultural inclusivity."
 paper_summary: "Abstract: Large Language Models (LLMs) are predominantly trained and aligned in ways that reinforce Western-centric epistemologies and socio-cultural norms, leading to cultural ho- mogenization and limiting the | Overview: Journal of Artificial Intelligence Research – (2025) – Submitted 29/04/2025; published – WorldView-Bench: A Benchmark for Evaluating Global Cultural Perspectives in Large Language Models Abdullah Mush | Methodology: supported by the multiplexity framework (Qadir & Senturk, 2024a). This framework dis- tinguishes between 'open' and 'closed' civilizational paradigms  | Conclusions: In this paper, we proposed a new benchmark WorldView-Bench designed for the perfor- mance of LLMs on the inclusion of globally relevant cultures. Our"
 local_pdf: [[PDFs/2025/2025-Mushtaq-WorldView-Bench.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

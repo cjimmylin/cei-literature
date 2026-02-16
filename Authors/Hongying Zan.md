@@ -1,9 +1,9 @@
 ---
 name: "Hongying Zan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "College of Intelligence and Computing, Tianjin University, Tianjin, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "iehyzan@zzu.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]]]
+
 
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
+- *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

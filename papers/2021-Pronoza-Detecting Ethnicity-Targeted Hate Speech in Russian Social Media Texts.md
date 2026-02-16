@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts"
 year: 2025
 first_author: "[[Anastasiia Pronoza]]"
-last_author: "[[Roman Rosenberg]]"
+last_author: "[[Roman Rosenberg Olga Koltsova]]"
 authors: "Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg"
 doi: 10.1016/j.ipm.2021.102674
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457321001606"
@@ -21,11 +22,13 @@ external_pdf: "https://riunet.upv.es/bitstream/10251/183078/3/PronozaPanichevaKo
 publication: "Information Processing and Management (Elsevier)"
 pdf_extract: "PDF Extracts/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md"
 local_pdf: "[[PDFs/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.pdf]]"
+DATE_ADDED: 20260214
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 languages_list: Russian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg]]
+[[Polina Panicheva Anastasiia Pronoza]], [[Roman Rosenberg Olga Koltsova]]
 
 ## Metadata
 

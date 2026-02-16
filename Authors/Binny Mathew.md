@@ -46,6 +46,9 @@ He co-developed "HateXplain," a widely used benchmark dataset for explainable ha
 
 ## Papers in this Vault
 
+
+
+- [[2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection|HateCheckHIn Evaluating Hindi Hate Speech Detection]]
 - [[2020-Mathew-HateXplain|HateXplain]] (First Author)
 
 ## External Links & Profiles
@@ -62,5 +65,9 @@ He co-developed "HateXplain," a widely used benchmark dataset for explainable ha
 
 ## Notes
 
+
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: yimam@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
 His work on "counterspeech" is particularly innovative, as it moves beyond simple censorship toward using AI to generate constructive interventions that reduce online polarization.

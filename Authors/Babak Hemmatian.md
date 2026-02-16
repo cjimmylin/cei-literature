@@ -47,6 +47,8 @@ Dr. Hemmatian has published influential work on the persistence of bias in debia
 ## Papers in this Vault
 
 
+
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]]
 
 ## External Links & Profiles
@@ -61,5 +63,9 @@ Dr. Hemmatian has published influential work on the persistence of bias in debia
 
 ## Notes
 
+
+
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 His research on "Collective moral reasoning" is directly applicable to swarm intelligence and multi-agent alignment strategies.

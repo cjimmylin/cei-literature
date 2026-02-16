@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "PBBQ: A Persian Bias Benchmark Dataset Curated with Human-AI Collaboration for Large Language Models"
 year: 2025
 first_author: "[[Farsi, Farhan]]"
-last_author: "[[Payberah, Amir H.]]"
+last_author: "[[Payberah, Amir H]]"
 authors: "[[Farsi, Farhan]]; [[Bali, Shayan]]; [[Valeh, Fatemeh]]; [[Ghofrani, Parsa]]; [[Pakniat, Alireza]]; [[Kashfipour, Kian]]; [[Payberah, Amir H.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.19616"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Farhan Farsi]], [[Shayan Bali]], [[Fatemeh Valeh]], [[Parsa Ghofrani]], [[Alireza Pakniat]], [[Kian Kashfipour]], [[Amir H. Payberah]]
+[[Farsi, Farhan]], [[Bali, Shayan]], [[Valeh, Fatemeh]], [[Ghofrani, Parsa]], [[Pakniat, Alireza]], [[Kashfipour, Kian]], [[Payberah, Amir H]]
 
 ## Metadata
 

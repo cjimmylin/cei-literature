@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz's Theory of Basic Values"
 year: 2024
 first_author: "[[Nir Hadar-Shoval]]"
-last_author: "[[Oren Asraf]]"
+last_author: "[[Oren Asraf Yuval Lvov]]"
 authors: Nir Hadar-Shoval, Zohar Elyoseph, Yuval Lvov, Oren Asraf
 doi: 10.2196/55988
 url: "https://mental.jmir.org/2024/1/e55988"
@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Nir Hadar-Shoval, Zohar Elyoseph, Yuval Lvov, Oren Asraf]]
+[[Zohar Elyoseph Nir Hadar-Shoval]], [[Oren Asraf Yuval Lvov]]
 
 ## Metadata
 

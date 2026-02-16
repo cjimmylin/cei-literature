@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Maile-The choice of deontological, virtue ethical, and|The choice of deontological, virtue ethical, and]]
 
 ## Notes
 
 
+
+
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 - *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 [Additional context or contact information]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "CVQA Culturally-diverse Multilingual Visual Question Answering"
 year: 2025
 first_author: "[[Romero, David]]"
-last_author: "[[Hamed, Injy]]"
-authors: "[[Romero, David]]; [[Lyu, Chenyang]]; [[Wibowo, Haryo Akbarianto]]; [[Lynn, Teresa]]; [[Hamed, Injy]]"
-authors_incomplete: true
+last_author: "[[Aji, Alham Fikri]]"
+authors: "[[Romero, David]]; [[Lyu, Chenyang]]; [[Wibowo, Haryo Akbarianto]]; [[Lynn, Teresa]]; [[Hamed, Injy]]; [[Kishore, Aditya Nanda]]; [[Mandal, Aishik]]; [[Dragonetti, Alina]]; [[Abzaliev, Artem]]; [[Tonja, Atnafu Lambebo]]; [[Balcha, Bontu Fufa]]; [[Whitehouse, Chenxi]]; [[Salamea, Christian]]; [[Velasco, Dan John]]; [[Adelani, David Ifeoluwa]]; [[Meur, David Le]]; [[Villa-Cueva, Emilio]]; [[Koto, Fajri]]; [[Farooqui, Fauzan]]; [[Belcavello, Frederico]]; [[Batnasan, Ganzorig]]; [[Vallejo, Gisela]]; [[Caulfield, Grainne]]; [[Ivetta, Guido]]; [[Song, Haiyue]]; [[Ademtew, Henok Biadglign]]; [[Maina, Hernán]]; [[Lovenia, Holy]]; [[Azime, Israel Abebe]]; [[Cruz, Jan Christian Blaise]]; [[Gala, Jay]]; [[Geng, Jiahui]]; [[Ortiz-Barajas, Jesus-German]]; [[Baek, Jinheon]]; [[Dunstan, Jocelyn]]; [[Alemany, Laura Alonso]]; [[Nagasinghe, Kumaranage Ravindu Yasas]]; [[Benotti, Luciana]]; [[D'Haro, Luis Fernando]]; [[Viridiano, Marcelo]]; [[Estecha-Garitagoitia, Marcos]]; [[Cabrera, Maria Camila Buitrago]]; [[Rodríguez-Cantelar, Mario]]; [[Jouitteau, Mélanie]]; [[Mihaylov, Mihail]]; [[Imam, Mohamed Fazli Mohamed]]; [[Adilazuarda, Muhammad Farid]]; [[Gochoo, Munkhjargal]]; [[Otgonbold, Munkh-Erdene]]; [[Etori, Naome]]; [[Niyomugisha, Olivier]]; [[Silva, Paula Mónica]]; [[Chitale, Pranjal]]; [[Dabre, Raj]]; [[Chevi, Rendi]]; [[Zhang, Ruochen]]; [[Diandaru, Ryandito]]; [[Cahyawijaya, Samuel]]; [[Góngora, Santiago]]; [[Jeong, Soyeong]]; [[Purkayastha, Sukannya]]; [[Kuribayashi, Tatsuki]]; [[Clifford, Teresa]]; [[Jayakumar, Thanmay]]; [[Torrent, Tiago Timponi]]; [[Ehsan, Toqeer]]; [[Araujo, Vladimir]]; [[Kementchedjhieva, Yova]]; [[Burzo, Zara]]; [[Lim, Zheng Wei]]; [[Yong, Zheng Xin]]; [[Ignat, Oana]]; [[Nwatu, Joan]]; [[Mihalcea, Rada]]; [[Solorio, Thamar]]; [[Aji, Alham Fikri]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.05967"
 external_pdf: "https://arxiv.org/pdf/2406.05967.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)]]
+[[Romero, David]], [[Lyu, Chenyang]], [[Wibowo, Haryo Akbarianto]], [[Lynn, Teresa]], [[Hamed, Injy]], [[Kishore, Aditya Nanda]], [[Mandal, Aishik]], [[Dragonetti, Alina]], [[Abzaliev, Artem]], [[Tonja, Atnafu Lambebo]], [[Balcha, Bontu Fufa]], [[Whitehouse, Chenxi]], [[Salamea, Christian]], [[Velasco, Dan John]], [[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]], [[Minh-Tuan Le Minh-Tan Le|Meur, David Le]], [[Emilio Villa-Cueva|Villa-Cueva, Emilio]], [[Koto, Fajri]], [[Farooqui, Fauzan]], [[Belcavello, Frederico]], [[Batnasan, Ganzorig]], [[Vallejo, Gisela]], [[Caulfield, Grainne]], [[Ivetta, Guido]], [[Song, Haiyue]], [[Henok Biadglign Ademtew|Ademtew, Henok Biadglign]], [[Maina, Hernán]], [[Lovenia, Holy]], [[Azime, Israel Abebe]], [[Cruz, Jan Christian Blaise]], [[Jay Gala|Gala, Jay]], [[Geng, Jiahui]], [[Ortiz-Barajas, Jesus-German]], [[Baek, Jinheon]], [[Dunstan, Jocelyn]], [[Alemany, Laura Alonso]], [[Nagasinghe, Kumaranage Ravindu Yasas]], [[Benotti, Luciana]], [[D'Haro, Luis Fernando]], [[Marcelo Viridiano|Viridiano, Marcelo]], [[Estecha-Garitagoitia, Marcos]], [[Cabrera, Maria Camila Buitrago]], [[Rodríguez-Cantelar, Mario]], [[Jouitteau, Mélanie]], [[Mihail Mihaylov|Mihaylov, Mihail]], [[Imam, Mohamed Fazli Mohamed]], [[Muhammad Farid Adilazuarda|Adilazuarda, Muhammad Farid]], [[Gochoo, Munkhjargal]], [[Otgonbold, Munkh-Erdene]], [[Etori, Naome]], [[Niyomugisha, Olivier]], [[Silva, Paula Mónica]], [[Chitale, Pranjal]], [[Dabre, Raj]], [[Chevi, Rendi]], [[Zhang, Ruochen]], [[Diandaru, Ryandito]], [[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Góngora, Santiago]], [[Jeong, Soyeong]], [[Purkayastha, Sukannya]], [[Kuribayashi, Tatsuki]], [[Clifford, Teresa]], [[Jayakumar, Thanmay]], [[Tiago Timponi Torrent|Torrent, Tiago Timponi]], [[Ehsan, Toqeer]], [[Araujo, Vladimir]], [[Kementchedjhieva, Yova]], [[Burzo, Zara]], [[Lim, Zheng Wei]], [[Yong, Zheng Xin]], [[Ignat, Oana]], [[Nwatu, Joan]], [[Rada Mihalcea|Mihalcea, Rada]], [[Thamar Solorio|Solorio, Thamar]], [[Alham Fikri Aji|Aji, Alham Fikri]]
 
 ## Metadata
 
-**Authors:** David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, et al. (70+ authors)
+**Authors:** Romero, David; Lyu, Chenyang; Wibowo, Haryo Akbarianto; Lynn, Teresa; Hamed, Injy; Kishore, Aditya Nanda; Mandal, Aishik; Dragonetti, Alina; Abzaliev, Artem; Tonja, Atnafu Lambebo; Balcha, Bontu Fufa; Whitehouse, Chenxi; Salamea, Christian; Velasco, Dan John; Adelani, David Ifeoluwa; Meur, David Le; Villa-Cueva, Emilio; Koto, Fajri; Farooqui, Fauzan; Belcavello, Frederico; Batnasan, Ganzorig; Vallejo, Gisela; Caulfield, Grainne; Ivetta, Guido; Song, Haiyue; Ademtew, Henok Biadglign; Maina, Hernán; Lovenia, Holy; Azime, Israel Abebe; Cruz, Jan Christian Blaise; Gala, Jay; Geng, Jiahui; Ortiz-Barajas, Jesus-German; Baek, Jinheon; Dunstan, Jocelyn; Alemany, Laura Alonso; Nagasinghe, Kumaranage Ravindu Yasas; Benotti, Luciana; D'Haro, Luis Fernando; Viridiano, Marcelo; Estecha-Garitagoitia, Marcos; Cabrera, Maria Camila Buitrago; Rodríguez-Cantelar, Mario; Jouitteau, Mélanie; Mihaylov, Mihail; Imam, Mohamed Fazli Mohamed; Adilazuarda, Muhammad Farid; Gochoo, Munkhjargal; Otgonbold, Munkh-Erdene; Etori, Naome; Niyomugisha, Olivier; Silva, Paula Mónica; Chitale, Pranjal; Dabre, Raj; Chevi, Rendi; Zhang, Ruochen; Diandaru, Ryandito; Cahyawijaya, Samuel; Góngora, Santiago; Jeong, Soyeong; Purkayastha, Sukannya; Kuribayashi, Tatsuki; Clifford, Teresa; Jayakumar, Thanmay; Torrent, Tiago Timponi; Ehsan, Toqeer; Araujo, Vladimir; Kementchedjhieva, Yova; Burzo, Zara; Lim, Zheng Wei; Yong, Zheng Xin; Ignat, Oana; Nwatu, Joan; Mihalcea, Rada; Solorio, Thamar; Aji, Alham Fikri
 
 **Year:** 2024
 

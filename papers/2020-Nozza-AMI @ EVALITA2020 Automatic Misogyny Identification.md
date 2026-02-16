@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "AMI @ EVALITA2020: Automatic Misogyny Identification"
 year: 2025
 first_author: "[[Nozza, Debora]]"
-last_author: "[[Nozza, Debora]]"
+last_author: "[[Debora Nozza]]"
 authors: "[[Nozza, Debora]]"
 authors_incomplete: true
 url: "https://amievalita2020.github.io/"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: Italian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Debora Nozza et al.]]
+[[Debora Nozza]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "Assamese, Bengali, English, Sinhala"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Lucas Bandarkar]], [[Davis Liang]], [[Benjamin Muller]], [[Mikel Artetxe]], [[Satya Narayan Shukla]], [[Donald Husa]], [[Naman Goyal]], [[Abhinandan Krishnan]], [[Luke Zettlemoyer]], [[Madian Khabsa]]
+[[Bandarkar, Lucas]], [[Liang, Davis]], [[Muller, Benjamin]], [[Artetxe, Mikel]], [[Shukla, Satya Narayan]], [[Husa, Donald]], [[Goyal, Naman]], [[Krishnan, Abhinandan]], [[Zettlemoyer, Luke]], [[Khabsa, Madian]]
 
 ## Metadata
 

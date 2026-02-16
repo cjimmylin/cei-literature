@@ -1,9 +1,9 @@
 ---
 name: "Soroush Vosoughi"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "College, Hanover, NH, USA"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "ropaula@br.ibm.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge|A Systematic Study of Position Bias in LLM-as-a-Judge]]
+
+- [[2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large|DECASTE Unveiling Caste Stereotypes in Large]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: ropaula@br.ibm.com
+- *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: ropaula@br.ibm.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

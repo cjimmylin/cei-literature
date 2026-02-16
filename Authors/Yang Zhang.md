@@ -18,13 +18,22 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating|GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek]] (First Author)
+- [[2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text|Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text]]
 - [[2025-Shen-HateBench|HateBench]] (Last Author)
 - [[2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large|PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models]]
+- [[2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using|Uncovering Cross-Linguistic Disparities in LLMs using]] (Last Author)
 - [[2024-Qiu-ProgressGym|ProgressGym]]
-- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]] (Last Author)
+- [[2023-Shen-“Do Anything Now”|'Do Anything Now']] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Qiu-ProgressGym*: Affiliation: lable at https://github
+- *From 2024-Qiu-ProgressGym*: Affiliation: lable at https://github
 - *From 2023-Shen-“Do Anything Now”*: Affiliation: Center for Information Security
 [Additional context or contact information]

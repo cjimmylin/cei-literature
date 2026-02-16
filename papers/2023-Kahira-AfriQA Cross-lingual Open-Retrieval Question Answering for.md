@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "AfriQA Cross-lingual Open-Retrieval Question Answering for"
 year: 2025
 first_author: "[[Ogundepo, Odunayo]]"
-last_author: "[[Kahira, Albert Njoroge]]"
-authors: "[[Ogundepo, Odunayo]]; [[Gwadabe, Tajuddeen R.]]; [[Rivera, Clara E.]]; [[Clark, Jonathan H.]]; [[Ruder, Sebastian]]; [[Adelani, David Ifeoluwa]]; [[Dossou, Bonaventure F. P.]]; [[DIOP, Abdou Aziz]]; [[Sikasote, Claytone]]; [[Hacheme, Gilles]]; [[Buzaaba, Happy]]; [[Ezeani, Ignatius]]; [[Mabuya, Rooweither]]; [[Osei, Salomey]]; [[Emezue, Chris]]; [[Kahira, Albert Njoroge]]"
-authors_incomplete: true
+last_author: "[[Adhiambo, Sonia]]"
+authors: "[[Ogundepo, Odunayo]]; [[Gwadabe, Tajuddeen R.]]; [[Rivera, Clara E.]]; [[Clark, Jonathan H.]]; [[Ruder, Sebastian]]; [[Adelani, David Ifeoluwa]]; [[Dossou, Bonaventure F. P.]]; [[DIOP, Abdou Aziz]]; [[Sikasote, Claytone]]; [[Hacheme, Gilles]]; [[Buzaaba, Happy]]; [[Ezeani, Ignatius]]; [[Mabuya, Rooweither]]; [[Osei, Salomey]]; [[Emezue, Chris]]; [[Kahira, Albert Njoroge]]; [[Muhammad, Shamsuddeen H.]]; [[Oladipo, Akintunde]]; [[Owodunni, Abraham Toluwase]]; [[Tonja, Atnafu Lambebo]]; [[Shode, Iyanuoluwa]]; [[Asai, Akari]]; [[Ajayi, Tunde Oluwaseyi]]; [[Siro, Clemencia]]; [[Arthur, Steven]]; [[Adeyemi, Mofetoluwa]]; [[Ahia, Orevaoghene]]; [[Aremu, Anuoluwapo]]; [[Awosan, Oyinkansola]]; [[Chukwuneke, Chiamaka]]; [[Opoku, Bernard]]; [[Ayodele, Awokoya]]; [[Otiende, Verrah]]; [[Mwase, Christine]]; [[Sinkala, Boyd]]; [[Rubungo, Andre Niyongabo]]; [[Ajisafe, Daniel A.]]; [[Onwuegbuzia, Emeka Felix]]; [[Mbow, Habib]]; [[Niyomutabazi, Emile]]; [[Mukonde, Eunice]]; [[Lawan, Falalu Ibrahim]]; [[Ahmad, Ibrahim Said]]; [[Alabi, Jesujoba O.]]; [[Namukombo, Martin]]; [[Chinedu, Mbonu]]; [[Phiri, Mofya]]; [[Putini, Neo]]; [[Mngoma, Ndumiso]]; [[Amuok, Priscilla A.]]; [[Iro, Ruqayya Nasir]]; [[Adhiambo, Sonia]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2305.06897"
 external_pdf: "https://arxiv.org/pdf/2305.06897.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H. Clark, Sebastian Ruder, David Ifeoluwa Adelani, Bonaventure F. P. Dossou, Abdou Aziz DIOP, Claytone Sikasote, Gilles Hacheme, Happy Buzaaba, Ignatius Ezeani, Rooweither Mabuya, Salomey Osei, Chris Emezue, Albert Njoroge Kahira, et al]]
+[[Ogundepo, Odunayo]], [[Gwadabe, Tajuddeen R]], [[Rivera, Clara E]], [[Clark, Jonathan H]], [[Sebastian Ruder|Ruder, Sebastian]], [[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]], [[Dossou, Bonaventure F. P]], [[DIOP, Abdou Aziz]], [[Sikasote, Claytone]], [[Hacheme, Gilles]], [[Buzaaba, Happy]], [[Ezeani, Ignatius]], [[Mabuya, Rooweither]], [[Salomey Osei|Osei, Salomey]], [[Chris Emezue|Emezue, Chris]], [[Kahira, Albert Njoroge]], [[Muhammad, Shamsuddeen H]], [[Oladipo, Akintunde]], [[Owodunni, Abraham Toluwase]], [[Tonja, Atnafu Lambebo]], [[Shode, Iyanuoluwa]], [[Asai, Akari]], [[Ajayi, Tunde Oluwaseyi]], [[Siro, Clemencia]], [[Arthur, Steven]], [[Adeyemi, Mofetoluwa]], [[Ahia, Orevaoghene]], [[Anuoluwapo Aremu|Aremu, Anuoluwapo]], [[Awosan, Oyinkansola]], [[Chukwuneke, Chiamaka]], [[Bernard Opoku|Opoku, Bernard]], [[Ayodele, Awokoya]], [[Otiende, Verrah]], [[Mwase, Christine]], [[Sinkala, Boyd]], [[Rubungo, Andre Niyongabo]], [[Ajisafe, Daniel A]], [[Onwuegbuzia, Emeka Felix]], [[Mbow, Habib]], [[Niyomutabazi, Emile]], [[Mukonde, Eunice]], [[Lujain Ibrahim|Lawan, Falalu Ibrahim]], [[Ibrahim Sa'id Ahmad|Ahmad, Ibrahim Said]], [[Alabi, Jesujoba O]], [[Namukombo, Martin]], [[Chinedu, Mbonu]], [[Phiri, Mofya]], [[Putini, Neo]], [[Mngoma, Ndumiso]], [[Amuok, Priscilla A]], [[Iro, Ruqayya Nasir]], [[Adhiambo, Sonia]]
 
 ## Metadata
 
-**Authors:** Odunayo Ogundepo, Tajuddeen R. Gwadabe, Clara E. Rivera, Jonathan H. Clark, Sebastian Ruder, David Ifeoluwa Adelani, Bonaventure F. P. Dossou, Abdou Aziz DIOP, Claytone Sikasote, Gilles Hacheme, Happy Buzaaba, Ignatius Ezeani, Rooweither Mabuya, Salomey Osei, Chris Emezue, Albert Njoroge Kahira, et al.
+**Authors:** Ogundepo, Odunayo; Gwadabe, Tajuddeen R.; Rivera, Clara E.; Clark, Jonathan H.; Ruder, Sebastian; Adelani, David Ifeoluwa; Dossou, Bonaventure F. P.; DIOP, Abdou Aziz; Sikasote, Claytone; Hacheme, Gilles; Buzaaba, Happy; Ezeani, Ignatius; Mabuya, Rooweither; Osei, Salomey; Emezue, Chris; Kahira, Albert Njoroge; Muhammad, Shamsuddeen H.; Oladipo, Akintunde; Owodunni, Abraham Toluwase; Tonja, Atnafu Lambebo; Shode, Iyanuoluwa; Asai, Akari; Ajayi, Tunde Oluwaseyi; Siro, Clemencia; Arthur, Steven; Adeyemi, Mofetoluwa; Ahia, Orevaoghene; Aremu, Anuoluwapo; Awosan, Oyinkansola; Chukwuneke, Chiamaka; Opoku, Bernard; Ayodele, Awokoya; Otiende, Verrah; Mwase, Christine; Sinkala, Boyd; Rubungo, Andre Niyongabo; Ajisafe, Daniel A.; Onwuegbuzia, Emeka Felix; Mbow, Habib; Niyomutabazi, Emile; Mukonde, Eunice; Lawan, Falalu Ibrahim; Ahmad, Ibrahim Said; Alabi, Jesujoba O.; Namukombo, Martin; Chinedu, Mbonu; Phiri, Mofya; Putini, Neo; Mngoma, Ndumiso; Amuok, Priscilla A.; Iro, Ruqayya Nasir; Adhiambo, Sonia
 
 **Year:** 2023
 

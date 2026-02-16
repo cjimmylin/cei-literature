@@ -1,7 +1,7 @@
 ---
 name: "Josef Dai"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at https://github"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Dai-Safe RLHF|Safe RLHF]] (First Author)]]
+
 
 - [[2023-Dai-Safe RLHF|Safe RLHF]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Dai-Safe RLHF*: Affiliation: lable at https://github
+- *From 2023-Dai-Safe RLHF*: Affiliation: lable at https://github
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

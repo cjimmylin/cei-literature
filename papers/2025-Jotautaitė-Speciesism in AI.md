@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/XG6G6KHG/Jotautaitė et al.
 pdf_extract: "PDF Extracts/2025/2025-Jotautaitė-Speciesism in AI.md"
 local_pdf: "[[PDFs/2025/2025-Jotautaitė-Speciesism in AI.pdf]]"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ key_contribution: "Investigated 'speciesism' in LLMs via SpeciesismBench, findin
 significance: "Expands the 'moral circle' of AI evaluations to non-human animals, revealing that 'aligned' models reflect the deep-seated speciesist norms of current society."
 tags: 
 abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership— and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.48550/arXiv.2508.08333
 url: "https://arxiv.org/abs/2508.08333"
 external_pdf: "https://arxiv.org/pdf/2508.08333.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2025/2025-Yaacov-Normative Moral Pluralism for AI.md"
 abstract: "The conceptual framework proposed in this paper centers on the development of a deliberative moral reasoning system—one designed to process complex moral situations by generating, filtering, and weighing normative arguments drawn from diverse ethical perspectives. While the framework is rooted in Machine Ethics, it also makes a substantive contribution to Value Alignment by outlining a system architecture that links structured moral reasoning to action under time constraints."
 paper_summary: "Abstract: The conceptual framework proposed in this paper centers on the development of a deliberative moral reasoning sys- tem—one designed to process complex moral situations by generating, filtering, and wei | Overview: Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts David Doron Yaacov The University of Haifa David.d.yaacov@gmail.com Abstract The conceptual framework proposed  | Conclusions: As AI systems increasingly engage with morally significant decisions, foundational questions about the structure of eth- ical reasoning have become ur"
 local_pdf: "[[PDFs/2025/2025-Yaacov-Normative Moral Pluralism for AI.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

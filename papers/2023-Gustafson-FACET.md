@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1109/ICCV51070.2023.01863
 url: "https://ieeexplore.ieee.org/document/10377223/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RS2ZQBS3/Gustafson et al. - 2023 - FACET Fairness in Computer Vision Evaluation Benchmark.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Released FACET (Fairness in Computer Vision Evaluation), a be
 significance: "Enables granular analysis of performance disparities in vision tasks (classification, detection) across intersectional demographics, revealing significant biases in state-of-the-art models."
 tags: 
 abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

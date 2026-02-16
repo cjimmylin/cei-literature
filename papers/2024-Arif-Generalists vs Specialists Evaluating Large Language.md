@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "Generalists vs Specialists Evaluating Large Language"
 year: 2025
 first_author: "[[Arif, Samee]]"
-last_author: "[[Raza, Agha Ali]]"
-authors: "[[Arif, Samee]]; [[Azeemi, Abdul Hameed]]; [[Raza, Agha Ali]]"
-authors_incomplete: true
+last_author: "[[Athar, Awais]]"
+authors: "[[Arif, Samee]]; [[Azeemi, Abdul Hameed]]; [[Raza, Agha Ali]]; [[Athar, Awais]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2407.04459"
 external_pdf: "https://arxiv.org/pdf/2407.04459.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Arif-Generalists vs Specialists Evaluating Large Language.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Pakistani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Other"
 
 ## Authors
 
-[[Arif, Samee]], [[Azeemi, Abdul Hameed]], [[Raza, Agha Ali]]
+[[Arif, Samee]], [[Azeemi, Abdul Hameed]], [[Raza, Agha Ali]], [[Athar, Awais]]
 
 ## Metadata
 
-**Authors:** Samee Arif; Abdul Hameed Azeemi; Agha Ali Raza
+**Authors:** Arif, Samee; Azeemi, Abdul Hameed; Raza, Agha Ali; Athar, Awais
 
 **Year:** 2024
 

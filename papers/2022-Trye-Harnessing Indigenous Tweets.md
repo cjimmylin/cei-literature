@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ doi: 10.1007/s10579-022-09580-w
 url: "https://link.springer.com/10.1007/s10579-022-09580-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-022-09580-w.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Maori"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Trye-Harnessing Indigenous Tweets.md"
 local_pdf: "[[PDFs/2022/2022-Trye-Harnessing Indigenous Tweets.pdf]]"
 abstract: "Abstract Te reo Māori, the Indigenous language of Aotearoa New Zealand, is a distinctive feature of the nation's cultural heritage. This paper documents our efforts to build a corpus of 79,000 Māori-language tweets using computational methods. The Reo Māori Twitter (RMT) Corpus was created by targeting Māori-language users identified by the Indigenous Tweets website, pre-processing their data and filtering out non-Māori tweets, together with other sources of noise. Our motivation for creating su"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conference_paper
 short_title: "Itihasa A Large-Scale Corpus for Sanskrit"
 year: 2025
 first_author: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"
-last_author: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"
+last_author: "[[Anders Sogaard Anoop Kunchukuttan]]"
 authors: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2106.03269"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]
+[[Miryam de Lhoneux Rahul Aralikatte]], [[Anders Sogaard Anoop Kunchukuttan]]
 
 ## Metadata
 

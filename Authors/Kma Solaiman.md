@@ -21,10 +21,16 @@ KMA Solaiman (Khaled "KMA" Solaiman) is an Assistant Teaching Professor in the D
 ## Papers in this Vault
 
 
+
+
 - [[2025-Solaiman-BiasLab|BiasLab]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu
+- *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract"\nsource_pdf: "2025-Solaiman-BiasLab, Email: ksolaima@umbc.edu
 - *From 2025-Solaiman-BiasLab*: Affiliation: Lab - PDF Extract", Email: ksolaima@umbc.edu
 Research addresses the critical need for transparency in bias detection systems by incorporating human-in-the-loop interpretability and evaluation of explanation effectiveness in real-world settings.

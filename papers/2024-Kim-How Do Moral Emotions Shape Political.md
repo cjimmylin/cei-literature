@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ doi: 10.18653/v1/2024.findings-acl.963
 url: "https://aclanthology.org/2024.findings-acl.963/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZEHT2BKU/Kim et al. - 2024 - How Do Moral Emotions Shape Political Participation A Cross-Cultural Analysis of Online Petitions U.pdf"
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Korean, Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +25,7 @@ key_contribution: "Analyzed cross-cultural online petitions to see how 'moral em
 significance: "Shows that emotional drivers of political action are culture-specific (e.g., 'other-praising' works differently in Korea vs UK), meaning AI that generates/analyzes political content needs cultural emotional intelligence."
 tags: 
 abstract: "Understanding the interplay between emotions in language and user behaviors is critical. We study how moral emotions shape the political participation of users based on cross-cultural online petition data. To quantify moral emotions, we employ a context-aware NLP model that is designed to capture the subtle nuances of emotions across cultures. For model training, we construct and share a moral emotion dataset comprising nearly 50,000 petition sentences in Korean and English each, along with..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

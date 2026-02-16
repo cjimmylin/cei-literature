@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.18653/v1/2020.acl-main.486
 url: "https://www.aclweb.org/anthology/2020.acl-main.486"
 external_pdf: "https://aclanthology.org/2020.acl-main.486.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -25,6 +28,7 @@ tags:
 abstract: "Warning: this paper contains content that may be offensive or upsetting. Language has the power to reinforce stereotypes and project social biases onto others. At the core of the challenge is that it is rarely what is stated explicitly, but rather the implied meanings, that frame people’s judgments about others. For example, given a statement that “we shouldn’t lower our standards to hire more women,” most listeners will infer the implicature intended by the speaker — that “women (candidates)..."
 pdf_extract: "PDF Extracts/2020/2020-Sap-Social Bias Frames.md"
 local_pdf: "[[PDFs/2020/2020-Sap-Social Bias Frames.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

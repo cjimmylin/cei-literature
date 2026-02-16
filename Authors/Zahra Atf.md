@@ -1,7 +1,7 @@
 ---
 name: "Zahra Atf"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Faculty of Business and Information Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Atf-Kantian-Utilitarian XAI|Kantian-Utilitarian XAI]] (First Author)]]
+
 
 - [[2025-Atf-Kantian-Utilitarian XAI|Kantian-Utilitarian XAI]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
+- *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

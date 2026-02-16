@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2304.13765"
 external_pdf: "http://arxiv.org/pdf/2304.13765.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Roger-Towards ethical multimodal systems.md
 abstract: "Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multiple areas of our lives, from art Rombach et al. [2021] to mental health Rob Morris and Kareem Kouddous [2022]; their rapidly growing societal impact opens new opportunities, but also raises ethical concerns. The emerging field of AI alignment aims to make AI systems reflect human values. This paper focuses on evaluating the ethics of multimodal AI systems involving both text and images - a relatively under-explored area, as..."
 paper_summary: "Abstract: Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multiple areas of our lives, from art Rombach et al. [2021] to mental health Rob Morris and Kareem Kouddous [2022]; their rapidly growin | Overview: Towards Ethical Multimodal Systems Alexis Roger Department of Computer Science and Operations Research University of Montreal Mila - Quebec AI Institute alexis.roger@umontreal.ca Esma Aïmeur Departmen | Methodology: inspired by Elourajini and Aïmeur [2022], involving a multilayer perceptron. We based our architec- ture on the MAGMA algorithm (Eichenberg et al. [20 | Key Findings: 5 --- Page 6 --- does not rule out the proposed approach; rather, we must focus on improving the classifiers, including training larger-scale deep net"
 local_pdf: "[[PDFs/2023/2023-Roger-Towards ethical multimodal systems.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

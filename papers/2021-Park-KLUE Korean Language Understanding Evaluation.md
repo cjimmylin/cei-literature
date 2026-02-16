@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Privacy & Data Ethics"
 
 ## Authors
 
-[[Sungjoon Park, Jihyung Moon, Sungdong Kim, Won Ik Cho, Jiyoon Han, Jangwon Park, Chisung Song, Junseong Kim, Yongsook Song, Taehwan Oh, Joohong Lee, Juhyun Oh, Sungwon Lyu, Younghoon Jeong, Inkwon Lee, Sangwoo Seo, Dongjun Lee, Hyunwoo Kim, Myeonghwa Lee, Seongbo Jang, Seungwon Do, Sunkyoung Kim, Kyungtae Lim, Jongwon Lee, Kyumin Park, Jamin Shin, Seonghyun Kim, Lucy Park, Alice Oh, Jungwoo Ha, Kyunghyun Cho]]
+[[Sungjoon Park]], [[Jihyung Moon]], [[Sungdong Kim]], [[Won Ik Cho]], [[Jiawei Han|Jiyoon Han]], [[Jangwon Park]], [[Chisung Song]], [[Junseong Kim]], [[Yongsook Song]], [[Tae-Hyun Oh|Taehwan Oh]], [[Joohong Lee]], [[Juhyun Oh]], [[Sungwon Lyu]], [[Yujin Jeong|Younghoon Jeong]], [[Inkwon Lee]], [[Sangwoo Seo]], [[Dongjun Lee]], [[Hyunwoo Kim]], [[Myeonghwa Lee]], [[Seongyu Jang|Seongbo Jang]], [[Seungwon Do]], [[Sunkyoung Kim]], [[Kyungtae Lim]], [[Jongwon Lee]], [[Kyumin Park]], [[Jamin Shin]], [[Seonghyun Kim]], [[Lucy Park]], [[Alice Oh]], [[Jung-woo Ha|Jungwoo Ha]], [[Kyunghyun Cho]]
 
 ## Metadata
 

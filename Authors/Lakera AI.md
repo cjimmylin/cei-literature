@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Lakera-GandalfIgnoreInstructions|GandalfIgnoreInstructions]] (First Author)]]
+
 
 - [[2023-Lakera-GandalfIgnoreInstructions|GandalfIgnoreInstructions]] (First Author)
 

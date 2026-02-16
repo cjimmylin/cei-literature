@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet"
 year: 2025
 first_author: "[[Paraskevopoulos, Georgios]]"
-last_author: "[[Paraskevopoulos, Georgios]]"
+last_author: "[[Georgios Paraskevopoulos]]"
 authors: "[[Paraskevopoulos, Georgios]]"
 authors_incomplete: true
 doi: 10.3390/bioengineering11060521
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Georgios Paraskevopoulos et al.]]
+[[Georgios Paraskevopoulos]]
 
 ## Metadata
 

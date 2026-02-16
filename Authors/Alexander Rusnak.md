@@ -20,10 +20,16 @@ Alexander Rusnak is a researcher working at the intersection of AI ethics and Ch
 ## Papers in this Vault
 
 
+
+
 - [[2025-Rusnak-EudAImonia|EudAImonia]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: contact@iscast.org
+- *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: journal@iscast.org
 - *From 2025-Rusnak-EudAImonia*: Affiliation: College of Divinity), Email: contact@iscast.org
 Published in The ISCAST Journal - Christian Perspectives on Science and Technology (2025). The paper examines virtue ethics benefits for AI deployment and proposes a virtue-informed training approach for LLMs. Also addresses risks of brain-computer interface technology and its impact on human virtue.

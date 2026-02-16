@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Farid-One Model, Many Morals|One Model, Many Morals]]
 
 ## Notes
 
 
+
+
+- *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
+- *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 [Additional context or contact information]

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: Multilingual
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Zhenyu Li]], [[Kehai Chen]], [[Yunfei Long]], [[Xuefeng Bai]], [[Yaoyin Zhang]], [[Xuchen Wei]], [[Juntao Li]], [[Min Zhang]]
+[[Li, Zhenyu]], [[Chen, Kehai]], [[Long, Yunfei]], [[Bai, Xuefeng]], [[Zhang, Yaoyin]], [[Wei, Xuchen]], [[Li, Juntao]], [[Zhang, Min]]
 
 ## Metadata
 

@@ -48,6 +48,8 @@ Christopher David Manning is the inaugural Thomas M. Siebel Professor in Machine
 ## Papers in this Vault
 
 
+
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -65,5 +67,9 @@ Christopher David Manning is the inaugural Thomas M. Siebel Professor in Machine
 ## Notes
 
 
+
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 Christopher Manning is arguably the most influential figure in modern NLP. His textbooks trained a generation of NLP researchers, his open-source tools democratized access to NLP technology, and his research on attention mechanisms laid groundwork for the transformer revolution. His involvement in HELM reflects his commitment to rigorous evaluation of AI systems, which is essential for understanding their capabilities and limitations.

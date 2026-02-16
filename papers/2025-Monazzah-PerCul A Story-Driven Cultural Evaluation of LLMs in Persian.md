@@ -45,7 +45,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Erfan Moosavi Monazzah, Vahid Rahimzadeh, Yadollah Yaghoobzadeh, Azadeh Shakery, Mohammad Taher Pilehvar]]
+[[Erfan Moosavi Monazzah]], [[Vahid Rahimzadeh]], [[Yadollah Yaghoobzadeh]], [[Azadeh Shakery]], [[Mohammad Taher Pilehvar]]
 
 ## Metadata
 

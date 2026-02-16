@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Amanda da Silva Oliveira, Thiago de Carvalho Cecote, João Paulo Reis Alvarenga, Vander Luis de Souza Freitas, Eduardo José da Silva Luz]]
+[[Amanda da Silva Oliveira]], [[Thiago de Carvalho Cecote]], [[João Paulo Reis Alvarenga]], [[Vander Luis de Souza Freitas]], [[Eduardo José da Silva Luz]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.1038/s41586-018-0637-6
 url: "https://www.nature.com/articles/s41586-018-0637-6"
 external_pdf: "https://ore.exeter.ac.uk/repository/bitstream/10871/39187/4/Moral%20Machine.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
@@ -24,6 +26,7 @@ key_contribution: "Deployed the Moral Machine experiment (40M decisions) to map 
 significance: "The foundational large-scale study of machine ethics, revealing that ethical preferences are not universal but culturally clustered (Western vs. Eastern vs. Southern), complicating global alignment."
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

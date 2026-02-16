@@ -20,10 +20,16 @@ Airlie Hilliard is a researcher working at the intersection of AI ethics and glo
 ## Papers in this Vault
 
 
+
+
 - [[2022-Gwagwa-The role of the African value of Ubuntu in global|The role of the African value of Ubuntu in global]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
+- *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 - *From 2022-Gwagwa-The role of the African value of Ubuntu in global*: Affiliation: Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, Email: e.a.gwagwa@uu.nl
 Co-authored work with Arthur Gwagwa and Emre Kazim on Ubuntu and AI ethics, published in Patterns (2022). The paper argues that African communal values can contribute to more inclusive global AI ethics frameworks.

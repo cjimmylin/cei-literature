@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "OffendES: A New Corpus in Spanish for Offensive Language Research"
 year: 2025
 first_author: "[[Plaza-del-Arco, Flor Miriam]]"
-last_author: "[[Plaza-del-Arco, Flor Miriam]]"
+last_author: "[[Flor Miriam Plaza-del-Arco]]"
 authors: "[[Plaza-del-Arco, Flor Miriam]]"
 authors_incomplete: true
 url: "https://aclanthology.org/2021.ranlp-1.123/"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Flor Miriam Plaza-del-Arco, et al.]]
+[[Flor Plaza-del-Arco|Flor Miriam Plaza-del-Arco]]
 
 ## Metadata
 

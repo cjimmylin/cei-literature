@@ -47,6 +47,8 @@ She is a leading voice in the critical survey of "bias" in NLP, advocating for m
 
 ## Papers in this Vault
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## External Links & Profiles
@@ -62,5 +64,9 @@ She is a leading voice in the critical survey of "bias" in NLP, advocating for m
 
 ## Notes
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 [Alexandra is a key researcher in the FATE community, bridging technical NLP and social science.]

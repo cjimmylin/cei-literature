@@ -10,8 +10,8 @@ type: journalArticle
 short_title: "CreoleVal: Multilingual Multitask Benchmarks for Creoles"
 year: 2024
 first_author: "[[Heather Lent]]"
-last_author: "[[Heather Lent]]"
-authors: Heather Lent et al.
+last_author: "[[Johannes Bjerva]]"
+authors: "Heather Lent; Kushal Tatariya; Raj Dabre; Yiyi Chen; Marcell Fekete; Esther Ploeger; Li Zhou; Ruth-Ann Armstrong; Abee Eijansantos; Catriona Malau; Hans Erik Heje; Ernests Lavrinovics; Diptesh Kanojia; Paul Belony; Marcel Bollmann; Loïc Grobol; Miryam de Lhoneux; Daniel Hershcovich; Michel DeGraff; Anders Søgaard; Johannes Bjerva"
 doi: 10.1162/tacl_a_00682
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00682/124256/CreoleVal-Multilingual-Multitask-Benchmarks-for"
 publication: TACL (Transactions of the ACL, 2024)
@@ -44,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Heather Lent et al.]]
+[[Heather Lent]], [[Kushal Tatariya]], [[Raj Dabre]], [[Yiyi Chen]], [[Marcell Fekete]], [[Esther Ploeger]], [[Li Zhou]], [[Ruth-Ann Armstrong]], [[Abee Eijansantos]], [[Catriona Malau]], [[Hans Erik Heje]], [[Ernests Lavrinovics]], [[Diptesh Kanojia]], [[Paul Belony]], [[Marcel Bollmann]], [[Loïc Grobol]], [[Miryam de Lhoneux]], [[Daniel Hershcovich]], [[Michel DeGraff]], [[Anders Søgaard]], [[Johannes Bjerva]]
 
 ## Metadata
 

@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2020-Della Foresta-Consequentialism Machine Ethics|Consequentialism Machine Ethics]] (First Author)]]
+
 
 - [[2020-Della Foresta-Consequentialism Machine Ethics|Consequentialism Machine Ethics]] (First Author)
 

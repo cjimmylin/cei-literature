@@ -52,6 +52,8 @@ His research group has also worked on NL2VIS - translating natural language quer
 ## Papers in this Vault
 
 
+
+
 - [[2023-Li-BIRD|BIRD]]
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
@@ -63,5 +65,9 @@ His research group has also worked on NL2VIS - translating natural language quer
 ## Notes
 
 
+
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 Li's work on the intersection of databases and AI, particularly on natural language interfaces to databases, contributes to making data systems more accessible and intelligent.

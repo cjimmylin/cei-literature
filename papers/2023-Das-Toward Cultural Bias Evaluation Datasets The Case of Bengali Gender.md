@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,10 +14,10 @@ key: LSRC0170
 type: conferencePaper
 short_title: "Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)"
 year: 2025
-first_author: "[[Das, D.]]"
-last_author: "[[D.]]"
-authors: "[[Das, D.]]; [[D.]]"
-authors_incomplete: true
+first_author: "[[Das, Dipto]]"
+last_author: "[[Semaan, Bryan C]]"
+authors: "[[Das, Dipto]]; [[Guha, Shion]]; [[Semaan, Bryan C.]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2023.c3nlp-1.8/"
 external_pdf: "https://aclanthology.org/2023.c3nlp-1.8.pdf"
 publication: "ACL Anthology (C3NLP @ EACL 2023)"
@@ -28,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -48,11 +50,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Das, D. et al.]]
+[[Das, Dipto]], [[Guha, Shion]], [[Semaan, Bryan C]]
 
 ## Metadata
 
-**Authors:** Das, D. et al.
+**Authors:** Das, Dipto; Guha, Shion; Semaan, Bryan C.
 
 **Year:** 2023
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi, Bengali"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Daeen Kabir]], [[Minhajur Rahman Chowdhury Mahim]], [[Sheikh Shafayat]], [[Adnan Sadik]], [[Arian Ahmed]], [[Eunsu Kim]], [[Alice Oh]]
+[[Kabir, Daeen]], [[Mahim, Minhajur Rahman Chowdhury]], [[Shafayat, Sheikh]], [[Sadik, Adnan]], [[Ahmed, Arian]], [[Kim, Eunsu]], [[Alice Oh|Oh, Alice]]
 
 ## Metadata
 

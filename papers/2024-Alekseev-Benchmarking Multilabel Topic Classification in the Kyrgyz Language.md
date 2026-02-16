@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kyrgyz"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Anton Alekseev]], [[Sergey I. Nikolenko]], [[Gulnara Kabaeva]]
+[[Alekseev, Anton]], [[Nikolenko, Sergey I]], [[Kabaeva, Gulnara]]
 
 ## Metadata
 

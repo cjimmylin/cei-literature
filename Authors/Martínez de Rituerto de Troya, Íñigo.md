@@ -1,9 +1,9 @@
 ---
 name: "Martínez de Rituerto de Troya, Íñigo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "maartenwilders@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,8 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits|Helpful Harmless Honest Limits]]
-- [[2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI|The Socratic Dialogue as a Method for Virtue Ethics in AI]]]]
+
 
 - [[2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits|Helpful Harmless Honest Limits]]
 - [[2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI|The Socratic Dialogue as a Method for Virtue Ethics in AI]]
@@ -85,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: r.i.j.dobbe@tudelft.nl
+- *From 2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: maartenwilders@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

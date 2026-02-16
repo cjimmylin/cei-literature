@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "N/A"
 languages_list: "Arabic, English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Yimo Deng]], [[Huangxun Chen]]
+[[Deng, Yimo]], [[Chen, Huangxun]]
 
 ## Metadata
 

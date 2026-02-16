@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Rao-NormAd|NormAd]]
 
 ## Notes
 
 
+
+
+- *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
+- *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 - *From 2025-Rao-NormAd*: Affiliation: Institute, Carnegie Mellon University, Email: reinecke@cs.washington.edu
 [Additional context or contact information]

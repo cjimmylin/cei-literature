@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "AC-EVAL Evaluating Ancient Chinese Language Understanding"
 year: 2025
 first_author: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
-last_author: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
+last_author: "[[Bin Wu Di Liu]]"
 authors: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06574"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]
+[[Yuanxing Xu Yuting Wei]], [[Simin Yang Xinru Wei]], [[Yanfei Zhu|Yuqing Li Yangfu Zhu]], [[Bin Wu Di Liu]]
 
 ## Metadata
 

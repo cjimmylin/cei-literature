@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0206
 type: preprint
 short_title: "HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Hate Speech and Offensive Language Detection"
 year: 2025
-first_author: "[[Vargas, Francielle]]"
-last_author: "[[de Melo, Fabiana]]"
-authors: "[[Vargas, Francielle]]; [[Carvalho, Isabelle]]; [[de Melo, Fabiana]]"
-authors_incomplete: true
+first_author: "[[Vargas, Francielle Alves]]"
+last_author: "[[Pardo, Thiago Alexandre Salgueiro]]"
+authors: "[[Vargas, Francielle Alves]]; [[Carvalho, Isabelle]]; [[Góes, Fabiana Rodrigues de]]; [[Benevenuto, Fabrício]]; [[Pardo, Thiago Alexandre Salgueiro]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2103.14972"
 external_pdf: "https://arxiv.org/pdf/2103.14972.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Francielle Vargas, Isabelle Carvalho, Fabiana de Melo, et al.]]
+[[Vargas, Francielle Alves]], [[Carvalho, Isabelle]], [[Góes, Fabiana Rodrigues de]], [[Benevenuto, Fabrício]], [[Pardo, Thiago Alexandre Salgueiro]]
 
 ## Metadata
 
-**Authors:** Francielle Vargas, Isabelle Carvalho, Fabiana de Melo, et al.
+**Authors:** Vargas, Francielle Alves; Carvalho, Isabelle; Góes, Fabiana Rodrigues de; Benevenuto, Fabrício; Pardo, Thiago Alexandre Salgueiro
 
 **Year:** 2022
 

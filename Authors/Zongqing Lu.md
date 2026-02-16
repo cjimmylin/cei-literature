@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games|GAMEBoT: Transparent Assessment of LLM Reasoning in Games]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk
+- *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk
 - *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

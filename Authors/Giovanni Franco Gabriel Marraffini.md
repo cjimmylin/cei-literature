@@ -31,6 +31,8 @@ Marraffini's research examines the ethical reasoning capabilities of AI systems:
 ## Papers in this Vault
 
 
+
+
 - [[2024-Marraffini-The Greatest Good Benchmark|The Greatest Good Benchmark]] (First Author)
 
 ## External Links
@@ -40,5 +42,9 @@ Marraffini's research examines the ethical reasoning capabilities of AI systems:
 ## Notes
 
 
+
+
+- *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia
+- *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia
 - *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia
 Research collaborators include Andres Cotton, Noe Fabian Hsueh, Axel Fridman, Juan Wisznia, and Luciano Del Corro. Limited public information available about institutional affiliation.

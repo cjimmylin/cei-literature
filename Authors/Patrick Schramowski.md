@@ -19,13 +19,21 @@ Patrick Schramowski is a research group leader at the DFKI (German Research Cent
 ## Papers in this Vault
 
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
+- [[2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic|M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
+- [[2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models|Speaking Multiple Languages Affects the Moral Bias of Language Models]] (Last Author)
 - [[2022-Schramowski-I2P Inappropriate Image Prompts Test Bed|I2P: Inappropriate Image Prompts Test Bed]] (First Author)
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany
+- *From 2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany
 - *From 2022-Schramowski-I2P Inappropriate Image Prompts Test Bed*: Affiliation: University Darmstadt, Hessian Center for AI, Germany
 [Additional context or contact information]

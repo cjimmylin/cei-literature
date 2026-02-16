@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Yu-GPTFuzzer|GPTFuzzer]] (Last Author)]]
+
 
 - [[2023-Yu-GPTFuzzer|GPTFuzzer]] (Last Author)
 

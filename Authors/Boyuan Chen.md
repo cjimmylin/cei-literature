@@ -47,6 +47,9 @@ He has made significant contributions to the field of automated scientific disco
 
 ## Papers in this Vault
 
+
+
+- [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## External Links & Profiles
@@ -63,5 +66,9 @@ He has made significant contributions to the field of automated scientific disco
 
 ## Notes
 
+
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Boyuan is a leading figure in the intersection of robotic embodiment and AI safety/discovery.]

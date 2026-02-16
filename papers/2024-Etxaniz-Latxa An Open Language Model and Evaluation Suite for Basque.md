@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "Latxa: An Open Language Model and Evaluation Suite for Basque"
 year: 2025
 first_author: "[[Etxaniz, Julen]]"
-last_author: "[[Etxaniz, Julen]]"
-authors: "[[Etxaniz, Julen]]"
-authors_incomplete: true
+last_author: "[[Soroa, Aitor]]"
+authors: "[[Etxaniz, Julen]]; [[Sainz, Oscar]]; [[Perez, Naiara]]; [[Aldabe, Itziar]]; [[Rigau, German]]; [[Agirre, Eneko]]; [[Ormazabal, Aitor]]; [[Artetxe, Mikel]]; [[Soroa, Aitor]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.20266"
 external_pdf: "https://arxiv.org/pdf/2403.20266.pdf"
 publication: "arXiv / ACL 2024"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Basque"
 languages_list: Basque
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Julen Etxaniz, Oscar Sainz et al.]]
+[[Etxaniz, Julen]], [[Sainz, Oscar]], [[Perez, Naiara]], [[Aldabe, Itziar]], [[Rigau, German]], [[Agirre, Eneko]], [[Ormazabal, Aitor]], [[Artetxe, Mikel]], [[Soroa, Aitor]]
 
 ## Metadata
 
-**Authors:** Julen Etxaniz, Oscar Sainz et al.
+**Authors:** Etxaniz, Julen; Sainz, Oscar; Perez, Naiara; Aldabe, Itziar; Rigau, German; Agirre, Eneko; Ormazabal, Aitor; Artetxe, Mikel; Soroa, Aitor
 
 **Year:** 2024
 

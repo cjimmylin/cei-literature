@@ -10,8 +10,8 @@ type: preprint
 short_title: "SwiLTra-Bench: The Swiss Legal Translation Benchmark"
 year: 2025
 first_author: "[[Joel Niklaus]]"
-last_author: "[[Yingqiang Gao]]"
-authors: Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, et al.
+last_author: "[[Niko Grupen]]"
+authors: "Joel Niklaus; Jakob Merane; Luka Nenadic; Sina Ahmadi; Yingqiang Gao; Cyrill A. H. Chevalley; Claude Humbel; Christophe Gösken; Lorenzo Tanzi; Thomas Lüthi; Stefan Palombo; Spencer Poff; Boling Yang; Nan Wu; Matthew Guillod; Robin Mamié; Daniel Brunner; Julio Pereyra; Niko Grupen"
 doi: 10.18653/v1/2025.acl-long.725
 url: "https://arxiv.org/abs/2503.01372"
 external_pdf: "https://arxiv.org/pdf/2503.01372.pdf"
@@ -45,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Joel Niklaus, Jakob Merane, Luka Nenadic, Sina Ahmadi, Yingqiang Gao, et al.]]
+[[Joel Niklaus]], [[Jakob Merane]], [[Luka Nenadic]], [[Sina Ahmadi]], [[Yingqiang Gao]], [[Cyrill A. H. Chevalley]], [[Claude Humbel]], [[Christophe Gösken]], [[Lorenzo Tanzi]], [[Thomas Lüthi]], [[Stefan Palombo]], [[Spencer Poff]], [[Bikun Yang|Boling Yang]], [[Nan Wu]], [[Matthew Guillod]], [[Robin Mamié]], [[Daniel Brunner]], [[Julio Pereyra]], [[Niko Grupen]]
 
 ## Metadata
 

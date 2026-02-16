@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, French, Italian, Spanish, Russian, Hebrew/Israeli"
+cultures_nationalities_list: "Arabic, French, Italian, Spanish, Russian, Israeli"
 languages_list: "Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer]]
+[[Gabriel Stanovsky]], [[Noah A. Smith]], [[Luke Zettlemoyer]]
 
 ## Metadata
 

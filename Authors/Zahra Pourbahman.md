@@ -21,10 +21,17 @@ Zahra Pourbahman is a PhD Candidate in Computer Engineering at Amirkabir Univers
 ## Papers in this Vault
 
 
+
+
 - [[2025-Pourbahman-ELAB|ELAB]] (First Author)
+- [[2024-Hossein-ParsOffensive Persian Offensive Comments Dataset|ParsOffensive: Persian Offensive Comments Dataset]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Hossein-ParsOffensive Persian Offensive Comments Dataset*: Affiliation: Department of Electrical and Computer Engineering, Isfahan, Email: bishehniasar@ie.sharif.edu
+- *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 [Additional context or contact information]

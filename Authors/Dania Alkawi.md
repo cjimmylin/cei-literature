@@ -27,11 +27,17 @@ Dania Alkawi is a researcher working on Arabic natural language processing. Her 
 
 ## Papers in this Vault
 
+
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Links
 
 ## Notes
 
+
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 Profile to be updated when more details about affiliation are confirmed.

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "GREEK-BERT: The Greeks visiting Sesame Street"
 year: 2025
 first_author: "[[John Koutsikakis]]"
-last_author: "[[Ion Androutsopoulos]]"
+last_author: "[[Ion Androutsopoulos Prodromos Malakasiotis]]"
 authors: "John Koutsikakis, Ilias Chalkidis, Prodromos Malakasiotis, Ion Androutsopoulos"
 doi: 10.1145/3411408.3411440
 url: "https://dl.acm.org/doi/10.1145/3411408.3411440"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[John Koutsikakis, Ilias Chalkidis, Prodromos Malakasiotis, Ion Androutsopoulos]]
+[[Ilias Chalkidis John Koutsikakis]], [[Ion Androutsopoulos Prodromos Malakasiotis]]
 
 ## Metadata
 

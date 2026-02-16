@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,10 +13,10 @@ key: EXSR0588
 type: preprint
 short_title: "Hate Speech Detection in Thai Social"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Pasupa, Kitsuchart]]"
+last_author: "[[Aksornsiri, Massakorn]]"
+authors: "[[Pasupa, Kitsuchart]]; [[Karnbanjob, Werasut]]; [[Aksornsiri, Massakorn]]"
+authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9836312/"
 external_pdf: 
 pdf_extract: "PDF Extracts/2022/2022-Unknown-Hate Speech Detection in Thai Social.md"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Unknown]]
+[[Pasupa, Kitsuchart]], [[Karnbanjob, Werasut]], [[Aksornsiri, Massakorn]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Pasupa, Kitsuchart; Karnbanjob, Werasut; Aksornsiri, Massakorn
 
 **Year:** 2022
 

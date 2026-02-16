@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0308
 type: preprint
 short_title: "Qalb Largest State-of-the-Art Urdu Large Language"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Hassan, Muhammad Taimoor]]"
+last_author: "[[Awais, Muhammad]]"
+authors: "[[Hassan, Muhammad Taimoor]]; [[Ahmed, Jawad]]; [[Awais, Muhammad]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.08141"
 external_pdf: "https://arxiv.org/pdf/2601.08141.pdf"
 pdf_extract: "PDF Extracts/2026/2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Urdu, Pakistani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-Unknown
+[[Hassan, Muhammad Taimoor]], [[Ahmed, Jawad]], [[Ahmada, Muhammad|Awais, Muhammad]]
 
 ## Metadata
 
-**Authors:** [[Unknown]]
+**Authors:** Hassan, Muhammad Taimoor; Ahmed, Jawad; Awais, Muhammad
 
 **Year:** 2026
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ year: 2025
 first_author: "[[Rinki, Mamnuya]]"
 last_author: "[[Zhu, Ziwei]]"
 authors: "[[Rinki, Mamnuya]]; [[Raj, Chahat]]; [[Mukherjee, Anjishnu]]; [[Zhu, Ziwei]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.18466"
 external_pdf: "https://arxiv.org/pdf/2505.18466.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rinki-Measuring South Asian Biases in Large.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "South Asian, Indian, Pakistani, Bangladeshi, Sri Lankan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -49,7 +51,7 @@ research_topic: "Other"
 
 ## Metadata
 
-**Authors:** Mamnuya Rinki; Chahat Raj; Anjishnu Mukherjee; Ziwei Zhu
+**Authors:** Rinki, Mamnuya; Raj, Chahat; Mukherjee, Anjishnu; Zhu, Ziwei
 
 **Year:** 2025
 

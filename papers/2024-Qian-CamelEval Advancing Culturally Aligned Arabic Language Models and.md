@@ -10,7 +10,7 @@ type: preprint
 short_title: "CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks"
 year: 2024
 first_author: "[[Zhaozhi Qian]]"
-last_author: "[[Riad Souissi]]"
+last_author: "[[Riad Souissi Muhammad Alqurishi]]"
 authors: Zhaozhi Qian, Faroq Altam, Muhammad Alqurishi, Riad Souissi
 doi: 10.48550/arXiv.2409.12623
 url: "https://arxiv.org/abs/2409.12623"
@@ -45,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Zhaozhi Qian, Faroq Altam, Muhammad Alqurishi, Riad Souissi]]
+[[Faroq Altam Zhaozhi Qian]], [[Riad Souissi Muhammad Alqurishi]]
 
 ## Metadata
 

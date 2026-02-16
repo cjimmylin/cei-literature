@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[Gehman, Samuel]]; [[Gururangan, Suchin]]; [[Sap, Maarten]]; [[Choi, 
 url: "https://aclanthology.org/2020.findings-emnlp.301/"
 external_pdf: "https://arxiv.org/pdf/2009.11462v2.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ tags:
 abstract: "Pretrained neural language models (LMs) are prone to generating racist, sexist, or otherwise toxic language which hinders their safe deployment. We investigate the extent to which pretrained LMs can be prompted to generate toxic language, and the effectiveness of controllable text generation algorithms at preventing such toxic degeneration. We create and release REALTOXICITYPROMPTS, a dataset of 100K naturally occurring, sentence-level prompts derived from a large corpus of English web text,..."
 pdf_extract: "PDF Extracts/2020/2020-Gehman-RealToxicityPrompts.md"
 local_pdf: [[PDFs/2020/2020-Gehman-RealToxicityPrompts.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

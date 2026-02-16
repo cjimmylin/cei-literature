@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -50,7 +52,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Unknown]]
+[[Hyacinth Nathalie Salve]], [[Princess Noelyn T Tubil]]
 
 ## Metadata
 

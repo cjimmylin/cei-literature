@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Gonzalo Santamaría Gómez]], [[Guillem García Subies]], [[Pablo Gutiérrez Ruiz]], [[Mario González Valero]], [[Natàlia Fuertes]], [[Helena Montoro Zamorano]], [[Carmen Muñoz Sanz]], [[Leire Rosado Plaza]], [[Nuria Aldama García]], [[David Betancur Sánchez]], [[Kateryna Sushkova]], [[Marta Guerrero Nieto]], [[Álvaro Barbero Jiménez]]
+[[Gómez, Gonzalo Santamaría]], [[Subies, Guillem García]], [[Ruiz, Pablo Gutiérrez]], [[Valero, Mario González]], [[Fuertes, Natàlia]], [[Zamorano, Helena Montoro]], [[Sanz, Carmen Muñoz]], [[Plaza, Leire Rosado]], [[García, Nuria Aldama]], [[Sánchez, David Betancur]], [[Sushkova, Kateryna]], [[Nieto, Marta Guerrero]], [[Jiménez, Álvaro Barbero]]
 
 ## Metadata
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: LSRC0317
 type: preprint
 short_title: "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation"
 year: 2025
-first_author: "[[Kiulian, Ostap]]"
-last_author: "[[Polishko, Iryna]]"
-authors: "[[Kiulian, Ostap]]; [[Polishko, Iryna]]"
-authors_incomplete: true
+first_author: "[[Kiulian, Artur]]"
+last_author: "[[Shirawalmath, Adarsh]]"
+authors: "[[Kiulian, Artur]]; [[Polishko, Anton]]; [[Khandoga, Mykola]]; [[Chubych, Oryna]]; [[Connor, Jack]]; [[Ravishankar, Raghav]]; [[Shirawalmath, Adarsh]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2404.09138"
 external_pdf: "https://arxiv.org/pdf/2404.09138.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.md"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Ukrainian"
 languages_list: Ukrainian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ abstract: "In the rapidly advancing field of AI and NLP, generative large langua
 
 ## Authors
 
-[[Ostap Kiulian, Iryna Polishko, et al.]]
+[[Kiulian, Artur]], [[Polishko, Anton]], [[Khandoga, Mykola]], [[Chubych, Oryna]], [[Connor, Jack]], [[Ravishankar, Raghav]], [[Shirawalmath, Adarsh]]
 
 ## Metadata
 
-**Authors:** Ostap Kiulian, Iryna Polishko, et al.
+**Authors:** Kiulian, Artur; Polishko, Anton; Khandoga, Mykola; Chubych, Oryna; Connor, Jack; Ravishankar, Raghav; Shirawalmath, Adarsh
 
 **Year:** 2024
 

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conference_paper
 short_title: "Blind Faith User Preference and Expert"
 year: 2025
 first_author: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
-last_author: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
+last_author: "[[Niloufar Salehi]]"
 authors: "[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]"
 authors_incomplete: false
 url: 
@@ -32,6 +33,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Muslim"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -51,7 +53,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Sabriya Alam, Marwa Abdulhai, Niloufar Salehi]]
+[[Sabriya Alam]], [[Marwa Abdulhai]], [[Niloufar Salehi]]
 
 ## Metadata
 

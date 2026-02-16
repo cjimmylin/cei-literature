@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2016-Bolukbasi-Man is to Computer Programmer as Woman is to|Man is to Computer Programmer as Woman is to]]
 
 ## Notes
 
 
+
+
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: adam.kalai@microsoft.com
 - *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
 [Additional context or contact information]

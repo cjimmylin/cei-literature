@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population"
 year: 2025
 first_author: "[[Gómez-Adorno, Helena]]"
-last_author: "[[Gómez-Adorno, Helena]]"
+last_author: "[[Helena Gómez-Adorno]]"
 authors: "[[Gómez-Adorno, Helena]]"
 authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6626"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Mexican, Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Helena Gómez-Adorno, et al.]]
+[[Helena Gómez-Adorno]]
 
 ## Metadata
 

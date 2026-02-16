@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.1016/j.chbr.2025.100609
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IHQZ47VE/Bulla et al. - 2025 - Large Language Models meet moral values A comprehensive assessment of moral abilities.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ key_contribution: "Evaluated the ability of LLMs (GPT-4, Llama, etc.) to perform
 significance: "Assesses whether general-purpose LLMs can replace specific supervised models for moral sensing, finding that GPT-4 is superior but significant variations exist across moral domains."
 tags: 
 abstract: "Automatic moral classification in textual data is crucial for various fields including Natural Language Processing (NLP), social sciences, and ethical AI development. Despite advancements in supervised models, their performance often suffers when faced with real-world scenarios due to overfitting to specific data distributions. To address these limitations, we propose leveraging state-of-the-art Large Language Models (LLMs) trained on extensive common-sense data for unsupervised moral classifica"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

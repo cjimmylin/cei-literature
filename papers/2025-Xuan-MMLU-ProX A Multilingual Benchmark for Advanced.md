@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Weihao Xuan]], [[Rui Yang]], [[Heli Qi]], [[Qingcheng Zeng]], [[Yunze Xiao]], [[Aosong Feng]], [[Dairui Liu]], [[Yun Xing]], [[Junjue Wang]], [[Fan Gao]], [[Jinghui Lu]], [[Yuang Jiang]], [[Huitao Li]], [[Xin Li]], [[Kunyu Yu]], [[Ruihai Dong]], [[Shangding Gu]], [[Yuekang Li]], [[Xiaofei Xie]], [[Felix Juefei-Xu]], [[Foutse Khomh]], [[Osamu Yoshie]], [[Qingyu Chen]], [[Douglas Teodoro]], [[Nan Liu]], [[Randy Goebel]], [[Lei Ma]], [[Edison Marrese-Taylor]], [[Shijian Lu]], [[Yusuke Iwasawa]], [[Yutaka Matsuo]], [[Irene Li]]
+[[Weihao Xuan]], [[Rui Yang]], [[Heli Qi]], [[Qingcheng Zeng]], [[Yunze Xiao]], [[Aosong Feng]], [[Dairui Liu]], [[Yun Xing]], [[Junjue Wang]], [[Fan Gao]], [[Jinghui Lu]], [[Yuang Jiang]], [[Huitao Li]], [[Xin Li]], [[Kunyu Yu]], [[Ruihai Dong]], [[Shangding Gu]], [[Yuekang Li]], [[Xing Xie|Xiaofei Xie]], [[Felix Juefei-Xu]], [[Foutse Khomh]], [[Osamu Yoshie]], [[Qingyu Chen]], [[Douglas Teodoro]], [[Nan Liu]], [[Randy Goebel]], [[Lei Ma]], [[Edison Marrese-Taylor]], [[Shijian Lu]], [[Yusuke Iwasawa]], [[Yutaka Matsuo]], [[Irene Li]]
 
 ## Metadata
 

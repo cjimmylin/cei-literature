@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: "arXiv:2002.00213"
 url: "https://arxiv.org/abs/2002.00213"
 publication: arXiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2020/2020-Akrout-Machine Ethics - Creation of a Virtu
 abstract: "This paper describes the GAMA (Genetic-inspired Autonomous Moral Agent) project, which implements a genetic-inspired autonomous moral agent. Unlike the majority of other implementations of machine ethics, this model is agent-centered and emphasizes the developmental and behavioral aspects of the ethical agent."
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"

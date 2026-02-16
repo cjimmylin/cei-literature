@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "CULEMO Cultural Lenses on Emotion --"
 year: 2025
 first_author: "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]"
-last_author: "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]"
+last_author: "[[Seid Muhie Yimam]]"
 authors: "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.10688"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Arabic, African/Ubuntu, German, Spanish, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indian, Arabic, African, German, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]
+[[Tadesse Belay|Tadesse Destaw Belay]], [[Ahmed Haj Ahmed]], [[Alvin Grissom II]], [[Iqra Ameer]], [[Grigori Sidorov]], [[Olga Kolesnikova]], [[Seid Muhie Yimam]]
 
 ## Metadata
 

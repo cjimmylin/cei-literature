@@ -26,10 +26,16 @@ The research was conducted in collaboration with Ganqu Cui, Lifan Yuan, Ning Din
 ## Papers in this Vault
 
 
+
+
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 The CPO paper has received 3 citations as of August 2025. The work addresses a critical practical challenge in LLM deployment: how to balance multiple alignment objectives without sacrificing performance in any single dimension. Code available at https://github.com/OpenBMB/CPO.

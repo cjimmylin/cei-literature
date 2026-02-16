@@ -20,6 +20,8 @@ PhD Candidate in Informatics at Pontifical Catholic University of Rio de Janeiro
 ## Papers in this Vault
 
 
+
+
 - [[2025-Nunes-Evidence of conceptual mastery in the application|Evidence of conceptual mastery in the application]] (First Author)
 - [[2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning|Psychology of LLMs Moral Reasoning]]
 - [[2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding|Conscience Conflict: Evaluating Language Models' Moral Understanding]] (First Author)
@@ -27,5 +29,9 @@ PhD Candidate in Informatics at Pontifical Catholic University of Rio de Janeiro
 ## Notes
 
 
+
+
+- *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
+- *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 - *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 [Additional context or contact information]

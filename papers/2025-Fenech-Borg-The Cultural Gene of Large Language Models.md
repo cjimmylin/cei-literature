@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "http://arxiv.org/abs/2508.12411"
 external_pdf: "http://arxiv.org/pdf/2508.12411.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Chinese, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -27,6 +29,7 @@ pdf_extract: "PDF Extracts/2025/2025-Fenech-Borg-The Cultural Gene of Large Lang
 paper_summary: "Overview: The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases Emanuel Z. Fenech-Borg Department of Communications University of Malta Msida MSD  | Methodology: for quantifying these ingrained 'genes' is still nascent. The challenge is immense, as these models are increasingly tasked with sensitive roles in do | Conclusions: In this section, we present the empirical results of our comparative study, followed by an in-depth discussion of their implications. Our findings pro"
 local_pdf: "[[PDFs/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf]]"
 abstract: "Large Language Models (LLMs) are being deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. This paper investigates the concept of ”cultural genes”—systematic value orientations that LLMs inherit from their training corpora. We introduce a novel methodology centered on a Cultural Probe Dataset (CPD) designed to evaluate models along key cross-cultural psychological dimensions, specifically Individualism-Collectivism (IDV) and Power Distance (PDI)."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

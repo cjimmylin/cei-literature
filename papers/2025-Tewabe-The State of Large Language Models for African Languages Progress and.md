@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0092
 type: conferencePaper
 short_title: "The State of Large Language Models for African Languages: Progress and Challenges"
 year: 2025
-first_author: "[[Tewabe, Walelign]]"
-last_author: "[[Muhie, Seid]]"
-authors: "[[Tewabe, Walelign]]; [[Ali, Abinew]]; [[Hafiz, Sukairaj]]; [[Nigussie, Eyob]]; [[Hassan, Shamsuddeen]]; [[Muhie, Seid]]"
-authors_incomplete: true
+first_author: "[[Hussen, Kedir Yassin]]"
+last_author: "[[Yimam, Seid Muhie]]"
+authors: "[[Hussen, Kedir Yassin]]; [[Sewunetie, Walelign Tewabe]]; [[Ayele, Abinew Ali]]; [[Imam, Sukairaj Hafiz]]; [[Muhammad, Shamsuddeen Hassan]]; [[Yimam, Seid Muhie]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2506.02280"
 external_pdf: "https://arxiv.org/pdf/2506.02280.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Tewabe-The State of Large Language Models for African Languages Progress and.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, African/Ubuntu"
+cultures_nationalities_list: "African, Arabic"
 languages_list: "Survey covering African languages broadly"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Tewabe, Walelign]], [[Ali, Abinew]], [[Hafiz, Sukairaj]], [[Nigussie, Eyob]], [[Hassan, Shamsuddeen]], [[Muhie, Seid]]
+[[Hussen, Kedir Yassin]], [[Sewunetie, Walelign Tewabe]], [[Ayele, Abinew Ali]], [[Imam, Sukairaj Hafiz]], [[Shamsuddeen Hassan Muhammad|Muhammad, Shamsuddeen Hassan]], [[Seid Muhie Yimam|Yimam, Seid Muhie]]
 
 ## Metadata
 
-**Authors:** Walelign Tewabe; Abinew Ali; Sukairaj Hafiz; Eyob Nigussie; Shamsuddeen Hassan; Seid Muhie
+**Authors:** Hussen, Kedir Yassin; Sewunetie, Walelign Tewabe; Ayele, Abinew Ali; Imam, Sukairaj Hafiz; Muhammad, Shamsuddeen Hassan; Yimam, Seid Muhie
 
 **Year:** 2025
 

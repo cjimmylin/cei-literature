@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md",
+    "has_extract": true,
+    "authors": "Over 80 contributors (community initiative)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.04759",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-project-DharmicData Comprehensive Open-Source Collection of Hindu.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Bhavy Khatri (community project)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.md",
+    "has_extract": true,
+    "authors": "Not specified in search results",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.13737",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[AI4Bharat team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/ai4bharat/Indic-Bias",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[AI4Bharat team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/AI4Bharat/indic-bias",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md",
+    "has_extract": true,
+    "authors": "[[AI4Bharat team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.06350",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.md",
+    "has_extract": true,
+    "authors": "[[L3Cube Pune team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2409.08706",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-MahaMarathi-7B Marathi Large Language Model.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Marathi-LLM team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.md",
+    "has_extract": true,
+    "authors": "[[OpenThaiGPT team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.07238",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md",
+    "has_extract": true,
+    "authors": "DAMO Academy / Alibaba team",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.19672",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+    "has_extract": true,
+    "authors": "CMC AI team",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.14554",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with.md",
+    "has_extract": true,
+    "authors": "[[with.pdf, Assamese Texts]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://scpe.org/index.php/scpe/article/view/2469",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.md",
+    "has_extract": true,
+    "authors": "[[Çakici, Sevval]]; [[Karaduman, Dilara]]; [[Çirlan, Mehmet Akif]]; [[Hurriyetoglu, Ali]]",
+    "year": "2025",
+    "doi": "10.1007/s10579-025-09869-6",
+    "url": "https://link.springer.com/article/10.1007/s10579-025-09869-6",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-2025-Pretrained Models Against Traditional Machine Learning.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Multiple (MDPI Electronics 2025)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-A.-Operationalizing Cultural Values in Language Models A Comparative.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Didenko A., Balakir A., Zapilikhin V., Shabanova A.",
+    "year": "2025",
+    "doi": "10.1007/978-3-032-05545-3_10",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-05545-3_10",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-ADL Center for Technology and Society Daniel Kelley-Generating Hate Anti-Jewish and Anti-Israel Bias.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[ADL Center for Technology]]; [[Society (Daniel Kelley, interim head)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.md",
+    "has_extract": true,
+    "authors": "[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.14051",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Abdelhalim-Full article Artificial intelligence tools and literary translation a.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Abdelhalim, S.]]; [[Alsahil, Asma A.]]; [[Alsuhaibani, Zainab]]",
+    "year": "2025",
+    "doi": "10.1080/23311983.2025.2508031",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/23311983.2025.2508031",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.md",
+    "has_extract": true,
+    "authors": "[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.19582",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md",
+    "has_extract": true,
+    "authors": "[[Abdullah, Abdulhady Abas]]; [[Veisi, Hadi]]; [[Al, Hussein M.]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.02336",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting.md",
+    "has_extract": true,
+    "authors": "[[Kosei Uemura, Miaoran Zhang, David Ifeoluwa Adelani]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.23896",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Adelani-INJONGO A Multicultural Intent Detection and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Adelani-INJONGO A Multicultural Intent Detection and.md",
+    "has_extract": true,
+    "authors": "[[Hao Yu, Jesujoba O. Alabi, Andiswa Bukula, Jian Yun Zhuang, En-Shiun Annie Lee, Tadesse Kebede Guge, Israel Abebe Azime, Happy Buzaaba, Blessing Kudzaishe Sibanda, Godson K. Kalipe, Jonathan Mukiibi, Salomon Kabongo Kabenamualu, Mmasibidi Setaka, Lolwethu Ndolela, Nkiruka Odu, Rooweither Mabuya, Shamsuddeen Hassan Muhammad, Salomey Osei, Sokhar Samb, Juliet W. Murage, Dietrich Klakow, David Ifeoluwa Adelani]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.09814",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md",
+    "has_extract": true,
+    "authors": "[[Aji, Alham Fikri]]; [[Cohn, Trevor]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.12459",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md",
+    "has_extract": true,
+    "authors": "[[Ajwad Abrar,]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.08441",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.md",
+    "has_extract": true,
+    "authors": "[[Al, Muhammad Alif]]; [[Satria, Maxalmina]]; [[Fikri, Alham]]; [[Indra, Genta]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.07069",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md",
+    "has_extract": true,
+    "authors": "[[Al, Hamdan]]; [[Zosa, Jessica]]; [[Luis, Roberto]]; [[Sta, Karolina]]; [[Timponi, Tiago]]; [[Villa, Emilio]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aiadvisoryboards.wordpress.com/2025/05/02/shades-a-new-multilingual-benchmark-for-stereotypes-bias-in-large-language-models-2025/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md",
+    "pdf_extract_path": "PDF Extracts/0000/2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md",
+    "has_extract": true,
+    "authors": "[[Al, Hamdan]]; [[Zosa, Jessica]]; [[Luis, Roberto]]; [[Sta, Karolina]]; [[Timponi, Tiago]]; [[Villa, Emilio]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://montrealethics.ai/towards-a-multilingual-assessment-of-stereotypes-in-large-language-models/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md",
+    "pdf_extract_path": "PDF Extracts/0000/2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md",
+    "has_extract": true,
+    "authors": "[[Al, Hamdan]]; [[Zosa, Jessica]]; [[Luis, Roberto]]; [[Sta, Karolina]]; [[Timponi, Tiago]]; [[Villa, Emilio]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.naacl-long.600.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Alkhushayni-Multilingual Sentiment Analysis with Data Augmentation A.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Suboh Alkhushayni; Hyesu Lee",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.mdpi.com/2078-2489/16/9/806",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs.md",
+    "has_extract": true,
+    "authors": "Thales Sales Almeida, Giovana Kerche Bonás, João Guilherme Alves Santos",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.08960",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.md",
+    "has_extract": true,
+    "authors": "Saeed Almheiri, Rania Hossam, Mena Attia, Chenxi Wang, Preslav Nakov, Timothy Baldwin, Fajri Koto",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2509.19265",
+    "url": "https://arxiv.org/abs/2509.19265",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md",
+    "has_extract": true,
+    "authors": "[[Lorenzo Alvisi]]; [[Serena Tardelli]]; [[Maurizio Tesconi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.19594",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Ranwa Aly, Yara Allam, Rana Gaber",
+    "year": "2025",
+    "doi": "10.1145/3715275.3732119",
+    "url": "https://dl.acm.org/doi/10.1145/3715275.3732119",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....md",
+    "has_extract": true,
+    "authors": "Ranwa Aly, Yara Allam, Rana Gaber",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.gebnlp-1.23.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.md",
+    "has_extract": true,
+    "authors": "Ranwa Aly, Yara Allam, Rana Gaber",
+    "year": "2025",
+    "doi": "10.1371/journal.pone.0319301",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319301",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....md",
+    "has_extract": true,
+    "authors": "Ranwa Aly, Yara Allam, Rana Gaber",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.findings-acl.21.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+    "has_extract": true,
+    "authors": "Lameck Mbangula Amugongo, Nicola J. Bidwell, Joseph Mwatukange",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.14116",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.md",
+    "has_extract": true,
+    "authors": "Konya, Andrew; Wilf, Meredith; Ovadya, Aviv",
+    "year": "2025",
+    "doi": "10.1145/3715275.3732022",
+    "url": "https://arxiv.org/abs/2503.01769",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Aravinda-SinLlama A Large Language Model for Sinhala.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.md",
+    "has_extract": true,
+    "authors": "[[Aravinda, H. W. K.]]; [[Sirajudeen, Rashad]]; [[Karunathilake, Samith]]; [[de Silva, Nisansa]]; [[Ranathunga, Surangika]]; [[Kaur, Rishemjit]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.09115",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md",
+    "has_extract": true,
+    "authors": "Thorunn Arnardottir, Elias Bjartur Einarsson, Gardar Ingvarsson Juto, Thorvaldur Pall Helgason, Hafsteinn Einarsson",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.resourceful-1.13/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Asgari-I Am Aligned But With Whom.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Asgari-I Am Aligned But With Whom.md",
+    "has_extract": true,
+    "authors": "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.13154",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md",
+    "has_extract": true,
+    "authors": "Gabriel Assis; Cláudia Freitas; Aline Paes",
+    "year": "2025",
+    "doi": "",
+    "url": "https://journals-sol.sbc.org.br/index.php/jbcs/article/view/5814",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.md",
+    "has_extract": true,
+    "authors": "[[Awlla, Kozhin muhealddin]]; [[Veisi, Hadi]]; [[Abdullah, Abdulhady Abas]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.16804",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md",
+    "has_extract": true,
+    "authors": "Rania Azad; Soran Saeed",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352340925007358",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md",
+    "has_extract": true,
+    "authors": "Israel Abebe Azime, Atnafu Lambebo Tonja, Tadesse Destaw Belay et al.",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.05049",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md",
+    "has_extract": true,
+    "authors": "[[Azmi, Muhammad Falensi]]; [[Al Kautsar, Muhammad Dehan]]; [[Wicaksono, Alfan Farizki]]; [[Koto, Fajri]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.02573",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Bai-Explicitly unbiased large language models still form biased.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bai-Explicitly unbiased large language models still form biased.md",
+    "has_extract": true,
+    "authors": "[[Bai, Xuechunzi]]; [[Wang, Angelina]]; [[Sucholutsky, Ilia]]; [[Griffiths, Thomas L.]]",
+    "year": "2025",
+    "doi": "10.1073/pnas.2416228122",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2416228122",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Bali-How Deep Is Representational Bias in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bali-How Deep Is Representational Bias in.md",
+    "has_extract": true,
+    "authors": "[[Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.03712",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md",
+    "has_extract": true,
+    "authors": "[[Nikolay Banar]]; [[Ehsan Lotfi]]; [[Jens Van Nooten]]; [[Cristina Arhiliuc]]; [[Marija Kliocaite]]; [[Walter Daelemans]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.12340",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Bar-DharmaBench Evaluating Language Models on Buddhist.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Kai Golan Hashiloni, Shay Cohen, Asaf Shina, Jingyi Yang, Orr Meir Zwebner, Nicola Bajetta, Guy Bilitski, Rebecca Sunden, Guy Maduel, Ryan Conlon, Ari Barzilai, Daniel Mass, Shanshan Jia, Aviv Naaman, Sonam Choden, Sonam Jamtsho, Yadi Qu, Harunaga Isaacson, Dorji Wangchuk, Shai Fine, Orna Almogi, Kfir Bar]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Barov-TUMLU A Unified and Native Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Barov-TUMLU A Unified and Native Language.md",
+    "has_extract": true,
+    "authors": "[[Ibrohimov, Jamshid]]; [[Mirzakhalov, Jamoliddin]]; [[Abdullayev, Sardor]]; [[Barov, Ceferis]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.11020",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md",
+    "has_extract": true,
+    "authors": "Fabio Barth, Georg Rehm",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.12895",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md",
+    "has_extract": true,
+    "authors": "[[Basem, Mohamed]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.06103",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md",
+    "has_extract": true,
+    "authors": "[[Basem, Mohamed]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.06971",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md",
+    "has_extract": true,
+    "authors": "[[Basile]]; [[Bosco]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://openreview.net/forum?id=PChNLEcv3V",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+    "has_extract": true,
+    "authors": "[[Julie Bauer]]; [[Rishabh Kaushal]]; [[Thales Bertaglia]]; [[Adriana Iamnitchi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.12502",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md",
+    "has_extract": true,
+    "authors": "David Beauchemin, Richard Khoury",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.16867",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md",
+    "has_extract": true,
+    "authors": "[[Bengoetxea, Jaione]]; [[Gonzalez-Dios, Itziar]]; [[Agerri, Rodrigo]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.15239",
+    "body_richness": "thin"
+  }
+]

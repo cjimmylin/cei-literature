@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: conferencePaper
 short_title: "Awesome-LLM-Eval Repository (Meta-Resource)"
 year: 2025
 first_author: [[onejune2018]]
-last_author: [[onejune2018]]
+last_author: "[[onejune2018]]"
 authors: onejune2018
 publication: "ACL 2024"
 DATE_ADDED: 20260207
@@ -20,6 +22,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

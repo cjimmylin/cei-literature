@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Spanish, Brazilian"
+cultures_nationalities_list: "Spanish, Portuguese, Brazilian"
 languages_list: "European Portuguese, European Spanish, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2505.01967"
 external_pdf: "http://arxiv.org/pdf/2505.01967.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Li-Analyzing Cognitive Differences Among La
 abstract: "Large Language Models significantly influence social interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referred to as “worldviews”, encoded within these systems. Unlike previous studies predominantly addressing demographic and ethical biases as fixed attributes, our study explores deeper cognitive orientations toward authority, equality, autonomy, and fate, emphasizing their adaptability in dynamic social..."
 paper_summary: "Abstract: Large Language Models significantly influence so- cial interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referre | Overview: Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview Jiatao Li1,2 , Yanheng Li3 , Xiaojun Wan1 1Wangxuan Institute of Computer Technology, Peking University | Methodology: Inter-Agent Validation Accuracy The inter-agent validation accuracy is calculated by comparing automated categorization | Key Findings: of socio-cognitive biases in large language models. Leverag- ing our novel Automated Multi-Agent Prompting Framework, we operationalized and assessed  | Conclusions: We introduced the Social Worldview Taxonomy (SWT), grounded in Cultural Theory, enabling systematic evaluation of socio-cognitive biases in large lang"
 local_pdf: "[[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

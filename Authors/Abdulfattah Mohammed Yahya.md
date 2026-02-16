@@ -32,9 +32,15 @@ Abdulfattah is a key contributor to the development of culturally inclusive and 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
 
+
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 [Focuses on the regional representation of Arabic culture in AI benchmarking.]

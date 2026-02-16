@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1109/IJCNN.2018.8489756
 url: "http://arxiv.org/abs/1810.12118"
 external_pdf: "http://arxiv.org/pdf/1810.12118.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2018/2018-Zhao-Finding Answers from the Word of God.m
 local_pdf: "[[PDFs/2018/2018-Zhao-Finding Answers from the Word of God.pdf]]"
 abstract: "Question answering (QA) has signiﬁcantly beneﬁtted from deep learning techniques in recent years. However, domain-speciﬁc QA remains a challenge due to the signiﬁcant amount of data required to train a neural network. This paper studies the answer sentence selection task in the Bible domain and answer questions by selecting relevant verses from the Bible. For this purpose, we create a new dataset BibleQA based on bible trivia questions and propose three neural network models for our task."
 paper_summary: "Abstract: Question answering (QA) has signiﬁcantly beneﬁtted from deep learning tech- niques in recent years. However, domain-speciﬁc QA remains a challenge due to the signiﬁcant amount of data required to trai | Overview: Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical Question Answering Helen Jiahe Zhao, Jiamou Liu Department of Computer Science The University of Auckland New Ze | Methodology: is to pre-train the model on the source data and then ﬁne-tune the parameters on the data from the target domain [18, 30]. Overall, transfer learning"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

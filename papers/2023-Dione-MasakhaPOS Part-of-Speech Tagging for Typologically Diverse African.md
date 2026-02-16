@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: conferencePaper
 short_title: "MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages"
 year: 2025
 first_author: "[[Dione, Cheikh M. Bamba]]"
-last_author: "[[Sibanda, Blessing]]"
-authors: "[[Dione, Cheikh M. Bamba]]; [[Adelani, David]]; [[Nabende, Peter]]; [[Alabi, Jesujoba]]; [[Sindane, Thapelo]]; [[Buzaaba, Happy]]; [[Muhammad, Shamsuddeen Hassan]]; [[Emezue, Chris Chinenye]]; [[Ogayo, Perez]]; [[Aremu, Anuoluwapo]]; [[Gitau, Catherine]]; [[Mbaye, Derguene]]; [[Mukiibi, Jonathan]]; [[Sibanda, Blessing]]"
-authors_incomplete: true
+last_author: "[[Klakow, Dietrich]]"
+authors: "[[Dione, Cheikh M. Bamba]]; [[Adelani, David]]; [[Nabende, Peter]]; [[Alabi, Jesujoba]]; [[Sindane, Thapelo]]; [[Buzaaba, Happy]]; [[Muhammad, Shamsuddeen Hassan]]; [[Emezue, Chris Chinenye]]; [[Ogayo, Perez]]; [[Aremu, Anuoluwapo]]; [[Gitau, Catherine]]; [[Mbaye, Derguene]]; [[Mukiibi, Jonathan]]; [[Sibanda, Blessing]]; [[Dossou, Bonaventure F. P.]]; [[Bukula, Andiswa]]; [[Mabuya, Rooweither]]; [[Tapo, Allahsera Auguste]]; [[Munkoh-Buabeng, Edwin]]; [[Koagne, victoire Memdjokam]]; [[Kabore, Fatoumata Ouoba]]; [[Taylor, Amelia]]; [[Kalipe, Godson]]; [[Macucwa, Tebogo]]; [[Marivate, Vukosi]]; [[Gwadabe, Tajuddeen]]; [[Elvis, Mboning Tchiaze]]; [[Onyenwe, Ikechukwu]]; [[Atindogbe, Gratien]]; [[Adelani, Tolulope]]; [[Akinade, Idris]]; [[Samuel, Olanrewaju]]; [[Nahimana, Marien]]; [[Musabeyezu, Théogène]]; [[Niyomutabazi, Emile]]; [[Chimhenga, Ester]]; [[Gotosa, Kudzai]]; [[Mizha, Patrick]]; [[Agbolo, Apelete]]; [[Traore, Seydou]]; [[Uchechukwu, Chinedu]]; [[Yusuf, Aliyu]]; [[Abdullahi, Muhammad]]; [[Klakow, Dietrich]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2305.13989"
 external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 languages_list: "Bambara, Chichewa, Ewe, Fon, Ghomala, Hausa, Igbo, Kinyarwanda, Kiswahili, Luganda, Luo, Mossi, Nigerian Pidgin, Setswana, Twi, Wolof, Yoruba, chiShona, isiXhosa, isiZulu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi, Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris Chinenye Emezue, Perez Ogayo, Anuoluwapo Aremu, Catherine Gitau, Derguene Mbaye, Jonathan Mukiibi, Blessing Sibanda, et al.]]
+[[Dione, Cheikh M. Bamba]], [[David Adelani|Adelani, David]], [[Nabende, Peter]], [[Alabi, Jesujoba]], [[Sindane, Thapelo]], [[Buzaaba, Happy]], [[Shamsuddeen Hassan Muhammad|Muhammad, Shamsuddeen Hassan]], [[Emezue, Chris Chinenye]], [[Ogayo, Perez]], [[Anuoluwapo Aremu|Aremu, Anuoluwapo]], [[Gitau, Catherine]], [[Mbaye, Derguene]], [[Mukiibi, Jonathan]], [[Sibanda, Blessing]], [[Dossou, Bonaventure F. P]], [[Bukula, Andiswa]], [[Mabuya, Rooweither]], [[Tapo, Allahsera Auguste]], [[Munkoh-Buabeng, Edwin]], [[Koagne, victoire Memdjokam]], [[Kabore, Fatoumata Ouoba]], [[Taylor, Amelia]], [[Kalipe, Godson]], [[Macucwa, Tebogo]], [[Marivate, Vukosi]], [[Tajuddeen Gwadabe|Gwadabe, Tajuddeen]], [[Elvis, Mboning Tchiaze]], [[Onyenwe, Ikechukwu]], [[Atindogbe, Gratien]], [[Adelani, Tolulope]], [[Akinade, Idris]], [[Samuel, Olanrewaju]], [[Nahimana, Marien]], [[Musabeyezu, Théogène]], [[Niyomutabazi, Emile]], [[Chimhenga, Ester]], [[Gotosa, Kudzai]], [[Mizha, Patrick]], [[Agbolo, Apelete]], [[Traore, Seydou]], [[Uchechukwu, Chinedu]], [[Yusuf, Aliyu]], [[Ahmada, Muhammad|Abdullahi, Muhammad]], [[Klakow, Dietrich]]
 
 ## Metadata
 
-**Authors:** Cheikh M. Bamba Dione, David Adelani, Peter Nabende, Jesujoba Alabi, Thapelo Sindane, Happy Buzaaba, Shamsuddeen Hassan Muhammad, Chris Chinenye Emezue, Perez Ogayo, Anuoluwapo Aremu, Catherine Gitau, Derguene Mbaye, Jonathan Mukiibi, Blessing Sibanda, et al.
+**Authors:** Dione, Cheikh M. Bamba; Adelani, David; Nabende, Peter; Alabi, Jesujoba; Sindane, Thapelo; Buzaaba, Happy; Muhammad, Shamsuddeen Hassan; Emezue, Chris Chinenye; Ogayo, Perez; Aremu, Anuoluwapo; Gitau, Catherine; Mbaye, Derguene; Mukiibi, Jonathan; Sibanda, Blessing; Dossou, Bonaventure F. P.; Bukula, Andiswa; Mabuya, Rooweither; Tapo, Allahsera Auguste; Munkoh-Buabeng, Edwin; Koagne, victoire Memdjokam; Kabore, Fatoumata Ouoba; Taylor, Amelia; Kalipe, Godson; Macucwa, Tebogo; Marivate, Vukosi; Gwadabe, Tajuddeen; Elvis, Mboning Tchiaze; Onyenwe, Ikechukwu; Atindogbe, Gratien; Adelani, Tolulope; Akinade, Idris; Samuel, Olanrewaju; Nahimana, Marien; Musabeyezu, Théogène; Niyomutabazi, Emile; Chimhenga, Ester; Gotosa, Kudzai; Mizha, Patrick; Agbolo, Apelete; Traore, Seydou; Uchechukwu, Chinedu; Yusuf, Aliyu; Abdullahi, Muhammad; Klakow, Dietrich
 
 **Year:** 2023
 

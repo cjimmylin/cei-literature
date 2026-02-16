@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871"
 external_pdf: "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4731871_code2139.pdf"
 publication: SSRN
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2024/2024-McGee-How Ethical Is Utilitarian Ethics.md"
 abstract: "This paper has two purposes: to identify and explore the structural weaknesses of utilitarian ethics, and to see which AI chatbot - Microsoft Copilot or Gab AI - gives the better philosophical answer to the question. Both chatbots did a good job of identifying and analyzing the structural weaknesses of utilitarian ethics. The study included an example involving harvesting body parts from death row inmates, and also applied deontological and virtue ethics principles to the issue with AI assistance."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

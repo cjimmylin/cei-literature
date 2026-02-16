@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Afghan, Pashto"
 languages_list: Pashto
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Zohaib Ahmad Khan, Yuanqing Xia, Fiza Khaliq, Javed Ali Khan, Nek Dil Khan]]
+[[Zohaib Ahmad Khan]], [[Yan Xia|Yuanqing Xia]], [[Fiza Khaliq]], [[Javed Ali Khan]], [[Nek Dil Khan]]
 
 ## Metadata
 

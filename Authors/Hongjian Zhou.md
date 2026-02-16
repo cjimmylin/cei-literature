@@ -20,10 +20,16 @@ Hongjian Zhou is a researcher at the University of Oxford's Institute of Biomedi
 ## Papers in this Vault
 
 
+
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 His work on medical LLM benchmarking helps establish rigorous evaluation standards for AI systems deployed in healthcare settings.

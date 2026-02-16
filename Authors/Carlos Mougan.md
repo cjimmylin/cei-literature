@@ -48,6 +48,8 @@ Mougan's work on "Kantian Deontology Meets AI Alignment" provides a rigorous eth
 ## Papers in this Vault
 
 
+
+
 - [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]] (Last Author)
 - [[2023-Mougan-Kantian Deontology Meets AI Alignment|Kantian Deontology Meets AI Alignment]] (First Author)
 
@@ -59,5 +61,9 @@ Mougan's work on "Kantian Deontology Meets AI Alignment" provides a rigorous eth
 
 ## Notes
 
+
+
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 Carlos is a rare example of a researcher who bridges the gap between deep mathematical modeling (distribution shifts) and high-level political philosophy (Kantian ethics).

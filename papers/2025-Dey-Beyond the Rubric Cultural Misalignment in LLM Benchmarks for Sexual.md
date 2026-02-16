@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Sumon Kanti Dey, Manvi S, Zeel Mehta, Meet Shah, Unnati Agrawal, Suhani Jalota, Azra Ismail]]
+[[Sumon Kanti Dey]], [[Manvi S]], [[Zeel Mehta]], [[Meet Shah]], [[Unnati Agrawal]], [[Suhani Jalota]], [[Azra Ismail]]
 
 ## Metadata
 

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,10 +13,10 @@ key: EXSR0500
 type: preprint
 short_title: "KhmerST A Low-Resource Khmer Scene Text"
 year: 2025
-first_author: "[[Nom]]"
-last_author: "[[Nom]]"
-authors: "[[Nom]]"
-authors_incomplete: true
+first_author: "[[Nom, Vannkinh]]"
+last_author: "[[Ogier, Jean-Marc]]"
+authors: "[[Nom, Vannkinh]]; [[Bakkali, Souhail]]; [[Luqman, Muhammad Muzzamil]]; [[Coustaty, Mickaël]]; [[Ogier, Jean-Marc]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.18277"
 external_pdf: "https://arxiv.org/pdf/2410.18277.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nom-KhmerST A Low-Resource Khmer Scene Text.md"
@@ -27,6 +28,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cambodian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,11 +48,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Nom et al]]
+[[Nom, Vannkinh]], [[Bakkali, Souhail]], [[Luqman, Muhammad Muzzamil]], [[Coustaty, Mickaël]], [[Ogier, Jean-Marc]]
 
 ## Metadata
 
-**Authors:** Nom et al.
+**Authors:** Nom, Vannkinh; Bakkali, Souhail; Luqman, Muhammad Muzzamil; Coustaty, Mickaël; Ogier, Jean-Marc
 
 **Year:** 2024
 

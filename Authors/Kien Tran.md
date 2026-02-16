@@ -1,7 +1,7 @@
 ---
 name: "Kien Tran"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Information Technology, Ho Chi Minh City, Vietnam"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Nguyen-VM14K First Vietnamese Medical Benchmark|VM14K First Vietnamese Medical Benchmark]]
+
+- [[2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English|IRLBench: A Multi-modal, Culturally Grounded, Parallel Irish-English Benchmark for Open-Ended LLM Reasoning Evaluation]] (First Author)
+- [[2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese|ViHOS: Hate Speech Spans Detection for Vietnamese]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
+- *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

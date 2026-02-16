@@ -1,9 +1,9 @@
 ---
 name: "Xu Sun"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Center for Industrial and Applied Mathematics, Shenzhen Research Institute of Big Data"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "wangbenyou@cuhk.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE A Chinese Language Understanding and Generation Evaluation]]
+
+- [[2023-Huang-AceGPT Localizing Large Language Models in Arabic|AceGPT, Localizing Large Language Models in Arabic]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Huang-AceGPT Localizing Large Language Models in Arabic*: Affiliation: Center for Industrial and Applied Mathematics, Shenzhen Research Institute of Big Data, Email: wangbenyou@cuhk.edu.cn
+- *From 2023-Huang-AceGPT Localizing Large Language Models in Arabic*: Affiliation: Center for Industrial and Applied Mathematics, Shenzhen Research Institute of Big Data, Email: wangbenyou@cuhk.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

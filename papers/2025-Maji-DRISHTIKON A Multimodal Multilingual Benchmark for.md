@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0355
 type: preprint
 short_title: "DRISHTIKON A Multimodal Multilingual Benchmark for"
 year: 2025
-first_author: "[[Maji]]"
-last_author: "[[Kumar]]"
-authors: "[[Maji]]; [[Kumar]]"
-authors_incomplete: true
+first_author: "[[Maji, Arijit]]"
+last_author: "[[Saha, Sriparna]]"
+authors: "[[Maji, Arijit]]; [[Kumar, Raghvendra]]; [[Ghosh, Akash]]; [[Anushka]]; [[Shah, Nemil]]; [[Borah, Abhilekh]]; [[Shah, Vanshika]]; [[Mishra, Nishant]]; [[Saha, Sriparna]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19274"
 external_pdf: "https://arxiv.org/pdf/2509.19274.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Computer Vision & Multimodal"
 
 ## Authors
 
-[[Maji]], [[Kumar]], [[and others]]
+[[Maji, Arijit]], [[Kumar, Raghvendra]], [[Ghosh, Akash]], [[Anushka]], [[Shah, Nemil]], [[Borah, Abhilekh]], [[Shah, Vanshika]], [[Mishra, Nishant]], [[Saha, Sriparna]]
 
 ## Metadata
 
-**Authors:** Maji; Kumar; and others
+**Authors:** Maji, Arijit; Kumar, Raghvendra; Ghosh, Akash; Anushka; Shah, Nemil; Borah, Abhilekh; Shah, Vanshika; Mishra, Nishant; Saha, Sriparna
 
 **Year:** 2025
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application"
 year: 2025
 first_author: "[[Hwaran Lee]]"
-last_author: "[[Nako Sung]]"
+last_author: "[[Nako Sung Eun-Ju Lee]]"
 authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Yejin Choi, Byoung-Tak Zhang, Gunhee Kim, Eun-Ju Lee, Nako Sung"
 doi: 10.18653/v1/2023.acl-industry.21
 url: "https://arxiv.org/abs/2305.17701"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Yejin Choi, Byoung-Tak Zhang, Gunhee Kim, Eun-Ju Lee, Nako Sung]]
+[[Seokhee Hong Hwaran Lee]], [[Takyoung Kim Joonsuk Park]], [[Yejin Choi Meeyoung Cha]], [[Ge Zhang|Gunhee Kim Byoung-Tak Zhang]], [[Nayeon Lee|Nako Sung Eun-Ju Lee]]
 
 ## Metadata
 

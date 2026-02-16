@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

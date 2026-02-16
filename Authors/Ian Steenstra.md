@@ -26,10 +26,16 @@ Ian Steenstra is a PhD Candidate in Computer Science at Northeastern University,
 ## Papers in this Vault
 
 
+
+
 - [[2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered|A Risk Taxonomy for Evaluating AI-Powered]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
+- *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 Steenstra's work on risk assessment for AI psychotherapy agents is highly relevant to AI ethics and safety research in this vault, particularly concerning the responsible deployment of LLMs in sensitive healthcare contexts.

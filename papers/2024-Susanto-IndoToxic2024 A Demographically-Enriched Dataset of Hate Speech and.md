@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Lucky Susanto]], [[Musa Izzanardi Wijanarko]], [[Prasetia Anugrah Pratama]], [[Traci Hong]], [[Ika Idris]], [[Alham Fikri Aji]], [[Derry Wijaya]]
+[[Susanto, Lucky]], [[Wijanarko, Musa Izzanardi]], [[Pratama, Prasetia Anugrah]], [[Hong, Traci]], [[Idris, Ika]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Wijaya, Derry]]
 
 ## Metadata
 

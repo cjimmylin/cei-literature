@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2403.04202.pdf"
 publication: "Proceedings of the 7th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2024)"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -29,6 +32,7 @@ key_contribution: "Studies learning dynamics in heterogeneous populations of age
 significance: "Finds that the presence of deontological norm-based agents can steer selfish agents towards cooperative behavior in multi-agent systems"
 abstract: "Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i.e., Reinforcement Learning. In multi-agent (social) environments, complex population-level phenomena may emerge from interactions between individual learning agents. Many of the existing studies rely on simulated social dilemma environments to study the interactions of independent learning agents;..."
 paper_summary: "Abstract: Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i. | Overview: Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents Elizaveta Tennant1, Stephen Hailes1, Mirco Musolesi1, 2 1Department of Computer Science University College London, Gower Stre | Methodology: Experimental Setup Our environment involves a population P (of size N = 16) playing an iterated game. At each iteration, a moral player M and an oppon | Conclusions: In this paper we have investigated how the presence of different moral preferences in populations affects individ- ual agents' learning behaviors and"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"

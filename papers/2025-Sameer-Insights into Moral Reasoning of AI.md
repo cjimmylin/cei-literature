@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://doi.org/10.1080/23736992.2025.2553146"
 publication: "Journal of Media Ethics"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -24,6 +27,7 @@ newtags: "Moral Reasoning, Deontology, LLM Evaluation, Moral Foundations Theory"
 key_contribution: "Compares moral reasoning between humans and LLMs using Moral Competence Test (MCT) and Moral Foundations Questionnaire (MFQ)"
 significance: "Demonstrates humans consistently outperform LLMs on moral competence; LLMs overemphasize harm/care while under-representing loyalty, authority, purity"
 abstract: "Background The primary purpose of this research is to investigate the moral reasoning capabilities of Large Language Models (LLMs), especially to find out possible biases in moral reasoning by ChatGPT and other LLM-based chatbots, and whether they engage in reasoning or simply reproduce information. The study employed an experiment to assess LLMs’ performance on their moral reasoning abilities. Methods Moral reasoning is assessed using the Moral Competence Test (MCT) and the Moral Foundation..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

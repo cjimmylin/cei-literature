@@ -1,7 +1,7 @@
 ---
 name: "Charles L.A. Clarke"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models|LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)]]]]
+
 
 - [[2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models|LLMs on Trial: Evaluating Judicial Fairness for Large Language Models (JudiFair)]]
+- [[2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora|GuyLingo: The Republic of Guyana Creole Corpora]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
+- *From 2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models*: Affiliation: University, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

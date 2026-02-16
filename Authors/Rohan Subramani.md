@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Clymer-Generalization Analogies|Generalization Analogies]]
 
 ## Notes
 
 
+
+
+- *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
+- *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 [Additional context or contact information]

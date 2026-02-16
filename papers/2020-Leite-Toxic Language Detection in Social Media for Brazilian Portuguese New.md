@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)"
 year: 2025
 first_author: "[[Joao Augusto Leite]]"
-last_author: "[[Carolina Scarton]]"
+last_author: "[[Carolina Scarton Kalina Bontcheva]]"
 authors: "Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton"
 url: "https://arxiv.org/abs/2010.04543"
 external_pdf: "https://arxiv.org/pdf/2010.04543.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton]]
+[[Diego Silva Joao Augusto Leite]], [[Carolina Scarton Kalina Bontcheva]]
 
 ## Metadata
 

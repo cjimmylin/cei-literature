@@ -32,6 +32,8 @@ Allan's research focuses on the "Grand Strategy" of AI development—how nations
 
 ## Papers in this Vault
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
 - [[2023-Morris-Levels of AGI|Levels of AGI]]
@@ -43,5 +45,9 @@ Allan's research focuses on the "Grand Strategy" of AI development—how nations
 
 ## Notes
 
+
+
+- *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
+- *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
 - *From 2023-Morris-Levels of AGI*:, Email: merrie@google.com
 [A central figure in bridging the gap between technical AI safety and international relations.]

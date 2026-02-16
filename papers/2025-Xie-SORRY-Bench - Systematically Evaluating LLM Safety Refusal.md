@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://sorry-bench.github.io"
 
 ## Authors
 
-[[Xie, Tinghao]], [[Qi, Xiangyu]], [[Zeng, Yi]], [[Huang, Yangsibo]], [[Sehwag, Udari Madhushani]], [[Huang, Kaixuan]], [[He, Luxi]], [[Wei, Boyi]], [[Li, Dacheng]], [[Sheng, Ying]], [[Jia, Ruoxi]], [[Li, Bo]], [[Li, Kai]], [[Chen, Danqi]], [[Henderson, Peter]], [[Mittal, Prateek]]
+[[Xie, Tinghao]], [[Qi, Xiangyu]], [[Yi Zeng|Zeng, Yi]], [[Huang, Yangsibo]], [[Udari Madhushani Sehwag|Sehwag, Udari Madhushani]], [[Huang, Kaixuan]], [[He, Luxi]], [[Wei, Boyi]], [[Li, Dacheng]], [[Sheng, Ying]], [[Ruoxi Jia|Jia, Ruoxi]], [[Bo Li|Li, Bo]], [[Li, Kai]], [[Danqi Chen|Chen, Danqi]], [[Peter Henderson|Henderson, Peter]], [[Prateek Mittal|Mittal, Prateek]]
 
 ## Metadata
 

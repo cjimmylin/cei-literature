@@ -18,11 +18,19 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]] (Last Author)
 - [[2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional|EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans]]
 - [[2024-Wang-All Languages Matter|All Languages Matter]]
+- [[2024-Wang-All Languages Matter On the Multilingual Safety of Large Language|All Languages Matter: On the Multilingual Safety of Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
+- *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 [Additional context or contact information]

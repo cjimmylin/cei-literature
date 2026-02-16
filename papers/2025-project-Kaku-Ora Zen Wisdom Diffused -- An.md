@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Kaku-Ora Zen Wisdom Diffused -- An"
 year: 2025
 first_author: "[[project), (LessWrong community]]"
-last_author: "[[project), (LessWrong community]]"
+last_author: "[[(LessWrong community project)]]"
 authors: "[[(LessWrong community project)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]]]
+
 
 - [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]
 

@@ -1,7 +1,7 @@
 ---
 name: "A."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "label toxic comments classification"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,11 +55,16 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]]
-- [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]]]
+
 
 - [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]]
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic|AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic]] (First Author)
 - [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]
+- [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
+- [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
+- [[2022-Abbasi-Deep Learning for Religious and Continent-Based|Deep Learning for Religious and Continent-Based]]
 
 ## External Links & Profiles
 
@@ -85,6 +90,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification
+- *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

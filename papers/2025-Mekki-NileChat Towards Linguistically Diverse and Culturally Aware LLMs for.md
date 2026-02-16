@@ -45,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Abdellah El Mekki, Houdaifa Atou, Omer Nacar, Shady Shehata, Muhammad Abdul-Mageed]]
+[[Abdellah El Mekki]], [[Houdaifa Atou]], [[Omer Nacar]], [[Shady Shehata]], [[Muhammad Abdul-Mageed]]
 
 ## Metadata
 

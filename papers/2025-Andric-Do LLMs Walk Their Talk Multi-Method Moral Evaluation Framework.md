@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +12,7 @@ type: preprint
 short_title: "Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework"
 year: 2025
 first_author: "[[Andric, Sandro]]"
-last_author: "[[Andric, Sandro]]"
+last_author: "[[Sandro Andric]]"
 authors: "[[Andric, Sandro]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01568"
@@ -24,6 +26,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_"
 
 ## Authors
 
-[[S. Andric]]
+[[S. Andric|Sandro Andric]]
 
 ## Metadata
 

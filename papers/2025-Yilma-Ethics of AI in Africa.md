@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.1007/s10676-025-09834-5
 url: "https://link.springer.com/10.1007/s10676-025-09834-5"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5ZTYJ2SS/Yilma - 2025 - Ethics of AI in Africa Interrogating the role of Ubuntu and AI governance initiatives.pdf"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
@@ -24,6 +26,7 @@ key_contribution: "Interrogated the role of **Ubuntu** in African AI governance,
 significance: "A critical policy paper highlighting 'epistemic injustice' – the risk that 'African AI' becomes just a label for Western AI with a local coating, rather than a system truly built on indigenous values."
 tags: 
 abstract: "One of the common concerns raised in AI ethics scholarship is the overly western-centric nature of ongoing AI ethics discourse and governance initiatives. This has recently prompted many commentators to proclaim the emergence of an epistemic injustice or “ethical colonialism”. Many scholars point to the role of indigenous ethical systems, particularly Ubuntu, in addressing this flaw. In the meantime, a series of national and continental AI governance initiatives are also emerging in Africa."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian"
 year: 2025
 first_author: "[[Nikolich, Aleksandr]]"
-last_author: "[[Okulov, Georgy]]"
-authors: "[[Nikolich, Aleksandr]]; [[Korolev, Konstantin]]; [[Okulov, Georgy]]"
-authors_incomplete: true
+last_author: "[[Shelmanov, Artem]]"
+authors: "[[Nikolich, Aleksandr]]; [[Korolev, Konstantin]]; [[Bratchikov, Sergei]]; [[Kiselev, Igor]]; [[Shelmanov, Artem]]"
+authors_incomplete: false
 doi: 10.18653/v1/2024.mrl-1.15
 url: "https://arxiv.org/abs/2405.13929"
 external_pdf: "https://arxiv.org/pdf/2405.13929.pdf"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 languages_list: "English, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al.]]
+[[Nikolich, Aleksandr]], [[Korolev, Konstantin]], [[Bratchikov, Sergei]], [[Kiselev, Igor]], [[Shelmanov, Artem]]
 
 ## Metadata
 
-**Authors:** Aleksandr Nikolich, Konstantin Korolev, Georgy Okulov, et al.
+**Authors:** Nikolich, Aleksandr; Korolev, Konstantin; Bratchikov, Sergei; Kiselev, Igor; Shelmanov, Artem
 
 **Year:** 2024
 

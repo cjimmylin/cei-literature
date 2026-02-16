@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "MITRA A Large-Scale Parallel Corpus and"
 year: 2025
 first_author: "[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI Research / Dharmamitra)]]"
-last_author: "[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI Research / Dharmamitra)]]"
+last_author: "[[Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra) Sebastian Nehrdich]]"
 authors: "[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI Research / Dharmamitra)]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06400"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese, Tibetan, Sanskrit, Indian"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI Research / Dharmamitra)]]
+[[Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra) Sebastian Nehrdich]]
 
 ## Metadata
 

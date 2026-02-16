@@ -2,12 +2,17 @@
 """
 Generate batch files for comprehensive LLM ethics benchmark/dataset/metrics survey.
 
-Scans all 924 papers in the vault, extracts metadata and body richness
+Scans papers in the vault, extracts metadata and body richness
 indicators, and splits into 20 balanced batches for parallel agent processing.
+
+Usage:
+  python generate_benchmark_survey_batches.py               # All papers
+  python generate_benchmark_survey_batches.py --unsurveyed   # Only papers NOT in existing survey
 
 Output: logs/benchmark_survey_batches/batch_01.json through batch_20.json
 """
 
+import argparse
 import json
 import re
 import sys
@@ -18,6 +23,19 @@ from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, PDF_EXTRACTS_DIR, LOGS_DIR
 
 NUM_BATCHES = 20
+
+
+def load_surveyed_filenames():
+    """Load filenames already covered by previous benchmark survey."""
+    # Try the latest all_classifications JSON
+    for prefix in ["20260215", "20260208"]:
+        path = LOGS_DIR / "{}-benchmark_survey_all_classifications.json".format(prefix)
+        if path.exists():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            filenames = {entry["filename"] for entry in data}
+            print("Loaded {} already-surveyed papers from {}".format(len(filenames), path.name))
+            return filenames
+    return set()
 
 
 def resolve_extract_path(paper_path, fm_text):
@@ -62,9 +80,18 @@ def assess_body_richness(body):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Generate benchmark survey batches")
+    parser.add_argument("--unsurveyed", action="store_true",
+                        help="Only include papers NOT in existing survey")
+    args = parser.parse_args()
+
+    surveyed = load_surveyed_filenames() if args.unsurveyed else set()
+
     papers = []
 
     for paper_path in sorted(PAPERS_DIR.glob("*.md")):
+        if paper_path.name in surveyed:
+            continue
         try:
             content = paper_path.read_text(encoding="utf-8")
         except Exception:

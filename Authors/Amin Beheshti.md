@@ -1,7 +1,7 @@
 ---
 name: "Amin Beheshti"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computing and Information System, the University of Melbourne, Australia"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Shetty-VITAL|VITAL]]]]
+
 
 - [[2025-Shetty-VITAL|VITAL]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

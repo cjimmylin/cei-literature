@@ -22,10 +22,16 @@ Keith J. Holyoak is a Distinguished Professor of Psychology at UCLA, a position 
 ## Papers in this Vault
 
 
+
+
 - [[2016-Holyoak-Deontological coherence|Deontological coherence]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2016-Holyoak-Deontological coherence*: Affiliation: University of California, Los Angeles
+- *From 2016-Holyoak-Deontological coherence*: Affiliation: University of California, Los Angeles
 - *From 2016-Holyoak-Deontological coherence*: Affiliation: University of California, Los Angeles
 [Additional context or contact information]

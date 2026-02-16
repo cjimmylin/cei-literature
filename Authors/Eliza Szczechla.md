@@ -33,6 +33,9 @@ Eliza Szczechla is a researcher contributing to AI safety evaluation and bias de
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## Links

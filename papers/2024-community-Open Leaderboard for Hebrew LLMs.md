@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Open Leaderboard for Hebrew LLMs"
 year: 2025
 first_author: "[[Hugging Face / Hebrew NLP community]]"
-last_author: "[[Hugging Face / Hebrew NLP community]]"
+last_author: "[[Hugging Face Hebrew NLP community]]"
 authors: "Hugging Face / Hebrew NLP community"
 url: "https://huggingface.co/blog/leaderboard-hebrew"
 publication: HuggingFace
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Hugging Face / Hebrew NLP community]]
+[[Hugging Face Hebrew NLP community]]
 
 ## Metadata
 

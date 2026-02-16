@@ -30,6 +30,8 @@ He is the co-inventor of Adam, one of the most widely used optimization algorith
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -46,5 +48,9 @@ He is the co-inventor of Adam, one of the most widely used optimization algorith
 ## Notes
 
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Jimmy Ba is one of the most influential researchers in deep learning optimization. His invention of the Adam optimizer has had an outsized impact on the field. His involvement in the WMDP benchmark reflects growing engagement of core ML researchers with AI safety concerns.

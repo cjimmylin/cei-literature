@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "Culture is Everywhere: A Call for Intentionally Cultural Evaluation"
 year: 2025
 first_author: "[[Juhyun Oh]]"
-last_author: "[[Alice Oh]]"
+last_author: "[[Alice Oh Shaily Bhatt]]"
 authors: Juhyun Oh, Inha Cha, Michael Saxon, Hyunseung Lim, Shaily Bhatt, Alice Oh
 doi: 10.18653/v1/2025.findings-emnlp.1043
 url: "https://aclanthology.org/2025.findings-emnlp.1043/"
@@ -45,7 +45,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Juhyun Oh, Inha Cha, Michael Saxon, Hyunseung Lim, Shaily Bhatt, Alice Oh]]
+[[Inha Cha Juhyun Oh]], [[Hyunseung Lim Michael Saxon]], [[Alice Oh Shaily Bhatt]]
 
 ## Metadata
 

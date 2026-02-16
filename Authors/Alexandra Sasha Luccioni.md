@@ -50,7 +50,9 @@ Named one of TIME's 100 most influential people in AI (2024), Sasha is a leading
 ## Papers in this Vault
 
 
-- [[2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI|Metaethical perspectives on ‘benchmarking’ AI]] (Last Author)
+
+
+- [[2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI|Metaethical perspectives on 'benchmarking' AI]] (Last Author)
 - [[2024-Pistilli-CIVICS|CIVICS]]
 
 ## External Links & Profiles
@@ -70,5 +72,9 @@ Named one of TIME's 100 most influential people in AI (2024), Sasha is a leading
 
 ## Notes
 
+
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Sasha is the foremost expert on the intersection of AI, ethics, and environmental sustainability.]

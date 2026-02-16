@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Mechanistic Interpretability with SAEs Probing Religion"
 year: 2025
 first_author: "[[Katharina Simbeck, Mariam Mahran]]"
-last_author: "[[Katharina Simbeck, Mariam Mahran]]"
+last_author: "[[Mariam Mahran Katharina Simbeck]]"
 authors: "[[Katharina Simbeck, Mariam Mahran]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17665"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Katharina Simbeck, Mariam Mahran]]
+[[Mariam Mahran Katharina Simbeck]]
 
 ## Metadata
 

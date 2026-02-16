@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2302.04752"
 external_pdf: "http://arxiv.org/pdf/2302.04752.pdf"
 publication: "ACM Computing Surveys"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2023/2023-Davis-Benchmarks for Automated Commonsense 
 abstract: "More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂawed and many aspects of common sense remain untested. Consequently, we do not currently have any reliable way of measuring to what extent existing AI systems have achieved these abilities. This paper surveys the development and uses of AI commonsense benchmarks."
 paper_summary: "Abstract: More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂ | Overview: Benchmarks for Automated Commonsense Reasoning: A Survey Ernest Davis Dept. of Computer Science New York University New York, NY 10012 davise@cs.nyu.edu February 24, 2023 Abstract More than one hundre"
 local_pdf: "[[PDFs/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

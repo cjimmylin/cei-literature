@@ -3,7 +3,7 @@ name: "Tomasz Zgliczyński-Cuber"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "tomcuber@aiethos.co"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis|AI Ethical Resonance Hypothesis]] (First Author)]]
+
 
 - [[2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis|AI Ethical Resonance Hypothesis]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis*:, Email: tomcuber@aiethos.co
+- *From 2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis*:, Email: tomcuber@aiethos.co
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

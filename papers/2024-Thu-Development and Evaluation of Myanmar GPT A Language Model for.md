@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing"
 year: 2025
 first_author: "[[Min Si Thu]]"
-last_author: "[[Pyae Sone Phyo]]"
+last_author: "[[Pyae Sone Phyo Min Si Thu]]"
 authors: "Min Si Thu, Pyae Sone Phyo"
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
 publication: SSRN
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Burmese"
 languages_list: Burmese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Min Si Thu, Pyae Sone Phyo]]
+[[Pyae Sone Phyo Min Si Thu]]
 
 ## Metadata
 

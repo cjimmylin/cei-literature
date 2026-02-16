@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/MWSLHSCV/2024 - tSMC A Tool
 pdf_extract: "PDF Extracts/2024/2024-Zhou-tSMC.md"
 local_pdf: [[PDFs/2024/2024-Zhou-tSMC.pdf]]
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Developed the tSMC framework to evaluate and mitigate positio
 significance: "Reveals that perceived moral inconsistencies in LLMs are often artifacts of measurement bias (position/selection) rather than intrinsic moral failure, providing a more robust methodology for evaluating whether LLMs actually 'understand' moral scenarios."
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, surpassing human experts in various benchmark tests and playing a vital role in various industry sectors. Despite their effectiveness, a notable drawback of LLMs is their inconsistent moral behavior, which raises ethical concerns. This work delves into symmetric moral consistency in large language models and demonstrates that modern LLMs lack sufficient consistency ability in moral scenarios."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

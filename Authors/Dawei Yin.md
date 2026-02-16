@@ -1,9 +1,9 @@
 ---
 name: "Dawei Yin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "LabNLP/SafeWorld"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "haoyiqiu@cs.ucla.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Liu-JAILJUDGE|JAILJUDGE]]]]
+
 
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]]
+- [[2024-Yin-SafeWorld Geo-Diverse Safety Alignment|SafeWorld: Geo-Diverse Safety Alignment]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: kh.huang@salesforce.com
+- *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

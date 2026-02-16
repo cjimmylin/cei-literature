@@ -47,10 +47,13 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 
 ## Papers in this Vault
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]] (First Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
+- [[2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety|SafetyPrompts: Systematic Review of Open Datasets for LLM Safety]]
 - [[2024-Röttger-XSTest|XSTest]]
 - [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]]
 - [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]] (Last Author)
@@ -65,5 +68,9 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 
 ## Notes
 
+
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 [Bertie is a leading authority on the practical application of AI for online safety and social responsibility.]

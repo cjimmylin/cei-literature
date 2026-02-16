@@ -45,7 +45,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Haoyi Qiu, Alexander Fabbri, Divyansh Agarwal, Kung-Hsiang Huang, Sarah Tan, Nanyun Peng, Chien-Sheng Wu]]
+[[Han Qiu|Haoyi Qiu]], [[Alexander Fabbri]], [[Divyansh Agarwal]], [[Kexin Huang|Kung-Hsiang Huang]], [[Sarah Tan]], [[Nanyun Peng]], [[Carole-Jean Wu|Chien-Sheng Wu]]
 
 ## Metadata
 

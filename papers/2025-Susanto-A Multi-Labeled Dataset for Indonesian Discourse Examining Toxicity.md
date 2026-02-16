@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[Lucky Susanto]], [[Musa Wijanarko]], [[Prasetia Pratama]], [[Zilu Tang]], [[Fariz Akyas]], [[Traci Hong]], [[Ika Idris]], [[Alham Aji]], [[Derry Wijaya]]
+[[Susanto, Lucky]], [[Wijanarko, Musa]], [[Pratama, Prasetia]], [[Tang, Zilu]], [[Akyas, Fariz]], [[Hong, Traci]], [[Idris, Ika]], [[Aji, Alham]], [[Wijaya, Derry]]
 
 ## Metadata
 

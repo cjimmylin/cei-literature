@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: Multilingual
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Naseem Machlovi]], [[Maryam Saleki]], [[Innocent Ababio]], [[Ruhul Amin]]
+[[Machlovi, Naseem]], [[Saleki, Maryam]], [[Ababio, Innocent]], [[Amin, Ruhul]]
 
 ## Metadata
 

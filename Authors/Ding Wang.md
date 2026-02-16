@@ -20,10 +20,17 @@ Ding Wang is a researcher at Google working on machine learning and responsible 
 ## Papers in this Vault
 
 
+
+
+- [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]]
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 Research on annotation diversity and AI safety evaluation at Google.

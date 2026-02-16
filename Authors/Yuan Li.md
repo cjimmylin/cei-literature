@@ -21,6 +21,9 @@ Yuan Li is a researcher at the University of Cambridge focusing on psychometric 
 ## Papers in this Vault
 
 
+
+
+- [[2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese|How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]] (First Author)
@@ -28,5 +31,9 @@ Yuan Li is a researcher at the University of Cambridge focusing on psychometric 
 ## Notes
 
 
+
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 [Additional context or contact information]

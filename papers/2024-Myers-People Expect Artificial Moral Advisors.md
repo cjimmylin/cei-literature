@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
 external_pdf: 
 publication: Cognition
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2024/2024-Myers-People Expect Artificial Moral Adviso
 abstract: "Across four pre-registered studies (total N = 2604), we investigated how people perceive and trust artificial moral advisors compared to human advisors. We found that people have a significant aversion to AMAs (vs humans) giving moral advice, participants expect AI to make utilitarian decisions, and even when participants agreed with an AMA's decision, they still expected to disagree with it more than a human advisor in the future."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

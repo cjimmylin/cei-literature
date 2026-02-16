@@ -1,7 +1,7 @@
 ---
 name: "Shantipriya Parida"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Norway, Tromsø, Norway"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain|Building a Llama2-finetuned LLM for Odia Language Utilizing Domain]]
+- [[2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large|Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language]]
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large*: Affiliation: University of Norway, Tromsø, Norway
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

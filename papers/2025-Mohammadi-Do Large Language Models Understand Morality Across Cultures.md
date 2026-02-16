@@ -10,7 +10,7 @@ type: preprint
 short_title: Do Large Language Models Understand Morality Across Cultures?
 year: 2025
 first_author: "[[Hadi Mohammadi]]"
-last_author: "[[Ayoub Bagheri]]"
+last_author: "[[Ayoub Bagheri Efthymia Papadopoulou]]"
 authors: Hadi Mohammadi, Yasmeen F.S.S. Meijer, Efthymia Papadopoulou, Ayoub Bagheri
 url: "https://arxiv.org/abs/2507.21319"
 external_pdf: "https://arxiv.org/pdf/2507.21319.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Hadi Mohammadi, Yasmeen F.S.S. Meijer, Efthymia Papadopoulou, Ayoub Bagheri]]
+[[Yasmeen F.S.S. Meijer Hadi Mohammadi]], [[Ayoub Bagheri Efthymia Papadopoulou]]
 
 ## Metadata
 

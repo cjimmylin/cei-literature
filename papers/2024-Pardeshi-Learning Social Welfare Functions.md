@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.48550/arXiv.2410.15000
 url: "https://arxiv.org/abs/2410.15000"
 external_pdf: "https://arxiv.org/pdf/2410.15000.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Pardeshi-Learning Social Welfare Functions.
 abstract: "Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is not an eigenvalue of P, then by the interlacing theorem, we have mG(−1) ≤n−d−1. In this article, we characterize the extremal graphs where equality holds. Moreover, for the completeness of the results, we also characterize the graphs G that achieve mG(−1) = n −d −1 when −1 is an eigenvalue of P."
 paper_summary: "Abstract: Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is | Overview: A complete characterization of graphs for which mG(−1) = n −d −1 Songnian Xu, Wenhao Zhen, Dein Wong∗ School of Mathematics, China University of Mining and Tecnology, Xuzhou, China. Abstract Let G be"
 local_pdf: "[[PDFs/2024/2024-Pardeshi-Learning Social Welfare Functions.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

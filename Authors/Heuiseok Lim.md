@@ -21,8 +21,15 @@ Heuiseok Lim is a Full Professor at the NLP & AI Lab in the Department of Comput
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jung-FLEX|FLEX]] (Last Author)
+- [[2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A|Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4]] (Last Author)
 
 ## Notes
 
+
+
+- *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
+- *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 Professor Lim leads one of Korea's most prolific NLP research groups. His lab members have gone on to positions at major institutions including Soongsil University, Jeju National University, and University of Copenhagen.

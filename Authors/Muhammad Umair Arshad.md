@@ -31,10 +31,16 @@ Muhammad's research addresses a critical gap in hate speech detection: the need 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Arshad-Understanding hate speech|Understanding hate speech]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
+- *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 - *From 2024-Arshad-Understanding hate speech*: Affiliation: Department of Artiﬁcial Intelligence and Data Science, National University of Computer and
 Collaborates with Waseem Shahzad on hate speech research. Institution affiliation could not be verified from available sources.

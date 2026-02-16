@@ -18,11 +18,18 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Li-Untangling Input Language from Reasoning Language A Diagnostic|Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs]] (Last Author)
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]] (Last Author)
 - [[2024-Defrance-ABCFair|ABCFair]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
+- *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 [Additional context or contact information]

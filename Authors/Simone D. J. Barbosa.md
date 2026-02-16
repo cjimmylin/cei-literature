@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding|Conscience Conflict: Evaluating Language Models' Moral Understanding]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
+- *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 - *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

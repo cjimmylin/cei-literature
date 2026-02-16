@@ -43,7 +43,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Jasmin Heierli, Rebecca Bahar Ganjineh, Elena Gavagnin]]
+[[Jasmin Heierli]], [[Rebecca Bahar Ganjineh]], [[Elena Gavagnin]]
 
 ## Metadata
 

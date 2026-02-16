@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1371/journal.pone.0190954
 url: "https://doi.org/10.1371/journal.pone.0190954"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B8VEUSGU/Crone and others - 2018 - The Socio-Moral Image Database (SMID) A Novel Stimulus Set for the Study of Social, Moral and Affec.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -24,6 +27,7 @@ key_contribution: "Released the Socio-Moral Image Database (SMID), a standardize
 significance: "Provides a necessary visual alternative to text-based vignettes for cross-cultural and developmental moral psychology research."
 tags: 
 abstract: "A major obstacle for the design of rigorous, reproducible studies in moral psychology is the lack of suitable stimulus sets. Here, we present the Socio-Moral Image Database (SMID), the largest standardized moral stimulus set assembled to date, containing 2,941 freely available photographic images, representing a wide range of morally (and affectively) positive, negative and neutral content. The SMID was validated with over 820,525 individual judgments from 2,716 participants, with normative..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

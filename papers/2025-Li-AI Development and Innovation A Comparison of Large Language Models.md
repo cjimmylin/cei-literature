@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 languages_list: "Chinese, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Jiaxin Li]], [[Zhenhui Jiang]], [[Yang Liu]], [[Xiaoyu Miao]]
+[[Li, Jiaxin]], [[Jiang, Zhenhui]], [[Yang Liu|Liu, Yang]], [[Miao, Xiaoyu]]
 
 ## Metadata
 

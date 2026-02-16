@@ -29,11 +29,17 @@ Jianfeng Chi is a Research Scientist at Meta, specializing in machine learning, 
 ## Papers in this Vault
 
 
+
+
 - [[2023-Han-FFB|FFB]]
 
 ## Notes
 
 
+
+
+- *From 2023-Han-FFB*: Affiliation: University of Houston, Email: ychen@anytime-ai.com
+- *From 2023-Han-FFB*: Affiliation: University of Houston, Email: nzou2@uh.edu
 - *From 2023-Han-FFB*: Affiliation: University of Houston, Email: han@tamu.edu
 - PhD from University of Virginia (2022)
 - Research Scientist at Meta

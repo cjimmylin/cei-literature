@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1145/3593013.3594098
 url: "https://dl.acm.org/doi/10.1145/3593013.3594098"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LVYMDI7H/Moss and others - 2023 - Bias on Demand A Modelling Framework That Generates Synthetic Data With Bias.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "A framework to generate synthetic data with *controlled bias*
 significance: "Useful for creating stress-tests: instead of waiting for bias to appear, we can manufacture biased datasets to test if our mitigation strategies work."
 tags: 
 abstract: "Recommendation systems increasingly depend on massive humanlabeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models—based on these labels—are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are “consistently conceptualized” across annotators of different demographics."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0130
 type: preprint
 short_title: "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models"
 year: 2025
-first_author: "[[Mirbagheri, Mohammadreza]]"
-last_author: "[[Mirbagheri, Mohammadreza]]"
-authors: "[[Mirbagheri, Mohammadreza]]"
-authors_incomplete: true
+first_author: "[[Mirbagheri, Mohammad Reza]]"
+last_author: "[[Jalili, Rasool]]"
+authors: "[[Mirbagheri, Mohammad Reza]]; [[Mirkamali, Mohammad Mahdi]]; [[Arani, Zahra Motoshaker]]; [[Javeri, Ali]]; [[Sadeghzadeh, Amir Mahdi]]; [[Jalili, Rasool]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.06838"
 external_pdf: "https://arxiv.org/pdf/2509.06838.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Mohammadreza Mirbagheri et al.]]
+[[Mirbagheri, Mohammad Reza]], [[Mirkamali, Mohammad Mahdi]], [[Arani, Zahra Motoshaker]], [[Javeri, Ali]], [[Sadeghzadeh, Amir Mahdi]], [[Jalili, Rasool]]
 
 ## Metadata
 
-**Authors:** Mohammadreza Mirbagheri et al.
+**Authors:** Mirbagheri, Mohammad Reza; Mirkamali, Mohammad Mahdi; Arani, Zahra Motoshaker; Javeri, Ali; Sadeghzadeh, Amir Mahdi; Jalili, Rasool
 
 **Year:** 2025
 

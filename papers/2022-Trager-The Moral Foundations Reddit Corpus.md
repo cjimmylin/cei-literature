@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2208.05545"
 external_pdf: "http://arxiv.org/pdf/2208.05545.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2022/2022-Trager-The Moral Foundations Reddit Corpus.
 abstract: "Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural Language Processing (NLP) have been used to detect moral sentiment from textual data, but achieving strong performance in such subjective tasks requires large, hand-annotated datasets. Previous corpora annotated for moral sentiment have proven valuable, and have generated new insights both within..."
 paper_summary: "Abstract: Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural  | Overview: The Moral Foundations Reddit Corpus Jackson Trager1,*, Alireza S. Ziabari1,*, Elnaz Rahmati1, Aida Mostafazadeh Davani2, Preni Golazizian1, Farzan Karimi-Malekabadi1, Ali Omrani3, Zhihe Li1, Brendan K | Methodology: Model Care Equality Prop Loyalty Authority Purity Thin 0-shot Llamasingle | Key Findings: from this theoretical change, we need to have an updated annotated corpus that complies with the latest theoretical revisions. Together, the above rea | Conclusions: Moral rhetoric and framing have been shown to be predictive of various important pro-social and anti-social behaviors. Several NLP methods have recent"
 local_pdf: "[[PDFs/2022/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

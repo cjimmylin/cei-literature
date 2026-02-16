@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, French, German, Spanish"
+cultures_nationalities_list: "Arabic, French, German, Spanish"
 languages_list: "Arabic, English, French, German, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Anwar Hossain Zahid]], [[Monoshi Kumar Roy]], [[Swarna Das]]
+[[Zahid, Anwar Hossain]], [[Roy, Monoshi Kumar]], [[Das, Swarna]]
 
 ## Metadata
 

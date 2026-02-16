@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
 year: 2025
 first_author: "[[Simona Frenda]]"
-last_author: "[[Luisa Bentivogli]]"
+last_author: "[[Luisa Bentivogli Matteo Negri]]"
 authors: "Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli"
 url: "https://arxiv.org/abs/2412.19168"
 external_pdf: "https://arxiv.org/pdf/2412.19168.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: "English, Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli]]
+[[Andrea Piergentili Simona Frenda]], [[Marco Madeddu Beatrice Savoldi]], [[Silvia Casola Martina Rosola]], [[Viviana Patti Chiara Ferrando]], [[Luisa Bentivogli Matteo Negri]]
 
 ## Metadata
 

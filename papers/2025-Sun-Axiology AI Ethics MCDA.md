@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://www.mdpi.com/2504-3900/126/1/17"
 external_pdf: "https://www.mdpi.com/2504-3900/126/1/17/pdf"
 publication: "Proceedings (MDPI)"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Sun-Axiology AI Ethics MCDA.md"
 abstract: "The fast advancement of artificial intelligence presents ethical challenges that exceed the scope of traditional moral theories. This paper proposes a value-centered framework for AI ethics grounded in axiology, which distinguishes intrinsic values like dignity and fairness from instrumental ones such as accuracy and efficiency. Using Multi-Criteria Decision Analysis (MCDA), the framework translates values into structured evaluations, enabling transparent trade-offs...."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Sun-Axiology AI Ethics MCDA.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

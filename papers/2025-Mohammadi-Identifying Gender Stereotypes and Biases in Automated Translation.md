@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: "English, Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"

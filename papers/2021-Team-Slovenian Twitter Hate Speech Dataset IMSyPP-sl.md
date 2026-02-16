@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Slovenian"
 languages_list: Slovenian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[IMSyPP Project Team]]
+[[Imam Muhammad bin Saud University Team|IMSyPP Project Team]]
 
 ## Metadata
 

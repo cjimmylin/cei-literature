@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: "French, Quebecois French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Eeham Khan]], [[Firas Saidani]], [[Owen Van Esbroeck]], [[Richard Khoury]], [[Leila Kosseim]]
+[[Khan, Eeham]], [[Saidani, Firas]], [[Van Esbroeck, Owen]], [[Khoury, Richard]], [[Kosseim, Leila]]
 
 ## Metadata
 

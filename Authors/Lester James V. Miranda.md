@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Miranda-FilBench Can LLMs Understand and Generate Filipino|FilBench Can LLMs Understand and Generate Filipino]]
+
+- [[2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs|Desiderata for Filipino NLP in the Age of LLMs]] (First Author)
 
 ## External Links & Profiles
 

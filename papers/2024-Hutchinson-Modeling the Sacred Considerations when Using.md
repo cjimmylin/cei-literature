@@ -5,6 +5,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,7 +16,7 @@ type: conference_paper
 short_title: "Modeling the Sacred Considerations when Using"
 year: 2025
 first_author: "[[Hutchinson, Ben]]"
-last_author: "[[Hutchinson, Ben]]"
+last_author: "[[Ben Hutchinson]]"
 authors: "[[Ben Hutchinson]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.14740"
@@ -28,6 +30,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

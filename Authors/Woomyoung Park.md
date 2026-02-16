@@ -1,9 +1,9 @@
 ---
 name: "Woomyoung Park"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Seoul"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jinhwanchoi@lbox.kr"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language|No Language Data Left Behind A Comparative Study of CJK Language]]
+
+- [[2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language|Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models]] (Last Author)
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr
+- *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: jinhwanchoi@lbox.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

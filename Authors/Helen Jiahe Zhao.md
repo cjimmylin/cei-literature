@@ -47,6 +47,8 @@ Zhao co-created BibleQA, a new dataset based on Bible trivia questions designed 
 ## Papers in this Vault
 
 
+
+
 - [[2018-Zhao-Finding Answers from the Word of God|Finding Answers from the Word of God]] (First Author)
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ Zhao co-created BibleQA, a new dataset based on Bible trivia questions designed 
 ## Notes
 
 
+
+
+- *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
+- *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 Helen Jiahe Zhao's work on Biblical question answering demonstrates innovative applications of transfer learning to specialized domains, creating resources for automated analysis of religious texts.

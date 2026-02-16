@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Moon-BEAF|BEAF]]
 
 ## Notes
 
 
+
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 [Additional context or contact information]

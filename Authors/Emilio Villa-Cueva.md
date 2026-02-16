@@ -27,10 +27,20 @@ Emilio Villa-Cueva is a researcher at Tecnologico de Monterrey in Mexico, workin
 ## Papers in this Vault
 
 
+
+
+- [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning|VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark]]
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 
 ## Notes
 
 
+
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Contributor to SHADES, a benchmark for evaluating social biases and cultural stereotypes in language models across multiple languages.

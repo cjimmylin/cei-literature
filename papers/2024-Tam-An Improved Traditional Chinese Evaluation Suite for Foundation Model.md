@@ -44,7 +44,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Zhi-Rui Tam, Ya-Ting Pai, Yen-Wei Lee, Jun-Da Chen, Wei-Min Chu, Sega Cheng, Hong-Han Shuai]]
+[[Zhi-Rui Tam]], [[Ya-Ting Pai]], [[Yeongheon Lee|Yen-Wei Lee]], [[Jun-Da Chen]], [[Wei-Min Chu]], [[Sunny Yu Myra Cheng|Sega Cheng]], [[Hong-Han Shuai]]
 
 ## Metadata
 

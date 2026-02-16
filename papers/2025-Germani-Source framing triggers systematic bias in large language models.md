@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: journalArticle
 short_title: "Source framing triggers systematic bias in large language models | Science Advances"
 year: 2025
 first_author: "[[Germani, Federico]]"
-last_author: "[[Spitale, G.]]"
+last_author: "[[Spitale, G]]"
 authors: "[[Germani, Federico]]; [[Spitale, G.]]"
 authors_incomplete: false
 doi: 10.1126/sciadv.adz2924
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 languages_list: Chinese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Federico Germani]], [[G. Spitale]]
+[[Germani, Federico]], [[Spitale, G]]
 
 ## Metadata
 

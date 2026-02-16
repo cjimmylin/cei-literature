@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "FARSIQA Faithful and Advanced RAG System"
 year: 2025
 first_author: "[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]"
-last_author: "[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]"
+last_author: "[[Behrooz Minaei Bidgoli Mohammad Aghajani Asl]]"
 authors: "[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25621"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Mohammad Aghajani Asl, Behrooz Minaei Bidgoli]]
+[[Behrooz Minaei Bidgoli Mohammad Aghajani Asl]]
 
 ## Metadata
 

@@ -46,6 +46,8 @@ Beyond his technical inventions like federated learning and on-device machine le
 
 ## Papers in this Vault
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]]
 
@@ -63,5 +65,9 @@ Beyond his technical inventions like federated learning and on-device machine le
 
 ## Notes
 
+
+
+- *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
+- *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 Blaise represents a bridge between high-level philosophical AI alignment (the "nature of mind") and practical, large-scale engineering safety (federated learning and privacy).

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "dblp: ArabicNLP 2024"
 year: 2025
 first_author: "[[Anastasiia Demidova]]"
-last_author: "[[Sanad Sha]]"
+last_author: "[[Sanad Sha Nour Rabih]]"
 authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
 url: "https://dblp.org/db/conf/wanlp/arabicnlp2024.html"
 publication: Web
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha]]
+[[Hanin Atwany Anastasiia Demidova]], [[Sanad Sha Nour Rabih]]
 
 ## Metadata
 

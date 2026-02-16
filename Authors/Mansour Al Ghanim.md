@@ -21,10 +21,16 @@ Mansour Al Ghanim is a PhD student at the University of Central Florida with a f
 ## Papers in this Vault
 
 
+
+
 - [[2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and|Jailbreaking LLMs with Arabic Transliteration and]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
+- *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 - *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 [Additional context or contact information]

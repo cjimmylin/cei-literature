@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ DATA_URL: NA
 
 ## Authors
 
-[[Karimi-Malekabadi, Farzan]], [[Abdurahman, Suhaib]], [[Sourati, Zhivar]], [[Trager, Jackson]], [[Dehghani, Morteza]]
+[[Farzan Karimi-Malekabadi|Karimi-Malekabadi, Farzan]], [[Abdurahman, Suhaib]], [[Sourati, Zhivar]], [[Jackson Trager|Trager, Jackson]], [[Morteza Dehghani|Dehghani, Morteza]]
 
 ## Metadata
 

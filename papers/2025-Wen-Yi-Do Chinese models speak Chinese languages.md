@@ -44,7 +44,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Andrea W Wen-Yi, Unso Eun Seo Jo, David Mimno]]
+[[Andrea W Wen-Yi]], [[Unso Eun Seo Jo]], [[David Mimno]]
 
 ## Metadata
 

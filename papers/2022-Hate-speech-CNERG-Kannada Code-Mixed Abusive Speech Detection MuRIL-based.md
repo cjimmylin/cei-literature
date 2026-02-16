@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)"
 year: 2025
 first_author: [[Hate-speech-CNERG]]
-last_author: [[Hate-speech-CNERG]]
+last_author: "[[Hate-speech-CNERG]]"
 authors: Hate-speech-CNERG
 url: "https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL"
 external_pdf: "https://arxiv.org/pdf/2204.12543"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "Kannada-English code-mixed"
 religious_values: "N/A"
 religious_values_list: "N/A"

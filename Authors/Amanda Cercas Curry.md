@@ -44,6 +44,8 @@ Dr. Amanda Cercas Curry is a researcher at CENTAI, working on applied NLP, fairn
 ## Papers in this Vault
 
 
+
+
 - [[2021-Cercas Curry-ConvAbuse|ConvAbuse]] (First Author)
 
 ## External Links & Profiles
@@ -63,5 +65,9 @@ Dr. Amanda Cercas Curry is a researcher at CENTAI, working on applied NLP, fairn
 ## Notes
 
 
+
+
+- *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
+- *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 Amanda Cercas Curry's work is essential for understanding how conversational AI should handle sensitive and potentially harmful interactions. Her feminist perspective brings important critical analysis to the AI ethics field, challenging assumptions about how AI assistants should behave and be perceived. Her argument against uncritical empathetic AI raises important questions for alignment research about appropriate emotional responses in AI systems.

@@ -43,6 +43,8 @@ Chaowei Xiao is an Assistant Professor at Johns Hopkins University and a Faculty
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
@@ -61,5 +63,9 @@ Chaowei Xiao is an Assistant Professor at Johns Hopkins University and a Faculty
 ## Notes
 
 
+
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 Chaowei Xiao's research bridges adversarial ML and AI safety, providing both attack methods (for red-teaming) and defense mechanisms. His work on AutoDAN and AGrail directly addresses the challenge of making LLMs safe in deployment. The Schmidt Sciences and Open Philanthropy backing reflects the field's recognition of his contributions to AI safety research.

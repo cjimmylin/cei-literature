@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "Cross-Language Bias Examination in Large Language Models"
 year: 2025
 first_author: "[[Liang, Yuxuan]]"
-last_author: "[[Liang, Yuxuan]]"
-authors: "[[Liang, Yuxuan]]"
-authors_incomplete: true
+last_author: "[[Mahmoud, Marwa]]"
+authors: "[[Liang, Yuxuan]]; [[Mahmoud, Marwa]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.16029"
 external_pdf: "https://arxiv.org/pdf/2512.16029.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Arabic, French, Spanish"
+cultures_nationalities_list: "Chinese, Arabic, French, Spanish"
 languages_list: "Arabic, Chinese, English, French, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Yuxuan Liang, et al.]]
+[[Liang, Yuxuan]], [[Mahmoud, Marwa]]
 
 ## Metadata
 
-**Authors:** Yuxuan Liang, et al.
+**Authors:** Liang, Yuxuan; Mahmoud, Marwa
 
 **Year:** 2024
 

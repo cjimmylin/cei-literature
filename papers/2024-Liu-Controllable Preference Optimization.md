@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Yiju Guo; Ganqu Cui; Lifan Yuan; Ning Ding; Zexu Sun; Bowen Sun; Huimi
 url: "https://arxiv.org/abs/2402.19085"
 external_pdf: "https://arxiv.org/pdf/2402.19085.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Liu-Controllable Preference Optimization.md
 abstract: "Alignment in artificial intelligence pursues the consistency between model responses and human preferences as well as values. In practice, the multifaceted nature of human preferences inadvertently introduces what is known as the “alignment tax”–a compromise where enhancements in alignment within one objective (e.g., harmlessness) can diminish performance in others (e.g., helpfulness). However, existing alignment techniques are mostly unidirectional, leading to sub-optimal trade-offs and poor..."
 paper_summary: "Abstract: Alignment in artificial intelligence pursues the consistency between model responses and hu- man preferences as well as values. In prac- tice, the multifaceted nature of human prefer- ences inadverten | Overview: Controllable Preference Optimization: Toward Controllable Multi-Objective Alignment Yiju Guo*1, Ganqu Cui∗2, Lifan Yuan2, Ning Ding2, Zexu Sun1, Bowen Sun2, Huimin Chen2, Ruobing Xie3, Jie Zhou3, Yank | Methodology: In this section, we propose a controllable pref- erence optimization (CPO) algorithm, of which the main idea is to determine the optimization di- rect | Key Findings: In this section, we compare the highest perfor- mances of CPO with baselines to assess how it benefits open-source LLMs. We evaluate the ef- fectivene | Conclusions: This paper manages to alleviate the performance trade-off problem in LLM alignment. From the view of controllability, we find explicit condition- ing"
 local_pdf: "[[PDFs/2024/2024-Liu-Controllable Preference Optimization.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

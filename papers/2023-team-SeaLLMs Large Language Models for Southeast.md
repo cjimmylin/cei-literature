@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "SeaLLMs Large Language Models for Southeast"
 year: 2025
 first_author: "[[team, DAMO Academy / Alibaba]]"
-last_author: "[[team, DAMO Academy / Alibaba]]"
+last_author: "[[DAMO Academy Alibaba team]]"
 authors: "[[DAMO Academy / Alibaba team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2312.00738"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai, Vietnamese, Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[DAMO Academy / Alibaba team]]
+[[DAMO Academy Alibaba team]]
 
 ## Metadata
 

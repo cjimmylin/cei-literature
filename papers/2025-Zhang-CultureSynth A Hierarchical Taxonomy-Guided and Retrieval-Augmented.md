@@ -44,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Xinyu Zhang, Pei Zhang, Shuang Luo, Jialong Tang, Yu Wan, Baosong Yang, Fei Huang]]
+[[Xinyu Zhang]], [[Pei Zhang]], [[Shuang Luo]], [[Jialong Tang]], [[Yu Wan]], [[Bikun Yang|Baosong Yang]], [[Fei Huang]]
 
 ## Metadata
 

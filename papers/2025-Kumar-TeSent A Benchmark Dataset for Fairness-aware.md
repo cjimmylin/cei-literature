@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: EXSR0441
 type: preprint
 short_title: "TeSent A Benchmark Dataset for Fairness-aware"
 year: 2025
-first_author: "[[Kumar, Anand]]"
-last_author: "[[Navaneeth, Bondada]]"
-authors: "[[Kumar, Anand]]; [[Navaneeth, Bondada]]"
-authors_incomplete: true
+first_author: "[[Kumar, Vallabhaneni Raj]]"
+last_author: "[[Shakeer, Samanthapudi]]"
+authors: "[[Kumar, Vallabhaneni Raj]]; [[S, Ashwin]]; [[Manna, Supriya]]; [[Sett, Niladri]]; [[Harshitha, Cheedella V S N M S Hema]]; [[Harshitha, Kurakula]]; [[Sharma, Anand Kumar]]; [[Deepakraj, Basina]]; [[Sarkar, Tanuj]]; [[Krishna, Bondada Navaneeth]]; [[Shakeer, Samanthapudi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.01486"
 external_pdf: "https://arxiv.org/pdf/2508.01486.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Kumar, Anand]], [[Navaneeth, Bondada]]
+[[Kumar, Vallabhaneni Raj]], [[S, Ashwin]], [[Manna, Supriya]], [[Sett, Niladri]], [[Harshitha, Cheedella V S N M S Hema]], [[Harshitha, Kurakula]], [[Sharma, Anand Kumar]], [[Deepakraj, Basina]], [[Sarkar, Tanuj]], [[Krishna, Bondada Navaneeth]], [[Shakeer, Samanthapudi]]
 
 ## Metadata
 
-**Authors:** Anand Kumar; Bondada Navaneeth
+**Authors:** Kumar, Vallabhaneni Raj; S, Ashwin; Manna, Supriya; Sett, Niladri; Harshitha, Cheedella V S N M S Hema; Harshitha, Kurakula; Sharma, Anand Kumar; Deepakraj, Basina; Sarkar, Tanuj; Krishna, Bondada Navaneeth; Shakeer, Samanthapudi
 
 **Year:** 2025
 

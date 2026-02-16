@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Arabic"
+cultures_nationalities_list: "Chinese, Japanese, Arabic, French, German, Russian, Korean, Thai, Vietnamese, Indonesian, Hindi, Turkish, Spanish, Portuguese, Italian, Swahili"
 languages_list: "Arabic, Chinese, English, Japanese, Multilingual, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Xu Huang]], [[Wenhao Zhu]], [[Hanxu Hu]], [[Conghui He]], [[Lei Li]], [[Shujian Huang]], [[Fei Yuan]]
+[[Huang, Xu]], [[Wenhao Zhu|Zhu, Wenhao]], [[Hu, Hanxu]], [[He, Conghui]], [[Li, Lei]], [[Huang, Shujian]], [[Yuan, Fei]]
 
 ## Metadata
 

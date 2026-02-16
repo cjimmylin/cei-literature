@@ -1,9 +1,9 @@
 ---
 name: "Xinyu Ma"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science and Technology (Guangzhou), Guangzhou, PRC"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "liuh@ust.hk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Liu-JAILJUDGE|JAILJUDGE]]]]
+
 
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: liuh@ust.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -23,10 +23,16 @@ Luo's research spans computer vision, multimodal AI, data-driven social computin
 ## Papers in this Vault
 
 
+
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
 ## Notes
 
 
+
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 Fellow of ACM, AAAI, IEEE, AIMBE, IAPR, SPIE, and Member of Academia Europaea (AE) and the National Academy of Inventors (NAI). Received the 2025 IEEE Edward J. McCluskey Technical Achievement Award for sustained contributions to computer vision and multimedia computing. Served as Editor-in-Chief of IEEE Transactions on Multimedia (2020-2022) and has been general/program co-chair of numerous major conferences including ACM Multimedia (2018) and IEEE CVPR (2012).

@@ -30,6 +30,9 @@ He is a lead author on several of Anthropic's most influential papers, including
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]] (First Author)
 - [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]] (First Author)
 - [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
@@ -47,5 +50,9 @@ He is a lead author on several of Anthropic's most influential papers, including
 ## Notes
 
 
+
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 Yuntao Bai is a central figure in the development of Constitutional AI and modern AI alignment techniques. His work at Anthropic has been highly influential in shaping how the field approaches the challenge of building safe and helpful AI systems.

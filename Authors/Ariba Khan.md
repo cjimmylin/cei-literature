@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Khan-Randomness Not Representation The Unreliability of Evaluating|Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Khan-Randomness Not Representation The Unreliability of Evaluating*: Affiliation: lability: that alignment with one culture on a narrow set of issues predicts alignment with that cultur
+- *From 2025-Khan-Randomness Not Representation The Unreliability of Evaluating*: Affiliation: lability: that alignment with one culture on a narrow set of issues predicts alignment with that cultur
 - *From 2025-Khan-Randomness Not Representation The Unreliability of Evaluating*: Affiliation: lability: that alignment with one culture on a narrow set of issues predicts alignment with that cultur
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

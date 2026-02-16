@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious"
 year: 2025
 first_author: [[Islamic]]
-last_author: [[Islamic]]
+last_author: "[[Islamic]]"
 authors: Islamic
 url: "https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618"
 external_pdf: "https://arxiv.org/pdf/2508.08287v1.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic, Islamic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"

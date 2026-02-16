@@ -1,9 +1,9 @@
 ---
 name: "Yujin Potter"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of California, Berkeley"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yujinyujin9393@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on|Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters]] (First Author)]]
+
 
 - [[2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on|Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on*: Affiliation: University of California, Berkeley, Email: yujinyujin9393@gmail.com
+- *From 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on*: Affiliation: University of California, Berkeley, Email: yujinyujin9393@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

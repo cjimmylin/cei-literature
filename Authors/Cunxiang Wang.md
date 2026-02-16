@@ -43,6 +43,8 @@ Cunxiang Wang is a researcher affiliated with Westlake University, Zhejiang Univ
 ## Papers in this Vault
 
 
+
+
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ Cunxiang Wang is a researcher affiliated with Westlake University, Zhejiang Univ
 ## Notes
 
 
+
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 Cunxiang Wang's work on LLM evaluation and factuality is highly relevant to AI alignment research. His survey on LLM evaluation provides a comprehensive framework for understanding how to measure model capabilities and limitations. His current position bridging academia (Westlake/Zhejiang) and industry (ZhipuAI/Tsinghua) reflects the close collaboration between Chinese research institutions on LLM development.

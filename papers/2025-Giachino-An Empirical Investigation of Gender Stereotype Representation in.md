@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case"
 year: 2025
 first_author: "[[Giachino, Gioele]]"
-last_author: "[[Giachino, Gioele]]"
-authors: "[[Giachino, Gioele]]"
-authors_incomplete: true
+last_author: "[[Martin, Juan Carlos De]]"
+authors: "[[Giachino, Gioele]]; [[Rondina, Marco]]; [[Vetrò, Antonio]]; [[Coppola, Riccardo]]; [[Martin, Juan Carlos De]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2507.19156"
 external_pdf: "https://arxiv.org/pdf/2507.19156.pdf"
 publication: arXiv
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: Italian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Gioele Giachino et al.]]
+[[Giachino, Gioele]], [[Rondina, Marco]], [[Vetrò, Antonio]], [[Coppola, Riccardo]], [[Moura, Vitor D. de|Martin, Juan Carlos De]]
 
 ## Metadata
 
-**Authors:** Gioele Giachino et al.
+**Authors:** Giachino, Gioele; Rondina, Marco; Vetrò, Antonio; Coppola, Riccardo; Martin, Juan Carlos De
 
 **Year:** 2025
 

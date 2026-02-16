@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[Fleisig, Eve]]; [[Amstutz, Aubrie]]; [[Atalla, Chad]]; [[Blodgett, S
 url: "https://aclanthology.org/2023.acl-long.343/"
 external_pdf: "https://aclanthology.org/2023.acl-long.343.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Fleisig-FairPrism.md"
 local_pdf: [[PDFs/2023/2023-Fleisig-FairPrism.pdf]]
 abstract: "It is critical to measure and mitigate fairnessrelated harms caused by AI text generation systems, including stereotyping and demeaning harms. To that end, we introduce FairPrism, a dataset of 5,000 examples of AI-generated English text with detailed human annotations covering a diverse set of harms relating to gender and sexuality. FairPrism aims to address several limitations of existing datasets for measuring and mitigating fairness-related harms, including improved transparency, clearer..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

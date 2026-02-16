@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Cross-Language Approach for Quranic QA"
 year: 2025
 first_author: "[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]"
-last_author: "[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]"
+last_author: "[[Ammar Mohammed Ali Hamdi]]"
 authors: "[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.17449"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic, Islamic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Islam Oshallah, Mohamed Basem, Ali Hamdi, Ammar Mohammed]]
+[[Mohamed Basem Islam Oshallah]], [[Ali Hamdi|Ammar Mohammed Ali Hamdi]]
 
 ## Metadata
 

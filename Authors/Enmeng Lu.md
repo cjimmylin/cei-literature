@@ -29,11 +29,17 @@ Enmeng Lu is a Professor at Beijing Institute of Technology, working at the inte
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wu-CVC|CVC]]
 - [[2023-Wang-STREAM|STREAM]]
 
 ## Notes
 
 
+
+
+- *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
+- *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 Enmeng Lu's work bridges cognitive science and AI alignment, bringing insights from human moral cognition to the challenge of building value-aligned AI systems.

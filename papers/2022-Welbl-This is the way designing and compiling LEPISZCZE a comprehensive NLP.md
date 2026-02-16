@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish"
 year: 2025
 first_author: "[[Welbl, Johannes]]"
-last_author: "[[Clark, Jonathan H.]]"
+last_author: "[[Clark, Jonathan H]]"
 authors: "[[Welbl, Johannes]]; [[Clark, Jonathan H.]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2211.13112"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Polish"
 languages_list: Polish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Johannes Welbl, Jonathan H. Clark, et al.]]
+[[Johannes Welbl|Welbl, Johannes]], [[Clark, Jonathan H]]
 
 ## Metadata
 

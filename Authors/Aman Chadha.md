@@ -31,7 +31,13 @@ Aman's research addresses the scalability and reliability of foundation models. 
 
 ## Papers in this Vault
 
+
+
+- [[2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models|IndicMMLU-Pro Benchmarking Indic Large Language Models]]
+- [[2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures|How Well Do LLMs Represent Values Across Cultures?]]
+- [[2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding|Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries]]
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
+- [[2023-Sabane-Breaking Language Barriers A Question-Answering Dataset|Breaking Language Barriers A Question-Answering Dataset]] (Last Author)
 
 ## External Links & Profiles
 - [Personal Website](https://amanchadha.com/)
@@ -41,5 +47,9 @@ Aman's research addresses the scalability and reliability of foundation models. 
 
 ## Notes
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 [A central hub for AI research curation and large-scale evaluation strategies.]

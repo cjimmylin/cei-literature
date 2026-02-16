@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Arabic, Spanish"
+cultures_nationalities_list: "Spanish, Nepali, Indian, Arabic, Egyptian"
 languages_list: "English, Spanglish"
 religious_values: "N/A"
 religious_values_list: "N/A"

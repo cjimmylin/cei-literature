@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: "English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Lin Shi]], [[Chiyu Ma]], [[Wenhua Liang]], [[Xingjian Diao]], [[Weicheng Ma]], [[Soroush Vosoughi]]
+[[Shi, Lin]], [[Ma, Chiyu]], [[Liang, Wenhua]], [[Diao, Xingjian]], [[Ma, Weicheng]], [[Vosoughi, Soroush]]
 
 ## Metadata
 

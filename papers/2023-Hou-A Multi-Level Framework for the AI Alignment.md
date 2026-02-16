@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2301.03740"
 external_pdf: "http://arxiv.org/pdf/2301.03740.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Hou-A Multi-Level Framework for the AI Alig
 abstract: "AI alignment considers how we can encode AI systems in a way that is compatible with human values. The normative side of this problem asks what moral values or principles, if any, we should encode in AI. To this end, we present a framework to consider the question at four levels: Individual, Organizational, National, and Global. We aim to illustrate how AI alignment is made up of value alignment problems at each of these levels, where values at each level affect the others and effects can ﬂow..."
 paper_summary: "Abstract: AI alignment considers how we can encode AI systems in a way that is compatible with human values. The normative side of this problem asks what moral values or principles, if any, we should encode in  | Overview: A Multi-Level Framework for the AI Alignment Problem Betty Li Hou1, 2, Brian Patrick Green1 1 Markkula Center for Applied Ethics 2 New York University blh9134@nyu.edu, bpgreen@scu.edu Abstract AI alig | Conclusions: If we are to make good progress on the normative side of AI alignment, we must consider all levels: Individual, Organizational, National, and Global,"
 local_pdf: "[[PDFs/2023/2023-Hou-A Multi-Level Framework for the AI Alignment.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -46,6 +46,8 @@ He is the primary developer of several widely used benchmarks and datasets, most
 
 ## Papers in this Vault
 
+
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2024-Team-WildGuard|WildGuard]]
 
@@ -62,5 +64,9 @@ He is the primary developer of several widely used benchmarks and datasets, most
 
 ## Notes
 
+
+
+- *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: wade3han@snu.ac.kr
+- *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: wade3han@snu.ac.kr
 - *From 2024-Team-WildGuard*: Affiliation: Institute for AI, Email: nouhad@allenai.org
 [Bill is a key figure in the reasoning and commonsense capabilities of AI2's Mosaic models.]

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: EXSR0574
 type: journal_article
 short_title: "The Tarteel Dataset Crowd-Sourced and Labeled"
 year: 2025
-first_author: "[[Khan]]"
-last_author: "[[Khan]]"
-authors: "[[Khan]]"
-authors_incomplete: true
+first_author: "[[Khan, Hamzah]]"
+last_author: "[[Abid, Abubakar]]"
+authors: "[[Khan, Hamzah]]; [[Abou, Anas]]; [[Moussa, M.]]; [[Tarteel, AI]]; [[Abid, Abubakar]]"
+authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Khan et al]]
+[[Khan, Hamzah]], [[Abou, Anas]], [[Moussa, M]], [[Tarteel, AI]], [[Abid, Abubakar]]
 
 ## Metadata
 
-**Authors:** Khan et al.
+**Authors:** Khan, Hamzah; Abou, Anas; Moussa, M.; Tarteel, AI; Abid, Abubakar
 
 **Year:** 2023
 

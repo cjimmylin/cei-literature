@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2311.04978"
 external_pdf: "http://arxiv.org/pdf/2311.04978.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2023/2023-Li-On the steerability of large language mo
 abstract: "Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrepresented. Here, we present a novel approach to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the diverse opinions. Moving beyond the traditional reliance on demographics like age, gender, or party affiliation, we introduce a datadriven notion of persona grounded in..."
 paper_summary: "Abstract: Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrep- resented. Here, we present a novel approach to achieve controllab | Overview: The steerability of large language models toward data-driven personas Junyi Li1, Charith Peris2∗, Ninareh Mehrabi2∗, Palash Goyal2, Kai-Wei Chang2, Aram Galstyan2, Richard Zemel2 and Rahul Gupta2 1Uni | Methodology: to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the divers | Key Findings: (Pval) partitions (represented in blue and green respectively, in Figure 1). Accordingly, the re- sponses in each partition can be referred to as Rtr  | Conclusions: In this work, we present an approach for steerable generation using LLMs, where we utilize a data- driven notion of a persona to modulate the gener- a"
 local_pdf: "[[PDFs/2023/2023-Li-On the steerability of large language models.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

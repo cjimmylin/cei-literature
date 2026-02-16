@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Zheng-SYCON Bench|SYCON Bench]] (Last Author)]]
+
 
 - [[2025-Zheng-SYCON Bench|SYCON Bench]] (Last Author)
 

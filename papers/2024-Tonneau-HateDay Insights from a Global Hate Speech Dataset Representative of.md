@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter"
 year: 2025
 first_author: "[[Tonneau, Manuel]]"
-last_author: "[[Tonneau, Manuel]]"
-authors: "[[Tonneau, Manuel]]"
-authors_incomplete: true
+last_author: "[[Röttger, Paul]]"
+authors: "[[Tonneau, Manuel]]; [[Liu, Diyi]]; [[Malhotra, Niyati]]; [[Hale, Scott A.]]; [[Fraiberger, Samuel P.]]; [[Orozco-Olvera, Victor]]; [[Röttger, Paul]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2411.15462"
 external_pdf: "https://arxiv.org/pdf/2411.15462.pdf"
 publication: "arXiv / ACL Anthology"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Arabic, French, German, Spanish, Brazilian"
+cultures_nationalities_list: "Indonesian, Arabic, French, German, Spanish, Brazilian"
 languages_list: "Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Manuel Tonneau, et al.]]
+[[Manuel Tonneau|Tonneau, Manuel]], [[Liu, Diyi]], [[Malhotra, Niyati]], [[Hale, Scott A]], [[Fraiberger, Samuel P]], [[Victor Orozco-Olvera|Orozco-Olvera, Victor]], [[Paul Röttger|Röttger, Paul]]
 
 ## Metadata
 
-**Authors:** Manuel Tonneau, et al.
+**Authors:** Tonneau, Manuel; Liu, Diyi; Malhotra, Niyati; Hale, Scott A.; Fraiberger, Samuel P.; Orozco-Olvera, Victor; Röttger, Paul
 
 **Year:** 2024
 

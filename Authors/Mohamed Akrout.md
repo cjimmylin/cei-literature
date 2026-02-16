@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine|Machine Ethics - Creation of a Virtuous Machine]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada
+- *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada
 - *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

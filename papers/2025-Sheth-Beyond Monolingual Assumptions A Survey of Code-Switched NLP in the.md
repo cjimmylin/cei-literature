@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Rajvee Sheth]], [[Samridhi Raj Sinha]], [[Mahavir Patil]], [[Himanshu Beniwal]], [[Mayank Singh]]
+[[Sheth, Rajvee]], [[Sinha, Samridhi Raj]], [[Patil, Mahavir]], [[Beniwal, Himanshu]], [[Singh, Mayank]]
 
 ## Metadata
 

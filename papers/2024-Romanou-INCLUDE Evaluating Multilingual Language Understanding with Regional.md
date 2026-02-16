@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge"
 year: 2025
 first_author: "[[Romanou, Angelika]]"
-last_author: "[[Adriano, Gabriel]]"
-authors: "[[Romanou, Angelika]]; [[Foroutan, Negar]]; [[Sotnikova, Anna]]; [[Chen, Zeming]]; [[Nelaturu, Harsha]]; [[Singh, Shivalika]]; [[Maheshwary, Rishabh]]; [[Altomare, Micol]]; [[Schlag, Imanol]]; [[Hooker, Sara]]; [[Bosselut, Antoine]]; [[Amayuelas, Alfonso]]; [[Amirudin, Azril Hafizi]]; [[Aryabumi, Viraat]]; [[Chang, Michael]]; [[Chim, Jenny]]; [[Dalmia, Aditya Kumar]]; [[Duwal, Sharad]]; [[Dzenhaliou, Daniil]]; [[Florez, Daniel Fernando Erazo]]; [[Imperial, Joseph Marvin]]; [[Bin Islam, Shayekh]]; [[Isotalo, Perttu]]; [[Khalilov, Eldar]]; [[Klamm, Christopher]]; [[Koto, Fajri]]; [[Montariol, Syrielle]]; [[Nan, Yiyang]]; [[Niklaus, Joel]]; [[Novikova, Jekaterina]]; [[Ceron, Johan Samir Obando]]; [[Paul, Debjit]]; [[Purbey, Jebish]]; [[Rajwal, Swati]]; [[Ravi, Selvan Sunitha]]; [[Rydell, Sara]]; [[Sharma, Drishti]]; [[Skenduli, Marjana Prifti]]; [[Moakhar, Arshia Soltani]]; [[Moakhar, Soltani]]; [[Tamir, Ran]]; [[Tarun, Ayush Kumar]]; [[Wasi, Azmine Toushik]]; [[Weerasinghe, Ovin]]; [[Yilmaz, Serhan]]; [[Zhang, Mike]]; [[Fadaee, Marzieh]]; [[Krzemi, Dominik]]; [[Adriano, Gabriel]]"
-authors_incomplete: true
+last_author: "[[Bosselut, Antoine]]"
+authors: "[[Romanou, Angelika]]; [[Foroutan, Negar]]; [[Sotnikova, Anna]]; [[Chen, Zeming]]; [[Nelaturu, Sree Harsha]]; [[Singh, Shivalika]]; [[Maheshwary, Rishabh]]; [[Altomare, Micol]]; [[Haggag, Mohamed A.]]; [[A, Snegha]]; [[Amayuelas, Alfonso]]; [[Amirudin, Azril Hafizi]]; [[Aryabumi, Viraat]]; [[Boiko, Danylo]]; [[Chang, Michael]]; [[Chim, Jenny]]; [[Cohen, Gal]]; [[Dalmia, Aditya Kumar]]; [[Diress, Abraham]]; [[Duwal, Sharad]]; [[Dzenhaliou, Daniil]]; [[Florez, Daniel Fernando Erazo]]; [[Farestam, Fabian]]; [[Imperial, Joseph Marvin]]; [[Islam, Shayekh Bin]]; [[Isotalo, Perttu]]; [[Jabbarishiviari, Maral]]; [[Karlsson, Börje F.]]; [[Khalilov, Eldar]]; [[Klamm, Christopher]]; [[Koto, Fajri]]; [[Krzemiński, Dominik]]; [[Melo, Gabriel Adriano de]]; [[Montariol, Syrielle]]; [[Nan, Yiyang]]; [[Niklaus, Joel]]; [[Novikova, Jekaterina]]; [[Ceron, Johan Samir Obando]]; [[Paul, Debjit]]; [[Ploeger, Esther]]; [[Purbey, Jebish]]; [[Rajwal, Swati]]; [[Ravi, Selvan Sunitha]]; [[Rydell, Sara]]; [[Santhosh, Roshan]]; [[Sharma, Drishti]]; [[Skenduli, Marjana Prifti]]; [[Moakhar, Arshia Soltani]]; [[Moakhar, Bardia Soltani]]; [[Tamir, Ran]]; [[Tarun, Ayush Kumar]]; [[Wasi, Azmine Toushik]]; [[Weerasinghe, Thenuka Ovin]]; [[Yilmaz, Serhan]]; [[Zhang, Mike]]; [[Schlag, Imanol]]; [[Fadaee, Marzieh]]; [[Hooker, Sara]]; [[Bosselut, Antoine]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2411.19799"
 external_pdf: "https://arxiv.org/pdf/2411.19799.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: "44 languages including French, Albanian, Armenian, Georgian, Greek, Maltese, and 39 other languages"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Romanou, Angelika]], [[Foroutan, Negar]], [[Sotnikova, Anna]], [[Chen, Zeming]], [[Nelaturu, Harsha]], [[Singh, Shivalika]], [[Maheshwary, Rishabh]], [[Altomare, Micol]], [[Schlag, Imanol]], [[Hooker, Sara]], [[Bosselut, Antoine]], [[Amayuelas, Alfonso]], [[Amirudin, Azril Hafizi]], [[Aryabumi, Viraat]], [[Chang, Michael]], [[Chim, Jenny]], [[Dalmia, Aditya Kumar]], [[Duwal, Sharad]], [[Dzenhaliou, Daniil]], [[Florez, Daniel Fernando Erazo]], [[Imperial, Joseph Marvin]], [[Bin Islam, Shayekh]], [[Isotalo, Perttu]], [[Khalilov, Eldar]], [[Klamm, Christopher]], [[Koto, Fajri]], [[Montariol, Syrielle]], [[Nan, Yiyang]], [[Niklaus, Joel]], [[Novikova, Jekaterina]], [[Ceron, Johan Samir Obando]], [[Paul, Debjit]], [[Purbey, Jebish]], [[Rajwal, Swati]], [[Ravi, Selvan Sunitha]], [[Rydell, Sara]], [[Sharma, Drishti]], [[Skenduli, Marjana Prifti]], [[Moakhar, Arshia Soltani]], [[Moakhar, Soltani]], [[Tamir, Ran]], [[Tarun, Ayush Kumar]], [[Wasi, Azmine Toushik]], [[Weerasinghe, Ovin]], [[Yilmaz, Serhan]], [[Zhang, Mike]], [[Fadaee, Marzieh]], [[Krzemi, Dominik]], [[Adriano, Gabriel]]
+[[Angelika Romanou|Romanou, Angelika]], [[Foroutan, Negar]], [[Sotnikova, Anna]], [[Chen, Zeming]], [[Nelaturu, Harsha|Nelaturu, Sree Harsha]], [[Shivalika Singh|Singh, Shivalika]], [[Rishabh Maheshwary|Maheshwary, Rishabh]], [[Altomare, Micol]], [[Haggag, Mohamed A]], [[A, Snegha]], [[Alfonso Amayuelas|Amayuelas, Alfonso]], [[Amirudin, Azril Hafizi]], [[Aryabumi, Viraat]], [[Danylo Boiko|Boiko, Danylo]], [[Chang, Michael]], [[Jenny Chim|Chim, Jenny]], [[Cohen, Gal]], [[David Jurgens Shivani Kumar|Dalmia, Aditya Kumar]], [[Diress, Abraham]], [[Sharad Duwal|Duwal, Sharad]], [[Dzenhaliou, Daniil]], [[Florez, Daniel Fernando Erazo]], [[Fabian Farestam|Farestam, Fabian]], [[Joseph Marvin Imperial|Imperial, Joseph Marvin]], [[Shayekh Bin Islam|Islam, Shayekh Bin]], [[Isotalo, Perttu]], [[Jabbarishiviari, Maral]], [[Karlsson, Börje F]], [[Khalilov, Eldar]], [[Klamm, Christopher]], [[Koto, Fajri]], [[Dominik Krzemiński|Krzemiński, Dominik]], [[Moura, Vitor D. de|Melo, Gabriel Adriano de]], [[Montariol, Syrielle]], [[Nan, Yiyang]], [[Niklaus, Joel]], [[Jekaterina Novikova|Novikova, Jekaterina]], [[Ceron, Johan Samir Obando]], [[Paul, Debjit]], [[Esther Ploeger|Ploeger, Esther]], [[Jebish Purbey|Purbey, Jebish]], [[Swati Rajwal|Rajwal, Swati]], [[Ravi, Selvan Sunitha]], [[Rydell, Sara]], [[Santhosh, Roshan]], [[Drishti Sharma|Sharma, Drishti]], [[Skenduli, Marjana Prifti]], [[Arshia Soltani Moakhar|Moakhar, Arshia Soltani]], [[Bardia Soltani Moakhar|Moakhar, Bardia Soltani]], [[Tamir, Ran]], [[Tarun, Ayush Kumar]], [[Azmine Toushik Wasi|Wasi, Azmine Toushik]], [[Weerasinghe, Ovin|Weerasinghe, Thenuka Ovin]], [[Yilmaz, Serhan]], [[Mike Zhang|Zhang, Mike]], [[Schlag, Imanol]], [[Marzieh Fadaee|Fadaee, Marzieh]], [[Sara Hooker|Hooker, Sara]], [[Bosselut, Antoine]]
 
 ## Metadata
 
-**Authors:** Angelika Romanou; Negar Foroutan; Anna Sotnikova; Zeming Chen; Harsha Nelaturu; Shivalika Singh; Rishabh Maheshwary; Micol Altomare; Imanol Schlag; Sara Hooker; Antoine Bosselut; Alfonso Amayuelas; Azril Hafizi Amirudin; Viraat Aryabumi; Michael Chang; Jenny Chim; Aditya Kumar Dalmia; Sharad Duwal; Daniil Dzenhaliou; Daniel Fernando Erazo Florez; Joseph Marvin Imperial; Shayekh Bin Islam; Perttu Isotalo; Eldar Khalilov; Christopher Klamm; Fajri Koto; Syrielle Montariol; Yiyang Nan; Joel Niklaus; Jekaterina Novikova; Johan Samir Obando Ceron; Debjit Paul; Jebish Purbey; Swati Rajwal; Selvan Sunitha Ravi; Sara Rydell; Drishti Sharma; Marjana Prifti Skenduli; Arshia Soltani Moakhar; Soltani Moakhar; Ran Tamir; Ayush Kumar Tarun; Azmine Toushik Wasi; Ovin Weerasinghe; Serhan Yilmaz; Mike Zhang; Marzieh Fadaee; Dominik Krzemi; Gabriel Adriano
+**Authors:** Romanou, Angelika; Foroutan, Negar; Sotnikova, Anna; Chen, Zeming; Nelaturu, Sree Harsha; Singh, Shivalika; Maheshwary, Rishabh; Altomare, Micol; Haggag, Mohamed A.; A, Snegha; Amayuelas, Alfonso; Amirudin, Azril Hafizi; Aryabumi, Viraat; Boiko, Danylo; Chang, Michael; Chim, Jenny; Cohen, Gal; Dalmia, Aditya Kumar; Diress, Abraham; Duwal, Sharad; Dzenhaliou, Daniil; Florez, Daniel Fernando Erazo; Farestam, Fabian; Imperial, Joseph Marvin; Islam, Shayekh Bin; Isotalo, Perttu; Jabbarishiviari, Maral; Karlsson, Börje F.; Khalilov, Eldar; Klamm, Christopher; Koto, Fajri; Krzemiński, Dominik; Melo, Gabriel Adriano de; Montariol, Syrielle; Nan, Yiyang; Niklaus, Joel; Novikova, Jekaterina; Ceron, Johan Samir Obando; Paul, Debjit; Ploeger, Esther; Purbey, Jebish; Rajwal, Swati; Ravi, Selvan Sunitha; Rydell, Sara; Santhosh, Roshan; Sharma, Drishti; Skenduli, Marjana Prifti; Moakhar, Arshia Soltani; Moakhar, Bardia Soltani; Tamir, Ran; Tarun, Ayush Kumar; Wasi, Azmine Toushik; Weerasinghe, Thenuka Ovin; Yilmaz, Serhan; Zhang, Mike; Schlag, Imanol; Fadaee, Marzieh; Hooker, Sara; Bosselut, Antoine
 
 **Year:** 2024
 

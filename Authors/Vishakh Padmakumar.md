@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2022-Parrish-BBQ|BBQ]]
+- [[2022-Parrish-BBQ Bias Benchmark for Question Answering|BBQ (Bias Benchmark for Question Answering)]]
 
 ## Notes
 
 
+
+
+- *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
+- *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 [Additional context or contact information]

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.18653/v1/2022.conll-1.10
 url: "https://aclanthology.org/2022.conll-1.10/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FI4724Y6/Sahoo et al. - 2022 - Detecting Unintended Social Bias in Toxic Language Datasets.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ key_contribution: "Created the 'ToxicBias' dataset annotated for 5 bias categori
 significance: "Addresses the 'false positive' problem in hate speech detection where models flag neutral mentions of marginalized identities as toxic, hindering fair content moderation."
 tags: 
 abstract: "Warning: This paper has contents which may be offensive, or upsetting however this cannot be avoided owing to the nature of the work. With the rise of online hate speech, automatic detection of Hate Speech, Offensive texts as a natural language processing task is getting popular. However, very little research has been done to detect unintended social bias from these toxic language datasets. This paper introduces a new dataset ToxicBias curated from the existing dataset of Kaggle competition..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

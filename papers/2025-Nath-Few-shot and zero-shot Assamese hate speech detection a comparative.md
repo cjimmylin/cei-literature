@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: Assamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Basab Nath]], [[Krishna Kant Pandey]], [[Vinod Yadav]], [[Phaneendra Varma Chintalapati]]
+[[Nath, Basab]], [[Pandey, Krishna Kant]], [[Yadav, Vinod]], [[Chintalapati, Phaneendra Varma]]
 
 ## Metadata
 

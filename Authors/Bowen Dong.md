@@ -47,6 +47,8 @@ Dong has contributed to several high-impact benchmarks that have become the stan
 ## Papers in this Vault
 
 
+
+
 - [[2025-Li-T2ISafety|T2ISafety]]
 - [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
@@ -58,5 +60,9 @@ Dong has contributed to several high-impact benchmarks that have become the stan
 
 ## Notes
 
+
+
+- *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
+- *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 His focus on "visual ethics" is a critical frontier for AI safety, as image generation often carries more immediate and visceral social impact than text generation alone.

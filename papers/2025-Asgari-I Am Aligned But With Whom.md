@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "I Am Aligned But With Whom"
 year: 2025
 first_author: "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]"
-last_author: "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]"
+last_author: "[[Ehsaneddin Asgari Pardis Sadat Zahraei]]"
 authors: "[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.13154"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Iranian, African/Ubuntu, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Iranian, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Pardis Sadat Zahraei, Ehsaneddin Asgari]]
+[[Ehsaneddin Asgari Pardis Sadat Zahraei]]
 
 ## Metadata
 

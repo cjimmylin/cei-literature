@@ -50,6 +50,9 @@ He has published over 300 articles and five academic books, and is a recipient o
 ## Papers in this Vault
 
 
+
+
+- [[2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles|CreoleVal: Multilingual Multitask Benchmarks for Creoles]]
 - [[2022-Chalkidis-FairLex|FairLex]] (Last Author)
 
 ## External Links & Profiles
@@ -65,5 +68,9 @@ He has published over 300 articles and five academic books, and is a recipient o
 
 ## Notes
 
+
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 [Anders is a rare researcher bridging the gap between technical NLP and formal philosophy.]

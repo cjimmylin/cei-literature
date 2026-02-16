@@ -34,6 +34,8 @@ Aaron's work centers on the intersection of computer vision and natural language
 ## Papers in this Vault
 
 
+
+
 - [[2023-Gustafson-FACET|FACET]]
 
 ## External Links & Profiles
@@ -48,5 +50,9 @@ Aaron's work centers on the intersection of computer vision and natural language
 
 ## Notes
 
+
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 [Key contributor to fairness benchmarking at Meta.]

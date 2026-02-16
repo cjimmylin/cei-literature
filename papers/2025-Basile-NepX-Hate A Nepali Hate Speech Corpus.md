@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0415
 type: journal_article
 short_title: "NepX-Hate A Nepali Hate Speech Corpus"
 year: 2025
-first_author: "[[Basile]]"
-last_author: "[[Bosco]]"
-authors: "[[Basile]]; [[Bosco]]"
-authors_incomplete: true
+first_author: "[[Basile, Valerio]]"
+last_author: "[[Goyal, Naman]]"
+authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]; [[Patti, Viviana]]; [[Manuel, Francisco]]; [[Pardo, Rangel]]; [[Rosso, Paolo]]; [[Sanguinetti, M.]]; [[Bohra, Aditya]]; [[Vijay, Deepanshu]]; [[Singh, Vinay]]; [[Akhtar, Syed Sar-644 faraz]]; [[Shrivastava, Manish]]; [[Conneau, Alexis]]; [[Khandelwal, Kartikay]]; [[Goyal, Naman]]"
+authors_incomplete: false
 url: "https://openreview.net/forum?id=PChNLEcv3V"
 external_pdf: "https://openreview.net/pdf?id=PChNLEcv3V"
 pdf_extract: "PDF Extracts/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Nepali, Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Basile]], [[Bosco]], [[and others]]
+[[Valerio Basile|Basile, Valerio]], [[Cristina Bosco|Bosco, Cristina]], [[Elisabetta Fersini|Fersini, Elisabetta]], [[Debora Nozza|Nozza, Debora]], [[Viviana Patti|Patti, Viviana]], [[Manuel, Francisco]], [[Pardo, Rangel]], [[Paolo Rosso|Rosso, Paolo]], [[Sanguinetti, M]], [[Bohra, Aditya]], [[Vijay, Deepanshu]], [[Vinay Singh|Singh, Vinay]], [[Ali Faraz|Akhtar, Syed Sar-644 faraz]], [[Manish Shrivastava|Shrivastava, Manish]], [[Conneau, Alexis]], [[Khandelwal, Kartikay]], [[Goyal, Naman]]
 
 ## Metadata
 
-**Authors:** Basile; Bosco; and others
+**Authors:** Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Manuel, Francisco; Pardo, Rangel; Rosso, Paolo; Sanguinetti, M.; Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sar-644 faraz; Shrivastava, Manish; Conneau, Alexis; Khandelwal, Kartikay; Goyal, Naman
 
 **Year:** 2025
 

@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Center-Personal Consultations Case Study Database|Personal Consultations Case Study Database]] (First Author)]]
+
 
 - [[2025-Center-Personal Consultations Case Study Database|Personal Consultations Case Study Database]] (First Author)
 

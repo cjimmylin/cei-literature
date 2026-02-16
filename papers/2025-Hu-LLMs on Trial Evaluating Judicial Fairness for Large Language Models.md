@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +44,7 @@ DATA_URL: "https://github.com/THUYRan/LLM-Fairness"
 
 ## Authors
 
-[[Yuxuan Hu|Yiran Hu]], [[Zongyue Xue]], [[Haitao Li]], [[Siyuan Zheng]], [[Qingjing Chen]], [[Shaochun Wang]], [[Xihan Zhang]], [[Ning Zheng]], [[Yun Liu]], [[Qingyao Ai]], [[Yiqun Liu]], [[Charles L.A. Clarke]], [[Weixing Shen]]
+[[Yiran Hu]], [[Zongyue Xue]], [[Haitao Li]], [[Siyuan Zheng]], [[Qingjing Chen]], [[Shaochun Wang]], [[Xihan Zhang]], [[Ning Zheng]], [[Yun Liu]], [[Qingyao Ai]], [[Yiqun Liu]], [[Charles L.A. Clarke]], [[Weixing Shen]]
 
 ## Metadata
 

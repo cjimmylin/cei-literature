@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 
 ## Authors
 
-[[Ojo, Jessica]], [[Ogundepo, Odunayo]], [[Oladipo, Akintunde]], [[Ogueji, Kelechi]], [[Lin, Jimmy]], [[Stenetorp, Pontus]], [[Adelani, David Ifeoluwa]]
+[[Ojo, Jessica]], [[Ogundepo, Odunayo]], [[Oladipo, Akintunde]], [[Ogueji, Kelechi]], [[Lin, Jimmy]], [[Stenetorp, Pontus]], [[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]]
 
 ## Metadata
 

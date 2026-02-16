@@ -44,7 +44,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Akylbek Maxutov, Ayan Myrzakhmet, Pavel Braslavski]]
+[[Akylbek Maxutov]], [[Ayan Myrzakhmet]], [[Pavel Braslavski]]
 
 ## Metadata
 

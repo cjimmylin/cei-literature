@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Rauh-Gaps in the Safety Evaluation of Generative AI|Gaps in the Safety Evaluation of Generative AI]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Rauh-Gaps in the Safety Evaluation of Generative AI*: Affiliation: lability of validated and established
+- *From 2024-Rauh-Gaps in the Safety Evaluation of Generative AI*: Affiliation: lability of validated and established
 - *From 2024-Rauh-Gaps in the Safety Evaluation of Generative AI*: Affiliation: lability of validated and established
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

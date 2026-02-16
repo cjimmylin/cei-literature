@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0551
 type: preprint
 short_title: "BHASA A Holistic Southeast Asian Linguistic"
 year: 2025
-first_author: "[[Susanto, Yosephine]]"
-last_author: "[[Susanto, Yosephine]]"
-authors: "[[Susanto, Yosephine]]"
-authors_incomplete: true
+first_author: "[[Leong, Wei Qi]]"
+last_author: "[[Tjhi, William Chandra]]"
+authors: "[[Leong, Wei Qi]]; [[Ngui, Jian Gang]]; [[Susanto, Yosephine]]; [[Rengarajan, Hamsawardhini]]; [[Sarveswaran, Kengatharaiyer]]; [[Tjhi, William Chandra]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2309.06085"
 external_pdf: "https://arxiv.org/pdf/2309.06085.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Thai, Vietnamese"
+cultures_nationalities_list: "Indonesian, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Yosephine Susanto et al]]
+[[Leong, Wei Qi]], [[Ngui, Jian Gang]], [[Susanto, Yosephine]], [[Rengarajan, Hamsawardhini]], [[Sarveswaran, Kengatharaiyer]], [[Tjhi, William Chandra]]
 
 ## Metadata
 
-**Authors:** Yosephine Susanto et al.
+**Authors:** Leong, Wei Qi; Ngui, Jian Gang; Susanto, Yosephine; Rengarajan, Hamsawardhini; Sarveswaran, Kengatharaiyer; Tjhi, William Chandra
 
 **Year:** 2023
 

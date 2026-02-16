@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-An-MoralReason|MoralReason]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-An-MoralReason*: Affiliation: University of California, Merced
+- *From 2025-An-MoralReason*: Affiliation: University of California, Merced
 - *From 2025-An-MoralReason*: Affiliation: University of California, Merced
 [Additional context or contact information]

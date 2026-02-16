@@ -26,11 +26,17 @@ Dan Vann is a researcher working on AI fairness and bias detection in NLP system
 
 ## Papers in this Vault
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## Links
 
 ## Notes
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 Profile to be updated when more details about affiliation are confirmed.

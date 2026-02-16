@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: preprint
 short_title: "Abundant Intelligences Placing AI Within Indigenous"
 year: 2025
 first_author: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
-last_author: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
+last_author: "[[Ceyda Yolgoermez]]"
 authors: "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]"
 authors_incomplete: false
 url: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
@@ -47,7 +49,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]
+[[Jason Edward Lewis]], [[Hemi Whaanga]], [[Ceyda Yolgoermez]]
 
 ## Metadata
 

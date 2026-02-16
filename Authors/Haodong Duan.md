@@ -33,10 +33,16 @@ Haodong Duan is a postdoctoral researcher at Shanghai AI Lab, working on the eva
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Notes
 
 
+
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 Key contributor to the OpenCompass evaluation platform and multimodal benchmark development.

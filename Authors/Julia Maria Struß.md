@@ -20,10 +20,16 @@ Professor at Fachhochschule Potsdam (FH Potsdam) in Department of Information Sc
 ## Papers in this Vault
 
 
+
+
 - [[2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on|Overview of GermEval Task 2, 2019 Shared Task on]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: ruppenhofer@ids-mannheim.de
+- *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: melanie.siegel@h-da.de
 - *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: struss@fh-potsdam.de
 [Additional context or contact information]

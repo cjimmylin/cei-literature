@@ -56,6 +56,9 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
+- [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]]
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 
 ## External Links & Profiles
@@ -83,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: wmagdy@inf.ed.ac.uk
+- *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: hmubarak@hbku.edu.qa
 - *From 2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in*: Affiliation: University, Qatar, Email: telsayed@qu.edu.qa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

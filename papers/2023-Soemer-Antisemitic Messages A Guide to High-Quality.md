@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "Antisemitic Messages A Guide to High-Quality"
 year: 2025
 first_author: "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]"
-last_author: "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]"
+last_author: "[[Katharina Soemer Daniel Miehling]]"
 authors: "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2304.14599"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]
+[[Sameer Karali Gunther Jikeli]], [[Katharina Soemer Daniel Miehling]]
 
 ## Metadata
 

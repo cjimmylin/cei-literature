@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ local_pdf: "[[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]
 external_pdf: "https://arxiv.org/pdf/2008.02275.pdf"
 publication: "International Conference on Learning Representations (ICLR 2021)"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +29,7 @@ tags:
 osint_source: "Recovered via GITHUB"
 abstract: "We show how to assess a language model’s knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents."
 paper_summary: "Abstract: We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and comm | Overview: Published as a conference paper at ICLR 2021 ALIGNING AI WITH SHARED HUMAN VALUES Dan Hendrycks∗ UC Berkeley Collin Burns* Columbia University Steven Basart UChicago Andrew Critch UC Berkeley Jerry Li"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

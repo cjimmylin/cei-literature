@@ -45,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Masoomali Fatehkia, Enes Altinisik, Husrev Taha Sencar]]
+[[Masoomali Fatehkia]], [[Enes Altinisik]], [[Husrev Taha Sencar]]
 
 ## Metadata
 

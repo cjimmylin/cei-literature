@@ -34,6 +34,8 @@ Scott Emmons is a PhD student at UC Berkeley working on AI safety and reinforcem
 ## Papers in this Vault
 
 
+
+
 - [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]] (Last Author)
 - [[2024-Souly-StrongREJECT|StrongREJECT]]
 - [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
@@ -46,5 +48,9 @@ Scott Emmons is a PhD student at UC Berkeley working on AI safety and reinforcem
 ## Notes
 
 
+
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 Scott Emmons' work addresses fundamental questions about whether AI systems optimizing for rewards can do so ethically, contributing to the growing field of AI safety research.

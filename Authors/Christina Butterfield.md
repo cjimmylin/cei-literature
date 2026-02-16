@@ -29,6 +29,8 @@ Christina Butterfield is a researcher at Google DeepMind working on AI safety an
 
 ## Papers in this Vault
 
+
+
 - [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
 
 ## External Links & Profiles
@@ -37,5 +39,9 @@ Christina Butterfield is a researcher at Google DeepMind working on AI safety an
 
 ## Notes
 
+
+
+- *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: lweidinger@google.com
+- *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: williamis@google.com
 - *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: lweidinger@google.com
 Highly relevant to AI safety through her work on holistic evaluation frameworks at Google DeepMind. The safety evaluation report she co-authored provides key lessons about the value of theoretical frameworks, benefits of collaboration between theory and practice, and how similar methods apply across various safety concerns. Limited biographical information available online.

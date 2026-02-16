@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: EXSR0349
 type: preprint
 short_title: "Creating and Evaluating Code-Mixed Nepali-English and"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Pandey, Manish]]"
+last_author: "[[Rai, Sawan]]"
+authors: "[[Pandey, Manish]]; [[Yadav, Nageshwar Prasad]]; [[Adduru, Mokshada]]; [[Rai, Sawan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.21026"
 external_pdf: "https://arxiv.org/pdf/2504.21026.pdf"
 pdf_extract: "PDF Extracts/2025/2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Nepali, Telugu, Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-Unknown
+[[Pandey, Manish]], [[Yadav, Nageshwar Prasad]], [[Adduru, Mokshada]], [[Rai, Sawan]]
 
 ## Metadata
 
-**Authors:** [[Unknown]]
+**Authors:** Pandey, Manish; Yadav, Nageshwar Prasad; Adduru, Mokshada; Rai, Sawan
 
 **Year:** 2025
 

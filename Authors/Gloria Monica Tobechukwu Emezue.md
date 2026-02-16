@@ -36,6 +36,8 @@ As a Lacuna Fund language grantee, Professor Emezue envisions a world where voic
 ## Papers in this Vault
 
 
+
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## Links
@@ -46,5 +48,9 @@ As a Lacuna Fund language grantee, Professor Emezue envisions a world where voic
 ## Notes
 
 
+
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 Professor Emezue's work bridges literary scholarship with AI and NLP, contributing to efforts to make AI systems more inclusive of African languages and cultures.

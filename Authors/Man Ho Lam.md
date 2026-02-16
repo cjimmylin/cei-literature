@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional|EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn
+- *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn
 - *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0544
 type: conferencePaper
 short_title: "Enhancing social media hate speech detection in low-resource languages using transformers and explainable AI"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Fetahi, Endrit]]"
+last_author: "[[Misini, Arta]]"
+authors: "[[Fetahi, Endrit]]; [[Susuri, Arsim]]; [[Hamiti, Mentor]]; [[Kastrati, Zenun]]; [[Canhasi, Ercan]]; [[Misini, Arta]]"
+authors_incomplete: false
 doi: 10.1007/s13278-025-01497-w
 url: "https://link.springer.com/article/10.1007/s13278-025-01497-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01497-w.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Albanian"
 languages_list: Albanian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Unknown (published in Social Network Analysis and Mining)]]
+[[Fetahi, Endrit]], [[Susuri, Arsim]], [[Hamiti, Mentor]], [[Kastrati, Zenun]], [[Canhasi, Ercan]], [[Misini, Arta]]
 
 ## Metadata
 
-**Authors:** Unknown (published in Social Network Analysis and Mining) (published in Social Network Analysis and Mining)
+**Authors:** Fetahi, Endrit; Susuri, Arsim; Hamiti, Mentor; Kastrati, Zenun; Canhasi, Ercan; Misini, Arta
 
 **Year:** 2025
 

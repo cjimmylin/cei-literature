@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
+cultures_nationalities_list: "Filipino"
 languages_list: Filipino/Tagalog
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Jann Railey Montalan]], [[Jian Gang Ngui]], [[Wei Qi Leong]], [[Yosephine Susanto]], [[Hamsawardhini Rengarajan]], [[Alham Fikri Aji]], [[William Chandra Tjhi]]
+[[Jann Railey Montalan|Montalan, Jann Railey]], [[Ngui, Jian Gang]], [[Leong, Wei Qi]], [[Susanto, Yosephine]], [[Rengarajan, Hamsawardhini]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Tjhi, William Chandra]]
 
 ## Metadata
 

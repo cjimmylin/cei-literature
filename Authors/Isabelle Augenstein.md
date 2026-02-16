@@ -1,9 +1,9 @@
 ---
 name: "Isabelle Augenstein"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute for Mathematical Sciences"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "wizzy@aims.ac.za"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop|Probing PLMs for Cross-Cultural Values (C3NLP Workshop)]] (Last Author)]]
+
 
 - [[2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop|Probing PLMs for Cross-Cultural Values (C3NLP Workshop)]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
+- *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

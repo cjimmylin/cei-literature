@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,9 +13,9 @@ type: conferencePaper
 short_title: "Expert-Annotated Dataset to Study Cyberbullying in Polish Language"
 year: 2025
 first_author: "[[Ptaszynski, Michal]]"
-last_author: "[[Ptaszynski, Michal]]"
-authors: "[[Ptaszynski, Michal]]"
-authors_incomplete: true
+last_author: "[[Wroczynski, Michal]]"
+authors: "[[Ptaszynski, Michal]]; [[Pieciukiewicz, Agata]]; [[Dybala, Pawel]]; [[Skrzek, Pawel]]; [[Soliwoda, Kamil]]; [[Fortuna, Marcin]]; [[Leliwa, Gniewosz]]; [[Wroczynski, Michal]]"
+authors_incomplete: false
 doi: 10.3390/data9010001
 url: "https://www.mdpi.com/2306-5729/9/1/1"
 external_pdf: "https://ruj.uj.edu.pl/bitstreams/1bc26747-5281-49b4-a130-4e97d5ea622b/download"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Polish"
 languages_list: Polish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -48,11 +50,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Michal Ptaszynski, et al.]]
+[[Ptaszynski, Michal]], [[Pieciukiewicz, Agata]], [[Dybala, Pawel]], [[Skrzek, Pawel]], [[Soliwoda, Kamil]], [[Fortuna, Marcin]], [[Leliwa, Gniewosz]], [[Wroczynski, Michal]]
 
 ## Metadata
 
-**Authors:** Michal Ptaszynski, et al.
+**Authors:** Ptaszynski, Michal; Pieciukiewicz, Agata; Dybala, Pawel; Skrzek, Pawel; Soliwoda, Kamil; Fortuna, Marcin; Leliwa, Gniewosz; Wroczynski, Michal
 
 **Year:** 2024
 

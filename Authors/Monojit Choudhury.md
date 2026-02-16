@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]] (Last Author)
 - [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]] (Last Author)
 - [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]] (Last Author)
@@ -28,5 +30,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
+- *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
 - *From 2023-Rao-Ethical Reasoning over Moral Alignment*:, Email: abhinavr@cs.cmu.edu
 [Additional context or contact information]

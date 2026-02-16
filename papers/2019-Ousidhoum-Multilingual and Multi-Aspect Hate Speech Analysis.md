@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, French"
+cultures_nationalities_list: "Arabic, French, English"
 languages_list: "Arabic, English, French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Nedjma Ousidhoum]], [[Zizheng Lin]], [[Hongming Zhang]], [[Yangqiu Song]], [[Dit-Yan Yeung]]
+[[Nedjma Ousidhoum|Ousidhoum, Nedjma]], [[Lin, Zizheng]], [[Zhang, Hongming]], [[Song, Yangqiu]], [[Yeung, Dit-Yan]]
 
 ## Metadata
 

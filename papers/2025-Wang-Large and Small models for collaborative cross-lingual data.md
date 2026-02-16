@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Mongolian, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Responsible AI"
 
 ## Authors
 
-[[Yurong Wang]], [[Min Lin]], [[Qitu Hu]], [[Longjie Bao]], [[Shuangcheng Bai]], [[Yanling Li]]
+[[Wang, Yurong]], [[Lin, Min]], [[Hu, Qitu]], [[Bao, Longjie]], [[Bai, Shuangcheng]], [[Li, Yanling]]
 
 ## Metadata
 

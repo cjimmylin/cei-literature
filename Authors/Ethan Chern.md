@@ -1,7 +1,7 @@
 ---
 name: "Ethan Chern"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University 2Carnegie Mellon University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Chern-BeHonest|BeHonest]]]]
+
 
 - [[2024-Chern-BeHonest|BeHonest]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -1,9 +1,9 @@
 ---
 name: "Ava Thomas Wright"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University San Luis Obispo"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "avwright@calpoly.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2020-Wright-A Deontic Logic for Programming Rightful Machines|Deontic Logic for Rightful Machines]] (First Author)]]
+
 
 - [[2020-Wright-A Deontic Logic for Programming Rightful Machines|Deontic Logic for Rightful Machines]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2020-Wright-A Deontic Logic for Programming Rightful Machines*: Affiliation: University San Luis Obispo, Email: avwright@calpoly.edu
+- *From 2020-Wright-A Deontic Logic for Programming Rightful Machines*: Affiliation: University San Luis Obispo, Email: avwright@calpoly.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

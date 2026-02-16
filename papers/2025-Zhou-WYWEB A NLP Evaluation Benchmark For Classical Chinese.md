@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Cantonese, Chinese, Classical Chinese, Hakka, Min"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Bo Zhou]], [[Qianglong Chen]], [[Tianyu Wang]], [[Xiaomi Zhong]], [[Yin Zhang]]
+[[Zhou, Bo]], [[Chen, Qianglong]], [[Wang, Tianyu]], [[Zhong, Xiaomi]], [[Zhang, Yin]]
 
 ## Metadata
 

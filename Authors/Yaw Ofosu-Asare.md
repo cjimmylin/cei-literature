@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias|Asare-Cognitive imperialism in artificial intelligence counteracting bias]]
+
+- [[2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias|Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link]] (First Author)
 
 ## External Links & Profiles
 

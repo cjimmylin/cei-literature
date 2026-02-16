@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Kyriacou-Artificial Moral Intelligence Aristotelian|Artificial Moral Intelligence Aristotelian]] (First Author)]]
+
 
 - [[2024-Kyriacou-Artificial Moral Intelligence Aristotelian|Artificial Moral Intelligence Aristotelian]] (First Author)
 

@@ -30,6 +30,8 @@ Christian Leong is an undergraduate research assistant in the Department of Psyc
 
 ## Papers in this Vault
 
+
+
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## External Links & Profiles
@@ -38,5 +40,9 @@ Christian Leong is an undergraduate research assistant in the Department of Psyc
 
 ## Notes
 
+
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 Relevant to AI ethics through his contribution to foundational datasets for moral sentiment analysis in NLP. The Moral Foundations Twitter Corpus has become a widely-used resource for training and evaluating models that detect moral language, bridging psychology and NLP research. Limited recent information available; was an undergraduate researcher at time of publication (2020).

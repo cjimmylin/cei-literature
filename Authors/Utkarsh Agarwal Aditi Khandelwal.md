@@ -3,7 +3,7 @@ name: "Utkarsh Agarwal Aditi Khandelwal"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "monojit.choudhury@mbzuai.ac.ae"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Khandelwal-Multilingual Defining Issues Test|Multilingual Defining Issues Test]] (First Author)]]
+
 
 - [[2024-Khandelwal-Multilingual Defining Issues Test|Multilingual Defining Issues Test]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Khandelwal-Multilingual Defining Issues Test*:, Email: monojit.choudhury@mbzuai.ac.ae
+- *From 2024-Khandelwal-Multilingual Defining Issues Test*:, Email: monojit.choudhury@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

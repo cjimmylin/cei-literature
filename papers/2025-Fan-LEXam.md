@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://lexam-benchmark.github.io/"
 
 ## Authors
 
-[[Fan, Yu]], [[Ni, Jingwei]], [[Merane, Jakob]], [[Tian, Yang]], [[Hermstrüwer, Yoan]], [[Huang, Yinya]], [[Akhtar, Mubashara]], [[Salimbeni, Etienne]], [[Geering, Florian]], [[Dreyer, Oliver]], [[Brunner, Daniel]], [[Leippold, Markus]], [[Sachan, Mrinmaya]], [[Stremitzer, Alexander]], [[Engel, Christoph]], [[Ash, Elliott]], [[Niklaus, Joel]]
+[[Fan, Yu]], [[Ni, Jingwei]], [[Merane, Jakob]], [[Tianpei Yang|Tian, Yang]], [[Hermstrüwer, Yoan]], [[Huang, Yinya]], [[Akhtar, Mubashara]], [[Salimbeni, Etienne]], [[Geering, Florian]], [[Dreyer, Oliver]], [[Brunner, Daniel]], [[Leippold, Markus]], [[Mrinmaya Sachan|Sachan, Mrinmaya]], [[Stremitzer, Alexander]], [[Engel, Christoph]], [[Elliott Ash|Ash, Elliott]], [[Niklaus, Joel]]
 
 ## Metadata
 

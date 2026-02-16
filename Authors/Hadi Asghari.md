@@ -25,6 +25,8 @@ His recent work examines moral reasoning in AI systems, including research on ho
 ## Papers in this Vault
 
 
+
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]]
 
 ## Links
@@ -37,5 +39,9 @@ His recent work examines moral reasoning in AI systems, including research on ho
 ## Notes
 
 
+
+
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 Has over 1,000 citations. Co-author on NeurIPS 2025 paper on human and AI collective moral reasoning. Research demonstrates that LLMs show a "Utilitarian Boost" similar to humans when reasoning in groups versus individually on moral dilemmas.

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Huang-Moral Persuasion in Large Language Models|Moral Persuasion in Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
+- *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 - *From 2024-Huang-Moral Persuasion in Large Language Models*: Affiliation: University of Southern California, Email: huangac@usc.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

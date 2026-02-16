@@ -33,6 +33,8 @@ Alessio's work explores the transition from simple "alignment" to active "moral 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Galatolo-Beyond Ethical Alignment|Beyond Ethical Alignment]] (First Author)
 
 ## External Links & Profiles
@@ -42,5 +44,9 @@ Alessio's work explores the transition from simple "alignment" to active "moral 
 
 ## Notes
 
+
+
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 [Focuses on the practical implementation of normative ethics in humanoid robots.]

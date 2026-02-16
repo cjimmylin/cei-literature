@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: journalArticle
 short_title: "A new dataset for mongolian online handwritten recognition"
 year: 2025
 first_author: [[Enkhbold]]
-last_author: [[Enkhbold]]
+last_author: "[[Enkhbold]]"
 authors: Enkhbold
 url: "https://www.nature.com/articles/s41598-022-27267-8"
 external_pdf: "https://www.nature.com/articles/s41598-022-27267-8.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"

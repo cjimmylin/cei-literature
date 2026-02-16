@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Language Diversity Evaluating Language Usage and"
 year: 2025
 first_author: "[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Udahemuka, Bekalu Tadele, Chukuemeka Edeh]]"
-last_author: "[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Udahemuka, Bekalu Tadele, Chukuemeka Edeh]]"
+last_author: "[[Chukuemeka Edeh]]"
 authors: "[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Udahemuka, Bekalu Tadele, Chukuemeka Edeh]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01557"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Nigerian, Rwandan, Ethiopian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Dialogue Systems"
 
 ## Authors
 
-[[Edward Ajayi, Eudoxie Umwari, Mawuli Deku, Prosper Singadi, Jules Udahemuka, Bekalu Tadele, Chukuemeka Edeh]]
+[[Edward Ajayi]], [[Eudoxie Umwari]], [[Mawuli Deku]], [[Prosper Singadi]], [[Jules Udahemuka]], [[Bekalu Tadele]], [[Chukuemeka Edeh]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Large-Scale Hate Speech Detection with Cross-Domain"
 year: 2025
 first_author: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
-last_author: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
+last_author: "[[Eyup Halit Yilmaz]]"
 authors: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2203.01111"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]
+[[Cagri Toraman]], [[Furkan Sahinuc]], [[Eyup Halit Yilmaz]]
 
 ## Metadata
 

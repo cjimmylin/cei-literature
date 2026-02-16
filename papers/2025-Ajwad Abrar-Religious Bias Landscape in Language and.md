@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Religious Bias Landscape in Language and"
 year: 2025
 first_author: "[[Ajwad Abrar,]]"
-last_author: "[[Ajwad Abrar,]]"
+last_author: "[[Ajwad Abrar]]"
 authors: "[[Ajwad Abrar,]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08441"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Ajwad Abrar, and others]]
+[[Ajwad Abrar]]
 
 ## Metadata
 

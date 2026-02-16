@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2506.00079"
 external_pdf: "http://arxiv.org/pdf/2506.00079.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Dickerson-Who Gets the Kidney.md"
 abstract: "The rapid integration of Large Language Models (LLMs) in high-stakes decisionmaking—such as allocating scarce resources like donor organs—raises critical questions about their alignment with human moral values. We systematically evaluate the behavior of several prominent LLMs against human preferences in kidney allocation scenarios and show that LLMs: i) exhibit stark deviations from human values in prioritizing various attributes, and ii) in contrast to humans, LLMs rarely express indecision,..."
 paper_summary: "Abstract: The rapid integration of Large Language Models (LLMs) in high-stakes decision- making—such as allocating scarce resources like donor organs—raises critical questions about their alignment with human m | Overview: arXiv:2506.00079v1 [cs.CY] 30 May 2025 Who Gets the Kidney? Human-AI Alignment, Indecision, and Moral Values John P. Dickerson Mozilla john@mozilla.ai Hadi Hosseini Penn State University hadi@psu.edu  | Methodology: improves LLMs' ability to predict human decisions by up to 19% (as for Qwen-3-14B) in the Strict 6Further details about fine-tuning hyper-parameters a"
 local_pdf: "[[PDFs/2025/2025-Dickerson-Who Gets the Kidney.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

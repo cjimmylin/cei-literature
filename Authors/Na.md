@@ -17,7 +17,9 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques|A Comprehensive Survey of LLM Alignment Techniques]]
+
+
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task"
 year: 2025
 first_author: "[[Garcia, Gabriel Lino]]"
-last_author: "[[Garcia, Gabriel Lino]]"
-authors: "[[Garcia, Gabriel Lino]]"
-authors_incomplete: true
+last_author: "[[Papa, João Paulo]]"
+authors: "[[Garcia, Gabriel Lino]]; [[Paiola, Pedro Henrique]]; [[Morelli, Luis Henrique]]; [[Candido, Giovani]]; [[Júnior, Arnaldo Cândido]]; [[Jodas, Danilo Samuel]]; [[Afonso, Luis C. S.]]; [[Guilherme, Ivan Rizzo]]; [[Penteado, Bruno Elias]]; [[Papa, João Paulo]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2401.02909"
 external_pdf: "https://arxiv.org/pdf/2401.02909.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Garcia-Introducing Bode A Fine-Tuned Large Language Model for Portuguese.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Gabriel Lino Garcia, et al.]]
+[[Garcia, Gabriel Lino]], [[Paiola, Pedro Henrique]], [[Morelli, Luis Henrique]], [[Candido, Giovani]], [[Júnior, Arnaldo Cândido]], [[Jodas, Danilo Samuel]], [[Afonso, Luis C. S]], [[Guilherme, Ivan Rizzo]], [[Penteado, Bruno Elias]], [[Papa, João Paulo]]
 
 ## Metadata
 
-**Authors:** Gabriel Lino Garcia, et al.
+**Authors:** Garcia, Gabriel Lino; Paiola, Pedro Henrique; Morelli, Luis Henrique; Candido, Giovani; Júnior, Arnaldo Cândido; Jodas, Danilo Samuel; Afonso, Luis C. S.; Guilherme, Ivan Rizzo; Penteado, Bruno Elias; Papa, João Paulo
 
 **Year:** 2024
 

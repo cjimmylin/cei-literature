@@ -46,7 +46,10 @@ She is the lead author of the CharMoral dataset, a significant contribution to t
 ## Papers in this Vault
 
 
+
+
 - [[2025-Bae-CharMoral|CharMoral]] (First Author)
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 
@@ -57,5 +60,9 @@ She is the lead author of the CharMoral dataset, a significant contribution to t
 
 ## Notes
 
+
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 [Suyoung is an emerging researcher specializing in moral reasoning and narrative AI.]

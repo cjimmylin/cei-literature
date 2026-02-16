@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0462
 type: preprint
 short_title: "BLEnD A Benchmark for LLMs on"
 year: 2025
-first_author: "[[Lee, Nayeon]]"
-last_author: "[[Bang, Yejin]]"
-authors: "[[Lee, Nayeon]]; [[Mehta, Nikhil]]; [[Bang, Yejin]]"
-authors_incomplete: true
+first_author: "[[Myung, Junho]]"
+last_author: "[[Oh, Alice]]"
+authors: "[[Myung, Junho]]; [[Lee, Nayeon]]; [[Zhou, Yi]]; [[Jin, Jiho]]; [[Putri, Rifki Afina]]; [[Antypas, Dimosthenis]]; [[Borkakoty, Hsuvas]]; [[Kim, Eunsu]]; [[Perez-Almendros, Carla]]; [[Ayele, Abinew Ali]]; [[Gutiérrez-Basulto, Víctor]]; [[Ibáñez-García, Yazmín]]; [[Lee, Hwaran]]; [[Muhammad, Shamsuddeen Hassan]]; [[Park, Kiwoong]]; [[Rzayev, Anar Sabuhi]]; [[White, Nina]]; [[Yimam, Seid Muhie]]; [[Pilehvar, Mohammad Taher]]; [[Ousidhoum, Nedjma]]; [[Camacho-Collados, Jose]]; [[Oh, Alice]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.09948"
 external_pdf: "https://arxiv.org/pdf/2406.09948.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bang-BLEnD A Benchmark for LLMs on.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Nayeon Lee, Nikhil Mehta, Yejin Bang, et al]]
+[[Junho Myung|Myung, Junho]], [[Nayeon Lee|Lee, Nayeon]], [[Zhou, Yi]], [[Jin, Jiho]], [[Putri, Rifki Afina]], [[Antypas, Dimosthenis]], [[Borkakoty, Hsuvas]], [[Kim, Eunsu]], [[Perez-Almendros, Carla]], [[Ayele, Abinew Ali]], [[Gutiérrez-Basulto, Víctor]], [[Ibáñez-García, Yazmín]], [[Hwaran Lee|Lee, Hwaran]], [[Shamsuddeen Hassan Muhammad|Muhammad, Shamsuddeen Hassan]], [[Park, Kiwoong]], [[Rzayev, Anar Sabuhi]], [[White, Nina]], [[Seid Muhie Yimam|Yimam, Seid Muhie]], [[Pilehvar, Mohammad Taher]], [[Nedjma Ousidhoum|Ousidhoum, Nedjma]], [[Camacho-Collados, Jose]], [[Alice Oh|Oh, Alice]]
 
 ## Metadata
 
-**Authors:** Nayeon Lee, Nikhil Mehta, Yejin Bang, et al.
+**Authors:** Myung, Junho; Lee, Nayeon; Zhou, Yi; Jin, Jiho; Putri, Rifki Afina; Antypas, Dimosthenis; Borkakoty, Hsuvas; Kim, Eunsu; Perez-Almendros, Carla; Ayele, Abinew Ali; Gutiérrez-Basulto, Víctor; Ibáñez-García, Yazmín; Lee, Hwaran; Muhammad, Shamsuddeen Hassan; Park, Kiwoong; Rzayev, Anar Sabuhi; White, Nina; Yimam, Seid Muhie; Pilehvar, Mohammad Taher; Ousidhoum, Nedjma; Camacho-Collados, Jose; Oh, Alice
 
 **Year:** 2024
 

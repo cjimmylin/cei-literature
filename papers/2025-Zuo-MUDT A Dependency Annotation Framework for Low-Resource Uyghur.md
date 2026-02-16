@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Uyghur"
 languages_list: Uyghur
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Jiaxin Zuo]], [[Yiquan Wang]], [[Yuan Pan]], [[Xiadiya Yibulayin]]
+[[Zuo, Jiaxin]], [[Wang, Yiquan]], [[Pan, Yuan]], [[Yibulayin, Xiadiya]]
 
 ## Metadata
 

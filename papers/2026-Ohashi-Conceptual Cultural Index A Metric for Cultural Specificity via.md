@@ -10,7 +10,7 @@ type: preprint
 short_title: "Conceptual Cultural Index: A Metric for Cultural Specificity via Relative Generality"
 year: 2026
 first_author: "[[Takumi Ohashi]]"
-last_author: "[[Hitoshi Iyatomi]]"
+last_author: "[[Hitoshi Iyatomi Takumi Ohashi]]"
 authors: Takumi Ohashi, Hitoshi Iyatomi
 url: "https://arxiv.org/abs/2602.09444"
 external_pdf: "https://arxiv.org/pdf/2602.09444.pdf"
@@ -44,7 +44,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Takumi Ohashi, Hitoshi Iyatomi]]
+[[Hitoshi Iyatomi Takumi Ohashi]]
 
 ## Metadata
 

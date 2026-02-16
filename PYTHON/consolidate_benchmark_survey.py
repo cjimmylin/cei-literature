@@ -5,11 +5,16 @@ Consolidate benchmark survey results from 20 agents.
 Reads results_agent_01.json through results_agent_20.json, validates
 completeness, and produces consolidated output files.
 
+Usage:
+  python consolidate_benchmark_survey.py                  # New survey only
+  python consolidate_benchmark_survey.py --merge          # Merge with existing survey
+
 Output:
-  - logs/20260208-benchmark_survey_all_classifications.json  (all 924 entries)
-  - logs/20260208-benchmark_survey_candidates.json           (only Yes candidates)
+  - logs/20260215-benchmark_survey_all_classifications.json
+  - logs/20260215-benchmark_survey_candidates.json
 """
 
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -18,6 +23,7 @@ from collections import Counter
 sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 from config import LOGS_DIR, PAPERS_DIR
 
+DATE_PREFIX = "20260216"
 NUM_AGENTS = 20
 BATCHES_DIR = LOGS_DIR / "benchmark_survey_batches"
 REQUIRED_FIELDS_YES = {"filename", "decision", "reasoning"}
@@ -110,12 +116,29 @@ def validate_completeness(all_results, expected_filenames):
     return missing
 
 
+def load_existing_classifications():
+    """Load existing survey classifications for merging."""
+    # Try the current date prefix first, then fall back to older ones
+    for prefix in [DATE_PREFIX, "20260208"]:
+        path = LOGS_DIR / "{}-benchmark_survey_all_classifications.json".format(prefix)
+        if path.exists():
+            data = json.loads(path.read_text(encoding="utf-8"))
+            print("Loaded {} existing classifications from {}".format(len(data), path.name))
+            return data
+    return []
+
+
 def main():
+    parser = argparse.ArgumentParser(description="Consolidate benchmark survey results")
+    parser.add_argument("--merge", action="store_true",
+                        help="Merge new agent results with existing survey classifications")
+    args = parser.parse_args()
+
     print("=== CONSOLIDATING BENCHMARK SURVEY RESULTS ===\n")
 
     # Load expected filenames from batches
     expected = load_batch_filenames()
-    print("Expected papers: {}\n".format(len(expected)))
+    print("Expected papers from current batches: {}\n".format(len(expected)))
 
     # Load all agent results
     all_results, per_agent = load_agent_results()
@@ -131,7 +154,22 @@ def main():
         if r["filename"] not in seen:
             seen.add(r["filename"])
             deduped.append(r)
-    all_results = deduped
+    new_results = deduped
+
+    # Merge with existing if requested
+    if args.merge:
+        existing = load_existing_classifications()
+        existing_filenames = {e["filename"] for e in existing}
+        new_filenames = {r["filename"] for r in new_results}
+
+        # Keep existing entries that aren't in the new results
+        merged = [e for e in existing if e["filename"] not in new_filenames]
+        merged.extend(new_results)
+        all_results = merged
+        print("Merged: {} existing + {} new = {} total".format(
+            len(existing), len(new_results), len(all_results)))
+    else:
+        all_results = new_results
 
     # Sort by filename for consistent output
     all_results.sort(key=lambda r: r["filename"])
@@ -153,17 +191,17 @@ def main():
             agent_counts.get("Exclude", 0)))
 
     # Write consolidated output
-    all_path = LOGS_DIR / "20260208-benchmark_survey_all_classifications.json"
+    all_path = LOGS_DIR / "{}-benchmark_survey_all_classifications.json".format(DATE_PREFIX)
     with open(all_path, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
-    print("\nAll classifications: {} ({} entries)".format(all_path, len(all_results)))
+    print("\nAll classifications: {} ({} entries)".format(all_path.name, len(all_results)))
 
     # Write candidates only (Yes)
     candidates = [r for r in all_results if r["decision"] == "Yes"]
-    candidates_path = LOGS_DIR / "20260208-benchmark_survey_candidates.json"
+    candidates_path = LOGS_DIR / "{}-benchmark_survey_candidates.json".format(DATE_PREFIX)
     with open(candidates_path, "w", encoding="utf-8") as f:
         json.dump(candidates, f, indent=2, ensure_ascii=False)
-    print("Candidates (Yes): {} ({} entries)".format(candidates_path, len(candidates)))
+    print("Candidates (Yes): {} ({} entries)".format(candidates_path.name, len(candidates)))
 
     # Print candidate summary
     if candidates:

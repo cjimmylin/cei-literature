@@ -48,6 +48,10 @@ She has made major contributions to the study of bias in NLP and the development
 
 ## Papers in this Vault
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
+- [[2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects|Large Language Models Discriminate Against Speakers of German Dialects]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]] (Last Author)
 - [[2021-Barikeri-REDDITBIAS|REDDITBIAS]]
@@ -65,5 +69,9 @@ She has made major contributions to the study of bias in NLP and the development
 
 ## Notes
 
+
+
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 - *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 [Anne is a leading voice in European AI ethics and fair NLP.]

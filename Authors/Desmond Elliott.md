@@ -34,6 +34,8 @@ Desmond Elliott is an associate professor specializing in multimodal natural lan
 
 ## Papers in this Vault
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Links

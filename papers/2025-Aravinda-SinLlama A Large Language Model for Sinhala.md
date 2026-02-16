@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Sri Lankan"
 languages_list: Sinhala
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[H. W. K. Aravinda]], [[Rashad Sirajudeen]], [[Samith Karunathilake]], [[Nisansa de Silva]], [[Surangika Ranathunga]], [[Rishemjit Kaur]]
+[[Aravinda, H. W. K]], [[Sirajudeen, Rashad]], [[Karunathilake, Samith]], [[de Silva, Nisansa]], [[Ranathunga, Surangika]], [[Kaur, Rishemjit]]
 
 ## Metadata
 

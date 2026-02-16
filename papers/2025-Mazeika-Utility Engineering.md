@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2502.08640"
 external_pdf: "http://arxiv.org/pdf/2502.08640.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2025/2025-Mazeika-Utility Engineering.md"
 abstract: "As AIs rapidly advance and become more agentic, the risk they pose is governed not only by their capabilities but increasingly by their propensities, including goals and values. Tracking the emergence of goals and values has proven a longstanding problem, and despite much interest over the years it remains unclear whether current AIs have meaningful values. We propose a solution to this problem, leveraging the framework of utility functions to study the internal coherence of AI preferences."
 paper_summary: "Abstract: As AIs rapidly advance and become more agentic, the risk they pose is governed not only by their capabilities but increasingly by their propensities, including goals and values. Tracking the emergence | Overview: Utility Engineering: Analyzing and Controlling Emergent Value Systems in AIs Mantas Mazeika1, Xuwang Yin1, Rishub Tamirisa1, Jaehyuk Lim2, Bruce W. Lee2, Richard Ren2, Long Phan1, Norman Mu3, Adam Kho | Methodology: to analyze and reshape these utilities, offering a more direct way to control AI systems' behavior. By studying both how emergent values arise and how | Key Findings: AI preferences derive from coherent value systems AI outputs are shaped by utility maximization AIs are acquiring their own goals and values Figure 2: | Conclusions: 18 3 --- Page 4 --- Prior"
 local_pdf: "[[PDFs/2025/2025-Mazeika-Utility Engineering.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

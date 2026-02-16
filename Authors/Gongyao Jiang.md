@@ -32,6 +32,8 @@ He has also published work on dialogue-level dependency parsing for Chinese, dev
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chen-ToMBench|ToMBench]]
 
 ## Links
@@ -42,5 +44,9 @@ He has also published work on dialogue-level dependency parsing for Chinese, dev
 ## Notes
 
 
+
+
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: aihuang@tsinghua.edu.cn
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 - *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 Jiang's work on Theory of Mind benchmarks contributes to understanding the social reasoning capabilities and limitations of large language models.

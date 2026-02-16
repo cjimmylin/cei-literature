@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ki-Multiple LLM Agents Debate for Equitable Cultural|Multiple LLM Agents Debate for Equitable Cultural]]
 - [[2025-Palta-Speaking the Right Language|Speaking the Right Language]]
 
 ## Notes
 
 
+
+
+- *From 2025-Ki-Multiple LLM Agents Debate for Equitable Cultural*: Affiliation: University of Maryland
+- *From 2025-Ki-Multiple LLM Agents Debate for Equitable Cultural*: Affiliation: University of Maryland
 - *From 2025-Ki-Multiple LLM Agents Debate for Equitable Cultural*: Affiliation: University of Maryland
 [Additional context or contact information]

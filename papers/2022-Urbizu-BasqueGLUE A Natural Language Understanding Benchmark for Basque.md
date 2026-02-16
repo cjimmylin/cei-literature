@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Basque"
 languages_list: Basque
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Gorka Urbizu, Iñaki San Vicente, Xabier Saralegi, Rodrigo Agerri, Aitor Soroa]]
+[[Gorka Urbizu]], [[Iñaki San Vicente]], [[Xabier Saralegi]], [[Rodrigo Agerri]], [[Aitor Soroa]]
 
 ## Metadata
 

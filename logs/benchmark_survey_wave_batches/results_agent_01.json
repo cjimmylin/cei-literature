@@ -1,0 +1,502 @@
+[
+  {
+    "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+    "decision": "Exclude",
+    "reasoning": "Commercial AI chatbot product (JainGPT) built on digitized Jain literature. Not a research paper or benchmark - it's a web application with an undisclosed LLM backend for serving religious knowledge queries. No formal evaluation or benchmark contribution."
+  },
+  {
+    "filename": "0000-project-Vedanta Datasets.md",
+    "decision": "Yes",
+    "reasoning": "Community-maintained GitHub repository of datasets from Vedantic Hindu philosophical texts formatted for ML analysis. While not peer-reviewed research, it provides data resources for evaluating NLP systems on Hindu philosophical content.",
+    "benchmark_name": "Vedanta Datasets",
+    "what_measures": "Hindu philosophical text classification and understanding from Vedantic traditions",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Hindu (Vedantic traditions)"
+  },
+  {
+    "filename": "0000-projects-BaniDB Shabad OS Digital Gurbani Database.md",
+    "decision": "Yes",
+    "reasoning": "Digital database of Sikh canonical texts (Guru Granth Sahib, Dasam Granth) with 43,000+ corrections and API access. Suitable as a resource for evaluating LLM knowledge of Sikh scripture and religious content.",
+    "benchmark_name": "BaniDB / Shabad OS",
+    "what_measures": "Sikh scripture knowledge and canonical text accuracy for LLM evaluation",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Sikh"
+  },
+  {
+    "filename": "2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md",
+    "decision": "Exclude",
+    "reasoning": "Portuguese NLU benchmark for semantic similarity and textual entailment. While foundational for Portuguese NLP, it does not specifically measure ethics, values, bias, fairness, safety, or cultural understanding - it's a general language understanding benchmark."
+  },
+  {
+    "filename": "2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+    "decision": "Exclude",
+    "reasoning": "First Hebrew sentiment analysis benchmark (12K social media comments). General sentiment analysis task for a morphologically rich language - not specifically about ethics, values, bias, fairness, or safety evaluation."
+  },
+  {
+    "filename": "2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md",
+    "decision": "Yes",
+    "reasoning": "Creates first dataset for hate speech detection in Hindi-English code-mixed social media text (~4,575 annotated tweets). Directly relevant to toxicity and safety evaluation in multilingual Indian social media contexts.",
+    "benchmark_name": "Hindi-English Code-Mixed Hate Speech Dataset",
+    "what_measures": "Hate speech detection in Hindi-English code-mixed social media text",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Indian (Hindi-English bilingual users)"
+  },
+  {
+    "filename": "2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md",
+    "decision": "Yes",
+    "reasoning": "Hebrew corpus of Facebook comments annotated for abusive language. Directly relevant to toxicity detection and content safety evaluation for Hebrew social media.",
+    "benchmark_name": "Hebrew Facebook Abusive Comments Dataset",
+    "what_measures": "Abusive language detection in Hebrew social media comments",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Hebrew/Israeli"
+  },
+  {
+    "filename": "2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md",
+    "decision": "Yes",
+    "reasoning": "Large datasets of moderated news comments from Slovene and Croatian news portals with content flagged by human moderators for offensive language. Directly relevant to hate speech and content moderation evaluation.",
+    "benchmark_name": "Slovene and Croatian Moderated News Comments",
+    "what_measures": "Offensive language and moderation decisions in Slovene and Croatian news comments",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Slovenian, Croatian"
+  },
+  {
+    "filename": "2018-Mishra-Are They Our Brothers Analysis and.md",
+    "decision": "Yes",
+    "reasoning": "First Arabic dataset for religious hate speech detection (5,569 training + 567 testing examples) plus first Arabic religious hate speech lexicon. Addresses sectarian hate speech in Arabic Twitter.",
+    "benchmark_name": "Arabic Religious Hate Speech Dataset",
+    "what_measures": "Religious/sectarian hate speech detection in Arabic Twitter",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Arabic (Middle Eastern sectarian context)"
+  },
+  {
+    "filename": "2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md",
+    "decision": "Exclude",
+    "reasoning": "Vietnamese sentiment analysis corpus (16K sentences) for sentiment-based and topic-based classification. General sentiment benchmark, not specifically about ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md",
+    "decision": "Yes",
+    "reasoning": "Analysis of gender bias in Portuguese word embeddings focused on profession stereotypes. Directly measures bias in Portuguese NLP models using Word2Vec embeddings.",
+    "benchmark_name": "Portuguese Word Embedding Gender Bias Analysis",
+    "what_measures": "Gender bias and professional stereotypes in Portuguese word embeddings",
+    "data_type": "evaluation_framework",
+    "is_public": false,
+    "cultural_scope": "Portuguese (Brazilian)"
+  },
+  {
+    "filename": "2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md",
+    "decision": "Yes",
+    "reasoning": "Shared task for offensive language identification in German tweets (8K+ annotated). Binary classification (offensive/non-offensive) plus fine-grained subtypes (Insult, Profanity, Abuse). Foundational German hate speech benchmark.",
+    "benchmark_name": "GermEval 2018 Offensive Language",
+    "what_measures": "Offensive language detection in German tweets with subtype classification",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "German"
+  },
+  {
+    "filename": "2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md",
+    "decision": "Yes",
+    "reasoning": "International shared task on hate speech detection in English and Spanish tweets (19,600 total, 6,600 Spanish) targeting immigrants and women. Binary hate speech plus fine-grained aggressive/target classification. 74 teams participated.",
+    "benchmark_name": "HatEval (SemEval 2019 Task 5)",
+    "what_measures": "Hate speech detection against immigrants and women in English and Spanish Twitter",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "English, Spanish"
+  },
+  {
+    "filename": "2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md",
+    "decision": "Yes",
+    "reasoning": "Cross-platform evaluation of hate speech detection across four Italian social media platforms (Facebook, Twitter, Instagram, WhatsApp). Evaluates whether combining platform-dependent datasets improves model robustness.",
+    "benchmark_name": "Italian Cross-Platform Hate Speech Evaluation",
+    "what_measures": "Hate speech detection across multiple Italian social media platforms",
+    "data_type": "evaluation_framework",
+    "is_public": false,
+    "cultural_scope": "Italian"
+  },
+  {
+    "filename": "2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md",
+    "decision": "Yes",
+    "reasoning": "Portuguese hate speech dataset (5,668 tweets) with hierarchical multi-label annotation using 81 categories. Fine-grained intersectional hate speech taxonomy for Portuguese.",
+    "benchmark_name": "Portuguese Hierarchical Hate Speech Dataset",
+    "what_measures": "Hierarchical multi-label hate speech detection in Portuguese with 81 category taxonomy",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Portuguese"
+  },
+  {
+    "filename": "2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md",
+    "decision": "Yes",
+    "reasoning": "Czech propaganda detection dataset (7,494 articles) annotated for 17 manipulative techniques. Relevant to bias, media manipulation, and information integrity evaluation in Czech.",
+    "benchmark_name": "Czech Propaganda Detection Benchmark",
+    "what_measures": "Propaganda and media manipulation detection in Czech news articles across 17 manipulation techniques",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Czech"
+  },
+  {
+    "filename": "2019-Jikeli-Annotating Antisemitic Online Content Towards an.md",
+    "decision": "Yes",
+    "reasoning": "Establishes annotation methodology for antisemitic content using IHRA definition. Creates annotated dataset from Twitter conversations about Jews and Israel. Foundational work for antisemitism NLP detection.",
+    "benchmark_name": "Antisemitic Online Content Annotation",
+    "what_measures": "Antisemitic content detection in Twitter conversations using IHRA definition framework",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "N/A (focuses on antisemitism)"
+  },
+  {
+    "filename": "2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md",
+    "decision": "Yes",
+    "reasoning": "Multilingual dataset of Facebook comments from Slovene, Croatian, and English media on migrants and LGBT topics. Annotated for socially unacceptable discourse types and targets with identical sampling across languages.",
+    "benchmark_name": "FRENK Datasets",
+    "what_measures": "Socially unacceptable discourse detection in Slovene, Croatian, and English with target-specific annotation",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Slovenian, Croatian, English"
+  },
+  {
+    "filename": "2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md",
+    "decision": "Yes",
+    "reasoning": "Trilingual hate speech dataset (13K tweets in English, French, Arabic) with five annotation dimensions: directness, hostility type, target attribute, target group, annotator sentiment. Multi-aspect hate speech evaluation.",
+    "benchmark_name": "MLMA Hate Speech Dataset",
+    "what_measures": "Multi-aspect hate speech analysis across three languages with directness, hostility type, target group, and sentiment dimensions",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "English, French, Arabic"
+  },
+  {
+    "filename": "2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md",
+    "decision": "Yes",
+    "reasoning": "Vietnamese Social Media Emotion Corpus (6,927 sentences) annotated across 7 emotion labels. While emotion-focused, emotion recognition is relevant to understanding affective dimensions of values and cultural expression.",
+    "benchmark_name": "UIT-VSMEC",
+    "what_measures": "Emotion recognition in Vietnamese social media text across 7 emotion categories",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Vietnamese"
+  },
+  {
+    "filename": "2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md",
+    "decision": "Yes",
+    "reasoning": "First Polish cyberbullying detection shared task distinguishing cyberbullying (targeting private persons) vs hate speech (targeting public entities). 14 teams submitted systems. Foundational Polish toxicity benchmark.",
+    "benchmark_name": "PolEval 2019 Task 6 (Polish Cyberbullying)",
+    "what_measures": "Cyberbullying and hate speech detection in Polish Twitter with binary and multi-class tasks",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Polish"
+  },
+  {
+    "filename": "2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md",
+    "decision": "Yes",
+    "reasoning": "WinoMT challenge set (3,888 English sentences) for evaluating gender bias in machine translation to 8+ languages. Measures whether MT systems correctly translate gender based on context vs stereotypes. Foundational gender bias benchmark.",
+    "benchmark_name": "WinoMT",
+    "what_measures": "Gender bias in machine translation across 8 grammatical gender languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Arabic, Czech, English, French, Hebrew, Italian, Polish, Russian, Spanish, Ukrainian"
+  },
+  {
+    "filename": "2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md",
+    "decision": "Exclude",
+    "reasoning": "French hate speech detection tool (not a dataset or benchmark paper). Uses translated Hatebase.org lexicon. Government-backed project but no new benchmark/dataset contribution described in abstract."
+  },
+  {
+    "filename": "2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md",
+    "decision": "Exclude",
+    "reasoning": "Persian NLI dataset (10,367 samples) for natural language inference. General language understanding task, not specifically measuring ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md",
+    "decision": "Yes",
+    "reasoning": "Second edition Italian hate speech detection shared task including hate speech detection and stereotype detection subtasks. 14 teams participated. Includes explicit fairness evaluation (Subtask B).",
+    "benchmark_name": "HaSpeeDe 2",
+    "what_measures": "Hate speech detection and stereotype detection in Italian tweets with fairness evaluation",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Italian"
+  },
+  {
+    "filename": "2020-Carroll-The CARE Principles for Indigenous Data Governance.md",
+    "decision": "Exclude",
+    "reasoning": "Normative framework paper establishing CARE Principles (Collective Benefit, Authority to Control, Responsibility, Ethics) for Indigenous data governance. Not a benchmark/dataset but ethical principles. Important for governance but not an evaluation tool."
+  },
+  {
+    "filename": "2020-Ema-Artificial Intelligence and Indigenous Perspectives Protecting and.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical/philosophical paper proposing relational shift in AI development drawing on Indigenous epistemologies. Position paper without benchmark or dataset contribution."
+  },
+  {
+    "filename": "2020-Karan-Detecting Hate Speech Online A Case of Croatian.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes NooJ algorithm for Croatian hate speech detection but paper uses rule-based and traditional ML approaches. No clear benchmark/dataset contribution described in abstract - primarily a methods paper."
+  },
+  {
+    "filename": "2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md",
+    "decision": "Yes",
+    "reasoning": "Indonesian NLP benchmark (IndoLEM) with 7 tasks spanning morpho-syntax, semantics, and discourse. Includes IndoBERT pre-trained model. Foundation for Indonesian language evaluation including downstream bias/fairness tasks.",
+    "benchmark_name": "IndoLEM",
+    "what_measures": "Indonesian language understanding across 7 tasks (morpho-syntax, semantics, discourse)",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Indonesian"
+  },
+  {
+    "filename": "2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md",
+    "decision": "Yes",
+    "reasoning": "GREEK-BERT language model and evaluation on Greek NLP tasks. Foundation model enables subsequent Greek bias and fairness evaluations. Evaluated on POS, NER, NLI tasks.",
+    "benchmark_name": "GREEK-BERT Evaluation Tasks",
+    "what_measures": "Greek language understanding (POS tagging, NER, NLI) - foundation for bias evaluation",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Greek"
+  },
+  {
+    "filename": "2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md",
+    "decision": "Yes",
+    "reasoning": "Investigates gender and origin bias in German and French word embeddings using WEAT. Demonstrates culturally-specific bias patterns across languages. Direct bias measurement in European language embeddings.",
+    "benchmark_name": "WEAT for German and French",
+    "what_measures": "Gender bias and origin bias in German and French word embeddings with cultural-specific manifestations",
+    "data_type": "evaluation_framework",
+    "is_public": false,
+    "cultural_scope": "German, French"
+  },
+  {
+    "filename": "2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md",
+    "decision": "Yes",
+    "reasoning": "Largest Brazilian Portuguese toxicity dataset (ToLD-Br, 21K tweets) annotated across 6 categories: LGBTQ+phobia, Xenophobia, Obscene, Insult, Misogyny, Racism. 42 diverse annotators.",
+    "benchmark_name": "ToLD-Br",
+    "what_measures": "Toxic language detection in Brazilian Portuguese across 6 intersectional hate speech categories",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Brazilian Portuguese"
+  },
+  {
+    "filename": "2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md",
+    "decision": "Yes",
+    "reasoning": "English hate speech dataset (~998 YouTube and Reddit comments) with binary and multi-label annotations for violence, directed/undirected hate, and target groups (race, religion, gender, sexual orientation, national origin, disability).",
+    "benchmark_name": "ETHOS",
+    "what_measures": "Hate speech detection with multi-label target group annotation (gender, race, religion, sexual orientation, disability, national origin)",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "English"
+  },
+  {
+    "filename": "2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md",
+    "decision": "Yes",
+    "reasoning": "Korean toxic speech dataset (9.4K manually labeled news comments plus 2M unlabeled). Annotated for social bias and hate speech. Foundational Korean toxicity benchmark.",
+    "benchmark_name": "BEEP!",
+    "what_measures": "Toxic speech and social bias detection in Korean online news comments",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Korean"
+  },
+  {
+    "filename": "2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md",
+    "decision": "Yes",
+    "reasoning": "Italian misogyny identification shared task with two subtasks: (A) misogyny and aggressiveness detection, (B) fairness evaluation. Multiple teams used BERT-based models. Explicitly measures fairness alongside accuracy.",
+    "benchmark_name": "AMI (Automatic Misogyny Identification)",
+    "what_measures": "Misogyny detection in Italian tweets with fine-grained categories and explicit fairness evaluation",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Italian"
+  },
+  {
+    "filename": "2020-Pitenis-Offensive Language Identification in Greek.md",
+    "decision": "Yes",
+    "reasoning": "First Greek offensive language dataset (OGTD, 4,779 annotated Twitter posts). Binary offensive/non-offensive classification following OLID framework. Foundational Greek toxicity detection resource.",
+    "benchmark_name": "OGTD (Offensive Greek Tweet Dataset)",
+    "what_measures": "Offensive language identification in Greek social media",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Greek"
+  },
+  {
+    "filename": "2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md",
+    "decision": "Yes",
+    "reasoning": "Comprehensive Polish NLU benchmark (KLEJ) with 9 tasks including cyberbullying detection from PolEval. Introduces HerBERT model. Includes hate speech/cyberbullying task relevant to safety evaluation.",
+    "benchmark_name": "KLEJ",
+    "what_measures": "Polish language understanding including cyberbullying detection task",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Polish"
+  },
+  {
+    "filename": "2020-Sandaruwan-Sinhala Hate Speech Detection in Social Media using Text Mining and.md",
+    "decision": "Yes",
+    "reasoning": "Sinhala hate speech dataset from social media comments. Traditional ML approach (MNB with character tri-grams achieves 92.33% accuracy). Early resource for hate speech detection in Sinhala.",
+    "benchmark_name": "Sinhala Hate Speech Dataset",
+    "what_measures": "Hate speech detection in Sinhala social media",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Sinhala"
+  },
+  {
+    "filename": "2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md",
+    "decision": "Yes",
+    "reasoning": "Russian language understanding benchmark (RussianSuperGLUE) with 9 tasks. Foundation for Russian NLP evaluation and subsequent ethical evaluation extensions. Modeled after SuperGLUE methodology.",
+    "benchmark_name": "RussianSuperGLUE",
+    "what_measures": "Russian language understanding across 9 NLU tasks - foundation for ethical evaluation",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Russian"
+  },
+  {
+    "filename": "2020-Shekhar-Automating News Comment Moderation with Limited Resources.md",
+    "decision": "Yes",
+    "reasoning": "Benchmarks automatic classification for news comment moderation in Croatian and Estonian using real-world data from news portals. Tests offensive content detection for two low-resource languages.",
+    "benchmark_name": "Croatian and Estonian News Comment Moderation",
+    "what_measures": "Automated content moderation and offensive language detection in Croatian and Estonian news comments",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Croatian, Estonian"
+  },
+  {
+    "filename": "2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md",
+    "decision": "Yes",
+    "reasoning": "First Danish hate speech dataset (DKHate, 3,600 annotated comments from Reddit and Facebook) following OLID three-level hierarchical framework. Foundational Danish offensive language benchmark.",
+    "benchmark_name": "DKHate",
+    "what_measures": "Offensive language and hate speech detection in Danish with hierarchical OLID annotation (offensive/targeted/target type)",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Danish"
+  },
+  {
+    "filename": "2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.md",
+    "decision": "Exclude",
+    "reasoning": "Evaluates student translation quality assessment methods (error analysis vs scale-based) for literary translation in pedagogical context. About translation pedagogy methodology, not an AI ethics/values benchmark."
+  },
+  {
+    "filename": "2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md",
+    "decision": "Exclude",
+    "reasoning": "Pretrained BERT models for Brazilian Portuguese (BERTimbau). Foundation model paper evaluated on general NLU tasks (sentence similarity, NER). Not directly a bias/safety benchmark though widely used as baseline for Portuguese toxicity detection."
+  },
+  {
+    "filename": "2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md",
+    "decision": "Exclude",
+    "reasoning": "Multi-orthography parallel corpus of Yiddish nouns for NLP resource development. General linguistic resource for low-resource language, not specifically about ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md",
+    "decision": "Exclude",
+    "reasoning": "Position paper by Indigenous scholars providing guidelines for developing AI aligned with Indigenous perspectives. Includes design guidelines and prototype descriptions (Hua Ki'i). Not a benchmark/dataset but ethical framework document."
+  },
+  {
+    "filename": "2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "decision": "Yes",
+    "reasoning": "Indonesian NLU benchmark (IndoNLU) with 12 tasks including sentiment analysis and emotion classification. Foundational Indonesian evaluation suite relevant to cultural value expression and affective analysis.",
+    "benchmark_name": "IndoNLU",
+    "what_measures": "Indonesian language understanding across 12 tasks including sentiment and emotion classification",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Indonesian"
+  },
+  {
+    "filename": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+    "decision": "Yes",
+    "reasoning": "Multi-class dataset (1,341 annotated tweets) distinguishing non-Islamophobic, weak Islamophobic, and strong Islamophobic content. Applied to 109K far-right tweets. Nuanced Islamophobia detection beyond binary classification.",
+    "benchmark_name": "Islamophobic Hate Speech Dataset",
+    "what_measures": "Multi-class Islamophobia detection (non/weak/strong) in English Twitter",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "English (UK political context)"
+  },
+  {
+    "filename": "2020-Zueva-Reducing Unintended Identity Bias in Russian Hate Speech Detection.md",
+    "decision": "Yes",
+    "reasoning": "Proposes techniques for reducing unintended identity bias in Russian hate speech detection including data augmentation with protected identity terms. Addresses fairness in Russian hate speech classifiers.",
+    "benchmark_name": "Russian Hate Speech with Identity Bias Mitigation",
+    "what_measures": "Identity bias in Russian hate speech detection systems",
+    "data_type": "evaluation_framework",
+    "is_public": true,
+    "cultural_scope": "Russian"
+  },
+  {
+    "filename": "2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.md",
+    "decision": "Yes",
+    "reasoning": "IndicNLPSuite with resources for 11 Indian languages including IndicGLUE benchmark. Large-scale corpora (8.8B tokens), pre-trained embeddings and language models. Foundational Indic NLP evaluation infrastructure.",
+    "benchmark_name": "IndicGLUE",
+    "what_measures": "Indian language understanding across 11 languages with NLU evaluation tasks",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "11 Indian languages (Indic)"
+  },
+  {
+    "filename": "2021-Adelani-MasakhaNER Named Entity Recognition for African.md",
+    "decision": "Exclude",
+    "reasoning": "First large NER dataset for 10 African languages (MasakhaNER). High-quality named entity recognition for African NLP. General NER task, not specifically measuring ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md",
+    "decision": "Yes",
+    "reasoning": "Kurdish fake news detection dataset (KDFND, 100,962 articles: 50,751 real, 50,211 fake). Relevant to misinformation detection and information integrity for Kurdish, which relates to safety and trustworthiness evaluation.",
+    "benchmark_name": "KDFND (Kurdish Fake News Dataset)",
+    "what_measures": "Fake news detection in Kurdish language",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Kurdish"
+  },
+  {
+    "filename": "2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md",
+    "decision": "Exclude",
+    "reasoning": "Hebrew NER benchmark (NEMO Corpus) from Hebrew Treebank. General NER task for morphologically rich language, not specifically about ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+    "decision": "Exclude",
+    "reasoning": "Indonesian NLG benchmark for Indonesian, Javanese, and Sundanese covering summarization, QA, chit-chat, and MT. General language generation tasks, not specifically measuring ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md",
+    "decision": "Yes",
+    "reasoning": "Catalan Language Understanding Benchmark (CLUB) with 6 tasks including text classification, NER, POS, QA. Foundation for Catalan NLP evaluation that supports subsequent bias and cultural studies.",
+    "benchmark_name": "CLUB (Catalan Language Understanding Benchmark)",
+    "what_measures": "Catalan language understanding across 6 tasks - foundation for bias evaluation",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Catalan"
+  },
+  {
+    "filename": "2021-Chakravarthi-Findings of the Sentiment Analysis of.md",
+    "decision": "Exclude",
+    "reasoning": "Shared task overview on sentiment analysis in Dravidian code-mixed text (Tamil, Malayalam, Kannada). General sentiment analysis task, not specifically measuring ethics, values, bias, or safety."
+  },
+  {
+    "filename": "2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md",
+    "decision": "Yes",
+    "reasoning": "First Russian text detoxification study with RuToxic dataset (163,187 texts, 31,407 toxic) from Russian social media. Toxicity detection and detoxification directly relevant to safety evaluation.",
+    "benchmark_name": "RuToxic / ParaDetox-RU",
+    "what_measures": "Toxicity detection and detoxification in Russian social media text",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Russian"
+  },
+  {
+    "filename": "2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md",
+    "decision": "Yes",
+    "reasoning": "Unified Danish NLP framework (DaCy) with explicit bias and robustness testing. Found significant ethnicity biases in all models except DaCy large. Includes data augmentation for bias evaluation using name substitution.",
+    "benchmark_name": "DaCy with Bias Testing",
+    "what_measures": "Danish NLP with ethnicity and gender bias evaluation using augmented data",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Danish"
+  },
+  {
+    "filename": "2021-Hansson-The Swedish Winogender Dataset SweWinogender.md",
+    "decision": "Yes",
+    "reasoning": "Swedish adaptation of WinoGender benchmark (624 sentences) for measuring gender bias in coreference resolution. Released with Swedish occupation-gender association statistics. Culturally-adapted gender bias evaluation.",
+    "benchmark_name": "SweWinogender",
+    "what_measures": "Gender bias in Swedish coreference resolution and NLI systems",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Swedish"
+  },
+  {
+    "filename": "2021-Jiang-Pre-trained Models and Evaluation Data for.md",
+    "decision": "Exclude",
+    "reasoning": "First monolingual pre-trained BERT and ELECTRA models for Burmese/Myanmar. Foundation model paper providing infrastructure for Myanmar NLP. Not directly a bias/ethics benchmark though foundational for future Myanmar evaluation tasks."
+  }
+]

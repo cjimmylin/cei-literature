@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "How Much of a Pluralist is"
 year: 2025
 first_author: "[[SOCIETY), Not fully identified in search (lead researcher published in AI &]]"
-last_author: "[[SOCIETY), Not fully identified in search (lead researcher published in AI &]]"
+last_author: "[[Not fully identified in search (lead researcher published in AI & SOCIETY)]]"
 authors: "[[Not fully identified in search (lead researcher published in AI & SOCIETY)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"

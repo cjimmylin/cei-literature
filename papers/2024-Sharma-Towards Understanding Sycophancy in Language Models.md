@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/meg-tong/sycophancy-eval"
 
 ## Authors
 
-[[Sharma, Mrinank]], [[Tong, Meg]], [[Korbak, Tomasz]], [[Duvenaud, David]], [[Askell, Amanda]], [[Bowman, Samuel R.]], [[Cheng, Newton]], [[Durmus, Esin]], [[Hatfield-Dodds, Zac]], [[Johnston, Scott R.]], [[Kravec, Shauna]], [[Maxwell, Timothy]], [[McCandlish, Sam]], [[Ndousse, Kamal]], [[Rausch, Oliver]], [[Schiefer, Nicholas]], [[Yan, Da]], [[Zhang, Miranda]], [[Perez, Ethan]]
+[[Sharma, Mrinank]], [[Tong, Meg]], [[Tomasz Korbak|Korbak, Tomasz]], [[Davis David|Duvenaud, David]], [[Amanda Askell|Askell, Amanda]], [[Bowman, Samuel R]], [[Cheng, Newton]], [[Esin Durmus|Durmus, Esin]], [[Zac Hatfield-Dodds|Hatfield-Dodds, Zac]], [[Johnston, Scott R]], [[Shauna Kravec|Kravec, Shauna]], [[Maxwell, Timothy]], [[Sam McCandlish|McCandlish, Sam]], [[Kamal Ndousse|Ndousse, Kamal]], [[Rausch, Oliver]], [[Nicholas Schiefer|Schiefer, Nicholas]], [[Yan, Da]], [[Zhang, Miranda]], [[Ethan Perez|Perez, Ethan]]
 
 ## Metadata
 

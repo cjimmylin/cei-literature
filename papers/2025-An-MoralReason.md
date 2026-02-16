@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ pdf_extract: "PDF Extracts/2025/2025-An-MoralReason.md"
 local_pdf: [[PDFs/2025/2025-An-MoralReason.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Proposes 'MoralReason', a framework using reasoning-level rei
 significance: "Demonstrates that LLMs can be trained to internalize and generalize consistent moral reasoning to out-of-distribution scenarios, enhancing AI safety"
 abstract: "Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral decisions. We formulate this as an out-of-distribution moral alignment problem, where LLM agents must learn to apply consistent moral reasoning frameworks to scenarios beyond their training distribution. We introduce Moral-ReasonQA, a novel dataset extending 680 human-annotated, highambiguity moral scenarios with..."
 paper_summary: "Abstract: Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this  | Overview: MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning Zhiyu An, Wan Du University of California, Merced {zan7, wdu3}@ucmerced.edu Warning: Thi"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"

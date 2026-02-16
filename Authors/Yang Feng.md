@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wei-MedEthicsQA|MedEthicsQA]]
 
 ## Notes
 
 
+
+
+- *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
+- *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 - *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 [Additional context or contact information]

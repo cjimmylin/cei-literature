@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Zou-Universal and Transferable Adversarial Attacks on|Universal and Transferable Adversarial Attacks on]]
 
 ## Notes
 
 
+
+
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
+- *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 - *From 2023-Zou-Universal and Transferable Adversarial Attacks on*: Affiliation: University, 2Center for AI Safety
 [Additional context or contact information]

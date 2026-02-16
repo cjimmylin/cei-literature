@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "Lugha-Llama Adapting Large Language Models for"
 year: 2025
 first_author: "[[Buzaaba, Happy]]"
-last_author: "[[Buzaaba, Happy]]"
-authors: "[[Buzaaba, Happy]]"
-authors_incomplete: true
+last_author: "[[Fellbaum, Christiane]]"
+authors: "[[Buzaaba, Happy]]; [[Wettig, Alexander]]; [[Adelani, David Ifeoluwa]]; [[Fellbaum, Christiane]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.06536"
 external_pdf: "https://arxiv.org/pdf/2504.06536.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Responsible AI"
 
 ## Authors
 
-[[Happy Buzaaba, et al]]
+[[Buzaaba, Happy]], [[Wettig, Alexander]], [[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]], [[Fellbaum, Christiane]]
 
 ## Metadata
 
-**Authors:** Happy Buzaaba, et al.
+**Authors:** Buzaaba, Happy; Wettig, Alexander; Adelani, David Ifeoluwa; Fellbaum, Christiane
 
 **Year:** 2025
 

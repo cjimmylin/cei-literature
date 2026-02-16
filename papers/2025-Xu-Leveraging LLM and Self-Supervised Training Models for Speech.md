@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Cantonese, Chinese, Hakka, Min"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Tianyi Xu]], [[Hongjie Chen]], [[Wang Qing]], [[Lv Hang]], [[Jian Kang]], [[Li Jie]], [[Zhennan Lin]], [[Yongxiang Li]], [[Xie Lei]]
+[[Xu, Tianyi]], [[Chen, Hongjie]], [[Qing, Wang]], [[Hang, Lv]], [[Kang, Jian]], [[Jie, Li]], [[Lin, Zhennan]], [[Li, Yongxiang]], [[Lei, Xie]]
 
 ## Metadata
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian, Tamil, Sri Lankan"
 languages_list: "Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, Urdu, and other South Asian languages"
 religious_values: "N/A"
 religious_values_list: "N/A"

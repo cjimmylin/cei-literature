@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs"
 year: 2025
 first_author: "[[Hyeonwoo Kim]]"
-last_author: "[[Chanjun Park]]"
+last_author: "[[Chanjun Park Yungi Kim]]"
 authors: "Hyeonwoo Kim, Dahyun Kim, Jihoo Kim, Sukyung Lee, Yungi Kim, Chanjun Park"
 url: "https://arxiv.org/abs/2410.12445"
 external_pdf: "https://arxiv.org/pdf/2410.12445.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Hyeonwoo Kim, Dahyun Kim, Jihoo Kim, Sukyung Lee, Yungi Kim, Chanjun Park]]
+[[Dahyun Kim Hyeonwoo Kim]], [[Sukyung Lee Jihoo Kim]], [[Cheol Woo Kim|Chanjun Park Yungi Kim]]
 
 ## Metadata
 

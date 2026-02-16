@@ -47,6 +47,8 @@ Bignotti's work provides a critical "Civil Law" perspective to AI ethics, often 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Bignotti-Legal Minds, Algorithmic Decisions|Legal Minds, Algorithmic Decisions]] (First Author)
 
 ## External Links & Profiles
@@ -56,5 +58,9 @@ Bignotti's work provides a critical "Civil Law" perspective to AI ethics, often 
 
 ## Notes
 
+
+
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 Camilla's transition from physical "Transnational Crime" to "Algorithmic Decision" mirrors the legal world's shift toward digital governance and its inherent ethical challenges.

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "SESGO: Spanish Evaluation of Stereotypical Generative Outputs"
 year: 2025
 first_author: "[[Simões, Guilherme]]"
-last_author: "[[Simões, Guilherme]]"
+last_author: "[[Guilherme Simões]]"
 authors: "[[Simões, Guilherme]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2509.03329"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American, Latin American"
+cultures_nationalities_list: "Spanish, Latin American, American"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Guilherme Simões, et al.]]
+[[Guilherme Simões]]
 
 ## Metadata
 

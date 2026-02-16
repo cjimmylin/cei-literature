@@ -1,9 +1,9 @@
 ---
 name: "Wenshi Gu"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Foreign Languages, Beihang University, Beijing, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "guwenshi@buaa.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese|Linguistically informed ChatGPT prompts to enhance Japanese-Chinese]]
+
+- [[2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese|Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese*: Affiliation: School of Foreign Languages, Beihang University, Beijing, China, Email: guwenshi@buaa.edu.cn
+- *From 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese*: Affiliation: School of Foreign Languages, Beihang University, Beijing, China, Email: guwenshi@buaa.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

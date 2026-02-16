@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2018-Dixon-Measuring and Mitigating Unintended Bias in Text|Measuring and Mitigating Unintended Bias in Text]]
 
 ## Notes
 
 
+
+
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: ldixon@google.com
+- *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: jetpack@google.com
 - *From 2018-Dixon-Measuring and Mitigating Unintended Bias in Text*: Affiliation: lable, so that bias mitigation, Email: lucyvasserman@google.com
 [Additional context or contact information]

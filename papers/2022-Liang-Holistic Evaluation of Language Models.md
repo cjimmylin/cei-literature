@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2211.09110"
 external_pdf: "http://arxiv.org/pdf/2211.09110.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2022/2022-Liang-Holistic Evaluation of Language Model
 abstract: "Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and metrics (i.e. desiderata) that are of interest for LMs."
 paper_summary: "Abstract: Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation o | Overview: Published in Transactions on Machine Learning Research (08/2023) Holistic Evaluation of Language Models Percy Liang†, Rishi Bommasani†, Tony Lee†, Dimitris Tsipras‡, Dilara Soylu‡, Michihiro Yasunaga‡ | Methodology: employed throughout linguistics (Chomsky, 1957) that helps to tease out fine-grained understanding of specific linguistic phenomena. Together, the two | Key Findings: No canonical tasks/not task-centric Semantics: Lexical Word sense disambiguation, word sense induction Semantics: Sentence-level Semantics, Textual In | Conclusions: 75 10 What is missing 77 10.1 Missing scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 10.2 Missing"
 local_pdf: "[[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

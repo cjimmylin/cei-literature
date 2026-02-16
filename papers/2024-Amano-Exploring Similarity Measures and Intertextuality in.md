@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "Exploring Similarity Measures and Intertextuality in"
 year: 2025
 first_author: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
-last_author: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
+last_author: "[[Kyoko Amano Yuzuki Tsukagoshi]]"
 authors: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
 authors_incomplete: false
 url: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]
+[[Yuki Kyogoku So Miyagawa]], [[Kyoko Amano Yuzuki Tsukagoshi]]
 
 ## Metadata
 

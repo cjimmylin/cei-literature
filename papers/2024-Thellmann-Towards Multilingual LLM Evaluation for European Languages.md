@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "Towards Multilingual LLM Evaluation for European Languages"
 year: 2025
 first_author: "[[Thellmann, Klaudia]]"
-last_author: "[[Buschhoff, Jasper Schulze]]"
-authors: "[[Thellmann, Klaudia]]; [[Stadler, Bernhard]]; [[Fromm, Michael]]; [[Buschhoff, Jasper Schulze]]"
-authors_incomplete: true
+last_author: "[[Ali, Mehdi]]"
+authors: "[[Thellmann, Klaudia]]; [[Stadler, Bernhard]]; [[Fromm, Michael]]; [[Buschhoff, Jasper Schulze]]; [[Jude, Alex]]; [[Barth, Fabio]]; [[Leveling, Johannes]]; [[Flores-Herr, Nicolas]]; [[Köhler, Joachim]]; [[Jäkel, René]]; [[Ali, Mehdi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.08928"
 external_pdf: "https://arxiv.org/pdf/2410.08928.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "European"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 15 other European languages"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Klaudia Thellmann, Bernhard Stadler, Michael Fromm, Jasper Schulze Buschhoff, et al.]]
+[[Thellmann, Klaudia]], [[Stadler, Bernhard]], [[Fromm, Michael]], [[Buschhoff, Jasper Schulze]], [[Jude, Alex]], [[Barth, Fabio]], [[Leveling, Johannes]], [[Flores-Herr, Nicolas]], [[Köhler, Joachim]], [[Jäkel, René]], [[Ali, Mehdi]]
 
 ## Metadata
 
-**Authors:** Klaudia Thellmann, Bernhard Stadler, Michael Fromm, Jasper Schulze Buschhoff, et al.
+**Authors:** Thellmann, Klaudia; Stadler, Bernhard; Fromm, Michael; Buschhoff, Jasper Schulze; Jude, Alex; Barth, Fabio; Leveling, Johannes; Flores-Herr, Nicolas; Köhler, Joachim; Jäkel, René; Ali, Mehdi
 
 **Year:** 2024
 

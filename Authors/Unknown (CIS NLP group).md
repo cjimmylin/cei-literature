@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via|MEXA Multilingual Evaluation of English-Centric LLMs via]]
+
+- [[2025-Unknown-HuGME A Benchmark System for Evaluating Hungarian Generative Model|HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation]] (First Author)
 
 ## External Links & Profiles
 

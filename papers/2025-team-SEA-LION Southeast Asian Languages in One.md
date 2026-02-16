@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "SEA-LION Southeast Asian Languages in One"
 year: 2025
 first_author: "[[team, AI Singapore]]"
-last_author: "[[team, AI Singapore]]"
+last_author: "[[AI Singapore team]]"
 authors: "[[AI Singapore team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.05747"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
+cultures_nationalities_list: "Chinese, Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

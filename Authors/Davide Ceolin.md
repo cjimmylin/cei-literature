@@ -1,9 +1,9 @@
 ---
 name: "Davide Ceolin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, ‡University of North Texas"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "sagnik.raychoudhury@unt.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Helwe-Navigating the Political Compass Multilingual 50 Countries|Navigating the Political Compass (Multilingual, 50 Countries)]] (Last Author)]]
+
 
 - [[2025-Helwe-Navigating the Political Compass Multilingual 50 Countries|Navigating the Political Compass (Multilingual, 50 Countries)]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
+- *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

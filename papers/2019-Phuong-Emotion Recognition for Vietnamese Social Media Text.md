@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Emotion Recognition for Vietnamese Social Media Text"
 year: 2025
 first_author: "[[Ho Thanh Phuong]]"
-last_author: [[others]]
+last_author: "[[Nguyen Van Phu]]"
 authors: "Ho Thanh Phuong, Nguyen Van Phu, others"
 url: "https://arxiv.org/abs/1911.09339"
 external_pdf: "https://arxiv.org/pdf/1911.09339.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Ho Thanh Phuong, Nguyen Van Phu, others]]
+[[Ho Thanh Phuong]], [[Nguyen Van Phu]]
 
 ## Metadata
 

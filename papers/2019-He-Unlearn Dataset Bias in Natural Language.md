@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[He, He]]; [[Zha, Sheng]]; [[Wang, Haohan]]"
 url: "https://aclanthology.org/D19-6115/"
 external_pdf: "https://aclanthology.org/D19-6115.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ tags:
 abstract: "Statistical natural language inference (NLI) models are susceptible to learning dataset bias: superﬁcial cues that happen to associate with the label on a particular dataset, but are not useful in general, e.g., negation words indicate contradiction. As exposed by several recent challenge datasets, these models perform poorly when such association is absent, e.g., predicting that “I love dogs.” contradicts “I don’t love cats.”."
 pdf_extract: "PDF Extracts/2019/2019-He-Unlearn Dataset Bias in Natural Language.md"
 local_pdf: "[[PDFs/2019/2019-He-Unlearn Dataset Bias in Natural Language.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ local_pdf: "[[PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design a
 external_pdf: "https://arxiv.org/pdf/2508.19562.pdf"
 ethics_perspective: "Institutional Design / Political Philosophy"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -33,6 +35,7 @@ significance: "Demonstrates that institutional design—specifically constitutio
 **Publisher: "** arXiv"
 abstract: "This paper introduces Democracy-in-Silico, an agent-based simulation where societies of advanced AI agents, imbued with complex psychological personas [1, 2], govern themselves under different institutional frameworks. We explore what it means to be human in an age of AI by tasking Large Language Models (LLMs) to embody agents with traumatic memories, hidden agendas, and psychological triggers. These agents engage in deliberation, legislation, and elections under various stressors, such as..."
 paper_summary: "Abstract: This paper introduces Democracy-in-Silico, an agent-based simulation where soci- eties of advanced AI agents, imbued with complex psychological personas [1, 2], govern themselves under different insti | Overview: Democracy-in-Silico: Institutional Design as Alignment in AI-Governed Polities Trisanth Srinivasan Cyrion Labs trisanth@cyrionlabs.org Santosh Patapati Cyrion Labs santosh@cyrionlabs.org Abstract This | Conclusions: Our simulation provides a creative, critical, and empirical lens for examining what it means to be human in an era increasingly shaped by AI. Human–Ma"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

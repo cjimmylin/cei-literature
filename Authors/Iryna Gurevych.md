@@ -56,7 +56,10 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]]
+- [[2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models|Cultural Learning-Based Culture Adaptation of Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
+- *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

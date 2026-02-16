@@ -10,7 +10,7 @@ type: preprint
 short_title: AceGPT, Localizing Large Language Models in Arabic
 year: 2023
 first_author: "[[Huang Huang]]"
-last_author: "[[Jinchao Xu]]"
+last_author: "[[Jinchao Xu Haizhou Li]]"
 authors: Huang Huang, Fei Yu, Jianqing Zhu, Xuening Sun, Hao Cheng, Dingjie Song, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu
 doi: 10.48550/arXiv.2309.12053
 url: "https://arxiv.org/abs/2309.12053"
@@ -45,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Huang Huang, Fei Yu, Jianqing Zhu, Xuening Sun, Hao Cheng, Dingjie Song, Zhihong Chen, Abdulmohsen Alharthi, Bang An, Juncai He, Ziche Liu, Zhiyi Zhang, Junying Chen, Jianquan Li, Benyou Wang, Lian Zhang, Ruoyu Sun, Xiang Wan, Haizhou Li, Jinchao Xu]]
+[[Fei Yu Huang Huang]], [[Xiaoyuan Zhu|Xuening Sun Jianqing Zhu]], [[Dingjie Song Hao Cheng]], [[Abdulmohsen Alharthi Zhihong Chen]], [[Juncai He Bang An]], [[Zhiyi Zhang Ziche Liu]], [[Jianquan Li Junying Chen]], [[Lian Zhang Benyou Wang]], [[Xu Sun|Xiang Wan Ruoyu Sun]], [[Jinchao Xu Haizhou Li]]
 
 ## Metadata
 

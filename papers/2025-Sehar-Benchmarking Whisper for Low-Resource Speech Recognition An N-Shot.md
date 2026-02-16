@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "Benchmarking Whisper for Low-Resource Speech Recognition: An N-Shot Evaluation on Pashto, Punjabi, and Urdu"
 year: 2025
 first_author: "[[Najm Ul Sehar]]"
-last_author: "[[Sarmad Hussain]]"
+last_author: "[[Sarmad Hussain Farah Adeeba]]"
 authors: "Najm Ul Sehar, Ayesha Khalid, Farah Adeeba, Sarmad Hussain"
 url: "https://aclanthology.org/2025.chipsal-1.20/"
 external_pdf: "https://aclanthology.org/2025.chipsal-1.20.pdf"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Pakistani, Afghan, Indian"
 languages_list: "Pashto, Punjabi, Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Najm Ul Sehar, Ayesha Khalid, Farah Adeeba, Sarmad Hussain]]
+[[Ayesha Khalid Najm Ul Sehar]], [[Sarmad Hussain Farah Adeeba]]
 
 ## Metadata
 

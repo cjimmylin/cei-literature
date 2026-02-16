@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,9 +13,9 @@ type: preprint
 short_title: "Tackling Hate Speech in Low-resource Languages"
 year: 2025
 first_author: "[[Nkemelu, Daniel]]"
-last_author: "[[Nkemelu, Daniel]]"
-authors: "[[Nkemelu, Daniel]]"
-authors_incomplete: true
+last_author: "[[Best, Michael L]]"
+authors: "[[Nkemelu, Daniel]]; [[Shah, Harshil]]; [[Essa, Irfan]]; [[Best, Michael L.]]"
+authors_incomplete: false
 url: "https://dl.acm.org/doi/fullHtml/10.1145/3572334.3572372"
 external_pdf: "https://arxiv.org/pdf/2303.16828v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Burmese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Daniel Nkemelu et al]]
+[[Nkemelu, Daniel]], [[Shah, Harshil]], [[Essa, Irfan]], [[Best, Michael L]]
 
 ## Metadata
 
-**Authors:** Daniel Nkemelu et al.
+**Authors:** Nkemelu, Daniel; Shah, Harshil; Essa, Irfan; Best, Michael L.
 
 **Year:** 2022
 

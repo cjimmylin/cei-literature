@@ -32,7 +32,11 @@ Alicia's work centers on improving the quality and reliability of NLP evaluation
 
 ## Papers in this Vault
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
+- [[2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks|BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)]]
+- [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]]
 - [[2022-Parrish-BBQ|BBQ]] (First Author)
@@ -45,5 +49,9 @@ Alicia's work centers on improving the quality and reliability of NLP evaluation
 
 ## Notes
 
+
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 [Specializes in identifying 'linguistic artifacts' that skew AI performance results.]

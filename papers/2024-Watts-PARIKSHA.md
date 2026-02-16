@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "http://arxiv.org/abs/2406.15053"
 external_pdf: "http://arxiv.org/pdf/2406.15053.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Watts-PARIKSHA.md"
 abstract: "Evaluation of multilingual Large Language Models (LLMs) is challenging due to a variety of factors – the lack of benchmarks with sufficient linguistic diversity, contamination of popular benchmarks into LLM pre-training data and the lack of local, cultural nuances in translated benchmarks. In this work, we study human and LLM-based evaluation in a multilingual, multi-cultural setting. We evaluate"
 paper_summary: "Abstract: Evaluation of multilingual Large Language Models (LLMs) is challenging due to a vari- ety of factors – the lack of benchmarks with sufficient linguistic diversity, contamination of popular benchmarks  | Overview: PARIKSHA: Large-Scale Investigation of Human-LLM Evaluator Agreement on Multilingual and Multi-Cultural Data Ishaan Watts* Varun Gumma♠ Aditya Yadavalli♢ Vivek Seshadri♠♢ Manohar Swaminathan♠ Sunayana | Methodology: Our evaluation setup is summarized in Figure 1. | Key Findings: focus on English. Recent works have shown that LLMs perform worse on non-English languages, particularly those written in scripts other than the Latin | Conclusions: RQ1. Are Indic LLMs able to compete with Pro- prietary models in respective languages? From our evaluations, we find that smaller Indic models perform"
 local_pdf: [[PDFs/2024/2024-Watts-PARIKSHA.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

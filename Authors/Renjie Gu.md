@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Notes
 
 
+
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 [Additional context or contact information]

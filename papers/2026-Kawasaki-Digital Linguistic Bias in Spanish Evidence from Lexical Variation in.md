@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Digital Linguistic Bias in Spanish: Evidence from Lexical Variation in LLMs"
 year: 2025
 first_author: "[[Kawasaki, Yoshifumi]]"
-last_author: "[[Kawasaki, Yoshifumi]]"
+last_author: "[[Yoshifumi Kawasaki]]"
 authors: "[[Kawasaki, Yoshifumi]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.09346"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish, Latin American"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"

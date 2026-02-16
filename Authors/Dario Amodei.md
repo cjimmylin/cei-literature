@@ -34,6 +34,9 @@ Amodei's research centers on ensuring that advanced AI systems are safe, benefic
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 - [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
 - [[2022-Ganguli-Red Teaming Language Models to Reduce Harms|Red Teaming Language Models to Reduce Harms]]
@@ -43,5 +46,9 @@ Amodei's research centers on ensuring that advanced AI systems are safe, benefic
 ## Notes
 
 
+
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 Amodei is one of the most influential figures in AI safety. He co-founded Anthropic with his sister Daniela Amodei and other researchers from OpenAI to focus on AI safety research. Anthropic has developed Claude, a family of AI assistants designed with safety and helpfulness as core principles.

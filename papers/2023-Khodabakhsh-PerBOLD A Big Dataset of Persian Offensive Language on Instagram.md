@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: journalArticle
 short_title: "PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments"
 year: 2025
 first_author: [[Khodabakhsh]]
-last_author: [[Ghayoomi]]
+last_author: "[[Ghayoomi Rahimi]]"
 authors: "Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi"
 url: "https://tjee.tabrizu.ac.ir/article_15794.html"
 publication: "Tabriz Journal of Electrical Engineering"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi]]
+[[Jafarinejad Khodabakhsh]], [[Ghayoomi Rahimi]]
 
 ## Metadata
 

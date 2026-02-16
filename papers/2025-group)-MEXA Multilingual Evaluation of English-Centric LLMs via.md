@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,10 +9,10 @@ key: LSRC0454
 type: preprint
 short_title: "MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Kargaran, Amir Hossein]]"
+last_author: "[[Schütze, Hinrich]]"
+authors: "[[Kargaran, Amir Hossein]]; [[Modarressi, Ali]]; [[Nikeghbal, Nafiseh]]; [[Diesner, Jana]]; [[Yvon, François]]; [[Schütze, Hinrich]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.05873"
 external_pdf: "https://arxiv.org/pdf/2410.05873.pdf"
 publication: "arXiv / ACL Anthology"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: "Multiple including French"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
@@ -43,11 +45,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Unknown (CIS NLP group)]]
+[[Kargaran, Amir Hossein]], [[Modarressi, Ali]], [[Nikeghbal, Nafiseh]], [[Diesner, Jana]], [[Yvon, François]], [[Hinrich Schütze|Schütze, Hinrich]]
 
 ## Metadata
 
-**Authors:** Unknown (CIS NLP group) (CIS NLP group)
+**Authors:** Kargaran, Amir Hossein; Modarressi, Ali; Nikeghbal, Nafiseh; Diesner, Jana; Yvon, François; Schütze, Hinrich
 
 **Year:** 2025
 

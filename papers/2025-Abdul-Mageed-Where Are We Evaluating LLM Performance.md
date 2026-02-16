@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "Where Are We Evaluating LLM Performance"
 year: 2025
 first_author: "[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]"
-last_author: "[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]"
+last_author: "[[Muhammad Abdul-Mageed]]"
 authors: "[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.19582"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Ife Adebara, Hawau Olamide Toyin, Nahom Tesfu Ghebremichael, AbdelRahim Elmadany, Muhammad Abdul-Mageed]]
+[[Ife Adebara]], [[Hawau Toyin|Hawau Olamide Toyin]], [[Nahom Tesfu Ghebremichael]], [[Abdelrahim A. Elmadany|AbdelRahim Elmadany]], [[Muhammad Abdul-Mageed]]
 
 ## Metadata
 

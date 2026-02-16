@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "[[Aditya, Shivam]]"
 doi: 10.5281/zenodo.XXXXX
 url: "https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-human-values-and"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -22,6 +25,7 @@ newtags: "Value Pluralism / Schwartz, Virtue Ethics, Utilitarianism"
 key_contribution: "Advocates for Virtue Ethics as a complement to deontological and utilitarian frameworks for AI alignment to address global governance challenges"
 significance: "Addresses the gap in global ethical frameworks by emphasizing human welfare and flourishing through character-based AI alignment"
 abstract: "This article examines the critical challenge of establishing ethical governance frameworks for artificial intelligence systems as they increasingly influence decision-making across social, economic, and political domains. The article analyzes the multidimensional nature of AI alignment, exploring both technical dimensions—including explainability challenges, value alignment algorithms, and safety mechanisms—and sociocultural dimensions encompassing cultural variations in ethical priorities and..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

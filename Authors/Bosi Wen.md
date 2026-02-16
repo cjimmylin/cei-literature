@@ -46,6 +46,8 @@ Wen is a lead author of the "CritiqueLLM" and "Complex Instruction-Following" be
 
 ## Papers in this Vault
 
+
+
 - [[2024-Chen-ToMBench|ToMBench]]
 - [[2023-Liu-AlignBench|AlignBench]]
 
@@ -57,5 +59,9 @@ Wen is a lead author of the "CritiqueLLM" and "Complex Instruction-Following" be
 
 ## Notes
 
+
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 Their research on "CritiqueLLM" provides a scalable path for human-aligned feedback, reducing the reliance on manual human scoring for every model iteration.

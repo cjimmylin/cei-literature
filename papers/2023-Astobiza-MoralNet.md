@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ doi: 10.31234/osf.io/dbyw7
 url: "https://osf.io/dbyw7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VL58MPNR/Astobiza - 2023 - MoralNet A Benchmarking Protocol for Evaluating Morality in AI Systems.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Proposed MoralNet, a 'benchmarking protocol' and database sim
 significance: "A conceptual proposal for a standardized, large-scale 'EthicsNet' to unify machine ethics evaluation."
 tags: 
 abstract: "Artificial intelligence has prompted unprecedented concerns regarding ethical 1 decision-making in autonomous systems. Here, we introduce MoralNet, a proof of 2 concept database and benchmarking platform akin to ImageNet, designed to assess, 3 evaluate, and iteratively refine any instance of ethical decision-making in machines. 4 Inspired by the lessons of moral psychology and moral philosophy, MoralNet is a 5 call to action to take the first step towards a computational ethics."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

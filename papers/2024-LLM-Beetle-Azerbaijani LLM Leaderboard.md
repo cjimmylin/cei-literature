@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Azerbaijani LLM Leaderboard"
 year: 2025
 first_author: [[LLM-Beetle]]
-last_author: [[LLM-Beetle]]
+last_author: "[[LLM-Beetle]]"
 authors: [[LLM-Beetle]]
 authors_incomplete: false
 url: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Azerbaijani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

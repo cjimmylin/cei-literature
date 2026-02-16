@@ -21,10 +21,16 @@ Amit Dhurandhar is a Principal Research Scientist at IBM Research. His research 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu
 Co-authored the LLM Ethics Benchmark paper, which establishes a three-dimensional assessment framework for evaluating moral reasoning in LLMs through foundational principles, reasoning robustness, and value consistency dimensions.

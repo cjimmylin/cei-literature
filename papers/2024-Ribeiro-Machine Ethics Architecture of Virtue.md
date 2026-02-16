@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -14,6 +16,7 @@ url: "https://link.springer.com/chapter/10.1007/978-3-031-48855-9_29"
 pdf_extract: 
 local_pdf: N/A
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -22,6 +25,7 @@ key_contribution: "Presents Virtue Ethics as optimal framework for robot moral b
 significance: "Conference paper bridging virtue ethics theory with practical robotics implementation"
 external_pdf: N/A
 abstract: "This paper presents Virtue Ethics as a better option for implementing moral behavior on robots, based on advances in robotics including neural networks, machine learning, and robots with cognitive abilities. The authors argue that virtue ethics provides a suitable framework for machine ethics given modern AI capabilities."
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

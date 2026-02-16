@@ -21,11 +21,17 @@ Aditya Deshpande is a researcher affiliated with Symbiosis Institute of Technolo
 ## Papers in this Vault
 
 
+
+
 - [[2025-Chaudhari-RLHF Deciphered|RLHF Deciphered]]
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## Notes
 
 
+
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 Collaborates with the team at Symbiosis International University led by Ketan Kotecha on multimodal AI research. The paper in this vault was published in Scientific Reports (Nature).

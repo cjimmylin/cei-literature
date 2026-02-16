@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized|Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity]] (First Author)]]
 
-- [[2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized|Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity]] (First Author)
+
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 

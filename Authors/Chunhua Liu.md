@@ -30,6 +30,8 @@ Dr. Chunhua Liu completed her PhD in 2024, focusing on leveraging human word ass
 
 ## Papers in this Vault
 
+
+
 - [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western]]
 
 ## External Links & Profiles
@@ -39,5 +41,9 @@ Dr. Chunhua Liu completed her PhD in 2024, focusing on leveraging human word ass
 
 ## Notes
 
+
+
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 Directly relevant to AI ethics research, particularly on cross-cultural AI alignment. Her work on comparing moral values between human populations and LLMs provides methodological innovations for understanding what values AI systems encode. The use of word associations as an alternative to direct prompting offers more robust assessment of moral reasoning in LLMs.

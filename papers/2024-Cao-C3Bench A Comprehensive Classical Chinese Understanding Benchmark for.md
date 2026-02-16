@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Jiahuan Cao]], [[Yongxin Shi]], [[Dezhi Peng]], [[Yang Liu]], [[Lianwen Jin]]
+[[Cao, Jiahuan]], [[Shi, Yongxin]], [[Peng, Dezhi]], [[Yang Liu|Liu, Yang]], [[Jin, Lianwen]]
 
 ## Metadata
 

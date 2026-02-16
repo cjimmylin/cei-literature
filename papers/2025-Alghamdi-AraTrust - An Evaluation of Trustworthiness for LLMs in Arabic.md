@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ DATA_URL: "https://huggingface.co/datasets/asas-ai/AraTrust"
 
 ## Authors
 
-[[Alghamdi, Emad A.]], [[Masoud, Reem I.]], [[Alnuhait, Deema]], [[Alomairi, Afnan Y.]], [[Ashraf, Ahmed]], [[Zaytoon, Mohamed]]
+[[Alghamdi, Emad A]], [[Masoud, Reem I]], [[Alnuhait, Deema]], [[Alomairi, Afnan Y]], [[Ashraf, Ahmed]], [[Zaytoon, Mohamed]]
 
 ## Metadata
 

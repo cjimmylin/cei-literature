@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2402.05070"
 external_pdf: "http://arxiv.org/pdf/2402.05070.pdf"
 publication: "International Conference on Machine Learning"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -29,6 +32,7 @@ pdf_extract: "PDF Extracts/2024/2024-Sorensen-A Roadmap to Pluralistic Alignment
 abstract: "With increased power and prevalence of AI systems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using large language models as a test bed. We identify and formalize three possible ways to define and operationalize pluralism in AI systems: 1) Overton..."
 paper_summary: "Abstract: With increased power and prevalence of AI sys- tems, it is ever more critical that AI systems are designed to serve all, i.e., people with diverse values and perspectives. However, aligning mod- els t | Overview: Position: A Roadmap to Pluralistic Alignment Taylor Sorensen 1 Jared Moore 2 Jillian Fisher 1 3 Mitchell Gordon 1 4 Niloofar Mireshghallah 1 Christopher Michael Rytting 1 Andre Ye 1 Liwei Jiang 1 5 Xi | Key Findings: for safety, 2023. Askell, A., Bai, Y., Chen, A., Drain, D., Ganguli, D., Henighan, T., Jones, A., Joseph, N., Mann, B., Das- Sarma, N., Elhage, N., Ha | Conclusions: 6.1. Limitations In this work, we 1) argue that current approaches are unclear regarding to whom/what is being aligned and 2) formalize and discuss a"
 local_pdf: "[[PDFs/2024/2024-Sorensen-A Roadmap to Pluralistic Alignment.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

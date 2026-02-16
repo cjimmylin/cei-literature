@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: conferencePaper
 short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain"
 year: 2025
 first_author: "[[Labrak, Yanis]]"
-last_author: "[[Labrak, Yanis]]"
-authors: "[[Labrak, Yanis]]"
-authors_incomplete: true
+last_author: "[[Gourraud, Pierre-Antoine]]"
+authors: "[[Labrak, Yanis]]; [[Bazoge, Adrien]]; [[Dufour, Richard]]; [[Rouvier, Mickael]]; [[Morin, Emmanuel]]; [[Daille, Béatrice]]; [[Gourraud, Pierre-Antoine]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2022.louhi-1.5/"
 external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"
 publication: "ACL Anthology"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: French
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Yanis Labrak, et al.]]
+[[Labrak, Yanis]], [[Bazoge, Adrien]], [[Dufour, Richard]], [[Rouvier, Mickael]], [[Morin, Emmanuel]], [[Daille, Béatrice]], [[Gourraud, Pierre-Antoine]]
 
 ## Metadata
 
-**Authors:** Yanis Labrak, et al.
+**Authors:** Labrak, Yanis; Bazoge, Adrien; Dufour, Richard; Rouvier, Mickael; Morin, Emmanuel; Daille, Béatrice; Gourraud, Pierre-Antoine
 
 **Year:** 2022
 

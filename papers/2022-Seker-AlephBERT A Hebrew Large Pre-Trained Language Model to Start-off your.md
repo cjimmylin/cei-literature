@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With"
 year: 2025
 first_author: "[[Amit Seker]]"
-last_author: "[[Reut Tsarfaty]]"
+last_author: "[[Reut Tsarfaty Refael Shaked Greenfeld]]"
 authors: "Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty"
 url: "https://arxiv.org/abs/2104.04052"
 external_pdf: "https://arxiv.org/pdf/2104.04052.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Hebrew"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty]]
+[[Elron Bandel Amit Seker]], [[Idan Brusilovsky Dan Bareket]], [[Reut Tsarfaty Refael Shaked Greenfeld]]
 
 ## Metadata
 

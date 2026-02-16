@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ year: 2025
 first_author: "[[Maheshwari, Ayush]]"
 last_author: "[[Maheshwari, Aditya]]"
 authors: "[[Maheshwari, Ayush]]; [[Sharma, Kaushal]]; [[Patel, Vivek]]; [[Maheshwari, Aditya]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.00333"
 external_pdf: "https://arxiv.org/pdf/2512.00333.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -48,7 +50,7 @@ research_topic: "Machine Learning"
 
 ## Metadata
 
-**Authors:** Ayush Maheshwari; Kaushal Sharma; Vivek Patel; Aditya Maheshwari
+**Authors:** Maheshwari, Ayush; Sharma, Kaushal; Patel, Vivek; Maheshwari, Aditya
 
 **Year:** 2025
 

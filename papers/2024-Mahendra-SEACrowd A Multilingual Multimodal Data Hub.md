@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "SEACrowd A Multilingual Multimodal Data Hub"
 year: 2025
 first_author: "[[Lovenia, Holy]]"
-last_author: "[[Lovenia, Holy]]"
-authors: "[[Lovenia, Holy]]"
-authors_incomplete: true
+last_author: "[[Cahyawijaya, Samuel]]"
+authors: "[[Lovenia, Holy]]; [[Mahendra, Rahmad]]; [[Akbar, Salsabil Maulana]]; [[Miranda, Lester James V.]]; [[Santoso, Jennifer]]; [[Aco, Elyanah]]; [[Fadhilah, Akhdan]]; [[Mansurov, Jonibek]]; [[Imperial, Joseph Marvin]]; [[Kampman, Onno P.]]; [[Moniz, Joel Ruben Antony]]; [[Habibi, Muhammad Ravi Shulthan]]; [[Hudi, Frederikus]]; [[Montalan, Railey]]; [[Ignatius, Ryan]]; [[Lopo, Joanito Agili]]; [[Nixon, William]]; [[Karlsson, Börje F.]]; [[Jaya, James]]; [[Diandaru, Ryandito]]; [[Gao, Yuze]]; [[Amadeus, Patrick]]; [[Wang, Bin]]; [[Cruz, Jan Christian Blaise]]; [[Whitehouse, Chenxi]]; [[Parmonangan, Ivan Halim]]; [[Khelli, Maria]]; [[Zhang, Wenyu]]; [[Susanto, Lucky]]; [[Ryanda, Reynard Adha]]; [[Hermawan, Sonny Lazuardi]]; [[Velasco, Dan John]]; [[Kautsar, Muhammad Dehan Al]]; [[Hendria, Willy Fitra]]; [[Moslem, Yasmin]]; [[Flynn, Noah]]; [[Adilazuarda, Muhammad Farid]]; [[Li, Haochen]]; [[Lee, Johanes]]; [[Damanhuri, R.]]; [[Sun, Shuo]]; [[Qorib, Muhammad Reza]]; [[Djanibekov, Amirbek]]; [[Leong, Wei Qi]]; [[Do, Quyet V.]]; [[Muennighoff, Niklas]]; [[Pansuwan, Tanrada]]; [[Putra, Ilham Firdausi]]; [[Xu, Yan]]; [[Tai, Ngee Chia]]; [[Purwarianti, Ayu]]; [[Ruder, Sebastian]]; [[Tjhi, William]]; [[Limkonchotiwat, Peerat]]; [[Aji, Alham Fikri]]; [[Keh, Sedrick]]; [[Winata, Genta Indra]]; [[Zhang, Ruochen]]; [[Koto, Fajri]]; [[Yong, Zheng-Xin]]; [[Cahyawijaya, Samuel]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.10118"
 external_pdf: "https://arxiv.org/pdf/2406.10118.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Southeast Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[Holy Lovenia, Rahmad Mahendra et al]]
+[[Lovenia, Holy]], [[Mahendra, Rahmad]], [[Akbar, Salsabil Maulana]], [[Miranda, Lester James V]], [[Santoso, Jennifer]], [[Aco, Elyanah]], [[Fadhilah, Akhdan]], [[Jonibek Mansurov|Mansurov, Jonibek]], [[Joseph Marvin Imperial|Imperial, Joseph Marvin]], [[Kampman, Onno P]], [[Moniz, Joel Ruben Antony]], [[Habibi, Muhammad Ravi Shulthan]], [[Hudi, Frederikus]], [[Montalan, Railey]], [[Ignatius, Ryan]], [[Lopo, Joanito Agili]], [[Nixon, William]], [[Karlsson, Börje F]], [[Jaya, James]], [[Diandaru, Ryandito]], [[Gao, Yuze]], [[Amadeus, Patrick]], [[Bin Wang|Wang, Bin]], [[Cruz, Jan Christian Blaise]], [[Whitehouse, Chenxi]], [[Parmonangan, Ivan Halim]], [[Khelli, Maria]], [[Zhang, Wenyu]], [[Susanto, Lucky]], [[Ryanda, Reynard Adha]], [[Hermawan, Sonny Lazuardi]], [[Velasco, Dan John]], [[Kautsar, Muhammad Dehan Al]], [[Hendria, Willy Fitra]], [[Moslem, Yasmin]], [[Flynn, Noah]], [[Muhammad Farid Adilazuarda|Adilazuarda, Muhammad Farid]], [[Li, Haochen]], [[Lee, Johanes]], [[Damanhuri, R]], [[Sun, Shuo]], [[Qorib, Muhammad Reza]], [[Amirbek Djanibekov|Djanibekov, Amirbek]], [[Leong, Wei Qi]], [[Do, Quyet V]], [[Muennighoff, Niklas]], [[Pansuwan, Tanrada]], [[Putra, Ilham Firdausi]], [[Yan Xu|Xu, Yan]], [[Tai, Ngee Chia]], [[Ayu Purwarianti|Purwarianti, Ayu]], [[Sebastian Ruder|Ruder, Sebastian]], [[Tjhi, William]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Keh, Sedrick]], [[Genta Indra Winata|Winata, Genta Indra]], [[Zhang, Ruochen]], [[Koto, Fajri]], [[Yong, Zheng-Xin]], [[Samuel Cahyawijaya|Cahyawijaya, Samuel]]
 
 ## Metadata
 
-**Authors:** Holy Lovenia, Rahmad Mahendra et al.
+**Authors:** Lovenia, Holy; Mahendra, Rahmad; Akbar, Salsabil Maulana; Miranda, Lester James V.; Santoso, Jennifer; Aco, Elyanah; Fadhilah, Akhdan; Mansurov, Jonibek; Imperial, Joseph Marvin; Kampman, Onno P.; Moniz, Joel Ruben Antony; Habibi, Muhammad Ravi Shulthan; Hudi, Frederikus; Montalan, Railey; Ignatius, Ryan; Lopo, Joanito Agili; Nixon, William; Karlsson, Börje F.; Jaya, James; Diandaru, Ryandito; Gao, Yuze; Amadeus, Patrick; Wang, Bin; Cruz, Jan Christian Blaise; Whitehouse, Chenxi; Parmonangan, Ivan Halim; Khelli, Maria; Zhang, Wenyu; Susanto, Lucky; Ryanda, Reynard Adha; Hermawan, Sonny Lazuardi; Velasco, Dan John; Kautsar, Muhammad Dehan Al; Hendria, Willy Fitra; Moslem, Yasmin; Flynn, Noah; Adilazuarda, Muhammad Farid; Li, Haochen; Lee, Johanes; Damanhuri, R.; Sun, Shuo; Qorib, Muhammad Reza; Djanibekov, Amirbek; Leong, Wei Qi; Do, Quyet V.; Muennighoff, Niklas; Pansuwan, Tanrada; Putra, Ilham Firdausi; Xu, Yan; Tai, Ngee Chia; Purwarianti, Ayu; Ruder, Sebastian; Tjhi, William; Limkonchotiwat, Peerat; Aji, Alham Fikri; Keh, Sedrick; Winata, Genta Indra; Zhang, Ruochen; Koto, Fajri; Yong, Zheng-Xin; Cahyawijaya, Samuel
 
 **Year:** 2024
 

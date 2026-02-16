@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: preprint
 short_title: "Quran-MD A Fine-Grained Multilingual Multimodal Dataset"
 year: 2025
 first_author: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
-last_author: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
+last_author: "[[Mohammed Talha Alam]]"
 authors: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17880"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic, Islamic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -46,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]
+[[Muhammad Umar Salman]], [[Mohammad Areeb Qazi]], [[Mohammed Talha Alam]]
 
 ## Metadata
 

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
+- *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
 - *From 2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models*: Affiliation: University of Wisconsin–Madison, Email: zjf23@mails.tsinghua.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

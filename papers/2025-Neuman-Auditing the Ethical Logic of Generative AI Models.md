@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "W. Russell Neuman; Chad Coleman; Ali Dasdan; Safinah Ali; Manan Shah"
 url: "https://arxiv.org/abs/2504.17544"
 external_pdf: "https://arxiv.org/pdf/2504.17544.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2025/2025-Neuman-Auditing the Ethical Logic of Genera
 abstract: "As generative AI models become increasingly integrated into high-stakes domains, the need for robust methods to evaluate their ethical reasoning becomes increasingly important. This paper introduces a five-dimensional audit model—assessing Analytic Quality, Breadth of Ethical Considerations, Depth of Explanation, Consistency, and Decisiveness—to evaluate the ethical logic of leading large language models (LLMs)."
 paper_summary: "Abstract: As generative AI models become increasingly integrated into high-stakes domains, the need for robust methods to evaluate their ethical reasoning becomes increasingly important. This paper introduces a | Overview: Auditing the Ethical Logic of Generative AI Models W. Russell Neuman Chad Coleman Ali Dasdan New York University New York University DropBox wrn210@nyu.edu cjc652@nyu.edu alidasdan@gmail.com Safinah A | Conclusions: The assessment of ethical logic differs from traditional benchmark tests and leaderboards which assess LLM logical capacities. The traditional assessm"
 local_pdf: "[[PDFs/2025/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

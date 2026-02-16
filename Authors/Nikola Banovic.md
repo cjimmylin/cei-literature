@@ -56,7 +56,9 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for|\'Do Your Guardrails Even Guard?\' Evaluating Moderation Guardrails for LLM Alignment]] (Last Author)
+
+
+- [[2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for|\]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for*: Affiliation: University of Michigan, Ann Arbor, Email: nbanovic@umich.edu
+- *From 2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for*: Affiliation: University of Michigan, Ann Arbor, Email: adantar@umich.edu
 - *From 2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for*: Affiliation: University of Michigan, Ann Arbor, Email: nbanovic@umich.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

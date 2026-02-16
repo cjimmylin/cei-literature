@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Mo
 local_pdf: "[[PDFs/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.pdf]]"
 publication: "Artificial Intelligence"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ key_contribution: "Replicates 8 psychology studies with 4 LLMs; finds GPT-4 lead
 significance: "First systematic application of experimental psychology methods to probe LLM moral and legal reasoning"
 tags: 
 abstract: "Large language models (LLMs) exhibit expert-level performance in tasks across a wide range of different domains. Ethical issues raised by LLMs and the need to align future versions makes it important to know how state of the art models reason about moral and legal issues. In this paper, we employ the methods of experimental psychology to probe into this question. We replicate eight studies from the experimental literature with instances of Google's Gemini Pro, Anthropic's Claude 2."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

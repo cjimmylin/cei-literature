@@ -26,6 +26,8 @@ Christina Merrifield is a researcher in the Department of Psychology at the Univ
 
 ## Papers in this Vault
 
+
+
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 
 ## External Links & Profiles
@@ -33,5 +35,9 @@ Christina Merrifield is a researcher in the Department of Psychology at the Univ
 
 ## Notes
 
+
+
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 - *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 Her work on the Moral Foundations Reddit Corpus is directly relevant to AI ethics research, providing valuable training and evaluation data for computational models that detect moral sentiment in text. This corpus helps researchers understand how AI systems can be designed to recognize and respond appropriately to moral content.

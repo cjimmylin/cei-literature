@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Mijntje Meijer, Hadi Mohammadi, Ayoub Bagheri]]
+[[Mijntje Meijer]], [[Hadi Mohammadi]], [[Ayoub Bagheri]]
 
 ## Metadata
 

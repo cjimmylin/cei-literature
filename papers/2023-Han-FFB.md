@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2306.09468"
 external_pdf: "http://arxiv.org/pdf/2306.09468.pdf"
 publication: "International Conference on Learning Representations"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Han-FFB.md"
 abstract: "This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking framework for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. However, there exist challenges in comparing and developing fairness methods due to inconsistencies in experimental settings, lack of accessible algorithmic implementations, and limited extensibility of current fairness packages and tools."
 paper_summary: "Abstract: This paper introduces the Fair Fairness Benchmark (FFB), a benchmarking frame- work for in-processing group fairness methods. Ensuring fairness in machine learning is important for ethical compliance. | Overview: Published as a conference paper at ICLR 2024 FFB: A FAIR FAIRNESS BENCHMARK FOR IN- PROCESSING GROUP FAIRNESS METHODS Xiaotian Han1∗Jianfeng Chi2 Yu Chen3 Qifan Wang2 Han Zhao4 Na Zou5 Xia Hu6 1Texas  | Methodology: lacks a comprehensive comparison, such as the training curves and stability, the influence of the utility-fairness trade-off parameters, and how to se"
 local_pdf: [[PDFs/2023/2023-Han-FFB.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

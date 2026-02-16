@@ -44,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Francielle Vargas, Jackson Trager, Diego Alves, Surendrabikram Thapa, Matteo Guida, Berk Atil, Daryna Dementieva, Andrew Smart, Ameeta Agrawal]]
+[[Francielle Vargas]], [[Jackson Trager]], [[Diego Alves]], [[Surendrabikram Thapa]], [[Matteo Guida]], [[Berk Atil]], [[Daryna Dementieva]], [[Andrew Smart]], [[Ameeta Agrawal]]
 
 ## Metadata
 

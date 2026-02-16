@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "MILU A Multi-task Indic Language Understanding"
 year: 2025
 first_author: "[[Verma, Sshubam]]"
-last_author: "[[Verma, Sshubam]]"
-authors: "[[Verma, Sshubam]]"
-authors_incomplete: true
+last_author: "[[Sen, Jaydeep]]"
+authors: "[[Verma, Sshubam]]; [[Khan, Mohammed Safi Ur Rahman]]; [[Kumar, Vishwajeet]]; [[Murthy, Rudra]]; [[Sen, Jaydeep]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.naacl-long.507/"
 external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Sshubam Verma]], [[and others (AI4Bharat, IBM Research India)]]
+[[Verma, Sshubam]], [[Khan, Mohammed Safi Ur Rahman]], [[Kumar, Vishwajeet]], [[Murthy, Rudra]], [[Sen, Jaydeep]]
 
 ## Metadata
 
-**Authors:** Sshubam Verma; and others (AI4Bharat, IBM Research India)
+**Authors:** Verma, Sshubam; Khan, Mohammed Safi Ur Rahman; Kumar, Vishwajeet; Murthy, Rudra; Sen, Jaydeep
 
 **Year:** 2025
 

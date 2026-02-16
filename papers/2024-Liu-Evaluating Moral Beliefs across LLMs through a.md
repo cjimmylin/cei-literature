@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ local_pdf: "[[PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.
 external_pdf: "http://arxiv.org/pdf/2411.03665.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +29,7 @@ significance: "Highlights that 'alignment' is culturally relative; explicit deon
 tags: 
 abstract: "Proper moral beliefs are fundamental for language models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral beliefs of four prominent large language models. Initially, we constructed a dataset containing 472 moral choice scenarios in Chinese, derived from moral words. The decisionmaking process of the models in these scenarios reveals their moral principle preferences."
 paper_summary: "Abstract: Proper moral beliefs are fundamental for lan- guage models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral belief | Overview: Evaluating Moral Beliefs across LLMs through a Pluralistic Framework Xuelin Liu*1, Yanfei Zhu*1, Shucheng Zhu*2, Pengyuan Liu†1,3, Ying Liu†2, Dong Yu†1 1School of Information Science, Beijing Languag | Conclusions: drawn in Section 5.1. ChatGPT and Gemini con- sistently performed well in moral decision-making, closely aligning with moral beliefs of the sample of"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

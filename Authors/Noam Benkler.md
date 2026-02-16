@@ -19,10 +19,16 @@ Noam Benkler is a researcher at Smart Information Flow Technologies (SIFT) in Wi
 ## Papers in this Vault
 
 
+
+
 - [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: andrewsmart@google.com
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: dmosaphir@sift.net
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: sfriedman@sift.net
 [Additional context or contact information]

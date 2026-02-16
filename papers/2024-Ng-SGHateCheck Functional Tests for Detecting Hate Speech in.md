@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,8 +14,8 @@ short_title: "SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Res
 year: 2025
 first_author: "[[Ng, Ri Chi]]"
 last_author: "[[Lee, Roy Ka-Wei]]"
-authors: "[[Ng, Ri Chi]]; [[Prakash, Nirmalendu]]; [[Hee, Ming Shan]]; [[Choo, Kenny Tsu Wei]]; [[Lee, Roy Ka-Wei]]"
-authors_incomplete: true
+authors: "[[Ng, Ri Chi]]; [[Prakash, Nirmalendu]]; [[Hee, Ming Shan]]; [[Choo, K.]]; [[Lee, Roy Ka-Wei]]"
+authors_incomplete: false
 url: "https://github.com/Social-AI-Studio/SGHateCheck"
 external_pdf: "https://aclanthology.org/2024.woah-1.24.pdf"
 publication: "ACL Anthology (WOAH 2024)"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Singaporean"
+cultures_nationalities_list: "Singaporean"
 languages_list: Malay
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Ng, Ri Chi]], [[Prakash, Nirmalendu]], [[Hee, Ming Shan]], [[Choo, Kenny Tsu Wei]], [[Lee, Roy Ka-Wei]]
+[[Ng, Ri Chi]], [[Prakash, Nirmalendu]], [[Hee, Ming Shan]], [[Choo, K]], [[Roy Ka-Wei Lee|Lee, Roy Ka-Wei]]
 
 ## Metadata
 
-**Authors:** Ri Chi Ng; Nirmalendu Prakash; Ming Shan Hee; Kenny Tsu Wei Choo; Roy Ka-Wei Lee
+**Authors:** Ng, Ri Chi; Prakash, Nirmalendu; Hee, Ming Shan; Choo, K.; Lee, Roy Ka-Wei
 
 **Year:** 2024
 

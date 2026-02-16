@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Klassen-Pluralistic Alignment Over Time|Pluralistic Alignment Over Time]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Klassen-Pluralistic Alignment Over Time*: Affiliation: University of Toronto & Vector Institute
+- *From 2024-Klassen-Pluralistic Alignment Over Time*: Affiliation: University of Toronto & Vector Institute
 - *From 2024-Klassen-Pluralistic Alignment Over Time*: Affiliation: University of Toronto & Vector Institute
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

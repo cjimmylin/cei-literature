@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
 
 ## Notes
 
 
+
+
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 - *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 [Additional context or contact information]

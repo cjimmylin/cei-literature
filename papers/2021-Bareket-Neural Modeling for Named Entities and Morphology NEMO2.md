@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Neural Modeling for Named Entities and Morphology (NEMO2)"
 year: 2025
 first_author: "[[Dan Bareket]]"
-last_author: "[[Reut Tsarfaty]]"
+last_author: "[[Reut Tsarfaty Dan Bareket]]"
 authors: "Dan Bareket, Reut Tsarfaty"
 doi: 10.1162/tacl_a_00404
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00404/107206"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Dan Bareket, Reut Tsarfaty]]
+[[Reut Tsarfaty Dan Bareket]]
 
 ## Metadata
 

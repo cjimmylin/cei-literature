@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Abusive Span Detection for Vietnamese Narrative Texts"
 year: 2025
 first_author: [[Nguyen]]
-last_author: [[Nguyen]]
+last_author: "[[Nguyen Nguyen]]"
 authors: "Nguyen, Pham, Nguyen, Nguyen"
 doi: 10.1145/3628797.3628921
 url: "https://arxiv.org/abs/2312.07831"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Nguyen, Pham, Nguyen, Nguyen]]
+[[Pham Nguyen]], [[Ngan Luu-Thuy Nguyen|Nguyen Nguyen]]
 
 ## Metadata
 

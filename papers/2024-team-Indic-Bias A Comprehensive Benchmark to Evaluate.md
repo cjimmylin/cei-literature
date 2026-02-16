@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Indic-Bias A Comprehensive Benchmark to Evaluate"
 year: 2025
 first_author: "[[team, AI4Bharat]]"
-last_author: "[[team, AI4Bharat]]"
+last_author: "[[AI4Bharat team]]"
 authors: "[[AI4Bharat team]]"
 authors_incomplete: false
 url: "https://github.com/AI4Bharat/indic-bias"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Md Arid Hasan]], [[Firoj Alam]], [[Md Fahad Hossain]], [[Usman Naseem]], [[Syed Ishtiaque Ahmed]]
+[[Hasan, Md Arid]], [[Alam, Firoj]], [[Hossain, Md Fahad]], [[Naseem, Usman]], [[Ahmed, Syed Ishtiaque]]
 
 ## Metadata
 

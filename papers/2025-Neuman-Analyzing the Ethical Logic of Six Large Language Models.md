@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +22,7 @@ local_pdf: "[[PDFs/2025/2025-Neuman-Analyzing the Ethical Logic of Six Large Lan
 external_pdf: "https://arxiv.org/pdf/2501.08951.pdf"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
@@ -28,6 +31,7 @@ key_contribution: "Analyzes ethical logic of 6 LLMs using explainability prompts
 significance: "Finds a 'rationalist, consequentialist emphasis' across models, with uniform claims of sophistication exceeding human moral logic"
 abstract: "This study examines the ethical reasoning of six prominent generative large language models: OpenAI’s GPT-4o, Meta’s LLaMA 3.1, Perplexity, Anthropic’s Claude 3.5 Sonnet, Google’s Gemini, and Mistral 7B. The research explores how these models articulate and apply ethical logic, particularly in response to moral dilemmas such as the Trolley Problem, and Heinz Dilemma. Departing from traditional alignment studies, the study adopts an explainability-transparency framework, prompting models to..."
 paper_summary: "Abstract: This study examines the ethical reasoning of six prominent generative large language models: OpenAI's GPT-4o, Meta's LLaMA 3.1, Perplexity, Anthropic's Claude 3.5 Sonnet, Google's Gemini, and Mistral  | Overview: Analyzing the Ethical Logic of Six Large Language Models W. Russell Neuman Chad Coleman Manan Shah New York University New York University New York University wrn210@nyu.edu cjc652@nyu.edu ms15037@nyu | Methodology: is analyzed through three established ethical typologies: the consequentialist- deontological analytic, Moral Foundations Theory, and Kohlberg's Stage"
+DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

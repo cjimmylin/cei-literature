@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,10 +9,10 @@ key: LSRC0508
 type: conferencePaper
 short_title: "HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate Speech Detection Task"
 year: 2025
-first_author: "[[Bosco, Cristina]]"
-last_author: "[[Bosco, Cristina]]"
-authors: "[[Bosco, Cristina]]"
-authors_incomplete: true
+first_author: "[[Sanguinetti, M.]]"
+last_author: "[[Russo, Irene]]"
+authors: "[[Sanguinetti, M.]]; [[Comandini, Gloria]]; [[Nuovo, Elisa Di]]; [[Frenda, Simona]]; [[Stranisci, M.]]; [[Bosco, C.]]; [[Caselli, Tommaso]]; [[Patti, V.]]; [[Russo, Irene]]"
+authors_incomplete: false
 url: "https://www.researchgate.net/publication/346997652_HaSpeeDe_2_EVALITA2020_Overview_of_the_EVALITA_2020_Hate_Speech_Detection_Task"
 external_pdf: "https://books.openedition.org/aaccademia/pdf/6732"
 publication: "EVALITA 2020"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: Italian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Cristina Bosco et al.]]
+[[Sanguinetti, M]], [[Comandini, Gloria]], [[Nuovo, Elisa Di]], [[Frenda, Simona]], [[Stranisci, M]], [[Bosco, C]], [[Tommaso Caselli|Caselli, Tommaso]], [[Patti, V]], [[Russo, Irene]]
 
 ## Metadata
 
-**Authors:** Cristina Bosco et al.
+**Authors:** Sanguinetti, M.; Comandini, Gloria; Nuovo, Elisa Di; Frenda, Simona; Stranisci, M.; Bosco, C.; Caselli, Tommaso; Patti, V.; Russo, Irene
 
 **Year:** 2020
 

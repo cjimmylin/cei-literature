@@ -28,10 +28,16 @@ Her work was published as "Medical triage as an AI ethics benchmark" in Scientif
 ## Papers in this Vault
 
 
+
+
 - [[2024-Kirch-TRIAGE|TRIAGE]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Kirch-TRIAGE*: Affiliation: College London
+- *From 2024-Kirch-TRIAGE*: Affiliation: College London
 - *From 2024-Kirch-TRIAGE*: Affiliation: College London
 Research emphasis on developing domain-specific, realistic benchmarks for machine ethics evaluation, particularly in high-stakes medical contexts where resource allocation decisions have clear ethical implications.

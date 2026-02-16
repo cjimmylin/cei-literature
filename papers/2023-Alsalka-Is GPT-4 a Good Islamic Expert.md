@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Is GPT-4 a Good Islamic Expert"
 year: 2025
 first_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
-last_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
+last_author: "[[Mohammad Ammar Alsalka]]"
 authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]
+[[Sarah Alnefaie]], [[Eric Atwell]], [[Mohammad Ammar Alsalka]]
 
 ## Metadata
 

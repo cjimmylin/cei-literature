@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md",
+    "has_extract": true,
+    "authors": "[[Jacksi, Karwan]]; [[Ali, Ismael]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://journal.uad.ac.id/index.php/JIFO/article/view/26053",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md",
+    "has_extract": true,
+    "authors": "[[Ogundepo, Odunayo]]; [[Gwadabe, Tajuddeen R.]]; [[Rivera, Clara E.]]; [[Clark, Jonathan H.]]; [[Ruder, Sebastian]]; [[Adelani, David Ifeoluwa]]; [[Dossou, Bonaventure F. P.]]; [[DIOP, Abdou Aziz]]; [[Sikasote, Claytone]]; [[Hacheme, Gilles]]; [[Buzaaba, Happy]]; [[Ezeani, Ignatius]]; [[Mabuya, Rooweither]]; [[Osei, Salomey]]; [[Emezue, Chris]]; [[Kahira, Albert Njoroge]]; [[Muhammad, Shamsuddeen H.]]; [[Oladipo, Akintunde]]; [[Owodunni, Abraham Toluwase]]; [[Tonja, Atnafu Lambebo]]; [[Shode, Iyanuoluwa]]; [[Asai, Akari]]; [[Ajayi, Tunde Oluwaseyi]]; [[Siro, Clemencia]]; [[Arthur, Steven]]; [[Adeyemi, Mofetoluwa]]; [[Ahia, Orevaoghene]]; [[Aremu, Anuoluwapo]]; [[Awosan, Oyinkansola]]; [[Chukwuneke, Chiamaka]]; [[Opoku, Bernard]]; [[Ayodele, Awokoya]]; [[Otiende, Verrah]]; [[Mwase, Christine]]; [[Sinkala, Boyd]]; [[Rubungo, Andre Niyongabo]]; [[Ajisafe, Daniel A.]]; [[Onwuegbuzia, Emeka Felix]]; [[Mbow, Habib]]; [[Niyomutabazi, Emile]]; [[Mukonde, Eunice]]; [[Lawan, Falalu Ibrahim]]; [[Ahmad, Ibrahim Said]]; [[Alabi, Jesujoba O.]]; [[Namukombo, Martin]]; [[Chinedu, Mbonu]]; [[Phiri, Mofya]]; [[Putini, Neo]]; [[Mngoma, Ndumiso]]; [[Amuok, Priscilla A.]]; [[Iro, Ruqayya Nasir]]; [[Adhiambo, Sonia]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2305.06897",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Keutzer-MITRA-zh An Efficient Open Machine Translation.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Khan-The Tarteel Dataset Crowd-Sourced and Labeled.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Khan, Hamzah]]; [[Abou, Anas]]; [[Moussa, M.]]; [[Tarteel, AI]]; [[Abid, Abubakar]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md",
+    "has_extract": true,
+    "authors": "Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi",
+    "year": "2025",
+    "doi": "",
+    "url": "https://tjee.tabrizu.ac.ir/article_15794.html",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md",
+    "has_extract": true,
+    "authors": "[[Kohli, Guneet Singh]]; [[Parida, Shantipriya]]; [[Sekhar, Sambit]]; [[Saha, Samirit]]; [[Nair, Nipun B]]; [[Agarwal, Parul]]; [[Khosla, Sonal]]; [[Patiyal, Kusumlata]]; [[Dhal, Debasish]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2312.12624",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md",
+    "has_extract": true,
+    "authors": "Anna Kolos, Inez Okulska, Kinga Glabinska, Agnieszka Karlinska, Emilia Wisnios, Pawel Ellerik, Andrzej Pralat",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2308.10592",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md",
+    "has_extract": true,
+    "authors": "Fajri Koto, Nurul Aisyah, Haonan Li, Timothy Baldwin",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.emnlp-main.760/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Kuriyozov-Text classification dataset and analysis for.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Kuriyozov-Text classification dataset and analysis for.md",
+    "has_extract": true,
+    "authors": "[[Kuriyozov, Elmurod]]; [[Salaev, Ulugbek]]; [[Matlatipov, Sanatbek]]; [[Matlatipov, Gayrat]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2302.14494",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Bjorn Pluster (LAION/Hessian.AI)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/bjoernpl/GermanBenchmark",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md",
+    "has_extract": true,
+    "authors": "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Yejin Choi, Byoung-Tak Zhang, Gunhee Kim, Eun-Ju Lee, Nako Sung",
+    "year": "2025",
+    "doi": "10.18653/v1/2023.acl-industry.21",
+    "url": "https://arxiv.org/abs/2305.17701",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.md",
+    "has_extract": true,
+    "authors": "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Gunhee Kim, Byoung-Tak Zhang, Meeyoung Cha, Yejin Choi, Nako Sung",
+    "year": "2025",
+    "doi": "10.18653/v1/2023.acl-long.370",
+    "url": "https://arxiv.org/abs/2305.17696",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Li-ACLUE Can Large Language Model Comprehend.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Li-ACLUE Can Large Language Model Comprehend.md",
+    "has_extract": true,
+    "authors": "[[Yixuan Zhang, Haonan Li]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2310.09550",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.md",
+    "has_extract": true,
+    "authors": "Luiz Fernando F. P. de Lima; Renata Mendes de Araújo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://sol.sbc.org.br/index.php/stil/article/view/25450",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned.md",
+    "has_extract": true,
+    "authors": "Yen-Ting Lin, Yun-Nung Chen",
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.17487",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md",
+    "has_extract": true,
+    "authors": "[[Mager, Manuel]]; [[Bhatnagar, Rajat]]; [[Neubig, Graham]]; [[Vu, Ngoc Thang]]; [[Kann, Katharina]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2306.06804",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md",
+    "has_extract": true,
+    "authors": "Krishanu Maity; Shaubhik Bhattacharya; Sriparna Saha; Manjeevan Seera",
+    "year": "2025",
+    "doi": "10.1109/ACCESS.2023.3297856",
+    "url": "https://ieeexplore.ieee.org/document/10192900/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Krishanu Maity]]; [[Shaubhik Bhattacharya]]; [[Salisa Phosit]]; [[Sawarod Kongsamlit]]; [[Sriparna Saha]]; [[Kitsuchart Pasupa]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-43427-3_9",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Munn-The Five Tests Designing and Evaluating.md",
+    "has_extract": true,
+    "authors": "[[Luke Munn]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+    "has_extract": true,
+    "authors": "[[Narayan, Nikhil]]; [[Biswal, Mrutyunjay]]; [[Goyal, Pramod]]; [[Panigrahi, Abhranta]]",
+    "year": "2025",
+    "doi": "10.1145/3632754.3633278",
+    "url": "https://dl.acm.org/doi/10.1145/3632754.3633278",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md",
+    "has_extract": true,
+    "authors": "Nguyen, Pham, Nguyen, Nguyen",
+    "year": "2025",
+    "doi": "10.1145/3628797.3628921",
+    "url": "https://arxiv.org/abs/2312.07831",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md",
+    "has_extract": true,
+    "authors": "Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.02945",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md",
+    "has_extract": true,
+    "authors": "[[Nguyen, Hai-Long]]; [[Pham, Thi-Kieu-Trang]]; [[Le, Thai-Son]]; [[Nguyen, Tan-Minh]]; [[Vuong, Thi-Hai-Yen]]; [[Nguyen, Ha-Thanh]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.09071",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md",
+    "has_extract": true,
+    "authors": "Quan Nguyen, Huy Pham, Bao Nguyen",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2312.11011",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering.md",
+    "has_extract": true,
+    "authors": "Le Trong Nhan, Tai Dang, Hien Nguyen",
+    "year": "2025",
+    "doi": "10.18653/v1/2023.emnlp-industry.70",
+    "url": "https://aclanthology.org/2023.emnlp-industry.70/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md",
+    "has_extract": true,
+    "authors": "[[Nielsen, Dan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2304.00906",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md",
+    "has_extract": true,
+    "authors": "Various (LTG Oslo)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2305.03880",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.md",
+    "has_extract": true,
+    "authors": "Chaewon Park, Soohwan Kim, Kyubyong Park, Kunwoo Park",
+    "year": "2025",
+    "doi": "10.18653/v1/2023.findings-emnlp.952",
+    "url": "https://arxiv.org/abs/2310.15439",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Patel-Building Domain-Specific LLMs Faithful To The.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Patel-Building Domain-Specific LLMs Faithful To The.md",
+    "has_extract": true,
+    "authors": "[[Shabaz Patel, Hassan Kane, Rayhan Patel]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2312.06652",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Pires-Sabiá Portuguese Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Pires-Sabiá Portuguese Large Language Models.md",
+    "has_extract": true,
+    "authors": "Ramon Pires, Hugo Abonizio, Thales Sales Almeida, Rodrigo Nogueira",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2304.07880",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md",
+    "has_extract": true,
+    "authors": "[[Plaza-del-Arco, Flor Miriam]]",
+    "year": "2025",
+    "doi": "10.1007/s10579-023-09670-3",
+    "url": "https://link.springer.com/article/10.1007/s10579-023-09670-3",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+    "has_extract": true,
+    "authors": "Aida Ramezani, Xu Yang",
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2306.01857",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-[[Sabane]]-Breaking Language Barriers A Question-Answering Dataset.md",
+    "has_extract": true,
+    "authors": "Maithili Sabane; Onkar Litake; Aman Chadha",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2308.09862",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Schwarting-The eBible Corpus Data and Model.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Schwarting-The eBible Corpus Data and Model.md",
+    "has_extract": true,
+    "authors": "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2304.09919",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md",
+    "has_extract": true,
+    "authors": "Vitaly Shalumov, Harel Haskey",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2304.11077",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Sheykhlan-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Mohammad Karami Sheykhlan; Saleh Kheiri Abdoljabbar",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.authorea.com/users/581546/articles/683116-pars-hao-hate-and-offensive-language-detection-on-persian-tweets-using-machine-learning-and-deep-learning",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md",
+    "has_extract": true,
+    "authors": "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2308.16687",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md",
+    "has_extract": true,
+    "authors": "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.14568",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.md",
+    "has_extract": true,
+    "authors": "[[Gunther Jikeli, Sameer Karali, Daniel Miehling, Katharina Soemer]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2304.14599",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+    "has_extract": true,
+    "authors": "Authors from Stanford/Masakhane",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md",
+    "has_extract": true,
+    "authors": "[[Leong, Wei Qi]]; [[Ngui, Jian Gang]]; [[Susanto, Yosephine]]; [[Rengarajan, Hamsawardhini]]; [[Sarveswaran, Kengatharaiyer]]; [[Tjhi, William Chandra]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.06085",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Masashi Takeshita, Rafal Rzepka, Kenji Araki",
+    "year": "2023",
+    "doi": "",
+    "url": "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/D2-1.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Trepczynski-Religion Theology and Philosophical Skills of.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Trepczynski-Religion Theology and Philosophical Skills of.md",
+    "has_extract": true,
+    "authors": "[[Marcin Trepczynski]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-University-Antisemitism on Twitter A Dataset for.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]",
+    "year": "2023",
+    "doi": "10.5281/zenodo.7932888",
+    "url": "https://doi.org/10.5281/zenodo.7932888",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-University-Harmful Communication Detection of Toxic Language and Threats on.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Various (Uppsala University)",
+    "year": "2025",
+    "doi": "10.1145/3625007.3627597",
+    "url": "https://dl.acm.org/doi/10.1145/3625007.3627597",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Unknown-Toxicity Posts and Hateful Comments Detection.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Unknown-Toxicity Posts and Hateful Comments Detection.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/view/256026",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md",
+    "has_extract": true,
+    "authors": "[[Babak Hemmatian, Lav R. Varshney]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2310.18368",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md",
+    "has_extract": true,
+    "authors": "[[Vries, Wietse de]]; [[Wieling, Martijn]]; [[Nissim, Malvina]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2305.13026",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md",
+    "has_extract": true,
+    "authors": "[[Bin Wang]]; [[Liu, Zhengyuan]]; [[Huang, Xin]]; [[Jiao, Fangkai]]; [[Ding, Yang]]; [[Aw, AiTi]]; [[Chen, Nancy F.]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.04766",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+    "has_extract": true,
+    "authors": "[[Jiaxu Zhao]]; [[Meng Fang]]; [[Shirui Pan]]; [[Wenpeng Yin]]; [[Mykola Pechenizkiy]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2312.06315",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/374325865_NEHATE_Large-Scale_Annotated_Data_Shedding_Light_on_Hate_Speech_in_Nepali_Local_Election_Discourse",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-researchers-Transformer-Based Language Models for Bulgarian.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-researchers-Transformer-Based Language Models for Bulgarian.md",
+    "has_extract": true,
+    "authors": "INSAIT / CLaDA-BG researchers",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.ranlp-1.77.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-team-Albertina Advancing Neural Encoding of Portuguese.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-team-Albertina Advancing Neural Encoding of Portuguese.md",
+    "has_extract": true,
+    "authors": "PORTULAN/CLUL team",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2305.06721",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-team-SeaLLMs Large Language Models for Southeast.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-team-SeaLLMs Large Language Models for Southeast.md",
+    "has_extract": true,
+    "authors": "[[DAMO Academy / Alibaba team]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2312.00738",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2023-team-Typhoon Thai Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2023/2023-team-Typhoon Thai Large Language Models.md",
+    "has_extract": true,
+    "authors": "SCB 10X team",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2312.13951",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+    "has_extract": true,
+    "authors": "[[Multiple authors (presented at conference on Human Freedom]]; [[AI)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models.md",
+    "has_extract": true,
+    "authors": "Emre Can Acikgoz, Mete Erdogan, Deniz Yuret",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2405.04685",
+    "body_richness": "thin"
+  }
+]

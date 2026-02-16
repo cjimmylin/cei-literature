@@ -18,7 +18,9 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2023-Shen-“Do Anything Now”|“Do Anything Now”]]
+
+
+- [[2023-Shen-“Do Anything Now”|'Do Anything Now']]
 
 ## Notes
 

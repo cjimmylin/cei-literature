@@ -44,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Helene Tenzer, Oumnia Abidi, Stefan Feuerriegel]]
+[[Helene Tenzer]], [[Oumnia Abidi]], [[Stefan Feuerriegel]]
 
 ## Metadata
 

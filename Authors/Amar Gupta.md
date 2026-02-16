@@ -56,6 +56,8 @@ Dr. Amar Gupta is a Principal Research Scientist at MIT, affiliated with CSAIL, 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Rashid-Evaluating Prompt Injection Attacks with|Evaluating Prompt Injection Attacks with]] (Last Author)
 
 ## External Links & Profiles
@@ -68,5 +70,9 @@ Dr. Amar Gupta is a Principal Research Scientist at MIT, affiliated with CSAIL, 
 ## Notes
 
 
+
+
+- *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: edson.bollis@itau-unibanco.com.br
+- *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: darian.rabbani@itau-unibanco.com.br
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: aneeshg@mit.edu
 Dr. Amar Gupta brings a unique perspective combining AI, healthcare, and finance. His work on detecting bias in AI systems—revealing disparities in how AI treats different demographic groups in healthcare and lending—aligns closely with CEI's focus on fairness in AI. His extensive industry connections (including collaboration with major banks) and policy experience (UN advisor) make him valuable for understanding real-world AI deployment challenges.

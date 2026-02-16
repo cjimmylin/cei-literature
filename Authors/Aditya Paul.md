@@ -21,10 +21,17 @@ Aditya Paul is a researcher focused on AI value alignment and the development of
 ## Papers in this Vault
 
 
+
+
 - [[2024-Meadows-LocalValueBench|LocalValueBench]] (Last Author)
+- [[2023-Das-Mytho-Annotator An Annotation Tool for Indian|Mytho-Annotator An Annotation Tool for Indian]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 Research not found - Limited publicly available information. Affiliation inferred from LocalValueBench paper context which focused on Australian regulatory frameworks for AI.

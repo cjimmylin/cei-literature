@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0425
 type: preprint
 short_title: "SEA-SafeguardBench Evaluating AI Safety in SEA"
 year: 2025
-first_author: "[[Ngui, Jian Gang]]"
+first_author: "[[Tasawong, Panuthep]]"
 last_author: "[[Limkonchotiwat, Peerat]]"
-authors: "[[Ngui, Jian Gang]]; [[Aji, Alham Fikri]]; [[Cohn, Trevor]]; [[Limkonchotiwat, Peerat]]"
-authors_incomplete: true
+authors: "[[Tasawong, Panuthep]]; [[Ngui, Jian Gang]]; [[Aji, Alham Fikri]]; [[Cohn, Trevor]]; [[Limkonchotiwat, Peerat]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2512.05501"
 external_pdf: "https://arxiv.org/pdf/2512.05501.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Southeast Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Ngui, Jian Gang]], [[Aji, Alham Fikri]], [[Cohn, Trevor]], [[Limkonchotiwat, Peerat]]
+[[Tasawong, Panuthep]], [[Ngui, Jian Gang]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Cohn, Trevor]], [[Peerat Limkonchotiwat|Limkonchotiwat, Peerat]]
 
 ## Metadata
 
-**Authors:** Jian Gang Ngui; Alham Fikri Aji; Trevor Cohn; Peerat Limkonchotiwat
+**Authors:** Tasawong, Panuthep; Ngui, Jian Gang; Aji, Alham Fikri; Cohn, Trevor; Limkonchotiwat, Peerat
 
 **Year:** 2025
 

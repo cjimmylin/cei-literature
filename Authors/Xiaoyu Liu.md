@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
 
 ## Notes
 
 
+
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 [Additional context or contact information]

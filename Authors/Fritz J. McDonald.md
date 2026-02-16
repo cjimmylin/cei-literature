@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-McDonald-AI alignment and the categorical imperative|AI, alignment, and the categorical imperative]] (First Author)]]
+
 
 - [[2023-McDonald-AI alignment and the categorical imperative|AI, alignment, and the categorical imperative]] (First Author)
 

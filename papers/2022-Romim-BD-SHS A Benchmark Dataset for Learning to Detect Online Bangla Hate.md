@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: LSRC0176
 type: conferencePaper
 short_title: "BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts"
 year: 2025
-first_author: "[[Romim, N.]]"
-last_author: "[[N.]]"
-authors: "[[Romim, N.]]; [[N.]]"
-authors_incomplete: true
+first_author: "[[Romim, Nauros]]"
+last_author: "[[Amin, Mohammad Ruhul]]"
+authors: "[[Romim, Nauros]]; [[Ahmed, Mosahed]]; [[Islam, Md. Saiful]]; [[Sharma, Arnab Sen]]; [[Talukder, Hriteshwar]]; [[Amin, Mohammad Ruhul]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.552/"
 external_pdf: "https://arxiv.org/pdf/2206.00372.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Romim, N. et al.]]
+[[Romim, Nauros]], [[Ahmed, Mosahed]], [[Islam, Md. Saiful]], [[Sharma, Arnab Sen]], [[Talukder, Hriteshwar]], [[Amin, Ruhul|Amin, Mohammad Ruhul]]
 
 ## Metadata
 
-**Authors:** Romim, N. et al.
+**Authors:** Romim, Nauros; Ahmed, Mosahed; Islam, Md. Saiful; Sharma, Arnab Sen; Talukder, Hriteshwar; Amin, Mohammad Ruhul
 
 **Year:** 2022
 

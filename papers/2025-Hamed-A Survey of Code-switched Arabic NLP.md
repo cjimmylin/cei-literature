@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, Code-switching, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Injy Hamed]], [[Caroline Sabty]], [[Slim Abdennadher]], [[Ngoc Thang Vu]], [[Thamar Solorio]], [[Nizar Habash]]
+[[Hamed, Injy]], [[Sabty, Caroline]], [[Abdennadher, Slim]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Thamar Solorio|Solorio, Thamar]], [[Habash, Nizar]]
 
 ## Metadata
 

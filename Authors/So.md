@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas|How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas]] (First Author)]]
+
 
 - [[2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas|How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas]] (First Author)
 

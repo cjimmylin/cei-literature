@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,12 +17,14 @@ authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: Islam
 tags: 
 abstract: "This work introduces a comprehensive dataset of over 73,000 question-answer pairs for Quranic Tafsir and Ahadith domains. The dataset is meticulously enriched with contextual information to train and evaluate specialized Question-Answering systems for Islamic texts. Human evaluation revealed significant limitations in automatic metrics like ROUGE scores, with model consistency with expert scholars ranging from 11-20%, while contextual understanding spanned 50-90%. The findings highlight the need for evaluation techniques that better capture the nuances of religious text understanding."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

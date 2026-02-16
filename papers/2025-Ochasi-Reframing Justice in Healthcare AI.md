@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -17,6 +18,7 @@ url: "https://doi.org/10.1111/dewb.70007"
 pdf_extract: 
 local_pdf: N/A
 national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: "African"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -26,6 +28,7 @@ significance: "Offers a culturally grounded lens for interpreting justice in AI,
 paper_summary: "Introduces Ubuntu as a guiding framework for AI in African healthcare, focusing on justice, communalism, and collective well-being. It draws on five core values—communalism, interdependence, humanism, sharing, and compassion—to guide AI across justice, solidarity, and sustainability pillars."
 external_pdf: "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/dewb.70007"
 abstract: "ABSTRACTThere is an ongoing debate on how to balance the benefits and risks of artificial intelligence (AI), especially in healthcare. In resource‐constrained settings, such as Africa, where access to quality care remains a challenge, AI has the potential to improve efficiency, accessibility, and patient outcomes. Yet, its development and deployment raise complex ethical, legal, ecological, and socioeconomic concerns. To ensure context‐sensitive solutions, this paper introduces Ubuntu, a traditional African ethical philosophy, as a guiding framework for AI in African healthcare. Ubuntu offers a people‐centered alternative to dominant Western‐centric models, providing a culturally grounded lens for interpreting justice‐related principles in line with Africa's unique needs and realities. Drawing on Ubuntu's five core values of communalism, interdependence, humanism, sharing, and compassion, we analyze how these principles can ethically guide AI across three normative pillars: justice and fairness, solidarity, and sustainability. For each, we identify risks and offer concrete, culturally resonant strategies to address them. In doing so, we undertake a distinctive scholarly contribution that meaningfully enriches the emerging discourse on decolonizing AI by reframing Ubuntu not only as a moral compass but also as a strategic tool for structural reform and innovation."
+DATE_ADDED: 20260213
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

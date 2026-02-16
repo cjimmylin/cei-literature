@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsc
 pdf_extract: "PDF Extracts/2023/2023-Körner-Deontology and Utilitarianism in Real Life.md"
 local_pdf: "[[PDFs/2023/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ significance: "Shows that 'factual' dilemmas are perceived as more realistic/les
 tags: 
 abstract: "Moral dilemmas are frequently used to examine psychological processes that drive decisions between adhering to deontological norms and optimizing the outcome. However, commonly used dilemmas are generally unrealistic and confound moral principle and (in)action so that results obtained with these dilemmas might not generalize to other situations. In the present research, we introduce new dilemmas that are based on real-life events."
 pdf: "https://doi.org/10.1177/01461672221103058"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

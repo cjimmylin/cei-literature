@@ -1,9 +1,9 @@
 ---
 name: "Xiaodong He"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Tokyo 2Riken 3Rikkyo University 4Softbank corp"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "hyanaka@is.s.u"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE A Chinese Language Understanding and Generation Evaluation]]
+
+- [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u
+- *From 2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a*: Affiliation: University of Tokyo 2Riken 3Rikkyo University 4Softbank corp, Email: hyanaka@is.s.u
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

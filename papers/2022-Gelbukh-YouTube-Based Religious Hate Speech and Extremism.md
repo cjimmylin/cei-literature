@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: journal_article
 short_title: "YouTube-Based Religious Hate Speech and Extremism"
 year: 2025
 first_author: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
-last_author: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
+last_author: "[[Alexander Gelbukh Grigori Sidorov]]"
 authors: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
 authors_incomplete: false
 url: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Human Rights"
 
 ## Authors
 
-[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]
+[[Abid Rafiq Noman Ashraf]], [[Hafiz Muhammad Faisal Shehzad Sabur Butt]], [[Alexander Gelbukh Grigori Sidorov]]
 
 ## Metadata
 

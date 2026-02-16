@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/acl2026/GVS-Bench"
 
 ## Authors
 
-[[He, Ying]], [[Li, Baiyang]], [[Cao, Yule]], [[Xu, Huirun]], [[Chen, Qiuxian]], [[Chen, Shu]], [[Ren, Shangsheng]]
+[[Han Ying|He, Ying]], [[Li, Baiyang]], [[Cao, Yule]], [[Xu, Huirun]], [[Chen, Qiuxian]], [[Chen, Shu]], [[Ren, Shangsheng]]
 
 ## Metadata
 

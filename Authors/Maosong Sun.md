@@ -18,6 +18,9 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]] (Last Author)
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 - [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]]
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]] (Last Author)
@@ -25,5 +28,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 [Additional context or contact information]

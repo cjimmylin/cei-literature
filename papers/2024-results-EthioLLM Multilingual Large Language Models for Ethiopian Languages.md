@@ -44,7 +44,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Not specified in search results]]
+[[Not fully listed in search results|Not specified in search results]]
 
 ## Metadata
 

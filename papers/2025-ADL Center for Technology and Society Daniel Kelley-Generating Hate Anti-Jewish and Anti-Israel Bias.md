@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Generating Hate Anti-Jewish and Anti-Israel Bias"
 year: 2025
 first_author: "[[ADL Center for Technology and Society (Daniel Kelley, interim head)]]"
-last_author: "[[ADL Center for Technology and Society (Daniel Kelley, interim head)]]"
+last_author: "[[Society (Daniel Kelley, interim head)]]"
 authors: "[[ADL Center for Technology]]; [[Society (Daniel Kelley, interim head)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Jewish, Israeli"
 religious_values: "Judaism"
 religious_values_list: "Judaism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[ADL Center for Technology and Society (Daniel Kelley, interim head)]]
+[[ADL Center for Technology]], [[Society (Daniel Kelley, interim head)]]
 
 ## Metadata
 

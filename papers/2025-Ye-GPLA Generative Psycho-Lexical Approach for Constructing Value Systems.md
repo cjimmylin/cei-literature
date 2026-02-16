@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -43,7 +46,7 @@ DATA_URL: "https://github.com/Value4AI/ValueBench"
 
 ## Authors
 
-[[Ye, Haoran]], [[Zhang, Tianze]], [[Xie, Yuhang]], [[Zhang, Liyuan]], [[Ren, Yuanyi]], [[Zhang, Xin]], [[Song, Guojie]]
+[[Haoran Ye|Ye, Haoran]], [[Zhang, Tianze]], [[Yuhang Xie|Xie, Yuhang]], [[Zhang, Liyuan]], [[Yuanyi Ren|Ren, Yuanyi]], [[Xin Zhang|Zhang, Xin]], [[Guojie Song|Song, Guojie]]
 
 ## Metadata
 

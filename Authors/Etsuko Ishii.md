@@ -35,6 +35,8 @@ Contributed to developing novel frameworks for measuring human value representat
 ## Papers in this Vault
 
 
+
+
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
 
 ## External Links & Profiles
@@ -44,5 +46,9 @@ Contributed to developing novel frameworks for measuring human value representat
 ## Notes
 
 
+
+
+- *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
+- *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
 - *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
 Researcher contributing to frameworks for understanding human value representation in AI systems.

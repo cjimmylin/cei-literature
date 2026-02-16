@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1515/mopp-2021-0026
 url: "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html"
 publication: "Moral Philosophy and Politics"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2024/2024-Eisikovits-AI and Phronesis.md"
 abstract: "We argue that the growing prevalence of statistical machine learning in everyday decision making – from creditworthiness to police force allocation – effectively replaces many of our humdrum practical judgments and that this will eventually undermine our capacity for making such judgments. We lean on Aristotle’s famous account of how phronesis and moral virtues develop to make our case. If Aristotle is right that the habitual exercise of practical judgment allows us to incrementally hone..."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Eisikovits-AI and Phronesis.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"

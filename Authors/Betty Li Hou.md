@@ -48,6 +48,8 @@ Hou has contributed to significant benchmarking efforts, including the "Foundati
 ## Papers in this Vault
 
 
+
+
 - [[2023-Hou-A Multi-Level Framework for the AI Alignment|A Multi-Level Framework for the AI Alignment]] (First Author)
 - [[2023-Hou-Foundational Moral Values for AI Alignment|Foundational Moral Values for AI Alignment]] (First Author)
 
@@ -59,5 +61,9 @@ Hou has contributed to significant benchmarking efforts, including the "Foundati
 
 ## Notes
 
+
+
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
+- *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
 - *From 2023-Hou-A Multi-Level Framework for the AI Alignment*: Affiliation: Center for Applied Ethics, Email: blh9134@nyu.edu
 Her interdisciplinary approach is vital for translating complex philosophical concepts into measurable technical benchmarks for the "value alignment" of advanced AI systems.

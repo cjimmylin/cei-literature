@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Large Language Models for Toxic Language Detection in Low-Resource Balkan Languages"
 year: 2025
 first_author: "[[Amel Muminovic]]"
-last_author: "[[Amela Kadric Muminovic]]"
+last_author: "[[Amela Kadric Muminovic Amel Muminovic]]"
 authors: "Amel Muminovic, Amela Kadric Muminovic"
 url: "https://arxiv.org/abs/2506.09992"
 external_pdf: "https://arxiv.org/pdf/2506.09992.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Serbian, Croatian, Bosnian"
 languages_list: "Bosnian, Croatian, Serbian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Amel Muminovic, Amela Kadric Muminovic]]
+[[Amela Kadric Muminovic Amel Muminovic]]
 
 ## Metadata
 

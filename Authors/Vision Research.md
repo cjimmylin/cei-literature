@@ -1,7 +1,7 @@
 ---
 name: "Vision Research"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Information Science and Technology, VISTEC, Thailand"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question|SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question]]
+
+- [[2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question|SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question*: Affiliation: School of Information Science and Technology, VISTEC, Thailand
+- *From 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question*: Affiliation: School of Information Science and Technology, VISTEC, Thailand
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

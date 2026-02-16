@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.48550/arXiv.2412.20718
 url: "http://arxiv.org/abs/2412.20718"
 external_pdf: "http://arxiv.org/pdf/2412.20718.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Yan-M$^3$oralBench.md"
 abstract: "Recently, large foundation models, including large language models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcare. As these models increasingly integrate into our daily life, it is necessary to conduct moral evaluation to ensure that their outputs align with human values and remain within moral boundaries. Previous works primarily focus on LLMs, proposing moral datasets and benchmarks limited to text modality."
 paper_summary: "Abstract: Recently, large foundation models, including large lan- guage models (LLMs) and large vision-language models (LVLMs), have become essential tools in critical fields such as law, finance, and healthcar | Overview: M³oralBench: A MultiModal Moral Benchmark for LVLMs Bei Yan1,2, Jie Zhang1,2, Zhiyuan Chen1,2, Shiguang Shan1,2, Xilin Chen1,2 1Key Laboratory of AI Safety of CAS, Institute of Computing Technology, C | Conclusions: Ethical and Social Concerns. Our research performs a multimodal moral evaluation of LVLMs, probing potential moral issues within these models. All ima"
 local_pdf: [[PDFs/2024/2024-Yan-M$^3$oralBench.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.18653/v1/2024.emnlp-main.982
 url: "https://aclanthology.org/2024.emnlp-main.982/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TV58P8JC/Abdulhai et al. - 2024 - Moral Foundations of Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -23,6 +26,7 @@ key_contribution: "Analyzed LLMs using Moral Foundations Theory (MFT), finding t
 significance: "Maps LLM 'bias' to established psychological dimensions (Care, Fairness, Liberty, etc.), providing a more granular understanding of model personality than just 'good/bad'."
 tags: 
 abstract: "Moral foundations theory (MFT) is a social psychological theory that decomposes human moral reasoning into five factors, including care/harm, liberty/oppression, and sanctity/degradation (Graham et al., 2009). People vary in the weight they place on these dimensions when making moral decisions, in part due to their cultural upbringing and political ideology. As large language models (LLMs) are trained on datasets collected from the internet, they may reflect the biases that are present in such..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

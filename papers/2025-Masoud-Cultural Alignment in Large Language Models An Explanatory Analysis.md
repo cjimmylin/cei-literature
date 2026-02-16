@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Reem I. Masoud, Ziquan Liu, Martin Ferianc, Philip Treleaven, Miguel Rodrigues]]
+[[Reem I. Masoud]], [[Ziquan Liu]], [[Martin Ferianc]], [[Philip Treleaven]], [[Miguel Rodrigues]]
 
 ## Metadata
 

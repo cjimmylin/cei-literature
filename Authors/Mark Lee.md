@@ -1,9 +1,9 @@
 ---
 name: "Mark Lee"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computer Science, University of Birmingham"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "m.g.lee@bham.ac.uk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in|Filipino Benchmarks for Measuring Sexist and Homophobic Bias in]]
+
+- [[2025-Gamboa-Social Bias in Multilingual Language Models|Social Bias in Multilingual Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Gamboa-Social Bias in Multilingual Language Models*: Affiliation: School of Computer Science, University of Birmingham, Email: y.feng.6@bham.ac.uk
+- *From 2025-Gamboa-Social Bias in Multilingual Language Models*: Affiliation: School of Computer Science, University of Birmingham, Email: m.g.lee@bham.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

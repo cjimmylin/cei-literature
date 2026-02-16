@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: EXSR0584
 type: preprint
 short_title: "DravidianCodeMix Sentiment Analysis and Offensive Language"
 year: 2025
-first_author: "[[Chakravarthi]]"
-last_author: "[[Chakravarthi]]"
-authors: "[[Chakravarthi]]"
-authors_incomplete: true
+first_author: "[[Chakravarthi, Bharathi Raja]]"
+last_author: "[[McCrae, John P]]"
+authors: "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Muralidaran, Vigneshwaran]]; [[Jose, Navya]]; [[Suryawanshi, Shardul]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2106.09460"
 external_pdf: "https://arxiv.org/pdf/2106.09460.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Chakravarthi]], [[and others]]
+[[Chakravarthi, Bharathi Raja]], [[Priyadharshini, Ruba]], [[Muralidaran, Vigneshwaran]], [[Jose, Navya]], [[Suryawanshi, Shardul]], [[Sherly, Elizabeth]], [[McCrae, John P]]
 
 ## Metadata
 
-**Authors:** Chakravarthi; and others
+**Authors:** Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Muralidaran, Vigneshwaran; Jose, Navya; Suryawanshi, Shardul; Sherly, Elizabeth; McCrae, John P.
 
 **Year:** 2022
 

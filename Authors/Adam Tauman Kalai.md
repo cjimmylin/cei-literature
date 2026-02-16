@@ -46,6 +46,8 @@ Adam is recognized for his contributions to machine learning theory and the stud
 
 ## Papers in this Vault
 
+
+
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]] (Last Author)
 
 ## External Links & Profiles
@@ -64,5 +66,9 @@ Adam is recognized for his contributions to machine learning theory and the stud
 
 ## Notes
 
+
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 [Adam is a high-level theorist at OpenAI with a long history in AI fairness research.]

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language|EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models]]
 
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: wanghaodawn@gmail.com
+- *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: zhaoyi3@seas.upenn.edu
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: wanghaodawn@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

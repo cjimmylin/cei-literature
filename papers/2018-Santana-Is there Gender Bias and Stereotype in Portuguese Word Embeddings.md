@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Is there Gender Bias and Stereotype in Portuguese Word Embeddings?"
 year: 2025
 first_author: "[[Bruna Santana]]"
-last_author: "[[Vinicius Woloszyn]]"
+last_author: "[[Vinicius Woloszyn Bruna Santana]]"
 authors: "Bruna Santana, Vinicius Woloszyn"
 url: "https://www.inf.ufrgs.br/propor-2018/wp-content/uploads/2018/10/PROPOR2018-SRW_paper_6.pdf"
 external_pdf: "https://arxiv.org/pdf/1810.04528v1.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Bruna Santana, Vinicius Woloszyn]]
+[[Vinicius Woloszyn Bruna Santana]]
 
 ## Metadata
 

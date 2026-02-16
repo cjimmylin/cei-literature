@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "Multimodal Hate Speech Detection in Greek Social Media"
 year: 2025
 first_author: "[[Konstantinos Perifanos]]"
-last_author: "[[Dionysis Goutsos]]"
+last_author: "[[Dionysis Goutsos Konstantinos Perifanos]]"
 authors: "Konstantinos Perifanos, Dionysis Goutsos"
 doi: 10.3390/mti5070034
 url: "https://www.mdpi.com/2414-4088/5/7/34"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Konstantinos Perifanos, Dionysis Goutsos]]
+[[Dionysis Goutsos Konstantinos Perifanos]]
 
 ## Metadata
 

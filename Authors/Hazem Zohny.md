@@ -49,6 +49,8 @@ Zohny has made significant contributions to debates on human enhancement, moral 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zohny-ADEPT Simulating Ethics|ADEPT Simulating Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -66,5 +68,9 @@ Zohny has made significant contributions to debates on human enhancement, moral 
 ## Notes
 
 
+
+
+- *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK
+- *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK
 - *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK
 Hazem Zohny's work represents important contributions to practical ethics, particularly in addressing the ethical challenges posed by emerging neurotechnologies and enhancement technologies.

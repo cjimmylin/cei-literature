@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Gao-MIST Moral Inference through Storytelling with Text and Images|MIST: Moral Inference through Storytelling with Text and Images]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## Notes
 
 
+
+
+- *From 2025-Gao-MIST Moral Inference through Storytelling with Text and Images*: Affiliation: University of Notre Dame, Notre Dame, IN, United States, Email: yhuang37@nd.edu
+- *From 2025-Gao-MIST Moral Inference through Storytelling with Text and Images*: Affiliation: University of Notre Dame, Notre Dame, IN, United States, Email: xzhang33@nd.edu
 - *From 2025-Gao-MIST Moral Inference through Storytelling with Text and Images*: Affiliation: University of Notre Dame, Notre Dame, IN, United States, Email: nauyisu022@gmail.com
 [Additional context or contact information]

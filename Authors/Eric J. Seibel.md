@@ -35,6 +35,8 @@ Eric J. Seibel is a Research Professor at the University of Washington in the De
 ## Papers in this Vault
 
 
+
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links
@@ -45,5 +47,9 @@ Eric J. Seibel is a Research Professor at the University of Washington in the De
 ## Notes
 
 
+
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 Eric Seibel's expertise in medical imaging informs the development of AI benchmarks for understanding medical visual content.

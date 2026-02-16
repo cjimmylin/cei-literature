@@ -1,7 +1,7 @@
 ---
 name: "X."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labels, leveraging its extensive knowledge and"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
-- [[2024-Yao-CLAVE ValEval|CLAVE / ValEval]]]]
+
 
 - [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2024-Yao-CLAVE ValEval|CLAVE / ValEval]]
@@ -85,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Yao-CLAVE ValEval*: Affiliation: labels, leveraging its extensive knowledge and
+- *From 2024-Yao-CLAVE ValEval*: Affiliation: labels, leveraging its extensive knowledge and
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

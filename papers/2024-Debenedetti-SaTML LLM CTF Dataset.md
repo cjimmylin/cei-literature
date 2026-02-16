@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -42,7 +45,7 @@ DATA_URL: "https://huggingface.co/datasets/ethz-spylab/ctf-satml24, https://gith
 
 ## Authors
 
-[[Debenedetti, Edoardo]], [[Rando, Javier]], [[Paleka, Daniel]], [[Florin, Silaghi Fineas]], [[Albastroiu, Dragos]], [[Cohen, Niv]], [[Lemberg, Yuval]], [[Ghosh, Reshmi]], [[Wen, Rui]], [[Salem, Ahmed]], [[Cherubin, Giovanni]], [[Zanella-Beguelin, Santiago]], [[Schmid, Robin]], [[Klemm, Victor]], [[Miki, Takahiro]], [[Li, Chenhao]], [[Kraft, Stefan]], [[Fritz, Mario]], [[Tramèr, Florian]], [[Abdelnabi, Sahar]], [[Schönherr, Lea]]
+[[Edoardo Debenedetti|Debenedetti, Edoardo]], [[Javier Rando|Rando, Javier]], [[Daniel Paleka|Paleka, Daniel]], [[Florin, Silaghi Fineas]], [[Albastroiu, Dragos]], [[Cohen, Niv]], [[Lemberg, Yuval]], [[Ghosh, Reshmi]], [[Wen, Rui]], [[Syed Ishtiaque Ahmed|Salem, Ahmed]], [[Cherubin, Giovanni]], [[Zanella-Beguelin, Santiago]], [[Schmid, Robin]], [[Klemm, Victor]], [[Miki, Takahiro]], [[Li, Chenhao]], [[Kraft, Stefan]], [[Fritz, Mario]], [[Florian Tramer|Tramèr, Florian]], [[Abdelnabi, Sahar]], [[Schönherr, Lea]]
 
 ## Metadata
 

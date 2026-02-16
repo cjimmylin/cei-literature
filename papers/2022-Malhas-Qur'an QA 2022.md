@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "Rana Malhas; Watheq Mansour; Tamer Elsayed"
 url: "https://aclanthology.org/2022.osact-1.9/"
 external_pdf: "https://aclanthology.org/2022.osact-1.9.pdf"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ tags:
 abstract: "Motivated by the resurgence of the machine reading comprehension (MRC) research, we have organized the first Qur’an Question Answering shared task,“Qur’an QA 2022”. The task in its first year aims to promote state-of-the-art research on Arabic QA in general and MRC in particular on the Holy Qur’an, which constitutes a rich and fertile source of knowledge for Muslim and non-Muslim inquisitors and knowledge-seekers."
 pdf_extract: "PDF Extracts/2022/2022-Malhas-Qur'an QA 2022.md"
 local_pdf: "[[PDFs/2022/2022-Malhas-Qur'an QA 2022.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

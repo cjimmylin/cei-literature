@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "FaithBench AI Benchmark for Christian Theology"
 year: 2025
 first_author: "[[contributions, open to academic/seminary]]"
-last_author: "[[contributions, open to academic/seminary]]"
+last_author: "[[open to academicseminary]]"
 authors: "[[contributions, open to academic/seminary]]"
 authors_incomplete: true
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Unknown (independent research initiative]], [[open to academic/seminary contributions)]]
+[[contributions]], [[open to academicseminary]]
 
 ## Metadata
 

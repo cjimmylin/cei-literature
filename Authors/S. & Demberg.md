@@ -1,7 +1,7 @@
 ---
 name: "S. & Demberg"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Labs 2 replication project with OpenAI’s text-davinci-003 model, col-"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Oh-Robustness of Large Language Models in Moral Judgements|Robustness of Large Language Models in Moral Judgements]]]]
+
 
 - [[2025-Oh-Robustness of Large Language Models in Moral Judgements|Robustness of Large Language Models in Moral Judgements]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Oh-Robustness of Large Language Models in Moral Judgements*: Affiliation: Labs 2 replication project with OpenAI’s text-davinci-003 model, col-
+- *From 2025-Oh-Robustness of Large Language Models in Moral Judgements*: Affiliation: Labs 2 replication project with OpenAI’s text-davinci-003 model, col-
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

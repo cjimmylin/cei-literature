@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +12,7 @@ type: preprint
 short_title: "Exploring Cultural Variations in Moral Judgments with Large Language Models"
 year: 2025
 first_author: "[[H. Mohammadi]]"
-last_author: [[A]]
+last_author: "[[A]]"
 authors: "Mohammadi, H., & Bagheri, A"
 url: "https://arxiv.org/abs/2506.12433"
 external_pdf: "https://arxiv.org/pdf/2506.12433.pdf"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

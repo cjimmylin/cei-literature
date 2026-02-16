@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ doi: 10.5121/ijnlc.2023.12201
 url: "https://doi.org/10.5121/ijnlc.2023.12201"
 external_pdf: "https://aircconline.com/ijnlc/V12N2/12223ijnlc01.pdf"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "Confucianism"
 religious_values_list: "Confucianism"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Qian-Understanding Chinese Moral Stories with Further.md"
 local_pdf: "[[PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
 abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The “pretraining + fine-tuning” paradigm is widely embraced in neural language models."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

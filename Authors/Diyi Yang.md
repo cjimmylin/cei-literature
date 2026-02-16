@@ -27,6 +27,8 @@ Diyi Yang is an Assistant Professor of Computer Science at Stanford University. 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Moore-Are Large Language Models Consistent over|Are Large Language Models Consistent over]] (Last Author)
 - [[2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation|Unintended Impacts of LLM Alignment on Global Representation]] (Last Author)
 - [[2023-Ziems-NormBank|NormBank]] (Last Author)
@@ -35,5 +37,9 @@ Diyi Yang is an Assistant Professor of Computer Science at Stanford University. 
 ## Notes
 
 
+
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 Rising star in NLP with strong focus on social and moral aspects of language. Stanford faculty member.

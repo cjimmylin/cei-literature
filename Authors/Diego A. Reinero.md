@@ -20,6 +20,8 @@ Diego A. Reinero is a researcher in moral psychology and social cognition. His w
 ## Papers in this Vault
 
 
+
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Notes

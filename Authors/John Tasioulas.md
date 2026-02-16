@@ -27,11 +27,17 @@ Key contributions include work on:
 ## Papers in this Vault
 
 
-- [[2024-Ober-Lyceum Project AI Ethics Aristotle|AI Ethics with Aristotle]] (Last Author)
+
+
+- [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]] (Last Author)
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 
 ## Notes
 
 
+
+
+- *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
+- *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-AI Ethics with Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 Tasioulas's philosophical work on human rights and value pluralism provides crucial theoretical foundations for understanding how AI systems should handle competing ethical frameworks and cultural values.

@@ -18,10 +18,18 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## Notes
 
 
+
+
+- *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety
+- *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety
 - *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety
 [Additional context or contact information]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 languages_list: Chinese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[PeiHsuan Huang]], [[ZihWei Lin]], [[Simon Imbot]], [[WenCheng Fu]], [[Ethan Tu]]
+[[Huang, PeiHsuan]], [[Lin, ZihWei]], [[Imbot, Simon]], [[Fu, WenCheng]], [[Tu, Ethan]]
 
 ## Metadata
 

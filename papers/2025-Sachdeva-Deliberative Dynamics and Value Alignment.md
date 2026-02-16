@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.48550/arXiv.2510.10002
 url: "https://arxiv.org/abs/2510.10002"
 external_pdf: "https://arxiv.org/pdf/2510.10002.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Deliberative Dynamics and Value Al
 abstract: "As large language models (LLMs) are increasingly deployed in sensitive everyday contexts – offering personal advice, mental health support, and moral guidance – understanding their elicited values in navigating complex moral reasoning is essential. Most evaluations study this sociotechnical alignment through single-turn prompts, but it is unclear if these findings extend to multi-turn settings where values emerge through dialogue, revision, and consensus."
 paper_summary: "Abstract: As large language models (LLMs) are increasingly deployed in sensitive everyday contexts – offering personal advice, mental health support, and moral guidance – understanding their elicited values in  | Overview: Preprint. DELIBERATIVE DYNAMICS AND VALUE ALIGNMENT IN LLM DEBATES Pratik S. Sachdeva & Tom van Nuenen D-Lab University of California, Berkeley Berkeley, CA 94709, USA {pratik.sachdeva,tomvannuenen}@b | Key Findings: settings and adapt their behavior accordingly (Needham et al., 2025; Nguyen et al., 2025; Abdelnabi & Salem, 2025). Collectively, these findings sugge | Conclusions: In this work, we used multi-turn deliberation of everyday dilemmas as a lens for understanding deliberation dynamics, value alignment, and order effec"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

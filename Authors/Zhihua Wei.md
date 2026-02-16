@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jiang-Raising the Bar|Raising the Bar]]
 
 ## Notes
 
 
+
+
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
+- *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
 [Additional context or contact information]

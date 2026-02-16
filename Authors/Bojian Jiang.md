@@ -46,6 +46,8 @@ Jiang co-authored an influential paper on "Large Language Model Safety" that sur
 ## Papers in this Vault
 
 
+
+
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
 
 ## External Links & Profiles
@@ -55,5 +57,9 @@ Jiang co-authored an influential paper on "Large Language Model Safety" that sur
 
 ## Notes
 
+
+
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 His focus on the "survey and taxonomy" of safety risks is essential for creating a shared language between developers and regulators in the AI safety field.

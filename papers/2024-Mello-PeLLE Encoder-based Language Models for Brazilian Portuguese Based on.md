@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0236
 type: preprint
 short_title: "PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data"
 year: 2025
-first_author: "[[Mello, Guilherme]]"
-last_author: "[[Carpi, Mello]]"
-authors: "[[Mello, Guilherme]]; [[Finger, Marcelo]]; [[Serras, Felipe]]; [[Jose, Marcos]]; [[Carpi, Mello]]"
-authors_incomplete: true
+first_author: "[[Mello, Guilherme Lamartine de]]"
+last_author: "[[Cavalim, Paulo]]"
+authors: "[[Mello, Guilherme Lamartine de]]; [[Finger, Marcelo]]; [[Serras, Felipe]]; [[Carpi, Miguel de Mello]]; [[Jose, Marcos Menon]]; [[Domingues, Pedro Henrique]]; [[Cavalim, Paulo]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2402.19204"
 external_pdf: "https://arxiv.org/pdf/2402.19204.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Mello, Guilherme]], [[Finger, Marcelo]], [[Serras, Felipe]], [[Jose, Marcos]], [[Carpi, Mello]]
+[[Moura, Vitor D. de|Mello, Guilherme Lamartine de]], [[Finger, Marcelo]], [[Serras, Felipe]], [[Carpi, Mello|Carpi, Miguel de Mello]], [[Jose, Marcos Menon]], [[Domingues, Pedro Henrique]], [[Cavalim, Paulo]]
 
 ## Metadata
 
-**Authors:** Guilherme Mello; Marcelo Finger; Felipe Serras; Marcos Jose; Mello Carpi
+**Authors:** Mello, Guilherme Lamartine de; Finger, Marcelo; Serras, Felipe; Carpi, Miguel de Mello; Jose, Marcos Menon; Domingues, Pedro Henrique; Cavalim, Paulo
 
 **Year:** 2024
 

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.1609/aaai.v36i10.21368
 url: "http://arxiv.org/abs/2112.06346"
 external_pdf: "http://arxiv.org/pdf/2112.06346.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2022/2022-Qiu-ValueNet.md"
 abstract: "Building a socially intelligent agent involves many challenges, one of which is to teach the agent to speak guided by its value like a human. However, value-driven chatbots are still understudied in the area of dialogue systems. Most existing datasets focus on commonsense reasoning or social norm modeling. In this work, we present a new large-scale human value dataset called VALUENET, which contains human attitudes on 21,374 text scenarios."
 paper_summary: "Abstract: Building a socially intelligent agent involves many chal- lenges, one of which is to teach the agent to speak guided by its value like a human. However, value-driven chatbots are still understudied in | Overview: VALUENET: A New Dataset for Human Value Driven Dialogue System Liang Qiu1, Yizhou Zhao1, Jinchao Li2, Pan Lu1, Baolin Peng2, Jianfeng Gao2, Song-Chun Zhu1 1UCLA Center for Vision, Cognition, Learning, | Methodology: obtains a relative improvement of 5.2% on DistilBERT and | Key Findings: We compare the performance between our imple- mentation and the baseline that directly applies the BERT model for emotion classiﬁcation. As shown in T | Conclusions: We introduce a new dataset for human value modeling, VAL- UENET, which contains 21,374 scenarios in ten distinct hu- man values. We also apply the lea"
 local_pdf: [[PDFs/2022/2022-Qiu-ValueNet.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

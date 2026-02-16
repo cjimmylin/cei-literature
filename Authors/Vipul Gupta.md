@@ -20,10 +20,16 @@ Vipul Gupta is a Research Scientist at Scale AI who completed his PhD from Penn 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gupta-Improving Model Evaluation using SMART Filtering|Improving Model Evaluation using SMART Filtering]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu
+- *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu
 - *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu
 [Additional context or contact information]

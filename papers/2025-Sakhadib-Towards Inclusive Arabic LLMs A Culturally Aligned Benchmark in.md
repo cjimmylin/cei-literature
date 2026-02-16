@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation"
 year: 2025
 first_author: [[Sakhadib]]
-last_author: [[Sakhadib]]
+last_author: "[[Sakhadib]]"
 authors: Sakhadib
 url: "https://aclanthology.org/2025.loreslm-1.29/"
 external_pdf: "https://aclanthology.org/2025.loreslm-1.29.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: Arabic
 religious_values: "N/A"
 religious_values_list: "N/A"

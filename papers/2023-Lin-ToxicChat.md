@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[Lin, Zi]]; [[Wang, Zihan]]; [[Tong, Yongqi]]; [[Wang, Yangkun]]; [[G
 url: "https://aclanthology.org/2023.findings-emnlp.311/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QG932ES4/2023 - ToxicChat Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +25,7 @@ key_contribution: "Released ToxicChat, a benchmark of real-world user-AI convers
 significance: "Reveals that models trained on standard social media data fail to detect the subtle, interaction-based toxicity found in real user-AI chats, highlighting a critical domain gap in safety evaluation."
 tags: 
 abstract: "Despite remarkable advances that large language models have achieved in chatbots, maintaining a non-toxic user-AI interactive environment has become increasingly critical nowadays. However, previous efforts in toxicity detection have been mostly based on benchmarks derived from social media content, leaving the unique challenges inherent to real-world user-AI interactions insufficiently explored. In this work, we introduce TOXICCHAT, a novel benchmark based on real user queries from an..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

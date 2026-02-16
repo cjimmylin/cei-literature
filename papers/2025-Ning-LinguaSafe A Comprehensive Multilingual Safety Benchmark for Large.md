@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,10 +9,10 @@ key: LSRC0436
 type: preprint
 short_title: "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models"
 year: 2025
-first_author: "[[Ning]]"
-last_author: "[[Gu]]"
-authors: "[[Ning]]; [[Gu]]"
-authors_incomplete: true
+first_author: "[[Ning, Zhiyuan]]"
+last_author: "[[Wang, Yingchun]]"
+authors: "[[Ning, Zhiyuan]]; [[Gu, Tianle]]; [[Song, Jiaxin]]; [[Hong, Shixin]]; [[Li, Lingyu]]; [[Liu, Huacan]]; [[Li, Jie]]; [[Wang, Yixu]]; [[Lingyu, Meng]]; [[Teng, Yan]]; [[Wang, Yingchun]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.12733"
 external_pdf: "https://arxiv.org/pdf/2508.12733.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: "12 languages including French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Ning, Gu, et al.]]
+[[Ning, Zhiyuan]], [[Gu, Tianle]], [[Song, Jiaxin]], [[Hong, Shixin]], [[Li, Lingyu]], [[Liu, Huacan]], [[Li, Jie]], [[Yixu Wang|Wang, Yixu]], [[Lingyu, Meng]], [[Yan Teng|Teng, Yan]], [[Yingchun Wang|Wang, Yingchun]]
 
 ## Metadata
 
-**Authors:** Ning, Gu, et al.
+**Authors:** Ning, Zhiyuan; Gu, Tianle; Song, Jiaxin; Hong, Shixin; Li, Lingyu; Liu, Huacan; Li, Jie; Wang, Yixu; Lingyu, Meng; Teng, Yan; Wang, Yingchun
 
 **Year:** 2025
 

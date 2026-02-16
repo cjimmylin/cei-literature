@@ -21,10 +21,16 @@ MaryBeth Defrance is a PhD student in the Department of Electronics and Informat
 ## Papers in this Vault
 
 
+
+
 - [[2024-Defrance-ABCFair|ABCFair]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Defrance-ABCFair*:, Email: marybeth.defrance@ugent.be
+- *From 2024-Defrance-ABCFair*:, Email: tijl.debie@ugent.be
 - *From 2024-Defrance-ABCFair*:, Email: maarten.buyl@ugent.be
 Research co-authored with Maarten Buyl and Tijl De Bie from Ghent University. Work addresses subtle differences in problem settings (stage of intervention, composition of sensitive features, fairness notion, output distribution) that make benchmarking fairness methods highly complicated.

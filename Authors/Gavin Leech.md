@@ -33,6 +33,8 @@ His areas of expertise include Bayesian epidemiology, metascience, computational
 ## Papers in this Vault
 
 
+
+
 - [[2024-Leech-Ten Hard Problems in Artificial Intelligence We|Ten Hard Problems in Artificial Intelligence We]] (First Author)
 
 ## External Links
@@ -44,4 +46,8 @@ His areas of expertise include Bayesian epidemiology, metascience, computational
 
 ## Notes
 
+
+
+- *From 2024-Leech-Ten Hard Problems in Artificial Intelligence We*: Affiliation: University of Bristol and Arb Research
+- *From 2024-Leech-Ten Hard Problems in Artificial Intelligence We*: Affiliation: University of Bristol and Arb Research
 2024 Fellow at the International Strategy Forum. Forecaster and researcher with interests spanning AI safety and metascience.

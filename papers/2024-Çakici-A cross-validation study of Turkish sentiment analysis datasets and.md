@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Turkish"
 languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Sevval Çakici]], [[Dilara Karaduman]], [[Mehmet Akif Çirlan]], [[Ali Hurriyetoglu]]
+[[Çakici, Sevval]], [[Karaduman, Dilara]], [[Çirlan, Mehmet Akif]], [[Hurriyetoglu, Ali]]
 
 ## Metadata
 

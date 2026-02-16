@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Sometimes the Model doth Preach Quantifying"
 year: 2025
 first_author: "[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abhijnan Chakraborty]]"
-last_author: "[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abhijnan Chakraborty]]"
+last_author: "[[Abhijnan Chakraborty]]"
 authors: "[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abhijnan Chakraborty]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.07510"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, American"
+cultures_nationalities_list: "Indian, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Hari Shankar, Vedanta S P, Tejas Cavale, Ponnurangam Kumaraguru, Abhijnan Chakraborty]]
+[[Hari Shankar]], [[Vedanta S P]], [[Tejas Cavale]], [[Ponnurangam Kumaraguru]], [[Abhijnan Chakraborty]]
 
 ## Metadata
 

@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Sun-Axiology AI Ethics MCDA|Axiology AI Ethics MCDA]] (First Author)]]
+
 
 - [[2025-Sun-Axiology AI Ethics MCDA|Axiology AI Ethics MCDA]] (First Author)
 

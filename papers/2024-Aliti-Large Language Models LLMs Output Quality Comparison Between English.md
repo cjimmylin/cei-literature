@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian"
 year: 2025
 first_author: "[[Aliti, Admirim]]"
-last_author: "[[Aliti, Admirim]]"
+last_author: "[[Admirim Aliti]]"
 authors: "[[Aliti, Admirim]]"
 authors_incomplete: true
 url: "https://www.researchgate.net/publication/384927770_Large_Language_Models_LLMs_Output_Quality_Comparison_Between_English_and_Albanian"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Albanian"
 languages_list: "Albanian, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Admirim Aliti et al.]]
+[[Admirim Aliti]]
 
 ## Metadata
 

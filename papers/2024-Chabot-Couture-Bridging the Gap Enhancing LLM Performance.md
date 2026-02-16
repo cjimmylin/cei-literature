@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "Bridging the Gap Enhancing LLM Performance"
 year: 2025
 first_author: "[[Tuka Alhanai, Adam Kasumovic, Mohammad Ghassemi, Aven Zitzelberger, Jessica Lundin, Guillaume Chabot-Couture]]"
-last_author: "[[Tuka Alhanai, Adam Kasumovic, Mohammad Ghassemi, Aven Zitzelberger, Jessica Lundin, Guillaume Chabot-Couture]]"
+last_author: "[[Guillaume Chabot-Couture Jessica Lundin]]"
 authors: "[[Tuka Alhanai, Adam Kasumovic, Mohammad Ghassemi, Aven Zitzelberger, Jessica Lundin, Guillaume Chabot-Couture]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.12417"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Tuka Alhanai, Adam Kasumovic, Mohammad Ghassemi, Aven Zitzelberger, Jessica Lundin, Guillaume Chabot-Couture]]
+[[Adam Kasumovic Tuka Alhanai]], [[Aven Zitzelberger Mohammad Ghassemi]], [[Guillaume Chabot-Couture Jessica Lundin]]
 
 ## Metadata
 

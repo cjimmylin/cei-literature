@@ -1,9 +1,9 @@
 ---
 name: "Kehai Chen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "azure.starzhang@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,10 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating|Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating]]
-- [[2025-Li-XIFBench Evaluating Large Language Models on|XIFBench Evaluating Large Language Models on]]
+
+- [[2025-Zhang-Evaluating and Improving Cultural Awareness of|Evaluating and Improving Cultural Awareness of]]
 
 ## External Links & Profiles
 
@@ -84,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Zhang-Evaluating and Improving Cultural Awareness of*: Affiliation: Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China, Email: zhangmin2021@hit.edu.cn
+- *From 2025-Zhang-Evaluating and Improving Cultural Awareness of*: Affiliation: Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China, Email: azure.starzhang@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

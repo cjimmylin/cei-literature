@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 
 ## Notes
 
 
+
+
+- *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: fenglixu@tsinghua.edu.cn
+- *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: liyong07@tsinghua.edu.cn
 - *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: sukiennikn10@mails.tsinghua.edu.cn
 [Additional context or contact information]

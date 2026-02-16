@@ -10,7 +10,7 @@ type: journalArticle
 short_title: "Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms"
 year: 2025
 first_author: "[[Eunsol Lee]]"
-last_author: "[[Dongyub Oh]]"
+last_author: "[[Dongyub Oh Minseok Kim]]"
 authors: Eunsol Lee, Heeseon Do, Minseok Kim, Dongyub Oh
 doi: 10.3390/app15137561
 url: "https://www.mdpi.com/2076-3417/15/13/7561"
@@ -44,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Eunsol Lee, Heeseon Do, Minseok Kim, Dongyub Oh]]
+[[Hwaran Lee|Heeseon Do Eunsol Lee]], [[Dongyub Oh Minseok Kim]]
 
 ## Metadata
 

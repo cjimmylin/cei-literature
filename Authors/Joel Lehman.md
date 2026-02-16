@@ -25,10 +25,16 @@ Previously, he was a founding member at Uber AI Labs and assistant professor at 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
 
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 Key contribution to AI safety discourse: the paper "Open Questions in Creating Safe Open-ended AI: Tensions Between Control and Creativity" (with Adrien Ecoffet and Jeff Clune) argues that open-ended AI systems present unique safety challenges because their creative capacity may conflict with human oversight and control.

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://arxiv.org/abs/1907.00430"
 external_pdf: "https://arxiv.org/pdf/1907.00430.pdf"
 publication: arXiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2019/2019-Aliman-Requisite Variety Ethical Utility Fu
 abstract: "Being a complex subject of major importance in AI Safety research, value alignment has been studied from various perspectives in the last years. However, no ﬁnal consensus on the design of ethical utility functions facilitating AI value alignment has been achieved yet. Given the urgency to identify systematic solutions, we postulate that it might be useful to start with the simple fact that for the utility function of an AI not to violate human ethical intuitions, it trivially has to be a model..."
 paper_summary: 
 local_pdf: "[[PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

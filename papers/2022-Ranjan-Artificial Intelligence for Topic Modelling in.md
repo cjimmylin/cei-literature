@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Artificial Intelligence for Topic Modelling in"
 year: 2025
 first_author: "[[Rohitash Chandra, Mukul Ranjan]]"
-last_author: "[[Rohitash Chandra, Mukul Ranjan]]"
+last_author: "[[Mukul Ranjan Rohitash Chandra]]"
 authors: "[[Rohitash Chandra, Mukul Ranjan]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.11020"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Buddhism, Hinduism"
 religious_values_list: "Buddhism, Hinduism"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Rohitash Chandra, Mukul Ranjan]]
+[[Mukul Ranjan Rohitash Chandra]]
 
 ## Metadata
 

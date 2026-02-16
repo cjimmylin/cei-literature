@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0314
 type: preprint
 short_title: "UrduBench An Urdu Reasoning Benchmark using"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Shafique, Muhammad Ali]]"
+last_author: "[[Farooq, Hamza]]"
+authors: "[[Shafique, Muhammad Ali]]; [[Mehboob, Areej]]; [[Fiaz, Layba]]; [[Qadeer, Muhammad Usman]]; [[Farooq, Hamza]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.21000"
 external_pdf: "https://arxiv.org/pdf/2601.21000.pdf"
 pdf_extract: "PDF Extracts/2026/2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Urdu, Pakistani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-Unknown
+[[Safinah Ali|Shafique, Muhammad Ali]], [[Mehboob, Areej]], [[Fiaz, Layba]], [[Qadeer, Muhammad Usman]], [[Farooq, Hamza]]
 
 ## Metadata
 
-**Authors:** [[Unknown]]
+**Authors:** Shafique, Muhammad Ali; Mehboob, Areej; Fiaz, Layba; Qadeer, Muhammad Usman; Farooq, Hamza
 
 **Year:** 2026
 

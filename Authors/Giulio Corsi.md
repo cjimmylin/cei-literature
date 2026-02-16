@@ -33,6 +33,8 @@ Corsi's research focuses on AI risks, disinformation, and epistemic security:
 ## Papers in this Vault
 
 
+
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## External Links
@@ -46,5 +48,9 @@ Corsi's research focuses on AI risks, disinformation, and epistemic security:
 ## Notes
 
 
+
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 Applies quantitative methods and ML to analyze AI risks. Research spans climate disinformation and systemic AI risks.

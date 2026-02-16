@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2409.12106"
 external_pdf: "http://arxiv.org/pdf/2409.12106.pdf"
 publication: "AAAI Conference on Artificial Intelligence"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Ye-Measuring Human and AI Values Based on G
 abstract: "Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large language models (LLMs) emerging as both tools and subjects of value measurement. This work introduces Generative Psychometrics for Values (GPV), an LLM-based, data-driven value measurement paradigm, theoretically grounded in text-revealed selective perceptions."
 paper_summary: "Abstract: Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large lan- guage models (LLMs) emerging as both t | Overview: Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models Haoran Ye∗,1, Yuhang Xie∗,2, Yuanyi Ren∗,1, Hanjun Fang3, Xin Zhang4, Guojie Song†,1,5 1State Key Laboratory  | Methodology: studies. Journal of personality and social psychology, 89(6):1010, 2005. [82] S. H. Schwartz, G. Melech, A. Lehmann, S. Burgess, M. Harris, and V. Owe | Key Findings: methods [43, 69, 100], which this work aims to address. 3 --- Page 4 --- 3 Generative Psychometrics for Values (GPV) | Conclusions: Relation to Self-Reports. The items organized in self-report inventories are essentially perceptions that support or oppose specific values [78]. Comp"
 local_pdf: "[[PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

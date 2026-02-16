@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "17 languages including French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Xiaochen Li, Zheng Xin Yong, Stephen Bach]]
+[[Xiaochen Li]], [[Zheng-Xin Yong|Zheng Xin Yong]], [[Stephen H. Bach|Stephen Bach]]
 
 ## Metadata
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "MITRA-zh An Efficient Open Machine Translation"
 year: 2025
 first_author: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
-last_author: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
+last_author: "[[Kurt Keutzer Justin Brody]]"
 authors: "[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Sebastian Nehrdich, Marcus Bingenheimer, Justin Brody, Kurt Keutzer]]
+[[Marcus Bingenheimer Sebastian Nehrdich]], [[Kurt Keutzer Justin Brody]]
 
 ## Metadata
 

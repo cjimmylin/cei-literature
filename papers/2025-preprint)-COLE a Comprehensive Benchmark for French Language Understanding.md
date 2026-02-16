@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0437
 type: preprint
 short_title: "COLE: a Comprehensive Benchmark for French Language Understanding Evaluation"
 year: 2025
-first_author: "[[Khoury, Richard]]"
-last_author: "[[Youssef, Mohamed Amine]]"
-authors: "[[Khoury, Richard]]; [[Tremblay, Yan]]; [[Youssef, Mohamed Amine]]"
-authors_incomplete: true
+first_author: "[[Beauchemin, David]]"
+last_author: "[[Khoury, Richard]]"
+authors: "[[Beauchemin, David]]; [[Tremblay, Yan]]; [[Youssef, Mohamed Amine]]; [[Khoury, Richard]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.05046"
 external_pdf: "https://arxiv.org/pdf/2510.05046.pdf"
 publication: arXiv
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: French
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Khoury, Richard]], [[Tremblay, Yan]], [[Youssef, Mohamed Amine]]
+[[Beauchemin, David]], [[Tremblay, Yan]], [[Youssef, Mohamed Amine]], [[Khoury, Richard]]
 
 ## Metadata
 
-**Authors:** Richard Khoury; Yan Tremblay; Mohamed Amine Youssef
+**Authors:** Beauchemin, David; Tremblay, Yan; Youssef, Mohamed Amine; Khoury, Richard
 
 **Year:** 2025
 

@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Kaiyom-HELM Safety|HELM Safety]]
 - [[2024-Zeng-AIR-Bench 2024|AIR-Bench 2024]]
@@ -25,5 +27,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Additional context or contact information]

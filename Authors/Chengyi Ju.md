@@ -31,6 +31,8 @@ Chengyi Ju is an algorithm researcher at Alibaba Future Laboratory. She collabor
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ju-NaVAB|NaVAB]] (First Author)
 
 ## External Links & Profiles
@@ -39,5 +41,9 @@ Chengyi Ju is an algorithm researcher at Alibaba Future Laboratory. She collabor
 ## Notes
 
 
+
+
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 Chengyi Ju's work on NaVAB is critical for understanding the "cultural fit" of LLMs across different geopolitical regions.

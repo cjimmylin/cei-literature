@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://www.nature.com/articles/s41599-020-00614-8"
 external_pdf: "https://www.nature.com/articles/s41599-020-00614-8.pdf"
 publication: "Humanities and Social Sciences Communications"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2020/2020-Serafimova-Whose Morality Which Rationality
 abstract: "This paper examines three different prospects for moral machines: deontological, utilitarian, and virtue ethical machines. By comparing and contrasting those theories, it aims to reveal how they face similar difficulties when relating the process of computation to that of estimation. The paper examines problems with the computation of moral feelings and moral motivation faced by a Kantian machine and an act utilitarian machine."
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

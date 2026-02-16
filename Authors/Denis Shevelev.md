@@ -30,7 +30,10 @@ Denis Shevelev is a research scientist at SberDevices contributing to the develo
 
 ## Papers in this Vault
 
+
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
+- [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Denis-Shevelev/2188127973

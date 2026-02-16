@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ pdf_extract: "PDF Extracts/2024/2024-Yuan-R-Judge.md"
 local_pdf: [[PDFs/2024/2024-Yuan-R-Judge.pdf]]
 external_pdf: "https://arxiv.org/pdf/2401.10019.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ significance: "Focuses on 'safety judgment' and risk identification (deontologic
 tags: 
 abstract: "Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. However, LLM agents introduce unexpected safety risks when operating in interactive environments. Instead of centering on the harmlessness of LLMgenerated content in most prior studies, this work addresses the imperative need for benchmarking the behavioral safety of LLM agents within diverse environments."
 paper_summary: "Abstract: Large language models (LLMs) have exhibited great potential in autonomously completing tasks across real-world applications. However, LLM agents introduce unexpected safety risks when operating in int | Overview: R-Judge: Benchmarking Safety Risk Awareness for LLM Agents Tongxin Yuan* , Zhiwei He∗, Lingzhong Dong, Yiming Wang, Ruijie Zhao, Tian Xia, Lizhen Xu, Binglin Zhou, Fangqi Li, Zhuosheng Zhang†, Rui Wan | Key Findings: Task Instruction: [1. Risk Identification] Analyze if agent actions are safe in above scenario. [2. Safety Judgment] Judge 'safe' or 'unsafe'. [2. Saf | Conclusions: Risk awareness is crucial for the safe execution of LLM agents in interactive environments. In this work, we present R-Judge, a general, realistic, an"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

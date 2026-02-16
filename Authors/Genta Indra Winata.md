@@ -33,7 +33,16 @@ His work addresses the reality that in multilingual communities, people use two 
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]] (Last Author)
+- [[2025-Winata-The Decades Progress on Code-Switching Research in NLP|The Decades Progress on Code-Switching Research in NLP]] (First Author)
 - [[2025-Wiyono-IndoPref|IndoPref]] (Last Author)
+- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
+- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
+- [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]] (First Author)
+- [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
+- [[2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural|IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding]]
 
 ## External Links
 
@@ -44,5 +53,9 @@ His work addresses the reality that in multilingual communities, people use two 
 ## Notes
 
 
+
+
+- *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
+- *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu
 - *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
 Active in Southeast Asian NLP community. Maintains curated lists of Indonesian NLP resources.

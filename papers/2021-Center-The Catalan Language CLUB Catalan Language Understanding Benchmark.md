@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "The Catalan Language CLUB (Catalan Language Understanding Benchmark)"
 year: 2025
 first_author: "[[Rodriguez-Penagos, Carlos]]"
-last_author: "[[Armentano, Carme]]"
-authors: "[[Rodriguez-Penagos, Carlos]]; [[Carrino, Casimiro]]; [[Armentano, Carme]]"
-authors_incomplete: true
+last_author: "[[Pio, Casimiro Carrino]]"
+authors: "[[Rodriguez-Penagos, Carlos]]; [[Armentano-Oller, Carme]]; [[Villegas, Marta]]; [[Melero, Maite]]; [[Gonzalez, Aitor]]; [[Bonet, Ona de Gibert]]; [[Pio, Casimiro Carrino]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2112.01894"
 external_pdf: "https://arxiv.org/pdf/2112.01894.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Catalan"
 languages_list: Catalan
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Rodriguez-Penagos, Carlos]], [[Carrino, Casimiro]], [[Armentano, Carme]]
+[[Rodriguez-Penagos, Carlos]], [[Armentano, Carme|Armentano-Oller, Carme]], [[Villegas, Marta]], [[Melero, Maite]], [[Gonzalez, Aitor]], [[Bonet, Ona de Gibert]], [[Pio, Casimiro Carrino]]
 
 ## Metadata
 
-**Authors:** Carlos Rodriguez-Penagos; Casimiro Carrino; Carme Armentano
+**Authors:** Rodriguez-Penagos, Carlos; Armentano-Oller, Carme; Villegas, Marta; Melero, Maite; Gonzalez, Aitor; Bonet, Ona de Gibert; Pio, Casimiro Carrino
 
 **Year:** 2021
 

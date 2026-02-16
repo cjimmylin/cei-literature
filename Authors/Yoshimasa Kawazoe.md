@@ -1,7 +1,7 @@
 ---
 name: "Yoshimasa Kawazoe"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Biomedical Informatics, Graduate School of Medicine, The University of Tokyo"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation|Corpus-Based Medical Ethics Decision-Making Evaluation]]]]
+
 
 - [[2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation|Corpus-Based Medical Ethics Decision-Making Evaluation]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation*: Affiliation: Department of Biomedical Informatics, Graduate School of Medicine, The University of Tokyo
+- *From 2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation*: Affiliation: Department of Biomedical Informatics, Graduate School of Medicine, The University of Tokyo
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

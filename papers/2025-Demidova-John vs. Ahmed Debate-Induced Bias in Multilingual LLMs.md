@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs"
 year: 2025
 first_author: "[[Anastasiia Demidova]]"
-last_author: "[[Sanad Sha]]"
+last_author: "[[Sanad Sha Nour Rabih]]"
 authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
 url: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
 external_pdf: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Russian"
+cultures_nationalities_list: "Arabic, Russian"
 languages_list: "Arabic, English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha]]
+[[Hanin Atwany Anastasiia Demidova]], [[Sanad Sha Nour Rabih]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kurdish, Hawrami"
 languages_list: "Kurdish (Hawrami)"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Aram Khaksar]], [[Hossein Hassani]]
+[[Khaksar, Aram]], [[Hassani, Hossein]]
 
 ## Metadata
 

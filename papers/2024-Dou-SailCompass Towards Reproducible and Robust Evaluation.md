@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0524
 type: preprint
 short_title: "SailCompass Towards Reproducible and Robust Evaluation"
 year: 2025
-first_author: "[[Guo, Dou]]"
-last_author: "[[Guo, Dou]]"
-authors: "[[Guo, Dou]]"
-authors_incomplete: true
+first_author: "[[Guo, Jia]]"
+last_author: "[[Liu, Qian]]"
+authors: "[[Guo, Jia]]; [[Dou, Longxu]]; [[Zeng, Guangtao]]; [[Kok, Stanley]]; [[Lu, Wei]]; [[Liu, Qian]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2412.01186"
 external_pdf: "https://arxiv.org/pdf/2412.01186.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Southeast Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Guo, Dou et al]]
+[[Guo, Jia]], [[Dou, Longxu]], [[Zeng, Guangtao]], [[Kok, Stanley]], [[Lu, Wei]], [[Liu, Qian]]
 
 ## Metadata
 
-**Authors:** Guo, Dou et al.
+**Authors:** Guo, Jia; Dou, Longxu; Zeng, Guangtao; Kok, Stanley; Lu, Wei; Liu, Qian
 
 **Year:** 2024
 

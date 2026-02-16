@@ -1,9 +1,9 @@
 ---
 name: "Nadisha-Marie Aliman"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Utrecht, Netherlands"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "nadishamarie.aliman@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2019-Aliman-Requisite Variety Ethical Utility Functions|Requisite Variety Ethical Utility Functions]] (First Author)]]
+
 
 - [[2019-Aliman-Requisite Variety Ethical Utility Functions|Requisite Variety Ethical Utility Functions]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com
+- *From 2019-Aliman-Requisite Variety Ethical Utility Functions*: Affiliation: University, Utrecht, Netherlands, Email: nadishamarie.aliman@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

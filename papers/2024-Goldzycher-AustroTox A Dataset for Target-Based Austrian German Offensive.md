@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "Austrian"
 languages_list: "German (Austrian)"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pado, Hanna Mahler]]
+[[Janis Goldzycher]], [[Anna Maria Planitzer]], [[Claudia Pichler]], [[Sebastian Pado]], [[Hanna Mahler]]
 
 ## Metadata
 

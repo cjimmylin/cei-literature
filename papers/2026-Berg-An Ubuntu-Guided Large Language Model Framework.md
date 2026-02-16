@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "An Ubuntu-Guided Large Language Model Framework"
 year: 2025
 first_author: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
-last_author: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
+last_author: "[[Karen van den Berg Kevin Igwe]]"
 authors: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06875"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African/Ubuntu, South African"
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ DATA_URL: "https://github.com/Sontaga25/Chatbot_FrontEnd.git"
 
 ## Authors
 
-[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]
+[[Absalom E. Ezugwu Sontaga G. Forane]], [[Karen van den Berg Kevin Igwe]]
 
 ## Metadata
 

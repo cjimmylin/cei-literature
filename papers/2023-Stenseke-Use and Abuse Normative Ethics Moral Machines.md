@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://ebooks.iospress.nl/doi/10.3233/FAIA220614"
 external_pdf: N/A
 publication: "Social Robots in Social Institutions (IOS Press)"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract:
 abstract: "The paper asks how we develop AI systems that adhere to human norms and values, and whether it's promising to develop systems based on normative frameworks such as consequentialism, deontology, or virtue ethics. While many machine ethics researchers answer yes, the author challenges this methodological strategy by exploring the difference between normative ethics in human practices versus machines...."
 paper_summary: 
 local_pdf: N/A
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

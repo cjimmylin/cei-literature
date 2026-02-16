@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1007/s43681-024-00571-x
 url: "https://doi.org/10.1007/s43681-024-00571-x"
 external_pdf: N/A
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "European, Dutch"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Evaluates ChatGPT using EU 'trustworthy AI' requirements through 4 ethical lenses: consequentialism, deontology, relational, and virtue ethics"
 significance: "Argues that virtue ethics (character/wisdom) is essential alongside deontology/utilitarianism for evaluating conversational agents"
 abstract: "This paper proposes an approach to ethical reflection and deliberation for Large Language Models (LLMs) like ChatGPT. It utilizes the European Commission's requirements for \"
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

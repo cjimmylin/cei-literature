@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: conference_paper
 short_title: "Classification of Buddhist Verses The Efficacy"
 year: 2025
 first_author: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
-last_author: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
+last_author: "[[Vijay Mago Pawan Lingras]]"
 authors: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
 authors_incomplete: false
 url: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]
+[[Ambuja Salgaonkar Nikita Neveditsin]], [[Vijay Mago Pawan Lingras]]
 
 ## Metadata
 

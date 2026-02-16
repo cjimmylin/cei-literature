@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/G3WM3XWB/Rodríguez Louro a
 pdf_extract: "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
 national_ethnic_cultural: "American, Australian/Aboriginal, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indigenous Australian"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
@@ -26,6 +28,7 @@ tags:
 research_topic: Other
 abstract: "The Yarning Corpus consists of acrolectal Aboriginal English data gathered in metropolitan Perth, WA. It features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. Using this corpus, we sought to uncover variation and change in Aboriginal English in Nyungar Country, Southwest WA. We designed a cross-cultural research model that allowed us to document sociolinguistic aspects of Aboriginal English “yarning” – a First Nations cultural form of storytelling..."
 pdf: "https://doi.org/10.1080/07268602.2024.2380661"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

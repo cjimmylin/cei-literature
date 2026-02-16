@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Zhang-Artificial Intelligence and Moral Dilemmas|AI and Moral Dilemmas]] (First Author)]]
+
 
 - [[2022-Zhang-Artificial Intelligence and Moral Dilemmas|AI and Moral Dilemmas]] (First Author)
 

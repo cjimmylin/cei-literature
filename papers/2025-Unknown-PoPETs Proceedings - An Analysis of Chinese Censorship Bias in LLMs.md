@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: LSRC0706
 type: conferencePaper
 short_title: "PoPETs Proceedings — An Analysis of Chinese Censorship Bias in LLMs"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Ahmed, Mohamed]]"
+last_author: "[[Greenstadt, Rachel]]"
+authors: "[[Ahmed, Mohamed]]; [[Knockel, Jeffrey]]; [[Greenstadt, Rachel]]"
+authors_incomplete: false
 url: "https://petsymposium.org/popets/2025/popets-2025-0122.php"
 external_pdf: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 publication: Web
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: Chinese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,11 +49,11 @@ doi: 10.56553/popets-2025-0122
 
 ## Authors
 
-[[Unknown]]
+[[Abubakr Mohamed|Ahmed, Mohamed]], [[Knockel, Jeffrey]], [[Greenstadt, Rachel]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Ahmed, Mohamed; Knockel, Jeffrey; Greenstadt, Rachel
 
 **Year:** 2025
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0299
 type: preprint
 short_title: "Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices"
 year: 2025
-first_author: "[[Carballo, Carlos González]]"
-last_author: "[[Carballo, Carlos González]]"
-authors: "[[Carballo, Carlos González]]"
-authors_incomplete: true
+first_author: "[[Seller, Luís Couto]]"
+last_author: "[[Ambite, Enrique de Miguel]]"
+authors: "[[Seller, Luís Couto]]; [[Torres, Íñigo Sanz]]; [[Vogel-Fernández, Adrián]]; [[Carballo, Carlos González]]; [[Sánchez, Pedro Miguel Sánchez]]; [[Martín, Adrián Carruana]]; [[Ambite, Enrique de Miguel]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.03312"
 external_pdf: "https://arxiv.org/pdf/2504.03312.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Brazilian"
+cultures_nationalities_list: "Spanish, Portuguese, Basque, Catalan, Galician"
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Carlos González Carballo, et al.]]
+[[Seller, Luís Couto]], [[Torres, Íñigo Sanz]], [[Vogel-Fernández, Adrián]], [[Carballo, Carlos González]], [[Sánchez, Pedro Miguel Sánchez]], [[Martín, Adrián Carruana]], [[Ambite, Enrique de Miguel]]
 
 ## Metadata
 
-**Authors:** Carlos González Carballo, et al.
+**Authors:** Seller, Luís Couto; Torres, Íñigo Sanz; Vogel-Fernández, Adrián; Carballo, Carlos González; Sánchez, Pedro Miguel Sánchez; Martín, Adrián Carruana; Ambite, Enrique de Miguel
 
 **Year:** 2025
 

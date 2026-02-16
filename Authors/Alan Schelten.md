@@ -32,9 +32,16 @@ Alan's research addresses the systemic issue of hallucinations in Large Language
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]]
 
 ## Notes
 
+
+
+- *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: pascalefung@meta.com
+- *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: pascalefung@meta.com
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk
 [Specializes in the intersection of large-scale systems engineering and model reliability.]

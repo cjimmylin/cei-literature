@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Representing the Under-Represented Cultural and Core"
 year: 2025
 first_author: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
-last_author: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
+last_author: "[[Peerachet Porkaew]]"
 authors: "[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.04795"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Sawit Kasuriya, Parinthapat Pengpun, Peerat Limkonchotiwat, Potsawee Manakul, Can Udomcharoenchaikit, Kunat Pipatanakul, Phatrasek Jirabovonvisut, Kanokorn Srimai, Peerachet Porkaew]]
+[[Sawit Kasuriya]], [[Parinthapat Pengpun]], [[Peerat Limkonchotiwat]], [[Potsawee Manakul]], [[Can Udomcharoenchaikit]], [[Kunat Pipatanakul]], [[Phatrasek Jirabovonvisut]], [[Kanokorn Srimai]], [[Peerachet Porkaew]]
 
 ## Metadata
 

@@ -1,9 +1,9 @@
 ---
 name: "Tu Trinh"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Center for Human-Compatible AI, UC Berkeley"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "alexandrasouly@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Souly-StrongREJECT|StrongREJECT]]]]
+
 
 - [[2024-Souly-StrongREJECT|StrongREJECT]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
+- *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

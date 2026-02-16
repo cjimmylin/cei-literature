@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers"
 year: 2025
 first_author: "[[Mueller-Eberstein, Max]]"
-last_author: "[[Mueller-Eberstein, Max]]"
+last_author: "[[Max Mueller-Eberstein]]"
 authors: "[[Mueller-Eberstein, Max]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2504.02403"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Danish"
 languages_list: Danish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Max Mueller-Eberstein et al.]]
+[[Max Mueller-Eberstein]]
 
 ## Metadata
 

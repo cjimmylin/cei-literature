@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware"
 year: 2025
 first_author: "[[team, VISTEC / AIResearch.in.th]]"
-last_author: "[[team, VISTEC / AIResearch.in.th]]"
+last_author: "[[VISTEC AIResearch.in.th team]]"
 authors: "[[VISTEC / AIResearch.in.th team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15239"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[VISTEC / AIResearch.in.th team]]
+[[VISTEC AIResearch.in.th team]]
 
 ## Metadata
 

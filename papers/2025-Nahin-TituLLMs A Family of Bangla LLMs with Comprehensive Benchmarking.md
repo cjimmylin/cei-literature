@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Shahriar Kabir Nahin]], [[Rabindra Nath Nandi]], [[Sagor Sarker]], [[Quazi Sarwar Muhtaseem]], [[Md Kowsher]], [[Apu Chandraw Shill]], [[Md Ibrahim]], [[Mehadi Hasan Menon]], [[Tareq Al Muntasir]], [[Firoj Alam]]
+[[Nahin, Shahriar Kabir]], [[Nandi, Rabindra Nath]], [[Sarker, Sagor]], [[Muhtaseem, Quazi Sarwar]], [[Kowsher, Md]], [[Shill, Apu Chandraw]], [[Ibrahim, Md]], [[Menon, Mehadi Hasan]], [[Al Muntasir, Tareq]], [[Alam, Firoj]]
 
 ## Metadata
 

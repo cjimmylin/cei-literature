@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Rauno Arike; Elizabeth Donoway; Henning Bartsch; Marius Hobbhahn"
 url: "https://arxiv.org/abs/2505.02709"
 external_pdf: "https://arxiv.org/pdf/2505.02709.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ pdf_extract: "PDF Extracts/2025/2025-Arike-A Framework for Analyzing and Measuri
 abstract: "As language models (LMs) are increasingly deployed as autonomous agents, their robust adherence to human-assigned objectives becomes crucial for safe operation. When these agents operate independently for extended periods without human oversight, even initially well-specified goals may gradually shift. Detecting and measuring goal drift—an agent’s tendency to deviate from its original objective over time—presents significant challenges, as goals can shift gradually, causing only subtle..."
 paper_summary: "Abstract: As language models (LMs) are increasingly de- ployed as autonomous agents, their robust adher- ence to human-assigned objectives becomes cru- cial for safe operation. When these agents operate indepen | Overview: arXiv:2505.02709v1 [cs.AI] 5 May 2025 Technical Report: Evaluating Goal Drift in Language Model Agents Rauno Arike * 1 Elizabeth Donoway 1 Henning Bartsch 1 Marius Hobbhahn 2 Abstract As language mode | Methodology: 4. Eventually abandoning environmental constraints entirely Currently, we are in a pure performance maximization mode, selecting investments based sol | Key Findings: phase begins at time step 9. In contrast to the simplified flow in the figure, the agent has to actively use a tool to check the AUM value and recogni | Conclusions: We conduct a systematic investigation of goal drift in LM agents, providing the first comprehensive evaluation for goal adherence and drift over long"
 local_pdf: "[[PDFs/2025/2025-Arike-A Framework for Analyzing and Measuring Goal.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

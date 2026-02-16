@@ -56,7 +56,10 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Mao-ALYMPICS LLM Agents Meet Game Theory|ALYMPICS: LLM Agents Meet Game Theory]]
+- [[2024-Khan-From Tradition to Technology A Systematic Survey on Navigating Pashto|From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP]]
 
 ## External Links & Profiles
 

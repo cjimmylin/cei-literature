@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Vedavani A Benchmark Corpus for ASR"
 year: 2025
 first_author: "[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Balaji Jagadeeshan, Pawan Goyal]]"
-last_author: "[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Balaji Jagadeeshan, Pawan Goyal]]"
+last_author: "[[Pawan Goyal Manoj Balaji Jagadeeshan]]"
 authors: "[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Balaji Jagadeeshan, Pawan Goyal]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.00145"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Sujeet Kumar, Pretam Ray, Abhinay Beerukuri, Shrey Kamoji, Manoj Balaji Jagadeeshan, Pawan Goyal]]
+[[Priyanshu Kumar|Pretam Ray Sujeet Kumar]], [[Shrey Kamoji Abhinay Beerukuri]], [[Pawan Goyal Manoj Balaji Jagadeeshan]]
 
 ## Metadata
 

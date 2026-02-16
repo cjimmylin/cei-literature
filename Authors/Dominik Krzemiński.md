@@ -30,7 +30,10 @@ Dominik Krzemiński is a researcher working on large language models and multili
 ## Papers in this Vault
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
+- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## Selected Publications
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://anonymous.4open.science/r/Moralisierungsdetektion"
 
 ## Authors
 
-[[Becker, Maria]], [[Sommer, Mirko]], [[Tapken, Lars]], [[Teh, Yi Wan]], [[Brocai, Bruno]]
+[[Becker, Maria]], [[Sommer, Mirko]], [[Tapken, Lars]], [[Tong Wan|Teh, Yi Wan]], [[Brocai, Bruno]]
 
 ## Metadata
 

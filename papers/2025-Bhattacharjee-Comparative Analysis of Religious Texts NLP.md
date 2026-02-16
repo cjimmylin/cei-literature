@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Comparative Analysis of Religious Texts NLP"
 year: 2025
 first_author: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhattacharjee]]"
-last_author: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhattacharjee]]"
+last_author: "[[Shrutilipi Bhattacharjee Pranav M Kapparad]]"
 authors: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhattacharjee]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Islam, Christianity, Hinduism"
 religious_values_list: "Islam, Christianity, Hinduism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhattacharjee]]
+[[Ishan Godbole Mahit Nandan A D]], [[Shrutilipi Bhattacharjee Pranav M Kapparad]]
 
 ## Metadata
 

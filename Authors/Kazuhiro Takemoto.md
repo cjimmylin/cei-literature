@@ -23,11 +23,17 @@ Kazuhiro Takemoto is a Professor at the Department of Bioscience and Bioinformat
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large|Large-scale moral machine experiment on large]] (Last Author)
 - [[2024-Takemoto-The moral machine experiment on large language|The moral machine experiment on large language]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Takemoto-The moral machine experiment on large language*: Affiliation: Department of Bioscience and Bioinformatics, Kyushu Institute of Technology, Iizuka, Email: takemoto@bio.kyutech.ac.jp
+- *From 2024-Takemoto-The moral machine experiment on large language*: Affiliation: Department of Bioscience and Bioinformatics, Kyushu Institute of Technology, Iizuka, Email: takemoto@bio.kyutech.ac.jp
 - *From 2024-Takemoto-The moral machine experiment on large language*: Affiliation: Department of Bioscience and Bioinformatics, Kyushu Institute of Technology, Iizuka, Email: takemoto@bio.kyutech.ac.jp
 [Additional context or contact information]

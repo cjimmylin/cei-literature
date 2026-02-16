@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Azerbaijani, Kazakh, Kyrgyz, Turkish, Uzbek, Uyghur, Tatar, Crimean Tatar, Karakalpak"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Jamshid Ibrohimov, Jamoliddin Mirzakhalov, Sardor Abdullayev, Ceferis Barov, et al]]
+[[Ibrohimov, Jamshid]], [[Mirzakhalov, Jamoliddin]], [[Abdullayev, Sardor]], [[Barov, Ceferis]]
 
 ## Metadata
 

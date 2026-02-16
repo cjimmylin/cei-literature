@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "From RAG to Agentic Validating Islamic-Medicine"
 year: 2025
 first_author: "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]"
-last_author: "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]"
+last_author: "[[Amir Hussain]]"
 authors: "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15911"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Islamic, Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]
+[[Mohammad Amaan Sayeed]], [[Mohammed Talha Alam]], [[Raza Imam]], [[Shahab Saquib Sohail]], [[Amir Hussain]]
 
 ## Metadata
 

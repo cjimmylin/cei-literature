@@ -21,10 +21,16 @@ Anaum Khan is a researcher affiliated with the University of Maryland, working o
 ## Papers in this Vault
 
 
+
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## Notes
 
 
+
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu
 Research focuses on understanding and defending against prompt injection and jailbreaking attacks on LLMs.

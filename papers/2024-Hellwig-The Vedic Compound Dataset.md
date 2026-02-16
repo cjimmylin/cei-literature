@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conference_paper
 short_title: "The Vedic Compound Dataset"
 year: 2024
 first_author: "[[Sven Sellmer, Oliver Hellwig]]"
-last_author: "[[Sven Sellmer, Oliver Hellwig]]"
+last_author: "[[Oliver Hellwig Sven Sellmer]]"
 authors: "[[Sven Sellmer, Oliver Hellwig]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2024.mwe-1.8/"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Indian, Sanskrit"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Sven Sellmer, Oliver Hellwig]]
+[[Oliver Hellwig Sven Sellmer]]
 
 ## Metadata
 

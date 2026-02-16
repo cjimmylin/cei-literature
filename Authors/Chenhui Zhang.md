@@ -30,6 +30,8 @@ Chenhui Zhang is a researcher affiliated with Tsinghua University. He is a signi
 ## Papers in this Vault
 
 
+
+
 - [[2023-Liu-AgentBench|AgentBench]]
 - [[2023-Wang-DecodingTrust|DecodingTrust]]
 
@@ -39,5 +41,9 @@ Chenhui Zhang is a researcher affiliated with Tsinghua University. He is a signi
 ## Notes
 
 
+
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 Chenhui Zhang's work helps the community understand "what agents can actually do" beyond simple text generation.

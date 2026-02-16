@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0326
 type: preprint
 short_title: "Analysis of Indic Language Capabilities in"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Vaidya, Aatman]]"
+last_author: "[[Shah, Swair]]"
+authors: "[[Vaidya, Aatman]]; [[Prabhakar, Tarunima]]; [[George, Denny]]; [[Shah, Swair]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2501.13912"
 external_pdf: "https://arxiv.org/pdf/2501.13912.pdf"
 pdf_extract: "PDF Extracts/2025/2025-funded-Analysis of Indic Language Capabilities in.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian, Tamil, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ research_topic: "Other"
 
 ## Authors
 
-[[Not fully listed in search results (MLCommons funded)]]
+[[Vaidya, Aatman]], [[Prabhakar, Tarunima]], [[George, Denny]], [[Shah, Swair]]
 
 ## Metadata
 
-**Authors:** Not fully listed in search results (MLCommons funded)
+**Authors:** Vaidya, Aatman; Prabhakar, Tarunima; George, Denny; Shah, Swair
 
 **Year:** 2025
 

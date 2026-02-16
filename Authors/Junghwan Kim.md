@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Lee-KorNAT|KorNAT]]
 
 ## Notes
 
 
+
+
+- *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com
+- *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 4hwaran.lee@navercorp.com
 - *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com
 [Additional context or contact information]

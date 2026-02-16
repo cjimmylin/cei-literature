@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "KazBench-KK A Cultural-Knowledge Benchmark for Kazakh"
 year: 2025
 first_author: "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]"
-last_author: "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]"
+last_author: "[[Pavel Zubitski Timur Akishev]]"
 authors: "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.fieldmatters-1.4/"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]
+[[Sanzhar Murzakhmetov Sanzhar Umbet]], [[Kirill Yakunin Beksultan Sagyndyk]], [[Pavel Zubitski Timur Akishev]]
 
 ## Metadata
 

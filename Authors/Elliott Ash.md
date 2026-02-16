@@ -35,6 +35,9 @@ Elliott Ash is a Professor of Law, Economics, and Data Science at ETH Zurich. He
 ## Papers in this Vault
 
 
+
+
+- [[2025-Fan-LEXam|LEXam]]
 - [[2020-Mainali-Automated Classification of Modes of Moral|Automated Classification of Modes of Moral]]
 
 ## External Links
@@ -46,5 +49,9 @@ Elliott Ash is a Professor of Law, Economics, and Data Science at ETH Zurich. He
 ## Notes
 
 
+
+
+- *From 2020-Mainali-Automated Classification of Modes of Moral*: Affiliation: research centers, Email: nischal.mainali@nyu.edu
+- *From 2020-Mainali-Automated Classification of Modes of Moral*: Affiliation: research centers, Email: nischal.mainali@nyu.edu
 - *From 2020-Mainali-Automated Classification of Modes of Moral*: Affiliation: research centers, Email: e.ash@warwick.ac.uk
 Elliott Ash's work on automated moral reasoning classification is foundational for computational ethics research, providing methods to analyze ethical arguments in large text corpora.

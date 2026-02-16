@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,20 +11,22 @@ key: LSRC0160
 type: journalArticle
 short_title: "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
 year: 2025
-first_author: "[[Haq, Ijaz Ul]]"
-last_author: "[[Haq, Ijaz Ul]]"
-authors: "[[Haq, Ijaz Ul]]"
-authors_incomplete: true
+first_author: "[[Haq, Ijazul]]"
+last_author: "[[Tang, Peng]]"
+authors: "[[Haq, Ijazul]]; [[Qiu, Weidong]]; [[Guo, Jie]]; [[Tang, Peng]]"
+authors_incomplete: false
 url: "https://peerj.com/articles/cs-1617/"
 external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"
 publication: "PeerJ Computer Science"
 pdf_extract: "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md"
 local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
+DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Pashtun"
 languages_list: Pashto
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Ijaz Ul Haq, Dongji Qiu et al.]]
+[[Haq, Ijazul]], [[Qiu, Weidong]], [[Guo, Jie]], [[Tang, Peng]]
 
 ## Metadata
 
-**Authors:** Ijaz Ul Haq, Dongji Qiu et al.
+**Authors:** Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng
 
 **Year:** 2023
 

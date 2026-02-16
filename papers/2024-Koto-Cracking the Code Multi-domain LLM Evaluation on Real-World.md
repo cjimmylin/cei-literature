@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia"
 year: 2025
 first_author: "[[Koto, Fajri]]"
-last_author: "[[Koto, Fajri]]"
+last_author: "[[Fajri Koto]]"
 authors: "[[Koto, Fajri]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.08564"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"

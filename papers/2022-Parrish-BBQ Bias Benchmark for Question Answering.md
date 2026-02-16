@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "BBQ (Bias Benchmark for Question Answering)"
 year: 2025
 first_author: "[[Parrish, Alicia]]"
-last_author: "[[Bowman, Samuel R.]]"
+last_author: "[[Bowman, Samuel R]]"
 authors: "[[Parrish, Alicia]]; [[Chen, Angelica]]; [[Nangia, Nikita]]; [[Padmakumar, Vishakh]]; [[Phang, Jason]]; [[Thompson, Jana]]; [[Htut, Phu Mon]]; [[Bowman, Samuel R.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2110.08193"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://github.com/nyu-mll/BBQ"
 
 ## Authors
 
-[[Parrish, Alicia]], [[Chen, Angelica]], [[Nangia, Nikita]], [[Padmakumar, Vishakh]], [[Phang, Jason]], [[Thompson, Jana]], [[Htut, Phu Mon]], [[Bowman, Samuel R.]]
+[[Alicia Parrish|Parrish, Alicia]], [[Angelica Chen|Chen, Angelica]], [[Nikita Nangia|Nangia, Nikita]], [[Vishakh Padmakumar|Padmakumar, Vishakh]], [[Jason Phang|Phang, Jason]], [[Jana Thompson|Thompson, Jana]], [[Phu Mon Htut|Htut, Phu Mon]], [[Bowman, Samuel R]]
 
 ## Metadata
 

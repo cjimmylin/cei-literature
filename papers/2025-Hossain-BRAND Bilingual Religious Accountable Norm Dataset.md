@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "BRAND: Bilingual Religious Accountable Norm Dataset"
 year: 2025
 first_author: "[[Hossain, Kazi Abrab]]"
-last_author: "[[Sadeque, Farig Y.]]"
+last_author: "[[Sadeque, Farig Y]]"
 authors: "[[Hossain, Kazi Abrab]]; [[Mahmud, Jannatul Somiya]]; [[Tuli, Maria Hossain]]; [[Mitra, Anik]]; [[Haque, S. M. Taiabul]]; [[Sadeque, Farig Y.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.03943"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi, Bengali, South Asian"
 religious_values: "Islam, Christianity, Buddhism, Hinduism"
 religious_values_list: "Islam, Christianity, Buddhism, Hinduism"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://anonymous.4open.science/r/BRAND/README.md"
 
 ## Authors
 
-[[Hossain, Kazi Abrab]], [[Mahmud, Jannatul Somiya]], [[Tuli, Maria Hossain]], [[Mitra, Anik]], [[Haque, S. M. Taiabul]], [[Sadeque, Farig Y.]]
+[[Hossain, Kazi Abrab]], [[Mahmud, Jannatul Somiya]], [[Tuli, Maria Hossain]], [[Mitra, Anik]], [[Haque, S. M. Taiabul]], [[Sadeque, Farig Y]]
 
 ## Metadata
 

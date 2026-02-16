@@ -30,10 +30,16 @@ He is a founder of ai-evaluation.org and aievaluation.substack.com, a member of 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## Notes
 
 
+
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 Recent influential work includes "Larger and more instructable language models become less reliable" (Nature, 2024), demonstrating concerning inverse scaling properties in LLMs. His evaluation frameworks are increasingly important as AI capabilities advance and reliable measurement becomes critical for safety.

@@ -1,6 +1,6 @@
 ---
 name: "MLCommons AI Safety Working Group"
-affiliation: University/Organization
+affiliation: "lable Italian datasets"
 research_interests: 
 website: 
 google_scholar: 
@@ -23,3 +23,9 @@ University/Organization
 - Website:
 - Google Scholar:
 - Semantic Scholar:
+
+## Papers in this Vault
+
+
+- [[2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to|AILuminate LLM v1.1: Adding French Language Capabilities to Industry-Leading AI Safety Benchmark]] (First Author)
+- [[2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text|HATE-ITA: Hate Speech Detection in Italian Social Media Text]] (First Author)

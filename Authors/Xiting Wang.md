@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Yao-From Instructions to Intrinsic Human Values -- A|From Instructions to Intrinsic Human Values -- A]]
 - [[2023-Yao-Value FULCRA|Value FULCRA]]
 
 ## Notes
 
 
+
+
+- *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
+- *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
 - *From 2023-Yao-From Instructions to Intrinsic Human Values -- A*: Affiliation: lable resources for future research
 [Additional context or contact information]

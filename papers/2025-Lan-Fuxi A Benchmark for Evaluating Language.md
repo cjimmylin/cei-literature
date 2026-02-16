@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Fuxi A Benchmark for Evaluating Language"
 year: 2025
 first_author: "[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan]]"
-last_author: "[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan]]"
+last_author: "[[Man Lan]]"
 authors: "[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.15837"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Shangqing Zhao, Yuhao Zhou, Yupei Ren, Zhe Chen, Chenghao Jia, Fang Zhe, Zhaogaung Long, Shu Liu, Man Lan]]
+[[Shangqing Zhao]], [[Yuhao Zhou]], [[Yuanyi Ren|Yupei Ren]], [[Zhe Chen]], [[Chenghao Jia]], [[Fang Zhe]], [[Zhaogaung Long]], [[Shu Liu]], [[Man Lan]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 languages_list: Odia
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Guneet Singh Kohli]], [[Shantipriya Parida]], [[Sambit Sekhar]], [[Samirit Saha]], [[Nipun B Nair]], [[Parul Agarwal]], [[Sonal Khosla]], [[Kusumlata Patiyal]], [[Debasish Dhal]]
+[[Kohli, Guneet Singh]], [[Parida, Shantipriya]], [[Sekhar, Sambit]], [[Saha, Samirit]], [[Nair, Nipun B]], [[Agarwal, Parul]], [[Khosla, Sonal]], [[Patiyal, Kusumlata]], [[Dhal, Debasish]]
 
 ## Metadata
 

@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]] (First Author)]]
 
-- [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]] (First Author)
+
+- [[2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for|Consolidating and Developing Benchmarking Datasets for]]
 
 ## External Links & Profiles
 

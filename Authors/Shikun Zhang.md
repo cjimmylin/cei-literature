@@ -1,7 +1,7 @@
 ---
 name: "Shikun Zhang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Research Center for Software Engineering, Peking University, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Mou-SGBench|SG-Bench]]
 
+
+- [[2024-Mou-SGBench|SGBench]]
 
 ## External Links & Profiles
 
@@ -82,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Mou-SGBench*: Affiliation: Research Center for Software Engineering, Peking University, China
+- *From 2024-Mou-SGBench*: Affiliation: Research Center for Software Engineering, Peking University, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

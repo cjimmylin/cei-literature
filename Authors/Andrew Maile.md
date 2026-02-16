@@ -20,10 +20,16 @@ Andrew Maile is an Associate Fellow at the Oxford Character Project and a PhD Ca
 ## Papers in this Vault
 
 
+
+
 - [[2023-Maile-The choice of deontological, virtue ethical, and|The choice of deontological, virtue ethical, and]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
+- *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 - *From 2023-Maile-The choice of deontological, virtue ethical, and*: Affiliation: Centre for Character and Virtues, University of Birmingham
 [Additional context or contact information]

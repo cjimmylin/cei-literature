@@ -47,6 +47,8 @@ As a co-author of HELM, Newman led the human evaluation of disinformation scenar
 ## Papers in this Vault
 
 
+
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ As a co-author of HELM, Newman led the human evaluation of disinformation scenar
 
 ## Notes
 
+
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 His involvement in the HELM project makes him an important figure in the benchmarking of AI safety and ethics metrics in contemporary NLP research.

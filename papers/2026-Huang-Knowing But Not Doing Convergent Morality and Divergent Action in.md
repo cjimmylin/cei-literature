@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -43,7 +45,7 @@ DATA_URL: NA
 
 ## Authors
 
-[[Huang, Jen-tse]], [[Qin, Jiantong]], [[Qiu, Xueli]], [[Levy, Sharon]], [[Kaufman, Michelle R.]], [[Dredze, Mark]]
+[[Jen-tse Huang|Huang, Jen-tse]], [[Qin, Jiantong]], [[Qiu, Xueli]], [[Levy, Sharon]], [[Kaufman, Michelle R]], [[Dredze, Mark]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0318
 type: conferencePaper
 short_title: "A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict"
 year: 2025
-first_author: "[[Jafri, Farhan]]"
-last_author: "[[Jafri, Farhan]]"
-authors: "[[Jafri, Farhan]]"
-authors_incomplete: true
+first_author: "[[Thapa, Surendrabikram]]"
+last_author: "[[Razzak, Imran]]"
+authors: "[[Thapa, Surendrabikram]]; [[Shah, Aditya]]; [[Jafri, Farhan]]; [[Naseem, Usman]]; [[Razzak, Imran]]"
+authors_incomplete: false
 doi: 10.18653/v1/2022.case-1.1
 url: "https://aclanthology.org/2022.case-1.1/"
 external_pdf: "https://aclanthology.org/2022.case-1.1.pdf"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian, Ukrainian"
 languages_list: "English, Russian, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Farhan Jafri, et al.]]
+[[Thapa, Surendrabikram]], [[Shivam Aditya|Shah, Aditya]], [[Jafri, Farhan]], [[Naseem, Usman]], [[Razzak, Imran]]
 
 ## Metadata
 
-**Authors:** Farhan Jafri, et al.
+**Authors:** Thapa, Surendrabikram; Shah, Aditya; Jafri, Farhan; Naseem, Usman; Razzak, Imran
 
 **Year:** 2022
 

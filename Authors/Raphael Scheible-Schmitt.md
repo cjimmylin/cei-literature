@@ -1,9 +1,9 @@
 ---
 name: "Raphael Scheible-Schmitt"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Computation, Information and Technology, Technical University of Munich, Germany"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "raphael.schmitt@uniklinik-freiburg.de"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight|Schmitt-HalleluBERT Let every token that has meaning bear its weight]]
+
+- [[2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight|HalleluBERT: Let every token that has meaning bear its weight]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight*: Affiliation: School of Computation, Information and Technology, Technical University of Munich, Germany, Email: raphael.schmitt@uniklinik-freiburg.de
+- *From 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight*: Affiliation: School of Computation, Information and Technology, Technical University of Munich, Germany, Email: raphael.schmitt@uniklinik-freiburg.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

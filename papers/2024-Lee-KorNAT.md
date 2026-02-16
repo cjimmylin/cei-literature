@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ doi: 10.18653/v1/2024.findings-acl.666
 url: "https://aclanthology.org/2024.findings-acl.666/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/K6EDWHWM/Lee et al. - 2024 - KorNAT LLM Alignment Benchmark for Korean Social Values and Common Knowledge.pdf"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -18,10 +18,18 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2022-Das-Hate Speech and Offensive Language Detection|Hate Speech and Offensive Language Detection]]
+- [[2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection|HateCheckHIn Evaluating Hindi Hate Speech Detection]]
 - [[2020-Mathew-HateXplain|HateXplain]]
 
 ## Notes
 
 
+
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: yimam@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in
 [Additional context or contact information]

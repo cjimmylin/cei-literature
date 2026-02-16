@@ -33,6 +33,8 @@ Derek Powell is a cognitive scientist studying moral judgment, causal reasoning,
 
 ## Papers in this Vault
 
+
+
 - [[2016-Holyoak-Deontological coherence|Deontological coherence]] (Last Author)
 
 ## Links

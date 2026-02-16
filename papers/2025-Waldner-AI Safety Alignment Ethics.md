@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_WALDNER2025
@@ -14,6 +16,7 @@ url: "https://arxiv.org/abs/2509.24065"
 pdf_extract: "PDF Extracts/2025/2025-Waldner-AI Safety Alignment Ethics.md"
 local_pdf: "[[PDFs/2025/2025-Waldner-AI Safety Alignment Ethics.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -22,6 +25,7 @@ key_contribution: "Proposes framework connecting moral representation learning w
 significance: "Comprehensive framework viewing moral norms through evolutionary lens with neural network encoding techniques"
 external_pdf: "https://arxiv.org/pdf/2509.24065"
 abstract: "This work examines how to embed ethical principles directly into AI systems by viewing moral norms through an evolutionary lens. Rather than applying ethics as an afterthought, the author proposes a framework connecting moral representation learning with system design and governance. The research employs neural network techniques like sparse autoencoders and activation steering to encode cooperative norms as learnable representations, then applies game theory and replicator dynamics to model how these representations can shape institutional incentives for maintaining human-AI cooperation as AI capabilities advance. Virtue ethics offers a complementary paradigm that reframes alignment not as outcome optimization but as character formation - instead of selecting actions by maximizing scalar utilities, a virtue-guided system is shaped to maintain stable dispositions like honesty, courage, generosity, and prudence."
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

@@ -34,6 +34,8 @@ Dr. Christopher Kello is Professor and Department Chair of Cognitive & Informati
 
 ## Papers in this Vault
 
+
+
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
 ## External Links & Profiles
@@ -45,5 +47,9 @@ Dr. Christopher Kello is Professor and Department Chair of Cognitive & Informati
 
 ## Notes
 
+
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: tomg@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 His work on cognitive science and concept alignment is relevant to AI ethics and alignment research. Understanding how human cognition processes concepts and meaning is foundational for developing AI systems that can align with human understanding and values.

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2406.04214"
 external_pdf: "http://arxiv.org/pdf/2406.04214.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Ren-ValueBench.md"
 abstract: "Large Language Models (LLMs) are transforming diverse fields and gaining increasing influence as human proxies. This development underscores the urgent need for evaluating value orientations and understanding of LLMs to ensure their responsible integration into public-facing applications. This work introduces ValueBench, the first comprehensive psychometric benchmark for evaluating value orientations and value understanding in LLMs."
 paper_summary: "Abstract: Large Language Models (LLMs) are trans- forming diverse fields and gaining increasing influence as human proxies. This develop- ment underscores the urgent need for evalu- ating value orientations and | Overview: ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models Yuanyi Ren1, Haoran Ye1, Hanjun Fang2, Xin Zhang3, Guojie Song1,4,∗ 1National Key Laborator | Key Findings: of LLMs to settings demanding more powerful se- mantic understanding and reasoning skills. This evaluation also examines LLMs' potential to per- form  | Conclusions: This work presents ValueBench, a comprehensive benchmark for evaluating value orientations and understanding in LLMs. ValueBench comprises hundreds of"
 local_pdf: [[PDFs/2024/2024-Ren-ValueBench.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

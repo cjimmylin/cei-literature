@@ -46,6 +46,8 @@ Chen authored the paper "Leveraging large language models to assist healthcare,"
 ## Papers in this Vault
 
 
+
+
 - [[2025-Chen-Leveraging large language models to assist|Leveraging large language models to assist]] (First Author)
 
 ## External Links & Profiles
@@ -55,5 +57,9 @@ Chen authored the paper "Leveraging large language models to assist healthcare,"
 
 ## Notes
 
+
+
+- *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: liangzhao@whu.edu.cn
+- *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: liangzhao@whu.edu.cn
 - *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: xiaojunding@xjtu.edu.cn
 His work is particularly relevant to the "grounding" of AI ethics in practical, high-stakes domains where the consequences of model errors are direct and physiological.

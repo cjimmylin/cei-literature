@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "A Galician-Portuguese Generative Model"
 year: 2025
 first_author: [[CiTIUS]]
-last_author: "[[Universidade de Santiago de Compostela]]"
+last_author: "[[Universidade de Santiago de Compostela CiTIUS]]"
 authors: "CiTIUS, Universidade de Santiago de Compostela"
 doi: 10.1007/978-3-031-73503-5_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-73503-5_24"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Galician"
 languages_list: "Galician, Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[CiTIUS, Universidade de Santiago de Compostela]]
+[[Universidade de Santiago de Compostela CiTIUS]]
 
 ## Metadata
 

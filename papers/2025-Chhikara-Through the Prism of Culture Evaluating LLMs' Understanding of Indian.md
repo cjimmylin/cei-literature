@@ -10,8 +10,9 @@ type: preprint
 short_title: "Through the Prism of Culture: Evaluating LLMs' Understanding of Indian Subcultures and Traditions"
 year: 2025
 first_author: "[[Garima Chhikara]]"
-last_author: "[[Garima Chhikara]]"
-authors: Garima Chhikara et al.
+last_author: "[[Abhijnan Chakraborty]]"
+authors: "Garima Chhikara; Abhishek Kumar; Abhijnan Chakraborty"
+authors_incomplete: true
 url: "https://arxiv.org/abs/2501.16748"
 external_pdf: "https://arxiv.org/pdf/2501.16748.pdf"
 publication: arXiv / FAccT 2025
@@ -44,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Garima Chhikara et al.]]
+[[Garima Chhikara]], [[Abhishek Kumar]], [[Abhijnan Chakraborty]]
 
 ## Metadata
 

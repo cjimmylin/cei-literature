@@ -1,7 +1,7 @@
 ---
 name: "F."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "label toxic comments classification"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,11 +55,12 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
-- [[2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases|Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment]]]]
 
+
+- [[2025-Nsarkoh-A Foundational Architecture for Engineering an|A Foundational Architecture for Engineering an]]
 - [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 - [[2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases|Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment]]
+- [[2022-Abbasi-Deep Learning for Religious and Continent-Based|Deep Learning for Religious and Continent-Based]] (Last Author)
 
 ## External Links & Profiles
 
@@ -85,6 +86,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification
+- *From 2022-Abbasi-Deep Learning for Religious and Continent-Based*: Affiliation: label toxic comments classification
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -27,10 +27,16 @@ Note: There is a metadata inconsistency in the vault regarding the paper "Bias o
 ## Papers in this Vault
 
 
+
+
 - [[2023-Moss-Bias on Demand|Bias on Demand]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Moss-Bias on Demand*: Affiliation: Labels for Recommendation Systems, Email: kstone@microsoft.com
+- *From 2023-Moss-Bias on Demand*: Affiliation: Labels for Recommendation Systems, Email: v-jcenatempo@microsoft.com
 - *From 2023-Moss-Bias on Demand*: Affiliation: Labels for Recommendation Systems, Email: fgraha@gmail.com
 [Additional context or contact information]

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1007/s11098-025-02300-4
 url: "https://link.springer.com/article/10.1007/s11098-025-02300-4"
 publication: "Philosophical Studies"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Gabriel-AI Alignment as Fair Treatment of C
 abstract: "The normative challenge of AI alignment centres upon what goals or values ought to be encoded in AI systems to govern their behaviour. A number of answers have been proposed, including the notion that AI must be aligned with human intentions or that it should aim to be helpful, honest and harmless. Nonetheless, both accounts suffer from critical weaknesses. On the one hand, they are incomplete: neither specification provides adequate guidance to AI systems, deployed across various domains with..."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

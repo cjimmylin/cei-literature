@@ -47,6 +47,10 @@ He has received multiple best paper awards and has served in leadership roles fo
 
 ## Papers in this Vault
 
+
+
+- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
+- [[2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual|SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning]] (First Author)
 - [[2022-Sun-MoralDial|MoralDial]]
 
 ## External Links & Profiles
@@ -58,5 +62,9 @@ He has received multiple best paper awards and has served in leadership roles fo
 
 ## Notes
 
+
+
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: h-sun20@mails.tsinghua.edu.cn
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: h-sun20@mails.tsinghua.edu.cn
 - *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: aihuang@tsinghua.edu.cn
 [Bin is a key researcher in the Singaporean AI landscape, particularly in multimodal learning.]

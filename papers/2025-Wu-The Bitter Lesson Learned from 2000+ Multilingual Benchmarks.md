@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Arabic, French, German, Spanish, Russian, Brazilian"
+cultures_nationalities_list: "Chinese, Japanese, Korean, Arabic, French, German, Spanish, Russian, Brazilian"
 languages_list: "Arabic, Chinese, English, French, German, Japanese, Korean, Portuguese, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Minghao Wu]], [[Weixuan Wang]], [[Sinuo Liu]], [[Huifeng Yin]], [[Xintong Wang]], [[Yu Zhao]], [[Chenyang Lyu]], [[Longyue Wang]], [[Weihua Luo]], [[Kaifu Zhang]]
+[[Wu, Minghao]], [[Wang, Weixuan]], [[Liu, Sinuo]], [[Yin, Huifeng]], [[Wang, Xintong]], [[Zhao, Yu]], [[Lyu, Chenyang]], [[Wang, Longyue]], [[Luo, Weihua]], [[Zhang, Kaifu]]
 
 ## Metadata
 

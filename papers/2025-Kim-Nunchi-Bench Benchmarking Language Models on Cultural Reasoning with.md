@@ -10,7 +10,7 @@ type: preprint
 short_title: "Nunchi-Bench: Benchmarking Language Models on Cultural Reasoning with a Focus on Korean Superstition"
 year: 2025
 first_author: "[[Kyuhee Kim]]"
-last_author: "[[Sangah Lee]]"
+last_author: "[[Sangah Lee Kyuhee Kim]]"
 authors: Kyuhee Kim, Sangah Lee
 doi: 10.48550/arXiv.2507.04014
 url: "https://aclanthology.org/2025.findings-acl.794/"
@@ -45,7 +45,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Kyuhee Kim, Sangah Lee]]
+[[Sangah Lee Kyuhee Kim]]
 
 ## Metadata
 

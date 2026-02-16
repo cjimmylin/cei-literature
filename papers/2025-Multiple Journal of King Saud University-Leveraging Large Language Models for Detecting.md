@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: journal_article
 short_title: "Leveraging Large Language Models for Detecting"
 year: 2025
 first_author: "[[Multiple (Journal of King Saud University, 2025)]]"
-last_author: "[[Multiple (Journal of King Saud University, 2025)]]"
+last_author: "[[2025)]]"
 authors: "[[Multiple (Journal of King Saud University, 2025)]]"
 authors_incomplete: false
 url: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Multiple (Journal of King Saud University, 2025)]]
+[[Multiple (Journal of King Saud University]], [[2025)]]
 
 ## Metadata
 

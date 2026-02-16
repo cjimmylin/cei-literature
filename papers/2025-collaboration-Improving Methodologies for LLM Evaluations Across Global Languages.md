@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Iranian, French"
+cultures_nationalities_list: "Chinese, Japanese, Korean, Iranian, French"
 languages_list: "Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"

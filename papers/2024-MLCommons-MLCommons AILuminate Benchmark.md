@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +12,11 @@ type: document
 short_title: "MLCommons AILuminate Benchmark"
 year: 2025
 first_author: [[MLCommons]]
-last_author: [[MLCommons]]
+last_author: "[[MLCommons]]"
 authors: MLCommons
 url: "https://mlcommons.org/benchmarks/ailuminate"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -21,6 +24,7 @@ newtags:
 tags: 
 research_topic: "Machine Learning"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

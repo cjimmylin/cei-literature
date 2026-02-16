@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-So-AI Trained on Confucian Analects|AI Trained on Confucian Analects]] (First Author)]]
+
 
 - [[2024-So-AI Trained on Confucian Analects|AI Trained on Confucian Analects]] (First Author)
 

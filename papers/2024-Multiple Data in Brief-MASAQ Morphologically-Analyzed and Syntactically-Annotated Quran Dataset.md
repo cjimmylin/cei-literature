@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset"
 year: 2025
 first_author: "[[Multiple (Data in Brief, 2024)]]"
-last_author: "[[Multiple (Data in Brief, 2024)]]"
+last_author: "[[2024)]]"
 authors: "[[Multiple (Data in Brief, 2024)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Multiple (Data in Brief, 2024)]]
+[[Multiple (Data in Brief]], [[2024)]]
 
 ## Metadata
 

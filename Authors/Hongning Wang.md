@@ -21,12 +21,19 @@ Hongning Wang is an Associate Professor in the Department of Computer Science an
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
+- [[2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents|Agent-SafetyBench: Evaluating the Safety of LLM Agents]]
 - [[2023-Liu-AlignBench|AlignBench]]
 
 ## Notes
 
 
+
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 His recent work includes involvement with GLM-4.5, Tsinghua's agentic, reasoning, and coding foundation models.

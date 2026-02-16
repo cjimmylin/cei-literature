@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ tags:
 url: "http://arxiv.org/abs/2504.02725"
 external_pdf: "http://arxiv.org/pdf/2504.02725.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2025/2025-Feng-ERPO.md"
 abstract: "Recent advancements in large language models (LLMs) have accelerated progress toward artificial general intelligence, yet their potential to generate harmful content poses critical safety challenges. Existing alignment methods often struggle to cover diverse safety scenarios and remain vulnerable to adversarial attacks. In this work, we propose SAFER, a framework for Safety Alignment via eFficient Ex-Ante Reasoning."
 paper_summary: "Abstract: Recent advancements in large language mod- els (LLMs) have accelerated progress toward artificial general intelligence, yet their poten- tial to generate harmful content poses critical safety challeng | Overview: SAFER: Advancing Safety Alignment via Efficient Ex-Ante Reasoning Kehua Feng1,2∗, Keyan Ding1,2*, Yuhao Wang2,3, Menghan Li4, Fanjunduo Wei1,2, Xinda Wang2,4, Qiang Zhang2,5†, Huajun Chen1,2† 1College"
 local_pdf: [[PDFs/2025/2025-Feng-ERPO.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
 year: 2025
 first_author: "[[Piotr Rybak]]"
-last_author: "[[Ireneusz Gawlik]]"
+last_author: "[[Ireneusz Gawlik Janusz Tracz]]"
 authors: "Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik"
 url: "https://arxiv.org/abs/2005.00630"
 external_pdf: "https://arxiv.org/pdf/2005.00630.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Polish"
 languages_list: Polish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik]]
+[[Robert Mroczkowski Piotr Rybak]], [[Ireneusz Gawlik Janusz Tracz]]
 
 ## Metadata
 

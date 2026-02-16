@@ -21,10 +21,18 @@ Hinrich Schütze is Professor of Computational Linguistics and Co-director of th
 ## Papers in this Vault
 
 
+
+
+- [[2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via|MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment]] (Last Author)
 - [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]]
+- [[2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding|TurkishMMLU Measuring Massive Multitask Language Understanding]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
 - *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 Professor Schütze's research interests have been at the interface of linguistics and computer science since the early 1990s. He is a leading figure in European NLP research.

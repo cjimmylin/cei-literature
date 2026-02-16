@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages"
 year: 2025
 first_author: "[[DAMO Academy / Alibaba team]]"
-last_author: "[[DAMO Academy / Alibaba team]]"
+last_author: "[[DAMO Academy Alibaba team]]"
 authors: "DAMO Academy / Alibaba team"
 url: "https://arxiv.org/abs/2407.19672"
 external_pdf: "https://arxiv.org/pdf/2407.19672.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
+cultures_nationalities_list: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
 languages_list: "Burmese, Chinese, Indonesian, Khmer, Lao, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[DAMO Academy / Alibaba team]]
+[[DAMO Academy Alibaba team]]
 
 ## Metadata
 

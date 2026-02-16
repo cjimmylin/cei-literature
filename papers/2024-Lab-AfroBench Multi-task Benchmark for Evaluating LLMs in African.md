@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, French"
+cultures_nationalities_list: "African"
 languages_list: "64 African languages, French"
 religious_values: "N/A"
 religious_values_list: "N/A"

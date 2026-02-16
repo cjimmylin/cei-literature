@@ -20,10 +20,16 @@ Jiayi Liu is a researcher at Alibaba Group who has contributed to foundational w
 ## Papers in this Vault
 
 
+
+
 - [[2023-Xu-CValues|CValues]]
 
 ## Notes
 
 
+
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 The CValues benchmark manually collected adversarial safety prompts across 10 scenarios and induced responsibility prompts from 8 domains by professional experts, providing comprehensive evaluation of Chinese LLM values through both human evaluation and automatic multi-choice evaluation.

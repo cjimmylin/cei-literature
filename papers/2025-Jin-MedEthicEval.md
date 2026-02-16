@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "Haoan Jin; Jiacheng Shi; Hanhui Xu; Kenny Q Zhu; Mengyue Wu"
 url: "https://aclanthology.org/2025.naacl-industry.34/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7CB4XXBJ/Jin et al. - MedEthicEval Evaluating Large Language Models Based on Chinese Medical Ethics.pdf"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ key_contribution: "Introduced MedEthicEval, a benchmark for Chinese Medical Ethi
 significance: "Addresses the gap in domain-specific safety evaluation, providing a culturally specific resource for evaluating AI in the high-stakes context of Chinese healthcare."
 tags: 
 abstract: "Large language models (LLMs) demonstrate significant potential in advancing medical applications, yet their capabilities in addressing medical ethics challenges remain underexplored. This paper introduces MedEthicEval, a novel benchmark designed to systematically evaluate LLMs in the domain of medical ethics. Our framework encompasses two key components: knowledge, assessing the models’ grasp of medical ethics principles, and application, focusing on their ability to apply these principles..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

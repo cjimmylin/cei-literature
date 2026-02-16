@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: journal_article
 short_title: "Religion Theology and Philosophical Skills of"
 year: 2025
 first_author: "[[Trepczynski, Marcin]]"
-last_author: "[[Trepczynski, Marcin]]"
+last_author: "[[Marcin Trepczynski]]"
 authors: "[[Marcin Trepczynski]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

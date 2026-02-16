@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "A curated dataset for hate speech detection on social media text - PMC"
 year: 2025
 first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807815/"
 external_pdf: "http://arxiv.org/abs/2212.12799"
@@ -30,6 +31,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: Japanese
 religious_values: "N/A"
 religious_values_list: "N/A"

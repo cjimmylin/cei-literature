@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Social Bias in Large Language Models"
 year: 2025
 first_author: "[[Sadhu, Saha,]]"
-last_author: "[[Sadhu, Saha,]]"
+last_author: "[[Saha]]"
 authors: "[[Sadhu, Saha,]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03536"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Sadhu, Saha, and others]]
+[[Sadhu]], [[Samirit Saha|Saha]]
 
 ## Metadata
 

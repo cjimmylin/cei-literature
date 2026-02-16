@@ -27,6 +27,8 @@ He communicates complex behavioral science concepts to broad audiences through p
 ## Papers in this Vault
 
 
+
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## Notable Contributions

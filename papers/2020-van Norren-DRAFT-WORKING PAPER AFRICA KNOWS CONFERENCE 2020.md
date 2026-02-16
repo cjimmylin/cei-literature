@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ last_author: "[[Dorine van Norren]]"
 authors: "Dorine van Norren"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XKSEZXMK/van Norren - DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre).pdf"
 national_ethnic_cultural: "Chinese, African/Ubuntu"
+cultures_nationalities_list: "African, Chinese"
 religious_values: "Ubuntu Philosophy, Indigenous Spirituality"
 religious_values_list: "Ubuntu Philosophy, Indigenous Spirituality"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ key_contribution: "Working paper discussing the exclusion of African ethical fra
 significance: "Critiques the Western-centric dominance in AI ethics, advocating for the inclusion of African 'relational ethics' which prioritize community and interconnectedness over individual autonomy."
 tags: 
 abstract: "UNESCO recently published a report on the ethics of Artificial Intelligence (AI). Its member states have commissioned a recommendation to be written on the ethics of AI, to be adopted in November 2021 during the UNESCO General Conference. The consultations are ongoing, and were preceded by the report of the UNESCO World Commission on the ethics of scientific knowledge and technology (COMEST) on AI and ethics."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

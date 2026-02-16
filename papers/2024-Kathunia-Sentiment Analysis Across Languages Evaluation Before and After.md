@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian, Cross-cultural"
 languages_list: "English, Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Aekansh Kathunia]], [[Mohammad Kaif]], [[Nalin Arora]], [[N Narotam]]
+[[Kathunia, Aekansh]], [[Kaif, Mohammad]], [[Arora, Nalin]], [[Narotam, N]]
 
 ## Metadata
 

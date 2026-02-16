@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data|Synth-Empathy: Towards High-Quality Synthetic Empathy Data]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: hao.liang@stu.pku.edu.cn
+- *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: wentao.zhang@pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: sunlinzhuang21@mails.ucas.ac.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

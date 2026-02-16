@@ -12,6 +12,7 @@ year: 2026
 first_author: "[[Wonduk Seo]]"
 last_author: "[[Wonduk Seo]]"
 authors: Wonduk Seo et al.
+authors_incomplete: true
 url: "https://arxiv.org/abs/2601.21700"
 external_pdf: "https://arxiv.org/pdf/2601.21700.pdf"
 publication: arXiv
@@ -44,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Wonduk Seo et al.]]
+[[Wonduk Seo]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Nepalese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-Unknown
+[[Pudasaini, Shushanta]], [[Shakya, Aman]], [[Shrestha, Siddhartha]], [[Bhatta, Sahil]], [[Thapa, Sunil]], [[Palikhe, Sushmita]]
 
 ## Metadata
 

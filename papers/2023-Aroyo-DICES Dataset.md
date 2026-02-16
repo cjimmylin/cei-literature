@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2306.11247"
 external_pdf: "http://arxiv.org/pdf/2306.11247.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Aroyo-DICES Dataset.md"
 abstract: "Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjectivity present in many tasks. Preserving such variance in content and diversity in datasets is often expensive and laborious. This is especially troubling when building safety datasets for conversational AI systems, as safety is both socially and culturally situated."
 paper_summary: "Abstract: Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjec | Overview: DICES Dataset: Diversity in Conversational AI Evaluation for Safety Lora Aroyo1, Alex S. Taylor2, Mark Díaz1, Christopher M. Homan1, Alicia Parrish1, Greg Serapio-García3, Vinodkumar Prabhakaran1, and | Methodology: Driving the development of DICES was the overarching aim to produce a benchmark dataset able to systematically capture variability in safety judgement"
 local_pdf: "[[PDFs/2023/2023-Aroyo-DICES Dataset.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

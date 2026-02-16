@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "PRIME Framework Convergent Ethics"
 year: 2025
 first_author: "[[W. Russell Neuman]]"
-last_author: "[[Manan Shah]]"
+last_author: "[[Shah, Manan]]"
 authors: "[[Neuman, W. Russell]]; [[Coleman, Chad]]; [[Shah, Manan]]"
 doi: 10.48550/arXiv.2504.19255
 url: "https://arxiv.org/abs/2504.19255"
@@ -19,6 +20,7 @@ local_pdf: "[[PDFs/2025/2025-Neuman-PRIME Framework Convergent Ethics.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
 ethics_perspective: "Moral Foundations Analysis"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Value Pluralism / Schwartz"

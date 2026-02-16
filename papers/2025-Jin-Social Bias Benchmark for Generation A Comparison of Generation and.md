@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations"
 year: 2025
 first_author: "[[Jiho Jin]]"
-last_author: "[[Alice Oh]]"
+last_author: "[[Alice Oh Nayeon Lee]]"
 authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh"
 doi: 10.18653/v1/2025.findings-acl.585
 url: "https://arxiv.org/abs/2503.06987"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: "English, Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh]]
+[[Jing Jin|Jiseon Kim Jiho Jin]], [[A. Lee|Alice Oh Nayeon Lee]]
 
 ## Metadata
 

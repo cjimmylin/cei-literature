@@ -25,11 +25,17 @@ Hao Liu is an Assistant Professor at the Artificial Intelligence Thrust, HKUST (
 ## Papers in this Vault
 
 
+
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: liuh@ust.hk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 Research spans both AI fundamentals and practical applications in smart city and transportation domains.

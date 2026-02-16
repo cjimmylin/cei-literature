@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Pretrained Models Against Traditional Machine Learning"
 year: 2025
 first_author: "[[2025), Multiple (MDPI Electronics]]"
-last_author: "[[2025), Multiple (MDPI Electronics]]"
+last_author: "[[Multiple (MDPI Electronics 2025)]]"
 authors: "[[Multiple (MDPI Electronics 2025)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

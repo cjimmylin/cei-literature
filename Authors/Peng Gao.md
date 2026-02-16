@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Fu-MME-CoT|MME-CoT]]]]
+
 
 - [[2025-Fu-MME-CoT|MME-CoT]]
 

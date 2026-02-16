@@ -26,10 +26,17 @@ This work, published on arXiv in 2024, was conducted in collaboration with Xueji
 ## Papers in this Vault
 
 
+
+
+- [[2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts|Safety Evaluation of DeepSeek Models in Chinese Contexts]] (First Author)
 - [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 The CHiSafetyBench paper has received 9 citations as of August 2025. This work is particularly important for ensuring that LLM safety research extends beyond English-language contexts to address culturally and linguistically specific risks.

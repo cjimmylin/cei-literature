@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, French"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ DATA_URL: NA
 
 ## Authors
 
-[[Adelani, David Ifeoluwa]], [[Ojo, Jessica]], [[Azime, Israel Abebe]], [[Zhuang, Jian Yun]], [[Alabi, Jesujoba O.]], [[He, Xuanli]], [[Ochieng, Millicent]], [[Hooker, Sara]], [[Bukula, Andiswa]], [[Lee, En-Shiun Annie]], [[Chukwuneke, Chiamaka]], [[Buzaaba, Happy]], [[Sibanda, Blessing]], [[Kalipe, Godson]], [[Mukiibi, Jonathan]], [[Kabongo, Salomon]], [[Yuehgoh, Foutse]], [[Setaka, Mmasibidi]], [[Ndolela, Lolwethu]], [[Odu, Nkiruka]], [[Mabuya, Rooweither]], [[Muhammad, Shamsuddeen Hassan]], [[Osei, Salomey]], [[Samb, Sokhar]], [[Guge, Tadesse Kebede]], [[Sherman, Tombekai Vangoni]], [[Stenetorp, Pontus]]
+[[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]], [[Ojo, Jessica]], [[Azime, Israel Abebe]], [[Zhuang, Jian Yun]], [[Alabi, Jesujoba O]], [[He, Xuanli]], [[Ochieng, Millicent]], [[Sara Hooker|Hooker, Sara]], [[Bukula, Andiswa]], [[Lee, En-Shiun Annie]], [[Chukwuneke, Chiamaka]], [[Buzaaba, Happy]], [[Sibanda, Blessing]], [[Kalipe, Godson]], [[Mukiibi, Jonathan]], [[Kabongo, Salomon]], [[Yuehgoh, Foutse]], [[Setaka, Mmasibidi]], [[Ndolela, Lolwethu]], [[Odu, Nkiruka]], [[Mabuya, Rooweither]], [[Shamsuddeen Hassan Muhammad|Muhammad, Shamsuddeen Hassan]], [[Salomey Osei|Osei, Salomey]], [[Samb, Sokhar]], [[Guge, Tadesse Kebede]], [[Sherman, Tombekai Vangoni]], [[Stenetorp, Pontus]]
 
 ## Metadata
 

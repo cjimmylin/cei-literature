@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Up to 200 languages including Greek, Georgian, Armenian, Albanian, Maltese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[David Pomerenke, Jonas Nothnagel, Simon Ostermann]]
+[[David Pomerenke]], [[Jonas Nothnagel]], [[Simon Ostermann]]
 
 ## Metadata
 

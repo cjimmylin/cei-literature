@@ -44,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Leiyu Pan, Bojian Xiong, Lei Yang, Renren Jin, Shaowei Zhang, Yue Chen, Ling Shi, Jiang Zhou, Junru Wu, Zhen Wang, Jianxiang Peng, Juesi Xiao, Tianyu Dong, Zhuowen Han, Zhuo Chen, Yuqi Ren, Deyi Xiong]]
+[[Leiyu Pan]], [[Bojian Xiong]], [[Lei Yang]], [[Renren Jin]], [[Shaowei Zhang]], [[Yue Chen]], [[Ling Shi]], [[Jiang Zhou]], [[Junru Wu]], [[Zhen Wang]], [[Jiachuan Peng|Jianxiang Peng]], [[Juesi Xiao]], [[Tianyu Dong]], [[Ziwen Han|Zhuowen Han]], [[Zhuo Chen]], [[Yuanyi Ren|Yuqi Ren]], [[Deyi Xiong]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints"
 year: 2025
 first_author: "[[Hew, Zhong Ken]]"
-last_author: "[[Hew, Zhong Ken]]"
-authors: "[[Hew, Zhong Ken]]"
-authors_incomplete: true
+last_author: "[[Chan, Chee Seng]]"
+authors: "[[Hew, Zhong Ken]]; [[Low, Jia Xin]]; [[Yang, Sze Jue]]; [[Chan, Chee Seng]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.05429"
 external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Malaysian"
 languages_list: Malay
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Zhong Ken Hew et al.]]
+[[Hew, Zhong Ken]], [[Lin, Xin|Low, Jia Xin]], [[Yang, Sze Jue]], [[Chan, Chee Seng]]
 
 ## Metadata
 
-**Authors:** Zhong Ken Hew et al.
+**Authors:** Hew, Zhong Ken; Low, Jia Xin; Yang, Sze Jue; Chan, Chee Seng
 
 **Year:** 2025
 

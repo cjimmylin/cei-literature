@@ -19,10 +19,16 @@ Liang Xu is affiliated with SuperCLUE, with research interests in NLP, ML, and G
 ## Papers in this Vault
 
 
+
+
 - [[2023-Xu-SC-Safety|SC-Safety]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 - *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 [Additional context or contact information]

@@ -51,13 +51,20 @@ Zou's work spans machine learning, computational biology, computational health, 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]] (Last Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Li-Quantifying AI Psychology|Quantifying AI Psychology]]
+- [[2021-Zou-Persistent Anti-Muslim Bias in Large Language|Persistent Anti-Muslim Bias in Large Language]] (Last Author)
 - [[2016-Bolukbasi-Man is to Computer Programmer as Woman is to|Man is to Computer Programmer as Woman is to]]
 
 ## Notes
 
 
+
+
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
+- *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: adam.kalai@microsoft.com
 - *From 2016-Bolukbasi-Man is to Computer Programmer as Woman is to*: Affiliation: University, 8 Saint Mary’s Street, Boston, MA, Email: tolgab@bu.edu
 Zou's research has been featured in major media outlets including the NY Times, WSJ, and WIRED. He is affiliated with Stanford HAI (Human-Centered AI Institute).

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0287
 type: preprint
 short_title: "Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora"
 year: 2025
-first_author: "[[Derner]]"
-last_author: "[[Derner]]"
-authors: "[[Derner]]"
-authors_incomplete: true
+first_author: "[[Derner, Erik]]"
+last_author: "[[Oliver, Nuria]]"
+authors: "[[Derner, Erik]]; [[Fuente, Sara Sansalvador de la]]; [[Gutiérrez, Yoan]]; [[Moreda, Paloma]]; [[Oliver, Nuria]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2406.13677"
 external_pdf: "https://arxiv.org/pdf/2406.13677.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: "French, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Derner, et al.]]
+[[Derner, Erik]], [[Fuente, Sara Sansalvador de la]], [[Gutiérrez, Yoan]], [[Moreda, Paloma]], [[Oliver, Nuria]]
 
 ## Metadata
 
-**Authors:** Derner, et al.
+**Authors:** Derner, Erik; Fuente, Sara Sansalvador de la; Gutiérrez, Yoan; Moreda, Paloma; Oliver, Nuria
 
 **Year:** 2025
 

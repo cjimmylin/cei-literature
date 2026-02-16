@@ -26,10 +26,16 @@ This research was conducted in collaboration with Zhiwei He, Lingzhong Dong, Yim
 ## Papers in this Vault
 
 
+
+
 - [[2024-Yuan-R-Judge|R-Judge]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering
+- *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering
 - *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering
 The R-Judge benchmark is publicly available at https://github.com/Lordog/R-Judge and has received 99 citations as of August 2025, indicating significant impact in the LLM safety research community.

@@ -19,11 +19,17 @@ Johan Obando-Ceron is a researcher at Mila - Quebec AI Institute, working on rei
 ## Papers in this Vault
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Contributes to multilingual AI safety and evaluation research, with involvement in major benchmarks for evaluating language model safety across diverse languages.

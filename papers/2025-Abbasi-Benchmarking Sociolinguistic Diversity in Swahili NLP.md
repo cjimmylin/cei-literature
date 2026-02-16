@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Benchmarking Sociolinguistic Diversity in Swahili NLP"
 year: 2025
 first_author: "[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]"
-last_author: "[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]"
+last_author: "[[Ahmed Abbasi]]"
 authors: "[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.14051"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Kenyan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Kezia Oketch, John P. Lalor, Ahmed Abbasi]]
+[[Kezia Oketch]], [[John P. Lalor]], [[Ahmed Abbasi]]
 
 ## Metadata
 

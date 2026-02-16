@@ -44,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Po-Heng Chen, Sijia Cheng, Wei-Lin Chen, Yen-Ting Lin, Yun-Nung Chen]]
+[[Po-Heng Chen]], [[Sunny Yu Myra Cheng|Sijia Cheng]], [[Wei Chen|Wei-Lin Chen]], [[Ying Lin|Yen-Ting Lin]], [[Yun-Nung Chen]]
 
 ## Metadata
 

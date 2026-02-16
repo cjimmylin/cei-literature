@@ -10,7 +10,7 @@ type: preprint
 short_title: "Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems"
 year: 2026
 first_author: "[[Amogh Gupta]]"
-last_author: "[[SnehalKumar (Neil) S Gaikwad]]"
+last_author: "[[SnehalKumar (Neil) S Gaikwad Sourojit Ghosh]]"
 authors: Amogh Gupta, Niharika Patil, Sourojit Ghosh, SnehalKumar (Neil) S Gaikwad
 url: "https://arxiv.org/abs/2601.14506"
 external_pdf: "https://arxiv.org/pdf/2601.14506.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Amogh Gupta, Niharika Patil, Sourojit Ghosh, SnehalKumar (Neil) S Gaikwad]]
+[[Niharika Patil Amogh Gupta]], [[Shaona Ghosh|SnehalKumar (Neil) S Gaikwad Sourojit Ghosh]]
 
 ## Metadata
 

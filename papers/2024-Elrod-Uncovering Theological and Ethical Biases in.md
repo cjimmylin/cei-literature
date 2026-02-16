@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Uncovering Theological and Ethical Biases in"
 year: 2025
 first_author: "[[Elrod, A. G.]]"
-last_author: "[[Elrod, A. G.]]"
+last_author: "[[A. G. Elrod]]"
 authors: "[[A. G. Elrod]]"
 authors_incomplete: false
 url: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "N/A"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"

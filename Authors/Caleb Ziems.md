@@ -47,6 +47,8 @@ Ziems has co-authored several high-impact benchmarks, including work on "Can Lar
 ## Papers in this Vault
 
 
+
+
 - [[2023-Ziems-NormBank|NormBank]] (First Author)
 - [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]] (First Author)
 
@@ -58,5 +60,9 @@ Ziems has co-authored several high-impact benchmarks, including work on "Can Lar
 
 ## Notes
 
+
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 Caleb's work is essential for the "Socio-Technical Alignment" of AI systems, ensuring that models understand the cultural "common sense" of the humans they serve.

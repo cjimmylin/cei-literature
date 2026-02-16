@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"
 publication: medRxiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2024/2024-Sorin-Ethical Alignment of LLMs in Healthca
 abstract: "In moral philosophy, two foundational approaches shape ethical decisions: deontology and utilitarianism, often exemplified by the “Trolley” dilemma. We conducted an experiment evaluating multiple LLMs, including OpenAI’s GPT-o1, across five medical versions of this dilemma. While some models adhered to established ethical standards, others inconsistently favored utilitarian outcomes, raising concerns about their alignment with human medical ethics."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

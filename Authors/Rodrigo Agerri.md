@@ -1,7 +1,7 @@
 ---
 name: "Rodrigo Agerri"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Center - Ixa, University of the Basque Country UPV/EHU"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish|Lost in Variation Evaluating NLI Performance in Basque and Spanish]]
+
+- [[2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque|BasqueGLUE: A Natural Language Understanding Benchmark for Basque]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
+- *From 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

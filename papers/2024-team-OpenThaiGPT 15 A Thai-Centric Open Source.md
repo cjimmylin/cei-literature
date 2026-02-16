@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "OpenThaiGPT 15 A Thai-Centric Open Source"
 year: 2025
 first_author: "[[team, OpenThaiGPT]]"
-last_author: "[[team, OpenThaiGPT]]"
+last_author: "[[OpenThaiGPT team]]"
 authors: "[[OpenThaiGPT team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2411.07238"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

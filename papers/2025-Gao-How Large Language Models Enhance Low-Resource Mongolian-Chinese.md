@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Mongolian, Chinese"
 languages_list: "Chinese, Mongolian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Zhenjie Gao]], [[Feilong Bao]], [[Yuan Li]], [[Ruichen Hou]], [[Yibo Han]]
+[[Gao, Zhenjie]], [[Bao, Feilong]], [[Yuan Li|Li, Yuan]], [[Hou, Ruichen]], [[Han, Yibo]]
 
 ## Metadata
 

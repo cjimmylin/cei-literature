@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Wenjing Zhang, Xuejiao Lei, Zhaoxiang Liu, Ning Wang, Zhenhong Long, Peijun Yang, Jiaojiao Zhao, Minjie Hua, Chaoyang Ma, Kai Wang, Shiguo Lian]]
+[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Ningli Wang|Ning Wang]], [[Zhenhong Long]], [[Peijun Yang]], [[Jiaojiao Zhao]], [[Minjie Hua]], [[Chaoyang Ma]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "An Evaluation of Cultural Value Alignment in LLM"
 year: 2025
 first_author: "[[N. Sukiennik]]"
-last_author: [[Y]]
+last_author: "[[Y]]"
 authors: "Sukiennik, N., Gao, C., Xu, F., & Li, Y"
 url: "https://arxiv.org/abs/2504.08863"
 external_pdf: "https://arxiv.org/pdf/2504.08863.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

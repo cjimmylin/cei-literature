@@ -1,7 +1,7 @@
 ---
 name: "Quan H. Nguyen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "laboration and open innovation, we are pleased to announce VinaLLaMA"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Nguyen-VM14K First Vietnamese Medical Benchmark|VM14K First Vietnamese Medical Benchmark]]
+
+- [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
+- [[2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model|VinaLLaMA: LLaMA-based Vietnamese Foundation Model]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
+- *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

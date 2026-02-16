@@ -45,7 +45,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Dojun Park, Jiwoo Lee, Hyeyun Jeong, Seohyun Park, Sungeun Lee]]
+[[Dojun Park]], [[Jiwoo Lee]], [[Hyeyun Jeong]], [[Seohyun Park]], [[Sungeun Lee]]
 
 ## Metadata
 

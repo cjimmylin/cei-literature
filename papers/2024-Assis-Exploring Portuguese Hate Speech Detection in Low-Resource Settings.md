@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?"
 year: 2025
 first_author: "[[Gabriel Assis]]"
-last_author: "[[Aline Paes]]"
+last_author: "[[Aline Paes Daniela Vianna]]"
 authors: "Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, Daniela Vianna, Aline Paes"
 url: "https://aclanthology.org/2024.propor-1.31/"
 external_pdf: "https://aclanthology.org/2024.propor-1.31.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, Daniela Vianna, Aline Paes]]
+[[Annie Amorim Gabriel Assis]], [[Daniel de Oliveira Jonnathan Carvalho]], [[Aline Paes Daniela Vianna]]
 
 ## Metadata
 

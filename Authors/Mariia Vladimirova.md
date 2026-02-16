@@ -20,10 +20,16 @@ Mariia Vladimirova is a Senior Research Scientist at Criteo AI Lab in the Fundam
 ## Papers in this Vault
 
 
+
+
 - [[2024-Vladimirova-FairJob|FairJob]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 [Additional context or contact information]

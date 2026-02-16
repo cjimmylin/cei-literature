@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"
 languages_list: "Arabic, English, Multilingual, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Seán S. ÓhÉigeartaigh]], [[Jess Whittlestone]], [[Yang Liu]], [[Yi Zeng]], [[Zhe Liu]]
+[[ÓhÉigeartaigh, Seán S]], [[Whittlestone, Jess]], [[Yang Liu|Liu, Yang]], [[Yi Zeng|Zeng, Yi]], [[Liu, Zhe]]
 
 ## Metadata
 

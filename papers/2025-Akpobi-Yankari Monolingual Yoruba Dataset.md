@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ authors: "[[Akpobi, Maro]]"
 url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Nigerian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +26,7 @@ key_contribution: "Released Yankari, a large-scale (51k docs) monolingual Yoruba
 significance: "Addresses the critical lack of high-quality training data for African languages, enabling the development of more inclusive and culturally aware language models."
 tags: 
 abstract: "This paper presents Yankari, a large-scale monolingual dataset for the Yoruba language, aimed at addressing the critical gap in Natural Language Processing (NLP) resources for this important West African language. Despite being spoken by over 30 million people, Yoruba has been severely underrepresented in NLP research and applications. We detail our methodology for creating this dataset, which includes careful source selection, automated quality control, and rigorous data cleaning processes."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

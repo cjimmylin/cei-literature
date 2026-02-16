@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2020-Srivastava-A Multi-Dimensional View of Aggression when|A Multi-Dimensional View of Aggression when]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2020-Srivastava-A Multi-Dimensional View of Aggression when*: Affiliation: Institute of Information Technology, Hyderabad, Telangana, India, Email: arjit.srivastava@research.iiit.ac.in
+- *From 2020-Srivastava-A Multi-Dimensional View of Aggression when*: Affiliation: Institute of Information Technology, Hyderabad, Telangana, India, Email: avijitv@uw.edu
 - *From 2020-Srivastava-A Multi-Dimensional View of Aggression when*: Affiliation: Institute of Information Technology, Hyderabad, Telangana, India, Email: m.shrivastava@iiit.ac.in
 [Additional context or contact information]

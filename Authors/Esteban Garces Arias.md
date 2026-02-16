@@ -34,6 +34,8 @@ Contributed to critical analysis of empirical approaches to measuring human-AI a
 ## Papers in this Vault
 
 
+
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]]
 
 ## External Links & Profiles
@@ -43,5 +45,9 @@ Contributed to critical analysis of empirical approaches to measuring human-AI a
 ## Notes
 
 
+
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 Brings statistical rigor to the evaluation of human-AI alignment claims, important for ensuring sound methodology in AI ethics research.

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German, Spanish, Russian"
+cultures_nationalities_list: "N/A"
 languages_list: "English, German, Russian, Spanish, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"

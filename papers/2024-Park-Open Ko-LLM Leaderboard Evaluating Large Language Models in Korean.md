@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark"
 year: 2025
 first_author: "[[Chanjun Park]]"
-last_author: "[[Hyeonwoo Kim]]"
+last_author: "[[Hyeonwoo Kim Yungi Kim]]"
 authors: "Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonwoo Kim"
 doi: 10.18653/v1/2024.acl-long.177
 url: "https://arxiv.org/abs/2405.20574"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonwoo Kim]]
+[[Dahyun Kim Chanjun Park]], [[Sukyung Lee Sanghoon Kim]], [[Hyeonwoo Kim Yungi Kim]]
 
 ## Metadata
 

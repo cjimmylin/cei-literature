@@ -25,6 +25,8 @@ Key publications include "Language (Technology) is Power: A Critical Survey of '
 ## Papers in this Vault
 
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 - [[2021-Cao-Toward Gender-Inclusive Coreference Resolution|Toward Gender-Inclusive Coreference Resolution]] (Last Author)
 
@@ -38,5 +40,9 @@ Key publications include "Language (Technology) is Power: A Critical Survey of '
 ## Notes
 
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 Co-Chair of ICML 2020. Professor of Computer Science and Institute Director of AI*Maryland at the University of Maryland. Author of the widely-used free textbook "A Course in Machine Learning." Was on sabbatical at La Sorbonne (ISIR & SCAI).

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Yang Zhang, Mersin Konomi, Christos Xypolopoulos, Konstantinos Divriotis, Konstantinos Skianis, Giannis Nikolentzos, Giorgos Stamou, Guokan Shang, Michalis Vazirgiannis]]
+[[Yang Zhang]], [[Mersin Konomi]], [[Christos Xypolopoulos]], [[Konstantinos Divriotis]], [[Konstantinos Skianis]], [[Giannis Nikolentzos]], [[Giorgos Stamou]], [[Guokan Shang]], [[Michalis Vazirgiannis]]
 
 ## Metadata
 

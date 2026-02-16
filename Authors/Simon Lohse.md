@@ -1,9 +1,9 @@
 ---
 name: "Simon Lohse"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "simon.lohse@ru.nl"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Barman-RLHF Whose Culture Whose Values|RLHF Whose Culture Whose Values]]]]
+
 
 - [[2025-Barman-RLHF Whose Culture Whose Values|RLHF Whose Culture Whose Values]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: henk.deregt@ru.nl
+- *From 2025-Barman-RLHF Whose Culture Whose Values*: Affiliation: Centre for Logic and Philosophy of Science, Department of Philosophy and Moral Sciences, Ghent, Email: simon.lohse@ru.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

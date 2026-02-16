@@ -32,6 +32,8 @@ His research group (WuNLP) emphasizes deep learning and representation learning 
 ## Papers in this Vault
 
 
+
+
 - [[2021-Barikeri-REDDITBIAS|REDDITBIAS]] (Last Author)
 
 ## Links
@@ -43,5 +45,9 @@ His research group (WuNLP) emphasizes deep learning and representation learning 
 ## Notes
 
 
+
+
+- *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: iv250@cam.ac.uk
+- *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: soumyabarikeri@gmail.com
 - *From 2021-Barikeri-REDDITBIAS*: Affiliation: Research Group, Email: soumyabarikeri@gmail.com
 According to Google Scholar, Glavaš has been cited nearly 6,000 times. His work on multilingual NLP and bias detection in language models contributes to making AI systems more equitable across languages and cultures.

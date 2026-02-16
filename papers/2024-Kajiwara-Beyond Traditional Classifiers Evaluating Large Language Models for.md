@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection"
 year: 2025
 first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.mdpi.com/2079-3197/13/8/196"
 publication: MDPI
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: Japanese
 religious_values: "N/A"
 religious_values_list: "N/A"

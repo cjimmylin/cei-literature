@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ DATA_URL: NA
 
 ## Authors
 
-[[Duan, Shitong]], [[Yi, Xiaoyuan]], [[Zhang, Peng]], [[Xu, Dongkuan]], [[Yao, Jing]], [[Lu, Tun]], [[Gu, Ning]], [[Xie, Xing]]
+[[Shitong Duan|Duan, Shitong]], [[Xiaoyuan Yi|Yi, Xiaoyuan]], [[Peng Zhang|Zhang, Peng]], [[Xu, Dongkuan]], [[Jing Yao|Yao, Jing]], [[Tun Lu|Lu, Tun]], [[Ning Gu|Gu, Ning]], [[Xing Xie|Xie, Xing]]
 
 ## Metadata
 

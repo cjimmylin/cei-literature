@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ pdf_extract: "PDF Extracts/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethi
 local_pdf: "[[PDFs/2018/2018-Kim-Toward Non-Intuition-Based Machine Ethics.pdf]]"
 publication: "AIES '18: AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Formalizes Kantian deontological principles in quantified mod
 significance: "Provides formal logical basis for machine ethics that enables AI to explain its moral decisions"
 tags: 
 abstract: "We propose a deontological approach to machine (or AI) ethics that avoids some weaknesses of an intuition-based system, such as that of Anderson and Anderson. In particular, it has no need to deal with conﬂicting intuitions, and it yields a more satisfactory account of when autonomy should be respected. We begin with a “dual standpoint” theory of action that regards actions as grounded in reasons and therefore as having a conditional form that is suited to machine instructions."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

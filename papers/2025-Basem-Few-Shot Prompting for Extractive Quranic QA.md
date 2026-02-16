@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,9 +15,9 @@ type: preprint
 short_title: "Few-Shot Prompting for Extractive Quranic QA"
 year: 2025
 first_author: "[[Basem, Mohamed]]"
-last_author: "[[Basem, Mohamed]]"
-authors: "[[Basem, Mohamed]]"
-authors_incomplete: true
+last_author: "[[Mohammed, Ammar]]"
+authors: "[[Basem, Mohamed]]; [[Oshallah, Islam]]; [[Hamdi, Ali]]; [[Mohammed, Ammar]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.06103"
 external_pdf: "https://arxiv.org/pdf/2508.06103.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md"
@@ -28,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -47,11 +49,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Mohamed Basem et al]]
+[[Mohamed Basem|Basem, Mohamed]], [[Oshallah, Islam]], [[Hamdi, Ali]], [[Mohanna, Ammar|Mohammed, Ammar]]
 
 ## Metadata
 
-**Authors:** Mohamed Basem et al.
+**Authors:** Basem, Mohamed; Oshallah, Islam; Hamdi, Ali; Mohammed, Ammar
 
 **Year:** 2025
 

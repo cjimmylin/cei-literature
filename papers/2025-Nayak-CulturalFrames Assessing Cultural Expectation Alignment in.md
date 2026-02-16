@@ -45,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Shravan Nayak, Mehar Bhatia, Xiaofeng Zhang, Verena Rieser, Lisa Anne Hendricks, Sjoerd van Steenkiste, Yash Goyal, Karolina Stanczak, Aishwarya Agrawal]]
+[[Shravan Nayak]], [[Mehar Bhatia]], [[Xiaofeng Zhang]], [[Verena Rieser]], [[Lisa Anne Hendricks]], [[Sjoerd van Steenkiste]], [[Yash Goyal]], [[Karolina Stanczak]], [[Ameeta Agrawal|Aishwarya Agrawal]]
 
 ## Metadata
 

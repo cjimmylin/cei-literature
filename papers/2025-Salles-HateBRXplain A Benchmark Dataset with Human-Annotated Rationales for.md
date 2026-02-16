@@ -43,7 +43,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Isadora Salles, Francielle Vargas, Fabrício Benevenuto]]
+[[Isadora Salles]], [[Francielle Vargas]], [[Fabrício Benevenuto]]
 
 ## Metadata
 

@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
 
 ## Notes
 
 
+
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 [Additional context or contact information]

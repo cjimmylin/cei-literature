@@ -18,15 +18,22 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]]
 - [[2025-Pandey-SocialHarmBench|SocialHarmBench]]
 - [[2025-Samway-Are Language Models Consequentialist or Deontological|Are LLMs Consequentialist or Deontological]]
 - [[2024-Jin-Language Model Alignment in Multilingual Trolley|Language Model Alignment in Multilingual Trolley]]
 - [[2024-Piatti-Cooperate or Collapse|Cooperate or Collapse]] (Last Author)
+- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 - [[2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language|EmoBench: Evaluating the Emotional Intelligence of Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 [Additional context or contact information]

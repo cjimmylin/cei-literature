@@ -48,6 +48,8 @@ Flanagan's work on the "Hart-Dworkin Debate" in the context of cognitive science
 ## Papers in this Vault
 
 
+
+
 - [[2025-Nunes-Evidence of conceptual mastery in the application|Evidence of conceptual mastery in the application]] (Last Author)
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ Flanagan's work on the "Hart-Dworkin Debate" in the context of cognitive science
 
 ## Notes
 
+
+
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 His focus on "Experimental Jurisprudence" is critical for evaluating whether models are truly understanding the *intent* of a rule or simply performing sophisticated pattern matching.

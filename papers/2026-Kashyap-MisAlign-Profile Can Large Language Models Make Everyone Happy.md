@@ -10,8 +10,8 @@ type: preprint
 short_title: "MisAlign-Profile: Can Large Language Models Make Everyone Happy?"
 year: 2026
 first_author: "[[Gautam Siddharth Kashyap]]"
-last_author: "[[Gautam Siddharth Kashyap]]"
-authors: Gautam Siddharth Kashyap et al.
+last_author: "[[Rafiq Ali]]"
+authors: "Usman Naseem; Gautam Siddharth Kashyap; Ebad Shabbir; Sushant Kumar Ray; Abdullah Mohammad; Rafiq Ali"
 url: "https://arxiv.org/abs/2602.11091"
 external_pdf: "https://arxiv.org/pdf/2602.11091.pdf"
 publication: arXiv
@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Gautam Siddharth Kashyap et al.]]
+[[Usman Naseem]], [[Gautam Siddharth Kashyap]], [[Ebad Shabbir]], [[Shawn Ray|Sushant Kumar Ray]], [[Abdullah Mohammad]], [[Rafiq Ali]]
 
 ## Metadata
 

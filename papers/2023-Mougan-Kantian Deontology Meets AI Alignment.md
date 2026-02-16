@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignmen
 local_pdf: "[[PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
 publication: arXiv
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Shows 12/14 existing fairness metrics are utilitarian; propos
 significance: "Fills gap in fairness metrics literature by providing non-consequentialist ethical grounding for AI fairness"
 tags: 
 abstract: "Deontological ethics, speciﬁcally understood through Immanuel Kant, provides a moral framework that emphasizes the importance of duties and principles rather than the consequences of action. Understanding that despite the prominence of deontology, it is currently an overlooked approach in fairness metrics, this paper explores the compatibility of a Kantian deontological framework in fairness metrics, part of the AI alignment ﬁeld."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

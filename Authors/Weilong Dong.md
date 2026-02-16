@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language|Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?]]
 - [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
 
 ## Notes
 
 
+
+
+- *From 2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language*: Affiliation: School of New Media and Communication, Tianjin University, Tianjin, China
+- *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 [Additional context or contact information]

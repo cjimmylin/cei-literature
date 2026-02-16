@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in AI, Christian"
@@ -14,6 +16,7 @@ authors: "[[Rusnak, Alexander]]; [[Seals, Zachary]]"
 doi: N/A
 url: "https://iscast.org/journal/cposat/"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: "Value Pluralism / Schwartz"
@@ -24,6 +27,7 @@ abstract: "As the broad scale adoption of Artificial Intelligence (AI) and deep 
 external_pdf: "https://journal.iscast.org/wp-content/uploads/2025/07/CPOSAT-Vol3-SpecialEdition.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rusnak-EudAImonia.md"
 local_pdf: [[PDFs/2025/2025-Rusnak-EudAImonia.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

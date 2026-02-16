@@ -1,9 +1,9 @@
 ---
 name: "Abdullah Al Sefat"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at https://github"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "abd.al.sefat@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally|BengaliFig A Low-Resource Challenge for Figurative and Culturally]]
+
+- [[2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally|BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally*: Affiliation: lable at https://github, Email: abd.al.sefat@gmail.com
+- *From 2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally*: Affiliation: lable at https://github, Email: abd.al.sefat@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

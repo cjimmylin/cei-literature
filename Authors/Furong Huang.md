@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
@@ -25,5 +27,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 [Additional context or contact information]

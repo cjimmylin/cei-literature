@@ -47,6 +47,8 @@ She has been a vocal advocate for rigorous biosecurity guardrails in the develop
 
 ## Papers in this Vault
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -61,5 +63,9 @@ She has been a vocal advocate for rigorous biosecurity guardrails in the develop
 
 ## Notes
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Anjali is a critical bridge between the biological sciences and AI safety policy.]

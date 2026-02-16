@@ -43,6 +43,8 @@ Cristina Menghini is a Senior Researcher at Meta Superintelligence Labs, where s
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## External Links & Profiles
@@ -61,5 +63,9 @@ Cristina Menghini is a Senior Researcher at Meta Superintelligence Labs, where s
 ## Notes
 
 
+
+
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 Cristina Menghini's career trajectory—from computational social science to LLM evaluation to frontier AI risk assessment—reflects the field's evolution. Her finding that low-resource languages can jailbreak GPT-4 has significant implications for global AI safety: safety measures must be tested across languages, not just English. Her current role at Meta's Preparedness team places her at the forefront of assessing existential risks from advanced AI systems.

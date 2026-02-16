@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "English, multiple via WVS"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Jing Yao, Yi Fung, Heng Ji]]
+[[Jing Yao]], [[Yi Fung]], [[Heng Ji]]
 
 ## Metadata
 

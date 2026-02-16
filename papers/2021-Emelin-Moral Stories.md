@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.18653/v1/2021.emnlp-main.54
 url: "https://aclanthology.org/2021.emnlp-main.54/"
 external_pdf: "https://aclanthology.org/2021.emnlp-main.54.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Emelin-Moral Stories.md"
 local_pdf: "[[PDFs/2021/2021-Emelin-Moral Stories.pdf]]"
 abstract: "In social settings, much of human behavior is governed by unspoken rules of conduct rooted in societal norms. For artiﬁcial systems to be fully integrated into social environments, adherence to such norms is a central prerequisite. To investigate whether language generation models can serve as behavioral priors for systems deployed in social settings, we evaluate their ability to generate action descriptions that achieve predeﬁned goals under normative constraints."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

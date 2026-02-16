@@ -20,11 +20,17 @@ HKU Presidential PhD Scholar at The University of Hong Kong. Research on LLMs se
 ## Papers in this Vault
 
 
+
+
 - [[2023-Li-BIRD|BIRD]] (First Author)
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 [Additional context or contact information]

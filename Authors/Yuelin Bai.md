@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wu-COIG-P|COIG-P]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

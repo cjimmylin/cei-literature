@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: One world, one opinion? The superstar effect in LLM responses
 year: 2025
 first_author: "[[Sofie Goethals]]"
-last_author: "[[Lauren Rhue]]"
+last_author: "[[Lauren Rhue Sofie Goethals]]"
 authors: Sofie Goethals, Lauren Rhue
 doi: 10.18653/v1/2025.c3nlp-1.8
 url: "https://aclanthology.org/2025.c3nlp-1.8/"
@@ -45,7 +45,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Sofie Goethals, Lauren Rhue]]
+[[Lauren Rhue Sofie Goethals]]
 
 ## Metadata
 

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,11 +13,12 @@ type: document
 short_title: "OpenAssistant Conversations (OASST1)"
 year: 2025
 first_author: [[TheDevastator]]
-last_author: [[TheDevastator]]
+last_author: "[[TheDevastator]]"
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HGR2QABJ/TheDevastator - 2023 - OpenAssistant Conversations (OASST1).pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +26,7 @@ newtags:
 tags: 
 research_topic: "Other"
 abstract: "Aligning large language models (LLMs) with human preferences has proven to drastically improve usability and has driven rapid adoption as demonstrated by ChatGPT. Alignment techniques such as supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) greatly reduce the required skill and domain knowledge to effectively harness the capabilities of LLMs, increasing their accessibility and utility across various domains. However, state-of-the-art alignment techniques like RLHF rely on high-quality human feedback data, which is expensive to create and often remains proprietary. In an effort to democratize research on large-scale alignment, we released OpenAssistant Conversations, a human-generated, human-annotated assistant-style conversation corpus consisting of 161,443 messages in 35 different languages. The corpus is a product of a worldwide crowd-sourcing effort involving over 13,500 volunteers. Models trained on OpenAssistant Conversations show consistent improvements on standard benchmarks over respective base models."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "MasakhaNER Named Entity Recognition for African"
 year: 2025
 first_author: "[[Adelani, David Ifeoluwa]]"
-last_author: "[[Emezue, Chris Chinenye]]"
-authors: "[[Adelani, David Ifeoluwa]]; [[Abbott, Jade]]; [[Neubig, Graham]]; [[D'souza, Daniel]]; [[Kreutzer, Julia]]; [[Lignos, Constantine]]; [[Palen-Michel, Chester]]; [[Buzaaba, Happy]]; [[Rijhwani, Shruti]]; [[Ruder, Sebastian]]; [[Mayhew, Stephen]]; [[Azime, Israel Abebe]]; [[Muhammad, Shamsuddeen]]; [[Emezue, Chris Chinenye]]"
-authors_incomplete: true
+last_author: "[[Osei, Salomey]]"
+authors: "[[Adelani, David Ifeoluwa]]; [[Abbott, Jade]]; [[Neubig, Graham]]; [[D'souza, Daniel]]; [[Kreutzer, Julia]]; [[Lignos, Constantine]]; [[Palen-Michel, Chester]]; [[Buzaaba, Happy]]; [[Rijhwani, Shruti]]; [[Ruder, Sebastian]]; [[Mayhew, Stephen]]; [[Azime, Israel Abebe]]; [[Muhammad, Shamsuddeen]]; [[Emezue, Chris Chinenye]]; [[Nakatumba-Nabende, Joyce]]; [[Ogayo, Perez]]; [[Aremu, Anuoluwapo]]; [[Gitau, Catherine]]; [[Mbaye, Derguene]]; [[Alabi, Jesujoba]]; [[Yimam, Seid Muhie]]; [[Gwadabe, Tajuddeen]]; [[Ezeani, Ignatius]]; [[Niyongabo, Rubungo Andre]]; [[Mukiibi, Jonathan]]; [[Otiende, Verrah]]; [[Orife, Iroro]]; [[David, Davis]]; [[Ngom, Samba]]; [[Adewumi, Tosin]]; [[Rayson, Paul]]; [[Adeyemi, Mofetoluwa]]; [[Muriuki, Gerald]]; [[Anebi, Emmanuel]]; [[Chukwuneke, Chiamaka]]; [[Odu, Nkiruka]]; [[Wairagala, Eric Peter]]; [[Oyerinde, Samuel]]; [[Siro, Clemencia]]; [[Bateesa, Tobius Saul]]; [[Oloyede, Temilola]]; [[Wambui, Yvonne]]; [[Akinode, Victor]]; [[Nabagereka, Deborah]]; [[Katusiime, Maurice]]; [[Awokoya, Ayodele]]; [[MBOUP, Mouhamadane]]; [[Gebreyohannes, Dibora]]; [[Tilaye, Henok]]; [[Nwaike, Kelechi]]; [[Wolde, Degaga]]; [[Faye, Abdoulaye]]; [[Sibanda, Blessing]]; [[Ahia, Orevaoghene]]; [[Dossou, Bonaventure F. P.]]; [[Ogueji, Kelechi]]; [[DIOP, Thierno Ibrahima]]; [[Diallo, Abdoulaye]]; [[Akinfaderin, Adewale]]; [[Marengereke, Tendai]]; [[Osei, Salomey]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2103.11811"
 external_pdf: "https://arxiv.org/pdf/2103.11811.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Adelani-MasakhaNER Named Entity Recognition for African.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D'souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen Muhammad, Chris Chinenye Emezue, et al. (61 authors)]]
+[[David Ifeoluwa Adelani|Adelani, David Ifeoluwa]], [[Abbott, Jade]], [[Graham Neubig|Neubig, Graham]], [[D'souza, Daniel]], [[Julia Kreutzer|Kreutzer, Julia]], [[Lignos, Constantine]], [[Palen-Michel, Chester]], [[Buzaaba, Happy]], [[Rijhwani, Shruti]], [[Sebastian Ruder|Ruder, Sebastian]], [[Mayhew, Stephen]], [[Azime, Israel Abebe]], [[Shamsuddeen Muhammad|Muhammad, Shamsuddeen]], [[Emezue, Chris Chinenye]], [[Nakatumba-Nabende, Joyce]], [[Ogayo, Perez]], [[Anuoluwapo Aremu|Aremu, Anuoluwapo]], [[Gitau, Catherine]], [[Mbaye, Derguene]], [[Alabi, Jesujoba]], [[Seid Muhie Yimam|Yimam, Seid Muhie]], [[Tajuddeen Gwadabe|Gwadabe, Tajuddeen]], [[Ezeani, Ignatius]], [[Niyongabo, Rubungo Andre]], [[Mukiibi, Jonathan]], [[Otiende, Verrah]], [[Iroro Orife|Orife, Iroro]], [[Davis David|David, Davis]], [[Ngom, Samba]], [[Adewumi, Tosin]], [[Rayson, Paul]], [[Adeyemi, Mofetoluwa]], [[Muriuki, Gerald]], [[Anebi, Emmanuel]], [[Chukwuneke, Chiamaka]], [[Odu, Nkiruka]], [[Wairagala, Eric Peter]], [[Oyerinde, Samuel]], [[Siro, Clemencia]], [[Bateesa, Tobius Saul]], [[Oloyede, Temilola]], [[Wambui, Yvonne]], [[Akinode, Victor]], [[Nabagereka, Deborah]], [[Katusiime, Maurice]], [[Awokoya, Ayodele]], [[MBOUP, Mouhamadane]], [[Gebreyohannes, Dibora]], [[Tilaye, Henok]], [[Nwaike, Kelechi]], [[Wolde, Degaga]], [[Faye, Abdoulaye]], [[Sibanda, Blessing]], [[Ahia, Orevaoghene]], [[Dossou, Bonaventure F. P]], [[Ogueji, Kelechi]], [[DIOP, Thierno Ibrahima]], [[Diallo, Abdoulaye]], [[Akinfaderin, Adewale]], [[Marengereke, Tendai]], [[Salomey Osei|Osei, Salomey]]
 
 ## Metadata
 
-**Authors:** David Ifeoluwa Adelani, Jade Abbott, Graham Neubig, Daniel D'souza, Julia Kreutzer, Constantine Lignos, Chester Palen-Michel, Happy Buzaaba, Shruti Rijhwani, Sebastian Ruder, Stephen Mayhew, Israel Abebe Azime, Shamsuddeen Muhammad, Chris Chinenye Emezue, et al. (61 authors)
+**Authors:** Adelani, David Ifeoluwa; Abbott, Jade; Neubig, Graham; D'souza, Daniel; Kreutzer, Julia; Lignos, Constantine; Palen-Michel, Chester; Buzaaba, Happy; Rijhwani, Shruti; Ruder, Sebastian; Mayhew, Stephen; Azime, Israel Abebe; Muhammad, Shamsuddeen; Emezue, Chris Chinenye; Nakatumba-Nabende, Joyce; Ogayo, Perez; Aremu, Anuoluwapo; Gitau, Catherine; Mbaye, Derguene; Alabi, Jesujoba; Yimam, Seid Muhie; Gwadabe, Tajuddeen; Ezeani, Ignatius; Niyongabo, Rubungo Andre; Mukiibi, Jonathan; Otiende, Verrah; Orife, Iroro; David, Davis; Ngom, Samba; Adewumi, Tosin; Rayson, Paul; Adeyemi, Mofetoluwa; Muriuki, Gerald; Anebi, Emmanuel; Chukwuneke, Chiamaka; Odu, Nkiruka; Wairagala, Eric Peter; Oyerinde, Samuel; Siro, Clemencia; Bateesa, Tobius Saul; Oloyede, Temilola; Wambui, Yvonne; Akinode, Victor; Nabagereka, Deborah; Katusiime, Maurice; Awokoya, Ayodele; MBOUP, Mouhamadane; Gebreyohannes, Dibora; Tilaye, Henok; Nwaike, Kelechi; Wolde, Degaga; Faye, Abdoulaye; Sibanda, Blessing; Ahia, Orevaoghene; Dossou, Bonaventure F. P.; Ogueji, Kelechi; DIOP, Thierno Ibrahima; Diallo, Abdoulaye; Akinfaderin, Adewale; Marengereke, Tendai; Osei, Salomey
 
 **Year:** 2021
 

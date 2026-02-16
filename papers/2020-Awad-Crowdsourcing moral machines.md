@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.1145/3339904
 url: "https://dl.acm.org/doi/10.1145/3339904"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3339904"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing
 significance: "Laid the groundwork for the largest cross-cultural study of machine ethics, providing the data necessary to understand regional variations in moral intuition for autonomous vehicle regulation."
 tags: 
 abstract: "A platform for creating a crowdsourced picture of human opinions on how machines should handle moral dilemmas."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

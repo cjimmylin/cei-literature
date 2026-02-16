@@ -48,6 +48,8 @@ Under his leadership, Scale AI became the "foundational" layer for almost all ma
 
 ## Papers in this Vault
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -59,5 +61,9 @@ Under his leadership, Scale AI became the "foundational" layer for almost all ma
 
 ## Notes
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 [Alexandr is perhaps the most influential figure in the AI data supply chain.]

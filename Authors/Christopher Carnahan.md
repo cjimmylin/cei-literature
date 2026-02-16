@@ -32,6 +32,8 @@ Christopher Carnahan is a researcher affiliated with the University of Arizona w
 
 ## Papers in this Vault
 
+
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## External Links & Profiles
@@ -41,5 +43,9 @@ Christopher Carnahan is a researcher affiliated with the University of Arizona w
 
 ## Notes
 
+
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu
 His work on prompt injection and LLM vulnerabilities is directly relevant to AI safety and ethics. Understanding how language models can be manipulated is essential for developing robust AI systems that resist malicious use. The HackAPrompt research provides crucial insights for improving AI security and preventing harmful outputs.

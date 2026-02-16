@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Development and Evaluation of Myanmar GPT"
 year: 2024
 first_author: "[[Min Si Thu, Pyae Sone Phyo]]"
-last_author: "[[Min Si Thu, Pyae Sone Phyo]]"
+last_author: "[[Pyae Sone Phyo Min Si Thu]]"
 authors: "[[Min Si Thu, Pyae Sone Phyo]]"
 authors_incomplete: false
 doi: 10.2139/ssrn.4871732
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Myanmar"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -50,7 +52,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Min Si Thu, Pyae Sone Phyo]]
+[[Pyae Sone Phyo Min Si Thu]]
 
 ## Metadata
 

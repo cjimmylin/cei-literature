@@ -21,10 +21,17 @@ Hitomi Yanaka is an Associate Professor with dual affiliations at RIKEN's Explai
 ## Papers in this Vault
 
 
+
+
+- [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]] (First Author)
 - [[2024-Yanaka-JBBQ|JBBQ]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 Research demonstrates that while larger Japanese LLMs show improved accuracy, they also exhibit higher bias scores, highlighting trade-offs in current model scaling approaches.

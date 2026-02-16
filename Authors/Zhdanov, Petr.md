@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Farina-AI and Society Virtue Ethics Approach|AI and Society Virtue Ethics Approach]]]]
+
 
 - [[2024-Farina-AI and Society Virtue Ethics Approach|AI and Society Virtue Ethics Approach]]
 

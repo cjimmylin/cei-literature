@@ -26,10 +26,16 @@ Endre Hamerlik is a researcher affiliated with MBZUAI (Mohamed bin Zayed Univers
 ## Papers in this Vault
 
 
+
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
 
 
+
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 Contributor to multilingual LLM evaluation research, addressing the critical need for AI systems that work equitably across all languages.

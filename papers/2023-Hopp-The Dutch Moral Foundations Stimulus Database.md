@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ doi: 10.31234/osf.io/ywhx2
 url: "https://doi.org/10.31234/osf.io/ywhx2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/199A848F4ACDF273759329C34FCC653B/S1930297524000056a.pdf/div-class-title-the-dutch-moral-foundations-stimulus-database-an-adaptation-and-validation-of-moral-vignettes-and-sociomoral-images-in-a-dutch-sample-div.pdf"
 national_ethnic_cultural: "Dutch, American, Brazilian, Australian/Aboriginal"
+cultures_nationalities_list: "Dutch, American, Brazilian, Australian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -26,6 +28,7 @@ tags:
 abstract: "Moral judgments are shaped by socialization and cultural heritage. Understanding how moral considerations vary across the globe requires the systematic development of moral stimuli for use in different cultures and languages. Focusing on Dutch populations, we adapted and validated two recent instruments for examining moral judgments: (1) the Moral Foundations Vignettes (MFVs) and (2) the Socio-Moral Image Database (SMID)."
 pdf_extract: "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md"
 local_pdf: "[[PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

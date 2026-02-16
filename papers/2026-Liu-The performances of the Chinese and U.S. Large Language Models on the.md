@@ -44,7 +44,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Feiyan Liu, Siyan Zhao, Chenxun Zhuo, Tianming Liu, Bao Ge]]
+[[Fenglin Liu|Feiyan Liu]], [[Siyan Zhao]], [[Chenxun Zhuo]], [[Tianming Liu]], [[Bao Ge]]
 
 ## Metadata
 

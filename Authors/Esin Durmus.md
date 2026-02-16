@@ -32,8 +32,11 @@ Durmus's research spans AI safety, opinion diversity in language models, and mea
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
+- [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]] (First Author)
 - [[2023-Santurkar-Whose Opinions Do Language Models Reflect|Whose Opinions Do Language Models Reflect?]]
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]

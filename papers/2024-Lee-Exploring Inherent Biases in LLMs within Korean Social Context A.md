@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Seungyoon Lee, Dongjun Kim, Dahyun Jung, Chanjun Park, Heuiseok Lim]]
+[[Seungyoon Lee]], [[Dongjun Kim]], [[Dahyun Jung]], [[Chanjun Park]], [[Heuiseok Lim]]
 
 ## Metadata
 

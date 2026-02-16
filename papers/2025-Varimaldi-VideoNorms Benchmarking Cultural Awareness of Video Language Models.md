@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "American, Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
 
 ## Authors
 
-[[Varimalla, Nikhil Reddy]], [[Xu, Yunfei]], [[Saakyan, Arkadiy]], [[Wang, Meng Fan]], [[Muresan, Smaranda]]
+[[Varimalla, Nikhil Reddy]], [[Xu, Yunfei]], [[Saakyan, Arkadiy]], [[Wei Fan|Wang, Meng Fan]], [[Muresan, Smaranda]]
 
 ## Metadata
 

@@ -1,4 +1,6 @@
 ---
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -17,6 +19,7 @@ local_pdf: "[[PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -26,6 +29,7 @@ significance: "Reveals that LLMs possess a structured, distinct value system ('C
 tags: 
 abstract: "Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs' embedded values becomes crucial for assessing and mitigating their risks. Despite extensive investigation into LLMs' values, previous studies heavily rely on human-oriented value systems in social sciences. Then, a natural question arises: Do LLMs possess unique values beyond those of hu- mans? Delving into it, this work proposes a novel frame"
 paper_summary: "Abstract: Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs' embedded values becomes crucial for assessing | Overview: Pre-print Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches Pablo Biedma♢, Xiaoyuan Yi§∗, Linus Huang‡, Maosong Sun♢∗, Xing Xie§ § Microsoft Res | Methodology: for eliciting beliefs encoded in LLMs and studies different beliefs encoded in diverse LLMs. Simmons (2022a) further utilizes MFQ to analyze LLMs' pol | Key Findings: Input: p, Θ, S, V = {v1, v2, . . . , vK} Output: w = (w1, . . . , wK) 1: Y = ∅ 2: for each s ∈S do 3: for each θ ∈Θ do 4: Y = Y S{ym}M m=1, ym ∼p(y|s,"
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

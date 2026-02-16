@@ -18,12 +18,19 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Galatolo-Beyond Ethical Alignment|Beyond Ethical Alignment]] (Last Author)
+- [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
 
 ## Notes
 
 
+
+
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 [Additional context or contact information]

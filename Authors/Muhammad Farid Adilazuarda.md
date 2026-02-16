@@ -21,11 +21,20 @@ Muhammad Farid Adilazuarda is a PhD student at the University of Edinburgh, advi
 ## Papers in this Vault
 
 
+
+
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]] (First Author)
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]] (First Author)
+- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
+- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
+- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 
 ## Notes
 
 
+
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2024-Adilazuarda-Towards Measuring and Modeling *: Affiliation: Institute of Technology Kanpur, India
 [Additional context or contact information]

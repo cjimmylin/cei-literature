@@ -34,10 +34,16 @@ Clifton's research applies machine learning to clinical problems, including pati
 ## Papers in this Vault
 
 
+
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 Clifton's research group at Oxford is one of the leading centers for clinical AI research in the UK. He has collaborated extensively with the NHS and medical institutions to translate AI research into clinical practice while maintaining high standards of safety and ethics.

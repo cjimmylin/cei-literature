@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "ViMUL A Culturally-diverse Multilingual Multimodal Video"
 year: 2025
 first_author: "[[team, MBZUAI-Oryx]]"
-last_author: "[[team, MBZUAI-Oryx]]"
+last_author: "[[MBZUAI-Oryx team]]"
 authors: "[[MBZUAI-Oryx team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.07032"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
+cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Computer Vision & Multimodal"
 
 ## Authors
 
-[[MBZUAI-Oryx team]]
+[[M-A-P Team|MBZUAI-Oryx team]]
 
 ## Metadata
 

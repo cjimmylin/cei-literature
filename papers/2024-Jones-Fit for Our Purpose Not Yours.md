@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "Fit for Our Purpose Not Yours"
 year: 2025
 first_author: "[[Suzanne Duncan, Gianna Leoni, Lee Steven, Keoni Mahelona, Peter-Lucas Jones]]"
-last_author: "[[Suzanne Duncan, Gianna Leoni, Lee Steven, Keoni Mahelona, Peter-Lucas Jones]]"
+last_author: "[[Peter-Lucas Jones]]"
 authors: "[[Suzanne Duncan, Gianna Leoni, Lee Steven, Keoni Mahelona, Peter-Lucas Jones]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indigenous"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Suzanne Duncan, Gianna Leoni, Lee Steven, Keoni Mahelona, Peter-Lucas Jones]]
+[[Suzanne Duncan]], [[Gianna Leoni]], [[Lee Steven]], [[Keoni Mahelona]], [[Peter-Lucas Jones]]
 
 ## Metadata
 

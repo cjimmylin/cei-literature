@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2505.08638"
 external_pdf: "http://arxiv.org/pdf/2505.08638.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Deshpande-TRAIL.md"
 abstract: "The increasing adoption of agentic workflows across diverse domains brings a critical need to scalably and systematically evaluate the complex traces these systems generate. Current evaluation methods depend on manual, domainspecific human analysis of lengthy workflow traces—an approach that does not scale with the growing complexity and volume of agentic outputs. Error analysis in these settings is further complicated by the interplay of external tool outputs and language model reasoning,..."
 paper_summary: "Abstract: The increasing adoption of agentic workflows across diverse domains brings a critical need to scalably and systematically evaluate the com- plex traces these systems generate. Current evaluation metho | Overview: arXiv:2505.08638v3 [cs.AI] 23 Jun 2025 TRAIL: Trace Reasoning and Agentic Issue Localization Darshan Deshpande Varun Gangal Hersh Mehta Jitin Krishnan Anand Kannappan Rebecca Qian Patronus AI {darshan | Key Findings: methods for agentic workflow traces, (2) intro- duce a formal taxonomy of error types encoun- tered in agentic systems, and (3) present a set of 148 l | Conclusions: In this work, TRAIL, a new taxonomy for classi- fying agentic errors, along with an expert-curated dataset of 148 agentic problem instances and 841 un"
 local_pdf: [[PDFs/2025/2025-Deshpande-TRAIL.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

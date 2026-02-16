@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Evaluating Polish Linguistic and Cultural Competency in Large Language Models"
 year: 2025
 first_author: "[[Slawomir Dadas]]"
-last_author: "[[Rafal Poswiata]]"
+last_author: "[[Rafal Poswiata Michal Perelkiewicz]]"
 authors: "Slawomir Dadas, Malgorzata Grebowiec, Michal Perelkiewicz, Rafal Poswiata"
 url: "https://arxiv.org/abs/2503.00995"
 external_pdf: "https://arxiv.org/pdf/2503.00995.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Polish"
 languages_list: Polish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Slawomir Dadas, Malgorzata Grebowiec, Michal Perelkiewicz, Rafal Poswiata]]
+[[Malgorzata Grebowiec Slawomir Dadas]], [[Rafal Poswiata Michal Perelkiewicz]]
 
 ## Metadata
 

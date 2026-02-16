@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2024"
 year: 2025
 first_author: "[[at, Overview of the Multilingual Text Detoxification Task]]"
-last_author: "[[at, Overview of the Multilingual Text Detoxification Task]]"
+last_author: "[[Overview of the Multilingual Text Detoxification Task at]]"
 authors: "[[at, Overview of the Multilingual Text Detoxification Task]]"
 authors_incomplete: false
 url: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indian, Arabic, African/Ubuntu, German, Spanish, Russian"
+cultures_nationalities_list: "Spanish, German, Chinese, Arabic, Indian, Ukrainian, Russian, Ethiopian"
 languages_list: "Amharic, Arabic, Chinese, English, German, Hindi, Russian, Spanish, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"

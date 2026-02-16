@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "A multilingual dataset for offensive language"
 year: 2025
 first_author: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"
-last_author: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"
+last_author: "[[Muhammad Murtala]]"
 authors: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.02169"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]
+[[Saminu Mohammad Aliyu]], [[Gregory Maksha Wajiga]], [[Muhammad Murtala]]
 
 ## Metadata
 

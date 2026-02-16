@@ -27,10 +27,16 @@ Other notable publications include:
 ## Papers in this Vault
 
 
+
+
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 Hoover's work bridges moral psychology theory with computational methods, enabling large-scale empirical studies of moral reasoning in online discourse. His research on moral framing has implications for understanding polarization and extremism in digital spaces.

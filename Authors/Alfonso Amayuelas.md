@@ -32,9 +32,16 @@ Alfonso is a key contributor to the *Kaleidoscope* project, a comprehensive benc
 ## Papers in this Vault
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
+- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## Notes
 
+
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 [Specializes in identifying 'cultural translation' failures in model safety filters.]

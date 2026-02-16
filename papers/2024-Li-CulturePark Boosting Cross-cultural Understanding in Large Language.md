@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "CulturePark: Boosting Cross-cultural Understanding in Large Language Models"
 year: 2024
 first_author: "[[Cheng Li]]"
-last_author: "[[Jindong Wang]]"
+last_author: "[[Jindong Wang Xing Xie]]"
 authors: Cheng Li, Damien Teney, Linyi Yang, Qingsong Wen, Xing Xie, Jindong Wang
 url: "https://arxiv.org/abs/2405.15145"
 external_pdf: "https://arxiv.org/pdf/2405.15145.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Cheng Li, Damien Teney, Linyi Yang, Qingsong Wen, Xing Xie, Jindong Wang]]
+[[Damien Teney Cheng Li]], [[Qiang Yang|Qingsong Wen Linyi Yang]], [[Jindong Wang Xing Xie]]
 
 ## Metadata
 

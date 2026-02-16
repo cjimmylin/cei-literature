@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Luo-HalluDial|HalluDial]]
 
 ## Notes
 
 
+
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 [Additional context or contact information]

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Lexical Sentiment and Correlation Analysis of"
 year: 2025
 first_author: "[[Felipe-Ruiz, Alonso]]"
-last_author: "[[Felipe-Ruiz, Alonso]]"
+last_author: "[[Alonso Felipe-Ruiz]]"
 authors: "[[Alonso Felipe-Ruiz]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

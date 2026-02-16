@@ -47,6 +47,8 @@ Garcia has published work exploring the detectability and acceptability of LLMs'
 ## Papers in this Vault
 
 
+
+
 - [[2024-Garcia-The Moral Turing Test|The Moral Turing Test]] (First Author)
 
 ## External Links & Profiles
@@ -61,5 +63,9 @@ Garcia has published work exploring the detectability and acceptability of LLMs'
 
 ## Notes
 
+
+
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr
+- *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: basile.garcia@unige.ch
 - *From 2024-Garcia-The Moral Turing Test*: Affiliation: University of Geneva, Email: stefano.palminteri@ens.fr
 His focus on the "Moral Turing Test" and human perception of AI ethics is vital for understanding societal acceptance of aligned systems.

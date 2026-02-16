@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "Speaking Multiple Languages Affects the Moral Bias of Language Models"
 year: 2025
 first_author: "[[Katharina Hämmerl]]"
-last_author: [[others]]
+last_author: "[[Patrick Schramowski]]"
 authors: "Katharina Hämmerl, Björn Deiseroth, Patrick Schramowski, others"
 url: "https://aclanthology.org/2023.findings-acl.134/"
 external_pdf: "https://arxiv.org/pdf/2211.07733.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Arabic, German"
+cultures_nationalities_list: "Chinese, Arabic, German"
 languages_list: "Arabic, Chinese, Czech, English, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Katharina Hämmerl, Björn Deiseroth, Patrick Schramowski, others]]
+[[Katharina Hämmerl]], [[Björn Deiseroth]], [[Patrick Schramowski]]
 
 ## Metadata
 

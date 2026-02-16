@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/1709.06692"
 external_pdf: "http://arxiv.org/pdf/1709.06692.pdf"
 publication: "Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2018/2018-Noothigattu-A Voting-Based System for Ethic
 local_pdf: "[[PDFs/2018/2018-Noothigattu-A Voting-Based System for Ethical Decision Making.pdf]]"
 abstract: "We present a general approach to automating ethical decisions, drawing on machine learning and computational social choice. In a nutshell, we propose to learn a model of societal preferences, and, when faced with a speciﬁc ethical dilemma at runtime, eﬃciently aggregate those preferences to identify a desirable choice. We provide a concrete algorithm that instantiates our approach; some of its crucial steps are informed by a new theory of swap-dominance eﬃcient voting rules."
 paper_summary: "Abstract: We present a general approach to automating ethical decisions, drawing on machine learning and computational social choice. In a nutshell, we propose to learn a model of societal prefer- ences, and, w | Overview: A Voting-Based System for Ethical Decision Making Ritesh Noothigattu1, Snehalkumar 'Neil' S. Gaikwad2, Edmond Awad2, Sohan Dsouza2, Iyad Rahwan2, Pradeep Ravikumar1, and Ariel D. Procaccia1 1School of | Methodology: In this section, we instantiate our approach for ethical decision making, as outlined in Section 1. In order to present a concrete algorithm, we consi | Key Findings: In this section, we implement the algorithm presented in Section 5, and empirically evaluate it. We start with an implementation on synthetic data, wh | Conclusions: The design of intelligent machines that can make ethical decisions is, arguably, one of the hardest challenges in AI. We do believe that our approach"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

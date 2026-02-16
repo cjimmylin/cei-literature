@@ -40,6 +40,8 @@ His collaborators include Zimo Qi (Johns Hopkins University), Xitong Zhang (Mich
 ## Papers in this Vault
 
 
+
+
 - [[2025-Liu-Diagnosing Moral Reasoning Acquisition in|Diagnosing Moral Reasoning Acquisition in]] (First Author)
 - [[2025-Liu-On the Convergence of Moral Self-Correction in LLMs|On the Convergence of Moral Self-Correction in LLMs]] (First Author)
 
@@ -51,5 +53,9 @@ His collaborators include Zimo Qi (Johns Hopkins University), Xitong Zhang (Mich
 ## Notes
 
 
+
+
+- *From 2025-Liu-Diagnosing Moral Reasoning Acquisition in*: Affiliation: University 2Johns Hopkins University, Email: zqi15@jh.edu
+- *From 2025-Liu-Diagnosing Moral Reasoning Acquisition in*: Affiliation: University 2Johns Hopkins University, Email: zqi15@jh.edu
 - *From 2025-Liu-Diagnosing Moral Reasoning Acquisition in*: Affiliation: University 2Johns Hopkins University, Email: zqi15@jh.edu
 Liu's research on moral reasoning acquisition in LLMs contributes to understanding whether AI systems can develop genuine moral sensitivity or merely learn to produce superficially aligned responses.

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Interpretability & Explainability"
 
 ## Authors
 
-[[Jay Patel]], [[Hrudayangam Mehta]], [[Jeremy Blackburn]]
+[[Jay Patel]], [[Hersh Mehta|Hrudayangam Mehta]], [[Jeremy Blackburn]]
 
 ## Metadata
 

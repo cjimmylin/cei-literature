@@ -25,10 +25,16 @@ Potertì's work focuses on developing and evaluating NLP systems for the Italian
 ## Papers in this Vault
 
 
+
+
 - [[2025-Seveso-ITALIC|ITALIC]]
 
 ## Notes
 
 
+
+
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 Potertì is part of the growing community of researchers working to expand NLP resources and benchmarks to underrepresented European languages.

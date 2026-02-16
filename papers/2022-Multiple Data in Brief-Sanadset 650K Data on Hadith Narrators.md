@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Sanadset 650K Data on Hadith Narrators"
 year: 2025
 first_author: "[[Multiple (Data in Brief, 2022)]]"
-last_author: "[[Multiple (Data in Brief, 2022)]]"
+last_author: "[[2022)]]"
 authors: "[[Multiple (Data in Brief, 2022)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Multiple (Data in Brief, 2022)]]
+[[Multiple (Data in Brief]], [[2022)]]
 
 ## Metadata
 

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2404.07900"
 external_pdf: "http://arxiv.org/pdf/2404.07900.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Cahyawijaya-High-Dimension Human Value Repr
 abstract: "The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human values and preferences. Given various approaches of human value alignment, there is an urgent need to understand the scope and nature of human values injected into these LLMs before their deployment and adoption. We propose UniVaR, a high-dimensional neural representation of symbolic human value distributions in LLMs, orthogonal to model architecture and training data."
 paper_summary: "Abstract: The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment | Overview: High-Dimension Human Value Representation in Large Language Models Samuel Cahyawijaya∗ Delong Chen∗ Yejin Bang∗ Leila Khalatbari Bryan Wilie∗ Ziwei Ji Etsuko Ishii Pascale Fung* The Hong Kong Universi | Key Findings: Task To quantitatively evaluate whether represen- tation effectively captures value-relevant features in LLMs, we introduce an LLM value identificatio | Conclusions: The adoption of LLMs across various fields neces- sitates understanding how these models represent human values. Our paper introduces UniVaR, a high-d"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

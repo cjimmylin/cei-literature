@@ -1,7 +1,7 @@
 ---
 name: "Ali Hamdi"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Faculty of Computer Science, MSA University, Egypt"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]]]]
 
+
+- [[2025-Mohammed-Cross-Language Approach for Quranic QA|Cross-Language Approach for Quranic QA]] (Last Author)
 - [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]]
 
 ## External Links & Profiles
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2020-Awad-Crowdsourcing moral machines|Crowdsourcing moral machines]] (Last Author)
 - [[2020-Awad-Universals and variations in moral decisions made|Universals and variations in moral decisions made]]
 - [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]] (Last Author)
@@ -26,5 +28,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: irahwan@mit.edu
 [Additional context or contact information]

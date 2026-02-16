@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: journal_article
 short_title: "Optimisation of the Largest Annotated Tibetan"
 year: 2025
 first_author: "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]"
-last_author: "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]"
+last_author: "[[Nathan Hill (and collaborators)]]"
 authors: "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]
+[[Christian Faggionato]], [[Marieke Meelen]], [[Nathan Hill (and collaborators)]]
 
 ## Metadata
 

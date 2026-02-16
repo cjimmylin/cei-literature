@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Slovene SuperGLUE Benchmark: Translation and Evaluation"
 year: 2025
 first_author: "[[Ales Zagar]]"
-last_author: "[[Marko Robnik-Sikonja]]"
+last_author: "[[Marko Robnik-Sikonja Ales Zagar]]"
 authors: "Ales Zagar, Marko Robnik-Sikonja"
 url: "https://arxiv.org/abs/2202.04994"
 external_pdf: "https://arxiv.org/pdf/2202.04994.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Slovenian"
 languages_list: Slovenian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Ales Zagar, Marko Robnik-Sikonja]]
+[[Marko Robnik-Sikonja Ales Zagar]]
 
 ## Metadata
 

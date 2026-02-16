@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Tsai-Why AI May Undermine Phronesis|Why AI May Undermine Phronesis]] (First Author)]]
+
 
 - [[2024-Tsai-Why AI May Undermine Phronesis|Why AI May Undermine Phronesis]] (First Author)
 

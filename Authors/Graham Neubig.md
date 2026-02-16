@@ -36,7 +36,13 @@ He contributes to making NLP research more accessible through open publishing of
 ## Papers in this Vault
 
 
+
+
+- [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]]
+- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
+- [[2023-Mager-Neural Machine Translation for the Indigenous Languages of the|Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction.]]
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
+- [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 
 ## Links
 
@@ -47,5 +53,9 @@ He contributes to making NLP research more accessible through open publishing of
 ## Notes
 
 
+
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 Neubig's work on multilingual NLP and low-resource languages contributes to making AI systems more accessible across linguistic communities worldwide.

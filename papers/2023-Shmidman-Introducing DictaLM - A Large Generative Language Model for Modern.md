@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew"
 year: 2025
 first_author: "[[Shaltiel Shmidman]]"
-last_author: "[[Moshe Koppel]]"
+last_author: "[[Moshe Koppel Amir DN Cohen]]"
 authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"
 url: "https://arxiv.org/abs/2309.14568"
 external_pdf: "https://arxiv.org/pdf/2309.14568.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]
+[[Avi Shmidman Shaltiel Shmidman]], [[Moshe Koppel Amir DN Cohen]]
 
 ## Metadata
 

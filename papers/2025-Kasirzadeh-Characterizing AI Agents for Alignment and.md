@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ last_author: "[[Iason Gabriel]]"
 authors: "Atoosa Kasirzadeh; Iason Gabriel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UUHA3RW9/Kasirzadeh and Gabriel - Characterizing AI Agents for Alignment and Governance.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +25,7 @@ key_contribution: "Proposed a 4-dimensional framework (Autonomy, Efficacy, Goal 
 significance: "Provides a vocabulary for regulators to classify 'Agents' distinct from 'Tools', which is crucial for upcoming AI legislation (e.g., EU AI Act, liability laws)."
 tags: 
 abstract: "Recent discussions and research in AI safety have increasingly emphasized the deep connection between AI safety and existential risk from advanced AI systems, suggesting that work on AI safety necessarily entails serious consideration of potential existential threats. However, this framing has three potential drawbacks: it may exclude researchers and practitioners who are committed to AI safety but approach the field from different angles; it could lead the public to mistakenly view AI safety..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ last_author: "[[Seth Lazar]]"
 authors: "Seth Lazar"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FNRNTSRF/Lazar - Frontier AI Ethics Anticipating and Evaluating the Societal Impacts of Language Model Agents.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -22,6 +25,7 @@ key_contribution: "Explores societal impacts and normative questions of 'Languag
 significance: "Shifts ethical focus from static models or far-future risks to the near-term disruptive potential of agentic AI systems and their societal integration"
 tags: 
 abstract: "Some have criticised Generative AI Systems for replicating the familiar pathologies of already widely-deployed AI systems. Other critics highlight how they foreshadow vastly more powerful future systems, which might threaten humanity's survival. The first group says there is nothing new here; the other looks through the present to a perhaps distant horizon. In this paper, I instead pay attention to what makes these particular systems distinctive: both their remarkable scientific achievement,..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

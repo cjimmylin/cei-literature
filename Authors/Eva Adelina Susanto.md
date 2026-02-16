@@ -26,6 +26,8 @@ Research on cultural value representation in AI systems, particularly examining 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Meadows-LocalValueBench|LocalValueBench]]
 
 ## External Links & Profiles
@@ -35,5 +37,9 @@ Research on cultural value representation in AI systems, particularly examining 
 ## Notes
 
 
+
+
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
+- *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 - *From 2024-Meadows-LocalValueBench*: Affiliation: laboratively Built and
 Contributor to benchmarks examining cultural value representation in language models.

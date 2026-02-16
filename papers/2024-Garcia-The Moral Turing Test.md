@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2410.07304"
 external_pdf: "http://arxiv.org/pdf/2410.07304.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2024/2024-Garcia-The Moral Turing Test.md"
 abstract: "As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of humanand LLM-generated responses to various moral scenarios. We found a misalignment between human and LLM moral assessments; although both LLMs and humans tended to reject morally complex utilitarian dilemmas, LLMs were more sensitive to personal framing."
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of human- and  | Overview: The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making Basile Garcia basile.garcia@unige.ch University of Geneva Geneva, Switzerland Crystal Qian cjqian@google.com Google DeepM | Key Findings: In the main stage of the study (Figure 2B), we presented the re- sponses generated in the first stage to new human participants (N=230). 77 participan | Conclusions: 5.1 Summary In the first part of our study, we set the stage to examine differences in human- and LLM- reasoning, administering a well-established psy"
 local_pdf: "[[PDFs/2024/2024-Garcia-The Moral Turing Test.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Coh
 url: "https://www.nature.com/articles/sdata201660"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D4GRALMJ/Purzycki and others - 2016 - Religious Belief and the Moral Circle Cross-Cultural Dataset.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ significance: "Provides the empirical data underpinning major theories in the ev
 tags: 
 osint_source: "Recovered via HTML"
 abstract: "A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The Evolution of Religion and Morality Project sought to generate a data set that systematically probed individual level measures sampling across a wider range of human populations. The set includes data from behavioral economic experiments and detailed surveys of demographics, religious beliefs and practices, material security, and intergroup perceptions."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

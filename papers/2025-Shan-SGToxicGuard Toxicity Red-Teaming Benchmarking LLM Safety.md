@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0428
 type: preprint
 short_title: "SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety"
 year: 2025
-first_author: "[[Shan, Ming]]"
-last_author: "[[Ka-Wei, Roy]]"
-authors: "[[Shan, Ming]]; [[Ka-Wei, Roy]]"
-authors_incomplete: true
+first_author: "[[Hu, Yujia]]"
+last_author: "[[Lee, Roy Ka-Wei]]"
+authors: "[[Hu, Yujia]]; [[Hee, Ming Shan]]; [[Nakov, Preslav]]; [[Lee, Roy Ka-Wei]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2509.15260"
 external_pdf: "https://arxiv.org/pdf/2509.15260.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Singaporean"
+cultures_nationalities_list: "Singaporean, Chinese, Malay, Tamil, Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Shan, Ming]], [[Ka-Wei, Roy]]
+[[Hu, Yujia]], [[Hee, Ming Shan]], [[Preslav Nakov|Nakov, Preslav]], [[Roy Ka-Wei Lee|Lee, Roy Ka-Wei]]
 
 ## Metadata
 
-**Authors:** Ming Shan; Roy Ka-Wei
+**Authors:** Hu, Yujia; Hee, Ming Shan; Nakov, Preslav; Lee, Roy Ka-Wei
 
 **Year:** 2025
 

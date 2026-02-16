@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One"
 year: 2025
 first_author: "[[Gu, Wenshi]]"
-last_author: "[[Gu, Wenshi]]"
+last_author: "[[Wenshi Gu]]"
 authors: "[[Gu, Wenshi]]"
 authors_incomplete: false
 doi: 10.1371/journal.pone.0313264
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese"
+cultures_nationalities_list: "Japanese, Chinese"
 languages_list: "Chinese, English, Japanese, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,19 +11,20 @@ type: conferencePaper
 short_title: "Hate Speech Dataset Catalogue | hatespeechdata"
 year: 2025
 first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://hatespeechdata.com/"
 external_pdf: "http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.760.pdf"
 publication: Web
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md"
-local_pdf: "N/A"
+local_pdf: "[[PDFs/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: "English, Japanese, Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"

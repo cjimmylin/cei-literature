@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Li-HaluEval|HaluEval]]
 
 ## Notes
 
 
+
+
+- *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: chengxiaoxue3@gmail.com
+- *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: chengxiaoxue3@gmail.com
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: batmanfly@gmail.com
 [Additional context or contact information]

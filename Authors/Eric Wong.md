@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Chao-JBB-Behaviours|JBB-Behaviours]] (Last Author)]]
+
 
 - [[2024-Chao-JBB-Behaviours|JBB-Behaviours]] (Last Author)
 

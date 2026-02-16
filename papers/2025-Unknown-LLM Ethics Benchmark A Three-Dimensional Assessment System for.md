@@ -10,7 +10,7 @@ type: journalArticle
 short_title: "LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models"
 year: 2025
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (The Responsible AI Initiative)]]"
 authors: Unknown (The Responsible AI Initiative)
 doi: 10.1038/s41598-025-18489-7
 url: "https://www.nature.com/articles/s41598-025-18489-7"

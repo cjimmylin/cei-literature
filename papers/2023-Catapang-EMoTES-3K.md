@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Catapang, Jasper Kyle]]; [[Visperas, Moses]]"
 url: "https://aclanthology.org/2023.nlp4dh-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5GQQWIXN/2023 - EMoTES-3K Emotion-based Morality in Tagalog and English Scenarios.pdf"
 national_ethnic_cultural: "Filipino"
+cultures_nationalities_list: "Filipino"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ key_contribution: "Created EMoTES-3K, the first dataset for emotion-based morali
 significance: "Addresses the 'Anglocentrism' of moral AI benchmarks, providing a crucial resource for Filipino NLP and showing that models struggle with 'mixed' moral scenarios in Tagalog."
 tags: 
 abstract: "Grasping morality is vital in AI systems, particularly as they become more prevalent in humanfocused applications. Yet, research is scarce on this topic. This study presents the Emotionbased Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

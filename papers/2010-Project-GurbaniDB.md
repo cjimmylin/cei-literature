@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,12 +18,14 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/ZNGV87C6/Project - GurbaniD
 pdf_extract: "PDF Extracts/2010/2010-Project-GurbaniDB.md"
 local_pdf: [[PDFs/2010/2010-Project-GurbaniDB.pdf]]
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "GurbaniDB is a comprehensive digital database and search engine for the Sikh scriptures, dedicated to making Sikh scriptures accessible to everyone. It is the world's first Gurbani database to correctly archive Guru Granth Sahib into all 60 Raags (moods/melodies) with pop-up descriptions of each Author and Melody. The platform allows users to search the Guru Granth Sahib in English, Gurmukhi and 52 other languages, including 22 transliterations, fostering collaboration among volunteers to enhance translations and promote innovation and community engagement."
+DATE_ADDED: 20260129
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

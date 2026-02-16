@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Pierre Le Jeune; Benoît Malézieux; Weixuan Xiao; Matteo Dora"
 url: "https://arxiv.org/abs/2505.11365"
 external_pdf: "https://arxiv.org/pdf/2505.11365.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Le Jeune-Phare A Safety Probe for Large Lan
 abstract: "Ensuring the safety of large language models (LLMs) is critical for responsible deployment, yet existing evaluations often prioritize performance over identifying failure modes. We introduce Phare, a multilingual diagnostic framework to probe and evaluate LLM behavior across three critical dimensions: hallucination and reliability, social biases, and harmful content generation. Our evaluation of 17 state-of-the-art LLMs reveals patterns of systematic vulnerabilities across all safety..."
 paper_summary: "Abstract: Ensuring the safety of large language models (LLMs) is critical for responsible deployment, yet existing evaluations often prioritize performance over identifying failure modes. We introduce Phare, a  | Overview: Phare: A Safety Probe for Large Language Models Pierre Le Jeune Giskard AI pierre@giskard.ai Benoît Malézieux Giskard AI benoit@giskard.ai Weixuan Xiao Giskard AI weixuan@giskard.ai Matteo Dora Giskar | Methodology: The high-level structure of our framework is as summarized in Figure 1. The dataset generation pipeline comprises three distinct steps: (1) collection | Key Findings: Figure 1: Phare dataset generation and LLMs evaluation methodology. offer insights for improving model safety. To ensure reproducibility, we provide a"
 local_pdf: "[[PDFs/2025/2025-Le Jeune-Phare A Safety Probe for Large Language Models.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

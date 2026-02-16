@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ DATA_URL: "https://github.com/CSHaitao/LegalAgentBench"
 
 ## Authors
 
-[[Li, Haitao]], [[Chen, Junjie]], [[Yang, Jingli]], [[Ai, Qingyao]], [[Jia, Wei]], [[Liu, Youfeng]], [[Lin, Kai]], [[Wu, Yueyue]], [[Yuan, Guozhi]], [[Hu, Yiran]], [[Wang, Wuyue]], [[Liu, Yiqun]], [[Huang, Minlie]]
+[[Li, Haitao]], [[Chen, Junjie]], [[Yang, Jingli]], [[Ai, Qingyao]], [[Jia, Wei]], [[Youfeng Liu|Liu, Youfeng]], [[Lin, Kai]], [[Wu, Yueyue]], [[Yuan, Guozhi]], [[Hu, Yiran]], [[Wang, Wuyue]], [[Liu, Yiqun]], [[Minlie Huang|Huang, Minlie]]
 
 ## Metadata
 

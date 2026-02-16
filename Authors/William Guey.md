@@ -1,7 +1,7 @@
 ---
 name: "William Guey"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Industrial Engineering, Tsinghua University, Beijing, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Guey-BiasLab Multilingual Dual-Framing Framework|BiasLab (Multilingual Dual-Framing Framework)]] (First Author)]]
 
-- [[2026-Guey-BiasLab Multilingual Dual-Framing Framework|BiasLab (Multilingual Dual-Framing Framework)]] (First Author)
+
+- [[2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual|Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual, Dual-Framing Analysis of U.S.-China Tensions]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China
+- *From 2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual*: Affiliation: Department of Industrial Engineering, Tsinghua University, Beijing, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

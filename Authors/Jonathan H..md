@@ -1,6 +1,6 @@
 ---
 name: "Jonathan H."
-affiliation: "University/Organization"
+affiliation: "Laboratorio de Tecnolog´ıas del Lenguaje (INAOE), Mexico"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2023-Rystrøm-Apolitical Intelligence|Apolitical Intelligence?]]
+
+- [[2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection|Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants]]
 
 ## Notes
 
+
+- *From 2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection*: Affiliation: Laboratorio de Tecnolog´ıas del Lenguaje (INAOE), Mexico
 [Additional context or contact information]

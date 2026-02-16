@@ -1,9 +1,9 @@
 ---
 name: "Tharindu Ranasinghe"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Wolverhampton - Wolverhampton, UK"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "marcos.zampieri@rit.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset|SOLD Sinhala Offensive Language Dataset]]
+
+- [[2020-Pitenis-Offensive Language Identification in Greek|Offensive Language Identification in Greek]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2020-Pitenis-Offensive Language Identification in Greek*: Affiliation: University of Wolverhampton - Wolverhampton, UK, Email: tharindu.ranasinghe@wlv.ac.uk
+- *From 2020-Pitenis-Offensive Language Identification in Greek*: Affiliation: University of Wolverhampton - Wolverhampton, UK, Email: marcos.zampieri@rit.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

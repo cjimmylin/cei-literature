@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Salamandra Technical Report"
 year: 2025
 first_author: "[[Language Technologies Unit]]"
-last_author: [[BSC]]
+last_author: "[[BSC]]"
 authors: "Language Technologies Unit, BSC"
 url: "https://arxiv.org/abs/2502.08489"
 external_pdf: "https://arxiv.org/pdf/2502.08489.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German, Italian, Spanish, Brazilian"
+cultures_nationalities_list: "European (35 languages), French, German, Italian, Spanish, Brazilian"
 languages_list: "Basque, Catalan, English, French, Galician, German, Italian, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Language Technologies Unit, BSC]]
+[[Language Technologies Unit]], [[BSC]]
 
 ## Metadata
 

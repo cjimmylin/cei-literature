@@ -20,10 +20,16 @@ Aitor Gonzalez-Agirre is a researcher at the Barcelona Supercomputing Center (BS
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ruiz-Fernández-EsBBQ and CaBBQ|EsBBQ and CaBBQ]]
 
 ## Notes
 
 
+
+
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 Works at BSC-CNS developing bias evaluation benchmarks for Spanish and Catalan. The EsBBQ and CaBBQ benchmarks adapt the original BBQ dataset to assess social bias across 10 categories in the Spanish social context.

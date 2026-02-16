@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2407.18369"
 external_pdf: "http://arxiv.org/pdf/2407.18369.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -29,6 +32,7 @@ pdf_extract: "PDF Extracts/2024/2024-Chua-AI Safety in Generative AI Large Langu
 paper_summary: "Overview: Highlights AI Safety in Generative AI Large Language Models: A Survey Jaymari Chua,Yun Li,Shiyi Yang,Chen Wang,Lina Yao • Up-to-date. • Computer scientists' perspective: specific and technical. arXiv: | Methodology: to LLM security is imperative, incorporating rigorous red- teaming exercises, enhanced input validation, prompt filter- ing, dynamic randomization tec | Key Findings: reflects the what the language models align to, and in this case, the human labelers were tasked to choose the most positive and happy continuation (s | Conclusions: of advanced applications such as ChatGPT, Gemini, and others into distinct aspects, we can narrow safety concerns at their technical scope and underst"
 local_pdf: "[[PDFs/2024/2024-Chua-AI Safety in Generative AI Large Language Models.pdf]]"
 abstract: "Large Language Model (LLMs) such as ChatGPT that exhibit generative AI capabilities are facing accelerated adoption and innovation. The increased presence of Generative AI (GAI) inevitably raises concerns about the risks and safety associated with these models. This article provides an up-to-date survey of recent trends in AI safety research of GAI-LLMs from a computer scientist's perspective: specific and technical. In this survey, we explore the background and motivation for the identified har"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

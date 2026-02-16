@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "RuBia: A Russian Language Bias Detection Dataset"
 year: 2025
 first_author: "[[Grigoreva, Veronika]]"
-last_author: "[[Grigoreva, Veronika]]"
-authors: "[[Grigoreva, Veronika]]"
-authors_incomplete: true
+last_author: "[[Artemova, Ekaterina]]"
+authors: "[[Grigoreva, Veronika]]; [[Ivanova, Anastasiia]]; [[Alimova, Ilseyar]]; [[Artemova, Ekaterina]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2403.17553"
 external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 languages_list: Russian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Veronika Grigoreva et al.]]
+[[Grigoreva, Veronika]], [[Ivanova, Anastasiia]], [[Alimova, Ilseyar]], [[Artemova, Ekaterina]]
 
 ## Metadata
 
-**Authors:** Veronika Grigoreva et al.
+**Authors:** Grigoreva, Veronika; Ivanova, Anastasiia; Alimova, Ilseyar; Artemova, Ekaterina
 
 **Year:** 2024
 

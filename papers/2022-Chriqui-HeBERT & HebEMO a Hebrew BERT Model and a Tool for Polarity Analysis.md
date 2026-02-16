@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition"
 year: 2025
 first_author: "[[Avihay Chriqui]]"
-last_author: "[[Inbal Yahav]]"
+last_author: "[[Inbal Yahav Avihay Chriqui]]"
 authors: "Avihay Chriqui, Inbal Yahav"
 doi: 10.1287/ijds.2022.0016
 url: "https://arxiv.org/abs/2102.01909"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Avihay Chriqui, Inbal Yahav]]
+[[Inbal Yahav Avihay Chriqui]]
 
 ## Metadata
 

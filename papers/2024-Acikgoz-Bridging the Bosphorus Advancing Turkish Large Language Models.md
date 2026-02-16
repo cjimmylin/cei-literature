@@ -44,7 +44,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Emre Can Acikgoz, Mete Erdogan, Deniz Yuret]]
+[[Emre Can Acikgoz]], [[Mete Erdogan]], [[Deniz Yuret]]
 
 ## Metadata
 

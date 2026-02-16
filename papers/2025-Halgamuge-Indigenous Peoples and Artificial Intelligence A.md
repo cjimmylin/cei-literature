@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Indigenous Peoples and Artificial Intelligence A"
 year: 2025
 first_author: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
-last_author: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
+last_author: "[[Saman Halgamuge Brendan Kennedy]]"
 authors: "[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indigenous Australian"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Melissa Kennedy, Brendan Kennedy, Saman Halgamuge]]
+[[Rajith Vidanaarachchi Maneesha Perera]], [[Melissa Kennedy Sangeetha Chandrashekeran]], [[Saman Halgamuge Brendan Kennedy]]
 
 ## Metadata
 

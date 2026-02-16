@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bengali"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,7 +49,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Azmine Toushik Wasi]], [[Raima Islam]], [[Mst Rafia Islam]], [[Taki Hasan Rafi]], [[Dong-Kyu Chae]]
+[[Azmine Toushik Wasi|Wasi, Azmine Toushik]], [[Islam, Raima]], [[Islam, Mst Rafia]], [[Rafi, Taki Hasan]], [[Chae, Dong-Kyu]]
 
 ## Metadata
 

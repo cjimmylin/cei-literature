@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Brazilian"
+cultures_nationalities_list: "Spanish, Portuguese, Catalan, Basque, Galician"
 languages_list: "Basque, Catalan, English, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Isaac González-Borrego, David Obrador, et al.]]
+[[González-Borrego, Isaac]], [[Obrador, David]]
 
 ## Metadata
 

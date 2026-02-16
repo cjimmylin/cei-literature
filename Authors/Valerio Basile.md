@@ -30,8 +30,12 @@ He was the lead organizer of SemEval-2019 Task 5 on Multilingual Detection of Ha
 ## Papers in this Vault
 
 
+
+
+- [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]] (First Author)
 - [[2021-Caselli-HateBERT|HateBERT]]
 - [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]] (First Author)
+- [[2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against|SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)]] (First Author)
 
 ## External Links & Profiles
 
@@ -46,5 +50,9 @@ He was the lead organizer of SemEval-2019 Task 5 on Multilingual Detection of Ha
 ## Notes
 
 
+
+
+- *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
+- *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es
 Valerio Basile is a leading researcher in hate speech detection and computational approaches to subjective language phenomena. His work on SemEval shared tasks and HateBERT has significantly influenced the field.

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice|How LLM Counselors Violate Ethical Standards in Mental Health Practice]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice*: Affiliation: Department of Computer Science, Brown University, Email: xiao@alumni.brown.edu
+- *From 2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice*: Affiliation: Department of Computer Science, Brown University, Email: iftikhar@brown.edu
 - *From 2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice*: Affiliation: Department of Computer Science, Brown University, Email: sransom@cbtnola.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

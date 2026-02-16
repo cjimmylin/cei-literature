@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability Judgments"
 year: 2025
 first_author: "[[David Beauchemin]]"
-last_author: "[[Richard Khoury]]"
+last_author: "[[Richard Khoury David Beauchemin]]"
 authors: "David Beauchemin, Richard Khoury"
 url: "https://arxiv.org/abs/2508.16867"
 external_pdf: "https://arxiv.org/pdf/2508.16867.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "Canadian, French"
 languages_list: "Quebecois French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[David Beauchemin, Richard Khoury]]
+[[Richard Khoury David Beauchemin]]
 
 ## Metadata
 

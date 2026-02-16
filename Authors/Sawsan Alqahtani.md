@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
 
 ## Notes
 
 
+
+
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 - *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 [Additional context or contact information]

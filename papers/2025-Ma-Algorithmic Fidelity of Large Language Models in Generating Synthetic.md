@@ -10,7 +10,7 @@ type: preprint
 short_title: "Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study"
 year: 2025
 first_author: "[[Bolei Ma]]"
-last_author: "[[Matthias Assenmacher]]"
+last_author: "[[Matthias Assenmacher Barbara Plank]]"
 authors: Bolei Ma, Berk Yoztyurk, Anna-Carolina Haensch, Xinpeng Wang, Markus Herklotz, Frauke Kreuter, Barbara Plank, Matthias Assenmacher
 url: "https://arxiv.org/abs/2412.13169"
 external_pdf: "https://arxiv.org/pdf/2412.13169.pdf"
@@ -44,7 +44,7 @@ research_topic: "AI Safety & Alignment"
 
 ## Authors
 
-[[Bolei Ma, Berk Yoztyurk, Anna-Carolina Haensch, Xinpeng Wang, Markus Herklotz, Frauke Kreuter, Barbara Plank, Matthias Assenmacher]]
+[[Berk Yoztyurk Bolei Ma]], [[Xinpeng Wang Anna-Carolina Haensch]], [[Frauke Kreuter Markus Herklotz]], [[Matthias Assenmacher Barbara Plank]]
 
 ## Metadata
 

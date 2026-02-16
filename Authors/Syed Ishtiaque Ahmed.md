@@ -1,7 +1,7 @@
 ---
 name: "Syed Ishtiaque Ahmed"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Center for Information Security"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and|LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and]]
+
+- [[2024-Debenedetti-SaTML LLM CTF Dataset|SaTML LLM CTF Dataset]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security
+- *From 2024-Debenedetti-SaTML LLM CTF Dataset*: Affiliation: Center for Information Security
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

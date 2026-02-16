@@ -20,10 +20,17 @@ First-year PhD student in School of Computing at KAIST, working with Professors 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Myung-PapersPlease|PapersPlease]] (First Author)
+- [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
+- *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 - *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 [Additional context or contact information]

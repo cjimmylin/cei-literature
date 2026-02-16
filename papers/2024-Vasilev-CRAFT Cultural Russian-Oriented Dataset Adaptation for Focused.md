@@ -45,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Viacheslav Vasilev, Vladimir Arkhipkin, Julia Agafonova, Tatiana Nikulina, Evelina Mironova, Alisa Shichanina, Nikolai Gerasimenko, Mikhail Shoytov, Denis Dimitrov]]
+[[Viacheslav Vasilev]], [[Vladimir Arkhipkin]], [[Julia Agafonova]], [[Tatiana Nikulina]], [[Evelina Mironova]], [[Alisa Shichanina]], [[Nikolai Gerasimenko]], [[Mikhail Shoytov]], [[Denis Dimitrov]]
 
 ## Metadata
 

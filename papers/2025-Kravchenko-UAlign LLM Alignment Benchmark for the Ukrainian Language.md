@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Ukrainian"
 languages_list: "English, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Andrian Kravchenko, Yurii Paniv, Nazarii Drushchak]]
+[[Andrian Kravchenko]], [[Yurii Paniv]], [[Nazarii Drushchak]]
 
 ## Metadata
 

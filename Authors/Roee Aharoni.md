@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2019-Moryossef-Filling Gender & Number Gaps in Neural Machine|Filling Gender & Number Gaps in Neural Machine]]
 
 ## Notes
 
 
+
+
+- *From 2019-Moryossef-Filling Gender & Number Gaps in Neural Machine*: Affiliation: University, Ramat Gan, Israel
+- *From 2019-Moryossef-Filling Gender & Number Gaps in Neural Machine*: Affiliation: University, Ramat Gan, Israel
 - *From 2019-Moryossef-Filling Gender & Number Gaps in Neural Machine*: Affiliation: University, Ramat Gan, Israel
 [Additional context or contact information]

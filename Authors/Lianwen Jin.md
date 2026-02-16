@@ -1,9 +1,9 @@
 ---
 name: "Lianwen Jin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yongxin_shi@foxmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for|C3Bench A Comprehensive Classical Chinese Understanding Benchmark for]]
+
+- [[2024-Jin-WenMind A Comprehensive Benchmark for Evaluating|WenMind A Comprehensive Benchmark for Evaluating]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: ly10061105@gmail.com
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: yongxin_shi@foxmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

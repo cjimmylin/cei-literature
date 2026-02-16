@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "CroissantLLM: A Truly Bilingual French-English Language Model"
 year: 2025
 first_author: "[[Faysse, Manuel]]"
-last_author: "[[Faysse, Manuel]]"
-authors: "[[Faysse, Manuel]]"
-authors_incomplete: true
+last_author: "[[Colombo, Pierre]]"
+authors: "[[Faysse, Manuel]]; [[Fernandes, Patrick]]; [[Guerreiro, Nuno M.]]; [[Loison, António]]; [[Alves, Duarte M.]]; [[Corro, Caio]]; [[Boizard, Nicolas]]; [[Alves, João]]; [[Rei, Ricardo]]; [[Martins, Pedro H.]]; [[Casademunt, Antoni Bigata]]; [[Yvon, François]]; [[Martins, André F. T.]]; [[Viaud, Gautier]]; [[Hudelot, Céline]]; [[Colombo, Pierre]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2402.00786"
 external_pdf: "https://arxiv.org/pdf/2402.00786.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: "English, French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Manuel Faysse, et al.]]
+[[Faysse, Manuel]], [[Fernandes, Patrick]], [[Guerreiro, Nuno M]], [[Loison, António]], [[Alves, Duarte M]], [[Corro, Caio]], [[Berberich, Nicolas|Boizard, Nicolas]], [[Alves, João]], [[Rei, Ricardo]], [[Martins, Pedro H]], [[Casademunt, Antoni Bigata]], [[Yvon, François]], [[Martins, André F. T]], [[Viaud, Gautier]], [[Hudelot, Céline]], [[Colombo, Pierre]]
 
 ## Metadata
 
-**Authors:** Manuel Faysse, et al.
+**Authors:** Faysse, Manuel; Fernandes, Patrick; Guerreiro, Nuno M.; Loison, António; Alves, Duarte M.; Corro, Caio; Boizard, Nicolas; Alves, João; Rei, Ricardo; Martins, Pedro H.; Casademunt, Antoni Bigata; Yvon, François; Martins, André F. T.; Viaud, Gautier; Hudelot, Céline; Colombo, Pierre
 
 **Year:** 2024
 

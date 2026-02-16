@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ DATA_URL: "https://github.com/yuwenhan07/MSLR-Bench"
 
 ## Authors
 
-[[Wenhan Yu]], [[Xiao Lin|Xinbo Lin]], [[Lanxin Ni]], [[Jinhua Cheng]], [[Lei Sha]]
+[[Wenhan Yu]], [[Xinbo Lin]], [[Lanxin Ni]], [[Jinhua Cheng]], [[Lei Sha]]
 
 ## Metadata
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0730
 type: journalArticle
 short_title: "Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Beidas, Ayah]]"
+last_author: "[[Abed, Sa’ed]]"
+authors: "[[Beidas, Ayah]]; [[Mohi, Kousar]]; [[Ghaddar, Fatme]]; [[Ahmad, Imtiaz]]; [[Abed, Sa’ed]]"
+authors_incomplete: false
 doi: 10.3389/frai.2025.1661789/full
 url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full"
 publication: Frontiers
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Unknown]]
+[[Beidas, Ayah]], [[Mohi, Kousar]], [[Ghaddar, Fatme]], [[Ahmad, Imtiaz]], [[Abed, Sa’ed]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Beidas, Ayah; Mohi, Kousar; Ghaddar, Fatme; Ahmad, Imtiaz; Abed, Sa’ed
 
 **Year:** 2025
 

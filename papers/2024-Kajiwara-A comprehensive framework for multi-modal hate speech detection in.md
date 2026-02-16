@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: journalArticle
 short_title: "A comprehensive framework for multi-modal hate speech detection in social media using deep learning"
 year: 2025
 first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.nature.com/articles/s41598-025-94069-z"
 external_pdf: "https://www.nature.com/articles/s41598-025-94069-z.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: Japanese
 religious_values: "N/A"
 religious_values_list: "N/A"

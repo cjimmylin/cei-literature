@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "European, Multicultural/Cross-cultural"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and other European languages"
 religious_values: "N/A"
 religious_values_list: "N/A"

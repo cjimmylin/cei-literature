@@ -46,6 +46,8 @@ He has built a large international community around **What's AI**, providing dee
 ## Papers in this Vault
 
 
+
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ He has built a large international community around **What's AI**, providing dee
 
 ## Notes
 
+
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu
 [Louis-François is a leading voice in AI education and technical literacy.]

@@ -46,6 +46,8 @@ During his doctoral research, he compiled influential datasets for hate speech d
 
 ## Papers in this Vault
 
+
+
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]]
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
@@ -64,5 +66,9 @@ During his doctoral research, he compiled influential datasets for hate speech d
 
 ## Notes
 
+
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 [Brendan's work is critical for understanding the psychological and ethical dimensions of online hate speech.]

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conference_paper
 short_title: "Incorporating Diverse Perspectives in Cultural Alignment"
 year: 2025
 first_author: "[[team, Amazon Science]]"
-last_author: "[[team, Amazon Science]]"
+last_author: "[[Amazon Science team]]"
 authors: "[[Amazon Science team]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.862.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

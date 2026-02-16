@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: conferencePaper
 short_title: "Fake Alignment (FINE Framework)"
 year: 2025
 first_author: "[[Du, Yihan]]"
-last_author: "[[Srikant, R.]]"
+last_author: "[[Srikant, R]]"
 authors: "[[Du, Yihan]]; [[Kong, Seo Taek]]; [[Srikant, R.]]"
 authors_incomplete: false
 publication: "ACL 2024"
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +46,7 @@ DATA_URL: "https://github.com/AIFlames/Fake-Alignment"
 
 ## Authors
 
-[[Du, Yihan]], [[Kong, Seo Taek]], [[Srikant, R.]]
+[[Du, Yihan]], [[Kong, Seo Taek]], [[Srikant, R]]
 
 ## Metadata
 

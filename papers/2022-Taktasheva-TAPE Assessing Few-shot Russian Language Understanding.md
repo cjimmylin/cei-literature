@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "TAPE: Assessing Few-shot Russian Language Understanding"
 year: 2025
 first_author: "[[Taktasheva, Ekaterina]]"
-last_author: "[[Shavrina, Tatiana]]"
-authors: "[[Taktasheva, Ekaterina]]; [[Fenogenova, Alena]]; [[Shavrina, Tatiana]]"
-authors_incomplete: true
+last_author: "[[Mikhailov, Vladislav]]"
+authors: "[[Taktasheva, Ekaterina]]; [[Shavrina, Tatiana]]; [[Fenogenova, Alena]]; [[Shevelev, Denis]]; [[Katricheva, Nadezhda]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Zinkevich, Oleg]]; [[Bashmakova, Anastasiia]]; [[Iordanskaia, Svetlana]]; [[Spiridonova, Alena]]; [[Kurenshchikova, Valentina]]; [[Artemova, Ekaterina]]; [[Mikhailov, Vladislav]]"
+authors_incomplete: false
 doi: 10.18653/v1/2022.findings-emnlp.183
 url: "https://arxiv.org/abs/2210.12813"
 external_pdf: "https://arxiv.org/pdf/2210.12813.pdf"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 languages_list: Russian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Ekaterina Taktasheva, Alena Fenogenova, Tatiana Shavrina, et al.]]
+[[Taktasheva, Ekaterina]], [[Shavrina, Tatiana]], [[Alena Fenogenova|Fenogenova, Alena]], [[Denis Shevelev|Shevelev, Denis]], [[Katricheva, Nadezhda]], [[Maria Tikhonova|Tikhonova, Maria]], [[Albina Akhmetgareeva|Akhmetgareeva, Albina]], [[Zinkevich, Oleg]], [[Bashmakova, Anastasiia]], [[Iordanskaia, Svetlana]], [[Spiridonova, Alena]], [[Kurenshchikova, Valentina]], [[Artemova, Ekaterina]], [[Mikhailov, Vladislav]]
 
 ## Metadata
 
-**Authors:** Ekaterina Taktasheva, Alena Fenogenova, Tatiana Shavrina, et al.
+**Authors:** Taktasheva, Ekaterina; Shavrina, Tatiana; Fenogenova, Alena; Shevelev, Denis; Katricheva, Nadezhda; Tikhonova, Maria; Akhmetgareeva, Albina; Zinkevich, Oleg; Bashmakova, Anastasiia; Iordanskaia, Svetlana; Spiridonova, Alena; Kurenshchikova, Valentina; Artemova, Ekaterina; Mikhailov, Vladislav
 
 **Year:** 2022
 

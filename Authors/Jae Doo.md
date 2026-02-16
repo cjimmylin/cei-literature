@@ -1,7 +1,7 @@
 ---
 name: "Jae Doo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Illinois at Urbana-Champaign"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Liu-CultureAtlas|CultureAtlas]]]]
+
 
 - [[2024-Liu-CultureAtlas|CultureAtlas]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

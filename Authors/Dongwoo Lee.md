@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Kader-The Emergence of Strategic Reasoning of Large Language Models|The Emergence of Strategic Reasoning of Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: gav.kader@outlook.com
+- *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: dwlee05@gmail.com
 - *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: dwlee05@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

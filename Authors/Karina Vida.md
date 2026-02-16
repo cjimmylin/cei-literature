@@ -20,10 +20,16 @@ Karina Vida is an External Doctorate Researcher in the Data Science group at the
 ## Papers in this Vault
 
 
+
+
 - [[2023-Vida-Values, Ethics, Morals|Values, Ethics, Morals?]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
+- *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 - *From 2023-Vida-Values, Ethics, Morals*: Affiliation: University of Hamburg
 [Additional context or contact information]

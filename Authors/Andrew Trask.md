@@ -47,6 +47,8 @@ He has been a member of the United Nations Privacy Task Force and has significan
 
 ## Papers in this Vault
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -65,5 +67,9 @@ He has been a member of the United Nations Privacy Task Force and has significan
 
 ## Notes
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 [Andrew is the leading advocate for technical privacy solutions in AI.]

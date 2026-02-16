@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Quranic Audio Dataset Crowdsourced and Labeled"
 year: 2025
 first_author: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
-last_author: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
+last_author: "[[Manuel Mazzara Nursultan Askarbekuly]]"
 authors: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2405.02675"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]
+[[Mohamad Al Mdfaa Raghad Salameh]], [[Manuel Mazzara Nursultan Askarbekuly]]
 
 ## Metadata
 

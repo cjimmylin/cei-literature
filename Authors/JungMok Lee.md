@@ -1,7 +1,7 @@
 ---
 name: "JungMok Lee"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Artificial Intelligence, POSTECH"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Chen-AVHBench|AVHBench]]]]
+
 
 - [[2025-Chen-AVHBench|AVHBench]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
+- *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

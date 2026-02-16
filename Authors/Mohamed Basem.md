@@ -21,10 +21,18 @@ Mohamed Basem is affiliated with the Faculty of Computer Science at MSA Universi
 ## Papers in this Vault
 
 
+
+
+- [[2025-Basem-Few-Shot Prompting for Extractive Quranic QA|Few-Shot Prompting for Extractive Quranic QA]] (First Author)
+- [[2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval|Two-Stage Quranic QA via Ensemble Retrieval]] (First Author)
 - [[2024-Basem-Optimized Quran Passage Retrieval Using an|Optimized Quran Passage Retrieval Using an]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: islam.abdulhakeem@msa.edu.eg
+- *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 - *From 2024-Basem-Optimized Quran Passage Retrieval Using an*: Affiliation: Faculty of Computer Science, MSA University, Egypt
 Research demonstrates significant improvements in handling "no answer" cases, achieving 75% success rate compared to baseline's 25%. Work advances both religious scholarship and Arabic NLP capabilities.

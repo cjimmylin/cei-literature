@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ external_pdf: "http://arxiv.org/pdf/2507.22159.pdf"
 publication: arXiv.org
 research_topic: "Machine Learning"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +30,7 @@ paper_summary: "Abstract: Over 200 million people speak Indonesian, yet the lang
 local_pdf: [[PDFs/2025/2025-Wiyono-IndoPref.pdf]]
 key_contribution: "Introduces IndoPref, the first fully human-authored, multi-domain pairwise preference dataset for the Indonesian language, containing 522 prompts and 4,099 human-annotated preferences."
 significance: "Addresses the 'Translation-ese' problem in multilingual LLM evaluation by providing a native-authored gold standard that captures Indonesian cultural and linguistic authenticity, revealing critical performance gaps in English-centric models."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

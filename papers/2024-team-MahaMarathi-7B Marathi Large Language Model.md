@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "MahaMarathi-7B Marathi Large Language Model"
 year: 2025
 first_author: "[[team, Marathi-LLM]]"
-last_author: "[[team, Marathi-LLM]]"
+last_author: "[[Marathi-LLM team]]"
 authors: "[[Marathi-LLM team]]"
 authors_incomplete: false
 url: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
@@ -30,6 +31,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -49,7 +51,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Marathi-LLM team]]
+[[M-A-P Team|Marathi-LLM team]]
 
 ## Metadata
 

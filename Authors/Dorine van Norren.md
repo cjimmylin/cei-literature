@@ -46,6 +46,8 @@ Her primary work, "The ethics of artificial intelligence, UNESCO and the African
 ## Papers in this Vault
 
 
+
+
 - [[2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020|DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020]] (First Author)
 
 ## External Links & Profiles
@@ -58,5 +60,9 @@ Her primary work, "The ethics of artificial intelligence, UNESCO and the African
 ## Notes
 
 
+
+
+- *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for
+- *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for
 - *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for
 Dorine van Norren's work represents critical contributions to decolonizing AI ethics, ensuring that African and other non-Western philosophical traditions are centered in global AI governance discussions.

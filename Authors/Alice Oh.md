@@ -48,8 +48,17 @@ She has been instrumental in organizing the top venues in AI, serving as General
 
 ## Papers in this Vault
 
+
+
+- [[2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and|BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge]] (Last Author)
 - [[2025-Myung-PapersPlease|PapersPlease]] (Last Author)
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]] (Last Author)
+- [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]] (Last Author)
+- [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
+- [[2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study|Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese]] (Last Author)
+- [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of|MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts]] (Last Author)
+- [[2022-Jeong-KOLD Korean Offensive Language Dataset|KOLD: Korean Offensive Language Dataset]] (Last Author)
+- [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 
 ## External Links & Profiles
 
@@ -64,5 +73,9 @@ She has been instrumental in organizing the top venues in AI, serving as General
 
 ## Notes
 
+
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: myeon9h@kaist.ac.kr
 - *From 2025-Myung-PapersPlease*:, Email: alice.oh@kaist.edu
 [Alice is a pivotal leader in the global AI community, particularly in bridging East-West AI perspectives.]

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Brazilian"
+cultures_nationalities_list: "Spanish, Portuguese, Basque, Catalan, Galician"
 languages_list: "Basque, Catalan, Galician, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Guilherme Simões, Ferrando Espinosa, et al.]]
+[[Simões, Guilherme]], [[Espinosa, Ferrando]]
 
 ## Metadata
 

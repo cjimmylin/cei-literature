@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Chinese"
 languages_list: "Arabic, English, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Xiuyuan Chen]], [[Jian Zhao]], [[Yuxiang He]], [[Yuan Xun]], [[Xinwei Liu]], [[Yanshu Li]], [[Huilin Zhou]], [[Wei Cai]], [[Ziyan Shi]], [[Yuchen Yuan]], [[Tianle Zhang]], [[Chi Zhang]], [[Xuelong Li]]
+[[Chen, Xiuyuan]], [[Zhao, Jian]], [[He, Yuxiang]], [[Xun, Yuan]], [[Liu, Xinwei]], [[Li, Yanshu]], [[Zhou, Huilin]], [[Cai, Wei]], [[Shi, Ziyan]], [[Yuan, Yuchen]], [[Zhang, Tianle]], [[Zhang, Chi]], [[Li, Xuelong]]
 
 ## Metadata
 

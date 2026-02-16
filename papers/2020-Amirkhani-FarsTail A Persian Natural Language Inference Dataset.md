@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0145
 type: preprint
 short_title: "FarsTail: A Persian Natural Language Inference Dataset"
 year: 2025
-first_author: "[[Amirkhani]]"
-last_author: "[[AzariJafari]]"
-authors: "[[Amirkhani]]; [[AzariJafari]]"
-authors_incomplete: true
+first_author: "[[Amirkhani, Hossein]]"
+last_author: "[[Amirak, Azadeh]]"
+authors: "[[Amirkhani, Hossein]]; [[AzariJafari, Mohammad]]; [[Faridan-Jahromi, Soroush]]; [[Kouhkan, Zeinab]]; [[Pourjafari, Zohreh]]; [[Amirak, Azadeh]]"
+authors_incomplete: false
 doi: 10.1007/s00500-023-08959-3
 url: "https://arxiv.org/abs/2009.08820"
 external_pdf: "https://arxiv.org/pdf/2009.08820.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Amirkhani, AzariJafari et al.]]
+[[Amirkhani, Hossein]], [[Abdullah Mohammad|AzariJafari, Mohammad]], [[Faridan-Jahromi, Soroush]], [[Kouhkan, Zeinab]], [[Pourjafari, Zohreh]], [[Amirak, Azadeh]]
 
 ## Metadata
 
-**Authors:** Amirkhani, AzariJafari et al.
+**Authors:** Amirkhani, Hossein; AzariJafari, Mohammad; Faridan-Jahromi, Soroush; Kouhkan, Zeinab; Pourjafari, Zohreh; Amirak, Azadeh
 
 **Year:** 2020
 

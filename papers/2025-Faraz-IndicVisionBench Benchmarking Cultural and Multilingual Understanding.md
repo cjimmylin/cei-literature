@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Ali Faraz]], [[Akash]], [[Shaharukh Khan]], [[Raja Kolla]], [[Akshat Patidar]], [[Suranjan Goswami]], [[Abhinav Ravi]], [[Chandra Khatri]], [[Shubham Agarwal]]
+[[Ali Faraz]], [[Akash]], [[Salman Khan|Shaharukh Khan]], [[Raja Kolla]], [[Akshat Patidar]], [[Sujata Goswami|Suranjan Goswami]], [[Abhinav Ravi]], [[Chandra Khatri]], [[Shubham Agarwal]]
 
 ## Metadata
 

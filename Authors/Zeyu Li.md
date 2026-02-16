@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2018-Zhao-Gender Bias in Contextualized Word Embeddings|Gender Bias in Contextualized Word Embeddings]]
 
 ## Notes
 
 
+
+
+- *From 2018-Zhao-Gender Bias in Contextualized Word Embeddings*: Affiliation: University of California, Los Angeles
+- *From 2018-Zhao-Gender Bias in Contextualized Word Embeddings*: Affiliation: University of California, Los Angeles
 - *From 2018-Zhao-Gender Bias in Contextualized Word Embeddings*: Affiliation: University of California, Los Angeles
 [Additional context or contact information]

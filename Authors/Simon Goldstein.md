@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Park-AI Deception|AI Deception]]
 
 ## Notes
 
 
+
+
+- *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
+- *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 [Additional context or contact information]

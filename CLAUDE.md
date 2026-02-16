@@ -27,9 +27,9 @@
 | Item | Count | Location |
 |------|-------|----------|
 | Papers | 2,002 | `papers/` |
-| PDFs | 1,868 | External (`PDFs/YYYY/`) |
-| Extracts | 2,451 | `PDF Extracts/YYYY/` |
-| Authors | 4,869 | `Authors/` |
+| PDFs | 1,866 | External (`PDFs/YYYY/`) |
+| Extracts | 2,467 | `PDF Extracts/YYYY/` |
+| Authors | 9,551 | `Authors/` |
 | AI Labs | 14 labs, 350+ papers | `AI Labs/` |
 
 ---

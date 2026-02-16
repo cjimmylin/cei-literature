@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in|SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
+- *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
 - *From 2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in*: Affiliation: lable at https://github
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "WenyanGPT A Large Language Model for"
 year: 2025
 first_author: "[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]"
-last_author: "[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]"
+last_author: "[[Xiaobing Zhao Bo Chen]]"
 authors: "[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2504.20609"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]
+[[Mengdi Wang Xinyu Yao]], [[Xiaobing Zhao Bo Chen]]
 
 ## Metadata
 

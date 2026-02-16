@@ -43,7 +43,7 @@ abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using
 
 ## Authors
 
-[[Mustafa Burak Topal, Aysun Bozanta, Ayse Basar]]
+[[Mustafa Burak Topal]], [[Aysun Bozanta]], [[Ayse Basar]]
 
 ## Metadata
 

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A|Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
+- *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: wangrui12@sjtu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

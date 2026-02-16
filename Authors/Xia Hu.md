@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Han-FFB|FFB]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2023-Han-FFB*: Affiliation: University of Houston, Email: ychen@anytime-ai.com
+- *From 2023-Han-FFB*: Affiliation: University of Houston, Email: nzou2@uh.edu
 - *From 2023-Han-FFB*: Affiliation: University of Houston, Email: han@tamu.edu
 [Additional context or contact information]

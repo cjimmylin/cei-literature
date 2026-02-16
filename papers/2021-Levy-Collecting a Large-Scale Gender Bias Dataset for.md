@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "[[Levy, Shahar]]; [[Lazar, Koren]]; [[Stanovsky, Gabriel]]"
 url: "https://aclanthology.org/2021.findings-emnlp.211/"
 external_pdf: "https://aclanthology.org/2021.findings-emnlp.211.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -24,6 +27,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.md"
 local_pdf: "[[PDFs/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.pdf]]"
 abstract: "Recent works have found evidence of gender bias in models of machine translation and coreference resolution using mostly synthetic diagnostic datasets. While these quantify bias in a controlled experiment, they often do so on a small scale and consist mostly of artiﬁcial, out-of-distribution sentences. In this work, we ﬁnd grammatical patterns indicating stereotypical and non-stereotypical gender-role assignments (e.g."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://dl.acm.org/doi/10.1145/3715275.3732044"
 external_pdf: "https://arxiv.org/pdf/2501.18081.pdf"
 publication: "ACM FAccT 2025"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ key_contribution: "Evaluates LLMs on 10,000+ Reddit AITA moral dilemmas; reveals
 significance: "Uses real-world everyday moral dilemmas rather than abstract trolley problems for ecological validity"
 tags: 
 abstract: "This work conducts a normative evaluation of LLMs using everyday moral dilemmas from the 'Am I The Asshole' (AITA) community on Reddit, which provides a rich dataset capturing nuanced social dynamics and competing perspectives. The authors prompted seven commonly used LLMs, including proprietary and open-source models, to assign blame and provide explanations for over 10,000 AITA moral dilemmas. Results show that LLMs exhibit distinct patterns of moral judgment, varying substantially from human evaluations, with moderate to high self-consistency but low inter-model agreement."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

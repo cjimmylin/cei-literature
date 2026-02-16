@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "IcelandicEval: Utilities to generate Icelandic evaluation data sets for LLMs"
 year: 2025
 first_author: [[Miðeind]]
-last_author: [[Miðeind]]
+last_author: "[[Miðeind]]"
 authors: Miðeind
 url: "https://github.com/mideind/IcelandicEval"
 publication: GitHub
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Icelandic"
 languages_list: Icelandic
 religious_values: "N/A"
 religious_values_list: "N/A"

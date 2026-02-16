@@ -20,6 +20,8 @@ PhD from University of Toronto in climate physics, specializing in ice sheet mod
 ## Papers in this Vault
 
 
+
+
 - [[2025-Velay-Vitow-Putting the AI in Eudaimonia|Putting the AI in Eudaimonia]] (First Author)
 
 ## Notes

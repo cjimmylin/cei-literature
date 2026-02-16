@@ -24,10 +24,16 @@ Haotian Xu is a researcher at Alibaba Group working on value alignment and safet
 ## Papers in this Vault
 
 
+
+
 - [[2023-Xu-CValues|CValues]]
 
 ## Notes
 
 
+
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 Research addresses the important gap in Chinese-specific value alignment evaluation for LLMs.

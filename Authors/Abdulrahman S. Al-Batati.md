@@ -29,9 +29,15 @@ Abdulrahman's work is centered on the linguistic diversity of the Arab world. He
 ## Papers in this Vault
 
 
+
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
 
+
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 [Contributes to the regional and dialectal expansion of Arabic AI datasets.]

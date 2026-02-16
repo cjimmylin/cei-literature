@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2021-Jiang-Pretrained Models and Evaluation Data for.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md",
+    "has_extract": true,
+    "authors": "[[Jiang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ieeexplore.ieee.org/document/9645441/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md",
+    "has_extract": true,
+    "authors": "[[Khashabi, Daniel]]; [[Cohan, Arman]]; [[Shakeri, Siamak]]; [[Hosseini, Pedram]]; [[Pezeshkpour, Pouya]]; [[Alikhani, Malihe]]; [[Aminnaseri, Moin]]; [[Bitaab, Marzieh]]; [[Brahman, Faeze]]; [[Ghazarian, Sarik]]; [[Gheini, Mozhdeh]]; [[Kabiri, Arman]]; [[Mahabadi, Rabeeh Karimi]]; [[Memarrast, Omid]]; [[Mosallanezhad, Ahmadreza]]; [[Noury, Erfan]]; [[Raji, Shahab]]; [[Rasooli, Mohammad Sadegh]]; [[Sadeghi, Sepideh]]; [[Azer, Erfan Sadeqi]]; [[Samghabadi, Niloofar Safi]]; [[Shafaei, Mahsa]]; [[Sheybani, Saber]]; [[Tazarv, Ali]]; [[Yaghoobzadeh, Yadollah]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.tacl-1.68.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md",
+    "has_extract": true,
+    "authors": "Mascha Kurpicz-Briki",
+    "year": "2025",
+    "doi": "10.3389/fdata.2021.625290",
+    "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2021.625290/full",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md",
+    "has_extract": true,
+    "authors": "Son T. Luu, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen",
+    "year": "2025",
+    "doi": "10.1007/978-3-030-79457-6_35",
+    "url": "https://arxiv.org/abs/2103.11528",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Mghari-Cyberbullying and Hate Speech Detection on.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Mohammed Mghari]]; [[Omar Bouras]]; [[Abdelaaziz El Hibaoui]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/352848223",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md",
+    "has_extract": true,
+    "authors": "[[Mohapatra, Sudhir Kumar]]; [[Prasad, S.]]; [[Bebarta, D. K.]]; [[Das, T. K.]]; [[Srinivasan, Kathiravan]]; [[Hu, Yuh-Chung]]",
+    "year": "2025",
+    "doi": "10.3390/app11188575",
+    "url": "https://www.mdpi.com/2076-3417/11/18/8575",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
+    "has_extract": true,
+    "authors": "[[Mohit Chandra, Pailla,]]; [[Hyderabad, others (IIIT]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2104.05947",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.md",
+    "has_extract": true,
+    "authors": "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen",
+    "year": "2025",
+    "doi": "10.1007/978-3-030-79457-6_49",
+    "url": "https://arxiv.org/abs/2103.10069",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Nurce-Detecting Abusive Albanian.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Nurce-Detecting Abusive Albanian.md",
+    "has_extract": true,
+    "authors": "Erida Nurce, Jorgel Keci, Leon Derczynski",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2107.13592",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md",
+    "has_extract": true,
+    "authors": "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2101.09635",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Park-KLUE Korean Language Understanding Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Park-KLUE Korean Language Understanding Evaluation.md",
+    "has_extract": true,
+    "authors": "Sungjoon Park, Jihyung Moon, Sungdong Kim, Won Ik Cho, Jiyoon Han, Jangwon Park, Chisung Song, Junseong Kim, Yongsook Song, Taehwan Oh, Joohong Lee, Juhyun Oh, Sungwon Lyu, Younghoon Jeong, Inkwon Lee, Sangwoo Seo, Dongjun Lee, Hyunwoo Kim, Myeonghwa Lee, Seongbo Jang, Seungwon Do, Sunkyoung Kim, Kyungtae Lim, Jongwon Lee, Kyumin Park, Jamin Shin, Seonghyun Kim, Lucy Park, Alice Oh, Jungwoo Ha, Kyunghyun Cho",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2105.09680",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Konstantinos Perifanos, Dionysis Goutsos",
+    "year": "2025",
+    "doi": "10.3390/mti5070034",
+    "url": "https://www.mdpi.com/2414-4088/5/7/34",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md",
+    "has_extract": true,
+    "authors": "[[Plaza-del-Arco, Flor Miriam]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.ranlp-1.123/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md",
+    "has_extract": true,
+    "authors": "[[Plaza-del-Arco, F.]]; [[Casavantes, Marco]]; [[Escalante, Hugo Jair]]; [[Valdivia, M. T. M.]]; [[Montejo-Ráez, Arturo]]; [[Gómez, M. M. Y.]]; [[Jarquín-Vásquez, H.]]; [[Villaseñor-Pineda, Luis]]",
+    "year": "2025",
+    "doi": "",
+    "url": "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6388",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Pretrained-Research on Uyghur‐Chinese Neural Machine Translation Based on the.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Combining Pretrained",
+    "year": "2025",
+    "doi": "10.1155/2021/5744248",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1155/2021/5744248",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md",
+    "has_extract": true,
+    "authors": "Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg",
+    "year": "2025",
+    "doi": "10.1016/j.ipm.2021.102674",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306457321001606",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md",
+    "has_extract": true,
+    "authors": "[[Ravikiran, Manikandan]]; [[Annamalai]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.dravidianlangtech-1.2/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md",
+    "has_extract": true,
+    "authors": "Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2021.germeval-1.1/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md",
+    "has_extract": true,
+    "authors": "Saha",
+    "year": "2025",
+    "doi": "",
+    "url": "https://hate-alert.github.io/publication/saha2021hate/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md",
+    "has_extract": true,
+    "authors": "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2106.03269",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Sun-LaoPLM Pre-trained Language Models for Lao.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Sun-LaoPLM Pre-trained Language Models for Lao.md",
+    "has_extract": true,
+    "authors": "[[Guilin Lin, Jie Fu, Weiwei Sun]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2110.05896",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md",
+    "has_extract": true,
+    "authors": "[[Taulé, Mariona]]",
+    "year": "2025",
+    "doi": "",
+    "url": "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6390/0",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "IMSyPP Project Team",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.clarin.si/repository/xmlui/handle/11356/1398",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-Wuerzburg-German HateSpeech Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Wuerzburg-German HateSpeech Corpus.md",
+    "has_extract": true,
+    "authors": "Cophi-Wue (University of Wuerzburg)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/cophi-wue/German_HateSpeech_Corpus",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2021-Zou-Persistent Anti-Muslim Bias in Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2021/2021-Zou-Persistent Anti-Muslim Bias in Large Language.md",
+    "has_extract": true,
+    "authors": "[[Abubakar Abid, Maheen Farooqi, James Zou]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2101.05783",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2021-collaborators-Optimisation of the Largest Annotated Tibetan.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+    "has_extract": true,
+    "authors": "[[Abbasi, A., Javed, A.R., Iqbal, F.,]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.md",
+    "has_extract": true,
+    "authors": "[[Kamel Gaanoun, Mohammed Alsuhaibani]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Ataei, Taha Shangipour]]; [[Darvishi, Kamyar]]; [[Javdan, Soroush]]; [[Pourdabiri, Amin]]; [[Minaei-Bidgoli, B.]]; [[Pilehvar, Mohammad Taher]]",
+    "year": "2025",
+    "doi": "10.1109/taffc.2022.3219229",
+    "url": "https://ieeexplore.ieee.org/document/9936700",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Atwell-Challenging the Transformer-based Models with a.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Shatha Altammami, Eric Atwell]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md",
+    "has_extract": true,
+    "authors": "[[Beyhan, Fatih and Cark, Buse and Arn, \\.Inanc and Terzioglu, Aysecan and Yanikoglu, Berrin and Yeniterzi, Reyyan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.lrec-1.443/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md",
+    "has_extract": true,
+    "authors": "[[Bhattacharjee, Abhik]]; [[Hasan, Tahmid]]; [[Ahmad, Wasi Uddin]]; [[Samin, Kazi]]; [[Islam, Md Saiful]]; [[Iqbal, Anindya]]; [[Rahman, M. Sohel]]; [[Shahriyar, Rifat]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.findings-naacl.98/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md",
+    "has_extract": true,
+    "authors": "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.lrec-1.63/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md",
+    "has_extract": true,
+    "authors": "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Muralidaran, Vigneshwaran]]; [[Jose, Navya]]; [[Suryawanshi, Shardul]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2106.09460",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md",
+    "has_extract": true,
+    "authors": "Avihay Chriqui, Inbal Yahav",
+    "year": "2025",
+    "doi": "10.1287/ijds.2022.0016",
+    "url": "https://arxiv.org/abs/2102.01909",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician.md",
+    "has_extract": true,
+    "authors": "Authors from Universidade de Santiago de Compostela",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.tdle-1.6/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Das-Hate Speech and Offensive Language Detection.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md",
+    "has_extract": true,
+    "authors": "[[Das, Mithun]]; [[Banerjee, Somnath]]; [[Saha, Punyajoy]]; [[Mukherjee, Animesh]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0885230822000250",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md",
+    "has_extract": true,
+    "authors": "[[Das, Mithun]]; [[Saha, Punyajoy]]; [[Mathew, Binny]]; [[Mukherjee, Animesh]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2205.00328",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md",
+    "has_extract": true,
+    "authors": "[[Dementieva, Daryna]]; [[Logacheva, Varvara]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://russe.nlpub.org/2022/tox/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md",
+    "has_extract": true,
+    "authors": "Christoph Demus, Jonas Pitz, Mina Schussler, Dirk Labudde, Udo Kruschwitz",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.woah-1.14/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md",
+    "has_extract": true,
+    "authors": "[[Bonaventure F. P. Dossou, Atnafu Lambebo Tonja, Oreen Yousuf, Salomey Osei, Abigail Oppong, Iyanuoluwa Shode, Oluwabusayo Olufunke Awoyomi, Chris Chinenye Emezue]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2211.03263",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md",
+    "has_extract": true,
+    "authors": "[[English, Implications in]]; [[Media.pdf, Kurdish Social]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://journals.uhd.edu.iq/index.php/juhd/article/view/1006",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md",
+    "has_extract": true,
+    "authors": "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md",
+    "has_extract": true,
+    "authors": "Hate-speech-CNERG",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md",
+    "has_extract": true,
+    "authors": "[[Thapa, Surendrabikram]]; [[Shah, Aditya]]; [[Jafri, Farhan]]; [[Naseem, Usman]]; [[Razzak, Imran]]",
+    "year": "2025",
+    "doi": "10.18653/v1/2022.case-1.1",
+    "url": "https://aclanthology.org/2022.case-1.1/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md",
+    "has_extract": true,
+    "authors": "Md Saroar Jahan, Mourad Oussalah, Nabil Arhab",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.lrec-1.92/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+    "has_extract": true,
+    "authors": "Younghoon Jeong, Juhyun Oh, Jongwon Lee, Jaimeen Ahn, Jiyoung Han, Chiyoung Cha, Alice Oh",
+    "year": "2025",
+    "doi": "10.18653/v1/2022.emnlp-main.744",
+    "url": "https://arxiv.org/abs/2205.11315",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md",
+    "has_extract": true,
+    "authors": "[[Joshi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2205.14728",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md",
+    "has_extract": true,
+    "authors": "Kiplangat Korir",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.cltw-1.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "has_extract": true,
+    "authors": "[[Rohitash Chandra, Venkatesh Kulkarni]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2201.03115",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md",
+    "has_extract": true,
+    "authors": "[[Labrak, Yanis]]; [[Bazoge, Adrien]]; [[Dufour, Richard]]; [[Rouvier, Mickael]]; [[Morin, Emmanuel]]; [[Daille, Béatrice]]; [[Gourraud, Pierre-Antoine]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.louhi-1.5/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2022-Launay-PAGnol An Extra-Large French Generative Model.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Launay-PAGnol An Extra-Large French Generative Model.md",
+    "has_extract": true,
+    "authors": "[[Launay, Julien]]; [[Tommasone, Elena]]; [[Pannier, Baptiste]]; [[Boniface, François]]; [[Chatelain, Amélie]]; [[Cappelli, Alessandro]]; [[Poli, Iacopo]]; [[Seddah, Djamé]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.lrec-1.455/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2022-Litvak-Offensive language detection in Hebrew can other languages help.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.md",
+    "has_extract": true,
+    "authors": "Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Madeghem",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.lrec-1.396/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+    "has_extract": true,
+    "authors": "Sabelo Mhlambi",
+    "year": "2025",
+    "doi": "",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9023883/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md",
+    "has_extract": true,
+    "authors": "[[Micallef, Kurt]]; [[Gatt, Albert]]; [[Tanti, Marc]]; [[Plas, Lonneke van der]]; [[Borg, Claudia]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.deeplo-1.10/",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Multiple (Data in Brief, 2022)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Network-How can NLP Help Revitalize Endangered Languages.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Network-How can NLP Help Revitalize Endangered Languages.md",
+    "has_extract": true,
+    "authors": "Megasis Network",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/pdf/2204.11909",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md",
+    "pdf_extract_path": "PDF Extracts/2022/2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md",
+    "has_extract": true,
+    "authors": "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2022.paclic-1.31/",
+    "body_richness": "thin"
+  }
+]

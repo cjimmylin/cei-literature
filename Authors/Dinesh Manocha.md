@@ -27,10 +27,16 @@ Dinesh Manocha is the Paul Chrisman Iribe Professor of Computer Science at the U
 ## Papers in this Vault
 
 
+
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 Highly prolific researcher with broad impact across computer graphics, robotics, and AI. IEEE and ACM Fellow.

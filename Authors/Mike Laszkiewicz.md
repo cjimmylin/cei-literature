@@ -21,10 +21,16 @@ Mike Laszkiewicz is affiliated with the Faculty of Computer Science at Ruhr Univ
 ## Papers in this Vault
 
 
+
+
 - [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling|Benchmarking Fairness in Image Upsampling]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling*: Affiliation: Faculty of Computer Science, Ruhr, Email: Mike.Laszkiewicz@rub.de
+- *From 2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling*: Affiliation: Faculty of Computer Science, Ruhr, Email: Mike.Laszkiewicz@rub.de
 - *From 2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling*: Affiliation: Faculty of Computer Science, Ruhr, Email: Mike.Laszkiewicz@rub.de
 [Additional context or contact information]

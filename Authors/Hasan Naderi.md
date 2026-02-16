@@ -1,9 +1,9 @@
 ---
 name: "Hasan Naderi"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science and Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "m.aghajani@physics.sharif.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]]]]
+
 
 - [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: aghafuri@comp.iust.ac.ir
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: m.aghajani@physics.sharif.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

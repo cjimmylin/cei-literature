@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Deshpande-TRAIL|TRAIL]]
+- [[2025-Patel-Evaluating Large Language Models for Detecting|Evaluating Large Language Models for Detecting]]
 
 ## Notes
 
 
+
+
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 [Additional context or contact information]

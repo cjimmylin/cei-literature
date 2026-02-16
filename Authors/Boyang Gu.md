@@ -46,6 +46,8 @@ Gu has published influential surveys on the progress and challenges of LLMs in m
 
 ## Papers in this Vault
 
+
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
 ## External Links & Profiles
@@ -56,5 +58,9 @@ Gu has published influential surveys on the progress and challenges of LLMs in m
 
 ## Notes
 
+
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 His work on "Clinical-Objective" alignment is a vital step toward ensuring that AI agents in healthcare prioritize patient well-being over generic linguistic performance.

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali"
 year: 2025
 first_author: "[[Al Sefat, Abdullah]]"
-last_author: "[[Al Sefat, Abdullah]]"
+last_author: "[[Abdullah Al Sefat]]"
 authors: "[[Al Sefat, Abdullah]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.mmloso-1.6/"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bengali, Bangladeshi"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"

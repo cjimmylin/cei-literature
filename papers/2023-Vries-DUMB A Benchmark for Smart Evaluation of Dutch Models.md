@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,10 +9,10 @@ key: LSRC0482
 type: preprint
 short_title: "DUMB: A Benchmark for Smart Evaluation of Dutch Models"
 year: 2025
-first_author: "[[de Vries, Wietse]]"
-last_author: "[[de Vries, Wietse]]"
-authors: "[[de Vries, Wietse]]"
-authors_incomplete: true
+first_author: "[[Vries, Wietse de]]"
+last_author: "[[Nissim, Malvina]]"
+authors: "[[Vries, Wietse de]]; [[Wieling, Martijn]]; [[Nissim, Malvina]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2305.13026"
 external_pdf: "https://arxiv.org/pdf/2305.13026.pdf"
 publication: "arXiv / EMNLP 2023"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Dutch"
+cultures_nationalities_list: "Dutch"
 languages_list: Dutch
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Wietse de Vries et al.]]
+[[Vries, Wietse de]], [[Wieling, Martijn]], [[Nissim, Malvina]]
 
 ## Metadata
 
-**Authors:** Wietse de Vries et al.
+**Authors:** Vries, Wietse de; Wieling, Martijn; Nissim, Malvina
 
 **Year:** 2023
 

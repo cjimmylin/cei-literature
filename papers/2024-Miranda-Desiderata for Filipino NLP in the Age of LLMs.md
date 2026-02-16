@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
+cultures_nationalities_list: "Filipino"
 languages_list: Filipino/Tagalog
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Lj Miranda]]
+[[Lester James V. Miranda|Lj Miranda]]
 
 ## Metadata
 

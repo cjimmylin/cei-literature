@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "LLM through view of Aristole and Kang"
@@ -15,6 +17,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethic
 pdf_extract: "PDF Extracts/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.md"
 local_pdf: "[[PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -23,6 +26,7 @@ key_contribution: "Analyzes LLM capabilities through Aristotelian virtue and Kan
 significance: "Highlights the need for new ethical paradigms for machine intelligence that go beyond human-like knowledge acquisition"
 tags: 
 abstract: "This paper delves into the profound advancements of Large Language Models (LLMs), epitomized by GPT-3, in natural language processing and artificial intelligence. It explores the epistemological foundations of LLMs through the lenses of Aristotle and Kant, revealing apparent distinctions from human learning. Transitioning seamlessly, the paper then delves into the ethical landscape, extending beyond knowledge acquisition to scrutinize the implications of LLMs in decision-making and content creat"
+DATE_ADDED: 20260129
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

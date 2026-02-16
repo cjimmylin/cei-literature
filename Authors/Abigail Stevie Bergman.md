@@ -47,6 +47,8 @@ She is a co-author of several highly cited papers in the field, including "The E
 ## Papers in this Vault
 
 
+
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -60,5 +62,9 @@ She is a co-author of several highly cited papers in the field, including "The E
 
 ## Notes
 
+
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 [Abigail is a key ethical researcher focusing on the agency and responsibility of AI assistants.]

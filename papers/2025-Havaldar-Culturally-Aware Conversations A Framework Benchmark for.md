@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,9 +14,9 @@ type: preprint
 short_title: "Culturally-Aware Conversations A Framework Benchmark for"
 year: 2025
 first_author: "[[Havaldar, Shreya]]"
-last_author: "[[Cho, Young-Min]]"
-authors: "[[Havaldar, Shreya]]; [[Rai, Sunny]]; [[Cho, Young-Min]]"
-authors_incomplete: true
+last_author: "[[Ungar, Lyle]]"
+authors: "[[Havaldar, Shreya]]; [[Rai, Sunny]]; [[Cho, Young-Min]]; [[Ungar, Lyle]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.11563"
 external_pdf: "https://arxiv.org/pdf/2510.11563.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for.md"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +48,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Havaldar, Shreya]], [[Rai, Sunny]], [[Cho, Young-Min]]
+[[Shreya Havaldar|Havaldar, Shreya]], [[Rai, Sunny]], [[Cho, Young-Min]], [[Ungar, Lyle]]
 
 ## Metadata
 
-**Authors:** Shreya Havaldar; Sunny Rai; Young-Min Cho
+**Authors:** Havaldar, Shreya; Rai, Sunny; Cho, Young-Min; Ungar, Lyle
 
 **Year:** 2025
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "Cognitive Bias in Generative AI Influences"
 year: 2025
 first_author: "[[Zhang, Song, Liu]]"
-last_author: "[[Zhang, Song, Liu]]"
+last_author: "[[Liu]]"
 authors: "[[Zhang, Song, Liu]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Zhang, Song, Liu]]
+[[Zhang]], [[Song]], [[Liu]]
 
 ## Metadata
 

@@ -37,6 +37,9 @@ Lead author on FairPrism, a framework for understanding annotator rationales in 
 ## Papers in this Vault
 
 
+
+
+- [[2026-Li-PluriHarms|PluriHarms]]
 - [[2023-Fleisig-FairPrism|FairPrism]] (First Author)
 
 ## External Links & Profiles
@@ -47,5 +50,9 @@ Lead author on FairPrism, a framework for understanding annotator rationales in 
 ## Notes
 
 
+
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 Rising researcher in NLP fairness, known for developing more nuanced approaches to handling subjective annotation tasks.

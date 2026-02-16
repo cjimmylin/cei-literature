@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ doi: 10.48550/arXiv.2406.18510
 url: "https://arxiv.org/abs/2406.18510"
 external_pdf: "https://arxiv.org/pdf/2406.18510.pdf"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Jiang-WildTeaming at Scale.md"
 abstract: "We introduce WILDTEAMING, an automatic red-teaming framework that mines in-the-wild user-chatbot interactions to discover 5.7K unique clusters of novel jailbreak tactics, and then composes selections of multiple mined tactics for systematic exploration of novel and even more challenging jailbreaks. Compared to prior work that performed red-teaming via recruited human workers, gradient-based optimization, or iterative revision with large language models (LLMs), our work investigates jailbreaks..."
 paper_summary: "Abstract: We introduce WILDTEAMING, an automatic red-teaming framework that mines in-the-wild user-chatbot interactions to discover 5.7K unique clusters of novel jail- break tactics, and then composes selection | Overview: WILDTEAMING at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models Liwei Jiang1,2 Kavel Rao∗,1 Seungju Han∗,2,3 Allyson Ettinger2 Faeze Brahman2 Sachin Kumar2 Niloofar Mireshgh | Methodology: ASR ↑Query ↓ PPL ↓ASR×5 30 ↑Query×5 30 ↓Sim@5 30 ↓Simall ↓#Tacticall ↑ Vicuna (7B) WILDTEAM 93.1 | Key Findings: benchmark including test vanilla harmful prompts across standard, contextual, and copyright unsafe behaviors. In this work, we report results using 15 | Conclusions: With empirical insights gleaned from WILDTEAMING and WILDJAILBREAK, we discuss three key areas for improvement for contemporary LLMs safety and genera"
 local_pdf: "[[PDFs/2024/2024-Jiang-WildTeaming at Scale.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

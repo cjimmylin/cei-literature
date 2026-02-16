@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian"
 year: 2025
 first_author: "[[Papadimitriou, Maksim]]"
-last_author: "[[Papadimitriou, Maksim]]"
+last_author: "[[Maksim Papadimitriou]]"
 authors: "[[Papadimitriou, Maksim]]"
 authors_incomplete: true
 url: "https://aclanthology.org/2025.acl-long.25/"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Belarusian"
 languages_list: Belarusian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Maksim Papadimitriou et al.]]
+[[Maksim Papadimitriou]]
 
 ## Metadata
 

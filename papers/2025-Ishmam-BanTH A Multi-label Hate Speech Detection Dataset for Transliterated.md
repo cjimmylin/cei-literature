@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0178
 type: preprint
 short_title: "BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla"
 year: 2025
-first_author: "[[Ishmam, F.]]"
-last_author: "[[F.]]"
-authors: "[[Ishmam, F.]]; [[F.]]"
-authors_incomplete: true
+first_author: "[[Haider, Fabiha]]"
+last_author: "[[Alam, Md Farhad]]"
+authors: "[[Haider, Fabiha]]; [[Shifat, Fariha Tanjim]]; [[Ishmam, Md Farhan]]; [[Barua, Deeparghya Dutta]]; [[Sourove, Md Sakib Ul Rahman]]; [[Fahim, Md]]; [[Alam, Md Farhad]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.13281"
 external_pdf: "https://arxiv.org/pdf/2410.13281.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Bangladeshi, Bengali"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Ishmam, F. et al.]]
+[[Haider, Fabiha]], [[Shifat, Fariha Tanjim]], [[Ishmam, Md Farhan]], [[Barua, Deeparghya Dutta]], [[Sourove, Md Sakib Ul Rahman]], [[Farhan, Md|Fahim, Md]], [[Alam, Md Farhad]]
 
 ## Metadata
 
-**Authors:** Ishmam, F. et al.
+**Authors:** Haider, Fabiha; Shifat, Fariha Tanjim; Ishmam, Md Farhan; Barua, Deeparghya Dutta; Sourove, Md Sakib Ul Rahman; Fahim, Md; Alam, Md Farhad
 
 **Year:** 2025
 

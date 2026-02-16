@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "DECASTE Unveiling Caste Stereotypes in Large"
 year: 2025
 first_author: "[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Horesh, Rogerio Abreu de Paula, Ehsan Degan, Vandana Mukherjee]]"
-last_author: "[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Horesh, Rogerio Abreu de Paula, Ehsan Degan, Vandana Mukherjee]]"
+last_author: "[[Vandana Mukherjee]]"
 authors: "[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Horesh, Rogerio Abreu de Paula, Ehsan Degan, Vandana Mukherjee]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.14971"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Prashanth Vijayaraghavan, Soroush Vosoughi, Lamogha Chiazor, Raya Horesh, Rogerio Abreu de Paula, Ehsan Degan, Vandana Mukherjee]]
+[[Prashanth Vijayaraghavan]], [[Soroush Vosoughi]], [[Lamogha Chiazor]], [[Raya Horesh]], [[Rogerio Abreu de Paula]], [[Ehsan Degan]], [[Vandana Mukherjee]]
 
 ## Metadata
 

@@ -45,7 +45,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Basel Mousi, Nadir Durrani, Fatema Ahmad, Md. Arid Hasan, Maram Hasanain, Tameem Kabbani, Fahim Dalvi, Shammur Absar Chowdhury, Firoj Alam]]
+[[Basel Mousi]], [[Nadir Durrani]], [[Fatema Ahmad]], [[Md. Arid Hasan]], [[Maram Hasanain]], [[Tameem Kabbani]], [[Fahim Dalvi]], [[Shammur Absar Chowdhury]], [[Firoj Alam]]
 
 ## Metadata
 

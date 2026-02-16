@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "Tucano: Advancing Neural Text Generation for Portuguese"
 year: 2025
 first_author: "[[Corrêa, Nicholas Kluge]]"
-last_author: "[[Falk, Sophia]]"
-authors: "[[Corrêa, Nicholas Kluge]]; [[Falk, Sophia]]"
-authors_incomplete: true
+last_author: "[[Fatimah, Shiza]]"
+authors: "[[Corrêa, Nicholas Kluge]]; [[Sen, Aniket]]; [[Falk, Sophia]]; [[Fatimah, Shiza]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2411.07854"
 external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "Brazilian, Portuguese"
 languages_list: Portuguese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Nicholas Kluge Corrêa, Sophia Falk, et al.]]
+[[Corrêa, Nicholas Kluge]], [[Sen, Aniket]], [[Falk, Sophia]], [[Fatimah, Shiza]]
 
 ## Metadata
 
-**Authors:** Nicholas Kluge Corrêa, Sophia Falk, et al.
+**Authors:** Corrêa, Nicholas Kluge; Sen, Aniket; Falk, Sophia; Fatimah, Shiza
 
 **Year:** 2025
 

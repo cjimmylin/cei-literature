@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "CaLMQA Exploring culturally specific long-form question"
 year: 2025
 first_author: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"
-last_author: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"
+last_author: "[[Eunsol Choi Mohit Iyyer]]"
 authors: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17761"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Truthfulness & Factuality"
 
 ## Authors
 
-[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]
+[[Marzena Karpinska Shane Arora]], [[Ipsita Bhattacharjee Hung-Ting Chen]], [[Eunsol Choi Mohit Iyyer]]
 
 ## Metadata
 

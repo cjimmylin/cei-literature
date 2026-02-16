@@ -30,10 +30,16 @@ Chengzhong Liu is an AI researcher known for his contributions to evaluating and
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ju-NaVAB|NaVAB]]
 
 ## Notes
 
 
+
+
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 Chengzhong Liu plays a vital role in constructing the evaluation frameworks necessary for deploying LLMs globally.

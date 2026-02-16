@@ -3,7 +3,7 @@ name: "Ella Daniel"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "naamarozen240@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Rozen-Do LLMs Have Consistent Values|Do LLMs Have Consistent Values?]] (Last Author)]]
+
 
 - [[2025-Rozen-Do LLMs Have Consistent Values|Do LLMs Have Consistent Values?]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Rozen-Do LLMs Have Consistent Values*:, Email: naamarozen240@gmail.com
+- *From 2025-Rozen-Do LLMs Have Consistent Values*:, Email: naamarozen240@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

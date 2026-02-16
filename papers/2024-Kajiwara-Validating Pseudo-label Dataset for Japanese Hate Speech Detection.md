@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conferencePaper
 short_title: "Validating Pseudo-label Dataset for Japanese Hate Speech Detection | IEEE Conference Publication | IEEE Xplore"
 year: 2025
 first_author: [[Kajiwara]]
-last_author: [[Kajiwara]]
+last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://ieeexplore.ieee.org/iel8/10902665/10902666/10902753.pdf"
 publication: IEEE
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: Japanese
 religious_values: "N/A"
 religious_values_list: "N/A"

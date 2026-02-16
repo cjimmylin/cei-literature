@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2410.13009"
 external_pdf: "http://arxiv.org/pdf/2410.13009.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2024/2024-Hancox-Li-Is ETHICS about ethics.md"
 paper_summary: "Overview: arXiv:2410.13009v2 [cs.CY] 26 Nov 2024 Is ETHICS about ethics? Evaluating the ETHICS benchmark Leif Hancox-Li∗ vijil leif@vijil.ai Borhane Blili-Hamelin∗ AI Risk and Vulnerability Alliance borhane@avi"
 local_pdf: "[[PDFs/2024/2024-Hancox-Li-Is ETHICS about ethics.pdf]]"
 abstract: "ETHICS is probably the most-cited dataset for testing the ethical capabilities of language models. Drawing on moral theory, psychology, and prompt evaluation, we interrogate the validity of the ETHICS benchmark. Adding to prior work, our findings suggest that having a clear understanding of ethics and how it relates to empirical phenomena is key to the validity of ethics evaluations for AI."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

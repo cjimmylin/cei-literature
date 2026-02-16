@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Cultural Fidelity in Large-Language Models An"
 year: 2025
 first_author: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"
-last_author: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"
+last_author: "[[Umang Prabhakar Estelle Pan]]"
 authors: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.10489"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]
+[[Gloria Gerhardt Sharif Kazemi]], [[Caroline Ida Kuria Jonty Katz]], [[Umang Prabhakar Estelle Pan]]
 
 ## Metadata
 

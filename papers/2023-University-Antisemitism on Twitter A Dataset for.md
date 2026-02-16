@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "Antisemitism on Twitter A Dataset for"
 year: 2023
 first_author: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]"
-last_author: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]"
+last_author: "[[Indiana University) ISCA (Institute for the Study of Contemporary Antisemitism]]"
 authors: "[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]"
 authors_incomplete: false
 doi: 10.5281/zenodo.7932888
@@ -27,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +49,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[ISCA (Institute for the Study of Contemporary Antisemitism, Indiana University)]]
+[[Indiana University) ISCA (Institute for the Study of Contemporary Antisemitism]]
 
 ## Metadata
 

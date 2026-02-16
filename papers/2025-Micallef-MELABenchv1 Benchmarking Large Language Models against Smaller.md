@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "MELABenchv1: Benchmarking Large Language Models against Smaller Fine-Tuned Models for Low-Resource Maltese NLP"
 year: 2025
 first_author: "[[Kurt Micallef]]"
-last_author: "[[Claudia Borg]]"
+last_author: "[[Claudia Borg Kurt Micallef]]"
 authors: "Kurt Micallef, Claudia Borg"
 url: "https://arxiv.org/abs/2506.04385"
 external_pdf: "https://arxiv.org/pdf/2506.04385.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Maltese"
 languages_list: Maltese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Kurt Micallef, Claudia Borg]]
+[[Claudia Borg Kurt Micallef]]
 
 ## Metadata
 

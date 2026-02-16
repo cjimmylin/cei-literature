@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "HATECAT-TR A Hate Speech Span Detection"
 year: 2025
 first_author: "[[Seker, Hasan Kerem and Uludogan, G\"okce and \"Onal, Pelin and \"Ozg\"ur, Arzucan]]"
-last_author: "[[Seker, Hasan Kerem and Uludogan, G\"okce and \"Onal, Pelin and \"Ozg\"ur, Arzucan]]"
+last_author: "[[Arzucan]]"
 authors: "[[Seker, Hasan Kerem and Uludogan, G\"okce and \"Onal, Pelin and \"Ozg\"ur, Arzucan]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.1393/"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Seker, Hasan Kerem and Uludogan, G\"okce and \"Onal, Pelin and \"Ozg\"ur, Arzucan]]
+[[Seker]], [[Hasan Kerem and Uludogan]], [[Gokce and Onal]], [[Pelin and Ozgur]], [[Arzucan]]
 
 ## Metadata
 

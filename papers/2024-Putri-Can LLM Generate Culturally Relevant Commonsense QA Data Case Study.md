@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Rifki Afina Putri]], [[Faiz Ghifari Haznitrama]], [[Dea Adhista]], [[Alice Oh]]
+[[Putri, Rifki Afina]], [[Haznitrama, Faiz Ghifari]], [[Adhista, Dea]], [[Alice Oh|Oh, Alice]]
 
 ## Metadata
 

@@ -46,6 +46,8 @@ His work on "Instruction Tuning with GPT-4" and the "LLaVA" series has been foun
 
 ## Papers in this Vault
 
+
+
 - [[2022-Qiu-ValueNet|ValueNet]]
 
 ## External Links & Profiles
@@ -61,5 +63,9 @@ His work on "Instruction Tuning with GPT-4" and the "LLaVA" series has been foun
 
 ## Notes
 
+
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 [Baolin is a world-class expert in the alignment and multimodal capabilities of foundation models.]

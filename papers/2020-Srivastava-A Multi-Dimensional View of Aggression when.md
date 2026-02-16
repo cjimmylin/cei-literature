@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ authors: "Arjit Srivastava; Avijit Vajpayee; Syed Sarfaraz Akhtar; Naman Jain; V
 url: "https://aclanthology.org/2020.trac-1.3/"
 external_pdf: "https://aclanthology.org/2020.trac-1.3.pdf"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ tags:
 abstract: "The advent of social media has immensely proliferated the amount of opinions and arguments voiced on the internet. These virtual debates often present cases of aggression. While research has been focused largely on analyzing aggression and stance in isolation from each other, this work is the ﬁrst attempt to gain an extensive and ﬁne-grained understanding of patterns of aggression and ﬁgurative language use when voicing opinion."
 pdf_extract: "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md"
 local_pdf: "[[PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

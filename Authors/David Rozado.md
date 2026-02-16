@@ -1,9 +1,9 @@
 ---
 name: "David Rozado"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "center viewpoints"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "david.rozado@op.ac.nz"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Rozado-The Political Preferences of LLMs|The Political Preferences of LLMs]] (First Author)]]
+
 
 - [[2024-Rozado-The Political Preferences of LLMs|The Political Preferences of LLMs]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Rozado-The Political Preferences of LLMs*: Affiliation: center viewpoints, Email: david.rozado@op.ac.nz
+- *From 2024-Rozado-The Political Preferences of LLMs*: Affiliation: center viewpoints, Email: david.rozado@op.ac.nz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

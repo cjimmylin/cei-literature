@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors|DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors*: Affiliation: Institute of Artificial Intelligence, Beihang University, Beijing 100191, China, Email: dongyinpeng@mail.tsinghua.edu.cn
+- *From 2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors*: Affiliation: Institute of Artificial Intelligence, Beihang University, Beijing 100191, China, Email: dongyinpeng@mail.tsinghua.edu.cn
 - *From 2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors*: Affiliation: Institute of Artificial Intelligence, Beihang University, Beijing 100191, China, Email: dongyinpeng@mail.tsinghua.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

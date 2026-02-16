@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "HeRo: RoBERTa and Longformer Hebrew Language Models"
 year: 2025
 first_author: "[[Vitaly Shalumov]]"
-last_author: "[[Harel Haskey]]"
+last_author: "[[Harel Haskey Vitaly Shalumov]]"
 authors: "Vitaly Shalumov, Harel Haskey"
 url: "https://arxiv.org/abs/2304.11077"
 external_pdf: "https://arxiv.org/pdf/2304.11077.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Vitaly Shalumov, Harel Haskey]]
+[[Harel Haskey Vitaly Shalumov]]
 
 ## Metadata
 

@@ -27,10 +27,16 @@ Dr. Syed Ibrahim Ghaznavi is an Assistant Professor in the Department of Computi
 ## Papers in this Vault
 
 
+
+
 - [[2025-Mushtaq-WorldView-Bench|WorldView-Bench]]
 
 ## Notes
 
 
+
+
+- *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: ibrahim.ghaznavi@itu.edu.pk
+- *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: bscs20078@itu.edu.pk
 - *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: jqadir@qu.edu.qa
 Ibrahim Ghaznavi's research on cultural perspectives in AI aligns with the vault's focus on ethical AI and cultural diversity in language models.

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, French, Spanish"
+cultures_nationalities_list: "Chinese, French, Spanish"
 languages_list: "Chinese, French, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"

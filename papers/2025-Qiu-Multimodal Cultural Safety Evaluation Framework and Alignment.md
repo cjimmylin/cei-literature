@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Haoyi Qiu, Kung-Hsiang Huang, Ruichen Zheng, Jiao Sun, Nanyun Peng]]
+[[Han Qiu|Haoyi Qiu]], [[Kexin Huang|Kung-Hsiang Huang]], [[Ruichen Zheng]], [[Jiao Sun]], [[Nanyun Peng]]
 
 ## Metadata
 

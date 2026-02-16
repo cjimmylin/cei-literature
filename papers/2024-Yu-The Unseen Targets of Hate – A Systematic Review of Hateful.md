@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 languages_list: "Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Zehui Yu]], [[Indira Sen]], [[Dennis Assenmacher]], [[Mattia Samory]], [[Leon Fröhling]], [[Christina Dahn]], [[Debora Nozza]], [[Claudia Wagner]]
+[[Yu, Zehui]], [[Sen, Indira]], [[Assenmacher, Dennis]], [[Samory, Mattia]], [[Fröhling, Leon]], [[Dahn, Christina]], [[Debora Nozza|Nozza, Debora]], [[Wagner, Claudia]]
 
 ## Metadata
 

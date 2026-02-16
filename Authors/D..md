@@ -1,9 +1,9 @@
 ---
 name: "D."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Colorado Boulder"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "bryan.semaan@colorado.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]]]]
+
 
 - [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: adityav@cornell.edu
+- *From 2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender*: Affiliation: University of Colorado Boulder, Email: bryan.semaan@colorado.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

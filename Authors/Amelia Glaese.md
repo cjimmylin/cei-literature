@@ -49,6 +49,8 @@ Amelia Glaese is a Research Scientist at OpenAI, having previously spent five ye
 ## Papers in this Vault
 
 
+
+
 - [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
 
 ## External Links & Profiles
@@ -59,5 +61,9 @@ Amelia Glaese is a Research Scientist at OpenAI, having previously spent five ye
 ## Notes
 
 
+
+
+- *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
+- *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 - *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 Amelia Glaese's work on Sparrow at DeepMind was foundational for modern dialogue agent safety. The rule-based approach to RLHF she helped develop—decomposing "be helpful and harmless" into 23 specific rules—has become an influential paradigm in AI alignment. Her move from DeepMind to OpenAI reflects the mobility of top AI safety researchers between leading labs.

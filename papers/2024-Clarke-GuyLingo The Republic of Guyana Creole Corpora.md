@@ -44,7 +44,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Christopher Clarke, Roland Daynauth, Charlene Wilkinson, Hubert Devonish, Jason Mars]]
+[[Charles L.A. Clarke|Christopher Clarke]], [[Roland Daynauth]], [[Charlene Wilkinson]], [[Hubert Devonish]], [[Jason Mars]]
 
 ## Metadata
 

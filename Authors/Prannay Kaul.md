@@ -25,10 +25,16 @@ His research demonstrates that improvements in existing Type II hallucination me
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-THRONE|THRONE]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 Research focus on improving the reliability and trustworthiness of vision-language models by developing rigorous evaluation frameworks for detecting and mitigating hallucinations in multimodal AI systems. Work represents important contributions to AI safety in computer vision applications.

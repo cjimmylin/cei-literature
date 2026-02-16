@@ -1,9 +1,9 @@
 ---
 name: "Murthy, Sunil Munthumoduku Krishna"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yupei.li22@imperial.ac.uk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Sun-Towards Friendly AI|Towards Friendly AI]]]]
+
 
 - [[2024-Sun-Towards Friendly AI|Towards Friendly AI]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Sun-Towards Friendly AI*: Affiliation: Department of, Email: q.sun23@imperial.ac.uk
+- *From 2024-Sun-Towards Friendly AI*: Affiliation: Department of, Email: yupei.li22@imperial.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

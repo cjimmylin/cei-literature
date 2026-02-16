@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bengali"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Md Asgor Hossain Reaj]], [[Rajan Das Gupta]], [[Jui Saha Pritha]], [[Abdullah Al Noman]], [[Abir Ahmed]], [[Golam Md Mohiuddin]], [[Tze Hui Liew]]
+[[Reaj, Md Asgor Hossain]], [[Das Gupta, Rajan]], [[Pritha, Jui Saha]], [[Al Noman, Abdullah]], [[Ahmed, Abir]], [[Mohiuddin, Golam Md]], [[Liew, Tze Hui]]
 
 ## Metadata
 

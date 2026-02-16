@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Yuan Gao, Zhigang Liu, Xinyu Yao, Bo Chen, Xiaobing Zhao]]
+[[Yuan Gao]], [[Zhigang Liu]], [[Xin Yao|Xinyu Yao]], [[Bo Chen]], [[Xiaobing Zhao]]
 
 ## Metadata
 

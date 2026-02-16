@@ -31,6 +31,8 @@ Dr. Christina Shane-Simpson is a Senior Researcher with more than 10 years of ex
 
 ## Papers in this Vault
 
+
+
 - [[2022-Bago-Situational factors shape moral judgments in the|Situational factors shape moral judgments in the]]
 
 ## External Links & Profiles

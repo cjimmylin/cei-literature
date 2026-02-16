@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Deep Learning for Religious and Continent-Based"
 year: 2025
 first_author: "[[Abbasi, A., Javed, A.R., Iqbal, F.,]]"
-last_author: "[[Abbasi, A., Javed, A.R., Iqbal, F.,]]"
+last_author: "[[F.]]"
 authors: "[[Abbasi, A., Javed, A.R., Iqbal, F.,]]"
 authors_incomplete: false
 url: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Abbasi, A., Javed, A.R., Iqbal, F., and others]]
+[[Abbasi]], [[A.]], [[Javed]], [[A.R]], [[Iqbal]], [[F.]]
 
 ## Metadata
 

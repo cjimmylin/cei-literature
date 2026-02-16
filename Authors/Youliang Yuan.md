@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Wang-All Languages Matter|All Languages Matter]]
+- [[2024-Wang-All Languages Matter On the Multilingual Safety of Large Language|All Languages Matter: On the Multilingual Safety of Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
+- *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 [Additional context or contact information]

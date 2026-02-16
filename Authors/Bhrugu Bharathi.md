@@ -47,6 +47,8 @@ Bharathi has contributed to influential studies on the limitations of current LL
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ Bharathi has contributed to influential studies on the limitations of current LL
 
 ## Notes
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 His focus on "tamper-resistant" AI is essential for the practical deployment of open-source models in sensitive or high-stakes environments.

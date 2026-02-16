@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ authors: "Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Meijuan An; Bikun Yang; Kai
 url: "https://arxiv.org/abs/2406.10311"
 external_pdf: "https://arxiv.org/pdf/2406.10311.pdf"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -61,7 +63,7 @@ With the profound development of large language models(LLMs), their safety conce
 
 ## Authors
 
-[[Wenjing Zhang]], [[Xuanyu Lei|Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[Kangkang Zhao|KaiKai Zhao]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
+[[Wenjing Zhang]], [[Xuejiao Lei]], [[Zhaoxiang Liu]], [[Meijuan An]], [[Bikun Yang]], [[Kangkang Zhao|KaiKai Zhao]], [[Kaile Wang|Kai Wang]], [[Shiguo Lian]]
 
 ## Data Description
 

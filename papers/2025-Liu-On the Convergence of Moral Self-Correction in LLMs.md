@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: NA
 
 ## Authors
 
-[[Liu, Guangliang]], [[Mao, Haitao]], [[Cao, Bochuan]], [[Xue, Zhiyu]], [[Zhang, Xitong]], [[Wang, Rongrong]], [[Johnson, Kristen Marie]]
+[[Guangliang Liu|Liu, Guangliang]], [[Mao, Haitao]], [[Cao, Bochuan]], [[Xue, Zhiyu]], [[Xitong Zhang|Zhang, Xitong]], [[Wang, Rongrong]], [[Kristen Marie Johnson|Johnson, Kristen Marie]]
 
 ## Metadata
 

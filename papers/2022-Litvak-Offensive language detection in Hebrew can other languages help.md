@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
+cultures_nationalities_list: "Hebrew, Arabic"
 languages_list: "Arabic, English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Madeghem]]
+[[Marina Litvak]], [[Natalia Vanetik]], [[Chaya Liebeskind]], [[Oren Hmdia]], [[Eran Madeghem]]
 
 ## Metadata
 

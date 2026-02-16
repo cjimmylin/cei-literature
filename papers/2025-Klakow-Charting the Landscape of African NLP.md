@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Charting the Landscape of African NLP"
 year: 2025
 first_author: "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]"
-last_author: "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]"
+last_author: "[[Dietrich Klakow David Ifeoluwa Adelani]]"
 authors: "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2505.21315"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]
+[[Michael A. Hedderich Jesujoba O. Alabi]], [[Dietrich Klakow David Ifeoluwa Adelani]]
 
 ## Metadata
 

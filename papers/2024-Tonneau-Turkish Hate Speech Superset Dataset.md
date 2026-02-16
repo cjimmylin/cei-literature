@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Turkish Hate Speech Superset Dataset"
 year: 2025
 first_author: "[[Tonneau, Manuel]]"
-last_author: "[[Tonneau, Manuel]]"
+last_author: "[[Manuel Tonneau]]"
 authors: "[[Tonneau, Manuel]]"
 authors_incomplete: true
 url: "https://huggingface.co/datasets/manueltonneau/turkish-hate-speech-superset"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Manuel Tonneau et al]]
+[[Manuel Tonneau]]
 
 ## Metadata
 

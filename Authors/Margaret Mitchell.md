@@ -22,6 +22,9 @@ Margaret Mitchell is a Research Scientist and Chief Ethics Scientist at Hugging 
 ## Papers in this Vault
 
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]] (First Author)
 - [[2025-Mitchell-SHADES|SHADES]] (First Author)
 - [[2024-Pistilli-CIVICS|CIVICS]] (Last Author)
 - [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
@@ -29,5 +32,9 @@ Margaret Mitchell is a Research Scientist and Chief Ethics Scientist at Hugging 
 ## Notes
 
 
+
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 [Additional context or contact information]

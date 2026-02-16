@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "Investigating Retrieval-Augmented Generation in Quranic Studies"
 year: 2025
 first_author: "[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani]]"
-last_author: "[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani]]"
+last_author: "[[Noor Mohammad Osmani]]"
 authors: "[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.16581"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Zahra Khalila, Arbi Haza Nasution, Winda Monika, Aytug Onan, Yohei Murakami, Yasir Bin Ismail Radi, Noor Mohammad Osmani]]
+[[Zahra Khalila]], [[Arbi Haza Nasution]], [[Winda Monika]], [[Aytug Onan]], [[Yohei Murakami]], [[Yasir Bin Ismail Radi]], [[Noor Mohammad Osmani]]
 
 ## Metadata
 

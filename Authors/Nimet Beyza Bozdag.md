@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion|Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign
+- *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +24,7 @@ local_pdf: "[[PDFs/2025/2025-Baum-Aggregation Problems in Machine Ethics.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 ethics_perspective: "Value Pluralism"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -29,6 +32,7 @@ newtags: "Deontology, Value Pluralism, Machine Ethics, AI Alignment"
 key_contribution: "Analyzes how moral and social aggregation procedures face fundamental challenges in machine ethics and AI alignment"
 significance: "Shows that aggregation strategies may shift rather than resolve foundational ethical challenges in AI systems"
 abstract: "Artificial agents increasingly make decisions with farreaching consequences. It is therefore imperative to ensure that their actions are not only functionally effective but also normatively appropriate. Two major paradigms address this challenge: machine ethics and value alignment. Machine ethics typically engages in moral aggregation, especially through value and (descriptive) uncertainty aggregation."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

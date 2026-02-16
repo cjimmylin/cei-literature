@@ -20,10 +20,16 @@ Researcher at University of Texas at Austin's Urban Information Lab. Lead author
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu
 [Additional context or contact information]

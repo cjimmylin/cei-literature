@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0280
 type: conferencePaper
 short_title: "Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants"
 year: 2025
-first_author: "[[Plaza-del-Arco, Flor Miriam]]"
-last_author: "[[Plaza-del-Arco, Flor Miriam]]"
-authors: "[[Plaza-del-Arco, Flor Miriam]]"
-authors_incomplete: true
+first_author: "[[Plaza-del-Arco, F.]]"
+last_author: "[[Villaseñor-Pineda, Luis]]"
+authors: "[[Plaza-del-Arco, F.]]; [[Casavantes, Marco]]; [[Escalante, Hugo Jair]]; [[Valdivia, M. T. M.]]; [[Montejo-Ráez, Arturo]]; [[Gómez, M. M. Y.]]; [[Jarquín-Vásquez, H.]]; [[Villaseñor-Pineda, Luis]]"
+authors_incomplete: false
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6388"
 external_pdf: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/download/6388/3808"
 publication: "IberLEF / SEPLN"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: Spanish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Flor Miriam Plaza-del-Arco, et al.]]
+[[Plaza-del-Arco, F]], [[Casavantes, Marco]], [[Escalante, Hugo Jair]], [[Valdivia, M. T. M]], [[Montejo-Ráez, Arturo]], [[Gómez, M. M. Y]], [[Jarquín-Vásquez, H]], [[Villaseñor-Pineda, Luis]]
 
 ## Metadata
 
-**Authors:** Flor Miriam Plaza-del-Arco, et al.
+**Authors:** Plaza-del-Arco, F.; Casavantes, Marco; Escalante, Hugo Jair; Valdivia, M. T. M.; Montejo-Ráez, Arturo; Gómez, M. M. Y.; Jarquín-Vásquez, H.; Villaseñor-Pineda, Luis
 
 **Year:** 2021
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
+cultures_nationalities_list: "Chinese, American"
 languages_list: Chinese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Linhao Yu]], [[Yongqi Leng]], [[Yufei Huang]], [[Shang Wu]], [[Haixin Liu]], [[Xinmeng Ji]], [[Jiahui Zhao]], [[Jinwang Song]], [[Tingting Cui]], [[Xiaoqing Cheng]], [[Tao Liu]], [[Deyi Xiong]]
+[[Linhao Yu|Yu, Linhao]], [[Yongqi Leng|Leng, Yongqi]], [[Yufei Huang|Huang, Yufei]], [[Shang Wu|Wu, Shang]], [[Haixin Liu|Liu, Haixin]], [[Xinmeng Ji|Ji, Xinmeng]], [[Jiahui Zhao|Zhao, Jiahui]], [[Jinwang Song|Song, Jinwang]], [[Tingting Cui|Cui, Tingting]], [[Xiaoqing Cheng|Cheng, Xiaoqing]], [[Liu, Tao]], [[Deyi Xiong|Xiong, Deyi]]
 
 ## Metadata
 

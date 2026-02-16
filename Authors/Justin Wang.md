@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 
 ## Notes
 
 
+
+
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 [Additional context or contact information]

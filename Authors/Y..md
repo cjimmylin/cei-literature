@@ -1,9 +1,9 @@
 ---
 name: "Y."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Hong Kong, Shenzhen"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "xiaoqingying@sribd.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
-- [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]
-- [[2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral|Moral Association Graph: Cognitive Model for Interpretable Moral Inference]] (Last Author)]]
+
 
 - [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in|Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts]]
@@ -87,6 +85,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

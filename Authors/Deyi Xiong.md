@@ -36,9 +36,14 @@ Deyi Xiong is a prolific researcher in natural language processing, with particu
 
 ## Papers in this Vault
 
+
+
+- [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]] (Last Author)
+- [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]] (Last Author)
 - [[2024-Huang-CBBQ|CBBQ]] (Last Author)
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]] (Last Author)
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]] (Last Author)
+- [[2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language|Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?]] (Last Author)
 - [[2024-Yu-CMoralEval|CMoralEval]] (Last Author)
 - [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]] (Last Author)
 

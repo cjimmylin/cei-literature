@@ -56,7 +56,10 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Cao-SafeDialBench|SafeDialBench]]
+- [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2025-Wu-COIG-P|COIG-P]]
 
 ## External Links & Profiles
@@ -84,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool
+- *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool
 - *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "Large Language Models and Low-Resource Languages: An Examination of Armenian NLP"
 year: 2025
 first_author: "[[Hayastan Avetisyan]]"
-last_author: "[[David Broneske]]"
+last_author: "[[David Broneske Hayastan Avetisyan]]"
 authors: "Hayastan Avetisyan, David Broneske"
 url: "https://aclanthology.org/2023.findings-ijcnlp.18/"
 external_pdf: "https://aclanthology.org/2023.findings-ijcnlp.18.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Armenian"
 languages_list: Armenian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Bias & Fairness"
 
 ## Authors
 
-[[Hayastan Avetisyan, David Broneske]]
+[[David Broneske Hayastan Avetisyan]]
 
 ## Metadata
 

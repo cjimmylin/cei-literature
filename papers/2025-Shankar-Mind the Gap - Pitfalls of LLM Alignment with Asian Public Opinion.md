@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion"
 year: 2025
 first_author: "[[H. Shankar]]"
-last_author: [[D]]
+last_author: "[[D]]"
 authors: "Shankar, H., S P, V., Margapuri, S., & Mazumder, D"
 url: "https://precog.iiit.ac.in/pubs/mind_the_gap_LLM_Alignment_Steerability_Global_South.pdf"
 external_pdf: "https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/pubs/mind_the_gap_LLM_Alignment_Steerability_Global_South.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indian, East Asian, Southeast Asian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

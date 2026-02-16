@@ -29,6 +29,8 @@ Chuang Liu is a researcher affiliated with Tianjin University (TJU) NLP Lab, wor
 
 ## Papers in this Vault
 
+
+
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]] (First Author)
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
 - [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
@@ -38,5 +40,9 @@ Chuang Liu is a researcher affiliated with Tianjin University (TJU) NLP Lab, wor
 
 ## Notes
 
+
+
+- *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
+- *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 Directly relevant to AI safety and alignment research. The surveys authored by Chuang Liu provide comprehensive overviews of the field, covering technical solutions, ethical considerations, and governance frameworks. His work emphasizes the necessity for proactive, multifaceted approaches to LLM safety.

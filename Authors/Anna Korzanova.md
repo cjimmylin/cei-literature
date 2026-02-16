@@ -1,9 +1,9 @@
 ---
 name: "Anna Korzanova"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Russia"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "anna.micj@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Molchanova-Exploring the Potential of Large Language Models|Exploring the Potential of Large Language Models]]]]
+
 
 - [[2025-Molchanova-Exploring the Potential of Large Language Models|Exploring the Potential of Large Language Models]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: ostyakova.ln@gmail.com
+- *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: anna.micj@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

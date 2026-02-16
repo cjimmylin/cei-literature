@@ -45,7 +45,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Jurgita Kapociute-Dzikiene, Toms Bergmanis, Marcis Pinnis]]
+[[Jurgita Kapociute-Dzikiene]], [[Toms Bergmanis]], [[Marcis Pinnis]]
 
 ## Metadata
 

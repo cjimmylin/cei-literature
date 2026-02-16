@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Indian"
 languages_list: "Code-switching, English, Hindi, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Peng Xie]], [[Xingyuan Liu]], [[Tsz Wai Chan]], [[Yequan Bie]], [[Yangqiu Song]], [[Yang Wang]], [[Hao Chen]], [[Kani Chen]]
+[[Xie, Peng]], [[Liu, Xingyuan]], [[Chan, Tsz Wai]], [[Bie, Yequan]], [[Song, Yangqiu]], [[Wang, Yang]], [[Hao Chen|Chen, Hao]], [[Chen, Kani]]
 
 ## Metadata
 

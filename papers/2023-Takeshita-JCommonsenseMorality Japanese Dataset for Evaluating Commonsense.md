@@ -43,7 +43,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Masashi Takeshita, Rafal Rzepka, Kenji Araki]]
+[[Masashi Takeshita]], [[Rafal Rzepka]], [[Kenji Araki]]
 
 ## Metadata
 

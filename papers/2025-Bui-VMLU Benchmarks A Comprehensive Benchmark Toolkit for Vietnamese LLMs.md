@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
+cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Cuc Thi Bui, Nguyen Truong Son, Truong Van Trang, Lam Viet Phung, Pham Nhut Huy, Hoang Anh Le, Quoc Huu Van, Phong Nguyen-Thuan Do, Van Le Tran Truc, Duc Thanh Chau, Le-Minh Nguyen]]
+[[Cuc Thi Bui]], [[Nguyen Truong Son]], [[Truong Van Trang]], [[Lam Viet Phung]], [[Pham Nhut Huy]], [[Hai Son Le|Hoang Anh Le]], [[Quoc Huu Van]], [[Phong Nguyen-Thuan Do]], [[Van Le Tran Truc]], [[Duc Thanh Chau]], [[Long Nguyen|Le-Minh Nguyen]]
 
 ## Metadata
 

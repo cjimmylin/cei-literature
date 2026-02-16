@@ -45,7 +45,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Ruixiang Feng, Shen Gao, Xiuying Chen, Lisi Chen, Shuo Shang]]
+[[Ruixiang Feng]], [[Shang Gao|Shen Gao]], [[Xiuying Chen]], [[Lisi Chen]], [[Shuo Shang]]
 
 ## Metadata
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: LSRC0104
 type: conferencePaper
 short_title: "MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language"
 year: 2025
-first_author: "[[Jue, Sze]]"
-last_author: "[[Xuan, Jia]]"
-authors: "[[Jue, Sze]]; [[Li, Jeraelyn Ming]]; [[Yao, Lawrence Leroy Tze]]; [[Xuan, Jia]]"
-authors_incomplete: true
+first_author: "[[Poh, Soon Chang]]"
+last_author: "[[Chan, Chee Seng]]"
+authors: "[[Poh, Soon Chang]]; [[Yang, Sze Jue]]; [[Tan, Jeraelyn]]; [[Chieng, Lawrence]]; [[Tan, J.]]; [[Yu, Zhenyu]]; [[Mun, Foong]]; [[Chan, Chee Seng]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-emnlp.36/"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.36.pdf"
 publication: "ACL Anthology (EMNLP 2024 Findings)"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Malaysian, Malay"
 languages_list: Malay
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,11 +48,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Jue, Sze]], [[Li, Jeraelyn Ming]], [[Yao, Lawrence Leroy Tze]], [[Xuan, Jia]]
+[[Poh, Soon Chang]], [[Yang, Sze Jue]], [[Tan, Jeraelyn]], [[Chieng, Lawrence]], [[Tan, J]], [[Yu, Zhenyu]], [[Mun, Foong]], [[Chan, Chee Seng]]
 
 ## Metadata
 
-**Authors:** Sze Jue; Jeraelyn Ming Li; Lawrence Leroy Tze Yao; Jia Xuan
+**Authors:** Poh, Soon Chang; Yang, Sze Jue; Tan, Jeraelyn; Chieng, Lawrence; Tan, J.; Yu, Zhenyu; Mun, Foong; Chan, Chee Seng
 
 **Year:** 2024
 

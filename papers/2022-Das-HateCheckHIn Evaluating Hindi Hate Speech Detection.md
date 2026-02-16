@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ year: 2025
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
 authors: "[[Das, Mithun]]; [[Saha, Punyajoy]]; [[Mathew, Binny]]; [[Mukherjee, Animesh]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://arxiv.org/abs/2205.00328"
 external_pdf: "https://arxiv.org/pdf/2205.00328.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Das, Mithun]], [[Saha, Punyajoy]], [[Mathew, Binny]], [[Mukherjee, Animesh]]
+[[Das, Mithun]], [[Punyajoy Saha|Saha, Punyajoy]], [[Binny Mathew|Mathew, Binny]], [[Animesh Mukherjee|Mukherjee, Animesh]]
 
 ## Metadata
 
-**Authors:** Mithun Das; Punyajoy Saha; Binny Mathew; Animesh Mukherjee
+**Authors:** Das, Mithun; Saha, Punyajoy; Mathew, Binny; Mukherjee, Animesh
 
 **Year:** 2022
 

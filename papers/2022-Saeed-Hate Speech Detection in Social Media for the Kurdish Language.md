@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kurdish"
 languages_list: "Kurdish (Sorani)"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Ari M. Saeed]], [[Aso N. Ismael]], [[Danya L. Rasul]], [[Rayan S. Majeed]], [[Tarik Ahmed Rashid]]
+[[Saeed, Ari M]], [[Ismael, Aso N]], [[Rasul, Danya L]], [[Majeed, Rayan S]], [[Rashid, Tarik Ahmed]]
 
 ## Metadata
 

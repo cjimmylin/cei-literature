@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Multilingual European Language Models: Benchmarking Approaches and Challenges"
 year: 2025
 first_author: "[[Fabio Barth]]"
-last_author: "[[Georg Rehm]]"
+last_author: "[[Georg Rehm Fabio Barth]]"
 authors: "Fabio Barth, Georg Rehm"
 url: "https://arxiv.org/abs/2502.12895"
 external_pdf: "https://arxiv.org/pdf/2502.12895.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "European"
 languages_list: "Multiple European languages"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Fabio Barth, Georg Rehm]]
+[[Georg Rehm Fabio Barth]]
 
 ## Metadata
 

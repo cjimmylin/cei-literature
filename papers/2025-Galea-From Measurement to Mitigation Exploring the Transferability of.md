@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "From Measurement to Mitigation: Exploring the Transferability of Debiasing Approaches to Gender Bias in Maltese Language Models"
 year: 2025
 first_author: "[[Melanie Galea]]"
-last_author: "[[Claudia Borg]]"
+last_author: "[[Claudia Borg Melanie Galea]]"
 authors: "Melanie Galea, Claudia Borg"
 url: "https://arxiv.org/abs/2507.03142"
 external_pdf: "https://arxiv.org/pdf/2507.03142.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Maltese"
 languages_list: Maltese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Melanie Galea, Claudia Borg]]
+[[Claudia Borg Melanie Galea]]
 
 ## Metadata
 

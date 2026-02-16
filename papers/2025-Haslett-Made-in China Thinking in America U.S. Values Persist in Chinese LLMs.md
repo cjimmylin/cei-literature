@@ -44,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[David Haslett, Linus Ta-Lun Huang, Leila Khalatbari, Janet Hui-wen Hsiao, Antoni B. Chan]]
+[[David Haslett]], [[Linus Ta-Lun Huang]], [[Leila Khalatbari]], [[Janet Hui-wen Hsiao]], [[Alan Chan|Antoni B. Chan]]
 
 ## Metadata
 

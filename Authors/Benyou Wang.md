@@ -49,6 +49,8 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 
 ## Papers in this Vault
 
+
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links & Profiles
@@ -60,5 +62,9 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 
 ## Notes
 
+
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 His work on "democratizing" LLM capabilities is central to ensuring that advanced AI remains accessible and its decision-making processes transparent and explainable.

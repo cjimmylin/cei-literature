@@ -10,7 +10,7 @@ type: preprint
 short_title: "How Chinese are Chinese Language Models? The Puzzling Lack of Language Policy in China's LLMs"
 year: 2024
 first_author: "[[Andrea W Wen-Yi]]"
-last_author: "[[David Mimno]]"
+last_author: "[[David Mimno Lu Jia Lin]]"
 authors: Andrea W Wen-Yi, Unso Eun Seo Jo, Lu Jia Lin, David Mimno
 url: "https://arxiv.org/abs/2407.09652"
 external_pdf: "https://arxiv.org/pdf/2407.09652.pdf"
@@ -44,7 +44,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Andrea W Wen-Yi, Unso Eun Seo Jo, Lu Jia Lin, David Mimno]]
+[[Unso Eun Seo Jo Andrea W Wen-Yi]], [[Dahua Lin|David Mimno Lu Jia Lin]]
 
 ## Metadata
 

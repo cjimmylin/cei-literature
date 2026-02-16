@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0008
 type: conferencePaper
 short_title: "IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context"
 year: 2025
-first_author: "[[Sahoo, Nihar Ranja]]"
+first_author: "[[Sahoo, Nihar Ranjan]]"
 last_author: "[[Bhattacharyya, Pushpak]]"
-authors: "[[Sahoo, Nihar Ranja]]; [[Beria, Gyana Prakash]]; [[Bhattacharyya, Pushpak]]"
-authors_incomplete: true
+authors: "[[Sahoo, Nihar Ranjan]]; [[Beria, Gyana Prakash]]; [[Bhattacharyya, Pushpak]]"
+authors_incomplete: false
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/30237"
 external_pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/30237/32202"
 publication: AAAI
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 languages_list: "English, English (Indian context), Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Sahoo, Nihar Ranja]], [[Beria, Gyana Prakash]], [[Bhattacharyya, Pushpak]]
+[[Sahoo, Nihar Ranjan]], [[Beria, Gyana Prakash]], [[Pushpak Bhattacharyya|Bhattacharyya, Pushpak]]
 
 ## Metadata
 
-**Authors:** Nihar Ranja Sahoo; Gyana Prakash Beria; Pushpak Bhattacharyya
+**Authors:** Sahoo, Nihar Ranjan; Beria, Gyana Prakash; Bhattacharyya, Pushpak
 
 **Year:** 2024
 

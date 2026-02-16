@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Janis Goldzycher, Paul Rottger, Gerold Schneider]]
+[[Janis Goldzycher]], [[Paul Röttger|Paul Rottger]], [[Gerold Schneider]]
 
 ## Metadata
 

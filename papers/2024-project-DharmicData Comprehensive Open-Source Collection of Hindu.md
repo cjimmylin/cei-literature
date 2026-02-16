@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "DharmicData Comprehensive Open-Source Collection of Hindu"
 year: 2025
 first_author: "[[project), Bhavy Khatri (community]]"
-last_author: "[[project), Bhavy Khatri (community]]"
+last_author: "[[Bhavy Khatri (community project)]]"
 authors: "[[Bhavy Khatri (community project)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"

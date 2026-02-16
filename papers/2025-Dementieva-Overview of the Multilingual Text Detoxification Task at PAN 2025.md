@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2025"
 year: 2025
 first_author: "[[Daryna Dementieva]]"
-last_author: "[[Alexander Panchenko]]"
+last_author: "[[Alexander Panchenko Jan Svec]]"
 authors: "Daryna Dementieva, Daniil Moskovskiy, Nikolay Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, Xintong Wang, Guilherme Penedo, Daniel Nabus, Jakub Podolak, Jan Svec, Alexander Panchenko"
 url: "https://pan.webis.de/clef25/pan25-web/text-detoxification.html"
 external_pdf: "https://ceur-ws.org/Vol-4038/paper_278.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli"
+cultures_nationalities_list: "Russian, Ukrainian, German, Spanish, Chinese, Arabic, Indian, Italian, French, Hebrew, Japanese, Ethiopian, Tatar"
 languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Daryna Dementieva, Daniil Moskovskiy, Nikolay Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, Xintong Wang, Guilherme Penedo, Daniel Nabus, Jakub Podolak, Jan Svec, Alexander Panchenko]]
+[[Daryna Dementieva|Daniil Moskovskiy Daryna Dementieva]], [[Abinew Ali Ayele Nikolay Babakov]], [[Florian Schneider Naquee Rizwan]], [[Guilherme Penedo Xintong Wang]], [[Jakub Podolak Daniel Nabus]], [[Alexander Panchenko Jan Svec]]
 
 ## Metadata
 

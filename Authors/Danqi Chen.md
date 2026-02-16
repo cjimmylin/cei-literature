@@ -34,10 +34,17 @@ Chen's work spans natural language processing with emphasis on developing models
 ## Papers in this Vault
 
 
+
+
+- [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
 ## Notes
 
 
+
+
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 Chen is a recipient of the ACL Best Paper Award, Sloan Research Fellowship, and NSF CAREER Award. She is highly influential in the NLP community with her work on efficient and effective language understanding systems.

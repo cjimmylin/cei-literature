@@ -18,6 +18,9 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]]
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
 - [[2024-Yang-DistillSeq|DistillSeq]] (Last Author)
@@ -25,5 +28,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
+- *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
 [Additional context or contact information]

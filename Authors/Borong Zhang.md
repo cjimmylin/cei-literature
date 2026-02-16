@@ -46,6 +46,9 @@ Zhang has developed novel solvers for ptychographic phase retrieval and wideband
 
 ## Papers in this Vault
 
+
+
+- [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
 
@@ -57,5 +60,9 @@ Zhang has developed novel solvers for ptychographic phase retrieval and wideband
 
 ## Notes
 
+
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 His research is at the forefront of the "Safety and Reliability" of AI in science, where the goal is to create models that respect the physical laws of the universe.

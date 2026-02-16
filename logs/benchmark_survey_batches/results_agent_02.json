@@ -1,377 +1,572 @@
 [
   {
-    "filename": "2020-Sap-Social Bias Frames.md",
+    "filename": "2021-Jiang-Pretrained Models and Evaluation Data for.md",
     "decision": "Yes",
-    "benchmark_name": "Social Bias Inference Corpus (SBIC)",
-    "what_measures": "Implicit social bias in language, including stereotyping, offensiveness, and the pragmatic implications of biased statements toward demographic groups",
-    "how_measures": "Structured annotation framework (Social Bias Frames) with 150k annotations of social media posts; models predict whether a statement is offensive, who is targeted, and what implication is conveyed",
-    "dataset_size": "150k structured annotations over 34k implications about 1000+ demographic groups",
-    "models_evaluated": "State-of-the-art neural models (GPT-2 era baselines)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Introduces a large-scale dataset and formalism for evaluating implicit social bias in language models, covering demographic stereotypes and power differentials"
-  },
-  {
-    "filename": "2020-Schramowski-The Moral Choice Machine.md",
-    "decision": "Yes",
-    "benchmark_name": "Moral Choice Machine (MCM)",
-    "what_measures": "Deontological ethical reasoning about right and wrong conduct extracted from text corpora; moral bias scores for actions in context",
-    "how_measures": "Template-based prompts ('Should I [action]?', 'Is it okay to [action]?') with bias scores computed from sentence embeddings (Universal Sentence Encoder); compares positive vs. negative response scores",
-    "dataset_size": "Not specified (template list of prompts/responses applied to actions)",
-    "models_evaluated": "Universal Sentence Encoder on various corpora (Bible, constitutions, news, books from 1510-2008)",
+    "benchmark_name": "Khmer BERT/ELECTRA + Khmer News Categorization Dataset",
+    "what_measures": "NLP capabilities for the Khmer language, including POS tagging and news categorization.",
+    "how_measures": "Provides first pretrained transformer models for Khmer and a self-constructed news categorization dataset of 7,166 Khmer news articles evaluated on downstream tasks.",
+    "dataset_size": "7,166 Khmer news articles",
+    "models_evaluated": "BERT, ELECTRA, word2vec",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Creates a method and evaluation framework for extracting and quantifying moral choices from text embeddings, comparing across cultures and time periods"
+    "reasoning": "Introduces the first pretrained models and evaluation dataset for Khmer, a low-resource language, providing foundational infrastructure for future NLP evaluation."
   },
   {
-    "filename": "2020-Serafimova-Whose Morality Which Rationality.md",
-    "decision": "Exclude",
-    "reasoning": "Purely theoretical philosophy paper comparing Kantian, utilitarian, and virtue ethical approaches to machine ethics; no empirical evaluation or benchmark component"
-  },
-  {
-    "filename": "2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
-    "decision": "Exclude",
-    "reasoning": "Creates a Hindi-English code-mixed aggression/hate speech dataset but focuses on aggression classification rather than moral reasoning or ethical evaluation of AI/LLMs"
-  },
-  {
-    "filename": "2020-Wright-A Deontic Logic for Programming Rightful Machines.md",
-    "decision": "Exclude",
-    "reasoning": "Purely theoretical paper on deontic logic for legal obligations in machines; proposes formal logic framework but no empirical evaluation, benchmark, or dataset"
-  },
-  {
-    "filename": "2020-Zampieri-SemEval-2020 Task 12.md",
-    "decision": "Exclude",
-    "reasoning": "Shared task on multilingual offensive language identification (OffensEval); focuses on offensive language detection as a technical NLP classification task rather than moral reasoning or ethical evaluation of LLMs"
-  },
-  {
-    "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
-    "decision": "Exclude",
-    "reasoning": "Theoretical working paper on Ubuntu philosophy and African ethics in AI governance; no empirical evaluation, benchmark, or dataset"
-  },
-  {
-    "filename": "2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical book chapter examining whether AI can lead to genuine virtue from a Confucian perspective; no empirical evaluation or benchmark component"
-  },
-  {
-    "filename": "2021-Askell-A General Language Assistant as a Laboratory for.md",
+    "filename": "2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md",
     "decision": "Yes",
-    "benchmark_name": "HHH Alignment Evaluations",
-    "what_measures": "Alignment of language models with human values across helpfulness, honesty, and harmlessness (HHH) dimensions",
-    "how_measures": "Preference modeling vs imitation learning comparisons; human evaluations of model outputs for alignment properties; scaling analysis across model sizes",
-    "dataset_size": "Not specified (multiple evaluation sets)",
-    "models_evaluated": "Anthropic language models at various scales",
-    "pluralistic_relevance": "No",
-    "availability": "Not stated",
-    "reasoning": "Establishes the HHH alignment evaluation framework and studies scaling of preference modeling for value alignment, a foundational methodology for ethical AI evaluation"
-  },
-  {
-    "filename": "2021-Barikeri-REDDITBIAS.md",
-    "decision": "Yes",
-    "benchmark_name": "REDDITBIAS",
-    "what_measures": "Social bias in conversational language models across gender, race, religion, and queerness dimensions",
-    "how_measures": "Real-world Reddit conversation data annotated for bias; evaluation framework that simultaneously measures bias and dialog task performance; debiasing benchmarking",
-    "dataset_size": "Not specified (conversational dataset from Reddit)",
-    "models_evaluated": "DialoGPT with 4 debiasing method adaptations",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Creates a benchmark dataset and evaluation framework for measuring social bias in conversational AI models, covering multiple bias dimensions including religion"
-  },
-  {
-    "filename": "2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
-    "decision": "Exclude",
-    "reasoning": "Focuses on gender bias in coreference resolution systems from a technical NLP perspective; the abstract appears mismatched (about variational deep logic networks), and the key contribution is about inclusive pronoun resolution rather than moral reasoning evaluation"
-  },
-  {
-    "filename": "2021-Caselli-HateBERT.md",
-    "decision": "Exclude",
-    "reasoning": "Introduces HateBERT, a domain-adapted BERT model for hate speech detection; focuses on model training methodology rather than creating a benchmark for moral/ethical evaluation of LLMs"
-  },
-  {
-    "filename": "2021-Cercas Curry-ConvAbuse.md",
-    "decision": "Exclude",
-    "reasoning": "Creates a dataset of abusive language toward conversational AI systems; while it raises ethical questions, it is primarily a technical abuse detection dataset rather than a moral reasoning or ethical evaluation benchmark"
-  },
-  {
-    "filename": "2021-Clark-All That's 'Human' Is Not Gold.md",
-    "decision": "Exclude",
-    "reasoning": "Studies human ability to distinguish machine-generated from human-written text; focuses on NLG evaluation methodology without any ethical or moral reasoning component"
-  },
-  {
-    "filename": "2021-Croce-RobustBench.md",
-    "decision": "Exclude",
-    "reasoning": "Standardized benchmark for adversarial robustness in image classification; focuses on technical security/robustness rather than moral reasoning or ethical evaluation"
-  },
-  {
-    "filename": "2021-Dhamala-BOLD.md",
-    "decision": "Yes",
-    "benchmark_name": "BOLD (Bias in Open-Ended Language Generation Dataset)",
-    "what_measures": "Social biases in open-ended text generation across profession, gender, race, religion, and political ideology",
-    "how_measures": "23,679 prompts for open-ended generation; automated metrics for toxicity, psycholinguistic norms, and text gender polarity; comparison of generated text against human-written Wikipedia baselines",
-    "dataset_size": "23,679 English text generation prompts across 5 domains",
-    "models_evaluated": "Three popular language models (GPT-2 era)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Creates a large-scale benchmark with novel metrics for measuring social biases in open-ended language generation, including religion and political ideology dimensions"
-  },
-  {
-    "filename": "2021-Emelin-Moral Stories.md",
-    "decision": "Yes",
-    "benchmark_name": "Moral Stories",
-    "what_measures": "Grounded, goal-oriented social reasoning and norm adherence in language models; ability to generate norm-conforming actions, anticipate consequences, and explain norms",
-    "how_measures": "Structured branching narratives with situation, norm, intention, and consequence components; models generate actions and must observe or violate norms; evaluation of action quality, consequence prediction, and norm hypothesis generation",
-    "dataset_size": "Crowd-sourced dataset (not specified in body, but referenced as large-scale)",
-    "models_evaluated": "Language generation models with expert decoding strategies",
-    "pluralistic_relevance": "No",
-    "availability": "Public",
-    "reasoning": "Introduces a crowd-sourced dataset of structured moral narratives specifically designed to evaluate social reasoning and norm adherence in NLG models"
-  },
-  {
-    "filename": "2021-Hendrycks-Aligning AI with Shared Human Values.md",
-    "decision": "Yes",
-    "benchmark_name": "ETHICS",
-    "what_measures": "Language model knowledge of basic moral concepts spanning justice, well-being, duties, virtues, and commonsense morality",
-    "how_measures": "Text scenarios requiring moral judgment predictions across 5 ethical categories (justice, deontology, virtue ethics, utilitarianism, commonsense morality); binary and scaled classification",
-    "dataset_size": "Large-scale (130k+ examples across categories)",
-    "models_evaluated": "Various language models including GPT-3, BERT, RoBERTa, ALBERT",
+    "benchmark_name": "ParsiNLU",
+    "what_measures": "Persian natural language understanding across 6 tasks: reading comprehension, multiple-choice QA, textual entailment, sentiment analysis, query paraphrasing, and machine translation.",
+    "how_measures": "Expert-annotated benchmark tasks by native Persian speakers, evaluated using standard NLU metrics.",
+    "dataset_size": "Multiple task-specific datasets (6 tasks)",
+    "models_evaluated": "BERT, T5",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Foundational benchmark for assessing LLM moral reasoning across multiple normative ethical traditions; one of the most widely used ethics benchmarks"
+    "reasoning": "Introduces a comprehensive Persian NLU benchmark with 6 tasks, filling a major gap for Persian language evaluation including sentiment analysis."
   },
   {
-    "filename": "2021-Keren-ParaShoot.md",
+    "filename": "2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md",
     "decision": "Exclude",
-    "reasoning": "Hebrew question answering dataset following SQuAD format; no connection to ethics, morality, or value alignment"
+    "reasoning": "Studies bias in multilingual word embeddings using WEAT methodology but does not introduce a new benchmark or dataset; applies existing bias detection methods to new languages."
   },
   {
-    "filename": "2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.md",
-    "decision": "Exclude",
-    "reasoning": "Creates a large-scale gender bias dataset for coreference resolution and machine translation; focuses on technical gender bias in NLP systems rather than moral reasoning or ethical evaluation"
-  },
-  {
-    "filename": "2021-Lourie-Scruples.md",
+    "filename": "2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md",
     "decision": "Yes",
-    "benchmark_name": "SCRUPLES",
-    "what_measures": "Descriptive ethics and moral judgment in real-life interpersonal situations; community ethical norms and the 'who is in the wrong' judgment task",
-    "how_measures": "625,000 ethical judgments over 32,000 real-life anecdotes from Reddit AITA; community vote distributions; models predict who is in the wrong; handles inherently divisive moral judgments",
-    "dataset_size": "625,000 ethical judgments over 32,000 anecdotes",
-    "models_evaluated": "State-of-the-art neural language models (BERT-era)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Large-scale dataset of real-world ethical situations with community moral judgments, explicitly designed for training and evaluating machine ethics from a descriptive ethics perspective"
-  },
-  {
-    "filename": "2021-Munshi-Towards an Automated Islamic Fatwa System.md",
-    "decision": "Yes",
-    "benchmark_name": "Islamic Fatwa Dataset",
-    "what_measures": "Islamic jurisprudence (Sharia) question-answering and topic classification for fatwa automation",
-    "how_measures": "Retrieval-based QA, topic classification, topic modelling; baseline systems on the dataset",
-    "dataset_size": "Largest dataset for Islamic Fatwa (size not specified in paper body, spanning multiple fatwa websites)",
-    "models_evaluated": "Baseline NLP systems for classification and QA",
+    "benchmark_name": "ViHSD (Vietnamese Hate Speech Detection)",
+    "what_measures": "Hate speech detection in Vietnamese social media, classifying comments as CLEAN, OFFENSIVE, or HATE.",
+    "how_measures": "Human-annotated dataset of 33K+ Facebook and YouTube comments with three-class labels evaluated using standard classification metrics.",
+    "dataset_size": "33,000+ comments",
+    "models_evaluated": "BERT, DistilBERT, RoBERTa",
     "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Creates and releases a dataset and benchmarks specifically for Islamic religious/moral jurisprudence automation, representing a non-Western ethical tradition applied to AI"
+    "reasoning": "Introduces ViHSD, a large-scale human-annotated Vietnamese hate speech detection dataset that serves as a widely used benchmark for Vietnamese HSD research."
   },
   {
-    "filename": "2021-Nadeem-StereoSet.md",
+    "filename": "2021-Mghari-Cyberbullying and Hate Speech Detection on.md",
+    "decision": "Exclude",
+    "reasoning": "Described as early work on Kazakh hate speech detection but no concrete dataset or benchmark is clearly released; paper lacks PDF and detailed information."
+  },
+  {
+    "filename": "2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md",
     "decision": "Yes",
-    "benchmark_name": "StereoSet",
-    "what_measures": "Stereotypical bias in pretrained language models across gender, profession, race, and religion",
-    "how_measures": "Natural sentence pairs (stereotypical vs. anti-stereotypical vs. unrelated) measuring model preference; intrasentence and intersentence evaluation; leaderboard with hidden test set",
-    "dataset_size": "Large-scale natural dataset (16,995 test instances)",
-    "models_evaluated": "BERT, GPT-2, RoBERTa, XLNet",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Major benchmark for measuring stereotypical biases in language models across multiple social dimensions including religion; widely cited and influential"
-  },
-  {
-    "filename": "2021-Nangia-CrowS-Pairs.md",
-    "decision": "Yes",
-    "benchmark_name": "CrowS-Pairs",
-    "what_measures": "Social bias in masked language models against protected demographic groups across 9 bias types (race, religion, age, gender, etc.)",
-    "how_measures": "1,508 sentence pairs: more stereotyping vs. less stereotyping; measures model preference for stereotypical sentences using pseudo-log-likelihood scoring",
-    "dataset_size": "1,508 sentence pairs",
-    "models_evaluated": "Three widely-used MLMs (BERT, RoBERTa, ALBERT)",
-    "pluralistic_relevance": "Partial",
-    "availability": "Public",
-    "reasoning": "Crowdsourced bias benchmark covering 9 bias dimensions including race and religion, widely used for evaluating social biases in language models"
-  },
-  {
-    "filename": "2021-Prabhumoye-Case Study.md",
-    "decision": "Exclude",
-    "reasoning": "Applies deontological ethics principles to NLP case studies as a philosophical/theoretical analysis; provides recommendations but no empirical benchmark, dataset, or evaluation metric"
-  },
-  {
-    "filename": "2021-Röttger-HateCheck.md",
-    "decision": "Yes",
-    "benchmark_name": "HateCheck",
-    "what_measures": "Functional weaknesses of hate speech detection models across 29 specific functionalities (e.g., reclaimed slurs, counter-speech, negation)",
-    "how_measures": "Suite of functional tests with crafted test cases for each of 29 model functionalities; validated through structured annotation; targeted diagnostic evaluation beyond F1/accuracy",
-    "dataset_size": "29 functionalities with crafted test cases (thousands of examples)",
-    "models_evaluated": "Near-state-of-the-art transformer models and two commercial models",
-    "pluralistic_relevance": "No",
-    "availability": "Public",
-    "reasoning": "Introduces a structured functional testing benchmark for hate speech detection that goes beyond aggregate metrics to diagnose specific model weaknesses in handling ethically sensitive content"
-  },
-  {
-    "filename": "2021-Stenseke-Artificial Virtuous Agents.md",
-    "decision": "Exclude",
-    "reasoning": "Theoretical framework for implementing virtue ethics in artificial moral agents; proposes a computational framework but no empirical benchmark, dataset, or evaluation of LLMs"
-  },
-  {
-    "filename": "2021-Sullins-Artificial Phronesis - What It Is and Is Not.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical book chapter on artificial phronesis (practical moral wisdom); no empirical evaluation, benchmark, or dataset"
-  },
-  {
-    "filename": "2021-Wang-MedAI at SemEval-2021 Task 5.md",
-    "decision": "Exclude",
-    "reasoning": "System submission for SemEval toxic spans detection task; describes a technical tagging framework rather than creating a moral/ethical evaluation benchmark"
-  },
-  {
-    "filename": "2021-Wang-SemEval-2021 Task 5 Toxic Spans Detection.md",
-    "decision": "Exclude",
-    "reasoning": "Appears to be a duplicate entry for the same SemEval-2021 Task 5 system paper; focuses on token-level toxicity detection as technical NLP rather than moral reasoning evaluation"
-  },
-  {
-    "filename": "2021-Weidinger-Ethical and social risks of harm from Language.md",
-    "decision": "Exclude",
-    "reasoning": "Survey/taxonomy paper establishing risk landscape for LLMs (DeepMind); identifies ethical risks but does not introduce its own evaluation methodology, benchmark, or dataset"
-  },
-  {
-    "filename": "2022-Baan-Stop Measuring Calibration When Humans Disagree.md",
-    "decision": "Exclude",
-    "reasoning": "Addresses methodological issues with calibration metrics when human labels disagree; focuses on NLI task evaluation methodology rather than ethics or moral reasoning"
-  },
-  {
-    "filename": "2022-Bago-Situational factors shape moral judgments in the.md",
-    "decision": "Exclude",
-    "reasoning": "Large-scale cross-cultural human psychology study on trolley dilemma moral judgments (45 countries); studies human moral psychology without any AI/LLM evaluation component"
-  },
-  {
-    "filename": "2022-Bai-Constitutional AI.md",
-    "decision": "Yes",
-    "benchmark_name": "Constitutional AI Evaluation",
-    "what_measures": "Harmlessness and helpfulness of language model assistants trained through AI feedback using ethical principles (constitutional rules)",
-    "how_measures": "Self-critique and revision pipeline; AI-generated preferences based on constitutional principles; evaluation of harmlessness through human and model judgments on 254 conversations",
-    "dataset_size": "254 evaluation conversations; constitutional principles set",
-    "models_evaluated": "Anthropic language models (various sizes, SL and RL variants)",
-    "pluralistic_relevance": "No",
-    "availability": "Not stated",
-    "reasoning": "Introduces Constitutional AI methodology where explicit ethical principles guide AI training and evaluation, with evaluation of harmlessness and ethical behavior"
-  },
-  {
-    "filename": "2022-Bai-HH-RLHF Helpful and Harmless RLHF.md",
-    "decision": "Yes",
-    "benchmark_name": "HH-RLHF (Helpful and Harmless RLHF Dataset)",
-    "what_measures": "Helpfulness and harmlessness of language model assistants via human preference comparisons",
-    "how_measures": "Human preference comparisons between model responses; RLHF training with iterative online updates; Elo scoring and crowdworker preference evaluation",
-    "dataset_size": "~170K human preference comparisons",
-    "models_evaluated": "Anthropic language models at various scales",
-    "pluralistic_relevance": "No",
-    "availability": "Public",
-    "reasoning": "Releases a large-scale dataset of human preference comparisons for helpful and harmless AI evaluation; foundational dataset for RLHF alignment research"
-  },
-  {
-    "filename": "2022-Bai-Training a Helpful and Harmless Assistant with.md",
-    "decision": "Yes",
-    "benchmark_name": "HH-RLHF (Helpful and Harmless RLHF Dataset)",
-    "what_measures": "Helpfulness and harmlessness of language model assistants via human preference comparisons",
-    "how_measures": "Human preference comparisons between model responses; RLHF training with iterative online updates; Elo scoring and crowdworker preference evaluation",
-    "dataset_size": "~170K human preference comparisons",
-    "models_evaluated": "Anthropic language models at various scales",
-    "pluralistic_relevance": "No",
-    "availability": "Public",
-    "reasoning": "Same paper as HH-RLHF (duplicate entry with different filename); foundational RLHF dataset for alignment evaluation"
-  },
-  {
-    "filename": "2022-Bang-Enabling Classifiers to Make Judgements.md",
-    "decision": "Yes",
-    "benchmark_name": "Value-Aligned Classification Framework",
-    "what_measures": "Value-aligned classification for ethically sensitive NLP tasks (sexism/racism/toxicity detection) using explicit human value specifications",
-    "how_measures": "Value-aligned models (VA-MODELs) that take explicit human value commands as input; distillation of value-aligned knowledge from LLMs; F1-score evaluation on sexism and toxicity detection tasks",
-    "dataset_size": "Not specified (generated training data from LLMs)",
-    "models_evaluated": "OPT-175B (few-shot), fine-tuned smaller classification models",
+    "benchmark_name": "English-Odia Code-Mixed Hate Speech Dataset",
+    "what_measures": "Hate speech detection in English-Odia code-mixed social media text with three classes: hate, offensive, neither.",
+    "how_measures": "Manually collected and annotated Facebook data classified using SVM with word2vec and GloVe embeddings.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "GloVe, Word2Vec (with SVM, Naive Bayes, Random Forest)",
     "pluralistic_relevance": "Yes",
-    "availability": "Not stated",
-    "reasoning": "Proposes a framework and methodology for value-aligned classification that explicitly accounts for cultural variation in human values when evaluating ethically sensitive content"
+    "availability": "Unknown",
+    "reasoning": "Creates the first English-Odia code-mixed hate speech dataset addressing political, ethnic, and religious hate speech in Odisha."
   },
   {
-    "filename": "2022-Caron-Identifying and Manipulating the Personality.md",
-    "decision": "Exclude",
-    "reasoning": "Studies Big Five personality traits in language models (GPT-2, BERT); focuses on personality psychology rather than moral reasoning or ethical evaluation"
-  },
-  {
-    "filename": "2022-Chalkidis-FairLex.md",
-    "decision": "Exclude",
-    "reasoning": "Multilingual fairness benchmark for legal text processing; focuses on technical fairness in NLP legal applications (case outcome prediction) rather than moral reasoning or ethical evaluation of LLMs"
-  },
-  {
-    "filename": "2022-Constantinescu-Can Robotic AI Be Virtuous.md",
-    "decision": "Exclude",
-    "reasoning": "Philosophical analysis of whether AI can possess Aristotelian virtue; no empirical evaluation, benchmark, or dataset"
-  },
-  {
-    "filename": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+    "filename": "2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md",
     "decision": "Yes",
-    "benchmark_name": "Unnamed (Delphi moral philosophy probing)",
-    "what_measures": "Implicit moral principles learned by AI models (Delphi); consistency of moral reasoning with standardized morality questionnaires",
-    "how_measures": "Standardized morality questionnaires (Moral Foundations Questionnaire, Schwartz Values Survey, etc.) adapted for model input format; probing Delphi with ethical scenario inputs",
-    "dataset_size": "Set of standardized questionnaire items (not specified)",
-    "models_evaluated": "Allen AI Delphi model",
-    "pluralistic_relevance": "Partial",
-    "availability": "Not stated",
-    "reasoning": "Evaluates an AI model's implicit moral philosophy using standardized ethics questionnaires, revealing that the model mirrors annotator demographic moral principles"
-  },
-  {
-    "filename": "2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
-    "decision": "Yes",
-    "benchmark_name": "Anthropic Red Team Dataset",
-    "what_measures": "Harmful outputs of language models including offensive language, unethical outputs, and subtle harms; red teaming attack success across model sizes and types",
-    "how_measures": "Manual red teaming with human attackers trying to elicit harmful outputs; scaling analysis across 3 model sizes and 4 model types; categorization of harmful outputs",
-    "dataset_size": "38,961 red team attacks",
-    "models_evaluated": "Plain LM, prompted LM, rejection sampling LM, RLHF model (2.7B, 13B, 52B parameters)",
-    "pluralistic_relevance": "No",
+    "benchmark_name": "Online Antisemitism Detection Dataset",
+    "what_measures": "Multimodal detection of online antisemitism, including presence and category of antisemitic content.",
+    "how_measures": "Two datasets from Twitter (3,102 posts) and Gab (3,509 posts) with text and image modalities, labeled for antisemitic content and its categories.",
+    "dataset_size": "3,102 Twitter + 3,509 Gab posts",
+    "models_evaluated": "BERT, GloVe, RoBERTa",
+    "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Releases a large-scale red team attack dataset for evaluating LLM safety and harmful outputs, with systematic evaluation of ethical and harmful behavior"
+    "reasoning": "First work on automated multimodal detection of online antisemitism, creating two labeled datasets with both text and image modalities."
   },
   {
-    "filename": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
-    "decision": "Exclude",
-    "reasoning": "Theoretical paper on Ubuntu philosophy and its role in AI ethics inclusion; no empirical evaluation, benchmark, or dataset"
-  },
-  {
-    "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
-    "decision": "Exclude",
-    "reasoning": "Proposes a virtue-based framework for AI ethics practice (justice, honesty, responsibility, care); purely theoretical with no empirical evaluation or benchmark"
-  },
-  {
-    "filename": "2022-Hartvigsen-ToxiGen.md",
+    "filename": "2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.md",
     "decision": "Yes",
-    "benchmark_name": "ToxiGen",
-    "what_measures": "Implicit and explicit toxicity toward 13 minority demographic groups; model ability to generate and detect subtle hate speech",
-    "how_measures": "Machine-generated toxic and benign statements via adversarial prompting; human annotation validation; finetuning toxicity classifiers on generated data and testing on human-written data",
-    "dataset_size": "274,000 toxic and benign statements about 13 minority groups",
-    "models_evaluated": "GPT-3 (generation), multiple toxicity classifiers",
-    "pluralistic_relevance": "Partial",
+    "benchmark_name": "UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection)",
+    "what_measures": "Constructive and toxic speech detection in Vietnamese social media comments across 10 domains.",
+    "how_measures": "10,000 human-annotated Vietnamese comments evaluated with PhoBERT and Word2Vec-based models using F1 scores.",
+    "dataset_size": "10,000 comments",
+    "models_evaluated": "BERT (PhoBERT), Word2Vec",
+    "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Large-scale adversarially-generated dataset for evaluating and improving implicit hate speech detection toward minority groups, with ethical content evaluation"
+    "reasoning": "Introduces UIT-ViCTSD, a Vietnamese dataset that uniquely distinguishes constructive from toxic speech across multiple domains."
   },
   {
-    "filename": "2022-Hendrycks-What Would Jiminy Cricket Do.md",
+    "filename": "2021-Nurce-Detecting Abusive Albanian.md",
     "decision": "Yes",
-    "benchmark_name": "Jiminy Cricket",
-    "what_measures": "Moral behavior of AI agents in semantically rich environments; whether agents can act morally while maximizing task reward",
-    "how_measures": "25 text-based adventure games with fully annotated moral salience for every game state; immorality metric alongside task completion; artificial conscience approach using commonsense moral knowledge models",
-    "dataset_size": "25 text-based adventure games with thousands of morally salient scenarios",
-    "models_evaluated": "RL agents with commonsense moral knowledge models (ETHICS dataset-based)",
-    "pluralistic_relevance": "No",
+    "benchmark_name": "SHAJ (Spoken Hate in the Albanian Jargon)",
+    "what_measures": "Offensive language and hate speech detection in Albanian social media using hierarchical OffensEval annotation schema (offensive/targeted/target-type).",
+    "how_measures": "11,874 user-generated comments from Instagram and YouTube annotated at three hierarchical levels, benchmarked with mBERT, BiLSTM, and logistic regression.",
+    "dataset_size": "11,874 comments",
+    "models_evaluated": "mBERT, BiLSTM, Logistic Regression",
+    "pluralistic_relevance": "Yes",
     "availability": "Public",
-    "reasoning": "Creates an environment suite specifically designed to evaluate moral behavior of AI agents in complex, semantically rich scenarios with comprehensive moral annotations"
+    "reasoning": "Introduces SHAJ, the first Albanian hate speech and offensive language dataset with hierarchical annotation, publicly available on Figshare."
   },
   {
-    "filename": "2022-Hendrycks-X-Risk Analysis for AI Research.md",
+    "filename": "2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md",
     "decision": "Exclude",
-    "reasoning": "Provides a framework for analyzing existential risks from AI using hazard analysis concepts; theoretical safety analysis paper without specific evaluation instruments or benchmarks"
+    "reasoning": "Presents a pretrained Thai language model (WangchanBERTa) and evaluates it on existing downstream tasks, but does not introduce a new ethics-related benchmark or dataset."
+  },
+  {
+    "filename": "2021-Park-KLUE Korean Language Understanding Evaluation.md",
+    "decision": "Yes",
+    "benchmark_name": "KLUE (Korean Language Understanding Evaluation)",
+    "what_measures": "Korean NLU across 8 tasks: Topic Classification, STS, NLI, NER, Relation Extraction, Dependency Parsing, MRC, Dialogue State Tracking.",
+    "how_measures": "All tasks built from scratch with diverse source corpora, proactively removing social biases, toxic content, and PII during curation.",
+    "dataset_size": "8 task-specific datasets",
+    "models_evaluated": "ALBERT, BERT, DeBERTa, ELECTRA, ELMo, GPT-2, GPT-3, RoBERTa, XLNet",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces a comprehensive Korean NLU benchmark notable for its ethical data curation practices that explicitly address social biases and toxic content."
+  },
+  {
+    "filename": "2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md",
+    "decision": "Yes",
+    "benchmark_name": "Greek Multimodal Hate Speech Dataset",
+    "what_measures": "Multimodal hate speech detection targeting xenophobic and racist speech against refugees and migrants in Greek social media.",
+    "how_measures": "4,004 Greek memes annotated for hate speech plus a tweet classification dataset, using BERT for text and ResNet for images.",
+    "dataset_size": "4,004 memes + tweet dataset",
+    "models_evaluated": "BERT, ResNet",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Creates a new multimodal dataset of Greek memes and tweets specifically targeting xenophobic and racist hate speech against refugees."
+  },
+  {
+    "filename": "2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md",
+    "decision": "Yes",
+    "benchmark_name": "OffendES",
+    "what_measures": "Offensive language in Spanish social media across platforms (Twitter, Instagram, YouTube) with fine-grained categories: OFP, OFG, NOE, NO.",
+    "how_measures": "47,128 manually labeled Spanish comments from young influencer contexts annotated into four offensive language categories.",
+    "dataset_size": "47,128 comments",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces OffendES, a large-scale Spanish offensive language corpus with fine-grained annotation across multiple social media platforms, available on HuggingFace."
+  },
+  {
+    "filename": "2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md",
+    "decision": "Yes",
+    "benchmark_name": "MeOffendEs (IberLEF 2021 Shared Task)",
+    "what_measures": "Offensive language detection in Spanish variants, distinguishing generic Spanish from Mexican Spanish.",
+    "how_measures": "Shared task with 30,416 published posts across four subtasks including generic and Mexican Spanish-specific identification, evaluated by 12 participating teams.",
+    "dataset_size": "30,416 posts",
+    "models_evaluated": "BERT, RoBERTa, GloVe, word2vec",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces the MeOffendEs shared task establishing a benchmark for offensive language detection across Spanish variants including dialectal variation."
+  },
+  {
+    "filename": "2021-Pretrained-Research on Uyghur\u2010Chinese Neural Machine Translation Based on the.md",
+    "decision": "Exclude",
+    "reasoning": "A machine translation methodology paper for Uyghur-Chinese that proposes multistrategy segmentation granularity; does not introduce an ethics-related benchmark or dataset."
+  },
+  {
+    "filename": "2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md",
+    "decision": "Yes",
+    "benchmark_name": "RuEthnoHate (Russian Ethnicity-Targeted Hate Speech Dataset)",
+    "what_measures": "Ethnicity-targeted hate speech in Russian social media, differentiating attitudes towards different ethnic groups.",
+    "how_measures": "5,500 annotated texts constructed from 2.6M user messages mentioning ethnic groups, with 12K annotated instances.",
+    "dataset_size": "5,500 texts (12,000 annotated instances from 2.6M messages)",
+    "models_evaluated": "Not stated (traditional ML classifiers)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates the first dataset annotated for ethnicity-targeted hate speech in Russian, with code available on GitHub."
+  },
+  {
+    "filename": "2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md",
+    "decision": "Yes",
+    "benchmark_name": "DOSA (Dravidian Offensive Span Identification Dataset)",
+    "what_measures": "Offensive span identification in Tamil-English and Kannada-English code-mixed text from YouTube comments.",
+    "how_measures": "Span-level annotations on existing offensive language datasets for Tamil-English (4,786 comments, 6,202 spans) and Kannada-English (1,097 comments, 1,641 spans).",
+    "dataset_size": "4,786 Tamil-English + 1,097 Kannada-English comments",
+    "models_evaluated": "BERT, DistilBERT, RoBERTa",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces DOSA with fine-grained offensive span annotations for Dravidian code-mixed text, enabling explainable hate speech detection research."
+  },
+  {
+    "filename": "2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md",
+    "decision": "Yes",
+    "benchmark_name": "GermEval 2021",
+    "what_measures": "Identification of toxic, engaging, and fact-claiming comments in German Facebook posts.",
+    "how_measures": "Three binary classification subtasks evaluated by participating teams using BERT-based models on German Facebook comments.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces the GermEval 2021 shared task extending German hate speech benchmarks to include toxicity, engagement, and fact-claiming dimensions."
+  },
+  {
+    "filename": "2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md",
+    "decision": "Exclude",
+    "reasoning": "A participating system submission to the DravidianLangTech shared task; uses existing benchmark datasets rather than creating new ones."
+  },
+  {
+    "filename": "2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md",
+    "decision": "Yes",
+    "benchmark_name": "Itihasa",
+    "what_measures": "Sanskrit-to-English translation quality using parallel text from the Ramayana and Mahabharata Hindu epics.",
+    "how_measures": "93,030 parallel Sanskrit-English shloka-translation pairs benchmarked with Moses SMT and Transformer NMT, achieving only 7-8 BLEU points.",
+    "dataset_size": "93,030 parallel sentence pairs",
+    "models_evaluated": "Moses SMT, Transformer NMT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates a large-scale Sanskrit translation benchmark from Hindu epics, directly relevant to cultural and religious text NLP."
+  },
+  {
+    "filename": "2021-Sun-LaoPLM Pre-trained Language Models for Lao.md",
+    "decision": "Yes",
+    "benchmark_name": "LaoPLM + Lao Text Classification Dataset",
+    "what_measures": "NLP capabilities for Lao language including POS tagging and text classification.",
+    "how_measures": "First transformer-based pretrained models for Lao (BERT/ELECTRA variants) evaluated on POS tagging and a new text classification dataset of 2,968 Lao news articles.",
+    "dataset_size": "2,968 news articles (8 categories)",
+    "models_evaluated": "BERT-Small, BERT-Base, ELECTRA-Small, ELECTRA-Base",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces the first pretrained language models and evaluation datasets for Lao, a critically underresourced language."
+  },
+  {
+    "filename": "2021-Taul\u00e9-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md",
+    "decision": "Yes",
+    "benchmark_name": "DETOXIS (NewsCom-TOX dataset)",
+    "what_measures": "Toxicity detection in Spanish news comments related to immigration, with binary toxicity detection and toxicity level detection subtasks.",
+    "how_measures": "Shared task using NewsCom-TOX dataset of 4,359 Spanish comments with two subtasks evaluated by participating systems.",
+    "dataset_size": "4,359 Spanish comments",
+    "models_evaluated": "BERT, GloVe",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces the DETOXIS shared task with NewsCom-TOX dataset, the first Spanish-specific toxicity detection task focused on xenophobia and immigration-related toxic speech."
+  },
+  {
+    "filename": "2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl.md",
+    "decision": "Yes",
+    "benchmark_name": "IMSyPP-sl (Slovenian Twitter Hate Speech Dataset)",
+    "what_measures": "Hate speech types (offensive/violent) and targets in Slovenian Twitter data.",
+    "how_measures": "Hand-labeled dataset of 50,000 training tweets and 10,000 evaluation tweets annotated for hate speech categories.",
+    "dataset_size": "60,000 tweets (50K train + 10K eval)",
+    "models_evaluated": "Not stated",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates a large-scale hand-labeled Slovenian hate speech dataset as part of the IMSyPP EU project, publicly available through CLARIN."
+  },
+  {
+    "filename": "2021-Wuerzburg-German HateSpeech Corpus.md",
+    "decision": "Yes",
+    "benchmark_name": "GMHP7k (German Misogynistic Hatespeech Posts)",
+    "what_measures": "General hate speech and misogynistic hate speech in German social media posts.",
+    "how_measures": "7,061 posts annotated by six volunteers for both general hate speech (Kappa 0.6409) and misogynistic hate speech (Kappa 0.8258), with BERT baselines.",
+    "dataset_size": "7,061 posts",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates the first publicly available German corpus specifically targeting misogynistic hate speech alongside general hate speech detection."
+  },
+  {
+    "filename": "2021-Zou-Persistent Anti-Muslim Bias in Large Language.md",
+    "decision": "Exclude",
+    "reasoning": "Demonstrates anti-Muslim bias in GPT-3 through systematic experiments but does not release a reusable benchmark dataset or evaluation framework."
+  },
+  {
+    "filename": "2021-collaborators-Optimisation of the Largest Annotated Tibetan.md",
+    "decision": "Exclude",
+    "reasoning": "Presents ACTib v2.0, a Tibetan linguistic corpus with POS tagging, which is a language resource rather than an AI ethics-related benchmark or evaluation dataset."
+  },
+  {
+    "filename": "2022-Abbasi-Deep Learning for Religious and Continent-Based.md",
+    "decision": "Yes",
+    "benchmark_name": "RTC (Religious Toxic Comments) Dataset",
+    "what_measures": "Multilabel toxic comment classification targeting religious groups, addressing the problem where nontoxic comments containing religious identity descriptors received unrealistically high toxicity ratings.",
+    "how_measures": "Large-scale dataset of 448,000 rows including 42,906 hazardous religious remarks, evaluated with deep learning algorithms for multilabel classification.",
+    "dataset_size": "448,000 rows (42,906 hazardous religious remarks)",
+    "models_evaluated": "GloVe, Word2Vec (with DL models)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Creates a large-scale Religious Toxic Comments dataset specifically addressing the bias where religious identity terms trigger false-positive toxicity ratings."
+  },
+  {
+    "filename": "2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.md",
+    "decision": "Yes",
+    "benchmark_name": "MAHADDAT",
+    "what_measures": "Detection of fabricated (Mawdu) Hadith using textual content (Matn) analysis rather than narrator chain (Sanad) analysis.",
+    "how_measures": "First dedicated dataset for fabricated Hadith detection with BERT-based system achieving 92.47% F1 score.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERT, GPT-3, RoBERTa, XLNet",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates MAHADDAT, the first dataset dedicated to fabricated Hadith detection, a foundational resource for Islamic text verification using NLP."
+  },
+  {
+    "filename": "2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md",
+    "decision": "Yes",
+    "benchmark_name": "Pars-OFF",
+    "what_measures": "Offensive language detection in Farsi social media with three-layered annotation.",
+    "how_measures": "10,563 Farsi data samples annotated using similarity-based and keyword-based selection, evaluated with BERT+fastText achieving F1-Macro of 89.57.",
+    "dataset_size": "10,563 samples",
+    "models_evaluated": "BERT+fastText and other ML classifiers",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces Pars-OFF, a benchmark specifically designed for Persian/Farsi offensive language detection on social media."
+  },
+  {
+    "filename": "2022-Atwell-Challenging the Transformer-based Models with a.md",
+    "decision": "Yes",
+    "benchmark_name": "Quran-Hadith Relatedness Dataset",
+    "what_measures": "Semantic relatedness between Quran verses and Hadith teachings in Classical Arabic.",
+    "how_measures": "310 Quran-Hadith pairs and 4,072 Quran-verse pairs (balanced related/non-related), verified by religious experts, tested with monolingual, bilingual, and multilingual transformers.",
+    "dataset_size": "310 Quran-Hadith pairs + 4,072 Quran-verse pairs",
+    "models_evaluated": "Monolingual, bilingual, and multilingual transformer models",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates an expert-verified dataset for evaluating transformer models on understanding relationships between Islamic religious texts."
+  },
+  {
+    "filename": "2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md",
+    "decision": "Yes",
+    "benchmark_name": "Turkish Hate Speech Dataset",
+    "what_measures": "Hate speech detection in Turkish tweets on culturally specific topics (Istanbul Convention withdrawal and Refugees).",
+    "how_measures": "Annotated tweets from two domains evaluated with BERTurk-based detection achieving 77% and 71% accuracy respectively.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERTurk (BERT)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Creates a Turkish hate speech dataset addressing culturally specific topics unique to Turkish social and political context."
+  },
+  {
+    "filename": "2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md",
+    "decision": "Yes",
+    "benchmark_name": "BLUB (Bangla Language Understanding Benchmark)",
+    "what_measures": "Bangla NLU across four tasks: text classification, sequence labeling, span prediction, and question answering.",
+    "how_measures": "Benchmark built with new downstream task datasets (NLI and QA) plus existing tasks, evaluated with BanglaBERT pretrained on 27.5GB Bangla data.",
+    "dataset_size": "Multiple task datasets; 27.5GB pretraining corpus",
+    "models_evaluated": "BanglaBERT (BERT)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces BLUB, the first Bangla Language Understanding Benchmark with new downstream task datasets for Bengali NLU evaluation."
+  },
+  {
+    "filename": "2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md",
+    "decision": "Yes",
+    "benchmark_name": "NaijaSenti",
+    "what_measures": "Sentiment analysis in four Nigerian languages: Hausa, Igbo, Nigerian-Pidgin, and Yoruba.",
+    "how_measures": "~30,000 human-annotated tweets per language including code-mixed tweets, with sentiment lexicons for Hausa, Igbo, and Yoruba.",
+    "dataset_size": "~120,000 tweets (30K per language x 4 languages)",
+    "models_evaluated": "BERT, DeBERTa-v3",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates the first large-scale sentiment dataset for four major Nigerian languages with native-speaker annotated lexicons capturing culturally-specific sentiment."
+  },
+  {
+    "filename": "2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md",
+    "decision": "Yes",
+    "benchmark_name": "DravidianCodeMix",
+    "what_measures": "Sentiment analysis and offensive language identification in code-mixed Dravidian languages (Tamil-English, Kannada-English, Malayalam-English).",
+    "how_measures": "60,000+ manually annotated YouTube comments across three code-mixed language pairs, serving as foundation for multiple shared tasks.",
+    "dataset_size": "60,000+ comments (~44K Tamil, ~20K Malayalam, ~7K Kannada)",
+    "models_evaluated": "Logistic regression, Naive Bayes, SVM, Decision Tree, Random Forest",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces a large-scale manually annotated dataset for sentiment and offensive language in three Dravidian code-mixed languages, underpinning multiple shared tasks."
+  },
+  {
+    "filename": "2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md",
+    "decision": "Yes",
+    "benchmark_name": "HeBERT / HebEMO / HebrewSentiment",
+    "what_measures": "Hebrew sentiment polarity (positive/negative/neutral) and 8 emotion categories in user-generated content.",
+    "how_measures": "~2,000 annotated COVID-related Hebrew user comments from Israeli news sites, with HeBERT achieving F1-score 0.96 for polarity.",
+    "dataset_size": "~2,000 annotated comments",
+    "models_evaluated": "HeBERT (BERT)",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces Hebrew BERT with sentiment and emotion recognition tools and a new annotated Hebrew sentiment dataset from Israeli news comments."
+  },
+  {
+    "filename": "2022-Compostela-Proxecto N\u00f3s Artificial Intelligence at the Service of the Galician.md",
+    "decision": "Exclude",
+    "reasoning": "Describes a Galician NLP resource initiative (Proxecto Nos) covering multiple tools but does not introduce a specific ethics-related benchmark or evaluation dataset."
+  },
+  {
+    "filename": "2022-Das-Hate Speech and Offensive Language Detection.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes a deep ensemble framework for hate speech detection in Dravidian languages but uses existing datasets rather than creating new benchmarks."
+  },
+  {
+    "filename": "2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md",
+    "decision": "Yes",
+    "benchmark_name": "HateCheckHIn",
+    "what_measures": "Functional evaluation of Hindi hate speech detection models, extending the English HateCheck framework to Hindi.",
+    "how_measures": "Functional test suite adapted for Hindi that systematically tests model capabilities across different hate speech categories and challenging edge cases.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Extends the HateCheck functional testing framework to Hindi, creating a systematic evaluation suite for Hindi hate speech detection models."
+  },
+  {
+    "filename": "2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md",
+    "decision": "Yes",
+    "benchmark_name": "RUSSE Detox 2022",
+    "what_measures": "Russian text detoxification: rewriting toxic text into neutral text while preserving content.",
+    "how_measures": "First shared task with parallel corpus of 6,948 toxic sentences and manually written non-toxic paraphrases from Russian social media, with manual final evaluation.",
+    "dataset_size": "6,948 training sentences",
+    "models_evaluated": "BERT, RoBERTa, T5",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Establishes the first Russian text detoxification shared task with a parallel corpus of toxic/non-toxic Russian text pairs."
+  },
+  {
+    "filename": "2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and.md",
+    "decision": "Yes",
+    "benchmark_name": "DeTox",
+    "what_measures": "German offensive language across 12 annotation categories including toxicity, criminal relevance, threat, and discrimination types (age, gender, ethnicity, religion, sexual orientation).",
+    "how_measures": "10,278 annotated German social media comments with 12 categories by 6 annotators; ~half from coherent conversations enabling contagion analysis.",
+    "dataset_size": "10,278 comments",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces DeTox, a comprehensive German offensive language dataset with uniquely broad 12-category annotation including discrimination types and criminal relevance."
+  },
+  {
+    "filename": "2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces a multilingual pretrained language model for 23 African languages but primarily evaluates on existing benchmarks (MasakhaNER) rather than creating new ethics-related datasets."
+  },
+  {
+    "filename": "2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md",
+    "decision": "Exclude",
+    "reasoning": "Qualitative comparative analysis of hate speech patterns in Kurdish and English using Bahador's scale; no dataset is released and no computational models are tested."
+  },
+  {
+    "filename": "2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md",
+    "decision": "Yes",
+    "benchmark_name": "YouTube Religious Hate Speech Dataset",
+    "what_measures": "Religious hate speech detection from YouTube comments on religious videos.",
+    "how_measures": "Novel dataset from YouTube comments with data mining techniques for filtering religion-oriented messages, evaluated with SVM, Logistic Regression, and k-NN baselines.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "SVM, Logistic Regression, k-NN",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Creates a novel dataset specifically for religious hate speech detection from YouTube, addressing the understudied intersection of religious extremism and social media."
+  },
+  {
+    "filename": "2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md",
+    "decision": "Exclude",
+    "reasoning": "A fine-tuned model card for Kannada abusive speech detection on HuggingFace; uses existing datasets rather than introducing a new benchmark."
+  },
+  {
+    "filename": "2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md",
+    "decision": "Yes",
+    "benchmark_name": "CrisisHateMM",
+    "what_measures": "Multimodal hate speech detection during the Russia-Ukraine conflict, analyzing directed and undirected hate in text-embedded images.",
+    "how_measures": "5,680 text-image pairs from Twitter annotated for hate speech categories including propaganda analysis.",
+    "dataset_size": "5,680 text-image pairs",
+    "models_evaluated": "BERT, GloVe, RoBERTa, Word2Vec",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates CrisisHateMM, a multimodal hate speech dataset in the context of the Russia-Ukraine conflict for studying wartime hate speech propagation."
+  },
+  {
+    "filename": "2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md",
+    "decision": "Yes",
+    "benchmark_name": "Finnish Hate Speech Dataset (Suomi24)",
+    "what_measures": "Hate speech detection in Finnish social media (Suomi24 forum).",
+    "how_measures": "10,700 sentences from Suomi24 with 16.7% labeled as hate speech, evaluated with FinBERT achieving 91.7% accuracy and 90.8% F1.",
+    "dataset_size": "10,700 sentences",
+    "models_evaluated": "FinBERT, multilingual-BERT, CNN",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Constructs a Finnish hate speech dataset from the Suomi24 forum and establishes FinBERT baselines for Finnish hate speech detection."
+  },
+  {
+    "filename": "2022-Jeong-KOLD Korean Offensive Language Dataset.md",
+    "decision": "Yes",
+    "benchmark_name": "KOLD (Korean Offensive Language Dataset)",
+    "what_measures": "Korean offensive language with hierarchical annotation of type and target, using 21 target group labels tailored to Korean culture.",
+    "how_measures": "40,429 comments from NAVER news and YouTube with hierarchical annotation and Korean-specific target groups (Feminist, LGBTQ+, Women as most targeted).",
+    "dataset_size": "40,429 comments",
+    "models_evaluated": "BERT, RoBERTa",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates KOLD with 21 Korean-culture-specific target groups for offensive language, reflecting Korean social dynamics in hate speech targeting."
+  },
+  {
+    "filename": "2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md",
+    "decision": "Yes",
+    "benchmark_name": "L3Cube-MahaNLP (MahaCorpus, MahaSent, MahaNER, MahaHate, MahaBERT, MahaGPT)",
+    "what_measures": "Marathi NLP across sentiment analysis, NER, and hate speech detection tasks.",
+    "how_measures": "Suite of Marathi datasets and models including MahaHate for hate speech detection and MahaSent for sentiment analysis, with MahaBERT/MahaGPT models.",
+    "dataset_size": "Multiple datasets (not stated individually)",
+    "models_evaluated": "ALBERT, BERT (MahaBERT), RoBERTa, MahaGPT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Introduces a comprehensive Marathi NLP ecosystem including hate speech (MahaHate) and sentiment (MahaSent) datasets for the third most spoken Indian language."
+  },
+  {
+    "filename": "2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md",
+    "decision": "Exclude",
+    "reasoning": "A workshop proceedings overview for Celtic language NLP resources; does not introduce a specific ethics-related benchmark or dataset."
+  },
+  {
+    "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "decision": "Yes",
+    "benchmark_name": "Bhagavad Gita Sentiment Dataset",
+    "what_measures": "Verse-by-verse sentiment analysis of Bhagavad Gita translations, examining how sentiment varies across different English translations of the Hindu scripture.",
+    "how_measures": "Hand-labeled sentiment dataset for multiple Bhagavad Gita translations analyzed with BERT for verse-by-verse sentiment classification.",
+    "dataset_size": "700 verses (multiple translations)",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates a hand-labeled sentiment dataset for the Bhagavad Gita, a foundational Hindu text, enabling NLP analysis of religious scripture sentiment."
+  },
+  {
+    "filename": "2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces a French medical QA dataset from pharmacy exams; relevant to medical NLP but not specifically an AI ethics benchmark or evaluation dataset."
+  },
+  {
+    "filename": "2022-Launay-PAGnol An Extra-Large French Generative Model.md",
+    "decision": "Exclude",
+    "reasoning": "Presents French GPT models and evaluates them on existing benchmarks (FLUE, FQuAD, OrangeSum); the finding about OSCAR dataset toxicity is a side contribution rather than the primary benchmark creation."
+  },
+  {
+    "filename": "2022-Litvak-Offensive language detection in Hebrew can other languages help.md",
+    "decision": "Yes",
+    "benchmark_name": "Hebrew Facebook Offensive Language Dataset",
+    "what_measures": "Cross-lingual offensive language detection across Semitic languages (Hebrew and Arabic), with a new annotated Hebrew Facebook dataset.",
+    "how_measures": "New annotated Hebrew Facebook comments dataset evaluated with supervised models and cross-lingual transfer learning approaches.",
+    "dataset_size": "Not stated",
+    "models_evaluated": "BERT",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces a new annotated Hebrew Facebook offensive language dataset and evaluates cross-lingual transfer from Arabic, exploring Semitic language family dynamics."
+  },
+  {
+    "filename": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical paper arguing for Ubuntu philosophy in AI ethics discourse; does not introduce a benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md",
+    "decision": "Exclude",
+    "reasoning": "Introduces BERTu for Maltese and evaluates on existing downstream tasks; primarily a model contribution rather than an ethics-related benchmark."
+  },
+  {
+    "filename": "2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators.md",
+    "decision": "Yes",
+    "benchmark_name": "Sanadset 650K",
+    "what_measures": "Hadith narrator chain (Sanad) evaluation for authentication (Strong/Weak classification) and narrator trustworthiness assessment.",
+    "how_measures": "Large-scale dataset of 650,986 records extracted from 926 historical Arabic books enabling automated Sanad evaluation.",
+    "dataset_size": "650,986 records from 926 books",
+    "models_evaluated": "Not stated",
+    "pluralistic_relevance": "Yes",
+    "availability": "Public",
+    "reasoning": "Creates a large-scale Islamic religious text dataset for automated Hadith authentication, a foundational resource for Islamic NLP and religious text verification."
+  },
+  {
+    "filename": "2022-Network-How can NLP Help Revitalize Endangered Languages.md",
+    "decision": "Exclude",
+    "reasoning": "Discussion paper on NLP for endangered language revitalization using Cherokee as a case study; does not introduce a specific ethics benchmark or evaluation dataset."
+  },
+  {
+    "filename": "2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md",
+    "decision": "Yes",
+    "benchmark_name": "SMTCE (Social Media Text Classification Evaluation)",
+    "what_measures": "Vietnamese social media text classification across four tasks: constructive speech detection, complaint detection, emotion recognition, and hate speech detection.",
+    "how_measures": "GLUE-inspired benchmark with four evaluation tasks for Vietnamese social media, tested with PhoBERT and other BERTology models.",
+    "dataset_size": "Multiple task-specific datasets",
+    "models_evaluated": "BERT (PhoBERT), ELECTRA, RoBERTa",
+    "pluralistic_relevance": "Yes",
+    "availability": "Unknown",
+    "reasoning": "Introduces SMTCE, a Vietnamese social media benchmark inspired by GLUE that includes hate speech detection and emotion recognition tasks relevant to toxicity evaluation."
   }
 ]

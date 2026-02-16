@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2023-Yao-Value FULCRA|Value FULCRA]]
 
 ## Notes
 
 
+
+
+- *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
+- *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
 - *From 2023-Yao-Value FULCRA*: Affiliation: School of Artificial Intelligence, Renmin University of China, Beijing, China, Email: xitingwang@ruc.edu.cn
 [Additional context or contact information]

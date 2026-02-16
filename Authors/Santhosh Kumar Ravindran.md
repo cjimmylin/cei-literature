@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and|Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and*:, Email: saravi@microsoft.com
+- *From 2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and*:, Email: saravi@microsoft.com
 - *From 2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and*:, Email: saravi@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

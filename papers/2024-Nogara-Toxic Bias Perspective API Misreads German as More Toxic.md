@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Toxic Bias: Perspective API Misreads German as More Toxic"
 year: 2025
 first_author: "[[Gianluca Nogara]]"
-last_author: "[[Silvia Giordano]]"
+last_author: "[[Silvia Giordano Petter Tornberg]]"
 authors: "Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Petter Tornberg, Silvia Giordano"
 url: "https://arxiv.org/abs/2312.12651"
 external_pdf: "https://arxiv.org/pdf/2312.12651.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: "English, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Petter Tornberg, Silvia Giordano]]
+[[Francesco Pierri Gianluca Nogara]], [[Luca Luceri Stefano Cresci]], [[Silvia Giordano Petter Tornberg]]
 
 ## Metadata
 

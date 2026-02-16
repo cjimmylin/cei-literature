@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases"
 year: 2025
 first_author: "[[D. Das]]"
-last_author: [[B.]]
+last_author: "[[B. Semaan]]"
 authors: "Das, D., Guha, S., Brubaker, J., Semaan, B."
 doi: 10.1145/3613904.3642669
 url: "https://arxiv.org/abs/2401.10535"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bengali"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Das, D., Guha, S., Brubaker, J., Semaan, B.]]
+[[Dipanjan Das|D. Das]], [[S. Guha]], [[J. Brubaker]], [[B. Semaan]]
 
 ## Metadata
 

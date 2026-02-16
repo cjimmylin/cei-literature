@@ -50,6 +50,8 @@ Park has won several major awards, including the ACL Best Paper Award. Her co-au
 ## Papers in this Vault
 
 
+
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2023-Feng-From Pretraining Data to Language Models to|From Pretraining Data to Language Models to]]
 
@@ -61,5 +63,9 @@ Park has won several major awards, including the ACL Best Paper Award. Her co-au
 
 ## Notes
 
+
+
+- *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
+- *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: lyh6560@stu.xjtu.edu.cn
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
 Chan Young's transition to a tenure-track position at UT Austin marks her as a rising leader in the "Ethical AI" community, specifically in the domain of social-aware NLP.

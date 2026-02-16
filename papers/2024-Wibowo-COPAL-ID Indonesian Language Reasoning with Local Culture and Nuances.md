@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Haryo Akbarianto Wibowo]], [[Erland Hilman Fuadi]], [[Made Nindyatama Nityasya]], [[Radityo Eko Prasojo]], [[Alham Fikri Aji]]
+[[Wibowo, Haryo Akbarianto]], [[Fuadi, Erland Hilman]], [[Nityasya, Made Nindyatama]], [[Prasojo, Radityo Eko]], [[Alham Fikri Aji|Aji, Alham Fikri]]
 
 ## Metadata
 

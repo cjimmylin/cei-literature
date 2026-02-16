@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps|A Comparative Analysis of Ethical and Safety Gaps]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
+- *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 [Additional context or contact information]

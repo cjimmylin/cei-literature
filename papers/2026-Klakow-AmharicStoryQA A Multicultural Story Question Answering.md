@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "AmharicStoryQA A Multicultural Story Question Answering"
 year: 2025
 first_author: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"
-last_author: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"
+last_author: "[[Dietrich Klakow]]"
 authors: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.02774"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
+cultures_nationalities_list: "African/Ubuntu, Ethiopian, Multicultural/Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]
+[[Israel Abebe Azime]], [[Abenezer Kebede Angamo]], [[Hana Mekonen Tamiru]], [[Dagnachew Mekonnen Marilign]], [[Philipp Slusallek]], [[Seid Muhie Yimam]], [[Dietrich Klakow]]
 
 ## Metadata
 

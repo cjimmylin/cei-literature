@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: conference_paper
 short_title: "Divine LLaMAs Bias Stereotypes Stigmatization and"
 year: 2025
 first_author: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
-last_author: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
+last_author: "[[Dirk Hovy Fer-Jan de Vries]]"
 authors: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.06908"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "Islam, Buddhism, Judaism, Hinduism"
 religious_values_list: "Islam, Buddhism, Judaism, Hinduism"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]
+[[Simone Tedeschi Flor Miriam Plaza-del-Arco]], [[Dirk Hovy Fer-Jan de Vries]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -42,7 +44,7 @@ DATA_URL: "https://github.com/01-ai/Yi"
 
 ## Authors
 
-[[Chuang Liu]], [[Linhao Yu]], [[Jiaxuan Li]], [[Renren Jin]], [[Yufei Huang]], [[Ling Shi]], [[Junhui Zhang]], [[Xinmeng Ji]], [[Tingting Cui]], [[Tianming Liu|Tao Liu]], [[Jinwang Song]], [[Hongying Zan]], [[Sun Li]], [[Deyi Xiong]]
+[[Chuang Liu]], [[Linhao Yu]], [[Jiaxuan Li]], [[Renren Jin]], [[Yufei Huang]], [[Ling Shi]], [[Junhui Zhang]], [[Xinmeng Ji]], [[Tingting Cui]], [[Tao Liu]], [[Jinwang Song]], [[Hongying Zan]], [[Sun Li]], [[Deyi Xiong]]
 
 ## Metadata
 

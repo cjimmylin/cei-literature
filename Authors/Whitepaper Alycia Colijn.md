@@ -1,6 +1,6 @@
 ---
 name: "Whitepaper Alycia Colijn"
-affiliation: "University/Organization"
+affiliation: "lable, undermining"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -18,8 +18,14 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons|Technical Risks of (Lethal) Autonomous Weapons]] (First Author)
 
 ## Notes
 
+
+
+- *From 2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons*: Affiliation: lable, undermining, Email: alycia@encodejustice.nl
+- *From 2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons*: Affiliation: lable, undermining, Email: alycia@encodejustice.nl
 [Additional context or contact information]

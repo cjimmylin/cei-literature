@@ -21,10 +21,16 @@ Ahmed Ruby is a researcher contributing to multilingual and multicultural AI eva
 ## Papers in this Vault
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Notes
 
 
+
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 Part of the international research team that developed Kaleidoscope, which contains 20,911 multiple-choice questions designed to evaluate VLMs on culturally authentic content rather than translated English datasets.

@@ -46,7 +46,10 @@ As a leader in the Sber AI research team, she has driven the state-of-the-art in
 
 ## Papers in this Vault
 
+
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]] (First Author)
+- [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]
 
 ## External Links & Profiles
 
@@ -61,5 +64,9 @@ As a leader in the Sber AI research team, she has driven the state-of-the-art in
 
 ## Notes
 
+
+
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 [Alena is the primary lead for Russian-language AI evaluation and benchmarking.]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "PL-Guard: Benchmarking Language Model Safety for Polish"
 year: 2025
 first_author: "[[Aleksandra Krasnodebska]]"
-last_author: "[[Wojciech Kusa]]"
+last_author: "[[Wojciech Kusa Szymon Lukasik]]"
 authors: "Aleksandra Krasnodebska, Karolina Seweryn, Szymon Lukasik, Wojciech Kusa"
 url: "https://arxiv.org/abs/2506.16322"
 external_pdf: "https://arxiv.org/pdf/2506.16322.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Polish"
 languages_list: Polish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Aleksandra Krasnodebska, Karolina Seweryn, Szymon Lukasik, Wojciech Kusa]]
+[[Karolina Seweryn Aleksandra Krasnodebska]], [[Wojciech Kusa Szymon Lukasik]]
 
 ## Metadata
 

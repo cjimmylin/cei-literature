@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: conferencePaper
 short_title: "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?"
 year: 2025
 first_author: "[[Xu, Shaoyang]]"
-last_author: "[[Xu, Shaoyang]]"
-authors: "[[Xu, Shaoyang]]"
-authors_incomplete: true
+last_author: "[[Xiong, Deyi]]"
+authors: "[[Xu, Shaoyang]]; [[Dong, Weilong]]; [[Guo, Zishan]]; [[Wu, Xinwei]]; [[Xiong, Deyi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2402.18120"
 external_pdf: "https://arxiv.org/pdf/2402.18120.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Spanish, Russian, Brazilian"
+cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Spanish, Russian, Brazilian"
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Indonesian, Japanese, Korean, Portuguese, Russian, Spanish, Swahili, Thai, Turkish, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Shaoyang Xu, et al.]]
+[[Xu, Shaoyang]], [[Weilong Dong|Dong, Weilong]], [[Zishan Guo|Guo, Zishan]], [[Xinwei Wu|Wu, Xinwei]], [[Deyi Xiong|Xiong, Deyi]]
 
 ## Metadata
 
-**Authors:** Shaoyang Xu, et al.
+**Authors:** Xu, Shaoyang; Dong, Weilong; Guo, Zishan; Wu, Xinwei; Xiong, Deyi
 
 **Year:** 2024
 

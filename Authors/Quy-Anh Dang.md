@@ -1,9 +1,9 @@
 ---
 name: "Quy-Anh Dang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science, Vietnam"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "thy@uab.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Dang-RedBench|RedBench]] (First Author)]]
+
 
 - [[2026-Dang-RedBench|RedBench]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu
+- *From 2026-Dang-RedBench*: Affiliation: University of Science, Vietnam, Email: thy@uab.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

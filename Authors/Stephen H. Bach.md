@@ -1,7 +1,7 @@
 ---
 name: "Stephen H. Bach"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science, Brown University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research From Measuring the]]
+
+- [[2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages|Preference Tuning For Toxicity Mitigation Generalizes Across Languages]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University
+- *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

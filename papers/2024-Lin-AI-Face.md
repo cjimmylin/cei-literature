@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"
 url: "https://arxiv.org/abs/2406.00783"
 external_pdf: "https://arxiv.org/pdf/2406.00783.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Lin-AI-Face.md"
 abstract: "AI-generated faces have enriched human life, such as entertainment, education, and art. However, they also pose misuse risks. Therefore, detecting AI-generated faces becomes crucial, yet current detectors show biased performance across different demographic groups. Mitigating biases can be done by designing algorithmic fairness methods, which usually require demographically annotated face datasets for model training."
 paper_summary: "Abstract: AI-generated faces have enriched human life, such as en- tertainment, education, and art. However, they also pose misuse risks. Therefore, detecting AI-generated faces be- comes crucial, yet current d | Overview: AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark* Li Lin1, Santosh1, Mingyang Wu1, Xin Wang2, Shu Hu1† 1Purdue University, West Lafayette, USA {lin17 | Methodology: Gender Gender, Age Gender, Age, Skin Tone DF DF, GAN GAN, DM DF, GAN,DM 1 3 5 8 37 Demographic Annotation Generation Category Figure 1. Comparison bet | Key Findings: under default/basic settings. Fairness 'Reliability' measures fair- ness consistency across dynamic scenarios (e.g., post-processing). fairness reliab | Conclusions: According to the above experiments, we summarize the un- solved fairness problems in recent detectors: 1) Detectors' fairness is unstable when detecti"
 local_pdf: [[PDFs/2024/2024-Lin-AI-Face.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -59,7 +63,7 @@ AI-generated faces have enriched human life, such as entertainment, education, a
 
 ## Authors
 
-[[Li Lin]], [[Santosh]], [[Mengyue Wu|Mingyang Wu]], [[Xin Wang]], [[Shu Hu]]
+[[Li Lin]], [[Santosh]], [[Mingyang Wu]], [[Xin Wang]], [[Shu Hu]]
 
 ## Data Description
 

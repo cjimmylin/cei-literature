@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in robot"
@@ -16,6 +18,7 @@ url: "https://mitpress.mit.edu/9780262549721/robophilosophy/"
 pdf_extract: "PDF Extracts/2025/2025-Sullins-Automated Ethical Practical Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Sullins-Automated Ethical Practical Reasoning.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -23,6 +26,7 @@ newtags: "Virtue Ethics, Deontology"
 key_contribution: "Investigates the concept of 'artificial phronesis' or 'quasi-phronesis'—the capacity for machines to perform virtuous behaviors through context-sensitive practical reasoning"
 significance: "Proposes that virtue ethics offers a more robust framework than rule-based paradigms for meeting the safety and transparency requirements of the EU AI Act"
 abstract: "This chapter explores the application of **Aristotelian virtue** (**arete**) and **phronesis** (practical wisdom) to AI systems, particularly in the context of the EU Artificial Intelligence Act. Sullins argues that while current regulatory approaches often rely on \"
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: Yes

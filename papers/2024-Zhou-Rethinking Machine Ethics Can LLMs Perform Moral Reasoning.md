@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "https://aclanthology.org/2024.findings-naacl.144/"
 external_pdf: "https://aclanthology.org/2024.findings-naacl.144.pdf"
 publication: "Findings of NAACL 2024"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Per
 abstract: "Making moral judgments is an essential step toward developing ethical AI systems. Prevalent approaches are mostly implemented in a bottom-up manner, which uses a large set of annotated data to train models based on crowd-sourced opinions about morality. These approaches have been criticized for overgeneralizing the moral stances of a limited group of annotators and lacking explainability. This work proposes a flexible top-down framework to steer (Large) Language Models (LMs) to perform moral..."
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

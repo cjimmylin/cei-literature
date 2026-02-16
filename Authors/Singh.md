@@ -1,6 +1,6 @@
 ---
 name: "Singh"
-affiliation: "University/Organization"
+affiliation: "lable at www"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,11 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Singh-Aya Dataset|Aya Dataset]]
+
+- [[2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate|IndicGenBench A Multilingual Benchmark to Evaluate]] (First Author)
 
 ## Notes
 
+
+- *From 2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate*: Affiliation: lable at www
 [Additional context or contact information]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 21 other languages"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Lukasz Augustyniak, Szymon Wozniak, Marcin Gruza, Piotr Gramacki, Krzysztof Rajda, Mikolaj Morzy, Tomasz Kajdanowicz]]
+[[Lukasz Augustyniak]], [[Szymon Wozniak]], [[Marcin Gruza]], [[Piotr Gramacki]], [[Krzysztof Rajda]], [[Mikolaj Morzy]], [[Tomasz Kajdanowicz]]
 
 ## Metadata
 

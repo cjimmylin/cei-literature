@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +45,7 @@ DATA_URL: "https://github.com/kshitishghate/EVALUESTEER-benchmark"
 
 ## Authors
 
-[[Ghate, Kshitish]], [[Liu, Andy]], [[Jain, Devansh]], [[Sorensen, Taylor]], [[Kasirzadeh, Atoosa]], [[Caliskan, Aylin]], [[Diab, Mona T.]], [[Sap, Maarten]]
+[[Ghate, Kshitish]], [[Liu, Andy]], [[Devansh Jain|Jain, Devansh]], [[Taylor Sorensen|Sorensen, Taylor]], [[Atoosa Kasirzadeh|Kasirzadeh, Atoosa]], [[Caliskan, Aylin]], [[Diab, Mona T]], [[Maarten Sap|Sap, Maarten]]
 
 ## Metadata
 

@@ -45,7 +45,7 @@ research_topic: "Dialogue Systems"
 
 ## Authors
 
-[[Youngeun Koo, Jiwoo Lee, Dojun Park, Seohyun Park, Sungeun Lee]]
+[[Youngeun Koo]], [[Jiwoo Lee]], [[Dojun Park]], [[Seohyun Park]], [[Sungeun Lee]]
 
 ## Metadata
 

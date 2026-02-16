@@ -25,10 +25,16 @@ Valter's work focuses on understanding the moral foundations embedded in large l
 ## Papers in this Vault
 
 
+
+
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 Valter's research on moral foundations in LLMs contributes to the growing field of AI ethics and value alignment, helping us understand how AI systems represent and reason about moral concepts.

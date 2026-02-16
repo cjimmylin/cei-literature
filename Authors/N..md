@@ -1,9 +1,9 @@
 ---
 name: "N."
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science and Technology1, 2, 3, 4"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "naurosromim@gmail.com1"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]]]
+
 
 - [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM*: Affiliation: Department of Electronic Engineering, Email: fenglixu@tsinghua.edu.cn
+- *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: naurosromim@gmail.com1
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

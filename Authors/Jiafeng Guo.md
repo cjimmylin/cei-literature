@@ -28,11 +28,17 @@ Jiafeng Guo is a Professor at the Institute of Computing Technology, Chinese Aca
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - At Institute of Computing Technology, CAS since 2009
 - Associate Editor for ACM TOIS and IRJ

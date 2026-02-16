@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ doi: 10.48550/arXiv.2502.09724
 url: "https://arxiv.org/abs/2502.09724"
 external_pdf: "https://arxiv.org/pdf/2502.09724.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2025/2025-Kim-Navigating the Social Welfare Frontier.
 abstract: "In many real-world applications of reinforcement learning (RL), deployed policies have varied impacts on different stakeholders, creating challenges in reaching consensus on how to effectively aggregate their preferences. Generalized p-means form a widely used class of social welfare functions for this purpose, with broad applications in fair resource allocation, AI alignment, and decision-making. This class includes well-known welfare functions such as Egalitarian, Nash, and Utilitarian welfare."
 paper_summary: "Abstract: In many real-world applications of reinforcement learning (RL), deployed policies have varied im- pacts on different stakeholders, creating chal- lenges in reaching consensus on how to effec- tively a | Overview: Navigating the Social Welfare Frontier: Portfolios for Multi-objective Reinforcement Learning Cheol Woo Kim * 1 Jai Moondra * 2 Shresth Verma 1 Madeleine Pollack 3 Lingkai Kong 1 Milind Tambe 1 4 Swat | Methodology: by showing that v(ℓ)(πp, q) is close to the optimal value v(ℓ) ∗(q) whenever p and q are close. The proof is deferred to Appendix A. Proposition 4.2.  | Conclusions: of oracle complexity, which quantifies the number of times Problem (3) must be solved to construct a portfolio. 1The α-approximation we refer to is di"
 local_pdf: "[[PDFs/2025/2025-Kim-Navigating the Social Welfare Frontier.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

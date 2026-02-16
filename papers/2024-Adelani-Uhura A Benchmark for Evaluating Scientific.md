@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Uhura A Benchmark for Evaluating Scientific"
 year: 2025
 first_author: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"
-last_author: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"
+last_author: "[[David Ifeoluwa Adelani Dietrich Klakow]]"
 authors: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2412.00948"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
+cultures_nationalities_list: "African"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]
+[[Israel Abebe Azime Edward Bayes]], [[Jonas Kgomo Jesujoba O. Alabi]], [[Elizabeth Proehl Tyna Eloundou]], [[Imaan Khadir Kai Chen]], [[Shamsuddeen Hassan Muhammad Naome A. Etori]], [[Igneciah Pocia Thete Choice Mpanza]], [[David Ifeoluwa Adelani Dietrich Klakow]]
 
 ## Metadata
 

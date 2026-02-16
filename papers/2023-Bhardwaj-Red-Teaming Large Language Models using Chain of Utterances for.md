@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
 year: 2025
 first_author: "[[Rishabh Bhardwaj]]"
-last_author: "[[Soujanya Poria]]"
+last_author: "[[Soujanya Poria Rishabh Bhardwaj]]"
 authors: "Rishabh Bhardwaj, Soujanya Poria"
 url: "https://arxiv.org/abs/2308.09662"
 external_pdf: "https://arxiv.org/pdf/2308.09662.pdf"
@@ -24,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Chinese, Vietnamese"
+cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +46,7 @@ abstract: "Larger language models (LLMs) have taken the world by storm with thei
 
 ## Authors
 
-[[Rishabh Bhardwaj, Soujanya Poria]]
+[[Soujanya Poria Rishabh Bhardwaj]]
 
 ## Metadata
 

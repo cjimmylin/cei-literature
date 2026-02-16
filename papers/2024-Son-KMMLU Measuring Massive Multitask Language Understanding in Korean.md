@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Guijin Son, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman]]
+[[Guijin Son]], [[Hwaran Lee|Hanwool Lee]], [[Sungdong Kim]], [[Seungone Kim]], [[Niklas Muennighoff]], [[Taekyoon Choi]], [[Cheonbok Park]], [[Kang Min Yoo]], [[Stella Biderman]]
 
 ## Metadata
 

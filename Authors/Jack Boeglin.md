@@ -1,7 +1,7 @@
 ---
 name: "Jack Boeglin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University 2Oxford Martin AI Governance Initiative 3University of Pennsylvania"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]]]
+
 
 - [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Kolt-Legal Alignment for Safe and Ethical AI*: Affiliation: University 2Oxford Martin AI Governance Initiative 3University of Pennsylvania
+- *From 2026-Kolt-Legal Alignment for Safe and Ethical AI*: Affiliation: University 2Oxford Martin AI Governance Initiative 3University of Pennsylvania
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

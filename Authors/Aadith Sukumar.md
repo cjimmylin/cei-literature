@@ -45,6 +45,8 @@ As a research intern at the Symbiosis Center for Applied Artificial Intelligence
 
 ## Papers in this Vault
 
+
+
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## External Links & Profiles
@@ -61,5 +63,9 @@ As a research intern at the Symbiosis Center for Applied Artificial Intelligence
 
 ## Notes
 
+
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 [Aadith is an emerging researcher from the Indian AI community with a focus on security and ethics.]

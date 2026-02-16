@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "SuperGLEBer: German Language Understanding Evaluation Benchmark"
 year: 2025
 first_author: "[[Jan Pfister]]"
-last_author: "[[Andreas Hotho]]"
+last_author: "[[Andreas Hotho Jan Pfister]]"
 authors: "Jan Pfister, Andreas Hotho"
 url: "https://aclanthology.org/2024.naacl-long.438/"
 external_pdf: "https://aclanthology.org/2024.naacl-long.438.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Jan Pfister, Andreas Hotho]]
+[[Andreas Hotho Jan Pfister]]
 
 ## Metadata
 

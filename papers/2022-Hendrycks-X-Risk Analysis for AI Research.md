@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Dan Hendrycks; Mantas Mazeika"
 url: "https://arxiv.org/abs/2206.05862"
 external_pdf: "https://arxiv.org/pdf/2206.05862.pdf"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2022/2022-Hendrycks-X-Risk Analysis for AI Research.m
 abstract: "Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a systematic discussion of how to manage long-tail risks from AI systems, including speculative long-term risks. Keeping in mind the potential beneﬁts of AI, there is some concern that building ever more intelligent and powerful AI systems could eventually result in systems that are more powerful than us;..."
 paper_summary: "Abstract: Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it comes with heightened risks and responsibilities. Current AI research lacks a system-  | Overview: X-Risk Analysis for AI Research Dan Hendrycks UC Berkeley Mantas Mazeika UIUC Abstract Artiﬁcial intelligence (AI) has the potential to greatly improve society, but as with any powerful technology, it | Methodology: +Capabilities Method Figure 4: ImageNet model accuracies and their corre- sponding anomaly detection performance. The capa- bilities method does not m | Key Findings: could be suboptimal or even catastrophic if a sufﬁciently powerful AI successfully optimizes its ﬂawed objective to an extreme degree. | Conclusions: We provided a guiding document to help researchers understand and analyze AI x-risk. First, we reviewed general concepts for making systems safer, gro"
 local_pdf: "[[PDFs/2022/2022-Hendrycks-X-Risk Analysis for AI Research.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

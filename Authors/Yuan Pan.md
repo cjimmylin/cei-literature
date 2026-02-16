@@ -1,7 +1,7 @@
 ---
 name: "Yuan Pan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Oxford"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur|MUDT A Dependency Annotation Framework for Low-Resource Uyghur]]
+
+- [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

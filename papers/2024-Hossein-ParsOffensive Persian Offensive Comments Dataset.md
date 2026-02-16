@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0141
 type: conferencePaper
 short_title: "ParsOffensive: Persian Offensive Comments Dataset"
 year: 2025
-first_author: "[[Hossein, Amir]]"
-last_author: "[[Bisheh, Mohammadamir]]"
-authors: "[[Hossein, Amir]]; [[Bisheh, Mohammadamir]]"
-authors_incomplete: true
+first_author: "[[Safayani, Mehran]]"
+last_author: "[[Pourbahman, Zahra]]"
+authors: "[[Safayani, Mehran]]; [[Sartipi, Amir]]; [[Ahmadi, Amir Hossein]]; [[Jalali, Parniyan]]; [[Mansouri, Amir Hossein]]; [[Bisheh-Niasar, Mohammad]]; [[Pourbahman, Zahra]]"
+authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11006224"
 external_pdf: "https://arxiv.org/pdf/2404.05540"
 publication: IEEE
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Iranian"
+cultures_nationalities_list: "Persian, Iranian"
 languages_list: Persian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Hossein, Amir]], [[Bisheh, Mohammadamir]]
+[[Safayani, Mehran]], [[Sartipi, Amir]], [[Ahmadi, Amir Hossein]], [[Jalali, Parniyan]], [[Mansouri, Amir Hossein]], [[Bisheh-Niasar, Mohammad]], [[Zahra Pourbahman|Pourbahman, Zahra]]
 
 ## Metadata
 
-**Authors:** Amir Hossein; Mohammadamir Bisheh
+**Authors:** Safayani, Mehran; Sartipi, Amir; Ahmadi, Amir Hossein; Jalali, Parniyan; Mansouri, Amir Hossein; Bisheh-Niasar, Mohammad; Pourbahman, Zahra
 
 **Year:** 2024
 

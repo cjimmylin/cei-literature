@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "L3Cube-IndicQuest A Benchmark Question Answering Dataset"
 year: 2025
 first_author: "[[team, L3Cube Pune]]"
-last_author: "[[team, L3Cube Pune]]"
+last_author: "[[L3Cube Pune team]]"
 authors: "[[L3Cube Pune team]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.08706"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[L3Cube Pune team]]
+[[Letta Team|L3Cube Pune team]]
 
 ## Metadata
 

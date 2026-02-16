@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: preprint
 short_title: "Are They Our Brothers Analysis and"
 year: 2025
 first_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
-last_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
+last_author: "[[Shivakant Mishra]]"
 authors: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 authors_incomplete: false
 url: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]
+[[Nuha Albadi]], [[Maram Kurdi]], [[Shivakant Mishra]]
 
 ## Metadata
 

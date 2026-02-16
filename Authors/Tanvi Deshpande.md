@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Moore-Are Large Language Models Consistent over|Are Large Language Models Consistent over]]
 
 ## Notes
 
 
+
+
+- *From 2024-Moore-Are Large Language Models Consistent over*:, Email: jlcmoore@stanford.edu
+- *From 2024-Moore-Are Large Language Models Consistent over*:, Email: diyiy@stanford.edu
 - *From 2024-Moore-Are Large Language Models Consistent over*:, Email: jlcmoore@stanford.edu
 [Additional context or contact information]

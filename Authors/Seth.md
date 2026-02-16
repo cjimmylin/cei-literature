@@ -1,6 +1,6 @@
 ---
 name: "Seth"
-affiliation: "University/Organization"
+affiliation: "School of Information, University of Michigan"
 research_interests:
   - "Topic 1"
   - "Topic 2"
@@ -17,8 +17,14 @@ semantic_scholar: ""
 
 ## Papers in this Vault
 
-- [[2024-Lazar-Frontier AI Ethics|Frontier AI Ethics]]
+
+
+- [[2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical|DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures]] (First Author)
 
 ## Notes
 
+
+
+- *From 2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical*: Affiliation: School of Information, University of Michigan, Email: agrima@umich.edu
+- *From 2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical*: Affiliation: School of Information, University of Michigan, Email: agrima@umich.edu
 [Additional context or contact information]

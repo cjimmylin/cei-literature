@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 
 ## Notes
 
 
+
+
+- *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
+- *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
 - *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
 [Additional context or contact information]

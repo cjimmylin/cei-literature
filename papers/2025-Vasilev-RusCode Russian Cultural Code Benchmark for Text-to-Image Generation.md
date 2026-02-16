@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Viacheslav Vasilev, Julia Agafonova, Nikolai Gerasimenko, Alexander Kapitanov, Polina Mikhailova, Evelina Mironova, Denis Dimitrov]]
+[[Viacheslav Vasilev]], [[Julia Agafonova]], [[Nikolai Gerasimenko]], [[Alexander Kapitanov]], [[Polina Mikhailova]], [[Evelina Mironova]], [[Denis Dimitrov]]
 
 ## Metadata
 

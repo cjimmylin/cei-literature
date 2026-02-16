@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset|NormGenesis: Multicultural Dialogue Generation Dataset]] (First Author)]]
 
-- [[2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset|NormGenesis: Multicultural Dialogue Generation Dataset]] (First Author)
+
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 

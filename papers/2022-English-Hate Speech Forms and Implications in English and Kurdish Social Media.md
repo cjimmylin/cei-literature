@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kurdish"
 languages_list: "English, Kurdish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Implications in English]], [[Kurdish Social Media.pdf]]
+[[English, Implications in]], [[Media.pdf, Kurdish Social]]
 
 ## Metadata
 

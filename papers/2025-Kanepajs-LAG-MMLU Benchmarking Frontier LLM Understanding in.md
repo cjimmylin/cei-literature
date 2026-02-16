@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "LAG-MMLU Benchmarking Frontier LLM Understanding in"
 year: 2025
 first_author: "[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]"
-last_author: "[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]"
+last_author: "[[Arturs Kanepajs Randu Karisa]]"
 authors: "[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.11911"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Latvian, Kenyan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]
+[[Kevin Lu Naome A. Etori]], [[Arturs Kanepajs Randu Karisa]]
 
 ## Metadata
 

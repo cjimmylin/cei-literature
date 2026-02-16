@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ pdf_extract: "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.
 local_pdf: "[[PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf]]"
 external_pdf: "https://arxiv.org/pdf/1804.06876.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ significance: "A foundational operationalization of the deontological duty of 'f
 tags: 
 abstract: "We present an empirical study of gender bias in coreference resolution systems. We ﬁrst introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these Winogender schemas, we evaluate and conﬁrm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
 paper_summary: "Introduces WinoBias, a benchmark for coreference resolution focused on gender bias. Demonstrates that rule-based, feature-rich, and neural coreference systems link gendered pronouns to pro-stereotypical entities with higher accuracy than anti-stereotypical entities (21.1 F1 difference). Proposes a data-augmentation debiasing approach."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

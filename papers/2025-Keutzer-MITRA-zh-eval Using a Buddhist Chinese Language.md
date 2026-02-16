@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "MITRA-zh-eval Using a Buddhist Chinese Language"
 year: 2025
 first_author: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
-last_author: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
+last_author: "[[Kurt Keutzer Leijie Zhu]]"
 authors: "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]"
 authors_incomplete: false
 url: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]
+[[Avery Chen Sebastian Nehrdich]], [[Lu Huang Marcus Bingenheimer]], [[Xiangru Tang|Xiang Wei Rouying Tang]], [[Kurt Keutzer Leijie Zhu]]
 
 ## Metadata
 

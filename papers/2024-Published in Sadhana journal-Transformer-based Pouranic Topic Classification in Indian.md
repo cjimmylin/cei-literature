@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: preprint
 short_title: "Transformer-based Pouranic Topic Classification in Indian"
 year: 2025
 first_author: "[[(Published in Sadhana journal, 2024]]"
-last_author: "[[search), specific author names not confirmed via]]"
+last_author: "[[specific author names not confirmed via search)]]"
 authors: "[[(Published in Sadhana journal, 2024]]; [[specific author names not confirmed via search)]]"
 authors_incomplete: false
 url: 
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

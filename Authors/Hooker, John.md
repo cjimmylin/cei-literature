@@ -1,9 +1,9 @@
 ---
 name: "Hooker, John"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Pittsburgh, USA"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jh38@andrew.cmu.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2018-Kim-Toward Non-Intuition-Based Machine Ethics|Non-Intuition-Based Machine Ethics]] (Last Author)]]
+
 
 - [[2018-Kim-Toward Non-Intuition-Based Machine Ethics|Non-Intuition-Based Machine Ethics]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu
+- *From 2018-Kim-Toward Non-Intuition-Based Machine Ethics*: Affiliation: University, Pittsburgh, USA, Email: jh38@andrew.cmu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

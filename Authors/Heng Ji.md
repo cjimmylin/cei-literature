@@ -18,14 +18,21 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large|Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models]] (Last Author)
 - [[2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of|MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2024-Liu-CultureAtlas|CultureAtlas]] (Last Author)
+- [[2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via|Self-Alignment: Improving Alignment of Cultural Values in LLMs via In-Context Learning]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 [Additional context or contact information]

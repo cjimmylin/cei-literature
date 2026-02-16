@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Shiwen Ni]], [[Guhong Chen]], [[Shuaimin Li]], [[Xuanang Chen]], [[Siyi Li]], [[Bingli Wang]], [[Qiyao Wang]], [[Xingjian Wang]], [[Yifan Zhang]], [[Liyang Fan]], [[Chengming Li]], [[Ruifeng Xu]], [[Le Sun]], [[Min Yang]]
+[[Ni, Shiwen]], [[Chen, Guhong]], [[Li, Shuaimin]], [[Chen, Xuanang]], [[Li, Siyi]], [[Wang, Bingli]], [[Wang, Qiyao]], [[Wang, Xingjian]], [[Zhang, Yifan]], [[Fan, Liyang]], [[Li, Chengming]], [[Xu, Ruifeng]], [[Le Sun]], [[Min Yang|Yang, Min]]
 
 ## Metadata
 

@@ -19,6 +19,9 @@ Angelina Wang is an Assistant Professor at Cornell Tech whose research focuses o
 ## Papers in this Vault
 
 
+
+
+- [[2025-Bai-Explicitly unbiased large language models still form biased|Explicitly unbiased large language models still form biased associations | PNAS]]
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]] (First Author)
 
 ## Affiliation
@@ -48,5 +51,9 @@ Recent publications at FAccT 2025 include "Identities are not Interchangeable: t
 ## Notes
 
 
+
+
+- *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
+- *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 - *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech
 Wang's approach emphasizes the importance of understanding social context and stakeholder perspectives in developing fair ML systems. Her work has been influential in shifting the field from equality-based metrics toward equity-focused approaches.

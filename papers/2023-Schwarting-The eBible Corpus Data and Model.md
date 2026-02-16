@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +13,7 @@ type: preprint
 short_title: "The eBible Corpus Data and Model"
 year: 2025
 first_author: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"
-last_author: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"
+last_author: "[[Marcus Schwarting Jonathan Robie]]"
 authors: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2304.09919"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
@@ -44,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]
+[[David Baines Vesa Akerman]], [[Ulf Hermjakob Damien Daspit]], [[Colin Leong Taeho Jang]], [[Joel Mathew Michael Martin]], [[Marcus Schwarting Jonathan Robie]]
 
 ## Metadata
 

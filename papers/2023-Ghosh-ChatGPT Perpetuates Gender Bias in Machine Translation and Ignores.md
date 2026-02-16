@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0174
 type: preprint
 short_title: "ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages"
 year: 2025
-first_author: "[[Ghosh, S.]]"
-last_author: "[[S.]]"
-authors: "[[Ghosh, S.]]; [[S.]]"
-authors_incomplete: true
+first_author: "[[Ghosh, Sourojit]]"
+last_author: "[[Caliskan, Aylin]]"
+authors: "[[Ghosh, Sourojit]]; [[Caliskan, Aylin]]"
+authors_incomplete: false
 doi: 10.1145/3600211.3604672
 url: "https://arxiv.org/abs/2305.10510"
 external_pdf: "https://arxiv.org/pdf/2305.10510.pdf"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino, Thai, Iranian, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Bengali, Filipino, Thai, Iranian, Cross-cultural"
 languages_list: "Bengali, Farsi, Malay, Tagalog, Thai, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Ghosh, S. et al.]]
+[[Ghosh, Sourojit]], [[Caliskan, Aylin]]
 
 ## Metadata
 
-**Authors:** Ghosh, S. et al.
+**Authors:** Ghosh, Sourojit; Caliskan, Aylin
 
 **Year:** 2023
 

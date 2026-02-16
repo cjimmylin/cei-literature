@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2021-Keren-ParaShoot|ParaShoot]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2021-Keren-ParaShoot*: Affiliation: School of Computer Science, Email: omrikeren@mail.tau.ac.il
+- *From 2021-Keren-ParaShoot*: Affiliation: School of Computer Science, Email: omrikeren@mail.tau.ac.il
 - *From 2021-Keren-ParaShoot*: Affiliation: School of Computer Science, Email: omrikeren@mail.tau.ac.il
 [Additional context or contact information]

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://openreview.net/"
 pdf_extract: "PDF Extracts/2025/2025-El Masri-Towards Attuned AI.md"
 local_pdf: "[[PDFs/2025/2025-El Masri-Towards Attuned AI.pdf]]"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -25,6 +28,7 @@ key_contribution: "Argues for integrating care ethics into LLM alignment to addr
 significance: "Proposes 'Attuned AI' as a model for alignment that prioritizes context, relationships, and particularity over abstract rules, crucial for empathetic AI domains"
 external_pdf: "https://openreview.net/pdf?id=s42bQle1CQ"
 abstract: "How can the Ethics of Care (EoC) inform the development and value alignment of large language models (LLMs)? This paper proposes to investigate how a Care ethics framework emphasizing relationality, attention to particularities, and contextual moral reasoning, can reshape existing approaches to aligning LLMs with human values. Mainstream AI alignment often draws on deontological or utilitarian principles, yet these frameworks can overlook the situated, affective, and power-sensitive aspects of..."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

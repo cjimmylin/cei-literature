@@ -38,6 +38,8 @@ Ghafouri has published research on supervised deep learning approaches for bilin
 ## Papers in this Vault
 
 
+
+
 - [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]] (First Author)
 
 ## External Links & Profiles
@@ -50,5 +52,9 @@ Ghafouri has published research on supervised deep learning approaches for bilin
 ## Notes
 
 
+
+
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: aghafuri@comp.iust.ac.ir
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: m.aghajani@physics.sharif.edu
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: naderi@iust.ac.ir
 His work on multilingual NLP for Arabic and Persian contributes to ensuring AI language technologies serve diverse linguistic communities, addressing the dominance of English-centric models in the field.

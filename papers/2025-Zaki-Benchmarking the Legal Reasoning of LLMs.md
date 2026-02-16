@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: preprint
 short_title: "Benchmarking the Legal Reasoning of LLMs"
 year: 2025
 first_author: "[[Nouar AlDahoul, Yasir Zaki]]"
-last_author: "[[Nouar AlDahoul, Yasir Zaki]]"
+last_author: "[[Yasir Zaki Nouar AlDahoul]]"
 authors: "[[Nouar AlDahoul, Yasir Zaki]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.15796"
@@ -27,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Arabic, Islamic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Nouar AlDahoul, Yasir Zaki]]
+[[Yasir Zaki Nouar AlDahoul]]
 
 ## Metadata
 

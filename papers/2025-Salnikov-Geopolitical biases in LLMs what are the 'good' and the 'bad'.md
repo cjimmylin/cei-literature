@@ -10,7 +10,7 @@ type: preprint
 short_title: "Geopolitical biases in LLMs: what are the 'good' and the 'bad' countries according to contemporary language models"
 year: 2025
 first_author: "[[Mikhail Salnikov]]"
-last_author: "[[Elena Tutubalina]]"
+last_author: "[[Elena Tutubalina Alexander Panchenko]]"
 authors: Mikhail Salnikov, Dmitrii Korzh, Ivan Lazichny, Elvir Karimov, Artyom Iudin, Ivan Oseledets, Oleg Y. Rogov, Natalia Loukachevitch, Alexander Panchenko, Elena Tutubalina
 url: "https://arxiv.org/abs/2506.06751"
 external_pdf: "https://arxiv.org/pdf/2506.06751.pdf"
@@ -44,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Mikhail Salnikov, Dmitrii Korzh, Ivan Lazichny, Elvir Karimov, Artyom Iudin, Ivan Oseledets, Oleg Y. Rogov, Natalia Loukachevitch, Alexander Panchenko, Elena Tutubalina]]
+[[Dmitrii Korzh Mikhail Salnikov]], [[Elvir Karimov Ivan Lazichny]], [[Ivan Oseledets Artyom Iudin]], [[Natalia Loukachevitch Oleg Y. Rogov]], [[Elena Tutubalina Alexander Panchenko]]
 
 ## Metadata
 

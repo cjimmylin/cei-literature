@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "WangchanBERTa Pretraining transformer-based Thai Language Models"
 year: 2025
 first_author: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
-last_author: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
+last_author: "[[Sarana Nutanong Nawat Jantrakulchai]]"
 authors: "[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2101.09635"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Lalita Lowphansirikul, Charin Polpanumas, Nawat Jantrakulchai, Sarana Nutanong]]
+[[Charin Polpanumas Lalita Lowphansirikul]], [[Sarana Nutanong Nawat Jantrakulchai]]
 
 ## Metadata
 

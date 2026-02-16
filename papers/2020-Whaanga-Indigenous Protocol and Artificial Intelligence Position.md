@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Indigenous Protocol and Artificial Intelligence Position"
 year: 2025
 first_author: "[[Jason Edward Lewis, Angie Abdilla, Noelani Arista, Kaipulaumakaniolono Baker, Scott Benesiinaabandan, Michelle Bohan Brown, Melanie Cheung, Meredith Coleman, Ashley Cordes, Joel Davison, Kupono Duncan, Sergio Garzon, D. Fox Harrell, Peter-Lucas Jones, Kekuhi Kealiikanakaoleohaililani, Megan Kelleher, Suzanne Kite, Olin Lagon, Jason Leigh, Maroussia Levesque, Keoni Mahelona, Caleb Moses, Isaac Nahuewai, Kari Noe, Danielle Marie Olson, Oiwi Parker Jones, Caroline Running Wolf, Michael Running Wolf, Marlee Silva, Skawennati Fragnito, Hemi Whaanga]]"
-last_author: "[[Jason Edward Lewis, Angie Abdilla, Noelani Arista, Kaipulaumakaniolono Baker, Scott Benesiinaabandan, Michelle Bohan Brown, Melanie Cheung, Meredith Coleman, Ashley Cordes, Joel Davison, Kupono Duncan, Sergio Garzon, D. Fox Harrell, Peter-Lucas Jones, Kekuhi Kealiikanakaoleohaililani, Megan Kelleher, Suzanne Kite, Olin Lagon, Jason Leigh, Maroussia Levesque, Keoni Mahelona, Caleb Moses, Isaac Nahuewai, Kari Noe, Danielle Marie Olson, Oiwi Parker Jones, Caroline Running Wolf, Michael Running Wolf, Marlee Silva, Skawennati Fragnito, Hemi Whaanga]]"
+last_author: "[[Hemi Whaanga]]"
 authors: "[[Jason Edward Lewis, Angie Abdilla, Noelani Arista, Kaipulaumakaniolono Baker, Scott Benesiinaabandan, Michelle Bohan Brown, Melanie Cheung, Meredith Coleman, Ashley Cordes, Joel Davison, Kupono Duncan, Sergio Garzon, D. Fox Harrell, Peter-Lucas Jones, Kekuhi Kealiikanakaoleohaililani, Megan Kelleher, Suzanne Kite, Olin Lagon, Jason Leigh, Maroussia Levesque, Keoni Mahelona, Caleb Moses, Isaac Nahuewai, Kari Noe, Danielle Marie Olson, Oiwi Parker Jones, Caroline Running Wolf, Michael Running Wolf, Marlee Silva, Skawennati Fragnito, Hemi Whaanga]]"
 authors_incomplete: false
 url: 
@@ -31,6 +32,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Māori, Indigenous Australian, Indigenous North American, Indigenous Pacific"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -50,7 +52,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Jason Edward Lewis, Angie Abdilla, Noelani Arista, Kaipulaumakaniolono Baker, Scott Benesiinaabandan, Michelle Bohan Brown, Melanie Cheung, Meredith Coleman, Ashley Cordes, Joel Davison, Kupono Duncan, Sergio Garzon, D. Fox Harrell, Peter-Lucas Jones, Kekuhi Kealiikanakaoleohaililani, Megan Kelleher, Suzanne Kite, Olin Lagon, Jason Leigh, Maroussia Levesque, Keoni Mahelona, Caleb Moses, Isaac Nahuewai, Kari Noe, Danielle Marie Olson, Oiwi Parker Jones, Caroline Running Wolf, Michael Running Wolf, Marlee Silva, Skawennati Fragnito, Hemi Whaanga]]
+[[Jason Edward Lewis]], [[Angie Abdilla]], [[Noelani Arista]], [[Kaipulaumakaniolono Baker]], [[Scott Benesiinaabandan]], [[Michelle Bohan Brown]], [[Melanie Cheung]], [[Meredith Coleman]], [[Ashley Cordes]], [[Joel Davison]], [[Kupono Duncan]], [[Sergio Garzon]], [[D. Fox Harrell]], [[Peter-Lucas Jones]], [[Kekuhi Kealiikanakaoleohaililani]], [[Megan Kelleher]], [[Suzanne Kite]], [[Olin Lagon]], [[Jason Leigh]], [[Maroussia Levesque]], [[Keoni Mahelona]], [[Caleb Moses]], [[Isaac Nahuewai]], [[Kari Noe]], [[Danielle Marie Olson]], [[Oiwi Parker Jones]], [[Caroline Running Wolf]], [[Michael Running Wolf]], [[Marlee Silva]], [[Skawennati Fragnito]], [[Hemi Whaanga]]
 
 ## Metadata
 

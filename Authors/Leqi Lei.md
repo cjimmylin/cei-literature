@@ -18,6 +18,8 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 - [[2024-Zhang-SafetyBench|SafetyBench]]
@@ -25,5 +27,9 @@ semantic_scholar: ""
 ## Notes
 
 
+
+
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
+- *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-SafetyBench*: Affiliation: University;2Northwest Minzu University, Email: zx-zhang22@mails.tsinghua.edu.cn
 [Additional context or contact information]

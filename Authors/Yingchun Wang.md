@@ -18,10 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
+- [[2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large|LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models]] (Last Author)
 - [[2023-Huang-Flames|Flames]]
 
 ## Notes
 
 
+
+
+- *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
+- *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 - *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 [Additional context or contact information]

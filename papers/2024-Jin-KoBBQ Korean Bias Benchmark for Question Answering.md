@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "KoBBQ: Korean Bias Benchmark for Question Answering"
 year: 2025
 first_author: "[[Jiho Jin]]"
-last_author: "[[Mark Hasegawa-Johnson]]"
+last_author: "[[Mark Hasegawa-Johnson Alice Oh]]"
 authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Mark Hasegawa-Johnson"
 doi: 10.1162/tacl_a_00661
 url: "https://arxiv.org/abs/2307.16778"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Korean, American"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ abstract: "Warning: This paper contains examples of stereotypes and biases. The 
 
 ## Authors
 
-[[Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Mark Hasegawa-Johnson]]
+[[Jing Jin|Jiseon Kim Jiho Jin]], [[Hwaran Lee|Haneul Yoo Nayeon Lee]], [[Mark Hasegawa-Johnson Alice Oh]]
 
 ## Metadata
 

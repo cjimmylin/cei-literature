@@ -45,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Haote Yang, Xingjian Wei, Jiang Wu, Noemi Ligeti-Nagy, Jiaxing Sun, Yinfan Wang, Zijian Gyozo Yang, Junyuan Gao, Jingchao Wang, Bowen Jiang, Shasha Wang, Nanjun Yu, Zihao Zhang, Shixin Hong, Hongwei Liu, Wei Li, Songyang Zhang, Dahua Lin, Lijun Wu, Gabor Proszeky, Conghui He]]
+[[Hao Yang|Haote Yang]], [[Xingjian Wei]], [[Jiang Wu]], [[Noemi Ligeti-Nagy]], [[Jiaxing Sun]], [[Yinfan Wang]], [[Ze Yang|Zijian Gyozo Yang]], [[Junyuan Gao]], [[Jingchao Wang]], [[Bowen Jiang]], [[Shasha Wang]], [[Nanjun Yu]], [[Zihao Zhang]], [[Seokhee Hong|Shixin Hong]], [[Hongwei Liu]], [[Wei Li]], [[Songyang Zhang]], [[Dahua Lin]], [[Lindong Wu|Lijun Wu]], [[Gabor Proszeky]], [[Conghui He]]
 
 ## Metadata
 

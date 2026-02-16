@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "DweshVaani An LLM for Detecting Religious"
 year: 2025
 first_author: "[[search, Multiple (not fully specified in]]"
-last_author: "[[2025), published at CHiPSAL]]"
+last_author: "[[published at CHiPSAL 2025)]]"
 authors: "[[Multiple (not fully specified in search]]; [[published at CHiPSAL 2025)]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

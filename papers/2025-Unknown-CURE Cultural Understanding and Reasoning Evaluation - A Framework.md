@@ -10,7 +10,7 @@ type: preprint
 short_title: "CURE: Cultural Understanding and Reasoning Evaluation - A Framework for Thick Culture Alignment Evaluation in LLMs"
 year: 2025
 first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
+last_author: "[[Unknown (CURE authors)]]"
 authors: Unknown (CURE authors)
 url: "https://arxiv.org/abs/2511.12014"
 external_pdf: "https://arxiv.org/pdf/2511.12014.pdf"

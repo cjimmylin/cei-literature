@@ -22,10 +22,16 @@ Yichen Wu (吴一尘) is a Postdoctoral Research Fellow at MGB/Harvard Medical S
 ## Papers in this Vault
 
 
+
+
 - [[2025-Wu-OpenDeception|OpenDeception]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: 25213050164@m.fudan.edu.cn
+- *From 2025-Wu-OpenDeception*: Affiliation: University (24210240338@m, Email: xdpan@fudan.edu.cn
 - *From 2025-Wu-OpenDeception*: Affiliation: University, 2Shanghai Innovation Institute (SII)
 [Additional context or contact information]

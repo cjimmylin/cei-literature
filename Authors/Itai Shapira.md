@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]]
 
 ## Notes
 
 
+
+
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 [Additional context or contact information]

@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2402.19450"
 external_pdf: "http://arxiv.org/pdf/2402.19450.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2024/2024-Srivastava-Functional Benchmarks for Robust
 abstract: "We propose a framework for robust evaluation of reasoning capabilities of language models, using functional variants of benchmarks. Models that solve a reasoning test should exhibit no difference in performance over the static version of a problem compared to a snapshot of the functional variant. We have rewritten the relevant fragment of the MATH benchmark into its functional variant MATH(), with functionalization of other benchmarks to follow."
 paper_summary: "Abstract: We propose a framework for robust evaluation of reasoning capabilities of language models, using functional variants of benchmarks. Models that solve a reasoning test should exhibit no difference in p | Overview: Functional Benchmarks for Robust Evaluation of Reasoning Performance, and the Reasoning Gap Saurabh Srivastava∗, Annarose M B, Anto P V, Shashank Menon, Ajay Sukumar, Adwaith Samod T, Alan Philipose,  | Methodology: Given a benchmark test written as a 'question, answer' pair, we convert it to three functions 'problem(inputs), solution(inputs), inputs(rngs, seed)'. | Key Findings: Compute the product of the number $5+\\sqrt{3}$ and its radical conjugate. • counting and probability/64.json: Expected value of independent trials is | Conclusions: 5.1 Functionalizing MATH to MATH() We have functionalized 41.2% (2060/5000) of the MATH benchmark. This subset was chosen based on the portion of the"
 local_pdf: "[[PDFs/2024/2024-Srivastava-Functional Benchmarks for Robust Evaluation of.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

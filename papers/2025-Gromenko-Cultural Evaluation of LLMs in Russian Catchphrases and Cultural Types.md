@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,10 +12,10 @@ key: LSRC0303
 type: conferencePaper
 short_title: "Cultural Evaluation of LLMs in Russian: Catchphrases and Cultural Types"
 year: 2025
-first_author: "[[Gromenko, E.]]"
-last_author: "[[E.]]"
-authors: "[[Gromenko, E.]]; [[E.]]"
-authors_incomplete: true
+first_author: "[[Gromenko, Elizaveta]]"
+last_author: "[[Shulginov, Valery]]"
+authors: "[[Gromenko, Elizaveta]]; [[Kalacheva, Daria]]; [[Klokova, Ksenia]]; [[Krongauz, Maxim]]; [[Moroz, Oksana]]; [[Shulginov, Valery]]"
+authors_incomplete: false
 url: "https://dialogue-conf.org/wp-content/uploads/2025/04/GromenkoEetal.029.pdf"
 external_pdf: "https://doi.org/10.28995/2075-7182-2025-23-117-128"
 publication: "Dialogue Conference 2025"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 languages_list: Russian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -47,11 +49,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Gromenko, E. et al.]]
+[[Gromenko, Elizaveta]], [[Kalacheva, Daria]], [[Klokova, Ksenia]], [[Krongauz, Maxim]], [[Moroz, Oksana]], [[Shulginov, Valery]]
 
 ## Metadata
 
-**Authors:** Gromenko, E. et al.
+**Authors:** Gromenko, Elizaveta; Kalacheva, Daria; Klokova, Ksenia; Krongauz, Maxim; Moroz, Oksana; Shulginov, Valery
 
 **Year:** 2025
 

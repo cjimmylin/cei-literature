@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ type: preprint
 short_title: "Religion and Racial Bias in Artificial"
 year: 2025
 first_author: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
-last_author: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
+last_author: "[[Brandon C. Martinez]]"
 authors: "[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]"
 authors_incomplete: false
 url: "https://doi.org/10.1177/23780231251377210"
@@ -33,6 +35,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -52,7 +55,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Joshua C. Tom, Todd W. Ferguson, Brandon C. Martinez]]
+[[Joshua C. Tom]], [[Todd W. Ferguson]], [[Brandon C. Martinez]]
 
 ## Metadata
 

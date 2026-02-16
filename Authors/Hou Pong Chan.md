@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large|Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large*: Affiliation: University of Illinois Urbana-Champaign
+- *From 2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large*: Affiliation: University of Illinois Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

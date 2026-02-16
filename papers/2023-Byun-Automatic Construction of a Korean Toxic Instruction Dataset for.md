@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
 year: 2025
 first_author: "[[Sungjoo Byun]]"
-last_author: "[[Hyopil Shin]]"
+last_author: "[[Hyopil Shin Hyemi Jo]]"
 authors: "Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin"
 url: "https://arxiv.org/abs/2311.18215"
 external_pdf: "https://arxiv.org/pdf/2311.18215.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin]]
+[[Dongjun Jang Sungjoo Byun]], [[Hyopil Shin Hyemi Jo]]
 
 ## Metadata
 

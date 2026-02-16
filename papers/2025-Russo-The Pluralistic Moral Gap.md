@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2507.17216"
 external_pdf: "http://arxiv.org/pdf/2507.17216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ pdf_extract: "PDF Extracts/2025/2025-Russo-The Pluralistic Moral Gap.md"
 abstract: "People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans’ decisions. Yet, little is known about how closely LLMs align with human moral judgments. To address this, we introduce the Moral Dilemma Dataset, a benchmark of 1,618 real-world moral dilemmas paired with a distribution of human moral judgments consisting of a binary evaluation and a free-text rationale."
 paper_summary: "Abstract: People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans' decisions. Yet, little is known about how closely LLMs align with human moral judgments. To addre | Overview: The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models Giuseppe Russo EPFL giuseppe.russo@epfl.ch Debora Nozza Bocconi University debora.nozza | Methodology: is Overton-style synthesis (Sorensen et al., 2024b), where multiple moral perspectives are integrated into a single, transparent response. Ethical Con | Key Findings: LLM Evaluation wrong right wrong Judgment: You're in the right Rationale: You have a greater obligation towards your kids … Judgment: You're in the wr | Conclusions: We analyze the moral evaluations and values ex- pressed of LLMs when providing moral advice. To enable this analysis, we introduced a novel dataset of"
 local_pdf: "[[PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

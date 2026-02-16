@@ -44,7 +44,7 @@ ethics_perspective: "General Ethics"
 
 ## Authors
 
-[[Lameck Mbangula Amugongo, Nicola J. Bidwell, Joseph Mwatukange]]
+[[Lameck Mbangula Amugongo]], [[Nicola J. Bidwell]], [[Joseph Mwatukange]]
 
 ## Metadata
 

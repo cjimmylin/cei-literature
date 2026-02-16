@@ -19,10 +19,16 @@ John Guan is a researcher at the Center for AI Safety, focusing on evaluating an
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
 
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Contributes to the WMDP (Weapons of Mass Destruction Proxy) benchmark for measuring and mitigating dangerous knowledge in AI systems.

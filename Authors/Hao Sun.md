@@ -32,10 +32,16 @@ Hao Sun is an NLP researcher who received his Master's degree from the Departmen
 ## Papers in this Vault
 
 
+
+
 - [[2022-Sun-MoralDial|MoralDial]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: h-sun20@mails.tsinghua.edu.cn
+- *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: h-sun20@mails.tsinghua.edu.cn
 - *From 2022-Sun-MoralDial*: Affiliation: Institute for Artificial Intelligence; 1State Key Lab of Intelligent Technology and Systems, Email: aihuang@tsinghua.edu.cn
 Research aligns well with the CEI focus on ethical AI systems and value alignment in dialogue.

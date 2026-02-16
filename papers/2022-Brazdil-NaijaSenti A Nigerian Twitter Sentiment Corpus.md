@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "NaijaSenti A Nigerian Twitter Sentiment Corpus"
 year: 2025
 first_author: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"
-last_author: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"
+last_author: "[[Pavel Brazdil Alipio Jorge]]"
 authors: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2022.lrec-1.63/"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, American"
+cultures_nationalities_list: "Nigerian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]
+[[David Ifeoluwa Adelani Shamsuddeen Hassan Muhammad]], [[Ibrahim Sa'id Ahmad Sebastian Ruder]], [[Bello Shehu Bello Idris Abdulmumin]], [[Chris Chinenye Emezue Monojit Choudhury]], [[Anuoluwapo Aremu Saheed Salahudeen Abdullahi]], [[Pavel Brazdil Alipio Jorge]]
 
 ## Metadata
 

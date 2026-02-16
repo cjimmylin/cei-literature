@@ -34,6 +34,8 @@ Before his doctoral work, he conducted cross-cultural and clinical psychology as
 ## Papers in this Vault
 
 
+
+
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
 
 ## Links
@@ -45,6 +47,10 @@ Before his doctoral work, he conducted cross-cultural and clinical psychology as
 ## Notes
 
 
+
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 Serapio-García's work on measuring and shaping personality in LLMs raises important questions about AI safety and the ethical implications of AI systems that can convincingly mimic human personality traits.
 

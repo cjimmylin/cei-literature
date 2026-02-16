@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Adam Amram, Anat Ben David, Reut Tsarfaty]]
+[[Adam Amram]], [[Anat Ben David]], [[Reut Tsarfaty]]
 
 ## Metadata
 

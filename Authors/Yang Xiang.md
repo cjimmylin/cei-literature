@@ -1,9 +1,9 @@
 ---
 name: "Yang Xiang"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Economics and Business"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "lfqian94@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating|Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating]]
+
+- [[2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek|Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance]]
+- [[2025-Zhang-Evaluating and Improving Cultural Awareness of|Evaluating and Improving Cultural Awareness of]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: jimin.huang@thefin.ai
+- *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: lfqian94@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

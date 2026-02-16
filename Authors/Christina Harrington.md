@@ -33,6 +33,8 @@ Dr. Christina N. Harrington is an Assistant Professor in the Human-Computer Inte
 
 ## Papers in this Vault
 
+
+
 - [[2023-Harrington-I'm Fully Who I Am|I'm Fully Who I Am]] (First Author)
 
 ## External Links & Profiles
@@ -44,5 +46,9 @@ Dr. Christina N. Harrington is an Assistant Professor in the Human-Computer Inte
 
 ## Notes
 
+
+
+- *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: anaelia@cs.ucla.edu
+- *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: anaelia@cs.ucla.edu
 - *From 2023-Harrington-I'm Fully Who I Am*: Affiliation: Centering Transgender and, Email: gupra@amazon.com
 Highly relevant to AI ethics through her work on centering marginalized voices in technology design and AI systems. Her paper in this vault addresses measuring biases against transgender and non-binary individuals in open language generation, directly contributing to fairness and representation in AI. Her methods of design justice and community collectivism offer frameworks for more equitable AI development.

@@ -36,6 +36,8 @@ Pioneer of CRISPR-based gene drives for ecological engineering. Led efforts to d
 ## Papers in this Vault
 
 
+
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -46,5 +48,9 @@ Pioneer of CRISPR-based gene drives for ecological engineering. Led efforts to d
 ## Notes
 
 
+
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 Unique researcher bridging biology and AI safety. His work on WMDP is crucial for understanding and mitigating catastrophic risks from AI-enabled biological threats.

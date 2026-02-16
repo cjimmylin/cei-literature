@@ -1,9 +1,9 @@
 ---
 name: "Fajri Koto"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Natural Language Processing"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "fajri.koto@mbzuai.ac.ae"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,15 +55,12 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language|IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language]]
-- [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local]]
-- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd Open Source Initiative for Indonesian NLP Resources]]
-- [[2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World|Cracking the Code Multi-domain LLM Evaluation on Real-World]]
-- [[2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense|IndoCulture Exploring Geographically-Influenced Cultural Commonsense]]
-- [[2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages|IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages]]
-- [[2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource|Culturally-Nuanced Story Generation for Reasoning in Low-Resource]]
+
+- [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]] (Last Author)
+- [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
+- [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]] (Last Author)
+- [[2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World|Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia]] (First Author)
 
 ## External Links & Profiles
 
@@ -89,6 +86,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
+- *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

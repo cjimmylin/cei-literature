@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Jin-MedEthicEval|MedEthicEval]]
 
 ## Notes
 
 
+
+
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: mengyuewu@sjtu.edu.cn
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: xuhanhui@fudan.edu.cn
 [Additional context or contact information]

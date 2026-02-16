@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ local_pdf: "[[PDFs/2024/2024-Rane-Concept Alignment.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.08672.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ significance: "Shifts focus from high-level ethical rules to the lower-level con
 tags: 
 abstract: "Discussion of AI alignment (alignment between humans and AI systems) has focused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can even attempt to align values, it is imperative that AI systems and humans align the concepts they use to understand the world. We integrate ideas from philosophy, cognitive science, and deep learning to explain the need for concept alignment, not just value alignment, between humans and machines."
 paper_summary: "Abstract: Discussion of AI alignment (alignment between humans and AI systems) has fo- cused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can eve | Overview: arXiv:2401.08672v1 [cs.LG] 9 Jan 2024 Concept Alignment Sunayana Rane ∗ Department of Computer Science Princeton University Princeton, NJ 08540 srane@princeton.edu Polyphony J. Bruna ∗ Department of C"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

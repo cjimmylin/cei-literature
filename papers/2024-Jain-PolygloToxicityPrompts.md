@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "http://arxiv.org/abs/2405.09373"
 external_pdf: "http://arxiv.org/pdf/2405.09373.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Jain-PolygloToxicityPrompts.md"
 abstract: "Recent advances in large language models (LLMs) have led to their extensive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, existing toxicity benchmarks are overwhelmingly focused on English, posing serious risks to deploying LLMs in other languages. We address this by introducing POLYGLOTOXICITYPROMPTS (PTP), the first large-scale multilingual toxicity evaluation benchmark of 425K naturally occurring prompts spanning 17..."
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have led to their exten- sive global deployment, and ensuring their safety calls for comprehensive and multilingual toxicity evaluations. However, exist | Overview: Published as a conference paper at COLM 2024 PolygloToxicityPrompts : Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models Warning: this paper discusses content that some may  | Methodology: does not have any significant impact. Our findings shed light on crucial shortcomings of LLM safeguarding and highlight areas for future research. Cod | Key Findings: framework for automated red teaming and robust refusal. arXiv preprint arXiv:2402.04249, 2024. Niklas Muennighoff, Thomas Wang, Lintang Sutawika, Adam | Conclusions: We present POLYGLOTOXICITYPROMPTS, the first large-scale multilingual benchmark of 425K naturally occurring prompts across 17 languages for evaluating"
 local_pdf: [[PDFs/2024/2024-Jain-PolygloToxicityPrompts.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

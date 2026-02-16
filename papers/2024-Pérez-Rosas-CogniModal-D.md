@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ authors: "V. Pérez-Rosas"
 url: "https://pubmed.ncbi.nlm.nih.gov/40089524/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UQBMYCDW/Pérez-Rosas and others - 2024 - CogniModal-D A Multimodal Deception Detection Dataset.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -22,6 +24,7 @@ newtags:
 tags: 
 osint_source: "Recovered via HTML"
 abstract: "CogniModal-D is a primary real-world multimodal dataset for deception detection, specifically targeting the Indian population. It spans seven modalities: electroencephalography (EEG), electrocardiography (ECG), electrooculography (EOG), eye-gaze, galvanic skin response (GSR), audio, and video, collected from over 100 subjects. Data was gathered through tasks focused on social relationships and controlled mock crime interrogations. Multimodal score-level fusion achieves 75% accuracy in mock crime interrogations and 79% in the best friend storytelling scenario."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

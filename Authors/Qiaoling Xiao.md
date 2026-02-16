@@ -1,9 +1,9 @@
 ---
 name: "Qiaoling Xiao"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science and Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "DH@di.ku.dk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]] (Last Author)]]
+
 
 - [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]] (Last Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn
+- *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: DH@di.ku.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -1,7 +1,7 @@
 ---
 name: "Not fully listed in search results"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Germany"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-results-JAI-1 A Thai-Centric Large Language Model|JAI-1 A Thai-Centric Large Language Model]]
+
+- [[2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and|Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling]] (First Author)
+- [[2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages|EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages*: Affiliation: University, Germany
+- *From 2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages*: Affiliation: University, Germany
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

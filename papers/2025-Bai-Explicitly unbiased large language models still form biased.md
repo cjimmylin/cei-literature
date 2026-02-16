@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +12,7 @@ type: journalArticle
 short_title: "Explicitly unbiased large language models still form biased associations | PNAS"
 year: 2025
 first_author: "[[Bai, Xuechunzi]]"
-last_author: "[[Griffiths, Thomas L.]]"
+last_author: "[[Griffiths, Thomas L]]"
 authors: "[[Bai, Xuechunzi]]; [[Wang, Angelina]]; [[Sucholutsky, Ilia]]; [[Griffiths, Thomas L.]]"
 authors_incomplete: false
 doi: 10.1073/pnas.2416228122
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "N/A"
 languages_list: Chinese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Xuechunzi Bai]], [[Angelina Wang]], [[Ilia Sucholutsky]], [[Thomas L. Griffiths]]
+[[Bai, Xuechunzi]], [[Angelina Wang|Wang, Angelina]], [[Ilia Sucholutsky|Sucholutsky, Ilia]], [[Griffiths, Thomas L]]
 
 ## Metadata
 

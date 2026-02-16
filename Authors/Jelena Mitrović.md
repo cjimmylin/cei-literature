@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2021-Caselli-HateBERT|HateBERT]]
 
 ## Notes
 
 
+
+
+- *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: t.caselli@rug.nl
+- *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: t.caselli@rug.nl
 - *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: valerio.basile@unito.it
 [Additional context or contact information]

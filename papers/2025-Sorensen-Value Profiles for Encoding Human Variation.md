@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2503.15484"
 external_pdf: "http://arxiv.org/pdf/2503.15484.pdf"
 publication: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Sorensen-Value Profiles for Encoding Human 
 abstract: "Modelling human variation in rating tasks is crucial for personalization, pluralistic model alignment, and computational social science. We propose representing individuals using natural language value profiles – descriptions of underlying values compressed from in-context demonstrations – along with a steerable decoder model that estimates individual ratings from a rater representation. To measure the predictive information in a rater representation, we introduce an information-theoretic..."
 paper_summary: "Abstract: Modelling human variation in rating tasks is crucial for personalization, pluralistic model alignment, and computational social science. We propose representing individuals using nat- ural language va | Overview: Value Profiles for Encoding Human Variation Taylor Sorensen1†, Pushkar Mishra2, Roma Patel2, Michael Henry Tessler2, Michiel Bakker2, Georgina Evans2, Iason Gabriel2, Noah Goodman2, Verena Rieser2 1De | Methodology: Training details We split raters into 50/50 train/test splits and report results for training/test --- Page 4 --- Dataset Task Choices Dem. Inst. Rate | Key Findings: In the previous sections, we have established that value profiles are predictive of individual rater an- notations for a wide variety of relevant task | Conclusions: In conclusion, we proposed modeling human vari- ation via natural language value profiles. We also proposed a methodology to compare the usable inform"
 local_pdf: "[[PDFs/2025/2025-Sorensen-Value Profiles for Encoding Human Variation.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

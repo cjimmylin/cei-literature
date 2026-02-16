@@ -47,6 +47,8 @@ Dr. Yan has received multiple Best Paper Awards from the Academy of Management. 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Zhang-REVAL|REVAL]]
 - [[2024-Yan-M$^3$oralBench|M$^3$oralBench]] (First Author)
 
@@ -62,5 +64,9 @@ Dr. Yan has received multiple Best Paper Awards from the Academy of Management. 
 
 ## Notes
 
+
+
+- *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
+- *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 - *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 Her research on AI-supported decision-making is critical for understanding "human-in-the-loop" alignment and the social structures that emerge when humans collaborate with AI.

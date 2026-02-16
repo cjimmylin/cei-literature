@@ -37,6 +37,8 @@ Co-author of the highly influential "Risks from Learned Optimization in Advanced
 ## Papers in this Vault
 
 
+
+
 - [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]] (Last Author)
 
 ## External Links & Profiles
@@ -48,5 +50,9 @@ Co-author of the highly influential "Risks from Learned Optimization in Advanced
 ## Notes
 
 
+
+
+- *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
+- *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
 - *From 2025-Chiu-Will AI Tell Lies to Save Sick Children*: Affiliation: University of Washington, 2NVIDIA, 3Cambridge, 4Stanford, 5MIT, 6Harvard, 7Anthropic, Email: kellycyy@uw.edu
 One of the most influential researchers in AI alignment theory. His work on mesa-optimization and deceptive alignment has shaped the field's understanding of potential alignment failures.

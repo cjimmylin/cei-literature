@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Large Language Models and Biblical Hebrew"
 year: 2025
 first_author: "[[Staps, Camil]]"
-last_author: "[[Staps, Camil]]"
+last_author: "[[Camil Staps]]"
 authors: "[[Camil Staps]]"
 authors_incomplete: false
 url: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Hebrew"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"

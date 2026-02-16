@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Eisikovits-AI and Phronesis|AI and Phronesis]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: Nir.eisikovits@umb.edu
+- *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: djfeldman57@gmail.com
 - *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: Nir.eisikovits@umb.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

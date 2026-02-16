@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Cao, Renjie]]; [[Hu, Miaoyan]]; [[Wei, Jiahan]]; [[Ihnaini, Baha]]"
 url: "https://aclanthology.org/2024.nlp4science-1.13/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FN5EM9LT/2024 - The Moral Foundations Weibo Corpus.pdf"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -25,6 +27,7 @@ abstract: "Moral sentiments expressed in natural language significantly influenc
 pdf: "http://arxiv.org/pdf/2411.09612"
 pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

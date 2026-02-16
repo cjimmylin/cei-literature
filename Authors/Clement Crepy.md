@@ -30,6 +30,8 @@ Clement Crepy is a researcher affiliated with UC Berkeley and Google Research wh
 
 ## Papers in this Vault
 
+
+
 - [[2024-Abdulhai-Moral Foundations of Large Language Models|Moral Foundations of Large Language Models]]
 
 ## External Links & Profiles
@@ -38,5 +40,9 @@ Clement Crepy is a researcher affiliated with UC Berkeley and Google Research wh
 
 ## Notes
 
+
+
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
+- *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 - *From 2024-Abdulhai-Moral Foundations of Large Language Models*: Affiliation: Department of Computer Science, University of California, Berkeley
 Highly relevant to AI ethics research. The work demonstrates that LLMs trained on internet data may reflect political and moral biases present in training corpora. Finding that some models show conservative-leaning moral foundations by default has important implications for AI alignment and value representation in deployed systems.

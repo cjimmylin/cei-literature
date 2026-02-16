@@ -48,6 +48,8 @@ He has published over 300 scientific papers and has been recognized as a highly 
 
 ## Papers in this Vault
 
+
+
 - [[2024-Rahman-DefAn|DefAn]] (Last Author)
 
 ## External Links & Profiles
@@ -60,5 +62,9 @@ He has published over 300 scientific papers and has been recognized as a highly 
 
 ## Notes
 
+
+
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: g202204800@kfupm.edu.sa
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: g202204800@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa
 [Ajmal is one of Australia's most prominent AI researchers in computer vision.]

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish, English"
 languages_list: "English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, et al.]]
+[[Valerio Basile|Basile, Valerio]], [[Cristina Bosco|Bosco, Cristina]], [[Elisabetta Fersini|Fersini, Elisabetta]], [[Debora Nozza|Nozza, Debora]]
 
 ## Metadata
 

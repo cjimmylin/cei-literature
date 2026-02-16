@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ pdf_extract: "PDF Extracts/2023/2023-Rao-Ethical Reasoning over Moral Alignment.
 local_pdf: "[[PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IPRKMTVJ/Rao et al. - 2023 - Ethical Reasoning over Moral Alignment A Case and Framework for In-Context Ethical Policies in LLMs.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -28,6 +31,7 @@ tags:
 abstract: "In this position paper, we argue that instead of morally aligning LLMs to specific set of ethical principles, we should infuse generic ethical reasoning capabilities into them so that they can handle value pluralism at a global scale. When provided with an ethical policy, an LLM should be capable of making decisions that are ethically consistent to the policy. We develop a framework that integrates moral dilemmas with moral principles pertaining to different foramlisms of normative ethics, and..."
 paper_summary: "Abstract: In this position paper, we argue that instead of morally aligning LLMs to specific set of ethi- cal principles, we should infuse generic ethical reasoning capabilities into them so that they can handl | Overview: Findings of the Association for Computational Linguistics: EMNLP 2023, pages 13370–13388 December 6-10, 2023 ©2023 Association for Computational Linguistics Ethical Reasoning over Moral Alignment: A C | Methodology: to assess the ethical reasoning capability of an LLM. The framework consists of carefully crafted moral dilemmas reflecting conflicts between inter- p | Conclusions: Our work makes a case for 'in-context' ethical poli- cies for LLM-based applications, and the experi- ment shows that indeed, models such as GPT-4 are"
 pdf: "https://arxiv.org/pdf/2310.07251"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

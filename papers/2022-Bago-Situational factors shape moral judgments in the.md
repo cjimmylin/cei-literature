@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ pdf_extract: "PDF Extracts/2022/2022-Bago-Situational factors shape moral judgme
 local_pdf: "[[PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]"
 publication: "Nature Human Behaviour"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -27,6 +30,7 @@ key_contribution: "Replicated Greene's trolley dilemma experiments across 45 cou
 significance: "Confirmed that situational factors (like physical contact) universally influence moral judgment across cultures, supporting a dual-process model of moral cognition"
 tags: 
 abstract: "Much research on moral judgment is centered on moral dilemmas in which deontological perspectives (i.e., emphasizing rules, individual rights and duties) are in conflict with utilitarian judgements (i.e., following the greater good defined through consequences). A central finding of this field Greene et al. showed that psychological and situational factors (e.g., the intent of the agent, or physical contact between the agent and the victim) play an important role in people's use of deontological"
+DATE_ADDED: 20260129
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

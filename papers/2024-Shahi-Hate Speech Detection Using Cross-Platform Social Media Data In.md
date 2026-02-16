@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language"
 year: 2025
 first_author: "[[Gautam Kishore Shahi]]"
-last_author: "[[Tim A. Majchrzak]]"
+last_author: "[[Tim A. Majchrzak Gautam Kishore Shahi]]"
 authors: "Gautam Kishore Shahi, Tim A. Majchrzak"
 url: "https://arxiv.org/abs/2410.05287"
 external_pdf: "https://arxiv.org/pdf/2410.05287.pdf"
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: "English, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Gautam Kishore Shahi, Tim A. Majchrzak]]
+[[Tim A. Majchrzak Gautam Kishore Shahi]]
 
 ## Metadata
 

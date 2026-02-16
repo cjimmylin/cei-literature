@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2021-Nadeem-StereoSet|StereoSet]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 [Additional context or contact information]

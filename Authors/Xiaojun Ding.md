@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Chen-Leveraging large language models to assist|Leveraging large language models to assist]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: liangzhao@whu.edu.cn
+- *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: liangzhao@whu.edu.cn
 - *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: xiaojunding@xjtu.edu.cn
 [Additional context or contact information]

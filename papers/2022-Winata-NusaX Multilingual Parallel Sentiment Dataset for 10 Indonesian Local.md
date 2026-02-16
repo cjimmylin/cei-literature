@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Genta Indra Winata]], [[Alham Fikri Aji]], [[Samuel Cahyawijaya]], [[Rahmad Mahendra]], [[Fajri Koto]], [[Ade Romadhony]], [[Kemal Kurniawan]], [[David Moeljadi]], [[Radityo Eko Prasojo]], [[Pascale Fung]], [[Timothy Baldwin]], [[Jey Han Lau]], [[Rico Sennrich]], [[Sebastian Ruder]]
+[[Genta Indra Winata|Winata, Genta Indra]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Samuel Cahyawijaya|Cahyawijaya, Samuel]], [[Mahendra, Rahmad]], [[Koto, Fajri]], [[Romadhony, Ade]], [[Kurniawan, Kemal]], [[Moeljadi, David]], [[Prasojo, Radityo Eko]], [[Pascale Fung|Fung, Pascale]], [[Timothy Baldwin|Baldwin, Timothy]], [[Lau, Jey Han]], [[Sennrich, Rico]], [[Sebastian Ruder|Ruder, Sebastian]]
 
 ## Metadata
 

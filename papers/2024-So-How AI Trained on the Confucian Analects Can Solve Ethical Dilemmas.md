@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas"
 year: 2025
 first_author: "[[E So]]"
-last_author: [[E]]
+last_author: "[[E]]"
 authors: "So, E"
 publication: Unknown
 external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "Confucianism"
 religious_values_list: "Confucianism"
 moral_psychology: "N/A"

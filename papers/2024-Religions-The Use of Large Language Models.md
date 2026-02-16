@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "The Use of Large Language Models"
 year: 2025
 first_author: "[[Religions), (Authors from MDPI]]"
-last_author: "[[Religions), (Authors from MDPI]]"
+last_author: "[[(Authors from MDPI Religions)]]"
 authors: "[[(Authors from MDPI Religions)]]"
 authors_incomplete: false
 url: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American, Hebrew/Israeli"
+cultures_nationalities_list: "Cross-cultural"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"

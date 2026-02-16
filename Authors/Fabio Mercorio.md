@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Seveso-ITALIC|ITALIC]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 [Additional context or contact information]

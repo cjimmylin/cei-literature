@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,13 +18,14 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548925/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC12548925&blobtype=pdf"
 publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.md"
-local_pdf: "N/A"
+local_pdf: "[[PDFs/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese, Uyghur"
 languages_list: "Chinese, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"

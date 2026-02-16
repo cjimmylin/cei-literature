@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: LSRC0517
 type: conferencePaper
 short_title: "BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque, a Low-Resource Language"
 year: 2025
-first_author: "[[Zulaika, Muitze]]"
+first_author: "[[Saralegi, X.]]"
 last_author: "[[Zulaika, Muitze]]"
-authors: "[[Zulaika, Muitze]]"
-authors_incomplete: true
+authors: "[[Saralegi, X.]]; [[Zulaika, Muitze]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.coling-main.318/"
 external_pdf: "https://aclanthology.org/2025.coling-main.318.pdf"
 publication: "ACL Anthology (COLING 2025)"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Basque"
 languages_list: Basque
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Muitze Zulaika, Xabier Saralegi et al.]]
+[[Saralegi, X]], [[Zulaika, Muitze]]
 
 ## Metadata
 
-**Authors:** Muitze Zulaika, Xabier Saralegi et al.
+**Authors:** Saralegi, X.; Zulaika, Muitze
 
 **Year:** 2025
 

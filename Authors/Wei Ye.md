@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
-- [[2024-Mou-SGBench|SG-Bench]] (Last Author)
+
+
+- [[2024-Mou-SGBench|SGBench]] (Last Author)
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
 ## Notes
 
 
+
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 [Additional context or contact information]

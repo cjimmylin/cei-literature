@@ -33,6 +33,8 @@ Chen Bo Calvin Zhang is a researcher affiliated with Scale AI, working on AI saf
 
 ## Papers in this Vault
 
+
+
 - [[2025-Chiu-MoReBench|MoReBench]]
 
 ## External Links & Profiles
@@ -42,5 +44,9 @@ Chen Bo Calvin Zhang is a researcher affiliated with Scale AI, working on AI saf
 
 ## Notes
 
+
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 Highly relevant to AI ethics/safety through his work on MoReBench, which addresses a critical gap in moral reasoning evaluation. Unlike math and code problems with objectively correct answers, moral dilemmas allow for multiple defensible conclusions, making them excellent testbeds for process-focused evaluation. His research reveals important limitations in current LLM training paradigms.

@@ -47,6 +47,9 @@ Savoldi co-organizes the Workshop on Gender-Inclusive Translation Technologies (
 
 ## Papers in this Vault
 
+
+
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
@@ -62,6 +65,10 @@ Savoldi co-organizes the Workshop on Gender-Inclusive Translation Technologies (
 
 ## Notes
 
+
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 Her work on "Gender Inclusivity" and "SocioTechnical Systems" is critical for the social alignment of AI models, ensuring they do not perpetuate historical biases.
 

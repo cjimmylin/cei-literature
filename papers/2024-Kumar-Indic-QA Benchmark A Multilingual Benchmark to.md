@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0493
 type: preprint
 short_title: "Indic-QA Benchmark A Multilingual Benchmark to"
 year: 2025
-first_author: "[[Kumar, Vishwajeet]]"
+first_author: "[[Singh, Abhishek Kumar]]"
 last_author: "[[Ramakrishnan, Ganesh]]"
-authors: "[[Kumar, Vishwajeet]]; [[Mittal, Ashish]]; [[Ramakrishnan, Ganesh]]"
-authors_incomplete: true
+authors: "[[Singh, Abhishek Kumar]]; [[kumar, Vishwajeet]]; [[Murthy, Rudra]]; [[Sen, Jaydeep]]; [[Mittal, Ashish]]; [[Ramakrishnan, Ganesh]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2407.13522"
 external_pdf: "https://arxiv.org/pdf/2407.13522.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Question Answering"
 
 ## Authors
 
-[[Kumar, Vishwajeet]], [[Mittal, Ashish]], [[Ramakrishnan, Ganesh]]
+[[Singh, Abhishek Kumar]], [[kumar, Vishwajeet]], [[Murthy, Rudra]], [[Sen, Jaydeep]], [[Mittal, Ashish]], [[Ramakrishnan, Ganesh]]
 
 ## Metadata
 
-**Authors:** Vishwajeet Kumar; Ashish Mittal; Ganesh Ramakrishnan
+**Authors:** Singh, Abhishek Kumar; kumar, Vishwajeet; Murthy, Rudra; Sen, Jaydeep; Mittal, Ashish; Ramakrishnan, Ganesh
 
 **Year:** 2024
 

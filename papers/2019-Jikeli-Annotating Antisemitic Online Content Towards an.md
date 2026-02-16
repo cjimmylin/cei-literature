@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ type: preprint
 short_title: "Annotating Antisemitic Online Content Towards an"
 year: 2025
 first_author: "[[Jikeli, Cavar,]]"
-last_author: "[[Jikeli, Cavar,]]"
+last_author: "[[Cavar]]"
 authors: "[[Jikeli, Cavar,]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/1910.01214"
@@ -27,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Jikeli, Cavar, and others]]
+[[Jikeli]], [[Cavar]]
 
 ## Metadata
 

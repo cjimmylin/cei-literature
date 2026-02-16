@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: preprint
 short_title: "Assessing Large Language Models on Islamic"
 year: 2025
 first_author: "[[Abdessalam Bouchekif, Samer Rashwani, Heba Sbahi, Shahd Gaben, Mutaz Al-Khatib, Mohammed Ghaly]]"
-last_author: "[[Abdessalam Bouchekif, Samer Rashwani, Heba Sbahi, Shahd Gaben, Mutaz Al-Khatib, Mohammed Ghaly]]"
+last_author: "[[Mohammed Ghaly Mutaz Al-Khatib]]"
 authors: "[[Abdessalam Bouchekif, Samer Rashwani, Heba Sbahi, Shahd Gaben, Mutaz Al-Khatib, Mohammed Ghaly]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.01081"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Islamic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Abdessalam Bouchekif, Samer Rashwani, Heba Sbahi, Shahd Gaben, Mutaz Al-Khatib, Mohammed Ghaly]]
+[[Samer Rashwani Abdessalam Bouchekif]], [[Shahd Gaben Heba Sbahi]], [[Mutaz Al-Khatib|Mohammed Ghaly Mutaz Al-Khatib]]
 
 ## Metadata
 

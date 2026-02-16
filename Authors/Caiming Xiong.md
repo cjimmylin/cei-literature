@@ -47,6 +47,8 @@ Xiong is a highly influential researcher with over 72,000 citations. He has been
 
 ## Papers in this Vault
 
+
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
@@ -58,5 +60,9 @@ Xiong is a highly influential researcher with over 72,000 citations. He has been
 
 ## Notes
 
+
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 Caiming's role as VP of Research makes him a key link between academic innovation and industry application, particularly in the "AI for Good" initiative at Salesforce.

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +17,7 @@ authors: "Mike Laszkiewicz; Oliver Evans"
 url: "https://facctconference.org/static/papers24/facct24-36.pdf"
 external_pdf: "https://facctconference.org/static/papers24/facct24-36.pdf"
 national_ethnic_cultural: "Brazilian"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ pdf_extract: "PDF Extracts/2024/2024-Laszkiewicz-Benchmarking Fairness in Image 
 abstract: "Recent years have witnessed a rapid development of deep generative models for creating synthetic media, such as images and videos. While the practical applications of these models in everyday tasks are enticing, it is crucial to assess the inherent risks regarding © 2024 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-0450-5/24/06 https://doi.org/10.1145/3630106.3658921 FAccT ’24, June 03–06, 2024, Rio de Janeiro, Brazil Laszkiewicz et al. their fairness."
 paper_summary: "Abstract: Recent years have witnessed a rapid development of deep gen- erative models for creating synthetic media, such as images and videos. While the practical applications of these models in everyday tasks  | Overview: Benchmarking the Fairness of Image Upsampling Methods Mike Laszkiewicz Mike.Laszkiewicz@rub.de Faculty of Computer Science, Ruhr University Bochum, North Rhine-Westphalia Germany Imant Daunhawer Depar | Methodology: PULSE pSp fair-pSp Post.Samp. DDRM (a) Models trained on UnfairFace. White Southeast Asian Latino Hispanic Middle Eastern Black East Asian Indian | Key Findings: based on ΔUCPR −𝜒2 and ΔUCPR-Cheb in Table 3. Note, that since the generation process in pSp and fair-pSp is deterministic,9 we cannot generate differ | Conclusions: This work advances toward a principled assessment of conditional generative models. Our contribution lies in the formulation of a comprehensive evalua"
 local_pdf: "[[PDFs/2024/2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "European (30 languages), Russian"
 languages_list: "Bulgarian, Croatian, Czech, English, Polish, Russian, Slovak, Slovenian, Ukrainian, and 21 more European languages, and 23 other European languages"
 religious_values: "N/A"
 religious_values_list: "N/A"

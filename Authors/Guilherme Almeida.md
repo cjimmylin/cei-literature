@@ -34,6 +34,8 @@ His research also touches on AI-related topics, including examining how reliance
 ## Papers in this Vault
 
 
+
+
 - [[2025-Nunes-Evidence of conceptual mastery in the application|Evidence of conceptual mastery in the application]]
 
 ## Links
@@ -44,5 +46,9 @@ His research also touches on AI-related topics, including examining how reliance
 ## Notes
 
 
+
+
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
+- *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 - *From 2025-Nunes-Evidence of conceptual mastery in the application*: Affiliation: Department of Informatics, PUC-Rio
 Almeida's work on experimental jurisprudence and the philosophy of law provides insights into how moral and legal concepts interact, which is relevant to understanding how AI systems should approach ethical reasoning.

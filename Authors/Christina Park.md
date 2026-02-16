@@ -26,6 +26,8 @@ Christina Park served as an undergraduate research assistant in the Department o
 
 ## Papers in this Vault
 
+
+
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## External Links & Profiles
@@ -33,5 +35,9 @@ Christina Park served as an undergraduate research assistant in the Department o
 
 ## Notes
 
+
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 Her contribution to the Moral Foundations Twitter Corpus is highly relevant to AI ethics, as this dataset provides essential training data for NLP models that need to understand and classify moral content. The corpus facilitates investigations of annotator response dynamics and provides psychological and demographic metadata.

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,12 +15,14 @@ authors: "[[Kim, Dahyun]]; [[Lee, Sukyung]]; [[Kim, Yungi]]; [[Rutherford, Attap
 url: "https://aclanthology.org/2025.coling-main.278/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TK8N7ILB/2025 - Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI).pdf"
 national_ethnic_cultural: "Thai"
+cultures_nationalities_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: Thai
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

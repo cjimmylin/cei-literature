@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language*: Affiliation: Center for AI Safety
+- *From 2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language*: Affiliation: Center for AI Safety
 - *From 2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language*: Affiliation: Center for AI Safety
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

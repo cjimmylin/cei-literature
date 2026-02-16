@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +21,7 @@ url: "http://arxiv.org/abs/2306.02979"
 external_pdf: "http://arxiv.org/pdf/2306.02979.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -29,6 +32,7 @@ pdf_extract: "PDF Extracts/2023/2023-Lu-The Chai Platform's AI Safety Framework.
 abstract: "Chai empowers users to create and interact with customized chatbots, offering unique and engaging experiences. Despite the exciting prospects, the work recognizes the inherent challenges of a commitment to modern safety standards. Therefore, this paper presents the integrated AI safety principles into Chai to prioritize user safety, data protection, and ethical technology use. The paper specifically explores the multidimensional domain of AI safety research, demonstrating its application in..."
 paper_summary: "Abstract: Chai empowers users to create and interact with customized chatbots, offering unique and engaging experiences. Despite the exciting prospects, the work recognizes the inherent challenges of a commitme | Overview: The Chai Platform's AI Safety Framework Xiaoding Lu Aleksey Korshuk Zongyi Liu William Beauchamp Chai Research Abstract Chai empowers users to create and interact with customized chatbots, offering un"
 local_pdf: "[[PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

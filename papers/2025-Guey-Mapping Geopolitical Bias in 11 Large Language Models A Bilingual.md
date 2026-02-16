@@ -44,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[William Guey, Pierrick Bougault, Vitor D. de Moura, Wei Zhang, Jose O. Gomes]]
+[[William Guey]], [[Pierrick Bougault]], [[Vitor D. de Moura]], [[Wei Zhang]], [[Jose O. Gomes]]
 
 ## Metadata
 

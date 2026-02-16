@@ -46,6 +46,9 @@ Opoku is a co-author of "AfriSenti," a significant sentiment analysis benchmark 
 
 ## Papers in this Vault
 
+
+
+- [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
 ## External Links & Profiles
@@ -56,5 +59,9 @@ Opoku is a co-author of "AfriSenti," a significant sentiment analysis benchmark 
 
 ## Notes
 
+
+
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
+- *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng
 His work is vital for cultural alignment and ensuring that AI ethics frameworks are applicable to the diverse linguistic and cultural landscape of the African continent.

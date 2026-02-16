@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +16,7 @@ authors: "Monika Jotautaite; Mary Phuong; Chatrik Singh Mangat; Maria Angelica M
 url: "https://arxiv.org/abs/2504.06324"
 external_pdf: "https://arxiv.org/pdf/2504.06324.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2025/2025-Jotautaite-From Stability to Inconsistency.
 abstract: "As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundations LLM dataset (MFD-LLM) grounded in Moral Foundations Theory, which conceptualizes human morality through six core foundations. We propose a novel evaluation method that captures the full spectrum of LLMs’ revealed moral preferences by answering a range of real-world moral dilemmas."
 paper_summary: "Abstract: As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundati | Overview: FROM STABILITY TO INCONSISTENCY: A STUDY OF MORAL PREFERENCES IN LLMS Monika Jotautait˙e Pivotal Mary Phuong Deepmind Chatrik Singh Mangat Independent Maria Angelica Martinez Independent ABSTRACT As l | Methodology: The second contribution of this paper is a novel evaluation approach which reveals the full spectrum of evaluation preferences. In this paper, the eva | Key Findings: preferences. In this paper, the evaluation is used to accurately map model values onto the MFT framework (Figure 1). Conventional multiple-choice eval | Conclusions: In this study, we have argued that the application of existing psychological frameworks to elucidate encoded beliefs in Large Language Models (LLMs) i"
 local_pdf: "[[PDFs/2025/2025-Jotautaite-From Stability to Inconsistency.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: "English, Greek"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Dimitris Roussis, Leon Voukoutis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros]]
+[[Dimitris Roussis]], [[Leon Voukoutis]], [[Georgios Paraskevopoulos]], [[Sokratis Sofianopoulos]], [[Prokopis Prokopidis]], [[Vassilis Papavasileiou]], [[Athanasios Katsamanis]], [[Stelios Piperidis]], [[Vassilis Katsouros]]
 
 ## Metadata
 

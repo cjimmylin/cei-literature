@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +11,7 @@ type: preprint
 short_title: "ETHOS: an Online Hate Speech Detection Dataset"
 year: 2025
 first_author: "[[Ioannis Mollas]]"
-last_author: "[[Grigorios Tsoumakas]]"
+last_author: "[[Grigorios Tsoumakas Stamatis Karlos]]"
 authors: "Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, Grigorios Tsoumakas"
 doi: 10.1007/s40747-021-00608-2
 url: "https://arxiv.org/abs/2006.08328"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "N/A"
 languages_list: English
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, Grigorios Tsoumakas]]
+[[Zoe Chrysopoulou Ioannis Mollas]], [[Grigorios Tsoumakas Stamatis Karlos]]
 
 ## Metadata
 

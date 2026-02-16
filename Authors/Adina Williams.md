@@ -46,6 +46,8 @@ She has been a central figure in the creation of large-scale NLP datasets and ev
 
 ## Papers in this Vault
 
+
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Gupta-Improving Model Evaluation using SMART Filtering|Improving Model Evaluation using SMART Filtering]] (Last Author)
@@ -66,5 +68,9 @@ She has been a central figure in the creation of large-scale NLP datasets and ev
 
 ## Notes
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 [Adina is a key bridge between NLP research at FAIR and the linguistics community.]

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -8,10 +9,10 @@ key: LSRC0503
 type: preprint
 short_title: "Evalita-LLM: Benchmarking Large Language Models on Italian"
 year: 2025
-first_author: "[[Resta, Marco]]"
-last_author: "[[Resta, Marco]]"
-authors: "[[Resta, Marco]]"
-authors_incomplete: true
+first_author: "[[Magnini, Bernardo]]"
+last_author: "[[Patti, Viviana]]"
+authors: "[[Magnini, Bernardo]]; [[Zanoli, Roberto]]; [[Resta, Michele]]; [[Cimmino, Martin]]; [[Albano, Paolo]]; [[Madeddu, Marco]]; [[Patti, Viviana]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02289"
 external_pdf: "https://arxiv.org/pdf/2502.02289.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: Italian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,11 +45,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Marco Resta et al.]]
+[[Magnini, Bernardo]], [[Zanoli, Roberto]], [[Resta, Michele]], [[Cimmino, Martin]], [[Albano, Paolo]], [[Madeddu, Marco]], [[Viviana Patti|Patti, Viviana]]
 
 ## Metadata
 
-**Authors:** Marco Resta et al.
+**Authors:** Magnini, Bernardo; Zanoli, Roberto; Resta, Michele; Cimmino, Martin; Albano, Paolo; Madeddu, Marco; Patti, Viviana
 
 **Year:** 2025
 

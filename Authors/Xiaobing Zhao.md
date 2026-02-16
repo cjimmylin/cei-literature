@@ -1,7 +1,7 @@
 ---
 name: "Xiaobing Zhao"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "School of Information Engineering, Minzu University of China, Beijing 100081, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,10 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in|MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in]]
-- [[2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A|Enhancing Cross-Lingual Transfer through Reversible Transliteration A]]
+
+- [[2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language|Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains]] (Last Author)
 
 ## External Links & Profiles
 
@@ -84,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language*: Affiliation: School of Information Engineering, Minzu University of China, Beijing 100081, China
+- *From 2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language*: Affiliation: School of Information Engineering, Minzu University of China, Beijing 100081, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -46,6 +46,8 @@ He was the first Chinese representative to deliver a keynote at the Asilomar Con
 
 ## Papers in this Vault
 
+
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## External Links & Profiles
@@ -57,5 +59,9 @@ He was the first Chinese representative to deliver a keynote at the Asilomar Con
 
 ## Notes
 
+
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Brian is a critical diplomat and researcher at the intersection of AI safety and global governance.]

@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Gounaris-Virtue in the Machine|Virtue in the Machine]] (Last Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
+- *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 - *From 2025-Gounaris-Virtue in the Machine*: Affiliation: University of Athens, Greece
 [Additional context or contact information]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: preprint
 short_title: "XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs"
 year: 2025
 first_author: "[[Kabir, Mohsinul]]"
-last_author: "[[Kabir, Mohsinul]]"
-authors: "[[Kabir, Mohsinul]]"
-authors_incomplete: true
+last_author: "[[Ananiadou, Sophia]]"
+authors: "[[Kabir, Mohsinul]]; [[Ahmed, Tasnim]]; [[Rahman, Md Mezbaur]]; [[Ji, Shaoxiong]]; [[Alhuzali, Hassan]]; [[Ananiadou, Sophia]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.14063"
 external_pdf: "https://arxiv.org/pdf/2601.14063.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
+cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Bengali, English, Multiple languages, multiple"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,11 +47,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Mohsinul Kabir, et al.]]
+[[Kabir, Mohsinul]], [[Ahmed, Tasnim]], [[Rahman, Md Mezbaur]], [[Ji, Shaoxiong]], [[Alhuzali, Hassan]], [[Ananiadou, Sophia]]
 
 ## Metadata
 
-**Authors:** Mohsinul Kabir, et al.
+**Authors:** Kabir, Mohsinul; Ahmed, Tasnim; Rahman, Md Mezbaur; Ji, Shaoxiong; Alhuzali, Hassan; Ananiadou, Sophia
 
 **Year:** 2026
 

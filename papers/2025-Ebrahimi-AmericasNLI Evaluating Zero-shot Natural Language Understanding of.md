@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
+cultures_nationalities_list: "Indigenous American"
 languages_list: "Guarani, Multilingual, Quechua"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Abteen Ebrahimi]], [[Manuel Mager]], [[Arturo Oncevay]], [[Vishrav Chaudhary]], [[Luis Chiruzzo]], [[Angela Fan]], [[John Ortega]], [[Ricardo Ramos]], [[Annette Rios]], [[Ivan Meza-Ruiz]], [[Gustavo A. Giménez-Lugo]], [[Elisabeth Mager]], [[Graham Neubig]], [[Alexis Palmer]], [[Rolando Coto-Solano]], [[Ngoc Thang Vu]], [[Katharina Kann]]
+[[Abteen Ebrahimi|Ebrahimi, Abteen]], [[Manuel Mager|Mager, Manuel]], [[Arturo Oncevay|Oncevay, Arturo]], [[Vishrav Chaudhary|Chaudhary, Vishrav]], [[Luis Chiruzzo|Chiruzzo, Luis]], [[Angela Fan|Fan, Angela]], [[Ortega, John]], [[Ricardo Ramos|Ramos, Ricardo]], [[Annette Rios|Rios, Annette]], [[Meza-Ruiz, Ivan]], [[Giménez-Lugo, Gustavo A]], [[Elisabeth Mager|Mager, Elisabeth]], [[Graham Neubig|Neubig, Graham]], [[Alexis Palmer|Palmer, Alexis]], [[Rolando Coto-Solano|Coto-Solano, Rolando]], [[Ngoc Thang Vu|Vu, Ngoc Thang]], [[Katharina Kann|Kann, Katharina]]
 
 ## Metadata
 

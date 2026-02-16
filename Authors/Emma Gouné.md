@@ -26,10 +26,16 @@ Emma Gouné is a researcher at the UK AI Safety Institute (AISI), working on met
 ## Papers in this Vault
 
 
+
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Notes
 
 
+
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 Emma Gouné's work at the UK AI Safety Institute contributes to developing rigorous methods for evaluating AI agent alignment, a critical capability for ensuring safe AI deployment.

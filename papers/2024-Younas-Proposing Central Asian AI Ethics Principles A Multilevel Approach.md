@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conferencePaper
 short_title: "Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI"
 year: 2025
 first_author: "[[Ammar Younas]]"
-last_author: "[[Yi Zeng]]"
+last_author: "[[Yi Zeng Ammar Younas]]"
 authors: "Ammar Younas, Yi Zeng"
 doi: 10.1007/s43681-024-00505-7
 url: "https://link.springer.com/article/10.1007/s43681-024-00505-7"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Central Asian"
 languages_list: "Kazakh, Kyrgyz, Tajik, Turkmen, Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Responsible AI"
 
 ## Authors
 
-[[Ammar Younas, Yi Zeng]]
+[[Yi Zeng Ammar Younas]]
 
 ## Metadata
 

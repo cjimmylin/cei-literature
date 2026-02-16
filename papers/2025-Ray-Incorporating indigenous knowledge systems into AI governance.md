@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link"
 year: 2025
 first_author: "[[Ray, Shawn]]"
-last_author: "[[Ray, Ram L.]]"
+last_author: "[[Ray, Ram L]]"
 authors: "[[Ray, Shawn]]; [[Ray, Ram L.]]"
 authors_incomplete: false
 doi: 10.1007/s43681-025-00970-8
@@ -28,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Māori, Navajo"
 languages_list: "Maori, Navajo"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
@@ -48,7 +50,7 @@ ethics_perspective: "Responsible AI"
 
 ## Authors
 
-[[Shawn Ray]], [[Ram L. Ray]]
+[[Ray, Shawn]], [[Ray, Ram L]]
 
 ## Metadata
 

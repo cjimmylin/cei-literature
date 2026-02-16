@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Minangkabau, Sundanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Muhammad Falensi Azmi]], [[Muhammad Dehan Al Kautsar]], [[Alfan Farizki Wicaksono]], [[Fajri Koto]]
+[[Azmi, Muhammad Falensi]], [[Al Kautsar, Muhammad Dehan]], [[Wicaksono, Alfan Farizki]], [[Koto, Fajri]]
 
 ## Metadata
 

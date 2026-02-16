@@ -1,9 +1,9 @@
 ---
 name: "Fanchao Qi"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University Bloomington"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "hwkwak@iu.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE A Chinese Language Understanding and Generation Evaluation]]
+
+- [[2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation|A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation*: Affiliation: University Bloomington, Email: fanhuan@iu.edu
+- *From 2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation*: Affiliation: University Bloomington, Email: hwkwak@iu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

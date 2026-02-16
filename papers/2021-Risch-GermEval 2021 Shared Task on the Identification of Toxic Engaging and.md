@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
 year: 2025
 first_author: "[[Julian Risch]]"
-last_author: "[[Michael Wiegand]]"
+last_author: "[[Michael Wiegand Lena Wilms]]"
 authors: "Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand"
 url: "https://aclanthology.org/2021.germeval-1.1/"
 external_pdf: "https://aclanthology.org/2021.germeval-1.1.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand]]
+[[Anke Stoll Julian Risch]], [[Michael Wiegand Lena Wilms]]
 
 ## Metadata
 

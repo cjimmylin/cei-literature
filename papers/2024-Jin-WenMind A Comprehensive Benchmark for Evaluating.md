@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "WenMind A Comprehensive Benchmark for Evaluating"
 year: 2025
 first_author: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
-last_author: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
+last_author: "[[Lianwen Jin]]"
 authors: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
 authors_incomplete: false
 url: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]
+[[Jiahuan Cao]], [[Yang Liu]], [[Yongxin Shi]], [[Keyan Ding|Kai Ding]], [[Lianwen Jin]]
 
 ## Metadata
 

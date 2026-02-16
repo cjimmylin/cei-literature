@@ -21,10 +21,16 @@ Aditya Yadavalli is a researcher working on multilingual natural language proces
 ## Papers in this Vault
 
 
+
+
 - [[2024-Watts-PARIKSHA|PARIKSHA]]
 
 ## Notes
 
 
+
+
+- *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: sunayana.sitaram@microsoft.com
+- *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: sunayana.sitaram@microsoft.com
 - *From 2024-Watts-PARIKSHA*: Affiliation: lable on the web and have already been con-, Email: wattsishaan18@gmail.com
 Collaborates with Microsoft Research India team on multilingual AI evaluation. The PARIKSHA project conducted 90K human evaluations across 30 models in 10 Indic languages.

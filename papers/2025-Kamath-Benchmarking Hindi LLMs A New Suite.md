@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ year: 2025
 first_author: "[[Kamath, Anusha]]"
 last_author: "[[Wartikar, Niranjan]]"
 authors: "[[Kamath, Anusha]]; [[Singla, Kanishk]]; [[Paul, Rakesh]]; [[Joshi, Raviraj]]; [[Vaidya, Utkarsh]]; [[Chauhan, Sanjay Singh]]; [[Wartikar, Niranjan]]"
-authors_incomplete: true
+authors_incomplete: false
 url: "https://arxiv.org/abs/2508.19831"
 external_pdf: "https://arxiv.org/pdf/2508.19831.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kamath-Benchmarking Hindi LLMs A New Suite.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -47,7 +49,7 @@ research_topic: "Other"
 
 ## Metadata
 
-**Authors:** Anusha Kamath; Kanishk Singla; Rakesh Paul; Raviraj Joshi; Utkarsh Vaidya; Sanjay Singh Chauhan; Niranjan Wartikar
+**Authors:** Kamath, Anusha; Singla, Kanishk; Paul, Rakesh; Joshi, Raviraj; Vaidya, Utkarsh; Chauhan, Sanjay Singh; Wartikar, Niranjan
 
 **Year:** 2025
 

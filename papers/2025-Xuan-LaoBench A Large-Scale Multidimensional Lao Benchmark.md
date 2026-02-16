@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0401
 type: preprint
 short_title: "LaoBench A Large-Scale Multidimensional Lao Benchmark"
 year: 2025
-first_author: "[[Xuan, Richeng]]"
+first_author: "[[Gao, Jian]]"
 last_author: "[[Lin, Yonghua]]"
-authors: "[[Xuan, Richeng]]; [[Kang, Zhaolu]]; [[Yang, Xi]]; [[Li, Changjin]]; [[Lin, Yonghua]]"
-authors_incomplete: true
+authors: "[[Gao, Jian]]; [[Xuan, Richeng]]; [[Kang, Zhaolu]]; [[Liao, Dingshi]]; [[Huang, Wenxin]]; [[Huang, Zongmou]]; [[Xu, Yangdi]]; [[Qin, Bowen]]; [[He, Zheqi]]; [[Yang, Xi]]; [[Li, Changjin]]; [[Lin, Yonghua]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2511.11334"
 external_pdf: "https://arxiv.org/pdf/2511.11334.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.md"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Lao, Laotian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Xuan, Richeng]], [[Kang, Zhaolu]], [[Yang, Xi]], [[Li, Changjin]], [[Lin, Yonghua]]
+[[Gao, Jian]], [[Richeng Xuan|Xuan, Richeng]], [[Kang, Zhaolu]], [[Liao, Dingshi]], [[Huang, Wenxin]], [[Huang, Zongmou]], [[Xu, Yangdi]], [[Bowen Qin|Qin, Bowen]], [[He, Zheqi]], [[Xi Yang|Yang, Xi]], [[Li, Changjin]], [[Lin, Yonghua]]
 
 ## Metadata
 
-**Authors:** Richeng Xuan; Zhaolu Kang; Xi Yang; Changjin Li; Yonghua Lin
+**Authors:** Gao, Jian; Xuan, Richeng; Kang, Zhaolu; Liao, Dingshi; Huang, Wenxin; Huang, Zongmou; Xu, Yangdi; Qin, Bowen; He, Zheqi; Yang, Xi; Li, Changjin; Lin, Yonghua
 
 **Year:** 2025
 

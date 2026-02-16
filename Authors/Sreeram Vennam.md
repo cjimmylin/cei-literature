@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2024-Bonagiri-SaGE|SaGE]]
 
 ## Notes
 
 
+
+
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: sreeram.vennam@students.iiit.ac.in
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: vamshi.b@research.iiit.ac.in
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: pk.guru@iiit.ac.in
 [Additional context or contact information]

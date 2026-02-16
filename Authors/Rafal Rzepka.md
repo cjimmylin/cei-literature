@@ -18,11 +18,17 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Takeshita-JETHICS|JETHICS]] (Last Author)
-- [[2023-Boddington-Normative Ethical Theory AI Ethics|Towards Theory-based Moral AI]]
+- [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense|JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding]]
 
 ## Notes
 
 
+
+
+- *From 2025-Takeshita-JETHICS*:, Email: takeshita.masashi.68@gmail.com
+- *From 2025-Takeshita-JETHICS*:, Email: rzepka@ist.hokudai.ac.jp
 - *From 2023-Takeshita-Towards Theory-based Moral AI*: Affiliation: School of Information Science and Technology, Hokkaido University
 [Additional context or contact information]

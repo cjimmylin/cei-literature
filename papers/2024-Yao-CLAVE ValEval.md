@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +11,7 @@ type: preprint
 short_title: "CLAVE / ValEval"
 year: 2025
 first_author: "[[J. Yao]]"
-last_author: [[X]]
+last_author: "[[X]]"
 authors: "Yao, J., Yi, X., & Xie, X"
 url: "https://arxiv.org/abs/2407.10725"
 external_pdf: "https://arxiv.org/pdf/2407.10725.pdf"
@@ -22,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -30,8 +30,12 @@ Denis Dimitrov is a research scientist at SberDevices working on large language 
 
 ## Papers in this Vault
 
+
+
 - [[2025-Vasilev-RusCode|RusCode]] (Last Author)
+- [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]] (Last Author)
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
+- [[2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused|CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation]] (Last Author)
 
 ## Links
 - Semantic Scholar: https://www.semanticscholar.org/author/Denis-Dimitrov/2265548871

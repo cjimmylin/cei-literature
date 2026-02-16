@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: LSRC0621
 type: journalArticle
 short_title: "A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Wei, Zhongliang]]"
+last_author: "[[Zhang, Shunxiang]]"
+authors: "[[Wei, Zhongliang]]; [[Zhang, Shunxiang]]"
+authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2352340924002038"
 publication: ScienceDirect
 pdf_extract: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
+cultures_nationalities_list: "Uyghur"
 languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Uyghur"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Unknown]]
+[[Wei, Zhongliang]], [[Zhang, Shunxiang]]
 
 ## Metadata
 
-**Authors:** Unknown
+**Authors:** Wei, Zhongliang; Zhang, Shunxiang
 
 **Year:** 2024
 

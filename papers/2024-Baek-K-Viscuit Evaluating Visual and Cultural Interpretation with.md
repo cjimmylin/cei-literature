@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
+cultures_nationalities_list: "Korean, Cross-cultural"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Donghyun Baek, Sangwon Park, Donghyeon Jeon, Yohan Choi, Jonghwan Hyeon]]
+[[Donghyun Baek]], [[Sangwon Park]], [[Donghyeon Jeon]], [[Yejin Choi|Yohan Choi]], [[Joonseo Hyeon|Jonghwan Hyeon]]
 
 ## Metadata
 

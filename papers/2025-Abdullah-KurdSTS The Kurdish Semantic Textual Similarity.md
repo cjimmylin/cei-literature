@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "KurdSTS: The Kurdish Semantic Textual Similarity"
 year: 2025
 first_author: "[[Abdullah, Abdulhady Abas]]"
-last_author: "[[Al, Hussein M.]]"
+last_author: "[[Al, Hussein M]]"
 authors: "[[Abdullah, Abdulhady Abas]]; [[Veisi, Hadi]]; [[Al, Hussein M.]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.02336"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kurdish"
 languages_list: Kurdish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Abdulhady Abas Abdullah]], [[Hadi Veisi]], [[Hussein M. Al]]
+[[Abdullah, Abdulhady Abas]], [[Veisi, Hadi]], [[Al, Hussein M]]
 
 ## Metadata
 

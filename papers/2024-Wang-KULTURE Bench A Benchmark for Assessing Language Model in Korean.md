@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
 year: 2025
 first_author: "[[Xiaonan Wang]]"
-last_author: "[[Hansaem Kim]]"
+last_author: "[[Hansaem Kim Joon-Ho Lim]]"
 authors: "Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim"
 url: "https://arxiv.org/abs/2412.07251"
 external_pdf: "https://arxiv.org/pdf/2412.07251.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim]]
+[[Jinyoung Yeo Xiaonan Wang]], [[Hansaem Kim Joon-Ho Lim]]
 
 ## Metadata
 

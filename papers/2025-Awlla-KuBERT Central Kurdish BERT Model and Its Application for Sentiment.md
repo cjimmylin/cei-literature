@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Kurdish"
 languages_list: "Kurdish (Sorani/Central)"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Kozhin muhealddin Awlla]], [[Hadi Veisi]], [[Abdulhady Abas Abdullah]]
+[[Awlla, Kozhin muhealddin]], [[Veisi, Hadi]], [[Abdullah, Abdulhady Abas]]
 
 ## Metadata
 

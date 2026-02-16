@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY"
 year: 2025
 first_author: "[[Zangari, Lorenzo]]"
-last_author: "[[Tagarelli, A.]]"
+last_author: "[[Tagarelli, A]]"
 authors: "[[Zangari, Lorenzo]]; [[Greco, C. M.]]; [[Picca, Davide]]; [[Tagarelli, A.]]"
 authors_incomplete: false
 doi: 10.1007/s00146-025-02225-w
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 languages_list: Japanese
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Authors
 
-[[Lorenzo Zangari]], [[C. M. Greco]], [[Davide Picca]], [[A. Tagarelli]]
+[[Zangari, Lorenzo]], [[Greco, C. M]], [[Picca, Davide]], [[Tagarelli, A]]
 
 ## Metadata
 

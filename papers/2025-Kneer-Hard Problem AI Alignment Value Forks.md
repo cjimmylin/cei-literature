@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://dl.acm.org/doi/10.1145/3715275.3732174"
 external_pdf: "https://philarchive.org/archive/KNETHP"
 publication: "ACM FAccT"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2025/2025-Kneer-Hard Problem AI Alignment Value Forks
 abstract: "Complex moral trade-offs are a basic feature of human life: for example, confronted with scarce medical resources, doctors must frequently choose who amongst equally deserving candidates receives medical treatment. But choosing what to do in moral trade-offs is no longer a ‘humans-only’ task, but often falls to AI agents. In this article, we report findings from a series of experiments (N=1029) intended to establish whether agent-type (Human vs."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

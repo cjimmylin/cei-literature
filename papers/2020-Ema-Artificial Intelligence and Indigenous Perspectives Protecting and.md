@@ -44,7 +44,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Arisa Ema, Katsue Nagakura, Takanori Fujita]]
+[[Arisa Ema]], [[Katsue Nagakura]], [[Takanori Fujita]]
 
 ## Metadata
 

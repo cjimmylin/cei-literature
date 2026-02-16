@@ -33,8 +33,15 @@ Hao Peng is an Assistant Professor at the Siebel School of Computing and Data Sc
 ## Papers in this Vault
 
 
+
+
 - [[2025-Qi-AGENTIF|AGENTIF]]
+- [[2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese|Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan]]
 
 ## Notes
 
+
+
+- *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: b11132009@mail.ntust.edu.tw
+- *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: sfsu@mail.ntust.edu.tw
 Member of the Amazon-Illinois Center on AI for Interactive Conversational Experiences (AICE).

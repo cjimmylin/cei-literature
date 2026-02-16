@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Dillion-AI Language Model Rivals Expert Ethicist|AI Language Model Rivals Expert Ethicist]]
 - [[2024-Wu-WorldValuesBench|WorldValuesBench]]
 
@@ -84,6 +86,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
+- *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

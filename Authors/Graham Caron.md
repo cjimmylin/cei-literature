@@ -34,6 +34,8 @@ This work was also developed as an undergraduate honors thesis at UNC Chapel Hil
 ## Papers in this Vault
 
 
+
+
 - [[2022-Caron-Identifying and Manipulating the Personality|Identifying and Manipulating the Personality]] (First Author)
 
 ## Links
@@ -44,5 +46,9 @@ This work was also developed as an undergraduate honors thesis at UNC Chapel Hil
 ## Notes
 
 
+
+
+- *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: ssrivastava@cs.unc.edu
+- *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: carongraham29@gmail.com
 - *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: ssrivastava@cs.unc.edu
 Caron's research on the personality of language models is foundational work for understanding how AI systems exhibit and can be manipulated to display specific personality traits, with implications for AI safety and alignment.

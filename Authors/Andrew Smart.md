@@ -46,6 +46,9 @@ He is the author of the provocative book *Beyond Zero and One: Machines, Psyched
 
 ## Papers in this Vault
 
+
+
+- [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 - [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]]
 
 ## External Links & Profiles
@@ -60,5 +63,9 @@ He is the author of the provocative book *Beyond Zero and One: Machines, Psyched
 
 ## Notes
 
+
+
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: andrewsmart@google.com
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: dmosaphir@sift.net
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: sfriedman@sift.net
 [Andrew is a leading philosophical voice within Google's Responsible AI efforts.]

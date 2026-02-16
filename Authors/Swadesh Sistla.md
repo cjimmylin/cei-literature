@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis|SPARC: Evaluating LLMs in Open-Source Games (Strategic Program Analysis for Reciprocal Cooperation)]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis*: Affiliation: University of Washington, Email: swad@cs.washington.edu
+- *From 2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis*: Affiliation: University of Washington, Email: maxkw@uw.edu
 - *From 2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis*: Affiliation: University of Washington, Email: maxkw@uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

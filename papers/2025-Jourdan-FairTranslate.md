@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ pdf_extract: "PDF Extracts/2025/2025-Jourdan-FairTranslate.md"
 local_pdf: [[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]
 external_pdf: "https://arxiv.org/pdf/2504.15941.pdf"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ significance: "Addresses the specific deontological duty of fairness/inclusivity
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly leveraged for translation tasks but often fall short when translating inclusive language – such as texts containing the singular ’they’ pronoun or otherwise reflecting fair linguistic protocols. Because these challenges span both computational and societal domains, it is imperative to critically evaluate how well LLMs handle inclusive translation with a well-founded framework."
 paper_summary: "Abstract: Large Language Models (LLMs) are increasingly leveraged for trans- lation tasks but often fall short when translating inclusive language – such as texts containing the singular 'they' pronoun or other | Overview: FairTranslate: An English-French Dataset for Gender Bias Evaluation in Machine Translation by Overcoming Gender Binarity Fanny Jourdan fanny.jourdan@irt-saintexupery.com IRT Saint Exupery Toulouse, Fr | Conclusions: In this work, we introduced FairTranslate, a novel English-French translation dataset annotated by experts with extensive metadata, enabling detailed"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"

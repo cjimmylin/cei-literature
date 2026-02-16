@@ -44,7 +44,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Ziqing Yang, Zihang Xu, Yiming Cui, Baoxin Wang, Min Lin, Dayong Wu, Zhigang Chen]]
+[[Ze Yang|Ziqing Yang]], [[Zihang Xu]], [[Yiming Cui]], [[Baoxin Wang]], [[Min Lin]], [[Dayong Wu]], [[Zhigang Chen]]
 
 ## Metadata
 

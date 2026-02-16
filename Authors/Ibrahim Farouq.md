@@ -27,10 +27,16 @@ Ibrahim Sambo Farouq is a researcher at the World Bank in Washington, D.C., work
 ## Papers in this Vault
 
 
+
+
 - [[2024-Tonneau-NaijaHate|NaijaHate]]
 
 ## Notes
 
 
+
+
+- *From 2024-Tonneau-NaijaHate*: Affiliation: University of Oxford, 3 New York University
+- *From 2024-Tonneau-NaijaHate*: Affiliation: University of Oxford, 3 New York University
 - *From 2024-Tonneau-NaijaHate*: Affiliation: University of Oxford, 3 New York University
 Ibrahim Farouq's work on Nigerian hate speech detection is crucial for understanding how AI-based content moderation systems need to be adapted for diverse linguistic and cultural contexts.

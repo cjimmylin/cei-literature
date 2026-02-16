@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: "Code-switching, English, Korean, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Genta Indra Winata]], [[Alham Fikri Aji]], [[Zheng-Xin Yong]], [[Thamar Solorio]]
+[[Genta Indra Winata|Winata, Genta Indra]], [[Alham Fikri Aji|Aji, Alham Fikri]], [[Yong, Zheng-Xin]], [[Thamar Solorio|Solorio, Thamar]]
 
 ## Metadata
 

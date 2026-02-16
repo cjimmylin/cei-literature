@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,11 +21,13 @@ external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-
 publication: "RUSSE / Dialogue Conference"
 pdf_extract: "PDF Extracts/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md"
 local_pdf: "[[PDFs/2022/2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.pdf]]"
+DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian, American"
+cultures_nationalities_list: "Russian"
 languages_list: Russian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Daryna Dementieva, Varvara Logacheva, et al.]]
+[[Dementieva, Daryna]], [[Logacheva, Varvara]]
 
 ## Metadata
 

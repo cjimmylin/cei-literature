@@ -49,6 +49,8 @@ He has received several best paper awards at top venues like KDD and SDM. He is 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Liu-InstrumentalEval|InstrumentalEval]] (Last Author)
 
 ## External Links & Profiles
@@ -63,5 +65,9 @@ He has received several best paper awards at top venues like KDD and SDM. He is 
 
 ## Notes
 
+
+
+- *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
+- *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 [Bryan is a world-class expert in graph-based anomaly detection and AI robustness.]

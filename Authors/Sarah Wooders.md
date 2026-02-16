@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Aggarwal-Letta Leaderboard|Letta Leaderboard]]]]
+
 
 - [[2025-Aggarwal-Letta Leaderboard|Letta Leaderboard]]
 

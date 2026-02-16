@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Spanish and LLM Benchmarks: Is MMLU Lost in Translation?"
 year: 2025
 first_author: "[[Ortiz, Irene Plaza]]"
-last_author: "[[Ortiz, Irene Plaza]]"
+last_author: "[[Irene Plaza Ortiz]]"
 authors: "[[Ortiz, Irene Plaza]]"
 authors_incomplete: true
 url: "https://arxiv.org/abs/2406.17789"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
+cultures_nationalities_list: "Spanish"
 languages_list: "English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Irene Plaza Ortiz, et al.]]
+[[Irene Plaza Ortiz]]
 
 ## Metadata
 

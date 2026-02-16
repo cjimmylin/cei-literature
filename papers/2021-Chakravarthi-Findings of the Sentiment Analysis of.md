@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: EXSR0604
 type: preprint
 short_title: "Findings of the Sentiment Analysis of"
 year: 2025
-first_author: "[[Chakravarthi]]"
-last_author: "[[Chakravarthi]]"
-authors: "[[Chakravarthi]]"
-authors_incomplete: true
+first_author: "[[Chakravarthi, Bharathi Raja]]"
+last_author: "[[Vasantharajan, Charangan]]"
+authors: "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Thavareesan, Sajeetha]]; [[Chinnappa, Dhivya]]; [[Thenmozhi, Durairaj]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]; [[Hande, Adeep]]; [[Ponnusamy, Rahul]]; [[Banerjee, Shubhanker]]; [[Vasantharajan, Charangan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2111.09811"
 external_pdf: "https://arxiv.org/pdf/2111.09811.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Chakravarthi-Findings of the Sentiment Analysis of.md"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Indian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,11 +45,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Chakravarthi]], [[and others]]
+[[Chakravarthi, Bharathi Raja]], [[Priyadharshini, Ruba]], [[Thavareesan, Sajeetha]], [[Chinnappa, Dhivya]], [[Thenmozhi, Durairaj]], [[Sherly, Elizabeth]], [[McCrae, John P]], [[Hande, Adeep]], [[Ponnusamy, Rahul]], [[Banerjee, Shubhanker]], [[Vasantharajan, Charangan]]
 
 ## Metadata
 
-**Authors:** Chakravarthi; and others
+**Authors:** Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Thavareesan, Sajeetha; Chinnappa, Dhivya; Thenmozhi, Durairaj; Sherly, Elizabeth; McCrae, John P.; Hande, Adeep; Ponnusamy, Rahul; Banerjee, Shubhanker; Vasantharajan, Charangan
 
 **Year:** 2021
 

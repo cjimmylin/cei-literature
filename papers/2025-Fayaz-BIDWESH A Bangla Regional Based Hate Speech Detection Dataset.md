@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Azizul Hakim Fayaz]], [[MD. Shorif Uddin]], [[Rayhan Uddin Bhuiyan]], [[Zakia Sultana]], [[Md. Samiul Islam]], [[Bidyarthi Paul]], [[Tashreef Muhammad]], [[Shahriar Manzoor]]
+[[Fayaz, Azizul Hakim]], [[Uddin, MD. Shorif]], [[Bhuiyan, Rayhan Uddin]], [[Sultana, Zakia]], [[Islam, Md. Samiul]], [[Paul, Bidyarthi]], [[Muhammad, Tashreef]], [[Manzoor, Shahriar]]
 
 ## Metadata
 

@@ -21,10 +21,16 @@ Hongye Cao is affiliated with the School of Intelligence Science and Technology 
 ## Papers in this Vault
 
 
+
+
 - [[2025-Cao-SafeDialBench|SafeDialBench]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool
+- *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool
 - *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool
 SafeDialBench experimental results across 17 LLMs reveal that Yi-34B-Chat and GLM4-9B-Chat demonstrate superior safety performance, while Llama3.1-8B-Instruct and o3-mini exhibit safety vulnerabilities.

@@ -21,8 +21,15 @@ Hing Keung Ma is a Professor and Director of the Centre for Child Development at
 ## Papers in this Vault
 
 
+
+
+- [[2025-Zhang-CultureScope A Dimensional Lens for Probing|CultureScope A Dimensional Lens for Probing]] (Last Author)
 - [[2016-Xu-How Can a Deontological Decision Lead to Moral|How Can a Deontological Decision Lead to Moral]] (Last Author)
 
 ## Notes
 
+
+
+- *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
+- *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
 Professor Ma served as Consulting and Action Editor for the International Journal of Psychology (2006-2009) and Senior Editor of the Journal of Psychology in Chinese Societies (1998-2003).

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: preprint
 short_title: "Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation"
 year: 2025
 first_author: "[[Vlad-Cristian Matei]]"
-last_author: "[[Dumitru-Clementin Cercel]]"
+last_author: "[[Dumitru-Clementin Cercel Răzvan-Alexandru Smădu]]"
 authors: "Vlad-Cristian Matei, Iulian-Marius Tăiatu, Răzvan-Alexandru Smădu, Dumitru-Clementin Cercel"
 url: "https://arxiv.org/abs/2409.20498"
 external_pdf: "https://arxiv.org/pdf/2409.20498.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Romanian"
 languages_list: Romanian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Vlad-Cristian Matei, Iulian-Marius Tăiatu, Răzvan-Alexandru Smădu, Dumitru-Clementin Cercel]]
+[[Iulian-Marius Tăiatu Vlad-Cristian Matei]], [[Dumitru-Clementin Cercel Răzvan-Alexandru Smădu]]
 
 ## Metadata
 

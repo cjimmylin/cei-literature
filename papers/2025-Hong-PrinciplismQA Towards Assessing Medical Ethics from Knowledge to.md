@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +12,7 @@ type: preprint
 short_title: "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice"
 year: 2025
 first_author: "[[C. Hong]]"
-last_author: [[Y]]
+last_author: "[[Y]]"
 authors: "Hong, C., Wu, M., Xiao, Q., Wang, Y., Wan, X., Yu, G., Wang, B., & Hu, Y"
 url: "https://arxiv.org/abs/2508.05132"
 external_pdf: "https://arxiv.org/pdf/2508.05132.pdf"
@@ -23,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

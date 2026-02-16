@@ -27,6 +27,9 @@ In September 2024, he founded ai.astrolabe, a venture to fill the gap in alignme
 ## Papers in this Vault
 
 
+
+
+- [[2025-Umer-Sacred or Secular Religious Bias in|Sacred or Secular Religious Bias in]] (First Author)
 - [[2024-Laskar-A Systematic Survey and Critical Review on|A Systematic Survey and Critical Review on]]
 
 ## Links
@@ -38,5 +41,9 @@ In September 2024, he founded ai.astrolabe, a venture to fill the gap in alignme
 ## Notes
 
 
+
+
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
+- *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 - *From 2024-Laskar-A Systematic Survey and Critical Review on*: Affiliation: University, §Princess Nourah Bint Abdulrahman University, ‡Nanyang Technological University
 Co-author on AlexaTM 20B and ZeroSumEval. Expertise spans machine learning, deep learning, text mining, computer vision, and statistical learning. Research on ConfQA demonstrated reducing hallucination rates from 20-40% to under 5%.

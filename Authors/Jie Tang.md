@@ -23,6 +23,8 @@ Tang is a leading figure in Chinese AI research, having authored the open-source
 ## Papers in this Vault
 
 
+
+
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 - [[2023-Liu-AgentBench|AgentBench]] (Last Author)
 - [[2023-Liu-AlignBench|AlignBench]] (Last Author)
@@ -30,5 +32,9 @@ Tang is a leading figure in Chinese AI research, having authored the open-source
 ## Notes
 
 
+
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 Fellow of IEEE (2021, "for contributions to knowledge discovery from data and social network mining"), ACM (2022, "for contributions to information and social network mining"), and AAAI (2023). One of the most influential AI researchers in China.

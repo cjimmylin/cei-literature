@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +15,7 @@ type: preprint
 short_title: "Improving LLM Reliability with RAG in"
 year: 2025
 first_author: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
-last_author: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
+last_author: "[[Omer Aydin]]"
 authors: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2401.15378"
@@ -27,6 +29,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,7 +49,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]
+[[Ahmet Yusuf Alan]], [[Enis Karaarslan]], [[Omer Aydin]]
 
 ## Metadata
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "Offensive Hebrew Corpus and Detection using BERT"
 year: 2025
 first_author: "[[Nagham Hamad]]"
-last_author: "[[Nadim Nashif]]"
+last_author: "[[Nadim Nashif Mohammed Khalilia]]"
 authors: "Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif"
 doi: 10.1109/ICSEE61636.2024.10479258
 url: "https://arxiv.org/abs/2309.02724"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
+cultures_nationalities_list: "Israeli, Arabic"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif]]
+[[Mustafa Jarrar Nagham Hamad]], [[Nadim Nashif Mohammed Khalilia]]
 
 ## Metadata
 

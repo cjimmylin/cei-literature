@@ -44,7 +44,7 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Jiahao Yuan, Zixiang Di, Shangzixin Zhao, Zhiqing Cui, Hanqing Wang, Guisong Yang, Usman Naseem]]
+[[Jiahao Yuan]], [[Zixiang Di]], [[Shangzixin Zhao]], [[Zhiqing Cui]], [[Hanqing Wang]], [[Guisong Yang]], [[Usman Naseem]]
 
 ## Metadata
 

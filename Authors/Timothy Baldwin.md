@@ -3,7 +3,7 @@ name: "Timothy Baldwin"
 title: "Provost & Professor"
 affiliation: "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) & University of Melbourne"
 highest_degree: "PhD in Computer Science, Tokyo Institute of Technology (2001)"
-email: ""
+email: "jeyhan.lau@gmail.com"
 research_interests:
   - "Natural Language Processing"
   - "AI Safety"
@@ -48,8 +48,17 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 
 ## Papers in this Vault
 
+
+
+- [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]]
+- [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]]
+- [[2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation|Arabic Dataset for LLM Safeguard Evaluation]] (Last Author)
 - [[2024-Kaneko-Eagle|Eagle]] (Last Author)
+- [[2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense|IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces]] (Last Author)
 - [[2024-Wang-Do-Not-Answer|Do-Not-Answer]] (Last Author)
+- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
+- [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
+- [[2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language|IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP]] (Last Author)
 
 ## External Links & Profiles
 
@@ -65,5 +74,9 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 
 ## Notes
 
+
+
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com
 - *From 2024-Wang-Do-Not-Answer*: Affiliation: University of Melbourne
 [Timothy is a major leader in the NLP community with a strong focus on AI safety and cross-linguistic applications.]

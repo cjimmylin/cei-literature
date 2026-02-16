@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Ribeiro-Machine Ethics Architecture of Virtue|Machine Ethics Architecture of Virtue]] (Last Author)]]
+
 
 - [[2024-Ribeiro-Machine Ethics Architecture of Virtue|Machine Ethics Architecture of Virtue]] (Last Author)
 

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of|SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
+- *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
 - *From 2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of*: Affiliation: centered taxonomy
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

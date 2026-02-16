@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese, Korean, Indian, Arabic, German, Italian, Spanish, Russian, Brazilian, Hebrew/Israeli"
+cultures_nationalities_list: "N/A"
 languages_list: "Arabic, German, Hebrew, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Omer Hofman]], [[Jonathan Brokman]], [[Oren Rachmil]], [[Shamik Bose]], [[Vikas Pahuja]], [[Toshiya Shimizu]], [[Trisha Starostina]], [[Kelly Marchisio]], [[Seraphina Goldfarb-Tarrant]], [[Roman Vainshtein]]
+[[Hofman, Omer]], [[Brokman, Jonathan]], [[Rachmil, Oren]], [[Bose, Shamik]], [[Pahuja, Vikas]], [[Shimizu, Toshiya]], [[Starostina, Trisha]], [[Marchisio, Kelly]], [[Seraphina Goldfarb-Tarrant|Goldfarb-Tarrant, Seraphina]], [[Vainshtein, Roman]]
 
 ## Metadata
 

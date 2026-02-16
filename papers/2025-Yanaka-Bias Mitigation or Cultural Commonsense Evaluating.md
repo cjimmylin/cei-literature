@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: conference_paper
 short_title: "Bias Mitigation or Cultural Commonsense Evaluating"
 year: 2025
 first_author: "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]"
-last_author: "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]"
+last_author: "[[Hitomi Yanaka Danushka Bollegala]]"
 authors: "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.24468"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ DATA_URL: "Not confirmed from search results"
 
 ## Authors
 
-[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]
+[[Ryoma Kumon Taisei Yamamoto]], [[Hitomi Yanaka Danushka Bollegala]]
 
 ## Metadata
 

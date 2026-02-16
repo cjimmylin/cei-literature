@@ -33,6 +33,8 @@ Dr. Shrivastava's current research focuses on the reliability of vision-language
 ## Papers in this Vault
 
 
+
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
 
 ## External Links & Profiles
@@ -43,5 +45,9 @@ Dr. Shrivastava's current research focuses on the reliability of vision-language
 
 ## Notes
 
+
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 [A key figure in ensuring the factual reliability of multimodal AI systems.]

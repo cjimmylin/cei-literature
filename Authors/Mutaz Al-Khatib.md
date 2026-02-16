@@ -56,7 +56,11 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
+- [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]]
 - [[2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and|QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment]]
+- [[2025-Ghaly-Assessing Large Language Models on Islamic|Assessing Large Language Models on Islamic]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +87,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
+- *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
 - *From 2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and*: Affiliation: University, Qatar, Email: aerbad@qu.edu.qa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

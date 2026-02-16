@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +20,7 @@ url: "http://arxiv.org/abs/2404.14068"
 external_pdf: "http://arxiv.org/pdf/2404.14068.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -29,6 +32,7 @@ pdf_extract: "PDF Extracts/2024/2024-Weidinger-Holistic Safety and Responsibilit
 paper_summary: "Overview: 2024-4-23 Holistic Safety and Responsibility Evaluations of Advanced AI Models Laura Weidingera,1, Joslyn Barnharta,1, Jenny Brennana,1, Christina Butterfield1, Susie Young1, Will Hawkins1, Lisa Anne  | Key Findings: must dynamically adapt to AI system capability, application contexts and governance needs. However, evaluations also shape these environments: evaluat | Conclusions: 10 2 --- Page 3 --- Holistic Safety and Responsibility Evaluations of Advanced AI Models Introduction Generative artificial intelligence (AI) systems"
 local_pdf: "[[PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
 abstract: "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of r"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

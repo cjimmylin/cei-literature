@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ authors: "[[Vasilev, Viacheslav]]; [[Agafonova, Julia]]; [[Gerasimenko, Nikolai]
 url: "https://aclanthology.org/2025.findings-naacl.425/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JFUIN3WV/2025 - RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf"
 national_ethnic_cultural: "Russian"
+cultures_nationalities_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -23,6 +25,7 @@ key_contribution: "Proposes the RusCode benchmark, consisting of 1250 text promp
 significance: "Mitigates Western/English-speaking cultural bias in generative CV models, ensuring unique cultural characteristics of diverse language groups are accurately represented."
 tags: 
 abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

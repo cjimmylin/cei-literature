@@ -31,10 +31,16 @@ Arunim's work addresses the critical challenge of ensuring LLMs remain honest an
 ## Papers in this Vault
 
 
+
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## Notes
 
 
+
+
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 Collaborates with Dan Hendrycks and the broader AI safety research community.

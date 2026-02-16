@@ -26,10 +26,17 @@ Boiko's research focuses on using AI systems, particularly large language models
 ## Papers in this Vault
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
+- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## Notes
 
 
+
+
+- *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 Boiko's work is at the frontier of AI for science research, examining both the opportunities and risks of increasingly capable AI systems in scientific domains. His research has implications for biosecurity and the responsible development of AI scientific assistants.

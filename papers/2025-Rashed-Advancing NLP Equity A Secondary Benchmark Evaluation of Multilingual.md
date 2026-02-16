@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American"
+cultures_nationalities_list: "Spanish, American, Indigenous American"
 languages_list: "Guarani, Kyrgyz, Multilingual, Quechua, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"

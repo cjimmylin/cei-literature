@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,9 +11,9 @@ type: preprint
 short_title: "The Large Language Model GreekLegalRoBERTa"
 year: 2025
 first_author: "[[Saketos, Vasileios]]"
-last_author: "[[Saketos, Vasileios]]"
-authors: "[[Saketos, Vasileios]]"
-authors_incomplete: true
+last_author: "[[Koubarakis, Manolis]]"
+authors: "[[Saketos, Vasileios]]; [[Pantazi, Despina-Athanasia]]; [[Koubarakis, Manolis]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.12852"
 external_pdf: "https://arxiv.org/pdf/2410.12852.pdf"
 publication: arXiv
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Greek"
 languages_list: Greek
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,11 +46,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Vasileios Saketos et al.]]
+[[Saketos, Vasileios]], [[Pantazi, Despina-Athanasia]], [[Koubarakis, Manolis]]
 
 ## Metadata
 
-**Authors:** Vasileios Saketos et al.
+**Authors:** Saketos, Vasileios; Pantazi, Despina-Athanasia; Koubarakis, Manolis
 
 **Year:** 2024
 

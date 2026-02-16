@@ -37,10 +37,16 @@ Seveso is a co-author of ITALIC, a comprehensive benchmark dataset of 10,000 mul
 ## Papers in this Vault
 
 
+
+
 - [[2025-Seveso-ITALIC|ITALIC]] (First Author)
 
 ## Notes
 
 
+
+
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 His work on culturally-aware benchmarks is critical for ensuring AI systems align with diverse linguistic and cultural norms beyond Western-centric datasets.

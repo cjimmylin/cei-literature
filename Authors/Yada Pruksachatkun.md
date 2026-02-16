@@ -18,10 +18,16 @@ semantic_scholar: ""
 ## Papers in this Vault
 
 
+
+
 - [[2021-Dhamala-BOLD|BOLD]]
 
 ## Notes
 
 
+
+
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 [Additional context or contact information]

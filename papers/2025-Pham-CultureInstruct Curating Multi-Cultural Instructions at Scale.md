@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: "CultureInstruct: Curating Multi-Cultural Instructions at Scale"
 year: 2025
 first_author: "[[Viet Thanh Pham]]"
-last_author: "[[Gholamreza Haffari]]"
+last_author: "[[Gholamreza Haffari Lizhen Qu]]"
 authors: Viet Thanh Pham, Zhuang Li, Lizhen Qu, Gholamreza Haffari
 doi: 10.18653/v1/2025.naacl-long.465
 url: "https://aclanthology.org/2025.naacl-long.465/"
@@ -45,7 +45,7 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Viet Thanh Pham, Zhuang Li, Lizhen Qu, Gholamreza Haffari]]
+[[Zhuang Li Viet Thanh Pham]], [[Ge Qu|Gholamreza Haffari Lizhen Qu]]
 
 ## Metadata
 

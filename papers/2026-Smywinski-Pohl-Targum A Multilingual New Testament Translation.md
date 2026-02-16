@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "Targum A Multilingual New Testament Translation"
 year: 2025
 first_author: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"
-last_author: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"
+last_author: "[[Aleksander Smywinski-Pohl Maciej Rapacz]]"
 authors: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.09724"
@@ -25,6 +26,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French, Italian, Spanish"
+cultures_nationalities_list: "French, Italian, Spanish, Polish"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Maciej Rapacz, Aleksander Smywinski-Pohl]]
+[[Aleksander Smywinski-Pohl Maciej Rapacz]]
 
 ## Metadata
 

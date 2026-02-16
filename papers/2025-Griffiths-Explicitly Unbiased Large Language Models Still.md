@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: conference_paper
 short_title: "Explicitly Unbiased Large Language Models Still"
 year: 2025
 first_author: "[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]]"
-last_author: "[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]]"
+last_author: "[[Thomas L. Griffiths Ilia Sucholutsky]]"
 authors: "[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]]"
 authors_incomplete: false
 url: 
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ research_topic: "Other"
 
 ## Authors
 
-[[Xuechunzi Bai, Angelina Wang, Ilia Sucholutsky, Thomas L. Griffiths]]
+[[Angelina Wang Xuechunzi Bai]], [[Thomas L. Griffiths Ilia Sucholutsky]]
 
 ## Metadata
 

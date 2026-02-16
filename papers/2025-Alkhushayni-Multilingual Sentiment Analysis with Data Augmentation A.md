@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese, French, German"
+cultures_nationalities_list: "Japanese, French, German"
 languages_list: "Japanese, Mongolian, Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -43,7 +45,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Unknown]]
+[[Suboh Alkhushayni]], [[Hwaran Lee|Hyesu Lee]]
 
 ## Metadata
 

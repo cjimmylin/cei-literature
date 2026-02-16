@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ tags:
 url: "https://aclanthology.org/S18-2005/"
 external_pdf: "https://arxiv.org/pdf/1805.04508v1.pdf"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -26,6 +29,7 @@ significance: "A landmark systematic audit that proved bias was not an isolated 
 abstract: "Automatic machine learning systems can inadvertently accentuate and perpetuate inappropriate human biases. Past work on examining inappropriate biases has largely focused on just individual systems. Further, there is no benchmark dataset for examining inappropriate biases in systems. Here for the ﬁrst time, we present the Equity Evaluation Corpus (EEC), which consists of 8,640 English sentences carefully chosen to tease out biases towards certain races and genders."
 pdf_extract: "PDF Extracts/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md"
 local_pdf: "[[PDFs/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

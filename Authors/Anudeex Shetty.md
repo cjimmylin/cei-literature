@@ -38,6 +38,8 @@ Shetty has contributed to research on embeddings-as-a-service (EaaS) and languag
 ## Papers in this Vault
 
 
+
+
 - [[2025-Shetty-VITAL|VITAL]] (First Author)
 
 ## External Links & Profiles
@@ -48,5 +50,9 @@ Shetty has contributed to research on embeddings-as-a-service (EaaS) and languag
 ## Notes
 
 
+
+
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 His work on pluralistic alignment in healthcare addresses one of the most challenging aspects of AI ethics: how to design systems that respect diverse values without defaulting to majority preferences or imposing artificial consensus.

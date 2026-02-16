@@ -1,9 +1,9 @@
 ---
 name: "Santosh"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "xwang56@albany.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Lin-AI-Face|AI-Face]]]]
+
 
 - [[2024-Lin-AI-Face|AI-Face]]
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2024-Lin-AI-Face*: Affiliation: University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue, Email: xwang56@albany.edu
+- *From 2024-Lin-AI-Face*: Affiliation: University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue, Email: xwang56@albany.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +13,7 @@ type: conference_paper
 short_title: "AncientBench Towards Comprehensive Evaluation on Excavated"
 year: 2025
 first_author: "[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]"
-last_author: "[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]"
+last_author: "[[Hao Xu Xiaolei Diao]]"
 authors: "[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.17756"
@@ -26,6 +27,7 @@ virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
+cultures_nationalities_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +47,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Zhihan Zhou, Daqian Shi, Rui Song, Lida Shi, Xiaolei Diao, Hao Xu]]
+[[Daquan Zhou|Daqian Shi Zhihan Zhou]], [[Linxin Song|Lida Shi Rui Song]], [[Hao Xu Xiaolei Diao]]
 
 ## Metadata
 

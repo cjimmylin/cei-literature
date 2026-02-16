@@ -3,7 +3,7 @@ name: "Alexander Pan"
 title: "AI Safety Researcher"
 affiliation: "University of California, Berkeley / Center for AI Safety (CAIS)"
 highest_degree: "PhD Student"
-email: ""
+email: "aypan.17@berkeley.edu"
 research_interests:
   - "AI Alignment"
   - "Reward Hijacking / Inner Alignment"
@@ -33,13 +33,18 @@ Alexander's research tackles the problem of "reward hacking" and inner alignment
 
 ## Papers in this Vault
 
+
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
 - [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]] (First Author)
-- [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
 
 ## Notes
 
+
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 [A leading technical researcher on the cross-section of behavioral alignment and catastrophic risk prevention.]

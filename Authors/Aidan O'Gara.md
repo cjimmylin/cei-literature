@@ -46,6 +46,8 @@ He has co-authored comprehensive surveys on AI alignment and deception, contribu
 
 ## Papers in this Vault
 
+
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Park-AI Deception|AI Deception]]
 
@@ -62,5 +64,9 @@ He has co-authored comprehensive surveys on AI alignment and deception, contribu
 
 ## Notes
 
+
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 [Aidan is an emerging leader in technical AI governance and hardware-level safety research.]

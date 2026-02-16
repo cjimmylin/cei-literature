@@ -47,6 +47,8 @@ Her work on using RL for chip design, published in *Nature*, demonstrated that A
 
 ## Papers in this Vault
 
+
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## External Links & Profiles
@@ -62,5 +64,9 @@ Her work on using RL for chip design, published in *Nature*, demonstrated that A
 
 ## Notes
 
+
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 [Anna is a visionary researcher at the intersection of AI, hardware, and scaled systems.]

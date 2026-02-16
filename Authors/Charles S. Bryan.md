@@ -48,7 +48,10 @@ Dr. Bryan's work bridges the gap between clinical medicine and existential philo
 ## Papers in this Vault
 
 
+
+
 - [[2025-Bryan-Virtue Ethics and Postponing Human Extinction|Virtue Ethics and Postponing Human Extinction]] (First Author)
+- [[2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender|Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)]] (Last Author)
 
 ## External Links & Profiles
 
@@ -57,5 +60,9 @@ Dr. Bryan's work bridges the gap between clinical medicine and existential philo
 
 ## Notes
 
+
+
+- *From 2025-Bryan-Virtue Ethics and Postponing Human Extinction*: Affiliation: institute to integrate moral philosophy and patient care
+- *From 2025-Bryan-Virtue Ethics and Postponing Human Extinction*: Affiliation: institute to integrate moral philosophy and patient care
 - *From 2025-Bryan-Virtue Ethics and Postponing Human Extinction*: Affiliation: institute to integrate moral philosophy and patient care
 Charles's perspective is a vital "humanist" check on the AI field, reminding researchers that the safety of the species depends on the moral integrity of the builders and users of technology.

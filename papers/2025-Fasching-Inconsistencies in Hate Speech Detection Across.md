@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +14,7 @@ type: preprint
 short_title: "Inconsistencies in Hate Speech Detection Across"
 year: 2025
 first_author: "[[Fasching, Neil and Lelkes, Yphtach]]"
-last_author: "[[Fasching, Neil and Lelkes, Yphtach]]"
+last_author: "[[Yphtach]]"
 authors: "[[Fasching, Neil and Lelkes, Yphtach]]"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.1144.pdf"
@@ -26,6 +28,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,7 +48,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Fasching, Neil and Lelkes, Yphtach]]
+[[Fasching]], [[Neil and Lelkes]], [[Yphtach]]
 
 ## Metadata
 

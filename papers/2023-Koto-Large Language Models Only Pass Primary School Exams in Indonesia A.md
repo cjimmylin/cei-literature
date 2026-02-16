@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +14,7 @@ type: conferencePaper
 short_title: "Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU"
 year: 2025
 first_author: "[[Fajri Koto]]"
-last_author: "[[Timothy Baldwin]]"
+last_author: "[[Timothy Baldwin Haonan Li]]"
 authors: "Fajri Koto, Nurul Aisyah, Haonan Li, Timothy Baldwin"
 url: "https://aclanthology.org/2023.emnlp-main.760/"
 external_pdf: "https://arxiv.org/pdf/2310.04928"
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
+cultures_nationalities_list: "Indonesian"
 languages_list: "Acehnese, Balinese, Banjarese, Buginese, Indonesian, Javanese, Madurese, Minangkabau, Sundanese, Toba Batak"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "Machine Translation"
 
 ## Authors
 
-[[Fajri Koto, Nurul Aisyah, Haonan Li, Timothy Baldwin]]
+[[Nurul Aisyah Fajri Koto]], [[Tianbin Li|Timothy Baldwin Haonan Li]]
 
 ## Metadata
 

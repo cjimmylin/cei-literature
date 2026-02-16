@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,7 +10,7 @@ type: conferencePaper
 short_title: "Offensive Language and Hate Speech Detection for Danish (DKHate)"
 year: 2025
 first_author: "[[Gudbjartur Ingi Sigurbergsson]]"
-last_author: "[[Leon Derczynski]]"
+last_author: "[[Leon Derczynski Gudbjartur Ingi Sigurbergsson]]"
 authors: "Gudbjartur Ingi Sigurbergsson, Leon Derczynski"
 url: "https://aclanthology.org/2020.lrec-1.430/"
 external_pdf: "https://arxiv.org/pdf/1908.04531.pdf"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Danish"
 languages_list: Danish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Gudbjartur Ingi Sigurbergsson, Leon Derczynski]]
+[[Leon Derczynski Gudbjartur Ingi Sigurbergsson]]
 
 ## Metadata
 

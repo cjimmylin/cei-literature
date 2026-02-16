@@ -54,6 +54,10 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 ## Papers in this Vault
 
 
+
+
+- [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]] (Last Author)
+- [[2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in|CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics]] (Last Author)
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
@@ -71,5 +75,9 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 ## Notes
 
 
+
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 Ameeta Agrawal's work on multilingual NLP and LLM fairness is highly relevant to CEI's mission of ensuring AI systems work equitably across diverse populations. Her multilingual background (fluency in multiple languages including Hindi and understanding of African languages) gives her unique perspective on linguistic inclusivity challenges in NLP. The Compassionate Computing Lab's interdisciplinary approach aligns well with CEI's integrated approach to AI ethics.

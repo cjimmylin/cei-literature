@@ -46,6 +46,8 @@ He was a pioneer in unit selection speech synthesis, which transitioned the fiel
 
 ## Papers in this Vault
 
+
+
 - [[2021-Prabhumoye-Case Study|Case Study]] (Last Author)
 
 ## External Links & Profiles
@@ -62,5 +64,9 @@ He was a pioneer in unit selection speech synthesis, which transitioned the fiel
 
 ## Notes
 
+
+
+- *From 2021-Prabhumoye-Case Study*: Affiliation: School of Computer Science
+- *From 2021-Prabhumoye-Case Study*: Affiliation: School of Computer Science
 - *From 2021-Prabhumoye-Case Study*: Affiliation: School of Computer Science
 [Alan is a legend in the speech synthesis community and a key figure in CMU's LTI history.]

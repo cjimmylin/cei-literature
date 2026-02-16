@@ -1,9 +1,9 @@
 ---
 name: "Mark Graves"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of San Francisco, San Francisco, CA, USA"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "mgraves@aiandfaith.org"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Graves-AI Practical Wisdom and Compassion|AI Practical Wisdom and Compassion]] (First Author)]]
+
 
 - [[2025-Graves-AI Practical Wisdom and Compassion|AI Practical Wisdom and Compassion]] (First Author)
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2025-Graves-AI Practical Wisdom and Compassion*: Affiliation: University of San Francisco, San Francisco, CA, USA, Email: mgraves@aiandfaith.org
+- *From 2025-Graves-AI Practical Wisdom and Compassion*: Affiliation: University of San Francisco, San Francisco, CA, USA, Email: mgraves@aiandfaith.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

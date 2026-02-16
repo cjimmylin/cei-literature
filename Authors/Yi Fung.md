@@ -28,10 +28,17 @@ The research was conducted in collaboration with Ruining Zhao, Jae Doo, Chenkai 
 ## Papers in this Vault
 
 
+
+
 - [[2024-Liu-CultureAtlas|CultureAtlas]] (First Author)
+- [[2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via|Self-Alignment: Improving Alignment of Cultural Values in LLMs via In-Context Learning]]
 
 ## Notes
 
 
+
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 The CultureAtlas work has received 35 citations as of August 2025 and represents pioneering research in moving beyond country-level cultural generalizations to address fine-grained cultural diversity in AI systems.

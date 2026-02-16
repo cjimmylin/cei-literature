@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "Hitomi Yanaka; Namgi Han; Ryoma Kumon; Jie Lu; Masashi Takeshita; Ryo 
 url: "https://arxiv.org/abs/2406.02050"
 external_pdf: "https://arxiv.org/pdf/2406.02050.pdf"
 national_ethnic_cultural: "Japanese"
+cultures_nationalities_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

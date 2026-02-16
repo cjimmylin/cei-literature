@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -15,6 +17,7 @@ url: "https://philarchive.org/rec/SNOBVE"
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.md"
 local_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf]]"
 national_ethnic_cultural: N/A
+cultures_nationalities_list: "N/A"
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes
@@ -23,6 +26,7 @@ key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (202
 significance: "Identifies three critical paradigm shifts needed: from curated scenarios to unfiltered streams, from verdict accuracy to reasoning quality, from ground truth to reasonableness assessment"
 external_pdf: "https://philarchive.org/archive/SNOBVE"
 abstract: "Existing evaluations may inadequately assess the moral reasoning capabilities needed for real-world deployment, focusing primarily on whether models can match human judgments on carefully curated ethical scenarios. The authors surveyed 69 papers evaluating LLM ethical competence (2020-2025) and developed a taxonomy categorizing evaluations across datasets, behaviors, and metrics. The analysis reveals a field experiencing explosive growth—doubling approximately every 14 months—but also exposes systematic limitations that constrain our ability to assess real-world moral competence. Most significantly, the vast majority of studies rely on pre-packaged scenarios that highlight morally relevant features, failing to test models' ability to identify ethical considerations in noisy, realistic contexts—what they term 'moral sensitivity'."
+DATE_ADDED: 20260208
 ethics_overall: No
 virtue_ethics: Yes
 deontological_ethics: No

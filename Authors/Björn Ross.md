@@ -47,6 +47,9 @@ He is a Co-Director of the SMASH (Social Media Analysis of Science and Health) g
 ## Papers in this Vault
 
 
+
+
+- [[2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators|Fabricating Holiness Characterizing Religious Misinformation Circulators]]
 - [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]]
 
 ## External Links & Profiles
@@ -63,5 +66,9 @@ He is a Co-Director of the SMASH (Social Media Analysis of Science and Health) g
 
 ## Notes
 
+
+
+- *From 2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators*: Affiliation: School of Informatics, The University of Edinburgh, Edinburgh, UK, Email: b.ross@ed.ac.uk
+- *From 2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators*: Affiliation: School of Informatics, The University of Edinburgh, Edinburgh, UK, Email: b.ross@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 [Björn is a central figure in the European computational social science community.]

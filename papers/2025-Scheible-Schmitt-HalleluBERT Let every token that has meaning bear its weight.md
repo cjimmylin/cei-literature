@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: preprint
 short_title: "HalleluBERT: Let every token that has meaning bear its weight"
 year: 2025
 first_author: "[[Scheible-Schmitt, Raphael]]"
-last_author: "[[Scheible-Schmitt, Raphael]]"
+last_author: "[[Raphael Scheible-Schmitt]]"
 authors: "[[Scheible-Schmitt, Raphael]]"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21372"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
+cultures_nationalities_list: "Israeli, Hebrew"
 languages_list: Hebrew
 religious_values: "N/A"
 religious_values_list: "N/A"

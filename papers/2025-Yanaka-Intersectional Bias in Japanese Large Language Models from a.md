@@ -44,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Hitomi Yanaka, Xinqi He, Jie Lu, Namgi Han, Sunjin Oh, Ryoma Kumon, Yuma Matsuoka, Katsuhiko Watabe, Yuko Itatsu]]
+[[Hitomi Yanaka]], [[Xiaodong He|Xinqi He]], [[Jie Lu]], [[Namgi Han]], [[Seong Joon Oh|Sunjin Oh]], [[Ryoma Kumon]], [[Yuma Matsuoka]], [[Katsuhiko Watabe]], [[Yuko Itatsu]]
 
 ## Metadata
 

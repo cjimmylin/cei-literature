@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
+cultures_nationalities_list: "German"
 languages_list: German
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Christoph Demus, Jonas Pitz, Mina Schussler, Dirk Labudde, Udo Kruschwitz]]
+[[Christoph Demus]], [[Jonas Pitz]], [[Mina Schussler]], [[Dirk Labudde]], [[Udo Kruschwitz]]
 
 ## Metadata
 

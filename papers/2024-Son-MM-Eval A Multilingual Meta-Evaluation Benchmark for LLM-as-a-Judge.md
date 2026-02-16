@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,9 +10,9 @@ type: preprint
 short_title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
 year: 2025
 first_author: "[[Son, Guijin]]"
-last_author: "[[Son, Guijin]]"
-authors: "[[Son, Guijin]]"
-authors_incomplete: true
+last_author: "[[Kim, Seungone]]"
+authors: "[[Son, Guijin]]; [[Yoon, Dongkeun]]; [[Suk, Juyoung]]; [[Aula-Blasco, Javier]]; [[Aslan, Mano]]; [[Kim, Vu Trong]]; [[Islam, Shayekh Bin]]; [[Prats-Cristià, Jaume]]; [[Tormo-Bañuelos, Lucía]]; [[Kim, Seungone]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2410.17578"
 external_pdf: "https://arxiv.org/pdf/2410.17578.pdf"
 publication: arXiv
@@ -23,6 +24,7 @@ virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
+cultures_nationalities_list: "French"
 languages_list: "122 languages for consistency, 18 languages including French"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,11 +44,11 @@ abstract: "As Large Language Models (LLMs) are now capable of producing fluent a
 
 ## Authors
 
-[[Guijin Son, et al.]]
+[[Son, Guijin]], [[Yoon, Dongkeun]], [[Suk, Juyoung]], [[Aula, Javier|Aula-Blasco, Javier]], [[Aslan, Mano]], [[Kim, Vu Trong]], [[Shayekh Bin Islam|Islam, Shayekh Bin]], [[Prats-Cristià, Jaume]], [[Tormo-Bañuelos, Lucía]], [[Kim, Seungone]]
 
 ## Metadata
 
-**Authors:** Guijin Son, et al.
+**Authors:** Son, Guijin; Yoon, Dongkeun; Suk, Juyoung; Aula-Blasco, Javier; Aslan, Mano; Kim, Vu Trong; Islam, Shayekh Bin; Prats-Cristià, Jaume; Tormo-Bañuelos, Lucía; Kim, Seungone
 
 **Year:** 2024
 

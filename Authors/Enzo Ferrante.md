@@ -35,6 +35,8 @@ Enzo Ferrante is an Independent Researcher at CONICET (Argentina's National Scie
 ## Papers in this Vault
 
 
+
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## External Links
@@ -46,5 +48,9 @@ Enzo Ferrante is an Independent Researcher at CONICET (Argentina's National Scie
 ## Notes
 
 
+
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 Enzo Ferrante's work on fairness in AI contributes to ensuring that AI systems, particularly in healthcare, serve diverse populations equitably.

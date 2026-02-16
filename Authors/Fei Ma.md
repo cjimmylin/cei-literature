@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+
 - [[2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large|EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +85,10 @@ twitter: ""
 ## Notes
 
 
+
+
+- *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: huhe@gml.ac.cn
+- *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: huhe@gml.ac.cn
 - *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: mafei@gml.ac.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

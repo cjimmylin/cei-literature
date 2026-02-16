@@ -1,9 +1,9 @@
 ---
 name: "Aso N. Ismael"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "Ismael.Ali@uoz.edu.krd"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language|Hate Speech Detection in Social Media for the Kurdish Language]]
+
+- [[2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities|Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,10 @@ twitter: ""
 
 ## Notes
 
+
+
+- *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: Ismael.Ali@uoz.edu.krd
+- *From 2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities*: Affiliation: Department of Information Technology, Technical College of Informatics-Akre, Duhok Polytechnic University, Duh, Email: Ismael.Ali@uoz.edu.krd
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

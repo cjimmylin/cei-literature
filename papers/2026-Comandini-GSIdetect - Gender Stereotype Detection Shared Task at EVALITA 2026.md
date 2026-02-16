@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +11,7 @@ type: conferencePaper
 short_title: "GSI:detect — Gender Stereotype Detection Shared Task at EVALITA 2026"
 year: 2025
 first_author: "[[Gloria Comandini]]"
-last_author: "[[Bernardo Magnini]]"
+last_author: "[[Bernardo Magnini Stefania Cavagnoli]]"
 authors: "Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini"
 url: "https://www.evalita.it/campaigns/evalita-2026/tasks/"
 publication: "EVALITA 2026"
@@ -22,6 +23,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
+cultures_nationalities_list: "Italian"
 languages_list: Italian
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -42,7 +44,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini]]
+[[Manuela Speranza Gloria Comandini]], [[Davide Testa Sofia Brenna]], [[Bernardo Magnini Stefania Cavagnoli]]
 
 ## Metadata
 

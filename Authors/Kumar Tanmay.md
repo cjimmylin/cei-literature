@@ -22,6 +22,8 @@ Kumar Tanmay is a Graduate Research Assistant at MIT and a Master's student in C
 ## Papers in this Vault
 
 
+
+
 - [[2024-Agarwal-Ethical Reasoning Depends on Language|Ethical Reasoning Depends on Language]]
 - [[2024-Khandelwal-Do Moral Judgment and Reasoning Capability of|Do Moral Judgment and Reasoning Capability of]]
 - [[2023-Deng-Probing the Moral Development of Large Language|Probing the Moral Development of Large Language]] (First Author)
@@ -30,5 +32,9 @@ Kumar Tanmay is a Graduate Research Assistant at MIT and a Master's student in C
 ## Notes
 
 
+
+
+- *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: monojitc@microsoft.com
+- *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: t-aditikh@microsoft.com
 - *From 2023-Deng-Probing the Moral Development of Large Language*: Affiliation: school students, Email: t-ktanmay@microsoft.com
 [Additional context or contact information]

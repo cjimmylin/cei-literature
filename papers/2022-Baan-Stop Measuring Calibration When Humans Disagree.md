@@ -1,5 +1,7 @@
 ---
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +18,7 @@ url: "http://arxiv.org/abs/2210.16133"
 external_pdf: "http://arxiv.org/pdf/2210.16133.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +28,7 @@ pdf_extract: "PDF Extracts/2022/2022-Baan-Stop Measuring Calibration When Humans
 abstract: "Calibration is a popular framework to evaluate whether a classiﬁer knows when it does not know—i.e., its predictive probabilities are a good indication of how likely a prediction is to be correct. Correctness is commonly estimated against the human majority class. Recently, calibration to human majority has been measured on tasks where humans inherently disagree about which class applies. We show that measuring calibration to human majority given inherent disagreements is theoretically..."
 paper_summary: "Abstract: Calibration is a popular framework to evalu- ate whether a classiﬁer knows when it does not know—i.e., its predictive probabilities are a good indication of how likely a prediction is to be correct. C | Overview: Stop Measuring Calibration When Humans Disagree Joris Baan1, Wilker Aziz1, Barbara Plank2,3,4, Raquel Fernández1 1University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich {j.s. | Methodology: We ﬁne-tune RoBERTa (Liu et al., 2019) on SNLI following the standard procedure de- scribed by Desai and Durrett (2020). We evalu- ate on the ChaosNLI | Key Findings: The OOD setting is interesting to evaluate uncer- tainty estimates, because it is especially important to have reliable uncertainty estimates for exam | Conclusions: We demonstrate a fundamental problem with mea- suring calibration to the human majority vote in settings with inherent disagreement in human la- bels."
 local_pdf: "[[PDFs/2022/2022-Baan-Stop Measuring Calibration When Humans Disagree.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"

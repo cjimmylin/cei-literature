@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "http://arxiv.org/abs/2311.10934"
 external_pdf: "http://arxiv.org/pdf/2311.10934.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Feng-Case Repositories.md"
 abstract: "Case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. Similar complexities and ambiguities arise when we consider how AI should be aligned in practice: when faced with vast quantities of diverse (and sometimes conflicting) values from different individuals and communities, with whose values is AI to align, and how should AI do so?"
 paper_summary: "Abstract: Case studies commonly form the pedagogical backbone in law, ethics, and many other domains that face complex and ambiguous societal questions informed by human values. Similar complexities and ambigui | Overview: Case Repositories: Towards Case-Based Reasoning for AI Alignment K. J. Kevin Feng1, Quan Ze Chen1, Inyoung Cheong1, King Xia2, Amy X. Zhang1 1University of Washington, 2Independent Attorney sfl-case-l | Methodology: to complex moral dilemmas. Fullinwider [2010] stresses to revive casuistic reasoning in moral education to develop individuals' ability to make nuance | Conclusions: 3.1 Case-based Reasoning (CBR) in Moral Philosophy As Kolodner [1992] notes, CBR has a long and storied pedigree in Western philosophy, theology, and"
 local_pdf: "[[PDFs/2023/2023-Feng-Case Repositories.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

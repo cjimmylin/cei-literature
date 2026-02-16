@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +19,7 @@ url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"
 external_pdf: "http://arxiv.org/pdf/2306.11432"
 publication: "AI Ethics (Springer)"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -28,6 +31,7 @@ pdf_extract: "PDF Extracts/2023/2023-Boddington-Normative Ethical Theory AI Ethi
 abstract: "Moral AI has been studied in the fields of phi- losophy and artificial intelligence. Although most existing studies are only theoretical, recent devel- opments in AI have made it increasingly neces- sary to implement AI with morality. On the other hand, humans are under the moral uncertainty of not knowing what is morally right. In this paper, we implement the Maximizing Expected Choicewor- thiness (MEC) algorithm, which aggregates out- puts of models based on three normative theories of normati"
 paper_summary: 
 local_pdf: "[[PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +12,7 @@ type: preprint
 short_title: "From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation"
 year: 2025
 first_author: "[[Guijin Son]]"
-last_author: "[[Hanwool Lee]]"
+last_author: "[[Hanwool Lee Suwan Kim]]"
 authors: "Guijin Son, Hyunwoo Ko, Suwan Kim, Hanwool Lee"
 url: "https://arxiv.org/abs/2507.08924"
 external_pdf: "https://arxiv.org/pdf/2507.08924.pdf"
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 languages_list: Korean
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -44,7 +46,7 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Guijin Son, Hyunwoo Ko, Suwan Kim, Hanwool Lee]]
+[[Hyunwoo Ko Guijin Son]], [[Hanwool Lee Suwan Kim]]
 
 ## Metadata
 

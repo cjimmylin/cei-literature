@@ -10,7 +10,7 @@ type: conferencePaper
 short_title: Investigating Human Values in Online Communities
 year: 2025
 first_author: "[[Nadav Borenstein]]"
-last_author: "[[Isabelle Augenstein]]"
+last_author: "[[Isabelle Augenstein Lucie-Aimee Kaffee]]"
 authors: Nadav Borenstein, Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein
 doi: 10.18653/v1/2025.naacl-long.77
 url: "https://aclanthology.org/2025.naacl-long.77/"
@@ -45,7 +45,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 
 ## Authors
 
-[[Nadav Borenstein, Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein]]
+[[Arnav Arora Nadav Borenstein]], [[Isabelle Augenstein Lucie-Aimee Kaffee]]
 
 ## Metadata
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean"
+cultures_nationalities_list: "Chinese, Japanese, Korean"
 languages_list: "Kyrgyz, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -46,7 +48,7 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Dasol Choi]], [[Woomyoung Park]], [[Youngsook Song]]
+[[Choi, Dasol]], [[Park, Woomyoung]], [[Song, Youngsook]]
 
 ## Metadata
 

@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2024-Toygar-Turkish Offensive Language Detection Dataset.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Toygar]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Douglas Trajano, Henrique Bordini, Renata Vieira",
+    "year": "2025",
+    "doi": "10.1007/s10579-023-09657-0",
+    "url": "https://link.springer.com/article/10.1007/s10579-023-09657-0",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md",
+    "has_extract": true,
+    "authors": "Sang Truong, Duc Nguyen, Toan Nguyen, Dong Le, Nhi Truong, Tho Quan, Sanmi Koyejo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.findings-naacl.182/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.md",
+    "has_extract": true,
+    "authors": "[[Multiple authors (American University)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.05548",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-University-Using LLMs to Discover Emerging Coded.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-University-Using LLMs to Discover Emerging Coded.md",
+    "has_extract": true,
+    "authors": "[[Multiple authors (American University)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2401.10841",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-A Deep Learning Framework for Automatic Detection of Hate Speech.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/349093400_A_Deep_Learning_Framework_for_Automatic_Detection_of_Hate_Speech_Embedded_in_Arabic_Tweets",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-A Novel Socio-pragmatic Framework for Sentiment.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0950705124008827",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-A structured sentiment analysis dataset based on public comments from.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Wei, Zhongliang]]; [[Zhang, Shunxiang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352340924002038",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Unknown-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://openreview.net/pdf?id=D698BEfwgv",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/figure/Available-hate-speech-datasets-for-Arabic_tbl1_381031629",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-Comparative Survey of German Hate Speech Datasets Background.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Unknown-Comparative Survey of German Hate Speech Datasets Background.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/378070468_Comparative_Survey_of_German_Hate_Speech_Datasets_Background_Characteristics_and_Biases",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Unknown-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Unknown (mair-lab)",
+    "year": "2024",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/mair-lab/CulturalVQA",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-HateThaiSent Sentiment-Aided Hate Speech Detection in.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ieeexplore.ieee.org/document/10494986/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-Indigenous Language Technology in the Age of Machine Learning.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Unknown (Tandfonline authors)",
+    "year": "2024",
+    "doi": "10.1080/08003831.2024.2410124",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/08003831.2024.2410124",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-LIEA-BERT A Linguistically Enriched Framework for.md",
+    "pdf_extract_path": "PDF Extracts/0000/2024-Unknown-LIEA-BERT A Linguistically Enriched Framework for.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://datasciencehub.net/paper/liea-bert-linguistically-enriched-framework-hate-speech-detection-low-resource-thai",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Unknown (Multimedia-SMU)",
+    "year": "2024",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Unknown-hatebnBERT An Innovative Novel Transformer Model.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md",
+    "has_extract": true,
+    "authors": "Viacheslav Vasilev, Vladimir Arkhipkin, Julia Agafonova, Tatiana Nikulina, Evelina Mironova, Alisa Shichanina, Nikolai Gerasimenko, Mikhail Shoytov, Denis Dimitrov",
+    "year": "2024",
+    "doi": "10.1134/S1064562424602324",
+    "url": "https://arxiv.org/abs/2505.04851",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md",
+    "has_extract": true,
+    "authors": "Yana Veitsman",
+    "year": "2025",
+    "doi": "10.1007/978-3-031-88036-0_1",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-88036-0_1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Veitsman-Recent Advancements and Challenges of Turkic.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Veitsman-Recent Advancements and Challenges of Turkic.md",
+    "has_extract": true,
+    "authors": "[[Yana Veitsman]]; [[Mareike Hartmann]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.05006",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Veitsman-The Development and Experimental Evaluation of a Multilingual Speech.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Yana Veitsman",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.mdpi.com/2076-3417/15/24/12880",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Velankar-SamPar A Marathi Hate Speech Dataset.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-[[Velankar]]-SamPar A Marathi Hate Speech Dataset.md",
+    "has_extract": true,
+    "authors": "Abhishek Velankar; Hrushikesh Patil; Amol Gore; Shubham Salunke; Raviraj Joshi",
+    "year": "2025",
+    "doi": "",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-58495-4_3",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Voukoutis-Meltemi The first open Large Language Model for Greek.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Voukoutis-Meltemi The first open Large Language Model for Greek.md",
+    "has_extract": true,
+    "authors": "Leon Voukoutis, Dimitris Roussis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.20743",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md",
+    "has_extract": true,
+    "authors": "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]",
+    "year": "2025",
+    "doi": "10.18653/v1/2024.findings-acl.349",
+    "url": "https://arxiv.org/abs/2310.00905",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md",
+    "has_extract": true,
+    "authors": "Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.07251",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wang-XSafety Multilingual Safety Benchmark.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Wang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/Jarviswang94/Multilingual_safety_benchmark",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[Wasi, Azmine Toushik]]; [[Islam, Raima]]; [[Islam, Mst Rafia]]; [[Rafi, Taki Hasan]]; [[Chae, Dong-Kyu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.18376",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wen-Yi-How Chinese are Chinese Language Models The Puzzling Lack of Language.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Andrea W Wen-Yi, Unso Eun Seo Jo, Lu Jia Lin, David Mimno",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2407.09652",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md",
+    "has_extract": true,
+    "authors": "[[Wibowo, Haryo Akbarianto]]; [[Fuadi, Erland Hilman]]; [[Nityasya, Made Nindyatama]]; [[Prasojo, Radityo Eko]]; [[Aji, Alham Fikri]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.01012",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md",
+    "has_extract": true,
+    "authors": "Wijanarko, Susanto, Pratama, Idris, Hong, Wijaya",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.emnlp-demo.15/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+    "has_extract": true,
+    "authors": "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2403.06574",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md",
+    "has_extract": true,
+    "authors": "Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.14397",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+    "has_extract": true,
+    "authors": "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.10946",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md",
+    "has_extract": true,
+    "authors": "[[Xu, Shaoyang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2402.18120",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md",
+    "has_extract": true,
+    "authors": "Yiran Yang, Zeerak Talat, Robert Monarch",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.22153",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md",
+    "has_extract": true,
+    "authors": "[[Yang, Hao]]; [[Zhao, Yanyan]]; [[Wu, Yang]]; [[Wang, Shilong]]; [[Zheng, Tian]]; [[Zhang, Hongbo]]; [[Ma, Zongyang]]; [[Che, Wanxiang]]; [[Qin, Bing]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2406.08068v2",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via.md",
+    "has_extract": true,
+    "authors": "Jing Yao, Yi Fung, Heng Ji",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2408.16482",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yeltay-Kazakh Language Dataset for Hate Speech.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay]]",
+    "year": "2024",
+    "doi": "10.1109/ICCIA62557.2024.10719327",
+    "url": "https://doi.org/10.1109/ICCIA62557.2024.10719327",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yin-SafeWorld Geo-Diverse Safety Alignment.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yin-SafeWorld Geo-Diverse Safety Alignment.md",
+    "has_extract": true,
+    "authors": "Da Yin, Haoyi Qiu, Kung-Hsiang Huang, Kai-Wei Chang, Nanyun Peng",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.06483",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+    "has_extract": true,
+    "authors": "[[Jason Edward Lewis, Hemi Whaanga, Ceyda Yolgoermez]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yoo-HyperCLOVA X Technical Report.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yoo-HyperCLOVA X Technical Report.md",
+    "has_extract": true,
+    "authors": "Kang Min Yoo, Jaegeun Han, Sookyo In, Heewon Jeon, Jisu Jeong, Jaewook Kang, et al. (NAVER Cloud HyperCLOVA X Team)",
+    "year": "2024",
+    "doi": "10.48550/arXiv.2404.01954",
+    "url": "https://arxiv.org/abs/2404.01954",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Ammar Younas, Yi Zeng",
+    "year": "2025",
+    "doi": "10.1007/s43681-024-00505-7",
+    "url": "https://link.springer.com/article/10.1007/s43681-024-00505-7",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+    "has_extract": true,
+    "authors": "[[Yu, Zehui]]; [[Sen, Indira]]; [[Assenmacher, Dennis]]; [[Samory, Mattia]]; [[Fröhling, Leon]]; [[Dahn, Christina]]; [[Nozza, Debora]]; [[Wagner, Claudia]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2405.08562v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md",
+    "has_extract": true,
+    "authors": "Jiahao Yuan, Zixiang Di, Shangzixin Zhao, Zhiqing Cui, Hanqing Wang, Guisong Yang, Usman Naseem",
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.11167",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md",
+    "has_extract": true,
+    "authors": "Z. Delbari, N.S. Moosavi, M.T. Pilehvar",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29743",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+    "has_extract": true,
+    "authors": "[[Zangari, Lorenzo]]; [[Greco, C. M.]]; [[Picca, Davide]]; [[Tagarelli, A.]]",
+    "year": "2025",
+    "doi": "10.1007/s00146-025-02225-w",
+    "url": "https://link.springer.com/article/10.1007/s00146-025-02225-w",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural.md",
+    "has_extract": true,
+    "authors": "[[Elise Karinshak, Amanda Hu, Kewen Kong, Vishwanatha Rao, Jingren Wang, Jindong Wang, Yi Zeng]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.06032",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Zeng-Leveraging Large Language Models for Code-Mixed.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Zeng-Leveraging Large Language Models for Code-Mixed.md",
+    "has_extract": true,
+    "authors": "[[Linda Zeng]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2411.00691",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.md",
+    "has_extract": true,
+    "authors": "[[Zhang, Mengyuan]]; [[Wang, Ruihui]]; [[Xia, Bo]]; [[Sun, Yuan]]; [[Zhao, Xiaobing]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2411.09492v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.md",
+    "has_extract": true,
+    "authors": "[[Mike Zhang]]; [[Max Müller-Eberstein]]; [[Elisa Bassignana]]; [[Rob van der Goot]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2412.12956",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2024-Zolkepli-MaLLaM - Malaysia Large Language Model.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-Zolkepli-MaLLaM - Malaysia Large Language Model.md",
+    "has_extract": true,
+    "authors": "Husein Zolkepli, Aisyah Razak",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2401.14680",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-Zümberoğlu-Towards Better Sentiment Analysis in the Turkish Language Dataset.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Kevser Büşra Zümberoğlu; Sümeyye Zülal Dik; Büşra Sinem Karadeniz; Shaaban Sahmoud",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.mdpi.com/2076-3417/15/4/2062",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1007/s13278-024-01355-1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.mdpi.com/2673-2688/6/8/194",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.md",
+    "pdf_extract_path": "PDF Extracts/2024/2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.md",
+    "has_extract": true,
+    "authors": "[[at, Overview of the Multilingual Text Detoxification Task]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3740/paper-223.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-community-Open Leaderboard for Hebrew LLMs.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Hugging Face / Hebrew NLP community",
+    "year": "2025",
+    "doi": "",
+    "url": "https://huggingface.co/blog/leaderboard-hebrew",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "SapienzaNLP group",
+    "year": "2025",
+    "doi": "",
+    "url": "https://github.com/SapienzaNLP/ita-bench",
+    "body_richness": "thin"
+  }
+]

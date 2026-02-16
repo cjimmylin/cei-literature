@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +12,10 @@ key: EXSR0437
 type: preprint
 short_title: "SweEval Do LLMs Really Swear A"
 year: 2025
-first_author: "[[Kumar, Bhargava]]"
-last_author: "[[Kumar, Tejaswini]]"
-authors: "[[Kumar, Bhargava]]; [[Hasan, Taki]]; [[Kumar, Tejaswini]]"
-authors_incomplete: true
+first_author: "[[Patel, Hitesh Laxmichand]]"
+last_author: "[[Chae, Dong-Kyu]]"
+authors: "[[Patel, Hitesh Laxmichand]]; [[Agarwal, Amit]]; [[Das, Arion]]; [[Kumar, Bhargava]]; [[Panda, Srikant]]; [[Pattnayak, Priyaranjan]]; [[Rafi, Taki Hasan]]; [[Kumar, Tejaswini]]; [[Chae, Dong-Kyu]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2505.17332"
 external_pdf: "https://arxiv.org/pdf/2505.17332.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-SweEval Do LLMs Really Swear A.md"
@@ -25,6 +27,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "N/A"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,11 +47,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Kumar, Bhargava]], [[Hasan, Taki]], [[Kumar, Tejaswini]]
+[[Patel, Hitesh Laxmichand]], [[Agarwal, Amit]], [[Das, Arion]], [[Kumar, Bhargava]], [[Panda, Srikant]], [[Pattnayak, Priyaranjan]], [[Rafi, Taki Hasan]], [[Kumar, Tejaswini]], [[Chae, Dong-Kyu]]
 
 ## Metadata
 
-**Authors:** Bhargava Kumar; Taki Hasan; Tejaswini Kumar
+**Authors:** Patel, Hitesh Laxmichand; Agarwal, Amit; Das, Arion; Kumar, Bhargava; Panda, Srikant; Pattnayak, Priyaranjan; Rafi, Taki Hasan; Kumar, Tejaswini; Chae, Dong-Kyu
 
 **Year:** 2025
 

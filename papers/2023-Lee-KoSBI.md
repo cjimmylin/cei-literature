@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,6 +15,7 @@ authors: "[[Lee, Hwaran]]; [[Hong, Seokhee]]; [[Park, Joonsuk]]; [[Kim, Takyoung
 url: "https://aclanthology.org/2023.acl-industry.21/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QM5QX7X7/2023 - KoSBI A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications.pdf"
 national_ethnic_cultural: "Korean"
+cultures_nationalities_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -25,6 +27,7 @@ abstract: "Large language models (LLMs) learn not only natural text generation a
 pdf: "http://arxiv.org/pdf/2305.17701"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBI.md"
 local_pdf: [[PDFs/2023/2023-Lee-KoSBI.pdf]]
+DATE_ADDED: 20260208
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

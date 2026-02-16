@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
+cultures_nationalities_list: "Swedish"
 languages_list: Swedish
 religious_values: "N/A"
 religious_values_list: "N/A"
@@ -45,7 +47,7 @@ ethics_perspective: "Bias & Fairness"
 
 ## Authors
 
-[[Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells]]
+[[Saga Hansson]], [[Konstantinos Mavromatakis]], [[Yvonne Adesam]], [[Gerlof Bouma]], [[Dana Dannells]]
 
 ## Metadata
 

@@ -25,6 +25,8 @@ She collaborated on creating the Fairlearn toolkit and worked with practitioners
 ## Papers in this Vault
 
 
+
+
 - [[2023-Fleisig-FairPrism|FairPrism]] (Last Author)
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
@@ -37,5 +39,9 @@ She collaborated on creating the Fairlearn toolkit and worked with practitioners
 ## Notes
 
 
+
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 Holds BA from Cambridge, MSc from Edinburgh, and PhD from Cambridge. Collaborates across ML, NLP, HCI, and STS fields. Known for integrating qualitative and quantitative perspectives in fairness research. Co-author of "Datasheets for Datasets" and influential work on bias in AI systems.

@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Qwen, Qwen3, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Recently, embedding resources, including models, benchmarks, and datasets, have been widely released to support a variety of languages. However, the Dutch language remains underrepresented, typically comprising only a small fraction of the published multilingual resources. To address this gap and encourage the further development of Dutch embeddings, we introduce new resources for their evaluation and generation."
 research_topic: "Machine Learning"

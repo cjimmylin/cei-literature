@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh|KazBench-KK A Cultural-Knowledge Benchmark for Kazakh]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh*: Affiliation: lable datasets
 - *From 2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh*: Affiliation: lable datasets
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

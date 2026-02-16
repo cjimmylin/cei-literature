@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Southeast Asian"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Safeguard models help large language models (LLMs) detect and block h
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-2, Gemma-3, Gemma3, LLaMA-3.1, LLaMA-3.3, Llama, Llama-3.2, LlamaGuard, Qwen 494M"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures

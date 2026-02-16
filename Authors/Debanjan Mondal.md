@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Dillion-AI Language Model Rivals Expert Ethicist|AI Language Model Rivals Expert Ethicist]]
 - [[2024-Wu-WorldValuesBench|WorldValuesBench]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: danicaw@email.unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu

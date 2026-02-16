@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Korir-API Multilingual & Multicultural Resources - Asian Pacific Islander|API Multilingual & Multicultural Resources - Asian Pacific Islander Speech-Language-Hearing Caucus]] (First Author)
 - [[2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25|LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org
 - *From 2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25*:, Email: lrec@elda.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

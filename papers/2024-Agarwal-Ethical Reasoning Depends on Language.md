@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "https://arxiv.org/pdf/2404.18460.pdf"
 publication: "LREC-COLING 2024"
 national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Indian, African, Spanish, Russian"
+languages_list: "Arabic, Chinese, English, Hindi, Russian, Spanish, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
 local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes

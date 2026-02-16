@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning|VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark]] (First Author)
 
 ## External Links & Profiles

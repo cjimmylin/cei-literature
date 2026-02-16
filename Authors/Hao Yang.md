@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]] (First Author)
 - [[2024-Li-THRONE|THRONE]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

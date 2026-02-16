@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3UPAJU7/Awad et al. - 2020 - Universals and variations in moral decisions made in 42 countries by 70,000 participants.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

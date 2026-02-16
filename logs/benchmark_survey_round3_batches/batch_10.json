@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.md",
+    "has_extract": true,
+    "authors": "[[Xu, Tianyi]]; [[Chen, Hongjie]]; [[Qing, Wang]]; [[Hang, Lv]]; [[Kang, Jian]]; [[Jie, Li]]; [[Lin, Zhennan]]; [[Li, Yongxiang]]; [[Lei, Xie]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2505.21138v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.md",
+    "has_extract": true,
+    "authors": "[[Gao, Jian]]; [[Xuan, Richeng]]; [[Kang, Zhaolu]]; [[Liao, Dingshi]]; [[Huang, Wenxin]]; [[Huang, Zongmou]]; [[Xu, Yangdi]]; [[Qin, Bowen]]; [[He, Zheqi]]; [[Yang, Xi]]; [[Li, Changjin]]; [[Lin, Yonghua]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2511.11334",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.md",
+    "has_extract": true,
+    "authors": "[[Weihao Xuan]]; [[Rui Yang]]; [[Heli Qi]]; [[Qingcheng Zeng]]; [[Yunze Xiao]]; [[Aosong Feng]]; [[Dairui Liu]]; [[Yun Xing]]; [[Junjue Wang]]; [[Fan Gao]]; [[Jinghui Lu]]; [[Yuang Jiang]]; [[Huitao Li]]; [[Xin Li]]; [[Kunyu Yu]]; [[Ruihai Dong]]; [[Shangding Gu]]; [[Yuekang Li]]; [[Xiaofei Xie]]; [[Felix Juefei-Xu]]; [[Foutse Khomh]]; [[Osamu Yoshie]]; [[Qingyu Chen]]; [[Douglas Teodoro]]; [[Nan Liu]]; [[Randy Goebel]]; [[Lei Ma]]; [[Edison Marrese-Taylor]]; [[Shijian Lu]]; [[Yusuke Iwasawa]]; [[Yutaka Matsuo]]; [[Irene Li]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.10497",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md",
+    "has_extract": true,
+    "authors": "[[Richmond Sin Jing Xuan]]; [[Jalil Huseynov]]; [[Yang Zhang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2507.18918",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
+    "has_extract": true,
+    "authors": "[[Taisei Yamamoto, Ryoma Kumon, Danushka Bollegala, Hitomi Yanaka]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.24468",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md",
+    "has_extract": true,
+    "authors": "[[Yanaka]]",
+    "year": "2025",
+    "doi": "10.1145/3700438",
+    "url": "https://dl.acm.org/doi/10.1145/3700438",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md",
+    "has_extract": true,
+    "authors": "Hitomi Yanaka, Xinqi He, Jie Lu, Namgi Han, Sunjin Oh, Ryoma Kumon, Yuma Matsuoka, Katsuhiko Watabe, Yuko Itatsu",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.12327",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md",
+    "has_extract": true,
+    "authors": "Yilun Yang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2507.18791v2",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.md",
+    "has_extract": true,
+    "authors": "Yilun Yang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2505.05063v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.md",
+    "has_extract": true,
+    "authors": "Haote Yang, Xingjian Wei, Jiang Wu, Noemi Ligeti-Nagy, Jiaxing Sun, Yinfan Wang, Zijian Gyozo Yang, Junyuan Gao, Jingchao Wang, Bowen Jiang, Shasha Wang, Nanjun Yu, Zihao Zhang, Shixin Hong, Hongwei Liu, Wei Li, Songyang Zhang, Dahua Lin, Lijun Wu, Gabor Proszeky, Conghui He",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2503.21500",
+    "url": "https://arxiv.org/abs/2503.21500",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.md",
+    "has_extract": true,
+    "authors": "[[Yao, Yuan]]; [[Dong, Qingxiu]]; [[Guan, Jian]]; [[Cao, Boxi]]; [[Zhang, Zhengyan]]; [[Xiao, Chaojun]]; [[Wang, Xiaozhi]]; [[Qi, Fanchao]]; [[Bao, Junwei]]; [[Nie, Jinran]]; [[Zeng, Zheni]]; [[Gu, Yuxian]]; [[Zhou, Kun]]; [[Huang, Xuancheng]]; [[Li, Wenhao]]; [[Ren, Shuhuai]]; [[Lu, Jinliang]]; [[Xu, Chengqiang]]; [[Wang, Huadong]]; [[Zeng, Guoyang]]; [[Zhou, Zile]]; [[Zhang, Jiajun]]; [[Li, Juanzi]]; [[Huang, Minlie]]; [[Yan, Rui]]; [[He, Xiaodong]]; [[Wan, Xiaojun]]; [[Zhao, Xin]]; [[Sun, Xu]]; [[Liu, Yang]]; [[Liu, Zhiyuan]]; [[Han, Xianpei]]; [[Yang, Erhong]]; [[Sui, Zhifang]]; [[Sun, Maosong]]",
+    "year": "2025",
+    "doi": "",
+    "url": "http://cuge.baai.ac.cn/pdf/CUGE.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.md",
+    "has_extract": true,
+    "authors": "Jui-Ming Yao, Bing-Cheng Xie, Sheng-Wei Peng, Hao-Yuan Chen, He-Rong Zheng, Bing-Jia Tan, Peter Shaojui Wang, Shun-Feng Su",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.01274",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yimam-CULEMO Cultural Lenses on Emotion --.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.md",
+    "has_extract": true,
+    "authors": "[[Tadesse Destaw Belay, Ahmed Haj Ahmed, Alvin Grissom II, Iqra Ameer, Grigori Sidorov, Olga Kolesnikova, Seid Muhie Yimam]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.10688",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md",
+    "has_extract": true,
+    "authors": "[[Yong, Zheng-Xin]]; [[Ermis, Beyza]]; [[Fadaee, Marzieh]]; [[Bach, Stephen H.]]; [[Kreutzer, Julia]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.24119",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md",
+    "has_extract": true,
+    "authors": "[[Yoo, Seohyun]]; [[Jeon, Eunbae]]; [[Hyeon, Joonseo]]; [[Cho, Jaehyuk]]",
+    "year": "2025",
+    "doi": "10.1038/s41598-025-88960-y",
+    "url": "https://www.nature.com/articles/s41598-025-88960-y",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md",
+    "has_extract": true,
+    "authors": "Haneul Yoo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.findings-acl.407.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md",
+    "has_extract": true,
+    "authors": "Haneul Yoo, Yongjin Yang, Hwaran Lee",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2406.15481",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.md",
+    "has_extract": true,
+    "authors": "Heeju Yoon, Youngmin Kim, Woojun Kim, Jongwon Lee, Jinhwan Choi, Hai Jin Park, Wonseok Hwang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.24572",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md",
+    "has_extract": true,
+    "authors": "Cohen, Yotam; Shenhav, Shaul; Loewenthal, Alon",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.15483",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md",
+    "has_extract": true,
+    "authors": "[[Yu, Haorui]]; [[Ruiz-Dolz, Ramon]]; [[Yi, Qiufeng]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2509.23208v2",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "has_extract": true,
+    "authors": "[[Yu, Linhao]]; [[Leng, Yongqi]]; [[Huang, Yufei]]; [[Wu, Shang]]; [[Liu, Haixin]]; [[Ji, Xinmeng]]; [[Zhao, Jiahui]]; [[Song, Jinwang]]; [[Cui, Tingting]]; [[Cheng, Xiaoqing]]; [[Liu, Tao]]; [[Xiong, Deyi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.findings-acl.703.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md",
+    "has_extract": true,
+    "authors": "[[Yu, Xiaohan]]; [[Wang, Jin]]",
+    "year": "2025",
+    "doi": "10.1371/journal.pone.0330919",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330919",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md",
+    "has_extract": true,
+    "authors": "[[Cheng Huang, Fan Gao, Yutong Liu, Nyima Tashi, Xiangxiang Wang, Thupten Tsering, Ban Ma-bao, Renzeg Duojie, Gadeng Luosang, Rinchen Dongrub, Dorje Tashi, Xiao Feng, Hao Wang, Yongbin Yu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.18288",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Yu-TLUE A Tibetan Language Understanding Evaluation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Yu-TLUE A Tibetan Language Understanding Evaluation.md",
+    "has_extract": true,
+    "authors": "[[Fan Gao, Cheng Huang, Nyima Tashi, Xiangxiang Wang, Thupten Tsering, Ban Ma-bao, Renzeg Duojie, Gadeng Luosang, Rinchen Dongrub, Dorje Tashi, Xiao Feng, Yongbin Yu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.12051",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md",
+    "has_extract": true,
+    "authors": "[[Zahid, Anwar Hossain]]; [[Roy, Monoshi Kumar]]; [[Das, Swarna]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.19612",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md",
+    "has_extract": true,
+    "authors": "[[Nouar AlDahoul, Yasir Zaki]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.15796",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md",
+    "has_extract": true,
+    "authors": "[[Zbeeb, Mohammad]]; [[Hammoud, Hasan Abed Al Kader]]; [[Mukalled, Sina]]; [[Rizk, Nadine]]; [[Karnib, Fatima]]; [[Lakkis, Issam]]; [[Mohanna, Ammar]]; [[Ghanem, Bernard]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2511.14295",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+    "has_extract": true,
+    "authors": "Yazhou Zhang, Qimeng Liu, Qiuchi Li, Peng Zhang, Jing Qin",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.22115",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+    "has_extract": true,
+    "authors": "[[Zhang, Song, Liu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-CultureScope A Dimensional Lens for Probing.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-CultureScope A Dimensional Lens for Probing.md",
+    "has_extract": true,
+    "authors": "[[Jinghao Zhang]]; [[Sihang Jiang]]; [[Shiwei Guo]]; [[Shisong Chen]]; [[Yanghua Xiao]]; [[Hongwei Feng]]; [[Jiaqing Liang]]; [[Minggui HE]]; [[Shimin Tao]]; [[Hongxia Ma]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.16188",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.md",
+    "has_extract": true,
+    "authors": "Xinyu Zhang, Pei Zhang, Shuang Luo, Jialong Tang, Yu Wan, Baosong Yang, Fei Huang",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.findings-emnlp.552/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-Evaluating and Improving Cultural Awareness of.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.md",
+    "has_extract": true,
+    "authors": "[[Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.21798",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.md",
+    "has_extract": true,
+    "authors": "[[Zhang, Min]]; [[Chen, Hao]]; [[Zhang, Wenqi]]; [[Zhu, Didi]]; [[Lin, Xin]]; [[Jiang, Bo]]; [[Zhou, Aimin]]; [[Wu, Fei]]; [[Kuang, Kun]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2510.26422v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation.md",
+    "has_extract": true,
+    "authors": "[[Zhang, Shuoming]]; [[Zhao, Jiacheng]]; [[Dong, Hanyuan]]; [[Xu, Ruiyuan]]; [[Li, Zhicheng]]; [[Zhang, Yangyu]]; [[Li, Shuaijiang]]; [[Wen, Yuan]]; [[Xia, Chunwei]]; [[Wang, Zheng]]; [[Feng, Xiaobing]]; [[Cui, Huimin]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2503.24191v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese.md",
+    "has_extract": true,
+    "authors": "Wenjing Zhang, Xuejiao Lei, Zhaoxiang Liu, Limin Han, Jiaojiao Zhao, Junting Guo, Zhenhong Long, Shu Yang, Meijuan An, Beibei Huang, Rongjia Du, Ning Wang, Kai Wang, Shiguo Lian",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.16529",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md",
+    "has_extract": true,
+    "authors": "Wenjing Zhang, Xuejiao Lei, Zhaoxiang Liu, Ning Wang, Zhenhong Long, Peijun Yang, Jiaojiao Zhao, Minjie Hua, Chaoyang Ma, Kai Wang, Shiguo Lian",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.11137",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhao-WenyanGPT A Large Language Model for.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhao-WenyanGPT A Large Language Model for.md",
+    "has_extract": true,
+    "authors": "[[Xinyu Yao, Mengdi Wang, Bo Chen, Xiaobing Zhao]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.20609",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zheng-Evaluating Code-Switching Translation with Large ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zheng-Evaluating Code-Switching Translation with Large ....md",
+    "has_extract": true,
+    "authors": "[[Zheng, Weihua]]; [[Chanpaisit, Nattapol]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.lrec-main.565.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+    "has_extract": true,
+    "authors": "[[Zhou, Ej]]; [[Lu, Weiming]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.11183",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+    "has_extract": true,
+    "authors": "[[Zhou, Bo]]; [[Chen, Qianglong]]; [[Wang, Tianyu]]; [[Zhong, Xiaomi]]; [[Zhang, Yin]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2023.findings-acl.204/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md",
+    "has_extract": true,
+    "authors": "[[Zhuang, Wenhao]]; [[Sun, Yuan]]; [[Zhao, Xiaobing]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2509.17493",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md",
+    "has_extract": true,
+    "authors": "Elaine Zosa, Ville Komulainen, Sampo Pyysalo",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.09407",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md",
+    "has_extract": true,
+    "authors": "[[Sanzhar Umbet, Sanzhar Murzakhmetov, Beksultan Sagyndyk, Kirill Yakunin, Timur Akishev, Pavel Zubitski]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.fieldmatters-1.4/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md",
+    "has_extract": true,
+    "authors": "[[Saralegi, X.]]; [[Zulaika, Muitze]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.coling-main.318/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md",
+    "has_extract": true,
+    "authors": "[[Zuo, Jiaxin]]; [[Wang, Yiquan]]; [[Pan, Yuan]]; [[Yibulayin, Xiadiya]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/pdf/2507.21536",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-[[Unknown]]-Alif Advancing Urdu Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-[[Unknown]]-Alif Advancing Urdu Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[Shafique, Muhammad Ali]]; [[Mehreen, Kanwal]]; [[Arham, Muhammad]]; [[Amjad, Maaz]]; [[Butt, Sabur]]; [[Farooq, Hamza]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.09051",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and.md",
+    "has_extract": true,
+    "authors": "[[Pandey, Manish]]; [[Yadav, Nageshwar Prasad]]; [[Adduru, Mokshada]]; [[Rai, Sawan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.21026",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-[[Unknown]]-Mitigating Social Bias in English and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-[[Unknown]]-Mitigating Social Bias in English and.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.09854",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-approach-A Language model-based approach to sentiment classification of.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-approach-A Language model-based approach to sentiment classification of.md",
+    "has_extract": true,
+    "authors": "[[approach, A Language model-based]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.nature.com/articles/s41598-025-22198-6",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md",
+    "has_extract": true,
+    "authors": "Multiple authors",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.05176",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md",
+    "has_extract": true,
+    "authors": "INESIA (Singapore AISI-led international collaboration)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.15706",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-community-Setting Standards in Turkish NLP TR-MMLU.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-community-Setting Standards in Turkish NLP TR-MMLU.md",
+    "has_extract": true,
+    "authors": "[[Multiple authors (Turkish NLP community)]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.00593",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md",
+    "has_extract": true,
+    "authors": "European LLM benchmarking consortium",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.24450",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-funded-Analysis of Indic Language Capabilities in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-funded-Analysis of Indic Language Capabilities in.md",
+    "has_extract": true,
+    "authors": "[[Vaidya, Aatman]]; [[Prabhakar, Tarunima]]; [[George, Denny]]; [[Shah, Swair]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.13912",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md",
+    "has_extract": true,
+    "authors": "[[Kargaran, Amir Hossein]]; [[Modarressi, Ali]]; [[Nikeghbal, Nafiseh]]; [[Diesner, Jana]]; [[Yvon, François]]; [[Schütze, Hinrich]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.05873",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-initiative-CatholicBench.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-initiative-Faith Respect and Moral Compass in.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-initiative-FaithBench AI Benchmark for Christian Theology.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[contributions, open to academic/seminary]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  }
+]

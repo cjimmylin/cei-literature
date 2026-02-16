@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

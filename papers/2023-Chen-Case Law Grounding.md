@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2310.07019.pdf"
 publication: "International Conference on Climate Informatics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Case Law Grounding: Using Precedents to Align Decision-Making for Humans and AI
 

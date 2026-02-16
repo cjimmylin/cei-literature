@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ doi: 10.1186/s12909-025-06801-y
 url: "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-06801-y"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
 local_pdf: "[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 ---

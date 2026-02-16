@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Le Jeune-Phare A Safety Probe for Large Language Models|Phare: A Safety Probe for Large Language Models]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: matteo@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: matteo@giskard.ai

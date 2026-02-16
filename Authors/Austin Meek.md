@@ -28,6 +28,7 @@ University of Delaware
 
 
 
+
 - [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]]
 
 ## Notes
@@ -35,6 +36,8 @@ University of Delaware
 
 
 
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware

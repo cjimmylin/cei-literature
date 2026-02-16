@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2112.04359.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -43,7 +45,7 @@ is_dataset: "Yes"
 data_description: "Text corpus for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-2, GPT-3, GPT2, RoBERTa, T5, T5-11B, XLNet"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Ethical and social risks of harm from Language Models
 

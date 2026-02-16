@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2402.02135.pdf"
 publication: "Conference of the European Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Indian, African, Spanish, Russian"
+languages_list: "Chinese, English, Hindi, Russian, Spanish, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test
 

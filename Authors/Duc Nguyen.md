@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation|Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation*: Affiliation: University †Ho Chi Minh City University of Technology, VNU-HCM, Email: nqduc@hcmut.edu.vn
 - *From 2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation*: Affiliation: University †Ho Chi Minh City University of Technology, VNU-HCM, Email: sttruong@cs.stanford.edu
 - *From 2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation*: Affiliation: University †Ho Chi Minh City University of Technology, VNU-HCM, Email: sttruong@cs.stanford.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

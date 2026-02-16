@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: jiahuizhao7@163.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

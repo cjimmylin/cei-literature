@@ -40,7 +40,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Mistral- 7B, Mistral-7B"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Hate speech detection remains a critical challenge for natural language processing (NLP), particularly in low-resource languages such as Assamese. Although supervised models have shown promise, their performance is often constrained by the scarcity of annotated data and complex linguistic phenomena, such as code-mixing. In this study, we systematically benchmark large language models (LLMs), including GPT-4, GPT-3."
 ethics_perspective: "Toxicity & Hate Speech"

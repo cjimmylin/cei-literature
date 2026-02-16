@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

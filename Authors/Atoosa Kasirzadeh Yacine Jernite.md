@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in|CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
 - *From 2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in*: Affiliation: University of Amsterdam
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

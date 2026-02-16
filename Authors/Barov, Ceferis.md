@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Barov-TUMLU A Unified and Native Language|TUMLU A Unified and Native Language]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu
 - *From 2025-Barov-TUMLU A Unified and Native Language*: Affiliation: Center, Khazar University 2New York University, 3The George Washington University, Email: jafar.isbarov@gwu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

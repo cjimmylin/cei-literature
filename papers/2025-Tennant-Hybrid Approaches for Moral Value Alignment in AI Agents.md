@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -20,6 +21,7 @@ local_pdf: "[[PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment
 external_pdf: "https://arxiv.org/pdf/2312.01818.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: N/A

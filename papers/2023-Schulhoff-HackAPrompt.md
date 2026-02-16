@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2023.emnlp-main.302/"
 external_pdf: "https://aclanthology.org/2023.emnlp-main.302.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -37,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, ChatGPT, Flan-T5"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # HackAPrompt: Automated Prompt Engineering for Attacking and Defending LLMs
 

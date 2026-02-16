@@ -46,7 +46,7 @@ from vault_config import PAPERS_DIR, PDF_EXTRACTS_DIR, PDFS_DIR, LOGS_DIR
 # --- Constants ---
 ARXIV_API_BASE = "http://export.arxiv.org/api/query"
 SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper"
-OUTPUT_JSON = LOGS_DIR / "20260208-unknown_authors_resolved.json"
+OUTPUT_JSON = LOGS_DIR / "20260216-unknown_authors_resolved.json"
 
 PLACEHOLDER_PATTERNS = [
     "Unknown",

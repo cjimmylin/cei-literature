@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

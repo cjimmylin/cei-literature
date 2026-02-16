@@ -29,6 +29,7 @@ Dinesh Manocha is the Paul Chrisman Iribe Professor of Computer Science at the U
 
 
 
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]] (Last Author)
 
 ## Notes
@@ -36,6 +37,8 @@ Dinesh Manocha is the Paul Chrisman Iribe Professor of Computer Science at the U
 
 
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park

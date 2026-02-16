@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, here are the key findings about Turkic languages, Kyrgyz, and NLP evaluation benchmarks from 2024-2025: TUMLU Benchmark (2025) TUMLU is a comprehensive, multilingual, and natively developed language understanding benchmark specifically designed for Turkic languages. It consists of middle- and high-school level questions spanning 11 academic subjects in Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, and Uzbek."
 research_topic: "Machine Translation"
 ---
 # The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages

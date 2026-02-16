@@ -26,6 +26,7 @@ Haotian Xu is a researcher at Alibaba Group working on value alignment and safet
 
 
 
+
 - [[2023-Xu-CValues|CValues]]
 
 ## Notes
@@ -33,6 +34,8 @@ Haotian Xu is a researcher at Alibaba Group working on value alignment and safet
 
 
 
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com

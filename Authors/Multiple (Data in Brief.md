@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Multiple Data in Brief-MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset|MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset]] (First Author)
 - [[2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators|Sanadset 650K Data on Hadith Narrators]] (First Author)
 

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Gamboa-Social Bias in Multilingual Language Models|Social Bias in Multilingual Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Gamboa-Social Bias in Multilingual Language Models*: Affiliation: School of Computer Science, University of Birmingham, Email: lancecalvingamboa@gmail.com
 - *From 2025-Gamboa-Social Bias in Multilingual Language Models*: Affiliation: School of Computer Science, University of Birmingham, Email: y.feng.6@bham.ac.uk
 - *From 2025-Gamboa-Social Bias in Multilingual Language Models*: Affiliation: School of Computer Science, University of Birmingham, Email: m.g.lee@bham.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

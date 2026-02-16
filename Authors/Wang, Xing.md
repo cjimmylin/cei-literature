@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]]]]
 
 - [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]]
 

@@ -1,9 +1,9 @@
 ---
 name: "Spiridonova, Alena"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, 3Artiﬁcial Intelligence Research Institute"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "rybolos@gmail.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]]]
 
 - [[2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding|TAPE: Assessing Few-shot Russian Language Understanding]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding*: Affiliation: University, 3Artiﬁcial Intelligence Research Institute, Email: rybolos@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

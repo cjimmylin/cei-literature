@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
-languages_list: 
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1-8B"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Creates culturally aligned datasets for Persian contexts and develops Matina by fine-tuning LLaMA3.1 across five domains using Multiple LoRA Experts. Demonstrates that culturally aligned datasets enable the model to surpass baselines in task performance and user satisfaction, embodying Iranian cultural values and linguistic structures."
 research_topic: "NLP & Representation Learning"
 ---
 # Matina: A Culturally-Aligned Persian Language Model Using Multiple LoRA Experts

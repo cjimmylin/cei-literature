@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large|LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models]]
 - [[2023-Huang-Flames|Flames]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 - *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 - *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn
 - *From 2023-Huang-Flames*:, Email: tengyan@pjlab.org.cn

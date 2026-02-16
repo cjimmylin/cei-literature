@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, PaLM, PaLM-2, PaLM2, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in large language models (LLMs) have shown they can match or surpass finetuned models on many natural language processing tasks. Currently, more studies are being carried out to assess whether this performance carries over across different languages. In this paper, we present a thorough evaluation of LLMs for the less well-researched code-switching translation setting, where inputs include a mixture of different languages."
 research_topic: "Machine Translation"

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Barth-Multilingual European Language Models Benchmarking Approaches and|Multilingual European Language Models: Benchmarking Approaches and Challenges]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Barth-Multilingual European Language Models Benchmarking Approaches and*: Affiliation: label the original, Email: georg.rehm@dfki.de
 - *From 2025-Barth-Multilingual European Language Models Benchmarking Approaches and*: Affiliation: label the original, Email: georg.rehm@dfki.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

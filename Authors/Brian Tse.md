@@ -48,6 +48,7 @@ He was the first Chinese representative to deliver a keynote at the Asilomar Con
 
 
 
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## External Links & Profiles
@@ -61,6 +62,8 @@ He was the first Chinese representative to deliver a keynote at the Asilomar Con
 
 
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge

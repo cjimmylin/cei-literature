@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2025-Zhang-CultureScope A Dimensional Lens for Probing|CultureScope A Dimensional Lens for Probing]]
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn

@@ -22,6 +22,7 @@ Dianqi Li is a researcher working on multimodal AI systems and computer vision. 
 
 
 
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
 
 ## Notes
@@ -29,6 +30,8 @@ Dianqi Li is a researcher working on multimodal AI systems and computer vision. 
 
 
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park

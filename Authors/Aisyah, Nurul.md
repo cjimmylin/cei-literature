@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense|IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense*: Affiliation: Department of Natural Language Processing, MBZUAI, Email: rahmad.mahendra@cs.ui.ac.id
 - *From 2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense*: Affiliation: Department of Natural Language Processing, MBZUAI, Email: rahmad.mahendra@cs.ui.ac.id
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

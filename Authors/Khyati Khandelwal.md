@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 - *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 - *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

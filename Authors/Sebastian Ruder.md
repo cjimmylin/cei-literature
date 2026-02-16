@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
@@ -34,6 +35,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng

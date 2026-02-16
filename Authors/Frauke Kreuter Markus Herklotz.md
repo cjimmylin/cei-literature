@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic|Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic*: Affiliation: Center for Machine Learning, Email: bolei.ma@lmu.de
 - *From 2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic*: Affiliation: Center for Machine Learning, Email: bolei.ma@lmu.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

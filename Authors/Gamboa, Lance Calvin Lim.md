@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in|Filipino Benchmarks for Measuring Sexist and Homophobic Bias in Multilingual Language Models from Southeast Asia]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in*: Affiliation: School of Computer Science, University of Birmingham, Email: lancecalvingamboa@gmail.com
 - *From 2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in*: Affiliation: School of Computer Science, University of Birmingham, Email: llg302@student.bham.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

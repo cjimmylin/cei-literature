@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1."
 research_topic: "Other"
 ---
 # Arabic LLMs for Banking, Telecom and Government in GCC - 2026

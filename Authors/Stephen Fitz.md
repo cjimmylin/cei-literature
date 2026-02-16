@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

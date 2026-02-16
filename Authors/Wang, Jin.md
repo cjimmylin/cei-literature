@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised|Sentiment analysis of classical Chinese literature: An unsupervised deep learning model with BERT and graph attention networks | PLOS One]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised*: Affiliation: lable here: https://doi, Email: jkxr58@163.com
 - *From 2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised*: Affiliation: lable here: https://doi, Email: jkxr58@163.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

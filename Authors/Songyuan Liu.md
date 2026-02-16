@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Songyuan Liu-Measuring Spiritual Values and Bias of|Measuring Spiritual Values and Bias of]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: runze.yan@emory.edu
 - *From 2024-Songyuan Liu-Measuring Spiritual Values and Bias of*: Affiliation: Department of Computer Science, Email: jiaying.lu@emory.edu.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

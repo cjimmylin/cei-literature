@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity|A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information]] (Last Author)
 - [[2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and|IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and*: Affiliation: University, 2Independent Researcher, 3Boston University, 4MBZUAI
 - *From 2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and*: Affiliation: University, 2Independent Researcher, 3Boston University, 4MBZUAI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

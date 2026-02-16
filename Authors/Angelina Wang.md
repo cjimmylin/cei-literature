@@ -21,6 +21,7 @@ Angelina Wang is an Assistant Professor at Cornell Tech whose research focuses o
 
 
 
+
 - [[2025-Bai-Explicitly unbiased large language models still form biased|Explicitly unbiased large language models still form biased associations | PNAS]]
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]] (First Author)
 
@@ -53,6 +54,8 @@ Recent publications at FAccT 2025 include "Identities are not Interchangeable: t
 
 
 
+
+- *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 - *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 - *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 - *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech

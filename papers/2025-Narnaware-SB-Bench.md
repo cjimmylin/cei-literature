@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ url: "http://arxiv.org/abs/2502.08779"
 external_pdf: "http://arxiv.org/pdf/2502.08779.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Gemma, Qwen, Phi"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # SB-Bench: Stereotype Bias Benchmark for Large Multimodal Models
 

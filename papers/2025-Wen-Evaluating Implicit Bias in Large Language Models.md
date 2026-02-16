@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2025.findings-acl.263/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FKYPKPUS/2025 - Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

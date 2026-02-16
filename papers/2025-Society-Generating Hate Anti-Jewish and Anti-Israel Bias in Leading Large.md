@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +17,7 @@ authors: ADL Center for Technology and Society; Daniel Kelley
 url: "https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models"
 publication: ADL Report
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -23,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli, Jewish"
-languages_list: 
+languages_list: "English"
 religious_values: "Judaism"
 religious_values_list: "Judaism"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT, Claude, Gemini, Llama"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Comprehensive ADL evaluation of anti-Jewish and anti-Israel bias in GPT, Claude, Gemini, and Llama. Each LLM queried 8,600 times (34,400 total) across six categories: bias against Jews, bias against Israel, Gaza war, antisemitic conspiracy theories, Holocaust conspiracy theories, and control group."
 ethics_perspective: "Bias & Fairness"
 ---
 # Generating Hate: Anti-Jewish and Anti-Israel Bias in Leading Large Language Models

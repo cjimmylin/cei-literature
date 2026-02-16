@@ -42,6 +42,7 @@ Chanjun Park is a prominent NLP researcher based in South Korea, currently servi
 
 
 
+
 - [[2025-Jung-FLEX|FLEX]]
 - [[2025-Kim-Cultural and Core Capability Benchmarks for|Cultural and Core Capability Benchmarks for]] (Last Author)
 - [[2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A|Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4]]
@@ -58,6 +59,8 @@ Chanjun Park is a prominent NLP researcher based in South Korea, currently servi
 
 
 
+
+- *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2025-Kim-Cultural and Core Capability Benchmarks for*: Affiliation: Labs, 2 Upstage AI, 3Chulalongkorn University, 4 Korea University, Email: bcj1210@korea.ac.kr

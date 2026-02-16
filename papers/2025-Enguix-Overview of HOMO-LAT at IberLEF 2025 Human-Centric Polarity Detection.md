@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Falcon-7B, Gemma, Mistral-7B, ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "This paper presents the HOMO-LAT shared task organized at IberLEF 2025, as part of the 41st International Conference of the Spanish Society for Natural Language Processing (SEPLN 2025). Our goal is to foster the design of algorithms capable of capturing the polarity of Reddit comments on keywords referring to the LGBTQ+ community. HOMO-LAT is a continuation of the past tasks HOMO-MEX 2023 and 2024, with the particularity of including posts from 19 Spanish-speaking Latin American countries."
 research_topic: "Machine Translation"

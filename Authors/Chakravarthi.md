@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Chakravarthi-Detecting Caste and Migration Hate Speech|Detecting Caste and Migration Hate Speech]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Chakravarthi-Detecting Caste and Migration Hate Speech*: Affiliation: lable on the last page of the article
 - *From 2025-Chakravarthi-Detecting Caste and Migration Hate Speech*: Affiliation: lable on the last page of the article
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

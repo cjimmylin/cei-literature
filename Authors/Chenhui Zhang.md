@@ -32,6 +32,7 @@ Chenhui Zhang is a researcher affiliated with Tsinghua University. He is a signi
 
 
 
+
 - [[2023-Liu-AgentBench|AgentBench]]
 - [[2023-Wang-DecodingTrust|DecodingTrust]]
 
@@ -43,6 +44,8 @@ Chenhui Zhang is a researcher affiliated with Tsinghua University. He is a signi
 
 
 
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley

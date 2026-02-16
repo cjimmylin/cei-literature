@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages|Komodo: A Linguistic Expedition into Indonesia's Regional Languages]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages*: Affiliation: lable and sufficient resources, such as English
 - *From 2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages*: Affiliation: lable and sufficient resources, such as English
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

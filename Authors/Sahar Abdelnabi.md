@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders|Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders*: Affiliation: Research Center for Artificial Intelligence (DFKI)
 - *From 2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders*: Affiliation: Research Center for Artificial Intelligence (DFKI)
 - *From 2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders*: Affiliation: Research Center for Artificial Intelligence (DFKI)
 - *From 2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders*: Affiliation: Research Center for Artificial Intelligence (DFKI)

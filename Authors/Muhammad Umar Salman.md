@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset|Quran-MD A Fine-Grained Multilingual Multimodal Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammad.qazi@mbzuai.ac.ae
 - *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammad.qazi@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

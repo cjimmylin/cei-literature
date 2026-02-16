@@ -22,6 +22,7 @@ Manuel Tonneau is a fourth and final year Ph.D. candidate in Social Data Science
 
 
 
+
 - [[2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs|Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs]]
 - [[2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in|From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets]] (First Author)
 - [[2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of|HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter]] (First Author)
@@ -33,6 +34,8 @@ Manuel Tonneau is a fourth and final year Ph.D. candidate in Social Data Science
 
 
 
+
+- *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 - *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 - *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK
 - *From 2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs*: Affiliation: Institute, University of Oxford, UK

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Bias in Large Language Models (LLMs) can perpetuate harmful stereotyp
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Claude, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-1.1, Llama, Llama 3, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # Parity Benchmark for Measuring Bias in LLMs

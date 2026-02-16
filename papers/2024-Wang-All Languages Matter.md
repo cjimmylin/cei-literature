@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.findings-acl.349/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/SFH74GNU/2024 - All Languages Matter On the Multilingual Safety of Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

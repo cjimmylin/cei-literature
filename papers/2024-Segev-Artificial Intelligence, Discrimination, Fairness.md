@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf:
 publication: "Minds and Machines"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

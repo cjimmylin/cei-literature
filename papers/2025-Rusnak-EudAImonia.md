@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in AI, Christian"
@@ -17,6 +18,7 @@ doi: N/A
 url: "https://iscast.org/journal/cposat/"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: "Value Pluralism / Schwartz"

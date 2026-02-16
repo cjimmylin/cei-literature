@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and|DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de
 - *From 2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and*: Affiliation: University of Applied Sciences, Email: stud.@h-da.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

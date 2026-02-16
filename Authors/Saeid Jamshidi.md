@@ -31,6 +31,7 @@ This work advances the field by reframing ethical evaluation as a dynamic, model
 
 
 
+
 - [[2025-Jamshidi-MoCoP|MoCoP]] (First Author)
 
 ## Notes
@@ -38,6 +39,8 @@ This work advances the field by reframing ethical evaluation as a dynamic, model
 
 
 
+
+- *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 - *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 - *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 - *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca

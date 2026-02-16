@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects|Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects*:, Email: kalvinchang@berkeley.edu
 - *From 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects*:, Email: kalvinchang@berkeley.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

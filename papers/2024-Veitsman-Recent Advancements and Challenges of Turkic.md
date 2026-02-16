@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh, Uzbek, Kyrgyz, Turkmen"
+languages_list: "Kazakh, Kyrgyz, Turkmen, Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Research in NLP for Central Asian Turkic languages - Kazakh, Uzbek, K
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, Llama-2, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Recent Advancements and Challenges of Turkic Central Asian Language Processing

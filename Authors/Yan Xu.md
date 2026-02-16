@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: pascale@ece.ust.hk

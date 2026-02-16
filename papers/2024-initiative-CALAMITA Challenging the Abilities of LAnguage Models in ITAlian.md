@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Barth, GPT-2, GPT-4o, Llama, LLAMA3.1, Llama-3, LLaMA-3.1, LLaMA2, Llama 3.1, RoBERTa, llama 3"
 DATA_URL: "https://github.com/CALAMITA-AILC/calamita-eval"
 tags: 
-abstract: 
+abstract: "Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation."
 research_topic: "Other"
 ---
 # CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian

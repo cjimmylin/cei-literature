@@ -27,6 +27,7 @@ Barakat's research addresses the ethical and societal challenges posed by advanc
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
@@ -34,6 +35,8 @@ Barakat's research addresses the ethical and societal challenges posed by advanc
 
 
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Japanese"
+languages_list: "English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, DeepSeek, Qwen, Llama-3, Grok"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 research_topic: "Other"
 ---

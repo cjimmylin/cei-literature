@@ -23,6 +23,7 @@ Vamshi Krishna Bonagiri is a PhD student at Mohamed bin Zayed University of Arti
 
 
 
+
 - [[2024-Bonagiri-SaGE|SaGE]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Vamshi Krishna Bonagiri is a PhD student at Mohamed bin Zayed University of Arti
 
 
 
+
+- *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: manas@umbc.edu
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: sreeram.vennam@students.iiit.ac.in
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: vamshi.b@research.iiit.ac.in
 - *From 2024-Bonagiri-SaGE*: Affiliation: Institute of Information Technology Hyderabad (IIITH), Email: pk.guru@iiit.ac.in

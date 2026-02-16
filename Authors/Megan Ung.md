@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Gupta-Improving Model Evaluation using SMART Filtering|Improving Model Evaluation using SMART Filtering]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu
 - *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu
 - *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu
 - *From 2024-Gupta-Improving Model Evaluation using SMART Filtering*: Affiliation: University of California, Berkeley, Email: vkg5164@psu.edu

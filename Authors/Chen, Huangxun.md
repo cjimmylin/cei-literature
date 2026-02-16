@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass|Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: huangxunchen@hkust-gz.edu.cn
 - *From 2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass*: Affiliation: University of Science and Technology (Guangzhou), Email: huangxunchen@hkust-gz.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

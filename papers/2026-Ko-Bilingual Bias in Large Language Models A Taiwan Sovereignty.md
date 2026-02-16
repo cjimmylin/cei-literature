@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Taiwanese"
-languages_list: 
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

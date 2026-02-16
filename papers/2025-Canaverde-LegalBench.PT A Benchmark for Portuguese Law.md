@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3-Opus, Claude-3.5, Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama 3, Llama-3.1, Mixtral, Mixtral-8x7B"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The recent application of LLMs to the legal field has spurred the creation of benchmarks across various jurisdictions and languages. However, no benchmark has yet been specifically designed for the Portuguese legal system. In this work, we present LegalBench.PT, the first comprehensive legal benchmark covering key areas of Portuguese law. To develop LegalBench.PT, we first collect longform questions and answers from real law exams, and then use GPT-4o to convert them into multiple-choice,..."
 research_topic: "Machine Learning"

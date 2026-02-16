@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller|MELABenchv1: Benchmarking Large Language Models against Smaller Fine-Tuned Models for Low-Resource Maltese NLP]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller*: Affiliation: LABenchv1 Benchmarking Large Language Models against Smaller - PDF Extract", Email: claudia.borg@um.edu.mt
 - *From 2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller*: Affiliation: LABenchv1 Benchmarking Large Language Models against Smaller - PDF Extract", Email: claudia.borg@um.edu.mt
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

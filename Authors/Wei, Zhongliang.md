@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Unknown-A structured sentiment analysis dataset based on public comments from|A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect]] (First Author)]]
 
 - [[2024-Unknown-A structured sentiment analysis dataset based on public comments from|A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect]] (First Author)
 

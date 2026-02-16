@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on|ViTHSD: Exploiting Hatred by Targets for Hate Speech Detection on Vietnamese Social Media Texts]] (First Author)
 - [[2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social|A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

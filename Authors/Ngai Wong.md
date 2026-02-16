@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models|LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 - *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 - *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong
 - *From 2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models*: Affiliation: University, 2The University of Hong Kong, 3City University of Hong Kong

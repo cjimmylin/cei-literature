@@ -33,6 +33,7 @@ Aman's research addresses the scalability and reliability of foundation models. 
 
 
 
+
 - [[2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models|IndicMMLU-Pro Benchmarking Indic Large Language Models]]
 - [[2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures|How Well Do LLMs Represent Values Across Cultures?]]
 - [[2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding|Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries]]
@@ -49,6 +50,8 @@ Aman's research addresses the scalability and reliability of foundation models. 
 
 
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

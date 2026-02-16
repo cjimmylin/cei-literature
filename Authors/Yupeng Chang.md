@@ -23,6 +23,7 @@ Yupeng Chang is a researcher at the School of Artificial Intelligence, Jilin Uni
 
 
 
+
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Yupeng Chang is a researcher at the School of Artificial Intelligence, Jilin Uni
 
 
 
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn

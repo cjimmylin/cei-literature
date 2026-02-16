@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Language models have made remarkable advancements in understanding an
 data_description: "Benchmark dataset"
 data_metrics: "280,000 questions"
 LLM_assessed: "BERT, Claude, ELECTRA, GPT-4, Gemma, Llama, claude-3.5, claude-3.5 Sonnet, gemma2, GPT-4o, llama 70., llama3.1, llama3.3"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Setting Standards in Turkish NLP: TR-MMLU for Large Language Model Evaluation

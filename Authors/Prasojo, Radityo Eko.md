@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances|COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances]]
 - [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany

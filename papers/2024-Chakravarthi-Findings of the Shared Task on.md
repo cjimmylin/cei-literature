@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0481
 type: preprint
 short_title: "Findings of the Shared Task on"
 year: 2025
-first_author: "[[Chakravarthi, Bharathi Raja]]"
-last_author: "[[Reddy, Sai Rishith]]"
-authors: "[[Chakravarthi, Bharathi Raja]]; [[Kumar, Prasanna]]; [[Prashanth, Sai]]; [[Reddy, Sai Rishith]]"
-authors_incomplete: true
+first_author: "[[B, Premjith]]"
+last_author: "[[Janakiram, Chandu]]"
+authors: "[[B, Premjith]]; [[Chakravarthi, Bharathi Raja]]; [[Kumaresan, Prasanna Kumar]]; [[Rajiakodi, Saranya]]; [[Karnati, Sai Prashanth]]; [[Mangamuru, Sai Rishith Reddy]]; [[Janakiram, Chandu]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2024.dravidianlangtech-1.8/"
 external_pdf: "https://aclanthology.org/2024.dravidianlangtech-1.8.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Chakravarthi-Findings of the Shared Task on.md"
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "English, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,18 +40,18 @@ abstract: "This paper examines the submissions of various participating teams to
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Findings of the Shared Task on Hate and Offensive Language Detection in Telugu Codemixed Text (HOLD-Telugu) at DravidianLangTech 2024
 
 ## Authors
 
-[[Chakravarthi, Bharathi Raja]], [[Kumar, Prasanna]], [[Prashanth, Sai]], [[Reddy, Sai Rishith]]
+[[B, Premjith]], [[Chakravarthi, Bharathi Raja]], [[Kumaresan, Prasanna Kumar]], [[Rajiakodi, Saranya]], [[Karnati, Sai Prashanth]], [[Mangamuru, Sai Rishith Reddy]], [[Janakiram, Chandu]]
 
 ## Metadata
 
-**Authors:** Bharathi Raja Chakravarthi; Prasanna Kumar; Sai Prashanth; Sai Rishith Reddy
+**Authors:** B, Premjith; Chakravarthi, Bharathi Raja; Kumaresan, Prasanna Kumar; Rajiakodi, Saranya; Karnati, Sai Prashanth; Mangamuru, Sai Rishith Reddy; Janakiram, Chandu
 
 **Year:** 2024
 

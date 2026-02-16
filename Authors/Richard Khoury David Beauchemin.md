@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments|QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability Judgments]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments*: Affiliation: University (GRAIL)
 - *From 2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments*: Affiliation: University (GRAIL)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

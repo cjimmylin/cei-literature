@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "word2vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Diverse areas widely apply artificial intelligence and natural language processing (NLP) tools to their contexts. However, these algorithms present ethical issues, such as biased and discriminatory decisions. For example, representation biases in NLP can result in discriminatory behavior towards race and gender. Works have been addressing this issue and seeking to build fair NLP solutions, however they mainly focus on Anglo-Saxon languages."
 research_topic: "NLP & Representation Learning"

@@ -18,8 +18,8 @@ authors: Haijiang Liu; Yong Cao; Xun Wu; Chen Qiu; Jinguang Gu; Maofu Liu; Danie
 doi: 10.1016/j.techfore.2025.123XX
 url: "https://www.sciencedirect.com/science/article/abs/pii/S030645732500041X"
 publication: "Technological Forecasting and Social Change (ScienceDirect)"
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md"
+local_pdf: "[[PDFs/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

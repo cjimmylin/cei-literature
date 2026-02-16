@@ -23,12 +23,15 @@ Marc Steen is a Senior Research Scientist at TNO with MSc, PDEng and PhD degrees
 
 
 
+
 - [[2025-Steen-Ethical aspects of ChatGPT|Ethical aspects of ChatGPT]] (First Author)
 
 ## Notes
 
 
 
+
+- *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
 - *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
 - *From 2025-Steen-Ethical aspects of ChatGPT*:, Email: marc.steen@tno.nl
 [Additional context or contact information]

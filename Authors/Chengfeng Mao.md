@@ -33,6 +33,7 @@ Chengfeng Mao is a PhD student at the MIT Sloan School of Management, focusing o
 
 
 
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
 ## External Links & Profiles
@@ -44,6 +45,8 @@ Chengfeng Mao is a PhD student at the MIT Sloan School of Management, focusing o
 
 
 
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn

@@ -1,9 +1,9 @@
 ---
 name: "Choo, K"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Technology and Design"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "roy_lee@sutd.edu.sg"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in|SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore]]]]
 
 - [[2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in|SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: roy_lee@sutd.edu.sg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

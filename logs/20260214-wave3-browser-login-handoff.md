@@ -492,7 +492,7 @@
   Scholar: https://scholar.google.com/scholar?q=MIZAN%3A+A+Persian+LLM+Leaderboard
   Success criteria: Save valid PDF (starts with %PDF) and confirm title match, then update `external_pdf`, `local_pdf`, and `pdf_extract`.
 
-- [ ] `LSRC0200` `2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md`
+- [ ] `LSRC0200` `2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md`
   Priority: `P4` | Category: `RESOURCE_PAGE_NO_PDF` | Host: `huggingface.co`
   Status note: blocked (not_pdf_header)
   Primary URL: https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset

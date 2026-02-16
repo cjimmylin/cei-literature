@@ -22,6 +22,7 @@ ML Engineer at Stripe working on foundation models. Previously created RealToxic
 
 
 
+
 - [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]]
 - [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]] (First Author)
 
@@ -30,6 +31,8 @@ ML Engineer at Stripe working on foundation models. Previously created RealToxic
 
 
 
+
+- *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington

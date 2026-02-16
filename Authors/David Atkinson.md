@@ -27,6 +27,7 @@ Atkinson's work focuses on evaluating the ethical capabilities and limitations o
 
 
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
 
 ## Notes
@@ -34,6 +35,8 @@ Atkinson's work focuses on evaluating the ethical capabilities and limitations o
 
 
 
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: adhuran@us.ibm.com
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu

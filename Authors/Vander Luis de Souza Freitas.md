@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large|Toxic Speech Detection in Portuguese: A Comparative Study of Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: eduluz@ufop.edu.br
 - *From 2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large*: Affiliation: University of Ouro Preto, Email: thiago.cecote@aluno.ufop.edu.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chakraborty-Structured Moral Reasoning|Structured Moral Reasoning]]
 - [[2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from|CLASH: Evaluating Language Models on Judging High-Stakes Dilemmas from Multiple Perspectives]] (Last Author)
 - [[2025-Nair-Do Language Models Think Consistently|Do Language Models Think Consistently?]] (Last Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Bayat-FactBench*: Affiliation: University of Michigan, Ann Arbor
 - *From 2024-Bayat-FactBench*: Affiliation: University of Michigan, Ann Arbor
 - *From 2024-Bayat-FactBench*: Affiliation: University of Michigan, Ann Arbor
 - *From 2024-Bayat-FactBench*: Affiliation: University of Michigan, Ann Arbor

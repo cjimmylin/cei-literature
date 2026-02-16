@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "https://arxiv.org/pdf/2506.14948.pdf"
 publication: arXiv
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Llama-2, Mistral, Qwen, Phi"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes

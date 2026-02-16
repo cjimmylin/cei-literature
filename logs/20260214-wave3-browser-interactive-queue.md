@@ -557,7 +557,7 @@ Legend: `[x]` resolved, `[ ]` pending/blocked.
   Local PDF: /Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf
   Recent failed attempts: https://github.com/ParsBench/ParsBench [not_pdf_header] | https://github.com/ParsBench/ParsBench [not_pdf_header] | https://arxiv.org/abs/2404.02403 [not_pdf_header] | https://arxiv.org/pdf/2404.02403.pdf [ok_handoff]
 
-- [ ] `LSRC0200` `2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md`
+- [ ] `LSRC0200` `2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md`
   Status: blocked - blocked (handoff resource_no_pdf_found: not_pdf_header)
   Title: WoNBias: A Complete Bengali Gender Bias Dataset
   Host: `huggingface.co`

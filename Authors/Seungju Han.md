@@ -22,6 +22,7 @@ First-year PhD student in Computer Science at Stanford University, advised by Ye
 
 
 
+
 - [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
 - [[2024-Team-WildGuard|WildGuard]] (First Author)
 
@@ -30,6 +31,8 @@ First-year PhD student in Computer Science at Stanford University, advised by Ye
 
 
 
+
+- *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: nouhad@allenai.org
 - *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: nouhad@allenai.org
 - *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu
 - *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu

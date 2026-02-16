@@ -1,7 +1,7 @@
 ---
 name: "Faye, Abdoulaye"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]]]
 
 - [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

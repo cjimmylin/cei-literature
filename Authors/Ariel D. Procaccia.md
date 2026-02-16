@@ -54,6 +54,7 @@ He is well-known for his foundational work on fair division, especially the "Cak
 
 
 
+
 - [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]]
 - [[2018-Noothigattu-A Voting-Based System for Ethical Decision Making|A Voting-Based System for Ethical Decision Making]] (Last Author)
 
@@ -73,6 +74,8 @@ He is well-known for his foundational work on fair division, especially the "Cak
 
 
 
+
+- *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 - *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 - *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 - *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University

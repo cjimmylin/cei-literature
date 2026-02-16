@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Bokaei-Culture Matters in Toxic Language Detection in Persian|Culture Matters in Toxic Language Detection in Persian]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

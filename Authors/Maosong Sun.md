@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]] (Last Author)
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 - [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn

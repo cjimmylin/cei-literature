@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence|RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp
 - *From 2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence*: Affiliation: label Fakenews Dataset for Vietnamese Evidence - PDF Extract", Email: 2nguyenhathanh@nii.ac.jp
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT|Muslim-Violence Bias Persists in Debiased GPT]] (First Author)
 - [[2022-Varshney-Debiased Large Language Models Still Associate|Debiased Large Language Models Still Associate]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Varshney-Debiased Large Language Models Still Associate*: Affiliation: Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign
 - *From 2022-Varshney-Debiased Large Language Models Still Associate*: Affiliation: Institute for Advanced Science and Technology, University of Illinois Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -39,7 +39,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGLM-6B, ChatGPT, DeepSeek R1, LLaMA 2"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Sentiment analysis has become a transformative technology in various contexts, particularly in Natural Language Processing (NLP), social media analytics, and liter­ ary analysis, as it can extract information from a wide range of texts. The advance­ ments in deep learning, particularly with transformer models such as BERT and graph-based models like GATs, have enabled faster progress in analyzing complex language structures."
 research_topic: "NLP & Representation Learning"

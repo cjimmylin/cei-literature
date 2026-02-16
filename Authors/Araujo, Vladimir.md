@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]]]
 
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 

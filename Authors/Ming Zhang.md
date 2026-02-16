@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Yuan-Social Measuring Social Norms of LLMs|Social (Measuring Social Norms of LLMs)]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: chenguangwang@wustl.edu
 - *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: tkx@stu.pku.edu.cn
 - *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: tkx@stu.pku.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

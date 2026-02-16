@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2025.findings-naacl.199/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/M5J3WHBS/2025 - FLEX A Benchmark for Evaluating Robustness of Fairness in Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Korean"
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

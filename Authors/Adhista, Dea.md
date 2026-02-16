@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study|Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: deadhista@gmail.com
 - *From 2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study*: Affiliation: lable at https:, Email: alice.oh@kaist.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

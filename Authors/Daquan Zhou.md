@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated|AncientBench Towards Comprehensive Evaluation on Excavated]] (First Author)
 - [[2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in|MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: zhendong@berkeley.edu

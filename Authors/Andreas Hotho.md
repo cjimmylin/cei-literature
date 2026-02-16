@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language|LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)
 - *From 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language*: Affiliation: Center for Artificial Intelligence and Data Science (CAIDAS)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Staps-Large Language Models and Biblical Hebrew|Large Language Models and Biblical Hebrew]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Staps-Large Language Models and Biblical Hebrew*: Affiliation: University, Leiden; Radboud University Nijmegen, Nijmegen, Email: info@camilstaps.nl
 - *From 2024-Staps-Large Language Models and Biblical Hebrew*: Affiliation: University, Leiden; Radboud University Nijmegen, Nijmegen, Email: info@camilstaps.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

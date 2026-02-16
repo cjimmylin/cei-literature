@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, here's what recent 2025 research reveals about Chinese social bias and stereotypes in LLM evaluation: Key Research Areas Occupational and Gender Biases in Chinese LLMs A systematic study examined biases in five representative Chinese LLMs by collecting 90 Chinese surnames and 12 occupations as input prompts, generating 16,200 personal profiles that were evaluated for biases regarding gender, region, age, and educational background. Pre-training corpora for"
 ethics_perspective: "Social & Cultural Values"
 ---
 # Mirroring Cultural Dominance: Disclosing Large Language Models Social Values, Attitudes and Stereotypes

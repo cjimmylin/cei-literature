@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
+languages_list: "Amharic, Hausa, Northern Sotho, Swahili, Yoruba, Zulu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Evaluations of Large Language Models (LLMs) on knowledge-intensive ta
 data_description: "Multilingual benchmark for ai safety dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Claude, Claude Sonnet, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5-turbo, GPT-4, GPT-4o, GPT-4o mini, Gemma, Gemma-2, Gemma2, Llama, Llama-3.1, T5, claude-3, gpt-4o-mini"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Uhura: A Benchmark for Evaluating Scientific Question Answering and Truthfulness in Low-Resource African Languages

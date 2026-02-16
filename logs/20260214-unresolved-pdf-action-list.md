@@ -33,7 +33,7 @@
 - 2024-Zeng-Proposing Central Asian AI Ethics Principles.md | HOST_REJECTED_REQUEST | http_204
 - 2025-Solidjonov-How do LLMs perform on Turkish.md | HOST_REJECTED_REQUEST | http_202
 - 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
-- 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
+- 2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
 - 2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
 - 2024-Moe-Fact Checking in Low-Resource Languages A.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
 - 2024-Phyo-Development and Evaluation of Myanmar GPT.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
@@ -43,4 +43,4 @@
 - 2025-Ochasi-Reframing Justice in Healthcare AI.md | LANDING_PAGE_NOT_DIRECT_PDF | not_pdf
 - 2023-University-Antisemitism on Twitter A Dataset for.md | PAYWALL_OR_ACCESS_BLOCK | http_403
 - 2024-Hellwig-The Vedic Compound Dataset.md | PAYWALL_OR_ACCESS_BLOCK | http_403
-- 2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md | PAYWALL_OR_ACCESS_BLOCK | http_403
+- 2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md | PAYWALL_OR_ACCESS_BLOCK | http_403

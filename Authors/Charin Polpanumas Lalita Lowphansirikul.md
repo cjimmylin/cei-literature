@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models|WangchanBERTa Pretraining transformer-based Thai Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models*: Affiliation: School of Information Science and Technology, Vidyasirimedhi Institution of Science and Technology, Email: charin.polpanumas@datatouille.org
 - *From 2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models*: Affiliation: School of Information Science and Technology, Vidyasirimedhi Institution of Science and Technology, Email: charin.polpanumas@datatouille.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2508.12411.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
 

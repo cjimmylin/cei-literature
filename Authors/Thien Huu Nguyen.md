@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Luong-Realistic Evaluation of Toxicity in Large|Realistic Evaluation of Toxicity in Large]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: linhnv@soict.hust.edu.vn
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: thien@cs.oregon.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

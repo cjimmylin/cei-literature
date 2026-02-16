@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2020-Mollas-ETHOS an Online Hate Speech Detection Dataset|ETHOS: an Online Hate Speech Detection Dataset]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Mollas-ETHOS an Online Hate Speech Detection Dataset*: Affiliation: University of Thessaloniki, Email: iamollas@csd.auth.gr
 - *From 2020-Mollas-ETHOS an Online Hate Speech Detection Dataset*: Affiliation: University of Thessaloniki, Email: stkarlos@csd.auth.gr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

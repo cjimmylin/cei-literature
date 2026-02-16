@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2502.16600.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Mistral, Llama-3, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization

@@ -1,9 +1,9 @@
 ---
 name: "Priyadharshini, Ruba"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Centre for Data Analytics, Data Science Institute, National University of Ireland Galway"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "sajeethas@esn.ac.lk"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,8 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language|DravidianCodeMix Sentiment Analysis and Offensive Language]]
-- [[2021-Chakravarthi-Findings of the Sentiment Analysis of|Findings of the Sentiment Analysis of]]]]
 
 - [[2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language|DravidianCodeMix Sentiment Analysis and Offensive Language]]
 - [[2021-Chakravarthi-Findings of the Sentiment Analysis of|Findings of the Sentiment Analysis of]]
@@ -85,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2021-Chakravarthi-Findings of the Sentiment Analysis of*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of Ireland Galway, Email: sajeethas@esn.ac.lk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

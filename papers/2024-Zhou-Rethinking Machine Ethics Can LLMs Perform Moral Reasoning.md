@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "https://aclanthology.org/2024.findings-naacl.144.pdf"
 publication: "Findings of NAACL 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-2, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
 ---

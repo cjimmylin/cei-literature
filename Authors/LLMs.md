@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs|A Leaderboard to Benchmark Ethical Biases in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs*: Affiliation: Institute of Science and Technology, Esch-sur-Alzette, Luxembourg, Email: marcos.gomez@list.lu
 - *From 2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs*: Affiliation: Institute of Science and Technology, Esch-sur-Alzette, Luxembourg, Email: marcos.gomez@list.lu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

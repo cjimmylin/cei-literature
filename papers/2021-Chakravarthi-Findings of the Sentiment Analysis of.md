@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "English, Kannada, Malayalam, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ abstract: "We present the results of the Dravidian-CodeMix shared task1 held at 
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT, RoBERTa, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Findings of the Sentiment Analysis of Dravidian Languages in Code-Mixed Text

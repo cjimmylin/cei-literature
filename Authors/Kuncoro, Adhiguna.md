@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

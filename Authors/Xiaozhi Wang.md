@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Qi-AGENTIF|AGENTIF]]
 - [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]]
 
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: hong@blcu.edu.cn
 - *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: xianpei@iscas.ac.cn
 - *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: sms@tsinghua.edu.cn
 [Additional context or contact information]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_CONSTANTINESCU2022
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.m
 local_pdf: "[[PDFs/2022/2022-Constantinescu-Can Robotic AI Be Virtuous.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes

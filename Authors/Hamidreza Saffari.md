@@ -49,6 +49,7 @@ Saffari led the development of the Iranian Social Norms (ISN) dataset, the first
 
 
 
+
 - [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]] (First Author)
 - [[2024-Saffari-PSN|PSN]] (First Author)
 
@@ -63,6 +64,8 @@ Saffari led the development of the Iranian Social Norms (ISN) dataset, the first
 
 
 
+
+- *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: francesco.pierri@polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: francesco.pierri@polimi.it
 - *From 2024-Saffari-PSN*: Affiliation: University of Milan, 3Bocconi University, Email: hamidreza.saffari@mail.polimi.it

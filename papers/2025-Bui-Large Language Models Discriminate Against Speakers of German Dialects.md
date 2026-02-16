@@ -35,7 +35,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1-70B, Llama-3.1-8B, Llama-3-70B, Llama-3-8B, Mistral-7B, Gemma-7B, GPT-4o-mini, GPT-4, Claude-3.5-Sonnet"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Dialects represent a significant component of human culture and are found across all regions of the world. In Germany, more than 40% of the population speaks a regional dialect (Adler and Hansen, 2022). However, despite cultural importance, individuals speaking dialects often face negative societal stereotypes. We examine whether such stereotypes are mirrored by large language models (LLMs). We draw on the sociolinguistic literature on dialect perception to analyze traits commonly associated..."
 ethics_perspective: "Bias & Fairness"

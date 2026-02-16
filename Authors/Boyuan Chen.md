@@ -49,6 +49,7 @@ He has made significant contributions to the field of automated scientific disco
 
 
 
+
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
@@ -68,6 +69,8 @@ He has made significant contributions to the field of automated scientific disco
 
 
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge

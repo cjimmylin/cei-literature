@@ -13,9 +13,9 @@ type: conferencePaper
 short_title: "PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment"
 year: 2025
 first_author: "[[Seweryn, Karolina]]"
-last_author: "[[Lorenc, Katarzyna]]"
-authors: "[[Seweryn, Karolina]]; [[Kolos, Anna]]; [[Karlinska, Agnieszka]]; [[Lorenc, Katarzyna]]"
-authors_incomplete: true
+last_author: "[[Janz, Arkadiusz]]"
+authors: "[[Seweryn, Karolina]]; [[Kołos, Anna]]; [[Karlińska, Agnieszka]]; [[Lorenc, Katarzyna]]; [[Dziewulska, Katarzyna]]; [[Chrabaszcz, Maciej]]; [[Krasnodebska, Aleksandra]]; [[Betscher, Paula]]; [[Cieślińska, Zofia]]; [[Kowol, Katarzyna]]; [[Moska, Julia]]; [[Motyka, Dawid]]; [[Walkowiak, Paweł]]; [[Żuk, Bartosz]]; [[Janz, Arkadiusz]]"
+authors_incomplete: false
 url: "https://aclanthology.org/2025.emnlp-main.1219/"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.1219.pdf"
 publication: "ACL Anthology / EMNLP 2025"
@@ -48,11 +48,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Seweryn, Karolina]], [[Kolos, Anna]], [[Karlinska, Agnieszka]], [[Lorenc, Katarzyna]]
+[[Seweryn, Karolina]], [[Kołos, Anna]], [[Karlińska, Agnieszka]], [[Lorenc, Katarzyna]], [[Dziewulska, Katarzyna]], [[Chrabaszcz, Maciej]], [[Krasnodebska, Aleksandra]], [[Betscher, Paula]], [[Cieślińska, Zofia]], [[Kowol, Katarzyna]], [[Moska, Julia]], [[Motyka, Dawid]], [[Walkowiak, Paweł]], [[Żuk, Bartosz]], [[Janz, Arkadiusz]]
 
 ## Metadata
 
-**Authors:** Karolina Seweryn, Anna Kolos, Agnieszka Karlinska, Katarzyna Lorenc, et al.
+**Authors:** Seweryn, Karolina; Kołos, Anna; Karlińska, Agnieszka; Lorenc, Katarzyna; Dziewulska, Katarzyna; Chrabaszcz, Maciej; Krasnodebska, Aleksandra; Betscher, Paula; Cieślińska, Zofia; Kowol, Katarzyna; Moska, Julia; Motyka, Dawid; Walkowiak, Paweł; Żuk, Bartosz; Janz, Arkadiusz
 
 **Year:** 2025
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2410.18417.pdf"
 publication: "npj Artificial Intelligence"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -28,6 +28,7 @@ Harsh Maheshwari is a researcher at Symbiosis International Deemed University in
 
 
 
+
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## Notes
@@ -35,6 +36,8 @@ Harsh Maheshwari is a researcher at Symbiosis International Deemed University in
 
 
 
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems

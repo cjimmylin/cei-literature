@@ -24,6 +24,7 @@ Lora Aroyo is a senior research scientist at Google DeepMind, where she leads Re
 
 
 
+
 - [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]] (Last Author)
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]] (First Author)
@@ -33,6 +34,8 @@ Lora Aroyo is a senior research scientist at Google DeepMind, where she leads Re
 
 
 
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London

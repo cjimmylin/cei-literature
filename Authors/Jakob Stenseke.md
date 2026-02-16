@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Stenseke-Computational Complexity of Ethics|Computational Complexity of Ethics]] (First Author)
 - [[2023-Stenseke-Use and Abuse Normative Ethics Moral Machines|Use and Abuse Normative Ethics Moral Machines]] (First Author)
 - [[2021-Stenseke-Artificial Virtuous Agents|Artificial Virtuous Agents]] (First Author)
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Stenseke-Artificial Virtuous Agents*: Affiliation: Department of Philosophy, Lund University, Lund, Sweden, Email: jakob.stenseke@fil.lu.se
 - *From 2021-Stenseke-Artificial Virtuous Agents*: Affiliation: Department of Philosophy, Lund University, Lund, Sweden, Email: jakob.stenseke@fil.lu.se
 - *From 2021-Stenseke-Artificial Virtuous Agents*: Affiliation: Department of Philosophy, Lund University, Lund, Sweden, Email: jakob.stenseke@fil.lu.se
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

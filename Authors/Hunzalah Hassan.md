@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and|DialectalArabicMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and*: Affiliation: University Abu Dhabi, Email: alham.fikri@mbzuai.ac.ae
 - *From 2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and*: Affiliation: University Abu Dhabi, Email: nizar.habash@nyu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

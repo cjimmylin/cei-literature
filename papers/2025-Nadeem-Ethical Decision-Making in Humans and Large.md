@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ authors: "[[Nadeem, Mohammad]]; [[Afreen, Shagufta]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/CTQZ79SQ/Nadeem and Afreen - 2025 - Ethical Decision-Making in Humans and Large Language Models Insights from Five Moral Domains.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
 local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
 normative_ethics_benchmark: Yes

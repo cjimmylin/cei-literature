@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and|MAPS: A Multilingual Benchmark for Global Agent Performance and Security]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

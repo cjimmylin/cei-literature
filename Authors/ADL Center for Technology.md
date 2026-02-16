@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-ADL Center for Technology and Society Daniel Kelley-Generating Hate Anti-Jewish and Anti-Israel Bias|Generating Hate Anti-Jewish and Anti-Israel Bias]] (First Author)
 
 ## External Links & Profiles

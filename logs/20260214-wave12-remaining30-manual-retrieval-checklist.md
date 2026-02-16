@@ -35,7 +35,7 @@ Tactics:
 - If blocked by challenge, retry with normal browser session and cookies.
 Papers:
 - `2024-Toygar-Turkish Offensive Language Detection Dataset.md` | `http_403 HTTP 403` | https://www.mdpi.com/2079-9292/14/24/4919/pdf
-- `2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md` | `http_403 HTTP 403` | https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417
+- `2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md` | `http_403 HTTP 403` | https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417
 - `2024-team-MahaMarathi-7B Marathi Large Language Model.md` | `http_403 HTTP 403` | https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048
 
 ### arxiv.org (2)
@@ -67,7 +67,7 @@ Tactics:
 - Open TechRxiv article page in browser, then click Download PDF.
 - If denied, try alternate version (v1/v2) and DOI landing page.
 Papers:
-- `2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md` | `http_403 HTTP 403` | https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2
+- `2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md` | `http_403 HTTP 403` | https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2
 - `2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md` | `http_403 HTTP 403` | https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1
 
 ### xplorestaging.ieee.org (2)
@@ -98,7 +98,7 @@ Tactics:
 - Open IOS Press chapter landing page and check if PDF is OA or login-gated.
 - If gated, locate author manuscript or conference preprint copy.
 Papers:
-- `2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md` | `not_pdf_header HTTP 200` | https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535
+- `2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light.md` | `not_pdf_header HTTP 200` | https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535
 
 ### hal.science (1)
 Tactics:

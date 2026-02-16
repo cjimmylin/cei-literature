@@ -50,6 +50,7 @@ Akinremi is a co-author of the "NaijaVoices" dataset, one of the largest and mos
 
 
 
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
 
 ## External Links & Profiles
@@ -62,6 +63,8 @@ Akinremi is a co-author of the "NaijaVoices" dataset, one of the largest and mos
 
 
 
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com

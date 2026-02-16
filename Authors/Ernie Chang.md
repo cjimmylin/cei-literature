@@ -39,6 +39,7 @@ Contributed to influential work on LLM evaluation methodologies and agentic AI s
 
 
 
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]]
 
 ## External Links & Profiles
@@ -51,6 +52,8 @@ Contributed to influential work on LLM evaluation methodologies and agentic AI s
 
 
 
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: cszhao@meta.com
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa

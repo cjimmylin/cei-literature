@@ -22,13 +22,13 @@ sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, PDF_EXTRACTS_DIR, LOGS_DIR
 
-NUM_BATCHES = 20
+NUM_BATCHES = 11
 
 
 def load_surveyed_filenames():
     """Load filenames already covered by previous benchmark survey."""
     # Try the latest all_classifications JSON
-    for prefix in ["20260215", "20260208"]:
+    for prefix in ["20260216", "20260215", "20260208"]:
         path = LOGS_DIR / "{}-benchmark_survey_all_classifications.json".format(prefix)
         if path.exists():
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -128,7 +128,7 @@ def main():
     ))
 
     # Split into 20 batches
-    batches_dir = LOGS_DIR / "benchmark_survey_batches"
+    batches_dir = LOGS_DIR / "benchmark_survey_round3_batches"
     batches_dir.mkdir(parents=True, exist_ok=True)
 
     base_size = len(papers) // NUM_BATCHES

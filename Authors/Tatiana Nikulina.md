@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused|CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 - *From 2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused*: Affiliation: Institute of Physics and Technology (MIPT), Moscow, Russia, Email: vasilev.va@phystech.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

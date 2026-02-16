@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate|Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br
 - *From 2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate*: Affiliation: Institute of Mathematical and Computer Sciences, University of São Paulo, São Carlos, Brazil and 2Computer Sc, Email: francielleavargas@usp.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kumar-SweEval Do LLMs Really Swear A|SweEval Do LLMs Really Swear A]] (Last Author)
 - [[2025-Wasi-Dialectal Bias in Bengali An Evaluation of Multilingual Language|Dialectal Bias in Bengali: An Evaluation of Multilingual Language Models]] (Last Author)
 - [[2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models|Exploring Bengali Religious Dialect Biases in Large Language Models with Evaluation Perspectives]] (Last Author)
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models*: Affiliation: University of Science and Technology, Bangladesh
 - *From 2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models*: Affiliation: University of Science and Technology, Bangladesh
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in|KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org

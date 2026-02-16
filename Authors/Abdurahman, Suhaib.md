@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks|Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks]]
 - [[2026-Yu-Tracing Moral Foundations in LLMs|Tracing Moral Foundations in LLMs]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

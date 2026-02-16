@@ -22,6 +22,7 @@ Usman Anwar is a PhD student in the Computational and Biological Learning lab at
 
 
 
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Usman Anwar is a PhD student in the Computational and Biological Learning lab at
 
 
 
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com

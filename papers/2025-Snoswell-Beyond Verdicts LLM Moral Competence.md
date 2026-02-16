@@ -3,6 +3,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_SNOSWELL2025
@@ -18,6 +19,7 @@ pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competen
 local_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts LLM Moral Competence.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes
@@ -37,7 +39,7 @@ is_dataset: No
 data_description: "Survey of 69 LLM ethics evaluation papers"
 data_metrics: N/A
 LLM_assessed: "ChatGPT, DeepSeek, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Beyond Verdicts: Evaluating Language Model Moral Competence
 

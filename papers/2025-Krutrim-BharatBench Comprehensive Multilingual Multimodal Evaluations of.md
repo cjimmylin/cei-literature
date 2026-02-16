@@ -12,10 +12,10 @@ key: LSRC0055
 type: conferencePaper
 short_title: "BharatBench: Comprehensive Multilingual Multimodal Evaluations of Indian Languages"
 year: 2025
-first_author: "[[Unknown]]"
-last_author: "[[Unknown]]"
-authors: "[[Unknown]]"
-authors_incomplete: true
+first_author: "[[Krutrim AI Team]]"
+last_author: "[[Krutrim AI Team]]"
+authors: Krutrim AI Team
+authors_incomplete: false
 url: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
 external_pdf: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
 publication: "Krutrim AI Labs"

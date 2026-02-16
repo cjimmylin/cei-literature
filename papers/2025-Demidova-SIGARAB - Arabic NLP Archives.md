@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, I found information about the \"Mind the Dialect\" paper presented at EMNLP 2025: Paper Overview The paper \"Mind the Dialect: NLP Advancements Uncover Fairness Disparities\" was published in the Findings of the Association for Computational Linguistics: EMNLP 2025, November 4-9, 2025. Key Findings The research focuses on fairness disparities in NLP systems when processing Arabic language variants."
 research_topic: "NLP & Representation Learning"
 ---
 # SIGARAB - Arabic NLP Archives

@@ -51,6 +51,7 @@ He has received several best paper awards at top venues like KDD and SDM. He is 
 
 
 
+
 - [[2025-Liu-InstrumentalEval|InstrumentalEval]] (Last Author)
 
 ## External Links & Profiles
@@ -67,6 +68,8 @@ He has received several best paper awards at top venues like KDD and SDM. He is 
 
 
 
+
+- *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2018-Noothigattu-A Voting-Based System for Ethical Decision Making|A Voting-Based System for Ethical Decision Making]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 - *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 - *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University
 - *From 2018-Noothigattu-A Voting-Based System for Ethical Decision Making*: Affiliation: School of Computer Science, Carnegie Mellon University

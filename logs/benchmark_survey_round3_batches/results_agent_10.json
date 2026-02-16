@@ -1,0 +1,397 @@
+[
+  {
+    "filename": "2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.md",
+    "decision": "Exclude",
+    "reasoning": "This paper focuses on ASR (automatic speech recognition) performance for Chinese dialects using self-supervised learning and LLMs. It does not introduce a benchmark, dataset, or metric for AI ethics, values, bias, fairness, safety, or alignment."
+  },
+  {
+    "filename": "2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.md",
+    "decision": "Exclude",
+    "reasoning": "LaoBench is a general language understanding benchmark for Lao with culturally grounded knowledge dimensions, but it is not specifically focused on AI ethics, values, bias, fairness, safety, or alignment assessment. Its primary contribution is evaluating LLM proficiency in the Lao language."
+  },
+  {
+    "filename": "2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.md",
+    "decision": "Exclude",
+    "reasoning": "MMLU-ProX is a multilingual knowledge benchmark covering 29 languages for general LLM evaluation. While it reveals performance gaps across languages, it does not specifically measure AI ethics, bias, fairness, safety, or moral alignment."
+  },
+  {
+    "filename": "2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md",
+    "decision": "Exclude",
+    "reasoning": "This paper analyzes activation patterns in multilingual LLMs to explain cross-linguistic performance disparities using Sparse Autoencoders. It is an analysis/method paper, not a benchmark, dataset, or evaluation metric for AI ethics."
+  },
+  {
+    "filename": "2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces SOBACO (SOcial BiAs and Cultural cOmmonsense), a Japanese benchmark evaluating social biases and cultural commonsense in LLMs across age, gender, and hierarchical relationships. It directly measures the tension between bias mitigation and cultural value preservation.",
+    "benchmark_name": "SOBACO",
+    "what_measures": "Social bias and cultural commonsense in Japanese LLMs across age, gender, and hierarchical relationship domains",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Japanese"
+  },
+  {
+    "filename": "2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md",
+    "decision": "Exclude",
+    "reasoning": "This is a comparative survey of gender bias detection and mitigation methods across NLP and CV. It reviews existing work rather than introducing a new benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces inter-JBBQ, a Japanese benchmark for evaluating intersectional bias in LLMs through QA tasks covering four topics (house renting, marriage market, research, social etiquette) with intersecting social attributes.",
+    "benchmark_name": "inter-JBBQ",
+    "what_measures": "Intersectional bias in Japanese LLMs across nationality, gender, race, salary, and occupation in contextualized social scenarios",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Japanese"
+  },
+  {
+    "filename": "2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md",
+    "decision": "Exclude",
+    "reasoning": "CodeMixBench evaluates code-mixing NLP capabilities across 18 languages. While it is a benchmark, its primary focus is on linguistic code-switching performance, not on AI ethics, values, bias, fairness, safety, or alignment."
+  },
+  {
+    "filename": "2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.md",
+    "decision": "Exclude",
+    "reasoning": "This CodeMixBench variant evaluates code generation with code-mixed prompts (Hindi-English, Spanish-English, Chinese-English). It focuses on code generation robustness, not on AI ethics, bias, fairness, or values assessment."
+  },
+  {
+    "filename": "2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.md",
+    "decision": "Exclude",
+    "reasoning": "OpenHuEval is a benchmark for evaluating LLMs on Hungarian language and cultural knowledge across eight dimensions. While it includes cultural knowledge, it is a general Hungarian-language proficiency benchmark, not specifically focused on AI ethics, bias, fairness, or moral assessment."
+  },
+  {
+    "filename": "2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.md",
+    "decision": "Exclude",
+    "reasoning": "CUGE is a Chinese language understanding and generation evaluation benchmark with a hierarchical framework. It is a general NLP evaluation benchmark, not specifically designed for AI ethics, values, bias, or fairness assessment."
+  },
+  {
+    "filename": "2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.md",
+    "decision": "Exclude",
+    "reasoning": "Multi-TW is a Traditional Chinese benchmark for evaluating multimodal models using proficiency test questions from Taiwan. It focuses on multimodal language understanding, not on AI ethics, bias, fairness, safety, or values."
+  },
+  {
+    "filename": "2025-Yimam-CULEMO Cultural Lenses on Emotion --.md",
+    "decision": "Yes",
+    "reasoning": "CULEMO is the first benchmark for culture-aware emotion prediction across six languages (including Amharic, Arabic, German, Hindi, Spanish), with 400 crafted questions per language requiring nuanced cultural reasoning. It measures how LLMs understand culturally situated emotions, which is directly relevant to cultural and values assessment.",
+    "benchmark_name": "CuLEmo",
+    "what_measures": "Cross-cultural emotion understanding in LLMs, testing whether models grasp culturally specific emotion conceptualizations across six languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Indian, Arabic, African (Amharic), German, Spanish, English"
+  },
+  {
+    "filename": "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md",
+    "decision": "Exclude",
+    "reasoning": "This is a survey paper reviewing nearly 300 publications on multilingual LLM safety. While it identifies gaps in safety research across languages, it does not itself introduce a new benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes adaptive ensemble techniques for multilingual hate speech detection in Korean and English. It develops a method rather than introducing a new benchmark, dataset, or evaluation metric for AI ethics."
+  },
+  {
+    "filename": "2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes a code-switching curriculum learning method (CSCL) to enhance cross-lingual transfer in LLMs. It is a training methodology paper, not a benchmark or dataset for AI ethics, bias, or values assessment."
+  },
+  {
+    "filename": "2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces CSRT (Code-Switching Red-Teaming), a framework that synthesizes code-switching red-teaming queries to evaluate LLM safety across 10 languages. It achieves 46.7% more successful attacks than English-only methods, revealing safety vulnerabilities in multilingual LLMs.",
+    "benchmark_name": "CSRT",
+    "what_measures": "Multilingual LLM safety vulnerabilities through code-switching red-teaming attacks across 10 languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Arabic, Bengali, Chinese, English, Italian, Javanese, Korean, Swahili, Thai, Vietnamese"
+  },
+  {
+    "filename": "2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.md",
+    "decision": "Exclude",
+    "reasoning": "KCL is a Korean legal reasoning benchmark based on the Korean Bar Exam. While it evaluates legal reasoning, it focuses on legal knowledge and reasoning skills rather than AI ethics, bias, fairness, or moral values assessment."
+  },
+  {
+    "filename": "2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md",
+    "decision": "Exclude",
+    "reasoning": "HebID is a Hebrew corpus for social identity detection in political text, annotated for 12 social identities. While it involves social categories, it is an NLP classification task dataset rather than a benchmark specifically for evaluating AI ethics, bias, fairness, or values alignment."
+  },
+  {
+    "filename": "2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md",
+    "decision": "Exclude",
+    "reasoning": "This paper develops a quantitative framework for evaluating VLMs on traditional Chinese painting critique. It focuses on art criticism capabilities and cultural interpretation, not on AI ethics, bias, fairness, safety, or values assessment."
+  },
+  {
+    "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "decision": "Yes",
+    "reasoning": "CMoralEval is a large-scale benchmark for morality evaluation of Chinese LLMs, with 14,964 explicit moral scenarios and 15,424 moral dilemma scenarios. It is grounded in Chinese moral norms and principles rooted in traditional Chinese culture, directly measuring moral/ethical reasoning.",
+    "benchmark_name": "CMoralEval",
+    "what_measures": "Moral reasoning of Chinese LLMs using explicit moral scenarios and moral dilemmas grounded in Chinese cultural moral norms",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Chinese"
+  },
+  {
+    "filename": "2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes an unsupervised deep learning framework for sentiment analysis of classical Chinese literature. It is focused on NLP methodology for literary analysis, not on AI ethics, bias, fairness, or values assessment."
+  },
+  {
+    "filename": "2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md",
+    "decision": "Exclude",
+    "reasoning": "TIB-STC (Sun-Shine) is a large-scale Tibetan language dataset for LLM development and evaluation across literature, religion, medicine, law, and daily communication. While it covers Tibetan cultural content, it is a general language benchmark, not specifically for AI ethics, bias, or values assessment."
+  },
+  {
+    "filename": "2025-Yu-TLUE A Tibetan Language Understanding Evaluation.md",
+    "decision": "Yes",
+    "reasoning": "TLUE includes Ti-SafetyBench with 11,435 questions across 7 safety categories specifically designed for evaluating LLM safety in the Tibetan language context. The safety component directly assesses AI safety alignment for a low-resource language.",
+    "benchmark_name": "TLUE (Ti-SafetyBench component)",
+    "what_measures": "LLM safety in Tibetan across 7 safety categories, plus Tibetan language understanding via Ti-MMLU",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Tibetan"
+  },
+  {
+    "filename": "2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md",
+    "decision": "Exclude",
+    "reasoning": "This paper evaluates LLMs for hate speech detection across multilingual datasets with geographic context. It uses existing datasets to evaluate models rather than introducing a new benchmark or metric for AI ethics assessment."
+  },
+  {
+    "filename": "2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md",
+    "decision": "Yes",
+    "reasoning": "This paper evaluates LLMs on Islamic inheritance law reasoning using the QIAS 2025 challenge dataset, testing heir identification, share computation, and justification aligned with Islamic legal principles. It benchmarks AI performance on religiously grounded ethical/legal reasoning.",
+    "benchmark_name": "QIAS 2025 (Islamic Inheritance Challenge)",
+    "what_measures": "LLM capability to interpret and apply Islamic inheritance laws, including heir identification, share computation, and legal justification",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Arabic, Islamic"
+  },
+  {
+    "filename": "2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md",
+    "decision": "Exclude",
+    "reasoning": "AraLingBench evaluates Arabic linguistic competence across grammar, morphology, spelling, reading comprehension, and syntax. It is a linguistic proficiency benchmark, not focused on AI ethics, bias, fairness, or values assessment."
+  },
+  {
+    "filename": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+    "decision": "Yes",
+    "reasoning": "C-Plus Values upgrades the CValues Chinese value alignment benchmark with multi-turn dialogues and narrative story scenarios to evaluate LLMs' responsibility alignment. It directly measures Chinese value alignment through more adversarial evaluation methods.",
+    "benchmark_name": "C-Plus Values",
+    "what_measures": "Chinese LLM value alignment using multi-turn dialogues and narrative scenarios with responsibility traps, extending CValues benchmark",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Chinese"
+  },
+  {
+    "filename": "2025-Zhang-Cognitive Bias in Generative AI Influences.md",
+    "decision": "Exclude",
+    "reasoning": "This is an experimental study showing generative AI amplifies cognitive biases in religious education. While highly relevant to AI ethics, it does not introduce a benchmark, dataset, or evaluation metric; it presents experimental findings about AI bias effects."
+  },
+  {
+    "filename": "2025-Zhang-CultureScope A Dimensional Lens for Probing.md",
+    "decision": "Yes",
+    "reasoning": "CultureScope introduces a comprehensive evaluation framework for cultural understanding in LLMs with a dimensional schema of 3 layers and 140 dimensions based on cultural iceberg theory (Institutional Norms, Behavioral Patterns, Core Values and Social Structures). It directly probes cultural values.",
+    "benchmark_name": "CultureScope",
+    "what_measures": "Cultural understanding in LLMs across 140 dimensions organized in 3 layers: Institutional Norms, Behavioral Patterns, and Core Values and Social Structures",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "General (applicable to Thai, Lao, Khmer, Burmese and other cultures)"
+  },
+  {
+    "filename": "2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.md",
+    "decision": "Yes",
+    "reasoning": "CultureSynth introduces a hierarchical multilingual cultural taxonomy (12 primary, 130 secondary topics) and the CultureSynth-7 benchmark with 19,360 entries across 7 languages. It evaluates LLMs on cultural competence at national, regional, and community levels.",
+    "benchmark_name": "CultureSynth-7",
+    "what_measures": "LLM cultural competence across 7 languages using hierarchical taxonomy covering national, regional, and community cultural levels",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "7 languages, Various cultures"
+  },
+  {
+    "filename": "2025-Zhang-Evaluating and Improving Cultural Awareness of.md",
+    "decision": "Yes",
+    "reasoning": "CARB (Cultural Awareness Reward modeling Benchmark) is the first benchmark evaluating cultural awareness of reward models used in LLM alignment, covering 10 cultures across 4 domains including cultural commonsense knowledge, values, safety, and linguistics.",
+    "benchmark_name": "CARB",
+    "what_measures": "Cultural awareness of reward models for LLM alignment across 10 cultures and 4 domains: cultural commonsense, values, safety, and linguistics",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "10 cultures including Japanese, Chinese, and others"
+  },
+  {
+    "filename": "2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large.md",
+    "decision": "Exclude",
+    "reasoning": "OmniEduBench is a Chinese educational benchmark with knowledge and cultivation dimensions across 61 subjects. While it includes a cultivation dimension, it is primarily an educational assessment benchmark, not specifically focused on AI ethics, bias, fairness, or values."
+  },
+  {
+    "filename": "2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation.md",
+    "decision": "Exclude",
+    "reasoning": "This paper introduces Constrained Decoding Attack (CDA), a jailbreak technique exploiting structured output constraints. While it is about AI safety, it presents an attack methodology rather than a benchmark, dataset, or evaluation metric for assessing AI ethics."
+  },
+  {
+    "filename": "2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese.md",
+    "decision": "Yes",
+    "reasoning": "This paper uses CHiSafetyBench to evaluate and enhance safety of all six DeepSeek-R1 distilled models in Chinese contexts, with open-sourced safety-enhanced models. CHiSafetyBench is a Chinese-specific safety evaluation benchmark.",
+    "benchmark_name": "CHiSafetyBench",
+    "what_measures": "Safety of LLMs in Chinese-specific contexts across multiple Chinese-relevant risk categories",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Chinese"
+  },
+  {
+    "filename": "2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md",
+    "decision": "Yes",
+    "reasoning": "This paper introduces CHiSafetyBench for evaluating DeepSeek-R1 and DeepSeek-V3 safety in Chinese contexts, benchmarking against 10+ other Chinese LLMs. It is the primary paper presenting this Chinese-specific safety benchmark.",
+    "benchmark_name": "CHiSafetyBench",
+    "what_measures": "Safety of LLMs in Chinese-specific deployment contexts with Chinese-relevant safety dimensions",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Chinese"
+  },
+  {
+    "filename": "2025-Zhao-WenyanGPT A Large Language Model for.md",
+    "decision": "Exclude",
+    "reasoning": "WenyanGPT is a specialized LLM for classical Chinese with the WenyanBENCH evaluation benchmark for 6 classical Chinese NLP tasks. While it includes a benchmark, it focuses on classical Chinese language processing, not on AI ethics, values, bias, or fairness."
+  },
+  {
+    "filename": "2025-Zheng-Evaluating Code-Switching Translation with Large ....md",
+    "decision": "Exclude",
+    "reasoning": "This paper evaluates LLMs on code-switching translation. It is focused on translation performance in mixed-language settings, not on AI ethics, values, bias, fairness, safety, or alignment assessment."
+  },
+  {
+    "filename": "2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md",
+    "decision": "Yes",
+    "reasoning": "This paper creates a multilingual bias evaluation dataset with Indonesian as a low-resource language, covering four bias types: gender, race-color, nationality, and religion. It demonstrates cross-lingual debiasing transfer and directly measures social bias in non-English LLMs.",
+    "benchmark_name": "Bias Beyond English (multilingual bias evaluation dataset)",
+    "what_measures": "Social bias in low-resource language LLMs across four dimensions: gender, race-color, nationality, and religion",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Chinese, Indonesian, Thai, Russian"
+  },
+  {
+    "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+    "decision": "Exclude",
+    "reasoning": "WYWEB is an NLP evaluation benchmark for classical Chinese with 9 tasks spanning sentence classification, sequence labeling, reading comprehension, and machine translation. It focuses on classical Chinese language understanding, not on AI ethics, values, bias, or fairness assessment."
+  },
+  {
+    "filename": "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes a Huffman-based transliteration framework for enhancing cross-lingual transfer in low-resource languages. It is a training methodology paper, not a benchmark, dataset, or metric for AI ethics assessment."
+  },
+  {
+    "filename": "2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md",
+    "decision": "Exclude",
+    "reasoning": "This paper documents experiences in post-training a Finnish LLM for instruction-following. While it translates IFEval to Finnish, it is primarily about LLM training methodology, not introducing a benchmark for AI ethics, bias, fairness, or values."
+  },
+  {
+    "filename": "2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md",
+    "decision": "Exclude",
+    "reasoning": "KazBench-KK is a cultural knowledge benchmark for Kazakh with 7,111 questions across 17 culturally salient domains. While it evaluates cultural knowledge, it is a general cultural knowledge benchmark, not specifically focused on AI ethics, bias, fairness, safety, or moral values assessment."
+  },
+  {
+    "filename": "2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md",
+    "decision": "Yes",
+    "reasoning": "BasqBBQ is the first benchmark for assessing social biases in Basque LLMs across eight bias domains using multiple-choice QA. It directly measures social bias in a low-resource language, finding high negative bias in Disability Status, Age, and Physical Appearance.",
+    "benchmark_name": "BasqBBQ",
+    "what_measures": "Social biases in Basque LLMs across eight social bias domains including age, gender, disability status, physical appearance",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Basque"
+  },
+  {
+    "filename": "2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md",
+    "decision": "Exclude",
+    "reasoning": "MUDT is a Uyghur dependency treebank and annotation framework for linguistic parsing and grammar tutoring. It is a linguistic resource, not a benchmark for AI ethics, values, bias, fairness, or safety assessment."
+  },
+  {
+    "filename": "2025-[[Unknown]]-Alif Advancing Urdu Large Language Models.md",
+    "decision": "Exclude",
+    "reasoning": "Alif is an Urdu LLM built via multilingual synthetic data distillation. While it incorporates cultural relevance and ethical safety alignment, the paper presents a model rather than a benchmark, dataset, or evaluation metric for AI ethics."
+  },
+  {
+    "filename": "2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and.md",
+    "decision": "Yes",
+    "reasoning": "This paper creates code-mixed Nepali-English and Telugu-English datasets specifically for abusive language detection, with 5,000 annotated comments. It provides a labeled dataset for detecting harmful content in low-resource code-mixed languages.",
+    "benchmark_name": "Code-Mixed Nepali-English/Telugu-English Abusive Language Dataset",
+    "what_measures": "Abusive language detection in code-mixed Nepali-English and Telugu-English social media text",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Nepali, Telugu, Indian"
+  },
+  {
+    "filename": "2025-[[Unknown]]-Mitigating Social Bias in English and.md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes PRM-guided candidate selection and sequential refinement methods for mitigating social bias in English and Urdu. It presents a debiasing technique rather than introducing a benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-approach-A Language model-based approach to sentiment classification of.md",
+    "decision": "Exclude",
+    "reasoning": "This paper applies language models to sentiment classification of Central Asian languages. It focuses on sentiment analysis methodology, not on AI ethics, values, bias, fairness, or safety assessment."
+  },
+  {
+    "filename": "2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md",
+    "decision": "Yes",
+    "reasoning": "CIVIQ proposes a Cultural Intelligence and Values Inference Quality benchmark for evaluating LLM alignment with community values, specifically centered on African American cultural values. It extends KorNAT methodology to US minority populations.",
+    "benchmark_name": "CIVIQ",
+    "what_measures": "Cultural intelligence and values inference quality for historically marginalized US populations, particularly African American community values",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "African American community, US minority cultures"
+  },
+  {
+    "filename": "2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md",
+    "decision": "Yes",
+    "reasoning": "This INESIA-led international exercise establishes a common methodology for multilingual LLM safety testing across 10 languages and 5 harm categories (privacy, crime, intellectual property, jailbreaking), testing 2 models with 6,000+ prompts. It introduces a safety evaluation framework.",
+    "benchmark_name": "INESIA Multilingual Safety Evaluation",
+    "what_measures": "Multilingual LLM safety across 10 languages and 5 harm categories: privacy, non-violent crime, violent crime, intellectual property, jailbreak robustness",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu"
+  },
+  {
+    "filename": "2025-community-Setting Standards in Turkish NLP TR-MMLU.md",
+    "decision": "Exclude",
+    "reasoning": "TR-MMLU is a Turkish knowledge evaluation benchmark with 6,200 questions from Turkey's national curriculum. It is a general knowledge benchmark for Turkish LLMs, not specifically focused on AI ethics, bias, fairness, safety, or values assessment."
+  },
+  {
+    "filename": "2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes a taxonomy for categorizing multilingual/non-English LLM benchmarks and best practices for European language evaluation. It is a meta-analysis and taxonomy paper, not a benchmark or dataset for AI ethics assessment."
+  },
+  {
+    "filename": "2025-funded-Analysis of Indic Language Capabilities in.md",
+    "decision": "Exclude",
+    "reasoning": "This is a meta-analysis reviewing 28 LLMs on Indic language capabilities, funded by MLCommons for AI Safety Benchmarks. It provides a prioritization framework but does not itself introduce a new benchmark, dataset, or metric."
+  },
+  {
+    "filename": "2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via.md",
+    "decision": "Exclude",
+    "reasoning": "MEXA introduces a method for assessing multilingual capabilities of English-centric LLMs via cross-lingual alignment scores. It is a methodology for evaluating general multilingual capability, not specifically for AI ethics, bias, fairness, or values assessment."
+  },
+  {
+    "filename": "2025-initiative-CatholicBench.md",
+    "decision": "Yes",
+    "reasoning": "CatholicBench tests AI models on Catholic theological competence across Moral Theology, Bioethics, Sacraments, Canon Law, and History/Bias. It measures Pastoral Charity and Historical Accuracy, directly assessing AI alignment with religious/moral values.",
+    "benchmark_name": "CatholicBench",
+    "what_measures": "AI competence in Catholic theology including Moral Theology, Bioethics, Sacraments, Canon Law, measuring Pastoral Charity and Historical Accuracy",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Catholic/Christian"
+  },
+  {
+    "filename": "2025-initiative-Faith Respect and Moral Compass in.md",
+    "decision": "Yes",
+    "reasoning": "This is an ambitious pluralistic initiative to benchmark AI accuracy and respect across diverse faith traditions, with evaluation criteria including Faith Faithfulness, Pluralism Awareness, and Moral Compass. Still in development but represents the most comprehensive interfaith benchmark effort.",
+    "benchmark_name": "Pluralistic Community AI Evaluation (Faith, Respect, and Moral Compass)",
+    "what_measures": "AI accuracy and respect across diverse faith traditions using criteria including faith-faithfulness, pluralism awareness, and moral compass",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Interfaith/pluralistic (Christianity, Judaism, Islam, and other traditions)"
+  },
+  {
+    "filename": "2025-initiative-FaithBench AI Benchmark for Christian Theology.md",
+    "decision": "Yes",
+    "reasoning": "FaithBench is the first rigorous benchmark for AI on Christian theology, apologetics, and biblical scholarship with 300+ test cases across 6 dimensions including Biblical Exegesis, Hermeneutics, and Systematic Theology using GPQA-style multi-hop reasoning.",
+    "benchmark_name": "FaithBench",
+    "what_measures": "AI competence in Christian theology, apologetics, and biblical scholarship across 6 dimensions with expert-level questions",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Christian"
+  }
+]

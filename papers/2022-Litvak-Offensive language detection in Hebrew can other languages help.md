@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Unfortunately, offensive language in social media is a common phenomenon nowadays. It harms many people and vulnerable groups. Therefore, automated detection of offensive language is in high demand and it is a serious challenge in multilingual domains. Various machine learning approaches combined with natural language techniques have been applied for this task lately. This paper contributes to this area in several aspects: (1) it introduces a new dataset of annotated Facebook comments in..."
 ethics_perspective: "Toxicity & Hate Speech"

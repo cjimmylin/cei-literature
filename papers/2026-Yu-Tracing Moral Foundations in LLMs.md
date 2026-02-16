@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -16,6 +17,7 @@ pdf_extract: "PDF Extracts/2026/2026-Yu-Tracing Moral Foundations in LLMs.md"
 local_pdf: "[[PDFs/2026/2026-Yu-Tracing Moral Foundations in LLMs.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes

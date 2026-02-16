@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using|Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1
 - *From 2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using*: Affiliation: department, College of informatics, Sulaimani Polytechnic University, Sulaimani, Iraq1
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

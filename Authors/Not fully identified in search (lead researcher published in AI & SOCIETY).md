@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-SOCIETY-How Much of a Pluralist is|How Much of a Pluralist is]] (First Author)
 
 ## External Links & Profiles

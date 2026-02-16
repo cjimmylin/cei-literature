@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, American"
 cultures_nationalities_list: "Indian, American"
+languages_list: "Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment
 

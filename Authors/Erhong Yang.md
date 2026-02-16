@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.|Reward Model Perspectives on Demographic Alignment (Elle et al.)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.*: Affiliation: University of Oxford, Department of Computer Science, Email: elle.yang@cs.ox.ac.uk
 - *From 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.*: Affiliation: University of Oxford, Department of Computer Science, Email: elle.yang@cs.ox.ac.uk
 - *From 2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.*: Affiliation: University of Oxford, Department of Computer Science, Email: elle.yang@cs.ox.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

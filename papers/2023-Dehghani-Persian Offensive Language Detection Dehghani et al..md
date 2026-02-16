@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ELMo, GPT3, GloVe, RoBERTa, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "With the proliferation of social networks and their impact on human life, one of the rising problems in this environment is the rise in verbal and written insults and hatred. As one of the significant platforms for distributing text-based content, Twitter frequently publishes its users’ abusive remarks. Creating a model that requires a complete collection of offensive sentences is the initial stage in recognizing objectionable phrases."
 ethics_perspective: "Toxicity & Hate Speech"

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Li-Evaluating Object Hallucination in Large|Evaluating Object Hallucination in Large]] (Last Author)
 - [[2023-Li-HaluEval|HaluEval]] (Last Author)
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: francis_kun_zhou@163.com
 - *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: jrwen@ruc.edu.cn
 - *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: francis_kun_zhou@163.com
 - *From 2023-Li-Evaluating Object Hallucination in Large*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: jrwen@ruc.edu.cn

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Afan Oromo, Amharic, Ethiopian, Ge'ez, Somali, Tigrinya"
-languages_list: 
+languages_list: "Afan Oromo, Amharic, English, Ge'ez, Somali, Tigrinya"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

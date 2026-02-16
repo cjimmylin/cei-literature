@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.clarin.si/repository/xmlui/handle/11356/1766"
 tags: 
-abstract: 
+abstract: "COPA causal commonsense reasoning adapted for South Slavic dialects: Slovenian Cerkno, Croatian Chakavian, Serbian Torlak. Training data for standard Slovenian, Croatian, Serbian, Macedonian."
 research_topic: "Other"
 ---
 # DIALECT-COPA: Choice of Plausible Alternatives Datasets in South Slavic Dialects

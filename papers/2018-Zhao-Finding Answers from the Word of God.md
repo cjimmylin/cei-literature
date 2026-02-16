@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "http://arxiv.org/abs/1810.12118"
 external_pdf: "http://arxiv.org/pdf/1810.12118.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"

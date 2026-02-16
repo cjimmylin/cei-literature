@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese, Tibetan, Sanskrit, Indian"
+languages_list: "Chinese, English, Pali, Sanskrit, Tibetan"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"

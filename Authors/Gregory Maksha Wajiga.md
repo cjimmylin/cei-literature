@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Murtala-A multilingual dataset for offensive language|A multilingual dataset for offensive language]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: sherly@iiitmk.ac.in
 - *From 2024-Murtala-A multilingual dataset for offensive language*: Affiliation: Centre for Data Analytics, Data Science Institute, National University of, Email: bharathi.raja@insight-centre.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

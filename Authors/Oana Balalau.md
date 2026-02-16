@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Helwe-Navigating the Political Compass Multilingual 50 Countries|Navigating the Political Compass (Multilingual, 50 Countries)]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 - *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 - *From 2025-Helwe-Navigating the Political Compass Multilingual 50 Countries*: Affiliation: University, ‡University of North Texas, Email: sagnik.raychoudhury@unt.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

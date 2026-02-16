@@ -1,7 +1,7 @@
 ---
 name: "Ahmed, Tasnim"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science, National Centre for Text Mining"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in|XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs]]]]
 
 - [[2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in|XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in*: Affiliation: Department of Computer Science, National Centre for Text Mining
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

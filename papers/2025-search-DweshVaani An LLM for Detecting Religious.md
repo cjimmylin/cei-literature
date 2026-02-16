@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +19,8 @@ authors: "[[Multiple (not fully specified in search]]; [[published at CHiPSAL 20
 authors_incomplete: false
 url: 
 external_pdf: 
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-search-DweshVaani An LLM for Detecting Religious.md"
+local_pdf: "[[PDFs/2025/2025-search-DweshVaani An LLM for Detecting Religious.pdf]]"
 publication: "CHiPSAL 2025 Workshop (co-located with COLING 2025, Abu Dhabi)"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian, Hindi"
+languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -11,7 +11,7 @@ from collections import defaultdict, Counter
 from pathlib import Path
 
 INPUT_FILE = Path(__file__).parent.parent / "logs" / "20260215-benchmark_survey_candidates.json"
-OUTPUT_FILE = Path(__file__).parent.parent / "STATISTICS" / "20260215-llm-ethics-benchmark-survey.md"
+OUTPUT_FILE = Path(__file__).parent.parent / "STATISTICS" / "20260216-llm-ethics-benchmark-survey.md"
 
 # ── Category definitions with keyword/phrase matching ──────────────────────
 

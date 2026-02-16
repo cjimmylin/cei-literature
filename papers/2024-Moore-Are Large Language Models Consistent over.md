@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2407.02996.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "Chinese, Japanese, German, American"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "Chinese, English, German, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

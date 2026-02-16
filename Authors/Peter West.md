@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 - [[2022-Kim-SODA|SODA]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence

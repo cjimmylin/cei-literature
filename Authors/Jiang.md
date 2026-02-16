@@ -19,9 +19,8 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
-- [[2021-Jiang-Pre-trained Models and Evaluation Data for|Pre-trained Models and Evaluation Data for]] (First Author)
-- [[2021-Jiang-Pretrained Models and Evaluation Data for|Pretrained Models and Evaluation Data for]] (First Author)
 
 ## Notes
 

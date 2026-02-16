@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ external_pdf: "http://arxiv.org/pdf/2506.13082.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, GPT-4, DeepSeek, Claude"
-DATA_URL: NA
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
  Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs

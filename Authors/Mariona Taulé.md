@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments|Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments*: Affiliation: Research Group in NLP and IR, Universidad Nacional de Educaci´on a Distancia, Spain, Email: prosso@dsic.upv.es
 - *From 2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments*: Affiliation: Research Group in NLP and IR, Universidad Nacional de Educaci´on a Distancia, Spain, Email: enrique@lsi.uned.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

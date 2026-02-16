@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, ChatGPT, CommandR, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, GPT4, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, LLaMA-3.3, LLama3, Mistral-7B, PaLM 2, Palm, Phi-3, Qwen-2.5, Qwen2.5, WizardLM-2, phi-4"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The widespread success of large language models (LLMs) has prompted increasing interest in their evaluation across diverse linguistic settings, yet systematic assessments for Arabic remain underexplored. This survey presents a structured taxonomy of benchmarks specifically designed to evaluate LLMs on Arabic text. It critically reviews existing benchmarks, highlighting their coverage across multiple domains, including general single-task and multitask scenarios, knowledge and reasoning tasks,..."
 research_topic: "Other"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V529JKHQ/Kann et al. - 2022 - AmericasNLI Machine translation and natural language inference systems for Indigenous languages of.pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "Indigenous American"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

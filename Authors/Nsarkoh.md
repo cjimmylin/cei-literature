@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Nsarkoh-A Foundational Architecture for Engineering an|A Foundational Architecture for Engineering an]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Nsarkoh-A Foundational Architecture for Engineering an*: Affiliation: University Academic Bibliography, Email: piet.demeester@intec.ugent.be
 - *From 2025-Nsarkoh-A Foundational Architecture for Engineering an*: Affiliation: University Academic Bibliography, Email: zahariad@synelixis.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

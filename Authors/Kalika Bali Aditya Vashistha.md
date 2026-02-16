@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Bali-How Deep Is Representational Bias in|How Deep Is Representational Bias in]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Bali-How Deep Is Representational Bias in*: Affiliation: School of Information, University of Michigan, 2MBZUAI, 3Microsoft Research India, 4 Cornell University, Email: adityav@cornell.edu
 - *From 2025-Bali-How Deep Is Representational Bias in*: Affiliation: School of Information, University of Michigan, 2MBZUAI, 3Microsoft Research India, 4 Cornell University, Email: adityav@cornell.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

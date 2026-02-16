@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data|Synth-Empathy: Towards High-Quality Synthetic Empathy Data]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: hao.liang@stu.pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: hao.liang@stu.pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: wentao.zhang@pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: sunlinzhuang21@mails.ucas.ac.cn

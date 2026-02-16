@@ -10,10 +10,10 @@ key: LSRC0486
 type: preprint
 short_title: "DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers"
 year: 2025
-first_author: "[[Mueller-Eberstein, Max]]"
-last_author: "[[Max Mueller-Eberstein]]"
-authors: "[[Mueller-Eberstein, Max]]"
-authors_incomplete: true
+first_author: "[[Müller-Eberstein, Max]]"
+last_author: "[[Goot, Rob van der]]"
+authors: "[[Müller-Eberstein, Max]]; [[Zhang, Mike]]; [[Bassignana, Elisa]]; [[Trolle, Peter Brunsgaard]]; [[Goot, Rob van der]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.02403"
 external_pdf: "https://arxiv.org/pdf/2504.02403.pdf"
 publication: "arXiv / C3NLP 2025"
@@ -46,11 +46,11 @@ research_topic: "Social & Cultural Analysis"
 
 ## Authors
 
-[[Max Mueller-Eberstein]]
+[[Müller-Eberstein, Max]], [[Zhang, Mike]], [[Bassignana, Elisa]], [[Trolle, Peter Brunsgaard]], [[Goot, Rob van der]]
 
 ## Metadata
 
-**Authors:** Max Mueller-Eberstein et al.
+**Authors:** Müller-Eberstein, Max; Zhang, Mike; Bassignana, Elisa; Trolle, Peter Brunsgaard; Goot, Rob van der
 
 **Year:** 2025
 

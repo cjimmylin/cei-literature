@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "Sanskrit"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -39,7 +41,7 @@ abstract: "This paper examines semantic similarity and intertextuality in select
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: Other
 ethics_perspective: "AI Safety & Alignment"
 ---

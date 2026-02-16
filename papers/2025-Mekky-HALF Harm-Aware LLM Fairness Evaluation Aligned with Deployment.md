@@ -39,7 +39,7 @@ is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 4, Claude 4., Claude4, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, GPT-4, GPT-4-mini, Llama, LLaMA-3.2, ChatGPT, claude-sonnet, Llama-3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed across high-impact domains, from clinical decision support and legal analysis to hiring and education, making fairness and bias evaluation before deployment critical. However, existing evaluations lack grounding in real-world scenarios and do not account for differences in harm severity, e.g., a biased decision in surgery should not be weighed the same as a stylistic bias in text summarization."
 ethics_perspective: "Bias & Fairness"

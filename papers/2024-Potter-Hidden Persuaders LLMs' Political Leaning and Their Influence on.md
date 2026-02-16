@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Llama-2, Mixtral, Alpaca, Vicuna, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters
 

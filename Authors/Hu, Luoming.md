@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path|The Straight and Narrow: Do LLMs Possess an Internal Moral Path?]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China
 - *From 2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path*: Affiliation: School of Future Technology, Dalian University of Technology, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

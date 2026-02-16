@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +18,7 @@ doi: 10.1162/tacl_a_00682
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00682/124256/CreoleVal-Multilingual-Multitask-Benchmarks-for"
 publication: TACL (Transactions of the ACL, 2024)
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Caribbean (Haitian Creole), Creole"
-languages_list: 
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Collection of benchmark datasets spanning 8 NLP tasks covering up to 28 Creole languages. Includes MIT-Haiti Corpus for Haitian Creole with English/French/Spanish translations. Baseline zero-shot transfer learning experiments. First major NLP benchmark for Creole languages."
 research_topic: "Machine Translation"
 ---
 # CreoleVal: Multilingual Multitask Benchmarks for Creoles

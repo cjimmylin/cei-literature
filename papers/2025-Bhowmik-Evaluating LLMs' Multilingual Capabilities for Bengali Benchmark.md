@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, DeepSeek, DeepSeek-R1, Dolly, GPT-4o-mini, Llama, Mistral 7B, Mistral Small, Qwen, Qwen 2.5, Qwen 72B, GPT-4o, llama3.1, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Bengali is an underrepresented language in NLP research. However, it remains a challenge due to its unique linguistic structure and computational constraints. In this work, we systematically investigate the challenges that hinder Bengali NLP performance by focusing on the absence of standardized evaluation benchmarks. We then evaluated 10 recent open source Large Language Models (LLMs) in 8 of the translated datasets and performed a comprehensive error analysis to pinpoint their primary failure..."
 research_topic: "AI Safety & Alignment"

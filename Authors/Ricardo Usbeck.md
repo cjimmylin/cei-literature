@@ -22,6 +22,7 @@ Professor of Information Systems, in particular Artificial Intelligence and Expl
 
 
 
+
 - [[2019-Usbeck-Benchmarking question answering systems|Benchmarking question answering systems]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Professor of Information Systems, in particular Artificial Intelligence and Expl
 
 
 
+
+- *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country

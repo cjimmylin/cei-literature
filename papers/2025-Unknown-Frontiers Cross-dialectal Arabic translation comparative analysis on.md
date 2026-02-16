@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +19,8 @@ authors_incomplete: false
 doi: 10.3389/frai.2025.1661789/full
 url: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1661789/full"
 publication: Frontiers
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -40,7 +41,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini"
 research_topic: "Machine Translation"
 ---
 # Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models

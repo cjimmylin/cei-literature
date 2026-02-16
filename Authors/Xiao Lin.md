@@ -21,6 +21,7 @@ Lin Xiao is a research scientist at Meta AI, FAIR (Fundamental AI Research). He 
 
 
 
+
 - [[2025-Lin-MORALISE|MORALISE]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Lin Xiao is a research scientist at Meta AI, FAIR (Fundamental AI Research). He 
 
 
 
+
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu

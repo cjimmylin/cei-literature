@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BA3ZHLQG/Ray - 2023 - Benchmarking, ethical alignment, and evaluation framework for conversational AI Advancing responsib.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

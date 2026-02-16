@@ -1,0 +1,382 @@
+[
+  {
+    "filename": "2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+    "decision": "Exclude",
+    "reasoning": "Fuxi is a benchmark for ancient Chinese text understanding and generation (poetry, couplets). While culturally grounded, it evaluates language proficiency in classical Chinese rather than AI ethics, values, bias, fairness, safety, or alignment."
+  },
+  {
+    "filename": "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md",
+    "decision": "Yes",
+    "reasoning": "McBE is a multi-task Chinese bias evaluation benchmark with 4,077 instances covering 12 bias categories specifically designed for evaluating bias in LLMs within the Chinese cultural context, addressing the gap in non-English bias benchmarks.",
+    "benchmark_name": "McBE (Multi-task Chinese Bias Evaluation Benchmark)",
+    "what_measures": "Bias in LLMs across 12 Chinese-specific bias categories through multiple evaluation tasks",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Chinese"
+  },
+  {
+    "filename": "2025-Lazzaroni-MedBench-IT A Comprehensive Benchmark for Evaluating LLMs on Italian.md",
+    "decision": "Exclude",
+    "reasoning": "MedBench-IT evaluates LLMs on Italian medical entrance examinations (17,410 MCQs). While it includes a bias/fairness tag, its primary contribution is domain-specific medical knowledge evaluation, not ethics/bias/fairness assessment."
+  },
+  {
+    "filename": "2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md",
+    "decision": "Yes",
+    "reasoning": "KOTOX is the first dataset supporting both deobfuscation and detoxification for Korean, with 6.9K neutral-toxic pairs and obfuscated counterparts. It directly addresses toxicity evaluation for Korean-specific linguistic obfuscation patterns.",
+    "benchmark_name": "KOTOX",
+    "what_measures": "Korean toxic language detection including obfuscated toxic text across three difficulty levels",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Korean"
+  },
+  {
+    "filename": "2025-Lee-Knowing the Words Missing the Meaning Evaluating LLMs' Cultural.md",
+    "decision": "Exclude",
+    "reasoning": "This paper evaluates LLMs' cultural understanding through Sino-Korean words and idioms. While it creates an evaluation dataset, its primary focus is on linguistic/cultural comprehension of Korean vocabulary rather than ethics, bias, fairness, or safety."
+  },
+  {
+    "filename": "2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md",
+    "decision": "Yes",
+    "reasoning": "MuLTa-Telegram is a multilingual hate speech dataset of ~4,000 Telegram messages in Italian and Polish with fine-grained target annotations across 9 minority categories (People with Disabilities, LGBTQ+, religious groups, ethnic groups, Women).",
+    "benchmark_name": "MuLTa-Telegram",
+    "what_measures": "Hate speech detection on Telegram with fine-grained multi-target annotations across 9 minority categories in Italian and Polish",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Italian, Polish"
+  },
+  {
+    "filename": "2025-Li-AI Development and Innovation A Comparison of Large Language Models.md",
+    "decision": "Exclude",
+    "reasoning": "This paper provides a comparative evaluation of US vs. Chinese LLMs using a proposed framework encompassing language proficiency, expertise, and safety. It is a comparative study, not a benchmark/dataset/metric contribution."
+  },
+  {
+    "filename": "2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.md",
+    "decision": "Exclude",
+    "reasoning": "This is a survey paper on Chinese dialect speech recognition covering traditional and deep learning approaches. It does not introduce any benchmark, dataset, or metric for AI ethics, bias, or cultural assessment."
+  },
+  {
+    "filename": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces a diagnostic framework that separately manipulates input language and reasoning language to evaluate cross-lingual moral alignment in LLMs, revealing hidden vulnerabilities in moral alignment evaluation that standard methods miss.",
+    "benchmark_name": "Cross-Lingual Moral Alignment Diagnostic Framework",
+    "what_measures": "Cross-lingual moral alignment in LLMs by isolating effects of input language vs reasoning language on moral judgments",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Chinese, English (cross-lingual)"
+  },
+  {
+    "filename": "2025-Li-XIFBench Evaluating Large Language Models on.md",
+    "decision": "Exclude",
+    "reasoning": "XIFBench evaluates multilingual instruction-following abilities of LLMs with 558 instructions across six languages. While it includes cultural accessibility annotations, its primary contribution is instruction-following evaluation, not ethics/bias/fairness assessment."
+  },
+  {
+    "filename": "2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User.md",
+    "decision": "Exclude",
+    "reasoning": "This is a user study at ACM FAccT investigating how users identify and perceive stereotypical biases in LLM outputs. It is qualitative research about user perception, not a benchmark/dataset/metric contribution."
+  },
+  {
+    "filename": "2025-Lin-Machine translation of Chinese classical poetry a comparison among.md",
+    "decision": "Exclude",
+    "reasoning": "This paper compares ChatGPT, Google Translate, and other MT systems for Chinese classical poetry translation. It is a comparative evaluation study, not an ethics/bias benchmark or dataset."
+  },
+  {
+    "filename": "2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with.md",
+    "decision": "Exclude",
+    "reasoning": "MARK is a methodology framework for enhancing cultural value survey simulation using personality cognition (MBTI). It proposes a reasoning methodology, not a benchmark/dataset for ethics evaluation."
+  },
+  {
+    "filename": "2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md",
+    "decision": "Exclude",
+    "reasoning": "This paper examines social biases in Chinese AI tools (Baidu, Ernie, Qwen) using 240 social groups. While it studies bias, it is an empirical analysis study rather than introducing a reusable benchmark, dataset, or metric."
+  },
+  {
+    "filename": "2025-Liu-Cultural Bias in Large Language Models A Comprehensive Analysis and.md",
+    "decision": "Exclude",
+    "reasoning": "This is an analysis paper on cultural bias in Chinese LLMs discussing occupational biases and stereotypes. No benchmark, dataset, or evaluation metric is introduced as a primary contribution."
+  },
+  {
+    "filename": "2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models.md",
+    "decision": "Exclude",
+    "reasoning": "CLCA is a framework for culturally adapting LLMs through simulated social interactions. Its primary contribution is a training/adaptation methodology, not a benchmark or evaluation metric."
+  },
+  {
+    "filename": "2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of.md",
+    "decision": "Yes",
+    "reasoning": "CultureVerse is a large-scale multimodal benchmark covering 19,682 cultural concepts across 188 countries/regions, 15 cultural concept categories, and 3 question types, designed to evaluate and improve VLMs' multicultural understanding capabilities.",
+    "benchmark_name": "CultureVerse",
+    "what_measures": "Cultural understanding of vision-language models across 188 countries/regions with 15 cultural concept categories",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Global (188 countries/regions)"
+  },
+  {
+    "filename": "2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.md",
+    "decision": "Yes",
+    "reasoning": "JailBench is a comprehensive Chinese security assessment benchmark with 10,800 queries across 40 risk types, featuring a hierarchical safety taxonomy including Violation of Core Socialist Values, Discrimination, and Commercial Offences.",
+    "benchmark_name": "JailBench",
+    "what_measures": "LLM safety and jailbreak resistance in Chinese context across 40 risk types including culturally specific categories like Core Socialist Values",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Chinese"
+  },
+  {
+    "filename": "2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md",
+    "decision": "Yes",
+    "reasoning": "The paper creates an evaluation framework based on the World Values Survey (WVS) to systematically assess LLM alignment with human opinions across different countries, languages, and historical periods, representing a novel benchmark for global opinion alignment.",
+    "benchmark_name": "Global Opinion Alignment Framework (WVS-based)",
+    "what_measures": "Alignment of LLM opinions with global human opinions across countries, languages, and temporal periods using World Values Survey data",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Global (multiple countries via WVS)"
+  },
+  {
+    "filename": "2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.md",
+    "decision": "Exclude",
+    "reasoning": "This paper provides a language-aware evaluation framework for probing social identity bias in Chinese LLMs using ingroup/outgroup framings across 240 social groups. It is primarily an empirical study rather than a reusable benchmark contribution."
+  },
+  {
+    "filename": "2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md",
+    "decision": "Exclude",
+    "reasoning": "This paper proposes methods for realistic evaluation of cultural value alignment through diversity enhancement for survey response simulation. It is a methodology paper that uses existing WVS data, not a new benchmark/dataset/metric."
+  },
+  {
+    "filename": "2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md",
+    "decision": "Yes",
+    "reasoning": "SC-TC-Bench is a benchmark for characterizing bias between Simplified and Traditional Chinese in LLMs with two tasks: regional term choice and regional name choice. It directly evaluates cultural bias between mainland China and Taiwan contexts.",
+    "benchmark_name": "SC-TC-Bench",
+    "what_measures": "Differential bias and performance of LLMs across Simplified Chinese (mainland China) vs Traditional Chinese (Taiwan) including regional term and name preference biases",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Chinese, Taiwanese"
+  },
+  {
+    "filename": "2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.md",
+    "decision": "Exclude",
+    "reasoning": "This paper investigates algorithmic fidelity of LLMs in replicating German public opinions using existing GLES survey data. It is an empirical study on opinion simulation, not introducing a new ethics/bias benchmark or dataset."
+  },
+  {
+    "filename": "2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md",
+    "decision": "Exclude",
+    "reasoning": "This paper trains bilingual embeddings for Maori-English code-switching detection. It is a language technology study for a low-resource language, not an ethics/bias/fairness benchmark or dataset."
+  },
+  {
+    "filename": "2025-Maatta-LinCE Benchmark.md",
+    "decision": "Exclude",
+    "reasoning": "LinCE is a centralized benchmark for code-switching evaluation across four language pairs (Spanish-English, Nepali-English, Hindi-English, MSA-Egyptian Arabic) on NLP tasks. It evaluates general linguistic tasks, not ethics, bias, or fairness."
+  },
+  {
+    "filename": "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces a unified benchmark dataset encompassing 49 distinct categories spanning human emotions, offensive/hateful text, and gender/racial biases, along with SafePhi, a fine-tuned moderation model. It directly evaluates LLM content moderation for ethics-relevant content.",
+    "benchmark_name": "Unified Moderation Benchmark / SafePhi",
+    "what_measures": "LLM content moderation performance across 49 categories of human emotions, offensive text, hateful text, and gender/racial biases",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "General"
+  },
+  {
+    "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+    "decision": "Exclude",
+    "reasoning": "ArGen is a framework for aligning LLMs with configurable rules using GRPO and Policy-as-Code. While it includes a case study with Dharmic ethics, its primary contribution is an alignment methodology/framework, not a benchmark or evaluation metric."
+  },
+  {
+    "filename": "2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.md",
+    "decision": "Exclude",
+    "reasoning": "This paper studies fabricated Hadith circulation on Arabic social media using logistic regression. It is an empirical analysis of religious misinformation patterns, not a benchmark or evaluation metric for AI ethics."
+  },
+  {
+    "filename": "2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md",
+    "decision": "Exclude",
+    "reasoning": "IndicParam is a benchmark of 13K+ MCQs for 11 low-resource Indic languages evaluating general knowledge and language proficiency. It assesses linguistic capability, not ethics, bias, fairness, or safety."
+  },
+  {
+    "filename": "2025-Maheshwari-ParamBench A Graduate-Level Benchmark for Evaluating.md",
+    "decision": "Exclude",
+    "reasoning": "ParamBench is a graduate-level Hindi benchmark with 17K+ questions across 21 India-focused subject areas. It evaluates academic knowledge in Hindi, not ethics, bias, fairness, or safety."
+  },
+  {
+    "filename": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md",
+    "decision": "Exclude",
+    "reasoning": "This paper uses Sparse Autoencoders to probe how religion intersects with violence/geography in LLM internal representations. It is an interpretability analysis study, not a benchmark or evaluation dataset."
+  },
+  {
+    "filename": "2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md",
+    "decision": "Yes",
+    "reasoning": "DRISHTIKON is a first-of-its-kind multimodal and multilingual benchmark centered on Indian culture with 64,000+ text-image pairs across 15 languages covering festivals, attire, cuisines, art forms, and heritage for evaluating cultural understanding of AI systems.",
+    "benchmark_name": "DRISHTIKON",
+    "what_measures": "Cultural understanding of generative AI systems on Indian culture including festivals, attire, cuisines, art forms, and heritage across 15 languages",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Indian (all states and union territories)"
+  },
+  {
+    "filename": "2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md",
+    "decision": "Yes",
+    "reasoning": "SANSKRITI is the largest benchmark for testing Indian cultural knowledge with 21,853 QA pairs spanning 28 states and 8 union territories, covering 16 cultural attributes including rituals, cuisine, dance, festivals, and religion.",
+    "benchmark_name": "SANSKRITI",
+    "what_measures": "Language models' comprehension of India's cultural diversity across 28 states, 8 union territories, and 16 cultural attributes",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Indian"
+  },
+  {
+    "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+    "decision": "Exclude",
+    "reasoning": "This is a theoretical paper examining Andean indigenous ethics of reciprocity (ayni, minka, randi-randi) as a normative framework for AI. It proposes philosophical arguments, not a benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-Martinez-Religion and Racial Bias in Artificial.md",
+    "decision": "Exclude",
+    "reasoning": "This paper generates 175 sermons to test intersectional race-religion bias through readability analysis. It is an empirical study using a novel methodology, but does not release a reusable benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.md",
+    "decision": "Exclude",
+    "reasoning": "ONERULER is a multilingual benchmark for evaluating long-context language models across 26 languages with synthetic retrieval/aggregation tasks. It evaluates context-handling capability, not ethics, bias, fairness, or safety."
+  },
+  {
+    "filename": "2025-Masood-A survey of multilingual large language models - PMC.md",
+    "decision": "Exclude",
+    "reasoning": "This is a survey paper reviewing multilingual LLMs and their challenges for low-resource languages. It does not introduce any benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA Benchmark with Dialect.md",
+    "decision": "Yes",
+    "reasoning": "This paper introduces an Arabic cultural QA benchmark that translates MSA MCQs into multiple Arabic dialects and converts them to open-ended questions, creating the first parallel-aligned Arabic dialectal QA dataset for evaluating culturally grounded knowledge.",
+    "benchmark_name": "Arabic Cultural QA Benchmark with Dialect Variants",
+    "what_measures": "LLM performance on culturally grounded Arabic content across Modern Standard Arabic and multiple dialects in both MCQ and open-ended formats",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Arabic (multiple dialects)"
+  },
+  {
+    "filename": "2025-Masood-Dialectal substitution as an adversarial approach for evaluating.md",
+    "decision": "Exclude",
+    "reasoning": "This paper introduces dialectal substitution as an adversarial attack method against Arabic NLP systems. While it exposes model vulnerabilities, it is an adversarial evaluation methodology, not a benchmark for AI ethics/values/bias assessment."
+  },
+  {
+    "filename": "2025-Masood-From Words to Proverbs Evaluating LLMs' Linguistic and Cultural.md",
+    "decision": "Exclude",
+    "reasoning": "Based on the batch metadata, this paper evaluates LLMs' linguistic and cultural understanding through proverbs. While culturally relevant, it focuses on linguistic/cultural comprehension rather than introducing an ethics, bias, or fairness benchmark."
+  },
+  {
+    "filename": "2025-Masood-Large language models are biased - local initiatives are fighting for.md",
+    "decision": "Exclude",
+    "reasoning": "This is a Nature commentary piece discussing LLM bias and local initiatives for low-resource languages. It is editorial/advocacy content, not a benchmark, dataset, or metric contribution."
+  },
+  {
+    "filename": "2025-Masood-Neural Machine Translation for Low-Resource Languages from a.md",
+    "decision": "Exclude",
+    "reasoning": "This is a survey of neural machine translation for low-resource languages from a Chinese-centric perspective. It reviews existing approaches and does not introduce any ethics/bias benchmark or dataset."
+  },
+  {
+    "filename": "2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis.md",
+    "decision": "Yes",
+    "reasoning": "The paper proposes Hofstede's Cultural Alignment Test (CAT), a quantitative benchmark using Hofstede's six cultural dimensions to evaluate cultural alignment of LLMs across US, Chinese, and Arab cultural values, with code publicly available.",
+    "benchmark_name": "Hofstede's CAT (Cultural Alignment Test)",
+    "what_measures": "Cultural alignment of LLMs using Hofstede's six cultural dimensions (Power Distance, Individualism, Masculinity, Uncertainty Avoidance, Long-term Orientation, Indulgence)",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "American, Arab, Chinese, Austrian, British, Dutch, Slovak, pan-Latin American"
+  },
+  {
+    "filename": "2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.md",
+    "decision": "Exclude",
+    "reasoning": "This is a dataset of 30 expert-crafted MCQs for Spanish dialect recognition. While it measures dialect preference bias, it is too small and focused on linguistic variety recognition rather than substantive ethics/bias evaluation."
+  },
+  {
+    "filename": "2025-Mayor-Rocher-TELEIA A Spanish Language Dataset for Evaluating Artificial.md",
+    "decision": "Exclude",
+    "reasoning": "TELEIA is a Spanish language knowledge evaluation dataset with 100 MCQs matching Instituto Cervantes format. It evaluates language proficiency, not ethics, bias, fairness, or safety."
+  },
+  {
+    "filename": "2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.md",
+    "decision": "Exclude",
+    "reasoning": "Irish-BLiMP is a linguistic minimal pairs benchmark for evaluating grammatical competence in Irish. It evaluates syntactic knowledge in a low-resource language, not ethics, bias, or fairness."
+  },
+  {
+    "filename": "2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces NileBench, a culturally grounded benchmark for Egyptian and Moroccan Arabic covering dialectal understanding, cultural knowledge, and values alignment, alongside the NileChat model adapted for local communities.",
+    "benchmark_name": "NileBench",
+    "what_measures": "Cultural knowledge, dialectal understanding, and values alignment for Egyptian and Moroccan Arabic communities",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Egyptian, Moroccan"
+  },
+  {
+    "filename": "2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md",
+    "decision": "Yes",
+    "reasoning": "HALF is a deployment-aligned fairness evaluation framework with nine application domains organized into three harm severity tiers, evaluating 8 LLMs across multiple languages. It introduces harm-aware fairness metrics that weight bias by domain-specific harm potential.",
+    "benchmark_name": "HALF (Harm-Aware LLM Fairness)",
+    "what_measures": "LLM fairness evaluation aligned with deployment contexts across nine application domains in three severity tiers, in five languages",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "English, German, Russian, Spanish, Ukrainian"
+  },
+  {
+    "filename": "2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md",
+    "decision": "Exclude",
+    "reasoning": "KyrgyzBERT is a monolingual BERT model for Kyrgyz language with a sentiment analysis benchmark. It evaluates general NLP capability in a low-resource language, not ethics, bias, or fairness."
+  },
+  {
+    "filename": "2025-Micallef-MELABenchv1 Benchmarking Large Language Models against Smaller.md",
+    "decision": "Exclude",
+    "reasoning": "MELABenchv1 evaluates 55 LLMs on Maltese across 11 NLP tasks including sentiment and classification. It is a general language capability benchmark, not an ethics/bias/fairness evaluation."
+  },
+  {
+    "filename": "2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.md",
+    "decision": "Exclude",
+    "reasoning": "NorEval is a comprehensive Norwegian evaluation suite with 24 datasets across nine task categories for language understanding and generation. It evaluates general NLP capabilities, not ethics, bias, fairness, or safety."
+  },
+  {
+    "filename": "2025-Mining)-Enhancing social media hate speech detection in low-resource.md",
+    "decision": "Yes",
+    "reasoning": "The paper creates a dataset of 20,860 manually annotated Albanian Facebook comments for hate speech detection, establishing a new state-of-the-art benchmark. It directly contributes a hate speech dataset for evaluating AI content moderation in Albanian.",
+    "benchmark_name": "Albanian Hate Speech Dataset",
+    "what_measures": "Hate speech detection in Albanian social media including dialectal variations and implicit insults",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Albanian"
+  },
+  {
+    "filename": "2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.md",
+    "decision": "Exclude",
+    "reasoning": "FilBench evaluates LLMs on Filipino/Tagalog/Cebuano across 12 tasks in four categories. While it includes cultural knowledge tasks, its primary contribution is general language capability assessment, not ethics/bias/fairness evaluation."
+  },
+  {
+    "filename": "2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md",
+    "decision": "Yes",
+    "reasoning": "EPT is a culturally informed benchmark with 1,200 curated prompts assessing LLM trustworthiness across truthfulness, safety, fairness, robustness, privacy, and ethical alignment specifically in a Persian-Islamic cultural context.",
+    "benchmark_name": "EPT (Evaluation of Persian Trustworthiness)",
+    "what_measures": "LLM trustworthiness across truthfulness, safety, fairness, robustness, privacy, and ethical alignment in Persian-Islamic cultural context",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Iranian / Persian-Islamic"
+  },
+  {
+    "filename": "2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md",
+    "decision": "Exclude",
+    "reasoning": "This paper evaluates LLMs on the existing X-Fact dataset for multilingual fact verification. It uses an existing benchmark rather than introducing a new one, and focuses on factual accuracy rather than ethics/bias assessment."
+  },
+  {
+    "filename": "2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.md",
+    "decision": "Exclude",
+    "reasoning": "This paper generates code-switched variants of existing reasoning benchmarks to evaluate LLM comprehension under code-switching conditions. It focuses on linguistic robustness, not ethics, bias, or fairness."
+  },
+  {
+    "filename": "2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics.md",
+    "decision": "Exclude",
+    "reasoning": "This is a theoretical/commentary piece examining cross-cultural challenges in AI ethics. No benchmark, dataset, or evaluation metric is introduced as a contribution."
+  },
+  {
+    "filename": "2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.md",
+    "decision": "Yes",
+    "reasoning": "The paper introduces a cloze-style moral judgment evaluation methodology using WVS and Pew Research data to probe whether LLMs encode cross-cultural moral variation, testing seven models and revealing LLMs compress cross-cultural moral differences.",
+    "benchmark_name": "Cross-Cultural Moral Judgment Probing (WVS-based)",
+    "what_measures": "Whether LLMs capture cross-cultural moral variation using cloze-style moral judgment tasks derived from World Values Survey data",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Global (55+ nations including African countries via WVS)"
+  }
+]

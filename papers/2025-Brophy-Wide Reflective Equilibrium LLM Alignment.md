@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2025/2025-Brophy-Wide Reflective Equilibrium LLM Alig
 local_pdf: "[[PDFs/2025/2025-Brophy-Wide Reflective Equilibrium LLM Alignment.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -36,7 +38,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: N/A
 LLM_assessed: "ChatGPT, Claude, Claude Opus, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Wide Reflective Equilibrium in LLM Alignment: Bridging Moral Epistemology and AI Safety
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings|Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Niterói, RJ, Brazil, Email: dvianna@gmail.com
 - *From 2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Niterói, RJ, Brazil, Email: dvianna@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

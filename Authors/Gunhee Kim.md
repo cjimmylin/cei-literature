@@ -40,6 +40,7 @@ According to Google Scholar, Kim has 120 research works with 4,427 citations, wi
 
 
 
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -59,6 +60,8 @@ According to Google Scholar, Kim has 120 research works with 4,427 citations, wi
 
 
 
+
+- *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr
 - *From 2022-Kim-ProsocialDialog*: Affiliation: Institute for Artiﬁcial Intelligence, Email: hyunw.kim@vl.snu.ac.kr

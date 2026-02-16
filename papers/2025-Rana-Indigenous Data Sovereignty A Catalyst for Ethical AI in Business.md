@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +18,7 @@ doi: 10.1177/00076503241271143
 url: "https://journals.sagepub.com/doi/full/10.1177/00076503241271143"
 publication: Business and Society (SAGE)
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "Yes"
 virtue_ethics: "No"
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Global Indigenous"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Addresses how digital colonialism poses a significant threat to Indigenous communities in the age of rapid AI advancement. Presents Indigenous data sovereignty as a powerful framework for resisting digital colonialism and promoting ethical AI development. Discusses OCAP principles and CARE framework as cornerstones of indigenous data governance for AI."
 ethics_perspective: "Social & Cultural Values"
 ---
 # Indigenous Data Sovereignty: A Catalyst for Ethical AI in Business

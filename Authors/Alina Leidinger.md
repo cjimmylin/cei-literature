@@ -34,6 +34,7 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 
 
 
+
 - [[2024-Pistilli-CIVICS|CIVICS]]
 
 ## External Links & Profiles
@@ -45,6 +46,8 @@ Alina's research investigates the vulnerabilities of LLM guardrails and the syst
 
 
 
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co

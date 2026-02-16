@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 - [[2024-Gu-A Survey on LLM-as-a-Judge|A Survey on LLM-as-a-Judge]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Gu-A Survey on LLM-as-a-Judge*: Affiliation: Academy, China
 - *From 2024-Gu-A Survey on LLM-as-a-Judge*: Affiliation: Academy, China
 - *From 2024-Gu-A Survey on LLM-as-a-Judge*: Affiliation: Academy, China
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn

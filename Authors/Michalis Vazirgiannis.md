@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating|GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek]] (Last Author)
 - [[2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text|Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text*: Affiliation: lability of
 - *From 2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text*: Affiliation: lability of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -23,6 +23,7 @@ Ananya Kumar is an Assistant Professor in the Machine Learning Department at Car
 
 
 
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## Notes
@@ -30,6 +31,8 @@ Ananya Kumar is an Assistant Professor in the Machine Learning Department at Car
 
 
 
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu

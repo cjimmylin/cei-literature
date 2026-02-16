@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Recent multilingual language models promise support for “100+ languages,” yet speakers of Indigenous and other underrepresented languages still often do not see themselves in these advances. In this work, we take a deliberately simple, secondary-benchmark perspective: rather than proposing a new model or dataset, we re-evaluate an off-theshelf multilingual natural language inference (NLI) model on public benchmarks that explicitly include Indigenous languages of the Americas."
 research_topic: "Bias & Fairness"

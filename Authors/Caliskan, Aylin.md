@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value|EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions]]
 - [[2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores|ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: ghosh100@uw.edu
 - *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: aylin@uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Wilders-Socratic Dialogue for Virtue Ethics in AI|Socratic Dialogue for Virtue Ethics in AI]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: i.m.d.r.detroya@tudelft.nl
 - *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: r.i.j.dobbe@tudelft.nl
 - *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: maartenwilders@gmail.com
 - *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: r.i.j.dobbe@tudelft.nl

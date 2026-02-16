@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Baichuan2, ChatGPT, Llama, LLaMA 8, LLaMA., LLaMA2, LLaMA2."
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The advent of ChatGPT and GPT-4 has generated substantial interest in large language model (LLM) research, showcasing remarkable performance in various applications such as conversation systems, machine translation, and research paper summarization. However, their efficacy diminishes when applied to low-resource languages, particularly in academic research contexts like Tibetan. In this study, we trained Tibetan LLaMA (T-LLaMA), a model based on efficient pre-training technology for three..."
 research_topic: "NLP & Representation Learning"

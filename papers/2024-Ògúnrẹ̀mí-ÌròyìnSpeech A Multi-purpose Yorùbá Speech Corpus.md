@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.lrec-main.812/"
 external_pdf: "https://arxiv.org/pdf/2307.16071"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nigerian"
+languages_list: "Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

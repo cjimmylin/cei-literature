@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2407.19760.pdf"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios
 

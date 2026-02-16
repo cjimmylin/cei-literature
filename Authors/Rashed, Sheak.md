@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual|Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilingual Language Models for Underrepresented Languages]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual*: Affiliation: Department of Computer Science and Engineering, Daffodil International University, Email: faruqui.swe@diu.edu.bd
 - *From 2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual*: Affiliation: Department of Computer Science and Engineering, Daffodil International University, Email: tanvirulislam.cse@diu.edu.bd
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

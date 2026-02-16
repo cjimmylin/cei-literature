@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Text embeddings are an essential building component of several NLP ta
 data_description: "Multilingual benchmark for hallucination detection dataset for hate speech detection"
 data_metrics: "59 languages; 38 datasets"
 LLM_assessed: "BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AfriMTEB and AfriE5: Benchmarking and Adapting Text Embedding Models for African Languages

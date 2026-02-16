@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ authors: "Dorine van Norren"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XKSEZXMK/van Norren - DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre).pdf"
 national_ethnic_cultural: "Chinese, African/Ubuntu"
 cultures_nationalities_list: "African, Chinese"
+languages_list: ""
 religious_values: "Ubuntu Philosophy, Indigenous Spirituality"
 religious_values_list: "Ubuntu Philosophy, Indigenous Spirituality"
 moral_psychology: "N/A"

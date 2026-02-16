@@ -1,7 +1,7 @@
 ---
 name: "Sett, Niladri"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labhaneni Raj Kumar1, Ashwin S1, Supriya Manna3,‡, Niladri Sett1,*"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware|TeSent A Benchmark Dataset for Fairness-aware]]]]
 
 - [[2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware|TeSent A Benchmark Dataset for Fairness-aware]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware*: Affiliation: labhaneni Raj Kumar1, Ashwin S1, Supriya Manna3,‡, Niladri Sett1,*
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

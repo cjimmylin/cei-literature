@@ -1,9 +1,9 @@
 ---
 name: "Oshallah, Islam"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Faculty of Computer Science"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "ammohammed@msa.edu.eg"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,8 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Basem-Few-Shot Prompting for Extractive Quranic QA|Few-Shot Prompting for Extractive Quranic QA]]
-- [[2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval|Two-Stage Quranic QA via Ensemble Retrieval]]]]
 
 - [[2025-Basem-Few-Shot Prompting for Extractive Quranic QA|Few-Shot Prompting for Extractive Quranic QA]]
 - [[2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval|Two-Stage Quranic QA via Ensemble Retrieval]]
@@ -85,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: ammohammed@msa.edu.eg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

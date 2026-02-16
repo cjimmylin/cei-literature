@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Lee-KoSBI|KoSBI]] (Last Author)
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-KoSBI*: Affiliation: University of Richmond, Email: park@joonsuk.org

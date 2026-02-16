@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Mazeika-HarmBench|HarmBench]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 - *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 - *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

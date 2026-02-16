@@ -56,7 +56,9 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate|INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate]] (Last Author)
+- [[2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian|Through the Prism of Culture: Evaluating LLMs' Understanding of Indian Subcultures and Traditions]] (Last Author)
 - [[2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace|Rethinking Hate Speech Detection on Social Media: Can LLMs Replace Traditional Models?]] (Last Author)
 
 ## External Links & Profiles
@@ -84,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India
 - *From 2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate*: Affiliation: Institute of Technology Delhi, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

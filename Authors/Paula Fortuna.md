@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset|A Hierarchically-Labeled Portuguese Hate Speech Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset*: Affiliation: Labeled Portuguese Hate Speech Dataset - PDF Extract", Email: paula.fortuna@fe.up.pt
 - *From 2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset*: Affiliation: Labeled Portuguese Hate Speech Dataset - PDF Extract", Email: leo.wanner@upf.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

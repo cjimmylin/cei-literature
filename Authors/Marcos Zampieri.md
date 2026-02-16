@@ -22,6 +22,7 @@ Marcos Zampieri is an Assistant Professor in the Department of Information Scien
 
 
 
+
 - [[2025-Raihan-A Multilingual Benchmark to Evaluate Large Language|A Multilingual Benchmark to Evaluate Large Language]] (Last Author)
 - [[2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset|SOLD: Sinhala Offensive Language Dataset]] (Last Author)
 - [[2020-Kumar-Evaluating Aggression Identification in Social|Evaluating Aggression Identification in Social]] (Last Author)
@@ -33,6 +34,8 @@ Marcos Zampieri is an Assistant Professor in the Department of Information Scien
 
 
 
+
+- *From 2020-Pitenis-Offensive Language Identification in Greek*: Affiliation: University of Wolverhampton - Wolverhampton, UK, Email: tharindu.ranasinghe@wlv.ac.uk
 - *From 2020-Pitenis-Offensive Language Identification in Greek*: Affiliation: University of Wolverhampton - Wolverhampton, UK, Email: tharindu.ranasinghe@wlv.ac.uk
 - *From 2020-Pitenis-Offensive Language Identification in Greek*: Affiliation: University of Wolverhampton - Wolverhampton, UK, Email: marcos.zampieri@rit.edu
 - *From 2020-Kumar-Evaluating Aggression Identification in Social*: Affiliation: University, Agra, 2Charles University, Faculty of Mathematics and Physics Institute of, Email: marcos.zampieri@rit.edu

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in|Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in DeepSeek-R1 vs. ChatGPT o3-mini-high]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: simon.imbot@ailabs.tw
 - *From 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in*: Affiliation: Labs, Taipei, Taiwan, Email: zweilin@ailabs.tw
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

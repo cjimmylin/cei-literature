@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2025-Sukiennik-An Evaluation of Cultural Value Alignment in LLM|An Evaluation of Cultural Value Alignment in LLM]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 - *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 - *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

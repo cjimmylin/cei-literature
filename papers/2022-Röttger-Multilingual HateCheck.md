@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://arxiv.org/abs/2206.09917"
 external_pdf: "https://arxiv.org/pdf/2206.09917.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "Arabic, Chinese, Dutch, English, French, German, Hindi, Italian, Polish, Portuguese, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

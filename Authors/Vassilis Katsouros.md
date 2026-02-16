@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Roussis-Krikri Advancing Open Large Language Models for Greek|Krikri: Advancing Open Large Language Models for Greek]] (Last Author)
 - [[2024-Voukoutis-Meltemi The first open Large Language Model for Greek|Meltemi: The first open Large Language Model for Greek]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Voukoutis-Meltemi The first open Large Language Model for Greek*: Affiliation: Institute for Speech and Language Processing, Athena Research Center, Email: vsk@athenarc.gr
 - *From 2024-Voukoutis-Meltemi The first open Large Language Model for Greek*: Affiliation: Institute for Speech and Language Processing, Athena Research Center, Email: vsk@athenarc.gr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM|Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification
 - *From 2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM*: Affiliation: label classification
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

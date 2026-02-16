@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark|Evaluating LLMs' Multilingual Capabilities for Bengali: Benchmark Creation and Performance Analysis]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark*: Affiliation: Institute of Technology, Email: tawsiftashwar@iut-dhaka.edu
 - *From 2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark*: Affiliation: Institute of Technology, Email: sazzad14@stanford.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

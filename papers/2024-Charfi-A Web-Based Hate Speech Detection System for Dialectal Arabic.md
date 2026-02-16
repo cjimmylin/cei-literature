@@ -36,7 +36,7 @@ is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "A significant issue in today’s global society is hate speech, which is defined as any kind of expression that attempts to degrade an individual or a society based on attributes such as race, color, nationality, gender, or religion (Schmidt and Wiegand, 2017). In this paper, we present a Web-based hate speech detection system that focuses on the Arabic language and supports its various dialects. The system is designed to detect hate speech within a given sentence or within a file containing..."
 ethics_perspective: "Toxicity & Hate Speech"

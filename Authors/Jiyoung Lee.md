@@ -22,6 +22,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Lee-KorNAT|KorNAT]] (First Author)
 - [[2023-Lee-VisAlign|VisAlign]] (First Author)
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 3joonseok2010@gmail.com
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 - *From 2024-Lee-KorNAT*: Affiliation: University Bundang Hospital, Email: 3shwon0213@gmail.com

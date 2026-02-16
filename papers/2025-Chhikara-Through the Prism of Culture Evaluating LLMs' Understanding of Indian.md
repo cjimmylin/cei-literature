@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: CULT0050
 type: preprint
 short_title: "Through the Prism of Culture: Evaluating LLMs' Understanding of Indian Subcultures and Traditions"
 year: 2025
-first_author: "[[Garima Chhikara]]"
-last_author: "[[Abhijnan Chakraborty]]"
-authors: "Garima Chhikara; Abhishek Kumar; Abhijnan Chakraborty"
-authors_incomplete: true
+first_author: "[[Chhikara, Garima]]"
+last_author: "[[Chakraborty, Abhijnan]]"
+authors: "[[Chhikara, Garima]]; [[Kumar, Abhishek]]; [[Chakraborty, Abhijnan]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2501.16748"
 external_pdf: "https://arxiv.org/pdf/2501.16748.pdf"
 publication: arXiv / FAccT 2025
@@ -25,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +46,11 @@ ethics_perspective: "Social & Cultural Values"
 
 ## Authors
 
-[[Garima Chhikara]], [[Abhishek Kumar]], [[Abhijnan Chakraborty]]
+[[Chhikara, Garima]], [[Kumar, Abhishek]], [[Chakraborty, Abhijnan]]
 
 ## Metadata
 
-**Authors:** Garima Chhikara et al.
+**Authors:** Chhikara, Garima; Kumar, Abhishek; Chakraborty, Abhijnan
 
 **Year:** 2025
 

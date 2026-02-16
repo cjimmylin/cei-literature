@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_TSAI2024
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2024/2024-Tsai-Why AI May Undermine Phronesis.md"
 local_pdf: "[[PDFs/2024/2024-Tsai-Why AI May Undermine Phronesis.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2310.08102.pdf"
 publication: "2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
+languages_list: "Indonesian"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

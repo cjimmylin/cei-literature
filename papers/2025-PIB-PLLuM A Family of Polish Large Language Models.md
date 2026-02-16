@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 3.5 Sonnet, Claude-3.7-Sonnet, Command-R, DeepSeek, DeepSeek-V3, GPT 4, GPT-4, GPT4, Gemma, Gemma-3, Grok-3, Llama, LLaMA 3.1, LLama-3.1, LLama-3.3, Llama 3, Llama 3.3, Llama-3, Llama-4, Llama3.1, Mistral, Mistral-7B, Mistral-Nemo, Mistral-Small, Mixtral, Mixtral-8x22B, Mixtral-8x7B, Phi-3, Qwen, claude-3, RoBERTa"
 DATA_URL: "https://github.com/MeetKai/functionary"
 tags: 
-abstract: 
+abstract: "Family of Polish LLMs with evaluation on CPTUB benchmark assessing implied meanings and cognitively challenging questions. Includes Open PL LLM Leaderboard and Polish Medical Leaderboard."
 research_topic: "Other"
 ---
 # PLLuM: A Family of Polish Large Language Models

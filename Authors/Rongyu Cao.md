@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Li-Can LLM Already Serve as A Database Interface*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-Can LLM Already Serve as A Database Interface*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 - *From 2023-Li-Can LLM Already Serve as A Database Interface*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-Can LLM Already Serve as A Database Interface*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk

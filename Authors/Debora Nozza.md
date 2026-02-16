@@ -40,6 +40,7 @@ Debora Nozza is an Assistant Professor at Bocconi University in Milan, Italy. Sh
 
 
 
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]]
 - [[2025-Saffari-Can I introduce my boyfriend to my grandmother|Can I introduce my boyfriend to my grandmother?]] (Last Author)
@@ -48,7 +49,7 @@ Debora Nozza is an Assistant Professor at Bocconi University in Milan, Italy. Sh
 - [[2022-Röttger-Multilingual HateCheck|Multilingual HateCheck]]
 - [[2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification|AMI @ EVALITA2020: Automatic Misogyny Identification]] (First Author)
 - [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]]
-- [[2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against|SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)]] (Last Author)
+- [[2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against|SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)]]
 
 ## Links
 

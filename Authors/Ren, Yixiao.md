@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values|VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: jing-amelia.li@polyu.edu.hk
 - *From 2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values*: Affiliation: Department of Computing, The Hong Kong Polytechnic University, Email: 3yxy1421@case.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

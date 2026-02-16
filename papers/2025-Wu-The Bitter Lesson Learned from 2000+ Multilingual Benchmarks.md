@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek-AI, GPT-4, Gemma, Qwen, Qwen1.5, Qwen2.5, ChatGPT, gemma-1.1"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Meta-analysis of 2,000+ multilingual benchmarks. Spanish among top high-resource languages represented. Analyzes effectiveness gap between English and Spanish across model quality/size. Gap inversely correlated with model quality."
 research_topic: "Machine Translation"

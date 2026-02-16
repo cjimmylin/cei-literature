@@ -49,6 +49,7 @@ Lee created two groundbreaking datasets for Korean AI safety: KoSBI, a social bi
 
 
 
+
 - [[2026-Lee-BiasJailbreak|BiasJailbreak]] (First Author)
 - [[2025-Alkhushayni-Multilingual Sentiment Analysis with Data Augmentation A|Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese]] (Last Author)
 - [[2025-Lee-Knowing the Words Missing the Meaning Evaluating LLMs' Cultural|Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms]] (First Author)
@@ -82,6 +83,8 @@ Lee created two groundbreaking datasets for Korean AI safety: KoSBI, a social bi
 
 
 
+
+- *From 2026-Lee-BiasJailbreak*:, Email: proceedings-questions@aaai.org
 - *From 2026-Lee-BiasJailbreak*:, Email: hbseong97@gmail.com
 - *From 2026-Lee-BiasJailbreak*:, Email: isacklee224@gmail.com
 - *From 2026-Lee-BiasJailbreak*:, Email: hbseong97@gmail.com

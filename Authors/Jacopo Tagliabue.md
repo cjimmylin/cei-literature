@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate*: Affiliation: University, Stanford, California, Email: jamesz@stanford.edu
 - *From 2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate*: Affiliation: University, Stanford, California, Email: jamesz@stanford.edu
 - *From 2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate*: Affiliation: University, Stanford, California, Email: jamesz@stanford.edu
 - *From 2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate*: Affiliation: University, Stanford, California, Email: jamesz@stanford.edu

@@ -48,6 +48,7 @@ He co-authored the Qwen3 technical report and has been instrumental in building 
 
 
 
+
 - [[2023-Li-BIRD|BIRD]]
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
 
@@ -62,6 +63,8 @@ He co-authored the Qwen3 technical report and has been instrumental in building 
 
 
 
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk

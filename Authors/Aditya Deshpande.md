@@ -23,6 +23,7 @@ Aditya Deshpande is a researcher affiliated with Symbiosis Institute of Technolo
 
 
 
+
 - [[2025-Chaudhari-RLHF Deciphered|RLHF Deciphered]]
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
@@ -31,6 +32,8 @@ Aditya Deshpande is a researcher affiliated with Symbiosis Institute of Technolo
 
 
 
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems

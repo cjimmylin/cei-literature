@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus|ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: d.adelani@ucl.ac.uk
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: d.adelani@ucl.ac.uk
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: iroro@alumni.cmu.edu
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: project@yorubaname.com

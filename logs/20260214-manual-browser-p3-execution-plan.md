@@ -326,7 +326,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Paper already has local PDF; ensure external_pdf/pdf_extract are consistent.
 - Next step: Open in browser, locate PDF link, verify title, update fields.
 
-## #37 `LSRC0764` `2025-Unknown-Improving hate speech detection using Cross-Lingual Learning -.md`
+## #37 `LSRC0764` `2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -.md`
 - URL: http://ceur-ws.org/Vol-2765/overview.pdf
 - Host: `ceur-ws.org`
 - Reason to prioritize: best available candidate for this paper
@@ -344,7 +344,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Downloaded file did not match title strongly; re-check source and verify first-page title.
 - Next step: Open in browser, locate PDF link, verify title, update fields.
 
-## #39 `LSRC0833` `2025-Unknown-Nlp Fairness ConceptNet blog.md`
+## #39 `LSRC0833` `2025-Xu-Nlp Fairness ConceptNet blog.md`
 - URL: https://arxiv.org/pdf/1607.06520.pdf
 - Host: `arxiv.org`
 - Reason to prioritize: best available candidate for this paper
@@ -353,7 +353,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Downloaded file did not match title strongly; re-check source and verify first-page title.
 - Next step: Use direct /pdf/<id>.pdf link and verify title.
 
-## #40 `LSRC0789` `2025-Unknown-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md`
+## #40 `LSRC0789` `2025-Jiang-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md`
 - URL: https://arxiv.org/pdf/2405.08997
 - Host: `arxiv.org`
 - Reason to prioritize: best available candidate for this paper
@@ -362,7 +362,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Downloaded file did not match title strongly; re-check source and verify first-page title.
 - Next step: Use direct /pdf/<id>.pdf link and verify title.
 
-## #41 `LSRC0609` `2025-Unknown-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION.md`
+## #41 `LSRC0609` `2025-Hulagadri-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION.md`
 - URL: https://arxiv.org/pdf/2311.07804?ref=cohere-ai.ghost.io
 - Host: `arxiv.org`
 - Reason to prioritize: best available candidate for this paper
@@ -578,7 +578,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Candidate is metadata/preview page; pivot to publisher/DOI PDF link.
 - Next step: Open in browser, locate PDF link, verify title, update fields.
 
-## #65 `LSRC0807` `2025-Unknown-Decolonizing LLMs An Ethnographic Framework for AI in African.md`
+## #65 `LSRC0807` `2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African.md`
 - URL: https://www.semanticscholar.org/paper/36c8dca0d6443ea49c08afd16934191c9063326d
 - Host: `www.semanticscholar.org`
 - Reason to prioritize: best available candidate for this paper

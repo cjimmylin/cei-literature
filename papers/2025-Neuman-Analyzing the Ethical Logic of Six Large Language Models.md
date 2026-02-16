@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2501.08951.pdf"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Trolley / Dilemmas (Psych)"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Claude, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
  Analyzing the Ethical Logic of Six Large Language Models

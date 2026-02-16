@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sri Lankan, Sinhala"
+languages_list: "English, Sinhala"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"

@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Opus, Claude Sonnet, Claude- Sonnet, Claude-4-Sonnet, Claude-4.1-Opus, Claude-Opus, Claude-Sonnet, DeepSeek, DeepSeek-Chat, DeepSeek-V3, GPT-4, LLaMA-4, Qwen, Qwen3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models excel on broad multilingual benchmarks but remains to be evaluated extensively in figurative and culturally grounded reasoning, especially in low-resource context. We present BengaliFig, a compact yet richly annotated challenge set that targets this gap in Bengali, a widely spoken low-resourced language. The dataset contains 435 unique riddles drawn from Bengali oral and literary traditions."
 research_topic: "AI Safety & Alignment"

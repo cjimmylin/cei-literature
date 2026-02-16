@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Indian, African"
+languages_list: "English, Malayalam, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Although LLMs have been extremely effective in a large number of comp
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
 ---
 # Evaluating Cultural Awareness of LLMs for Yoruba, Malayalam, and English

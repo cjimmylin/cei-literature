@@ -1,7 +1,7 @@
 ---
 name: "Karlsson, Börje F"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute for Artificial Intelligence 5RevComm, Inc"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
-- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]]]
 
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
@@ -85,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

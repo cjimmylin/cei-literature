@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "https://arxiv.org/pdf/2309.13356.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, ChatGPT, PaLM-2, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Probing the Moral Development of Large Language Models through Defining Issues Test

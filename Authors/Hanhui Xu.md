@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]]
 - [[2025-Jin-MedEthicEval|MedEthicEval]]
 - [[2025-Wu-Chain-of-Ethics Defense Framework Wu et al.|Chain-of-Ethics: Defense Framework (Wu et al.)]] (Last Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: mengyuewu@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: xuhanhui@fudan.edu.cn

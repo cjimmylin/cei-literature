@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.naacl-long.301/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/W25TJPES/2024 - XSTest A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

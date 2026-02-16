@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Khandelwal-Multilingual Defining Issues Test|Multilingual Defining Issues Test]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Khandelwal-Multilingual Defining Issues Test*:, Email: monojit.choudhury@mbzuai.ac.ae
 - *From 2024-Khandelwal-Multilingual Defining Issues Test*:, Email: monojit.choudhury@mbzuai.ac.ae
 - *From 2024-Khandelwal-Multilingual Defining Issues Test*:, Email: monojit.choudhury@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

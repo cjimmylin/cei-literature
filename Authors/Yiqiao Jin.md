@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of|CultureVLM: Characterizing and Improving Cultural Understanding of Vision-Language Models for over 100 Countries]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of*: Affiliation: University of Macau
 - *From 2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of*: Affiliation: University of Macau
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

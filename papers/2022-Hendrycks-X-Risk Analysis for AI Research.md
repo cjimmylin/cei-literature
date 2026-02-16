@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://arxiv.org/abs/2206.05862"
 external_pdf: "https://arxiv.org/pdf/2206.05862.pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # X-Risk Analysis for AI Research
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After|Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After*: Affiliation: lability of, Email: nalin21478@iiitd.ac.in
 - *From 2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After*: Affiliation: lability of, Email: narotam21477@iiitd.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

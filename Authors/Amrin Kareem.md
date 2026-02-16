@@ -23,6 +23,7 @@ Amrin Kareem is a researcher affiliated with the Mohamed bin Zayed University of
 
 
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
@@ -30,6 +31,8 @@ Amrin Kareem is a researcher affiliated with the Mohamed bin Zayed University of
 
 
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

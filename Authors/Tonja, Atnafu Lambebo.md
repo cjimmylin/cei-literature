@@ -1,7 +1,7 @@
 ---
 name: "Tonja, Atnafu Lambebo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
-- [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]]]
 
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
@@ -85,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

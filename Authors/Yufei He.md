@@ -23,6 +23,7 @@ Yufei He is a researcher at the National University of Singapore. His work focus
 
 
 
+
 - [[2025-Liu-InstrumentalEval|InstrumentalEval]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Yufei He is a researcher at the National University of Singapore. His work focus
 
 
 
+
+- *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu

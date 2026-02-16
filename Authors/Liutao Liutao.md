@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Yu-CMoralEval|CMoralEval]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: jiahuizhao7@163.com
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn

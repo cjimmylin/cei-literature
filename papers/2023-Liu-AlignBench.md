@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2311.18743.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

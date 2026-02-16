@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-De Montis-Morality in AI|Morality in AI]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
 - *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
 - *From 2025-De Montis-Morality in AI*: Affiliation: University of Technology, the Netherlands, 0000-0002-, Email: g.bombaerts@tue.nl.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

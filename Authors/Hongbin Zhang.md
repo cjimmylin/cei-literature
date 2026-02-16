@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhang-Evaluating and Improving Cultural Awareness of|Evaluating and Improving Cultural Awareness of]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhang-Evaluating and Improving Cultural Awareness of*: Affiliation: Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China, Email: xiangy@pcl.ac.cn
 - *From 2025-Zhang-Evaluating and Improving Cultural Awareness of*: Affiliation: Institute of Computing and Intelligence, Harbin Institute of Technology, Shenzhen, China, Email: zhangmin2021@hit.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

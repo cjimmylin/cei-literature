@@ -22,6 +22,7 @@ Aitor Gonzalez-Agirre is a researcher at the Barcelona Supercomputing Center (BS
 
 
 
+
 - [[2025-Ruiz-Fernández-EsBBQ and CaBBQ|EsBBQ and CaBBQ]]
 
 ## Notes
@@ -29,6 +30,8 @@ Aitor Gonzalez-Agirre is a researcher at the Barcelona Supercomputing Center (BS
 
 
 
+
+- *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es

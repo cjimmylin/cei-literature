@@ -51,6 +51,7 @@ He has received numerous prestigious awards, including the Humboldt Fellowship a
 
 
 
+
 - [[2025-Banerjee-SafeInfer|SafeInfer]]
 - [[2022-Das-Hate Speech and Offensive Language Detection|Hate Speech and Offensive Language Detection]] (Last Author)
 - [[2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection|HateCheckHIn Evaluating Hindi Hate Speech Detection]] (Last Author)
@@ -67,6 +68,8 @@ He has received numerous prestigious awards, including the Humboldt Fellowship a
 
 
 
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: biemann@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: yimam@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in

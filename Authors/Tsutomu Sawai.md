@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Okamoto-AI-based medical ethics education|AI-based medical ethics education]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Okamoto-AI-based medical ethics education*: Affiliation: School of Humanities and Social Sciences, Hiroshima, Email: tstmsw@hiroshima-u.ac.jp
 - *From 2025-Okamoto-AI-based medical ethics education*: Affiliation: School of Humanities and Social Sciences, Hiroshima, Email: tstmsw@hiroshima-u.ac.jp
 - *From 2025-Okamoto-AI-based medical ethics education*: Affiliation: School of Humanities and Social Sciences, Hiroshima, Email: tstmsw@hiroshima-u.ac.jp
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

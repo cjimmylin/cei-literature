@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au

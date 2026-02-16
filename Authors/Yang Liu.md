@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Li-AI Development and Innovation A Comparison of Large Language Models|AI Development and Innovation: A Comparison of Large Language Models from the U.S. and China | ACM Transactions on Management Information Systems]]
 - [[2025-Liu-Can LLMs Grasp Implicit Cultural Values|Can LLMs Grasp Implicit Cultural Values?]]
 - [[2025-Liu-On the Alignment of Large Language Models with Global Human Opinion|On the Alignment of Large Language Models with Global Human Opinion]] (First Author)
@@ -33,6 +34,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: jiahuanc@foxmail.com
 - *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: jiahuanc@foxmail.com
 - *From 2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for*: Affiliation: University of Technology, Email: eelwjin@scut.edu.cn
 - *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: bwjiang@seas.upenn.edu

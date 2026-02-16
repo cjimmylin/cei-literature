@@ -37,6 +37,7 @@ Enzo Ferrante is an Independent Researcher at CONICET (Argentina's National Scie
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## External Links
@@ -50,6 +51,8 @@ Enzo Ferrante is an Independent Researcher at CONICET (Argentina's National Scie
 
 
 
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar

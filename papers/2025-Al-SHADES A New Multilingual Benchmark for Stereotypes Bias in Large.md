@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness annotated dataset"
 data_metrics: "16 languages"
 LLM_assessed: "BERT, BLOOM, Bloom-1b7, Bloom-7b1, BloomZ, Llama-3, Llama, Llama2, Llama3, Llama3., Mistral, Mistral-7B, Qwen, Qwen2, qwenlm"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new..."
 ethics_perspective: "Bias & Fairness"

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents|Evaluating Cultural and Social Awareness of LLM Web Agents]]
 - [[2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment|Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies]] (Last Author)
 - [[2024-Yin-SafeWorld Geo-Diverse Safety Alignment|SafeWorld: Geo-Diverse Safety Alignment]] (Last Author)
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: kh.huang@salesforce.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

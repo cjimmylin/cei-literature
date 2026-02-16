@@ -36,7 +36,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama, Llama-3, LlaMa-3.1, LlaMa-Guard, Mistral, Mistral 7B, GPT-3, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "With the ubiquity of Large Language Models (LLMs), guardrails have become crucial to detect and defend against toxic content. However, with the increasing pervasiveness of LLMs in multilingual scenarios, their effectiveness in handling multilingual toxic inputs remains unclear. In this work, we introduce a comprehensive multilingual test suite, spanning seven datasets and over ten languages, to benchmark the performance of state-of-the-art guardrails."
 ethics_perspective: "AI Safety & Alignment"

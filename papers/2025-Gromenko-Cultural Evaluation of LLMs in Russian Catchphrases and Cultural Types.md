@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "This study addresses the gap in evaluating large language models' (LLMs) cultural awareness and alignment within the Russian sociocultural context by introducing a structured framework comprising 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups (e.g., memes, proverbs). A 400-question evaluation dataset was developed to probe 10 multilingual LLMs, including GPT-4o, Claude 3.5 Sonnet, and Gemini 1."
 research_topic: "Social & Cultural Analysis"

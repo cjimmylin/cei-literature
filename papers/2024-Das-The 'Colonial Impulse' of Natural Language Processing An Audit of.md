@@ -39,7 +39,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "T5"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Algorithmic audit of all Bengali sentiment analysis tools on PyPI and GitHub for identity-based biases across gender, religion, and nationality. Finds tools perpetuate colonial values and bias. Examines how colonial legacies impact NLP systems for Bengali communities."
 research_topic: "NLP & Representation Learning"

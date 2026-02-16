@@ -3,7 +3,7 @@ name: "Ambite, Enrique de Miguel"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "pmsanchezs@funditec.es"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on|Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices]] (Last Author)]]
 
 - [[2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on|Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices]] (Last Author)
+- [[2024-Kuriyozov-Construction and Evaluation of Sentiment Datasets for Low-Resource|Construction and Evaluation of Sentiment Datasets for Low-Resource Languages: The Case of Uzbek | Springer Nature Link]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on*:, Email: pmsanchezs@funditec.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

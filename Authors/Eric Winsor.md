@@ -29,6 +29,7 @@ Eric Winsor is a researcher at the UK AI Safety Institute (AISI), contributing t
 
 
 
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 
 ## Notes
@@ -36,6 +37,8 @@ Eric Winsor is a researcher at the UK AI Safety Institute (AISI), contributing t
 
 
 
+
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor

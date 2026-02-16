@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Göçen-Teachers vs. large language models ethical decision-making across|Teachers vs. large language models: ethical decision-making across educational dilemmas in Turkish schools]] (Last Author)
 
 ## External Links & Profiles

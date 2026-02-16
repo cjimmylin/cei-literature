@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Lao, Laotian"
+languages_list: "Chinese, English, Lao"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "The rapid advancement of large language models (LLMs) has not been ma
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude-Opus, Claude-Sonnet, DeepSeek-V3, Qwen-family, Qwen3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 research_topic: "Machine Learning"
 ---

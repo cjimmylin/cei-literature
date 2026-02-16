@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ abstract: "Warning: This paper contains potentially offensive and harmful text. 
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Between a Rock and a Hard Place (TRIAL)

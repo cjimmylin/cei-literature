@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://arxiv.org/abs/2409.09844"
 external_pdf: "https://arxiv.org/pdf/2409.09844.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Islamic"
+languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "73,000 question; over 73,000 question"
 LLM_assessed: "T5, BART"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text
 

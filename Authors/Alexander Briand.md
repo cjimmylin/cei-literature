@@ -34,11 +34,14 @@ Alexander's research focuses on the intersection of technical robustness and soc
 
 
 
+
 - [[2024-Leech-Ten Hard Problems in Artificial Intelligence We|Ten Hard Problems in Artificial Intelligence We]]
 
 ## Notes
 
 
+
+- *From 2024-Leech-Ten Hard Problems in Artificial Intelligence We*: Affiliation: University of Bristol and Arb Research
 - *From 2024-Leech-Ten Hard Problems in Artificial Intelligence We*: Affiliation: University of Bristol and Arb Research
 - *From 2024-Leech-Ten Hard Problems in Artificial Intelligence We*: Affiliation: University of Bristol and Arb Research
 [Collaborates closely with the independent AI safety research community on long-term risk assessment.]

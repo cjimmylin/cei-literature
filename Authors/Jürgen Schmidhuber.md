@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Zhuge-Agent-as-a-Judge|Agent-as-a-Judge]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: cszhao@meta.com
 - *From 2024-Zhuge-Agent-as-a-Judge*: Affiliation: lable self-improvement, Email: mingchen.zhuge@kaust.edu.sa

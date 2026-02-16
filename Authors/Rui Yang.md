@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in|SEALGuard Safeguarding the Multilingual Conversations in]]
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: wenliang.shan@monash.edu
 - *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: rui.yang1@monash.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

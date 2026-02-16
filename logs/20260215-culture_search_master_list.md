@@ -1710,7 +1710,7 @@
 | Automatic Construction of a Korean Toxic Instruction Dataset | 2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md | Korean |
 | Evaluating Visual and Cultural Interpretation: The K-Viscuit | 2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md | Korean |
 | KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivit | 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md | Korean |
-| Moral Judgment of LLM Using Korean Datasets and Eastern Ethi | 2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md | East Asian, Korean |
+| Moral Judgment of LLM Using Korean Datasets and Eastern Ethi | 2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md | East Asian, Korean |
 | NormGenesis: Multicultural Dialogue Generation via Exemplar- | 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md | Chinese, English, Korean |
 | From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchma | 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.md | Korean |
 | Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment | 2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md | Chinese, Taiwanese |
@@ -1735,7 +1735,7 @@
 | KazMMLU: Evaluating Language Models on Kazakh, Russian, and  | 2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh.md | Kazakh |
 | Qorgau: Evaluating LLM Safety in Kazakh-Russian Bilingual Co | 2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.md | Kazakh, Russian, Russian (Kazakhstan context) |
 | Whose Morality Do They Speak? Unraveling Cultural Bias in Mu | 2024-Aksoy-Whose Morality Do They Speak.md | Arabic, Chinese, English, Farsi, French, Japanese, Multiple (Arabic, Farsi, English, Spanish, Japanese, Chinese, French, Russian), Russian, Spanish |
-| Evaluating Large Language Models in Mongolian | 2025-Unknown-Evaluating Large Language Models in Mongolian.md | Mongolian |
+| Evaluating Large Language Models in Mongolian | 2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian.md | Mongolian |
 | Instruction Tuning on Public Government and Cultural Data fo | 2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md | Kazakh |
 | SANSKRITI: A Comprehensive Benchmark for Evaluating Language | 2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md | Indian |
 | Common to Whom? Regional Cultural Commonsense and LLM Bias i | 2026-Madhusudan-Common to Whom Regional Cultural Commonsense.md | Central Indian, East Indian, Indian, North Indian, South Indian, West Indian |

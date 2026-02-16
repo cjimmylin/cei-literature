@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kamath-Benchmarking Hindi LLMs A New Suite|Benchmarking Hindi LLMs A New Suite]]
 - [[2025-Paul-Aligning Large Language Models to Low-Resource|Aligning Large Language Models to Low-Resource]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Paul-Aligning Large Language Models to Low-Resource*: Affiliation: lable, curating equivalent data in other lan-
 - *From 2025-Paul-Aligning Large Language Models to Low-Resource*: Affiliation: lable, curating equivalent data in other lan-
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

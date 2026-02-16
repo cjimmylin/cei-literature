@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect|Evaluating Large Language Models on Understanding Korean Indirect Speech Acts]]
 - [[2024-Park-Pragmatic Competence Evaluation of Large Language Models for the|Pragmatic Competence Evaluation of Large Language Models for the Korean Language]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 - *From 2024-Park-Pragmatic Competence Evaluation of Large Language Models for the*: Affiliation: Institute of Seoul National University (AIIS)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

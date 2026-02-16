@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation|Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models]] (First Author)
 - [[2023-Wang-DecodingTrust|DecodingTrust]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

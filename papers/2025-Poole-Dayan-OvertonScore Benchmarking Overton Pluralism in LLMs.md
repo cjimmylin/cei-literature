@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark"
 data_metrics: "60 questions"
 LLM_assessed: "GPT-4, Gemma, DeepSeek, Llama-3, Claude"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # OvertonScore: Benchmarking Overton Pluralism in LLMs
 

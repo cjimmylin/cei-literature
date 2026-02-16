@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Bae-CharMoral|CharMoral]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg

@@ -22,6 +22,7 @@ Recently completed MS at Fudan University (2022-2025). Research focuses on align
 
 
 
+
 - [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value|AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment]] (First Author)
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 - [[2023-Duan-Denevil|Denevil]] (First Author)
@@ -31,6 +32,8 @@ Recently completed MS at Fudan University (2022-2025). Research focuses on align
 
 
 
+
+- *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn
 - *From 2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value*: Affiliation: University, 2Microsoft Research Asia, 3North Carolina State University, Email: stduan22@m.fudan.edu.cn

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Japanese"
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "Applied Ethics"
 data_description: "Evaluation approach text corpus"
 data_metrics: "50 scenarios"
 LLM_assessed: "GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation

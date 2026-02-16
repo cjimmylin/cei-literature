@@ -35,6 +35,7 @@ His research interests include deep learning, AI, ML, optimization, and probabil
 
 
 
+
 - [[2023-Clymer-Generalization Analogies|Generalization Analogies]]
 
 ## External Links
@@ -49,6 +50,8 @@ His research interests include deep learning, AI, ML, optimization, and probabil
 
 
 
+
+- *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com

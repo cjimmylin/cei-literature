@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ChatGLM, ChatGLM3, GPT-3, Llama, Llama2"
 DATA_URL: "https://github.com/sy-cg/LLM-fair-aware"
 tags: 
-abstract: 
+abstract: "I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources."
 ethics_perspective: "Bias & Fairness"
 ---
 # Fairness identification of large language models in recommendation

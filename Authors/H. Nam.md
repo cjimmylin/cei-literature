@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Moon-BEAF|BEAF]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea

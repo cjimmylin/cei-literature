@@ -21,6 +21,7 @@ Maarten Wilders is a researcher working on virtue ethics in AI and ethical appro
 
 
 
+
 - [[2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI|The Socratic Dialogue as a Method for Virtue Ethics in AI]] (First Author)
 - [[2024-Wilders-Socratic Dialogue for Virtue Ethics in AI|Socratic Dialogue for Virtue Ethics in AI]] (First Author)
 
@@ -29,6 +30,8 @@ Maarten Wilders is a researcher working on virtue ethics in AI and ethical appro
 
 
 
+
+- *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: i.m.d.r.detroya@tudelft.nl
 - *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: r.i.j.dobbe@tudelft.nl
 - *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: maartenwilders@gmail.com
 - *From 2024-Wilders-Socratic Dialogue for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: r.i.j.dobbe@tudelft.nl

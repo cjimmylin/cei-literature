@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,7 @@ doi: 10.1016/j.eswa.2025.127421
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437"
 publication: ScienceDirect
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -24,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"
-languages_list: 
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

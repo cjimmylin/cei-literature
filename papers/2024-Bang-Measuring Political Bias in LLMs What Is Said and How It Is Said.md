@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Vicuna, Falcon, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Measuring Political Bias in LLMs: What Is Said and How It Is Said
 

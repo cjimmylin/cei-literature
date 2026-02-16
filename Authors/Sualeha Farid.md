@@ -23,6 +23,7 @@ Sualeha Farid is a Graduate Student and Researcher at the University of Michigan
 
 
 
+
 - [[2025-Farid-One Model, Many Morals|One Model, Many Morals]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Sualeha Farid is a Graduate Student and Researcher at the University of Michigan
 
 
 
+
+- *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA
 - *From 2025-Farid-One Model, Many Morals*: Affiliation: University of Michigan, Ann Arbor, USA

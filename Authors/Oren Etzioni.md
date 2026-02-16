@@ -39,6 +39,7 @@ Founded and led AI2, creating influential projects including Semantic Scholar, t
 
 
 
+
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
 
@@ -53,6 +54,8 @@ Founded and led AI2, creating influential projects including Semantic Scholar, t
 
 
 
+
+- *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington

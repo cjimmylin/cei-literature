@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question|SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question*: Affiliation: School of Information Science and Technology, VISTEC, Thailand
 - *From 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question*: Affiliation: School of Information Science and Technology, VISTEC, Thailand
 - *From 2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question*: Affiliation: School of Information Science and Technology, VISTEC, Thailand
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

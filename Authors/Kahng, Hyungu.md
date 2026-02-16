@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Jang-Cross-Linguistic Moral Preferences in Large Language Models Evidence|Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions]] (Last Author)
 
 ## External Links & Profiles

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2024.emnlp-main.671/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/EMDAVPXV/2024 - The Multilingual Alignment Prism Aligning Global and Local Preferences to Reduce Harm.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -3,7 +3,7 @@ name: "Zheng-Xin Yong"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Department of Computer Science, Brown University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "sarahooker@cohere.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -57,8 +57,8 @@ twitter: ""
 
 
 
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
-- [[2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages|Preference Tuning For Toxicity Mitigation Generalizes Across Languages]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
 
 ## External Links & Profiles
@@ -87,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: sarahooker@cohere.com
 - *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University
 - *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

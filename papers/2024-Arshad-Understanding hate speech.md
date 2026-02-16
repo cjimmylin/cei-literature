@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://peerj.com/articles/cs-2372"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/P2VZGTF3/Arshad and Shahzad - 2024 - Understanding hate speech the HateInsights dataset and model interpretability.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

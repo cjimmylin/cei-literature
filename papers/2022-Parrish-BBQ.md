@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2022.findings-acl.165/"
 external_pdf: "https://aclanthology.org/2022.findings-acl.165.pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

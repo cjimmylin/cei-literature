@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Et
 local_pdf: "[[PDFs/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes

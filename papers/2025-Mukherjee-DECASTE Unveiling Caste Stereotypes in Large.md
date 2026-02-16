@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Recent advancements in large language models (LLMs) have revolutioniz
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o, Llama, Llama-2, Llama-3, Mixtral, Mixtral-8x7b, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # DECASTE: Unveiling Caste Stereotypes in Large Language Models through Multi-Dimensional Bias Analysis

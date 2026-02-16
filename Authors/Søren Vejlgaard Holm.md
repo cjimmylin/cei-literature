@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Holm-Danoliteracy of Generative Large Language Models|Danoliteracy of Generative Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk
 - *From 2024-Holm-Danoliteracy of Generative Large Language Models*: Affiliation: University of Denmark, Anker Engelunds Vej 1, 2800 Kongens Lyngby, Denmark, Email: swiho@dtu.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

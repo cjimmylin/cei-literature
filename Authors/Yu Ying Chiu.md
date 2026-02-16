@@ -23,6 +23,7 @@ Yu Ying Chiu (also known as Kelly Chiu) is a researcher at the University of Was
 
 
 
+
 - [[2025-Chiu-CulturalBench|CulturalBench]] (First Author)
 - [[2025-Chiu-MoReBench|MoReBench]] (First Author)
 - [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]] (First Author)
@@ -33,6 +34,8 @@ Yu Ying Chiu (also known as Kelly Chiu) is a researcher at the University of Was
 
 
 
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HH8893VS/Gwagwa et al. - 2022 - The role of the African value of Ubuntu in global AI inclusion discourse A normative ethics perspec.pdf"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
+languages_list: ""
 religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"

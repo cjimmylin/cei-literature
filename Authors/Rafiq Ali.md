@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy|MisAlign-Profile: Can Large Language Models Make Everyone Happy?]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au
 - *From 2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy*: Affiliation: University, Sydney, Australia, Email: usman.naseem@mq.edu.au
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

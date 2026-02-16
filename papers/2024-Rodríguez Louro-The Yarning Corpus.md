@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ pdf_extract: "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
 national_ethnic_cultural: "American, Australian/Aboriginal, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indigenous Australian"
+languages_list: "English"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"

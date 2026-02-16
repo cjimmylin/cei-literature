@@ -20,6 +20,7 @@ Pratik S. Sachdeva is a Research Scientist in the D-Lab at UC Berkeley. His rese
 
 
 
+
 - [[2025-Sachdeva-Deliberative Dynamics and Value Alignment|Deliberative Dynamics and Value Alignment]] (First Author)
 - [[2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas|Normative Evaluation of LLMs]] (First Author)
 
@@ -28,6 +29,8 @@ Pratik S. Sachdeva is a Research Scientist in the D-Lab at UC Berkeley. His rese
 
 
 
+
+- *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley
 - *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley
 - *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley
 - *From 2025-Sachdeva-Deliberative Dynamics and Value Alignment*: Affiliation: University of California, Berkeley

@@ -22,6 +22,7 @@ Jiayi Liu is a researcher at Alibaba Group who has contributed to foundational w
 
 
 
+
 - [[2023-Xu-CValues|CValues]]
 
 ## Notes
@@ -29,6 +30,8 @@ Jiayi Liu is a researcher at Alibaba Group who has contributed to foundational w
 
 
 
+
+- *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com
 - *From 2023-Xu-CValues*: Affiliation: lable on ModelScope 1 and Github 2, Email: ym119608@alibaba-inc.com

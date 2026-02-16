@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural (global populations)"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Vicuna-1.5, Llama-3, Qwen"
 DATA_URL: "https://github.com/yongcaoplus/SimLLMCultureDist"
 tags: 
-abstract:
+abstract: "First work to specialize LLMs for simulating survey response distributions using country-level results from two global cultural surveys (WVS) as testbed. Fine-tuning method based on first-token probabilities to minimize divergence. Best models still struggle, especially on unseen questions."
 research_topic: "Other"
 ---
 # Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations

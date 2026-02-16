@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset|SOLD: Sinhala Offensive Language Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk
 - *From 2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset*: Affiliation: University, Birmingham, UK, Email: t.ranasinghe@aston.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

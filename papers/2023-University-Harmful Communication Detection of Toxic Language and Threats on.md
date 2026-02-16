@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,9 +37,9 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "CroSloEngual BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Uses transfer learning and BERT to train models for toxic language (F1>0.94) and threats (F1=0.86) in Swedish. Models' performance decreases significantly on unseen social media data. Finds 20% of social media threats are not toxic."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Harmful Communication: Detection of Toxic Language and Threats on Swedish

@@ -69,7 +69,7 @@ Set `LLM_assessed` manually for 9 unresolved-with-extract papers with clear mode
 - `papers/2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for.md`
 - `papers/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md`
 - `papers/2025-Terziyan-Towards ethical evolution.md`
-- `papers/2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md`
+- `papers/2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md`
 
 ## Recommended Next Steps
 1. Prioritize the `145` unresolved rows that already have extracts for manual reviewer pass.

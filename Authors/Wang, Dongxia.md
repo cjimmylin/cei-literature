@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Yuan-S-Eval|S-Eval]]
 - [[2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized|Fair-PP: Synthetic Dataset for Aligning LLM with Personalized Preferences of Social Equity]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Yuan-S-Eval*:, Email: chenjialuo@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: hui.xueh@alibaba-inc.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

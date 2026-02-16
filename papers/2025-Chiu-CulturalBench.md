@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "http://arxiv.org/abs/2410.02677"
 external_pdf: "http://arxiv.org/pdf/2410.02677.pdf"
 national_ethnic_cultural: "Chinese, African/Ubuntu"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

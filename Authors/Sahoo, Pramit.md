@@ -1,9 +1,9 @@
 ---
 name: "Sahoo, Pramit"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology Hyderabad"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "maunendra@cse.iith.ac.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for|DIWALI: Diversity and Inclusivity aWare cuLture specific Items for India Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context]] (First Author)]]
 
 - [[2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for|DIWALI: Diversity and Inclusivity aWare cuLture specific Items for India Dataset and Assessment of LLMs for Cultural Text Adaptation in Indian Context]] (First Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Sahoo-DIWALI Diversity and Inclusivity aWare cuLture specific Items for*: Affiliation: Institute of Technology Hyderabad, Email: maunendra@cse.iith.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

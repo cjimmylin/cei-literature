@@ -55,6 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
+- [[2025-initiative-FaithBench AI Benchmark for Christian Theology|FaithBench AI Benchmark for Christian Theology]] (First Author)]]
 
 - [[2025-initiative-FaithBench AI Benchmark for Christian Theology|FaithBench AI Benchmark for Christian Theology]] (First Author)
 

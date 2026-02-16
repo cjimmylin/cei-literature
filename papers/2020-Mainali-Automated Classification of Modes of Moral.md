@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ authors: "[[Mainali, Nischal]]; [[Meier, Liam]]; [[Ash, Elliott]]; [[Chen, Danie
 external_pdf: "https://hal.science/hal-04163443/file/Automated_Classification_of_Modes_of_Moral_Reasoning_in_Judicial_Decisions_ComputationalLegalStudies.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +18,7 @@ doi: 10.1080/23812346.2025.2603822
 url: "https://www.tandfonline.com/doi/full/10.1080/23812346.2025.2603822"
 publication: "Journal of Chinese Governance (Taylor & Francis)"
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
-languages_list: 
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Leverages LLMs to simulate social perception around China's Common Prosperity agenda. Proposes CPP framework with dual-track qualitative/quantitative design. Fine-tunes base LLMs and evaluates on six-task pipeline covering social attitudes and survey simulation."
 research_topic: "Other"
 ---
 # Simulating social perception with large language models: perceptions of China's common prosperity

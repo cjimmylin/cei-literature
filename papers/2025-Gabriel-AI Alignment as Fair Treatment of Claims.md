@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://link.springer.com/article/10.1007/s11098-025-02300-4"
 publication: "Philosophical Studies"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -40,7 +42,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # AI Alignment as Fair Treatment of Claims

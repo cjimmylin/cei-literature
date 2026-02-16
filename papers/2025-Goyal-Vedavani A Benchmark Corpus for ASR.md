@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "Sanskrit"
 religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"

@@ -49,6 +49,7 @@ Yao has contributed to surveys on LLMs for subjective language understanding, hi
 
 
 
+
 - [[2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese|Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan]] (First Author)
 - [[2025-Yao-NurValues|NurValues]] (First Author)
 
@@ -62,6 +63,8 @@ Yao has contributed to surveys on LLMs for subjective language understanding, hi
 
 
 
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University

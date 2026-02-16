@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2024.lrec-main.260/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/843YR4ZV/2024 - CBBQ A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -28,6 +28,7 @@ Jessica Woodgate is a PhD student at the University of Bristol, researching the 
 
 
 
+
 - [[2024-Woodgate-Macro Ethics Principles for Responsible AI Systems|Macro Ethics Principles for Responsible AI Systems]] (First Author)
 
 ## Notes
@@ -35,6 +36,8 @@ Jessica Woodgate is a PhD student at the University of Bristol, researching the 
 
 
 
+
+- *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom
 - *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom
 - *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom
 - *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom

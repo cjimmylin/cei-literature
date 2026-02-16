@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models|Sabiá-2: A New Generation of Portuguese Large Language Models]] (First Author)]]
 
 - [[2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models|Sabiá-2: A New Generation of Portuguese Large Language Models]] (First Author)
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine|Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine*: Affiliation: Institute of Intelligent Technologies, Email: matus.pikuliak@kinit.sk
 - *From 2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine*: Affiliation: Institute of Intelligent Technologies, Email: matus.pikuliak@kinit.sk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

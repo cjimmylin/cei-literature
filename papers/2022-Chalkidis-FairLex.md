@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2022.acl-long.301/"
 external_pdf: "http://arxiv.org/pdf/2203.07228"
 national_ethnic_cultural: "Chinese, French, German, Italian"
 cultures_nationalities_list: "Chinese, French, German, Italian"
+languages_list: "Chinese, English, French, German, Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

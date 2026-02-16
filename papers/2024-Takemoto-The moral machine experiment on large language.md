@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://royalsocietypublishing.org/doi/10.1098/rsos.231393"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XC5F78B6/Takemoto - 2024 - The moral machine experiment on large language models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"
@@ -38,7 +40,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, PaLM-2, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline

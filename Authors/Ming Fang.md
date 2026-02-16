@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Cao-SafeDialBench|SafeDialBench]]
 - [[2025-Han-MuBench Assessment of Multilingual Capabilities of|MuBench Assessment of Multilingual Capabilities of]]
 - [[2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating|GPTBIAS A Comprehensive Framework for Evaluating]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating*: Affiliation: University of Technology, the Netherlands, Email: s.pan@griffith.edu.au
 - *From 2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating*: Affiliation: University of Technology, the Netherlands, Email: Meng.Fang@liverpool.ac.uk
 - *From 2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating*: Affiliation: University of Technology, the Netherlands, Email: Meng.Fang@liverpool.ac.uk
 - *From 2025-Cao-SafeDialBench*: Affiliation: Laboratory for Novel Software Technology, Nanjing University 2University of Liverpool

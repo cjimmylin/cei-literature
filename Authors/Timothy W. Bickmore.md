@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered|A Risk Taxonomy for Evaluating AI-Powered]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu

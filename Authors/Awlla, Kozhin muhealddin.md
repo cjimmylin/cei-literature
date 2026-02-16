@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment|KuBERT: Central Kurdish BERT Model and Its Application for Sentiment Analysis]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: abdulhady.abas@ukh.edu.krd
 - *From 2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment*: Affiliation: Department, Faculty of, Email: h.veisi@ut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

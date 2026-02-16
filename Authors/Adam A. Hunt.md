@@ -34,12 +34,15 @@ Adam's recent work includes the development of the Weapons of Mass Destruction P
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

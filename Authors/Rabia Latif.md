@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Qamar-A Benchmark Dataset with Larger Context for|A Benchmark Dataset with Larger Context for]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Qamar-A Benchmark Dataset with Larger Context for*: Affiliation: School of Electrical Engineering and Computer Science (SEECS), Email: seemab.latif@seecs.edu.pk
 - *From 2024-Qamar-A Benchmark Dataset with Larger Context for*: Affiliation: School of Electrical Engineering and Computer Science (SEECS), Email: seemab.latif@seecs.edu.pk
 - *From 2024-Qamar-A Benchmark Dataset with Larger Context for*: Affiliation: School of Electrical Engineering and Computer Science (SEECS), Email: seemab.latif@seecs.edu.pk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

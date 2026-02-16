@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese|Safety Evaluation and Enhancement of DeepSeek Models in Chinese Contexts]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese*: Affiliation: Research Institute, China Unicom
 - *From 2025-Zhang-Safety Evaluation and Enhancement of DeepSeek Models in Chinese*: Affiliation: Research Institute, China Unicom
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

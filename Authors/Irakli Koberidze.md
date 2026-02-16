@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian|GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgian for Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: irakli.koberidze@tsu.ge
 - *From 2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian*:, Email: archil.elizbarashvili@tsu.ge
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

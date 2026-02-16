@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Experimental study showing generative AI not only reflects but amplif
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # Cognitive Bias in Generative AI Influences Religious Education

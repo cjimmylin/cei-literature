@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: yunhuang@illinois.edu
 - *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: huashen@nyu.edu
 - *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: tmitra@uw.edu
 - *From 2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment*: Affiliation: University, qUniversity of Washington, Email: reshmighosh@microsoft.com

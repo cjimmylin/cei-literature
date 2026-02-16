@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Isbarov-Open foundation models for Azerbaijani language|Open foundation models for Azerbaijani language]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Isbarov-Open foundation models for Azerbaijani language*: Affiliation: Department of Computer Science, Email: elvin.mammadov.std@bhos.edu.az
 - *From 2024-Isbarov-Open foundation models for Azerbaijani language*: Affiliation: Department of Computer Science, Email: ataman@nyu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

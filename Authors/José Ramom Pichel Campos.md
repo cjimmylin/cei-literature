@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and|Bridging Gaps in Hate Speech Detection: Meta-Collections and Benchmarks for Low-Resource Iberian Languages]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: jramon.pichel@usc.gal
 - *From 2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and*: Affiliation: Lab, CITIC Research Centre, Universidade da Coru˜na, Spain, Email: jramon.pichel@usc.gal
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

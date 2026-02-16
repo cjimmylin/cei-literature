@@ -22,6 +22,7 @@ V. Pérez-Rosas is a Research Assistant Professor in the Computer Science and En
 
 
 
+
 - [[2024-Pérez-Rosas-CogniModal-D|CogniModal-D]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ V. Pérez-Rosas is a Research Assistant Professor in the Computer Science and En
 
 
 
+
+- *From 2024-Pérez-Rosas-CogniModal-D*: Affiliation: lable, and advanced deception detection systems
 - *From 2024-Pérez-Rosas-CogniModal-D*: Affiliation: lable, and advanced deception detection systems
 - *From 2024-Pérez-Rosas-CogniModal-D*: Affiliation: lable, and advanced deception detection systems
 - *From 2024-Pérez-Rosas-CogniModal-D*: Affiliation: lable, and advanced deception detection systems

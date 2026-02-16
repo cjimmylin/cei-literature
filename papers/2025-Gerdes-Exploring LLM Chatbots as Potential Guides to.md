@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -17,6 +18,7 @@ url: "https://www.tandfonline.com/doi/full/10.1080/14746700.2025.2514300"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZWBBJPDD/Gerdes and Øhrstrøm - 2025 - Exploring LLM Chatbots as Potential Guides to Virtue Ethics Limits and Possibilities, with a Case S.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: N/A
@@ -36,7 +38,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
 local_pdf: "[[PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
 ---

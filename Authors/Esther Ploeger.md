@@ -36,6 +36,7 @@ Contributed to the SHADES benchmark for evaluating social biases across multiple
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles|CreoleVal: Multilingual Multitask Benchmarks for Creoles]]
@@ -50,6 +51,8 @@ Contributed to the SHADES benchmark for evaluating social biases across multiple
 
 
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

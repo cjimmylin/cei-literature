@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements|SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements]]
 - [[2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for|BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism]]
 - [[2018-Amram-Representations and Architectures in Neural Sentiment Analysis for|Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew]]
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 - *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

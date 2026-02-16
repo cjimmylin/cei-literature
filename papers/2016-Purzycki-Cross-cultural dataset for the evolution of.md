@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.nature.com/articles/sdata201699"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQRCW8LB/Purzycki et al. - 2016 - Cross-cultural dataset for the evolution of religion and morality project.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

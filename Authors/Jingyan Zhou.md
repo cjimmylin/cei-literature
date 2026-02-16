@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning|Rethinking Machine Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

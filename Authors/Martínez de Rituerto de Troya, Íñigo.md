@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits|Helpful Harmless Honest Limits]]
 - [[2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI|The Socratic Dialogue as a Method for Virtue Ethics in AI]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: i.m.d.r.detroya@tudelft.nl
 - *From 2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: r.i.j.dobbe@tudelft.nl
 - *From 2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI*: Affiliation: Faculty of Technology, Policy and Management, Delft University of Technology, The Netherlands, Email: maartenwilders@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

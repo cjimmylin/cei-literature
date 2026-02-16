@@ -32,6 +32,7 @@ Along with SafeInfer, the research introduces HarmEval, a novel benchmark for ex
 
 
 
+
 - [[2025-Banerjee-SafeInfer|SafeInfer]] (First Author)
 - [[2022-Das-Hate Speech and Offensive Language Detection|Hate Speech and Offensive Language Detection]]
 
@@ -39,6 +40,8 @@ Along with SafeInfer, the research introduces HarmEval, a novel benchmark for ex
 
 
 
+
+- *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: mithundas@iitkgp.ac.in
 Research emphasis on practical, deployment-ready safety mechanisms that can be applied at inference time rather than requiring expensive retraining, with potential applications for adapting safety levels to different regulatory contexts or user populations dynamically.

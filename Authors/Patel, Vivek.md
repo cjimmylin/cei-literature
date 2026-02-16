@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on|IndicParam Benchmark to Evaluate LLMs on]]
 - [[2025-Maheshwari-ParamBench A Graduate-Level Benchmark for Evaluating|ParamBench A Graduate-Level Benchmark for Evaluating]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on*: Affiliation: Institute of Management Indore, India ; ♠BharatGen, Email: ayush.hakmn@gmail.com
 - *From 2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on*: Affiliation: Institute of Management Indore, India ; ♠BharatGen, Email: ayush.hakmn@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

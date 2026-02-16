@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu
 - *From 2025-Levine-Resource Rational Contractualism Should Guide AI Alignment*: Affiliation: Department, 2MIT, Brain and Cognitive Sciences Department, Email: smlevine@mit.edu

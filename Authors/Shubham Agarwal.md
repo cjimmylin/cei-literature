@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding|IndicVisionBench Benchmarking Cultural and Multilingual Understanding]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 - *From 2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding*: Affiliation: centered on the Indian subcontinent
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

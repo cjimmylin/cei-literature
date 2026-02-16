@@ -21,6 +21,7 @@ Nicholas Lourie is a PhD student at NYU University (CILVR lab), advised by Kyung
 
 
 
+
 - [[2021-Lourie-Scruples|Scruples]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Nicholas Lourie is a PhD student at NYU University (CILVR lab), advised by Kyung
 
 
 
+
+- *From 2021-Lourie-Scruples*: Affiliation: Institute for AI, WA, USA
 - *From 2021-Lourie-Scruples*: Affiliation: Institute for AI, WA, USA
 - *From 2021-Lourie-Scruples*: Affiliation: Institute for AI, WA, USA
 - *From 2021-Lourie-Scruples*: Affiliation: Institute for AI, WA, USA

@@ -1,7 +1,7 @@
 ---
 name: "Martínez, Gonzalo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at ScienceDirect"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]]]
 
+- [[2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for|Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs]] (First Author)
 - [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]
 
 ## External Links & Profiles
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for*: Affiliation: lable at ScienceDirect
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

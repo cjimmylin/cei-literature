@@ -43,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "92,405 words"
 LLM_assessed: "BERT, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Chemical named entity recognition (NER) models are used in many downstream tasks, from adverse drug reaction identification to pharmacoepidemiology. However, it is unknown whether these models work the same for everyone. Performance disparities can potentially cause harm rather than the intended good. This paper assesses gender-related performance disparities in chemical NER systems. We develop a framework for measuring gender bias in chemical NER models using synthetic data and a newly..."
 ethics_perspective: "Bias & Fairness"

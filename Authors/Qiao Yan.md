@@ -30,6 +30,7 @@ Experimental results demonstrate that fine-tuning on MedHallTune achieves 20-30%
 
 
 
+
 - [[2025-Zhang-MedHallTune|MedHallTune]] (First Author)
 
 ## Notes
@@ -37,6 +38,8 @@ Experimental results demonstrate that fine-tuning on MedHallTune achieves 20-30%
 
 
 
+
+- *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk
 - *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk
 - *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk
 - *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk

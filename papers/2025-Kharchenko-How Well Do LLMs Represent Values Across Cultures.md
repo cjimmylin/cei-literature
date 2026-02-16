@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Command-R, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, LLAMA 3, Llama, Llama-3, Llama 3."
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving..."
 ethics_perspective: "Social & Cultural Values"

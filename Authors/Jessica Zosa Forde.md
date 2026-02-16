@@ -28,6 +28,7 @@ Jessica Zosa Forde is a PhD candidate in Computer Science at Brown University, s
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 
@@ -36,6 +37,8 @@ Jessica Zosa Forde is a PhD candidate in Computer Science at Brown University, s
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

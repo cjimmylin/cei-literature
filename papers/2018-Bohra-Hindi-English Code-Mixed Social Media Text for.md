@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,10 +13,10 @@ key: EXSR0619
 type: conference_paper
 short_title: "Hindi-English Code-Mixed Social Media Text for"
 year: 2025
-first_author: "[[Bohra]]"
-last_author: "[[Bohra]]"
-authors: "[[Bohra]]"
-authors_incomplete: true
+first_author: "[[Bohra, Aditya]]"
+last_author: "[[Shrivastava, Manish]]"
+authors: "[[Bohra, Aditya]]; [[Vijay, Deepanshu]]; [[Singh, Vinay]]; [[Akhtar, Syed Sarfaraz]]; [[Shrivastava, Manish]]"
+authors_incomplete: false
 url: "https://aclanthology.org/W18-1105/"
 external_pdf: "https://aclanthology.org/W18-1105.pdf"
 pdf_extract: "PDF Extracts/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md"
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -46,11 +48,11 @@ DATA_URL: "https://github.com/deepanshu1995/HateSpeech-Hindi-English-Code-Mixed-
 
 ## Authors
 
-[[Bohra]]
+[[Bohra, Aditya]], [[Vijay, Deepanshu]], [[Singh, Vinay]], [[Akhtar, Syed Sarfaraz]], [[Shrivastava, Manish]]
 
 ## Metadata
 
-**Authors:** Bohra; and others
+**Authors:** Bohra, Aditya; Vijay, Deepanshu; Singh, Vinay; Akhtar, Syed Sarfaraz; Shrivastava, Manish
 
 **Year:** 2018
 

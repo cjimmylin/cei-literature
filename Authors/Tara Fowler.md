@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: pascalefung@meta.com
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: pascalefung@meta.com
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk

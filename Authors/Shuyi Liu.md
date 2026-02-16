@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for|JailBench: A Comprehensive Chinese Security Assessment Benchmark for Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for*: Affiliation: Laboratory of Trustworthy Distributed Computing and Service (MoE)
 - *From 2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for*: Affiliation: Laboratory of Trustworthy Distributed Computing and Service (MoE)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

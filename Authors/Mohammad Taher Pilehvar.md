@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian|PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian]] (Last Author)
 - [[2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate|Spanning the Spectrum of Hatred Detection: A Persian Multi-Label Hate Speech Dataset with Annotator Rationales (Phate)]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: z.delbari@khatam.ac.ir
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: pilehvarmt@cardiff.ac.uk
 - *From 2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate*: Affiliation: Label Hate - PDF Extract", Email: z.delbari@khatam.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "http://arxiv.org/abs/2204.12000"
 external_pdf: "http://arxiv.org/pdf/2204.12000.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2, GPT-3, GPT-3.5, Llama, XLNet"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Estimating the Personality of White-Box Language Models
 

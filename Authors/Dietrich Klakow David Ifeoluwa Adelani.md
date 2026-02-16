@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Klakow-Charting the Landscape of African NLP|Charting the Landscape of African NLP]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Klakow-Charting the Landscape of African NLP*: Affiliation: labi1 Michael A, Email: mhedderich@cis.lmu.de
 - *From 2025-Klakow-Charting the Landscape of African NLP*: Affiliation: labi1 Michael A, Email: mhedderich@cis.lmu.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

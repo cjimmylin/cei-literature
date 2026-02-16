@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New|Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New*: Affiliation: University of S˜ao Carlos, Email: k.bontcheva@sheffield.ac.uk
 - *From 2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New*: Affiliation: University of S˜ao Carlos, Email: c.scarton@sheffield.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

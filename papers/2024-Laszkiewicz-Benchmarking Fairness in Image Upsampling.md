@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://facctconference.org/static/papers24/facct24-36.pdf"
 external_pdf: "https://facctconference.org/static/papers24/facct24-36.pdf"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

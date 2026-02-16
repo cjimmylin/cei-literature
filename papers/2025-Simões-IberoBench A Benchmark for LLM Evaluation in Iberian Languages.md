@@ -39,7 +39,7 @@ is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, BLOOM-1, BLOOM-7, Falcon-7B, Gemma, Llama, Llama 3, Llama-3, Mistral, Mistral-7B"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The current best practice to measure the performance of base Large Language Models is to establish a multi-task benchmark that covers a range of capabilities of interest. Currently, however, such benchmarks are only available in a few high-resource languages. To address this situation, we present IberoBench, a multilingual, multi-task benchmark for Iberian languages (i.e., Basque, Catalan, Galician, European Spanish and European Portuguese) built on the LM Evaluation Harness framework."
 research_topic: "Machine Learning"

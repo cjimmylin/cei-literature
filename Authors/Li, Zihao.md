@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across|Language Ranker: A Metric for Quantifying LLM Performance Across Languages]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yangfan@wfu.edu
 - *From 2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across*: Affiliation: Institute of Technology, 2University of Georgia, 3University of Minnesota at Twin Cities, Email: yucheng.shi@uga.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

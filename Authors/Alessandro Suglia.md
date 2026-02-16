@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Nikandrou-CROPE Evaluating In-Context Adaptation of Vision and Language Models|CROPE: Evaluating In-Context Adaptation of Vision and Language Models to Culture-Specific Concepts]] (Last Author)
 
 ## External Links & Profiles

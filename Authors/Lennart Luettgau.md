@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford

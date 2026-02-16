@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Large multimodal models (LMMs) have recently gained attention due to 
 data_description: "Multilingual benchmark"
 data_metrics: "8k samples; 14 languages; 15 categories"
 LLM_assessed: "ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3."
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Computer Vision & Multimodal"
 ---
 # ViMUL: A Culturally-diverse Multilingual Multimodal Video Benchmark & Model

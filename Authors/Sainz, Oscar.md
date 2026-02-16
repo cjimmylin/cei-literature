@@ -1,7 +1,7 @@
 ---
 name: "Sainz, Oscar"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Center - Ixa, University of the Basque Country UPV/EHU"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque|Latxa: An Open Language Model and Evaluation Suite for Basque]]]]
 
 - [[2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque|Latxa: An Open Language Model and Evaluation Suite for Basque]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

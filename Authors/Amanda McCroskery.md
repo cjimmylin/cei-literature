@@ -52,6 +52,7 @@ Amanda McCroskery is a Manager at Google DeepMind specializing in Social AI Poli
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -68,6 +69,8 @@ Amanda McCroskery is a Manager at Google DeepMind specializing in Social AI Poli
 
 
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

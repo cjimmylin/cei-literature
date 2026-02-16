@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Santurkar-Whose Opinions Do Language Models Reflect|Whose Opinions Do Language Models Reflect?]]
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu

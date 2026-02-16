@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and|GermanPartiesQA: Benchmarking LLMs for Political Alignment and Sycophancy]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and*: Affiliation: Center for Machine Learning & Technical University Munich
 - *From 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and*: Affiliation: Center for Machine Learning & Technical University Munich
 - *From 2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and*: Affiliation: Center for Machine Learning & Technical University Munich
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

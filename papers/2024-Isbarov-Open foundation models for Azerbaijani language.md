@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Azerbaijani"
+languages_list: "Azerbaijani"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "The emergence of multilingual large language models has enabled the d
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DeBERTa-Base, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Translation"
 ---
 # Open foundation models for Azerbaijani language

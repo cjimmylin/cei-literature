@@ -22,6 +22,7 @@ PhD student at KAIST (Korea Advanced Institute of Science and Technology) Social
 
 
 
+
 - [[2024-Kim-How Do Moral Emotions Shape Political|How Do Moral Emotions Shape Political]] (First Author)
 - [[2023-Kim-KOME|KOME]] (First Author)
 
@@ -30,6 +31,8 @@ PhD student at KAIST (Korea Advanced Institute of Science and Technology) Social
 
 
 
+
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr

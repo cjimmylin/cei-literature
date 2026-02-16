@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2024.nlp4science-1.13/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FN5EM9LT/2024 - The Moral Foundations Weibo Corpus.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -39,7 +41,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # The Moral Foundations Weibo Corpus
 

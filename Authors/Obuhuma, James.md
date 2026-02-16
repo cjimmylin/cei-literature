@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate|Swahili and Code-Switched English-Swahili Political Hate]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com
 - *From 2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate*: Affiliation: lable-Swahili and Code-Switched English-Swahili Political Hate", Email: nodhianbo@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

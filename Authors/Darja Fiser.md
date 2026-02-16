@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and|The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English]]
 - [[2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments|Datasets of Slovene and Croatian Moderated News Comments]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: tomaz.erjavec@ijs.si
 - *From 2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments*: Affiliation: Faculty of Arts, Email: darja.fiser@ff.uni
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

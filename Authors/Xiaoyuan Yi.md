@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values|MoVa: Towards Generalizable Classification of Human Morals and Values]]
 - [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value|AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment]]
 - [[2025-Jiang-Raising the Bar|Raising the Bar]]
@@ -36,6 +37,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn

@@ -35,6 +35,7 @@ Alice focuses on the problem of "Safetywashing"—where companies claim high saf
 
 
 
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
@@ -43,6 +44,8 @@ Alice focuses on the problem of "Safetywashing"—where companies claim high saf
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

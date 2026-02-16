@@ -1,9 +1,9 @@
 ---
 name: "Elnagar, Ashraf"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "ashraf@sharjah.ac.ae"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on|The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text]] (Last Author)]]
 
 - [[2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on|The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on Arabic Text]] (Last Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on*: Affiliation: Department of Computer Science, Email: ashraf@sharjah.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

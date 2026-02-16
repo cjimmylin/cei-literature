@@ -37,6 +37,7 @@ Guillaume Bied is a PhD researcher at Ghent University in Belgium. His research 
 
 
 
+
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
 
 ## Notes
@@ -44,6 +45,8 @@ Guillaume Bied is a PhD researcher at Ghent University in Belgium. His research 
 
 
 
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: tijl.debie@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be

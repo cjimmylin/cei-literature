@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Machlovi-GuardEval|GuardEval]]
 - [[2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a|Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach]] (Last Author)
 - [[2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate|BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts]] (Last Author)
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: mosahed32@student.sust.edu2
 - *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: saiful-cse@sust.edu3
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

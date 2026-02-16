@@ -49,6 +49,7 @@ Dr. Yan has received multiple Best Paper Awards from the Academy of Management. 
 
 
 
+
 - [[2025-Zhang-REVAL|REVAL]]
 - [[2024-Yan-M$^3$oralBench|M$^3$oralBench]] (First Author)
 
@@ -66,6 +67,8 @@ Dr. Yan has received multiple Best Paper Awards from the Academy of Management. 
 
 
 
+
+- *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 - *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 - *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn
 - *From 2024-Yan-M$^3$oralBench*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing Technology, Email: chenzhiyuan21@mails.ucas.ac.cn

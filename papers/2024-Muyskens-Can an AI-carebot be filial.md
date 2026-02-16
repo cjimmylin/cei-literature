@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Confuscian Virtue Ethics"
@@ -18,6 +19,7 @@ pdf_extract:
 local_pdf: N/A
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: "Chinese"
+languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
 moral_psychology: "Value Pluralism / Schwartz"

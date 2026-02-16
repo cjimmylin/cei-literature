@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Here are the web search results for \"transliterated text LLM evaluation safety bypass\": The search revealed several relevant research areas related to how LLMs handle transliterated text and safety mechanisms: Key Findings: Arabic Transliteration as a Safety Bypass Vector Research demonstrates that the use of Arabic chatspeak and transliteration could reveal LLM vulnerabilities that could be further exploited by adversaries. In one example, after mixing transliterated words with Arabi"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # The Hidden Flaw in LLM Safety: Translation as a Jailbreak - Welo Data

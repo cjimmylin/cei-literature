@@ -31,6 +31,7 @@ This research is particularly relevant to virtue ethics modeling, as maintaining
 
 
 
+
 - [[2024-Tu-CharacterEval|CharacterEval]] (First Author)
 
 ## Notes
@@ -38,6 +39,8 @@ This research is particularly relevant to virtue ethics modeling, as maintaining
 
 
 
+
+- *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: ruiyan@ruc.edu.cn
 - *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: ruiyan@ruc.edu.cn
 - *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: fansl@bupt.edu.cn
 - *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: fansl@bupt.edu.cn

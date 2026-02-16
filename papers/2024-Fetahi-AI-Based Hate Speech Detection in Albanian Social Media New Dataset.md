@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "mBERT, XLM-RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "This paper aims to advance AI-based hate speech (HS) detection in the Albanian language, which is resource-limited in natural language processing (NLP). Addressing the challenge of limited data, we developed a human-annotated dataset of over 11,000 comments, carefully curated from various Albanian social media platforms, containing a substantial number of HS instances. The dataset was annotated using a detailed two-layer taxonomy to capture the complex dimensions of HS."
 ethics_perspective: "Toxicity & Hate Speech"

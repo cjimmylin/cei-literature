@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, GPT-3, GPT-3.5 Turbo, GPT-4, GPT-4o, GPT-4o mini, Llama, Llama-3, LLaMA-3.1, LLaMA3, LLaMA3.1, LLaMA3.1., Qwen-2.5, Qwen2.5, Claude"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "LLMs are evolving into assistants that leverage tools, significantly expanding their capabilities but also introducing critical safety risks. Current models exhibit notable vulnerabilities, particularly in maintaining safety during multi-step tool interactions and in scenarios involving indirect harm. This paper introduces ToolSafety, a safety fine-tuning dataset designed to address these limitations."
 ethics_perspective: "AI Safety & Alignment"

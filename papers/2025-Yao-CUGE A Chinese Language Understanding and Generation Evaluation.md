@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "2 dataset"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Realizing general-purpose language intelligence has been a longstanding goal for natural language processing, where standard evaluation benchmarks play a fundamental and guiding role. We argue that for generalpurpose language intelligence evaluation, the benchmark itself needs to be comprehensive and systematic. To this end, we propose CUGE, a Chinese Language Understanding and Generation Evaluation benchmark with the following features: (1) Hierarchical benchmark framework, where datasets are..."
 research_topic: "Machine Learning"

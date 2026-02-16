@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://openreview.net/forum?id=11nZWTg0mS"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7KJT72S3/8903_Moral_High_Ground_A_text_.pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "Flan-T5, Falcon, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
 local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
 ---

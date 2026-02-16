@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Patel-Building Domain-Specific LLMs Faithful To The|Building Domain-Specific LLMs Faithful To The]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Patel-Building Domain-Specific LLMs Faithful To The*:, Email: shabaz.b.patel@gmail.com
 - *From 2023-Patel-Building Domain-Specific LLMs Faithful To The*:, Email: shabaz.b.patel@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

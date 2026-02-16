@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]]
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 - [[2023-Patel-Building Domain-Specific LLMs Faithful To The|Building Domain-Specific LLMs Faithful To The]] (Last Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Patel-Building Domain-Specific LLMs Faithful To The*:, Email: shabaz.b.patel@gmail.com
 - *From 2023-Patel-Building Domain-Specific LLMs Faithful To The*:, Email: shabaz.b.patel@gmail.com
 - *From 2023-Patel-Building Domain-Specific LLMs Faithful To The*:, Email: shabaz.b.patel@gmail.com
 - *From 2025-Sorensen-Value Profiles for Encoding Human Variation*: Affiliation: Department of Computer Science, University of Washington, Seattle, WA, USA, Email: tsor13@cs.washington.edu

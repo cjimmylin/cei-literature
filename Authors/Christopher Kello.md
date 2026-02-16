@@ -36,6 +36,7 @@ Dr. Christopher Kello is Professor and Department Chair of Cognitive & Informati
 
 
 
+
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
 ## External Links & Profiles
@@ -49,6 +50,8 @@ Dr. Christopher Kello is Professor and Department Chair of Cognitive & Informati
 
 
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: is2961@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: tomg@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu

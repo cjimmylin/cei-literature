@@ -23,6 +23,7 @@ Constitutional AI represents a significant approach to AI alignment where the mo
 
 
 
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## Notes
@@ -30,6 +31,8 @@ Constitutional AI represents a significant approach to AI alignment where the mo
 
 
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

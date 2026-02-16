@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2208.05545.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -42,7 +44,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "8 categories"
 LLM_assessed: "Llama-3, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # The Moral Foundations Reddit Corpus
 

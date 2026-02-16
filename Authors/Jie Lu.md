@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a|Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective]]
 - [[2024-Yanaka-JBBQ|JBBQ]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

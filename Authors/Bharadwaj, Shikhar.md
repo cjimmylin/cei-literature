@@ -1,7 +1,7 @@
 ---
 name: "Bharadwaj, Shikhar"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at www"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate|IndicGenBench A Multilingual Benchmark to Evaluate]]]]
 
 - [[2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate|IndicGenBench A Multilingual Benchmark to Evaluate]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate*: Affiliation: lable at www
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

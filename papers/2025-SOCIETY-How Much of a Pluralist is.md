@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -41,7 +43,7 @@ abstract: "This study introduces pluralism as a benchmark for evaluating generat
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3.5, Claude 3.5 Sonnet, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # How Much of a Pluralist is ChatGPT? A Comparative Study of Value Pluralism in Generative AI Chatbots

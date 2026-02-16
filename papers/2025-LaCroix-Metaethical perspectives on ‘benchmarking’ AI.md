@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://link.springer.com/10.1007/s43681-025-00703-x"
 external_pdf: "https://doi.org/10.1007/s43681-025-00703-x"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,9 +41,9 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md"
-local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.pdf]]"
+local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
 ---
 # Metaethical perspectives on ‘benchmarking’ AI ethics
 

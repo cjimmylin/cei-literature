@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ authors: "Eddie L Ungless; Nikolas Vitsakis; Zeerak Talat; James Garforth; Björ
 external_pdf: "file:///Users/jimmylin/Zotero/storage/X4AQDWVV/Ungless et al. - ETHICS WHITEPAPER Whitepaper on Ethical Research into Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"

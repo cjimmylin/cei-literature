@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in|UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings]] (Last Author)
 - [[2024-Tahir-Benchmarking Pre-trained Large Language Models Potential|Benchmarking Pre-trained Large Language Models Potential]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 - *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

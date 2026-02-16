@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate|Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and Hate Speech]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate*: Affiliation: School for Advanced Studies, Lucca, Italy, Email: serena.tardelli@iit.cnr.it
 - *From 2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate*: Affiliation: School for Advanced Studies, Lucca, Italy, Email: lorenzo.alvisi@iit.cnr.it
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

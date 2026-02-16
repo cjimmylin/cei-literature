@@ -27,6 +27,7 @@ Note: A researcher named Mohammad Nadeem also co-authored work on DevOps securit
 
 
 
+
 - [[2025-Nadeem-Ethical Decision-Making in Humans and Large|Ethical Decision-Making in Humans and Large]] (First Author)
 
 ## Notes
@@ -34,6 +35,8 @@ Note: A researcher named Mohammad Nadeem also co-authored work on DevOps securit
 
 
 
+
+- *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India
 - *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India
 - *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India
 - *From 2025-Nadeem-Ethical Decision-Making in Humans and Large*: Affiliation: Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India

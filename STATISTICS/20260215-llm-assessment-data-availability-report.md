@@ -1291,7 +1291,7 @@ Among papers with data URLs, classified by hosting platform:
 | 63 | [[2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models]] | BERT, RoBERTa |
 | 64 | [[2023-Trepczynski-Religion Theology and Philosophical Skills of]] | ChatGPT, Codex, Llama2, Llama2. |
 | 65 | [[2023-University-Harmful Communication Detection of Toxic Language and Threats on]] | CroSloEngual BERT |
-| 66 | [[2023-Unknown-Toxicity Posts and Hateful Comments Detection]] | BERT |
+| 66 | [[2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection]] | BERT |
 | 67 | [[2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT]] | ChatGPT, GPT-3, InstructGPT |
 | 68 | [[2023-Vida-Values, Ethics, Morals]] | BERT |
 | 69 | [[2023-Zhang-Heterogeneous Value Alignment Evaluation for]] | GPT-4, GPT-3.5, ChatGPT, Claude, Llama, Alpaca, Vicuna |
@@ -1384,7 +1384,7 @@ Among papers with data URLs, classified by hosting platform:
 | 156 | [[2024-Tahir-Benchmarking Pre-trained Large Language Models Potential]] | BERT, BLOOM, Bloomz, ChatGPT, GPT 3, GPT 3.5, GPT 2, GPT ... |
 | 157 | [[2024-Takemoto-The moral machine experiment on large language]] | GPT-3.5, GPT-4, PaLM-2, Llama-2 |
 | 158 | [[2024-University-Monitoring the Evolution of Antisemitic Discourse]] | BERT |
-| 159 | [[2024-Unknown-LIEA-BERT A Linguistically Enriched Framework for]] | BERT |
+| 159 | [[2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for]] | BERT |
 | 160 | [[2024-Vallor-The AI Mirror]] | ChatGPT, Gemini, Llama |
 | 161 | [[2024-Veitsman-Recent Advancements and Challenges of Turkic]] | BERT, GPT-4, Llama-2, RoBERTa |
 | 162 | [[2024-Wang-A Comprehensive Survey of LLM Alignment Techniques]] | Alpaca, BERT, ChatGPT, Claude, Claude-3, GPT-2, GPT-3, GP... |
@@ -1591,14 +1591,14 @@ Among papers with data URLs, classified by hosting platform:
 | 363 | [[2025-Trepczynski-AI as a Rational Theologian A]] | Bloom, ChatGPT, Codex, GPT-3, GPT-3.5, GPT-4, GPT-4o, Lla... |
 | 364 | [[2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment]] | GPT-4, DeepSeek |
 | 365 | [[2025-Umer-Sacred or Secular Religious Bias in]] | ChatGPT |
-| 366 | [[2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias]] | ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4... |
-| 367 | [[2025-Unknown-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.]] | ChatGPT, DeepSeek, GPT-4 |
-| 368 | [[2025-Unknown-Evaluation of Social Bias Classification Performance of LLMs Using]] | BERT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o |
-| 369 | [[2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical]] | GPT-4, GPT-3.5 |
-| 370 | [[2025-Unknown-On the Challenges of Bias Evaluation Under Multilingual ...]] | BERT |
+| 366 | [[2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias]] | ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4, GPT-4-Turbo, GPT-4... |
+| 367 | [[2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.]] | ChatGPT, DeepSeek, GPT-4 |
+| 368 | [[2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using]] | BERT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4o |
+| 369 | [[2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical]] | GPT-4, GPT-3.5 |
+| 370 | [[2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ...]] | BERT |
 | 371 | [[2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of]] | BERT, word2vec |
 | 372 | [[2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on]] | BERT, BLOOM, ChatGPT, CommandR, GPT-3, GPT-3.5, GPT-3.5 T... |
-| 373 | [[2025-Unknown-Understanding Asian Stereotyping and Bias in LLMs Flora Huang]] | BERT, Llama, Mistral |
+| 373 | [[2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang]] | BERT, Llama, Mistral |
 | 374 | [[2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech]] | ALBERT, BERT, DeepSeek 67B, ELECTRA, GPT 3, GPT 3.5 Turbo... |
 | 375 | [[2025-Varsha-From Phonemes to Meaning Evaluating Large]] | ChatGPT, Claude, Claude Sonnet, Claude., DeepSeek V3, Dee... |
 | 376 | [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning]] | GPT-4, Llama-3, DeepSeek, Qwen |
@@ -1633,7 +1633,7 @@ Among papers with data URLs, classified by hosting platform:
 | 405 | [[2025-Zhu-Steering Risk Preferences in Large Language]] | Gemma |
 | 406 | [[2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A]] | Llama2, Qwen2, Qwen2.5, Llama |
 | 407 | [[2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh]] | DeepSeek, Gemma-3, LLama-3.1, Llama, Llama-3, Llama-3.3, ... |
-| 408 | [[2025-[[Unknown]]-Mitigating Social Bias in English and]] | BERT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o-mini, ... |
+| 408 | [[2025-Khan-Mitigating Social Bias in English and]] | BERT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4o-mini, ... |
 | 409 | [[2025-approach-A Language model-based approach to sentiment classification of]] | BERT |
 | 410 | [[2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages]] | GPT4o, Gemma 2, Llama, Mistral Large |
 | 411 | [[2025-community-Setting Standards in Turkish NLP TR-MMLU]] | BERT, Claude, ELECTRA, GPT-4, Gemma, Llama, claude-3.5, c... |
@@ -1752,7 +1752,7 @@ Among papers with data URLs, classified by hosting platform:
 | 78 | [[2023-TheDevastator-HelpSteer A-i Alignment Dataset]] | https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignmen... |
 | 79 | [[2023-TheDevastator-OpenAssistant Conversations (OASST1)]] | https://www.kaggle.com/datasets/thedevastator/multilingual-conversa... |
 | 80 | [[2023-University-Antisemitism on Twitter A Dataset for]] | https://zenodo.org/records/7932888 |
-| 81 | [[2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
+| 81 | [[2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
 | 82 | [[2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models]] | https://emrecanacikgoz.github.io/Bridging-the-Bosphorus/ |
 | 83 | [[2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith]] | https://data.mendeley.com/datasets/gzprcr93zn/2 |
 | 84 | [[2024-Azerbaijan-Azerbaijani Toxicity Classifier]] | https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier |
@@ -1805,9 +1805,9 @@ Among papers with data URLs, classified by hosting platform:
 | 131 | [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of]] | https://huggingface.co/datasets/kyawyethu/MixCuBe |
 | 132 | [[2024-Toygar-Turkish Offensive Language Detection Dataset]] | https://huggingface.co/datasets/Toygar/turkish-offensive-language-d... |
 | 133 | [[2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian]] | https://github.com/DougTrajano/olid-br |
-| 134 | [[2024-Unknown-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding]] | https://huggingface.co/datasets/mair-lab/CulturalVQA |
-| 135 | [[2024-Unknown-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images]] | https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark |
-| 136 | [[2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset]] | https://huggingface.co/datasets/gender-bias-bengali/wonbias-complet... |
+| 134 | [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding]] | https://huggingface.co/datasets/mair-lab/CulturalVQA |
+| 135 | [[2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images]] | https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark |
+| 136 | [[2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset]] | https://huggingface.co/datasets/gender-bias-bengali/wonbias-complet... |
 | 137 | [[2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including]] | https://huggingface.co/Jacaranda/UlizaLlama |
 | 138 | [[2024-Vladimirova-FairJob]] | https://huggingface.co/datasets/criteo/FairJob |
 | 139 | [[2024-Wang-XSafety Multilingual Safety Benchmark]] | https://github.com/Jarviswang94/Multilingual_safety_benchmark |
@@ -1865,18 +1865,18 @@ Among papers with data URLs, classified by hosting platform:
 | 191 | [[2025-Schacht-Mapping Moral Reasoning Circuits]] | https://github.com/coairesearch/mapping_moral_reasoning.git |
 | 192 | [[2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment]] | https://huggingface.co/datasets/TUKE-KEMT/toxic-sk, https://hugging... |
 | 193 | [[2025-Topal-How do LLMs perform on Turkish A multi-faceted multi-prompt evaluation]] | https://huggingface.co/collections/Holmeister/turkish-llm-multi-pro... |
-| 194 | [[2025-Unknown-Generative Artificial Intelligence and Indigenous Knowledge Systems]] | https://lettersinhighenergyphysics.com/index.php/LHEP/article/downl... |
-| 195 | [[2025-Unknown-HuGME A Benchmark System for Evaluating Hungarian Generative Model]] | https://hugme.nytud.hu/ |
-| 196 | [[2025-Unknown-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust and https://huggingfa... |
-| 197 | [[2025-Unknown-LLM Ethics Benchmark A Three-Dimensional Assessment System for]] | https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark |
+| 194 | [[2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems]] | https://lettersinhighenergyphysics.com/index.php/LHEP/article/downl... |
+| 195 | [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model]] | https://hugme.nytud.hu/ |
+| 196 | [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust and https://huggingfa... |
+| 197 | [[2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for]] | https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark |
 | 198 | [[2025-Unknown-MIZAN A Persian LLM Leaderboard]] | https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard |
-| 199 | [[2025-Unknown-Multi-lingual HateSpeech Dataset]] | https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hates... |
+| 199 | [[2025-Moosa-Multi-lingual HateSpeech Dataset]] | https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hates... |
 | 200 | [[2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large]] | https://github.com/THUDM/AlignMMBench |
 | 201 | [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist]] | https://huggingface.co/datasets/Nethmi14/BuddhismEval |
 | 202 | [[2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist]] | https://huggingface.co/datasets/Nethmi14/BuddhismEval |
 | 203 | [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics]] | https://github.com/opendatalab/OpenHuEval |
 | 204 | [[2025-initiative-CatholicBench]] | https://www.catholicbench.com/ |
-| 205 | [[2025-initiative-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
+| 205 | [[2025-Gong-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
 | 206 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |
 | 207 | [[2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource]] | https://github.com/AthenaCore/AwesomeResponsibleAI |
 | 208 | [[2025-project-Kaku-Ora Zen Wisdom Diffused -- An]] | GitHub (code available); HuggingFace Spaces (model hosted) |

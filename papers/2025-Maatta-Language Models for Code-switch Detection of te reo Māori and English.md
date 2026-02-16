@@ -36,7 +36,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
 research_topic: "NLP & Representation Learning"

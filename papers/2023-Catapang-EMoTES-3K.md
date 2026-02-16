@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2023.nlp4dh-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5GQQWIXN/2023 - EMoTES-3K Emotion-based Morality in Tagalog and English Scenarios.pdf"
 national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
+languages_list: "English, Filipino"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "RoBERTa, Flan-T5"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
 local_pdf: [[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]
 ---

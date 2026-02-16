@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Sermsri-Debiasing Large Language Models in Thai|Debiasing Large Language Models in Thai]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th
 - *From 2025-Sermsri-Debiasing Large Language Models in Thai*: Affiliation: Laboratory, pioneering advanced, Email: 6532012521@student.chula.ac.th
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

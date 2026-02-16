@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
 cultures_nationalities_list: "African/Ubuntu, Ethiopian, Multicultural/Cross-cultural"
+languages_list: "Amharic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "With the growing emphasis on multilingual and cultural evaluation ben
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Gemma, Gemma 3, Gemma-3, GPT-4, Llama, Llama 3.1, Llama 3.2, Llama-3, gemma-2"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # AmharicStoryQA: A Multicultural Story Question Answering Benchmark in Amharic

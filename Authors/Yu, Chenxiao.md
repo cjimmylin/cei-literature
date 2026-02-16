@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Yu-Tracing Moral Foundations in LLMs|Tracing Moral Foundations in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Yu-Tracing Moral Foundations in LLMs*: Affiliation: Department of Computer Science, University of Southern California
 - *From 2026-Yu-Tracing Moral Foundations in LLMs*: Affiliation: Department of Computer Science, University of Southern California
 - *From 2026-Yu-Tracing Moral Foundations in LLMs*: Affiliation: Department of Computer Science, University of Southern California
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

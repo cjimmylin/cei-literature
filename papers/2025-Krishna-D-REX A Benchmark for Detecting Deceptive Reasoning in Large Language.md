@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, DeepSeek, Qwen, Grok"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models
 

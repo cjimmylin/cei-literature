@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -39,7 +41,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Grok, Llama, Qwen, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)
 

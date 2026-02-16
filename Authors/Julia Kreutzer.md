@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It]] (Last Author)
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures

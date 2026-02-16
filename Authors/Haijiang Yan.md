@@ -21,6 +21,7 @@ Haijiang Yan (also listed as Yan Haijiang in some publications) is a researcher 
 
 
 
+
 - [[2025-Zhu-Steering Risk Preferences in Large Language|Steering Risk Preferences in Large Language]]
 
 ## Links
@@ -33,6 +34,8 @@ Haijiang Yan (also listed as Yan Haijiang in some publications) is a researcher 
 
 
 
+
+- *From 2025-Zhu-Steering Risk Preferences in Large Language*: Affiliation: Department of Computer Science
 - *From 2025-Zhu-Steering Risk Preferences in Large Language*: Affiliation: Department of Computer Science
 - *From 2025-Zhu-Steering Risk Preferences in Large Language*: Affiliation: Department of Computer Science
 - *From 2025-Zhu-Steering Risk Preferences in Large Language*: Affiliation: Department of Computer Science

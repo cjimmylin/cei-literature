@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Large language models have been widely evaluated on tasks such as com
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-4, Gemma, Gemma-3, Gemma2, Gemma3, Llama, Llama 3, Llama-3.1, Llama-3.2, Llama-3.3, Llama3.3, Mistral, Mistral 3.1, Mistral- 3, Mistral-24B, Mistral-3.1-24B, Mistral-Small, Qwen2.5, Qwen3, GPT-3, mistral.ai"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # ParamBench: A Graduate-Level Benchmark for Evaluating LLMs in Hindi

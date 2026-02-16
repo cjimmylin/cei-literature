@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: s.schmergalunder@ufl.edu
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: andrewsmart@google.com
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: dmosaphir@sift.net
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: sfriedman@sift.net

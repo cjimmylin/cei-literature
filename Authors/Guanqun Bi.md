@@ -39,6 +39,7 @@ ToMBench is a systematic, automated, and original bilingual Theory of Mind (ToM)
 
 
 
+
 - [[2024-Chen-ToMBench|ToMBench]]
 
 ## Links
@@ -51,6 +52,8 @@ ToMBench is a systematic, automated, and original bilingual Theory of Mind (ToM)
 
 
 
+
+- *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn
 - *From 2024-Chen-ToMBench*: Affiliation: University of Hong Kong, Email: zhchen-nlp@mail.tsinghua.edu.cn

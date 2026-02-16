@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Claude, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # MIST: Moral Inference through Storytelling with Text and Images
 

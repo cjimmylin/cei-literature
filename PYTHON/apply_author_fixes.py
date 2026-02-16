@@ -47,8 +47,60 @@ from vault_config import (
     LOGS_DIR, RECYCLE_BIN_DIR, WORKSPACE_ROOT as WS_ROOT,
 )
 
-INPUT_JSON = LOGS_DIR / "20260208-unknown_authors_resolved.json"
+INPUT_JSON = LOGS_DIR / "20260216-unknown_authors_resolved.json"
 AUTHOR_TEMPLATE = AUTHORS_DIR / "TEMPLATE.md"
+
+
+def normalize_entry(entry: Dict) -> Dict:
+    """Convert Session-84 agent JSON format to script's expected format.
+
+    Agent produces:  {resolved: true, first_author: "Last, First", full_authors: "A; B; C", source: "web"}
+    Script expects:  {status: "resolved", resolved_authors: [...], first_author_surname: "Last",
+                      new_filename: "YYYY-Last-Title.md", resolution_source: "web"}
+    """
+    out = dict(entry)  # shallow copy
+
+    # Status
+    out["status"] = "resolved" if entry.get("resolved") else "unresolved"
+
+    # Resolution source
+    out["resolution_source"] = entry.get("source", "unknown")
+
+    # Authors list (split on "; ")
+    full_authors = entry.get("full_authors", "")
+    if "; " in full_authors:
+        out["resolved_authors"] = [a.strip() for a in full_authors.split("; ")]
+    elif full_authors:
+        out["resolved_authors"] = [full_authors.strip()]
+    else:
+        out["resolved_authors"] = []
+
+    # First author surname
+    first_author = entry.get("first_author", "")
+    if ", " in first_author:
+        # "Ramponi, Alan" → "Ramponi"
+        surname = first_author.split(",")[0].strip()
+    elif "(" in first_author:
+        # "Ministry of Industry and Information Technology (MIIT)" → "MIIT"
+        m = re.search(r'\(([^)]+)\)', first_author)
+        surname = m.group(1) if m else first_author.split()[0]
+    elif first_author:
+        # "Krutrim AI Team" → "Krutrim"
+        surname = first_author.split()[0]
+    else:
+        surname = "Unknown"
+    out["first_author_surname"] = surname
+
+    # Compute new_filename: replace author segment in YYYY-Author-Title.md
+    filename = entry["filename"]
+    parts = filename.split("-", 2)
+    if len(parts) >= 3:
+        year, _old_author, rest = parts
+        out["new_filename"] = f"{year}-{surname}-{rest}"
+    else:
+        out["new_filename"] = filename
+
+    return out
 
 
 # ============================================================
@@ -78,7 +130,7 @@ def update_yaml_frontmatter(content: str, paper_info: Dict) -> str:
     """
     Update YAML frontmatter fields for a resolved paper.
 
-    Updates: authors, first_author, local_pdf, pdf_extract
+    Updates: authors, first_author, last_author, authors_incomplete, local_pdf, pdf_extract
     """
     fm_match = re.match(r"---\n(.*?)\n---\n", content, re.DOTALL)
     if not fm_match:
@@ -89,7 +141,6 @@ def update_yaml_frontmatter(content: str, paper_info: Dict) -> str:
     old_filename = paper_info["filename"]
     new_filename = paper_info["new_filename"]
     authors = paper_info["resolved_authors"]
-    first_surname = paper_info["first_author_surname"]
     old_stem = old_filename.rsplit(".", 1)[0]
     new_stem = new_filename.rsplit(".", 1)[0]
 
@@ -97,33 +148,42 @@ def update_yaml_frontmatter(content: str, paper_info: Dict) -> str:
     authors_str = "; ".join(authors)
     frontmatter, _ = safe_replace_field(frontmatter, "authors", authors_str)
 
-    # 2. Update first_author (with wikilink)
-    first_author_full = authors[0] if authors else first_surname
-    # Match both quoted and unquoted, with or without wikilinks
-    fa_pattern = r'^first_author:\s*.*$'
-    fa_replacement = f'first_author: "[[{first_author_full}]]"'
-    frontmatter, count = re.subn(fa_pattern, fa_replacement, frontmatter, count=1, flags=re.MULTILINE)
-    if count == 0:
-        # Field doesn't exist — add it after authors line
-        frontmatter = re.sub(
-            r'^(authors:\s*.*)$',
-            rf'\1\nfirst_author: "[[{first_author_full}]]"',
-            frontmatter, count=1, flags=re.MULTILINE
-        )
+    # 2. Update first_author (with wikilink) — use JSON first_author directly
+    first_author_val = paper_info.get("first_author", "")
+    if first_author_val:
+        fa_safe = first_author_val.replace('"', "'")
+        fa_replacement = f'first_author: "[[{fa_safe}]]"'
+        fa_pattern = r'^first_author:\s*.*$'
+        frontmatter, count = re.subn(fa_pattern, fa_replacement, frontmatter, count=1, flags=re.MULTILINE)
+        if count == 0:
+            frontmatter = re.sub(
+                r'^(authors:\s*.*)$',
+                rf'\1\nfirst_author: "[[{fa_safe}]]"',
+                frontmatter, count=1, flags=re.MULTILINE
+            )
 
-    # 3. Update local_pdf reference (if filename changed)
-    if old_stem != new_stem:
-        frontmatter = frontmatter.replace(
-            f"[[PDFs/{old_stem}.pdf]]",
-            f"[[PDFs/{new_stem}.pdf]]"
-        )
+    # 3. Update last_author (with wikilink) — use JSON last_author directly
+    last_author_val = paper_info.get("last_author", "")
+    if last_author_val:
+        la_safe = last_author_val.replace('"', "'")
+        la_replacement = f'last_author: "[[{la_safe}]]"'
+        la_pattern = r'^last_author:\s*.*$'
+        frontmatter, count = re.subn(la_pattern, la_replacement, frontmatter, count=1, flags=re.MULTILINE)
+        if count == 0:
+            frontmatter = re.sub(
+                r'^(first_author:\s*.*)$',
+                rf'\1\nlast_author: "[[{la_safe}]]"',
+                frontmatter, count=1, flags=re.MULTILINE
+            )
 
-    # 4. Update pdf_extract reference (if filename changed)
+    # 4. Reset authors_incomplete to false
+    frontmatter, _ = safe_replace_field(frontmatter, "authors_incomplete", "false")
+
+    # 5. Update local_pdf and pdf_extract references (if filename changed)
+    #    Use stem replacement — stems like "2022-Unknown-Addressing Religious..." are unique
+    #    This handles year-based paths (PDFs/YYYY/stem.pdf) correctly
     if old_stem != new_stem:
-        frontmatter = frontmatter.replace(
-            f"PDF Extracts/{old_stem}.md",
-            f"PDF Extracts/{new_stem}.md"
-        )
+        frontmatter = frontmatter.replace(old_stem, new_stem)
 
     return f"---\n{frontmatter}\n---\n{body}"
 
@@ -193,7 +253,11 @@ def rename_paper_file(old_path: Path, new_filename: str, dry_run: bool) -> Optio
 # ============================================================
 
 def rename_pdf_files(old_stem: str, new_stem: str, dry_run: bool) -> int:
-    """Rename all PDF copies (main + framework subfolders). Returns count."""
+    """Rename all PDF copies (main + framework subfolders). Returns count.
+
+    Uses iterdir() instead of rglob() to avoid issues with glob
+    metacharacters like [ ] in filenames (e.g. '[[Unknown]]').
+    """
     if old_stem == new_stem:
         return 0
 
@@ -201,9 +265,14 @@ def rename_pdf_files(old_stem: str, new_stem: str, dry_run: bool) -> int:
     old_pdf_name = f"{old_stem}.pdf"
     new_pdf_name = f"{new_stem}.pdf"
 
-    # Search entire PDFS_DIR tree
-    for pdf_path in PDFS_DIR.rglob(old_pdf_name):
-        new_pdf_path = pdf_path.parent / new_pdf_name
+    # Iterate year subdirectories explicitly (avoids glob metachar issues)
+    for subdir in PDFS_DIR.iterdir():
+        if not subdir.is_dir():
+            continue
+        pdf_path = subdir / old_pdf_name
+        if not pdf_path.exists():
+            continue
+        new_pdf_path = subdir / new_pdf_name
         if new_pdf_path.exists():
             print(f"    WARNING: PDF collision at {new_pdf_path}")
             continue
@@ -214,6 +283,20 @@ def rename_pdf_files(old_stem: str, new_stem: str, dry_run: bool) -> int:
             print(f"    Renamed PDF: {pdf_path.relative_to(PDFS_DIR)} → {new_pdf_name}")
         count += 1
 
+    # Also check PDFS_DIR root (legacy flat layout)
+    root_pdf = PDFS_DIR / old_pdf_name
+    if root_pdf.exists():
+        new_root = PDFS_DIR / new_pdf_name
+        if new_root.exists():
+            print(f"    WARNING: PDF collision at {new_root}")
+        elif dry_run:
+            print(f"    [DRY] Rename PDF: {old_pdf_name} → {new_pdf_name}")
+            count += 1
+        else:
+            shutil.move(str(root_pdf), str(new_root))
+            print(f"    Renamed PDF: {old_pdf_name} → {new_pdf_name}")
+            count += 1
+
     return count
 
 
@@ -222,16 +305,35 @@ def rename_pdf_files(old_stem: str, new_stem: str, dry_run: bool) -> int:
 # ============================================================
 
 def rename_pdf_extract(old_stem: str, new_stem: str, dry_run: bool) -> bool:
-    """Rename PDF extract and update its internal references."""
+    """Rename PDF extract and update its internal references.
+
+    Searches year-based subdirectories (PDF Extracts/YYYY/) for the extract.
+    """
     if old_stem == new_stem:
         return False
 
-    old_extract = PDF_EXTRACTS_DIR / f"{old_stem}.md"
-    new_extract = PDF_EXTRACTS_DIR / f"{new_stem}.md"
+    # Search year subdirectories for the extract
+    old_extract = None
+    for subdir in PDF_EXTRACTS_DIR.iterdir():
+        if not subdir.is_dir():
+            continue
+        candidate = subdir / f"{old_stem}.md"
+        if candidate.exists():
+            old_extract = candidate
+            break
 
-    if not old_extract.exists():
-        print(f"    No extract found: {old_extract.name}")
+    # Fallback: check flat layout (legacy)
+    if old_extract is None:
+        flat = PDF_EXTRACTS_DIR / f"{old_stem}.md"
+        if flat.exists():
+            old_extract = flat
+
+    if old_extract is None:
+        print(f"    No extract found: {old_stem}.md")
         return False
+
+    # Place new extract in same directory as old
+    new_extract = old_extract.parent / f"{new_stem}.md"
 
     if new_extract.exists():
         print(f"    WARNING: Extract collision at {new_extract.name}")
@@ -242,14 +344,16 @@ def rename_pdf_extract(old_stem: str, new_stem: str, dry_run: bool) -> bool:
     content = content.replace(old_stem, new_stem)
 
     if dry_run:
-        print(f"    [DRY] Rename extract: {old_extract.name} → {new_extract.name}")
+        rel = old_extract.relative_to(PDF_EXTRACTS_DIR)
+        print(f"    [DRY] Rename extract: {rel} → {new_extract.name}")
     else:
         # Write updated content to new path
         new_extract.write_text(content, encoding="utf-8")
         # Move old to recycle bin
         recycle_dest = RECYCLE_BIN_DIR / f"extract_{old_extract.name}"
         shutil.move(str(old_extract), str(recycle_dest))
-        print(f"    Renamed extract: {old_extract.name} → {new_extract.name}")
+        rel = old_extract.relative_to(PDF_EXTRACTS_DIR)
+        print(f"    Renamed extract: {rel} → {new_extract.name}")
 
     return True
 
@@ -395,6 +499,9 @@ def main():
 
     with open(INPUT_JSON, "r", encoding="utf-8") as f:
         all_papers = json.load(f)
+
+    # Normalize agent JSON format to script's expected format
+    all_papers = [normalize_entry(p) for p in all_papers]
 
     # Filter to resolved papers only
     papers = [p for p in all_papers if p["status"] == "resolved"]

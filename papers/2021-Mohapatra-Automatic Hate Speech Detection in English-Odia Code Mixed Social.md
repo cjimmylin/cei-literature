@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "Glove, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Hate speech on social media may spread quickly through online users and subsequently, may even escalate into local vile violence and heinous crimes. This paper proposes a hate speech detection model by means of machine learning and text mining feature extraction techniques. In this study, the authors collected the hate speech of English-Odia code mixed data from a Facebook public page and manually organized them into three classes."
 ethics_perspective: "Toxicity & Hate Speech"

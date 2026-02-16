@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of|Localizing AI: Evaluating Open-Weight Language Models for Languages of Baltic States]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania
 - *From 2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of*: Affiliation: Faculty of Informatics, Vytautas Magnus University, Lithuania
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

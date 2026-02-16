@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://www.nature.com/articles/s41598-025-92399-6"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QL55WV8C/Joshi et al. - 2025 - Multimodal machine learning for deception detection using behavioral and physiological data.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

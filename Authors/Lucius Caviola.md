@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements|SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements]]
 - [[2025-Jotautaitė-Speciesism in AI|Speciesism in AI]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 - *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 - *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 - *From 2025-Jotautaitė-Speciesism in AI*: Affiliation: University of Cambridge

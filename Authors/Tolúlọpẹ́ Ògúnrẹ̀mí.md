@@ -23,6 +23,7 @@ Tolúlọpẹ́ Ògúnrẹ̀mí is a PhD student in the Stanford Computer Scienc
 
 
 
+
 - [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus|ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Tolúlọpẹ́ Ògúnrẹ̀mí is a PhD student in the Stanford Computer Scienc
 
 
 
+
+- *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: d.adelani@ucl.ac.uk
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: d.adelani@ucl.ac.uk
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: iroro@alumni.cmu.edu
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: project@yorubaname.com

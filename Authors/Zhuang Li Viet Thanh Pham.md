@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale|CultureInstruct: Curating Multi-Cultural Instructions at Scale]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale*: Affiliation: Department of Data Science & AI, Monash University, Australia, Email: thanh.pham1@monash.edu
 - *From 2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale*: Affiliation: Department of Data Science & AI, Monash University, Australia, Email: gholamreza.haffari@monash.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

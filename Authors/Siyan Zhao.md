@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Liu-The performances of the Chinese and U.S. Large Language Models on the|The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Liu-The performances of the Chinese and U.S. Large Language Models on the*: Affiliation: School of Physics and Information Technology, Shaanxi Normal University, Xi’an
 - *From 2026-Liu-The performances of the Chinese and U.S. Large Language Models on the*: Affiliation: School of Physics and Information Technology, Shaanxi Normal University, Xi’an
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

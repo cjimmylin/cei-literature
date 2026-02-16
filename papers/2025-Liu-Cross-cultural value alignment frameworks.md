@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ publication: arXiv
 ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Chinese, American, Western, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis
 

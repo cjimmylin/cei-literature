@@ -23,6 +23,7 @@ Jingxuan Li is affiliated with the University of California, Los Angeles (UCLA) 
 
 
 
+
 - [[2024-Li-Value-Spectrum|Value-Spectrum]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Jingxuan Li is affiliated with the University of California, Los Angeles (UCLA) 
 
 
 
+
+- *From 2024-Li-Value-Spectrum*: Affiliation: University of California, Los Angeles, Email: shengqi@lanl.gov
 - *From 2024-Li-Value-Spectrum*: Affiliation: University of California, Los Angeles, Email: ywu@stat.ucla.edu
 - *From 2024-Li-Value-Spectrum*: Affiliation: University of California, Los Angeles, Email: shengqi@lanl.gov
 - *From 2024-Li-Value-Spectrum*: Affiliation: University of California, Los Angeles, Email: ywu@stat.ucla.edu

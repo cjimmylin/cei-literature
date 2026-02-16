@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arab, Diverse Arab cultures, Pan-Arab, Various Arab countries"
-languages_list: 
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

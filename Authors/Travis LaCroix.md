@@ -23,6 +23,7 @@ Travis LaCroix is an Assistant Professor in the Department of Philosophy at Durh
 
 
 
+
 - [[2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI|Metaethical perspectives on 'benchmarking' AI]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Travis LaCroix is an Assistant Professor in the Department of Philosophy at Durh
 
 
 
+
+- *From 2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI*: Affiliation: University, Durham, UK, Email: travis.lacroix@durham.ac.uk
 - *From 2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI*: Affiliation: University, Durham, UK, Email: sasha.luccioni@huggingface.co
 - *From 2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI*: Affiliation: University, Durham, UK, Email: sasha.luccioni@huggingface.co
 - *From 2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI*: Affiliation: University, Durham, UK, Email: sasha.luccioni@huggingface.co

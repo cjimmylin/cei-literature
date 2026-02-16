@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
 - [[2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language|Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?]]
 - [[2023-Shen-Large Language Model Alignment|Large Language Model Alignment]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language*: Affiliation: School of New Media and Communication, Tianjin University, Tianjin, China
 - *From 2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language*: Affiliation: School of New Media and Communication, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China

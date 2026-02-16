@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Saito-Why We Build Local Large Language Models An Observational Analysis|Why We Build Local Large Language Models: An Observational Analysis from 35 Japanese and Multilingual LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Saito-Why We Build Local Large Language Models An Observational Analysis*: Affiliation: Institute of Science Tokyo, Email: hiroya.takamura@aist.go.jp
 - *From 2024-Saito-Why We Build Local Large Language Models An Observational Analysis*: Affiliation: Institute of Science Tokyo, Email: hiroya.takamura@aist.go.jp
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

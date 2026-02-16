@@ -35,6 +35,7 @@ Chris Pal is a Full Professor at Polytechnique Montréal and a core member of Mi
 
 
 
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]] (Last Author)
 
 ## External Links & Profiles
@@ -45,6 +46,8 @@ Chris Pal is a Full Professor at Polytechnique Montréal and a core member of Mi
 
 
 
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian|ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks]] (Last Author)
 - [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

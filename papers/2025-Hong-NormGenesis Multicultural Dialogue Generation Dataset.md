@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Korean"
+languages_list: "Chinese, English, Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "Social & Cultural Values"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-3, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # NormGenesis: Multicultural Dialogue Generation Dataset
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org

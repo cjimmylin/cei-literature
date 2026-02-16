@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Urdu, Pakistani"
+languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Recent advances in large language models (LLMs) have led to strong re
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falcon-h1, Gemma, Gemma-3, Gemma2, LLaMA-3.1, LLaMA-3.2, Llama, Mistral-7B, Mistral-NeMo, Phi-4, Phi-4-Mini, Qwen, Qwen R1, Qwen 3, Qwen-1.5B, Qwen-14B, Qwen-3, Qwen-7B, Qwen2.5"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 research_topic: "Machine Learning"
 ---

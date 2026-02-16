@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ abstract: "Large language models (LLMs) are increasingly deployed in consequenti
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Grok, DeepSeek, Llama-3, Phi, Gemma, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions
 

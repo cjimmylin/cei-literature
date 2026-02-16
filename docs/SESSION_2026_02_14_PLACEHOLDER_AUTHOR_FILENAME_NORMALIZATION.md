@@ -46,7 +46,7 @@ Artifacts:
 1. This migration has already been executed and committed (`9b649c7e`).
 2. The script is idempotent-safe in dry-run mode, but re-executing `--execute` after rename completion will operate on a much smaller residual token set.
 3. Remaining token-word filenames are title-text cases, not author-slot placeholder failures:
-   - `papers/2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md`
+   - `papers/2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram.md`
    - `papers/2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally.md`
 4. Canonical timeline and details are also recorded in:
    - `docs/SESSION_HISTORY.md` (Session 72)

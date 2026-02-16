@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language."
 research_topic: "Machine Translation"
 ---
 # Multilingual Sentiment Analysis with Data Augmentation: A Cross-Language Evaluation in French, German, and Japanese

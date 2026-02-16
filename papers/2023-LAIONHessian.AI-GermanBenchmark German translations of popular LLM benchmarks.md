@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, BLOOM, Mistral"
 DATA_URL: "https://huggingface.co/datasets/LeoLM/German_benchmark"
 tags: 
-abstract: 
+abstract: "Collection of popular English LLM benchmarks translated to German including MMLU-DE, hellaswag_de, arc_challenge_de, and truthful_qa_de. Developed as part of the LeoLM project by LAION and Hessian.AI."
 research_topic: "Other"
 ---
 # GermanBenchmark: German translations of popular LLM benchmarks

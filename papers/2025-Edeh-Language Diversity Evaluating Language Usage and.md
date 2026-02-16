@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Nigerian, Rwandan, Ethiopian"
+languages_list: "Amharic, Kinyarwanda, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ abstract: "This study examines the digital representation of African languages a
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "Llama 3.3"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Dialogue Systems"
 ---
 # Language Diversity: Evaluating Language Usage and AI Performance on African Languages in Digital Spaces

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Humanitarian organizations face a critical choice: invest in costly c
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, Claude, Claude Sonnet, Claude-Sonnet, DeepSeek, DeepSeek-V3, GPT-4, Llama, Llama-3, Mistral- 7B, Mistral-7B"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # Cross-Lingual Stability and Bias in Instruction-Tuned Language Models for Humanitarian NLP

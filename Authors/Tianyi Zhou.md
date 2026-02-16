@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Ki-Multiple LLM Agents Debate for Equitable Cultural|Multiple LLM Agents Debate for Equitable Cultural]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park

@@ -34,6 +34,7 @@ Cristina Bosco is an assistant professor of computer science at the University o
 
 
 
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2019-Basile-SemEval-2019 Task 5|SemEval-2019 Task 5]]
 - [[2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against|SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)]]
@@ -47,6 +48,8 @@ Cristina Bosco is an assistant professor of computer science at the University o
 
 
 
+
+- *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: gillesm.jacobs@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against*: Affiliation: Department of Translation, Interpreting and Communication – Ghent University, Email: firstname.lastname@ugent.be
 - *From 2019-Basile-SemEval-2019 Task 5*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia (Spain), Email: francisco.rangel@autoritas.es

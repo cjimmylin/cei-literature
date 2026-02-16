@@ -22,6 +22,7 @@ Louisa Conwill is a PhD student in the Department of Computer Science and Engine
 
 
 
+
 - [[2025-Conwill-Design Patterns for the Common Good|Design Patterns for the Common Good]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Louisa Conwill is a PhD student in the Department of Computer Science and Engine
 
 
 
+
+- *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: gajarsky@mimuw.edu.pl.
 - *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: michal.pilipczuk@mimuw.edu.pl.
 - *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: kristyna.pekarkova@mail.muni.cz.
 - *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: gajarsky@mimuw.edu.pl.

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jiang-Raising the Bar|Raising the Bar]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: xiaoyuanyi@microsoft.com
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn
 - *From 2026-Guey-BiasLab Multilingual Dual-Framing Framework*: Affiliation: Lab Multilingual Dual-Framing Framework - PDF Extract"
 - *From 2025-Jiang-Raising the Bar*: Affiliation: University of California, Los Angeles, Email: hua_wei@tongji.edu.cn

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]] (First Author)
 - [[2023-Ojo-AfroBench - How Good are LLMs on African Languages|AfroBench -- How Good are LLMs on African Languages?]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

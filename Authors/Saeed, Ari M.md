@@ -56,7 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks|Gender Bias Mitigation for Bangla Classification Tasks]] (Last Author)
+
 - [[2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language|Hate Speech Detection in Social Media for the Kurdish Language]] (First Author)
 
 ## External Links & Profiles

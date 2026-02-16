@@ -499,7 +499,7 @@ Among papers with data URLs, classified by hosting platform:
 | 79 | [[2023-Soemer-Antisemitic Messages A Guide to High-Quality]] | https://zenodo.org/records/7932888 |
 | 80 | [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic]] | https://github.com/aisingapore/BHASA |
 | 81 | [[2023-University-Antisemitism on Twitter A Dataset for]] | https://zenodo.org/records/7932888 |
-| 82 | [[2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
+| 82 | [[2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
 | 83 | [[2023-Yao-From Instructions to Intrinsic Human Values -- A]] | https://github.com/ValueCompass/Alignment-Goal-Survey |
 | 84 | [[2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese]] | https://github.com/baudzhou/WYWEB |
 | 85 | [[2023-team-SeaLLMs Large Language Models for Southeast]] | https://huggingface.co/SeaLLMs |
@@ -613,10 +613,10 @@ Among papers with data URLs, classified by hosting platform:
 | 193 | [[2025-Yu-TLUE A Tibetan Language Understanding Evaluation]] | https://github.com/Vicentvankor/TLUE |
 | 194 | [[2025-Zhang-Evaluating and Improving Cultural Awareness of]] | Not confirmed from search results |
 | 195 | [[2025-Zhao-WenyanGPT A Large Language Model for]] | Training data, instruction fine-tuning data, and WenyanBENCH public... |
-| 196 | [[2025-Unknown-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust and https://huggingfa... |
+| 196 | [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust and https://huggingfa... |
 | 197 | [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced]] | https://github.com/weihao1115/MMLU-ProX |
 | 198 | [[2025-initiative-CatholicBench]] | https://www.catholicbench.com/ |
-| 199 | [[2025-initiative-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
+| 199 | [[2025-Gong-Faith Respect and Moral Compass in]] | In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva) |
 | 200 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |
 | 201 | [[2025-project-Kaku-Ora Zen Wisdom Diffused -- An]] | GitHub (code available); HuggingFace Spaces (model hosted) |
 | 202 | [[2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...]] | https://github.com/CONE-MT/BenchMAX |

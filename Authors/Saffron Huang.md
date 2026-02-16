@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]] (First Author)
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: divya@cip.org
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: divya@cip.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

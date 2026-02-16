@@ -35,6 +35,7 @@ Christian Borgs is a Professor of Electrical Engineering and Computer Sciences (
 
 
 
+
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
 ## External Links & Profiles
@@ -45,6 +46,8 @@ Christian Borgs is a Professor of Electrical Engineering and Computer Sciences (
 
 
 
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn

@@ -23,6 +23,7 @@ Himabindu "Hima" Lakkaraju is an Assistant Professor of Business Administration 
 
 
 
+
 - [[2024-Han-MedSafetyBench|MedSafetyBench]] (Last Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Himabindu "Hima" Lakkaraju is an Assistant Professor of Business Administration 
 
 
 
+
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: hlakkaraju@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu

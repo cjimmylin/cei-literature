@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Claude, Llama, LLaMA1, Qwen-VL"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Compared to traditional sentiment analysis, which only considers text, multimodal sentiment analysis needs to consider emotional signals from multimodal sources simultaneously and is therefore more consistent with the way how humans process sentiment in real-world scenarios. It involves processing emotional information from various sources such as natural language, images, videos, audio, physiological signals, etc."
 research_topic: "Computer Vision & Multimodal"

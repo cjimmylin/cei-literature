@@ -23,6 +23,7 @@ Takumi Ohashi is an NLP researcher associated with Tokyo Institute of Technology
 
 
 
+
 - [[2024-Ohashi-Extended Japanese Commonsense Morality Dataset|Extended Japanese Commonsense Morality Dataset]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Takumi Ohashi is an NLP researcher associated with Tokyo Institute of Technology
 
 
 
+
+- *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: iyatomi@hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: takumi.ohashi.4g@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp

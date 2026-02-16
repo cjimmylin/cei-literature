@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT4-Turbo, Gpt4, Llama, Llama3, Mistral-AI, Mixtral, Mixtral-8x22bB, Mixtral-8x7B, Qwen-1.5, Qwen1.5, BERT, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "As safety remains a crucial concern throughout the development lifecycle of Large Language Models (LLMs), researchers and industrial practitioners have increasingly focused on safeguarding and aligning LLM behaviors with human preferences and ethical standards. LLMs, trained on extensive multilingual corpora, exhibit powerful generalization abilities across diverse languages and domains. However, current safety alignment practices predominantly focus on single-language scenarios, which leaves..."
 ethics_perspective: "AI Safety & Alignment"

@@ -56,7 +56,7 @@ Generated: 2026-02-14T07:45:38
   Why first: best available candidate for this paper
   Next step: Metadata-only namespace endpoint. Find linked repository/publisher page.
 
-- [ ] #10 `EXSR0559` `2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md`
+- [ ] #10 `EXSR0559` `2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md`
   URL: https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
   Host: `www.sciencedirect.com` | action=MANUAL_CHECK | probe=unknown | http= | conf=0
   Why first: best available candidate for this paper
@@ -74,7 +74,7 @@ Generated: 2026-02-14T07:45:38
   Why first: best available candidate for this paper
   Next step: Resource page. Find linked paper DOI/arXiv in model/dataset card.
 
-- [ ] #13 `EXSR0543` `2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md`
+- [ ] #13 `EXSR0543` `2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md`
   URL: https://www.mdpi.com/2673-2688/6/8/194
   Host: `www.mdpi.com` | action=MANUAL_CHECK | probe=unknown | http= | conf=0
   Why first: best available candidate for this paper

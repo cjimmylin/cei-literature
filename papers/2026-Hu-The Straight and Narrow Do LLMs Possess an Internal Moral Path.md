@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Claude-3.5, Claude-3.5-Sonnet, Llama-3, Llama-3.1, claude-3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and..."
 ethics_perspective: "AI Safety & Alignment"

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social|Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social*: Affiliation: University of London, Email: a.zubiaga@qmul.ac.uk
 - *From 2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social*: Affiliation: University of London, Email: a.zubiaga@qmul.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

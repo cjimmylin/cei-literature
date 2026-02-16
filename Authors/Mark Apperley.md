@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Trye-Harnessing Indigenous Tweets|Harnessing Indigenous Tweets]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 - *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 - *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz
 - *From 2022-Trye-Harnessing Indigenous Tweets*: Affiliation: lable at https://, Email: dtrye@waikato.ac.nz

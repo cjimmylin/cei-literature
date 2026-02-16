@@ -48,6 +48,7 @@ Her primary work, "The ethics of artificial intelligence, UNESCO and the African
 
 
 
+
 - [[2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020|DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020]] (First Author)
 
 ## External Links & Profiles
@@ -62,6 +63,8 @@ Her primary work, "The ethics of artificial intelligence, UNESCO and the African
 
 
 
+
+- *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for
 - *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for
 - *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for
 - *From 2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020*: Affiliation: University, Van Vollenhoven Institute for

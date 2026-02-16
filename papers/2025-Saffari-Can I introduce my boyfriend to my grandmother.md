@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2025.findings-naacl.337/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MJ364QQ4/Saffari et al. - Can I introduce my boyfriend to my grandmother Evaluating Large Language Models Capabilities on Ira.pdf"
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Iranian"
+languages_list: "English, Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

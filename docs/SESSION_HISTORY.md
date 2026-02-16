@@ -2,6 +2,82 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 85 (Feb 16, 2026) - Apply Author Fixes & PDF Download
+
+### Overview
+Applied the 70 resolved author fixes from Session 84's agent resolution: renamed papers, PDFs, and extracts; updated YAML frontmatter; created 250 new author profiles. Also downloaded 20 of the 74 discovered PDFs (54 blocked by bot protection).
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers YAML updated | 70 |
+| Papers renamed | 69 |
+| PDFs renamed | 31 |
+| Extracts renamed | 31 |
+| New author profiles | 250 |
+| PDFs downloaded | 20/74 |
+| PDFs bot-blocked | 54 (MDPI/ACM/IEEE/ScienceDirect) |
+| Validation | 2,002/2,002 pass, 0 errors |
+
+### Key Learnings
+- [PDF Processing] `rglob()` breaks on `[[Unknown]]` brackets (glob metacharacters) — use `iterdir()` for safety
+- [Workflows] Year-based PDF/extract paths need stem replacement not path-pattern matching for renames
+- [PDF Processing] Bot-blocked sources: MDPI (15), ACM (6), DOI.org (6), IEEE (4), ScienceDirect (4) — all return 403/HTML
+
+### Files Changed
+- papers/: 69 renamed (Unknown→resolved author), 70 YAML updated
+- Authors/: 250 new profiles created
+- PDF Extracts/: 31 renamed
+- logs/: 1 new (20260216-pdf_download_results.json)
+- PYTHON/: 1 new (download_discovered_pdfs.py)
+
+## Session 84 (Feb 16, 2026) - Benchmark Survey Round 3, Author Resolution, PDF Discovery & Complementary Enrichment
+
+### Overview
+Massive session split into two phases. Phase A: completed the benchmark deep-read survey (all 2,002 papers), resolved 70 unknown authors, discovered 74 new PDF URLs, and cleaned up 8 garbage author profiles. Phase B: fixed 44 broken/blank local_pdf fields, confirmed all 2,002 abstracts present, updated 5 report script date prefixes, and fixed DATA_URL formatting on 433 papers.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Benchmark survey completed | 2,002/2,002 (989 candidates, 49.4%) |
+| Survey Round 3 agents | 11 agents across 3 waves (5+5+1) |
+| Unknown authors resolved | 70/86 (16 remaining are institutional) |
+| PDF URLs discovered | 74 new (from 223 missing-PDF papers) |
+| Garbage author profiles cleaned | 8 moved to RECYCLE-BIN |
+| local_pdf fields fixed | 44 (29 blank→N/A, 9 quote fixes, 6 PDF renames) |
+| DATA_URL formatting fixed | 433 papers |
+| Report scripts updated | 5 (date prefixes → 20260216) |
+| Abstracts confirmed | 2,002/2,002 present |
+| New PYTHON scripts | 6 created |
+| Modified PYTHON scripts | 10 updated |
+| Author profiles changed | 8,922 (334 new, 8,588 modified, 3 deleted) |
+| Papers changed | 699 (69 new/renamed, 561 modified, 69 old deleted) |
+| PDF Extracts changed | 67 (31 new/renamed, 5 modified, 31 old deleted) |
+| Validation | 2,002/2,002 pass, 0 errors |
+
+### Key Learnings
+- [Workflows] 11-agent benchmark survey swarm completed 638 papers in 3 waves — stale agent data required freshness verification on partial results
+- [Data Quality] fix_local_pdf_fields.py handles 3 distinct failure modes (blank, quote mismatch, author name mismatch) in one pass with safe regex replacement — no parse/rebuild round-trip
+- [Author Management] LLM agents resolve unknown authors at ~81% success vs ~60% for regex scripts; PDF extract parsing + web search are the most productive strategies
+- [PDF Processing] Unpaywall is the top PDF discovery source (34 of 74 found), followed by direct URLs (10), web search (9), MDPI (8), Semantic Scholar (6), ACL (5)
+
+### Files Changed
+- papers/: 699 (69 renamed from Unknown→resolved author, 561 enriched, 69 old names deleted)
+- Authors/: 8,922 (334 new, 8,588 modified, 3 deleted)
+- PDF Extracts/: 67 (31 renamed, 5 modified, 31 old deleted)
+- PYTHON/: 16 (6 new scripts, 10 modified)
+- logs/: 21 (new benchmark_survey_round3_batches/, pdf_finder_agent)
+- STATISTICS/: 3 modified (report date updates)
+- docs/: 3 modified
+
+### New Scripts Created
+- `PYTHON/consolidate_incomplete_authors.py` — Consolidate author resolution agent outputs
+- `PYTHON/consolidate_language_lists.py` — Consolidate language list agent outputs
+- `PYTHON/fix_data_url_formatting.py` — Fix bare/unquoted DATA_URL values
+- `PYTHON/fix_local_pdf_fields.py` — Fix blank/broken local_pdf fields (3 categories)
+- `PYTHON/generate_incomplete_author_batches.py` — Generate batches for author resolution agents
+- `PYTHON/generate_language_list_batches.py` — Generate batches for language list agents
+
 ## Session 83 (Feb 16, 2026) - Culture/Nationality List Consolidation
 
 ### Overview
@@ -392,7 +468,7 @@ Implemented and executed a full placeholder-author filename normalization pass a
 
 ### Residual Notes
 - Two filenames still contain token words in the title text (not in author slot), so they are not unresolved author-slot placeholders:
-  - `papers/2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md`
+  - `papers/2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram.md`
   - `papers/2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally.md`
 
 ---

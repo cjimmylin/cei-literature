@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs|A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs*:, Email: heyjoonkim@europa.snu.ac.kr
 - *From 2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs*:, Email: seahn1021@snu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "Islam, Buddhism, Judaism, Hinduism"
 religious_values_list: "Islam, Buddhism, Judaism, Hinduism"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Emotions play important epistemological and cognitive roles in our li
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama3, Mistral-7b, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 ---
 # Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models

@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The paper describes the organization, goals, and results of the sEXism Identiﬁcation in Social neTworks (EXIST) challenge, a shared task proposed for the ﬁrst time at IberLEF 2021. EXIST 2021 proposes two challenges: sexism identiﬁcation and sexism categorization of tweets and gabs, both in Spanish and English. We have received a total of 70 runs for the sexism identiﬁcation task and 61 for the sexism categorization challenge, submitted by 31 diﬀerent teams from 11 countries."
 research_topic: "Bias & Fairness"

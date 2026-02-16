@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

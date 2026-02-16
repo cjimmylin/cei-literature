@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Yanaka-JBBQ|JBBQ]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

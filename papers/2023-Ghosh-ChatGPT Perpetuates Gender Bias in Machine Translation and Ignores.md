@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "In this multicultural age, language translation is one of the most performed tasks, and it is becoming increasingly AI-moderated and automated. As a novel AI system, ChatGPT claims to be proficient in such translation tasks and in this paper, we put that claim to the test. Specifically, we examine ChatGPT’s accuracy in translating between English and languages that exclusively use gender-neutral pronouns."
 ethics_perspective: "Bias & Fairness"

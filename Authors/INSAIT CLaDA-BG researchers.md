@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-researchers-Transformer-Based Language Models for Bulgarian|Transformer-Based Language Models for Bulgarian]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai
 - *From 2023-researchers-Transformer-Based Language Models for Bulgarian*: Affiliation: Institute of Information and Communication Technologies, Email: iva.marinova@identrics.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

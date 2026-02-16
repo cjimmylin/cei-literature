@@ -29,6 +29,7 @@ Ladish is a mentor for MATS (ML Alignment Theory Scholars), a fellowship program
 
 
 
+
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 
 ## Notable Contributions
@@ -43,6 +44,8 @@ Ladish is a mentor for MATS (ML Alignment Theory Scholars), a fellowship program
 
 
 
+
+- *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

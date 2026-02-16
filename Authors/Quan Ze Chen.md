@@ -25,6 +25,7 @@ Quan Ze Chen is affiliated with the University of Washington. His research inter
 
 
 
+
 - [[2023-Chen-Case Law Grounding|Case Law Grounding]] (First Author)
 - [[2023-Feng-Case Repositories|Case Repositories]]
 
@@ -33,6 +34,8 @@ Quan Ze Chen is affiliated with the University of Washington. His research inter
 
 
 
+
+- *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: cqz@cs.washington.edu
 - *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: axz@cs.washington.edu
 - *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: cqz@cs.washington.edu
 - *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: axz@cs.washington.edu

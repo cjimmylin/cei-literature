@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American, Hebrew/Israeli"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "English"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "We evaluated the performance of a large language model called ChatGPT
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT3"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # The Use of Large Language Models for Translating Buddhist Texts from Classical Chinese to Modern English: An Analysis and Evaluation with ChatGPT 4, ERNIE Bot 4, and Gemini Advanced

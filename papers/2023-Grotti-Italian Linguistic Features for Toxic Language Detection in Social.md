@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "PoliBERT, UmBERTo, bert-base-italian-xxl-uncased"
 DATA_URL: "https://github.com/musixmatchresearch/umberto"
 tags: 
-abstract: 
+abstract: "Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Italian Linguistic Features for Toxic Language Detection in Social Media

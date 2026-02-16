@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said|Measuring Political Bias in LLMs: What Is Said and How It Is Said]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said*: Affiliation: Centre for Artificial Intelligence Research (CAiRE), Email: yjbang@connect.ust.hk
 - *From 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said*: Affiliation: Centre for Artificial Intelligence Research (CAiRE), Email: yjbang@connect.ust.hk
 - *From 2024-Bang-Measuring Political Bias in LLMs What Is Said and How It Is Said*: Affiliation: Centre for Artificial Intelligence Research (CAiRE), Email: yjbang@connect.ust.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

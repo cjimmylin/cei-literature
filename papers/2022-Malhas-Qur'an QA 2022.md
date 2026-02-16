@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2022.osact-1.9/"
 external_pdf: "https://aclanthology.org/2022.osact-1.9.pdf"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

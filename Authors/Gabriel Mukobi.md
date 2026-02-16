@@ -37,6 +37,7 @@ He is affiliated with the Stanford Existential Risks Initiative (SERI) and Stanf
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
 
@@ -53,6 +54,8 @@ He is affiliated with the Stanford Existential Risks Initiative (SERI) and Stanf
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

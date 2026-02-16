@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification|KOTOX: A Korean Toxic Dataset for Deobfuscation and Detoxification]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification*: Affiliation: University, Seoul, Republic of Korea
 - *From 2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification*: Affiliation: University, Seoul, Republic of Korea
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

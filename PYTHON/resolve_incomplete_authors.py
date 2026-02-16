@@ -420,6 +420,20 @@ def resolve_paper(paper: Dict) -> Dict:
             return result
         time.sleep(CROSSREF_DELAY)
 
+    # --- Strategy 1.5: CrossRef with ACL-derived DOI ---
+    acl_doi = paper.get("acl_derived_doi", "")
+    if acl_doi and acl_doi != doi:
+        print(f"    [CrossRef/ACL] Querying derived DOI: {acl_doi} ...")
+        authors = fetch_crossref_authors(acl_doi)
+        if authors and len(authors) >= 2:
+            result["resolved_authors"] = authors
+            result["source"] = "crossref_acl"
+            result["status"] = "resolved"
+            print(f"    [CrossRef/ACL] Found {len(authors)} authors")
+            time.sleep(CROSSREF_DELAY)
+            return result
+        time.sleep(CROSSREF_DELAY)
+
     # --- Strategy 2: arXiv (if arXiv URL exists) ---
     arxiv_id = extract_arxiv_id(paper.get("url", ""))
     if not arxiv_id:
@@ -572,6 +586,114 @@ def save_log(log_map: Dict[str, Dict]):
 
 
 # =============================================================================
+# BATCH FILE LOADING (for parallel execution)
+# =============================================================================
+
+def load_papers_from_batch(batch_file: str) -> List[Dict]:
+    """Load papers from a batch JSON file instead of scanning all papers."""
+    batch_path = Path(batch_file)
+    if not batch_path.exists():
+        # Try relative to LOGS_DIR
+        batch_path = LOGS_DIR / batch_file
+    if not batch_path.exists():
+        print(f"ERROR: Batch file not found: {batch_file}")
+        sys.exit(1)
+
+    with open(batch_path, "r", encoding="utf-8") as f:
+        batch_entries = json.load(f)
+
+    papers = []
+    for entry in batch_entries:
+        paper_path = PAPERS_DIR / entry["filename"]
+        if not paper_path.exists():
+            print(f"  WARNING: Paper not found: {entry['filename']}")
+            continue
+
+        content = paper_path.read_text(encoding="utf-8")
+        if "authors_incomplete: true" not in content:
+            print(f"  SKIP: {entry['filename']} — already resolved")
+            continue
+
+        papers.append({
+            "filename": entry["filename"],
+            "path": str(paper_path),
+            "short_title": entry.get("short_title", ""),
+            "authors": extract_yaml_field(content, "authors"),
+            "first_author": entry.get("first_author", extract_yaml_field(content, "first_author")),
+            "last_author": extract_yaml_field(content, "last_author"),
+            "doi": entry.get("doi", ""),
+            "url": entry.get("url", ""),
+            "external_pdf": entry.get("external_pdf", ""),
+            "acl_derived_doi": entry.get("acl_derived_doi", ""),
+        })
+
+    print(f"Loaded {len(papers)} papers from batch file ({len(batch_entries)} entries)")
+    return papers
+
+
+# =============================================================================
+# FUZZY AUTHOR MATCHING
+# =============================================================================
+
+def levenshtein_distance(s1: str, s2: str) -> int:
+    """Compute Levenshtein edit distance between two strings."""
+    if len(s1) < len(s2):
+        return levenshtein_distance(s2, s1)
+    if len(s2) == 0:
+        return len(s1)
+
+    prev_row = list(range(len(s2) + 1))
+    for i, c1 in enumerate(s1):
+        curr_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            insertions = prev_row[j + 1] + 1
+            deletions = curr_row[j] + 1
+            substitutions = prev_row[j] + (c1 != c2)
+            curr_row.append(min(insertions, deletions, substitutions))
+        prev_row = curr_row
+    return prev_row[-1]
+
+
+def fuzzy_match_last_name(existing_last: str, resolved_authors: List[str]) -> bool:
+    """
+    Fuzzy matching for first-author validation.
+
+    Strategies:
+    1. Hyphen/space normalization (e.g. "García-López" matches "Garcia Lopez")
+    2. Substring containment (e.g. "Wang" matches "Wang-Chen")
+    3. Levenshtein distance ≤ 2 for names ≥ 4 chars (handles typos/transliterations)
+    """
+    existing_norm = re.sub(r'[-\s]', '', existing_last.lower()).strip('.')
+
+    for author in resolved_authors:
+        clean = clean_author_for_yaml(author).lower()
+        # Extract last name from the resolved author
+        if ',' in clean:
+            resolved_last = clean.split(',')[0].strip()
+        else:
+            parts = clean.split()
+            resolved_last = parts[-1] if parts else clean
+
+        resolved_norm = re.sub(r'[-\s]', '', resolved_last).strip('.')
+
+        # Strategy 1: normalized exact match
+        if existing_norm == resolved_norm:
+            return True
+
+        # Strategy 2: substring containment (either direction)
+        if len(existing_norm) >= 3 and len(resolved_norm) >= 3:
+            if existing_norm in resolved_norm or resolved_norm in existing_norm:
+                return True
+
+        # Strategy 3: Levenshtein distance ≤ 2 for longer names
+        if len(existing_norm) >= 4 and len(resolved_norm) >= 4:
+            if levenshtein_distance(existing_norm, resolved_norm) <= 2:
+                return True
+
+    return False
+
+
+# =============================================================================
 # MAIN
 # =============================================================================
 
@@ -580,16 +702,36 @@ def main():
     parser = argparse.ArgumentParser(description="Resolve incomplete author lists")
     parser.add_argument("--dry-run", action="store_true",
                         help="Show what would be changed without writing files")
+    parser.add_argument("--batch-file", type=str, default="",
+                        help="Path to batch JSON file (for parallel execution)")
+    parser.add_argument("--agent-id", type=str, default="",
+                        help="Agent identifier for log filename (e.g., '01')")
+    parser.add_argument("--relaxed-match", action="store_true",
+                        help="Use fuzzy first-author validation (edit distance)")
     args = parser.parse_args()
+
+    # Override OUTPUT_JSON when agent-id is provided
+    global OUTPUT_JSON
+    if args.agent_id:
+        OUTPUT_JSON = LOGS_DIR / f"{DATE_PREFIX}-incomplete_authors_agent_{args.agent_id}.json"
 
     print("=" * 80)
     print("RESOLVE INCOMPLETE AUTHOR LISTS")
     print(f"Date: {DATE_PREFIX}")
     print(f"Dry run: {args.dry_run}")
+    if args.batch_file:
+        print(f"Batch file: {args.batch_file}")
+    if args.agent_id:
+        print(f"Agent ID: {args.agent_id}")
+    if args.relaxed_match:
+        print(f"Relaxed matching: enabled")
     print("=" * 80)
 
-    # Step 1: Find all papers with authors_incomplete: true
-    papers = find_incomplete_papers()
+    # Step 1: Find papers — from batch file or by scanning
+    if args.batch_file:
+        papers = load_papers_from_batch(args.batch_file)
+    else:
+        papers = find_incomplete_papers()
     print(f"\nFound {len(papers)} papers with authors_incomplete: true")
 
     if not papers:
@@ -624,8 +766,11 @@ def main():
                     # Safety: validate first author matches before re-applying
                     if not validate_first_author_match(paper["first_author"],
                                                        prev["resolved_authors"]):
-                        print(f"    [RE-APPLY BLOCKED] First author mismatch — skipping")
-                        continue
+                        existing_last = extract_last_from_wikilink(paper["first_author"]).lower().strip('.')
+                        if not (args.relaxed_match and fuzzy_match_last_name(existing_last, prev["resolved_authors"])):
+                            print(f"    [RE-APPLY BLOCKED] First author mismatch — skipping")
+                            continue
+                        print(f"    [FUZZY RE-APPLY] Relaxed matching accepted")
                     print(f"    [RE-APPLY] File still has authors_incomplete: true, re-applying...")
                     success = apply_resolution(
                         Path(paper["path"]),
@@ -647,16 +792,21 @@ def main():
 
             # Safety: validate first author matches
             if not validate_first_author_match(paper["first_author"], authors):
-                print(f"    MISMATCH: Existing first_author '{paper['first_author']}' "
-                      f"not found in resolved list (first={authors[0]})")
-                print(f"    SKIPPED to avoid applying wrong authors")
-                result["status"] = "mismatch"
-                result["error"] = (f"First author mismatch: existing='{paper['first_author']}', "
-                                   f"resolved_first='{authors[0]}'")
-                log_map[filename] = result
-                save_log(log_map)
-                failed_count += 1
-                continue
+                # Try fuzzy matching if --relaxed-match is enabled
+                existing_last = extract_last_from_wikilink(paper["first_author"]).lower().strip('.')
+                if args.relaxed_match and fuzzy_match_last_name(existing_last, authors):
+                    print(f"    [FUZZY MATCH] Relaxed matching accepted: '{paper['first_author']}'")
+                else:
+                    print(f"    MISMATCH: Existing first_author '{paper['first_author']}' "
+                          f"not found in resolved list (first={authors[0]})")
+                    print(f"    SKIPPED to avoid applying wrong authors")
+                    result["status"] = "mismatch"
+                    result["error"] = (f"First author mismatch: existing='{paper['first_author']}', "
+                                       f"resolved_first='{authors[0]}'")
+                    log_map[filename] = result
+                    save_log(log_map)
+                    failed_count += 1
+                    continue
 
             resolved_count += 1
             print(f"    RESOLVED via {result['source']}: {len(authors)} authors")

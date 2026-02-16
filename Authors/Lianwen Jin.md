@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Jin-WenMind A Comprehensive Benchmark for Evaluating|WenMind A Comprehensive Benchmark for Evaluating]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: ly10061105@gmail.com
 - *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: ly10061105@gmail.com
 - *From 2024-Jin-WenMind A Comprehensive Benchmark for Evaluating*: Affiliation: University of Technology, Email: yongxin_shi@foxmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -35,7 +35,7 @@ is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: BERT
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "We present the GermEval 2021 shared task on the identiﬁcation of toxic, engaging, and factclaiming comments. This shared task comprises three binary classiﬁcation subtasks with the goal to identify: toxic comments, engaging comments, and comments that include indications of a need for fact-checking, here referred to as fact-claiming comments. Building on the two previous GermEval shared tasks on the identiﬁcation of offensive language in 2018 and 2019, we extend this year’s task deﬁnition to..."
 ethics_perspective: "Toxicity & Hate Speech"

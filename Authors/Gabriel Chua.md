@@ -29,6 +29,7 @@ His work has been featured at venues including AAAI 2026, ICML 2025, and ICLR 20
 
 
 
+
 - [[2025-Chua-RabakBench|RabakBench]] (First Author)
 
 ## External Links
@@ -42,6 +43,8 @@ His work has been featured at venues including AAAI 2026, ICML 2025, and ICLR 20
 
 
 
+
+- *From 2025-Chua-RabakBench*: Affiliation: University of Technology and Design
 - *From 2025-Chua-RabakBench*: Affiliation: University of Technology and Design
 - *From 2025-Chua-RabakBench*: Affiliation: University of Technology and Design
 - *From 2025-Chua-RabakBench*: Affiliation: University of Technology and Design

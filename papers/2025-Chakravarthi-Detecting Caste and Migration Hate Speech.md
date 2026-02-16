@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "English, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -39,7 +41,7 @@ abstract: "The Indian constitution categorizes its population into groups such a
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Caste and Migration Hate Speech in Low-Resource Tamil Language

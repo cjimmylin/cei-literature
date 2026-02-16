@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GloVE, Llama, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives."
 ethics_perspective: "Moral Reasoning & Psychology"

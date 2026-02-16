@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Tamil, Indian"
+languages_list: "Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Large Language Models (LLMs) have shown strong generalization across 
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude Sonnet, Claude., DeepSeek V3, DeepSeek-V3, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4-Turbo, GPT-4o, Grok 4, LLaMA 4, Qwen, Qwen 2.5, claude-sonnet"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # From Phonemes to Meaning: Evaluating Large Language Models on Tamil

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2507.05980.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Singaporean"
 cultures_nationalities_list: "Singaporean, Chinese, Malay, Tamil"
+languages_list: "Chinese, English, Malay, Singlish, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

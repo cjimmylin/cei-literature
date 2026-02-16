@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-team-Albertina Advancing Neural Encoding of Portuguese|Albertina: Advancing Neural Encoding of Portuguese]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon
 - *From 2023-team-Albertina Advancing Neural Encoding of Portuguese*: Affiliation: University of Lisbon
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

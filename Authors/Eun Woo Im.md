@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-VidHalluc|VidHalluc]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-VidHalluc*: Affiliation: lable at https://people-
 - *From 2025-Liu-VidHalluc*: Affiliation: lable at https://people-
 - *From 2025-Liu-VidHalluc*: Affiliation: lable at https://people-
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

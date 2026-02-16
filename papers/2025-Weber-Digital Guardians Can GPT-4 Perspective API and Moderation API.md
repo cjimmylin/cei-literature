@@ -36,7 +36,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4o
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "In recent years, toxic content and hate speech have become widespread phenomena on the internet. Moderators of online newspapers and forums are now required, partly due to legal regulations, to carefully review and, if necessary, delete reader comments. This is a labor-intensive process. Some providers of large language models already offer solutions for automated hate speech detection or the identification of toxic content."
 ethics_perspective: "Toxicity & Hate Speech"

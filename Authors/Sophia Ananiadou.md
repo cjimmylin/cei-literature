@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural|Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu
 - *From 2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural*: Affiliation: Department of Computer Science, National Center for Text Mining, Email: ajwadabrar@iut-dhaka.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

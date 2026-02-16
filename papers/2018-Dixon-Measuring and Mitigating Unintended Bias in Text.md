@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://dl.acm.org/doi/10.1145/3278721.3278729"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7UNGXMSM/Dixon et al. - 2018 - Measuring and Mitigating Unintended Bias in Text Classification.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

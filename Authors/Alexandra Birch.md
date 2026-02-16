@@ -35,12 +35,15 @@ In addition to her work on translation, Professor Birch is a leading voice in AI
 
 
 
+
 - [[2024-Ungless-ETHICS WHITEPAPER|ETHICS WHITEPAPER]] (Last Author)
 
 ## Notes
 
 
 
+
+- *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk
 - *From 2024-Ungless-ETHICS WHITEPAPER*: Affiliation: University of Edinburgh 2Heriot-Watt University, Email: a.birch@ed.ac.uk

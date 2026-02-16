@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Sorensen-A Roadmap to Pluralistic Alignment*: Affiliation: Department of Computer Science, University of Washing-, Email: tsor13@cs.washington.edu
 - *From 2024-Sorensen-A Roadmap to Pluralistic Alignment*: Affiliation: Department of Computer Science, University of Washing-, Email: tsor13@cs.washington.edu
 - *From 2024-Sorensen-A Roadmap to Pluralistic Alignment*: Affiliation: Department of Computer Science, University of Washing-, Email: yejin@cs.washington.edu
 - *From 2024-Sorensen-A Roadmap to Pluralistic Alignment*: Affiliation: Department of Computer Science, University of Washing-, Email: tsor13@cs.washington.edu

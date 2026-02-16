@@ -85,7 +85,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Open landing page and locate canonical PDF link.
 - Next step: Metadata-only namespace endpoint. Find linked repository/publisher page.
 
-## #10 `EXSR0559` `2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md`
+## #10 `EXSR0559` `2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md`
 - URL: https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
 - Host: `www.sciencedirect.com`
 - Reason to prioritize: best available candidate for this paper
@@ -111,7 +111,7 @@ Execute in order. For each item: open URL in browser, download verified PDF, the
 - Manual focus: Landing/resource page returned HTML. Extract actual PDF link from page and retry.
 - Next step: Resource page. Find linked paper DOI/arXiv in model/dataset card.
 
-## #13 `EXSR0543` `2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md`
+## #13 `EXSR0543` `2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md`
 - URL: https://www.mdpi.com/2673-2688/6/8/194
 - Host: `www.mdpi.com`
 - Reason to prioritize: best available candidate for this paper

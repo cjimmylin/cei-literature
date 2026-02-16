@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in|VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 - *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 - *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 - *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr

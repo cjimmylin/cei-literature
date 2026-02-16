@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in|The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

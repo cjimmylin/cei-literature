@@ -19,12 +19,15 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical|DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures]] (First Author)
 
 ## Notes
 
 
 
+
+- *From 2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical*: Affiliation: School of Information, University of Michigan, Email: agrima@umich.edu
 - *From 2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical*: Affiliation: School of Information, University of Michigan, Email: agrima@umich.edu
 - *From 2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical*: Affiliation: School of Information, University of Michigan, Email: agrima@umich.edu
 [Additional context or contact information]

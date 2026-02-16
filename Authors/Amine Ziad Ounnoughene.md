@@ -22,6 +22,7 @@ Amine Ziad Ounnoughene is a researcher working on Arabic natural language proces
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
@@ -29,6 +30,8 @@ Amine Ziad Ounnoughene is a researcher working on Arabic natural language proces
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

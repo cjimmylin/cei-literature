@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University

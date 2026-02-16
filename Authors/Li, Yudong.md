@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese|LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 - *From 2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese*: Affiliation: University, 2Beijing University of Posts and Telecommunications
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

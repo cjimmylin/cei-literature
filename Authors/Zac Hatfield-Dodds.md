@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
@@ -33,6 +34,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com

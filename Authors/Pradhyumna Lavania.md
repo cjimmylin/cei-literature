@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]]
 - [[2023-Dwivedi-EtiCor|EtiCor]]
 - [[2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes|EtiCor: Corpus for Analyzing LLMs for Etiquettes]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in

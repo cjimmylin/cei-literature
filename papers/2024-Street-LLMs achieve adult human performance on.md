@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://arxiv.org/abs/2405.18870"
 external_pdf: "https://arxiv.org/pdf/2405.18870.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LaMDA, PaLM, Flan-PaLM"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # LLMs achieve adult human performance on higher-order theory of mind tasks
 

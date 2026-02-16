@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Bartz, Claude 3 Opus, GPT-4, GPT4"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Can We Trust AI Benchmarks? An Interdisciplinary Review
 

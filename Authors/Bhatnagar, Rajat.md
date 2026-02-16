@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Mager-Neural Machine Translation for the Indigenous Languages of the|Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction.]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

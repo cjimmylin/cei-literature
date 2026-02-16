@@ -49,6 +49,7 @@ Fitzgerald has provided critical analyses of ethics models like Delphi, identify
 
 
 
+
 - [[2024-Fitzgerald-Some Issues in Predictive Ethics Modeling|Some Issues in Predictive Ethics Modeling]] (First Author)
 
 ## External Links & Profiles
@@ -61,6 +62,8 @@ Fitzgerald has provided critical analyses of ethics models like Delphi, identify
 
 
 
+
+- *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬
 - *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬
 - *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬
 - *From 2024-Fitzgerald-Some Issues in Predictive Ethics Modeling*: Affiliation: College‬‭1‬

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ external_pdf: "http://arxiv.org/pdf/2402.05070.pdf"
 publication: "International Conference on Machine Learning"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -44,7 +46,7 @@ is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "Alpaca, GPT-3, GPT3, Gemma, Llama, LLaMA2, LLaMA2., gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # A Roadmap to Pluralistic Alignment
 

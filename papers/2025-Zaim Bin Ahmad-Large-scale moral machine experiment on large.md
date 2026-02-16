@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/D7GUWN8N/Zaim Bin Ahmad and
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"

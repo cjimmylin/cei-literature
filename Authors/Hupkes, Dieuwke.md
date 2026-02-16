@@ -1,7 +1,7 @@
 ---
 name: "Hupkes, Dieuwke"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
-- [[2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark|MultiLoKo A Multilingual Local Knowledge Benchmark]] (First Author)]]
 
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark|MultiLoKo A Multilingual Local Knowledge Benchmark]] (First Author)
@@ -85,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -50,6 +50,7 @@ As a MATS fellow, Alan has contributed to the theoretical development of AI alig
 
 
 
+
 - [[2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs|Made-in China, Thinking in America: U.S. Values Persist in Chinese LLMs]] (Last Author)
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
@@ -70,6 +71,8 @@ As a MATS fellow, Alan has contributed to the theoretical development of AI alig
 
 
 
+
+- *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com
 - *From 2024-Anwar-Foundational Challenges in Assuring Alignment and*: Affiliation: University of Cambridge 2New York University 3ETH Zurich 4UNC Chapel Hill, Email: usmananwar391@gmail.com

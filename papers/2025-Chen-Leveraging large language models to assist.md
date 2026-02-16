@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ url: "https://www.nature.com/articles/s41599-025-04657-7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PYP5EUPP/Chen et al. - 2025 - Leveraging large language models to assist philosophical counseling prospective techniques, value,.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
 local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
 ---

@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Claude, GPT-4o, Llama, Llama-3, LLaMA-3.1, Llama3, Mistral, Mistral 7b, Mistral-7B, Qwen, Qwen-2.5, Qwen-3, Qwen2.5, Qwen3, GPT-4, llama-3."
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "With the increasing adoption of large language models (LLMs), ensuring their alignment with social norms has become a critical concern. While prior research has examined bias detection in various languages, there remains a significant gap in resources addressing social biases within Persian cultural contexts. In this work, we introduce PBBQ, a comprehensive benchmark dataset designed to evaluate social biases in Persian LLMs."
 ethics_perspective: "Bias & Fairness"

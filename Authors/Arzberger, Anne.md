@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Arzberger-Nothing Comes Without Its World|Nothing Comes Without Its World]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: a.bozzon@tudelft.nl
 - *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: a.bozzon@tudelft.nl
 - *From 2024-Arzberger-Nothing Comes Without Its World*: Affiliation: University of Technology, Email: j.yang-3@tudelft.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

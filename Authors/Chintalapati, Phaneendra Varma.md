@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative|Few-shot and zero-shot Assamese hate speech detection: a comparative benchmark of large language models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative*: Affiliation: labelled data and intensive fine-tuning, which, Email: krishna.pandey@jaipur.manipal.edu
 - *From 2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative*: Affiliation: labelled data and intensive fine-tuning, which, Email: chpvarmacse@svecw.edu.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

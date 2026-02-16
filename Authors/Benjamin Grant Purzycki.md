@@ -40,6 +40,7 @@ Purzycki co-authored the influential book "Religion Evolving: Cultural, Cognitiv
 
 
 
+
 - [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]] (First Author)
 - [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]] (First Author)
 
@@ -54,6 +55,8 @@ Purzycki co-authored the influential book "Religion Evolving: Cultural, Cognitiv
 
 
 
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology

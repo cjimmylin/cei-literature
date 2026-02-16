@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Seminal paper demonstrating that GPT-3 captures persistent Muslim-vio
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # Persistent Anti-Muslim Bias in Large Language Models

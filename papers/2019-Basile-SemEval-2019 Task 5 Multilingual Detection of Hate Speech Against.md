@@ -13,9 +13,9 @@ type: conferencePaper
 short_title: "SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)"
 year: 2025
 first_author: "[[Basile, Valerio]]"
-last_author: "[[Nozza, Debora]]"
-authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]"
-authors_incomplete: true
+last_author: "[[Sanguinetti, Manuela]]"
+authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]; [[Patti, Viviana]]; [[Pardo, Francisco Manuel Rangel]]; [[Rosso, Paolo]]; [[Sanguinetti, Manuela]]"
+authors_incomplete: false
 url: "https://aclanthology.org/S19-2007/"
 external_pdf: "https://aclanthology.org/S19-2077.pdf"
 publication: "ACL Anthology / SemEval 2019"
@@ -48,11 +48,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Valerio Basile|Basile, Valerio]], [[Cristina Bosco|Bosco, Cristina]], [[Elisabetta Fersini|Fersini, Elisabetta]], [[Debora Nozza|Nozza, Debora]]
+[[Basile, Valerio]], [[Bosco, Cristina]], [[Fersini, Elisabetta]], [[Nozza, Debora]], [[Patti, Viviana]], [[Pardo, Francisco Manuel Rangel]], [[Rosso, Paolo]], [[Sanguinetti, Manuela]]
 
 ## Metadata
 
-**Authors:** Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, et al.
+**Authors:** Basile, Valerio; Bosco, Cristina; Fersini, Elisabetta; Nozza, Debora; Patti, Viviana; Pardo, Francisco Manuel Rangel; Rosso, Paolo; Sanguinetti, Manuela
 
 **Year:** 2019
 

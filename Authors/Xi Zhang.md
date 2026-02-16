@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for|JailBench: A Comprehensive Chinese Security Assessment Benchmark for Large Language Models]] (Last Author)
 - [[2025-Liu-The Scales of Justitia|The Scales of Justitia]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for*: Affiliation: Laboratory of Trustworthy Distributed Computing and Service (MoE)
 - *From 2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for*: Affiliation: Laboratory of Trustworthy Distributed Computing and Service (MoE)
 - *From 2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for*: Affiliation: Laboratory of Trustworthy Distributed Computing and Service (MoE)
 - *From 2025-Liu-The Scales of Justitia*: Affiliation: School of Cyberspace Security, Bei-, Email: liusyang@bupt.edu.cn

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]] (Last Author)
 - [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 - *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

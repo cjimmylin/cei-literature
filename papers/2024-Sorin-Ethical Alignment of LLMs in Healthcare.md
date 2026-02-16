@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.ful
 publication: medRxiv
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
 # Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach?

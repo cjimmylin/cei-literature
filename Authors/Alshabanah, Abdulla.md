@@ -1,7 +1,7 @@
 ---
 name: "Alshabanah, Abdulla"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Southern California"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...|Mind the Dialect: NLP Advancements Uncover Fairness ...]] (First Author)]]
 
 - [[2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...|Mind the Dialect: NLP Advancements Uncover Fairness ...]] (First Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

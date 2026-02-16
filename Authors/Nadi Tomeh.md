@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating|FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe
 - *From 2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating*: Affiliation: LABS Europe
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

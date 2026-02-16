@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indigenous Australian"
+languages_list: ""
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -40,7 +42,7 @@ abstract: "As AI technologies are increasingly deployed in work, welfare, health
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Falconer"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: Other
 ---
 # The Five Tests: Designing and Evaluating AI According to Indigenous Maori Principles

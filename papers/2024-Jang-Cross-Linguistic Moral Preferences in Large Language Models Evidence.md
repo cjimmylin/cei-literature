@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Investigates language-dependent preferences in distributive justice scenarios. Finds 9-56 percentage point gaps across languages with complete preference reversals. Domain persona injection reduces cross-linguistic inconsistencies by 62.7%."
 ethics_perspective: "General Ethics"
 ---
 # Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions

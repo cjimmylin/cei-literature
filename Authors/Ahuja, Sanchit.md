@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages|MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks]] (First Author)]]
 
 - [[2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages|MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks]] (First Author)
 

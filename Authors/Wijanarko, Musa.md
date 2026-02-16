@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity|A Multi-Labeled Dataset for Indonesian Discourse: Examining Toxicity, Polarization, and Demographics Information]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
 - *From 2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity*: Affiliation: Labeled Dataset for Indonesian Discourse Examining Toxicity - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

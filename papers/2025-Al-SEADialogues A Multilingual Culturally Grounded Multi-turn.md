@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indonesian, Thai, Vietnamese, Filipino, Malaysian, Burmese"
+languages_list: "Indonesian, Javanese, Malay, Minangkabau, Tagalog, Tamil, Thai, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Although numerous datasets have been developed to support dialogue sy
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o mini, Llama, Llama-3.1, Qwen-14B"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Translation"
 ---
 # SEADialogues: A Multilingual Culturally Grounded Multi-turn Dialogue Dataset on Southeast Asian Languages

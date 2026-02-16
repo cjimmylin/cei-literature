@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2502.18685.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: GPT-4
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Speaking the Right Language: The Impact of Expertise Alignment in User-AI Interactions
 

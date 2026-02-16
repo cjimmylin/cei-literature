@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset|AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration]] (First Author)
 
 ## External Links & Profiles

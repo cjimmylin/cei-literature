@@ -48,6 +48,7 @@ He has co-authored multiple technical reports for the Qwen series, including Qwe
 
 
 
+
 - [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]] (First Author)
 - [[2023-Li-BIRD|BIRD]]
 - [[2023-Li-Can LLM Already Serve as A Database Interface|Can LLM Already Serve as A Database Interface?]]
@@ -67,6 +68,8 @@ He has co-authored multiple technical reports for the Qwen series, including Qwe
 
 
 
+
+- *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: binyuan.hby@alibaba-inc.com
 - *From 2023-Li-BIRD*: Affiliation: University of Hong Kong 2 DAMO Academy, Alibaba Group, Email: ckcheng@cs.hku.hk

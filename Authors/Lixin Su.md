@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: liuh@ust.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

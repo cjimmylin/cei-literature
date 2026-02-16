@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Kneer-Hard Problem AI Alignment Value Forks|Hard Problem AI Alignment Value Forks]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Kneer-Hard Problem AI Alignment Value Forks*: Affiliation: University of Graz, Email: markus.kneer@uni-graz.at
 - *From 2025-Kneer-Hard Problem AI Alignment Value Forks*: Affiliation: University of Graz, Email: j.b.viehoff@uu.nl
 - *From 2025-Kneer-Hard Problem AI Alignment Value Forks*: Affiliation: University of Graz, Email: markus.kneer@uni-graz.at
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

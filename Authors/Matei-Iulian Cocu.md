@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using|A Cross-Lingual Analysis of Bias in Large Language Models Using Romanian History]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cristiarazvan@gmail.com
 - *From 2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using*: Affiliation: University of Bucharest, Email: cocu.matei24@yahoo.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

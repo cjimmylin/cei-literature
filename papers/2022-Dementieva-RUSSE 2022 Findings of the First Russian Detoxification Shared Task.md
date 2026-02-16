@@ -13,9 +13,9 @@ type: conferencePaper
 short_title: "RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora"
 year: 2025
 first_author: "[[Dementieva, Daryna]]"
-last_author: "[[Logacheva, Varvara]]"
-authors: "[[Dementieva, Daryna]]; [[Logacheva, Varvara]]"
-authors_incomplete: true
+last_author: "[[Panchenko, A.]]"
+authors: "[[Dementieva, Daryna]]; [[Logacheva, V.]]; [[Nikishina, Irina]]; [[Fenogenova, Alena]]; [[Dale, David]]; [[Krotova, I.]]; [[Semenov, Nikita]]; [[Shavrina, Tatiana]]; [[Panchenko, A.]]"
+authors_incomplete: false
 url: "https://russe.nlpub.org/2022/tox/"
 external_pdf: "https://web.archive.org/web/20240817172642if_/https://www.dialog-21.ru/media/5755/dementievadplusetal105.pdf"
 publication: "RUSSE / Dialogue Conference"
@@ -49,11 +49,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Dementieva, Daryna]], [[Logacheva, Varvara]]
+[[Dementieva, Daryna]], [[Logacheva, V.]], [[Nikishina, Irina]], [[Fenogenova, Alena]], [[Dale, David]], [[Krotova, I.]], [[Semenov, Nikita]], [[Shavrina, Tatiana]], [[Panchenko, A.]]
 
 ## Metadata
 
-**Authors:** Daryna Dementieva, Varvara Logacheva, et al.
+**Authors:** Dementieva, Daryna; Logacheva, V.; Nikishina, Irina; Fenogenova, Alena; Dale, David; Krotova, I.; Semenov, Nikita; Shavrina, Tatiana; Panchenko, A.
 
 **Year:** 2022
 

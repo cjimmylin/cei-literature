@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2024.acl-long.762/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B6BW5928/2024 - Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Ar.pdf"
 national_ethnic_cultural: "Chinese, Indian"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "Chinese, English, Hindi, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ pdf_extract: "PDF Extracts/2025/2025-Krzanowski-Phronesis for AI Systems.md"
 local_pdf: "[[PDFs/2025/2025-Krzanowski-Phronesis for AI Systems.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Phronesis for AI Systems: Conceptual Foundations Current Research and Prospects

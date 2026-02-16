@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -17,6 +18,7 @@ pdf_extract:
 local_pdf: N/A
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A

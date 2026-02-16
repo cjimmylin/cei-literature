@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Ethics up front, not post hoc"
@@ -19,6 +20,7 @@ pdf_extract: "PDF Extracts/2025/2025-De Montis-Morality in AI.md"
 local_pdf: "[[PDFs/2025/2025-De Montis-Morality in AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -39,7 +41,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
  Morality in AI. A plea to embed morality in LLM architectures and frameworks
 

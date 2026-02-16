@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,8 +19,8 @@ authors: "[[Mahit Nandan A D, Ishan Godbole, Pranav M Kapparad, Shrutilipi Bhatt
 authors_incomplete: false
 url: 
 external_pdf: 
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md"
+local_pdf: "[[PDFs/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.pdf]]"
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: ""
 religious_values: "Islam, Christianity, Hinduism"
 religious_values_list: "Islam, Christianity, Hinduism"
 moral_psychology: "N/A"

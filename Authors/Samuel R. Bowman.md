@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 - [[2022-Parrish-BBQ Bias Benchmark for Question Answering|BBQ (Bias Benchmark for Question Answering)]] (Last Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ Bias Benchmark for Question Answering*: Affiliation: Center for Data Science
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

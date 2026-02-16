@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2020.semeval-1.188/"
 external_pdf: "https://aclanthology.org/2020.semeval-1.188.pdf"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Danish, Greek, Turkish"
+languages_list: "Arabic, Danish, English, Greek, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

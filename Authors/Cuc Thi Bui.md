@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]] (First Author)
 - [[2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large|ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

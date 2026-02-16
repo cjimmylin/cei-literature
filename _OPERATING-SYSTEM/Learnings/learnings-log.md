@@ -34,6 +34,24 @@
 
 ---
 
+## 2026-02-16 (Session 85)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | PDF Processing | **`rglob()` Breaks on Bracket Filenames:** Python's `rglob()` and `glob()` treat `[` and `]` as glob metacharacters. Files like `2026-[[Unknown]]-Qalb...pdf` silently fail to match. Fix: use `iterdir()` + manual filtering instead of `rglob("*.pdf")` when filenames may contain brackets. |
+| 2026-02-16 | Workflows | **PDF Download Bot-Block Distribution:** Of 74 discovered URLs, 54 (73%) returned HTTP 403 or HTML landing pages. Worst offenders: MDPI (15), ACM (6), DOI.org (6), IEEE (4), ScienceDirect (4). These all require manual browser download with cookies/sessions. Only open-access sources (ACL, arXiv, OpenReview, Semantic Scholar, Unpaywall direct) reliably serve PDFs to scripts. |
+| 2026-02-16 | Author Management | **Agent→Script Format Adapter Pattern:** Agent JSON uses `{paper, author, source}` while `apply_author_fixes.py` expects `{old_name, new_author, ...}`. Rather than changing either format, add a normalize/adapter function that maps between them. This prevents breaking existing agent prompts or script logic. |
+
+## 2026-02-16 (Session 84)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Data Quality | **3-Category local_pdf Fix Pattern:** `fix_local_pdf_fields.py` handles blank fields (→ N/A or wikilink), curly/straight quote mismatches (→ correct quote style from disk), and author name mismatches (→ rename PDF + extract + update YAML). All use safe `re.subn()` regex replacement, never parse/rebuild. Setting explicit `"N/A"` on blank fields (29 papers) is important: it distinguishes "checked, unavailable" from "never processed." |
+| 2026-02-16 | PDF Processing | **PDF Discovery Source Yield Ranking:** Unpaywall leads (34/74, 46%), followed by direct URLs (10), web search (9), MDPI open access (8), Semantic Scholar (6), ACL Anthology (5), arXiv (2). Non-academic web content (~90 papers) and paywalled journals (~59) are the main reasons PDFs remain unfound. |
+| 2026-02-16 | Author Management | **LLM Agent vs Regex Author Resolution:** LLM agents achieve ~81% author resolution rate vs ~60% for regex-based scripts. Best strategies: PDF extract parsing (31 resolved), web search (32), Semantic Scholar API (7). The 16 remaining `[[Unknown]]` papers are all institutional/non-academic content with legitimately no individual author. |
+| 2026-02-16 | Workflows | **Benchmark Survey 11-Agent Completion:** Round 3 used 3 waves (5+5+1 agents) to process 638 remaining papers. Agent result freshness matters: rate-limited agents may leave stale data from interrupted runs. Always verify result file timestamps and paper counts match expectations before consolidation. Final tally: 989/2,002 candidates (49.4%). |
+| 2026-02-16 | Workflows | **Report Date Prefix Maintenance:** 5 report generation scripts need OUTPUT_FILE path updates whenever regenerating reports with a new date. Easy to forget — the immutability rule means old reports must never be overwritten, so the script's hardcoded path must be updated before each run. |
+
 ## 2026-02-16 (Session 83)
 
 | Date | Category | Learning |

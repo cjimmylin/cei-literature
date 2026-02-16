@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Creates a large-scale Religious Toxic Comments (RTC) dataset with 448
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GloVe, Word2vec"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Deep Learning for Religious and Continent-Based Toxic Content Detection and Classification

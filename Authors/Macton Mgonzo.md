@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for|UbuntuGuard A Culturally-Grounded Policy Benchmark for]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for*: Affiliation: University, USA, 2The Ohio State University, USA, 3ML Collective, Email: tassallah_abdullahi@brown.edu
 - *From 2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for*: Affiliation: University, USA, 2The Ohio State University, USA, 3ML Collective, Email: tassallah_abdullahi@brown.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

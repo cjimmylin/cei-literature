@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Lab-SDU's DAISY A Benchmark for Danish Culture|SDU's DAISY: A Benchmark for Danish Culture]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"
 - *From 2026-Lab-SDU's DAISY A Benchmark for Danish Culture*: Affiliation: Lab-SDU's DAISY A Benchmark for Danish Culture - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -21,6 +21,7 @@ Nihar R. Sahoo is a PhD student at IIT Bombay, India, advised by Prof. Pushpak B
 
 
 
+
 - [[2022-Sahoo-Detecting Unintended Social Bias in Toxic|Detecting Unintended Social Bias in Toxic]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Nihar R. Sahoo is a PhD student at IIT Bombay, India, advised by Prof. Pushpak B
 
 
 
+
+- *From 2022-Sahoo-Detecting Unintended Social Bias in Toxic*: Affiliation: Institute of Technology Bombay, India
 - *From 2022-Sahoo-Detecting Unintended Social Bias in Toxic*: Affiliation: Institute of Technology Bombay, India
 - *From 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for*:, Email: nihar@cse.iitb.ac.in
 - *From 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context*: Affiliation: lable in En-, Email: garimell@adobe.com

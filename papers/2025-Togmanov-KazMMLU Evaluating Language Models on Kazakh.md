@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Kazakh"
+languages_list: "Kazakh, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Despite having a population of twenty million, Kazakhstan’s culture
 data_description: "Multilingual benchmark dataset"
 data_metrics: "23,000 questions"
 LLM_assessed: "ALBERT, BLOOM, BLOOMZ, DeepSeek, DeepSeek V3, DeepSeek-AI, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Gemma-2., LLama-3.1, Llama, Llama., Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # KazMMLU: Evaluating Language Models on Kazakh, Russian, and Regional Knowledge of Kazakhstan

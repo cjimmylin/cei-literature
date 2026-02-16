@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents|Evaluating Cultural and Social Awareness of LLM Web Agents]] (First Author)
 - [[2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment|Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies]] (First Author)
 - [[2024-Xu-Course-Correction|Course-Correction]] (Last Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University

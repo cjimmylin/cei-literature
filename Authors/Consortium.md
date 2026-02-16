@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Consortium-The Vals Legal AI Report (VLAIR)|The Vals Legal AI Report (VLAIR)]] (First Author)
 
 ## External Links & Profiles

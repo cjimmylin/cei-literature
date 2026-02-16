@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ local_pdf: "[[PDFs/2021/2021-Prabhumoye-Case Study.pdf]]"
 external_pdf: "https://aclanthology.org/2021.naacl-main.297.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
  Case Study: Deontological Ethics in NLP
 

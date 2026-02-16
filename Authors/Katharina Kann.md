@@ -23,6 +23,7 @@ Katharina Kann (also known as Katharina von der Wense) is an Assistant Professor
 
 
 
+
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]] (Last Author)
 - [[2023-Mager-Neural Machine Translation for the Indigenous Languages of the|Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction.]] (Last Author)
 - [[2022-Kann-AmericasNLI|AmericasNLI]] (First Author)
@@ -32,6 +33,8 @@ Katharina Kann (also known as Katharina von der Wense) is an Assistant Professor
 
 
 
+
+- *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2023-Mager-Neural Machine Translation for the Indigenous Languages of the*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder

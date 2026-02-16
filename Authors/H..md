@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language|Exploring Cultural Variations in Moral Judgments with Large Language Models]]
 - [[2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion|Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language*: Affiliation: Department of Methodology and Statistics, Utrecht University, Utrecht, The Netherlands, Email: h.mohammadi@uu.nl
 - *From 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language*: Affiliation: Department of Methodology and Statistics, Utrecht University, Utrecht, The Netherlands, Email: h.mohammadi@uu.nl
 - *From 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language*: Affiliation: Department of Methodology and Statistics, Utrecht University, Utrecht, The Netherlands, Email: h.mohammadi@uu.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

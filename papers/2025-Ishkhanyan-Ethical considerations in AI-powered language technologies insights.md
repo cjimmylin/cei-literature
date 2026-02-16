@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +45,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. Proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency."
 ethics_perspective: "General Ethics"
 ---
 # Ethical considerations in AI-powered language technologies: insights from East and West Armenian

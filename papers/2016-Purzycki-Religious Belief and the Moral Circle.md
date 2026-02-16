@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.nature.com/articles/sdata201660"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/D4GRALMJ/Purzycki and others - 2016 - Religious Belief and the Moral Circle Cross-Cultural Dataset.pdf"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

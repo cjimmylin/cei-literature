@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2024-Sharma-Towards Understanding Sycophancy in Language Models|Towards Understanding Sycophancy in Language Models]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs
 - *From 2022-Bai-Constitutional AI*: Affiliation: labels identifying harmful outputs

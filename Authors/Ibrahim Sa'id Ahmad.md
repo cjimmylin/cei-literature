@@ -31,6 +31,7 @@ Ibrahim Said Ahmad is a postdoctoral fellow at the Institute for Experiential AI
 
 
 
+
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 - [[2023-Muhammad-SemEval-2023 Task 12|SemEval-2023 Task 12]]
@@ -40,6 +41,8 @@ Ibrahim Said Ahmad is a postdoctoral fellow at the Institute for Experiential AI
 
 
 
+
+- *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for*: Affiliation: labi32,∗, Martin Namukombo33,∗, Mbonu Chinedu35,∗, Mofya Phiri10,∗, Neo Putini25,∗
 - *From 2023-Muhammad-SemEval-2023 Task 12*: Affiliation: University of Porto, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Universität Hamburg, Email: shmuhammad.csc@buk.edu.ng
 - *From 2023-Muhammad-SemEval-2023 Task 12*: Affiliation: University of Porto, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Universität Hamburg, Email: shmuhammad.csc@buk.edu.ng

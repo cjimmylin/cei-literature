@@ -22,6 +22,7 @@ Dipika Khullar is a researcher working on cultural aspects of AI systems and nat
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Notes
@@ -29,6 +30,8 @@ Dipika Khullar is a researcher working on cultural aspects of AI systems and nat
 
 
 
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar

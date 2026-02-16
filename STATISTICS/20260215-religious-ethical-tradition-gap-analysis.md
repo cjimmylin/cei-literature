@@ -484,10 +484,10 @@ Areas where benchmarks need to be created, not just found:
 - [[2024-Saffari-PSN]]
 - [[2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and]]
 - [[2024-Tonneau-NaijaHate]]
-- [[2024-Unknown-hatebnBERT An Innovative Novel Transformer Model]]
+- [[2024-Islam-hatebnBERT An Innovative Novel Transformer Model]]
 - [[2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models]]
 - [[2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of]]
-- [[2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection]]
+- [[2024-Sharma-TABHATE A Target-based Hate Speech Detection]]
 - [[2025-2025-Pretrained Models Against Traditional Machine Learning]]
 - [[2025-Aleid-Hajj-FQA]] **[BENCHMARK]**
 - [[2025-Bali-How Deep Is Representational Bias in]]
@@ -523,8 +523,8 @@ Areas where benchmarks need to be created, not just found:
 - [[2025-Salehi-Blind Faith User Preference and Expert]]
 - [[2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace]]
 - [[2025-Umer-Sacred or Secular Religious Bias in]]
-- [[2025-Unknown-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed]]
-- [[2025-Unknown-IslamTrust A Benchmark for LLMs Alignment with Islamic Values]] **[BENCHMARK]**
+- [[2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed]]
+- [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values]] **[BENCHMARK]**
 - [[2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs]]
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs]] **[BENCHMARK]**
 - [[2025-Zaki-Benchmarking the Legal Reasoning of LLMs]] **[BENCHMARK]**
@@ -607,10 +607,10 @@ Areas where benchmarks need to be created, not just found:
 - [[2024-Published in Sadhana journal-Transformer-based Pouranic Topic Classification in Indian]]
 - [[2024-Sadhu-Social Bias in Large Language Models]] **[BENCHMARK]**
 - [[2024-Singla-Samayik A Benchmark and Dataset for]] **[BENCHMARK]**
-- [[2024-Unknown-hatebnBERT An Innovative Novel Transformer Model]]
+- [[2024-Islam-hatebnBERT An Innovative Novel Transformer Model]]
 - [[2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including]]
 - [[2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models]]
-- [[2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection]]
+- [[2024-Sharma-TABHATE A Target-based Hate Speech Detection]]
 - [[2024-project-DharmicData Comprehensive Open-Source Collection of Hindu]]
 - [[2025-Bali-How Deep Is Representational Bias in]]
 - [[2025-Chakraborty-Sometimes the Model doth Preach Quantifying]]
@@ -728,13 +728,13 @@ Areas where benchmarks need to be created, not just found:
 ### Multiple Religions (9 papers)
 
 - [[2021-Nadeem-StereoSet]]
-- [[2022-Unknown-Addressing Religious Hate Online From Taxonomy]]
+- [[2022-Ramponi-Addressing Religious Hate Online From Taxonomy]]
 - [[2024-Hutchinson-Modeling the Sacred Considerations when Using]]
 - [[2024-Songyuan Liu-Measuring Spiritual Values and Bias of]]
 - [[2025-Griffiths-Explicitly Unbiased Large Language Models Still]]
 - [[2025-Lan-Fuxi A Benchmark for Evaluating Language]]
 - [[2025-Trepczynski-AI as a Rational Theologian A]]
-- [[2025-Unknown-Beyond Neutrality A Comprehensive Approach of Religious Bias]]
+- [[2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias]]
 - [[2025-Zhang-Cognitive Bias in Generative AI Influences]]
 
 ---

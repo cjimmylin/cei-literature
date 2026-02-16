@@ -13,10 +13,10 @@ key: LSRC0295
 type: journalArticle
 short_title: "Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs"
 year: 2025
-first_author: "[[Mayor-Rocher, Marina]]"
+first_author: "[[Martínez, Gonzalo]]"
 last_author: "[[Reviriego, Pedro]]"
-authors: "[[Mayor-Rocher, Marina]]; [[Huertas, Cris Pozo]]; [[Melero, Nina]]; [[Reviriego, Pedro]]"
-authors_incomplete: true
+authors: "[[Martínez, Gonzalo]]; [[Mayor-Rocher, Marina]]; [[Huertas, Cris Pozo]]; [[Melero, Nina]]; [[Grandury, María]]; [[Reviriego, Pedro]]"
+authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925008108"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12504998/pdf/main.pdf"
 publication: "ScienceDirect / Data in Brief"
@@ -49,11 +49,11 @@ research_topic: "Machine Learning"
 
 ## Authors
 
-[[Mayor-Rocher, Marina]], [[Huertas, Cris Pozo]], [[Melero, Nina]], [[Reviriego, Pedro]]
+[[Martínez, Gonzalo]], [[Mayor-Rocher, Marina]], [[Huertas, Cris Pozo]], [[Melero, Nina]], [[Grandury, María]], [[Reviriego, Pedro]]
 
 ## Metadata
 
-**Authors:** Marina Mayor-Rocher; Cris Pozo Huertas; Nina Melero; Pedro Reviriego
+**Authors:** Martínez, Gonzalo; Mayor-Rocher, Marina; Huertas, Cris Pozo; Melero, Nina; Grandury, María; Reviriego, Pedro
 
 **Year:** 2025
 

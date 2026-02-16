@@ -22,6 +22,7 @@ Research Scientist at Google DeepMind (joining 2026). Completed PhD at Universit
 
 
 
+
 - [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]]
 - [[2023-Feng-From Pretraining Data to Language Models to|From Pretraining Data to Language Models to]] (First Author)
 
@@ -30,6 +31,8 @@ Research Scientist at Google DeepMind (joining 2026). Completed PhD at Universit
 
 
 
+
+- *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: lyh6560@stu.xjtu.edu.cn
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: lyh6560@stu.xjtu.edu.cn
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu

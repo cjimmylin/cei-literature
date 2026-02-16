@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]] (First Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford
 - *From 2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks*: Affiliation: University of Oxford

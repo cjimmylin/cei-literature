@@ -30,6 +30,7 @@ The research was conducted in collaboration with Debanjan Mondal, Niket Tandon, 
 
 
 
+
 - [[2024-Wu-WorldValuesBench|WorldValuesBench]] (First Author)
 
 ## Notes
@@ -37,6 +38,8 @@ The research was conducted in collaboration with Debanjan Mondal, Niket Tandon, 
 
 
 
+
+- *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: danicaw@email.unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu
 - *From 2024-Wu-WorldValuesBench*: Affiliation: University of Massachusetts Amherst, Email: kurtgray@unc.edu

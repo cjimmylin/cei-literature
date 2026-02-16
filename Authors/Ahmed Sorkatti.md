@@ -23,6 +23,7 @@ Ahmed Sorkatti is a researcher contributing to Arabic natural language processin
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
@@ -30,6 +31,8 @@ Ahmed Sorkatti is a researcher contributing to Arabic natural language processin
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

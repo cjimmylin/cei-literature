@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Clymer-Generalization Analogies|Generalization Analogies]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com
 - *From 2023-Clymer-Generalization Analogies*: Affiliation: University in NY 2NA, Email: joshuamclymer@gmail.com

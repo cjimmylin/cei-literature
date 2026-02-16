@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: yaodong.yang@pku.edu.cn
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: gaiejj@outlook.com
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: gaiejj@outlook.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://link.springer.com/article/10.1007/s43681-025-00784-8"
 publication: "AI and Ethics"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"

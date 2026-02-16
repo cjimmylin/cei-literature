@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Waldner-AI Safety Alignment Ethics|AI Safety Alignment Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Waldner-AI Safety Alignment Ethics*:, Email: dylanwaldner@utexas.edu.
 - *From 2025-Waldner-AI Safety Alignment Ethics*:, Email: dylanwaldner@utexas.edu.
 - *From 2025-Waldner-AI Safety Alignment Ethics*:, Email: dylanwaldner@utexas.edu.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

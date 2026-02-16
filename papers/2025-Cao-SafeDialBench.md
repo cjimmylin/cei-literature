@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://arxiv.org/abs/2502.11090"
 external_pdf: "https://arxiv.org/pdf/2502.11090.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

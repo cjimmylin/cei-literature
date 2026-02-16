@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

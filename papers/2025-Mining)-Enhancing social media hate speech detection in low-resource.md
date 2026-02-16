@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: XLM-RoBERTa
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Hate speech (HS) on social media exposes public discourse and community well-being. Despite its prevalence, majority of the research and technological advances have focused on rich-resourced languages. In contrast, Albanian, a language marked by dialects, limited NLP tools, and scarcity of annotated data, remains underexplored. To address this gap, this paper explores the enhancement of automatic hate speech detection in Albanian social media using advanced deep neural techniques."
 ethics_perspective: "Toxicity & Hate Speech"

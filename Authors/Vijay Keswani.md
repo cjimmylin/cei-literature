@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational|On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods]]
 - [[2024-Keswani-On the Pros and Cons of Active Learning for Moral Preference|On the Pros and Cons of Active Learning for Moral Preference Elicitation]] (First Author)
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford
 - *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford
 - *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford
 - *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford

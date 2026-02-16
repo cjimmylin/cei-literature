@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-Turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have achieved significant success in recent years; yet, issues of intrinsic gender bias persist, especially in nonEnglish languages. Although current research mostly emphasizes English, the linguistic and cultural biases inherent in Global South languages, like Bengali, are little examined. This research seeks to examine the characteristics and magnitude of gender bias in Bengali, evaluating the efficacy of current approaches in identifying and alleviating Bias."
 ethics_perspective: "Bias & Fairness"

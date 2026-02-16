@@ -23,6 +23,7 @@ Zahra Pourbahman is a PhD Candidate in Computer Engineering at Amirkabir Univers
 
 
 
+
 - [[2025-Pourbahman-ELAB|ELAB]] (First Author)
 - [[2024-Hossein-ParsOffensive Persian Offensive Comments Dataset|ParsOffensive: Persian Offensive Comments Dataset]] (Last Author)
 
@@ -31,6 +32,8 @@ Zahra Pourbahman is a PhD Candidate in Computer Engineering at Amirkabir Univers
 
 
 
+
+- *From 2024-Hossein-ParsOffensive Persian Offensive Comments Dataset*: Affiliation: Department of Electrical and Computer Engineering, Isfahan, Email: a.mansouri@ec.iut.ac.ir
 - *From 2024-Hossein-ParsOffensive Persian Offensive Comments Dataset*: Affiliation: Department of Electrical and Computer Engineering, Isfahan, Email: bishehniasar@ie.sharif.edu
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"
 - *From 2025-Pourbahman-ELAB*: Affiliation: LAB - PDF Extract"

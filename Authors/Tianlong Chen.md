@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]]
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

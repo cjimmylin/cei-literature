@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT2, GloVE, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Hate speech is a significant threat to social diversity and human rights. Detecting anti-LGBT hate speech on social media is a complex area of research that requires a multifaceted and adaptable approach. This work aims to present a review of recent efforts in the investigation of hate speech towards the LGBT population on social networks and explore the use of computational techniques for the detection and classification of these speeches."
 ethics_perspective: "Toxicity & Hate Speech"

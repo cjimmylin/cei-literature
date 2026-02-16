@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge|GFG -- Gender-Fair Generation: A CALAMITA Challenge]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge*: Affiliation: Lab, Heriot-Watt University, Edinburgh, Scotland
 - *From 2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge*: Affiliation: Lab, Heriot-Watt University, Edinburgh, Scotland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

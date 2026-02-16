@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chakraborty-Structured Moral Reasoning|Structured Moral Reasoning]] (Last Author)
 - [[2025-Farid-One Model, Many Morals|One Model, Many Morals]] (Last Author)
 - [[2025-Kumar-Are Rules Meant to be Broken|Are Rules Meant to be Broken?]] (Last Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Kumar-Are Rules Meant to be Broken*: Affiliation: University of Michigan, Email: jurgens@umich.edu
 - *From 2025-Kumar-Are Rules Meant to be Broken*: Affiliation: University of Michigan, Email: kshivan@umich.edu
 - *From 2025-Kumar-Are Rules Meant to be Broken*: Affiliation: University of Michigan, Email: jurgens@umich.edu
 - *From 2025-Kumar-Are Rules Meant to be Broken*: Affiliation: University of Michigan, Email: jurgens@umich.edu

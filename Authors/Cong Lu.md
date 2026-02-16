@@ -47,6 +47,7 @@ Cong Lu is a Research Scientist at Google DeepMind on the Open-Endedness team. H
 
 
 
+
 - [[2024-Lu-The AI Scientist|The AI Scientist]]
 
 ## External Links & Profiles
@@ -65,6 +66,8 @@ Cong Lu is a Research Scientist at Google DeepMind on the Open-Endedness team. H
 
 
 
+
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR

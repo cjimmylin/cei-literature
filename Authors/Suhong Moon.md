@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction|Zero-shot Visual Commonsense Immorality Prediction]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
 - *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: psb485@korea.ac.kr
 - *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: suhong.moon@berkeley.edu
 - *From 2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction*: Affiliation: University of California, Berkeley, Email: jinkyukim@korea.ac.kr

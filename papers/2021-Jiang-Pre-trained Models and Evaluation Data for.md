@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0611
 type: preprint
 short_title: "Pre-trained Models and Evaluation Data for"
 year: 2025
-first_author: "[[Jiang]]"
-last_author: "[[Jiang]]"
-authors: "[[Jiang]]"
-authors_incomplete: true
+first_author: "[[Cañete, José]]"
+last_author: "[[Pérez, Jorge]]"
+authors: "[[Cañete, José]]; [[Chaperon, Gabriel]]; [[Fuentes, Rodrigo]]; [[Ho, Jou-Hui]]; [[Kang, Hojin]]; [[Pérez, Jorge]]"
+authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-3-030-92310-5_52"
 external_pdf: "https://arxiv.org/pdf/2308.02976"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.md"
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Jiang]]
+[[Cañete, José]], [[Chaperon, Gabriel]], [[Fuentes, Rodrigo]], [[Ho, Jou-Hui]], [[Kang, Hojin]], [[Pérez, Jorge]]
 
 ## Metadata
 
-**Authors:** Jiang et al.
+**Authors:** Cañete, José; Chaperon, Gabriel; Fuentes, Rodrigo; Ho, Jou-Hui; Kang, Hojin; Pérez, Jorge
 
 **Year:** 2021
 

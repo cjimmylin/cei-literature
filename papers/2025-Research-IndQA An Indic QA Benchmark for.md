@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "QA benchmark across 12 languages and 10 domains including law, health
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Llama, llama 2, Llama-2, llama2.70, llama2.70. chat, mixtral 8x7b"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Question Answering"
 ---
 # IndQA: An Indic QA Benchmark for LLMs

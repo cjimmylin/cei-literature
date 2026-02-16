@@ -30,6 +30,7 @@ Jianfeng Gao is a Distinguished Scientist and Vice President at Microsoft, leadi
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
 - [[2022-Qiu-ValueNet|ValueNet]]
@@ -39,6 +40,8 @@ Jianfeng Gao is a Distinguished Scientist and Vice President at Microsoft, leadi
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

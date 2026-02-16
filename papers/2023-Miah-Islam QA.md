@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

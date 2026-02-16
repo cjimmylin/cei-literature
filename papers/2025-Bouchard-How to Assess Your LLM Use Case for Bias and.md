@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://medium.com/cvs-health-tech-blog/how-to-assess-your-llm-use-case-fo
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DJYXXBYZ/Bouchard - 2025 - How to Assess Your LLM Use Case for Bias and Fairness with LangFair.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

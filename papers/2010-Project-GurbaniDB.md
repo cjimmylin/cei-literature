@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ pdf_extract: "PDF Extracts/2010/2010-Project-GurbaniDB.md"
 local_pdf: [[PDFs/2010/2010-Project-GurbaniDB.pdf]]
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "Gurmukhi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

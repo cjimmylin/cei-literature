@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and|BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: alice.oh@kaist.edu
 - *From 2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and*: Affiliation: college and job level, Email: alice.oh@kaist.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

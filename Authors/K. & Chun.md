@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Elkins-Negation Sensitivity Index NSI|Negation Sensitivity Index (NSI)]]
 - [[2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical|Syntactic Framing Fragility (SFF): Robustness Evaluation of LLM Ethical Decisions]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical*: Affiliation: lab, Kenyon College
 - *From 2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical*: Affiliation: lab, Kenyon College
 - *From 2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical*: Affiliation: lab, Kenyon College
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

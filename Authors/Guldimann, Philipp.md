@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Guldimann-COMPL-AI EU AI Act Compliance|COMPL-AI (EU AI Act Compliance)]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University
 - *From 2024-Guldimann-COMPL-AI EU AI Act Compliance*: Affiliation: Department of Computer Science, 2LatticeFlow AI, 3INSAIT, Sofia University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

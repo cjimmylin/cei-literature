@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ local_pdf: "[[PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2020.00036/pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

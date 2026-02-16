@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
 - [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford

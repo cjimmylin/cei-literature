@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Arabic, American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "American, Arab, Arab countries, Austrian, British, China, Chinese, Cross-cultural, Dutch, Slovak, Slovakia, US, United States, pan-Latin American"
-languages_list: 
+languages_list: "Arabic, Chinese, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

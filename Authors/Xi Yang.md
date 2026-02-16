@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Cao-SafeDialBench|SafeDialBench]]
 - [[2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark|LaoBench A Large-Scale Multidimensional Lao Benchmark]]
 - [[2024-Luo-HalluDial|HalluDial]] (Last Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.clarin.si/repository/xmlui/handle/11356/1398"
 tags: 
-abstract: 
+abstract: "Hand-labeled Slovenian Twitter dataset: 50,000 training tweets and 10,000 evaluation tweets, annotated for hate speech types (offensive/violent) and targets. Part of IMSyPP EU project."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Slovenian Twitter Hate Speech Dataset IMSyPP-sl

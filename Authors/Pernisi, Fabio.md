@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety|SafetyPrompts: Systematic Review of Open Datasets for LLM Safety]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI
 - *From 2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety*: Affiliation: University, 2Contextual AI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

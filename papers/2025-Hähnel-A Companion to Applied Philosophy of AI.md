@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Amazing book on applied AI"
@@ -19,6 +20,7 @@ pdf_extract: "PDF Extracts/2025/2025-Hähnel-A Companion to Applied Philosophy o
 local_pdf: "[[PDFs/2025/2025-Hähnel-A Companion to Applied Philosophy of AI.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: Buddhism
 religious_values_list: Buddhism
 moral_psychology: N/A
@@ -37,7 +39,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, LaMDA"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # A Companion to Applied Philosophy of AI
 

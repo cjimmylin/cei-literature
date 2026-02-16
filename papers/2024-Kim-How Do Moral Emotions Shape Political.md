@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.findings-acl.963/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZEHT2BKU/Kim et al. - 2024 - How Do Moral Emotions Shape Political Participation A Cross-Cultural Analysis of Online Petitions U.pdf"
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Korean, Cross-cultural"
+languages_list: "English, Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

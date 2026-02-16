@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found the research article you're looking for. Here are the key findings: Study Overview The article \"Exploring the occupational biases and stereotypes of Chinese large language models\" was published in Scientific Reports in 2025."
 ethics_perspective: "Bias & Fairness"
 ---
 # Cultural Bias in Large Language Models: A Comprehensive Analysis and Mitigation Strategies

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2502.14083.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural"
+languages_list: "Arabic, Chinese, English, Hindi, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

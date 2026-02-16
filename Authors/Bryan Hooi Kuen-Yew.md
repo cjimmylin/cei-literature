@@ -48,6 +48,7 @@ Hooi has made foundational contributions to the detection of suspicious patterns
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 
 ## External Links & Profiles
@@ -60,6 +61,8 @@ Hooi has made foundational contributions to the detection of suspicious patterns
 
 
 
+
+- *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific
 - *From 2025-Huang-On the Trustworthiness of Generative Foundation*: Affiliation: University of Notre Dame, 2University of Waterloo, 3Emory University, 4Mohamed bin Zayed University of Artific

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles|CreoleVal: Multilingual Multitask Benchmarks for Creoles]]
 - [[2023-Cao-Assessing Cross-Cultural Alignment between|Assessing Cross-Cultural Alignment between]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org
 - *From 2023-Cao-Assessing Cross-Cultural Alignment between*: Affiliation: University of Science and Technology, Email: minchen@ieee.org

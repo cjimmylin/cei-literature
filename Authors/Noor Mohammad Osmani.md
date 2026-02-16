@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies|Investigating Retrieval-Augmented Generation in Quranic Studies]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id
 - *From 2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies*: Affiliation: Department of Informatics Engineering, Universitas Islam Riau, Pekanbaru 28284, Indonesia, Email: arbi@eng.uir.ac.id
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

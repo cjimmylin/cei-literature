@@ -1,9 +1,9 @@
 ---
 name: "Bargiela, Víctor"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable for research purposes"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "mtaule@ub.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for|NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish]]]]
 
 - [[2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for|NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: mtaule@ub.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

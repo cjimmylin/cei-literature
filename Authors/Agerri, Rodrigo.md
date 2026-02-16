@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish|Lost in Variation? Evaluating NLI Performance in Basque and Spanish Geographical Variants]] (Last Author)
 - [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

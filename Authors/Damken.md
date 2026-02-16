@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases|Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net
 - *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net
 - *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

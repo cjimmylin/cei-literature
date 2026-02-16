@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor
 - *From 2025-Andriushchenko-AgentHarm*: Affiliation: Institute, ∗Core contributor

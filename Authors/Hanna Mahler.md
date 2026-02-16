@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive|AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at
 - *From 2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive*: Affiliation: University of Zurich, Email: pia.pachinger@tuwien.ac.at
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

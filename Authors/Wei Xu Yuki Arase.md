@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages|Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages*: Affiliation: Institute of Technology, 2Samsung R&D Institute Philippines, Email: tareknaous@gatech.edu
 - *From 2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages*: Affiliation: Institute of Technology, 2Samsung R&D Institute Philippines, Email: tareknaous@gatech.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

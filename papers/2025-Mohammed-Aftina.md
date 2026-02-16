@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://neuralcomputingjournals.com/aftina-fatwaqa"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00521-025-11229-y.pdf"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -35,7 +37,7 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Gemma"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/0000/2025-Mohammed-Aftina.md"
 local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina.pdf]]"
 DATE_ADDED: 20260207

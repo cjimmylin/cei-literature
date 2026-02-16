@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of|MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language]]
 - [[2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical|DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: shayan.bali@kcl.ac.uk
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir
 - *From 2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of*: Affiliation: University of Technology, 2Part AI Research Center, 3University of Mazandaran, Email: s.shariati21@umail.umz.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

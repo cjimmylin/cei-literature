@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -18,6 +19,7 @@ local_pdf: "[[PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playi
 external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-LLM A Trainable Agent for Role-Playing.pdf"
 national_ethnic_cultural: American
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: N/A

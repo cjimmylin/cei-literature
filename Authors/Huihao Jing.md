@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jing-MASLegalBench|MASLegalBench]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jing-MASLegalBench*: Affiliation: University of Science and Technology, Email: hjingaa@connect.ust.hk
 - *From 2025-Jing-MASLegalBench*: Affiliation: University of Science and Technology, Email: hjingaa@connect.ust.hk
 - *From 2025-Jing-MASLegalBench*: Affiliation: University of Science and Technology, Email: hjingaa@connect.ust.hk
 - *From 2025-Jing-MASLegalBench*: Affiliation: University of Science and Technology, Email: hjingaa@connect.ust.hk

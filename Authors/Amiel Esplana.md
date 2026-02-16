@@ -21,6 +21,7 @@ Amiel Esplana is a researcher at the University of the West of England. Their re
 
 
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## Notes
@@ -28,6 +29,8 @@ Amiel Esplana is a researcher at the University of the West of England. Their re
 
 
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

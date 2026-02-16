@@ -48,6 +48,7 @@ Dr. Theobald has a strong background in audiovisual speech recognition and lip-r
 
 
 
+
 - [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
 
 ## External Links & Profiles
@@ -64,6 +65,8 @@ Dr. Theobald has a strong background in audiovisual speech recognition and lip-r
 
 
 
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu

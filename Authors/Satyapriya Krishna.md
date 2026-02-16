@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language|D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models]] (First Author)
 - [[2021-Dhamala-BOLD|BOLD]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.
 - *From 2021-Dhamala-BOLD*:, Email: permissions@acm.org.

@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 3.5 Sonnet, DeepSeek-v3, GPT-4o, GPT-4o mini, GPT-4o-mini, GPT-4, Llama, Llama-3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The diversity of human language, shaped by social, cultural, and regional influences, presents significant challenges for natural language processing (NLP) systems. Existing benchmarks often overlook intra-language variations, leaving speakers of non-standard dialects underserved. To address this gap, we introduce ENDIVE (English Diversity), a benchmark that evaluates five widely-used large language models (LLMs) across tasks in language understanding, algorithmic reasoning, mathematics, and..."
 ethics_perspective: "Bias & Fairness"

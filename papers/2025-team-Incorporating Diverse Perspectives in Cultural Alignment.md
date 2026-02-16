@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ abstract: "Large Language Models (LLMs) increasingly serve diverse global audien
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Mistral-7B"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 ---
 # Incorporating Diverse Perspectives in Cultural Alignment: Survey of Evaluation Benchmarks Through A Three-Dimensional Framework

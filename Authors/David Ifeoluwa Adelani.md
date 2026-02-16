@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting|AfriMTEB and AfriE5 Benchmarking and Adapting]] (Last Author)
 - [[2025-Emezue-NaijaVoices|NaijaVoices]]
@@ -38,6 +39,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: project@yorubaname.com

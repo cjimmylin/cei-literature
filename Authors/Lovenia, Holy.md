@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]] (First Author)
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

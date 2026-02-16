@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Canadian Statistics agency research on bias in bilingual NLP systems. Finds multilingual models perform 0.13 SD better on English than French. Using multilingual models leads to greater performance decline on French than English portions of data. Addresses Canadian bilingual context."
 ethics_perspective: "Bias & Fairness"
 ---
 # Bias Considerations in Bilingual Natural Language Processing

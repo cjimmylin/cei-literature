@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +16,9 @@ last_author: "[[I-Chen Wu]]"
 authors: Hsin-Yi Hsieh, Shang Wei Liu, Chang Chih Meng, Shuo-Yueh Lin, Chen Chien-Hua, Hung-Ju Lin, Hen-Hsen Huang, I-Chen Wu
 url: "https://aclanthology.org/2025.evalmg-1.6/"
 publication: ACL Anthology
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.md"
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Taiwanese"
-languages_list: 
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/hhhuang/TaiwanVQA"
 tags: 
-abstract:
+abstract: "Novel VQA benchmark with 2,000 image-question pairs covering Taiwanese culture and daily life including local cuisine, festivals, landmarks, and public signage. Performance gap widens between recognition (73.60%) and reasoning tasks (49.80%), indicating challenges in cultural inference."
 research_topic: "Question Answering"
 ---
 # TaiwanVQA: A Benchmark for Visual Question Answering for Taiwanese Daily Life

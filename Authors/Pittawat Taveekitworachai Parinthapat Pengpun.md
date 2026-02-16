@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Tharnpipitchai-Typhoon 2 A Family of Open|Typhoon 2 A Family of Open]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Tharnpipitchai-Typhoon 2 A Family of Open*: Affiliation: lable in both base and instruction-, Email: contact@opentyphoon.ai
 - *From 2024-Tharnpipitchai-Typhoon 2 A Family of Open*: Affiliation: lable in both base and instruction-, Email: contact@opentyphoon.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

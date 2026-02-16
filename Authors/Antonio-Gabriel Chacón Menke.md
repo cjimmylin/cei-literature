@@ -39,6 +39,7 @@ Menke's research on Constitutional AI in small LLMs reveals important architectu
 
 
 
+
 - [[2025-Menke-How Effective Is Constitutional AI in Small LLMs|How Effective Is Constitutional AI in Small LLMs?]] (First Author)
 
 ## Notes
@@ -46,6 +47,8 @@ Menke's research on Constitutional AI in small LLMs reveals important architectu
 
 
 
+
+- *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: z524055@shibaura-it.ac.jp
 - *From 2025-Menke-How Effective Is Constitutional AI in Small LLMs*: Affiliation: Institute of Technology, Tokyo, Email: tanpx@shibaura-it.ac.jp

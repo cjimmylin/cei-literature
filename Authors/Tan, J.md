@@ -1,9 +1,9 @@
 ---
 name: "Tan, J"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at https://github"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "cs.chan@um.edu.my"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language|MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language]]]]
 
 - [[2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language|MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

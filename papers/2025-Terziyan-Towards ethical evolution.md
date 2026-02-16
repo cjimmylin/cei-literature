@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ publication: "AI and Ethics"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Towards ethical evolution: responsible autonomy of artificial intelligence across generations
 

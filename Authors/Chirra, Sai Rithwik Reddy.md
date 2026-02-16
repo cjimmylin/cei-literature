@@ -1,9 +1,9 @@
 ---
 name: "Chirra, Sai Rithwik Reddy"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology Indore, Madhya Pradesh India"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "b21322@students.iitmandi.ac.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable|X-MuTeST A Multilingual Benchmark for Explainable]]]]
 
 - [[2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable|X-MuTeST A Multilingual Benchmark for Explainable]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable*: Affiliation: Institute of Technology Indore, Madhya Pradesh India, Email: b21322@students.iitmandi.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "http://arxiv.org/abs/2504.02725"
 external_pdf: "http://arxiv.org/pdf/2504.02725.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, DeepSeek, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization
 

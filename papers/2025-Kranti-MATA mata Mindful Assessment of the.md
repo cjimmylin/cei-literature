@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Telugu"
+languages_list: "Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "In this paper, we introduce MATA, a novel evaluation dataset to asses
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Sonnet, Claude-Sonnet, GPT-4, GPT-4o, Gemma, Gemma3, Grok3, Llama, LLaMA3, LLaMA3.3, Qwen3"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # MATA (mata): Mindful Assessment of the Telugu Abilities of Large Language Models

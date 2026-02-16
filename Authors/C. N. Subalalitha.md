@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic|Counter-Speech Generation for Homophobic and Transphobic]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages
 - *From 2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic*: Affiliation: lable strategy for countering hate in low-resource regional languages
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

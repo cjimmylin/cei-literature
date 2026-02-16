@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Tsai-Why AI May Undermine Phronesis|Why AI May Undermine Phronesis]] (Last Author)
 
 ## External Links & Profiles

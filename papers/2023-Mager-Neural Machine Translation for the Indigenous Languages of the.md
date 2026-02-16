@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BART, BERT, ELMO, Gemma"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Neural models have drastically advanced state of the art for machine translation (MT) between high-resource languages. Traditionally, these models rely on large amounts of training data, but many language pairs lack these resources. However, an important part of the languages in the world do not have this amount of data. Most languages from the Americas are among them, having a limited amount of parallel and monolingual data, if any."
 research_topic: "Machine Translation"

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2024-Porkaew-Representing the Under-Represented Cultural and Core|Representing the Under-Represented Cultural and Core]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th
 - *From 2024-Porkaew-Representing the Under-Represented Cultural and Core*: Affiliation: lable to encourage further research, Email: attapol.t@chula.ac.th
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

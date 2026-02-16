@@ -49,6 +49,7 @@ Dr. Ermis has published influential work on the challenges of toxicity evaluatio
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It]]
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
@@ -64,6 +65,8 @@ Dr. Ermis has published influential work on the challenges of toxicity evaluatio
 
 
 
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures

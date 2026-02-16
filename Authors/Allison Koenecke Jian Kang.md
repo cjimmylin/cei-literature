@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified|Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified*: Affiliation: University of Rochester, Email: hlyu5@ur.rochester.edu
 - *From 2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified*: Affiliation: University of Rochester, Email: jluo@cs.rochester.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

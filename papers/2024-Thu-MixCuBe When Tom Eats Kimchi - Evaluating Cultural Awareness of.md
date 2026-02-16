@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +17,7 @@ authors: "Jun Seong Kim; Kyaw Ye Thu; Javad Ismayilzada; Junyeong Park; Eunsu Ki
 url: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 publication: HuggingFace
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "4 ethnicities, 5 countries, American, Cross-cultural, Indian, Japanese, Korean, Middle Eastern"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 tags: 
-abstract:
+abstract: "Cross-cultural awareness benchmark studying elements from five countries and four ethnicities in cultural mixture contexts. MLLMs achieve higher accuracy for high-resource cultures but not for low-resource cultures."
 research_topic: "Social & Cultural Analysis"
 ---
 # MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts

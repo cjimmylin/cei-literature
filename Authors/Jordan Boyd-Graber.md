@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu

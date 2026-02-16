@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource|MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints]] (First Author)]]
 
 - [[2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource|MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints]] (First Author)
 

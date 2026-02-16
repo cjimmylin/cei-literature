@@ -39,6 +39,7 @@ Karpov co-authored "Inducing Human-like Biases in Moral Reasoning Language Model
 
 
 
+
 - [[2024-Karpov-Inducing Human-like Biases in Moral Reasoning|Inducing Human-like Biases in Moral Reasoning]] (First Author)
 
 ## Notes
@@ -46,6 +47,8 @@ Karpov co-authored "Inducing Human-like Biases in Moral Reasoning Language Model
 
 
 
+
+- *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware
 - *From 2024-Karpov-Inducing Human-like Biases in Moral Reasoning*: Affiliation: University of Delaware

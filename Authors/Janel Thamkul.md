@@ -27,6 +27,7 @@ Thamkul earned her Bachelor's Degree in Fine Arts from UCLA, an Associate's Degr
 
 
 
+
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
 
 ## Notes

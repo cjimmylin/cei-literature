@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0375
 type: preprint
 short_title: "Hate Speech Detection in Somali-English Code-Switched"
 year: 2025
-first_author: "[[Sharmaa, Arushi]]"
-last_author: "[[Jainc, Minni]]"
-authors: "[[Sharmaa, Arushi]]; [[Kabrab, Anubha]]; [[Jainc, Minni]]"
-authors_incomplete: true
+first_author: "[[Sharma, Arushi]]"
+last_author: "[[Jain, Minni]]"
+authors: "[[Sharma, Arushi]]; [[Kabra, Anubha]]; [[Jain, Minni]]"
+authors_incomplete: false
 url: "https://link.springer.com/chapter/10.1007/978-981-95-3349-7_28"
 external_pdf: "https://arxiv.org/pdf/2110.09393.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md"
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Somali"
+languages_list: "English, Hindi"
 religious_values: "Jainism"
 religious_values_list: "Jainism"
 moral_psychology: "Cognitive Developmental"
@@ -45,11 +47,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Sharmaa, Arushi]], [[Kabrab, Anubha]], [[Jainc, Minni]]
+[[Sharma, Arushi]], [[Kabra, Anubha]], [[Jain, Minni]]
 
 ## Metadata
 
-**Authors:** Arushi Sharmaa; Anubha Kabrab; Minni Jainc
+**Authors:** Sharma, Arushi; Kabra, Anubha; Jain, Minni
 
 **Year:** 2025
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong|HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong*: Affiliation: Academy of Interdisciplinary Studies, The Hong Kong University of Science and Technology, Hong Kong SAR, Ch
 - *From 2025-Han-HKGAI-V1 Towards Regional Sovereign Large Language Model for Hong Kong*: Affiliation: Academy of Interdisciplinary Studies, The Hong Kong University of Science and Technology, Hong Kong SAR, Ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

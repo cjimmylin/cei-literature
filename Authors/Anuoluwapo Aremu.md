@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus|ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus]]
 - [[2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African|MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus*: Affiliation: University, 2Yorùbá Names, 3Niger-Volta LTI, 4University College London, Email: project@yorubaname.com

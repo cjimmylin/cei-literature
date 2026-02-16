@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.mdpi.com/2306-5729/8/10/155"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/A4GPKYSQ/Alyemny et al. - 2023 - A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks.pdf"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

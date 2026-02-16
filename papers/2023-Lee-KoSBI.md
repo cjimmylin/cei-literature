@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2023.acl-industry.21/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QM5QX7X7/2023 - KoSBI A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications.pdf"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
+languages_list: "Korean"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

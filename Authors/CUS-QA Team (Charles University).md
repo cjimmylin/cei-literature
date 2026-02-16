@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset|CUS-QA: Local-Knowledge-Oriented Open-Ended Question Answering Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"
 - *From 2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset*: Affiliation: University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

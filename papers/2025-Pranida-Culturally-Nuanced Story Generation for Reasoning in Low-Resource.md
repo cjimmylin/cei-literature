@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Claude-3 Opus, GPT-4, GPT-4o, Gemma 2, Gemma-2, Llama, Llama 32.20, Llama 34.80, Llama 4.40, Llama 4.98, Llama 69.19, Llama 69.7, Llama 72.7, Llama 77.13, Llama 3.1, Qwen, Qwen 2.5, llama 3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Culturally grounded commonsense reasoning is underexplored in low-resource languages due to scarce data and costly native annotation. We test whether large language models (LLMs) can generate culturally nuanced narratives for such settings. Focusing on Javanese and Sundanese, we compare three data creation strategies: (1) LLM-assisted stories prompted with cultural cues, (2) machine translation from Indonesian benchmarks, and (3) native-written stories."
 research_topic: "Machine Translation"

@@ -1,9 +1,9 @@
 ---
 name: "Pandey, Manish"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University AP"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "adduru@srmap.edu.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and|Creating and Evaluating Code-Mixed Nepali-English and]] (First Author)]]
 
 - [[2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and|Creating and Evaluating Code-Mixed Nepali-English and]] (First Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-[[Unknown]]-Creating and Evaluating Code-Mixed Nepali-English and*: Affiliation: University AP, Email: adduru@srmap.edu.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

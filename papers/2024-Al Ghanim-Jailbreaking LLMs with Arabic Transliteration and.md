@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2024.emnlp-main.1034/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KHCWIX2B/2024 - Jailbreaking LLMs with Arabic Transliteration and Arabizi.pdf"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

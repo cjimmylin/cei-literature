@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Zhang-Heterogeneous Value Alignment Evaluation for|Heterogeneous Value Alignment Evaluation for]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Zhang-Heterogeneous Value Alignment Evaluation for*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: yaodong.yang@pku.edu.cn
 - *From 2023-Zhang-Heterogeneous Value Alignment Evaluation for*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: zwzhang@stu.pku.edu.cn
 - *From 2023-Zhang-Heterogeneous Value Alignment Evaluation for*: Affiliation: Institute for Artificial Intelligence, Peking University, Email: ceyaozhang@link.cuhk.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

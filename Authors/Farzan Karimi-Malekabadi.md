@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks|Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks]] (First Author)
 - [[2026-Yu-Tracing Moral Foundations in LLMs|Tracing Moral Foundations in LLMs]]
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 - *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 - *From 2022-Trager-The Moral Foundations Reddit Corpus*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California

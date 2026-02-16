@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://arxiv.org/abs/2504.17544"
 external_pdf: "https://arxiv.org/pdf/2504.17544.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Claude, Mistral, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Auditing the Ethical Logic of Generative AI Models
 

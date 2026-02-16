@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +44,7 @@ data_metrics: "Not specified"
 LLM_assessed: "AlBERTo, BERT-Italian, UmBERTo, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/dhfbk/LiLaH"
 tags: 
-abstract: 
+abstract: "An Italian social media corpus from Facebook for detecting racial stereotypes, built within a social psychology study. Annotation scheme makes stereotypes and discredit explicit. Focuses on racial hoaxes and hateful content against immigrants in Italian."
 research_topic: "Social & Cultural Analysis"
 ---
 # Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP

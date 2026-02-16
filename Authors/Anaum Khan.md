@@ -23,6 +23,7 @@ Anaum Khan is a researcher affiliated with the University of Maryland, working o
 
 
 
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## Notes
@@ -30,6 +31,8 @@ Anaum Khan is a researcher affiliated with the University of Maryland, working o
 
 
 
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu

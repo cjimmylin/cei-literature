@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://arxiv.org/abs/2410.14289"
 external_pdf: "https://arxiv.org/pdf/2410.14289.pdf"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
+languages_list: "Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # SwaQuAD-24: A Benchmark Dataset for Question Answering in Swahili
 

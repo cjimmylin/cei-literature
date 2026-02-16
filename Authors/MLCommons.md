@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-MLCommons-MLCommons AILuminate Benchmark|MLCommons AILuminate Benchmark]] (First Author)
 
 ## Notes
@@ -28,6 +29,9 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-MLCommons-MLCommons AILuminate Benchmark*: Affiliation: Research
+Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind
 - *From 2024-MLCommons-MLCommons AILuminate Benchmark*: Affiliation: Research
 Institutes 9Turaco Strategy 10PRISM Eval 11TU Darmstadt 12Contextual AI 13Google DeepMind
 - *From 2024-MLCommons-MLCommons AILuminate Benchmark*: Affiliation: Research

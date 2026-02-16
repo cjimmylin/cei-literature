@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew|HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew*: Affiliation: University, Israel
 - *From 2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew*: Affiliation: University, Israel
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

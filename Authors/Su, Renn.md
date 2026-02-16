@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Yun-VAPT Value-Alignment Perception Toolkit|VAPT: Value-Alignment Perception Toolkit]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: bhayun@ethz.ch
 - *From 2026-Yun-VAPT Value-Alignment Perception Toolkit*: Affiliation: centered computing →Empirical studies in HCI, Email: bhayun@ethz.ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

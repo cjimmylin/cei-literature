@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,9 +38,9 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, DeepSeek, GPT-4o, Llama"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag"
 research_topic: "Machine Translation"
 ---
 # Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator - PMC

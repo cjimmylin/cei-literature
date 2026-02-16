@@ -1,9 +1,9 @@
 ---
 name: "Döschl, Alexander"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Applied Sciences"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "alexander.doeschl@hm.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API|Digital Guardians: Can GPT-4, Perspective API, and Moderation API reliably detect hate speech in reader comments of German online newspapers?]]]]
 
 - [[2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API|Digital Guardians: Can GPT-4, Perspective API, and Moderation API reliably detect hate speech in reader comments of German online newspapers?]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API*: Affiliation: University of Applied Sciences, Email: alexander.doeschl@hm.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

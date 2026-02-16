@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2507.17216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models
 

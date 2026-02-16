@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,7 @@ authors: Jay Gala; Thanmay Jayakumar; Jaavid Aktar Husain; Aswanth Kumar M; Moha
 url: "https://arxiv.org/abs/2401.15006"
 external_pdf: "https://arxiv.org/pdf/2401.15006.pdf"
 pdf_extract: "PDF Extracts/2024/2024-[[Gala]]-Airavata Introducing Hindi Instruction-tuned LLM.md"
-local_pdf: "[[PDFs/2024/2024-[[Gala]]-Airavata Introducing Hindi Instruction-tuned LLM.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

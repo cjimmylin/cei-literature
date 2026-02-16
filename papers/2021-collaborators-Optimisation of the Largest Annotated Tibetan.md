@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +30,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Tibetan"
+languages_list: "Tibetan"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +39,7 @@ is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 tags: 
-abstract: 
+abstract: "This article presents a pipeline that converts collections of Tibetan documents in plain text or XML into a fully segmented and POS-tagged corpus. We apply the pipeline to the large extent collection of the Buddhist Digital Resource Center. The semi-supervised methods presented here not only result in a new and improved version of the largest annotated Tibetan corpus to date, the integration of rule-based, memory-based, and neural-network methods also serves as a good example of how to overcome challenges of under-researched languages. The end-to-end accuracy of our entire automatic pipeline of 91.99% is high enough to make the resulting corpus a useful resource for both linguists and scholars of Tibetan studies."
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"

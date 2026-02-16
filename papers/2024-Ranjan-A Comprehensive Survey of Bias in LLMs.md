@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://arxiv.org/abs/2409.16430"
 external_pdf: "https://arxiv.org/pdf/2409.16430.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-2, GPT-3, GPT-4, LLaMA 2"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions
 

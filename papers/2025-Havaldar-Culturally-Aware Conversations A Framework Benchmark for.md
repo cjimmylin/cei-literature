@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Existing benchmarks that measure cultural adaptation in LLMs are misa
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Gemini"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # Culturally-Aware Conversations: A Framework & Benchmark for LLMs

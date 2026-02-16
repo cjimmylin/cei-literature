@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Guo-COBBLER|COBBLER]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 - *From 2023-Guo-COBBLER*: Affiliation: University of Minnesota, 2Grammarly, Email: vipul.raheja@grammarly.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

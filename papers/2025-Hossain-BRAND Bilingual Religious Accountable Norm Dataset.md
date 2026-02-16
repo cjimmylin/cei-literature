@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi, Bengali, South Asian"
+languages_list: "Bengali, English"
 religious_values: "Islam, Christianity, Buddhism, Hinduism"
 religious_values_list: "Islam, Christianity, Buddhism, Hinduism"
 moral_psychology: "N/A"

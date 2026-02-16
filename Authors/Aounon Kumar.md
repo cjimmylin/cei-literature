@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Han-MedSafetyBench|MedSafetyBench]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: hlakkaraju@hbs.edu
 - *From 2024-Han-MedSafetyBench*: Affiliation: University of Virginia, Email: aokumar@hbs.edu

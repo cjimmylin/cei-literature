@@ -30,6 +30,7 @@ His work argues that Western psychological traits like individualism and analyti
 
 
 
+
 - [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
 - [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]] (Last Author)
 - [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]] (Last Author)
@@ -39,6 +40,8 @@ His work argues that Western psychological traits like individualism and analyti
 
 
 
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology

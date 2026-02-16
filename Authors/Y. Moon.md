@@ -21,6 +21,7 @@ Note: Based on search results, "Y. Moon" likely refers to Youngme Moon, the Dona
 
 
 
+
 - [[2024-Moon-BEAF|BEAF]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Note: Based on search results, "Y. Moon" likely refers to Youngme Moon, the Dona
 
 
 
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs|DIB Benchmark: Decision-based Implicit Bias in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: bin2020@hit.edu.cn
 - *From 2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs*: Affiliation: Research Institute of Harbin, Email: dong@ntu.edu.sg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

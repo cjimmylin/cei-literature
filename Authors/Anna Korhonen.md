@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models|Cultural Learning-Based Culture Adaptation of Language Models]]
 - [[2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding|TurkishMMLU Measuring Massive Multitask Language Understanding]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
 - *From 2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding*: Affiliation: University of Munich, Email: arda.yueksel@tum.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

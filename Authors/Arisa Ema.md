@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2020-Ema-Artificial Intelligence and Indigenous Perspectives Protecting and|Artificial Intelligence and Indigenous Perspectives: Protecting and Empowering Intelligent Human Beings]] (First Author)
 
 ## External Links & Profiles

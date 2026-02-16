@@ -22,6 +22,7 @@ Mingke Yang is affiliated with ShanghaiTech University. Lead author of "DistillS
 
 
 
+
 - [[2024-Yang-DistillSeq|DistillSeq]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Mingke Yang is affiliated with ShanghaiTech University. Lead author of "DistillS
 
 
 
+
+- *From 2024-Yang-DistillSeq*:, Email: yi009@e.ntu.edu.sg
 - *From 2024-Yang-DistillSeq*:, Email: yi009@e.ntu.edu.sg
 - *From 2024-Yang-DistillSeq*:, Email: ling.shi@ntu.edu.sg
 - *From 2024-Yang-DistillSeq*:, Email: ling.shi@ntu.edu.sg

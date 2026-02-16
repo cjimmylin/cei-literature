@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and|Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling]] (First Author)
 - [[2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages|EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages*: Affiliation: University, Germany
 - *From 2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages*: Affiliation: University, Germany
 - *From 2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages*: Affiliation: University, Germany
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

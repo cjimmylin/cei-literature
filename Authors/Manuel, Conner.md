@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Miranda-FilBench Can LLMs Understand and Generate Filipino|FilBench: Can LLMs Understand and Generate Filipino?]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI
 - *From 2025-Miranda-FilBench Can LLMs Understand and Generate Filipino*: Affiliation: Institute for AI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Simpson-Parity Benchmark for Measuring Bias in|Parity Benchmark for Measuring Bias in]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Simpson-Parity Benchmark for Measuring Bias in*: Affiliation: University of Pennsylvania, Philadelphia, USA, Email: jonathan.nukpezah@paritii.com
 - *From 2024-Simpson-Parity Benchmark for Measuring Bias in*: Affiliation: University of Pennsylvania, Philadelphia, USA, Email: jonathan.nukpezah@paritii.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

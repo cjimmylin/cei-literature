@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Claude, DeepSeek, GPT-3, GPT-3.5, GPT-4o, Llama, claude3."
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have enabled their application to recommender systems (RecLLMs), yet concerns remain regarding fairness across demographic and psychological user dimensions. We introduce FairEval, a novel evaluation framework to systematically assess fairness in LLM-based recommendations. Unlike prior benchmarks that focus solely on demographic attributes, FairEval uniquely integrates personality traits with eight sensitive demographic attributes, including..."
 ethics_perspective: "Bias & Fairness"

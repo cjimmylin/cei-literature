@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Saunders-A Scalable Oversight Benchmark|A Scalable Oversight Benchmark]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Saunders-A Scalable Oversight Benchmark*: Affiliation: lable Oversight Benchmark - PDF Extract", Email: jackkaunis@protonmail.com
 - *From 2025-Saunders-A Scalable Oversight Benchmark*: Affiliation: lable Oversight Benchmark - PDF Extract", Email: abhimanyu.pallavi-sudhir@warwick.ac.uk
 - *From 2025-Saunders-A Scalable Oversight Benchmark*: Affiliation: lable Oversight Benchmark - PDF Extract", Email: jackkaunis@protonmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and|LLM-Based Multi-Task Bangla Hate Speech Detection: Type, Severity, and Target]]
 - [[2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal|RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis]] (Last Author)
 - [[2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media|A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict]]
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: Imran.razzak@unsw.edu.au
 - *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: usman.naseem@sydney.edu.au
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

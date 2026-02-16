@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented|Ancient Wisdom Modern Tools Exploring Retrieval-Augmented]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu
 - *From 2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented*: Affiliation: Department of Computer Science, UT Austin, Email: mandikal@utexas.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

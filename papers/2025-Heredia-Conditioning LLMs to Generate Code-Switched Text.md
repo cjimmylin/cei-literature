@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BLOOM, BERT, GPT-4o, Llama, Llama3, Llama3.3, Mistral 31.65 80, Mistral 368.0 5, Mistral 7B, Mistral Instruct"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Code-switching (CS) is still a critical challenge in Natural Language Processing (NLP), due to the limited availability of large-scale, diverse CS datasets for robust training and evaluation. Despite recent advances, the true capabilities and limitations of LLMs in handling CS remain underexplored. In this work, we investigate the extent to which LLMs can be used in a framework for CS text generation, focusing on the English-Spanish language pair."
 research_topic: "NLP & Representation Learning"

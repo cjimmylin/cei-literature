@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +16,9 @@ last_author: "[[Elena Gavagnin]]"
 authors: Jasmin Heierli, Rebecca Bahar Ganjineh, Elena Gavagnin
 url: "https://acl-bg.org/proceedings/2025/LowResNLP%202025/pdf/2025.lowresnlp-1.12.pdf"
 publication: LowResNLP 2025 Workshop (RANLP 2025)
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.pdf]]"
+pdf_extract: "PDF Extracts/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.md"
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
-languages_list: 
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Gemini, Llama, DeepSeek"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language tasks. Finds consistent performance deterioration and cultural misalignment. Role-based prompting shows only incremental improvements. Advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence."
 research_topic: "Social & Cultural Analysis"
 ---
 # Evaluating LLM Capabilities in Low-Resource Contexts: A Case Study of Persian Linguistic and Cultural Tasks

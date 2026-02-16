@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
 research_topic: "Other"
 ---
 # INHS Newsletter May 2025 - The International Network for Hate ...

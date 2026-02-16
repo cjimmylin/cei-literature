@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts|Abusive Span Detection for Vietnamese Narrative Texts]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts*: Affiliation: University of Information Technology, Email: khoaptk@uit.edu.vn
 - *From 2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts*: Affiliation: University of Information Technology, Email: khoaptk@uit.edu.vn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

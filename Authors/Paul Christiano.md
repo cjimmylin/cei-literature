@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2016-Amodei-Concrete Problems in AI Safety|Concrete Problems in AI Safety]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”

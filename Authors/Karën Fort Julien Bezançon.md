@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social|French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social*: Affiliation: centered CrowS-pairs dataset to create, Email: neveol@lisn.fr
 - *From 2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social*: Affiliation: centered CrowS-pairs dataset to create, Email: neveol@lisn.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

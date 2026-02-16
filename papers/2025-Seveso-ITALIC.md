@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2025.naacl-long.68/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NNGKX8QR/2025 - ITALIC An Italian Culture-Aware Natural Language Benchmark.pdf"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
+languages_list: "Italian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2507.11216.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Spanish, American"
 cultures_nationalities_list: "Spanish, Catalan, American"
+languages_list: "Catalan, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

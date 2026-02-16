@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy|MisAlign-Profile: Can Large Language Models Make Everyone Happy?]] (First Author)
 - [[2025-Shetty-VITAL|VITAL]] (Last Author)
 - [[2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette|Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette]] (Last Author)
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette*:, Email: jhyuan.cs@gmail.com
 - *From 2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette*:, Email: usman.naseem@mq.edu.au
 - *From 2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette*:, Email: jhyuan.cs@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

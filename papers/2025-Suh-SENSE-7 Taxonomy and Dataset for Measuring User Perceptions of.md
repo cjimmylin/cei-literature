@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ research_topic: "Machine Learning"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations
 

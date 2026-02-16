@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Beyer-LLM-Safety Evaluations Lack Robustness|LLM-Safety Evaluations Lack Robustness]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de
 - *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de
 - *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

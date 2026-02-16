@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

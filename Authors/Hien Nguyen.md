@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering|ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France
 - *From 2023-Nhan-ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering*: Affiliation: University of Orleans, INSA CVL, LIFO EA, France
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

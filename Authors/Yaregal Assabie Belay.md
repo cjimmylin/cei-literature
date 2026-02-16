@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com
 - *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tesfat@gmail.com
 - *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com
 - *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com

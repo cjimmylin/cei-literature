@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
+languages_list: "Persian"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "The advent of Large Language Models (LLMs) has revolutionized Natural
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "Llama 3, Llama 4, Llama-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 ---
 # FARSIQA: Faithful and Advanced RAG System for Islamic Question Answering

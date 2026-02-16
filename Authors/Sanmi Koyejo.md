@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Fanous-SycEval Evaluating LLM Sycophancy|SycEval: Evaluating LLM Sycophancy]] (Last Author)
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs|Measuring Desired Group Discrimination in LLMs]] (Last Author)
 - [[2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation|Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models]] (Last Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech
 - *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech
 - *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech
 - *From 2025-Wang-Measuring Desired Group Discrimination in LLMs*: Affiliation: University, Cornell Tech

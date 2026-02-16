@@ -1,7 +1,7 @@
 ---
 name: "Bakkali, Souhail"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Laboratoire Informatique Image Interaction (L3i)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Nom-KhmerST A Low-Resource Khmer Scene Text|KhmerST A Low-Resource Khmer Scene Text]]]]
 
 - [[2024-Nom-KhmerST A Low-Resource Khmer Scene Text|KhmerST A Low-Resource Khmer Scene Text]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Nom-KhmerST A Low-Resource Khmer Scene Text*: Affiliation: University, Laboratoire Informatique Image Interaction (L3i)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

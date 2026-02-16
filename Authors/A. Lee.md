@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and|Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations]] (Last Author)
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and*:, Email: alice.oh@kaist.edu
 - *From 2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and*:, Email: alice.oh@kaist.edu
 - *From 2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and*:, Email: alice.oh@kaist.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

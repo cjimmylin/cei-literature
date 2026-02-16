@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "Sanskrit"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
@@ -41,7 +44,7 @@ is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 tags: 
-abstract: 
+abstract: "Evaluation Dataset used for the study published as Embeddings models for Buddhist Sanskrit, <em>LREC 2022 proceedings</em>. It contains a semantic similarity dataset and an analogy dataset, as well as the published study and a ReadMe file containing the guidelines used for scoring semantic similarity and some notes about the manual scoring task. The evaluation datasets have been prepared by Ligeia Lugli, Bruno Galasek-Hul, Luis Quiñones and Jai Paranjape"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "NA"

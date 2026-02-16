@@ -29,6 +29,7 @@ Other notable publications include:
 
 
 
+
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]] (First Author)
 
 ## Notes
@@ -36,6 +37,8 @@ Other notable publications include:
 
 
 
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu

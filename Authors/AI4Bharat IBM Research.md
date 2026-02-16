@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Research-IndQA An Indic QA Benchmark for|IndQA An Indic QA Benchmark for]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Research-IndQA An Indic QA Benchmark for*: Affiliation: departments
 - *From 2025-Research-IndQA An Indic QA Benchmark for*: Affiliation: departments
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

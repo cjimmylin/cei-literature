@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Šekrst-AI Ethics by Design|AI Ethics by Design]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: ksekrst@ffzg.hr
 - *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: ksekrst@ffzg.hr
 - *From 2024-Šekrst-AI Ethics by Design*: Affiliation: University of Zagreb, Email: jon@preamble.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

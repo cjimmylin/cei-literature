@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Drukker-Concerns and Values in Human-Robot Interactions|Concerns and Values in Human-Robot Interactions]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Drukker-Concerns and Values in Human-Robot Interactions*: Affiliation: Lab-AIRO, Ghent University – imec, Ghent, Belgium, Email: giulioantonio.abbo@ugent.be
 - *From 2025-Drukker-Concerns and Values in Human-Robot Interactions*: Affiliation: Lab-AIRO, Ghent University – imec, Ghent, Belgium, Email: giulioantonio.abbo@ugent.be
 - *From 2025-Drukker-Concerns and Values in Human-Robot Interactions*: Affiliation: Lab-AIRO, Ghent University – imec, Ghent, Belgium, Email: giulioantonio.abbo@ugent.be
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

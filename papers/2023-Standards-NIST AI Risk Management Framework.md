@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.nist.gov/itl/ai-risk-management-framework"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/S3GSZDAU/Standards and Technology (NIST) - 2023 - NIST AI Risk Management Framework.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

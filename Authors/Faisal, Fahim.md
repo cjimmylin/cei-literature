@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency|Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistency Across Language Varieties]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University
 - *From 2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency*: Affiliation: Department of Computer Science, George Mason University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large|EmoBench-M: Benchmarking Emotional Intelligence for Multimodal Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: yucheng.zhou@connect.um.edu.mo
 - *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: huhe@gml.ac.cn
 - *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: huhe@gml.ac.cn
 - *From 2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large*: Affiliation: College of Computer Science and Software Engineering, Shenzhen University, Email: mafei@gml.ac.cn

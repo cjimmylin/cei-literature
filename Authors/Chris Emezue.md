@@ -34,6 +34,7 @@ Chris Emezue is a researcher and PhD student affiliated with Mila (Quebec AI Ins
 
 
 
+
 - [[2025-Emezue-NaijaVoices|NaijaVoices]] (First Author)
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 
@@ -46,6 +47,8 @@ Chris Emezue is a researcher and PhD student affiliated with Mila (Quebec AI Ins
 
 
 
+
+- *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com
 - *From 2025-Emezue-NaijaVoices*: Affiliation: Institute, 4MLCollective, 5The Ohio State, Email: info@naijavoices.com

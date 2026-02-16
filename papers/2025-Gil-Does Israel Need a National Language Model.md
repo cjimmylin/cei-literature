@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +17,7 @@ authors: Baram, Gil; Lavi, Hadas; Shapira, Noa
 url: "https://www.inss.org.il/publication/israel-ai/"
 publication: INSS (Institute for National Security Studies)
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew, Israeli"
-languages_list: 
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "INSS policy paper arguing Israel must develop a national language model to preserve cultural values, national narratives, and digital sovereignty. Notes that reliance on foreign LLMs means Israeli culture and values are shaped by external systems."
 research_topic: "NLP & Representation Learning"
 ---
 # Does Israel Need a National Language Model?

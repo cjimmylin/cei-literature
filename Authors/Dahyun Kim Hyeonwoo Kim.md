@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical|Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: bcj1210@korea.ac.kr
 - *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: bcj1210@korea.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

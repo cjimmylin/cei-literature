@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT4, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "This paper introduces a public leaderboard that comprehensively assesses and benchmarks Large Language Models (LLMs) according to a set of ethical biases and test metrics. The initiative aims to raise awareness about the status of the latest advances in development of ethical AI, and foster its alignment to recent regulations in order to guardrail its societal impacts."
 ethics_perspective: "Bias & Fairness"

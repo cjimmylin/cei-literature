@@ -28,6 +28,7 @@ The research was conducted in collaboration with Ganqu Cui, Lifan Yuan, Ning Din
 
 
 
+
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]] (First Author)
 
 ## Notes
@@ -35,6 +36,8 @@ The research was conducted in collaboration with Ganqu Cui, Lifan Yuan, Ning Din
 
 
 
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn

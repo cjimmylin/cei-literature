@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large|AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

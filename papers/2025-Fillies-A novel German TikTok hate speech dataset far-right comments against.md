@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "With the rise of new social media platforms designed for teenagers and adolescents, the importance of content moderation supported by algorithms is more necessary than ever. State-of-the-art hate speech detection algorithms are increasingly challenged by the rapid and creative evolution of modern language. To better understand the online discourse and phenomena of German far-right extremism on contemporary platforms, this research presents the first German TikTok dataset, consisting of 10,586..."
 ethics_perspective: "Toxicity & Hate Speech"

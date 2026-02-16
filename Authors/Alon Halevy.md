@@ -33,6 +33,7 @@ Alon's research has evolved to include the ethical and societal impacts of data-
 
 
 
+
 - [[2023-Ziems-NormBank|NormBank]]
 - [[2022-Ziems-The Moral Integrity Corpus|The Moral Integrity Corpus]]
 
@@ -45,6 +46,8 @@ Alon's research has evolved to include the ethical and societal impacts of data-
 
 
 
+
+- *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology
 - *From 2022-Ziems-The Moral Integrity Corpus*: Affiliation: Institute of Technology

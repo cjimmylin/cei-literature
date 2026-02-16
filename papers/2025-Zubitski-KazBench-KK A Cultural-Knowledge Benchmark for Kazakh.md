@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"
+languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "We introduce KazBench-KK, a comprehensive 7,111-question multiple-cho
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek, Gemma-3, LLama-3.1, Llama, Llama-3, Llama-3.3, Mistral, Qwen, Qwen 2.5, Qwen-32B"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # KazBench-KK: A Cultural-Knowledge Benchmark for Kazakh

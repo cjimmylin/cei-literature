@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop|Probing PLMs for Cross-Cultural Values (C3NLP Workshop)]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 - *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 - *From 2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop*: Affiliation: Institute for Mathematical Sciences, Email: wizzy@aims.ac.za
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

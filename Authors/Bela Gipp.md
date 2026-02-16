@@ -49,6 +49,7 @@ With over 10,000 citations, Professor Gipp is a leading researcher in informatio
 
 
 
+
 - [[2025-Becker-Stay Focused|Stay Focused]] (Last Author)
 
 ## External Links & Profiles
@@ -66,6 +67,8 @@ With over 10,000 citations, Professor Gipp is a leading researcher in informatio
 
 
 
+
+- *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de
 - *From 2025-Becker-Stay Focused*: Affiliation: University of Göttingen, Germany; 2LKA NRW, Germany; 3University of Vienna, Germany, Email: jonas.becker@uni-goettingen.de

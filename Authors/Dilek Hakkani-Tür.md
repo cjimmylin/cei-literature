@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion|Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion*: Affiliation: University of Illinois Urbana-Champaign

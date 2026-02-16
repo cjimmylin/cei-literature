@@ -34,6 +34,7 @@ Cheol Woo Kim is a PhD student in Computer Science and Operations Research at th
 
 
 
+
 - [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]] (First Author)
 - [[2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical|Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs]] (Last Author)
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -47,6 +48,8 @@ Cheol Woo Kim is a PhD student in Computer Science and Operations Research at th
 
 
 
+
+- *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: bcj1210@korea.ac.kr
 - *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: bcj1210@korea.ac.kr
 - *From 2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical*: Affiliation: Labs, 3Liner, 4Korea University, Email: kian.kim@twelvelabs.io
 - *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu

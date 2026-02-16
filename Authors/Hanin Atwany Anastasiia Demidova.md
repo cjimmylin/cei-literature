@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs|John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs]] (First Author)
 - [[2025-Demidova-SIGARAB - Arabic NLP Archives|SIGARAB - Arabic NLP Archives]] (First Author)
 - [[2024-Demidova-dblp ArabicNLP 2024|dblp: ArabicNLP 2024]] (First Author)
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs*: Affiliation: University of Artificial Intelligence, Email: muhammad.mageed@ubc.ca
 - *From 2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs*: Affiliation: University of Artificial Intelligence, Email: muhammad.mageed@ubc.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

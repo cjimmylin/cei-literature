@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Singla-Samayik A Benchmark and Dataset for|Samayik A Benchmark and Dataset for]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Singla-Samayik A Benchmark and Dataset for*: Affiliation: University of Utah, 3Learno
 - *From 2024-Singla-Samayik A Benchmark and Dataset for*: Affiliation: University of Utah, 3Learno
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

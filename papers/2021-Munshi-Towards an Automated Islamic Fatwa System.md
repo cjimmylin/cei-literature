@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
 external_pdf: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Towards an Automated Islamic Fatwa System: Survey, Dataset and Benchmarks
 

@@ -1,9 +1,9 @@
 ---
 name: "Vries, Wietse de"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Groningen"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "wietse.de.vries@rug.nl"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models|DUMB: A Benchmark for Smart Evaluation of Dutch Models]] (First Author)]]
 
 - [[2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models|DUMB: A Benchmark for Smart Evaluation of Dutch Models]] (First Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models*: Affiliation: University of Groningen, Email: wietse.de.vries@rug.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

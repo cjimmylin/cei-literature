@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -20,6 +21,7 @@ local_pdf: "[[PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourish
 external_pdf: "https://arxiv.org/pdf/2507.07787.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: N/A
@@ -39,7 +41,7 @@ is_dataset: No
 data_description: Benchmark
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Claude, Grok"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
  Measuring AI Alignment with Human Flourishing

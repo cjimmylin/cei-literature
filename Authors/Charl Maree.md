@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com
 - *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com
 - *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com
 - *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque|BasqueGLUE: A Natural Language Understanding Benchmark for Basque]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

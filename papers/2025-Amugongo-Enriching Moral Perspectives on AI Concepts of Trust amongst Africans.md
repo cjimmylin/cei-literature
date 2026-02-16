@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Ghanaian, Kenyan, Nigerian, South African, Sub-Saharan African, Ubuntu"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research."
 ethics_perspective: "General Ethics"
 ---
 # Enriching Moral Perspectives on AI: Concepts of Trust amongst Africans

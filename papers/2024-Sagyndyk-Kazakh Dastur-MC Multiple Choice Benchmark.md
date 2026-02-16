@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +16,7 @@ authors: Beksultan Sagyndyk, Sanzhar Murzakhmetov, Sanzhar Umbet, Kirill Yakunin
 url: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 publication: HuggingFace
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +24,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"
-languages_list: 
+languages_list: "Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

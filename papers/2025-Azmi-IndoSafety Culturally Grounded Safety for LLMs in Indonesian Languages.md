@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 312, GPT-4o, Gemma, Gemma2, LLaMA 3.116, LLaMA-3.1, Llama, Qwen, Qwen-14B, Qwen-14B14, Qwen-7B, Qwen2.5, claude-3, claude-3-haiku, gemma-2"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Although region-specific large language models (LLMs) are increasingly developed, their safety remains underexplored, particularly in culturally diverse settings like Indonesia, where sensitivity to local norms is essential and highly valued by the community. In this work, we present IndoSafety, the first high-quality, human-verified safety evaluation dataset tailored for the Indonesian context, covering five language varieties: formal and colloquial Indonesian, along with three major local..."
 ethics_perspective: "AI Safety & Alignment"

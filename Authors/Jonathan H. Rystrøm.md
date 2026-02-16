@@ -21,5 +21,6 @@ DPhil student in Social Data Science at Oxford Internet Institute, University of
 
 
 
+
 - [[2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual|Multilingual Multicultural Evaluating Gaps Between Multilingual]] (First Author)
 - [[2023-Rystrøm-Apolitical Intelligence|Apolitical Intelligence?]] (First Author)

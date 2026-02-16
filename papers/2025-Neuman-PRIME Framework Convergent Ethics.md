@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2504.19255.pdf"
 ethics_perspective: "Moral Foundations Analysis"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental, Value Pluralism / Schwartz"
@@ -39,7 +41,7 @@ is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Claude, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 publication: "arXiv preprint"
 DATE_ADDED: 20260207

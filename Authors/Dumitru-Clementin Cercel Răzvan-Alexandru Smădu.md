@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge|Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge*: Affiliation: Faculty of Automatic Control and Computers, National University of Science and, Email: dumitru.cercel@upb.ro.
 - *From 2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge*: Affiliation: Faculty of Automatic Control and Computers, National University of Science and, Email: dumitru.cercel@upb.ro.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

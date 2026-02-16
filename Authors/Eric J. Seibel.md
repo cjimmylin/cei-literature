@@ -37,6 +37,7 @@ Eric J. Seibel is a Research Professor at the University of Washington in the De
 
 
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links
@@ -49,6 +50,8 @@ Eric J. Seibel is a Research Professor at the University of Washington in the De
 
 
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn

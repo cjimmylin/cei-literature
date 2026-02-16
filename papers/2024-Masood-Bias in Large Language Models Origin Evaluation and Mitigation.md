@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-4, Llama, Llama Guard"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have revolutionized natural language processing, but their susceptibility to biases poses signiﬁcant challenges. This comprehensive review examines the landscape of bias in LLMs, from its origins to current mitigation strategies. We categorize biases as intrinsic and extrinsic, analyzing their manifestations in various NLP tasks. The review critically assesses a range of bias evaluation methods, including data-level, model-level, and output-level approaches,..."
 ethics_perspective: "Bias & Fairness"

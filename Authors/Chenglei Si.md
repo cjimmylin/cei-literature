@@ -34,6 +34,7 @@ Chenglei Si is a PhD student in Natural Language Processing (NLP) at Stanford Un
 
 
 
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## External Links & Profiles
@@ -46,6 +47,8 @@ Chenglei Si is a PhD student in Natural Language Processing (NLP) at Stanford Un
 
 
 
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jbg@umiacs.umd.edu

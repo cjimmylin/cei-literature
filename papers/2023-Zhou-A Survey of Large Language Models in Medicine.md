@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ authors: "Hongjian Zhou; Fenglin Liu; Boyang Gu; Xinyu Zou; Jinfa Huang; Jinge W
 external_pdf: "file:///Users/jimmylin/Zotero/storage/W4BM83AK/Zhou et al. - A Survey of Large Language Models in Medicine Progress, Application, and Challenge.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"

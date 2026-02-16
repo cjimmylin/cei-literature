@@ -49,6 +49,7 @@ Salvador authored a comprehensive 60-page research report titled "Certified Safe
 
 
 
+
 - [[2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI|A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI]] (First Author)
 
 ## External Links & Profiles
@@ -62,6 +63,8 @@ Salvador authored a comprehensive 60-page research report titled "Certified Safe
 
 
 
+
+- *From 2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI*: Affiliation: lable—a catastrophic combination
 - *From 2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI*: Affiliation: lable—a catastrophic combination
 - *From 2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI*: Affiliation: lable—a catastrophic combination
 Cole Salvador represents a new generation of AI policy researchers combining technical computer science training with practical policy experience to address critical AI governance challenges.

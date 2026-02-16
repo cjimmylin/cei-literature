@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2021.mrqa-1.11/"
 external_pdf: "https://aclanthology.org/2021.mrqa-1.11.pdf"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli"
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

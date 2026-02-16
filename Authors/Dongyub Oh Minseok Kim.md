@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Lee-Knowing the Words Missing the Meaning Evaluating LLMs' Cultural|Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms]] (Last Author)
 
 ## External Links & Profiles

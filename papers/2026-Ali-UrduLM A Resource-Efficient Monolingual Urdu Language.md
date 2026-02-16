@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,7 @@ authors: Syed Muhammad Ali; Hammad Sajid; Zainab Haider; Ali Muhammad Asad; Haya
 url: "https://arxiv.org/abs/2601.17664"
 external_pdf: "https://arxiv.org/pdf/2601.17664.pdf"
 pdf_extract: "PDF Extracts/2026/2026-[[Ali]]-UrduLM A Resource-Efficient Monolingual Urdu Language.md"
-local_pdf: "[[PDFs/2026/2026-[[Ali]]-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
+local_pdf: "[[PDFs/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Urdu, Pakistani"
+languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ abstract: "Urdu, spoken by 230 million people worldwide, lacks dedicated transfo
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-4, Gemma, Gemma 2, GloVe, Llama, LLaMA 3.2, Llama-2, Qwen, Qwen 1.5B, Qwen 2.5, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # UrduLM: A Resource-Efficient Monolingual Urdu Language Model

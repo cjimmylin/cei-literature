@@ -48,6 +48,7 @@ He co-developed "HateXplain," a widely used benchmark dataset for explainable ha
 
 
 
+
 - [[2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection|HateCheckHIn Evaluating Hindi Hate Speech Detection]]
 - [[2020-Mathew-HateXplain|HateXplain]] (First Author)
 
@@ -67,6 +68,8 @@ He co-developed "HateXplain," a widely used benchmark dataset for explainable ha
 
 
 
+
+- *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: biemann@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: binnymathew@iitkgp.ac.in
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: yimam@informatik.uni
 - *From 2020-Mathew-HateXplain*: Affiliation: Institute of Technology, Kharagpur, India, Email: animeshm@cse.iitkgp.ac.in

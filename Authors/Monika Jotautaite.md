@@ -27,6 +27,7 @@ The research, conducted at Pivotal with collaboration from Mary Phuong at DeepMi
 
 
 
+
 - [[2025-Jotautaite-From Stability to Inconsistency|From Stability to Inconsistency]] (First Author)
 
 ## Notes
@@ -34,6 +35,8 @@ The research, conducted at Pivotal with collaboration from Mary Phuong at DeepMi
 
 
 
+
+- *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to
 - *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to
 - *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to
 - *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge

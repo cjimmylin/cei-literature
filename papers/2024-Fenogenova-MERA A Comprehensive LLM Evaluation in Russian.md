@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2024.acl-long.534/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ESQLWPZ/2024 - MERA A Comprehensive LLM Evaluation in Russian.pdf"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
+languages_list: "Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

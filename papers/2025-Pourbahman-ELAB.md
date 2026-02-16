@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://arxiv.org/abs/2504.12553"
 external_pdf: "https://arxiv.org/pdf/2504.12553.pdf"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
+languages_list: "Persian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

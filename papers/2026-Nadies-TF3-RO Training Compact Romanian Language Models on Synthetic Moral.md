@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Romanian"
+languages_list: "Romanian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Recent advances in synthetic data generation have shown that compact 
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, DeepSeek, GPT-4, Gemma 2, Llama, Llama-3"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction
 

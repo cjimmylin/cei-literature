@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Khan-From Tradition to Technology A Systematic Survey on Navigating Pashto|From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP]] (First Author)
 
 ## External Links & Profiles

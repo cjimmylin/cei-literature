@@ -1,9 +1,9 @@
 ---
 name: "Beauchemin, David"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University (GRAIL)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "yan.tremblay.6@ulaval.ca"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding|COLE: a Comprehensive Benchmark for French Language Understanding Evaluation]] (First Author)]]
 
 - [[2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding|COLE: a Comprehensive Benchmark for French Language Understanding Evaluation]] (First Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding*: Affiliation: University (GRAIL), Email: yan.tremblay.6@ulaval.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

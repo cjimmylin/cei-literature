@@ -34,12 +34,15 @@ Alexander's research specifically addresses the shift from static AI models to a
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## Notes
 
 
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

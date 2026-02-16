@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_GRAVES2025
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.m
 local_pdf: "[[PDFs/2025/2025-Graves-AI Practical Wisdom and Compassion.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: Buddhism
 religious_values_list: Buddhism
 moral_psychology: Yes

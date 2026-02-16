@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,9 +37,9 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Presents a multimodal approach to hate speech detection combining BERT and ResNet for hateful, xenophobic, and racist speech in Greek aimed at refugees and migrants. Includes a new dataset of 4,004 memes for detecting hate speech in Greek and a tweet classification dataset."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Multimodal Hate Speech Detection in Greek Social Media

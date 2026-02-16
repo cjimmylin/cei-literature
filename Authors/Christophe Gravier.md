@@ -36,6 +36,7 @@ Christophe Gravier is a Professor at Jean Monnet University, Saint-Etienne, Fran
 
 
 
+
 - [[2025-Leteno-Histoires Morales|Histoires Morales]] (Last Author)
 
 ## External Links & Profiles
@@ -49,6 +50,8 @@ Christophe Gravier is a Professor at Jean Monnet University, Saint-Etienne, Fran
 
 
 
+
+- *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: thibaud.leteno@univ-st-etienne.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: thibaud.leteno@univ-st-etienne.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr

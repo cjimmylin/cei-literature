@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case|Re-contextualizing Fairness in NLP The Case]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case*:, Email: vinodkpg@google.com
 - *From 2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case*:, Email: vinodkpg@google.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

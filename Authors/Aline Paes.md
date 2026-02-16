@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance|Exploring Brazil's LLM Fauna: Investigating the Generative Performance of Large Language Models in Portuguese]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: assisgabriel@id.uff.br
 - *From 2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance*: Affiliation: Institute of Computing, Universidade Federal Fluminense, Av, Email: assisgabriel@id.uff.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

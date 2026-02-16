@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2021-Clark-All That's 'Human' Is Not Gold|All That's 'Human' Is Not Gold]]
 - [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Gehman-RealToxicityPrompts*: Affiliation: School of Computer Science & Engineering, University of Washington

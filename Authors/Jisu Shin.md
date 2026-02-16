@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: jisu.shin@kaist.ac.kr
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: jisu.shin@kaist.ac.kr
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu

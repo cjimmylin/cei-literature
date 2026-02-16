@@ -36,6 +36,7 @@ Dr. Das's research program investigates multimodal machine learning for deceptiv
 
 
 
+
 - [[2025-Joshi-Multimodal machine learning for deception|Multimodal machine learning for deception]]
 
 ## External Links & Profiles
@@ -48,6 +49,8 @@ Dr. Das's research program investigates multimodal machine learning for deceptiv
 
 
 
+
+- *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems
 - *From 2025-Joshi-Multimodal machine learning for deception*: Affiliation: lable, and advanced deception detection systems

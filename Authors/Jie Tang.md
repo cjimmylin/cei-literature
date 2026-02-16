@@ -25,6 +25,7 @@ Tang is a leading figure in Chinese AI research, having authored the open-source
 
 
 
+
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 - [[2023-Liu-AgentBench|AgentBench]] (Last Author)
 - [[2023-Liu-AlignBench|AlignBench]] (Last Author)
@@ -34,6 +35,8 @@ Tang is a leading figure in Chinese AI research, having authored the open-source
 
 
 
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley

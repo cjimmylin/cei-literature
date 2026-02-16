@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese|Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: shaojuiwang@mail.ntust.edu.tw
 - *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: b11132009@mail.ntust.edu.tw
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

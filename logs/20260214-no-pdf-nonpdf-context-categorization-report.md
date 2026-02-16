@@ -73,7 +73,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 - Dominant source types: publisher-journal:9, web-other:5, code-repo:3
 - Sample papers:
   - `2023-Canada-Bias Considerations in Bilingual Natural Language Processing.md` (2025, web-other)
-  - `2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md` (2025, code-repo)
+  - `2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md` (2025, code-repo)
   - `2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md` (2025, code-repo)
   - `2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate.md` (2025, code-repo)
   - `2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md` (2025, publisher-journal)
@@ -143,7 +143,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md` | 2025 | web-other | tjee.tabrizu.ac.ir | ethics_perspective:Toxicity & Hate Speech |
 | `2023-Unknown-Hate speech and abusive language detection in Indonesian social media.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
 | `2023-Unknown-Pars-HaO Hate and Offensive Language Detection on Persian Tweets.md` | 2025 | web-other | www.authorea.com | ethics_perspective:Toxicity & Hate Speech |
-| `2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
+| `2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
 | `2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Azerbaijan-Azerbaijani Toxicity Classifier.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Toxicity/Hate Speech |
 | `2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md` | 2025 | web-other | pmc.ncbi.nlm.nih.gov | ethics_perspective:Toxicity & Hate Speech |
@@ -151,20 +151,20 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2024-Overfit-GM-Turkish Overfit-GM Toxic Language Dataset.md` | 2025 | code-repo | huggingface.co | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Toygar-Turkish Offensive Language Detection Dataset.md` | 2025 | code-repo | huggingface.co | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
-| `2024-Unknown-A Deep Learning Framework for Automatic Detection of Hate Speech.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
-| `2024-Unknown-Available hate speech datasets for Arabic. Download Scientific Diagram.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Duwairi-A Deep Learning Framework for Automatic Detection of Hate Speech.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md` | 2025 | publisher-journal | link.springer.com | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Yeltay-Kazakh Language Dataset for Hate Speech.md` | 2024 | publisher-journal | doi.org | ethics_perspective:Toxicity & Hate Speech |
-| `2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md` | 2025 | web-other | www.mdpi.com | heuristic:title_abstract_url:Toxicity/Hate Speech |
+| `2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md` | 2025 | web-other | www.mdpi.com | heuristic:title_abstract_url:Toxicity/Hate Speech |
 | `2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md` | 2025 | web-other | www.mdpi.com | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Altinel-So-haTRed A Novel Hybrid System for.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
-| `2024-Unknown-HateThaiSent Sentiment-Aided Hate Speech Detection in.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
+| `2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
 | `2024-Khanduja-Telugu Language Hate Speech Detection Using.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Deepawali-Hate Speech Detection Research in South Asian Languages A Survey of.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Hendrycks-MUST An Explainable AI-Based Framework for Multilingual Hate Speech.md` | 2025 | publisher-journal | ieeexplore.ieee.org | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification.md` | 2025 | web-other | www.kaggle.com | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Unknown-Enhancing Multilingual Hate Speech Detection From Language-Specific.md` | 2025 | web-other | www.researchgate.net | ethics_perspective:Toxicity & Hate Speech |
-| `2025-Unknown-Improving hate speech detection using Cross-Lingual Learning -.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
+| `2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Toxicity & Hate Speech |
 | `2025-Mohan-A Multimodal Approach for Hate and.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Toxicity & Hate Speech |
 
 ### Bias/Fairness
@@ -172,7 +172,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | Paper | Year | Source Type | Domain | Assignment Reason |
 |---|---:|---|---|---|
 | `2023-Canada-Bias Considerations in Bilingual Natural Language Processing.md` | 2025 | web-other | www.statcan.gc.ca | ethics_perspective:Bias & Fairness |
-| `2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md` | 2025 | code-repo | huggingface.co | ethics_perspective:Bias & Fairness |
+| `2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md` | 2025 | code-repo | huggingface.co | ethics_perspective:Bias & Fairness |
 | `2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md` | 2025 | code-repo | huggingface.co | ethics_perspective:Bias & Fairness |
 | `2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate.md` | 2025 | code-repo | github.com | ethics_perspective:Bias & Fairness |
 | `2025-Aly-Applying Data Feminism Principles to Assess Bias in English and.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Bias & Fairness |
@@ -185,9 +185,9 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....md` | 2025 | org-site | www.preprints.org | ethics_perspective:Bias & Fairness |
 | `2025-Unknown-Benchmarking Large Language Models for fairness across diverse.md` | 2025 | web-other | community.sap.com | ethics_perspective:Bias & Fairness |
 | `2025-Unknown-Cultural Bias in Large Language Models A Comprehensive Analysis and.md` | 2025 | web-other | www.degruyterbrill.com | ethics_perspective:Bias & Fairness |
-| `2025-Unknown-Diagnosing the bias iceberg in large language models A three-level.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Bias & Fairness |
+| `2025-Xiang-Diagnosing the bias iceberg in large language models A three-level.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Bias & Fairness |
 | `2025-Unknown-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md` | 2025 | publisher-journal | www.sciencedirect.com | ethics_perspective:Bias & Fairness |
-| `2025-Unknown-Nlp Fairness ConceptNet blog.md` | 2025 | blog | blog.conceptnet.io | ethics_perspective:Bias & Fairness |
+| `2025-Xu-Nlp Fairness ConceptNet blog.md` | 2025 | blog | blog.conceptnet.io | ethics_perspective:Bias & Fairness |
 | `2025-Wasi-Dialectal Bias in Bengali An Evaluation of Multilingual Language.md` | 2025 | publisher-journal | dl.acm.org | ethics_perspective:Bias & Fairness |
 | `2026-Comandini-GSIdetect - Gender Stereotype Detection Shared Task at EVALITA 2026.md` | 2025 | web-other | www.evalita.it | ethics_perspective:Bias & Fairness |
 
@@ -223,8 +223,8 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Rourke-Mind Crime.md` | 2025 | web-other | www.goodreads.com | heuristic:title_abstract_url:General Ethics/Values |
 | `2025-Unknown-Mirroring Cultural Dominance Disclosing Large Language Models Social.md` | 2025 | web-other | www.mdpi.com | ethics_perspective:Social & Cultural Values |
 | `2025-Unknown-New report and guidelines for indigenous data sovereignty in.md` | 2025 | org-site | www.unesco.org | heuristic:title_abstract_url:General Ethics/Values |
-| `2025-Unknown-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md` | 2025 | academic-site | vce.usc.edu | ethics_perspective:Social & Cultural Values |
-| `2025-Unknown-Subjective Values.md` | 2025 | web-other | llmglobalvalues.anthropic.com | ethics_perspective:General Ethics |
+| `2025-Jiang-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md` | 2025 | academic-site | vce.usc.edu | ethics_perspective:Social & Cultural Values |
+| `2025-Durmus-Subjective Values.md` | 2025 | web-other | llmglobalvalues.anthropic.com | ethics_perspective:General Ethics |
 | `2025-Göçen-Teachers vs. large language models ethical decision-making across.md` | 2025 | publisher-journal | www.tandfonline.com | ethics_perspective:Machine Ethics |
 
 ### Machine Translation/Multilingual
@@ -243,15 +243,15 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Pretrained-Optimizing Uyghur Speech Synthesis by Combining Pretrained.md` | 2025 | publisher-journal | dl.acm.org | research_topic:Machine Translation |
 | `2025-Sun-Evaluating the Translation Accuracy of ChatGPT and DeepL Through the.md` | 2025 | web-other | papers.ssrn.com | research_topic:Machine Translation |
 | `2025-Sun-Full article ChatGPT translation vs. human translation an examination.md` | 2025 | publisher-journal | www.tandfonline.com | research_topic:Machine Translation |
-| `2025-Unknown-A multilingual language processing tool for Uyghur Kazak and Kirghiz.md` | 2025 | publisher-journal | ieeexplore.ieee.org | research_topic:Machine Translation |
-| `2025-Unknown-Exploring cultural commonsense in multilingual large language models.md` | 2025 | academic-site | pure.bit.edu.cn | research_topic:Machine Translation |
+| `2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz.md` | 2025 | publisher-journal | ieeexplore.ieee.org | research_topic:Machine Translation |
+| `2025-Binegde-Exploring cultural commonsense in multilingual large language models.md` | 2025 | academic-site | pure.bit.edu.cn | research_topic:Machine Translation |
 | `2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md` | 2025 | publisher-journal | www.frontiersin.org | research_topic:Machine Translation |
-| `2025-Unknown-Multilingual Multicultural Evaluation Workshop.md` | 2025 | web-other | multilingual-multicultural-evaluation.github.io | research_topic:Machine Translation |
+| `2025-Aji-Multilingual Multicultural Evaluation Workshop.md` | 2025 | web-other | multilingual-multicultural-evaluation.github.io | research_topic:Machine Translation |
 | `2025-Unknown-Multilingual NLP Code-Switching Variants & Dialects Appen.md` | 2025 | web-other | www.appen.com | research_topic:Machine Translation |
 | `2025-Unknown-Multilingual Sentiment Analysis with Data Augmentation A.md` | 2025 | web-other | www.mdpi.com | research_topic:Machine Translation |
 | `2025-Unknown-New Guidelines for Evaluating Literary Translation in Hiring and.md` | 2025 | blog | literarytranslators.wordpress.com | research_topic:Machine Translation |
 | `2025-Unknown-Optimizing Sentiment Analysis in Multilingual Balanced Datasets A New.md` | 2025 | web-other | www.mdpi.com | research_topic:Machine Translation |
-| `2025-Unknown-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION.md` | 2025 | web-other | sea-lion.ai | research_topic:Machine Translation |
+| `2025-Hulagadri-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION.md` | 2025 | web-other | sea-lion.ai | research_topic:Machine Translation |
 
 ### Dataset/Benchmark Resource
 
@@ -265,7 +265,7 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2023-Huang-Vigogne French instruction-following and chat models.md` | 2025 | code-repo | github.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks.md` | 2025 | code-repo | github.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2023-University-Antisemitism on Twitter A Dataset for.md` | 2023 | publisher-journal | doi.org | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-CiTIUS-A Galician-Portuguese Generative Model.md` | 2025 | publisher-journal | link.springer.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-Garcia-Open Portuguese LLM Leaderboard.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-Gordic-Serbian LLM Evaluation Dataset.md` | 2025 | code-repo | github.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
@@ -283,18 +283,18 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2024-Yakunin-Kazakh Dastur-MC Multiple Choice Benchmark on.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-community-Open Leaderboard for Hebrew LLMs.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs.md` | 2025 | code-repo | github.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2024-Unknown-A Novel Socio-pragmatic Framework for Sentiment.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2024-Jothi Prakash-A Novel Socio-pragmatic Framework for Sentiment.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2024-team-MahaMarathi-7B Marathi Large Language Model.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Consortium-The Vals Legal AI Report (VLAIR).md` | 2025 | web-other | www.vals.ai | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Lab-ArmBench-LLM A Benchmark for Evaluating Large Language Models on.md` | 2025 | web-other | metric.am | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Research-IndQA An Indic QA Benchmark for.md` | 2025 | web-other | www.ibm.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-A dataset of Mongolian Tibetan and Uyghur speech fragments based on.md` | 2025 | web-other | www.scidb.cn | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2025-Unknown-Benchmarking four large language models’ performance of addressing.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2025-Shi-Benchmarking four large language models’ performance of addressing.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-Bochun Automatically Annotated Stance Detection Dataset for Sorani.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2025-Unknown-CC100-Mongolian dataset - NLP Database.md` | 2025 | web-other | autonlp.ai | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2025-Wenzek-CC100-Mongolian dataset - NLP Database.md` | 2025 | web-other | autonlp.ai | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-IndQA A Culture-Aware Benchmark for Indian Languages.md` | 2025 | web-other | openai.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-MIZAN A Persian LLM Leaderboard.md` | 2025 | code-repo | huggingface.co | heuristic:title_abstract_url:Dataset/Benchmark Resource |
-| `2025-Unknown-Multi-lingual HateSpeech Dataset.md` | 2025 | web-other | www.kaggle.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
+| `2025-Moosa-Multi-lingual HateSpeech Dataset.md` | 2025 | web-other | www.kaggle.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Unknown-TELEIA A Spanish Language Dataset for Evaluating Artificial.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 | `2025-Solidjonov-How do LLMs perform on Turkish.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Dataset/Benchmark Resource |
 
@@ -312,22 +312,22 @@ Source PDFs dir: `/Users/jimmy.lin/Documents/CEI-Literature-Vault/PDFs`
 | `2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally.md` | 2025 | web-other | www.mdpi.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Pretrained-Research on the Training and Application Methods of a Lightweight.md` | 2025 | web-other | www.mdpi.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Salehi-Blind Faith User Preference and Expert.md` | 2025 | publisher-journal | dl.acm.org | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-AI and Indigenous Languages.md` | 2025 | blog | blog.westerndigital.com | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Corbett-AI and Indigenous Languages.md` | 2025 | blog | blog.westerndigital.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-An Overview of Chinese Open-Source LLMs Sept 2025 IntuitionLabs.md` | 2025 | web-other | intuitionlabs.ai | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-ArabicNLP 2025.md` | 2025 | org-site | arabicnlp2025.sigarab.org | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Artificial Intelligence and Indigenous Peoples’ Realities Cultural.md` | 2025 | org-site | www.culturalsurvival.org | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Sangma-Artificial Intelligence and Indigenous Peoples’ Realities Cultural.md` | 2025 | org-site | www.culturalsurvival.org | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-Bilingual Code-Switching Using XLM-RoBERTa.md` | 2025 | publisher-journal | doi.org | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Decolonizing African NLP A Survey on Power Dynamics and Data.md` | 2025 | web-other | www.researchgate.net | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Decolonizing LLMs An Ethnographic Framework for AI in African.md` | 2025 | org-site | www.epicpeople.org | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Decolonizing Minority Language Technology - State of the Internet's.md` | 2025 | org-site | internetlanguages.org | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md` | 2025 | web-other | www.researchgate.net | heuristic:title_abstract_url:Other/Unclear |
+| `2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African.md` | 2025 | org-site | www.epicpeople.org | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Soria-Decolonizing Minority Language Technology - State of the Internet's.md` | 2025 | org-site | internetlanguages.org | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-Ensuring Indigenous Peoples’ rights in the age of AI United Nations.md` | 2025 | org-site | www.un.org | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Frontiers Evaluating large language models a systematic review of.md` | 2025 | publisher-journal | www.frontiersin.org | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Saleh-Frontiers Evaluating large language models a systematic review of.md` | 2025 | publisher-journal | www.frontiersin.org | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-Indigenous Futures in Artificial Intelligence From Language.md` | 2025 | org-site | icmagazine.org | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.md` | 2025 | web-other | www.researchgate.net | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Recent advancements and challenges of NLP-based sentiment analysis A.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Jim-Recent advancements and challenges of NLP-based sentiment analysis A.md` | 2025 | publisher-journal | www.sciencedirect.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-The Green Report Three Red Flags That Your LLM Testing Strategy Is.md` | 2025 | blog | www.thegreenreport.blog | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Tokenising culture causes and consequences of cultural misalignment.md` | 2025 | org-site | www.adalovelaceinstitute.org | heuristic:title_abstract_url:Other/Unclear |
-| `2025-Unknown-Towards Measuring the Representation of Subjective Global Opinions in.md` | 2025 | web-other | www.anthropic.com | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Perez-Tokenising culture causes and consequences of cultural misalignment.md` | 2025 | org-site | www.adalovelaceinstitute.org | heuristic:title_abstract_url:Other/Unclear |
+| `2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md` | 2025 | web-other | www.anthropic.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Unknown-中文大模型内容安全测评基准DSPSafeBench上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN.md` | 2025 | blog | blog.csdn.net | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Velay-Vitow-Putting the AI in Eudaimonia.md` | 2025 | web-other | therepublicjournal.com | heuristic:title_abstract_url:Other/Unclear |
 | `2025-Xie-Ce‐LLMs Status and trends of education‐specific large language models.md` | 2025 | publisher-journal | onlinelibrary.wiley.com | heuristic:title_abstract_url:Other/Unclear |

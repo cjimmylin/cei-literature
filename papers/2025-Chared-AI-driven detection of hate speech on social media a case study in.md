@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "CamemBERT, DistilCamemBERT, DeHateBERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "In today’s digital age, the rise of online hate speech–fueled by user anonymity and widespread use of platforms like X– has become a serious issue. It is a challenge for both social media companies and authorities in their efforts to maintain a safe and respectful online environment. Hate speech (HS) is mostly seen as an intentional act of aggressive behavior towards anyone based on their personal traits."
 ethics_perspective: "Toxicity & Hate Speech"

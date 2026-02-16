@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual|SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore
 - *From 2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual*: Affiliation: Institute for Infocomm Research (I2R), A*STAR, Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

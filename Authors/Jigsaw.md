@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ...|A New Generation of Perspective API: Efficient Multilingual ...]] (First Author)
 - [[2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification|Jigsaw Multilingual Toxic Comment Classification]] (First Author)
 - [[2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ...|Leveraging Machine Translation for Cross-Lingual Toxicity ...]] (First Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification*: Affiliation: Institute of Technology Bombay, India
 - *From 2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification*: Affiliation: Institute of Technology Bombay, India
 - *From 2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification*: Affiliation: Institute of Technology Bombay, India
 - *From 2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification*: Affiliation: Institute of Technology Bombay, India

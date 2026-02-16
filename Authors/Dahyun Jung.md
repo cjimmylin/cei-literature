@@ -30,6 +30,7 @@ Dahyun Jung is a researcher working on natural language processing, with a focus
 
 
 
+
 - [[2025-Jung-FLEX|FLEX]] (First Author)
 - [[2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A|Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4]]
 

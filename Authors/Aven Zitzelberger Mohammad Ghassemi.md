@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance|Bridging the Gap Enhancing LLM Performance]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance*: Affiliation: college medicine, clinical knowledge, and
 - *From 2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance*: Affiliation: college medicine, clinical knowledge, and
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

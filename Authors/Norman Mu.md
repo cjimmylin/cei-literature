@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 - [[2024-Mazeika-HarmBench|HarmBench]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 - *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 - *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu
 - *From 2024-Mazeika-HarmBench*: Affiliation: centerforaisafety/HarmBench, Email: mantas3@illinois.edu

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,9 +37,9 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, T5, Word2Vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A comprehensive framework for multi-modal hate speech detection in social media using deep learning

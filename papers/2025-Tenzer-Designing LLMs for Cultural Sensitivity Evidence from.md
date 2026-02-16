@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +18,7 @@ url: "https://arxiv.org/abs/2509.11921"
 external_pdf: "https://arxiv.org/pdf/2509.11921.pdf"
 publication: arXiv (WITHDRAWN)
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "English/Western, Japanese"
-languages_list: 
+languages_list: "English, Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Evaluates cultural sensitivity of LLMs in English-Japanese workplace email translation. Tests naive, audience-targeted, and instructional prompts. Assesses keigo (honorifics), politeness forms, and formality. Native Japanese speakers rate appropriateness. Culturally-tailored prompting improves cultural fit. NOTE: Paper was withdrawn by first author Dec 2025."
 research_topic: "Machine Translation"
 ---
 # Designing LLMs for Cultural Sensitivity: Evidence from English-Japanese Translation

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,10 +11,10 @@ key: EXSR0612
 type: preprint
 short_title: "Pretrained Models and Evaluation Data for"
 year: 2025
-first_author: "[[Jiang]]"
-last_author: "[[Jiang]]"
-authors: "[[Jiang]]"
-authors_incomplete: true
+first_author: "[[Jiang, Shengyi]]"
+last_author: "[[Fu, Yingwen]]"
+authors: "[[Jiang, Shengyi]]; [[Fu, Sihui]]; [[Lin, Nankai]]; [[Fu, Yingwen]]"
+authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/9645441/"
 external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md"
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Khmer"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +47,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[Jiang]]
+[[Jiang, Shengyi]], [[Fu, Sihui]], [[Lin, Nankai]], [[Fu, Yingwen]]
 
 ## Metadata
 
-**Authors:** Jiang et al.
+**Authors:** Jiang, Shengyi; Fu, Sihui; Lin, Nankai; Fu, Yingwen
 
 **Year:** 2021
 

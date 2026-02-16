@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM|Airavata Introducing Hindi Instruction-tuned LLM]]]]
 
 - [[2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM|Airavata Introducing Hindi Instruction-tuned LLM]]
 

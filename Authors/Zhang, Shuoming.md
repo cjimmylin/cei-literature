@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation|Output Constraints as Attack Surface: Exploiting Structured Generation to Bypass LLM Safety Mechanisms]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation*: Affiliation: University of Aberdeen, Email: zhangyangyu19b@ict.ac.cn
 - *From 2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation*: Affiliation: University of Aberdeen, Email: xuruiyuan23s@ict.ac.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

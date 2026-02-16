@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2021-Röttger-HateCheck|HateCheck]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford

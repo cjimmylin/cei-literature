@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic|AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University
 - *From 2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic*: Affiliation: Center of Research Excellence in AI and Data Science, 2 King Abdulaziz University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

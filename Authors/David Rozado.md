@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Rozado-The Political Preferences of LLMs|The Political Preferences of LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Rozado-The Political Preferences of LLMs*: Affiliation: center viewpoints, Email: david.rozado@op.ac.nz
 - *From 2024-Rozado-The Political Preferences of LLMs*: Affiliation: center viewpoints, Email: david.rozado@op.ac.nz
 - *From 2024-Rozado-The Political Preferences of LLMs*: Affiliation: center viewpoints, Email: david.rozado@op.ac.nz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI|Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC]] (First Author)
 - [[2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns|Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 - *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Sameer-Insights into Moral Reasoning of AI|Insights into Moral Reasoning of AI]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 - *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 - *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

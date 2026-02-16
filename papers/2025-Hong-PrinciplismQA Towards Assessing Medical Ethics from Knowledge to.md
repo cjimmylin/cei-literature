@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ abstract: "The integration of large language models into healthcare necessitates
 data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
 data_metrics: "3,648 questions"
 LLM_assessed: "GPT-4, Claude, Gemma, Llama-3, Qwen, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 ---
 # PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice

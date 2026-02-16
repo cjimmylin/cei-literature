@@ -22,6 +22,7 @@ Assistant Professor at Mohamed bin Zayed University of Artificial Intelligence (
 
 
 
+
 - [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Assistant Professor at Mohamed bin Zayed University of Artificial Intelligence (
 
 
 
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: dongyz@connect.hku.hk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: r.zhang@prhk.ltd
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk

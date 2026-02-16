@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ abstract: "Question Answering Systems Chatbots Generative Artificial Intelligenc
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, DeepSeek, Gemma, Llama, Mistral, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # Improving LLM Reliability with RAG in Religious Question-Answering: MufassirQAS

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "Social & Cultural Values"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Llama-3, DeepSeek, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # An Evaluation of Cultural Value Alignment in LLM
 

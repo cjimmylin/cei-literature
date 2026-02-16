@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Pistilli-CIVICS|CIVICS]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: a.j.leidinger@uva.nl
 - *From 2024-Pistilli-CIVICS*: Affiliation: University of Amsterdam, Email: giada@hf.co

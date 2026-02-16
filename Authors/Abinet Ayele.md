@@ -35,12 +35,15 @@ Abinet's research addresses the societal challenges of digital communication in 
 
 
 
+
 - [[2023-Ayele-Amharic Hate Speech Dataset|Amharic Hate Speech Dataset]] (First Author)
 
 ## Notes
 
 
 
+
+- *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com
 - *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tesfat@gmail.com
 - *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com
 - *From 2023-Ayele-Amharic Hate Speech Dataset*: Affiliation: University, Ethiopia, 3Wollo University, Ethiopia, Email: tadesseit@gmail.com

@@ -49,6 +49,7 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 
 
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]] (Last Author)
 - [[2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian|LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages]] (First Author)
@@ -81,6 +82,8 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 
 
+
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: alham.fikri@mbzuai.ac.ae

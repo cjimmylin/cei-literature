@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Arike-A Framework for Analyzing and Measuring Goal|A Framework for Analyzing and Measuring Goal]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 - *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 - *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 - *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com

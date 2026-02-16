@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight|HalleluBERT: Let every token that has meaning bear its weight]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight*: Affiliation: School of Computation, Information and Technology, Technical University of Munich, Germany, Email: raphael.schmitt@uniklinik-freiburg.de
 - *From 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight*: Affiliation: School of Computation, Information and Technology, Technical University of Munich, Germany, Email: raphael.schmitt@uniklinik-freiburg.de
 - *From 2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight*: Affiliation: School of Computation, Information and Technology, Technical University of Munich, Germany, Email: raphael.schmitt@uniklinik-freiburg.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

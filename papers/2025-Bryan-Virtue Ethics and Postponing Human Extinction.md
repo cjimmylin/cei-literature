@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics against extinction"
@@ -19,6 +20,7 @@ pdf_extract: "PDF Extracts/2025/2025-Bryan-Virtue Ethics and Postponing Human Ex
 local_pdf: "[[PDFs/2025/2025-Bryan-Virtue Ethics and Postponing Human Extinction.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities|Measuring Moral LLM Responses in Multilingual Capacities]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities*:, Email: savikolari@gmail.com
 - *From 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities*:, Email: savikolari@gmail.com
 - *From 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities*:, Email: kimayabasu06@gmail.com
 - *From 2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities*:, Email: savikolari@gmail.com

@@ -24,8 +24,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent / ".agent" / "lib"))
 from config import LOGS_DIR, PAPERS_DIR
 
 DATE_PREFIX = "20260216"
-NUM_AGENTS = 20
-BATCHES_DIR = LOGS_DIR / "benchmark_survey_batches"
+NUM_AGENTS = 11
+BATCHES_DIR = LOGS_DIR / "benchmark_survey_round3_batches"
 REQUIRED_FIELDS_YES = {"filename", "decision", "reasoning"}
 REQUIRED_FIELDS_EXCLUDE = {"filename", "decision", "reasoning"}
 VALID_DECISIONS = {"Yes", "Exclude"}
@@ -119,7 +119,7 @@ def validate_completeness(all_results, expected_filenames):
 def load_existing_classifications():
     """Load existing survey classifications for merging."""
     # Try the current date prefix first, then fall back to older ones
-    for prefix in [DATE_PREFIX, "20260208"]:
+    for prefix in [DATE_PREFIX, "20260216", "20260215", "20260208"]:
         path = LOGS_DIR / "{}-benchmark_survey_all_classifications.json".format(prefix)
         if path.exists():
             data = json.loads(path.read_text(encoding="utf-8"))

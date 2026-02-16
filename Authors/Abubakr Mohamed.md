@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
 - [[2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text|Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text]] (First Author)
@@ -93,6 +94,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia

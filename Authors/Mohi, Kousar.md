@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on|Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models]]]]
 
 - [[2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on|Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models]]
 

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"
+languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Large language models are increasingly used for Islamic guidance, but
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Claude, GPT-4, GPT-4o"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Liu-The performances of the Chinese and U.S. Large Language Models on the|The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture]] (First Author)
 - [[2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation|Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings]] (First Author)
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]] (First Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 - *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 - *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk

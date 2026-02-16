@@ -49,6 +49,7 @@ Amandeep Singh is a researcher contributing to human-centered AI evaluation, not
 
 
 
+
 - [[2025-Raza-HumaniBench|HumaniBench]]
 
 ## External Links & Profiles
@@ -60,6 +61,8 @@ Amandeep Singh is a researcher contributing to human-centered AI evaluation, not
 
 
 
+
+- *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 - *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 - *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada
 - *From 2025-Raza-HumaniBench*: Affiliation: Institute for Artificial Intelligence, Toronto, Canada

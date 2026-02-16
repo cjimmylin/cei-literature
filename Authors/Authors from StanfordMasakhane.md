@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe|Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe*: Affiliation: lability and instead reﬂect marginalization in a
 - *From 2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe*: Affiliation: lability and instead reﬂect marginalization in a
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

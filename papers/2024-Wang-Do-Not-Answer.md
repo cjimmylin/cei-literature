@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.findings-eacl.61/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VZA7CY4P/2024 - Do-Not-Answer A Dataset for Evaluating Safeguards in LLMs.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

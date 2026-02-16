@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Western"
 cultures_nationalities_list: "Chinese, Gujarati, Hindi, Japanese, Korean, Malayalam, Marathi, Urdu, Vietnamese"
-languages_list: 
+languages_list: "Chinese, Gujarati, Hindi, Japanese, Korean, Malayalam, Marathi, Urdu, Vietnamese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

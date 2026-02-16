@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek v3, Deepseek 0, Deepseek 79, GPT-4o, LLama 3.3, Llama, Llama 0.072, Llama 64.5, Llama., llama 3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are pretrained on substantial, unfiltered corpora, assembled from a variety of sources. This risks inheriting the deep-rooted biases that exist within them, both implicit and explicit. This is even more apparent in low-resource languages, where corpora may be prioritized by quantity over quality, potentially leading to more unchecked biases, particularly in low-resource languages, where all available data is leveraged solely to expand volume due to inherent scarcity."
 research_topic: "Bias & Fairness"

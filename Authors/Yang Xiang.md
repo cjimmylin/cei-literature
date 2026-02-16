@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek|Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance]]
 - [[2025-Zhang-Evaluating and Improving Cultural Awareness of|Evaluating and Improving Cultural Awareness of]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: xueqing.peng2023@gmail.com
 - *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: jimin.huang@thefin.ai
 - *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: lfqian94@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

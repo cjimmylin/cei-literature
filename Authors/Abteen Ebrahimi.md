@@ -34,6 +34,7 @@ Abteen's work centers on the AmericasNLI project, which benchmarks the zero-shot
 
 
 
+
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]] (First Author)
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 
@@ -50,6 +51,8 @@ Abteen's work centers on the AmericasNLI project, which benchmarks the zero-shot
 
 
 
+
+- *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder
 - *From 2022-Kann-AmericasNLI*: Affiliation: University of Colorado Boulder

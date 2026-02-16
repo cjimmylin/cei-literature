@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "12,310 questions"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Qwen, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment
 

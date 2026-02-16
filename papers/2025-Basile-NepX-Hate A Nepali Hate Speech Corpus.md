@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali, Indian"
+languages_list: "Hindi, Nepali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "10,000 annotated tweets labeled for hate speech presence, fine-graine
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4o-mini, GPT-4, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # NepX-Hate: A Nepali Hate Speech Corpus with Fine-Grained Sociocultural Annotations

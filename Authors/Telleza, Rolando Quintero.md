@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech|A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media]] (Last Author)
+
+- [[2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech|A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media]]
 
 ## External Links & Profiles
 

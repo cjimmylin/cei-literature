@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and|BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: mnayeem@ualberta.ca
 - *From 2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and*: Affiliation: University of Technology, 2York University, 3University of Alberta, Email: enamulh@yorku.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

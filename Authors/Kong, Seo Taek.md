@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Wang-Fake Alignment FINE Framework|Fake Alignment (FINE Framework)]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: skong10@illinois.edu
 - *From 2024-Wang-Fake Alignment FINE Framework*: Affiliation: lab, and Steinhardt], Email: rsrikant@illinois.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

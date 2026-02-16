@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-b
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PC7NWK8G/BenchMoral_ A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish. — EA Forum.pdf"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
+languages_list: "Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -35,7 +37,7 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Llama-3, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
 local_pdf: [[PDFs/2025/2025-Flores-BenchMoral.pdf]]
 publication: EA Forum

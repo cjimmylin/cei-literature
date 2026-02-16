@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2023-Liu-AlignBench|AlignBench]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI

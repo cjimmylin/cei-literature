@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2312.06861.pdf"
 publication: "Conference on Fairness, Accountability and Transparency"
 national_ethnic_cultural: "Chinese, Brazilian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Brazilian, Cross-cultural"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

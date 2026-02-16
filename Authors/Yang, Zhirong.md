@@ -1,9 +1,9 @@
 ---
 name: "Yang, Zhirong"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science, Norwegian University of Science and Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "simen.eide@schibsted.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark|NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian]] (Last Author)]]
 
 - [[2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark|NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian]] (Last Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark*: Affiliation: Department of Computer Science, Norwegian University of Science and Technology, Email: simen.eide@schibsted.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

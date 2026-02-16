@@ -21,6 +21,7 @@ Xiyang Wu is pursuing a PhD in Electrical and Computer Engineering at the Univer
 
 
 
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Xiyang Wu is pursuing a PhD in Electrical and Computer Engineering at the Univer
 
 
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park

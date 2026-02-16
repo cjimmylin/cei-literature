@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large|LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models]] (First Author)]]
 
 - [[2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large|LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models]] (First Author)
 

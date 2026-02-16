@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+
 - [[2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large|FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models]]
 - [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]]
 
@@ -86,6 +88,10 @@ twitter: ""
 
 
 
+
+
+- *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
+- *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

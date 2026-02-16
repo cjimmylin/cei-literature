@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Li-T2ISafety|T2ISafety]]
 - [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology

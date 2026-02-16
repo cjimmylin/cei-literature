@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing|ScandEval: A Benchmark for Scandinavian Natural Language Processing]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing*:, Email: dan.nielsen@alexandra.dk
 - *From 2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing*:, Email: dan.nielsen@alexandra.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

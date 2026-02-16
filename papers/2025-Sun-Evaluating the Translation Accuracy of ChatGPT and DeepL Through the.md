@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation."
 research_topic: "Machine Translation"
 ---
 # Evaluating the Translation Accuracy of ChatGPT and DeepL Through the Lens of Implied Subjects by Rui Sun :: SSRN

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics book"
@@ -19,6 +20,7 @@ pdf_extract: "PDF Extracts/2024/2024-Vallor-The AI Mirror.md"
 local_pdf: "[[PDFs/2024/2024-Vallor-The AI Mirror.pdf]]"
 national_ethnic_cultural: American
 cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: "Value Pluralism / Schwartz"
@@ -37,7 +39,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Gemini, Llama"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking
 

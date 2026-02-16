@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,6 +24,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Saudi"
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms
 

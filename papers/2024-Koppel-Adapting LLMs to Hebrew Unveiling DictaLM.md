@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew, Israeli"
+languages_list: "English, Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

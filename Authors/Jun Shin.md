@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without|SYNTHEMPATHY: A Scalable Empathy Corpus Generated Using LLMs Without Any Crowdsourcing]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without*: Affiliation: lable Empathy Corpus Generated Using LLMs Without - PDF Extract", Email: julia@cs.columbia.edu
 - *From 2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without*: Affiliation: lable Empathy Corpus Generated Using LLMs Without - PDF Extract", Email: runchen@cs.columbia.edu
 - *From 2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without*: Affiliation: lable Empathy Corpus Generated Using LLMs Without - PDF Extract", Email: julia@cs.columbia.edu
 - *From 2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without*: Affiliation: lable Empathy Corpus Generated Using LLMs Without - PDF Extract", Email: julia@cs.columbia.edu

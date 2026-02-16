@@ -32,6 +32,7 @@ He is the co-inventor of Adam, one of the most widely used optimization algorith
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## External Links & Profiles
@@ -50,6 +51,8 @@ He is the co-inventor of Adam, one of the most widely used optimization algorith
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

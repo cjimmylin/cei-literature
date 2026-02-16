@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large|KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large*: Affiliation: University of Richmond, Email: youngerous@gmail.com
 - *From 2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large*: Affiliation: University of Richmond, Email: park@joonsuk.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset|BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: zsultana855@gmail.com
 - *From 2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset*: Affiliation: Department of Computer Science and Engineering, Email: zsultana855@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

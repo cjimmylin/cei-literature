@@ -40,6 +40,7 @@ Shetty has contributed to research on embeddings-as-a-service (EaaS) and languag
 
 
 
+
 - [[2025-Shetty-VITAL|VITAL]] (First Author)
 
 ## External Links & Profiles
@@ -52,6 +53,8 @@ Shetty has contributed to research on embeddings-as-a-service (EaaS) and languag
 
 
 
+
+- *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia
 - *From 2025-Shetty-VITAL*: Affiliation: School of Computing and Information System, the University of Melbourne, Australia

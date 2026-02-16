@@ -34,6 +34,7 @@ Adam's research explores "Contemplative Superalignment"—the theory that AI sys
 
 
 
+
 - [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]] (Last Author)
 
 ## External Links & Profiles
@@ -44,6 +45,8 @@ Adam's research explores "Contemplative Superalignment"—the theory that AI sys
 ## Notes
 
 
+
+- *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 [Bridges theoretical physics and contemplative ethics to address deep AI alignment.]

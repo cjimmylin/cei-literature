@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning|Psychology of LLMs Moral Reasoning]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning*: Affiliation: University of Rio de Janeiro
 - *From 2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning*: Affiliation: University of Rio de Janeiro
 - *From 2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning*: Affiliation: University of Rio de Janeiro
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

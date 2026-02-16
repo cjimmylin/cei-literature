@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://doi.org/10.3758/s13428-014-0551-2"
 external_pdf: "https://link.springer.com/content/pdf/10.3758%2Fs13428-014-0551-2.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Singaporean"
 cultures_nationalities_list: "Chinese, Singaporean"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, DeepSeek, Qwen, Llama-3"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # DIB Benchmark: Decision-based Implicit Bias in LLMs
 

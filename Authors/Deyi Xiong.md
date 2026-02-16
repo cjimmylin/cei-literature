@@ -38,6 +38,7 @@ Deyi Xiong is a prolific researcher in natural language processing, with particu
 
 
 
+
 - [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]] (Last Author)
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]] (Last Author)
 - [[2024-Huang-CBBQ|CBBQ]] (Last Author)

@@ -56,6 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
+
+- [[2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic|BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains]] (Last Author)
 - [[2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to|Indic-QA Benchmark A Multilingual Benchmark to]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 - *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

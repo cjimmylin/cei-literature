@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_ANGLE2021
@@ -16,6 +17,7 @@ pdf_extract: "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confuci
 local_pdf: "[[PDFs/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf]]"
 national_ethnic_cultural: Chinese/Confucian
 cultures_nationalities_list: "Chinese"
+languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
 moral_psychology: Yes

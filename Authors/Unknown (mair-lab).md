@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2024-Unknown-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]] (First Author)
+
+- [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]] (First Author)
 
 ## External Links & Profiles
 

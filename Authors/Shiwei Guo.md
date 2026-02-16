@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhang-CultureScope A Dimensional Lens for Probing|CultureScope A Dimensional Lens for Probing]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
 - *From 2025-Zhang-CultureScope A Dimensional Lens for Probing*: Affiliation: Laboratory of Data Science, College of Computer Science and Artificial Intelligence, Fudan University, Email: zhangjinghao24@m.fudan.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

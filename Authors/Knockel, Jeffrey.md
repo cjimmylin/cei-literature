@@ -1,9 +1,9 @@
 ---
 name: "Knockel, Jeffrey"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Lab, University of Toronto"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "greenstadt@nyu.edu"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs|PoPETs Proceedings — An Analysis of Chinese Censorship Bias in LLMs]]]]
 
 - [[2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs|PoPETs Proceedings — An Analysis of Chinese Censorship Bias in LLMs]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs*: Affiliation: Lab, University of Toronto, Email: greenstadt@nyu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

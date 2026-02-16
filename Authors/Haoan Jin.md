@@ -32,6 +32,7 @@ Haoan Jin is a researcher at the X-LANCE Lab, Department of Computer Science and
 
 
 
+
 - [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]] (First Author)
 - [[2025-Jin-MedEthicEval|MedEthicEval]] (First Author)
 
@@ -40,6 +41,8 @@ Haoan Jin is a researcher at the X-LANCE Lab, Department of Computer Science and
 
 
 
+
+- *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: mengyuewu@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: pilgrim@sjtu.edu.cn
 - *From 2025-Jin-MedEthicEval*: Affiliation: Institute of Technology Ethics for Human Future, Email: xuhanhui@fudan.edu.cn

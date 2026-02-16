@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2022.emnlp-main.291/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/FG497RSQ/2022 - 'I'm sorry to hear that' Finding New Biases in Language Models with a Holistic Descriptor Dataset.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://github.com/allenai/bi-att-flow"
 pdf_extract: "PDF Extracts/2022/2022-Hu-'I'm sorry to hear that'.md"
-local_pdf: "[[PDFs/2022/2022-Hu-'I'm sorry to hear that'.pdf]]"
+local_pdf: "[[PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
 ---
 # “I’m sorry to hear that”: Finding New Biases in Language Models with a Holistic Descriptor Dataset
 

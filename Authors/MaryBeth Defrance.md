@@ -23,6 +23,7 @@ MaryBeth Defrance is a PhD student in the Department of Electronics and Informat
 
 
 
+
 - [[2024-Defrance-ABCFair|ABCFair]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ MaryBeth Defrance is a PhD student in the Department of Electronics and Informat
 
 
 
+
+- *From 2024-Defrance-ABCFair*:, Email: maarten.buyl@ugent.be
 - *From 2024-Defrance-ABCFair*:, Email: marybeth.defrance@ugent.be
 - *From 2024-Defrance-ABCFair*:, Email: tijl.debie@ugent.be
 - *From 2024-Defrance-ABCFair*:, Email: maarten.buyl@ugent.be

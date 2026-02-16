@@ -23,6 +23,7 @@ Brandon Handoko is a researcher at Scale AI working on AI ethics and moral reaso
 
 
 
+
 - [[2025-Chiu-MoReBench|MoReBench]]
 
 ## Notes
@@ -30,6 +31,8 @@ Brandon Handoko is a researcher at Scale AI working on AI ethics and moral reaso
 
 
 
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Goethals-One world one opinion The superstar effect in LLM responses|One world, one opinion? The superstar effect in LLM responses]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Goethals-One world one opinion The superstar effect in LLM responses*: Affiliation: University of Antwerp, Belgium, Email: sofie.goethals@uantwerpen.be
 - *From 2025-Goethals-One world one opinion The superstar effect in LLM responses*: Affiliation: University of Antwerp, Belgium, Email: sofie.goethals@uantwerpen.be
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages|IberoBench: A Benchmark for LLM Evaluation in Iberian Languages]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)
 - *From 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages*: Affiliation: Center (BSC-CNS)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

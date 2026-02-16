@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI|Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 - *From 2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI*:, Email: francesco.pierri@polimi.it
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

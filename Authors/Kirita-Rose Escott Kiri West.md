@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use|Maori Algorithmic Sovereignty: Idea, Principles, and Use]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use*: Affiliation: University of Waikato, Hamilton, NZ, Email: paul.brown@waikato.ac.nz
 - *From 2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use*: Affiliation: University of Waikato, Hamilton, NZ, Email: paul.brown@waikato.ac.nz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

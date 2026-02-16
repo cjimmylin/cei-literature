@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: jptrager@usc.edu

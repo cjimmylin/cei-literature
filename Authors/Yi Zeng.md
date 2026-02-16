@@ -24,6 +24,7 @@ Note: There are multiple prominent researchers named Yi Zeng. (1) Yi Zeng is a P
 
 
 
+
 - [[2025-Wu-CVC|CVC]] (Last Author)
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and|Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link]]
@@ -37,6 +38,8 @@ Note: There are multiple prominent researchers named Yi Zeng. (1) Yi Zeng is a P
 
 
 
+
+- *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn
 - *From 2023-Wang-STREAM*: Affiliation: Research Center for AI Ethics and Governance, Institute of Automation, Chinese Academy of, Email: yi.zeng@ia.ac.cn

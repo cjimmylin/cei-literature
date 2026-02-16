@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/4LU2FNH5/Pistilli et al. - 2024 - CIVICS Building a Dataset for Examining Culturally-Informed Values in Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"

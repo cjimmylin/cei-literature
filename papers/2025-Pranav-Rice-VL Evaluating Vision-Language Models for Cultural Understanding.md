@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude-3, Claude-3-Opus, GPT-4, GPT-4o, LLaMA 3.2, Qwen, Qwen-VL, Qwen2.5, llama 3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Vision-Language Models (VLMs) excel in multimodal tasks but often exhibit Westerncentric biases, limiting their effectiveness in culturally diverse regions like Southeast Asia (SEA). To address this, we introduce RICE-VL, a novel benchmark evaluating VLM cultural understanding across 11 ASEAN countries. RICE-VL includes over 28,000 human-curated Visual Question Answering (VQA) samples—covering True/False, Fill-inthe-Blank, and open-ended formats—and 1,000 image-bounding box pairs for Visual..."
 ethics_perspective: "Social & Cultural Values"

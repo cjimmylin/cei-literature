@@ -36,7 +36,7 @@ is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Pre-trained multilingual language models (PMLMs) are commonly used when dealing with data from multiple languages and crosslingual transfer. However, PMLMs are trained on varying amounts of data for each language. In practice this means their performance is often much better on English than many other languages. We explore to what extent this also applies to moral norms. Do the models capture moral norms from English and impose them on other languages?"
 ethics_perspective: "AI Safety & Alignment"

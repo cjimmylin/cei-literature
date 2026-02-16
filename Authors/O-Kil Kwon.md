@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Lee-VisAlign|VisAlign]]
 
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 3joonseok2010@gmail.com
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 [Additional context or contact information]

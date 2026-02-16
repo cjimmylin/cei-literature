@@ -1,7 +1,7 @@
 ---
 name: "Sen, Jaydeep"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Technology Bombay, India"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,8 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Verma-MILU A Multi-task Indic Language Understanding|MILU A Multi-task Indic Language Understanding]] (Last Author)
-- [[2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to|Indic-QA Benchmark A Multilingual Benchmark to]]]]
 
 - [[2025-Verma-MILU A Multi-task Indic Language Understanding|MILU A Multi-task Indic Language Understanding]] (Last Author)
 - [[2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to|Indic-QA Benchmark A Multilingual Benchmark to]]
@@ -85,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to*: Affiliation: Institute of Technology Bombay, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

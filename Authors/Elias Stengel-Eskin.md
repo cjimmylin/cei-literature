@@ -37,6 +37,7 @@ Elias Stengel-Eskin is an Assistant Professor at the University of North Carolin
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]]
 

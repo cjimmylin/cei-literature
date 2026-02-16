@@ -31,6 +31,7 @@ Abdelhak's research centers on Privacy-Preserving Machine Learning (PPML). He de
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## External Links & Profiles
@@ -46,6 +47,8 @@ Abdelhak's research centers on Privacy-Preserving Machine Learning (PPML). He de
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

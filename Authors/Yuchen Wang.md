@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wang-Multimodal Understanding of Human Values in Videos|Multimodal Understanding of Human Values in Videos]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wang-Multimodal Understanding of Human Values in Videos*: Affiliation: University of the Negev, Email: neduva@post.bgu.ac.il
 - *From 2025-Wang-Multimodal Understanding of Human Values in Videos*: Affiliation: University of the Negev, Email: orentsur@bgu.ac.il
 - *From 2025-Wang-Multimodal Understanding of Human Values in Videos*: Affiliation: University of the Negev, Email: alinashitrit@mail.tau.ac.il
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

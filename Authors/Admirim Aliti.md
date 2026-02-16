@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English|Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English*: Affiliation: lable systems, Email: mdouglas@cmsa.fas.harvard.edu
 - *From 2024-Aliti-Large Language Models LLMs Output Quality Comparison Between English*: Affiliation: lable systems, Email: mdouglas@cmsa.fas.harvard.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

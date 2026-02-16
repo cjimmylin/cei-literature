@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion|The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion*: Affiliation: centre and draws from the global South
 - *From 2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion*: Affiliation: centre and draws from the global South
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

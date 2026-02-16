@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain|Large-Scale Hate Speech Detection with Cross-Domain]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 - *From 2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain*: Affiliation: Research Center, Ankara, Turkey
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

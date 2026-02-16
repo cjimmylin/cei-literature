@@ -1,9 +1,9 @@
 ---
 name: "Naghavian, Nikoo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department, University of British Columbia, Vancouver, Canada"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "mostafa.masoudi@ut.ac.ir"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian|ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks]]]]
 
 - [[2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian|ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian*: Affiliation: Department, University of British Columbia, Vancouver, Canada, Email: mostafa.masoudi@ut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

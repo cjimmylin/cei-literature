@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -14,8 +16,9 @@ last_author: "[[Te Taka Keegan]]"
 authors: Te Taka Keegan
 url: "https://www.waikato.ac.nz/assets/Uploads/Research/Research-institutes-centres-and-groups/Entities/Te-Mata-Punenga-o-Te-Kotahi-Te-Kotahi-Research-Institute-TKRI/Maori-LLM-report-final-TeTaka.pdf"
 publication: University of Waikato / Te Kotahi Research Institute
-local_pdf: 
-pdf_extract: 
+local_pdf: "[[PDFs/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.pdf]]"
+pdf_extract: "PDF Extracts/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md"
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Maori"
-languages_list: 
+languages_list: "Maori"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development."
 research_topic: "Other"
 ---
 # Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways

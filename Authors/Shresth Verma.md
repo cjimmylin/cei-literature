@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Kim-Navigating the Social Welfare Frontier|Navigating the Social Welfare Frontier]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
 - *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu
 - *From 2025-Verma-MILU A Multi-task Indic Language Understanding*: Affiliation: Centre at AI4Bharat
 - *From 2025-Kim-Navigating the Social Welfare Frontier*: Affiliation: University, Cambridge, USA, Email: cwkim@seas.harvard.edu

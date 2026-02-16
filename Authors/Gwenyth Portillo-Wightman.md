@@ -46,6 +46,7 @@ Portillo-Wightman has also contributed to research including work with Kennedy e
 
 
 
+
 - [[2020-Hoover-Moral Foundations Twitter Corpus|Moral Foundations Twitter Corpus]]
 
 ## Links
@@ -59,6 +60,8 @@ Portillo-Wightman has also contributed to research including work with Kennedy e
 
 
 
+
+- *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu
 - *From 2020-Hoover-Moral Foundations Twitter Corpus*: Affiliation: University of Southern California, Email: mdehghan@usc.edu

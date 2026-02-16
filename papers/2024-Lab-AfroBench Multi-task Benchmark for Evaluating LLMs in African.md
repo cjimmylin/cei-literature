@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 tags: 
-abstract: 
+abstract: "Multi-task benchmark evaluating LLM performance across 64 African languages including Francophone African languages, with 15 tasks and 22 datasets. Includes NLU, text generation, knowledge/QA, and mathematical reasoning tasks."
 research_topic: "Machine Learning"
 ---
 # AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages

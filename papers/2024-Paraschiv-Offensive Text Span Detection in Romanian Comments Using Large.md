@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,9 +43,9 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3.5, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance; few-shot LLM strategies also evaluated."
 ethics_perspective: "Toxicity & Hate Speech"
 authors_incomplete: false
 ---

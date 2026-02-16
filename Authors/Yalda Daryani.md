@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: jptrager@usc.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://arxiv.org/abs/2505.20564"
 external_pdf: "https://arxiv.org/pdf/2505.20564.pdf"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Nigerian"
+languages_list: "Hausa, Igbo, Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

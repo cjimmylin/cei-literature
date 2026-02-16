@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards|Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards*:, Email: marcosbarbosa@usal.es
 - *From 2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards*:, Email: marcosbarbosa@usal.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate..."
 ethics_perspective: "Toxicity & Hate Speech"

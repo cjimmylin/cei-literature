@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn

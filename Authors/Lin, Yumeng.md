@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Lin-Machine translation of Chinese classical poetry a comparison among|Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator | Humanities and Social Sciences Communications]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Lin-Machine translation of Chinese classical poetry a comparison among*: Affiliation: Department of Linguistics and Modern Languages, The Chinese University of Hong KongKong, Shatin, Hong Kong SAR, Email: zhenguangcai@cuhk.edu.hk
 - *From 2025-Lin-Machine translation of Chinese classical poetry a comparison among*: Affiliation: Department of Linguistics and Modern Languages, The Chinese University of Hong KongKong, Shatin, Hong Kong SAR, Email: zhenguangcai@cuhk.edu.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

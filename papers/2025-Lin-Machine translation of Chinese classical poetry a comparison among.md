@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5"
 DATA_URL: "https://osf.io/34cgd"
 tags: 
-abstract: 
+abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
 research_topic: "Machine Translation"
 ---
 # Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator | Humanities and Social Sciences Communications

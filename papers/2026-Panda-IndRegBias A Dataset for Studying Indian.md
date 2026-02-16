@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Warning: This paper consists of examples representing regional biases
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 research_topic: "Machine Learning"
 ---

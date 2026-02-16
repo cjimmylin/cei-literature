@@ -35,6 +35,7 @@ He organized the Cambridge NLIP seminars and PyData Sofia meetup.
 
 
 
+
 - [[2020-Zampieri-SemEval-2020 Task 12|SemEval-2020 Task 12]]
 
 ## External Links
@@ -49,6 +50,8 @@ He organized the Cambridge NLIP seminars and PyData Sofia meetup.
 
 
 
+
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu

@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Unknown-LLM Ethics Benchmark A Three-Dimensional Assessment System for|LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models]] (First Author)
+
+- [[2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for|LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,7 +84,9 @@ twitter: ""
 ## Notes
 
 
-- *From 2025-Unknown-LLM Ethics Benchmark A Three-Dimensional Assessment System for*: Affiliation: laborative advancement
+
+- *From 2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for*: Affiliation: laborative advancement
+- *From 2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for*: Affiliation: laborative advancement
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

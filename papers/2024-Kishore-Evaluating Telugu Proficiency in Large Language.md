@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Telugu"
+languages_list: "Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Comparative analysis of ChatGPT and Gemini on Telugu language profici
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Evaluating Telugu Proficiency in Large Language Models: A Comparative Analysis of ChatGPT and Gemini

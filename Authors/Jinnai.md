@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of|Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of*:, Email: jinnai_yu@cyberagent.co.jp
 - *From 2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of*:, Email: jinnai_yu@cyberagent.co.jp
 - *From 2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of*:, Email: jinnai_yu@cyberagent.co.jp
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

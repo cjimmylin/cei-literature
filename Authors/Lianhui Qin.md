@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2020-Sap-Social Bias Frames*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Sap-Social Bias Frames*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Sap-Social Bias Frames*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Sap-Social Bias Frames*: Affiliation: School of Computer Science & Engineering, University of Washington

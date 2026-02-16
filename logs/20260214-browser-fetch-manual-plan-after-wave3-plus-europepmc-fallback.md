@@ -8,7 +8,7 @@
 - 0000-projects-BaniDB Shabad OS Digital Gurbani Database.md | fallback_latest | conf=0 | unknown | https://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619
 - 2021-Mghari-Cyberbullying and Hate Speech Detection on.md | fallback_latest | conf=0 | unknown | https://namespace.openaire.eu/oaf
 - 2023-University-Antisemitism on Twitter A Dataset for.md | host_transform | conf=66 | landing_page | https://doi.org/10.5281/zenodo.7932888
-- 2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md | fallback_latest | conf=0 | unknown | https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
+- 2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md | fallback_latest | conf=0 | unknown | https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079
 - 2024-Moe-Fact Checking in Low-Resource Languages A.md | fallback_latest | conf=0 | unknown | https://www.yorku.ca/research/ycar/events/fact-checking-dataset-transformer-model-burmese-language-lwin-moe-13112024/
 - 2024-Phyo-Development and Evaluation of Myanmar GPT.md | unpaywall | conf=78 | blocked | http://dx.doi.org/10.2139/ssrn.4871732
 - 2024-Phyo-Development and Evaluation of Myanmar GPT.md | crossref | conf=70 | blocked | https://doi.org/10.2139/ssrn.4871732
@@ -17,7 +17,7 @@
 - 2024-Yeltay-Kazakh Language Dataset for Hate Speech.md | crossref | conf=72 | landing_page | http://xplorestaging.ieee.org/ielx8/10719028/10718863/10719327.pdf?arnumber=10719327
 - 2024-Zeng-Proposing Central Asian AI Ethics Principles.md | crossref | conf=80 | landing_page | https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf
 - 2024-Zeng-Proposing Central Asian AI Ethics Principles.md | crossref | conf=80 | landing_page | https://link.springer.com/article/10.1007/s43681-024-00505-7/fulltext.html
-- 2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2673-2688/6/8/194
+- 2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md | fallback_latest | conf=0 | unknown | https://www.mdpi.com/2673-2688/6/8/194
 - 2024-team-MahaMarathi-7B Marathi Large Language Model.md | fallback_latest | conf=0 | unknown | https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base
 - 2025-Martinez-Religion and Racial Bias in Artificial.md | unpaywall | conf=80 | landing_page | https://doaj.org/article/b7706dcd2a334756a56cb8bcc7c6c354
 - 2025-Martinez-Religion and Racial Bias in Artificial.md | unpaywall | conf=78 | blocked | https://doi.org/10.1177/23780231251377210

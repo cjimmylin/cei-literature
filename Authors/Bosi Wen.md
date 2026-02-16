@@ -48,6 +48,7 @@ Wen is a lead author of the "CritiqueLLM" and "Complex Instruction-Following" be
 
 
 
+
 - [[2024-Chen-ToMBench|ToMBench]]
 - [[2023-Liu-AlignBench|AlignBench]]
 
@@ -61,6 +62,8 @@ Wen is a lead author of the "CritiqueLLM" and "Complex Instruction-Following" be
 
 
 
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI

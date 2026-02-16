@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral|TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: laura.diosan@ubbcluj.ro
 - *From 2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral*: Affiliation: University, Cluj-Napoca, Romania, Email: andreea.tomescu@klusai.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

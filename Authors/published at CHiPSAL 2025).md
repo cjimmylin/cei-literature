@@ -55,6 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
+- [[2025-search-DweshVaani An LLM for Detecting Religious|DweshVaani An LLM for Detecting Religious]] (Last Author)]]
 
 - [[2025-search-DweshVaani An LLM for Detecting Religious|DweshVaani An LLM for Detecting Religious]] (Last Author)
 

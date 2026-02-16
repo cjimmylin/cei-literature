@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.nature.com/articles/s41586-018-0637-6"
 external_pdf: "https://ore.exeter.ac.uk/repository/bitstream/10871/39187/4/Moral%20Machine.pdf"
 national_ethnic_cultural: "American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Trolley / Dilemmas (Psych)"

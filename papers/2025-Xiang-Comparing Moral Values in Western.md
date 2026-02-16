@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2505.19674.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Western, American, British, Canadian, Australian"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

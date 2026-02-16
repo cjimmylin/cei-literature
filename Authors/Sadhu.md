@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Sadhu-Social Bias in Large Language Models|Social Bias in Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Sadhu-Social Bias in Large Language Models*: Affiliation: University of Engineering and Technology (BUET), Email: rifat@cse.buet.ac.bd
 - *From 2024-Sadhu-Social Bias in Large Language Models*: Affiliation: University of Engineering and Technology (BUET), Email: rifat@cse.buet.ac.bd
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

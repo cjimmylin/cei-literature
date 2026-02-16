@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +18,7 @@ authors: Jinu Nyachhyon; Mridul Sharma; Prajwal Thapa; Bal Krishna Bal
 url: "https://arxiv.org/abs/2411.19244"
 external_pdf: "https://arxiv.org/pdf/2411.19244.pdf"
 pdf_extract: "PDF Extracts/2024/2024-[[Nyachhyon]]-Consolidating and Developing Benchmarking Datasets for.md"
-local_pdf: "[[PDFs/2024/2024-[[Nyachhyon]]-Consolidating and Developing Benchmarking Datasets for.pdf]]"
+local_pdf: "[[PDFs/2024/2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -26,6 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali"
+languages_list: "Nepali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ abstract: "The Nepali language has distinct linguistic features, especially its 
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DeBERTa, DeBERTa-v3, Distilbert, GPT-4o-mini, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Consolidating and Developing Benchmarking Datasets for the Nepali Natural Language Understanding Tasks (NLUE)

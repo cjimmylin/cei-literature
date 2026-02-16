@@ -22,6 +22,7 @@ Researcher on the Modelling team at Cohere (joined 2024). Completed PhD in Elect
 
 
 
+
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]] (First Author)
 - [[2024-Cahyawijaya-LLM for everyone|LLM for everyone]] (First Author)
 - [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]] (Last Author)
@@ -37,6 +38,8 @@ Researcher on the Modelling team at Cohere (joined 2024). Completed PhD in Elect
 
 
 
+
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2023-Bang-Towards Answering Open-ended Ethical Quandary*: Affiliation: Center for Artiﬁcial Intelligence Research (CAiRE), The Hong Kong University of Science and Technology, Email: pascale@ece.ust.hk

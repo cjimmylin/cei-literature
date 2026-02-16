@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "Assamese, Bengali, English, Hindi, Marathi, Odia, Tamil, Telugu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Evaluating social biases in language models (LMs) is crucial for ensu
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Bloomz, GPT-2, Gemma, Gemma-2, Llama, Llama-3.1, Phi-3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # BharatBBQ: A Multilingual Bias Benchmark for Question Answering in the Indian Context

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the web search results, here's what I found regarding Uyghur language technology, NLP resources, and evaluation: Overview of Uyghur NLP Resources There is a critical resource gap in Uyghur Natural Language Processing (NLP), with researchers introducing dependency annotation frameworks to overcome the limitations of existing treebanks for the low-resource, agglutinative language. Key NLP Resources and Tools Linguistic resources for low-resource language programs include Represen"
 research_topic: "NLP & Representation Learning"
 ---
 # Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uyghur

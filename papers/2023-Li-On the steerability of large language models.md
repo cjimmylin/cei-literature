@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2311.04978.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: Falcon
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # On the steerability of large language models toward data-driven personas
 

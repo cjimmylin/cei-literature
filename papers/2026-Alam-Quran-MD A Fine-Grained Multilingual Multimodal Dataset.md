@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"
+languages_list: "Arabic, English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "Value Pluralism / Schwartz"

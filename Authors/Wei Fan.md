@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jing-MASLegalBench|MASLegalBench]]
 - [[2025-Lin-MORALISE|MORALISE]]
 - [[2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models|VideoNorms: Benchmarking Cultural Awareness of Video Language Models]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
 - *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
 - *From 2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models*: Affiliation: Department of Computer Science, Columbia University, Email: nv2415@columbia.edu
 - *From 2025-Jing-MASLegalBench*: Affiliation: University of Science and Technology, Email: hjingaa@connect.ust.hk

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.aclweb.org/anthology/S19-2007"
 external_pdf: "https://aclanthology.org/S19-2007.pdf"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish, English"
+languages_list: "English, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

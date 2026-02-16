@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: aaamunshi@uqu.edu.sa
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: i@omarito.me
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: ahmad.elsallab@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

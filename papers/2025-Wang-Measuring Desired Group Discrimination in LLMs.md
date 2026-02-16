@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2025.acl-long.341/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/42WJ28G6/2025 - Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite).pdf"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: "English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "16k questions"
 LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.pdf]]"
 ---

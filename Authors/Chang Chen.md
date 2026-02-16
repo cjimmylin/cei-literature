@@ -32,6 +32,7 @@ Chang Chen is a researcher working on multilingual AI safety and natural languag
 
 
 
+
 - [[2024-Wang-All Languages Matter|All Languages Matter]]
 - [[2024-Wang-All Languages Matter On the Multilingual Safety of Large Language|All Languages Matter: On the Multilingual Safety of Large Language Models]]
 
@@ -42,6 +43,8 @@ Chang Chen is a researcher working on multilingual AI safety and natural languag
 
 
 
+
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong

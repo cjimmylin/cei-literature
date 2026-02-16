@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]] (Last Author)
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]] (Last Author)
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
 - *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
 - *From 2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World*: Affiliation: Department of Natural Language Processing, Email: fajri.koto@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

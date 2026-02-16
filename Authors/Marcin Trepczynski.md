@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Trepczynski-AI as a Rational Theologian A|AI as a Rational Theologian A]] (First Author)
 - [[2023-Trepczynski-Religion Theology and Philosophical Skills of|Religion Theology and Philosophical Skills of]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl
 - *From 2023-Trepczynski-Religion Theology and Philosophical Skills of*: Affiliation: Faculty of Philosophy, University of Warsaw, Email: m.trepczynski@uw.edu.pl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

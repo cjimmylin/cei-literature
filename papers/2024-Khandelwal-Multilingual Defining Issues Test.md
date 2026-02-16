@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Indian, African, Spanish, Russian"
+languages_list: "Chinese, English, Hindi, Russian, Spanish, Swahili"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Cognitive Developmental"
@@ -38,7 +40,7 @@ research_topic: "Machine Translation"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Multilingual Defining Issues Test

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found the research paper you were looking for. The paper \"Recognizing Textual Inference in Mongolian Bar Exam Questions\" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira."
 research_topic: "Machine Learning"
 ---
 # A new dataset for mongolian online handwritten recognition

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Sang-CDEval A Benchmark for Measuring the|CDEval A Benchmark for Measuring the]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 - *From 2024-Sang-CDEval A Benchmark for Measuring the*: Affiliation: Lab of Traffic Data Analysis and Mining, Beijing Jiaotong University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

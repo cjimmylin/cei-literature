@@ -1,9 +1,9 @@
 ---
 name: "Fortuna, Marcin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Laboratory, Kitami Institute of Technology, Kitami 090-8507, Japan"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "marcin.fortuna@samurailabs.ai"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language|Expert-Annotated Dataset to Study Cyberbullying in Polish Language]]]]
 
 - [[2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language|Expert-Annotated Dataset to Study Cyberbullying in Polish Language]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language*: Affiliation: Laboratory, Kitami Institute of Technology, Kitami 090-8507, Japan, Email: marcin.fortuna@samurailabs.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

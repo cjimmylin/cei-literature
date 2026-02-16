@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Shen-HateBench|HateBench]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
 - *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
 - *From 2025-Shen-HateBench*: Affiliation: Center for Information Security
 - *From 2025-Shen-HateBench*: Affiliation: Center for Information Security

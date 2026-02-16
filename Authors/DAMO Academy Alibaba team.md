@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models|SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages]] (First Author)
 - [[2023-team-SeaLLMs Large Language Models for Southeast|SeaLLMs Large Language Models for Southeast]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com
 - *From 2023-team-SeaLLMs Large Language Models for Southeast*: Affiliation: Academy, Alibaba Group, Email: l.bing@alibaba-inc.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

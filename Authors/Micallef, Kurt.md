@@ -1,9 +1,9 @@
 ---
 name: "Micallef, Kurt"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Artiﬁcial Intelligence, University of Malta"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "claudia.borg@um.edu.mt"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language|Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese]] (First Author)]]
 
 - [[2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language|Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese]] (First Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language*: Affiliation: Department of Artiﬁcial Intelligence, University of Malta, Email: claudia.borg@um.edu.mt
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

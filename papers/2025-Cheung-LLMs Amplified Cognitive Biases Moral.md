@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -16,6 +17,7 @@ pdf_extract: "PDF Extracts/2025/2025-Cheung-LLMs Amplified Cognitive Biases Mora
 local_pdf: "[[PDFs/2025/2025-Cheung-LLMs Amplified Cognitive Biases Moral.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes

@@ -49,6 +49,7 @@ Prenkaj has made notable contributions to the field of anomaly detection and AI 
 
 
 
+
 - [[2025-Yuan-Probabilistic Aggregation and Targeted Embedding|Probabilistic Aggregation and Targeted Embedding]]
 
 ## External Links & Profiles
@@ -66,6 +67,8 @@ Prenkaj has made notable contributions to the field of anomaly detection and AI 
 
 
 
+
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich

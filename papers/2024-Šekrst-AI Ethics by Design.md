@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2411.14442.pdf"
 publication: arXiv
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Llama, Mixtral"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Responsible AI"
 ---
 # AI Ethics by Design: Implementing Customizable Guardrails for Responsible AI Development

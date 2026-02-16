@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Existing cultural commonsense benchmarks treat nations as monolithic,
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, Grok, Grok-4, Llama, Llama 3.3, Mistral, Mistral Large, Qwen, Qwen3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # Common to Whom? Regional Cultural Commonsense and LLM Bias in India

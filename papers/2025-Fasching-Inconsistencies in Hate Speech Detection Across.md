@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Content moderation systems powered by large language models (LLMs) ar
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3.5, GPT-4o, MISTRAL LARGE, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Inconsistencies in Hate Speech Detection Across LLM-Generated Datasets

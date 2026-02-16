@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Litvak-Offensive language detection in Hebrew can other languages help|Offensive language detection in Hebrew: can other languages help?]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 - *From 2022-Litvak-Offensive language detection in Hebrew can other languages help*: Affiliation: College of Engineering, Email: liebchaya@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

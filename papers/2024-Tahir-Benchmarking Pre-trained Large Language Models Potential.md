@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "Urdu"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Large Language Models (LLMs) pre-trained on multilingual data have re
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, Bloomz, ChatGPT, GPT 3, GPT 3.5, GPT 2, GPT 3.5 Turbo, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT3, GPT3.5, GPT3.5 turbo, Llama, Llama 2, Llama 3.1, Llama 3, Mistral 8B"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Benchmarking Pre-trained Large Language Models' Potential Across Urdu NLP tasks

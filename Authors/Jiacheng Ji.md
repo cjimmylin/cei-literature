@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 - *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 - *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

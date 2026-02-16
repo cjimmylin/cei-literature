@@ -2661,7 +2661,7 @@
 | Culturally-Aware Conversations: A Framework & Benchmark for  | 2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for.md | Multiple (cross-cultural) |
 | UrduBench: An Urdu Reasoning Benchmark using Contextually En | 2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using.md | Urdu |
 | Generalists vs. Specialists: Evaluating Large Language Model | 2024-Arif-Generalists vs Specialists Evaluating Large Language.md | Urdu |
-| Mitigating Social Bias in English and Urdu Language Models U | 2025-[[Unknown]]-Mitigating Social Bias in English and.md | English, Urdu |
+| Mitigating Social Bias in English and Urdu Language Models U | 2025-Khan-Mitigating Social Bias in English and.md | English, Urdu |
 | Qalb: Largest State-of-the-Art Urdu Large Language Model for | 2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language.md | Urdu |
 | Alif: Advancing Urdu Large Language Models via Multilingual  | 2025-[[Unknown]]-Alif Advancing Urdu Large Language Models.md | Urdu |
 | UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluati | 2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.md | Urdu |
@@ -2957,8 +2957,8 @@
 | Evaluating LLMs' Multilingual Capabilities for Bengali: Benc | 2025-Bhowmik-Evaluating LLMs' Multilingual Capabilities for Bengali Benchmark.md | Bengali, English |
 | B-REASO: A Multi-Level Multi-Faceted Bengali Evaluation Suit | 2025-Unknown-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.md | Bengali |
 | Dialectal Bias in Bengali: An Evaluation of Multilingual Lan | 2025-Wasi-Dialectal Bias in Bengali An Evaluation of Multilingual Language.md | Bengali |
-| WoNBias: A Complete Bengali Gender Bias Dataset | 2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset.md | Bengali |
-| Assessing Gender Bias of Pretrained Bangla Language Models | 2025-Unknown-Assessing Gender Bias of Pretrained Bangla Language Models.md | Bengali |
+| WoNBias: A Complete Bengali Gender Bias Dataset | 2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md | Bengali |
+| Assessing Gender Bias of Pretrained Bangla Language Models | 2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md | Bengali |
 | BengaliFig: A Low-Resource Challenge for Figurative and Cult | 2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md | Bengali |
 | Building a Llama2-finetuned LLM for Odia Language Utilizing  | 2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md | Odia |
 | PoETa v2: Toward More Robust Evaluation of Large Language Mo | 2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md | Portuguese |
@@ -3025,11 +3025,11 @@
 | HRET: A Self-Evolving LLM Evaluation Toolkit for Korean | 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.md | Korean |
 | LLM-as-a-Judge & Reward Model: What They Can and Cannot Do | 2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md | English, Korean |
 | KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivit | 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md | Korean |
-| Moral Judgment of LLM Using Korean Datasets and Eastern Ethi | 2025-Unknown-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md | Korean |
+| Moral Judgment of LLM Using Korean Datasets and Eastern Ethi | 2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md | Korean |
 | Evaluating Multimodal Generative AI with Korean Educational  | 2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md | Korean |
 | Understanding LLM Development Through Longitudinal Study: In | 2024-Park-Understanding LLM Development Through Longitudinal Study Insights.md | Korean |
 | Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capab | 2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md | Korean |
-| Evaluation of Social Bias Classification Performance of LLMs | 2025-Unknown-Evaluation of Social Bias Classification Performance of LLMs Using.md | Korean |
+| Evaluation of Social Bias Classification Performance of LLMs | 2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.md | Korean |
 | Towards Realistic Evaluation of Cultural Value Alignment in  | 2025-Unknown-Towards Realistic Evaluation of Cultural Value Alignment in Large.md | Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Multilingual, Russian, Spanish |
 | Adaptive Ensemble Techniques Leveraging BERT-based Models fo | 2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md | English, Korean |
 | IberoBench: A Benchmark for LLM Evaluation in Iberian Langua | 2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.md | Basque, Catalan, Galician, Portuguese, Spanish |
@@ -3198,7 +3198,7 @@
 | taz2024full: Analysing German Newspapers for Gender Bias and | 2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md | German |
 | A novel German TikTok hate speech dataset: far-right comment | 2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md | German |
 | Large Language Models Discriminate Against Speakers of Germa | 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects.md | German |
-| Comparative Survey of German Hate Speech Datasets: Backgroun | 2024-Unknown-Comparative Survey of German Hate Speech Datasets Background.md | German |
+| Comparative Survey of German Hate Speech Datasets: Backgroun | 2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md | German |
 | Hate Speech Detection Using Cross-Platform Social Media Data | 2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md | English, German |
 | German HateSpeech Corpus | 2021-Wuerzburg-German HateSpeech Corpus.md | German |
 | LLaMmlein: Transparent, Compact and Competitive German-Only  | 2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language.md | German |
@@ -3286,7 +3286,7 @@
 | Conscience conflict? Evaluating language models’ moral under | 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md | Arabic |
 | PalmX 2025: The First Shared Task on Benchmarking LLMs on Ar | 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md | Arabic, English |
 | Evidence from Inheritance Law Evaluation | 2025-Ghaly-Assessing Large Language Models on Islamic.md | Arabic, English |
-| LLMs and Islamic Fiqh: A Reliability Study | 2025-paper-LLMs and Islamic Fiqh A Reliability.md | Arabic, English |
+| LLMs and Islamic Fiqh: A Reliability Study | 2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md | Arabic, English |
 | Exploring Cultural Variations in Moral Judgments with Large  | 2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md | Arabic, English, Japanese, Multilingual, Turkish |
 | Analyzing Social Biases in Japanese Large Language Models | 2024-Yanaka-JBBQ.md | Japanese |
 | Benchmarking the Legal Reasoning of LLMs in Arabic Islamic I | 2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md | Arabic |

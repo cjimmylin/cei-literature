@@ -29,6 +29,7 @@ Dr. Syed Ibrahim Ghaznavi is an Assistant Professor in the Department of Computi
 
 
 
+
 - [[2025-Mushtaq-WorldView-Bench|WorldView-Bench]]
 
 ## Notes
@@ -36,6 +37,8 @@ Dr. Syed Ibrahim Ghaznavi is an Assistant Professor in the Department of Computi
 
 
 
+
+- *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: MuhammadImran.Taj@zu.ac.ae
 - *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: ibrahim.ghaznavi@itu.edu.pk
 - *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: bscs20078@itu.edu.pk
 - *From 2025-Mushtaq-WorldView-Bench*: Affiliation: Department of Computer Science, Email: jqadir@qu.edu.qa

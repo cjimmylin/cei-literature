@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese, Russian, Spanish, Italian, Indonesian, Catalan, Marathi, Malayalam, Hindi"
+languages_list: "Multilingual"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Multilingual Large Language Models (LLMs) exhibit strong cross-lingui
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemma, Gemma-2"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 research_topic: "Other"
 ---

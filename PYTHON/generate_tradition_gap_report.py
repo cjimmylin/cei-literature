@@ -20,7 +20,7 @@ WS_ROOT = SCRIPT_DIR.parent
 PAPERS_DIR = WS_ROOT / "papers"
 STATS_DIR = WS_ROOT / "STATISTICS"
 LOGS_DIR = WS_ROOT / "logs"
-OUTPUT_FILE = STATS_DIR / "20260215-religious-ethical-tradition-gap-analysis.md"
+OUTPUT_FILE = STATS_DIR / "20260216-religious-ethical-tradition-gap-analysis.md"
 
 # Data files
 CANDIDATES_FILE = LOGS_DIR / "20260208-benchmark_survey_candidates.json"

@@ -57,7 +57,8 @@ twitter: ""
 
 
 
-- [[2025-Unknown-HuGME A Benchmark System for Evaluating Hungarian Generative Model|HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation]] (First Author)
+
+- [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model|HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation]] (First Author)
 
 ## External Links & Profiles
 

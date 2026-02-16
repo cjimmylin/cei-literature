@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs|ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs*: Affiliation: Department of Statistics and Data Science, Southern University of Science and Technology
 - *From 2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs*: Affiliation: Department of Statistics and Data Science, Southern University of Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language|UrduLM A Resource-Efficient Monolingual Urdu Language]] (First Author)
 - [[2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using|UrduBench An Urdu Reasoning Benchmark using]] (First Author)
 - [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models|Auditing the Ethical Logic of Generative AI Models]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: cjc652@nyu.edu
 - *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: ms10537@nyu.edu
 - *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: alidasdan@gmail.com
 - *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: ms10537@nyu.edu

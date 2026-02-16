@@ -26,6 +26,7 @@ Her research is affiliated with Professor Pengfei Liu's group at Shanghai Jiao T
 
 
 
+
 - [[2024-Chern-BeHonest|BeHonest]] (First Author)
 
 ## Notes
@@ -33,6 +34,8 @@ Her research is affiliated with Professor Pengfei Liu's group at Shanghai Jiao T
 
 
 
+
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University

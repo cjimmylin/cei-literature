@@ -24,6 +24,7 @@ Pierre Dognin is a Senior Research Scientist at IBM Research AI at the T.J. Wats
 
 
 
+
 - [[2024-Dognin-Contextual Moral Value Alignment Through|Contextual Moral Value Alignment Through]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Pierre Dognin is a Senior Research Scientist at IBM Research AI at the T.J. Wats
 
 
 
+
+- *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
 - *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
 - *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center
 - *From 2024-Dognin-Contextual Moral Value Alignment Through*: Affiliation: Research Center

@@ -24,6 +24,7 @@ Masashi Takeshita is a post-doctoral fellow at Nagoya University, Graduate Schoo
 
 
 
+
 - [[2025-Takeshita-JETHICS|JETHICS]] (First Author)
 - [[2024-Yanaka-JBBQ|JBBQ]]
 - [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense|JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding]] (First Author)
@@ -33,6 +34,8 @@ Masashi Takeshita is a post-doctoral fellow at Nagoya University, Graduate Schoo
 
 
 
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2023-Takeshita-Towards Theory-based Moral AI*: Affiliation: School of Information Science and Technology, Hokkaido University

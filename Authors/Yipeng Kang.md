@@ -22,6 +22,7 @@ Yipeng Kang is a researcher at the National Key Laboratory of General Artificial
 
 
 
+
 - [[2025-Zhang-PoliCon|PoliCon]]
 - [[2024-Kang-Are the Values of LLMs Structurally Aligned with|Are the Values of LLMs Structurally Aligned with]] (First Author)
 
@@ -30,6 +31,8 @@ Yipeng Kang is a researcher at the National Key Laboratory of General Artificial
 
 
 
+
+- *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI

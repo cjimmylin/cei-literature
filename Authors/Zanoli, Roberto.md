@@ -1,9 +1,9 @@
 ---
 name: "Zanoli, Roberto"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Torino, Computer Science Dept"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "martin.cimmino@igenius.ai"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian|Evalita-LLM: Benchmarking Large Language Models on Italian]]]]
 
 - [[2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian|Evalita-LLM: Benchmarking Large Language Models on Italian]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian*: Affiliation: University of Torino, Computer Science Dept, Email: martin.cimmino@igenius.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

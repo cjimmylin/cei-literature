@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://jailbreak-llms.xinyueshen.me/"
 external_pdf: "https://dl.acm.org/doi/pdf/10.1145/3658644.3670388"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, PaLM-2, Vicuna"
 DATA_URL: "https://github.com/verazuo/jailbreak_llms"
 pdf_extract: "PDF Extracts/2023/2023-Shen-'Do Anything Now'.md"
-local_pdf: "[[PDFs/2023/2023-Shen-'Do Anything Now'.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Shen-“Do Anything Now”.pdf]]"
 ---
 # “Do Anything Now”: Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models
 

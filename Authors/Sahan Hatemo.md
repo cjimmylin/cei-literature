@@ -21,12 +21,15 @@ Data Science student at University of Applied Sciences Northwestern Switzerland 
 
 
 
+
 - [[2025-Hatemo-Revisiting the Trolley Problem for AI|Revisiting the Trolley Problem for AI]] (First Author)
 
 ## Notes
 
 
 
+
+- *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: luca.gisler@students.fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 [Additional context or contact information]

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a|Bias Beyond English: Evaluating Social Bias and Debiasing Methods in a Low-Resource Setting]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a*: Affiliation: Lab, University of Cambridge, Email: yz926@cam.ac.uk
 - *From 2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a*: Affiliation: Lab, University of Cambridge, Email: luwm@zju.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -20,9 +20,11 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2025-Mitchell-SHADES|SHADES]]
+- [[2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for|DaKultur: Evaluating the Cultural Awareness of Language Models for Danish with Native Speakers]]
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
@@ -33,6 +35,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

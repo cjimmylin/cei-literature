@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Zhang-PoliCon|PoliCon]]
 - [[2024-Kang-Are the Values of LLMs Structurally Aligned with|Are the Values of LLMs Structurally Aligned with]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI

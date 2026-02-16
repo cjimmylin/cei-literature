@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2503.00151.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

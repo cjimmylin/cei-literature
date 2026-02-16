@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language|EmoBench: Evaluating the Emotional Intelligence of Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language*: Affiliation: Institute for Artificial Intelligence, Tsinghua University, Beijing, China, Email: aihuang@tsinghua.edu.cn

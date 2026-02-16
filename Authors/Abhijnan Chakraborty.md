@@ -57,8 +57,8 @@ twitter: ""
 
 
 
+
 - [[2025-Chakraborty-Sometimes the Model doth Preach Quantifying|Sometimes the Model doth Preach Quantifying]] (Last Author)
-- [[2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian|Through the Prism of Culture: Evaluating LLMs' Understanding of Indian Subcultures and Traditions]] (Last Author)
 
 ## External Links & Profiles
 
@@ -86,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chakraborty-Sometimes the Model doth Preach Quantifying*: Affiliation: Research Center 2022)
 - *From 2025-Chakraborty-Sometimes the Model doth Preach Quantifying*: Affiliation: Research Center 2022)
 - *From 2025-Chakraborty-Sometimes the Model doth Preach Quantifying*: Affiliation: Research Center 2022)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

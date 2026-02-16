@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained|AfroLM A Self-Active Learning-based Multilingual Pretrained]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
 - *From 2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained*: Affiliation: Institute, Canada, 2 McGill University, Canada, 3Instituto Politécnico Nacional, Mexico
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

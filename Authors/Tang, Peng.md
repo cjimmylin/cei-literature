@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language|NLPashto: NLP Toolkit for Low-resource Pashto Language]] (Last Author)
 - [[2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and|Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language*: Affiliation: School of Cyber Science and Engineering
 - *From 2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language*: Affiliation: School of Cyber Science and Engineering
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

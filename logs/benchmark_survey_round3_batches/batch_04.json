@@ -1,0 +1,582 @@
+[
+  {
+    "filename": "2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Hsin-Yi Hsieh, Shang Wei Liu, Chang Chih Meng, Shuo-Yueh Lin, Chen Chien-Hua, Hung-Ju Lin, Hen-Hsen Huang, I-Chen Wu",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.evalmg-1.6/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md",
+    "has_extract": true,
+    "authors": "[[Huang, PeiHsuan]]; [[Lin, ZihWei]]; [[Imbot, Simon]]; [[Fu, WenCheng]]; [[Tu, Ethan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/html/2506.01814v1",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md",
+    "has_extract": true,
+    "authors": "[[Huang, Xu]]; [[Zhu, Wenhao]]; [[Hu, Hanxu]]; [[He, Conghui]]; [[Li, Lei]]; [[Huang, Shujian]]; [[Yuan, Fei]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.findings-emnlp.909.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md",
+    "has_extract": true,
+    "authors": "[[Mohammad Amaan Sayeed, Mohammed Talha Alam, Raza Imam, Shahab Saquib Sohail, Amir Hussain]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.15911",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md",
+    "has_extract": true,
+    "authors": "Inter-American Development Bank (IDB)",
+    "year": "2025",
+    "doi": "",
+    "url": "https://publications.iadb.org/en/performance-artificial-intelligence-use-indigenous-american-languages",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Intelligence-Khmer LLM Cambodias First Native Language.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "[[AI Angkor Intelligence]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.angkor-intelligence.com/projects/khmer-llm",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ishkhanyan-Ethical considerations in AI-powered language technologies insights.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Artur Ishkhanyan",
+    "year": "2025",
+    "doi": "10.1007/s43681-025-00716-6",
+    "url": "https://link.springer.com/article/10.1007/s43681-025-00716-6",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+    "has_extract": true,
+    "authors": "[[Haider, Fabiha]]; [[Shifat, Fariha Tanjim]]; [[Ishmam, Md Farhan]]; [[Barua, Deeparghya Dutta]]; [[Sourove, Md Sakib Ul Rahman]]; [[Fahim, Md]]; [[Alam, Md Farhad]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.13281",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md",
+    "pdf_extract_path": "PDF Extracts/0000/2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md",
+    "has_extract": true,
+    "authors": "Islamic",
+    "year": "2025",
+    "doi": "",
+    "url": "https://openreview.net/pdf?id=q9kPg2ndg2",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+    "has_extract": true,
+    "authors": "Islamic",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md",
+    "has_extract": true,
+    "authors": "Jafarinejad, Rahimi, Khodabakhsh, Karimi",
+    "year": "2025",
+    "doi": "",
+    "url": "https://cke.um.ac.ir/article_46412.html",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jailbreak-The Hidden Flaw in LLM Safety Translation as a Jailbreak - Welo Data.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Embedding Jailbreak",
+    "year": "2025",
+    "doi": "",
+    "url": "https://welodata.ai/2025/12/10/the-hidden-flaw-in-llm-safety-translation-as-a-jailbreak/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jain-Low-Resource NLP Challenges Breakthroughs and the Science Behind.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Sulbha Jain",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aiclub.ku.edu.np/low-resource-nlp-challenges-breakthroughs-and-the-science-behind-language-ai/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jakha-Optimizing Sentiment Analysis in Multilingual Balanced Datasets A New.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Hamza Jakha; Souad El Houssaini; Mohammed-Alamine El Houssaini; Souad Ajjaj; Abdelali Hadir",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.mdpi.com/2571-5577/8/4/104",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md",
+    "has_extract": true,
+    "authors": "Krzysztof Jassem, Michal Ciesiolka, Filip Gralinski, Piotr Jablonski, Jakub Pokrywka, Marek Kubis, Monika Jablonska, Ryszard Staruch",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.02266",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md",
+    "has_extract": true,
+    "authors": "[[Jiang, Aiqi]]; [[Zubiaga, Arkaitz]]",
+    "year": "2025",
+    "doi": "10.1145/3465336.3475102",
+    "url": "https://dl.acm.org/doi/10.1145/3465336.3475102",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jiang-Simulating social perception with large language models perceptions.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Zhuoren Jiang, Biao Huang",
+    "year": "2025",
+    "doi": "10.1080/23812346.2025.2603822",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/23812346.2025.2603822",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md",
+    "has_extract": true,
+    "authors": "Jigsaw",
+    "year": "2025",
+    "doi": "10.1145/3534678.3539147",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3534678.3539147",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Jigsaw",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md",
+    "has_extract": true,
+    "authors": "Jigsaw",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.wmt-1.15.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md",
+    "has_extract": true,
+    "authors": "Jiho Jin, Jiseon Kim, Nayeon Lee, Alice Oh",
+    "year": "2025",
+    "doi": "10.18653/v1/2025.findings-acl.585",
+    "url": "https://arxiv.org/abs/2503.06987",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.md",
+    "has_extract": true,
+    "authors": "[[affiliated with University of Johannesburg]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md",
+    "has_extract": true,
+    "authors": "[[Joy, Saman Sarker]]; [[Shatabda, Swakkhar]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.18951",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models.md",
+    "has_extract": true,
+    "authors": "[[Sankalp KJ]]; [[Ashutosh Kumar]]; [[Laxmaan Balaji]]; [[Nikunj Kotecha]]; [[Vinija Jain]]; [[Aman Chadha]]; [[Sreyoshi Bhaduri]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.15747",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.md",
+    "has_extract": true,
+    "authors": "[[Kabir, Daeen]]; [[Mahim, Minhajur Rahman Chowdhury]]; [[Shafayat, Sheikh]]; [[Sadik, Adnan]]; [[Ahmed, Arian]]; [[Kim, Eunsu]]; [[Oh, Alice]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.21092",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+    "has_extract": true,
+    "authors": "Ariba Kabir, Abrar Anwar, Sophia Ananiadou",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.08045",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md",
+    "has_extract": true,
+    "authors": "Kajiwara",
+    "year": "2025",
+    "doi": "",
+    "url": "https://www.arxiv.org/pdf/2508.04913",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md",
+    "has_extract": true,
+    "authors": "Kajiwara",
+    "year": "2025",
+    "doi": "",
+    "url": "https://internationalhatestudies.com/wp-content/uploads/2025/05/104-INHS-Newsletter-May-2025.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kamath-Benchmarking Hindi LLMs A New Suite.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kamath-Benchmarking Hindi LLMs A New Suite.md",
+    "has_extract": true,
+    "authors": "[[Kamath, Anusha]]; [[Singla, Kanishk]]; [[Paul, Rakesh]]; [[Joshi, Raviraj]]; [[Vaidya, Utkarsh]]; [[Chauhan, Sanjay Singh]]; [[Wartikar, Niranjan]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.19831",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md",
+    "has_extract": true,
+    "authors": "[[Abdou Karim Kandji]]; [[Frédéric Precioso]]; [[Cheikh Ba]]; [[Samba Ndiaye]]; [[Augustin Ndione]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2509.19271",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in.md",
+    "has_extract": true,
+    "authors": "[[Naome A. Etori, Kevin Lu, Randu Karisa, Arturs Kanepajs]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.11911",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md",
+    "has_extract": true,
+    "authors": "Jurgita Kapociute-Dzikiene, Toms Bergmanis, Marcis Pinnis",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2501.03952",
+    "url": "https://arxiv.org/abs/2501.03952",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.md",
+    "has_extract": true,
+    "authors": "Amr Keleg",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2503.15003",
+    "url": "https://arxiv.org/abs/2503.15003",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+    "has_extract": true,
+    "authors": "[[Sebastian Nehrdich, Avery Chen, Marcus Bingenheimer, Lu Huang, Rouying Tang, Xiang Wei, Leijie Zhu, Kurt Keutzer]]",
+    "year": "2025",
+    "doi": "",
+    "url": "",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.md",
+    "has_extract": true,
+    "authors": "[[Khan, Eeham]]; [[Saidani, Firas]]; [[Van Esbroeck, Owen]]; [[Khoury, Richard]]; [[Kosseim, Leila]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2510.22747",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md",
+    "has_extract": true,
+    "authors": "[[Kharchenko, Julia]]; [[Roosta, Tanya]]; [[Chadha, Aman]]; [[Shah, Chirag]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://kdd-eval-workshop.github.io/genai-evaluation-kdd2025/assets/papers/Submission%2018.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.md",
+    "has_extract": true,
+    "authors": "Sean Kim, Hyuhng Joon Kim",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.21881",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md",
+    "has_extract": true,
+    "authors": "Sanghoon Kim, Juhwan Choi, Youngjune Gwon",
+    "year": "2025",
+    "doi": "10.18653/v1/2025.naacl-short.56",
+    "url": "https://arxiv.org/abs/2502.15422",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md",
+    "has_extract": true,
+    "authors": "Kyuhee Kim, Sangah Lee",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2507.04014",
+    "url": "https://aclanthology.org/2025.findings-acl.794/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Klakow-Charting the Landscape of African NLP.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Klakow-Charting the Landscape of African NLP.md",
+    "has_extract": true,
+    "authors": "[[Jesujoba O. Alabi, Michael A. Hedderich, David Ifeoluwa Adelani, Dietrich Klakow]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.21315",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md",
+    "has_extract": true,
+    "authors": "Irakli Koberidze, Archil Elizbarashvili, Magda Tsintsadze",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.lowresnlp-1.13.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Koc-Generative AI and Large Language Models in Language Preservation.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Koc-Generative AI and Large Language Models in Language Preservation.md",
+    "has_extract": true,
+    "authors": "Vincent Koc",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.11496",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.md",
+    "has_extract": true,
+    "authors": "Youngeun Koo, Jiwoo Lee, Dojun Park, Seohyun Park, Sungeun Lee",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2502.10995",
+    "url": "https://arxiv.org/abs/2502.10995",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Korir-API Multilingual & Multicultural Resources - Asian Pacific Islander.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Kiplangat Korir",
+    "year": "2025",
+    "doi": "",
+    "url": "https://apislhc.org/api-multilingual-multicultural-resources/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md",
+    "has_extract": true,
+    "authors": "Yevhen Kostiuk, Oxana Vitman, Lukasz Gagala, Artur Kiulian",
+    "year": "2025",
+    "doi": "10.48550/arXiv.2501.09164",
+    "url": "https://arxiv.org/abs/2501.09164",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md",
+    "has_extract": true,
+    "authors": "[[Yevhen Kostiuk]]; [[Oxana Vitman]]; [[Łukasz Gagała]]; [[Artur Kiulian]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.09154",
+    "body_richness": "rich"
+  },
+  {
+    "filename": "2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a.md",
+    "has_extract": true,
+    "authors": "Fajri Koto, Rituraj Joshi, Nurdaulet Mukhituly, Yuxia Wang, Zhuohan Xie, Rahul Pal, Daniil Orel, Parvez Mullah, Diana Turmakhan, Maiya Goloburda, Mohammed Kamran, Samujjwal Ghosh, Bokang Jia, Jonibek Mansurov, Mukhammed Togmanov, Debopriyo Banerjee, Nurkhan Laiyk, Akhmed Sakip, Xudong Han, Ekaterina Kochmar, Alham Fikri Aji, Aaryamonvikram Singh, Alok Anil Jadhav, Satheesh Katipomu, Samta Kamboj, Monojit Choudhury, Gurpreet Gosal, Gokulakrishnan Ramakrishnan, Biswajit Mishra, Sarath Chandran, Avraham Sheinin, Natalia Vassilieva, Neha Sengupta, Preslav Nakov",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.01493",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kranti-MATA mata Mindful Assessment of the.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.md",
+    "has_extract": true,
+    "authors": "[[Kranti, Chalamalasetti]]; [[Vajjala, Sowmya]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.13526",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md",
+    "has_extract": true,
+    "authors": "Aleksandra Krasnodebska, Karolina Seweryn, Szymon Lukasik, Wojciech Kusa",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2506.16322",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md",
+    "has_extract": true,
+    "authors": "Andrian Kravchenko, Yurii Paniv, Nazarii Drushchak",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2025.unlp-1.4.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md",
+    "has_extract": true,
+    "authors": "[[Unknown]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.md",
+    "has_extract": true,
+    "authors": "Lun‐Wei Ku; Wei-Fan Chen",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/C16-3002/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kumar-SweEval Do LLMs Really Swear A.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kumar-SweEval Do LLMs Really Swear A.md",
+    "has_extract": true,
+    "authors": "[[Patel, Hitesh Laxmichand]]; [[Agarwal, Amit]]; [[Das, Arion]]; [[Kumar, Bhargava]]; [[Panda, Srikant]]; [[Pattnayak, Priyaranjan]]; [[Rafi, Taki Hasan]]; [[Kumar, Tejaswini]]; [[Chae, Dong-Kyu]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.17332",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+    "has_extract": true,
+    "authors": "[[Kumar, Vallabhaneni Raj]]; [[S, Ashwin]]; [[Manna, Supriya]]; [[Sett, Niladri]]; [[Harshitha, Cheedella V S N M S Hema]]; [[Harshitha, Kurakula]]; [[Sharma, Anand Kumar]]; [[Deepakraj, Basina]]; [[Sarkar, Tanuj]]; [[Krishna, Bondada Navaneeth]]; [[Shakeer, Samanthapudi]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2508.01486",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md",
+    "has_extract": true,
+    "authors": "[[LLMs, A Leaderboard to Benchmark Ethical Biases in]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://ceur-ws.org/Vol-3744/paper1.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Lab-ArmBench-LLM A Benchmark for Evaluating Large Language Models on.md",
+    "pdf_extract_path": "",
+    "has_extract": false,
+    "authors": "Metric AI Research Lab",
+    "year": "2025",
+    "doi": "",
+    "url": "https://metric.am/blog/introducing-armbench-llm/",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md",
+    "has_extract": true,
+    "authors": "[[Lai, Wen]]; [[Mesgar, Mohsen]]; [[Fraser, Alexander]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://aclanthology.org/2024.findings-acl.488.pdf",
+    "body_richness": "thin"
+  },
+  {
+    "filename": "2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md",
+    "pdf_extract_path": "PDF Extracts/2025/2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md",
+    "has_extract": true,
+    "authors": "[[Laiyk, Nurkhan]]; [[Orel, Daniil]]; [[Joshi, Rituraj]]; [[Goloburda, Maiya]]; [[Wang, Yuxia]]; [[Nakov, Preslav]]; [[Koto, Fajri]]",
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2502.13647",
+    "body_richness": "thin"
+  }
+]

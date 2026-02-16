@@ -39,6 +39,7 @@ Keshmirian is the lead author of "Many LLMs Are More Utilitarian Than One," whic
 
 
 
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]] (First Author)
 
 ## Notes
@@ -46,6 +47,8 @@ Keshmirian is the lead author of "Many LLMs Are More Utilitarian Than One," whic
 
 
 
+
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign

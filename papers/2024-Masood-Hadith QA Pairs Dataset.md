@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C5KAAG92/Masood - 2024 - Hadith QA Pairs Dataset.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

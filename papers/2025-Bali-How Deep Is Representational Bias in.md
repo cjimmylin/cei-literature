@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Representational bias in large language models (LLMs) has predominant
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, GPT4-Turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion

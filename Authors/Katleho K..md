@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases|Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net
 - *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net
 - *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net
 - *From 2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases*: Affiliation: University of Darmstadt, Germany, Email: fabian@damken.net

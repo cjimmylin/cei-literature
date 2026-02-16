@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian, Bengali, English"
+languages_list: "Bengali, English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

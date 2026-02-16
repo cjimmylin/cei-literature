@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.lrec-main.737/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ATYMD6Y/2024 - The Humanistic Buddhism Corpus (HBC).pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese, English"
 religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"

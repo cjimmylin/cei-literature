@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Mixtral"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Telegram has become a major space for political discourse and alternative media. However, its lack of moderation allows misinformation, extremism, and toxicity to spread. While prior research focused on these particular phenomena or topics, these have mostly been examined separately, and a broader understanding of the Telegram ecosystem is still missing. In this work, we fill this gap by conducting a large-scale analysis of the Italian Telegram sphere, leveraging a dataset of 186 million..."
 ethics_perspective: "Toxicity & Hate Speech"

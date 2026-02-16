@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,9 +12,9 @@ type: conferencePaper
 short_title: "Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC"
 year: 2025
 first_author: "[[Das, Rajesh Kumar]]"
-last_author: "[[Khushbu, Sharun Akter]]"
-authors: "[[Das, Rajesh Kumar]]; [[Islam, Mirajul]]; [[Hasan, Md Mahmudul]]; [[Razia, Sultana]]; [[Hassan, Mocksidul]]; [[Khushbu, Sharun Akter]]"
-authors_incomplete: true
+last_author: "[[Khushbu, S.]]"
+authors: "[[Das, Rajesh Kumar]]; [[Islam, Mirajul]]; [[Hasan, Md Mahmudul]]; [[Razia, Sultana]]; [[Hassan, Mocksidul]]; [[Khushbu, S.]]"
+authors_incomplete: false
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10560063/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10560063&blobtype=pdf"
 publication: PubMed
@@ -37,20 +38,20 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, word2vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found several relevant resources related to Mongolian NLP and sentiment analysis evaluation. Here's what the search revealed: Mongolian NLP Evaluation MM-Eval is a specialized dataset for evaluating the capabilities of large language models (LLMs) in modern Mongolian, which is a low-resource language."
 research_topic: "Machine Learning"
 ---
 # Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC
 
 ## Authors
 
-[[David Jurgens Shivani Kumar|Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, Sharun Akter]]
+[[Das, Rajesh Kumar]], [[Islam, Mirajul]], [[Hasan, Md Mahmudul]], [[Razia, Sultana]], [[Hassan, Mocksidul]], [[Khushbu, S.]]
 
 ## Metadata
 
-**Authors:** Rajesh Kumar Das; Mirajul Islam; Md Mahmudul Hasan; Sultana Razia; Mocksidul Hassan; Sharun Akter Khushbu
+**Authors:** Das, Rajesh Kumar; Islam, Mirajul; Hasan, Md Mahmudul; Razia, Sultana; Hassan, Mocksidul; Khushbu, S.
 
 **Year:** 2025
 

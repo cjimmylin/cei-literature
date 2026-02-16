@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Andean Indigenous"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality."
 ethics_perspective: "Social & Cultural Values"
 ---
 # Indigenous Ethics and Artificial Intelligence

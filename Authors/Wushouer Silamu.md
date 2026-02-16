@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based|On Culture Transmission in Chinese-English Literary Translation—Based on Weicheng's English Version]] (First Author)
 - [[2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary|Wang, L. and Wang, X. (2020). How to evaluate literary]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology
 - *From 2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary*: Affiliation: University of Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

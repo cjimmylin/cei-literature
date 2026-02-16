@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a|Charting the European LLM Benchmarking Landscape: A New Taxonomy and a Set of Best Practices]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia
 - *From 2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a*: Affiliation: Institute, Jamova 39, Ljubljana, Slovenia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,9 +37,9 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the search results, here's what I found about the ADHAR multi-dialectal Arabic hate speech corpus: Overview ADHAR is a comprehensive multi-dialect, multi-category hate speech corpus for Arabic. The paper was published in Frontiers in Artificial Intelligence in May 2024."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate speech detection with ADHAR: a multi-dialectal hate speech corpus in Arabic - PMC

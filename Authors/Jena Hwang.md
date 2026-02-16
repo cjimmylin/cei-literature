@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington

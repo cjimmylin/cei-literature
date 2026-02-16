@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Graves-AI Practical Wisdom and Compassion|AI Practical Wisdom and Compassion]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Graves-AI Practical Wisdom and Compassion*: Affiliation: University of San Francisco, San Francisco, CA, USA, Email: mgraves@aiandfaith.org
 - *From 2025-Graves-AI Practical Wisdom and Compassion*: Affiliation: University of San Francisco, San Francisco, CA, USA, Email: mgraves@aiandfaith.org
 - *From 2025-Graves-AI Practical Wisdom and Compassion*: Affiliation: University of San Francisco, San Francisco, CA, USA, Email: mgraves@aiandfaith.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

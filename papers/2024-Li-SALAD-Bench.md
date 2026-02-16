@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2024.findings-acl.235/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6WRTXGCW/2024 - SALAD-Bench A Hierarchical and Comprehensive Safety Benchmark for Large Language Models.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

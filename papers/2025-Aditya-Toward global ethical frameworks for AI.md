@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ doi: 10.5281/zenodo.XXXXX
 url: "https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-human-values-and"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"

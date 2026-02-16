@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering|AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 - *From 2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering*: Affiliation: Institute of Technology, 3The Ohio State University, 4BioRAMP, Email: tobi@intron.io
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

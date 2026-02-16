@@ -25,7 +25,7 @@ from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, STATISTICS_DIR, LOGS_DIR
 
 INPUT_FILE = LOGS_DIR / "20260215-benchmark_survey_candidates.json"
-OUTPUT_FILE = STATISTICS_DIR / "20260215-ethical-values-alignment-benchmarks-report.md"
+OUTPUT_FILE = STATISTICS_DIR / "20260216-ethical-values-alignment-benchmarks-report.md"
 
 # Also import classify_entry from sibling script
 sys.path.insert(0, str(SCRIPT_DIR))

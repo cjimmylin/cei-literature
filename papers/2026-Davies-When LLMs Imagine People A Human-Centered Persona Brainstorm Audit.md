@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, Mistral, Mistral Medium, Mistral Small, Mistral-medium, Mistral-small"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Biased outputs from Large Language Models (LLMs) can reinforce stereotypes and perpetuate inequities in real-world applications, making fairness auditing essential. We introduce the Persona Brainstorm Audit (PBA), a scalable and transparent auditing method for detecting bias through open-ended persona generation. Unlike existing methods that rely on fixed identity categories and static benchmarks, PBA uncovers biases across multiple social dimensions while supporting longitudinal tracking and mitigating data leakage risks. Applying PBA to 12 state-of-the-art LLMs, we compare bias severity across models, dimensions, and versions, uncover distinct patterns and lineage-specific variability, and trace how biases attenuate, persist, or resurface across successive generations. Robustness analyses show PBA remains stable under varying sample sizes, role-playing prompts, and debiasing prompts, establishing its reliability for fairness auditing in LLMs."
 ethics_perspective: "Bias & Fairness"

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences|Aligning LLM Agents with Rational and Kantian Preferences]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences*: Affiliation: Faculty Summit, and 2025 ISMS Marketing Science Conference, Email: chansen1@chicagobooth.edu
 - *From 2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences*: Affiliation: Faculty Summit, and 2025 ISMS Marketing Science Conference, Email: daniel.chen@iast.fr
 - *From 2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences*: Affiliation: Faculty Summit, and 2025 ISMS Marketing Science Conference, Email: daniel.chen@iast.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

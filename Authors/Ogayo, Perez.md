@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African|MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages]]
 - [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 - *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

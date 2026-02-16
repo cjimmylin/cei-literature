@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arabic, Bengali, Chinese, German, Greek, Korean, Portuguese, Spanish, Turkish"
+languages_list: "Arabic, Bengali, Chinese, English, German, Greek, Korean, Portuguese, Spanish, Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

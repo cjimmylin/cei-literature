@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: adhuran@us.ibm.com
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu

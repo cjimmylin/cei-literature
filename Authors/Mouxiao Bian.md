@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030|Healthcare Ethics & Safety QA (China -- Healthy China 2030)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030*: Affiliation: Laboratory, , Shanghai, China
 - *From 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030*: Affiliation: Laboratory, , Shanghai, China
 - *From 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030*: Affiliation: Laboratory, , Shanghai, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

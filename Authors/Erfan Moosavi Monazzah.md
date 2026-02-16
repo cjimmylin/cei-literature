@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian|PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: rahimzade@ut.ac.ir
 - *From 2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian*: Affiliation: University of Tehran, Iran, Email: moosavi_m@comp.iust.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

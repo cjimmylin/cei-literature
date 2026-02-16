@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
+languages_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Political stance detection in low-resource and culturally complex set
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 research_topic: "Social & Cultural Analysis"
 ---

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Xu-SC-Safety|SC-Safety]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 - *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 - *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com
 - *From 2023-Xu-SC-Safety*: Affiliation: laborative efforts to create safer, Email: clues@cluebenchmarks.com

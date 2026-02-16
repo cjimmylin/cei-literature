@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Cross-cultural (multiple cultural conditionings via WVS)"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"

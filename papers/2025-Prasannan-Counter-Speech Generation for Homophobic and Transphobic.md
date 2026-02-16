@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Malayalam"
+languages_list: "Malayalam"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Analysis of counter-speech generation for homophobic and transphobic 
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-2, GPT-3, GPT-4, GPT-4o"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Counter-Speech Generation for Homophobic and Transphobic Social Media Content in Malayalam

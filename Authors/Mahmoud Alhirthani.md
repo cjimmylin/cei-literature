@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa
 - *From 2026-Alam-From RAG to Agentic RAG for*: Affiliation: Research Institute, HBKU, Qatar, Email: fialam@hbku.edu.qa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

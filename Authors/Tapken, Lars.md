@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Becker-The Moralization Corpus|The Moralization Corpus]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University
 - *From 2025-Becker-The Moralization Corpus*: Affiliation: Department of German Linguistics, Heidelberg University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

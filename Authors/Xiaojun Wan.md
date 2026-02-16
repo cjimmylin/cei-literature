@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2025-Li-Analyzing Cognitive Differences Among Large|Analyzing Cognitive Differences Among Large]] (Last Author)
 - [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: hong@blcu.edu.cn
 - *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: xianpei@iscas.ac.cn
 - *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: sms@tsinghua.edu.cn
 - *From 2025-Li-Analyzing Cognitive Differences Among Large*: Affiliation: Institute of Computer Technology, Peking University, Email: yanheng@ruc.edu.cn

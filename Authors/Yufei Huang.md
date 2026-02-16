@@ -23,6 +23,7 @@ Yufei Huang is a researcher at Tianjin University focusing on Large Language Mod
 
 
 
+
 - [[2025-Shen-Alignment and Safety in LLMs Survey|Alignment and Safety in LLMs Survey]] (Last Author)
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]]
 - [[2024-Huang-CBBQ|CBBQ]] (First Author)
@@ -36,6 +37,8 @@ Yufei Huang is a researcher at Tianjin University focusing on Large Language Mod
 
 
 
+
+- *From 2024-Huang-CBBQ*: Affiliation: laboration for Large Language Models
 - *From 2024-Huang-CBBQ*: Affiliation: laboration for Large Language Models
 - *From 2024-Huang-CBBQ*: Affiliation: laboration for Large Language Models
 - *From 2024-Huang-CBBQ*: Affiliation: laboration for Large Language Models

@@ -39,7 +39,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Bartl, ELECTRA, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The study of bias in language models is a growing area of work, however, both research and resources are focused on English. In this paper, we make a first approach focusing on gender bias in some freely available Spanish language models trained using popular deep neural networks, like BERT or RoBERTa. Some of these models are known for achieving state-of-the-art results on downstream tasks. These promising results have promoted such models’ integration in many realworld applications and..."
 ethics_perspective: "Bias & Fairness"

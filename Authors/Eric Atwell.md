@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Alsalka-HAQA and QUQA Constructing Two Arabic|HAQA and QUQA Constructing Two Arabic]]
 - [[2023-Alsalka-Is GPT-4 a Good Islamic Expert|Is GPT-4 a Good Islamic Expert]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK
 - *From 2023-Alsalka-HAQA and QUQA Constructing Two Arabic*: Affiliation: University of Leeds, Leeds, UK
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Virtue ethics"
@@ -18,6 +19,7 @@ url: "https://www.taylorfrancis.com/books/mono/10.4324/9781003632658/ethics-digi
 external_pdf: "http://liu.diva-portal.org/smash/get/diva2:918869/FULLTEXT01"
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: "Chinese"
+languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
 moral_psychology: "Value Pluralism / Schwartz"
@@ -37,8 +39,8 @@ data_description: N/A
 data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-Elder-The Ethics of Digital Ghosts.md"
+local_pdf: "[[PDFs/2025/2025-Elder-The Ethics of Digital Ghosts.pdf]]"
 ---
 # The Ethics of Digital Ghosts: Confucian, Mohist, and Zhuangist Perspectives on AI and Death
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of|The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States
 - *From 2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of*: Affiliation: Department of Information Science, University of Colorado Boulder, United States
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

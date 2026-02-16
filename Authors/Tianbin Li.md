@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 - [[2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A|Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU]] (Last Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn

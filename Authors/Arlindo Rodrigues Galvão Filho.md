@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority|ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br
 - *From 2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority*: Affiliation: Center for Immersive Technologies (AKCIT), Federal University of Goiás, Email: arlindogalvao@ufg.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic|AraLingBench A Human-Annotated Benchmark for Evaluating Arabic Linguistic Capabilities of Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic*: Affiliation: University of Science and Technology (KAUST), Email: hasanabedalkader.hammoud@kaust.edu.sa
 - *From 2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic*: Affiliation: University of Science and Technology (KAUST), Email: mohamad.zbib@kaust.edu.sa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

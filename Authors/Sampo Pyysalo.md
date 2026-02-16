@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM|Got Compute, but No Data: Lessons From Post-training a Finnish LLM]] (Last Author)
 - [[2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation|Toxicity Detection in Finnish Using Machine Translation]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland
 - *From 2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation*: Affiliation: University of Turku, Finland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "UX Virtue ethics, catholic social teaching"
@@ -20,6 +21,7 @@ local_pdf: "[[PDFs/2025/2025-Conwill-Design Patterns for the Common Good.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2501.10288.pdf"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: Christianity
 religious_values_list: Christianity
 moral_psychology: "Value Pluralism / Schwartz"

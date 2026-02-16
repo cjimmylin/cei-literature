@@ -28,6 +28,7 @@ Anton Emelyanov is a researcher at Sber AI, contributing to the development of e
 
 
 
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 
 ## Notes
@@ -35,6 +36,8 @@ Anton Emelyanov is a researcher at Sber AI, contributing to the development of e
 
 
 
+
+- *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com
 - *From 2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian*: Affiliation: University, 3Center for Artificial Intelligence Technology, 4AIRI, Email: alenush93@gmail.com

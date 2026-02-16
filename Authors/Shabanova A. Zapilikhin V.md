@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-A.-Operationalizing Cultural Values in Language Models A Comparative|Operationalizing Cultural Values in Language Models: A Comparative Analysis Using Hofstede's Dimensions]] (Last Author)
 
 ## External Links & Profiles

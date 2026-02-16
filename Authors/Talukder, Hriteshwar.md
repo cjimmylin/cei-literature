@@ -1,9 +1,9 @@
 ---
 name: "Talukder, Hriteshwar"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science and Technology1, 2, 3, 4"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "mosahed32@student.sust.edu2"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate|BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts]]]]
 
 - [[2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate|BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate*: Affiliation: University of Science and Technology1, 2, 3, 4, Email: mosahed32@student.sust.edu2
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

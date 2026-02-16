@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]]
 - [[2023-Qiu-Large AI Models in Health Informatics|Large AI Models in Health Informatics]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: dongyz@connect.hku.hk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: r.zhang@prhk.ltd
 - *From 2023-Qiu-Large AI Models in Health Informatics*: Affiliation: Department of Computing, Imperial College, Email: lin.3.li@kcl.ac.uk

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Li-XIFBench Evaluating Large Language Models on|XIFBench: Evaluating Large Language Models on]]
 - [[2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating|Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating*: Affiliation: School of Computer Science and Technology, Harbin Institute of Technology, China, Email: ands691119@gmail.com
 - *From 2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating*: Affiliation: School of Computer Science and Technology, Harbin Institute of Technology, China, Email: ands691119@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

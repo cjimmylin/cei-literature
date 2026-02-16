@@ -35,6 +35,7 @@ Abdelrahim's research is dedicated to advancing the state-of-the-art in Arabic N
 
 
 
+
 - [[2025-Abdul-Mageed-Where Are We Evaluating LLM Performance|Where Are We Evaluating LLM Performance]]
 - [[2025-Alwajih-Palm|Palm]]
 
@@ -49,6 +50,8 @@ Abdelrahim's research is dedicated to advancing the state-of-the-art in Arabic N
 
 
 
+
+- *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

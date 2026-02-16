@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Aly-Applying Data Feminism Principles to Assess Bias in English and|Applying Data Feminism Principles to Assess Bias in English and Arabic NLP Research | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency]] (Last Author)
 - [[2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ...|ArGAN: Arabic Gender, Ability, and Nationality Dataset for ...]] (Last Author)
 - [[2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One|Detecting gender bias in Arabic text through word embeddings | PLOS One]] (Last Author)
@@ -87,6 +88,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus*: Affiliation: University, Spain, Email: acharﬁ@andrew.cmu.edu
 - *From 2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus*: Affiliation: University, Spain, Email: acharﬁ@andrew.cmu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large|DECASTE Unveiling Caste Stereotypes in Large]]
 - [[2024-Pisano-Moral High Ground|Moral High Ground]]
 
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: rhoresh@us.ibm.com
 - *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: ropaula@br.ibm.com
 - *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: ropaula@br.ibm.com
 [Additional context or contact information]

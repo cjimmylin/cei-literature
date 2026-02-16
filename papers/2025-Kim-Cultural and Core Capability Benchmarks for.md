@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2025.coling-main.278/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TK8N7ILB/2025 - Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI).pdf"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
+languages_list: "Thai"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

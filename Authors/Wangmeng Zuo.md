@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology

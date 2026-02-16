@@ -39,7 +39,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BART, BERT, DistilBERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Adaptive ensemble techniques for hate speech detection in Korean and English using BERT-based models. Addresses multilingual hate speech detection with Korean-specific considerations."
 ethics_perspective: "Toxicity & Hate Speech"

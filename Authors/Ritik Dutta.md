@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Wang-DecodingTrust|DecodingTrust]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

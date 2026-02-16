@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation|NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 - *From 2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation*: Affiliation: University of Oslo, Email: vladism@ifi.uio.no
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

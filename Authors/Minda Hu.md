@@ -23,6 +23,7 @@ Minda Hu is affiliated with the Chinese University of Hong Kong, Department of C
 
 
 
+
 - [[2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning|Rethinking Machine Ethics]]
 - [[2022-Hu-“I’m sorry to hear that”|'I'm sorry to hear that']] (First Author)
 
@@ -31,6 +32,8 @@ Minda Hu is affiliated with the Chinese University of Hong Kong, Department of C
 
 
 
+
+- *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2022-Hu-“I’m sorry to hear that”*: Affiliation: University of Hong Kong, Email: wangyasheng@huawei.com

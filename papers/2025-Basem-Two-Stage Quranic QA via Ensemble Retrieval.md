@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Quranic Question Answering presents unique challenges due to the ling
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, DeepSeek, ELECTRA"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Question Answering"
 ---
 # Two-Stage Quranic QA via Ensemble Retrieval and Instruction-Tuned Answer Extraction

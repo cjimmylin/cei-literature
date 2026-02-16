@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,7 +17,7 @@ authors: Adam Crepelle
 url: "https://scholarship.law.duke.edu/dltr/vol25/iss1/1/"
 publication: "Duke Law & Technology Review"
 local_pdf: 
-pdf_extract: 
+"N/A"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -23,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Native American"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "First law review article dedicated to exploring how AI can enhance tribal sovereignty. Discusses how artificial intelligence has permeated every facet of modern existence, with governments exploring applications and regulatory frameworks. Notes that Indian tribes have been neglected in AI policy discussions. Examines Cherokee Nation's Data Sovereignty and Governance Task Force and AI policy."
 research_topic: "Other"
 ---
 # Tribes and AI: Possibilities for Tribal Sovereignty

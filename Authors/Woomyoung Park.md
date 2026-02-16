@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language|Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models]] (Last Author)
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: rmarud202@uos.ac.kr
 - *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr
 - *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: jinhwanchoi@lbox.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

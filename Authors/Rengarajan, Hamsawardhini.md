@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino]]
 - [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic|BHASA A Holistic Southeast Asian Linguistic]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
 - *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: yosephine@aisingapore.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

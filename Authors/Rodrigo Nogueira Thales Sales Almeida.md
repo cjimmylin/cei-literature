@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Pires-Sabiá Portuguese Large Language Models|Sabiá: Portuguese Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Pires-Sabiá Portuguese Large Language Models*: Affiliation: lable, continue
 - *From 2023-Pires-Sabiá Portuguese Large Language Models*: Affiliation: lable, continue
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

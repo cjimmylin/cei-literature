@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Fasching-Inconsistencies in Hate Speech Detection Across|Inconsistencies in Hate Speech Detection Across]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania
 - *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

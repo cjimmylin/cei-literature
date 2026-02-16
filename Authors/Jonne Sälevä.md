@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns|A Multi-Orthography Parallel Corpus of Yiddish Nouns]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu
 - *From 2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns*:, Email: jonnesaleva@brandeis.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

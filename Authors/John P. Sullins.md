@@ -22,6 +22,7 @@ Professor of Philosophy at Sonoma State University, Director of Programming for 
 
 
 
+
 - [[2025-Pipitone-Unlocking practical wisdom|Unlocking practical wisdom]]
 - [[2025-Sullins-Automated Ethical Practical Reasoning|Automated Ethical Practical Reasoning]] (First Author)
 - [[2021-Sullins-Artificial Phronesis - What It Is and Is Not|Artificial Phronesis - What It Is and Is Not]] (First Author)

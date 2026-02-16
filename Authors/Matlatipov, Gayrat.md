@@ -1,9 +1,9 @@
 ---
 name: "Matlatipov, Gayrat"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, 14, Kh"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "e.kuriyozov@udc.es"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Kuriyozov-Text classification dataset and analysis for|Text classification dataset and analysis for]] (Last Author)]]
 
 - [[2023-Kuriyozov-Text classification dataset and analysis for|Text classification dataset and analysis for]] (Last Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Kuriyozov-Text classification dataset and analysis for*: Affiliation: University, 14, Kh, Email: e.kuriyozov@udc.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

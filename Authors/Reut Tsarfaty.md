@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Cohen-HeQ|HeQ]] (Last Author)
 - [[2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark|HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark]] (Last Author)
 - [[2018-Amram-Representations and Architectures in Neural Sentiment Analysis for|Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew]] (Last Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2018-Amram-Representations and Architectures in Neural Sentiment Analysis for*: Affiliation: University of Israel, University Road 1, Ra’anana, Email: adam.amram@gmail.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: yoav.goldberg@gmail.com

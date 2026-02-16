@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Islamic, Arabic"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Centuries-old Islamic medical texts like Avicenna’s Canon of Medici
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude-4, GPT4, Llama-3, Mistral 7b, Mistral- 7B, Mistral-7B, Qwen-7B, Qwen2, llama 3"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 ---
 # From RAG to Agentic: Validating Islamic-Medicine Responses with LLM Agents (Tibbe-AG)

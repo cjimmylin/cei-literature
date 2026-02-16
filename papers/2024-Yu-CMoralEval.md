@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ local_pdf: [[PDFs/2024/2024-Yu-CMoralEval.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

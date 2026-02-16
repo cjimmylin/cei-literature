@@ -20,12 +20,15 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons|Technical Risks of (Lethal) Autonomous Weapons]] (First Author)
 
 ## Notes
 
 
 
+
+- *From 2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons*: Affiliation: lable, undermining, Email: podar_hd@cy.iitr.ac.in
 - *From 2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons*: Affiliation: lable, undermining, Email: alycia@encodejustice.nl
 - *From 2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons*: Affiliation: lable, undermining, Email: alycia@encodejustice.nl
 [Additional context or contact information]

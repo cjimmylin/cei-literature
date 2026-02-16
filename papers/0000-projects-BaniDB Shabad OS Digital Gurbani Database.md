@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +34,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: "Gurmukhi"
 religious_values: "Sikhism"
 religious_values_list: "Sikhism"
 moral_psychology: "N/A"

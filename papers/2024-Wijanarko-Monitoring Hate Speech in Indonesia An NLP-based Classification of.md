@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-4o mini, GPT-4, RoBERTa, GPT-3, GPT-3.5, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Online hate speech propagation is a complex issue, deeply influenced by both the perpetrator and the target’s cultural, historical, and societal contexts. Consequently, developing a universally robust hate speech classifier for diverse social media texts remains a challenging and unsolved task. The lack of mechanisms to track the spread and severity of hate speech further complicates the formulation of effective solutions."
 ethics_perspective: "Toxicity & Hate Speech"

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_TABACZEK2024
@@ -18,6 +19,7 @@ pdf_extract: "PDF Extracts/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic
 local_pdf: "[[PDFs/2024/2024-Tabaczek-Virtuous AI Aristotelian-Thomistic.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "Christianity (Catholic/Thomistic)"
 religious_values_list: "Christianity (Catholic/Thomistic)"
 moral_psychology: Yes

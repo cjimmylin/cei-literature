@@ -20,12 +20,15 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Lee-VisAlign|VisAlign]]
 
 ## Notes
 
 
 
+
+- *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 3joonseok2010@gmail.com
 - *From 2023-Lee-VisAlign*: Affiliation: University Bundang Hospital, 3Seoul National University, Email: 4mghassem@mit.edu
 [Additional context or contact information]

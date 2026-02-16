@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese|TaiwanVQA: A Benchmark for Visual Question Answering for Taiwanese Daily Life]]
 
 ## External Links & Profiles

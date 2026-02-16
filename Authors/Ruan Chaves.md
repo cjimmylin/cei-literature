@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Chaves-Napolab The Natural Portuguese Language Benchmark|Napolab: The Natural Portuguese Language Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Chaves-Napolab The Natural Portuguese Language Benchmark*: Affiliation: lab The Natural Portuguese Language Benchmark - PDF Extract"
 - *From 2024-Chaves-Napolab The Natural Portuguese Language Benchmark*: Affiliation: lab The Natural Portuguese Language Benchmark - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

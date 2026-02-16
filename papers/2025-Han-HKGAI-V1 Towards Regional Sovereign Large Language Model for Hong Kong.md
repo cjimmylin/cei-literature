@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Hong Kong"
-languages_list: 
+languages_list: "Cantonese, English, Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "HKGAI-V1"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Develops sovereign LLM for Hong Kong addressing multilingual environment (Cantonese, Mandarin, English) and socio-legal context. Introduces Adversarial HK Value Benchmark with 300 human-crafted sensitive questions evaluating alignment with local ethical and legal standards."
 research_topic: "NLP & Representation Learning"
 ---
 # HKGAI-V1: Towards Regional Sovereign Large Language Model for Hong Kong

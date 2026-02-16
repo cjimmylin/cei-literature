@@ -35,6 +35,7 @@ Alessio's work explores the transition from simple "alignment" to active "moral 
 
 
 
+
 - [[2025-Galatolo-Beyond Ethical Alignment|Beyond Ethical Alignment]] (First Author)
 
 ## External Links & Profiles
@@ -46,6 +47,8 @@ Alessio's work explores the transition from simple "alignment" to active "moral 
 
 
 
+
+- *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St
 - *From 2025-Galatolo-Beyond Ethical Alignment*: Affiliation: University of St

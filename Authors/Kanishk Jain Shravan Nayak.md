@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding|Benchmarking Vision Language Models for Cultural Understanding]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

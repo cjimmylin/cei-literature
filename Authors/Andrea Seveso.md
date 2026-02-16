@@ -39,6 +39,7 @@ Seveso is a co-author of ITALIC, a comprehensive benchmark dataset of 10,000 mul
 
 
 
+
 - [[2025-Seveso-ITALIC|ITALIC]] (First Author)
 
 ## Notes
@@ -46,6 +47,8 @@ Seveso is a co-author of ITALIC, a comprehensive benchmark dataset of 10,000 mul
 
 
 
+
+- *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy
 - *From 2025-Seveso-ITALIC*: Affiliation: University of Milano-Bicocca, Italy

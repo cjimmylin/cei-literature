@@ -46,7 +46,7 @@
 - Final unresolved: `196`
 - Net resolved since initial: `29`
 - Newly unresolved since initial: `1`
-  - `2024-Unknown-LIEA-BERT A Linguistically Enriched Framework for.md`
+  - `2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md`
 
 ## Final Tracking Artifacts
 - Final unresolved snapshot:

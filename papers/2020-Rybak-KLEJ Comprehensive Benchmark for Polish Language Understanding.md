@@ -36,7 +36,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, ELMo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "In recent years, a series of Transformer-based models unlocked major improvements in general natural language understanding (NLU) tasks. Such a fast pace of research would not be possible without general NLU benchmarks, which allow for a fair comparison of the proposed methods. However, such benchmarks are available only for a handful of languages. To alleviate this issue, we introduce a comprehensive multi-task benchmark for the Polish language understanding, accompanied by an online..."
 research_topic: "NLP & Representation Learning"

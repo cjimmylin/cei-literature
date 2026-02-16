@@ -22,6 +22,7 @@ Nathaniel Li works on preparedness and security evaluations at Meta Superintelli
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]] (First Author)
 - [[2024-Mazeika-HarmBench|HarmBench]]
 - [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
@@ -31,6 +32,8 @@ Nathaniel Li works on preparedness and security evaluations at Meta Superintelli
 
 
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese|Tucano: Advancing Neural Text Generation for Portuguese]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn
 - *From 2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese*: Affiliation: University of Bonn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

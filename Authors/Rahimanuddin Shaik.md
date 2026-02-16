@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Kishore-Evaluating Telugu Proficiency in Large Language|Evaluating Telugu Proficiency in Large Language]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Kishore-Evaluating Telugu Proficiency in Large Language*:, Email: nani1only@gmail.com
 - *From 2024-Kishore-Evaluating Telugu Proficiency in Large Language*:, Email: nani1only@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

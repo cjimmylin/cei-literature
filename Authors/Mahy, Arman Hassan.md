@@ -1,7 +1,7 @@
 ---
 name: "Mahy, Arman Hassan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Science and Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks|Gender Bias Mitigation for Bangla Classification Tasks]]]]
 
 - [[2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks|Gender Bias Mitigation for Bangla Classification Tasks]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks*: Affiliation: University of Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

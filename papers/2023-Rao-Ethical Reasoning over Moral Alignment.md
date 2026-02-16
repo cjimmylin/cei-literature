@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ local_pdf: "[[PDFs/2023/2023-Rao-Ethical Reasoning over Moral Alignment.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IPRKMTVJ/Rao et al. - 2023 - Ethical Reasoning over Moral Alignment A Case and Framework for In-Context Ethical Policies in LLMs.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, GPT-3"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
  Ethical Reasoning over Moral Alignment: A Case and Framework for In-Context Ethical Policies in LLMs

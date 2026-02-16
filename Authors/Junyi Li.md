@@ -22,6 +22,7 @@ Postdoctoral research fellow at City University of Hong Kong, Department of Data
 
 
 
+
 - [[2023-Li-HaluEval|HaluEval]] (First Author)
 - [[2023-Li-On the steerability of large language models|On the steerability of large language models]] (First Author)
 
@@ -30,6 +31,8 @@ Postdoctoral research fellow at City University of Hong Kong, Department of Data
 
 
 
+
+- *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: batmanfly@gmail.com
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: chengxiaoxue3@gmail.com
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: chengxiaoxue3@gmail.com
 - *From 2023-Li-HaluEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: batmanfly@gmail.com

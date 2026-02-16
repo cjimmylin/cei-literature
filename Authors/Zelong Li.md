@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Hua-TrustAgent|TrustAgent]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick
 - *From 2024-Hua-TrustAgent*: Affiliation: Department of Computer Science, Rutgers University, New Brunswick

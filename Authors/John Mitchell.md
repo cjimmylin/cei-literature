@@ -24,6 +24,7 @@ He is known for foundational work on security protocols, web browser security, a
 
 
 
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
@@ -31,6 +32,8 @@ He is known for foundational work on security protocols, web browser security, a
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu

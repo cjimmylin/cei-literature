@@ -23,6 +23,7 @@ Ahmed Ruby is a researcher contributing to multilingual and multicultural AI eva
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 
 ## Notes
@@ -30,6 +31,8 @@ Ahmed Ruby is a researcher contributing to multilingual and multicultural AI eva
 
 
 
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar

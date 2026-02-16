@@ -32,6 +32,7 @@ Christof Weickhardt is a bachelor student at the FHNW School of Computer Science
 
 
 
+
 - [[2025-Hatemo-Revisiting the Trolley Problem for AI|Revisiting the Trolley Problem for AI]]
 
 ## External Links & Profiles
@@ -41,6 +42,8 @@ Christof Weickhardt is a bachelor student at the FHNW School of Computer Science
 ## Notes
 
 
+
+- *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: luca.gisler@students.fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 His research on LLM biases in ethical reasoning is directly relevant to AI ethics, demonstrating how different open-source models (LLaMA, Mistral, Qwen) exhibit varying biases in moral decision-making. The finding that demographic attributes significantly influence LLM decisions highlights important fairness concerns in AI systems.

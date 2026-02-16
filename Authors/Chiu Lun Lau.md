@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language|HKCanto-Eval: A Benchmark for Evaluating Cantonese Language Understanding and Cultural Comprehension in LLMs]]
 - [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: joseph.cheng@hon9kon9ize.com
 - *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: jed.cheng@mag.ed.kyushu
 - *From 2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language*: Affiliation: University, 2 hon9kon9ize, 3 The Education University of Hong Kong, Email: lchaakming@eduhk.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

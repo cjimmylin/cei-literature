@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity|Benchmarking LLM Guardrails in Handling Multilingual Toxicity]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: yangy96@seas.upenn.edu
 - *From 2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity*: Affiliation: University of Pennsylvania, Email: lee@seas.upenn.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

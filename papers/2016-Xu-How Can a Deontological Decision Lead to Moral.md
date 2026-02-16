@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ url: "http://link.springer.com/10.1007/s10551-015-2576-6"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DPB87N7D/Xu and Ma - 2016 - How Can a Deontological Decision Lead to Moral Behavior The Moderating Role of Moral Identity.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Identity, Value Pluralism / Schwartz"

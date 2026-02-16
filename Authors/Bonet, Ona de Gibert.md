@@ -1,7 +1,7 @@
 ---
 name: "Bonet, Ona de Gibert"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract'"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark|The Catalan Language CLUB (Catalan Language Understanding Benchmark)]]]]
 
 - [[2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark|The Catalan Language CLUB (Catalan Language Understanding Benchmark)]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

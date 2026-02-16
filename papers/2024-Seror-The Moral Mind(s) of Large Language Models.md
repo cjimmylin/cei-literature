@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://arxiv.org/abs/2412.04476"
 external_pdf: "https://arxiv.org/pdf/2412.04476.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
  The Moral Mind(s) of Large Language Models
 

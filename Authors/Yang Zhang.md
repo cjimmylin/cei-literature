@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating|GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek]] (First Author)
 - [[2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text|Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text]]
 - [[2025-Shen-HateBench|HateBench]] (Last Author)
@@ -33,6 +34,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Qiu-ProgressGym*: Affiliation: lable at https://github
 - *From 2024-Qiu-ProgressGym*: Affiliation: lable at https://github
 - *From 2024-Qiu-ProgressGym*: Affiliation: lable at https://github
 - *From 2023-Shen-“Do Anything Now”*: Affiliation: Center for Information Security

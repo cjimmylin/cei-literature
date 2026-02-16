@@ -23,7 +23,7 @@
   Candidate: https://doi.org/10.5281/zenodo.7932888
   DOI: https://doi.org/10.5281/zenodo.7932888
   Tactic: Open in browser; if blocked, resolve DOI and look for repository/preprint mirrors.
-- `2023-[[Unknown]]-ISE-Hate A Benchmark Corpus for Inter-faith.md` | conf `60` | host `www.techrxiv.org`
+- `2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md` | conf `60` | host `www.techrxiv.org`
   Candidate: https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2
   Tactic: TechRxiv may block scripted requests. Open DOI/article page in browser and download PDF manually.
 - `2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md` | conf `60` | host `pmc.ncbi.nlm.nih.gov`
@@ -48,7 +48,7 @@
   Candidate: https://link.springer.com/content/pdf/10.1007/s43681-024-00505-7.pdf
   DOI: https://doi.org/10.1007/s43681-024-00505-7
   Tactic: Open in browser; if blocked, resolve DOI and look for repository/preprint mirrors.
-- `2024-[[Unknown]]-Urdu Toxicity Detection A Multi-Stage and.md` | conf `60` | host `www.mdpi.com`
+- `2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md` | conf `60` | host `www.mdpi.com`
   Candidate: https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417
   Tactic: MDPI currently blocking scripted requests; use browser download button from article page.
 - `2024-team-MahaMarathi-7B Marathi Large Language Model.md` | conf `60` | host `www.mdpi.com`

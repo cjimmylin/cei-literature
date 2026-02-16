@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial|ManagerBench: Evaluating Safety-Pragmatism Trade-off in Managerial Contexts]]
 - [[2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for|AfriQA Cross-lingual Open-Retrieval Question Answering for]]
 - [[2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP|This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish]] (Last Author)
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP*: Affiliation: University of
 - *From 2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP*: Affiliation: University of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

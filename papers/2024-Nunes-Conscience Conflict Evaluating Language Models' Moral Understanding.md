@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory, Value Pluralism / Schwartz"
@@ -37,7 +39,7 @@ ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude"
-DATA_URL: NA
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ---
 # Conscience Conflict: Evaluating Language Models' Moral Understanding

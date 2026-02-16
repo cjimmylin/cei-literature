@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://aclanthology.org/2025.findings-naacl.425/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JFUIN3WV/2025 - RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
+languages_list: "English, Russian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

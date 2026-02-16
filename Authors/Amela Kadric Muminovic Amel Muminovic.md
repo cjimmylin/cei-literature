@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource|Large Language Models for Toxic Language Detection in Low-Resource Balkan Languages]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource*: Affiliation: Faculty of Engineering, Email: amel.muminovic@ibu.edu.mk
 - *From 2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource*: Affiliation: Faculty of Engineering, Email: amel.muminovic@ibu.edu.mk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found a highly relevant result! The study \"Evaluating Uighur literary translation\" compares generative artificial intelligence (GenAI) and neural machine translation (NMT) systems in translating Uighur literary text into English."
 research_topic: "Machine Translation"
 ---
 # New Guidelines for Evaluating Literary Translation in Hiring and Promotion Decisions | ALTA Blog

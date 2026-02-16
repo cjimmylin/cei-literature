@@ -45,6 +45,7 @@ Cristina Menghini is a Senior Researcher at Meta Superintelligence Labs, where s
 
 
 
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## External Links & Profiles
@@ -65,6 +66,8 @@ Cristina Menghini is a Senior Researcher at Meta Superintelligence Labs, where s
 
 
 
+
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI

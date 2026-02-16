@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -15,6 +16,7 @@ authors: "Julia Maria Struß; Melanie Siegel; Josef Ruppenhofer; Michael Wiegand
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITICC3WW/Struß et al. - Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language.pdf"
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -35,7 +37,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: BERT
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
 local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 ---

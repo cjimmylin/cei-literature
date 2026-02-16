@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2403.19260.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 national_ethnic_cultural: "African/Ubuntu, American"
 cultures_nationalities_list: "Nigerian"
+languages_list: "English, Nigerian Pidgin"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

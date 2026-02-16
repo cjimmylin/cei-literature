@@ -19,6 +19,7 @@ No specific information found for a researcher named "Ohoud Alyemny" in 2026 sea
 
 
 
+
 - [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas|A Data-Driven Exploration of a New Islamic Fatwas]] (First Author)
 - [[2023-Alyemny-FatwaSet|FatwaSet]] (First Author)
 
@@ -27,6 +28,8 @@ No specific information found for a researcher named "Ohoud Alyemny" in 2026 sea
 
 
 
+
+- *From 2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas*: Affiliation: Department of Information Systems, College of Computer and Information Sciences, King Saud University, Email: oalyemni@ksu.edu.sa
 - *From 2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas*: Affiliation: Department of Information Systems, College of Computer and Information Sciences, King Saud University, Email: oalyemni@ksu.edu.sa
 - *From 2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas*: Affiliation: Department of Information Systems, College of Computer and Information Sciences, King Saud University, Email: oalyemni@ksu.edu.sa
 - *From 2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas*: Affiliation: Department of Information Systems, College of Computer and Information Sciences, King Saud University, Email: oalyemni@ksu.edu.sa

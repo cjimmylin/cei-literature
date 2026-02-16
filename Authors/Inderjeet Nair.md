@@ -22,6 +22,7 @@ PhD student in Computer Science and Engineering at the University of Michigan, a
 
 
 
+
 - [[2025-Nair-Do Language Models Think Consistently|Do Language Models Think Consistently?]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ PhD student in Computer Science and Engineering at the University of Michigan, a
 
 
 
+
+- *From 2025-Nair-Do Language Models Think Consistently*: Affiliation: University of Michigan, Ann Arbor, MI
 - *From 2025-Nair-Do Language Models Think Consistently*: Affiliation: University of Michigan, Ann Arbor, MI
 - *From 2025-Nair-Do Language Models Think Consistently*: Affiliation: University of Michigan, Ann Arbor, MI
 - *From 2025-Nair-Do Language Models Think Consistently*: Affiliation: University of Michigan, Ann Arbor, MI

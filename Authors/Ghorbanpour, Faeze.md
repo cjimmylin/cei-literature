@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...|Data-Efficient Hate Speech Detection via Cross-Lingual ...]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...*: Affiliation: Labeled Data, Email: daryna.dementieva@tum.de
 - *From 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...*: Affiliation: Labeled Data, Email: faeze.ghorbanpour@tum.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

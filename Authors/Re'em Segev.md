@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Segev-Artificial Intelligence, Discrimination, Fairness|Artificial Intelligence, Discrimination, Fairness]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Segev-Artificial Intelligence, Discrimination, Fairness*: Affiliation: Faculty of Law, The Hebrew University of Jerusalem, Jerusalem, Israel, Email: reem.segev@mail.huji.ac.il
 - *From 2024-Segev-Artificial Intelligence, Discrimination, Fairness*: Affiliation: Faculty of Law, The Hebrew University of Jerusalem, Jerusalem, Israel, Email: reem.segev@mail.huji.ac.il
 - *From 2024-Segev-Artificial Intelligence, Discrimination, Fairness*: Affiliation: Faculty of Law, The Hebrew University of Jerusalem, Jerusalem, Israel, Email: reem.segev@mail.huji.ac.il
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

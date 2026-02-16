@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ publication: arXiv
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "German, American"
 cultures_nationalities_list: "American, German"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

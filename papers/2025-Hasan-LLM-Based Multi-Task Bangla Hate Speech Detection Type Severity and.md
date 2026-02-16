@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Multi-task benchmark for ai safety annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Claude-3.5 Sonnet, GPT-4, Llama, Llama-3.2, Llama3, Qwen, Qwen3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Online social media platforms are central to everyday communication and information seeking. While these platforms serve positive purposes, they also provide fertile ground for the spread of hate speech, offensive language, and bullying content targeting individuals, organizations, and communities. Such content undermines safety, participation, and equity online. Reliable detection systems are therefore needed, especially for low-resource languages where moderation tools are limited."
 ethics_perspective: "AI Safety & Alignment"

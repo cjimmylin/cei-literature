@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "27 language"
 LLM_assessed: "BART, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, Llama-2, Llama-2 chat, Llama-3, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Although commonsense reasoning is greatly shaped by cultural and geographical factors, previous studies have predominantly centered on cultures grounded in the English language, potentially resulting in an Anglocentric bias. In this paper, we introduce IndoCulture, aimed at understanding the influence of geographical factors on language model reasoning ability, with a specific emphasis on the diverse cultures found within eleven Indonesian provinces."
 ethics_perspective: "Social & Cultural Values"

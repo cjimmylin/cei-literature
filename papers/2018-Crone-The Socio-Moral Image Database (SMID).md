@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://doi.org/10.1371/journal.pone.0190954"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B8VEUSGU/Crone and others - 2018 - The Socio-Moral Image Database (SMID) A Novel Stimulus Set for the Study of Social, Moral and Affec.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"

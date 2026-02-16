@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ local_pdf: "[[PDFs/2019/2019-University of São Paulo-Moral Stance Recognition a
 external_pdf: "https://acl-bg.org/proceedings/2019/RANLP 2019/pdf/RANLP123.pdf"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
+languages_list: "Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
 LLM_assessed: Word2Vec
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Moral Stance Recognition and Polarity Classification from Twitter and Elicited Text
 

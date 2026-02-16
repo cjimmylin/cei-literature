@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +11,10 @@ key: CULT0132
 type: preprint
 short_title: "Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language"
 year: 2024
-first_author: "[[Ronny Paul]]"
-last_author: "[[Dilip K. Prasad]]"
-authors: "Ronny Paul; Himanshu Buckchash; Shantipriya Parida; Dilip K. Prasad"
-authors_incomplete: true
+first_author: "[[Paul, Ronny]]"
+last_author: "[[Prasad, Dilip K.]]"
+authors: "[[Paul, Ronny]]; [[Buckchash, Himanshu]]; [[Parida, Shantipriya]]; [[Prasad, Dilip K.]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2405.05777"
 external_pdf: "https://arxiv.org/pdf/2405.05777.pdf"
 publication: arXiv
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sami"
-languages_list: 
+languages_list: "Northern Sami"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,18 +40,18 @@ data_metrics: "Not specified"
 LLM_assessed: "BLOOM, Pegasus"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages."
 research_topic: "NLP & Representation Learning"
 ---
 # Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language
 
 ## Authors
 
-[[Ronny Paul]], [[Himanshu Buckchash]], [[Shantipriya Parida]], [[Dilip K. Prasad]]
+[[Paul, Ronny]], [[Buckchash, Himanshu]], [[Parida, Shantipriya]], [[Prasad, Dilip K.]]
 
 ## Metadata
 
-**Authors:** Ronny Paul, Himanshu Buckchash, et al.
+**Authors:** Paul, Ronny; Buckchash, Himanshu; Parida, Shantipriya; Prasad, Dilip K.
 
 **Year:** 2024
 

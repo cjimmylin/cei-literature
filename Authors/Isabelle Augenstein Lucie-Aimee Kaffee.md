@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Borenstein-Investigating Human Values in Online Communities|Investigating Human Values in Online Communities]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Borenstein-Investigating Human Values in Online Communities*: Affiliation: University of Copenhagen, Email: aar@di.ku.dk
 - *From 2025-Borenstein-Investigating Human Values in Online Communities*: Affiliation: University of Copenhagen, Email: lucie-aimee.kaffee@hpi.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

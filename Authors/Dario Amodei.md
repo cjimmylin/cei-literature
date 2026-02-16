@@ -36,6 +36,7 @@ Amodei's research centers on ensuring that advanced AI systems are safe, benefic
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
 - [[2022-Bai-Training a Helpful and Harmless Assistant with|Training a Helpful and Harmless Assistant with]]
@@ -48,6 +49,8 @@ Amodei's research centers on ensuring that advanced AI systems are safe, benefic
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”
 - *From 2016-Amodei-Concrete Problems in AI Safety*: Affiliation: lable supervision”), or undesirable behavior during the learning process (“safe exploration”

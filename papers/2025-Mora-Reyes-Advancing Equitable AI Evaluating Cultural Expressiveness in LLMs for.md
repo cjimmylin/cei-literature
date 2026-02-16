@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +25,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American, Brazilian, Latin American"
 cultures_nationalities_list: "Mexican, pan-Latin American"
-languages_list: 
+languages_list: "English, Nahuatl, Portuguese, Quechua, Spanish"
 religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"

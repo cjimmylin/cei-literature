@@ -23,6 +23,7 @@ Yuhong Sun is a researcher at Fudan University's Software Engineering Institute 
 
 
 
+
 - [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Yuhong Sun is a researcher at Fudan University's Software Engineering Institute 
 
 
 
+
+- *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: sunyuhong@stu.ecnu.edu.cn
 - *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: sunyuhong@stu.ecnu.edu.cn
 - *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: hzhao@sei.ecnu.edu.cn
 - *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: guoqipeng@pjlab.org.cn

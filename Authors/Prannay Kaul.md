@@ -27,6 +27,7 @@ His research demonstrates that improvements in existing Type II hallucination me
 
 
 
+
 - [[2024-Li-THRONE|THRONE]] (First Author)
 
 ## Notes
@@ -34,6 +35,8 @@ His research demonstrates that improvements in existing Type II hallucination me
 
 
 
+
+- *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk
 - *From 2024-Li-THRONE*: Affiliation: University of Oxford1 AWS AI Labs2, Email: prannay@robots.ox.ac.uk

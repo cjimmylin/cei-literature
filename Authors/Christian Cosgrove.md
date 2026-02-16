@@ -32,6 +32,7 @@ Christian Cosgrove is a PhD student at Stanford University and a researcher at t
 
 
 
+
 - [[2022-Liang-Holistic Evaluation of Language Models|Holistic Evaluation of Language Models]]
 
 ## External Links & Profiles
@@ -42,6 +43,8 @@ Christian Cosgrove is a PhD student at Stanford University and a researcher at t
 
 
 
+
+- *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: nlprishi@stanford.edu
 - *From 2022-Liang-Holistic Evaluation of Language Models*: Affiliation: Center for Research on Foundation Models (CRFM), Email: tonyhlee@stanford.edu

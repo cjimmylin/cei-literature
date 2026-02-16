@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2019/2019-Kreutz-GermEval 2019 Task 2.md"
 local_pdf: "[[PDFs/2019/2019-Kreutz-GermEval 2019 Task 2.pdf]]"
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
+languages_list: "German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: BERT
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # GermEval 2019 Task 2: Offensive Language Identification (Data Page)
 

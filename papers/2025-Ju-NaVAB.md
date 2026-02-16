@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,6 +17,7 @@ url: "https://aclanthology.org/2025.findings-acl.1028/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RMIU8JW/2025 - NaVAB Benchmarking Multi-National Value Alignment for Large Language Models.pdf"
 national_ethnic_cultural: "Chinese, French, German, American"
 cultures_nationalities_list: "Chinese, American, British, French, German"
+languages_list: "Chinese, English, French, German"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

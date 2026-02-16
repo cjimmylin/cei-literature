@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +18,8 @@ authors: "[[Jiao, Wenxiang]]; [[Wang, Wenxuan]]; [[Huang, Jen-Tse]]; [[Wang, Xin
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study"
 publication: ResearchGate
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.md"
+local_pdf: "[[PDFs/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.pdf]]"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
 research_topic: "Other"
 ---
 # Is ChatGPT A Good Translator? A Preliminary Study

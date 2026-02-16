@@ -23,6 +23,7 @@ Tommaso Caselli is a Senior Assistant Professor at the Faculty of Arts, Universi
 
 
 
+
 - [[2021-Caselli-HateBERT|HateBERT]] (First Author)
 - [[2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech|HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate Speech Detection Task]]
 
@@ -31,6 +32,8 @@ Tommaso Caselli is a Senior Assistant Professor at the Faculty of Arts, Universi
 
 
 
+
+- *From 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech*: Affiliation: University Press, Email: info@aAccademia.it
 - *From 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech*: Affiliation: University Press, Email: info@aAccademia.it
 - *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: t.caselli@rug.nl
 - *From 2021-Caselli-HateBERT*: Affiliation: University of Groningen, Email: valerio.basile@unito.it

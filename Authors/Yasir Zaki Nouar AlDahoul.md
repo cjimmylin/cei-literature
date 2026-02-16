@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zaki-Benchmarking the Legal Reasoning of LLMs|Benchmarking the Legal Reasoning of LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zaki-Benchmarking the Legal Reasoning of LLMs*:, Email: yasir.zaki@nyu.edu
 - *From 2025-Zaki-Benchmarking the Legal Reasoning of LLMs*:, Email: yasir.zaki@nyu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

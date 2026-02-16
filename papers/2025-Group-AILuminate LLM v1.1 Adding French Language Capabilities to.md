@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/mlcommons/ailuminate"
 tags: 
-abstract: 
+abstract: "Industry-standard AI safety benchmark from MLCommons, released v1.1 with French language capabilities. Assesses LLM responses to over 24,000 French language test prompts across twelve hazard categories including violent crime, hate, and privacy. Developed by Stanford, Columbia, TU Eindhoven, and industry partners."
 ethics_perspective: "AI Safety & Alignment"
 ---
 # AILuminate LLM v1.1: Adding French Language Capabilities to Industry-Leading AI Safety Benchmark

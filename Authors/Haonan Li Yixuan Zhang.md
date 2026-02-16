@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Li-ACLUE Can Large Language Model Comprehend|ACLUE Can Large Language Model Comprehend]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Li-ACLUE Can Large Language Model Comprehend*: Affiliation: University of Artificial Intelligence, UAE, Email: haonan.li@mbzuai.ac.ae
 - *From 2023-Li-ACLUE Can Large Language Model Comprehend*: Affiliation: University of Artificial Intelligence, UAE, Email: haonan.li@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

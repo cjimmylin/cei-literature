@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 - *From 2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering*: Affiliation: University, 2 AIMS AMMI, 3 Resonance AI4D Lab, Addis Ababa University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

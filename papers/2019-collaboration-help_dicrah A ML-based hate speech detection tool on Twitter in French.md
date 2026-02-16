@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/Mik3M4n/help_dicrah"
 tags: 
-abstract: 
+abstract: "ML-based hate speech detection tool for French Twitter developed in collaboration with DILCRAH (French government interministerial delegation against racism and anti-LGBTQ+ hatred). Uses translated Hatebase.org lexicon filtered for French context. Complete pipeline from data collection to online detection tool."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # help_dicrah: A ML-based hate speech detection tool on Twitter (in French)

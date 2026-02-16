@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Baum-Aggregation Problems in Machine Ethics|Aggregation Problems in Machine Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Baum-Aggregation Problems in Machine Ethics*: Affiliation: Research Center for Artificial Intelligence (DFKI), Germany, Email: marija.slavkovik@uib.no
 - *From 2025-Baum-Aggregation Problems in Machine Ethics*: Affiliation: Research Center for Artificial Intelligence (DFKI), Germany, Email: kevin.baum@dfki.de
 - *From 2025-Baum-Aggregation Problems in Machine Ethics*: Affiliation: Research Center for Artificial Intelligence (DFKI), Germany, Email: marija.slavkovik@uib.no
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

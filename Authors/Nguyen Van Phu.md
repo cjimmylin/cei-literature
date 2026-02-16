@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2019-Phuong-Emotion Recognition for Vietnamese Social Media Text|Emotion Recognition for Vietnamese Social Media Text]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vanlinhpham888@gmail.com
 - *From 2019-Phuong-Emotion Recognition for Vietnamese Social Media Text*: Affiliation: University of Information Technology, VNU-HCM, Vietnam, Email: vund@uit.edu.vn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

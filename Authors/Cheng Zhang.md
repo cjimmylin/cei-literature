@@ -35,6 +35,7 @@ Cheng Zhang is a researcher and engineer on the GenAI team at Meta. He is deeply
 
 
 
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]]
 
 ## External Links & Profiles
@@ -46,6 +47,8 @@ Cheng Zhang is a researcher and engineer on the GenAI team at Meta. He is deeply
 
 
 
+
+- *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: pascalefung@meta.com
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: pascalefung@meta.com
 - *From 2025-Bang-HalluLens LLM Hallucination Benchmark*:, Email: yjbang@connect.ust.hk

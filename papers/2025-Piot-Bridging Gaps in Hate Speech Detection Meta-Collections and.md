@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Gemma, Llama, Llama 3.1, Mistral 7B, RoBERTa, llama 3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Hate speech poses a serious threat to social cohesion and individual well-being, particularly on social media, where it spreads rapidly. While research on hate speech detection has progressed, it remains largely focused on English, resulting in limited resources and benchmarks for low-resource languages. Moreover, many of these languages have multiple linguistic varieties, a factor often overlooked in current approaches."
 ---

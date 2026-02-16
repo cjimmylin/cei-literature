@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate|MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate Speech Detection]]
 - [[2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model|PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul
 - *From 2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate*: Affiliation: Research Institute, ul
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

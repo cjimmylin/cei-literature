@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT|Evaluating Gender Bias in Machine Translation (WinoMT)]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

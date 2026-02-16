@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Eisikovits-AI and Phronesis|AI and Phronesis]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: djfeldman57@gmail.com
 - *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: Nir.eisikovits@umb.edu
 - *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: djfeldman57@gmail.com
 - *From 2024-Eisikovits-AI and Phronesis*: Affiliation: Center, University of Massachusetts, Email: Nir.eisikovits@umb.edu

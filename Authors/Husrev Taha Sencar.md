@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language|FanarGuard: A Culturally-Aware Moderation Filter for Arabic Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar
 - *From 2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language*: Affiliation: Research Institute, HBKU, Doha, Qatar
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -11,10 +11,10 @@ key: LSRC0210
 type: preprint
 short_title: "IberBench: LLM Evaluation on Iberian Languages"
 year: 2025
-first_author: "[[González-Borrego, Isaac]]"
-last_author: "[[Obrador, David]]"
-authors: "[[González-Borrego, Isaac]]; [[Obrador, David]]"
-authors_incomplete: true
+first_author: "[[González, José Ángel]]"
+last_author: "[[Franco-Salvador, Marc]]"
+authors: "[[González, José Ángel]]; [[Obrador, Ian Borrego]]; [[Herrero, Álvaro Romo]]; [[Sarvazyan, Areg Mikael]]; [[Chinea-Ríos, Mara]]; [[Basile, Angelo]]; [[Franco-Salvador, Marc]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2504.16921"
 external_pdf: "https://arxiv.org/pdf/2504.16921.pdf"
 pdf_extract: "PDF Extracts/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.md"
@@ -47,11 +47,11 @@ research_topic: "NLP & Representation Learning"
 
 ## Authors
 
-[[González-Borrego, Isaac]], [[Obrador, David]]
+[[González, José Ángel]], [[Obrador, Ian Borrego]], [[Herrero, Álvaro Romo]], [[Sarvazyan, Areg Mikael]], [[Chinea-Ríos, Mara]], [[Basile, Angelo]], [[Franco-Salvador, Marc]]
 
 ## Metadata
 
-**Authors:** Isaac González-Borrego, David Obrador, et al.
+**Authors:** González, José Ángel; Obrador, Ian Borrego; Herrero, Álvaro Romo; Sarvazyan, Areg Mikael; Chinea-Ríos, Mara; Basile, Angelo; Franco-Salvador, Marc
 
 **Year:** 2025
 

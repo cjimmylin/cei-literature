@@ -37,6 +37,7 @@ Erchin Serpedin is a Professor in the Department of Electrical and Computer Engi
 
 
 
+
 - [[2025-Abdaljalil-HalluVerse25|HalluVerse25]] (Last Author)
 
 ## External Links
@@ -49,6 +50,8 @@ Erchin Serpedin is a Professor in the Department of Electrical and Computer Engi
 
 
 
+
+- *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu
 - *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: eserpedin@tamu.edu
 - *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu
 - *From 2025-Abdaljalil-HalluVerse25*: Affiliation: College Station, TX, Email: sabdaljalil@tamu.edu

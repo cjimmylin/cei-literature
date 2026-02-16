@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Lan-Fuxi A Benchmark for Evaluating Language|Fuxi A Benchmark for Evaluating Language]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: sqzhao@stu.ecnu.edu.cn
 - *From 2025-Lan-Fuxi A Benchmark for Evaluating Language*: Affiliation: School of Computer Science and Technology, East China Normal University, Email: sqzhao@stu.ecnu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

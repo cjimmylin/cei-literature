@@ -23,6 +23,7 @@ Amit Dhurandhar is a Principal Research Scientist at IBM Research. His research 
 
 
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]] (Last Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Amit Dhurandhar is a Principal Research Scientist at IBM Research. His research 
 
 
 
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: adhuran@us.ibm.com
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: saleh.afroogh@utexas.edu

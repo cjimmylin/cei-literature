@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette|Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette*:, Email: jhyuan.cs@gmail.com
 - *From 2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette*:, Email: usman.naseem@mq.edu.au
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "Accurate and contextually faithful responses are critical when applyi
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemma, Gemma 2, Gemma2, Llama, Llama 3, Llama 3.1, Llama 3.2, Llama 3.3, Llama3, Llama3.1, Llama3.2, Llama3.3, Phi3"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Question Answering"
 ---
 # Investigating Retrieval-Augmented Generation in Quranic Studies: A Study of 13 Open-Source Large Language Models

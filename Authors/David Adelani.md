@@ -36,6 +36,7 @@ Adelani's research focuses on making NLP more inclusive by developing datasets, 
 
 
 
+
 - [[2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African|MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages]]
 - [[2023-Muhammad-AfriSenti|AfriSenti]]
 
@@ -44,6 +45,8 @@ Adelani's research focuses on making NLP more inclusive by developing datasets, 
 
 
 
+
+- *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Muhammad-AfriSenti*: Affiliation: University of Porto, Portugal, 2Bayero University Kano, 3Ahmadu Bello University, Zaria, 4Bahir Dar University, Email: shmuhammad.csc@buk.edu.ng

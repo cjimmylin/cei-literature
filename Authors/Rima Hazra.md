@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Banerjee-SafeInfer|SafeInfer]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: Shanu.Kumar@microsoft.com
 - *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: rima_hazra@sutd.edu.sg
 - *From 2025-Banerjee-SafeInfer*: Affiliation: Institute of Technology Kharagpur, India, Email: rima_hazra@sutd.edu.sg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

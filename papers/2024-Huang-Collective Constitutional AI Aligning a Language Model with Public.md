@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Cross-cultural"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: Claude
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Collective Constitutional AI: Aligning a Language Model with Public Input
 

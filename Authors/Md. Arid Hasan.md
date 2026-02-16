@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs|AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs*: Affiliation: Research Institute, Qatar
 - *From 2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs*: Affiliation: Research Institute, Qatar
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A|Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sdrz_zwh@163.com
 - *From 2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A*: Affiliation: University of China, Beijing, China, Email: sdrz_zwh@163.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

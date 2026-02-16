@@ -20,6 +20,8 @@ semantic_scholar: ""
 
 
 
+
+- [[2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent|Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning]]
 - [[2024-Moon-BEAF|BEAF]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
@@ -28,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea

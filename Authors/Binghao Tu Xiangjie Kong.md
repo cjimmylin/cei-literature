@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling|EMNLP (Educator-role Moral and Normative LLMs Profiling)]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling*: Affiliation: College of Education, Zhejiang University of Technology, Email: xjkong@ieee.org
 - *From 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling*: Affiliation: College of Education, Zhejiang University of Technology, Email: 51284118014@stu.ecnu.edu.cn
 - *From 2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling*: Affiliation: College of Education, Zhejiang University of Technology, Email: 51284118014@stu.ecnu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

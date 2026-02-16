@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]]
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: da399@cornell.edu
 - *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: adityav@cornell.edu
 - *From 2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores*: Affiliation: University of Washington, Email: aylin@uw.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

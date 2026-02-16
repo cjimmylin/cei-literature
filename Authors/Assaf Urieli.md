@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Urieli-Jochre 3 and the Yiddish OCR corpus|Jochre 3 and the Yiddish OCR corpus]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Urieli-Jochre 3 and the Yiddish OCR corpus*: Affiliation: lable Yiddish OCR Corpus, and describe and evaluate, Email: assaf@joli-ciel.com
 - *From 2025-Urieli-Jochre 3 and the Yiddish OCR corpus*: Affiliation: lable Yiddish OCR Corpus, and describe and evaluate, Email: assaf@joli-ciel.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

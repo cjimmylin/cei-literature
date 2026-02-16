@@ -52,6 +52,7 @@ Her work has received best paper awards at major venues like CHI and CSCW and ha
 
 
 
+
 - [[2023-Chen-Case Law Grounding|Case Law Grounding]] (Last Author)
 - [[2023-Feng-Case Repositories|Case Repositories]] (Last Author)
 
@@ -70,6 +71,8 @@ Her work has received best paper awards at major venues like CHI and CSCW and ha
 
 
 
+
+- *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: cqz@cs.washington.edu
 - *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: axz@cs.washington.edu
 - *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: cqz@cs.washington.edu
 - *From 2023-Chen-Case Law Grounding*: Affiliation: University of Washington, Email: axz@cs.washington.edu

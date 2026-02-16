@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BART, BERT, BLOOM, T5"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are transforming Natural Language Processing (NLP), but their benefits are largely absent for Africa’s 2,000 low-resource languages. This paper comparatively analyzes African language coverage across six LLMs, eight Small Language Models (SLMs), and six Specialized SLMs (SSLMs). The evaluation covers language coverage, training sets, technical limitations, script problems, and language modelling roadmaps."
 research_topic: "NLP & Representation Learning"

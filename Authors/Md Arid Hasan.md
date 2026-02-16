@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs|NativQA: Multilingual Culturally-Aligned Natural Query for LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca
 - *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca
 - *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

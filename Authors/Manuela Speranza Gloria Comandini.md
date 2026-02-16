@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Comandini-GSIdetect - Gender Stereotype Detection Shared Task at EVALITA 2026|GSI:detect — Gender Stereotype Detection Shared Task at EVALITA 2026]] (First Author)
 
 ## External Links & Profiles

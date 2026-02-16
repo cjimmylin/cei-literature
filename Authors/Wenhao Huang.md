@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wu-COIG-P|COIG-P]]
 - [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: yaodong.yang@pku.edu.cn
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: gaiejj@outlook.com
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: gaiejj@outlook.com
 - *From 2023-Ji-Safety Gymnasium*: Affiliation: Institute for AI, Peking University, Email: yaodong.yang@pku.edu.cn

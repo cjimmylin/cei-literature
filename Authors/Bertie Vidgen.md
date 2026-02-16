@@ -49,6 +49,7 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]] (First Author)
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -70,6 +71,8 @@ He has served as a specialist adviser to the UK Parliament for the Online Safety
 
 
 
+
+- *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford

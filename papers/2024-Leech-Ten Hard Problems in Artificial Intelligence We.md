@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ pdf_extract: "PDF Extracts/2024/2024-Leech-Ten Hard Problems in Artificial Intel
 local_pdf: "[[PDFs/2024/2024-Leech-Ten Hard Problems in Artificial Intelligence We.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

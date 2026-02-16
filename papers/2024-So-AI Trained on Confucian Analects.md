@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_SO2024
@@ -16,6 +17,7 @@ pdf_extract: "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md"
 local_pdf: "[[PDFs/2024/2024-So-AI Trained on Confucian Analects.pdf]]"
 national_ethnic_cultural: Chinese/Confucian
 cultures_nationalities_list: "Chinese"
+languages_list: ""
 religious_values: Confucianism
 religious_values_list: Confucianism
 moral_psychology: N/A

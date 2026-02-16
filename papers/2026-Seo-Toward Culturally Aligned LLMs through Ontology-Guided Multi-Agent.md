@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +10,10 @@ key: CULT0109
 type: preprint
 short_title: Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
 year: 2026
-first_author: "[[Wonduk Seo]]"
-last_author: "[[Wonduk Seo]]"
-authors: Wonduk Seo et al.
-authors_incomplete: true
+first_author: "[[Seo, Wonduk]]"
+last_author: "[[Bu, Yi]]"
+authors: "[[Seo, Wonduk]]; [[Choi, Wonseok]]; [[Koh, Junseo]]; [[Lee, Juhyeon]]; [[An, Hyunjin]]; [[Yu, Minhyeong]]; [[Park, Jian]]; [[Zhou, Qingshan]]; [[Lee, Seunghyun]]; [[Bu, Yi]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2601.21700"
 external_pdf: "https://arxiv.org/pdf/2601.21700.pdf"
 publication: arXiv
@@ -25,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "pan-Latin American"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -45,11 +46,11 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Authors
 
-[[Wonduk Seo]]
+[[Seo, Wonduk]], [[Choi, Wonseok]], [[Koh, Junseo]], [[Lee, Juhyeon]], [[An, Hyunjin]], [[Yu, Minhyeong]], [[Park, Jian]], [[Zhou, Qingshan]], [[Lee, Seunghyun]], [[Bu, Yi]]
 
 ## Metadata
 
-**Authors:** Wonduk Seo et al.
+**Authors:** Seo, Wonduk; Choi, Wonseok; Koh, Junseo; Lee, Juhyeon; An, Hyunjin; Yu, Minhyeong; Park, Jian; Zhou, Qingshan; Lee, Seunghyun; Bu, Yi
 
 **Year:** 2026
 

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]]
 - [[2024-Liu-Controllable Preference Optimization|Controllable Preference Optimization]]
 - [[2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned|Taiwan LLM: Bridging the Linguistic Divide with a Culturally Aligned Language Model]] (First Author)
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: yijuguo@ruc.edu.cn
 - *From 2024-Liu-Controllable Preference Optimization*: Affiliation: lable Preference Optimization - PDF Extract", Email: cgq22@mails.tsinghua.edu.cn

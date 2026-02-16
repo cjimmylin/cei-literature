@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous|Abundant Intelligences Placing AI Within Indigenous]] (First Author)
 - [[2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position|Indigenous Protocol and Artificial Intelligence Position]] (First Author)
 

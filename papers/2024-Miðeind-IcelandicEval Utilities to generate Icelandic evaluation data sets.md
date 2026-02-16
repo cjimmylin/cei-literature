@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/mideind/IcelandicEval"
 tags: 
-abstract: 
+abstract: "Utilities for generating Icelandic LLM evaluation datasets focused on word inflection and grammatical correctness. Includes noun phrase inflection tasks across all four cases in singular and plural."
 research_topic: "Other"
 ---
 # IcelandicEval: Utilities to generate Icelandic evaluation data sets for LLMs

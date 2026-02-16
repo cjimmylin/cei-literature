@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -38,7 +40,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Chain-of-Ethics: Defense Framework (Wu et al.)
 

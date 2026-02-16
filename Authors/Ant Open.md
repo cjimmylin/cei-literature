@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ...|A Comprehensive Dataset for Enhancing Safety in LLM- ...]] (First Author)
 - [[2025-Open-Safety and Security Analysis of Large Language Models Risk Profile|Safety and Security Analysis of Large Language Models: Risk Profile and Harm Potential]] (First Author)
 - [[2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally|Uncensored AI in the Wild: Tracking Publicly Available and Locally Deployable LLMs]] (First Author)
@@ -85,6 +86,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ...*: Affiliation: School of Data Science, The Chinese University of Hong Kong, Shenzhen, Email: yuejinxie@hust.edu.cn
 - *From 2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ...*: Affiliation: School of Data Science, The Chinese University of Hong Kong, Shenzhen, Email: yuejinxie@hust.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

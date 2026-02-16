@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Singaporean"
 cultures_nationalities_list: "Singaporean, Chinese, Malay, Tamil, Indian"
+languages_list: "Chinese, English, Malay, Singlish, Tamil"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "The advancement of Large Language Models (LLMs) has transformed natur
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, LLaMA-3.1, Mistral, Mistral 0.74 2, Mistral 11.47 69, Mistral-7B, Qwen, Qwen 0.12, Qwen 0.90, Qwen2.5"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # SGToxicGuard: Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's Low-Resource Languages

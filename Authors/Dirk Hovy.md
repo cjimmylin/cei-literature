@@ -30,6 +30,7 @@ Dirk Hovy is a Professor of Computing Sciences at Bocconi University in Milan, w
 
 
 
+
 - [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]] (Last Author)
 - [[2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety|SafetyPrompts: Systematic Review of Open Datasets for LLM Safety]] (Last Author)
 - [[2024-Röttger-Political Compass or Spinning Arrow|Political Compass or Spinning Arrow?]] (Last Author)
@@ -40,6 +41,8 @@ Dirk Hovy is a Professor of Computing Sciences at Bocconi University in Milan, w
 
 
 
+
+- *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 - *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 - *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs
 - *From 2024-Röttger-Political Compass or Spinning Arrow*: Affiliation: University 2Allen Institute for AI 3Intel Labs

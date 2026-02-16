@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools|Chinese Textual Sentiment Analysis: Datasets, Resources and Tools]] (Last Author)
 - [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]]
 - [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 - *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology

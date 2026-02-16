@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2507.13175.pdf"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

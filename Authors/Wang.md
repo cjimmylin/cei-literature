@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2024-Wang-XSafety Multilingual Safety Benchmark|XSafety: Multilingual Safety Benchmark]] (First Author)
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 - *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 - *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn
 - *From 2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to*: Affiliation: University of Hong Kong, Shenzhen, Email: xiaoqingying@sribd.cn

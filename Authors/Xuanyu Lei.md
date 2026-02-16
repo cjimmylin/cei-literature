@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 - [[2023-Liu-AgentBench|AgentBench]]
 - [[2023-Liu-AlignBench|AlignBench]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2025-Various-AISafetyLab*: Affiliation: Lab - PDF Extract", Email: zx-zhang22@mails.tsinghua.edu.cn

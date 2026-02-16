@@ -22,6 +22,7 @@ Steffen Backmann is the lead author on the research paper "When Ethics and Payof
 
 
 
+
 - [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Steffen Backmann is the lead author on the research paper "When Ethics and Payof
 
 
 
+
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated|Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated*: Affiliation: Centered AI Lab, Email: nrpatil@cs.unc.edu
 - *From 2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated*: Affiliation: Centered AI Lab, Email: nrpatil@cs.unc.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

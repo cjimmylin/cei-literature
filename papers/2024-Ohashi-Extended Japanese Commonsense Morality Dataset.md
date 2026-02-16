@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "http://arxiv.org/abs/2410.09564"
 external_pdf: "http://arxiv.org/pdf/2410.09564.pdf"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
+languages_list: "Japanese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

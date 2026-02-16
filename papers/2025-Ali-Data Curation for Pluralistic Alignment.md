@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ authors: "Dalia Ali; Aysenur Kocak; Michèle Wieland; Dora Zhao; Allison Koeneck
 url: "https://openreview.net/forum?id=JH9xhvSr4q"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4o"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Ali-Data Curation for Pluralistic Alignment.pdf]]"
 ---

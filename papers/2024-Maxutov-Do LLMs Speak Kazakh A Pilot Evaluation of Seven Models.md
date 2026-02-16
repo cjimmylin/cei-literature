@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"
-languages_list: 
+languages_list: "English, Kazakh"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, AYA, YandexGPT-2, YandexGPT-3"
 DATA_URL: "https://github.com/akylbekmaxutov/LLM-eval-using-Kazakh"
 tags: 
-abstract:
+abstract: "Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets covering QA, causal reasoning, math problems, translation, and spelling correction. GPT-4 shows best results. LLM performance on Kazakh tasks is lower than on parallel English tasks."
 research_topic: "Other"
 ---
 # Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models

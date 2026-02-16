@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Fleisig-FairPrism*:, Email: efleisig@berkeley.edu
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com

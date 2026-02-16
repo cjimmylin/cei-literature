@@ -1,13 +1,13 @@
 ---
-title: "2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection - PDF Extract"
-source_pdf: "2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.pdf"
+title: "2024-Sharma-TABHATE A Target-based Hate Speech Detection - PDF Extract"
+source_pdf: "2024-Sharma-TABHATE A Target-based Hate Speech Detection.pdf"
 pages: 12
 extracted_at: "2026-02-13T10:43:52.749378"
 ---
 
-# PDF Extract: 2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection
+# PDF Extract: 2024-Sharma-TABHATE A Target-based Hate Speech Detection
 
-**Source PDF:** 2024-[[Unknown]]-TABHATE A Target-based Hate Speech Detection.pdf
+**Source PDF:** 2024-Sharma-TABHATE A Target-based Hate Speech Detection.pdf
 **Total Pages:** 12
 
 ---

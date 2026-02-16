@@ -50,6 +50,7 @@ Ganguli has co-authored foundational work in AI safety, including influential pa
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]] (Last Author)
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]] (Last Author)
@@ -71,6 +72,8 @@ Ganguli has co-authored foundational work in AI safety, including influential pa
 
 
 
+
+- *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com
 - *From 2021-Askell-A General Language Assistant as a Laboratory for*: Affiliation: Laboratory for - PDF Extract", Email: jared@anthropic.com

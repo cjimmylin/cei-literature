@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,6 +23,7 @@ local_pdf: "[[PDFs/2024/2024-DAlessandro-Deontology and Safe Artificial Intellig
 publication: "Philosophical Studies"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]] (Last Author)
 - [[2024-Li-SALAD-Bench|SALAD-Bench]]
 
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology
 - *From 2024-Li-SALAD-Bench*: Affiliation: Institute of Technology

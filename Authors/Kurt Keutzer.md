@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Keutzer-One Model is All You Need|One Model is All You Need]] (Last Author)
 - [[2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in|MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Keutzer-One Model is All You Need*: Affiliation: University D¨usseldorf
 - *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: zhendong@berkeley.edu

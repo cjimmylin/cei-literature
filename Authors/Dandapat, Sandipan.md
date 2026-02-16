@@ -1,7 +1,7 @@
 ---
 name: "Dandapat, Sandipan"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labeled monolingual text data to"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF|GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF]]]]
 
 - [[2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF|GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF*: Affiliation: labeled monolingual text data to
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

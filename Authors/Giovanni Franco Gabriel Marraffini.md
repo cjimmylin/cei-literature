@@ -33,6 +33,7 @@ Marraffini's research examines the ethical reasoning capabilities of AI systems:
 
 
 
+
 - [[2024-Marraffini-The Greatest Good Benchmark|The Greatest Good Benchmark]] (First Author)
 
 ## External Links
@@ -44,6 +45,8 @@ Marraffini's research examines the ethical reasoning capabilities of AI systems:
 
 
 
+
+- *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia
 - *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia
 - *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia
 - *From 2024-Marraffini-The Greatest Good Benchmark*: Affiliation: Laboratorio de Neurociencia

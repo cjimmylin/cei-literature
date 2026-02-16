@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chua-Between a Rock and a Hard Place TRIAL|Between a Rock and a Hard Place (TRIAL)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chua-Between a Rock and a Hard Place TRIAL*: Affiliation: University, 2Shanghai Jiao Tong University, 3ByteDance, Email: thaizhenleng123@gmail.com
 - *From 2025-Chua-Between a Rock and a Hard Place TRIAL*: Affiliation: University, 2Shanghai Jiao Tong University, 3ByteDance, Email: thaizhenleng123@gmail.com
 - *From 2025-Chua-Between a Rock and a Hard Place TRIAL*: Affiliation: University, 2Shanghai Jiao Tong University, 3ByteDance, Email: thaizhenleng123@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "12 languages"
 LLM_assessed: "GPT-4, GPT-4o, Qwen 2, Qwen 7B, Qwen-2, Qwen2, ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Agentic AI systems, which build on Large Language Models (LLMs) and interact with tools and memory, have rapidly advanced in capability and scope. Yet, since LLMs have been shown to struggle in multilingual settings, typically resulting in lower performance and reduced safety, agentic systems risk inheriting these limitations. This raises concerns about the accessibility of such systems, as users interacting in languages other than English may encounter unreliable or security-critical agent..."
 ethics_perspective: "AI Safety & Alignment"

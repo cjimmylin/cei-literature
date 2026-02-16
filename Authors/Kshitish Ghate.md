@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities|ConflictScope: Generative Value Conflicts Reveal LLM Priorities]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities*: Affiliation: University of Washington, Email: andyliu@andrew.cmu.edu
 - *From 2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities*: Affiliation: University of Washington, Email: andyliu@andrew.cmu.edu
 - *From 2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities*: Affiliation: University of Washington, Email: andyliu@andrew.cmu.edu
 - *From 2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value*: Affiliation: University of Washington, 2 Carnegie Mellon University, Email: kghate@cs.washington.edu

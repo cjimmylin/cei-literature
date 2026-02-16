@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -9,10 +11,10 @@ key: CULT0054
 type: preprint
 short_title: "BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains"
 year: 2025
-first_author: "[[Vijay Devane]]"
-last_author: "[[Aniket Mahendra Wakchoure. Bhargav Patel]]"
-authors: Vijay Devane, Mohd Nauman, Bhargav Patel, Aniket Mahendra Wakchoure, et al.
-authors_incomplete: true
+first_author: "[[Devane, Vijay]]"
+last_author: "[[Ramakrishnan, Ganesh]]"
+authors: "[[Devane, Vijay]]; [[Nauman, Mohd]]; [[Patel, Bhargav]]; [[Wakchoure, Aniket Mahendra]]; [[Sant, Yogeshkumar]]; [[Pawar, Shyam]]; [[Thakur, Viraj]]; [[Godse, Ananya]]; [[Patra, Sunil]]; [[Maurya, Neha]]; [[Racha, Suraj]]; [[Singh, Nitish Kamal]]; [[Nagpal, Ajay]]; [[Sawarkar, Piyush]]; [[Pundalik, Kundeshwar Vijayrao]]; [[Saluja, Rohit]]; [[Ramakrishnan, Ganesh]]"
+authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25409"
 external_pdf: "https://arxiv.org/pdf/2510.25409.pdf"
 publication: arXiv
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
-languages_list: 
+languages_list: "English, Hindi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,18 +40,18 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o-mini, GPT-OSS-120B, Claude-3.5 Sonnet, Gemini, DeepSeek-V3, Llama-3.2, Llama-3.1, Qwen-2.5, Qwen-3, Gemma-2, Mistral"
 DATA_URL: "https://bharatgen-iitb-tih.github.io/bhashabenchv1/"
 tags: 
-abstract:
+abstract: "First domain-specific bilingual benchmark focusing on critical Indian knowledge systems with 74,166 curated QA pairs in English and Hindi. Covers Agriculture, Legal, Finance, and Ayurveda with 90+ subdomains and 500+ topics. Models excel in Legal but struggle with traditional knowledge systems like Ayurveda."
 research_topic: "Machine Learning"
 ---
 # BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains
 
 ## Authors
 
-[[Mohd Nauman Vijay Devane]], [[Aniket Mahendra Wakchoure. Bhargav Patel]]
+[[Devane, Vijay]], [[Nauman, Mohd]], [[Patel, Bhargav]], [[Wakchoure, Aniket Mahendra]], [[Sant, Yogeshkumar]], [[Pawar, Shyam]], [[Thakur, Viraj]], [[Godse, Ananya]], [[Patra, Sunil]], [[Maurya, Neha]], [[Racha, Suraj]], [[Singh, Nitish Kamal]], [[Nagpal, Ajay]], [[Sawarkar, Piyush]], [[Pundalik, Kundeshwar Vijayrao]], [[Saluja, Rohit]], [[Ramakrishnan, Ganesh]]
 
 ## Metadata
 
-**Authors:** Vijay Devane, Mohd Nauman, Bhargav Patel, Aniket Mahendra Wakchoure, et al.
+**Authors:** Devane, Vijay; Nauman, Mohd; Patel, Bhargav; Wakchoure, Aniket Mahendra; Sant, Yogeshkumar; Pawar, Shyam; Thakur, Viraj; Godse, Ananya; Patra, Sunil; Maurya, Neha; Racha, Suraj; Singh, Nitish Kamal; Nagpal, Ajay; Sawarkar, Piyush; Pundalik, Kundeshwar Vijayrao; Saluja, Rohit; Ramakrishnan, Ganesh
 
 **Year:** 2025
 

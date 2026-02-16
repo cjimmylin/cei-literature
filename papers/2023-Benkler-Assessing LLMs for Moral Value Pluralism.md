@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2312.10075.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Assessing LLMs for Moral Value Pluralism

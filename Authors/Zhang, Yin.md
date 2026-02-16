@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese|WYWEB: A NLP Evaluation Benchmark For Classical Chinese]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China
 - *From 2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese*: Affiliation: College of Computer Science and Technology, Zhejiang University, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,9 +37,9 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "Baichuan, ChatGLM, ChatGLM2, ChatGPT, GPT-3, baichuan-ai, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "I've performed a web search and found several relevant results about Chinese NLP dataset bias and fairness evaluation. Here are the key findings: Recent Chinese NLP Bias and Fairness Research (2025-2026) Gender Bias in Chinese Text (2025) As natural language processing for gender bias becomes significant, pre-trained language models suffer from biased corpus, particularly for languages like Chinese with less fairness-related computational linguistic resources."
 research_topic: "Other"
 ---
 # Exploring the occupational biases and stereotypes of Chinese large language models

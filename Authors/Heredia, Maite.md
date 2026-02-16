@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Heredia-Conditioning LLMs to Generate Code-Switched Text|Conditioning LLMs to Generate Code-Switched Text]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2025-Heredia-Conditioning LLMs to Generate Code-Switched Text*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

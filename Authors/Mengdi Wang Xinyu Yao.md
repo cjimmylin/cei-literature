@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Zhao-WenyanGPT A Large Language Model for|WenyanGPT A Large Language Model for]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Zhao-WenyanGPT A Large Language Model for*: Affiliation: University of China, Email: chenbomuc@muc.edu.cn
 - *From 2025-Zhao-WenyanGPT A Large Language Model for*: Affiliation: University of China, Email: chenbomuc@muc.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

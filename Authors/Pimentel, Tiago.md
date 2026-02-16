@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in|PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in*: Affiliation: Institute of Computing, University of Campinas (UNICAMP)
 - *From 2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in*: Affiliation: Institute of Computing, University of Campinas (UNICAMP)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

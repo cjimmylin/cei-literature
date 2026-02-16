@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2021-Nadeem-StereoSet|StereoSet]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: mnadeem@mit.edu
 - *From 2021-Nadeem-StereoSet*: Affiliation: Institute of Technology, Cambridge MA, USA, Email: anna.bethke@intel.com

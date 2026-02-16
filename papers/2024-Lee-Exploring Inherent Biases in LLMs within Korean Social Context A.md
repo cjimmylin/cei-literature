@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains content that may be offensive or upsetting. Large Language Models (LLMs) have significantly impacted various fields requiring advanced linguistic understanding, yet concerns regarding their inherent biases and ethical considerations have also increased. Notably, LLMs have been critiqued for perpetuating stereotypes against diverse groups based on race, sexual orientation, and other attributes."
 research_topic: Other

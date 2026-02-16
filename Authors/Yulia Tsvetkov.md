@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]] (Last Author)
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington

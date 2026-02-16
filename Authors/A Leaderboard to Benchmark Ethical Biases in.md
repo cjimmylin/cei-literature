@@ -1,9 +1,9 @@
 ---
 name: "A Leaderboard to Benchmark Ethical Biases in"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Institute of Science and Technology, Esch-sur-Alzette, Luxembourg"
+affiliation: "Organization, Department (if applicable)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: "marcos.gomez@list.lu"
+email: ""
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,6 +55,7 @@ twitter: ""
 
 ## Papers in this Vault
 
+- [[2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs|A Leaderboard to Benchmark Ethical Biases in LLMs]] (Last Author)]]
 
 - [[2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs|A Leaderboard to Benchmark Ethical Biases in LLMs]] (Last Author)
 
@@ -82,8 +83,6 @@ twitter: ""
 
 ## Notes
 
-
-- *From 2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs*: Affiliation: Institute of Science and Technology, Esch-sur-Alzette, Luxembourg, Email: marcos.gomez@list.lu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

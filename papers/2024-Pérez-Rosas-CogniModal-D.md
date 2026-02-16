@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://pubmed.ncbi.nlm.nih.gov/40089524/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UQBMYCDW/Pérez-Rosas and others - 2024 - CogniModal-D A Multimodal Deception Detection Dataset.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

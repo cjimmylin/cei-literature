@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese|How Large Language Models Enhance Low-Resource Mongolian-Chinese Machine Translation?]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University
 - *From 2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese*: Affiliation: College of Computer Science, Inner Mongolia University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

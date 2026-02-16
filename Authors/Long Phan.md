@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Mazeika-HarmBench|HarmBench]]
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

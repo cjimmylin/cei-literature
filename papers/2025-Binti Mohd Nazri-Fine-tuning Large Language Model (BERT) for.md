@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LSHSUEEF/Binti Mohd Nazri et al. - 2025 - Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Malaysian, Islamic"
+languages_list: "English"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

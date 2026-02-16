@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis|Multilingual and Multi-Aspect Hate Speech Analysis]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: zlinai@connect.ust.hk
 - *From 2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis*: Affiliation: Department of Computer Science and Engineering, Email: nousidhoum@cse.ust.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

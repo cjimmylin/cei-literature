@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2508.19562.pdf"
 ethics_perspective: "Institutional Design / Political Philosophy"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -46,7 +48,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 
 ## Links

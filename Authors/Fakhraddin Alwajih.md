@@ -49,6 +49,7 @@ Alwajih led the development of Palm, a year-long community-driven project involv
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]] (First Author)
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]] (First Author)
 
@@ -64,6 +65,8 @@ Alwajih led the development of Palm, a year-long community-driven project involv
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

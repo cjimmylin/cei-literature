@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, GPT-4, GPT-4o, Llama, Llama Guard, PaLM, T5"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # "Do Your Guardrails Even Guard?" Evaluating Moderation Guardrails for LLM Alignment
 

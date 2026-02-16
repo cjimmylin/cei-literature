@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://www.letta.com/blog/letta-leaderboard"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ASQRZ4EW/Aggarwal and others - 2025 - Letta Leaderboard Benchmarking Agentic Memory in LLMs.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -36,7 +38,7 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aggarwal-Letta Leaderboard.md"
 local_pdf: "[[PDFs/2025/2025-Aggarwal-Letta Leaderboard.pdf]]"
 ---

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ghosh-AEGIS 2.0|AEGIS 2.0]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ghosh-AEGIS 2.0*:, Email: makeshn@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: jibinv@nvidia.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

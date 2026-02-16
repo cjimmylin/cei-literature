@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hamed-A Survey of Code-switched Arabic NLP|A Survey of Code-switched Arabic NLP]] (First Author)
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni
 - *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

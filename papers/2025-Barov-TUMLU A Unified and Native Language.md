@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Azerbaijani, Kazakh, Kyrgyz, Turkish, Uzbek, Uyghur, Tatar, Crimean Tatar, Karakalpak"
+languages_list: "Azerbaijani, Crimean Tatar, Karakalpak, Kazakh, Kyrgyz, Tatar, Turkish, Uyghur, Uzbek"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

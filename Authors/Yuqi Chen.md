@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Yang-DistillSeq|DistillSeq]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Yang-DistillSeq*:, Email: yi009@e.ntu.edu.sg
 - *From 2024-Yang-DistillSeq*:, Email: yi009@e.ntu.edu.sg
 - *From 2024-Yang-DistillSeq*:, Email: ling.shi@ntu.edu.sg
 - *From 2024-Yang-DistillSeq*:, Email: ling.shi@ntu.edu.sg

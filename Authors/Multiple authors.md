@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality|CIVIQ: Towards A Cultural Intelligence and Values Inference Quality Benchmark for Community Values and Common Knowledge]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality*: Affiliation: University of Texas at Austin, Email: johnsonb@gmu.edu
 - *From 2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality*: Affiliation: University of Texas at Austin, Email: tech@chatblackgpt.com
 - *From 2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality*: Affiliation: University of Texas at Austin, Email: tech@chatblackgpt.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

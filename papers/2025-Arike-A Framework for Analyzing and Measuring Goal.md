@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://arxiv.org/abs/2505.02709"
 external_pdf: "https://arxiv.org/pdf/2505.02709.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "100,000 tokens"
 LLM_assessed: "Claude, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # A Framework for Analyzing and Measuring Goal Drift in Language Model Agents
 

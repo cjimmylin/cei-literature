@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and|Jailbreaking LLMs with Arabic Transliteration and]] (Last Author)
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 - *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 - *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida
 - *From 2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and*: Affiliation: University of Central Florida

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -17,6 +18,7 @@ pdf_extract: "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aris
 local_pdf: "[[PDFs/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.pdf]]"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: N/A
 religious_values_list: N/A
 moral_psychology: Yes
@@ -36,7 +38,7 @@ is_dataset: No
 data_description: N/A
 data_metrics: N/A
 LLM_assessed: "Bloom, ChatGPT, GPT-4"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective
 

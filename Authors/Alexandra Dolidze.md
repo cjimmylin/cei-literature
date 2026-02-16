@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Molchanova-Exploring the Potential of Large Language Models|Exploring the Potential of Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: ostyakova.ln@gmail.com
 - *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: ostyakova.ln@gmail.com
 - *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: anna.micj@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

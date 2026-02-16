@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Lin-AI-Face|AI-Face]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Lin-AI-Face*: Affiliation: University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue, Email: xwang56@albany.edu
 - *From 2024-Lin-AI-Face*: Affiliation: University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue, Email: xwang56@albany.edu
 - *From 2024-Lin-AI-Face*: Affiliation: University, West Lafayette, USA {lin1785, santosh2, wu2415, hu968}@purdue, Email: xwang56@albany.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,7 @@ authors: "Pudasaini, Shushanta; Shakya, Aman; Shrestha, Siddhartha; Bhatta, Sahi
 url: "https://arxiv.org/abs/2506.16399"
 external_pdf: "https://arxiv.org/pdf/2506.16399.pdf"
 pdf_extract: "PDF Extracts/2025/2025-[[Pudasaini]]-NepaliGPT A Generative Language Model for.md"
-local_pdf: "[[PDFs/2025/2025-[[Pudasaini]]-NepaliGPT A Generative Language Model for.pdf]]"
+local_pdf: "[[PDFs/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepalese"
+languages_list: "Nepali"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ abstract: "After the release of ChatGPT, Large Language Models (LLMs) have gaine
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-2"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # NepaliGPT: A Generative Language Model for the Nepali Language

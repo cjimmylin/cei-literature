@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://doi.org/10.5121/ijnlc.2023.12201"
 external_pdf: "https://aircconline.com/ijnlc/V12N2/12223ijnlc01.pdf"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "Confucianism"
 religious_values_list: "Confucianism"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, T5"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Understanding Chinese Moral Stories with Further Pre-training (STORAL-ZH)
 

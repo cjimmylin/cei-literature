@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks|Overview of EXIST 2022: sEXism Identification in Social neTworks]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia, Email: frodriguez.sanchez@invi.uned.es
 - *From 2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks*: Affiliation: Research Center, Universitat Polit`ecnica de Val`encia, Email: prosso@dsic.upv.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

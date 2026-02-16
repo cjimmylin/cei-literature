@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +46,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Proposes NooJ algorithm for finding and categorizing slurs, insults, and hate speech in Croatian social media content."
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Hate Speech Online: A Case of Croatian

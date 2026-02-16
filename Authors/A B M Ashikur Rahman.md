@@ -40,6 +40,7 @@ Rahman has published research across diverse AI applications including COVID-19 
 
 
 
+
 - [[2024-Rahman-DefAn|DefAn]] (First Author)
 
 ## External Links & Profiles
@@ -56,6 +57,8 @@ Rahman has published research across diverse AI applications including COVID-19 
 
 
 
+
+- *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: g202204800@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: g202204800@kfupm.edu.sa
 - *From 2024-Rahman-DefAn*: Affiliation: Department, KFUPM, Email: saeed.anwar@kfupm.edu.sa

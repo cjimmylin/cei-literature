@@ -21,6 +21,7 @@ Postdoctoral Researcher at the University of Copenhagen, Department of Computer 
 
 
 
+
 - [[2022-Chalkidis-FairLex|FairLex]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Postdoctoral Researcher at the University of Copenhagen, Department of Computer 
 
 
 
+
+- *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk
 - *From 2022-Chalkidis-FairLex*: Affiliation: Department of Computer Science, University of Copenhagen, Denmark, Email: ilias.chalkidis@di.ku.dk

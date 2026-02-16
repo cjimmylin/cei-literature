@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for|HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese]] (Last Author)
 
 ## External Links & Profiles

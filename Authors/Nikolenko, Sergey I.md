@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language|Benchmarking Multilabel Topic Classification in the Kyrgyz Language]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language*: Affiliation: label Topic Classification in the Kyrgyz Language - PDF Extract"
 - *From 2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language*: Affiliation: label Topic Classification in the Kyrgyz Language - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ external_pdf: "http://arxiv.org/pdf/2407.21792.pdf"
 publication: "Neural Information Processing Systems"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "Mixtral, Llama-3, Llama-2, Mistral, Falcon, Gemma, Qwen"
-DATA_URL: NA
+DATA_URL: "NA"
 DATE_ADDED: 20260207
 ---
 # Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?

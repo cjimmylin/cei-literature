@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://futureoflife.org/ai-safety-index-summer-2025/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/NQNT4L9B/AI-Safety-Index-Summer-2025-2-page-v4.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "DeepSeek"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Institute-2025 AI Safety Index.md"
 local_pdf: "[[PDFs/2025/2025-Institute-2025 AI Safety Index.pdf]]"
 ---

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs|MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs*: Affiliation: University of Venice, Email: albarelli@unive.it
 - *From 2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs*: Affiliation: University of Venice, Email: pilehvarmt@cardiff.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

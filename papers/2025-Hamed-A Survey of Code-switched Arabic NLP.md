@@ -37,7 +37,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Llama-3"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Language in the Arab world presents a complex diglossic and multilingual setting, involving the use of Modern Standard Arabic, various dialects and sub-dialects, as well as multiple European languages. This diverse linguistic landscape has given rise to code-switching, both within Arabic varieties and between Arabic and foreign languages. The widespread occurrence of code-switching across the region makes it vital to address these linguistic needs when developing language technologies."
 research_topic: "NLP & Representation Learning"

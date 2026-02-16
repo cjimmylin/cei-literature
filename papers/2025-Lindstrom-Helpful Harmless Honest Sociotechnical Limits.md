@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12137480/"
 publication: "Ethics and Information Technology"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Llama"
-DATA_URL: NA
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
 local_pdf: "[[PDFs/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"
 ethics_perspective: "AI Safety & Alignment"

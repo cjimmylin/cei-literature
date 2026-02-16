@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +29,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
+languages_list: "Chinese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -40,7 +42,7 @@ abstract: "Comprehension of ancient texts plays an important role in archaeology
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Baichuan2, Llama-3, Llama3, Qwen, Qwen-14B, Qwen-7B, Qwen-Chat"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Translation"
 ---
 # AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora

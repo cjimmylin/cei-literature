@@ -22,6 +22,7 @@ Himanshu Gupta is a machine learning researcher currently working as an Applied 
 
 
 
+
 - [[2022-Sahoo-Detecting Unintended Social Bias in Toxic|Detecting Unintended Social Bias in Toxic]]
 
 ## Notes
@@ -29,6 +30,8 @@ Himanshu Gupta is a machine learning researcher currently working as an Applied 
 
 
 
+
+- *From 2022-Sahoo-Detecting Unintended Social Bias in Toxic*: Affiliation: Institute of Technology Bombay, India
 - *From 2022-Sahoo-Detecting Unintended Social Bias in Toxic*: Affiliation: Institute of Technology Bombay, India
 - *From 2022-Sahoo-Detecting Unintended Social Bias in Toxic*: Affiliation: Institute of Technology Bombay, India
 - *From 2022-Sahoo-Detecting Unintended Social Bias in Toxic*: Affiliation: Institute of Technology Bombay, India

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting|AfriMTEB and AfriE5 Benchmarking and Adapting]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting*: Affiliation: University of Toronto, Email: mzhang@lsv.uni
 - *From 2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting*: Affiliation: University of Toronto, Email: mzhang@lsv.uni
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A|Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method]] (First Author)
 - [[2024-Yuan-R-Judge|R-Judge]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: wangrui12@sjtu.edu.cn

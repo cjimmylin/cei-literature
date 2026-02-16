@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Standards-NIST AI Risk Management Framework|NIST AI Risk Management Framework]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Standards-NIST AI Risk Management Framework*: Affiliation: lable free of charge from:, Email: AIframework@nist.gov
 - *From 2023-Standards-NIST AI Risk Management Framework*: Affiliation: lable free of charge from:, Email: AIframework@nist.gov
 - *From 2023-Standards-NIST AI Risk Management Framework*: Affiliation: lable free of charge from:, Email: AIframework@nist.gov
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

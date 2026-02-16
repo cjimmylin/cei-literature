@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
 
 ## Notes
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: irahwan@mit.edu

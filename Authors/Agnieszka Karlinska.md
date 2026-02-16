@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content|BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop
 - *From 2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content*: Affiliation: Research Institute (Warsaw), †Wykop
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

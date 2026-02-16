@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Dutch, American, Brazilian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Danish, Dutch, American, Brazilian, Multicultural"
+languages_list: "Danish, Dutch, English, Portuguese"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "Large Language Models (LLMs) are becoming increasingly capable across
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-4, Gemma, Llama, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 ---
 # Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs

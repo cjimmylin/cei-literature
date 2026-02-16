@@ -22,6 +22,7 @@ Prof. Dr. Sigurd Schacht is Director of COAI RESEARCH and Professor of Applied A
 
 
 
+
 - [[2025-Schacht-Mapping Moral Reasoning Circuits|Mapping Moral Reasoning Circuits]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Prof. Dr. Sigurd Schacht is Director of COAI RESEARCH and Professor of Applied A
 
 
 
+
+- *From 2025-Schacht-Mapping Moral Reasoning Circuits*: Affiliation: lable at https://
 - *From 2025-Schacht-Mapping Moral Reasoning Circuits*: Affiliation: lable at https://
 - *From 2025-Schacht-Mapping Moral Reasoning Circuits*: Affiliation: lable at https://
 - *From 2025-Schacht-Mapping Moral Reasoning Circuits*: Affiliation: lable at https://

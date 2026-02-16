@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ local_pdf: [[PDFs/2025/2025-Jourdan-FairTranslate.pdf]]
 external_pdf: "https://arxiv.org/pdf/2504.15941.pdf"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
+languages_list: "English, French"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

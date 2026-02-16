@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-University-Monitoring the Evolution of Antisemitic Discourse|Monitoring the Evolution of Antisemitic Discourse]] (First Author)
 - [[2024-University-Using LLMs to Discover Emerging Coded|Using LLMs to Discover Emerging Coded]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-University-Monitoring the Evolution of Antisemitic Discourse*: Affiliation: University-Monitoring the Evolution of Antisemitic Discourse - PDF Extract"
 - *From 2024-University-Monitoring the Evolution of Antisemitic Discourse*: Affiliation: University-Monitoring the Evolution of Antisemitic Discourse - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

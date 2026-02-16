@@ -20,6 +20,7 @@ Paul Röttger is a Postdoctoral Researcher in the MilaNLP Lab at Bocconi Univers
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Russo-The Pluralistic Moral Gap|The Pluralistic Moral Gap]]
 - [[2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -|GAHD: Improving Adversarial Data Collection by Supporting Annotators - Lessons from a German Hate Speech Dataset]]
@@ -39,6 +40,8 @@ Paul Röttger is a Postdoctoral Researcher in the MilaNLP Lab at Bocconi Univers
 
 
 
+
+- *From 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -*: Affiliation: University of Zurich, Zurich, Switzerland
 - *From 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -*: Affiliation: University of Zurich, Zurich, Switzerland
 - *From 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -*: Affiliation: University of Zurich, Zurich, Switzerland
 - *From 2021-Röttger-HateCheck*: Affiliation: University of Oxford

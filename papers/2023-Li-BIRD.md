@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ url: "https://bird-bench.github.io/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TFIDUKB8/Li and others - 2023 - BIRD BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

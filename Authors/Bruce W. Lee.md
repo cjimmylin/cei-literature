@@ -49,6 +49,7 @@ Despite being early in his career, he has co-authored influential work on the em
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Lee-When Prompting Fails to Sway|When Prompting Fails to Sway]] (First Author)
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
@@ -72,6 +73,8 @@ Despite being early in his career, he has co-authored influential work on the em
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: chohyunsoo@ewha.ac.kr
 - *From 2025-Lee-When Prompting Fails to Sway*: Affiliation: University of Pennsylvania, Email: brucelws@seas.upenn.edu

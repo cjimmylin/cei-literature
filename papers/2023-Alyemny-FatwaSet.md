@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,6 +18,7 @@ authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 url: "https://www.mdpi.com/2306-5729/8/11/156"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
+languages_list: "Arabic"
 religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"

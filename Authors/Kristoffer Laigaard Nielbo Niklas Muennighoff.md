@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of|The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of*: Affiliation: lable benchmarks, Email: n.muennighoff@gmail.com
 - *From 2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of*: Affiliation: lable benchmarks, Email: kln@cas.au.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Enevoldsen-DaCy A Unified Framework for Danish NLP|DaCy: A Unified Framework for Danish NLP]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Enevoldsen-DaCy A Unified Framework for Danish NLP*: Affiliation: Center for Humanities Computing Aarhus, Email: lasse.hansen@clin.au.dk
 - *From 2021-Enevoldsen-DaCy A Unified Framework for Danish NLP*: Affiliation: Center for Humanities Computing Aarhus, Email: kln@cas.au.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

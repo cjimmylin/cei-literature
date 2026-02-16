@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
-languages_list: 
+languages_list: "Indonesian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-3, PaLM-2"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Compares GPT-3 and PaLM-2 on generating Indonesian cultural content about traditional dances from Palembang. PaLM-2 scored 27 points for validity vs GPT-3's 8 points. GPT-3 excelled in fine-tuning speed (50 min vs 2h10). Expert judgment assessment of cultural content correctness."
 research_topic: "Social & Cultural Analysis"
 ---
 # Large language model (LLM) comparison between GPT-3 and PaLM-2 to produce Indonesian cultural content

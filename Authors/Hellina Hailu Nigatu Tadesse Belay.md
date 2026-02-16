@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna|Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna*: Affiliation: University, Ethiopia, 2University of Miskolc, Hungary, 3Lelapa AI
 - *From 2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna*: Affiliation: University, Ethiopia, 2University of Miskolc, Hungary, 3Lelapa AI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

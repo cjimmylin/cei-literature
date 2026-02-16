@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +31,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ abstract: "Warning: This paper contains content that may be offensive or upsetti
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "BLOOM, BLOOM 0, BLOOM 3, BLOOMZ, ChatGPT, GPT-3, GPT-4, Llama, LLaMA., OPT 3, OPT-66B, gpt-3.5-turbo"
-DATA_URL: NA
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # GPTBIAS: A Comprehensive Framework for Evaluating Bias in Large Language Models

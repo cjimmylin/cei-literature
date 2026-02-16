@@ -33,6 +33,7 @@ Carolin Holtermann is a research assistant and doctoral candidate at the Univers
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects|Large Language Models Discriminate Against Speakers of German Dialects]]
 - [[2025-Mitchell-SHADES|SHADES]]
@@ -46,6 +47,8 @@ Carolin Holtermann is a research assistant and doctoral candidate at the Univers
 
 
 
+
+- *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: minhducbui@uni-mainz.de
 - *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: carolin.holtermann@uni-hamburg.de
 - *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: carolin.holtermann@uni-hamburg.de
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

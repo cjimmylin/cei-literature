@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and|GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and*: Affiliation: Department of Social Sciences, Heinrich Heine University D¨usseldorf, Email: 2anke.stoll@hhu.de
 - *From 2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and*: Affiliation: Department of Social Sciences, Heinrich Heine University D¨usseldorf, Email: 3michael.wiegand@aau.at
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

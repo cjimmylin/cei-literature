@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,7 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew, Israeli"
-languages_list: 
+languages_list: "Hebrew"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Gemma-9B, Dicta-LM-2.0, GPT-4o, LongHero"
 DATA_URL: "https://github.com/oriel9p/lchaim.git"
 tags: 
-abstract:
+abstract: "Hebrew NLI evaluation dataset with 8,325 context-hypothesis pairs requiring coreferential, temporal, logical and analytical reasoning. LLMs like DictaLM-2.0 and GPT-4o achieve max 60.12% vs human performance of ~87%. Tests Hebrew cultural-linguistic reasoning."
 research_topic: "Other"
 ---
 # LCHAIM - Investigating Long Context Reasoning in Hebrew

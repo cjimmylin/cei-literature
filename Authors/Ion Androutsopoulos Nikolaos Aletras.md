@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning|GreekBarBench: A Challenging Benchmark for Free-Text Legal Reasoning and Citations]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning*: Affiliation: Department of Informatics, Athens University of Economics and Business, Greece
 - *From 2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning*: Affiliation: Department of Informatics, Athens University of Economics and Business, Greece
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ external_pdf: "http://arxiv.org/pdf/2412.18863.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian"
+languages_list: "Arabic, Chinese, English, French, Japanese, Persian, Russian, Spanish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Llama-3, Mistral"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models
 

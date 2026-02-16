@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Abuse in its various forms, including physical, psychological, verbal, sexual, financial, and cultural, has a negative impact on mental health. However, there are limited studies on applying natural language processing (NLP) in this field in Vietnam. Therefore, we aim to contribute by building a human-annotated Vietnamese dataset for detecting abusive content in Vietnamese narrative texts. We sourced these texts from VnExpress, Vietnam’s popular online newspaper, where readers often share..."
 ethics_perspective: "Toxicity & Hate Speech"

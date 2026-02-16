@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware|WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware*: Affiliation: centered on, Email: pumet_pro@vistec.ac.th
 - *From 2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware*: Affiliation: centered on, Email: pumet_pro@vistec.ac.th
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

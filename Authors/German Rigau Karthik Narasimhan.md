@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios|RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios*: Affiliation: University of York, Email: adewynter@microsoft.com
 - *From 2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios*: Affiliation: University of York, Email: adewynter@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

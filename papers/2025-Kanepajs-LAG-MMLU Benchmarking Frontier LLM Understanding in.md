@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +28,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Latvian, Kenyan"
+languages_list: "Giriama, Latvian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -39,7 +41,7 @@ abstract: "As large language models (LLMs) rapidly advance, evaluating their per
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude 3.5, Claude 3.5 Sonnet, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, Gemma, Llama, Llama 3, Llama 3.3, Llama-3.3, Llama3.3, Mistral- large, Mistral-Large"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
 ---
 # LAG-MMLU: Benchmarking Frontier LLM Understanding in Latvian and Giriama

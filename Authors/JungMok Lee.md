@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chen-AVHBench|AVHBench]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 - *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 - *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

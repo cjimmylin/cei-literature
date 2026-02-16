@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model|PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment]] (Last Author)
+
+- [[2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model|PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model*: Affiliation: Research Institute, 2Wrocław University of Science and Technology, Email: anna.kolos@nask.pl
 - *From 2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model*: Affiliation: Research Institute, 2Wrocław University of Science and Technology, Email: anna.kolos@nask.pl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

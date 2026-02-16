@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ url: "http://arxiv.org/abs/2501.09707"
 external_pdf: "http://arxiv.org/pdf/2501.09707.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # The Goofus & Gallant Story Corpus for Practical Value Alignment
 

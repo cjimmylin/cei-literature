@@ -1,9 +1,9 @@
 ---
 name: "Vijay, Deepanshu"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Information Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "m.shrivastava@iiit.ac.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]]]
 
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
+- [[2018-Bohra-Hindi-English Code-Mixed Social Media Text for|Hindi-English Code-Mixed Social Media Text for]]
 
 ## External Links & Profiles
 
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2018-Bohra-Hindi-English Code-Mixed Social Media Text for*: Affiliation: Institute of Information Technology, Email: m.shrivastava@iiit.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

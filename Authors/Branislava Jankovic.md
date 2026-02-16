@@ -49,6 +49,7 @@ Jankovic is a lead author of the "All Languages Matter" (ALM-bench) project, whi
 
 
 
+
 - [[2024-Vayani-All Languages Matter|All Languages Matter]]
 
 ## External Links & Profiles
@@ -61,6 +62,8 @@ Jankovic is a lead author of the "All Languages Matter" (ALM-bench) project, whi
 
 
 
+
+- *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike
 - *From 2024-Vayani-All Languages Matter*: Affiliation: labi2, Mihail Mihaylov2, Chao Qin2, Abdelrahman M Shaker2, Mike

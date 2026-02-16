@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion|Mechanistic Interpretability with SAEs Probing Religion]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion*: Affiliation: University of Applied Sciences, Treskowallee 8, 10318 Berlin, Germany
 - *From 2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion*: Affiliation: University of Applied Sciences, Treskowallee 8, 10318 Berlin, Germany
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

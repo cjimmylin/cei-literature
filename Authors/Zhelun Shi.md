@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Li-T2ISafety|T2ISafety]]
 - [[2024-Li-Benchmarking Ethics in Text-to-Image Models|Benchmarking Ethics in Text-to-Image Models]]
 
@@ -27,6 +28,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
 - *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
 - *From 2025-Li-T2ISafety*: Affiliation: University 3 Fudan University 4 Harbin Institute of Technology
 [Additional context or contact information]

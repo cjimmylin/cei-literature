@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
 - [[2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection|BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection*: Affiliation: Department of Industrial Engineering1
 - *From 2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection*: Affiliation: Department of Industrial Engineering1
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

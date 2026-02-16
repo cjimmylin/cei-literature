@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit|SanskritShala A Neural Sanskrit NLP Toolkit]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in
 - *From 2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit*: Affiliation: lable benchmark datasets for all tasks, Email: jivnesh@iitk.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

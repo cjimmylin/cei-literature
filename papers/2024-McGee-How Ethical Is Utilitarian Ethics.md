@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4731871_code2139
 publication: SSRN
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -42,7 +44,7 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence
 

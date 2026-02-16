@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2026-Shen-PsychEthicsBench|PsychEthicsBench]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology
 - *From 2026-Shen-PsychEthicsBench*: Affiliation: University, 2University of Liverpool, 3Hefei University of Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

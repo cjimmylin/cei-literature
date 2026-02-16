@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Based on the web search results, here's what I found about endangered language representation, LLM bias, and evaluation: Key Findings Endangered Languages and Low-Resource Language Representation: Low-resource languages (LRLs) — those with limited data, tools, and support — have moved from the periphery of NLP to a central challenge in the era of large language models. Data deserts, tokenizer inequities, bias/toxicity, and evaluation blind spots remain as persistent challenges."
 research_topic: "Other"
 ---
 # Large language models are biased — local initiatives are fighting for change

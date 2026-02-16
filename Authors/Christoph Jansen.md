@@ -33,6 +33,7 @@ Christoph Jansen is a tenured Assistant Professor in Data Science at the School 
 
 
 
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]]
 
 ## External Links & Profiles
@@ -45,6 +46,8 @@ Christoph Jansen is a tenured Assistant Professor in Data Science at the School 
 
 
 
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany

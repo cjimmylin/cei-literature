@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ofli-Multimodal Social Media Data Analysis in|Multimodal Social Media Data Analysis in]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: mimran@hbku.edu.qa
 - *From 2025-Ofli-Multimodal Social Media Data Analysis in*: Affiliation: Research Institute, Email: ﬁalam@hbku.edu.qa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

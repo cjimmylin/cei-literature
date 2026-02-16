@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,6 +21,7 @@ external_pdf: "http://arxiv.org/pdf/2505.17712.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -42,7 +44,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, Gemma"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Understanding How Value Neurons Shape the Generation of Specified Values in LLMs
 

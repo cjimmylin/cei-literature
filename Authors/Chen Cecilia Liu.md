@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]]
 - [[2025-Liu-Cultural Learning-Based Culture Adaptation of Language Models|Cultural Learning-Based Culture Adaptation of Language Models]] (First Author)
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)
 - *From 2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in*: Affiliation: Lab (UKP Lab)

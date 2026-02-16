@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Kolt-Legal Alignment for Safe and Ethical AI|Legal Alignment for Safe and Ethical AI]] (First Author)
 - [[2023-Guha-LegalBench|LegalBench]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

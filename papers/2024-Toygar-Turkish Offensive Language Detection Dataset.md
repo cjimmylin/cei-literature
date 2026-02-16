@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,8 +18,8 @@ authors: [[Toygar]]
 authors_incomplete: false
 url: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
 external_pdf: "https://www.mdpi.com/2079-9292/14/24/4919/pdf"
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Toygar-Turkish Offensive Language Detection Dataset.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
 pdf_access_error: "http_403 (HTTP 403)"
@@ -32,6 +33,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"
+languages_list: "Turkish"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

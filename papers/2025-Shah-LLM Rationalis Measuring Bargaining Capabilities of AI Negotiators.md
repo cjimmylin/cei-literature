@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
@@ -38,7 +40,7 @@ research_topic: "Other"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators
 

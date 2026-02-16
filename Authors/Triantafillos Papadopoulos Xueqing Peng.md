@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek|Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: xueqing.peng2023@gmail.com
 - *From 2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek*: Affiliation: University of Economics and Business, Email: jimin.huang@thefin.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

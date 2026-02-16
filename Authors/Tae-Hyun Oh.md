@@ -20,6 +20,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chen-AVHBench|AVHBench]] (Last Author)
 - [[2024-Moon-BEAF|BEAF]] (Last Author)
 - [[2021-Park-KLUE Korean Language Understanding Evaluation|KLUE: Korean Language Understanding Evaluation]]
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea
 - *From 2024-Moon-BEAF*: Affiliation: School of AI, POSTECH, Korea

@@ -22,6 +22,7 @@ PhD student at LMU Munich (Statistics) and researcher at CISPA. Research focuses
 
 
 
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ PhD student at LMU Munich (Statistics) and researcher at CISPA. Research focuses
 
 
 
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany

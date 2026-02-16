@@ -38,7 +38,7 @@ is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 LLM_assessed: "Claude, LLaMA-4, Llama, Llama-3.1, Qwen, Qwen-2.5, Qwen-VL"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "This study aims to test and evaluate the capabilities and characteristics of current mainstream Visual Language Models (VLMs) in generating critiques for traditional Chinese painting. To achieve this, we first developed a quantitative framework for Chinese painting critique. This framework was constructed by extracting multi-dimensional evaluative features covering evaluative stance, feature focus, and commentary quality from human expert critiques using a zero-shot classification model."
 research_topic: "Computer Vision & Multimodal"

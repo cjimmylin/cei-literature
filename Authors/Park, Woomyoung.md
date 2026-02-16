@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language|No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language*: Affiliation: lability and quality, Email: dasolchoi@yonsei.ac.kr
 - *From 2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language*: Affiliation: lability and quality, Email: max@sionic.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

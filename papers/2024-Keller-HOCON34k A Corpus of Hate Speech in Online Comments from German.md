@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,9 +37,9 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: BERT
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research."
 ethics_perspective: "Toxicity & Hate Speech"
 authors_incomplete: false
 ---

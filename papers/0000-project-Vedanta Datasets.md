@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,8 +20,8 @@ authors: "[[Atmabodha (community project)]]"
 authors_incomplete: false
 url: 
 external_pdf: 
-pdf_extract: 
-local_pdf: N/A
+pdf_extract: "PDF Extracts/0000/0000-project-Vedanta Datasets.md"
+local_pdf: "[[PDFs/0000/0000-project-Vedanta Datasets.pdf]]"
 publication: GitHub
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-InstrumentalEval|InstrumentalEval]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 - *From 2025-Liu-InstrumentalEval*: Affiliation: University of Singapore, Email: yufei.he@u.nus.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

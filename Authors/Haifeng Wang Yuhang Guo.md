@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xia-SafeToolBench|SafeToolBench]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xia-SafeToolBench*: Affiliation: Institute of Technology γThe Chinese University of Hong Kong, Email: guoyuhang@bit.edu.cn
 - *From 2025-Xia-SafeToolBench*: Affiliation: Institute of Technology γThe Chinese University of Hong Kong, Email: guoyuhang@bit.edu.cn
 - *From 2025-Xia-SafeToolBench*: Affiliation: Institute of Technology γThe Chinese University of Hong Kong, Email: guoyuhang@bit.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

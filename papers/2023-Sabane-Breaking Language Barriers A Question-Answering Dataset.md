@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +17,7 @@ authors: Maithili Sabane; Onkar Litake; Aman Chadha
 url: "https://arxiv.org/abs/2308.09862"
 external_pdf: "https://arxiv.org/pdf/2308.09862.pdf"
 pdf_extract: "PDF Extracts/2023/2023-[[Sabane]]-Breaking Language Barriers A Question-Answering Dataset.md"
-local_pdf: "[[PDFs/2023/2023-[[Sabane]]-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
+local_pdf: "[[PDFs/2023/2023-Sabane-Breaking Language Barriers A Question-Answering Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
 ethics_overall: "No"
@@ -25,6 +26,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
+languages_list: "Hindi, Marathi"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -37,7 +39,7 @@ abstract: "The recent advances in deep-learning have led to the development of h
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # Breaking Language Barriers: A Question-Answering Dataset for Hindi and Marathi

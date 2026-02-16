@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ghaly-Assessing Large Language Models on Islamic|Assessing Large Language Models on Islamic]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
 - *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

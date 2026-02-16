@@ -34,12 +34,15 @@ Alan co-developed the `fneval` framework, which transforms standard benchmark qu
 
 
 
+
 - [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of]]
 
 ## Notes
 
 
 
+
+- *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 - *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 - *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 - *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.

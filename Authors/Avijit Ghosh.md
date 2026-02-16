@@ -49,8 +49,8 @@ He notably discovered critical vulnerabilities in AI chatbots during the Generat
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
-- [[2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating|SANSKRITI A Comprehensive Benchmark for Evaluating]]
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
@@ -68,6 +68,8 @@ He notably discovered critical vulnerabilities in AI chatbots during the Generat
 
 
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating*: Affiliation: Department of Computer Science and Engineering, Indian Institute of Technology Patna, India, Email: guptaanushka024@gmail.com
 - *From 2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating*: Affiliation: Department of Computer Science and Engineering, Indian Institute of Technology Patna, India, Email: guptaanushka024@gmail.com
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

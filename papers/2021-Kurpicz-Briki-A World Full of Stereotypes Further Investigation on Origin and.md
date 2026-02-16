@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,9 +38,9 @@ is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "word2vec"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
-abstract: 
+abstract: "Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data."
 ethics_perspective: "Bias & Fairness"
 ---
 # A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings

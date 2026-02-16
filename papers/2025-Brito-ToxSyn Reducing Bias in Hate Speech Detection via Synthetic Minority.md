@@ -38,7 +38,7 @@ is_dataset: "Yes"
 data_description: "Benchmark text corpus for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "GPT-4, BERT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "The development of robust hate speech detection systems remains limited by the lack of large-scale, fine-grained training data, especially for languages beyond English. Existing corpora typically rely on coarse toxic/non-toxic labels, and the few that capture hate directed at specific minority groups critically lack the non-toxic counterexamples (i.e., benign text about minorities) required to distinguish genuine hate from mere discussion."
 ethics_perspective: "Toxicity & Hate Speech"

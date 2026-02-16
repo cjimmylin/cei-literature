@@ -10,10 +10,10 @@ key: LSRC0762
 type: conferencePaper
 short_title: "A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media"
 year: 2025
-first_author: "[[Usmana, Muhammad]]"
-last_author: "[[Telleza, Rolando Quintero]]"
-authors: "[[Usmana, Muhammad]]; [[Ahmada, Muhammad]]; [[Tasha, Moein Shahiki]]; [[Gelbukha, Irina]]; [[Telleza, Rolando Quintero]]"
-authors_incomplete: true
+first_author: "[[Usman, Muhammad]]"
+last_author: "[[Sidorov, Grigori]]"
+authors: "[[Usman, Muhammad]]; [[Ahmad, Muhammad]]; [[Tash, M. Shahiki]]; [[Gelbukh, Irina]]; [[Tellez, Rolando Quintero]]; [[Sidorov, Grigori]]"
+authors_incomplete: false
 url: "https://www.mdpi.com/2073-431X/14/7/279"
 external_pdf: "https://arxiv.org/pdf/2506.08147"
 publication: MDPI
@@ -37,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset for hate speech detection"
 data_metrics: "3,834 samples; 3,197 samples; 3,162 samples"
 LLM_assessed: "ALBERT, BERT, DeepSeek 67B, ELECTRA, GPT 3, GPT 3.5 Turbo, GPT-3, GPT-3.5, GPT-3.5 Turbo, GloVe, LLaMA 3.3, Llama, Qwen, Qwen 2.5, Qwen2.5, RoBERTa"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "Social media platforms are critical spaces for public discourse, shaping opinions and community dynamics, yet their widespread use has amplified harmful content, particularly hate speech, threatening online safety and inclusivity. While hate speech detection has been extensively studied in languages like English and Spanish, Urdu remains underexplored, especially using translation-based approaches. To address this gap, we introduce a trilingual dataset of 10,193 tweets in English (3,834..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -46,11 +46,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Authors
 
-[[Usmana, Muhammad]], [[Ahmada, Muhammad]], [[Tasha, Moein Shahiki]], [[Gelbukha, Irina]], [[Telleza, Rolando Quintero]]
+[[Usman, Muhammad]], [[Ahmad, Muhammad]], [[Tash, M. Shahiki]], [[Gelbukh, Irina]], [[Tellez, Rolando Quintero]], [[Sidorov, Grigori]]
 
 ## Metadata
 
-**Authors:** Muhammad Usmana; Muhammad Ahmada; Moein Shahiki Tasha; Irina Gelbukha; Rolando Quintero Telleza
+**Authors:** Usman, Muhammad; Ahmad, Muhammad; Tash, M. Shahiki; Gelbukh, Irina; Tellez, Rolando Quintero; Sidorov, Grigori
 
 **Year:** 2025
 

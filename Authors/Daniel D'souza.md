@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: sarahooker@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

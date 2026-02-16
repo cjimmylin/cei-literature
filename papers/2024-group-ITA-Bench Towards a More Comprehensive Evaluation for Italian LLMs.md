@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/SapienzaNLP/ita-bench"
 tags: 
-abstract: 
+abstract: "A benchmark suite for evaluating LLMs on Italian, including 10 benchmarks (ARC, BoolQ, GSM8K, HellaSwag, MMLU, PIQA, SciQ, TruthfulQA, Winogrande). Addresses the problem that English-centric benchmark translations may contain culturally inappropriate instances."
 research_topic: "Other"
 ---
 # ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs

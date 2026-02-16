@@ -39,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
-DATA_URL: NA
+DATA_URL: "NA"
 tags: 
 abstract: "In the field of Japanese-Chinese translation linguistics, the issue of correctly translating attributive clauses has persistently proven to be challenging. Present-day machine translation tools often fail to accurately translate attributive clauses from Japanese to Chinese. In light of this, this paper investigates the linguistic problem underlying such difficulties, namely how does the semantic role of the modified noun affect the selection of translation patterns for attributive clauses, from..."
 research_topic: "Machine Translation"

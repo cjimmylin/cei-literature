@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liu-CultureAtlas|CultureAtlas]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

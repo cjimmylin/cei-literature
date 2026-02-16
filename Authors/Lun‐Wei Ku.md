@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools|Chinese Textual Sentiment Analysis: Datasets, Resources and Tools]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools*: Affiliation: Institute of Information Science, Email: lwku@iis.sinica.edu.tw
 - *From 2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools*: Affiliation: Institute of Information Science, Email: lwku@iis.sinica.edu.tw
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

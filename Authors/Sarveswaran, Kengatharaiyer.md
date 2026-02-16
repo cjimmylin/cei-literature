@@ -1,9 +1,9 @@
 ---
 name: "Sarveswaran, Kengatharaiyer"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Singapore"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "weiqi@aisingapore.org"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic|BHASA A Holistic Southeast Asian Linguistic]]]]
 
 - [[2023-Susanto-BHASA A Holistic Southeast Asian Linguistic|BHASA A Holistic Southeast Asian Linguistic]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Susanto-BHASA A Holistic Southeast Asian Linguistic*: Affiliation: University of Singapore, Email: weiqi@aisingapore.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -57,6 +57,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting|Leveraging Large Language Models for Detecting]] (First Author)
 
 ## External Links & Profiles
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting*: Affiliation: University-Leveraging Large Language Models for Detecting - PDF Extract"\nsource_pdf: "2025-Multiple Journal o, Email: mahmadi2021@fau.edu
 - *From 2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting*: Affiliation: University-Leveraging Large Language Models for Detecting - PDF Extract"\nsource_pdf: "2025-Multiple Journal o, Email: mahmadi2021@fau.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

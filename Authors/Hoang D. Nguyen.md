@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English|IRLBench: A Multi-modal, Culturally Grounded, Parallel Irish-English Benchmark for Open-Ended LLM Reasoning Evaluation]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English*: Affiliation: University College Cork, Email: 123128577@umail.ucc.ie
 - *From 2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English*: Affiliation: University College Cork, Email: hn@cs.ucc.ie
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

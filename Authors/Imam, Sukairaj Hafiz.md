@@ -1,9 +1,9 @@
 ---
 name: "Imam, Sukairaj Hafiz"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Gondar, Ethiopia, 2AIMS Research and Innovation Centre, Rwanda"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "kediryassin25@yahoo.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Tewabe-The State of Large Language Models for African Languages Progress and|The State of Large Language Models for African Languages: Progress and Challenges]]]]
 
 - [[2025-Tewabe-The State of Large Language Models for African Languages Progress and|The State of Large Language Models for African Languages: Progress and Challenges]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Tewabe-The State of Large Language Models for African Languages Progress and*: Affiliation: University of Gondar, Ethiopia, 2AIMS Research and Innovation Centre, Rwanda, Email: kediryassin25@yahoo.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

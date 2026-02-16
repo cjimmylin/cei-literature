@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment|SPICA (Scenarios for Pluralistic In-Context Alignment)]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment*: Affiliation: University of Washington
 - *From 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment*: Affiliation: University of Washington
 - *From 2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment*: Affiliation: University of Washington
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

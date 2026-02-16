@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,6 +20,7 @@ local_pdf: "[[PDFs/2021/2021-Cercas Curry-ConvAbuse.pdf]]"
 external_pdf: "https://aclanthology.org/2021.emnlp-main.587.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

@@ -1,7 +1,7 @@
 ---
 name: "Aminnaseri, Moin"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute for AI, 2Google, 3George Washington U"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]]]]
 
 - [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

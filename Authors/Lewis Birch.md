@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -|Bypassing LLM guardrails: character and AML attacks in practice - Mindgard]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk
 - *From 2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -*:, Email: neeraj.suri@lancaster.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

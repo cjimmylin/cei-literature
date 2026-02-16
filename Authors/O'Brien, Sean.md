@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in|EnDive: A Cross-Dialect Benchmark for Fairness and Performance in Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in*:, Email: kevin@algoverse.us
 - *From 2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in*:, Email: abhaygupta1266@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -50,6 +50,7 @@ He has published in top scientific journals like *Nature*, *Science*, and *The L
 
 
 
+
 - [[2020-Awad-Crowdsourcing moral machines|Crowdsourcing moral machines]]
 - [[2020-Awad-Universals and variations in moral decisions made|Universals and variations in moral decisions made]]
 - [[2018-Awad-The Moral Machine experiment|The Moral Machine experiment]]
@@ -67,6 +68,8 @@ He has published in top scientific journals like *Nature*, *Science*, and *The L
 
 
 
+
+- *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: shariffa@uci.edu
 - *From 2018-Awad-The Moral Machine experiment*: Affiliation: Faculty has made this article openly available, Email: irahwan@mit.edu

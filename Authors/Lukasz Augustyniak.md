@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted|Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl
 - *From 2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted*: Affiliation: University of Science and Technology), Email: lukasz.augustyniak@pwr.wroc.pl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

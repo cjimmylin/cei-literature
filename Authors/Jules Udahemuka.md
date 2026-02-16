@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Edeh-Language Diversity Evaluating Language Usage and|Language Diversity Evaluating Language Usage and]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: btadele@bdu.edu.et
 - *From 2025-Edeh-Language Diversity Evaluating Language Usage and*: Affiliation: University Africa, Email: btadele@bdu.edu.et
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

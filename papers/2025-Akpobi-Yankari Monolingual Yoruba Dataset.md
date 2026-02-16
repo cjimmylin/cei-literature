@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,6 +19,7 @@ url: "https://aclanthology.org/2025.africanlp-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ULDM59EJ/2025 - Yankari Monolingual Yoruba Dataset.pdf"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Nigerian"
+languages_list: "Yoruba"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"

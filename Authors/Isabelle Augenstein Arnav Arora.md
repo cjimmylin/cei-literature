@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Cao-Specializing Large Language Models to Simulate Survey Response|Specializing Large Language Models to Simulate Survey Response Distributions for Global Populations]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Cao-Specializing Large Language Models to Simulate Survey Response*: Affiliation: University of Tübingen, Tübingen AI Center, Email: dh@di.ku.dk
 - *From 2025-Cao-Specializing Large Language Models to Simulate Survey Response*: Affiliation: University of Tübingen, Tübingen AI Center, Email: dh@di.ku.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

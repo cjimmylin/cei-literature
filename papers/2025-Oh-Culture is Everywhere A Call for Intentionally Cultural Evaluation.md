@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
-languages_list: 
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
-abstract:
+abstract: "Critiques the trivia-centered paradigm for cultural alignment evaluation. Advocates for 'intentionally cultural evaluation' examining cultural assumptions embedded in all evaluation aspects. Proposes HCI-inspired participatory methodologies for inclusive NLP research."
 research_topic: "Social & Cultural Analysis"
 ---
 # Culture is Everywhere: A Call for Intentionally Cultural Evaluation

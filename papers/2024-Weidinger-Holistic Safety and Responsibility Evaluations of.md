@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,6 +22,7 @@ external_pdf: "http://arxiv.org/pdf/2404.14068.pdf"
 publication: arXiv.org
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: ""
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -44,7 +46,7 @@ is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 LLM_assessed: "bloom"
-DATA_URL: NA
+DATA_URL: "NA"
 ---
 # Holistic Safety and Responsibility Evaluations of Advanced AI Models
 

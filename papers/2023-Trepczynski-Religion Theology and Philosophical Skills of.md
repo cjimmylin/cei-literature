@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +30,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
+languages_list: "English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -41,7 +43,7 @@ abstract: "In this study, I demonstrate how religion and theology can be useful 
 data_description: "Benchmark"
 data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Codex, Llama2, Llama2."
-DATA_URL: NA
+DATA_URL: "NA"
 research_topic: "Social & Cultural Analysis"
 ---
 # Religion, Theology, and Philosophical Skills of LLM-Powered Chatbots

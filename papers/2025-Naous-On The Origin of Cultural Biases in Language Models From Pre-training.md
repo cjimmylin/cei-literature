@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arab, Western"
-languages_list: 
+languages_list: "Arabic, English"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "Llama-3.3-70B; Aya-23-8B; Qwen-2.5-7B; AceGPT-v1.5-7B; AceGPT-v2-7B; JAIS-13B; XLM-R; ARBERT; MARBERT; CAMeLBERT; AraBERT"
 DATA_URL: "https://github.com/tareknaous/camel2"
 tags: 
-abstract:
+abstract: "Introduces CAMeL-2, a parallel Arabic-English benchmark with 58,000+ entities tied to Arab and Western cultures. Investigates why LMs favor Western-culture entities in non-Western languages; traces bias to frequency-based tokenization and pre-training data composition."
 research_topic: "Social & Cultural Analysis"
 ---
 # On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena

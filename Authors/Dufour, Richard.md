@@ -1,9 +1,9 @@
 ---
 name: "Dufour, Richard"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for - PDF Extract'"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "first.lastname@univ-avignon.fr"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for|FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain]]]]
 
 - [[2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for|FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for*: Affiliation: Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for - PDF Extract", Email: first.lastname@univ-avignon.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

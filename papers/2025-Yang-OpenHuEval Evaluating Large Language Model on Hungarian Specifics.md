@@ -1,6 +1,8 @@
 ---
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,7 +27,7 @@ deontological_ethics: "No"
 utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Hungarian"
-languages_list: 
+languages_list: "Hungarian"
 religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
@@ -38,7 +40,7 @@ data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o-mini, DeepSeek-V3, Qwen2.5, Llama-3.1, o1-mini"
 DATA_URL: "https://github.com/opendatalab/OpenHuEval"
 tags: 
-abstract:
+abstract: "First LLM benchmark focused on Hungarian language and cultural specifics across eight Hungarian-specific dimensions with 3,953 questions, including morphology, pragmatics, cultural knowledge, and dialectal understanding."
 research_topic: "NLP & Representation Learning"
 ---
 # OpenHuEval: Evaluating Large Language Model on Hungarian Specifics

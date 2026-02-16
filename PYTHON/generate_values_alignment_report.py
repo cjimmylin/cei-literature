@@ -4,7 +4,7 @@ Generate Updated Ethical Values Alignment Benchmarks Report.
 
 Combines:
 1. Original 39 hand-curated entries (preserved for entries with rich detail)
-2. New entries from 528-candidate benchmark survey JSON
+2. New entries from 989-candidate benchmark survey JSON
 3. YAML-enriched metadata from paper files
 
 Output: STATISTICS/20260210-ethical-values-alignment-benchmarks-report.md
@@ -24,7 +24,7 @@ sys.path.insert(0, str(WORKSPACE / ".agent" / "lib"))
 from yaml_utils import extract_frontmatter, parse_frontmatter
 from config import PAPERS_DIR, STATISTICS_DIR, LOGS_DIR
 
-INPUT_FILE = LOGS_DIR / "20260215-benchmark_survey_candidates.json"
+INPUT_FILE = LOGS_DIR / "20260216-benchmark_survey_candidates.json"
 OUTPUT_FILE = STATISTICS_DIR / "20260216-ethical-values-alignment-benchmarks-report.md"
 
 # Also import classify_entry from sibling script
@@ -325,7 +325,7 @@ FRAMEWORK_SIGNALS = {
 # =============================================================================
 
 def load_and_filter_candidates():
-    """Load 528 candidates and filter to ethical values alignment scope.
+    """Load candidates and filter to ethical values alignment scope.
 
     Three tiers:
     - Anchors: always included
@@ -762,7 +762,7 @@ def generate_report(section_entries, all_entries, anchor_count, new_count):
     lines.append("")
     lines.append(f"This report catalogues **{total_entries} benchmarks and resources** for evaluating ethical values alignment in large language models, expanded from the original 39-entry report (2026-02-07). Key changes:")
     lines.append("")
-    lines.append(f"1. **{new_count} new entries** discovered from the 528-candidate benchmark survey (20-agent deep-read of 846 vault papers)")
+    lines.append(f"1. **{new_count} new entries** discovered from the 989-candidate benchmark survey (deep-read of all 2,002 vault papers)")
     lines.append(f"2. **All {anchor_count} original entries preserved** with hand-curated detail")
     lines.append("3. **Scope filtering** applied: only benchmarks focused on ethical values, moral reasoning, cultural values, normative ethics, and moral psychology (excluding pure toxicity/safety/bias)")
     lines.append("4. **YAML enrichment** for entries in vault: arXiv links, DOIs, venue, authors, code URLs")
@@ -877,10 +877,10 @@ def generate_report(section_entries, all_entries, anchor_count, new_count):
     not_in_vault = total_entries - in_vault
     lines.append("## Vault Status")
     lines.append("")
-    lines.append(f"- **Vault size:** 846 papers (post-deduplication)")
+    lines.append(f"- **Vault size:** 2,002 papers (post-deduplication)")
     lines.append(f"- **Entries in this report from vault:** {in_vault}")
     lines.append(f"- **Entries not in vault** (external/not-yet-imported): {not_in_vault} (includes {len(STATIC_ENTRIES)} hand-curated entries)")
-    lines.append(f"- **Source data:** `logs/20260208-benchmark_survey_candidates.json` (528 candidates from 20-agent survey)")
+    lines.append(f"- **Source data:** `logs/20260216-benchmark_survey_candidates.json` (989 candidates from full vault survey)")
     lines.append("")
     lines.append("---")
     lines.append("")

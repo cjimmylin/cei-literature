@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEI Literature Vault — LLM Ethics Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<style>
+/* ── CSS Reset & Custom Properties ─────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg-primary: #09090b;
+  --bg-card: #18181b;
+  --bg-card-hover: #27272a;
+  --bg-surface: #111113;
+  --border: #3f3f46;
+  --border-subtle: #27272a;
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --accent: #6366f1;
+  --accent-light: #818cf8;
+  --accent-dim: rgba(99,102,241,0.15);
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --cat-1: #6366f1; --cat-2: #22d3ee; --cat-3: #f59e0b;
+  --cat-4: #ec4899; --cat-5: #22c55e; --cat-6: #a855f7;
+  --cat-7: #f97316; --cat-8: #14b8a6; --cat-9: #e879f9;
+  --cat-10: #38bdf8;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+/* ── Header ────────────────────────────────────────────────────────── */
+.header {
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 20px 24px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+}
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.header .subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+/* ── Tabs ──────────────────────────────────────────────────────────── */
+.tabs {
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tab {
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+  user-select: none;
+}
+.tab:hover { color: var(--text-secondary); }
+.tab.active {
+  color: var(--accent-light);
+  border-bottom-color: var(--accent);
+}
+/* ── Main ──────────────────────────────────────────────────────────── */
+.main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.section {
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+.section.active { display: block; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* ── Grid ──────────────────────────────────────────────────────────── */
+.grid { display: grid; gap: 20px; }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+.grid-5 { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+@media (max-width: 768px) {
+  .grid-2, .grid-5 { grid-template-columns: 1fr; }
+}
+/* ── Cards ─────────────────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+.card:hover { border-color: var(--border); }
+.card-title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+}
+/* ── KPI Cards ─────────────────────────────────────────────────────── */
+.kpi {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  position: relative;
+  overflow: hidden;
+}
+.kpi::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--accent);
+}
+.kpi-value {
+  font-family: var(--font-mono);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.kpi-label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+.kpi:nth-child(2)::before { background: var(--cat-2); }
+.kpi:nth-child(3)::before { background: var(--success); }
+.kpi:nth-child(4)::before { background: var(--cat-3); }
+.kpi:nth-child(5)::before { background: var(--cat-6); }
+.kpi:nth-child(6)::before { background: var(--cat-2); }
+/* ── Chart containers ──────────────────────────────────────────────── */
+.chart-box {
+  width: 100%;
+  height: 400px;
+}
+.chart-box-sm { height: 320px; }
+.chart-box-lg { height: 500px; }
+.chart-box-xl { height: 600px; }
+/* ── Table ─────────────────────────────────────────────────────────── */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-subtle);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+th {
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+th:hover { color: var(--text-primary); }
+td {
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  max-width: 320px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+tr:hover td { background: var(--bg-card-hover); }
+tr:nth-child(even) td { background: rgba(24,24,27,0.5); }
+tr:nth-child(even):hover td { background: var(--bg-card-hover); }
+/* ── Filters ───────────────────────────────────────────────────────── */
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.filter-input {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  padding: 8px 14px;
+  font-size: 0.82rem;
+  font-family: var(--font-sans);
+  outline: none;
+  transition: border-color 0.2s;
+  min-width: 200px;
+}
+.filter-input:focus { border-color: var(--accent); }
+select.filter-input { cursor: pointer; }
+.filter-count {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+/* ── Pagination ────────────────────────────────────────────────────── */
+.pagination {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  margin-top: 16px;
+  align-items: center;
+}
+.page-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.page-btn:hover { border-color: var(--border); color: var(--text-primary); }
+.page-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+.page-btn:disabled { opacity: 0.3; cursor: default; }
+/* ── Normative cards ───────────────────────────────────────────────── */
+.norm-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+.norm-card h4 {
+  font-size: 0.85rem;
+  color: var(--accent-light);
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+.norm-card .meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.norm-card .meta span {
+  color: var(--text-secondary);
+}
+/* ── Badge ─────────────────────────────────────────────────────────── */
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-weight: 500;
+}
+.badge-public { background: rgba(34,197,94,0.15); color: var(--success); }
+.badge-code { background: rgba(99,102,241,0.15); color: var(--accent-light); }
+.badge-partial { background: rgba(245,158,11,0.15); color: var(--warning); }
+/* ── Footer ────────────────────────────────────────────────────────── */
+.footer {
+  text-align: center;
+  padding: 32px 24px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 48px;
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header & Tabs ────────────────────────────────────────────────── -->
+<div class="header">
+  <div class="header-content">
+    <h1>CEI Literature Vault — LLM Ethics & Values Alignment</h1>
+    <div class="subtitle" id="subtitle">Loading...</div>
+    <div class="tabs" id="tabs">
+      <div class="tab active" data-tab="overview">Overview</div>
+      <div class="tab" data-tab="taxonomy">Taxonomy</div>
+      <div class="tab" data-tab="models">Models & Methods</div>
+      <div class="tab" data-tab="cultural">Cultural Coverage</div>
+      <div class="tab" data-tab="resources">Resources</div>
+      <div class="tab" data-tab="normative">Normative</div>
+      <div class="tab" data-tab="llm">LLM Assessment</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Main Content ─────────────────────────────────────────────────── -->
+<div class="main">
+
+<!-- ═══ Section 1: Overview ═══════════════════════════════════════════ -->
+<div class="section active" id="sec-overview">
+  <div class="grid grid-5" style="margin-bottom:24px" id="kpi-row"></div>
+  <div class="grid grid-2">
+    <div class="card"><div class="card-title">Papers Over Time</div><div class="chart-box" id="chart-timeline"></div></div>
+    <div class="card"><div class="card-title">Category Distribution</div><div class="chart-box" id="chart-categories"></div></div>
+    <div class="card"><div class="card-title">Data Availability</div><div class="chart-box chart-box-sm" id="chart-availability"></div></div>
+    <div class="card"><div class="card-title">Top Prolific Authors</div><div class="chart-box chart-box-sm" id="chart-authors"></div></div>
+  </div>
+</div>
+
+<!-- ═══ Section 2: Taxonomy ══════════════════════════════════════════ -->
+<div class="section" id="sec-taxonomy">
+  <div class="grid grid-2" style="margin-bottom:20px">
+    <div class="card"><div class="card-title">Category x Year Heatmap</div><div class="chart-box chart-box-lg" id="chart-cat-year"></div></div>
+    <div class="card"><div class="card-title">Co-occurrence Matrix</div><div class="chart-box chart-box-lg" id="chart-cooccurrence"></div></div>
+  </div>
+</div>
+
+<!-- ═══ Section 3: Models & Methods ══════════════════════════════════ -->
+<div class="section" id="sec-models">
+  <div class="grid grid-2" style="margin-bottom:20px">
+    <div class="card"><div class="card-title">Model Family Prevalence</div><div class="chart-box" id="chart-model-bar"></div></div>
+    <div class="card"><div class="card-title">Methodology Prevalence</div><div class="chart-box" id="chart-method-bar"></div></div>
+  </div>
+  <div class="card"><div class="card-title">Model x Category Heatmap</div><div class="chart-box chart-box-lg" id="chart-model-cat"></div></div>
+</div>
+
+<!-- ═══ Section 4: Cultural Coverage ═════════════════════════════════ -->
+<div class="section" id="sec-cultural">
+  <div class="grid grid-2" style="margin-bottom:20px">
+    <div class="card"><div class="card-title">Pluralistic Relevance</div><div class="chart-box chart-box-sm" id="chart-pluralistic"></div></div>
+    <div class="card"><div class="card-title">Ethical Tradition Coverage</div><div class="chart-box" id="chart-traditions"></div></div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card"><div class="card-title">Language Coverage</div><div class="chart-box" id="chart-languages"></div></div>
+    <div class="card"><div class="card-title">Language x Category Heatmap</div><div class="chart-box chart-box-lg" id="chart-lang-cat"></div></div>
+  </div>
+</div>
+
+<!-- ═══ Section 5: Resources ═════════════════════════════════════════ -->
+<div class="section" id="sec-resources">
+  <div class="filters">
+    <input type="text" class="filter-input" id="res-search" placeholder="Search benchmarks...">
+    <select class="filter-input" id="res-cat" style="min-width:180px">
+      <option value="">All Categories</option>
+    </select>
+    <select class="filter-input" id="res-year" style="min-width:120px">
+      <option value="">All Years</option>
+    </select>
+    <label style="font-size:0.82rem;color:var(--text-secondary);display:flex;align-items:center;gap:6px;">
+      <input type="checkbox" id="res-public"> Public only
+    </label>
+    <div class="filter-count" id="res-count"></div>
+  </div>
+  <div class="table-wrap"><table id="res-table">
+    <thead><tr>
+      <th data-sort="year">Year</th>
+      <th data-sort="benchmark">Benchmark</th>
+      <th data-sort="what">What It Measures</th>
+      <th data-sort="category">Category</th>
+      <th data-sort="availability">Availability</th>
+    </tr></thead>
+    <tbody id="res-tbody"></tbody>
+  </table></div>
+  <div class="pagination" id="res-pagination"></div>
+</div>
+
+<!-- ═══ Section 6: Normative ═════════════════════════════════════════ -->
+<div class="section" id="sec-normative">
+  <div class="grid grid-2" style="margin-bottom:20px">
+    <div class="card"><div class="card-title">Normative Classification</div><div class="chart-box chart-box-sm" id="chart-norm-donut"></div></div>
+    <div class="card"><div class="card-title">Framework Distribution</div><div class="chart-box" id="chart-norm-fw"></div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Papers with Full Normative Operationalization</div>
+    <div id="norm-papers"></div>
+  </div>
+</div>
+
+<!-- ═══ Section 7: LLM Assessment ═════════════════════════════════════ -->
+<div class="section" id="sec-llm">
+  <div class="grid grid-5" style="margin-bottom:24px">
+    <div class="kpi"><div class="kpi-value" style="color:#22d3ee" id="llm-kpi-models">0</div><div class="kpi-label">Papers with LLM Models</div></div>
+    <div class="kpi"><div class="kpi-value" style="color:#22c55e" id="llm-kpi-urls">0</div><div class="kpi-label">Papers with Data URLs</div></div>
+    <div class="kpi"><div class="kpi-value" style="color:#f59e0b" id="llm-kpi-pct">0%</div><div class="kpi-label">LLM Coverage Rate</div></div>
+  </div>
+  <div class="grid grid-2" style="margin-bottom:20px">
+    <div class="card"><div class="card-title">LLM Model Frequency (Top 20)</div><div class="chart-box chart-box-lg" id="chart-llm-models"></div></div>
+    <div class="card"><div class="card-title">Assessment Coverage by Year</div><div class="chart-box chart-box-lg" id="chart-llm-year"></div></div>
+  </div>
+  <div class="grid grid-2">
+    <div class="card"><div class="card-title">Data Repository Distribution</div><div class="chart-box" id="chart-llm-repos"></div></div>
+  </div>
+</div>
+
+</div><!-- /main -->
+
+<div class="footer">
+  CEI Literature Vault &bull; Generated 2026-02-15 &bull; Script: generate_vault_dashboard.py
+</div>
+
+<!-- ═══ DATA & SCRIPTS ══════════════════════════════════════════════ -->
+<script>
+const DATA = {"kpi":{"total":2002,"candidates":989,"public":468,"code":18,"pluralisticPct":66,"normative":45,"normativeYes":7,"normativeBorderline":38,"authors":846,"llmModels":1578,"llmModelsPct":79,"dataUrls":1196,"totalPapers":2002},"timeline":{"2016":{"all":7,"cand":1},"2018":{"all":19,"cand":12},"2019":{"all":23,"cand":16},"2020":{"all":46,"cand":20},"2021":{"all":58,"cand":32},"2022":{"all":96,"cand":56},"2023":{"all":201,"cand":85},"2024":{"all":558,"cand":309},"2025":{"all":925,"cand":425},"2026":{"all":64,"cand":33}},"categories":[{"id":1,"name":"1. Moral Reasoning & Ethical Judgment","short":"Moral Reasoning & Ethical Judgment","count":248,"byYear":{"2018":4,"2019":1,"2020":5,"2021":3,"2022":12,"2023":25,"2024":61,"2025":129,"2026":8}},{"id":2,"name":"2. Value Alignment & Value Pluralism","short":"Value Alignment & Value Pluralism","count":197,"byYear":{"2021":3,"2022":4,"2023":17,"2024":59,"2025":103,"2026":11}},{"id":3,"name":"3. Cultural & Cross-Cultural Ethics","short":"Cultural & Cross-Cultural Ethics","count":497,"byYear":{"2018":3,"2019":6,"2020":7,"2021":4,"2022":16,"2023":41,"2024":168,"2025":233,"2026":19}},{"id":4,"name":"4. Fairness, Bias & Social Norms","short":"Fairness, Bias & Social Norms","count":448,"byYear":{"2016":1,"2018":6,"2019":8,"2020":17,"2021":18,"2022":26,"2023":45,"2024":122,"2025":190,"2026":15}},{"id":5,"name":"5. Toxicity, Hate Speech & Harmful Content","short":"Toxicity, Hate Speech & Harmful Content","count":291,"byYear":{"2018":7,"2019":10,"2020":13,"2021":18,"2022":33,"2023":27,"2024":91,"2025":86,"2026":6}},{"id":6,"name":"6. Safety & Red Teaming","short":"Safety & Red Teaming","count":242,"byYear":{"2019":1,"2021":3,"2022":10,"2023":21,"2024":80,"2025":112,"2026":15}},{"id":7,"name":"7. Domain-Specific Ethics","short":"Domain-Specific Ethics","count":161,"byYear":{"2018":3,"2019":3,"2020":3,"2021":3,"2022":8,"2023":13,"2024":46,"2025":78,"2026":4}},{"id":8,"name":"8. Normative Ethics Benchmarks","short":"Normative Ethics Benchmarks","count":57,"byYear":{"2020":3,"2021":2,"2022":2,"2023":6,"2024":16,"2025":28}},{"id":9,"name":"9. Moral Psychology Applied to AI","short":"Moral Psychology Applied to AI","count":58,"byYear":{"2018":1,"2019":1,"2020":2,"2022":3,"2023":4,"2024":17,"2025":25,"2026":5}},{"id":10,"name":"10. Helpfulness, Honesty & RLHF","short":"Helpfulness, Honesty & RLHF","count":442,"byYear":{"2018":3,"2020":1,"2021":7,"2022":18,"2023":46,"2024":146,"2025":203,"2026":18}}],"cooccurrence":[[0,47,75,103,25,51,71,54,52,128],[47,0,116,88,19,44,33,9,13,149],[75,116,0,214,110,111,67,12,20,243],[103,88,214,0,140,87,65,26,30,164],[25,19,110,140,0,88,37,1,5,66],[51,44,111,87,88,0,47,7,12,143],[71,33,67,65,37,47,0,21,18,92],[54,9,12,26,1,7,21,0,12,32],[52,13,20,30,5,12,18,12,0,23],[128,149,243,164,66,143,92,32,23,0]],"models":[{"name":"Llama","count":158,"byCategory":[41,34,94,70,26,37,26,10,14,90],"byYear":{"2022":2,"2023":11,"2024":97,"2025":48}},{"name":"BERT family","count":148,"byCategory":[13,7,66,81,86,9,17,3,3,27],"byYear":{"2019":2,"2020":11,"2021":19,"2022":25,"2023":26,"2024":52,"2025":13}},{"name":"GPT-4","count":136,"byCategory":[39,28,80,52,19,32,26,9,13,76],"byYear":{"2022":1,"2023":20,"2024":82,"2025":33}},{"name":"GPT-3.5","count":110,"byCategory":[23,20,69,54,19,23,18,8,11,51],"byYear":{"2022":1,"2023":27,"2024":71,"2025":11}},{"name":"Mistral/Mixtral","count":69,"byCategory":[16,15,45,33,14,16,8,4,6,37],"byYear":{"2023":3,"2024":44,"2025":22}},{"name":"Gemini","count":69,"byCategory":[29,14,39,24,12,17,17,7,6,39],"byYear":{"2024":36,"2025":33}},{"name":"Claude","count":62,"byCategory":[23,18,32,25,4,14,13,7,5,38],"byYear":{"2023":1,"2024":31,"2025":30}},{"name":"GPT-3","count":36,"byCategory":[6,5,20,21,11,10,5,2,2,17],"byYear":{"2021":2,"2022":4,"2023":13,"2024":14,"2025":3}},{"name":"Qwen","count":34,"byCategory":[4,13,30,12,2,9,5,2,1,21],"byYear":{"2023":1,"2024":23,"2025":10}},{"name":"Gemma","count":32,"byCategory":[6,10,25,13,7,8,4,1,1,21],"byYear":{"2024":22,"2025":10}},{"name":"Word2Vec/GloVe","count":24,"byCategory":[0,0,3,15,19,1,3,0,0,0],"byYear":{"2016":1,"2019":2,"2020":1,"2021":6,"2022":6,"2023":4,"2024":3,"2025":1}},{"name":"DeepSeek","count":21,"byCategory":[14,6,9,9,2,6,6,4,3,10],"byYear":{"2023":1,"2024":1,"2025":19}},{"name":"BLOOM","count":20,"byCategory":[2,2,13,9,3,5,1,0,0,5],"byYear":{"2023":3,"2024":14,"2025":3}},{"name":"GPT-2","count":18,"byCategory":[4,6,9,10,7,1,1,0,1,8],"byYear":{"2020":2,"2021":4,"2022":2,"2023":1,"2024":7,"2025":2}},{"name":"T5/Flan","count":15,"byCategory":[4,0,10,2,4,1,0,0,0,6],"byYear":{"2021":1,"2022":2,"2023":3,"2024":8,"2025":1}},{"name":"Vicuna","count":11,"byCategory":[1,2,6,4,4,5,0,0,0,2],"byYear":{"2023":2,"2024":5,"2025":4}},{"name":"Alpaca","count":9,"byCategory":[1,2,6,3,2,3,2,0,0,6],"byYear":{"2023":3,"2024":5,"2025":1}},{"name":"PaLM","count":9,"byCategory":[3,0,7,3,0,1,1,2,1,2],"byYear":{"2023":2,"2024":6,"2025":1}},{"name":"ChatGLM","count":8,"byCategory":[2,3,6,3,1,1,1,1,0,4],"byYear":{"2023":1,"2024":5,"2025":2}},{"name":"Falcon","count":8,"byCategory":[2,1,6,3,1,2,0,0,0,5],"byYear":{"2024":7,"2025":1}}],"methods":[{"name":"Classification task","count":276,"byCategory":[45,19,104,129,184,45,33,8,14,53]},{"name":"Human preference/comparison","count":171,"byCategory":[61,59,73,78,33,54,40,10,16,123]},{"name":"Scenario/vignette judgment","count":166,"byCategory":[114,40,55,61,13,37,42,34,26,92]},{"name":"Benchmark suite (multi-task)","count":121,"byCategory":[28,17,52,55,48,49,22,4,5,54]},{"name":"Adversarial/red-teaming","count":69,"byCategory":[15,12,32,19,28,66,13,2,2,38]},{"name":"Multi-turn dialogue","count":62,"byCategory":[14,18,27,24,14,22,12,3,2,58]},{"name":"Multiple-choice QA","count":62,"byCategory":[11,17,40,15,4,16,17,6,1,43]},{"name":"Template/probing","count":60,"byCategory":[21,18,33,36,12,9,9,3,5,27]},{"name":"Free-text generation","count":58,"byCategory":[17,16,28,34,12,12,7,3,2,25]},{"name":"Survey/questionnaire","count":56,"byCategory":[24,42,36,27,6,14,9,4,14,35]},{"name":"Crowdsourced annotation","count":43,"byCategory":[15,4,20,23,16,5,9,1,5,13]},{"name":"Game/simulation","count":33,"byCategory":[19,6,5,9,2,9,7,7,3,20]},{"name":"Likert/scale rating","count":16,"byCategory":[4,7,8,10,3,5,2,1,4,6]},{"name":"Embedding analysis","count":10,"byCategory":[2,3,3,8,2,1,0,1,1,4]}],"pluralistic":{"Yes":475,"Partial":177,"No":107},"traditions":[{"name":"Islamic","count":29,"level":"Adequate"},{"name":"Consequentialist","count":17,"level":"Adequate"},{"name":"Hindu","count":7,"level":"Moderate"},{"name":"Buddhist","count":6,"level":"Moderate"},{"name":"Indigenous","count":5,"level":"Moderate"},{"name":"Confucian","count":4,"level":"Moderate"},{"name":"Care Ethics","count":3,"level":"Severe"},{"name":"Virtue Ethics","count":2,"level":"Severe"},{"name":"Deontological","count":2,"level":"Severe"},{"name":"Ubuntu","count":0,"level":"Critical"}],"languages":[{"name":"English","count":109,"byCategory":[14,14,76,46,39,22,11,5,3,37]},{"name":"Chinese","count":71,"byCategory":[18,15,71,25,11,27,14,5,4,38]},{"name":"Arabic","count":37,"byCategory":[2,6,37,13,7,7,3,2,1,15]},{"name":"Spanish","count":31,"byCategory":[5,0,19,19,12,1,0,1,3,1]},{"name":"Korean","count":28,"byCategory":[1,4,28,15,8,5,2,1,0,13]},{"name":"German","count":24,"byCategory":[0,3,9,12,16,4,3,0,0,7]},{"name":"Russian","count":20,"byCategory":[6,2,14,8,4,2,3,2,3,5]},{"name":"Vietnamese","count":17,"byCategory":[3,2,7,6,11,3,6,0,0,4]},{"name":"Bengali","count":17,"byCategory":[0,0,5,8,10,1,0,0,0,4]},{"name":"Hindi","count":16,"byCategory":[3,0,16,3,11,3,2,1,1,2]},{"name":"Indonesian","count":16,"byCategory":[0,1,12,4,8,5,1,0,0,6]},{"name":"French","count":16,"byCategory":[3,1,12,9,6,5,1,0,1,4]},{"name":"Japanese","count":16,"byCategory":[7,2,16,9,2,3,3,0,1,9]},{"name":"Portuguese","count":15,"byCategory":[3,0,6,7,9,0,1,0,2,4]},{"name":"Italian","count":13,"byCategory":[1,1,6,10,7,2,3,0,0,3]},{"name":"Turkish","count":13,"byCategory":[0,2,6,6,9,3,0,0,0,4]},{"name":"Thai","count":10,"byCategory":[0,1,4,2,4,3,0,0,0,5]},{"name":"Dutch","count":6,"byCategory":[0,1,2,6,2,1,1,0,0,2]},{"name":"Urdu","count":4,"byCategory":[0,0,2,1,4,0,0,0,0,0]},{"name":"Swahili","count":4,"byCategory":[2,1,2,2,1,0,1,1,1,0]}],"availability":{"Public":468,"Code available":18,"Not stated":503,"Partially public":0,"Not public":0},"normative":{"yes":7,"borderline":38,"excluded":221,"frameworks":[{"name":"Consequentialism/Utilitarianism","count":27},{"name":"Deontology/Kantian","count":26},{"name":"Virtue Ethics","count":8},{"name":"Principlism","count":8},{"name":"Contractualism/Rawlsian","count":6},{"name":"Commonsense Morality","count":3},{"name":"Moral Foundations Theory","count":3},{"name":"Kohlberg's Moral Development","count":2},{"name":"Distributive Justice","count":1},{"name":"Confucian Ethics","count":1},{"name":"Social Choice Theory","count":1}],"papers":[{"filename":"2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md","frameworks":"Deontology, virtue ethics, consequentialism (three branches of normative ethics ","llms":"GPT-4, ChatGPT, Llama2-Chat-70B","artifact":"Ethical dilemmas and policies from three normative ethics branches, tested acros"},{"filename":"2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md","frameworks":"Utilitarianism (Utilitarian Sum), Contractualism (Nash Product/Nash Social Welfa","llms":"GPT-4 and additional LLMs (referenced in supplementary mater","artifact":"Systematically generated value aggregation scenarios (Focused set: 162 disagreem"},{"filename":"2024-retrieved-Cross-Linguistic Moral Preferences in LLMs - Evidence from.md","frameworks":"Distributive justice (Rawlsian/egalitarian frameworks), with domain persona inte","llms":"LLMs tested cross-linguistically (specifics not available in","artifact":"1,201,200 observations across ten professional domains testing distributive just"},{"filename":"2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md","frameworks":"Principlism (Beauchamp & Childress): Autonomy, Non-Maleficence, Beneficence, Jus","llms":"Multiple LLMs including frontier closed-source models and me","artifact":"PrinciplismQA - 3,648 questions (MCQ from textbooks + open-ended from case study"},{"filename":"2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md","frameworks":"Deontology, virtue ethics, justice, commonsense morality (from ETHICS dataset); ","llms":"9 open-weight LLMs (LLaMA-2-7B, LLaMA-3-8B, Mistral-7B, etc.","artifact":"BEHAVIORBENCH: 1,001 moral scenarios across 10 datasets including ETHICS (justic"},{"filename":"2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md","frameworks":"Utilitarianism, Deontology (role-based obligations + prima facie duty), Virtue E","llms":"GPT-4o, plus multiple non-proprietary Japanese LLMs","artifact":"JETHICS: 78K Japanese moral examples across 5 categories (Utilitarianism, Deonto"},{"filename":"2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards.md","frameworks":"Deontological Ethics (Kant, duty-based norms like conditional cooperation), Util","llms":"Gemma2-2b-it fine-tuned with RL using intrinsic moral reward","artifact":"Iterated Prisoner's Dilemma (IPD) environment with moral reward functions encodi"}]},"resources":[{"filename":"2026-Dang-RedBench","year":2026,"benchmark":"RedBench","what":"LLM safety robustness against adversarial prompts across 22 risk categories and ","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2026-Goel-Building Interpretable Models for Moral Decision-Making","year":2026,"benchmark":"Interpretable Moral Machine Transformer","what":"How neural networks encode and process moral decision-making on trolley-style di","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2026-Guey-BiasLab Multilingual Dual-Framing Framework","year":2026,"benchmark":"BiasLab","what":"Output-level (extrinsic) bias in LLMs across demographic, cultural, political, a","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale","year":2026,"benchmark":"GVS-Scale / GVS-Bench","what":"GenAI value safety across lifecycle-oriented taxonomy of value safety risks; eva","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2026-Jin-MedES Chinese Medical Ethics Scenarios","year":2026,"benchmark":"MedES","what":"Medical ethics alignment of LLMs in Chinese healthcare contexts including clinic","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks","year":2026,"benchmark":"Theory Trace Card (TTC)","what":"Proposes a documentation standard for socio-cognitive evaluations of LLMs includ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2026-Lee-BiasJailbreak","year":2026,"benchmark":"BiasJailbreak","what":"Ethical biases in LLMs that can be exploited for jailbreaking; differential safe","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2026-Shen-PsychEthicsBench","year":2026,"benchmark":"PsychEthicsBench","what":"Ethical knowledge and behavioral responses of LLMs in mental health contexts bas","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP","year":2025,"benchmark":"Swahili Sociolinguistic Diversity Benchmark","what":"Sociolinguistic diversity in Swahili NLP, evaluating model fairness across triba","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Abdul-Mageed-Where Are We Evaluating LLM Performance","year":2025,"benchmark":"SAHARA","what":"LLM performance across 517 African languages covering 16 NLP tasks compiled from","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in","year":2025,"benchmark":"Unnamed (WVS-based cultural value adaptation evaluation)","what":"Cultural value adaptation in LLMs: whether WVS-based training captures cultural ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-ADL Center for Technology and Society Daniel Kelley-Generating Hate Anti-Jewish and Anti-Israel Bias","year":2025,"benchmark":"ADL Anti-Jewish/Anti-Israel LLM Bias Evaluation","what":"Anti-Jewish and anti-Israel bias in major LLMs across 6 categories: bias against","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Ajwad Abrar-Religious Bias Landscape in Language and","year":2025,"benchmark":"Religious Bias Evaluation Framework","what":"Religious bias in language models and text-to-image generation models across ope","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large","year":2025,"benchmark":"SHADES","what":"Culturally-specific stereotypes in LLMs across 20 regions and 16 languages, span","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large","year":2025,"benchmark":"SHADES","what":"Culturally-specific stereotypes in LLMs across 20 regions and 16 languages, with","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...","year":2025,"benchmark":"SHADES","what":"Culturally-specific stereotypes learned by LLMs across 37 regions and 16 languag","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic","year":2025,"benchmark":"AraTrust","what":"Trustworthiness of LLMs in Arabic across 9 dimensions: truthfulness, ethics, saf","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs","year":2025,"benchmark":"BRoverbs","what":"LLM understanding of Brazilian Portuguese proverbs, encapsulating cultural wisdo","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Alwajih-Palm","year":2025,"benchmark":"PALM","what":"Cultural sensitivity and inclusivity of LLMs across all 22 Arab countries in bot","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One","year":2025,"benchmark":"Arabic Gender Bias Word Lists (WEAT/Direct Bias adapted for ","what":"Gender bias in Arabic text via word embeddings, examining occupational stereotyp","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Andriushchenko-AgentHarm","year":2025,"benchmark":"AgentHarm","what":"Harmfulness of LLM agents: compliance with malicious requests across 11 harm cat","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2025-Asgari-I Am Aligned But With Whom","year":2025,"benchmark":"MENAValues","what":"Cultural alignment of LLMs with MENA region values, using population-level surve","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Ashkinaze-Deep Value Benchmark","year":2025,"benchmark":"Deep Value Benchmark (DVB)","what":"Whether LLMs learn fundamental human values (e.g., non-maleficence, justice) or ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource","year":2025,"benchmark":"ProverbEval","what":"LLM understanding of cultural proverbs in low-resource Ethiopian languages (4 Et","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Backmann-When Ethics and Payoffs Diverge","year":2025,"benchmark":"MORALSIM","what":"LLM moral behavior in social dilemmas where moral imperatives conflict with rewa","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Bae-CharMoral","year":2025,"benchmark":"CharMoral","what":"Moral evolution and dynamic morality of characters in long-form narratives: acti","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Bai-Explicitly unbiased large language models still form biased","year":2025,"benchmark":"LLM Word Association Test (LLM-WAT) / LLM Relative Decision ","what":"Implicit biases in value-aligned LLMs across 4 social categories (race, gender, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Banerjee-SafeInfer","year":2025,"benchmark":"HarmEval","what":"LLM safety: potential misuse scenarios aligned with policies of leading AI tech ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2025-Bar-DharmaBench Evaluating Language Models on Buddhist","year":2025,"benchmark":"DharmaBench","what":"Language model capabilities on Buddhist texts in Sanskrit and Tibetan, with 13 c","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection","year":2025,"benchmark":"Dutch Counterfactual Fairness Framework","what":"Counterfactual fairness of hate speech detection models in Dutch, examining whet","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Becker-The Moralization Corpus","year":2025,"benchmark":"Moralization Corpus","what":"Detection and extraction of moralizations (arguments invoking moral values) in a","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Bouchard-How to Assess Your LLM Use Case for Bias and","year":2025,"benchmark":"LangFair","what":"Bias and fairness in LLM outputs: toxicity, stereotypes, and counterfactual fair","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and","year":2025,"benchmark":"QIAS 2025","what":"LLM reasoning in Islamic jurisprudence: inheritance share calculation (Subtask 1","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Bulla-Large Language Models meet moral values","year":2025,"benchmark":"Unnamed (MFT-based LLM moral evaluation)","what":"LLM ability to detect and classify moral values based on Moral Foundations Theor","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Castricato-PERSONA Pluralistic Alignment Testbed","year":2025,"benchmark":"PERSONA / PERSONA Bench","what":"Pluralistic alignment of LLMs with diverse user values across demographic and id","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values","year":2025,"benchmark":"MoVa","what":"Classification of human morals and values across four theoretically-grounded fra","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment","year":2025,"benchmark":"SPICA","what":"Pluralistic in-context alignment: whether LLMs can steer toward group-level valu","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Cheng-ELEPHANT Social Sycophancy","year":2025,"benchmark":"ELEPHANT","what":"Social sycophancy in LLMs: excessive preservation of user's face (desired self-i","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Chiu-CulturalBench","year":2025,"benchmark":"CulturalBench","what":"LLM cultural knowledge across 45 global regions and 17 topics including food pre","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Chiu-MoReBench","year":2025,"benchmark":"MoReBench / MoReBench-Theory","what":"Procedural and pluralistic moral reasoning in LLMs: identifying moral considerat","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Chiu-Will AI Tell Lies to Save Sick Children","year":2025,"benchmark":"LITMUSVALUES / AIRISKDILEMMAS","what":"AI value prioritization and its connection to risky behaviors (e.g., power seeki","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Chua-RabakBench","year":2025,"benchmark":"RabakBench","what":"Multilingual safety of LLMs in Singapore's linguistic context: Singlish, Chinese","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical","year":2025,"benchmark":"SFF (Syntactic Framing Fragility)","what":"Robustness of LLM ethical judgments to syntactic variations (negation and condit","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al.","year":2025,"benchmark":"RMP (Reward Model Perspectives)","what":"Sociodemographic biases in reward models; alignment of RM opinions with differen","category":"Value Alignment & Value Pluralism","availability":"Code available","url":""},{"filename":"2025-Fan-FAIRMT-BENCH","year":2025,"benchmark":"FairMT-Bench","what":"Fairness in LLMs during multi-turn dialogues; bias accumulation, stereotype reco","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Ghosh-AEGIS 2.0","year":2025,"benchmark":"AEGIS 2.0","what":"AI content safety across 12 hazard categories with 9 fine-grained subcategories ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2025-Group-AILuminate","year":2025,"benchmark":"AILuminate v1.0","what":"AI system resistance to prompts eliciting dangerous/illegal/undesirable behavior","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness","year":2025,"benchmark":"CARE","what":"Cultural awareness of LLMs through multilingual human preference alignment","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Helwe-Navigating the Political Compass Multilingual 50 Countries","year":2025,"benchmark":"Political Compass Test for LLMs (PCT + 8 Values)","what":"Political and ideological biases in LLMs across 50 countries using the Political","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models","year":2025,"benchmark":"JudiFair","what":"Judicial fairness of LLMs across 65 labels and 161 values; inconsistency, bias, ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors","year":2025,"benchmark":"DeceptionBench","what":"Deceptive tendencies in LLMs across societal domains (Economy, Healthcare, Educa","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2025-Huang-On the Trustworthiness of Generative Foundation","year":2025,"benchmark":"TrustGen","what":"Trustworthiness of generative foundation models across multiple dimensions: trut","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Ji-PKU-SafeRLHF","year":2025,"benchmark":"PKU-SafeRLHF","what":"Safety alignment in LLMs - helpfulness vs harmlessness tradeoff across 19 harm c","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling","year":2025,"benchmark":"EMNLP (Educator-role Moral and Normative LLMs Profiling)","what":"Moral development stages, personality profiling, and ethical risk of LLMs in edu","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment","year":2025,"benchmark":"Delphi / DelphiHYBRID","what":"Machine moral judgment - ability to predict human moral judgments about everyday","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Jiao-LLM Ethics Benchmark","year":2025,"benchmark":"LLM Ethics Benchmark","what":"Moral reasoning capabilities across foundational moral principles, reasoning rob","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements","year":2025,"benchmark":"SpeciesismBench","what":"Speciesist bias in LLMs - recognition and moral evaluation of speciesist stateme","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Jotautaitė-Speciesism in AI","year":2025,"benchmark":"SpeciesismBench","what":"Speciesist bias and moral evaluation of non-human animals in LLMs across three p","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Jourdan-FairTranslate","year":2025,"benchmark":"FairTranslate","what":"Non-binary gender bias in machine translation systems from English to French - i","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Kasu-EthicsMH","year":2025,"benchmark":"EthicsMH (Ethical Reasoning in Mental Health)","what":"Ethical reasoning in mental health contexts - confidentiality, autonomy, benefic","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Khan-Randomness Not Representation The Unreliability of Evaluating","year":2025,"benchmark":"Unnamed (Cultural Alignment Robustness Evaluation)","what":"Reliability of survey-based cultural alignment evaluations of LLMs - tests stabi","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Laukkonen-Contemplative Artificial Intelligence","year":2025,"benchmark":"Unnamed (Contemplative AI evaluation using AILuminate Benchm","what":"Ethical alignment improvement through contemplative wisdom principles - evaluate","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Leteno-Histoires Morales","year":2025,"benchmark":"Histoires Morales","what":"Moral alignment of LLMs in French language; whether models align with moral norm","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese","year":2025,"benchmark":"LiveSecBench","what":"Chinese LLM safety across five dimensions: Public Safety, Fairness & Bias, Priva","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Li-SafetyAnalyst","year":2025,"benchmark":"SafetyAnalyst (duplicate entry)","what":"AI behavior safety through interpretable harm-benefit analysis with steerable sa","category":"Safety & Red Teaming","availability":"Code available","url":""},{"filename":"2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety","year":2025,"benchmark":"SafetyAnalyst","what":"AI behavior safety through interpretable harm-benefit analysis; whether AI actio","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2025-Li-T2ISafety","year":2025,"benchmark":"T2ISafety","what":"Safety of text-to-image models across toxicity, fairness/racial bias, and privac","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Lin-MORALISE","year":2025,"benchmark":"MORALISE","what":"Visual moral alignment in Vision-Language Models; ability to detect moral violat","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Liu-Can LLMs Grasp Implicit Cultural Values","year":2025,"benchmark":"CQ-Bench (duplicate entry)","what":"LLMs' metacognitive cultural intelligence and ability to infer implicit cultural","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Liu-PersuSafety LLM Can be a Dangerous Persuader","year":2025,"benchmark":"PersuSafety","what":"Persuasion safety of LLMs; whether models reject unethical persuasion tasks and ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Code available","url":""},{"filename":"2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics","year":2025,"benchmark":"EthicsSuite","what":"Behavioral inconsistency in LLM ethics-related suggestions; detects unethical bi","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Machlovi-GuardEval","year":2025,"benchmark":"GuardEval","what":"LLM content moderation safety, fairness, and robustness across 106 fine-grained ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Mitchell-SHADES","year":2025,"benchmark":"SHADES","what":"Culturally-specific stereotypes learned by LLMs across 20 regions and 16 languag","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language","year":2025,"benchmark":"Cultural Moral Judgment Evaluation (WVS/PEW-based)","what":"Whether LLMs mirror cultural variations in moral attitudes from World Values Sur","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2025-Myung-PapersPlease","year":2025,"benchmark":"PapersPlease","what":"LLM decision-making in moral dilemmas involving prioritization of human needs (E","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Nair-Do Language Models Think Consistently","year":2025,"benchmark":"Value Preference Consistency Evaluation","what":"Consistency of LLM value preferences between short-form psychometric tests and l","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Narnaware-SB-Bench","year":2025,"benchmark":"SB-Bench (Stereotype Bias Benchmark) / BBQ-V","what":"Stereotype biases in Large Multimodal Models (LMMs) across 9 social categories u","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts","year":2025,"benchmark":"INDIC-BIAS","what":"Fairness of LLMs across 85 Indian identity groups encompassing diverse castes, r","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Pandey-SocialHarmBench","year":2025,"benchmark":"SocialHarmBench","what":"LLM vulnerability to harmful compliance in sociopolitical domains including poli","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Pourbahman-ELAB","year":2025,"benchmark":"ELAB (Extensive LLM Alignment Benchmark)","what":"Alignment of Persian LLMs with safety, fairness, and social norms in Persian lin","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making","year":2025,"benchmark":"CCD-Bench","what":"LLM decision-making under cross-cultural value conflict; how LLMs adjudicate whe","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and","year":2025,"benchmark":"Moral Anchor System (MAS)","what":"Value drift in AI agents — detects, predicts, and mitigates deviation from human","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Raza-HumaniBench","year":2025,"benchmark":"HumaniBench","what":"Alignment of Large Multimodal Models with human-centered values: fairness, ethic","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas","year":2025,"benchmark":"AITA Moral Dilemmas Evaluation","what":"LLM moral judgment on everyday ethical dilemmas (blame assignment, moral reasoni","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Saffari-Can I introduce my boyfriend to my grandmother","year":2025,"benchmark":"ISN (Iranian Social Norms)","what":"LLM understanding of Iranian social norms and cultural etiquette","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Samway-Are Language Models Consequentialist or Deontological","year":2025,"benchmark":"MORALLENS","what":"Whether LLM moral reasoning is consequentialist or deontological across trolley-","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian","year":2025,"benchmark":"IndiCASA","what":"Stereotypical bias in LLMs across Indian demographic axes (caste, gender, religi","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Schacht-Mapping Moral Reasoning Circuits","year":2025,"benchmark":"Moral Reasoning Circuits Dataset","what":"Mechanistic localization of moral reasoning neurons across six Moral Foundations","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Shen-ValueActionLens Mind the Value-Action Gap","year":2025,"benchmark":"ValueActionLens","what":"Value-action gap: discrepancy between LLMs' stated values and their actual value","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment","year":2025,"benchmark":"ValueCompass","what":"Contextual value alignment between humans and LLMs across countries and applicat","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Shetty-VITAL","year":2025,"benchmark":"VITAL","what":"Pluralistic value alignment in healthcare contexts","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for","year":2025,"benchmark":"RoleConflictBench","what":"LLM contextual sensitivity in social dilemmas involving role conflicts (competin","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial","year":2025,"benchmark":"ManagerBench","what":"Safety-pragmatism trade-off in LLM autonomous agent decision-making (choosing be","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Snoswell-Beyond Verdicts LLM Moral Competence","year":2025,"benchmark":"LLM Moral Competence Taxonomy (survey-based)","what":"Surveys and categorizes 69 LLM ethical evaluation papers (2020-2025), proposing ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Sorensen-Operationalizing Pluralistic Values","year":2025,"benchmark":"Pluralistic Values Alignment Study","what":"Trade-offs between safety, inclusivity, and model behavior when incorporating pl","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Sun-CASE-Bench","year":2025,"benchmark":"CASE-Bench","what":"Context-aware safety evaluation of LLMs","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2025-Takeshita-JETHICS","year":2025,"benchmark":"JETHICS","what":"Japanese ethics understanding evaluation","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Tennant-Moral Alignment for LLM Agents","year":2025,"benchmark":"Moral Alignment IPD Framework","what":"Moral alignment of LLM agents using deontological and utilitarian reward functio","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2025-Trager-MFTCXplain","year":2025,"benchmark":"MFTCXplain","what":"Moral reasoning capabilities of LLMs through hate speech multi-hop explanations ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Wang-Measuring Desired Group Discrimination in LLMs","year":2025,"benchmark":"DiffAware Benchmark Suite","what":"Desired group discrimination / difference awareness in LLMs -- when treating gro","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Wang-Multimodal Understanding of Human Values in Videos","year":2025,"benchmark":"TikTok Values Dataset","what":"Human values expressed in TikTok videos using Schwartz Theory of Personal Values","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Wei-MedEthicsQA","year":2025,"benchmark":"MedEthicsQA","what":"Medical ethics reasoning in LLMs","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Wen-Evaluating Implicit Bias in Large Language Models","year":2025,"benchmark":"BUMBLE (Bias Understanding Measurement Benchmark for LLM Eva","what":"Implicit bias in LLMs toward demographic groups, elicited through psychometric a","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social","year":2025,"benchmark":"LLM Agent Cooperation (IPD Evolutionary Simulation)","what":"Cooperative tendencies and strategic biases of LLM agent systems in social dilem","category":"Fairness, Bias & Social Norms","availability":"Code available","url":""},{"filename":"2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas","year":2025,"benchmark":"Multi-step Moral Dilemmas (MMDs)","what":"Evolving moral judgments and value priorities of LLMs across escalating ethical ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Xia-SafeToolBench","year":2025,"benchmark":"SafeToolBench","what":"Safety of LLM tool utilization in prospective manner (before tool execution)","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Xiang-Comparing Moral Values in Western","year":2025,"benchmark":"LLM Moral Word Association Framework","what":"Implicit moral values in LLMs compared to Western English-speaking communities u","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal","year":2025,"benchmark":"SORRY-Bench","what":"LLM safety refusal behavior across fine-grained unsafe topics including ethical ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2025-Yao-Value Compass Benchmarks","year":2025,"benchmark":"Value Compass Benchmarks","what":"LLM values across 27 value dimensions (expanded from Schwartz Basic Human Values","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Ye-Large Language Model Psychometrics","year":2025,"benchmark":"LLM Psychometrics Framework (survey/meta-analysis)","what":"Personality, values, and intelligence of LLMs using psychometric instruments","category":"Value Alignment & Value Pluralism","availability":"Code available","url":""},{"filename":"2025-Yuan-Probabilistic Aggregation and Targeted Embedding","year":2025,"benchmark":"Probabilistic Aggregation for Collective Moral Reasoning","what":"Moral reasoning consistency and alignment across multiple LLMs; aggregates conti","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2025-Yuan-S-Eval","year":2025,"benchmark":"S-Eval","what":"LLM safety across 8 risk dimensions and 102 subdivided risks including ethical v","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large","year":2025,"benchmark":"Large-scale Moral Machine Experiment on LLMs","what":"Moral decision-making alignment between LLMs and human moral preferences in trol","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2025-Zhang-AISafetyLab","year":2025,"benchmark":"AISafetyLab","what":"AI safety through integrated attack, defense, and evaluation methodologies","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2025-Zhang-LLMEval-Med Medical Safety & Ethics Component","year":2025,"benchmark":"LLMEval-Med (Safety & Ethics Component)","what":"Medical LLM safety and ethics alongside medical knowledge, language understandin","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Zhang-REVAL","year":2025,"benchmark":"REVAL","what":"Reliability (truthfulness, robustness) and Values (ethics, safety, privacy) of L","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized","year":2025,"benchmark":"Fair-PP","what":"Personalized preferences targeting social equity across 28 social groups, 98 equ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2025-Zhou-Moral Reasoning Across Languages","year":2025,"benchmark":"Multilingual Moral Reasoning Benchmark (MMRB)","what":"Moral reasoning abilities of LLMs across five typologically diverse languages in","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models","year":2025,"benchmark":"SocialEval","what":"Social intelligence of LLMs including prosociality and social behavior in naviga","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Zhu-EAVIT","year":2025,"benchmark":"EAVIT (Efficient and Accurate Value Identification from Text","what":"Human value identification from text data using Schwartz value theory","category":"Value Alignment & Value Pluralism","availability":"Code available","url":""},{"filename":"2025-Zhu-TrolleyBench","year":2025,"benchmark":"TrolleyBench (duplicate entry)","what":"Ethical consistency and moral reasoning in LLMs using trolley-problem dilemmas","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in","year":2025,"benchmark":"TrolleyBench","what":"Ethical consistency and moral reasoning in LLMs using trolley-problem-style mora","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2025-Zohny-ADEPT Simulating Ethics","year":2025,"benchmark":"ADEPT (AI Debate Ethics Panel Tool)","what":"Multi-perspective ethical deliberation in LLMs; how panel composition of ethical","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models","year":2024,"benchmark":"Turkish LLM Leaderboard (TruthfulQA-TR, ARC-TR)","what":"Turkish LLM performance on reasoning and knowledge tasks including truthfulness ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-AI-Religious Bias Benchmarks for ChatGPT","year":2024,"benchmark":"Religious Bias Benchmarks for ChatGPT","what":"Religious bias in ChatGPT across five belief systems (Zen Buddhism, Catholicism,","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-AlKhamissi-Investigating Cultural Alignment of LLMs","year":2024,"benchmark":"Cultural Alignment Survey Replication / Anthropological Prom","what":"Cultural alignment of LLMs with Egyptian and US cultural values, measured throug","category":"Value Alignment & Value Pluralism","availability":"Code available","url":"https://github.com/bkhmsi/cultural-trends.git"},{"filename":"2024-Arshad-Understanding hate speech","year":2024,"benchmark":"HateInsights","what":"Hate speech detection with explainability in Urdu; model plausibility and faithf","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation","year":2024,"benchmark":"Arabic Safety Evaluation Dataset","what":"LLM safety in the Arab region, covering direct attacks, indirect attacks, and ha","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024","year":2024,"benchmark":"TextDetox / PAN 2024","what":"Multilingual text detoxification (transforming toxic text to non-toxic) across 9","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with","year":2024,"benchmark":"K-Viscuit","what":"Vision-language model understanding of Korean cultural concepts through visual r","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in","year":2024,"benchmark":"Belebele","what":"Machine reading comprehension across 122 language variants including many low-re","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Bang-BLEnD A Benchmark for LLMs on","year":2024,"benchmark":"BLEnD","what":"LLM knowledge of everyday cultural practices across 16 countries/regions in 13 l","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian","year":2024,"benchmark":"ParsBench","what":"LLM performance on diverse Persian language tasks.","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-Bhardwaj-Language Models are Homer Simpson! Safety","year":2024,"benchmark":"Multilingual Safety Benchmark (RESTA)","what":"LLM safety after fine-tuning compromise; harmfulness across 11 safety categories","category":"Cultural & Cross-Cultural Ethics","availability":"Code available","url":"https://github.com/declare-lab/resta"},{"filename":"2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes","year":2024,"benchmark":"SeeGULL Multilingual","what":"Geo-culturally situated stereotypes across 20 languages with human annotations i","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Bonagiri-SaGE","year":2024,"benchmark":"SaGE / Moral Consistency Corpus (MCC)","what":"Moral consistency of LLM generations using information-theoretic measure based o","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://github.com/vnnm404/SaGE"},{"filename":"2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating","year":2024,"benchmark":"FrenchToxicityPrompts","what":"Toxicity in French text generation by LLMs across six attributes (toxicity, seve","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Burema-Evaluating Dutch Social Bias in Large Language Models","year":2024,"benchmark":"Dutch Social Bias Evaluation (Master's thesis)","what":"Social bias (gender and country of origin) in Dutch-language LLM outputs.","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Buyl-Large Language Models Reflect the Ideology of","year":2024,"benchmark":"LLM Ideology Analysis","what":"Ideological and normative positions of LLMs from different geopolitical regions;","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for","year":2024,"benchmark":"C3Bench","what":"Classical Chinese understanding capabilities of LLMs across 5 CCU tasks (classif","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance","year":2024,"benchmark":"MMLU-Clinical-African, Winogrande-African","what":"LLM performance in 8 low-resource African languages with cultural appropriatenes","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Chao-JBB-Behaviours","year":2024,"benchmark":"JailbreakBench / JBB-Behaviors","what":"LLM robustness against jailbreak attacks across 100 harmful/unethical behaviors ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Chaves-Napolab The Natural Portuguese Language Benchmark","year":2024,"benchmark":"Napolab","what":"LLM performance on natural Portuguese language tasks with translations in Catala","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU","year":2024,"benchmark":"TMLU (Taiwanese Mandarin Language Understanding)","what":"Advanced knowledge and reasoning capability of LLMs in Taiwanese Mandarin contex","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Chern-BeHonest","year":2024,"benchmark":"BeHonest","what":"Honesty in LLMs: awareness of knowledge boundaries, avoidance of deceit, and con","category":"Value Alignment & Value Pluralism","availability":"Public","url":"https://github.com/GAIR-NLP/BeHonest"},{"filename":"2024-Chiu-DailyDilemmas","year":2024,"benchmark":"DailyDilemmas","what":"LLM value preferences when navigating everyday moral dilemmas, analyzed through ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Choi-CaLMQA Exploring culturally specific long-form question","year":2024,"benchmark":"CaLMQA","what":"LLM ability to generate long-form answers to culturally specific questions acros","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora","year":2024,"benchmark":"GuyLingo","what":"Machine translation capability between English and Guyanese Creole (Creolese).","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-community-Open Leaderboard for Hebrew LLMs","year":2024,"benchmark":"Hebrew LLM Leaderboard","what":"Hebrew LLM performance on QA, Sentiment Analysis, Winograd Schema Challenge, and","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation","year":2024,"benchmark":"BELLS","what":"LLM safeguard effectiveness across failure modes including harmful behavior, adv","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://github.com/CentreSecuriteIA/BELLS"},{"filename":"2024-Dou-SailCompass Towards Reproducible and Robust Evaluation","year":2024,"benchmark":"SailCompass","what":"LLM performance on Southeast Asian languages across 8 primary tasks with 14 data","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of","year":2024,"benchmark":"SEB (Scandinavian Embedding Benchmark)","what":"Text embedding quality across Scandinavian languages (Danish, Norwegian, Swedish","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque","year":2024,"benchmark":"Latxa Evaluation Suite (EusProficiency, EusReading, EusTrivi","what":"LLM capabilities in Basque language including proficiency, reading comprehension","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and","year":2024,"benchmark":"DialectBench","what":"NLP system performance on non-standard dialects and language varieties across 28","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for","year":2024,"benchmark":"BenCzechMark (BCM)","what":"Comprehensive Czech language understanding across 50 tasks in 8 categories with ","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model","year":2024,"benchmark":"FrenchBench","what":"French LLM performance including French cultural knowledge, classification, and ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian","year":2024,"benchmark":"MERA (ruEthics subtask)","what":"Russian-language LLM evaluation including ruEthics subtask measuring models' und","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://mera.a-ai.ru/en"},{"filename":"2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning","year":2024,"benchmark":"OffTheRails","what":"Moral permissibility and intention judgments in trolley-problem-style dilemmas (","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge","year":2024,"benchmark":"GFG (Gender-Fair Generation) Challenge","what":"Recognition and generation of gender-fair language in Italian, including detecti","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic","year":2024,"benchmark":"M-ALERT","what":"LLM safety across 5 European languages covering crime, hate speech, substance ab","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Gaikwad-MoralBench A Multi-Faceted Benchmark for Ethical and Safety Alignment","year":2024,"benchmark":"MoralBench (Gaikwad)","what":"Ethical reasoning, safety alignment, and socially sensitive dialogue generation ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Garcia-Open Portuguese LLM Leaderboard","year":2024,"benchmark":"Open Portuguese LLM Leaderboard","what":"LLM performance across various Portuguese language tasks and datasets.","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-Ghosh-AEGIS","year":2024,"benchmark":"AEGIS Safety Dataset","what":"Content safety risks across 13 critical risk categories and 9 sparse risk catego","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs","year":2024,"benchmark":"ITA-Bench","what":"Italian LLM capabilities across 10 benchmarks including TruthfulQA for safety/tr","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Group-The AI Safety Benchmark","year":2024,"benchmark":"AI Safety Benchmark v0.5 (MLCommons)","what":"Safety risks of chat-tuned LLMs across 13 hazard categories including harmful co","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Guldimann-COMPL-AI EU AI Act Compliance","year":2024,"benchmark":"COMPL-AI","what":"EU AI Act compliance of LLMs across six ethical principles: robustness, safety, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":"https://github.com/compl-ai/compl-ai"},{"filename":"2024-Gupta-WalledEval","year":2024,"benchmark":"WalledEval (including SGXSTest and HIXSTest)","what":"AI safety across 35+ benchmarks covering multilingual safety, exaggerated safety","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://github.com/walledai/walledeval"},{"filename":"2024-Han-MedSafetyBench","year":2024,"benchmark":"MedSafetyBench","what":"Medical safety of LLMs based on AMA Principles of Medical Ethics (beneficence, n","category":"Safety & Red Teaming","availability":"Public","url":"https://github.com/AI4LIFE-GROUP/med-safety-bench"},{"filename":"2024-Hancox-Li-Is ETHICS about ethics","year":2024,"benchmark":"Unnamed (critique of ETHICS benchmark)","what":"Validity of the ETHICS benchmark for testing genuine ethical capabilities of LLM","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values","year":2024,"benchmark":"VIVA","what":"Vision-language models' capacity to leverage human values for decision-making in","category":"Value Alignment & Value Pluralism","availability":"Public","url":"https://github.com/Derekkk/VIVA_EMNLP24"},{"filename":"2024-Huang-CBBQ","year":2024,"benchmark":"CBBQ (Chinese Bias Benchmark for QA)","what":"Societal biases of LLMs across 14 social dimensions related to Chinese culture a","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":"https://anonymous.4open.science/r/CBBQ-B860/"},{"filename":"2024-Huang-Collective Constitutional AI Aligning a Language Model with Public","year":2024,"benchmark":"Collective Constitutional AI (CCAI)","what":"Value alignment of LLMs using collectively-sourced public principles; evaluates ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Huang-Moral Persuasion in Large Language Models","year":2024,"benchmark":"Unnamed (Moral Persuasion Evaluation)","what":"LLM susceptibility to moral persuasion across ethical frameworks (utilitarian, d","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":"https://github.com/acyhuang/moral-persuasion"},{"filename":"2024-Huang-TrustLLM","year":2024,"benchmark":"TrustLLM","what":"LLM trustworthiness across 8 dimensions: truthfulness, safety, fairness, robustn","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian","year":2024,"benchmark":"CALAMITA","what":"Comprehensive Italian LLM abilities across 22 challenges and ~100 subtasks inclu","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Jain-PolygloToxicityPrompts","year":2024,"benchmark":"PolygloToxicityPrompts (PTP)","what":"Multilingual toxicity generation in LLMs across 17 languages","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Ji-MoralBench","year":2024,"benchmark":"MoralBench","what":"Moral identity and moral reasoning capabilities of LLMs across ethical dilemmas ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Jiang-Can Language Models Reason about Individualistic","year":2024,"benchmark":"IndieValueCatalog","what":"Individualistic value reasoning - whether LLMs can predict a specific individual","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Jiang-WildTeaming at Scale","year":2024,"benchmark":"WildJailbreak","what":"LLM safety and jailbreak resistance; adversarial robustness against real-world a","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Jin-Language Model Alignment in Multilingual Trolley","year":2024,"benchmark":"MultiTP","what":"Cross-lingual moral alignment of LLMs via trolley problems; preferences across 6","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://github.com/causalNLP/moralmachine"},{"filename":"2024-Kaiyom-HELM Safety","year":2024,"benchmark":"HELM Safety v1.0","what":"Comprehensive LLM safety across risk categories: violence, fraud, discrimination","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":"https://github.com/stanford-crfm/helm"},{"filename":"2024-Kaneko-Eagle","year":2024,"benchmark":"Eagle","what":"Ethical problems in LLM interactions: social bias, opinion bias, toxic language,","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://huggingface.co/datasets/MasahiroKaneko/eagle"},{"filename":"2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs","year":2024,"benchmark":"Indian-BhED","what":"India-centric stereotypical biases in LLMs, specifically caste and religious ste","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Kirgis-Differences in Moral Foundations of LLMs","year":2024,"benchmark":"Unnamed (MFT-based LLM Moral Foundations evaluation)","what":"Moral foundations of LLMs (care, fairness, loyalty, authority, sanctity, liberty","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":"https://github.com/peterkirgis/llm-moral-foundations"},{"filename":"2024-Kirk-The PRISM Alignment Project","year":2024,"benchmark":"PRISM","what":"Subjective and multicultural LLM alignment on value-laden topics","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Lee-KorNAT","year":2024,"benchmark":"KorNAT","what":"National alignment with South Korean social values and common knowledge","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Li-Benchmarking Ethics in Text-to-Image Models","year":2024,"benchmark":"T2IEthics","what":"Ethical dimensions of text-to-image (T2I) models: fairness (race, age, gender), ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across","year":2024,"benchmark":"Language Ranker","what":"Quantifies LLM performance disparities across diverse languages, with focus on l","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and","year":2024,"benchmark":"OpenEval","what":"Chinese LLM capability, alignment (bias, offensiveness, illegalness), and safety","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Li-SALAD-Bench","year":2024,"benchmark":"SALAD-Bench","what":"LLM safety across hierarchical taxonomy spanning three levels; evaluates LLMs, a","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":"https://github.com/OpenSafetyLab/SALAD-BENCH"},{"filename":"2024-Li-The WMDP Benchmark","year":2024,"benchmark":"WMDP (Weapons of Mass Destruction Proxy)","what":"Hazardous knowledge in LLMs related to biosecurity, cybersecurity, and chemical ","category":"Safety & Red Teaming","availability":"Public","url":"https://wmdp.ai"},{"filename":"2024-Li-Value-Spectrum","year":2024,"benchmark":"Value-Spectrum","what":"Value preferences of Vision-Language Models (VLMs) based on Schwartz's value dim","category":"Value Alignment & Value Pluralism","availability":"Public","url":"https://github.com/Jeremyyny/Value-Spectrum"},{"filename":"2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language","year":2024,"benchmark":"Hebrew Offensive Language Taxonomy Dataset","what":"Categorizes offensive language in Hebrew social media using a taxonomy with seve","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation","year":2024,"benchmark":"MAPS (MulticulturAl Proverbs and Sayings)","what":"Evaluates multilingual LLMs' ability to reason with proverbs and sayings across ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models","year":2024,"benchmark":"Cultural Bias and Alignment Evaluation (WVS/EVS-based)","what":"Evaluates cultural bias in LLMs using World Values Survey and European Values St","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Liu-CultureAtlas","year":2024,"benchmark":"CultureAtlas","what":"Cross-cultural knowledge and cultural commonsense in LLMs, covering 1000+ sub-co","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Liu-JAILJUDGE","year":2024,"benchmark":"JAILJUDGE","what":"LLM safety against jailbreak attacks across synthetic, adversarial, in-the-wild,","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark","year":2024,"benchmark":"NLEBench","what":"Comprehensive benchmark for evaluating generative language models in Norwegian, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of","year":2024,"benchmark":"ENEM-based LLM Evaluation","what":"Evaluates LLM performance on Brazil's national standardized exam (ENEM) across M","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese","year":2024,"benchmark":"CALAME-PT","what":"First Portuguese zero-shot language-modeling benchmark, inspired by LAMBADA, eva","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on","year":2024,"benchmark":"ViTHSD","what":"Targeted hate speech detection in Vietnamese social media, categorizing hate by ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub","year":2024,"benchmark":"SEACrowd","what":"Comprehensive data hub and benchmark suite evaluating AI models on Southeast Asi","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented","year":2024,"benchmark":"VedantaNY-10M","what":"Evaluates RAG-augmented LLMs for long-form question answering on Hindu Advaita V","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in","year":2024,"benchmark":"AL-QASIDA","what":"Comprehensively assesses LLMs' Dialectal Arabic modeling capabilities across fou","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge","year":2024,"benchmark":"RO-Offense","what":"Detects offensive language in Romanian across four categories: Profanity (13%), ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models","year":2024,"benchmark":"Kazakh LLM Evaluation Suite","what":"Evaluates LLM capabilities on Kazakh language tasks across QA, causal reasoning,","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Mazeika-HarmBench","year":2024,"benchmark":"HarmBench","what":"LLM robustness against automated red teaming attacks designed to elicit harmful ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled","year":2024,"benchmark":"Quranic Audio Dataset","what":"Quality of Quranic recitation by non-Arabic speakers, enabling AI pronunciation ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages","year":2024,"benchmark":"MEGAVERSE","what":"Non-English capabilities of LLMs across 83 languages using 22 datasets covering ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Miðeind-IcelandicEval Utilities to generate Icelandic evaluation data sets","year":2024,"benchmark":"IcelandicEval","what":"LLM performance on Icelandic linguistic tasks including word inflection and gram","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-MLCommons-MLCommons AILuminate Benchmark","year":2024,"benchmark":"AILuminate v1.0","what":"AI system resistance to prompts designed to elicit dangerous, illegal, or undesi","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for","year":2024,"benchmark":"Kalahi","what":"LLM cultural competence for Filipino values and knowledge, testing whether model","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Mou-SGBench","year":2024,"benchmark":"SG-Bench","what":"LLM safety generalization across diverse tasks and prompt types (discriminative ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs","year":2024,"benchmark":"AraDiCE / AraDiCE-Culture","what":"Arabic dialect comprehension and region-wise cultural knowledge across Gulf, Egy","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of","year":2024,"benchmark":"Persian Offensive Language Corpus","what":"Offensive language in Persian social media, enabling safety evaluation for a low","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and","year":2024,"benchmark":"EAI (Emotional AI Framework)","what":"Emotional impact on LLM ethical decision-making in strategic games and ethical d","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Multiple Data in Brief-MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset","year":2024,"benchmark":"MASAQ","what":"Morphological and syntactic structure of the entire Quran, providing comprehensi","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding","year":2024,"benchmark":"CulturalVQA","what":"Vision Language Models' geo-diverse cultural understanding across 11 countries, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in","year":2024,"benchmark":"MBBQ (Multilingual Bias Benchmark for Question-answering)","what":"Cross-lingual stereotypes and social biases in LLMs across Dutch, Spanish, Turki","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in","year":2024,"benchmark":"SGHateCheck","what":"Hate speech detection capability in Singapore's multicultural linguistic context","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified","year":2024,"benchmark":"ViHateT5 / VOZ-HSD","what":"Vietnamese hate speech detection, offensive language identification, and hate sp","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large","year":2024,"benchmark":"ViLLM-Eval","what":"Advanced knowledge and reasoning abilities of LLMs within a Vietnamese context, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Obi-Value Imprint","year":2024,"benchmark":"Value Imprint","what":"Human values embedded within RLHF datasets used for LLM alignment, using a taxon","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Ohashi-Extended Japanese Commonsense Morality Dataset","year":2024,"benchmark":"eJCM (Extended Japanese Commonsense Morality)","what":"Japanese commonsense morality classification, including culturally-specific mora","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering","year":2024,"benchmark":"AfriMed-QA","what":"LLM medical knowledge and accuracy across 32 specialties sourced from 60+ medica","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages","year":2024,"benchmark":"SMUGRI-MTBENCH","what":"LLM capabilities for extremely low-resource Finno-Ugric languages (Voro, Livonia","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-Organizers-DIALECT-COPA Choice of Plausible Alternatives Datasets in South","year":2024,"benchmark":"DIALECT-COPA","what":"Causal commonsense reasoning in South Slavic dialects: Slovenian Cerkno, Croatia","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Overfit-GM-Turkish Overfit-GM Toxic Language Dataset","year":2024,"benchmark":"Turkish Toxic Language Dataset (Overfit-GM)","what":"Toxicity in Turkish language content for content moderation and safety evaluatio","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean","year":2024,"benchmark":"Ko-H5 / Open Ko-LLM Leaderboard","what":"Korean LLM capabilities across five tasks: Ko-MMLU, Ko-HellaSwag, Ko-ARC, Ko-Tru","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Park-Pragmatic Competence Evaluation of Large Language Models for the","year":2024,"benchmark":"Korean Pragmatic Competence Evaluation","what":"LLMs' pragmatic competence for Korean language, testing understanding of context","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Pfister-SuperGLEBer German Language Understanding Evaluation Benchmark","year":2024,"benchmark":"SuperGLEBer","what":"German natural language understanding across 29 tasks including toxic/offensive ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Piatti-Cooperate or Collapse","year":2024,"benchmark":"GovSim (Governance of the Commons Simulation)","what":"LLM cooperative decision-making, ethical reasoning, strategic planning, and abil","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine","year":2024,"benchmark":"GEST (Gender Stereotypes)","what":"Measures gender-stereotypical reasoning in language models and machine translati","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Pistilli-CIVICS","year":2024,"benchmark":"CIVICS (Culturally-Informed and Values-Inclusive Corpus for ","what":"Cultural and social value variation in LLMs across languages, nations, and sensi","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in","year":2024,"benchmark":"CIVICS (Culturally-Informed & Values-Inclusive Corpus for So","what":"Evaluates social and cultural variation of LLMs across multiple languages and va","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Porkaew-Representing the Under-Represented Cultural and Core","year":2024,"benchmark":"ThaiCLI (Thai Cultural and Linguistic Intelligence) and Thai","what":"Assesses LLM alignment with Thai cultural norms, values, ethical standards, and ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-project-DharmicData Comprehensive Open-Source Collection of Hindu","year":2024,"benchmark":"DharmicData","what":"Provides structured Hindu sacred text corpus (Vedas, epics, Gita) suitable as tr","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language","year":2024,"benchmark":"Polish Cyberbullying Dataset","what":"Measures cyberbullying and hate speech detection capabilities in Polish language","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study","year":2024,"benchmark":"ID-CSQA (Indonesian Culturally-relevant Commonsense QA)","what":"Evaluates whether LLMs can generate culturally relevant commonsense QA datasets ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and","year":2024,"benchmark":"CamelEval","what":"Evaluates Arabic LLMs on general instruction following, factuality, and cultural","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Qiu-ProgressGym","year":2024,"benchmark":"ProgressGym","what":"LLM ability to track evolving moral values, anticipate moral progress, and regul","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ","year":2024,"benchmark":"VLEMCQ (Vietnamese Law and Ethics Multiple-Choice Questions)","what":"Tests knowledge of Vietnamese law, ethics, and social responsibility through mul","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and","year":2024,"benchmark":"Cross-Cultural Social Norms Dataset","what":"Measures cross-cultural social norms related to shame and pride expressed in Bol","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset","year":2024,"benchmark":"SOLD (Sinhala Offensive Language Dataset)","what":"Measures offensive language and hate speech detection capabilities in Sinhala, t","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Rehm-Investigating Gender Bias in Turkish Language","year":2024,"benchmark":"Turkish Gender Bias Dataset","what":"Measures gender bias and ethnic bias (toward Kurdish people) in Turkish language","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Ren-Safetywashing","year":2024,"benchmark":"Safetywashing Meta-Analysis","what":"Correlation between AI safety benchmarks and general capabilities/compute, ident","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Ren-ValueBench","year":2024,"benchmark":"ValueBench","what":"Value orientations and value understanding in LLMs using established psychometri","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question","year":2024,"benchmark":"SEA-VQA","what":"Evaluates VQA models on culturally-specific Southeast Asian content from UNESCO ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages","year":2024,"benchmark":"EthioBenchmark","what":"NLP capabilities for Ethiopian languages including sentiment analysis, NER, and ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional","year":2024,"benchmark":"INCLUDE","what":"Evaluates multilingual LLMs on authentic regional and cultural knowledge across ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering","year":2024,"benchmark":"CVQA","what":"Evaluates cultural capability and bias in AI models through visual cultural know","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety","year":2024,"benchmark":"SafetyPrompts","what":"Comprehensive catalogue of LLM safety evaluation datasets covering bias, toxicit","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Rozado-The Political Preferences of LLMs","year":2024,"benchmark":"Political Orientation Test Battery","what":"Political preferences and biases embedded in LLMs across multiple ideological di","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation","year":2024,"benchmark":"Global Representation Evaluation","what":"Impact of LLM alignment (RLHF/DPO) on global representation across English diale","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Röttger-Political Compass or Spinning Arrow","year":2024,"benchmark":"Political Compass Test (PCT) evaluation framework","what":"Values and opinions in LLMs via the Political Compass Test, examining robustness","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Röttger-XSTest","year":2024,"benchmark":"XSTest","what":"Exaggerated safety behaviors (over-refusals) in LLMs, measuring the safety-helpf","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2024-Sadhu-Social Bias in Large Language Models","year":2024,"benchmark":"Bangla Social Bias Benchmark","what":"Measures gender and religious bias in LLM-generated outputs for Bangla language,","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Saffari-PSN","year":2024,"benchmark":"ISN (Iranian Social Norms)","what":"LLM comprehension of Iranian social norms, testing cross-cultural understanding ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark","year":2024,"benchmark":"Kazakh Dastur-MC","what":"Evaluates knowledge of Kazakh traditions (dastur = customs/traditions) including","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context","year":2024,"benchmark":"IndiBias","what":"Social biases in LLMs within the Indian cultural context across gender, religion","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian","year":2024,"benchmark":"IndicCONAN","what":"Provides counter-narratives against hate speech in Hindi and Indian English for ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Sang-CDEval A Benchmark for Measuring the","year":2024,"benchmark":"CDEval","what":"Measures cultural dimensions of LLMs using Hofstede's framework across six dimen","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification","year":2024,"benchmark":"DETESTS-Dis","what":"Detects and classifies explicit and implicit racial stereotypes in Spanish socia","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding","year":2024,"benchmark":"TurkishMMLU","what":"Evaluates LLMs' understanding of Turkish language and cultural knowledge across ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity","year":2024,"benchmark":"Scruples (DILEMMAS and ANECDOTES)","what":"LLM calibration on morally ambiguous scenarios, comparing model probability dist","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical","year":2024,"benchmark":"DOSA (Dataset of Social Artifacts)","what":"Evaluates LLMs on cultural knowledge of Indian social artifacts spanning food, c","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna","year":2024,"benchmark":"Ethiopian Gender Bias MT Benchmark","what":"Evaluates gender bias in machine translation for three low-resource Ethiopian la","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In","year":2024,"benchmark":"Bilingual YouTube Hate Speech Dataset","what":"Measures hate speech detection capabilities across English and German YouTube co","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Sharma-Towards Understanding Sycophancy in Language Models","year":2024,"benchmark":"Sycophancy Evaluation","what":"Sycophancy behavior in AI assistants - tendency to match user beliefs over truth","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards","year":2024,"benchmark":"CultureBank","what":"Evaluates LLMs' cultural awareness using a knowledge base of 23K cultural descri","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate","year":2024,"benchmark":"IndicGenBench","what":"Evaluates LLMs on generation tasks across 29 Indic languages covering 13 scripts","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Singhal-AyaRedTeaming","year":2024,"benchmark":"AyaRedTeaming","what":"Multilingual safety alignment distinguishing global harms (universal across cult","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models","year":2024,"benchmark":"HAE-RAE Bench","what":"Evaluates Korean-specific knowledge across vocabulary, history, general knowledg","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean","year":2024,"benchmark":"KMMLU","what":"Evaluates massive multitask language understanding in Korean with 20.4% of quest","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do","year":2024,"benchmark":"KUDGE","what":"Evaluates LLM-as-a-Judge capabilities in Korean, measuring ability to detect fac","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge","year":2024,"benchmark":"MM-Eval","what":"Evaluates whether LLM-based evaluators can reliably assess non-English outputs, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Sorensen-A Roadmap to Pluralistic Alignment","year":2024,"benchmark":"Pluralistic Alignment Benchmark Framework","what":"Pluralism in AI value alignment - whether models can represent diverse values (O","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Sorensen-Value Kaleidoscope","year":2024,"benchmark":"ValuePrism / Value Kaleidoscope (Kaleido)","what":"Pluralistic human values, rights, and duties in context; ability to model value ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Souly-StrongREJECT","year":2024,"benchmark":"StrongREJECT","what":"Jailbreak effectiveness and LLM safety robustness; measures whether jailbreak at","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and","year":2024,"benchmark":"IndoToxic2024","what":"Measures hate speech and toxicity classification in Indonesian language with foc","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Takemoto-The moral machine experiment on large language","year":2024,"benchmark":"Moral Machine Experiment for LLMs","what":"Ethical decision-making tendencies of LLMs on trolley-problem-style autonomous v","category":"Moral Reasoning & Ethical Judgment","availability":"Code available","url":""},{"filename":"2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model","year":2024,"benchmark":"TMMLU+","what":"Evaluates LLM understanding of Traditional Chinese language across 66 subjects f","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Team-FABLE Fairness and Bias in LLM Evaluation","year":2024,"benchmark":"FACT-OR-FAIR","what":"Fairness and bias in LLMs, distinguishing between factual correctness and normat","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Team-GuardBench","year":2024,"benchmark":"GuardBench","what":"Safety of guardrail models (input-output filters) for LLMs, measuring ability to","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-team-Indic-Bias A Comprehensive Benchmark for Fairness","year":2024,"benchmark":"Indic-Bias","what":"Fairness of LLMs across 85 Indian identity groups, focusing on bias and stereoty","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate","year":2024,"benchmark":"Indic-Bias","what":"LLM fairness in Indian contexts across multiple Indic languages, evaluating bias","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-team-IndicLLMSuite A Blueprint for Creating Pre-training","year":2024,"benchmark":"IndicAlign-Toxic","what":"Safety alignment of Indic LLMs via toxic prompt handling across 14 Indian langua","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models","year":2024,"benchmark":"SeaLLMs 3 Safety Evaluation","what":"Safety of LLMs for Southeast Asian languages, measuring safe response rates acro","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Team-WildGuard","year":2024,"benchmark":"WildGuard / WildGuardMix / WildGuardTest","what":"LLM safety across 13 risk categories: malicious intent detection, safety risk de","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Tharnpipitchai-Typhoon 2 A Family of Open","year":2024,"benchmark":"Typhoon2-Safety / Thai Sensitive Topic Test Set","what":"Detects Thai-sensitive content including culturally specific safety concerns, wi","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of","year":2024,"benchmark":"MixCuBe","what":"Evaluates cultural awareness of multimodal LLMs in cultural mixture contexts acr","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark","year":2024,"benchmark":"Chinese SafetyQA","what":"LLM factuality in safety-critical domains including law, policy, and ethics in C","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in","year":2024,"benchmark":"Spanish Hate Speech Superset","what":"Evaluates cultural bias in hate speech datasets by leveraging language and geogr","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of","year":2024,"benchmark":"HateDay","what":"Evaluates hate speech detection in a globally representative setting across 8 la","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Tonneau-Turkish Hate Speech Superset Dataset","year":2024,"benchmark":"Turkish Hate Speech Superset","what":"Provides a consolidated dataset for hate speech detection in Turkish by aggregat","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Toygar-Turkish Offensive Language Detection Dataset","year":2024,"benchmark":"Turkish Offensive Language Detection Dataset","what":"Offensive language detection in Turkish social media content.","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian","year":2024,"benchmark":"OLID-BR","what":"Multi-task offensive language identification in Brazilian Portuguese, covering o","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation","year":2024,"benchmark":"URA-LLaMa Evaluation Suite / Vietnamese LLM Benchmark","what":"Comprehensive Vietnamese LLM evaluation covering accuracy, robustness, fairness,","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Unknown-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding","year":2024,"benchmark":"CulturalVQA","what":"Vision-language models' understanding of geo-diverse cultural elements including","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Unknown-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images","year":2024,"benchmark":"Seeing Culture Benchmark (SCB)","what":"VLMs' ability to reason about culturally rich images from Southeast Asia, coveri","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Unknown-WoNBias A Complete Bengali Gender Bias Dataset","year":2024,"benchmark":"WoNBias","what":"Gender-based biases, stereotypes, and harmful language against women in Bengali ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2024-Velankar-SamPar A Marathi Hate Speech Dataset","year":2024,"benchmark":"SamPar / L3Cube-MahaHate","what":"Hate speech targeting LGBTQ+ community in Marathi, specifically homophobia and t","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Voukoutis-Meltemi The first open Large Language Model for Greek","year":2024,"benchmark":"Meltemi Greek Benchmark Suite","what":"Greek language LLM capabilities across knowledge, reasoning, truthfulness, and s","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wang-All Languages Matter","year":2024,"benchmark":"XSafety","what":"Multilingual safety of LLMs across 14 safety issues in 10 languages","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wang-All Languages Matter On the Multilingual Safety of Large Language","year":2024,"benchmark":"XSafety","what":"Multilingual safety of LLMs across 14 safety issue types in 10 languages.","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wang-Do-Not-Answer","year":2024,"benchmark":"Do-Not-Answer","what":"Safeguards in LLMs -- evaluates ability to refuse responding to dangerous/harmfu","category":"Safety & Red Teaming","availability":"Public","url":"https://github.com/Libr-AI/do-not-answer"},{"filename":"2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean","year":2024,"benchmark":"KULTURE Bench","what":"Korean cultural comprehension and reasoning in LLMs at word, sentence, and parag","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wang-XSafety Multilingual Safety Benchmark","year":2024,"benchmark":"XSafety (GitHub repository)","what":"Multilingual safety of LLMs across 14 safety categories in 10 languages.","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances","year":2024,"benchmark":"COPAL-ID","what":"Indonesian common sense reasoning incorporating local cultural nuances, includin","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding","year":2024,"benchmark":"AC-EVAL","what":"LLMs' understanding of ancient Chinese across historical knowledge, short text u","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Wu-WorldValuesBench","year":2024,"benchmark":"WorldValuesBench","what":"Multi-cultural value awareness of language models across diverse global demograp","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios","year":2024,"benchmark":"RTP-LX","what":"Multilingual toxicity evaluation across 28 languages with culturally-specific to","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Xie-CultureLLM Incorporating Cultural Differences into Large","year":2024,"benchmark":"CultureLLM / WVS-based Cultural Evaluation","what":"Cultural bias and alignment of LLMs across 9 cultures using World Values Survey ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language","year":2024,"benchmark":"Multilingual Human Value Concepts Evaluation","what":"Consistency, transferability, and controllability of human value alignment acros","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Yan-M$^3$oralBench","year":2024,"benchmark":"M3oralBench","what":"Multimodal moral understanding and reasoning of large vision-language models acr","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Yanaka-JBBQ","year":2024,"benchmark":"JBBQ (Japanese Bias Benchmark for Question Answering)","what":"Social biases in Japanese LLMs (same benchmark as the companion paper)","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":"https://github.com/ynklab/JBBQ_data"},{"filename":"2024-Yin-SafeAgentBench","year":2024,"benchmark":"SafeAgentBench","what":"Safety awareness of embodied LLM agents in interactive simulation environments, ","category":"Safety & Red Teaming","availability":"Public","url":"https://github.com/shengyin1224/SafeAgentBench"},{"filename":"2024-Yin-SafeWorld Geo-Diverse Safety Alignment","year":2024,"benchmark":"SafeWorld","what":"LLMs' ability to generate responses that are culturally and legally appropriate ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Yu-CMoralEval","year":2024,"benchmark":"CMoralEval","what":"Moral alignment of Chinese LLMs across Chinese-specific moral norms (familial, s","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2024-Yuan-R-Judge","year":2024,"benchmark":"R-Judge","what":"Behavioral safety risk awareness of LLM agents in interactive environments acros","category":"Safety & Red Teaming","availability":"Public","url":"https://github.com/Lordog/R-Judge"},{"filename":"2024-Yuan-Social Measuring Social Norms of LLMs","year":2024,"benchmark":"Social (Social Norms Dataset)","what":"LLMs' understanding of social norms covering opinions, arguments, culture, and l","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":"https://github.com/socialnormdataset/socialagent"},{"filename":"2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate","year":2024,"benchmark":"Phate","what":"Multi-label hate speech detection in Persian with targeted group identification ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2024-Zeng-AIR-Bench 2024","year":2024,"benchmark":"AIR-Bench 2024","what":"AI safety aligned with government regulations and company policies across 314 gr","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural","year":2024,"benchmark":"LLM-GLOBE","what":"Cultural values embedded in LLM output using the GLOBE cultural psychology frame","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents","year":2024,"benchmark":"Agent-SafetyBench","what":"Safety of LLM agents across 8 categories of safety risks and 10 common failure m","category":"Safety & Red Teaming","availability":"Public","url":"https://github.com/thu-coai/Agent-SafetyBench"},{"filename":"2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs","year":2024,"benchmark":"ChineseSafe","what":"Content safety of LLMs in Chinese contexts across 4 classes and 10 sub-classes i","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Zhang-CHiSafetyBench","year":2024,"benchmark":"CHiSafetyBench","what":"Chinese-language safety: risky content identification and refusal to answer risk","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in","year":2024,"benchmark":"MM-Eval","what":"LLM capabilities in Modern Mongolian across language abilities (syntax and seman","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2024-Zhang-SafetyBench","year":2024,"benchmark":"SafetyBench","what":"LLM safety across 7 categories (offense, ethics, physical harm, etc.) in Chinese","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2024-Zhang-ValueDCG","year":2024,"benchmark":"ValueDCG","what":"LLMs' comprehensive understanding of human values, distinguishing 'know what' (s","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via","year":2024,"benchmark":"ALI-Agent","what":"LLM alignment with human values across stereotypes, morality, and legality","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-[[Unknown]]-NEHATE Large-Scale Annotated Data Shedding Light","year":2023,"benchmark":"NEHATE","what":"Hate speech in Nepali political discourse, with target sub-categorization into c","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2023-Aroyo-DICES Dataset","year":2023,"benchmark":"DICES (Diversity In Conversational AI Evaluation for Safety)","what":"Safety evaluation of conversational AI with demographic diversity - how safety p","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Ayele-Amharic Hate Speech Dataset","year":2023,"benchmark":"Amharic Hate Speech Dataset","what":"Hate speech detection in Amharic (Ethiopian language) - identifying hateful cont","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for","year":2023,"benchmark":"RED-EVAL / CategoricalQA / HarmfulQA","what":"LLM safety alignment through red-teaming, measuring vulnerability to harmful con","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Bosco-Detecting Racial Stereotypes An Italian Social Media Corpus where","year":2023,"benchmark":"LiLaH Italian Racial Stereotypes Corpus","what":"Racial stereotypes against immigrants, refugees, and African/Muslim communities ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for","year":2023,"benchmark":"KoTox","what":"Korean toxic instruction-output pairs for ethical tuning of LLMs, covering polit","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-Dai-Safe RLHF","year":2023,"benchmark":"BeaverTails (used) / Safe RLHF evaluation","what":"Helpfulness vs. harmlessness trade-off in LLM responses; safety alignment measur","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender","year":2023,"benchmark":"BIBED (Bengali Identity Bias Evaluation Dataset)","what":"Cultural bias in NLP systems along Bengali-specific identity dimensions: gender ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Duan-Denevil","year":2023,"benchmark":"MoralPrompt (via DeNEVIL)","what":"Intrinsic ethical values of LLMs from a moral philosophy perspective; value comp","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://valuecompass.github.io"},{"filename":"2023-Durmus-Towards Measuring the Representation of","year":2023,"benchmark":"GlobalOpinionQA","what":"Representation of subjective global opinions in LLMs; whose values/opinions LLM ","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation","year":2023,"benchmark":"Finnish Toxicity Detection Dataset (Jigsaw-Finnish + Suomi24","what":"Toxicity detection in Finnish social media, including machine-translated Jigsaw ","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2023-Fischer-What does ChatGPT return about human values","year":2023,"benchmark":"Unnamed (Schwartz Value Theory probes for ChatGPT)","what":"Value biases in ChatGPT using Schwartz's Basic Value Theory; tests if LLM output","category":"Value Alignment & Value Pluralism","availability":"Public","url":"https://osf.io/w46nq/"},{"filename":"2023-Fleisig-FairPrism","year":2023,"benchmark":"FairPrism","what":"Fairness-related harms in AI text generation: stereotyping and demeaning harms r","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Hamad-Offensive Hebrew Corpus and Detection using BERT","year":2023,"benchmark":"Offensive Hebrew Corpus","what":"Offensive language in Hebrew Twitter posts across five classes: abusive, hate, v","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and","year":2023,"benchmark":"POLD (Pashto Offensive Language Dataset)","what":"Offensive language detection in Pashto social media tweets, providing the first ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese","year":2023,"benchmark":"ViHOS (Vietnamese Hate and Offensive Spans)","what":"Hate speech span detection in Vietnamese online comments, identifying exact span","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Huang-AceGPT Localizing Large Language Models in Arabic","year":2023,"benchmark":"ACVA (Arabic Cultural Value Alignment)","what":"Arabic cultural and value alignment in LLMs, measuring whether models understand","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-Huang-Flames","year":2023,"benchmark":"FLAMES","what":"Value alignment of LLMs in Chinese; covers harmlessness, safety, fairness, and a","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":"https://github.com/AIFlames/Flames"},{"filename":"2023-Ji-BeaverTails","year":2023,"benchmark":"BeaverTails","what":"Safety alignment in LLMs; separates helpfulness and harmlessness annotations for","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2023-Jiang-MACHIAVELLI","year":2023,"benchmark":"MACHIAVELLI","what":"Ethical behavior in AI agents; measures trade-offs between reward maximization a","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for","year":2023,"benchmark":"AfriQA","what":"Cross-lingual open-retrieval question answering ability for African languages, t","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content","year":2023,"benchmark":"BAN-PL","what":"Harmful and offensive content detection in Polish social media, classifying post","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A","year":2023,"benchmark":"IndoMMLU","what":"Multi-task language understanding for Indonesian culture and languages, covering","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks","year":2023,"benchmark":"GermanBenchmark","what":"LLM performance on reasoning, knowledge, common-sense understanding, and truthfu","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large","year":2023,"benchmark":"KoSBi","what":"Social bias risks in Korean LLM applications, covering 72 demographic groups in ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable","year":2023,"benchmark":"SQuARe","what":"LLM ability to handle sensitive questions acceptably in Korean, covering content","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Lin-ToxicChat","year":2023,"benchmark":"ToxicChat","what":"Toxicity in real-world user-AI conversations; nuanced toxic phenomena distinct f","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Liu-AlignBench","year":2023,"benchmark":"AlignBench","what":"Chinese LLM alignment across multiple dimensions including reasoning, language u","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech","year":2023,"benchmark":"HateM","what":"Hate speech detection in Malay language, providing the first benchmark dataset f","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2023-Miah-Islam QA","year":2023,"benchmark":"Islam QA Dataset","what":"QA system performance on Islamic religious texts (Quranic Tafsir and Ahadith), i","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Mougan-Kantian Deontology Meets AI Alignment","year":2023,"benchmark":"Unnamed","what":"Ethical grounding of AI fairness metrics, analyzing whether existing fairness me","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Munn-The Five Tests Designing and Evaluating","year":2023,"benchmark":"The Five Tests (Maori AI evaluation framework)","what":"AI system evaluation from an Indigenous Maori perspective, using five tests deri","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Nie-MoCa","year":2023,"benchmark":"MoCa","what":"Human-LLM alignment on causal and moral judgment tasks, testing factors like nor","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Oslo-NorBench A Benchmark for Norwegian Language Models","year":2023,"benchmark":"NorBench","what":"Norwegian language model capabilities including gender bias and toxic language a","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with","year":2023,"benchmark":"K-HATERS","what":"Hate speech detection in Korean with target-specific offensiveness ratings acros","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Qian-Understanding Chinese Moral Stories with Further","year":2023,"benchmark":"STORAL-ZH","what":"AI model ability to understand moral concepts embedded in Chinese narrative stor","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models","year":2023,"benchmark":"Cultural Moral Norms Probing Framework","what":"Whether monolingual English LLMs encode knowledge about moral norms across 55 co","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Rao-What Makes it Ok to Set a Fire Iterative","year":2023,"benchmark":"delta-Rules-of-Thumb (delta-RoT)","what":"Defeasible moral reasoning - context-dependent moral acceptability of actions wi","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Santurkar-Whose Opinions Do Language Models Reflect","year":2023,"benchmark":"OpinionQA","what":"Alignment of LLM opinions with 60 US demographic groups across topics ranging fr","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs","year":2023,"benchmark":"MoralChoice","what":"Moral beliefs encoded in LLMs, measuring consistency and uncertainty of moral ch","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Shen-“Do Anything Now”","year":2023,"benchmark":"JailbreakHub","what":"LLM vulnerability to jailbreak attacks across 13 forbidden scenarios (safety/eth","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2023-Soemer-Antisemitic Messages A Guide to High-Quality","year":2023,"benchmark":"ISCA Antisemitism Detection Dataset","what":"Antisemitism detection on Twitter using the IHRA definition, requiring annotator","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Susanto-BHASA A Holistic Southeast Asian Linguistic","year":2023,"benchmark":"BHASA","what":"LLM linguistic and cultural understanding for Southeast Asian languages, includi","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense","year":2023,"benchmark":"JCommonsenseMorality","what":"Commonsense morality understanding from a Japanese cultural perspective, disting","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-team-SeaLLMs Large Language Models for Southeast","year":2023,"benchmark":"SeaRefuse","what":"LLM safety and ability to refuse questions beyond knowledge boundaries in Southe","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-University-Antisemitism on Twitter A Dataset for","year":2023,"benchmark":"ISCA Antisemitism Twitter Dataset (Zenodo)","what":"Antisemitism on Twitter, with tweets classified based on the IHRA definition of ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models","year":2023,"benchmark":"DUMB","what":"Dutch language model capabilities across 9 NLP tasks including abusive language ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2023-Wang-DecodingTrust","year":2023,"benchmark":"DecodingTrust","what":"Comprehensive trustworthiness of GPT models across 8 dimensions: toxicity, stere","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual","year":2023,"benchmark":"SeaEval","what":"Multilingual foundation model capabilities including cultural practices, nuances","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Wang-STREAM","year":2023,"benchmark":"STREAM","what":"AI model alignment with dynamically evolving human moral values through collecti","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2023-Xu-CValues","year":2023,"benchmark":"CValues","what":"Chinese LLM alignment with human values across safety (10 scenarios) and respons","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-Xu-SC-Safety","year":2023,"benchmark":"SuperCLUE-Safety (SC-Safety)","what":"Safety of Chinese LLMs across 20+ safety sub-dimensions including ethical violat","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2023-Yao-Value FULCRA","year":2023,"benchmark":"FULCRA","what":"LLM behavior alignment with Schwartz's Theory of Basic Human Values; maps LLM ou","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2023-Ziems-NormBank","year":2023,"benchmark":"NormBank","what":"Situational social norms grounded in sociocultural frames (setting, roles, attri","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based","year":2022,"benchmark":"MAHADDAT","what":"Detection of fabricated (Mawdu) Hadith using textual content (Matn) analysis rat","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Atwell-Challenging the Transformer-based Models with a","year":2022,"benchmark":"Quran-Hadith Relatedness Dataset","what":"Semantic relatedness between Quran verses and Hadith teachings in Classical Arab","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Bai-Training a Helpful and Harmless Assistant with","year":2022,"benchmark":"HH-RLHF (Helpful and Harmless RLHF Dataset)","what":"Helpfulness and harmlessness of language model assistants via human preference c","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource","year":2022,"benchmark":"BLUB (Bangla Language Understanding Benchmark)","what":"Bangla NLU across four tasks: text classification, sequence labeling, span predi","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus","year":2022,"benchmark":"NaijaSenti","what":"Sentiment analysis in four Nigerian languages: Hausa, Igbo, Nigerian-Pidgin, and","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language","year":2022,"benchmark":"DravidianCodeMix","what":"Sentiment analysis and offensive language identification in code-mixed Dravidian","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis","year":2022,"benchmark":"HeBERT / HebEMO / HebrewSentiment","what":"Hebrew sentiment polarity (positive/negative/neutral) and 8 emotion categories i","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection","year":2022,"benchmark":"HateCheckHIn","what":"Functional evaluation of Hindi hate speech detection models, extending the Engli","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task","year":2022,"benchmark":"RUSSE Detox 2022","what":"Russian text detoxification: rewriting toxic text into neutral text while preser","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Demus-DeTox A Comprehensive Dataset for German Offensive Language and","year":2022,"benchmark":"DeTox","what":"German offensive language across 12 annotation categories including toxicity, cr","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Ganguli-Red Teaming Language Models to Reduce Harms","year":2022,"benchmark":"Anthropic Red Team Dataset","what":"Harmful outputs of language models including offensive language, unethical outpu","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text","year":2022,"benchmark":"HATE-ITA","what":"Hate speech detection in Italian social media text covering misogyny and anti-im","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Hartvigsen-ToxiGen","year":2022,"benchmark":"ToxiGen","what":"Implicit and explicit toxicity toward 13 minority demographic groups; model abil","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Hendrycks-What Would Jiminy Cricket Do","year":2022,"benchmark":"Jiminy Cricket","what":"Moral behavior of AI agents in semantically rich environments; whether agents ca","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media","year":2022,"benchmark":"CrisisHateMM","what":"Multimodal hate speech detection during the Russia-Ukraine conflict, analyzing d","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Jeong-KOLD Korean Offensive Language Dataset","year":2022,"benchmark":"KOLD (Korean Offensive Language Dataset)","what":"Korean offensive language with hierarchical annotation of type and target, using","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction","year":2022,"benchmark":"Visual Commonsense Immorality Benchmark","what":"Visual commonsense immorality - predicting whether images depict morally problem","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Jiang-Can Machines Learn Morality","year":2022,"benchmark":"Commonsense Norm Bank / Delphi","what":"Commonsense moral judgments across diverse social situations - whether actions a","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets","year":2022,"benchmark":"L3Cube-MahaNLP (MahaCorpus, MahaSent, MahaNER, MahaHate, Mah","what":"Marathi NLP across sentiment analysis, NER, and hate speech detection tasks.","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Kim-ProsocialDialog","year":2022,"benchmark":"ProsocialDialog","what":"Dialogue safety and prosocial response generation - ability of agents to respond","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Kulkarni-Semantic and Sentiment Analysis of Selected","year":2022,"benchmark":"Bhagavad Gita Sentiment Dataset","what":"Verse-by-verse sentiment analysis of Bhagavad Gita translations, examining how s","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Liang-Holistic Evaluation of Language Models","year":2022,"benchmark":"HELM (Holistic Evaluation of Language Models)","what":"Comprehensive LM evaluation including fairness, bias, toxicity alongside accurac","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators","year":2022,"benchmark":"Sanadset 650K","what":"Hadith narrator chain (Sanad) evaluation for authentication (Strong/Weak classif","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social","year":2022,"benchmark":"French CrowS-Pairs","what":"Social bias in French masked language models across 10 bias categories including","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Parrish-BBQ","year":2022,"benchmark":"BBQ (Bias Benchmark for QA)","what":"Social biases in QA models against protected classes along 9 social dimensions i","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Parrish-BBQ Bias Benchmark for Question Answering","year":2022,"benchmark":"BBQ (Bias Benchmark for QA)","what":"Social biases in QA models against protected classes across 9 social dimensions ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Qiu-ValueNet","year":2022,"benchmark":"ValueNet","what":"Human values across 10 Schwartz-based value dimensions in text scenarios, for va","category":"Value Alignment & Value Pluralism","availability":"Public","url":"https://liang-qiu.github.io/ValueNet/"},{"filename":"2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate","year":2022,"benchmark":"BD-SHS (Bangla Diverse Hate Speech)","what":"Hate speech detection in Bangla social media across different social contexts, w","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Röttger-Multilingual HateCheck","year":2022,"benchmark":"Multilingual HateCheck (MHC)","what":"Hate speech detection model capabilities across 10 languages via functional test","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language","year":2022,"benchmark":"Kurdish Hate Speech Dataset","what":"Hate speech detection in Kurdish (Sorani) language Facebook comments covering to","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Schramowski-I2P Inappropriate Image Prompts Test Bed","year":2022,"benchmark":"I2P (Inappropriate Image Prompts) / Q16","what":"Inappropriate content in image datasets and image generation models - offensive,","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case","year":2022,"benchmark":"NLP Fairness for India","what":"Fairness and social bias in NLP systems in the Indian context, covering caste, r","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding","year":2022,"benchmark":"TAPE (Text Attack and Perturbation Evaluation)","what":"Few-shot Russian language understanding covering six complex NLU tasks including","category":"Safety & Red Teaming","availability":"Public","url":""},{"filename":"2022-Trager-The Moral Foundations Reddit Corpus","year":2022,"benchmark":"MFRC (Moral Foundations Reddit Corpus)","what":"Moral sentiment in text based on updated Moral Foundations Theory - 8 categories","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2022-Unknown-Addressing Religious Hate Online From Taxonomy","year":2022,"benchmark":"Religious Hate Speech Dataset","what":"Religious hate speech detection covering the three main monotheistic religions (","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram","year":2022,"benchmark":"HateBR","what":"Hate speech and offensive language in Brazilian Portuguese Instagram comments fr","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain","year":2022,"benchmark":"Large-Scale Turkish-English Hate Speech Dataset","what":"Hate speech detection across 5 domains (Religion, Gender, Race, Politics, Sports","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2022-Ziems-The Moral Integrity Corpus","year":2022,"benchmark":"MIC (Moral Integrity Corpus)","what":"Moral integrity of dialogue systems - moral assumptions reflected in chatbot utt","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using","year":2021,"benchmark":"KurdFake / KDFND (Kurdish Fake News Detection Dataset)","what":"Fake news detection in Kurdish language using machine learning.","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2021-Barikeri-REDDITBIAS","year":2021,"benchmark":"REDDITBIAS","what":"Social bias in conversational language models across gender, race, religion, and","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Dementieva-Methods for Detoxification of Texts for the Russian Language","year":2021,"benchmark":"RuToxic","what":"Text toxicity detection and automatic detoxification for Russian language social","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2021-Dhamala-BOLD","year":2021,"benchmark":"BOLD (Bias in Open-Ended Language Generation Dataset)","what":"Social biases in open-ended text generation across profession, gender, race, rel","category":"Value Alignment & Value Pluralism","availability":"Public","url":""},{"filename":"2021-Emelin-Moral Stories","year":2021,"benchmark":"Moral Stories","what":"Grounded, goal-oriented social reasoning and norm adherence in language models; ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2021-Enevoldsen-DaCy A Unified Framework for Danish NLP","year":2021,"benchmark":"DaCy Bias and Robustness Tests","what":"Ethnicity and gender bias in Danish NLP models through data augmentation-based e","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Hansson-The Swedish Winogender Dataset SweWinogender","year":2021,"benchmark":"SweWinogender","what":"Gender bias in Swedish coreference resolution systems, testing whether systems r","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2021-Hendrycks-Aligning AI with Shared Human Values","year":2021,"benchmark":"ETHICS","what":"Language model knowledge of basic moral concepts spanning justice, well-being, d","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2021-Jiang-Pretrained Models and Evaluation Data for","year":2021,"benchmark":"Khmer BERT/ELECTRA + Khmer News Categorization Dataset","what":"NLP capabilities for the Khmer language, including POS tagging and news categori","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian","year":2021,"benchmark":"ParsiNLU","what":"Persian natural language understanding across 6 tasks: reading comprehension, mu","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Lourie-Scruples","year":2021,"benchmark":"SCRUPLES","what":"Descriptive ethics and moral judgment in real-life interpersonal situations; com","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social","year":2021,"benchmark":"ViHSD (Vietnamese Hate Speech Detection)","what":"Hate speech detection in Vietnamese social media, classifying comments as CLEAN,","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection","year":2021,"benchmark":"Online Antisemitism Detection Dataset","what":"Multimodal detection of online antisemitism, including presence and category of ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Munshi-Towards an Automated Islamic Fatwa System","year":2021,"benchmark":"Islamic Fatwa Dataset","what":"Islamic jurisprudence (Sharia) question-answering and topic classification for f","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2021-Nadeem-StereoSet","year":2021,"benchmark":"StereoSet","what":"Stereotypical bias in pretrained language models across gender, profession, race","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media","year":2021,"benchmark":"UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detecti","what":"Constructive and toxic speech detection in Vietnamese social media comments acro","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2021-Nurce-Detecting Abusive Albanian","year":2021,"benchmark":"SHAJ (Spoken Hate in the Albanian Jargon)","what":"Offensive language and hate speech detection in Albanian social media using hier","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Park-KLUE Korean Language Understanding Evaluation","year":2021,"benchmark":"KLUE (Korean Language Understanding Evaluation)","what":"Korean NLU across 8 tasks: Topic Classification, STS, NLI, NER, Relation Extract","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research","year":2021,"benchmark":"OffendES","what":"Offensive language in Spanish social media across platforms (Twitter, Instagram,","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts","year":2021,"benchmark":"RuEthnoHate (Russian Ethnicity-Targeted Hate Speech Dataset)","what":"Ethnicity-targeted hate speech in Russian social media, differentiating attitude","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification","year":2021,"benchmark":"DOSA (Dravidian Offensive Span Identification Dataset)","what":"Offensive span identification in Tamil-English and Kannada-English code-mixed te","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Röttger-HateCheck","year":2021,"benchmark":"HateCheck","what":"Functional weaknesses of hate speech detection models across 29 specific functio","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit","year":2021,"benchmark":"Itihasa","what":"Sanskrit-to-English translation quality using parallel text from the Ramayana an","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2021-Sun-LaoPLM Pre-trained Language Models for Lao","year":2021,"benchmark":"LaoPLM + Lao Text Classification Dataset","what":"NLP capabilities for Lao language including POS tagging and text classification.","category":"Helpfulness, Honesty & RLHF","availability":"Public","url":""},{"filename":"2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl","year":2021,"benchmark":"IMSyPP-sl (Slovenian Twitter Hate Speech Dataset)","what":"Hate speech types (offensive/violent) and targets in Slovenian Twitter data.","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2021-Wuerzburg-German HateSpeech Corpus","year":2021,"benchmark":"GMHP7k (German Misogynistic Hatespeech Posts)","what":"General hate speech and misogynistic hate speech in German social media posts.","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2020-Awad-Universals and variations in moral decisions made","year":2020,"benchmark":"Moral Machine Classic Mode Dataset","what":"Cross-cultural moral preferences in sacrificial (trolley-problem) dilemmas; univ","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech","year":2020,"benchmark":"HaSpeeDe 2","what":"Hate speech detection in Italian Twitter messages and news headlines, including ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Forbes-Social Chemistry 101","year":2020,"benchmark":"SOCIAL-CHEM-101","what":"Social norms and moral judgments via rules-of-thumb with 12 annotation dimension","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2020-Gehman-RealToxicityPrompts","year":2020,"benchmark":"RealToxicityPrompts","what":"Neural toxic degeneration in pretrained language models (propensity to generate ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Hoover-Moral Foundations Twitter Corpus","year":2020,"benchmark":"Moral Foundations Twitter Corpus (MFTC)","what":"Moral sentiment in natural language based on Moral Foundations Theory (Care/Harm","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2020-Kumar-Evaluating Aggression Identification in Social","year":2020,"benchmark":"TRAC-2 Shared Task Dataset","what":"Aggression and gendered aggression identification in social media (YouTube comme","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New","year":2020,"benchmark":"ToLD-Br","what":"Toxic language detection in Brazilian Portuguese social media across 6 categorie","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Mathew-HateXplain","year":2020,"benchmark":"HateXplain","what":"Explainable hate speech detection: classification (hate/offensive/normal), targe","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Mollas-ETHOS an Online Hate Speech Detection Dataset","year":2020,"benchmark":"ETHOS","what":"Online hate speech detection with binary and multi-label annotations covering vi","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection","year":2020,"benchmark":"BEEP! (Korean Toxic Speech Corpus)","what":"Toxic speech detection in Korean online news comments, annotated for both social","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2020-Nangia-CrowS-Pairs","year":2020,"benchmark":"CrowS-Pairs","what":"Social biases in masked language models across 9 bias categories (race, gender, ","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification","year":2020,"benchmark":"AMI @ EVALITA2020 (Automatic Misogyny Identification)","what":"Automatic misogyny identification in Italian tweets with categories including Di","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Sap-Social Bias Frames","year":2020,"benchmark":"Social Bias Inference Corpus (SBIC)","what":"Implicit social bias in language, including stereotyping, offensiveness, and the","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Schramowski-The Moral Choice Machine","year":2020,"benchmark":"Moral Choice Machine (MCM)","what":"Deontological ethical reasoning about right and wrong conduct extracted from tex","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate","year":2020,"benchmark":"DKHate","what":"Offensive language and hate speech detection in Danish social media, with hierar","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2020-Yasseri-Detecting Weak and Strong Islamophobic Hate","year":2020,"benchmark":"Islamophobic Hate Speech Dataset (Weak/Strong)","what":"Multi-class classification of Islamophobic content distinguishing non-Islamophob","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2019-Basile-SemEval-2019 Task 5","year":2019,"benchmark":"HatEval (SemEval-2019 Task 5)","what":"Hate speech detection against immigrants and women in English and Spanish tweets","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against","year":2019,"benchmark":"HatEval (SemEval-2019 Task 5)","what":"Hate speech detection targeting immigrants and women in English and Spanish Twit","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset","year":2019,"benchmark":"Portuguese Hierarchical Hate Speech Dataset","what":"Hate speech detection in Portuguese with hierarchical fine-grained categorizatio","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification","year":2019,"benchmark":"ToxicBias / Jigsaw Unintended Bias Dataset","what":"Unintended social bias in toxicity classification (models flagging identity term","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2019-Kreutz-GermEval 2019 Task 2","year":2019,"benchmark":"GermEval 2019 Task 2","what":"Offensive language identification in German tweets (coarse binary, fine-grained ","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and","year":2019,"benchmark":"FRENK Datasets","what":"Socially unacceptable discourse in Slovene and English Facebook news comments, c","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis","year":2019,"benchmark":"MLMA Hate Speech Dataset","what":"Multilingual multi-aspect hate speech in English, French, and Arabic tweets acro","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2019-Phuong-Emotion Recognition for Vietnamese Social Media Text","year":2019,"benchmark":"UIT-VSMEC (Vietnamese Social Media Emotion Corpus)","what":"Emotion recognition in Vietnamese social media text across 7 emotion labels (enj","category":"Domain-Specific Ethics","availability":"Public","url":""},{"filename":"2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open","year":2019,"benchmark":"PolEval 2019 Task 6 (Polish Cyberbullying Detection)","what":"Cyberbullying and hate speech detection in Polish Twitter, distinguishing cyberb","category":"Toxicity, Hate Speech & Harmful Content","availability":"Public","url":""},{"filename":"2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT","year":2019,"benchmark":"WinoMT","what":"Gender bias in machine translation systems when translating English to 8 grammat","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on","year":2019,"benchmark":"GermEval 2019 Shared Task on Offensive Language","what":"Offensive language identification in German tweets with explicit vs. implicit of","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2018-Awad-The Moral Machine experiment","year":2018,"benchmark":"Moral Machine","what":"Cross-cultural moral preferences for autonomous vehicle ethical dilemmas (trolle","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2018-Behzadan-TrolleyMod v1.0","year":2018,"benchmark":"TrolleyMod v1.0","what":"Ethical decision-making in autonomous vehicle trolley-problem scenarios","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2018-Bohra-Hindi-English Code-Mixed Social Media Text for","year":2018,"benchmark":"Hindi-English Code-Mixed Hate Speech Dataset","what":"Hate speech detection in Hindi-English code-mixed social media text, the first d","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2018-Crone-The Socio-Moral Image Database (SMID)","year":2018,"benchmark":"SMID (Socio-Moral Image Database)","what":"Moral wrongness, affective valence/arousal, and relevance to five Moral Foundati","category":"Moral Reasoning & Ethical Judgment","availability":"Public","url":""},{"filename":"2018-Dixon-Measuring and Mitigating Unintended Bias in Text","year":2018,"benchmark":"Identity Phrase Template Test Set / Pinned AUC","what":"Unintended identity-term bias in toxicity classifiers (models falsely flagging n","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred","year":2018,"benchmark":"Equity Evaluation Corpus (EEC)","what":"Gender and race bias in sentiment analysis systems (whether systems assign diffe","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2018-Mishra-Are They Our Brothers Analysis and","year":2018,"benchmark":"Arabic Religious Hate Speech Dataset","what":"Religious hate speech detection in Arabic Twitter, including sectarian hate spee","category":"Cultural & Cross-Cultural Ethics","availability":"Public","url":""},{"filename":"2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language","year":2018,"benchmark":"GermEval 2018","what":"Offensive language identification in German tweets, with coarse-grained binary a","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2018-Zhao-Gender Bias in Coreference Resolution","year":2018,"benchmark":"WinoBias","what":"Gender bias in coreference resolution systems (whether systems preferentially li","category":"Fairness, Bias & Social Norms","availability":"Public","url":""},{"filename":"2016-Bolukbasi-Man is to Computer Programmer as Woman is to","year":2016,"benchmark":"Word Embedding Association Test (WEAT) / Debiasing Metrics","what":"Gender bias in word embeddings (stereotypical associations between gender and oc","category":"Fairness, Bias & Social Norms","availability":"Public","url":""}],"topAuthors":[{"name":"Dan Hendrycks","count":4},{"name":"Paul Röttger","count":4},{"name":"Yejin Bang","count":4},{"name":"Liwei Jiang","count":4},{"name":"Yu Ying Chiu","count":4},{"name":"Taylor Sorensen","count":4},{"name":"Elizaveta Tennant","count":4},{"name":"Edmond Awad","count":3},{"name":"Iason Gabriel","count":3},{"name":"Jakob Stenseke","count":3},{"name":"Ashutosh Dwivedi","count":3},{"name":"Jiaming Ji","count":3},{"name":"Jing Yao","count":3},{"name":"Zhaowei Zhang","count":3},{"name":"Shaona Ghosh","count":3}],"categoryNames":["Moral Reasoning & Ethical Judgment","Value Alignment & Value Pluralism","Cultural & Cross-Cultural Ethics","Fairness, Bias & Social Norms","Toxicity, Hate Speech & Harmful Content","Safety & Red Teaming","Domain-Specific Ethics","Normative Ethics Benchmarks","Moral Psychology Applied to AI","Helpfulness, Honesty & RLHF"],"llmModels":[{"name":"GPT-4","count":682},{"name":"BERT","count":497},{"name":"Llama","count":366},{"name":"Llama-3","count":346},{"name":"Qwen","count":310},{"name":"ChatGPT","count":305},{"name":"GPT-3.5","count":296},{"name":"Claude","count":294},{"name":"GPT-4o","count":270},{"name":"Mistral","count":261},{"name":"Gemma","count":240},{"name":"GPT-3","count":229},{"name":"Llama-2","count":218},{"name":"RoBERTa","count":194},{"name":"DeepSeek","count":169},{"name":"Gemini","count":139},{"name":"ALBERT","count":85},{"name":"Mistral-7B","count":85},{"name":"Qwen2.5","count":85},{"name":"Llama-3.1","count":83}],"llmByYear":{"2016":{"assessed":1,"notAssessed":6},"2018":{"assessed":4,"notAssessed":15},"2019":{"assessed":9,"notAssessed":14},"2020":{"assessed":26,"notAssessed":20},"2021":{"assessed":45,"notAssessed":13},"2022":{"assessed":72,"notAssessed":24},"2023":{"assessed":162,"notAssessed":39},"2024":{"assessed":445,"notAssessed":113},"2025":{"assessed":754,"notAssessed":171},"2026":{"assessed":60,"notAssessed":4}},"repoDistribution":[{"name":"GitHub","count":794},{"name":"HuggingFace","count":227},{"name":"Other","count":132},{"name":"OSF","count":21},{"name":"Zenodo","count":13},{"name":"Kaggle","count":9}]};
+
+const CAT_COLORS = [
+  '#6366f1','#22d3ee','#f59e0b','#ec4899','#22c55e',
+  '#a855f7','#f97316','#14b8a6','#e879f9','#38bdf8'
+];
+
+// ── Tab navigation ────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('sec-' + tab.dataset.tab).classList.add('active');
+    // Resize charts on tab switch (ECharts needs this)
+    setTimeout(() => window.dispatchEvent(new Event('resize')), 50);
+  });
+});
+
+// ── KPI count-up animation ────────────────────────────────────────────
+function animateValue(el, end, suffix='') {
+  const duration = 1000;
+  const start = 0;
+  const startTime = performance.now();
+  function update(now) {
+    const elapsed = now - startTime;
+    const progress = Math.min(elapsed / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const current = Math.round(start + (end - start) * eased);
+    el.textContent = current.toLocaleString() + suffix;
+    if (progress < 1) requestAnimationFrame(update);
+  }
+  requestAnimationFrame(update);
+}
+
+// ── Build KPI cards ───────────────────────────────────────────────────
+(function buildKPIs() {
+  const kpis = [
+    { value: DATA.kpi.total, label: 'Papers Screened', suffix: '' },
+    { value: DATA.kpi.candidates, label: 'Benchmark Candidates', suffix: '' },
+    { value: DATA.kpi.public, label: 'Public Benchmarks', suffix: '' },
+    { value: DATA.kpi.pluralisticPct, label: 'Pluralistic Relevance', suffix: '%' },
+    { value: DATA.kpi.normative, label: 'Normative Ethics', suffix: '' },
+    { value: DATA.kpi.llmModels, label: 'Papers with LLM Data', suffix: '' },
+  ];
+  const row = document.getElementById('kpi-row');
+  kpis.forEach(k => {
+    const div = document.createElement('div');
+    div.className = 'kpi';
+    div.innerHTML = '<div class="kpi-value" data-target="' + k.value + '" data-suffix="' + k.suffix + '">0</div>'
+                  + '<div class="kpi-label">' + k.label + '</div>';
+    row.appendChild(div);
+  });
+  // Animate after a short delay
+  setTimeout(() => {
+    row.querySelectorAll('.kpi-value').forEach(el => {
+      animateValue(el, parseInt(el.dataset.target), el.dataset.suffix);
+    });
+  }, 200);
+})();
+
+// ── Populate subtitle from data ──────────────────────────────────────
+document.getElementById('subtitle').textContent =
+  DATA.kpi.total + ' papers screened • ' + DATA.kpi.candidates + ' benchmark candidates • Generated 2026-02-15';
+
+// ── ECharts helpers ───────────────────────────────────────────────────
+function initChart(id) {
+  const dom = document.getElementById(id);
+  if (!dom) return null;
+  const chart = echarts.init(dom, null, { renderer: 'canvas' });
+  window.addEventListener('resize', () => chart.resize());
+  return chart;
+}
+
+const commonTooltip = {
+  backgroundColor: 'rgba(24,24,27,0.95)',
+  borderColor: '#3f3f46',
+  textStyle: { color: '#fafafa', fontSize: 12 },
+};
+
+// ── 1. Timeline (stacked area) ────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-timeline');
+  if (!chart) return;
+  const years = Object.keys(DATA.timeline).map(Number);
+  const allVals = years.map(y => DATA.timeline[y].all);
+  const candVals = years.map(y => DATA.timeline[y].cand);
+  const exclVals = years.map(y => DATA.timeline[y].all - DATA.timeline[y].cand);
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis' },
+    legend: { top: 0, textStyle: { color: '#a1a1aa', fontSize: 11 }, itemWidth: 14, itemHeight: 10 },
+    grid: { left: 50, right: 20, top: 40, bottom: 30 },
+    xAxis: { type: 'category', data: years, axisLine: { lineStyle: { color: '#3f3f46' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    series: [
+      { name: 'Excluded', type: 'bar', stack: 'total', data: exclVals, itemStyle: { color: '#3f3f46' }, barWidth: '60%' },
+      { name: 'Benchmarks', type: 'bar', stack: 'total', data: candVals, itemStyle: { color: '#6366f1' }, barWidth: '60%' },
+      { name: 'Benchmark %', type: 'line', data: years.map((y,i) => allVals[i]>0 ? Math.round(candVals[i]/allVals[i]*100) : 0),
+        yAxisIndex: 0, symbol: 'circle', symbolSize: 6, lineStyle: { color: '#f59e0b', width: 2 },
+        itemStyle: { color: '#f59e0b' }, z: 10 },
+    ],
+  });
+})();
+
+// ── 2. Category bar chart ─────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-categories');
+  if (!chart) return;
+  const cats = DATA.categories.slice().sort((a,b) => a.count - b.count);
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 220, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: cats.map(c => c.short), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: cats.map((c,i) => ({ value: c.count, itemStyle: { color: CAT_COLORS[c.id-1] } })),
+      barWidth: '65%',
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 3. Availability donut ─────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-availability');
+  if (!chart) return;
+  const d = DATA.availability;
+  const items = [
+    { name: 'Public', value: d['Public'] || 0 },
+    { name: 'Code available', value: d['Code available'] || 0 },
+    { name: 'Partially public', value: d['Partially public'] || 0 },
+    { name: 'Not stated', value: d['Not stated'] || 0 },
+    { name: 'Not public', value: d['Not public'] || 0 },
+  ].filter(x => x.value > 0);
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+    legend: { bottom: 0, textStyle: { color: '#a1a1aa', fontSize: 11 }, itemWidth: 12, itemHeight: 10 },
+    color: ['#22c55e','#6366f1','#f59e0b','#71717a','#ef4444'],
+    series: [{
+      type: 'pie', radius: ['45%','72%'], center: ['50%','45%'],
+      data: items,
+      label: { show: true, color: '#a1a1aa', fontSize: 11, formatter: '{b}\n{d}%' },
+      emphasis: { label: { fontSize: 13, fontWeight: 600 } },
+    }],
+  });
+})();
+
+// ── 4. Top authors bar ────────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-authors');
+  if (!chart) return;
+  const authors = DATA.topAuthors.slice().reverse();
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 150, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: authors.map(a => a.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: authors.map(a => a.count),
+      barWidth: '60%', itemStyle: { color: '#818cf8' },
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 5. Category x Year heatmap ────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-cat-year');
+  if (!chart) return;
+  const years = Object.keys(DATA.timeline).map(Number);
+  const catNames = DATA.categories.map(c => c.short);
+  const heatData = [];
+  let maxVal = 0;
+  DATA.categories.forEach((cat, ci) => {
+    years.forEach((y, yi) => {
+      const v = cat.byYear[y] || 0;
+      heatData.push([yi, ci, v]);
+      if (v > maxVal) maxVal = v;
+    });
+  });
+  chart.setOption({
+    tooltip: { ...commonTooltip, formatter: p => p.data[2] > 0 ? catNames[p.data[1]] + ' (' + years[p.data[0]] + '): ' + p.data[2] + ' papers' : '' },
+    grid: { left: 220, right: 60, top: 10, bottom: 30 },
+    xAxis: { type: 'category', data: years, axisLabel: { color: '#71717a' }, splitArea: { show: true, areaStyle: { color: ['rgba(0,0,0,0)', 'rgba(255,255,255,0.02)'] } } },
+    yAxis: { type: 'category', data: catNames, axisLabel: { color: '#a1a1aa', fontSize: 11 } },
+    visualMap: { min: 0, max: maxVal, calculable: false, orient: 'vertical', right: 0, top: 'center',
+      inRange: { color: ['#18181b','#312e81','#4f46e5','#818cf8','#c7d2fe'] },
+      textStyle: { color: '#71717a' } },
+    series: [{ type: 'heatmap', data: heatData, label: { show: true, color: '#a1a1aa', fontSize: 10, formatter: p => p.data[2] || '' },
+      emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(99,102,241,0.4)' } } }],
+  });
+})();
+
+// ── 6. Co-occurrence matrix ───────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-cooccurrence');
+  if (!chart) return;
+  const labels = DATA.categories.map((c,i) => (i+1) + '. ' + c.short.substring(0,18));
+  const heatData = [];
+  let maxVal = 0;
+  DATA.cooccurrence.forEach((row, ri) => {
+    row.forEach((val, ci) => {
+      if (ri !== ci) {
+        heatData.push([ci, ri, val]);
+        if (val > maxVal) maxVal = val;
+      }
+    });
+  });
+  chart.setOption({
+    tooltip: { ...commonTooltip, formatter: p => {
+      if (p.data[0] === p.data[1]) return '';
+      return labels[p.data[1]] + ' & ' + labels[p.data[0]] + ': ' + p.data[2] + ' papers';
+    } },
+    grid: { left: 180, right: 60, top: 10, bottom: 100 },
+    xAxis: { type: 'category', data: labels, axisLabel: { color: '#71717a', fontSize: 10, rotate: 45 }, splitArea: { show: true } },
+    yAxis: { type: 'category', data: labels, axisLabel: { color: '#a1a1aa', fontSize: 10 } },
+    visualMap: { min: 0, max: maxVal, calculable: false, orient: 'vertical', right: 0, top: 'center',
+      inRange: { color: ['#18181b','#4a1d6e','#7c3aed','#a78bfa','#ddd6fe'] },
+      textStyle: { color: '#71717a' } },
+    series: [{ type: 'heatmap', data: heatData, label: { show: true, color: '#a1a1aa', fontSize: 10,
+      formatter: p => p.data[2] || '' },
+      emphasis: { itemStyle: { shadowBlur: 10 } } }],
+  });
+})();
+
+// ── 7. Model bar chart ────────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-model-bar');
+  if (!chart) return;
+  const models = DATA.models.slice(0, 15).reverse();
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 140, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: models.map(m => m.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: models.map(m => m.count),
+      barWidth: '60%', itemStyle: { color: '#22d3ee' },
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 8. Method bar chart ───────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-method-bar');
+  if (!chart) return;
+  const methods = DATA.methods.slice().reverse();
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 200, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: methods.map(m => m.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: methods.map(m => m.count),
+      barWidth: '60%', itemStyle: { color: '#f59e0b' },
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 9. Model x Category heatmap ───────────────────────────────────────
+(function() {
+  const chart = initChart('chart-model-cat');
+  if (!chart) return;
+  const topModels = DATA.models.slice(0, 12);
+  const modelNames = topModels.map(m => m.name);
+  const catNames = DATA.categoryNames;
+  const heatData = [];
+  let maxVal = 0;
+  topModels.forEach((m, mi) => {
+    m.byCategory.forEach((v, ci) => {
+      heatData.push([ci, mi, v]);
+      if (v > maxVal) maxVal = v;
+    });
+  });
+  chart.setOption({
+    tooltip: { ...commonTooltip, formatter: p => modelNames[p.data[1]] + ' in ' + catNames[p.data[0]] + ': ' + p.data[2] + ' papers' },
+    grid: { left: 140, right: 60, top: 10, bottom: 130 },
+    xAxis: { type: 'category', data: catNames, axisLabel: { color: '#71717a', fontSize: 10, rotate: 40 } },
+    yAxis: { type: 'category', data: modelNames, axisLabel: { color: '#a1a1aa', fontSize: 11 } },
+    visualMap: { min: 0, max: maxVal, calculable: false, orient: 'vertical', right: 0, top: 'center',
+      inRange: { color: ['#18181b','#164e63','#0891b2','#22d3ee','#cffafe'] },
+      textStyle: { color: '#71717a' } },
+    series: [{ type: 'heatmap', data: heatData, label: { show: true, color: '#a1a1aa', fontSize: 10,
+      formatter: p => p.data[2] || '' },
+      emphasis: { itemStyle: { shadowBlur: 10, shadowColor: 'rgba(34,211,238,0.3)' } } }],
+  });
+})();
+
+// ── 10. Pluralistic donut ─────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-pluralistic');
+  if (!chart) return;
+  const d = DATA.pluralistic;
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+    legend: { bottom: 0, textStyle: { color: '#a1a1aa', fontSize: 11 } },
+    color: ['#22c55e','#f59e0b','#71717a'],
+    series: [{
+      type: 'pie', radius: ['45%','72%'], center: ['50%','42%'],
+      data: [
+        { name: 'Yes', value: d.Yes },
+        { name: 'Partial', value: d.Partial },
+        { name: 'No', value: d.No },
+      ],
+      label: { show: true, color: '#a1a1aa', formatter: '{b}\n{c} ({d}%)' },
+      emphasis: { label: { fontSize: 13, fontWeight: 600 } },
+    }],
+  });
+})();
+
+// ── 11. Ethical traditions bar ─────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-traditions');
+  if (!chart) return;
+  const trads = DATA.traditions.slice().reverse();
+  const colorMap = { Critical: '#ef4444', Severe: '#f97316', Moderate: '#f59e0b', Adequate: '#22c55e' };
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 160, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: trads.map(t => t.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: trads.map(t => ({ value: t.count, itemStyle: { color: colorMap[t.level] || '#71717a' } })),
+      barWidth: '60%',
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono',
+        formatter: p => {
+          const t = trads[p.dataIndex];
+          return t.count + ' (' + t.level + ')';
+        }
+      },
+    }],
+  });
+})();
+
+// ── 12. Languages bar ─────────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-languages');
+  if (!chart) return;
+  const langs = DATA.languages.slice().reverse();
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 120, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: langs.map(l => l.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: langs.map(l => l.count),
+      barWidth: '60%', itemStyle: { color: '#14b8a6' },
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 13. Language x Category heatmap ───────────────────────────────────
+(function() {
+  const chart = initChart('chart-lang-cat');
+  if (!chart) return;
+  const topLangs = DATA.languages.slice(0, 10);
+  const langNames = topLangs.map(l => l.name);
+  const catNames = DATA.categoryNames;
+  const heatData = [];
+  let maxVal = 0;
+  topLangs.forEach((l, li) => {
+    l.byCategory.forEach((v, ci) => {
+      heatData.push([ci, li, v]);
+      if (v > maxVal) maxVal = v;
+    });
+  });
+  chart.setOption({
+    tooltip: { ...commonTooltip, formatter: p => langNames[p.data[1]] + ' in ' + catNames[p.data[0]] + ': ' + p.data[2] + ' papers' },
+    grid: { left: 120, right: 60, top: 10, bottom: 130 },
+    xAxis: { type: 'category', data: catNames, axisLabel: { color: '#71717a', fontSize: 10, rotate: 40 } },
+    yAxis: { type: 'category', data: langNames, axisLabel: { color: '#a1a1aa', fontSize: 11 } },
+    visualMap: { min: 0, max: Math.max(maxVal, 1), calculable: false, orient: 'vertical', right: 0, top: 'center',
+      inRange: { color: ['#18181b','#134e4a','#0d9488','#14b8a6','#99f6e4'] },
+      textStyle: { color: '#71717a' } },
+    series: [{ type: 'heatmap', data: heatData, label: { show: true, color: '#a1a1aa', fontSize: 10,
+      formatter: p => p.data[2] || '' } }],
+  });
+})();
+
+// ── 14. Resources table ───────────────────────────────────────────────
+(function() {
+  const PAGE_SIZE = 25;
+  let filtered = [...DATA.resources];
+  let currentPage = 1;
+  let sortCol = 'year';
+  let sortDir = -1;
+
+  // Populate dropdowns
+  const catSet = new Set(DATA.resources.map(r => r.category));
+  const catSel = document.getElementById('res-cat');
+  [...catSet].sort().forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    catSel.appendChild(opt);
+  });
+  const yearSet = new Set(DATA.resources.map(r => r.year));
+  const yearSel = document.getElementById('res-year');
+  [...yearSet].sort((a,b) => b-a).forEach(y => {
+    const opt = document.createElement('option');
+    opt.value = y; opt.textContent = y;
+    yearSel.appendChild(opt);
+  });
+
+  function applyFilters() {
+    const search = document.getElementById('res-search').value.toLowerCase();
+    const cat = catSel.value;
+    const year = yearSel.value;
+    const publicOnly = document.getElementById('res-public').checked;
+
+    filtered = DATA.resources.filter(r => {
+      if (search && !r.benchmark.toLowerCase().includes(search) && !r.what.toLowerCase().includes(search) && !r.filename.toLowerCase().includes(search)) return false;
+      if (cat && r.category !== cat) return false;
+      if (year && r.year !== parseInt(year)) return false;
+      if (publicOnly && r.availability !== 'Public') return false;
+      return true;
+    });
+
+    // Sort
+    filtered.sort((a, b) => {
+      let va = a[sortCol], vb = b[sortCol];
+      if (typeof va === 'string') va = va.toLowerCase();
+      if (typeof vb === 'string') vb = vb.toLowerCase();
+      if (va < vb) return -sortDir;
+      if (va > vb) return sortDir;
+      return 0;
+    });
+
+    currentPage = 1;
+    render();
+  }
+
+  function render() {
+    const tbody = document.getElementById('res-tbody');
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const page = filtered.slice(start, start + PAGE_SIZE);
+
+    document.getElementById('res-count').textContent = filtered.length + ' results';
+
+    tbody.innerHTML = page.map(r => {
+      const badge = r.availability === 'Public' ? 'badge-public' : r.availability === 'Code available' ? 'badge-code' : 'badge-partial';
+      return '<tr>'
+        + '<td style="font-family:var(--font-mono)">' + r.year + '</td>'
+        + '<td title="' + r.benchmark.replace(/"/g,'&quot;') + '">' + r.benchmark + '</td>'
+        + '<td title="' + r.what.replace(/"/g,'&quot;') + '">' + r.what + '</td>'
+        + '<td>' + r.category + '</td>'
+        + '<td><span class="badge ' + badge + '">' + r.availability + '</span></td>'
+        + '</tr>';
+    }).join('');
+
+    // Pagination
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    const pag = document.getElementById('res-pagination');
+    if (totalPages <= 1) { pag.innerHTML = ''; return; }
+    let html = '<button class="page-btn" ' + (currentPage<=1?'disabled':'') + ' onclick="window.__resPage(' + (currentPage-1) + ')">&laquo; Prev</button>';
+    const start_p = Math.max(1, currentPage - 3);
+    const end_p = Math.min(totalPages, currentPage + 3);
+    for (let i = start_p; i <= end_p; i++) {
+      html += '<button class="page-btn' + (i===currentPage?' active':'') + '" onclick="window.__resPage(' + i + ')">' + i + '</button>';
+    }
+    html += '<button class="page-btn" ' + (currentPage>=totalPages?'disabled':'') + ' onclick="window.__resPage(' + (currentPage+1) + ')">Next &raquo;</button>';
+    pag.innerHTML = html;
+  }
+
+  window.__resPage = function(p) { currentPage = p; render(); };
+
+  // Event listeners
+  document.getElementById('res-search').addEventListener('input', applyFilters);
+  catSel.addEventListener('change', applyFilters);
+  yearSel.addEventListener('change', applyFilters);
+  document.getElementById('res-public').addEventListener('change', applyFilters);
+
+  // Column sort
+  document.querySelectorAll('#res-table th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.sort;
+      if (sortCol === col) sortDir *= -1;
+      else { sortCol = col; sortDir = col === 'year' ? -1 : 1; }
+      applyFilters();
+    });
+  });
+
+  applyFilters();
+})();
+
+// ── 15. Normative donut ───────────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-norm-donut');
+  if (!chart) return;
+  const d = DATA.normative;
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+    legend: { bottom: 0, textStyle: { color: '#a1a1aa', fontSize: 11 } },
+    color: ['#22c55e','#f59e0b','#3f3f46'],
+    series: [{
+      type: 'pie', radius: ['45%','72%'], center: ['50%','42%'],
+      data: [
+        { name: 'Yes (full)', value: d.yes },
+        { name: 'Borderline', value: d.borderline },
+        { name: 'Excluded', value: d.excluded },
+      ],
+      label: { show: true, color: '#a1a1aa', formatter: '{b}\n{c}' },
+      emphasis: { label: { fontSize: 13, fontWeight: 600 } },
+    }],
+  });
+})();
+
+// ── 16. Framework bar chart ───────────────────────────────────────────
+(function() {
+  const chart = initChart('chart-norm-fw');
+  if (!chart) return;
+  const fws = DATA.normative.frameworks.slice().reverse();
+  if (fws.length === 0) return;
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 240, right: 40, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: fws.map(f => f.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: fws.map(f => f.count),
+      barWidth: '60%', itemStyle: { color: '#a855f7' },
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 17. Normative paper cards ─────────────────────────────────────────
+(function() {
+  const container = document.getElementById('norm-papers');
+  if (DATA.normative.papers.length === 0) {
+    container.innerHTML = '<p style="color:var(--text-muted)">No papers with full normative operationalization found.</p>';
+    return;
+  }
+  container.innerHTML = DATA.normative.papers.map(p => {
+    return '<div class="norm-card">'
+      + '<h4>' + p.filename.replace('.md','') + '</h4>'
+      + '<div class="meta">'
+      + '<div><strong>Frameworks:</strong> <span>' + p.frameworks + '</span></div>'
+      + '<div><strong>LLMs Tested:</strong> <span>' + p.llms + '</span></div>'
+      + '<div><strong>Data Artifact:</strong> <span>' + p.artifact + '</span></div>'
+      + '</div></div>';
+  }).join('');
+})();
+
+// ── 18. LLM Assessment KPIs ──────────────────────────────────────────
+(function() {
+  const el1 = document.getElementById('llm-kpi-models');
+  const el2 = document.getElementById('llm-kpi-urls');
+  const el3 = document.getElementById('llm-kpi-pct');
+  if (el1) el1.textContent = (DATA.kpi.llmModels || 0).toLocaleString();
+  if (el2) el2.textContent = (DATA.kpi.dataUrls || 0).toLocaleString();
+  if (el3) el3.textContent = (DATA.kpi.llmModelsPct || 0) + '%';
+})();
+
+// ── 19. LLM Model Frequency bar chart ────────────────────────────────
+(function() {
+  const chart = initChart('chart-llm-models');
+  if (!chart || !DATA.llmModels || DATA.llmModels.length === 0) return;
+  const models = DATA.llmModels.slice().reverse();
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis', axisPointer: { type: 'shadow' } },
+    grid: { left: 140, right: 50, top: 10, bottom: 10 },
+    xAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'category', data: models.map(m => m.name), axisLabel: { color: '#a1a1aa', fontSize: 11 }, axisLine: { lineStyle: { color: '#3f3f46' } } },
+    series: [{
+      type: 'bar', data: models.map(m => m.count),
+      barWidth: '60%', itemStyle: { color: '#22d3ee' },
+      label: { show: true, position: 'right', color: '#a1a1aa', fontSize: 11, fontFamily: 'JetBrains Mono' },
+    }],
+  });
+})();
+
+// ── 20. Assessment Coverage by Year (stacked bar) ────────────────────
+(function() {
+  const chart = initChart('chart-llm-year');
+  if (!chart || !DATA.llmByYear) return;
+  const years = Object.keys(DATA.llmByYear).map(Number).sort();
+  const assessed = years.map(y => DATA.llmByYear[y].assessed);
+  const notAssessed = years.map(y => DATA.llmByYear[y].notAssessed);
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'axis' },
+    legend: { top: 0, textStyle: { color: '#a1a1aa', fontSize: 11 }, itemWidth: 14, itemHeight: 10 },
+    grid: { left: 50, right: 20, top: 40, bottom: 30 },
+    xAxis: { type: 'category', data: years, axisLine: { lineStyle: { color: '#3f3f46' } }, axisLabel: { color: '#71717a' } },
+    yAxis: { type: 'value', splitLine: { lineStyle: { color: '#27272a' } }, axisLabel: { color: '#71717a' } },
+    series: [
+      { name: 'No LLM Models', type: 'bar', stack: 'total', data: notAssessed, itemStyle: { color: '#3f3f46' }, barWidth: '60%' },
+      { name: 'With LLM Models', type: 'bar', stack: 'total', data: assessed, itemStyle: { color: '#22d3ee' }, barWidth: '60%' },
+    ],
+  });
+})();
+
+// ── 21. Data Repository Distribution (donut) ─────────────────────────
+(function() {
+  const chart = initChart('chart-llm-repos');
+  if (!chart || !DATA.repoDistribution || DATA.repoDistribution.length === 0) return;
+  const REPO_COLORS = {
+    'GitHub': '#22c55e', 'HuggingFace': '#f59e0b', 'Zenodo': '#6366f1',
+    'OSF': '#ec4899', 'Kaggle': '#22d3ee', 'Other': '#71717a'
+  };
+  chart.setOption({
+    tooltip: { ...commonTooltip, trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+    legend: { bottom: 0, textStyle: { color: '#a1a1aa', fontSize: 11 }, itemWidth: 12, itemHeight: 10 },
+    series: [{
+      type: 'pie', radius: ['45%','72%'], center: ['50%','45%'],
+      data: DATA.repoDistribution.map(r => ({
+        name: r.name, value: r.count,
+        itemStyle: { color: REPO_COLORS[r.name] || '#71717a' }
+      })),
+      label: { show: true, color: '#a1a1aa', fontSize: 11, formatter: '{b}\n{c} ({d}%)' },
+      emphasis: { label: { fontSize: 13, fontWeight: 600 } },
+    }],
+  });
+})();
+</script>
+</body>
+</html>

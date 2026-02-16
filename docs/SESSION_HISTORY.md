@@ -2,6 +2,30 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 86 (Feb 16, 2026) - Languages List Verification & Report Staging
+
+### Overview
+Continuation session that verified the Languages List Backfill (completed in prior continuation). Re-ran 13 language list agents across 3 waves, fixed 31 stale filenames in agent results (27 renamed papers + 3 curly quote + 1 Unicode apostrophe), re-consolidated, and validated. All work confirmed idempotent — prior session already committed the data.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Language list field coverage | 2,002/2,002 (100%) |
+| Papers with language data | 1,415 (70.7%) |
+| Papers blank (no focus) | 587 (29.3%) |
+| Agent filename fixes | 31 (27 renamed, 3 curly quotes, 1 Unicode) |
+| Validation | 2,002/2,002 pass, 0 errors |
+| Uncommitted reports | 5 new STATISTICS + 3 script updates |
+
+### Key Learnings
+- [Data Quality] Agent result files reference stale filenames when papers are renamed between batch-gen and consolidation — need programmatic old→new mapping
+- [YAML] macOS `Path.exists()` returns False when JSON has U+2019 but filesystem has U+0027 — even though `repr()` shows identical chars; use `glob()` to discover actual name
+
+### Files Changed
+- papers/: 0 net changes (idempotent re-consolidation)
+- STATISTICS/: 5 new reports + 1 dashboard (uncommitted, from Session 84b)
+- PYTHON/: 3 scripts modified (report date prefixes, uncommitted)
+
 ## Session 85 (Feb 16, 2026) - Apply Author Fixes & PDF Download
 
 ### Overview

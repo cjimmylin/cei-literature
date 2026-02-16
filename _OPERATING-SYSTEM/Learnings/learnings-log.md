@@ -34,6 +34,13 @@
 
 ---
 
+## 2026-02-16 (Session 86)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Data Quality | **Agent Result Staleness After Bulk Renames:** When `apply_author_fixes.py` renames 27 papers between batch generation and consolidation, all agent result files reference old filenames. Fix: build a programmatic old→new filename mapping by matching title substrings against `papers/` directory, then update agent JSONs before consolidation. This affects any multi-session pipeline where renames occur mid-flight. |
+| 2026-02-16 | YAML | **macOS Path.exists() vs glob() Unicode Mismatch:** `Path("papers/...VLMs'...").exists()` returns `False` when JSON has U+2019 (right single quotation mark) but the actual filesystem stores U+0027 (ASCII apostrophe). Python `repr()` shows both as `'` making debugging invisible. Fix: always use `glob("*partial_name*")` to discover the actual filesystem name, then use that for path operations. |
+
 ## 2026-02-16 (Session 85)
 
 | Date | Category | Learning |

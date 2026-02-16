@@ -12,7 +12,7 @@ Not AI:
 key: 9IWZPR5T
 type: document
 short_title: "Evaluating Aggression Identification in Social"
-year: 2025
+year: 2020
 first_author: "[[Ritesh Kumar]]"
 last_author: "[[Zampieri, Marcos]]"
 authors: "[[Kumar, Ritesh]]; [[Ojha, Atul Kr.]]; [[Malmasi, Shervin]]; [[Zampieri, Marcos]]"

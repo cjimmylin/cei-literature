@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0578
 type: preprint
 short_title: "Addressing Religious Hate Online From Taxonomy"
-year: 2025
+year: 2022
 first_author: "[[Ramponi, Alan]]"
 last_author: "[[Jezek, Elisabetta]]"
 authors: Alan Ramponi; Benedetta Testa; Sara Tonelli; Elisabetta Jezek

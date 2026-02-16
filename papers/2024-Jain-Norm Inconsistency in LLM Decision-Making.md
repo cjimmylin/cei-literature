@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0204
 type: preprint
 short_title: "Norm Inconsistency in LLM Decision-Making"
-year: 2025
+year: 2024
 first_author: "[[Shomik Jain]]"
 last_author: "[[Ashia Wilson]]"
 authors: "Shomik Jain; D Calacci; Ashia Wilson"

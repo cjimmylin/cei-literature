@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0567
 type: preprint
 short_title: "SAHAAYAK 2023 The Multi-Domain Bilingual Parallel"
-year: 2025
+year: 2023
 first_author: "[[Vishvajitsinh Bakrola]]"
 last_author: "[[Jitendra Nasariwala]]"
 authors: "[[Vishvajitsinh Bakrola]]; [[Jitendra Nasariwala]]"

@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0472
 type: preprint
 short_title: "CultureLLM Incorporating Cultural Differences into Large"
-year: 2025
+year: 2024
 first_author: "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]"
 last_author: "[[Xing Xie]]"
 authors: "[[Cheng Li, Mengzhou Chen, Jindong Wang, Sunayana Sitaram, Xing Xie]]"

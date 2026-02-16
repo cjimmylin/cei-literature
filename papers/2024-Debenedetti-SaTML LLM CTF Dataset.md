@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0214
 type: conferencePaper
 short_title: "SaTML LLM CTF Dataset"
-year: 2025
+year: 2024
 first_author: "[[Debenedetti, Edoardo]]"
 last_author: "[[Schönherr, Lea]]"
 authors: "[[Debenedetti, Edoardo]]; [[Rando, Javier]]; [[Paleka, Daniel]]; [[Florin, Silaghi Fineas]]; [[Albastroiu, Dragos]]; [[Cohen, Niv]]; [[Lemberg, Yuval]]; [[Ghosh, Reshmi]]; [[Wen, Rui]]; [[Salem, Ahmed]]; [[Cherubin, Giovanni]]; [[Zanella-Beguelin, Santiago]]; [[Schmid, Robin]]; [[Klemm, Victor]]; [[Miki, Takahiro]]; [[Li, Chenhao]]; [[Kraft, Stefan]]; [[Fritz, Mario]]; [[Tramèr, Florian]]; [[Abdelnabi, Sahar]]; [[Schönherr, Lea]]"

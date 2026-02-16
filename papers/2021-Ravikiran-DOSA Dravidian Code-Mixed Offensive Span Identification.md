@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0603
 type: preprint
 short_title: "DOSA Dravidian Code-Mixed Offensive Span Identification"
-year: 2025
+year: 2021
 first_author: "[[Ravikiran, Manikandan]]"
 last_author: "[[Annamalai]]"
 authors: "[[Ravikiran, Manikandan]]; [[Annamalai]]"

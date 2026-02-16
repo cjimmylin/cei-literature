@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0096
 type: conferencePaper
 short_title: "Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU"
-year: 2025
+year: 2023
 first_author: "[[Fajri Koto]]"
 last_author: "[[Timothy Baldwin Haonan Li]]"
 authors: "Fajri Koto, Nurul Aisyah, Haonan Li, Timothy Baldwin"

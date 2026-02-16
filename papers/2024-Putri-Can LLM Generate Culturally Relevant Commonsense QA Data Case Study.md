@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0102
 type: preprint
 short_title: "Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese"
-year: 2025
+year: 2024
 first_author: "[[Putri, Rifki Afina]]"
 last_author: "[[Oh, Alice]]"
 authors: "[[Putri, Rifki Afina]]; [[Haznitrama, Faiz Ghifari]]; [[Adhista, Dea]]; [[Oh, Alice]]"

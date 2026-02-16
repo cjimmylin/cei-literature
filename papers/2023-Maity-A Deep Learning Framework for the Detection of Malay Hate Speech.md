@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0107
 type: conferencePaper
 short_title: "A Deep Learning Framework for the Detection of Malay Hate Speech"
-year: 2025
+year: 2023
 first_author: "[[Krishanu Maity]]"
 last_author: "[[Manjeevan Seera]]"
 authors: Krishanu Maity; Shaubhik Bhattacharya; Sriparna Saha; Manjeevan Seera

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0276
 type: conferencePaper
 short_title: "SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter (HatEval)"
-year: 2025
+year: 2019
 first_author: "[[Basile, Valerio]]"
 last_author: "[[Sanguinetti, Manuela]]"
 authors: "[[Basile, Valerio]]; [[Bosco, Cristina]]; [[Fersini, Elisabetta]]; [[Nozza, Debora]]; [[Patti, Viviana]]; [[Pardo, Francisco Manuel Rangel]]; [[Rosso, Paolo]]; [[Sanguinetti, Manuela]]"

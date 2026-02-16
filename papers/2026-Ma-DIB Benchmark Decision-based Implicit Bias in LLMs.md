@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0276
 type: preprint
 short_title: "DIB Benchmark: Decision-based Implicit Bias in LLMs"
-year: 2025
+year: 2026
 first_author: "[[Ma, Yiming]]"
 last_author: "[[Dong, Wei]]"
 authors: "[[Ma, Yiming]]; [[Wang, Lixu]]; [[Wang, Lionel Z.]]; [[Yang, Hongkun]]; [[Sun, Haoming]]; [[Xu, Xin]]; [[Wu, Jiaqi]]; [[Chen, Bin]]; [[Dong, Wei]]"

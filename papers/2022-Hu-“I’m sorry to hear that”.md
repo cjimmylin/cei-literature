@@ -12,7 +12,7 @@ Not AI:
 key: UPAVQJBQ
 type: document
 short_title: "'I'm sorry to hear that'"
-year: 2025
+year: 2022
 first_author: "[[Minda Hu]]"
 last_author: "[[King, Irwin]]"
 authors: "[[Hu, Minda]]; [[Li, Muzhi]]; [[Wang, Yasheng]]; [[King, Irwin]]"

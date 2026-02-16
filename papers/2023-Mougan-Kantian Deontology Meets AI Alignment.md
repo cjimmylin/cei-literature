@@ -13,7 +13,7 @@ Not AI:
 key: MOUGAN2023
 type: preprint
 short_title: "Kantian Deontology Meets AI Alignment"
-year: 2025
+year: 2023
 first_author: "[[Carlos Mougan]]"
 last_author: "[[Brand, Joshua]]"
 authors: "[[Mougan, Carlos]]; [[Brand, Joshua]]"

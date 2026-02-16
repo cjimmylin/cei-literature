@@ -12,7 +12,7 @@ Not AI:
 key: V9SITYM9
 type: journalArticle
 short_title: CultureAtlas
-year: 2025
+year: 2024
 first_author: "[[Yi Fung]]"
 last_author: "[[Heng Ji]]"
 authors: "Yi Fung; Ruining Zhao; Jae Doo; Chenkai Sun; Heng Ji"

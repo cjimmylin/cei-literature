@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0190
 type: journalArticle
 short_title: "Automatic Hate Speech Detection in English-Odia Code Mixed Social Media Data Using Machine Learning Techniques"
-year: 2025
+year: 2021
 first_author: "[[Mohapatra, Sudhir Kumar]]"
 last_author: "[[Hu, Yuh-Chung]]"
 authors: "[[Mohapatra, Sudhir Kumar]]; [[Prasad, S.]]; [[Bebarta, D. K.]]; [[Das, T. K.]]; [[Srinivasan, Kathiravan]]; [[Hu, Yuh-Chung]]"

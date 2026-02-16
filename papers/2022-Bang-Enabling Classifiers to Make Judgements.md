@@ -14,7 +14,7 @@ Not AI:
 key: G38X86EQ
 type: conferencePaper
 short_title: "Enabling Classifiers to Make Judgements"
-year: 2025
+year: 2022
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Tiezheng Yu; Andrea Madotto; Zhaojiang Lin; Mona Diab; Pascale Fung"

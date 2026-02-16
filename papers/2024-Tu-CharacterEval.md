@@ -11,7 +11,7 @@ Not AI:
 key: 22DDETPV
 type: journalArticle
 short_title: CharacterEval
-year: 2025
+year: 2024
 first_author: "[[Quan Tu]]"
 last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"

@@ -13,7 +13,7 @@ Not AI:
 key: KHHKT4GV
 type: journalArticle
 short_title: HarmBench
-year: 2025
+year: 2024
 first_author: "[[Mantas Mazeika]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Mantas Mazeika; Long Phan; Xuwang Yin; Andy Zou; Zifan Wang; Norman Mu; Elham Sakhaee; Nathaniel Li; Steven Basart; Bo Li; David Forsyth; Dan Hendrycks"

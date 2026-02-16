@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0106
 type: preprint
 short_title: "MaLLaM -- Malaysia Large Language Model"
-year: 2025
+year: 2024
 first_author: "[[Husein Zolkepli]]"
 last_author: "[[Aisyah Razak Husein Zolkepli]]"
 authors: "Husein Zolkepli, Aisyah Razak"

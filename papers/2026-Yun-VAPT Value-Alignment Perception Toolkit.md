@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0260
 type: preprint
 short_title: "VAPT: Value-Alignment Perception Toolkit"
-year: 2025
+year: 2026
 first_author: "[[Yun, Bhada]]"
 last_author: "[[Wang, April Yi]]"
 authors: "[[Yun, Bhada]]; [[Su, Renn]]; [[Wang, April Yi]]"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0624
 type: conferencePaper
 short_title: "Research on Uyghur‐Chinese Neural Machine Translation Based on the Transformer at Multistrategy Segmentation Granularity - Xu - 2021 - Mobile Information Systems - Wiley Online Library"
-year: 2025
+year: 2021
 first_author: "[[Combining Pretrained]]"
 last_author: "[[Combining Pretrained]]"
 authors: "Combining Pretrained"

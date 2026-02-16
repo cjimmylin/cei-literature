@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0019
 type: conferencePaper
 short_title: "Identifying Abusive Comments in Hebrew Facebook"
-year: 2025
+year: 2018
 first_author: "[[Chaya Liebeskind]]"
 last_author: "[[Shmuel Liebeskind Chaya Liebeskind]]"
 authors: "Chaya Liebeskind, Shmuel Liebeskind"

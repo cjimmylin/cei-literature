@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0374
 type: preprint
 short_title: "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[CMC AI team]]"
 last_author: "[[CMC AI team]]"
 authors: "CMC AI team"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0192
 type: conferencePaper
 short_title: "Sinhala Hate Speech Detection in Social Media using Text Mining and Machine Learning"
-year: 2025
+year: 2020
 first_author: "[[H. M. S. T. Sandaruwan]]"
 last_author: "[[M. Kalyani]]"
 authors: H. M. S. T. Sandaruwan; S. A. S. Lorensuhewa; M. Kalyani

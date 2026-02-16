@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0467
 type: preprint
 short_title: "GAHD: Improving Adversarial Data Collection by Supporting Annotators - Lessons from a German Hate Speech Dataset"
-year: 2025
+year: 2024
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Gerold Schneider]]"
 authors: "Janis Goldzycher, Paul Rottger, Gerold Schneider"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0245
 type: preprint
 short_title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-year: 2025
+year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Stella Biderman]]"
 authors: "Guijin Son, Hanwool Lee, Sungdong Kim, Seungone Kim, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"

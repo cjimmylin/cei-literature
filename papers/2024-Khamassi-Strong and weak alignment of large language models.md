@@ -13,7 +13,7 @@ Not AI:
 key: ARXIV2408_04655
 type: preprint
 short_title: "Strong and weak alignment of large language models"
-year: 2025
+year: 2024
 first_author: "[[Mehdi Khamassi]]"
 last_author: "[[Chatila, Raja]]"
 authors: "[[Khamassi, Mehdi]]; [[Nahon, Marceau]]; [[Chatila, Raja]]"

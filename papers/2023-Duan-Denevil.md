@@ -13,7 +13,7 @@ Not AI:
 key: NFX5I9VC
 type: conferencePaper
 short_title: Denevil
-year: 2025
+year: 2023
 first_author: "[[Shitong Duan]]"
 last_author: "[[Ning Gu]]"
 authors: "Shitong Duan; Xiaoyuan Yi; Peng Zhang; Tun Lu; Xing Xie; Ning Gu"

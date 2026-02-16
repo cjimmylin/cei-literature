@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0357
 type: conferencePaper
 short_title: "Detecting Hate Speech Online: A Case of Croatian"
-year: 2025
+year: 2020
 first_author: "[[Mladen Karan]]"
 last_author: "[[Jan Snajder Mladen Karan]]"
 authors: "Mladen Karan, Jan Snajder"

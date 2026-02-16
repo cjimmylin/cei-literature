@@ -13,7 +13,7 @@ Not AI:
 key: HG5EQ6PE
 type: conferencePaper
 short_title: "Case Study"
-year: 2025
+year: 2021
 first_author: "[[Shrimai Prabhumoye]]"
 last_author: "[[Black, Alan W]]"
 authors: "[[Prabhumoye, Shrimai]]; [[Boldt, Brendon]]; [[Salakhutdinov, Ruslan]]; [[Black, Alan W]]"

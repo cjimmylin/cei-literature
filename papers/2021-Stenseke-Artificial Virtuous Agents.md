@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_STENSEKE2021
 type: journalArticle
 short_title: "Artificial Virtuous Agents"
-year: 2025
+year: 2021
 first_author: "[[Jakob Stenseke]]"
 last_author: "[[Jakob Stenseke]]"
 authors: "[[Stenseke, Jakob]]"

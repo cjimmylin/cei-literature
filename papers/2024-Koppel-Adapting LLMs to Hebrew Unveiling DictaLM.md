@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0457
 type: preprint
 short_title: "Adapting LLMs to Hebrew Unveiling DictaLM"
-year: 2025
+year: 2024
 first_author: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"
 last_author: "[[Moshe Koppel Amir DN Cohen]]"
 authors: "[[Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel]]"

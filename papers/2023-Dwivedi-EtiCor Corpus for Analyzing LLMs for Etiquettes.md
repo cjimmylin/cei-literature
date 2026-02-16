@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0237
 type: conferencePaper
 short_title: "EtiCor: Corpus for Analyzing LLMs for Etiquettes"
-year: 2025
+year: 2023
 first_author: "[[Ashutosh Dwivedi]]"
 last_author: "[[Ashutosh Modi]]"
 authors: "Ashutosh Dwivedi; Pradhyumna Lavania; Ashutosh Modi"

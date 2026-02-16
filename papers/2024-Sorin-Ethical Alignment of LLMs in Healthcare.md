@@ -13,7 +13,7 @@ Not AI:
 key: SORIN2024MEDRXIV
 type: preprint
 short_title: "Ethical Alignment of LLMs in Healthcare"
-year: 2025
+year: 2024
 first_author: "[[V. Sorin]]"
 last_author: "[[E. Klang]]"
 authors: "V. Sorin; B.S. Glicksberg; P. Korfiatis; G.N. Nadkarni; E. Klang"

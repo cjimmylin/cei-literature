@@ -15,7 +15,7 @@ Not AI:
 key: BPQVTDT8
 type: conferencePaper
 short_title: "AI Safety in Generative AI Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Jaymari Chua]]"
 last_author: "[[Lina Yao]]"
 authors: "Jaymari Chua; Yun Li; Shiyi Yang; Chen Wang; Lina Yao"

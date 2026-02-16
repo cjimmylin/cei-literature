@@ -15,7 +15,7 @@ Not AI:
 key: YREDBMMJ
 type: conferencePaper
 short_title: "Holistic Safety and Responsibility Evaluations of"
-year: 2025
+year: 2024
 first_author: "[[Laura Weidinger]]"
 last_author: "[[William Isaac]]"
 authors: "Laura Weidinger; Joslyn Barnhart; Jenny Brennan; Christina Butterfield; Susie Young; Will Hawkins; Lisa Anne Hendricks; Ramona Comanescu; Oscar Chang; Mikel Rodriguez; Jennifer Beroshi; Dawn Bloxwich; Lev Proleev; Jilin Chen; Sebastian Farquhar; Lewis Ho; Iason Gabriel; Allan Dafoe; William Isaac"

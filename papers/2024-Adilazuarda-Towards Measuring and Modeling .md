@@ -13,7 +13,7 @@ Not AI:
 key: 7SYVF7GD
 type: conferencePaper
 short_title: "Towards Measuring and Modeling \"
-year: 2025
+year: 2024
 first_author: "[[Muhammad Farid Adilazuarda]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Muhammad Farid Adilazuarda; Sagnik Mukherjee; Pradhyumna Lavania; Siddhant Singh; Alham Fikri Aji; Jacki O'Neill; Ashutosh Modi; Monojit Choudhury"

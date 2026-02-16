@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0275
 type: conferencePaper
 short_title: "Speaking Multiple Languages Affects the Moral Bias of Language Models"
-year: 2025
+year: 2023
 first_author: "[[Katharina Hämmerl]]"
 last_author: "[[Patrick Schramowski]]"
 authors: "Katharina Hämmerl, Björn Deiseroth, Patrick Schramowski, others"

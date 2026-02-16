@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0278
 type: preprint
 short_title: "OffTheRails: Procedural Dilemma Generation for Moral Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Fränken, Jan-Philipp]]"
 last_author: "[[Gerstenberg, Tobias]]"
 authors: "[[Fränken, Jan-Philipp]]; [[Gandhi, Kanishk]]; [[Qiu, Tori]]; [[Khawaja, Ayesha]]; [[Goodman, Noah D.]]; [[Gerstenberg, Tobias]]"

@@ -13,7 +13,7 @@ Not AI:
 key: DP24FAMZ
 type: conferencePaper
 short_title: Eagle
-year: 2025
+year: 2024
 first_author: "[[Masahiro Kaneko]]"
 last_author: "[[Timothy Baldwin]]"
 authors: "Masahiro Kaneko; Danushka Bollegala; Timothy Baldwin"

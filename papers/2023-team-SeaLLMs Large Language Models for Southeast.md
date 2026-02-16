@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0570
 type: preprint
 short_title: "SeaLLMs Large Language Models for Southeast"
-year: 2025
+year: 2023
 first_author: "[[team, DAMO Academy / Alibaba]]"
 last_author: "[[DAMO Academy Alibaba team]]"
 authors: "[[DAMO Academy / Alibaba team]]"

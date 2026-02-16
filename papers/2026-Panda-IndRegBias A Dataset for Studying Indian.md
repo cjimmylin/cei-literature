@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0306
 type: preprint
 short_title: "IndRegBias A Dataset for Studying Indian"
-year: 2025
+year: 2026
 first_author: "[[Debasmita Panda]]"
 last_author: "[[Neelesh Kumar Shukla]]"
 authors: "[[Debasmita Panda]]; [[Akash Anil]]; [[Neelesh Kumar Shukla]]"

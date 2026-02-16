@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0502
 type: preprint
 short_title: "LIEA-BERT A Linguistically Enriched Framework for"
-year: 2025
+year: 2024
 first_author: "[[Nwaiwu, Steve]]"
 last_author: "[[Tungkasthan, Anucha]]"
 authors: Steve Nwaiwu; Nipat Jongsawat; Anucha Tungkasthan

@@ -13,7 +13,7 @@ Not AI:
 key: SD7W6PHQ
 type: conferencePaper
 short_title: DailyDilemmas
-year: 2025
+year: 2024
 first_author: "[[Yu Ying Chiu]]"
 last_author: "[[Yejin Choi]]"
 authors: "Yu Ying Chiu; Liwei Jiang; Yejin Choi"

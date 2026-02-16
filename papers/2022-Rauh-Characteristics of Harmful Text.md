@@ -14,7 +14,7 @@ Not AI:
 key: FQ6AW6NE
 type: conferencePaper
 short_title: "Characteristics of Harmful Text"
-year: 2025
+year: 2022
 first_author: "[[Maribeth Rauh]]"
 last_author: "[[Lisa Anne Hendricks]]"
 authors: "Maribeth Rauh; John Mellor; Jonathan Uesato; Po-Sen Huang; Johannes Welbl; Laura Weidinger; Sumanth Dathathri; Amelia Glaese; Geoffrey Irving; Iason Gabriel; William Isaac; Lisa Anne Hendricks"

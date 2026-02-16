@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0209
 type: conferencePaper
 short_title: "Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?"
-year: 2025
+year: 2024
 first_author: "[[Xu, Shaoyang]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "[[Xu, Shaoyang]]; [[Dong, Weilong]]; [[Guo, Zishan]]; [[Wu, Xinwei]]; [[Xiong, Deyi]]"

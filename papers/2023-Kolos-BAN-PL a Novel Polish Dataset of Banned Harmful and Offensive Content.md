@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0334
 type: preprint
 short_title: "BAN-PL: a Novel Polish Dataset of Banned Harmful and Offensive Content from Wykop.pl web service"
-year: 2025
+year: 2023
 first_author: "[[Anna Kolos]]"
 last_author: "[[Andrzej Pralat]]"
 authors: "Anna Kolos, Inez Okulska, Kinga Glabinska, Agnieszka Karlinska, Emilia Wisnios, Pawel Ellerik, Andrzej Pralat"

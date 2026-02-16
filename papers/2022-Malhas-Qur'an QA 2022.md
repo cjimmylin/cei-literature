@@ -12,7 +12,7 @@ Not AI:
 key: 9WI2A33A
 type: conferencePaper
 short_title: "Qur'an QA 2022"
-year: 2025
+year: 2022
 first_author: "[[Rana Malhas]]"
 last_author: "[[Tamer Elsayed]]"
 authors: "Rana Malhas; Watheq Mansour; Tamer Elsayed"

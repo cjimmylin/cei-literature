@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0595
 type: preprint
 short_title: "NaijaSenti A Nigerian Twitter Sentiment Corpus"
-year: 2025
+year: 2022
 first_author: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"
 last_author: "[[Pavel Brazdil Alipio Jorge]]"
 authors: "[[Shamsuddeen Hassan Muhammad, David Ifeoluwa Adelani, Sebastian Ruder, Ibrahim Sa'id Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jorge, Pavel Brazdil]]"

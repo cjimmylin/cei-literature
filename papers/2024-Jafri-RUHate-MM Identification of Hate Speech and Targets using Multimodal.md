@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0319
 type: conferencePaper
 short_title: "RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis"
-year: 2025
+year: 2024
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Naseem, Usman]]"
 authors: "[[Thapa, Surendrabikram]]; [[Jafri, Farhan Ahmad]]; [[Rauniyar, Kritesh]]; [[Nasim, Mehwish]]; [[Naseem, Usman]]"

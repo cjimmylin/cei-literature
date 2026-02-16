@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0370
 type: preprint
 short_title: "PhoGPT: Generative Pre-training for Vietnamese"
-year: 2025
+year: 2023
 first_author: "[[Dat Quoc Nguyen]]"
 last_author: "[[Hung Bui Dinh Phung]]"
 authors: "Dat Quoc Nguyen, Linh The Nguyen, Chi Tran, Dung Ngoc Nguyen, Dinh Phung, Hung Bui"

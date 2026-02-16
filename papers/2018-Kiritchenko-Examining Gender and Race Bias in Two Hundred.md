@@ -14,7 +14,7 @@ Not AI:
 key: J74UL4ZK
 type: conferencePaper
 short_title: "Examining Gender and Race Bias in Two Hundred"
-year: 2025
+year: 2018
 first_author: "[[Svetlana Kiritchenko]]"
 last_author: "[[Saif M. Mohammad]]"
 authors: "Svetlana Kiritchenko; Saif M. Mohammad"

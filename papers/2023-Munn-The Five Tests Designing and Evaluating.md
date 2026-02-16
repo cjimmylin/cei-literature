@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0573
 type: preprint
 short_title: "The Five Tests Designing and Evaluating"
-year: 2025
+year: 2023
 first_author: "[[Munn, Luke]]"
 last_author: "[[Luke Munn]]"
 authors: "[[Luke Munn]]"

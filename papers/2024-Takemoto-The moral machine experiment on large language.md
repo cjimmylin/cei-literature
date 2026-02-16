@@ -13,7 +13,7 @@ Not AI:
 key: AMHDLEK2
 type: journalArticle
 short_title: "The moral machine experiment on large language"
-year: 2025
+year: 2024
 first_author: "[[Kazuhiro Takemoto]]"
 last_author: "[[Kazuhiro Takemoto]]"
 authors: "Kazuhiro Takemoto"

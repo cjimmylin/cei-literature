@@ -13,7 +13,7 @@ Not AI:
 key: SP9YXGKI
 type: document
 short_title: "What Makes it Ok to Set a Fire? Iterative"
-year: 2025
+year: 2023
 first_author: "[[Kavel Rao]]"
 last_author: "[[Choi, Yejin]]"
 authors: "[[Rao, Kavel]]; [[Jiang, Liwei]]; [[Pyatkin, Valentina]]; [[Gu, Yuling]]; [[Tandon, Niket]]; [[Dziri, Nouha]]; [[Brahman, Faeze]]; [[Choi, Yejin]]"

@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0517
 type: preprint
 short_title: "Parity Benchmark for Measuring Bias in"
-year: 2025
+year: 2024
 first_author: "[[Stephen J. Simpson]]"
 last_author: "[[Raaghav Pandya]]"
 authors: Stephen J. Simpson; Jonathan Nukpezah; Kie Brooks; Raaghav Pandya

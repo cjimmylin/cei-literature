@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0509
 type: conferencePaper
 short_title: "AMI @ EVALITA2020: Automatic Misogyny Identification"
-year: 2025
+year: 2020
 first_author: "[[Nozza, Debora]]"
 last_author: "[[Debora Nozza]]"
 authors: "[[Nozza, Debora]]"

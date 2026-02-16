@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Safe RLHF"
-year: 2025
+year: 2023
 first_author: "[[Josef Dai]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Josef Dai; Xuehai Pan; Ruiyang Sun; Jiaming Ji; Xinbo Xu; Mickel Liu; Yizhou Wang; Yaodong Yang"

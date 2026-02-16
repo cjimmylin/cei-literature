@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0484
 type: conference_paper
 short_title: "Gender Bias in Turkish Word Embeddings"
-year: 2025
+year: 2024
 first_author: "[[Altinok, Duygu]]"
 last_author: "[[Duygu Altinok]]"
 authors: "[[Altinok, Duygu]]"

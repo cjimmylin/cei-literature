@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0316
 type: preprint
 short_title: "X-MuTeST A Multilingual Benchmark for Explainable"
-year: 2025
+year: 2026
 first_author: "[[Rehman, Mohammad Zia Ur]]"
 last_author: "[[Kumar, Nagendra]]"
 authors: "[[Rehman, Mohammad Zia Ur]]; [[Kasu, Sai Kartheek Reddy]]; [[Koppula, Shashivardhan Reddy]]; [[Chirra, Sai Rithwik Reddy]]; [[Singh, Shwetank Shekhar]]; [[Kumar, Nagendra]]"

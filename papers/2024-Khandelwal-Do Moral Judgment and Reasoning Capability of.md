@@ -12,7 +12,7 @@ Not AI:
 key: UXYJSN98
 type: conferencePaper
 short_title: "Do Moral Judgment and Reasoning Capability of"
-year: 2025
+year: 2024
 first_author: "[[Aditi Khandelwal]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury"

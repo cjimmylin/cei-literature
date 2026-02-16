@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0200
 type: conferencePaper
 short_title: "WoNBias: A Complete Bengali Gender Bias Dataset"
-year: 2025
+year: 2024
 first_author: "[[Aupi, Md. Raisul Islam]]"
 last_author: "[[Rahman, Naimur]]"
 authors: Md. Raisul Islam Aupi; Nishat Tafannum; Md. Shahidur Rahman; Kh Mahmudul Hassan; Naimur Rahman

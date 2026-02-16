@@ -13,7 +13,7 @@ Not AI:
 key: CZYS2N2K
 type: document
 short_title: RealToxicityPrompts
-year: 2025
+year: 2020
 first_author: "[[Samuel Gehman]]"
 last_author: "[[Smith, Noah A]]"
 authors: "[[Gehman, Samuel]]; [[Gururangan, Suchin]]; [[Sap, Maarten]]; [[Choi, Yejin]]; [[Smith, Noah A.]]"

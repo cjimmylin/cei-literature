@@ -13,7 +13,7 @@ Not AI:
 key: 3HZFJKID
 type: conferencePaper
 short_title: TrustAgent
-year: 2025
+year: 2024
 first_author: "[[Wenyue Hua]]"
 last_author: "[[Yongfeng Zhang]]"
 authors: "Wenyue Hua; Xianjun Yang; Mingyu Jin; Zelong Li; Wei Cheng; Ruixiang Tang; Yongfeng Zhang"

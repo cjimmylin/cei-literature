@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0366
 type: preprint
 short_title: "ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Trong-Hieu Nguyen]]"
 last_author: "[[Le-Minh Nguyen]]"
 authors: "Trong-Hieu Nguyen, Quang-Bao Ta, Cuc Thi Bui, Phong Nguyen-Thuan Do, Le-Minh Nguyen"

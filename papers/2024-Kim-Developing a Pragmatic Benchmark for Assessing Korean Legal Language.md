@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0259
 type: preprint
 short_title: "Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Yeeun Kim]]"
 last_author: "[[Wonseok Hwang Hai Jin Park]]"
 authors: "Yeeun Kim, Young Rok Choi, Eunkyung Choi, Jinhwan Choi, Hai Jin Park, Wonseok Hwang"

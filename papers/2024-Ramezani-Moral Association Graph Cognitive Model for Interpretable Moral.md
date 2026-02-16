@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0279
 type: journalArticle
 short_title: "Moral Association Graph: Cognitive Model for Interpretable Moral Inference"
-year: 2025
+year: 2024
 first_author: "[[A. & Xu Ramezani]]"
 last_author: "[[Y.]]"
 authors: "Ramezani, A. & Xu, Y."

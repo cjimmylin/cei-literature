@@ -13,7 +13,7 @@ Not AI:
 key: ICKIA82Q
 type: conferencePaper
 short_title: "Concept Alignment"
-year: 2025
+year: 2024
 first_author: "[[Sunayana Rane]]"
 last_author: "[[Griffiths, Thomas L]]"
 authors: "[[Rane, Sunayana]]; [[Bruna, Polyphony J.]]; [[Sucholutsky, Ilia]]; [[Kello, Christopher]]; [[Griffiths, Thomas L.]]"

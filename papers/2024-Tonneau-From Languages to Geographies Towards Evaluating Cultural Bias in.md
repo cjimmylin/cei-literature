@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0289
 type: preprint
 short_title: "From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets"
-year: 2025
+year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Röttger, Paul]]"
 authors: "[[Tonneau, Manuel]]; [[Liu, Diyi]]; [[Fraiberger, Samuel]]; [[Schroeder, Ralph]]; [[Hale, Scott A.]]; [[Röttger, Paul]]"

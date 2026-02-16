@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_FARINA2024
 type: journalArticle
 short_title: "AI and Society Virtue Ethics Approach"
-year: 2025
+year: 2024
 first_author: "[[Mirko Farina]]"
 last_author: "[[Lavazza, Andrea]]"
 authors: "[[Farina, Mirko]]; [[Zhdanov, Petr]]; [[Karimov, Artur]]; [[Lavazza, Andrea]]"

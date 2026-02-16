@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0525
 type: preprint
 short_title: "Sailor Open Language Models for South-East"
-year: 2025
+year: 2024
 first_author: "[[Dou, Longxu]]"
 last_author: "[[Lin, Min]]"
 authors: "[[Dou, Longxu]]; [[Liu, Qian]]; [[Zeng, Guangtao]]; [[Guo, Jia]]; [[Zhou, Jiahui]]; [[Lu, Wei]]; [[Lin, Min]]"

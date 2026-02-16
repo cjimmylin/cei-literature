@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0259
 type: preprint
 short_title: "GVS-Scale and GVS-Bench: GenAI Value Safety Scale"
-year: 2025
+year: 2026
 first_author: "[[He, Ying]]"
 last_author: "[[Ren, Shangsheng]]"
 authors: "[[He, Ying]]; [[Li, Baiyang]]; [[Cao, Yule]]; [[Xu, Huirun]]; [[Chen, Qiuxian]]; [[Chen, Shu]]; [[Ren, Shangsheng]]"

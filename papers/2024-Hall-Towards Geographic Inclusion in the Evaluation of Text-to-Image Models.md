@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0223
 type: preprint
 short_title: "Towards Geographic Inclusion in the Evaluation of Text-to-Image Models"
-year: 2025
+year: 2024
 first_author: "[[Melissa Hall]]"
 last_author: "[[Adriana Romero Soriano]]"
 authors: "Melissa Hall; Samuel J. Bell; Candace Ross; Adina Williams; Michal Drozdzal; Adriana Romero Soriano"

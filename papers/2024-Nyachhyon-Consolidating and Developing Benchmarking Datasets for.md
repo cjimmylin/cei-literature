@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0470
 type: preprint
 short_title: "Consolidating and Developing Benchmarking Datasets for"
-year: 2025
+year: 2024
 first_author: "[[Jinu Nyachhyon]]"
 last_author: "[[Bal Krishna Bal]]"
 authors: Jinu Nyachhyon; Mridul Sharma; Prajwal Thapa; Bal Krishna Bal

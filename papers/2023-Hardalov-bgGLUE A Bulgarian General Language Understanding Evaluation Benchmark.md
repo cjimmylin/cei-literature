@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0321
 type: preprint
 short_title: "bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark"
-year: 2025
+year: 2023
 first_author: "[[Momchil Hardalov]]"
 last_author: "[[Dragomir Radev Preslav Nakov]]"
 authors: "Momchil Hardalov, Pepa Atanasova, Todor Mihaylov, Galia Angelova, Kiril Simov, Petya Osenova, Ves Stoyanov, Ivan Koychev, Preslav Nakov, Dragomir Radev"

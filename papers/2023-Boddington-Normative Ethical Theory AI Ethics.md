@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: bookChapter
 short_title: "Normative Ethical Theory AI Ethics"
-year: 2025
+year: 2023
 first_author: "[[Paula Boddington]]"
 last_author: "[[Paula Boddington]]"
 authors: "Paula Boddington"

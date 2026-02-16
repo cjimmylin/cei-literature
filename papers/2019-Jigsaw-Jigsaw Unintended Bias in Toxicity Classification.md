@@ -14,7 +14,7 @@ Not AI:
 key: JASNQSSB
 type: document
 short_title: "Jigsaw Unintended Bias in Toxicity Classification"
-year: 2025
+year: 2019
 first_author: "[[Jigsaw]]"
 last_author: "[[Kaggle]]"
 authors: "Jigsaw; Kaggle /"

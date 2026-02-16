@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0098
 type: preprint
 short_title: "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language"
-year: 2025
+year: 2024
 first_author: "[[Susanto, Lucky]]"
 last_author: "[[Wijaya, Derry]]"
 authors: "[[Susanto, Lucky]]; [[Wijanarko, Musa Izzanardi]]; [[Pratama, Prasetia Anugrah]]; [[Hong, Traci]]; [[Idris, Ika]]; [[Aji, Alham Fikri]]; [[Wijaya, Derry]]"

@@ -13,7 +13,7 @@ Not AI:
 key: GJT972ES
 type: conferencePaper
 short_title: "Zero-shot Visual Commonsense Immorality Prediction"
-year: 2025
+year: 2022
 first_author: "[[Yujin Jeong]]"
 last_author: "[[Jinkyu Kim]]"
 authors: "Yujin Jeong; Seongbeom Park; Suhong Moon; Jinkyu Kim"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0543
 type: journalArticle
 short_title: "AI-Based Hate Speech Detection in Albanian Social Media: New Dataset and Mobile Web Application Integration"
-year: 2025
+year: 2024
 first_author: "[[Etrit Fetahi]]"
 last_author: "[[Xhemal Zenuni]]"
 authors: "Etrit Fetahi, Majlinda Hamiti, Arianit Susuri, Jaumin Ajdari, Xhemal Zenuni"

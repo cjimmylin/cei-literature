@@ -13,7 +13,7 @@ Not AI:
 key: VRNNC6SF
 type: document
 short_title: "Some Issues in Predictive Ethics Modeling"
-year: 2025
+year: 2024
 first_author: "[[Ben Fitzgerald]]"
 last_author: "[[Ben Fitzgerald]]"
 authors: "Ben Fitzgerald"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0670
 type: preprint
 short_title: "Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance"
-year: 2025
+year: 2024
 first_author: "[[Chen, Andong]]"
 last_author: "[[Zhang, Min]]"
 authors: "[[Chen, Andong]]; [[Lou, Lianzhang]]; [[Chen, Kehai]]; [[Bai, Xuefeng]]; [[Xiang, Yang]]; [[Yang, Muyun]]; [[Zhao, Tiejun]]; [[Zhang, Min]]"

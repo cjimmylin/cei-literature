@@ -12,7 +12,7 @@ Human View note:
 Not AI: 
 key: RL573MSX
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "Frontier AI Ethics"
 first_author: "[[Seth Lazar]]"
 last_author: "[[Seth Lazar]]"

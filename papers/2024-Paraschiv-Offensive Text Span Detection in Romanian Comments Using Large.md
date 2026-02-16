@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0524
 type: conferencePaper
 short_title: "Offensive Text Span Detection in Romanian Comments Using Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Andrei Paraschiv]]"
 last_author: "[[Mihai Dascalu]]"
 authors: "[[Andrei Paraschiv]]; [[Teodora Andreea Ion]]; [[Mihai Dascalu]]"

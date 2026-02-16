@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0618
 type: preprint
 short_title: "Are They Our Brothers Analysis and"
-year: 2025
+year: 2018
 first_author: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"
 last_author: "[[Shivakant Mishra]]"
 authors: "[[Nuha Albadi, Maram Kurdi, Shivakant Mishra]]"

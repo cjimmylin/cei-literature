@@ -14,7 +14,7 @@ Not AI:
 key: YXZ79HSK
 type: document
 short_title: "Benchmarking Ethics in Text-to-Image Models"
-year: 2025
+year: 2024
 first_author: "[[Lijun Li]]"
 last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"

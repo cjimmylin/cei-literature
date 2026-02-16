@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0617
 type: preprint
 short_title: "Annotating Antisemitic Online Content Towards an"
-year: 2025
+year: 2019
 first_author: "[[Jikeli, Cavar,]]"
 last_author: "[[Cavar]]"
 authors: "[[Jikeli, Cavar,]]"

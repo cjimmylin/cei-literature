@@ -14,7 +14,7 @@ Not AI:
 key: LGVXSBWF
 type: journalArticle
 short_title: "Macro Ethics Principles for Responsible AI Systems"
-year: 2025
+year: 2024
 first_author: "[[Jessica Woodgate]]"
 last_author: "[[Nirav Ajmeri]]"
 authors: "Jessica Woodgate; Nirav Ajmeri"

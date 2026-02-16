@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0012
 type: preprint
 short_title: PsychEthicsBench
-year: 2025
+year: 2026
 first_author: "[[Shen, Yaling]]"
 last_author: "[[Ge, Zongyuan]]"
 authors: "[[Shen, Yaling]]; [[Fong, Stephanie]]; [[Jiang, Yiwen]]; [[Wang, Zimu]]; [[Tang, Feilong]]; [[Xu, Qingyang]]; [[Zhao, Xiangyu]]; [[Xu, Zhongxing]]; [[Liu, Jiahe]]; [[Hu, Jinpeng]]; [[Dwyer, Dominic]]; [[Ge, Zongyuan]]"

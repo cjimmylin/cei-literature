@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0010
 type: preprint
 short_title: PluriHarms
-year: 2025
+year: 2026
 first_author: "[[Li, Jing-Jing]]"
 last_author: "[[Levine, Sydney]]"
 authors: "[[Li, Jing-Jing]]; [[Mire, Joel]]; [[Fleisig, Eve]]; [[Pyatkin, Valentina]]; [[Collins, Anne]]; [[Sap, Maarten]]; [[Levine, Sydney]]"

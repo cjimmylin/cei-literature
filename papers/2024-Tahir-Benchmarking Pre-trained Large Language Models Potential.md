@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0463
 type: preprint
 short_title: "Benchmarking Pre-trained Large Language Models Potential"
-year: 2025
+year: 2024
 first_author: "[[Tahir, Munief Hassan]]"
 last_author: "[[Hussain, Sarmad]]"
 authors: "[[Tahir, Munief Hassan]]; [[Shams, Sana]]; [[Fiaz, Layba]]; [[Adeeba, Farah]]; [[Hussain, Sarmad]]"

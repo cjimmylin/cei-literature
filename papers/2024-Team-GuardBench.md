@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0179
 type: conferencePaper
 short_title: GuardBench
-year: 2025
+year: 2024
 first_author: "[[GuardBench Team]]"
 last_author: "[[GuardBench Team]]"
 authors: "GuardBench Team"

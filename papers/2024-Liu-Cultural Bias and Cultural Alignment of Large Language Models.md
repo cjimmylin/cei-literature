@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0257
 type: preprint
 short_title: "Cultural Bias and Cultural Alignment of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Yongshuo Liu]]"
 last_author: "[[Nanyun Peng Linyuan Gong]]"
 authors: "Yongshuo Liu, Di Jin, Linyuan Gong, Nanyun Peng"

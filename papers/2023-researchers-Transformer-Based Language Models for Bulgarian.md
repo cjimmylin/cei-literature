@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0329
 type: conferencePaper
 short_title: "Transformer-Based Language Models for Bulgarian"
-year: 2025
+year: 2023
 first_author: "[[INSAIT / CLaDA-BG researchers]]"
 last_author: "[[INSAIT CLaDA-BG researchers]]"
 authors: "INSAIT / CLaDA-BG researchers"

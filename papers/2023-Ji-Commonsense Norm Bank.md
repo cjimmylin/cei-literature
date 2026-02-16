@@ -14,7 +14,7 @@ Not AI:
 key: 5KGFXUZK
 type: conferencePaper
 short_title: "Commonsense Norm Bank"
-year: 2025
+year: 2023
 first_author: "[[Xuhui Ji]]"
 last_author: "[[Xuhui Ji]]"
 authors: "Xuhui Ji"

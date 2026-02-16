@@ -12,7 +12,7 @@ Not AI:
 key: IWWHX64V
 type: journalArticle
 short_title: "The Moral Foundations Weibo Corpus"
-year: 2025
+year: 2024
 first_author: "[[Renjie Cao]]"
 last_author: "[[Ihnaini, Baha]]"
 authors: "[[Cao, Renjie]]; [[Hu, Miaoyan]]; [[Wei, Jiahan]]; [[Ihnaini, Baha]]"

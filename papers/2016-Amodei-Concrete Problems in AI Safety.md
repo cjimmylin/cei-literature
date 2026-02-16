@@ -14,7 +14,7 @@ Not AI:
 key: 2KFZELQU
 type: document
 short_title: "Concrete Problems in AI Safety"
-year: 2025
+year: 2016
 first_author: "[[Dario Amodei]]"
 last_author: "[[Dan Mané]]"
 authors: "Dario Amodei; Chris Olah; Jacob Steinhardt; Paul Christiano; John Schulman; Dan Mané"

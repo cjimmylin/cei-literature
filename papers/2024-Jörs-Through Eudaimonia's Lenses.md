@@ -14,7 +14,7 @@ Not AI:
 key: AUTO_JORS2024
 type: conferencePaper
 short_title: "Through Eudaimonia's Lenses"
-year: 2025
+year: 2024
 first_author: "[[Julian Marvin Jörs]]"
 last_author: "[[De Luca, Ernesto William]]"
 authors: "[[Jörs, Julian Marvin]]; [[De Luca, Ernesto William]]"

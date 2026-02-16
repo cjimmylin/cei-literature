@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0202
 type: conferencePaper
 short_title: "Multilingual Defining Issues Test"
-year: 2025
+year: 2024
 first_author: "[[Aditi Khandelwal]]"
 last_author: "[[Monojit Choudhury Kumar Tanmay]]"
 authors: "Aditi Khandelwal, Utkarsh Agarwal, Kumar Tanmay, Monojit Choudhury"

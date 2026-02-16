@@ -12,7 +12,7 @@ Not AI:
 key: CWLWCFUJ
 type: conferencePaper
 short_title: BBQ
-year: 2025
+year: 2022
 first_author: "[[Alicia Parrish]]"
 last_author: "[[Samuel Bowman]]"
 authors: "Alicia Parrish; Angelica Chen; Nikita Nangia; Vishakh Padmakumar; Jason Phang; Jana Thompson; Phu Mon Htut; Samuel Bowman"

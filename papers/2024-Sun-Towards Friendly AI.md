@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_SUN2024
 type: preprint
 short_title: "Towards Friendly AI"
-year: 2025
+year: 2024
 first_author: "[[Qiyang Sun]]"
 last_author: "[[Schuller, Björn W]]"
 authors: "[[Sun, Qiyang]]; [[Li, Yupei]]; [[Alturki, Emran]]; [[Murthy, Sunil Munthumoduku Krishna]]; [[Schuller, Björn W.]]"

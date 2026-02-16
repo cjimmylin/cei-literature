@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0608
 type: preprint
 short_title: "MasakhaNER Named Entity Recognition for African"
-year: 2025
+year: 2021
 first_author: "[[Adelani, David Ifeoluwa]]"
 last_author: "[[Osei, Salomey]]"
 authors: "[[Adelani, David Ifeoluwa]]; [[Abbott, Jade]]; [[Neubig, Graham]]; [[D'souza, Daniel]]; [[Kreutzer, Julia]]; [[Lignos, Constantine]]; [[Palen-Michel, Chester]]; [[Buzaaba, Happy]]; [[Rijhwani, Shruti]]; [[Ruder, Sebastian]]; [[Mayhew, Stephen]]; [[Azime, Israel Abebe]]; [[Muhammad, Shamsuddeen]]; [[Emezue, Chris Chinenye]]; [[Nakatumba-Nabende, Joyce]]; [[Ogayo, Perez]]; [[Aremu, Anuoluwapo]]; [[Gitau, Catherine]]; [[Mbaye, Derguene]]; [[Alabi, Jesujoba]]; [[Yimam, Seid Muhie]]; [[Gwadabe, Tajuddeen]]; [[Ezeani, Ignatius]]; [[Niyongabo, Rubungo Andre]]; [[Mukiibi, Jonathan]]; [[Otiende, Verrah]]; [[Orife, Iroro]]; [[David, Davis]]; [[Ngom, Samba]]; [[Adewumi, Tosin]]; [[Rayson, Paul]]; [[Adeyemi, Mofetoluwa]]; [[Muriuki, Gerald]]; [[Anebi, Emmanuel]]; [[Chukwuneke, Chiamaka]]; [[Odu, Nkiruka]]; [[Wairagala, Eric Peter]]; [[Oyerinde, Samuel]]; [[Siro, Clemencia]]; [[Bateesa, Tobius Saul]]; [[Oloyede, Temilola]]; [[Wambui, Yvonne]]; [[Akinode, Victor]]; [[Nabagereka, Deborah]]; [[Katusiime, Maurice]]; [[Awokoya, Ayodele]]; [[MBOUP, Mouhamadane]]; [[Gebreyohannes, Dibora]]; [[Tilaye, Henok]]; [[Nwaike, Kelechi]]; [[Wolde, Degaga]]; [[Faye, Abdoulaye]]; [[Sibanda, Blessing]]; [[Ahia, Orevaoghene]]; [[Dossou, Bonaventure F. P.]]; [[Ogueji, Kelechi]]; [[DIOP, Thierno Ibrahima]]; [[Diallo, Abdoulaye]]; [[Akinfaderin, Adewale]]; [[Marengereke, Tendai]]; [[Osei, Salomey]]"

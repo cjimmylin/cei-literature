@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0015
 type: preprint
 short_title: "On Limitations of LLM as Annotator for Low Resource Languages (Marathi case study)"
-year: 2025
+year: 2024
 first_author: "[[Jadhav, Suramya]]"
 last_author: "[[Joshi, Raviraj]]"
 authors: "[[Jadhav, Suramya]]; [[Shanbhag, Abhay]]; [[Thakurdesai, Amogh]]; [[Sinare, Ridhima]]; [[Joshi, Raviraj]]"

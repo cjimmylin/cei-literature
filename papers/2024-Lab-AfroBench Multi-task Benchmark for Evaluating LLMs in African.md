@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0458
 type: conferencePaper
 short_title: "AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages"
-year: 2025
+year: 2024
 first_author: "[[McGill NLP Lab]]"
 last_author: "[[McGill NLP Lab]]"
 authors: "McGill NLP Lab"

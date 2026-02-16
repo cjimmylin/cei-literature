@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0600
 type: preprint
 short_title: "MM-Eval: A Hierarchical Benchmark for Modern Mongolian Evaluation in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Zhang, Mengyuan]]"
 last_author: "[[Zhao, Xiaobing]]"
 authors: "[[Zhang, Mengyuan]]; [[Wang, Ruihui]]; [[Xia, Bo]]; [[Sun, Yuan]]; [[Zhao, Xiaobing]]"

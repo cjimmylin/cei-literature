@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0008
 type: conferencePaper
 short_title: "IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context"
-year: 2025
+year: 2024
 first_author: "[[Sahoo, Nihar Ranjan]]"
 last_author: "[[Bhattacharyya, Pushpak]]"
 authors: "[[Sahoo, Nihar Ranjan]]; [[Beria, Gyana Prakash]]; [[Bhattacharyya, Pushpak]]"

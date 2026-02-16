@@ -14,7 +14,7 @@ Not AI:
 key: 3RMHBD6V
 type: journalArticle
 short_title: AI-Face
-year: 2025
+year: 2024
 first_author: "[[Li Lin]]"
 last_author: "[[Shu Hu]]"
 authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"

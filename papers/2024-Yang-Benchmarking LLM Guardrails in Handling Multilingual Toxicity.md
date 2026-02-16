@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0258
 type: preprint
 short_title: "Benchmarking LLM Guardrails in Handling Multilingual Toxicity"
-year: 2025
+year: 2024
 first_author: "[[Yiran Yang]]"
 last_author: "[[Robert Monarch]]"
 authors: "Yiran Yang, Zeerak Talat, Robert Monarch"

@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0433
 type: preprint
 short_title: "M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies"
-year: 2025
+year: 2024
 first_author: "[[Felix Friedrich]]"
 last_author: "[[Kristian Kersting]]"
 authors: "Felix Friedrich, Simone Teber, Patrick Schramowski, Manuel Brack, Kristian Kersting"

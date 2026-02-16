@@ -13,7 +13,7 @@ Not AI:
 key: ALMEIDA2024
 type: journalArticle
 short_title: "Psychology of LLMs Moral Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Guilherme F. C. F. Almeida]]"
 last_author: "[[Gubert, Renato]]"
 authors: "[[Almeida, Guilherme F. C. F.]]; [[Nunes, José Luiz]]; [[Pontes, Neele]]; [[Brinhosa, Markus]]; [[Gubert, Renato]]"

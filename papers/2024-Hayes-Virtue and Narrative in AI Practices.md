@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_HAYES2024
 type: journalArticle
 short_title: "Virtue and Narrative in AI Practices"
-year: 2025
+year: 2024
 first_author: "[[Paul Hayes]]"
 last_author: "[[Ferrández, José Manuel]]"
 authors: "[[Hayes, Paul]]; [[Fitzpatrick, Noel]]; [[Ferrández, José Manuel]]"

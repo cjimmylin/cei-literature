@@ -11,7 +11,7 @@ Human View note:
 Not AI: 
 key: SRKAQM3X
 type: journalArticle
-year: 2025
+year: 2019
 short_title: "Overview of GermEval Task 2, 2019 Shared Task on"
 first_author: "[[Julia Maria Struß]]"
 last_author: "[[Manfred Klenner]]"

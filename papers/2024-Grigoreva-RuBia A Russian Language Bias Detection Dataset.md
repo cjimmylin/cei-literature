@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0304
 type: preprint
 short_title: "RuBia: A Russian Language Bias Detection Dataset"
-year: 2025
+year: 2024
 first_author: "[[Grigoreva, Veronika]]"
 last_author: "[[Artemova, Ekaterina]]"
 authors: "[[Grigoreva, Veronika]]; [[Ivanova, Anastasiia]]; [[Alimova, Ilseyar]]; [[Artemova, Ekaterina]]"

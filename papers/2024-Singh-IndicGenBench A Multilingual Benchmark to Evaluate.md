@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0495
 type: preprint
 short_title: "IndicGenBench A Multilingual Benchmark to Evaluate"
-year: 2025
+year: 2024
 first_author: "[[Singh, Harman]]"
 last_author: "[[Talukdar, Partha]]"
 authors: "[[Singh, Harman]]; [[Gupta, Nitish]]; [[Bharadwaj, Shikhar]]; [[Tewari, Dinesh]]; [[Talukdar, Partha]]"

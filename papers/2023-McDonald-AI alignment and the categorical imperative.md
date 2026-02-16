@@ -13,7 +13,7 @@ Not AI:
 key: DOI_S43681_022_00160_W
 type: journalArticle
 short_title: "AI, alignment, and the categorical imperative"
-year: 2025
+year: 2023
 first_author: "[[Fritz J. McDonald]]"
 last_author: "[[Fritz J. McDonald]]"
 authors: "[[McDonald, Fritz J.]]"

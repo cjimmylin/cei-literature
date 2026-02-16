@@ -14,7 +14,7 @@ Not AI:
 key: NQ9R39V2
 type: conferencePaper
 short_title: "Case Repositories"
-year: 2025
+year: 2023
 first_author: "[[K. J. Kevin Feng]]"
 last_author: "[[Amy X. Zhang]]"
 authors: "K. J. Kevin Feng; Quan Ze Chen; Inyoung Cheong; King Xia; Amy X. Zhang"

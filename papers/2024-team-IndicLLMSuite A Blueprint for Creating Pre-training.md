@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0496
 type: preprint
 short_title: "IndicLLMSuite A Blueprint for Creating Pre-training"
-year: 2025
+year: 2024
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
 authors: "[[AI4Bharat team]]"

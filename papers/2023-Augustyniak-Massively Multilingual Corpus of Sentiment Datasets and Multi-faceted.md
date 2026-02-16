@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0355
 type: preprint
 short_title: "Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark"
-year: 2025
+year: 2023
 first_author: "[[Lukasz Augustyniak]]"
 last_author: "[[Tomasz Kajdanowicz]]"
 authors: "Lukasz Augustyniak, Szymon Wozniak, Marcin Gruza, Piotr Gramacki, Krzysztof Rajda, Mikolaj Morzy, Tomasz Kajdanowicz"

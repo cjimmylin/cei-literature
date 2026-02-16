@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0533
 type: preprint
 short_title: "The Use of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Religions), (Authors from MDPI]]"
 last_author: "[[(Authors from MDPI Religions)]]"
 authors: "[[(Authors from MDPI Religions)]]"

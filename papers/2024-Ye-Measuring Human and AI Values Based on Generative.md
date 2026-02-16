@@ -13,7 +13,7 @@ Not AI:
 key: E9AQ47CN
 type: conferencePaper
 short_title: "Measuring Human and AI Values Based on Generative"
-year: 2025
+year: 2024
 first_author: "[[Haoran Ye]]"
 last_author: "[[Guojie Song]]"
 authors: "Haoran Ye; Yuhang Xie; Yuanyi Ren; Hanjun Fang; Xin Zhang; Guojie Song"

@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0315
 type: preprint
 short_title: "UrduLM A Resource-Efficient Monolingual Urdu Language"
-year: 2025
+year: 2026
 first_author: "[[Syed Muhammad Ali]]"
 last_author: "[[Abdul Samad]]"
 authors: Syed Muhammad Ali; Hammad Sajid; Zainab Haider; Ali Muhammad Asad; Haya Fatima; Abdul Samad

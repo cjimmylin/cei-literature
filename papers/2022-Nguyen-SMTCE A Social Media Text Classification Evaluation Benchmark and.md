@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0372
 type: conferencePaper
 short_title: "SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese"
-year: 2025
+year: 2022
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0435
 type: preprint
 short_title: "HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter"
-year: 2025
+year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Röttger, Paul]]"
 authors: "[[Tonneau, Manuel]]; [[Liu, Diyi]]; [[Malhotra, Niyati]]; [[Hale, Scott A.]]; [[Fraiberger, Samuel P.]]; [[Orozco-Olvera, Victor]]; [[Röttger, Paul]]"

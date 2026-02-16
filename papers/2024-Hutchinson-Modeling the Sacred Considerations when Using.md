@@ -18,7 +18,7 @@ Not AI:
 key: EXSR0510
 type: conference_paper
 short_title: "Modeling the Sacred Considerations when Using"
-year: 2025
+year: 2024
 first_author: "[[Hutchinson, Ben]]"
 last_author: "[[Ben Hutchinson]]"
 authors: "[[Ben Hutchinson]]"

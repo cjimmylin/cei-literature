@@ -12,7 +12,7 @@ Human View note:
 Not AI: 
 key: 9WY3JY6S
 type: journalArticle
-year: 2025
+year: 2020
 short_title: "DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020"
 first_author: "[[Dorine van Norren]]"
 last_author: "[[Dorine van Norren]]"

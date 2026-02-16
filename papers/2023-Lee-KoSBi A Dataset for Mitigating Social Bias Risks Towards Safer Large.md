@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0240
 type: preprint
 short_title: "KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application"
-year: 2025
+year: 2023
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Nako Sung Eun-Ju Lee]]"
 authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Meeyoung Cha, Yejin Choi, Byoung-Tak Zhang, Gunhee Kim, Eun-Ju Lee, Nako Sung"

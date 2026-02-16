@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0027
 type: preprint
 short_title: "AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With"
-year: 2025
+year: 2022
 first_author: "[[Amit Seker]]"
 last_author: "[[Reut Tsarfaty Refael Shaked Greenfeld]]"
 authors: "Amit Seker, Elron Bandel, Dan Bareket, Idan Brusilovsky, Refael Shaked Greenfeld, Reut Tsarfaty"

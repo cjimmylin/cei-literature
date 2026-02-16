@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Towards Artificial Virtuous Agents - Games and ML"
-year: 2025
+year: 2022
 first_author: "[[Ajay Vishwanath]]"
 last_author: "[[C. Omlin]]"
 authors: "Ajay Vishwanath; E. Bøhn; Ole-Christoffer Granmo; Charl Maree; C. Omlin"

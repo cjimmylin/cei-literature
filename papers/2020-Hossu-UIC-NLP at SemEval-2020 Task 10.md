@@ -14,7 +14,7 @@ Not AI:
 key: C7HHNAZA
 type: conferencePaper
 short_title: "UIC-NLP at SemEval-2020 Task 10"
-year: 2025
+year: 2020
 first_author: "[[Philip Hossu]]"
 last_author: "[[Natalie Parde]]"
 authors: "Philip Hossu; Natalie Parde"

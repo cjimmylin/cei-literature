@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0505
 type: preprint
 short_title: "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
-year: 2025
+year: 2024
 first_author: "[[Simona Frenda]]"
 last_author: "[[Luisa Bentivogli Matteo Negri]]"
 authors: "Simona Frenda, Andrea Piergentili, Beatrice Savoldi, Marco Madeddu, Martina Rosola, Silvia Casola, Chiara Ferrando, Viviana Patti, Matteo Negri, Luisa Bentivogli"

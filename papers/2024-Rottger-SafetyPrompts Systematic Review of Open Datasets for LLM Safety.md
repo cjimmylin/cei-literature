@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0284
 type: conferencePaper
 short_title: "SafetyPrompts: Systematic Review of Open Datasets for LLM Safety"
-year: 2025
+year: 2024
 first_author: "[[Röttger, Paul]]"
 last_author: "[[Hovy, Dirk]]"
 authors: "[[Röttger, Paul]]; [[Pernisi, Fabio]]; [[Vidgen, Bertie]]; [[Hovy, Dirk]]"

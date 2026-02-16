@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0610
 type: conference_paper
 short_title: "Persistent Anti-Muslim Bias in Large Language"
-year: 2025
+year: 2021
 first_author: "[[Abubakar Abid, Maheen Farooqi, James Zou]]"
 last_author: "[[James Zou]]"
 authors: "[[Abubakar Abid, Maheen Farooqi, James Zou]]"

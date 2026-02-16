@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0308
 type: preprint
 short_title: "Qalb Largest State-of-the-Art Urdu Large Language"
-year: 2025
+year: 2026
 first_author: "[[Hassan, Muhammad Taimoor]]"
 last_author: "[[Awais, Muhammad]]"
 authors: "[[Hassan, Muhammad Taimoor]]; [[Ahmed, Jawad]]; [[Awais, Muhammad]]"

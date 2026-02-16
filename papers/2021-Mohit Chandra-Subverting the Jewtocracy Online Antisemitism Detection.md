@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0601
 type: conference_paper
 short_title: "Subverting the Jewtocracy Online Antisemitism Detection"
-year: 2025
+year: 2021
 first_author: "[[Mohit Chandra, Pailla,]]"
 last_author: "[[Hyderabad, others (IIIT]]"
 authors: "[[Mohit Chandra, Pailla,]]; [[Hyderabad, others (IIIT]]"

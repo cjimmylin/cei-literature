@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0218
 type: preprint
 short_title: "Introducing Bode: A Fine-Tuned Large Language Model for Portuguese Prompt-Based Task"
-year: 2025
+year: 2024
 first_author: "[[Garcia, Gabriel Lino]]"
 last_author: "[[Papa, João Paulo]]"
 authors: "[[Garcia, Gabriel Lino]]; [[Paiola, Pedro Henrique]]; [[Morelli, Luis Henrique]]; [[Candido, Giovani]]; [[Júnior, Arnaldo Cândido]]; [[Jodas, Danilo Samuel]]; [[Afonso, Luis C. S.]]; [[Guilherme, Ivan Rizzo]]; [[Penteado, Bruno Elias]]; [[Papa, João Paulo]]"

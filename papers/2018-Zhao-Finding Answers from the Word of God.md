@@ -14,7 +14,7 @@ Not AI:
 key: JUEAJ5Q4
 type: conferencePaper
 short_title: "Finding Answers from the Word of God"
-year: 2025
+year: 2018
 first_author: "[[Helen Jiahe Zhao]]"
 last_author: "[[Jiamou Liu]]"
 authors: "Helen Jiahe Zhao; Jiamou Liu"

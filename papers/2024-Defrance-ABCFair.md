@@ -14,7 +14,7 @@ Not AI:
 key: Y8L4H52Z
 type: conferencePaper
 short_title: ABCFair
-year: 2025
+year: 2024
 first_author: "[[MaryBeth Defrance]]"
 last_author: "[[Tijl De Bie]]"
 authors: "MaryBeth Defrance; Maarten Buyl; Tijl De Bie"

@@ -13,7 +13,7 @@ Not AI:
 key: YM8SFWAH
 type: journalArticle
 short_title: "The role of the African value of Ubuntu in global"
-year: 2025
+year: 2022
 first_author: "[[Arthur Gwagwa]]"
 last_author: "[[Airlie Hilliard]]"
 authors: "Arthur Gwagwa; Emre Kazim; Airlie Hilliard"

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0223
 type: conferencePaper
 short_title: "A Call for a Research Agenda on Fair NLP for Portuguese"
-year: 2025
+year: 2023
 first_author: "[[Luiz Fernando F. P. de Lima]]"
 last_author: "[[Renata Mendes de Araújo]]"
 authors: Luiz Fernando F. P. de Lima; Renata Mendes de Araújo

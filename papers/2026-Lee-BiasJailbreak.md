@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0003
 type: conferencePaper
 short_title: BiasJailbreak
-year: 2025
+year: 2026
 first_author: "[[Isack Lee]]"
 last_author: "[[Haebin Seong Isack Lee]]"
 authors: "Isack Lee, Haebin Seong"

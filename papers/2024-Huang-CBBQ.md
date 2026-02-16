@@ -12,7 +12,7 @@ Not AI:
 key: 6CBMZKT2
 type: journalArticle
 short_title: CBBQ
-year: 2025
+year: 2024
 first_author: "[[Yufei Huang]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "[[Huang, Yufei]]; [[Xiong, Deyi]]"

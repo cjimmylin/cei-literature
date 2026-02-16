@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0361
 type: conferencePaper
 short_title: "ViHOS: Hate Speech Spans Detection for Vietnamese"
-year: 2025
+year: 2023
 first_author: "[[Phu Gia Hoang]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Phu Gia Hoang, Canh Duc Luu, Khanh Quoc Tran, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"

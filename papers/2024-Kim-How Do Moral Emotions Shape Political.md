@@ -12,7 +12,7 @@ Not AI:
 key: BWGTAQ8H
 type: conferencePaper
 short_title: "How Do Moral Emotions Shape Political"
-year: 2025
+year: 2024
 first_author: "[[Jaehong Kim]]"
 last_author: "[[Wonjae Lee]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"

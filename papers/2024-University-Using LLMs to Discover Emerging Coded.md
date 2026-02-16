@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0544
 type: preprint
 short_title: "Using LLMs to Discover Emerging Coded"
-year: 2025
+year: 2024
 first_author: "[[University), Multiple authors (American]]"
 last_author: "[[Multiple authors (American University)]]"
 authors: "[[Multiple authors (American University)]]"

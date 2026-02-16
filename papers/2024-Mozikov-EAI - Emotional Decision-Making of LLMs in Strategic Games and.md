@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0161
 type: conferencePaper
 short_title: "EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas"
-year: 2025
+year: 2024
 first_author: "[[Mozikov, Mikhail]]"
 last_author: "[[Makarov, Ilya]]"
 authors: "[[Mozikov, Mikhail]]; [[Severin, Nikita]]; [[Bodishtianu, Valeria]]; [[Glushanina, Maria]]; [[Baklashkin, Mikhail]]; [[Savchenko, Andrey V.]]; [[Makarov, Ilya]]"

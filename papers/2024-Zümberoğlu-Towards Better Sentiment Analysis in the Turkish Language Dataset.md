@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0619
 type: conferencePaper
 short_title: "Towards Better Sentiment Analysis in the Turkish Language: Dataset Improvements and Model Innovations"
-year: 2025
+year: 2024
 first_author: "[[Kevser Büşra Zümberoğlu]]"
 last_author: "[[Shaaban Sahmoud]]"
 authors: Kevser Büşra Zümberoğlu; Sümeyye Zülal Dik; Büşra Sinem Karadeniz; Shaaban Sahmoud

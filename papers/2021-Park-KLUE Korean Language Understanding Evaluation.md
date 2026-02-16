@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0254
 type: preprint
 short_title: "KLUE: Korean Language Understanding Evaluation"
-year: 2025
+year: 2021
 first_author: "[[Sungjoon Park]]"
 last_author: "[[Kyunghyun Cho]]"
 authors: "Sungjoon Park, Jihyung Moon, Sungdong Kim, Won Ik Cho, Jiyoon Han, Jangwon Park, Chisung Song, Junseong Kim, Yongsook Song, Taehwan Oh, Joohong Lee, Juhyun Oh, Sungwon Lyu, Younghoon Jeong, Inkwon Lee, Sangwoo Seo, Dongjun Lee, Hyunwoo Kim, Myeonghwa Lee, Seongbo Jang, Seungwon Do, Sunkyoung Kim, Kyungtae Lim, Jongwon Lee, Kyumin Park, Jamin Shin, Seonghyun Kim, Lucy Park, Alice Oh, Jungwoo Ha, Kyunghyun Cho"

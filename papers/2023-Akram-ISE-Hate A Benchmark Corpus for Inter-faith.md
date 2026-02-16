@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0559
 type: preprint
 short_title: "ISE-Hate A Benchmark Corpus for Inter-faith"
-year: 2025
+year: 2023
 first_author: "[[Akram, Muhammad Hammad]]"
 last_author: "[[Bashir, Maryam]]"
 authors: Muhammad Hammad Akram; Khurram Shahzad; Maryam Bashir

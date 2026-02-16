@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0053
 type: conferencePaper
 short_title: "Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection"
-year: 2025
+year: 2021
 first_author: "[[Saha]]"
 last_author: "[[Saha]]"
 authors: Saha

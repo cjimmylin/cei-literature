@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0243
 type: preprint
 short_title: "CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean"
-year: 2025
+year: 2024
 first_author: "[[Eunsu Kim]]"
 last_author: "[[Alice Oh James Thorne]]"
 authors: "Eunsu Kim, Juyoung Suk, Philhoon Oh, Haneul Yoo, James Thorne, Alice Oh"

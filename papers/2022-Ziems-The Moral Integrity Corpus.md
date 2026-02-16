@@ -13,7 +13,7 @@ Not AI:
 key: BALGR5YY
 type: conferencePaper
 short_title: "The Moral Integrity Corpus"
-year: 2025
+year: 2022
 first_author: "[[Caleb Ziems]]"
 last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"

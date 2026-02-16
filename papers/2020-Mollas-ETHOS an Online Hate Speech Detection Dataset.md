@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0536
 type: preprint
 short_title: "ETHOS: an Online Hate Speech Detection Dataset"
-year: 2025
+year: 2020
 first_author: "[[Ioannis Mollas]]"
 last_author: "[[Grigorios Tsoumakas Stamatis Karlos]]"
 authors: "Ioannis Mollas, Zoe Chrysopoulou, Stamatis Karlos, Grigorios Tsoumakas"

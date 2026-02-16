@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0172
 type: preprint
 short_title: "Exploring Bengali Religious Dialect Biases in Large Language Models with Evaluation Perspectives"
-year: 2025
+year: 2024
 first_author: "[[Wasi, Azmine Toushik]]"
 last_author: "[[Chae, Dong-Kyu]]"
 authors: "[[Wasi, Azmine Toushik]]; [[Islam, Raima]]; [[Islam, Mst Rafia]]; [[Rafi, Taki Hasan]]; [[Chae, Dong-Kyu]]"

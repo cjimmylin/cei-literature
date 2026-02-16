@@ -12,7 +12,7 @@ Not AI:
 key: 7ISQ383Q
 type: conferencePaper
 short_title: "Uncovering Latent Human Wellbeing in Language"
-year: 2025
+year: 2024
 first_author: "[[Pedro Freire]]"
 last_author: "[[Scott Emmons]]"
 authors: "Pedro Freire; ChengCheng Tan; Adam Gleave; Dan Hendrycks; Scott Emmons"

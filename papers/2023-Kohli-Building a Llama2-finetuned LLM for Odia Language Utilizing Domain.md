@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0203
 type: preprint
 short_title: "Building a Llama2-finetuned LLM for Odia Language Utilizing Domain Knowledge Instruction Set"
-year: 2025
+year: 2023
 first_author: "[[Kohli, Guneet Singh]]"
 last_author: "[[Dhal, Debasish]]"
 authors: "[[Kohli, Guneet Singh]]; [[Parida, Shantipriya]]; [[Sekhar, Sambit]]; [[Saha, Samirit]]; [[Nair, Nipun B]]; [[Agarwal, Parul]]; [[Khosla, Sonal]]; [[Patiyal, Kusumlata]]; [[Dhal, Debasish]]"

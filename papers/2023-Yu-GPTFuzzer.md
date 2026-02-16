@@ -13,7 +13,7 @@ Not AI:
 key: UK2RFSRR
 type: document
 short_title: GPTFuzzer
-year: 2025
+year: 2023
 first_author: "[[Jiahao Yu]]"
 last_author: "[[Xinyu Xing]]"
 authors: "Jiahao Yu; Xingwei Lin; Zheng Yu; Xinyu Xing"

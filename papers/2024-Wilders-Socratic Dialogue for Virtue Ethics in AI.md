@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: conferencePaper
 short_title: "Socratic Dialogue for Virtue Ethics in AI"
-year: 2025
+year: 2024
 first_author: "[[Maarten Wilders]]"
 last_author: "[[Roel Dobbe]]"
 authors: "Maarten Wilders; Inigo Martinez de Rituerto de Troya; Roel Dobbe"

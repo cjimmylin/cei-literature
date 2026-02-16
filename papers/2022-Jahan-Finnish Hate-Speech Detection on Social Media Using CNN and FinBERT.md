@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0497
 type: conferencePaper
 short_title: "Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT"
-year: 2025
+year: 2022
 first_author: "[[Md Saroar Jahan]]"
 last_author: "[[Nabil Arhab]]"
 authors: "Md Saroar Jahan, Mourad Oussalah, Nabil Arhab"

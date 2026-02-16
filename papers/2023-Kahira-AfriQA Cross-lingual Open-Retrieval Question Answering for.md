@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0548
 type: preprint
 short_title: "AfriQA Cross-lingual Open-Retrieval Question Answering for"
-year: 2025
+year: 2023
 first_author: "[[Ogundepo, Odunayo]]"
 last_author: "[[Adhiambo, Sonia]]"
 authors: "[[Ogundepo, Odunayo]]; [[Gwadabe, Tajuddeen R.]]; [[Rivera, Clara E.]]; [[Clark, Jonathan H.]]; [[Ruder, Sebastian]]; [[Adelani, David Ifeoluwa]]; [[Dossou, Bonaventure F. P.]]; [[DIOP, Abdou Aziz]]; [[Sikasote, Claytone]]; [[Hacheme, Gilles]]; [[Buzaaba, Happy]]; [[Ezeani, Ignatius]]; [[Mabuya, Rooweither]]; [[Osei, Salomey]]; [[Emezue, Chris]]; [[Kahira, Albert Njoroge]]; [[Muhammad, Shamsuddeen H.]]; [[Oladipo, Akintunde]]; [[Owodunni, Abraham Toluwase]]; [[Tonja, Atnafu Lambebo]]; [[Shode, Iyanuoluwa]]; [[Asai, Akari]]; [[Ajayi, Tunde Oluwaseyi]]; [[Siro, Clemencia]]; [[Arthur, Steven]]; [[Adeyemi, Mofetoluwa]]; [[Ahia, Orevaoghene]]; [[Aremu, Anuoluwapo]]; [[Awosan, Oyinkansola]]; [[Chukwuneke, Chiamaka]]; [[Opoku, Bernard]]; [[Ayodele, Awokoya]]; [[Otiende, Verrah]]; [[Mwase, Christine]]; [[Sinkala, Boyd]]; [[Rubungo, Andre Niyongabo]]; [[Ajisafe, Daniel A.]]; [[Onwuegbuzia, Emeka Felix]]; [[Mbow, Habib]]; [[Niyomutabazi, Emile]]; [[Mukonde, Eunice]]; [[Lawan, Falalu Ibrahim]]; [[Ahmad, Ibrahim Said]]; [[Alabi, Jesujoba O.]]; [[Namukombo, Martin]]; [[Chinedu, Mbonu]]; [[Phiri, Mofya]]; [[Putini, Neo]]; [[Mngoma, Ndumiso]]; [[Amuok, Priscilla A.]]; [[Iro, Ruqayya Nasir]]; [[Adhiambo, Sonia]]"

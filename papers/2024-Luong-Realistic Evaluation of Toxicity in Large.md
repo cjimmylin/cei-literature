@@ -14,7 +14,7 @@ Not AI:
 key: SYZHU4RY
 type: journalArticle
 short_title: "Realistic Evaluation of Toxicity in Large"
-year: 2025
+year: 2024
 first_author: "[[Tinh Son Luong]]"
 last_author: "[[Thien Huu Nguyen]]"
 authors: "Tinh Son Luong; Thanh-Thien Le; Linh Ngo Van; Thien Huu Nguyen"

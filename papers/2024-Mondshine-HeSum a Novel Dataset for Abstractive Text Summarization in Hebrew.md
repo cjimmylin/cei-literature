@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0029
 type: preprint
 short_title: "HeSum: a Novel Dataset for Abstractive Text Summarization in Hebrew"
-year: 2025
+year: 2024
 first_author: "[[Itai Mondshine]]"
 last_author: "[[Reut Tsarfaty Asaf Achi Mordechai]]"
 authors: "Itai Mondshine, Tzuf Paz-Argaman, Asaf Achi Mordechai, Reut Tsarfaty"

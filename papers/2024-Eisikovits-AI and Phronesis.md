@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "AI and Phronesis"
-year: 2025
+year: 2024
 first_author: "[[Nir Eisikovits]]"
 last_author: "[[Dan Feldman]]"
 authors: "Nir Eisikovits; Dan Feldman"

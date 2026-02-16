@@ -13,7 +13,7 @@ Not AI:
 key: TFNLFQP8
 type: document
 short_title: "Optimized Quran Passage Retrieval Using an"
-year: 2025
+year: 2024
 first_author: "[[Mohamed Basem]]"
 last_author: "[[Ammar Mohamed]]"
 authors: "Mohamed Basem; Islam Oshallah; Baraa Hikal; Ali Hamdi; Ammar Mohamed"

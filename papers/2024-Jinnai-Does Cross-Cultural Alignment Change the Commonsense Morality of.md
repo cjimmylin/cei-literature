@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0160
 type: conferencePaper
 short_title: "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?"
-year: 2025
+year: 2024
 first_author: "[[Y Jinnai]]"
 last_author: "[[Y]]"
 authors: "Jinnai, Y"

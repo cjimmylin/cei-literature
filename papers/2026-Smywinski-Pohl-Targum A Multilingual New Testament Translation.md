@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0311
 type: preprint
 short_title: "Targum A Multilingual New Testament Translation"
-year: 2025
+year: 2026
 first_author: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"
 last_author: "[[Aleksander Smywinski-Pohl Maciej Rapacz]]"
 authors: "[[Maciej Rapacz, Aleksander Smywinski-Pohl]]"

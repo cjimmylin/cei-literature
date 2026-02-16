@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0293
 type: preprint
 short_title: "TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction"
-year: 2025
+year: 2026
 first_author: "[[Nadas, Mihai Dan]]"
 last_author: "[[Piscoran, Andrei]]"
 authors: "[[Nadas, Mihai Dan]]; [[Diosan, Laura]]; [[Tomescu, Andreea]]; [[Piscoran, Andrei]]"

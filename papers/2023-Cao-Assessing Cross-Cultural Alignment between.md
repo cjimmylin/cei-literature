@@ -12,7 +12,7 @@ Not AI:
 key: MMP5Y9IT
 type: conferencePaper
 short_title: "Assessing Cross-Cultural Alignment between"
-year: 2025
+year: 2023
 first_author: "[[Yong Cao]]"
 last_author: "[[Daniel Hershcovich]]"
 authors: "Yong Cao; Li Zhou; Seolhwa Lee; Laura Cabello; Min Chen; Daniel Hershcovich"

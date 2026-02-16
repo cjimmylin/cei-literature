@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0094
 type: preprint
 short_title: "Injecting Knowledge from Social Science Journals to Improve Indonesian Cultural Understanding by LLMs"
-year: 2025
+year: 2026
 first_author: "[[Kartiyasa, Adimulya]]"
 last_author: "[[Li, Boyang]]"
 authors: "[[Kartiyasa, Adimulya]]; [[Cao, Bao Gia]]; [[Li, Boyang]]"

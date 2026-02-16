@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0256
 type: preprint
 short_title: "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration"
-year: 2025
+year: 2024
 first_author: "[[Donghyun Baek]]"
 last_author: "[[Jonghwan Hyeon]]"
 authors: "Donghyun Baek, Sangwon Park, Donghyeon Jeon, Yohan Choi, Jonghwan Hyeon"

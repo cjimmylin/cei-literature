@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0444
 type: preprint
 short_title: "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
-year: 2025
+year: 2024
 first_author: "[[Son, Guijin]]"
 last_author: "[[Kim, Seungone]]"
 authors: "[[Son, Guijin]]; [[Yoon, Dongkeun]]; [[Suk, Juyoung]]; [[Aula-Blasco, Javier]]; [[Aslan, Mano]]; [[Kim, Vu Trong]]; [[Islam, Shayekh Bin]]; [[Prats-Cristià, Jaume]]; [[Tormo-Bañuelos, Lucía]]; [[Kim, Seungone]]"

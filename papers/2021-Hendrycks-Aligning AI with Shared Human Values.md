@@ -11,7 +11,7 @@ Not AI:
 key: IL58MHDE
 type: conferencePaper
 short_title: "Aligning AI with Shared Human Values"
-year: 2025
+year: 2021
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0805
 type: preprint
 short_title: "How can NLP Help Revitalize Endangered Languages?"
-year: 2025
+year: 2022
 first_author: "[[Megasis Network]]"
 last_author: "[[Megasis Network]]"
 authors: "Megasis Network"

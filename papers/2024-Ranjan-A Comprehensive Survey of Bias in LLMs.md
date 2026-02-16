@@ -14,7 +14,7 @@ Not AI:
 key: MBEBY4C7
 type: document
 short_title: "A Comprehensive Survey of Bias in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Rajesh Ranjan]]"
 last_author: "[[Surya Narayan Singh]]"
 authors: "Rajesh Ranjan; Shailja Gupta; Surya Narayan Singh"

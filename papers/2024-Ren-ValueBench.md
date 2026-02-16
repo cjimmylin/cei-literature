@@ -13,7 +13,7 @@ Not AI:
 key: XE3T6PWS
 type: conferencePaper
 short_title: ValueBench
-year: 2025
+year: 2024
 first_author: "[[Yuanyi Ren]]"
 last_author: "[[Guojie Song]]"
 authors: "Yuanyi Ren; Haoran Ye; Hanjun Fang; Xin Zhang; Guojie Song"

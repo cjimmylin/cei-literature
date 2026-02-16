@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0250
 type: preprint
 short_title: "KOLD: Korean Offensive Language Dataset"
-year: 2025
+year: 2022
 first_author: "[[Younghoon Jeong]]"
 last_author: "[[Alice Oh]]"
 authors: "Younghoon Jeong, Juhyun Oh, Jongwon Lee, Jaimeen Ahn, Jiyoung Han, Chiyoung Cha, Alice Oh"

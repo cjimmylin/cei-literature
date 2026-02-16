@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0575
 type: preprint
 short_title: "The eBible Corpus Data and Model"
-year: 2025
+year: 2023
 first_author: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"
 last_author: "[[Marcus Schwarting Jonathan Robie]]"
 authors: "[[Vesa Akerman, David Baines, Damien Daspit, Ulf Hermjakob, Taeho Jang, Colin Leong, Michael Martin, Joel Mathew, Jonathan Robie, Marcus Schwarting]]"

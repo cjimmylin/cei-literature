@@ -14,7 +14,7 @@ Not AI:
 key: EXA5Y72K
 type: conferencePaper
 short_title: StereoSet
-year: 2025
+year: 2021
 first_author: "[[Moin Nadeem]]"
 last_author: "[[Siva Reddy]]"
 authors: "Moin Nadeem; Anna Bethke; Siva Reddy"

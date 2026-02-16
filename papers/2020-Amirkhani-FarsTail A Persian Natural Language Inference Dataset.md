@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0145
 type: preprint
 short_title: "FarsTail: A Persian Natural Language Inference Dataset"
-year: 2025
+year: 2020
 first_author: "[[Amirkhani, Hossein]]"
 last_author: "[[Amirak, Azadeh]]"
 authors: "[[Amirkhani, Hossein]]; [[AzariJafari, Mohammad]]; [[Faridan-Jahromi, Soroush]]; [[Kouhkan, Zeinab]]; [[Pourjafari, Zohreh]]; [[Amirak, Azadeh]]"

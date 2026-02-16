@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0221
 type: conferencePaper
 short_title: "Napolab: The Natural Portuguese Language Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Ruan Chaves]]"
 last_author: "[[Ruan Chaves]]"
 authors: "Ruan Chaves"

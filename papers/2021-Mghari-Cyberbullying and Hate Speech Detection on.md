@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0602
 type: preprint
 short_title: "Cyberbullying and Hate Speech Detection on"
-year: 2025
+year: 2021
 first_author: "[[Mohammed Mghari]]"
 last_author: "[[Abdelaaziz El Hibaoui]]"
 authors: "[[Mohammed Mghari]]; [[Omar Bouras]]; [[Abdelaaziz El Hibaoui]]"

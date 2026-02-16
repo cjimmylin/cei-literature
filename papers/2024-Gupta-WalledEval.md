@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0230
 type: conferencePaper
 short_title: WalledEval
-year: 2025
+year: 2024
 first_author: "[[Gupta, Prannaya]]"
 last_author: "[[Poria, Soujanya]]"
 authors: "[[Gupta, Prannaya]]; [[Yau, Le Qi]]; [[Low, Hao Han]]; [[Lee, I-Shiang]]; [[Lim, Hugo Maximus]]; [[Teoh, Yu Xin]]; [[Koh, Jia Hng]]; [[Liew, Dar Win]]; [[Bhardwaj, Rishabh]]; [[Bhardwaj, Rajat]]; [[Poria, Soujanya]]"

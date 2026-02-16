@@ -13,7 +13,7 @@ Not AI:
 key: 5KFKN3RM
 type: journalArticle
 short_title: "Universals and variations in moral decisions made"
-year: 2025
+year: 2020
 first_author: "[[Edmond Awad]]"
 last_author: "[[Jean-François Bonnefon]]"
 authors: "Edmond Awad; Sohan Dsouza; Azim Shariff; Iyad Rahwan; Jean-François Bonnefon"

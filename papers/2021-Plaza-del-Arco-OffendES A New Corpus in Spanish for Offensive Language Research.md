@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0279
 type: conferencePaper
 short_title: "OffendES: A New Corpus in Spanish for Offensive Language Research"
-year: 2025
+year: 2021
 first_author: "[[Plaza-del-Arco, Flor Miriam]]"
 last_author: "[[Flor Miriam Plaza-del-Arco]]"
 authors: "[[Plaza-del-Arco, Flor Miriam]]"

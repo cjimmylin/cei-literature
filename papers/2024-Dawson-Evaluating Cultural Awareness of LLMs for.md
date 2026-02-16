@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0477
 type: preprint
 short_title: "Evaluating Cultural Awareness of LLMs for"
-year: 2025
+year: 2024
 first_author: "[[Fiifi Dawson]]"
 last_author: "[[Sreedath Panat]]"
 authors: "[[Fiifi Dawson]]; [[Zainab Mosunmola]]; [[Sahil Pocker]]; [[Raj Abhijit Dandekar]]; [[Rajat Dandekar]]; [[Sreedath Panat]]"

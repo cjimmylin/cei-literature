@@ -14,7 +14,7 @@ Not AI:
 key: MFQWY6UK
 type: conferencePaper
 short_title: "A General Language Assistant as a Laboratory for"
-year: 2025
+year: 2021
 first_author: "[[Amanda Askell]]"
 last_author: "[[Jared Kaplan]]"
 authors: "Amanda Askell; Yuntao Bai; Anna Chen; Dawn Drain; Deep Ganguli; Tom Henighan; Andy Jones; Nicholas Joseph; Ben Mann; Nova DasSarma; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Jackson Kernion; Kamal Ndousse; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Jared Kaplan"

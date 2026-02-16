@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0597
 type: preprint
 short_title: "Sanadset 650K Data on Hadith Narrators"
-year: 2025
+year: 2022
 first_author: "[[Multiple (Data in Brief, 2022)]]"
 last_author: "[[2022)]]"
 authors: "[[Multiple (Data in Brief, 2022)]]"

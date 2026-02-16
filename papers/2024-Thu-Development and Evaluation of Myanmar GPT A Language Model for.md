@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0083
 type: conferencePaper
 short_title: "Development and Evaluation of Myanmar GPT: A Language Model for Myanmar Natural Language Processing"
-year: 2025
+year: 2024
 first_author: "[[Min Si Thu]]"
 last_author: "[[Pyae Sone Phyo Min Si Thu]]"
 authors: "Min Si Thu, Pyae Sone Phyo"

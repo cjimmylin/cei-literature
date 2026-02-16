@@ -13,7 +13,7 @@ Not AI:
 key: 7FN4MT8D
 type: conferencePaper
 short_title: "The WMDP Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Nathaniel Li]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Nathaniel Li; Alexander Pan; Anjali Gopal; Summer Yue; Daniel Berrios; Alice Gatti; Justin D. Li; Ann-Kathrin Dombrowski; Shashwat Goel; Long Phan; Gabriel Mukobi; Nathan Helm-Burger; Rassin Lababidi; Lennart Justen; Andrew B. Liu; Michael Chen; Isabelle Barrass; Oliver Zhang; Xiaoyuan Zhu; Rishub Tamirisa; Bhrugu Bharathi; Adam Khoja; Zhenqi Zhao; Ariel Herbert-Voss; Cort B. Breuer; Samuel Marks; Oam Patel; Andy Zou; Mantas Mazeika; Zifan Wang; Palash Oswal; Weiran Lin; Adam A. Hunt; Justin Tienken-Harder; Kevin Y. Shih; Kemper Talley; John Guan; Russell Kaplan; Ian Steneker; David Campbell; Brad Jokubaitis; Alex Levinson; Jean Wang; William Qian; Kallol Krishna Karmakar; Steven Basart; Stephen Fitz; Mindy Levine; Ponnurangam Kumaraguru; Uday Tupakula; Vijay Varadharajan; Ruoyu Wang; Yan Shoshitaishvili; Jimmy Ba; Kevin M. Esvelt; Alexandr Wang; Dan Hendrycks"

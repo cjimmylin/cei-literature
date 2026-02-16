@@ -13,7 +13,7 @@ Not AI:
 key: UE2C6FNV
 type: conferencePaper
 short_title: AgentBench
-year: 2025
+year: 2023
 first_author: "[[Xiao Liu]]"
 last_author: "[[Jie Tang]]"
 authors: "Xiao Liu; Hao Yu; Hanchen Zhang; Yifan Xu; Xuanyu Lei; Hanyu Lai; Yu Gu; Hangliang Ding; Kaiwen Men; Kejuan Yang; Shudan Zhang; Xiang Deng; Aohan Zeng; Zhengxiao Du; Chenhui Zhang; Sheng Shen; Tianjun Zhang; Yu Su; Huan Sun; Minlie Huang; Yuxiao Dong; Jie Tang"

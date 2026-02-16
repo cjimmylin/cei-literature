@@ -12,7 +12,7 @@ Not AI:
 key: 8F4KS6NP
 type: document
 short_title: KoSBI
-year: 2025
+year: 2023
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Ha, Jung-woo]]"
 authors: "[[Lee, Hwaran]]; [[Hong, Seokhee]]; [[Park, Joonsuk]]; [[Kim, Takyoung]]; [[Kim, Gunhee]]; [[Ha, Jung-woo]]"

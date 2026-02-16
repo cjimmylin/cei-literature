@@ -13,7 +13,7 @@ Not AI:
 key: J78A4GWD
 type: conferencePaper
 short_title: ToxiGen
-year: 2025
+year: 2022
 first_author: "[[Thomas Hartvigsen]]"
 last_author: "[[Ece Kamar]]"
 authors: "Thomas Hartvigsen; Saadia Gabriel; Hamid Palangi; Maarten Sap; Dipankar Ray; Ece Kamar"

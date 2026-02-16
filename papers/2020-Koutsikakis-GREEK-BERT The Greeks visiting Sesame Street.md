@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0537
 type: conferencePaper
 short_title: "GREEK-BERT: The Greeks visiting Sesame Street"
-year: 2025
+year: 2020
 first_author: "[[John Koutsikakis]]"
 last_author: "[[Ion Androutsopoulos Prodromos Malakasiotis]]"
 authors: "John Koutsikakis, Ilias Chalkidis, Prodromos Malakasiotis, Ion Androutsopoulos"

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0139
 type: journalArticle
 short_title: "PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments"
-year: 2025
+year: 2023
 first_author: "[[Khodabakhsh]]"
 last_author: "[[Ghayoomi Rahimi]]"
 authors: "Khodabakhsh, Jafarinejad, Rahimi, Ghayoomi"

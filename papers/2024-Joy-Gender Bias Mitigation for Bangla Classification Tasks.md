@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0175
 type: preprint
 short_title: "Gender Bias Mitigation for Bangla Classification Tasks"
-year: 2025
+year: 2024
 first_author: "[[Joy, Sajib Kumar Saha]]"
 last_author: "[[Shahariar, G M]]"
 authors: "[[Joy, Sajib Kumar Saha]]; [[Mahy, Arman Hassan]]; [[Sultana, Meherin]]; [[Abha, Azizah Mamun]]; [[Ahmmed, MD Piyal]]; [[Dong, Yue]]; [[Shahariar, G M]]"

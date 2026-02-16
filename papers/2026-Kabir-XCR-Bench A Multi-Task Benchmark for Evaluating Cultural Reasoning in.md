@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0041
 type: preprint
 short_title: "XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs"
-year: 2025
+year: 2026
 first_author: "[[Kabir, Mohsinul]]"
 last_author: "[[Ananiadou, Sophia]]"
 authors: "[[Kabir, Mohsinul]]; [[Ahmed, Tasnim]]; [[Rahman, Md Mezbaur]]; [[Ji, Shaoxiong]]; [[Alhuzali, Hassan]]; [[Ananiadou, Sophia]]"

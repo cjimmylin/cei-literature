@@ -13,7 +13,7 @@ Not AI:
 key: SVUTVMXC
 type: conferencePaper
 short_title: "Examining the Role of Relationship Alignment in"
-year: 2025
+year: 2024
 first_author: "[[Kristen M. Altenburger]]"
 last_author: "[[Jane Dwivedi-Yu]]"
 authors: "Kristen M. Altenburger; Hongda Jiang; Robert E. Kraut; Yi-Chia Wang; Jane Dwivedi-Yu"

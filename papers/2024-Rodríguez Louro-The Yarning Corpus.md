@@ -13,7 +13,7 @@ Not AI:
 key: 8DBSJ2EW
 type: journalArticle
 short_title: "The Yarning Corpus"
-year: 2025
+year: 2024
 first_author: "[[Celeste Rodríguez Louro]]"
 last_author: "[[Glenys Collard]]"
 authors: "Celeste Rodríguez Louro; Glenys Collard"

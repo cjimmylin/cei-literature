@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0488
 type: preprint
 short_title: "HindiLLM Large Language Model for Hindi"
-year: 2025
+year: 2024
 first_author: "[[Sanjay Chouhan]]"
 last_author: "[[Aparajita Dutta]]"
 authors: Sanjay Chouhan; Shubha Brata Nath; Aparajita Dutta

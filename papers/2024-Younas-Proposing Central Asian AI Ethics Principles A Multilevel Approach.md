@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0069
 type: conferencePaper
 short_title: "Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI"
-year: 2025
+year: 2024
 first_author: "[[Ammar Younas]]"
 last_author: "[[Yi Zeng Ammar Younas]]"
 authors: "Ammar Younas, Yi Zeng"

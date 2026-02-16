@@ -14,7 +14,7 @@ Not AI:
 key: AKVVEZBF
 type: document
 short_title: "OpenAssistant Conversations (OASST1)"
-year: 2025
+year: 2023
 first_author: "[[TheDevastator]]"
 last_author: "[[TheDevastator]]"
 authors: TheDevastator

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0234
 type: conferencePaper
 short_title: BeaverTails
-year: 2025
+year: 2023
 first_author: "[[Ji, Jiaming]]"
 last_author: "[[Yang, Yaodong]]"
 authors: "[[Ji, Jiaming]]; [[Liu, Mickel]]; [[Dai, Juntao]]; [[Pan, Xuehai]]; [[Zhang, Chi]]; [[Bian, Ce]]; [[Zhang, Chi]]; [[Sun, Ruiyang]]; [[Wang, Yizhou]]; [[Yang, Yaodong]]"

@@ -12,7 +12,7 @@ Not AI:
 key: 4YHKRNTT
 type: journalArticle
 short_title: "Value Kaleidoscope"
-year: 2025
+year: 2024
 first_author: "[[Taylor Sorensen]]"
 last_author: "[[Choi, Yejin]]"
 authors: "[[Sorensen, Taylor]]; [[Jiang, Liwei]]; [[Hwang, Jena]]; [[Levine, Sydney]]; [[Pyatkin, Valentina]]; [[West, Peter]]; [[Dziri, Nouha]]; [[Lu, Ximing]]; [[Rao, Kavel]]; [[Bhagavatula, Chandra]]; [[Sap, Maarten]]; [[Tasioulas, John]]; [[Choi, Yejin]]"

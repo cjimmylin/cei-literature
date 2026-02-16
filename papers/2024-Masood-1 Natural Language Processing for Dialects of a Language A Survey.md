@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0835
 type: preprint
 short_title: "1 Natural Language Processing for Dialects of a Language: A Survey"
-year: 2025
+year: 2024
 first_author: "[[Adnan Masood]]"
 last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"

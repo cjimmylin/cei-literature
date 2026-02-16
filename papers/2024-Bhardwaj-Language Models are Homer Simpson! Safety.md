@@ -12,7 +12,7 @@ Not AI:
 key: GBMWIP8Q
 type: document
 short_title: "Language Models are Homer Simpson! Safety"
-year: 2025
+year: 2024
 first_author: "[[Rishabh Bhardwaj]]"
 last_author: "[[Poria, Soujanya]]"
 authors: "[[Bhardwaj, Rishabh]]; [[Do, Duc Anh]]; [[Poria, Soujanya]]"

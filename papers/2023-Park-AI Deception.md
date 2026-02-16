@@ -14,7 +14,7 @@ Not AI:
 key: JR85YRDT
 type: conferencePaper
 short_title: "AI Deception"
-year: 2025
+year: 2023
 first_author: "[[Peter S. Park]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Peter S. Park; Simon Goldstein; Aidan O'Gara; Michael Chen; Dan Hendrycks"

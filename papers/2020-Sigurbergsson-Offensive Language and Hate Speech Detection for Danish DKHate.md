@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0490
 type: conferencePaper
 short_title: "Offensive Language and Hate Speech Detection for Danish (DKHate)"
-year: 2025
+year: 2020
 first_author: "[[Gudbjartur Ingi Sigurbergsson]]"
 last_author: "[[Leon Derczynski Gudbjartur Ingi Sigurbergsson]]"
 authors: "Gudbjartur Ingi Sigurbergsson, Leon Derczynski"

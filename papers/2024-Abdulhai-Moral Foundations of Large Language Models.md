@@ -13,7 +13,7 @@ Not AI:
 key: KQ8UKTRN
 type: conferencePaper
 short_title: "Moral Foundations of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Marwa Abdulhai]]"
 last_author: "[[Natasha Jaques]]"
 authors: "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; John Canny; Natasha Jaques"

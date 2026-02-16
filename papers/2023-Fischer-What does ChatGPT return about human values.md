@@ -13,7 +13,7 @@ Not AI:
 key: 2SX7MCJ4
 type: document
 short_title: "What does ChatGPT return about human values?"
-year: 2025
+year: 2023
 first_author: "[[Ronald Fischer]]"
 last_author: "[[Johannes A Karl]]"
 authors: "Ronald Fischer; Markus Luczak-Roesch; Johannes A Karl"

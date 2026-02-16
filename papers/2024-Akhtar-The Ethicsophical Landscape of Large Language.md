@@ -11,7 +11,7 @@ Human View note: "LLM through view of Aristole and Kang"
 Not AI: 
 key: G6BN8ZME
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "The Ethicsophical Landscape of Large Language"
 first_author: "[[Shahnawaz Akhtar]]"
 last_author: "[[Shahnawaz Akhtar]]"

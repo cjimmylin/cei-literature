@@ -12,7 +12,7 @@ Not AI:
 key: TLAW7446
 type: conferencePaper
 short_title: "Legal Minds, Algorithmic Decisions"
-year: 2025
+year: 2024
 first_author: "[[Camilla Bignotti]]"
 last_author: "[[Carolina Camassa]]"
 authors: "Camilla Bignotti; Carolina Camassa"

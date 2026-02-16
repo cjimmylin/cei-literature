@@ -15,7 +15,7 @@ Not AI:
 key: 6UWEKPQX
 type: conferencePaper
 short_title: "A Comprehensive Survey of LLM Alignment Techniques"
-year: 2025
+year: 2024
 first_author: "[[Zhichao Wang]]"
 last_author: "[[Na Cheng]]"
 authors: "Zhichao Wang; Bin Bi; Shiva Kumar Pentyala; Kiran Ramnath; Sougata Chaudhuri; Shubham Mehrotra; Zixu Zhu; Xiang-Bo Mao; Sitaram Asur; Na Cheng"

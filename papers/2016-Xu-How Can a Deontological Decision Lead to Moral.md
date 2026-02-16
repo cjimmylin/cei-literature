@@ -15,7 +15,7 @@ Not AI:
 key: LEJR6PWA
 type: journalArticle
 short_title: "How Can a Deontological Decision Lead to Moral"
-year: 2025
+year: 2016
 first_author: "[[Zhi Xing Xu]]"
 last_author: "[[Ma, Hing Keung]]"
 authors: "[[Xu, Zhi Xing]]; [[Ma, Hing Keung]]"

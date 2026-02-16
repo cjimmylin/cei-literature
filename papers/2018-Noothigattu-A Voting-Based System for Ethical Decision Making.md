@@ -14,7 +14,7 @@ Not AI:
 key: E8RK3MIE
 type: conferencePaper
 short_title: "A Voting-Based System for Ethical Decision Making"
-year: 2025
+year: 2018
 first_author: "[[Ritesh Noothigattu]]"
 last_author: "[[Ariel D. Procaccia]]"
 authors: "Ritesh Noothigattu; Snehalkumar 'Neil' S. Gaikwad; Edmond Awad; Sohan Dsouza; Iyad Rahwan; Pradeep Ravikumar; Ariel D. Procaccia"

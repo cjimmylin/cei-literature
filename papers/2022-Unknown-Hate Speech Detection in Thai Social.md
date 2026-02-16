@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0588
 type: preprint
 short_title: "Hate Speech Detection in Thai Social"
-year: 2025
+year: 2022
 first_author: "[[Pasupa, Kitsuchart]]"
 last_author: "[[Aksornsiri, Massakorn]]"
 authors: "[[Pasupa, Kitsuchart]]; [[Karnbanjob, Werasut]]; [[Aksornsiri, Massakorn]]"

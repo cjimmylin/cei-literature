@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0264
 type: journalArticle
 short_title: "PSYCH: Psychometric Assessment of LLM Characters"
-year: 2025
+year: 2026
 first_author: "[[N. Kratzke]]"
 last_author: "[[Monique Janneck]]"
 authors: "Nane Kratzke; Niklas Beuter; André Drews; Monique Janneck"

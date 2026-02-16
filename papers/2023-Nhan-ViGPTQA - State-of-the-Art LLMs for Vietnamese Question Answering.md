@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0373
 type: conferencePaper
 short_title: "ViGPTQA - State-of-the-Art LLMs for Vietnamese Question Answering: System Overview, Core Models Training, and Evaluations"
-year: 2025
+year: 2023
 first_author: "[[Le Trong Nhan]]"
 last_author: "[[Hien Nguyen]]"
 authors: "Le Trong Nhan, Tai Dang, Hien Nguyen"

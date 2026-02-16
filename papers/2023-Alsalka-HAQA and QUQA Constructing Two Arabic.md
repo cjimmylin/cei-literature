@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0557
 type: conference_paper
 short_title: "HAQA and QUQA Constructing Two Arabic"
-year: 2025
+year: 2023
 first_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 last_author: "[[Mohammad Ammar Alsalka]]"
 authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"

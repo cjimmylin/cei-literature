@@ -15,7 +15,7 @@ Not AI:
 key: SX4V6HQG
 type: conferencePaper
 short_title: "Introduction to AI Safety, Ethics, and Society"
-year: 2025
+year: 2024
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"

@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0548
 type: conferencePaper
 short_title: "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese"
-year: 2025
+year: 2022
 first_author: "[[Micallef, Kurt]]"
 last_author: "[[Borg, Claudia]]"
 authors: "[[Micallef, Kurt]]; [[Gatt, Albert]]; [[Tanti, Marc]]; [[Plas, Lonneke van der]]; [[Borg, Claudia]]"

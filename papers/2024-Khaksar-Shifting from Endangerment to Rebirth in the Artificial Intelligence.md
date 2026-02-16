@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0157
 type: preprint
 short_title: "Shifting from Endangerment to Rebirth in the Artificial Intelligence Age: An Ensemble Machine Learning Approach for Hawrami Text Classification"
-year: 2025
+year: 2024
 first_author: "[[Khaksar, Aram]]"
 last_author: "[[Hassani, Hossein]]"
 authors: "[[Khaksar, Aram]]; [[Hassani, Hossein]]"

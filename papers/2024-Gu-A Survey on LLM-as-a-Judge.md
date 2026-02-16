@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0745
 type: preprint
 short_title: "A Survey on LLM-as-a-Judge"
-year: 2025
+year: 2024
 first_author: "[[Gu, Jiawei]]"
 last_author: "[[Guo, Jian]]"
 authors: "[[Gu, Jiawei]]; [[Jiang, Xuhui]]; [[Shi, Zhichao]]; [[Tan, Hexiang]]; [[Zhai, Xuehao]]; [[Xu, Chengjin]]; [[Li, Wei]]; [[Shen, Yinghan]]; [[Ma, Shengjie]]; [[Liu, Honghao]]; [[Wang, Saizhuo]]; [[Zhang, Kun]]; [[Wang, Yuanzhuo]]; [[Gao, Wen]]; [[Ni, Lionel]]; [[Guo, Jian]]"

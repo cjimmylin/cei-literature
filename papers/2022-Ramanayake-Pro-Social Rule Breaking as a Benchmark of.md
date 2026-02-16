@@ -14,7 +14,7 @@ Not AI:
 key: QL4ULXYC
 type: journalArticle
 short_title: "Pro-Social Rule Breaking as a Benchmark of"
-year: 2025
+year: 2022
 first_author: "[[Rajitha Ramanayake]]"
 last_author: "[[Vivek Nallur]]"
 authors: "Rajitha Ramanayake; Vivek Nallur"

@@ -13,7 +13,7 @@ Not AI:
 key: THMU43GQ
 type: journalArticle
 short_title: "The Moral Machine experiment"
-year: 2025
+year: 2018
 first_author: "[[Edmond Awad]]"
 last_author: "[[Iyad Rahwan]]"
 authors: "Edmond Awad; Sohan Dsouza; Richard Kim; Jonathan Schulz; Joseph Henrich; Azim Shariff; Jean-François Bonnefon; Iyad Rahwan"

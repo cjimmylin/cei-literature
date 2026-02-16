@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0265
 type: preprint
 short_title: "Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks"
-year: 2025
+year: 2026
 first_author: "[[Karimi-Malekabadi, Farzan]]"
 last_author: "[[Dehghani, Morteza]]"
 authors: "[[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Sourati, Zhivar]]; [[Trager, Jackson]]; [[Dehghani, Morteza]]"

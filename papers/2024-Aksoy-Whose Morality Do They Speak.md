@@ -12,7 +12,7 @@ Not AI:
 key: 3RHCETYG
 type: conferencePaper
 short_title: "Whose Morality Do They Speak?"
-year: 2025
+year: 2024
 first_author: "[[Meltem Aksoy]]"
 last_author: "[[Meltem Aksoy]]"
 authors: "Meltem Aksoy"

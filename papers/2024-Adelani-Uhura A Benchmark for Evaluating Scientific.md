@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0541
 type: preprint
 short_title: "Uhura A Benchmark for Evaluating Scientific"
-year: 2025
+year: 2024
 first_author: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"
 last_author: "[[David Ifeoluwa Adelani Dietrich Klakow]]"
 authors: "[[Edward Bayes, Israel Abebe Azime, Jesujoba O. Alabi, Jonas Kgomo, Tyna Eloundou, Elizabeth Proehl, Kai Chen, Imaan Khadir, Naome A. Etori, Shamsuddeen Hassan Muhammad, Choice Mpanza, Igneciah Pocia Thete, Dietrich Klakow, David Ifeoluwa Adelani]]"

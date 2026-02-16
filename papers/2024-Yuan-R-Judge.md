@@ -12,7 +12,7 @@ Not AI:
 key: ASUKFPK8
 type: journalArticle
 short_title: R-Judge
-year: 2025
+year: 2024
 first_author: "[[Tongxin Yuan]]"
 last_author: "[[Gongshen Liu]]"
 authors: "Tongxin Yuan; Zhiwei He; Lingzhong Dong; Yiming Wang; Ruijie Zhao; Tian Xia; Lizhen Xu; Binglin Zhou; Fangqi Li; Zhuosheng Zhang; Rui Wang; Gongshen Liu"

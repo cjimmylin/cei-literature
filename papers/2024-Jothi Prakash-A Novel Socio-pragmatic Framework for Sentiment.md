@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0453
 type: preprint
 short_title: "A Novel Socio-pragmatic Framework for Sentiment"
-year: 2025
+year: 2024
 first_author: "[[Jothi Prakash, V.]]"
 last_author: "[[Arul Antran Vijay, S.]]"
 authors: V. Jothi Prakash; S. Arul Antran Vijay

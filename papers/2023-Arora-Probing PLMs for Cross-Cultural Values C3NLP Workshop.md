@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0242
 type: conferencePaper
 short_title: "Probing PLMs for Cross-Cultural Values (C3NLP Workshop)"
-year: 2025
+year: 2023
 first_author: "[[Arnav Arora]]"
 last_author: "[[Isabelle Augenstein]]"
 authors: "Arnav Arora, Lucie-Aimee Kaffee, Isabelle Augenstein"

@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0560
 type: conference_paper
 short_title: "Is GPT-4 a Good Islamic Expert"
-year: 2025
+year: 2023
 first_author: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"
 last_author: "[[Mohammad Ammar Alsalka]]"
 authors: "[[Sarah Alnefaie, Eric Atwell, Mohammad Ammar Alsalka]]"

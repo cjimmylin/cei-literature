@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0493
 type: preprint
 short_title: "Indic-QA Benchmark A Multilingual Benchmark to"
-year: 2025
+year: 2024
 first_author: "[[Singh, Abhishek Kumar]]"
 last_author: "[[Ramakrishnan, Ganesh]]"
 authors: "[[Singh, Abhishek Kumar]]; [[kumar, Vishwajeet]]; [[Murthy, Rudra]]; [[Sen, Jaydeep]]; [[Mittal, Ashish]]; [[Ramakrishnan, Ganesh]]"

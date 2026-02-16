@@ -13,7 +13,7 @@ Not AI:
 key: EWJXCWEU
 type: journalArticle
 short_title: THRONE
-year: 2025
+year: 2024
 first_author: "[[Prannay Kaul]]"
 last_author: "[[Stefano Soatto]]"
 authors: "Prannay Kaul; Zhizhong Li; Hao Yang; Yonatan Dukler; Ashwin Swaminathan; C. J. Taylor; Stefano Soatto"

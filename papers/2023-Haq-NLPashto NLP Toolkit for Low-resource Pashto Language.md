@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0161
 type: conferencePaper
 short_title: "NLPashto: NLP Toolkit for Low-resource Pashto Language"
-year: 2025
+year: 2023
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
 authors: "[[Haq, Ijazul]]; [[Qiu, Weidong]]; [[Guo, Jie]]; [[Tang, Peng]]"

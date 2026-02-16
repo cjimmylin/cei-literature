@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0599
 type: preprint
 short_title: "Tackling Hate Speech in Low-resource Languages"
-year: 2025
+year: 2022
 first_author: "[[Nkemelu, Daniel]]"
 last_author: "[[Best, Michael L]]"
 authors: "[[Nkemelu, Daniel]]; [[Shah, Harshil]]; [[Essa, Irfan]]; [[Best, Michael L.]]"

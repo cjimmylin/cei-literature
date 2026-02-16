@@ -13,7 +13,7 @@ Not AI:
 key: FH9JBZUW
 type: conferencePaper
 short_title: SODA
-year: 2025
+year: 2022
 first_author: "[[Hyunwoo Kim]]"
 last_author: "[[Yejin Choi]]"
 authors: "Hyunwoo Kim; Jack Hessel; Liwei Jiang; Peter West; Ximing Lu; Youngjae Yu; Pei Zhou; Ronan Le Bras; Malihe Alikhani; Gunhee Kim; Maarten Sap; Yejin Choi"

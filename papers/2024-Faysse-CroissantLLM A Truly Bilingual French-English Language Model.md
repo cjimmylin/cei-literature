@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0432
 type: preprint
 short_title: "CroissantLLM: A Truly Bilingual French-English Language Model"
-year: 2025
+year: 2024
 first_author: "[[Faysse, Manuel]]"
 last_author: "[[Colombo, Pierre]]"
 authors: "[[Faysse, Manuel]]; [[Fernandes, Patrick]]; [[Guerreiro, Nuno M.]]; [[Loison, António]]; [[Alves, Duarte M.]]; [[Corro, Caio]]; [[Boizard, Nicolas]]; [[Alves, João]]; [[Rei, Ricardo]]; [[Martins, Pedro H.]]; [[Casademunt, Antoni Bigata]]; [[Yvon, François]]; [[Martins, André F. T.]]; [[Viaud, Gautier]]; [[Hudelot, Céline]]; [[Colombo, Pierre]]"

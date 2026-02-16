@@ -12,7 +12,7 @@ Not AI:
 key: IUQX96ZJ
 type: journalArticle
 short_title: "The Greatest Good Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Giovanni Franco Gabriel Marraffini]]"
 last_author: "[[Luciano Del Corro]]"
 authors: "Giovanni Franco Gabriel Marraffini; Andrés Cotton; Noe Fabian Hsueh; Axel Fridman; Juan Wisznia; Luciano Del Corro"

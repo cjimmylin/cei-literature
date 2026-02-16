@@ -13,7 +13,7 @@ Not AI:
 key: TSQJ734D
 type: journalArticle
 short_title: COBBLER
-year: 2025
+year: 2023
 first_author: "[[Ryan Koo]]"
 last_author: "[[Dongyeop Kang]]"
 authors: "Ryan Koo; Minhwa Lee; Vipul Raheja; Jong Inn Park; Zae Myung Kim; Dongyeop Kang"

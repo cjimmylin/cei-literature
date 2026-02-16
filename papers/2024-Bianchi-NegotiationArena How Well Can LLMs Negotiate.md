@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0203
 type: conferencePaper
 short_title: "NegotiationArena: How Well Can LLMs Negotiate?"
-year: 2025
+year: 2024
 first_author: "[[Federico Bianchi]]"
 last_author: "[[James Zou]]"
 authors: "Federico Bianchi; Patrick John Chia; Mert Yuksekgonul; Jacopo Tagliabue; Dan Jurafsky; James Zou"

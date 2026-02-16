@@ -12,7 +12,7 @@ Not AI:
 key: 3FVZCJRK
 type: document
 short_title: EMoTES-3K
-year: 2025
+year: 2023
 first_author: "[[Jasper Kyle Catapang]]"
 last_author: "[[Visperas, Moses]]"
 authors: "[[Catapang, Jasper Kyle]]; [[Visperas, Moses]]"

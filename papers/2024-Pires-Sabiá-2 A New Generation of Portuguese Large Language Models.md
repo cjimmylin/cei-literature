@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0214
 type: preprint
 short_title: "Sabiá-2: A New Generation of Portuguese Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Almeida, Thales Sales]]"
 last_author: "[[Pires, Ramon]]"
 authors: "[[Almeida, Thales Sales]]; [[Abonizio, Hugo]]; [[Nogueira, Rodrigo]]; [[Pires, Ramon]]"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0283
 type: conferencePaper
 short_title: "Overview of HOMO-MEX at IberLEF 2024: Hate Speech Detection Towards the Mexican Spanish Speaking LGBT+ Population"
-year: 2025
+year: 2024
 first_author: "[[Gómez-Adorno, Helena]]"
 last_author: "[[Helena Gómez-Adorno]]"
 authors: "[[Gómez-Adorno, Helena]]"

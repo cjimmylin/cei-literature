@@ -13,7 +13,7 @@ Human View note:
 Not AI: 
 key: VVVLTVIR
 type: journalArticle
-year: 2025
+year: 2023
 short_title: VisAlign
 first_author: "[[Jiyoung Lee]]"
 last_author: "[[Edward Choi]]"

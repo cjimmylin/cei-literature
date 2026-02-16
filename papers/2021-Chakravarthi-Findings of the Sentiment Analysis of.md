@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0604
 type: preprint
 short_title: "Findings of the Sentiment Analysis of"
-year: 2025
+year: 2021
 first_author: "[[Chakravarthi, Bharathi Raja]]"
 last_author: "[[Vasantharajan, Charangan]]"
 authors: "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Thavareesan, Sajeetha]]; [[Chinnappa, Dhivya]]; [[Thenmozhi, Durairaj]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]; [[Hande, Adeep]]; [[Ponnusamy, Rahul]]; [[Banerjee, Shubhanker]]; [[Vasantharajan, Charangan]]"

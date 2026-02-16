@@ -13,7 +13,7 @@ Not AI:
 key: PSH3WPB6
 type: conferencePaper
 short_title: "Identifying and Manipulating the Personality"
-year: 2025
+year: 2022
 first_author: "[[Graham Caron]]"
 last_author: "[[Shashank Srivastava]]"
 authors: "Graham Caron; Shashank Srivastava"

@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_RIBEIRO2024
 type: conferencePaper
 short_title: "Machine Ethics Architecture of Virtue"
-year: 2025
+year: 2024
 first_author: "[[B.A. Ribeiro]]"
 last_author: "[[da Silva, M.B]]"
 authors: "[[Ribeiro, B.A.]]; [[da Silva, M.B.]]"

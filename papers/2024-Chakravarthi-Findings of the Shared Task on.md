@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0481
 type: preprint
 short_title: "Findings of the Shared Task on"
-year: 2025
+year: 2024
 first_author: "[[B, Premjith]]"
 last_author: "[[Janakiram, Chandu]]"
 authors: "[[B, Premjith]]; [[Chakravarthi, Bharathi Raja]]; [[Kumaresan, Prasanna Kumar]]; [[Rajiakodi, Saranya]]; [[Karnati, Sai Prashanth]]; [[Mangamuru, Sai Rishith Reddy]]; [[Janakiram, Chandu]]"

@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0309
 type: preprint
 short_title: "Quran-MD A Fine-Grained Multilingual Multimodal Dataset"
-year: 2025
+year: 2026
 first_author: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"
 last_author: "[[Mohammed Talha Alam]]"
 authors: "[[Muhammad Umar Salman, Mohammad Areeb Qazi, Mohammed Talha Alam]]"

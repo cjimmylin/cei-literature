@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0609
 type: journal_article
 short_title: "Optimisation of the Largest Annotated Tibetan"
-year: 2025
+year: 2021
 first_author: "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]"
 last_author: "[[Nathan Hill (and collaborators)]]"
 authors: "[[Christian Faggionato, Marieke Meelen, Nathan Hill (and collaborators)]]"

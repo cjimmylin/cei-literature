@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0516
 type: preprint
 short_title: "OpenThaiGPT 15 A Thai-Centric Open Source"
-year: 2025
+year: 2024
 first_author: "[[team, OpenThaiGPT]]"
 last_author: "[[OpenThaiGPT team]]"
 authors: "[[OpenThaiGPT team]]"

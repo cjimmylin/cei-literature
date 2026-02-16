@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0504
 type: preprint
 short_title: "CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian"
-year: 2025
+year: 2024
 first_author: "[[Over 80 contributors (community initiative)]]"
 last_author: "[[Over 80 contributors (community initiative)]]"
 authors: "Over 80 contributors (community initiative)"

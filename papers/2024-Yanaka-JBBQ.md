@@ -12,7 +12,7 @@ Not AI:
 key: ZUCE9BWB
 type: journalArticle
 short_title: JBBQ
-year: 2025
+year: 2024
 first_author: "[[Hitomi Yanaka]]"
 last_author: "[[Hiromi Arai]]"
 authors: "Hitomi Yanaka; Namgi Han; Ryoma Kumon; Jie Lu; Masashi Takeshita; Ryo Sekizawa; Taisei Kato; Hiromi Arai"

@@ -12,7 +12,7 @@ Not AI:
 key: F5F25757
 type: conferencePaper
 short_title: "GermEval 2019 Task 2"
-year: 2025
+year: 2019
 first_author: "[[Sven Kreutz]]"
 last_author: "[[Hendrik Klawitter]]"
 authors: "Sven Kreutz; Hendrik Klawitter"

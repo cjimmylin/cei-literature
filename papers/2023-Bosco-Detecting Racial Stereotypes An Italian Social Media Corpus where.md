@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0512
 type: conferencePaper
 short_title: "Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP"
-year: 2025
+year: 2023
 first_author: "[[Cristina Bosco]]"
 last_author: "[[Francesca D'Errico Marina Paciello]]"
 authors: "Cristina Bosco, Viviana Patti, Simona Frenda, Alessandra T. Cignarella, Marina Paciello, Francesca D'Errico"

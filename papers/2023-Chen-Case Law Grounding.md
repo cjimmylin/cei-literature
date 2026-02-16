@@ -13,7 +13,7 @@ Not AI:
 key: 5K3XEJ5L
 type: conferencePaper
 short_title: "Case Law Grounding"
-year: 2025
+year: 2023
 first_author: "[[Quan Ze Chen]]"
 last_author: "[[Amy X. Zhang]]"
 authors: "Quan Ze Chen; Amy X. Zhang"

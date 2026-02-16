@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0215
 type: preprint
 short_title: SafeAgentBench
-year: 2025
+year: 2024
 first_author: "[[Yin, Sheng]]"
 last_author: "[[Chen, Siheng]]"
 authors: "[[Yin, Sheng]]; [[Pang, Xianghe]]; [[Ding, Yuanzhuo]]; [[Chen, Menglan]]; [[Bi, Yutong]]; [[Xiong, Yichen]]; [[Huang, Wenhao]]; [[Xiang, Zhen]]; [[Shao, Jing]]; [[Chen, Siheng]]"

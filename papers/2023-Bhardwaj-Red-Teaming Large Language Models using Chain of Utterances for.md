@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0368
 type: preprint
 short_title: "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment"
-year: 2025
+year: 2023
 first_author: "[[Rishabh Bhardwaj]]"
 last_author: "[[Soujanya Poria Rishabh Bhardwaj]]"
 authors: "Rishabh Bhardwaj, Soujanya Poria"

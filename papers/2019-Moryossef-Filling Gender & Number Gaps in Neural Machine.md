@@ -13,7 +13,7 @@ Not AI:
 key: W3LNG2ZA
 type: conferencePaper
 short_title: "Filling Gender & Number Gaps in Neural Machine"
-year: 2025
+year: 2019
 first_author: "[[Amit Moryossef]]"
 last_author: "[[Yoav Goldberg]]"
 authors: "Amit Moryossef; Roee Aharoni; Yoav Goldberg"

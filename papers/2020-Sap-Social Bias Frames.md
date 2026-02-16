@@ -13,7 +13,7 @@ Not AI:
 key: APKZ7QRP
 type: conferencePaper
 short_title: "Social Bias Frames"
-year: 2025
+year: 2020
 first_author: "[[Maarten Sap]]"
 last_author: "[[Yejin Choi]]"
 authors: "Maarten Sap; Saadia Gabriel; Lianhui Qin; Dan Jurafsky; Noah A. Smith; Yejin Choi"

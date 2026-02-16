@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0089
 type: conferencePaper
 short_title: "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo"
-year: 2025
+year: 2024
 first_author: "[[Walelign Sewunetie]]"
 last_author: "[[Seid Yimam Hussien Seid]]"
 authors: "Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigatu, Gashaw Gebremeskel, Zewdie Mossie, Hussien Seid, Seid Yimam"

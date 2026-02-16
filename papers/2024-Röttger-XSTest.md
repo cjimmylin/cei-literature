@@ -13,7 +13,7 @@ Not AI:
 key: 8X95VAH8
 type: document
 short_title: XSTest
-year: 2025
+year: 2024
 first_author: "[[Paul Röttger]]"
 last_author: "[[Hovy, Dirk]]"
 authors: "[[Röttger, Paul]]; [[Kirk, Hannah]]; [[Vidgen, Bertie]]; [[Attanasio, Giuseppe]]; [[Bianchi, Federico]]; [[Hovy, Dirk]]"

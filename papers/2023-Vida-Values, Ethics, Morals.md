@@ -14,7 +14,7 @@ Not AI:
 key: J7V9RK4B
 type: conferencePaper
 short_title: "Values, Ethics, Morals?"
-year: 2025
+year: 2023
 first_author: "[[Karina Vida]]"
 last_author: "[[Anne Lauscher]]"
 authors: "Karina Vida; Judith Simon; Anne Lauscher"

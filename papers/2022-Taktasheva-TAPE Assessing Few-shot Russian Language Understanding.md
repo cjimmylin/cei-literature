@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0307
 type: preprint
 short_title: "TAPE: Assessing Few-shot Russian Language Understanding"
-year: 2025
+year: 2022
 first_author: "[[Taktasheva, Ekaterina]]"
 last_author: "[[Mikhailov, Vladislav]]"
 authors: "[[Taktasheva, Ekaterina]]; [[Shavrina, Tatiana]]; [[Fenogenova, Alena]]; [[Shevelev, Denis]]; [[Katricheva, Nadezhda]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Zinkevich, Oleg]]; [[Bashmakova, Anastasiia]]; [[Iordanskaia, Svetlana]]; [[Spiridonova, Alena]]; [[Kurenshchikova, Valentina]]; [[Artemova, Ekaterina]]; [[Mikhailov, Vladislav]]"

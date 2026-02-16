@@ -13,7 +13,7 @@ Not AI:
 key: GVQJ29Y4
 type: conferencePaper
 short_title: Safetywashing
-year: 2025
+year: 2024
 first_author: "[[Richard Ren]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Richard Ren; Steven Basart; Adam Khoja; Alice Gatti; Long Phan; Xuwang Yin; Mantas Mazeika; Alexander Pan; Gabriel Mukobi; Ryan H. Kim; Stephen Fitz; Dan Hendrycks"

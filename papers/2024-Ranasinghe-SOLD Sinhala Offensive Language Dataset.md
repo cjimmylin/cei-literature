@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0169
 type: preprint
 short_title: "SOLD: Sinhala Offensive Language Dataset"
-year: 2025
+year: 2024
 first_author: "[[Ranasinghe, Tharindu]]"
 last_author: "[[Zampieri, Marcos]]"
 authors: "[[Ranasinghe, Tharindu]]; [[Anuradha, Isuri]]; [[Premasiri, Damith]]; [[Silva, Kanishka]]; [[Hettiarachchi, Hansi]]; [[Uyangodage, Lasitha]]; [[Zampieri, Marcos]]"

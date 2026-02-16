@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0363
 type: conferencePaper
 short_title: "ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model"
-year: 2025
+year: 2024
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Luan Thanh Nguyen]]"
 authors: "Luan Thanh Nguyen"

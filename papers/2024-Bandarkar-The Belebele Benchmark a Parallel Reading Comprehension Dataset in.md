@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0195
 type: preprint
 short_title: "The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants"
-year: 2025
+year: 2024
 first_author: "[[Bandarkar, Lucas]]"
 last_author: "[[Khabsa, Madian]]"
 authors: "[[Bandarkar, Lucas]]; [[Liang, Davis]]; [[Muller, Benjamin]]; [[Artetxe, Mikel]]; [[Shukla, Satya Narayan]]; [[Husa, Donald]]; [[Goyal, Naman]]; [[Krishnan, Abhinandan]]; [[Zettlemoyer, Luke]]; [[Khabsa, Madian]]"

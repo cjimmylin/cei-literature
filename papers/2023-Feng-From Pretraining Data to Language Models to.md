@@ -13,7 +13,7 @@ Not AI:
 key: UMMN7MU2
 type: conferencePaper
 short_title: "From Pretraining Data to Language Models to"
-year: 2025
+year: 2023
 first_author: "[[Shangbin Feng]]"
 last_author: "[[Yulia Tsvetkov]]"
 authors: "Shangbin Feng; Chan Young Park; Yuhan Liu; Yulia Tsvetkov"

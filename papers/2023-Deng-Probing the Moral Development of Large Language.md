@@ -14,7 +14,7 @@ Not AI:
 key: 8WMUQJPS
 type: conferencePaper
 short_title: "Probing the Moral Development of Large Language"
-year: 2025
+year: 2023
 first_author: "[[Kumar Tanmay]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Kumar Tanmay; Aditi Khandelwal; Utkarsh Agarwal; Monojit Choudhury"

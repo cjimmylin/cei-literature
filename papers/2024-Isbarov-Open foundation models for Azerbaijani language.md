@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0515
 type: preprint
 short_title: "Open foundation models for Azerbaijani language"
-year: 2025
+year: 2024
 first_author: "[[Jafar Isbarov]]"
 last_author: "[[Duygu Ataman]]"
 authors: "[[Jafar Isbarov]]; [[Kavsar Huseynova]]; [[Elvin Mammadov]]; [[Mammad Hajili]]; [[Duygu Ataman]]"

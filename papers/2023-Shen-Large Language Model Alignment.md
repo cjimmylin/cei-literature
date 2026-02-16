@@ -14,7 +14,7 @@ Not AI:
 key: NZ4RKDFT
 type: conferencePaper
 short_title: "Large Language Model Alignment"
-year: 2025
+year: 2023
 first_author: "[[Tianhao Shen]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Tianhao Shen; Renren Jin; Yufei Huang; Chuang Liu; Weilong Dong; Zishan Guo; Xinwei Wu; Yan Liu; Deyi Xiong"

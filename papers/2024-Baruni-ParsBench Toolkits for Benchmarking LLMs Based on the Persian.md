@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0144
 type: conferencePaper
 short_title: "ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks"
-year: 2025
+year: 2024
 first_author: "[[Abaskohi, Amirhossein]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
 authors: "[[Abaskohi, Amirhossein]]; [[Baruni, Sara]]; [[Masoudi, Mostafa]]; [[Abbasi, Nesa]]; [[Babalou, Mohammad Hadi]]; [[Edalat, Ali]]; [[Kamahi, Sepehr]]; [[Sani, Samin Mahdizadeh]]; [[Naghavian, Nikoo]]; [[Namazifard, Danial]]; [[Sadeghi, Pouya]]; [[Yaghoobzadeh, Yadollah]]"

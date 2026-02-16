@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0037
 type: conferencePaper
 short_title: "Neural Modeling for Named Entities and Morphology (NEMO2)"
-year: 2025
+year: 2021
 first_author: "[[Dan Bareket]]"
 last_author: "[[Reut Tsarfaty Dan Bareket]]"
 authors: "Dan Bareket, Reut Tsarfaty"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0383
 type: preprint
 short_title: "A New Benchmark Dataset and Mixture-of-Experts Language Models for Adversarial Natural Language Inference in Vietnamese"
-year: 2025
+year: 2024
 first_author: "[[Van Huynh, Tin]]"
 last_author: "[[Nguyen, Ngan Luu-Thuy]]"
 authors: "[[Van Huynh, Tin]]; [[Van Nguyen, Kiet]]; [[Nguyen, Ngan Luu-Thuy]]"

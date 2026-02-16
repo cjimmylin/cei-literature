@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0542
 type: preprint
 short_title: "Uncovering Theological and Ethical Biases in"
-year: 2025
+year: 2024
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[A. G. Elrod]]"
 authors: "[[A. G. Elrod]]"

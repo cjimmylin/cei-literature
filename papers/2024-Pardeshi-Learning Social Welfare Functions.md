@@ -13,7 +13,7 @@ Not AI:
 key: AUTO_PARDESHI2024
 type: preprint
 short_title: "Learning Social Welfare Functions"
-year: 2025
+year: 2024
 first_author: "[[Kanad Shrikar Pardeshi]]"
 last_author: "[[Singh, Aarti]]"
 authors: "[[Pardeshi, Kanad Shrikar]]; [[Shapira, Itai]]; [[Procaccia, Ariel D.]]; [[Singh, Aarti]]"

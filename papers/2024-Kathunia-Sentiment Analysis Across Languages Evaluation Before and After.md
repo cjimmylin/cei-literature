@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0630
 type: preprint
 short_title: "Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English"
-year: 2025
+year: 2024
 first_author: "[[Kathunia, Aekansh]]"
 last_author: "[[Narotam, N]]"
 authors: "[[Kathunia, Aekansh]]; [[Kaif, Mohammad]]; [[Arora, Nalin]]; [[Narotam, N]]"

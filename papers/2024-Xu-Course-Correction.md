@@ -13,7 +13,7 @@ Not AI:
 key: ZQVSPW2M
 type: conferencePaper
 short_title: Course-Correction
-year: 2025
+year: 2024
 first_author: "[[Rongwu Xu]]"
 last_author: "[[Han Qiu]]"
 authors: "Rongwu Xu; Yishuo Cai; Zhenhong Zhou; Renjie Gu; Haiqin Weng; Yan Liu; Tianwei Zhang; Wei Xu; Han Qiu"

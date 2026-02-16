@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0143
 type: conferencePaper
 short_title: "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
-year: 2025
+year: 2024
 first_author: "[[Zheng, Jingnan]]"
 last_author: "[[Chua, Tat-Seng]]"
 authors: "[[Zheng, Jingnan]]; [[Wang, Han]]; [[Zhang, An]]; [[Nguyen, Tai D.]]; [[Sun, Jun]]; [[Chua, Tat-Seng]]"

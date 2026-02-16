@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0491
 type: preprint
 short_title: "DaCy: A Unified Framework for Danish NLP"
-year: 2025
+year: 2021
 first_author: "[[Kenneth C. Enevoldsen]]"
 last_author: "[[Kristoffer Nielbo]]"
 authors: "Kenneth C. Enevoldsen, Lasse Hansen, Kristoffer Nielbo"

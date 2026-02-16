@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0477
 type: preprint
 short_title: "LLaMmlein: Transparent, Compact and Competitive German-Only Language Models from Scratch"
-year: 2025
+year: 2024
 first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho]]"
 authors: "Jan Pfister, Julia Wunderle, Andreas Hotho"

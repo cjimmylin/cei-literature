@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0639
 type: preprint
 short_title: "Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey"
-year: 2025
+year: 2024
 first_author: "[[Yang, Hao]]"
 last_author: "[[Qin, Bing]]"
 authors: "[[Yang, Hao]]; [[Zhao, Yanyan]]; [[Wu, Yang]]; [[Wang, Shilong]]; [[Zheng, Tian]]; [[Zhang, Hongbo]]; [[Ma, Zongyang]]; [[Che, Wanxiang]]; [[Qin, Bing]]"

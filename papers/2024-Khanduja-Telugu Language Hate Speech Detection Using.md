@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0532
 type: preprint
 short_title: "Telugu Language Hate Speech Detection Using"
-year: 2025
+year: 2024
 first_author: "[[Namit Khanduja]]"
 last_author: "[[Arun Chauhan]]"
 authors: "[[Namit Khanduja]]; [[Nishant Kumar]]; [[Arun Chauhan]]"

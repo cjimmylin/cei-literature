@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0462
 type: conferencePaper
 short_title: "DeTox: A Comprehensive Dataset for German Offensive Language and Conversation Analysis"
-year: 2025
+year: 2022
 first_author: "[[Christoph Demus]]"
 last_author: "[[Udo Kruschwitz]]"
 authors: "Christoph Demus, Jonas Pitz, Mina Schussler, Dirk Labudde, Udo Kruschwitz"

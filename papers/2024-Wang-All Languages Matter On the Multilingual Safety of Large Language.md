@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0327
 type: preprint
 short_title: "All Languages Matter: On the Multilingual Safety of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Wang, Wenxuan]]"
 last_author: "[[Lyu, Michael]]"
 authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]"

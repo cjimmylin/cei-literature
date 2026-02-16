@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0566
 type: journal_article
 short_title: "Religion Theology and Philosophical Skills of"
-year: 2025
+year: 2023
 first_author: "[[Trepczynski, Marcin]]"
 last_author: "[[Marcin Trepczynski]]"
 authors: "[[Marcin Trepczynski]]"

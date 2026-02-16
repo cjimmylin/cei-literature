@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0520
 type: preprint
 short_title: "The Catalan Language CLUB (Catalan Language Understanding Benchmark)"
-year: 2025
+year: 2021
 first_author: "[[Rodriguez-Penagos, Carlos]]"
 last_author: "[[Pio, Casimiro Carrino]]"
 authors: "[[Rodriguez-Penagos, Carlos]]; [[Armentano-Oller, Carme]]; [[Villegas, Marta]]; [[Melero, Maite]]; [[Gonzalez, Aitor]]; [[Bonet, Ona de Gibert]]; [[Pio, Casimiro Carrino]]"

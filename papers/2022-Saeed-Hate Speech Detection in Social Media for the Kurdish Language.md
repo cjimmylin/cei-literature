@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0151
 type: conferencePaper
 short_title: "Hate Speech Detection in Social Media for the Kurdish Language"
-year: 2025
+year: 2022
 first_author: "[[Saeed, Ari M.]]"
 last_author: "[[Rashid, Tarik Ahmed]]"
 authors: "[[Saeed, Ari M.]]; [[Ismael, Aso N.]]; [[Rasul, Danya L.]]; [[Majeed, Rayan S.]]; [[Rashid, Tarik Ahmed]]"

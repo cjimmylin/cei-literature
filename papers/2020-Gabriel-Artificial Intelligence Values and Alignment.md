@@ -14,7 +14,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Artificial Intelligence Values and Alignment"
-year: 2025
+year: 2020
 first_author: "[[Iason Gabriel]]"
 last_author: "[[Iason Gabriel]]"
 authors: "Iason Gabriel"

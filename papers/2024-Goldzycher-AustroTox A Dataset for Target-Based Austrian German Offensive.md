@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0463
 type: preprint
 short_title: "AustroTox: A Dataset for Target-Based Austrian German Offensive Language Detection"
-year: 2025
+year: 2024
 first_author: "[[Janis Goldzycher]]"
 last_author: "[[Hanna Mahler]]"
 authors: "Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pado, Hanna Mahler"

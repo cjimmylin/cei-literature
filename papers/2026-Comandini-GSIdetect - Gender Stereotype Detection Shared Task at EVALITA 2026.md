@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0525
 type: conferencePaper
 short_title: "GSI:detect — Gender Stereotype Detection Shared Task at EVALITA 2026"
-year: 2025
+year: 2026
 first_author: "[[Gloria Comandini]]"
 last_author: "[[Bernardo Magnini Stefania Cavagnoli]]"
 authors: "Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini"

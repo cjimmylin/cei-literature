@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0603
 type: conferencePaper
 short_title: "The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages"
-year: 2025
+year: 2024
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Yana Veitsman]]"
 authors: "Yana Veitsman"

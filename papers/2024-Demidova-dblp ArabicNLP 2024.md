@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0747
 type: conferencePaper
 short_title: "dblp: ArabicNLP 2024"
-year: 2025
+year: 2024
 first_author: "[[Anastasiia Demidova]]"
 last_author: "[[Sanad Sha Nour Rabih]]"
 authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"

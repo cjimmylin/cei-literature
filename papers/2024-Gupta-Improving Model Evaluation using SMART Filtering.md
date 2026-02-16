@@ -13,7 +13,7 @@ Not AI:
 key: WQ9NJRNZ
 type: conferencePaper
 short_title: "Improving Model Evaluation using SMART Filtering"
-year: 2025
+year: 2024
 first_author: "[[Vipul Gupta]]"
 last_author: "[[Adina Williams]]"
 authors: "Vipul Gupta; Candace Ross; David Pantoja; Rebecca J. Passonneau; Megan Ung; Adina Williams"

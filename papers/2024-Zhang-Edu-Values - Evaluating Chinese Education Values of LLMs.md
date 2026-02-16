@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0163
 type: preprint
 short_title: "Edu-Values -- Evaluating Chinese Education Values of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Peiyi Zhang]]"
 last_author: "[[Jing Qin]]"
 authors: "Peiyi Zhang; Yazhou Zhang; Bo Wang; Lu Rong; Prayag Tiwari; Jing Qin"

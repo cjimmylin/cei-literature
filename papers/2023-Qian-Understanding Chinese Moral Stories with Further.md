@@ -12,7 +12,7 @@ Not AI:
 key: QJBVJJ2A
 type: journalArticle
 short_title: "Understanding Chinese Moral Stories with Further"
-year: 2025
+year: 2023
 first_author: "[[Jing Qian]]"
 last_author: "[[Jing Qian]]"
 authors: "Jing Qian"

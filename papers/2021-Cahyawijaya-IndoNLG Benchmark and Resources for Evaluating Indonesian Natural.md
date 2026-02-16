@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0116
 type: preprint
 short_title: "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation"
-year: 2025
+year: 2021
 first_author: "[[Cahyawijaya, Samuel]]"
 last_author: "[[Fung, Pascale]]"
 authors: "[[Cahyawijaya, Samuel]]; [[Winata, Genta Indra]]; [[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Li, Xiaohong]]; [[Kuncoro, Adhiguna]]; [[Ruder, Sebastian]]; [[Lim, Zhi Yuan]]; [[Bahar, Syafri]]; [[Khodra, Masayu Leylia]]; [[Purwarianti, Ayu]]; [[Fung, Pascale]]"

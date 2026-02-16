@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Evaluating Computational Models of Ethics"
-year: 2025
+year: 2024
 first_author: "[[Jatin Chhabra]]"
 last_author: "[[Jay Deshmukh]]"
 authors: "Jatin Chhabra; Kartik Sama; Jay Deshmukh"

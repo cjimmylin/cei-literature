@@ -13,7 +13,7 @@ Not AI:
 key: R3D4BBTX
 type: conferencePaper
 short_title: "The AI Scientist"
-year: 2025
+year: 2024
 first_author: "[[Chris Lu]]"
 last_author: "[[David Ha]]"
 authors: "Chris Lu; Cong Lu; Robert Tjarko Lange; Jakob Foerster; Jeff Clune; David Ha"

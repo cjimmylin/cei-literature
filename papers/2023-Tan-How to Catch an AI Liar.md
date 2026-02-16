@@ -13,7 +13,7 @@ Not AI:
 key: TJNSRVFL
 type: journalArticle
 short_title: "How to Catch an AI Liar"
-year: 2025
+year: 2023
 first_author: "[[Lorenzo Pacchiardi]]"
 last_author: "[[Jan Brauner]]"
 authors: "Lorenzo Pacchiardi; Alex J. Chan; Sören Mindermann; Ilan Moscovitz; Alexa Y. Pan; Yarin Gal; Owain Evans; Jan Brauner"

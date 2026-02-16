@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0540
 type: conferencePaper
 short_title: "Large Language Models and Low-Resource Languages: An Examination of Armenian NLP"
-year: 2025
+year: 2023
 first_author: "[[Hayastan Avetisyan]]"
 last_author: "[[David Broneske Hayastan Avetisyan]]"
 authors: "Hayastan Avetisyan, David Broneske"

@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0183
 type: conferencePaper
 short_title: "IndiBias -- Benchmark Dataset for Social Biases in Indian Context"
-year: 2025
+year: 2024
 first_author: "[[Sahoo, Nihar Ranjan]]"
 last_author: "[[Bhattacharyya, Pushpak]]"
 authors: "[[Sahoo, Nihar Ranjan]]; [[Kulkarni, Pranamya Prashant]]; [[Asad, Narjis]]; [[Ahmad, Arif]]; [[Goyal, Tanu]]; [[Garimella, Aparna]]; [[Bhattacharyya, Pushpak]]"

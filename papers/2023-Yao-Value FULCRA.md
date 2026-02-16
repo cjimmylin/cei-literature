@@ -13,7 +13,7 @@ Not AI:
 key: 2ZM69H7H
 type: conferencePaper
 short_title: "Value FULCRA"
-year: 2025
+year: 2023
 first_author: "[[Jing Yao]]"
 last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Yifan Gong; Xing Xie"

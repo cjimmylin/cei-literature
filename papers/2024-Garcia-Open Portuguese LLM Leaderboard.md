@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0222
 type: conferencePaper
 short_title: "Open Portuguese LLM Leaderboard"
-year: 2025
+year: 2024
 first_author: "[[Eduardo Garcia]]"
 last_author: "[[Eduardo Garcia]]"
 authors: "Eduardo Garcia"

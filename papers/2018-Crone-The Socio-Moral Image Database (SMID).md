@@ -14,7 +14,7 @@ Not AI:
 key: MYX4ENYX
 type: journalArticle
 short_title: "The Socio-Moral Image Database (SMID)"
-year: 2025
+year: 2018
 first_author: "[[Deon Crone]]"
 last_author: "[[Deon Crone]]"
 authors: "Deon Crone"

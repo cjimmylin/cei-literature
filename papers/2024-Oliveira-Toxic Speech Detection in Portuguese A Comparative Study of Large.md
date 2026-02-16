@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0225
 type: conferencePaper
 short_title: "Toxic Speech Detection in Portuguese: A Comparative Study of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Amanda da Silva Oliveira]]"
 last_author: "[[Eduardo José da Silva Luz]]"
 authors: "Amanda da Silva Oliveira, Thiago de Carvalho Cecote, João Paulo Reis Alvarenga, Vander Luis de Souza Freitas, Eduardo José da Silva Luz"

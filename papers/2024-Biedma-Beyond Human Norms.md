@@ -11,7 +11,7 @@ Not AI:
 key: QSRJKWRD
 type: conferencePaper
 short_title: "Beyond Human Norms"
-year: 2025
+year: 2024
 first_author: "[[Pablo Biedma]]"
 last_author: "[[Xie, Xing]]"
 authors: "[[Biedma, Pablo]]; [[Yi, Xiaoyuan]]; [[Huang, Linus]]; [[Sun, Maosong]]; [[Xie, Xing]]"

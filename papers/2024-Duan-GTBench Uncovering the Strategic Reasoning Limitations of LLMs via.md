@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0176
 type: conferencePaper
 short_title: "GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations"
-year: 2025
+year: 2024
 first_author: "[[Jinhao Duan]]"
 last_author: "[[Kaidi Xu]]"
 authors: "Jinhao Duan; Renming Zhang; James Diffenderfer; Bhavya Kailkhura; Lichao Sun; Elias Stengel-Eskin; Mohit Bansal; Tianlong Chen; Kaidi Xu"

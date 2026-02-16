@@ -15,7 +15,7 @@ Not AI:
 key: ARXIV_2601_04175
 type: preprint
 short_title: "Legal Alignment for Safe and Ethical AI"
-year: 2025
+year: 2026
 first_author: "[[Noam Kolt]]"
 last_author: "[[Jonathan Zittrain]]"
 authors: "[[Kolt, Noam]], [[Caputo, Nicholas]], [[Boeglin, Jack]], [[O'Keefe, Cullen]], [[Bommasani, Rishi]], [[Casper, Stephen]], [[Cuéllar, Mariano-Florentino]], [[Feldman, Noah]], [[Gabriel, Iason]], [[Hadfield, Gillian K.]], [[Hammond, Lewis]], [[Henderson, Peter]], [[Kasirzadeh, Atoosa]], [[Lazar, Seth]], [[Reuel, Anka]], [[Wei, Kevin L.]], [[Zittrain, Jonathan]]"

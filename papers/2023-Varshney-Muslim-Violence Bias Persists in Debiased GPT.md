@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0562
 type: preprint
 short_title: "Muslim-Violence Bias Persists in Debiased GPT"
-year: 2025
+year: 2023
 first_author: "[[Babak Hemmatian, Lav R. Varshney]]"
 last_author: "[[Lav R. Varshney Babak Hemmatian]]"
 authors: "[[Babak Hemmatian, Lav R. Varshney]]"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0231
 type: preprint
 short_title: "Open Generative Large Language Models for Galician"
-year: 2025
+year: 2024
 first_author: "[[Authors from Universidade de Santiago de Compostela]]"
 last_author: "[[Authors from Universidade de Santiago de Compostela]]"
 authors: "Authors from Universidade de Santiago de Compostela"

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0171
 type: preprint
 short_title: "The 'Colonial Impulse' of Natural Language Processing: An Audit of Bengali Sentiment Analysis Tools and Their Identity-based Biases"
-year: 2025
+year: 2024
 first_author: "[[D. Das]]"
 last_author: "[[B. Semaan]]"
 authors: "Das, D., Guha, S., Brubaker, J., Semaan, B."

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0345
 type: conferencePaper
 short_title: "Serbian LLM Evaluation Dataset"
-year: 2025
+year: 2024
 first_author: "[[Aleksa Gordic]]"
 last_author: "[[Aleksa Gordic]]"
 authors: "Aleksa Gordic"

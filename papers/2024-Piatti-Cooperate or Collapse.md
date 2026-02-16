@@ -13,7 +13,7 @@ Not AI:
 key: 66PZ6I77
 type: conferencePaper
 short_title: "Cooperate or Collapse"
-year: 2025
+year: 2024
 first_author: "[[Giorgio Piatti]]"
 last_author: "[[Rada Mihalcea]]"
 authors: "Giorgio Piatti; Zhijing Jin; Max Kleiman-Weiner; Bernhard Schölkopf; Mrinmaya Sachan; Rada Mihalcea"

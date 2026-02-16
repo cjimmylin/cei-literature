@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0459
 type: preprint
 short_title: "Bias and Fairness in Large Language Models: A Survey"
-year: 2025
+year: 2024
 first_author: "[[Gallegos, Isabel O.]]"
 last_author: "[[Ahmed, Nesreen K]]"
 authors: "[[Gallegos, Isabel O.]]; [[Rossi, Ryan A.]]; [[Barrow, Joe]]; [[Tanjim, Md Mehrab]]; [[Kim, Sungchul]]; [[Dernoncourt, Franck]]; [[Yu, Tong]]; [[Zhang, Ruiyi]]; [[Ahmed, Nesreen K.]]"

@@ -14,7 +14,7 @@ Not AI:
 key: KVSSXTZD
 type: conferencePaper
 short_title: "Large Language Models Empowered Agent-based"
-year: 2025
+year: 2023
 first_author: "[[Chen Gao]]"
 last_author: "[[Yong Li]]"
 authors: "Chen Gao; Xiaochong Lan; Nian Li; Yuan Yuan; Jingtao Ding; Zhilun Zhou; Fengli Xu; Yong Li"

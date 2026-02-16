@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0381
 type: conferencePaper
 short_title: "Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)"
-year: 2025
+year: 2024
 first_author: "[[Dung Nguyen Quang]]"
 last_author: "[[Dung Nguyen Quang]]"
 authors: "Dung Nguyen Quang"

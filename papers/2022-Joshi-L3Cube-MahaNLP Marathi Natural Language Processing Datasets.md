@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0593
 type: preprint
 short_title: "L3Cube-MahaNLP Marathi Natural Language Processing Datasets"
-year: 2025
+year: 2022
 first_author: "[[Joshi]]"
 last_author: "[[Joshi]]"
 authors: "[[Joshi]]"

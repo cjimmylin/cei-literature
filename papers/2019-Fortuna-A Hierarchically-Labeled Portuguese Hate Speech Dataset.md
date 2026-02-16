@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0219
 type: conferencePaper
 short_title: "A Hierarchically-Labeled Portuguese Hate Speech Dataset"
-year: 2025
+year: 2019
 first_author: "[[Paula Fortuna]]"
 last_author: "[[Sérgio Nunes]]"
 authors: "Paula Fortuna, João Rocha da Silva, Juan Soler-Company, Leo Wanner, Sérgio Nunes"

@@ -14,7 +14,7 @@ Not AI:
 key: XEZHDTK9
 type: conferencePaper
 short_title: "Augmented Datasheets for Speech Datasets and"
-year: 2025
+year: 2023
 first_author: "[[McKane Andrus]]"
 last_author: "[[McKane Andrus]]"
 authors: "McKane Andrus"

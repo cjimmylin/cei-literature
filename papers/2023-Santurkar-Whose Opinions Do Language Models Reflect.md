@@ -12,7 +12,7 @@ Not AI:
 key: MQX8ISEP
 type: conferencePaper
 short_title: "Whose Opinions Do Language Models Reflect?"
-year: 2025
+year: 2023
 first_author: "[[Shibani Santurkar]]"
 last_author: "[[Tatsunori Hashimoto]]"
 authors: "Shibani Santurkar; Esin Durmus; Faisal Ladhak; Cinoo Lee; Percy Liang; Tatsunori Hashimoto"

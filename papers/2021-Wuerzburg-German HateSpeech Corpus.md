@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0476
 type: conferencePaper
 short_title: "German HateSpeech Corpus"
-year: 2025
+year: 2021
 first_author: "[[Cophi-Wue (University of Wuerzburg)]]"
 last_author: "[[Cophi-Wue (University of Wuerzburg)]]"
 authors: "Cophi-Wue (University of Wuerzburg)"

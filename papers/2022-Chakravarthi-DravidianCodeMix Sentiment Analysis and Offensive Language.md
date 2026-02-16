@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0584
 type: preprint
 short_title: "DravidianCodeMix Sentiment Analysis and Offensive Language"
-year: 2025
+year: 2022
 first_author: "[[Chakravarthi, Bharathi Raja]]"
 last_author: "[[McCrae, John P]]"
 authors: "[[Chakravarthi, Bharathi Raja]]; [[Priyadharshini, Ruba]]; [[Muralidaran, Vigneshwaran]]; [[Jose, Navya]]; [[Suryawanshi, Shardul]]; [[Sherly, Elizabeth]]; [[McCrae, John P.]]"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0059
 type: conferencePaper
 short_title: "Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)"
-year: 2025
+year: 2022
 first_author: "[[Hate-speech-CNERG]]"
 last_author: "[[Hate-speech-CNERG]]"
 authors: Hate-speech-CNERG

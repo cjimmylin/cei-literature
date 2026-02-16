@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0542
 type: preprint
 short_title: "Detecting Abusive Albanian"
-year: 2025
+year: 2021
 first_author: "[[Erida Nurce]]"
 last_author: "[[Leon Derczynski]]"
 authors: "Erida Nurce, Jorgel Keci, Leon Derczynski"

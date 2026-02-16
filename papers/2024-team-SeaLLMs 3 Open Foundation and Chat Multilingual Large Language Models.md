@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0084
 type: preprint
 short_title: "SeaLLMs 3: Open Foundation and Chat Multilingual Large Language Models for Southeast Asian Languages"
-year: 2025
+year: 2024
 first_author: "[[DAMO Academy / Alibaba team]]"
 last_author: "[[DAMO Academy Alibaba team]]"
 authors: "DAMO Academy / Alibaba team"

@@ -13,7 +13,7 @@ Human View note:
 Not AI: 
 key: JCYY44E4
 type: journalArticle
-year: 2025
+year: 2023
 short_title: "A Survey of Large Language Models in Medicine"
 first_author: "[[Hongjian Zhou]]"
 last_author: "[[David Clifton]]"

@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0514
 type: conference_paper
 short_title: "One Model is All You Need"
-year: 2025
+year: 2024
 first_author: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"
 last_author: "[[Kurt Keutzer]]"
 authors: "[[Sebastian Nehrdich, Oliver Hellwig, Kurt Keutzer]]"

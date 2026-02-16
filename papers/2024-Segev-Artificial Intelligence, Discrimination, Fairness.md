@@ -14,7 +14,7 @@ Not AI:
 key: SEGEV2024
 type: journalArticle
 short_title: "Artificial Intelligence, Discrimination, Fairness"
-year: 2025
+year: 2024
 first_author: "[[Re'em Segev]]"
 last_author: "[[Re'em Segev]]"
 authors: "Re'em Segev"

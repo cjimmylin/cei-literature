@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0042
 type: conferencePaper
 short_title: "Open Leaderboard for Hebrew LLMs"
-year: 2025
+year: 2024
 first_author: "[[Hugging Face / Hebrew NLP community]]"
 last_author: "[[Hugging Face Hebrew NLP community]]"
 authors: "Hugging Face / Hebrew NLP community"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0285
 type: conferencePaper
 short_title: "MarIA and BETO are Sexist: Evaluating Gender Bias in Large Language Models for Spanish"
-year: 2025
+year: 2023
 first_author: "[[Plaza-del-Arco, Flor Miriam]]"
 last_author: "[[Flor Miriam Plaza-del-Arco]]"
 authors: "[[Plaza-del-Arco, Flor Miriam]]"

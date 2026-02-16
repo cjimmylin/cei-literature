@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_CONSTANTINESCU2022
 type: journalArticle
 short_title: "Can Robotic AI Be Virtuous"
-year: 2025
+year: 2022
 first_author: "[[Mihaela Constantinescu]]"
 last_author: "[[Crisp, Roger]]"
 authors: "[[Constantinescu, Mihaela]]; [[Crisp, Roger]]"

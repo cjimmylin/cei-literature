@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0799
 type: preprint
 short_title: "Can LLMs Help Create Grammar?: Automating Grammar Creation for Endangered Languages with In-Context Learning"
-year: 2025
+year: 2024
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
 authors: "Ejiro Onose"

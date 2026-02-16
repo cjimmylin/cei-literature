@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0034
 type: preprint
 short_title: "Self-Alignment: Improving Alignment of Cultural Values in LLMs via In-Context Learning"
-year: 2025
+year: 2024
 first_author: "[[Jing Yao]]"
 last_author: "[[Heng Ji]]"
 authors: "Jing Yao, Yi Fung, Heng Ji"

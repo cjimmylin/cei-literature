@@ -13,7 +13,7 @@ Not AI:
 key: ZI532PK5
 type: journalArticle
 short_title: HypoTermQA
-year: 2025
+year: 2024
 first_author: "[[Cem Uluoglakci]]"
 last_author: "[[Temizel, Tugba]]"
 authors: "[[Uluoglakci, Cem]]; [[Temizel, Tugba]]"

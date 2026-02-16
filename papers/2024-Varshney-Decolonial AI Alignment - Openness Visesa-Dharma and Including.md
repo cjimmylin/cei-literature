@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0159
 type: conferencePaper
 short_title: "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges"
-year: 2025
+year: 2024
 first_author: "[[K. R Varshney]]"
 last_author: "[[K. R Varshney]]"
 authors: "Varshney, K. R"

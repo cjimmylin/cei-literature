@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0020
 type: preprint
 short_title: "RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?"
-year: 2025
+year: 2024
 first_author: "[[Adrian de Wynter]]"
 last_author: "[[German Rigau Karthik Narasimhan]]"
 authors: "Adrian de Wynter, Ishaan Watts, Tua Wongsangaroonsri, Minghui Zhang, Noura Farra, Lena Baber, Samantha Claudet, Judit Dominguez, Aishwarya Gupta, Anna Kaminskaya, Maram Kurdi, Jongho Lee, Mahsa Moghimi, Aadil Mufti, Karthik Narasimhan, German Rigau"

@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0460
 type: preprint
 short_title: "Azerbaijani LLM Leaderboard"
-year: 2025
+year: 2024
 first_author: "[[LLM-Beetle]]"
 last_author: "[[LLM-Beetle]]"
 authors: [[LLM-Beetle]]

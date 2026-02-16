@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0347
 type: conferencePaper
 short_title: "Datasets of Slovene and Croatian Moderated News Comments"
-year: 2025
+year: 2018
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Darja Fiser]]"
 authors: "Nikola Ljubesic, Tomaz Erjavec, Darja Fiser"

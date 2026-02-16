@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0174
 type: preprint
 short_title: "ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages"
-year: 2025
+year: 2023
 first_author: "[[Ghosh, Sourojit]]"
 last_author: "[[Caliskan, Aylin]]"
 authors: "[[Ghosh, Sourojit]]; [[Caliskan, Aylin]]"

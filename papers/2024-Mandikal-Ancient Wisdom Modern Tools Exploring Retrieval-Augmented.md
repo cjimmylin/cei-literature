@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0459
 type: conference_paper
 short_title: "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented"
-year: 2025
+year: 2024
 first_author: "[[Mandikal, Priyanka]]"
 last_author: "[[Priyanka Mandikal]]"
 authors: "[[Priyanka Mandikal]]"

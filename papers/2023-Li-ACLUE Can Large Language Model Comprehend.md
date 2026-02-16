@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0547
 type: conference_paper
 short_title: "ACLUE Can Large Language Model Comprehend"
-year: 2025
+year: 2023
 first_author: "[[Yixuan Zhang, Haonan Li]]"
 last_author: "[[Haonan Li Yixuan Zhang]]"
 authors: "[[Yixuan Zhang, Haonan Li]]"

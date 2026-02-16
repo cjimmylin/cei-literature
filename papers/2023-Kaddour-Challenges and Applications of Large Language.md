@@ -14,7 +14,7 @@ Not AI:
 key: 4TCG83NA
 type: conferencePaper
 short_title: "Challenges and Applications of Large Language"
-year: 2025
+year: 2023
 first_author: "[[Jean Kaddour]]"
 last_author: "[[Robert McHardy]]"
 authors: "Jean Kaddour; Joshua Harris; Maximilian Mozes; Herbie Bradley; Roberta Raileanu; Robert McHardy"

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0277
 type: conferencePaper
 short_title: "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values"
-year: 2025
+year: 2024
 first_author: "[[Hu, Zhe]]"
 last_author: "[[Yin, Yu]]"
 authors: "[[Hu, Zhe]]; [[Ren, Yixiao]]; [[Li, Jing]]; [[Yin, Yu]]"

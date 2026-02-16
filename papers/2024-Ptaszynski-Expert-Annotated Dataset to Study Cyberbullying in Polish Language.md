@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0340
 type: conferencePaper
 short_title: "Expert-Annotated Dataset to Study Cyberbullying in Polish Language"
-year: 2025
+year: 2024
 first_author: "[[Ptaszynski, Michal]]"
 last_author: "[[Wroczynski, Michal]]"
 authors: "[[Ptaszynski, Michal]]; [[Pieciukiewicz, Agata]]; [[Dybala, Pawel]]; [[Skrzek, Pawel]]; [[Soliwoda, Kamil]]; [[Fortuna, Marcin]]; [[Leliwa, Gniewosz]]; [[Wroczynski, Michal]]"

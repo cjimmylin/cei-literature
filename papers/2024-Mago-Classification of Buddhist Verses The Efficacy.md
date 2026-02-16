@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0468
 type: conference_paper
 short_title: "Classification of Buddhist Verses The Efficacy"
-year: 2025
+year: 2024
 first_author: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"
 last_author: "[[Vijay Mago Pawan Lingras]]"
 authors: "[[Nikita Neveditsin, Ambuja Salgaonkar, Pawan Lingras, Vijay Mago]]"

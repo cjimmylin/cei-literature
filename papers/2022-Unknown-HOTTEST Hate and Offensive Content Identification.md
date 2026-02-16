@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0587
 type: preprint
 short_title: "HOTTEST Hate and Offensive Content Identification"
-year: 2025
+year: 2022
 first_author: "[[Rajalakshmi, R.]]"
 last_author: "[[M, Anand Kumar]]"
 authors: "[[Rajalakshmi, R.]]; [[Selvaraj, Srivarshan]]; [[R, Faerie Mattins]]; [[Vasudevan, Pavitra]]; [[M, Anand Kumar]]"

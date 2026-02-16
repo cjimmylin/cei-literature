@@ -14,7 +14,7 @@ Not AI:
 key: WLDTD6P5
 type: conferencePaper
 short_title: "Benchmarks for Automated Commonsense Reasoning"
-year: 2025
+year: 2023
 first_author: "[[Ernest Davis]]"
 last_author: "[[Ernest Davis]]"
 authors: "Ernest Davis"

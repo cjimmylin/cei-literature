@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0500
 type: conferencePaper
 short_title: "GermanBenchmark: German translations of popular LLM benchmarks"
-year: 2025
+year: 2023
 first_author: "[[Bjorn Pluster (LAION/Hessian.AI)]]"
 last_author: "[[Bjorn Pluster (LAIONHessian.AI)]]"
 authors: "Bjorn Pluster (LAION/Hessian.AI)"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0489
 type: preprint
 short_title: "SnakModel: Lessons Learned from Training an Open Danish Large Language Model"
-year: 2025
+year: 2024
 first_author: "[[Mike Zhang]]"
 last_author: "[[Rob van der Goot]]"
 authors: "[[Mike Zhang]]; [[Max Müller-Eberstein]]; [[Elisa Bassignana]]; [[Rob van der Goot]]"

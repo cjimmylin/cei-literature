@@ -14,7 +14,7 @@ Not AI:
 key: K2N2VQ7A
 type: document
 short_title: "X-Risk Analysis for AI Research"
-year: 2025
+year: 2022
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Mantas Mazeika]]"
 authors: "Dan Hendrycks; Mantas Mazeika"

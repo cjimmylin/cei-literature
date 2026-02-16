@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0339
 type: conferencePaper
 short_title: "Results of the PolEval 2019 Shared Task 6: First Dataset and Open Shared Task for Automatic Cyberbullying Detection in Polish Twitter"
-year: 2025
+year: 2019
 first_author: "[[Michal Ptaszynski]]"
 last_author: "[[Pawel Dybala]]"
 authors: "Michal Ptaszynski, Agata Pieciukiewicz, Pawel Dybala"

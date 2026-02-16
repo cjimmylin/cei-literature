@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0492
 type: preprint
 short_title: "Indic-Bias A Comprehensive Benchmark to Evaluate"
-year: 2025
+year: 2024
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
 authors: "[[AI4Bharat team]]"

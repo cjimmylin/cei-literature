@@ -13,7 +13,7 @@ Not AI:
 key: AUTO_ODERO2024
 type: journalArticle
 short_title: "The Ubuntu Way"
-year: 2025
+year: 2024
 first_author: "[[Brenda Odero]]"
 last_author: "[[Samuel, Gabrielle]]"
 authors: "[[Odero, Brenda]]; [[Nderitu, David]]; [[Samuel, Gabrielle]]"

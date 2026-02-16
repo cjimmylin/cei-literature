@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0456
 type: preprint
 short_title: "Multilingual and Multi-Aspect Hate Speech Analysis"
-year: 2025
+year: 2019
 first_author: "[[Ousidhoum, Nedjma]]"
 last_author: "[[Yeung, Dit-Yan]]"
 authors: "[[Ousidhoum, Nedjma]]; [[Lin, Zizheng]]; [[Zhang, Hongming]]; [[Song, Yangqiu]]; [[Yeung, Dit-Yan]]"

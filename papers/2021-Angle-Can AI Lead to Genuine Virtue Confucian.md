@@ -9,7 +9,7 @@ Not AI:
 key: AUTO_ANGLE2021
 type: bookSection
 short_title: "Can AI Lead to Genuine Virtue Confucian"
-year: 2025
+year: 2021
 first_author: "[[Stephen C. Angle]]"
 last_author: "[[Stephen C. Angle]]"
 authors: "[[Angle, Stephen C.]]"

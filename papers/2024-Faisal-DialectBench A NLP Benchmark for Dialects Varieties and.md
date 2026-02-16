@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0839
 type: preprint
 short_title: "DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages"
-year: 2025
+year: 2024
 first_author: "[[Fahim Faisal]]"
 last_author: "[[Yulia Tsvetkov David Chiang]]"
 authors: "Fahim Faisal, Orevaoghene Ahia, Aarohi Srivastava, Kabir Ahuja, David Chiang, Yulia Tsvetkov"

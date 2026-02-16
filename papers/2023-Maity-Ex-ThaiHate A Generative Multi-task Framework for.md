@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0555
 type: preprint
 short_title: "Ex-ThaiHate A Generative Multi-task Framework for"
-year: 2025
+year: 2023
 first_author: "[[Krishanu Maity]]"
 last_author: "[[Kitsuchart Pasupa]]"
 authors: "[[Krishanu Maity]]; [[Shaubhik Bhattacharya]]; [[Salisa Phosit]]; [[Sawarod Kongsamlit]]; [[Sriparna Saha]]; [[Kitsuchart Pasupa]]"

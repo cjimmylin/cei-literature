@@ -13,7 +13,7 @@ Not AI:
 key: 6YXS5H9B
 type: conferencePaper
 short_title: DefAn
-year: 2025
+year: 2024
 first_author: "[[A B M Ashikur Rahman]]"
 last_author: "[[Ajmal Mian]]"
 authors: "A B M Ashikur Rahman; Saeed Anwar; Muhammad Usman; Ajmal Mian"

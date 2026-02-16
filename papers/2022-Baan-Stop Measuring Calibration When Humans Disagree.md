@@ -13,7 +13,7 @@ Not AI:
 key: WLV875AC
 type: conferencePaper
 short_title: "Stop Measuring Calibration When Humans Disagree"
-year: 2025
+year: 2022
 first_author: "[[Joris Baan]]"
 last_author: "[[Raquel Fernández]]"
 authors: "Joris Baan; Wilker Aziz; Barbara Plank; Raquel Fernández"

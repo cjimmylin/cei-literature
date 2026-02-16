@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0476
 type: conference_paper
 short_title: "Divine LLaMAs Bias Stereotypes Stigmatization and"
-year: 2025
+year: 2024
 first_author: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"
 last_author: "[[Dirk Hovy Fer-Jan de Vries]]"
 authors: "[[Flor Miriam Plaza-del-Arco, Simone Tedeschi, Fer-Jan de Vries, Dirk Hovy]]"

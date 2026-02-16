@@ -12,7 +12,7 @@ Not AI:
 key: VHXG9AIH
 type: conferencePaper
 short_title: HeQ
-year: 2025
+year: 2023
 first_author: "[[Amir Cohen]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Amir Cohen; Hilla Merhav-Fine; Yoav Goldberg; Reut Tsarfaty"

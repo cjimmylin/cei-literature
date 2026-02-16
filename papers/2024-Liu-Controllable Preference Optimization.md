@@ -13,7 +13,7 @@ Not AI:
 key: RGWMSH7F
 type: journalArticle
 short_title: "Controllable Preference Optimization"
-year: 2025
+year: 2024
 first_author: "[[Yiju Guo]]"
 last_author: "[[Maosong Sun]]"
 authors: "Yiju Guo; Ganqu Cui; Lifan Yuan; Ning Ding; Zexu Sun; Bowen Sun; Huimin Chen; Ruobing Xie; Jie Zhou; Yankai Lin; Zhiyuan Liu; Maosong Sun"

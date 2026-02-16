@@ -12,7 +12,7 @@ Human View note:
 Not AI: 
 key: MAHWYKT8
 type: journalArticle
-year: 2025
+year: 2020
 short_title: "A Multi-Dimensional View of Aggression when"
 first_author: "[[Arjit Srivastava]]"
 last_author: "[[Manish Shrivastava]]"

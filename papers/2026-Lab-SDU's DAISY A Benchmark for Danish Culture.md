@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0487
 type: preprint
 short_title: "SDU's DAISY: A Benchmark for Danish Culture"
-year: 2025
+year: 2026
 first_author: "[[Various (SDU/Schneiderkamp Lab)]]"
 last_author: "[[Various (SDUSchneiderkamp Lab)]]"
 authors: "Various (SDU/Schneiderkamp Lab)"

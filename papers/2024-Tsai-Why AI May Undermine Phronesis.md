@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_TSAI2024
 type: journalArticle
 short_title: "Why AI May Undermine Phronesis"
-year: 2025
+year: 2024
 first_author: "[[Cheng-hung Tsai]]"
 last_author: "[[Ku, Hsiu-lin]]"
 authors: "[[Tsai, Cheng-hung]]; [[Ku, Hsiu-lin]]"

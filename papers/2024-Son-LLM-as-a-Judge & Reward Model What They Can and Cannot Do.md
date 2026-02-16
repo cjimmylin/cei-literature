@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0263
 type: preprint
 short_title: "LLM-as-a-Judge & Reward Model: What They Can and Cannot Do"
-year: 2025
+year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Seunghyeok Hong]]"
 authors: "Guijin Son, Hyunwoo Ko, Hoyoung Lee, Yewon Kim, Seunghyeok Hong"

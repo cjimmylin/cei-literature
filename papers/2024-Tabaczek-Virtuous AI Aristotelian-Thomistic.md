@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_TABACZEK2024
 type: journalArticle
 short_title: "Virtuous AI Aristotelian-Thomistic"
-year: 2025
+year: 2024
 first_author: "[[Mariusz Tabaczek]]"
 last_author: "[[Mariusz Tabaczek]]"
 authors: "[[Tabaczek, Mariusz]]"

@@ -13,7 +13,7 @@ Not AI:
 key: JTP6EDJI
 type: conferencePaper
 short_title: HateXplain
-year: 2025
+year: 2020
 first_author: "[[Binny Mathew]]"
 last_author: "[[Animesh Mukherjee]]"
 authors: "Binny Mathew; Punyajoy Saha; Seid Muhie Yimam; Chris Biemann; Pawan Goyal; Animesh Mukherjee"

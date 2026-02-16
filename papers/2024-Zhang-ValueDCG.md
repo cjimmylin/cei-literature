@@ -13,7 +13,7 @@ Not AI:
 key: RTSV27JH
 type: preprint
 short_title: ValueDCG
-year: 2025
+year: 2024
 first_author: "[[Zhaowei Zhang]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Fengshuo Bai; Jun Gao; Yaodong Yang"

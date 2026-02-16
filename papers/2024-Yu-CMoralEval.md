@@ -11,7 +11,7 @@ Not AI:
 key: 8Y38WDDN
 type: conferencePaper
 short_title: CMoralEval
-year: 2025
+year: 2024
 first_author: "[[Linhao Yu]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "[[Yu, Linhao]]; [[Leng, Yongqi]]; [[Huang, Yufei]]; [[Wu, Shang]]; [[Liu, Haixin]]; [[Ji, Xinmeng]]; [[Zhao, Jiahui]]; [[Song, Jinwang]]; [[Cui, Tingting]]; [[Cheng, Xiaoqing]]; [[Liutao, Liutao]]; [[Xiong, Deyi]]"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0224
 type: conferencePaper
 short_title: "Is there Gender Bias and Stereotype in Portuguese Word Embeddings?"
-year: 2025
+year: 2018
 first_author: "[[Bruna Santana]]"
 last_author: "[[Vinicius Woloszyn Bruna Santana]]"
 authors: "Bruna Santana, Vinicius Woloszyn"

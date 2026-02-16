@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0529
 type: preprint
 short_title: "Social Bias in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Sadhu, Saha,]]"
 last_author: "[[Saha]]"
 authors: "[[Sadhu, Saha,]]"

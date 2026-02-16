@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0513
 type: preprint
 short_title: "Myanmar XNLI Building a Dataset and"
-year: 2025
+year: 2024
 first_author: "[[Aung Kyaw Htet]]"
 last_author: "[[Mark Dras]]"
 authors: "[[Aung Kyaw Htet]]; [[Mark Dras]]"

@@ -14,7 +14,7 @@ Not AI:
 key: CSK47GC7
 type: document
 short_title: SGBench
-year: 2025
+year: 2024
 first_author: "[[Yutao Mou]]"
 last_author: "[[Wei Ye]]"
 authors: "[[Yutao Mou]]; [[Shikun Zhang]]; [[Wei Ye]]"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0452
 type: conferencePaper
 short_title: "Vigogne: French instruction-following and chat models"
-year: 2025
+year: 2023
 first_author: "[[Bofeng Huang]]"
 last_author: "[[Bofeng Huang]]"
 authors: "Bofeng Huang"

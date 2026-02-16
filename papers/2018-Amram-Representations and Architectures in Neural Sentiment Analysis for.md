@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0026
 type: conferencePaper
 short_title: "Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew"
-year: 2025
+year: 2018
 first_author: "[[Adam Amram]]"
 last_author: "[[Reut Tsarfaty]]"
 authors: "Adam Amram, Anat Ben David, Reut Tsarfaty"

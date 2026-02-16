@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_KYRIACOU2024
 type: journalArticle
 short_title: "Artificial Moral Intelligence Aristotelian"
-year: 2025
+year: 2024
 first_author: "[[Christos Kyriacou]]"
 last_author: "[[Christos Kyriacou]]"
 authors: "[[Kyriacou, Christos]]"

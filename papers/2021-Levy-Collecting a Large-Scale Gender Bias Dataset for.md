@@ -13,7 +13,7 @@ Not AI:
 key: 9HCC2BT4
 type: document
 short_title: "Collecting a Large-Scale Gender Bias Dataset for"
-year: 2025
+year: 2021
 first_author: "[[Shahar Levy]]"
 last_author: "[[Stanovsky, Gabriel]]"
 authors: "[[Levy, Shahar]]; [[Lazar, Koren]]; [[Stanovsky, Gabriel]]"

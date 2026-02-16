@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0641
 type: journalArticle
 short_title: "A new dataset for mongolian online handwritten recognition"
-year: 2025
+year: 2024
 first_author: "[[Enkhbold]]"
 last_author: "[[Enkhbold]]"
 authors: Enkhbold

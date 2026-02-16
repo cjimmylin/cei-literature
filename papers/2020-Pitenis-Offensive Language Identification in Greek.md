@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0534
 type: conferencePaper
 short_title: "Offensive Language Identification in Greek"
-year: 2025
+year: 2020
 first_author: "[[Zeses Pitenis]]"
 last_author: "[[Tharindu Ranasinghe]]"
 authors: "Zeses Pitenis, Marcos Zampieri, Tharindu Ranasinghe"

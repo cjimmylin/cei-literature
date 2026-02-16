@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0516
 type: conferencePaper
 short_title: "Cross-Platform Evaluation for Italian Hate Speech Detection"
-year: 2025
+year: 2019
 first_author: "[[Michele Corazza]]"
 last_author: "[[Serena Villata]]"
 authors: Michele Corazza; Stefano Menini; Elena Cabrio; Sara Tonelli; Serena Villata

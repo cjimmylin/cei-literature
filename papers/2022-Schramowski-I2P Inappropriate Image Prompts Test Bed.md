@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0282
 type: conferencePaper
 short_title: "I2P: Inappropriate Image Prompts Test Bed"
-year: 2025
+year: 2022
 first_author: "[[Schramowski, Patrick]]"
 last_author: "[[Kersting, Kristian]]"
 authors: "[[Schramowski, Patrick]]; [[Tauchmann, Christopher]]; [[Kersting, Kristian]]"

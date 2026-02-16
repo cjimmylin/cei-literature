@@ -14,7 +14,7 @@ Not AI:
 key: XFBL55N2
 type: journalArticle
 short_title: "Understanding hate speech"
-year: 2025
+year: 2024
 first_author: "[[Muhammad Umair Arshad]]"
 last_author: "[[Waseem Shahzad]]"
 authors: "Muhammad Umair Arshad; Waseem Shahzad"

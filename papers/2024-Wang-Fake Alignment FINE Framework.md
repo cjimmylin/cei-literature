@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0174
 type: conferencePaper
 short_title: "Fake Alignment (FINE Framework)"
-year: 2025
+year: 2024
 first_author: "[[Du, Yihan]]"
 last_author: "[[Srikant, R]]"
 authors: "[[Du, Yihan]]; [[Kong, Seo Taek]]; [[Srikant, R.]]"

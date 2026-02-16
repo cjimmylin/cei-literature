@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0241
 type: preprint
 short_title: "SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration"
-year: 2025
+year: 2023
 first_author: "[[Hwaran Lee]]"
 last_author: "[[Nako Sung]]"
 authors: "Hwaran Lee, Seokhee Hong, Joonsuk Park, Takyoung Kim, Gunhee Kim, Byoung-Tak Zhang, Meeyoung Cha, Yejin Choi, Nako Sung"

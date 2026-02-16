@@ -13,7 +13,7 @@ Not AI:
 key: 3JVW2NQF
 type: document
 short_title: HackAPrompt
-year: 2025
+year: 2023
 first_author: "[[Sander Schulhoff]]"
 last_author: "[[Boyd-Graber, Jordan]]"
 authors: "[[Schulhoff, Sander]]; [[Pinto, Jeremy]]; [[Khan, Anaum]]; [[Bouchard, Louis-François]]; [[Si, Chenglei]]; [[Anati, Svetlina]]; [[Tagliabue, Valen]]; [[Kost, Anson]]; [[Carnahan, Christopher]]; [[Boyd-Graber, Jordan]]"

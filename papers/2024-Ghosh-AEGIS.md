@@ -14,7 +14,7 @@ Not AI:
 key: V6Q5Z2GT
 type: journalArticle
 short_title: AEGIS
-year: 2025
+year: 2024
 first_author: "[[Shaona Ghosh]]"
 last_author: "[[Christopher Parisien]]"
 authors: "Shaona Ghosh; Prasoon Varshney; Erick Galinkin; Christopher Parisien"

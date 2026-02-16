@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: bookSection
 short_title: "Artificial Phronesis - What It Is and Is Not"
-year: 2025
+year: 2021
 first_author: "[[John P. Sullins]]"
 last_author: "[[John P. Sullins]]"
 authors: "John P. Sullins"

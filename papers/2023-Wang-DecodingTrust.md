@@ -13,7 +13,7 @@ Not AI:
 key: BGYYMBHZ
 type: document
 short_title: DecodingTrust
-year: 2025
+year: 2023
 first_author: "[[Boxin Wang]]"
 last_author: "[[Bo Li]]"
 authors: "Boxin Wang; Weixin Chen; Hengzhi Pei; Chulin Xie; Mintong Kang; Chenhui Zhang; Chejian Xu; Zidi Xiong; Ritik Dutta; Rylan Schaeffer; Sang T. Truong; Simran Arora; Mantas Mazeika; Dan Hendrycks; Zinan Lin; Yu Cheng; Sanmi Koyejo; Dawn Song; Bo Li"

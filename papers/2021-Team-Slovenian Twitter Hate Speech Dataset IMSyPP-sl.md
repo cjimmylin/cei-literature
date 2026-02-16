@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0348
 type: conferencePaper
 short_title: "Slovenian Twitter Hate Speech Dataset IMSyPP-sl"
-year: 2025
+year: 2021
 first_author: "[[IMSyPP Project Team]]"
 last_author: "[[IMSyPP Project Team]]"
 authors: "IMSyPP Project Team"

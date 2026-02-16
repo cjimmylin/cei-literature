@@ -14,7 +14,7 @@ Not AI:
 key: D8RT6724
 type: document
 short_title: GandalfIgnoreInstructions
-year: 2025
+year: 2023
 first_author: "[[Lakera AI]]"
 last_author: "[[Lakera AI]]"
 authors: "Lakera AI"

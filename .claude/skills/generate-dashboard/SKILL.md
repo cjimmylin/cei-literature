@@ -15,14 +15,14 @@ Step 1: Run the Python generator
   └─ ../.venv/bin/python PYTHON/generate_vault_dashboard.py
 
 Step 2: Verify KPIs match expected values
-  ├─ Total papers (currently 924)
-  ├─ Benchmark candidates (currently 528)
-  ├─ Public benchmarks (currently 287)
+  ├─ Total papers (currently 2,034)
+  ├─ Benchmark candidates (currently 989)
+  ├─ Public benchmarks (currently 375)
   ├─ Pluralistic relevance (currently 76%)
   └─ Normative ethics (currently 45)
 
 Step 3: Open in browser for visual check
-  └─ open STATISTICS/20260210-vault-dashboard.html
+  └─ open STATISTICS/20260216-vault-dashboard.html
 
 Step 4: Validate papers untouched
   └─ ../.venv/bin/python PYTHON/validate_all_papers.py
@@ -34,10 +34,10 @@ Step 4: Validate papers untouched
 
 | File | Records | Description |
 |------|---------|-------------|
-| `20260208-benchmark_survey_all_classifications.json` | 924 | All papers from 20-agent deep-read |
-| `20260208-benchmark_survey_candidates.json` | 528 | Benchmark/evaluation candidates |
+| `20260216-benchmark_survey_all_classifications.json` | 2,002 | All papers from deep-read survey (Sessions 70s-84) |
+| `20260216-benchmark_survey_candidates.json` | 989 | Benchmark/evaluation candidates |
 | `20260207-normative_v2_all_classifications.json` | 266 | Normative ethics classification |
-| `20260208-author_paper_map.json` | 846 | Author-paper mapping |
+| `20260208-author_paper_map.json` | 846 | Author-paper mapping (pre-expansion) |
 
 **Important:** If the data files are updated (e.g., new papers added), the assertions in the script will need updating. The script currently asserts exact counts — comment out or update the assertions if data has changed.
 
@@ -45,7 +45,7 @@ Step 4: Validate papers untouched
 
 ## Output
 
-**File:** `STATISTICS/20260210-vault-dashboard.html` (~132 KB)
+**File:** `STATISTICS/20260216-vault-dashboard.html` (~202 KB)
 
 **Self-contained:** HTML + inline CSS + inline JS + embedded JSON data blob (~95 KB). Only external dependencies are CDN-loaded:
 - ECharts 5.5.1 (~300 KB, cached)
@@ -115,5 +115,5 @@ CSS custom properties are in `:root` at the top of the `<style>` block. Category
 
 ---
 
-**Version:** 1.0
-**Created:** 2026-02-10
+**Version:** 1.1
+**Updated:** 2026-02-16

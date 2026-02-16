@@ -14,7 +14,7 @@ Not AI:
 key: WJVVUPLZ
 type: journalArticle
 short_title: "The AI Safety Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Bertie Vidgen]]"
 last_author: "[[Joaquin Vanschoren]]"
 authors: "Bertie Vidgen; Adarsh Agrawal; Ahmed M. Ahmed; Victor Akinwande; Namir Al-Nuaimi; Najla Alfaraj; Elie Alhajjar; Lora Aroyo; Trupti Bavalatti; Max Bartolo; Borhane Blili-Hamelin; Kurt Bollacker; Rishi Bomassani; Marisa Ferrara Boston; Siméon Campos; Kal Chakra; Canyu Chen; Cody Coleman; Zacharie Delpierre Coudert; Leon Derczynski; Debojyoti Dutta; Ian Eisenberg; James Ezick; Heather Frase; Brian Fuller; Ram Gandikota; Agasthya Gangavarapu; Ananya Gangavarapu; James Gealy; Rajat Ghosh; James Goel; Usman Gohar; Sujata Goswami; Scott A. Hale; Wiebke Hutiri; Joseph Marvin Imperial; Surgan Jandial; Nick Judd; Felix Juefei-Xu; Foutse Khomh; Bhavya Kailkhura; Hannah Rose Kirk; Kevin Klyman; Chris Knotz; Michael Kuchnik; Shachi H. Kumar; Srijan Kumar; Chris Lengerich; Bo Li; Zeyi Liao; Eileen Peters Long; Victor Lu; Sarah Luger; Yifan Mai; Priyanka Mary Mammen; Kelvin Manyeki; Sean McGregor; Virendra Mehta; Shafee Mohammed; Emanuel Moss; Lama Nachman; Dinesh Jinenhally Naganna; Amin Nikanjam; Besmira Nushi; Luis Oala; Iftach Orr; Alicia Parrish; Cigdem Patlak; William Pietri; Forough Poursabzi-Sangdeh; Eleonora Presani; Fabrizio Puletti; Paul Röttger; Saurav Sahay; Tim Santos; Nino Scherrer; Alice Schoenauer Sebag; Patrick Schramowski; Abolfazl Shahbazi; Vin Sharma; Xudong Shen; Vamsi Sistla; Leonard Tang; Davide Testuggine; Vithursan Thangarasa; Elizabeth Anne Watkins; Rebecca Weiss; Chris Welty; Tyler Wilbers; Adina Williams; Carole-Jean Wu; Poonam Yadav; Xianjun Yang; Yi Zeng; Wenhui Zhang; Fedor Zhdanov; Jiacheng Zhu; Percy Liang; Peter Mattson; Joaquin Vanschoren"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0150
 type: conferencePaper
 short_title: "Persian Offensive Language Detection (Dehghani et al.)"
-year: 2025
+year: 2023
 first_author: "[[Dehghani]]"
 last_author: "[[Dehghani]]"
 authors: "[[Dehghani]]"

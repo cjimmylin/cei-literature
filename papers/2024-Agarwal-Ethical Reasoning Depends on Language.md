@@ -11,7 +11,7 @@ Not AI:
 key: AGARWAL2024
 type: conferencePaper
 short_title: "Ethical Reasoning Depends on Language"
-year: 2025
+year: 2024
 first_author: "[[Utkarsh Agarwal]]"
 last_author: "[[Choudhury, Monojit]]"
 authors: "[[Agarwal, Utkarsh]]; [[Tanmay, Kumar]]; [[Khandelwal, Aditi]]; [[Choudhury, Monojit]]"

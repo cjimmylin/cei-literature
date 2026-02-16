@@ -13,7 +13,7 @@ Not AI:
 key: SFJDML4U
 type: conferencePaper
 short_title: ProgressGym
-year: 2025
+year: 2024
 first_author: "[[Tianyi Qiu]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Tianyi Qiu; Yang Zhang; Xuchuan Huang; Jasmine Xinze Li; Jiaming Ji; Yaodong Yang"

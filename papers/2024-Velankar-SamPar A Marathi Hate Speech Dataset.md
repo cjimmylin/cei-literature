@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0526
 type: preprint
 short_title: "SamPar A Marathi Hate Speech Dataset"
-year: 2025
+year: 2024
 first_author: "[[Abhishek Velankar]]"
 last_author: "[[Raviraj Joshi]]"
 authors: Abhishek Velankar; Hrushikesh Patil; Amol Gore; Shubham Salunke; Raviraj Joshi

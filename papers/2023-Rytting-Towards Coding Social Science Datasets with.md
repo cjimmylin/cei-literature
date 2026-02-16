@@ -13,7 +13,7 @@ Not AI:
 key: QRIQACIF
 type: conferencePaper
 short_title: "Towards Coding Social Science Datasets with"
-year: 2025
+year: 2023
 first_author: "[[Christopher Michael Rytting]]"
 last_author: "[[David Wingate]]"
 authors: "Christopher Michael Rytting; Taylor Sorensen; Lisa Argyle; Ethan Busby; Nancy Fulda; Joshua Gubler; David Wingate"

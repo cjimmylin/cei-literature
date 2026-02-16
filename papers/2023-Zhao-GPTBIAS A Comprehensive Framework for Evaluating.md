@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0556
 type: preprint
 short_title: "GPTBIAS A Comprehensive Framework for Evaluating"
-year: 2025
+year: 2023
 first_author: "[[Jiaxu Zhao]]"
 last_author: "[[Mykola Pechenizkiy]]"
 authors: "[[Jiaxu Zhao]]; [[Meng Fang]]; [[Shirui Pan]]; [[Wenpeng Yin]]; [[Mykola Pechenizkiy]]"

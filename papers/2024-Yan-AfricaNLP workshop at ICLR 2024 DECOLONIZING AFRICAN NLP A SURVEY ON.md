@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0808
 type: conferencePaper
 short_title: "AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER"
-year: 2025
+year: 2024
 first_author: "[[Yan, Nan]]"
 last_author: "[[Xu, Cheng]]"
 authors: Nan Yan; Cheng Xu

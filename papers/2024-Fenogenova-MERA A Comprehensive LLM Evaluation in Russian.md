@@ -12,7 +12,7 @@ Not AI:
 key: IQP7N9JR
 type: document
 short_title: "MERA: A Comprehensive LLM Evaluation in Russian"
-year: 2025
+year: 2024
 first_author: "[[Alena Fenogenova]]"
 last_author: "[[Markov, Sergey]]"
 authors: "[[Fenogenova, Alena]]; [[Chervyakov, Artem]]; [[Martynov, Nikita]]; [[Kozlova, Anastasia]]; [[Tikhonova, Maria]]; [[Akhmetgareeva, Albina]]; [[Emelyanov, Anton]]; [[Shevelev, Denis]]; [[Lebedev, Pavel]]; [[Sinev, Leonid]]; [[Isaeva, Ulyana]]; [[Kolomeytseva, Katerina]]; [[Moskovskiy, Daniil]]; [[Goncharova, Elizaveta]]; [[Savushkin, Nikita]]; [[Mikhailova, Polina]]; [[Minaeva, Anastasia]]; [[Dimitrov, Denis]]; [[Panchenko, Alexander]]; [[Markov, Sergey]]"

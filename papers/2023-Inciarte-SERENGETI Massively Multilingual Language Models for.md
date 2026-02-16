@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0568
 type: preprint
 short_title: "SERENGETI Massively Multilingual Language Models for"
-year: 2025
+year: 2023
 first_author: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"
 last_author: "[[Alcides Alcoba Inciarte Muhammad Abdul-Mageed]]"
 authors: "[[Ife Adebara, AbdelRahim Elmadany, Muhammad Abdul-Mageed, Alcides Alcoba Inciarte]]"

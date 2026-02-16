@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0350
 type: preprint
 short_title: "Slovene SuperGLUE Benchmark: Translation and Evaluation"
-year: 2025
+year: 2022
 first_author: "[[Ales Zagar]]"
 last_author: "[[Marko Robnik-Sikonja Ales Zagar]]"
 authors: "Ales Zagar, Marko Robnik-Sikonja"

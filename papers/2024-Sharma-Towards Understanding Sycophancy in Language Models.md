@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0224
 type: conferencePaper
 short_title: "Towards Understanding Sycophancy in Language Models"
-year: 2025
+year: 2024
 first_author: "[[Sharma, Mrinank]]"
 last_author: "[[Perez, Ethan]]"
 authors: "[[Sharma, Mrinank]]; [[Tong, Meg]]; [[Korbak, Tomasz]]; [[Duvenaud, David]]; [[Askell, Amanda]]; [[Bowman, Samuel R.]]; [[Cheng, Newton]]; [[Durmus, Esin]]; [[Hatfield-Dodds, Zac]]; [[Johnston, Scott R.]]; [[Kravec, Shauna]]; [[Maxwell, Timothy]]; [[McCandlish, Sam]]; [[Ndousse, Kamal]]; [[Rausch, Oliver]]; [[Schiefer, Nicholas]]; [[Yan, Da]]; [[Zhang, Miranda]]; [[Perez, Ethan]]"

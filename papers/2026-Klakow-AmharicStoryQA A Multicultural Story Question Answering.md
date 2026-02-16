@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0302
 type: preprint
 short_title: "AmharicStoryQA A Multicultural Story Question Answering"
-year: 2025
+year: 2026
 first_author: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"
 last_author: "[[Dietrich Klakow]]"
 authors: "[[Israel Abebe Azime, Abenezer Kebede Angamo, Hana Mekonen Tamiru, Dagnachew Mekonnen Marilign, Philipp Slusallek, Seid Muhie Yimam, Dietrich Klakow]]"

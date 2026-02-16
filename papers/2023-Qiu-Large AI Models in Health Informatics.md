@@ -14,7 +14,7 @@ Not AI:
 key: XKDK2QQB
 type: journalArticle
 short_title: "Large AI Models in Health Informatics"
-year: 2025
+year: 2023
 first_author: "[[Jianing Qiu]]"
 last_author: "[[Benny Lo]]"
 authors: "Jianing Qiu; Lin Li; Jiankai Sun; Jiachuan Peng; Peilun Shi; Ruiyang Zhang; Yinzhao Dong; Kyle Lam; Frank P. -W. Lo; Bo Xiao; Wu Yuan; Ningli Wang; Dong Xu; Benny Lo"

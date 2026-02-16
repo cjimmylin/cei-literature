@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0579
 type: preprint
 short_title: "AfroLM A Self-Active Learning-based Multilingual Pretrained"
-year: 2025
+year: 2022
 first_author: "[[Bonaventure F. P. Dossou, Atnafu Lambebo Tonja, Oreen Yousuf, Salomey Osei, Abigail Oppong, Iyanuoluwa Shode, Oluwabusayo Olufunke Awoyomi, Chris Chinenye Emezue]]"
 last_author: "[[Chris Chinenye Emezue Oluwabusayo Olufunke Awoyomi]]"
 authors: "[[Bonaventure F. P. Dossou, Atnafu Lambebo Tonja, Oreen Yousuf, Salomey Osei, Abigail Oppong, Iyanuoluwa Shode, Oluwabusayo Olufunke Awoyomi, Chris Chinenye Emezue]]"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0056
 type: conferencePaper
 short_title: "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks"
-year: 2025
+year: 2024
 first_author: "[[Ahuja, Sanchit]]"
 last_author: "[[Sitaram, Sunayana]]"
 authors: "[[Ahuja, Sanchit]]; [[Aggarwal, Divyanshu]]; [[Gumma, Varun]]; [[Watts, Ishaan]]; [[Sathe, Ashutosh]]; [[Ochieng, Millicent]]; [[Hada, Rishav]]; [[Jain, Prachi]]; [[Axmed, Maxamed]]; [[Bali, Kalika]]; [[Sitaram, Sunayana]]"

@@ -13,7 +13,7 @@ Not AI:
 key: GSAVC8H7
 type: document
 short_title: CogniModal-D
-year: 2025
+year: 2024
 first_author: "[[V. Pérez-Rosas]]"
 last_author: "[[V. Pérez-Rosas]]"
 authors: "V. Pérez-Rosas"

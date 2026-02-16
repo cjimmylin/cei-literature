@@ -12,7 +12,7 @@ Not AI:
 key: Z9XMJ5H7
 type: journalArticle
 short_title: "The interconnectedness between Ubuntu principles"
-year: 2025
+year: 2024
 first_author: "[[Zuleika Suliman]]"
 last_author: "[[Kershnee Sevnarayan]]"
 authors: "Zuleika Suliman; Ntshimane Elphas Mohale; Kgabo Bridget Maphoto; Kershnee Sevnarayan"

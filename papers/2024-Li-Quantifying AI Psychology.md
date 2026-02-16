@@ -14,7 +14,7 @@ Not AI:
 key: RUWMYESQ
 type: preprint
 short_title: "Quantifying AI Psychology"
-year: 2025
+year: 2024
 first_author: "[[Yuan Li]]"
 last_author: "[[Lichao Sun]]"
 authors: "Yuan Li; Yue Huang; Hongyi Wang; Ying Cheng; Xiangliang Zhang; James Zou; Lichao Sun"

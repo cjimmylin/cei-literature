@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0178
 type: conferencePaper
 short_title: "GenMO (Gender-bias in Morality Opinions)"
-year: 2025
+year: 2024
 first_author: "[[Divij Bajaj]]"
 last_author: "[[Ruihong Huang Jonathan Tong]]"
 authors: "Divij Bajaj, Yuanyuan Lei, Jonathan Tong, Ruihong Huang"

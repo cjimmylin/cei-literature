@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0478
 type: preprint
 short_title: "Evaluating Telugu Proficiency in Large Language"
-year: 2025
+year: 2024
 first_author: "[[Katikela Sreeharsha Kishore]]"
 last_author: "[[Rahimanuddin Shaik]]"
 authors: "[[Katikela Sreeharsha Kishore]]; [[Rahimanuddin Shaik]]"

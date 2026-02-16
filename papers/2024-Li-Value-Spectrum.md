@@ -13,7 +13,7 @@ Not AI:
 key: MH5R2VZK
 type: conferencePaper
 short_title: Value-Spectrum
-year: 2025
+year: 2024
 first_author: "[[Jingxuan Li]]"
 last_author: "[[Ying Nian Wu]]"
 authors: "Jingxuan Li; Yuning Yang; Shengqi Yang; Linfan Zhang; Ying Nian Wu"

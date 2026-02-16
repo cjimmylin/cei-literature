@@ -12,7 +12,7 @@ Not AI:
 key: F8GJ6DLS
 type: conferencePaper
 short_title: PolygloToxicityPrompts
-year: 2025
+year: 2024
 first_author: "[[Devansh Jain]]"
 last_author: "[[Maarten Sap]]"
 authors: "Devansh Jain; Priyanshu Kumar; Samuel Gehman; Xuhui Zhou; Thomas Hartvigsen; Maarten Sap"

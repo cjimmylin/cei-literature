@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0249
 type: preprint
 short_title: "BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection"
-year: 2025
+year: 2020
 first_author: "[[Jihyung Moon]]"
 last_author: "[[Junbum Lee]]"
 authors: "Jihyung Moon, Won Ik Cho, Junbum Lee"

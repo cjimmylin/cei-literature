@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0318
 type: conferencePaper
 short_title: "A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict"
-year: 2025
+year: 2022
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Razzak, Imran]]"
 authors: "[[Thapa, Surendrabikram]]; [[Shah, Aditya]]; [[Jafri, Farhan]]; [[Naseem, Usman]]; [[Razzak, Imran]]"

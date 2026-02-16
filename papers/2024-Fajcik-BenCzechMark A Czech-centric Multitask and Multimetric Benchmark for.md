@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0341
 type: preprint
 short_title: "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism"
-year: 2025
+year: 2024
 first_author: "[[Fajcik, Martin]]"
 last_author: "[[Kydlicek, Hynek]]"
 authors: "[[Fajcik, Martin]]; [[Docekal, Martin]]; [[Dolezal, Jan]]; [[Ondrej, Karel]]; [[Beneš, Karel]]; [[Kapsa, Jan]]; [[Smrz, Pavel]]; [[Polok, Alexander]]; [[Hradis, Michal]]; [[Neverilova, Zuzana]]; [[Horak, Ales]]; [[Sabol, Radoslav]]; [[Stefanik, Michal]]; [[Jirkovsky, Adam]]; [[Adamczyk, David]]; [[Hyner, Petr]]; [[Hula, Jan]]; [[Kydlicek, Hynek]]"

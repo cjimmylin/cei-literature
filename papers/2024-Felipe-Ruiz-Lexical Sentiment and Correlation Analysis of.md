@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0506
 type: preprint
 short_title: "Lexical Sentiment and Correlation Analysis of"
-year: 2025
+year: 2024
 first_author: "[[Felipe-Ruiz, Alonso]]"
 last_author: "[[Alonso Felipe-Ruiz]]"
 authors: "[[Alonso Felipe-Ruiz]]"

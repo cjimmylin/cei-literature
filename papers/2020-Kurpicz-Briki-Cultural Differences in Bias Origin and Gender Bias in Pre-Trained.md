@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0449
 type: conferencePaper
 short_title: "Cultural Differences in Bias? Origin and Gender Bias in Pre-Trained German and French Word Embeddings"
-year: 2025
+year: 2020
 first_author: "[[Mascha Kurpicz-Briki]]"
 last_author: "[[Mascha Kurpicz-Briki]]"
 authors: "Mascha Kurpicz-Briki"

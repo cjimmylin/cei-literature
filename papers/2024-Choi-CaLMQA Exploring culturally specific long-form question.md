@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0467
 type: preprint
 short_title: "CaLMQA Exploring culturally specific long-form question"
-year: 2025
+year: 2024
 first_author: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"
 last_author: "[[Eunsol Choi Mohit Iyyer]]"
 authors: "[[Shane Arora, Marzena Karpinska, Hung-Ting Chen, Ipsita Bhattacharjee, Mohit Iyyer, Eunsol Choi]]"

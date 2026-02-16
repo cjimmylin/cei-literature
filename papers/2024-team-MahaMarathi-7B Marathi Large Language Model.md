@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0508
 type: preprint
 short_title: "MahaMarathi-7B Marathi Large Language Model"
-year: 2025
+year: 2024
 first_author: "[[team, Marathi-LLM]]"
 last_author: "[[Marathi-LLM team]]"
 authors: "[[Marathi-LLM team]]"

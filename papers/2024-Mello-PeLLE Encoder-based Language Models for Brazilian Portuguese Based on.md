@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0236
 type: preprint
 short_title: "PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data"
-year: 2025
+year: 2024
 first_author: "[[Mello, Guilherme Lamartine de]]"
 last_author: "[[Cavalim, Paulo]]"
 authors: "[[Mello, Guilherme Lamartine de]]; [[Finger, Marcelo]]; [[Serras, Felipe]]; [[Carpi, Miguel de Mello]]; [[Jose, Marcos Menon]]; [[Domingues, Pedro Henrique]]; [[Cavalim, Paulo]]"

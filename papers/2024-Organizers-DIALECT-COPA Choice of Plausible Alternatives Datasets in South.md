@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0351
 type: conferencePaper
 short_title: "DIALECT-COPA: Choice of Plausible Alternatives Datasets in South Slavic Dialects"
-year: 2025
+year: 2024
 first_author: "[[VarDial 2024 Shared Task Organizers]]"
 last_author: "[[VarDial 2024 Shared Task Organizers]]"
 authors: "VarDial 2024 Shared Task Organizers"

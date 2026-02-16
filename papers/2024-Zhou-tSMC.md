@@ -14,7 +14,7 @@ Not AI:
 key: GWVP7WKG
 type: conferencePaper
 short_title: tSMC
-year: 2025
+year: 2024
 first_author: "[[Ziyi Zhou]]"
 last_author: "[[Wei, Xuetao]]"
 authors: "[[Zhou, Ziyi]]; [[Guo, Xinwei]]; [[Gao, Jiashi]]; [[Zhao, Xiangyu]]; [[Zhang, Shiyao]]; [[Yao, Xin]]; [[Wei, Xuetao]]"

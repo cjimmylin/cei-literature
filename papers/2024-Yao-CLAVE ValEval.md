@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0147
 type: preprint
 short_title: "CLAVE / ValEval"
-year: 2025
+year: 2024
 first_author: "[[J. Yao]]"
 last_author: "[[X]]"
 authors: "Yao, J., Yi, X., & Xie, X"

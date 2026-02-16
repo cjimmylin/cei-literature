@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0552
 type: preprint
 short_title: "Breaking Language Barriers A Question-Answering Dataset"
-year: 2025
+year: 2023
 first_author: "[[Maithili Sabane]]"
 last_author: "[[Aman Chadha]]"
 authors: Maithili Sabane; Onkar Litake; Aman Chadha

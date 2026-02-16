@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0696
 type: preprint
 short_title: "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
-year: 2025
+year: 2026
 first_author: "[[Hu, Luoming]]"
 last_author: "[[Lin, Hongfei]]"
 authors: "[[Hu, Luoming]]; [[Zeng, Jingjie]]; [[Yang, Liang]]; [[Lin, Hongfei]]"

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0207
 type: conferencePaper
 short_title: "OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety"
-year: 2025
+year: 2024
 first_author: "[[C. Li]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Chuang Liu; Linhao Yu; Jiaxuan Li; Renren Jin; Yufei Huang; Ling Shi; Junhui Zhang; Xinmeng Ji; Tingting Cui; Tao Liu; Jinwang Song; Hongying Zan; Sun Li; Deyi Xiong"

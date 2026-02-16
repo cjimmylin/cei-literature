@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0721
 type: conferencePaper
 short_title: "Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core"
-year: 2025
+year: 2024
 first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara

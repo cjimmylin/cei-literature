@@ -14,7 +14,7 @@ Not AI:
 key: 7HD6P3ZQ
 type: conferencePaper
 short_title: "TrolleyMod v1.0"
-year: 2025
+year: 2018
 first_author: "[[Vahid Behzadan]]"
 last_author: "[[Arslan Munir]]"
 authors: "Vahid Behzadan; James Minton; Arslan Munir"

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0611
 type: preprint
 short_title: "Pre-trained Models and Evaluation Data for"
-year: 2025
+year: 2021
 first_author: "[[Cañete, José]]"
 last_author: "[[Pérez, Jorge]]"
 authors: "[[Cañete, José]]; [[Chaperon, Gabriel]]; [[Fuentes, Rodrigo]]; [[Ho, Jou-Hui]]; [[Kang, Hojin]]; [[Pérez, Jorge]]"

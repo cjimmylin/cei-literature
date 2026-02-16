@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Differences in Moral Foundations of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Peter Kirgis]]"
 last_author: "[[Peter Kirgis]]"
 authors: "Peter Kirgis"

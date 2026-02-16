@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0440
 type: conferencePaper
 short_title: "XSafety: Multilingual Safety Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Wang, Wenxuan]]"
 last_author: "[[Lyu, Michael R.]]"
 authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-Tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael R.]]"

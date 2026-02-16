@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0818
 type: preprint
 short_title: "Neural Machine Translation for the Indigenous Languages of the Americas: An Introduction."
-year: 2025
+year: 2023
 first_author: "[[Mager, Manuel]]"
 last_author: "[[Kann, Katharina]]"
 authors: "[[Mager, Manuel]]; [[Bhatnagar, Rajat]]; [[Neubig, Graham]]; [[Vu, Ngoc Thang]]; [[Kann, Katharina]]"

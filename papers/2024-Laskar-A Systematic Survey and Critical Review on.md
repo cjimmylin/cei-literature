@@ -13,7 +13,7 @@ Not AI:
 key: ESCKGR37
 type: conferencePaper
 short_title: "A Systematic Survey and Critical Review on"
-year: 2025
+year: 2024
 first_author: "[[Md Tahmid Rahman Laskar]]"
 last_author: "[[Jimmy Huang]]"
 authors: "Md Tahmid Rahman Laskar; Sawsan Alqahtani; M Saiful Bari; Mizanur Rahman; Mohammad Abdullah Matin Khan; Haidar Khan; Israt Jahan; Amran Bhuiyan; Chee Wei Tan; Md Rizwan Parvez; Enamul Hoque; Shafiq Joty; Jimmy Huang"

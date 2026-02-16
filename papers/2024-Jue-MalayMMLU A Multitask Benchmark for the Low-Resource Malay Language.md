@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0104
 type: conferencePaper
 short_title: "MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language"
-year: 2025
+year: 2024
 first_author: "[[Poh, Soon Chang]]"
 last_author: "[[Chan, Chee Seng]]"
 authors: "[[Poh, Soon Chang]]; [[Yang, Sze Jue]]; [[Tan, Jeraelyn]]; [[Chieng, Lawrence]]; [[Tan, J.]]; [[Yu, Zhenyu]]; [[Mun, Foong]]; [[Chan, Chee Seng]]"

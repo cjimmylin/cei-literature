@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0450
 type: journalArticle
 short_title: "A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings"
-year: 2025
+year: 2021
 first_author: "[[Mascha Kurpicz-Briki]]"
 last_author: "[[Mascha Kurpicz-Briki]]"
 authors: "Mascha Kurpicz-Briki"

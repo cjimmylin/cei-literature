@@ -13,7 +13,7 @@ Not AI:
 key: VVFFZEXH
 type: document
 short_title: FairPrism
-year: 2025
+year: 2023
 first_author: "[[Eve Fleisig]]"
 last_author: "[[Wallach, Hanna]]"
 authors: "[[Fleisig, Eve]]; [[Amstutz, Aubrie]]; [[Atalla, Chad]]; [[Blodgett, Su Lin]]; [[Daumé III, Hal]]; [[Olteanu, Alexandra]]; [[Sheng, Emily]]; [[Vann, Dan]]; [[Wallach, Hanna]]"

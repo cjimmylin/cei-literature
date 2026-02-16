@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0594
 type: preprint
 short_title: "Large-Scale Hate Speech Detection with Cross-Domain"
-year: 2025
+year: 2022
 first_author: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"
 last_author: "[[Eyup Halit Yilmaz]]"
 authors: "[[Cagri Toraman, Furkan Sahinuc, Eyup Halit Yilmaz]]"

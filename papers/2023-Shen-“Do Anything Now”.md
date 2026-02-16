@@ -11,7 +11,7 @@ Not AI:
 key: 338NF5GT
 type: journalArticle
 short_title: "'Do Anything Now'"
-year: 2025
+year: 2023
 first_author: "[[Xinyue Shen]]"
 last_author: "[[Yang Zhang]]"
 authors: "Xinyue Shen; Zeyuan Chen; Michael Backes; Yun Shen; Yang Zhang"

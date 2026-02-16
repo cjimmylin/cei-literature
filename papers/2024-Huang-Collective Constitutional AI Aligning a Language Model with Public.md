@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0153
 type: preprint
 short_title: "Collective Constitutional AI: Aligning a Language Model with Public Input"
-year: 2025
+year: 2024
 first_author: "[[Saffron Huang]]"
 last_author: "[[Deep Ganguli]]"
 authors: "Saffron Huang; Divya Siddarth; Liane Lovitt; Thomas I. Liao; Esin Durmus; Alex Tamkin; Deep Ganguli"

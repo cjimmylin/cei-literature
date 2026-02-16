@@ -11,7 +11,7 @@ Not AI:
 key: Y2WI7VSJ
 type: conferencePaper
 short_title: "Evaluating Moral Beliefs across LLMs through a"
-year: 2025
+year: 2024
 first_author: "[[Xuelin Liu]]"
 last_author: "[[Yu, Dong]]"
 authors: "[[Liu, Xuelin]]; [[Zhu, Yanfei]]; [[Zhu, Shucheng]]; [[Liu, Pengyuan]]; [[Liu, Ying]]; [[Yu, Dong]]"

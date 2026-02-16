@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0382
 type: preprint
 short_title: "RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification"
-year: 2025
+year: 2023
 first_author: "[[Nguyen, Hai-Long]]"
 last_author: "[[Nguyen, Ha-Thanh]]"
 authors: "[[Nguyen, Hai-Long]]; [[Pham, Thi-Kieu-Trang]]; [[Le, Thai-Son]]; [[Nguyen, Tan-Minh]]; [[Vuong, Thi-Hai-Yen]]; [[Nguyen, Ha-Thanh]]"

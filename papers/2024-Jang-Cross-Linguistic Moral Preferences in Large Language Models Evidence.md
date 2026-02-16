@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0380
 type: conferencePaper
 short_title: "Cross-Linguistic Moral Preferences in Large Language Models: Evidence from Distributive Justice Scenarios and Domain Persona Interventions"
-year: 2025
+year: 2024
 first_author: "[[Jang, Seongyu]]"
 last_author: "[[Kahng, Hyungu]]"
 authors: "[[Jang, Seongyu]]; [[Jeong, Chaewon]]; [[Kim, Jimin]]; [[Kahng, Hyungu]]"

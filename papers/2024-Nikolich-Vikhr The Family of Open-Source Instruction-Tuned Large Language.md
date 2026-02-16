@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0312
 type: preprint
 short_title: "Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian"
-year: 2025
+year: 2024
 first_author: "[[Nikolich, Aleksandr]]"
 last_author: "[[Shelmanov, Artem]]"
 authors: "[[Nikolich, Aleksandr]]; [[Korolev, Konstantin]]; [[Bratchikov, Sergei]]; [[Kiselev, Igor]]; [[Shelmanov, Artem]]"

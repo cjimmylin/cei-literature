@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0606
 type: conference_paper
 short_title: "Itihasa A Large-Scale Corpus for Sanskrit"
-year: 2025
+year: 2021
 first_author: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"
 last_author: "[[Anders Sogaard Anoop Kunchukuttan]]"
 authors: "[[Rahul Aralikatte, Miryam de Lhoneux, Anoop Kunchukuttan, Anders Sogaard]]"

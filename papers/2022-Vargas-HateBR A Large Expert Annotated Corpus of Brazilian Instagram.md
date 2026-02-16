@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0206
 type: preprint
 short_title: "HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Hate Speech and Offensive Language Detection"
-year: 2025
+year: 2022
 first_author: "[[Vargas, Francielle Alves]]"
 last_author: "[[Pardo, Thiago Alexandre Salgueiro]]"
 authors: "[[Vargas, Francielle Alves]]; [[Carvalho, Isabelle]]; [[Góes, Fabiana Rodrigues de]]; [[Benevenuto, Fabrício]]; [[Pardo, Thiago Alexandre Salgueiro]]"

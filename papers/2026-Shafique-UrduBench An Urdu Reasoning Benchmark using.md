@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0314
 type: preprint
 short_title: "UrduBench An Urdu Reasoning Benchmark using"
-year: 2025
+year: 2026
 first_author: "[[Shafique, Muhammad Ali]]"
 last_author: "[[Farooq, Hamza]]"
 authors: "[[Shafique, Muhammad Ali]]; [[Mehboob, Areej]]; [[Fiaz, Layba]]; [[Qadeer, Muhammad Usman]]; [[Farooq, Hamza]]"

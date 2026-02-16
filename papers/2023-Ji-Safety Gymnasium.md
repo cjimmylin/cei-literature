@@ -14,7 +14,7 @@ Not AI:
 key: Q54KNMW5
 type: conferencePaper
 short_title: "Safety Gymnasium"
-year: 2025
+year: 2023
 first_author: "[[Jiaming Ji]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Jiaming Ji; Borong Zhang; Jiayi Zhou; Xuehai Pan; Weidong Huang; Ruiyang Sun; Yiran Geng; Yifan Zhong; Juntao Dai; Yaodong Yang"

@@ -13,7 +13,7 @@ Not AI:
 key: YRKTB8AA
 type: conferencePaper
 short_title: HalluDial
-year: 2025
+year: 2024
 first_author: "[[Wen Luo]]"
 last_author: "[[Xi Yang]]"
 authors: "Wen Luo; Tianshu Shen; Wei Li; Guangyue Peng; Richeng Xuan; Houfeng Wang; Xi Yang"

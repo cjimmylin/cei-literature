@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0118
 type: preprint
 short_title: "IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP"
-year: 2025
+year: 2020
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Baldwin, Timothy]]"
 authors: "[[Koto, Fajri]]; [[Rahimi, Afshin]]; [[Lau, Jey Han]]; [[Baldwin, Timothy]]"

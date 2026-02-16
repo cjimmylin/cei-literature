@@ -14,7 +14,7 @@ Not AI:
 key: 9WAGP5NP
 type: conferencePaper
 short_title: "Bias on Demand"
-year: 2025
+year: 2023
 first_author: "[[Nathan Moss]]"
 last_author: "[[Nathan Moss]]"
 authors: "Nathan Moss"

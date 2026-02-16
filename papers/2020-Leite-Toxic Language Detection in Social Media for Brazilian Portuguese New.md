@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0207
 type: conferencePaper
 short_title: "Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)"
-year: 2025
+year: 2020
 first_author: "[[Joao Augusto Leite]]"
 last_author: "[[Carolina Scarton Kalina Bontcheva]]"
 authors: "Joao Augusto Leite, Diego Silva, Kalina Bontcheva, Carolina Scarton"

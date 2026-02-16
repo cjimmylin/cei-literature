@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0218
 type: conferencePaper
 short_title: "Social (Measuring Social Norms of LLMs)"
-year: 2025
+year: 2024
 first_author: "[[Ye Yuan]]"
 last_author: "[[Chenguang Wang]]"
 authors: "Ye Yuan, Kexin Tang, Jianhao Shen, Ming Zhang, Chenguang Wang"

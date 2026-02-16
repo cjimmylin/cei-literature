@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0498
 type: conferencePaper
 short_title: "Toxicity Detection in Finnish Using Machine Translation"
-year: 2025
+year: 2023
 first_author: "[[Anni Eskelinen]]"
 last_author: "[[Veronika Laippala]]"
 authors: "Anni Eskelinen, Laura Silvala, Filip Ginter, Sampo Pyysalo, Veronika Laippala"

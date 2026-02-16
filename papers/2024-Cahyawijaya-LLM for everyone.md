@@ -14,7 +14,7 @@ Not AI:
 key: H9QH2GC6
 type: thesis
 short_title: "LLM for everyone"
-year: 2025
+year: 2024
 first_author: "[[Samuel Cahyawijaya]]"
 last_author: "[[Samuel Cahyawijaya]]"
 authors: "Samuel Cahyawijaya"

@@ -16,7 +16,7 @@ Not AI:
 key: LSRC0090
 type: conferencePaper
 short_title: "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective"
-year: 2025
+year: 2022
 first_author: "[[Sabelo Mhlambi]]"
 last_author: "[[Sabelo Mhlambi]]"
 authors: "Sabelo Mhlambi"

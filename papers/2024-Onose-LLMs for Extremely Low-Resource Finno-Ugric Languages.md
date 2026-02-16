@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0801
 type: preprint
 short_title: "LLMs for Extremely Low-Resource Finno-Ugric Languages"
-year: 2025
+year: 2024
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
 authors: "Ejiro Onose"

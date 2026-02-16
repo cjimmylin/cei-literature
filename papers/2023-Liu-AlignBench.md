@@ -12,7 +12,7 @@ Not AI:
 key: YC7WMTUP
 type: conferencePaper
 short_title: AlignBench
-year: 2025
+year: 2023
 first_author: "[[Xiao Liu]]"
 last_author: "[[Jie Tang]]"
 authors: "Xiao Liu; Xuanyu Lei; Shengyuan Wang; Yue Huang; Zhuoer Feng; Bosi Wen; Jiale Cheng; Pei Ke; Yifan Xu; Weng Lam Tam; Xiaohan Zhang; Lichao Sun; Xiaotao Gu; Hongning Wang; Jing Zhang; Minlie Huang; Yuxiao Dong; Jie Tang"

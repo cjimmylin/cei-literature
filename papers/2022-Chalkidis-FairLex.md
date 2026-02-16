@@ -13,7 +13,7 @@ Not AI:
 key: JU8JYC2E
 type: document
 short_title: FairLex
-year: 2025
+year: 2022
 first_author: "[[Ilias Chalkidis]]"
 last_author: "[[Søgaard, Anders]]"
 authors: "[[Chalkidis, Ilias]]; [[Pasini, Tommaso]]; [[Zhang, Sheng]]; [[Tomada, Letizia]]; [[Schwemer, Sebastian Felix]]; [[Søgaard, Anders]]"

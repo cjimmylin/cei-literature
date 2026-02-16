@@ -12,7 +12,7 @@ Not AI:
 key: MRVW3KBG
 type: conferencePaper
 short_title: NormBank
-year: 2025
+year: 2023
 first_author: "[[Caleb Ziems]]"
 last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Dwivedi-Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"

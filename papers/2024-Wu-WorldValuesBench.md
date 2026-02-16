@@ -13,7 +13,7 @@ Not AI:
 key: JHYWDXIZ
 type: journalArticle
 short_title: WorldValuesBench
-year: 2025
+year: 2024
 first_author: "[[Wenlong Zhao]]"
 last_author: "[[Yuling Gu]]"
 authors: "Wenlong Zhao; Debanjan Mondal; Niket Tandon; Danica Dillion; Kurt Gray; Yuling Gu"

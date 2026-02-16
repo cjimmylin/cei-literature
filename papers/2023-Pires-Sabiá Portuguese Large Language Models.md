@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0213
 type: preprint
 short_title: "Sabiá: Portuguese Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Ramon Pires]]"
 last_author: "[[Rodrigo Nogueira Thales Sales Almeida]]"
 authors: "Ramon Pires, Hugo Abonizio, Thales Sales Almeida, Rodrigo Nogueira"

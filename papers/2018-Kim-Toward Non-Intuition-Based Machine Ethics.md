@@ -13,7 +13,7 @@ Not AI:
 key: KIM2018
 type: conferencePaper
 short_title: "Non-Intuition-Based Machine Ethics"
-year: 2025
+year: 2018
 first_author: "[[Tae Wan Kim]]"
 last_author: "[[Hooker, John]]"
 authors: "[[Kim, Tae Wan]]; [[Hooker, John]]"

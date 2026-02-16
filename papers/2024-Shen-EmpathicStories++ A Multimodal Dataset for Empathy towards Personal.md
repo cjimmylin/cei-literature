@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0167
 type: conferencePaper
 short_title: "EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences"
-year: 2025
+year: 2024
 first_author: "[[Jocelyn Shen]]"
 last_author: "[[Hae Won Park]]"
 authors: "Jocelyn Shen; Yubin Kim; Mohit Hulse; Wazeer Zulfikar; Sharifa Alghowinem; Cynthia Breazeal; Hae Won Park"

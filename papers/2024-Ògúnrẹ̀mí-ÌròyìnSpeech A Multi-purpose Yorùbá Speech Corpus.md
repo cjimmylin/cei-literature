@@ -13,7 +13,7 @@ Not AI:
 key: GBBAWY2A
 type: document
 short_title: "ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus"
-year: 2025
+year: 2024
 first_author: "[[Tolúlọpẹ́ Ògúnrẹ̀mí]]"
 last_author: "[[Adelani, David Ifeoluwa]]"
 authors: "[[Ògúnrẹ̀mí, Tolúlọpẹ́]]; [[Túbọ̀sún, Kọ́lá]]; [[Aremu, Anuoluwapo]]; [[Orife, Iroro]]; [[Adelani, David Ifeoluwa]]"

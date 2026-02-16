@@ -13,7 +13,7 @@ Not AI:
 key: CFLWTAVR
 type: conferencePaper
 short_title: "Culturally-Attuned Moral Machines"
-year: 2025
+year: 2023
 first_author: "[[Nigini Oliveira]]"
 last_author: "[[Rajesh P. N. Rao]]"
 authors: "Nigini Oliveira; Jasmine Li; Koosha Khalvati; Rodolfo Cortes Barragan; Katharina Reinecke; Andrew N. Meltzoff; Rajesh P. N. Rao"

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0154
 type: conferencePaper
 short_title: "Conscience Conflict: Evaluating Language Models' Moral Understanding"
-year: 2025
+year: 2024
 first_author: "[[José Luiz Nunes]]"
 last_author: "[[Simone D. J. Barbosa]]"
 authors: "José Luiz Nunes; Guilherme F. C. F. Almeida; Marcelo de Araujo; Simone D. J. Barbosa"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0430
 type: preprint
 short_title: "FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts"
-year: 2025
+year: 2024
 first_author: "[[Caroline Brun]]"
 last_author: "[[Nadi Tomeh]]"
 authors: "Caroline Brun, Vassilina Nikoulina, Nadi Tomeh"

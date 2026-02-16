@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0377
 type: preprint
 short_title: "Emotion Recognition for Vietnamese Social Media Text"
-year: 2025
+year: 2019
 first_author: "[[Ho Thanh Phuong]]"
 last_author: "[[Nguyen Van Phu]]"
 authors: "Ho Thanh Phuong, Nguyen Van Phu, others"

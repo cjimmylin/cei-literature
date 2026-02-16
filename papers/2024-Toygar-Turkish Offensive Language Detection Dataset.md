@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0537
 type: preprint
 short_title: "Turkish Offensive Language Detection Dataset"
-year: 2025
+year: 2024
 first_author: "[[Toygar]]"
 last_author: "[[Toygar]]"
 authors: [[Toygar]]

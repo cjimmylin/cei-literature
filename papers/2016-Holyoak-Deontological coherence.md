@@ -13,7 +13,7 @@ Not AI:
 key: IVDNFJYI
 type: journalArticle
 short_title: "Deontological coherence"
-year: 2025
+year: 2016
 first_author: "[[Keith J. Holyoak]]"
 last_author: "[[Powell, Derek]]"
 authors: "[[Holyoak, Keith J.]]; [[Powell, Derek]]"

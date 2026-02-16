@@ -13,7 +13,7 @@ Not AI:
 key: V9JVA4G2
 type: journalArticle
 short_title: "LLMs achieve adult human performance on"
-year: 2025
+year: 2024
 first_author: "[[Winnie Street]]"
 last_author: "[[Robin I. M. Dunbar]]"
 authors: "Winnie Street; John Oliver Siy; Geoff Keeling; Adrien Baranes; Benjamin Barnett; Michael McKibben; Tatenda Kanyere; Alison Lentz; Blaise Aguera y Arcas; Robin I. M. Dunbar"

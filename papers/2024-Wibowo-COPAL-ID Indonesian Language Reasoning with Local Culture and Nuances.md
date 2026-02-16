@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0100
 type: preprint
 short_title: "COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances"
-year: 2025
+year: 2024
 first_author: "[[Wibowo, Haryo Akbarianto]]"
 last_author: "[[Aji, Alham Fikri]]"
 authors: "[[Wibowo, Haryo Akbarianto]]; [[Fuadi, Erland Hilman]]; [[Nityasya, Made Nindyatama]]; [[Prasojo, Radityo Eko]]; [[Aji, Alham Fikri]]"

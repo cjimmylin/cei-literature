@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0464
 type: conferencePaper
 short_title: "SuperGLEBer: German Language Understanding Evaluation Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Jan Pfister]]"
 last_author: "[[Andreas Hotho Jan Pfister]]"
 authors: "Jan Pfister, Andreas Hotho"

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0144
 type: preprint
 short_title: "Agent-SafetyBench: Evaluating the Safety of LLM Agents"
-year: 2025
+year: 2024
 first_author: "[[Zhang, Zhexin]]"
 last_author: "[[Huang, Minlie]]"
 authors: "[[Zhang, Zhexin]]; [[Cui, Shiyao]]; [[Lu, Yida]]; [[Zhou, Jingzhuo]]; [[Yang, Junxiao]]; [[Wang, Hongning]]; [[Huang, Minlie]]"

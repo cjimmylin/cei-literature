@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0237
 type: conferencePaper
 short_title: "Gender Bias in Portuguese Literary Texts: A Masked Language Model Approach"
-year: 2025
+year: 2024
 first_author: "[[Mariana O. Silva]]"
 last_author: "[[Mirella M. Moro]]"
 authors: Mariana O. Silva; Michele A. Brandão; Mirella M. Moro

@@ -14,7 +14,7 @@ Not AI:
 key: AHSMVJAF
 type: journalArticle
 short_title: "Toward Gender-Inclusive Coreference Resolution"
-year: 2025
+year: 2021
 first_author: "[[Yang Trista Cao]]"
 last_author: "[[Hal Daumé III]]"
 authors: "Yang Trista Cao; Hal Daumé III"

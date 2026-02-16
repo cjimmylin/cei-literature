@@ -12,7 +12,7 @@ Not AI:
 key: AEY3DAJG
 type: conferencePaper
 short_title: "LLM-Human Pipeline for Cultural Context Grounding"
-year: 2025
+year: 2024
 first_author: "[[Rajkumar Pujari]]"
 last_author: "[[Dan Goldwasser]]"
 authors: "Rajkumar Pujari; Dan Goldwasser"

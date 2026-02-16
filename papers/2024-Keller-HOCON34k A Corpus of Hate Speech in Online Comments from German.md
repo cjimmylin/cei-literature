@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0468
 type: conferencePaper
 short_title: "HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers"
-year: 2025
+year: 2024
 first_author: "[[Max-Emanuel Keller]]"
 last_author: "[[Markus Franz]]"
 authors: "[[Max-Emanuel Keller]]; [[Maximilian Auch]]; [[Alexander Döschl]]; [[Fabian Vlk]]; [[Julian Quernheim]]; [[Mike Hartmann]]; [[Peter Mandl]]; [[Alexander Kaul]]; [[Markus Franz]]"

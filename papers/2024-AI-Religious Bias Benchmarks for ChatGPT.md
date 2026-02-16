@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0521
 type: conference_paper
 short_title: "Religious Bias Benchmarks for ChatGPT"
-year: 2025
+year: 2024
 first_author: "[[AI), Multiple authors (presented at conference on Human Freedom and]]"
 last_author: "[[AI)]]"
 authors: "[[Multiple authors (presented at conference on Human Freedom]]; [[AI)]]"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0506
 type: conferencePaper
 short_title: "ITA-Bench: Towards a More Comprehensive Evaluation for Italian LLMs"
-year: 2025
+year: 2024
 first_author: "[[SapienzaNLP group]]"
 last_author: "[[SapienzaNLP group]]"
 authors: "SapienzaNLP group"

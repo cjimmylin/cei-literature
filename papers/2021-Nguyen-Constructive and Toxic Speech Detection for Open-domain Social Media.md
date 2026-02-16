@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0365
 type: preprint
 short_title: "Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese"
-year: 2025
+year: 2021
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Luan Thanh Nguyen, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"

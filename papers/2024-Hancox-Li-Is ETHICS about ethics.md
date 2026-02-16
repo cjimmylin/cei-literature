@@ -14,7 +14,7 @@ Not AI:
 key: 7MZ3CRJK
 type: conferencePaper
 short_title: "Is ETHICS about ethics?"
-year: 2025
+year: 2024
 first_author: "[[Leif Hancox-Li]]"
 last_author: "[[Borhane Blili-Hamelin]]"
 authors: "Leif Hancox-Li; Borhane Blili-Hamelin"

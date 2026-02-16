@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0545
 type: conferencePaper
 short_title: "Large Language Models (LLMs) Output Quality: Comparison Between English and Albanian"
-year: 2025
+year: 2024
 first_author: "[[Aliti, Admirim]]"
 last_author: "[[Admirim Aliti]]"
 authors: "[[Aliti, Admirim]]"

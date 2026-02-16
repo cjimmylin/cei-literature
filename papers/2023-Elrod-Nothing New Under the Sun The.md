@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0565
 type: preprint
 short_title: "Nothing New Under the Sun The"
-year: 2025
+year: 2023
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[A. G. Elrod]]"
 authors: "[[A. G. Elrod]]"

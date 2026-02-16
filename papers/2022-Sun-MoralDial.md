@@ -13,7 +13,7 @@ Not AI:
 key: 44QW5CW3
 type: conferencePaper
 short_title: MoralDial
-year: 2025
+year: 2022
 first_author: "[[Hao Sun]]"
 last_author: "[[Minlie Huang]]"
 authors: "Hao Sun; Zhexin Zhang; Fei Mi; Yasheng Wang; Wei Liu; Jianwei Cui; Bin Wang; Qun Liu; Minlie Huang"

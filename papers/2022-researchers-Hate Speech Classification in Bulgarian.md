@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0322
 type: conferencePaper
 short_title: "Hate Speech Classification in Bulgarian"
-year: 2025
+year: 2022
 first_author: "[[Bulgarian NLP researchers]]"
 last_author: "[[Bulgarian NLP researchers]]"
 authors: "Bulgarian NLP researchers"

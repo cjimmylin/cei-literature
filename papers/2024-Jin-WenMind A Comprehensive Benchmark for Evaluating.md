@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0545
 type: conference_paper
 short_title: "WenMind A Comprehensive Benchmark for Evaluating"
-year: 2025
+year: 2024
 first_author: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"
 last_author: "[[Lianwen Jin]]"
 authors: "[[Jiahuan Cao, Yang Liu, Yongxin Shi, Kai Ding, Lianwen Jin]]"

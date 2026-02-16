@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0485
 type: preprint
 short_title: "Generalists vs Specialists Evaluating Large Language"
-year: 2025
+year: 2024
 first_author: "[[Arif, Samee]]"
 last_author: "[[Athar, Awais]]"
 authors: "[[Arif, Samee]]; [[Azeemi, Abdul Hameed]]; [[Raza, Agha Ali]]; [[Athar, Awais]]"

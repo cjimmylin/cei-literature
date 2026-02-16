@@ -15,7 +15,7 @@ Not AI:
 key: L6RS9M6J
 type: preprint
 short_title: MoralNet
-year: 2025
+year: 2023
 first_author: "[[Aníbal M. Astobiza]]"
 last_author: "[[Aníbal M. Astobiza]]"
 authors: "Aníbal M. Astobiza"

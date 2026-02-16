@@ -14,7 +14,7 @@ Not AI:
 key: VFFFBUPX
 type: journalArticle
 short_title: "Crowdsourcing moral machines"
-year: 2025
+year: 2020
 first_author: "[[Edmond Awad]]"
 last_author: "[[Iyad Rahwan]]"
 authors: "Edmond Awad; Sohan Dsouza; Jean-François Bonnefon; Azim Shariff; Iyad Rahwan"

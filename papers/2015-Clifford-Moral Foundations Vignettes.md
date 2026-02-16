@@ -14,7 +14,7 @@ Not AI:
 key: V8LA449F
 type: journalArticle
 short_title: "Moral Foundations Vignettes"
-year: 2025
+year: 2015
 first_author: "[[Scott Clifford]]"
 last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Scott Clifford; Vijeth Iyengar; Raúl Cabeza; Walter Sinnott-Armstrong"

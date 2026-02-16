@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0016
 type: preprint
 short_title: "Offensive Hebrew Corpus and Detection using BERT"
-year: 2025
+year: 2023
 first_author: "[[Nagham Hamad]]"
 last_author: "[[Nadim Nashif Mohammed Khalilia]]"
 authors: "Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif"

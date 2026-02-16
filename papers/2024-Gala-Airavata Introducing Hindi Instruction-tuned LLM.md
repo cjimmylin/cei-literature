@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0458
 type: preprint
 short_title: "Airavata Introducing Hindi Instruction-tuned LLM"
-year: 2025
+year: 2024
 first_author: "[[Jay Gala]]"
 last_author: "[[Anoop Kunchukuttan]]"
 authors: Jay Gala; Thanmay Jayakumar; Jaavid Aktar Husain; Aswanth Kumar M; Mohammed Safi Ur Rahman Khan; Diptesh Kanojia; Ratish Puduppully; Mitesh M. Khapra; Raj Dabre; Rudra Murthy; Anoop Kunchukuttan

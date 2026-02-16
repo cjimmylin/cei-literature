@@ -12,7 +12,7 @@ Not AI:
 key: W6DHNZ6K
 type: conferencePaper
 short_title: ParaShoot
-year: 2025
+year: 2021
 first_author: "[[Omri Keren]]"
 last_author: "[[Omer Levy]]"
 authors: "Omri Keren; Omer Levy"

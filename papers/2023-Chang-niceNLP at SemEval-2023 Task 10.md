@@ -13,7 +13,7 @@ Not AI:
 key: 4AA9S9XH
 type: conferencePaper
 short_title: "niceNLP at SemEval-2023 Task 10"
-year: 2025
+year: 2023
 first_author: "[[Yu Chang]]"
 last_author: "[[Yanru Zhang]]"
 authors: "Yu Chang; Yuxi Chen; Yanru Zhang"

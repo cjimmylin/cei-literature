@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0479
 type: conference_paper
 short_title: "Exploring Similarity Measures and Intertextuality in"
-year: 2025
+year: 2024
 first_author: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"
 last_author: "[[Kyoko Amano Yuzuki Tsukagoshi]]"
 authors: "[[So Miyagawa, Yuki Kyogoku, Yuzuki Tsukagoshi, Kyoko Amano]]"

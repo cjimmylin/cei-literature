@@ -12,7 +12,7 @@ Not AI:
 key: YCTS2U3I
 type: conferencePaper
 short_title: CIVICS
-year: 2025
+year: 2024
 first_author: "[[Giada Pistilli]]"
 last_author: "[[Margaret Mitchell]]"
 authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell"

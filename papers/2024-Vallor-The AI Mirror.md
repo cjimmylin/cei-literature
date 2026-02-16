@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_VALLOR2024
 type: book
 short_title: "The AI Mirror"
-year: 2025
+year: 2024
 first_author: "[[Shannon Vallor]]"
 last_author: "[[Shannon Vallor]]"
 authors: "[[Vallor, Shannon]]"

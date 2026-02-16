@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0523
 type: preprint
 short_title: "Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation"
-year: 2025
+year: 2024
 first_author: "[[Vlad-Cristian Matei]]"
 last_author: "[[Dumitru-Clementin Cercel Răzvan-Alexandru Smădu]]"
 authors: "Vlad-Cristian Matei, Iulian-Marius Tăiatu, Răzvan-Alexandru Smădu, Dumitru-Clementin Cercel"

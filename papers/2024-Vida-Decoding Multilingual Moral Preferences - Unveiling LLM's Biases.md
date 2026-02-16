@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0158
 type: conferencePaper
 short_title: "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment"
-year: 2025
+year: 2024
 first_author: "[[K. Vida]]"
 last_author: "[[A]]"
 authors: "Vida, K., Damken, F., & Lauscher, A"

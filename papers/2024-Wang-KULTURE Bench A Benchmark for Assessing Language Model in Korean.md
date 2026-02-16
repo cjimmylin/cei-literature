@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0242
 type: preprint
 short_title: "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
-year: 2025
+year: 2024
 first_author: "[[Xiaonan Wang]]"
 last_author: "[[Hansaem Kim Joon-Ho Lim]]"
 authors: "Xiaonan Wang, Jinyoung Yeo, Joon-Ho Lim, Hansaem Kim"

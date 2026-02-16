@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0244
 type: preprint
 short_title: "HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models"
-year: 2025
+year: 2024
 first_author: "[[Guijin Son]]"
 last_author: "[[Songseong Kim]]"
 authors: "Guijin Son, Hanwool Lee, Suwan Kim, Huiseo Kim, Jaecheol Lee, Je Won Yeom, Jihyu Jung, Jung Woo Kim, Songseong Kim"

@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_HAN2024
 type: journalArticle
 short_title: "Moral Exemplars in AI Education"
-year: 2025
+year: 2024
 first_author: "[[Hyemin Han]]"
 last_author: "[[Hyemin Han]]"
 authors: "[[Han, Hyemin]]"

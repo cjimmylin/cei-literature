@@ -14,7 +14,7 @@ Not AI:
 key: MSQ255KQ
 type: document
 short_title: BetterBench
-year: 2025
+year: 2024
 first_author: "[[Anka Reuel]]"
 last_author: "[[Mykel J. Kochenderfer]]"
 authors: "Anka Reuel; Amelia Hardy; Chandler Smith; Max Lamparth; Malcolm Hardy; Mykel J. Kochenderfer"

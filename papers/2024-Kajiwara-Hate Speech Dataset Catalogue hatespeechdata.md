@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0657
 type: conferencePaper
 short_title: "Hate Speech Dataset Catalogue | hatespeechdata"
-year: 2025
+year: 2024
 first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara

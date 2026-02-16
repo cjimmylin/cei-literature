@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0002
 type: preprint
 short_title: "Bias Beyond Borders"
-year: 2025
+year: 2026
 first_author: "[[Afrozah Nadeem]]"
 last_author: "[[Usman Naseem Mehwish Nasim]]"
 authors: "Afrozah Nadeem, Agrima, Mehwish Nasim, Usman Naseem"

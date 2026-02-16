@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0524
 type: preprint
 short_title: "SailCompass Towards Reproducible and Robust Evaluation"
-year: 2025
+year: 2024
 first_author: "[[Guo, Jia]]"
 last_author: "[[Liu, Qian]]"
 authors: "[[Guo, Jia]]; [[Dou, Longxu]]; [[Zeng, Guangtao]]; [[Kok, Stanley]]; [[Lu, Wei]]; [[Liu, Qian]]"

@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0311
 type: conferencePaper
 short_title: "RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora"
-year: 2025
+year: 2022
 first_author: "[[Dementieva, Daryna]]"
 last_author: "[[Panchenko, A.]]"
 authors: "[[Dementieva, Daryna]]; [[Logacheva, V.]]; [[Nikishina, Irina]]; [[Fenogenova, Alena]]; [[Dale, David]]; [[Krotova, I.]]; [[Semenov, Nikita]]; [[Shavrina, Tatiana]]; [[Panchenko, A.]]"

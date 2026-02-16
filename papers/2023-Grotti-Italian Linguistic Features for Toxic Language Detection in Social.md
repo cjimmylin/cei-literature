@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0513
 type: journalArticle
 short_title: "Italian Linguistic Features for Toxic Language Detection in Social Media"
-year: 2025
+year: 2023
 first_author: "[[Leonardo Grotti]]"
 last_author: "[[Leonardo Grotti]]"
 authors: Leonardo Grotti

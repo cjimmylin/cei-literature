@@ -12,7 +12,7 @@ Human View note:
 Not AI: 
 key: JALT756H
 type: journalArticle
-year: 2025
+year: 2020
 short_title: "Automated Classification of Modes of Moral"
 first_author: "[[Nischal Mainali]]"
 last_author: "[[Chen, Daniel L]]"

@@ -12,7 +12,7 @@ Not AI:
 key: 9RSV3LVL
 type: journalArticle
 short_title: "Multilingual HateCheck"
-year: 2025
+year: 2022
 first_author: "[[Paul Röttger]]"
 last_author: "[[Bertie Vidgen]]"
 authors: "Paul Röttger; Haitham Seelawi; Debora Nozza; Zeerak Talat; Bertie Vidgen"

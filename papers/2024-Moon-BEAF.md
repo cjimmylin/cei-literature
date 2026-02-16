@@ -13,7 +13,7 @@ Not AI:
 key: 3R3QE4AR
 type: document
 short_title: BEAF
-year: 2025
+year: 2024
 first_author: "[[Y. Moon]]"
 last_author: "[[Oh, T]]"
 authors: "[[Moon, Y.]]; [[Nam, H.]]; [[Choi, W.]]; [[Oh, T.]]"

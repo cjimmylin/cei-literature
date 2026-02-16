@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0543
 type: preprint
 short_title: "Urdu Toxicity Detection A Multi-Stage and"
-year: 2025
+year: 2024
 first_author: "[[Rashid, Ayesha]]"
 last_author: "[[Zia, Muhammad Fahad]]"
 authors: Ayesha Rashid; Sajid Mahmood; Usman Inayat; Muhammad Fahad Zia

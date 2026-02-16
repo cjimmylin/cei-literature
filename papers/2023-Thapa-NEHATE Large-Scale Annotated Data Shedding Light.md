@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0564
 type: preprint
 short_title: "NEHATE Large-Scale Annotated Data Shedding Light"
-year: 2025
+year: 2023
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Nasim, Mehwish]]"
 authors: Surendrabikram Thapa; Kritesh Rauniyar; Shuvam Shiwakoti; Sweta Poudel; Usman Naseem; Mehwish Nasim

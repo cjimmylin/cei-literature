@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0173
 type: conferencePaper
 short_title: "FABLE (Fairness and Bias in LLM Evaluation)"
-year: 2025
+year: 2024
 first_author: "[[KFUPM Research Team]]"
 last_author: "[[KFUPM Research Team]]"
 authors: "KFUPM Research Team"

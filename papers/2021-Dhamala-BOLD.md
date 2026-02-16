@@ -13,7 +13,7 @@ Not AI:
 key: N6Y6ES8Q
 type: journalArticle
 short_title: BOLD
-year: 2025
+year: 2021
 first_author: "[[Jwala Dhamala]]"
 last_author: "[[Rahul Gupta]]"
 authors: "Jwala Dhamala; Tony Sun; Varun Kumar; Satyapriya Krishna; Yada Pruksachatkun; Kai-Wei Chang; Rahul Gupta"

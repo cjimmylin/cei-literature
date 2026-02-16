@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0025
 type: preprint
 short_title: "HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition"
-year: 2025
+year: 2022
 first_author: "[[Avihay Chriqui]]"
 last_author: "[[Inbal Yahav Avihay Chriqui]]"
 authors: "Avihay Chriqui, Inbal Yahav"

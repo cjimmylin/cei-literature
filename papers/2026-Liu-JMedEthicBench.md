@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0006
 type: preprint
 short_title: JMedEthicBench
-year: 2025
+year: 2026
 first_author: "[[Liu, Junyu]]"
 last_author: "[[Hatakeyama-Sato, Kan]]"
 authors: "[[Liu, Junyu]]; [[Li, Zirui]]; [[Niu, Qian]]; [[Zhang, Zequn]]; [[Xun, Yue]]; [[Hou, Wenlong]]; [[Wang, Shujun]]; [[Iwasawa, Yusuke]]; [[Matsuo, Yutaka]]; [[Hatakeyama-Sato, Kan]]"

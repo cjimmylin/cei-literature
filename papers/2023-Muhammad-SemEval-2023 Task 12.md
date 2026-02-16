@@ -13,7 +13,7 @@ Not AI:
 key: NLJZ5GWN
 type: conferencePaper
 short_title: "SemEval-2023 Task 12"
-year: 2025
+year: 2023
 first_author: "[[Shamsuddeen Hassan Muhammad]]"
 last_author: "[[Sebastian Ruder]]"
 authors: "Shamsuddeen Hassan Muhammad; Idris Abdulmumin; Seid Muhie Yimam; David Ifeoluwa Adelani; Ibrahim Sa'id Ahmad; Nedjma Ousidhoum; Abinew Ayele; Saif M. Mohammad; Meriem Beloucif; Sebastian Ruder"

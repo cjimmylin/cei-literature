@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0152
 type: conferencePaper
 short_title: "KurdiSent: A Corpus for Kurdish Sentiment Analysis"
-year: 2025
+year: 2023
 first_author: "[[Badawi, Soran]]"
 last_author: "[[Rezaie, Vali]]"
 authors: "[[Badawi, Soran]]; [[Kazemi, Arefeh]]; [[Rezaie, Vali]]"

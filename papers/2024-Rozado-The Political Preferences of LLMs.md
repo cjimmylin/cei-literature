@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0222
 type: conferencePaper
 short_title: "The Political Preferences of LLMs"
-year: 2025
+year: 2024
 first_author: "[[David Rozado]]"
 last_author: "[[David Rozado]]"
 authors: "David Rozado"

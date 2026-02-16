@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0182
 type: conferencePaper
 short_title: "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas"
-year: 2025
+year: 2024
 first_author: "[[E So]]"
 last_author: "[[E]]"
 authors: "So, E"

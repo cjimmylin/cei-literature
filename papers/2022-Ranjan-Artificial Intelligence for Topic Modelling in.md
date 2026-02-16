@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0580
 type: preprint
 short_title: "Artificial Intelligence for Topic Modelling in"
-year: 2025
+year: 2022
 first_author: "[[Rohitash Chandra, Mukul Ranjan]]"
 last_author: "[[Mukul Ranjan Rohitash Chandra]]"
 authors: "[[Rohitash Chandra, Mukul Ranjan]]"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0033
 type: preprint
 short_title: "HeRo: RoBERTa and Longformer Hebrew Language Models"
-year: 2025
+year: 2023
 first_author: "[[Vitaly Shalumov]]"
 last_author: "[[Harel Haskey Vitaly Shalumov]]"
 authors: "Vitaly Shalumov, Harel Haskey"

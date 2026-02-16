@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0528
 type: preprint
 short_title: "So-haTRed A Novel Hybrid System for"
-year: 2025
+year: 2024
 first_author: "[[Ayse Berna Altinel]]"
 last_author: "[[Mustafa Zahid Gurbuz]]"
 authors: "[[Ayse Berna Altinel]]; [[Gozde Karatas Baydogmus]]; [[Sema Sahin]]; [[Mustafa Zahid Gurbuz]]"

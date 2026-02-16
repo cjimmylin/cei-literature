@@ -13,7 +13,7 @@ Not AI:
 key: 6455Y4UP
 type: conferencePaper
 short_title: "Generalization Analogies"
-year: 2025
+year: 2023
 first_author: "[[Joshua Clymer]]"
 last_author: "[[Sam Wang]]"
 authors: "Joshua Clymer; Garrett Baker; Rohan Subramani; Sam Wang"

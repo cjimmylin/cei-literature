@@ -12,7 +12,7 @@ Not AI:
 key: 2UT83INB
 type: conferencePaper
 short_title: "Moral Stance Recognition and Polarity"
-year: 2025
+year: 2019
 first_author: "[[Brazil University of São Paulo]]"
 last_author: "[[Ivandré Paraboni]]"
 authors: "Brazil University of São Paulo; Wesley Ramos Dos Santos; Ivandré Paraboni"

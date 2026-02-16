@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0465
 type: conference_paper
 short_title: "CDEval A Benchmark for Measuring the"
-year: 2025
+year: 2024
 first_author: "[[Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie, Jitao Sang]]"
 last_author: "[[Jitao Sang]]"
 authors: "[[Yuhang Wang, Yanxu Zhu, Chao Kong, Shuyu Wei, Xiaoyuan Yi, Xing Xie, Jitao Sang]]"

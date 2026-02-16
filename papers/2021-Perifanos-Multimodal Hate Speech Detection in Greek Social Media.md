@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0535
 type: conferencePaper
 short_title: "Multimodal Hate Speech Detection in Greek Social Media"
-year: 2025
+year: 2021
 first_author: "[[Konstantinos Perifanos]]"
 last_author: "[[Dionysis Goutsos Konstantinos Perifanos]]"
 authors: "Konstantinos Perifanos, Dionysis Goutsos"

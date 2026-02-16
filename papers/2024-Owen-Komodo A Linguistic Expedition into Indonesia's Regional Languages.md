@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0119
 type: preprint
 short_title: "Komodo: A Linguistic Expedition into Indonesia's Regional Languages"
-year: 2025
+year: 2024
 first_author: "[[Owen, Louis]]"
 last_author: "[[Ahmed, Biddwan]]"
 authors: "[[Owen, Louis]]; [[Tripathi, Vishesh]]; [[Kumar, Abhay]]; [[Ahmed, Biddwan]]"

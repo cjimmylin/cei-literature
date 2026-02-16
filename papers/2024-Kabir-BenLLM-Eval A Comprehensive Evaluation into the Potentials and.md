@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0182
 type: preprint
 short_title: "BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP"
-year: 2025
+year: 2024
 first_author: "[[Kabir, Mohsinul]]"
 last_author: "[[Hoque, Enamul]]"
 authors: "[[Kabir, Mohsinul]]; [[Islam, Mohammed Saidul]]; [[Laskar, Md Tahmid Rahman]]; [[Nayeem, Mir Tafseer]]; [[Bari, M Saiful]]; [[Hoque, Enamul]]"

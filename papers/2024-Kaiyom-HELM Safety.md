@@ -14,7 +14,7 @@ Human View note:
 Not AI: 
 key: GHNYTYDF
 type: document
-year: 2025
+year: 2024
 short_title: "HELM Safety"
 first_author: "[[Farzaan Kaiyom]]"
 last_author: "[[Percy Liang]]"

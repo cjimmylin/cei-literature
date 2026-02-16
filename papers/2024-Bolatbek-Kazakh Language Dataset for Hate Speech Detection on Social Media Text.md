@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0063
 type: conferencePaper
 short_title: "Kazakh Language Dataset for Hate Speech Detection on Social Media Text"
-year: 2025
+year: 2024
 first_author: "[[Milana Bolatbek]]"
 last_author: "[[Zhastay Yeltay Shynar Mussiraliyeva]]"
 authors: "Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay"

@@ -13,7 +13,7 @@ Not AI:
 key: 4KCYVGC9
 type: conferencePaper
 short_title: "Value Imprint"
-year: 2025
+year: 2024
 first_author: "[[Ike Obi]]"
 last_author: "[[Basiletti, Aaron]]"
 authors: "[[Obi, Ike]]; [[Pant, Rohan]]; [[Agrawal, Srishti Shekhar]]; [[Ghazanfar, Maham]]; [[Basiletti, Aaron]]"

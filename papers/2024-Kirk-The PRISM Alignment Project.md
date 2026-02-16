@@ -12,7 +12,7 @@ Not AI:
 key: PPTHRZIQ
 type: journalArticle
 short_title: "The PRISM Alignment Project"
-year: 2025
+year: 2024
 first_author: "[[Hannah Rose Kirk]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Katerina Margatina; Juan Ciro; Rafael Mosquera; Max Bartolo; Adina Williams; He He; Bertie Vidgen; Scott A. Hale"

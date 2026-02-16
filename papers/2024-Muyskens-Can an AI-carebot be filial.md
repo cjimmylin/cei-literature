@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_MUYSKENS2024
 type: journalArticle
 short_title: "Can an AI-carebot be filial"
-year: 2025
+year: 2024
 first_author: "[[Kathryn Muyskens]]"
 last_author: "[[Dunn, Michael]]"
 authors: "[[Muyskens, Kathryn]]; [[Ma, Yonghui]]; [[Dunn, Michael]]"

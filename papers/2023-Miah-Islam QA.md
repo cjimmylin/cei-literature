@@ -14,7 +14,7 @@ Not AI:
 key: A3BRN3YJ
 type: document
 short_title: "Islam QA"
-year: 2025
+year: 2023
 first_author: "[[M. Miah]]"
 last_author: "[[M. Miah]]"
 authors: "M. Miah"

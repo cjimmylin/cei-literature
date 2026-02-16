@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0352
 type: preprint
 short_title: "Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling"
-year: 2025
+year: 2024
 first_author: "[[Matus Pikuliak]]"
 last_author: "[[Marian Simko Stefan Oresko]]"
 authors: "Matus Pikuliak, Andrea Hrckova, Stefan Oresko, Marian Simko"

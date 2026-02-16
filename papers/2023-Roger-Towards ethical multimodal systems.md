@@ -14,7 +14,7 @@ Not AI:
 key: VKHURJCT
 type: conferencePaper
 short_title: "Towards ethical multimodal systems"
-year: 2025
+year: 2023
 first_author: "[[Alexis Roger]]"
 last_author: "[[Irina Rish]]"
 authors: "Alexis Roger; Esma Aïmeur; Irina Rish"

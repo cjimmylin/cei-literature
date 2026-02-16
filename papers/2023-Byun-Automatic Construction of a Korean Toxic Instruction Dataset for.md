@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0252
 type: preprint
 short_title: "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Sungjoo Byun]]"
 last_author: "[[Hyopil Shin Hyemi Jo]]"
 authors: "Sungjoo Byun, Dongjun Jang, Hyemi Jo, Hyopil Shin"

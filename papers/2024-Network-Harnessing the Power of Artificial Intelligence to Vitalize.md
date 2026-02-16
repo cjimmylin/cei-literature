@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0804
 type: preprint
 short_title: "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences"
-year: 2025
+year: 2024
 first_author: "[[Megasis Network]]"
 last_author: "[[Megasis Network]]"
 authors: "Megasis Network"

@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0233
 type: preprint
 short_title: "AfroBench -- How Good are LLMs on African Languages?"
-year: 2025
+year: 2023
 first_author: "[[Ojo, Jessica]]"
 last_author: "[[Adelani, David Ifeoluwa]]"
 authors: "[[Ojo, Jessica]]; [[Ogundepo, Odunayo]]; [[Oladipo, Akintunde]]; [[Ogueji, Kelechi]]; [[Lin, Jimmy]]; [[Stenetorp, Pontus]]; [[Adelani, David Ifeoluwa]]"

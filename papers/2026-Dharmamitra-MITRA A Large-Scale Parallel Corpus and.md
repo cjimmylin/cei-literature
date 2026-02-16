@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0307
 type: preprint
 short_title: "MITRA A Large-Scale Parallel Corpus and"
-year: 2025
+year: 2026
 first_author: "[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI Research / Dharmamitra)]]"
 last_author: "[[Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra) Sebastian Nehrdich]]"
 authors: "[[Sebastian Nehrdich, Kurt Keutzer (and collaborators at Berkeley AI Research / Dharmamitra)]]"

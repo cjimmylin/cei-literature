@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0263
 type: preprint
 short_title: "Negation Sensitivity Index (NSI)"
-year: 2025
+year: 2026
 first_author: "[[K. & Chun Elkins]]"
 last_author: "[[J.]]"
 authors: "Elkins, K. & Chun, J."

@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0226
 type: conferencePaper
 short_title: "Unintended Impacts of LLM Alignment on Global Representation"
-year: 2025
+year: 2024
 first_author: "[[Michael J. Ryan]]"
 last_author: "[[Diyi Yang]]"
 authors: "Michael J. Ryan, William Held, Diyi Yang"

@@ -13,7 +13,7 @@ Not AI:
 key: KRRH92SR
 type: conferencePaper
 short_title: "Multi-label Hate Speech and Abusive Language"
-year: 2025
+year: 2019
 first_author: "[[Muhammad Okky Ibrohim]]"
 last_author: "[[Indra Budi]]"
 authors: "Muhammad Okky Ibrohim; Indra Budi"

@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0208
 type: conferencePaper
 short_title: "OLID-BR: Offensive Language Identification Dataset for Brazilian Portuguese"
-year: 2025
+year: 2024
 first_author: "[[Douglas Trajano]]"
 last_author: "[[Renata Vieira]]"
 authors: "Douglas Trajano, Henrique Bordini, Renata Vieira"

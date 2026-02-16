@@ -13,7 +13,7 @@ Not AI:
 key: KKKKB7L5
 type: conferencePaper
 short_title: "The Goofus & Gallant Story Corpus for Practical"
-year: 2025
+year: 2024
 first_author: "[[Md Sultan Al Nahian]]"
 last_author: "[[Brent Harrison]]"
 authors: "Md Sultan Al Nahian; Tasmia Tasrin; Spencer Frazier; Mark Riedl; Brent Harrison"

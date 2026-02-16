@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0640
 type: conferencePaper
 short_title: "Text and Value | Mongolian Journal of Humanities and Social Sciences"
-year: 2025
+year: 2024
 first_author: "[[Enkhbold]]"
 last_author: "[[Enkhbold]]"
 authors: Enkhbold

@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0528
 type: preprint
 short_title: "Meltemi: The first open Large Language Model for Greek"
-year: 2025
+year: 2024
 first_author: "[[Leon Voukoutis]]"
 last_author: "[[Vassilis Katsouros]]"
 authors: "Leon Voukoutis, Dimitris Roussis, Georgios Paraskevopoulos, Sokratis Sofianopoulos, Prokopis Prokopidis, Vassilis Papavasileiou, Athanasios Katsamanis, Stelios Piperidis, Vassilis Katsouros"

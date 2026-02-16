@@ -13,7 +13,7 @@ Not AI:
 key: WNSIZZ6S
 type: conferencePaper
 short_title: STREAM
-year: 2025
+year: 2023
 first_author: "[[Yuwei Wang]]"
 last_author: "[[Yi Zeng]]"
 authors: "Yuwei Wang; Enmeng Lu; Zizhe Ruan; Yao Liang; Yi Zeng"

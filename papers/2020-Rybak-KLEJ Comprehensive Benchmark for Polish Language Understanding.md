@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0337
 type: preprint
 short_title: "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
-year: 2025
+year: 2020
 first_author: "[[Piotr Rybak]]"
 last_author: "[[Ireneusz Gawlik Janusz Tracz]]"
 authors: "Piotr Rybak, Robert Mroczkowski, Janusz Tracz, Ireneusz Gawlik"

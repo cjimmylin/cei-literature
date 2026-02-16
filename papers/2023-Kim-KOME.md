@@ -13,7 +13,7 @@ Not AI:
 key: C8CSWIUC
 type: document
 short_title: KOME
-year: 2025
+year: 2023
 first_author: "[[Jaehong Kim]]"
 last_author: "[[Wonjae Lee]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"

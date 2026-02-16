@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0585
 type: conference_paper
 short_title: "Embeddings Models for Buddhist Sanskrit"
-year: 2025
+year: 2022
 first_author: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"
 last_author: "[[Senja Pollak Andraz Pelicon]]"
 authors: "[[Ligeia Lugli, Matej Martinc, Andraz Pelicon, Senja Pollak]]"

@@ -13,7 +13,7 @@ Not AI:
 key: KQVD4E5G
 type: document
 short_title: TRIAGE
-year: 2025
+year: 2024
 first_author: "[[Nathalie Maria Kirch]]"
 last_author: "[[Matthias Samwald]]"
 authors: "Nathalie Maria Kirch; Konstantin Hebenstreit; Matthias Samwald"

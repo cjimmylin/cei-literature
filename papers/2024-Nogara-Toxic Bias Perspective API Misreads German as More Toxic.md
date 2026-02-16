@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0460
 type: preprint
 short_title: "Toxic Bias: Perspective API Misreads German as More Toxic"
-year: 2025
+year: 2024
 first_author: "[[Gianluca Nogara]]"
 last_author: "[[Silvia Giordano Petter Tornberg]]"
 authors: "Gianluca Nogara, Francesco Pierri, Stefano Cresci, Luca Luceri, Petter Tornberg, Silvia Giordano"

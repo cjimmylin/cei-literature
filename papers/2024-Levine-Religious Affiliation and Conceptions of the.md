@@ -13,7 +13,7 @@ Human View note:
 Not AI: 
 key: U6X9LC4B
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "Religious Affiliation and Conceptions of the"
 first_author: "[[Sydney Levine]]"
 last_author: "[[Sydney Levine]]"

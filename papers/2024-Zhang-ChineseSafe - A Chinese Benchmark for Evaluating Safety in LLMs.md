@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0151
 type: preprint
 short_title: "ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs"
-year: 2025
+year: 2024
 first_author: "[[Zhang, Hengxiang]]"
 last_author: "[[Yang, Lei]]"
 authors: "[[Zhang, Hengxiang]]; [[Gao, Hongfu]]; [[Hu, Qiang]]; [[Chen, Guanhua]]; [[Yang, Lili]]; [[Jing, Bingyi]]; [[Wei, Hongxin]]; [[Wang, Bing]]; [[Bai, Haifeng]]; [[Yang, Lei]]"

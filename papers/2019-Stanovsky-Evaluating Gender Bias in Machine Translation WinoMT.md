@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0448
 type: conferencePaper
 short_title: "Evaluating Gender Bias in Machine Translation (WinoMT)"
-year: 2025
+year: 2019
 first_author: "[[Gabriel Stanovsky]]"
 last_author: "[[Luke Zettlemoyer]]"
 authors: "Gabriel Stanovsky, Noah A. Smith, Luke Zettlemoyer"

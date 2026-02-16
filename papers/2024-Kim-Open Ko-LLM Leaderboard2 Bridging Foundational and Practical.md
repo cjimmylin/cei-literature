@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0248
 type: preprint
 short_title: "Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs"
-year: 2025
+year: 2024
 first_author: "[[Hyeonwoo Kim]]"
 last_author: "[[Chanjun Park Yungi Kim]]"
 authors: "Hyeonwoo Kim, Dahyun Kim, Jihoo Kim, Sukyung Lee, Yungi Kim, Chanjun Park"

@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0186
 type: conferencePaper
 short_title: "HASOC 2023: Hate Speech and Offensive Content Identification in Assamese, Bengali, Bodo, Gujarati and Sinhala"
-year: 2025
+year: 2023
 first_author: "[[Narayan, Nikhil]]"
 last_author: "[[Panigrahi, Abhranta]]"
 authors: "[[Narayan, Nikhil]]; [[Biswal, Mrutyunjay]]; [[Goyal, Pramod]]; [[Panigrahi, Abhranta]]"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0798
 type: preprint
 short_title: "Evaluating Metalinguistic Knowledge in Large Language Models across the World's Languages"
-year: 2025
+year: 2026
 first_author: "[[Ejiro Onose]]"
 last_author: "[[Ejiro Onose]]"
 authors: "Ejiro Onose"

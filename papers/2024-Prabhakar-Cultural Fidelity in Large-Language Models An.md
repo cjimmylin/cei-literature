@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0471
 type: preprint
 short_title: "Cultural Fidelity in Large-Language Models An"
-year: 2025
+year: 2024
 first_author: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"
 last_author: "[[Umang Prabhakar Estelle Pan]]"
 authors: "[[Sharif Kazemi, Gloria Gerhardt, Jonty Katz, Caroline Ida Kuria, Estelle Pan, Umang Prabhakar]]"

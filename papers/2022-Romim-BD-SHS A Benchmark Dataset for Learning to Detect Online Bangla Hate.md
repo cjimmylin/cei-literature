@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0176
 type: conferencePaper
 short_title: "BD-SHS: A Benchmark Dataset for Learning to Detect Online Bangla Hate Speech in Different Social Contexts"
-year: 2025
+year: 2022
 first_author: "[[Romim, Nauros]]"
 last_author: "[[Amin, Mohammad Ruhul]]"
 authors: "[[Romim, Nauros]]; [[Ahmed, Mosahed]]; [[Islam, Md. Saiful]]; [[Sharma, Arnab Sen]]; [[Talukder, Hriteshwar]]; [[Amin, Mohammad Ruhul]]"

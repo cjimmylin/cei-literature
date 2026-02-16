@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0494
 type: conferencePaper
 short_title: "The Swedish Winogender Dataset (SweWinogender)"
-year: 2025
+year: 2021
 first_author: "[[Saga Hansson]]"
 last_author: "[[Dana Dannells]]"
 authors: "Saga Hansson, Konstantinos Mavromatakis, Yvonne Adesam, Gerlof Bouma, Dana Dannells"

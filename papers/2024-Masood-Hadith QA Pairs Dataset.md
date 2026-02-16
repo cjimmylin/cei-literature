@@ -15,7 +15,7 @@ Not AI:
 key: 7KSHTM4M
 type: document
 short_title: "Hadith QA Pairs Dataset"
-year: 2025
+year: 2024
 first_author: "[[R. Masood]]"
 last_author: "[[R. Masood]]"
 authors: "R. Masood"

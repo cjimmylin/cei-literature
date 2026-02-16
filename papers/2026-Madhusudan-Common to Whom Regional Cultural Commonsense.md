@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0304
 type: preprint
 short_title: "Common to Whom Regional Cultural Commonsense"
-year: 2025
+year: 2026
 first_author: "[[Sangmitra Madhusudan]]"
 last_author: "[[Ali Emami]]"
 authors: "[[Sangmitra Madhusudan]]; [[Trush Shashank More]]; [[Steph Buongiorno]]; [[Renata Dividino]]; [[Jad Kabbara]]; [[Ali Emami]]"

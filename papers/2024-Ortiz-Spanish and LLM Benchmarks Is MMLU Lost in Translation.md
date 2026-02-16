@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0293
 type: preprint
 short_title: "Spanish and LLM Benchmarks: Is MMLU Lost in Translation?"
-year: 2025
+year: 2024
 first_author: "[[Ortiz, Irene Plaza]]"
 last_author: "[[Irene Plaza Ortiz]]"
 authors: "[[Ortiz, Irene Plaza]]"

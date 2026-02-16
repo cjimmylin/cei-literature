@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: bookChapter
 short_title: "Use and Abuse Normative Ethics Moral Machines"
-year: 2025
+year: 2023
 first_author: "[[Jakob Stenseke]]"
 last_author: "[[Jakob Stenseke]]"
 authors: "Jakob Stenseke"

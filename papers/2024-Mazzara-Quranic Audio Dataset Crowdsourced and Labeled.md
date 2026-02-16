@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0519
 type: preprint
 short_title: "Quranic Audio Dataset Crowdsourced and Labeled"
-year: 2025
+year: 2024
 first_author: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"
 last_author: "[[Manuel Mazzara Nursultan Askarbekuly]]"
 authors: "[[Raghad Salameh, Mohamad Al Mdfaa, Nursultan Askarbekuly, Manuel Mazzara]]"

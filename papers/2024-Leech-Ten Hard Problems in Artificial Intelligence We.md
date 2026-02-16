@@ -13,7 +13,7 @@ Human View note:
 Not AI: 
 key: 4YDBJ27I
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "Ten Hard Problems in Artificial Intelligence We"
 first_author: "[[Gavin Leech]]"
 last_author: "[[Aleksandr Zhuravlev]]"

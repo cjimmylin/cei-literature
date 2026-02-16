@@ -13,7 +13,7 @@ Not AI:
 key: WNUPKC7H
 type: conferencePaper
 short_title: "SemEval-2019 Task 5"
-year: 2025
+year: 2019
 first_author: "[[Valerio Basile]]"
 last_author: "[[Manuela Sanguinetti]]"
 authors: "Valerio Basile; Cristina Bosco; Elisabetta Fersini; Debora Nozza; Viviana Patti; Francisco Manuel Rangel Pardo; Paolo Rosso; Manuela Sanguinetti"

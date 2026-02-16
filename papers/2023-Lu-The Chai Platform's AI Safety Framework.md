@@ -15,7 +15,7 @@ Not AI:
 key: 2XW9TQ5D
 type: conferencePaper
 short_title: "The Chai Platform's AI Safety Framework"
-year: 2025
+year: 2023
 first_author: "[[Xiaoding Lu]]"
 last_author: "[[William Beauchamp]]"
 authors: "Xiaoding Lu; Aleksey Korshuk; Zongyi Liu; William Beauchamp"

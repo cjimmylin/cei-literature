@@ -13,7 +13,7 @@ Not AI:
 key: WY4ZPF3K
 type: document
 short_title: ToxicChat
-year: 2025
+year: 2023
 first_author: "[[Zi Lin]]"
 last_author: "[[Shang, Jingbo]]"
 authors: "[[Lin, Zi]]; [[Wang, Zihan]]; [[Tong, Yongqi]]; [[Wang, Yangkun]]; [[Guo, Yuxin]]; [[Wang, Yujia]]; [[Shang, Jingbo]]"

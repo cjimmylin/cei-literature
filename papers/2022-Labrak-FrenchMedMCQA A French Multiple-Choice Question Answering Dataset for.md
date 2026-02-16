@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0451
 type: conferencePaper
 short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain"
-year: 2025
+year: 2022
 first_author: "[[Labrak, Yanis]]"
 last_author: "[[Gourraud, Pierre-Antoine]]"
 authors: "[[Labrak, Yanis]]; [[Bazoge, Adrien]]; [[Dufour, Richard]]; [[Rouvier, Mickael]]; [[Morin, Emmanuel]]; [[Daille, Béatrice]]; [[Gourraud, Pierre-Antoine]]"

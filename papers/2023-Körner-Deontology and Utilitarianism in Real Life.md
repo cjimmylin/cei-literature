@@ -13,7 +13,7 @@ Not AI:
 key: MDSXEBVP
 type: journalArticle
 short_title: "Deontology and Utilitarianism in Real Life"
-year: 2025
+year: 2023
 first_author: "[[Anita Körner]]"
 last_author: "[[Deutsch, Roland]]"
 authors: "[[Körner, Anita]]; [[Deutsch, Roland]]"

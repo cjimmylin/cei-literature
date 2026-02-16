@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0335
 type: preprint
 short_title: "Bielik 7B v0.1: A Polish Language Model -- Development, Insights, and Evaluation"
-year: 2025
+year: 2024
 first_author: "[[The Bielik LLM Team]]"
 last_author: "[[The Bielik LLM Team]]"
 authors: "The Bielik LLM Team"

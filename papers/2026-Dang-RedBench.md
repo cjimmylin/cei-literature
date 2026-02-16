@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0013
 type: preprint
 short_title: RedBench
-year: 2025
+year: 2026
 first_author: "[[Quy-Anh Dang]]"
 last_author: "[[Truong-Son Hy]]"
 authors: "Quy-Anh Dang, Chris Ngo, Truong-Son Hy"

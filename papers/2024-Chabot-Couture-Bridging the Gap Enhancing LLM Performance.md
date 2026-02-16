@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0464
 type: conference_paper
 short_title: "Bridging the Gap Enhancing LLM Performance"
-year: 2025
+year: 2024
 first_author: "[[Tuka Alhanai, Adam Kasumovic, Mohammad Ghassemi, Aven Zitzelberger, Jessica Lundin, Guillaume Chabot-Couture]]"
 last_author: "[[Guillaume Chabot-Couture Jessica Lundin]]"
 authors: "[[Tuka Alhanai, Adam Kasumovic, Mohammad Ghassemi, Aven Zitzelberger, Jessica Lundin, Guillaume Chabot-Couture]]"

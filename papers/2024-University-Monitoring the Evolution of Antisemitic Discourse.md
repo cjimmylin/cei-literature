@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0511
 type: preprint
 short_title: "Monitoring the Evolution of Antisemitic Discourse"
-year: 2025
+year: 2024
 first_author: "[[University), Multiple authors (American]]"
 last_author: "[[Multiple authors (American University)]]"
 authors: "[[Multiple authors (American University)]]"

@@ -13,7 +13,7 @@ Not AI:
 key: TMFXAHWF
 type: journalArticle
 short_title: IslamicPCQA
-year: 2025
+year: 2023
 first_author: "[[Arash Ghafouri]]"
 last_author: "[[Mahdi Firouzmandi]]"
 authors: "Arash Ghafouri; Hasan Naderi; Mohammad Aghajani asl; Mahdi Firouzmandi"

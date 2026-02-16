@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0492
 type: preprint
 short_title: "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding"
-year: 2025
+year: 2024
 first_author: "[[Kenneth Enevoldsen]]"
 last_author: "[[Kristoffer Laigaard Nielbo Niklas Muennighoff]]"
 authors: "Kenneth Enevoldsen, Marton Kardos, Niklas Muennighoff, Kristoffer Laigaard Nielbo"

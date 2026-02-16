@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0602
 type: conferencePaper
 short_title: "KyrgyzNLP: Challenges, Progress, and Future"
-year: 2025
+year: 2024
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Yana Veitsman]]"
 authors: "Yana Veitsman"

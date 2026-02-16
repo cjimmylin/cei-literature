@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0441
 type: preprint
 short_title: "Cross-Language Bias Examination in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Liang, Yuxuan]]"
 last_author: "[[Mahmoud, Marwa]]"
 authors: "[[Liang, Yuxuan]]; [[Mahmoud, Marwa]]"

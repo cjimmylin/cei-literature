@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0475
 type: preprint
 short_title: "Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language"
-year: 2025
+year: 2024
 first_author: "[[Gautam Kishore Shahi]]"
 last_author: "[[Tim A. Majchrzak Gautam Kishore Shahi]]"
 authors: "Gautam Kishore Shahi, Tim A. Majchrzak"

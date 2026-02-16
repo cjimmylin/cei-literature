@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0582
 type: preprint
 short_title: "Debiased Large Language Models Still Associate"
-year: 2025
+year: 2022
 first_author: "[[Babak Hemmatian, Lav R. Varshney]]"
 last_author: "[[Lav R. Varshney Babak Hemmatian]]"
 authors: "[[Babak Hemmatian, Lav R. Varshney]]"

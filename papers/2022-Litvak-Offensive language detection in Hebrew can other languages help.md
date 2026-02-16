@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0017
 type: conferencePaper
 short_title: "Offensive language detection in Hebrew: can other languages help?"
-year: 2025
+year: 2022
 first_author: "[[Marina Litvak]]"
 last_author: "[[Eran Madeghem]]"
 authors: "Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Madeghem"

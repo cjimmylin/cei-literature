@@ -13,7 +13,7 @@ Not AI:
 key: ARK7K54G
 type: conferencePaper
 short_title: "Political Compass or Spinning Arrow?"
-year: 2025
+year: 2024
 first_author: "[[Paul Röttger]]"
 last_author: "[[Dirk Hovy]]"
 authors: "Paul Röttger; Valentin Hofmann; Valentina Pyatkin; Musashi Hinck; Hannah Rose Kirk; Hinrich Schütze; Dirk Hovy"

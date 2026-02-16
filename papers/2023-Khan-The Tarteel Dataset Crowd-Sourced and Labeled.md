@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0574
 type: journal_article
 short_title: "The Tarteel Dataset Crowd-Sourced and Labeled"
-year: 2025
+year: 2023
 first_author: "[[Khan, Hamzah]]"
 last_author: "[[Abid, Abubakar]]"
 authors: "[[Khan, Hamzah]]; [[Abou, Anas]]; [[Moussa, M.]]; [[Tarteel, AI]]; [[Abid, Abubakar]]"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0376
 type: preprint
 short_title: "Abusive Span Detection for Vietnamese Narrative Texts"
-year: 2025
+year: 2023
 first_author: "[[Nguyen]]"
 last_author: "[[Nguyen Nguyen]]"
 authors: "Nguyen, Pham, Nguyen, Nguyen"

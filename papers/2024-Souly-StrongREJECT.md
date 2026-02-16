@@ -13,7 +13,7 @@ Not AI:
 key: F7ATVX8K
 type: journalArticle
 short_title: StrongREJECT
-year: 2025
+year: 2024
 first_author: "[[Alexandra Souly]]"
 last_author: "[[Sam Toyer]]"
 authors: "Alexandra Souly; Qingyuan Lu; Dillon Bowen; Tu Trinh; Elvis Hsieh; Sana Pandey; Pieter Abbeel; Justin Svegliato; Scott Emmons; Olivia Watkins; Sam Toyer"

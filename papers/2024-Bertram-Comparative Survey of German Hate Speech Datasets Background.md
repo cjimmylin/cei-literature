@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0474
 type: conferencePaper
 short_title: "Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases"
-year: 2025
+year: 2024
 first_author: "[[Bertram, Markus]]"
 last_author: "[[Mandl, Thomas]]"
 authors: Markus Bertram; Johannes Schafer; Thomas Mandl

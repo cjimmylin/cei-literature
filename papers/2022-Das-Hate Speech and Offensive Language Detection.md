@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0589
 type: preprint
 short_title: "Hate Speech and Offensive Language Detection"
-year: 2025
+year: 2022
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
 authors: "[[Das, Mithun]]; [[Banerjee, Somnath]]; [[Saha, Punyajoy]]; [[Mukherjee, Animesh]]"

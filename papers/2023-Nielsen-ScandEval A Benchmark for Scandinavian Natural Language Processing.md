@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0478
 type: preprint
 short_title: "ScandEval: A Benchmark for Scandinavian Natural Language Processing"
-year: 2025
+year: 2023
 first_author: "[[Nielsen, Dan]]"
 last_author: "[[Dan Nielsen]]"
 authors: "[[Nielsen, Dan]]"

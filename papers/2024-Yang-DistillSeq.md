@@ -14,7 +14,7 @@ Not AI:
 key: XHC6ZWYU
 type: conferencePaper
 short_title: DistillSeq
-year: 2025
+year: 2024
 first_author: "[[Mingke Yang]]"
 last_author: "[[Ling Shi]]"
 authors: "Mingke Yang; Yuqi Chen; Yi Liu; Ling Shi"

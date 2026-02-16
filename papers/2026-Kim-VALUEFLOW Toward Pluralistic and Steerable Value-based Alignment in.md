@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0014
 type: preprint
 short_title: "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
-year: 2025
+year: 2026
 first_author: "[[Woojin Kim]]"
 last_author: "[[Jaeyoung Do]]"
 authors: "Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do"

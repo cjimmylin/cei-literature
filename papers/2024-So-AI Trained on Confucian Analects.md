@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_SO2024
 type: journalArticle
 short_title: "AI Trained on Confucian Analects"
-year: 2025
+year: 2024
 first_author: "[[Emma So]]"
 last_author: "[[Emma So]]"
 authors: "[[So, Emma]]"

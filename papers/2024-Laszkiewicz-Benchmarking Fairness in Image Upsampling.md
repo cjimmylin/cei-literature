@@ -14,7 +14,7 @@ Not AI:
 key: 2FWESDIS
 type: conferencePaper
 short_title: "Benchmarking Fairness in Image Upsampling"
-year: 2025
+year: 2024
 first_author: "[[Mike Laszkiewicz]]"
 last_author: "[[Oliver Evans]]"
 authors: "Mike Laszkiewicz; Oliver Evans"

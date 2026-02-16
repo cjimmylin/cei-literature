@@ -13,7 +13,7 @@ Not AI:
 key: YHKDR9CQ
 type: journalArticle
 short_title: "The Dutch Moral Foundations Stimulus Database"
-year: 2025
+year: 2023
 first_author: "[[Franziska Hopp]]"
 last_author: "[[Franziska Hopp]]"
 authors: "Franziska Hopp"

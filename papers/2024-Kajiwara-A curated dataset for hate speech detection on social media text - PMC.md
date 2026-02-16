@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0719
 type: conferencePaper
 short_title: "A curated dataset for hate speech detection on social media text - PMC"
-year: 2025
+year: 2024
 first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara

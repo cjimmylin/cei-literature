@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0353
 type: preprint
 short_title: "Towards Multilingual LLM Evaluation for European Languages"
-year: 2025
+year: 2024
 first_author: "[[Thellmann, Klaudia]]"
 last_author: "[[Ali, Mehdi]]"
 authors: "[[Thellmann, Klaudia]]; [[Stadler, Bernhard]]; [[Fromm, Michael]]; [[Buschhoff, Jasper Schulze]]; [[Jude, Alex]]; [[Barth, Fabio]]; [[Leveling, Johannes]]; [[Flores-Herr, Nicolas]]; [[Köhler, Joachim]]; [[Jäkel, René]]; [[Ali, Mehdi]]"

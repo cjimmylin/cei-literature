@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0136
 type: journalArticle
 short_title: "Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media"
-year: 2025
+year: 2022
 first_author: "[[Ataei, Taha Shangipour]]"
 last_author: "[[Pilehvar, Mohammad Taher]]"
 authors: "[[Ataei, Taha Shangipour]]; [[Darvishi, Kamyar]]; [[Javdan, Soroush]]; [[Pourdabiri, Amin]]; [[Minaei-Bidgoli, B.]]; [[Pilehvar, Mohammad Taher]]"

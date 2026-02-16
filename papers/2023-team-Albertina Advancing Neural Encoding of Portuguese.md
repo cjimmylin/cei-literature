@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0229
 type: preprint
 short_title: "Albertina: Advancing Neural Encoding of Portuguese"
-year: 2025
+year: 2023
 first_author: "[[PORTULAN/CLUL team]]"
 last_author: "[[PORTULANCLUL team]]"
 authors: "PORTULAN/CLUL team"

@@ -14,7 +14,7 @@ Not AI:
 key: L43BZY4C
 type: journalArticle
 short_title: "A holistic ubuntu artificial intelligence ethics"
-year: 2025
+year: 2024
 first_author: "[[Katleho K. Mokoena]]"
 last_author: "[[Katleho K. Mokoena]]"
 authors: "Katleho K. Mokoena"

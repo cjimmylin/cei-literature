@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0536
 type: preprint
 short_title: "Turkish Hate Speech Superset Dataset"
-year: 2025
+year: 2024
 first_author: "[[Tonneau, Manuel]]"
 last_author: "[[Manuel Tonneau]]"
 authors: "[[Tonneau, Manuel]]"

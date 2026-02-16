@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0193
 type: conferencePaper
 short_title: "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
-year: 2025
+year: 2024
 first_author: "[[Lin Xu]]"
 last_author: "[[Jiashi Feng]]"
 authors: "Lin Xu; Zhiyuan Hu; Daquan Zhou; Hongyu Ren; Zhen Dong; Kurt Keutzer; See Kiong Ng; Jiashi Feng"

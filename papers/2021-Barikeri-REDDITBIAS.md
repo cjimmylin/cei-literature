@@ -13,7 +13,7 @@ Not AI:
 key: JKQ75SNA
 type: document
 short_title: REDDITBIAS
-year: 2025
+year: 2021
 first_author: "[[Soumya Barikeri]]"
 last_author: "[[Glavaš, Goran]]"
 authors: "[[Barikeri, Soumya]]; [[Lauscher, Anne]]; [[Vulić, Ivan]]; [[Glavaš, Goran]]"

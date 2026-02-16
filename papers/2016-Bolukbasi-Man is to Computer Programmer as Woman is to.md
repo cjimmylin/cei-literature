@@ -13,7 +13,7 @@ Not AI:
 key: UGFNILD5
 type: conferencePaper
 short_title: "Man is to Computer Programmer as Woman is to"
-year: 2025
+year: 2016
 first_author: "[[Tolga Bolukbasi]]"
 last_author: "[[Adam Kalai]]"
 authors: "Tolga Bolukbasi; Kai-Wei Chang; James Zou; Venkatesh Saligrama; Adam Kalai"

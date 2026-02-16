@@ -13,7 +13,7 @@ Not AI:
 key: 3HXQHTYW
 type: journalArticle
 short_title: CHiSafetyBench
-year: 2025
+year: 2024
 first_author: "[[Wenjing Zhang]]"
 last_author: "[[Shiguo Lian]]"
 authors: "Wenjing Zhang; Xuejiao Lei; Zhaoxiang Liu; Meijuan An; Bikun Yang; KaiKai Zhao; Kai Wang; Shiguo Lian"

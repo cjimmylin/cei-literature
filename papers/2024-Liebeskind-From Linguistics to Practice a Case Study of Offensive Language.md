@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0018
 type: conferencePaper
 short_title: "From Linguistics to Practice: a Case Study of Offensive Language Taxonomy in Hebrew"
-year: 2025
+year: 2024
 first_author: "[[Chaya Liebeskind]]"
 last_author: "[[Natalia Vanetik]]"
 authors: "Chaya Liebeskind, Marina Litvak, Natalia Vanetik"

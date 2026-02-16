@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0280
 type: conferencePaper
 short_title: "Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants"
-year: 2025
+year: 2021
 first_author: "[[Plaza-del-Arco, F.]]"
 last_author: "[[Villaseñor-Pineda, Luis]]"
 authors: "[[Plaza-del-Arco, F.]]; [[Casavantes, Marco]]; [[Escalante, Hugo Jair]]; [[Valdivia, M. T. M.]]; [[Montejo-Ráez, Arturo]]; [[Gómez, M. M. Y.]]; [[Jarquín-Vásquez, H.]]; [[Villaseñor-Pineda, Luis]]"

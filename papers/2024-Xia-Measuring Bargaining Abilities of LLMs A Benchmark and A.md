@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0195
 type: conferencePaper
 short_title: "Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method"
-year: 2025
+year: 2024
 first_author: "[[Tian Xia]]"
 last_author: "[[Rui Wang]]"
 authors: "Tian Xia; Zhiwei He; Tong Ren; Yibo Miao; Zhuosheng Zhang; Yang Yang; Rui Wang"

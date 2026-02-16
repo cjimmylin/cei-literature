@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0672
 type: preprint
 short_title: "Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects"
-year: 2025
+year: 2026
 first_author: "[[Chang, Kalvin]]"
 last_author: "[[Yu, Dong]]"
 authors: "[[Chang, Kalvin]]; [[Shao, Yiwen]]; [[Li, Jiahong]]; [[Yu, Dong]]"

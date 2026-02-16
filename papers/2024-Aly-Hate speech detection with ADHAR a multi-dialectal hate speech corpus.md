@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0739
 type: conferencePaper
 short_title: "Hate speech detection with ADHAR: a multi-dialectal hate speech corpus in Arabic - PMC"
-year: 2025
+year: 2024
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
 authors: "Ranwa Aly, Yara Allam, Rana Gaber"

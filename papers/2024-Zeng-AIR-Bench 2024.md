@@ -13,7 +13,7 @@ Not AI:
 key: XMMZIU29
 type: journalArticle
 short_title: "AIR-Bench 2024"
-year: 2025
+year: 2024
 first_author: "[[Yi Zeng]]"
 last_author: "[[Bo Li]]"
 authors: "Yi Zeng; Yu Yang; Andy Zhou; Jeffrey Ziwei Tan; Yuheng Tu; Yifan Mai; Kevin Klyman; Minzhou Pan; Ruoxi Jia; Dawn Song; Percy Liang; Bo Li"

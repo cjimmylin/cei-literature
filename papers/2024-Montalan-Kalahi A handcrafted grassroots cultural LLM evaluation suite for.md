@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0109
 type: preprint
 short_title: "Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino"
-year: 2025
+year: 2024
 first_author: "[[Montalan, Jann Railey]]"
 last_author: "[[Tjhi, William Chandra]]"
 authors: "[[Montalan, Jann Railey]]; [[Ngui, Jian Gang]]; [[Leong, Wei Qi]]; [[Susanto, Yosephine]]; [[Rengarajan, Hamsawardhini]]; [[Aji, Alham Fikri]]; [[Tjhi, William Chandra]]"

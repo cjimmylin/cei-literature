@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0571
 type: preprint
 short_title: "Tamil-Llama A New Tamil Language Model"
-year: 2025
+year: 2023
 first_author: "[[Abhinand]]"
 last_author: "[[Abhinand]]"
 authors: [[Abhinand]]

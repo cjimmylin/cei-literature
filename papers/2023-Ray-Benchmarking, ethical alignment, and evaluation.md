@@ -14,7 +14,7 @@ Not AI:
 key: EXAGJWAD
 type: journalArticle
 short_title: "Benchmarking, ethical alignment, and evaluation"
-year: 2025
+year: 2023
 first_author: "[[Partha Pratim Ray]]"
 last_author: "[[Partha Pratim Ray]]"
 authors: "Partha Pratim Ray"

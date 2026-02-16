@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0612
 type: preprint
 short_title: "Pretrained Models and Evaluation Data for"
-year: 2025
+year: 2021
 first_author: "[[Jiang, Shengyi]]"
 last_author: "[[Fu, Yingwen]]"
 authors: "[[Jiang, Shengyi]]; [[Fu, Sihui]]; [[Lin, Nankai]]; [[Fu, Yingwen]]"

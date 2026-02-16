@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0282
 type: conferencePaper
 short_title: "Overview of DETESTS-Dis at IberLEF 2024: DETEction and Classification of Racial STereotypes in Spanish - Learning with Disagreement"
-year: 2025
+year: 2024
 first_author: "[[Schmeisser-Nieto]]"
 last_author: "[[Schmeisser-Nieto]]"
 authors: "[[Schmeisser-Nieto]]"

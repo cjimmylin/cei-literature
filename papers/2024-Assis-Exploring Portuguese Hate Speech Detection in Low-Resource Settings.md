@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0226
 type: conferencePaper
 short_title: "Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?"
-year: 2025
+year: 2024
 first_author: "[[Gabriel Assis]]"
 last_author: "[[Aline Paes Daniela Vianna]]"
 authors: "Gabriel Assis, Annie Amorim, Jonnathan Carvalho, Daniel de Oliveira, Daniela Vianna, Aline Paes"

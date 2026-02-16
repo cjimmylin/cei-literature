@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0114
 type: preprint
 short_title: "NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages"
-year: 2025
+year: 2022
 first_author: "[[Winata, Genta Indra]]"
 last_author: "[[Ruder, Sebastian]]"
 authors: "[[Winata, Genta Indra]]; [[Aji, Alham Fikri]]; [[Cahyawijaya, Samuel]]; [[Mahendra, Rahmad]]; [[Koto, Fajri]]; [[Romadhony, Ade]]; [[Kurniawan, Kemal]]; [[Moeljadi, David]]; [[Prasojo, Radityo Eko]]; [[Fung, Pascale]]; [[Baldwin, Timothy]]; [[Lau, Jey Han]]; [[Sennrich, Rico]]; [[Ruder, Sebastian]]"

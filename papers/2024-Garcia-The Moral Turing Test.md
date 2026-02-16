@@ -13,7 +13,7 @@ Not AI:
 key: BT2NK8RP
 type: conferencePaper
 short_title: "The Moral Turing Test"
-year: 2025
+year: 2024
 first_author: "[[Basile Garcia]]"
 last_author: "[[Stefano Palminteri]]"
 authors: "Basile Garcia; Crystal Qian; Stefano Palminteri"

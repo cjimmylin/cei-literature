@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0378
 type: conferencePaper
 short_title: "UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis"
-year: 2025
+year: 2018
 first_author: "[[Kiet Van Nguyen]]"
 last_author: "[[Kiet Van Nguyen]]"
 authors: "Kiet Van Nguyen, others"

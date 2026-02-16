@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0484
 type: conferencePaper
 short_title: "Evaluating Dutch Social Bias in Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Renate Burema]]"
 last_author: "[[Renate Burema]]"
 authors: "Renate Burema"

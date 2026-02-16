@@ -12,7 +12,7 @@ Not AI:
 key: P3AITYPK
 type: conferencePaper
 short_title: HateCheck
-year: 2025
+year: 2021
 first_author: "[[Paul Röttger]]"
 last_author: "[[Janet Pierrehumbert]]"
 authors: "Paul Röttger; Bertie Vidgen; Dong Nguyen; Zeerak Waseem; Helen Margetts; Janet Pierrehumbert"

@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0479
 type: preprint
 short_title: "NorBench: A Benchmark for Norwegian Language Models"
-year: 2025
+year: 2023
 first_author: "[[Various (LTG Oslo)]]"
 last_author: "[[Various (LTG Oslo)]]"
 authors: "Various (LTG Oslo)"

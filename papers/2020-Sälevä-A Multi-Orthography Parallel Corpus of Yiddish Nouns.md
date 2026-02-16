@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0040
 type: conferencePaper
 short_title: "A Multi-Orthography Parallel Corpus of Yiddish Nouns"
-year: 2025
+year: 2020
 first_author: "[[Jonne Sälevä]]"
 last_author: "[[Jonne Sälevä]]"
 authors: Jonne Sälevä

@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0005
 type: conferencePaper
 short_title: "Building Interpretable Models for Moral Decision-Making"
-year: 2025
+year: 2026
 first_author: "[[M. Goel]]"
 last_author: "[[A]]"
 authors: "Goel, M., Das, A"

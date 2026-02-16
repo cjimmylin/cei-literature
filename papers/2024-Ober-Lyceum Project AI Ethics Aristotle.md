@@ -11,7 +11,7 @@ Not AI:
 key: AUTO_OBER2024
 type: report
 short_title: "Lyceum Project AI Ethics Aristotle"
-year: 2025
+year: 2024
 first_author: "[[Josiah Ober]]"
 last_author: "[[Tasioulas, John]]"
 authors: "[[Ober, Josiah]]; [[Tasioulas, John]]"

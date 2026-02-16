@@ -13,7 +13,7 @@ Not AI:
 key: ZHANG2022JESP
 type: journalArticle
 short_title: "AI and Moral Dilemmas"
-year: 2025
+year: 2022
 first_author: "[[Zaixuan Zhang]]"
 last_author: "[[Liying Xu]]"
 authors: "Zaixuan Zhang; Zhansheng Chen; Liying Xu"

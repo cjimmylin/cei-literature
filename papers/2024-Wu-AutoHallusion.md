@@ -12,7 +12,7 @@ Not AI:
 key: EFZK2LBC
 type: conferencePaper
 short_title: AutoHallusion
-year: 2025
+year: 2024
 first_author: "[[Xiyang Wu]]"
 last_author: "[[Dinesh Manocha]]"
 authors: "Xiyang Wu; Tianrui Guan; Dianqi Li; Shuaiyi Huang; Xiaoyu Liu; Xijun Wang; Ruiqi Xian; Abhinav Shrivastava; Furong Huang; Jordan Lee Boyd-Graber; Tianyi Zhou; Dinesh Manocha"

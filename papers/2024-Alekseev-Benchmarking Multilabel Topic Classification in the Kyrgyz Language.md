@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0605
 type: conferencePaper
 short_title: "Benchmarking Multilabel Topic Classification in the Kyrgyz Language"
-year: 2025
+year: 2024
 first_author: "[[Alekseev, Anton]]"
 last_author: "[[Kabaeva, Gulnara]]"
 authors: "[[Alekseev, Anton]]; [[Nikolenko, Sergey I.]]; [[Kabaeva, Gulnara]]"

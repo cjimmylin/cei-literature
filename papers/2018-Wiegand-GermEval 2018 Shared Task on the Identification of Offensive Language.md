@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0465
 type: conferencePaper
 short_title: "GermEval 2018 Shared Task on the Identification of Offensive Language"
-year: 2025
+year: 2018
 first_author: "[[Michael Wiegand]]"
 last_author: "[[Josef Ruppenhofer]]"
 authors: "Michael Wiegand, Melanie Siegel, Josef Ruppenhofer"

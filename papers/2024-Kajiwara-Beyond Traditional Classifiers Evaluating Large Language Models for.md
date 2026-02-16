@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0725
 type: conferencePaper
 short_title: "Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection"
-year: 2025
+year: 2024
 first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara

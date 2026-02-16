@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0004
 type: preprint
 short_title: "BiasLab (Multilingual Dual-Framing Framework)"
-year: 2025
+year: 2026
 first_author: "[[Guey, William]]"
 last_author: "[[Gomes, Jose O]]"
 authors: "[[Guey, William]]; [[Zhang, Wei]]; [[Rau, Pei-Luen Patrick]]; [[Bougault, Pierrick]]; [[Moura, Vitor D. de]]; [[Ucar, Bertan]]; [[Gomes, Jose O.]]"

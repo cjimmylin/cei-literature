@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0454
 type: preprint
 short_title: "A multilingual dataset for offensive language"
-year: 2025
+year: 2024
 first_author: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"
 last_author: "[[Muhammad Murtala]]"
 authors: "[[Saminu Mohammad Aliyu, Gregory Maksha Wajiga, Muhammad Murtala]]"

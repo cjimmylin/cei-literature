@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0741
 type: conferencePaper
 short_title: "A Deep Learning Framework for Automatic Detection of Hate Speech Embedded in Arabic Tweets | Request PDF"
-year: 2025
+year: 2024
 first_author: "[[Duwairi, Rehab]]"
 last_author: "[[Quwaider, Muhannad]]"
 authors: Rehab Duwairi; Amena Hayajneh; Muhannad Quwaider

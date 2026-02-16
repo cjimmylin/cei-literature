@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0247
 type: preprint
 short_title: "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Chanjun Park]]"
 last_author: "[[Hyeonwoo Kim Yungi Kim]]"
 authors: "Chanjun Park, Dahyun Kim, Sanghoon Kim, Sukyung Lee, Yungi Kim, Hyeonwoo Kim"

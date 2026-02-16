@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0150
 type: conferencePaper
 short_title: "Chinese SafetyQA -- A Safety Short-form Factuality Benchmark"
-year: 2025
+year: 2024
 first_author: "[[Tan, Yingshui]]"
 last_author: "[[Zhang, Kaifu]]"
 authors: "[[Tan, Yingshui]]; [[Zheng, Boren]]; [[Zheng, Baihui]]; [[Cao, Kerui]]; [[Jing, Huiyun]]; [[Wei, Jincheng]]; [[Liu, Jiaheng]]; [[He, Yancheng]]; [[Su, Wenbo]]; [[Zhu, Xiangyong]]; [[Zheng, Bo]]; [[Zhang, Kaifu]]"

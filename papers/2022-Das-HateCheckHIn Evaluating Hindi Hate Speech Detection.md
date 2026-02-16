@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0590
 type: preprint
 short_title: "HateCheckHIn Evaluating Hindi Hate Speech Detection"
-year: 2025
+year: 2022
 first_author: "[[Das, Mithun]]"
 last_author: "[[Mukherjee, Animesh]]"
 authors: "[[Das, Mithun]]; [[Saha, Punyajoy]]; [[Mathew, Binny]]; [[Mukherjee, Animesh]]"

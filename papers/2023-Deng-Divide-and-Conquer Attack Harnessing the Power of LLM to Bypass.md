@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0842
 type: preprint
 short_title: "Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models"
-year: 2025
+year: 2023
 first_author: "[[Deng, Yimo]]"
 last_author: "[[Chen, Huangxun]]"
 authors: "[[Deng, Yimo]]; [[Chen, Huangxun]]"

@@ -12,7 +12,7 @@ Not AI:
 key: ZHOU2024NAACL
 type: conferencePaper
 short_title: "Rethinking Machine Ethics"
-year: 2025
+year: 2024
 first_author: "[[Jingyan Zhou]]"
 last_author: "[[Helen Meng]]"
 authors: "Jingyan Zhou; Minda Hu; Junan Li; Xiaoying Zhang; Xixin Wu; Irwin King; Helen Meng"

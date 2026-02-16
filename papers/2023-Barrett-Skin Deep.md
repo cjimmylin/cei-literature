@@ -13,7 +13,7 @@ Not AI:
 key: N28QYZU6
 type: conferencePaper
 short_title: "Skin Deep"
-year: 2025
+year: 2023
 first_author: "[[Teanna Barrett]]"
 last_author: "[[Amy Zhang]]"
 authors: "Teanna Barrett; Quanze Chen; Amy Zhang"

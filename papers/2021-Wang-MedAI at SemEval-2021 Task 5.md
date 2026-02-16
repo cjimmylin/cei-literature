@@ -13,7 +13,7 @@ Not AI:
 key: CCQX696K
 type: conferencePaper
 short_title: "MedAI at SemEval-2021 Task 5"
-year: 2025
+year: 2021
 first_author: "[[Zhen Wang]]"
 last_author: "[[Junfei Liu]]"
 authors: "Zhen Wang; Hongjie Fan; Junfei Liu"

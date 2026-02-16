@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0127
 type: conferencePaper
 short_title: "Desiderata for Filipino NLP in the Age of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Lj Miranda]]"
 last_author: "[[Lj Miranda]]"
 authors: "Lj Miranda"

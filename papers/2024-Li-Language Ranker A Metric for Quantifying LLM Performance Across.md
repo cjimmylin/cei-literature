@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0163
 type: preprint
 short_title: "Language Ranker: A Metric for Quantifying LLM Performance Across Languages"
-year: 2025
+year: 2024
 first_author: "[[Li, Zihao]]"
 last_author: "[[Du, Mengnan]]"
 authors: "[[Li, Zihao]]; [[Shi, Yucheng]]; [[Liu, Zirui]]; [[Yang, Fan]]; [[Payani, Ali]]; [[Liu, Ninghao]]; [[Du, Mengnan]]"

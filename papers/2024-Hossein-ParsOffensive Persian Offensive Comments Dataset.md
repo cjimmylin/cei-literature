@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0141
 type: conferencePaper
 short_title: "ParsOffensive: Persian Offensive Comments Dataset"
-year: 2025
+year: 2024
 first_author: "[[Safayani, Mehran]]"
 last_author: "[[Pourbahman, Zahra]]"
 authors: "[[Safayani, Mehran]]; [[Sartipi, Amir]]; [[Ahmadi, Amir Hossein]]; [[Jalali, Parniyan]]; [[Mansouri, Amir Hossein]]; [[Bisheh-Niasar, Mohammad]]; [[Pourbahman, Zahra]]"

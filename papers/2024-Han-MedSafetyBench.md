@@ -12,7 +12,7 @@ Not AI:
 key: 4NE573JG
 type: conferencePaper
 short_title: MedSafetyBench
-year: 2025
+year: 2024
 first_author: "[[Tessa Han]]"
 last_author: "[[Lakkaraju, Himabindu]]"
 authors: "[[Han, Tessa]]; [[Kumar, Aounon]]; [[Agarwal, Chirag]]; [[Lakkaraju, Himabindu]]"

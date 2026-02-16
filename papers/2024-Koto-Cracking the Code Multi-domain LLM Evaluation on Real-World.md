@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0101
 type: preprint
 short_title: "Cracking the Code: Multi-domain LLM Evaluation on Real-World Professional Exams in Indonesia"
-year: 2025
+year: 2024
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Fajri Koto]]"
 authors: "[[Koto, Fajri]]"

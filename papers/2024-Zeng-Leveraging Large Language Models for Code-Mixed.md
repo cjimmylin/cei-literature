@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0505
 type: preprint
 short_title: "Leveraging Large Language Models for Code-Mixed"
-year: 2025
+year: 2024
 first_author: "[[Linda Zeng]]"
 last_author: "[[Linda Zeng]]"
 authors: "[[Linda Zeng]]"

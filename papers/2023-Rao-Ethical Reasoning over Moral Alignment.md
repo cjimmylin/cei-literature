@@ -13,7 +13,7 @@ Not AI:
 key: C8EQFDA4
 type: conferencePaper
 short_title: "Ethical Reasoning over Moral Alignment"
-year: 2025
+year: 2023
 first_author: "[[Abhinav Rao]]"
 last_author: "[[Choudhury, Monojit]]"
 authors: "[[Rao, Abhinav]]; [[Khandelwal, Aditi]]; [[Tanmay, Kumar]]; [[Agarwal, Utkarsh]]; [[Choudhury, Monojit]]"

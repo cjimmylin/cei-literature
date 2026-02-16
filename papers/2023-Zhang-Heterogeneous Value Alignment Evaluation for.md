@@ -12,7 +12,7 @@ Not AI:
 key: 6KY8KDVF
 type: document
 short_title: "Heterogeneous Value Alignment Evaluation for"
-year: 2025
+year: 2023
 first_author: "[[Zhaowei Zhang]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Ceyao Zhang; Nian Liu; Siyuan Qi; Ziqi Rong; Song-Chun Zhu; Shuguang Cui; Yaodong Yang"

@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0186
 type: conferencePaper
 short_title: "Investigating Cultural Alignment of LLMs"
-year: 2025
+year: 2024
 first_author: "[[Badr AlKhamissi]]"
 last_author: "[[Mona Diab Mai Alkhamissi]]"
 authors: "Badr AlKhamissi, Muhammad ElNokrashy, Mai Alkhamissi, Mona Diab"

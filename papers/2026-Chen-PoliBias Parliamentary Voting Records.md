@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0011
 type: preprint
 short_title: "PoliBias (Parliamentary Voting Records)"
-year: 2025
+year: 2026
 first_author: "[[Chen, Jieying]]"
 last_author: "[[Wang, Chendi]]"
 authors: "[[Chen, Jieying]]; [[Jong, Karen de]]; [[Poole, Andreas]]; [[Burakowski, Jan]]; [[Nosti, Elena Elderson]]; [[Windt, Joep]]; [[Wang, Chendi]]"

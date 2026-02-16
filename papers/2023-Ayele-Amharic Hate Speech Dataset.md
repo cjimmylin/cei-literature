@@ -12,7 +12,7 @@ Not AI:
 key: L2DU2UQX
 type: conferencePaper
 short_title: "Amharic Hate Speech Dataset"
-year: 2025
+year: 2023
 first_author: "[[Abinet Ayele]]"
 last_author: "[[Chris Biemann]]"
 authors: "Abinet Ayele; Seid Muhie Yimam; Yaregal Assabie Belay; Moges Asfaw; Chris Biemann"

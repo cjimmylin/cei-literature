@@ -14,7 +14,7 @@ Not AI:
 key: CXQBF26R
 type: journalArticle
 short_title: "Religious Belief and the Moral Circle"
-year: 2025
+year: 2016
 first_author: "[[Benjamin Grant Purzycki]]"
 last_author: "[[Joseph Henrich]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"

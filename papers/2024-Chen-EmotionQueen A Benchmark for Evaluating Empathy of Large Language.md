@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0166
 type: conferencePaper
 short_title: "EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Yuyan Chen]]"
 last_author: "[[Yanghua Xiao]]"
 authors: "Yuyan Chen; Hao Wang; Songzhou Yan; Sijia Liu; Yueze Li; Yi Zhao; Yanghua Xiao"

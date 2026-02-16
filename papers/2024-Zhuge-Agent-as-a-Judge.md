@@ -13,7 +13,7 @@ Not AI:
 key: Y88B2NS3
 type: conferencePaper
 short_title: Agent-as-a-Judge
-year: 2025
+year: 2024
 first_author: "[[Mingchen Zhuge]]"
 last_author: "[[Jürgen Schmidhuber]]"
 authors: "Mingchen Zhuge; Changsheng Zhao; Dylan Ashley; Wenyi Wang; Dmitrii Khizbullin; Yunyang Xiong; Zechun Liu; Ernie Chang; Raghuraman Krishnamoorthi; Yuandong Tian; Yangyang Shi; Vikas Chandra; Jürgen Schmidhuber"

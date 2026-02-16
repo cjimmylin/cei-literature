@@ -13,7 +13,7 @@ Not AI:
 key: TVGQ5DM8
 type: conferencePaper
 short_title: ToMBench
-year: 2025
+year: 2024
 first_author: "[[Zhuang Chen]]"
 last_author: "[[Minlie Huang]]"
 authors: "Zhuang Chen; Jincenzi Wu; Jinfeng Zhou; Bosi Wen; Guanqun Bi; Gongyao Jiang; Yaru Cao; Mengting Hu; Yunghwei Lai; Zexuan Xiong; Minlie Huang"

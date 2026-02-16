@@ -13,7 +13,7 @@ Not AI:
 key: MYERS2024COG
 type: journalArticle
 short_title: "People Expect AI Moral Advisors More Utilitarian"
-year: 2025
+year: 2024
 first_author: "[[Simon Myers]]"
 last_author: "[[Jim A.C. Everett]]"
 authors: "Simon Myers; Jim A.C. Everett"

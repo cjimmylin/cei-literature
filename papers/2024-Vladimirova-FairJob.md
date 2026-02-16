@@ -13,7 +13,7 @@ Not AI:
 key: XR5FVHMC
 type: conferencePaper
 short_title: FairJob
-year: 2025
+year: 2024
 first_author: "[[Mariia Vladimirova]]"
 last_author: "[[Eustache Diemert]]"
 authors: "Mariia Vladimirova; Federico Pavone; Eustache Diemert"

@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0455
 type: conference_paper
 short_title: "AC-EVAL Evaluating Ancient Chinese Language Understanding"
-year: 2025
+year: 2024
 first_author: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"
 last_author: "[[Bin Wu Di Liu]]"
 authors: "[[Yuting Wei, Yuanxing Xu, Xinru Wei, Simin Yang, Yangfu Zhu, Yuqing Li, Di Liu, Bin Wu]]"

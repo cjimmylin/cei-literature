@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0239
 type: preprint
 short_title: "KoBBQ: Korean Bias Benchmark for Question Answering"
-year: 2025
+year: 2024
 first_author: "[[Jiho Jin]]"
 last_author: "[[Mark Hasegawa-Johnson Alice Oh]]"
 authors: "Jiho Jin, Jiseon Kim, Nayeon Lee, Haneul Yoo, Alice Oh, Mark Hasegawa-Johnson"

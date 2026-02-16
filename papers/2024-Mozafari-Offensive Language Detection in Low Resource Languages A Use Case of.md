@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0142
 type: conferencePaper
 short_title: "Offensive Language Detection in Low Resource Languages: A Use Case of Persian Language"
-year: 2025
+year: 2024
 first_author: "[[Mozafari, Marzieh]]"
 last_author: "[[Crespi, Noel]]"
 authors: "[[Mozafari, Marzieh]]; [[Mnassri, Khouloud]]; [[Farahbakhsh, R.]]; [[Crespi, Noel]]"

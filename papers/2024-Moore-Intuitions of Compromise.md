@@ -13,7 +13,7 @@ Not AI:
 key: EEHC7NZN
 type: conferencePaper
 short_title: "Intuitions of Compromise"
-year: 2025
+year: 2024
 first_author: "[[Jared Moore]]"
 last_author: "[[Sydney Levine]]"
 authors: "Jared Moore; Yejin Choi; Sydney Levine"

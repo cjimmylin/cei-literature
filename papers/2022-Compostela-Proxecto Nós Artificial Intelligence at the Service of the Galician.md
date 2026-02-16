@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0234
 type: conferencePaper
 short_title: "Proxecto Nós: Artificial Intelligence at the Service of the Galician Language"
-year: 2025
+year: 2022
 first_author: "[[Authors from Universidade de Santiago de Compostela]]"
 last_author: "[[Authors from Universidade de Santiago de Compostela]]"
 authors: "Authors from Universidade de Santiago de Compostela"

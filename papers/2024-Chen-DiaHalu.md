@@ -13,7 +13,7 @@ Not AI:
 key: X9HU47WR
 type: conferencePaper
 short_title: DiaHalu
-year: 2025
+year: 2024
 first_author: "[[Kedi Chen]]"
 last_author: "[[Liang He]]"
 authors: "Kedi Chen; Qin Chen; Jie Zhou; Yishen He; Liang He"

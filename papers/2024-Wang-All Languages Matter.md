@@ -13,7 +13,7 @@ Not AI:
 key: KF3PX7GE
 type: document
 short_title: "All Languages Matter"
-year: 2025
+year: 2024
 first_author: "[[Wenxuan Wang]]"
 last_author: "[[Lyu, Michael]]"
 authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael]]"

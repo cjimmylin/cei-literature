@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0614
 type: journal_article
 short_title: "Detecting Weak and Strong Islamophobic Hate"
-year: 2025
+year: 2020
 first_author: "[[Bertie Vidgen, Taha Yasseri]]"
 last_author: "[[Taha Yasseri Bertie Vidgen]]"
 authors: "[[Bertie Vidgen, Taha Yasseri]]"

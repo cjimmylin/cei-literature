@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0431
 type: conferencePaper
 short_title: "French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English"
-year: 2025
+year: 2022
 first_author: "[[Aurélie Névéol]]"
 last_author: "[[Karën Fort Julien Bezançon]]"
 authors: "Aurélie Névéol, Yoann Dupont, Julien Bezançon, Karën Fort"

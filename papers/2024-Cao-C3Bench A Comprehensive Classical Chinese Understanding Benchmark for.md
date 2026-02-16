@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0669
 type: preprint
 short_title: "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Cao, Jiahuan]]"
 last_author: "[[Jin, Lianwen]]"
 authors: "[[Cao, Jiahuan]]; [[Shi, Yongxin]]; [[Peng, Dezhi]]; [[Liu, Yang]]; [[Jin, Lianwen]]"

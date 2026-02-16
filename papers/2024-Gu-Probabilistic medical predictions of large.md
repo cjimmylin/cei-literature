@@ -13,7 +13,7 @@ Not AI:
 key: NA333TMH
 type: journalArticle
 short_title: "Probabilistic medical predictions of large"
-year: 2025
+year: 2024
 first_author: "[[Bowen Gu]]"
 last_author: "[[Jie Yang]]"
 authors: "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang"

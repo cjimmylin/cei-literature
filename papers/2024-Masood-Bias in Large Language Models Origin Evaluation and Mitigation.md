@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0814
 type: preprint
 short_title: "Bias in Large Language Models: Origin, Evaluation, and Mitigation"
-year: 2025
+year: 2024
 first_author: "[[Adnan Masood]]"
 last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"

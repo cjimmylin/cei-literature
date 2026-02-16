@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_BERBERICH2018
 type: preprint
 short_title: "The Virtuous Machine"
-year: 2025
+year: 2018
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Diepold, Klaus]]"
 authors: "[[Berberich, Nicolas]]; [[Diepold, Klaus]]"

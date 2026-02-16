@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0576
 type: journal_article
 short_title: "Toxicity Posts and Hateful Comments Detection"
-year: 2025
+year: 2023
 first_author: "[[Sukhamsri, Sutthisak]]"
 last_author: "[[Sukhamsri, Sutthisak]]"
 authors: Sutthisak Sukhamsri

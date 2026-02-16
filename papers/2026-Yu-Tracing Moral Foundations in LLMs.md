@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_YU2026
 type: preprint
 short_title: "Tracing Moral Foundations in LLMs"
-year: 2025
+year: 2026
 first_author: "[[Chenxiao Yu]]"
 last_author: "[[Dehghani, Morteza]]"
 authors: "[[Yu, Chenxiao]]; [[Yi, Bowen]]; [[Karimi-Malekabadi, Farzan]]; [[Abdurahman, Suhaib]]; [[Ye, Jinyi]]; [[Narayanan, Shrikanth]]; [[Zhao, Yue]]; [[Dehghani, Morteza]]"

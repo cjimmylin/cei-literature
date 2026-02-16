@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0802
 type: conferencePaper
 short_title: "LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022"
-year: 2025
+year: 2022
 first_author: "[[Kiplangat Korir]]"
 last_author: "[[Kiplangat Korir]]"
 authors: "Kiplangat Korir"

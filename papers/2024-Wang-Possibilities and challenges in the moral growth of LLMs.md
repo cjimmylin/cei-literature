@@ -12,7 +12,7 @@ Not AI:
 key: DOI_S10676_024_09818_X
 type: journalArticle
 short_title: "Possibilities and challenges in the moral growth of LLMs"
-year: 2025
+year: 2024
 first_author: "[[G. Y. Wang]]"
 last_author: "[[Y. C. Wang]]"
 authors: "[[Wang, G. Y.]], [[Wang, W.]], [[Cao, Y. Q.]], [[Wang, H. F.]], [[Guo, Y. T.]], [[Guo, Q. Y.]], [[Ma, J. J.]], [[Liu, J.]], [[Lin, J. Y.]], [[Wang, Y. C.]]"

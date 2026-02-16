@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0493
 type: conferencePaper
 short_title: "Harmful Communication: Detection of Toxic Language and Threats on Swedish"
-year: 2025
+year: 2023
 first_author: "[[Various (Uppsala University)]]"
 last_author: "[[Various (Uppsala University)]]"
 authors: "Various (Uppsala University)"

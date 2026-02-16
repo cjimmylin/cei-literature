@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0621
 type: journalArticle
 short_title: "A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect"
-year: 2025
+year: 2024
 first_author: "[[Wei, Zhongliang]]"
 last_author: "[[Zhang, Shunxiang]]"
 authors: "[[Wei, Zhongliang]]; [[Zhang, Shunxiang]]"

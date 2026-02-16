@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0443
 type: preprint
 short_title: "Preference Tuning For Toxicity Mitigation Generalizes Across Languages"
-year: 2025
+year: 2024
 first_author: "[[Xiaochen Li]]"
 last_author: "[[Stephen Bach]]"
 authors: "Xiaochen Li, Zheng Xin Yong, Stephen Bach"

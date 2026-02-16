@@ -14,7 +14,7 @@ Not AI:
 key: SK4P2LGS
 type: conferencePaper
 short_title: "A Survey on Evaluation of Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[Yupeng Chang]]"
 last_author: "[[Xing Xie]]"
 authors: "Yupeng Chang; Xu Wang; Jindong Wang; Yuan Wu; Linyi Yang; Kaijie Zhu; Hao Chen; Xiaoyuan Yi; Cunxiang Wang; Yidong Wang; Wei Ye; Yue Zhang; Yi Chang; Philip S. Yu; Qiang Yang; Xing Xie"

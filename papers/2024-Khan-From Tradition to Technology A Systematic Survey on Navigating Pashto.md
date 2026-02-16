@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0165
 type: conferencePaper
 short_title: "From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP"
-year: 2025
+year: 2024
 first_author: "[[Zohaib Ahmad Khan]]"
 last_author: "[[Nek Dil Khan]]"
 authors: "Zohaib Ahmad Khan, Yuanqing Xia, Fiza Khaliq, Javed Ali Khan, Nek Dil Khan"

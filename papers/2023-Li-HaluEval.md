@@ -13,7 +13,7 @@ Not AI:
 key: LEKN2KMM
 type: conferencePaper
 short_title: HaluEval
-year: 2025
+year: 2023
 first_author: "[[Junyi Li]]"
 last_author: "[[Ji-Rong Wen]]"
 authors: "Junyi Li; Xiaoxue Cheng; Wayne Xin Zhao; Jian-Yun Nie; Ji-Rong Wen"

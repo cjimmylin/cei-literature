@@ -13,7 +13,7 @@ Not AI:
 key: 5PD5IIYU
 type: conferencePaper
 short_title: CrowS-Pairs
-year: 2025
+year: 2020
 first_author: "[[Nikita Nangia]]"
 last_author: "[[Samuel R. Bowman]]"
 authors: "Nikita Nangia; Clara Vania; Rasika Bhalerao; Samuel R. Bowman"

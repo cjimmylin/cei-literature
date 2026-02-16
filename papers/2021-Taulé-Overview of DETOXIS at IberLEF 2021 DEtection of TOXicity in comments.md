@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0277
 type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
-year: 2025
+year: 2021
 first_author: "[[Taulé, Mariona]]"
 last_author: "[[Mariona Taulé]]"
 authors: "[[Taulé, Mariona]]"

@@ -14,7 +14,7 @@ Not AI:
 key: HNR88AHQ
 type: conferencePaper
 short_title: "Quantifying Risk Propensities of Large Language"
-year: 2025
+year: 2024
 first_author: "[[Yifan Zeng]]"
 last_author: "[[Peijia Zheng]]"
 authors: "Yifan Zeng; Liang Kairong; Fangzhou Dong; Peijia Zheng"

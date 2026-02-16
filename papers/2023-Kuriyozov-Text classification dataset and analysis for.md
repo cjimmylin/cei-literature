@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0572
 type: preprint
 short_title: "Text classification dataset and analysis for"
-year: 2025
+year: 2023
 first_author: "[[Kuriyozov, Elmurod]]"
 last_author: "[[Matlatipov, Gayrat]]"
 authors: "[[Kuriyozov, Elmurod]]; [[Salaev, Ulugbek]]; [[Matlatipov, Sanatbek]]; [[Matlatipov, Gayrat]]"

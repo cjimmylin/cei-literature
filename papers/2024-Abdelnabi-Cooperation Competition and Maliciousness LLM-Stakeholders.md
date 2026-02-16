@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0155
 type: conferencePaper
 short_title: "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation"
-year: 2025
+year: 2024
 first_author: "[[Sahar Abdelnabi]]"
 last_author: "[[Mario Fritz]]"
 authors: "Sahar Abdelnabi; Amr Gomaa; Sarath Sivaprasad; Lea Schönherr; Mario Fritz"

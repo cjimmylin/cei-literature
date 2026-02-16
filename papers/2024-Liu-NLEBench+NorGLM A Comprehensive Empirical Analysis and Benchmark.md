@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0480
 type: preprint
 short_title: "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian"
-year: 2025
+year: 2024
 first_author: "[[Liu, Peng]]"
 last_author: "[[Yang, Zhirong]]"
 authors: "[[Liu, Peng]]; [[Zhang, Lemei]]; [[Farup, Terje]]; [[Lauvrak, Even W.]]; [[Ingvaldsen, Jon Espen]]; [[Eide, Simen]]; [[Gulla, Jon Atle]]; [[Yang, Zhirong]]"

@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0596
 type: conference_paper
 short_title: "Re-contextualizing Fairness in NLP The Case"
-year: 2025
+year: 2022
 first_author: "[[Shaily Bhatt,]]"
 last_author: "[[Research, others (Google]]"
 authors: "[[Shaily Bhatt,]]; [[Research, others (Google]]"

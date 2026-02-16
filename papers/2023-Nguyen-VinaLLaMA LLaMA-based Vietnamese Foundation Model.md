@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0371
 type: preprint
 short_title: "VinaLLaMA: LLaMA-based Vietnamese Foundation Model"
-year: 2025
+year: 2023
 first_author: "[[Quan Nguyen]]"
 last_author: "[[Bao Nguyen]]"
 authors: "Quan Nguyen, Huy Pham, Bao Nguyen"

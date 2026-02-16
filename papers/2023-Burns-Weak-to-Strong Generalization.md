@@ -13,7 +13,7 @@ Not AI:
 key: NSIX7T3P
 type: conferencePaper
 short_title: "Weak-to-Strong Generalization"
-year: 2025
+year: 2023
 first_author: "[[Collin Burns]]"
 last_author: "[[Jeff Wu]]"
 authors: "Collin Burns; Pavel Izmailov; Jan Hendrik Kirchner; Bowen Baker; Leo Gao; Leopold Aschenbrenner; Yining Chen; Adrien Ecoffet; Manas Joglekar; Jan Leike; Ilya Sutskever; Jeff Wu"

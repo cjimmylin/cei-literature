@@ -14,7 +14,7 @@ Not AI:
 key: AUTO_CONITZER2024
 type: preprint
 short_title: "Social Choice for AI Alignment"
-year: 2025
+year: 2024
 first_author: "[[Vincent Conitzer]]"
 last_author: "[[Freedman, Rachel]]"
 authors: "[[Conitzer, Vincent]]; [[Freedman, Rachel]]"

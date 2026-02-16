@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0007
 type: preprint
 short_title: "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)"
-year: 2025
+year: 2026
 first_author: "[[Huang, Jen-tse]]"
 last_author: "[[Dredze, Mark]]"
 authors: "[[Huang, Jen-tse]]; [[Qin, Jiantong]]; [[Qiu, Xueli]]; [[Levy, Sharon]]; [[Kaufman, Michelle R.]]; [[Dredze, Mark]]"

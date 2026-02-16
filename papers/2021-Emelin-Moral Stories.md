@@ -13,7 +13,7 @@ Not AI:
 key: VFISSQVG
 type: conferencePaper
 short_title: "Moral Stories"
-year: 2025
+year: 2021
 first_author: "[[Denis Emelin]]"
 last_author: "[[Yejin Choi]]"
 authors: "Denis Emelin; Ronan Le Bras; Jena D. Hwang; Maxwell Forbes; Yejin Choi"

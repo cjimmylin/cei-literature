@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0095
 type: preprint
 short_title: "IndoCulture: Exploring Geographically-Influenced Cultural Commonsense Reasoning Across Eleven Indonesian Provinces"
-year: 2025
+year: 2024
 first_author: "[[Koto, Fajri]]"
 last_author: "[[Baldwin, Timothy]]"
 authors: "[[Koto, Fajri]]; [[Mahendra, Rahmad]]; [[Aisyah, Nurul]]; [[Baldwin, Timothy]]"

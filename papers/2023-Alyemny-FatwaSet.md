@@ -14,7 +14,7 @@ Not AI:
 key: 9GE4KQRK
 type: journalArticle
 short_title: FatwaSet
-year: 2025
+year: 2023
 first_author: "[[Ohoud Alyemny]]"
 last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"

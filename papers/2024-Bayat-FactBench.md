@@ -13,7 +13,7 @@ Not AI:
 key: C8U952G6
 type: conferencePaper
 short_title: FactBench
-year: 2025
+year: 2024
 first_author: "[[Farima Fatahi Bayat]]"
 last_author: "[[Lu Wang]]"
 authors: "Farima Fatahi Bayat; Lechen Zhang; Sheza Munir; Lu Wang"

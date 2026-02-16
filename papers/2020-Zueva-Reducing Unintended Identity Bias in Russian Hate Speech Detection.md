@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0309
 type: preprint
 short_title: "Reducing Unintended Identity Bias in Russian Hate Speech Detection"
-year: 2025
+year: 2020
 first_author: "[[Nadezhda Zueva]]"
 last_author: "[[Pavel Kalaidin]]"
 authors: "Nadezhda Zueva, Madina Kabirova, Pavel Kalaidin"

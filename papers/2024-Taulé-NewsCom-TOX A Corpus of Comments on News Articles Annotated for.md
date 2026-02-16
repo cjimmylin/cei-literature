@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0278
 type: conferencePaper
 short_title: "NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish"
-year: 2025
+year: 2024
 first_author: "[[Taulé, Mariona]]"
 last_author: "[[Bonet, Xavier]]"
 authors: "[[Taulé, Mariona]]; [[Nofre, Montserrat]]; [[Bargiela, Víctor]]; [[Bonet, Xavier]]"

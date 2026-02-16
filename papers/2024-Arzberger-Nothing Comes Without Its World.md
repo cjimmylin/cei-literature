@@ -14,7 +14,7 @@ Not AI:
 key: ARZBERGER2024
 type: conferencePaper
 short_title: "Nothing Comes Without Its World"
-year: 2025
+year: 2024
 first_author: "[[Anne Arzberger]]"
 last_author: "[[Yang, Jie]]"
 authors: "[[Arzberger, Anne]]; [[Buijsman, Stefan]]; [[Lupetti, Maria Luce]]; [[Bozzon, Alessandro]]; [[Yang, Jie]]"

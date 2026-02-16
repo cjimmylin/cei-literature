@@ -14,7 +14,7 @@ Not AI:
 key: 6UUE3JZM
 type: conferencePaper
 short_title: "Are the Values of LLMs Structurally Aligned with"
-year: 2025
+year: 2024
 first_author: "[[Yipeng Kang]]"
 last_author: "[[Zilong Zheng]]"
 authors: "Yipeng Kang; Junqi Wang; Yexin Li; Mengmeng Wang; Wenming Tu; Quansen Wang; Hengli Li; Tingjun Wu; Xue Feng; Fangwei Zhong; Zilong Zheng"

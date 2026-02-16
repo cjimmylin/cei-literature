@@ -12,7 +12,7 @@ Not AI:
 key: B5M97KMH
 type: journalArticle
 short_title: MACHIAVELLI
-year: 2025
+year: 2023
 first_author: "[[Alexander Pan]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Alexander Pan; Jun Shern Chan; Andy Zou; Nathaniel Li; Steven Basart; Thomas Woodside; Jonathan Ng; Hanlin Zhang; Scott Emmons; Dan Hendrycks"

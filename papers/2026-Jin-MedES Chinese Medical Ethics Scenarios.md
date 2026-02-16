@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0008
 type: preprint
 short_title: "MedES (Chinese Medical Ethics Scenarios)"
-year: 2025
+year: 2026
 first_author: "[[Haoan Jin]]"
 last_author: "[[Mengyue Wu]]"
 authors: "Haoan Jin, Han Ying, Jiacheng Ji, Hanhui Xu, and Mengyue Wu"

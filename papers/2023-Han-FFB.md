@@ -14,7 +14,7 @@ Not AI:
 key: LEH5YGEV
 type: conferencePaper
 short_title: FFB
-year: 2025
+year: 2023
 first_author: "[[Xiaotian Han]]"
 last_author: "[[Xia Hu]]"
 authors: "Xiaotian Han; Jianfeng Chi; Yu Chen; Qifan Wang; Han Zhao; Na Zou; Xia Hu"

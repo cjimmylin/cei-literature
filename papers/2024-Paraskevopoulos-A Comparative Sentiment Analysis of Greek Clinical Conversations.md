@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0551
 type: conferencePaper
 short_title: "A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet"
-year: 2025
+year: 2024
 first_author: "[[Paraskevopoulos, Georgios]]"
 last_author: "[[Georgios Paraskevopoulos]]"
 authors: "[[Paraskevopoulos, Georgios]]"

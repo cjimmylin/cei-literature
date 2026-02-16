@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0326
 type: preprint
 short_title: "Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture"
-year: 2025
+year: 2024
 first_author: "[[Jiayang Song]]"
 last_author: "[[Lei Ma]]"
 authors: "[[Jiayang Song]]; [[Yuheng Huang]]; [[Zhehua Zhou]]; [[Lei Ma]]"

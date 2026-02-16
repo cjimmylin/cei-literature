@@ -14,7 +14,7 @@ Not AI:
 key: CCFGTML9
 type: conferencePaper
 short_title: RobustBench
-year: 2025
+year: 2021
 first_author: "[[Francesco Croce]]"
 last_author: "[[Matthias Hein]]"
 authors: "Francesco Croce; Maksym Andriushchenko; Vikash Sehwag; Edoardo Debenedetti; Nicolas Flammarion; Mung Chiang; Prateek Mittal; Matthias Hein"

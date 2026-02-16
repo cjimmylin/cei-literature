@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0306
 type: preprint
 short_title: "RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark"
-year: 2025
+year: 2020
 first_author: "[[Tatiana Shavrina]]"
 last_author: "[[Andrey Evlampiev Andrey Chertok]]"
 authors: "Tatiana Shavrina, Alena Fenogenova, Emelyanov Anton, Denis Shevelev, Ekaterina Artemova, Valentin Malykh, Vladislav Mikhailov, Maria Tikhonova, Andrey Chertok, Andrey Evlampiev"

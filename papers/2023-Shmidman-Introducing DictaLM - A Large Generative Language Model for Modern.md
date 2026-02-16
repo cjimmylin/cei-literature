@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0024
 type: preprint
 short_title: "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew"
-year: 2025
+year: 2023
 first_author: "[[Shaltiel Shmidman]]"
 last_author: "[[Moshe Koppel Amir DN Cohen]]"
 authors: "Shaltiel Shmidman, Avi Shmidman, Amir DN Cohen, Moshe Koppel"

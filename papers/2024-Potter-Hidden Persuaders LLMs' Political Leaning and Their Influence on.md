@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0181
 type: conferencePaper
 short_title: "Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters"
-year: 2025
+year: 2024
 first_author: "[[Yujin Potter]]"
 last_author: "[[Dawn Song]]"
 authors: "Yujin Potter, Shiyang Lai, Junsol Kim, James Evans, Dawn Song"

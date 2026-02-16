@@ -13,7 +13,7 @@ Not AI:
 key: 7IGEURG5
 type: conferencePaper
 short_title: SaGE
-year: 2025
+year: 2024
 first_author: "[[Vamshi Krishna Bonagiri]]"
 last_author: "[[Manas Gaur]]"
 authors: "Vamshi Krishna Bonagiri; Sreeram Vennam; Priyanshul Govil; Ponnurangam Kumaraguru; Manas Gaur"

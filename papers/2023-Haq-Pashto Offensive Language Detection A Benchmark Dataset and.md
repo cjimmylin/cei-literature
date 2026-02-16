@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0160
 type: journalArticle
 short_title: "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
-year: 2025
+year: 2023
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
 authors: "[[Haq, Ijazul]]; [[Qiu, Weidong]]; [[Guo, Jie]]; [[Tang, Peng]]"

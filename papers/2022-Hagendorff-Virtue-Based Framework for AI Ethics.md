@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_HAGENDORFF2022
 type: journalArticle
 short_title: "Virtue-Based Framework for AI Ethics"
-year: 2025
+year: 2022
 first_author: "[[Thilo Hagendorff]]"
 last_author: "[[Thilo Hagendorff]]"
 authors: "[[Hagendorff, Thilo]]"

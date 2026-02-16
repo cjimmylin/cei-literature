@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0461
 type: preprint
 short_title: "Azerbaijani Toxicity Classifier"
-year: 2025
+year: 2024
 first_author: "[[Azerbaijan, LocalDoc]]"
 last_author: "[[LocalDoc Azerbaijan]]"
 authors: "[[LocalDoc Azerbaijan]]"

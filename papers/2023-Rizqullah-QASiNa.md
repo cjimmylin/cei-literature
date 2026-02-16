@@ -12,7 +12,7 @@ Not AI:
 key: 6MRBJ9IP
 type: conferencePaper
 short_title: QASiNa
-year: 2025
+year: 2023
 first_author: "[[Muhammad Razif Rizqullah]]"
 last_author: "[[Alham Fikri Aji]]"
 authors: "Muhammad Razif Rizqullah; Ayu Purwarianti; Alham Fikri Aji"

@@ -14,7 +14,7 @@ Not AI:
 key: KXJRIFLE
 type: conferencePaper
 short_title: "Rules, Cases, and Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Nicholas A. Caputo]]"
 last_author: "[[Nicholas A. Caputo]]"
 authors: "Nicholas A. Caputo"

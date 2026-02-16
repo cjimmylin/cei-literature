@@ -12,7 +12,7 @@ Not AI:
 key: KZRT6VY8
 type: document
 short_title: "The Multilingual Alignment Prism"
-year: 2025
+year: 2024
 first_author: "[[Aakanksha]]"
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"

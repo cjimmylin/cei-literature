@@ -16,7 +16,7 @@ Not AI:
 key: LSRC0091
 type: conferencePaper
 short_title: "Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics"
-year: 2025
+year: 2023
 first_author: "[[Authors from Stanford/Masakhane]]"
 last_author: "[[Authors from StanfordMasakhane]]"
 authors: "Authors from Stanford/Masakhane"

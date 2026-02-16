@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0085
 type: preprint
 short_title: "Typhoon: Thai Large Language Models"
-year: 2025
+year: 2023
 first_author: "[[SCB 10X team]]"
 last_author: "[[SCB 10X team]]"
 authors: "SCB 10X team"

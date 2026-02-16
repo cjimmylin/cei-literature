@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0317
 type: preprint
 short_title: "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation"
-year: 2025
+year: 2024
 first_author: "[[Kiulian, Artur]]"
 last_author: "[[Shirawalmath, Adarsh]]"
 authors: "[[Kiulian, Artur]]; [[Polishko, Anton]]; [[Khandoga, Mykola]]; [[Chubych, Oryna]]; [[Connor, Jack]]; [[Ravishankar, Raghav]]; [[Shirawalmath, Adarsh]]"

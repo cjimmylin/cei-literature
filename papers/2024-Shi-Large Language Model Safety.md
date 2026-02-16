@@ -14,7 +14,7 @@ Not AI:
 key: YVFWHTNQ
 type: conferencePaper
 short_title: "Large Language Model Safety"
-year: 2025
+year: 2024
 first_author: "[[Dan Shi]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Dan Shi; Tianhao Shen; Yufei Huang; Zhigen Li; Yongqi Leng; Renren Jin; Chuang Liu; Xinwei Wu; Zishan Guo; Linhao Yu; Ling Shi; Bojian Jiang; Deyi Xiong"

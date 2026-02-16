@@ -13,7 +13,7 @@ Not AI:
 key: PKKZ6LND
 type: document
 short_title: "Moral High Ground"
-year: 2025
+year: 2024
 first_author: "[[Matthew Pisano]]"
 last_author: "[[Kush R. Varshney]]"
 authors: "Matthew Pisano; Keerthiram Murugesan; Lamogha Chiazor; Lan Hoang; Karthikeyan Natesan Ramamurthy; Kush R. Varshney"

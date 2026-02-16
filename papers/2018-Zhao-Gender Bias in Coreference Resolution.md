@@ -13,7 +13,7 @@ Not AI:
 key: 55N7FPTB
 type: conferencePaper
 short_title: "Gender Bias in Coreference Resolution"
-year: 2025
+year: 2018
 first_author: "[[Jieyu Zhao]]"
 last_author: "[[Chang, Kai-Wei]]"
 authors: "[[Zhao, Jieyu]]; [[Wang, Tianlu]]; [[Yatskar, Mark]]; [[Ordonez, Vicente]]; [[Chang, Kai-Wei]]"

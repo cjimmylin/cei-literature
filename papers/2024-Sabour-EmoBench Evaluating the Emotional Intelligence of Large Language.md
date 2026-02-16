@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0164
 type: conferencePaper
 short_title: "EmoBench: Evaluating the Emotional Intelligence of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Sahand Sabour]]"
 last_author: "[[Minlie Huang]]"
 authors: "Sahand Sabour; Siyang Liu; Zheyuan Zhang; June M. Liu; Jinfeng Zhou; Alvionna S. Sunaryo; Juanzi Li; Tatia M. C. Lee; Rada Mihalcea; Minlie Huang"

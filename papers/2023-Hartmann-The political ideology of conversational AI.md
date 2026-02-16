@@ -13,7 +13,7 @@ Not AI:
 key: ZUUNQJSR
 type: journalArticle
 short_title: "The political ideology of conversational AI"
-year: 2025
+year: 2023
 first_author: "[[Jochen Hartmann]]"
 last_author: "[[Maximilian Witte]]"
 authors: "Jochen Hartmann; Jasper Schwenzow; Maximilian Witte"

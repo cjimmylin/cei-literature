@@ -13,7 +13,7 @@ Human View note:
 Not AI: 
 key: 3RNRAN7W
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "ETHICS WHITEPAPER"
 first_author: "[[Eddie L Ungless]]"
 last_author: "[[Alexandra Birch]]"

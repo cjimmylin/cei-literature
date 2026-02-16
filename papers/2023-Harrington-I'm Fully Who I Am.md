@@ -13,7 +13,7 @@ Not AI:
 key: 2WV7ZVWG
 type: conferencePaper
 short_title: "I'm Fully Who I Am"
-year: 2025
+year: 2023
 first_author: "[[Christina Harrington]]"
 last_author: "[[Christina Harrington]]"
 authors: "Christina Harrington"

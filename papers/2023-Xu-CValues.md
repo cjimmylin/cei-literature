@@ -12,7 +12,7 @@ Not AI:
 key: B8YB9NHK
 type: conferencePaper
 short_title: CValues
-year: 2025
+year: 2023
 first_author: "[[Guohai Xu]]"
 last_author: "[[Jingren Zhou]]"
 authors: "Guohai Xu; Jiayi Liu; Ming Yan; Haotian Xu; Jinghui Si; Zhuoran Zhou; Peng Yi; Xing Gao; Jitao Sang; Rong Zhang; Ji Zhang; Chao Peng; Fei Huang; Jingren Zhou"

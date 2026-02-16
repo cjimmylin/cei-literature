@@ -14,7 +14,7 @@ Not AI:
 key: SEKRST2024
 type: preprint
 short_title: "AI Ethics by Design"
-year: 2025
+year: 2024
 first_author: "[[Kristina Šekrst]]"
 last_author: "[[Jonathan Rodriguez Cefalù]]"
 authors: "Kristina Šekrst; Jeremy McHugh; Jonathan Rodriguez Cefalù"

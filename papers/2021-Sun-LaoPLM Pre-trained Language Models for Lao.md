@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0607
 type: preprint
 short_title: "LaoPLM Pre-trained Language Models for Lao"
-year: 2025
+year: 2021
 first_author: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"
 last_author: "[[Weiwei Sun]]"
 authors: "[[Guilin Lin, Jie Fu, Weiwei Sun]]"

@@ -13,7 +13,7 @@ Human View note:
 Not AI: 
 key: 8HB8V7WZ
 type: journalArticle
-year: 2025
+year: 2024
 short_title: "A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI"
 first_author: "[[Cole Salvador]]"
 last_author: "[[Cole Salvador]]"

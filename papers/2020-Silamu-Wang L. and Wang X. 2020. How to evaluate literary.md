@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0655
 type: conferencePaper
 short_title: "Wang, L. and Wang, X. (2020). How to evaluate literary"
-year: 2025
+year: 2020
 first_author: "[[Wushouer Silamu]]"
 last_author: "[[Wushouer Silamu]]"
 authors: "Wushouer Silamu"

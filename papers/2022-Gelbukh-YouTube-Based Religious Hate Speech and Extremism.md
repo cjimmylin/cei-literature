@@ -16,7 +16,7 @@ Not AI:
 key: EXSR0600
 type: journal_article
 short_title: "YouTube-Based Religious Hate Speech and Extremism"
-year: 2025
+year: 2022
 first_author: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"
 last_author: "[[Alexander Gelbukh Grigori Sidorov]]"
 authors: "[[Noman Ashraf, Abid Rafiq, Sabur Butt, Hafiz Muhammad Faisal Shehzad, Grigori Sidorov, Alexander Gelbukh]]"

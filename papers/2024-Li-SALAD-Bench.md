@@ -12,7 +12,7 @@ Not AI:
 key: YKYNNAQX
 type: document
 short_title: SALAD-Bench
-year: 2025
+year: 2024
 first_author: "[[Lijun Li]]"
 last_author: "[[Shao, Jing]]"
 authors: "[[Li, Lijun]]; [[Dong, Bowen]]; [[Wang, Ruohui]]; [[Hu, Xuhao]]; [[Zuo, Wangmeng]]; [[Lin, Dahua]]; [[Qiao, Yu]]; [[Shao, Jing]]"

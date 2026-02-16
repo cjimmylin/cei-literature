@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0346
 type: conferencePaper
 short_title: "The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English"
-year: 2025
+year: 2019
 first_author: "[[Nikola Ljubesic]]"
 last_author: "[[Tomaz Erjavec]]"
 authors: "Nikola Ljubesic, Darja Fiser, Tomaz Erjavec"

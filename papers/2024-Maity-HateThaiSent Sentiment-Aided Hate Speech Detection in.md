@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0487
 type: journal_article
 short_title: "HateThaiSent Sentiment-Aided Hate Speech Detection in"
-year: 2025
+year: 2024
 first_author: "[[Maity, Krishanu]]"
 last_author: "[[Pasupa, Kitsuchart]]"
 authors: Krishanu Maity; A. S. Poornash; Shaubhik Bhattacharya; Salisa Phosit; Sawarod Kongsamlit; Sriparna Saha; Kitsuchart Pasupa

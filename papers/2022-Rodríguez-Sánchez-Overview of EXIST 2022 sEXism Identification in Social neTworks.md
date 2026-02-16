@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0281
 type: conferencePaper
 short_title: "Overview of EXIST 2022: sEXism Identification in Social neTworks"
-year: 2025
+year: 2022
 first_author: "[[Rodríguez-Sánchez, Francisco]]"
 last_author: "[[Francisco Rodríguez-Sánchez]]"
 authors: "[[Rodríguez-Sánchez, Francisco]]"

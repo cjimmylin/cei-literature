@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0251
 type: preprint
 short_title: "K-HATERS: A Hate Speech Detection Corpus in Korean with Target-Specific Ratings"
-year: 2025
+year: 2023
 first_author: "[[Chaewon Park]]"
 last_author: "[[Kunwoo Park Kyubyong Park]]"
 authors: "Chaewon Park, Soohwan Kim, Kyubyong Park, Kunwoo Park"

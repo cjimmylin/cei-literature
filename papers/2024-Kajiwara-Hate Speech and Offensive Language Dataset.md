@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0724
 type: conferencePaper
 short_title: "Hate Speech and Offensive Language Dataset"
-year: 2025
+year: 2024
 first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara

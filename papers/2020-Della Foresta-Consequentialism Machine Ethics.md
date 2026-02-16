@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: report
 short_title: "Consequentialism Machine Ethics"
-year: 2025
+year: 2020
 first_author: "[[Josiah Della Foresta]]"
 last_author: "[[Josiah Della Foresta]]"
 authors: "Josiah Della Foresta"

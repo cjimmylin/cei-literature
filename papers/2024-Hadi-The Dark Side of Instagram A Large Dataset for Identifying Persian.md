@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0140
 type: conferencePaper
 short_title: "The Dark Side of Instagram: A Large Dataset for Identifying Persian Harmful Comments (PHICAD)"
-year: 2025
+year: 2024
 first_author: "[[Davardoust, Hadi]]"
 last_author: "[[RafieeZade, Hossein]]"
 authors: "Davardoust, Hadi; Zare, Hadi; RafieeZade, Hossein"

@@ -14,7 +14,7 @@ Not AI:
 key: 5BYLIFBB
 type: journalArticle
 short_title: "Harnessing Indigenous Tweets"
-year: 2025
+year: 2022
 first_author: "[[David Trye]]"
 last_author: "[[Mark Apperley]]"
 authors: "David Trye; Te Taka Keegan; Paora Mato; Mark Apperley"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0362
 type: preprint
 short_title: "A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts"
-year: 2025
+year: 2021
 first_author: "[[Son T. Luu]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
 authors: "Son T. Luu, Kiet Van Nguyen, Ngan Luu-Thuy Nguyen"

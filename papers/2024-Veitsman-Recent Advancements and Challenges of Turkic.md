@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0520
 type: preprint
 short_title: "Recent Advancements and Challenges of Turkic"
-year: 2025
+year: 2024
 first_author: "[[Yana Veitsman]]"
 last_author: "[[Mareike Hartmann]]"
 authors: "[[Yana Veitsman]]; [[Mareike Hartmann]]"

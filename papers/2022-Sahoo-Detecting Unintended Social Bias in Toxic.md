@@ -13,7 +13,7 @@ Not AI:
 key: LJLNGYRQ
 type: conferencePaper
 short_title: "Detecting Unintended Social Bias in Toxic"
-year: 2025
+year: 2022
 first_author: "[[Nihar Sahoo]]"
 last_author: "[[Pushpak Bhattacharyya]]"
 authors: "Nihar Sahoo; Himanshu Gupta; Pushpak Bhattacharyya"

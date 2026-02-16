@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0305
 type: preprint
 short_title: "From RAG to Agentic RAG for"
-year: 2025
+year: 2026
 first_author: "[[Gagan Bhatia, Hamdy Mubarak, Mustafa Jarrar, George Mikros, Fadi Zaraket, Mahmoud Alhirthani, Mutaz Al-Khatib, Logan Cochrane, Kareem Darwish, Rashid Yahiaoui, Firoj Alam]]"
 last_author: "[[Firoj Alam]]"
 authors: "[[Gagan Bhatia, Hamdy Mubarak, Mustafa Jarrar, George Mikros, Fadi Zaraket, Mahmoud Alhirthani, Mutaz Al-Khatib, Logan Cochrane, Kareem Darwish, Rashid Yahiaoui, Firoj Alam]]"

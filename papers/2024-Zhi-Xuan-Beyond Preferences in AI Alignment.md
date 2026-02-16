@@ -13,7 +13,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Beyond Preferences in AI Alignment"
-year: 2025
+year: 2024
 first_author: "[[Tan Zhi-Xuan]]"
 last_author: "[[Hal Ashton]]"
 authors: "Tan Zhi-Xuan; Micah Carroll; Matija Franklin; Hal Ashton"

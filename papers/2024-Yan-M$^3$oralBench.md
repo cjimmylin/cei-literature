@@ -13,7 +13,7 @@ Not AI:
 key: 2M4DFURK
 type: preprint
 short_title: M$^3$oralBench
-year: 2025
+year: 2024
 first_author: "[[Bei Yan]]"
 last_author: "[[Xilin Chen]]"
 authors: "Bei Yan; Jie Zhang; Zhiyuan Chen; Shiguang Shan; Xilin Chen"

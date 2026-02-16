@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0149
 type: preprint
 short_title: "COMPL-AI (EU AI Act Compliance)"
-year: 2025
+year: 2024
 first_author: "[[Guldimann, Philipp]]"
 last_author: "[[Vechev, Martin]]"
 authors: "[[Guldimann, Philipp]]; [[Spiridonov, Alexander]]; [[Staab, Robin]]; [[Jovanović, Nikola]]; [[Vero, Mark]]; [[Vechev, Velko]]; [[Gueorguieva, Anna-Maria]]; [[Balunović, Mislav]]; [[Konstantinov, Nikola]]; [[Bielik, Pavol]]; [[Tsankov, Petar]]; [[Vechev, Martin]]"

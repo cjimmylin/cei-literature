@@ -13,7 +13,7 @@ Not AI:
 key: A8272GMW
 type: conferencePaper
 short_title: "All Languages Matter"
-year: 2025
+year: 2024
 first_author: "[[Ashmal Vayani]]"
 last_author: "[[Fahad Khan]]"
 authors: "Ashmal Vayani; Dinura Dissanayake; Hasindri Watawana; Noor Ahsan; Nevasini Sasikumar; Omkar Thawakar; Henok Biadglign Ademtew; Yahya Hmaiti; Amandeep Kumar; Kartik Kuckreja; Mykola Maslych; Wafa Al Ghallabi; Mihail Mihaylov; Chao Qin; Abdelrahman M Shaker; Mike Zhang; Mahardika Krisna Ihsani; Amiel Esplana; Monil Gokani; Shachar Mirkin; Harsh Singh; Ashay Srivastava; Endre Hamerlik; Fathinah Asma Izzati; Fadillah Adamsyah Maani; Sebastian Cavada; Jenny Chim; Rohit Gupta; Sanjay Manjunath; Kamila Zhumakhanova; Feno Heriniaina Rabevohitra; Azril Amirudin; Muhammad Ridzuan; Daniya Kareem; Ketan More; Kunyang Li; Pramesh Shakya; Muhammad Saad; Amirpouya Ghasemaghaei; Amirbek Djanibekov; Dilshod Azizov; Branislava Jankovic; Naman Bhatia; Alvaro Cabrera; Johan Obando-Ceron; Olympiah Otieno; Fabian Farestam; Muztoba Rabbani; Sanoojan Baliah; Santosh Sanjeev; Abduragim Shtanchaev; Maheen Fatima; Thao Nguyen; Amrin Kareem; Toluwani Aremu; Nathan Xavier; Amit Bhatkal; Hawau Toyin; Aman Chadha; Hisham Cholakkal; Rao Muhammad Anwer; Michael Felsberg; Jorma Laaksonen; Thamar Solorio; Monojit Choudhury; Ivan Laptev; Mubarak Shah; Salman Khan; Fahad Khan"

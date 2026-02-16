@@ -13,7 +13,7 @@ Not AI:
 key: SERAFIMOVA2020HSSC
 type: journalArticle
 short_title: "Whose Morality Which Rationality"
-year: 2025
+year: 2020
 first_author: "[[Silviya Serafimova]]"
 last_author: "[[Silviya Serafimova]]"
 authors: "Silviya Serafimova"

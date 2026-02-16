@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0156
 type: journalArticle
 short_title: "Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms"
-year: 2025
+year: 2021
 first_author: "[[Azada, Rania]]"
 last_author: "[[Sdiqa, Shajwan]]"
 authors: "[[Azada, Rania]]; [[Mohammeda, Bilal]]; [[Mahmuda, Rawaz]]; [[Zrara, Lanya]]; [[Sdiqa, Shajwan]]"

@@ -12,7 +12,7 @@ Not AI:
 key: 5ZMPHLEK
 type: journalArticle
 short_title: ValueNet
-year: 2025
+year: 2022
 first_author: "[[Liang Qiu]]"
 last_author: "[[Song-Chun Zhu]]"
 authors: "Liang Qiu; Yizhou Zhao; Jinchao Li; Pan Lu; Baolin Peng; Jianfeng Gao; Song-Chun Zhu"

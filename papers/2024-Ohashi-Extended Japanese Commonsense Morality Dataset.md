@@ -12,7 +12,7 @@ Not AI:
 key: X63BUELL
 type: conferencePaper
 short_title: "Extended Japanese Commonsense Morality Dataset"
-year: 2025
+year: 2024
 first_author: "[[Takumi Ohashi]]"
 last_author: "[[Hitoshi Iyatomi]]"
 authors: "Takumi Ohashi; Tsubasa Nakagawa; Hitoshi Iyatomi"

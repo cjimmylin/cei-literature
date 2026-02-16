@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0532
 type: preprint
 short_title: "The Large Language Model GreekLegalRoBERTa"
-year: 2025
+year: 2024
 first_author: "[[Saketos, Vasileios]]"
 last_author: "[[Koubarakis, Manolis]]"
 authors: "[[Saketos, Vasileios]]; [[Pantazi, Despina-Athanasia]]; [[Koubarakis, Manolis]]"

@@ -12,7 +12,7 @@ Not AI:
 key: XBXAQPZ6
 type: conferencePaper
 short_title: "Evaluating Psychological Safety of Large Language"
-year: 2025
+year: 2022
 first_author: "[[Xingxuan Li]]"
 last_author: "[[Lidong Bing]]"
 authors: "Xingxuan Li; Yutong Li; Lin Qiu; Shafiq Joty; Lidong Bing"

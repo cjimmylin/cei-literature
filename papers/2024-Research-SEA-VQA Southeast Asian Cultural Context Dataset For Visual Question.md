@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0125
 type: conferencePaper
 short_title: "SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering"
-year: 2025
+year: 2024
 first_author: "[[Research, Vision]]"
 last_author: "[[Vision Research]]"
 authors: "[[Research, Vision]]"

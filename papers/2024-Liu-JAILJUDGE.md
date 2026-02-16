@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0188
 type: preprint
 short_title: JAILJUDGE
-year: 2025
+year: 2024
 first_author: "[[Fan Liu]]"
 last_author: "[[Hao Liu]]"
 authors: "Fan Liu, Yue Feng, Zhao Xu, Lixin Su, Xinyu Ma, Dawei Yin, Hao Liu"

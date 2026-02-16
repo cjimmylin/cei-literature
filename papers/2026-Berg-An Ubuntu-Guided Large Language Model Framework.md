@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0303
 type: preprint
 short_title: "An Ubuntu-Guided Large Language Model Framework"
-year: 2025
+year: 2026
 first_author: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"
 last_author: "[[Karen van den Berg Kevin Igwe]]"
 authors: "[[Sontaga G. Forane, Absalom E. Ezugwu, Kevin Igwe, Karen van den Berg]]"

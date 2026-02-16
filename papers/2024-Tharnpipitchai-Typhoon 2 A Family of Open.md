@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0540
 type: preprint
 short_title: "Typhoon 2 A Family of Open"
-year: 2025
+year: 2024
 first_author: "[[Kunat Pipatanakul, Potsawee Manakul, Natapong Nitarach, Warit Sirichotedumrong, Surapon Nonesung, Teetouch Jaknamon, Parinthapat Pengpun, Pittawat Taveekitworachai, Adisai Na-Thalang, Sittipong Sripaisarnmongkol, Krisanapong Jirayoot, Kasima Tharnpipitchai]]"
 last_author: "[[Kasima Tharnpipitchai Krisanapong Jirayoot]]"
 authors: "[[Kunat Pipatanakul, Potsawee Manakul, Natapong Nitarach, Warit Sirichotedumrong, Surapon Nonesung, Teetouch Jaknamon, Parinthapat Pengpun, Pittawat Taveekitworachai, Adisai Na-Thalang, Sittipong Sripaisarnmongkol, Krisanapong Jirayoot, Kasima Tharnpipitchai]]"

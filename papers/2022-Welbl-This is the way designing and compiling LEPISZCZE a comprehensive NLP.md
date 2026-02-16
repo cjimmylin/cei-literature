@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0338
 type: preprint
 short_title: "This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish"
-year: 2025
+year: 2022
 first_author: "[[Welbl, Johannes]]"
 last_author: "[[Clark, Jonathan H]]"
 authors: "[[Welbl, Johannes]]; [[Clark, Jonathan H.]]"

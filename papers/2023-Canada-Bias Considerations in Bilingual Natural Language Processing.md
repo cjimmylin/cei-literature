@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0455
 type: conferencePaper
 short_title: "Bias Considerations in Bilingual Natural Language Processing"
-year: 2025
+year: 2023
 first_author: "[[Statistics Canada]]"
 last_author: "[[Statistics Canada]]"
 authors: "Statistics Canada"

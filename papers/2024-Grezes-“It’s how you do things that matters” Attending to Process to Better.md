@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0812
 type: preprint
 short_title: "'It's how you do things that matters': Attending to Process to Better Serve Indigenous Communities with Language Technologies"
-year: 2025
+year: 2024
 first_author: "[[Felix Grezes]]"
 last_author: "[[Felix Grezes]]"
 authors: "Felix Grezes"

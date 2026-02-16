@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0126
 type: journalArticle
 short_title: "Hate speech and abusive language detection in Indonesian social media: Progress and challenges"
-year: 2025
+year: 2023
 first_author: "[[Muhammad Okky Ibrohim]]"
 last_author: "[[Indra Budi]]"
 authors: Muhammad Okky Ibrohim; Indra Budi

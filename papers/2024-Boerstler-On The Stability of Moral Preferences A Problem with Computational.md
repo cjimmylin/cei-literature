@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0205
 type: preprint
 short_title: "On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods"
-year: 2025
+year: 2024
 first_author: "[[Kyle Boerstler]]"
 last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Kyle Boerstler; Vijay Keswani; Lok Chan; Jana Schaich Borg; Vincent Conitzer; Hoda Heidari; Walter Sinnott-Armstrong"

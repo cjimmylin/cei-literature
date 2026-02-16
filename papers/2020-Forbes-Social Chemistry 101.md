@@ -13,7 +13,7 @@ Not AI:
 key: G598XMUC
 type: conferencePaper
 short_title: "Social Chemistry 101"
-year: 2025
+year: 2020
 first_author: "[[Maxwell Forbes]]"
 last_author: "[[Yejin Choi]]"
 authors: "Maxwell Forbes; Jena D. Hwang; Vered Shwartz; Maarten Sap; Yejin Choi"

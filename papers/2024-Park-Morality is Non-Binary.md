@@ -12,7 +12,7 @@ Not AI:
 key: 373IZL7R
 type: conferencePaper
 short_title: "Morality is Non-Binary"
-year: 2025
+year: 2024
 first_author: "[[Jeongwoo Park]]"
 last_author: "[[Murukannaiah, Pradeep K]]"
 authors: "[[Park, Jeongwoo]]; [[Liscio, Enrico]]; [[Murukannaiah, Pradeep K.]]"

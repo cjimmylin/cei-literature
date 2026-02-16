@@ -13,7 +13,7 @@ Not AI:
 key: FVXJMS7J
 type: conferencePaper
 short_title: ClarityEthic
-year: 2025
+year: 2024
 first_author: "[[Yuxi Sun]]"
 last_author: "[[Wenxuan Zhang]]"
 authors: "Yuxi Sun; Wei Gao; Jing Ma; Hongzhan Lin; Ziyang Luo; Wenxuan Zhang"

@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0230
 type: conferencePaper
 short_title: "BERTimbau: Pretrained BERT Models for Brazilian Portuguese"
-year: 2025
+year: 2020
 first_author: "[[Fábio Souza]]"
 last_author: "[[Roberto Lotufo]]"
 authors: "Fábio Souza, Rodrigo Nogueira, Roberto Lotufo"

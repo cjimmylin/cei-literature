@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0466
 type: conferencePaper
 short_title: "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
-year: 2025
+year: 2021
 first_author: "[[Julian Risch]]"
 last_author: "[[Michael Wiegand Lena Wilms]]"
 authors: "Julian Risch, Anke Stoll, Lena Wilms, Michael Wiegand"

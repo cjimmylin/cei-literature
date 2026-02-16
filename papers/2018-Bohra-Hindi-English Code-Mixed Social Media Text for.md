@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0619
 type: conference_paper
 short_title: "Hindi-English Code-Mixed Social Media Text for"
-year: 2025
+year: 2018
 first_author: "[[Bohra, Aditya]]"
 last_author: "[[Shrivastava, Manish]]"
 authors: "[[Bohra, Aditya]]; [[Vijay, Deepanshu]]; [[Singh, Vinay]]; [[Akhtar, Syed Sarfaraz]]; [[Shrivastava, Manish]]"

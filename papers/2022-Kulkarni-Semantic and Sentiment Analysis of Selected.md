@@ -15,7 +15,7 @@ Not AI:
 key: EXSR0598
 type: preprint
 short_title: "Semantic and Sentiment Analysis of Selected"
-year: 2025
+year: 2022
 first_author: "[[Rohitash Chandra, Venkatesh Kulkarni]]"
 last_author: "[[Venkatesh Kulkarni Rohitash Chandra]]"
 authors: "[[Rohitash Chandra, Venkatesh Kulkarni]]"

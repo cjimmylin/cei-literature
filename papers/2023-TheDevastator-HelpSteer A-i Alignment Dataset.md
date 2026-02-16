@@ -15,7 +15,7 @@ Not AI:
 key: ZBZC7GIZ
 type: document
 short_title: "HelpSteer: A-i Alignment Dataset"
-year: 2025
+year: 2023
 first_author: "[[TheDevastator]]"
 last_author: "[[TheDevastator]]"
 authors: TheDevastator

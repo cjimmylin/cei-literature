@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0196
 type: conferencePaper
 short_title: "Measuring Political Bias in LLMs: What Is Said and How It Is Said"
-year: 2025
+year: 2024
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung Nayeon Lee]]"
 authors: "Yejin Bang, Delong Chen, Nayeon Lee, Pascale Fung"

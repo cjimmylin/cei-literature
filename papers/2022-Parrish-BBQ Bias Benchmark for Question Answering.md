@@ -12,7 +12,7 @@ Not AI:
 key: EXSR0243
 type: conferencePaper
 short_title: "BBQ (Bias Benchmark for Question Answering)"
-year: 2025
+year: 2022
 first_author: "[[Parrish, Alicia]]"
 last_author: "[[Bowman, Samuel R]]"
 authors: "[[Parrish, Alicia]]; [[Chen, Angelica]]; [[Nangia, Nikita]]; [[Padmakumar, Vishakh]]; [[Phang, Jason]]; [[Thompson, Jana]]; [[Htut, Phu Mon]]; [[Bowman, Samuel R.]]"

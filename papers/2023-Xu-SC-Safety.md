@@ -12,7 +12,7 @@ Not AI:
 key: N8MJWKVU
 type: conferencePaper
 short_title: SC-Safety
-year: 2025
+year: 2023
 first_author: "[[Liang Xu]]"
 last_author: "[[Hang Xue]]"
 authors: "Liang Xu; Kangkang Zhao; Lei Zhu; Hang Xue"

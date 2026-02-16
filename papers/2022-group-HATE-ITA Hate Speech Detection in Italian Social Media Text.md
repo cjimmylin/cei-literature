@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0507
 type: conferencePaper
 short_title: "HATE-ITA: Hate Speech Detection in Italian Social Media Text"
-year: 2025
+year: 2022
 first_author: "[[MilaNLProc group]]"
 last_author: "[[MilaNLProc group]]"
 authors: "MilaNLProc group"

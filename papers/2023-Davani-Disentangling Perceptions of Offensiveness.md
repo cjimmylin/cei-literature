@@ -13,7 +13,7 @@ Not AI:
 key: ID9WWRG4
 type: conferencePaper
 short_title: "Disentangling Perceptions of Offensiveness"
-year: 2025
+year: 2023
 first_author: "[[Aida Davani]]"
 last_author: "[[Vinodkumar Prabhakaran]]"
 authors: "Aida Davani; Mark Díaz; Dylan Baker; Vinodkumar Prabhakaran"

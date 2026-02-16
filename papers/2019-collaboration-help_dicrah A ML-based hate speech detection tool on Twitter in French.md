@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0457
 type: conferencePaper
 short_title: "help_dicrah: A ML-based hate speech detection tool on Twitter (in French)"
-year: 2025
+year: 2019
 first_author: "[[Mik3M4n (DILCRAH collaboration)]]"
 last_author: "[[Mik3M4n (DILCRAH collaboration)]]"
 authors: "Mik3M4n (DILCRAH collaboration)"

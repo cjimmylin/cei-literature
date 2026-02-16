@@ -12,7 +12,7 @@ Not AI:
 key: F2N5TKAK
 type: conferencePaper
 short_title: "Language Model Alignment in Multilingual Trolley"
-year: 2025
+year: 2024
 first_author: "[[Zhijing Jin]]"
 last_author: "[[Bernhard Schölkopf]]"
 authors: "Zhijing Jin; Max Kleiman-Weiner; Giorgio Piatti; Sydney Levine; Jiarui Liu; Fernando Gonzalez; Francesco Ortu; András Strausz; Mrinmaya Sachan; Rada Mihalcea; Yejin Choi; Bernhard Schölkopf"

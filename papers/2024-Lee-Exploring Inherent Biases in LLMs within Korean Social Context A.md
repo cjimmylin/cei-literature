@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0255
 type: conferencePaper
 short_title: "Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4"
-year: 2025
+year: 2024
 first_author: "[[Seungyoon Lee]]"
 last_author: "[[Heuiseok Lim]]"
 authors: "Seungyoon Lee, Dongjun Kim, Dahyun Jung, Chanjun Park, Heuiseok Lim"

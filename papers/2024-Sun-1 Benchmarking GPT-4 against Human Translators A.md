@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0635
 type: preprint
 short_title: "1 Benchmarking GPT-4 against Human Translators: A"
-year: 2025
+year: 2024
 first_author: "[[Rui Sun]]"
 last_author: "[[Rui Sun]]"
 authors: "Rui Sun"

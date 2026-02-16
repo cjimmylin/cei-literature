@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0162
 type: preprint
 short_title: "Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistency Across Language Varieties"
-year: 2025
+year: 2024
 first_author: "[[Faisal, Fahim]]"
 last_author: "[[Anastasopoulos, Antonios]]"
 authors: "[[Faisal, Fahim]]; [[Rahman, Md Mushfiqur]]; [[Anastasopoulos, Antonios]]"

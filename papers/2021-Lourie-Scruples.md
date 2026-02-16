@@ -13,7 +13,7 @@ Not AI:
 key: 4R7UFDMF
 type: conferencePaper
 short_title: Scruples
-year: 2025
+year: 2021
 first_author: "[[Nicholas Lourie]]"
 last_author: "[[Yejin Choi]]"
 authors: "Nicholas Lourie; Ronan Le Bras; Yejin Choi"

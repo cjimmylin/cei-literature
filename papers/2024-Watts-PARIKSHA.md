@@ -12,7 +12,7 @@ Not AI:
 key: 3UG7WMPW
 type: conferencePaper
 short_title: PARIKSHA
-year: 2025
+year: 2024
 first_author: "[[Ishaan Watts]]"
 last_author: "[[Sunayana Sitaram]]"
 authors: "Ishaan Watts; Varun Gumma; Aditya Yadavalli; Vivek Seshadri; Manohar Swaminathan; Sunayana Sitaram"

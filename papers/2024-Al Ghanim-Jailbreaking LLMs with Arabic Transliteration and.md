@@ -12,7 +12,7 @@ Not AI:
 key: BH9GAFPJ
 type: document
 short_title: "Jailbreaking LLMs with Arabic Transliteration and"
-year: 2025
+year: 2024
 first_author: "[[Mansour Al Ghanim]]"
 last_author: "[[Lou, Qian]]"
 authors: "[[Al Ghanim, Mansour]]; [[Almohaimeed, Saleh]]; [[Zheng, Mengxin]]; [[Solihin, Yan]]; [[Lou, Qian]]"

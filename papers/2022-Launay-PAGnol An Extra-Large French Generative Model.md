@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0442
 type: preprint
 short_title: "PAGnol: An Extra-Large French Generative Model"
-year: 2025
+year: 2022
 first_author: "[[Launay, Julien]]"
 last_author: "[[Seddah, Djamé]]"
 authors: "[[Launay, Julien]]; [[Tommasone, Elena]]; [[Pannier, Baptiste]]; [[Boniface, François]]; [[Chatelain, Amélie]]; [[Cappelli, Alessandro]]; [[Poli, Iacopo]]; [[Seddah, Djamé]]"

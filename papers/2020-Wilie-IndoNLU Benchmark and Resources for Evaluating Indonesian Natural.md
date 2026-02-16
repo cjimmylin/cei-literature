@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0117
 type: preprint
 short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding"
-year: 2025
+year: 2020
 first_author: "[[Wilie, Bryan]]"
 last_author: "[[Purwarianti, Ayu]]"
 authors: "[[Wilie, Bryan]]; [[Vincentio, Karissa]]; [[Winata, Genta Indra]]; [[Cahyawijaya, Samuel]]; [[Li, Xiaohong]]; [[Lim, Zhi Yuan]]; [[Soleman, Sidik]]; [[Mahendra, Rahmad]]; [[Fung, Pascale]]; [[Bahar, Syafri]]; [[Purwarianti, Ayu]]"

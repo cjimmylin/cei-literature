@@ -13,7 +13,7 @@ Not AI:
 key: FWF5UWG5
 type: journalArticle
 short_title: "Cross-cultural dataset for the evolution of"
-year: 2025
+year: 2016
 first_author: "[[Benjamin Grant Purzycki]]"
 last_author: "[[Joseph Henrich]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"

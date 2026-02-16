@@ -13,7 +13,7 @@ Not AI:
 key: EA8HU28Q
 type: conferencePaper
 short_title: "What Would Jiminy Cricket Do?"
-year: 2025
+year: 2022
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Mantas Mazeika; Andy Zou; Sahil Patel; Christine Zhu; Jesus Navarro; Dawn Song; Bo Li; Jacob Steinhardt"

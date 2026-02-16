@@ -12,7 +12,7 @@ Not AI:
 key: YZ3ILWKS
 type: conferencePaper
 short_title: KorNAT
-year: 2025
+year: 2024
 first_author: "[[Jiyoung Lee]]"
 last_author: "[[Edward Choi]]"
 authors: "Jiyoung Lee; Minwoo Kim; Seungho Kim; Junghwan Kim; Seunghyun Won; Hwaran Lee; Edward Choi"

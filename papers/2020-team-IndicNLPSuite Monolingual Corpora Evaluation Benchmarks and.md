@@ -13,7 +13,7 @@ Not AI:
 key: EXSR0615
 type: conference_paper
 short_title: "IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and"
-year: 2025
+year: 2020
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
 authors: "[[AI4Bharat team]]"

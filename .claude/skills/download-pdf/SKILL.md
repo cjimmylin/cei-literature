@@ -44,7 +44,7 @@ Step 7: Update Extract Link & Validate
 
 ---
 
-## Acquisition Strategies (15-Strategy Waterfall)
+## Acquisition Strategies (13-Strategy Waterfall)
 
 The script `PYTHON/comprehensive_pdf_finder.py` implements these in priority order per category:
 
@@ -213,7 +213,7 @@ extract_path.write_text(frontmatter + "\n".join(pages_text))
 
 | Script | Purpose |
 |--------|---------|
-| `PYTHON/comprehensive_pdf_finder.py` | 15-strategy waterfall (batch mode) |
+| `PYTHON/comprehensive_pdf_finder.py` | 13-strategy waterfall (batch mode) |
 | `PYTHON/advanced_pdf_finder.py` | Targeted strategies for hard-to-find papers |
 | `PYTHON/batch_download_pdfs.py` | arXiv-focused batch downloader |
 | `PYTHON/batch_extract_pdfs.py` | Batch PDF text extraction |
@@ -228,5 +228,5 @@ extract_path.write_text(frontmatter + "\n".join(pages_text))
 
 ---
 
-**Version:** 1.0
-**Created:** 2026-02-08
+**Version:** 1.1
+**Updated:** 2026-02-16

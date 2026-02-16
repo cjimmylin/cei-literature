@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0115
 type: preprint
 short_title: "NusaCrowd: Open Source Initiative for Indonesian NLP Resources"
-year: 2025
+year: 2023
 first_author: "[[Cahyawijaya, Samuel]]"
 last_author: "[[Purwarianti, Ayu]]"
 authors: "[[Cahyawijaya, Samuel]]; [[Lovenia, Holy]]; [[Aji, Alham Fikri]]; [[Winata, Genta Indra]]; [[Wilie, Bryan]]; [[Mahendra, Rahmad]]; [[Wibisono, Christian]]; [[Romadhony, Ade]]; [[Vincentio, Karissa]]; [[Koto, Fajri]]; [[Santoso, Jennifer]]; [[Moeljadi, David]]; [[Wirawan, Cahya]]; [[Hudi, Frederikus]]; [[Parmonangan, Ivan Halim]]; [[Alfina, Ika]]; [[Wicaksono, Muhammad Satrio]]; [[Putra, Ilham Firdausi]]; [[Rahmadani, Samsul]]; [[Oenang, Yulianti]]; [[Septiandri, Ali Akbar]]; [[Jaya, James]]; [[Dhole, Kaustubh D.]]; [[Suryani, Arie Ardiyanti]]; [[Putri, Rifki Afina]]; [[Su, Dan]]; [[Stevens, Keith]]; [[Nityasya, Made Nindyatama]]; [[Adilazuarda, Muhammad Farid]]; [[Ignatius, Ryan]]; [[Diandaru, Ryandito]]; [[Yu, Tiezheng]]; [[Ghifari, Vito]]; [[Dai, Wenliang]]; [[Xu, Yan]]; [[Damapuspita, Dyah]]; [[Tho, Cuk]]; [[Karo, Ichwanul Muslim Karo]]; [[Fatyanosa, Tirana Noor]]; [[Ji, Ziwei]]; [[Fung, Pascale]]; [[Neubig, Graham]]; [[Baldwin, Timothy]]; [[Ruder, Sebastian]]; [[Sujaini, Herry]]; [[Sakti, Sakriani]]; [[Purwarianti, Ayu]]"

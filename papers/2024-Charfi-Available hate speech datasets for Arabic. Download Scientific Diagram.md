@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0742
 type: conferencePaper
 short_title: "Available hate speech datasets for Arabic. | Download Scientific Diagram"
-year: 2025
+year: 2024
 first_author: "[[Charfi, Anis]]"
 last_author: "[[Zaghouani, Wajdi]]"
 authors: Anis Charfi; Mabrouka Besghaier; Raghda Akasheh; Andria Atalla; Wajdi Zaghouani

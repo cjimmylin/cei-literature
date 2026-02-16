@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0093
 type: preprint
 short_title: "No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding"
-year: 2025
+year: 2026
 first_author: "[[Permadi, Vynska Amalia]]"
 last_author: "[[Aletras, Nikos]]"
 authors: "[[Permadi, Vynska Amalia]]; [[Tan, Xingwei]]; [[Moosavi, Nafise Sadat]]; [[Aletras, Nikos]]"

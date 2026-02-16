@@ -13,7 +13,7 @@ Not AI:
 key: EGFIC6AG
 type: document
 short_title: WildGuard
-year: 2025
+year: 2024
 first_author: "[[Seungju Han]]"
 last_author: "[[Nouha Dziri]]"
 authors: "Seungju Han; Kavel Rao; Allyson Ettinger; Liwei Jiang; Bill Yuchen Lin; Nathan Lambert; Yejin Choi; Nouha Dziri"

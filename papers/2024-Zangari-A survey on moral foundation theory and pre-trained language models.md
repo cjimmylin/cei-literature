@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0743
 type: conferencePaper
 short_title: "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY"
-year: 2025
+year: 2024
 first_author: "[[Zangari, Lorenzo]]"
 last_author: "[[Tagarelli, A]]"
 authors: "[[Zangari, Lorenzo]]; [[Greco, C. M.]]; [[Picca, Davide]]; [[Tagarelli, A.]]"

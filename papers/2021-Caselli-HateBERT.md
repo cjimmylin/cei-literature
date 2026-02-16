@@ -13,7 +13,7 @@ Not AI:
 key: FYECJAGS
 type: conferencePaper
 short_title: HateBERT
-year: 2025
+year: 2021
 first_author: "[[Tommaso Caselli]]"
 last_author: "[[Michael Granitzer]]"
 authors: "Tommaso Caselli; Valerio Basile; Jelena Mitrović; Michael Granitzer"

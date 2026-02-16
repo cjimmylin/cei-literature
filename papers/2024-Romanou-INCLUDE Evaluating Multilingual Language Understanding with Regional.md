@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0447
 type: preprint
 short_title: "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge"
-year: 2025
+year: 2024
 first_author: "[[Romanou, Angelika]]"
 last_author: "[[Bosselut, Antoine]]"
 authors: "[[Romanou, Angelika]]; [[Foroutan, Negar]]; [[Sotnikova, Anna]]; [[Chen, Zeming]]; [[Nelaturu, Sree Harsha]]; [[Singh, Shivalika]]; [[Maheshwary, Rishabh]]; [[Altomare, Micol]]; [[Haggag, Mohamed A.]]; [[A, Snegha]]; [[Amayuelas, Alfonso]]; [[Amirudin, Azril Hafizi]]; [[Aryabumi, Viraat]]; [[Boiko, Danylo]]; [[Chang, Michael]]; [[Chim, Jenny]]; [[Cohen, Gal]]; [[Dalmia, Aditya Kumar]]; [[Diress, Abraham]]; [[Duwal, Sharad]]; [[Dzenhaliou, Daniil]]; [[Florez, Daniel Fernando Erazo]]; [[Farestam, Fabian]]; [[Imperial, Joseph Marvin]]; [[Islam, Shayekh Bin]]; [[Isotalo, Perttu]]; [[Jabbarishiviari, Maral]]; [[Karlsson, Börje F.]]; [[Khalilov, Eldar]]; [[Klamm, Christopher]]; [[Koto, Fajri]]; [[Krzemiński, Dominik]]; [[Melo, Gabriel Adriano de]]; [[Montariol, Syrielle]]; [[Nan, Yiyang]]; [[Niklaus, Joel]]; [[Novikova, Jekaterina]]; [[Ceron, Johan Samir Obando]]; [[Paul, Debjit]]; [[Ploeger, Esther]]; [[Purbey, Jebish]]; [[Rajwal, Swati]]; [[Ravi, Selvan Sunitha]]; [[Rydell, Sara]]; [[Santhosh, Roshan]]; [[Sharma, Drishti]]; [[Skenduli, Marjana Prifti]]; [[Moakhar, Arshia Soltani]]; [[Moakhar, Bardia Soltani]]; [[Tamir, Ran]]; [[Tarun, Ayush Kumar]]; [[Wasi, Azmine Toushik]]; [[Weerasinghe, Thenuka Ovin]]; [[Yilmaz, Serhan]]; [[Zhang, Mike]]; [[Schlag, Imanol]]; [[Fadaee, Marzieh]]; [[Hooker, Sara]]; [[Bosselut, Antoine]]"

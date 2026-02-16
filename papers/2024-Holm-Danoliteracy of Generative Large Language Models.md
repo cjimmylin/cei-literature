@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0488
 type: preprint
 short_title: "Danoliteracy of Generative Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Søren Vejlgaard Holm]]"
 last_author: "[[Martin Carsten Nielsen]]"
 authors: "[[Søren Vejlgaard Holm]]; [[Lars Kai Hansen]]; [[Martin Carsten Nielsen]]"

@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0158
 type: conferencePaper
 short_title: "Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities"
-year: 2025
+year: 2023
 first_author: "[[Jacksi, Karwan]]"
 last_author: "[[Ali, Ismael]]"
 authors: "[[Jacksi, Karwan]]; [[Ali, Ismael]]"

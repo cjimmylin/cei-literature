@@ -14,7 +14,7 @@ Not AI:
 key: CRU8XUKJ
 type: conferencePaper
 short_title: "A Human Rights-Based Approach to Responsible AI"
-year: 2025
+year: 2022
 first_author: "[[Vinodkumar Prabhakaran]]"
 last_author: "[[Gabriel, Iason]]"
 authors: "[[Prabhakaran, Vinodkumar]]; [[Mitchell, Margaret]]; [[Gebru, Timnit]]; [[Gabriel, Iason]]"

@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0342
 type: conferencePaper
 short_title: "Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts"
-year: 2025
+year: 2019
 first_author: "[[Ales Horak]]"
 last_author: "[[Ondrej Herman]]"
 authors: "Ales Horak, Vit Baisa, Ondrej Herman"

@@ -16,7 +16,7 @@ Not AI:
 key: LSRC0170
 type: conferencePaper
 short_title: "Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)"
-year: 2025
+year: 2023
 first_author: "[[Das, Dipto]]"
 last_author: "[[Semaan, Bryan C]]"
 authors: "[[Das, Dipto]]; [[Guha, Shion]]; [[Semaan, Bryan C.]]"

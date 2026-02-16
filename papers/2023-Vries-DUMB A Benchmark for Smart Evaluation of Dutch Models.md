@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0482
 type: preprint
 short_title: "DUMB: A Benchmark for Smart Evaluation of Dutch Models"
-year: 2025
+year: 2023
 first_author: "[[Vries, Wietse de]]"
 last_author: "[[Nissim, Malvina]]"
 authors: "[[Vries, Wietse de]]; [[Wieling, Martijn]]; [[Nissim, Malvina]]"

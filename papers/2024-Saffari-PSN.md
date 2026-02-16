@@ -13,7 +13,7 @@ Not AI:
 key: RRP2U6PT
 type: journalArticle
 short_title: PSN
-year: 2025
+year: 2024
 first_author: "[[Hamidreza Saffari]]"
 last_author: "[[Debora Nozza]]"
 authors: "Hamidreza Saffari; Mohammadamin Shafiei; Donya Rooein; Francesco Pierri; Debora Nozza"

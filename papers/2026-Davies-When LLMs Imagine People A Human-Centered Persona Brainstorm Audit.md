@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0665
 type: preprint
 short_title: "When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications"
-year: 2025
+year: 2026
 first_author: "[[Dave Davies]]"
 last_author: "[[Dave Davies]]"
 authors: "Dave Davies"

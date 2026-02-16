@@ -10,7 +10,7 @@ Not AI:
 key: AUTO_SMITH2024
 type: journalArticle
 short_title: "Living Well with AI"
-year: 2025
+year: 2024
 first_author: "[[Nicholas Smith]]"
 last_author: "[[Vickers, Darby]]"
 authors: "[[Smith, Nicholas]]; [[Vickers, Darby]]"

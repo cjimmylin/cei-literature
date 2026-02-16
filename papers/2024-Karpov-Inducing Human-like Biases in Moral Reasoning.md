@@ -13,7 +13,7 @@ Not AI:
 key: ID6PYJ9M
 type: conferencePaper
 short_title: "Inducing Human-like Biases in Moral Reasoning"
-year: 2025
+year: 2024
 first_author: "[[Artem Karpov]]"
 last_author: "[[Bogdan-Ionut Cirstea]]"
 authors: "Artem Karpov; Seong Hah Cho; Austin Meek; Raymond Koopmanschap; Lucy Farnik; Bogdan-Ionut Cirstea"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0740
 type: conferencePaper
 short_title: "A Web-Based Hate Speech Detection System for Dialectal Arabic"
-year: 2025
+year: 2024
 first_author: "[[Anis Charfi]]"
 last_author: "[[Wajdi Zaghouani]]"
 authors: Anis Charfi; Andria Atalla; Raghda Akasheh; Mabrouka Bessghaier; Wajdi Zaghouani

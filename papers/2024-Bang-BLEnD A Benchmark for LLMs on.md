@@ -14,7 +14,7 @@ Not AI:
 key: EXSR0462
 type: preprint
 short_title: "BLEnD A Benchmark for LLMs on"
-year: 2025
+year: 2024
 first_author: "[[Myung, Junho]]"
 last_author: "[[Oh, Alice]]"
 authors: "[[Myung, Junho]]; [[Lee, Nayeon]]; [[Zhou, Yi]]; [[Jin, Jiho]]; [[Putri, Rifki Afina]]; [[Antypas, Dimosthenis]]; [[Borkakoty, Hsuvas]]; [[Kim, Eunsu]]; [[Perez-Almendros, Carla]]; [[Ayele, Abinew Ali]]; [[Gutiérrez-Basulto, Víctor]]; [[Ibáñez-García, Yazmín]]; [[Lee, Hwaran]]; [[Muhammad, Shamsuddeen Hassan]]; [[Park, Kiwoong]]; [[Rzayev, Anar Sabuhi]]; [[White, Nina]]; [[Yimam, Seid Muhie]]; [[Pilehvar, Mohammad Taher]]; [[Ousidhoum, Nedjma]]; [[Camacho-Collados, Jose]]; [[Oh, Alice]]"

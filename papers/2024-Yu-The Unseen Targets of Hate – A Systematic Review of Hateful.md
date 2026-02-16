@@ -14,7 +14,7 @@ Not AI:
 key: LSRC0659
 type: preprint
 short_title: "The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets"
-year: 2025
+year: 2024
 first_author: "[[Yu, Zehui]]"
 last_author: "[[Wagner, Claudia]]"
 authors: "[[Yu, Zehui]]; [[Sen, Indira]]; [[Assenmacher, Dennis]]; [[Samory, Mattia]]; [[Fröhling, Leon]]; [[Dahn, Christina]]; [[Nozza, Debora]]; [[Wagner, Claudia]]"

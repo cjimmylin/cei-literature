@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0360
 type: preprint
 short_title: "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Sang Truong]]"
 last_author: "[[Sanmi Koyejo]]"
 authors: "Sang Truong, Duc Nguyen, Toan Nguyen, Dong Le, Nhi Truong, Tho Quan, Sanmi Koyejo"

@@ -13,7 +13,7 @@ Not AI:
 key: GVWSI3DL
 type: journalArticle
 short_title: "The Moral Choice Machine"
-year: 2025
+year: 2020
 first_author: "[[Patrick Schramowski]]"
 last_author: "[[Kersting, Kristian]]"
 authors: "[[Schramowski, Patrick]]; [[Turan, Cigdem]]; [[Jentzsch, Sophie]]; [[Rothkopf, Constantin]]; [[Kersting, Kristian]]"

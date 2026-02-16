@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0519
 type: preprint
 short_title: "Latxa: An Open Language Model and Evaluation Suite for Basque"
-year: 2025
+year: 2024
 first_author: "[[Etxaniz, Julen]]"
 last_author: "[[Soroa, Aitor]]"
 authors: "[[Etxaniz, Julen]]; [[Sainz, Oscar]]; [[Perez, Naiara]]; [[Aldabe, Itziar]]; [[Rigau, German]]; [[Agirre, Eneko]]; [[Ormazabal, Aitor]]; [[Artetxe, Mikel]]; [[Soroa, Aitor]]"

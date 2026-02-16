@@ -13,7 +13,7 @@ Not AI:
 key: XTHGVLPS
 type: conferencePaper
 short_title: "Can Language Models Reason about Individualistic"
-year: 2025
+year: 2024
 first_author: "[[Liwei Jiang]]"
 last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Taylor Sorensen; Sydney Levine; Yejin Choi"

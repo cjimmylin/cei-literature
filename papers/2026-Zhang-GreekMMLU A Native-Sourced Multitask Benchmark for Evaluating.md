@@ -11,7 +11,7 @@ Not AI:
 key: LSRC0527
 type: preprint
 short_title: "GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek"
-year: 2025
+year: 2026
 first_author: "[[Yang Zhang]]"
 last_author: "[[Michalis Vazirgiannis]]"
 authors: "Yang Zhang, Mersin Konomi, Christos Xypolopoulos, Konstantinos Divriotis, Konstantinos Skianis, Giannis Nikolentzos, Giorgos Stamou, Guokan Shang, Michalis Vazirgiannis"

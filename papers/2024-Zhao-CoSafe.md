@@ -13,7 +13,7 @@ Not AI:
 key: RJSE8HC4
 type: document
 short_title: CoSafe
-year: 2025
+year: 2024
 first_author: "[[Erxin Yu]]"
 last_author: "[[Lanqing Hong]]"
 authors: "Erxin Yu; Jing Li; Ming Liao; Siqi Wang; Zuchen Gao; Fei Mi; Lanqing Hong"

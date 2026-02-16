@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0328
 type: preprint
 short_title: "The Language You Ask In: Language-Conditioned Ideological Divergence in LLM Analysis of Contested Political Documents"
-year: 2025
+year: 2026
 first_author: "[[Oleg Smirnov]]"
 last_author: "[[Oleg Smirnov]]"
 authors: "Oleg Smirnov"

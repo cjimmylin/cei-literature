@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0173
 type: preprint
 short_title: "Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias in Low-Resource Bengali"
-year: 2025
+year: 2026
 first_author: "[[Reaj, Md Asgor Hossain]]"
 last_author: "[[Liew, Tze Hui]]"
 authors: "[[Reaj, Md Asgor Hossain]]; [[Das Gupta, Rajan]]; [[Pritha, Jui Saha]]; [[Al Noman, Abdullah]]; [[Ahmed, Abir]]; [[Mohiuddin, Golam Md]]; [[Liew, Tze Hui]]"

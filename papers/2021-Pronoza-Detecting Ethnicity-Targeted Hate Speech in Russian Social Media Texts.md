@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0310
 type: conferencePaper
 short_title: "Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts"
-year: 2025
+year: 2021
 first_author: "[[Anastasiia Pronoza]]"
 last_author: "[[Roman Rosenberg Olga Koltsova]]"
 authors: "Anastasiia Pronoza, Polina Panicheva, Olga Koltsova, Roman Rosenberg"

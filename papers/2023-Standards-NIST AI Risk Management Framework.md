@@ -14,7 +14,7 @@ Not AI:
 key: 7VA262QC
 type: document
 short_title: "NIST AI Risk Management Framework"
-year: 2025
+year: 2023
 first_author: "[[National Institute of Standards and Technology (NIST)]]"
 last_author: "[[National Institute of Standards and Technology (NIST)]]"
 authors: "National Institute of Standards and Technology (NIST)"

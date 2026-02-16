@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0267
 type: preprint
 short_title: "Understanding LLM Development Through Longitudinal Study: Insights from the Open Ko-LLM Leaderboard"
-year: 2025
+year: 2024
 first_author: "[[Chanjun Park]]"
 last_author: "[[Hyeonwoo Kim Chanjun Park]]"
 authors: "Chanjun Park, Hyeonwoo Kim"

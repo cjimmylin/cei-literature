@@ -13,7 +13,7 @@ Not AI:
 key: 7A2F2V7E
 type: document
 short_title: "Universal and Transferable Adversarial Attacks on"
-year: 2025
+year: 2023
 first_author: "[[Andy Zou]]"
 last_author: "[[Matt Fredrikson]]"
 authors: "Andy Zou; Zifan Wang; Nicholas Carlini; Milad Nasr; J. Zico Kolter; Matt Fredrikson"

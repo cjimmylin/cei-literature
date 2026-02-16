@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0349
 type: conferencePaper
 short_title: "Automating News Comment Moderation with Limited Resources: Benchmarking in Croatian and Estonian"
-year: 2025
+year: 2020
 first_author: "[[Ravi Shekhar]]"
 last_author: "[[Matthew Purver]]"
 authors: "Ravi Shekhar, Marko Pranjic, Senja Pollak, Andraz Pelicon, Matthew Purver"

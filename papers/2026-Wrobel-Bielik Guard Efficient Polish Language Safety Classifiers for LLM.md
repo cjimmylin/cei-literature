@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0333
 type: preprint
 short_title: "Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation"
-year: 2025
+year: 2026
 first_author: "[[Krzysztof Wrobel]]"
 last_author: "[[Maciej Szymanski]]"
 authors: "Krzysztof Wrobel, Jan Maria Kowalski, Jerzy Surma, Igor Ciuciura, Maciej Szymanski"

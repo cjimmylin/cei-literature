@@ -13,7 +13,7 @@ Not AI:
 key: MCGEE2024SSRN
 type: preprint
 short_title: "How Ethical Is Utilitarian Ethics"
-year: 2025
+year: 2024
 first_author: "[[Robert W. McGee]]"
 last_author: "[[Robert W. McGee]]"
 authors: "Robert W. McGee"

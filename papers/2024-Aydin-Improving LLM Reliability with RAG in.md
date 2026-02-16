@@ -17,7 +17,7 @@ Not AI:
 key: EXSR0490
 type: preprint
 short_title: "Improving LLM Reliability with RAG in"
-year: 2025
+year: 2024
 first_author: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"
 last_author: "[[Omer Aydin]]"
 authors: "[[Ahmet Yusuf Alan, Enis Karaarslan, Omer Aydin]]"

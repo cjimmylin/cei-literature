@@ -15,7 +15,7 @@ Not AI:
 key: LSRC0166
 type: journalArticle
 short_title: "Hate Speech Forms and Implications in English and Kurdish Social Media"
-year: 2025
+year: 2022
 first_author: "[[English, Implications in]]"
 last_author: "[[Media.pdf, Kurdish Social]]"
 authors: "[[English, Implications in]]; [[Media.pdf, Kurdish Social]]"

@@ -14,7 +14,7 @@ Not AI:
 key: 9QYEVWB9
 type: conferencePaper
 short_title: "From Instructions to Intrinsic Human Values -- A"
-year: 2025
+year: 2023
 first_author: "[[Jing Yao]]"
 last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Jindong Wang; Xing Xie"

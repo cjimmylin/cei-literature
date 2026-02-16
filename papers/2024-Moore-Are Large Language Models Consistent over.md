@@ -12,7 +12,7 @@ Not AI:
 key: QTHPTLW2
 type: conferencePaper
 short_title: "Are Large Language Models Consistent over"
-year: 2025
+year: 2024
 first_author: "[[Jared Moore]]"
 last_author: "[[Diyi Yang]]"
 authors: "Jared Moore; Tanvi Deshpande; Diyi Yang"

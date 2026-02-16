@@ -13,7 +13,7 @@ Not AI:
 key: AUTO_SEROR2024
 type: preprint
 short_title: "The Moral Mind(s) of Large Language Models"
-year: 2025
+year: 2024
 first_author: "[[Avner Seror]]"
 last_author: "[[Avner Seror]]"
 authors: "[[Seror, Avner]]"

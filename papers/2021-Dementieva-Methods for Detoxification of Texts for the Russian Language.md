@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0308
 type: preprint
 short_title: "Methods for Detoxification of Texts for the Russian Language"
-year: 2025
+year: 2021
 first_author: "[[Daryna Dementieva]]"
 last_author: "[[Alexander Panchenko]]"
 authors: "Daryna Dementieva, Daniil Moskovskiy, Varvara Logacheva, David Dale, Olga Kozlova, Nikita Semenov, Alexander Panchenko"

@@ -13,7 +13,7 @@ Not AI:
 key: WSL5AXZA
 type: document
 short_title: SwaQuAD-24
-year: 2025
+year: 2024
 first_author: "[[Alfred Malengo Kondoro]]"
 last_author: "[[Alfred Malengo Kondoro]]"
 authors: "Alfred Malengo Kondoro"

@@ -12,7 +12,7 @@ Not AI:
 key: LSRC0216
 type: preprint
 short_title: "GlórIA: A Generative and Open Large Language Model for Portuguese"
-year: 2025
+year: 2024
 first_author: "[[Ricardo Lopes]]"
 last_author: "[[David Semedo]]"
 authors: "Ricardo Lopes, João Magalhães, David Semedo"

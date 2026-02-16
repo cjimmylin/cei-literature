@@ -13,7 +13,7 @@ Not AI:
 key: LSRC0112
 type: preprint
 short_title: "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning"
-year: 2025
+year: 2023
 first_author: "[[Bin Wang]]"
 last_author: "[[Chen, Nancy F]]"
 authors: "[[Bin Wang]]; [[Liu, Zhengyuan]]; [[Huang, Xin]]; [[Jiao, Fangkai]]; [[Ding, Yang]]; [[Aw, AiTi]]; [[Chen, Nancy F.]]"

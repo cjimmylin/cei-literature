@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shen-ValueActionLens Mind the Value-Action Gap|ValueActionLens (Mind the Value-Action Gap)]] (Last Author)
 - [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]]
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shen-ValueActionLens Mind the Value-Action Gap*: Affiliation: University of Washington, q NYU Shanghai, New York University, Email: tmitra@uw.edu
 - *From 2025-Shen-ValueActionLens Mind the Value-Action Gap*: Affiliation: University of Washington, q NYU Shanghai, New York University, Email: tmitra@uw.edu
 - *From 2025-Shen-ValueActionLens Mind the Value-Action Gap*: Affiliation: University of Washington, q NYU Shanghai, New York University, Email: huashen@nyu.edu
 - *From 2025-Shen-ValueActionLens Mind the Value-Action Gap*: Affiliation: University of Washington, q NYU Shanghai, New York University, Email: tmitra@uw.edu

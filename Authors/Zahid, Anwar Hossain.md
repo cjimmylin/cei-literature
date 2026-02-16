@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and|Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and*: Affiliation: Department of Computer Science, Email: ahzahid@iastate.edu
 - *From 2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and*: Affiliation: Department of Computer Science, Email: monoshi@iastate.edu
 - *From 2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and*: Affiliation: Department of Computer Science, Email: ahzahid@iastate.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

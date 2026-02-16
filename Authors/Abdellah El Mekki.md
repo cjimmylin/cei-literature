@@ -36,6 +36,7 @@ Abdellah's research focuses on the intersection of multilingual NLP and AI value
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
 - [[2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for|NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities]] (First Author)
@@ -56,6 +57,8 @@ Abdellah's research focuses on the intersection of multilingual NLP and AI value
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

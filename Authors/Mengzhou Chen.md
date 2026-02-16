@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Xie-CultureLLM Incorporating Cultural Differences into Large|CultureLLM Incorporating Cultural Differences into Large]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Xie-CultureLLM Incorporating Cultural Differences into Large*: Affiliation: Institute of Software, CAS, Email: xing.xie@microsoft.com
 - *From 2024-Xie-CultureLLM Incorporating Cultural Differences into Large*: Affiliation: Institute of Software, CAS, Email: mengzhuo.happy@gmail.com
 - *From 2024-Xie-CultureLLM Incorporating Cultural Differences into Large*: Affiliation: Institute of Software, CAS, Email: Sunayana.Sitaram@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

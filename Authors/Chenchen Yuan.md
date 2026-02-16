@@ -34,6 +34,7 @@ Chenchen Yuan is a researcher at the University of Tübingen, Germany, working i
 
 
 
+
 - [[2025-Yuan-Probabilistic Aggregation and Targeted Embedding|Probabilistic Aggregation and Targeted Embedding]] (First Author)
 
 ## External Links & Profiles
@@ -46,6 +47,8 @@ Chenchen Yuan is a researcher at the University of Tübingen, Germany, working i
 
 
 
+
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich

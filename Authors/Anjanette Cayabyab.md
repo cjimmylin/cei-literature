@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Catapia-Batayan|Batayan]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org
 - *From 2025-Catapia-Batayan*: Affiliation: University of Singapore, Email: railey@aisingapore.org

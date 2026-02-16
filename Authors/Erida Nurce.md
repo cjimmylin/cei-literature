@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Nurce-Detecting Abusive Albanian|Detecting Abusive Albanian]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Nurce-Detecting Abusive Albanian*:, Email: kecijo@gmail.com
 - *From 2021-Nurce-Detecting Abusive Albanian*:, Email: kecijo@gmail.com
 - *From 2021-Nurce-Detecting Abusive Albanian*:, Email: kecijo@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

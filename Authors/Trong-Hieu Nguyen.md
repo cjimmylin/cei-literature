@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large|ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

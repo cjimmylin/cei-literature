@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In|Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In*: Affiliation: University of Duisburg-Essen, Germany, Email: gautam.shahi@uni-due.de
 - *From 2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In*: Affiliation: University of Duisburg-Essen, Germany, Email: gautam.shahi@uni-due.de
 - *From 2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In*: Affiliation: University of Duisburg-Essen, Germany, Email: gautam.shahi@uni-due.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

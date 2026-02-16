@@ -22,6 +22,7 @@ Hongjie Fan is an NLP researcher who has contributed to work on toxic language d
 
 
 
+
 - [[2021-Wang-MedAI at SemEval-2021 Task 5|MedAI at SemEval-2021 Task 5]]
 
 ## Notes
@@ -30,6 +31,8 @@ Hongjie Fan is an NLP researcher who has contributed to work on toxic language d
 
 
 
+
+- *From 2021-Wang-MedAI at SemEval-2021 Task 5*: Affiliation: School of Software and Microelectronics, Peking University, Email: hjfan@cupl.edu.cn
 - *From 2021-Wang-MedAI at SemEval-2021 Task 5*: Affiliation: School of Software and Microelectronics, Peking University, Email: hjfan@cupl.edu.cn
 - *From 2021-Wang-MedAI at SemEval-2021 Task 5*: Affiliation: School of Software and Microelectronics, Peking University, Email: hjfan@cupl.edu.cn
 - *From 2021-Wang-MedAI at SemEval-2021 Task 5*: Affiliation: School of Software and Microelectronics, Peking University, Email: hjfan@cupl.edu.cn

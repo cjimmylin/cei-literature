@@ -24,6 +24,7 @@ Vinodkumar Prabhakaran is a Staff Research Scientist at Google LLC, specializing
 
 
 
+
 - [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]]
 - [[2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes|SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereotypes]]
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]]
@@ -36,6 +37,8 @@ Vinodkumar Prabhakaran is a Staff Research Scientist at Google LLC, specializing
 
 
 
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be

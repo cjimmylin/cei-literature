@@ -22,7 +22,7 @@ Wenhao Zhu is a PhD candidate at the NJUNLP Group, State Key Laboratory of Novel
 
 
 
-- [[2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ...|BenchMAX: A Comprehensive Multilingual Evaluation ...]]
+
 - [[2025-Zhu-EAVIT|EAVIT]] (First Author)
 
 ## Notes
@@ -31,6 +31,8 @@ Wenhao Zhu is a PhD candidate at the NJUNLP Group, State Key Laboratory of Novel
 
 
 
+
+- *From 2025-Zhu-EAVIT*: Affiliation: Laboratory of General Artificial Intelligence, School of Intelligence Science and, Email: yuhangxie@stu.pku.edu.cn
 - *From 2025-Zhu-EAVIT*: Affiliation: Laboratory of General Artificial Intelligence, School of Intelligence Science and, Email: yuhangxie@stu.pku.edu.cn
 - *From 2025-Zhu-EAVIT*: Affiliation: Laboratory of General Artificial Intelligence, School of Intelligence Science and, Email: yuhangxie@stu.pku.edu.cn
 - *From 2025-Zhu-EAVIT*: Affiliation: Laboratory of General Artificial Intelligence, School of Intelligence Science and, Email: yuhangxie@stu.pku.edu.cn

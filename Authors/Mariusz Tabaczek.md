@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Tabaczek-Virtuous AI Aristotelian-Thomistic|Virtuous AI Aristotelian-Thomistic]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Tabaczek-Virtuous AI Aristotelian-Thomistic*: Affiliation: University of Saint Thomas Aquinas: Rome, Italy, Email: mtabaczek@gmail.com
 - *From 2024-Tabaczek-Virtuous AI Aristotelian-Thomistic*: Affiliation: University of Saint Thomas Aquinas: Rome, Italy, Email: mtabaczek@gmail.com
 - *From 2024-Tabaczek-Virtuous AI Aristotelian-Thomistic*: Affiliation: University of Saint Thomas Aquinas: Rome, Italy, Email: mtabaczek@gmail.com
 - *From 2024-Tabaczek-Virtuous AI Aristotelian-Thomistic*: Affiliation: University of Saint Thomas Aquinas: Rome, Italy, Email: mtabaczek@gmail.com

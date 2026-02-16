@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation|Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 - *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 - *From 2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation*: Affiliation: Department of Computer Science and Hessian Center for AI (hessian
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

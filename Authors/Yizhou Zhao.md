@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Qiu-ValueNet|ValueNet]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu
 - *From 2022-Qiu-ValueNet*: Affiliation: Center for Vision, Cognition, Learning, and Autonomy, Email: liangqiu@ucla.edu

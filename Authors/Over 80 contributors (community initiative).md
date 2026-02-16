@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian|CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
 - *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
 - *From 2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian*: Affiliation: University; 4 European University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

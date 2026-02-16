@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate|Offensive Language and Hate Speech Detection for Danish (DKHate)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate*: Affiliation: Department of Computer Science, Email: ld@itu.dk
 - *From 2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate*: Affiliation: Department of Computer Science, Email: gusi@itu.dk
 - *From 2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate*: Affiliation: Department of Computer Science, Email: ld@itu.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -21,11 +21,10 @@ semantic_scholar: ""
 
 
 
-- [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It]] (Last Author)
+
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
 - [[2024-Singhal-AyaRedTeaming|AyaRedTeaming]]
-- [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 
 ## Notes
 
@@ -33,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures

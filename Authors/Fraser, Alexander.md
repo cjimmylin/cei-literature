@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...|Data-Efficient Hate Speech Detection via Cross-Lingual ...]] (Last Author)
 - [[2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ...|Scaling the Multilingual Capability of LLMs with Cross- ...]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...*: Affiliation: Labeled Data, Email: daryna.dementieva@tum.de
 - *From 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...*: Affiliation: Labeled Data, Email: daryna.dementieva@tum.de
 - *From 2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ...*: Affiliation: Labeled Data, Email: faeze.ghorbanpour@tum.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

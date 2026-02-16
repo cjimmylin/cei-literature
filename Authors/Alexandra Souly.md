@@ -49,6 +49,7 @@ She is a lead researcher in the UK government's efforts to characterize the risk
 
 
 
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 - [[2024-Souly-StrongREJECT|StrongREJECT]] (First Author)
 
@@ -64,6 +65,8 @@ She is a lead researcher in the UK government's efforts to characterize the risk
 
 
 
+
+- *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 - *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 - *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 - *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com

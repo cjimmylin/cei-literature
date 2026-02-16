@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making|CCD-Bench: Probing Cultural Conflict in LLM Decision-Making]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making*: Affiliation: University Abu Dhabi, Abu Dhabi, United Arab Emirates, Email: hanan.salam@nyu.edu
 - *From 2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making*: Affiliation: University Abu Dhabi, Abu Dhabi, United Arab Emirates, Email: hanan.salam@nyu.edu
 - *From 2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making*: Affiliation: University Abu Dhabi, Abu Dhabi, United Arab Emirates, Email: hasibur.rahman@nyu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

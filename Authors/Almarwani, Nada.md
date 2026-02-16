@@ -1,7 +1,7 @@
 ---
 name: "Almarwani, Nada"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Information Systems, 2Department of AI and Data Science"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Alharbi-LLMs and Islamic Fiqh A Reliability|LLMs and Islamic Fiqh A Reliability]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Alharbi-LLMs and Islamic Fiqh A Reliability*: Affiliation: Department of Information Systems, 2Department of AI and Data Science
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

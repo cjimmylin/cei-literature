@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language|SnakModel: Lessons Learned from Training an Open Danish Large Language Model]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language*: Affiliation: University, Denmark, Email: jjz@cs.aau.dk
 - *From 2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language*: Affiliation: University, Denmark, Email: jjz@cs.aau.dk
 - *From 2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language*: Affiliation: University, Denmark, Email: jjz@cs.aau.dk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -38,6 +38,7 @@ Contributed to developing novel frameworks for measuring human value representat
 
 
 
+
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
 
 ## External Links & Profiles
@@ -50,6 +51,8 @@ Contributed to developing novel frameworks for measuring human value representat
 
 
 
+
+- *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
 - *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
 - *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk
 - *From 2024-Cahyawijaya-High-Dimension Human Value Representation in*: Affiliation: University of Science and Technology, Email: pascale@ece.ust.hk

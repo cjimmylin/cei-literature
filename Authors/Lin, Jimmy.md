@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Ojo-AfroBench - How Good are LLMs on African Languages|AfroBench -- How Good are LLMs on African Languages?]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
 - *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
 - *From 2023-Ojo-AfroBench - How Good are LLMs on African Languages*: Affiliation: Institute & McGill University, 2Canada CIFAR AI Chair, 3Lelapa AI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

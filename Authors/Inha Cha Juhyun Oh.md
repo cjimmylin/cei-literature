@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation|Culture is Everywhere: A Call for Intentionally Cultural Evaluation]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
 - *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
 - *From 2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation*: Affiliation: Institute of Technology, Email: 411juhyun@kaist.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

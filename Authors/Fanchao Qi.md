@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation|A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation*: Affiliation: University Bloomington, Email: fanhuan@iu.edu
 - *From 2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation*: Affiliation: University Bloomington, Email: hwkwak@iu.edu
 - *From 2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation*: Affiliation: University Bloomington, Email: fanhuan@iu.edu
 - *From 2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation*: Affiliation: University Bloomington, Email: hwkwak@iu.edu

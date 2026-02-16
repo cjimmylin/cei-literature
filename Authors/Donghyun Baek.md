@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with|K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with*: Affiliation: labor-intensive and creating a cognitive, Email: duseong.chang@gmail.com
 - *From 2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with*: Affiliation: labor-intensive and creating a cognitive, Email: duseong.chang@gmail.com
 - *From 2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with*: Affiliation: labor-intensive and creating a cognitive, Email: duseong.chang@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

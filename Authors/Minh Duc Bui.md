@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects|Large Language Models Discriminate Against Speakers of German Dialects]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: carolin.holtermann@uni-hamburg.de
 - *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: minhducbui@uni-mainz.de
 - *From 2025-Bui-Large Language Models Discriminate Against Speakers of German Dialects*: Affiliation: University Mainz, Germany, Email: carolin.holtermann@uni-hamburg.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

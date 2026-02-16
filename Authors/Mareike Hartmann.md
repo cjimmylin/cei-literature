@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Veitsman-Recent Advancements and Challenges of Turkic|Recent Advancements and Challenges of Turkic]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Veitsman-Recent Advancements and Challenges of Turkic*: Affiliation: Department of Language Science and Technology
 - *From 2024-Veitsman-Recent Advancements and Challenges of Turkic*: Affiliation: Department of Language Science and Technology
 - *From 2024-Veitsman-Recent Advancements and Challenges of Turkic*: Affiliation: Department of Language Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

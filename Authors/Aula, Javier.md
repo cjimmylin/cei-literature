@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]
 - [[2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge|MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge*: Affiliation: University1, Email: dkyoon@kaist.ac.kr
 - *From 2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge*: Affiliation: University1, Email: spthsrbwls123@yonsei.ac.kr
 - *From 2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge*: Affiliation: University1, Email: dkyoon@kaist.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

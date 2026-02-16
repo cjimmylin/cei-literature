@@ -49,6 +49,7 @@ Jiang co-authored an influential paper on "Large Language Model Safety" that sur
 
 
 
+
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
 
 ## External Links & Profiles
@@ -61,6 +62,8 @@ Jiang co-authored an influential paper on "Large Language Model Safety" that sur
 
 
 
+
+- *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University
 - *From 2024-Shi-Large Language Model Safety*: Affiliation: Lab, Tianjin University

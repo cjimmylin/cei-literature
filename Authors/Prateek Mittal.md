@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]] (Last Author)
 - [[2021-Croce-RobustBench|RobustBench]]
 
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign

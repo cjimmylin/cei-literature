@@ -1,7 +1,7 @@
 ---
 name: "Jie Xu"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Laboratory, , Shanghai, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030|Healthcare Ethics & Safety QA (China -- Healthy China 2030)]] (Last Author)]]
 
 - [[2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030|Healthcare Ethics & Safety QA (China -- Healthy China 2030)]] (Last Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030*: Affiliation: Laboratory, , Shanghai, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

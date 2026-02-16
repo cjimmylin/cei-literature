@@ -50,6 +50,7 @@ She has published extensively on the psychology of atheism, witchcraft beliefs, 
 
 
 
+
 - [[2016-Purzycki-Cross-cultural dataset for the evolution of|Cross-cultural dataset for the evolution of]]
 - [[2016-Purzycki-Religious Belief and the Moral Circle|Religious Belief and the Moral Circle]]
 
@@ -69,6 +70,8 @@ She has published extensively on the psychology of atheism, witchcraft beliefs, 
 
 
 
+
+- *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology
 - *From 2016-Purzycki-Cross-cultural dataset for the evolution of*: Affiliation: Department of Human Behavior, Ecology, and Culture, Max Planck Institute for Evolutionary Anthropology

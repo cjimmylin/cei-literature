@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts|LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts*: Affiliation: School, Tsinghua University
 - *From 2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts*: Affiliation: School, Tsinghua University
 - *From 2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts*: Affiliation: School, Tsinghua University
 - *From 2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts*: Affiliation: School, Tsinghua University

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
 - [[2024-Sorensen-Value Kaleidoscope|Value Kaleidoscope]]
@@ -33,6 +34,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington

@@ -49,6 +49,7 @@ He is the author of the provocative book *Beyond Zero and One: Machines, Psyched
 
 
 
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 - [[2023-Benkler-Assessing LLMs for Moral Value Pluralism|Assessing LLMs for Moral Value Pluralism]]
 
@@ -67,6 +68,8 @@ He is the author of the provocative book *Beyond Zero and One: Machines, Psyched
 
 
 
+
+- *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: sfriedman@sift.net
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: s.schmergalunder@ufl.edu
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: andrewsmart@google.com
 - *From 2023-Benkler-Assessing LLMs for Moral Value Pluralism*: Affiliation: University of Florida, Email: dmosaphir@sift.net

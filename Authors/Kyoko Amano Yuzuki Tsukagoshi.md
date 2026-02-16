@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Amano-Exploring Similarity Measures and Intertextuality in|Exploring Similarity Measures and Intertextuality in]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Amano-Exploring Similarity Measures and Intertextuality in*: Affiliation: University of Tsukuba, Email: yuzuki@l.u
 - *From 2024-Amano-Exploring Similarity Measures and Intertextuality in*: Affiliation: University of Tsukuba, Email: kyogoku11@gmail.com
 - *From 2024-Amano-Exploring Similarity Measures and Intertextuality in*: Affiliation: University of Tsukuba, Email: amano.skskrt@kcn.jp
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

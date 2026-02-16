@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2010-Project-GurbaniDB|GurbaniDB]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2010-Project-GurbaniDB*: Affiliation: lable openly at http://api
 - *From 2010-Project-GurbaniDB*: Affiliation: lable openly at http://api
 - *From 2010-Project-GurbaniDB*: Affiliation: lable openly at http://api
 - *From 2010-Project-GurbaniDB*: Affiliation: lable openly at http://api

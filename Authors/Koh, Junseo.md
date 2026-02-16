@@ -1,9 +1,9 @@
 ---
 name: "Koh, Junseo"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "buyi@pku.edu.cn"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent|Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning]]]]
 
 - [[2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent|Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent*: Affiliation: Department of, Email: buyi@pku.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

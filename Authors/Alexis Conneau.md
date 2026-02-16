@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Wenzek-CC100-Mongolian dataset - NLP Database|CC100-Mongolian dataset - NLP Database]]
 

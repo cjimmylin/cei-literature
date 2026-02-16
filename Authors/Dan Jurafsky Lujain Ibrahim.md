@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Cheng-ELEPHANT Social Sycophancy*: Affiliation: University of Oxford, Email: syu03@stanford.edu
 - *From 2025-Cheng-ELEPHANT Social Sycophancy*: Affiliation: University of Oxford, Email: myra@cs.stanford.edu
 - *From 2025-Cheng-ELEPHANT Social Sycophancy*: Affiliation: University of Oxford, Email: syu03@stanford.edu
 - *From 2025-Cheng-ELEPHANT Social Sycophancy*: Affiliation: University of Oxford, Email: myra@cs.stanford.edu

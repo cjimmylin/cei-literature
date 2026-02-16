@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Satheesh-GG-BBQ|GG-BBQ]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de

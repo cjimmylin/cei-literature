@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese|GlórIA: A Generative and Open Large Language Model for Portuguese]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese*: Affiliation: School of Science and Technology, Portugal, Email: rv.lopes@campus.fct.unl.pt
 - *From 2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese*: Affiliation: School of Science and Technology, Portugal, Email: rv.lopes@campus.fct.unl.pt
 - *From 2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese*: Affiliation: School of Science and Technology, Portugal, Email: rv.lopes@campus.fct.unl.pt
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -33,6 +33,7 @@ Denis Dimitrov is a research scientist at SberDevices working on large language 
 
 
 
+
 - [[2025-Vasilev-RusCode|RusCode]] (Last Author)
 - [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]] (Last Author)
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]

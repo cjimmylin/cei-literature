@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents|Agent-SafetyBench: Evaluating the Safety of LLM Agents]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zhang-LLMEval-Med Medical Safety & Ethics Component|LLMEval-Med (Medical Safety & Ethics Component)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zhang-LLMEval-Med Medical Safety & Ethics Component*: Affiliation: College of Computer Science and Artificial Intelligence, Fudan University, Email: qz@fudan.edu.cn
 - *From 2025-Zhang-LLMEval-Med Medical Safety & Ethics Component*: Affiliation: College of Computer Science and Artificial Intelligence, Fudan University, Email: qz@fudan.edu.cn
 - *From 2025-Zhang-LLMEval-Med Medical Safety & Ethics Component*: Affiliation: College of Computer Science and Artificial Intelligence, Fudan University, Email: mingzhang23@m.fudan.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

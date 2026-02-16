@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]]
 - [[2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for|Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh]]
 - [[2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment|HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment]]
@@ -37,6 +38,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu
 - *From 2020-Zampieri-SemEval-2020 Task 12*: Affiliation: Institute of Technology, USA, 2Qatar Computing Research Institute, Qatar, Email: marcos.zampieri@rit.edu

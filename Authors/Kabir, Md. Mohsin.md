@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Jim-Recent advancements and challenges of NLP-based sentiment analysis A|Recent advancements and challenges of NLP-based sentiment analysis A]]
+- [[2025-Jim-Recent advancements and challenges of NLP-based sentiment analysis A|Recent advancements and challenges of NLP-based sentiment analysis: A state-of-the-art review - ScienceDirect]]
 
 ## External Links & Profiles
 

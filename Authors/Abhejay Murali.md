@@ -35,7 +35,9 @@ Abhejay contributes to the development of systematic benchmarks for AI ethics. H
 
 
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]]
+- [[2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for|LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models]]
 - [[2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...|Mind the Dialect: NLP Advancements Uncover Fairness ...]] (Last Author)
 
 ## External Links & Profiles
@@ -48,6 +50,8 @@ Abhejay contributes to the development of systematic benchmarks for AI ethics. H
 
 
 
+
+- *From 2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for*: Affiliation: laborative advancement
 - *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
 - *From 2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ...*: Affiliation: University of Southern California
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu

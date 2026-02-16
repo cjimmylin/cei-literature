@@ -25,6 +25,7 @@ Mantas Mazeika is a Researcher at the Center for AI Safety (2024-Present). He co
 
 
 
+
 - [[2025-Chiu-MoReBench|MoReBench]]
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]] (First Author)
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
@@ -41,6 +42,8 @@ Mantas Mazeika is a Researcher at the Center for AI Safety (2024-Present). He co
 
 
 
+
+- *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: lbo@illinois.edu
 - *From 2023-Wang-DecodingTrust*: Affiliation: University of Illinois at Urbana-Champaign, Email: boxinw2@illinois.edu

@@ -31,6 +31,7 @@ Dr. Jiamou Liu is a Senior Lecturer in the School of Computer Science at the Uni
 
 
 
+
 - [[2018-Zhao-Finding Answers from the Word of God|Finding Answers from the Word of God]] (Last Author)
 
 ## Notes
@@ -39,6 +40,8 @@ Dr. Jiamou Liu is a Senior Lecturer in the School of Computer Science at the Uni
 
 
 
+
+- *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz
 - *From 2018-Zhao-Finding Answers from the Word of God*: Affiliation: Department of Computer Science, Email: jiamou.liu@auckland.ac.nz

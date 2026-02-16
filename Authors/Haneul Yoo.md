@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+- [[2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun|Evaluating LLMs' Language Confusion in Code-switching Context Juhyun Oh KAIST]]
 - [[2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...|Code-Switching Curriculum Learning for Multilingual ...]] (First Author)
 - [[2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual|Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding]] (First Author)
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -87,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...*:, Email: haneul.yoo@kaist.ac.kr
 - *From 2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...*:, Email: haneul.yoo@kaist.ac.kr
 - *From 2025-Yoo-Code-Switching Curriculum Learning for Multilingual ...*:, Email: haneul.yoo@kaist.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

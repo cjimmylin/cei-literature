@@ -36,6 +36,7 @@ Elgizouli Mohamed is a researcher working on Arabic natural language processing 
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Links

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis|AI Ethical Resonance Hypothesis]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis*:, Email: tomcuber@aiethos.co
 - *From 2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis*:, Email: tomcuber@aiethos.co
 - *From 2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis*:, Email: tomcuber@aiethos.co
 - *From 2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis*:, Email: tomcuber@aiethos.co

@@ -21,6 +21,7 @@ Xuelin Liu (刘学林) is affiliated with the School of Computing and Artificial
 
 
 
+
 - [[2024-Liu-Evaluating Moral Beliefs across LLMs through a|Evaluating Moral Beliefs across LLMs through a]] (First Author)
 
 ## Notes
@@ -29,6 +30,8 @@ Xuelin Liu (刘学林) is affiliated with the School of Computing and Artificial
 
 
 
+
+- *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: zhu_shucheng@126.com
 - *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: yudong_blcu@126.com
 - *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: yudong_blcu@126.com
 - *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: liupengyuan@pku.edu.cn

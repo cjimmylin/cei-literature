@@ -23,6 +23,7 @@ Jiayi Zhou is a Ph.D. student at Peking University and a member of the PKU-Align
 
 
 
+
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
@@ -33,6 +34,8 @@ Jiayi Zhou is a Ph.D. student at Peking University and a member of the PKU-Align
 
 
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge

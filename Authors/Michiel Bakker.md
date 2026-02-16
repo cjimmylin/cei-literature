@@ -33,6 +33,7 @@ His work on "Value Profiles for Encoding Human Variation" represents an importan
 
 
 
+
 - [[2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs|OvertonScore: Benchmarking Overton Pluralism in LLMs]] (Last Author)
 - [[2025-Sorensen-Value Profiles for Encoding Human Variation|Value Profiles for Encoding Human Variation]]
 
@@ -48,6 +49,8 @@ His work on "Value Profiles for Encoding Human Variation" represents an importan
 
 
 
+
+- *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology
 - *From 2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs*: Affiliation: Institute of Technology

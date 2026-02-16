@@ -32,6 +32,7 @@ Abdullah's technical focus is on the practical application of NLP models. He has
 
 
 
+
 - [[2021-Munshi-Towards an Automated Islamic Fatwa System|Towards an Automated Islamic Fatwa System]]
 
 ## External Links & Profiles
@@ -45,6 +46,8 @@ Abdullah's technical focus is on the practical application of NLP models. He has
 
 
 
+
+- *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: whsabban@uqu.edu.sa
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: aaamunshi@uqu.edu.sa
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: i@omarito.me
 - *From 2021-Munshi-Towards an Automated Islamic Fatwa System*: Affiliation: lable Online at www, Email: ahmad.elsallab@gmail.com

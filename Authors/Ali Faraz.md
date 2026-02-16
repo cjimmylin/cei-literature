@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding|IndicVisionBench Benchmarking Cultural and Multilingual Understanding]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Basile-NepX-Hate A Nepali Hate Speech Corpus*: Affiliation: centered on Nepali with an auxiliary
 - *From 2025-Basile-NepX-Hate A Nepali Hate Speech Corpus*: Affiliation: centered on Nepali with an auxiliary
 - *From 2025-Basile-NepX-Hate A Nepali Hate Speech Corpus*: Affiliation: centered on Nepali with an auxiliary
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-A.-Operationalizing Cultural Values in Language Models A Comparative|Operationalizing Cultural Values in Language Models: A Comparative Analysis Using Hofstede's Dimensions]] (First Author)
 
 ## External Links & Profiles

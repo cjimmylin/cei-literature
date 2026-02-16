@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]]
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
 - [[2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language|Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture]] (First Author)
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: jiayan13@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: zhehua1@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: yuhenghuang42@g.ecc.u
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: jiayan13@ualberta.ca

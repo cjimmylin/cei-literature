@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Sah-FairEval Evaluating Fairness in LLM-Based ...|FairEval: Evaluating Fairness in LLM-Based ...]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Sah-FairEval Evaluating Fairness in LLM-Based ...*: Affiliation: School of Computer Science and Engineering, Beihang University, Beijing, China, Email: Tony.xu@mail.mcgill.ca
 - *From 2025-Sah-FairEval Evaluating Fairness in LLM-Based ...*: Affiliation: School of Computer Science and Engineering, Beihang University, Beijing, China, Email: Tony.xu@mail.mcgill.ca
 - *From 2025-Sah-FairEval Evaluating Fairness in LLM-Based ...*: Affiliation: School of Computer Science and Engineering, Beihang University, Beijing, China, Email: Tony.xu@mail.mcgill.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

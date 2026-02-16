@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech|Leveraging LLM and Self-Supervised Training Models for Speech Recognition in Chinese Dialects: A Comparative Analysis]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech*: Affiliation: Institute of Artificial Intelligence (TeleAI), China Telecom, China, Email: lxie@nwpu.edu.cn
 - *From 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech*: Affiliation: Institute of Artificial Intelligence (TeleAI), China Telecom, China, Email: xutianyi@mail.nwpu.edu.cn
 - *From 2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech*: Affiliation: Institute of Artificial Intelligence (TeleAI), China Telecom, China, Email: lxie@nwpu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

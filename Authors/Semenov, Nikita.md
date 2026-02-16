@@ -1,9 +1,9 @@
 ---
 name: "Semenov, Nikita"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS)"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "nikita.semenov@mts.ru"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task|RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora]]]]
 
 - [[2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task|RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task*: Affiliation: Institute of Science and Technology (Skoltech), 2Mobile TeleSystems (MTS), Email: nikita.semenov@mts.ru
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

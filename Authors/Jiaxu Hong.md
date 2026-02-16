@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Shi-Benchmarking four large language models’ performance of addressing|Benchmarking four large language models’ performance of addressing]]
+- [[2025-Shi-Benchmarking four large language models’ performance of addressing|Benchmarking four large language models' performance of addressing Chinese patients' inquiries about dry eye disease: A two-phase study - ScienceDirect]] (Last Author)
 
 ## External Links & Profiles
 

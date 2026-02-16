@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-On the Convergence of Moral Self-Correction in LLMs|On the Convergence of Moral Self-Correction in LLMs]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: zhiyuxue@ucsb.com
 - *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: maoht@amazon.com
 - *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: maoht@amazon.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

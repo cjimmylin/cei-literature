@@ -23,6 +23,7 @@ Diego Alves is a researcher working on natural language processing and explainab
 
 
 
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 
@@ -32,6 +33,8 @@ Diego Alves is a researcher working on natural language processing and explainab
 
 
 
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: jptrager@usc.edu

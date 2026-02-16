@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite|From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation]] (First Author)
 - [[2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean|HRET: A Self-Evolving LLM Evaluation Toolkit for Korean]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite*: Affiliation: college level, Email: guijin.son@onelineai.com
 - *From 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite*: Affiliation: college level, Email: guijin.son@onelineai.com
 - *From 2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite*: Affiliation: college level, Email: guijin.son@onelineai.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models|Bridging the Bosphorus: Advancing Turkish Large Language Models through Strategies for Low-Resource Language Adaptation and Benchmarking]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models*: Affiliation: University, KUIS AI Center, 2Koc¸ University, Department of Computer Engineering
 - *From 2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models*: Affiliation: University, KUIS AI Center, 2Koc¸ University, Department of Computer Engineering
 - *From 2024-Acikgoz-Bridging the Bosphorus Advancing Turkish Large Language Models*: Affiliation: University, KUIS AI Center, 2Koc¸ University, Department of Computer Engineering
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

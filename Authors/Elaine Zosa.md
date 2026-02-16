@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM|Got Compute, but No Data: Lessons From Post-training a Finnish LLM]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
 - *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
 - *From 2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM*: Affiliation: University of Turku, Finland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

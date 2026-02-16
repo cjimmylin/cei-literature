@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis|Cultural Alignment in Large Language Models: An Explanatory Analysis Based on Hofstede's Cultural Dimensions]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis*: Affiliation: Department of Electronic and Electrical Engineering, University College London
 - *From 2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis*: Affiliation: Department of Electronic and Electrical Engineering, University College London
 - *From 2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis*: Affiliation: Department of Electronic and Electrical Engineering, University College London
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

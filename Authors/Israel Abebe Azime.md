@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering|AmharicStoryQA A Multicultural Story Question Answering]] (First Author)
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource|ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding]] (First Author)
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 - *From 2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource*: Affiliation: University, 2 MBZUAI, 3 Lelapa AI, 4 Instituto Politécnico Nacional
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

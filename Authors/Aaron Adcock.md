@@ -37,6 +37,7 @@ Aaron's work centers on the intersection of computer vision and natural language
 
 
 
+
 - [[2023-Gustafson-FACET|FACET]]
 
 ## External Links & Profiles
@@ -54,6 +55,8 @@ Aaron's work centers on the intersection of computer vision and natural language
 
 
 
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com

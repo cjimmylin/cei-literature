@@ -23,6 +23,7 @@ Maxwell Forbes is an NLP researcher affiliated with the University of Washington
 
 
 
+
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
 - [[2021-Emelin-Moral Stories|Moral Stories]]
@@ -34,6 +35,8 @@ Maxwell Forbes is an NLP researcher affiliated with the University of Washington
 
 
 
+
+- *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington

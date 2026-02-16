@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Sun-Benchmarking Hallucination in Large Language|Benchmarking Hallucination in Large Language]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: guoqipeng@pjlab.org.cn
 - *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: sunyuhong@stu.ecnu.edu.cn
 - *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: sunyuhong@stu.ecnu.edu.cn
 - *From 2024-Sun-Benchmarking Hallucination in Large Language*: Affiliation: Institute, East China Normal University, Email: hzhao@sei.ecnu.edu.cn

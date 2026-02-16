@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Erdem-Cetvel A Unified Benchmark for Evaluating|Cetvel A Unified Benchmark for Evaluating]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Erdem-Cetvel A Unified Benchmark for Evaluating*: Affiliation: Department of Computer Engineering, Koç University, Email: aber@ku.edu.tr
 - *From 2025-Erdem-Cetvel A Unified Benchmark for Evaluating*: Affiliation: Department of Computer Engineering, Koç University, Email: aber@ku.edu.tr
 - *From 2025-Erdem-Cetvel A Unified Benchmark for Evaluating*: Affiliation: Department of Computer Engineering, Koç University, Email: aber@ku.edu.tr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

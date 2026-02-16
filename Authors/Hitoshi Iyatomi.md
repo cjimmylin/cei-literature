@@ -24,6 +24,7 @@ Hitoshi Iyatomi is a Professor at Hosei University's Department of Applied Infor
 
 
 
+
 - [[2024-Ohashi-Extended Japanese Commonsense Morality Dataset|Extended Japanese Commonsense Morality Dataset]] (Last Author)
 
 ## Notes
@@ -32,6 +33,8 @@ Hitoshi Iyatomi is a Professor at Hosei University's Department of Applied Infor
 
 
 
+
+- *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: tsubasa.nakagawa.5p@stu.hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: iyatomi@hosei.ac.jp
 - *From 2024-Ohashi-Extended Japanese Commonsense Morality Dataset*: Affiliation: Label Enhancement, Email: takumi.ohashi.4g@stu.hosei.ac.jp

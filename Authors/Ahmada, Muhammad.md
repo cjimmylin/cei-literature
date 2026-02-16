@@ -57,9 +57,10 @@ twitter: ""
 
 
 
-- [[2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language|Qalb Largest State-of-the-Art Urdu Large Language]] (Last Author)
+
+- [[2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language|Qalb Largest State-of-the-Art Urdu Large Language]] (Last Author)
+- [[2025-Shafique-Alif Advancing Urdu Large Language Models|Alif Advancing Urdu Large Language Models]]
 - [[2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech|A Large Language Model-Based Approach for Multilingual Hate Speech Detection on Social Media]]
-- [[2025-[[Unknown]]-Alif Advancing Urdu Large Language Models|Alif Advancing Urdu Large Language Models]]
 - [[2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African|MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages]]
 
 ## External Links & Profiles
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

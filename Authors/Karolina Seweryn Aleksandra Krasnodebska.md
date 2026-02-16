@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish|PL-Guard: Benchmarking Language Model Safety for Polish]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish*: Affiliation: Research Institute, Warsaw, Poland
 - *From 2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish*: Affiliation: Research Institute, Warsaw, Poland
 - *From 2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish*: Affiliation: Research Institute, Warsaw, Poland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

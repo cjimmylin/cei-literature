@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias|Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link]] (First Author)
 
 ## External Links & Profiles

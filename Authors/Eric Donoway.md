@@ -30,6 +30,7 @@ Eric Donoway is a researcher at Apollo Research, an organization focused on AI s
 
 
 
+
 - [[2025-Arike-A Framework for Analyzing and Measuring Goal|A Framework for Analyzing and Measuring Goal]]
 
 ## Notes
@@ -38,6 +39,8 @@ Eric Donoway is a researcher at Apollo Research, an organization focused on AI s
 
 
 
+
+- *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 - *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 - *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com
 - *From 2025-Arike-A Framework for Analyzing and Measuring Goal*:, Email: rauno.arike@gmail.com

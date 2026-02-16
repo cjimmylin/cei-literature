@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model|CroissantLLM: A Truly Bilingual French-English Language Model]]
 - [[2018-Berberich-The Virtuous Machine|The Virtuous Machine]] (First Author)
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
 - *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
 - *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de
 - *From 2018-Berberich-The Virtuous Machine*: Affiliation: Department of Electrical and Computer Engineering, Technical University of Munich, Email: n.berberich@tum.de

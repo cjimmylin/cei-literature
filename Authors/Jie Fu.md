@@ -23,6 +23,7 @@ Jie Fu is a researcher currently at Shanghai AI Lab (since August 2024), working
 
 
 
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2021-Sun-LaoPLM Pre-trained Language Models for Lao|LaoPLM Pre-trained Language Models for Lao]]
 
@@ -32,6 +33,8 @@ Jie Fu is a researcher currently at Shanghai AI Lab (since August 2024), working
 
 
 
+
+- *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: jiangshengyi@163.com
 - *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: jiangshengyi@163.com
 - *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: neakail@outlook.com
 - *From 2021-Sun-LaoPLM Pre-trained Language Models for Lao*: Affiliation: School of Information Science and Technology, Guangdong University of Foreign Studies, Guangzhou, China, Email: neakail@outlook.com

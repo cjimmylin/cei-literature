@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hosseinbeigi-Advancing Persian LLM Evaluation|Advancing Persian LLM Evaluation]]
 - [[2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian|ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian*: Affiliation: Department, University of British Columbia, Vancouver, Canada, Email: sara.baruni@ut.ac.ir
 - *From 2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian*: Affiliation: Department, University of British Columbia, Vancouver, Canada, Email: mostafa.masoudi@ut.ac.ir
 - *From 2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian*: Affiliation: Department, University of British Columbia, Vancouver, Canada, Email: y.yaghoobzadeh@ut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

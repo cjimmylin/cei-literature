@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Lu-The Chai Platform's AI Safety Framework|The Chai Platform's AI Safety Framework]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 - *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 - *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted
 - *From 2023-Lu-The Chai Platform's AI Safety Framework*: Affiliation: centres and adapted

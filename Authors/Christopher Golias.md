@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African|Decolonizing LLMs An Ethnographic Framework for AI in African]]
+- [[2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African|Decolonizing LLMs: An Ethnographic Framework for AI in African Contexts - EPIC]]
 
 ## External Links & Profiles
 

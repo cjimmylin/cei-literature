@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Terziyan-Towards ethical evolution|Towards ethical evolution]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Terziyan-Towards ethical evolution*: Affiliation: lability, as well as significant, Email: oleksandr.terziyan@nure.ua
 - *From 2025-Terziyan-Towards ethical evolution*: Affiliation: lability, as well as significant, Email: oleksandra.vitko@nure.ua
 - *From 2025-Terziyan-Towards ethical evolution*: Affiliation: lability, as well as significant, Email: mariia.golovianko@nure.ua
 - *From 2025-Terziyan-Towards ethical evolution*: Affiliation: lability, as well as significant, Email: mariia.golovianko@nure.ua

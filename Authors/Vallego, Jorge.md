@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish*: Affiliation: University, 10Universidad de Jaén, 11Universidad Nacional de Córdoba, Email: maria.grandury@somosnlp.org
 - *From 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish*: Affiliation: University, 10Universidad de Jaén, 11Universidad Nacional de Córdoba, Email: maria.grandury@somosnlp.org
 - *From 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish*: Affiliation: University, 10Universidad de Jaén, 11Universidad Nacional de Córdoba, Email: maria.grandury@somosnlp.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

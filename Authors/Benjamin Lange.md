@@ -51,6 +51,7 @@ Lange leads a research group dedicated to exploring the ethical foundations of a
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 
 ## External Links & Profiles
@@ -65,6 +66,8 @@ Lange leads a research group dedicated to exploring the ethical foundations of a
 
 
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

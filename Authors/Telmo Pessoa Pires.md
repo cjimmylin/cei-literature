@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law|LegalBench.PT: A Benchmark for Portuguese Law]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law*: Affiliation: University Law Center, Email: leonormeloribeiro@outlook.com
 - *From 2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law*: Affiliation: University Law Center, Email: leonormeloribeiro@outlook.com
 - *From 2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law*: Affiliation: University Law Center, Email: telmo@equall.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

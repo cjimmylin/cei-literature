@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Panda-IndRegBias A Dataset for Studying Indian|IndRegBias A Dataset for Studying Indian]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
 - *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
 - *From 2026-Panda-IndRegBias A Dataset for Studying Indian*: Affiliation: Department of Data Science and Engineering, Indian Institute of Science Education and Research, Bhopal, Email: neelesh.kumar.shukla@oracle.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

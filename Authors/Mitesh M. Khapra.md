@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts|FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts]] (Last Author)
 - [[2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM|Airavata Introducing Hindi Instruction-tuned LLM]]
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts*: Affiliation: Centre at AI4Bharat, Email: janki@ai4bharat.org
 - *From 2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts*: Affiliation: Centre at AI4Bharat, Email: danishp@iisc.ac.in
 - *From 2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts*: Affiliation: Centre at AI4Bharat, Email: janki@ai4bharat.org
 - *From 2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts*: Affiliation: Centre at AI4Bharat, Email: janki@ai4bharat.org

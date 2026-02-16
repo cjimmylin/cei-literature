@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT|ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT*: Affiliation: labeling to only, Email: han.qiu@tsinghua.edu.cn
 - *From 2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT*: Affiliation: labeling to only, Email: axel.delaval.2022@polytechnique.org
 - *From 2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT*: Affiliation: labeling to only, Email: axel.delaval.2022@polytechnique.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

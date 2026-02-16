@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated|BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated*: Affiliation: label Hate Speech Detection Dataset for Transliterated - PDF Extract", Email: fahimcse381@gmail.com
 - *From 2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated*: Affiliation: label Hate Speech Detection Dataset for Transliterated - PDF Extract", Email: pdcsedu@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

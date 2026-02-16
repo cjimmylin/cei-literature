@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Hutchinson-Modeling the Sacred Considerations when Using|Modeling the Sacred Considerations when Using]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Hutchinson-Modeling the Sacred Considerations when Using*: Affiliation: lable in electronic form, and, Email: benhutch@google.com
 - *From 2024-Hutchinson-Modeling the Sacred Considerations when Using*: Affiliation: lable in electronic form, and, Email: benhutch@google.com
 - *From 2024-Hutchinson-Modeling the Sacred Considerations when Using*: Affiliation: lable in electronic form, and, Email: benhutch@google.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

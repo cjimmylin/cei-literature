@@ -24,6 +24,7 @@ Zhexin Zhang is a researcher at The CoAI (Conversational AI) group, Department o
 
 
 
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]] (First Author)
 - [[2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents|Agent-SafetyBench: Evaluating the Safety of LLM Agents]] (First Author)
 - [[2024-Zhang-SafetyBench|SafetyBench]] (First Author)
@@ -35,6 +36,8 @@ Zhexin Zhang is a researcher at The CoAI (Conversational AI) group, Department o
 
 
 
+
+- *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: aihuang@tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn
 - *From 2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents*:, Email: zx-zhang22@mails.tsinghua.edu.cn

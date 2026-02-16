@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Team-GuardBench|GuardBench]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Team-GuardBench*:, Email: elias.bassani@ec.europa.eu
 - *From 2024-Team-GuardBench*:, Email: elias.bassani@ec.europa.eu
 - *From 2024-Team-GuardBench*:, Email: ignacio.sanchez@ec.europa.eu
 - *From 2024-Team-GuardBench*:, Email: ignacio.sanchez@ec.europa.eu

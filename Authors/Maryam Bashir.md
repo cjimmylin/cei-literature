@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith|ISE-Hate A Benchmark Corpus for Inter-faith]]
+- [[2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith|ISE-Hate A Benchmark Corpus for Inter-faith]] (Last Author)
 
 ## External Links & Profiles
 

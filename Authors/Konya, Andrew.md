@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between|Using Collective Dialogues and AI to Find Common Ground Between Israeli and Palestinian Peacebuilders]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between*: Affiliation: College London, Email: bakker@mit.edu
 - *From 2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between*: Affiliation: College London, Email: lschirch@nd.edu
 - *From 2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between*: Affiliation: College London, Email: andrew@remesh.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

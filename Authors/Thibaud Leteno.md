@@ -23,6 +23,7 @@ Thibaud Leteno is a PhD student in Machine Learning at the Hubert Curien Laborat
 
 
 
+
 - [[2025-Leteno-Histoires Morales|Histoires Morales]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Thibaud Leteno is a PhD student in Machine Learning at the Hubert Curien Laborat
 
 
 
+
+- *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: irina.proskurina@univ-lyon2.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: thibaud.leteno@univ-st-etienne.fr
 - *From 2025-Leteno-Histoires Morales*: Affiliation: Laboratoire Hubert Curien, UMR CNRS 5516, Saint-Etienne, France, Email: thibaud.leteno@univ-st-etienne.fr

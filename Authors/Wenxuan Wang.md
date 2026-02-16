@@ -23,10 +23,12 @@ Wenxuan Wang is a PhD student at the Chinese University of Hong Kong specializin
 
 
 
+
 - [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]]
 - [[2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional|EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans]]
 - [[2024-Wang-All Languages Matter|All Languages Matter]] (First Author)
 - [[2024-Wang-All Languages Matter On the Multilingual Safety of Large Language|All Languages Matter: On the Multilingual Safety of Large Language Models]] (First Author)
+- [[2024-Wang-XSafety Multilingual Safety Benchmark|XSafety: Multilingual Safety Benchmark]] (First Author)
 
 ## Notes
 
@@ -34,6 +36,8 @@ Wenxuan Wang is a PhD student at the Chinese University of Hong Kong specializin
 
 
 
+
+- *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter On the Multilingual Safety of Large Language*: Affiliation: University of Hong Kong
 - *From 2024-Wang-All Languages Matter*: Affiliation: University of Hong Kong

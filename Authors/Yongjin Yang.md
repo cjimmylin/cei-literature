@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual|Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual*: Affiliation: lable at https://github, Email: hwaranlee@sogang.ac.kr
 - *From 2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual*: Affiliation: lable at https://github, Email: hwaranlee@sogang.ac.kr
 - *From 2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual*: Affiliation: lable at https://github, Email: hwaranlee@sogang.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

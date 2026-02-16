@@ -34,6 +34,14 @@
 
 ---
 
+## 2026-02-16 (Session 86 RIGHT)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Author Management | **Rebuild Pipeline Creates Systematic Garbage Stubs:** `rebuild_author_profiles.py` generates garbage from malformed `authors` fields — single-letter initials (`A.`, `B.`), non-person words (`approach`, `contributions`, `LLMs`), concatenated two-person names without commas (`Hiroshi Ishiguro Emily Burdett`), institutional names, and editor labels. A 162-stub rebuild yielded 66 garbage (40%). Always run `cleanup_garbage_authors.py` after any full rebuild. |
+| 2026-02-16 | Author Management | **Concatenated Two-Person Stubs Are Identifiable by Template Size:** New stub profiles are exactly 23 lines (the template size). Combined with pattern recognition (two capitalized full names without comma separation), this creates a reliable heuristic for automated garbage detection. Existing profiles have 39+ lines due to accumulated paper list entries. |
+| 2026-02-16 | Workflows | **Report Scripts Layer Multiple Data Sources by Design:** `generate_vault_overview_report.py` loads 924 classifications (old survey) + 528 candidates (old) alongside scanning 2,034 papers live. `generate_vault_dashboard.py` shows 2,002 KPI (from classifications JSON) but scans 2,034 papers. These discrepancies are intentional — each data source serves a different analytical purpose. |
+
 ## 2026-02-16 (Session 86)
 
 | Date | Category | Learning |

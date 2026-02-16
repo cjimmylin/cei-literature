@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Enkhbold-A new dataset for mongolian online handwritten recognition|A new dataset for mongolian online handwritten recognition]] (First Author)
 - [[2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences|Text and Value | Mongolian Journal of Humanities and Social Sciences]] (First Author)
 

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Aggarwal-Letta Leaderboard|Letta Leaderboard]] (Last Author)
 - [[2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset|L3Cube-IndicQuest A Benchmark Question Answering Dataset]] (First Author)
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset*: Affiliation: Institute of Computer Technology1
 - *From 2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset*: Affiliation: Institute of Computer Technology1
 - *From 2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset*: Affiliation: Institute of Computer Technology1
 - *From 2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset*: Affiliation: Institute of Computer Technology1

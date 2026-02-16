@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Mazeika-Utility Engineering|Utility Engineering]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety
 - *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety
 - *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety
 - *From 2025-Mazeika-Utility Engineering*: Affiliation: Center for AI Safety

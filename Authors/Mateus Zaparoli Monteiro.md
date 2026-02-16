@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of|Examining the Behavior of LLM Architectures Within the Framework of Standardized National Exams in Brazil]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of*: Affiliation: school level tests on Math, Human-, Email: eduardo@cedeplar.ufmg.br
 - *From 2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of*: Affiliation: school level tests on Math, Human-, Email: eduardo@cedeplar.ufmg.br
 - *From 2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of*: Affiliation: school level tests on Math, Human-, Email: eduardo@cedeplar.ufmg.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

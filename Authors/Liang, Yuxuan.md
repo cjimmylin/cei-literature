@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Liang-Cross-Language Bias Examination in Large Language Models|Cross-Language Bias Examination in Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Liang-Cross-Language Bias Examination in Large Language Models*: Affiliation: Institute of Technology, Email: marwa.mahmoud@cl.cam.ac.uk
 - *From 2024-Liang-Cross-Language Bias Examination in Large Language Models*: Affiliation: Institute of Technology, Email: yliang372@gatech.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

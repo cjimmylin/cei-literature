@@ -34,6 +34,7 @@ Amal's research focuses on developing robust named entity recognition and evalua
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## External Links & Profiles
@@ -45,6 +46,8 @@ Amal's research focuses on developing robust named entity recognition and evalua
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

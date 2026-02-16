@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Rauh-Characteristics of Harmful Text|Characteristics of Harmful Text]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 - *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 - *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com
 - *From 2022-Rauh-Characteristics of Harmful Text*:, Email: mbrauh@deepmind.com

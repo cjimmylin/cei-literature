@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering|KoBBQ: Korean Bias Benchmark for Question Answering]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: hwaran.lee@navercorp.com
 - *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: hwaran.lee@navercorp.com
 - *From 2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering*: Affiliation: School of Computing, KAIST, Email: alice.oh@kaist.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

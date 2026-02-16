@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Vasilev-RusCode|RusCode]]
 - [[2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation|RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation]]
 - [[2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused|CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu
 - *From 2025-Vasilev-RusCode*: Affiliation: University, 4SberDevices, 5AIRI, Email: vasilev.va@phystech.edu

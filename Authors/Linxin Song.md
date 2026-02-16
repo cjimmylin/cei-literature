@@ -24,6 +24,7 @@ Linxin Song is a second-year CS Ph.D. student at University of Southern Californ
 
 
 
+
 - [[2025-Song-The Hallucination Tax of Reinforcement Finetuning|The Hallucination Tax of Reinforcement Finetuning]] (First Author)
 - [[2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated|AncientBench Towards Comprehensive Evaluation on Excavated]]
 
@@ -33,6 +34,8 @@ Linxin Song is a second-year CS Ph.D. student at University of Southern Californ
 
 
 
+
+- *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk

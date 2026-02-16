@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for|Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for*: Affiliation: Lab, Singapore University of Technology and Design, Singapore, Email: rishabh_bhardwaj@mymail.sutd.edu.sg
 - *From 2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for*: Affiliation: Lab, Singapore University of Technology and Design, Singapore, Email: sporia@sutd.edu.sg
 - *From 2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for*: Affiliation: Lab, Singapore University of Technology and Design, Singapore, Email: sporia@sutd.edu.sg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

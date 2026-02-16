@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects|Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects*:, Email: yiwenyshao@global.tencent.com
 - *From 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects*:, Email: kalvinchang@berkeley.edu
 - *From 2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects*:, Email: kalvinchang@berkeley.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

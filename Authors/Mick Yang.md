@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI
 - *From 2025-Ren-The MASK Benchmark*: Affiliation: Center for AI Safety 2Scale AI

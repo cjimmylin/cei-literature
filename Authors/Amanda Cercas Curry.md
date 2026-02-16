@@ -47,6 +47,7 @@ Dr. Amanda Cercas Curry is a researcher at CENTAI, working on applied NLP, fairn
 
 
 
+
 - [[2021-Cercas Curry-ConvAbuse|ConvAbuse]] (First Author)
 
 ## External Links & Profiles
@@ -69,6 +70,8 @@ Dr. Amanda Cercas Curry is a researcher at CENTAI, working on applied NLP, fairn
 
 
 
+
+- *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh
 - *From 2021-Cercas Curry-ConvAbuse*: Affiliation: Lab, Heriot-Watt University, Edinburgh

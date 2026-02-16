@@ -22,6 +22,7 @@ Pierre Le Jeune is a PhD Student affiliated with Université Sorbonne Paris Nord
 
 
 
+
 - [[2025-Le Jeune-Phare A Safety Probe for Large Language Models|Phare: A Safety Probe for Large Language Models]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Pierre Le Jeune is a PhD Student affiliated with Université Sorbonne Paris Nord
 
 
 
+
+- *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: benoit@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: matteo@giskard.ai
 - *From 2025-Le Jeune-Phare A Safety Probe for Large Language Models*:, Email: pierre@giskard.ai

@@ -28,6 +28,7 @@ At EleutherAI, Phang has helped establish a radically novel approach to AI resea
 
 
 
+
 - [[2022-Parrish-BBQ|BBQ]]
 - [[2022-Parrish-BBQ Bias Benchmark for Question Answering|BBQ (Bias Benchmark for Question Answering)]]
 
@@ -44,6 +45,8 @@ At EleutherAI, Phang has helped establish a radically novel approach to AI resea
 
 
 
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for|Fine-tuning Large Language Model (BERT) for]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for*: Affiliation: University Malaysia, 53100 Kuala Lumpur, Malaysia, Email: amiraatieff@iium.edu.my
 - *From 2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for*: Affiliation: University Malaysia, 53100 Kuala Lumpur, Malaysia, Email: amiraatieff@iium.edu.my
 - *From 2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for*: Affiliation: University Malaysia, 53100 Kuala Lumpur, Malaysia, Email: amiraatieff@iium.edu.my
 - *From 2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for*: Affiliation: University Malaysia, 53100 Kuala Lumpur, Malaysia, Email: amiraatieff@iium.edu.my

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Chen-PoliBias Parliamentary Voting Records|PoliBias (Parliamentary Voting Records)]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Chen-PoliBias Parliamentary Voting Records*: Affiliation: University of Oslo, Email: j.windt@student.vu.nl
 - *From 2026-Chen-PoliBias Parliamentary Voting Records*: Affiliation: University of Oslo, Email: karenmadejong@gmail.com
 - *From 2026-Chen-PoliBias Parliamentary Voting Records*: Affiliation: University of Oslo, Email: e.i.elderson.nosti@student.vu.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

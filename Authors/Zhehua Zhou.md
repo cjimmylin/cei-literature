@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language|Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: jiayan13@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: zhehua1@ualberta.ca
 - *From 2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language*: Affiliation: University of Alberta, Canada, Email: yuhenghuang42@g.ecc.u
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

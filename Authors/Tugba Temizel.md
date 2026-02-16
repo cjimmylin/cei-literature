@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Uluoglakci-HypoTermQA|HypoTermQA]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr
 - *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr
 - *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: cemuluoglakci@gmail.com
 - *From 2024-Uluoglakci-HypoTermQA*: Affiliation: School of Informatics, Email: ttemizel@metu.edu.tr

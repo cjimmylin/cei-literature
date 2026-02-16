@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Chern-BeHonest|BeHonest]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University
 - *From 2024-Chern-BeHonest*: Affiliation: University 2Carnegie Mellon University

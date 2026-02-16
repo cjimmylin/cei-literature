@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators|LLM Rationalis? Measuring Bargaining Capabilities of AI Negotiators]]
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: aka002@ucsd.edu
 - *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: c4shah@ucsd.edu
 - *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: c4shah@ucsd.edu
 - *From 2025-Shah-LLM Rationalis Measuring Bargaining Capabilities of AI Negotiators*: Affiliation: University of California San Diego, Email: aka002@ucsd.edu

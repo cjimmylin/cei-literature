@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Laukkonen-Contemplative Artificial Intelligence|Contemplative Artificial Intelligence]]
 
 ## Notes
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia
 - *From 2025-Laukkonen-Contemplative Artificial Intelligence*: Affiliation: Faculty of Health, Southern Cross University, Goldcoast, Australia

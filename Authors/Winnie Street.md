@@ -24,6 +24,7 @@ Winnie Street is a Senior Researcher at Google Research. Her work focuses on eva
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]] (First Author)
 
@@ -33,6 +34,8 @@ Winnie Street is a Senior Researcher at Google Research. Her work focuses on eva
 
 
 
+
+- *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of
 - *From 2024-Gabriel-The Ethics of Advanced AI Assistants*: Affiliation: University of

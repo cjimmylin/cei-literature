@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment|Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)]]
 - [[2025-Zhang-CultureScope A Dimensional Lens for Probing|CultureScope A Dimensional Lens for Probing]]
 - [[2022-Jiang-Can Machines Learn Morality|Can Machines Learn Morality?]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2022-Jiang-Can Machines Learn Morality*: Affiliation: School of Computer Science & Engineering, University of Washington

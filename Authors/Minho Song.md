@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using|Evaluation of Social Bias Classification Performance of LLMs Using]]
+- [[2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using|Evaluation of Social Bias Classification Performance of LLMs Using the KoSBI Dataset]] (First Author)
 
 ## External Links & Profiles
 

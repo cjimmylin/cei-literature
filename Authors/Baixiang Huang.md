@@ -49,6 +49,7 @@ She has published research on the "double-edged sword" of model editing, highlig
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Huang-Model Editing as a Double-Edged Sword|Model Editing as a Double-Edged Sword]] (First Author)
 - [[2023-Huang-Vigogne French instruction-following and chat models|Vigogne: French instruction-following and chat models]] (First Author)
@@ -68,6 +69,8 @@ She has published research on the "double-edged sword" of model editing, highlig
 
 
 
+
+- *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 - *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 - *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com
 - *From 2025-Huang-Model Editing as a Double-Edged Sword*:, Email: apayani@cisco.com

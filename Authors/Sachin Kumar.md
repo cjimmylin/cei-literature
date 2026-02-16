@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Jiang-WildTeaming at Scale|WildTeaming at Scale]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu
 - *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: nouhad@allenai.org
 - *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: nouhad@allenai.org
 - *From 2024-Jiang-WildTeaming at Scale*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-initiative-FaithBench AI Benchmark for Christian Theology|FaithBench AI Benchmark for Christian Theology]] (Last Author)
 
 ## External Links & Profiles

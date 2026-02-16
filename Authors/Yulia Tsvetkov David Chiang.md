@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and|DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and*: Affiliation: University of Washington
 - *From 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and*: Affiliation: University of Washington
 - *From 2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and*: Affiliation: University of Washington
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of|Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capable of Understanding Korean]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of*: Affiliation: centered on English, Email: ahagyue@snu.ac.kr
 - *From 2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of*: Affiliation: centered on English, Email: itforspark@snu.ac.kr
 - *From 2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of*: Affiliation: centered on English, Email: 99chanwoo@snu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

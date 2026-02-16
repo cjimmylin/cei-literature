@@ -57,8 +57,8 @@ twitter: ""
 
 
 
+
 - [[2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus|NaijaSenti A Nigerian Twitter Sentiment Corpus]] (Last Author)
-- [[2021-Jiang-Pre-trained Models and Evaluation Data for|Pre-trained Models and Evaluation Data for]] (Last Author)
 
 ## External Links & Profiles
 
@@ -86,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
 - *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
 - *From 2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus*: Affiliation: Faculty of Sciences-University of Porto, Portugal
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

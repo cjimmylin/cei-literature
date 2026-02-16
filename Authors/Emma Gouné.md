@@ -29,6 +29,7 @@ Emma Gouné is a researcher at the UK AI Safety Institute (AISI), working on met
 
 
 
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Notes
@@ -37,6 +38,8 @@ Emma Gouné is a researcher at the UK AI Safety Institute (AISI), working on met
 
 
 
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: akshat.naik@cs.ox.ac.uk
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info

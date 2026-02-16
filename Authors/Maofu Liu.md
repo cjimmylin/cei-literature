@@ -1,7 +1,7 @@
 ---
 name: "Maofu Liu"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "lable at ScienceDirect"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large|Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large*: Affiliation: lable at ScienceDirect
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

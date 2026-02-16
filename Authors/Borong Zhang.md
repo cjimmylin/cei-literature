@@ -49,6 +49,7 @@ Zhang has developed novel solvers for ptychographic phase retrieval and wideband
 
 
 
+
 - [[2025-Ji-PKU-SafeRLHF|PKU-SafeRLHF]]
 - [[2023-Ji-AI Alignment|AI Alignment]]
 - [[2023-Ji-Safety Gymnasium|Safety Gymnasium]]
@@ -64,6 +65,8 @@ Zhang has developed novel solvers for ptychographic phase retrieval and wideband
 
 
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge

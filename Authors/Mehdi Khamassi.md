@@ -24,6 +24,7 @@ Mehdi Khamassi is a CNRS Research Director at the Institute of Intelligent Syste
 
 
 
+
 - [[2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human|COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs]] (Last Author)
 - [[2024-Khamassi-Strong and weak alignment of large language models|Strong and weak alignment of large language models]] (First Author)
 
@@ -33,6 +34,8 @@ Mehdi Khamassi is a CNRS Research Director at the Institute of Intelligent Syste
 
 
 
+
+- *From 2024-Khamassi-Strong and weak alignment of large language models*: Affiliation: Institute of Intelligent Systems and Robotics, Sorbonne University /, Email: marceau.nahon@gmail.com
 - *From 2024-Khamassi-Strong and weak alignment of large language models*: Affiliation: Institute of Intelligent Systems and Robotics, Sorbonne University /, Email: mehdi.khamassi@sorbonne-universite.fr
 - *From 2024-Khamassi-Strong and weak alignment of large language models*: Affiliation: Institute of Intelligent Systems and Robotics, Sorbonne University /, Email: raja.chatila@sorbonne-universite.fr
 - *From 2024-Khamassi-Strong and weak alignment of large language models*: Affiliation: Institute of Intelligent Systems and Robotics, Sorbonne University /, Email: mehdi.khamassi@sorbonne-universite.fr

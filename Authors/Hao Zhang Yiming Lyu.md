@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to|Large language model (LLM) comparison between GPT-3 and PaLM-2 to produce Indonesian cultural content]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to*: Affiliation: Department of English Language Education, Email: deni@binadarma.ac.id
 - *From 2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to*: Affiliation: Department of English Language Education, Email: deni@binadarma.ac.id
 - *From 2024-Lyu-Large language model LLM comparison between GPT-3 and PaLM-2 to*: Affiliation: Department of English Language Education, Email: deni@binadarma.ac.id
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

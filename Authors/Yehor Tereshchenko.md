@@ -23,6 +23,7 @@ Yehor Tereshchenko is a researcher located in Tampere, Pirkanmaa, Finland. He ha
 
 
 
+
 - [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps|A Comparative Analysis of Ethical and Safety Gaps]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Yehor Tereshchenko is a researcher located in Tampere, Pirkanmaa, Finland. He ha
 
 
 
+
+- *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi

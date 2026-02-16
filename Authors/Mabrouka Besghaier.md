@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram|Available hate speech datasets for Arabic. Download Scientific Diagram]]
+- [[2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram|Available hate speech datasets for Arabic. | Download Scientific Diagram]]
 
 ## External Links & Profiles
 

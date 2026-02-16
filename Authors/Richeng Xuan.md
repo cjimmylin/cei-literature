@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark|LaoBench A Large-Scale Multidimensional Lao Benchmark]]
 - [[2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using|Uncovering Cross-Linguistic Disparities in LLMs using]] (First Author)
 - [[2024-Luo-HalluDial|HalluDial]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence

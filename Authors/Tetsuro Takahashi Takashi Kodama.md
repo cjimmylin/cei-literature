@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Sekine-AnswerCarefully A Dataset for Improving the|AnswerCarefully A Dataset for Improving the]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Sekine-AnswerCarefully A Dataset for Improving the*:, Email: satoru.katsumata@retrieva.jp
 - *From 2025-Sekine-AnswerCarefully A Dataset for Improving the*:, Email: hisamis@nii.ac.jp
 - *From 2025-Sekine-AnswerCarefully A Dataset for Improving the*:, Email: takahashi@ibe.kagoshima
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

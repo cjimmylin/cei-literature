@@ -33,6 +33,7 @@ He has received numerous awards including an ERC Advanced Grant and the German I
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Shen-HateBench|HateBench]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -54,6 +55,8 @@ He has received numerous awards including an ERC Advanced Grant and the German I
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu

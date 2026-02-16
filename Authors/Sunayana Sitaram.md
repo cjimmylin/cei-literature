@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment|Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment]]
 - [[2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF|GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF]]
 - [[2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages|MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks]] (Last Author)
@@ -33,6 +34,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: permissions@acm.org.
 - *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: da399@cornell.edu
 - *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: adityav@cornell.edu
 - *From 2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment*:, Email: da399@cornell.edu

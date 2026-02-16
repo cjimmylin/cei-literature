@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and|MAPS: A Multilingual Benchmark for Global Agent Performance and Security]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 - *From 2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and*:, Email: omer.hofman@fujitsu.com.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

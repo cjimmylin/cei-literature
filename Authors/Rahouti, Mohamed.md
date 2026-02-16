@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Machlovi-GuardEval|GuardEval]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 - *From 2025-Machlovi-GuardEval*: Affiliation: Department of Computer and Information Science, Fordham University, USA
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Nahian-The Goofus & Gallant Story Corpus for Practical|The Goofus & Gallant Story Corpus for Practical]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sfrazier7@gatech.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sfrazier7@gatech.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: harrison@cs.uky.edu
 - *From 2024-Nahian-The Goofus & Gallant Story Corpus for Practical*: Affiliation: Institute for Biomedical Informatics, Email: sa.nahian@uky.edu

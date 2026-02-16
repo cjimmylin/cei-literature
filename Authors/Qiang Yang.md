@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language|CulturePark: Boosting Cross-cultural Understanding in Large Language Models]]
 - [[2023-Chang-A Survey on Evaluation of Large Language Models|A Survey on Evaluation of Large Language Models]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: ypchang_jluai@outlook.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: yuanwu@jlu.edu.cn
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com
 - *From 2023-Chang-A Survey on Evaluation of Large Language Models*: Affiliation: School of Artificial Intelligence, Jilin University, China, Email: Jindong.wang@microsoft.com

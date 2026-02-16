@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text|Kazakh Language Dataset for Hate Speech Detection on Social Media Text]] (Last Author)
 - [[2024-Yeltay-Kazakh Language Dataset for Hate Speech|Kazakh Language Dataset for Hate Speech]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text*: Affiliation: University, Melbourne, Australia
 - *From 2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text*: Affiliation: University, Melbourne, Australia
 - *From 2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text*: Affiliation: University, Melbourne, Australia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

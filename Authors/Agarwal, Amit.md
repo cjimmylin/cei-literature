@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kumar-SweEval Do LLMs Really Swear A|SweEval Do LLMs Really Swear A]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: dongkyu@hanyang.ac.kr
 - *From 2025-Kumar-SweEval Do LLMs Really Swear A*: Affiliation: Institute of Information Technology Ranchi, 3TD Securities‡, Email: hitesh.laxmichand.patel@oracle.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

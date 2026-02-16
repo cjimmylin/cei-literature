@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wen-Yi-Do Chinese models speak Chinese languages|Do Chinese models speak Chinese languages?]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: unsojo@cornell.edu
 - *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: andreawwenyi@infosci.cornell.edu
 - *From 2025-Wen-Yi-Do Chinese models speak Chinese languages*:, Email: andreawwenyi@infosci.cornell.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

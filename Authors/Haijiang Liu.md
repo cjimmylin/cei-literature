@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]] (First Author)
 - [[2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large|Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation]] (First Author)
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: CHRISTINA.XIAO@wust.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: DH@di.ku.dk

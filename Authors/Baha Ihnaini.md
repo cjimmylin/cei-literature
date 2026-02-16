@@ -49,6 +49,7 @@ Dr. Ihnaini has contributed to the methodology and administration of projects fo
 
 
 
+
 - [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]] (Last Author)
 
 ## External Links & Profiles
@@ -66,6 +67,8 @@ Dr. Ihnaini has contributed to the methodology and administration of projects fo
 
 
 
+
+- *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 1235848@wku.edu.cn
 - *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 1235761@wku.edu.cn
 - *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 1235761@wku.edu.cn
 - *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: bihnaini@kean.edu

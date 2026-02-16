@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Nkemelu-Tackling Hate Speech in Low-resource Languages|Tackling Hate Speech in Low-resource Languages]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Nkemelu-Tackling Hate Speech in Low-resource Languages*: Affiliation: Institute of Technology, Email: dnkemelu@gatech.edu
 - *From 2022-Nkemelu-Tackling Hate Speech in Low-resource Languages*: Affiliation: Institute of Technology, Email: harshil18@gatech.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

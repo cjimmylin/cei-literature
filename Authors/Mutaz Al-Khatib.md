@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]]
 - [[2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and|QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment]]
 - [[2025-Ghaly-Assessing Large Language Models on Islamic|Assessing Large Language Models on Islamic]] (Last Author)
@@ -91,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
 - *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
 - *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar
 - *From 2025-Ghaly-Assessing Large Language Models on Islamic*: Affiliation: University, Qatar

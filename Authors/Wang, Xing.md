@@ -1,9 +1,9 @@
 ---
 name: "Wang, Xing"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, Suzhou, China"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "fandongmeng@tencent.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study|Is ChatGPT A Good Translator? A Preliminary Study]]
 
 ## External Links & Profiles
@@ -82,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study*: Affiliation: University, Suzhou, China, Email: fandongmeng@tencent.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

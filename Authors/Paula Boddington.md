@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2023-Boddington-Normative Ethical Theory AI Ethics|Normative Ethical Theory AI Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Boddington-Normative Ethical Theory AI Ethics*: Affiliation: School of Information Science and Technology, Hokkaido University
 - *From 2023-Boddington-Normative Ethical Theory AI Ethics*: Affiliation: School of Information Science and Technology, Hokkaido University
 - *From 2023-Boddington-Normative Ethical Theory AI Ethics*: Affiliation: School of Information Science and Technology, Hokkaido University
 - *From 2023-Boddington-Normative Ethical Theory AI Ethics*: Affiliation: School of Information Science and Technology, Hokkaido University

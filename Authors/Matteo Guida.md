@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: jptrager@usc.edu

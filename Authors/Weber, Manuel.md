@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API|Digital Guardians: Can GPT-4, Perspective API, and Moderation API reliably detect hate speech in reader comments of German online newspapers?]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API*: Affiliation: University of Applied Sciences, Email: alexander.doeschl@hm.edu
 - *From 2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API*: Affiliation: University of Applied Sciences, Email: alexander.doeschl@hm.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bai-Explicitly unbiased large language models still form biased|Explicitly unbiased large language models still form biased associations | PNAS]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 - *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 - *From 2025-Bai-Explicitly unbiased large language models still form biased*: Affiliation: University of Virginia, Charlottesville, VA; received August 11, 2024; accepted January 15, 2025
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

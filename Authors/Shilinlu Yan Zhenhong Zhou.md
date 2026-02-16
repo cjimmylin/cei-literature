@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against|CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against*: Affiliation: University of Posts and Telecommunications, Email: zhenhong001@e.ntu.edu.sg
 - *From 2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against*: Affiliation: University of Posts and Telecommunications, Email: zgzeng@hust.edu.cn
 - *From 2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against*: Affiliation: University of Posts and Telecommunications, Email: zgzeng@hust.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

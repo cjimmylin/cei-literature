@@ -28,6 +28,7 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 
 
 
+
 - [[2024-Röttger-XSTest|XSTest]]
 - [[2023-Kirk-SemEval-2023 Task 10|SemEval-2023 Task 10]] (First Author)
 
@@ -44,6 +45,8 @@ Alongside academia, she collaborates with industry at Google, OpenAI, and Meta A
 
 
 
+
+- *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 - *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 - *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford
 - *From 2023-Kirk-SemEval-2023 Task 10*: Affiliation: University of Oxford

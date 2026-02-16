@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal|EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences]] (First Author)
 - [[2024-Yuan-Social Measuring Social Norms of LLMs|Social (Measuring Social Norms of LLMs)]]
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: chenguangwang@wustl.edu
 - *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: chenguangwang@wustl.edu
 - *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: tkx@stu.pku.edu.cn
 - *From 2024-Yuan-Social Measuring Social Norms of LLMs*: Affiliation: School of Computer Science, Peking University, Email: tkx@stu.pku.edu.cn

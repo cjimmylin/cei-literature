@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]]
 - [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of|MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -92,6 +93,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: jisu.shin@kaist.ac.kr
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: jisu.shin@kaist.ac.kr
 - *From 2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for*: Affiliation: Institute of Science and Technology (KAIST), Email: alice.oh@kaist.edu

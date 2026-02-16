@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in|MM-Eval: A Hierarchical Benchmark for Modern Mongolian Evaluation in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in*: Affiliation: School of Philosophy and Religious Studies, Minzu University of China, Email: joenahm@yeah.net
 - *From 2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in*: Affiliation: School of Philosophy and Religious Studies, Minzu University of China, Email: nmzxb_cn@163.com
 - *From 2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in*: Affiliation: School of Philosophy and Religious Studies, Minzu University of China, Email: nmzxb_cn@163.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

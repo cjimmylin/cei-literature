@@ -39,6 +39,7 @@ Together with co-authors Fabian Suchanek and Gerhard Weikum, Kasneci contributed
 
 
 
+
 - [[2025-Yuan-Probabilistic Aggregation and Targeted Embedding|Probabilistic Aggregation and Targeted Embedding]] (Last Author)
 
 ## Links
@@ -53,6 +54,8 @@ Together with co-authors Fabian Suchanek and Gerhard Weikum, Kasneci contributed
 
 
 
+
+- *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich
 - *From 2025-Yuan-Probabilistic Aggregation and Targeted Embedding*: Affiliation: School of Computation, Information and Technology, Technical University of Munich

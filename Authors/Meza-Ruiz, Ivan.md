@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 - *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chaudhari-RLHF Deciphered|RLHF Deciphered]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github
 - *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github
 - *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github
 - *From 2025-Chaudhari-RLHF Deciphered*: Affiliation: lable at https://github

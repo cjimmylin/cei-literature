@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving|PersuasionBench & PersuasionArena: Measuring and Improving Persuasiveness of Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com
 - *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com
 - *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com
 - *From 2025-Singh-PersuasionBench & PersuasionArena Measuring and Improving*:, Email: behavior-in-the-wild@googlegroups.com

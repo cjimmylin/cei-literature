@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Wuerzburg-German HateSpeech Corpus|German HateSpeech Corpus]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Wuerzburg-German HateSpeech Corpus*: Affiliation: University of Applied Sciences, Munich, Germany, Email: 2max-emanuel.keller@hm.edu
 - *From 2021-Wuerzburg-German HateSpeech Corpus*: Affiliation: University of Applied Sciences, Munich, Germany, Email: 2peter.mandl@hm.edu
 - *From 2021-Wuerzburg-German HateSpeech Corpus*: Affiliation: University of Applied Sciences, Munich, Germany, Email: 2max-emanuel.keller@hm.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

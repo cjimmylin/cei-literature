@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large|Evaluating Polish Linguistic and Cultural Competency in Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large*: Affiliation: Institute, Warsaw, Poland
 - *From 2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large*: Affiliation: Institute, Warsaw, Poland
 - *From 2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large*: Affiliation: Institute, Warsaw, Poland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

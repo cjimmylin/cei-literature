@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Li-LegalAgentBench|LegalAgentBench]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 - *From 2025-Li-LegalAgentBench*: Affiliation: Department of Computer Science and Technology, Tsinghua University, 2Zhipu AI, Email: liht22@mails.tsinghua.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

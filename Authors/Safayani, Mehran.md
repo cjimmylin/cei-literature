@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Hossein-ParsOffensive Persian Offensive Comments Dataset|ParsOffensive: Persian Offensive Comments Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Hossein-ParsOffensive Persian Offensive Comments Dataset*: Affiliation: Department of Electrical and Computer Engineering, Isfahan, Email: p.jalali@ec.iut.ac.ir
 - *From 2024-Hossein-ParsOffensive Persian Offensive Comments Dataset*: Affiliation: Department of Electrical and Computer Engineering, Isfahan, Email: a.mansouri@ec.iut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

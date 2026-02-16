@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Tran-Artificial intelligence ethics in authoritarian Vietnam governance|Artificial intelligence ethics in authoritarian Vietnam governance]]
+- [[2025-Tran-Artificial intelligence ethics in authoritarian Vietnam governance|Artificial intelligence ethics in authoritarian Vietnam: governance, trust, and societal tensions]] (First Author)
 
 ## External Links & Profiles
 

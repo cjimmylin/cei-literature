@@ -24,6 +24,7 @@ Maria Molchanova is affiliated with Russian State University for the Humanities.
 
 
 
+
 - [[2025-Molchanova-Exploring the Potential of Large Language Models|Exploring the Potential of Large Language Models]] (First Author)
 
 ## Notes
@@ -32,6 +33,8 @@ Maria Molchanova is affiliated with Russian State University for the Humanities.
 
 
 
+
+- *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: korzanova.av@mipt.ru
 - *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: ostyakova.ln@gmail.com
 - *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: ostyakova.ln@gmail.com
 - *From 2025-Molchanova-Exploring the Potential of Large Language Models*: Affiliation: University, Russia, Email: anna.micj@gmail.com

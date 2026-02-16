@@ -23,6 +23,7 @@ Aisha Alraeesi is a researcher contributing to Arabic NLP and cultural AI resear
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
@@ -31,6 +32,8 @@ Aisha Alraeesi is a researcher contributing to Arabic NLP and cultural AI resear
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Atf-Kantian-Utilitarian XAI|Kantian-Utilitarian XAI]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
 - *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
 - *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology
 - *From 2025-Atf-Kantian-Utilitarian XAI*: Affiliation: Faculty of Business and Information Technology

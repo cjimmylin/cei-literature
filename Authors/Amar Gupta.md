@@ -59,6 +59,7 @@ Dr. Amar Gupta is a Principal Research Scientist at MIT, affiliated with CSAIL, 
 
 
 
+
 - [[2025-Rashid-Evaluating Prompt Injection Attacks with|Evaluating Prompt Injection Attacks with]] (Last Author)
 
 ## External Links & Profiles
@@ -74,6 +75,8 @@ Dr. Amar Gupta is a Principal Research Scientist at MIT, affiliated with CSAIL, 
 
 
 
+
+- *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: rafael.palacios@iit.comillas.edu
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: darian.rabbani@itau-unibanco.com.br
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: edson.bollis@itau-unibanco.com.br
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: darian.rabbani@itau-unibanco.com.br

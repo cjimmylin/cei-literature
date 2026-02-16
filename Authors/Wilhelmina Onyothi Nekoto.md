@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”|1 Decolonizing NLP for “Low-resource Languages”]]
+- [[2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”|1 Decolonizing NLP for 'Low-resource Languages']]
 
 ## External Links & Profiles
 

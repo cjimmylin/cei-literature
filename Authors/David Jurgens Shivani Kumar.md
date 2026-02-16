@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Kumar-UniMoral ACL 2025 Best Resource Paper|UniMoral (ACL 2025 Best Resource Paper)]] (First Author)
 - [[2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of|Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC]] (First Author)
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch

@@ -38,6 +38,7 @@ Pablo Biedma is a researcher working at the intersection of AI and value systems
 
 
 
+
 - [[2024-Biedma-Beyond Human Norms|Beyond Human Norms]] (First Author)
 
 ## Notes
@@ -46,6 +47,8 @@ Pablo Biedma is a researcher working at the intersection of AI and value systems
 
 
 
+
+- *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: biedmanunezp10@mails.tsinghua.edu.cn
 - *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: linus.huang@ust.hk
 - *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: sms@mail.tsinghua.edu.cn
 - *From 2024-Biedma-Beyond Human Norms*: Affiliation: University of Science and Technology, Email: biedmanunezp10@mails.tsinghua.edu.cn

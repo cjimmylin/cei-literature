@@ -23,6 +23,7 @@ Ding Wang is a researcher at Google working on machine learning and responsible 
 
 
 
+
 - [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]]
 - [[2023-Aroyo-DICES Dataset|DICES Dataset]] (Last Author)
 
@@ -32,6 +33,8 @@ Ding Wang is a researcher at Google working on machine learning and responsible 
 
 
 
+
+- *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London
 - *From 2023-Aroyo-DICES Dataset*: Affiliation: University of London

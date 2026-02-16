@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xia-Evaluating Modern Large Language Models on Low-Resource and|Evaluating Modern Large Language Models on Low-Resource and]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: cxia17@ucsc.edu
 - *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: xiw120@pitt.edu
 - *From 2025-Xia-Evaluating Modern Large Language Models on Low-Resource and*: Affiliation: University of California, Santa Cruz, CA, USA, Email: cxia17@ucsc.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

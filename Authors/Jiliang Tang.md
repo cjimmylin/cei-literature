@@ -26,6 +26,7 @@ Before joining MSU as an Assistant Professor in 2016, he was a Research Scientis
 
 
 
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## Notes
@@ -34,6 +35,8 @@ Before joining MSU as an Assistant Professor in 2016, he was a Research Scientis
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu

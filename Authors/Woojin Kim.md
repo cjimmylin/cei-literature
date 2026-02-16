@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in|VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models]] (First Author)
 - [[2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent|Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -91,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 - *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 - *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr
 - *From 2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in*: Affiliation: labeled texts with intensity estimates derived from, Email: jaeyoung.do@snu.ac.kr

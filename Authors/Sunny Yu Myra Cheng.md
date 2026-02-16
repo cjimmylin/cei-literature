@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Cheng-ELEPHANT Social Sycophancy|ELEPHANT (Social Sycophancy)]] (First Author)
 - [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]]
 - [[2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model|An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)]]
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: r11922184@ntu.edu.tw
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: y.v.chen@ieee.org

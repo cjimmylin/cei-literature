@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram|PerBOLD: A Big Dataset of Persian Offensive Language on Instagram Comments]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram*: Affiliation: Faculty of Computer Engineering, Shahrood University of Technology, Shahrood, Iran, Email: marziea.rahimi@shahroodut.ac.ir
 - *From 2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram*: Affiliation: Faculty of Computer Engineering, Shahrood University of Technology, Shahrood, Iran, Email: jafarinejad@shahroodut.ac.ir
 - *From 2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram*: Affiliation: Faculty of Computer Engineering, Shahrood University of Technology, Shahrood, Iran, Email: m_khodabakhsh@shahroodut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-researchers-Hate Speech Classification in Bulgarian|Hate Speech Classification in Bulgarian]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-researchers-Hate Speech Classification in Bulgarian*: Affiliation: University of Munich, Email: radoslav.ralev@tum.de
 - *From 2022-researchers-Hate Speech Classification in Bulgarian*: Affiliation: University of Munich, Email: juergen.pfeffer@tum.de
 - *From 2022-researchers-Hate Speech Classification in Bulgarian*: Affiliation: University of Munich, Email: radoslav.ralev@tum.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

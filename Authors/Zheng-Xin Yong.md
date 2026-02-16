@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs|Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: sarahooker@cohere.com
 - *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University
 - *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University

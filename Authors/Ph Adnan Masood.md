@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Masood-A survey of multilingual large language models - PMC|A survey of multilingual large language models - PMC]] (First Author)
 - [[2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA Benchmark with Dialect|Beyond MCQ: An Open-Ended Arabic Cultural QA Benchmark with Dialect Variants]] (First Author)
 - [[2025-Masood-Dialectal substitution as an adversarial approach for evaluating|Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness]] (First Author)
@@ -93,6 +94,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey*: Affiliation: University of New South Wales, Australia
 - *From 2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey*: Affiliation: University of New South Wales, Australia
 - *From 2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey*: Affiliation: University of New South Wales, Australia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

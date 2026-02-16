@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment|Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment*: Affiliation: University of California, Los Angeles, 2Salesforce AI Research, 3Google DeepMind
 - *From 2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment*: Affiliation: University of California, Los Angeles, 2Salesforce AI Research, 3Google DeepMind
 - *From 2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment*: Affiliation: University of California, Los Angeles, 2Salesforce AI Research, 3Google DeepMind
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

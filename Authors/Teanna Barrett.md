@@ -25,6 +25,8 @@ Teanna Barrett is a researcher at the University of Washington working on AI fai
 
 
 
+
+- [[2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI|African Data Ethics: A Discursive Framework for Black Decolonial AI]] (First Author)
 - [[2023-Barrett-Skin Deep|Skin Deep]] (First Author)
 
 ## Notes
@@ -33,6 +35,8 @@ Teanna Barrett is a researcher at the University of Washington working on AI fai
 
 
 
+
+- *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: teanna.barrett@bison.howard.edu
 - *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: barrett@bison.howard.edu
 - *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: axz@cs.uw.edu
 - *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: barrett@bison.howard.edu

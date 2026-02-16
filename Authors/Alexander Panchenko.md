@@ -36,6 +36,7 @@ Alexander manages the development of standardized evaluation suites for non-Engl
 
 
 
+
 - [[2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian|MERA: A Comprehensive LLM Evaluation in Russian]]
 - [[2021-Dementieva-Methods for Detoxification of Texts for the Russian Language|Methods for Detoxification of Texts for the Russian Language]] (Last Author)
 
@@ -44,6 +45,8 @@ Alexander manages the development of standardized evaluation suites for non-Engl
 
 
 
+
+- *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia
 - *From 2021-Dementieva-Methods for Detoxification of Texts for the Russian Language*: Affiliation: Institute of Science and Technology, Moscow, Russia

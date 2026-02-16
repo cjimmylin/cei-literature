@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese|Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese*: Affiliation: School of Foreign Languages, Beihang University, Beijing, China, Email: guwenshi@buaa.edu.cn
 - *From 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese*: Affiliation: School of Foreign Languages, Beihang University, Beijing, China, Email: guwenshi@buaa.edu.cn
 - *From 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese*: Affiliation: School of Foreign Languages, Beihang University, Beijing, China, Email: guwenshi@buaa.edu.cn
 - *From 2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese*: Affiliation: School of Foreign Languages, Beihang University, Beijing, China, Email: guwenshi@buaa.edu.cn

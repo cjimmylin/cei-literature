@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jamshidi-MoCoP|MoCoP]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 - *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 - *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca
 - *From 2025-Jamshidi-MoCoP*: Affiliation: Laboratory, Polytechnique Montréal, Email: negar.shahabi@concordia.ca

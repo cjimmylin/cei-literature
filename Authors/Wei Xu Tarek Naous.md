@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training|On The Origin of Cultural Biases in Language Models: From Pre-training Data to Linguistic Phenomena]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training*: Affiliation: Institute of Technology, Email: wei.xu@cc.gatech.edu
 - *From 2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training*: Affiliation: Institute of Technology, Email: wei.xu@cc.gatech.edu
 - *From 2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training*: Affiliation: Institute of Technology, Email: wei.xu@cc.gatech.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

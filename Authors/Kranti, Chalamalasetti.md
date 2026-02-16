@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Kranti-MATA mata Mindful Assessment of the|MATA mata Mindful Assessment of the]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Kranti-MATA mata Mindful Assessment of the*: Affiliation: University of Potsdam, Germany, 2National Research Council, Canada, Email: kranti.chalamalasetti@uni-potsdam.de
 - *From 2025-Kranti-MATA mata Mindful Assessment of the*: Affiliation: University of Potsdam, Germany, 2National Research Council, Canada, Email: sowmya.vajjala@nrc-cnrc.gc.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

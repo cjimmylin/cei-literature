@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Deshpande-TRAIL|TRAIL]]
 - [[2025-Patel-Evaluating Large Language Models for Detecting|Evaluating Large Language Models for Detecting]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-
 - *From 2025-Deshpande-TRAIL*: Affiliation: lably and systematically evaluate the com-

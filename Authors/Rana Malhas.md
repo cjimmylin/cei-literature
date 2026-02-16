@@ -25,6 +25,7 @@ Rana Malhas is a Lecturer of Computer Science at Qatar University and PI at the 
 
 
 
+
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 - [[2022-Malhas-Qur'an QA 2022|Qur'an QA 2022]] (First Author)
 
@@ -34,6 +35,8 @@ Rana Malhas is a Lecturer of Computer Science at Qatar University and PI at the 
 
 
 
+
+- *From 2022-Malhas-Qur'an QA 2022*: Affiliation: University, Doha, Qatar
 - *From 2022-Malhas-Qur'an QA 2022*: Affiliation: University, Doha, Qatar
 - *From 2022-Malhas-Qur'an QA 2022*: Affiliation: University, Doha, Qatar
 - *From 2022-Malhas-Qur'an QA 2022*: Affiliation: University, Doha, Qatar

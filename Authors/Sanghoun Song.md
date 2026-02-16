@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in|KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in*: Affiliation: Department of Linguistics, Korea University,  https://orcid
 - *From 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in*: Affiliation: Department of Linguistics, Korea University,  https://orcid
 - *From 2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in*: Affiliation: Department of Linguistics, Korea University,  https://orcid
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

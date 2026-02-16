@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]] (Last Author)
 - [[2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified|ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model]] (First Author)
 - [[2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large|ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models]] (Last Author)
@@ -92,6 +93,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of
 - *From 2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large*: Affiliation: Laboratory, Faculty of

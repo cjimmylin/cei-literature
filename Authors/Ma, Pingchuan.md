@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics|EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics*: Affiliation: University of Science and Technology, Hong Kong SAR, China, Email: aosun3@illinois.edu
 - *From 2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics*: Affiliation: University of Science and Technology, Hong Kong SAR, China, Email: aosun3@illinois.edu
 - *From 2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics*: Affiliation: University of Science and Technology, Hong Kong SAR, China, Email: aosun3@illinois.edu
 - *From 2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics*: Affiliation: University of Science and Technology, Hong Kong SAR, China, Email: aosun3@illinois.edu

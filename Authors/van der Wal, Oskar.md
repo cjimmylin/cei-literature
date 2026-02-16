@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ...|On the Challenges of Bias Evaluation Under Multilingual ...]]
+- [[2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ...|On the Challenges of Bias Evaluation Under Multilingual ...]] (Last Author)
 
 ## External Links & Profiles
 

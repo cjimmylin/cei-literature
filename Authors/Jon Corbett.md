@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Corbett-AI and Indigenous Languages|AI and Indigenous Languages]]
+- [[2025-Corbett-AI and Indigenous Languages|AI and Indigenous Languages]] (First Author)
 
 ## External Links & Profiles
 

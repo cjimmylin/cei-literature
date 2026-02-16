@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Wei-MedEthicsQA|MedEthicsQA]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 - *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 - *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc
 - *From 2025-Wei-MedEthicsQA*: Affiliation: University 2 Angelalign Technology Inc

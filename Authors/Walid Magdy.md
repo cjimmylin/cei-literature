@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bokaei-Culture Matters in Toxic Language Detection in Persian|Culture Matters in Toxic Language Detection in Persian]]
 - [[2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators|Fabricating Holiness Characterizing Religious Misinformation Circulators]] (Last Author)
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]] (Last Author)
@@ -91,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk
 - *From 2025-Bokaei-Culture Matters in Toxic Language Detection in Persian*: Affiliation: School of Informatics, Email: zahra.bokaei@ed.ac.uk

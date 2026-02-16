@@ -29,6 +29,7 @@ Ian Steenstra is a PhD Candidate in Computer Science at Northeastern University,
 
 
 
+
 - [[2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered|A Risk Taxonomy for Evaluating AI-Powered]] (First Author)
 
 ## Notes
@@ -37,6 +38,8 @@ Ian Steenstra is a PhD Candidate in Computer Science at Northeastern University,
 
 
 
+
+- *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu
 - *From 2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered*: Affiliation: centered computing, Email: steenstra.i@northeastern.edu

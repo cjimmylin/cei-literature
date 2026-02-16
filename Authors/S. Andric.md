@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework|Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework*:, Email: sandro.andric@nyu.edu
 - *From 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework*:, Email: sandro.andric@nyu.edu
 - *From 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework*:, Email: sandro.andric@nyu.edu
 - *From 2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework*:, Email: sandro.andric@nyu.edu

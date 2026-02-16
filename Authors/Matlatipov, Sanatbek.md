@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Kuriyozov-Construction and Evaluation of Sentiment Datasets for Low-Resource|Construction and Evaluation of Sentiment Datasets for Low-Resource Languages: The Case of Uzbek | Springer Nature Link]]
 - [[2023-Kuriyozov-Text classification dataset and analysis for|Text classification dataset and analysis for]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Kuriyozov-Text classification dataset and analysis for*: Affiliation: University, 14, Kh, Email: e.kuriyozov@udc.es
 - *From 2023-Kuriyozov-Text classification dataset and analysis for*: Affiliation: University, 14, Kh, Email: e.kuriyozov@udc.es
 - *From 2023-Kuriyozov-Text classification dataset and analysis for*: Affiliation: University, 14, Kh, Email: e.kuriyozov@udc.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

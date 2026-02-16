@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hosseinbeigi-Advancing Persian LLM Evaluation|Advancing Persian LLM Evaluation]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 - *From 2025-Hosseinbeigi-Advancing Persian LLM Evaluation*: Affiliation: University of Technology, 2Tarbiat Modares University, Email: s.bourbour@modares.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

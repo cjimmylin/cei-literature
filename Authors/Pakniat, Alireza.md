@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI|PBBQ: A Persian Bias Benchmark Dataset Curated with Human-AI Collaboration for Large Language Models]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI*: Affiliation: laboration for Large Language Models, Email: parsa.ghofrani@aut.ac.ir
 - *From 2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI*: Affiliation: laboration for Large Language Models, Email: seyedkian.kashfipour@mail.polimi.it
 - *From 2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI*: Affiliation: laboration for Large Language Models, Email: farhan1379@aut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

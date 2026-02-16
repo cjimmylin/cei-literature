@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via|ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via*: Affiliation: University of Singapore, Email: dtnguyen.2019@smu.edu.sg
 - *From 2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via*: Affiliation: University of Singapore, Email: dcscts@nus.edu.sg
 - *From 2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via*: Affiliation: University of Singapore, Email: jingnan.zheng@u.nus.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

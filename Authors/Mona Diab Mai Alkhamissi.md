@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-AlKhamissi-Investigating Cultural Alignment of LLMs|Investigating Cultural Alignment of LLMs]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-AlKhamissi-Investigating Cultural Alignment of LLMs*: Affiliation: lable at https://github, Email: muelnokr@microsoft.com
 - *From 2024-AlKhamissi-Investigating Cultural Alignment of LLMs*: Affiliation: lable at https://github, Email: badr.alkhamissi@epfl.ch
 - *From 2024-AlKhamissi-Investigating Cultural Alignment of LLMs*: Affiliation: lable at https://github, Email: badr.alkhamissi@epfl.ch
 - *From 2024-AlKhamissi-Investigating Cultural Alignment of LLMs*: Affiliation: lable at https://github, Email: mai.alkhamissi@princeton.edu

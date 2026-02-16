@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Aydin-Improving LLM Reliability with RAG in|Improving LLM Reliability with RAG in]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Aydin-Improving LLM Reliability with RAG in*: Affiliation: University, Department of Computer Engineering, Türkiye, Email: enis.karaarslan@mu.edu.tr
 - *From 2024-Aydin-Improving LLM Reliability with RAG in*: Affiliation: University, Department of Computer Engineering, Türkiye, Email: omer.aydin@cbu.edu.tr
 - *From 2024-Aydin-Improving LLM Reliability with RAG in*: Affiliation: University, Department of Computer Engineering, Türkiye, Email: omer.aydin@cbu.edu.tr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

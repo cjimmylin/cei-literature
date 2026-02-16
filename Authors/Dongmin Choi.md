@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Han-Value Portrait|Value Portrait]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com

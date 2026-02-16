@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'|Evaluation of AI Ethics Tools in Language Models: A Developers' Perspective Case Study]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'*:, Email: jhessica.silva@ic.unicamp.br
 - *From 2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'*:, Email: jhessica.silva@ic.unicamp.br
 - *From 2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'*:, Email: jhessica.silva@ic.unicamp.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

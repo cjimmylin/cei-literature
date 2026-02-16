@@ -23,6 +23,7 @@ Hilla Merhav is a Product Manager for NLP Data at Webiks in Tel Aviv, Israel, wi
 
 
 
+
 - [[2023-Cohen-HeQ|HeQ]]
 
 ## Notes
@@ -31,6 +32,8 @@ Hilla Merhav is a Product Manager for NLP Data at Webiks in Tel Aviv, Israel, wi
 
 
 
+
+- *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: reut.tsarfaty@gmail.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: reut.tsarfaty@gmail.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: amirdnc@gmail.com
 - *From 2023-Cohen-HeQ*: Affiliation: University, Ramat-Gan, Israel, Email: amirdnc@gmail.com

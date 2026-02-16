@@ -51,6 +51,7 @@ During his doctoral studies, Alex pioneered domain-general benchmarks for self-s
 
 
 
+
 - [[2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI|Values in the Wild: Discovering and Analyzing Values in Real AI Interactions]]
 - [[2024-Huang-Collective Constitutional AI Aligning a Language Model with Public|Collective Constitutional AI: Aligning a Language Model with Public Input]]
 - [[2023-Durmus-Towards Measuring the Representation of|Towards Measuring the Representation of]]
@@ -74,6 +75,8 @@ During his doctoral studies, Alex pioneered domain-general benchmarks for self-s
 
 
 
+
+- *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: deep@anthropic.com.
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: divya@cip.org
 - *From 2024-Huang-Collective Constitutional AI Aligning a Language Model with Public*:, Email: divya@cip.org

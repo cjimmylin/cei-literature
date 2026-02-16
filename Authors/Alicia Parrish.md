@@ -35,6 +35,7 @@ Alicia's work centers on improving the quality and reliability of NLP evaluation
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks|BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)]]
 - [[2025-Rastogi-DIVE Dataset for Pluralistic Alignment of Text-to-Image Models|DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models]]
@@ -53,6 +54,8 @@ Alicia's work centers on improving the quality and reliability of NLP evaluation
 
 
 
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science

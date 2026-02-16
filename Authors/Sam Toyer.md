@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Souly-StrongREJECT|StrongREJECT]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 - *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 - *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com
 - *From 2024-Souly-StrongREJECT*: Affiliation: Center for Human-Compatible AI, UC Berkeley, Email: alexandrasouly@gmail.com

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech|ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech*: Affiliation: Faculty of Computer Science, University of Information Technology, Ho Chi Minh City, Vietnam, Email: luannt@uit.edu.vn
 - *From 2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech*: Affiliation: Faculty of Computer Science, University of Information Technology, Ho Chi Minh City, Vietnam, Email: luannt@uit.edu.vn
 - *From 2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech*: Affiliation: Faculty of Computer Science, University of Information Technology, Ho Chi Minh City, Vietnam, Email: luannt@uit.edu.vn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

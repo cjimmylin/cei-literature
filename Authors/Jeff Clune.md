@@ -28,6 +28,7 @@ At OpenAI, Clune worked on emergent behavior research, including AI bots that le
 
 
 
+
 - [[2024-Lu-The AI Scientist|The AI Scientist]]
 
 ## Notable Contributions
@@ -43,6 +44,8 @@ At OpenAI, Clune worked on emergent behavior research, including AI bots that le
 
 
 
+
+- *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR
 - *From 2024-Lu-The AI Scientist*: Affiliation: University of Oxford, 3University of British Columbia, 4Vector Institute, 5Canada CIFAR

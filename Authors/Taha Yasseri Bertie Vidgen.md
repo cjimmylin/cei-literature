@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2020-Yasseri-Detecting Weak and Strong Islamophobic Hate|Detecting Weak and Strong Islamophobic Hate]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Yasseri-Detecting Weak and Strong Islamophobic Hate*: Affiliation: Institute, University of Oxford, Email: taha.yasseri@oii.ox.ac.uk
 - *From 2020-Yasseri-Detecting Weak and Strong Islamophobic Hate*: Affiliation: Institute, University of Oxford, Email: bertievidgen@gmail.com
 - *From 2020-Yasseri-Detecting Weak and Strong Islamophobic Hate*: Affiliation: Institute, University of Oxford, Email: bertievidgen@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

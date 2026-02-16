@@ -1,7 +1,7 @@
 ---
 name: "Toygar"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Engineering, Bo˘gaziçi University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Toygar-Turkish Offensive Language Detection Dataset|Turkish Offensive Language Detection Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Toygar-Turkish Offensive Language Detection Dataset*: Affiliation: Department of Computer Engineering, Bo˘gaziçi University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems|Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems]]
+- [[2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems|Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice]] (Last Author)
 
 ## External Links & Profiles
 

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language|EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language*: Affiliation: Department of Computer Engineering, Sharif University of Technology, Tehran, Iran
 - *From 2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language*: Affiliation: Department of Computer Engineering, Sharif University of Technology, Tehran, Iran
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

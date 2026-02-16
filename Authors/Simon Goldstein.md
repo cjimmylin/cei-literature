@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Park-AI Deception|AI Deception]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety
 - *From 2023-Park-AI Deception*: Affiliation: Center for AI Safety

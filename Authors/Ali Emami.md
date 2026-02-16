@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Madhusudan-Common to Whom Regional Cultural Commonsense|Common to Whom Regional Cultural Commonsense]] (Last Author)
 - [[2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof|We Politely Insist: Your LLM Must Learn the Persian Art of Taarof (TaarofBench)]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
 - *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
 - *From 2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof*: Affiliation: University, St
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

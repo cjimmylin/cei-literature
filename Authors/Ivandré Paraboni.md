@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2019-University of São Paulo-Moral Stance Recognition and Polarity|Moral Stance Recognition and Polarity]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2019-University of São Paulo-Moral Stance Recognition and Polarity*: Affiliation: University of São Paulo-Moral Stance Recognition and Polarity, Email: wesley.ramos.santos@usp.br
 - *From 2019-University of São Paulo-Moral Stance Recognition and Polarity*: Affiliation: University of São Paulo-Moral Stance Recognition and Polarity, Email: wesley.ramos.santos@usp.br
 - *From 2019-University of São Paulo-Moral Stance Recognition and Polarity*: Affiliation: University of São Paulo-Moral Stance Recognition and Polarity, Email: ivandre@usp.br
 - *From 2019-University of São Paulo-Moral Stance Recognition and Polarity*: Affiliation: University of São Paulo-Moral Stance Recognition and Polarity, Email: ivandre@usp.br

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]]
 - [[2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study|Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese]] (First Author)
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 - *From 2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources*: Affiliation: University of Tsukuba
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

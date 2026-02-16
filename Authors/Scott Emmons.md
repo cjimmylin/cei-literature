@@ -37,6 +37,7 @@ Scott Emmons is a PhD student at UC Berkeley working on AI safety and reinforcem
 
 
 
+
 - [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]] (Last Author)
 - [[2024-Souly-StrongREJECT|StrongREJECT]]
 - [[2023-Jiang-MACHIAVELLI|MACHIAVELLI]]
@@ -52,6 +53,8 @@ Scott Emmons is a PhD student at UC Berkeley working on AI safety and reinforcem
 
 
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

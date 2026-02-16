@@ -51,6 +51,7 @@ She has served as the General Chair for ICML 2025 and is an NSF Career Award rec
 
 
 
+
 - [[2024-Pardeshi-Learning Social Welfare Functions|Learning Social Welfare Functions]] (Last Author)
 
 ## External Links & Profiles
@@ -70,6 +71,8 @@ She has served as the General Chair for ICML 2025 and is an NSF Career Award rec
 
 
 
+
+- *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.
 - *From 2024-Pardeshi-Learning Social Welfare Functions*: Affiliation: School of Mathematics, China University of Mining and Tecnology, Xuzhou, China, Email: wongdein@163.com.

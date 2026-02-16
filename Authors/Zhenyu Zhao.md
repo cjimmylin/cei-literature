@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Liu-Can LLMs Grasp Implicit Cultural Values|Can LLMs Grasp Implicit Cultural Values?]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: jhuan236@jh.edu
 - *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: jhuan236@jh.edu
 - *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: jhuan236@jh.edu
 - *From 2025-Liu-Can LLMs Grasp Implicit Cultural Values*: Affiliation: University of Southern California, Email: jhuan236@jh.edu

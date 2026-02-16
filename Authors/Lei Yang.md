@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated*: Affiliation: Lab, Tianjin University 2Yuanhui AI Lab
 - *From 2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated*: Affiliation: Lab, Tianjin University 2Yuanhui AI Lab
 - *From 2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated*: Affiliation: Lab, Tianjin University 2Yuanhui AI Lab
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -41,6 +41,7 @@ His research focuses on safe and controllable multimodal large language models a
 
 
 
+
 - [[2025-Sun-CASE-Bench|CASE-Bench]] (First Author)
 
 ## Links
@@ -55,6 +56,8 @@ His research focuses on safe and controllable multimodal large language models a
 
 
 
+
+- *From 2025-Sun-CASE-Bench*: Affiliation: Department of Engineering, University of Cambridge1
 - *From 2025-Sun-CASE-Bench*: Affiliation: Department of Engineering, University of Cambridge1
 - *From 2025-Sun-CASE-Bench*: Affiliation: Department of Engineering, University of Cambridge1
 - *From 2025-Sun-CASE-Bench*: Affiliation: Department of Engineering, University of Cambridge1

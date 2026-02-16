@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT|Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT*: Affiliation: University Of Oulu
 - *From 2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT*: Affiliation: University Of Oulu
 - *From 2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT*: Affiliation: University Of Oulu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-Cross-cultural value alignment frameworks|Cross-cultural value alignment frameworks]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: CHRISTINA.XIAO@wust.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: wuxun@hkust-gz.edu.cn
 - *From 2025-Liu-Cross-cultural value alignment frameworks*: Affiliation: University of Science and Technology, Email: DH@di.ku.dk

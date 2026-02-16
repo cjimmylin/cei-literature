@@ -24,6 +24,7 @@ Sydney Levine is a Research Scientist at Google DeepMind focusing on AI safety, 
 
 
 
+
 - [[2026-Li-PluriHarms|PluriHarms]] (Last Author)
 - [[2025-Chiu-MoReBench|MoReBench]] (Last Author)
 - [[2025-Chiu-Will AI Tell Lies to Save Sick Children|Will AI Tell Lies to Save Sick Children?]]
@@ -43,6 +44,8 @@ Sydney Levine is a Research Scientist at Google DeepMind focusing on AI safety, 
 
 
 
+
+- *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington
 - *From 2024-Sorensen-Value Kaleidoscope*: Affiliation: Department of Computer Science & Engineering, University of Washington

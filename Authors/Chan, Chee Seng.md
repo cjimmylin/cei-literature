@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource|MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints]] (Last Author)
 - [[2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language|MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
 - *From 2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language*: Affiliation: lable at https://github, Email: cs.chan@um.edu.my
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

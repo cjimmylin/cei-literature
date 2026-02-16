@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2020-Wright-A Deontic Logic for Programming Rightful Machines|Deontic Logic for Rightful Machines]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Wright-A Deontic Logic for Programming Rightful Machines*: Affiliation: University San Luis Obispo, Email: avwright@calpoly.edu
 - *From 2020-Wright-A Deontic Logic for Programming Rightful Machines*: Affiliation: University San Luis Obispo, Email: avwright@calpoly.edu
 - *From 2020-Wright-A Deontic Logic for Programming Rightful Machines*: Affiliation: University San Luis Obispo, Email: avwright@calpoly.edu
 - *From 2020-Wright-A Deontic Logic for Programming Rightful Machines*: Affiliation: University San Luis Obispo, Email: avwright@calpoly.edu

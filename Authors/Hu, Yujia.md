@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety|SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety*: Affiliation: University of Technology and Design, Email: preslav.nakov@mbzuai.ac.ae
 - *From 2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety*: Affiliation: University of Technology and Design, Email: yujia_hu@sutd.edu.sg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

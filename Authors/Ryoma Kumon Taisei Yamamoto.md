@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating|Bias Mitigation or Cultural Commonsense Evaluating]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating*: Affiliation: University of Tokyo 2Riken 3University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating*: Affiliation: University of Tokyo 2Riken 3University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2025-Yanaka-Bias Mitigation or Cultural Commonsense Evaluating*: Affiliation: University of Tokyo 2Riken 3University of Liverpool, Email: danushka@liverpool.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -1,7 +1,7 @@
 ---
 name: "Zheng Xin Yong"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science, Brown University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages|Preference Tuning For Toxicity Mitigation Generalizes Across Languages]]]]
 
 - [[2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages|Preference Tuning For Toxicity Mitigation Generalizes Across Languages]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages*: Affiliation: Department of Computer Science, Brown University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

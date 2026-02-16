@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -|Improving hate speech detection using Cross-Lingual Learning -]]
+- [[2025-Firmino-Improving hate speech detection using Cross-Lingual Learning -|Improving hate speech detection using Cross-Lingual Learning - ScienceDirect]]
 
 ## External Links & Profiles
 

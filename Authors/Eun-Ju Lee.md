@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Han-Value Portrait|Value Portrait]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com
 - *From 2025-Han-Value Portrait*: Affiliation: School of Data Science, Seoul National University, Email: opusdeisong@gmail.com

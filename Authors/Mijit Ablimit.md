@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz|A multilingual language processing tool for Uyghur Kazak and Kirghiz]]
+- [[2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz|A multilingual language processing tool for Uyghur, Kazak and Kirghiz | IEEE Conference Publication | IEEE Xplore]] (First Author)
 
 ## External Links & Profiles
 

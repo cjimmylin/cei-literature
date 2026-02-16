@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University
 - *From 2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via*: Affiliation: University 2Boston University 3LLNL 4Lehigh University

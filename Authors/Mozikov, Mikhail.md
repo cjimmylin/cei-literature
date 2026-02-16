@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and|EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and*: Affiliation: University, 4ISP RAS
 - *From 2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and*: Affiliation: University, 4ISP RAS
 - *From 2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and*: Affiliation: University, 4ISP RAS
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

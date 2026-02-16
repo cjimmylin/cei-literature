@@ -37,6 +37,7 @@ Bollegala's research spans computational semantics, word representations, and fa
 
 
 
+
 - [[2024-Kaneko-Eagle|Eagle]]
 
 ## Notes
@@ -45,6 +46,8 @@ Bollegala's research spans computational semantics, word representations, and fa
 
 
 
+
+- *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: danushka@liverpool.ac.uk
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: Masahiro.Kaneko@mbzuai.ac.ae
 - *From 2024-Kaneko-Eagle*: Affiliation: University of Liverpool, Email: Timothy.Baldwin@mbzuai.ac.ae

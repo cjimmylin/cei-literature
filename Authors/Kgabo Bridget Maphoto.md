@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Suliman-The interconnectedness between Ubuntu principles|The interconnectedness between Ubuntu principles]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Suliman-The interconnectedness between Ubuntu principles*: Affiliation: laboration, inclusivity, strengthens lecturer support and development, and a culturally relevant
 - *From 2024-Suliman-The interconnectedness between Ubuntu principles*: Affiliation: laboration, inclusivity, strengthens lecturer support and development, and a culturally relevant
 - *From 2024-Suliman-The interconnectedness between Ubuntu principles*: Affiliation: laboration, inclusivity, strengthens lecturer support and development, and a culturally relevant
 - *From 2024-Suliman-The interconnectedness between Ubuntu principles*: Affiliation: laboration, inclusivity, strengthens lecturer support and development, and a culturally relevant

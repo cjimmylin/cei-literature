@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps|A Comparative Analysis of Ethical and Safety Gaps]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi
 - *From 2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps*: Affiliation: University of Applied Sciences, Email: firstname.lastname@metropolia.fi

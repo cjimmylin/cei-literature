@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture|GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture*: Affiliation: lable in various sizes, includ-, Email: minkin.fyodor@gmail.com
 - *From 2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture*: Affiliation: lable in various sizes, includ-, Email: minkin.fyodor@gmail.com
 - *From 2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture*: Affiliation: lable in various sizes, includ-, Email: minkin.fyodor@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

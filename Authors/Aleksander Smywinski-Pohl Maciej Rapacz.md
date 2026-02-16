@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation|Targum A Multilingual New Testament Translation]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation*: Affiliation: University of Kraków
 - *From 2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation*: Affiliation: University of Kraków
 - *From 2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation*: Affiliation: University of Kraków
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

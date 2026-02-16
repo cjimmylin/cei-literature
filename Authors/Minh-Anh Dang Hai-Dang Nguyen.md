@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for|VietMEAgent: Culturally-Aware Few-Shot Multimodal Explanation for Vietnamese Visual Question Answering]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for*: Affiliation: Faculty Of Information Technology, VNU University of Engineering and Technology, Hanoi, Vietnam
 - *From 2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for*: Affiliation: Faculty Of Information Technology, VNU University of Engineering and Technology, Hanoi, Vietnam
 - *From 2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for*: Affiliation: Faculty Of Information Technology, VNU University of Engineering and Technology, Hanoi, Vietnam
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

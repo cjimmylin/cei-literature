@@ -24,6 +24,7 @@ Yunjia Qi is a researcher at Tsinghua University focusing on Large Language Mode
 
 
 
+
 - [[2025-Fu-MME-CoT|MME-CoT]]
 - [[2025-Qi-AGENTIF|AGENTIF]] (First Author)
 - [[2024-Gupta-WalledEval|WalledEval]]
@@ -33,6 +34,8 @@ Yunjia Qi is a researcher at Tsinghua University focusing on Large Language Mode
 
 
 
+
+- *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
 - *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
 - *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai
 - *From 2024-Gupta-WalledEval*: Affiliation: lable at https:, Email: rishabh@walled.ai

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 - [[2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural|IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation]]
 - [[2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural|IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding]]
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 - *From 2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural*: Affiliation: University of Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

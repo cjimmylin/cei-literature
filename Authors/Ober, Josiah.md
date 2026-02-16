@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Ober-Lyceum Project AI Ethics Aristotle|Lyceum Project AI Ethics Aristotle]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both
 - *From 2024-Ober-Lyceum Project AI Ethics Aristotle*: Affiliation: centred’ approach to the ethics of AI, one that conceives both

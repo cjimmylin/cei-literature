@@ -34,6 +34,7 @@ Arash's research focuses on the intersection of multilingual NLP and AI alignmen
 
 
 
+
 - [[2024-Aakanksha-The Multilingual Alignment Prism|The Multilingual Alignment Prism]]
 - [[2024-Singhal-AyaRedTeaming|AyaRedTeaming]]
 
@@ -43,6 +44,8 @@ Arash's research focuses on the intersection of multilingual NLP and AI alignmen
 
 
 
+
+- *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures
 - *From 2024-Aakanksha-The Multilingual Alignment Prism*: Affiliation: centers on English harm mitigation, it captures

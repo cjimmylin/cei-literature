@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Yang-CINO A Chinese Minority Pre-trained Language Model|CINO: A Chinese Minority Pre-trained Language Model]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 - *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 - *From 2022-Yang-CINO A Chinese Minority Pre-trained Language Model*: Affiliation: Laboratory of Cognitive Intelligence, iFLYTEK Research, Beijing, China, Email: ymcui@ir.hit.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

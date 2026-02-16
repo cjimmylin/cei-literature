@@ -1,7 +1,7 @@
 ---
 name: "Chiruzzo, Luis"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Colorado Boulder"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas|Thrid Workshop on NLP for Indigenous Languages of the Americas]]
+- [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]]
+- [[2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas|Thrid Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)]]
+- [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of*: Affiliation: University of Colorado Boulder
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

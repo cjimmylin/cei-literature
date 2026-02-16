@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large|Decoding Moral Responses in AI: A Quantitative Analysis of Large Language Models]] (Last Author)
 - [[2025-Zhu-MultiAgentBench MARBLE Evaluating Collaboration and Competition of|MultiAgentBench (MARBLE): Evaluating Collaboration and Competition of LLM Agents]]
@@ -34,6 +35,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2024-Liu-CultureAtlas*: Affiliation: University of Illinois at Urbana-Champaign

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish|LLMzSzL: a Comprehensive LLM Benchmark for Polish]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish*: Affiliation: Center for Artificial Intelligence AMU, Email: firstname.lastname@amu.edu.pl
 - *From 2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish*: Affiliation: Center for Artificial Intelligence AMU, Email: firstname.lastname@amu.edu.pl
 - *From 2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish*: Affiliation: Center for Artificial Intelligence AMU, Email: firstname.lastname@amu.edu.pl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

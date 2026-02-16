@@ -36,6 +36,7 @@ Hao Peng is an Assistant Professor at the Siebel School of Computing and Data Sc
 
 
 
+
 - [[2025-Qi-AGENTIF|AGENTIF]]
 - [[2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese|Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan]]
 
@@ -44,6 +45,8 @@ Hao Peng is an Assistant Professor at the Siebel School of Computing and Data Sc
 
 
 
+
+- *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: hc118@student.london.ac.uk
 - *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: shaojuiwang@mail.ntust.edu.tw
 - *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: b11132009@mail.ntust.edu.tw
 - *From 2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese*: Affiliation: University of, Email: sfsu@mail.ntust.edu.tw

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of|Monitoring Hate Speech in Indonesia: An NLP-based Classification of Social Media Texts]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of*: Affiliation: University, 2Independent Researcher, 3Boston University
 - *From 2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of*: Affiliation: University, 2Independent Researcher, 3Boston University
 - *From 2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of*: Affiliation: University, 2Independent Researcher, 3Boston University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

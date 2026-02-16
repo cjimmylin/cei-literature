@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
 - [[2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages|MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 - *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 - *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

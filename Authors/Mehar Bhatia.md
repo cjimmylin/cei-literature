@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in|CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu
 - *From 2025-Chiu-CulturalBench*: Affiliation: University of Washington, Email: lwjiang@cs.washington.edu

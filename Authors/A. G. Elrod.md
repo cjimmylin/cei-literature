@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Elrod-Uncovering Theological and Ethical Biases in|Uncovering Theological and Ethical Biases in]] (First Author)
 - [[2023-Elrod-Nothing New Under the Sun The|Nothing New Under the Sun The]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Elrod-Nothing New Under the Sun The*: Affiliation: Research Group & EC3metrics Spin-Off, Universidad de Granada, Granada (Spain), Email: edelgado@ugr.es
 - *From 2023-Elrod-Nothing New Under the Sun The*: Affiliation: Research Group & EC3metrics Spin-Off, Universidad de Granada, Granada (Spain), Email: edelgado@ugr.es
 - *From 2023-Elrod-Nothing New Under the Sun The*: Affiliation: Research Group & EC3metrics Spin-Off, Universidad de Granada, Granada (Spain), Email: edelgado@ugr.es
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

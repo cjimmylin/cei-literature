@@ -5,7 +5,7 @@ This file documents recent updates and fixes applied to the vault across session
 ## Session 86 (Feb 16, 2026) - Multi-Wave Plan: Reports, Data Fixes, Religious Tradition Search
 
 ### Overview
-Executed a comprehensive multi-wave plan covering report regeneration, data quality fixes, and the zero-coverage religious tradition search (Workstream B). Vault grew from 2,002 to 2,034 papers. Also verified languages list backfill, cleaned up 187 garbage author profiles, and partially resolved authors_incomplete papers.
+Executed a comprehensive multi-wave plan covering report regeneration, data quality fixes, and the zero-coverage religious tradition search (Workstream B). Vault grew from 2,002 to 2,034 papers. Also verified languages list backfill, cleaned up 187+66 garbage author profiles, partially resolved authors_incomplete papers, rebuilt full author pipeline for 2,034 papers, and regenerated all 6 reports with updated counts.
 
 ### Wave 1: Reports + Data Fixes (parallel)
 - 6 reports regenerated with `20260216-` prefixes (vault overview, values alignment, benchmark survey, LLM assessment, tradition gap, dashboard HTML)
@@ -26,32 +26,43 @@ Executed a comprehensive multi-wave plan covering report regeneration, data qual
 - 187 garbage author profiles moved to RECYCLE-BIN (3-tier classification)
 - 6/60 authors_incomplete papers resolved via Semantic Scholar (54 remaining, rate-limited)
 
+### Post-Wave Follow-up (Session 86 RIGHT)
+- Full author pipeline re-run: `build_author_paper_map.py` → `disambiguate_authors.py` → `rebuild_author_profiles.py`
+- 9,791 unique authors, 8,835 profiles updated, 162 new stubs created
+- 66 additional garbage author profiles cleaned (single-letter, non-person, concatenated two-person, institutional, editor labels) → `RECYCLE-BIN/20260216-garbage-authors/`
+- All 6 reports regenerated again with 2,034-paper data
+- Final author count: 9,791 profiles, validation: 2,034/2,034 pass, 0 errors
+
 ### Results
 | Metric | Value |
 |--------|-------|
 | Vault papers | 2,002 → 2,034 (+32 new) |
-| Reports regenerated | 6 (all 20260216 prefixes) |
+| Reports regenerated | 6 (all 20260216 prefixes, updated twice) |
 | Wikilink fixes | 196 papers |
 | [[Unknown]] renames | 4 papers + 4 extracts |
 | Tradition search yield | Shinto 10, Indigenous 15, Zoroastrian 6, Baha'i 1 |
-| Garbage authors cleaned | 187 profiles |
+| Garbage authors cleaned | 187 + 66 = 253 profiles |
 | Authors incomplete resolved | 6/60 |
+| Author profiles rebuilt | 8,835 updated + 162 new stubs |
+| Final author count | 9,791 |
 | Final validation | 2,034/2,034 pass, 0 errors |
-| New scripts created | 8 |
+| New scripts created | 9 |
 
 ### Key Learnings
 - [Workflows] Agent JSONL output files need parsing from end to extract ```json code blocks — not clean JSON arrays
 - [Research] Baha'i has essentially zero dedicated AI academic papers; Indigenous AI is a rich and growing field (24 papers)
 - [Data Quality] Zoroastrian NLP saw a 2025 surge — 3 ACL papers from one research group (Farsi et al.)
 - [YAML] macOS Path.exists() returns False for U+2019 vs U+0027 mismatch — use glob() to discover actual name
+- [Author Management] rebuild_author_profiles.py creates garbage stubs from malformed author fields — need post-rebuild cleanup
+- [Author Management] Concatenated two-person stubs identifiable by 23-line file size (exact template) + two distinct names without comma
 
 ### Files Changed
 - papers/: 36 new (32 ZERO imports + 4 renamed), ~1,999 modified (classification + wikilink fixes)
-- Authors/: 162 deleted (garbage cleanup)
+- Authors/: 8,835 updated, 162 new stubs, 253 garbage recycled; net 9,791
 - PDF Extracts/: 4 renamed (Unknown→author)
-- PYTHON/: 8 new scripts
-- STATISTICS/: 6 new reports + 1 dashboard
-- logs/: zero-coverage master list + agent JSONs
+- PYTHON/: 9 new scripts (incl. cleanup_garbage_authors.py)
+- STATISTICS/: 6 reports + 1 dashboard (regenerated twice)
+- logs/: zero-coverage master list + agent JSONs + author pipeline JSONs
 
 ## Session 85 (Feb 16, 2026) - Apply Author Fixes & PDF Download
 

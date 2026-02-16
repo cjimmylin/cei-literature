@@ -50,6 +50,7 @@ Dr. Hemmatian has published influential work on the persistence of bias in debia
 
 
 
+
 - [[2025-Keshmirian-Many LLMs Are More Utilitarian Than One|Many LLMs Are More Utilitarian Than One]]
 
 ## External Links & Profiles
@@ -67,6 +68,8 @@ Dr. Hemmatian has published influential work on the persistence of bias in debia
 
 
 
+
+- *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Keshmirian-Many LLMs Are More Utilitarian Than One*: Affiliation: University of Illinois at Urbana-Champaign

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language|Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language*:, Email: hivaze.me@gmail.com
 - *From 2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language*:, Email: alexdragannikolich@gmail.com
 - *From 2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language*:, Email: alexdragannikolich@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

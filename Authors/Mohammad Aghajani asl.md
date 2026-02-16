@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: aghafuri@comp.iust.ac.ir
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: naderi@iust.ac.ir
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: aghafuri@comp.iust.ac.ir
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: m.aghajani@physics.sharif.edu

@@ -24,6 +24,7 @@ Heuiseok Lim is a Full Professor at the NLP & AI Lab in the Department of Comput
 
 
 
+
 - [[2025-Jung-FLEX|FLEX]] (Last Author)
 - [[2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A|Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4]] (Last Author)
 
@@ -32,6 +33,8 @@ Heuiseok Lim is a Full Professor at the NLP & AI Lab in the Department of Comput
 
 
 
+
+- *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification|WolBanking77 Wolof Banking Speech Intent Classification]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification*: Affiliation: University of Gaston Berger (UGB), Saint-Louis, Senegal, Email: frederic.precioso@univ-cotedazur.fr
 - *From 2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification*: Affiliation: University of Gaston Berger (UGB), Saint-Louis, Senegal, Email: frederic.precioso@univ-cotedazur.fr
 - *From 2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification*: Affiliation: University of Gaston Berger (UGB), Saint-Louis, Senegal, Email: frederic.precioso@univ-cotedazur.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

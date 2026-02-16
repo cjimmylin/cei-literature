@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding|AC-EVAL Evaluating Ancient Chinese Language Understanding]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding*: Affiliation: Laboratory of Intelligence Telecommunication Software and Multimedia
 - *From 2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding*: Affiliation: Laboratory of Intelligence Telecommunication Software and Multimedia
 - *From 2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding*: Affiliation: Laboratory of Intelligence Telecommunication Software and Multimedia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

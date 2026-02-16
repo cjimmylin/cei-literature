@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Soemer-Antisemitic Messages A Guide to High-Quality|Antisemitic Messages A Guide to High-Quality]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Soemer-Antisemitic Messages A Guide to High-Quality*: Affiliation: Labeled Dataset of Tweets
 - *From 2023-Soemer-Antisemitic Messages A Guide to High-Quality*: Affiliation: Labeled Dataset of Tweets
 - *From 2023-Soemer-Antisemitic Messages A Guide to High-Quality*: Affiliation: Labeled Dataset of Tweets
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

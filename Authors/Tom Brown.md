@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use|Maori Algorithmic Sovereignty: Idea, Principles, and Use]] (First Author)
 - [[2022-Bai-Constitutional AI|Constitutional AI]]
@@ -34,6 +35,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use*: Affiliation: University of Waikato, Hamilton, NZ, Email: paul.brown@waikato.ac.nz

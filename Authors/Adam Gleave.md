@@ -51,6 +51,7 @@ As CEO of FAR.AI, Adam has led significant research into "sleeper agents" and de
 
 
 
+
 - [[2024-Freire-Uncovering Latent Human Wellbeing in Language|Uncovering Latent Human Wellbeing in Language]]
 
 ## External Links & Profiles
@@ -73,6 +74,8 @@ As CEO of FAR.AI, Adam has led significant research into "sleeper agents" and de
 
 
 
+
+- *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
 - *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
 - *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety
 - *From 2024-Freire-Uncovering Latent Human Wellbeing in Language*: Affiliation: Center for AI Safety

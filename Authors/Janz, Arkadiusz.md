@@ -1,9 +1,9 @@
 ---
 name: "Janz, Arkadiusz"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Research Institute, 2Wrocław University of Science and Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "karolina.seweryn@nask.pl"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model|PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment]] (Last Author)]]
 
 - [[2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model|PLLuM-Align: Polish Preference Dataset for Large Language Model Alignment]] (Last Author)
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model*: Affiliation: Research Institute, 2Wrocław University of Science and Technology, Email: karolina.seweryn@nask.pl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

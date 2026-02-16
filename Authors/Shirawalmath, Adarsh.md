@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian|From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian*:, Email: mkhandoga@gmail.com
 - *From 2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian*:, Email: anton@polyagent.co
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

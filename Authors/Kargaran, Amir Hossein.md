@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via|MEXA: Multilingual Evaluation of English-Centric LLMs via Cross-Lingual Alignment]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via*: Affiliation: Center for Machine Learning, Email: nafiseh.nikeghbal@tum.de
 - *From 2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via*: Affiliation: Center for Machine Learning, Email: nafiseh.nikeghbal@tum.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

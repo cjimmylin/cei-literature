@@ -1,7 +1,7 @@
 ---
 name: "Aji, Alham Fikri"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Melbourne"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,19 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Aji-Multilingual Multicultural Evaluation Workshop|Multilingual Multicultural Evaluation Workshop]]
+- [[2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian|LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages]] (First Author)
+- [[2025-Aji-Multilingual Multicultural Evaluation Workshop|Multilingual Multicultural Evaluation Workshop]] (First Author)
+- [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]]
+- [[2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA|SEA-SafeguardBench Evaluating AI Safety in SEA]]
+- [[2025-Winata-The Decades Progress on Code-Switching Research in NLP|The Decades Progress on Code-Switching Research in NLP]]
+- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
+- [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino]]
+- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]] (Last Author)
+- [[2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and|IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language]]
+- [[2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances|COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances]] (Last Author)
+- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
+- [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
 
 ## External Links & Profiles
 
@@ -83,6 +93,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

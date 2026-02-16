@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese|ViHOS: Hate Speech Spans Detection for Vietnamese]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

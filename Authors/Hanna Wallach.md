@@ -28,6 +28,7 @@ She collaborated on creating the Fairlearn toolkit and worked with practitioners
 
 
 
+
 - [[2023-Fleisig-FairPrism|FairPrism]] (Last Author)
 - [[2019-De-Arteaga-Bias in Bios|Bias in Bios]]
 
@@ -43,6 +44,8 @@ She collaborated on creating the Fairlearn toolkit and worked with practitioners
 
 
 
+
+- *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn
 - *From 2019-De-Arteaga-Bias in Bios*: Affiliation: University, 2University of Massachusetts Lowell, 3Microsoft Research, 4LinkedIn

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Hamad-Offensive Hebrew Corpus and Detection using BERT|Offensive Hebrew Corpus and Detection using BERT]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Hamad-Offensive Hebrew Corpus and Detection using BERT*: Affiliation: labeled with one or more of five, Email: mkhalilia@birzeit.edu
 - *From 2023-Hamad-Offensive Hebrew Corpus and Detection using BERT*: Affiliation: labeled with one or more of five, Email: nhamad@birzeit.edu
 - *From 2023-Hamad-Offensive Hebrew Corpus and Detection using BERT*: Affiliation: labeled with one or more of five, Email: nhamad@birzeit.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

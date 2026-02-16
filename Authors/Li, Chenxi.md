@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values|MoVa: Towards Generalizable Classification of Human Morals and Values]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
 - *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
 - *From 2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values*: Affiliation: University, 2University of Chicago
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

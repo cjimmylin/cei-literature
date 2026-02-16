@@ -23,6 +23,7 @@ Leif Hancox-Li is a Data Scientist at Capital One. His research focuses on inter
 
 
 
+
 - [[2024-Hancox-Li-Is ETHICS about ethics|Is ETHICS about ethics?]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Leif Hancox-Li is a Data Scientist at Capital One. His research focuses on inter
 
 
 
+
+- *From 2024-Hancox-Li-Is ETHICS about ethics*: Affiliation: center has fallen short of establishing “[t]he concrete implications of these general principles, Email: borhane@avidml.org
 - *From 2024-Hancox-Li-Is ETHICS about ethics*: Affiliation: center has fallen short of establishing “[t]he concrete implications of these general principles, Email: borhane@avidml.org
 - *From 2024-Hancox-Li-Is ETHICS about ethics*: Affiliation: center has fallen short of establishing “[t]he concrete implications of these general principles, Email: leif@vijil.ai
 - *From 2024-Hancox-Li-Is ETHICS about ethics*: Affiliation: center has fallen short of establishing “[t]he concrete implications of these general principles, Email: borhane@avidml.org

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Flek-AmericasNLI Machine translation and natural language inference|AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas - PMC]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
 - *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
 - *From 2025-Flek-AmericasNLI Machine translation and natural language inference*: Affiliation: University of Marburg, Germany, Email: katharina.kann@colorado.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

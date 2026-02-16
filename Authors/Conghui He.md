@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]] (Last Author)
 - [[2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data|Synth-Empathy: Towards High-Quality Synthetic Empathy Data]]
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: wentao.zhang@pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: hao.liang@stu.pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: hao.liang@stu.pku.edu.cn
 - *From 2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data*: Affiliation: University ♦University of Chinese Academy of Sciences ♠Shanghai AI Laboratory, Email: wentao.zhang@pku.edu.cn

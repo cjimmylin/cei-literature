@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset|Quran-MD A Fine-Grained Multilingual Multimodal Dataset]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: umar.salman@mbzuai.ac.ae
 - *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammad.qazi@mbzuai.ac.ae
 - *From 2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset*: Affiliation: lable at https:, Email: mohammad.qazi@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

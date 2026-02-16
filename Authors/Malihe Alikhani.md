@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Kim-SODA|SODA]]
 - [[2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian|ParsiNLU: A Suite of Language Understanding Challenges for Persian]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian*: Affiliation: Institute for AI, 2Google, 3George Washington U
 - *From 2022-Kim-SODA*: Affiliation: Institute for Artificial Intelligence

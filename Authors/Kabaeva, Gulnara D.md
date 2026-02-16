@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP|KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP*: Affiliation: Institute of Information Technology, Email: kabaevagd9@kstu.kg
 - *From 2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP*: Affiliation: Institute of Information Technology, Email: kabaevagd9@kstu.kg
 - *From 2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP*: Affiliation: Institute of Information Technology, Email: kabaevagd9@kstu.kg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

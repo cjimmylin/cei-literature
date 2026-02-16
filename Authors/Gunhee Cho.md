@@ -39,6 +39,7 @@ Key features of CharMoral:
 
 
 
+
 - [[2025-Bae-CharMoral|CharMoral]]
 
 ## Links
@@ -52,6 +53,8 @@ Key features of CharMoral:
 
 
 
+
+- *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg
 - *From 2025-Bae-CharMoral*: Affiliation: University, South Korea, Email: boyang.li@ntu.edu.sg

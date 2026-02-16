@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Yuan-R-Judge|R-Judge]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering
 - *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering
 - *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering
 - *From 2024-Yuan-R-Judge*: Affiliation: School of Electronic Information and Electrical Engineering

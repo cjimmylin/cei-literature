@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language|Qalb Largest State-of-the-Art Urdu Large Language]] (First Author)
+
+- [[2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language|Qalb Largest State-of-the-Art Urdu Large Language]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language*: Affiliation: University, USA, Email: mbnn1139@bht-berlin.de
 - *From 2026-[[Unknown]]-Qalb Largest State-of-the-Art Urdu Large Language*: Affiliation: University, USA, Email: jawadahmedqureshe@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

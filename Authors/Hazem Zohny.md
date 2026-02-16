@@ -52,6 +52,7 @@ Zohny has made significant contributions to debates on human enhancement, moral 
 
 
 
+
 - [[2025-Zohny-ADEPT Simulating Ethics|ADEPT Simulating Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -72,6 +73,8 @@ Zohny has made significant contributions to debates on human enhancement, moral 
 
 
 
+
+- *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK
 - *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK
 - *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK
 - *From 2025-Zohny-ADEPT Simulating Ethics*: Affiliation: Institute, University of Oxford, UK

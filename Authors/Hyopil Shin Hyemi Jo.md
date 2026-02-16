@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for|Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for*: Affiliation: labor and the
 - *From 2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for*: Affiliation: labor and the
 - *From 2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for*: Affiliation: labor and the
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

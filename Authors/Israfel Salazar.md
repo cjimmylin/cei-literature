@@ -22,6 +22,7 @@ ELLIS PhD fellow at University of Copenhagen, advised by Desmond Elliot. Researc
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ ELLIS PhD fellow at University of Copenhagen, advised by Desmond Elliot. Researc
 
 
 
+
+- *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: mburda@dc.uba.ar
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: s.muhammad@imperial.ac.uk
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: seid.muhie.yimam@uni-hamburg.de
 - *From 2025-Ousidhoum-AfriHate A Multilingual Collection of Hate*: Affiliation: College London, 2Bayero University Kano, 3DSFSI, University of Pretoria, 4Bahir Dar University, Email: s.muhammad@imperial.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

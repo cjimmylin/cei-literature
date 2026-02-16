@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark|RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
 - *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
 - *From 2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark*: Affiliation: University Higher School of Economics / Moscow, Russia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

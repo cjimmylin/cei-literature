@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in|SEALGuard Safeguarding the Multilingual Conversations in]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: rui.yang1@monash.edu
 - *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: wenliang.shan@monash.edu
 - *From 2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in*: Affiliation: University of Melbourne, Email: rui.yang1@monash.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

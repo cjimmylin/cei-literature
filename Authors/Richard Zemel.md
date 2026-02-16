@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Li-On the steerability of large language models|On the steerability of large language models]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 - *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 - *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 - *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com

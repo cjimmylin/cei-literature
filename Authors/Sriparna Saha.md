@@ -1,9 +1,9 @@
 ---
 name: "Sriparna Saha"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department, Indian Institute of Technology Patna, Bihta 801106, India"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "krishanu_2021cs19@iitp.ac.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,11 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating|SANSKRITI A Comprehensive Benchmark for Evaluating]] (Last Author)
-- [[2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech|A Deep Learning Framework for the Detection of Malay Hate Speech]]
-- [[2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for|Ex-ThaiHate A Generative Multi-task Framework for]]]]
 
 - [[2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating|SANSKRITI A Comprehensive Benchmark for Evaluating]] (Last Author)
+- [[2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in|HateThaiSent Sentiment-Aided Hate Speech Detection in]]
 - [[2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech|A Deep Learning Framework for the Detection of Malay Hate Speech]]
 - [[2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for|Ex-ThaiHate A Generative Multi-task Framework for]]
 
@@ -87,6 +85,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

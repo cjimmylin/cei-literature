@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Miranda-FilBench Can LLMs Understand and Generate Filipino|FilBench: Can LLMs Understand and Generate Filipino?]] (Last Author)
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
@@ -34,6 +35,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch

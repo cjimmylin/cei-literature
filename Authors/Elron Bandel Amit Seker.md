@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your|AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your*: Affiliation: University, Computer Science Department, Ramat-Gan, Israel
 - *From 2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your*: Affiliation: University, Computer Science Department, Ramat-Gan, Israel
 - *From 2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your*: Affiliation: University, Computer Science Department, Ramat-Gan, Israel
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: weihaoxuan@g.ecc.u
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

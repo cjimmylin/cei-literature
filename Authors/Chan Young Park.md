@@ -53,6 +53,7 @@ Park has won several major awards, including the ACL Best Paper Award. Her co-au
 
 
 
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2023-Feng-From Pretraining Data to Language Models to|From Pretraining Data to Language Models to]]
 
@@ -67,6 +68,8 @@ Park has won several major awards, including the ACL Best Paper Award. Her co-au
 
 
 
+
+- *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: lyh6560@stu.xjtu.edu.cn
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: chanyoun@cs.cmu.edu
 - *From 2023-Feng-From Pretraining Data to Language Models to*: Affiliation: University of Washington, Email: lyh6560@stu.xjtu.edu.cn

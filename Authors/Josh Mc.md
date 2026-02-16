@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language|Irish-BLiMP: A Linguistic Benchmark for Evaluating Human and Language Model Performance in a Low-Resource Setting]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language*: Affiliation: University of Limerick, Ireland, Email: josh.mcgiff@ul.ie
 - *From 2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language*: Affiliation: University of Limerick, Ireland, Email: josh.mcgiff@ul.ie
 - *From 2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language*: Affiliation: University of Limerick, Ireland, Email: josh.mcgiff@ul.ie
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

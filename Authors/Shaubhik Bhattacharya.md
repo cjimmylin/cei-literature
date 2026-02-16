@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+- [[2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in|HateThaiSent Sentiment-Aided Hate Speech Detection in]]
 - [[2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech|A Deep Learning Framework for the Detection of Malay Hate Speech]]
 - [[2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for|Ex-ThaiHate A Generative Multi-task Framework for]]
 
@@ -86,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
 - *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
 - *From 2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech*: Affiliation: Department, Indian Institute of Technology Patna, Bihta 801106, India, Email: krishanu_2021cs19@iitp.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Feng-Case Repositories|Case Repositories]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Feng-Case Repositories*: Affiliation: University of Washington, 2Independent Attorney, Email: sfl-case-law@cs.washington.edu
 - *From 2023-Feng-Case Repositories*: Affiliation: University of Washington, 2Independent Attorney, Email: sfl-case-law@cs.washington.edu
 - *From 2023-Feng-Case Repositories*: Affiliation: University of Washington, 2Independent Attorney, Email: sfl-case-law@cs.washington.edu
 - *From 2023-Feng-Case Repositories*: Affiliation: University of Washington, 2Independent Attorney, Email: sfl-case-law@cs.washington.edu

@@ -29,6 +29,7 @@ Boiko's research focuses on using AI systems, particularly large language models
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
@@ -38,6 +39,8 @@ Boiko's research focuses on using AI systems, particularly large language models
 
 
 
+
+- *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2025-Salazar-Kaleidoscope*: Affiliation: Department of Computer Science, University of Copenhagen, 3Institute of Computer, Email: israfel.salazar@di.ku.dk

@@ -22,6 +22,7 @@ Dr. Xiao Liu (刘啸) is a Senior Researcher at Microsoft Research Asia (MSRA). 
 
 
 
+
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 - [[2023-Liu-AgentBench|AgentBench]] (First Author)
 - [[2023-Liu-AlignBench|AlignBench]] (First Author)
@@ -32,6 +33,8 @@ Dr. Xiao Liu (刘啸) is a Senior Researcher at Microsoft Research Asia (MSRA). 
 
 
 
+
+- *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley
 - *From 2023-Liu-AgentBench*: Affiliation: University, 2The Ohio State University, 3UC Berkeley

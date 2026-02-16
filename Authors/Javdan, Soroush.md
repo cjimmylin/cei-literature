@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social|Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media]]
 
 ## External Links & Profiles

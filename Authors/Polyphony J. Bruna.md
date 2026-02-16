@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: pbruna@ucmerced.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: is2961@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: tomg@princeton.edu

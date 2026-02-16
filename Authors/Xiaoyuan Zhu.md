@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2023-Huang-AceGPT Localizing Large Language Models in Arabic|AceGPT, Localizing Large Language Models in Arabic]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

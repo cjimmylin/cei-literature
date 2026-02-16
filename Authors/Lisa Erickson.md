@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Anonymous-BEATS|BEATS]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Anonymous-BEATS*: Affiliation: lable and statistically rigorous methodology to benchmark, Email: tushar@kronml.com
 - *From 2025-Anonymous-BEATS*: Affiliation: lable and statistically rigorous methodology to benchmark, Email: alok@alokabhishek.ai
 - *From 2025-Anonymous-BEATS*: Affiliation: lable and statistically rigorous methodology to benchmark, Email: lisa.erickson@sloan.mit.edu
 - *From 2025-Anonymous-BEATS*: Affiliation: lable and statistically rigorous methodology to benchmark, Email: alok@alokabhishek.ai

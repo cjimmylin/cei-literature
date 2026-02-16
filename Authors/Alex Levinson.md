@@ -36,6 +36,7 @@ Alex co-authored the Weapons of Mass Destruction Proxy (WMDP) benchmark, which e
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
 ## Notes
@@ -43,6 +44,8 @@ Alex co-authored the Weapons of Mass Destruction Proxy (WMDP) benchmark, which e
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

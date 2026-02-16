@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Darici-TurkBench A Benchmark for Evaluating Turkish|TurkBench A Benchmark for Evaluating Turkish]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Darici-TurkBench A Benchmark for Evaluating Turkish*: Affiliation: University, 2Computer Sci, Email: ctoraman@ceng.metu.edu.tr
 - *From 2026-Darici-TurkBench A Benchmark for Evaluating Turkish*: Affiliation: University, 2Computer Sci, Email: ctoraman@ceng.metu.edu.tr
 - *From 2026-Darici-TurkBench A Benchmark for Evaluating Turkish*: Affiliation: University, 2Computer Sci, Email: ctoraman@ceng.metu.edu.tr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

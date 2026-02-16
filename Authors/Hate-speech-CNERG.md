@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based|Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based*: Affiliation: Institute of Technology, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based*: Affiliation: Institute of Technology, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based*: Affiliation: Institute of Technology, Email: animeshm@cse.iitkgp.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

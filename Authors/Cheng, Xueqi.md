@@ -1,7 +1,7 @@
 ---
 name: "Cheng, Xueqi"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Laboratory of AI Safety, Institute of Computing Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书|Large Language Model Generate Prompt 生成式大模型 安全评估白皮书]]
+- [[2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书|Large Language Model Generate Prompt 生成式大模型 安全评估白皮书]] (First Author)
+- [[2025-Wen-Evaluating Implicit Bias in Large Language Models|Evaluating Implicit Bias in Large Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -83,6 +83,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Wen-Evaluating Implicit Bias in Large Language Models*: Affiliation: Laboratory of AI Safety, Institute of Computing Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

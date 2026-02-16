@@ -26,6 +26,7 @@ His work includes systematic studies on the security of image captchas, proposin
 
 
 
+
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
 ## Links
@@ -39,6 +40,8 @@ His work includes systematic studies on the security of image captchas, proposin
 
 
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University

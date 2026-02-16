@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets|PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets*: Affiliation: University of
 - *From 2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets*: Affiliation: University of
 - *From 2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets*: Affiliation: University of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

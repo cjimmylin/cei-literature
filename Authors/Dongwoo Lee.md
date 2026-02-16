@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Kader-The Emergence of Strategic Reasoning of Large Language Models|The Emergence of Strategic Reasoning of Large Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: gav.kader@outlook.com
 - *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: gav.kader@outlook.com
 - *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: gav.kader@outlook.com
 - *From 2024-Kader-The Emergence of Strategic Reasoning of Large Language Models*: Affiliation: University of Finance and Economics, Email: dwlee05@gmail.com

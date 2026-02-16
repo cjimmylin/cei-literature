@@ -36,6 +36,7 @@ His work addresses the reality that in multilingual communities, people use two 
 
 
 
+
 - [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]] (Last Author)
 - [[2025-Winata-The Decades Progress on Code-Switching Research in NLP|The Decades Progress on Code-Switching Research in NLP]] (First Author)
 - [[2025-Wiyono-IndoPref|IndoPref]] (Last Author)
@@ -57,6 +58,8 @@ His work addresses the reality that in multilingual communities, people use two 
 
 
 
+
+- *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu
 - *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu
 - *From 2025-Wiyono-IndoPref*:, Email: vanessarebecca29@gmail.com
 - *From 2025-Wiyono-IndoPref*:, Email: david.anugraha@stanford.edu

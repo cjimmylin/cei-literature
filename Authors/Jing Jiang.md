@@ -55,9 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images|Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images]]
+- [[2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images|Seeing Culture Benchmark: Evaluating VLMs on Culturally Rich Images from Southeast Asia]]
+- [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
 ## External Links & Profiles
 

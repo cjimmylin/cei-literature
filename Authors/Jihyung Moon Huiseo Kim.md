@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean|HRET: A Self-Evolving LLM Evaluation Toolkit for Korean]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean*: Affiliation: LABS, HAERAE LAB, Email: gksdnf424@gmail.com
 - *From 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean*: Affiliation: LABS, HAERAE LAB, Email: gksdnf424@gmail.com
 - *From 2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean*: Affiliation: LABS, HAERAE LAB, Email: gksdnf424@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Qadir-Can LLMs Write Faithfully An Agent-Based|Can LLMs Write Faithfully An Agent-Based]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Qadir-Can LLMs Write Faithfully An Agent-Based*: Affiliation: centering Muslim perspectives, offering an early
 - *From 2025-Qadir-Can LLMs Write Faithfully An Agent-Based*: Affiliation: centering Muslim perspectives, offering an early
 - *From 2025-Qadir-Can LLMs Write Faithfully An Agent-Based*: Affiliation: centering Muslim perspectives, offering an early
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

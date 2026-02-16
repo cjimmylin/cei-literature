@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2018-Berberich-The Virtuous Machine|The Virtuous Machine - Old Ethics for New]]
+- [[2020-Berberich-Harmonizing Artificial Intelligence for Social Good|Harmonizing Artificial Intelligence for Social Good]] (First Author)
 
 ## External Links & Profiles
 

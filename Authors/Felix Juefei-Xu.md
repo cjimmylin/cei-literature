@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]]
 - [[2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages|IndoSafety: Culturally Grounded Safety for LLMs in Indonesian Languages]] (Last Author)
 - [[2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for|Instruction Tuning on Public Government and Cultural Data for Low-Resource Language: a Case Study in Kazakh]] (Last Author)
@@ -96,6 +97,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: ffajri@student.unimelb.edu.au
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

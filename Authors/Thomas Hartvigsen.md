@@ -24,6 +24,7 @@ Thomas (Tom) Hartvigsen is an Assistant Professor at the University of Virginia.
 
 
 
+
 - [[2024-Jain-PolygloToxicityPrompts|PolygloToxicityPrompts]]
 - [[2022-Hartvigsen-ToxiGen|ToxiGen]] (First Author)
 
@@ -33,6 +34,8 @@ Thomas (Tom) Hartvigsen is an Assistant Professor at the University of Virginia.
 
 
 
+
+- *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: skgabrie@cs.washington.edu
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: hpalangi@microsoft.com
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: maartensap@cmu.edu
 - *From 2022-Hartvigsen-ToxiGen*: Affiliation: Institute of Technology, Email: tomh@mit.edu

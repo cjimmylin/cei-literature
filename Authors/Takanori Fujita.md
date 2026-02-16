@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2020-Ema-Artificial Intelligence and Indigenous Perspectives Protecting and|Artificial Intelligence and Indigenous Perspectives: Protecting and Empowering Intelligent Human Beings]] (Last Author)
 
 ## External Links & Profiles

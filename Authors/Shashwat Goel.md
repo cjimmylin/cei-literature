@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2023-Guha-LegalBench|LegalBench]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR

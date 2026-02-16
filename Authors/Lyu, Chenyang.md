@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks|The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks]]
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
 - *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
 - *From 2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks*: Affiliation: University of Edinburgh
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

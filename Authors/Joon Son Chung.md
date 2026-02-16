@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Chen-AVHBench|AVHBench]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 - *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 - *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH
 - *From 2025-Chen-AVHBench*: Affiliation: School of Artificial Intelligence, POSTECH

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Nie-Multilingual Large Language Models Are Not Yet Code- ...|Multilingual Large Language Models Are Not (Yet) Code- ...]]
 - [[2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages|Towards Multilingual LLM Evaluation for European Languages]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

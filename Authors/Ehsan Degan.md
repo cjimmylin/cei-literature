@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large|DECASTE Unveiling Caste Stereotypes in Large]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: lamogha.chiazor@ibm.com
 - *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: rhoresh@us.ibm.com
 - *From 2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large*: Affiliation: College, Hanover, NH, USA, Email: ropaula@br.ibm.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

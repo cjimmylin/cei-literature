@@ -24,6 +24,7 @@ Researcher at Bonn-Rhein-Sieg University of Applied Sciences, Department of Comp
 
 
 
+
 - [[2025-Satheesh-GG-BBQ|GG-BBQ]] (First Author)
 
 ## Notes
@@ -32,6 +33,8 @@ Researcher at Bonn-Rhein-Sieg University of Applied Sciences, Department of Comp
 
 
 
+
+- *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de
 - *From 2025-Satheesh-GG-BBQ*: Affiliation: Institute for Intelligent Analysis and Information Systems IAIS, Email: shalaka.satheesh@iais.fraunhofer.de

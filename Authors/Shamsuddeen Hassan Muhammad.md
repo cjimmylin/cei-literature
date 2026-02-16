@@ -23,6 +23,7 @@ Advanced Research Fellow at Imperial College London and Google DeepMind Academic
 
 
 
+
 - [[2025-Ousidhoum-AfriHate A Multilingual Collection of Hate|AfriHate A Multilingual Collection of Hate]] (First Author)
 - [[2025-Tewabe-The State of Large Language Models for African Languages Progress and|The State of Large Language Models for African Languages: Progress and Challenges]]
 - [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
@@ -36,6 +37,8 @@ Advanced Research Fellow at Imperial College London and Google DeepMind Academic
 
 
 
+
+- *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda
 - *From 2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African*: Affiliation: University College London, UK, 3Makerere University, Uganda

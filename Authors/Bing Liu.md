@@ -53,6 +53,7 @@ He has authored foundational textbooks, including *Sentiment Analysis: Mining Op
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Chiu-MoReBench|MoReBench]]
 
@@ -68,6 +69,8 @@ He has authored foundational textbooks, including *Sentiment Analysis: Mining Op
 
 
 
+
+- *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu

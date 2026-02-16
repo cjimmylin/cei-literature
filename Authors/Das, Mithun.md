@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Das-Hate Speech and Offensive Language Detection|Hate Speech and Offensive Language Detection]] (First Author)
 - [[2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection|HateCheckHIn Evaluating Hindi Hate Speech Detection]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: punyajoys@iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: animeshm@cse.iitkgp.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

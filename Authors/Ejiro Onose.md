@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across|Evaluating Metalinguistic Knowledge in Large Language Models across the World's Languages]] (First Author)
 - [[2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for|Can LLMs Help Create Grammar?: Automating Grammar Creation for Endangered Languages with In-Context Learning]] (First Author)
 - [[2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages|LLMs for Extremely Low-Resource Finno-Ugric Languages]] (First Author)
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for*: Affiliation: Faculty of Arts, CU, Thailand, Email: linguistics@piyapath.uk
 - *From 2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for*: Affiliation: Faculty of Arts, CU, Thailand, Email: prompt.k10@gmail.com
 - *From 2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for*: Affiliation: Faculty of Arts, CU, Thailand, Email: linguistics@piyapath.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

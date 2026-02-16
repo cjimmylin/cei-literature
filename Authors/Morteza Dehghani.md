@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks|Theory Trace Card (TTC): Documentation for Socio-Cognitive Benchmarks]] (Last Author)
 - [[2026-Yu-Tracing Moral Foundations in LLMs|Tracing Moral Foundations in LLMs]] (Last Author)
 - [[2022-Trager-The Moral Foundations Reddit Corpus|The Moral Foundations Reddit Corpus]] (Last Author)
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California
 - *From 2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks*: Affiliation: University of Southern California

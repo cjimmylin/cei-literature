@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Rehm-Investigating Gender Bias in Turkish Language|Investigating Gender Bias in Turkish Language]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
 - *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
 - *From 2024-Rehm-Investigating Gender Bias in Turkish Language*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: first.lastname@dfki.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

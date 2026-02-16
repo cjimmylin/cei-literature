@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ren-The MASK Benchmark|The MASK Benchmark]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4
 - *From 2024-Li-The WMDP Benchmark*: Affiliation: Lababidi4, Lennart Justen3,4

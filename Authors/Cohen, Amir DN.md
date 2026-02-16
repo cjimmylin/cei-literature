@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark|HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark*: Affiliation: University, Ramat-Gan, Israel, Email: reut.tsarfaty@gmail.com
 - *From 2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark*: Affiliation: University, Ramat-Gan, Israel, Email: reut.tsarfaty@gmail.com
 - *From 2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark*: Affiliation: University, Ramat-Gan, Israel, Email: amirdnc@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

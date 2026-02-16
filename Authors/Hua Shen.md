@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ashkinaze-Deep Value Benchmark|Deep Value Benchmark]]
 - [[2025-Shen-ValueActionLens Mind the Value-Action Gap|ValueActionLens (Mind the Value-Action Gap)]] (First Author)
 - [[2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment|ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs]] (First Author)
@@ -91,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: cbudak@umich.edu
 - *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: cbudak@umich.edu
 - *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: eegg@umich.edu
 - *From 2025-Ashkinaze-Deep Value Benchmark*: Affiliation: University of Michigan, Email: eegg@umich.edu

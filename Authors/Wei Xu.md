@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness|CARE -- Multilingual Human Preference Learning for Cultural Awareness]] (Last Author)
 - [[2024-Xu-Course-Correction|Course-Correction]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University
 - *From 2024-Xu-Course-Correction*: Affiliation: University, 2Central South University

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Narula-A comprehensive review on detection of hate speech for multi-lingual|A comprehensive review on detection of hate speech for multi-lingual data | Social Network Analysis and Mining]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Narula-A comprehensive review on detection of hate speech for multi-lingual*: Affiliation: centers for spread of
 - *From 2025-Narula-A comprehensive review on detection of hate speech for multi-lingual*: Affiliation: centers for spread of
 - *From 2025-Narula-A comprehensive review on detection of hate speech for multi-lingual*: Affiliation: centers for spread of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

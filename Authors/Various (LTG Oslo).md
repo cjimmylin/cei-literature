@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Oslo-NorBench A Benchmark for Norwegian Language Models|NorBench: A Benchmark for Norwegian Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
 - *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
 - *From 2023-Oslo-NorBench A Benchmark for Norwegian Language Models*: Affiliation: University of Oslo, Language Technology Group
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

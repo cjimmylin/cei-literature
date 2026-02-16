@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Ren-Safetywashing|Safetywashing]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Ren-Safetywashing*: Affiliation: Center for AI Safety 2University of Pennsylvania 3UC Berkeley
 - *From 2024-Ren-Safetywashing*: Affiliation: Center for AI Safety 2University of Pennsylvania 3UC Berkeley
 - *From 2024-Ren-Safetywashing*: Affiliation: Center for AI Safety 2University of Pennsylvania 3UC Berkeley
 - *From 2024-Ren-Safetywashing*: Affiliation: Center for AI Safety 2University of Pennsylvania 3UC Berkeley

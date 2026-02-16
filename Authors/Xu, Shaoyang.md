@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language|Exploring Multilingual Concepts of Human Value in Large Language Models: Is Value Alignment Consistent, Transferable and Controllable across Languages?]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language*: Affiliation: School of New Media and Communication, Tianjin University, Tianjin, China
 - *From 2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language*: Affiliation: School of New Media and Communication, Tianjin University, Tianjin, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

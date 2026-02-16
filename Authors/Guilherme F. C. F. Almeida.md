@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding|Conscience Conflict: Evaluating Language Models' Moral Understanding]]
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 - *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 - *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc
 - *From 2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding*: Affiliation: Department of Informatics, Pontifical Catholic University of Rio de Janeiro, Email: jnunes@inf.puc

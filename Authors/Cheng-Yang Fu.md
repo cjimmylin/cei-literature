@@ -34,6 +34,7 @@ Cheng-Yang Fu is a researcher at Meta AI within the Fundamental AI Research (FAI
 
 
 
+
 - [[2025-Fu-MME-CoT|MME-CoT]]
 - [[2025-Zhang-MedHallTune|MedHallTune]]
 - [[2023-Gustafson-FACET|FACET]]
@@ -48,6 +49,8 @@ Cheng-Yang Fu is a researcher at Meta AI within the Fundamental AI Research (FAI
 
 
 
+
+- *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com
 - *From 2023-Gustafson-FACET*: Affiliation: lable evaluation set, Email: facet@meta.com

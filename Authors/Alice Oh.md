@@ -51,8 +51,10 @@ She has been instrumental in organizing the top venues in AI, serving as General
 
 
 
+
 - [[2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and|BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge]] (Last Author)
 - [[2025-Myung-PapersPlease|PapersPlease]] (Last Author)
+- [[2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun|Evaluating LLMs' Language Confusion in Code-switching Context Juhyun Oh KAIST]] (Last Author)
 - [[2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for|RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity]] (Last Author)
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]] (Last Author)
 - [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]]
@@ -77,6 +79,8 @@ She has been instrumental in organizing the top venues in AI, serving as General
 
 
 
+
+- *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: james.ryu@kakaoenterprise.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: humanbrain.djlee@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: bananaband657@gmail.com
 - *From 2021-Park-KLUE Korean Language Understanding Evaluation*:, Email: myeon9h@kaist.ac.kr

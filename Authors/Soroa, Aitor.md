@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Heredia-Conditioning LLMs to Generate Code-Switched Text|Conditioning LLMs to Generate Code-Switched Text]] (Last Author)
 - [[2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque|Latxa: An Open Language Model and Evaluation Suite for Basque]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 - *From 2024-Etxaniz-Latxa An Open Language Model and Evaluation Suite for Basque*: Affiliation: Center - Ixa, University of the Basque Country UPV/EHU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

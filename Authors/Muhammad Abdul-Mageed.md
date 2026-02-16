@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Abdul-Mageed-Where Are We Evaluating LLM Performance|Where Are We Evaluating LLM Performance]] (Last Author)
 - [[2025-Alwajih-Palm|Palm]] (Last Author)
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]] (Last Author)
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia
 - *From 2025-Abdul-Mageed-Where Are We Evaluating LLM Performance*: Affiliation: University of British Columbia

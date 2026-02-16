@@ -1,7 +1,7 @@
 ---
 name: "Kreutzer, Julia"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Hulagadri-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION|Towards fair and comprehensive multilingual LLM benchmarking SEA-LION]]
+- [[2025-Hulagadri-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION|Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION]]
+- [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It]] (Last Author)
+- [[2021-Adelani-MasakhaNER Named Entity Recognition for African|MasakhaNER Named Entity Recognition for African]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2021-Adelani-MasakhaNER Named Entity Recognition for African*: Affiliation: labi17∗, Seid Muhie Yimam18, Tajuddeen Rabiu Gwadabe19∗, Ignatius Ezeani20∗
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

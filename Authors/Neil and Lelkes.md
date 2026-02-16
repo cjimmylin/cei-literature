@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Fasching-Inconsistencies in Hate Speech Detection Across|Inconsistencies in Hate Speech Detection Across]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania
 - *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania
 - *From 2025-Fasching-Inconsistencies in Hate Speech Detection Across*: Affiliation: University of Pennsylvania
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

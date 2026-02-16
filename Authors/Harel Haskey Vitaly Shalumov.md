@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models|HeRo: RoBERTa and Longformer Hebrew Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models*: Affiliation: lable to the Hebrew NLP com-, Email: vitaly.shalumov@gmail.com
 - *From 2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models*: Affiliation: lable to the Hebrew NLP com-, Email: vitaly.shalumov@gmail.com
 - *From 2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models*: Affiliation: lable to the Hebrew NLP com-, Email: vitaly.shalumov@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

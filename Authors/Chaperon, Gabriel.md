@@ -1,9 +1,9 @@
 ---
 name: "Chaperon, Gabriel"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Computer Science, Universidad de Chile"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "jperez@dcc.uchile.cl"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2021-Jiang-Pre-trained Models and Evaluation Data for|Pre-trained Models and Evaluation Data for]]]]
 
 - [[2021-Jiang-Pre-trained Models and Evaluation Data for|Pre-trained Models and Evaluation Data for]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2021-Jiang-Pre-trained Models and Evaluation Data for*: Affiliation: Department of Computer Science, Universidad de Chile, Email: jperez@dcc.uchile.cl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

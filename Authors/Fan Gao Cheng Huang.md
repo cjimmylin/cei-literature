@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark|TIB-STC A Large-Scale Structured Tibetan Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark*: Affiliation: University of Electronic Science and Technology of China, Email: ybyu@uestc.edu.cn
 - *From 2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark*: Affiliation: University of Electronic Science and Technology of China, Email: ybyu@uestc.edu.cn
 - *From 2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark*: Affiliation: University of Electronic Science and Technology of China, Email: ybyu@uestc.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

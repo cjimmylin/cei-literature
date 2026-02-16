@@ -36,6 +36,7 @@ Alexander's work centers on the ideological alignment of large language models. 
 
 
 
+
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]]
 
 ## Notes
@@ -43,6 +44,8 @@ Alexander's work centers on the ideological alignment of large language models. 
 
 
 
+
+- *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: tijl.debie@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: maarten.buyl@ugent.be
 - *From 2024-Buyl-Large Language Models Reflect the Ideology of*: Affiliation: University, Belgium; 2Public University of Navarre, Spain, Email: tijl.debie@ugent.be

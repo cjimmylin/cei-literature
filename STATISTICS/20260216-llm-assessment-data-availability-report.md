@@ -1,6 +1,6 @@
 # LLM Assessment & Data Availability Report
 
-> **Generated:** 2026-02-16 | **Papers scanned:** 2002
+> **Generated:** 2026-02-16 | **Papers scanned:** 2034
 
 ---
 
@@ -28,17 +28,17 @@
 
 ## 1. Executive Summary
 
-This report analyzes **2002 papers** in the CEI Literature Vault for LLM model assessment
+This report analyzes **2034 papers** in the CEI Literature Vault for LLM model assessment
 coverage and public data/benchmark availability.
 
 | Metric | Count | % of Total |
 |--------|------:|:----------:|
-| Papers with LLM models identified | 1578 | 78.8% |
-| Papers with no LLM models (NA) | 424 | 21.2% |
-| Papers with public data URL | 1196 | 59.7% |
-| Papers with no data URL (NA) | 806 | 40.3% |
-| Papers with **both** models + URL | 1075 | 53.7% |
-| Papers with **neither** | 303 | 15.1% |
+| Papers with LLM models identified | 1578 | 77.6% |
+| Papers with no LLM models (NA) | 456 | 22.4% |
+| Papers with public data URL | 1201 | 59.0% |
+| Papers with no data URL (NA) | 833 | 41.0% |
+| Papers with **both** models + URL | 1075 | 52.9% |
+| Papers with **neither** | 330 | 16.2% |
 
 - **1399 unique model names** across **14 model families** detected
 - Average models per paper (among assessed papers): **6.1** (max: 53)
@@ -1223,124 +1223,124 @@ All unique models ranked by number of papers mentioning them:
 | 1168 | Whisper | 1 | Other/Unknown |
 | 1169 | LLaMa-3.3 | 1 | Other/Unknown |
 | 1170 | Mistral12b | 1 | Other/Unknown |
-| 1171 | Dolly24 | 1 | Other/Unknown |
-| 1172 | Mistral 0.74 2 | 1 | Other/Unknown |
-| 1173 | Mistral 11.47 69 | 1 | Other/Unknown |
-| 1174 | Qwen 0.12 | 1 | Other/Unknown |
-| 1175 | Qwen 0.90 | 1 | Other/Unknown |
-| 1176 | Gemini 2.0 flash | 1 | Other/Unknown |
-| 1177 | LlaMA 2 | 1 | Other/Unknown |
-| 1178 | Qwen et | 1 | Other/Unknown |
-| 1179 | chatglm-6b | 1 | Other/Unknown |
-| 1180 | falcon-40b | 1 | Other/Unknown |
-| 1181 | t5-3b | 1 | Other/Unknown |
-| 1182 | vicuna | 1 | Open-source (misc) |
-| 1183 | Llama-3.2-90B-Vision | 1 | Other/Unknown |
-| 1184 | InternVL2 | 1 | Other/Unknown |
-| 1185 | Gemma-3-27B | 1 | Other/Unknown |
-| 1186 | Breeze2 | 1 | Other/Unknown |
-| 1187 | deepseek-vl2 | 1 | Other/Unknown |
-| 1188 | mistral-nemo | 1 | Other/Unknown |
-| 1189 | qwen-3 | 1 | Other/Unknown |
-| 1190 | Gemma-2. | 1 | Other/Unknown |
-| 1191 | Aya-Vision-32B | 1 | Other/Unknown |
-| 1192 | Aya-Vision-8B | 1 | Other/Unknown |
-| 1193 | LLaMA 3.2. | 1 | Other/Unknown |
-| 1194 | DeBERTa-based | 1 | Other/Unknown |
-| 1195 | WizardLM-2 | 1 | Other/Unknown |
-| 1196 | DeepSeek 67B | 1 | Other/Unknown |
-| 1197 | qwen2 | 1 | Other/Unknown |
-| 1198 | Stable Diffusion 3 | 1 | Other/Unknown |
-| 1199 | YandexART 2 | 1 | Other/Unknown |
-| 1200 | Midjourney v6 | 1 | Other/Unknown |
-| 1201 | Ernie | 1 | Open-source (misc) |
-| 1202 | GPT-4O-MINI | 1 | Other/Unknown |
-| 1203 | LLAMA3 | 1 | Other/Unknown |
-| 1204 | Claude-Sonnet-3.7 | 1 | Other/Unknown |
-| 1205 | Claude-Sonnet-4 | 1 | Other/Unknown |
-| 1206 | Qwen-3-235B | 1 | Other/Unknown |
-| 1207 | InternLM3 | 1 | Other/Unknown |
-| 1208 | CogVLM2 | 1 | Other/Unknown |
-| 1209 | InternVL-Chat-V1.5 | 1 | Other/Unknown |
-| 1210 | MiniCPM-V2.5 | 1 | Other/Unknown |
-| 1211 | QwenVL-Chat | 1 | Other/Unknown |
-| 1212 | InternLM-XComposer2-VL | 1 | Other/Unknown |
-| 1213 | DeepSeek-VL | 1 | Other/Unknown |
-| 1214 | Monkey-Chat | 1 | Other/Unknown |
-| 1215 | ShareGPT4V | 1 | Other/Unknown |
-| 1216 | LLaVA-v1.5 | 1 | Other/Unknown |
-| 1217 | Yi-VL | 1 | Other/Unknown |
-| 1218 | InstructBLIP | 1 | Other/Unknown |
-| 1219 | InternVL2-Llama3 | 1 | Other/Unknown |
-| 1220 | Qwen2-VL | 1 | Other/Unknown |
-| 1221 | gemma-1.1 | 1 | Other/Unknown |
-| 1222 | Claude 2. | 1 | Other/Unknown |
-| 1223 | LLaMA-2 Chat | 1 | Other/Unknown |
-| 1224 | Qwen-family | 1 | Other/Unknown |
-| 1225 | Phi4 0 | 1 | Other/Unknown |
-| 1226 | Phi4-14B | 1 | Other/Unknown |
-| 1227 | DeepSeek-70B | 1 | Other/Unknown |
-| 1228 | BARTL | 1 | Other/Unknown |
-| 1229 | Swallow-8B | 1 | Other/Unknown |
-| 1230 | LLaMA2-Chat | 1 | Other/Unknown |
-| 1231 | mixtral-8x7b | 1 | Other/Unknown |
-| 1232 | CodeLLaMA | 1 | Meta |
-| 1233 | o1-mini | 1 | OpenAI |
-| 1234 | Qwen2.5-Omni-7B | 1 | Other/Unknown |
-| 1235 | Qwen2.5-Omni-3B | 1 | Other/Unknown |
-| 1236 | Baichuan-Omni-1.5 | 1 | Other/Unknown |
-| 1237 | Llama-3.2-11B-Vision | 1 | Other/Unknown |
-| 1238 | UI-TARS-1.5-7B | 1 | Other/Unknown |
-| 1239 | Idefics2-8b | 1 | Other/Unknown |
-| 1240 | PaliGemma-2 | 1 | Other/Unknown |
-| 1241 | Qwen MMMLU | 1 | Other/Unknown |
-| 1242 | LLAMA 4 | 1 | Other/Unknown |
-| 1243 | Phi-4-mini | 1 | Other/Unknown |
-| 1244 | DictaLM2.0 | 1 | Other/Unknown |
-| 1245 | Alpaca-2 | 1 | Other/Unknown |
-| 1246 | GPT 4O | 1 | Other/Unknown |
-| 1247 | LlaMA 3.1 | 1 | Other/Unknown |
-| 1248 | LlaMA-3.1 | 1 | Other/Unknown |
-| 1249 | Qwen 3.5 | 1 | Other/Unknown |
-| 1250 | codellama 22 | 1 | Other/Unknown |
-| 1251 | deepseek6 | 1 | Other/Unknown |
-| 1252 | llama 24 | 1 | Other/Unknown |
-| 1253 | ChatGLM-4 | 1 | Other/Unknown |
-| 1254 | Baichuan-4 | 1 | Other/Unknown |
-| 1255 | Qwen-Turbo | 1 | Other/Unknown |
-| 1256 | qwen-13b | 1 | Other/Unknown |
-| 1257 | qwen-7b | 1 | Other/Unknown |
-| 1258 | ChatGPT-4o-Latest | 1 | Other/Unknown |
-| 1259 | Qwen2.5-0.5B | 1 | Other/Unknown |
-| 1260 | Qwen2.5-3B | 1 | Other/Unknown |
-| 1261 | Mistral-7B-v0.3 | 1 | Other/Unknown |
-| 1262 | Gemma2-27B-it | 1 | Other/Unknown |
-| 1263 | DeepSeek-GRM | 1 | Other/Unknown |
-| 1264 | Qwen-Instruct | 1 | Other/Unknown |
-| 1265 | Claude-4-sonnet | 1 | Other/Unknown |
-| 1266 | DeepSeek 29 | 1 | Other/Unknown |
-| 1267 | llama-guard | 1 | Other/Unknown |
-| 1268 | llamaguard | 1 | Other/Unknown |
-| 1269 | phi-3 | 1 | Microsoft |
-| 1270 | DeepSeek-R1-Distill-Qwen-1.5B | 1 | Other/Unknown |
-| 1271 | DeepSeek-R1-Distill-Qwen-7B | 1 | Other/Unknown |
-| 1272 | DeepSeek-R1-Distill-Qwen-14B | 1 | Other/Unknown |
-| 1273 | DeepSeek-R1-Distill-Qwen-32B | 1 | Other/Unknown |
-| 1274 | DeepSeek-R1-Distill-Llama-70B | 1 | Other/Unknown |
-| 1275 | Doubao-pro-256k | 1 | Other/Unknown |
-| 1276 | Yi-Lightning | 1 | Other/Unknown |
-| 1277 | MiniMax-01 | 1 | Other/Unknown |
-| 1278 | Moonshot-v1-128k | 1 | Other/Unknown |
-| 1279 | Spark-4.0-Ultra | 1 | Other/Unknown |
-| 1280 | ERNIE-4.0-Turbo-128K | 1 | Other/Unknown |
-| 1281 | Step-2-16K | 1 | Other/Unknown |
-| 1282 | Hunyuan-Turbo | 1 | Other/Unknown |
-| 1283 | Deepseek-V3 | 1 | Other/Unknown |
-| 1284 | DeBERTa V2 | 1 | Other/Unknown |
-| 1285 | DeBERTa-base | 1 | Other/Unknown |
-| 1286 | Poro-34B | 1 | Other/Unknown |
-| 1287 | multilingual and Basque-adapted LLMs | 1 | Other/Unknown |
-| 1288 | Cohere-Aya | 1 | Other/Unknown |
+| 1171 | Cohere-Aya | 1 | Other/Unknown |
+| 1172 | Dolly24 | 1 | Other/Unknown |
+| 1173 | Mistral 0.74 2 | 1 | Other/Unknown |
+| 1174 | Mistral 11.47 69 | 1 | Other/Unknown |
+| 1175 | Qwen 0.12 | 1 | Other/Unknown |
+| 1176 | Qwen 0.90 | 1 | Other/Unknown |
+| 1177 | Gemini 2.0 flash | 1 | Other/Unknown |
+| 1178 | LlaMA 2 | 1 | Other/Unknown |
+| 1179 | Qwen et | 1 | Other/Unknown |
+| 1180 | chatglm-6b | 1 | Other/Unknown |
+| 1181 | falcon-40b | 1 | Other/Unknown |
+| 1182 | t5-3b | 1 | Other/Unknown |
+| 1183 | vicuna | 1 | Open-source (misc) |
+| 1184 | Llama-3.2-90B-Vision | 1 | Other/Unknown |
+| 1185 | InternVL2 | 1 | Other/Unknown |
+| 1186 | Gemma-3-27B | 1 | Other/Unknown |
+| 1187 | Breeze2 | 1 | Other/Unknown |
+| 1188 | deepseek-vl2 | 1 | Other/Unknown |
+| 1189 | mistral-nemo | 1 | Other/Unknown |
+| 1190 | qwen-3 | 1 | Other/Unknown |
+| 1191 | Gemma-2. | 1 | Other/Unknown |
+| 1192 | Aya-Vision-32B | 1 | Other/Unknown |
+| 1193 | Aya-Vision-8B | 1 | Other/Unknown |
+| 1194 | LLaMA 3.2. | 1 | Other/Unknown |
+| 1195 | DeBERTa-based | 1 | Other/Unknown |
+| 1196 | WizardLM-2 | 1 | Other/Unknown |
+| 1197 | DeepSeek 67B | 1 | Other/Unknown |
+| 1198 | qwen2 | 1 | Other/Unknown |
+| 1199 | Stable Diffusion 3 | 1 | Other/Unknown |
+| 1200 | YandexART 2 | 1 | Other/Unknown |
+| 1201 | Midjourney v6 | 1 | Other/Unknown |
+| 1202 | Ernie | 1 | Open-source (misc) |
+| 1203 | GPT-4O-MINI | 1 | Other/Unknown |
+| 1204 | LLAMA3 | 1 | Other/Unknown |
+| 1205 | Claude-Sonnet-3.7 | 1 | Other/Unknown |
+| 1206 | Claude-Sonnet-4 | 1 | Other/Unknown |
+| 1207 | Qwen-3-235B | 1 | Other/Unknown |
+| 1208 | InternLM3 | 1 | Other/Unknown |
+| 1209 | CogVLM2 | 1 | Other/Unknown |
+| 1210 | InternVL-Chat-V1.5 | 1 | Other/Unknown |
+| 1211 | MiniCPM-V2.5 | 1 | Other/Unknown |
+| 1212 | QwenVL-Chat | 1 | Other/Unknown |
+| 1213 | InternLM-XComposer2-VL | 1 | Other/Unknown |
+| 1214 | DeepSeek-VL | 1 | Other/Unknown |
+| 1215 | Monkey-Chat | 1 | Other/Unknown |
+| 1216 | ShareGPT4V | 1 | Other/Unknown |
+| 1217 | LLaVA-v1.5 | 1 | Other/Unknown |
+| 1218 | Yi-VL | 1 | Other/Unknown |
+| 1219 | InstructBLIP | 1 | Other/Unknown |
+| 1220 | InternVL2-Llama3 | 1 | Other/Unknown |
+| 1221 | Qwen2-VL | 1 | Other/Unknown |
+| 1222 | gemma-1.1 | 1 | Other/Unknown |
+| 1223 | Claude 2. | 1 | Other/Unknown |
+| 1224 | LLaMA-2 Chat | 1 | Other/Unknown |
+| 1225 | Qwen-family | 1 | Other/Unknown |
+| 1226 | Phi4 0 | 1 | Other/Unknown |
+| 1227 | Phi4-14B | 1 | Other/Unknown |
+| 1228 | DeepSeek-70B | 1 | Other/Unknown |
+| 1229 | BARTL | 1 | Other/Unknown |
+| 1230 | Swallow-8B | 1 | Other/Unknown |
+| 1231 | LLaMA2-Chat | 1 | Other/Unknown |
+| 1232 | mixtral-8x7b | 1 | Other/Unknown |
+| 1233 | CodeLLaMA | 1 | Meta |
+| 1234 | o1-mini | 1 | OpenAI |
+| 1235 | Qwen2.5-Omni-7B | 1 | Other/Unknown |
+| 1236 | Qwen2.5-Omni-3B | 1 | Other/Unknown |
+| 1237 | Baichuan-Omni-1.5 | 1 | Other/Unknown |
+| 1238 | Llama-3.2-11B-Vision | 1 | Other/Unknown |
+| 1239 | UI-TARS-1.5-7B | 1 | Other/Unknown |
+| 1240 | Idefics2-8b | 1 | Other/Unknown |
+| 1241 | PaliGemma-2 | 1 | Other/Unknown |
+| 1242 | Qwen MMMLU | 1 | Other/Unknown |
+| 1243 | LLAMA 4 | 1 | Other/Unknown |
+| 1244 | Phi-4-mini | 1 | Other/Unknown |
+| 1245 | DictaLM2.0 | 1 | Other/Unknown |
+| 1246 | Alpaca-2 | 1 | Other/Unknown |
+| 1247 | GPT 4O | 1 | Other/Unknown |
+| 1248 | LlaMA 3.1 | 1 | Other/Unknown |
+| 1249 | LlaMA-3.1 | 1 | Other/Unknown |
+| 1250 | Qwen 3.5 | 1 | Other/Unknown |
+| 1251 | codellama 22 | 1 | Other/Unknown |
+| 1252 | deepseek6 | 1 | Other/Unknown |
+| 1253 | llama 24 | 1 | Other/Unknown |
+| 1254 | ChatGLM-4 | 1 | Other/Unknown |
+| 1255 | Baichuan-4 | 1 | Other/Unknown |
+| 1256 | Qwen-Turbo | 1 | Other/Unknown |
+| 1257 | qwen-13b | 1 | Other/Unknown |
+| 1258 | qwen-7b | 1 | Other/Unknown |
+| 1259 | ChatGPT-4o-Latest | 1 | Other/Unknown |
+| 1260 | Qwen2.5-0.5B | 1 | Other/Unknown |
+| 1261 | Qwen2.5-3B | 1 | Other/Unknown |
+| 1262 | Mistral-7B-v0.3 | 1 | Other/Unknown |
+| 1263 | Gemma2-27B-it | 1 | Other/Unknown |
+| 1264 | DeepSeek-GRM | 1 | Other/Unknown |
+| 1265 | Qwen-Instruct | 1 | Other/Unknown |
+| 1266 | Claude-4-sonnet | 1 | Other/Unknown |
+| 1267 | DeepSeek 29 | 1 | Other/Unknown |
+| 1268 | llama-guard | 1 | Other/Unknown |
+| 1269 | llamaguard | 1 | Other/Unknown |
+| 1270 | phi-3 | 1 | Microsoft |
+| 1271 | DeepSeek-R1-Distill-Qwen-1.5B | 1 | Other/Unknown |
+| 1272 | DeepSeek-R1-Distill-Qwen-7B | 1 | Other/Unknown |
+| 1273 | DeepSeek-R1-Distill-Qwen-14B | 1 | Other/Unknown |
+| 1274 | DeepSeek-R1-Distill-Qwen-32B | 1 | Other/Unknown |
+| 1275 | DeepSeek-R1-Distill-Llama-70B | 1 | Other/Unknown |
+| 1276 | Doubao-pro-256k | 1 | Other/Unknown |
+| 1277 | Yi-Lightning | 1 | Other/Unknown |
+| 1278 | MiniMax-01 | 1 | Other/Unknown |
+| 1279 | Moonshot-v1-128k | 1 | Other/Unknown |
+| 1280 | Spark-4.0-Ultra | 1 | Other/Unknown |
+| 1281 | ERNIE-4.0-Turbo-128K | 1 | Other/Unknown |
+| 1282 | Step-2-16K | 1 | Other/Unknown |
+| 1283 | Hunyuan-Turbo | 1 | Other/Unknown |
+| 1284 | Deepseek-V3 | 1 | Other/Unknown |
+| 1285 | DeBERTa V2 | 1 | Other/Unknown |
+| 1286 | DeBERTa-base | 1 | Other/Unknown |
+| 1287 | Poro-34B | 1 | Other/Unknown |
+| 1288 | multilingual and Basque-adapted LLMs | 1 | Other/Unknown |
 | 1289 | claude-3.5 | 1 | Other/Unknown |
 | 1290 | claude-3.5 Sonnet | 1 | Other/Unknown |
 | 1291 | llama 70. | 1 | Other/Unknown |
@@ -1421,19 +1421,19 @@ All unique models ranked by number of papers mentioning them:
 | 1366 | Mistral-24.07 | 1 | Other/Unknown |
 | 1367 | Gemini 2.5 Flash Lite | 1 | Other/Unknown |
 | 1368 | EXAONE 3.5 | 1 | Other/Unknown |
-| 1369 | Qwen-3B | 1 | Other/Unknown |
-| 1370 | 80+ open- and closed-source LLMs | 1 | Other/Unknown |
-| 1371 | Qwen3-0.6B | 1 | Other/Unknown |
-| 1372 | Qwen3-1.7B | 1 | Other/Unknown |
-| 1373 | MiniCPM4-0.5B | 1 | Other/Unknown |
-| 1374 | MiniCPM4-8B | 1 | Other/Unknown |
-| 1375 | Hunyuan-0.5B | 1 | Other/Unknown |
-| 1376 | Hunyuan-1.8B | 1 | Other/Unknown |
-| 1377 | Hunyuan-7B | 1 | Other/Unknown |
-| 1378 | openPangu-Embedded-1B | 1 | Other/Unknown |
-| 1379 | openPangu-Embedded-7B | 1 | Other/Unknown |
-| 1380 | Falcon-h1 | 1 | Other/Unknown |
-| 1381 | Qwen R1 | 1 | Other/Unknown |
+| 1369 | Falcon-h1 | 1 | Other/Unknown |
+| 1370 | Qwen R1 | 1 | Other/Unknown |
+| 1371 | Qwen-3B | 1 | Other/Unknown |
+| 1372 | 80+ open- and closed-source LLMs | 1 | Other/Unknown |
+| 1373 | Qwen3-0.6B | 1 | Other/Unknown |
+| 1374 | Qwen3-1.7B | 1 | Other/Unknown |
+| 1375 | MiniCPM4-0.5B | 1 | Other/Unknown |
+| 1376 | MiniCPM4-8B | 1 | Other/Unknown |
+| 1377 | Hunyuan-0.5B | 1 | Other/Unknown |
+| 1378 | Hunyuan-1.8B | 1 | Other/Unknown |
+| 1379 | Hunyuan-7B | 1 | Other/Unknown |
+| 1380 | openPangu-Embedded-1B | 1 | Other/Unknown |
+| 1381 | openPangu-Embedded-7B | 1 | Other/Unknown |
 | 1382 | Gemini 3 Flash Preview (thinking) | 1 | Other/Unknown |
 | 1383 | Gemini 2.5 Pro (thinking) | 1 | Other/Unknown |
 | 1384 | DeepSeek Chat v3.1 (thinking) | 1 | Other/Unknown |
@@ -1529,8 +1529,8 @@ How often the top 12 models appear together in the same paper:
 
 | Status | Papers | % |
 |--------|-------:|------:|
-| Has public data URL | 1196 | 59.7% |
-| No data URL (NA) | 806 | 40.3% |
+| Has public data URL | 1201 | 59.0% |
+| No data URL (NA) | 833 | 41.0% |
 
 ### 3.2 Hosting Platform Breakdown
 
@@ -1538,16 +1538,16 @@ Among papers with data URLs, classified by hosting platform:
 
 | Platform | Papers | % of URLs |
 |----------|-------:|----------:|
-| GitHub | 794 | 66.4% |
-| HuggingFace | 238 | 19.9% |
-| Other | 106 | 8.9% |
-| OSF | 21 | 1.8% |
+| GitHub | 795 | 66.2% |
+| HuggingFace | 238 | 19.8% |
+| Other | 110 | 9.2% |
+| OSF | 21 | 1.7% |
 | Zenodo | 14 | 1.2% |
-| Kaggle | 9 | 0.8% |
+| Kaggle | 9 | 0.7% |
 | Anonymous (review) | 8 | 0.7% |
 | GitLab | 6 | 0.5% |
 | Mendeley Data | 6 | 0.5% |
-| DOI/Repository | 3 | 0.3% |
+| DOI/Repository | 3 | 0.2% |
 | Papers With Code | 2 | 0.2% |
 | Google Drive | 1 | 0.1% |
 
@@ -1555,10 +1555,10 @@ Among papers with data URLs, classified by hosting platform:
 
 | Combination | Papers | % |
 |-------------|-------:|------:|
-| LLM models + data URL | 1075 | 53.7% |
-| LLM models only (no URL) | 503 | 25.1% |
-| Data URL only (no models) | 121 | 6.0% |
-| Neither | 303 | 15.1% |
+| LLM models + data URL | 1075 | 52.9% |
+| LLM models only (no URL) | 503 | 24.7% |
+| Data URL only (no models) | 126 | 6.2% |
+| Neither | 330 | 16.2% |
 
 ---
 
@@ -2073,18 +2073,18 @@ Among papers with data URLs, classified by hosting platform:
 | 498 | [[2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for]] | Claude, Claude 3.7 sonnet, Claude-3.7, Claude-3.7-Sonnet,... |
 | 499 | [[2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias]] | BERT, ChatGPT, GPT-3, GPT-3.5-Turbo |
 | 500 | [[2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent]] | GPT-4o-mini, Gemini 2.5 Flash Lite, Qwen 2.5, EXAONE 3.5 |
-| 501 | [[2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence]] | ChatGPT, Claude |
-| 502 | [[2026-Tagarelli-Culturally Grounded Personas in Large Language Models]] | GPT-OSS-20B |
-| 503 | [[2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using]] | Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falco... |
+| 501 | [[2026-Shafique-UrduBench An Urdu Reasoning Benchmark using]] | Barth, ChatGPT, DeepSeek, DeepSeek-AI, DeepSeek-R1, Falco... |
+| 502 | [[2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence]] | ChatGPT, Claude |
+| 503 | [[2026-Tagarelli-Culturally Grounded Personas in Large Language Models]] | GPT-OSS-20B |
 
 </details>
 
 ### 4.2 Papers with Data URLs but No LLM Models Identified
 
-**121 papers** have public data URLs but no LLM model assessment.
+**126 papers** have public data URLs but no LLM model assessment.
 
 <details>
-<summary>Click to expand (121 papers)</summary>
+<summary>Click to expand (126 papers)</summary>
 
 | # | Paper | Data URL |
 |--:|-------|----------|
@@ -2113,102 +2113,107 @@ Among papers with data URLs, classified by hosting platform:
 | 23 | [[2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French]] | https://github.com/Mik3M4n/help_dicrah |
 | 24 | [[2020-Awad-Crowdsourcing moral machines]] | https://moralmachine.mit.edu |
 | 25 | [[2020-Awad-Universals and variations in moral decisions made]] | https://moralmachine.mit.edu |
-| 26 | [[2020-Hoover-Moral Foundations Twitter Corpus]] | https://osf.io/ezn37/ |
-| 27 | [[2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese]] | https://huggingface.co/neuralmind/bert-base-portuguese-cased |
-| 28 | [[2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns]] | http://www.jonnesaleva.com/yi-lrec |
-| 29 | [[2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position]] | https://www.indigenous-ai.net/position-paper/ |
-| 30 | [[2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using]] | https://www.kaggle.com/raniaazad/kurdish-fake-news-dataset |
-| 31 | [[2021-Cao-Toward Gender-Inclusive Coreference Resolution]] | https://github.com/TristaCao/into_inclusivecoref |
-| 32 | [[2021-Croce-RobustBench]] | https://github.com/RobustBench/robustbench |
-| 33 | [[2021-Hansson-The Swedish Winogender Dataset SweWinogender]] | https://spraakbanken.gu.se/en/resources/swewinogender |
-| 34 | [[2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts]] | https://github.com/hse-scila/ethnohate-project |
-| 35 | [[2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit]] | https://github.com/rahular/itihasa |
-| 36 | [[2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl]] | https://www.clarin.si/repository/xmlui/handle/11356/1398 |
-| 37 | [[2021-collaborators-Optimisation of the Largest Annotated Tibetan]] | https://zenodo.org/records/3951503 |
-| 38 | [[2022-Atwell-Challenging the Transformer-based Models with a]] | https://github.com/ShathaTm/Quran_Hadith_Datasets |
-| 39 | [[2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language]] | https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset |
-| 40 | [[2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators]] | https://data.mendeley.com/datasets/5xth87zwb5/4 |
-| 41 | [[2022-Network-How can NLP Help Revitalize Endangered Languages]] | https://github.com/ZhangShiyue/RevitalizeCherokee |
-| 42 | [[2022-Pollak-Embeddings Models for Buddhist Sanskrit]] | https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_... |
-| 43 | [[2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate]] | https://github.com/naurosromim/hate-speech-dataset-for-Bengali-soci... |
-| 44 | [[2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language]] | https://data.mendeley.com/datasets/x6628zzpdx/1 |
-| 45 | [[2022-Yang-CINO A Chinese Minority Pre-trained Language Model]] | http://cino.hfl-rc.com |
-| 46 | [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas]] | https://github.com/ohoud/Fatwaset.git |
-| 47 | [[2023-Alyemny-FatwaSet]] | https://github.com/ohoud/Fatwaset.git |
-| 48 | [[2023-Aroyo-DICES Dataset]] | https://github.com/google-research-datasets/dices-dataset |
-| 49 | [[2023-Ji-Safety Gymnasium]] | https://sites.google.com/view/safety-gymnasium |
-| 50 | [[2023-Lee-VisAlign]] | https://github.com/jiyounglee-0523/VisAlign |
-| 51 | [[2023-Miah-Islam QA]] | https://www.kaggle.com/datasets/abdullahalmamunn/islam-qa-dataset |
-| 52 | [[2023-Standards-NIST AI Risk Management Framework]] | https://doi.org/10.6028/NIST.AI.100-1 |
-| 53 | [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense]] | https://github.com/Language-Media-Lab/commonsense-moral-ja |
-| 54 | [[2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
-| 55 | [[2023-TheDevastator-HelpSteer A-i Alignment Dataset]] | https://huggingface.co/datasets/nvidia/HelpSteer |
-| 56 | [[2023-TheDevastator-OpenAssistant Conversations (OASST1)]] | https://huggingface.co/datasets/OpenAssistant/oasst1 |
-| 57 | [[2023-University-Antisemitism on Twitter A Dataset for]] | https://zenodo.org/records/7932888 |
-| 58 | [[2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith]] | https://data.mendeley.com/datasets/gzprcr93zn/2 |
-| 59 | [[2024-Azerbaijan-Azerbaijani Toxicity Classifier]] | https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier |
-| 60 | [[2024-Defrance-ABCFair]] | https://github.com/aida-ugent/abcfair |
-| 61 | [[2024-Gaikwad-MoralBench A Multi-Faceted Benchmark for Ethical and Safety Alignment]] | https://github.com/krimler/moralbench |
-| 62 | [[2024-Garcia-Open Portuguese LLM Leaderboard]] | https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard |
-| 63 | [[2024-Gordic-Serbian LLM Evaluation Dataset]] | https://github.com/gordicaleksa/serbian-llm-eval |
-| 64 | [[2024-Hadi-The Dark Side of Instagram A Large Dataset for Identifying Persian]] | https://github.com/davardoust/PHICAD |
-| 65 | [[2024-Hellwig-The Vedic Compound Dataset]] | https://github.com/SvenSellmer/VedicCompoundDataset |
-| 66 | [[2024-Kajiwara-Hate Speech and Offensive Language Dataset]] | https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-la... |
-| 67 | [[2024-LLM-Beetle-Azerbaijani LLM Leaderboard]] | https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard |
-| 68 | [[2024-Lab-AfroBench Multi-task Benchmark for Evaluating LLMs in African]] | https://mcgill-nlp.github.io/AfroBench/ |
-| 69 | [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling]] | https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling |
-| 70 | [[2024-Levine-Religious Affiliation and Conceptions of the]] | https://github.com/sydneylevine/moral-domain |
-| 71 | [[2024-Miðeind-IcelandicEval Utilities to generate Icelandic evaluation data sets]] | https://github.com/mideind/IcelandicEval |
-| 72 | [[2024-Multiple Data in Brief-MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset]] | https://data.mendeley.com/datasets/9yvrzxktmr |
-| 73 | [[2024-Murtala-A multilingual dataset for offensive language]] | https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset |
-| 74 | [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding]] | https://huggingface.co/datasets/mair-lab/CulturalVQA |
-| 75 | [[2024-Nom-KhmerST A Low-Resource Khmer Scene Text]] | https://gitlab.com/vannkinhnom123/khmerst |
-| 76 | [[2024-Organizers-DIALECT-COPA Choice of Plausible Alternatives Datasets in South]] | https://www.clarin.si/repository/xmlui/handle/11356/1766 |
-| 77 | [[2024-Overfit-GM-Turkish Overfit-GM Toxic Language Dataset]] | https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language |
-| 78 | [[2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ]] | https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa |
-| 79 | [[2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark]] | https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc |
-| 80 | [[2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images]] | https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark |
-| 81 | [[2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification]] | https://detests-dis.github.io/ |
-| 82 | [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations]] | https://github.com/Liza-Tennant/moral_MARL |
-| 83 | [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of]] | https://huggingface.co/datasets/kyawyethu/MixCuBe |
-| 84 | [[2024-Toygar-Turkish Offensive Language Detection Dataset]] | https://huggingface.co/datasets/Toygar/turkish-offensive-language-d... |
-| 85 | [[2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian]] | https://github.com/DougTrajano/olid-br |
-| 86 | [[2024-Vladimirova-FairJob]] | https://huggingface.co/datasets/criteo/FairJob |
-| 87 | [[2024-Wang-XSafety Multilingual Safety Benchmark]] | https://github.com/Jarviswang94/Multilingual_safety_benchmark |
-| 88 | [[2024-community-Open Leaderboard for Hebrew LLMs]] | https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard |
-| 89 | [[2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs]] | https://github.com/SapienzaNLP/ita-bench |
-| 90 | [[2024-project-DharmicData Comprehensive Open-Source Collection of Hindu]] | https://github.com/bhavykhatri/DharmicData |
-| 91 | [[2024-team-Indic-Bias A Comprehensive Benchmark for Fairness]] | https://huggingface.co/datasets/ai4bharat/Indic-Bias |
-| 92 | [[2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate]] | https://github.com/AI4Bharat/indic-bias |
-| 93 | [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus]] | https://github.com/Niger-Volta-LTI/yoruba-voice |
-| 94 | [[2025-ADL Center for Technology and Society Daniel Kelley-Generating Hate Anti-Jewish and Anti-Israel Bias]] | https://www.adl.org/resources/report/generating-hate-anti-jewish-an... |
-| 95 | [[2025-Akpobi-Yankari Monolingual Yoruba Dataset]] | https://huggingface.co/datasets/acflp/YANKARI |
-| 96 | [[2025-Borenstein-Investigating Human Values in Online Communities]] | https://github.com/copenlu/HumanValues |
-| 97 | [[2025-Center-Personal Consultations Case Study Database]] | https://www.ncbcenter.org/case-study-database |
-| 98 | [[2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by]] | https://github.com/SiyuWu528/LLM-ACTR |
-| 99 | [[2025-Consortium-The Vals Legal AI Report (VLAIR)]] | https://www.vals.ai/vlair |
-| 100 | [[2025-Dementieva-TextDetox Multilingual Toxicity Dataset]] | https://huggingface.co/datasets/textdetox/multilingual_toxicity_dat... |
-| 101 | [[2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual]] | https://github.com/Sumon/healthbench-srh-eval/ |
-| 102 | [[2025-Durmus-Subjective Values]] | https://llmglobalvalues.anthropic.com/ |
-| 103 | [[2025-Emezue-NaijaVoices]] | https://naijavoices.com/ |
-| 104 | [[2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to]] | https://github.com/mlcommons/ailuminate |
-| 105 | [[2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese]] | https://huggingface.co/datasets/hhhuang/TaiwanVQA |
-| 106 | [[2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous]] | https://publications.iadb.org/publications/english/document/The-Per... |
-| 107 | [[2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification]] | https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comme... |
-| 108 | [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust |
-| 109 | [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model]] | https://hugme.nytud.hu/ |
-| 110 | [[2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for]] | https://zenodo.org/records/15101403 |
-| 111 | [[2025-Moosa-Multi-lingual HateSpeech Dataset]] | https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hates... |
-| 112 | [[2025-Ning-seeBias]] | https://github.com/nliulab/seeBias |
-| 113 | [[2025-Unknown-MIZAN A Persian LLM Leaderboard]] | https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard |
-| 114 | [[2025-Wenzek-CC100-Mongolian dataset - NLP Database]] | https://autonlp.ai/datasets/cc100-mongolian |
-| 115 | [[2025-Xiangfeng-A dataset of Mongolian Tibetan and Uyghur speech fragments based on]] | https://www.scidb.cn/en/detail?dataSetId=743522838262054912 |
-| 116 | [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist]] | https://huggingface.co/datasets/Nethmi14/BuddhismEval |
-| 117 | [[2025-initiative-CatholicBench]] | https://www.catholicbench.com/ |
-| 118 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |
-| 119 | [[2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource]] | https://github.com/onejune2018/Awesome-LLM-Eval |
-| 120 | [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset]] | https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset |
-| 121 | [[2026-Guey-BiasLab Multilingual Dual-Framing Framework]] | https://github.com/williamguey/LLMbiaslab |
+| 26 | [[2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting]] | https://hal.science/hal-03525267/ |
+| 27 | [[2020-Hoover-Moral Foundations Twitter Corpus]] | https://osf.io/ezn37/ |
+| 28 | [[2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese]] | https://huggingface.co/neuralmind/bert-base-portuguese-cased |
+| 29 | [[2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns]] | http://www.jonnesaleva.com/yi-lrec |
+| 30 | [[2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position]] | https://www.indigenous-ai.net/position-paper/ |
+| 31 | [[2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using]] | https://www.kaggle.com/raniaazad/kurdish-fake-news-dataset |
+| 32 | [[2021-Cao-Toward Gender-Inclusive Coreference Resolution]] | https://github.com/TristaCao/into_inclusivecoref |
+| 33 | [[2021-Croce-RobustBench]] | https://github.com/RobustBench/robustbench |
+| 34 | [[2021-Hansson-The Swedish Winogender Dataset SweWinogender]] | https://spraakbanken.gu.se/en/resources/swewinogender |
+| 35 | [[2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts]] | https://github.com/hse-scila/ethnohate-project |
+| 36 | [[2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit]] | https://github.com/rahular/itihasa |
+| 37 | [[2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl]] | https://www.clarin.si/repository/xmlui/handle/11356/1398 |
+| 38 | [[2021-collaborators-Optimisation of the Largest Annotated Tibetan]] | https://zenodo.org/records/3951503 |
+| 39 | [[2022-Atwell-Challenging the Transformer-based Models with a]] | https://github.com/ShathaTm/Quran_Hadith_Datasets |
+| 40 | [[2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language]] | https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset |
+| 41 | [[2022-Multiple Data in Brief-Sanadset 650K Data on Hadith Narrators]] | https://data.mendeley.com/datasets/5xth87zwb5/4 |
+| 42 | [[2022-Network-How can NLP Help Revitalize Endangered Languages]] | https://github.com/ZhangShiyue/RevitalizeCherokee |
+| 43 | [[2022-Pollak-Embeddings Models for Buddhist Sanskrit]] | https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_... |
+| 44 | [[2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate]] | https://github.com/naurosromim/hate-speech-dataset-for-Bengali-soci... |
+| 45 | [[2022-Saeed-Hate Speech Detection in Social Media for the Kurdish Language]] | https://data.mendeley.com/datasets/x6628zzpdx/1 |
+| 46 | [[2022-Yang-CINO A Chinese Minority Pre-trained Language Model]] | http://cino.hfl-rc.com |
+| 47 | [[2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas]] | https://github.com/ohoud/Fatwaset.git |
+| 48 | [[2023-Alyemny-FatwaSet]] | https://github.com/ohoud/Fatwaset.git |
+| 49 | [[2023-Aroyo-DICES Dataset]] | https://github.com/google-research-datasets/dices-dataset |
+| 50 | [[2023-Ji-Safety Gymnasium]] | https://sites.google.com/view/safety-gymnasium |
+| 51 | [[2023-Lee-VisAlign]] | https://github.com/jiyounglee-0523/VisAlign |
+| 52 | [[2023-Miah-Islam QA]] | https://www.kaggle.com/datasets/abdullahalmamunn/islam-qa-dataset |
+| 53 | [[2023-Standards-NIST AI Risk Management Framework]] | https://doi.org/10.6028/NIST.AI.100-1 |
+| 54 | [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense]] | https://github.com/Language-Media-Lab/commonsense-moral-ja |
+| 55 | [[2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light]] | https://github.com/shucoll/NEHate |
+| 56 | [[2023-TheDevastator-HelpSteer A-i Alignment Dataset]] | https://huggingface.co/datasets/nvidia/HelpSteer |
+| 57 | [[2023-TheDevastator-OpenAssistant Conversations (OASST1)]] | https://huggingface.co/datasets/OpenAssistant/oasst1 |
+| 58 | [[2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The]] | https://asianresearchcenter.org/document/download/697/6-rsc-vol21-n... |
+| 59 | [[2023-University-Antisemitism on Twitter A Dataset for]] | https://zenodo.org/records/7932888 |
+| 60 | [[2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith]] | https://data.mendeley.com/datasets/gzprcr93zn/2 |
+| 61 | [[2024-Azerbaijan-Azerbaijani Toxicity Classifier]] | https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier |
+| 62 | [[2024-Defrance-ABCFair]] | https://github.com/aida-ugent/abcfair |
+| 63 | [[2024-Gaikwad-MoralBench A Multi-Faceted Benchmark for Ethical and Safety Alignment]] | https://github.com/krimler/moralbench |
+| 64 | [[2024-Garcia-Open Portuguese LLM Leaderboard]] | https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard |
+| 65 | [[2024-Gordic-Serbian LLM Evaluation Dataset]] | https://github.com/gordicaleksa/serbian-llm-eval |
+| 66 | [[2024-Hadi-The Dark Side of Instagram A Large Dataset for Identifying Persian]] | https://github.com/davardoust/PHICAD |
+| 67 | [[2024-Hellwig-The Vedic Compound Dataset]] | https://github.com/SvenSellmer/VedicCompoundDataset |
+| 68 | [[2024-Kajiwara-Hate Speech and Offensive Language Dataset]] | https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-la... |
+| 69 | [[2024-LLM-Beetle-Azerbaijani LLM Leaderboard]] | https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard |
+| 70 | [[2024-Lab-AfroBench Multi-task Benchmark for Evaluating LLMs in African]] | https://mcgill-nlp.github.io/AfroBench/ |
+| 71 | [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling]] | https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling |
+| 72 | [[2024-Levine-Religious Affiliation and Conceptions of the]] | https://github.com/sydneylevine/moral-domain |
+| 73 | [[2024-Lewis-Abundant Intelligences Placing AI within Indigenous Knowledge]] | https://abundant-intelligences.net/ |
+| 74 | [[2024-Mager-Proceedings of the 4th Workshop on Natural Language Processing for]] | https://aclanthology.org/volumes/2024.americasnlp-1/ |
+| 75 | [[2024-Miðeind-IcelandicEval Utilities to generate Icelandic evaluation data sets]] | https://github.com/mideind/IcelandicEval |
+| 76 | [[2024-Multiple Data in Brief-MASAQ Morphologically-Analyzed and Syntactically-Annotated Quran Dataset]] | https://data.mendeley.com/datasets/9yvrzxktmr |
+| 77 | [[2024-Murtala-A multilingual dataset for offensive language]] | https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset |
+| 78 | [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding]] | https://huggingface.co/datasets/mair-lab/CulturalVQA |
+| 79 | [[2024-Nom-KhmerST A Low-Resource Khmer Scene Text]] | https://gitlab.com/vannkinhnom123/khmerst |
+| 80 | [[2024-Organizers-DIALECT-COPA Choice of Plausible Alternatives Datasets in South]] | https://www.clarin.si/repository/xmlui/handle/11356/1766 |
+| 81 | [[2024-Overfit-GM-Turkish Overfit-GM Toxic Language Dataset]] | https://huggingface.co/datasets/Overfit-GM/turkish-toxic-language |
+| 82 | [[2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ]] | https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa |
+| 83 | [[2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark]] | https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc |
+| 84 | [[2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images]] | https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark |
+| 85 | [[2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification]] | https://detests-dis.github.io/ |
+| 86 | [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations]] | https://github.com/Liza-Tennant/moral_MARL |
+| 87 | [[2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of]] | https://huggingface.co/datasets/kyawyethu/MixCuBe |
+| 88 | [[2024-Toygar-Turkish Offensive Language Detection Dataset]] | https://huggingface.co/datasets/Toygar/turkish-offensive-language-d... |
+| 89 | [[2024-Trajano-OLID-BR Offensive Language Identification Dataset for Brazilian]] | https://github.com/DougTrajano/olid-br |
+| 90 | [[2024-Vladimirova-FairJob]] | https://huggingface.co/datasets/criteo/FairJob |
+| 91 | [[2024-Wang-XSafety Multilingual Safety Benchmark]] | https://github.com/Jarviswang94/Multilingual_safety_benchmark |
+| 92 | [[2024-community-Open Leaderboard for Hebrew LLMs]] | https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard |
+| 93 | [[2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs]] | https://github.com/SapienzaNLP/ita-bench |
+| 94 | [[2024-project-DharmicData Comprehensive Open-Source Collection of Hindu]] | https://github.com/bhavykhatri/DharmicData |
+| 95 | [[2024-team-Indic-Bias A Comprehensive Benchmark for Fairness]] | https://huggingface.co/datasets/ai4bharat/Indic-Bias |
+| 96 | [[2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate]] | https://github.com/AI4Bharat/indic-bias |
+| 97 | [[2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus]] | https://github.com/Niger-Volta-LTI/yoruba-voice |
+| 98 | [[2025-ADL Center for Technology and Society Daniel Kelley-Generating Hate Anti-Jewish and Anti-Israel Bias]] | https://www.adl.org/resources/report/generating-hate-anti-jewish-an... |
+| 99 | [[2025-Akpobi-Yankari Monolingual Yoruba Dataset]] | https://huggingface.co/datasets/acflp/YANKARI |
+| 100 | [[2025-Borenstein-Investigating Human Values in Online Communities]] | https://github.com/copenlu/HumanValues |
+| 101 | [[2025-Center-Personal Consultations Case Study Database]] | https://www.ncbcenter.org/case-study-database |
+| 102 | [[2025-Cognitive-Cognitive LLMs Toward Human-Like Artificial Intelligence by]] | https://github.com/SiyuWu528/LLM-ACTR |
+| 103 | [[2025-Consortium-The Vals Legal AI Report (VLAIR)]] | https://www.vals.ai/vlair |
+| 104 | [[2025-Dementieva-TextDetox Multilingual Toxicity Dataset]] | https://huggingface.co/datasets/textdetox/multilingual_toxicity_dat... |
+| 105 | [[2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual]] | https://github.com/Sumon/healthbench-srh-eval/ |
+| 106 | [[2025-Durmus-Subjective Values]] | https://llmglobalvalues.anthropic.com/ |
+| 107 | [[2025-Emezue-NaijaVoices]] | https://naijavoices.com/ |
+| 108 | [[2025-Farsi-ParsiPy NLP Toolkit for Historical Persian Texts in Python]] | https://github.com/openscilab/parsipy |
+| 109 | [[2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to]] | https://github.com/mlcommons/ailuminate |
+| 110 | [[2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese]] | https://huggingface.co/datasets/hhhuang/TaiwanVQA |
+| 111 | [[2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous]] | https://publications.iadb.org/publications/english/document/The-Per... |
+| 112 | [[2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification]] | https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comme... |
+| 113 | [[2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment]] | https://github.com/aii-lab-dot-org/IslamTrust |
+| 114 | [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model]] | https://hugme.nytud.hu/ |
+| 115 | [[2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for]] | https://zenodo.org/records/15101403 |
+| 116 | [[2025-Moosa-Multi-lingual HateSpeech Dataset]] | https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hates... |
+| 117 | [[2025-Ning-seeBias]] | https://github.com/nliulab/seeBias |
+| 118 | [[2025-Unknown-MIZAN A Persian LLM Leaderboard]] | https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard |
+| 119 | [[2025-Wenzek-CC100-Mongolian dataset - NLP Database]] | https://autonlp.ai/datasets/cc100-mongolian |
+| 120 | [[2025-Xiangfeng-A dataset of Mongolian Tibetan and Uyghur speech fragments based on]] | https://www.scidb.cn/en/detail?dataSetId=743522838262054912 |
+| 121 | [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist]] | https://huggingface.co/datasets/Nethmi14/BuddhismEval |
+| 122 | [[2025-initiative-CatholicBench]] | https://www.catholicbench.com/ |
+| 123 | [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] | https://faithbench.com/ |
+| 124 | [[2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource]] | https://github.com/onejune2018/Awesome-LLM-Eval |
+| 125 | [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset]] | https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset |
+| 126 | [[2026-Guey-BiasLab Multilingual Dual-Framing Framework]] | https://github.com/williamguey/LLMbiaslab |
 
 </details>
 

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes|SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereotypes]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes*:, Email: sunipadev@google.com
 - *From 2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes*:, Email: vinodkpg@google.com
 - *From 2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes*:, Email: vinodkpg@google.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

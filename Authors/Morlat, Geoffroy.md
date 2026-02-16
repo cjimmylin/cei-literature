@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human|COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human*: Affiliation: Institute of Intelligent Systems and Robotics, Email: GEOFFROY.MORLAT@ISIR.UPMC.FR
 - *From 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human*: Affiliation: Institute of Intelligent Systems and Robotics, Email: MARCEAU.NAHON@ISIR.UPMC.FR
 - *From 2025-Morlat-COMETH Contextual Organization of Moral Evaluation from Textual Human*: Affiliation: Institute of Intelligent Systems and Robotics, Email: MEHDI.KHAMASSI@ISIR.UPMC.FR
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

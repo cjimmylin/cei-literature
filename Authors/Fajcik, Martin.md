@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for|BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 - *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 - *From 2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: martin.fajcik@vut.cz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

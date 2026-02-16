@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: lisun@caict.ac.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: lisun@caict.ac.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn

@@ -44,6 +44,7 @@ Conor Griffin is an AI Policy Researcher at Google DeepMind, a Postgraduate Fell
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Rauh-Gaps in the Safety Evaluation of Generative AI|Gaps in the Safety Evaluation of Generative AI]]
 - [[2021-Weidinger-Ethical and social risks of harm from Language|Ethical and social risks of harm from Language]]
@@ -61,6 +62,8 @@ Conor Griffin is an AI Policy Researcher at Google DeepMind, a Postgraduate Fell
 
 
 
+
+- *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin
 - *From 2021-Weidinger-Ethical and social risks of harm from Language*: Affiliation: Institute of Technology, 3University of Toronto, 4University College Dublin

@@ -48,6 +48,7 @@ Chunyuan Li is a Member of Technical Staff at xAI, Elon Musk's AI startup. From 
 
 
 
+
 - [[2024-Huang-TrustLLM|TrustLLM]]
 
 ## External Links & Profiles
@@ -68,6 +69,8 @@ Chunyuan Li is a Member of Technical Staff at xAI, Elon Musk's AI startup. From 
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu

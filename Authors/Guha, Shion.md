@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender|Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender*: Affiliation: University of Colorado Boulder, Email: bryan.semaan@colorado.edu
 - *From 2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender*: Affiliation: University of Colorado Boulder, Email: dipto.das@colorado.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

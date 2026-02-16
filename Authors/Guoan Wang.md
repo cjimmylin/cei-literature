@@ -49,6 +49,7 @@ GMAI-MMBench is described as the most comprehensive general medical AI benchmark
 
 
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## Links
@@ -62,6 +63,8 @@ GMAI-MMBench is described as the most comprehensive general medical AI benchmark
 
 
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn

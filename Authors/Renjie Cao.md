@@ -22,6 +22,7 @@ Researcher working on moral foundations analysis in Chinese social media. Known 
 
 
 
+
 - [[2024-Cao-The Moral Foundations Weibo Corpus|The Moral Foundations Weibo Corpus]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Researcher working on moral foundations analysis in Chinese social media. Known 
 
 
 
+
+- *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 1235848@wku.edu.cn
 - *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 1235761@wku.edu.cn
 - *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: 1235761@wku.edu.cn
 - *From 2024-Cao-The Moral Foundations Weibo Corpus*:, Email: bihnaini@kean.edu

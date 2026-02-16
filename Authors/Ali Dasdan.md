@@ -35,6 +35,7 @@ Ali's research contributions focus on the "Auditing and Governance" side of AI s
 
 
 
+
 - [[2025-Neuman-Auditing the Ethical Logic of Generative AI Models|Auditing the Ethical Logic of Generative AI Models]]
 
 ## Notes
@@ -42,6 +43,8 @@ Ali's research contributions focus on the "Auditing and Governance" side of AI s
 
 
 
+
+- *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: sa1940@nyu.edu
 - *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: cjc652@nyu.edu
 - *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: ms10537@nyu.edu
 - *From 2025-Neuman-Auditing the Ethical Logic of Generative AI Models*:, Email: alidasdan@gmail.com

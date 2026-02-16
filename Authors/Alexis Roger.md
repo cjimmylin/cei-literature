@@ -35,6 +35,7 @@ Alexis investigates the uniquely "intersectional" biases that arise in multimoda
 
 
 
+
 - [[2023-Roger-Towards ethical multimodal systems|Towards ethical multimodal systems]] (First Author)
 
 ## Notes
@@ -42,6 +43,8 @@ Alexis investigates the uniquely "intersectional" biases that arise in multimoda
 
 
 
+
+- *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 - *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 - *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 - *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca

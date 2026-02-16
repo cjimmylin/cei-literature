@@ -23,6 +23,7 @@ Professor of Political Science at Texas A&M University. Research focuses on publ
 
 
 
+
 - [[2015-Clifford-Moral Foundations Vignettes|Moral Foundations Vignettes]] (First Author)
 
 ## Notes

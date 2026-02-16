@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for|DRISHTIKON A Multimodal Multilingual Benchmark for]]
 - [[2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating|SANSKRITI A Comprehensive Benchmark for Evaluating]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for*: Affiliation: Institute of Technology Patna, India
 - *From 2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for*: Affiliation: Institute of Technology Patna, India
 - *From 2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for*: Affiliation: Institute of Technology Patna, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A|Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
 - *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
 - *From 2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A*: Affiliation: School Exams in Indonesia A - PDF Extract", Email: nurulaisyah.inc@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs|MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables]]
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

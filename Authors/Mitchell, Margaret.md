@@ -1,7 +1,7 @@
 ---
 name: "Mitchell, Margaret"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "center the conversation around who is harmed, what harms they face, and how those harms may be"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
+- [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]] (First Author)
 - [[2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ...|On the Challenges of Bias Evaluation Under Multilingual ...]]
+- [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

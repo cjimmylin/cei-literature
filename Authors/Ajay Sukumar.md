@@ -23,6 +23,7 @@ Ajay Sukumar is a researcher working on robust evaluation methodologies for larg
 
 
 
+
 - [[2024-Srivastava-Functional Benchmarks for Robust Evaluation of|Functional Benchmarks for Robust Evaluation of]]
 
 ## Notes
@@ -31,6 +32,8 @@ Ajay Sukumar is a researcher working on robust evaluation methodologies for larg
 
 
 
+
+- *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 - *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 - *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.
 - *From 2024-Srivastava-Functional Benchmarks for Robust Evaluation of*: Affiliation: lable at https://github, Email: saurabh@consequent.ai.

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for|Lugha-Llama Adapting Large Language Models for]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for*: Affiliation: University & Canada CIFAR AI Chair
 - *From 2025-Happy Buzaaba-Lugha-Llama Adapting Large Language Models for*: Affiliation: University & Canada CIFAR AI Chair
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

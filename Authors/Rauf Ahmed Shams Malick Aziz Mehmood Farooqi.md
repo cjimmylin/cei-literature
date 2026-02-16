@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith|Multi-IsnadSet MIS for Sahih Muslim Hadith]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith*: Affiliation: lable at ScienceDirect, Email: rauf.malick@nu.edu.pk
 - *From 2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith*: Affiliation: lable at ScienceDirect, Email: k214809@nu.edu.pk
 - *From 2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith*: Affiliation: lable at ScienceDirect, Email: rauf.malick@nu.edu.pk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

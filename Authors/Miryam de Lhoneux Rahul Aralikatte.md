@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit|Itihasa A Large-Scale Corpus for Sanskrit]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit*: Affiliation: University of Copenhagen, Email: 2ankunchu@microsoft.com
 - *From 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit*: Affiliation: University of Copenhagen, Email: 2ankunchu@microsoft.com
 - *From 2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit*: Affiliation: University of Copenhagen, Email: 2ankunchu@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

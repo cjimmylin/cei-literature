@@ -55,10 +55,9 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Durmus-Subjective Values|Subjective Values]]
-- [[2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in|Towards Measuring the Representation of Subjective Global Opinions in]]
+- [[2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in|Towards Measuring the Representation of Subjective Global Opinions in Language Models \ Anthropic]]
 
 ## External Links & Profiles
 

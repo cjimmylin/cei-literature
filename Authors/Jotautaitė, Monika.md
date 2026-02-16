@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements|SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 - *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 - *From 2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements*: Affiliation: University of Cambridge
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

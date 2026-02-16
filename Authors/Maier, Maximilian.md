@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Cheung-LLMs Amplified Cognitive Biases Moral|LLMs Amplified Cognitive Biases]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Cheung-LLMs Amplified Cognitive Biases Moral*: Affiliation: University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025
 - *From 2025-Cheung-LLMs Amplified Cognitive Biases Moral*: Affiliation: University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025
 - *From 2025-Cheung-LLMs Amplified Cognitive Biases Moral*: Affiliation: University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025
 - *From 2025-Cheung-LLMs Amplified Cognitive Biases Moral*: Affiliation: University of Michigan, Ann Arbor, MI; received June 25, 2024; accepted April 6, 2025

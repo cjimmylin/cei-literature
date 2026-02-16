@@ -35,6 +35,7 @@ Christopher Carnahan is a researcher affiliated with the University of Arizona w
 
 
 
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]]
 
 ## External Links & Profiles
@@ -47,6 +48,8 @@ Christopher Carnahan is a researcher affiliated with the University of Arizona w
 
 
 
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu

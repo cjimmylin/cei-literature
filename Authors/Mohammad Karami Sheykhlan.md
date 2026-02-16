@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Sheykhlan-Pars-HaO Hate and Offensive Language Detection on Persian Tweets|Pars-HaO: Hate and Offensive Language Detection on Persian Tweets Using Machine Learning and Deep Learning]] (First Author)
 
 ## External Links & Profiles

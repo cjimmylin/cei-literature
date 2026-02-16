@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]] (Last Author)
 - [[2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in|The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 - *From 2024-Bandarkar-The Belebele Benchmark a Parallel Reading Comprehension Dataset in*: Affiliation: University of California, Los Angeles§
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

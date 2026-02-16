@@ -37,6 +37,7 @@ Clifton's research applies machine learning to clinical problems, including pati
 
 
 
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]] (Last Author)
 
 ## Notes
@@ -45,6 +46,8 @@ Clifton's research applies machine learning to clinical problems, including pati
 
 
 
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn

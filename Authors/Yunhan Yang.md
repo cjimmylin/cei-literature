@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games|GAMEBoT: Transparent Assessment of LLM Reasoning in Games]]
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk
 - *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk
 - *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk
 - *From 2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games*: Affiliation: University of Hong Kong, Email: kaihanx@hku.hk

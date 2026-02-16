@@ -37,6 +37,7 @@ Chen's work spans natural language processing with emphasis on developing models
 
 
 
+
 - [[2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal|SORRY-Bench -- Systematically Evaluating LLM Safety Refusal]]
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 
@@ -46,6 +47,8 @@ Chen's work spans natural language processing with emphasis on developing models
 
 
 
+
+- *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign
 - *From 2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal*: Affiliation: University of Illinois at Urbana-Champaign

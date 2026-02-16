@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Adelani-INJONGO A Multicultural Intent Detection and|INJONGO A Multicultural Intent Detection and]] (Last Author)
 - [[2024-Adelani-Uhura A Benchmark for Evaluating Scientific|Uhura A Benchmark for Evaluating Scientific]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
 - *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
 - *From 2024-Adelani-Uhura A Benchmark for Evaluating Scientific*: Affiliation: labi2,∗,†, Jonas Kgomo3, Tyna Eloundou4
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Ngo-The Alignment Problem from a Deep Learning|The Alignment Problem from a Deep Learning]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Ngo-The Alignment Problem from a Deep Learning*: Affiliation: University of Oxford (CS), Email: soren.mindermann@cs.ox.ac.uk
 - *From 2022-Ngo-The Alignment Problem from a Deep Learning*: Affiliation: University of Oxford (CS), Email: richard@openai.com
 - *From 2022-Ngo-The Alignment Problem from a Deep Learning*: Affiliation: University of Oxford (CS), Email: soren.mindermann@cs.ox.ac.uk
 - *From 2022-Ngo-The Alignment Problem from a Deep Learning*: Affiliation: University of Oxford (CS), Email: soren.mindermann@cs.ox.ac.uk

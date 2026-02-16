@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and|Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and*: Affiliation: lable on the last page of the article, Email: so348@cam.ac.uk
 - *From 2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and*: Affiliation: lable on the last page of the article, Email: so348@cam.ac.uk
 - *From 2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and*: Affiliation: lable on the last page of the article, Email: so348@cam.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

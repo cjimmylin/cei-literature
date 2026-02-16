@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Sorin-Ethical Alignment of LLMs in Healthcare|Ethical Alignment of LLMs in Healthcare]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Sorin-Ethical Alignment of LLMs in Healthcare*: Affiliation: Department of Radiology, Mayo Clinic College of Medicine and Science, Mayo Clinic
 - *From 2024-Sorin-Ethical Alignment of LLMs in Healthcare*: Affiliation: Department of Radiology, Mayo Clinic College of Medicine and Science, Mayo Clinic
 - *From 2024-Sorin-Ethical Alignment of LLMs in Healthcare*: Affiliation: Department of Radiology, Mayo Clinic College of Medicine and Science, Mayo Clinic
 - *From 2024-Sorin-Ethical Alignment of LLMs in Healthcare*: Affiliation: Department of Radiology, Mayo Clinic College of Medicine and Science, Mayo Clinic

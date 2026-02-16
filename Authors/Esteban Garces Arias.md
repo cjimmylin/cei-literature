@@ -37,6 +37,7 @@ Contributed to critical analysis of empirical approaches to measuring human-AI a
 
 
 
+
 - [[2025-Rodemann-A Statistical Case Against Empirical Human-AI|A Statistical Case Against Empirical Human-AI]]
 
 ## External Links & Profiles
@@ -49,6 +50,8 @@ Contributed to critical analysis of empirical approaches to measuring human-AI a
 
 
 
+
+- *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany
 - *From 2025-Rodemann-A Statistical Case Against Empirical Human-AI*: Affiliation: Department of Statistics, LMU Munich, Germany

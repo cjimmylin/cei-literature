@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource|BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource*: Affiliation: laBERT Language Model Pretraining and Benchmarks for Low-Resource - PDF Extract", Email: abhik@ra.cse.buet.ac.bd
 - *From 2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource*: Affiliation: laBERT Language Model Pretraining and Benchmarks for Low-Resource - PDF Extract", Email: abhik@ra.cse.buet.ac.bd
 - *From 2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource*: Affiliation: laBERT Language Model Pretraining and Benchmarks for Low-Resource - PDF Extract", Email: abhik@ra.cse.buet.ac.bd
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

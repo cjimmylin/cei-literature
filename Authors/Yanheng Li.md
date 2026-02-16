@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Li-Analyzing Cognitive Differences Among Large|Analyzing Cognitive Differences Among Large]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Li-Analyzing Cognitive Differences Among Large*: Affiliation: Institute of Computer Technology, Peking University, Email: yanheng@ruc.edu.cn
 - *From 2025-Li-Analyzing Cognitive Differences Among Large*: Affiliation: Institute of Computer Technology, Peking University, Email: wanxiaojun@pku.edu.cn
 - *From 2025-Li-Analyzing Cognitive Differences Among Large*: Affiliation: Institute of Computer Technology, Peking University, Email: yanheng@ruc.edu.cn
 - *From 2025-Li-Analyzing Cognitive Differences Among Large*: Affiliation: Institute of Computer Technology, Peking University, Email: leejames@stu.pku.edu.cn

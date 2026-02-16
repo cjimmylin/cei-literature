@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large|FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large*: Affiliation: Lab, Faculty of Computer Science and Engineering, Shahid Beheshti University, Tehran, Iran, Email: m-shams@sbu.ac.ir
 - *From 2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large*: Affiliation: Lab, Faculty of Computer Science and Engineering, Shahid Beheshti University, Tehran, Iran, Email: m-shams@sbu.ac.ir
 - *From 2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large*: Affiliation: Lab, Faculty of Computer Science and Engineering, Shahid Beheshti University, Tehran, Iran, Email: m-shams@sbu.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -23,6 +23,7 @@ Xingxuan Li is a Research Scientist at MiroMind, where his research focuses on L
 
 
 
+
 - [[2022-Li-Evaluating Psychological Safety of Large Language|Evaluating Psychological Safety of Large Language]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Xingxuan Li is a Research Scientist at MiroMind, where his research focuses on L
 
 
 
+
+- *From 2022-Li-Evaluating Psychological Safety of Large Language*: Affiliation: Academy, Alibaba Group, Singapore
 - *From 2022-Li-Evaluating Psychological Safety of Large Language*: Affiliation: Academy, Alibaba Group, Singapore
 - *From 2022-Li-Evaluating Psychological Safety of Large Language*: Affiliation: Academy, Alibaba Group, Singapore
 - *From 2022-Li-Evaluating Psychological Safety of Large Language*: Affiliation: Academy, Alibaba Group, Singapore

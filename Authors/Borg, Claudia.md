@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language|Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese]] (Last Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language*: Affiliation: Department of Artiﬁcial Intelligence, University of Malta, Email: claudia.borg@um.edu.mt
 - *From 2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language*: Affiliation: Department of Artiﬁcial Intelligence, University of Malta, Email: claudia.borg@um.edu.mt
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

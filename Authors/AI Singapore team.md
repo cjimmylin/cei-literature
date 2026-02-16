@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for|SEA-Guard Culturally Grounded Multilingual Safeguard for]] (First Author)
 - [[2025-team-SEA-LION Southeast Asian Languages in One|SEA-LION Southeast Asian Languages in One]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-team-SEA-LION Southeast Asian Languages in One*: Affiliation: University of Singapore
 - *From 2025-team-SEA-LION Southeast Asian Languages in One*: Affiliation: University of Singapore
 - *From 2025-team-SEA-LION Southeast Asian Languages in One*: Affiliation: University of Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

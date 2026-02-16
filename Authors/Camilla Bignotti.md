@@ -50,6 +50,7 @@ Bignotti's work provides a critical "Civil Law" perspective to AI ethics, often 
 
 
 
+
 - [[2024-Bignotti-Legal Minds, Algorithmic Decisions|Legal Minds, Algorithmic Decisions]] (First Author)
 
 ## External Links & Profiles
@@ -62,6 +63,8 @@ Bignotti's work provides a critical "Civil Law" perspective to AI ethics, often 
 
 
 
+
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it

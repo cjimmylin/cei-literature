@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram|HateBR: A Large Expert Annotated Corpus of Brazilian Instagram Comments for Hate Speech and Offensive Language Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram*: Affiliation: Institute of Mathematical and Computer Sciences, University of S˜ao Paulo, Brazil, Email: taspardo@icmc.usp.br
 - *From 2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram*: Affiliation: Institute of Mathematical and Computer Sciences, University of S˜ao Paulo, Brazil, Email: fabricio@dcc.ufmg.br
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis|HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis*: Affiliation: lable Hebrew sen-
 - *From 2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis*: Affiliation: lable Hebrew sen-
 - *From 2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis*: Affiliation: lable Hebrew sen-
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

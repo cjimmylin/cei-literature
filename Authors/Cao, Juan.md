@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque|Red Teaming Contemporary AI Models: Insights from Spanish and Basque Perspectives]]
 - [[2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas|The Staircase of Ethics (Multi-step Moral Dilemmas)]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
 - *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
 - *From 2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque*: Affiliation: Lab, I3US Institute, Universidad de Sevilla, Seville, Spain
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

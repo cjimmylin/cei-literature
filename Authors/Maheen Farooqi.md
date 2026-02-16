@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Zou-Persistent Anti-Muslim Bias in Large Language|Persistent Anti-Muslim Bias in Large Language]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Zou-Persistent Anti-Muslim Bias in Large Language*: Affiliation: Department of Electrical Engineering, Stanford University, CA, USA, Email: jamesz@stanford.edu.
 - *From 2021-Zou-Persistent Anti-Muslim Bias in Large Language*: Affiliation: Department of Electrical Engineering, Stanford University, CA, USA, Email: jamesz@stanford.edu.
 - *From 2021-Zou-Persistent Anti-Muslim Bias in Large Language*: Affiliation: Department of Electrical Engineering, Stanford University, CA, USA, Email: jamesz@stanford.edu.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

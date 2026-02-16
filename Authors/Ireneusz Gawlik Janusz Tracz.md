@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding|KLEJ: Comprehensive Benchmark for Polish Language Understanding]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding*: Affiliation: University of Science and Technology
 - *From 2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding*: Affiliation: University of Science and Technology
 - *From 2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding*: Affiliation: University of Science and Technology
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

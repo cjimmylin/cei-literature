@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Crepelle-Tribes and AI Possibilities for Tribal Sovereignty|Tribes and AI: Possibilities for Tribal Sovereignty]] (First Author)
 
 ## External Links & Profiles

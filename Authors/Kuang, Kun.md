@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large|OmniEduBench: A Comprehensive Chinese Benchmark for Evaluating Large Language Models in Education]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large*: Affiliation: College London, Email: bjiang@deit.ecnu.edu.cn
 - *From 2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large*: Affiliation: College London, Email: mzhang@cs.ecnu.edu.cn
 - *From 2025-Zhang-OmniEduBench A Comprehensive Chinese Benchmark for Evaluating Large*: Affiliation: College London, Email: amzhou@cs.ecnu.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

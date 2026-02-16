@@ -24,6 +24,7 @@ Wenyue Hua is a Senior Researcher at Microsoft Research, AI Frontiers. She compl
 
 
 
+
 - [[2024-Hua-TrustAgent|TrustAgent]] (First Author)
 - [[2024-Ji-MoralBench|MoralBench]]
 
@@ -33,6 +34,8 @@ Wenyue Hua is a Senior Researcher at Microsoft Research, AI Frontiers. She compl
 
 
 
+
+- *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 - *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 - *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago
 - *From 2024-Ji-MoralBench*: Affiliation: University of New Jersey, 2University of Chicago

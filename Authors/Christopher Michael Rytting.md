@@ -34,6 +34,7 @@ Christopher Michael Rytting is a researcher focused on understanding the extent 
 
 
 
+
 - [[2024-Sorensen-A Roadmap to Pluralistic Alignment|A Roadmap to Pluralistic Alignment]]
 - [[2023-Rytting-Towards Coding Social Science Datasets with|Towards Coding Social Science Datasets with]] (First Author)
 
@@ -48,6 +49,8 @@ Christopher Michael Rytting is a researcher focused on understanding the extent 
 
 
 
+
+- *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
 - *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
 - *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com
 - *From 2023-Rytting-Towards Coding Social Science Datasets with*: Affiliation: Department, Brigham Young, Email: christophermichaelrytting@gmail.com

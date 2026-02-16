@@ -33,6 +33,7 @@ Along with SafeInfer, the research introduces HarmEval, a novel benchmark for ex
 
 
 
+
 - [[2025-Banerjee-SafeInfer|SafeInfer]] (First Author)
 - [[2022-Das-Hate Speech and Offensive Language Detection|Hate Speech and Offensive Language Detection]]
 
@@ -41,6 +42,8 @@ Along with SafeInfer, the research introduces HarmEval, a novel benchmark for ex
 
 
 
+
+- *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: punyajoys@iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: animeshm@cse.iitkgp.ac.in
 - *From 2022-Das-Hate Speech and Offensive Language Detection*: Affiliation: Institute of Technology Kharagpur, West Bengal, India, Email: mithundas@iitkgp.ac.in

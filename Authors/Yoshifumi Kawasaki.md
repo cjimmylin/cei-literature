@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in|Digital Linguistic Bias in Spanish: Evidence from Lexical Variation in LLMs]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in*: Affiliation: University of Tokyo, Email: ykawasaki@g.ecc.u
 - *From 2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in*: Affiliation: University of Tokyo, Email: ykawasaki@g.ecc.u
 - *From 2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in*: Affiliation: University of Tokyo, Email: ykawasaki@g.ecc.u
 - *From 2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in*: Affiliation: University of Tokyo, Email: ykawasaki@g.ecc.u

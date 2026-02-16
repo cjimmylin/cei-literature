@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language|MITRA-zh-eval Using a Buddhist Chinese Language]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language*: Affiliation: University of California, Berkeley, Berkeley Artificial Intelligence Research (BAIR)
 - *From 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language*: Affiliation: University of California, Berkeley, Berkeley Artificial Intelligence Research (BAIR)
 - *From 2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language*: Affiliation: University of California, Berkeley, Berkeley Artificial Intelligence Research (BAIR)
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

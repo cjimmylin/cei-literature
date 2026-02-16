@@ -24,6 +24,7 @@ Hongning Wang is an Associate Professor in the Department of Computer Science an
 
 
 
+
 - [[2025-Zhang-AISafetyLab|AISafetyLab]]
 - [[2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models|SocialEval: Evaluating Social Intelligence of Large Language Models]]
 - [[2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents|Agent-SafetyBench: Evaluating the Safety of LLM Agents]]
@@ -35,6 +36,8 @@ Hongning Wang is an Associate Professor in the Department of Computer Science an
 
 
 
+
+- *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI
 - *From 2023-Liu-AlignBench*: Affiliation: University; 2Zhipu AI

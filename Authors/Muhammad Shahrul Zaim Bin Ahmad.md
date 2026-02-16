@@ -23,6 +23,7 @@ Muhammad Shahrul Zaim bin Ahmad is affiliated with the Department of Bioscience 
 
 
 
+
 - [[2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large|Large-scale moral machine experiment on large]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Muhammad Shahrul Zaim bin Ahmad is affiliated with the Department of Bioscience 
 
 
 
+
+- *From 2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large*: Affiliation: School: TBS Education, SPAIN, Email: takemoto@bio.kyutech.ac.jp
 - *From 2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large*: Affiliation: School: TBS Education, SPAIN, Email: takemoto@bio.kyutech.ac.jp
 - *From 2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large*: Affiliation: School: TBS Education, SPAIN, Email: takemoto@bio.kyutech.ac.jp
 - *From 2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large*: Affiliation: School: TBS Education, SPAIN, Email: takemoto@bio.kyutech.ac.jp

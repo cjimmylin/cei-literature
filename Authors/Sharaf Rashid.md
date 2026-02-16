@@ -22,6 +22,7 @@ Researcher working on AI security, specifically prompt injection attacks in larg
 
 
 
+
 - [[2025-Rashid-Evaluating Prompt Injection Attacks with|Evaluating Prompt Injection Attacks with]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Researcher working on AI security, specifically prompt injection attacks in larg
 
 
 
+
+- *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: rafael.palacios@iit.comillas.edu
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: darian.rabbani@itau-unibanco.com.br
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: edson.bollis@itau-unibanco.com.br
 - *From 2025-Rashid-Evaluating Prompt Injection Attacks with*: Affiliation: Laboratory, Massachusetts Institute of Technology, 32 Vassar St, Email: darian.rabbani@itau-unibanco.com.br

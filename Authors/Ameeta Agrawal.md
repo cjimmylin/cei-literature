@@ -3,7 +3,7 @@ name: "Ameeta Agrawal"
 title: "Assistant Professor"
 affiliation: "Portland State University, Department of Computer Science"
 highest_degree: "PhD in Computer Science, York University, Canada"
-email: ""
+email: "francielle.vargas@unesp.br."
 research_interests:
   - "Natural Language Processing"
   - "Multilingual NLP"
@@ -57,10 +57,9 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 
 
 
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]] (Last Author)
-- [[2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in|CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics]] (Last Author)
 - [[2025-Trager-MFTCXplain|MFTCXplain]]
-- [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 
 ## External Links & Profiles
 
@@ -79,6 +78,8 @@ Ameeta Agrawal is an Assistant Professor in the Department of Computer Science a
 
 
 
+
+- *From 2025-Trager-MFTCXplain*: Affiliation: University of Southern California, Email: francielle.vargas@unesp.br.
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

@@ -1,9 +1,9 @@
 ---
 name: "Sutthisak Sukhamsri"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University of Technology Lanna (RMUTL) Engineering Journal"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "sutthisak@rmutl.ac.th."
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection|Toxicity Posts and Hateful Comments Detection]]
+- [[2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection|Toxicity Posts and Hateful Comments Detection]] (First Author)
 
 ## External Links & Profiles
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection*: Affiliation: University of Technology Lanna (RMUTL) Engineering Journal, Email: sutthisak@rmutl.ac.th.
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

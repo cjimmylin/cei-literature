@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Patel-Evaluating Large Language Models for Detecting|Evaluating Large Language Models for Detecting]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
 - *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
 - *From 2025-Patel-Evaluating Large Language Models for Detecting*: Affiliation: University, NY, USA
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

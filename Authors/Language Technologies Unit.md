@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Unit-Salamandra Technical Report|Salamandra Technical Report]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Unit-Salamandra Technical Report*: Affiliation: lable in three different sizes: 2, 7, and 40 billion parameters
 - *From 2025-Unit-Salamandra Technical Report*: Affiliation: lable in three different sizes: 2, 7, and 40 billion parameters
 - *From 2025-Unit-Salamandra Technical Report*: Affiliation: lable in three different sizes: 2, 7, and 40 billion parameters
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

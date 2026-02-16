@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT|Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator - PMC]] (First Author)
 - [[2025-Pretrained-Graphic Language Model for Agglutinative Languages Uyghur as Study|Graphic Language Model for Agglutinative Languages: Uyghur as Study Case]] (First Author)
 - [[2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China’s Minority|MiLiC-Eval: Benchmarking Multilingual LLMs for China's Minority Languages]] (First Author)
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT*: Affiliation: University of Hong, Email: Gloria1024599763@gmail.com
 - *From 2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT*: Affiliation: University of Hong, Email: Gloria1024599763@gmail.com
 - *From 2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT*: Affiliation: University of Hong, Email: Gloria1024599763@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

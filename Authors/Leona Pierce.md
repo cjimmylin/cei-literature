@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Dickerson-Who Gets the Kidney|Who Gets the Kidney?]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Dickerson-Who Gets the Kidney*:, Email: john@mozilla.ai
 - *From 2025-Dickerson-Who Gets the Kidney*:, Email: samarth.khanna@psu.edu
 - *From 2025-Dickerson-Who Gets the Kidney*:, Email: samarth.khanna@psu.edu
 - *From 2025-Dickerson-Who Gets the Kidney*:, Email: john@mozilla.ai

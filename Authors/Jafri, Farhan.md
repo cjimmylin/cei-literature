@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media|A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: usman.naseem@sydney.edu.au
 - *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: Imran.razzak@unsw.edu.au
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -36,6 +36,7 @@ Dr. Shrivastava's current research focuses on the reliability of vision-language
 
 
 
+
 - [[2024-Wu-AutoHallusion|AutoHallusion]]
 
 ## External Links & Profiles
@@ -49,6 +50,8 @@ Dr. Shrivastava's current research focuses on the reliability of vision-language
 
 
 
+
+- *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park
 - *From 2024-Wu-AutoHallusion*: Affiliation: University of Maryland, College Park

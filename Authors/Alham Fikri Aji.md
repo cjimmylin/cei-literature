@@ -50,22 +50,12 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 
 
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]]
 - [[2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in|From Surveys to Narratives: Rethinking Cultural Value Adaptation in LLMs]] (Last Author)
-- [[2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian|LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages]] (First Author)
-- [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]]
-- [[2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA|SEA-SafeguardBench Evaluating AI Safety in SEA]]
 - [[2025-Togmanov-KazMMLU Evaluating Language Models on Kazakh|KazMMLU Evaluating Language Models on Kazakh]]
-- [[2025-Winata-The Decades Progress on Code-Switching Research in NLP|The Decades Progress on Code-Switching Research in NLP]]
 - [[2024-Adilazuarda-Towards Measuring and Modeling |Towards Measuring and Modeling \]]
-- [[2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub|SEACrowd A Multilingual Multimodal Data Hub]]
-- [[2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for|Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino]]
-- [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]] (Last Author)
-- [[2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and|IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language]]
-- [[2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances|COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances]] (Last Author)
-- [[2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources|NusaCrowd: Open Source Initiative for Indonesian NLP Resources]]
 - [[2023-Rizqullah-QASiNa|QASiNa]] (Last Author)
-- [[2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local|NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages]]
 
 ## External Links & Profiles
 
@@ -83,6 +73,8 @@ He has created benchmarks like **Global PIQA** and **SEA-SafeguardBench** to ass
 
 
 
+
+- *From 2023-Rizqullah-QASiNa*: Affiliation: School of Electrical Engineering and Informatics, Email: razifrizqullah@gmail.com
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne
 - *From 2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local*: Affiliation: University of Melbourne

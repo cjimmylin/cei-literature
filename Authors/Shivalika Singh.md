@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 - [[2024-Singh-Aya Dataset|Aya Dataset]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: sarahooker@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com
 - *From 2024-Singh-Aya Dataset*: Affiliation: University, 3Cohere, 4Cohere For AI Community, 5Carnegie Mellon University, 6MIT, Email: ahmet@cohere.com

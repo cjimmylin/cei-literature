@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and|A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings]] (First Author)
 - [[2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained|Cultural Differences in Bias? Origin and Gender Bias in Pre-Trained German and French Word Embeddings]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained*: Affiliation: University of Applied Sciences, Email: mascha.kurpicz@bfh.ch
 - *From 2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained*: Affiliation: University of Applied Sciences, Email: mascha.kurpicz@bfh.ch
 - *From 2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained*: Affiliation: University of Applied Sciences, Email: mascha.kurpicz@bfh.ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

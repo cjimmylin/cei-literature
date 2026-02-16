@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU|Measuring Taiwanese Mandarin Language Understanding (TMLU)]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: r11922184@ntu.edu.tw
 - *From 2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU*:, Email: ytl@ieee.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

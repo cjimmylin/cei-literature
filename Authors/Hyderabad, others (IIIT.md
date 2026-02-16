@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection|Subverting the Jewtocracy Online Antisemitism Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection*: Affiliation: Institute of Information, Email: m.shrivastava@iiit.ac.in
 - *From 2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection*: Affiliation: Institute of Information, Email: m.shrivastava@iiit.ac.in
 - *From 2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection*: Affiliation: Institute of Information, Email: himanshu.bhatia@students.iiit.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

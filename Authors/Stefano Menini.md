@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection|Cross-Platform Evaluation for Italian Hate Speech Detection]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
 - *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
 - *From 2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection*: Affiliation: research centers, Email: michele.corazza@inria.fr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

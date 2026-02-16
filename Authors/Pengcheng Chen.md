@@ -20,6 +20,7 @@ Multiple researchers with similar names found: (1) Zhang Pengcheng - Lecturer at
 
 
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]] (First Author)
 
 ## Notes
@@ -28,6 +29,8 @@ Multiple researchers with similar names found: (1) Zhang Pengcheng - Lecturer at
 
 
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn

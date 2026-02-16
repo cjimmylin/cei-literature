@@ -33,6 +33,7 @@ He has published hundreds of papers at top venues (ACL, EMNLP, NAACL, NeurIPS, I
 
 
 
+
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via|GTBench: Uncovering the Strategic Reasoning Limitations of LLMs via Game-Theoretic Evaluations]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -53,6 +54,8 @@ He has published hundreds of papers at top venues (ACL, EMNLP, NAACL, NeurIPS, I
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Li-AI Development and Innovation A Comparison of Large Language Models|AI Development and Innovation: A Comparison of Large Language Models from the U.S. and China | ACM Transactions on Management Information Systems]]
 
 ## External Links & Profiles

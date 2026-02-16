@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Sameer-Insights into Moral Reasoning of AI|Insights into Moral Reasoning of AI]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 - *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 - *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad
 - *From 2025-Sameer-Insights into Moral Reasoning of AI*: Affiliation: Institute of Technology Dhanbad

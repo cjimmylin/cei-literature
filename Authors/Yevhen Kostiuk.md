@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages|Towards Multilingual LLM Evaluation for Baltic and Nordic Languages]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

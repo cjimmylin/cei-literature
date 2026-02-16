@@ -27,6 +27,7 @@ Beyer's educational background includes an M.Sc. in Robotics, Cognition, Intelli
 
 
 
+
 - [[2025-Beyer-LLM-Safety Evaluations Lack Robustness|LLM-Safety Evaluations Lack Robustness]] (First Author)
 
 ## Notes
@@ -35,6 +36,8 @@ Beyer's educational background includes an M.Sc. in Robotics, Cognition, Intelli
 
 
 
+
+- *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de
 - *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de
 - *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de
 - *From 2025-Beyer-LLM-Safety Evaluations Lack Robustness*: Affiliation: Department of Computer Science & Munich Data Science, Email: tim.beyer@tum.de

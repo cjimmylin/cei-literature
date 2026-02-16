@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset|RuBia: A Russian Language Bias Detection Dataset]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset*: Affiliation: University, ï Higher School of Economics, Email: rubiadataset@gmail.com
 - *From 2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset*: Affiliation: University, ï Higher School of Economics, Email: rubiadataset@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

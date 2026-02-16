@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based|Detecting Anti-Semitic Hate Speech Using Transformer-Based]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based*: Affiliation: School of Science and Health, Email: andrew.catlin@yu.edu
 - *From 2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based*: Affiliation: School of Science and Health, Email: dliu6@mail.yu.edu
 - *From 2024-Liu-Detecting Anti-Semitic Hate Speech Using Transformer-Based*: Affiliation: School of Science and Health, Email: dliu6@mail.yu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

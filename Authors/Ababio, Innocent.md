@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a|Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a*: Affiliation: University, New York, NY 10023, USA
 - *From 2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a*: Affiliation: University, New York, NY 10023, USA
 - *From 2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a*: Affiliation: University, New York, NY 10023, USA
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

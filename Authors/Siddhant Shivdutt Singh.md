@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs|EtiCor++: Towards Understanding Etiquettical Bias in LLMs]]
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in

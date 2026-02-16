@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2024-Group-The AI Safety Benchmark|The AI Safety Benchmark]]
 - [[2024-Kirk-The PRISM Alignment Project|The PRISM Alignment Project]]
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

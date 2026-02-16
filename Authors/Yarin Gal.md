@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Andriushchenko-AgentHarm|AgentHarm]]
 - [[2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks|Measuring What Matters -- Construct Validity in LLM Benchmarks]]
 - [[2023-Tan-How to Catch an AI Liar|How to Catch an AI Liar]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford
 - *From 2023-Tan-How to Catch an AI Liar*: Affiliation: University of Oxford

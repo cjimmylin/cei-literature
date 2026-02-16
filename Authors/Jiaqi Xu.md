@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zhang-MedHallTune|MedHallTune]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk
 - *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk
 - *From 2025-Zhang-MedHallTune*: Affiliation: University of Hong, Email: jpli21@cse.cuhk.edu.hk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

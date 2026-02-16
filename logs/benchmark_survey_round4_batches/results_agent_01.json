@@ -1,0 +1,337 @@
+[
+  {
+    "filename": "2012-Gippert-The Encoding of Avestan - Problems and Solutions.md",
+    "decision": "Exclude",
+    "reasoning": "Addresses digital encoding of Avestan script for Zoroastrian texts (TITUS database). This is a computational linguistics tool paper about character encoding, not an LLM ethics benchmark or evaluation."
+  },
+  {
+    "filename": "2012-Jügel-Peculiarities of Avestan Manuscripts for Computational Linguistics.md",
+    "decision": "Exclude",
+    "reasoning": "Discusses computational tools for Avestan manuscript stemmatic analysis. A computational linguistics paper on Zoroastrian manuscripts, not an LLM ethics benchmark or dataset."
+  },
+  {
+    "filename": "2013-Jensen-Techno-animism in Japan Shinto Cosmograms Actor-Network Theory and.md",
+    "decision": "Exclude",
+    "reasoning": "Theoretical paper deploying Shinto techno-animism as a framework for interpreting non-human agency through actor-network theory. No benchmark, dataset, or evaluation metric is introduced."
+  },
+  {
+    "filename": "2014-Cantera-The Problems of the Transmission of the Avesta and the Tools for.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes computational tools for text criticism of the Avesta (Zoroastrian sacred texts). A digital philology paper, not an LLM ethics benchmark."
+  },
+  {
+    "filename": "2018-Walter-Artificial Intelligence and Indigenous Data Sovereignty.md",
+    "decision": "Exclude",
+    "reasoning": "Policy paper on Indigenous data sovereignty and AI from ACOLA. Addresses rights of Indigenous peoples over their data but does not introduce any benchmark, dataset, or evaluation metric."
+  },
+  {
+    "filename": "2019-Bourgeois-Doyle-Two-Eyed AI A Reflection on Artificial Intelligence.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes integrating Mi'kmaw Two-Eyed Seeing philosophy with AI ethics. A philosophical/conceptual paper, not a benchmark or dataset contribution."
+  },
+  {
+    "filename": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+    "decision": "Exclude",
+    "reasoning": "Philosophical paper proposing harmony (Japanese Wa from Confucian/Shinto traditions) as an AI ethics principle. No benchmark, dataset, or evaluation metric is created."
+  },
+  {
+    "filename": "2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting.md",
+    "decision": "Exclude",
+    "reasoning": "Ethnographic study critically examining how Shinto/Buddhist values are applied in AI/robot ethics discourse. Qualitative research, not an LLM benchmark or dataset."
+  },
+  {
+    "filename": "2020-Seymour-Does Siri Have a Soul Exploring Voice Assistants Through Shinto.md",
+    "decision": "Exclude",
+    "reasoning": "Uses Shinto kami concepts as a design fiction lens for voice assistants. A HCI/design paper, not a benchmark or evaluation metric."
+  },
+  {
+    "filename": "2021-Carroll-Operationalizing the CARE and FAIR Principles for Indigenous Data.md",
+    "decision": "Exclude",
+    "reasoning": "Describes how to operationalize FAIR and CARE data governance principles for Indigenous peoples. A policy/governance paper without creating a benchmark or dataset."
+  },
+  {
+    "filename": "2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community.md",
+    "decision": "Exclude",
+    "reasoning": "Examines Japanese philosophical thought (Shinto animism, Meiji thinkers) and distills ethical principles for AI. A theoretical ethics paper, not a benchmark or evaluation."
+  },
+  {
+    "filename": "2022-Ramponi-Addressing Religious Hate Online From Taxonomy.md",
+    "decision": "Yes",
+    "reasoning": "Creates a bilingual (English + Italian) Twitter dataset with a fine-grained labeling scheme for religious hate speech detection covering Judaism, Christianity, and Islam. Releases annotated data and code on GitHub.",
+    "benchmark_name": "Religious Hate Speech Dataset",
+    "what_measures": "Religious hate speech detection (abusive language and religious hate) across three monotheistic religions",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Cross-religious (Judaism, Christianity, Islam); English and Italian"
+  },
+  {
+    "filename": "2022-Tapu-A New Age Indigenous Instrument Artificial Intelligence & Its.md",
+    "decision": "Exclude",
+    "reasoning": "Legal analysis from Harvard Law examining AI's impact on Indigenous peoples and proposing data sovereignty. A policy/legal paper without any benchmark or dataset creation."
+  },
+  {
+    "filename": "2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md",
+    "decision": "Yes",
+    "reasoning": "Introduces ISE-Hate, a benchmark corpus of 21,759 Urdu tweets classified for hateful vs neutral content with sub-categories for interfaith, sectarian, ethnic, and other hatred types.",
+    "benchmark_name": "ISE-Hate",
+    "what_measures": "Inter-faith, sectarian, and ethnic hatred detection in Urdu social media",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Pakistani; Urdu language"
+  },
+  {
+    "filename": "2023-Flavelle-Strengthening Relationships Between Indigenous Communities.md",
+    "decision": "Exclude",
+    "reasoning": "Addresses barriers to collaboration between linguists and Indigenous communities for NLP-assisted language revitalization. A position paper, not a benchmark or dataset."
+  },
+  {
+    "filename": "2023-Ikari-Religion-Related Values Differently Influence Moral Attitude for.md",
+    "decision": "Exclude",
+    "reasoning": "Empirical cross-cultural psychology study examining how Shinto-Buddhist religious values influence moral attitudes toward robots. It is a human survey study, not an LLM ethics benchmark."
+  },
+  {
+    "filename": "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md",
+    "decision": "Exclude",
+    "reasoning": "Uses an existing Thai toxicity Twitter corpus (2,160 posts) with ensemble classifiers. It applies existing datasets with traditional ML methods, and does not create a new benchmark or dataset."
+  },
+  {
+    "filename": "2023-Thapa-NEHATE Large-Scale Annotated Data Shedding Light.md",
+    "decision": "Yes",
+    "reasoning": "Introduces NEHATE, a large-scale dataset of 13,505 Nepali tweets annotated for hate speech with sub-categorization of targets (community, individual, organization). Released on GitHub.",
+    "benchmark_name": "NEHATE",
+    "what_measures": "Hate speech detection in Nepali political discourse with target categorization",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Nepali; Nepali language"
+  },
+  {
+    "filename": "2023-Ty-Impact of AI-Powered Technology on Religious Practices and Ethics The.md",
+    "decision": "Exclude",
+    "reasoning": "Exploratory research examining AI's impact on religious practices across multiple faith traditions. A theoretical/overview paper without benchmark, dataset, or metric creation."
+  },
+  {
+    "filename": "2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md",
+    "decision": "Yes",
+    "reasoning": "Introduces WoNBias, a curated Bengali dataset of 31,484 annotated entries for identifying gender-based biases, stereotypes, and harmful language against women, published on HuggingFace.",
+    "benchmark_name": "WoNBias",
+    "what_measures": "Gender-based bias, stereotypes, and harmful language against women in Bengali text",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Bengali/Bangladeshi"
+  },
+  {
+    "filename": "2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md",
+    "decision": "Exclude",
+    "reasoning": "A survey paper providing comparative analysis of nine existing German hate speech datasets using a bias analysis framework. It does not create a new benchmark, dataset, or metric -- it reviews existing ones."
+  },
+  {
+    "filename": "2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram.md",
+    "decision": "Exclude",
+    "reasoning": "This entry appears to be a figure/table from a paper cataloguing available Arabic hate speech datasets (related to ADHAR). It does not itself create a new dataset or benchmark."
+  },
+  {
+    "filename": "2024-Duwairi-A Deep Learning Framework for Automatic Detection of Hate Speech.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a deep learning framework for Arabic hate speech detection using existing data. The focus is on the detection method rather than introducing a new benchmark dataset."
+  },
+  {
+    "filename": "2024-Islam-hatebnBERT An Innovative Novel Transformer Model.md",
+    "decision": "Yes",
+    "reasoning": "Introduces hatebnBERT, a BERT-based model tailored to Bangla, and creates two new datasets: a binary (hate/not) and a five-class categorization dataset (including Blasphemy, Ethnic Hatred) for religious hate speech detection.",
+    "benchmark_name": "hatebnBERT Datasets",
+    "what_measures": "Religious hate speech detection in Bangla, including blasphemy and ethnic hatred categories",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Bengali/Bangladeshi; Muslim-Hindu community tensions"
+  },
+  {
+    "filename": "2024-Jothi Prakash-A Novel Socio-pragmatic Framework for Sentiment.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a socio-pragmatic framework for sentiment analysis in Dravidian code-switched texts. Uses existing Dravidian Code-Mixed Dataset; focuses on sentiment analysis methodology, not an ethics benchmark."
+  },
+  {
+    "filename": "2024-Lewis-Abundant Intelligences Placing AI within Indigenous Knowledge.md",
+    "decision": "Exclude",
+    "reasoning": "Presents the Abundant Intelligences research program for reimagining AI based on Indigenous knowledge systems. A theoretical/programmatic paper without benchmark or dataset creation."
+  },
+  {
+    "filename": "2024-Mager-Proceedings of the 4th Workshop on Natural Language Processing for.md",
+    "decision": "Exclude",
+    "reasoning": "Workshop proceedings for AmericasNLP 2024 on NLP for Indigenous languages. While it includes shared tasks, the proceedings volume itself does not constitute a single benchmark or dataset paper."
+  },
+  {
+    "filename": "2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in.md",
+    "decision": "Yes",
+    "reasoning": "Introduces HateThaiSent, a Thai-language benchmark dataset labeling posts with both hate speech and sentiment information. Uses dual-channel deep learning achieving 89.67% accuracy.",
+    "benchmark_name": "HateThaiSent",
+    "what_measures": "Hate speech detection with sentiment information in Thai language",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Thai"
+  },
+  {
+    "filename": "2024-Moshagen-Indigenous Language Technology in the Age of Machine Learning.md",
+    "decision": "Exclude",
+    "reasoning": "Examines risks of LLM-generated text contaminating Indigenous language corpora. A position/analysis paper raising concerns but not introducing a benchmark, dataset, or metric."
+  },
+  {
+    "filename": "2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding.md",
+    "decision": "Yes",
+    "reasoning": "Introduces CulturalVQA, a visual question-answering benchmark with 2,378 image-question pairs from 11 countries across 5 continents, probing VLMs' understanding of cultural elements like clothing, food, rituals.",
+    "benchmark_name": "CulturalVQA",
+    "what_measures": "Vision-language models' geo-diverse cultural understanding (clothing, food, drinks, rituals, traditions)",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "11 countries, 5 continents"
+  },
+  {
+    "filename": "2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes a weakly supervised learning framework for Thai hate speech detection using BERT. Constructs a weakly labeled dataset but the primary contribution is the detection method, not a standalone benchmark. The dataset is weakly labeled via lexicon, not a curated annotation effort."
+  },
+  {
+    "filename": "2024-Ontario-First Nations and Artificial Intelligence Research Paper.md",
+    "decision": "Exclude",
+    "reasoning": "Policy paper from Chiefs of Ontario analyzing AI's effects on First Nations. A governance/policy document, not a benchmark or dataset."
+  },
+  {
+    "filename": "2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes an eco-relational approach to robot ethics drawing on Shinto techno-animism. A philosophical ethics paper without benchmark or dataset creation."
+  },
+  {
+    "filename": "2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md",
+    "decision": "Yes",
+    "reasoning": "Introduces UTC (Urdu Toxicity Corpus), a comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman Urdu comments from social media.",
+    "benchmark_name": "UTC (Urdu Toxicity Corpus)",
+    "what_measures": "Multi-label toxicity detection in Roman Urdu social media content",
+    "data_type": "dataset",
+    "is_public": false,
+    "cultural_scope": "Pakistani; Urdu language"
+  },
+  {
+    "filename": "2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images.md",
+    "decision": "Yes",
+    "reasoning": "Introduces the Seeing Culture Benchmark (SCB) with 1,065 images capturing 138 cultural artifacts across 5 categories from 7 Southeast Asian countries, with 3,178 questions for evaluating VLMs.",
+    "benchmark_name": "Seeing Culture Benchmark (SCB)",
+    "what_measures": "VLMs' reasoning about culturally rich images from Southeast Asia via VQA and cultural artifact segmentation",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "7 countries, Southeast Asian"
+  },
+  {
+    "filename": "2024-Sharma-TABHATE A Target-based Hate Speech Detection.md",
+    "decision": "Yes",
+    "reasoning": "Introduces TABHATE, a curated and annotated dataset of 2,020 Hindi tweets for target-based hate speech detection with multiclass labels (individual targeting, community targeting, none).",
+    "benchmark_name": "TABHATE",
+    "what_measures": "Target-based hate speech detection in Hindi (individual vs community targeting)",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Indian; Hindi language"
+  },
+  {
+    "filename": "2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+    "decision": "Exclude",
+    "reasoning": "Survey paper on decolonizing African NLP presented at ICLR 2024 AfricaNLP workshop. Reviews existing efforts like Masakhane but does not introduce a new benchmark, dataset, or metric."
+  },
+  {
+    "filename": "2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz.md",
+    "decision": "Exclude",
+    "reasoning": "Describes a multilingual NLP tool for Uyghur, Kazak, and Kirghiz languages. A language technology paper focused on traditional NLP tooling, not an LLM ethics benchmark."
+  },
+  {
+    "filename": "2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md",
+    "decision": "Yes",
+    "reasoning": "Introduces a novel methodology for identifying and measuring censorship bias in LLMs, creates CensorshipDetector (91% accurate Chinese text classifier), and evaluates multiple major LLMs (GPT-4, Claude, DeepSeek, Llama) for censorship bias. Releases code on GitHub.",
+    "benchmark_name": "CensorshipDetector / Censorship Bias Evaluation",
+    "what_measures": "Chinese censorship bias in LLMs -- whether models trained on state-censored content reflect censorship patterns",
+    "data_type": "metric",
+    "is_public": true,
+    "cultural_scope": "Chinese / China-specific censorship"
+  },
+  {
+    "filename": "2025-Aji-Multilingual Multicultural Evaluation Workshop.md",
+    "decision": "Exclude",
+    "reasoning": "This is a workshop website/landing page for the Multilingual Multicultural Evaluation Workshop. It does not itself create a benchmark or dataset -- it is an organizational hub for related research."
+  },
+  {
+    "filename": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+    "decision": "Yes",
+    "reasoning": "Constructs a specialized dataset of 550 curated questions for evaluating LLMs on Maliki Islamic jurisprudence (Fiqh) and systematically evaluates GPT-4o and ALLaM across three Fiqh domains.",
+    "benchmark_name": "Maliki Fiqh QA Dataset",
+    "what_measures": "LLM reliability in Islamic jurisprudence (Maliki school) across purification, marital, and financial domains",
+    "data_type": "benchmark",
+    "is_public": false,
+    "cultural_scope": "Islamic (Maliki school); Arabic"
+  },
+  {
+    "filename": "2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md",
+    "decision": "Yes",
+    "reasoning": "Introduces Pokkhopat, a curated dataset of gendered terms and profession-related words across STEM and SHAPE disciplines for evaluating gender bias in 11 Bangla language models using WEAT, ECT, RND, RIPA metrics.",
+    "benchmark_name": "Pokkhopat",
+    "what_measures": "Gender-profession bias in pretrained Bangla language models across STEM and SHAPE domains",
+    "data_type": "dataset",
+    "is_public": true,
+    "cultural_scope": "Bangladeshi; Bengali language"
+  },
+  {
+    "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a discursive framework for African data ethics with six principles grounded in communitarian theories. A theoretical framework paper without benchmark, dataset, or LLM evaluation."
+  },
+  {
+    "filename": "2025-Binegde-Exploring cultural commonsense in multilingual large language models.md",
+    "decision": "Exclude",
+    "reasoning": "A survey paper exploring cultural commonsense in multilingual LLMs. Reviews existing benchmarks like MENAValues but does not introduce a new benchmark, dataset, or metric."
+  },
+  {
+    "filename": "2025-Blayone-Using Digital Technologies for Indigenous Sociocultural Advancement.md",
+    "decision": "Exclude",
+    "reasoning": "Systematic critical synthesis of 69 studies on digital technology for Indigenous sociocultural advancement. A review/synthesis paper without benchmark or dataset creation."
+  },
+  {
+    "filename": "2025-Bolatbek-Detection of offensive content in the.md",
+    "decision": "Exclude",
+    "reasoning": "While the paper markdown title suggests Kazakh offensive content detection, the data description reveals this is a 2021 literature review surveying 40 studies on offensive language detection methods. No new dataset or benchmark is created."
+  },
+  {
+    "filename": "2025-Bolatbek-Hate Speech Detection in the Kazakh.md",
+    "decision": "Exclude",
+    "reasoning": "Presents a multi-class text classification model for Kazakh hate speech detection using TF-IDF, LSTM, XGBoost. Uses a previously constructed Kazakh-language dataset from Bolatbek et al. (2024), does not introduce a new benchmark dataset itself."
+  },
+  {
+    "filename": "2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书.md",
+    "decision": "Exclude",
+    "reasoning": "Chinese-language white paper surveying LLM safety assessment methods (HELM, TrustGPT, DecodingTrust, SuperCLUE-Safety). A survey/review document, not an original benchmark or evaluation study."
+  },
+  {
+    "filename": "2025-Corbett-AI and Indigenous Languages.md",
+    "decision": "Exclude",
+    "reasoning": "A blog post from Western Digital discussing AI and Indigenous language preservation. Not a research paper and does not create any benchmark, dataset, or evaluation."
+  },
+  {
+    "filename": "2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African.md",
+    "decision": "Exclude",
+    "reasoning": "Proposes an ethnographic framework for deploying AI in African contexts. A conceptual framework paper without benchmark, dataset, or LLM evaluation."
+  },
+  {
+    "filename": "2025-Durmus-Subjective Values.md",
+    "decision": "Exclude",
+    "reasoning": "This entry is the interactive visualization website (llmglobalvalues.anthropic.com) companion to the Durmus et al. research paper. As a web tool entry (not the research paper itself), it does not independently introduce a benchmark. The actual paper is a separate entry."
+  },
+  {
+    "filename": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md",
+    "decision": "Yes",
+    "reasoning": "Introduces GlobalOpinionQA, a dataset drawn from cross-national surveys (Pew, World Values Survey) to measure whose opinions LLM responses most resemble. Defines a similarity metric and evaluates an LLM across countries. Dataset released on HuggingFace.",
+    "benchmark_name": "GlobalOpinionQA",
+    "what_measures": "Representation of subjective global opinions in LLMs -- which country populations' views are most reflected",
+    "data_type": "benchmark",
+    "is_public": true,
+    "cultural_scope": "Global cross-national (multiple countries across all continents)"
+  },
+  {
+    "filename": "2025-Farsi-PahGen Generating Ancient Pahlavi Text via Grammar-guided Zero-shot.md",
+    "decision": "Exclude",
+    "reasoning": "Uses LLMs for zero-shot translation into Pahlavi (Zoroastrian Middle Persian). A language technology/machine translation paper, not an LLM ethics benchmark or evaluation."
+  }
+]

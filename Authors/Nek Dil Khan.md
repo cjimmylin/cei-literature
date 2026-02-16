@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Khan-From Tradition to Technology A Systematic Survey on Navigating Pashto|From Tradition to Technology: A Systematic Survey on Navigating Pashto in Modern NLP]] (Last Author)
 
 ## External Links & Profiles

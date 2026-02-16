@@ -23,6 +23,7 @@ Hiba Zayed is a researcher working in Arabic Natural Language Processing, with f
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
@@ -31,6 +32,8 @@ Hiba Zayed is a researcher working in Arabic Natural Language Processing, with f
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social|Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
 - *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
 - *From 2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social*: Affiliation: Department of Advanced Computing Sciences, Email: jerry.spanakis@maastrichtuniversity.nl
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

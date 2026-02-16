@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language|EmotionQueen: A Benchmark for Evaluating Empathy of Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: wanghaodawn@gmail.com
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: zhaoyi3@seas.upenn.edu
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: wanghaodawn@gmail.com
 - *From 2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language*: Affiliation: Laboratory of Data Science, School of Computer Science, Fudan University, Email: zhaoyi3@seas.upenn.edu

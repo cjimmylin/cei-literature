@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Tu-CharacterEval|CharacterEval]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: fansl@bupt.edu.cn
 - *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: ruiyan@ruc.edu.cn
 - *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: ruiyan@ruc.edu.cn
 - *From 2024-Tu-CharacterEval*: Affiliation: School of Artificial Intelligence, Renmin University of China, Email: fansl@bupt.edu.cn

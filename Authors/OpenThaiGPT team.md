@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-team-OpenThaiGPT 15 A Thai-Centric Open Source|OpenThaiGPT 15 A Thai-Centric Open Source]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-team-OpenThaiGPT 15 A Thai-Centric Open Source*: Affiliation: Department of Computer Engineering, Faculty of Engineering, Mahidol University, Email: autsadang41@gmail.com
 - *From 2024-team-OpenThaiGPT 15 A Thai-Centric Open Source*: Affiliation: Department of Computer Engineering, Faculty of Engineering, Mahidol University, Email: kobkrit@iapp.co.th
 - *From 2024-team-OpenThaiGPT 15 A Thai-Centric Open Source*: Affiliation: Department of Computer Engineering, Faculty of Engineering, Mahidol University, Email: apivadee.pi@bdi.or.th
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

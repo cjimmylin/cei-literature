@@ -49,6 +49,7 @@ Beyond his technical inventions like federated learning and on-device machine le
 
 
 
+
 - [[2024-Gabriel-The Ethics of Advanced AI Assistants|The Ethics of Advanced AI Assistants]]
 - [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]]
 
@@ -69,6 +70,8 @@ Beyond his technical inventions like federated learning and on-device machine le
 
 
 
+
+- *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com

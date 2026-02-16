@@ -56,8 +56,9 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using|UrduBench An Urdu Reasoning Benchmark using]] (Last Author)
-- [[2025-[[Unknown]]-Alif Advancing Urdu Large Language Models|Alif Advancing Urdu Large Language Models]] (Last Author)
+
+- [[2026-Shafique-UrduBench An Urdu Reasoning Benchmark using|UrduBench An Urdu Reasoning Benchmark using]] (Last Author)
+- [[2025-Shafique-Alif Advancing Urdu Large Language Models|Alif Advancing Urdu Large Language Models]] (Last Author)
 
 ## External Links & Profiles
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Shafique-Alif Advancing Urdu Large Language Models*: Affiliation: University of British Columbia
 - *From 2025-[[Unknown]]-Alif Advancing Urdu Large Language Models*: Affiliation: University of British Columbia
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

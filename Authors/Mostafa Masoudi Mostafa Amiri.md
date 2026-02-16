@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple|Matina: A Culturally-Aligned Persian Language Model Using Multiple LoRA Experts]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple*: Affiliation: University of Tehran, 2Sharif University of Technology, Email: s.bourbour@modares.ac.ir
 - *From 2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple*: Affiliation: University of Tehran, 2Sharif University of Technology, Email: s.bourbour@modares.ac.ir
 - *From 2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple*: Affiliation: University of Tehran, 2Sharif University of Technology, Email: s.bourbour@modares.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

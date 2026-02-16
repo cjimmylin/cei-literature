@@ -1,9 +1,9 @@
 ---
 name: "Ishan Godbole Mahit Nandan A D"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Department of Information Technology"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "pranavkapparad.211ai026@nitk.edu.in"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP|Comparative Analysis of Religious Texts NLP]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP*: Affiliation: Department of Information Technology, Email: pranavkapparad.211ai026@nitk.edu.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

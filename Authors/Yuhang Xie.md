@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems|GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems]]
 - [[2025-Ye-Large Language Model Psychometrics|Large Language Model Psychometrics]]
 - [[2025-Zhu-EAVIT|EAVIT]]
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence
 - *From 2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems*: Affiliation: Laboratory of General Artificial Intelligence

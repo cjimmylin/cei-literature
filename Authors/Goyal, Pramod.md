@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in|HASOC 2023: Hate Speech and Offensive Content Identification in Assamese, Bengali, Bodo, Gujarati and Sinhala]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in*: Affiliation: Labs, India
 - *From 2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in*: Affiliation: Labs, India
 - *From 2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in*: Affiliation: Labs, India
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Li-Untangling Input Language from Reasoning Language A Diagnostic|Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs]] (Last Author)
 - [[2024-Buyl-Large Language Models Reflect the Ideology of|Large Language Models Reflect the Ideology of]] (Last Author)
 - [[2024-Defrance-ABCFair|ABCFair]] (Last Author)
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 - *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 - *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 - *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems

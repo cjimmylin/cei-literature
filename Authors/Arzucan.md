@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Seker-HATECAT-TR A Hate Speech Span Detection|HATECAT-TR A Hate Speech Span Detection]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: pelinonal@hrantdink.org
 - *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: arzucan.ozgur@bogazici.edu.tr
 - *From 2025-Seker-HATECAT-TR A Hate Speech Span Detection*: Affiliation: Department of Computer Engineering, Bogazici University, Istanbul, Turkey 34342, Email: arzucan.ozgur@bogazici.edu.tr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

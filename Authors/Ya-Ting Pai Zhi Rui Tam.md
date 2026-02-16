@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in|VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in*: Affiliation: University of Illinois Urbana-Champaign
 - *From 2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in*: Affiliation: University of Illinois Urbana-Champaign
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

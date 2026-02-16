@@ -24,6 +24,7 @@ Hua Xu is a tenured Associate Professor at Tsinghua University's State Key Labor
 
 
 
+
 - [[2023-Ji-AI Alignment|AI Alignment]]
 
 ## Notes
@@ -32,6 +33,8 @@ Hua Xu is a tenured Associate Professor at Tsinghua University's State Key Labor
 
 
 
+
+- *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge
 - *From 2023-Ji-AI Alignment*: Affiliation: University of Cambridge

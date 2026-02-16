@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for|A New Benchmark Dataset and Mixture-of-Experts Language Models for Adversarial Natural Language Inference in Vietnamese]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for*: Affiliation: Faculty of Information Science and Engineering, University of Information Technology, Email: ngannlt@uit.edu.vn
 - *From 2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for*: Affiliation: Faculty of Information Science and Engineering, University of Information Technology, Email: kietnv@uit.edu.vn
 - *From 2024-Huynh-A New Benchmark Dataset and Mixture-of-Experts Language Models for*: Affiliation: Faculty of Information Science and Engineering, University of Information Technology, Email: tihv@uit.edu.vn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

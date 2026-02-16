@@ -30,6 +30,7 @@ He also developed KL-regularised Q-Learning (KLQ), a new action-value RL method 
 
 
 
+
 - [[2025-Naik-AgentMisalignment|AgentMisalignment]]
 
 ## Notable Contributions
@@ -45,6 +46,8 @@ He also developed KL-regularised Q-Learning (KLQ), a new action-value RL method 
 
 
 
+
+- *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: akshat.naik@cs.ox.ac.uk
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: javcamposz@hotmail.com
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info
 - *From 2025-Naik-AgentMisalignment*: Affiliation: Department of Computer Science, Email: g@guiem.info

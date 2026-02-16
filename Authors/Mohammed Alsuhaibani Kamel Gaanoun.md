@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based|Fabricated Hadith Detection A Novel Matn-Based]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based*: Affiliation: Department of Computer Science, College of Computer, Qassim University, Buraydah 52571, Saudi Arabia, Email: m.suhibani@qu.edu.sa
 - *From 2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based*: Affiliation: Department of Computer Science, College of Computer, Qassim University, Buraydah 52571, Saudi Arabia, Email: m.suhibani@qu.edu.sa
 - *From 2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based*: Affiliation: Department of Computer Science, College of Computer, Qassim University, Buraydah 52571, Saudi Arabia, Email: m.suhibani@qu.edu.sa
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wu-COIG-P|COIG-P]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human

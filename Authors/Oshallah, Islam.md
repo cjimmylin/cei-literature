@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Basem-Few-Shot Prompting for Extractive Quranic QA|Few-Shot Prompting for Extractive Quranic QA]]
 - [[2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval|Two-Stage Quranic QA via Ensemble Retrieval]]
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: ammohammed@msa.edu.eg
 - *From 2025-Basem-Few-Shot Prompting for Extractive Quranic QA*: Affiliation: Faculty of Computer Science, Email: ammohammed@msa.edu.eg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

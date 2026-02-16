@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous|Abundant Intelligences Placing AI Within Indigenous]]
 - [[2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position|Indigenous Protocol and Artificial Intelligence Position]] (Last Author)
 

@@ -33,6 +33,7 @@ She has contributed to several influential papers on AI ethics benchmarks and ev
 
 
 
+
 - [[2025-Bang-HalluLens LLM Hallucination Benchmark|HalluLens: LLM Hallucination Benchmark]] (First Author)
 - [[2024-Cahyawijaya-High-Dimension Human Value Representation in|High-Dimension Human Value Representation in]]
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]] (First Author)
@@ -50,6 +51,8 @@ She has contributed to several influential papers on AI ethics benchmarks and ev
 
 
 
+
+- *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 - *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 - *From 2022-Bang-Enabling Classifiers to Make Judgements*: Affiliation: University of Science and Technology
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University

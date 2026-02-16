@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational|On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford
 - *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford
 - *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford
 - *From 2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational*: Affiliation: University of Oxford

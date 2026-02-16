@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for|BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: belarusianglue@gmail.com
 - *From 2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: belarusianglue@gmail.com
 - *From 2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for*: Affiliation: University of Technology, Brno, Czech Republic, Email: belarusianglue@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

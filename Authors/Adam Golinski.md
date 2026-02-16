@@ -35,6 +35,7 @@ Adam's research introduces the concept of uncertainty-aware fairness (UCerF). He
 
 
 
+
 - [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]]
 
 ## External Links & Profiles
@@ -47,6 +48,8 @@ Adam's research introduces the concept of uncertainty-aware fairness (UCerF). He
 
 
 
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu

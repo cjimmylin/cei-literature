@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bui-VMLU Benchmarks A Comprehensive Benchmark Toolkit for Vietnamese LLMs|VMLU Benchmarks: A Comprehensive Benchmark Toolkit for Vietnamese LLMs]]
 - [[2025-Pandey-SocialHarmBench|SocialHarmBench]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Pandey-SocialHarmBench*: Affiliation: University of Toronto
 - *From 2025-Pandey-SocialHarmBench*: Affiliation: University of Toronto
 - *From 2025-Pandey-SocialHarmBench*: Affiliation: University of Toronto
 - *From 2025-Pandey-SocialHarmBench*: Affiliation: University of Toronto

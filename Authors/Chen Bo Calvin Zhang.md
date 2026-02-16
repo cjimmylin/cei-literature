@@ -36,6 +36,7 @@ Chen Bo Calvin Zhang is a researcher affiliated with Scale AI, working on AI saf
 
 
 
+
 - [[2025-Chiu-MoReBench|MoReBench]]
 
 ## External Links & Profiles
@@ -48,6 +49,8 @@ Chen Bo Calvin Zhang is a researcher affiliated with Scale AI, working on AI saf
 
 
 
+
+- *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu
 - *From 2025-Chiu-MoReBench*: Affiliation: University of Washington, Email: kellycyy@uw.edu

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated|Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training]]
 - [[2025-Shen-Alignment and Safety in LLMs Survey|Alignment and Safety in LLMs Survey]]
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
@@ -33,6 +34,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China
 - *From 2023-Shen-Large Language Model Alignment*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China

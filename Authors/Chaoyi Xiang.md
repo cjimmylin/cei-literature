@@ -33,6 +33,7 @@ Chaoyi Xiang is a researcher at the School of Computing and Information Systems 
 
 
 
+
 - [[2025-Xiang-Comparing Moral Values in Western|Comparing Moral Values in Western]] (First Author)
 
 ## External Links & Profiles
@@ -44,6 +45,8 @@ Chaoyi Xiang is a researcher at the School of Computing and Information Systems 
 
 
 
+
+- *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au
 - *From 2025-Xiang-Comparing Moral Values in Western*: Affiliation: School of Computing and Information Systems, The University of Melbourne, Email: chaoyix@student.unimelb.edu.au

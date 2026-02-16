@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Gamboa-Social Bias in Multilingual Language Models|Social Bias in Multilingual Language Models]]
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: y.feng.6@bham.ac.uk
 - *From 2024-Liu-JAILJUDGE*: Affiliation: University of Science and Technology (Guangzhou), Guangzhou, PRC, Email: liuh@ust.hk

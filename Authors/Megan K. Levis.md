@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Conwill-Design Patterns for the Common Good|Design Patterns for the Common Good]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: gajarsky@mimuw.edu.pl.
 - *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: gajarsky@mimuw.edu.pl.
 - *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: michal.pilipczuk@mimuw.edu.pl.
 - *From 2025-Conwill-Design Patterns for the Common Good*: Affiliation: Institute of Informatics, University of Warsaw, Poland, Email: kristyna.pekarkova@mail.muni.cz.

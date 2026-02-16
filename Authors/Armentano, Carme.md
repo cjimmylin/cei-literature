@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark|The Catalan Language CLUB (Catalan Language Understanding Benchmark)]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 - *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 - *From 2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark*: Affiliation: Center-The Catalan Language CLUB Catalan Language Understanding Benchmark - PDF Extract"
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

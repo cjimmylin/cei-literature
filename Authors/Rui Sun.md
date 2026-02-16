@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Hui-Decoding Moral Responses in AI|Decoding Moral Responses in AI]] (Last Author)
 - [[2025-Sun-Document-Level Machine Translation with Large Language Models Longyue|Document-Level Machine Translation with Large Language Models Longyue Wang1∗]] (First Author)
 - [[2025-Sun-Evaluating ChatGPT's Performance in Creative Text ...|Evaluating ChatGPT's Performance in Creative Text ...]] (First Author)
@@ -35,6 +36,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Sun-1 Benchmarking GPT-4 against Human Translators A*: Affiliation: University, Zhejiang, P, Email: elliottyan37@gmail.com
 - *From 2024-Sun-1 Benchmarking GPT-4 against Human Translators A*: Affiliation: University, Zhejiang, P, Email: elliottyan37@gmail.com
 - *From 2024-Sun-1 Benchmarking GPT-4 against Human Translators A*: Affiliation: University, Zhejiang, P, Email: elliottyan37@gmail.com
 - *From 2024-Sun-1 Benchmarking GPT-4 against Human Translators A*: Affiliation: University, Zhejiang, P, Email: elliottyan37@gmail.com

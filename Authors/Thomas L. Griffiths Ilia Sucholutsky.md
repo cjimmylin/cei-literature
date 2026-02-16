@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Griffiths-Explicitly Unbiased Large Language Models Still|Explicitly Unbiased Large Language Models Still]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Griffiths-Explicitly Unbiased Large Language Models Still*: Affiliation: Department of Psychology 2 Department of Computer Science
 - *From 2025-Griffiths-Explicitly Unbiased Large Language Models Still*: Affiliation: Department of Psychology 2 Department of Computer Science
 - *From 2025-Griffiths-Explicitly Unbiased Large Language Models Still*: Affiliation: Department of Psychology 2 Department of Computer Science
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

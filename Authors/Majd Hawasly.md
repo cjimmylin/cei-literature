@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and|PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture]]
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia
 - *From 2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and*: Affiliation: University of British Columbia

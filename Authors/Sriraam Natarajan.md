@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian|IndiCASA -- Dataset and Bias Evaluation Framework for LLMs in Indian Context]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian*: Affiliation: Centre for Responsible AI, IIT Madras, India, Email: ravi@dsai.iitm.ac.in
 - *From 2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian*: Affiliation: Centre for Responsible AI, IIT Madras, India, Email: me22b102@smail.iitm.ac.in
 - *From 2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian*: Affiliation: Centre for Responsible AI, IIT Madras, India, Email: ravi@dsai.iitm.ac.in
 - *From 2025-Santhosh-IndiCASA - Dataset and Bias Evaluation Framework for LLMs in Indian*: Affiliation: Centre for Responsible AI, IIT Madras, India, Email: gokul@cerai.in

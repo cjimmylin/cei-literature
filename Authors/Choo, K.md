@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in|SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: richi_ng@sutd.edu.sg
 - *From 2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in*: Affiliation: University of Technology and Design, Email: roy_lee@sutd.edu.sg
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

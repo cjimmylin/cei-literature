@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Jones-Fit for Our Purpose Not Yours|Fit for Our Purpose Not Yours]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: lee@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: gianna@tehiku.co.nz
 - *From 2024-Jones-Fit for Our Purpose Not Yours*:, Email: keoni@tehiku.co.nz
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

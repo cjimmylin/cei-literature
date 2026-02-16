@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded|RigoChat 2: An Adapted Language Model to Spanish Using a Bounded Dataset and Reduced Hardware]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded*: Affiliation: centers that support their training
 - *From 2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded*: Affiliation: centers that support their training
 - *From 2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded*: Affiliation: centers that support their training
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

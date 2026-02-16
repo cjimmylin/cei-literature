@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Street-LLMs achieve adult human performance on|LLMs achieve adult human performance on]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com
 - *From 2024-Street-LLMs achieve adult human performance on*: Affiliation: Lab, Johns Hopkins University, Email: istreet@google.com

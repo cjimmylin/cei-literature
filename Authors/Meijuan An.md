@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Zhang-CHiSafetyBench|CHiSafetyBench]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China
 - *From 2024-Zhang-CHiSafetyBench*: Affiliation: Center, China Unicom, Beijing 100013, China

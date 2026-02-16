@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Varsha-From Phonemes to Meaning Evaluating Large|From Phonemes to Meaning Evaluating Large]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Varsha-From Phonemes to Meaning Evaluating Large*: Affiliation: Department of Computer Science, University of Jaffna, Sri Lanka, Email: sarves@univ.jfn.ac.lk
 - *From 2025-Varsha-From Phonemes to Meaning Evaluating Large*: Affiliation: Department of Computer Science, University of Jaffna, Sri Lanka, Email: sarves@univ.jfn.ac.lk
 - *From 2025-Varsha-From Phonemes to Meaning Evaluating Large*: Affiliation: Department of Computer Science, University of Jaffna, Sri Lanka, Email: sarves@univ.jfn.ac.lk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

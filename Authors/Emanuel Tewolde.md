@@ -32,6 +32,7 @@ Emanuel Tewolde is a PhD student at the University of Oxford, working on multi-a
 
 
 
+
 - [[2025-Backmann-When Ethics and Payoffs Diverge|When Ethics and Payoffs Diverge]]
 
 ## Notes
@@ -40,6 +41,8 @@ Emanuel Tewolde is a PhD student at the University of Oxford, working on multi-a
 
 
 
+
+- *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: zjin@cs.toronto.edu
 - *From 2025-Backmann-When Ethics and Payoffs Diverge*: Affiliation: University of Zurich, Email: sbackmann@ethz.ch

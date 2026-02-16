@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Li-Untangling Input Language from Reasoning Language A Diagnostic|Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 - *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 - *From 2025-Li-Untangling Input Language from Reasoning Language A Diagnostic*: Affiliation: Lab, Department of Electronics and Information Systems
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

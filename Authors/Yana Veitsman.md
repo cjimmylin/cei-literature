@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Veitsman-KyrgyzNLP Challenges Progress and Future|KyrgyzNLP: Challenges, Progress, and Future]] (First Author)
 - [[2024-Veitsman-Recent Advancements and Challenges of Turkic|Recent Advancements and Challenges of Turkic]] (First Author)
 - [[2024-Veitsman-The Development and Experimental Evaluation of a Multilingual Speech|The Development and Experimental Evaluation of a Multilingual Speech Corpus for Low-Resource Turkic Languages]] (First Author)
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Veitsman-KyrgyzNLP Challenges Progress and Future*: Affiliation: Institute at St
 - *From 2024-Veitsman-KyrgyzNLP Challenges Progress and Future*: Affiliation: Institute at St
 - *From 2024-Veitsman-KyrgyzNLP Challenges Progress and Future*: Affiliation: Institute at St
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

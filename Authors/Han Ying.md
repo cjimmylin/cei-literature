@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale|GVS-Scale and GVS-Bench: GenAI Value Safety Scale]] (First Author)
 - [[2026-Jin-MedES Chinese Medical Ethics Scenarios|MedES (Chinese Medical Ethics Scenarios)]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 - *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 - *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn
 - *From 2026-Jin-MedES Chinese Medical Ethics Scenarios*: Affiliation: Lab, School of Computer Science, MoE Key Lab of Artificial Intelligence, Shanghai Jiao Tong University, Email: pilgrim@sjtu.edu.cn

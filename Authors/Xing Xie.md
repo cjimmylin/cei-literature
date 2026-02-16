@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values|MoVa: Towards Generalizable Classification of Human Morals and Values]]
 - [[2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value|AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment]] (Last Author)
 - [[2025-Jiang-Raising the Bar|Raising the Bar]] (Last Author)
@@ -42,6 +43,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: weihaoxuan@g.ecc.u
 - *From 2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced*: Affiliation: University of Tokyo, 2Duke-NUS Medical School, 3Waseda University, Email: irene.li@weblab.t.u

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model|VinaLLaMA: LLaMA-based Vietnamese Foundation Model]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 - *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 - *From 2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model*: Affiliation: laboration and open innovation, we are pleased to announce VinaLLaMA
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

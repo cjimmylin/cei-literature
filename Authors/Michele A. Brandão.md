@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model|Gender Bias in Portuguese Literary Texts: A Masked Language Model Approach]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model*: Affiliation: Department of Computer Science
 - *From 2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model*: Affiliation: Department of Computer Science
 - *From 2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model*: Affiliation: Department of Computer Science
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled|Quranic Audio Dataset Crowdsourced and Labeled]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled*: Affiliation: Labeled - PDF Extract", Email: r.salameh@innopolis.university
 - *From 2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled*: Affiliation: Labeled - PDF Extract", Email: n.askarbekuly@innopolis.university
 - *From 2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled*: Affiliation: Labeled - PDF Extract", Email: mohamad.almdfaa@skoltech.ru
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

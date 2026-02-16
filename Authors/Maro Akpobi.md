@@ -25,6 +25,7 @@ Maro Akpobi is a Nigerian independent researcher and writer affiliated with the 
 
 
 
+
 - [[2025-Akpobi-Yankari Monolingual Yoruba Dataset|Yankari: Monolingual Yoruba Dataset]] (First Author)
 
 ## Notes
@@ -33,6 +34,8 @@ Maro Akpobi is a Nigerian independent researcher and writer affiliated with the 
 
 
 
+
+- *From 2025-Akpobi-Yankari Monolingual Yoruba Dataset*: Affiliation: Center for Language Preservation, Email: maro@acflp.org
 - *From 2025-Akpobi-Yankari Monolingual Yoruba Dataset*: Affiliation: Center for Language Preservation, Email: maro@acflp.org
 - *From 2025-Akpobi-Yankari Monolingual Yoruba Dataset*: Affiliation: Center for Language Preservation, Email: maro@acflp.org
 - *From 2025-Akpobi-Yankari Monolingual Yoruba Dataset*: Affiliation: Center for Language Preservation, Email: maro@acflp.org

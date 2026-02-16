@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs|SESGO: Spanish Evaluation of Stereotypical Generative Outputs]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs*: Affiliation: School Math (Shi et al
 - *From 2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs*: Affiliation: School Math (Shi et al
 - *From 2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs*: Affiliation: School Math (Shi et al
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

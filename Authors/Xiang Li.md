@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts|LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts]]
 - [[2025-Huang-On the Trustworthiness of Generative Foundation|On the Trustworthiness of Generative Foundation]]
 - [[2024-Huang-TrustLLM|TrustLLM]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: yhuang37@nd.edu
 - *From 2024-Huang-TrustLLM*: Affiliation: University of Notre Dame, Email: lis221@lehigh.edu

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Davani-Disentangling Perceptions of Offensiveness|Disentangling Perceptions of Offensiveness]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Davani-Disentangling Perceptions of Offensiveness*: Affiliation: Research Institute, Email: aidamd@google.com
 - *From 2023-Davani-Disentangling Perceptions of Offensiveness*: Affiliation: Research Institute, Email: vinodkpg@google.com
 - *From 2023-Davani-Disentangling Perceptions of Offensiveness*: Affiliation: Research Institute, Email: aidamd@google.com
 - *From 2023-Davani-Disentangling Perceptions of Offensiveness*: Affiliation: Research Institute, Email: markdiaz@google.com

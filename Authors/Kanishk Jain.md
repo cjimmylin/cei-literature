@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding]]
+- [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]]
 
 ## External Links & Profiles
 

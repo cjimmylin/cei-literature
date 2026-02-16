@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for|No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for*: Affiliation: School of Computer Science, University of Sheffield, United Kingdom
 - *From 2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for*: Affiliation: School of Computer Science, University of Sheffield, United Kingdom
 - *From 2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for*: Affiliation: School of Computer Science, University of Sheffield, United Kingdom
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

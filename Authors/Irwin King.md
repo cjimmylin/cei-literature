@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning|Rethinking Machine Ethics]]
 - [[2022-Hu-“I’m sorry to hear that”|'I'm sorry to hear that']] (Last Author)
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong
 - *From 2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning*: Affiliation: University of Hong Kong

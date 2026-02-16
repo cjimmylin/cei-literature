@@ -23,6 +23,7 @@ Researcher affiliated with Tokyo University of Foreign Studies working on natura
 
 
 
+
 - [[2023-Catapang-EMoTES-3K|EMoTES-3K]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Researcher affiliated with Tokyo University of Foreign Studies working on natura
 
 
 
+
+- *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph
 - *From 2023-Catapang-EMoTES-3K*: Affiliation: College of Saint Benilde, Email: jasperkyle.catapang@benilde.edu.ph

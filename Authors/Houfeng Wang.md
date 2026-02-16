@@ -24,6 +24,7 @@ Houfeng Wang is a Professor at the Institute of Computational Linguistics, Pekin
 
 
 
+
 - [[2024-Luo-HalluDial|HalluDial]]
 
 ## Notes
@@ -32,6 +33,8 @@ Houfeng Wang is a Professor at the Institute of Computational Linguistics, Pekin
 
 
 
+
+- *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence
 - *From 2024-Luo-HalluDial*: Affiliation: Academy of Artificial Intelligence

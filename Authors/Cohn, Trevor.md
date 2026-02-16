@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian|LoraxBench: A Multitask, Multilingual Benchmark Suite for 20 Indonesian Languages]] (Last Author)
 - [[2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA|SEA-SafeguardBench Evaluating AI Safety in SEA]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian*: Affiliation: University of Melbourne
 - *From 2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian*: Affiliation: University of Melbourne
 - *From 2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian*: Affiliation: University of Melbourne
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

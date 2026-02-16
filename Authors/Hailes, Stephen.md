@@ -1,9 +1,9 @@
 ---
 name: "Hailes, Stephen"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "University, 2Cohere Labs"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "juliakreutzer@cohere.com"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -55,9 +55,11 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM|Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM]]
+- [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents|Hybrid Approaches for Moral Value Alignment in AI Agents]]
+- [[2025-Tennant-Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM|Published as a conference paper at ICLR 2025 MORAL ALIGNMENT FOR LLM AGENTS]]
+- [[2025-Yong-The State of Multilingual LLM Safety Research From Measuring the|The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It]]
+- [[2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations|Dynamics of Moral Behavior in Heterogeneous Populations]]
 
 ## External Links & Profiles
 
@@ -83,6 +85,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-Yong-The State of Multilingual LLM Safety Research From Measuring the*: Affiliation: University, 2Cohere Labs, Email: juliakreutzer@cohere.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

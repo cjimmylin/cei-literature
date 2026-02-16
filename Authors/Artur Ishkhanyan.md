@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ishkhanyan-Ethical considerations in AI-powered language technologies insights|Ethical considerations in AI-powered language technologies: insights from East and West Armenian]] (First Author)
 
 ## External Links & Profiles

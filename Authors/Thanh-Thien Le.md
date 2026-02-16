@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Luong-Realistic Evaluation of Toxicity in Large|Realistic Evaluation of Toxicity in Large]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: tinh.ls@orai.io
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: linhnv@soict.hust.edu.vn
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: thien@cs.oregon.edu
 - *From 2024-Luong-Realistic Evaluation of Toxicity in Large*: Affiliation: University of Science and Technology, Email: thien@cs.oregon.edu

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset|NormGenesis: Multicultural Dialogue Generation Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset*: Affiliation: Department of Computer Science and Artificial Intelligence, Dongguk University, Email: jihie.kim@dgu.edu
 - *From 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset*: Affiliation: Department of Computer Science and Artificial Intelligence, Dongguk University, Email: jihie.kim@dgu.edu
 - *From 2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset*: Affiliation: Department of Computer Science and Artificial Intelligence, Dongguk University, Email: jihie.kim@dgu.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

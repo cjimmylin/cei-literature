@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned|Cross-Lingual Stability and Bias in Instruction-Tuned]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned*: Affiliation: University of North Texas, Denton, TX, USA, Email: poli.nemkova@unt.edu
 - *From 2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned*: Affiliation: University of North Texas, Denton, TX, USA, Email: poli.nemkova@unt.edu
 - *From 2025-Nemkova-Cross-Lingual Stability and Bias in Instruction-Tuned*: Affiliation: University of North Texas, Denton, TX, USA, Email: mark.albert@unt.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

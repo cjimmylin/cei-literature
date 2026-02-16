@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-team-SeaExam and SeaBench Benchmarking LLMs with|SeaExam and SeaBench Benchmarking LLMs with]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-team-SeaExam and SeaBench Benchmarking LLMs with*: Affiliation: University, Singapore; 2DAMO Academy, Alibaba Group, Singapore
 - *From 2025-team-SeaExam and SeaBench Benchmarking LLMs with*: Affiliation: University, Singapore; 2DAMO Academy, Alibaba Group, Singapore
 - *From 2025-team-SeaExam and SeaBench Benchmarking LLMs with*: Affiliation: University, Singapore; 2DAMO Academy, Alibaba Group, Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

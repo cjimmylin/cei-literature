@@ -25,6 +25,7 @@ Martin Hähnel is a Lecturer (Privatdozent) at the University of Bremen with a d
 
 
 
+
 - [[2025-Hähnel-A Companion to Applied Philosophy of AI|A Companion to Applied Philosophy of AI]] (First Author)
 
 ## Notes

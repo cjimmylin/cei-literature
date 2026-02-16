@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Silano-Towards Abundant Intelligences Considerations for Indigenous|Towards Abundant Intelligences: Considerations for Indigenous Perspectives in Adopting Artificial Intelligence Technology]] (First Author)
 
 ## External Links & Profiles

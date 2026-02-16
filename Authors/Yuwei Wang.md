@@ -24,6 +24,7 @@ Yuwei Wang is a researcher at the Institute of Automation, Chinese Academy of Sc
 
 
 
+
 - [[2025-Wu-CVC|CVC]]
 - [[2023-Wang-STREAM|STREAM]] (First Author)
 
@@ -33,6 +34,8 @@ Yuwei Wang is a researcher at the Institute of Automation, Chinese Academy of Sc
 
 
 
+
+- *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: yi.zeng@ia.ac.cn
 - *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: yi.zeng@ia.ac.cn
 - *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn
 - *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn

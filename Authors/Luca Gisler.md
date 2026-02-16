@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Hatemo-Revisiting the Trolley Problem for AI|Revisiting the Trolley Problem for AI]]
 
 ## Notes
@@ -28,6 +29,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: christof.weickhardt@students.fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: luca.gisler@students.fhnw.ch
 - *From 2025-Hatemo-Revisiting the Trolley Problem for AI*: Affiliation: School of Computer Science, Email: oliver.bendel@fhnw.ch

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and|The Veln(ia)s is in the Details: Evaluating LLM Judgment on Latvian and Lithuanian Short Answer Matching]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 - *From 2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and*: Affiliation: University of Dundee, Email: ykostiuk001@dundee.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

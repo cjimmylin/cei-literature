@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-In-U-SafeBench|U-SafeBench]]
 - [[2024-Gallegos-Bias and Fairness in Large Language Models A Survey|Bias and Fairness in Large Language Models: A Survey]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Gallegos-Bias and Fairness in Large Language Models A Survey*: Affiliation: lable datasets, Email: iogalle@stanford.edu
 - *From 2024-Gallegos-Bias and Fairness in Large Language Models A Survey*: Affiliation: lable datasets, Email: ryrossi@adobe.com
 - *From 2024-Gallegos-Bias and Fairness in Large Language Models A Survey*: Affiliation: lable datasets, Email: iogalle@stanford.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

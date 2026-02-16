@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Zhang-REVAL|REVAL]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Zhang-REVAL*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing, Email: xiangkui.cao@vipl.ict.ac.cn
 - *From 2025-Zhang-REVAL*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing, Email: bei.yan@vipl.ict.ac.cn
 - *From 2025-Zhang-REVAL*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing, Email: bei.yan@vipl.ict.ac.cn
 - *From 2025-Zhang-REVAL*: Affiliation: Laboratory of AI Safety of CAS, Institute of Computing, Email: sibo.wang@vipl.ict.ac.cn

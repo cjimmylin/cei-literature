@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset|Quran-MD A Fine-Grained Multilingual Multimodal Dataset]] (Last Author)
 - [[2025-Hussain-From RAG to Agentic Validating Islamic-Medicine|From RAG to Agentic Validating Islamic-Medicine]]
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
 - *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
 - *From 2025-Hussain-From RAG to Agentic Validating Islamic-Medicine*: Affiliation: University of Artifi-, Email: mohammed.alam@mbzuai.ac.ae
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -1,7 +1,7 @@
 ---
 name: "Obrador, Ian Borrego"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Centre (UNICC), Valencia, 46930, Spain"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-- [[2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages|IberBench: LLM Evaluation on Iberian Languages]]]]
 
 - [[2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages|IberBench: LLM Evaluation on Iberian Languages]]
 
@@ -83,6 +82,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages*: Affiliation: Centre (UNICC), Valencia, 46930, Spain
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

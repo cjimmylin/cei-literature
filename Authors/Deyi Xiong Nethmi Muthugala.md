@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist|BuddhismEval A Bilingual Benchmark for Buddhist]] (First Author)
 - [[2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist|BuddhismEval Bilingual Evaluation Benchmark for Buddhist]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist*: Affiliation: school; aptitude
 - *From 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist*: Affiliation: school; aptitude
 - *From 2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist*: Affiliation: school; aptitude
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on|Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on*: Affiliation: University of California, Berkeley, Email: yujinyujin9393@gmail.com
 - *From 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on*: Affiliation: University of California, Berkeley, Email: yujinyujin9393@gmail.com
 - *From 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on*: Affiliation: University of California, Berkeley, Email: yujinyujin9393@gmail.com
 - *From 2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on*: Affiliation: University of California, Berkeley, Email: yujinyujin9393@gmail.com

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Galea-From Measurement to Mitigation Exploring the Transferability of|From Measurement to Mitigation: Exploring the Transferability of Debiasing Approaches to Gender Bias in Maltese Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Galea-From Measurement to Mitigation Exploring the Transferability of*: Affiliation: Department of Artificial Intelligence, University of Malta, Email: melanie.galea.20@um.edu.mt
 - *From 2025-Galea-From Measurement to Mitigation Exploring the Transferability of*: Affiliation: Department of Artificial Intelligence, University of Malta, Email: melanie.galea.20@um.edu.mt
 - *From 2025-Galea-From Measurement to Mitigation Exploring the Transferability of*: Affiliation: Department of Artificial Intelligence, University of Malta, Email: claudia.borg@um.edu.mt
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

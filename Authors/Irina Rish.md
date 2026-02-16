@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Roger-Towards ethical multimodal systems|Towards ethical multimodal systems]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 - *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 - *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca
 - *From 2023-Roger-Towards ethical multimodal systems*: Affiliation: Department of Computer Science and Operations Research, Email: alexis.roger@umontreal.ca

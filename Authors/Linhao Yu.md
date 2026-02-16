@@ -22,6 +22,7 @@ Linhao Yu is a researcher working on large language model safety and moral evalu
 
 
 
+
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]] (First Author)
 - [[2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and|OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety]]
 - [[2024-Shi-Large Language Model Safety|Large Language Model Safety]]
@@ -34,6 +35,8 @@ Linhao Yu is a researcher working on large language model safety and moral evalu
 
 
 
+
+- *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: lisun@caict.ac.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: lisun@caict.ac.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn
 - *From 2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: iehyzan@zzu.edu.cn

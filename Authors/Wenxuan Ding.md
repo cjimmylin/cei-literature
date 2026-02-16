@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: shangbin@cs.washington.edu
 - *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: shangbin@cs.washington.edu
 - *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: wd2403@nyu.edu
 - *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: wd2403@nyu.edu

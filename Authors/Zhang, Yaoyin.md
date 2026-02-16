@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Li-XIFBench Evaluating Large Language Models on|XIFBench: Evaluating Large Language Models on]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Li-XIFBench Evaluating Large Language Models on*: Affiliation: Institute of Technology, Shenzhen, Email: qp241311@qmul.ac.uk
 - *From 2025-Li-XIFBench Evaluating Large Language Models on*: Affiliation: Institute of Technology, Shenzhen, Email: qp241311@qmul.ac.uk
 - *From 2025-Li-XIFBench Evaluating Large Language Models on*: Affiliation: Institute of Technology, Shenzhen, Email: qp241311@qmul.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

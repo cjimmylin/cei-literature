@@ -33,6 +33,7 @@ Dr. Cigdem Turan (also known as Cigdem Turan-Schwiewager) is a researcher from t
 
 
 
+
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]]
 
 ## External Links & Profiles
@@ -43,6 +44,8 @@ Dr. Cigdem Turan (also known as Cigdem Turan-Schwiewager) is a researcher from t
 
 
 
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: cigdem.turan@cs.tu

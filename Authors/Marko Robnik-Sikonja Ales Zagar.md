@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation|Slovene SuperGLUE Benchmark: Translation and Evaluation]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation*: Affiliation: University of Ljubljana, Faculty of Computer and Information Science, Veˇcna pot 113, 1000 Ljubljana, Email: marko.robnik@fri.uni
 - *From 2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation*: Affiliation: University of Ljubljana, Faculty of Computer and Information Science, Veˇcna pot 113, 1000 Ljubljana, Email: marko.robnik@fri.uni
 - *From 2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation*: Affiliation: University of Ljubljana, Faculty of Computer and Information Science, Veˇcna pot 113, 1000 Ljubljana, Email: marko.robnik@fri.uni
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

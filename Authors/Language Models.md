@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ...|Cross-Lingual Fact Verification: Analyzing LLM Performance ...]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ...*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: hash00004@stud.uni
 - *From 2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ...*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: hash00004@stud.uni
 - *From 2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ...*: Affiliation: Research Center for Artificial Intelligence (DFKI), Email: hash00004@stud.uni
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

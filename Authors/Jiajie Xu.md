@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ju-NaVAB|NaVAB]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk
 - *From 2025-Ju-NaVAB*: Affiliation: University of Science and Technology, Email: cjuaa@connect.ust.hk

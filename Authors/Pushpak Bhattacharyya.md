@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for|BharatBBQ A Multilingual Bias Benchmark for]] (Last Author)
 - [[2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context|IndiBias -- Benchmark Dataset for Social Biases in Indian Context]] (Last Author)
 - [[2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian|IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context]] (Last Author)
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context*: Affiliation: lable in En-, Email: pranamyakulkarni@gmail.com
 - *From 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context*: Affiliation: lable in En-, Email: pranamyakulkarni@gmail.com
 - *From 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context*: Affiliation: lable in En-, Email: tanugoyal@google.com
 - *From 2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context*: Affiliation: lable in En-, Email: tanugoyal@google.com

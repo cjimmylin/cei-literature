@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2026-Alam-From RAG to Agentic RAG for|From RAG to Agentic RAG for]] (Last Author)
 - [[2025-Ofli-Multimodal Social Media Data Analysis in|Multimodal Social Media Data Analysis in]]
 - [[2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs|NativQA: Multilingual Culturally-Aligned Natural Query for LLMs]] (Last Author)
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca
 - *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca
 - *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca
 - *From 2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs*: Affiliation: University of New Brunswick, Canada, Email: arid.hasan@unb.ca

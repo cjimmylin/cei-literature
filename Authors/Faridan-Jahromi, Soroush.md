@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset|FarsTail: A Persian Natural Language Inference Dataset]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset*: Affiliation: Department, University of Qom, Iran, Email: amirkhani@qom.ac.ir
 - *From 2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset*: Affiliation: Department, University of Qom, Iran, Email: amirkhani@qom.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

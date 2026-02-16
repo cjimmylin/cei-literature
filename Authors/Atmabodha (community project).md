@@ -1,9 +1,9 @@
 ---
 name: "Atmabodha (community project)"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "Institute of the Novartis Research Foundation, 10675 John Jay Hopkins Drive, San Diego, CA 92121, USA"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "schanda@sbpdiscovery.org"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[0000-project-Vedanta Datasets|Vedanta Datasets]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 0000-project-Vedanta Datasets*: Affiliation: Institute of the Novartis Research Foundation, 10675 John Jay Hopkins Drive, San Diego, CA 92121, USA, Email: schanda@sbpdiscovery.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

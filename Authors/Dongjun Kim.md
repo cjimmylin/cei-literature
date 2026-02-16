@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A|Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 - *From 2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A*: Affiliation: University, 2 Upstage AI, Email: chanjun.park@upstage.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

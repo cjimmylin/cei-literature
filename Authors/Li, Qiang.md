@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial|Chinese dialect speech recognition: a comprehensive survey | Artificial Intelligence Review]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial*: Affiliation: School of Computer Science and Engineering, North Minzu University, Yinchuan 750021, China, Email: mamingjuan2009@163.com
 - *From 2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial*: Affiliation: School of Computer Science and Engineering, North Minzu University, Yinchuan 750021, China, Email: nmu.csq@gmail.com
 - *From 2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial*: Affiliation: School of Computer Science and Engineering, North Minzu University, Yinchuan 750021, China, Email: nmu.csq@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -|GAHD: Improving Adversarial Data Collection by Supporting Annotators - Lessons from a German Hate Speech Dataset]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -*: Affiliation: University of Zurich, Zurich, Switzerland
 - *From 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -*: Affiliation: University of Zurich, Zurich, Switzerland
 - *From 2024-Goldzycher-GAHD Improving Adversarial Data Collection by Supporting Annotators -*: Affiliation: University of Zurich, Zurich, Switzerland
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

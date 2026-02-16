@@ -57,7 +57,9 @@ twitter: ""
 
 
 
+
 - [[2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in|CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics]] (First Author)
+- [[2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding|CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding]] (First Author)
 
 ## External Links & Profiles
 
@@ -85,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 - *From 2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in*: Affiliation: Institute, 2Université de Montréal, 3McGill University, Email: shravan.nayak@mila.quebec
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

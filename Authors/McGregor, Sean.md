@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks|BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks*: Affiliation: Research Institute
 - *From 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks*: Affiliation: Research Institute
 - *From 2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks*: Affiliation: Research Institute
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

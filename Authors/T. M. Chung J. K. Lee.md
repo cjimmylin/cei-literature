@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT|Detecting Bias in Large Language Models: Fine-tuned KcBERT]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT*: Affiliation: College of Science, Sungkyunkwan University, Suwon, Republic of Korea, Email: dlwnsrn0727@g.skku.edu
 - *From 2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT*: Affiliation: College of Science, Sungkyunkwan University, Suwon, Republic of Korea, Email: tmchung@skku.edu
 - *From 2024-J. K. Lee-Detecting Bias in Large Language Models Fine-tuned KcBERT*: Affiliation: College of Science, Sungkyunkwan University, Suwon, Republic of Korea, Email: dlwnsrn0727@g.skku.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

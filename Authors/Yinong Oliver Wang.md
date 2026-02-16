@@ -23,6 +23,7 @@ Yinong Oliver Wang is a PhD student at the Robotics Institute, Carnegie Mellon U
 
 
 
+
 - [[2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware|Is Your Model Fairly Certain? Uncertainty-Aware]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Yinong Oliver Wang is a PhD student at the Robotics Institute, Carnegie Mellon U
 
 
 
+
+- *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu
 - *From 2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware*: Affiliation: University, Pittsburgh, PA, US, Email: yinongwa@cs.cmu.edu

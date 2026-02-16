@@ -24,6 +24,7 @@ Bowen Gu is a researcher working on medical AI applications, particularly focusi
 
 
 
+
 - [[2024-Gu-Probabilistic medical predictions of large|Probabilistic medical predictions of large]] (First Author)
 
 ## Notes
@@ -32,6 +33,8 @@ Bowen Gu is a researcher working on medical AI applications, particularly focusi
 
 
 
+
+- *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
 - *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
 - *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu
 - *From 2024-Gu-Probabilistic medical predictions of large*: Affiliation: Department of, Email: jyang66@bwh.harvard.edu

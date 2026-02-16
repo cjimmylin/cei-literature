@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2021-Clark-All That's 'Human' Is Not Gold|All That's 'Human' Is Not Gold]] (Last Author)
 - [[2020-Gehman-RealToxicityPrompts|RealToxicityPrompts]] (Last Author)
 - [[2020-Sap-Social Bias Frames|Social Bias Frames]]
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA
 - *From 2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT*: Affiliation: School of Computer Science & Engineering, University of Washington, Seattle, USA

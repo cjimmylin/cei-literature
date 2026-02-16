@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks|The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks]] (Last Author)
 - [[2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark|Chinese SafetyQA -- A Safety Short-form Factuality Benchmark]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark*: Affiliation: Lab, Alibaba Group, Hangzhou, Email: tanyingshui.tys@taobao.com
 - *From 2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark*: Affiliation: Lab, Alibaba Group, Hangzhou, Email: tanyingshui.tys@taobao.com
 - *From 2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark*: Affiliation: Lab, Alibaba Group, Hangzhou, Email: tanyingshui.tys@taobao.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

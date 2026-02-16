@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable|SQuARe: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 - *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 - *From 2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable*: Affiliation: University of Richmond, Email: seokhee.hong@vision.snu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

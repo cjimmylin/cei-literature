@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on|PeLLE: Encoder-based Language Models for Brazilian Portuguese Based on Open Data]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on*: Affiliation: University of São Paulo
 - *From 2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on*: Affiliation: University of São Paulo
 - *From 2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on*: Affiliation: University of São Paulo
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

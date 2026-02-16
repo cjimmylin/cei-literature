@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Bang-BLEnD A Benchmark for LLMs on|BLEnD A Benchmark for LLMs on]]
 - [[2024-Yoo-HyperCLOVA X Technical Report|HyperCLOVA X Technical Report]]
 - [[2023-Bang-Towards Answering Open-ended Ethical Quandary|Towards Answering Open-ended Ethical Quandary]]
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University
 - *From 2024-Bang-BLEnD A Benchmark for LLMs on*: Affiliation: University, 3Universität Hamburg, 4Bahir Dar University

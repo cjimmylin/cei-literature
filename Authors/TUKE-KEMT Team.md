@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment|Annotated Slovak Datasets for Toxicity, Hate Speech, and Sentiment Analysis]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment*: Affiliation: Department of Electronics and Multimedia Communications, Faculty of Electrical
 - *From 2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment*: Affiliation: Department of Electronics and Multimedia Communications, Faculty of Electrical
 - *From 2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment*: Affiliation: Department of Electronics and Multimedia Communications, Faculty of Electrical
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

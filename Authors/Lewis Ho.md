@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Weidinger-Holistic Safety and Responsibility Evaluations of|Holistic Safety and Responsibility Evaluations of]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: williamis@google.com
 - *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: williamis@google.com
 - *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: lweidinger@google.com
 - *From 2024-Weidinger-Holistic Safety and Responsibility Evaluations of*: Affiliation: laboration to clarify goals, methods and challenges, and facilitate the transfer of insights, Email: williamis@google.com

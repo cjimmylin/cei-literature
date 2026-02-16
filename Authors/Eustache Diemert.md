@@ -40,6 +40,7 @@ Has contributed to influential work on fairness in job recommendation systems, d
 
 
 
+
 - [[2024-Vladimirova-FairJob|FairJob]] (Last Author)
 
 ## External Links & Profiles
@@ -53,6 +54,8 @@ Has contributed to influential work on fairness in job recommendation systems, d
 
 
 
+
+- *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu
 - *From 2024-Vladimirova-FairJob*: Affiliation: lability of fairness-, Email: federico.pavone@dauphine.psl.eu

@@ -50,6 +50,7 @@ She is a pioneer in clinical NLP in French and English and a strong advocate for
 
 
 
+
 - [[2025-Mitchell-SHADES|SHADES]]
 
 ## External Links & Profiles
@@ -68,6 +69,8 @@ She is a pioneer in clinical NLP in French and English and a strong advocate for
 
 
 
+
+- *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research
 - *From 2025-Mitchell-SHADES*: Affiliation: University of Artificial Intelligence 3Instituto de Telecomunicações 4IBM Research

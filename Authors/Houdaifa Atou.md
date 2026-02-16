@@ -23,6 +23,7 @@ Houdaifa Atou is a researcher focused on Arabic Natural Language Processing and 
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 - [[2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for|NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities]]
 
@@ -32,6 +33,8 @@ Houdaifa Atou is a researcher focused on Arabic Natural Language Processing and 
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

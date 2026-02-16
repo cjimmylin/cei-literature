@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Kim-How Do Moral Emotions Shape Political|How Do Moral Emotions Shape Political]]
 - [[2023-Kim-KOME|KOME]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr
 - *From 2023-Kim-KOME*: Affiliation: schoolchildren on Kome Island, Lake Victoria, Email: cjy@snu.ac.kr

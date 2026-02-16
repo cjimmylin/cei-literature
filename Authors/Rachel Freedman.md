@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Conitzer-Social Choice for AI Alignment|Social Choice for AI Alignment]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: patpirko@my.yorku.ca
 - *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: patpirko@my.yorku.ca
 - *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: marko@yorku.ca
 - *From 2024-Conitzer-Social Choice for AI Alignment*: Affiliation: Department of Physics and Astronomy, Email: marko@yorku.ca

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Zeng-Quantifying Risk Propensities of Large Language|Quantifying Risk Propensities of Large Language]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Zeng-Quantifying Risk Propensities of Large Language*: Affiliation: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China
 - *From 2024-Zeng-Quantifying Risk Propensities of Large Language*: Affiliation: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China
 - *From 2024-Zeng-Quantifying Risk Propensities of Large Language*: Affiliation: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China
 - *From 2024-Zeng-Quantifying Risk Propensities of Large Language*: Affiliation: School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China

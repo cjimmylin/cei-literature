@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2022-Unknown-Hate Speech Detection in Thai Social|Hate Speech Detection in Thai Social]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2022-Unknown-Hate Speech Detection in Thai Social*: Affiliation: Center for International Business & Human Rights at the University of
 - *From 2022-Unknown-Hate Speech Detection in Thai Social*: Affiliation: Center for International Business & Human Rights at the University of
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

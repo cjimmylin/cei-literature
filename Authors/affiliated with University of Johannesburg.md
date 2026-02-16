@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Johannesburg-Sentiment Analysis in African Languages Evaluating|Sentiment Analysis in African Languages Evaluating]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Johannesburg-Sentiment Analysis in African Languages Evaluating*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany, Email: saif.mohammad@nrc-cnrc.gc.ca
 - *From 2025-Johannesburg-Sentiment Analysis in African Languages Evaluating*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany, Email: saif.mohammad@nrc-cnrc.gc.ca
 - *From 2025-Johannesburg-Sentiment Analysis in African Languages Evaluating*: Affiliation: Center for Information and Language Processing, LMU Munich, Germany, Email: saif.mohammad@nrc-cnrc.gc.ca
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

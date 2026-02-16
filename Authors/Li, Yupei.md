@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Sun-Towards Friendly AI|Towards Friendly AI]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Sun-Towards Friendly AI*: Affiliation: Department of, Email: yupei.li22@imperial.ac.uk
 - *From 2024-Sun-Towards Friendly AI*: Affiliation: Department of, Email: e.alturki24@imperial.ac.uk
 - *From 2024-Sun-Towards Friendly AI*: Affiliation: Department of, Email: q.sun23@imperial.ac.uk
 - *From 2024-Sun-Towards Friendly AI*: Affiliation: Department of, Email: yupei.li22@imperial.ac.uk

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark|bgGLUE: A Bulgarian General Language Understanding Evaluation Benchmark]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark*: Affiliation: University of Copenhagen, DIKU
 - *From 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark*: Affiliation: University of Copenhagen, DIKU
 - *From 2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark*: Affiliation: University of Copenhagen, DIKU
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

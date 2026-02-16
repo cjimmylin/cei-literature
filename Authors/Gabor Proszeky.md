@@ -3,7 +3,7 @@ name: "Gabor Proszeky"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
 affiliation: "Centre for Linguistics, 3Wuhan University"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
-email: ""
+email: "ligeti-nagy.noemi@nytud.hun"
 research_interests:
   - "Primary Research Area"
   - "Secondary Research Area"
@@ -57,6 +57,8 @@ twitter: ""
 
 
 
+
+- [[2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model|HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation]] (Last Author)
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 
 ## External Links & Profiles
@@ -85,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model*: Affiliation: Centre for Linguistics, Email: ligeti-nagy.noemi@nytud.hun
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -22,6 +22,7 @@ Computer Science MSc student/researcher at Hebrew University of Jerusalem. Resea
 
 
 
+
 - [[2021-Levy-Collecting a Large-Scale Gender Bias Dataset for|Collecting a Large-Scale Gender Bias Dataset for]] (First Author)
 
 ## Notes
@@ -30,6 +31,8 @@ Computer Science MSc student/researcher at Hebrew University of Jerusalem. Resea
 
 
 
+
+- *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 - *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 - *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 - *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com

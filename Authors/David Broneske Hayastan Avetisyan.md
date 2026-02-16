@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of|Large Language Models and Low-Resource Languages: An Examination of Armenian NLP]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of*: Affiliation: Centre for Higher Education Research and Science Studies (DZHW), Germany, Email: broneske@dzhw.eu
 - *From 2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of*: Affiliation: Centre for Higher Education Research and Science Studies (DZHW), Germany, Email: broneske@dzhw.eu
 - *From 2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of*: Affiliation: Centre for Higher Education Research and Science Studies (DZHW), Germany, Email: avetisyan@dzhw.eu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English|IRLBench: A Multi-modal, Culturally Grounded, Parallel Irish-English Benchmark for Open-Ended LLM Reasoning Evaluation]] (First Author)
 - [[2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese|ViHOS: Hate Speech Spans Detection for Vietnamese]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam
 - *From 2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese*: Affiliation: University of Information Technology, Ho Chi Minh City, Vietnam

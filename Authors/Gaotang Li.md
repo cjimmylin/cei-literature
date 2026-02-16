@@ -36,6 +36,7 @@ He has performed research with Profs. Danai Koutra and Wei Hu at Michigan on rel
 
 
 
+
 - [[2025-Lin-MORALISE|MORALISE]]
 
 ## External Links
@@ -50,6 +51,8 @@ He has performed research with Profs. Danai Koutra and Wei Hu at Michigan on rel
 
 
 
+
+- *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu
 - *From 2025-Lin-MORALISE*: Affiliation: University of Illinois Urbana-Champaign 2Amazon 3Fidelity Investments, Email: xiaol13@illinois.edu

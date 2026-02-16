@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual|ASSIN: Avaliação de Similaridade Semântica e INferência textual]] (First Author)
 
 ## External Links & Profiles

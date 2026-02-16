@@ -49,6 +49,7 @@ Chen authored the paper "Leveraging large language models to assist healthcare,"
 
 
 
+
 - [[2025-Chen-Leveraging large language models to assist|Leveraging large language models to assist]] (First Author)
 
 ## External Links & Profiles
@@ -61,6 +62,8 @@ Chen authored the paper "Leveraging large language models to assist healthcare,"
 
 
 
+
+- *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: xiaojunding@xjtu.edu.cn
 - *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: xiaojunding@xjtu.edu.cn
 - *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: liangzhao@whu.edu.cn
 - *From 2025-Chen-Leveraging large language models to assist*: Affiliation: Department of Psychology, Academy of Advanced Interdisciplinary Studies, Wuhan University, Wuhan, China, Email: liangzhao@whu.edu.cn

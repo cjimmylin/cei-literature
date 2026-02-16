@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic|Toxic Bias: Perspective API Misreads German as More Toxic]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic*: Affiliation: University of Applied Sciences and, Email: gianluca.nogara@supsi.ch
 - *From 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic*: Affiliation: University of Applied Sciences and, Email: gianluca.nogara@supsi.ch
 - *From 2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic*: Affiliation: University of Applied Sciences and, Email: gianluca.nogara@supsi.ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

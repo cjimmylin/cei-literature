@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-McGee-How Ethical Is Utilitarian Ethics|How Ethical Is Utilitarian Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-McGee-How Ethical Is Utilitarian Ethics*: Affiliation: lable at: https://ssrn
 - *From 2024-McGee-How Ethical Is Utilitarian Ethics*: Affiliation: lable at: https://ssrn
 - *From 2024-McGee-How Ethical Is Utilitarian Ethics*: Affiliation: lable at: https://ssrn
 - *From 2024-McGee-How Ethical Is Utilitarian Ethics*: Affiliation: lable at: https://ssrn

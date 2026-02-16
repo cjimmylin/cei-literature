@@ -33,6 +33,7 @@ The AEGIS dataset and models have been released to the research community throug
 
 
 
+
 - [[2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated|Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems]] (Last Author)
 - [[2025-Ghosh-AEGIS 2.0|AEGIS 2.0]] (First Author)
 - [[2025-Group-AILuminate|AILuminate]] (First Author)
@@ -44,6 +45,8 @@ The AEGIS dataset and models have been released to the research community throug
 
 
 
+
+- *From 2025-Ghosh-AEGIS 2.0*:, Email: jibinv@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: makeshn@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: jibinv@nvidia.com
 - *From 2025-Ghosh-AEGIS 2.0*:, Email: trebedea@nvidia.com

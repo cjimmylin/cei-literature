@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Jacovi-The FACTS Grounding Leaderboard|The FACTS Grounding Leaderboard]]
 - [[2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A|Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method]] (Last Author)
@@ -32,6 +33,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: wangrui12@sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn
 - *From 2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A*:, Email: yangyang@cs.sjtu.edu.cn

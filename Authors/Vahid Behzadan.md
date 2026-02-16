@@ -23,6 +23,7 @@ Dr. Vahid Behzadan is an Assistant Professor of Computer Science at the Universi
 
 
 
+
 - [[2018-Behzadan-TrolleyMod v1.0|TrolleyMod v1.0]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Dr. Vahid Behzadan is an Assistant Professor of Computer Science at the Universi
 
 
 
+
+- *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 - *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 - *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 - *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA

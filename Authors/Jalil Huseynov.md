@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using|Uncovering Cross-Linguistic Disparities in LLMs using]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using*: Affiliation: University of Singapore
 - *From 2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using*: Affiliation: University of Singapore
 - *From 2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using*: Affiliation: University of Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

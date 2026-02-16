@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated|AncientBench Towards Comprehensive Evaluation on Excavated]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 - *From 2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated*: Affiliation: College of Computer Science and Technology, Jilin University, Email: d.shi@qmul.ac.uk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

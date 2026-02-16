@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Rostam-Bochun Automatically Annotated Stance Detection Dataset for Sorani|Bochun: Automatically Annotated Stance Detection Dataset for Sorani Kurdish Language]] (Last Author)
 
 ## External Links & Profiles

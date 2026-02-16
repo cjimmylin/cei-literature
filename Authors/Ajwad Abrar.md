@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ajwad Abrar-Religious Bias Landscape in Language and|Religious Bias Landscape in Language and]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ajwad Abrar-Religious Bias Landscape in Language and*: Affiliation: University of Technology, Board Bazar, Gazipur, 1704, Dhaka, Bangladesh, Email: ajwadabrar@iut-dhaka.edu
 - *From 2025-Ajwad Abrar-Religious Bias Landscape in Language and*: Affiliation: University of Technology, Board Bazar, Gazipur, 1704, Dhaka, Bangladesh, Email: ajwadabrar@iut-dhaka.edu
 - *From 2025-Ajwad Abrar-Religious Bias Landscape in Language and*: Affiliation: University of Technology, Board Bazar, Gazipur, 1704, Dhaka, Bangladesh, Email: ajwadabrar@iut-dhaka.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

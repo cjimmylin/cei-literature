@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Liu-Evaluating Moral Beliefs across LLMs through a|Evaluating Moral Beliefs across LLMs through a]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: zhu_shucheng@126.com
 - *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: yudong_blcu@126.com
 - *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: yudong_blcu@126.com
 - *From 2024-Liu-Evaluating Moral Beliefs across LLMs through a*: Affiliation: School of Information Science, Beijing Language and Culture University, Beijing, China, Email: liupengyuan@pku.edu.cn

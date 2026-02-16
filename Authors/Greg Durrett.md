@@ -41,6 +41,7 @@ He has created an NLP module as part of IFML at UT Austin, consisting of videos 
 
 
 
+
 - [[2025-Jiang-SPARTA ALIGNMENT|SPARTA ALIGNMENT]]
 
 ## Links
@@ -55,6 +56,8 @@ He has created an NLP module as part of IFML at UT Austin, consisting of videos 
 
 
 
+
+- *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: shangbin@cs.washington.edu
 - *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: shangbin@cs.washington.edu
 - *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: wd2403@nyu.edu
 - *From 2025-Jiang-SPARTA ALIGNMENT*: Affiliation: University of Washington, Email: wd2403@nyu.edu

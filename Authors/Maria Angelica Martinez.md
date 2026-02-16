@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Jotautaite-From Stability to Inconsistency|From Stability to Inconsistency]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to
 - *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to
 - *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to
 - *From 2025-Jotautaite-From Stability to Inconsistency*: Affiliation: lability relative to

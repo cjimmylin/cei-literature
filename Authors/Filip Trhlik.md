@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Bravansky-Rethinking AI Cultural Alignment|Rethinking AI Cultural Alignment]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 - *From 2025-Bravansky-Rethinking AI Cultural Alignment*: Affiliation: University College London 2University of Cambridge 3University of Oxford
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

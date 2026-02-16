@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Salazar-Kaleidoscope|Kaleidoscope]]
 - [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 - [[2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge|MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models]]
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: angelika.romanou@epfl.ch
 - *From 2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional*:, Email: antoine.bosselut@epfl.ch

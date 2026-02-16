@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2018-Behzadan-TrolleyMod v1.0|TrolleyMod v1.0]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 - *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 - *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA
 - *From 2018-Behzadan-TrolleyMod v1.0*: Affiliation: University, Manhattan, KS 66506, USA

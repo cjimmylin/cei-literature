@@ -38,6 +38,7 @@ Charith Peris is a Senior Applied Scientist at Amazon AGI (formerly AWS AI), whe
 
 
 
+
 - [[2023-Li-On the steerability of large language models|On the steerability of large language models]]
 
 ## External Links & Profiles
@@ -51,6 +52,8 @@ Charith Peris is a Senior Applied Scientist at Amazon AGI (formerly AWS AI), whe
 
 
 
+
+- *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 - *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 - *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com
 - *From 2023-Li-On the steerability of large language models*: Affiliation: University of Maryland, College Park, Email: junyili.ai@gmail.com

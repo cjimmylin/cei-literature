@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Liu-Diagnosing Moral Reasoning Acquisition in|Diagnosing Moral Reasoning Acquisition in]] (Last Author)
 - [[2025-Liu-On the Convergence of Moral Self-Correction in LLMs|On the Convergence of Moral Self-Correction in LLMs]] (Last Author)
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: zhiyuxue@ucsb.com
 - *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: maoht@amazon.com
 - *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: maoht@amazon.com
 - *From 2025-Liu-On the Convergence of Moral Self-Correction in LLMs*: Affiliation: University of California, Santa Barbara, Email: maoht@amazon.com

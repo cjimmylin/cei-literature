@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Kang-Are the Values of LLMs Structurally Aligned with|Are the Values of LLMs Structurally Aligned with]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI
 - *From 2024-Kang-Are the Values of LLMs Structurally Aligned with*: Affiliation: Laboratory of General Artificial Intellligence, BIGAI

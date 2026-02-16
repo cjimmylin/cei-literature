@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language|Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: keeun04@uos.ac.kr
 - *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: rmarud202@uos.ac.kr
 - *From 2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language*: Affiliation: University of Seoul, Email: wonseok.hwang@uos.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

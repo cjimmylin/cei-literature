@@ -129,7 +129,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **Dataset:** Not specified (template list of prompts/responses applied to actions)
 - **LLMs tested:** Universal Sentence Encoder on various corpora (Bible, constitutions, news, books from 1510-2008)
 - **Key finding:** Creates a method and evaluation framework for extracting and quantifying moral choices from text embeddings, comparing across cultures and time per....
-- **Readiness:** ★★☆ MEDIUM
+- **Readiness:** ★★★ HIGH
 - **Vault:** [[2020-Schramowski-The Moral Choice Machine]]
 
 ### B2. Moral Stories (Denis Emelin, 2025)
@@ -349,7 +349,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **What it measures:** Pluralistic human values, rights, and duties in context; ability to model value conflicts and pluralism
 - **Dataset:** 218,000 values, rights, and duties linked to 31,000 situations
 - **LLMs tested:** GPT-4, Kaleido, evaluated with diverse human annotators
-- **Readiness:** ★★★ HIGH
+- **Readiness:** ★★☆ MEDIUM
 - **Vault:** [[2024-Sorensen-Value Kaleidoscope]]
 
 ### B24. SafetyBench (Zhexin Zhang, 2025)
@@ -634,7 +634,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **Dataset:** 70,000 participants across 42 countries, 10 languages
 - **LLMs tested:** No AI models directly; dataset provides ground truth for value-aligned AI development
 - **Key finding:** Produces a large-scale public dataset of cross-cultural moral preferences on sacrificial dilemmas, demonstrating both universal patterns and signif....
-- **Readiness:** ★★☆ MEDIUM
+- **Readiness:** ★★★ HIGH
 - **Vault:** [[2020-Awad-Universals and variations in moral decisions made]]
 
 ### C4. Islamic Fatwa Dataset (Amr A. Munshi, 2025)
@@ -663,7 +663,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **What it measures:** Detection of fabricated (Mawdu) Hadith using textual content (Matn) analysis rather than narrator chain (Sanad) analysis.
 - **LLMs tested:** BERT, GPT-3, RoBERTa, XLNet
 - **Key finding:** Creates MAHADDAT, the first dataset dedicated to fabricated Hadith detection, a foundational resource for Islamic text verification using NLP..
-- **Readiness:** ★★☆ MEDIUM
+- **Readiness:** ★★★ HIGH
 - **Vault:** [[2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based]]
 
 ### C7. Quran-Hadith Relatedness Dataset (Shatha Altammami, Eric Atwell, 2025)
@@ -714,7 +714,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **Dataset:** 4,209 Chinese story-moral pairs (STORAL-ZH), plus Confucian moral culture dataset
 - **LLMs tested:** BERT-base, RoBERTa-base, T5-base (Chinese variants)
 - **Key finding:** Uses and evaluates models on STORAL-ZH, a Chinese moral stories dataset.
-- **Readiness:** ★★★ HIGH
+- **Readiness:** ★★☆ MEDIUM
 - **Vault:** [[2023-Qian-Understanding Chinese Moral Stories with Further]]
 
 ### C12. QASiNa (Muhammad Razif Rizqullah, 2025)
@@ -1731,7 +1731,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **Dataset:** 16,123 Reddit comments from the Moral Foundation Reddit Corpus (MFRC)
 - **LLMs tested:** GPT-4, GPT-3.5, Llama-70B, Mixtral-8x7B, Mistral-7B, Llama-7B, plus NLI-based baseline
 - **Key finding:** Comprehensive evaluation of six LLMs on moral value classification using MFT, introducing an evaluation framework for human-model comparison in mor....
-- **Readiness:** ★★☆ MEDIUM
+- **Readiness:** ★★★ HIGH
 - **Vault:** [[2025-Bulla-Large Language Models meet moral values]]
 
 ### D18. Unnamed (Value-Grounded Moral Reasoning Evaluation Framework) (Mohna Chakraborty, 2025)
@@ -1995,7 +1995,7 @@ This report catalogues **195 benchmarks and resources** for evaluating ethical v
 - **Dataset:** Survey of 69 papers
 - **LLMs tested:** N/A (meta-analysis)
 - **Key finding:** While a survey, it develops a substantive taxonomy for categorizing LLM moral competence evaluations and proposes novel evaluation dimensions (mora....
-- **Readiness:** ★★☆ MEDIUM
+- **Readiness:** ★★★ HIGH
 - **Vault:** [[2025-Snoswell-Beyond Verdicts LLM Moral Competence]]
 
 ### F3. SafetyPrompts.com (Vidgen et al., 2024)

@@ -33,6 +33,7 @@ His work on Thai dialect benchmarking evaluates LLM performance on Northern (Lan
 
 
 
+
 - [[2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn|SEADialogues A Multilingual Culturally Grounded Multi-turn]]
 - [[2025-Kaewkasi-A Benchmark for Large Language Models on Northern|A Benchmark for Large Language Models on Northern]] (First Author)
 - [[2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA|SEA-SafeguardBench Evaluating AI Safety in SEA]] (Last Author)
@@ -45,6 +46,8 @@ His work on Thai dialect benchmarking evaluates LLM performance on Northern (Lan
 
 
 
+
+- *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub*: Affiliation: Institute for Artificial Intelligence 5RevComm, Inc
 - *From 2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA*: Affiliation: Laban et al, Email: peerat@aisingapore.org

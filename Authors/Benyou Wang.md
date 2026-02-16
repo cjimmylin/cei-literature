@@ -52,6 +52,7 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 
 
 
+
 - [[2024-Chen-GMAI-MMBench|GMAI-MMBench]]
 
 ## External Links & Profiles
@@ -66,6 +67,8 @@ Dr. Wang has won several prestigious awards, including the Gold Medal in the AI 
 
 
 
+
+- *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: jin.ye@monash.edu
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: qiaoyu@pjlab.org.cn
 - *From 2024-Chen-GMAI-MMBench*: Affiliation: University of Washington, Email: hejunjun@pjlab.org.cn

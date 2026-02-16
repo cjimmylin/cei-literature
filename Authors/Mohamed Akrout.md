@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2020-Akrout-Machine Ethics - Creation of a Virtuous Machine|Machine Ethics - Creation of a Virtuous Machine]] (First Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada
 - *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada
 - *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada
 - *From 2020-Akrout-Machine Ethics - Creation of a Virtuous Machine*: Affiliation: Department of Computer Science, University of Toronto, 214 College St, Toronto, ON M5T 3A1, Canada

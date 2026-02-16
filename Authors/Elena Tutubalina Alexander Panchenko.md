@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'|Geopolitical biases in LLMs: what are the 'good' and the 'bad' countries according to contemporary language models]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'*: Affiliation: labels reveal models’ sensitiv-
 - *From 2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'*: Affiliation: labels reveal models’ sensitiv-
 - *From 2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'*: Affiliation: labels reveal models’ sensitiv-
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

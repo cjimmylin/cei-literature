@@ -23,7 +23,9 @@ Researcher at University of Texas at Austin's Urban Information Lab. Lead author
 
 
 
+
 - [[2025-Jiao-LLM Ethics Benchmark|LLM Ethics Benchmark]] (First Author)
+- [[2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for|LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models]] (First Author)
 
 ## Notes
 
@@ -31,6 +33,8 @@ Researcher at University of Texas at Austin's Urban Information Lab. Lead author
 
 
 
+
+- *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: abhejay.murali@utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: adhuran@us.ibm.com
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu
 - *From 2025-Jiao-LLM Ethics Benchmark*: Affiliation: University of Texas at Austin, Email: jjiao@austin.utexas.edu

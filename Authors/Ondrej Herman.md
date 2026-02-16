@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts|Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts*: Affiliation: University, Faculty of Informatics
 - *From 2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts*: Affiliation: University, Faculty of Informatics
 - *From 2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts*: Affiliation: University, Faculty of Informatics
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

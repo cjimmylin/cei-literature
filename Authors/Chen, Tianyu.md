@@ -55,7 +55,6 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Cheng-Large Language Model Generate Prompt 生成式大模型 安全评估白皮书|Large Language Model Generate Prompt 生成式大模型 安全评估白皮书]]
 

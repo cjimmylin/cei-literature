@@ -33,8 +33,10 @@ Daniel Kilov is a researcher working at the intersection of philosophy and artif
 
 
 
+
 - [[2025-Kilov-Discerning What Matters|Discerning What Matters]] (First Author)
 - [[2025-Levine-Resource Rational Contractualism Should Guide AI Alignment|Resource Rational Contractualism Should Guide AI Alignment]]
+- [[2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J.|Beyond Verdicts: Evaluating Language Model Moral Competence Aaron J. Snoswell1,]]
 - [[2025-Snoswell-Beyond Verdicts LLM Moral Competence|Beyond Verdicts LLM Moral Competence]]
 
 ## Links

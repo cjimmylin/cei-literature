@@ -32,6 +32,7 @@ Carolina Camassa is a researcher at the Bank of Italy's Applied IT Research Team
 
 
 
+
 - [[2024-Bignotti-Legal Minds, Algorithmic Decisions|Legal Minds, Algorithmic Decisions]] (Last Author)
 
 ## External Links & Profiles
@@ -43,6 +44,8 @@ Carolina Camassa is a researcher at the Bank of Italy's Applied IT Research Team
 
 
 
+
+- *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: camilla.bignotti@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it
 - *From 2024-Bignotti-Legal Minds, Algorithmic Decisions*:, Email: carolina.camassa@bancaditalia.it

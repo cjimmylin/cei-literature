@@ -41,6 +41,7 @@ Dwivedi is the lead author of EtiCor (Etiquettes Corpus), a comprehensive corpus
 
 
 
+
 - [[2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs|EtiCor++: Towards Understanding Etiquettical Bias in LLMs]] (First Author)
 - [[2023-Dwivedi-EtiCor|EtiCor]] (First Author)
 - [[2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes|EtiCor: Corpus for Analyzing LLMs for Etiquettes]] (First Author)
@@ -51,6 +52,8 @@ Dwivedi is the lead author of EtiCor (Etiquettes Corpus), a comprehensive corpus
 
 
 
+
+- *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in
 - *From 2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes*: Affiliation: Institute of Technology Kanpur (IIT Kanpur), Email: ashutoshm@cse.iitk.ac.in

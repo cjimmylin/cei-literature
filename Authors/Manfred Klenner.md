@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on|Overview of GermEval Task 2, 2019 Shared Task on]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: melanie.siegel@h-da.de
 - *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: klenner@cl.uzh.ch
 - *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: ruppenhofer@ids-mannheim.de
 - *From 2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on*: Affiliation: University of, Email: melanie.siegel@h-da.de

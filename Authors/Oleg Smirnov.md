@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence|The Language You Ask In: Language-Conditioned Ideological Divergence in LLM Analysis of Contested Political Documents]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence*:, Email: oleg.smirnov@microsoft.com
 - *From 2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence*:, Email: oleg.smirnov@microsoft.com
 - *From 2026-Smirnov-The Language You Ask In Language-Conditioned Ideological Divergence*:, Email: oleg.smirnov@microsoft.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

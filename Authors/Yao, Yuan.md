@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation|CUGE: A Chinese Language Understanding and Generation Evaluation Benchmark]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: szf@pku.edu.cn
 - *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: hong@blcu.edu.cn
 - *From 2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation*: Affiliation: Department of Computer Science and Technology, Tsinghua University, Email: xianpei@iscas.ac.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

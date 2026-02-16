@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Yanaka-JBBQ|JBBQ]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken
 - *From 2024-Yanaka-JBBQ*: Affiliation: University of Tokyo 2Riken

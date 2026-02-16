@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Ruiz-Fernández-EsBBQ and CaBBQ|EsBBQ and CaBBQ]]
 - [[2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish|La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish*: Affiliation: University, 10Universidad de Jaén, 11Universidad Nacional de Córdoba, Email: maria.grandury@somosnlp.org
 - *From 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish*: Affiliation: University, 10Universidad de Jaén, 11Universidad Nacional de Córdoba, Email: maria.grandury@somosnlp.org
 - *From 2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish*: Affiliation: University, 10Universidad de Jaén, 11Universidad Nacional de Córdoba, Email: maria.grandury@somosnlp.org
 - *From 2025-Ruiz-Fernández-EsBBQ and CaBBQ*: Affiliation: Center (BSC-CNS), Email: valle.ruizfernandez@bsc.es

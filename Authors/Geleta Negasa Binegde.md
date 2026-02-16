@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Binegde-Exploring cultural commonsense in multilingual large language models|Exploring cultural commonsense in multilingual large language models]]
+- [[2025-Binegde-Exploring cultural commonsense in multilingual large language models|Exploring cultural commonsense in multilingual large language models: A survey - Beijing Institute of Technology]] (First Author)
 
 ## External Links & Profiles
 

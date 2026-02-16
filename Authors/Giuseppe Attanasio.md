@@ -38,6 +38,7 @@ Currently supervised by Prof. Debora Nozza, introducing speech-based annotation 
 
 
 
+
 - [[2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ...|Towards a Multilingual Assessment of Stereotypes in Large ...]]
 - [[2025-Mitchell-SHADES|SHADES]]
 - [[2024-Röttger-XSTest|XSTest]]
@@ -55,6 +56,8 @@ Currently supervised by Prof. Debora Nozza, introducing speech-based annotation 
 
 
 
+
+- *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University

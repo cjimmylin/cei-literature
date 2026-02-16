@@ -35,6 +35,7 @@ Christina Unger is a postdoctoral researcher in the Semantic Computing group at 
 
 
 
+
 - [[2019-Usbeck-Benchmarking question answering systems|Benchmarking question answering systems]] (Last Author)
 
 ## External Links & Profiles
@@ -50,6 +51,8 @@ Christina Unger is a postdoctoral researcher in the Semantic Computing group at 
 
 
 
+
+- *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country
 - *From 2019-Usbeck-Benchmarking question answering systems*: Affiliation: University, Country

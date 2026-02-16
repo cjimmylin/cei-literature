@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a|Sherkala-Chat: Building a State-of-the-Art LLM for Kazakh in a Moderately Resourced Setting]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 - *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 - *From 2025-Koto-Sherkala-Chat Building a State-of-the-Art LLM for Kazakh in a*: Affiliation: University of Artificial Intelligence, UAE
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

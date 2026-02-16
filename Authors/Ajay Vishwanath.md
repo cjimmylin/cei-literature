@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Vishwanath-Machine Ethics or AI Alignment|Machine Ethics or AI Alignment]] (First Author)
 - [[2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML|Towards Artificial Virtuous Agents - Games and ML]] (First Author)
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com
 - *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com
 - *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com
 - *From 2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML*: Affiliation: School of Mathematics, The University of Edinburgh, Edinburgh EH9 3FD, United Kingdom, Email: ichevyrev@gmail.com

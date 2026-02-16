@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Hellwig-The Vedic Compound Dataset|The Vedic Compound Dataset]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Hellwig-The Vedic Compound Dataset*: Affiliation: Institute of Oriental Studies, Adam Mickiewicz University Poznań, Email: oliver.hellwig@uzh.ch
 - *From 2024-Hellwig-The Vedic Compound Dataset*: Affiliation: Institute of Oriental Studies, Adam Mickiewicz University Poznań, Email: sven@amu.edu.pl
 - *From 2024-Hellwig-The Vedic Compound Dataset*: Affiliation: Institute of Oriental Studies, Adam Mickiewicz University Poznań, Email: oliver.hellwig@uzh.ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

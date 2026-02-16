@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Schwarting-The eBible Corpus Data and Model|The eBible Corpus Data and Model]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Schwarting-The eBible Corpus Data and Model*: Affiliation: University of Southern California, Email: michael_martin@sil.org
 - *From 2023-Schwarting-The eBible Corpus Data and Model*: Affiliation: University of Southern California, Email: michael_martin@sil.org
 - *From 2023-Schwarting-The eBible Corpus Data and Model*: Affiliation: University of Southern California, Email: michael_martin@sil.org
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

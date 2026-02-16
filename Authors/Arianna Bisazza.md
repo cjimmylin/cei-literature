@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in|MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
 - *From 2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
 - *From 2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl
 - *From 2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in*: Affiliation: Institute for Logic, Language and Computation, University of Amsterdam, Email: a.bisazza@rug.nl

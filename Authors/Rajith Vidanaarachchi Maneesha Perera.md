@@ -57,7 +57,9 @@ twitter: ""
 
 
 
+
 - [[2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A|Indigenous Peoples and Artificial Intelligence A]] (First Author)
+- [[2025-Perera-Indigenous Peoples and Artificial Intelligence A Systematic Review|Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions]] (First Author)
 
 ## External Links & Profiles
 
@@ -85,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A*: Affiliation: University of Melbourne
 - *From 2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A*: Affiliation: University of Melbourne
 - *From 2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A*: Affiliation: University of Melbourne
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

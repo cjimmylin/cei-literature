@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Coalition-The Gospel Coalition AI Christian Benchmark|The Gospel Coalition AI Christian Benchmark]]
 
 ## External Links & Profiles

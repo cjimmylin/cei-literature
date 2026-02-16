@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional|EmotionBench (Apathetic or Empathetic?): Evaluating LLMs' Emotional Alignments with Humans]] (Last Author)
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn
 - *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn
 - *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn
 - *From 2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional*: Affiliation: Department of Computer Science and Engineering, The Chinese University of Hong Kong, Email: shujieren@tmu.edu.cn

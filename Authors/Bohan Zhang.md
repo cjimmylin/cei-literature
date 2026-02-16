@@ -49,6 +49,7 @@ He co-developed "Grape," a parallel graph computation system that was commercial
 
 
 
+
 - [[2025-Yao-NurValues|NurValues]]
 
 ## External Links & Profiles
@@ -63,6 +64,8 @@ He co-developed "Grape," a parallel graph computation system that was commercial
 
 
 
+
+- *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University
 - *From 2025-Yao-NurValues*: Affiliation: University; 2University of Copenhagen; 3Tianjin University

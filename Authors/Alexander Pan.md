@@ -36,6 +36,7 @@ Alexander's research tackles the problem of "reward hacking" and inner alignment
 
 
 
+
 - [[2024-Anwar-Foundational Challenges in Assuring Alignment and|Foundational Challenges in Assuring Alignment and]]
 - [[2024-Li-The WMDP Benchmark|The WMDP Benchmark]]
 - [[2024-Ren-Safetywashing|Safetywashing]]
@@ -46,6 +47,8 @@ Alexander's research tackles the problem of "reward hacking" and inner alignment
 
 
 
+
+- *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu
 - *From 2023-Jiang-MACHIAVELLI*: Affiliation: center on social decision-making, Email: aypan.17@berkeley.edu

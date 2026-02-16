@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi|Multimodal Evaluation of Russian-language Architectures (MERA Multi)]] (First Author)
 - [[2025-Wu-COIG-P|COIG-P]] (First Author)
 - [[2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video|ViMUL A Culturally-diverse Multilingual Multimodal Video]] (First Author)
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human
 - *From 2025-Wu-COIG-P*: Affiliation: labeling significantly constrains the scalability of human

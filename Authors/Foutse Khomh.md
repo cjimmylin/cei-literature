@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Group-AILuminate|AILuminate]]
 - [[2025-Jamshidi-MoCoP|MoCoP]] (Last Author)
 - [[2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced|MMLU-ProX A Multilingual Benchmark for Advanced]]
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology
 - *From 2024-Group-The AI Safety Benchmark*: Affiliation: Institute of Technology

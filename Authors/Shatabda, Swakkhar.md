@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali|BnMMLU: Measuring Massive Multitask Language Understanding in Bengali]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali*: Affiliation: University of Malaya, Email: saman.sarker.joy@gmail.com
 - *From 2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali*: Affiliation: University of Malaya, Email: swakkhar.shatabda@bracu.ac.bd
 - *From 2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali*: Affiliation: University of Malaya, Email: swakkhar.shatabda@bracu.ac.bd
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

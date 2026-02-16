@@ -23,6 +23,7 @@ Natural Language Processing Researcher at University of Maryland and Co-founder/
 
 
 
+
 - [[2023-Schulhoff-HackAPrompt|HackAPrompt]] (First Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Natural Language Processing Researcher at University of Maryland and Co-founder/
 
 
 
+
+- *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: jerpint@gmail.com
 - *From 2023-Schulhoff-HackAPrompt*: Affiliation: University of Maryland, Email: sschulho@umd.edu

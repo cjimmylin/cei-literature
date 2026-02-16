@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Wu-CVC|CVC]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: yi.zeng@ia.ac.cn
 - *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: yi.zeng@ia.ac.cn
 - *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn
 - *From 2025-Wu-CVC*: Affiliation: Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China, Email: zhaofeifei2014@ia.ac.cn

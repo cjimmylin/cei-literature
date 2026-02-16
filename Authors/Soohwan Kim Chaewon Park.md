@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with|K-HATERS: A Hate Speech Detection Corpus in Korean with Target-Specific Ratings]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with*: Affiliation: School of AI Convergence, Soongsil University, Email: kunwoo.park@ssu.ac.kr
 - *From 2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with*: Affiliation: School of AI Convergence, Soongsil University, Email: kunwoo.park@ssu.ac.kr
 - *From 2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with*: Affiliation: School of AI Convergence, Soongsil University, Email: kunwoo.park@ssu.ac.kr
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in|Benchmarking Open-Source Large Language Models for Persian in Zero-Shot and Few-Shot Learning]] (Last Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in*: Affiliation: Department of Medical Engineering, Email: vahdat@sharif.edu
 - *From 2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in*: Affiliation: Department of Medical Engineering, Email: ms.sarafraz@ut.ac.ir
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

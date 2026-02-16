@@ -33,6 +33,7 @@ Do's work examines how language models can be manipulated through various attack
 
 
 
+
 - [[2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech|ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances]] (First Author)
 - [[2024-Bhardwaj-Language Models are Homer Simpson! Safety|Language Models are Homer Simpson! Safety]]
 

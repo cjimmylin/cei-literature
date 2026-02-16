@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource|Culturally-Nuanced Story Generation for Reasoning in Low-Resource Languages: The Case of Javanese and Sundanese]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource*: Affiliation: Department of Natural Language Processing, MBZUAI
 - *From 2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource*: Affiliation: Department of Natural Language Processing, MBZUAI
 - *From 2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource*: Affiliation: Department of Natural Language Processing, MBZUAI
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

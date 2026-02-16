@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Wong-The Humanistic Buddhism Corpus (HBC)|The Humanistic Buddhism Corpus (HBC)]]
 - [[2020-Hossu-UIC-NLP at SemEval-2020 Task 10|UIC-NLP at SemEval-2020 Task 10]] (Last Author)
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2020-Hossu-UIC-NLP at SemEval-2020 Task 10*: Affiliation: University of Illinois at Chicago, Email: parde@uic.edu
 - *From 2020-Hossu-UIC-NLP at SemEval-2020 Task 10*: Affiliation: University of Illinois at Chicago, Email: parde@uic.edu
 - *From 2020-Hossu-UIC-NLP at SemEval-2020 Task 10*: Affiliation: University of Illinois at Chicago, Email: phossu2@uic.edu
 - *From 2020-Hossu-UIC-NLP at SemEval-2020 Task 10*: Affiliation: University of Illinois at Chicago, Email: parde@uic.edu

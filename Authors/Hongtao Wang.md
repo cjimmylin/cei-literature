@@ -23,6 +23,7 @@ Hongtao Wang is an NLP researcher working on moral reasoning in language models.
 
 
 
+
 - [[2025-Zhou-Moral Reasoning Across Languages|Moral Reasoning Across Languages]] (Last Author)
 
 ## Notes
@@ -31,6 +32,8 @@ Hongtao Wang is an NLP researcher working on moral reasoning in language models.
 
 
 
+
+- *From 2025-Zhou-Moral Reasoning Across Languages*: Affiliation: College London
 - *From 2025-Zhou-Moral Reasoning Across Languages*: Affiliation: College London
 - *From 2025-Zhou-Moral Reasoning Across Languages*: Affiliation: College London
 - *From 2025-Zhou-Moral Reasoning Across Languages*: Affiliation: College London

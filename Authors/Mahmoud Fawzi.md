@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators|Fabricating Holiness Characterizing Religious Misinformation Circulators]] (First Author)
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in|IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content]]
 
@@ -90,6 +91,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators*: Affiliation: School of Informatics, The University of Edinburgh, Edinburgh, UK, Email: m.f.g.ibrahim@sms.ed.ac.uk
 - *From 2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators*: Affiliation: School of Informatics, The University of Edinburgh, Edinburgh, UK, Email: wmagdy@inf.ed.ac.uk
 - *From 2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators*: Affiliation: School of Informatics, The University of Edinburgh, Edinburgh, UK, Email: b.ross@ed.ac.uk
 - *From 2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators*: Affiliation: School of Informatics, The University of Edinburgh, Edinburgh, UK, Email: b.ross@ed.ac.uk

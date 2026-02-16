@@ -47,6 +47,7 @@ He is the first author of the influential paper "Toward global ethical framework
 
 
 
+
 - [[2025-Aditya-Toward global ethical frameworks for AI|Toward global ethical frameworks for AI]] (First Author)
 - [[2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media|A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict]]
 
@@ -60,6 +61,8 @@ He is the first author of the influential paper "Toward global ethical framework
 
 
 
+
+- *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: usman.naseem@sydney.edu.au
 - *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: Imran.razzak@unsw.edu.au
 - *From 2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media*: Affiliation: Department of Computer Science, Virginia Tech, USA, Email: usman.naseem@sydney.edu.au
 - *From 2025-Aditya-Toward global ethical frameworks for AI*: Affiliation: labor market transformations, dual-use security concerns, and strategies for ensuring equitable

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Ni-A Survey on Large Language Model Benchmarks|A Survey on Large Language Model Benchmarks]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Ni-A Survey on Large Language Model Benchmarks*: Affiliation: Laboratory for High Performance Data Mining
 - *From 2025-Ni-A Survey on Large Language Model Benchmarks*: Affiliation: Laboratory for High Performance Data Mining
 - *From 2025-Ni-A Survey on Large Language Model Benchmarks*: Affiliation: Laboratory for High Performance Data Mining
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

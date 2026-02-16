@@ -1,7 +1,7 @@
 ---
 name: "Hooker, Sara"
 title: "Current Position (e.g., Research Scientist, Associate Professor)"
-affiliation: "Organization, Department (if applicable)"
+affiliation: "labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9"
 highest_degree: "Degree, University (Year) or 'Self-taught' if applicable"
 email: ""
 research_interests:
@@ -55,9 +55,10 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
 - [[2025-Aji-Multilingual Multicultural Evaluation Workshop|Multilingual Multicultural Evaluation Workshop]]
+- [[2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs|IrokoBench -- A Benchmark for African Languages in the Age of LLMs]]
+- [[2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional|INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 
 ## Notes
 
+
+- *From 2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs*: Affiliation: labi4, Xuanli He6, Millicent Ochieng7, Sara Hooker8, Andiswa Bukula9
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 
 ---

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Bai-Explicitly unbiased large language models still form biased|Explicitly unbiased large language models still form biased associations | PNAS]] (Last Author)
 - [[2025-Zhu-Steering Risk Preferences in Large Language|Steering Risk Preferences in Large Language]] (Last Author)
 - [[2024-Rane-Concept Alignment|Concept Alignment]] (Last Author)
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: pbruna@ucmerced.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: is2961@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: tomg@princeton.edu

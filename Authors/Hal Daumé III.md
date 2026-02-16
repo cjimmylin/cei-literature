@@ -28,6 +28,7 @@ Key publications include "Language (Technology) is Power: A Critical Survey of '
 
 
 
+
 - [[2023-Fleisig-FairPrism|FairPrism]]
 - [[2021-Cao-Toward Gender-Inclusive Coreference Resolution|Toward Gender-Inclusive Coreference Resolution]] (Last Author)
 
@@ -44,6 +45,8 @@ Key publications include "Language (Technology) is Power: A Critical Survey of '
 
 
 
+
+- *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: efleisig@berkeley.edu
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com
 - *From 2023-Fleisig-FairPrism*:, Email: aubrieamstutz@gmail.com

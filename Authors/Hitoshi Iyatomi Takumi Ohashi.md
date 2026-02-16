@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via|Conceptual Cultural Index: A Metric for Cultural Specificity via Relative Generality]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via*: Affiliation: University, Tokyo, Japan, Email: takumi.ohashi.4g@gmail.com
 - *From 2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via*: Affiliation: University, Tokyo, Japan, Email: takumi.ohashi.4g@gmail.com
 - *From 2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via*: Affiliation: University, Tokyo, Japan, Email: iyatomi@hosei.ac.jp
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

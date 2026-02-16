@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2021-Levy-Collecting a Large-Scale Gender Bias Dataset for|Collecting a Large-Scale Gender Bias Dataset for]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 - *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 - *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com
 - *From 2021-Levy-Collecting a Large-Scale Gender Bias Dataset for*: Affiliation: School of Computer Science and Engineering, Email: shaharl6000@gmail.com

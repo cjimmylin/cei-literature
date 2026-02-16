@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for|NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish]]
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: mtaule@ub.edu
 - *From 2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for*: Affiliation: lable for research purposes, Email: mtaule@ub.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

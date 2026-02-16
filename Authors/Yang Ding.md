@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large|AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models]] (Last Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:

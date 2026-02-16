@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and|taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and*: Affiliation: Faculty for Computer Science and Mathematics, Email: stefanie.urchs@hm.edu
 - *From 2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and*: Affiliation: Faculty for Computer Science and Mathematics, Email: stefanie.urchs@hm.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

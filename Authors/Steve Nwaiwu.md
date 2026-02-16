@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for|LIEA-BERT A Linguistically Enriched Framework for]]
+- [[2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for|LIEA-BERT A Linguistically Enriched Framework for]] (First Author)
 
 ## External Links & Profiles
 

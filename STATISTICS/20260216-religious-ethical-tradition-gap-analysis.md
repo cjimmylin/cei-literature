@@ -1,6 +1,6 @@
 # Religious & Ethical Tradition Gap Analysis
 
-**Generated:** 2026-02-15 | **Total Papers:** 2002 | **Religious-tagged:** 110 | **Benchmarks:** 759
+**Generated:** 2026-02-15 | **Total Papers:** 2034 | **Religious-tagged:** 142 | **Benchmarks:** 814
 
 ---
 
@@ -23,32 +23,30 @@
 
 ## 1. Executive Summary
 
-This report analyzes the coverage of religious and ethical traditions across **2002 papers** in the CEI Literature Vault. Of these, **110** papers (5%) are tagged with at least one religious tradition, while **1892** (94%) remain unclassified (N/A).
+This report analyzes the coverage of religious and ethical traditions across **2034 papers** in the CEI Literature Vault. Of these, **142** papers (6%) are tagged with at least one religious tradition, while **1892** (93%) remain unclassified (N/A).
 
 ### Key Findings
 
 | Metric | Value |
 |--------|-------|
-| Total papers | 2002 |
-| Religious-tagged papers | 110 (5%) |
-| Untagged (N/A) | 1892 (94%) |
-| Benchmark papers (is_benchmark=Yes) | 759 |
-| Ethics papers (ethics=Yes) | 1131 |
-| Traditions with ZERO benchmark coverage | 9 |
+| Total papers | 2034 |
+| Religious-tagged papers | 142 (6%) |
+| Untagged (N/A) | 1892 (93%) |
+| Benchmark papers (is_benchmark=Yes) | 814 |
+| Ethics papers (ethics=Yes) | 1319 |
+| Traditions with ZERO benchmark coverage | 7 |
 | Western-tradition papers | 17 |
-| Non-Western tradition papers | 97 |
+| Non-Western tradition papers | 110 |
 
 ### Critical Gaps (Zero Benchmark Coverage)
 
 - **Sikhism**: 1 papers in vault, **0 benchmarks**
-- **Confucianism**: 6 papers in vault, **0 benchmarks**
+- **Confucianism**: 7 papers in vault, **0 benchmarks**
 - **Taoism**: 0 papers in vault, **0 benchmarks**
-- **Shinto**: 0 papers in vault, **0 benchmarks**
-- **Jainism**: 2 papers in vault, **0 benchmarks**
+- **Shinto**: 9 papers in vault, **0 benchmarks**
 - **Baha'i**: 0 papers in vault, **0 benchmarks**
 - **Zoroastrianism**: 0 papers in vault, **0 benchmarks**
 - **Ubuntu Philosophy**: 8 papers in vault, **0 benchmarks**
-- **Indigenous Spirituality**: 9 papers in vault, **0 benchmarks**
 
 ### Audit Results (Extended Keyword Scan)
 
@@ -98,18 +96,18 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 | Tradition | Papers | Benchmarks | Ethics Papers | Coverage Level |
 |-----------|--------|-----------|---------------|---------------|
-| Islam | 43 | 10 | 12 | STRONG |
-| Buddhism | 18 | 7 | 8 | STRONG |
-| Christianity | 17 | 5 | 4 | STRONG |
-| Hinduism | 13 | 2 | 4 | MODERATE |
-| Indigenous Spirituality | 9 | 0 | 7 | LOW |
-| Ubuntu Philosophy | 8 | 0 | 8 | LOW |
-| Confucianism | 6 | 0 | 2 | LOW |
+| Islam | 43 | 9 | 10 | STRONG |
+| Buddhism | 21 | 4 | 12 | STRONG |
+| Christianity | 17 | 3 | 10 | MODERATE |
+| Hinduism | 13 | 4 | 3 | STRONG |
+| Shinto | 9 | 0 | 6 | LOW |
+| Indigenous Spirituality | 9 | 1 | 6 | MODERATE |
+| Ubuntu Philosophy | 8 | 0 | 7 | LOW |
+| Confucianism | 7 | 0 | 7 | LOW |
 | Judaism | 5 | 1 | 5 | MODERATE |
-| Jainism | 2 | 0 | 1 | **MINIMAL** |
+| Jainism | 2 | 2 | 2 | MODERATE |
 | Sikhism | 1 | 0 | 0 | **MINIMAL** |
 | Taoism | 0 | 0 | 0 | **NONE** |
-| Shinto | 0 | 0 | 0 | **NONE** |
 | Baha'i | 0 | 0 | 0 | **NONE** |
 | Zoroastrianism | 0 | 0 | 0 | **NONE** |
 | Multiple Religions | 0 | 0 | - | - |
@@ -119,17 +117,17 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 ```
   Islam                     | ███████████████████████████████████████████ (43)
-  Buddhism                  | ██████████████████ (18)
+  Buddhism                  | █████████████████████ (21)
   Christianity              | █████████████████ (17)
   Hinduism                  | █████████████ (13)
+  Shinto                    | █████████ (9)
   Indigenous Spirituality   | █████████ (9)
   Ubuntu Philosophy         | ████████ (8)
-  Confucianism              | ██████ (6)
+  Confucianism              | ███████ (7)
   Judaism                   | █████ (5)
   Jainism                   | ██ (2)
   Sikhism                   | █ (1)
   Taoism                    |  (0)
-  Shinto                    |  (0)
   Baha'i                    |  (0)
   Zoroastrianism            |  (0)
 ```
@@ -140,7 +138,7 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 ### Buddhism
 
-**Status:** 18 papers, 7 benchmarks
+**Status:** 21 papers, 4 benchmarks
 
 **Key ethical principles:** Four Noble Truths, Eightfold Path, dependent origination (paticcasamuppada), non-attachment, compassion (karuna), mindfulness (sati)
 
@@ -150,21 +148,21 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 **Closest papers in vault (10):**
 
+- [[2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting]]
+- [[2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community]]
 - [[2022-Pollak-Embeddings Models for Buddhist Sanskrit]]
 - [[2022-Ranjan-Artificial Intelligence for Topic Modelling in]]
+- [[2023-Ikari-Religion-Related Values Differently Influence Moral Attitude for]]
 - [[2023-Keutzer-MITRA-zh An Efficient Open Machine Translation]]
 - [[2024-AI-Religious Bias Benchmarks for ChatGPT]]
 - [[2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and]]
 - [[2024-Mago-Classification of Buddhist Verses The Efficacy]]
 - [[2024-Religions-The Use of Large Language Models]]
-- [[2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including]]
-- [[2024-Wong-The Humanistic Buddhism Corpus (HBC)]]
-- [[2025-Bar-DharmaBench Evaluating Language Models on Buddhist]]
-- *... and 8 more*
+- *... and 11 more*
 
 ### Indigenous Spirituality
 
-**Status:** 9 papers, 0 benchmarks
+**Status:** 9 papers, 1 benchmarks
 
 **Key ethical principles:** Relational accountability, reciprocity with land and ancestors, oral tradition, Elder authority, holistic wellbeing, data sovereignty, two-eyed seeing (Etuaptmumk)
 
@@ -186,7 +184,7 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 ### Hinduism
 
-**Status:** 13 papers, 2 benchmarks
+**Status:** 13 papers, 4 benchmarks
 
 **Key ethical principles:** Dharma (cosmic order/duty), karma (action-consequence), ahimsa (non-violence), moksha (liberation), varna-ashrama (social duty), artha (prosperity), kama (pleasure)
 
@@ -222,7 +220,7 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 ### Shinto
 
-**Status:** 0 papers, 0 benchmarks
+**Status:** 9 papers, 0 benchmarks
 
 **Key ethical principles:** Purity/pollution (hare/kegare), harmony (wa), gratitude to kami spirits, connection to nature, ritual purification (harai), communal obligation
 
@@ -230,11 +228,21 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 **Research opportunities:** Japanese NLP research is strong (JETHICS, JCommonsense). Integration with existing Japanese cultural values benchmarks could capture Shinto-influenced reasoning. The wa (harmony) concept overlaps with conflict resolution evaluation.
 
-**Papers in vault:** None currently tagged
+**Closest papers in vault (9):**
+
+- [[2013-Jensen-Techno-animism in Japan Shinto Cosmograms Actor-Network Theory and]]
+- [[2020-Berberich-Harmonizing Artificial Intelligence for Social Good]]
+- [[2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting]]
+- [[2020-Seymour-Does Siri Have a Soul Exploring Voice Assistants Through Shinto]]
+- [[2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community]]
+- [[2023-Ikari-Religion-Related Values Differently Influence Moral Attitude for]]
+- [[2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot]]
+- [[2025-M. Thasin-AInimism Re-enchanting the World Through AI-Mediated Object]]
+- [[2025-Shimizu-Should We Treat Robots Morally Towards a Relational Account by]]
 
 ### Jainism
 
-**Status:** 2 papers, 0 benchmarks
+**Status:** 2 papers, 2 benchmarks
 
 **Key ethical principles:** Ahimsa (extreme non-violence), anekantavada (many-sidedness of truth), aparigraha (non-possessiveness), satya (truthfulness), asteya (non-stealing)
 
@@ -253,30 +261,31 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 Which traditions lack non-English language support?
 
-| Tradition | Arabic | Chinese | American | African/Ubuntu | Hebrew/Israeli | Indian | Spanish | Iranian | French | Chinese/Confucian | Brazilian | Italian | Total |
+| Tradition | Arabic |  | Chinese | African/Ubuntu | American | Hebrew/Israeli | Indian | Iranian | French | Spanish | Chinese/Confucian | Brazilian | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Islam | 16 | - | 2 | - | - | - | - | 2 | - | - | - | - | 20 |
-| Christianity | 1 | 1 | 1 | 1 | 3 | 1 | 2 | - | 3 | - | 1 | 2 | 16 |
-| Buddhism | - | 5 | 2 | - | 1 | - | - | - | - | - | - | - | 8 |
-| Judaism | - | - | 1 | - | 2 | - | - | - | - | - | - | - | 3 |
-| Hinduism | - | - | 1 | - | - | 2 | - | 1 | - | - | - | - | 4 |
+| Islam | 16 | - | - | - | 2 | - | - | 2 | - | - | - | - | 20 |
+| Christianity | 1 | - | 1 | 1 | 1 | 3 | 1 | - | 3 | 2 | - | 1 | 14 |
+| Buddhism | - | 3 | 5 | - | 2 | 1 | - | - | - | - | - | - | 11 |
+| Judaism | - | - | - | - | 1 | 2 | - | - | - | - | - | - | 3 |
+| Hinduism | - | - | - | - | 1 | - | 2 | 1 | - | - | - | - | 4 |
 | Sikhism | - | - | - | - | - | - | - | - | - | - | - | - | 0 |
-| Confucianism | - | 4 | - | - | - | - | - | - | - | 2 | - | - | 6 |
-| Jainism | - | - | - | - | - | 1 | - | - | - | - | - | - | 1 |
-| Ubuntu Philosophy | - | 1 | - | 8 | - | - | - | - | - | - | - | - | 9 |
-| Indigenous Spirituality | - | 1 | 3 | 1 | - | - | 1 | - | - | - | 1 | - | 7 |
-| **Total** | 17 | 12 | 10 | 10 | 6 | 4 | 3 | 3 | 3 | 2 | 2 | 2 | **74** |
+| Confucianism | - | 1 | 4 | - | - | - | - | - | - | - | 2 | - | 7 |
+| Shinto | - | 9 | - | - | - | - | - | - | - | - | - | - | 9 |
+| Jainism | - | - | - | - | - | - | 1 | - | - | - | - | - | 1 |
+| Ubuntu Philosophy | - | - | 1 | 8 | - | - | - | - | - | - | - | - | 9 |
+| Indigenous Spirituality | - | - | 1 | 1 | 3 | - | - | - | - | 1 | - | 1 | 7 |
+| **Total** | 17 | 13 | 12 | 10 | 10 | 6 | 4 | 3 | 3 | 3 | 2 | 2 | **85** |
 
 ### Non-English Language Support Gaps
 
 | Tradition | Expected Languages | Papers with Language Co-tag | Gap |
 |-----------|-------------------|---------------------------|-----|
-| Buddhism | Chinese, Japanese, Korean, Thai, Vietnamese | 5/18 | MODERATE |
+| Buddhism | Chinese, Japanese, Korean, Thai, Vietnamese | 5/21 | MODERATE |
 | Hinduism | Indian | 2/13 | MODERATE |
 | Islam | Arabic, Indonesian, Iranian | 19/43 | LOW |
-| Confucianism | Chinese, Korean | 4/6 | LOW |
+| Confucianism | Chinese, Korean | 4/7 | LOW |
 | Taoism | Chinese | 0/0 | MODERATE |
-| Shinto | Japanese | 0/0 | MODERATE |
+| Shinto | Japanese | 0/9 | CRITICAL |
 | Sikhism | Indian | 0/1 | CRITICAL |
 | Judaism | Hebrew/Israeli | 2/5 | LOW |
 | Christianity | American, Western, French, German | 5/17 | MODERATE |
@@ -290,12 +299,12 @@ Year-over-year publication trends for religious/ethical tradition papers (2020-2
 
 | Year | Total Papers | Religion-tagged | % Tagged | Top Tradition |
 |------|-------------|----------------|----------|---------------|
-| 2020 | 46 | 1 | 2% | Ubuntu Philosophy |
-| 2021 | 58 | 3 | 5% | Islam |
-| 2022 | 96 | 10 | 10% | Islam |
-| 2023 | 201 | 17 | 8% | Islam |
-| 2024 | 558 | 29 | 5% | Islam |
-| 2025 | 925 | 42 | 4% | Islam |
+| 2020 | 49 | 4 | 8% | Shinto |
+| 2021 | 60 | 5 | 8% | Islam |
+| 2022 | 97 | 11 | 11% | Islam |
+| 2023 | 204 | 20 | 9% | Islam |
+| 2024 | 562 | 33 | 5% | Islam |
+| 2025 | 938 | 55 | 5% | Islam |
 | 2026 | 64 | 5 | 7% | Islam |
 
 ### Tradition x Year (2020-2026)
@@ -304,15 +313,16 @@ Year-over-year publication trends for religious/ethical tradition papers (2020-2
 |---|---|---|---|---|---|---|---|---|
 | Islam | - | 2 | 5 | 10 | 8 | 16 | 2 | 43 |
 | Christianity | - | - | - | 3 | 3 | 9 | 1 | 16 |
-| Buddhism | - | - | 2 | 1 | 6 | 8 | 1 | 18 |
+| Buddhism | 1 | 1 | 2 | 2 | 6 | 8 | 1 | 21 |
 | Judaism | - | - | - | - | 3 | 2 | - | 5 |
 | Hinduism | - | - | 2 | 1 | 6 | 4 | - | 13 |
 | Sikhism | - | - | - | - | - | - | - | 0 |
-| Confucianism | - | 1 | - | 1 | 3 | 1 | - | 6 |
+| Confucianism | 1 | 1 | - | 1 | 3 | 1 | - | 7 |
+| Shinto | 3 | 1 | - | 1 | 1 | 2 | - | 8 |
 | Jainism | - | - | - | - | - | 1 | - | 1 |
 | Ubuntu Philosophy | 1 | - | 2 | - | 2 | 2 | 1 | 8 |
 | Indigenous Spirituality | 1 | - | - | 1 | 2 | 5 | - | 9 |
-| **Total** | 2 | 3 | 11 | 17 | 33 | 48 | 5 | **119** |
+| **Total** | 7 | 5 | 11 | 19 | 34 | 50 | 5 | **131** |
 
 ---
 
@@ -351,18 +361,18 @@ This section compares the benchmark coverage of Western philosophical frameworks
 | Deontological | Western philosophical | 30 | - | - |
 | Virtue Ethics | Western philosophical | 17 | - | - |
 | Care Ethics | Western philosophical | 3 | - | - |
-| Islam | Non-Western religious | 10 | 43 | 10/43 |
-| Buddhism | Non-Western religious | 7 | 18 | 7/18 |
-| Hinduism | Non-Western religious | 2 | 13 | 2/13 |
-| Confucianism | Non-Western religious | 0 | 6 | 0/6 |
+| Islam | Non-Western religious | 9 | 43 | 9/43 |
+| Buddhism | Non-Western religious | 4 | 21 | 4/21 |
+| Hinduism | Non-Western religious | 4 | 13 | 4/13 |
+| Confucianism | Non-Western religious | 0 | 7 | 0/7 |
 | Taoism | Non-Western religious | 0 | 0 | N/A |
-| Shinto | Non-Western religious | 0 | 0 | N/A |
+| Shinto | Non-Western religious | 0 | 9 | 0/9 |
 | Judaism | Non-Western religious | 1 | 5 | 1/5 |
-| Indigenous Spirituality | Non-Western religious | 0 | 9 | 0/9 |
+| Indigenous Spirituality | Non-Western religious | 1 | 9 | 1/9 |
 
 **Western philosophical framework mentions in benchmarks:** 86
-**Non-Western religious tradition benchmarks:** 20
-**Ratio (Western:Non-Western):** 4.3:1
+**Non-Western religious tradition benchmarks:** 21
+**Ratio (Western:Non-Western):** 4.1:1
 
 ---
 
@@ -480,31 +490,34 @@ Areas where benchmarks need to be created, not just found:
 - [[2025-Mohammed-Cross-Language Approach for Quranic QA]]
 - [[2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in]]
 - [[2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting]]
-- [[2025-Qadir-Can LLMs Write Faithfully An Agent-Based]] **[BENCHMARK]**
+- [[2025-Qadir-Can LLMs Write Faithfully An Agent-Based]]
 - [[2025-Wang-Measuring Desired Group Discrimination in LLMs]] **[BENCHMARK]**
 - [[2026-Alam-From RAG to Agentic RAG for]] **[BENCHMARK]**
 - [[2026-Alam-Quran-MD A Fine-Grained Multilingual Multimodal Dataset]]
 
-### Buddhism (18 papers)
+### Buddhism (21 papers)
 
+- [[2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting]]
+- [[2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community]]
 - [[2022-Pollak-Embeddings Models for Buddhist Sanskrit]]
 - [[2022-Ranjan-Artificial Intelligence for Topic Modelling in]]
+- [[2023-Ikari-Religion-Related Values Differently Influence Moral Attitude for]]
 - [[2023-Keutzer-MITRA-zh An Efficient Open Machine Translation]]
 - [[2024-AI-Religious Bias Benchmarks for ChatGPT]] **[BENCHMARK]**
 - [[2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and]]
 - [[2024-Mago-Classification of Buddhist Verses The Efficacy]]
-- [[2024-Religions-The Use of Large Language Models]] **[BENCHMARK]**
+- [[2024-Religions-The Use of Large Language Models]]
 - [[2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including]]
 - [[2024-Wong-The Humanistic Buddhism Corpus (HBC)]] **[BENCHMARK]**
 - [[2025-Bar-DharmaBench Evaluating Language Models on Buddhist]]
 - [[2025-Graves-AI Practical Wisdom and Compassion]]
 - [[2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset]]
 - [[2025-Hähnel-A Companion to Applied Philosophy of AI]]
-- [[2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language]] **[BENCHMARK]**
+- [[2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language]]
 - [[2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code]]
 - [[2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist]] **[BENCHMARK]**
 - [[2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist]] **[BENCHMARK]**
-- [[2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and]] **[BENCHMARK]**
+- [[2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and]]
 
 ### Christianity (17 papers)
 
@@ -522,9 +535,9 @@ Areas where benchmarks need to be created, not just found:
 - [[2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset]]
 - [[2025-Rusnak-EudAImonia]]
 - [[2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents]]
-- [[2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via]] **[BENCHMARK]**
+- [[2025-group)-MEXA Multilingual Evaluation of English-Centric LLMs via]]
 - [[2025-initiative-FaithBench AI Benchmark for Christian Theology]] **[BENCHMARK]**
-- [[2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation]] **[BENCHMARK]**
+- [[2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation]]
 
 ### Hinduism (13 papers)
 
@@ -532,9 +545,9 @@ Areas where benchmarks need to be created, not just found:
 - [[2022-Ranjan-Artificial Intelligence for Topic Modelling in]]
 - [[2023-Das-Mytho-Annotator An Annotation Tool for Indian]]
 - [[2024-Amano-Exploring Similarity Measures and Intertextuality in]]
-- [[2024-Hellwig-The Vedic Compound Dataset]]
+- [[2024-Hellwig-The Vedic Compound Dataset]] **[BENCHMARK]**
 - [[2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and]]
-- [[2024-Keutzer-One Model is All You Need]]
+- [[2024-Keutzer-One Model is All You Need]] **[BENCHMARK]**
 - [[2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented]] **[BENCHMARK]**
 - [[2024-project-DharmicData Comprehensive Open-Source Collection of Hindu]]
 - [[2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP]]
@@ -542,13 +555,25 @@ Areas where benchmarks need to be created, not just found:
 - [[2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset]]
 - [[2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code]]
 
+### Shinto (9 papers)
+
+- [[2013-Jensen-Techno-animism in Japan Shinto Cosmograms Actor-Network Theory and]]
+- [[2020-Berberich-Harmonizing Artificial Intelligence for Social Good]]
+- [[2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting]]
+- [[2020-Seymour-Does Siri Have a Soul Exploring Voice Assistants Through Shinto]]
+- [[2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community]]
+- [[2023-Ikari-Religion-Related Values Differently Influence Moral Attitude for]]
+- [[2024-Puzio-Not Relational Enough Towards an Eco-Relational Approach in Robot]]
+- [[2025-M. Thasin-AInimism Re-enchanting the World Through AI-Mediated Object]]
+- [[2025-Shimizu-Should We Treat Robots Morally Towards a Relational Account by]]
+
 ### Indigenous Spirituality (9 papers)
 
 - [[2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020]]
 - [[2023-Munn-The Five Tests Designing and Evaluating]]
 - [[2024-Rodríguez Louro-The Yarning Corpus]]
 - [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous]]
-- [[2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A]]
+- [[2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A]] **[BENCHMARK]**
 - [[2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for]]
 - [[2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems]]
 - [[2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias]]
@@ -565,8 +590,9 @@ Areas where benchmarks need to be created, not just found:
 - [[2025-Yilma-Ethics of AI in Africa]]
 - [[2026-Berg-An Ubuntu-Guided Large Language Model Framework]]
 
-### Confucianism (6 papers)
+### Confucianism (7 papers)
 
+- [[2020-Berberich-Harmonizing Artificial Intelligence for Social Good]]
 - [[2021-Angle-Can AI Lead to Genuine Virtue Confucian]]
 - [[2023-Qian-Understanding Chinese Moral Stories with Further]]
 - [[2024-Muyskens-Can an AI-carebot be filial]]
@@ -584,18 +610,14 @@ Areas where benchmarks need to be created, not just found:
 
 ### Jainism (2 papers)
 
-- [[0000-collections-JainGPT AI-Powered Chatbot for Jain Literature]]
-- [[2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched]]
+- [[0000-collections-JainGPT AI-Powered Chatbot for Jain Literature]] **[BENCHMARK]**
+- [[2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched]] **[BENCHMARK]**
 
 ### Sikhism (1 papers)
 
 - [[0000-projects-BaniDB Shabad OS Digital Gurbani Database]]
 
 ### Taoism (0 papers)
-
-*No papers currently tagged with this tradition.*
-
-### Shinto (0 papers)
 
 *No papers currently tagged with this tradition.*
 
@@ -648,4 +670,4 @@ Full search methodology and queries are documented in the following agent report
 
 ---
 
-*Generated: 2026-02-15 | Script: `PYTHON/generate_tradition_gap_report.py` | Papers: 2002 | Traditions: 15*
+*Generated: 2026-02-15 | Script: `PYTHON/generate_tradition_gap_report.py` | Papers: 2034 | Traditions: 15*

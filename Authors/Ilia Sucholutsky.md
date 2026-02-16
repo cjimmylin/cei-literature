@@ -32,6 +32,7 @@ Ilia Sucholutsky is a Faculty Fellow/Assistant Professor at the NYU Center for D
 
 
 
+
 - [[2025-Bai-Explicitly unbiased large language models still form biased|Explicitly unbiased large language models still form biased associations | PNAS]]
 - [[2024-Rane-Concept Alignment|Concept Alignment]]
 
@@ -41,6 +42,8 @@ Ilia Sucholutsky is a Faculty Fellow/Assistant Professor at the NYU Center for D
 
 
 
+
+- *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: pbruna@ucmerced.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: is2961@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: srane@princeton.edu
 - *From 2024-Rane-Concept Alignment*: Affiliation: Department of Computer Science, Email: tomg@princeton.edu

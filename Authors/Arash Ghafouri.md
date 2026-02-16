@@ -41,6 +41,7 @@ Ghafouri has published research on supervised deep learning approaches for bilin
 
 
 
+
 - [[2023-Ghafouri-IslamicPCQA|IslamicPCQA]] (First Author)
 
 ## External Links & Profiles
@@ -56,6 +57,8 @@ Ghafouri has published research on supervised deep learning approaches for bilin
 
 
 
+
+- *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: aghafuri@comp.iust.ac.ir
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: naderi@iust.ac.ir
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: aghafuri@comp.iust.ac.ir
 - *From 2023-Ghafouri-IslamicPCQA*: Affiliation: University of Science and Technology, Email: m.aghajani@physics.sharif.edu

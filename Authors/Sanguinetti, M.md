@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Basile-NepX-Hate A Nepali Hate Speech Corpus|NepX-Hate A Nepali Hate Speech Corpus]]
 - [[2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech|HaSpeeDe 2 @ EVALITA2020: Overview of the EVALITA 2020 Hate Speech Detection Task]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech*: Affiliation: University Press, Email: info@aAccademia.it
 - *From 2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech*: Affiliation: University Press, Email: info@aAccademia.it
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

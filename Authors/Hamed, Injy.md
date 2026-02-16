@@ -57,7 +57,9 @@ twitter: ""
 
 
 
+
 - [[2025-Hamed-A Survey of Code-switched Arabic NLP|A Survey of Code-switched Arabic NLP]] (First Author)
+- [[2025-Unknown-Multilingual NLP Code-Switching Variants & Dialects Appen|Multilingual NLP: Code-Switching, Variants & Dialects | Appen]] (First Author)
 - [[2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering|CVQA Culturally-diverse Multilingual Visual Question Answering]]
 
 ## External Links & Profiles
@@ -86,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: nizar.habash@nyu.edu
 - *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni
 - *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

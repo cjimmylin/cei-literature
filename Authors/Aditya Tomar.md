@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for|BharatBBQ A Multilingual Bias Benchmark for]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for*:, Email: adityatomar@cse.iitb.ac.in
 - *From 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for*:, Email: adityatomar@cse.iitb.ac.in
 - *From 2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for*:, Email: nihar@cse.iitb.ac.in
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

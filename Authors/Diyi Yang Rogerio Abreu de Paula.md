@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards|CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards*: Affiliation: University1, IBM Research 2, Email: ropaula@br.ibm.com
 - *From 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards*: Affiliation: University1, IBM Research 2, Email: ropaula@br.ibm.com
 - *From 2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards*: Affiliation: University1, IBM Research 2, Email: rhoresh@us.ibm.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI|A Human Rights-Based Approach to Responsible AI]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be
 - *From 2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI*: Affiliation: center the conversation around who is harmed, what harms they face, and how those harms may be

@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Yao-Value Compass Benchmarks|Value Compass Benchmarks]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
 - *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
 - *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University
 - *From 2025-Yao-Value Compass Benchmarks*: Affiliation: University, 3Tsinghua University

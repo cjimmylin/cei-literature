@@ -51,6 +51,7 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 
 
 
+
 - [[2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence|Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World]]
 - [[2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian|Qorgau Evaluating LLM Safety in Kazakh-Russian]]
 - [[2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation|Arabic Dataset for LLM Safeguard Evaluation]] (Last Author)
@@ -78,6 +79,8 @@ He has published over 500 peer-reviewed works and is one of the most highly cite
 
 
 
+
+- *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: ffajri@student.unimelb.edu.au
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: tb@ldwin.net
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com
 - *From 2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language*: Affiliation: University of Melbourne, Email: jeyhan.lau@gmail.com

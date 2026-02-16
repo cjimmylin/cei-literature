@@ -59,8 +59,10 @@ twitter: ""
 
 
 
+
 - [[2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and|QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment]]
 - [[2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic|A Web-Based Hate Speech Detection System for Dialectal Arabic]] (Last Author)
+- [[2024-Charfi-Available hate speech datasets for Arabic. Download Scientific Diagram|Available hate speech datasets for Arabic. | Download Scientific Diagram]] (Last Author)
 
 ## External Links & Profiles
 
@@ -90,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
 - *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
 - *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar
 - *From 2024-Charfi-A Web-Based Hate Speech Detection System for Dialectal Arabic*: Affiliation: University in Qatar, Education City, Doha, Qatar

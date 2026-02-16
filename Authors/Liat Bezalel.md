@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Rozen-Do LLMs Have Consistent Values|Do LLMs Have Consistent Values?]]
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Rozen-Do LLMs Have Consistent Values*:, Email: elidan@google.com
 - *From 2025-Rozen-Do LLMs Have Consistent Values*:, Email: naamarozen240@gmail.com
 - *From 2025-Rozen-Do LLMs Have Consistent Values*:, Email: naamarozen240@gmail.com
 - *From 2025-Rozen-Do LLMs Have Consistent Values*:, Email: naamarozen240@gmail.com

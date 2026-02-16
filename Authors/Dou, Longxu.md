@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2024-Dou-SailCompass Towards Reproducible and Robust Evaluation|SailCompass Towards Reproducible and Robust Evaluation]]
 - [[2024-SUTD-Sailor Open Language Models for South-East|Sailor Open Language Models for South-East]] (First Author)
 
@@ -84,6 +85,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2024-Dou-SailCompass Towards Reproducible and Robust Evaluation*: Affiliation: University of Singapore; 2Sea AI Lab, Email: skok@comp.nus.edu.sg
 - *From 2024-Dou-SailCompass Towards Reproducible and Robust Evaluation*: Affiliation: University of Singapore; 2Sea AI Lab, Email: guojia@u.nus.edu
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

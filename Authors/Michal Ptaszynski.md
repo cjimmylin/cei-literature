@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open|Results of the PolEval 2019 Shared Task 6: First Dataset and Open Shared Task for Automatic Cyberbullying Detection in Polish Twitter]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open*: Affiliation: Institute of Computer Science, Polish Academy of Sciences
 - *From 2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open*: Affiliation: Institute of Computer Science, Polish Academy of Sciences
 - *From 2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open*: Affiliation: Institute of Computer Science, Polish Academy of Sciences
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

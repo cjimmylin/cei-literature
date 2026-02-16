@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French|Low-Resource Dialect Adaptation of Large Language Models: A French Dialect Case-Study]]
 - [[2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding|COLE: a Comprehensive Benchmark for French Language Understanding Evaluation]] (Last Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
 - *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
 - *From 2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French*: Affiliation: Department of Computer Science and Software Engineering, Email: mofvanes@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

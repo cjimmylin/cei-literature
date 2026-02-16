@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit|When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications]] (First Author)
 - [[2025-Davies-Exploring the occupational biases and stereotypes of Chinese large|Exploring the occupational biases and stereotypes of Chinese large language models]] (First Author)
 - [[2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...|F2Bench: An Open-ended Fairness Evaluation Benchmark ...]] (First Author)
@@ -91,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: cssxd@imu.edu.cn
 - *From 2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: cssxd@imu.edu.cn
 - *From 2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ...*: Affiliation: College of Computer Science, Inner Mongolia University, China, Email: velikayascarlet@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

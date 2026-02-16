@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2024-Liu-JAILJUDGE|JAILJUDGE]]
 - [[2024-Yin-SafeWorld Geo-Diverse Safety Alignment|SafeWorld: Geo-Diverse Safety Alignment]] (First Author)
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: kh.huang@salesforce.com
 - *From 2024-Yin-SafeWorld Geo-Diverse Safety Alignment*: Affiliation: LabNLP/SafeWorld, Email: haoyiqiu@cs.ucla.edu

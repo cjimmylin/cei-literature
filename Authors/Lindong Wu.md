@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics|OpenHuEval: Evaluating Large Language Model on Hungarian Specifics]]
 - [[2024-Zhang-SafetyBench|SafetyBench]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University
 - *From 2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics*: Affiliation: Centre for Linguistics, 3Wuhan University

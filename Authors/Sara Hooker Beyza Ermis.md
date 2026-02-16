@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Hooker-Global MMLU Understanding and Addressing Cultural|Global MMLU Understanding and Addressing Cultural]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 - *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 - *From 2024-Hooker-Global MMLU Understanding and Addressing Cultural*: Affiliation: University & Canada CIFAR AI Chair, 5AI Singapore
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

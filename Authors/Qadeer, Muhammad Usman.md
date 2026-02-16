@@ -56,7 +56,8 @@ twitter: ""
 ## Papers in this Vault
 
 
-- [[2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using|UrduBench An Urdu Reasoning Benchmark using]]
+
+- [[2026-Shafique-UrduBench An Urdu Reasoning Benchmark using|UrduBench An Urdu Reasoning Benchmark using]]
 
 ## External Links & Profiles
 
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2026-Shafique-UrduBench An Urdu Reasoning Benchmark using*: Affiliation: lable methodology for, Email: ali@traversaal.ai
 - *From 2026-[[Unknown]]-UrduBench An Urdu Reasoning Benchmark using*: Affiliation: lable methodology for, Email: ali@traversaal.ai
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

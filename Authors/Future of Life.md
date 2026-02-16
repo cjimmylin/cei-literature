@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Institute-2025 AI Safety Index|2025 AI Safety Index]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
 - *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
 - *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org
 - *From 2025-Institute-2025 AI Safety Index*: Affiliation: Institute-2025 AI Safety Index - PDF Extract", Email: policy@futureoflife.org

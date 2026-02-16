@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in|MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration]]
 
 ## External Links & Profiles
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: zhoudaquan21@gmail.com
 - *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: cathyxl2016@gmail.com.
 - *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: zhoudaquan21@gmail.com
 - *From 2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in*: Affiliation: University of Singapore, Email: cathyxl2016@gmail.com.

@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Tahir-Benchmarking Pre-trained Large Language Models Potential|Benchmarking Pre-trained Large Language Models Potential]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 - *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 - *From 2024-Tahir-Benchmarking Pre-trained Large Language Models Potential*: Affiliation: Center for Language Engineering, Al-Khawarizmi Institute of Computer Science, Email: firstname.secondname@kics.edu.pk
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

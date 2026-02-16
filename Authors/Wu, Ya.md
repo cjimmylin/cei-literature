@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas|The Staircase of Ethics (Multi-step Moral Dilemmas)]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas*: Affiliation: Lab, Institute of Computing Technology, Chinese Academy of Sciences, Email: yangguang@zgclab.edu.cn
 - *From 2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas*: Affiliation: Lab, Institute of Computing Technology, Chinese Academy of Sciences, Email: yangguang@zgclab.edu.cn
 - *From 2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas*: Affiliation: Lab, Institute of Computing Technology, Chinese Academy of Sciences, Email: yangguang@zgclab.edu.cn
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

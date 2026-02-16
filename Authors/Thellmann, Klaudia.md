@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages|Towards Multilingual LLM Evaluation for European Languages]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 - *From 2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages*: Affiliation: Institute, Germany, 4 DFKI, Germany
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

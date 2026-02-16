@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic|M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies]] (Last Author)
 - [[2022-Schramowski-I2P Inappropriate Image Prompts Test Bed|I2P: Inappropriate Image Prompts Test Bed]] (Last Author)
 - [[2020-Schramowski-The Moral Choice Machine|The Moral Choice Machine]] (Last Author)
@@ -31,6 +32,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: schramowski@cs.tu
 - *From 2020-Schramowski-The Moral Choice Machine*: Affiliation: University of Sussex, United Kingdom, Email: cigdem.turan@cs.tu

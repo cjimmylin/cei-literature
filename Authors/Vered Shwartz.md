@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Chiu-CulturalBench|CulturalBench]]
 - [[2020-Forbes-Social Chemistry 101|Social Chemistry 101]]
 
@@ -30,6 +31,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington
 - *From 2020-Forbes-Social Chemistry 101*: Affiliation: School of Computer Science & Engineering, University of Washington

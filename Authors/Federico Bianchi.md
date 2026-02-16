@@ -41,6 +41,7 @@ Federico Bianchi is a Research Scientist affiliated with Stanford University and
 
 
 
+
 - [[2024-Bianchi-NegotiationArena How Well Can LLMs Negotiate|NegotiationArena: How Well Can LLMs Negotiate?]] (First Author)
 - [[2024-Röttger-XSTest|XSTest]]
 
@@ -60,6 +61,8 @@ Federico Bianchi is a Research Scientist affiliated with Stanford University and
 
 
 
+
+- *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University
 - *From 2024-Röttger-XSTest*: Affiliation: University, 2University of Oxford, 3Stanford University

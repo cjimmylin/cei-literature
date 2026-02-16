@@ -59,6 +59,7 @@ twitter: ""
 
 
 
+
 - [[2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to|PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice]]
 - [[2025-Mao-ALYMPICS LLM Agents Meet Game Theory|ALYMPICS: LLM Agents Meet Game Theory]]
 - [[2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large|AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models]] (First Author)
@@ -91,6 +92,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:
 - *From 2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large*: Affiliation: lable at https:

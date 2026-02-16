@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types|Cultural Evaluation of LLMs in Russian: Catchphrases and Cultural Types]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types*:, Email: el.gromenko@gmail.com
 - *From 2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types*:, Email: klokova.ks@mipt.ru
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

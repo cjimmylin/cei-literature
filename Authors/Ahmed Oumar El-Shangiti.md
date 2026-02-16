@@ -24,6 +24,7 @@ Ahmed Oumar El-Shangiti is a researcher contributing to Arabic natural language 
 
 
 
+
 - [[2025-Alwajih-Palm|Palm]]
 
 ## Notes
@@ -32,6 +33,8 @@ Ahmed Oumar El-Shangiti is a researcher contributing to Arabic natural language 
 
 
 
+
+- *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI
 - *From 2025-Alwajih-Palm*: Affiliation: University of British Columbia, 2 MBZUAI, 3 Invertible AI

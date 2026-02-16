@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-PIB-PLLuM A Family of Polish Large Language Models|PLLuM: A Family of Polish Large Language Models]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-PIB-PLLuM A Family of Polish Large Language Models*: Affiliation: Department of Artificial Intelligence, Wrocław University of Science and Technology, Wyb
 - *From 2025-PIB-PLLuM A Family of Polish Large Language Models*: Affiliation: Department of Artificial Intelligence, Wrocław University of Science and Technology, Wyb
 - *From 2025-PIB-PLLuM A Family of Polish Large Language Models*: Affiliation: Department of Artificial Intelligence, Wrocław University of Science and Technology, Wyb
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

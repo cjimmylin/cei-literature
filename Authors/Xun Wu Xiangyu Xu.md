@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with|Beyond Demographics: Enhancing Cultural Value Survey Simulation with Multi-Stage Personality-Driven Cognitive Reasoning]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with*: Affiliation: School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan 430065, China
 - *From 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with*: Affiliation: School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan 430065, China
 - *From 2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with*: Affiliation: School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan 430065, China
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

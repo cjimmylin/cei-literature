@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas|Thrid Workshop on NLP for Indigenous Languages of the Americas]]
+- [[2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas|Thrid Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)]]
 
 ## External Links & Profiles
 

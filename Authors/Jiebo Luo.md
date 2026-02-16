@@ -26,6 +26,7 @@ Luo's research spans computer vision, multimodal AI, data-driven social computin
 
 
 
+
 - [[2023-Zhou-A Survey of Large Language Models in Medicine|A Survey of Large Language Models in Medicine]]
 
 ## Notes
@@ -34,6 +35,8 @@ Luo's research spans computer vision, multimodal AI, data-driven social computin
 
 
 
+
+- *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: xzhou20@fudan.edu.cn
 - *From 2023-Zhou-A Survey of Large Language Models in Medicine*: Affiliation: lable training framework that, Email: qz@fudan.edu.cn

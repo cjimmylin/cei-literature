@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning|Diverse Human Value Alignment for LLMs via Ethical Reasoning]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 - *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 - *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co
 - *From 2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning*: Affiliation: Laboratory, Huawei Technologies Co

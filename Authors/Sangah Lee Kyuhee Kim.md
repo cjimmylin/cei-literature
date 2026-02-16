@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with|Nunchi-Bench: Benchmarking Language Models on Cultural Reasoning with a Focus on Korean Superstition]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with*:, Email: kyuhee.kim@epfl.ch
 - *From 2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with*:, Email: sanalee@snu.ac.kr
 - *From 2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with*:, Email: kyuhee.kim@epfl.ch
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

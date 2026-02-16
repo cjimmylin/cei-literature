@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2022-Beyhan-A Turkish Hate Speech Dataset and Detection System|A Turkish Hate Speech Dataset and Detection System]] (Last Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Beyhan-A Turkish Hate Speech Dataset and Detection System*: Affiliation: Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey 34956
 - *From 2022-Beyhan-A Turkish Hate Speech Dataset and Detection System*: Affiliation: Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey 34956
 - *From 2022-Beyhan-A Turkish Hate Speech Dataset and Detection System*: Affiliation: Faculty of Engineering and Natural Sciences, Sabanci University, Istanbul, Turkey 34956
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

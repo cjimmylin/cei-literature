@@ -37,6 +37,7 @@ This work was also developed as an undergraduate honors thesis at UNC Chapel Hil
 
 
 
+
 - [[2022-Caron-Identifying and Manipulating the Personality|Identifying and Manipulating the Personality]] (First Author)
 
 ## Links
@@ -50,6 +51,8 @@ This work was also developed as an undergraduate honors thesis at UNC Chapel Hil
 
 
 
+
+- *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: carongraham29@gmail.com
 - *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: ssrivastava@cs.unc.edu
 - *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: ssrivastava@cs.unc.edu
 - *From 2022-Caron-Identifying and Manipulating the Personality*: Affiliation: lable to the language, Email: carongraham29@gmail.com

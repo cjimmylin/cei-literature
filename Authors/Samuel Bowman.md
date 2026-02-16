@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2022-Parrish-BBQ|BBQ]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science
 - *From 2022-Parrish-BBQ*: Affiliation: Center for Data Science

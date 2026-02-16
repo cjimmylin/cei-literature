@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque|BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque, a Low-Resource Language]] (Last Author)
 - [[2025-Zulaika-BasqBBQ Basque BBQ|BasqBBQ (Basque BBQ)]] (First Author)
 
@@ -86,6 +87,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
 - *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
 - *From 2025-Zulaika-BasqBBQ Basque BBQ*: Affiliation: Research Institute, Email: fatma.elsafoury@fokus.fraunhofer.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

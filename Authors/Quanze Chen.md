@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2023-Barrett-Skin Deep|Skin Deep]]
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: teanna.barrett@bison.howard.edu
 - *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: barrett@bison.howard.edu
 - *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: axz@cs.uw.edu
 - *From 2023-Barrett-Skin Deep*: Affiliation: University of Washington, Email: barrett@bison.howard.edu

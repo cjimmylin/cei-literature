@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Priya-Deontic Temporal Logic for AI Ethics|Deontic Temporal Logic for AI Ethics]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Priya-Deontic Temporal Logic for AI Ethics*: Affiliation: Institute of Information Technology - Bangalore, Email: priya.tv@iiitb.ac.in
 - *From 2025-Priya-Deontic Temporal Logic for AI Ethics*: Affiliation: Institute of Information Technology - Bangalore, Email: shrao@ieee.org
 - *From 2025-Priya-Deontic Temporal Logic for AI Ethics*: Affiliation: Institute of Information Technology - Bangalore, Email: priya.tv@iiitb.ac.in
 - *From 2025-Priya-Deontic Temporal Logic for AI Ethics*: Affiliation: Institute of Information Technology - Bangalore, Email: priya.tv@iiitb.ac.in

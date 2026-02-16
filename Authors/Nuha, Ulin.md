@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting|Exploring NLP Benchmarks in an Extremely Low-Resource Setting]] (First Author)
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting*: Affiliation: University of Innsbruck, Email: adam.jatowt@uibk.ac.at
 - *From 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting*: Affiliation: University of Innsbruck, Email: ulinnuha.id@icloud.com
 - *From 2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting*: Affiliation: University of Innsbruck, Email: ulinnuha.id@icloud.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

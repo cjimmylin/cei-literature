@@ -55,9 +55,8 @@ twitter: ""
 
 ## Papers in this Vault
 
-[Wikilinks to papers in the vault where this author is listed. Format: [[Filename|Display Title]]]
 
-- [[2025-Xu-Nlp Fairness ConceptNet blog|Nlp Fairness ConceptNet blog]]
+- [[2025-Xu-Nlp Fairness ConceptNet blog|Nlp Fairness | ConceptNet blog]] (Last Author)
 
 ## External Links & Profiles
 

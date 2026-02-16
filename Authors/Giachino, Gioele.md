@@ -56,6 +56,7 @@ twitter: ""
 ## Papers in this Vault
 
 
+
 - [[2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in|An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case]] (First Author)
 
 ## External Links & Profiles
@@ -83,6 +84,8 @@ twitter: ""
 ## Notes
 
 
+
+- *From 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in*:, Email: gioele.giachino@gmail.com
 - *From 2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in*:, Email: gioele.giachino@gmail.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]
 

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales|Self-Explaining Hate Speech Detection with Moral Rationales]]
 - [[2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025|Overview of the Multilingual Text Detoxification Task at PAN 2025]] (First Author)
 - [[2021-Dementieva-Methods for Detoxification of Texts for the Russian Language|Methods for Detoxification of Texts for the Russian Language]] (First Author)
@@ -89,6 +90,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025*: Affiliation: University of Munich, Munich, Germany, Email: vitasprotas@gmail.com
 - *From 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025*: Affiliation: University of Munich, Munich, Germany, Email: vasily.konovalov@phystech.edu
 - *From 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025*: Affiliation: University of Munich, Munich, Germany, Email: debora.nozza@unibocconi.it
 - *From 2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025*: Affiliation: University of Munich, Munich, Germany, Email: daryna.dementieva@tum.de

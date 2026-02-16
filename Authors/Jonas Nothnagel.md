@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs|The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs*: Affiliation: lable at https:, Email: jonas.nothnagel@giz.de
 - *From 2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs*: Affiliation: lable at https:, Email: david.pomerenke@bmz.bund.de
 - *From 2025-Pomerenke-The AI Language Proficiency Monitor - Tracking the Progress of LLMs*: Affiliation: lable at https:, Email: jonas.nothnagel@giz.de
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2021-Angle-Can AI Lead to Genuine Virtue Confucian|Can AI Lead to Genuine Virtue Confucian]] (First Author)
 
 ## External Links & Profiles
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2021-Angle-Can AI Lead to Genuine Virtue Confucian*: Affiliation: lable as PDF
 - *From 2021-Angle-Can AI Lead to Genuine Virtue Confucian*: Affiliation: lable as PDF
 - *From 2021-Angle-Can AI Lead to Genuine Virtue Confucian*: Affiliation: lable as PDF
 - *From 2021-Angle-Can AI Lead to Genuine Virtue Confucian*: Affiliation: lable as PDF

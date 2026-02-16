@@ -25,6 +25,7 @@ At Meta, he contributed to fbgemm, achieving greater than 2x performance gains t
 
 
 
+
 - [[2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ...|CMoralEval: A Moral Evaluation Benchmark for Chinese ...]]
 - [[2024-Yu-CMoralEval|CMoralEval]]
 
@@ -39,6 +40,8 @@ At Meta, he contributed to fbgemm, achieving greater than 2x performance gains t
 
 
 
+
+- *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: hujason859@gmail.com
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: jiahuizhao7@163.com
 - *From 2024-Yu-CMoralEval*: Affiliation: College of Intelligence and Computing, Tianjin University, Tianjin, China, Email: zn@stu.haut.edu.cn

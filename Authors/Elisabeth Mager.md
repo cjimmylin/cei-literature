@@ -38,6 +38,7 @@ Elisabeth Mager is a researcher at the Instituto Politécnico Nacional in Mexico
 
 
 
+
 - [[2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of|AmericasNLI: Evaluating Zero-shot Natural Language Understanding of Pretrained Multilingual Models in Truly Low-resource Languages]]
 - [[2022-Kann-AmericasNLI|AmericasNLI]]
 

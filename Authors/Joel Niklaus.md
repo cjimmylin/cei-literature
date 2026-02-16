@@ -58,6 +58,7 @@ twitter: ""
 
 
 
+
 - [[2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark|SwiLTra-Bench: The Swiss Legal Translation Benchmark]] (First Author)
 - [[2023-Guha-LegalBench|LegalBench]]
 
@@ -88,6 +89,8 @@ twitter: ""
 
 
 
+
+- *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR
 - *From 2023-Guha-LegalBench*: Affiliation: LABORATIVELY BUILT BENCHMARK FOR

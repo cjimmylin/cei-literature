@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2024-Woodgate-Macro Ethics Principles for Responsible AI Systems|Macro Ethics Principles for Responsible AI Systems]] (Last Author)
 
 ## Notes
@@ -29,6 +30,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom
 - *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom
 - *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom
 - *From 2024-Woodgate-Macro Ethics Principles for Responsible AI Systems*: Affiliation: University of Bristol, United Kingdom

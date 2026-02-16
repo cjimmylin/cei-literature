@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties|Enhancing Large Language Models for Underrepresented Varieties: Pretraining Strategies in the Galician-Portuguese Diasystem]] (First Author)
 - [[2024-Compostela-Open Generative Large Language Models for Galician|Open Generative Large Language Models for Galician]] (First Author)
 - [[2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician|Proxecto Nós: Artificial Intelligence at the Service of the Galician Language]] (First Author)
@@ -87,6 +88,8 @@ twitter: ""
 
 
 
+
+- *From 2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician*:, Email: elisa.fernandez@usc.gal
 - *From 2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician*:, Email: xoseluis.regueira@usc.gal
 - *From 2022-Compostela-Proxecto Nós Artificial Intelligence at the Service of the Galician*:, Email: elisa.fernandez@usc.gal
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

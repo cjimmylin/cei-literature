@@ -57,6 +57,7 @@ twitter: ""
 
 
 
+
 - [[2025-Yuan-S-Eval|S-Eval]]
 
 ## External Links & Profiles
@@ -85,6 +86,8 @@ twitter: ""
 
 
 
+
+- *From 2025-Yuan-S-Eval*:, Email: xiaohanyuan@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: chenjialuo@zju.edu.cn
 - *From 2025-Yuan-S-Eval*:, Email: hui.xueh@alibaba-inc.com
 [Internal notes for CEI research purposes. May include: collaboration opportunities, specific expertise relevant to CEI projects, contact history, or additional context not suitable for the main profile.]

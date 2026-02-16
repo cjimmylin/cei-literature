@@ -21,6 +21,7 @@ semantic_scholar: ""
 
 
 
+
 - [[2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for|Afri-MCQA Multimodal Cultural Question Answering for]] (Last Author)
 - [[2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource|ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding]]
 - [[2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning|VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark]]
@@ -35,6 +36,8 @@ semantic_scholar: ""
 
 
 
+
+- *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: nizar.habash@nyu.edu
 - *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni
 - *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni
 - *From 2025-Hamed-A Survey of Code-switched Arabic NLP*: Affiliation: University, Egypt, Email: thang.vu@ims.uni

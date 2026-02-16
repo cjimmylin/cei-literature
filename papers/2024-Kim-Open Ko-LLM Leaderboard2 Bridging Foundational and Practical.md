@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Found
 local_pdf: "[[PDFs/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "The Open Ko-LLM Leaderboard has been instrumental in benchmarking Korean Large Language Models (LLMs), yet it has certain limitations. Notably, the disconnect between quantitative improvements on the overly academic leaderboard benchmarks and the qualitative impact of the models should be addressed. Furthermore, the benchmark suite is largely composed of translated versions of their English counterparts, which may not fully capture the intricacies of the Korean language."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark text corpus"
+data_metrics: "Not specified"
 ---
 # Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs
 

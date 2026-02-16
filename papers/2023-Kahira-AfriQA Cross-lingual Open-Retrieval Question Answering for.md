@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval 
 local_pdf: "[[PDFs/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.pdf]]"
 publication: "WebSearch: AfriQA cross-lingual question answering African languages"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "African languages have far less in-language content available digitally, making it challenging for question answering systems to satisfy the information needs of users. Cross-lingual open-retrieval question answering (XOR QA) systems—those that retrieve answer content from other languages while serving people in their native language—offer a means of ﬁlling this gap. To this end, we create AFRIQA, the ﬁrst cross-lingual QA dataset with a focus on African languages."
+LLM_assessed: "BERT"
+DATA_URL: "https://huggingface.co/datasets/masakhane/afriqa"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "African languages have far less in-language content available digitally, making it challenging for question answering systems to satisfy the information needs of users. Cross-lingual open-retrieval question answering (XOR QA) systems—those that retrieve answer content from other languages while serving people in their native language—offer a means of ﬁlling this gap. To this end, we create AFRIQA, the ﬁrst cross-lingual QA dataset with a focus on African languages."
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/datasets/masakhane/afriqa"
-research_topic: "Question Answering"
 ---
 # AfriQA: Cross-lingual Open-Retrieval Question Answering for African Languages
 

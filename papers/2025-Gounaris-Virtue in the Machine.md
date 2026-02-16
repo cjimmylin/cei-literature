@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics certification"
@@ -29,17 +31,17 @@ significance: "Offers a specific regulatory implementation of virtue ethics, con
 external_pdf: "https://alkisgounaris.gr/downloads/stories/stories_0132_1942_1_en.pdf"
 abstract: "This article explores the application of **Aristotelian virtue** (**arete**), defined as a quality of excellence, to AI systems under the EU Artificial Intelligence Act. The authors argue that while existing regulations often focus on \"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Virtue in the Machine: Beyond a One-size-fits-all Approach and Aristotelian Ethics for Artificial Intelligence
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / NAACL 2024
 local_pdf: "[[PDFs/2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "6 languages/cultures including Indonesian, Bengali, Chinese, German, Japanese, Russian"
 languages_list: "Bengali, Chinese, English, German, Indonesian, Japanese, Russian"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "BLOOMZ, XGLM, XLM-R, mT0, Llama-2, Aya-101"
 DATA_URL: "https://github.com/UKPLab/maps"
 tags: 
 abstract: "Large language models (LLMs) are highly adept at question answering and reasoning tasks, but when reasoning in a situational context, human expectations vary depending on the relevant cultural common ground. As languages are associated with diverse cultures, LLMs should also be culturally-diverse reasoners. In this paper, we study the ability of a wide range of state-of-the-art multilingual LLMs (mLLMs) to reason with proverbs and sayings in a conversational context."
-research_topic: "Dialogue Systems"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "6 languages"
 ---
 # Are Multilingual LLMs Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings
 

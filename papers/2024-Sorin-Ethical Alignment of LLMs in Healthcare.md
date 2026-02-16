@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,9 @@ abstract: "In moral philosophy, two foundational approaches shape ethical decisi
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
+DATA_URL: "NA"
+normative_ethics_benchmark: Yes
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -43,9 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, Phi, Qwen"
-DATA_URL: "NA"
-normative_ethics_benchmark: Yes
 ---
 # Ethical Alignment of LLMs in Healthcare: Does GPT-o1 Adopt a Deontological or Utilitarian Approach?
 

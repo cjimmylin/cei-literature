@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,10 +31,6 @@ pdf_access_url: "http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pd
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "GitHub / Web API"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "Gurmukhi"
@@ -39,16 +38,20 @@ religious_values: "Sikhism"
 religious_values_list: "Sikhism"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "> Most precise digital Gurbani database with standardized lagamatras and padh chhedh. Covers Sri Guru Granth Sahib, Sri Dasam Granth, and other Sikh canonical texts. API accessible. Could be used for Sikh knowledge QA evaluation of LLMs."
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/KhalisFoundation/banidb-api / https://github.com/shabados/database / https://www.banidb.com/"
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for question answering"
+data_metrics: "Not specified"
 ---
 # BaniDB / Shabad OS: Digital Gurbani Database
 

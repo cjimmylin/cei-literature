@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2023/2023-Kohli-Building a Llama2-finetuned LLM for O
 local_pdf: "[[PDFs/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: Odia
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, Dolly, LlaMA2, Llama-2, Llama"
 DATA_URL: "https://github.com/AI4Bharat/indicTrans"
 tags: 
 abstract: "Llama2-finetuned LLM for Odia language using domain knowledge instruction set. First dedicated Odia LLM enabling downstream cultural and safety evaluation."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Building a Llama2-finetuned LLM for Odia Language Utilizing Domain Knowledge Instruction Set
 

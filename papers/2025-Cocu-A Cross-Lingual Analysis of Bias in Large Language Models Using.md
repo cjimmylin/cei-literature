@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.md"
 local_pdf: "[[PDFs/2025/2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Romanian, Russian, Hungarian"
 languages_list: "English, Romanian, and others"
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "DeepSeek, LLama-4, Llama, gemma"
+DATA_URL: "NA"
+tags: 
+abstract: "In this case study, we select a set of controversial Romanian historical questions and ask multiple Large Language Models to answer them across languages and contexts, in order to assess their biases. Besides being a study mainly performed for educational purposes, the motivation also lies in the recognition that history is often presented through altered perspectives, primarily influenced by the culture and ideals of a state, even through large language models."
+authors_incomplete: false
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "DeepSeek, LLama-4, Llama, gemma"
-DATA_URL: "NA"
-tags: 
-abstract: "In this case study, we select a set of controversial Romanian historical questions and ask multiple Large Language Models to answer them across languages and contexts, in order to assess their biases. Besides being a study mainly performed for educational purposes, the motivation also lies in the recognition that history is often presented through altered perspectives, primarily influenced by the culture and ideals of a state, even through large language models."
-ethics_perspective: "Bias & Fairness"
-authors_incomplete: false
 ---
 # A Cross-Lingual Analysis of Bias in Large Language Models Using Romanian History
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2024/2024-Ramezani-Moral Association Graph Cognitive 
 local_pdf: "[[PDFs/2024/2024-Ramezani-Moral Association Graph Cognitive Model for Interpretable Moral.pdf]]"
 publication: "Topics in Cognitive Science"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "AbstractAutomated moral inference is an emerging topic of critical importance in artificial intelligence. The contemporary approach typically relies on language models to infer moral relevance or moral properties of a concept. This approach demands complex parameterization and costly computation, and it tends to disconnect with existing psychological accounts of moralization. We present a simple cognitive model for moral inference, Moral Association Graph (MAG), inspired by psychological work on moralization. Our model builds on word association network for inferring moral relevance and draws on rich psychological data. We demonstrate that MAG performs competitively to state‐of‐the‐art language models when evaluated against a comprehensive set of data for automated inference of moral norms and moral judgment of concepts, and in‐context moral inference. We also show that our model yields interpretable outputs and is applicable to informing short‐term moral change."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "AbstractAutomated moral inference is an emerging topic of critical importance in artificial intelligence. The contemporary approach typically relies on language models to infer moral relevance or moral properties of a concept. This approach demands complex parameterization and costly computation, and it tends to disconnect with existing psychological accounts of moralization. We present a simple cognitive model for moral inference, Moral Association Graph (MAG), inspired by psychological work on moralization. Our model builds on word association network for inferring moral relevance and draws on rich psychological data. We demonstrate that MAG performs competitively to state‐of‐the‐art language models when evaluated against a comprehensive set of data for automated inference of moral norms and moral judgment of concepts, and in‐context moral inference. We also show that our model yields interpretable outputs and is applicable to informing short‐term moral change."
-ethics_perspective: "Responsible AI"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Moral Association Graph: Cognitive Model for Interpretable Moral Inference
 

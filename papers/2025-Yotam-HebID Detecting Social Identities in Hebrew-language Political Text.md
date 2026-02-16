@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli"
 languages_list: "Hebrew"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "DictaLM2.0, AlephBERT, mBERT"
 DATA_URL: "https://github.com/guymorlan/hebid/"
 tags: 
 abstract: "Political language is deeply intertwined with social identities. While social identities are often shaped by specific cultural contexts, existing NLP datasets are predominantly Englishcentric and focus on coarse-grained identity categories. We introduce HEBID, the first multilabel Hebrew corpus for social identity detection. The corpus contains 5,536 sentences from Israeli politicians’ Facebook posts (Dec 2018– Apr 2021), with each sentence manually annotated for twelve nuanced social..."
-research_topic: "Bias & Fairness"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset"
+data_metrics: "Not specified"
 ---
 # HebID: Detecting Social Identities in Hebrew-language Political Text
 

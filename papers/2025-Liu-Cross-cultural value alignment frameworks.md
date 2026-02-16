@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,17 +34,17 @@ key_contribution: "Develops Multi-Layered Auditing Platform comparing value alig
 significance: "Shows larger LLMs favor deontological perspective; reveals cultural differences in ethical reasoning across 20+ models"
 abstract: "As Large Language Models (LLMs) increasingly influence high-stakes decisionmaking across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a MultiLayered Auditing Platform for Responsible AI that systematically evaluates crosscultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-is_benchmark: "Yes"
+is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Multilingual benchmark for moral/ethical reasoning text corpus"
+data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-3.5, Claude, Llama-3, Llama-2, Mistral, Mixtral, Qwen, DeepSeek"
-DATA_URL: "NA"
 ---
 # Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis
 

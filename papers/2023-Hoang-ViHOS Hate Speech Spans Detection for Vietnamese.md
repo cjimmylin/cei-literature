@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for
 local_pdf: "[[PDFs/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.pdf]]"
 publication: "ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset"
-data_metrics: "11k comments"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/phusroyal/ViHOS"
 tags: 
 abstract: "The rise in hateful and offensive language directed at other users is one of the adverse side effects of the increased use of social networking platforms. This could make it difficult for human moderators to review tagged comments filtered by classification systems. To help address this issue, we present the ViHOS (Vietnamese Hate and Offensive Spans) dataset, the first human-annotated corpus containing 26k spans on 11k comments."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset"
+data_metrics: "Not specified"
 ---
 # ViHOS: Hate Speech Spans Detection for Vietnamese
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ external_pdf: "https://arxiv.org/pdf/2601.12652.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..md"
 local_pdf: "[[PDFs/2025/2025-Wu-Chain-of-Ethics Defense Framework Wu et al..pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
+tags: 
+abstract: "Background: While Large Language Models (LLMs) have achieved widespread adoption, malicious prompt engineering—specifically 'jailbreak attacks'—poses severe security risks by inducing models to bypass internal safety mechanisms. Current benchmarks predominantly focus on public safety and Western cultural norms, leaving a critical gap in evaluating the niche, high-risk domain of medical ethics within the Chinese context."
+LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Background: While Large Language Models (LLMs) have achieved widespread adoption, malicious prompt engineering—specifically 'jailbreak attacks'—poses severe security risks by inducing models to bypass internal safety mechanisms. Current benchmarks predominantly focus on public safety and Western cultural norms, leaving a critical gap in evaluating the niche, high-risk domain of medical ethics within the Chinese context."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-4o, Claude, DeepSeek, Qwen"
-DATA_URL: "NA"
 ---
 # Chain-of-Ethics: Defense Framework (Wu et al.)
 

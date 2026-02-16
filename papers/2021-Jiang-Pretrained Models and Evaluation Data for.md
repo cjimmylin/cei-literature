@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data
 local_pdf: "[[PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
 publication: "IEEE Xplore / Tsinghua Science and Technology"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Khmer"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Trained on a large corpus, pretrained models (PTMs) can capture different levels of concepts in context and hence generate universal language representations, which greatly beneﬁt downstream natural language processing (NLP) tasks. In recent years, PTMs have been widely used in most NLP applications, especially for high-resource languages, such as English and Chinese. However, scarce resources have discouraged the progress of PTMs for low-resource languages."
-data_description: "Evaluation approach text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ELECTRA, word2vec"
 DATA_URL: "https://github.com/SunYanCN/seqeval"
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Pretrained Models and Evaluation Data for the Khmer Language
 

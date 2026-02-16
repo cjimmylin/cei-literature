@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +23,6 @@ pdf_extract: "PDF Extracts/0000/2025-Kasu-EthicsMH.md"
 local_pdf: "[[PDFs/2025/2025-Kasu-EthicsMH.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "The deployment of large language models (LLMs) in mental health and other sensitive domains raises urgent questions about ethical reasoning, fairness, and responsible alignment. Yet, existing benchmarks for moral and clinical decision-making do not adequately capture the unique ethical dilemmas encountered in mental health practice, where confidentiality, autonomy, beneficence, and bias frequently intersect."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: ChatGPT
 DATA_URL: "https://huggingface.co/datasets/UVSKKR/Ethical-Reasoning-in-Mental-Health-v1"
 normative_ethics_benchmark: Borderline
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "125 scenarios"
 ---
 # EthicsMH
 

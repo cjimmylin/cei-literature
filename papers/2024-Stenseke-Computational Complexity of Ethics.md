@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,17 +37,18 @@ abstract: "Why should moral philosophers, moral psychologists, and machine ethic
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Stenseke-Computational Complexity of Ethics.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3"
+DATA_URL: "NA"
 ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3"
-DATA_URL: "NA"
 ---
 # Computational Complexity of Ethics
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.md"
 local_pdf: "[[PDFs/2025/2025-Heredia-Conditioning LLMs to Generate Code-Switched Text.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "Code-switching, English, Hindi"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BLOOM, BERT, GPT-4o, Llama, Llama3, Llama3.3, Mistral 31.65 80, Mistral 368.0 5, Mistral 7B, Mistral Instruct"
+DATA_URL: "NA"
+tags: 
+abstract: "Code-switching (CS) is still a critical challenge in Natural Language Processing (NLP), due to the limited availability of large-scale, diverse CS datasets for robust training and evaluation. Despite recent advances, the true capabilities and limitations of LLMs in handling CS remain underexplored. In this work, we investigate the extent to which LLMs can be used in a framework for CS text generation, focusing on the English-Spanish language pair."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "BLOOM, BERT, GPT-4o, Llama, Llama3, Llama3.3, Mistral 31.65 80, Mistral 368.0 5, Mistral 7B, Mistral Instruct"
-DATA_URL: "NA"
-tags: 
-abstract: "Code-switching (CS) is still a critical challenge in Natural Language Processing (NLP), due to the limited availability of large-scale, diverse CS datasets for robust training and evaluation. Despite recent advances, the true capabilities and limitations of LLMs in handling CS remain underexplored. In this work, we investigate the extent to which LLMs can be used in a framework for CS text generation, focusing on the English-Spanish language pair."
-research_topic: "NLP & Representation Learning"
 ---
 # Conditioning LLMs to Generate Code-Switched Text
 

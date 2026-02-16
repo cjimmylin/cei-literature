@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Data Science Journal / arXiv
 local_pdf: "[[PDFs/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Maori"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
-ethics_perspective: "Responsible AI"
 ---
 # Maori Algorithmic Sovereignty: Idea, Principles, and Use
 

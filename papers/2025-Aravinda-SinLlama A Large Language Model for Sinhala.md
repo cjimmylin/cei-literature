@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Aravinda-SinLlama A Large Language Model fo
 local_pdf: "[[PDFs/2025/2025-Aravinda-SinLlama A Large Language Model for Sinhala.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sri Lankan"
 languages_list: Sinhala
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BLOOMZ, GPT-4, Gemma, Llama, Llama-3, Mistral, Mistral 7B, Phi3, RoBERTa, BERT"
 DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
 abstract: "Low-resource languages such as Sinhala are often overlooked by open-source Large Language Models (LLMs). Therefore, it is imperative that the existing LLMs are further trained to cover such languages. In this research, we extend an existing multilingual LLM (Llama-3-8B) to get a better coverage for Sinhala. We enhanced the LLM tokenizer with Sinhala specific vocabulary and performed continual pre-training on a 10 million sentence Sinhala corpus, resulting in the SinLlama model."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus"
+data_metrics: "10m sentence"
 ---
 # SinLlama: A Large Language Model for Sinhala
 

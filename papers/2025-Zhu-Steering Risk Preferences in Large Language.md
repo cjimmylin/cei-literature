@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +37,18 @@ local_pdf: "[[PDFs/2025/2025-Zhu-Steering Risk Preferences in Large Language.pdf
 key_contribution: "Proposes a principled approach for steering risk preferences in LLMs by aligning behavioral representations (elicited via MCMC) with neural representations (activations)."
 significance: "Bridges the gap between behavioral psychometrics and mechanistic interpretability, providing a lightweight, training-free way to control model risk-taking behavior for safer alignment."
 DATE_ADDED: 20260208
-ethics_overall: "No"
+LLM_assessed: Gemma
+DATA_URL: "NA"
+ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: Gemma
-DATA_URL: "NA"
 ---
 # Steering Risk Preferences in Large Language Models by Aligning Behavioral and Neural Representations
 

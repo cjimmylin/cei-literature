@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +35,18 @@ significance: "Confirmed that situational factors (like physical contact) univer
 tags: 
 abstract: "Much research on moral judgment is centered on moral dilemmas in which deontological perspectives (i.e., emphasizing rules, individual rights and duties) are in conflict with utilitarian judgements (i.e., following the greater good defined through consequences). A central finding of this field Greene et al. showed that psychological and situational factors (e.g., the intent of the agent, or physical contact between the agent and the victim) play an important role in people's use of deontological"
 DATE_ADDED: 20260129
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_perspective: "General Ethics"
 ethics_overall: "Yes"
 virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "General Ethics"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample
 

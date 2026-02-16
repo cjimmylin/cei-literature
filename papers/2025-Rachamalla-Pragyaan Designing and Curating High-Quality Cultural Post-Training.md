@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / MRL 2025
 local_pdf: "[[PDFs/2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "The effectiveness of Large Language Models (LLMs) depends heavily on the availability of high-quality post-training data, particularly instruction-tuning and preference-based examples. Existing open-source datasets, however, often lack multilingual coverage, cultural grounding, and suffer from task diversity gaps that are especially pronounced for Indian languages. We introduce a human-inthe-loop pipeline that combines translations with synthetic expansion to produce reliable and diverse Indic..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Pragyaan: Designing and Curating High-Quality Cultural Post-Training Datasets for Indian Languages
 

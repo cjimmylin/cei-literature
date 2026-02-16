@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ paper_summary: "Overview: Optimized Quran Passage Retrieval Using an Expanded QA
 local_pdf: "[[PDFs/2024/2024-Basem-Optimized Quran Passage Retrieval Using an.pdf]]"
 abstract: "Understanding the deep meanings of the Qur’an and the bridge the language gap between modern standard Arabic and classical Arabic is essential to improve the question-and-answer system for the Holy Qur’an. The Qur’an QA 2023 shared task dataset had limited number of questions with weak model retrieval. To address this challenge, this work was done to update the original dataset and improve the model accuracy."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://huggingface.co/datasets/ImruQays"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "251 questions; 629 questions"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://huggingface.co/datasets/ImruQays"
 ---
 # Optimized Quran Passage Retrieval Using an Expanded QA Dataset and Fine-Tuned Language Models
 

@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2025/2025-Han-MuBench Assessment of Multilingual Capa
 local_pdf: "[[PDFs/2025/2025-Han-MuBench Assessment of Multilingual Capabilities of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
@@ -35,17 +34,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "Multilingual large language models (LLMs) are advancing rapidly, with new models frequently claiming support for an increasing number of languages. However, existing evaluation datasets are limited and lack cross-lingual alignment, leaving assessments of multilingual capabilities fragmented in both language and skill coverage. To address this, we introduce MUBENCH, a benchmark covering 61 languages and evaluating a broad range of capabilities."
-data_description: "Evaluation approach"
-data_metrics: "61 languages"
 LLM_assessed: "GPT-4o, Gemma, Gemma 2, Gemma 3, Gemma-3, Gemma2, Gemma3, Llama-2, Qwen, Qwen2.5, Qwen3, gemma-2"
 DATA_URL: "https://github.com/vllm-project/vllm"
-ethics_perspective: "AI Safety & Alignment"
 research_topic: "Machine Translation"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Hallucination & Truthfulness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "61 languages"
 ---
 # MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages
 

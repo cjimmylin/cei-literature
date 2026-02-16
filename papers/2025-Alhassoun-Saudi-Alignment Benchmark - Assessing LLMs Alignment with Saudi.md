@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ external_pdf: "https://aclanthology.org/2025.arabicnlp-main.11.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md"
 local_pdf: "[[PDFs/2025/2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Saudi"
 languages_list: "Arabic"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "For effective use in specific countries, Large Language Models (LLMs) need a strong grasp of local culture and core knowledge to ensure socially appropriate, context-aware, and factually correct responses. Existing Arabic and Saudi benchmarks are limited, focusing mainly on dialects or lifestyle, with little attention to deeper cultural or domain-specific alignment from authoritative sources. To address this gap and the challenge LLMs face with nonWestern cultural nuance, this study introduces..."
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "For effective use in specific countries, Large Language Models (LLMs) need a strong grasp of local culture and core knowledge to ensure socially appropriate, context-aware, and factually correct responses. Existing Arabic and Saudi benchmarks are limited, focusing mainly on dialects or lifestyle, with little attention to deeper cultural or domain-specific alignment from authoritative sources. To address this gap and the challenge LLMs face with nonWestern cultural nuance, this study introduces..."
-ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Llama-2"
-DATA_URL: "NA"
 ---
 # Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms
 

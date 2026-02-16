@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained 
 local_pdf: "[[PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
 publication: "arXiv / ACL 2022"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew"
 languages_list: Hebrew
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/OnlpLab/AlephBERT"
 tags: 
 abstract: "Large Pre-trained Language Models (PLMs) have become ubiquitous in the development of language understanding technology and lie at the heart of many artiﬁcial intelligence advances. While advances reported for English using PLMs are unprecedented, reported advances using PLMs in Hebrew are few and far between. The problem is twofold. First, Hebrew resources available for training NLP models are not at the same order of magnitude as their English counterparts."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # AlephBERT: A Hebrew Large Pre-Trained Language Model to Start-off your Hebrew NLP Application With
 

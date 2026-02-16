@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Isbarov-Open foundation models for Azerbaij
 local_pdf: "[[PDFs/2024/2024-Isbarov-Open foundation models for Azerbaijani language.pdf]]"
 publication: "SIGTURK 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Azerbaijani"
 languages_list: "Azerbaijani"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "The emergence of multilingual large language models has enabled the development of language understanding and generation systems in Azerbaijani. However, most of the productiongrade systems rely on cloud solutions, such as GPT-4. While there have been several attempts to develop open foundation models for Azerbaijani, these works have not found their way into common use due to a lack of systemic benchmarking."
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, DeBERTa-Base, RoBERTa"
 DATA_URL: "NA"
 research_topic: "Machine Translation"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus for question answering"
+data_metrics: "651.1m words; 1m words"
 ---
 # Open foundation models for Azerbaijani language
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, American"
 cultures_nationalities_list: "African American community, US minority cultures"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have emerged as a powerful technology, and thus, we have seen widespread adoption and use on software engineering teams. Most often, LLMs are designed as “general purpose” technologies meant to represent the general population. Unfortunately, this often means alignment with predominantly Western Caucasian narratives and misalignment with other cultures and populations that engage in collaborative innovation."
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # CIVIQ: Towards A Cultural Intelligence and Values Inference Quality Benchmark for Community Values and Common Knowledge
 

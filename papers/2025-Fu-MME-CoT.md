@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,8 +30,10 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Fu-MME-CoT.md"
 abstract: "Answering questions with Chain-of-Thought (CoT) has significantly enhanced the reasoning capabilities of Large Language Models (LLMs), yet its impact on Large Multimodal Models (LMMs) still lacks a systematic assessment and in-depth investigation. In this paper, we introduce MMECoT, a specialized benchmark evaluating the CoT reasoning performance of LMMs, spanning six domains: math, science, OCR, logic, space-time, and general scenes."
 paper_summary: "Abstract: Answering questions with Chain-of-Thought (CoT) has significantly enhanced the reasoning ca- pabilities of Large Language Models (LLMs), yet its impact on Large Multimodal Models (LMMs) still lacks a  | Overview: MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Models for Reasoning Quality, Robustness, and Efficiency Dongzhi Jiang∗1 , Renrui Zhang∗† 1 , Ziyu Guo 2 , Yanwei Li‡ 3 , Yu Qi‡ 4 , Xinyan C | Key Findings: suite to facilitate a comprehensive understanding of the LMMs' reasoning abilities. We detail the evaluation of cor- rectness in Section 3.1, stabilit | Conclusions: 1. The radius of the semicircle is..."
-local_pdf: [[PDFs/2025/2025-Fu-MME-CoT.pdf]]
+local_pdf: "[[PDFs/2025/2025-Fu-MME-CoT.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Qwen, DeepSeek"
+DATA_URL: "https://mmecot.github.io/"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Qwen, DeepSeek"
-DATA_URL: "https://mmecot.github.io/"
 ---
 # MME-CoT: Benchmarking Chain-of-Thought in Large Multimodal Models
 

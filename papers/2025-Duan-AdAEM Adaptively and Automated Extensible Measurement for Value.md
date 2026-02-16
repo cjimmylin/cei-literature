@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Duan-AdAEM Adaptively and Automated Extensi
 local_pdf: "[[PDFs/2025/2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Assessing Large Language Models (LLMs)’ underlying value differences enables comprehensive comparison of their misalignment, cultural adaptability, and biases. Nevertheless, current value measurement datasets face the informativeness challenge: with often outdated, contaminated, or generic test questions, they can only capture the shared value orientations among different LLMs, leading to saturated and thus uninformative results."
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Qwen, DeepSeek"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Assessing Large Language Models (LLMs)’ underlying value differences enables comprehensive comparison of their misalignment, cultural adaptability, and biases. Nevertheless, current value measurement datasets face the informativeness challenge: with often outdated, contaminated, or generic test questions, they can only capture the shared value orientations among different LLMs, leading to saturated and thus uninformative results."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "12,310 questions"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Qwen, DeepSeek"
-DATA_URL: "NA"
 ---
 # AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment
 

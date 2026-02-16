@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "ACL Anthology (BLP 2025)"
 pdf_extract: "PDF Extracts/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi, Bengali"
 languages_list: Bengali
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for ai safety annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "GPT 4o, GPT-4o, Gemma, Gemma-3, Llama, LLaMA-3.1, Mistral 7B, Phi-4 14B, Qwen, Qwen-2.5"
 DATA_URL: "https://huggingface.co/datasets/aplycaebous/BanHate"
 tags: 
 abstract: "Online safety in low-resource languages relies on effective hate speech detection, yet Bangla remains critically underexplored. Existing resources focus narrowly on binary classification and fail to capture the evolving, implicit nature of online hate. To address this, we introduce BANHATE, a large-scale Bangla hate speech dataset, comprising 19,203 YouTube comments collected between April 2024 and June 2025."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset"
+data_metrics: "Not specified"
 ---
 # BanHate: An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset
 

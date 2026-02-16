@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Gómez-RigoChat 2 An Adapted Language Model
 local_pdf: "[[PDFs/2025/2025-Gómez-RigoChat 2 An Adapted Language Model to Spanish Using a Bounded.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: Spanish
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5-turbo, GPT-4o, GPT-4o-mini, Gemma, GPT-4, Llama, Llama 3.1, Llama-3.1, Qwen-2.5, Qwen2, Qwen2.5, gemma-2, llama 3, llama."
 DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "Large Language Models (LLMs) have become a key element of modern artificial intelligence, demonstrating the ability to address a wide range of language processing tasks at unprecedented levels of accuracy without the need of collecting problem-specific data. However, these versatile models face a significant challenge: both their training and inference processes require substantial computational resources, time, and memory."
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # RigoChat 2: An Adapted Language Model to Spanish Using a Bounded Dataset and Reduced Hardware
 

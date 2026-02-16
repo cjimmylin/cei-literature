@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +34,10 @@ significance: "A creative, gamified benchmark testing 'discretionary ethics' –
 pdf_extract: "PDF Extracts/2025/2025-Myung-PapersPlease.md"
 abstract: "Evaluating the performance and biases of large language models (LLMs) through role-playing scenarios is becoming increasingly common, as LLMs often exhibit biased behaviors in these contexts. Building on this line of research, we introduce PAPERSPLEASE, a benchmark consisting of 3,700 moral dilemmas designed to investigate LLMs’ decision-making in prioritizing various levels of human needs. In our setup, LLMs act as immigration inspectors deciding whether to approve or deny entry based on the..."
 paper_summary: "Abstract: Evaluating the performance and biases of large language models (LLMs) through role-playing scenarios is becoming increasingly common, as LLMs often exhibit biased behaviors in these contexts. Building | Overview: arXiv:2506.21961v1 [cs.CL] 27 Jun 2025 PAPERSPLEASE: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory Junho Myung* Yeon Su Park* Sunwoo Kim* Shin Yoo Alice O | Key Findings: In this section, we analyze the results of (1) indi- vidual case evaluation, (2) comparative case eval- uation, and (3) social dimension case evaluati | Conclusions: In this study, we introduced PAPERSPLEASE, a novel benchmark of 3,700 role-playing scenarios designed to evaluate how LLMs reason about hu- man motiva"
-local_pdf: [[PDFs/2025/2025-Myung-PapersPlease.pdf]]
+local_pdf: "[[PDFs/2025/2025-Myung-PapersPlease.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Llama, Qwen"
+DATA_URL: "https://github.com/yeonsuuuu28/papers-please"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Llama, Qwen"
-DATA_URL: "https://github.com/yeonsuuuu28/papers-please"
 ---
 # PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory
 

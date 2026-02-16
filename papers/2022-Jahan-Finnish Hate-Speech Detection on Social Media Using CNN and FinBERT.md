@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "ACL Anthology / LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md"
 local_pdf: "[[PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Finnish"
 languages_list: Finnish
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: FinBERT
 DATA_URL: "https://github.com/saroarjahan/FinBERT"
 tags: 
 abstract: "There has been a lot of research in identifying hate posts from social media because of their detrimental effects on both individuals and society. The majority of this research has concentrated on English, although one notices the emergence of multilingual detection tools such as multilingual-BERT (mBERT). However, there is a lack of hate speech datasets compared to English, and a multilingual pre-trained model often contains fewer tokens for other languages."
 research_topic: Other
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "10.7k sentences"
 ---
 # Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
 

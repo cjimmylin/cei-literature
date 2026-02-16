@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,8 @@ abstract: "Being a complex subject of major importance in AI Safety research, va
 paper_summary: 
 local_pdf: "[[PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Requisite Variety Ethical Utility Functions
 

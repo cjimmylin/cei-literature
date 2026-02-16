@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual B
 local_pdf: "[[PDFs/2025/2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "We introduce DRISHTIKON, a first-of-its-kind multimodal and multilingual benchmark centered exclusively on Indian culture, designed to evaluate the cultural understanding of generative AI systems. Unlike existing benchmarks with a generic or global scope, DRISHTIKON offers deep, fine-grained coverage across India’s diverse regions, spanning 15 languages, covering all states and union territories, and incorporating over 64,000 aligned text-image pairs."
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "15 languages"
 LLM_assessed: "GPT-4o, GPT-4o mini, GPT-4o-mini, Gemma, Gemma-3, GPT-4, Mistral-7B, Qwen2, Qwen2.5"
 DATA_URL: "https://huggingface.co/datasets/13ari/DRISHTIKON"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "15 languages"
 ---
 # DRISHTIKON: A Multimodal Multilingual Benchmark for Testing Language Models' Understanding on Indian Culture
 

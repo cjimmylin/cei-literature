@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +35,18 @@ significance: "Provides formal logical basis for machine ethics that enables AI 
 tags: 
 abstract: "We propose a deontological approach to machine (or AI) ethics that avoids some weaknesses of an intuition-based system, such as that of Anderson and Anderson. In particular, it has no need to deal with conﬂicting intuitions, and it yields a more satisfactory account of when autonomy should be respected. We begin with a “dual standpoint” theory of action that regards actions as grounded in reasons and therefore as having a conditional form that is suited to machine instructions."
 DATE_ADDED: 20260208
+research_topic: "Machine Ethics"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-research_topic: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Toward Non-Intuition-Based Machine and Artificial Intelligence Ethics: A Deontological Approach Based on Modal Logic
 

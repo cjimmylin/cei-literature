@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ external_pdf: "https://arxiv.org/pdf/2502.05849.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.md"
 local_pdf: "[[PDFs/2024/2024-Team-FABLE Fairness and Bias in LLM Evaluation.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Recent failures such as Google Gemini generating people of color in Nazi-era uniforms illustrate how AI outputs can be factually plausible yet socially harmful. AI models are increasingly evaluated for “fairness,” yet existing benchmarks often conflate two fundamentally different dimensions: factual correctness and normative fairness. A model may generate responses that are factually accurate but socially unfair, or conversely, appear fair while distorting factual reality."
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, Qwen"
+DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Recent failures such as Google Gemini generating people of color in Nazi-era uniforms illustrate how AI outputs can be factually plausible yet socially harmful. AI models are increasingly evaluated for “fairness,” yet existing benchmarks often conflate two fundamentally different dimensions: factual correctness and normative fairness. A model may generate responses that are factually accurate but socially unfair, or conversely, appear fair while distorting factual reality."
-ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-3, Qwen"
-DATA_URL: "https://github.com/uclanlp/Fact-or-Fair"
 ---
 # FABLE (Fairness and Bias in LLM Evaluation)
 

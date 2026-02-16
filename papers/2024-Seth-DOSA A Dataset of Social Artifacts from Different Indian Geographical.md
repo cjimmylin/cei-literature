@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / LREC-COLING 2024
 local_pdf: "[[PDFs/2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama-2, PaLM-2, Falcon"
 DATA_URL: "NA"
 tags: 
 abstract: "Generative models are increasingly being used in various applications, such as text generation, commonsense reasoning, and question-answering. To be effective globally, these models must be aware of and account for local socio-cultural contexts, making it necessary to have benchmarks to evaluate the models for their cultural familiarity. Since the training data for LLMs is web-based and the Web is limited in its representation of information, it does not capture knowledge present within..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures
 

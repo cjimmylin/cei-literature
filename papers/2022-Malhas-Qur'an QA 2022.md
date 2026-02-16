@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,8 @@ abstract: "Motivated by the resurgence of the machine reading comprehension (MRC
 pdf_extract: "PDF Extracts/2022/2022-Malhas-Qur'an QA 2022.md"
 local_pdf: "[[PDFs/2022/2022-Malhas-Qur'an QA 2022.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "https://gitlab.com/bigirqu/quranqa"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,8 +42,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "https://gitlab.com/bigirqu/quranqa"
 ---
 # Qur'an QA 2022: Overview of The First Shared Task on Question Answering over the Holy Qur'an
 

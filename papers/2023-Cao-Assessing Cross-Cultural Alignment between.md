@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "The recent release of ChatGPT has garnered widespread recognition for
 paper_summary: "Abstract: The recent release of ChatGPT has garnered widespread recognition for its exceptional abil- ity to generate human-like responses in dia- logue. Given its usage by users from various nations and its tr | Overview: Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study Yong Cao12, Li Zhou23, Seolhwa Lee4, Laura Cabello2, Min Chen5, Daniel Hershcovich2 1Huazhong University of S | Methodology: In this section, we elaborate on the survey,3 our probing prompts, and interaction strategy below. | Key Findings: Before comparing the model outputs to human sur- vey responses, it is important to verify that the model is consistent when asked the same ques- tion"
 local_pdf: "[[PDFs/2023/2023-Cao-Assessing Cross-Cultural Alignment between.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: ChatGPT
+DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: ChatGPT
-DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
 ---
 # Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study
 

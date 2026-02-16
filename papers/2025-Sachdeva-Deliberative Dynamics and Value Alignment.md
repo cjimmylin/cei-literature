@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "As large language models (LLMs) are increasingly deployed in sensitiv
 paper_summary: "Abstract: As large language models (LLMs) are increasingly deployed in sensitive everyday contexts – offering personal advice, mental health support, and moral guidance – understanding their elicited values in  | Overview: Preprint. DELIBERATIVE DYNAMICS AND VALUE ALIGNMENT IN LLM DEBATES Pratik S. Sachdeva & Tom van Nuenen D-Lab University of California, Berkeley Berkeley, CA 94709, USA {pratik.sachdeva,tomvannuenen}@b | Key Findings: settings and adapt their behavior accordingly (Needham et al., 2025; Nguyen et al., 2025; Abdelnabi & Salem, 2025). Collectively, these findings sugge | Conclusions: In this work, we used multi-turn deliberation of everyday dilemmas as a lens for understanding deliberation dynamics, value alignment, and order effec"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Deliberative Dynamics and Value Alignment.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude, Gemini"
+DATA_URL: "https://anonymous.4open.science/r/llm_deliberation_values-86E7/README.md"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini"
-DATA_URL: "https://anonymous.4open.science/r/llm_deliberation_values-86E7/README.md"
 ---
 # Deliberative Dynamics and Value Alignment in LLM Debates
 

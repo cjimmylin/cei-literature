@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: LSRC0723
 type: preprint
 short_title: "Advancing Hate Speech Detection with Transformers: Insights from the MetaHate"
 year: 2025
-first_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.arxiv.org/pdf/2508.04913"
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md"
 local_pdf: "[[PDFs/2025/2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "N/A"
 languages_list: Japanese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BART, BART 0, BERT, DeBERTa, DeBERTa 0, DistilBERT, ELECTRA, GPT-2, GPT2, RoBERTa, T5, T5 0, XLNet"
+DATA_URL: "https://github.com/chapagaisa/hate_speech_detection"
+tags: 
+abstract: "Hate speech is a widespread and harmful form of online discourse, encompassing slurs and defamatory posts that can have serious social, psychological, and sometimes physical impacts on targeted individuals and communities. As social media platforms such as X (formerly Twitter), Facebook, Instagram, Reddit, and others continue to facilitate widespread communication, they also become breeding grounds for hate speech, which has increasingly been linked to real-world hate crimes."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset for hate speech detection"
 data_metrics: "36 datasets"
-LLM_assessed: "BART, BART 0, BERT, DeBERTa, DeBERTa 0, DistilBERT, ELECTRA, GPT-2, GPT2, RoBERTa, T5, T5 0, XLNet"
-DATA_URL: "https://github.com/chapagaisa/hate_speech_detection"
-tags: 
-abstract: "Hate speech is a widespread and harmful form of online discourse, encompassing slurs and defamatory posts that can have serious social, psychological, and sometimes physical impacts on targeted individuals and communities. As social media platforms such as X (formerly Twitter), Facebook, Instagram, Reddit, and others continue to facilitate widespread communication, they also become breeding grounds for hate speech, which has increasingly been linked to real-world hate crimes."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Advancing Hate Speech Detection with Transformers: Insights from the MetaHate
 

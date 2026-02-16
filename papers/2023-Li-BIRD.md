@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,20 +30,20 @@ tags:
 research_topic: Other
 abstract: "Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database values leaving the gap between academic study and real-world applications."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
+DATA_URL: "https://bird-bench.github.io/"
+pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
+local_pdf: "[[PDFs/2023/2023-Li-BIRD.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Hallucination & Truthfulness"
+ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
-DATA_URL: "https://bird-bench.github.io/"
-pdf_extract: "PDF Extracts/2023/2023-Li-BIRD.md"
-local_pdf: [[PDFs/2023/2023-Li-BIRD.pdf]]
 ---
 # BIRD: BIg Bench for LaRge-scale Database Grounded Text-to-SQL Evaluation
 

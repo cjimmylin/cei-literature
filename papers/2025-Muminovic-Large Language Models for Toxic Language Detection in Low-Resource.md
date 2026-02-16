@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Muminovic-Large Language Models for Toxic L
 local_pdf: "[[PDFs/2025/2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Serbian, Croatian, Bosnian"
 languages_list: "Bosnian, Croatian, Serbian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3 Opus, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, claude-3-opus"
 DATA_URL: "https://github.com/Ammce/llm-"
 tags: 
 abstract: "Online toxic language causes real harm, especially in regions with limited moderation tools. In this study, we evaluate how large language models handle toxic comments in Serbian, Croatian, and Bosnian, languages with limited labeled data. We built and manually labeled a dataset of 4,500 YouTube and TikTok comments drawn from videos across diverse categories, including music, politics, sports, modeling, influencer content, discussions of sexism, and general topics."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Large Language Models for Toxic Language Detection in Low-Resource Balkan Languages
 

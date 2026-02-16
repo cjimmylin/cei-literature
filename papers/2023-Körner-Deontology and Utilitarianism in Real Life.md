@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ tags:
 abstract: "Moral dilemmas are frequently used to examine psychological processes that drive decisions between adhering to deontological norms and optimizing the outcome. However, commonly used dilemmas are generally unrealistic and confound moral principle and (in)action so that results obtained with these dilemmas might not generalize to other situations. In the present research, we introduce new dilemmas that are based on real-life events."
 pdf: "https://doi.org/10.1177/01461672221103058"
 DATE_ADDED: 20260208
+LLM_assessed: "Bartels"
+DATA_URL: "https://osf.io/cg5tq"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -42,8 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Bartels"
-DATA_URL: "https://osf.io/cg5tq"
 ---
 # Deontology and Utilitarianism in Real Life: A Set of Moral Dilemmas Based on Historic Events
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.md"
 local_pdf: "[[PDFs/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, DeepseekV2, GPT-4, GPT-4-Turbo, Llama, Llama 2, Llama3.1, Qwen2, llama-3.1"
+DATA_URL: "https://github.com/joenahm/MM-Eval"
+tags: 
+abstract: "Large language models (LLMs) excel in highresource languages but face notable challenges in low-resource languages like Mongolian. This paper addresses these challenges by categorizing capabilities into language abilities (syntax and semantics) and cognitive abilities (knowledge and reasoning). To systematically evaluate these areas, we developed MM-Eval, a specialized dataset based on Modern Mongolian Language Textbook I and enriched with WebQSP and MGSM datasets."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, DeepseekV2, GPT-4, GPT-4-Turbo, Llama, Llama 2, Llama3.1, Qwen2, llama-3.1"
-DATA_URL: "https://github.com/joenahm/MM-Eval"
-tags: 
-abstract: "Large language models (LLMs) excel in highresource languages but face notable challenges in low-resource languages like Mongolian. This paper addresses these challenges by categorizing capabilities into language abilities (syntax and semantics) and cognitive abilities (knowledge and reasoning). To systematically evaluate these areas, we developed MM-Eval, a specialized dataset based on Modern Mongolian Language Textbook I and enriched with WebQSP and MGSM datasets."
-research_topic: "Machine Learning"
 ---
 # MM-Eval: A Hierarchical Benchmark for Modern Mongolian Evaluation in LLMs
 

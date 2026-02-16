@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,19 +35,20 @@ pdf_extract: "PDF Extracts/2025/2025-Dillion-AI Language Model Rivals Expert Eth
 abstract: "This study advances work on the Moral Turing Test and finds that Americans rate ethical advice from GPT-4o as slightly more moral, trustworthy, thoughtful, and correct than that of the popular New York Times advice column, The Ethicist. Participants perceived GPT models as surpassing both a representative sample of Americans and a renowned ethicist in delivering moral justifications and advice...."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Dillion-AI Language Model Rivals Expert Ethicist.pdf]]"
-ethics_overall: "No"
+LLM_assessed: "GPT-3.5, GPT-4"
+DATA_URL: "https://osf.io/9684s"
+DATE_ADDED: 20260207
+research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4"
-DATA_URL: "https://osf.io/9684s"
-DATE_ADDED: 20260207
-research_topic: "NLP & Representation Learning"
 ---
 # AI Language Model Rivals Expert Ethicist
 

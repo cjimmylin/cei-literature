@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ external_pdf: "https://arxiv.org/pdf/2510.05703.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Fake Alignment FINE Framework.md"
 local_pdf: "[[PDFs/2024/2024-Wang-Fake Alignment FINE Framework.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The widespread application of Large Language Models (LLMs) imposes increasing demands on safety, such as reducing harmful content and fake information, and avoiding certain forbidden tokens due to rules and laws. While there have been several recent works studying safe alignment of LLMs, these works either require the training of reward and cost models and incur high memory and computational costs, or need prior knowledge about the optimal solution."
+LLM_assessed: "Alpaca, GPT-4, Llama, Llama-2"
+DATA_URL: "https://github.com/AIFlames/Fake-Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "The widespread application of Large Language Models (LLMs) imposes increasing demands on safety, such as reducing harmful content and fake information, and avoiding certain forbidden tokens due to rules and laws. While there have been several recent works studying safe alignment of LLMs, these works either require the training of reward and cost models and incur high memory and computational costs, or need prior knowledge about the optimal solution."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "Alpaca, GPT-4, Llama, Llama-2"
-DATA_URL: "https://github.com/AIFlames/Fake-Alignment"
 ---
 # Fake Alignment (FINE Framework)
 

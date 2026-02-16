@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Large Language Models(LLMs) have revolutionized various applications 
 paper_summary: "Abstract: Large Language Models(LLMs) have revolutionized various applications in natural language processing (NLP) by providing unprecedented text generation, translation, and comprehension capabilities. Howev | Overview: A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions Rajesh Ranjan (Carnegie Mellon University, USA) Shailja Gupta (Carnegie Mellon University, USA) Surya Narayan Singh (BIT | Key Findings: frameworks exist, they often rely on isolated metrics (e.g., gender or racial bias), leading to an incomplete view of fairness. There is a lack of com | Conclusions: This survey highlights the pervasive biases in Large Language Models (LLMs) and their significant implications for society. We discussed key sources o"
 local_pdf: "[[PDFs/2024/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GPT-2, GPT-3, GPT-4, LLaMA 2"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-2, GPT-3, GPT-4, LLaMA 2"
-DATA_URL: "NA"
 ---
 # A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions
 

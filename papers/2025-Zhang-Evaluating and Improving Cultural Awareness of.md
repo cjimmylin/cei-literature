@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Zhang-Evaluating and Improving Cultural Awa
 local_pdf: "[[PDFs/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Reward models (RMs) are crucial for aligning large language models (LLMs) with diverse cultures. Consequently, evaluating their cultural awareness is essential for further advancing global alignment of LLMs. However, existing RM evaluations fall short in assessing cultural awareness due to the scarcity of culturally relevant evaluation datasets. To fill this gap, we propose Cultural Awareness Reward modeling Benchmark (CARB), covering 10 distinct cultures across 4 cultural domains."
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, DeepSeek-GRM, DeepSeek-V3, GPT-4, GPT-4o, GPT4, Gemma, Gemma-2, Llama, LLaMA3, LLaMa-3.1, Llama 3.3, Llama-3, Llama3.1, Mistral, Mistral-7B, Qwen, Qwen-Instruct, Qwen2.5, Qwen3, llama 3"
 DATA_URL: "Not confirmed from search results"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment (CARB)
 

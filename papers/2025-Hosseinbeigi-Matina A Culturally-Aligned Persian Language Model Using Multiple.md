@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: ACL 2025 Findings
 local_pdf: "[[PDFs/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
 languages_list: "Persian"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1-8B"
 DATA_URL: "NA"
 tags: 
 abstract: "Creates culturally aligned datasets for Persian contexts and develops Matina by fine-tuning LLaMA3.1 across five domains using Multiple LoRA Experts. Demonstrates that culturally aligned datasets enable the model to surpass baselines in task performance and user satisfaction, embodying Iranian cultural values and linguistic structures."
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Matina: A Culturally-Aligned Persian Language Model Using Multiple LoRA Experts
 

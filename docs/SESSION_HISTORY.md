@@ -2,29 +2,56 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
-## Session 86 (Feb 16, 2026) - Languages List Verification & Report Staging
+## Session 86 (Feb 16, 2026) - Multi-Wave Plan: Reports, Data Fixes, Religious Tradition Search
 
 ### Overview
-Continuation session that verified the Languages List Backfill (completed in prior continuation). Re-ran 13 language list agents across 3 waves, fixed 31 stale filenames in agent results (27 renamed papers + 3 curly quote + 1 Unicode apostrophe), re-consolidated, and validated. All work confirmed idempotent — prior session already committed the data.
+Executed a comprehensive multi-wave plan covering report regeneration, data quality fixes, and the zero-coverage religious tradition search (Workstream B). Vault grew from 2,002 to 2,034 papers. Also verified languages list backfill, cleaned up 187 garbage author profiles, and partially resolved authors_incomplete papers.
+
+### Wave 1: Reports + Data Fixes (parallel)
+- 6 reports regenerated with `20260216-` prefixes (vault overview, values alignment, benchmark survey, LLM assessment, tradition gap, dashboard HTML)
+- 196 papers: unquoted wikilinks fixed (`local_pdf`, `first_author` fields)
+- 4 `[[Unknown]]` papers renamed to real authors (Shafique, Pandey, Hassan, Shafique) + extracts renamed
+
+### Wave 2: Validation
+- 2,002/2,002 pass, 0 errors, 0 `[[Unknown]]` bracket papers remaining
+
+### Wave 3: Religious Tradition Search (Workstream B)
+- 4 agents searched: Shinto (Z1), Baha'i (Z2), Zoroastrian (Z3), Indigenous N.America (Z4)
+- 42 papers found → 0 internal duplicates → 10 already in vault → 32 truly new imported
+- Full 7-stage classification pipeline ran on all 2,034 papers
+- Final validation: 2,034/2,034 pass, 0 errors, 0 duplicates
+
+### Additional Work (earlier continuations)
+- Languages list verification: idempotent re-consolidation, 31 stale filename fixes
+- 187 garbage author profiles moved to RECYCLE-BIN (3-tier classification)
+- 6/60 authors_incomplete papers resolved via Semantic Scholar (54 remaining, rate-limited)
 
 ### Results
 | Metric | Value |
 |--------|-------|
-| Language list field coverage | 2,002/2,002 (100%) |
-| Papers with language data | 1,415 (70.7%) |
-| Papers blank (no focus) | 587 (29.3%) |
-| Agent filename fixes | 31 (27 renamed, 3 curly quotes, 1 Unicode) |
-| Validation | 2,002/2,002 pass, 0 errors |
-| Uncommitted reports | 5 new STATISTICS + 3 script updates |
+| Vault papers | 2,002 → 2,034 (+32 new) |
+| Reports regenerated | 6 (all 20260216 prefixes) |
+| Wikilink fixes | 196 papers |
+| [[Unknown]] renames | 4 papers + 4 extracts |
+| Tradition search yield | Shinto 10, Indigenous 15, Zoroastrian 6, Baha'i 1 |
+| Garbage authors cleaned | 187 profiles |
+| Authors incomplete resolved | 6/60 |
+| Final validation | 2,034/2,034 pass, 0 errors |
+| New scripts created | 8 |
 
 ### Key Learnings
-- [Data Quality] Agent result files reference stale filenames when papers are renamed between batch-gen and consolidation — need programmatic old→new mapping
-- [YAML] macOS `Path.exists()` returns False when JSON has U+2019 but filesystem has U+0027 — even though `repr()` shows identical chars; use `glob()` to discover actual name
+- [Workflows] Agent JSONL output files need parsing from end to extract ```json code blocks — not clean JSON arrays
+- [Research] Baha'i has essentially zero dedicated AI academic papers; Indigenous AI is a rich and growing field (24 papers)
+- [Data Quality] Zoroastrian NLP saw a 2025 surge — 3 ACL papers from one research group (Farsi et al.)
+- [YAML] macOS Path.exists() returns False for U+2019 vs U+0027 mismatch — use glob() to discover actual name
 
 ### Files Changed
-- papers/: 0 net changes (idempotent re-consolidation)
-- STATISTICS/: 5 new reports + 1 dashboard (uncommitted, from Session 84b)
-- PYTHON/: 3 scripts modified (report date prefixes, uncommitted)
+- papers/: 36 new (32 ZERO imports + 4 renamed), ~1,999 modified (classification + wikilink fixes)
+- Authors/: 162 deleted (garbage cleanup)
+- PDF Extracts/: 4 renamed (Unknown→author)
+- PYTHON/: 8 new scripts
+- STATISTICS/: 6 new reports + 1 dashboard
+- logs/: zero-coverage master list + agent JSONs
 
 ## Session 85 (Feb 16, 2026) - Apply Author Fixes & PDF Download
 

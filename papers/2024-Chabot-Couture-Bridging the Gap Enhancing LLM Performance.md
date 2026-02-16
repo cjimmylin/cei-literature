@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Chabot-Couture-Bridging the Gap Enhancing L
 local_pdf: "[[PDFs/2024/2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance.pdf]]"
 publication: "AAAI 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable performance across various tasks, yet significant disparities remain for non-English languages, and especially native African languages. This paper addresses these disparities by creating approximately 1 million human-translated words of new benchmark data in 8 low-resource African languages, covering a population of over 160 million speakers of: Amharic, Bambara, Igbo, Sepedi (Northern Sotho), Shona, Sesotho (Southern Sotho), Setswana, and..."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BLOOMZ, GPT 3, GPT 3.5, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama 3, Llama 3.1, gpt-3.5-turbo, gpt-4-turbo"
 DATA_URL: "https://github.com/InstituteforDiseaseModeling/Bridging-the-Gap-Low-Resource-African-Languages (CC BY 4.0)"
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Bridging the Gap: Enhancing LLM Performance for Low-Resource African Languages with New Benchmarks, Fine-Tuning, and Cultural Adjustments
 

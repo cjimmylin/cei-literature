@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +34,10 @@ significance: "Demonstrates that standard Western hate speech detectors fail on 
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-NaijaHate.md"
 abstract: "To address the global issue of online hate, hate speech detection (HSD) systems are typically developed on datasets from the United States, thereby failing to generalize to English dialects from the Majority World. Furthermore, HSD models are often evaluated on non-representative samples, raising concerns about overestimating model performance in real-world settings. In this work, we introduce NAIJAHATE, the first dataset annotated for HSD which contains a representative sample of Nigerian..."
 paper_summary: "Abstract: To address the global issue of online hate, hate speech detection (HSD) systems are typi- cally developed on datasets from the United States, thereby failing to generalize to En- glish dialects from t | Overview: NAIJAHATE: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data Manuel Tonneau 1, 2, 3, Pedro Vitor Quinta de Castro 1, 4, Karim Lasri 1, 5, Ibrahim Farouq 1, 6, Lakshminaray | Methodology: (Lai et al., 2022), where a model flags content likely to infringe platform rules, which is then reviewed by humans who decide whether or not to moder | Key Findings: (Vidgen et al., 2020) or originate from largely un- moderated platforms, such as Gab (Kennedy et al., 2022), where hatred is much more prevalent and t | Conclusions: Performance overestimation We demonstrate that evaluating HSD on biased datasets leads to a large overestimation of real-world performance, the latter"
-local_pdf: [[PDFs/2024/2024-Tonneau-NaijaHate.pdf]]
+local_pdf: "[[PDFs/2024/2024-Tonneau-NaijaHate.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, BERT, DeBERTa, RoBERTa"
+DATA_URL: "https://github.com/worldbank/NaijaHate"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, BERT, DeBERTa, RoBERTa"
-DATA_URL: "https://github.com/worldbank/NaijaHate"
 ---
 # NaijaHate: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data
 

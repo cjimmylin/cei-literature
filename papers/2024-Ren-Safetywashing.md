@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,9 @@ pdf_extract: "PDF Extracts/0000/2024-Ren-Safetywashing.md"
 abstract: "As artificial intelligence systems grow more powerful, there has been increasing interest in 'AI safety' research to address emerging and future risks. However, the field of AI safety remains poorly defined and inconsistently measured, leading to confusion about how researchers can contribute. This lack of clarity is compounded by the unclear relationship between AI safety benchmarks and upstream general capabilities (e.g., general knowledge and reasoning). To address these issues, we conduct a"
 paper_summary: "Abstract: As artificial intelligence systems grow more powerful, there has been increasing interest in 'AI safety' research to address emerging and future risks. However, the field of AI safety remains poorly d | Overview: Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress? Richard Ren∗1,2, Steven Basart∗1, Adam Khoja1,3, Alice Gatti1, Long Phan1, Xuwang Yin1, Mantas Mazeika1, Alexander Pan3, Gabrie | Key Findings: Capabilities Correlation Compute Correlation MT-Bench 78.7% 79.8% LMSYS Chatbot Arena 62.1% 61.5% Table 2: Alignment with human preferences benchmarks | Conclusions: Benchmarks as incentive-setting. There are a variety of properties AI systems should satisfy, such as detailed domain knowledge, reasoning, lack of bi"
 local_pdf: "[[PDFs/2024/2024-Ren-Safetywashing.pdf]]"
+LLM_assessed: "Mixtral, Llama-3, Llama-2, Mistral, Falcon, Gemma, Qwen"
+DATA_URL: "NA"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,11 +46,8 @@ ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-data_description: "Benchmark"
+data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "Mixtral, Llama-3, Llama-2, Mistral, Falcon, Gemma, Qwen"
-DATA_URL: "NA"
-DATE_ADDED: 20260207
 ---
 # Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?
 

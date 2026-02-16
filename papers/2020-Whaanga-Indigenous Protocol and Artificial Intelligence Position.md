@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,10 +31,6 @@ pdf_access_url: "https://doi.org/10.11573/spectrum.library.concordia.ca.00986506
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "The Indigenous Protocol and Artificial Intelligence Working Group / CIFAR"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Māori, Indigenous Australian, Indigenous North American, Indigenous Pacific"
 languages_list: ""
@@ -39,16 +38,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "This foundational position paper, written by a large consortium of Indigenous scholars from Aotearoa, Australia, North America, and the Pacific, provides guidelines for developing AI systems aligned with Indigenous perspectives on what it means to live a good life. It includes design guidelines, scholarly essays, artworks, and descriptions of technology prototypes including Hua Ki'i (an ethical Indigenous object-recognition AI). While not a benchmark per se, it defines the ethical space within which all Indigenous AI benchmarks should operate."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.indigenous-ai.net/position-paper/"
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # Indigenous Protocol and Artificial Intelligence Position Paper
 

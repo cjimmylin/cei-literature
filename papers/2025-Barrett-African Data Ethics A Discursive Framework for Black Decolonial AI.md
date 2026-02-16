@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: ACM FAccT 2025
 local_pdf: "[[PDFs/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Sub-Saharan African, Ubuntu"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "The shift towards pluralism in global data ethics acknowledges the importance of including perspectives from the Global Majority to develop responsible data science practices that mitigate systemic harms in the current data science ecosystem. Sub-Saharan African (SSA) practitioners, in particular, are disseminating progressive data ethics principles and best practices for identifying and navigating anti-blackness and data colonialism."
-ethics_perspective: "Responsible AI"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # African Data Ethics: A Discursive Framework for Black Decolonial AI
 

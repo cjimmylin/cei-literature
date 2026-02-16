@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "IberLEF / CLEF / SEPLN"
 pdf_extract: "PDF Extracts/2022/2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.md"
 local_pdf: "[[PDFs/2022/2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "English, Spanish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "The paper describes the organization, goals, and results of the sEXism Identiﬁcation in Social neTworks (EXIST) challenge, a shared task proposed for the ﬁrst time at IberLEF 2021. EXIST 2021 proposes two challenges: sexism identiﬁcation and sexism categorization of tweets and gabs, both in Spanish and English. We have received a total of 70 runs for the sexism identiﬁcation task and 61 for the sexism categorization challenge, submitted by 31 diﬀerent teams from 11 countries."
-research_topic: "Bias & Fairness"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Overview of EXIST 2022: sEXism Identification in Social neTworks
 

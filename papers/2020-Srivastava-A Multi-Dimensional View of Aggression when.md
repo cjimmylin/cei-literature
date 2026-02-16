@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ abstract: "The advent of social media has immensely proliferated the amount of o
 pdf_extract: "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md"
 local_pdf: "[[PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # A Multi-Dimensional View of Aggression when voicing Opinion
 

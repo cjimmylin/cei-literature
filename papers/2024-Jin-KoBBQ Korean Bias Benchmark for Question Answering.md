@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Questio
 local_pdf: "[[PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
 publication: "arXiv / TACL 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Korean, American"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -31,15 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
-data_metrics: "76,048 samples; 12 categories"
 LLM_assessed: "Claude, GPT-3, GPT-3.5, GPT-4, claude-2.0, claude-instant, gpt-3.5-turbo"
 DATA_URL: "https://github.com/Beomi/KoAlpaca"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. The Bias Benchmark for Question Answering (BBQ) is designed to evaluate social biases of language models (LMs), but it is not simple to adapt this benchmark to cultural contexts other than the US because social biases depend heavily on the cultural context. In this paper, we present KoBBQ, a Korean bias benchmark dataset, and we propose a general framework that addresses considerations for cultural adaptation of a dataset."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "76,048 samples; 12 categories"
 ---
 # KoBBQ: Korean Bias Benchmark for Question Answering
 

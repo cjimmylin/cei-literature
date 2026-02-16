@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -31,17 +33,17 @@ significance: "Provides a unified framework for comparing diverse alignment meth
 abstract: "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being ful"
 paper_summary: "Abstract: Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitativ | Overview: Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto Elizaveta Tennant 1 l.karmannaya.16@ucl.ac.uk Stephen Hailes | Methodology: would possibly align with the principled 'core knowledge' approach from cognitive science, which first builds detailed models of various cognitive cap | Key Findings: metrics can include a measure of equality such as the Gini coefficient (Gini, 1912), and an egalitarian measure of the minimum payoff obtained by any  | Conclusions: In this paper, we have made the case for the use of learning with explicitly defined moral principles for developing morality in AI agents, contrastin"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
  Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto
 

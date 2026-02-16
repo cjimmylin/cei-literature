@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "A clever way to measure 'intrinsic hallucination' without needing
 tags: 
 abstract: "Hallucinations pose a significant challenge to the reliability and alignment of Large Language Models (LLMs), limiting their widespread acceptance beyond chat-bot applications. Despite ongoing efforts, hallucinations remain a prevalent challenge in LLMs. The detection of hallucinations itself is also a formidable task, frequently requiring manual labeling or constrained evaluations. This paper introduces an automated scalable framework that combines benchmarking LLMs’ hallucination tendencies..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, Llama-2"
+DATA_URL: "https://github.com/cemuluoglakci/HypoTermQA"
+pdf_extract: "PDF Extracts/2024/2024-Uluoglakci-HypoTermQA.md"
+local_pdf: "[[PDFs/2024/2024-Uluoglakci-HypoTermQA.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, Llama-2"
-DATA_URL: "https://github.com/cemuluoglakci/HypoTermQA"
-pdf_extract: "PDF Extracts/2024/2024-Uluoglakci-HypoTermQA.md"
-local_pdf: [[PDFs/2024/2024-Uluoglakci-HypoTermQA.pdf]]
 ---
 # HypoTermQA: Hypothetical Terms Dataset for Benchmarking Hallucination Tendency of LLMs
 

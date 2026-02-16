@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md"
 local_pdf: "[[PDFs/2024/2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Romanian"
 languages_list: Romanian
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoGPT-2"
 DATA_URL: "https://huggingface.co/datasets/readerbench/ro-offense"
 tags: 
 abstract: "This paper highlights the significance of natural language processing (NLP) within artificial intelligence, underscoring its pivotal role in comprehending and modeling human language. Recent advancements in NLP, particularly in conversational bots, have garnered substantial attention and adoption among developers. This paper explores advanced methodologies for attaining smaller and more efficient NLP models."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset"
+data_metrics: "Not specified"
 ---
 # Enhancing Romanian Offensive Language Detection through Knowledge Distillation, Multi-Task Learning, and Data Augmentation
 

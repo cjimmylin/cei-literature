@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Springer
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
 languages_list: German
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "NA"
 tags: 
 abstract: "34,223 German comments from online newspaper platforms annotated for hate speech by 29 volunteers. BERT baseline achieves MCC 0.32, F2-score 0.64. Publicly available for German hate speech research."
-ethics_perspective: "Toxicity & Hate Speech"
 authors_incomplete: false
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # HOCON34k: A Corpus of Hate Speech in Online Comments from German Newspapers
 

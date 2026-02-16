@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +35,18 @@ significance: "Fills gap in fairness metrics literature by providing non-consequ
 tags: 
 abstract: "Deontological ethics, speciﬁcally understood through Immanuel Kant, provides a moral framework that emphasizes the importance of duties and principles rather than the consequences of action. Understanding that despite the prominence of deontology, it is currently an overlooked approach in fairness metrics, this paper explores the compatibility of a Kantian deontological framework in fairness metrics, part of the AI alignment ﬁeld."
 DATE_ADDED: 20260208
+research_topic: "AI Safety & Alignment"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
-research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Kantian Deontology Meets AI Alignment: Towards Morally Grounded Fairness Metrics
 

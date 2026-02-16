@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_SMITH2024
@@ -28,17 +30,17 @@ significance: "Addresses practical challenges of teaching virtue ethics for AI i
 external_pdf: "https://digital.sandiego.edu/cgi/viewcontent.cgi?article=1091&context=philosophy_facpub"
 abstract: "Artificial intelligence technologies have become a ubiquitous part of human life. This prompts the authors to ask, 'how should we live well with artificial intelligence?' Currently, the most prominent candidate answers to this question are principlist. According to these approaches, if you teach people some finite set of principles or convince them to adopt the right rules, people will be able to live and act well with AI. The authors find the dominant principlist approaches to be ill-suited to providing forward-looking moral guidance regarding living well with AI. The authors show how Aristotelian virtue ethics provides a better rubric for living well with AI than principlist or consequentialist approaches. Their view is that, despite the importance of a virtue ethics approach to living well with AI, doing this is incredibly difficult. Nicholas Smith argues that there is, in theory, little hope for implementing this virtue ethics approach, while Darby Vickers argues, based on her experience in teaching virtue ethics, that there is some hope for educating students to live well with AI, even if it is extremely challenging."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Living well with AI: Virtue, education, and artificial intelligence
 

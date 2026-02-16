@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +21,7 @@ authors: "[[Zhou, Ziyi]]; [[Guo, Xinwei]]; [[Gao, Jiashi]]; [[Zhao, Xiangyu]]; [
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/48726631f87322012c6be38e00c72a47-Abstract-Conference.html"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MWSLHSCV/2024 - tSMC A Toolbox for Safety-Aware Multi-Agent Reinforcement Learning.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zhou-tSMC.md"
-local_pdf: [[PDFs/2024/2024-Zhou-tSMC.pdf]]
+local_pdf: "[[PDFs/2024/2024-Zhou-tSMC.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,6 +34,8 @@ significance: "Reveals that perceived moral inconsistencies in LLMs are often ar
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, surpassing human experts in various benchmark tests and playing a vital role in various industry sectors. Despite their effectiveness, a notable drawback of LLMs is their inconsistent moral behavior, which raises ethical concerns. This work delves into symmetric moral consistency in large language models and demonstrates that modern LLMs lack sufficient consistency ability in moral scenarios."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemma, Phi"
+DATA_URL: "https://huggingface.co/google/gemma-2b-it"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemma, Phi"
-DATA_URL: "https://huggingface.co/google/gemma-2b-it"
 ---
 # Unveiling the Bias Impact on Symmetric Moral Consistency of Large Language Models
 

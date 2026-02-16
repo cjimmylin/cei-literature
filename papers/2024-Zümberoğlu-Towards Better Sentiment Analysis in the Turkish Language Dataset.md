@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: MDPI
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Turkish"
 languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Sentiment analysis in the Turkish language has gained increasing attention due to the growing availability of Turkish textual data across various domains. However, existing datasets often suffer from limitations such as insufficient size, lack of diversity, and annotation inconsistencies, which hinder the development of robust and accurate sentiment analysis models. In this study, we present a novel enhanced dataset specifically designed to address these challenges, providing a comprehensive and high-quality resource for Turkish sentiment analysis. We perform a comparative evaluation of previously proposed models using our dataset to assess their performance and limitations. Experimental findings demonstrate the effectiveness of the presented dataset and trained models, offering valuable insights for advancing sentiment analysis research in the Turkish language. These results underscore the critical role of the enhanced dataset in bridging the gap between existing datasets and the importance of training the modern sentiment analysis models on scalable, balanced, and curated datasets. This can offer valuable insights for advancing sentiment analysis research in the Turkish language. Furthermore, the experimental results represent an important step in overcoming the challenges associated with Turkish sentiment analysis and improving the performance of existing models."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # Towards Better Sentiment Analysis in the Turkish Language: Dataset Improvements and Model Innovations
 

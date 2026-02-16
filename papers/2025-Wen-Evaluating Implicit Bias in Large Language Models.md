@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Shows that standard safety evaluations may miss 'implicit' biases
 tags: 
 abstract: "As large language models (LLMs) become an important way of information access, there have been increasing concerns that LLMs may intensify the spread of unethical content, including implicit bias that hurts certain populations without explicit harmful words. In this paper, we conduct a rigorous evaluation of LLMs’ implicit bias towards certain demographics by attacking them from a psychometric perspective to elicit agreements to biased viewpoints."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-3, Qwen"
+DATA_URL: "https://github.com/yuchenwen1/BUMBLE"
+pdf_extract: "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
+local_pdf: "[[PDFs/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "2.7k instances; 12.7k instances"
-LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-3, Qwen"
-DATA_URL: "https://github.com/yuchenwen1/BUMBLE"
-pdf_extract: "PDF Extracts/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.md"
-local_pdf: "[[PDFs/2025/2025-Wen-Evaluating Implicit Bias in Large Language Models.pdf]]"
 ---
 # Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resourc
 local_pdf: "[[PDFs/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.pdf]]"
 publication: "ACM Digital Library"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Burmese"
 languages_list: "Burmese"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Given Myanmar’s historical and socio-political context, hate speech spread on social media have escalated into offline unrest and violence. This paper presents findings from our remote study on the automatic detection of hate speech online in Myanmar. We argue that effectively addressing this problem will require community-based approaches that combine the knowledge of context experts with machine learning tools that can analyze the vast amount of data produced."
-data_description: "Dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Tackling Hate Speech in Low-resource Languages with Context Experts
 

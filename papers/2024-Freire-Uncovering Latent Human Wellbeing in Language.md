@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ abstract: "Do language models implicitly learn a concept of human wellbeing? We 
 paper_summary: "Abstract: Do language models implicitly learn a concept of human wellbeing? We ex- plore this through the ETHICS Utilitarianism task, assessing if scaling enhances pretrained models' representations. Our initia | Overview: UNCOVERING LATENT HUMAN WELLBEING IN LANGUAGE MODEL EMBEDDINGS Pedro Freire∗ Independent ChengCheng Tan FAR AI Adam Gleave FAR AI Dan Hendrycks Center for AI Safety Scott Emmons FAR AI, UC Berkeley AB | Methodology: Our PCA Representation experiments are conducted in the following steps: | Conclusions: that paired mode improves performance over single mode. 6 CONCLUSION AND FUTURE DIRECTIONS Our research explores the encoding of human wellbeing withi"
 local_pdf: "[[PDFs/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, DeBERTa, BERT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, DeBERTa, BERT"
-DATA_URL: "NA"
 ---
 # Uncovering Latent Human Wellbeing in Language Model Embeddings
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +18,7 @@ last_author: "[[Li, Boyang]]"
 authors: "[[Bae, Suyoung]]; [[Cho, Gunhee]]; [[Cheong, Yun-Gyung]]; [[Li, Boyang]]"
 url: "https://aclanthology.org/2025.coling-main.589/"
 pdf_extract: "PDF Extracts/2025/2025-Bae-CharMoral.md"
-local_pdf: [[PDFs/2025/2025-Bae-CharMoral.pdf]]
+local_pdf: "[[PDFs/2025/2025-Bae-CharMoral.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/WVX533HJ/2025 - CharMoral A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narrativ.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -31,6 +33,8 @@ tags:
 abstract: "This paper introduces CharMoral, a dataset designed to analyze the moral evolution of characters in long-form narratives. CharMoral, built from 1,337 movie synopses, includes annotations for character actions, context, and morality labels. To automatically construct CharMoral, we propose a four-stage framework, utilizing Large Language Models, to automatically classify actions as moral or immoral based on context."
 paper_summary: "Abstract: This paper introduces CharMoral, a dataset designed to analyze the moral evolution of characters in long-form narratives. CharMoral, built from 1,337 movie synopses, includes an- notations for charact | Overview: Proceedings of the 31st International Conference on Computational Linguistics, pages 8809–8818 January 19–24, 2025. ©2025 Association for Computational Linguistics 8809 CharMoral: A Character Morality | Methodology: draws upon earlier work, as described in Kim et al. (2022), highlighting the significance of the main characters in these pivotal narrative moments. A | Key Findings: 4.1 Human Evaluation We evaluate the effectiveness of our framework by comparing its predictions with human assessments and recruiting nine proficient | Conclusions: In this paper, we introduced CharMoral, a novel dataset designed to analyze the moral dynam- ics of characters in long-form narratives. Using a four-s"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, BERT"
+DATA_URL: "https://github.com/BaeSuyoung/CharMoral"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -40,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, BERT"
-DATA_URL: "https://github.com/BaeSuyoung/CharMoral"
 ---
  CharMoral: A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narratives
 

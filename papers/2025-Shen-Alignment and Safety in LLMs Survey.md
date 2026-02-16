@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,7 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md
 local_pdf: "[[PDFs/2025/2025-Shen-Alignment and Safety in LLMs Survey.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
-ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -34,17 +36,18 @@ key_contribution: "Comprehensive survey of alignment techniques, training protoc
 significance: "Covers domain-specific safety benchmarks addressing refusal behavior, adversarial robustness, and adherence to ethical constraints"
 abstract: "Due to the remarkable capabilities and growing impact of large language models (LLMs), they have been deeply integrated into many aspects of society. Thus, ensuring their alignment with human values and intentions has emerged as a critical challenge. This survey provides a comprehensive overview of practical alignment techniques, training protocols, and empirical findings in LLM alignment. We analyze the development of alignment methods across diverse paradigms, characterizing the fundamental..."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, Barto, ChatGPT, Claude, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeekMath, GPT-4, GPT-4o, Gemini, Gemini 2.0 flash, Grok, InstructGPT, Llama, LlaMA 2, Llama 2-Chat, Qwen, Qwen et, Qwen2.5, qwenlm"
+DATA_URL: "https://github.com/ethz-spylab/rlhf_trojan_competition"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, Barto, ChatGPT, Claude, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeekMath, GPT-4, GPT-4o, Gemini, Gemini 2.0 flash, Grok, InstructGPT, Llama, LlaMA 2, Llama 2-Chat, Qwen, Qwen et, Qwen2.5, qwenlm"
-DATA_URL: "https://github.com/ethz-spylab/rlhf_trojan_competition"
 ---
 # Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges
 

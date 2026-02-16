@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: ACM FAccT 2025
 local_pdf: "[[PDFs/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese, Taiwanese"
 languages_list: "Chinese"
@@ -31,15 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Taiwan-LLM, Qwen-1.5"
 DATA_URL: "https://github.com/brucelyu17/SC-TC-Bench"
 tags: 
 abstract: "While the capabilities of Large Language Models (LLMs) have been studied in both Simplified and Traditional Chinese, it is yet unclear whether LLMs exhibit differential performance when prompted in these two variants of written Chinese. This understanding is critical, as disparities in the quality of LLM responses can perpetuate representational harms by ignoring the different cultural contexts underlying Simplified versus Traditional Chinese, and can exacerbate downstream harms in..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese
 

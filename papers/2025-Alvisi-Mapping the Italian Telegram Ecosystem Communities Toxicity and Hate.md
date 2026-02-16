@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md"
 local_pdf: "[[PDFs/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: Italian
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Mixtral"
 DATA_URL: "NA"
 tags: 
 abstract: "Telegram has become a major space for political discourse and alternative media. However, its lack of moderation allows misinformation, extremism, and toxicity to spread. While prior research focused on these particular phenomena or topics, these have mostly been examined separately, and a broader understanding of the Telegram ecosystem is still missing. In this work, we fill this gap by conducting a large-scale analysis of the Italian Telegram sphere, leveraging a dataset of 186 million..."
-ethics_perspective: "Toxicity & Hate Speech"
 authors_incomplete: false
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and Hate Speech
 

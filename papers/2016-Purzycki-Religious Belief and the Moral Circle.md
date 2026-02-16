@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,20 +33,20 @@ tags:
 osint_source: "Recovered via HTML"
 abstract: "A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The Evolution of Religion and Morality Project sought to generate a data set that systematically probed individual level measures sampling across a wider range of human populations. The set includes data from behavioral economic experiments and detailed surveys of demographics, religious beliefs and practices, material security, and intergroup perceptions."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2016/2016-Purzycki-Religious Belief and the Moral Circle.md"
+local_pdf: "[[PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Dataset"
+data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2016/2016-Purzycki-Religious Belief and the Moral Circle.md"
-local_pdf: "[[PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
 ---
 # Religious Belief and the Moral Circle: Cross-Cultural Dataset
 

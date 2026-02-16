@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Adelani-AfriMTEB and AfriE5 Benchmarking an
 local_pdf: "[[PDFs/2025/2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting.pdf]]"
 publication: "WebSearch: AfriMTEB text embedding benchmark African languages"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Text embeddings are an essential building component of several NLP tasks such as retrievalaugmented generation which is crucial for preventing hallucinations in LLMs. Despite the recent release of massively multilingual MTEB (MMTEB), African languages remain underrepresented, with existing tasks often repurposed from translation benchmarks such as FLORES clustering or SIB-200. In this paper, we introduce AfriMTEB—a regional expansion of MMTEB covering 59 languages, 14 tasks, and 38 datasets,..."
+LLM_assessed: "BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Text embeddings are an essential building component of several NLP tasks such as retrievalaugmented generation which is crucial for preventing hallucinations in LLMs. Despite the recent release of massively multilingual MTEB (MMTEB), African languages remain underrepresented, with existing tasks often repurposed from translation benchmarks such as FLORES clustering or SIB-200. In this paper, we introduce AfriMTEB—a regional expansion of MMTEB covering 59 languages, 14 tasks, and 38 datasets,..."
-data_description: "Multilingual benchmark for hallucination detection dataset for hate speech detection"
+data_description: "Benchmark for bias and fairness dataset for hate speech detection"
 data_metrics: "59 languages; 38 datasets"
-LLM_assessed: "BERT, Gemma, Mistral, Mistral-7B, Qwen2, Qwen3, RoBERTa"
-DATA_URL: "NA"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # AfriMTEB and AfriE5: Benchmarking and Adapting Text Embedding Models for African Languages
 

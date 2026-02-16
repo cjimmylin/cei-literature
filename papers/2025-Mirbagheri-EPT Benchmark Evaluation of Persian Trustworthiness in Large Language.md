@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Pers
 local_pdf: "[[PDFs/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: Persian
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Claude 3.7 Sonnet, DeepSeek, DeepSeek v3, GPT-3, GPT-3.5, GPT-4, GPT-4o, Grok, Grok 3, Llama, Llama 3.3, Mistral, Mistral 3, Qwen, Qwen 3"
 DATA_URL: "https://github.com/Rezamirbagheri110/EPT-Benchmark"
 tags: 
 abstract: "Large Language Models (LLMs), trained on extensive datasets using advanced deep learning architectures, have demonstrated remarkable performance across a wide range of language tasks, becoming a cornerstone of modern AI technologies. However, ensuring their trustworthiness remains a critical challenge, as reliability is essential not only for accurate performance but also for upholding ethical, cultural, and social values."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models
 

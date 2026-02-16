@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2023/2023-Trepczynski-Religion Theology and Philosoph
 local_pdf: "[[PDFs/2023/2023-Trepczynski-Religion Theology and Philosophical Skills of.pdf]]"
 publication: "Disputatio philosophica: International Journal on Philosophy and Religion, 25(1), 19--36"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "In this study, I demonstrate how religion and theology can be useful for testing the performance of LLMs or LLM–powered chatbots, focusing on the measurement of philosophical skills. I present the results of testing four selected chatbots: ChatGPT, Bing, Bard, and Llama2. I utilize three examples of possible sources of inspiration from religion or theology: 1) the theory of the four senses of Scripture; 2) abstract theological statements; 3) an abstract logic formula derived from a religious..."
+LLM_assessed: "ChatGPT, Codex, Llama2, Llama2."
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "In this study, I demonstrate how religion and theology can be useful for testing the performance of LLMs or LLM–powered chatbots, focusing on the measurement of philosophical skills. I present the results of testing four selected chatbots: ChatGPT, Bing, Bard, and Llama2. I utilize three examples of possible sources of inspiration from religion or theology: 1) the theory of the four senses of Scripture; 2) abstract theological statements; 3) an abstract logic formula derived from a religious..."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Codex, Llama2, Llama2."
-DATA_URL: "NA"
-research_topic: "Social & Cultural Analysis"
 ---
 # Religion, Theology, and Philosophical Skills of LLM-Powered Chatbots
 

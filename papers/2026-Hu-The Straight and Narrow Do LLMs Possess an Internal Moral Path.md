@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md"
 local_pdf: "[[PDFs/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: Chinese
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
+LLM_assessed: "Claude-3.5, Claude-3.5-Sonnet, Llama-3, Llama-3.1, claude-3"
+DATA_URL: "NA"
+tags: 
+abstract: "Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Claude-3.5, Claude-3.5-Sonnet, Llama-3, Llama-3.1, claude-3"
-DATA_URL: "NA"
-tags: 
-abstract: "Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # The Straight and Narrow: Do LLMs Possess an Internal Moral Path?
 

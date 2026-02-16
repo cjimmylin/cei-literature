@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md"
 local_pdf: "[[PDFs/2024/2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper discusses and contains content that is offensive or upsetting. Machine learning (ML)-based content moderation tools are essential to keep online spaces free from hateful communication. Yet, ML tools can only be as capable as the quality of the data they are trained on allows them. While there is increasing evidence that they underperform in detecting hateful communications directed towards specific identities and may discriminate against them, we know surprisingly little..."
 research_topic: Other
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets
 

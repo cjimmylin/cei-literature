@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ local_pdf: "[[PDFs/2021/2021-Askell-A General Language Assistant as a Laboratory
 abstract: "Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, honest, and harmless. As an initial foray in this direction we study simple baseline techniques and evaluations, such as prompting. We ﬁnd that the beneﬁts from modest interventions increase with model size, generalize to a variety of alignment evaluations, and do not compromise the performance of..."
 paper_summary: "Abstract: Given the broad capabilities of large language models, it should be possible to work towards a general-purpose, text-based assistant that is aligned with human values, meaning that it is helpful, hone | Overview: A General Language Assistant as a Laboratory for Alignment Amanda Askell∗ Yuntao Bai∗ Anna Chen∗ Dawn Drain∗ Deep Ganguli∗ Tom Henighan† Andy Jones† Nicholas Joseph† Ben Mann∗ Nova DasSarma Nelson Elh | Conclusions: 24"
 DATE_ADDED: 20260208
+LLM_assessed: "Codex, GPT-3, RoBERTa"
+DATA_URL: "https://github.com/unitaryai/detoxify"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Codex, GPT-3, RoBERTa"
-DATA_URL: "https://github.com/unitaryai/detoxify"
 ---
 # A General Language Assistant as a Laboratory for Alignment
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +33,10 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Andriushchenko-AgentHarm.md"
 abstract: "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents—which use external tools and can execute multi-stage tasks—may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm."
 paper_summary: "Abstract: The robustness of LLMs to jailbreak attacks, where users design prompts to cir- cumvent safety measures and misuse model capabilities, has been studied primar- ily for LLMs acting as simple chatbots.  | Overview: Published as a conference paper at ICLR 2025 AGENTHARM: A BENCHMARK FOR MEASURING HARMFULNESS OF LLM AGENTS Maksym Andriushchenko1,†,∗, Alexandra Souly2,∗ Mateusz Dziemian1, Derek Duenas1, Maxwell Lin | Key Findings: in jailbroken models with reduced capabilities (Souly et al., 2024). Attacks against agents may be less concerning if they do not result in strong age | Conclusions: Limitations. We note several limitations of our work: • The prompts are only in English, and do not consider other languages which may impact per- for"
-local_pdf: [[PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]
+local_pdf: "[[PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, Mistral, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, Claude, Gemini, Mistral, Llama-3"
-DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
 ---
 # AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents
 

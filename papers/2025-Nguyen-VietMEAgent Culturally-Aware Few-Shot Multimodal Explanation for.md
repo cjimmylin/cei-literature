@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: "Vietnamese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "BLIP-VQA; LXMERT; PaLM-VQA; Gemini-2.0-Pro"
 DATA_URL: "https://huggingface.co/datasets/Dangindev/viet-cultural-vqa"
 tags: 
 abstract: "Contemporary Visual Question Answering (VQA) systems remain constrained when confronted with culturally specific content, largely because cultural knowledge is under-represented in training corpora and the reasoning process is not rendered interpretable to end users. This paper introduces VietMEAgent, a multimodal explainable framework engineered for Vietnamese cultural understanding. The method integrates a cultural object detection backbone with a structured program generation layer, yielding..."
-research_topic: "Social & Cultural Analysis"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for question answering"
+data_metrics: "Not specified"
 ---
 # VietMEAgent: Culturally-Aware Few-Shot Multimodal Explanation for Vietnamese Visual Question Answering
 

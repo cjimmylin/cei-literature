@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +36,10 @@ key_contribution: "Proposes 'Law Informs Code', advocating for democratically en
 significance: "Frames law as a legitimate, democratically grounded constraint for AI behavior, offering an alternative to pure preference satisfaction"
 abstract: "This white paper proposes \"
 DATE_ADDED: 20260208
-ethics_overall: "No"
+LLM_assessed: "NA"
+DATA_URL: "NA"
+research_topic: "Other"
+ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
@@ -43,9 +49,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-research_topic: "Other"
 ---
 # Aligning AI Agents with Humans through Law as Information
 

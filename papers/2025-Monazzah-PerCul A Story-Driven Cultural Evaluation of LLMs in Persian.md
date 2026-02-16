@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / NAACL 2025
 local_pdf: "[[PDFs/2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Iranian, Persian"
 languages_list: "Persian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Claude-3-Haiku; Claude-3-Sonnet; Claude-3.5-Sonnet; Claude-3-Opus; GPT-4o-Mini; GPT-4o; Gemini-1.5-Flash; Gemini-1.5-Pro; LLaMA-3.2-1B; LLaMA-3.2-3B; LLaMA-3.1-8B; LLaMA-3.1-70B; LLaMA-3.1-405B; Gemma-2-2B; Gemma-2-9B; Gemma-2-27B; Aya-23-8B; Command-R-Plus; Mistral-7B; Mistral-Nemo; Mixtral-8x22B; Qwen-2.5-72B; PersianMind-v1.0; Dorna-LLaMA3-8B"
 DATA_URL: "https://huggingface.co/datasets/teias-ai/percul"
 tags: 
 abstract: "Large language models predominantly reflect Western cultures, largely due to the dominance of English-centric training data. This imbalance presents a significant challenge, as LLMs are increasingly used across diverse contexts without adequate evaluation of their cultural competence in non-English languages, including Persian. To address this gap, we introduce PERCUL, a carefully constructed dataset designed to assess the sensitivity of LLMs toward Persian culture."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # PerCul: A Story-Driven Cultural Evaluation of LLMs in Persian
 

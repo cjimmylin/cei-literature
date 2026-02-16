@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,10 +34,6 @@ pdf_access_url: "https://journals.sagepub.com/doi/pdf/10.1177/23780231251377210"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "Socius (SAGE)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -42,16 +41,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Examines whether LLMs hold implicit assumptions about religious identities by generating 175 sermons specifying different combinations of race and religion. Finds Evangelical Protestant pastors had easier-to-read sermons while Jewish rabbis and Muslim imams had more difficult synthetic texts. Novel readability-based bias measurement approach. Tests five major LLMs for intersectional race-religion bias."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Religion and Racial Bias in Artificial Intelligence Large Language Models
 

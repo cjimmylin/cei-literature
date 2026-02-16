@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,21 +29,21 @@ newtags:
 tags: 
 abstract: "Large language models (LLMs) have shown great potential as general-purpose AI assistants in various domains. To meet the requirements of different applications, LLMs are often customized by further fine-tuning. However, the powerful learning ability of LLMs not only enables them to acquire new tasks but also makes them susceptible to learning undesired behaviors. For example, even safety-aligned LLMs can be easily finetuned into harmful assistants as the fine-tuning data often contains implicit..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: Other
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: Llama-2
 DATA_URL: "https://github.com/AI-in-Health/MedLLMsPracticalGuide"
 pdf_extract: "PDF Extracts/2023/2023-Zhou-A Survey of Large Language Models in Medicine.md"
 local_pdf: "[[PDFs/2023/2023-Zhou-A Survey of Large Language Models in Medicine.pdf]]"
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # A Survey of Large Language Models in Medicine: Progress, Application, and Challenge
 

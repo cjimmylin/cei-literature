@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Mitigates Western/English-speaking cultural bias in generative CV
 tags: 
 abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
 DATE_ADDED: 20260208
+LLM_assessed: "Ernie"
+DATA_URL: "https://github.com/ai-forever/RusCode"
+pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
+local_pdf: "[[PDFs/2025/2025-Vasilev-RusCode.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,11 +44,7 @@ is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "19 categories"
-LLM_assessed: "Ernie"
-DATA_URL: "https://github.com/ai-forever/RusCode"
-pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode.md"
-local_pdf: [[PDFs/2025/2025-Vasilev-RusCode.pdf]]
+data_metrics: "1250 prompts; 19 categories"
 ---
 # RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation
 

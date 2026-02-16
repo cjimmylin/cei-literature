@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "Data in Brief (ScienceDirect)"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kurdish"
 languages_list: "Kurdish (Sorani)"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "First Kurdish stance detection dataset with 2,174 news articles (economic and political) from 2024-2025. Pattern-recognition annotation with 4,243 adjectives/verbs for stance classification."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "First Kurdish stance detection dataset with 2,174 news articles (economic and political) from 2024-2025. Pattern-recognition annotation with 4,243 adjectives/verbs for stance classification."
-research_topic: "Machine Learning"
 ---
 # Bochun: Automatically Annotated Stance Detection Dataset for Sorani Kurdish Language
 

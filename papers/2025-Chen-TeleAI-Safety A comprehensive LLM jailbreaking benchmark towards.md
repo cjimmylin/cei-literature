@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.md"
 local_pdf: "[[PDFs/2025/2025-Chen-TeleAI-Safety A comprehensive LLM jailbreaking benchmark towards.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Chinese"
 languages_list: "Arabic, English, Multilingual"
@@ -32,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for ai safety text corpus"
-data_metrics: "342 samples"
 LLM_assessed: "Claude, Claude 3, Claude-3.5, Claude-3.5 Sonnet, DeepSeek-R1, GPT-4, GPT-4o mini, GPT4, Grok, Grok-3, Llama, Llama-3.1, LlamaGuard, Qwen-1.5, Qwen-2.5, QwenScorer, Vicuna, gemma"
 DATA_URL: "https://github.com/yuanyc06/Tele-Safety"
 tags: 
 abstract: "While the deployment of large language models (LLMs) in high-value industries continues to expand, the systematic assessment of their safety against jailbreak and promptbased attacks remains insufficient. Existing safety evaluation benchmarks and frameworks are often limited by an imbalanced integration of core components (attack, defense, and evaluation methods) and an isolation between flexible evaluation frameworks and standardized benchmarking capabilities."
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for ai safety text corpus"
+data_metrics: "342 samples"
 ---
 # TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks,
 

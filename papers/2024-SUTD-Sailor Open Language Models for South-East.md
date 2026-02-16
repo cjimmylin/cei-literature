@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-
 local_pdf: "[[PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf]]"
 publication: "EMNLP 2024 Demo"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Thai, Vietnamese"
 cultures_nationalities_list: "Chinese, Indonesian, Thai, Vietnamese, Southeast Asian"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "We present Sailor, a family of open language models ranging from 0.5B to 7B parameters, tailored for South-East Asian (SEA) languages. These models are continually pre-trained from Qwen1.5, a great language model for multilingual use cases. From Qwen1.5, Sailor models accept 200B to 400B tokens, primarily covering the languages of English, Chinese, Vietnamese, Thai, Indonesian, Malay, and Lao. The training leverages several techniques, including BPE dropout for improving the model robustness,..."
-data_description: "Multilingual benchmark text corpus for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "Llama, Llama 2, Llama-2, Mistral, Qwen1.5"
 DATA_URL: "https://github.com/sail-sg/sailor-llm"
-research_topic: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Sailor: Open Language Models for South-East Asia
 

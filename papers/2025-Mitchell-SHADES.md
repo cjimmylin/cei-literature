@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +29,12 @@ key_contribution: "Introduces SHADES, a multilingual (16 languages) dataset for 
 significance: "Crucial for de-westernizing safety eval, showing that models consistently reproduce regional stereotypes often missed by English-centric benchmarks"
 tags: 
 abstract: "Large Language Models (LLMs), the bedrock of many “artificial intelligence” (AI) applications, are known to reproduce social biases present in their training data. Yet resources to measure and control this issue are limited. Research identifying and mitigating stereotype biases have primarily been concentrated around English, lagging the rapid advancement of LLMs in multilingual settings. To help further advance the ability to address stereotype bias in AI systems, we introduce a new..."
+LLM_assessed: "BLOOM, Llama-3, Mistral, Qwen"
+DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
+pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
+local_pdf: "[[PDFs/2025/2025-Mitchell-SHADES.pdf]]"
+publication: ACL Anthology (NAACL 2025)
+DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -34,14 +42,8 @@ utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset"
+data_description: "Evaluation approach dataset"
 data_metrics: "16 languages"
-LLM_assessed: "BLOOM, Llama-3, Mistral, Qwen"
-DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
-pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
-local_pdf: [[PDFs/2025/2025-Mitchell-SHADES.pdf]]
-publication: ACL Anthology (NAACL 2025)
-DATE_ADDED: 20260213
 ---
 # SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "Turkish Journal of Computer and Mathematics Education"
 pdf_extract: "PDF Extracts/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md"
 local_pdf: "[[PDFs/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kurdish"
 languages_list: Kurdish
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/raniaazad/kurdish-fake-news-dataset"
 tags: 
 abstract: "Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 real, 50,211 fake). Hybrid FastText-LSTM achieves 94.25% accuracy."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Fake News Detection in Low-Resourced Languages: Kurdish Language Using Machine Learning Algorithms
 

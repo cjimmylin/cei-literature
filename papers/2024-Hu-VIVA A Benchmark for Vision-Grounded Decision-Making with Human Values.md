@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Dec
 local_pdf: "[[PDFs/2024/2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.pdf]]"
 publication: EMNLP
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large vision language models (VLMs) have demonstrated significant potential for integration into daily life, making it crucial for them to incorporate human values when making decisions in real-world situations. This paper introduces VIVA, a benchmark for VIsiongrounded decision-making driven by human VAlues. While most large VLMs focus on physical-level skills, our work is the first to examine their multimodal capabilities in leveraging human values to make decisions under a vision-depicted..."
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "Large vision language models (VLMs) have demonstrated significant potential for integration into daily life, making it crucial for them to incorporate human values when making decisions in real-world situations. This paper introduces VIVA, a benchmark for VIsiongrounded decision-making driven by human VAlues. While most large VLMs focus on physical-level skills, our work is the first to examine their multimodal capabilities in leveraging human values to make decisions under a vision-depicted..."
-ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude"
-DATA_URL: "https://github.com/Derekkk/VIVA_EMNLP24"
 ---
 # VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values
 

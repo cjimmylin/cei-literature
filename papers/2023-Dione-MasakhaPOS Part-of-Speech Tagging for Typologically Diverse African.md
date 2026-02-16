@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for
 local_pdf: "[[PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
 publication: "WebSearch: MasakhaPOS African languages part-of-speech benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Bambara, Chichewa, Ewe, Fon, Ghomala, Hausa, Igbo, Kinyarwanda, Kiswahili, Luganda, Luo, Mossi, Nigerian Pidgin, Setswana, Twi, Wolof, Yoruba, chiShona, isiXhosa, isiZulu"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/masakhane/masakhapos"
 tags: 
 abstract: "In this paper, we present MasakhaPOS, the largest part-of-speech (POS) dataset for 20 typologically diverse African languages. We discuss the challenges in annotating POS for these languages using the UD (universal dependencies) guidelines. We conducted extensive POS baseline experiments using conditional random field and several multilingual pretrained language models. We applied various cross-lingual transfer models trained with data available in UD."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # MasakhaPOS: Part-of-Speech Tagging for Typologically Diverse African Languages
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method
 local_pdf: "[[PDFs/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -33,15 +31,19 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
+LLM_assessed: "GPT-4, Gemini, Gemma, Claude, Llama-3, Mistral, Grok, Phi"
+DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Gemma, Claude, Llama-3, Mistral, Grok, Phi"
-DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_"
 ---
 # Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework
 

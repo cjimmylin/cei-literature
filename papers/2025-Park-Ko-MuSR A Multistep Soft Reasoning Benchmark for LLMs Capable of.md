@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Ben
 local_pdf: "[[PDFs/2025/2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-4, GPT-4o, LLaMA 4, Mistral-AI, PaLM, QWEN 3, QWEN3"
 DATA_URL: "https://github.com/EleutherAI/hae-rae"
 tags: 
 abstract: "We present Ko-MuSR, the first benchmark to comprehensively evaluate multistep soft reasoning in long Korean narratives while minimizing data contamination. Built following MuSR (Sprague et al., 2024), Ko-MuSR features fully Korean narratives, reasoning chains, and multiple-choice questions verified by human annotators for logical consistency and answerability. Evaluations of four large language models—two multilingual and two Koreanspecialized—show that multilingual models outperform..."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capable of Understanding Korean
 

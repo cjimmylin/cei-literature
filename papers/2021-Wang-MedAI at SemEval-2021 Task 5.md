@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "This paper describes the system submitted to SemEval 2021 Task 5: Tox
 pdf_extract: "PDF Extracts/2021/2021-Wang-MedAI at SemEval-2021 Task 5.md"
 local_pdf: "[[PDFs/2021/2021-Wang-MedAI at SemEval-2021 Task 5.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: RoBERTa
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: RoBERTa
-DATA_URL: "NA"
 ---
 # MedAI at SemEval-2021 Task 5: Start-to-end Tagging Framework for Toxic Spans Detection
 

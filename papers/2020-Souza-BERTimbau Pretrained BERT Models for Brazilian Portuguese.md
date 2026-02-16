@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "BRACIS 2020"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/neuralmind/bert-base-portuguese-cased"
 tags: 
 abstract: "Pretrained BERT models for Brazilian Portuguese achieving state-of-the-art on sentence similarity, textual entailment, and NER. Widely used baseline for Portuguese hate speech detection."
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # BERTimbau: Pretrained BERT Models for Brazilian Portuguese
 

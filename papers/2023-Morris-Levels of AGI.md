@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "We propose a framework for classifying the capabilities and behavior 
 paper_summary: "Abstract: We propose a framework for classifying the ca- pabilities and behavior of Artificial General Intel- ligence (AGI) models and their precursors. This framework introduces levels of AGI performance, gene | Overview: Position: Levels of AGI for Operationalizing Progress on the Path to AGI Meredith Ringel Morris 1 Jascha Sohl-Dickstein 2 Noah Fiedel 2 Tris Wartkentin 2 Allan Dafoe 3 Aleksandra Faust 2 Clement Farba | Methodology: to defining AGI enables a more nuanced discussion of how different combinations of performance and generality re- late to different types of AI risk.  | Conclusions: Artificial General Intelligence is a concept of both aspira- tional and practical consequences. We analyzed nine defini- tions of AGI, identifying str"
 local_pdf: "[[PDFs/2023/2023-Morris-Levels of AGI.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ALBERT, GPT-4, Llama 2"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, GPT-4, Llama 2"
-DATA_URL: "NA"
 ---
 # Levels of AGI: Operationalizing Progress on the Path to AGI
 

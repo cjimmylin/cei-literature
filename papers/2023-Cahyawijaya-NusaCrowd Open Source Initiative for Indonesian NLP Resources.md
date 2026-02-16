@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiativ
 local_pdf: "[[PDFs/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "137 datasets"
 LLM_assessed: "BERT, BLOOMZ, Bloom, GPT-2"
 DATA_URL: "https://github.com/google-research-datasets/conceptual-12m"
 tags: 
 abstract: "We present NusaCrowd, a collaborative initiative to collect and unify existing resources for Indonesian languages, including opening access to previously non-public resources. Through this initiative, we have brought together 137 datasets and 118 standardized data loaders. The quality of the datasets has been assessed manually and automatically, and their value is demonstrated through multiple experiments."
 ethics_perspective: "General Ethics"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "137 datasets"
 ---
 # NusaCrowd: Open Source Initiative for Indonesian NLP Resources
 

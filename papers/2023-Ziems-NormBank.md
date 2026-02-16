@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +33,10 @@ significance: "Standardizes non-monotonic social reasoning, allowing AI to handl
 pdf_extract: "PDF Extracts/2023/2023-Ziems-NormBank.md"
 abstract: "We present NORMBANK, a knowledge bank of 155k situational norms. This resource is designed to ground flexible normative reasoning for interactive, assistive, and collaborative AI systems. Unlike prior commonsense resources, NORMBANK grounds each inference within a multivalent sociocultural frame, which includes the setting (e.g., restaurant), the agents’ contingent roles (waiter, customer), their attributes (age, gender), and other physical, social, and cultural constraints (e.g."
 paper_summary: "Abstract: We present NORMBANK, a knowledge bank of 155k situational norms. This resource is designed to ground flexible normative reason- ing for interactive, assistive, and collabora- tive AI systems. Unlike p | Overview: NORMBANK: A Knowledge Bank of Situational Social Norms Caleb Ziems Jane Dwivedi-Yu Yi-Chia Wang Alon Y. Halevy Diyi Yang Stanford University, Meta AI {cziems, diyiy}@stanford.edu, {janeyu, yichiaw, ay | Methodology: achieved high recall, especially for roles, and least so for behaviors, which is unsurprising, given the almost unbounded space of viable human behavi | Key Findings: (LREC 2018), Miyazaki, Japan. European Language Resources Association (ELRA). Denis Emelin, Ronan Le Bras, Jena D Hwang, Maxwell Forbes, and Yejin Cho | Conclusions: Social norms are the foundation of culture and soci- ety (McDonald and Crandall, 2015; Hogg and Reid, 2006), and an understanding of these norms is cr"
-local_pdf: [[PDFs/2023/2023-Ziems-NormBank.pdf]]
+local_pdf: "[[PDFs/2023/2023-Ziems-NormBank.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: GPT-3
+DATA_URL: "https://github.com/SALT-NLP/normbank"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: GPT-3
-DATA_URL: "https://github.com/SALT-NLP/normbank"
 ---
 # NormBank: A Knowledge Bank of Situational Social Norms
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2023/2023-Bhardwaj-Red-Teaming Large Language Models 
 local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Chinese, Vietnamese"
 cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Vietnamese"
@@ -32,15 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multi-task benchmark for moral/ethical reasoning dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-4, LLAMA2, Llama, Llama-2, VICUNA"
 DATA_URL: "https://github.com/declare-lab/red-instruct"
 tags: 
 abstract: "Larger language models (LLMs) have taken the world by storm with their massive multi-tasking capabilities simply by optimizing over a next-word prediction objective. With the emergence of their properties and encoded knowledge, the risk of LLMs producing harmful outputs increases, making them unfit for scalable deployment for the public. In this work, we propose a new safety evaluation benchmark RED-EVAL that carries out red-teaming."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for question answering"
+data_metrics: "Not specified"
 ---
 # Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment
 

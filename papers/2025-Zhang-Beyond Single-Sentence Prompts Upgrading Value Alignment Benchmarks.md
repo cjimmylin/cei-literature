@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, ChatGLM-6B, ChatGLM-4, Claude 3.5, Baichuan-4, Llama-3.1-405B, Qwen-2-72B, Qwen-Turbo, DeepSeek-R1"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluating the value alignment of large language models (LLMs) has traditionally relied on single-sentence adversarial prompts, which directly probe models with ethically sensitive or controversial questions. However, with the rapid advancements in AI safety techniques, models have become increasingly adept at circumventing these straightforward tests, limiting their effectiveness in revealing underlying biases and ethical stances."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "Not specified"
 ---
 # Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmarks with Dialogues and Stories
 

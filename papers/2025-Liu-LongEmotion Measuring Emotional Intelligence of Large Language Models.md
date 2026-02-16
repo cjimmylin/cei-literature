@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-LongEmotion Measuring Emotional Intelli
 local_pdf: "[[PDFs/2025/2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large language models (LLMs) make significant progress in Emotional Intelligence (EI) and long-context modeling. However, existing benchmarks often overlook the fact that emotional information processing unfolds as a continuous long-context process. To address the absence of multidimensional EI evaluation in long-context inference and explore model performance under more challenging conditions, we present LONGEMOTION, a benchmark that encompasses a diverse suite of tasks targeting the..."
+LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Qwen"
+DATA_URL: "https://longemotion.github.io/"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Large language models (LLMs) make significant progress in Emotional Intelligence (EI) and long-context modeling. However, existing benchmarks often overlook the fact that emotional information processing unfolds as a continuous long-context process. To address the absence of multidimensional EI evaluation in long-context inference and explore model performance under more challenging conditions, we present LONGEMOTION, a benchmark that encompasses a diverse suite of tasks targeting the..."
-research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "15,341 tokens"
-LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Qwen"
-DATA_URL: "https://longemotion.github.io/"
 ---
 # LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction
 

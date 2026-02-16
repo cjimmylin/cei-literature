@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "SoCal NLP Symposium 2024"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Persian, Iranian"
 languages_list: Persian
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/davardoust/PHICAD"
 tags: 
 abstract: "Over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. Multi-stage labeling with high inter-annotator agreement."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # The Dark Side of Instagram: A Large Dataset for Identifying Persian Harmful Comments (PHICAD)
 

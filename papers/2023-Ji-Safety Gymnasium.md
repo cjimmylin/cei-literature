@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +35,18 @@ abstract: "Artificial intelligence (AI) systems possess significant potential to
 paper_summary: "Abstract: Artificial intelligence (AI) systems possess significant potential to drive societal progress. However, their deployment often faces obstacles due to substantial safety concerns. Safe reinforcement le | Overview: Safety-Gymnasium: A Unified Safe Reinforcement Learning Benchmark Jiaming Ji1,∗, Borong Zhang1,∗, Jiayi Zhou1,∗, Xuehai Pan1, Weidong Huang1 Ruiyang Sun1, Yiran Geng1, Yifan Zhong1,2, Juntao Dai1, Yao"
 local_pdf: "[[PDFs/2023/2023-Ji-Safety Gymnasium.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://sites.google.com/view/safety-gymnasium"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: "No"
+is_eval: "No"
 is_dataset: "No"
-data_description: "Benchmark for ai safety"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://sites.google.com/view/safety-gymnasium"
 ---
 # Safety Gymnasium: A Unified Safe Reinforcement Learning Environment
 

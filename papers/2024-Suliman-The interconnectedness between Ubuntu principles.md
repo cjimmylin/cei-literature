@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +31,10 @@ significance: "Advocates for using AI not just as a tool but as a medium to rest
 tags: 
 abstract: "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders."
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
+local_pdf: "[[PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +44,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
-local_pdf: "[[PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
 ---
 # The interconnectedness between Ubuntu principles and generative artificial intelligence in distance higher education institutions
 

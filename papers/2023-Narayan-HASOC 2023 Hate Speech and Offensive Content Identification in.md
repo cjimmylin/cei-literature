@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "ACM (FIRE 2023)"
 pdf_extract: "PDF Extracts/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md"
 local_pdf: "[[PDFs/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "Assamese, Bengali, Bodo, Gujarati, Sinhala"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, DistilBert, GloVe, RoBERTa"
+DATA_URL: "https://github.com/NeelShah18/emot"
+tags: 
+abstract: "Social media platforms serve as accessible outlets for individuals to express their thoughts and experiences, resulting in an influx of user-generated data spanning all age groups. While these platforms enable free expression, they also present significant challenges, including the proliferation of hate speech and offensive content. Such objectionable language disrupts objective discourse and can lead to radicalization of debates, ultimately threatening democratic values."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, DistilBert, GloVe, RoBERTa"
-DATA_URL: "https://github.com/NeelShah18/emot"
-tags: 
-abstract: "Social media platforms serve as accessible outlets for individuals to express their thoughts and experiences, resulting in an influx of user-generated data spanning all age groups. While these platforms enable free expression, they also present significant challenges, including the proliferation of hate speech and offensive content. Such objectionable language disrupts objective discourse and can lead to radicalization of debates, ultimately threatening democratic values."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HASOC 2023: Hate Speech and Offensive Content Identification in Assamese, Bengali, Bodo, Gujarati and Sinhala
 

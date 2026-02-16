@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / NeurIPS 2024
 local_pdf: "[[PDFs/2024-Yin-SafeWorld Geo-Diverse Safety Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yin-SafeWorld Geo-Diverse Safety Alignment.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "50 countries (top 50 most populous), 50 countries total, Kazakh, Korean"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4o, GPT-4-turbo, GPT-3.5-turbo, Llama-2-7B, Llama-2-13B, Llama-3-8B, Mistral-7B, Zephyr-7B, Command-R, Command-R+"
+DATA_URL: "https://github.com/PlusLabNLP/SafeWorld"
+tags: 
+abstract: "Content Warning: This paper may contain examples of harmful contents by nature. In the rapidly evolving field of Large Language Models (LLMs), ensuring safety is a crucial and widely discussed topic. However, existing works often overlook the geodiversity of cultural and legal standards across the world. To demonstrate the challenges posed by geo-diverse safety standards, we introduce SAFEWORLD, a novel benchmark specifically designed to evaluate LLMs’ ability to generate responses that are not..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-4-turbo, GPT-3.5-turbo, Llama-2-7B, Llama-2-13B, Llama-3-8B, Mistral-7B, Zephyr-7B, Command-R, Command-R+"
-DATA_URL: "https://github.com/PlusLabNLP/SafeWorld"
-tags: 
-abstract: "Content Warning: This paper may contain examples of harmful contents by nature. In the rapidly evolving field of Large Language Models (LLMs), ensuring safety is a crucial and widely discussed topic. However, existing works often overlook the geodiversity of cultural and legal standards across the world. To demonstrate the challenges posed by geo-diverse safety standards, we introduce SAFEWORLD, a novel benchmark specifically designed to evaluate LLMs’ ability to generate responses that are not..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # SafeWorld: Geo-Diverse Safety Alignment
 

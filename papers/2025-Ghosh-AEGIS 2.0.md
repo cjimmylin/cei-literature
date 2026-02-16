@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Ghosh-AEGIS 2.0.md"
 local_pdf: "[[PDFs/2025/2025-Ghosh-AEGIS 2.0.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As Large Language Models (LLMs) and generative AI become increasingly widespread, concerns about content safety have grown in parallel. Currently, there is a clear lack of highquality, human-annotated datasets that address the full spectrum of LLM-related safety risks and are usable for commercial applications. To bridge this gap, we propose a comprehensive and adaptable taxonomy for categorizing safety risks, structured into 12 top-level hazard categories with an extension to 9 fine-grained..."
+LLM_assessed: "Llama-3, Mistral, Gemma, Mixtral"
+DATA_URL: "https://github.com/meta-llama/llama-recipes"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "As Large Language Models (LLMs) and generative AI become increasingly widespread, concerns about content safety have grown in parallel. Currently, there is a clear lack of highquality, human-annotated datasets that address the full spectrum of LLM-related safety risks and are usable for commercial applications. To bridge this gap, we propose a comprehensive and adaptable taxonomy for categorizing safety risks, structured into 12 top-level hazard categories with an extension to 9 fine-grained..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Annotated dataset"
 data_metrics: "248 samples"
-LLM_assessed: "Llama-3, Mistral, Gemma, Mixtral"
-DATA_URL: "https://github.com/meta-llama/llama-recipes"
 ---
 # AEGIS 2.0
 

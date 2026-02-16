@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "HuggingFace / MCINext"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
 languages_list: Persian
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard"
 tags: 
 abstract: "Standard Persian LLM leaderboard evaluating models across general knowledge, logical reasoning, and language skills. Includes PerCoR (Persian CommonSense Reasoning) benchmark."
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # MIZAN: A Persian LLM Leaderboard
 

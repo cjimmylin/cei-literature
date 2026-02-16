@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Healthcare Management Forum (SAGE)
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "First Nations, Maori, Native American"
 languages_list: ""
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Explores unique perspectives and requirements of Indigenous Peoples in Canada regarding AI, emphasizing political, ethical, and practical considerations. Introduces Two-Eyed AI framework and highlights importance of co-creating AI technology with Indigenous communities. Discusses the Abundant Intelligences Project (AIP), an ethically oriented AI strategy co-directed by researchers from Concordia University and Massey University."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Towards Abundant Intelligences: Considerations for Indigenous Perspectives in Adopting Artificial Intelligence Technology
 

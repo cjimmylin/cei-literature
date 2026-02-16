@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Hong-PrinciplismQA Towards Assessing Medica
 local_pdf: "[[PDFs/2025/2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "The integration of large language models into healthcare necessitates a rigorous evaluation of their ethical reasoning, an area current benchmarks often overlook. We introduce PrinciplismQA, a comprehensive benchmark with 3,648 questions designed to systematically assess LLMs’ alignment with core medical ethics. Grounded in Principlism, our benchmark features a high-quality dataset. This includes multiple-choice questions curated from authoritative textbooks and openended questions sourced from..."
-data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
-data_metrics: "3,648 questions"
 LLM_assessed: "GPT-4, Claude, Gemma, Llama-3, Qwen, DeepSeek"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset for question answering"
+data_metrics: "3,648 questions"
 ---
 # PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice
 

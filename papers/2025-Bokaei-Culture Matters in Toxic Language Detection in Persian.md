@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Bokaei-Culture Matters in Toxic Language De
 local_pdf: "[[PDFs/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: Persian
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ChatGPT, GEMMA, GEMMA 2, GPT 2, GPT 3, GPT 3.5 Turbo, GPT-3, GPT-3.5 Turbo, LLAMA 3, Llama, Llama3, Llama3.1"
+DATA_URL: "NA"
+tags: 
+abstract: "Toxic language detection is crucial for creating safer online environments and limiting the spread of harmful content. While toxic language detection has been under-explored in Persian, the current work compares different methods for this task, including fine-tuning, data enrichment, zero-shot and few-shot learning, and cross-lingual transfer learning. What is especially compelling is the impact of cultural context on transfer learning for this task: We show that the language of a country with..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, GEMMA, GEMMA 2, GPT 2, GPT 3, GPT 3.5 Turbo, GPT-3, GPT-3.5 Turbo, LLAMA 3, Llama, Llama3, Llama3.1"
-DATA_URL: "NA"
-tags: 
-abstract: "Toxic language detection is crucial for creating safer online environments and limiting the spread of harmful content. While toxic language detection has been under-explored in Persian, the current work compares different methods for this task, including fine-tuning, data enrichment, zero-shot and few-shot learning, and cross-lingual transfer learning. What is especially compelling is the impact of cultural context on transfer learning for this task: We show that the language of a country with..."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Culture Matters in Toxic Language Detection in Persian
 

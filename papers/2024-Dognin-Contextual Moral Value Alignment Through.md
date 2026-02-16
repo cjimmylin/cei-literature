@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Developing value-aligned AI agents is a complex undertaking and an on
 paper_summary: "Abstract: Developing value-aligned AI agents is a com- plex undertaking and an ongoing challenge in the field of AI. Specifically within the domain of Large Language Models (LLMs), the ca- pability to consolida | Overview: Contextual Moral Value Alignment Through Context-Based Aggregation Pierre Dognin, Jesus Rios, Ronny Luss, Inkit Padhi, Matthew D Riemer, Miao Liu, Prasanna Sattigeri, Manish Nagireddy, Kush R. Varshne | Methodology: is proposed. The method automatically adjusts the learning gradients across different preference data sources. Jang et al. (2023) study the Reinforce- | Key Findings: We present results on the Moral Integrity Cor- pus (MIC) (Ziems et al., 2022). MIC provides moral annotations on prompt-reply pairs. It was built up f"
 local_pdf: "[[PDFs/2024/2024-Dognin-Contextual Moral Value Alignment Through.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Llama-2
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: Llama-2
-DATA_URL: "NA"
 ---
 # Contextual Moral Value Alignment Through Context-Based Aggregation
 

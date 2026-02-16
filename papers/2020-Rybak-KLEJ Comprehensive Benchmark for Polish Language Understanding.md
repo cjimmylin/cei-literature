@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Poli
 local_pdf: "[[PDFs/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.pdf]]"
 publication: "arXiv / ACL 2020"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Polish"
 languages_list: Polish
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ELMo"
 DATA_URL: "NA"
 tags: 
 abstract: "In recent years, a series of Transformer-based models unlocked major improvements in general natural language understanding (NLU) tasks. Such a fast pace of research would not be possible without general NLU benchmarks, which allow for a fair comparison of the proposed methods. However, such benchmarks are available only for a handful of languages. To alleviate this issue, we introduce a comprehensive multi-task benchmark for the Polish language understanding, accompanied by an online..."
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # KLEJ: Comprehensive Benchmark for Polish Language Understanding
 

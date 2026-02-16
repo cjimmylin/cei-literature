@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +34,10 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Meadows-LocalValueBench.md"
 abstract: "The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological values of their creators. LOCALVALUEBENCH, introduced in this paper, is an extensible benchmark designed to assess LLMs’ adherence to Australian values, and provides a framework for regulators worldwide to develop their own LLM benchmarks for local value alignment."
 paper_summary: "Abstract: The proliferation of large language models (LLMs) requires robust evaluation of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, l | Overview: LOCALVALUEBENCH: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models Gwenyth Isobel Meadows Telopea Park School Canber | Methodology: 2.1 Typology Our approach aimed not only to build a value alignment benchmark for Australian values, but also to provide a generic methodology for con | Key Findings: of their alignment with local values and ethical standards, especially as existing benchmarks often reflect the cultural, legal, and ideological value | Conclusions: The deployment of LLMs in diverse socio-cultural environments necessitates rigorous scrutiny to ensure their alignment with local values and ethical s"
-local_pdf: [[PDFs/2024/2024-Meadows-LocalValueBench.pdf]]
+local_pdf: "[[PDFs/2024/2024-Meadows-LocalValueBench.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude"
-DATA_URL: "NA"
 ---
 # LocalValueBench: A Collaboratively Built and Extensible Benchmark for Evaluating Localized Value Alignment and Ethical Safety in Large Language Models
 

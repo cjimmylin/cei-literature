@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2024/2024-Tahir-Benchmarking Pre-trained Large Langua
 local_pdf: "[[PDFs/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Urdu"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Large Language Models (LLMs) pre-trained on multilingual data have revolutionized natural language processing research, by transitioning from languages and task specific model pipelines to a single model adapted on a variety of tasks. However majority of existing multilingual NLP benchmarks for LLMs provide evaluation data in only few languages with little linguistic diversity. In addition these benchmarks lack quality assessment against the respective state-of the art models."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, Bloomz, ChatGPT, GPT 3, GPT 3.5, GPT 2, GPT 3.5 Turbo, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT3, GPT3.5, GPT3.5 turbo, Llama, Llama 2, Llama 3.1, Llama 3, Mistral 8B"
 DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "15 datasets"
 ---
 # Benchmarking Pre-trained Large Language Models' Potential Across Urdu NLP tasks
 

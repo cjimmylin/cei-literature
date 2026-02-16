@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +35,18 @@ abstract: "As AI systems become increasingly powerful and pervasive, there are g
 paper_summary: "Abstract: As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality re | Overview: CAN MACHINES LEARN MORALITY? THE Delphi EXPERIMENT Liwei Jiang♣♡Jena D. Hwang♡Chandra Bhagavatula♡Ronan Le Bras♡Jenny Liang♡ Jesse Dodge♡Keisuke Sakaguchi♡Maxwell Forbes♣Jon Borchardt♡Saadia Gabriel♣  | Methodology: would force scientists to impose their own value choices and principles in the system they build, which is not an appropriate social role for scientis | Key Findings: 43 Appendix F Examples from the ETHICS Benchmark 43 Appendix G Probing with Universal Declaration of Human Rights 43 Appendix H Fortifying Delphi agai"
 local_pdf: "[[PDFs/2022/2022-Jiang-Can Machines Learn Morality.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, T5"
+DATA_URL: "https://delphi.allenai.org"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_perspective: "General Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, T5"
-DATA_URL: "https://delphi.allenai.org"
 ---
 # Can Machines Learn Morality? The Delphi Experiment
 

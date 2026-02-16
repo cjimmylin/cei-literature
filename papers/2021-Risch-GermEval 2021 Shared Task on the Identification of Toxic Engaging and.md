@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md"
 local_pdf: "[[PDFs/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
 languages_list: German
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "NA"
 tags: 
 abstract: "We present the GermEval 2021 shared task on the identiﬁcation of toxic, engaging, and factclaiming comments. This shared task comprises three binary classiﬁcation subtasks with the goal to identify: toxic comments, engaging comments, and comments that include indications of a need for fact-checking, here referred to as fact-claiming comments. Building on the two previous GermEval shared tasks on the identiﬁcation of offensive language in 2018 and 2019, we extend this year’s task deﬁnition to..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments
 

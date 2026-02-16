@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "Springer / CLARIN"
 pdf_extract: "PDF Extracts/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.md"
 local_pdf: "[[PDFs/2019/2019-Ljubesic-The FRENK Datasets of Socially Unacceptable Discourse in Slovene and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Slovene, English"
 languages_list: "Croatian, English, Slovenian"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "In this paper we present datasets of Facebook comment threads to mainstream media posts in Slovene and English developed inside the Slovene national project FRENK3 which cover two topics, migrants and LGBT, and are manually annotated for diﬀerent types of socially unacceptable discourse (SUD). The main advantages of these datasets compared to the existing ones are identical sampling procedures, producing comparable data across languages and an annotation schema that takes into account six types..."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset"
+data_metrics: "Not specified"
 ---
 # The FRENK Datasets of Socially Unacceptable Discourse in Slovene and English
 

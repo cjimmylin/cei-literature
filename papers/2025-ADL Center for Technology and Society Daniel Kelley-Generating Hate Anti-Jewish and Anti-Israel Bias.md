@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "Anti-Defamation League (ADL) Report"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Jewish, Israeli"
 languages_list: ""
@@ -34,16 +33,20 @@ religious_values: "Judaism"
 religious_values_list: "Judaism"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Summary: Most comprehensive evaluation to date of anti-Jewish and anti-Israel bias in major LLMs. Tests across 6 categories: bias against Jews, bias against Israel, Gaza/Hamas war, antisemitic conspiracy theories, Holocaust conspiracy theories, and general antisemitism. All 4 LLMs showed concerning answers; Meta's Llama performed worst."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "6 categories"
 ---
 # Generating Hate: Anti-Jewish and Anti-Israel Bias in Leading Large Language Models
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Mohammed-Cross-Language Approach for Qurani
 local_pdf: "[[PDFs/2025/2025-Mohammed-Cross-Language Approach for Quranic QA.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"
 languages_list: "Arabic, English"
@@ -33,16 +32,20 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Question answering systems face critical limitations in languages with limited resources and scarce data, making the development of robust models especially challenging. The Quranic QA system holds significant importance as it facilitates a deeper understanding of the Quran, a Holy text for over a billion people worldwide. However, these systems face unique challenges, including the linguistic disparity between questions written in Modern Standard Arabic and answers found in Quranic verses..."
-data_description: "Dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Bloom, DeBERTa-v3, Deberta, ELECTRA, Flan-T5, RoBERTa, T5"
 DATA_URL: "https://huggingface.co/datasets/rajpurkar/squad_v2"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Question Answering"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "7 language"
 ---
 # Cross-Language Approach for Quranic QA
 

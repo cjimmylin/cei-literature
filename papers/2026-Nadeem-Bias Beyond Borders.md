@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2026/2026-Nadeem-Bias Beyond Borders.md"
 local_pdf: "[[PDFs/2026/2026-Nadeem-Bias Beyond Borders.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large Language Models (LLMs) increasingly shape global discourse, making fairness and ideological neutrality essential for responsible AI deployment. Despite growing attention to political bias in LLMs, prior work largely focuses on high-resource, Western languages or narrow multilingual settings, leaving crosslingual consistency and safe post-hoc mitigation underexplored. To address this gap, we present a large-scale multilingual evaluation of political bias spanning 50 countries and 33..."
+LLM_assessed: "Mistral, DeepSeek"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Large Language Models (LLMs) increasingly shape global discourse, making fairness and ideological neutrality essential for responsible AI deployment. Despite growing attention to political bias in LLMs, prior work largely focuses on high-resource, Western languages or narrow multilingual settings, leaving crosslingual consistency and safe post-hoc mitigation underexplored. To address this gap, we present a large-scale multilingual evaluation of political bias spanning 50 countries and 33..."
-ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation framework"
 data_metrics: "33 languages"
-LLM_assessed: "Mistral, DeepSeek"
-DATA_URL: "NA"
 ---
 # Bias Beyond Borders
 

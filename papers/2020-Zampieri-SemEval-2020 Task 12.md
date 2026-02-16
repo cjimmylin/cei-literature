@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ abstract: "We present the results and the main ﬁndings of SemEval-2020 Task 12
 pdf_extract: "PDF Extracts/2020/2020-Zampieri-SemEval-2020 Task 12.md"
 local_pdf: "[[PDFs/2020/2020-Zampieri-SemEval-2020 Task 12.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2, XLNet, ELMo"
+DATA_URL: "http://sites.google.com/site/offensevalsharedtask/home"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2, XLNet, ELMo"
-DATA_URL: "http://sites.google.com/site/offensevalsharedtask/home"
 ---
 # SemEval-2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval 2020)
 

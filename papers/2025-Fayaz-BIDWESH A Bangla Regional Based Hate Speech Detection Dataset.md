@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate 
 local_pdf: "[[PDFs/2025/2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus for hate speech detection"
-data_metrics: "9,183 instances"
 LLM_assessed: "BERT, CodeLlama, DeepSeekCoder, ELECTRA, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, Llama2, RoBERTa"
 DATA_URL: "https://data.mendeley.com/datasets/bpkrvf882k/1"
 tags: 
 abstract: "Hate speech on digital platforms has become a growing concern globally, especially in linguistically diverse countries like Bangladesh, where regional dialects play a major role in everyday communication. Despite progress in hate speech detection for standard Bangla, Existing datasets and systems fail to address the informal and culturally rich expressions found in dialects such as Barishal, Noakhali, and Chittagong."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # BIDWESH: A Bangla Regional Based Hate Speech Detection Dataset
 

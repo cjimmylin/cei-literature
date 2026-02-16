@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.md"
 local_pdf: "[[PDFs/2025/2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean"
 cultures_nationalities_list: "Chinese, Japanese, Korean"
 languages_list: "Kyrgyz, Turkish"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "3,300 datasets"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in Natural Language Processing (NLP) have underscored the crucial role of high-quality datasets in building large language models (LLMs). However, while extensive resources and analyses exist for English, the landscape for East Asian languages, particularly Chinese, Japanese, and Korean (CJK), remains fragmented and underexplored, despite these languages serving over 1.6 billion speakers."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # No Language Data Left Behind: A Comparative Study of CJK Language Datasets in the Hugging Face Ecosystem
 

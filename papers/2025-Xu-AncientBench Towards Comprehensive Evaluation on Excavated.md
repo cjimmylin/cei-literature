@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Xu-AncientBench Towards Comprehensive Evalu
 local_pdf: "[[PDFs/2025/2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Comprehension of ancient texts plays an important role in archaeology and understanding of Chinese history and civilization. The rapid development of large language models needs benchmarks that can evaluate their comprehension of ancient characters. Existing Chinese benchmarks are mostly targeted at modern Chinese and transmitted documents in ancient Chinese, but the part of excavated documents in ancient Chinese is not covered."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Baichuan2, Llama-3, Llama3, Qwen, Qwen-14B, Qwen-7B, Qwen-Chat"
 DATA_URL: "NA"
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora
 

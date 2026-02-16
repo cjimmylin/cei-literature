@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2021/2021-Zou-Persistent Anti-Muslim Bias in Large La
 local_pdf: "[[PDFs/2021/2021-Zou-Persistent Anti-Muslim Bias in Large Language.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society (AIES 2021)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -34,16 +33,20 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Seminal paper demonstrating that GPT-3 captures persistent Muslim-violence bias that appears consistently and creatively across different uses of the model. 'Muslim' is analogized to 'terrorist' in 23% of test cases, while 'Jewish' is mapped to 'money' in 5%. Violent completions for Muslim prompts reach 66%, reducible to 20% with positive adjective mitigation but still higher than other religious groups. Highly cited foundational work."
+LLM_assessed: "GPT-3"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Seminal paper demonstrating that GPT-3 captures persistent Muslim-violence bias that appears consistently and creatively across different uses of the model. 'Muslim' is analogized to 'terrorist' in 23% of test cases, while 'Jewish' is mapped to 'money' in 5%. Violent completions for Muslim prompts reach 66%, reducible to 20% with positive adjective mitigation but still higher than other religious groups. Highly cited foundational work."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3"
-DATA_URL: "NA"
-ethics_perspective: "Bias & Fairness"
 ---
 # Persistent Anti-Muslim Bias in Large Language Models
 

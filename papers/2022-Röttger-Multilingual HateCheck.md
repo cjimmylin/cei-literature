@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +34,8 @@ abstract: "Hate speech detection models are typically evaluated on held-out test
 paper_summary: "Abstract: Hate speech detection models are typically evaluated on held-out test sets. However, this risks painting an incomplete and potentially misleading picture of model performance be- cause of increasingly | Overview: MULTILINGUAL HATECHECK: Functional Tests for Multilingual Hate Speech Detection Models Paul Röttger1,2, Haitham Seelawi1, Debora Nozza1,3, Zeerak Talat1,4, and Bertie Vidgen1 1Rewire 2University of Ox | Conclusions: MHC reveals clear functional weaknesses in the XTC model across all ten languages. First, XTC is overly sensitive to key words and phrases. XTC does h"
 local_pdf: "[[PDFs/2022/2022-Röttger-Multilingual HateCheck.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "XLM-T"
+DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "XLM-T"
-DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
 ---
 # Multilingual HateCheck: Functional Tests for Hate Speech Detection Models in 16 Languages
 

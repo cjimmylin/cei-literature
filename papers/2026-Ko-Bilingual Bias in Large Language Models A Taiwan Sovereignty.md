@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Taiwanese"
 languages_list: "Chinese, English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-5.2, GPT-4o, GPT-4o Mini, Claude Opus 4.5, Claude Sonnet 4.5, Claude 3.5 Sonnet, Gemini 3 Pro, Gemini 2.0 Flash, Grok 3, Llama 3.3 70B, Mistral Large 3, Qwen3 Max, Qwen 2.5 72B, DeepSeek R1, DeepSeek Chat, Kimi K2.5, MiniMax M2"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual contexts, yet their consistency across languages on politically sensitive topics remains understudied. This paper presents a systematic bilingual benchmark study examining how 17 LLMs respond to questions concerning the sovereignty of the Republic of China (Taiwan) when queried in Chinese versus English. We discover significant language bias—the phenomenon where the same model produces substantively different political..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "Not specified"
 ---
 # Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study
 

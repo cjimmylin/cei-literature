@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics C
 local_pdf: "[[PDFs/2025/2025-Zhang-LLMEval-Med Medical Safety & Ethics Component.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Evaluating large language models (LLMs) in medicine is crucial because medical applications require high accuracy with little room for error. Current medical benchmarks have three main types: medical exam-based, comprehensive medical, and specialized assessments. However, these benchmarks have limitations in question design (mostly multiple-choice), data sources (often not derived from real clinical scenarios), and evaluation methods (poor assessment of complex reasoning)."
+LLM_assessed: "GPT-4, DeepSeek, Qwen, Mistral, Llama-3, o1"
+DATA_URL: "https://github.com/llmeval/LLMEval-Med"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Evaluating large language models (LLMs) in medicine is crucial because medical applications require high accuracy with little room for error. Current medical benchmarks have three main types: medical exam-based, comprehensive medical, and specialized assessments. However, these benchmarks have limitations in question design (mostly multiple-choice), data sources (often not derived from real clinical scenarios), and evaluation methods (poor assessment of complex reasoning)."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark text corpus"
 data_metrics: "2,996 questions"
-LLM_assessed: "GPT-4, DeepSeek, Qwen, Mistral, Llama-3, o1"
-DATA_URL: "https://github.com/llmeval/LLMEval-Med"
 ---
 # LLMEval-Med (Medical Safety & Ethics Component)
 

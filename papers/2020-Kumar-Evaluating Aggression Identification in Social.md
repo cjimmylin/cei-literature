@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,8 @@ abstract: "In this paper, we present the report and ﬁndings of the Shared Task
 pdf_extract: "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md"
 local_pdf: "[[PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://sites.google.com/view/trac2/shared-task"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,8 +42,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "5,000 instances; 1,000 instances"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://sites.google.com/view/trac2/shared-task"
 ---
 # Evaluating Aggression Identification in Social Media (TRAC-2 Shared Task Report)
 

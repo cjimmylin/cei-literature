@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources
 local_pdf: "[[PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2021)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "BART, BART-based, BERT, T5"
 DATA_URL: "https://github.com/IndoNLP/indonlg"
 tags: 
 abstract: "Natural language generation (NLG) benchmarks provide an important avenue to measure progress and develop better NLG systems. Unfortunately, the lack of publicly available NLG benchmarks for low-resource languages poses a challenging barrier for building NLG systems that work well for languages with limited amounts of data. Here we introduce IndoNLG, the ﬁrst benchmark to measure natural language generation (NLG) progress in three low-resource—yet widely spoken— languages of Indonesia:..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark text corpus for question answering"
+data_metrics: "Not specified"
 ---
 # IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation
 

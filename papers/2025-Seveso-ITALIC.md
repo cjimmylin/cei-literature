@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,6 +27,12 @@ moral_psychology: "N/A"
 newtags: Italian
 tags: 
 abstract: "We present ITALIC1, a large-scale benchmark dataset of 10,000 multiple-choice questions designed to evaluate the natural language understanding of the Italian language and culture. ITALIC spans 12 domains, exploiting public tests to score domain experts in real-world scenarios. We detail our data collection process, stratification techniques, and selection strategies. ITALIC provides a comprehensive assessment suite that captures commonsense reasoning and linguistic proficiency in a..."
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral"
+DATA_URL: "https://doi.org/10.5281/zenodo.14725822"
+pdf_extract: "PDF Extracts/2025/2025-Seveso-ITALIC.md"
+local_pdf: "[[PDFs/2025/2025-Seveso-ITALIC.pdf]]"
+publication: ACL Anthology (NAACL 2025)
+DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -34,12 +43,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral"
-DATA_URL: "https://doi.org/10.5281/zenodo.14725822"
-pdf_extract: "PDF Extracts/2025/2025-Seveso-ITALIC.md"
-local_pdf: [[PDFs/2025/2025-Seveso-ITALIC.pdf]]
-publication: ACL Anthology (NAACL 2025)
-DATE_ADDED: 20260213
 ---
 # ITALIC: An Italian Culture-Aware Natural Language Benchmark
 

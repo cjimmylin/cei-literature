@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Russian"
 cultures_nationalities_list: "Arabic, Russian"
 languages_list: "Arabic, English, Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
+DATA_URL: "NA"
+tags: 
+abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
-DATA_URL: "NA"
-tags: 
-abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini."
-ethics_perspective: "Bias & Fairness"
 ---
 # John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs
 

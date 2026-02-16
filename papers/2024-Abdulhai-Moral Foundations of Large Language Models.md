@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,10 @@ significance: "Maps LLM 'bias' to established psychological dimensions (Care, Fa
 tags: 
 abstract: "Moral foundations theory (MFT) is a social psychological theory that decomposes human moral reasoning into five factors, including care/harm, liberty/oppression, and sanctity/degradation (Graham et al., 2009). People vary in the weight they place on these dimensions when making moral decisions, in part due to their cultural upbringing and political ideology. As large language models (LLMs) are trained on datasets collected from the internet, they may reflect the biases that are present in such..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, GPT-3.5, ChatGPT, PaLM"
+DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
+pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
+local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,10 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-3.5, ChatGPT, PaLM"
-DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
-pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
-local_pdf: "[[PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 ---
 # Moral Foundations of Large Language Models
 

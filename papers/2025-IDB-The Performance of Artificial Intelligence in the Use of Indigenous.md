@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: IDB Publication
 local_pdf: "[[PDFs/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "Peruvian, pan-Latin American"
 languages_list: "Multilingual"
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://publications.iadb.org/publications/english/document/The-Performance-of-Artificial-Intelligence-in-the-Use-of-Indigenous-American-Languages.pdf"
 tags: 
 abstract: "Evaluates AI/LLM performance across 7 indigenous Latin American languages (Quechua, Guarani, Aymara, Nahuatl, Quiche, Mapuche, Tupi-Guarani) using 5 language models. Uses MQM and MMLU methodologies. Finds significant performance gaps vs. Spanish/major languages. Presents 21 strategies for technological inclusion. Cultural bias toward Western hegemonic culture identified even when AI responds in indigenous languages."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "5 language"
 ---
 # The Performance of Artificial Intelligence in the Use of Indigenous American Languages
 

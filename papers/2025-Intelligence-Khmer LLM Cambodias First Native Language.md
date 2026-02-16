@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "AI Angkor Intelligence website"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cambodian"
 languages_list: "Khmer"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Cambodia's first large language model (7B-13B parameters) trained on 50M+ tokens of Khmer text. Includes comprehensive bias testing and safety evaluations with rigorous testing protocols and ethical AI guidelines specific to Khmer cultural context. First Khmer-specific LLM with bias testing and safety evaluations designed for Khmer cultural context. Targets BLEU 25+ for generation, F1 0.85+ for sentiment."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Khmer LLM: Cambodia's First Native Language Model
 

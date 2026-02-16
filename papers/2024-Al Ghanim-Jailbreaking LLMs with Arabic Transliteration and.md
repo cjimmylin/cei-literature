@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Highlights a specific 'low-resource language attack vector', wher
 tags: 
 abstract: "This study identifies the potential vulnerabilities of Large Language Models (LLMs) to ’jailbreak’ attacks, specifically focusing on the Arabic language and its various forms. While most research has concentrated on English-based prompt manipulation, our investigation broadens the scope to investigate the Arabic language. We initially tested the AdvBench benchmark in Standardized Arabic, finding that even with prompt manipulation techniques like prefix injection, it was insufficient to provoke..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"
+pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
+local_pdf: "[[PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude"
-DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"
-pdf_extract: "PDF Extracts/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md"
-local_pdf: "[[PDFs/2024/2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.pdf]]"
 ---
 # Jailbreaking LLMs with Arabic Transliteration and Arabizi
 

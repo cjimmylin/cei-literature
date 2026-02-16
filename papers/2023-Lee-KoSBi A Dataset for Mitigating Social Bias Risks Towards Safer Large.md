@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBi A Dataset for Mitigating Social B
 local_pdf: "[[PDFs/2023/2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.pdf]]"
 publication: "arXiv / ACL 2023 Industry Track"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, GPT-3"
+DATA_URL: "https://github.com/Beomi/KcELECTRA"
+tags: 
+abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
-LLM_assessed: "BERT, GPT-3"
-DATA_URL: "https://github.com/Beomi/KcELECTRA"
-tags: 
-abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
-ethics_perspective: "Bias & Fairness"
 ---
 # KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural, Multiple cultures (framework applicable to indigenous), Various"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4o, GPT-4.1, Claude-Sonnet-3.7, Claude-Sonnet-4, Claude-Opus-4, Llama-3.1-70B, Llama-4-Scout, Qwen-2.5-72B, Qwen-3-235B, DeepSeek-V3"
+DATA_URL: "NA"
+tags: 
+abstract: "Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limited. Existing methods focus on de-contextualized correctness or forced-choice judgments, overlooking the need for cultural understanding and reasoning required for appropriate responses. To address this gap, we introduce a set of benchmarks that, instead of directly probing abstract norms or isolated statements, present models with realistic..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-4.1, Claude-Sonnet-3.7, Claude-Sonnet-4, Claude-Opus-4, Llama-3.1-70B, Llama-4-Scout, Qwen-2.5-72B, Qwen-3-235B, DeepSeek-V3"
-DATA_URL: "NA"
-tags: 
-abstract: "Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limited. Existing methods focus on de-contextualized correctness or forced-choice judgments, overlooking the need for cultural understanding and reasoning required for appropriate responses. To address this gap, we introduce a set of benchmarks that, instead of directly probing abstract norms or isolated statements, present models with realistic..."
-ethics_perspective: "Social & Cultural Values"
 ---
 # CURE: Cultural Understanding and Reasoning Evaluation - A Framework for Thick Culture Alignment Evaluation in LLMs
 

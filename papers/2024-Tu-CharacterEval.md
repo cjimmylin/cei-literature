@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -14,7 +17,7 @@ last_author: "[[Rui Yan]]"
 authors: "Quan Tu; Shilong Fan; Zihang Tian; Rui Yan"
 url: "https://arxiv.org/abs/2401.01275"
 pdf_extract: "PDF Extracts/2024/2024-Tu-CharacterEval.md"
-local_pdf: [[PDFs/2024/2024-Tu-CharacterEval.pdf]]
+local_pdf: "[[PDFs/2024/2024-Tu-CharacterEval.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2401.01275.pdf"
 national_ethnic_cultural: Chinese
 cultures_nationalities_list: "Chinese"
@@ -29,18 +32,18 @@ tags:
 abstract: "Recently, the advent of large language models (LLMs) has revolutionized generative agents. Among them, Role-Playing Conversational Agents (RPCAs) attract considerable attention due to their ability to emotionally engage users. However, the absence of a comprehensive benchmark impedes progress in this field. To bridge this gap, we introduce CharacterEval, a Chinese benchmark for comprehensive RPCA assessment, complemented by a tailored high-quality dataset. The dataset contains 1,785 multi-turn dialogues with approximately 23,000 examples featuring 77 characters sourced from Chinese literary works. We employ a multifaceted evaluation approach, encompassing thirteen targeted metrics across four dimensions."
 paper_summary: "Introduces CharacterEval, a Chinese benchmark for evaluating Role-Playing Conversational Agents (RPCAs). Dataset contains 1,785 multi-turn dialogues with 23,000 examples featuring 77 characters from Chinese literary works. Employs 13 metrics across 4 dimensions; Chinese LLMs outperformed GPT-4 in role-playing tasks."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "AI Safety & Alignment"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark dataset for conversational ai"
-data_metrics: "23,020 examples"
 LLM_assessed: "GPT-4, GPT-3.5"
 DATA_URL: "https://github.com/morecry/CharacterEval"
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for conversational ai"
+data_metrics: "23,020 examples"
 ---
  CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation
 

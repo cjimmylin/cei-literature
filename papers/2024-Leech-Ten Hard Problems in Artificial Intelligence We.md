@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +33,10 @@ significance: "Provides a high-level strategic roadmap for the field, connecting
 tags: 
 abstract: "We explore the AI2050 \"
 DATE_ADDED: 20260129
-ethics_overall: "No"
+LLM_assessed: "BERT, Bartlett, Codex, GPT-3, GPT-4, RoBERTa"
+DATA_URL: "https://github.com/Veriﬁed-Intelligence/alpha-beta-"
+research_topic: "Other"
+ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
@@ -40,9 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, Bartlett, Codex, GPT-3, GPT-4, RoBERTa"
-DATA_URL: "https://github.com/Veriﬁed-Intelligence/alpha-beta-"
-research_topic: "Other"
 ---
 # Ten Hard Problems in Artificial Intelligence We Must Get Right
 

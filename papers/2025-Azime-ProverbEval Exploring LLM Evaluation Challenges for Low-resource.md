@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / NAACL 2025 Findings
 local_pdf: "[[PDFs/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Afan Oromo, Amharic, Ethiopian, Ge'ez, Tigrinya"
 languages_list: "Afan Oromo, Amharic, English, Ge'ez, Tigrinya"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Gemma-2-9B, Gemma-2-27B, Aya-101, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/israel/ProverbEval"
 tags: 
 abstract: "With the rapid development of evaluation datasets to assess LLMs understanding across a wide range of subjects and domains, identifying a suitable language understanding benchmark has become increasingly challenging. In this work, we explore LLM evaluation challenges for low-resource language understanding and introduce ProverbEval, LLM evaluation benchmark for low-resource languages, focusing on low-resource language understanding in culture-specific scenarios."
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # ProverbEval: Exploring LLM Evaluation Challenges for Low-resource Language Understanding
 

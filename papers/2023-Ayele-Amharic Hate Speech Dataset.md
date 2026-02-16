@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Addresses the critical lack of safety resources for Amharic (Ethi
 tags: 
 abstract: "In this paper, we present a study of efficient data selection and annotation strategies for Amharic hate speech. We also build various classification models and investigate the challenges of hate speech data selection, annotation, and classification for the Amharic language. From a total of over 18 million tweets in our Twitter corpus, 15.1k tweets are annotated by two independent native speakers, and a Cohen’s kappa score of 0.48 is achieved."
 DATE_ADDED: 20260208
+LLM_assessed: RoBERTa
+DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
+pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
+local_pdf: "[[PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "15.1k tweets"
-LLM_assessed: RoBERTa
-DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
-pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
-local_pdf: "[[PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 ---
 # Amharic Hate Speech Dataset
 

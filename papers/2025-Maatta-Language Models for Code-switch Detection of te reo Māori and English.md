@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: ResearchGate
 pdf_extract: "PDF Extracts/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md"
 local_pdf: "[[PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "New Zealand Maori"
 languages_list: "Code-switching, English, Maori"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT"
+DATA_URL: "NA"
+tags: 
+abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
-tags: 
-abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
-research_topic: "NLP & Representation Learning"
 ---
 # Language Models for Code-switch Detection of te reo Māori and English in a Low-resource Setting
 

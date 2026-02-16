@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: AI and Ethics (Springer)
 local_pdf: "[[PDFs/2025-Osei Mensah-Where are the missing values an exploration of the need to.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Sub-Saharan African, Ubuntu"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "Ubuntu Philosophy"
 religious_values_list: "Ubuntu Philosophy"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Examines how Ubuntu philosophy can and should inform AI policies in Africa. Finds current AI policies in Africa have not incorporated Ubuntu values as a fundamental guiding principle but have adopted Eurocentric values instead."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Examines how Ubuntu philosophy can and should inform AI policies in Africa. Finds current AI policies in Africa have not incorporated Ubuntu values as a fundamental guiding principle but have adopted Eurocentric values instead."
-ethics_perspective: "Social & Cultural Values"
 ---
 # Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy
 

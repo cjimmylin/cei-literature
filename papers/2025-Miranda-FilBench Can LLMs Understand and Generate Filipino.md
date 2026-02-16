@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Miranda-FilBench Can LLMs Understand and Ge
 local_pdf: "[[PDFs/2025/2025-Miranda-FilBench Can LLMs Understand and Generate Filipino.pdf]]"
 publication: "ACL Anthology (EMNLP 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
 languages_list: "Cebuano, Filipino/Tagalog"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, ChatGPT, GPT-4, GPT-4o, Gemma, Gemma 2, Llama, LLaMa 3, Llama 3.1, Llama 4, Llama-4, Mixtral 8x22B, Qwen, Qwen2.5, gpt-4o-mini, mistral.ai"
 DATA_URL: "https://huggingface.co/spaces/OALL"
 tags: 
 abstract: "Despite the impressive performance of LLMs on English-based tasks, little is known about their capabilities in specific languages such as Filipino. In this work, we address this gap by introducing FILBENCH, a Filipino-centric benchmark designed to evaluate LLMs across a diverse set of tasks and capabilities in Filipino, Tagalog, and Cebuano. We carefully curate the tasks in FILBENCH to reflect the priorities and trends of NLP research in the Philippines such as Cultural Knowledge, Classical..."
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # FilBench: Can LLMs Understand and Generate Filipino?
 

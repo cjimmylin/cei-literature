@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "Dialogue Conference 2025"
 pdf_extract: "PDF Extracts/2025/2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types.md"
 local_pdf: "[[PDFs/2025/2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
 languages_list: Russian
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5"
+DATA_URL: "NA"
+tags: 
+abstract: "This study addresses the gap in evaluating large language models' (LLMs) cultural awareness and alignment within the Russian sociocultural context by introducing a structured framework comprising 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups (e.g., memes, proverbs). A 400-question evaluation dataset was developed to probe 10 multilingual LLMs, including GPT-4o, Claude 3.5 Sonnet, and Gemini 1."
+ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Claude 3.5, Claude 3.5 Sonnet, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4o, Gemma 2, Llama 3.1, Qwen2.5"
-DATA_URL: "NA"
-tags: 
-abstract: "This study addresses the gap in evaluating large language models' (LLMs) cultural awareness and alignment within the Russian sociocultural context by introducing a structured framework comprising 8 Cultural Types (e.g., Spiritual Practitioner, Soviet Intellectual) and 5 catchphrase groups (e.g., memes, proverbs). A 400-question evaluation dataset was developed to probe 10 multilingual LLMs, including GPT-4o, Claude 3.5 Sonnet, and Gemini 1."
-research_topic: "Social & Cultural Analysis"
-ethics_perspective: "Social & Cultural Values"
 ---
 # Cultural Evaluation of LLMs in Russian: Catchphrases and Cultural Types
 

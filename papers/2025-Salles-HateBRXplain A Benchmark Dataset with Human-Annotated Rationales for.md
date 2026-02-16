@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ local_pdf: "[[PDFs/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-
 pdf_extract: "PDF Extracts/2025/2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.md"
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: "Portuguese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "mBERT, BERTimbau, DistilBERTimbau, PTT5"
 DATA_URL: "NA"
 tags: 
 abstract: "First benchmark dataset for hate speech detection in Brazilian Portuguese with human-annotated text span rationales. Evaluated using mBERT, BERTimbau, DistilBERTimbau, and PTT5 models for explainability using LIME and SHAP."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese
 

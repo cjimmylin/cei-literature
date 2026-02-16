@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: JMIR Mental Health
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural (49 nations benchmarked)"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4, GPT-3.5, Claude-2, Bard"
+DATA_URL: "NA"
+tags: 
+abstract: "Four LLMs (Bard, Claude 2, GPT-3.5, GPT-4) completed the Portrait Values Questionnaire-Revised and results compared to data from 53,472 individuals across 49 nations. All models prioritized universalism and self-direction while de-emphasizing achievement, power, and security relative to humans."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude-2, Bard"
-DATA_URL: "NA"
-tags: 
-abstract: "Four LLMs (Bard, Claude 2, GPT-3.5, GPT-4) completed the Portrait Values Questionnaire-Revised and results compared to data from 53,472 individuals across 49 nations. All models prioritized universalism and self-direction while de-emphasizing achievement, power, and security relative to humans."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz's Theory of Basic Values
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Gu-A Survey on LLM-as-a-Judge.md"
 local_pdf: "[[PDFs/2024/2024-Gu-A Survey on LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "N/A"
 languages_list: "English, Japanese"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Alpaca, ChatGLM-6B, ChatGPT, Claude, DeepSeek-R1, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4 Vision, GPT-4-Turbo, GPT-4o, GPT4, Llama, LLaMA3, Llama-3, Mistral-7B, Mixtral-8, Qwen, Qwen2.5, Vicuna, WizardLM L2Chat, DeepSeek, deepseek r1"
+DATA_URL: "https://github.com/tatsu-lab/stanford_"
+tags: 
+abstract: "Accurate and consistent evaluation is crucial for decision-making across numerous fields, yet it remains a challenging task due to inherent subjectivity, variability, and scale. Large Language Models (LLMs) have achieved remarkable success across diverse domains, leading to the emergence of 'LLM-as-a-Judge,' where LLMs are employed as evaluators for complex tasks. With their ability to process diverse data types and provide scalable and flexible assessments, LLMs present a compelling..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "Alpaca, ChatGLM-6B, ChatGPT, Claude, DeepSeek-R1, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, GPT-4 Vision, GPT-4-Turbo, GPT-4o, GPT4, Llama, LLaMA3, Llama-3, Mistral-7B, Mixtral-8, Qwen, Qwen2.5, Vicuna, WizardLM L2Chat, DeepSeek, deepseek r1"
-DATA_URL: "https://github.com/tatsu-lab/stanford_"
-tags: 
-abstract: "Accurate and consistent evaluation is crucial for decision-making across numerous fields, yet it remains a challenging task due to inherent subjectivity, variability, and scale. Large Language Models (LLMs) have achieved remarkable success across diverse domains, leading to the emergence of 'LLM-as-a-Judge,' where LLMs are employed as evaluators for complex tasks. With their ability to process diverse data types and provide scalable and flexible assessments, LLMs present a compelling..."
-research_topic: "Machine Learning"
 ---
 # A Survey on LLM-as-a-Judge
 

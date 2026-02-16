@@ -6,6 +6,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,17 +37,17 @@ key_contribution: "Analyzes how moral and social aggregation procedures face fun
 significance: "Shows that aggregation strategies may shift rather than resolve foundational ethical challenges in AI systems"
 abstract: "Artificial agents increasingly make decisions with farreaching consequences. It is therefore imperative to ensure that their actions are not only functionally effective but also normatively appropriate. Two major paradigms address this challenge: machine ethics and value alignment. Machine ethics typically engages in moral aggregation, especially through value and (descriptive) uncertainty aggregation."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: "No"
 is_dataset: "No"
-data_description: "Evaluation approach"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Aggregation Problems in Machine Ethics and AI Alignment
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,21 +33,21 @@ significance: "Argues effective AI safety requires comprehensive sociotechnical 
 tags: 
 abstract: "This paper critically evaluates the attempts to align Artificial Intelligence (AI) systems, especially Large Language Models (LLMs), with human values and intentions through Reinforcement Learning from Feedback methods, involving either human feedback (RLHF) or AI feedback (RLAIF). Specifically, we show the shortcomings of the broadly pursued alignment goals of honesty, harmlessness, and helpfulness."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 research_topic: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Claude, Llama"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.md"
 local_pdf: "[[PDFs/2025/2025-Lindstrom-Helpful Harmless Honest Sociotechnical Limits.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Helpful, harmless, honest? Sociotechnical limits of AI alignment and safety through Reinforcement Learning from Human Feedback
 

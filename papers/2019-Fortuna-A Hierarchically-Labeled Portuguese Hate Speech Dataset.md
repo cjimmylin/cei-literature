@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "ACL Anthology (ALW3 Workshop 2019)"
 pdf_extract: "PDF Extracts/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2019/2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Portuguese"
 languages_list: Portuguese
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/paulafortuna/Portuguese-Hate-Speech-Dataset"
 tags: 
 abstract: "Over the past years, the amount of online offensive speech has been growing steadily. To successfully cope with it, machine learning is applied. However, ML-based techniques require sufﬁciently large annotated datasets. In the last years, different datasets were published, mainly for English. In this paper, we present a new dataset for Portuguese, which has not been in focus so far. The dataset is composed of 5,668 tweets."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
+data_metrics: "81 categories"
 ---
 # A Hierarchically-Labeled Portuguese Hate Speech Dataset
 

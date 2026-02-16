@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Ravindran-Moral Anchor System A Predictive 
 local_pdf: "[[PDFs/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The proliferation of artificial intelligence (AI) systems as super-capable assistants in everyday life has revolutionized productivity and decision-making across personal, professional, and societal domains. However, this integration raises profound concerns about value alignment—ensuring that AI behaviors remain consistent with human ethical standards and intentions. Value drift, where AI systems gradually deviate from these alignments due to evolving contexts, learning processes, or..."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "The proliferation of artificial intelligence (AI) systems as super-capable assistants in everyday life has revolutionized productivity and decision-making across personal, professional, and societal domains. However, this integration raises profound concerns about value alignment—ensuring that AI behaviors remain consistent with human ethical standards and intentions. Value drift, where AI systems gradually deviate from these alignments due to evolving contexts, learning processes, or..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention
 

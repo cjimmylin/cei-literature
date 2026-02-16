@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "GermEval Workshop"
 pdf_extract: "PDF Extracts/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md"
 local_pdf: "[[PDFs/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
 languages_list: German
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://projects.cai.fbi.h-da.de/iggsa/"
 tags: 
 abstract: "We present the pilot edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. It comprises two tasks, a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. The shared task had 20 participants submitting 51 runs for the coarse-grained task and 25 runs for the ﬁne-grained task."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # GermEval 2018 Shared Task on the Identification of Offensive Language
 

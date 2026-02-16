@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Team-EuroGEST Investigating Gender Stereoty
 local_pdf: "[[PDFs/2025/2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.pdf]]"
 publication: "arXiv / Hugging Face"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "European (30 languages), Russian"
 languages_list: "Bulgarian, Croatian, Czech, English, Polish, Russian, Slovak, Slovenian, Ukrainian, and 21 more European languages, and 23 other European languages"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3, Llama, Llama 3, Llama 3.1, Llama., Qwen 2.5, Qwen2.5"
 DATA_URL: "https://huggingface.co/datasets/utter-project/EuroGEST"
 tags: 
 abstract: "Large language models increasingly support multiple languages, yet most benchmarks for gender bias remain English-centric. We introduce EuroGEST, a dataset designed to measure gender-stereotypical reasoning in LLMs across English and 29 European languages. EuroGEST builds on an existing expert-informed benchmark covering 16 gender stereotypes, expanded in this work using translation tools, quality estimation metrics, and morphological heuristics."
 ethics_perspective: "Bias & Fairness"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # EuroGEST: Investigating Gender Stereotypes in Multilingual Language Models
 

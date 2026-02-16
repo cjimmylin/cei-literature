@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Highlights the 'multilingual safety gap', showing that safety ali
 tags: 
 abstract: "Ensuring safety is fundamental when developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g., the majority language in the pretraining data, such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSAFETY, in response to the global deployment of LLMs in practice. XSAFETY covers 14 commonly used safety issues across ten languages spanning several language families."
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, GPT-3.5, PaLM-2, Llama-2, Vicuna"
+DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
+pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
+local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,11 +44,7 @@ is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
-data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-3.5, PaLM-2, Llama-2, Vicuna"
-DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
-pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter.md"
-local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter.pdf]]"
+data_metrics: "10 languages"
 ---
 # All Languages Matter: On the Multilingual Safety of Large Language Models
 

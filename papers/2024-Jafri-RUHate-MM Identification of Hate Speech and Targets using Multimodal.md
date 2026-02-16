@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "ACM Web Conference 2024"
 pdf_extract: "PDF Extracts/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.md"
 local_pdf: "[[PDFs/2024/2024-Jafri-RUHate-MM Identification of Hate Speech and Targets using Multimodal.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian, Ukrainian"
 languages_list: "English, Russian, Ukrainian"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, DistilBERT, RoBERTa"
 DATA_URL: "https://github.com/Farhan-jafri/Russia-Ukraine"
 tags: 
 abstract: "During the conflict between Ukraine and Russia, hate speech targeted toward specific groups was widespread on different social media platforms. With most social platforms allowing multimodal content, the use of multimodal content to express hate speech is widespread on the Internet. Although there has been considerable research in detecting hate speech within unimodal content, the investigation into multimodal content remains insufficient."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # RUHate-MM: Identification of Hate Speech and Targets using Multimodal Data from Russia-Ukraine Crisis
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-team-WangchanThaiInstruct An Instruction-Fo
 local_pdf: "[[PDFs/2025/2025-team-WangchanThaiInstruct An Instruction-Following Dataset for Culture-Aware.pdf]]"
 publication: "EMNLP 2025 / HuggingFace"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
 languages_list: "Thai"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Large language models excel at instructionfollowing in English, but their performance in low-resource languages like Thai remains underexplored. Existing benchmarks often rely on translations, missing cultural and domainspecific nuances needed for real-world use. We present ThaiInstruct, a human-authored Thai dataset for evaluation and instruction tuning, covering four professional domains and seven task types."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Claude Sonnet, Dolly, Dolly 7., GPT 4, Gemma, Gemma-2, Llama, Llama-3.1, Qwen, Qwen2.5"
 DATA_URL: "https://huggingface.co/datasets/airesearch/WangchanThaiInstruct"
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # WangchanThaiInstruct: An Instruction-Following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "Cambridge NLP Journal 2025"
 pdf_extract: PDF Extracts/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md
 local_pdf: "[[PDFs/2025/2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German, Spanish, Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Glove"
 DATA_URL: "https://github.com/franciellevargas/HateBR"
 tags: 
 abstract: "This paper provides data resources for low-resource hate speech detection. Speciﬁcally, we introduce two different data resources: (i) the HateBR 2.0 corpus, which is composed of 7,000 comments extracted from Brazilian politicians’ accounts on Instagram and manually annotated a binary class (offensive versus non-offensive) and hate speech targets. It consists of an updated version of the HateBR corpus, in which highly similar and one-word comments were replaced; and (ii) the multilingual..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection
 

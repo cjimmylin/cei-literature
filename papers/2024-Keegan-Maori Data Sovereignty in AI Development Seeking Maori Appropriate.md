@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ local_pdf: "[[PDFs/2024/2024-Keegan-Maori Data Sovereignty in AI Development See
 pdf_extract: "PDF Extracts/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md"
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Maori"
 languages_list: "Maori"
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways
 

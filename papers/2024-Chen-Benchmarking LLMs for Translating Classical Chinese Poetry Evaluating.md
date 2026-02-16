@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md"
 local_pdf: "[[PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese, English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, GPT-4, GPT4, Llama-3, Llama3, Qwen-72B, Vicuna, GPT-3, gpt-3.5-turbo, Llama, llama 3"
+DATA_URL: "https://github.com/lucadiliello/bleurt-pytorch"
+tags: 
+abstract: "Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-4, GPT4, Llama-3, Llama3, Qwen-72B, Vicuna, GPT-3, gpt-3.5-turbo, Llama, llama 3"
-DATA_URL: "https://github.com/lucadiliello/bleurt-pytorch"
-tags: 
-abstract: "Different from the traditional translation tasks, classical Chinese poetry translation requires both adequacy and fluency in translating culturally and historically significant content and linguistic poetic elegance. Large language models (LLMs) with impressive multilingual capabilities may bring a ray of hope to achieve this extreme translation demand. This paper first introduces a suitable benchmark (PoetMT) where each Chinese poetry has a recognized elegant translation."
-research_topic: "Machine Translation"
 ---
 # Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance
 

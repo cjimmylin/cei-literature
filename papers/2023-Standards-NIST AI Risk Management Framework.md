@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ tags:
 research_topic: "Other"
 abstract: "The NIST AI Risk Management Framework (AI RMF) offers a resource to organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework. The framework is built on four core functions: Govern, Map, Measure, and Manage, which are interconnected processes designed to be implemented iteratively throughout an AI system's lifecycle."
 DATE_ADDED: 20260208
-ethics_overall: "No"
+LLM_assessed: "NA"
+DATA_URL: "https://doi.org/10.6028/NIST.AI.100-1"
+pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
+local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
+ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "No"
-data_description: "N/A"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://doi.org/10.6028/NIST.AI.100-1"
-pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
-local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
 ---
 # NIST AI Risk Management Framework
 

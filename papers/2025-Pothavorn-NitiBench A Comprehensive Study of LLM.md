@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Pothavorn-NitiBench A Comprehensive Study o
 local_pdf: "[[PDFs/2025/2025-Pothavorn-NitiBench A Comprehensive Study of LLM.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
 languages_list: "Thai"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "The application of large language models (LLMs) in the legal domain holds significant potential for information retrieval and question answering, yet Thai legal QA systems face challenges due to a lack of standardized evaluation benchmarks and the complexity of Thai legal structures. This paper introduces NitiBench, a benchmark comprising two datasets: the NitiBench-CCL, covering general Thai financial law, and the NitiBench-Tax, which includes real-world tax law cases requiring advanced legal..."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Claude 3.5 Sonnet, GPT 4o, GPT-4o, GPT-4o mini, GPT4o, Llama3, claude 3, claude-3, claude-3.5-sonnet, gpt-4o-mini, llama 3, llama3.1"
 DATA_URL: "https://github.com/vistec-ai/nitibench"
 research_topic: "Question Answering"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # NitiBench: A Comprehensive Study of LLM Framework Capabilities for Thai Legal Question Answering
 

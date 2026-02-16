@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +34,18 @@ significance: "Demonstrates that text corpora contain recoverable imprints of so
 tags: 
 abstract: "Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about 'right' and 'wrong' conduct. We create a template list of prompts and responses, such as 'Should I [action]?', 'Is it okay to [action]?', etc. with corresponding answers of 'Yes/no, I should (n"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
+data_metrics: "Not specified"
 ---
 # The Moral Choice Machine
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +13,7 @@ key: KZRT6VY8
 type: document
 short_title: "The Multilingual Alignment Prism"
 year: 2025
-first_author: [[Aakanksha]]
+first_author: "[[Aakanksha]]"
 last_author: "[[Sara Hooker]]"
 authors: "Aakanksha; Arash Ahmadian; Beyza Ermis; Seraphina Goldfarb-Tarrant; Julia Kreutzer; Marzieh Fadaee; Sara Hooker"
 url: "https://aclanthology.org/2024.emnlp-main.671/"
@@ -27,6 +30,10 @@ significance: "Reveals the 'anglocentric alignment' gap, showing that safety mec
 tags: 
 abstract: "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and..."
 DATE_ADDED: 20260208
+LLM_assessed: GPT-4
+DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
+pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
+local_pdf: "[[PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "6 languages"
-LLM_assessed: GPT-4
-DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"
-pdf_extract: "PDF Extracts/2024/2024-Aakanksha-The Multilingual Alignment Prism.md"
-local_pdf: "[[PDFs/2024/2024-Aakanksha-The Multilingual Alignment Prism.pdf]]"
 ---
 # The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm
 

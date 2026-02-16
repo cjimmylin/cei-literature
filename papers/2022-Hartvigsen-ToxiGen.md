@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,8 +32,10 @@ significance: "Addresses the scarcity of implicit toxicity data by using LMs to 
 tags: 
 abstract: "Toxic language detection systems often falsely ﬂag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create TOXIGEN, a new large-scale and machinegenerated dataset of 274k toxic and benign statements about 13 minority groups."
 pdf_extract: "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md"
-local_pdf: [[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]
+local_pdf: "[[PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, BERT, RoBERTa"
+DATA_URL: "https://github.com/microsoft/ToxiGen"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, BERT, RoBERTa"
-DATA_URL: "https://github.com/microsoft/ToxiGen"
 ---
 # ToxiGen: A Large-Scale Machine-Generated Dataset for Adversarial and Implicit Hate Speech Detection
 

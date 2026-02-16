@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,20 +33,20 @@ significance: "Proposes that true ethical behavior in AI requires the capability
 tags: 
 abstract: "The current mainstream approaches to ethical intelligence in modern socio-technical systems have weaknesses. This paper argues that implementing and validating prosocial rule breaking behaviour can be used as a mechanism to overcome these weaknesses and introduce a sample scenario that can be used to validate this behaviour. Keywords Machine ethics · Pro-social rule breaking · Socio-technical systems 1 Current Approaches to Ethical Agents Incidents resulting in unethical outcomes from..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
-ethics_perspective: "General Ethics"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md"
 local_pdf: "[[PDFs/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # Pro-Social Rule Breaking as a Benchmark of Ethical Intelligence in Socio-Technical Systems
 

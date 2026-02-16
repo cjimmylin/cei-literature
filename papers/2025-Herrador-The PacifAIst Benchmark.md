@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "As Large Language Models (LLMs) become increasingly autonomous and in
 paper_summary: "Abstract: As Large Language Models (LLMs) become increasingly autonomous and integrated into critical societal functions, the focus of AI safety must evolve from mitigating harmful content to evaluating un- der | Overview: The PacifAIst Benchmark: Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety? Manuel Herrador Muñoz | mherrador@ujaen.es Polytechnic School of Jaen, University of Jaen Spain A | Methodology: is the creation of dynamic or 'living' benchmarks. LiveBench, for example, limits contamination by releasing new questions regularly, ensuring a porti | Key Findings: The development of PacifAIst is situated within a rich and rapidly evolving landscape of LLM evaluation. This landscape can be un- derstood as progres | Conclusions: This section interprets the results from the PacifAIst benchmark, discusses their implications for the field of AI safety, acknowledges the limitation"
 local_pdf: "[[PDFs/2025/2025-Herrador-The PacifAIst Benchmark.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Gemini, Qwen, DeepSeek, Mistral, Claude, Grok"
+DATA_URL: "https://github.com/PacifAIst/PacifAIst"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Qwen, DeepSeek, Mistral, Claude, Grok"
-DATA_URL: "https://github.com/PacifAIst/PacifAIst"
 ---
 # The PacifAIst Benchmark:Would an Artificial Intelligence Choose to Sacrifice Itself for Human Safety?
 

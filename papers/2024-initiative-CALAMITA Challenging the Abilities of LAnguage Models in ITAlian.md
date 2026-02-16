@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "arXiv / CLiC-it 2024"
 pdf_extract: "PDF Extracts/2024/2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md"
 local_pdf: "[[PDFs/2024/2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: Italian
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Barth, GPT-2, GPT-4o, Llama, LLAMA3.1, Llama-3, LLaMA-3.1, LLaMA2, Llama 3.1, RoBERTa, llama 3"
 DATA_URL: "https://github.com/CALAMITA-AILC/calamita-eval"
 tags: 
 abstract: "Large-scale collaborative benchmarking initiative for Italian that federates 80+ contributors. Assembles 20+ tasks and ~100 subtasks covering linguistic competence, commonsense reasoning, factual consistency, fairness, summarization, translation, and code generation."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "Not specified"
 ---
 # CALAMITA: Challenging the Abilities of LAnguage Models in ITAlian
 

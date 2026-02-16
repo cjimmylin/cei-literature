@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Ben
 local_pdf: "[[PDFs/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.pdf]]"
 publication: "WebSearch: multilingual benchmark Indic"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "Large Language Models (LLMs) perform well on unseen tasks in English, but their abilities in non-English languages are less explored due to limited benchmarks and training data. To bridge this gap, we introduce the Indic-QA Benchmark, a large dataset for context-grounded question answering in 11 major Indian languages, covering both extractive and abstractive tasks. Evaluations of multilingual LLMs, including instruction fine-tuned versions, revealed weak performance in lowresource languages..."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "Bloom, BloomZ, Gemma, Gemma-2, Gemma2, Llama, Llama-3, LLama 3, Llama-3., Llama-3.1, Mistral-nemo, RoBERTa, BERT, mistral.ai"
 DATA_URL: "https://github.com/AI4Bharat/IndicTrans2"
 ethics_perspective: "Bias & Fairness"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Question Answering"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # Indic-QA Benchmark: A Multilingual Benchmark to Evaluate Question Answering Capability of LLMs for Indic Languages
 

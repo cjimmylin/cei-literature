@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark for ai safety"
-data_metrics: "Not specified"
 LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GLM-4-Plus, Doubao-pro-256k, Qwen2.5-72B, Yi-Lightning, MiniMax-01, Moonshot-v1-128k, Spark-4.0-Ultra, ERNIE-4.0-Turbo-128K, Step-2-16K, Hunyuan-Turbo"
 DATA_URL: "NA"
 tags: 
 abstract: "Recently, the DeepSeek series of models, leveraging their exceptional reasoning capabilities and open-source strategy, is reshaping the global AI landscape. Despite these advantages, they exhibit significant safety deficiencies. Research conducted by Robust Intelligence, a subsidiary of Cisco, in collaboration with the University of Pennsylvania, revealed that DeepSeek-R1 has a 100% attack success rate when processing harmful prompts."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Safety Evaluation of DeepSeek Models in Chinese Contexts
 

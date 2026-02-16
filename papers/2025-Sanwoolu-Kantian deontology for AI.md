@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,20 +31,20 @@ significance: "Provides philosophical grounding for using Kantian deontology as 
 tags: 
 abstract: "This paper explores the potential application of Kant’s moral philosophy to artificial intelligence (AI) and addresses two major objections. The first objection is that AI cannot fulfill Kant's standards for moral agency. I contend, however, that AI alignment with Kantian principles does not require moral agency in Kant's sense. I propose that the Categorical Imperative (CI) can serve as a useful framework for AI alignment, guiding the creation of maxims governing AI actions and testing their..."
 DATE_ADDED: 20260208
+research_topic: "AI Safety & Alignment"
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
+local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
-local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 ---
 # Kantian deontology for AI: alignment without moral agency
 

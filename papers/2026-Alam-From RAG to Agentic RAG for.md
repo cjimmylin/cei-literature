@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2026/2026-Alam-From RAG to Agentic RAG for.md"
 local_pdf: "[[PDFs/2026/2026-Alam-From RAG to Agentic RAG for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"
 languages_list: "Arabic, English"
@@ -33,16 +32,21 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "LLMs are increasingly used for Islamic question answering, where ungrounded responses may carry serious religious consequences. Yet standard MCQ/MRC-style evaluations1 do not capture key real-world failure modes, notably free-form hallucinations and whether models appropriately abstain when evidence is lacking. To shed a light on this aspect we introduce ISLAMICFAITHQA, a 3,810-item bilingual (Arabic/English) generative benchmark with atomic single-gold answers, which enables direct measurement..."
-data_description: "Multilingual benchmark for hallucination detection text corpus for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, DeepSeek-R1, GPT-4, Llama-2, Llama-3.1, Mistral 7b, Mistral-7B, Qwen-1.5B, Qwen-7B, Qwen2.5, Qwen3, BERT"
 DATA_URL: "Planned public release"
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Truthfulness & Factuality"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for hallucination detection text corpus for question answering"
+data_metrics: "Not specified"
 ---
 # From RAG to Agentic RAG for Faithful Islamic Question Answering (IslamicFaithQA)
 

@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2025/2025-Xuan-MMLU-ProX A Multilingual Benchmark for
 local_pdf: "[[PDFs/2025/2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.pdf]]"
 publication: "arxiv.org / EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Existing large language model (LLM) evaluation benchmarks primarily focus on English, while current multilingual tasks lack parallel questions that specifically assess crosslinguistic reasoning abilities. This dual limitation makes it challenging to comprehensively assess LLMs’ performance in the multilingual setting. To fill this gap, we introduce MMLUProX, a comprehensive benchmark covering 29 languages, built on an English benchmark."
+LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek R1, DeepSeek V3, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, Gemma 3, Llama, Llama 4, Phi4, Phi4 0, Phi4-14B, Qwen, Qwen3, ChatGPT"
+DATA_URL: "https://github.com/weihao1115/MMLU-ProX"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Existing large language model (LLM) evaluation benchmarks primarily focus on English, while current multilingual tasks lack parallel questions that specifically assess crosslinguistic reasoning abilities. This dual limitation makes it challenging to comprehensively assess LLMs’ performance in the multilingual setting. To fill this gap, we introduce MMLUProX, a comprehensive benchmark covering 29 languages, built on an English benchmark."
 data_description: "Multilingual benchmark"
-data_metrics: "658 questions; 29 languages"
-LLM_assessed: "Claude, Claude Sonnet, DeepSeek, DeepSeek R1, DeepSeek V3, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT4, GPT4o, Gemma, Gemma 3, Llama, Llama 4, Phi4, Phi4 0, Phi4-14B, Qwen, Qwen3, ChatGPT"
-DATA_URL: "https://github.com/weihao1115/MMLU-ProX"
-research_topic: "Machine Translation"
+data_metrics: "Not specified"
 ---
 # MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation
 

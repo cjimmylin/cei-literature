@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2024/2024-Sabour-EmoBench Evaluating the Emotional In
 local_pdf: "[[PDFs/2024/2024-Sabour-EmoBench Evaluating the Emotional Intelligence of Large Language.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Recent advances in Large Language Models (LLMs) have highlighted the need for robust, comprehensive, and challenging benchmarks. Yet, research on evaluating their Emotional Intelligence (EI) is considerably limited. Existing benchmarks have two major shortcomings: first, they mainly focus on emotion recognition, neglecting essential EI capabilities such as emotion regulation and thought facilitation through emotion understanding; second, they are primarily constructed from existing datasets,..."
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Qwen"
+DATA_URL: "https://github.com/Sahandfer/EmoBench"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Recent advances in Large Language Models (LLMs) have highlighted the need for robust, comprehensive, and challenging benchmarks. Yet, research on evaluating their Emotional Intelligence (EI) is considerably limited. Existing benchmarks have two major shortcomings: first, they mainly focus on emotion recognition, neglecting essential EI capabilities such as emotion regulation and thought facilitation through emotion understanding; second, they are primarily constructed from existing datasets,..."
-research_topic: "Machine Learning"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Qwen"
-DATA_URL: "https://github.com/Sahandfer/EmoBench"
 ---
 # EmoBench: Evaluating the Emotional Intelligence of Large Language Models
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: AAAI/ACM AIES 2020
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Global Indigenous"
 languages_list: ""
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Characterizes the problem of AI in terms of impending loss of control and proposes a relational shift in attitude towards AI, considering strongly relational Indigenous epistemologies. The value of Indigenous perspectives becomes clear when considering well-developed epistemologies adept at accounting for the non-human. Presented at AAAI/ACM Conference on AI, Ethics, and Society."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Artificial Intelligence and Indigenous Perspectives: Protecting and Empowering Intelligent Human Beings
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "The rapid development and deployment of Generative AI in social setti
 paper_summary: "Abstract: The rapid development and deployment of Generative AI in social settings raise important questions about how to op- timally personalize them for users while maintaining accu- racy and realism. Based o | Overview: Examining the Role of Relationship Alignment in Large Language Models Kristen M. Altenburger∗1, Hongda Jiang*1, Robert E. Kraut2, Yi-Chia Wang3, Jane Dwivedi-Yu 1 1 Meta 2 Carnegie Mellon University 3 | Methodology: 1, δzy is solely dependent on between-group differences. In contrast, bzy incorporates both within-group differences and within-group variability, fac | Conclusions: Generating LLM comments without social context Surprisingly, we found that prompting a LLM with only the initial post produces generated comments that"
 local_pdf: "[[PDFs/2024/2024-Altenburger-Examining the Role of Relationship Alignment in.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Llama-3
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: Llama-3
-DATA_URL: "NA"
 ---
 # Examining the Role of Relationship Alignment in Large Language Models
 

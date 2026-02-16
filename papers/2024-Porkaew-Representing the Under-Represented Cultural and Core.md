@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Porkaew-Representing the Under-Represented 
 local_pdf: "[[PDFs/2024/2024-Porkaew-Representing the Under-Represented Cultural and Core.pdf]]"
 publication: "ACL Anthology (COLING 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
 languages_list: "Thai"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Claude Sonnet, Claude-3, GPT-3, GPT-3.5 Turbo, GPT-4 Turbo, GPT-4o, GPT-4o Mini, GPT-4, Llama, Llama-3, Llama-3.1, Qwen2"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # Representing the Under-Represented: Cultural and Core Capability Benchmarks for Developing Thai Large Language Models
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Bhattacharjee-INDOHATEMIX A Multi-Target Co
 local_pdf: "[[PDFs/2025/2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.pdf]]"
 publication: "IIT Kharagpur"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Hindi"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Hate speech detection across contemporary social media presents unique challenges due to linguistic diversity and the informal nature of online discourse. These challenges are further amplified in settings involving code-mixing, transliteration, and culturally nuanced expressions. While fine-tuned transformer models, such as BERT, have become standard for this task, we argue that recent large language models (LLMs) not only surpass them but also redefine the landscape of hate speech detection..."
+LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa"
+DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "Hate speech detection across contemporary social media presents unique challenges due to linguistic diversity and the informal nature of online discourse. These challenges are further amplified in settings involving code-mixing, transliteration, and culturally nuanced expressions. While fine-tuned transformer models, such as BERT, have become standard for this task, we argue that recent large language models (LLMs) not only surpass them but also redefine the landscape of hate speech detection..."
-data_description: "Dataset"
+data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-4, GPT-4o, GPT-4o-mini, InternLM, InternLM-2, InternLM2, Llama, Llama-3, LLaMA-3.1, LLaMA3.1, Mistral-7B, Qwen, Qwen2.5, RoBERTa"
-DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # INDOHATEMIX: A Multi-Target, Code-Mixed Hindi-English Hate Speech Dataset
 

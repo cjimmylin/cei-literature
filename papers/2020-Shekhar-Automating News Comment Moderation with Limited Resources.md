@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: JLCL
 pdf_extract: "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md"
 local_pdf: "[[PDFs/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Croatian, Estonian"
 languages_list: "Croatian, Estonian"
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/facebookresearch/LASER"
 tags: 
 abstract: "This article describes initial work into the automatic classiﬁcation of user-generated content in news media to support human moderators. We work with real-world data — comments posted by readers under online news articles — in two less-resourced European languages, Croatian and Estonian. We describe our dataset, and experiments into automatic classiﬁcation using a range of models. Performance obtained is reasonable but not as good as might be expected given similar work in offensive language..."
 research_topic: Other
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Automating News Comment Moderation with Limited Resources: Benchmarking in Croatian and Estonian
 

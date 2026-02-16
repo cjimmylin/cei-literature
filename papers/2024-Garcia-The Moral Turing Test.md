@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,9 @@ abstract: "As large language models (LLMs) become increasingly integrated into s
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of human- and  | Overview: The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making Basile Garcia basile.garcia@unige.ch University of Geneva Geneva, Switzerland Crystal Qian cjqian@google.com Google DeepM | Key Findings: In the main stage of the study (Figure 2B), we presented the re- sponses generated in the first stage to new human participants (N=230). 77 participan | Conclusions: 5.1 Summary In the first part of our study, we set the stage to examine differences in human- and LLM- reasoning, administering a well-established psy"
 local_pdf: "[[PDFs/2024/2024-Garcia-The Moral Turing Test.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5"
+DATA_URL: "NA"
+normative_ethics_benchmark: Yes
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,9 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5"
-DATA_URL: "NA"
-normative_ethics_benchmark: Yes
 ---
 # The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making
 

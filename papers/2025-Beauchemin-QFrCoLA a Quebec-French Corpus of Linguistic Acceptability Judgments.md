@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "arXiv / ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md"
 local_pdf: "[[PDFs/2025/2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "Canadian, French"
 languages_list: "Quebecois French"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, CamemBERT, XLM-RoBERTa, BLOOM-7B, BLOOMZ-7B, Mistral-7B, Llama-3.1-8B, Lucie"
 DATA_URL: "https://github.com/GRAAL-Research/QFrCoLA"
 tags: 
 abstract: "Large language models (LLM) perform outstandingly in various downstream tasks. However, there is limited understanding regarding how these models internalize linguistic knowledge, so various linguistic benchmarks have recently been proposed to facilitate syntactic evaluation of language models (LM) across languages. This paper introduces QFrCoLA (Quebec-French Corpus of Linguistic Acceptability Judgments), a normative binary acceptability judgments dataset comprising 25,153 in-domain and 2,675..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
+data_metrics: "Not specified"
 ---
 # QFrCoLA: a Quebec-French Corpus of Linguistic Acceptability Judgments
 

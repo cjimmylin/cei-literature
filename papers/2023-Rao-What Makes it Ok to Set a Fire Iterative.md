@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Moves beyond binary moral judgments to context-sensitive reasonin
 tags: 
 abstract: "Moral or ethical judgments rely heavily on the specific contexts in which they occur. Understanding varying shades of defeasible contextualizations (i.e., additional information that strengthens or attenuates the moral acceptability of an action) is critical to accurately represent the subtlety and intricacy of grounded human moral judgment in real-life scenarios. We introduce defeasible moral reasoning: a task to provide grounded contexts that make an action more or less morally acceptable,..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, Flan-T5"
+DATA_URL: "https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb"
+pdf_extract: "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md"
+local_pdf: "[[PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, Flan-T5"
-DATA_URL: "https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb"
-pdf_extract: "PDF Extracts/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.md"
-local_pdf: "[[PDFs/2023/2023-Rao-What Makes it Ok to Set a Fire Iterative.pdf]]"
 ---
 # What Makes it Ok to Set a Fire? Iterative Self-Distillation of Contexts and Rationales for Disambiguating Defeasible Social and Moral Situations
 

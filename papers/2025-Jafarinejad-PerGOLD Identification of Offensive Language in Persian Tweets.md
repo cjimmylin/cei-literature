@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +14,7 @@ key: LSRC0138
 type: conferencePaper
 short_title: "PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing"
 year: 2025
-first_author: [[Jafarinejad]]
+first_author: "[[Jafarinejad]]"
 last_author: "[[Karimi Khodabakhsh]]"
 authors: "Jafarinejad, Rahimi, Khodabakhsh, Karimi"
 url: "https://cke.um.ac.ir/article_46412.html"
@@ -20,10 +23,6 @@ publication: "Computer and Knowledge Engineering (CKE)"
 pdf_extract: "PDF Extracts/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md"
 local_pdf: "[[PDFs/2025/2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: Persian
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Event-based Persian offensive language dataset of 13,716 tweets labeled via crowdsourcing platform. 34% labeled as offensive. ParsBERT achieves best F1 of 85.4%."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # PerGOLD: Identification of Offensive Language in Persian Tweets: Leveraging Crowdsourcing
 

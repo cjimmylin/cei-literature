@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Zahid-Evaluation of Hate Speech Detection U
 local_pdf: "[[PDFs/2025/2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, French, German, Spanish"
 cultures_nationalities_list: "Arabic, French, German, Spanish"
 languages_list: "Arabic, English, French, German, Spanish"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "CodeLlama, DeepSeek, DeepSeekCoder, GPT 4, GPT-3, GPT-3.5, GPT-4, Llama, Llama 2, Llama-2, Llama2, codellama 22, deepseek6, llama 24"
+DATA_URL: "NA"
+tags: 
+abstract: "The proliferation of hate speech on social media is one of the serious issues that is bringing huge impacts to society: an escalation of violence, discrimination, and social fragmentation. The problem of detecting hate speech is intrinsically multifaceted due to cultural, linguistic, and contextual complexities and adversarial manipulations. In this study, we systematically investigate the performance of LLMs on detecting hate speech across multilingual datasets and diverse geographic contexts."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "CodeLlama, DeepSeek, DeepSeekCoder, GPT 4, GPT-3, GPT-3.5, GPT-4, Llama, Llama 2, Llama-2, Llama2, codellama 22, deepseek6, llama 24"
-DATA_URL: "NA"
-tags: 
-abstract: "The proliferation of hate speech on social media is one of the serious issues that is bringing huge impacts to society: an escalation of violence, discrimination, and social fragmentation. The problem of detecting hate speech is intrinsically multifaceted due to cultural, linguistic, and contextual complexities and adversarial manipulations. In this study, we systematically investigate the performance of LLMs on detecting hate speech across multilingual datasets and diverse geographic contexts."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Evaluation of Hate Speech Detection Using Large Language Models and Geographical Contextualization
 

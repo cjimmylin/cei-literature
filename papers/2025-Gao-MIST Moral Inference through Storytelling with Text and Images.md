@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Gao-MIST Moral Inference through Storytelli
 local_pdf: "[[PDFs/2025/2025-Gao-MIST Moral Inference through Storytelling with Text and Images.pdf]]"
 publication: CIKM
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Vision Language Models (VLMs) have demonstrated remarkable success in downstream applications, yet they often exhibit biases, raising ethical concerns. While previous efforts have aimed to evaluate and improve the moral reasoning capabilities of VLMs, existing approaches are limited by simplified, unimodal settings or overly static visual scenarios. We propose a novel multi-imagebased dataset pipeline MIST (Moral Inference through Storytelling with Text and Images) designed to assess moral..."
+LLM_assessed: "GPT-4, Llama-3, Claude, Qwen"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Vision Language Models (VLMs) have demonstrated remarkable success in downstream applications, yet they often exhibit biases, raising ethical concerns. While previous efforts have aimed to evaluate and improve the moral reasoning capabilities of VLMs, existing approaches are limited by simplified, unimodal settings or overly static visual scenarios. We propose a novel multi-imagebased dataset pipeline MIST (Moral Inference through Storytelling with Text and Images) designed to assess moral..."
-ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Claude, Qwen"
-DATA_URL: "NA"
 ---
 # MIST: Moral Inference through Storytelling with Text and Images
 

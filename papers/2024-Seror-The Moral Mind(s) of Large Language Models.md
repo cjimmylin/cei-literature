@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +34,8 @@ abstract: "As large language models (LLMs) increasingly participate in tasks wit
 paper_summary: "Abstract: As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question arises: do they exhibit an emergent 'moral mind'—a consistent structure of moral | Overview: The Moral Mind(s) of Large Language Models Avner Seror∗ April, 2025 Abstract As large language models (LLMs) increasingly participate in tasks with ethical and societal stakes, a critical question ari | Methodology: is not constrained by violations of rationality. We applied this non-parametric approach to our dataset, generating 500 synthetic datasets in which ea | Conclusions: In this study, we investigated whether large language models (LLMs) exhibit an emergent 'moral mind'—a structured set of moral principles guiding thei"
 local_pdf: "[[PDFs/2024/2024-Seror-The Moral Mind(s) of Large Language Models.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral, Mistral"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral, Mistral"
-DATA_URL: "NA"
 ---
  The Moral Mind(s) of Large Language Models
 

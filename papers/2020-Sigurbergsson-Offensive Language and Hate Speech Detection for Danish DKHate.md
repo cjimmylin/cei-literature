@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "ACL Anthology / LREC 2020"
 pdf_extract: "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md"
 local_pdf: "[[PDFs/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Danish"
 languages_list: Danish
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://github.com/guscode/dkhate"
 tags: 
 abstract: "The presence of offensive language on social media platforms and the implications this poses is becoming a major concern in modern society. Given the enormous amount of content created every day, automatic methods are required to detect and deal with this type of content. Until now, most of the research has focused on solving the problem for the English language, while the problem is multilingual. We construct a Danish dataset containing user-generated comments from Reddit and Facebook."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Offensive Language and Hate Speech Detection for Danish (DKHate)
 

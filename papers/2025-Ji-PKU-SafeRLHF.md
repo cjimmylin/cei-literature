@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/0000/2025-Ji-PKU-SafeRLHF.md"
 local_pdf: "[[PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: ""
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "In this study, we introduce the safety human preference dataset, PKU-SAFERLHF, designed to promote research on safety alignment in large language models (LLMs). As a sibling project to SafeRLHF and BEAVERTAILS, we separate annotations of helpfulness and harmlessness for question-answering pairs, providing distinct perspectives on these coupled attributes. Overall, we provide 44.6k refined prompts and 265k question-answer pairs with safety meta-labels for 19 harm categories and three severity..."
-ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-2, Llama-3, Alpaca"
 DATA_URL: "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF"
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "265k question"
 ---
 # PKU-SafeRLHF
 

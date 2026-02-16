@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluati
 local_pdf: "[[PDFs/2025/2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "German, Spanish, Russian"
 cultures_nationalities_list: "N/A"
 languages_list: "English, German, Russian, Spanish, Ukrainian"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark for bias and fairness"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 4, Claude 4., Claude4, DeepSeek, DeepSeek V3, DeepSeek-AI, DeepSeek-V3, GPT-4, GPT-4-mini, Llama, LLaMA-3.2, ChatGPT, claude-sonnet, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed across high-impact domains, from clinical decision support and legal analysis to hiring and education, making fairness and bias evaluation before deployment critical. However, existing evaluations lack grounding in real-world scenarios and do not account for differences in harm severity, e.g., a biased decision in surgery should not be weighed the same as a stylistic bias in text summarization."
-ethics_perspective: "Bias & Fairness"
 authors_incomplete: false
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment
 

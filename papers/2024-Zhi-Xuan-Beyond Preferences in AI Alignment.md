@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,8 @@ abstract: "The dominant practice of AI alignment assumes (1) that preferences ar
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Zhi-Xuan-Beyond Preferences in AI Alignment.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, ChatGPT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, ChatGPT"
-DATA_URL: "NA"
 ---
 # Beyond Preferences in AI Alignment
 

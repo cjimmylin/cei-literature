@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Latvian, Lithuanian"
 languages_list: "Latvian, Lithuanian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Qwen-2.5-72B, Qwen-2.5-7B, Llama-3.1-70B, Llama-3.1-8B, EuroLLM-9B, Mistral-Nemo-12B, Mistral-7B"
 DATA_URL: "NA"
 tags: 
 abstract: "In this work, we address the challenge of evaluating large language models (LLMs) on the short answer matching task for Latvian and Lithuanian languages. We introduce novel datasets consisting of 502 Latvian and 690 Lithuanian question-answer pairs. For each question-answer pair, we generated matched and non-matched answers using a set of alteration rules specifically designed to introduce small but meaningful changes in the text."
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for question answering"
+data_metrics: "Not specified"
 ---
 # The Veln(ia)s is in the Details: Evaluating LLM Judgment on Latvian and Lithuanian Short Answer Matching
 

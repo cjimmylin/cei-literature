@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +32,8 @@ local_pdf: "[[PDFs/2020/2020-Mainali-Automated Classification of Modes of Moral.
 tags: 
 abstract: "What modes of moral reasoning do judges employ? We construct a linear SVM classiﬁer for moral reasoning mode trained on applied ethics articles written by consequentialists and deontologists. The model can classify a paragraph of text in held out data with over 90 percent accuracy. We then apply this classiﬁer to a corpus of circuit court opinions. We show that the use of consequentialist reasoning has increased over time."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -39,8 +43,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Automated Classification of Modes of Moral Reasoning in Judicial Decisions
 

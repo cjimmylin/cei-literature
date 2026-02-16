@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Socratic guide, euthanasia"
@@ -28,19 +30,19 @@ significance: "Examines the limits of AI as a moral advisor, arguing that while 
 tags: 
 abstract: "This paper explores Søren Kierkegaard's engagement with virtue ethics. While valuing Aristotle's focus on moral character and practical wisdom, Kierkegaard advanced virtue ethics further. He critiqued the clergy of his time for their hypocrisy, imagining replacing untrustworthy priests with machines delivering sermons and ethical guidance. Revisiting this thought experiment in light of LLMs, the paper explores the role of Kierkegaard's insights in the discourse on ethical guidance, illustrating"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, DeepSeek"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md"
 local_pdf: "[[PDFs/2025/2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Exploring LLM Chatbots as Potential Guides to Virtue Ethics: Limits and Possibilities, with a Case Study on Euthanasia
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ abstract: "Statistical natural language inference (NLI) models are susceptible t
 pdf_extract: "PDF Extracts/2019/2019-He-Unlearn Dataset Bias in Natural Language.md"
 local_pdf: "[[PDFs/2019/2019-He-Unlearn Dataset Bias in Natural Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "NA"
 ---
 # Unlearn Dataset Bias in Natural Language Inference by Fitting the Residual
 

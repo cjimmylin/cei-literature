@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Datas
 local_pdf: "[[PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
 publication: "arXiv / ACL Anthology (COLING 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/ChineseGLUE/ChineseGLUE"
 tags: 
 abstract: "Although the Indonesian language is spoken by almost 200 million people and the 10th mostspoken language in the world,1 it is under-represented in NLP research. Previous work on Indonesian has been hampered by a lack of annotated datasets, a sparsity of language resources, and a lack of resource standardization. In this work, we release the INDOLEM dataset comprising seven tasks for the Indonesian language, spanning morpho-syntax, semantics, and discourse."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # IndoLEM and IndoBERT: A Benchmark Dataset and Pre-trained Language Model for Indonesian NLP
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Maatta-LinCE Benchmark.md"
 local_pdf: "[[PDFs/2025/2025-Maatta-LinCE Benchmark.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Arabic, Spanish"
 cultures_nationalities_list: "Spanish, Nepali, Indian, Arabic, Egyptian"
 languages_list: "English, Spanglish"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ELMo"
+DATA_URL: "NA"
+tags: 
+abstract: "Recent trends in NLP research have raised an interest in linguistic code-switching (CS); modern approaches have been proposed to solve a wide range of NLP tasks on multiple language pairs. Unfortunately, these proposed methods are hardly generalizable to different code-switched languages. In addition, it is unclear whether a model architecture is applicable for a different task while still being compatible with the code-switching setting."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ELMo"
-DATA_URL: "NA"
-tags: 
-abstract: "Recent trends in NLP research have raised an interest in linguistic code-switching (CS); modern approaches have been proposed to solve a wide range of NLP tasks on multiple language pairs. Unfortunately, these proposed methods are hardly generalizable to different code-switched languages. In addition, it is unclear whether a model architecture is applicable for a different task while still being compatible with the code-switching setting."
-research_topic: "NLP & Representation Learning"
 ---
 # LinCE Benchmark
 

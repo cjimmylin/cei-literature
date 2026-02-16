@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +37,18 @@ abstract: "The rapid development and deployment of large language models (LLMs) 
 paper_summary: "Abstract: The rapid development and deployment of large language models (LLMs) have introduced a new frontier in artificial intelligence, marked by unprecedented capabilities in natural language understanding a | Overview: Large Language Model Safety: A Holistic Survey Dan Shi1∗, Tianhao Shen1∗, Yufei Huang1, Zhigen Li1,2, Yongqi Leng1, Renren Jin1, Chuang Liu1, Xinwei Wu1, Zishan Guo1, Linhao Yu1, Ling Shi1, Bojian Jia | Methodology: . . . . . . . . . . . . . . . . . . . . . . . . . . 73 | Key Findings: . . . . . . . . . . . . . . . . 75 | Conclusions: 94 6 --- Page 7 --- 1 Introduction In 1950, Alan Turing posed the question, 'Can machines think?' (Turing, 1950). At that time, the prevailing answer"
 local_pdf: "[[PDFs/2024/2024-Shi-Large Language Model Safety.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, Baichuan, Bartlett, Bloomberg, Claude, Claude 3, DeepSeek-AI, GPT-2, GPT-3, GPT-4, Gemini, Llama, Llama 3, Llama Guard, Mistral AI, Qwen, Qwen2, grok"
+DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: "No"
 is_dataset: "No"
-data_description: "Evaluation framework"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, Baichuan, Bartlett, Bloomberg, Claude, Claude 3, DeepSeek-AI, GPT-2, GPT-3, GPT-4, Gemini, Llama, Llama 3, Llama Guard, Mistral AI, Qwen, Qwen2, grok"
-DATA_URL: "https://github.com/tjunlp-lab/Awesome-LLM-Safety-Papers"
 ---
 # Large Language Model Safety: A Holistic Survey
 

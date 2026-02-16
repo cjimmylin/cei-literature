@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Estonian, Latvian, Lithuanian"
 languages_list: "Estonian, Latvian, Lithuanian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "20 words"
 LLM_assessed: "Llama-3, Llama-3.1, Llama-3.2, Gemma-2, Phi-3, GPT-3.5-Turbo, GPT-4o, Lt-Llama-2"
 DATA_URL: "NA"
 tags: 
 abstract: "Although large language models (LLMs) have transformed our expectations of modern language technologies, concerns over data privacy often restrict the use of commercially available LLMs hosted outside of EU jurisdictions. This limits their application in governmental, defence, and other data-sensitive sectors. In this work, we evaluate the extent to which locally deployable open-weight LLMs support lesser-spoken languages such as Lithuanian, Latvian, and Estonian."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Localizing AI: Evaluating Open-Weight Language Models for Languages of Baltic States
 

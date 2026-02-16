@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +35,18 @@ abstract: "As the impact of large language models increases, understanding the m
 paper_summary: "Abstract: As the impact of large language models in- creases, understanding the moral values they reflect becomes ever more important. Assess- ing the nature of moral values as understood by these models via di | Overview: arXiv:2505.19674v2 [cs.CL] 28 May 2025 Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations Chaoyi Xiang1 Chunhua Liu1 Simon De Deyne2 Lea Frermann1 1School of  | Methodology: to understanding moral alignment. • A framework to effectively extract multidi- mensional moral values from global word as- sociation networks, allowi | Key Findings: Following the propagation process, we obtain moral scores across five dimensions for each of the 12,000 cues in both GMN-L and GMN-H. To assess the al"
 local_pdf: "[[PDFs/2025/2025-Xiang-Comparing Moral Values in Western.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Llama-3
+DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: Llama-3
-DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
 ---
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations
 

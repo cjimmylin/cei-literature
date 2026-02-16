@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +16,7 @@ key: LSRC0779
 type: conferencePaper
 short_title: "Jigsaw Multilingual Toxic Comment Classification"
 year: 2025
-first_author: [[Jigsaw]]
+first_author: "[[Jigsaw]]"
 last_author: "[[Jigsaw]]"
 authors: Jigsaw
 url: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English, Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
 tags: 
 abstract: "Based on the search results, here's what I found about the multilingual toxicity benchmark from Jigsaw: Overview The Conversation AI team, a research initiative founded by Jigsaw and Google, builds technology to protect voices in conversation, with a main area of focus on machine learning models that can identify toxicity in online conversations, where toxicity is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. The Multilingual Challenge T"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # Jigsaw Multilingual Toxic Comment Classification
 

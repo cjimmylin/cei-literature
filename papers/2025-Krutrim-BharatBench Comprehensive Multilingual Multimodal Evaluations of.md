@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "Krutrim AI Labs"
 pdf_extract: "PDF Extracts/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md"
 local_pdf: "[[PDFs/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Tamil, Telugu"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Barth, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, Gemma, Gemma-2, LLaMA 3.1, LLaMA 3., LLaMA 3.2, LLaMA3, LLama3.1, Llama, Llama 2, Llama-3, Llama-3.1, Llama-3.2, Llama3.2, Mistral-Nemo, gpt4, llama 3"
 DATA_URL: "https://github.com/ola-krutrim/BharatBench"
 tags: 
 abstract: "This paper presents a comprehensive evaluation of Foundation AI models in multilingual and multimodal contexts, addressing their performance, adaptability, and limitations. With the increasing globalization of digital content and the rise of multi-modal data, understanding how Large Language Models (LLMs) operate across diverse languages and modes of information is critical. We introduce BharatBench as an evaluation framework benchmarking the performance of multilingual LLMs."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # BharatBench: Comprehensive Multilingual Multimodal Evaluations of Indian Languages
 

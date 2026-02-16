@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,20 +33,20 @@ tags:
 abstract: "When do people find it acceptable to sacrifice one life to save many? Cross-cultural studies suggested a complex pattern of universals and variations in the way people approach this question, but data were often based on small samples from a small number of countries outside of the Western world. Here we analyze responses to three sacrificial dilemmas by 70,000 participants in 10 languages and 42 countries. In every country, the three dilemmas displayed the same qualitative ordering of sacrifice"
 pdf: "https://www.pnas.org/content/pnas/117/5/2332.full.pdf"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://moralmachine.mit.edu"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "10 languages"
 ---
 # Universals and variations in moral decisions made in 42 countries by 70,000 participants
 

@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influ
 local_pdf: "[[PDFs/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.pdf]]"
 publication: "Scientific Reports (Nature)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: ""
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Experimental study showing generative AI not only reflects but amplifies cognitive biases in religious education. Christianity and Judaism perceptions became more positive after AI interaction, while Islam perception became more negative. Finds AI acts as 'double-edged sword': enhancing personalized learning while risking reinforcement of prejudice. Calls for ethical guidelines in deploying AI in religious contexts."
+LLM_assessed: "ChatGPT, GPT-4"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Experimental study showing generative AI not only reflects but amplifies cognitive biases in religious education. Christianity and Judaism perceptions became more positive after AI interaction, while Islam perception became more negative. Finds AI acts as 'double-edged sword': enhancing personalized learning while risking reinforcement of prejudice. Calls for ethical guidelines in deploying AI in religious contexts."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "NA"
-ethics_perspective: "Bias & Fairness"
 ---
 # Cognitive Bias in Generative AI Influences Religious Education
 

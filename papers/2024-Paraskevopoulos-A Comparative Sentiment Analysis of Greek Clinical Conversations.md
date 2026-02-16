@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "MDPI Bioengineering"
 pdf_extract: "PDF Extracts/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.md"
 local_pdf: "[[PDFs/2024/2024-Paraskevopoulos-A Comparative Sentiment Analysis of Greek Clinical Conversations.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Greek"
 languages_list: Greek
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology dataset for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa, GPT-2, XLNet"
 DATA_URL: "https://github.com/codelucas/newspaper"
 tags: 
 abstract: "In addressing the critical role of emotional context in patient–clinician conversations, this study conducted a comprehensive sentiment analysis using BERT, RoBERTa, GPT-2, and XLNet. Our dataset includes 185 h of Greek conversations focused on hematologic malignancies. The methodology involved data collection, data annotation, model training, and performance evaluation using metrics such as accuracy, precision, recall, F1-score, and specificity."
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for conversational ai"
+data_metrics: "Not specified"
 ---
 # A Comparative Sentiment Analysis of Greek Clinical Conversations Using BERT, RoBERTa, GPT-2, and XLNet
 

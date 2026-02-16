@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +34,18 @@ paper_summary: "Overview: arXiv:2303.11568v2 [cs.AI] 24 Sep 2023 1 Large AI Mode
 local_pdf: "[[PDFs/2023/2023-Qiu-Large AI Models in Health Informatics.pdf]]"
 abstract: "Large AI models, or foundation models, are models recently emerging with massive scales both parameter-wise and data-wise, the magnitudes of which can reach beyond billions. Once pretrained, large AI models demonstrate impressive performance in various downstream tasks. A prime example is ChatGPT, whose capability has compelled people’s imagination about the farreaching inﬂuence that large AI models can have and their potential to transform different domains of our lives."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, PaLM, PaLM 2"
+DATA_URL: "https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Computer Vision & Multimodal"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, PaLM, PaLM 2"
-DATA_URL: "https://github.com/Jianing-Qiu/Awesome-Healthcare-Foundation-Models"
 ---
 # Large AI Models in Health Informatics: Applications, Challenges, and the Future
 

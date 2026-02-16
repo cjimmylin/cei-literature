@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,18 +32,18 @@ abstract: "This paper investigates how the Socratic Dialogue can cultivate moral
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "Socratic AI Ethics"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Socratic AI Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Socratic Dialogue for Virtue Ethics in AI
 

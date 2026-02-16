@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +21,7 @@ authors: "S. Shahriar; R. Dara"
 url: "https://www.mdpi.com/2673-2688/6/2/29"
 external_pdf: "https://doi.org/10.3390/ai6020029"
 pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
-local_pdf: [[PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]
+local_pdf: "[[PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -29,6 +32,8 @@ newtags:
 tags: 
 abstract: "Large language models (LLMs) and generative artiﬁcial intelligence (AI) have demonstrated notable capabilities, achieving human-level performance in intelligent tasks like medical exams. Despite the introduction of extensive LLM evaluations and benchmarks in disciplines like education, software development, and general intelligence, a privacy-centric perspective remains underexplored in the literature."
 DATE_ADDED: 20260208
+LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4"
+DATA_URL: "https://github.com/sakibsh/Priv-IQ"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4"
-DATA_URL: "https://github.com/sakibsh/Priv-IQ"
 ---
 # Priv-IQ: A Multimodal Benchmark for Evaluating the Privacy Intelligence of Large Language Models
 

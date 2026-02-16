@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +33,18 @@ abstract: "We consider a non-linear heat equation ∂tu = ∆u + B(u, Du) + P(u)
 paper_summary: 
 local_pdf: "[[PDFs/2022/2022-Vishwanath-Towards Artificial Virtuous Agents - Games and ML.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: "No"
+research_topic: "Other"
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Towards Artificial Virtuous Agents - Games and ML
 

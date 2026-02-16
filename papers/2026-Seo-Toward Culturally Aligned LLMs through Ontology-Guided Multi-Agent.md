@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "pan-Latin American"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o-mini, Gemini 2.5 Flash Lite, Qwen 2.5, EXAONE 3.5"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) increasingly support culturally sensitive decision making, yet often exhibit misalignment due to skewed pretraining data and the absence of structured value representations. Existing methods can steer outputs, but often lack demographic grounding and treat values as independent, unstructured signals, reducing consistency and interpretability. We propose OG-MAR, an Ontology-Guided MultiAgent Reasoning framework."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "590 instances"
 ---
 # Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
 

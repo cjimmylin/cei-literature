@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: ScienceDirect
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"
 languages_list: "Turkish"
@@ -30,15 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "Gemma-2-9B, Llama-3.1-8B, Mistral-7B, Qwen-2.5-7B"
 DATA_URL: "https://huggingface.co/collections/Holmeister/turkish-llm-multi-prompt-evaluation-datasets-676994cd18391bb6e813bec3"
 tags: 
 abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets. Covers fairness, truthfulness, ethics, and NLP proficiency dimensions. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness. Directly evaluates ethics, fairness, and trustworthiness of LLMs in Turkish. Multi-faceted evaluation including prompt robustness and comparison of fine-tuned vs chat models."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "17 datasets"
 ---
 # How do LLMs perform on Turkish? A multi-faceted multi-prompt evaluation
 

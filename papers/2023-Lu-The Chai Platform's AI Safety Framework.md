@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +38,8 @@ abstract: "Chai empowers users to create and interact with customized chatbots, 
 paper_summary: "Abstract: Chai empowers users to create and interact with customized chatbots, offering unique and engaging experiences. Despite the exciting prospects, the work recognizes the inherent challenges of a commitme | Overview: The Chai Platform's AI Safety Framework Xiaoding Lu Aleksey Korshuk Zongyi Liu William Beauchamp Chai Research Abstract Chai empowers users to create and interact with customized chatbots, offering un"
 local_pdf: "[[PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,8 +50,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # The Chai Platform's AI Safety Framework
 

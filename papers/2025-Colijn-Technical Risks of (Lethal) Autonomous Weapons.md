@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,18 +31,18 @@ newtags: "Value Pluralism / Schwartz"
 tags: 
 abstract: "The autonomy and adaptability of (Lethal) Autonomous Weapons Systems, (L)AWS in short, promise unprecedented operational capabilities, but they also introduce profound risks that challenge the principles of control, accountability, and stability in international security. This report outlines the key technological risks associated with (L)AWS deployment, emphasizing their unpredictability, lack of transparency, and operational unreliability, which can lead to severe unintended consequences. Key Takeaways: 1. Proposed advantages of (L)AWS can only be achieved through objectification and classification, but a range of systematic risks limit the reliability and predictability of classifying algorithms. 2. These systematic risks include the black-box nature of AI decision-making, susceptibility to reward hacking, goal misgeneralization and potential for emergent behaviors that escape human control. 3. (L)AWS could act in ways that are not just unexpected but also uncontrollable, undermining mission objectives and potentially escalating conflicts. 4. Even rigorously tested systems may behave unpredictably and harmfully in real-world conditions, jeopardizing both strategic stability and humanitarian principles."
 DATE_ADDED: 20260129
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Other"
+research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "No"
-data_description: "N/A"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Technical Risks of (Lethal) Autonomous Weapons Systems
 

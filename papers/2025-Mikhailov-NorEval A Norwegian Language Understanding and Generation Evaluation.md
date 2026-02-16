@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.md"
 local_pdf: "[[PDFs/2025/2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Norwegian"
 languages_list: Norwegian
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Claude 3.7 Sonnet, GPT-4o, Llama, Llama-3, Llama-3.3, Llama2, Mistral-7B, Mistral-Nemo, Mistral-Small, gemma-2, mistralai"
+DATA_URL: "NA"
+tags: 
+abstract: "This paper introduces NorEval, a new and comprehensive evaluation suite for large-scale standardized benchmarking of Norwegian generative language models (LMs). NorEval consists of 24 high-quality human-created datasets – of which five are created from scratch. In contrast to existing benchmarks for Norwegian, NorEval covers a broad spectrum of task categories targeting Norwegian language understanding and generation, establishes human baselines, and focuses on both of the official written..."
+authors_incomplete: false
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Claude 3.7 Sonnet, GPT-4o, Llama, Llama-3, Llama-3.3, Llama2, Mistral-7B, Mistral-Nemo, Mistral-Small, gemma-2, mistralai"
-DATA_URL: "NA"
-tags: 
-abstract: "This paper introduces NorEval, a new and comprehensive evaluation suite for large-scale standardized benchmarking of Norwegian generative language models (LMs). NorEval consists of 24 high-quality human-created datasets – of which five are created from scratch. In contrast to existing benchmarks for Norwegian, NorEval covers a broad spectrum of task categories targeting Norwegian language understanding and generation, establishes human baselines, and focuses on both of the official written..."
-research_topic: "Machine Learning"
-authors_incomplete: false
 ---
 # NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark
 

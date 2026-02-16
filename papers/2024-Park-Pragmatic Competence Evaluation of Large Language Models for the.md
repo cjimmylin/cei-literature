@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / ACL Anthology (PACLIC 2024)
 local_pdf: "[[PDFs/2024-Park-Pragmatic Competence Evaluation of Large Language Models for the.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Park-Pragmatic Competence Evaluation of Large Language Models for the.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "Korean"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, HyperCLOVA X"
 DATA_URL: "https://github.com/DojunPark/pragmatic_eval_korean"
 tags: 
 abstract: "Benchmarks play a significant role in the current evaluation of Large Language Models (LLMs), yet they often overlook the models’ abilities to capture the nuances of human language, primarily focusing on evaluating embedded knowledge and technical skills. To address this gap, our study evaluates how well LLMs understand context-dependent expressions from a pragmatic standpoint, specifically in Korean."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Pragmatic Competence Evaluation of Large Language Models for the Korean Language
 

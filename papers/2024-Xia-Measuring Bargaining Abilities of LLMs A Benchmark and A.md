@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2024/2024-Xia-Measuring Bargaining Abilities of LLMs 
 local_pdf: "[[PDFs/2024/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Bargaining is an important and unique part of negotiation between humans. As LLM-driven agents learn to negotiate and act like real humans, how to evaluate agents’ bargaining abilities remains an open problem. For the first time, we formally described the Bargaining task as an asymmetric incomplete information game, defining the gains of the Buyer and Seller in multiple bargaining processes. It allows us to quantitatively assess an agent’s performance in the Bargain task."
+LLM_assessed: "GPT-4, ChatGPT, Llama-2, Mistral, Mixtral, Qwen"
+DATA_URL: "https://github.com/TianXiaSJTU/AmazonPriceHistory"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Bargaining is an important and unique part of negotiation between humans. As LLM-driven agents learn to negotiate and act like real humans, how to evaluate agents’ bargaining abilities remains an open problem. For the first time, we formally described the Bargaining task as an asymmetric incomplete information game, defining the gains of the Buyer and Seller in multiple bargaining processes. It allows us to quantitatively assess an agent’s performance in the Bargain task."
-research_topic: "AI Safety & Alignment"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, ChatGPT, Llama-2, Mistral, Mixtral, Qwen"
-DATA_URL: "https://github.com/TianXiaSJTU/AmazonPriceHistory"
 ---
 # Measuring Bargaining Abilities of LLMs: A Benchmark and A Buyer-Enhancement Method
 

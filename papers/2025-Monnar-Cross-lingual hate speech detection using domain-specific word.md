@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
 local_pdf: "[[PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English, Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/facebookresearch/XLM"
+tags: 
+abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/facebookresearch/XLM"
-tags: 
-abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need..."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One
 

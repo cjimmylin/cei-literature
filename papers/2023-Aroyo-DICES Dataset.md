@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "Machine learning approaches often require training and evaluation dat
 paper_summary: "Abstract: Machine learning approaches often require training and evaluation datasets with a clear separation between positive and negative examples. This risks simplifying and even obscuring the inherent subjec | Overview: DICES Dataset: Diversity in Conversational AI Evaluation for Safety Lora Aroyo1, Alex S. Taylor2, Mark Díaz1, Christopher M. Homan1, Alicia Parrish1, Greg Serapio-García3, Vinodkumar Prabhakaran1, and | Methodology: Driving the development of DICES was the overarching aim to produce a benchmark dataset able to systematically capture variability in safety judgement"
 local_pdf: "[[PDFs/2023/2023-Aroyo-DICES Dataset.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/google-research-datasets/dices-dataset"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/google-research-datasets/dices-dataset"
 ---
 # DICES Dataset: Diversity in Conversational AI Evaluation for Safety
 

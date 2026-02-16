@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,6 +28,10 @@ newtags: Thai
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Qwen, GPT-4, GPT-3.5, Claude, Gemini"
+DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
+pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
+local_pdf: "[[PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -35,10 +42,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Qwen, GPT-4, GPT-3.5, Claude, Gemini"
-DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
-pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
-local_pdf: "[[PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
 ---
 # Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI)
 

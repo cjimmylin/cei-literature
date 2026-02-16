@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Com
 local_pdf: "[[PDFs/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.pdf]]"
 publication: "arXiv / SocialNLP@ACL 2020"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, German, Italian"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-"
+tags: 
+abstract: "Toxic comments in online platforms are an unavoidable social issue under the cloak of anonymity. Hate speech detection has been actively done for languages such as English, German, or Italian, where manually labeled corpus has been released. In this work, we ﬁrst present 9.4K manually labeled entertainment news comments for identifying Korean toxic speech, collected from a widely used online news platform in Korea."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/LDNOOBW/List-of-Dirty-Naughty-"
-tags: 
-abstract: "Toxic comments in online platforms are an unavoidable social issue under the cloak of anonymity. Hate speech detection has been actively done for languages such as English, German, or Italian, where manually labeled corpus has been released. In this work, we ﬁrst present 9.4K manually labeled entertainment news comments for identifying Korean toxic speech, collected from a widely used online news platform in Korea."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection
 

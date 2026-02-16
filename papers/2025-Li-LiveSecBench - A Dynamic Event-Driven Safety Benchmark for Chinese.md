@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Li-LiveSecBench - A Dynamic Event-Driven Sa
 local_pdf: "[[PDFs/2025/2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "We introduce LiveSecBench, a continuously updated safety benchmark specifically for Chinese-language LLM application scenarios. LiveSecBench constructs a high-quality and unique dataset through a pipeline that combines automated generation with human verification. By periodically releasing new versions to expand the dataset and update evaluation metrics, LiveSecBench provides a robust and up-to-date standard for AI safety."
+LLM_assessed: "GPT-5, GPT-4o, Claude, Qwen, Llama-3, Gemini, DeepSeek, Grok"
+DATA_URL: "https://livesecbench.intokentech.cn/"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "We introduce LiveSecBench, a continuously updated safety benchmark specifically for Chinese-language LLM application scenarios. LiveSecBench constructs a high-quality and unique dataset through a pipeline that combines automated generation with human verification. By periodically releasing new versions to expand the dataset and update evaluation metrics, LiveSecBench provides a robust and up-to-date standard for AI safety."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-5, GPT-4o, Claude, Qwen, Llama-3, Gemini, DeepSeek, Grok"
-DATA_URL: "https://livesecbench.intokentech.cn/"
 ---
 # LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md"
 local_pdf: "[[PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: Chinese
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
+LLM_assessed: "BERT, ChatGPT, Claude, Claude 4, Claude 4 Opus, Claude Opus, DeepSeek, DeepSeek V3, DeepSeek-V3, GPT-4, GPT-4o, Grok, Grok 3, Grok 4, Grok-3, Llama, LLaMA 4, Llama 2, Llama 2-Chat, Llama 3, Llama Guard, Mistral, Mistral 7B, Mixtral, Qwen, Qwen 3, Qwen3, claude-4, llama."
+DATA_URL: "NA"
+tags: 
+abstract: "While the widespread deployment of Large Language Models (LLMs) holds great potential for society, their vulnerabilities to adversarial manipulation and exploitation can pose serious safety, security, and ethical risks. As new threats continue to emerge, it becomes critically necessary to assess the landscape of LLMs’ safety and security against evolving adversarial prompt techniques. To understand the behavior of LLMs, this research provides an empirical analysis and risk profile of nine..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, Claude, Claude 4, Claude 4 Opus, Claude Opus, DeepSeek, DeepSeek V3, DeepSeek-V3, GPT-4, GPT-4o, Grok, Grok 3, Grok 4, Grok-3, Llama, LLaMA 4, Llama 2, Llama 2-Chat, Llama 3, Llama Guard, Mistral, Mistral 7B, Mixtral, Qwen, Qwen 3, Qwen3, claude-4, llama."
-DATA_URL: "NA"
-tags: 
-abstract: "While the widespread deployment of Large Language Models (LLMs) holds great potential for society, their vulnerabilities to adversarial manipulation and exploitation can pose serious safety, security, and ethical risks. As new threats continue to emerge, it becomes critically necessary to assess the landscape of LLMs’ safety and security against evolving adversarial prompt techniques. To understand the behavior of LLMs, this research provides an empirical analysis and risk profile of nine..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Safety and Security Analysis of Large Language Models: Risk Profile and Harm Potential
 

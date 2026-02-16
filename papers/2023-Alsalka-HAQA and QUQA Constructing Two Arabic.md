@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arab
 local_pdf: "[[PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Two Arabic.pdf]]"
 publication: "RANLP 2023 / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
@@ -35,16 +34,20 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question-Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA)."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question-Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA)."
 data_description: "Evaluation approach text corpus for question answering"
-data_metrics: "1598 question"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-research_topic: "Machine Learning"
+data_metrics: "Not specified"
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
 

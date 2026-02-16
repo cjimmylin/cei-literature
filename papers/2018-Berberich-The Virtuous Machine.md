@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_BERBERICH2018
@@ -28,18 +30,18 @@ significance: "Early influential work connecting Aristotelian virtue ethics with
 external_pdf: "https://arxiv.org/pdf/1806.10322"
 abstract: "Modern AI and robotic systems are characterized by a high and ever-increasing level of autonomy, with applications in fields such as autonomous driving, service robotics, and digital personal assistants moving closer to humans. From this combination emerges the field of AI ethics which recognizes that the actions of autonomous machines entail moral dimensions. The authors argue for taking inspiration from Aristotelian virtue ethics by showing that it forms a suitable combination with modern AI due to its focus on learning from experience. The paper proposes that imitation learning from moral exemplars, a central concept in virtue ethics, can solve the value alignment problem. Additionally, the authors argue that an intelligent system endowed with the virtues of temperance and friendship to humans would not pose a control problem as it would not have the desire for limitless self-improvement."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
 publication: arXiv
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # The Virtuous Machine - Old Ethics for New Technology?
 

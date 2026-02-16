@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,10 @@ significance: "The gold-standard dataset for studying 'moral sentiment' in natur
 tags: 
 abstract: "Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena, such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated..."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://osf.io/ezn37/"
+pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
+local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,10 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
-LLM_assessed: "NA"
-DATA_URL: "https://osf.io/ezn37/"
-pdf_extract: "PDF Extracts/2020/2020-Hoover-Moral Foundations Twitter Corpus.md"
-local_pdf: "[[PDFs/2020/2020-Hoover-Moral Foundations Twitter Corpus.pdf]]"
 ---
 # Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment
 

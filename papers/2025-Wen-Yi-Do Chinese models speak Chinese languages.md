@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Wen-Yi-Do Chinese models speak Chinese languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wen-Yi-Do Chinese models speak Chinese languages.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, French, German"
 cultures_nationalities_list: "Chinese minority languages, Kazakh, Mongolian, Tibetan, Uyghur"
 languages_list: "Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Qwen2.5, Yi-1.5, DeepSeek-R1, InternLM3, Baichuan2, Llama-3, Mistral, Gemma-2"
 DATA_URL: "NA"
 tags: 
 abstract: "The release of top-performing open-weight LLMs has cemented China’s role as a leading force in AI development. Do these models support languages spoken in China? Or do they speak the same languages as Western models? Comparing multilingual capabilities is important for two reasons. First, language ability provides insights into pre-training data curation, and thus into resource allocation and development priorities."
-research_topic: "Question Answering"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Do Chinese models speak Chinese languages?
 

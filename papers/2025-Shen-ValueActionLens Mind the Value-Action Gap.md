@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Shen-ValueActionLens Mind the Value-Action 
 local_pdf: "[[PDFs/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multicultural"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Existing research assesses LLMs’ values by analyzing their stated inclinations, overlooking potential discrepancies between stated values and actions—termed the “Value-Action Gap.” This study introduces ValueActionLens, a framework to evaluate the alignment between LLMs’ stated values and their value-informed actions. The framework includes a dataset of 14.8k value-informed actions across 12 cultures and 11 social topics, along with two tasks measuring alignment through three metrics."
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, DeepSeek, Claude"
+DATA_URL: "https://github.com/huashen218/value_action_gap"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Existing research assesses LLMs’ values by analyzing their stated inclinations, overlooking potential discrepancies between stated values and actions—termed the “Value-Action Gap.” This study introduces ValueActionLens, a framework to evaluate the alignment between LLMs’ stated values and their value-informed actions. The framework includes a dataset of 14.8k value-informed actions across 12 cultures and 11 social topics, along with two tasks measuring alignment through three metrics."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Gemma, DeepSeek, Claude"
-DATA_URL: "https://github.com/huashen218/value_action_gap"
 ---
 # ValueActionLens (Mind the Value-Action Gap)
 

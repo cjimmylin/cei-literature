@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2025/2025-Coalition-The Gospel Coalition AI Christian
 local_pdf: "[[PDFs/2025/2025-Coalition-The Gospel Coalition AI Christian Benchmark.pdf]]"
 publication: "The Gospel Coalition (industry report)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -35,16 +34,21 @@ religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "Summary: Seven orthodox theologians graded seven LLMs on responses to the most-Googled religious questions. DeepSeek R1 ranked highest for theological reliability; Llama 3.7 performed worst. Evaluates alignment with Nicene Creed doctrines."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "DeepSeek R1, Llama-3.7, GPT-4o, Claude, Gemini"
 DATA_URL: "https://www.thegospelcoalition.org/ai-christian-benchmark/"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # The Gospel Coalition AI Christian Benchmark: Evaluating 7 Top LLMs for Theological Reliability
 

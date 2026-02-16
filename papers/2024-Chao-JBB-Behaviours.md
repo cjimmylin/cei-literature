@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,21 +33,21 @@ pdf_extract: "PDF Extracts/0000/2024-Chao-JBB-Behaviours.md"
 abstract: "Jailbreak attacks cause large language models (LLMs) to generate harmful, un- ethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current collection of benchmarks and evalua- tion techniques do not adequately address. First, there is no clear standard of practice regarding jailbreaking evaluation. Second, existing works compute costs and success rates in incomparable ways. And third, numerous works are not re- producible, as they withh"
 paper_summary: "Abstract: Jailbreak attacks cause large language models (LLMs) to generate harmful, un- ethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current c | Overview: JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models Patrick Chao∗1, Edoardo Debenedetti∗2, Alexander Robey∗1, Maksym Andriushchenko∗3, Francesco Croce3, Vikash Sehwag4, | Key Findings: framework at https://github.com/JailbreakBench/jailbreakbench that includes a clearly defined threat model, system prompts, chat templates, and scor-"
 local_pdf: "[[PDFs/2024/2024-Chao-JBB-Behaviours.pdf]]"
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Vicuna, Mixtral"
 DATA_URL: "https://github.com/JailbreakBench/jailbreakbench"
 publication: "NeurIPS 2024"
 DATE_ADDED: 20260207
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "Not specified"
 ---
 # JBB-Behaviours: A Benchmark for Jailbreaking Bounded LLMs
 

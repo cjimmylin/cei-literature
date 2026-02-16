@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ abstract: "As language models (LMs) are increasingly deployed as autonomous agen
 paper_summary: "Abstract: As language models (LMs) are increasingly de- ployed as autonomous agents, their robust adher- ence to human-assigned objectives becomes cru- cial for safe operation. When these agents operate indepen | Overview: arXiv:2505.02709v1 [cs.AI] 5 May 2025 Technical Report: Evaluating Goal Drift in Language Model Agents Rauno Arike * 1 Elizabeth Donoway 1 Henning Bartsch 1 Marius Hobbhahn 2 Abstract As language mode | Methodology: 4. Eventually abandoning environmental constraints entirely Currently, we are in a pure performance maximization mode, selecting investments based sol | Key Findings: phase begins at time step 9. In contrast to the simplified flow in the figure, the agent has to actively use a tool to check the AUM value and recogni | Conclusions: We conduct a systematic investigation of goal drift in LM agents, providing the first comprehensive evaluation for goal adherence and drift over long"
 local_pdf: "[[PDFs/2025/2025-Arike-A Framework for Analyzing and Measuring Goal.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Claude, GPT-4"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "100,000 tokens"
-LLM_assessed: "Claude, GPT-4"
-DATA_URL: "NA"
 ---
 # A Framework for Analyzing and Measuring Goal Drift in Language Model Agents
 

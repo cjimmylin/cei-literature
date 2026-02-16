@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md"
 local_pdf: "[[PDFs/2021/2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Catalan"
 languages_list: Catalan
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/TeMU-BSC/club"
 tags: 
 abstract: "The Catalan Language Understanding Benchmark (CLUB) encompasses various datasets representative of diﬀerent NLU tasks that enable accurate evaluations of language models, following the General Language Understanding Evaluation (GLUE) example. It is part of AINA and PlanTL, two public funding initiatives to empower the Catalan language in the Artiﬁcial Intelligence era."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # The Catalan Language CLUB (Catalan Language Understanding Benchmark)
 

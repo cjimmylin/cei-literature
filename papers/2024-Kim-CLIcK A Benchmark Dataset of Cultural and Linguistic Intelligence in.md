@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural a
 local_pdf: "[[PDFs/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset for hate speech detection"
-data_metrics: "13 language"
 LLM_assessed: "Claude, Claude-2, Claude2, Falcon40B, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, LLaMA2, LLaMA2-chat, Llama-2, llama-2 chat"
 DATA_URL: "https://github.com/Beomi/KoAlpaca"
 tags: 
 abstract: "Despite the rapid development of large language models (LLMs) for the Korean language, there remains an obvious lack of benchmark datasets that test the requisite Korean cultural and linguistic knowledge. Because many existing Korean benchmark datasets are derived from the English counterparts through translation, they often overlook the different cultural contexts. For the few benchmark datasets that are sourced from Korean data capturing cultural knowledge, only narrow tasks such as bias and..."
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "11 categories"
 ---
 # CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ pdf_extract: "PDF Extracts/2025/2025-Backmann-When Ethics and Payoffs Diverge.md
 abstract: "Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern. While prior work has examined both LLMs’ moral judgment and strategic behavior in social dilemmas, there is limited understanding of how they act when moral imperatives directly conflict with rewards or incentives."
 paper_summary: "Abstract: Recent advances in large language models (LLMs) have enabled their use in complex agentic roles, involving decision-making with humans or other agents, making ethical alignment a key AI safety concern | Overview: When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas Steffen Backmann1 David Guzman Piedrahita2 Emanuel Tewolde3 Rada Mihalcea4 Bernhard Schölkopf5 Zhijing Jin5,6,7 1ETH Züri | Conclusions: We introduced MORALSIM, a framework for evaluating large language models in repeated game- theoretic scenarios enriched with strong moral contexts, al"
 local_pdf: "[[PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf]]"
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, DeepSeek, Qwen, o3"
+DATA_URL: "https://github.com/sbackmann/moralsim"
+publication: "arXiv preprint"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, DeepSeek, Qwen, o3"
-DATA_URL: "https://github.com/sbackmann/moralsim"
-publication: "arXiv preprint"
-DATE_ADDED: 20260207
 ---
 # When Ethics and Payoffs Diverge: LLM Agents in Morally Charged Social Dilemmas
 

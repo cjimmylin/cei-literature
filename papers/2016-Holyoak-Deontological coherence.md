@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,17 +34,17 @@ significance: "Offers a cognitive model for how humans integrate conflicting deo
 tags: 
 abstract: "We review a broad range of work, primarily in cognitive and social psychology, that provides insight into the processes of moral judgment. In particular, we consider research on pragmatic reasoning about regulations and on coherence in decision making, both areas in which psychological theories have been guided by work in legal philosophy. Armed with these essential prerequisites, we sketch a psychological framework for how ordinary people make judgments about moral issues. Based on a literature review, we show how the framework of deontological coherence unifies findings in moral psychology that have often been explained in terms of a grab-bag of heuristics and biases. (PsycINFO Database Record"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_dataset: "Yes"
+data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Deontological coherence: A framework for commonsense moral reasoning.
 

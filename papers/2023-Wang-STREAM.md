@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,20 +34,20 @@ significance: "Argues for 'dynamic' alignment where moral norms are continuously
 pdf_extract: "PDF Extracts/2023/2023-Wang-STREAM.md"
 abstract: "This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to provide ethics datasets and knowledge bases to help promote AI models 'follow good advice as naturally as a stream follows its course'. By creating a comprehensive and representative platform that accurately mirrors the moral judgments of diverse groups including humans and AIs, we hope to..."
 paper_summary: "Abstract: This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to pr | Overview: STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models Yuwei Wang1,2,3,†, Enmeng Lu1,2,3,†, Zizhe Ruan1,2,3, Yao Liang2,4, and Yi Zeng1,2,3,4,†,* 1Internatio"
-local_pdf: [[PDFs/2023/2023-Wang-STREAM.pdf]]
+local_pdf: "[[PDFs/2023/2023-Wang-STREAM.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Vicuna, Claude"
+DATA_URL: "https://safe-and-ethical.ai/stream/en"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset"
+data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Vicuna, Claude"
-DATA_URL: "https://safe-and-ethical.ai/stream/en"
 ---
 # STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models
 

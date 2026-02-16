@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Nikolich-Vikhr The Family of Open-Source In
 local_pdf: "[[PDFs/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.pdf]]"
 publication: "arXiv / ACL Anthology (MRL 2024)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
 languages_list: "English, Russian"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, GPT-3, GPT-3.5, GPT-4, Llama-2, Llama, Mistral-0.2-Instruct, Mistral-7B, BERT, llama3"
 DATA_URL: "https://huggingface.co/datasets/Vikhrmodels"
 tags: 
 abstract: "There has been a surge in the development of various Large Language Models (LLMs). However, text generation for languages other than English often faces significant challenges, including poor generation quality and reduced computational performance due to the disproportionate representation of tokens in the model’s vocabulary. In this work, we address these issues by developing a pipeline for the adaptation of English-oriented pre-trained models to other languages and constructing efficient..."
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # Vikhr: The Family of Open-Source Instruction-Tuned Large Language Models for Russian
 

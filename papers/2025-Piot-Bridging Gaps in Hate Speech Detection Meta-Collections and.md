@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Piot-Bridging Gaps in Hate Speech Detection
 local_pdf: "[[PDFs/2025/2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Spanish, Brazilian"
 cultures_nationalities_list: "Spanish, Portuguese, Brazilian"
 languages_list: "European Portuguese, European Spanish, Galician, Portuguese, Spanish"
@@ -32,15 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Gemma, Llama, Llama 3.1, Mistral 7B, RoBERTa, llama 3"
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech poses a serious threat to social cohesion and individual well-being, particularly on social media, where it spreads rapidly. While research on hate speech detection has progressed, it remains largely focused on English, resulting in limited resources and benchmarks for low-resource languages. Moreover, many of these languages have multiple linguistic varieties, a factor often overlooked in current approaches."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark text corpus for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Bridging Gaps in Hate Speech Detection: Meta-Collections and Benchmarks for Low-Resource Iberian Languages
 

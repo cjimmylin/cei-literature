@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md"
 local_pdf: "[[PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: Chinese
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "13 categories"
 LLM_assessed: "BERT, GPT-4, Qwen, Qwen 0.60"
 DATA_URL: "https://github.com/jaaack-wang/Chinese-Synonyms"
 tags: 
 abstract: "Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen."
 research_topic: Other
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "13 categories"
 ---
 # Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC
 

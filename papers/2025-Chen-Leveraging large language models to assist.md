@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,20 +34,20 @@ significance: "Investigates a niche but high-stakes application: AI as a counsel
 tags: 
 abstract: "Abstract Large language models (LLMs) have emerged as transformative tools with the potential to revolutionize philosophical counseling. By harnessing their advanced natural language processing and reasoning capabilities, LLMs offer innovative solutions to overcome limitations inherent in traditional counseling approaches—such as counselor scarcity, difficulties in identifying mental health issues, subjective outcome assessment, and cultural adaptation challenges. In this study, we explore cutti"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chen-Leveraging large language models to assist.md"
 local_pdf: "[[PDFs/2025/2025-Chen-Leveraging large language models to assist.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Leveraging large language models to assist philosophical counseling: prospective techniques, value, and challenges
 

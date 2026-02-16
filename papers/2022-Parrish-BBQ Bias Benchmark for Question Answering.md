@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2022/2022-Parrish-BBQ Bias Benchmark for Question Ans
 local_pdf: "[[PDFs/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.pdf]]"
 publication: "ACL 2022"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
+LLM_assessed: "T5, RoBERTa, DeBERTa"
+DATA_URL: "https://github.com/nyu-mll/BBQ"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
-ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "T5, RoBERTa, DeBERTa"
-DATA_URL: "https://github.com/nyu-mll/BBQ"
 ---
 # BBQ (Bias Benchmark for Question Answering)
 

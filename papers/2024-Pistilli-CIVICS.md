@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ significance: "Reveals the implicit value variability in models across languages
 tags: 
 abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-ethics_perspective: "General Ethics"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
-local_pdf: [[PDFs/2024/2024-Pistilli-CIVICS.pdf]]
+local_pdf: "[[PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models
 

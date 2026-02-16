@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,21 +32,21 @@ significance: "Reveals systematic differences in how LLMs reason vs explain mora
 tags: 
 abstract: "As AI systems increasingly navigate applications in healthcare, law, and governance, understanding how they handle ethically complex scenarios becomes critical. Previous work has mainly examined the moral judgments in large language models (LLMs), rather than their underlying moral reasoning process. In contrast, we focus on a large-scale analysis of the moral reasoning traces provided by LLMs. Furthermore, unlike prior work that attempted to draw inferences from only a handful of moral..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
 research_topic: "LLM Moral Reasoning"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-3, Llama, Gemma, Qwen, Mistral, DeepSeek, Phi"
 DATA_URL: "https://github.com/keenansamway/moral-lens"
 pdf_extract: "PDF Extracts/2025/2025-Samway-Are Language Models Consequentialist or Deontological.md"
 local_pdf: "[[PDFs/2025/2025-Samway-Are Language Models Consequentialist or Deontological.pdf]]"
 normative_ethics_benchmark: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Are Language Models Consequentialist or Deontological Moral Reasoners?
 

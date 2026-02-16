@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,21 +32,21 @@ significance: "Found that while LLMs broadly align with human utilitarian prefer
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, PaLM-2, Llama-2"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Takemoto-The moral machine experiment on large language.md"
 local_pdf: "[[PDFs/2024/2024-Takemoto-The moral machine experiment on large language.pdf]]"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Machine Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # The moral machine experiment on large language models
 

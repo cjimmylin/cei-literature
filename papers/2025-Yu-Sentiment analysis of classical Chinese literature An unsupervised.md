@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.md"
 local_pdf: "[[PDFs/2025/2025-Yu-Sentiment analysis of classical Chinese literature An unsupervised.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ChatGLM-6B, ChatGPT, DeepSeek R1, LLaMA 2"
+DATA_URL: "NA"
+tags: 
+abstract: "Sentiment analysis has become a transformative technology in various contexts, particularly in Natural Language Processing (NLP), social media analytics, and liter­ ary analysis, as it can extract information from a wide range of texts. The advance­ ments in deep learning, particularly with transformer models such as BERT and graph-based models like GATs, have enabled faster progress in analyzing complex language structures."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGLM-6B, ChatGPT, DeepSeek R1, LLaMA 2"
-DATA_URL: "NA"
-tags: 
-abstract: "Sentiment analysis has become a transformative technology in various contexts, particularly in Natural Language Processing (NLP), social media analytics, and liter­ ary analysis, as it can extract information from a wide range of texts. The advance­ ments in deep learning, particularly with transformer models such as BERT and graph-based models like GATs, have enabled faster progress in analyzing complex language structures."
-research_topic: "NLP & Representation Learning"
 ---
 # Sentiment analysis of classical Chinese literature: An unsupervised deep learning model with BERT and graph attention networks | PLOS One
 

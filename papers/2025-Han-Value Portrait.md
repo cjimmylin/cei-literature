@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Han-Value Portrait.md"
 local_pdf: "[[PDFs/2025/2025-Han-Value Portrait.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
+tags: 
+abstract: "The importance of benchmarks for assessing the values of language models has been pronounced due to the growing need of more authentic, human-aligned responses. However, existing benchmarks rely on human or machine annotations that are vulnerable to value-related biases. Furthermore, the tested scenarios often diverge from real-world contexts in which models are commonly used to generate text and express values."
+LLM_assessed: "GPT-4, Llama-3, Qwen, Gemma, Mistral, Claude"
+DATA_URL: "https://github.com/holi-lab/ValuePortrait"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "The importance of benchmarks for assessing the values of language models has been pronounced due to the growing need of more authentic, human-aligned responses. However, existing benchmarks rely on human or machine annotations that are vulnerable to value-related biases. Furthermore, the tested scenarios often diverge from real-world contexts in which models are commonly used to generate text and express values."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Qwen, Gemma, Mistral, Claude"
-DATA_URL: "https://github.com/holi-lab/ValuePortrait"
 ---
 # Value Portrait
 

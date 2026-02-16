@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.67.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md"
 local_pdf: "[[PDFs/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Arabic"
@@ -30,16 +29,20 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Hallucination in Large Language Models (LLMs) remains a significant challenge and continues to draw substantial research attention. The problem becomes especially critical when hallucinations arise in sensitive domains, such as religious discourse. To address this gap, we introduce IslamicEval 2025—the first shared task specifically focused on evaluating and detecting hallucinations in Islamic content."
+LLM_assessed: "Llama-3, Qwen, Gemma"
+DATA_URL: "https://www.codabench.org/competitions/9820/"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Truthfulness & Factuality"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Hallucination in Large Language Models (LLMs) remains a significant challenge and continues to draw substantial research attention. The problem becomes especially critical when hallucinations arise in sensitive domains, such as religious discourse. To address this gap, we introduce IslamicEval 2025—the first shared task specifically focused on evaluating and detecting hallucinations in Islamic content."
-research_topic: "Truthfulness & Factuality"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Qwen, Gemma"
-DATA_URL: "https://www.codabench.org/competitions/9820/"
 ---
 # IslamicEval 2025 -- Shared Task on Capturing LLM Hallucination in Islamic Content
 

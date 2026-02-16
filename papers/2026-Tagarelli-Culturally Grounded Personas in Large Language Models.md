@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Cross-cultural (multiple cultural conditionings via WVS)"
 languages_list: ""
@@ -30,15 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-OSS-20B"
 DATA_URL: "NA"
 tags: 
 abstract: "Despite the growing utility of Large Language Models (LLMs) for simulating human behavior, the extent to which these synthetic personas accurately reﬂect world and moral value systems across different cultural conditionings remains uncertain. This paper investigates the alignment of synthetic, culturally-grounded personas with established frameworks, speciﬁcally the World Values Survey (WVS), the Inglehart–Welzel Cultural Map, and Moral Foundations Theory."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks
 

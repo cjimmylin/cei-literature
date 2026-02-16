@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: LSRC0232
 type: conferencePaper
 short_title: "A Galician-Portuguese Generative Model"
 year: 2025
-first_author: [[CiTIUS]]
+first_author: "[[CiTIUS]]"
 last_author: "[[Universidade de Santiago de Compostela CiTIUS]]"
 authors: "CiTIUS, Universidade de Santiago de Compostela"
 doi: 10.1007/978-3-031-73503-5_24
@@ -21,10 +24,6 @@ publication: "Springer (EPIA 2024)"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Galician"
 languages_list: "Galician, Portuguese"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Carvalho_pt-gl: Galician-Portuguese generative model with 1.3B parameters trained on 6B+ words balanced between both varieties. Evaluated on CALAME-PT benchmark."
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # A Galician-Portuguese Generative Model
 

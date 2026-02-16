@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic E
 local_pdf: "[[PDFs/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.pdf]]"
 publication: "arXiv / ACL Anthology"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"
 languages_list: "Filipino, Filipino/Tagalog, Indonesian, Javanese, Malay, Sundanese, Tamil, Thai, Vietnamese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark for ai safety"
-data_metrics: "Not specified"
 LLM_assessed: "DeepSeek-AI, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma2, Llama, Llama-3, Llama-3.1, Llama3.1, gemma-2, gpt-3.5-turbo"
 DATA_URL: "https://github.com/aisingapore/SEA-HELM"
 tags: 
 abstract: "With the rapid emergence of novel capabilities in Large Language Models (LLMs), the need for rigorous multilingual and multicultural benchmarks that are integrated has become more pronounced. Though existing LLM benchmarks are capable of evaluating specific capabilities of LLMs in English as well as in various mid- to low-resource languages, including those in the Southeast Asian (SEA) region, a comprehensive and culturally representative evaluation suite for the SEA languages has not been..."
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # SEA-HELM: Southeast Asian Holistic Evaluation of Language Models
 

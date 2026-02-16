@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Mora
 local_pdf: "[[PDFs/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "English"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
+tags: 
+abstract: "Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present VALACT-15K, a dataset of 3,000 adviceseeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenariobased questions and the traditional value questionnaire, we evaluate ten..."
+LLM_assessed: "GPT-4, Claude, Grok, Llama, Qwen, DeepSeek"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present VALACT-15K, a dataset of 3,000 adviceseeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenariobased questions and the traditional value questionnaire, we evaluate ten..."
-ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Grok, Llama, Qwen, DeepSeek"
-DATA_URL: "NA"
 ---
 # Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)
 

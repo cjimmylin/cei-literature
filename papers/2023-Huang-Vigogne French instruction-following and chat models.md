@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: GitHub
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: French
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Vigogne (LLaMa-based), Alpaca, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/bofenghuang/vigogne"
 tags: 
 abstract: "Collection of French LLMs fine-tuned for instruction-following and chat. Includes instruction-following and multi-turn chat models based on LLaMA. Training data includes 460K GPT-3.5-Turbo examples and 60K GPT-4 examples. Provides French LLM evaluation methodology."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
+data_metrics: "4 examples"
 ---
 # Vigogne: French instruction-following and chat models
 

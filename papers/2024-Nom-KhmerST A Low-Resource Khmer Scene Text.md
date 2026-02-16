@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2024/2024-Nom-KhmerST A Low-Resource Khmer Scene Text
 local_pdf: "[[PDFs/2024/2024-Nom-KhmerST A Low-Resource Khmer Scene Text.pdf]]"
 publication: "ACCV 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cambodian"
 languages_list: "Khmer"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Developing effective scene text detection and recognition models hinges on extensive training data, which can be both laborious and costly to obtain, especially for low-resourced languages. Conventional methods tailored for Latin characters often falter with non-Latin scripts due to challenges like character stacking, diacritics, and variable character widths without clear word boundaries. In this paper, we introduce the first Khmer scene-text dataset, featuring 1,544 expert-annotated images,..."
-data_description: "Benchmark annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://gitlab.com/vannkinhnom123/khmerst"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset"
+data_metrics: "Not specified"
 ---
 # KhmerST: A Low-Resource Khmer Scene Text Detection and Recognition Benchmark
 

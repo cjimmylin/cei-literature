@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Demonstrates that bias in LMs manifests not just as stereotypes b
 tags: 
 abstract: "Reporting bias is the tendency for speakers to omit unnecessary or obvious information while mentioning things they consider relevant or surprising. In descriptions of people, reporting bias can manifest as a tendency to over report on attributes that deviate from the norm. While social bias in language models has garnered a lot of attention in recent years, a majority of the existing work equates “bias” with “stereotypes”."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, Llama, Gemma"
+DATA_URL: "https://github.com/TomBladsjo/MARB"
+pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
+local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, Llama, Gemma"
-DATA_URL: "https://github.com/TomBladsjo/MARB"
-pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
-local_pdf: "[[PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 ---
 # MARB: A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models
 

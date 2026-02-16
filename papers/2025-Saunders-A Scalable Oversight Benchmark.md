@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "As AI agents surpass human capabilities, scalable oversight – the p
 paper_summary: "Abstract: As AI agents surpass human capabilities, scalable oversight – the problem of effectively supplying human feedback to potentially superhuman AI models – be- comes increasingly critical to ensure alignm | Overview: Published at the ICLR 2025 Workshop on Bidirectional Human-AI Alignment (BiAlign) A BENCHMARK FOR SCALABLE OVERSIGHT MECHA- NISMS Abhimanyu Pallavi Sudhir University of Warwick abhimanyu.pallavi-sudhi | Methodology: call (context, answer case), which simulates what an agent arguing for a particular answer to a question would say. This answer case is really a stand"
 local_pdf: "[[PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Claude, GPT-4, DeepSeek"
+DATA_URL: "https://github.com/ArjunPanickssery/math_problems_debate"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "Claude, GPT-4, DeepSeek"
-DATA_URL: "https://github.com/ArjunPanickssery/math_problems_debate"
 ---
 # A Scalable Oversight Benchmark
 

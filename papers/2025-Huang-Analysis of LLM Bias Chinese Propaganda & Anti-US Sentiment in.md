@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md"
 local_pdf: "[[PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: Chinese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o"
+DATA_URL: "NA"
+tags: 
+abstract: "Large language models (LLMs) increasingly shape public understanding and civic decisions, yet their ideological neutrality is a growing concern. While existing research has explored various forms of LLM bias, a direct, cross-lingual comparison of models with differing geopolitical alignments—specifically a PRC-system model versus a non-PRC counterpart—has been lacking. This study addresses this gap by systematically evaluating DeepSeek-R1 (PRC-aligned) against ChatGPT o3-mini-high (non-PRC) for..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5, GPT-4, GPT-4o"
-DATA_URL: "NA"
-tags: 
-abstract: "Large language models (LLMs) increasingly shape public understanding and civic decisions, yet their ideological neutrality is a growing concern. While existing research has explored various forms of LLM bias, a direct, cross-lingual comparison of models with differing geopolitical alignments—specifically a PRC-system model versus a non-PRC counterpart—has been lacking. This study addresses this gap by systematically evaluating DeepSeek-R1 (PRC-aligned) against ChatGPT o3-mini-high (non-PRC) for..."
-ethics_perspective: "Bias & Fairness"
 ---
 # Analysis of LLM Bias (Chinese Propaganda & Anti-US Sentiment) in DeepSeek-R1 vs. ChatGPT o3-mini-high
 

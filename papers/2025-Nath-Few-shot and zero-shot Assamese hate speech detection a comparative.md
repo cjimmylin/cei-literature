@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "Springer (Social Network Analysis and Mining)"
 pdf_extract: "PDF Extracts/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.md"
 local_pdf: "[[PDFs/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: Assamese
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Mistral- 7B, Mistral-7B"
 DATA_URL: "NA"
 tags: 
 abstract: "Hate speech detection remains a critical challenge for natural language processing (NLP), particularly in low-resource languages such as Assamese. Although supervised models have shown promise, their performance is often constrained by the scarcity of annotated data and complex linguistic phenomena, such as code-mixing. In this study, we systematically benchmark large language models (LLMs), including GPT-4, GPT-3."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Few-shot and zero-shot Assamese hate speech detection: a comparative benchmark of large language models
 

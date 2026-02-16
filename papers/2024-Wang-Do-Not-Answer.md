@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Provides a public resource for safety evaluation, allowing open-s
 tags: 
 abstract: "With the rapid evolution of large language models (LLMs), new and hard-to-predict harmful capabilities are emerging. This requires developers to identify potential risks through the evaluation of “dangerous capabilities” in order to responsibly deploy LLMs. Here we aim to facilitate this process. In particular, we collect an open-source dataset to evaluate the safeguards in LLMs, to facilitate the deployment of safer open-source LLMs at a low cost."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, BERT"
+DATA_URL: "https://github.com/Libr-AI/do-not-answer"
+pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
+local_pdf: "[[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, BERT"
-DATA_URL: "https://github.com/Libr-AI/do-not-answer"
-pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
-local_pdf: [[PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]
 ---
 # Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs
 

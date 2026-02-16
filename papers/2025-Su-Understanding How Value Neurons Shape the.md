@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Rapid integration of large language models (LLMs) into societal appli
 paper_summary: "Abstract: Rapid integration of large language models (LLMs) into societal applications has intensi- fied concerns about their alignment with univer- sal ethical principles, as their internal value rep- resentat | Overview: arXiv:2505.17712v1 [cs.CL] 23 May 2025 Understanding How Value Neurons Shape the Generation of Specified Values in LLMs Yi Su*,1,2, Jiayi Zhang*,1,3, Shu Yang†,1,2, Xinhai Wang1,2, Lijie Hu†,1,2, Di W | Methodology: cannot be applied to value-related neurons as deac- tivation will be meaningless. To address this issue, we propose a method that aims to manipulate a | Key Findings: value-related neurons. The details of the baselines are presented in Appendix D. • LPIP: Locating neurons using Log Probabil- ity and Inner Products ("
 local_pdf: "[[PDFs/2025/2025-Su-Understanding How Value Neurons Shape the.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Qwen, Gemma"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Qwen, Gemma"
-DATA_URL: "NA"
 ---
 # Understanding How Value Neurons Shape the Generation of Specified Values in LLMs
 

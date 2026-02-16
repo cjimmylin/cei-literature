@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "We describe our early efforts to red team language models in order to
 paper_summary: "Abstract: We describe our early efforts to red team language models in order to simultaneously dis- cover, measure, and attempt to reduce their potentially harmful outputs. We make three main contributions. Fir | Overview: Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned Deep Ganguli∗, Liane Lovitt∗, Jackson Kernion∗, Amanda Askell, Yuntao Bai, Saurav Kadavath, Ben Mann, Ethan | Conclusions: 5.1 Limitations and Future Work We red team language models in the form of an AI assistant, which has the beneﬁt of allowing the red team to probe the"
 local_pdf: "[[PDFs/2022/2022-Ganguli-Red Teaming Language Models to Reduce Harms.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Bartolo"
+DATA_URL: "https://github.com/anthropics/hh-rlhf"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Bartolo"
-DATA_URL: "https://github.com/anthropics/hh-rlhf"
 ---
 # Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned
 

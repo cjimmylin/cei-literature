@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-Eng
 local_pdf: "[[PDFs/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.pdf]]"
 publication: "WebSearch: Somali NLP benchmark dataset evaluation hate speech"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Somali"
 languages_list: "English, Hindi"
@@ -32,16 +31,20 @@ religious_values: "Jainism"
 religious_values_list: "Jainism"
 moral_psychology: "Cognitive Developmental"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Social media has become a bedrock for people to voice their opinions worldwide. Due to the greater sense of freedom with the anonymity feature, it is possible to disregard social etiquette online and attack others without facing severe consequences, inevitably propagating hate speech. The current measures to sift the online content and offset the hatred spread do not go far enough. One factor contributing to this is the prevalence of regional languages in social media and the paucity of..."
-data_description: "Evaluation methodology dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "https://github.com/anubhakabra/MoH_Hate_Speech_Detection.git"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Hate Speech Detection in Somali-English Code-Switched Texts
 

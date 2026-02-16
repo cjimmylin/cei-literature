@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +33,18 @@ abstract: "This paper describes the GAMA (Genetic-inspired Autonomous Moral Agen
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "GAMA Moral Agent"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "GAMA Moral Agent"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Machine Ethics - Creation of a Virtuous Machine
 

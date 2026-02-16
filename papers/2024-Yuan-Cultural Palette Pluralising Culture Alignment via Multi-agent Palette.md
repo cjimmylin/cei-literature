@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Japanese, and others (5 continents)"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1-8B-Instruct, Qwen-2.5-7B-Instruct, GPT-4o"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) face challenges in aligning with diverse cultural values despite their remarkable performance in generation, which stems from inherent monocultural biases and difficulties in capturing nuanced cultural semantics. Existing methods struggle to adapt to unknown culture after fine-tuning. Inspired by cultural geography across five continents, we propose Cultural Palette, a multi-agent framework that redefines cultural alignment as an adaptive 'color-blending' process..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Cultural Palette: Pluralising Culture Alignment via Multi-agent Palette
 

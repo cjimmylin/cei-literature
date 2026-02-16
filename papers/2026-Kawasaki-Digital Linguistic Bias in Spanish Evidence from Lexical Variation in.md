@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2026/2026-Kawasaki-Digital Linguistic Bias in Spanish
 local_pdf: "[[PDFs/2026/2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish, Latin American"
 languages_list: Spanish
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o"
 DATA_URL: "https://zenodo.org/records/14771240"
 tags: 
 abstract: "This study examines the extent to which Large Language Models (LLMs) capture geographic lexical variation in Spanish, a language that exhibits substantial regional variation. Treating LLMs as virtual informants, we probe their dialectal knowledge using two survey-style question formats — Yes–No questions and multiple–choice questions. To this end, we exploited a large-scale, expert-curated database of Spanish lexical variation."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Digital Linguistic Bias in Spanish: Evidence from Lexical Variation in LLMs
 

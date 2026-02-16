@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2020/2020-Wilie-IndoNLU Benchmark and Resources for E
 local_pdf: "[[PDFs/2020/2020-Wilie-IndoNLU Benchmark and Resources for Evaluating Indonesian Natural.pdf]]"
 publication: "arXiv / ACL Anthology (AACL-IJCNLP 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: Indonesian
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ALBERT, BERT, RoBERTa"
+DATA_URL: "https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus"
+tags: 
+abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, BERT, RoBERTa"
-DATA_URL: "https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus"
-tags: 
-abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
-research_topic: "Machine Learning"
 ---
 # IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding
 

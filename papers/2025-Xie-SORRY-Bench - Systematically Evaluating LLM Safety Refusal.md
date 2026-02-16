@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Xie-SORRY-Bench - Systematically Evaluating
 local_pdf: "[[PDFs/2025/2025-Xie-SORRY-Bench - Systematically Evaluating LLM Safety Refusal.pdf]]"
 publication: "ICLR 2025"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Evaluating aligned large language models’ (LLMs) ability to recognize and reject unsafe user requests is crucial for safe, policy-compliant deployments. Existing evaluation efforts, however, face three limitations that we address with SORRYBench, our proposed benchmark. First, existing methods often use coarse-grained taxonomies of unsafe topics, and are over-representing some fine-grained topics. For example, among the ten existing datasets that we evaluated, tests for refusals of self-harm..."
+LLM_assessed: "GPT-4o, GPT-3.5, Claude, Gemini, Llama-3, Llama-2, Mistral, Gemma, Qwen, BERT"
+DATA_URL: "https://sorry-bench.github.io"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Evaluating aligned large language models’ (LLMs) ability to recognize and reject unsafe user requests is crucial for safe, policy-compliant deployments. Existing evaluation efforts, however, face three limitations that we address with SORRYBench, our proposed benchmark. First, existing methods often use coarse-grained taxonomies of unsafe topics, and are over-representing some fine-grained topics. For example, among the ten existing datasets that we evaluated, tests for refusals of self-harm..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-3.5, Claude, Gemini, Llama-3, Llama-2, Mistral, Gemma, Qwen, BERT"
-DATA_URL: "https://sorry-bench.github.io"
 ---
 # SORRY-Bench -- Systematically Evaluating LLM Safety Refusal
 

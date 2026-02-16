@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +14,7 @@ key: EXSR0571
 type: preprint
 short_title: "Tamil-Llama A New Tamil Language Model"
 year: 2025
-first_author: [[Abhinand]]
+first_author: "[[Abhinand]]"
 last_author: "[[Abhinand]]"
 authors: [[Abhinand]]
 authors_incomplete: false
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2023/2023-Abhinand-Tamil-Llama A New Tamil Language M
 local_pdf: "[[PDFs/2023/2023-Abhinand-Tamil-Llama A New Tamil Language Model.pdf]]"
 publication: "WebSearch: Tamil LLM evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Tamil"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Language modeling has witnessed remarkable advancements in recent years, with Large Language Models (LLMs) like ChatGPT setting unparalleled benchmarks in human-like text generation. However, a prevailing limitation is the underrepresentation of languages like Tamil in these cutting-edge models, leading to suboptimal performance in diverse linguistic contexts. This paper addresses this lacuna, enhancing the open-source LLaMA model with an addition of 16,000 Tamil tokens, aiming to achieve..."
-data_description: "Benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-4, Llama, LLAMA 2, LLaMA 1, LLaMA 3.1, LLaMA 1., LLaMA., Mistral, Mistral 7b, gpt-3.5-turbo"
 DATA_URL: "https://huggingface.co/abhinand/tamil-llama-7b-instruct-v0.2"
-research_topic: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Tamil-Llama: A New Tamil Language Model Based on Llama 2
 

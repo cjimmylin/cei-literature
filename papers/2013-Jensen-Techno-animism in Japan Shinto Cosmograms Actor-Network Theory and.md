@@ -1,0 +1,79 @@
+---
+
+
+
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: ZERO0005
+type: journalArticle
+short_title: "Techno-animism in Japan: Shinto Cosmograms, Actor-Network Theory, and the Enabling Powers of Non-human Agencies"
+year: 2013
+first_author: "[[Casper Bruun Jensen]]"
+last_author: "[[Anders Blok]]"
+authors: Casper Bruun Jensen, Anders Blok
+doi: 10.1177/0263276412456564
+url: "https://journals.sagepub.com/doi/abs/10.1177/0263276412456564"
+publication: "SAGE Journals / Theory, Culture & Society"
+local_pdf: 
+pdf_extract: 
+DATE_ADDED: 20260216
+national_ethnic_cultural: 
+cultures_nationalities_list: 
+languages_list: 
+religious_values: Shinto
+religious_values_list: "Shinto"
+moral_psychology: 
+newtags: 
+LLM_assessed: 
+DATA_URL: 
+tags: 
+abstract:
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
+---
+# Techno-animism in Japan: Shinto Cosmograms, Actor-Network Theory, and the Enabling Powers of Non-human Agencies
+
+## Authors
+
+[[Casper Bruun Jensen, Anders Blok]]
+
+## Metadata
+
+**Authors:** Casper Bruun Jensen, Anders Blok
+
+**Year:** 2013
+
+**Type:** journalArticle
+
+**Venue:** SAGE Journals / Theory, Culture & Society
+
+**DOI:** [10.1177/0263276412456564](https://doi.org/10.1177/0263276412456564)
+
+**Religious Traditions:** Shinto
+
+## Links
+
+- **DOI:** https://doi.org/10.1177/0263276412456564
+- **URL:** https://journals.sagepub.com/doi/abs/10.1177/0263276412456564
+
+## Abstract
+
+Foundational paper on Shinto techno-animism. Deploys Japanese techno-animism as a site of theoretical experimentation, showing how Shinto cosmograms provide an alternative framework for interpreting the immanent, affective, and enabling powers of non-humans in collective life. Extends actor-network theory through Shinto perspectives.
+
+## Notes
+
+**Source:** Zero-Coverage Religious Tradition Search (20260216), Agent Z1
+**Relevance:** Foundational theoretical work that directly links Shinto cosmology to technology and non-human agency. While predating modern LLMs, this paper establishes the Shinto techno-animism framework cited by most subsequent AI ethics papers referencing Shinto. Not an AI evaluation paper per se, but the key theoretical bridge.
+
+## Tags
+

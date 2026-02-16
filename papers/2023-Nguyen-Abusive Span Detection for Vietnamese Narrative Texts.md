@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +13,7 @@ key: LSRC0376
 type: preprint
 short_title: "Abusive Span Detection for Vietnamese Narrative Texts"
 year: 2025
-first_author: [[Nguyen]]
+first_author: "[[Nguyen]]"
 last_author: "[[Nguyen Nguyen]]"
 authors: "Nguyen, Pham, Nguyen, Nguyen"
 doi: 10.1145/3628797.3628921
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2023/2023-Nguyen-Abusive Span Detection for Vietnames
 local_pdf: "[[PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
 publication: "arXiv / ACM SOICT 2023"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "NA"
+tags: 
+abstract: "Abuse in its various forms, including physical, psychological, verbal, sexual, financial, and cultural, has a negative impact on mental health. However, there are limited studies on applying natural language processing (NLP) in this field in Vietnam. Therefore, we aim to contribute by building a human-annotated Vietnamese dataset for detecting abusive content in Vietnamese narrative texts. We sourced these texts from VnExpress, Vietnam’s popular online newspaper, where readers often share..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
-tags: 
-abstract: "Abuse in its various forms, including physical, psychological, verbal, sexual, financial, and cultural, has a negative impact on mental health. However, there are limited studies on applying natural language processing (NLP) in this field in Vietnam. Therefore, we aim to contribute by building a human-annotated Vietnamese dataset for detecting abusive content in Vietnamese narrative texts. We sourced these texts from VnExpress, Vietnam’s popular online newspaper, where readers often share..."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Abusive Span Detection for Vietnamese Narrative Texts
 

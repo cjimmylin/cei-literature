@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,10 +30,6 @@ pdf_access_error: "http_418 (HTTP 418)"
 pdf_access_url: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Croatian"
 languages_list: Croatian
@@ -38,16 +37,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Proposes NooJ algorithm for finding and categorizing slurs, insults, and hate speech in Croatian social media content."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Proposes NooJ algorithm for finding and categorizing slurs, insults, and hate speech in Croatian social media content."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detecting Hate Speech Online: A Case of Croatian
 

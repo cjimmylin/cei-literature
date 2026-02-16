@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +37,19 @@ abstract: "Large Language Models (LLMs) trained on extensive textual corpora hav
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Chaudhari-RLHF Deciphered.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Bloom-7B, ChatGPT, Codex, Dolly, GPT-3, GPT-3.5, GPT-4, GPT4, Llama, Text-Davinci-003, Vicuna, Vicuna-80, WizardLM, BERT"
 DATA_URL: "https://github.com/GaryYufei/AlignLLMHumanSurvey"
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # RLHF Deciphered
 

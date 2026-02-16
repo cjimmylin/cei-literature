@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-[[Nyachhyon]]-Consolidating and Developing 
 local_pdf: "[[PDFs/2024/2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali"
 languages_list: "Nepali"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "The Nepali language has distinct linguistic features, especially its complex script (Devanagari script), morphology, and various dialects, which pose a unique challenge for Natural Language Understanding (NLU) tasks. While the Nepali Language Understanding Evaluation (Nep-gLUE) benchmark provides a foundation for evaluating models, it remains limited in scope, covering four tasks. This restricts their utility for comprehensive assessments of Natural Language Processing (NLP) models."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, DeBERTa, DeBERTa-v3, Distilbert, GPT-4o-mini, RoBERTa"
 DATA_URL: "NA"
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Consolidating and Developing Benchmarking Datasets for the Nepali Natural Language Understanding Tasks (NLUE)
 

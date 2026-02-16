@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +34,9 @@ tags:
 abstract: "Proper moral beliefs are fundamental for language models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral beliefs of four prominent large language models. Initially, we constructed a dataset containing 472 moral choice scenarios in Chinese, derived from moral words. The decisionmaking process of the models in these scenarios reveals their moral principle preferences."
 paper_summary: "Abstract: Proper moral beliefs are fundamental for lan- guage models, yet assessing these beliefs poses a significant challenge. This study introduces a novel three-module framework to evaluate the moral belief | Overview: Evaluating Moral Beliefs across LLMs through a Pluralistic Framework Xuelin Liu*1, Yanfei Zhu*1, Shucheng Zhu*2, Pengyuan Liu†1,3, Ying Liu†2, Dong Yu†1 1School of Information Science, Beijing Languag | Conclusions: drawn in Section 5.1. ChatGPT and Gemini con- sistently performed well in moral decision-making, closely aligning with moral beliefs of the sample of"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, Gemini"
+DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
+normative_ethics_benchmark: Yes
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -41,9 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Gemini"
-DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
-normative_ethics_benchmark: Yes
 ---
  Evaluating Moral Beliefs across LLMs through a Pluralistic Framework
 

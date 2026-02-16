@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Fuse moral reasoning"
@@ -33,17 +35,17 @@ abstract: "Large Language Models (LLMs) have shown impressive moral reasoning ab
 paper_summary: "Abstract: Large Language Models (LLMs) have shown impressive moral reasoning abilities. Yet they often diverge when confronted with complex, multi-factor moral dilemmas. To address these discrepancies, we propo | Overview: arXiv:2506.14625v2 [cs.CL] 18 Jun 2025 Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models Chenchen Yuan†, Zheyu Zhang†, Shuo Yang†, B | Methodology: that fuses continuous moral scores from multiple LLMs into a collective moral reference by model- ing annotator reliability. (2) We introduce a token- | Key Findings: Two key questions are examined: (1) Does the truncated-normal EM approach produce a coher- ent collective opinion across LLMs? (2) Can tar- geted embe | Conclusions: We propose a truncated-normal EM framework to synthesize moral judgments from multiple LLMs and introduce targeted embedding optimization to reduce mi"
 local_pdf: "[[PDFs/2025/2025-Yuan-Probabilistic Aggregation and Targeted Embedding.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: Yes
-is_dataset: Yes
-data_description: "Evaluation framework dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3"
 DATA_URL: "https://github.com/yuanchencn/Collective-Moral-Reasoning"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
+data_metrics: "Not specified"
 ---
 # Probabilistic Aggregation and Targeted Embedding Optimization for Collective Moral Reasoning in Large Language Models
 

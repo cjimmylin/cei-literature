@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "African, Indian"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "Buddhism, Hinduism"
 religious_values_list: "Buddhism, Hinduism"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Llama-3.2-1B-Instruct, Gemini, Claude-3.5-Sonnet"
+DATA_URL: "https://github.com/Principled-Evolution/gopal"
+tags: 
+abstract: "This paper introduces ArGen (Auto-Regulation of Generative AI systems), a framework for aligning Large Language Models (LLMs) with complex sets of configurable, machine-readable rules spanning ethical principles, operational safety protocols, and regulatory compliance standards. Moving beyond just preference-based alignment, ArGen is designed to ensure LLMs adhere to these multifaceted policies through a novel synthesis of principle-based automated reward scoring, Group Relative Policy..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3.2-1B-Instruct, Gemini, Claude-3.5-Sonnet"
-DATA_URL: "https://github.com/Principled-Evolution/gopal"
-tags: 
-abstract: "This paper introduces ArGen (Auto-Regulation of Generative AI systems), a framework for aligning Large Language Models (LLMs) with complex sets of configurable, machine-readable rules spanning ethical principles, operational safety protocols, and regulatory compliance standards. Moving beyond just preference-based alignment, ArGen is designed to ensure LLMs adhere to these multifaceted policies through a novel synthesis of principle-based automated reward scoring, Group Relative Policy..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code
 

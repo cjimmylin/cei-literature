@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2024/2024-Murtala-A multilingual dataset for offensiv
 local_pdf: "[[PDFs/2024/2024-Murtala-A multilingual dataset for offensive language.pdf]]"
 publication: "WebSearch: Hausa Igbo Yoruba offensive language hate speech multilingual dataset"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Kannada, Malayalam, Tamil"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Novel datasets for offensive language detection in three major Nigerian languages from Twitter, manually annotated by native speakers. Best model achieved 90% accuracy. Note: paper was withdrawn by authors for experimental errors. Covers Hausa, Yoruba, and Igbo for hate speech/offensive language detection. Note: paper withdrawn but represents active research area. AfriHate provides more robust alternative."
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "Novel datasets for offensive language detection in three major Nigerian languages from Twitter, manually annotated by native speakers. Best model achieved 90% accuracy. Note: paper was withdrawn by authors for experimental errors. Covers Hausa, Yoruba, and Igbo for hate speech/offensive language detection. Note: paper withdrawn but represents active research area. AfriHate provides more robust alternative."
-data_description: "Dataset"
+data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A multilingual dataset for offensive language and hate speech detection for Hausa, Yoruba and Igbo languages
 

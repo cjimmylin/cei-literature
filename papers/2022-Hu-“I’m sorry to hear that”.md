@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,20 +28,20 @@ newtags:
 tags: 
 abstract: "Existing pre-training methods for extractive Question Answering (QA) generate cloze-like queries different from natural questions in syntax structure, which could overfit pre-trained models to simple keyword matching. In order to address this problem, we propose a novel Momentum Contrastive pRe-training fOr queStion anSwering (MCROSS) method for extractive QA. Specifically, MCROSS introduces a momentum contrastive learning framework to align the answer probability between cloze-like and natural query-passage sample pairs. Hence, the pre-trained models can better transfer the knowledge learned in cloze-like samples to answering natural questions. Experimental results on three benchmarking QA datasets show that our method achieves noticeable improvement compared with all baselines in both supervised and zero-shot scenarios."
 DATE_ADDED: 20260208
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Machine Learning"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://github.com/allenai/bi-att-flow"
 pdf_extract: "PDF Extracts/2022/2022-Hu-'I'm sorry to hear that'.md"
 local_pdf: "[[PDFs/2022/2022-Hu-“I’m sorry to hear that”.pdf]]"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # “I’m sorry to hear that”: Finding New Biases in Language Models with a Holistic Descriptor Dataset
 

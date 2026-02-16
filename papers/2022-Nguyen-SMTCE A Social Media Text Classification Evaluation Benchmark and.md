@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2022/2022-Nguyen-SMTCE A Social Media Text Classifica
 local_pdf: "[[PDFs/2022/2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.pdf]]"
 publication: "ACL Anthology / PACLIC 2022"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ELECTRA, RoBERTa"
 DATA_URL: "https://github.com/binhvq/news-corpus"
 tags: 
 abstract: "Text classification is a typical natural language processing or computational linguistics task with various interesting applications. As the number of users on social media platforms increases, data acceleration promotes emerging studies on Social Media Text Classification (SMTC) or social media text mining on these valuable resources. In contrast to English, Vietnamese, one of the low-resource languages, is still not concentrated on and exploited thoroughly."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese
 

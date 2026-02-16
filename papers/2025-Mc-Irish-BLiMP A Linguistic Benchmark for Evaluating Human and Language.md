@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.md"
 local_pdf: "[[PDFs/2025/2025-Mc-Irish-BLiMP A Linguistic Benchmark for Evaluating Human and Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Irish"
 languages_list: "Irish, Multilingual, Welsh"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Gemma, Gemma 3, Llama 2, Llama-2, Llama-4, Mistral, Mistral small, Mistral-Small, Mistral. 2025, BERT, claude-sonnet, gemma-3"
+DATA_URL: "NA"
+tags: 
+abstract: "We present Irish-BLiMP (Irish Benchmark of Linguistic Minimal Pairs), the first dataset and framework designed for fine-grained evaluation of linguistic competence in the Irish language, an endangered language. Drawing on a variety of linguistic literature and grammar reference works, we manually constructed and reviewed 1020 minimal pairs across a taxonomy of 11 linguistic features, through a team of fluent Irish speakers."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma, Gemma 3, Llama 2, Llama-2, Llama-4, Mistral, Mistral small, Mistral-Small, Mistral. 2025, BERT, claude-sonnet, gemma-3"
-DATA_URL: "NA"
-tags: 
-abstract: "We present Irish-BLiMP (Irish Benchmark of Linguistic Minimal Pairs), the first dataset and framework designed for fine-grained evaluation of linguistic competence in the Irish language, an endangered language. Drawing on a variety of linguistic literature and grammar reference works, we manually constructed and reviewed 1020 minimal pairs across a taxonomy of 11 linguistic features, through a team of fluent Irish speakers."
-research_topic: "Machine Learning"
 ---
 # Irish-BLiMP: A Linguistic Benchmark for Evaluating Human and Language Model Performance in a Low-Resource Setting
 

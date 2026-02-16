@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ publication: "ACL Anthology (C3NLP @ EACL 2023)"
 pdf_extract: "PDF Extracts/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md"
 local_pdf: "[[PDFs/2023/2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Critical studies found NLP systems to bias based on gender and racial identities. However, few studies focused on identities defined by cultural factors like religion and nationality. Compared to English, such research efforts are even further limited in major languages like Bengali due to the unavailability of labeled datasets. This paper describes a process for developing a bias evaluation dataset highlighting cultural influences on identity."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Critical studies found NLP systems to bias based on gender and racial identities. However, few studies focused on identities defined by cultural factors like religion and nationality. Compared to English, such research efforts are even further limited in major languages like Bengali due to the unavailability of labeled datasets. This paper describes a process for developing a bias evaluation dataset highlighting cultural influences on identity."
-ethics_perspective: "Social & Cultural Values"
 ---
 # Toward Cultural Bias Evaluation Datasets: The Case of Bengali Gender, Religious, and National Identity (BIBED)
 

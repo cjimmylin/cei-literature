@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing
 local_pdf: "[[PDFs/2025/2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.pdf]]"
 publication: EMNLP
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As LLMs excel on standard reading comprehension benchmarks, attention is shifting toward evaluating their capacity for complex abstract reasoning and inference. Literaturebased benchmarks, with their rich narrative and moral depth, provide a compelling framework for evaluating such deeper comprehension skills. Here, we present MORABLES, a humanverified benchmark built from fables and short stories drawn from historical literature."
+LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, o3"
+DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "As LLMs excel on standard reading comprehension benchmarks, attention is shifting toward evaluating their capacity for complex abstract reasoning and inference. Literaturebased benchmarks, with their rich narrative and moral depth, provide a compelling framework for evaluating such deeper comprehension skills. Here, we present MORABLES, a humanverified benchmark built from fables and short stories drawn from historical literature."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, Mistral, Mixtral, Qwen, DeepSeek, o3"
-DATA_URL: "https://huggingface.co/datasets/cardiffnlp/Morables"
 ---
 # MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables
 

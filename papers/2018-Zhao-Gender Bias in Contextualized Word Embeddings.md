@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,9 @@ local_pdf: "[[PDFs/2018/2018-Zhao-Gender Bias in Contextualized Word Embeddings.
 abstract: "Word embedding models have become a fundamental component in a wide range of Natural Language Processing (NLP) applications. However, embeddings trained on human-generated corpora have been demonstrated to inherit strong gender stereotypes that reﬂect social constructs. To address this concern, in this paper, we propose a novel training procedure for learning gender-neutral word embeddings. Our approach aims to preserve gender information in certain dimensions of word vectors while compelling..."
 paper_summary: "Abstract: Word embedding models have become a fun- damental component in a wide range of Natural Language Processing (NLP) appli- cations. However, embeddings trained on human-generated corpora have been demon- | Overview: Learning Gender-Neutral Word Embeddings Jieyu Zhao Yichao Zhou Zeyu Li Wei Wang Kai-Wei Chang University of California, Los Angeles {jyzhao, yz, zyli, weiwang, kwchang}@cs.ucla.edu Abstract Word embed | Methodology: In this paper, we take GloVe (Pennington et al., 2014) as the base embedding model and gender as the protected attribute. It is worth noting that our  | Conclusions: In this paper, we introduced an algorithm for train- ing gender-neutral word embedding. Our method is general and can be applied in any language as lo"
 DATE_ADDED: 20260208
+LLM_assessed: GloVe
+DATA_URL: "https://github.com/uclanlp/gn_glove"
+doi: 10.18653/v1/D18-1521
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,9 +47,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: GloVe
-DATA_URL: "https://github.com/uclanlp/gn_glove"
-doi: 10.18653/v1/D18-1521
 ---
 # Gender Bias in Contextualized Word Embeddings (SemBias)
 

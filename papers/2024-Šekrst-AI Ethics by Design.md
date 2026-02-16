@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,19 +35,19 @@ abstract: "This paper explores the development of an ethical guardrail framework
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Šekrst-AI Ethics by Design.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "AI Ethics"
+LLM_assessed: "ChatGPT, Claude, Llama, Mixtral"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "AI Ethics"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Claude, Llama, Mixtral"
-DATA_URL: "NA"
 ethics_perspective: "Responsible AI"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # AI Ethics by Design: Implementing Customizable Guardrails for Responsible AI Development
 

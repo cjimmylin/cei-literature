@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +34,19 @@ abstract: "This paper looks at philosophical questions that arise in the context
 paper_summary: 
 local_pdf: "[[PDFs/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "AI Alignment & Normative Ethics"
+LLM_assessed: "Barto"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
-deontological_ethics: "Yes"
+deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "AI Alignment & Normative Ethics"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Barto"
-DATA_URL: "NA"
 ---
 # Artificial Intelligence Values and Alignment
 

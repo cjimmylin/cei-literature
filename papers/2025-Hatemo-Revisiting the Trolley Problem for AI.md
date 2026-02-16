@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ significance: "Found significant biases in model decisions based on nationality,
 tags: 
 abstract: "The trolley problem has long served as a lens for exploring moral decision-making, now gaining renewed significance in the context of artificial intelligence (AI). This study investigates ethical reasoning in three open-source large language models (LLMs)—LLaMA, Mistral and Qwen—through variants of the trolley problem. By introducing demographic prompts (age, nationality and gender) into three scenarios (switch, loop and footbridge), we systematically evaluate LLM responses against human survey..."
 DATE_ADDED: 20260129
+LLM_assessed: "Llama-3, Mistral, Qwen"
+DATA_URL: "https://shorturl.at/u2h3K"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Mistral, Qwen"
-DATA_URL: "https://shorturl.at/u2h3K"
 ---
 # Revisiting the Trolley Problem for AI: Biases and Stereotypes in Large Language Models and their Impact on Ethical Decision-Making
 

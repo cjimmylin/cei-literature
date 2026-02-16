@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md"
 local_pdf: "[[PDFs/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: French
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark annotated dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "Qwen3-4B, GPT-4o, Gemini-2.5, DeepSeek-R1, CamemBERT, BLOOM, Mistral"
 DATA_URL: "https://huggingface.co/datasets/AxelDlv00/ToxiFrench"
 tags: 
 abstract: "Detecting toxic content using language models is crucial yet challenging. While substantial progress has been made in English, toxicity detection in French remains underdeveloped, primarily due to the lack of culturally relevant, human-annotated, large-scale datasets. In this work, we release TOXIFRENCH, a dataset of 53,622 French online comments together with a balanced benchmark split for systematic evaluation."
 ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection
 

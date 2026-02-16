@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +34,10 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Liu-AgentBench.md"
 abstract: "The potential of Large Language Model (LLM) as agents has been widely acknowledged recently. Thus, there is an urgent need to quantitatively evaluate LLMs as agents on challenging tasks in interactive environments. We present AGENTBENCH, a multi-dimensional benchmark that consists of 8 distinct environments to assess LLM-as-Agent’s reasoning and decision-making abilities. Our extensive test over 29 API-based and open-sourced (OSS) LLMs shows that, while top commercial LLMs present a strong..."
 paper_summary: "Abstract: The potential of Large Language Model (LLM) as agents has been widely acknowl- edged recently. Thus, there is an urgent need to quantitatively evaluate LLMs as agents on challenging tasks in interacti | Overview: Published as a conference paper at ICLR 2024 AGENTBENCH: EVALUATING LLMS AS AGENTS Xiao Liu1,*, Hao Yu1,*,†, Hanchen Zhang1,*, Yifan Xu1, Xuanyu Lei1, Hanyu Lai1, Yu Gu2,†, Hangliang Ding1, Kaiwen Men | Key Findings: scope rounds out to be codellama-34b, achieving an overall score of 0.96 but still presents a clear performance gap to gpt-3.5-turbo. Our community st | Conclusions: We present AGENTBENCH, a systematically designed multi-dimensional evolving benchmark for evaluating LLMs as agents, covering as many as 29 LLMs in th"
-local_pdf: [[PDFs/2023/2023-Liu-AgentBench.pdf]]
+local_pdf: "[[PDFs/2023/2023-Liu-AgentBench.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, CodeLlama, Vicuna"
+DATA_URL: "https://github.com/THUDM/AgentBench"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, Llama-2, CodeLlama, Vicuna"
-DATA_URL: "https://github.com/THUDM/AgentBench"
 ---
 # AgentBench: Evaluating LLMs as Agents
 

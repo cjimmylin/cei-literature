@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +33,10 @@ significance: "Defines 'quasi-phronesis' as a critical goal for creating context
 external_pdf: "https://philpapers.org/archive/KRZAOP-2.pdf"
 abstract: "This paper explores the definition and relevance of phronesis (practical wisdom) for AI systems. It discusses the conceptual foundations of synthetic phronesis, reviews current research on embedding moral judgment into AI, and examines the prospects for creating architectures capable of context-dependent moral reasoning. The authors argue that while AI currently lacks the lived experience of human phronesis, developing \"
 DATE_ADDED: 20260208
-ethics_overall: "No"
+LLM_assessed: "ChatGPT, GPT-4"
+DATA_URL: "NA"
+research_topic: "Other"
+ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
@@ -40,9 +45,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "NA"
-research_topic: "Other"
 ---
 # Phronesis for AI Systems: Conceptual Foundations Current Research and Prospects
 

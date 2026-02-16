@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "The widespread application of LLMs across various tasks and fields ha
 paper_summary: "Abstract: The widespread application of LLMs across various tasks and fields has necessitated the alignment of these models with human val- ues and preferences. Given various approaches of human value alignment | Overview: High-Dimension Human Value Representation in Large Language Models Samuel Cahyawijaya∗ Delong Chen∗ Yejin Bang∗ Leila Khalatbari Bryan Wilie∗ Ziwei Ji Etsuko Ishii Pascale Fung* The Hong Kong Universi | Key Findings: Task To quantitatively evaluate whether represen- tation effectively captures value-relevant features in LLMs, we introduce an LLM value identificatio | Conclusions: The adoption of LLMs across various fields neces- sitates understanding how these models represent human values. Our paper introduces UniVaR, a high-d"
 local_pdf: "[[PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, Llama-2, Llama-3, Mistral, Mixtral, BLOOM"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
-LLM_assessed: "ChatGPT, Llama-2, Llama-3, Mistral, Mixtral, BLOOM"
-DATA_URL: "NA"
 ---
 # High-Dimension Human Value Representation in Large Language Models
 

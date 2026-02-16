@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md"
 local_pdf: "[[PDFs/2024/2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: "122 languages for consistency, 18 languages including French"
@@ -30,15 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark for bias and fairness"
-data_metrics: "18 languages; 122 languages"
 LLM_assessed: "GPT-4, GPT-4o, Claude models, various LLM-as-a-Judge and reward models"
 DATA_URL: "https://github.com/guijinSON/MM-Eval"
 tags: 
 abstract: "As Large Language Models (LLMs) are now capable of producing fluent and coherent content in languages other than English, it is not imperative to precisely evaluate these non-English outputs. However, when assessing the outputs from mutlilingual LLMs, prior works often employed LLM based evaluators that excel at assessing English outputs, without a thorough examination of whether these evaluators could effectively assess non-English text as well."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for ai safety"
+data_metrics: "18 languages"
 ---
 # MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models
 

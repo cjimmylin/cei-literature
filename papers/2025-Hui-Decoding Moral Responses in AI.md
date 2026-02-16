@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,19 +36,19 @@ abstract: "Despite the proliferation of powerful large language models (LLMs), t
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Hui-Decoding Moral Responses in AI.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude-3.7-Sonnet, Grok-3, Gemini-2.5-Pro"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Decoding Moral Responses in AI
 

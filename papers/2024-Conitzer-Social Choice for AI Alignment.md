@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "A model potential previously developed for the ammonia molecule is tr
 paper_summary: "Abstract: A model potential previously developed for the ammonia molecule is treated in a single-center partial-wave approximation in analogy with a self-consistent field method developed by Moccia. The latter  | Overview: Calculation of DC Stark Resonances for the Ammonia Molecule Patrik Pirkola∗and Marko Horbatsch† Department of Physics and Astronomy, York University, Toronto, Ontario M3J 1P3, Canada (Dated: April 17,"
 local_pdf: "[[PDFs/2024/2024-Conitzer-Social Choice for AI Alignment.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Social Choice for AI Alignment: Dealing with Diverse Human Feedback
 

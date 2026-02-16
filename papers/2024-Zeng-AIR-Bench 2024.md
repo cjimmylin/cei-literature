@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Foundation models (FMs) provide societal benefits but also amplify ri
 paper_summary: "Abstract: Foundation models (FMs) provide societal benefits but also amplify risks. Gov- ernments, companies, and researchers have proposed regulatory frameworks, ac- ceptable use policies, and safety benchmark | Overview: AIR-BENCH 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies o This paper contains model outputs that can be offensive in nature. Yi Zeng* 1,2 Yu Yang* 1,3 Andy Zhou* 4,5  | Methodology: than these top-ranked models to handle the response to risky inquires, with an average refusal rate of 15%, frequently providing harmful contents upon | Key Findings: ० Limited insights to regulation-based risks. HEx-PHI Figure 2: The gap between existing safety benchmarks and the comprehensive list of risks specifi"
 local_pdf: "[[PDFs/2024/2024-Zeng-AIR-Bench 2024.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "https://huggingface.co/datasets/stanford-crfm/air-bench-2024"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude"
-DATA_URL: "https://huggingface.co/datasets/stanford-crfm/air-bench-2024"
 ---
 # AIR-Bench 2024: A Safety Benchmark Based on Risk Categories from Regulations and Policies
 

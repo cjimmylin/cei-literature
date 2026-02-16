@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-5.1, Claude Sonnet 4.5, Gemini 2.5 Pro, Grok 4, DeepSeek-V3.2, Qwen3-Max, Kimi-K2, Lingguang, Doubao, Wenxin Yiyan 5.0-Preview"
 DATA_URL: "NA"
 tags: 
 abstract: "Cultural backgrounds shape individuals’ perspectives and approaches to problem-solving. Since the emergence of GPT-1 in 2018, large language models (LLMs) have undergone rapid development. To date, the world’s ten leading LLM developers are primarily based in China and the United States. To examine whether LLMs released by Chinese and U.S. developers exhibit cultural differences in Chinese-language settings, we evaluate their performance on questions about Chinese culture."
-research_topic: "Social & Cultural Analysis"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md"
 local_pdf: "[[PDFs/2025/2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: Chinese
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning annotated dataset"
-data_metrics: "14,150 questions"
 LLM_assessed: "Alpaca, Baichuan-13B, Baichuan-7B, ChatGLM-6B, ChatGLM2, ChatGLM3, ChatGPT, GPT-4, GPT-3, InternLM, InternLM-7B, Llama-2, LLAMA-2-Chat, Llama, Qwen, Qwen-14B, Qwen-7B"
 DATA_URL: "https://github.com/AndrewZhe/lawyer-llama"
 tags: 
 abstract: "Large language models (LLMs) have made significant progress in natural language processing tasks and demonstrate considerable potential in the legal domain. However, legal applications demand high standards of accuracy, reliability, and fairness. Applying existing LLMs to legal systems without careful evaluation of their potential and limitations could pose significant risks in legal practice. To this end, we introduce a standardized comprehensive Chinese legal benchmark LexEval."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning annotated dataset"
+data_metrics: "14,150 questions"
 ---
 # LexEval: A Comprehensive Chinese Legal Benchmark
 

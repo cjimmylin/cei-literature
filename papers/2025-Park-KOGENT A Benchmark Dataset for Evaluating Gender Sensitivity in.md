@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "Nature Scientific Data 2025"
 pdf_extract: "PDF Extracts/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md"
 local_pdf: "[[PDFs/2025/2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-4o"
 DATA_URL: "https://github.com/KORPUS-DB/KOGENT"
 tags: 
 abstract: "1,222 Korean National Assembly transcripts with 6,024 utterances annotated for gender sensitivity. Spans legislative sessions 1948-2024. GPT-4.1 achieves 87.5-91.2% F1. Reveals LLM limitations in culturally specific terminology."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset"
+data_metrics: "Not specified"
 ---
 # KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models
 

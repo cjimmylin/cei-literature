@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Wang-All Languages Matter On the Multilingu
 local_pdf: "[[PDFs/2024/2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.pdf]]"
 publication: "arXiv / ACL Findings 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Multilingual benchmark for ai safety"
-data_metrics: "Not specified"
 LLM_assessed: "BLOOM, ChatGPT, Claude, Claude-3, Claude-3., GPT-3, GPT-3.5-turbo, GPT-4, Llama, Llama-2, LLaMA-2-Chat, PaLM, PaLM-2, PaLM-22, PaLM2, Vicuna, Vicuna4, claude."
 DATA_URL: "https://github.com/facebookresearch/llama"
 tags: 
 abstract: "Ensuring safety is fundamental when developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g., the majority language in the pretraining data, such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSAFETY, in response to the global deployment of LLMs in practice. XSAFETY covers 14 commonly used safety issues across ten languages spanning several language families."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Multilingual benchmark for ai safety"
+data_metrics: "28k instances; 10 languages"
 ---
 # All Languages Matter: On the Multilingual Safety of Large Language Models
 

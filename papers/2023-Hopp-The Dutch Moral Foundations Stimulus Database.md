@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Moral judgments are shaped by socialization and cultural heritage. Un
 pdf_extract: "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md"
 local_pdf: "[[PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT"
+DATA_URL: "https://osf.io/9gnza"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://osf.io/9gnza"
 ---
 # The Dutch Moral Foundations Stimulus Database: A Validation of Standardized Vignettes and Socio-Moral Images in a Dutch Sample
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Automatic machine learning systems can inadvertently accentuate and p
 pdf_extract: "PDF Extracts/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md"
 local_pdf: "[[PDFs/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
 ---
 # Examining Gender and Race Bias in Two Hundred Sentiment Analysis Systems
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,9 +29,11 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Lin-TruthfulQA.md"
-local_pdf: [[PDFs/2022/2022-Lin-TruthfulQA.pdf]]
+local_pdf: "[[PDFs/2022/2022-Lin-TruthfulQA.pdf]]"
 abstract: "We propose a benchmark to measure whether a language model is truthful in generating answers to questions. The benchmark comprises 817 questions that span 38 categories, including health, law, finance and politics. We crafted questions that some humans would answer falsely due to a false belief or misconception. To perform well, models must avoid generating false answers learned from imitating human texts. We tested GPT-3, GPT-Neo/J, GPT-2 and a T5-based model."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, GPT-2, T5, InstructGPT"
+DATA_URL: "https://github.com/sylinrl/TruthfulQA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "817 questions; 38 categories"
-LLM_assessed: "GPT-3, GPT-2, T5, InstructGPT"
-DATA_URL: "https://github.com/sylinrl/TruthfulQA"
 ---
 # TruthfulQA: Measuring How Models Mimic Human Falsehoods
 

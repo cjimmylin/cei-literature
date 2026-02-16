@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Shen-EmpathicStories++ A Multimodal Dataset
 local_pdf: "[[PDFs/2024/2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Modeling empathy is a complex endeavor that is rooted in interpersonal and experiential dimensions of human interaction, and remains an open problem within AI. Existing empathy datasets fall short in capturing the richness of empathy responses, often being confined to in-lab or acted scenarios, lacking longitudinal data, and missing self-reported labels. We introduce a new multimodal dataset for empathy during personal experience sharing: the EMPATHICSTORIES++ dataset1 containing 53 hours of..."
+LLM_assessed: "GPT-3, GPT-4"
+DATA_URL: "https://mitmedialab.github.io/empathic-stories-multimodal/"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Modeling empathy is a complex endeavor that is rooted in interpersonal and experiential dimensions of human interaction, and remains an open problem within AI. Existing empathy datasets fall short in capturing the richness of empathy responses, often being confined to in-lab or acted scenarios, lacking longitudinal data, and missing self-reported labels. We introduce a new multimodal dataset for empathy during personal experience sharing: the EMPATHICSTORIES++ dataset1 containing 53 hours of..."
-research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-4"
-DATA_URL: "https://mitmedialab.github.io/empathic-stories-multimodal/"
 ---
 # EmpathicStories++: A Multimodal Dataset for Empathy towards Personal Experiences
 

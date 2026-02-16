@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Findings of NAACL 2025
 local_pdf: "[[PDFs/2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "17 countries, 17 representative countries, Cross-cultural, Cross-cultural (17 countries), Various"
 languages_list: "English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o-mini, GPT-4o, GPT-4, GPT-3.5, Llama-3.1-70B"
 DATA_URL: "https://github.com/SalesforceAIResearch/CASA"
 tags: 
 abstract: "As large language models (LLMs) expand into performing as agents for real-world applications beyond traditional NLP tasks, evaluating their robustness becomes increasingly important. However, existing benchmarks often overlook critical dimensions like cultural and social awareness. To address these, we introduce CASA, a benchmark designed to assess LLM agents’ sensitivity to cultural and social norms across two web-based tasks: online shopping and social discussion forums."
-research_topic: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Evaluating Cultural and Social Awareness of LLM Web Agents
 

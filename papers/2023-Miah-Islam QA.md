@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,20 +30,20 @@ newtags: Islam
 tags: 
 abstract: "This work introduces a comprehensive dataset of over 73,000 question-answer pairs for Quranic Tafsir and Ahadith domains. The dataset is meticulously enriched with contextual information to train and evaluate specialized Question-Answering systems for Islamic texts. Human evaluation revealed significant limitations in automatic metrics like ROUGE scores, with model consistency with expert scholars ranging from 11-20%, while contextual understanding spanned 50-90%. The findings highlight the need for evaluation techniques that better capture the nuances of religious text understanding."
 DATE_ADDED: 20260208
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Question Answering"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/datasets/abdullahalmamunn/islam-qa-dataset"
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[PDFs/2023/2023-Miah-Islam QA.pdf]]"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "73,000 question; over 73,000 question"
 ---
 # Islam QA: Web-scraped Islamic Question-Answer Corpus
 

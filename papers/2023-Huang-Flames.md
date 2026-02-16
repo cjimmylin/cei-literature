@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +33,10 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Huang-Flames.md"
 abstract: "The widespread adoption of large language models (LLMs) across various regions underscores the urgent need to evaluate their alignment with human values. Current benchmarks, however, fall short of effectively uncovering safety vulnerabilities in LLMs. Despite numerous models achieving high scores and ‘topping the chart’ in these evaluations, there is still a significant gap in LLMs’ deeper alignment with human values and achieving genuine harmlessness."
 paper_summary: "Abstract: The widespread adoption of large language models (LLMs) across various regions under- scores the urgent need to evaluate their align- ment with human values. Current benchmarks, however, fall short of | Overview: FLAMES: Benchmarking Value Alignment of LLMs in Chinese Warning: this paper contains content that may be offensive or upsetting. Kexin Huang*†1,2 Xiangyang Liu*†1,2 Qianyu Guo*†1,2 Tianxiang Sun†1,2 J | Key Findings: LLM N+1 ? Adversarial methods Complex scenarios Figure 1: Pipeline of the construction of FLAMES Benchmark. tailed and fine-grained evaluation. Notabl | Conclusions: This study proposes FLAMES - the first highly ad- versarial benchmark for evaluating the value align- ment of LLMs in Chinese. FLAMES Benchmark consis"
-local_pdf: [[PDFs/2023/2023-Huang-Flames.pdf]]
+local_pdf: "[[PDFs/2023/2023-Huang-Flames.pdf]]"
+LLM_assessed: "ChatGPT, GPT-4, Claude"
+DATA_URL: "https://github.com/AIFlames/Flames"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,9 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-4, Claude"
-DATA_URL: "https://github.com/AIFlames/Flames"
-DATE_ADDED: 20260207
 ---
 # Flames: Benchmarking Value Alignment of LLMs in Chinese
 

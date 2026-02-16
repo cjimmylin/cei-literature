@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-[[Pudasaini]]-NepaliGPT A Generative Langua
 local_pdf: "[[PDFs/2025/2025-Pudasaini-NepaliGPT A Generative Language Model for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepalese"
 languages_list: "Nepali"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "After the release of ChatGPT, Large Language Models (LLMs) have gained huge popularity in recent days and thousands of variants of LLMs have been released. However, there isn't any generative language model for the Nepali language, due to which other downstream tasks, including fine-tuning, have not been explored yet. To fill this research gap in the Nepali NLP space, this research proposes NepaliGPT, a generative large language model tailored specifically for the Nepali language."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-2"
 DATA_URL: "NA"
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # NepaliGPT: A Generative Language Model for the Nepali Language
 

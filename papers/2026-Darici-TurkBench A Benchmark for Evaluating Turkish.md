@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2026/2026-Darici-TurkBench A Benchmark for Evaluating
 local_pdf: "[[PDFs/2026/2026-Darici-TurkBench A Benchmark for Evaluating Turkish.pdf]]"
 publication: arxiv.org
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"
 languages_list: "Turkish"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "With the recent surge in the development of large language models, the need for comprehensive and language-specific evaluation benchmarks has become critical. While significant progress has been made in evaluating Englishlanguage models, benchmarks for other languages, particularly those with unique linguistic characteristics such as Turkish, remain less developed. Our study introduces TurkBench, a comprehensive benchmark designed to assess the capabilities of generative large language models..."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GPT-4o, Gemma, Gemma-2, Gemma-3, Qwen, Qwen-3, Qwen-32B, Qwen3, deepseek-ai"
 DATA_URL: "https://github.com/argilla-io/argilla"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "6 categories"
 ---
 # TurkBench: A Benchmark for Evaluating Turkish Large Language Models
 

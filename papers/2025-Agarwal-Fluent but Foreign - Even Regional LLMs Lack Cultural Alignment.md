@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional 
 local_pdf: "[[PDFs/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, American"
 cultures_nationalities_list: "Indian, American"
 languages_list: "Hindi"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building “regional” or “sovereign” LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions—values and practices—grounded in nationally representative surveys and community-sourced QA datasets."
+LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building “regional” or “sovereign” LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions—values and practices—grounded in nationally representative surveys and community-sourced QA datasets."
-ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-2, Llama-3, Mistral, Gemma"
-DATA_URL: "NA"
 ---
 # Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment
 

@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2023/2023-Soemer-Antisemitic Messages A Guide to High
 local_pdf: "[[PDFs/2023/2023-Soemer-Antisemitic Messages A Guide to High-Quality.pdf]]"
 publication: "arXiv preprint (Indiana University ISCA)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -35,16 +34,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "One of the major challenges in automatic hate speech detection is the lack of datasets that cover a wide range of biased and unbiased messages and that are consistently labeled. We propose a labeling procedure that addresses some of the common weaknesses of labeled datasets. We focus on antisemitic speech on Twitter and create a labeled dataset of 6,941 tweets that cover a wide range of topics common in conversations about Jews, Israel, and antisemitism between January 2019 and December 2021 by..."
-data_description: "Dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, ELECTRA"
 DATA_URL: "https://zenodo.org/records/7932888"
 ethics_perspective: "Toxicity & Hate Speech"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # Antisemitic Messages? A Guide to High-Quality Annotation and a Labeled Dataset of Tweets
 

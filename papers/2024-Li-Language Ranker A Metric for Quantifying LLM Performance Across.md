@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Li-Language Ranker A Metric for Quantifying
 local_pdf: "[[PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multiple including Kurdish (0.308), Pashto (0.284)"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "Bloom 3B, Bloom 7B, Claude-3, GPT-4, Gemma, Llama, LlaMa2, LlaMa3, Mistral, Mistral 7B, Mistral-v0, Qwen, Qwen 1, Qwen Llama2, Qwen 13B, Qwen 7B"
 DATA_URL: "https://github.com/Helsinki-NLP/Tatoeba-"
 tags: 
 abstract: "The development of Large Language Models (LLMs) relies on extensive text corpora, which are often unevenly distributed across languages. This imbalance results in LLMs performing significantly better on high-resource languages like English, German, and French, while their capabilities in low-resource languages remain inadequate. Currently, there is a lack of quantitative methods to evaluate the performance of LLMs in these low-resource languages."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Language Ranker: A Metric for Quantifying LLM Performance Across Languages
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +37,18 @@ abstract: "This paper aims to help structure the risk landscape associated with 
 paper_summary: "Abstract: This paper aims to help structure the risk landscape associated with large-scale Language Models (LMs). In order to foster advances in responsible innovation, an in-depth understanding of the potentia | Overview: Ethical and social risks of harm from Language Models Laura Weidinger1, John Mellor1, Maribeth Rauh1, Conor Griﬃn1, Jonathan Uesato1, Po-Sen Huang1, Myra Cheng1,2, Mia Glaese1, Borja Balle1, Atoosa Ka | Key Findings: Risk assessment requires expanding beyond the methodologies traditionally used to evaluate LMs, LAs and LTs. For example, research on human- computer- | Conclusions: 36"
 local_pdf: "[[PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GPT-2, GPT-3, GPT2, RoBERTa, T5, T5-11B, XLNet"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus for toxicity detection"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-2, GPT-3, GPT2, RoBERTa, T5, T5-11B, XLNet"
-DATA_URL: "NA"
 ---
 # Ethical and social risks of harm from Language Models
 

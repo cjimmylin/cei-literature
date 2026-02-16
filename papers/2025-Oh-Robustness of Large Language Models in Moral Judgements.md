@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Oh-Robustness of Large Language Models in M
 local_pdf: "[[PDFs/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "We test whether large language models (LLMs) can be used to simulate human participants in social-science studies. To do this, we ran replications of 14 studies from the Many Labs 2 replication project with OpenAI’s text-davinci-003 model, colloquially known as GPT-3.5. Based on our pre-registered analyses, we find that among the eight studies we could analyse, our GPT sample replicated 37.5% of the original results and 37.5% of the Many Labs 2 results."
-ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: GPT-3.5
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Robustness of Large Language Models in Moral Judgements
 

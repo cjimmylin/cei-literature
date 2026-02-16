@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Vallego-La Leaderboard A Large Language Mod
 local_pdf: "[[PDFs/2025/2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Spanish, Latin American"
 languages_list: "Basque, Catalan, Galician, Spanish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ALBERT, BERT, Barth, DeepSeek, DeepSeek-AI, Gemma, Gemma-2, GPT-4, Llama, Llama 3, Llama-3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, RoBERTa, Llama-3, qwen2"
+DATA_URL: "https://zenodo.org/records/12571763"
+tags: 
+abstract: "Leaderboards showcase the current capabilities and limitations of Large Language Models (LLMs). To motivate the development of LLMs that represent the linguistic and cultural diversity of the Spanish-speaking community, we present LA LEADERBOARD 1, the first open-source leaderboard to evaluate generative LLMs in languages and language varieties of Spain and Latin America. LA LEADERBOARD is a communitydriven project that aims to establish an evaluation standard for everyone interested in..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "66 datasets"
-LLM_assessed: "ALBERT, BERT, Barth, DeepSeek, DeepSeek-AI, Gemma, Gemma-2, GPT-4, Llama, Llama 3, Llama-3.1, Mistral, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, RoBERTa, Llama-3, qwen2"
-DATA_URL: "https://zenodo.org/records/12571763"
-tags: 
-abstract: "Leaderboards showcase the current capabilities and limitations of Large Language Models (LLMs). To motivate the development of LLMs that represent the linguistic and cultural diversity of the Spanish-speaking community, we present LA LEADERBOARD 1, the first open-source leaderboard to evaluate generative LLMs in languages and language varieties of Spain and Latin America. LA LEADERBOARD is a communitydriven project that aims to establish an evaluation standard for everyone interested in..."
-research_topic: "Social & Cultural Analysis"
 ---
 # La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America
 

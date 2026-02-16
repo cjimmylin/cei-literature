@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Critical for evaluating chat agents, as single-turn benchmarks mi
 tags: 
 abstract: "The increasing deployment of large language model (LLM)-based chatbots has raised concerns regarding fairness. Fairness issues in LLMs may result in serious consequences, such as bias amplification, discrimination, and harm to minority groups. Many efforts are dedicated to evaluating and mitigating biases in LLMs. However, existing fairness benchmarks mainly focus on single-turn dialogues, while multi-turn scenarios, which better reflect real-world conversations, pose greater challenges due to..."
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"
+DATA_URL: "https://github.com/FanZT6/FairMT-bench"
+pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
+local_pdf: "[[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-4, Llama-3, Llama-2, Mistral, Gemma"
-DATA_URL: "https://github.com/FanZT6/FairMT-bench"
-pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
-local_pdf: [[PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]
 ---
 # FAIRMT-BENCH: BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS
 

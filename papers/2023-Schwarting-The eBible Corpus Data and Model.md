@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2023/2023-Schwarting-The eBible Corpus Data and Model
 local_pdf: "[[PDFs/2023/2023-Schwarting-The eBible Corpus Data and Model.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
@@ -34,16 +33,20 @@ religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Efﬁciently and accurately translating a corpus into a low-resource language remains a challenge, regardless of the strategies employed, whether manual, automated, or a combination of the two. Many Christian organizations are dedicated to the task of translating the Holy Bible into languages that lack a modern translation. Bible translation (BT) work is currently underway for over 3000 extremely low resource languages."
+LLM_assessed: "BERT"
+DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "Efﬁciently and accurately translating a corpus into a low-resource language remains a challenge, regardless of the strategies employed, whether manual, automated, or a combination of the two. Many Christian organizations are dedicated to the task of translating the Holy Bible into languages that lack a modern translation. Bible translation (BT) work is currently underway for over 3000 extremely low resource languages."
 data_description: "Benchmark text corpus"
-data_metrics: "75 language"
-LLM_assessed: "BERT"
-DATA_URL: "https://huggingface.co/datasets/bible-nlp/biblenlp-corpus / https://github.com/BibleNLP/ebible"
-research_topic: "Machine Translation"
+data_metrics: "Not specified"
 ---
 # The eBible Corpus: Data and Model Benchmarks for Bible Translation for Low-Resource Languages
 

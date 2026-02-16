@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Critiques the standard 'color-blind' fairness approach, showing t
 tags: 
 abstract: "Algorithmic fairness has conventionally adopted the mathematically convenient perspective of racial color-blindness (i.e., difference unaware treatment). However, we contend that in a range of important settings, group difference awareness matters. For example, differentiating between groups may be necessary in legal contexts (e.g., the U.S. compulsory draft applies to men but not women) and harm assessments (e.g."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
+local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "16k questions"
-LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.md"
-local_pdf: "[[PDFs/2025/2025-Wang-Measuring Desired Group Discrimination in LLMs.pdf]]"
 ---
 # Measuring Desired Group Discrimination in LLMs (DiffAware Benchmark Suite)
 

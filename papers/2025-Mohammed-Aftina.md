@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +29,11 @@ moral_psychology: "N/A"
 newtags: "Arabic, Islam"
 tags: 
 abstract: "Question–answering (QA) systems face considerable challenges when involved in Islamic fatwas due to the complexity and sensitivity of the data. Such problems involve providing accurate and reliable responses, managing hallucinations and inaccurate responses, and maintaining the stability of the generated responses. Prior studies have concentrated mainly on collecting and preprocessing Islamic datasets or developing retrieval-based QA systems, overlooking the precision and reliability required fo"
+LLM_assessed: "Gemma"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/0000/2025-Mohammed-Aftina.md"
+local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina.pdf]]"
+DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -33,14 +41,9 @@ utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_dataset: "Yes"
+data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/0000/2025-Mohammed-Aftina.md"
-local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina.pdf]]"
-DATE_ADDED: 20260207
 ---
 # Aftina: Arabic Fatwa QA Benchmark for Islamic Jurisprudence
 

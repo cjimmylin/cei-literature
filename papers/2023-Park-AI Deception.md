@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "This paper argues that a range of current AI systems have learned how
 paper_summary: "Abstract: This paper argues that a range of current AI systems have learned how to deceive humans. We define deception as the systematic inducement of false beliefs in the pursuit of some outcome other than the | Overview: AI Deception: A Survey of Examples, Risks, and Potential Solutions Peter S. Park∗ MIT Simon Goldstein* Australian Catholic University Center for AI Safety Aidan O'Gara Center for AI Safety Michael Che"
 local_pdf: "[[PDFs/2023/2023-Park-AI Deception.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4"
-DATA_URL: "NA"
 ---
 # AI Deception: A Survey of Examples, Risks, and Potential Solutions
 

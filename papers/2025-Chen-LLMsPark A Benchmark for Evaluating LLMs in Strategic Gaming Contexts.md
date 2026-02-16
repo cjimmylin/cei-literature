@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Chen-LLMsPark A Benchmark for Evaluating LL
 local_pdf: "[[PDFs/2025/2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As large language models (LLMs) advance across diverse tasks, the need for comprehensive evaluation beyond single metrics becomes increasingly important. To fully assess LLM intelligence, it is crucial to examine their interactive dynamics and strategic behaviors. We present LLMsPark, a game theory–based evaluation platform that measures LLMs’ decision-making strategies and social behaviors in classic game-theoretic settings, providing a multi-agent environment to explore strategic depth."
+LLM_assessed: "GPT-4, GPT-3.5, Qwen"
+DATA_URL: "https://llmsparks.github.io/"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "As large language models (LLMs) advance across diverse tasks, the need for comprehensive evaluation beyond single metrics becomes increasingly important. To fully assess LLM intelligence, it is crucial to examine their interactive dynamics and strategic behaviors. We present LLMsPark, a game theory–based evaluation platform that measures LLMs’ decision-making strategies and social behaviors in classic game-theoretic settings, providing a multi-agent environment to explore strategic depth."
-research_topic: "Machine Learning"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Qwen"
-DATA_URL: "https://llmsparks.github.io/"
 ---
 # LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts
 

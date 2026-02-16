@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Son-KMMLU Measuring Massive Multitask Langu
 local_pdf: "[[PDFs/2024/2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.pdf]]"
 publication: "arXiv / NAACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-3.5 TURBO, GPT-3.5-TURBO, GPT-4, GPT-4-TURBO, Llama-2, Llama, Qwen, QWEN-14B, QWEN-72B, QWEN-7B"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "We propose KMMLU, a new Korean benchmark with 35,030 expert-level multiple-choice questions across 45 subjects ranging from humanities to STEM. While prior Korean benchmarks are translated from existing English benchmarks, KMMLU is collected from original Korean exams, capturing linguistic and cultural aspects of the Korean language. We test 27 public and proprietary LLMs and observe the best public model to score 50.5%, leaving significant room for improvement."
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # KMMLU: Measuring Massive Multitask Language Understanding in Korean
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,20 +31,20 @@ key_contribution: "Evaluates ChatGPT using EU 'trustworthy AI' requirements thro
 significance: "Argues that virtue ethics (character/wisdom) is essential alongside deontology/utilitarianism for evaluating conversational agents"
 abstract: "This paper proposes an approach to ethical reflection and deliberation for Large Language Models (LLMs) like ChatGPT. It utilizes the European Commission's requirements for \"
 DATE_ADDED: 20260129
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/google/BIG-bench"
 pdf_extract: "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md"
 local_pdf: "[[PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Ethical aspects of ChatGPT: An approach to discuss and evaluate key requirements from different ethical perspectives
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ pdf: "http://arxiv.org/pdf/2301.01768"
 pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
 local_pdf: "[[PDFs/2023/2023-Hartmann-The political ideology of conversational AI.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: ChatGPT
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: ChatGPT
-DATA_URL: "NA"
 ---
 # The political ideology of conversational AI: Converging evidence on ChatGPT’s pro-environmental, left-libertarian orientation
 

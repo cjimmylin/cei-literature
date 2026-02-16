@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Thellmann-Towards Multilingual LLM Evaluati
 local_pdf: "[[PDFs/2024/2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "European"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 15 other European languages"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "Barth, Barth4, Bloom, Bloom-7b1, Bloomz, ChatGPT, Gemma, Gemma-1.1, Gemma-2, Llama-2, LLama-3.1, Llama, Llama-3, Mistral-7B, Mistral-NeMo, Mixtral, Mixtral-8x7B, Phi-3-medium, Phi-3-mini, Qwen, Qwen2, Vicuna, Vicuna-13, BERT, command-r, GPT-4, mistralai"
 DATA_URL: "https://github.com/vllm-project/vllm"
 tags: 
 abstract: "The rise of Large Language Models (LLMs) has revolutionized natural language processing across numerous languages and tasks. However, evaluating LLM performance in a consistent and meaningful way across multiple European languages remains challenging, especially due to the scarcity of language-parallel multilingual benchmarks. We introduce a multilingual evaluation approach tailored for European languages."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Towards Multilingual LLM Evaluation for European Languages
 

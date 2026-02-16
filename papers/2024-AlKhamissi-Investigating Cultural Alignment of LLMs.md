@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ external_pdf: "https://arxiv.org/pdf/2402.13231.pdf"
 pdf_extract: "PDF Extracts/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.md"
 local_pdf: "[[PDFs/2024/2024-AlKhamissi-Investigating Cultural Alignment of LLMs.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, American"
 cultures_nationalities_list: "Arabic, American"
 languages_list: "Arabic, English"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The intricate relationship between language and culture has long been a subject of exploration within the realm of linguistic anthropology. Large Language Models (LLMs), promoted as repositories of collective human knowledge, raise a pivotal question: do these models genuinely encapsulate the diverse knowledge adopted by different cultures? Our study reveals that these models demonstrate greater cultural alignment along two dimensions—firstly, when prompted with the dominant language of a..."
+LLM_assessed: "GPT-3.5, Llama-2"
+DATA_URL: "https://github.com/bkhmsi/cultural-trends.git"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "The intricate relationship between language and culture has long been a subject of exploration within the realm of linguistic anthropology. Large Language Models (LLMs), promoted as repositories of collective human knowledge, raise a pivotal question: do these models genuinely encapsulate the diverse knowledge adopted by different cultures? Our study reveals that these models demonstrate greater cultural alignment along two dimensions—firstly, when prompted with the dominant language of a..."
-ethics_perspective: "Social & Cultural Values"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, Llama-2"
-DATA_URL: "https://github.com/bkhmsi/cultural-trends.git"
 ---
 # Investigating Cultural Alignment of LLMs
 

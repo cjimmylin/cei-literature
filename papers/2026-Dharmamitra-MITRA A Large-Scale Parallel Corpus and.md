@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Co
 local_pdf: "[[PDFs/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese, Tibetan, Sanskrit, Indian"
 languages_list: "Chinese, English, Pali, Sanskrit, Tibetan"
@@ -33,16 +32,20 @@ religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Ancient Buddhist literature features frequent, yet often unannotated, textual parallels spread across diverse languages: Sanskrit, P¯ali, Buddhist Chinese, Tibetan, and more. The scale of this material makes manual examination prohibitive. We present the MITRA framework, which consists of a novel pipeline for multilingual parallel passage mining, MITRA-parallel, a large-scale corpus of 1.74 million parallel sentence pairs between Sanskrit, Chinese, and Tibetan, and the development of the..."
-data_description: "Multilingual benchmark annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Gemma, Gemma 2, Gemma 3, Gemma-2, Gemma-3, Llama 3, Llama 3.1, Mistral, Mistral 7B, Qwen, Qwen2.5"
 DATA_URL: "Parallel dataset, model weights, and benchmark openly available (Hugging Face: buddhist-nlp)"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # MITRA: A Large-Scale Parallel Corpus and Multilingual Pretrained Language Model for Machine Translation and Semantic Retrieval for Pali, Sanskrit, Buddhist Chinese, and Tibetan
 

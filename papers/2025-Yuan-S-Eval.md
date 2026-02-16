@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +23,6 @@ pdf_extract: "PDF Extracts/0000/2025-Yuan-S-Eval.md"
 local_pdf: "[[PDFs/2025/2025-Yuan-S-Eval.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Generative large language models (LLMs) have revolutionized natural language processing with their transformative and emergent capabilities. However, recent evidence indicates that LLMs can produce harmful content that violates social norms, raising significant concerns regarding the safety and ethical ramifications of deploying these advanced models. Thus, it is both critical and imperative to perform a rigorous and comprehensive safety evaluation of LLMs before deployment."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Qwen, Llama, Gemini, Gemma, Mistral, Vicuna"
 DATA_URL: "https://github.com/IS2Lab/S-Eval"
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "220,000 test cases"
 ---
 # S-Eval
 

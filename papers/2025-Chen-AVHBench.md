@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,8 +31,10 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Chen-AVHBench.md"
 abstract: "Following the success of Large Language Models (LLMs), expanding their boundaries to new modalities represents a significant paradigm shift in multimodal understanding. Human perception is inherently multimodal, relying not only on text but also on auditory and visual cues for a complete understanding of the world. In recognition of this fact, audio-visual LLMs have recently emerged. Despite promising developments, the lack of dedicated benchmarks poses challenges for understanding and..."
 paper_summary: "Abstract: Following the success of Large Language Models (LLMs), expanding their bound- aries to new modalities represents a significant paradigm shift in multimodal under- standing. Human perception is inheren | Overview: Published as a conference paper at ICLR 2025 AVHBENCH: A CROSS-MODAL HALLUCINATION BENCHMARK FOR AUDIO-VISUAL LARGE LANGUAGE MODELS Kim Sung-Bin1∗ Oh Hyun-Bin1∗ Lee Jung-Mok1 Arda Senocak2 Joon Son Ch | Key Findings: to include simultaneous audio-visual and text inputs. Specifically, we introduce a comprehensive benchmark, AVHBench, which includes both judgment and | Conclusions: In this paper, we introduce AVHBench, a cross-modal hallucination evaluation benchmark designed to assess the recent audio-visual LLMs. AVHBench conta"
-local_pdf: [[PDFs/2025/2025-Chen-AVHBench.pdf]]
+local_pdf: "[[PDFs/2025/2025-Chen-AVHBench.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, Gemini, GEMINI-Flash, GPT4, Llama, LLaMA 50.0, LLaMA 50.1, LLaMA 67.2, LLaMA2, Llama 2, Qwen2, Vicuna"
+DATA_URL: "https://github.com/kaist-ami/AVHBench"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Gemini, GEMINI-Flash, GPT4, Llama, LLaMA 50.0, LLaMA 50.1, LLaMA 67.2, LLaMA2, Llama 2, Qwen2, Vicuna"
-DATA_URL: "https://github.com/kaist-ami/AVHBench"
 ---
 # AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models
 

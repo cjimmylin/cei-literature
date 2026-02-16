@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,10 @@ significance: "A critical policy paper highlighting 'epistemic injustice' – th
 tags: 
 abstract: "One of the common concerns raised in AI ethics scholarship is the overly western-centric nature of ongoing AI ethics discourse and governance initiatives. This has recently prompted many commentators to proclaim the emergence of an epistemic injustice or “ethical colonialism”. Many scholars point to the role of indigenous ethical systems, particularly Ubuntu, in addressing this flaw. In the meantime, a series of national and continental AI governance initiatives are also emerging in Africa."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md"
+local_pdf: "[[PDFs/2025/2025-Yilma-Ethics of AI in Africa.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,10 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md"
-local_pdf: "[[PDFs/2025/2025-Yilma-Ethics of AI in Africa.pdf]]"
 ---
 # Ethics of AI in Africa: Interrogating the role of Ubuntu and AI governance initiatives
 

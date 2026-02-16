@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +20,6 @@ external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md"
 local_pdf: "[[PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi, Bengali"
 languages_list: "Bengali"
@@ -29,16 +27,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which is spoken by over 285 million people and ranked 6th globally, remains underexplored. Existing ethics benchmarks are largely English-centric and shaped by Western frameworks, overlooking cultural nuances critical for real-world deployment. To address this, we introduce BengaliMoralBench, the first large-scale ethics benchmark for the Bengali..."
 research_topic: Other
-data_description: "Multilingual benchmark for moral/ethical reasoning"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Gemma, Qwen, DeepSeek"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # UniMoral (ACL 2025 Best Resource Paper)
 

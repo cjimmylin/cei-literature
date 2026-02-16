@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,19 +35,19 @@ abstract: "Should the input data of artificial intelligence (AI) systems include
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Segev-Artificial Intelligence, Discrimination, Fairness.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "AI Ethics"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "AI Ethics"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Bias & Fairness"
 ---
 # Artificial Intelligence, Discrimination, Fairness, and Other Moral Concerns
 

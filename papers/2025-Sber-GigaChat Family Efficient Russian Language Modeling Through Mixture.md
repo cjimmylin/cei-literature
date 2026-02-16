@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Sber-GigaChat Family Efficient Russian Lang
 local_pdf: "[[PDFs/2025/2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.pdf]]"
 publication: "arXiv / ACL Anthology (ACL Demo 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
 languages_list: Russian
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude 3.7 Sonnet, DeepSeek, GPT-4, GPT-4o, LLaMA 3, LLaMA 3., Llama 3.1, Llama-3, Llama-3., Mistral, Mistral-7B, Phi-4, Qwen, Qwen 2.5, Qwen1.5, Qwen2, Qwen2.5, RoBERTa, T5, deepseek-coder, deepseek-v2, Llama, mistral-large"
 DATA_URL: "https://github.com/salute-developers/GigaAM"
 tags: 
 abstract: "Generative large language models (LLMs) have become crucial for modern NLP research and applications across various languages. However, the development of foundational models specifically tailored to the Russian language has been limited, primarily due to the significant computational resources required. This paper introduces the GigaChat family of Russian LLMs, available in various sizes, including base models and instruction-tuned versions."
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture
 

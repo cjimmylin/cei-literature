@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: HuggingFace
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "11 countries, 5 continents"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/mair-lab/CulturalVQA"
 tags: 
 abstract: "Visual question-answering benchmark with 2,378 image-question pairs representing cultures from 11 countries across 5 continents. Probes understanding of clothing, food, drinks, rituals, and traditions."
-research_topic: "Social & Cultural Analysis"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding
 

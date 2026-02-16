@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Chakravarthi-Detecting Caste and Migration 
 local_pdf: "[[PDFs/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.pdf]]"
 publication: "WebSearch: Tamil caste migration hate speech"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Tamil"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "The Indian constitution categorizes its population into groups such as Scheduled Castes, Scheduled Tribes, Other Backward Classes, and Forward Castes, reflecting historical inequalities that influence social dynamics and discrimination. Migrants who are relocating within the country for better opportunities are often viewed as outsiders, leading to concerns about job security and crime, fostering hate and discrimination against them."
-data_description: "Benchmark dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, BLOOM, BLOOM-560, RoBERTa, Word2Vec"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Detecting Caste and Migration Hate Speech in Low-Resource Tamil Language
 

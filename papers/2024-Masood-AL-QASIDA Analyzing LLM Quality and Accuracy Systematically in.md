@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.md"
 local_pdf: "[[PDFs/2024/2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: Arabic
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
 LLM_assessed: "Command-R, GPT-4o, Llama, Llama 3.1, Llama-3, Llama-3.1, llama 3"
 DATA_URL: "https://huggingface.co/spaces/OALL"
 tags: 
 abstract: "Dialectal Arabic (DA) varieties are underserved by language technologies, particularly large language models (LLMs). This trend threatens to exacerbate existing social inequalities and limits LLM applications, yet the research community lacks operationalized performance measurements in DA. We present a framework that comprehensively assesses LLMs’ DA modeling capabilities across four dimensions: fidelity, understanding, quality, and diglossia."
 research_topic: Other
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # AL-QASIDA: Analyzing LLM Quality and Accuracy Systematically in Dialectal Arabic
 

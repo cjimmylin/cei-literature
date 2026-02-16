@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural 
 local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "American, Chinese"
 languages_list: "Chinese, English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As Video Large Language Models (VideoLLMs) are deployed globally, they require understanding of and grounding in the relevant cultural background. To properly assess these models’ cultural awareness, adequate benchmarks are needed. We introduce VIDEONORMS, a benchmark of over 1000 (video clip, norm) pairs from US and Chinese cultures annotated with socio-cultural norms grounded in speech act theory, norm adherence and violations labels, and verbal and non-verbal evidence."
+LLM_assessed: "Gemini, Qwen"
+DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "As Video Large Language Models (VideoLLMs) are deployed globally, they require understanding of and grounding in the relevant cultural background. To properly assess these models’ cultural awareness, adequate benchmarks are needed. We introduce VIDEONORMS, a benchmark of over 1000 (video clip, norm) pairs from US and Chinese cultures annotated with socio-cultural norms grounded in speech act theory, norm adherence and violations labels, and verbal and non-verbal evidence."
-research_topic: "Computer Vision & Multimodal"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemini, Qwen"
-DATA_URL: "https://github.com/nikhilreddy3/VideoNorms"
 ---
 # VideoNorms: Benchmarking Cultural Awareness of Video Language Models
 

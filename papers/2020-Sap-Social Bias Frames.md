@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +34,18 @@ abstract: "Warning: this paper contains content that may be offensive or upsetti
 pdf_extract: "PDF Extracts/2020/2020-Sap-Social Bias Frames.md"
 local_pdf: "[[PDFs/2020/2020-Sap-Social Bias Frames.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: GPT-2
+DATA_URL: "http://tinyurl.com/social-bias-frames"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach text corpus"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: GPT-2
-DATA_URL: "http://tinyurl.com/social-bias-frames"
 ---
 # Social Bias Frames: Reasoning about Social and Power Implications of Language
 

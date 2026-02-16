@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.117.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md"
 local_pdf: "[[PDFs/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arabic, Islamic"
 languages_list: "Arabic"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "This paper provides a comprehensive overview of the QIAS 2025 shared task, organized as part of the ArabicNLP 2025 conference and co­located with EMNLP 2025. The task was designed for the evaluation of large language models in the complex domains of religious and legal reasoning. It comprises two subtasks: (1) Islamic Inheritance Reasoning, requiring mod­ els to compute inheritance shares according to Islamic jurisprudence, and (2) Islamic Knowl­ edge Assessment, which covers a range of tradi­..."
+LLM_assessed: "GPT-4, Gemini, DeepSeek, Qwen, Claude, Llama-3, Mistral, Falcon, BERT"
+DATA_URL: "https://gitlab.com/islamgpt1/qias_shared_task_2025"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "This paper provides a comprehensive overview of the QIAS 2025 shared task, organized as part of the ArabicNLP 2025 conference and co­located with EMNLP 2025. The task was designed for the evaluation of large language models in the complex domains of religious and legal reasoning. It comprises two subtasks: (1) Islamic Inheritance Reasoning, requiring mod­ els to compute inheritance shares according to Islamic jurisprudence, and (2) Islamic Knowl­ edge Assessment, which covers a range of tradi­..."
-research_topic: "Machine Learning"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, DeepSeek, Qwen, Claude, Llama-3, Mistral, Falcon, BERT"
-DATA_URL: "https://gitlab.com/islamgpt1/qias_shared_task_2025"
 ---
 # QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment
 

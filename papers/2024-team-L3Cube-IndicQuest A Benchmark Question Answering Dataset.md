@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-team-L3Cube-IndicQuest A Benchmark Question
 local_pdf: "[[PDFs/2024/2024-team-L3Cube-IndicQuest A Benchmark Question Answering Dataset.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large Language Models (LLMs) have made significant progress in incorporating Indic languages within multilingual models. However, it is crucial to quantitatively assess whether these languages perform comparably to globally dominant ones, such as English. Currently, there is a lack of benchmark datasets specifically designed to evaluate the regional knowledge of LLMs in various Indic languages. In this paper, we present the L3CubeIndicQuest, a gold-standard factual questionanswering benchmark..."
+LLM_assessed: "GPT-4o, Gemma, Gemma-2, Llama, Llama-3.1"
+DATA_URL: "https://github.com/facebookresearch/MLQA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Large Language Models (LLMs) have made significant progress in incorporating Indic languages within multilingual models. However, it is crucial to quantitatively assess whether these languages perform comparably to globally dominant ones, such as English. Currently, there is a lack of benchmark datasets specifically designed to evaluate the regional knowledge of LLMs in various Indic languages. In this paper, we present the L3CubeIndicQuest, a gold-standard factual questionanswering benchmark..."
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "200 question"
-LLM_assessed: "GPT-4o, Gemma, Gemma-2, Llama, Llama-3.1"
-DATA_URL: "https://github.com/facebookresearch/MLQA"
-research_topic: "Machine Learning"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "20 languages"
 ---
 # L3Cube-IndicQuest: A Benchmark Question Answering Dataset for Evaluating Knowledge of LLMs in Indic Context
 

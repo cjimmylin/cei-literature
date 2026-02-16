@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "Frontiers in Big Data"
 pdf_extract: "PDF Extracts/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md"
 local_pdf: "[[PDFs/2021/2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German, Italian"
 cultures_nationalities_list: "French, German, Italian"
 languages_list: "French, German, Italian, Swedish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "word2vec"
+DATA_URL: "NA"
+tags: 
+abstract: "Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "word2vec"
-DATA_URL: "NA"
-tags: 
-abstract: "Extends origin and gender bias analysis to multilingual word embeddings in four European languages including French. Demonstrates origin bias concerning local migration groups. Published in Frontiers in Big Data."
-ethics_perspective: "Bias & Fairness"
 ---
 # A World Full of Stereotypes? Further Investigation on Origin and Gender Bias in Multi-Lingual Word Embeddings
 

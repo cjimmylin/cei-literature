@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Egyptian, Gulf, Jordanian, Lebanese, Levantine, Palestinian, Syrian"
 languages_list: "Arabic"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "45k post"
 LLM_assessed: "Llama-3, Mistral, Jais, AceGPT"
 DATA_URL: "https://huggingface.co/datasets/QCRI/AraDiCE"
 tags: 
 abstract: "Arabic, with its rich diversity of dialects, remains significantly underrepresented in Large Language Models, particularly in dialectal variations. We address this gap by introducing seven synthetic datasets in dialects alongside Modern Standard Arabic (MSA), created using Machine Translation (MT) combined with human post-editing. We present AraDiCE, a benchmark for Arabic Dialect and Cultural Evaluation."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "45k post"
 ---
 # AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs
 

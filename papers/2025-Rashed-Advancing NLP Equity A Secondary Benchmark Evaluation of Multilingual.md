@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: OpenReview
 pdf_extract: "PDF Extracts/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.md"
 local_pdf: "[[PDFs/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American"
 cultures_nationalities_list: "Spanish, American, Indigenous American"
 languages_list: "Guarani, Kyrgyz, Multilingual, Quechua, Turkish"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "Recent multilingual language models promise support for “100+ languages,” yet speakers of Indigenous and other underrepresented languages still often do not see themselves in these advances. In this work, we take a deliberately simple, secondary-benchmark perspective: rather than proposing a new model or dataset, we re-evaluate an off-theshelf multilingual natural language inference (NLI) model on public benchmarks that explicitly include Indigenous languages of the Americas."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Advancing NLP Equity: A Secondary Benchmark Evaluation of Multilingual Language Models for Underrepresented Languages
 

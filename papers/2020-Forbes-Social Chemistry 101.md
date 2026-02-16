@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ tags:
 abstract: "Social norms—the unspoken commonsense rules about acceptable social behavior—are crucial in understanding the underlying causes and intents of people’s actions in narratives. For example, underlying an action such as “wanting to call cops on my neighbor” are social norms that inform our conduct, such as “It is expected that you report crimes.” We present SOCIAL CHEMISTRY, a new conceptual formalism to study people’s everyday social norms and moral judgments over a rich spectrum of real life..."
 pdf_extract: "PDF Extracts/2020/2020-Forbes-Social Chemistry 101.md"
 local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
+LLM_assessed: "GPT-2, T5, BART"
+DATA_URL: "NA"
+publication: "EMNLP 2020"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,13 +44,9 @@ utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-2, T5, BART"
-DATA_URL: "NA"
-publication: "EMNLP 2020"
-DATE_ADDED: 20260207
 ---
 # Social Chemistry 101: Learning to Reason about Social and Moral Norms
 

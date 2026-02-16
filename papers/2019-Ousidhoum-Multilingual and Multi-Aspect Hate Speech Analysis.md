@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md"
 local_pdf: "[[PDFs/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, French"
 cultures_nationalities_list: "Arabic, French, English"
 languages_list: "Arabic, English, French"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: BiLSTM
 DATA_URL: "https://github.com/HKUST-KnowComp/MLMA_hate_speech"
 tags: 
 abstract: "Current research on hate speech analysis is typically oriented towards monolingual and single classiﬁcation tasks. In this paper, we present a new multilingual multi-aspect hate speech analysis dataset and use it to test the current state-of-the-art multilingual multitask learning approaches. We evaluate our dataset in various classiﬁcation settings, then we discuss how to leverage our annotations in order to improve hate speech detection and classiﬁcation in general."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Multilingual and Multi-Aspect Hate Speech Analysis
 

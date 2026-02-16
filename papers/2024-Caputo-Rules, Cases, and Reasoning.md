@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "Legal theory can address two related key problems of alignment: plura
 paper_summary: "Abstract: Legal theory can address two related key problems of alignment: pluralism and speciﬁcation. Alignment researchers must determine how to specify what is con- cretely meant by vague principles like help | Overview: arXiv:2410.17271v3 [cs.CY] 28 Oct 2024 Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment Nicholas A. Caputo∗ Oxford Martin AI Governance Initiative Oxfor | Methodology: promotes pluralism. Pluralistic models must instead be able to reason contextually and from dif- ferent perspectives, drawing on the body of alignment | Conclusions: Alignment must represent the values of the society from which AI emerges, but existing approaches to incorporating democracy into alignment do not ove"
 local_pdf: "[[PDFs/2024/2024-Caputo-Rules, Cases, and Reasoning.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Claude"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Claude"
-DATA_URL: "NA"
 ---
 # Rules, Cases, and Reasoning: Positivist Legal Theory as a Framework for Pluralistic AI Alignment
 

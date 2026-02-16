@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handlin
 local_pdf: "[[PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Korean, Indian, Arabic, African/Ubuntu, French, German, Spanish"
 cultures_nationalities_list: "Chinese, Korean, Indian, Arabic, African, French, German, Spanish"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Korean, Spanish, Swahili"
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for ai safety dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama, Llama-3, LlaMa-3.1, LlaMa-Guard, Mistral, Mistral 7B, GPT-3, gpt-3.5-turbo"
 DATA_URL: "NA"
 tags: 
 abstract: "With the ubiquity of Large Language Models (LLMs), guardrails have become crucial to detect and defend against toxic content. However, with the increasing pervasiveness of LLMs in multilingual scenarios, their effectiveness in handling multilingual toxic inputs remains unclear. In this work, we introduce a comprehensive multilingual test suite, spanning seven datasets and over ten languages, to benchmark the performance of state-of-the-art guardrails."
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset for toxicity detection"
+data_metrics: "7 datasets"
 ---
 # Benchmarking LLM Guardrails in Handling Multilingual Toxicity
 

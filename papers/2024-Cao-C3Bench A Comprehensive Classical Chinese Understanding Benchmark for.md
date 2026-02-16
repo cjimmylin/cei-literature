@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md"
 local_pdf: "[[PDFs/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, Classical Chinese, English"
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, ChatGLM2, ChatGLM_Turbo, Llama, LLaMA2, Qwen, Qwen-14B, Qwen-7B, baichuan-inc"
 DATA_URL: "https://github.com/NiuTrans/Classical-Modern"
 tags: 
 abstract: "Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models
 

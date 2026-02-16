@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - 
 local_pdf: "[[PDFs/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Large Language Models (LLMs) are poised to transform healthcare under China’s Healthy China 2030 initiative, yet they introduce new ethical and patient-safety challenges. We present a novel 12,000-item Q&A benchmark covering 11 ethics and 9 safety dimensions in medical contexts, to quantitatively evaluate these risks. Using this dataset, we assess state-of-the-art Chinese medical LLMs (e.g., Qwen 2.5-32B, DeepSeek), revealing moderate baseline performance (accuracy 42.7% for Qwen 2."
-ethics_perspective: "AI Safety & Alignment"
-data_description: "Benchmark for moral/ethical reasoning dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Qwen, DeepSeek"
 DATA_URL: "https://medbench.opencompass.org.cn/community/data-station"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "Not specified"
 ---
 # Healthcare Ethics & Safety QA (China -- Healthy China 2030)
 

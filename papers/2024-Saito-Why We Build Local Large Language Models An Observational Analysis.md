@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Saito-Why We Build Local Large Language Models An Observational Analysis.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Saito-Why We Build Local Large Language Models An Observational Analysis.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "English, Japanese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3-70B, Llama-3-8B, Mistral-7B, Mixtral-8x7B, BLOOM-7B, Qwen-2-72B, CyberAgentLM2-7B, Swallow-7B, Swallow-13B, Swallow-70B, Sarashina2-7B, Sarashina2-13B, Yi-34B, Phi-3-small, Phi-3-medium"
 DATA_URL: "https://doi.org/10.5281/zenodo.13160661"
 tags: 
 abstract: "Why do we build local large language models (LLMs)? What should a local LLM learn from the target language? Which abilities can be transferred from other languages? Do language-specific scaling laws exist? To explore these research questions, we evaluated 35 Japanese, English, and multilingual LLMs on 19 evaluation benchmarks for Japanese and English, taking Japanese as a local language. Adopting an observational approach, we analyzed correlations of benchmark scores, and conducted principal..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # Why We Build Local Large Language Models: An Observational Analysis from 35 Japanese and Multilingual LLMs
 

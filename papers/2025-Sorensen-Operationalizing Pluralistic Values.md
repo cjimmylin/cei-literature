@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +34,18 @@ key_contribution: "Reveals trade-offs between safety, inclusivity, and model beh
 significance: "Demonstrates that single alignment objective cannot represent everyone; highlights whose voices shape AI safety"
 abstract: "Although large language models (LLMs) are increasingly trained using human feedback for safety and alignment with human values, alignment decisions often overlook human social diversity. This study examines how incorporating pluralistic values affects LLM behavior by systematically evaluating demographic variation and design parameters in the alignment pipeline. We collect alignment data from US and German participants (N = 1,095 participants, 27,375 ratings) who rated LLM responses across five..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
-data_metrics: "Not specified"
 LLM_assessed: Vicuna
 DATA_URL: "https://github.com/DALIAALISIDDIG/AlignCure"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior
 

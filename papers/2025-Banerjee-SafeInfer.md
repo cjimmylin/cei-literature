@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +20,7 @@ authors: "Somnath Banerjee; Sayan Layek; Soham Tripathy; Shanu Kumar; Animesh Mu
 url: "https://ojs.aaai.org/index.php/AAAI/article/view/34927"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KV9GGDEF/Jain and others - 2025 - SafeInfer Context Adaptive Decoding Time Safety Alignment for Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Banerjee-SafeInfer.md"
-local_pdf: [[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]
+local_pdf: "[[PDFs/2025/2025-Banerjee-SafeInfer.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -30,6 +33,8 @@ significance: "Suggests shifting safety from training (fine-tuning) to inference
 tags: 
 abstract: "Language models aligned for safety often exhibit fragile and imbalanced mechanisms, increasing the chances of producing unsafe content. In addition, editing techniques to incorporate new knowledge can further compromise safety. To tackle these issues, we propose SAFEINFER, a context-adaptive, decodingtime safety alignment strategy for generating safe responses to user queries. SAFEINFER involves two phases: the ‘safety amplification’ phase, which uses safe demonstration examples to adjust the..."
 DATE_ADDED: 20260129
+LLM_assessed: "Llama-2, Mistral, Vicuna, Falcon"
+DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +43,8 @@ ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-data_description: "Benchmark for moral/ethical reasoning"
+data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2, Mistral, Vicuna, Falcon"
-DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"
 ---
 # SafeInfer: Context Adaptive Decoding Time Safety Alignment for Large Language Models
 

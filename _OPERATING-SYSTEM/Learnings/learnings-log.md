@@ -40,6 +40,17 @@
 |------|----------|----------|
 | 2026-02-16 | Data Quality | **Agent Result Staleness After Bulk Renames:** When `apply_author_fixes.py` renames 27 papers between batch generation and consolidation, all agent result files reference old filenames. Fix: build a programmatic old→new filename mapping by matching title substrings against `papers/` directory, then update agent JSONs before consolidation. This affects any multi-session pipeline where renames occur mid-flight. |
 | 2026-02-16 | YAML | **macOS Path.exists() vs glob() Unicode Mismatch:** `Path("papers/...VLMs'...").exists()` returns `False` when JSON has U+2019 (right single quotation mark) but the actual filesystem stores U+0027 (ASCII apostrophe). Python `repr()` shows both as `'` making debugging invisible. Fix: always use `glob("*partial_name*")` to discover the actual filesystem name, then use that for path operations. |
+| 2026-02-16 | Workflows | **JSONL Agent Output Parsing:** Agent task output files are JSONL conversation transcripts (one JSON object per line, 300-500KB each). To extract structured results, parse from the end looking for assistant messages whose `content` array contains a `text` block with `` ```json `` code blocks. Reusable script: `extract_zero_coverage_agent_results.py`. |
+| 2026-02-16 | Data Quality | **Zero-Coverage Tradition Academic Footprints Vary Wildly:** Indigenous AI = 24 papers (rich field: CARE/FAIR, data sovereignty, NLP revitalization), Shinto = 10 (robot ethics, techno-animism), Zoroastrian = 7 (computational linguistics for Pahlavi/Avestan), Baha'i = 1 (genuine literature gap). |
+| 2026-02-16 | Workflows | **Classification Pipeline Is Idempotent on Mixed Vault:** Running all 7 classification stages on 2,034 papers (2,002 existing + 32 new) correctly populates new papers without corrupting existing ones. Safe to run on the full vault after each import. |
+
+## 2026-02-16 (Session 86 MIDDLE)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Author Management | **Orphan Detection Needs Name Normalization:** Naive exact-match orphan detection reported 5,357 "orphans" from 9,882 profiles. After adding normalized matching (lowercase + sort words: "Nozza, Debora" = "Debora Nozza"), real orphans dropped to 187 garbage + 3,727 true orphans. Always normalize names before cross-referencing author profiles against paper wikilinks. |
+| 2026-02-16 | API | **Semantic Scholar Rate Limits Aggressive for Batch Use:** Even with 15s delays between requests, Semantic Scholar API returns HTTP 429 for unauthenticated batch queries. In a 60-paper scan, only 6 succeeded — all others got 429. Batch author resolution needs an API key or institutional access. ArXiv API at 3s delay works reliably by contrast. |
+| 2026-02-16 | Author Management | **PDF Extract Parsing Too Noisy Without LLM:** Regex heuristics for extracting author names from PDF text (between title and abstract) pick up affiliations, journal names, page headers, and title fragments. Of 31 PDF-extract results, most contained >50% noise. This task fundamentally requires LLM-based extraction for acceptable accuracy. |
 
 ## 2026-02-16 (Session 85)
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Tewabe-The State of Large Language Models f
 local_pdf: "[[PDFs/2025/2025-Tewabe-The State of Large Language Models for African Languages Progress and.pdf]]"
 publication: "WebSearch: decolonial AI African languages benchmark evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, African/Ubuntu"
 cultures_nationalities_list: "African, Arabic"
 languages_list: "Survey covering African languages broadly"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BART, BERT, BLOOM, T5"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are transforming Natural Language Processing (NLP), but their benefits are largely absent for Africa’s 2,000 low-resource languages. This paper comparatively analyzes African language coverage across six LLMs, eight Small Language Models (SLMs), and six Specialized SLMs (SSLMs). The evaluation covers language coverage, training sets, technical limitations, script problems, and language modelling roadmaps."
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # The State of Large Language Models for African Languages: Progress and Challenges
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "NAACL 2025 Findings"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md"
 local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: Persian
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Claude, Command-r, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o mini, GPT-4o-mini, Llama, Llama 3, Llama 3.1, Llama-3, Llama-3.1, Llama3, Llama3.1, Mistral, Qwen, Qwen 2, Qwen 2.5, Qwen-2.5, Qwen2, Qwen2.5"
 DATA_URL: "https://github.com/SajjjadAyobi/PersianQA"
 tags: 
 abstract: "Evaluation of large language models (LLMs) in low-resource languages like Persian has received less attention than in high-resource languages like English. Existing evaluation approaches for Persian LLMs generally lack comprehensive frameworks, limiting their ability to assess models’ performance over a wide range of tasks requiring considerable cultural and contextual knowledge, as well as a deeper understanding of Persian literature and style."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Advancing Persian LLM Evaluation
 

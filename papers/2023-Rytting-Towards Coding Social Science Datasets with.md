@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ paper_summary: "Overview: Page 1 of 27 Towards Coding Social Science Datasets wi
 local_pdf: "[[PDFs/2023/2023-Rytting-Towards Coding Social Science Datasets with.pdf]]"
 abstract: "Researchers often rely on humans to code (label, annotate, etc.) large sets of texts. This kind of human coding forms an important part of social science research, yet the coding process is both resource intensive and highly variable from application to application. In some cases, efforts to automate this process have achieved human-level accuracies, but to achieve this, these attempts frequently rely on thousands of hand-labeled training examples, which makes them inapplicable to small-scale re"
 DATE_ADDED: 20260208
+LLM_assessed: GPT-3
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: GPT-3
-DATA_URL: "NA"
 ---
 # Towards Coding Social Science Datasets with Language Models
 

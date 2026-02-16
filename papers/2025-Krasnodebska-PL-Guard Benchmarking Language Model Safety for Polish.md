@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Krasnodebska-PL-Guard Benchmarking Language
 local_pdf: "[[PDFs/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Polish"
 languages_list: Polish
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for ai safety annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA Guard, LLamaGuard, Llama- Guard, Llama-Guard, Qwen"
 DATA_URL: "https://huggingface.co/OPI-PG/Qra-1b"
 tags: 
 abstract: "Despite increasing efforts to ensure the safety of large language models (LLMs), most existing safety assessments and moderation tools remain heavily biased toward English and other high-resource languages, leaving majority of global languages underexamined. To address this gap, we introduce a manually annotated benchmark dataset for language model safety classification in Polish. We also create adversarially perturbed variants of these samples designed to challenge model robustness."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # PL-Guard: Benchmarking Language Model Safety for Polish
 

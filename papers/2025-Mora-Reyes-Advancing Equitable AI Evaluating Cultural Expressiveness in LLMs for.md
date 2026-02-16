@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American, Brazilian, Latin American"
 cultures_nationalities_list: "Mexican, pan-Latin American"
 languages_list: "English, Nahuatl, Portuguese, Quechua, Spanish"
@@ -30,16 +29,20 @@ religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Mistral-7B; Zephyr-7B; BLOOM-7B; Llama-2-7B; Grok; ChatGPT"
+DATA_URL: "https://github.com/areyesan/Advancing-Equitable-AI"
+tags: 
+abstract: "Artificial intelligence (AI) systems often reflect biases from economically advanced regions, marginalizing contexts in economically developing regions like Latin America due to imbalanced datasets. This paper examines AI representations of diverse Latin American contexts, revealing disparities between data from economically advanced and developing regions. We highlight how the dominance of English over Spanish, Portuguese, and indigenous languages such as Quechua and Nahuatl perpetuates..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Mistral-7B; Zephyr-7B; BLOOM-7B; Llama-2-7B; Grok; ChatGPT"
-DATA_URL: "https://github.com/areyesan/Advancing-Equitable-AI"
-tags: 
-abstract: "Artificial intelligence (AI) systems often reflect biases from economically advanced regions, marginalizing contexts in economically developing regions like Latin America due to imbalanced datasets. This paper examines AI representations of diverse Latin American contexts, revealing disparities between data from economically advanced and developing regions. We highlight how the dominance of English over Spanish, Portuguese, and indigenous languages such as Quechua and Nahuatl perpetuates..."
-research_topic: "Social & Cultural Analysis"
 ---
 # Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts
 

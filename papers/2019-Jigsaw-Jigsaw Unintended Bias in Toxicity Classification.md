@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: JASNQSSB
 type: document
 short_title: "Jigsaw Unintended Bias in Toxicity Classification"
 year: 2025
-first_author: [[Jigsaw]]
+first_author: "[[Jigsaw]]"
 last_author: "[[Kaggle]]"
 authors: "Jigsaw; Kaggle /"
 url: "https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification"
@@ -31,18 +34,18 @@ pdf_extract: "PDF Extracts/2019/2019-Jigsaw-Jigsaw Unintended Bias in Toxicity C
 local_pdf: "[[PDFs/2019/2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.pdf]]"
 abstract: "Warning: This paper has contents which may be offensive, or upsetting however this cannot be avoided owing to the nature of the work. With the rise of online hate speech, automatic detection of Hate Speech, Offensive texts as a natural language processing task is getting popular. However, very little research has been done to detect unintended social bias from these toxic language datasets. This paper introduces a new dataset ToxicBias curated from the existing dataset of Kaggle competition..."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Bias & Fairness"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-data_description: "Annotated dataset for hate speech detection"
+data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-2"
-DATA_URL: "https://github.com/sahoonihar/ToxicBias_CoNLL_2022"
 ---
 # Jigsaw Unintended Bias in Toxicity Classification
 

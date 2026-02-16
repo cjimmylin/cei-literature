@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2021/2021-Nguyen-Constructive and Toxic Speech Detect
 local_pdf: "[[PDFs/2021/2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.pdf]]"
 publication: "arXiv / Springer"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation framework annotated dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "https://github.com/tarudesu/ViCTSD"
 tags: 
 abstract: "The rise of social media has led to the increasing of comments on online forums. However, there still exists invalid comments which are not informative for users. Moreover, those comments are also quite toxic and harmful to people. In this paper, we create a dataset for constructive and toxic speech detection, named UIT-ViCTSD (Vietnamese Constructive and Toxic Speech Detection dataset) with 10,000 humanannotated comments."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Constructive and Toxic Speech Detection for Open-domain Social Media Comments in Vietnamese
 

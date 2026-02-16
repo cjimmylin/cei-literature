@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: HuggingFace
 local_pdf: "[[PDFs/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural, Various"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Llama-2-70B, Mixtral-8x7B, GPT-4"
+DATA_URL: "https://github.com/SALT-NLP/CultureBank"
+tags: 
+abstract: "To enhance language models’ cultural awareness, we design a generalizable pipeline to construct cultural knowledge bases from different online communities on a massive scale. With the pipeline, we construct CultureBank, a knowledge base built upon users’ self-narratives with 12K cultural descriptors sourced from TikTok and 11K from Reddit. Unlike previous cultural knowledge resources, CultureBank contains diverse views on cultural descriptors to allow flexible interpretation of cultural..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2-70B, Mixtral-8x7B, GPT-4"
-DATA_URL: "https://github.com/SALT-NLP/CultureBank"
-tags: 
-abstract: "To enhance language models’ cultural awareness, we design a generalizable pipeline to construct cultural knowledge bases from different online communities on a massive scale. With the pipeline, we construct CultureBank, a knowledge base built upon users’ self-narratives with 12K cultural descriptors sourced from TikTok and 11K from Reddit. Unlike previous cultural knowledge resources, CultureBank contains diverse views on cultural descriptors to allow flexible interpretation of cultural..."
-research_topic: "Social & Cultural Analysis"
 ---
 # CultureBank: An Online Community-Driven Knowledge Base Towards Culturally Aware Language Technologies
 

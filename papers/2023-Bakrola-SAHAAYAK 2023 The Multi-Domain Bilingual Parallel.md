@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_extract: "PDF Extracts/2023/2023-Bakrola-SAHAAYAK 2023 The Multi-Domain Bili
 local_pdf: "[[PDFs/2023/2023-Bakrola-SAHAAYAK 2023 The Multi-Domain Bilingual Parallel.pdf]]"
 publication: "arXiv (data article)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Hindi, Sanskrit"
@@ -36,16 +35,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "The data article presents the large bilingual parallel corpus of low–resourced language pair Sanskrit – Hindi, named SAHAAYAK 2023. The corpus contains total of 1.5M sentence pairs between Sanskrit and Hindi. To make the universal usability of the corpus and to make it balanced, data from multiple domain has been incorporated into the corpus that includes, News, Daily conversations, Politics, History, Sport, and Ancient Indian Literature."
-data_description: "Text corpus for conversational ai"
-data_metrics: "1.5m sentence"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "1.5m sentence"
 ---
 # SAHAAYAK 2023: The Multi-Domain Bilingual Parallel Corpus of Sanskrit to Hindi for Machine Translation
 

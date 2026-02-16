@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Reveals that models trained on standard social media data fail to
 tags: 
 abstract: "Despite remarkable advances that large language models have achieved in chatbots, maintaining a non-toxic user-AI interactive environment has become increasingly critical nowadays. However, previous efforts in toxicity detection have been mostly based on benchmarks derived from social media content, leaving the unique challenges inherent to real-world user-AI interactions insufficiently explored. In this work, we introduce TOXICCHAT, a novel benchmark based on real user queries from an..."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
+pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
+local_pdf: "[[PDFs/2023/2023-Lin-ToxicChat.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"
-pdf_extract: "PDF Extracts/2023/2023-Lin-ToxicChat.md"
-local_pdf: [[PDFs/2023/2023-Lin-ToxicChat.pdf]]
 ---
 # ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversations
 

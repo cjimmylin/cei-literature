@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,20 +29,20 @@ significance: "A standard reference for German toxicity detection, highlighting 
 tags: 
 abstract: "We present the second edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. Two subtasks were continued from the ﬁrst edition, namely a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. As a novel subtask, we introduce the classiﬁcation of offensive tweets as explicit or implicit."
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
+local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: "No"
 is_dataset: "No"
-data_description: "Evaluation approach"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
-local_pdf: "[[PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 ---
 # Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language
 

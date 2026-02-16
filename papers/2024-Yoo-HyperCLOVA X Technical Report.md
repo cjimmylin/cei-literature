@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Yoo-HyperCLOVA X Technical Report.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yoo-HyperCLOVA X Technical Report.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "English, Korean"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for ai safety annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "HyperCLOVA X, GPT-4, GPT-3.5, Llama-2, Falcon, SOLAR, Polyglot-ko"
 DATA_URL: "NA"
 tags: 
 abstract: "We introduce HyperCLOVA X, a family of large language models (LLMs) tailored to the Korean language and culture, along with competitive capabilities in English, math, and coding. HyperCLOVA X was trained on a balanced mix of Korean, English, and code data, followed by instruction-tuning with high-quality human-annotated datasets while abiding by strict safety guidelines reflecting our commitment to responsible AI."
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # HyperCLOVA X Technical Report
 

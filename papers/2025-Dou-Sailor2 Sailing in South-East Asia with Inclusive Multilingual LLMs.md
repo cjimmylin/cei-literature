@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Filipino, Indonesian, Malay, Thai, Vietnamese, and 8 more SEA languages"
 languages_list: "Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Sailor2, Qwen-2.5, GPT-4o, Llama-3.1, Gemma-2, SeaLLM-v3, Aya-Expanse"
+DATA_URL: "https://sea-sailor.github.io/blog/sailor2/"
+tags: 
+abstract: "Sailor2 is a family of cutting-edge multilingual language models for SouthEast Asian (SEA) languages, available in 1B, 8B, and 20B sizes to suit diverse applications. Building on Qwen2.5, Sailor2 undergoes continuous pre-training on 500B tokens (400B SEA-specific and 100B replay tokens) to support 13 SEA languages while retaining proficiency in Chinese and English. Sailor2-20B model achieves a 50-50 win rate against GPT-4o across SEA languages."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Sailor2, Qwen-2.5, GPT-4o, Llama-3.1, Gemma-2, SeaLLM-v3, Aya-Expanse"
-DATA_URL: "https://sea-sailor.github.io/blog/sailor2/"
-tags: 
-abstract: "Sailor2 is a family of cutting-edge multilingual language models for SouthEast Asian (SEA) languages, available in 1B, 8B, and 20B sizes to suit diverse applications. Building on Qwen2.5, Sailor2 undergoes continuous pre-training on 500B tokens (400B SEA-specific and 100B replay tokens) to support 13 SEA languages while retaining proficiency in Chinese and English. Sailor2-20B model achieves a 50-50 win rate against GPT-4o across SEA languages."
-research_topic: "Machine Translation"
 ---
 # Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs
 

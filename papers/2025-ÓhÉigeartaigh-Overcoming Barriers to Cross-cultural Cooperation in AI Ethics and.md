@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.md"
 local_pdf: "[[PDFs/2025/2025-ÓhÉigeartaigh-Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic, Multicultural/Cross-cultural"
 languages_list: "Arabic, English, Multilingual, Turkish"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Achieving the global benefits of artificial intelligence (AI) will require international cooperation on many areas of governance and ethical standards, while allowing for diverse cultural perspectives and priorities. There are many barriers to achieving this at present, including mistrust between cultures, and more practical challenges of coordinating across different locations. This paper focuses particularly on barriers to cooperation between Europe and North America on the one hand and East..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Achieving the global benefits of artificial intelligence (AI) will require international cooperation on many areas of governance and ethical standards, while allowing for diverse cultural perspectives and priorities. There are many barriers to achieving this at present, including mistrust between cultures, and more practical challenges of coordinating across different locations. This paper focuses particularly on barriers to cooperation between Europe and North America on the one hand and East..."
-ethics_perspective: "Social & Cultural Values"
 ---
 # Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance | Philosophy & Technology | Springer Nature Link
 

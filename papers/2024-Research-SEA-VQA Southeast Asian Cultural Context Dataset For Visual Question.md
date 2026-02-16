@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md"
 local_pdf: "[[PDFs/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino, Southeast Asian"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset for question answering"
-data_metrics: "25,000 questions"
 LLM_assessed: "GPT-4, GPT-4-TURBO"
 DATA_URL: "https://huggingface.co/datasets/wit543/sea-vqa"
 tags: 
 abstract: "Visual Question Answering (VQA) is a critical task requiring the simultaneous understanding of visual and textual information. While significant advancements have been made with multilingual datasets, these often lack cultural specificity, especially in the context of Southeast Asia (SEA). In this paper, we introduce SEA-VQA, aiming to highlight the challenges and gaps in existing VQA models when confronted with culturally specific content."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Computer Vision & Multimodal"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for question answering"
+data_metrics: "Not specified"
 ---
 # SEA-VQA: Southeast Asian Cultural Context Dataset For Visual Question Answering
 

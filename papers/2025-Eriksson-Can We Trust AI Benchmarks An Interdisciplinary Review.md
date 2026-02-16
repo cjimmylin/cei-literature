@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Eriksson-Can We Trust AI Benchmarks An Inte
 local_pdf: "[[PDFs/2025/2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as fundamental tools for evaluating the performance, capability, and safety of AI models and systems. Currently, they shape the direction of AI development and are playing an increasingly prominent role in regulatory frameworks. As their influence grows, however, so too does concerns about how and with what effects they evaluate highly sensitive topics such as capabilities, including high-impact capabilities, safety and systemic..."
+LLM_assessed: "Bartz, Claude 3 Opus, GPT-4, GPT4"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Quantitative Artificial Intelligence (AI) Benchmarks have emerged as fundamental tools for evaluating the performance, capability, and safety of AI models and systems. Currently, they shape the direction of AI development and are playing an increasingly prominent role in regulatory frameworks. As their influence grows, however, so too does concerns about how and with what effects they evaluate highly sensitive topics such as capabilities, including high-impact capabilities, safety and systemic..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Bartz, Claude 3 Opus, GPT-4, GPT4"
-DATA_URL: "NA"
 ---
 # Can We Trust AI Benchmarks? An Interdisciplinary Review
 

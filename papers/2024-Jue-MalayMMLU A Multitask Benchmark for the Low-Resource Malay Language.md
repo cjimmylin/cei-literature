@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "ACL Anthology (EMNLP 2024 Findings)"
 pdf_extract: "PDF Extracts/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md"
 local_pdf: "[[PDFs/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Malaysian, Malay"
 languages_list: Malay
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multi-task benchmark"
-data_metrics: "24,213 questions"
 LLM_assessed: "Baichuan, Baichuan-2, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma, Gemma-2, Llama, Llama-3, LLaMA-3.1, LLaMA-3.2, Mistral, Mistral-v0, Qwen, Qwen-2, Qwen-2.5"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) and Large Vision Language Models (LVLMs) exhibit advanced proficiency in language reasoning and comprehension across a wide array of languages. While their performance is notably robust in well-resourced languages, their capabilities in low-resource languages, such as Bahasa Melayu (hereinafter referred to as Malay), remain less explored due to a scarcity of dedicated studies and benchmarks."
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "24,213 questions"
 ---
 # MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language
 

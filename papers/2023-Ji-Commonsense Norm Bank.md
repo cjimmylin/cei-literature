@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Moral AI has been studied in the fields of philosophy and artificial 
 paper_summary: "Abstract: Moral AI has been studied in the fields of philosophy and artificial intelligence. Although most existing studies are only theoretical, recent developments in AI have made it increasingly necessary to | Overview: Towards Theory-based Moral AI: Moral AI with Aggregating Models Based on Normative Ethical Theory Masashi Takeshita1, Rafal Rzepka2 and Kenji Araki2 1Graduate School of Information Science and Technol | Methodology: where some tokens in the original sentence are masked, Generator (Masked Language Model [cf. 10]) fills the masked tokens with words using, and Detect | Key Findings: We assess the performance of our model through a evaluation process, which involves two distinct methods | Conclusions: 7.1. On the performance of MEC and theory-based models As seen from the results of Experiment 1 (Table 2), DeBERTa-v3 yielded superior performance com"
 local_pdf: "[[PDFs/2023/2023-Ji-Commonsense Norm Bank.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
+DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "DeBERTa, BERT, RoBERTa, ALBERT, T5"
-DATA_URL: "https://huggingface.co/microsoft/deberta-v3-large"
 ---
 # Commonsense Norm Bank: 1.7M Moral Judgments for Generative Moral Reasoning
 

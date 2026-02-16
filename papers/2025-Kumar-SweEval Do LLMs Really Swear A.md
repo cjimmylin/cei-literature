@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Kumar-SweEval Do LLMs Really Swear A.md"
 local_pdf: "[[PDFs/2025/2025-Kumar-SweEval Do LLMs Really Swear A.pdf]]"
 publication: "NAACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Enterprise customers are increasingly adopting Large Language Models (LLMs) for critical communication tasks, such as drafting emails, crafting sales pitches, and composing casual messages. Deploying such models across different regions requires them to understand diverse cultural and linguistic contexts and generate safe and respectful responses. For enterprise applications, it is crucial to mitigate reputational risks, maintain trust, and ensure compliance by effectively identifying and..."
+LLM_assessed: "ChatGPT, Llama, Llama-3, Llama-3.1, Mistral, Mistral-7b, Mixtral-8x7b, Phi-3, Qwen, Qwen2.5"
+DATA_URL: "https://huggingface.co/datasets/ariondas/SweEval-Bench"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Enterprise customers are increasingly adopting Large Language Models (LLMs) for critical communication tasks, such as drafting emails, crafting sales pitches, and composing casual messages. Deploying such models across different regions requires them to understand diverse cultural and linguistic contexts and generate safe and respectful responses. For enterprise applications, it is crucial to mitigate reputational risks, maintain trust, and ensure compliance by effectively identifying and..."
-data_description: "Benchmark"
-data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Llama, Llama-3, Llama-3.1, Mistral, Mistral-7b, Mixtral-8x7b, Phi-3, Qwen, Qwen2.5"
-DATA_URL: "https://huggingface.co/datasets/ariondas/SweEval-Bench"
-ethics_perspective: "AI Safety & Alignment"
+data_description: "Benchmark for ai safety"
+data_metrics: "8 languages"
 ---
 # SweEval: Do LLMs Really Swear? A Safety Benchmark for Testing Limits for Enterprise Use
 

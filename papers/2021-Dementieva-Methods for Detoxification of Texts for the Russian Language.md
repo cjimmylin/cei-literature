@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2021/2021-Dementieva-Methods for Detoxification of Te
 local_pdf: "[[PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
 publication: "MDPI / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
 languages_list: Russian
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/sberbank-ai/ru-gpts"
 tags: 
 abstract: "We introduce the ﬁrst study of automatic detoxiﬁcation of Russian texts to combat offensive language. Such a kind of textual style transfer can be used, for instance, for processing toxic content in social media. While much work has been done for the English language in this ﬁeld, it has never been solved for the Russian language yet. We test two types of models – unsupervised approach based on BERT architecture that performs local corrections and supervised approach based on pretrained..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # Methods for Detoxification of Texts for the Russian Language
 

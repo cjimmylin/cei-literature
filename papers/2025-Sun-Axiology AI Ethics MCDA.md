@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +37,18 @@ abstract: "The fast advancement of artificial intelligence presents ethical chal
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Sun-Axiology AI Ethics MCDA.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ethics_perspective: "Machine Ethics"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Axiology AI Ethics MCDA
 

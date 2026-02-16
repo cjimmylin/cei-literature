@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,20 +32,20 @@ significance: "The foundational large-scale study of machine ethics, revealing t
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://goo.gl/JXRrBP"
+pdf_extract: "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
+local_pdf: "[[PDFs/2018/2018-Awad-The Moral Machine experiment.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+utilitarian_ethics: "No"
 ethics_perspective: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://goo.gl/JXRrBP"
-pdf_extract: "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
-local_pdf: "[[PDFs/2018/2018-Awad-The Moral Machine experiment.pdf]]"
 ---
 # The Moral Machine experiment
 

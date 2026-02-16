@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Song-Multilingual Blending LLM Safety Align
 local_pdf: "[[PDFs/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
 publication: "arXiv / NAACL Findings 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "N/A"
 languages_list: "Multiple including Russian, Bulgarian, Polish"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, ChatGPT, GPT-3, GPT-3.5, GPT-4, GPT-4o, GPT4-Turbo, Gpt4, Llama, Llama3, Mistral-AI, Mixtral, Mixtral-8x22bB, Mixtral-8x7B, Qwen-1.5, Qwen1.5, BERT, gpt-3.5-turbo"
 DATA_URL: "NA"
 tags: 
 abstract: "As safety remains a crucial concern throughout the development lifecycle of Large Language Models (LLMs), researchers and industrial practitioners have increasingly focused on safeguarding and aligning LLM behaviors with human preferences and ethical standards. LLMs, trained on extensive multilingual corpora, exhibit powerful generalization abilities across diverse languages and domains. However, current safety alignment practices predominantly focus on single-language scenarios, which leaves..."
-ethics_perspective: "AI Safety & Alignment"
 authors_incomplete: false
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture
 

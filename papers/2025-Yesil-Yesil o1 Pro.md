@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,20 +34,20 @@ tags:
 research_topic: Other
 abstract: "Background: Integrating evidence-based approaches in healthcare and artificial intelligence (AI) is crucial for enhancing clinical decision-making and patient safety. Yesil o1 Pro is a specialized large language model (LLM) designed to transform medical knowledge synthesis by leveraging a comprehensive, curated database of scientific literature, clinical guidelines, and medical textbooks. Objective: The system's innovative 'AI Hospital' framework employs domain-specific expert agents..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-ethics_perspective: "Applied Ethics"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for ai safety text corpus"
-data_metrics: "100.5m words; 96.8m words; 74.4m words; 5m words; 8m words"
 LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
 DATA_URL: "https://huggingface.co/datasets/yesilhealth/Health_Benchmarks"
 pdf_extract: "PDF Extracts/2025/2025-Yesil-Yesil o1 Pro.md"
 local_pdf: "[[PDFs/2025/2025-Yesil-Yesil o1 Pro.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Applied Ethics"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark for ai safety dataset"
+data_metrics: "Not specified"
 ---
 # Yesil o1 Pro: Evidence-Based AI Model for Health and Benchmarking in Clinical Decision Support
 

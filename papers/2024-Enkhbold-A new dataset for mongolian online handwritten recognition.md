@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,7 +16,7 @@ key: LSRC0641
 type: journalArticle
 short_title: "A new dataset for mongolian online handwritten recognition"
 year: 2025
-first_author: [[Enkhbold]]
+first_author: "[[Enkhbold]]"
 last_author: "[[Enkhbold]]"
 authors: Enkhbold
 url: "https://www.nature.com/articles/s41598-022-27267-8"
@@ -22,10 +25,6 @@ publication: Nature
 pdf_extract: "PDF Extracts/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md"
 local_pdf: "[[PDFs/2024/2024-Enkhbold-A new dataset for mongolian online handwritten recognition.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "I found the research paper you were looking for. The paper \"Recognizing Textual Inference in Mongolian Bar Exam Questions\" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "I found the research paper you were looking for. The paper \"Recognizing Textual Inference in Mongolian Bar Exam Questions\" was authored by Khaltarkhuu, Garmaabazar; Batjargal, Biligsaikhan; and Maeda, Akira."
-research_topic: "Machine Learning"
 ---
 # A new dataset for mongolian online handwritten recognition
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "ACL Anthology / LREC 2020"
 pdf_extract: "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification in Greek.md"
 local_pdf: "[[PDFs/2020/2020-Pitenis-Offensive Language Identification in Greek.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Greek"
 languages_list: Greek
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://github.com/google-research/bert"
 tags: 
 abstract: "As offensive language has become a rising issue for online communities and social media platforms, researchers have been investigating ways of coping with abusive content and developing systems to detect its different types: cyberbullying, hate speech, aggression, etc. With a few notable exceptions, most research on this topic so far has dealt with English. This is mostly due to the availability of language resources for English."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach annotated dataset"
+data_metrics: "Not specified"
 ---
 # Offensive Language Identification in Greek
 

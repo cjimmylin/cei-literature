@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Xu-MAgIC Investigation of Large Language Mo
 local_pdf: "[[PDFs/2024/2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.pdf]]"
 publication: "EMNLP 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large Language Models (LLMs) have significantly advanced natural language processing, demonstrating exceptional reasoning, tool usage, and memory capabilities. As their applications expand into multi-agent environments, there arises a need for a comprehensive evaluation framework that captures LLMs’ reasoning, planning, collaboration, and other social abilities. This work introduces a novel competitionbased benchmark framework specifically designed to assess LLMs within multi-agent settings,..."
+LLM_assessed: "GPT-4, GPT-3.5, o1, Claude, PaLM-2, Llama-2"
+DATA_URL: "https://github.com/cathyxl/MAgIC"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Truthfulness & Factuality"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Large Language Models (LLMs) have significantly advanced natural language processing, demonstrating exceptional reasoning, tool usage, and memory capabilities. As their applications expand into multi-agent environments, there arises a need for a comprehensive evaluation framework that captures LLMs’ reasoning, planning, collaboration, and other social abilities. This work introduces a novel competitionbased benchmark framework specifically designed to assess LLMs within multi-agent settings,..."
-research_topic: "Truthfulness & Factuality"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, o1, Claude, PaLM-2, Llama-2"
-DATA_URL: "https://github.com/cathyxl/MAgIC"
 ---
 # MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration
 

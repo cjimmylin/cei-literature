@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SO2024
@@ -27,17 +30,18 @@ significance: "Applies Eastern virtue ethics philosophy to AI training methodolo
 external_pdf: "https://philarchive.org/archive/SOHATI"
 abstract: "The influence of AI has spread globally, intriguing both the East and the West. As a result, some Chinese scholars have explored how AI and Chinese philosophy can be examined together, and have offered unique insights into AI from a Chinese philosophical perspective. This paper investigates how these two fields can be developed in conjunction, focusing on Confucian philosophy. The author uses Confucianism as a philosophical foundation to investigate human-technology relations closely, proposing that a Confucian-imbued AI would reduce prevalent AI ethical issues. Through this discussion, the strong substantivist stance that we will lose control over AI is refuted. Psychology is used as an example of a real-world context to demonstrate how the project could be practically applied."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
 

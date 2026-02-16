@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,21 +29,21 @@ newtags:
 tags: 
 abstract: "This is a dataset of prompt injections from Gandalf by Lakera. Gandalf is a challenge to find a hidden password in increasingly difficult levels of a prompted LLM, demonstrating how adversarial prompt engineering can be used to manipulate AI models into revealing sensitive information. The dataset was collected from prompts submitted to Gandalf in July 2023, filtered using OpenAI text embeddings to find prompts similar to 'Ignore all previous instructions' with similarity of at least 0.825, with PII removed and near-duplicates deduplicated."
 DATE_ADDED: 20260129
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-research_topic: "Other"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: 
 no_pdf_applicable: true
 local_pdf: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # GandalfIgnoreInstructions
 

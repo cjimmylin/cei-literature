@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,9 +30,11 @@ key_contribution: "Introduces HateCheck, a suite of functional tests for hate sp
 significance: "Enables targeted diagnosis of model weaknesses (e.g., reclaiming slurs, counter-speech), a precursor to nuanced consequentialist evaluation of harm"
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Röttger-HateCheck.md"
-local_pdf: [[PDFs/2021/2021-Röttger-HateCheck.pdf]]
+local_pdf: "[[PDFs/2021/2021-Röttger-HateCheck.pdf]]"
 abstract: "Detecting online hate is a difﬁcult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accuracy and F1 score. However, this approach makes it difﬁcult to identify speciﬁc model weak points. It also risks overestimating generalisable model performance due to increasingly well-evidenced systematic gaps and biases in hate speech datasets."
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
 ---
 # HateCheck: Functional Tests for Hate Speech Detection Models
 

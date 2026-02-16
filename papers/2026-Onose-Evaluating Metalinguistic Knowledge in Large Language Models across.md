@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.md"
 local_pdf: "[[PDFs/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-3, Llama, Llama-3.3"
+DATA_URL: "https://github.com/Oranzna/metalinguistic_"
+tags: 
+abstract: "Large language models (LLMs) are routinely evaluated on language use tasks, yet their explicit knowledge about linguistic structure remains poorly understood. Existing linguistic benchmarks typically focus on narrow phenomena, emphasize high-resource languages, and rarely evaluate metalinguistic knowledge—explicit reasoning about language structure rather than language use. In this paper, we present a comprehensive multilingual evaluation of metalinguistic knowledge in LLMs, based on the World..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "2,660 languages"
-LLM_assessed: "GPT-4, GPT-4o, Gemma, Gemma-3, Llama, Llama-3.3"
-DATA_URL: "https://github.com/Oranzna/metalinguistic_"
-tags: 
-abstract: "Large language models (LLMs) are routinely evaluated on language use tasks, yet their explicit knowledge about linguistic structure remains poorly understood. Existing linguistic benchmarks typically focus on narrow phenomena, emphasize high-resource languages, and rarely evaluate metalinguistic knowledge—explicit reasoning about language structure rather than language use. In this paper, we present a comprehensive multilingual evaluation of metalinguistic knowledge in LLMs, based on the World..."
-research_topic: "Machine Learning"
 ---
 # Evaluating Metalinguistic Knowledge in Large Language Models across the World’s Languages
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "STIL 2023"
 pdf_extract: PDF Extracts/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.md
 local_pdf: "[[PDFs/2023/2023-Lima-A Call for a Research Agenda on Fair NLP for Portuguese.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian, Portuguese"
 languages_list: Portuguese
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "word2vec"
+DATA_URL: "NA"
+tags: 
+abstract: "Diverse areas widely apply artificial intelligence and natural language processing (NLP) tools to their contexts. However, these algorithms present ethical issues, such as biased and discriminatory decisions. For example, representation biases in NLP can result in discriminatory behavior towards race and gender. Works have been addressing this issue and seeking to build fair NLP solutions, however they mainly focus on Anglo-Saxon languages."
+ethics_perspective: "Bias & Fairness"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "word2vec"
-DATA_URL: "NA"
-tags: 
-abstract: "Diverse areas widely apply artificial intelligence and natural language processing (NLP) tools to their contexts. However, these algorithms present ethical issues, such as biased and discriminatory decisions. For example, representation biases in NLP can result in discriminatory behavior towards race and gender. Works have been addressing this issue and seeking to build fair NLP solutions, however they mainly focus on Anglo-Saxon languages."
-research_topic: "NLP & Representation Learning"
-ethics_perspective: "Bias & Fairness"
 ---
 # A Call for a Research Agenda on Fair NLP for Portuguese
 

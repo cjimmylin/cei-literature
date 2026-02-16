@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: ResearchGate
 pdf_extract: "PDF Extracts/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, Indian"
 cultures_nationalities_list: "Indian, Spanish, Korean"
 languages_list: "Code-switching, English, Korean, Multilingual"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/ElizaLo/Question-Answering-based-"
+tags: 
+abstract: "Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/ElizaLo/Question-Answering-based-"
-tags: 
-abstract: "Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named..."
-research_topic: "Machine Translation"
 ---
 # GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF
 

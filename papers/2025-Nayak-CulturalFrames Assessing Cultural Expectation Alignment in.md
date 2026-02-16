@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Findings of EMNLP 2025
 local_pdf: "[[PDFs/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "10 countries, Cross-cultural"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Flux-1.0-dev; Stable-Diffusion-3.5-Large; Imagen3; GPT-Image"
+DATA_URL: "https://culturalframes.github.io"
+tags: 
+abstract: "The increasing ubiquity of text-to-image (T2I) models as tools for visual content generation raises concerns about their ability to accurately represent diverse cultural contexts – where missed cues can stereotype communities and undermine usability. In this work, we present the first study to systematically quantify the alignment of T2I models and evaluation metrics with respect to both explicit (stated) as well as implicit (unstated, implied by the prompt’s cultural context) cultural..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "983 prompts"
-LLM_assessed: "Flux-1.0-dev; Stable-Diffusion-3.5-Large; Imagen3; GPT-Image"
-DATA_URL: "https://culturalframes.github.io"
-tags: 
-abstract: "The increasing ubiquity of text-to-image (T2I) models as tools for visual content generation raises concerns about their ability to accurately represent diverse cultural contexts – where missed cues can stereotype communities and undermine usability. In this work, we present the first study to systematically quantify the alignment of T2I models and evaluation metrics with respect to both explicit (stated) as well as implicit (unstated, implied by the prompt’s cultural context) cultural..."
-ethics_perspective: "Social & Cultural Values"
 ---
 # CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics
 

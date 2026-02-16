@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2026/2026-Permadi-No Shortcuts to Culture Indonesian 
 local_pdf: "[[PDFs/2026/2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "English, Indonesian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 3.7 sonnet, Claude-3.7, Claude-3.7-Sonnet, DeepSeek-AI, DeepSeek-V3, GPT-4o, Gemma, Gemma2, Llama3.1, Llama3.3, Qwen2.5, llama 3"
 DATA_URL: "NA"
 tags: 
 abstract: "Understanding culture requires reasoning across context, tradition, and implicit social knowledge, far beyond recalling isolated facts. Yet most culturally focused question answering (QA) benchmarks rely on singlehop questions, which may allow models to exploit shallow cues rather than demonstrate genuine cultural reasoning. In this work, we introduce ID-MoCQA, the first large-scale multi-hop QA dataset for assessing the cultural understanding of large language models (LLMs), grounded in..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for question answering"
+data_metrics: "15,590 questions"
 ---
 # No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding
 

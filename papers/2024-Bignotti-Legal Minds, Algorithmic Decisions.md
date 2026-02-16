@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +35,18 @@ abstract: "In this paper, we conduct an empirical analysis of how large language
 paper_summary: "Abstract: In this paper, we conduct an empirical analysis of how large language models (LLMs), specifically GPT-4, interpret con- stitutional principles in complex decision-making scenarios. We examine rulings  | Overview: Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios Camilla Bignotti, Carolina Camassa Bank of Italy* camilla.bignotti@bancaditalia.it, carolina.camassa@b | Methodology: The main goal of our experiments is to empirically assess GPT-4's alignment in a set of complex scenarios that re- quire trade-offs between competing  | Conclusions: Implications Our experiment shows GPT-4's inclination towards progressive stances, at least in the context of the le- gal cases examined. This raises"
 local_pdf: "[[PDFs/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: GPT-4
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
+ethics_perspective: "Applied Ethics"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: "No"
 is_dataset: "No"
-data_description: "Evaluation approach"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: GPT-4
-DATA_URL: "NA"
 ---
 # Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios
 

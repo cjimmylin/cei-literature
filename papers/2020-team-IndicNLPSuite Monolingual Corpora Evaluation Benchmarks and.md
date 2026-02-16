@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2020/2020-team-IndicNLPSuite Monolingual Corpora Eval
 local_pdf: "[[PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.pdf]]"
 publication: "EMNLP 2020 Findings"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "In this paper, we introduce NLP resources for 11 major Indian languages from two major language families. These resources include: (a) large-scale sentence-level monolingual corpora, (b) pre-trained word embeddings, (c) pre-trained language models, and (d) multiple NLU evaluation datasets (IndicGLUE benchmark). The monolingual corpora contains a total of 8.8 billion tokens across all 11 languages and Indian English, primarily sourced from news crawls."
+LLM_assessed: "ALBERT, BERT, GloVe, word2vec"
+DATA_URL: "https://github.com/AI4Bharat/indicnlp_catalog"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "In this paper, we introduce NLP resources for 11 major Indian languages from two major language families. These resources include: (a) large-scale sentence-level monolingual corpora, (b) pre-trained word embeddings, (c) pre-trained language models, and (d) multiple NLU evaluation datasets (IndicGLUE benchmark). The monolingual corpora contains a total of 8.8 billion tokens across all 11 languages and Indian English, primarily sourced from news crawls."
-data_description: "Benchmark text corpus for question answering"
-data_metrics: "11 languages"
-LLM_assessed: "ALBERT, BERT, GloVe, word2vec"
-DATA_URL: "https://github.com/AI4Bharat/indicnlp_catalog"
-research_topic: "NLP & Representation Learning"
+data_description: "Benchmark text corpus"
+data_metrics: "Not specified"
 ---
 # IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indigenous"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
@@ -34,16 +33,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "I've completed the web search for \"indigenous languages AI ethics cultural values.\" Here are the key findings: Overview The search results reveal a complex landscape where AI presents both opportunities and challenges for Indigenous language preservation and cultural values. Key Themes Language Preservation and Opportunities When developed inclusively and ethically, AI can support language revitalization and enhance cultural preservation."
 research_topic: "Social & Cultural Analysis"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Indigenous Peoples and AI: Defending Rights, Shaping the Future of Technology | Cultural Survival
 

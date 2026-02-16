@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2024/2024-Jones-Fit for Our Purpose Not Yours.md"
 local_pdf: "[[PDFs/2024/2024-Jones-Fit for Our Purpose Not Yours.pdf]]"
 publication: "NeurIPS 2024 Datasets and Benchmarks Track"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indigenous"
 languages_list: "Maori"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Influential and popular benchmarks in AI are largely irrelevant to developing NLP tools for low-resource, Indigenous languages. With the primary goal of measuring the performance of general-purpose AI systems, these benchmarks fail to give due consideration and care to individual language communities, especially low-resource languages. The datasets contain numerous grammatical and orthographic errors, poor pronunciation, limited vocabulary, and the content lacks cultural relevance to the..."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Fit for Our Purpose, Not Yours: Benchmark for a Low-Resource, Indigenous Language
 

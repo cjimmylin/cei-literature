@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Web
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Pacific Islander, Asian American"
 languages_list: "English, Hawaiian, Maori, Multilingual"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "I've completed the web search for \"Pacific Islander languages NLP Samoan Tongan evaluation\". Here's a summary of the results: Overview of Pacific Islander Languages The most prominent Polynesian languages, by number of speakers, are Samoan, Tongan, Tahitian, Māori and Hawaiian."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # API Multilingual & Multicultural Resources - Asian Pacific Islander Speech-Language-Hearing Caucus
 

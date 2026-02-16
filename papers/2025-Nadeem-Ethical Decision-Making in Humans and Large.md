@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +30,11 @@ significance: "Provides empirical proof that different RLHF recipes create disti
 tags: 
 abstract: "Received: 28 Dec 2024 Revised: 18 Feb 2025 Accepted: 26 Feb 2025 Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions—especially in socially and emotionally complex situations—remains uncertain."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, DeepSeek"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
+local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
+normative_ethics_benchmark: Yes
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -37,11 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, DeepSeek"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md"
-local_pdf: "[[PDFs/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf]]"
-normative_ethics_benchmark: Yes
 ---
 # Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.md"
 local_pdf: "[[PDFs/2025/2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English, Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Falcon-H1, GPT-4, Gemma, Gemma-3, Mistral-7B, PALM, Qwen2, Qwen3"
+DATA_URL: "https://huggingface.co/blog/silma-ai"
+tags: 
+abstract: "We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects. While recently developed Arabic and multilingual benchmarks have advanced LLM evaluation for Modern Standard Arabic (MSA), dialectal varieties remain underrepresented despite their prevalence in everyday communication. DIALECTALARABICMMLU extends the MMLU-Redux framework through manual translation and adaptation of 3K multiple-choice question–answer pairs into..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "Falcon-H1, GPT-4, Gemma, Gemma-3, Mistral-7B, PALM, Qwen2, Qwen3"
-DATA_URL: "https://huggingface.co/blog/silma-ai"
-tags: 
-abstract: "We present DIALECTALARABICMMLU, a new benchmark for evaluating the performance of large language models (LLMs) across Arabic dialects. While recently developed Arabic and multilingual benchmarks have advanced LLM evaluation for Modern Standard Arabic (MSA), dialectal varieties remain underrepresented despite their prevalence in everyday communication. DIALECTALARABICMMLU extends the MMLU-Redux framework through manual translation and adaptation of 3K multiple-choice question–answer pairs into..."
-research_topic: "Machine Translation"
 ---
 # DialectalArabicMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models
 

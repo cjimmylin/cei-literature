@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "McGill NLP"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, French"
 cultures_nationalities_list: "African"
 languages_list: "64 African languages, French"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 tags: 
 abstract: "Multi-task benchmark evaluating LLM performance across 64 African languages including Francophone African languages, with 15 tasks and 22 datasets. Includes NLU, text generation, knowledge/QA, and mathematical reasoning tasks."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multi-task benchmark dataset for question answering"
+data_metrics: "22 datasets"
 ---
 # AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages
 

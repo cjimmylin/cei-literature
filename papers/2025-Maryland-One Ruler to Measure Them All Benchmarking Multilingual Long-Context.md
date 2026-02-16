@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Maryland-One Ruler to Measure Them All Benc
 local_pdf: "[[PDFs/2025/2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Czech, Polish, Serbian, and 23 other languages"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "128k tokens; 26 languages"
 LLM_assessed: "DeepSeek-AI, DeepSeek, Deepseek-R1, GPT-4o, LLaMA 3.1, LLaMA 3.3, Llama, Llama 3, Llama-3.1, Llama3.1, Qwen, Qwen 2.5, Qwen2.5"
 DATA_URL: "https://github.com/Blkzer0/Wordlists"
 tags: 
 abstract: "We present ONERULER, a multilingual benchmark designed to evaluate long-context language models across 26 languages. ONERULER adapts the English-only RULER benchmark (Hsieh et al., 2024) by including seven synthetic tasks that test both retrieval and aggregation, including new variations of the “needle-in-a-haystack” task that allow for the possibility of a nonexistent needle. We create ONERULER through a two-step process, first writing English instructions for each task and then collaborating..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "26 languages"
 ---
 # One Ruler to Measure Them All: Benchmarking Multilingual Long-Context Language Models
 

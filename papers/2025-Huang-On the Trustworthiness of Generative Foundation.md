@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ paper_summary: "Overview: On the Trustworthiness of Generative Foundation Models
 local_pdf: "[[PDFs/2025/2025-Huang-On the Trustworthiness of Generative Foundation.pdf]]"
 abstract: "Generative Foundation Models (GenFMs) have emerged as transformative tools, driving advancements across diverse domains. However, their widespread adoption raises critical concerns regarding trustworthiness across dimensions such as truthfulness, safety, fairness, robustness, and privacy. In this paper, we present a comprehensive framework to address these challenges through three key contributions."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-3, Llama, Mistral, Mixtral, Claude, Gemini, Gemma, Qwen, DeepSeek"
+DATA_URL: "https://github.com/TrustGen/TrustEval-toolkit"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Llama, Mistral, Mixtral, Claude, Gemini, Gemma, Qwen, DeepSeek"
-DATA_URL: "https://github.com/TrustGen/TrustEval-toolkit"
 ---
 # On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
 pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md"
 local_pdf: "[[PDFs/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "Large language models demonstrate remarkable generalization across tasks, yet 1 their reliability in complex domains like moral reasoning remains uncertain. We 2 introduce the first open-source benchmark explicitly designed to evaluate ethical 3 consistency, providing a structured diagnostic of how models handle dilemmas with 4 clarifying and contradictory follow-ups. Our framework yields quantifiable yes/no 5 responses and introduces two novel metrics: the Ethical Consistency Index (ECI) 6 and..."
-ethics_perspective: "AI Safety & Alignment"
-data_description: "Benchmark for moral/ethical reasoning"
-data_metrics: "Not specified"
 LLM_assessed: "DeepSeek, Mistral, Gemini, GPT-4"
 DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs
 

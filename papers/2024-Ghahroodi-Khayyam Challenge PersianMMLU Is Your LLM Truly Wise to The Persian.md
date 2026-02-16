@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
 languages_list: "Persian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude-3-Haiku, Aya, XVERSE-13B, XVERSE-7B, PersianMind, mT0XL, mGPT"
 DATA_URL: "NA"
 tags: 
 abstract: "Evaluating Large Language Models (LLMs) is challenging due to their generative nature, necessitating precise evaluation methodologies. Additionally, non-English LLM evaluation lags behind English, resulting in the absence or weakness of LLMs for many languages. In response to this necessity, we introduce Khayyam Challenge (also known as PersianMMLU), a meticulously curated collection comprising 20,192 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations,..."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Khayyam Challenge (PersianMMLU): Is Your LLM Truly Wise to The Persian Language?
 

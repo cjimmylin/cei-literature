@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,21 +34,21 @@ significance: "Uses real-world everyday moral dilemmas rather than abstract trol
 tags: 
 abstract: "This work conducts a normative evaluation of LLMs using everyday moral dilemmas from the 'Am I The Asshole' (AITA) community on Reddit, which provides a rich dataset capturing nuanced social dynamics and competing perspectives. The authors prompted seven commonly used LLMs, including proprietary and open-source models, to assign blame and provide explanations for over 10,000 AITA moral dilemmas. Results show that LLMs exhibit distinct patterns of moral judgment, varying substantially from human evaluations, with moderate to high self-consistency but low inter-model agreement."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 research_topic: "LLM Moral Reasoning"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, PaLM-2, Llama-2, Mistral, Gemma"
 DATA_URL: "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas"
 pdf_extract: "PDF Extracts/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md"
 local_pdf: "[[PDFs/2025/2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.pdf]]"
-ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Normative Evaluation of Large Language Models with Everyday Moral Dilemmas
 

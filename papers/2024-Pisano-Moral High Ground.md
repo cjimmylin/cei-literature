@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Provides an interactive environment (games) to test moral reasoni
 tags: 
 abstract: "In this paper, we introduce a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate the moral and ethical reasoning abilities of large language models using text-based games, which can be played by both human players and models. We present these games to the player as an interaction between the player and the environment."
 DATE_ADDED: 20260208
+LLM_assessed: "Flan-T5, Falcon, Llama-2"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
+local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "Flan-T5, Falcon, Llama-2"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2024/2024-Pisano-Moral High Ground.md"
-local_pdf: "[[PDFs/2024/2024-Pisano-Moral High Ground.pdf]]"
 ---
 # Moral High Ground: A text-based games benchmark for moral evaluation
 

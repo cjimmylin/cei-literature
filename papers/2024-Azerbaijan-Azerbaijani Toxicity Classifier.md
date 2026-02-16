@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract:
 local_pdf: N/A
 publication: HuggingFace
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Azerbaijani"
 languages_list: "Azerbaijani"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Multi-label toxicity classifier for Azerbaijani text based on mDeBERTa-v3. Detects 7 categories: toxicity, severe toxicity, obscene, threat, insult, identity attack, sexually explicit. 279M parameters. First dedicated Azerbaijani toxicity classifier. Enables nuanced content moderation distinguishing between different types of harmful content in Azerbaijani language."
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Multi-label toxicity classifier for Azerbaijani text based on mDeBERTa-v3. Detects 7 categories: toxicity, severe toxicity, obscene, threat, insult, identity attack, sexually explicit. 279M parameters. First dedicated Azerbaijani toxicity classifier. Enables nuanced content moderation distinguishing between different types of harmful content in Azerbaijani language."
 data_description: "N/A"
-data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://huggingface.co/LocalDoc/azerbaijani_toxicity_classifier"
-research_topic: "Other"
+data_metrics: "7 categories"
 ---
 # Azerbaijani Toxicity Classifier (mDeBERTa-v3)
 

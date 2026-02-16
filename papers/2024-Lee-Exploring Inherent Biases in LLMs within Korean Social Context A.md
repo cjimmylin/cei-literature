@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "ACL Anthology / NAACL 2024 SRW"
 pdf_extract: "PDF Extracts/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md"
 local_pdf: "[[PDFs/2024/2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains content that may be offensive or upsetting. Large Language Models (LLMs) have significantly impacted various fields requiring advanced linguistic understanding, yet concerns regarding their inherent biases and ethical considerations have also increased. Notably, LLMs have been critiqued for perpetuating stereotypes against diverse groups based on race, sexual orientation, and other attributes."
 research_topic: Other
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Exploring Inherent Biases in LLMs within Korean Social Context: A Comparative Analysis of ChatGPT and GPT-4
 

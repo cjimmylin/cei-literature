@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Tomar-BharatBBQ A Multilingual Bias Benchma
 local_pdf: "[[PDFs/2025/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.pdf]]"
 publication: "WebSearch: BharatBBQ bias benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Assamese, Bengali, English, Hindi, Marathi, Odia, Tamil, Telugu"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Evaluating social biases in language models (LMs) is crucial for ensuring fairness and minimizing the reinforcement of harmful stereotypes in AI systems. Existing benchmarks, such as the Bias Benchmark for Question Answering (BBQ), primarily focus on Western contexts, limiting their applicability to the Indian context. To address this gap, we introduce BharatBBQ 1, a culturally adapted benchmark designed to assess biases in Hindi, English, Marathi, Bengali, Tamil, Telugu, Odia, and Assamese."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Bloomz, GPT-2, Gemma, Gemma-2, Llama, Llama-3.1, Phi-3"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "392,864 examples; 8 languages"
 ---
 # BharatBBQ: A Multilingual Bias Benchmark for Question Answering in the Indian Context
 

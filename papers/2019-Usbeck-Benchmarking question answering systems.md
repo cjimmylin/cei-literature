@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,10 @@ newtags:
 tags: 
 abstract: "The need for making the Semantic Web better accessible for lay users and the uptake of interactive systems and smart assistants for the Web have spawned a new generation of RDF-based question answering systems. However, the fair evaluation of these systems remains a challenge due to the different type of answers that they provide. Hence, repeating current published experiments or even benchmarking on the same datasets remains a complex and time-consuming task."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/AKSW/gerbil/tree/QuestionAnswering"
+pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
+local_pdf: "[[PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,12 +44,8 @@ research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Benchmark annotated dataset for question answering"
+data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/AKSW/gerbil/tree/QuestionAnswering"
-pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
-local_pdf: "[[PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
 ---
 # Benchmarking question answering systems
 

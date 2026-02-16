@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmat
 local_pdf: "[[PDFs/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.pdf]]"
 publication: "Findings of EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -35,16 +34,20 @@ religious_values: "Islam, Buddhism, Judaism, Hinduism"
 religious_values_list: "Islam, Buddhism, Judaism, Hinduism"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work has shown that LLMs display biases in emotion attribution along gender lines. However, unlike gender, which says little about our values, religion, as a socio-cultural system, prescribes a set of beliefs and values for its followers. Religions, therefore, cultivate certain emotions. Moreover, these rules are explicitly laid out and interpreted by religious leaders."
+LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama3, Mistral-7b, BERT"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work has shown that LLMs display biases in emotion attribution along gender lines. However, unlike gender, which says little about our values, religion, as a socio-cultural system, prescribes a set of beliefs and values for its followers. Religions, therefore, cultivate certain emotions. Moreover, these rules are explicitly laid out and interpreted by religious leaders."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, GPT-4, GPT-4o, Llama, Llama3, Mistral-7b, BERT"
-DATA_URL: "NA"
-ethics_perspective: "Social & Cultural Values"
 ---
 # Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models
 

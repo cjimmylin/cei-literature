@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "Journal of University of Human Development"
 pdf_extract: "PDF Extracts/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.md"
 local_pdf: "[[PDFs/2022/2022-English-Hate Speech Forms and Implications in English and Kurdish Social Media.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kurdish"
 languages_list: "English, Kurdish"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Social media platforms have become a favorable way of communication, sharing opinion and views about different topics around the world freely. Freedom of expression or free speech is the right to say whatever one likes; it has been sometimes conflated with hate speech. The latter is a public communication that expresses hate or advocates violence toward a person or group based on their race, religion or sex."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Social media platforms have become a favorable way of communication, sharing opinion and views about different topics around the world freely. Freedom of expression or free speech is the right to say whatever one likes; it has been sometimes conflated with hate speech. The latter is a public communication that expresses hate or advocates violence toward a person or group based on their race, religion or sex."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Hate Speech Forms and Implications in English and Kurdish Social Media
 

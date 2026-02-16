@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict 
 local_pdf: "[[PDFs/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "Large language models (LLMs) increasingly shape interpersonal and societal decision-making, yet their ability to navigate explicit conflicts between legitimate cultural values remains underexplored. Existing benchmarks focus on cultural knowledge (CulturalBench), value inference (WorldValuesBench), or single-axis bias (CDEval), but none assess how LLMs adjudicate when multiple cultural frameworks directly clash."
-ethics_perspective: "Social & Cultural Values"
-data_description: "Benchmark for bias and fairness"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, DeepSeek, Gemini, Llama, Llama-3, Phi, Mistral, ChatGPT, GPT-4, Qwen, Grok"
 DATA_URL: "https://github.com/smartlab-nyu/CCD-Bench"
 authors_incomplete: false
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "Not specified"
 ---
 # CCD-Bench: Probing Cultural Conflict in LLM Decision-Making
 

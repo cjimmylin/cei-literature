@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "This paper explores the moral judgment and moral reasoning abilities 
 paper_summary: "Abstract: This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral j | Overview: Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test Aditi Khandelwal1∗ Utkarsh Agarwal1∗ Kumar Tanmay1∗ Monojit Choudhury2† 1Mi | Methodology: We provide the translated prompt to the model and translate the response to English using Google Translate API. Then we extract the responses of the t | Conclusions: In this first of its kind study of multilingual moral reasoning assessment of LLMs, we observe that quite unsurprisingly, the moral reasoning capabil-"
 local_pdf: "[[PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, ChatGPT, Llama-2"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, ChatGPT, Llama-2"
-DATA_URL: "NA"
 ---
 # Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test
 

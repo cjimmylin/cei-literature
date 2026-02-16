@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -28,18 +31,19 @@ significance: "Landmark collaborative paper from Oxford Institute for Ethics in 
 external_pdf: "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/Aristotle%20and%20AI%20White%20Paper%20-%20June%202024.pdf"
 abstract: "The key contention of this white paper is that the basic approach to ethics developed by the 4th Century BC Greek philosopher, Aristotle, offers the most compelling framework for addressing the challenges and opportunities of Artificial Intelligence today. The Lyceum Project is premised on the belief that Aristotelian ethics contains many compelling ideas that have great significance for the ethics of AI. These ideas include the centrality of human flourishing to ethics and democratic politics; the virtues as constitutive of flourishing; the use of reason to determine the ends and not merely the means of human conduct; and the place of friendship and citizenship in a good human life."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "GPT-4, ChatGPT, Gemini, Llama"
 DATA_URL: "NA"
 publication: Oxford Institute for Ethics in AI
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Machine Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # The Lyceum Project: AI Ethics with Aristotle
 

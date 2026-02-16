@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "As AI systems pervade human life, ensuring that large language models
 paper_summary: "Abstract: As AI systems pervade human life, ensuring that large language models (LLMs) make safe decisions remains a significant challenge. We introduce the GOVernance of the Commons SIMulation (GOVSIM), a gene | Overview: Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents Giorgio Piatti1,∗ Zhijing Jin1,2,3,∗ Max Kleiman-Weiner4,∗ Bernhard Schölkopf2 Mrinmaya Sachan1 Rada Mihalcea5 1E | Methodology: Common Information For each of the scenarios we use the same description used in the simulation, but using controlled settings: the only memory presen | Key Findings: failures across machine learning. In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2), 2021. [ | Conclusions: RULES: You are John, a fisherman, and you fish each month in a lake along with four other fishermen (Kate, Jack, Emma, Luke). The lake has a carrying"
 local_pdf: "[[PDFs/2024/2024-Piatti-Cooperate or Collapse.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
+DATA_URL: "https://github.com/giorgiopiatti/GovSim"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
-DATA_URL: "https://github.com/giorgiopiatti/GovSim"
 ---
 # Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents
 

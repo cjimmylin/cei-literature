@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,9 @@ abstract: "In this position paper, we argue that instead of morally aligning LLM
 paper_summary: "Abstract: In this position paper, we argue that instead of morally aligning LLMs to specific set of ethi- cal principles, we should infuse generic ethical reasoning capabilities into them so that they can handl | Overview: Findings of the Association for Computational Linguistics: EMNLP 2023, pages 13370–13388 December 6-10, 2023 ©2023 Association for Computational Linguistics Ethical Reasoning over Moral Alignment: A C | Methodology: to assess the ethical reasoning capability of an LLM. The framework consists of carefully crafted moral dilemmas reflecting conflicts between inter- p | Conclusions: Our work makes a case for 'in-context' ethical poli- cies for LLM-based applications, and the experi- ment shows that indeed, models such as GPT-4 are"
 pdf: "https://arxiv.org/pdf/2310.07251"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, GPT-3"
+DATA_URL: "NA"
+normative_ethics_benchmark: Borderline
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -43,9 +48,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, GPT-3"
-DATA_URL: "NA"
-normative_ethics_benchmark: Borderline
 ---
  Ethical Reasoning over Moral Alignment: A Case and Framework for In-Context Ethical Policies in LLMs
 

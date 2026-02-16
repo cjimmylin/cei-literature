@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Yong-The State of Multilingual LLM Safety R
 local_pdf: "[[PDFs/2025/2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Russian, Spanish"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, Llama-2, Llama-3, PaLM-2, Vicuna"
+DATA_URL: "https://huggingface.co/CohereLabsCommunity/multilingual_safety_surve"
+tags: 
+abstract: "This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. Through a systematic review of nearly 300 publications from 2020–2024 across major NLP conferences and workshops at ∗ACL, we identify a significant and growing language gap in LLM safety research, with even high-resource non-English languages receiving minimal attention."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, Llama-2, Llama-3, PaLM-2, Vicuna"
-DATA_URL: "https://huggingface.co/CohereLabsCommunity/multilingual_safety_surve"
-tags: 
-abstract: "This paper presents a comprehensive analysis of the linguistic diversity of LLM safety research, highlighting the English-centric nature of the field. Through a systematic review of nearly 300 publications from 2020–2024 across major NLP conferences and workshops at ∗ACL, we identify a significant and growing language gap in LLM safety research, with even high-resource non-English languages receiving minimal attention."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It
 

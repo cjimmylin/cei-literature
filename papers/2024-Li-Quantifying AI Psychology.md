@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Large Language Models (LLMs) have demonstrated exceptional capabiliti
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into societ | Overview: Evaluating Large Language Models with Psychometrics Yuan Li University of Cambridge Yue Huang University of Notre Dame Hongyi Wang Carnegie Mellon University Ying Cheng University of Notre Dame Xiangl | Methodology: named Emotional Chain-of-Thought, which aligns LLM outputs with human emotional intelligence, thereby refining emotional gen- eration capabilities. Co | Key Findings: on imposing memory task. This task includes alternative-choice items with statements about the intentionality of characters in the scenario, and LLMs  | Conclusions: In this paper, we present a comprehensive psychometric benchmark for LLMs, covering the evaluation of five psychological dimensions and thirteen datas"
 local_pdf: "[[PDFs/2024/2024-Li-Quantifying AI Psychology.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen"
+DATA_URL: "https://github.com/CHATS-lab/persuasive_jailbreaker"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,9 +47,7 @@ is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
-data_metrics: "13 datasets"
-LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Llama-3, Qwen"
-DATA_URL: "https://github.com/CHATS-lab/persuasive_jailbreaker"
+data_metrics: "Not specified"
 ---
 # Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models
 

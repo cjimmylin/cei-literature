@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "ACL Anthology (CLiC-it 2025)"
 pdf_extract: PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md
 local_pdf: "[[PDFs/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian, Polish"
 languages_list: "Italian, Polish"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Llama, LLaMA 3.1, LLaMA Guard, LLama-Guard, llama 3"
 DATA_URL: "https://github.com/LonamiWebs/Telethon"
 tags: 
 abstract: "This paper introduces the MuLTa-Telegram dataset, a Multi- Lingual and multi-Target dataset specifically developed to detect hate speech on Telegram, an understudied yet influential platform in which extremist and fringe content can be found. The dataset contains about 4,000 Telegram messages in Italian and Polish, annotated for the presence of hate speech and its targets, including also target identity group mentions even when no hate is expressed."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # MuLTa-Telegram: A Fine-Grained Italian and Polish Dataset for Hate Speech Detection
 

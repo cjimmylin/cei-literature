@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: IEEE
 pdf_extract: "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Persian, Iranian"
 languages_list: Persian
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/HooshvareLab/roberta-fa-zwnj-base"
 tags: 
 abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals’ psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # ParsOffensive: Persian Offensive Comments Dataset
 

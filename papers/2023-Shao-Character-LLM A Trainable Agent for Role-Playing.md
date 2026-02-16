@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -30,18 +33,18 @@ tags:
 abstract: "Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ability stimulates us to wonder whether LLMs can simulate a person in a higher form than simple human behaviors. Therefore, we aim to train an agent with the profile, experience, and emotional states of a specific person instead of using limited prompts to instruct ChatGPT API. In this work, we in- tr"
 paper_summary: "Abstract: Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ab | Overview: Character-LLM: A Trainable Agent for Role-Playing Yunfan Shao1,2∗, Linyang Li1, Junqi Dai1, Xipeng Qiu1† 1School of Computer Science, Fudan University 1Shanghai Key Laboratory of Intelligent Informati | Methodology: Our methodology diverges from the existing prac- tice of mimicking the style and tones of curated utterances via Supervised Fine-Tuning (SFT) or provi"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: Other
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation methodology"
-data_metrics: "Not specified"
 LLM_assessed: "Llama, ChatGPT, Alpaca, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
 ---
  Character-LLM: A Trainable Agent for Role-Playing
 

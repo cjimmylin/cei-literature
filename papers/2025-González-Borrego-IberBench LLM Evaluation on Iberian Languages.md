@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-González-Borrego-IberBench LLM Evaluation 
 local_pdf: "[[PDFs/2025/2025-González-Borrego-IberBench LLM Evaluation on Iberian Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Brazilian"
 cultures_nationalities_list: "Spanish, Portuguese, Catalan, Basque, Galician"
 languages_list: "Basque, Catalan, English, Galician, Portuguese, Spanish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4"
+DATA_URL: "https://github.com/IberBench/dataset-preparation"
+tags: 
+abstract: "Despite their remarkable success, Large Language Models (LLMs) remain difficult to evaluate comprehensively, particularly for languages other than English, where high-quality data is often limited. Existing benchmarks and leaderboards are predominantly English-centric, with only a few addressing other languages. These benchmarks fall short in several key areas: they overlook the diversity of language varieties, prioritize fundamental Natural Language Processing (NLP) capabilities over tasks of..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "101 datasets"
-LLM_assessed: "GPT2, Gemma, Llama, Llama-3.1, Llama-3.2, Mistral-7B, Qwen, Qwen-2.5, Qwen2.5, gemma-2, phi-4"
-DATA_URL: "https://github.com/IberBench/dataset-preparation"
-tags: 
-abstract: "Despite their remarkable success, Large Language Models (LLMs) remain difficult to evaluate comprehensively, particularly for languages other than English, where high-quality data is often limited. Existing benchmarks and leaderboards are predominantly English-centric, with only a few addressing other languages. These benchmarks fall short in several key areas: they overlook the diversity of language varieties, prioritize fundamental Natural Language Processing (NLP) capabilities over tasks of..."
-research_topic: "NLP & Representation Learning"
 ---
 # IberBench: LLM Evaluation on Iberian Languages
 

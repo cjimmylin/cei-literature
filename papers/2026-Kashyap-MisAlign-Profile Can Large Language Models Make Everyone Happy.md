@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for ai safety dataset"
-data_metrics: "Not specified"
 LLM_assessed: "H3FUSION, TRINITYX, Phi-3-14B, DeepSeek-7B, Gemma-2-9B-it, Qwen3-30B-A3B, Mistral-7B-Instruct-v0.3, Llama-3.1-8B-Instruct"
 DATA_URL: "NA"
 tags: 
 abstract: "Misalignment in Large Language Models (LLMs) refers to the failure to simultaneously satisfy safety, value, and cultural dimensions, leading to behaviors that diverge from human expectations in real-world settings where these dimensions must co-occur. Existing benchmarks, such as SAFETUNEBED (safety-centric), VALUEBENCH (value-centric), and WORLDVIEW-BENCH (culture-centric), primarily evaluate these dimensions in isolation and therefore provide limited insight into their interactions and..."
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # MisAlign-Profile: Can Large Language Models Make Everyone Happy?
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,19 +36,19 @@ significance: "Demonstrates practical application on COMPAS and loan prediction 
 tags: 
 abstract: "Ensuring ethical behavior in Artificial Intelligence (AI) systems amidst their increasing ubiquity and influence is a major concern the world over. The use of formal methods in AI ethics is a possible crucial approach for specifying and verifying the ethical behavior of AI systems. This paper proposes a formalization based on deontic logic to define and evaluate the ethical behavior of AI systems, focusing on system-level specifications, contributing to this important goal."
 DATE_ADDED: 20260208
+research_topic: "AI Ethics Verification"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "AI Ethics Verification"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-data_description: "Evaluation methodology"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Bias & Fairness"
 ---
 # Deontic Temporal Logic for Formal Verification of AI Ethics
 

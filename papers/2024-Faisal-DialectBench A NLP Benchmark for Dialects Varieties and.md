@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.md"
 local_pdf: "[[PDFs/2024/2024-Faisal-DialectBench A NLP Benchmark for Dialects Varieties and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Chinese, English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, Mistral 7B, Mistral-7B, Mistral7B"
+DATA_URL: "https://github.com/ffaisal93/DialectBench"
+tags: 
+abstract: "Language technologies should be judged on their usefulness in real-world use cases. An often overlooked aspect in natural language processing (NLP) research and evaluation is language variation in the form of non-standard dialects or language varieties (hereafter, varieties). Most NLP benchmarks are limited to standard language varieties. To fill this gap, we propose DIALECTBENCH, the first-ever largescale benchmark for NLP on varieties, which aggregates an extensive set of task-varied variety..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, Mistral 7B, Mistral-7B, Mistral7B"
-DATA_URL: "https://github.com/ffaisal93/DialectBench"
-tags: 
-abstract: "Language technologies should be judged on their usefulness in real-world use cases. An often overlooked aspect in natural language processing (NLP) research and evaluation is language variation in the form of non-standard dialects or language varieties (hereafter, varieties). Most NLP benchmarks are limited to standard language varieties. To fill this gap, we propose DIALECTBENCH, the first-ever largescale benchmark for NLP on varieties, which aggregates an extensive set of task-varied variety..."
-research_topic: "NLP & Representation Learning"
 ---
 # DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages
 

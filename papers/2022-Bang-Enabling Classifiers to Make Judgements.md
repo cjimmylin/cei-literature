@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "Many NLP classiﬁcation tasks, such as sexism/racism detection or to
 paper_summary: "Abstract: Many NLP classiﬁcation tasks, such as sex- ism/racism detection or toxicity detection, are based on human values. Yet, human values can vary under diverse cultural conditions. There- fore, we introduc | Overview: Enabling Classiﬁers to Make Judgements Explicitly Aligned with Human Values Yejin Bang1∗Tiezheng Yu1∗ Andrea Madotto2 Zhaojiang Lin2 Mona Diab2 Pascale Fung1† 1The Hong Kong University of Science and  | Methodology: avoids costly human labeling or crowd sourcing of values, allowing easier extensions to other value- aligned tasks in different domains. We further in | Key Findings: LLMs are powerful few-shot learners, yet they are not perfect. Thus, we conduct human evaluation on two categories' data (Inter- nalized sexism and Pa"
 local_pdf: "[[PDFs/2022/2022-Bang-Enabling Classifiers to Make Judgements.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "OPT, ALBERT, RoBERTa, BART"
+DATA_URL: "https://github.com/makcedward/nlpaug"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "OPT, ALBERT, RoBERTa, BART"
-DATA_URL: "https://github.com/makcedward/nlpaug"
 ---
 # Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: OpenAI
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Bengali, English, Gujarati, Hindi, Hinglish, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-5"
 DATA_URL: "NA"
 tags: 
 abstract: "OpenAI benchmark with 2,278 questions across 12 languages and 10 cultural domains (architecture, arts, food, history, law/ethics, religion/spirituality, etc.) created with 261 domain experts. GPT-5 best at 34.9%. Includes Bengali and Odia natively written questions."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "2,278 questions; 12 languages"
 ---
 # IndQA: A Culture-Aware Benchmark for Indian Languages
 

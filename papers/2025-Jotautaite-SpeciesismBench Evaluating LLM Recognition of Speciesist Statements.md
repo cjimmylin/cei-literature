@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM R
 local_pdf: "[[PDFs/2025/2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership— and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established..."
-ethics_perspective: "Bias & Fairness"
-data_description: "Benchmark for moral/ethical reasoning"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, o1, o3, Claude, Llama-3, Gemini, DeepSeek, Grok, Qwen"
 DATA_URL: "https://osf.io/69epv"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # SpeciesismBench: Evaluating LLM Recognition of Speciesist Statements
 

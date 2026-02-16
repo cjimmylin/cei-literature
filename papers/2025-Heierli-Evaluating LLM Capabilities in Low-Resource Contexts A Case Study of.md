@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ local_pdf: "[[PDFs/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource
 pdf_extract: "PDF Extracts/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.md"
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
 languages_list: "Persian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Gemini, Llama, DeepSeek"
 DATA_URL: "NA"
 tags: 
 abstract: "Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language tasks. Finds consistent performance deterioration and cultural misalignment. Role-based prompting shows only incremental improvements. Advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
 ---
 # Evaluating LLM Capabilities in Low-Resource Contexts: A Case Study of Persian Linguistic and Cultural Tasks
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ paper_summary: "Overview: The Goofus & Gallant Story Corpus for Practical Value 
 local_pdf: "[[PDFs/2024/2024-Nahian-The Goofus & Gallant Story Corpus for Practical.pdf]]"
 abstract: "Values or principles are key elements of human society that influence people to behave and function according to an accepted standard set of social rules to maintain social order. As AI systems are becoming ubiquitous in human society, it is a major concern that they could violate these norms or values and potentially cause harm. Thus, to prevent intentional or unintentional harm, AI systems are expected to take actions that align with these principles."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, BERT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, BERT"
-DATA_URL: "NA"
 ---
 # The Goofus & Gallant Story Corpus for Practical Value Alignment
 

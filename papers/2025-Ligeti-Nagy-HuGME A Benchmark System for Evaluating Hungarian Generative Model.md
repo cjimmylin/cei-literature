@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ local_pdf: "[[PDFs/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating
 pdf_extract: "PDF Extracts/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.md"
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Hungarian"
 languages_list: "Hungarian"
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://hugme.nytud.hu/"
 tags: 
 abstract: "First benchmark system dedicated to testing Hungarian LLMs covering linguistic proficiency, cultural & contextual understanding, and ethical considerations including bias and toxicity. Uses LLM-as-a-judge with six manually curated datasets. Presented at GEM Workshop at ACL 2025."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # HuGME: A Benchmark System for Evaluating Hungarian Generative Model Evaluation
 

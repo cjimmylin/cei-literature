@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,10 @@ significance: "Brings a non-Western, communal ethical framework to AI, challengi
 tags: 
 abstract: "Historically, Sub-Saharan Africa (SSA) has been excluded from the beneﬁts of the previous industrial revolutions, as its people and their resources and aspirations have been objectiﬁed through foreign domination, and its culture has either been fragmented or appropriated. While artiﬁcial intelligence (AI) is poised to generate vast amounts of wealth, its application could lead to further social and economic exclusion of SSA due to a lack of access to technological advancements and the historical"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
+local_pdf: "[[PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,10 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
-local_pdf: "[[PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
 ---
 # The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective
 

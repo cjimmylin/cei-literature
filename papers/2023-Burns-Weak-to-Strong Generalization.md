@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Widely used alignment techniques, such as reinforcement learning from
 paper_summary: "Abstract: Widely used alignment techniques, such as reinforcement learning from human feedback (RLHF), rely on the ability of humans to supervise model behavior—for example, to evaluate whether a model faithful | Overview: WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION Collin Burns∗ Pavel Izmailov∗ Jan Hendrik Kirchner∗ Bowen Baker∗ Leo Gao∗ Leopold Aschenbrenner∗ Yining Chen∗ Adrien  | Methodology: A core challenge of superalignment is that humans will need to supervise models much smarter than us. This is a special case of what we call the weak- | Conclusions: In this paper, we proposed a simple analogy for studying a core challenge of aligning superhuman models and showed that it is feasible to make signifi"
 local_pdf: "[[PDFs/2023/2023-Burns-Weak-to-Strong Generalization.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: GPT-4
+DATA_URL: "https://github.com/openai/weak-to-strong"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: GPT-4
-DATA_URL: "https://github.com/openai/weak-to-strong"
 ---
 # Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision
 

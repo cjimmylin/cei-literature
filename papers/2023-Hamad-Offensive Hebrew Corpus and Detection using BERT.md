@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection
 local_pdf: "[[PDFs/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
 cultures_nationalities_list: "Israeli, Arabic"
 languages_list: Hebrew
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach text corpus for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/SinaLab/OffensiveHebrew"
 tags: 
 abstract: "Offensive language detection has been well studied in many languages, but it is lagging behind in low-resource languages, such as Hebrew. In this paper, we present a new offensive language corpus in Hebrew. A total of 15,881 tweets were retrieved from Twitter. Each was labeled with one or more of five classes (abusive, hate, violence, pornographic, or none offensive) by Arabic-Hebrew bilingual speakers."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
+data_metrics: "Not specified"
 ---
 # Offensive Hebrew Corpus and Detection using BERT
 

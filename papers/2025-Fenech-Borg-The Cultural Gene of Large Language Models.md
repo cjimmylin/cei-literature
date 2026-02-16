@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ paper_summary: "Overview: The Cultural Gene of Large Language Models: A Study on
 local_pdf: "[[PDFs/2025/2025-Fenech-Borg-The Cultural Gene of Large Language Models.pdf]]"
 abstract: "Large Language Models (LLMs) are being deployed globally, yet their underlying cultural and ethical assumptions remain underexplored. This paper investigates the concept of ”cultural genes”—systematic value orientations that LLMs inherit from their training corpora. We introduce a novel methodology centered on a Cultural Probe Dataset (CPD) designed to evaluate models along key cross-cultural psychological dimensions, specifically Individualism-Collectivism (IDV) and Power Distance (PDI)."
 DATE_ADDED: 20260208
+LLM_assessed: GPT-4
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-LLM_assessed: GPT-4
-DATA_URL: "NA"
 ---
 # The Cultural Gene of Large Language Models: A Study on the Impact of Cross-Corpus Training on Model Values and Biases
 

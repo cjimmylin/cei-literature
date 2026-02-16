@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +36,18 @@ abstract: "The paper asks how we develop AI systems that adhere to human norms a
 paper_summary: 
 local_pdf: N/A
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_perspective: "General Ethics"
 ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "General Ethics"
 ---
 # Use and Abuse Normative Ethics Moral Machines
 

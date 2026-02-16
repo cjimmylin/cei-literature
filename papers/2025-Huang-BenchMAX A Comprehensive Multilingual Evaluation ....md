@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md"
 local_pdf: "[[PDFs/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Arabic"
 cultures_nationalities_list: "Chinese, Japanese, Arabic, French, German, Russian, Korean, Thai, Vietnamese, Indonesian, Hindi, Turkish, Spanish, Portuguese, Italian, Swahili"
 languages_list: "Arabic, Chinese, English, Japanese, Multilingual, Turkish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ALBERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma2, InternLM, InternLM2, Llama, Llama-3.3, Llama3, Llama3.1, Qwen, Qwen-32B, Qwen2.5, ChatGPT"
+DATA_URL: "https://github.com/CONE-MT/BenchMAX.git"
+tags: 
+abstract: "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models (LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, DeepSeek, DeepSeek-AI, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, GPT-4o-mini, Gemma, Gemma2, InternLM, InternLM2, Llama, Llama-3.3, Llama3, Llama3.1, Qwen, Qwen-32B, Qwen2.5, ChatGPT"
-DATA_URL: "https://github.com/CONE-MT/BenchMAX.git"
-tags: 
-abstract: "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models (LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages."
-research_topic: "Machine Translation"
 ---
 # BenchMAX: A Comprehensive Multilingual Evaluation ...
 

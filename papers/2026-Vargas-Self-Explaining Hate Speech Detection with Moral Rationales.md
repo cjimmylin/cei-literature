@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: "Portuguese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o-mini, Llama-3.1-70B, mBERT, BERTimbau"
 DATA_URL: "https://github.com/franciellevargas/SMRA"
 tags: 
 abstract: "Hate speech detection models rely on surfacelevel lexical features, increasing vulnerability to spurious correlations and limiting robustness, cultural contextualization, and interpretability. We propose Supervised Moral Rationale Attention (SMRA)1, the first selfexplaining hate speech detection framework to incorporate moral rationales as direct supervision for attention alignment. Based on Moral Foundations Theory, SMRA aligns token-level attention with expert-annotated moral rationales,..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning annotated dataset"
+data_metrics: "Not specified"
 ---
 # Self-Explaining Hate Speech Detection with Moral Rationales
 

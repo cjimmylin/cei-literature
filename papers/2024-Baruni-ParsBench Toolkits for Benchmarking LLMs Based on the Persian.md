@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "GitHub / HuggingFace"
 pdf_extract: "PDF Extracts/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md"
 local_pdf: "[[PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: Persian
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/Ipouyall/Benchmarking_ChatGPT_for_Persian"
 tags: 
 abstract: "This paper explores the efficacy of large language models (LLMs) for Persian. While ChatGPT and consequent LLMs have shown remarkable performance in English, their efficiency for more low-resource languages remains an open question. We present the first comprehensive benchmarking study of LLMs across diverse Persian language tasks. Our primary focus is on GPT-3.5-turbo, but we also include GPT-4 and OpenChat-3.5 to provide a more holistic evaluation."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Other"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # ParsBench: Toolkits for Benchmarking LLMs Based on the Persian Language Tasks
 

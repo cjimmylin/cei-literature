@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: LSRC0719
 type: conferencePaper
 short_title: "A curated dataset for hate speech detection on social media text - PMC"
 year: 2025
-first_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807815/"
@@ -26,10 +29,6 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "http://arxiv.org/abs/2212.12799"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: Japanese
@@ -37,16 +36,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation framework annotated dataset"
-data_metrics: "92,405 words"
 LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "NA"
 tags: 
 abstract: "Chemical named entity recognition (NER) models are used in many downstream tasks, from adverse drug reaction identification to pharmacoepidemiology. However, it is unknown whether these models work the same for everyone. Performance disparities can potentially cause harm rather than the intended good. This paper assesses gender-related performance disparities in chemical NER systems. We develop a framework for measuring gender bias in chemical NER models using synthetic data and a newly..."
-ethics_perspective: "Bias & Fairness"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # A curated dataset for hate speech detection on social media text - PMC
 

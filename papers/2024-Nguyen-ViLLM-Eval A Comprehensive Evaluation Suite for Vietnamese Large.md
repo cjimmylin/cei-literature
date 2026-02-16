@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluatio
 local_pdf: "[[PDFs/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mistral 7B"
+DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
+tags: 
+abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, GPT-3, GPT-3.5-turbo, Llama, LLaMa 2, Llama-2, Mistral 7B"
-DATA_URL: "https://github.com/ZaloAI-Jaist/VMLU"
-tags: 
-abstract: "The rapid advancement of large language models (LLMs) necessitates the development of new benchmarks to accurately assess their capabilities. To address this need for Vietnamese, this work aims to introduce ViLLM-Eval, the comprehensive evaluation suite designed to measure the advanced knowledge and reasoning abilities of foundation models within a Vietnamese context. ViLLM-Eval consists of multiple-choice questions and predict next word tasks spanning various difficulty levels and diverse..."
-research_topic: "NLP & Representation Learning"
 ---
 # ViLLM-Eval: A Comprehensive Evaluation Suite for Vietnamese Large Language Models
 

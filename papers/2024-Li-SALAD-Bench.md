@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +30,10 @@ significance: "Provides a comprehensive ecosystem for testing the 'attack-defens
 tags: 
 abstract: "In the rapidly evolving landscape of Large Language Models (LLMs), ensuring robust safety measures is paramount. To meet this crucial need, we propose SALAD-Bench, a safety benchmark specifically designed for evaluating LLMs, attack, and defense methods. Distinguished by its breadth, SALAD-Bench transcends conventional benchmarks through its large scale, rich diversity, intricate taxonomy spanning three levels, and versatile functionalities."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Vicuna"
+DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
+pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
+local_pdf: "[[PDFs/2024/2024-Li-SALAD-Bench.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +43,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Vicuna"
-DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"
-pdf_extract: "PDF Extracts/2024/2024-Li-SALAD-Bench.md"
-local_pdf: [[PDFs/2024/2024-Li-SALAD-Bench.pdf]]
 ---
 # SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models
 

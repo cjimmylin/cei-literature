@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: PhilArchive
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Various"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/krimler/moralbench"
 tags: 
 abstract: "Combines three datasets: 1K high-fidelity safety-alignment prompt set, 10K abstracted variation set for domain transfer, and 19,132-record rich metadata preference dataset with structured ethical annotations. Covers ethical reasoning, safety alignment, and socially sensitive dialogue generation."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
+data_metrics: "Not specified"
 ---
 # MoralBench: A Multi-Faceted Benchmark for Ethical and Safety Alignment in LLMs
 

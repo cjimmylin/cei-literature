@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,19 +14,15 @@ key: LSRC0440
 type: conferencePaper
 short_title: "XSafety: Multilingual Safety Benchmark"
 year: 2025
-first_author: "[[Wang]]"
-last_author: "[[Wang]]"
-authors: "[[Wang]]"
-authors_incomplete: true
+first_author: "[[Wang, Wenxuan]]"
+last_author: "[[Lyu, Michael R.]]"
+authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang]]; [[Huang, Jen-Tse]]; [[Jiao, Wenxiang]]; [[Lyu, Michael R.]]"
+authors_incomplete: false
 url: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 publication: GitHub
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 tags: 
 abstract: "Multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for ai safety"
+data_metrics: "10 languages"
 ---
 # XSafety: Multilingual Safety Benchmark
 

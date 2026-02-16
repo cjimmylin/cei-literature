@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -17,7 +19,7 @@ authors: "[[An, Zhiyu]]; [[Du, Wan]]"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
 pdf_extract: "PDF Extracts/2025/2025-An-MoralReason.md"
-local_pdf: [[PDFs/2025/2025-An-MoralReason.pdf]]
+local_pdf: "[[PDFs/2025/2025-An-MoralReason.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
@@ -31,6 +33,9 @@ significance: "Demonstrates that LLMs can be trained to internalize and generali
 abstract: "Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral decisions. We formulate this as an out-of-distribution moral alignment problem, where LLM agents must learn to apply consistent moral reasoning frameworks to scenarios beyond their training distribution. We introduce Moral-ReasonQA, a novel dataset extending 680 human-annotated, highambiguity moral scenarios with..."
 paper_summary: "Abstract: Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this  | Overview: MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning Zhiyu An, Wan Du University of California, Merced {zan7, wdu3}@ucmerced.edu Warning: Thi"
 DATE_ADDED: 20260208
+LLM_assessed: Qwen
+DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
+normative_ethics_benchmark: Yes
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -40,9 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: Qwen
-DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
-normative_ethics_benchmark: Yes
 ---
  MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +36,18 @@ significance: "Finds a 'rationalist, consequentialist emphasis' across models, w
 abstract: "This study examines the ethical reasoning of six prominent generative large language models: OpenAI’s GPT-4o, Meta’s LLaMA 3.1, Perplexity, Anthropic’s Claude 3.5 Sonnet, Google’s Gemini, and Mistral 7B. The research explores how these models articulate and apply ethical logic, particularly in response to moral dilemmas such as the Trolley Problem, and Heinz Dilemma. Departing from traditional alignment studies, the study adopts an explainability-transparency framework, prompting models to..."
 paper_summary: "Abstract: This study examines the ethical reasoning of six prominent generative large language models: OpenAI's GPT-4o, Meta's LLaMA 3.1, Perplexity, Anthropic's Claude 3.5 Sonnet, Google's Gemini, and Mistral  | Overview: Analyzing the Ethical Logic of Six Large Language Models W. Russell Neuman Chad Coleman Manan Shah New York University New York University New York University wrn210@nyu.edu cjc652@nyu.edu ms15037@nyu | Methodology: is analyzed through three established ethical typologies: the consequentialist- deontological analytic, Moral Foundations Theory, and Kohlberg's Stage"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Llama, Claude, Mistral"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework text corpus"
+data_metrics: "Not specified"
 ---
  Analyzing the Ethical Logic of Six Large Language Models
 

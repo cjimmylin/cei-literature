@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ paper_summary: "Overview: Amr A. Munshi et al, International Journal of Computer
 local_pdf: "[[PDFs/2021/2021-Munshi-Towards an Automated Islamic Fatwa System.pdf]]"
 abstract: "Islam is the second largest and the fastest growing religion. The Islamic Law, Sharia, represents a profound component of the day-to-day lives of Muslims. This creates a lot of queries, about specific problems, that requires answers, or Fatwas. While sources of Sharia are available for anyone, it often requires a highly qualified person, the Mufti, to provide Fatwa. To get certified for Fatwa, the Mufti needs to undergo a sophisticated and long education process that starts from basic to high..."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
 ---
 # Towards an Automated Islamic Fatwa System: Survey, Dataset and Benchmarks
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +36,18 @@ abstract: "Machine ethics and AI alignment have become increasingly important re
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_perspective: "Machine Ethics"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
-utilitarian_ethics: "No"
+utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Machine Ethics"
 ---
 # Machine Ethics or AI Alignment
 

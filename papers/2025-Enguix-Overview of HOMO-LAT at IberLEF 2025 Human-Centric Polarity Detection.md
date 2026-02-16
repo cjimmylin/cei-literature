@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "IberLEF / SEPLN 2025"
 pdf_extract: "PDF Extracts/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md"
 local_pdf: "[[PDFs/2025/2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American, Latin American"
 cultures_nationalities_list: "Latin American, Spanish"
 languages_list: Spanish
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Falcon-7B, Gemma, Mistral-7B, ChatGPT"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper presents the HOMO-LAT shared task organized at IberLEF 2025, as part of the 41st International Conference of the Spanish Society for Natural Language Processing (SEPLN 2025). Our goal is to foster the design of algorithms capable of capturing the polarity of Reddit comments on keywords referring to the LGBTQ+ community. HOMO-LAT is a continuation of the past tasks HOMO-MEX 2023 and 2024, with the particularity of including posts from 19 Spanish-speaking Latin American countries."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Overview of HOMO-LAT at IberLEF 2025: Human-Centric Polarity Detection in Online Messages Oriented to the Latin American-speaking LGBTQ+ Population
 

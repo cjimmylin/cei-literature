@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,9 +30,11 @@ key_contribution: "Created REDDITBIAS, the first conversational dataset from Red
 significance: "Addresses the lack of realistic conversational resources for bias, showing that debiasing can reduce religious bias without hurting chat performance."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md"
-local_pdf: [[PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]
+local_pdf: "[[PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]"
 abstract: "Text representation models are prone to exhibit a range of societal biases, reﬂecting the noncontrolled and biased nature of the underlying pretraining data, which consequently leads to severe ethical issues and even bias ampliﬁcation. Recent work has predominantly focused on measuring and mitigating bias in pretrained language models. Surprisingly, the landscape of bias measurements and mitigation resources and methods for conversational language models is still very scarce: it is limited to..."
 DATE_ADDED: 20260208
+LLM_assessed: GPT-2
+DATA_URL: "https://github.com/umanlp/RedditBias"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: GPT-2
-DATA_URL: "https://github.com/umanlp/RedditBias"
 ---
 # REDDITBIAS: A Real-World Resource for Bias Evaluation and Debiasing in Conversational Language Models
 

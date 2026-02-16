@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: MDPI Applied Sciences
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "Chinese, Korean"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o"
 DATA_URL: "https://github.com/es133lolo/Knowing-the-Words-Missing-the-Meaning"
 tags: 
 abstract: "Benchmark evaluating LLMs' cultural understanding through Sino-Korean words and four-character idioms. Four question categories: idioms, synonyms, antonyms, homophones with 200 samples each. GPT-4o shows highest accuracy but relies on primary dictionary definitions and Chinese usages rather than Korean-specific meanings."
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "200 samples"
 ---
 # Knowing the Words, Missing the Meaning: Evaluating LLMs' Cultural Understanding Through Sino-Korean Words and Four-Character Idioms
 

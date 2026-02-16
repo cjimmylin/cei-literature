@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: ACM
 pdf_extract: "PDF Extracts/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.md"
 local_pdf: "[[PDFs/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "Chinese, English, Uyghur"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Resources for the non-English languages are scarce and this paper addresses this problem in the context of machine translation, by automatically extracting parallel sentence pairs from the multilingual articles available on the Internet. In this paper, we have used an endto-end Siamese bidirectional recurrent neural network to generate parallel sentences from comparable multilingual articles in Wikipedia."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Resources for the non-English languages are scarce and this paper addresses this problem in the context of machine translation, by automatically extracting parallel sentence pairs from the multilingual articles available on the Internet. In this paper, we have used an endto-end Siamese bidirectional recurrent neural network to generate parallel sentences from comparable multilingual articles in Wikipedia."
-research_topic: "Machine Translation"
 ---
 # Neural Machine Translation for Low-Resource Languages from a Chinese-centric Perspective: A Survey | ACM Transactions on Asian and Low-Resource Language Information Processing
 

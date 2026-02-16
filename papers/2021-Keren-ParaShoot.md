@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,9 +28,11 @@ moral_psychology: "N/A"
 newtags: Hebrew/Israeli
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Keren-ParaShoot.md"
-local_pdf: [[PDFs/2021/2021-Keren-ParaShoot.pdf]]
+local_pdf: "[[PDFs/2021/2021-Keren-ParaShoot.pdf]]"
 abstract: "NLP research in Hebrew has largely focused on morphology and syntax, where rich annotated datasets in the spirit of Universal Dependencies are available. Semantic datasets, however, are in short supply, hindering crucial advances in the development of NLP technology in Hebrew. In this work, we present PARASHOOT, the ﬁrst question answering dataset in modern Hebrew. The dataset follows the format and crowdsourcing methodology of SQuAD, and contains approximately 3000 annotated examples, similar..."
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "https://github.com/omrikeren/ParaShoot"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,8 +43,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "https://github.com/omrikeren/ParaShoot"
 ---
 # ParaShoot: A Hebrew Question Answering Dataset
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_STENSEKE2021
@@ -28,17 +30,17 @@ significance: "Landmark paper demonstrating practical implementation path for ar
 external_pdf: N/A
 abstract: "Virtue ethics has many times been suggested as a promising recipe for the construction of artificial moral agents due to its emphasis on moral character and learning. However, given the complex nature of the theory, hardly any work has de facto attempted to implement the core tenets of virtue ethics in moral machines. The main goal of this paper is to demonstrate how virtue ethics can be taken all the way from theory to machine implementation. To achieve this goal, the author critically explores the possibilities and challenges for virtue ethics from a computational perspective. Drawing on previous conceptual and technical work, the paper outlines a version of artificial virtue based on moral functionalism, connectionist bottom-up learning, and eudaimonic reward. Finally, the paper presents a comprehensive framework for the technical development of artificial virtuous agents and discusses how they can be implemented in moral environments."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Artificial virtuous agents: from theory to machine implementation
 

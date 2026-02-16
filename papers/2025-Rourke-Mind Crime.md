@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +30,20 @@ key_contribution: "Introduces the concept of 'mind crime' and explores the moral
 significance: "Expands the scope of virtue ethics to include the moral patienthood of AI entities, arguing that our treatment of them reflects and potentially corrupts our own virtues"
 abstract: "This book explores the moral implications of advanced artificial intelligence, particularly the potential for conscious digital minds. Rourke introduces the concept of \"
 DATE_ADDED: 20260120
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: 
+local_pdf: N/A
+ethics_perspective: "General Ethics"
 ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: 
-local_pdf: N/A
-ethics_perspective: "General Ethics"
 ---
 # Mind Crime: The Moral Frontier of Artificial Intelligence
 

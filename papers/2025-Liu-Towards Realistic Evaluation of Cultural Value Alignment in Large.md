@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "Technological Forecasting and Social Change (ScienceDirect)"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.md"
 local_pdf: "[[PDFs/2025/2025-Liu-Towards Realistic Evaluation of Cultural Value Alignment in Large.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Arabic, Chinese, English, French, German, Hindi, Japanese, Korean, Russian, Spanish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Evaluates cultural value alignment through survey response simulation. Enhances diversity in simulated responses to better capture cultural nuances including Korean values. Uses World Values Survey as ground truth."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Evaluates cultural value alignment through survey response simulation. Enhances diversity in simulated responses to better capture cultural nuances including Korean values. Uses World Values Survey as ground truth."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Towards Realistic Evaluation of Cultural Value Alignment in Large Language Models: Diversity Enhancement for Survey Response Simulation
 

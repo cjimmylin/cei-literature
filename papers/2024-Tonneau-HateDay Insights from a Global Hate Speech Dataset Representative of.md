@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "arXiv / ACL Anthology"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md"
 local_pdf: "[[PDFs/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Arabic, French, German, Spanish, Brazilian"
 cultures_nationalities_list: "Indonesian, Arabic, French, German, Spanish, Brazilian"
 languages_list: "Arabic, English, French, German, Indonesian, Portuguese, Spanish, Turkish"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Llama 3.1, Llama3.1, llama 3"
 DATA_URL: "https://huggingface.co/datasets/manueltonneau/hateday"
 tags: 
 abstract: "To address the global challenge of online hate speech, prior research has developed detection models to flag such content on social media. However, due to systematic biases in evaluation datasets, the real-world effectiveness of these models remains unclear, particularly across geographies. We introduce HATEDAY, the first global hate speech dataset representative of social media settings, constructed from a random sample of all tweets posted on September 21, 2022 and covering eight languages..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for hate speech detection"
+data_metrics: "540k tweets; 20k tweets; 8 languages"
 ---
 # HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter
 

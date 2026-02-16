@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Edeh-Language Diversity Evaluating Language
 local_pdf: "[[PDFs/2025/2025-Edeh-Language Diversity Evaluating Language Usage and.pdf]]"
 publication: "WebSearch: language diversity evaluating AI performance African languages"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Nigerian, Rwandan, Ethiopian"
 languages_list: "Amharic, Kinyarwanda, Yoruba"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "This study examines the digital representation of African languages and the challenges this presents for current language detection tools. We evaluate their performance on Yoruba, Kinyarwanda, and Amharic. While these languages are spoken by millions, their online usage on conversational platforms is often sparse, heavily influenced by English, and not representative of the authentic, monolingual conversations prevalent among native speakers."
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "Llama 3.3"
 DATA_URL: "NA"
 research_topic: "Dialogue Systems"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Language Diversity: Evaluating Language Usage and AI Performance on African Languages in Digital Spaces
 

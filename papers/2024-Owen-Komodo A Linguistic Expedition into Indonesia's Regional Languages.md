@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Owen-Komodo A Linguistic Expedition into In
 local_pdf: "[[PDFs/2024/2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Javanese, Sundanese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, ChatGPT, Dolly, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-turbo, GPT-4, GPT4, Gemma, Llama, Llama-2, Llama-2-Chat, Llama-2., Llama2, Mixtral, Mixtral-8X7B, Phi-1"
 DATA_URL: "https://github.com/aisingapore/sealion"
 tags: 
 abstract: "The recent breakthroughs in Large Language Models (LLMs) have mostly focused on languages with easily available and sufficient resources, such as English. However, there remains a significant gap for languages that lack sufficient linguistic resources in the public domain. Our work introduces Komodo-7B, 7-billion-parameter Large Language Models designed to address this gap by seamlessly operating across Indonesian, English, and 11 regional languages in Indonesia."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Komodo: A Linguistic Expedition into Indonesia's Regional Languages
 

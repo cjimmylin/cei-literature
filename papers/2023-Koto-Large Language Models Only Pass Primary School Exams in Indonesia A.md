@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md"
 local_pdf: "[[PDFs/2023/2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Acehnese, Balinese, Banjarese, Buginese, Indonesian, Javanese, Madurese, Minangkabau, Sundanese, Toba Batak"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "14,981 questions"
 LLM_assessed: "BERT, BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama"
 DATA_URL: "https://github.com/fajri91/IndoMMLU"
 tags: 
 abstract: "Although large language models (LLMs) are often pre-trained on large-scale multilingual texts, their reasoning abilities and real-world knowledge are mainly evaluated based on English datasets. Assessing LLM capabilities beyond English is increasingly vital but hindered due to the lack of suitable datasets. In this work, we introduce IndoMMLU, the first multi-task language understanding benchmark for Indonesian culture and languages, which consists of questions from primary school to university..."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Multi-task benchmark"
+data_metrics: "14,981 questions"
 ---
 # Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU
 

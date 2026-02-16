@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-University-CUS-QA Local-Knowledge-Oriented 
 local_pdf: "[[PDFs/2025/2025-University-CUS-QA Local-Knowledge-Oriented Open-Ended Question Answering Dataset.pdf]]"
 publication: "arXiv / Hugging Face"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Czech, Slovak, Ukrainian"
 languages_list: "Czech, Slovak, Ukrainian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ALBERT, BERT, Claude 3.5 Sonnet, Claude 3.5, GPT-4o, Gemma, Gemma 3, LLaMA 3, LLaMA 3.1, LLaMA 3.2, LLaMA 3.2., LLaMA 3.3, LLaMA 4, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Mistral, Mistral 7B, Mistral v0, Mistral-7B, gemma3"
+DATA_URL: "https://huggingface.co/datasets/ufal"
+tags: 
+abstract: "We introduce CUS-QA, a benchmark for evaluation of open-ended regional question answering that encompasses both textual and visual modalities. We also provide strong baselines using state-of-the-art large language models (LLMs). Our dataset consists of manually curated questions and answers grounded in Wikipedia, created by native speakers from Czechia, Slovakia, and Ukraine, with accompanying English translations."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, BERT, Claude 3.5 Sonnet, Claude 3.5, GPT-4o, Gemma, Gemma 3, LLaMA 3, LLaMA 3.1, LLaMA 3.2, LLaMA 3.2., LLaMA 3.3, LLaMA 4, Llama-3.1, Llama-3.2, Llama-3.3, Llama-4, Mistral, Mistral 7B, Mistral v0, Mistral-7B, gemma3"
-DATA_URL: "https://huggingface.co/datasets/ufal"
-tags: 
-abstract: "We introduce CUS-QA, a benchmark for evaluation of open-ended regional question answering that encompasses both textual and visual modalities. We also provide strong baselines using state-of-the-art large language models (LLMs). Our dataset consists of manually curated questions and answers grounded in Wikipedia, created by native speakers from Czechia, Slovakia, and Ukraine, with accompanying English translations."
-research_topic: "Question Answering"
 ---
 # CUS-QA: Local-Knowledge-Oriented Open-Ended Question Answering Dataset
 

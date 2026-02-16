@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_extract: "PDF Extracts/2025/2025-Bolatbek-Detection of offensive content in 
 local_pdf: "[[PDFs/2025/2025-Bolatbek-Detection of offensive content in the.pdf]]"
 publication: "PeerJ Computer Science"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -36,16 +35,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Offensive content refers to messages which are socially unacceptable including vulgar or derogatory messages. As the use of social media increases worldwide, social media administrators are faced with the challenges of tackling the inclusion of offensive content, to ensure clean and non-abusive or offensive conversations on the platforms they provide. This work organizes and describes techniques used for the automated detection of offensive languages in social media content in recent times,..."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Offensive content refers to messages which are socially unacceptable including vulgar or derogatory messages. As the use of social media increases worldwide, social media administrators are faced with the challenges of tackling the inclusion of offensive content, to ensure clean and non-abusive or offensive conversations on the platforms they provide. This work organizes and describes techniques used for the automated detection of offensive languages in social media content in recent times,..."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Detection of offensive content in the Kazakh language using machine learning and deep learning approaches
 

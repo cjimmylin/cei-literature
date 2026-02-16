@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.md"
 local_pdf: "[[PDFs/2024/2024-Çakici-A cross-validation study of Turkish sentiment analysis datasets and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Turkish"
 languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Turkish, Uyghur"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ChatGPT, ELECTRA, GloVe, RoBERTa"
+DATA_URL: "https://github.com/sevvalckc/Turkish-SAD"
+tags: 
+abstract: "In recent years, sentiment analysis has gained increasing significance, prompting re­ searchers to explore datasets in various languages, including Turkish. However, the limited availability and reuse of Turkish datasets across studies has yielded highly diverse outcomes. To address this, we conducted a systematic review of sentiment analysis studies on Turkish text. Our search identified 78 relevant studies, from which we extracted over 80 datasets."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "80 datasets"
-LLM_assessed: "BERT, ChatGPT, ELECTRA, GloVe, RoBERTa"
-DATA_URL: "https://github.com/sevvalckc/Turkish-SAD"
-tags: 
-abstract: "In recent years, sentiment analysis has gained increasing significance, prompting re­ searchers to explore datasets in various languages, including Turkish. However, the limited availability and reuse of Turkish datasets across studies has yielded highly diverse outcomes. To address this, we conducted a systematic review of sentiment analysis studies on Turkish text. Our search identified 78 relevant studies, from which we extracted over 80 datasets."
-research_topic: "NLP & Representation Learning"
 ---
 # A cross-validation study of Turkish sentiment analysis datasets and tools | Language Resources and Evaluation | Springer Nature Link
 

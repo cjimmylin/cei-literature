@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Xiang-A Novel Deep Learning Framework with.
 local_pdf: "[[PDFs/2025/2025-Xiang-A Novel Deep Learning Framework with.pdf]]"
 publication: "WebSearch: Malayalam hate speech detection"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Malayalam"
 languages_list: "Malayalam"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Framework for hate speech detection in accented and low-resource Malayalam speech using balanced learning, multi-level validation, and robustness evaluation. Establishes transferable framework for multilingual content moderation. Malayalam speech-based hate speech detection. Addresses accent-specific challenges in content moderation relevant to cultural values enforcement."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # A Novel Deep Learning Framework with Advanced Feature Engineering for Hate Speech Detection in Accented Malayalam Speech
 

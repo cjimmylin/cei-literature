@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md"
 local_pdf: "[[PDFs/2025/2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: Code-switching
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4 Turbo, GPT-4-Turbo, GPT-4o, Llama, LLaMA2, LLaMA2-Chat, LLaMA2., LLaMA3, LLaMA3., Llama-2, Llama-3, Mistral, Mistral 7B, Mixtral 8x22B, Mixtral 8x7B, mistral-7b, mixtral-8x22b, mixtral-8x7b"
+DATA_URL: "https://github.com/fxsjy/jieba"
+tags: 
+abstract: "Code-mixing, the practice of switching between languages within a conversation, poses unique challenges for traditional NLP. Existing benchmarks are limited by their narrow language pairs and tasks, failing to adequately assess large language models’ (LLMs) codemixing abilities. Despite the recognized importance of code-mixing for multilingual users, research on LLMs in this context remains sparse. Additionally, current techniques for synthesizing code-mixed data are underdeveloped to generate..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for conversational ai"
 data_metrics: "4 prompt; 18 languages"
-LLM_assessed: "ALBERT, BERT, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-3.5-Turbo, GPT-4, GPT-4 Turbo, GPT-4-Turbo, GPT-4o, Llama, LLaMA2, LLaMA2-Chat, LLaMA2., LLaMA3, LLaMA3., Llama-2, Llama-3, Mistral, Mistral 7B, Mixtral 8x22B, Mixtral 8x7B, mistral-7b, mixtral-8x22b, mixtral-8x7b"
-DATA_URL: "https://github.com/fxsjy/jieba"
-tags: 
-abstract: "Code-mixing, the practice of switching between languages within a conversation, poses unique challenges for traditional NLP. Existing benchmarks are limited by their narrow language pairs and tasks, failing to adequately assess large language models’ (LLMs) codemixing abilities. Despite the recognized importance of code-mixing for multilingual users, research on LLMs in this context remains sparse. Additionally, current techniques for synthesizing code-mixed data are underdeveloped to generate..."
-research_topic: "NLP & Representation Learning"
 ---
 # CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,9 @@ key_contribution: "Proposes supervised fine-tuning pipeline aligning LLM agents 
 significance: "Empirically tests Kantian moral concern parameter in GPT-4o; applies fine-tuned agents to autonomous vehicles and algorithmic pricing"
 abstract: "Understanding how large language model (LLM) agents behave in strategic interactions is essential as these systems increasingly participate autonomously in economically and morally consequential decisions. We evaluate LLM preferences using canonical economic games, finding substantial deviations from human behavior. Models like GPT-4o show excessive cooperation and limited incentive sensitivity, while reasoning models, such as o3-mini, align more consistently with payoff-maximizing strategies."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4"
+DATA_URL: "NA"
+normative_ethics_benchmark: Borderline
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -43,9 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4"
-DATA_URL: "NA"
-normative_ethics_benchmark: Borderline
 ---
 # Aligning Large Language Model Agents with Rational and Moral Preferences: A Supervised Fine-Tuning Approach
 

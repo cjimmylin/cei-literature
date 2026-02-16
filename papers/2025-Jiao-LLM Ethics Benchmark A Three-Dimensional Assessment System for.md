@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +23,6 @@ publication: Nature Scientific Reports
 local_pdf: "[[PDFs/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: ""
@@ -32,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Claude 3.7 Sonnet, DeepSeek-V3, Llama-3.1, Gemini 2.5 Pro"
 DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git"
 tags: 
 abstract: "Three-dimensional framework evaluating moral reasoning through foundational moral principles, reasoning robustness, and value consistency. Adapts Moral Foundations Questionnaire, World Values Survey, and standardized moral dilemmas. Claude and GPT-4 attain highest scores."
 ethics_perspective: "Moral Reasoning & Psychology"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models
 

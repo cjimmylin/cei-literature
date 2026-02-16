@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,19 +35,19 @@ abstract: "Making moral judgments is an essential step toward developing ethical
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-2, GPT-4"
+DATA_URL: "NA"
+normative_ethics_benchmark: Yes
+ethics_perspective: "Moral Reasoning & Psychology"
 ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2, GPT-4"
-DATA_URL: "NA"
-normative_ethics_benchmark: Yes
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Rethinking Machine Ethics – Can LLMs Perform Moral Reasoning through the Lens of Moral Theories?
 

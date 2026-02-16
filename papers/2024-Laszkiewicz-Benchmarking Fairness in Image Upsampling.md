@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +35,18 @@ abstract: "Recent years have witnessed a rapid development of deep generative mo
 paper_summary: "Abstract: Recent years have witnessed a rapid development of deep gen- erative models for creating synthetic media, such as images and videos. While the practical applications of these models in everyday tasks  | Overview: Benchmarking the Fairness of Image Upsampling Methods Mike Laszkiewicz Mike.Laszkiewicz@rub.de Faculty of Computer Science, Ruhr University Bochum, North Rhine-Westphalia Germany Imant Daunhawer Depar | Methodology: PULSE pSp fair-pSp Post.Samp. DDRM (a) Models trained on UnfairFace. White Southeast Asian Latino Hispanic Middle Eastern Black East Asian Indian | Key Findings: based on ΔUCPR −𝜒2 and ΔUCPR-Cheb in Table 3. Note, that since the generation process in pSp and fair-pSp is deterministic,9 we cannot generate differ | Conclusions: This work advances toward a principled assessment of conditional generative models. Our contribution lies in the formulation of a comprehensive evalua"
 local_pdf: "[[PDFs/2024/2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
 ---
 # Benchmarking Fairness in Image Upsampling
 

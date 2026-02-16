@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "With the advancement of large language models (LLMs), the focus in Co
 paper_summary: "Abstract: With the advancement of large language mod- els (LLMs), the focus in Conversational AI has shifted from merely generating coherent and relevant responses to tackling more complex challenges, such as p | Overview: Exploring the Potential of Large Language Models to Simulate Personality Maria Molchanova* MIPT, Russia molchanova.ma.63@gmail.com Anna Mikhailova* MIPT, Russia anna.micj@gmail.com Anna Korzanova MIPT | Methodology: to evaluate one's personality traits due to its reliabil- ity and practicality (John et al., 2008). Compared to MBTI personality measurement, the Big  | Key Findings: From the LLM-generated data, there were selected about 288 text samples for human annotation in total. The amount of texts is equally distributed acro | Conclusions: Leveraging both questionnaire answering and text generation for testing LLM personality simulation skills gives a complex picture how LLM can answer c"
 local_pdf: "[[PDFs/2025/2025-Molchanova-Exploring the Potential of Large Language Models.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Mixtral, Claude"
+DATA_URL: "https://github.com/mary-silence/simulating_"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Mixtral, Claude"
-DATA_URL: "https://github.com/mary-silence/simulating_"
 ---
 # Exploring the Potential of Large Language Models to Simulate Personality
 

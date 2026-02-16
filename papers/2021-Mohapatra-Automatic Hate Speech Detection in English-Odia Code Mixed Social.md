@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "MDPI Applied Sciences"
 pdf_extract: "PDF Extracts/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md"
 local_pdf: "[[PDFs/2021/2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Odia"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Glove, Word2Vec"
+DATA_URL: "NA"
+tags: 
+abstract: "Hate speech on social media may spread quickly through online users and subsequently, may even escalate into local vile violence and heinous crimes. This paper proposes a hate speech detection model by means of machine learning and text mining feature extraction techniques. In this study, the authors collected the hate speech of English-Odia code mixed data from a Facebook public page and manually organized them into three classes."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "Glove, Word2Vec"
-DATA_URL: "NA"
-tags: 
-abstract: "Hate speech on social media may spread quickly through online users and subsequently, may even escalate into local vile violence and heinous crimes. This paper proposes a hate speech detection model by means of machine learning and text mining feature extraction techniques. In this study, the authors collected the hate speech of English-Odia code mixed data from a Facebook public page and manually organized them into three classes."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Automatic Hate Speech Detection in English-Odia Code Mixed Social Media Data Using Machine Learning Techniques
 

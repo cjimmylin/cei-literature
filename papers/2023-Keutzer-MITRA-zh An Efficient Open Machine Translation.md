@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "NLP4DH 2023 (Joint 3rd International Conference on Natural Language Processing for Digital Humanities and 8th International Workshop on Computational Linguistics for Uralic Languages), pages 266-277, Tokyo, Japan"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"
@@ -34,16 +33,20 @@ religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: 
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-research_topic: "Machine Translation"
 ---
 # MITRA-zh: An Efficient, Open Machine Translation Solution for Buddhist Chinese
 

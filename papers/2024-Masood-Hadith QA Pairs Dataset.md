@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ newtags: Islam
 tags: 
 abstract: "A dataset of question-answer pairs derived from authentic Hadith collections for training and evaluating QA systems on Islamic texts. The dataset provides structured QA pairs covering various topics from Hadith literature, enabling research on question answering systems that can accurately understand and respond to queries about Islamic traditions and teachings."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
+local_pdf: "[[PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Dataset"
+data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2024/2024-Masood-Hadith QA Pairs Dataset.md"
-local_pdf: "[[PDFs/2024/2024-Masood-Hadith QA Pairs Dataset.pdf]]"
 ---
 # Hadith QA Pairs Dataset
 

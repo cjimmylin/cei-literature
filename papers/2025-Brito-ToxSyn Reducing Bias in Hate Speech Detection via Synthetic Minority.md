@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech D
 local_pdf: "[[PDFs/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark text corpus for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "The development of robust hate speech detection systems remains limited by the lack of large-scale, fine-grained training data, especially for languages beyond English. Existing corpora typically rely on coarse toxic/non-toxic labels, and the few that capture hate directed at specific minority groups critically lack the non-toxic counterexamples (i.e., benign text about minorities) required to distinguish genuine hate from mere discussion."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese
 

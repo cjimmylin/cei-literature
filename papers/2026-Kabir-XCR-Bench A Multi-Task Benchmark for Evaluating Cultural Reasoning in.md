@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for 
 local_pdf: "[[PDFs/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: "Bengali, English, Multiple languages, multiple"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Claude 3.7, Claude-3.7, Claude-3.7-Sonnet, DeepSeek, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, LLaMA-3.3, Qwen, Qwen-2.5, Qwen-32B, claude 3.7 sonnet, deepseek llama3, deepseek chat, deepseek r1, GPT-3, llama3, qwen 2.5"
 DATA_URL: "NA"
 tags: 
 abstract: "Cross-cultural competence in large language models (LLMs) requires the ability to identify Culture-Specific Items (CSIs) and to adapt them appropriately across cultural contexts. Progress in evaluating this capability has been constrained by the scarcity of high-quality CSIannotated corpora with parallel cross-cultural sentence pairs. To address this limitation, we introduce XCR-Bench, a Cross(X)-Cultural Reasoning Benchmark consisting of 4."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # XCR-Bench: A Multi-Task Benchmark for Evaluating Cultural Reasoning in LLMs
 

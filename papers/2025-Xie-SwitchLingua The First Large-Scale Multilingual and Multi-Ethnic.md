@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.md"
 local_pdf: "[[PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian"
 languages_list: "Code-switching, English, Hindi, Multilingual"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4o, GPT-4, Qwen2"
+DATA_URL: "NA"
+tags: 
+abstract: "Code-switching (CS) is the alternating use of two or more languages within a conversation or utterance, often influenced by social context and speaker identity. This linguistic phenomenon poses challenges for Automatic Speech Recognition (ASR) systems, which are typically designed for a single language and struggle to handle multilingual inputs. The growing global demand for multilingual applications, including Code-Switching ASR (CSASR), Text-to-Speech (CSTTS), and Cross-Lingual Information..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for conversational ai"
 data_metrics: "12 languages"
-LLM_assessed: "GPT-4o, GPT-4, Qwen2"
-DATA_URL: "NA"
-tags: 
-abstract: "Code-switching (CS) is the alternating use of two or more languages within a conversation or utterance, often influenced by social context and speaker identity. This linguistic phenomenon poses challenges for Automatic Speech Recognition (ASR) systems, which are typically designed for a single language and struggle to handle multilingual inputs. The growing global demand for multilingual applications, including Code-Switching ASR (CSASR), Text-to-Speech (CSTTS), and Cross-Lingual Information..."
-research_topic: "Machine Translation"
 ---
 # SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset
 

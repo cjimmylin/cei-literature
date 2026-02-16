@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "When making everyday decisions, people are guided by their conscience
 paper_summary: "Abstract: When making everyday decisions, people are guided by their conscience, an internal sense of right and wrong. By contrast, artiﬁcial agents are not currently endowed with a moral sense. As a consequenc | Overview: What Would Jiminy Cricket Do? Towards Agents That Behave Morally Dan Hendrycks∗ UC Berkeley Mantas Mazeika* UIUC Andy Zou UC Berkeley Sahil Patel UC Berkeley Christine Zhu UC Berkeley Jesus Navarro UC | Methodology: Utility Shaping and show results in Table 3. Although Utility Shaping reaches a higher Percent Completion than CMPS, its Immorality metric is higher.  | Conclusions: We introduced Jiminy Cricket, a suite of environments for evaluating the moral behavior of arti- ﬁcial agents in the complex, semantically rich enviro"
 local_pdf: "[[PDFs/2022/2022-Hendrycks-What Would Jiminy Cricket Do.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-2, RoBERTa"
+DATA_URL: "https://github.com/hendrycks/jiminy-cricket"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-2, RoBERTa"
-DATA_URL: "https://github.com/hendrycks/jiminy-cricket"
 ---
 # What Would Jiminy Cricket Do? Towards Agents That Behave Morally
 

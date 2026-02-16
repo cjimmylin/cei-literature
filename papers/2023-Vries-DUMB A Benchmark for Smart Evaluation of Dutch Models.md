@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "arXiv / EMNLP 2023"
 pdf_extract: "PDF Extracts/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md"
 local_pdf: "[[PDFs/2023/2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Dutch"
 cultures_nationalities_list: "Dutch"
 languages_list: Dutch
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERTje, RobBERT, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/wjwillemse/dumb"
 tags: 
 abstract: "We introduce the Dutch Model Benchmark: DUMB. The benchmark includes a diverse set of datasets for low-, medium- and highresource tasks. The total set of nine tasks includes four tasks that were previously not available in Dutch. Instead of relying on a mean score across tasks, we propose Relative Error Reduction (RER), which compares the DUMB performance of language models to a strong baseline which can be referred to in the future even when assessing different sets of language models."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # DUMB: A Benchmark for Smart Evaluation of Dutch Models
 

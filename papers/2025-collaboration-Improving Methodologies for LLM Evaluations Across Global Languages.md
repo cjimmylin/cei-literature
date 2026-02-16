@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.md"
 local_pdf: "[[PDFs/2025/2025-collaboration-Improving Methodologies for LLM Evaluations Across Global Languages.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Iranian, French"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Iranian, French"
 languages_list: "Cantonese, English, Farsi, French, Japanese, Kiswahili, Korean, Malay, Mandarin Chinese, Telugu"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT4o, Gemma 2, Llama, Mistral Large"
 DATA_URL: "NA"
 tags: 
 abstract: "Joint multilingual evaluation exercise by international AI safety institutes (Singapore, Japan, Australia, Canada, EU, France, Kenya, South Korea, UK). Tested 2 open-weight models across 10 languages with over 6,000 prompts across 5 harm categories. French INESIA (ANSSI, Inria, LNE, PEReN) participated. Finds jailbreaking is a common weakness for non-English languages."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "6,000 prompts; 10 languages"
 ---
 # Improving Methodologies for LLM Evaluations Across Global Languages
 

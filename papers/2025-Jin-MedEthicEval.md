@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Addresses the gap in domain-specific safety evaluation, providing
 tags: 
 abstract: "Large language models (LLMs) demonstrate significant potential in advancing medical applications, yet their capabilities in addressing medical ethics challenges remain underexplored. This paper introduces MedEthicEval, a novel benchmark designed to systematically evaluate LLMs in the domain of medical ethics. Our framework encompasses two key components: knowledge, assessing the models’ grasp of medical ethics principles, and application, focusing on their ability to apply these principles..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Qwen, Llama-3"
+DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
+pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
+local_pdf: "[[PDFs/2025/2025-Jin-MedEthicEval.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Qwen, Llama-3"
-DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
-pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
-local_pdf: [[PDFs/2025/2025-Jin-MedEthicEval.pdf]]
 ---
 # MedEthicEval: Evaluating Large Language Models Based on Chinese Medical Ethics
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Hallucination in VLM"
@@ -16,7 +19,7 @@ last_author: "[[Oh, T]]"
 authors: "[[Moon, Y.]]; [[Nam, H.]]; [[Choi, W.]]; [[Oh, T.]]"
 url: "https://arxiv.org/abs/2407.13442"
 pdf_extract: "PDF Extracts/2024/2024-Moon-BEAF.md"
-local_pdf: [[PDFs/2024/2024-Moon-BEAF.pdf]]
+local_pdf: "[[PDFs/2024/2024-Moon-BEAF.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2407.13442.pdf"
 national_ethnic_cultural: American
 cultures_nationalities_list: "N/A"
@@ -29,18 +32,18 @@ tags:
 paper_summary: "Overview: BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models Moon Ye-Bin1∗ Nam Hyeon-Woo1∗ Wonseok Choi2 Tae-Hyun Oh1,2,3 1Dept. of EE, POSTECH, Korea 2Grad. School of AI,  | Key Findings: benchmark. This benchmark comprises a dataset enhanced along the vision-axis and metrics that are aware of changes. We manipulate scenes by selectivel | Conclusions: We present a comprehensive analysis of hallucination using our BEAF bench- mark. Unlike conventional hallucination benchmarks that measure accuracy by"
 abstract: "Vision language models (VLMs) perceive the world through a combination of a visual encoder and a large language model (LLM). The visual encoder, pre-trained on large-scale vision-text datasets, provides zero-shot generalization to visual data, and the LLM endows its high reasoning ability to VLMs. It leads VLMs to achieve high performance on wide benchmarks without fine-tuning, exhibiting zero or few-shot capability. However, recent studies show that VLMs are vulnerable to hallucination. This undesirable behavior degrades reliability and credibility, thereby making users unable to fully trust the output from VLMs. To enhance trustworthiness and better tackle the hallucination of VLMs, we curate a new evaluation dataset, called the BEfore-AFter hallucination dataset (BEAF), and introduce new metrics: True Understanding (TU), IGnorance (IG), StuBbornness (SB), and InDecision (ID). Unlike prior works that focus only on constructing questions and answers, the key idea of our benchmark is to manipulate visual scene information by image editing models and to design the metrics based on scene changes. This allows us to clearly assess whether VLMs correctly understand a given scene by observing the ability to perceive changes. We also visualize image-wise object relationship by virtue of our two-axis view: vision and text. Upon evaluating VLMs with our dataset, we observed that our metrics reveal different aspects of VLM hallucination that have not been reported before. Project page: \url{https://beafbench.github.io/}"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-research_topic: "Truthfulness & Factuality"
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: Yes
-data_description: "Benchmark for hallucination detection dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, Llama, Llama 2"
 DATA_URL: "https://beafbench.github.io/"
+ethics_overall: "No"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Truthfulness & Factuality"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for hallucination detection dataset"
+data_metrics: "Not specified"
 ---
  BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models
 

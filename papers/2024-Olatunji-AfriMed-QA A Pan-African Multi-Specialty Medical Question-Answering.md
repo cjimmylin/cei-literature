@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / ACL 2025
 local_pdf: "[[PDFs/2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Ethiopian, Ghanaian, Kenyan, Nigerian, South African"
 languages_list: "English"
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset for question answering"
-data_metrics: "15,000 questions"
 LLM_assessed: "GPT-4, GPT-3.5, Claude-3.5, Claude-3, Llama-3, Gemini, Gemma-2, Mistral, Phi-3"
 DATA_URL: "https://huggingface.co/datasets/intronhealth/afrimedqa_v2"
 tags: 
 abstract: "Recent advancements in large language model (LLM) performance on medical multiplechoice question (MCQ) benchmarks have stimulated interest from healthcare providers and patients globally. Particularly in low-andmiddle-income countries (LMICs) facing acute physician shortages and lack of specialists, LLMs offer a potentially scalable pathway to enhance healthcare access and reduce costs. However, their effectiveness in the Global South, especially across the African continent, remains to be..."
 ethics_perspective: "Applied Ethics"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "15,000 questions"
 ---
 # AfriMed-QA: A Pan-African, Multi-Specialty, Medical Question-Answering Benchmark Dataset
 

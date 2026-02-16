@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +36,18 @@ abstract: "The advancement of large language models (LLMs) has outpaced traditio
 paper_summary: "Abstract: The advancement of large language models (LLMs) has outpaced traditional evaluation methodolo- gies. This progress presents novel challenges, such as measuring human-like psychological constructs, mov | Overview: Large language model psychometrics: A systematic review of evaluation, validation, and enhancement Haoran Ye1, Jing Jin1, Yuhang Xie1, Xin Zhang2,3, Guojie Song 1,4,B 1State Key Laboratory of General  | Methodology: 20 | Key Findings: results. Beyond evaluation, § 7 introduces strategies for enhancing LLMs through psychometric insights. § 8 discusses emerging trends, challenges, and | Conclusions: 32 3 --- Page 4 --- 1 Introduction The advent of large language models (LLMs) represents a transformative breakthrough in AI. These systems exhibit ge"
 local_pdf: "[[PDFs/2025/2025-Ye-Large Language Model Psychometrics.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"
+DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "General Ethics"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, GPT-2, GPT-3, GPT-3.5, GPT-4"
-DATA_URL: "https://github.com/valuebyte-ai/Awesome-LLM-Psychometrics"
 ---
 # Large Language Model Psychometrics: A Systematic Review of Evaluation, Validation, and Enhancement
 

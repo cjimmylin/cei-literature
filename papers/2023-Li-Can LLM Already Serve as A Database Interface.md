@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Text-to-SQL parsing, which aims at converting natural language questi
 paper_summary: "Abstract: Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive  | Overview: Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs Jinyang Li1,♣‡, Binyuan Hui2,♣, Ge Qu1,♣, Jiaxi Yang2, Binhua Li2, Bowen Li6, Bailin Wang5, Bo | Key Findings: benchmark towards text-to-SQL robustness. In The Eleventh International Conference on Learning Representations, 2023. [7] Zhiyu Chen, Wenhu Chen, Char | Conclusions: In this paper, we introduce BIRD, a large-scale cross-domain, text-to-SQL benchmark with a particular focus on large database values. BIRD mitigates t"
 local_pdf: "[[PDFs/2023/2023-Li-Can LLM Already Serve as A Database Interface.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
+DATA_URL: "https://bird-bench.github.io/"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "33.4 gb"
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
-DATA_URL: "https://bird-bench.github.io/"
 ---
 # Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQLs
 

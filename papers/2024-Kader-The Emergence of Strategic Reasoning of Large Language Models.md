@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Kader-The Emergence of Strategic Reasoning 
 local_pdf: "[[PDFs/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As large language models (LLMs) have demonstrated strong reasoning abilities in structured tasks (e.g., coding and mathematics), we explore whether these abilities extend to strategic multi-agent environments. We investigate strategic reasoning capabilities – the process of choosing an optimal course of action by predicting and adapting to others’ actions – of LLMs by analyzing their performance in three classical games from behavioral economics."
+LLM_assessed: "GPT-4, Claude"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "As large language models (LLMs) have demonstrated strong reasoning abilities in structured tasks (e.g., coding and mathematics), we explore whether these abilities extend to strategic multi-agent environments. We investigate strategic reasoning capabilities – the process of choosing an optimal course of action by predicting and adapting to others’ actions – of LLMs by analyzing their performance in three classical games from behavioral economics."
-research_topic: "Other"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude"
-DATA_URL: "NA"
 ---
 # The Emergence of Strategic Reasoning of Large Language Models
 

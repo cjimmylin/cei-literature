@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -28,17 +30,17 @@ significance: "Conference paper bridging virtue ethics theory with practical rob
 external_pdf: N/A
 abstract: "This paper presents Virtue Ethics as a better option for implementing moral behavior on robots, based on advances in robotics including neural networks, machine learning, and robots with cognitive abilities. The authors argue that virtue ethics provides a suitable framework for machine ethics given modern AI capabilities."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Machine Ethics and the Architecture of Virtue
 

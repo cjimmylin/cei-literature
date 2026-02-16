@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / ACM FAccT 2025
 local_pdf: "[[PDFs/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Andrew-Using Collective Dialogues and AI to Find Common Ground Between.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli, Palestinian"
 languages_list: "Arabic, English, Hebrew"
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "A growing body of work has shown that AI-assisted methods — leveraging large language models, social choice methods, and collective dialogues — can help navigate polarization and surface common ground in controlled lab settings. But what can these approaches contribute in real-world contexts? We present a case study applying these techniques to find common ground between Israeli and Palestinian peacebuilders in the period following October 7th, 2023."
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Using Collective Dialogues and AI to Find Common Ground Between Israeli and Palestinian Peacebuilders
 

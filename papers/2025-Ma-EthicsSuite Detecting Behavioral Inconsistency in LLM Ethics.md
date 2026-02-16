@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +20,6 @@ doi: 10.1145/3722554
 url: "https://doi.org/10.1145/3722554"
 publication: "ACM TOSEM"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,17 +29,21 @@ moral_psychology: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md"
 local_pdf: "[[PDFs/2025/2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.pdf]]"
 newtags: "Ethics-Testing, Reflective-Equilibrium, Behavioral-Inconsistency, LLM-Evaluation"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "As the popularity of large language models (LLMs) soars across various applications, ensuring their alignment with human values has become a paramount concern. In particular, given that LLMs have great potential to serve as general-purpose AI assistants in daily life, their subtly unethical suggestions become a serious and real concern. Tackling the challenge of automatically testing and repairing unethical suggestions is thus demanding."
 ethics_perspective: "AI Safety & Alignment"
-data_description: "Benchmark for moral/ethical reasoning"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
 DATA_URL: "https://github.com/LLM-Ethics/EthicsSuite"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "Not specified"
 ---
 # EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions
 

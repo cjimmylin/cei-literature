@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Tibetan, Chinese"
 languages_list: Tibetan
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, LLaMA2"
+DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
+tags: 
+abstract: "In addressing challenges within the field of Natural Language Processing (NLP), supervised fine-tuning is an efficient technique that allows pre-trained Large Language Models to adapt to specific tasks. This is especially crucial for low-resource languages, such as Tibetan, where the demand for high-quality finetuning datasets is particularly pronounced. This paper introduces the Tibetan Instruction-Following Dataset (TIFD), comprising 11,535 JSON objects, each with four attributes: a unique..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "Alpaca, ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama, LLaMA2"
-DATA_URL: "https://github.com/tatsu-lab/stanford_alpaca"
-tags: 
-abstract: "In addressing challenges within the field of Natural Language Processing (NLP), supervised fine-tuning is an efficient technique that allows pre-trained Large Language Models to adapt to specific tasks. This is especially crucial for low-resource languages, such as Tibetan, where the demand for high-quality finetuning datasets is particularly pronounced. This paper introduces the Tibetan Instruction-Following Dataset (TIFD), comprising 11,535 JSON objects, each with four attributes: a unique..."
-research_topic: "Machine Learning"
 ---
 # TIFD: Tibetan Instruction-Following Dataset for Large Language Models Supervised Fine-Tuning
 

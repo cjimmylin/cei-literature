@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "American, Indian"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4"
 DATA_URL: "https://github.com/Khushangz/Cross-Cultural-Social-Norms-Dataset/"
 tags: 
 abstract: "Shame and pride are social emotions expressed across cultures to motivate and regulate people’s thoughts, feelings, and behaviors. In this paper, we introduce the first cross-cultural dataset of over 10k shame/pride-related expressions, with underlying social expectations from 5.4K Bollywood and Hollywood movies. We examine how and why shame and pride are expressed across cultures using a blend of psychology-informed language analysis combined with large language models."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice
 

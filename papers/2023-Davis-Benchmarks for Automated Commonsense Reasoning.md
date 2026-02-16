@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,18 +35,18 @@ abstract: "More than one hundred benchmarks have been developed to test the comm
 paper_summary: "Abstract: More than one hundred benchmarks have been developed to test the commonsense knowledge and commonsense reasoning abilities of artiﬁcial intelligence (AI) systems. However, these benchmarks are often ﬂ | Overview: Benchmarks for Automated Commonsense Reasoning: A Survey Ernest Davis Dept. of Computer Science New York University New York, NY 10012 davise@cs.nyu.edu February 24, 2023 Abstract More than one hundre"
 local_pdf: "[[PDFs/2023/2023-Davis-Benchmarks for Automated Commonsense Reasoning.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, ChatGPT, GPT-3"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Computer Vision & Multimodal"
+research_topic: "Other"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, GPT-3"
-DATA_URL: "NA"
 ---
 # Benchmarks for Automated Commonsense Reasoning: A Survey
 

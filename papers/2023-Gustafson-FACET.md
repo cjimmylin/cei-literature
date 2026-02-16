@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Enables granular analysis of performance disparities in vision ta
 tags: 
 abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models."
 DATE_ADDED: 20260208
+LLM_assessed: "CLIP ViT-B/32, ViT-B/16, Faster R-CNN ResNet-50-FPN, Mask R-CNN ResNet-50-FPN"
+DATA_URL: "https://facet.metademolab.com"
+pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
+local_pdf: "[[PDFs/2023/2023-Gustafson-FACET.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "CLIP ViT-B/32, ViT-B/16, Faster R-CNN ResNet-50-FPN, Mask R-CNN ResNet-50-FPN"
-DATA_URL: "https://facet.metademolab.com"
-pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
-local_pdf: [[PDFs/2023/2023-Gustafson-FACET.pdf]]
 ---
 # FACET: Fairness in Computer Vision Evaluation Benchmark
 

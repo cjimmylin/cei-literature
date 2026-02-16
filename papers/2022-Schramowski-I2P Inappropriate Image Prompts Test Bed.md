@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2022/2022-Schramowski-I2P Inappropriate Image Prompts
 local_pdf: "[[PDFs/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.pdf]]"
 publication: FAccT
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large datasets underlying much of current machine learning raise serious issues concerning inappropriate content such as offensive, insulting, threatening, or might otherwise cause anxiety. This calls for increased dataset documentation, e.g., using datasheets. They, among other topics, encourage to reflect on the composition of the datasets. So far, this documentation, however, is done manually and therefore can be tedious and error-prone, especially for large image datasets. Here we ask the arguably \"circular\" question of whether a machine can help us reflect on inappropriate content, answering Question 16 in Datasheets. To this end, we propose to use the information stored in pre-trained transformer models to assist us in the documentation process. Specifically, prompt-tuning based on a dataset of socio-moral values steers CLIP to identify potentially inappropriate content, therefore reducing human labor. We then document the inappropriate images found using word clouds, based on captions generated using a vision-language model. The documentations of two popular, large-scale computer vision datasets -- ImageNet and OpenImages -- produced this way suggest that machines can indeed help dataset creators to answer Question 16 on inappropriate image content."
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/ml-research/Q16"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Large datasets underlying much of current machine learning raise serious issues concerning inappropriate content such as offensive, insulting, threatening, or might otherwise cause anxiety. This calls for increased dataset documentation, e.g., using datasheets. They, among other topics, encourage to reflect on the composition of the datasets. So far, this documentation, however, is done manually and therefore can be tedious and error-prone, especially for large image datasets. Here we ask the arguably \"circular\" question of whether a machine can help us reflect on inappropriate content, answering Question 16 in Datasheets. To this end, we propose to use the information stored in pre-trained transformer models to assist us in the documentation process. Specifically, prompt-tuning based on a dataset of socio-moral values steers CLIP to identify potentially inappropriate content, therefore reducing human labor. We then document the inappropriate images found using word clouds, based on captions generated using a vision-language model. The documentations of two popular, large-scale computer vision datasets -- ImageNet and OpenImages -- produced this way suggest that machines can indeed help dataset creators to answer Question 16 on inappropriate image content."
-research_topic: "Computer Vision & Multimodal"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/ml-research/Q16"
 ---
 # I2P: Inappropriate Image Prompts Test Bed
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Shows that emotional drivers of political action are culture-spec
 tags: 
 abstract: "Understanding the interplay between emotions in language and user behaviors is critical. We study how moral emotions shape the political participation of users based on cross-cultural online petition data. To quantify moral emotions, we employ a context-aware NLP model that is designed to capture the subtle nuances of emotions across cultures. For model training, we construct and share a moral emotion dataset comprising nearly 50,000 petition sentences in Korean and English each, along with..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, BERT"
+DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
+pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
+local_pdf: "[[PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, BERT"
-DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
-pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
-local_pdf: "[[PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 ---
 # How Do Moral Emotions Shape Political Participation? A Cross-Cultural Analysis of Online Petitions Using Language Models
 

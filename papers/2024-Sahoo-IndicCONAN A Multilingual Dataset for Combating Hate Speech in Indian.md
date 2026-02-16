@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: AAAI
 pdf_extract: "PDF Extracts/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md"
 local_pdf: "[[PDFs/2024/2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, English (Indian context), Hindi"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset for hate speech detection"
-data_metrics: "2,500 examples"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/sahoonihar/IndicCONAN"
 tags: 
 abstract: "Hate speech (HS) is a growing concern in many parts of the world, including India, where it has led to numerous instances of violence and discrimination. The development of effective counter-narratives (CNs) is a critical step in combating hate speech, but there is a lack of research in this area, especially in non-English languages. In this paper, we introduce a new dataset, IndicCONAN, of counter-narratives against hate speech in Hindi and Indian English."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,19 +36,19 @@ significance: "Reveals fundamental limitations of RLHF for capturing situated hu
 tags: 
 abstract: "Work on value alignment aims to ensure that human values are respected by AI systems. However, existing approaches tend to rely on universal framings of human values that obscure the question of which values the systems should capture and align with, given the variety of operational situations. This often results in AI systems that privilege only a selected few while perpetuating problematic norms grounded on biases, ultimately causing equity and justice issues."
 DATE_ADDED: 20260208
+research_topic: "AI Safety & Alignment"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "AI Safety & Alignment"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF
 

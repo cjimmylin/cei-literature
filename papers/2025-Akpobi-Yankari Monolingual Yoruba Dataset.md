@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,10 @@ significance: "Addresses the critical lack of high-quality training data for Afr
 tags: 
 abstract: "This paper presents Yankari, a large-scale monolingual dataset for the Yoruba language, aimed at addressing the critical gap in Natural Language Processing (NLP) resources for this important West African language. Despite being spoken by over 30 million people, Yoruba has been severely underrepresented in NLP research and applications. We detail our methodology for creating this dataset, which includes careful source selection, automated quality control, and rigorous data cleaning processes."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/acflp/YANKARI"
+pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
+local_pdf: "[[PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,10 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://huggingface.co/datasets/acflp/YANKARI"
-pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
-local_pdf: "[[PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
 ---
 # Yankari: Monolingual Yoruba Dataset
 

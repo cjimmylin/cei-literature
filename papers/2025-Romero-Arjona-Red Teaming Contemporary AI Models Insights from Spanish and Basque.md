@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Romero-Arjona-Red Teaming Contemporary AI M
 local_pdf: "[[PDFs/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Spanish, American"
 cultures_nationalities_list: "Spanish, Basque, Chinese, American"
 languages_list: "Basque, Spanish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3"
+DATA_URL: "https://github.com/ollama/ollama"
+tags: 
+abstract: "The battle for AI leadership is on, with OpenAI in the United States and DeepSeek in China as key contenders. In response to these global trends, the Spanish government has proposed ALIA, a public and transparent AI infrastructure incorporating small language models designed to support Spanish and co-official languages such as Basque. This paper presents the results of Red Teaming sessions, where ten participants applied their expertise and creativity to manually test three of the latest models..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, DeepSeek, DeepSeek R1, GPT-4, GPT-4o, Llama 3"
-DATA_URL: "https://github.com/ollama/ollama"
-tags: 
-abstract: "The battle for AI leadership is on, with OpenAI in the United States and DeepSeek in China as key contenders. In response to these global trends, the Spanish government has proposed ALIA, a public and transparent AI infrastructure incorporating small language models designed to support Spanish and co-official languages such as Basque. This paper presents the results of Red Teaming sessions, where ten participants applied their expertise and creativity to manually test three of the latest models..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Red Teaming Contemporary AI Models: Insights from Spanish and Basque Perspectives
 

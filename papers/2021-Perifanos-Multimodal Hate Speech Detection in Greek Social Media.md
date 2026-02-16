@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "MDPI Multimodal Technologies and Interaction"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Greek"
 languages_list: Greek
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Presents a multimodal approach to hate speech detection combining BERT and ResNet for hateful, xenophobic, and racist speech in Greek aimed at refugees and migrants. Includes a new dataset of 4,004 memes for detecting hate speech in Greek and a tweet classification dataset."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Multimodal Hate Speech Detection in Greek Social Media
 

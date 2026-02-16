@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Gener
 local_pdf: "[[PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Generative AI systems produce a range of ethical and social risks. Evaluation of these risks is a critical step on the path to ensuring the safety of these systems. However, evaluation requires the availability of validated and established measurement approaches and tools. In this paper, we provide an empirical review of the methods and tools that are available for evaluating known safety of generative AI systems to date."
+LLM_assessed: "BLOOM, ChatGPT, Claude, GPT-3, GPT-4, Vicuna"
+DATA_URL: "https://dpmd.ai/EvalsRepo"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Generative AI systems produce a range of ethical and social risks. Evaluation of these risks is a critical step on the path to ensuring the safety of these systems. However, evaluation requires the availability of validated and established measurement approaches and tools. In this paper, we provide an empirical review of the methods and tools that are available for evaluating known safety of generative AI systems to date."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "BLOOM, ChatGPT, Claude, GPT-3, GPT-4, Vicuna"
-DATA_URL: "https://dpmd.ai/EvalsRepo"
 ---
 # Gaps in the Safety Evaluation of Generative AI
 

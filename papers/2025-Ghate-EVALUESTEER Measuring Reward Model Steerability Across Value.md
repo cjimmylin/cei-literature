@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Ghate-EVALUESTEER Measuring Reward Model St
 local_pdf: "[[PDFs/2025/2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As large language models (LLMs) are deployed globally, creating pluralistic systems that can accommodate the diverse preferences and values of users worldwide becomes essential. We introduce EVALUESTEER, a benchmark to measure LLMs’ and reward models’ (RMs) steerability towards users’ value and stylistic preference profiles grounded in psychology and human-LLM interaction literature. To address the gap in existing datasets that do not support controlled evaluations of RM steering, we..."
+LLM_assessed: "GPT-4, Gemini, Llama-3, Qwen"
+DATA_URL: "https://github.com/kshitishghate/EVALUESTEER-benchmark"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "As large language models (LLMs) are deployed globally, creating pluralistic systems that can accommodate the diverse preferences and values of users worldwide becomes essential. We introduce EVALUESTEER, a benchmark to measure LLMs’ and reward models’ (RMs) steerability towards users’ value and stylistic preference profiles grounded in psychology and human-LLM interaction literature. To address the gap in existing datasets that do not support controlled evaluations of RM steering, we..."
-ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Llama-3, Qwen"
-DATA_URL: "https://github.com/kshitishghate/EVALUESTEER-benchmark"
 ---
 # EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +33,10 @@ significance: "Shows that while models know *facts* about countries, they fail t
 pdf_extract: "PDF Extracts/2025/2025-Rao-NormAd.md"
 abstract: "To be effectively and safely deployed to global user populations, large language models (LLMs) may need to adapt outputs to user values and cultures, not just know about them. We introduce NORMAD, an evaluation framework to assess LLMs’ cultural adaptability, specifically measuring their ability to judge social acceptability across varying levels of cultural norm specificity, from abstract values to explicit social norms."
 paper_summary: "Abstract: To be effectively and safely deployed to global user populations, large language models (LLMs) may need to adapt outputs to user val- ues and cultures, not just know about them. We introduce NORMAD, a | Overview: NORMAD: A Framework for Measuring the Cultural Adaptability of Large Language Models Abhinav Rao*† Akhila Yerukola*† Vishwa Shah† Katharina Reinecke‡ Maarten Sap† †Language Technologies Institute, Car | Key Findings: As a pragmatic way for approaching culture, much research, in- cluding our own through NORMAD-ETI, often treats the dynamic and multifaceted nature of | Conclusions: In this work, we introduce a novel hierarchical evaluation framework, NORMAD, to assess the contextual adaptability of LLMs, a departure from most pri"
-local_pdf: [[PDFs/2025/2025-Rao-NormAd.pdf]]
+local_pdf: "[[PDFs/2025/2025-Rao-NormAd.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Mistral"
+DATA_URL: "https://github.com/Akhila-Yerukola/NormAd"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama, Llama-2, Mistral"
-DATA_URL: "https://github.com/Akhila-Yerukola/NormAd"
 ---
 # NormAd: A Framework for Measuring the Cultural Adaptability of Large Language Models
 

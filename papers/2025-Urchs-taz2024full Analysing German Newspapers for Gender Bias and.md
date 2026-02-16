@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "arXiv / ACL 2025"
 pdf_extract: "PDF Extracts/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md"
 local_pdf: "[[PDFs/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"
 languages_list: German
@@ -31,15 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://doi.org/10.5281/zenodo.15480855"
+tags: 
+abstract: "Open-access corpora are essential for advancing natural language processing (NLP) and computational social science (CSS). However, large-scale resources for German remain limited, restricting research on linguistic trends and societal issues such as gender bias. We present taz2024full, the largest publicly available corpus of German newspaper articles to date, comprising over 1.8 million texts from taz, spanning 1980 to 2024."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "https://doi.org/10.5281/zenodo.15480855"
-tags: 
-abstract: "Open-access corpora are essential for advancing natural language processing (NLP) and computational social science (CSS). However, large-scale resources for German remain limited, restricting research on linguistic trends and societal issues such as gender bias. We present taz2024full, the largest publicly available corpus of German newspaper articles to date, comprising over 1.8 million texts from taz, spanning 1980 to 2024."
 ---
 # taz2024full: Analysing German Newspapers for Gender Bias and Discrimination across Decades
 

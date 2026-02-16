@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_HAYES2024
@@ -28,17 +30,17 @@ significance: "Bridges Ricoeur's 'little ethics', MacIntyre's virtue ethics, and
 external_pdf: N/A
 abstract: "This paper addresses the question of how ethics and ethical frameworks can be used to avert the negative consequences of AI through guidance on human behaviour and technological system design. While a kind of AI ethics principlism has gained widespread acceptance, it still invites harsh rejections in recent scholarship. The paper explores the contribution to an ethics of AI made by a narrative philosophy and ethics of technology inspired by the 'little ethics' of Paul Ricoeur, and virtue ethics of Alasdair MacIntyre, most recently and promisingly built upon by Wessel Reijers and Mark Coeckelbergh. The objective is to examine whether a narrative and virtue-based ethics (or VPD, i.e., virtuous practice design) might be a plausible candidate for the foundation of an ethics of AI."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # From applied ethics and ethical principles to virtue and narrative in AI practices
 

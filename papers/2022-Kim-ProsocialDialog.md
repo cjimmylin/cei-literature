@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,19 +35,19 @@ pdf_extract: "PDF Extracts/0000/2022-Kim-ProsocialDialog.md"
 abstract: "Most existing dialogue systems fail to re- spond properly to potentially unsafe user ut- terances by either ignoring or passively agree- ing with them. To address this issue, we intro- duce PROSOCIALDIALOG, the ﬁrst large-scale multi-turn dialogue dataset to teach conversa- tional agents to respond to problematic con- tent following social norms. Covering diverse unethical, problematic, biased, and toxic situa- tions, PROSOCIALDIALOG contains responses that encourage prosocial behavior, grounded"
 paper_summary: "Abstract: Most existing dialogue systems fail to re- spond properly to potentially unsafe user ut- terances by either ignoring or passively agree- ing with them. To address this issue, we intro- duce PROSOCIALD | Overview: PROSOCIALDIALOG: A Prosocial Backbone for Conversational Agents Hyunwoo Kim♥♠∗ Youngjae Yu♥∗Liwei Jiang♥♣ Ximing Lu♥♣ Daniel Khashabi♦ Gunhee Kim♠ Yejin Choi♥♣ Maarten Sap♥♦ ♥Allen Institute for Artiﬁ | Key Findings: between dialogue agents on response generation for PROSOCIALDIALOG (in percentages; §5.2). Evaluation metrics. We conduct both auto- matic and human e | Conclusions: We introduced PROSOCIALDIALOG, a large-scale English dialogue dataset providing constructive feedback for prosocial behaviors aligned with com- monsen"
 local_pdf: "[[PDFs/2022/2022-Kim-ProsocialDialog.pdf]]"
+LLM_assessed: "GPT-3, InstructGPT, GPT-2, T5"
+DATA_URL: "https://hyunw.kim/prosocial-dialog"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "General Ethics"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_dataset: "Yes"
+data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, InstructGPT, GPT-2, T5"
-DATA_URL: "https://hyunw.kim/prosocial-dialog"
-DATE_ADDED: 20260207
 ---
 # ProsocialDialog: A Prosocial Backbone for Conversational Agents
 

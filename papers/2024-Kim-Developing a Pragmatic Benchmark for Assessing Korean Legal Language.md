@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Kim-Developing a Pragmatic Benchmark for As
 local_pdf: "[[PDFs/2024/2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language.pdf]]"
 publication: "arXiv / EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, American"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark text corpus"
-data_metrics: "510 examples; 288 examples; 2,510 examples"
 LLM_assessed: "ALBERT, BERT, Bloom, Claude, Claude-3, Claude-3-opus, Claude-3-sonnet, Claude-3.5, Claude-3.5-sonnet, GPT-3, GPT-3.5, GPT-4, GPT-4o, Llama, Llama-3, Llama3, Mistral, Qwen-72b, Qwen2, mistral-7b"
 DATA_URL: "https://github.com/haven-jeon/LegalQA"
 tags: 
 abstract: "Large language models (LLMs) have demonstrated remarkable performance in the legal domain, with GPT-4 even passing the Uniform Bar Exam in the U.S. However their efficacy remains limited for non-standardized tasks and tasks in languages other than English. This underscores the need for careful evaluation of LLMs within each legal system before application. Here, we introduce KBL, a benchmark for assessing the Korean legal language understanding of LLMs, consisting of (1) 7 legal knowledge tasks..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "510 examples; 288 examples; 2,510 examples"
 ---
 # Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models
 

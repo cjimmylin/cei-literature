@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2022/2022-Unknown-Hate Speech Detection in Thai Socia
 local_pdf: "[[PDFs/2022/2022-Unknown-Hate Speech Detection in Thai Social.pdf]]"
 publication: IEEE
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
 languages_list: "Thai"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Develops Thai hate-speech classification method with various loss functions on a corpus of ordinal-imbalanced Thai text, addressing the challenge of hate speech severity grading in Thai social media. Thai-specific hate speech dataset with ordinal severity labels. Relevant to nuanced toxicity evaluation."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology text corpus for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Hate Speech Detection in Thai Social Media with Ordinal-Imbalanced Text Classification
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,10 +31,6 @@ pdf_access_url: "https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pd
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "IEEE ICCIA 2024"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"
 languages_list: "Kazakh"
@@ -39,16 +38,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for destructive speech in Kazakh. Covers cyberbullying, racism, religious extremism, nationalistic extremism. Kazakh-specific hate speech detection dataset addressing culturally relevant categories of harmful content including nationalistic extremism and religious extremism specific to Kazakhstan."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "Dataset compiled from YouTube, Telegram, and VK using keyword-based crawling for destructive speech in Kazakh. Covers cyberbullying, racism, religious extremism, nationalistic extremism. Kazakh-specific hate speech detection dataset addressing culturally relevant categories of harmful content including nationalistic extremism and religious extremism specific to Kazakhstan."
-data_description: "Dataset"
+data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Kazakh Language Dataset for Hate Speech Detection on Social Media Text
 

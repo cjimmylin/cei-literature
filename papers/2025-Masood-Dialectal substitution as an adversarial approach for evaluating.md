@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Nature
 pdf_extract: "PDF Extracts/2025/2025-Masood-Dialectal substitution as an adversarial approach for evaluating.md"
 local_pdf: "[[PDFs/2025/2025-Masood-Dialectal substitution as an adversarial approach for evaluating.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, Qwen3, RoBERTa, XLNet"
+DATA_URL: "https://github.com/elnagara/HARD-Arabic-Dataset"
+tags: 
+abstract: "Recent advances in deep neural networks (DNNs) have led to significant enhancements in Arabic natural language processing (NLP). However, their robustness remains insufficiently explored, particularly in adversarial settings. Most existing Arabic NLP systems are predominantly trained on Modern Standard Arabic (MSA), whereas real-world Arabic text frequently incorporates dialectal forms that diverge lexically and morphologically."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, Qwen3, RoBERTa, XLNet"
-DATA_URL: "https://github.com/elnagara/HARD-Arabic-Dataset"
-tags: 
-abstract: "Recent advances in deep neural networks (DNNs) have led to significant enhancements in Arabic natural language processing (NLP). However, their robustness remains insufficiently explored, particularly in adversarial settings. Most existing Arabic NLP systems are predominantly trained on Modern Standard Arabic (MSA), whereas real-world Arabic text frequently incorporates dialectal forms that diverge lexically and morphologically."
-research_topic: "AI Safety & Alignment"
 ---
 # Dialectal substitution as an adversarial approach for evaluating Arabic NLP robustness
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and
 local_pdf: "[[PDFs/2025/2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kurdish"
 languages_list: "Kurdish (Sorani/Central)"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ELMo, GloVe, Llama, RoBERTa, Word2Vec"
 DATA_URL: "https://github.com/AsoSoft/AsoSoft-Library-py"
 tags: 
 abstract: "This paper enhances the study of sentiment analysis for the Central Kurdish language by integrating the Bidirectional Encoder Representations from Transformers (BERT) into Natural Language Processing techniques. Kurdish is a low-resourced language, having a high level of linguistic diversity with minimal computational resources, making sentiment analysis somewhat challenging. Earlier, this was done using a traditional word embedding model, such as Word2Vec, but with the emergence of new..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # KuBERT: Central Kurdish BERT Model and Its Application for Sentiment Analysis
 

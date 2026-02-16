@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ pdf: "https://aclanthology.org/2023.semeval-1.41.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 local_pdf: "[[PDFs/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "DeBERTa, RoBERTa, BERT"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "DeBERTa, RoBERTa, BERT"
-DATA_URL: "NA"
 ---
 # niceNLP at SemEval-2023 Task 10: Dual Model Alternate Pseudo-labeling Improves Your Predictions
 

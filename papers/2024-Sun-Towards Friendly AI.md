@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_SUN2024
@@ -28,17 +31,18 @@ significance: "Provides formal definitions of FAI with applications in XAI, priv
 external_pdf: "https://arxiv.org/pdf/2412.15114"
 abstract: "The paper examines Friendly AI (FAI) as a framework for more equitable AI development. It provides a thorough review of FAI, focusing on theoretical perspectives both for and against its development and offers formal definitions. The work discusses key applications in explainable AI, privacy, fairness, and affective computing while identifying technological challenges and proposing future research directions. The authors emphasize that FAI advancement is necessary for ensuring ethical and beneficial AI development. The 'as-if friendship' framework advocates that AI should emulate core virtues found in human friendships, such as empathy and helpfulness, promoting social functionality while positively influencing the development of human virtues."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Towards Friendly AI: A Comprehensive Review and New Perspectives on Human-AI Alignment
 

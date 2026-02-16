@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Addresses the 'Anglocentrism' of moral AI benchmarks, providing a
 tags: 
 abstract: "Grasping morality is vital in AI systems, particularly as they become more prevalent in humanfocused applications. Yet, research is scarce on this topic. This study presents the Emotionbased Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications."
 DATE_ADDED: 20260208
+LLM_assessed: "RoBERTa, Flan-T5"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
+local_pdf: "[[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "RoBERTa, Flan-T5"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
-local_pdf: [[PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]
 ---
 # EMoTES-3K: Emotion-based Morality in Tagalog and English Scenarios
 

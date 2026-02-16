@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "This work identifies 18 foundational challenges in assuring the align
 paper_summary: "Abstract: This work identifies 18 foundational challenges in assuring the alignment and safety of large language models (LLMs). These challenges are organized into three different categories: scientific underst | Overview: Published in Transactions on Machine Learning Research (09/2024) Foundational Challenges in Assuring Alignment and Safety of Large Language Models Usman Anwar1 Abulhair Saparov∗2, Javier Rando∗3, Dani | Methodology: also runs the risk of missing backup or secondary computational nodes from the identified circuits, which only becomes active when the primary computa | Key Findings: . . . . . . . . . . . . . . . . . . . . . . 55 | Conclusions: 110"
 local_pdf: "[[PDFs/2024/2024-Anwar-Foundational Challenges in Assuring Alignment and.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ALBERT, BERT, ChatGPT, Claude, Claude-2., GPT-4, Gemini, Llama, PALM-2, PaLM"
+DATA_URL: "https://github.com/AntonOsika/gpt-engineer"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, BERT, ChatGPT, Claude, Claude-2., GPT-4, Gemini, Llama, PALM-2, PaLM"
-DATA_URL: "https://github.com/AntonOsika/gpt-engineer"
 ---
 # Foundational Challenges in Assuring Alignment and Safety of Large Language Models
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ key_contribution: "Critiques the feasibility of programming Kantian ethics (cate
 significance: "Questions whether AI systems can meet the cognitive demands of Kantian universalization and autonomy principles"
 abstract: "Tae Wan Kim, John Hooker, and Thomas Donaldson make an attempt, in recent articles, to solve the alignment problem. As they define the alignment problem, it is the issue of how to give AI systems moral intelligence. They contend that one might program machines with a version of Kantian ethics cast in deontic modal logic. On their view, machines can be aligned with human values if such machines obey principles of universalization and autonomy, as well as a deontic utilitarian principle."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -42,8 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # AI, alignment, and the categorical imperative
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Dwivedi-EtiCor++ Towards Understanding Etiq
 local_pdf: "[[PDFs/2025/2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,15 +29,19 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "In recent years, researchers have started analyzing the cultural sensitivity of LLMs. In this respect, Etiquettes have been an active area of research. Etiquettes are region-specific and are an essential part of the culture of a region; hence, it is imperative to make LLMs sensitive to etiquettes. However, there needs to be more resources in evaluating LLMs for their understanding and bias with regard to etiquettes. In this resource paper, we introduce EtiCor++, a corpus of etiquettes worldwide."
+LLM_assessed: "Llama-3, Phi, Gemma, Gemini, GPT-4"
+DATA_URL: "https://github.com/Exploration-Lab/Eticor-Plus-Plus"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "In recent years, researchers have started analyzing the cultural sensitivity of LLMs. In this respect, Etiquettes have been an active area of research. Etiquettes are region-specific and are an essential part of the culture of a region; hence, it is imperative to make LLMs sensitive to etiquettes. However, there needs to be more resources in evaluating LLMs for their understanding and bias with regard to etiquettes. In this resource paper, we introduce EtiCor++, a corpus of etiquettes worldwide."
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Phi, Gemma, Gemini, GPT-4"
-DATA_URL: "https://github.com/Exploration-Lab/Eticor-Plus-Plus"
 ---
 # EtiCor++: Towards Understanding Etiquettical Bias in LLMs
 

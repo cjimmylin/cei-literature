@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "ScienceDirect / Data in Brief"
 pdf_extract: "PDF Extracts/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.md"
 local_pdf: "[[PDFs/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: Spanish
@@ -34,16 +33,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://zenodo.org/records/15101403"
 tags: 
 abstract: "Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Spanish Is Not Just One: A Dataset of Spanish Dialect Recognition for LLMs
 

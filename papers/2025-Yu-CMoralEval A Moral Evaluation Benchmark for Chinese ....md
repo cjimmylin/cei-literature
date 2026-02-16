@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +24,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md"
 local_pdf: "[[PDFs/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: Chinese
@@ -33,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning dataset"
-data_metrics: "14,964 instances; 15,424 instances"
 LLM_assessed: "Alpaca, Alpaca-2, Baichuan 2, Baichuan2, ChatGPT, InternLM, InternLM2, LLAMA2, Llama, Llama-2, Mistral-7B"
 DATA_URL: "https://github.com/InternLM/InternLM"
 tags: 
 abstract: "What a large language model (LLM) would respond in ethically relevant context? In this paper, we curate a large benchmark CMoralEval for morality evaluation of Chinese LLMs. The data sources of CMoralEval are two-fold: 1) a Chinese TV program discussing Chinese moral norms with stories from the society and 2) a collection of Chinese moral anomies from various newspapers and academic papers on morality."
 ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "14,964 instances; 15,424 instances"
 ---
 # CMoralEval: A Moral Evaluation Benchmark for Chinese ...
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Ensuring the safety of large language models (LLMs) is critical for r
 paper_summary: "Abstract: Ensuring the safety of large language models (LLMs) is critical for responsible deployment, yet existing evaluations often prioritize performance over identifying failure modes. We introduce Phare, a  | Overview: Phare: A Safety Probe for Large Language Models Pierre Le Jeune Giskard AI pierre@giskard.ai Benoît Malézieux Giskard AI benoit@giskard.ai Weixuan Xiao Giskard AI weixuan@giskard.ai Matteo Dora Giskar | Methodology: The high-level structure of our framework is as summarized in Figure 1. The dataset generation pipeline comprises three distinct steps: (1) collection | Key Findings: Figure 1: Phare dataset generation and LLMs evaluation methodology. offer insights for improving model safety. To ensure reproducibility, we provide a"
 local_pdf: "[[PDFs/2025/2025-Le Jeune-Phare A Safety Probe for Large Language Models.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, Claude, Mistral, Llama, Llama-3, Grok, Qwen, DeepSeek"
+DATA_URL: "https://huggingface.co/datasets/giskardai/phare, https://github.com/giskard-ai/phare"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, Claude, Mistral, Llama, Llama-3, Grok, Qwen, DeepSeek"
-DATA_URL: "https://huggingface.co/datasets/giskardai/phare, https://github.com/giskard-ai/phare"
 ---
 # Phare: A Safety Probe for Large Language Models
 

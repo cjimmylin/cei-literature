@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Canaverde-LegalBench.PT A Benchmark for Por
 local_pdf: "[[PDFs/2025/2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Portuguese"
 languages_list: Portuguese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, Claude, Claude-3, Claude-3-Opus, Claude-3.5, Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o-mini, Llama, Llama 3, Llama-3.1, Mixtral, Mixtral-8x7B"
 DATA_URL: "NA"
 tags: 
 abstract: "The recent application of LLMs to the legal field has spurred the creation of benchmarks across various jurisdictions and languages. However, no benchmark has yet been specifically designed for the Portuguese legal system. In this work, we present LegalBench.PT, the first comprehensive legal benchmark covering key areas of Portuguese law. To develop LegalBench.PT, we first collect longform questions and answers from real law exams, and then use GPT-4o to convert them into multiple-choice,..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # LegalBench.PT: A Benchmark for Portuguese Law
 

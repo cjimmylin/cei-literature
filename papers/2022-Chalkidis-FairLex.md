@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,9 +30,11 @@ key_contribution: "Created FairLex, a multilingual benchmark (EN, DE, FR, IT, ZH
 significance: "Shows that 'legal fairness' is jurisdictional – what counts as bias in Swiss law differs from US law, and models trained on one don't transfer to the other."
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Chalkidis-FairLex.md"
-local_pdf: [[PDFs/2022/2022-Chalkidis-FairLex.pdf]]
+local_pdf: "[[PDFs/2022/2022-Chalkidis-FairLex.pdf]]"
 abstract: "We present a benchmark suite of four datasets for evaluating the fairness of pre-trained language models and the techniques used to ﬁne-tune them for downstream tasks. Our benchmarks cover four jurisdictions (European Council, USA, Switzerland, and China), ﬁve languages (English, German, French, Italian and Chinese) and fairness across ﬁve attributes (gender, age, region, language, and legal area). In our experiments, we evaluate pretrained language models using several grouprobust ﬁne-tuning..."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, elmo"
+DATA_URL: "https://github.com/coastalcph/fairlex"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, elmo"
-DATA_URL: "https://github.com/coastalcph/fairlex"
 ---
 # FairLex: A Multilingual Benchmark for Evaluating Fairness in Legal Text Processing
 

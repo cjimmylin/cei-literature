@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ abstract: "Decision-making agents based on pre-trained Large Language Models (LL
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Tennant-Moral Intrinsic Rewards for Alignment.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Gemma
+DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -42,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: Gemma
-DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 ---
 # Moral Intrinsic Rewards for Alignment
 

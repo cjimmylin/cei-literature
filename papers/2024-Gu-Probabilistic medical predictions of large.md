@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ tags:
 research_topic: Other
 abstract: "Large Language Models (LLMs) have shown promise in clinical applications through prompt engineering, allowing flexible clinical predictions. However, they struggle to produce reliable prediction probabilities, which are crucial for transparency and decision-making. While explicit prompts can lead LLMs to generate probability estimates, their numerical reasoning limitations raise concerns about reliability."
 DATE_ADDED: 20260208
+LLM_assessed: "Qwen, Llama-3, Gemma, Mistral, Phi"
+DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
+pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
+local_pdf: "[[PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Qwen, Llama-3, Gemma, Mistral, Phi"
-DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
-pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
-local_pdf: "[[PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
 ---
 # Probabilistic medical predictions of large language models
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultur
 local_pdf: "[[PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Korean, Cross-cultural"
 languages_list: Korean
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark annotated dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "Claude-3, Claude-3-Opus, GPT-4, GPT-4-Turbo, GPT-4o, InternLM-XC2, InternLM-XComposer2, Llama-3.2, gpt-4o-mini"
 DATA_URL: "https://huggingface.co/datasets/ddehun/k-viscuit"
 tags: 
 abstract: "To create culturally inclusive vision-language models (VLMs), developing a benchmark that tests their ability to address culturally relevant questions is essential. Existing approaches typically rely on human annotators, making the process labor-intensive and creating a cognitive burden in generating diverse questions. To address this, we propose a semi-automated framework for constructing cultural VLM benchmarks, specifically targeting multiple-choice QA."
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration
 

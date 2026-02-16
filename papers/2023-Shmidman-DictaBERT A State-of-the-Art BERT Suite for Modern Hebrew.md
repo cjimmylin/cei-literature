@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT 
 local_pdf: "[[PDFs/2023/2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli"
 languages_list: Hebrew
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ChatGPT"
+DATA_URL: "https://github.com/IAHLT/iahlt.github"
+tags: 
+abstract: "We present DictaBERT, a new state-of-theart pre-trained BERT model for modern Hebrew, outperforming existing models on most benchmarks. Additionally, we release three fine-tuned versions of the model, designed to perform three specific foundational tasks in the analysis of Hebrew texts: prefix segmentation, morphological tagging and question answering. These fine-tuned models allow any developer to perform prefix segmentation, morphological tagging and question answering of a Hebrew input with..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT"
-DATA_URL: "https://github.com/IAHLT/iahlt.github"
-tags: 
-abstract: "We present DictaBERT, a new state-of-theart pre-trained BERT model for modern Hebrew, outperforming existing models on most benchmarks. Additionally, we release three fine-tuned versions of the model, designed to perform three specific foundational tasks in the analysis of Hebrew texts: prefix segmentation, morphological tagging and question answering. These fine-tuned models allow any developer to perform prefix segmentation, morphological tagging and question answering of a Hebrew input with..."
-research_topic: "NLP & Representation Learning"
 ---
 # DictaBERT: A State-of-the-Art BERT Suite for Modern Hebrew
 

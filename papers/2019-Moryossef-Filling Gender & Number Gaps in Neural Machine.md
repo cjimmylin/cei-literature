@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ abstract: "When translating from a language that does not morphologically mark i
 pdf_extract: "PDF Extracts/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.md"
 local_pdf: "[[PDFs/2019/2019-Moryossef-Filling Gender & Number Gaps in Neural Machine.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Filling Gender & Number Gaps in Neural Machine Translation with Black-box Context Injection
 

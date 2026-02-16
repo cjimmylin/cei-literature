@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Demonstrates that existing benchmarks underestimate fairness risk
 tags: 
 abstract: "Recent advancements in Large Language Models (LLMs) have significantly enhanced interactions between users and models. These advancements concurrently underscore the need for rigorous safety evaluations due to the manifestation of social biases, which can lead to harmful societal impacts. Despite these concerns, existing benchmarks may overlook the intrinsic weaknesses of LLMs, which can generate biased responses even with simple adversarial instructions."
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
+DATA_URL: "https://github.com/ekgus9/FLEX"
+pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
+local_pdf: "[[PDFs/2025/2025-Jung-FLEX.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
-DATA_URL: "https://github.com/ekgus9/FLEX"
-pdf_extract: "PDF Extracts/2025/2025-Jung-FLEX.md"
-local_pdf: [[PDFs/2025/2025-Jung-FLEX.pdf]]
 ---
 # FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models
 

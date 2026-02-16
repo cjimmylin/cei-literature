@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "Natural Language Processing (Elsevier)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multilingual"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Analyzes sacred texts from 14 different belief systems using lexical, sentiment, and correlation assessment. Finds that despite archaic language complexity, sacred texts show similar themes, historical contexts, and emotional tones across cultures. Highlights culturally-specific terms and explores depictions of fauna and flora revealing spatio-temporal influences. Broadest multi-religion NLP comparative analysis found, though uses traditional NLP rather than LLM evaluation."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Lexical, Sentiment and Correlation Analysis of Sacred Writings: A Tale of Cultural Influxes and Different Ways to Interpret Reality
 

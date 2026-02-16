@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.md"
 local_pdf: "[[PDFs/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: French
@@ -29,16 +28,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for ai safety dataset for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "multiple LLMs"
 DATA_URL: "https://huggingface.co/datasets/ministere-culture/comparia-conversations"
 tags: 
 abstract: "Large Language Models (LLMs) often show reduced performance, cultural alignment, and safety robustness in non-English languages, partly because English dominates both pre-training data and human preference alignment datasets. Training methods like Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) require human preference data, which remains scarce and largely non-public for many languages beyond English."
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for conversational ai"
+data_metrics: "Not specified"
 ---
 # compar:IA: The French Government's LLM arena to collect French-language human prompts and preference data
 

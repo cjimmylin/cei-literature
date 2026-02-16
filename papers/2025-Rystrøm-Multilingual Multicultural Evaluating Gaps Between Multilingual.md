@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Rystrøm-Multilingual Multicultural Evaluat
 local_pdf: "[[PDFs/2025/2025-Rystrøm-Multilingual Multicultural Evaluating Gaps Between Multilingual.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Dutch, American, Brazilian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Danish, Dutch, American, Brazilian, Multicultural"
 languages_list: "Danish, Dutch, English, Portuguese"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large Language Models (LLMs) are becoming increasingly capable across global languages. However, the ability to communicate across languages does not necessarily translate to appropriate cultural representations. A key concern is US-centric bias, where LLMs reflect US rather than local cultural values. We propose a novel methodology that compares LLM-generated response distributions against population-level opinion data from the World Value Survey across four languages (Danish, Dutch, English,..."
+LLM_assessed: "GPT-3, GPT-4, Gemma, Llama, gpt-3.5-turbo"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Large Language Models (LLMs) are becoming increasingly capable across global languages. However, the ability to communicate across languages does not necessarily translate to appropriate cultural representations. A key concern is US-centric bias, where LLMs reflect US rather than local cultural values. We propose a novel methodology that compares LLM-generated response distributions against population-level opinion data from the World Value Survey across four languages (Danish, Dutch, English,..."
-data_description: "Evaluation framework"
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-4, Gemma, Llama, gpt-3.5-turbo"
-DATA_URL: "NA"
-ethics_perspective: "Social & Cultural Values"
 ---
 # Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs
 

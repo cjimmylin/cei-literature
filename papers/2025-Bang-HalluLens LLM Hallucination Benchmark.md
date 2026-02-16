@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,18 +32,18 @@ paper_summary: "Overview: HalluLens: LLM Hallucination Benchmark Yejin Bang3,∗
 local_pdf: "[[PDFs/2025/2025-Bang-HalluLens LLM Hallucination Benchmark.pdf]]"
 abstract: "Large language models (LLMs) often generate responses that deviate from user input or training data, a phenomenon known as \"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Mistral, Gemma, Qwen, Claude, GPT-4"
+DATA_URL: "https://github.com/facebookresearch/HalluLens"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Truthfulness & Factuality"
+research_topic: "AI Safety & Alignment"
 is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for hallucination detection text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Mistral, Gemma, Qwen, Claude, GPT-4"
-DATA_URL: "https://github.com/facebookresearch/HalluLens"
 ---
 # HalluLens: LLM Hallucination Benchmark
 

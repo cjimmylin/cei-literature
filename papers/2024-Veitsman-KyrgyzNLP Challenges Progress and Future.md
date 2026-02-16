@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md"
 local_pdf: "[[PDFs/2024/2024-Veitsman-KyrgyzNLP Challenges Progress and Future.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kyrgyz"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Alpaca, BERT, ChatGPT, RoBERTa"
+DATA_URL: "https://github.com/Akyl-AI/kyrgyz-alpaca"
+tags: 
+abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance,..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Alpaca, BERT, ChatGPT, RoBERTa"
-DATA_URL: "https://github.com/Akyl-AI/kyrgyz-alpaca"
-tags: 
-abstract: "Large language models (LLMs) have excelled in numerous benchmarks, advancing AI applications in both linguistic and non-linguistic tasks. However, this has primarily benefited well-resourced languages, leaving less-resourced ones (LRLs) at a disadvantage. In this paper, we highlight the current state of the NLP field in the specific LRL: кыргыз тили. Human evaluation, including annotated datasets created by native speakers, remains an irreplaceable component of reliable NLP performance,..."
-research_topic: "NLP & Representation Learning"
 ---
 # KyrgyzNLP: Challenges, Progress, and Future
 

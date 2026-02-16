@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,9 @@ abstract: "As AI models are increasingly deployed across diverse real-world scen
 paper_summary: "Abstract: As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate | Overview: AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement Zhexin Zhang∗1, Leqi Lei∗1, Junxiao Yang∗1, Xijie Huang∗2, Yida Lu1, Shiyao Cui1, Renmiao Chen1, Qinglin Zhang1, Xinyuan | Methodology: Coverage. AISafetyLab offers a broad array of attack, defense, and evaluation techniques. Notably, compared to existing toolkits, we are the first to  | Key Findings: methodologies for AI safety. AISafetyLab fea- tures an intuitive interface that enables devel- opers to seamlessly apply various techniques while main"
 local_pdf: "[[PDFs/2025/2025-Zhang-AISafetyLab.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Vicuna
+DATA_URL: "https://github.com/thu-coai/AISafetyLab"
+authors_incomplete: false
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,9 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: Vicuna
-DATA_URL: "https://github.com/thu-coai/AISafetyLab"
-authors_incomplete: false
 ---
 # AISafetyLab: A Comprehensive Framework for Evaluating and Mitigating AI Safety Risks
 

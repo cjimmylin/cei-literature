@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,19 +35,19 @@ significance: "First systematic application of experimental psychology methods t
 tags: 
 abstract: "Large language models (LLMs) exhibit expert-level performance in tasks across a wide range of different domains. Ethical issues raised by LLMs and the need to align future versions makes it important to know how state of the art models reason about moral and legal issues. In this paper, we employ the methods of experimental psychology to probe into this question. We replicate eight studies from the experimental literature with instances of Google's Gemini Pro, Anthropic's Claude 2."
 DATE_ADDED: 20260208
+research_topic: "LLM Moral Reasoning"
+LLM_assessed: "GPT-4, Claude, Llama-2, Gemini"
+DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "LLM Moral Reasoning"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Llama-2, Gemini"
-DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Exploring the Psychology of LLMs' Moral and Legal Reasoning
 

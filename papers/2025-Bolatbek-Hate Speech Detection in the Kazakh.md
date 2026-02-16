@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2025/2025-Bolatbek-Hate Speech Detection in the Kazak
 local_pdf: "[[PDFs/2025/2025-Bolatbek-Hate Speech Detection in the Kazakh.pdf]]"
 publication: IEEE
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"
 languages_list: "Kazakh"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Modern text data processing and classification methods require extensive use of machine learning and neural networks. Categorizing text into different classes has become a crucial task in many fields. This paper presents a multi-class text classification model utilizing a Modified TF-IDF (MTF-IDF) approach in combination with Long Short-Term Memory (LSTM) neural networks, XGBoost, and MLPClassifier algorithms."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Hate Speech Detection in the Kazakh Language Utilizing an Attention-Based BERT Model
 

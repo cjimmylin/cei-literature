@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_YU2026
@@ -27,17 +30,18 @@ significance: "Demonstrates moral understanding in LLMs emerges as latent patter
 external_pdf: "https://arxiv.org/pdf/2601.05437"
 abstract: "The researchers investigated whether LLMs genuinely encode moral reasoning or merely replicate surface-level moral language. Employing Moral Foundations Theory as their analytical lens, they examined two instruction-tuned models using three complementary techniques: layer-specific analysis of moral concept representations, sparse autoencoders to identify features supporting moral reasoning, and causal interventions via steering. Their findings demonstrate that both models represent moral foundations in a structured, layer-dependent way that aligns with human judgments, with sparse features showing semantic connections to specific moral domains. The work suggests moral understanding in LLMs emerges as a latent pattern from the statistical regularities of language alone rather than mimicry."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Moral Foundations Theory analysis on instruction-tuned models"
-data_metrics: "Layer-specific representations, sparse autoencoder features, causal interventions"
 LLM_assessed: "Llama-3, Qwen"
 DATA_URL: "https://github.com/AiChiMoCha/MFT_LLMs"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Tracing Moral Foundations in Large Language Models
 

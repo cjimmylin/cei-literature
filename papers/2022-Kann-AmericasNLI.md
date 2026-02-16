@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ tags:
 abstract: "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al."
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
-local_pdf: [[PDFs/2022/2022-Kann-AmericasNLI.pdf]]
+local_pdf: "[[PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/abteen/americasnli"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Machine Translation"
-is_benchmark: "No"
+is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Evaluation methodology dataset"
-data_metrics: "10 languages"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://github.com/abteen/americasnli"
+data_description: "Multilingual benchmark dataset"
+data_metrics: "Not specified"
 ---
 # AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas
 

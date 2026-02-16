@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / ACL 2025
 local_pdf: "[[PDFs/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4o, CogVLM2, InternVL-Chat-V1.5, MiniCPM-V2.5, QwenVL-Chat, InternLM-XComposer2-VL, DeepSeek-VL, Monkey-Chat, ShareGPT4V, LLaVA-v1.5, Yi-VL, Phi-3-Vision, InstructBLIP, InternVL2-Llama3, Qwen2-VL, Claude"
+DATA_URL: "https://github.com/THUDM/AlignMMBench"
+tags: 
+abstract: "Evaluating the alignment capabilities of large Vision-Language Models (VLMs) is essential for determining their effectiveness as helpful assistants. However, existing benchmarks primarily focus on basic abilities using nonverbal methods, such as yes-no and multiple-choice questions. In this paper, we address this gap by introducing AlignMMBench, which provides more nuanced evaluations of alignment capabilities and is the first benchmark specifically designed for Chinese visual contexts."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "4,978 question"
-LLM_assessed: "GPT-4o, CogVLM2, InternVL-Chat-V1.5, MiniCPM-V2.5, QwenVL-Chat, InternLM-XComposer2-VL, DeepSeek-VL, Monkey-Chat, ShareGPT4V, LLaVA-v1.5, Yi-VL, Phi-3-Vision, InstructBLIP, InternVL2-Llama3, Qwen2-VL, Claude"
-DATA_URL: "https://github.com/THUDM/AlignMMBench"
-tags: 
-abstract: "Evaluating the alignment capabilities of large Vision-Language Models (VLMs) is essential for determining their effectiveness as helpful assistants. However, existing benchmarks primarily focus on basic abilities using nonverbal methods, such as yes-no and multiple-choice questions. In this paper, we address this gap by introducing AlignMMBench, which provides more nuanced evaluations of alignment capabilities and is the first benchmark specifically designed for Chinese visual contexts."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models
 

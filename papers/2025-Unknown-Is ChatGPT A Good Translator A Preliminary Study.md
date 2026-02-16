@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: ResearchGate
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Uyghur"
 languages_list: "English, Uyghur"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
+tags: 
+abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
-tags: 
-abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
-research_topic: "Other"
 ---
 # Is ChatGPT A Good Translator? A Preliminary Study
 

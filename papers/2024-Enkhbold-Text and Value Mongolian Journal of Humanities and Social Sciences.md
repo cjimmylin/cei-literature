@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: LSRC0640
 type: conferencePaper
 short_title: "Text and Value | Mongolian Journal of Humanities and Social Sciences"
 year: 2025
-first_author: [[Enkhbold]]
+first_author: "[[Enkhbold]]"
 last_author: "[[Enkhbold]]"
 authors: Enkhbold
 url: "https://mongoliajol.info/index.php/MJHSS/article/view/4920"
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md"
 local_pdf: "[[PDFs/2024/2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Mongolian"
 languages_list: "Mongolian, Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Given a data set and a learning task such as classification, there are two prime motives for executing some kind of data set reduction. On one hand there is the possible algorithm performance improvement. On the other hand the decrease in the overall size of the data set can bring advantages in storage space used and time spent computing. Our purpose is to determine the importance of several basic reduction techniques on Support Vector Machines, by comparing their relative performance improvement when applied on the standard REUTERS-21578 benchmark."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Text and Value | Mongolian Journal of Humanities and Social Sciences
 

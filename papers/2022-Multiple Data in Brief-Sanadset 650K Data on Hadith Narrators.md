@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "Data in Brief (ScienceDirect)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"
@@ -34,16 +33,20 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Large-scale Hadith narrator chain (Sanad) dataset extracted from 926 historical Arabic books. Enables automated Sanad evaluation for Hadith authentication (Strong/Weak classification) and narrator trustworthiness assessment. Usable as a linguistic resource for Arabic NLP. 159,558 Hadiths lack Sanads."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://data.mendeley.com/datasets/5xth87zwb5/4"
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Sanadset 650K: Data on Hadith Narrators
 

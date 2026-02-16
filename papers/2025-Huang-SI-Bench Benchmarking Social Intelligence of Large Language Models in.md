@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Huang-SI-Bench Benchmarking Social Intellig
 local_pdf: "[[PDFs/2025/2025-Huang-SI-Bench Benchmarking Social Intelligence of Large Language Models in.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As large language models (LLMs) develop anthropomorphic abilities, they are increasingly being deployed as autonomous agents to interact with humans. However, evaluating their performance in realistic and complex social interactions remains a significant challenge. Most previous research built datasets through simulated agent-to-agent interactions, which fails to capture the authentic linguistic styles and relational dynamics found in real human conversations."
+LLM_assessed: "Claude, GPT-4o, Gemini, Qwen"
+DATA_URL: "https://github.com/SI-Bench/SI-Bench.git"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Dialogue Systems"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "As large language models (LLMs) develop anthropomorphic abilities, they are increasingly being deployed as autonomous agents to interact with humans. However, evaluating their performance in realistic and complex social interactions remains a significant challenge. Most previous research built datasets through simulated agent-to-agent interactions, which fails to capture the authentic linguistic styles and relational dynamics found in real human conversations."
-research_topic: "Dialogue Systems"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "Claude, GPT-4o, Gemini, Qwen"
-DATA_URL: "https://github.com/SI-Bench/SI-Bench.git"
 ---
 # SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations
 

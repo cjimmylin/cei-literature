@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfu
 local_pdf: "[[PDFs/2025/2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, American"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, GPT-4, Qwen2.5, RoBERTa"
+DATA_URL: "https://github.com/leeyejin1231/KOTOX"
+tags: 
+abstract: "Online communication increasingly amplifies toxic language, and recent research actively explores methods for detecting and rewriting such content. Existing studies primarily focus on non-obfuscated text, which limits robustness in the situation where users intentionally disguise toxic expressions. In particular, Korean allows toxic expressions to be easily disguised through its agglutinative characteristic."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-4, Qwen2.5, RoBERTa"
-DATA_URL: "https://github.com/leeyejin1231/KOTOX"
-tags: 
-abstract: "Online communication increasingly amplifies toxic language, and recent research actively explores methods for detecting and rewriting such content. Existing studies primarily focus on non-obfuscated text, which limits robustness in the situation where users intentionally disguise toxic expressions. In particular, Korean allows toxic expressions to be easily disguised through its agglutinative characteristic."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # KOTOX: A Korean Toxic Dataset for Deobfuscation and Detoxification
 

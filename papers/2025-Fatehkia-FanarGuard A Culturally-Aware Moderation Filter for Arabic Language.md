@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Pan-Arab"
 languages_list: "Arabic, English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Gemma-2B, Gemma-4B"
+DATA_URL: "NA"
+tags: 
+abstract: "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma-2B, Gemma-4B"
-DATA_URL: "NA"
-tags: 
-abstract: "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # FanarGuard: A Culturally-Aware Moderation Filter for Arabic Language Models
 

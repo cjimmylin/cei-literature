@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "arXiv / CLiC-it 2024"
 pdf_extract: "PDF Extracts/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md"
 local_pdf: "[[PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: "English, Italian"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, LLaMa-2, Mistral"
 DATA_URL: "https://github.com/dhfbk/gfg-calamita"
 tags: 
 abstract: "Gender-fair language aims at promoting gender equality by using terms and expressions that include all identities and avoid reinforcing gender stereotypes. Implementing gender-fair strategies is particularly challenging in heavily gender-marked languages, such as Italian. To address this, the Gender-Fair Generation challenge intends to help shift toward gender-fair language in written communication."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
+data_metrics: "Not specified"
 ---
 # GFG -- Gender-Fair Generation: A CALAMITA Challenge
 

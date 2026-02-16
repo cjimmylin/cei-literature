@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +31,10 @@ significance: "Demonstrates the feasibility of specializing LLMs for non-Western
 tags: 
 abstract: "The development of Large Language Models (LLM) that are capable of understanding and responding to issues from an Islamic perspective is extremely insightful as it will benefit many people. For an LLM to do so, it is not enough for the model to only understand the language, but it also needs to understand the context and specific doctrines within the Islamic texts due to the complexity of Islamic jurisprudence and moral philosophy."
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "https://github.com/krishnaik06/Trnasformer-"
+pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
+local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -38,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
-LLM_assessed: BERT
-DATA_URL: "https://github.com/krishnaik06/Trnasformer-"
-pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
-local_pdf: "[[PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
 ---
 # Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response
 

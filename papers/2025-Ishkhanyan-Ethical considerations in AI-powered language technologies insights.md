@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,10 +29,6 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Armenian"
 languages_list: "Armenian (East), Armenian (West)"
@@ -37,16 +36,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. Proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. Proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency."
-ethics_perspective: "General Ethics"
 ---
 # Ethical considerations in AI-powered language technologies: insights from East and West Armenian
 

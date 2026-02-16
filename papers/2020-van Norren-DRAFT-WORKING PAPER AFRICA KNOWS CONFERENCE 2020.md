@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,20 +30,20 @@ significance: "Critiques the Western-centric dominance in AI ethics, advocating 
 tags: 
 abstract: "UNESCO recently published a report on the ethics of Artificial Intelligence (AI). Its member states have commissioned a recommendation to be written on the ethics of AI, to be adopted in November 2021 during the UNESCO General Conference. The consultations are ongoing, and were preceded by the report of the UNESCO World Commission on the ethics of scientific knowledge and technology (COMEST) on AI and ethics."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
+local_pdf: "[[PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Social & Cultural Values"
+ethics_perspective: "General Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
-local_pdf: "[[PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 ---
 # DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre)
 

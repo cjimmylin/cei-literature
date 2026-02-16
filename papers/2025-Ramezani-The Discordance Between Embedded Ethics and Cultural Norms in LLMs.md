@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ local_pdf: "[[PDFs/2025/2025-Ramezani-The Discordance Between Embedded Ethics an
 pdf_extract: "PDF Extracts/2025/2025-Ramezani-The Discordance Between Embedded Ethics and Cultural Norms in LLMs.md"
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Identifies a hyperplane embedding ethical norms in LLM representational space and studies cultural norms with respect to this embedded ethics. Finds discordance between LLMs' embedded ethics and cultural norms, particularly evident in instruct-tuned models."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Identifies a hyperplane embedding ethical norms in LLM representational space and studies cultural norms with respect to this embedded ethics. Finds discordance between LLMs' embedded ethics and cultural norms, particularly evident in instruct-tuned models."
-ethics_perspective: "Social & Cultural Values"
 ---
 # The Discordance Between Embedded Ethics and Cultural Norms in LLMs
 

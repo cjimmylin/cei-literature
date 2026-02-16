@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.md"
 local_pdf: "[[PDFs/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "English, Uyghur"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "This study evaluated students’ translation quality through two different approaches to examine the effects of marking method on the assessment of literary translations in a pedagogical context. Two prose literary texts were translated by thirty-six MTI students, and then scored by nine experienced raters with error analysis and scale-based method, respectively. Scores of translations were analysed using G-studies, as conducted by the computer program GENOVA to compare the rater severity and..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Wang, L. and Wang, X. (2020). How to evaluate literary
 

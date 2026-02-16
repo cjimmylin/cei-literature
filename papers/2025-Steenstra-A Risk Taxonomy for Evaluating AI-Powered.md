@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "The proliferation of Large Language Models (LLMs) and Intelligent Vir
 paper_summary: "Abstract: The proliferation of Large Language Models (LLMs) and Intelligent Virtual Agents acting as psychotherapists presents significant op- portunities for expanding mental healthcare access. However, their  | Overview: A Risk Ontology for Evaluating AI-Powered Psychotherapy Virtual Agents Ian Steenstra Northeastern University Boston, MA, USA steenstra.i@northeastern.edu Timothy Bickmore Northeastern University Bosto | Conclusions: AI psychotherapists present significant opportunities and risks. Documented negative outcomes demand standardized evaluations for unique interaction r"
 local_pdf: "[[PDFs/2025/2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # A Risk Taxonomy for Evaluating AI-Powered Psychotherapy Agents
 

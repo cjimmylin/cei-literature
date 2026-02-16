@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluati
 local_pdf: "[[PDFs/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Portuguese, Brazilian"
 languages_list: Portuguese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "DeepSeek, Falcon 3, GPT-4, GPT-4o, LLama 2, Llama, Llama 1, Llama 3, Qwen, Qwen 1, Qwen 1.8B, Qwen 2, Qwen 2.5, Qwen 3, Qwen2, Qwen2.5"
+DATA_URL: "https://github.com/PoETaV2/PoETaV2"
+tags: 
+abstract: "Large Language Models (LLMs) exhibit significant variations in performance across linguistic and cultural contexts, underscoring the need for systematic evaluation in diverse languages. In this work, we present the most extensive evaluation of LLMs for the Portuguese language to date. Leveraging our newly introduced PoETa v2 benchmark – a comprehensive suite of over 40 tasks in Portuguese – we assess more than 20 models covering a broad spectrum of training scales and computational resources."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "DeepSeek, Falcon 3, GPT-4, GPT-4o, LLama 2, Llama, Llama 1, Llama 3, Qwen, Qwen 1, Qwen 1.8B, Qwen 2, Qwen 2.5, Qwen 3, Qwen2, Qwen2.5"
-DATA_URL: "https://github.com/PoETaV2/PoETaV2"
-tags: 
-abstract: "Large Language Models (LLMs) exhibit significant variations in performance across linguistic and cultural contexts, underscoring the need for systematic evaluation in diverse languages. In this work, we present the most extensive evaluation of LLMs for the Portuguese language to date. Leveraging our newly introduced PoETa v2 benchmark – a comprehensive suite of over 40 tasks in Portuguese – we assess more than 20 models covering a broad spectrum of training scales and computational resources."
-research_topic: "Machine Learning"
 ---
 # PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese
 

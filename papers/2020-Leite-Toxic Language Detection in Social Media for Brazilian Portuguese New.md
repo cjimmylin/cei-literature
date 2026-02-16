@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2020/2020-Leite-Toxic Language Detection in Social Me
 local_pdf: "[[PDFs/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.pdf]]"
 publication: "ACL Anthology (AACL 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"
 languages_list: Portuguese
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/JAugusto97/ToLD-Br"
 tags: 
 abstract: "Hate speech and toxic comments are a common concern of social media platform users. Although these comments are, fortunately, the minority in these platforms, they are still capable of causing harm. Therefore, identifying these comments is an important task for studying and preventing the proliferation of toxicity in social media. Previous work in automatically detecting toxic comments focus mainly in English, with very few work in languages like Brazilian Portuguese."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for toxicity detection"
+data_metrics: "6 categories"
 ---
 # Toxic Language Detection in Social Media for Brazilian Portuguese: New Dataset and Multilingual Analysis (ToLD-Br)
 

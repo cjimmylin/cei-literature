@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safe
 local_pdf: "[[PDFs/2026/2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The rapid development of generative AI has brought value- and ethics-related risks to the forefront, making value safety a critical concern while a unified consensus remains lacking. In this work, we propose an internationally inclusive and resilient unified value framework, the GenAI Value Safety Scale (GVSScale): Grounded in a lifecycle-oriented perspective, we develop a taxonomy of GenAI value safety risks and construct the GenAI Value Safety Incident Repository (GVSIR), and further derive..."
+LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, DeepSeek"
+DATA_URL: "https://github.com/acl2026/GVS-Bench"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "The rapid development of generative AI has brought value- and ethics-related risks to the forefront, making value safety a critical concern while a unified consensus remains lacking. In this work, we propose an internationally inclusive and resilient unified value framework, the GenAI Value Safety Scale (GVSScale): Grounded in a lifecycle-oriented perspective, we develop a taxonomy of GenAI value safety risks and construct the GenAI Value Safety Incident Repository (GVSIR), and further derive..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Grok, Qwen, DeepSeek"
-DATA_URL: "https://github.com/acl2026/GVS-Bench"
 ---
 # GVS-Scale and GVS-Bench: GenAI Value Safety Scale
 

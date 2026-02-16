@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Large language models (LLMs) are known to generate biased responses w
 paper_summary: "Abstract: Large language models (LLMs) are known to generate biased responses where the opinions of certain groups and populations are underrep- resented. Here, we present a novel approach to achieve controllab | Overview: The steerability of large language models toward data-driven personas Junyi Li1, Charith Peris2∗, Ninareh Mehrabi2∗, Palash Goyal2, Kai-Wei Chang2, Aram Galstyan2, Richard Zemel2 and Rahul Gupta2 1Uni | Methodology: to achieve controllable generation of specific viewpoints using LLMs, that can be leveraged to produce multiple perspectives and to reflect the divers | Key Findings: (Pval) partitions (represented in blue and green respectively, in Figure 1). Accordingly, the re- sponses in each partition can be referred to as Rtr  | Conclusions: In this work, we present an approach for steerable generation using LLMs, where we utilize a data- driven notion of a persona to modulate the gener- a"
 local_pdf: "[[PDFs/2023/2023-Li-On the steerability of large language models.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Falcon
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: Falcon
-DATA_URL: "NA"
 ---
 # On the steerability of large language models toward data-driven personas
 

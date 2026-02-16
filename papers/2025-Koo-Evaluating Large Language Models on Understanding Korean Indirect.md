@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "Korean"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5-Turbo, GPT-4-Turbo, Claude-3-Haiku, Claude-3-Sonnet, Claude-3-Opus, Mistral-Small, Mistral-Medium, Mistral-Large, Llama-3-8B, Qwen-1.5-14B, Solar-10.7B, T3Q-ko-solar"
 DATA_URL: "NA"
 tags: 
 abstract: "To accurately understand the intention of an utterance is crucial in conversational communication. As conversational artificial intelligence models are rapidly being developed and applied in various fields, it is important to evaluate the LLMs’ capabilities of understanding the intentions of user’s utterance. Speech act is a linguistic concept in pragmatics, the study of human language use, and can be simply understood as referring to the intention of an utterance."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Dialogue Systems"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Evaluating Large Language Models on Understanding Korean Indirect Speech Acts
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +33,18 @@ abstract: "This chapter looks at the need to develop machines with ethical and m
 paper_summary: 
 local_pdf: N/A
 DATE_ADDED: 20260129
-ethics_overall: "No"
+research_topic: "Other"
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Artificial Phronesis - What It Is and Is Not
 

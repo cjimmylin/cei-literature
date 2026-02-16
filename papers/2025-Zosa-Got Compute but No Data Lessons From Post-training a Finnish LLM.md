@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "arXiv / NoDaLiDa 2025"
 pdf_extract: "PDF Extracts/2025/2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md"
 local_pdf: "[[PDFs/2025/2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Finnish"
 languages_list: "English, Finnish"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology dataset"
-data_metrics: "Not specified"
 LLM_assessed: Poro-34B
 DATA_URL: "https://huggingface.co/LumiOpen/Poro-34B-chat-OpenAssistant"
 tags: 
 abstract: "As LLMs gain more popularity as chatbots and general assistants, methods have been developed to enable LLMs to follow instructions and align with human preferences. These methods have found success in the field, but their effectiveness has not been demonstrated outside of high-resource languages. In this work, we discuss our experiences in post-training an LLM for instruction-following for English and Finnish."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # Got Compute, but No Data: Lessons From Post-training a Finnish LLM
 

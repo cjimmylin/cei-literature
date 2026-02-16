@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Calibration is a popular framework to evaluate whether a classiﬁer 
 paper_summary: "Abstract: Calibration is a popular framework to evalu- ate whether a classiﬁer knows when it does not know—i.e., its predictive probabilities are a good indication of how likely a prediction is to be correct. C | Overview: Stop Measuring Calibration When Humans Disagree Joris Baan1, Wilker Aziz1, Barbara Plank2,3,4, Raquel Fernández1 1University of Amsterdam, 2IT University of Copenhagen, 3MCML Munich, 4LMU Munich {j.s. | Methodology: We ﬁne-tune RoBERTa (Liu et al., 2019) on SNLI following the standard procedure de- scribed by Desai and Durrett (2020). We evalu- ate on the ChaosNLI | Key Findings: The OOD setting is interesting to evaluate uncer- tainty estimates, because it is especially important to have reliable uncertainty estimates for exam | Conclusions: We demonstrate a fundamental problem with mea- suring calibration to the human majority vote in settings with inherent disagreement in human la- bels."
 local_pdf: "[[PDFs/2022/2022-Baan-Stop Measuring Calibration When Humans Disagree.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: RoBERTa
+DATA_URL: "https://github.com/jsbaan/calibration-on-disagreement-data"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: RoBERTa
-DATA_URL: "https://github.com/jsbaan/calibration-on-disagreement-data"
 ---
 # Stop Measuring Calibration When Humans Disagree
 

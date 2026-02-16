@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md"
 local_pdf: "[[PDFs/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: "44 languages including French, Albanian, Armenian, Georgian, Greek, Maltese, and 39 other languages"
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4, Gemini, Claude, Llama, Mistral, and other multilingual LLMs"
 DATA_URL: "https://huggingface.co/papers/2411.19799"
 tags: 
 abstract: "The performance differential of large language models (LLM) between languages hinders their effective deployment in many regions, inhibiting the potential economic and societal value of generative AI tools in many communities. However, the development of functional LLMs in many languages (i.e., multilingual LLMs) is bottlenecked by the lack of high-quality evaluation resources in languages other than English."
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge
 

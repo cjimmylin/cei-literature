@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Useful for creating stress-tests: instead of waiting for bias to 
 tags: 
 abstract: "Recommendation systems increasingly depend on massive humanlabeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models—based on these labels—are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are “consistently conceptualized” across annotators of different demographics."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
+pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
+local_pdf: "[[PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"
-pdf_extract: "PDF Extracts/2023/2023-Moss-Bias on Demand.md"
-local_pdf: "[[PDFs/2023/2023-Moss-Bias on Demand.pdf]]"
 ---
 # Bias on Demand: A Modelling Framework That Generates Synthetic Data With Bias
 

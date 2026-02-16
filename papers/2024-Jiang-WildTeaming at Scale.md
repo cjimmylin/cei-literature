@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "We introduce WILDTEAMING, an automatic red-teaming framework that min
 paper_summary: "Abstract: We introduce WILDTEAMING, an automatic red-teaming framework that mines in-the-wild user-chatbot interactions to discover 5.7K unique clusters of novel jail- break tactics, and then composes selection | Overview: WILDTEAMING at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models Liwei Jiang1,2 Kavel Rao∗,1 Seungju Han∗,2,3 Allyson Ettinger2 Faeze Brahman2 Sachin Kumar2 Niloofar Mireshgh | Methodology: ASR ↑Query ↓ PPL ↓ASR×5 30 ↑Query×5 30 ↓Sim@5 30 ↓Simall ↓#Tacticall ↑ Vicuna (7B) WILDTEAM 93.1 | Key Findings: benchmark including test vanilla harmful prompts across standard, contextual, and copyright unsafe behaviors. In this work, we report results using 15 | Conclusions: With empirical insights gleaned from WILDTEAMING and WILDJAILBREAK, we discuss three key areas for improvement for contemporary LLMs safety and genera"
 local_pdf: "[[PDFs/2024/2024-Jiang-WildTeaming at Scale.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Vicuna, Mistral, Mixtral, Llama-2, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/allenai/wildjailbreak"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Vicuna, Mistral, Mixtral, Llama-2, Llama-3"
-DATA_URL: "https://huggingface.co/datasets/allenai/wildjailbreak"
 ---
 # WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models
 

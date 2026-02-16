@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Hungarian"
 languages_list: "Hungarian"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o-mini, DeepSeek-V3, Qwen2.5, Llama-3.1, o1-mini"
 DATA_URL: "https://github.com/opendatalab/OpenHuEval"
 tags: 
 abstract: "First LLM benchmark focused on Hungarian language and cultural specifics across eight Hungarian-specific dimensions with 3,953 questions, including morphology, pragmatics, cultural knowledge, and dialectal understanding."
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "3,953 questions"
 ---
 # OpenHuEval: Evaluating Large Language Model on Hungarian Specifics
 

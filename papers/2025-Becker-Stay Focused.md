@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Multi-agent debate — multiple instances of large language models di
 paper_summary: "Abstract: Multi-agent debate — multiple instances of large language models discussing problems in turn-based interaction — has shown promise for solving knowledge and reasoning tasks. However, these methods sho | Overview: Stay Focused: Problem Drift in Multi-Agent Debate Jonas Becker1,2,*, Lars Benedikt Kaesberg1, Andreas Stephan3, Jan Philip Wahle1, Terry Ruas1, Bela Gipp1 1University of Göttingen, Germany; 2LKA NRW,  | Methodology: We explain the multi-agent environment for this study, our proposed detection and mitigation meth- ods for problem drift, and the datasets and metrics | Key Findings: is surprising, as today's LLMs are considered to be highly competent regarding linguistic capabili- ties (Grattafiori et al., 2024); this raises quest | Conclusions: Turn 1 Voted Solution: B) E = m+c2 Discussion Turn 2 DRIFTJudge: The discussion suffers from problem drift. DRIFTPolicy: 'Improve discussion habits by"
 local_pdf: "[[PDFs/2025/2025-Becker-Stay Focused.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Qwen"
+DATA_URL: "https://github.com/jonas-becker/problem-drift"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Qwen"
-DATA_URL: "https://github.com/jonas-becker/problem-drift"
 ---
 # Stay Focused: Problem Drift in Multi-Agent Debate
 

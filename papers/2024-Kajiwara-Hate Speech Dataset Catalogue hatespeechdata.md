@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +14,7 @@ key: LSRC0657
 type: conferencePaper
 short_title: "Hate Speech Dataset Catalogue | hatespeechdata"
 year: 2025
-first_author: [[Kajiwara]]
+first_author: "[[Kajiwara]]"
 last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://hatespeechdata.com/"
@@ -20,10 +23,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md"
 local_pdf: "[[PDFs/2024/2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "English, Japanese, Kyrgyz, Mongolian, Multilingual, Tibetan, Uyghur"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "NA"
 tags: 
 abstract: "I found search results related to Japanese hate speech detection and NLP evaluation datasets. Here's what I found: Key Findings: A recent study by Kajiwara and Sakurai titled \"Validating Pseudo-label Dataset for Japanese Hate Speech Detection\" was published in 2024."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Hate Speech Dataset Catalogue | hatespeechdata
 

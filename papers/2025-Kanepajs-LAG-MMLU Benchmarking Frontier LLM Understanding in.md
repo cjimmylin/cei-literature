@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM
 local_pdf: "[[PDFs/2025/2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in.pdf]]"
 publication: "WebSearch: LAG-MMLU Giriama African language benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Latvian, Kenyan"
 languages_list: "Giriama, Latvian"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "As large language models (LLMs) rapidly advance, evaluating their performance is critical. LLMs are trained on multilingual data, but their reasoning abilities are mainly evaluated using English datasets. Hence, robust evaluation frameworks are needed using high-quality nonEnglish datasets, especially low-resource languages (LRLs). This study evaluates eight state-of-the-art (SOTA) LLMs on Latvian and Giriama using a Massive Multitask Language Understanding (MMLU) subset curated with native..."
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude 3.5, Claude 3.5 Sonnet, DeepSeek-R1, DeepSeek-V3, GPT-4, GPT-4o, Gemma, Llama, Llama 3, Llama 3.3, Llama-3.3, Llama3.3, Mistral- large, Mistral-Large"
 DATA_URL: "NA"
-research_topic: "Social & Cultural Analysis"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # LAG-MMLU: Benchmarking Frontier LLM Understanding in Latvian and Giriama
 

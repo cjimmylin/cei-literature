@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Pe
 local_pdf: "[[PDFs/2025/2025-Abdul-Mageed-Where Are We Evaluating LLM Performance.pdf]]"
 publication: "ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Multilingual"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Africa’s rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa’s language landscape with an empirical evaluation using SAHARA— a comprehensive benchmark we curate from large-scale, publicly accessible datasets capturing the continent’s linguistic diversity."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Claude-4, Claude-4-Sonnet, CommandR, GPT-4, Gemma, Gemma-2, Gemma-3, Gemma2, Gemma3, Llama, Llama-3.1, Llama3, Llama3.1, Llama3.2, Phi-3, Phi-4"
 DATA_URL: "https://africa.dlnlp.ai/sahara/ (public leaderboard)"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "517 languages"
 ---
 # Where Are We? Evaluating LLM Performance on African Languages (Sahara Benchmark)
 

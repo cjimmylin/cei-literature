@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md"
 local_pdf: "[[PDFs/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Uyghur"
 languages_list: Uyghur
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Qwen"
+DATA_URL: "https://github.com/wyqmath/MUDT"
+tags: 
+abstract: "Developing effective educational technologies for low-resource agglutinative languages like Uyghur is often hindered by the mismatch between existing annotation frameworks and specific grammatical structures. To address this challenge, this study introduces the Modern Uyghur Dependency Treebank (MUDT), a linguistically grounded annotation framework specifically designed to capture the agglutinative complexity of Uyghur, including zero copula constructions and fine-grained case marking."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Qwen"
-DATA_URL: "https://github.com/wyqmath/MUDT"
-tags: 
-abstract: "Developing effective educational technologies for low-resource agglutinative languages like Uyghur is often hindered by the mismatch between existing annotation frameworks and specific grammatical structures. To address this challenge, this study introduces the Modern Uyghur Dependency Treebank (MUDT), a linguistically grounded annotation framework specifically designed to capture the agglutinative complexity of Uyghur, including zero copula constructions and fine-grained case marking."
-research_topic: "AI Safety & Alignment"
 ---
 # MUDT: A Dependency Annotation Framework for Low-Resource Uyghur
 

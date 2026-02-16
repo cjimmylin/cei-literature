@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ abstract: "Recent breakthroughs in large language models (LLMs) have centered ar
 paper_summary: "Abstract: Recent breakthroughs in large language models (LLMs) have centered around a handful of data-rich languages. What does it take to broaden access to breakthroughs beyond first-class citizen languages? O | Overview: Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model Ahmet Üstün♦1, Viraat Aryabumi♦1, Zheng-Xin Yong♦2,4, Wei-Yin Ko♦3, Daniel D'souza♦4, Gbemileke Onilude5, Neel Bhandari4, Sh | Methodology: also works in a multilingual setup. We take inspiration from the critique-and-revise approach proposed by Bai et al. [2022b] for a one-step classify-a | Key Findings: of performance across varied tasks. Aya is built by fine-tuning 13B parameter mT5 model [Xue et al., 2020] using an instruction mixture that includes  | Conclusions: What we know is a drop, what we don't know is an ocean. — Isaac Newton Model Choice: We selected mT5 [Xue et al., 2020] as our base model. This decisi"
 local_pdf: "[[PDFs/2024/2024-Singh-Aya Dataset.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: BLOOM
+DATA_URL: "https://hf.co/CohereForAI/aya-101"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "101 languages; 99 languages"
-LLM_assessed: BLOOM
-DATA_URL: "https://hf.co/CohereForAI/aya-101"
 ---
 # Aya Dataset: A Massively Multilingual Instruction-Tuned Dataset
 

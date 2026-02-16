@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Language models often misinterpret human intentions due to their hand
 paper_summary: "Abstract: Language models often misinterpret human intentions due to their handling of ambiguity, a limitation well-recognized in NLP research. While morally clear scenarios are more discernible to LLMs, greate | Overview: Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses Pranav Senthilkumar Visshwa Balasubramanian Prisha Jain Aneesa Maity Jonathan Lu Kevin Zhu Algo | Methodology: 3.1 Model Calibration Approach To measure the calibration of LLM responses with respect to human ethical judgments, we extracted token probabilities f | Conclusions: In summary, fine-tuning led to different outcomes based on the datasets: notable progress on the Dilemmas dataset but stronger performance on Anecdote"
 local_pdf: "[[PDFs/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-3, Mistral"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Mistral"
-DATA_URL: "NA"
 ---
 # Fine-Tuning Language Models for Ethical Ambiguity: A Comparative Study of Alignment with Human Responses
 

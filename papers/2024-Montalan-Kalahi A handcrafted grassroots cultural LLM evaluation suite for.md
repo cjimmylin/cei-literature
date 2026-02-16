@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Montalan-Kalahi A handcrafted grassroots cu
 local_pdf: "[[PDFs/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
 languages_list: Filipino/Tagalog
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Falcon 7B, GPT-4, Gemma, Gemma 2, Llama, Llama 3, Llama 3.1, Qwen 2, Qwen2"
 DATA_URL: "https://github.com/aisingapore/kalahi"
 tags: 
 abstract: "Multilingual large language models (LLMs) today may not necessarily provide culturally appropriate and relevant responses to its Filipino users. We introduce KALAHI, a cultural LLM evaluation suite that is part of SEA-HELM. It was collaboratively created by native Filipino speakers, and is composed of 150 high-quality, handcrafted and nuanced prompts that test LLMs for generations that are relevant to shared Filipino cultural knowledge and values."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino
 

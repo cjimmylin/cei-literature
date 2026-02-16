@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-
 local_pdf: "[[PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Japanese"
 languages_list: "Japanese"
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Assessing the ethical biases of large language models (LLMs) is crucial for their clinical application. To evaluate the ethical behavior of LLMs in clinical settings, we introduce a text corpus that focuses on ethical dilemmas. The corpus comprises 50 scenarios of clinical cases, each consisting of a clinical situation and options that impose ethical dilemmas. Each option is scored based on four ethical principles, enabling the evaluation of the ethical decision-making capabilities of LLMs..."
-ethics_perspective: "Applied Ethics"
-data_description: "Evaluation approach text corpus"
-data_metrics: "50 scenarios"
 LLM_assessed: "GPT-4"
 DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Applied Ethics"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus"
+data_metrics: "50 scenarios"
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation
 

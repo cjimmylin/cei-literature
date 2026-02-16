@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md"
 local_pdf: "[[PDFs/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese"
 cultures_nationalities_list: "Japanese, Chinese"
 languages_list: "Chinese, English, Japanese, Uyghur"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
+tags: 
+abstract: "In the field of Japanese-Chinese translation linguistics, the issue of correctly translating attributive clauses has persistently proven to be challenging. Present-day machine translation tools often fail to accurately translate attributive clauses from Japanese to Chinese. In light of this, this paper investigates the linguistic problem underlying such difficulties, namely how does the semantic role of the modified noun affect the selection of translation patterns for attributive clauses, from..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
-tags: 
-abstract: "In the field of Japanese-Chinese translation linguistics, the issue of correctly translating attributive clauses has persistently proven to be challenging. Present-day machine translation tools often fail to accurately translate attributive clauses from Japanese to Chinese. In light of this, this paper investigates the linguistic problem underlying such difficulties, namely how does the semantic role of the modified noun affect the selection of translation patterns for attributive clauses, from..."
-research_topic: "Machine Translation"
 ---
 # Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One
 

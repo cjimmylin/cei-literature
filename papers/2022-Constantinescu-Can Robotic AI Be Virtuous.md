@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_CONSTANTINESCU2022
@@ -28,17 +30,17 @@ significance: "Influential Oxford-based analysis of virtue ethics limitations fo
 external_pdf: N/A
 abstract: "This article addresses ethical concerns for Human-Robot Interaction in the context of growing use of social robots. It raises a virtue-ethics-based concern regarding deployment of social robots relying on deep learning AI and asks whether they may be endowed with ethical virtue. The authors argue that AI systems cannot genuinely be virtuous but can only behave in a virtuous way. This conclusion is based on the Aristotelian understanding that virtue requires performing the right actions, with the right feelings, and in the right way - and they conclude AI is unable to satisfy any of these requirements."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Can Robotic AI Systems Be Virtuous and Why Does This Matter?
 

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_CHEUNG2025
@@ -26,20 +28,20 @@ key_contribution: "Demonstrates LLMs show stronger omission bias than humans and
 significance: "PNAS publication revealing systematic biases in LLM moral advice with implications for AI ethics"
 external_pdf: N/A
 abstract: "The experiments demonstrate that the decisions and advice of LLMs are systematically biased against doing anything, and this bias is stronger than in humans. In Study 1, compared LLM responses to those of a representative U.S. sample (N = 285) for 22 dilemmas, including both collective action problems that pitted self-interest against the greater good, and moral dilemmas that pitted utilitarian cost-benefit reasoning against deontological rules. In collective action problems, LLMs were more altruistic than participants. In moral dilemmas, LLMs exhibited stronger omission bias than participants: They usually endorsed inaction over action. Moreover, identified a bias in LLMs' responses that has not been found in people - LLMs tend to answer 'no,' thus flipping their decision/advice depending on how the question is worded. In Study 4, investigated the sources of these biases by comparing models with and without fine-tuning, showing that they likely arise from fine-tuning models for chatbot applications."
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: Yes
-utilitarian_ethics: Yes
-is_benchmark: Yes
-is_eval: Yes
-is_dataset: No
-data_description: "22 moral dilemmas tested on LLMs vs human sample (N=285)"
-data_metrics: "Omission bias, no-bias, altruism measures"
 LLM_assessed: "GPT-4, Claude, Llama-3"
 DATA_URL: "https://osf.io/3ahrb"
 normative_ethics_benchmark: Yes
 publication: PNAS
 DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Large language models show amplified cognitive biases in moral decision-making
 

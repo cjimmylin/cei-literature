@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md"
 local_pdf: "[[PDFs/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multilingual/Cross-cultural"
 languages_list: English
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found about the Anthropic LLM global opinions dataset related to the World Values Survey: Overview Anthropic uses the LLM Global Opinions dataset to analyze the opinions that large language models reflect on complex global issues, with the goal of gaining insights into potential biases in AI systems by evaluating their performance on subjective topics. Research Framework Large language models may not equitably represent diverse global perspecti"
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
+data_metrics: "Not specified"
 ---
 # Towards Measuring the Representation of Subjective Global Opinions in Language Models \ Anthropic
 

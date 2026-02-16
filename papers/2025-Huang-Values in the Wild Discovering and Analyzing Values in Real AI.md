@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Huang-Values in the Wild Discovering and An
 local_pdf: "[[PDFs/2025/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "AI assistants can impart value judgments that shape people’s decisions and worldviews, yet little is known empirically about what values these systems rely on in practice. To address this, we develop a bottom-up, privacy-preserving method to extract the values (normative considerations stated or demonstrated in model responses) that Claude 3 and 3.5 models exhibit in hundreds of thousands of real-world interactions."
+LLM_assessed: Claude
+DATA_URL: "https://huggingface.co/datasets/Anthropic/values-in-the-wild/"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "AI assistants can impart value judgments that shape people’s decisions and worldviews, yet little is known empirically about what values these systems rely on in practice. To address this, we develop a bottom-up, privacy-preserving method to extract the values (normative considerations stated or demonstrated in model responses) that Claude 3 and 3.5 models exhibit in hundreds of thousands of real-world interactions."
-ethics_perspective: "Moral Reasoning & Psychology"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: Claude
-DATA_URL: "https://huggingface.co/datasets/Anthropic/values-in-the-wild/"
 ---
 # Values in the Wild: Discovering and Analyzing Values in Real AI Interactions
 

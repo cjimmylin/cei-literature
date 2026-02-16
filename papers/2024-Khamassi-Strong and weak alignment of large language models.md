@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,17 +36,17 @@ significance: "Argues that true alignment requires 'strong' understanding of deo
 abstract: "Minimizing negative impacts of Artificial Intelligent (AI) systems on human societies without human supervision requires them to be able to align with human values. However, most current work only addresses this issue from a technical point of view, e.g., improving current methods relying on reinforcement learning from human feedback, neglecting what it means and is required for alignment to occur. Here, we propose to distinguish strong and weak value alignment."
 paper_summary: "Abstract: Minimizing negative impacts of Artificial Intelligent (AI) systems on human soci- eties without human supervision requires them to be able to align with human values. However, most current work only a | Overview: Strong and weak alignment of large language models with human values Mehdi Khamassi1*, Marceau Nahon1* and Raja Chatila1* 1*Institute of Intelligent Systems and Robotics, Sorbonne University / CNRS, P | Methodology: Word embeddings and cosine similarity Word embeddings are 'dense, distributed, fixed-length word vectors' [57]. They are representations of words used | Key Findings: Success Notes Success Notes Success Notes Questions with explicit values (dignity) Gandhi 1 AI1 1 CI1 1 AI1 Beggar 1 CI1 1 CI1 1 CI1 Kant 1 1 NI1 1 Sc | Conclusions: A prolific literature has recently started to study AI systems' ability to align with human values, and ways to improve it [5, 28]. After surveying th"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
-deontological_ethics: "No"
+deontological_ethics: "Yes"
 utilitarian_ethics: "No"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
 ---
  Strong and weak alignment of large language models with human values
 

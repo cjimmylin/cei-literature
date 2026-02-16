@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / EMNLP 2024
 local_pdf: "[[PDFs/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, American"
 cultures_nationalities_list: "Ethiopian, Nigerian, Rwandan"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Gemini, Claude, LLaVA, InternVL"
 DATA_URL: "https://culturalvqa.org"
 tags: 
 abstract: "Foundation models and vision-language pretraining have notably advanced Vision Language Models (VLMs), enabling multimodal processing of visual and linguistic data. However, their performance has been typically assessed on general scene understanding – recognizing objects, attributes, and actions – rather than cultural comprehension. This study introduces CULTURALVQA, a visual question-answering benchmark aimed at assessing VLM’s geo-diverse cultural understanding."
-research_topic: "Social & Cultural Analysis"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Benchmarking Vision Language Models for Cultural Understanding
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: ACL Anthology (SIGTURK 2024)
 local_pdf: "[[PDFs/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"
 languages_list: "English, Kazakh"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, AYA, YandexGPT-2, YandexGPT-3"
 DATA_URL: "https://github.com/akylbekmaxutov/LLM-eval-using-Kazakh"
 tags: 
 abstract: "Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets covering QA, causal reasoning, math problems, translation, and spelling correction. GPT-4 shows best results. LLM performance on Kazakh tasks is lower than on parallel English tasks."
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for question answering"
+data_metrics: "Not specified"
 ---
 # Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models
 

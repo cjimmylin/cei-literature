@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md"
 local_pdf: "[[PDFs/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: Italian
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Llama-3.1, Gemma-2, Mistral, Qwen-2.5, Aya-Expanse, Minerva-3B, Zefiro"
+DATA_URL: "https://huggingface.co/spaces/evalita-llm"
+tags: 
+abstract: "We describe Evalita-LLM, a new benchmark designed to evaluate Large Language Models (LLMs) on Italian tasks. The distinguishing and innovative features of Evalita-LLM are the following: (i) all tasks are native Italian, avoiding issues of translating from Italian and potential cultural biases; (ii) in addition to well established multiple-choice tasks, the benchmark includes generative tasks, enabling more natural interaction with LLMs; (iii) all tasks are evaluated against multiple prompts,..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3.1, Gemma-2, Mistral, Qwen-2.5, Aya-Expanse, Minerva-3B, Zefiro"
-DATA_URL: "https://huggingface.co/spaces/evalita-llm"
-tags: 
-abstract: "We describe Evalita-LLM, a new benchmark designed to evaluate Large Language Models (LLMs) on Italian tasks. The distinguishing and innovative features of Evalita-LLM are the following: (i) all tasks are native Italian, avoiding issues of translating from Italian and potential cultural biases; (ii) in addition to well established multiple-choice tasks, the benchmark includes generative tasks, enabling more natural interaction with LLMs; (iii) all tasks are evaluated against multiple prompts,..."
-research_topic: "Machine Learning"
 ---
 # Evalita-LLM: Benchmarking Large Language Models on Italian
 

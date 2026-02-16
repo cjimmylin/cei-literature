@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: LSRC0736
 type: conferencePaper
 short_title: "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious"
 year: 2025
-first_author: [[Islamic]]
+first_author: "[[Islamic]]"
 last_author: "[[Islamic]]"
 authors: Islamic
 url: "https://ojs.aaai.org/index.php/AIES/article/download/36543/38681/40618"
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md"
 local_pdf: "[[PDFs/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"
 languages_list: "Arabic, English"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Claude 3.5 Haiku, Claude-3.5-Haiku, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma-2, BERT"
+DATA_URL: "https://huggingface.co/datasets/MBZUAI/FiqhQA"
+tags: 
+abstract: "Despite the increasing usage of Large Language Models (LLMs) in answering questions in a variety of domains, their reliability and accuracy remain unexamined for a plethora of domains including the religious domains. In this paper, we introduce a novel benchmark FiqhQA 1 focused on the LLM generated Islamic rulings explicitly categorized by the four major Sunni schools of thought, in both Arabic and English."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "Claude 3.5 Haiku, Claude-3.5-Haiku, GPT-3, GPT-3.5, GPT-4, GPT-4o, Gemma-2, BERT"
-DATA_URL: "https://huggingface.co/datasets/MBZUAI/FiqhQA"
-tags: 
-abstract: "Despite the increasing usage of Large Language Models (LLMs) in answering questions in a variety of domains, their reliability and accuracy remain unexamined for a plethora of domains including the religious domains. In this paper, we introduce a novel benchmark FiqhQA 1 focused on the LLM generated Islamic rulings explicitly categorized by the four major Sunni schools of thought, in both Arabic and English."
-research_topic: "Machine Learning"
 ---
 # Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious
 

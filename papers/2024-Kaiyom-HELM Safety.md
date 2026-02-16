@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ significance: "Moves safety evaluation from ad-hoc tests to a standardized, rigo
 tags: 
 abstract: "HELM Safety v1.0 is a broad, transparent, and standardized safety evaluation for language models. The evaluation covers a comprehensive taxonomy of risks based on developers' acceptable use policies, spanning violence, fraud, discrimination, sexual content, harassment, and deception. HELM Safety features evaluations including BBQ (social discrimination), SimpleSafetyTest, HarmBench (jailbreaking), XSTest (edge cases), and AnthropicRedTeam."
 DATE_ADDED: 20260129
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek"
+DATA_URL: "https://github.com/stanford-crfm/helm"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek"
-DATA_URL: "https://github.com/stanford-crfm/helm"
 ---
 # HELM Safety: Towards Standardized Safety Evaluations of Language Models
 

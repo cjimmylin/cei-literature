@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,19 +34,19 @@ abstract: "The normative challenge of AI alignment centres upon what goals or va
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Gabriel-AI Alignment as Fair Treatment of Claims.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "AI Alignment & Fairness"
+LLM_assessed: "Claude, GPT-4"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "AI Alignment & Fairness"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Claude, GPT-4"
-DATA_URL: "NA"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # AI Alignment as Fair Treatment of Claims
 

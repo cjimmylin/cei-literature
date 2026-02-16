@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Human flourishing in AI"
@@ -27,19 +29,19 @@ key_contribution: "Argues that the development of AI (civil and military) should
 significance: "Reframes the purpose of AI technology from mere capability advancement to the Aristotelian support of the 'good life' and societal stability"
 abstract: "This essay explores the intersection of artificial intelligence and the concept of eudaimonia, or human flourishing. The authors contend that technologists should focus on making military work as ethical as possible, adopting Aristotle's view that the fundamental objective of human existence is to live a good life. They suggest that technology, including cutting-edge AI, serves eudaimonia in two ways: by enabling efficiencies that grant individuals more time to pursue their \"
 DATE_ADDED: 20260129
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: 
 local_pdf: N/A
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Putting the AI in Eudaimonia
 

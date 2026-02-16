@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -16,7 +19,7 @@ last_author: "[[Jing Shao]]"
 authors: "Lijun Li; Zhelun Shi; Xuhao Hu; Bowen Dong; Yiran Qin; Xihui Liu; Lu Sheng; Jing Shao"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/E7EZLTEZ/Li et al. - T2ISafety Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Li-T2ISafety.md"
-local_pdf: [[PDFs/2025/2025-Li-T2ISafety.pdf]]
+local_pdf: "[[PDFs/2025/2025-Li-T2ISafety.pdf]]"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -29,6 +32,8 @@ significance: "Highlights that current T2I models suffer from persistent racial 
 tags: 
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models present notable safety concerns, including the risk of generating harmful, biased, or private content. Current research on assessing T2I safety remains in its early stages. While some efforts have been made to evaluate models on specific safety dimensions, many critical risks remain unexplored."
 DATE_ADDED: 20260129
+LLM_assessed: "GPT-4o, Claude, Gemini"
+DATA_URL: "https://github.com/adwardlee/t2i_safety"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "44 categories"
-LLM_assessed: "GPT-4o, Claude, Gemini"
-DATA_URL: "https://github.com/adwardlee/t2i_safety"
 ---
 # T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation
 

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,22 +30,22 @@ key_contribution: "Shows LLM ethical reasoning varies by prompt language; GPT-4 
 significance: "Demonstrates cultural/linguistic bias in AI moral reasoning, crucial for global AI deployment"
 tags: 
 abstract: "Ethical reasoning is a crucial skill for Large Language Models (LLMs). However, moral values are not universal, but rather influenced by language and culture. This paper explores how three prominent LLMs – GPT-4, ChatGPT, and Llama2-70B-Chat – perform ethical reasoning in different languages and if their moral judgement depend on the language in which they are prompted. We extend the study of ethical reasoning of LLMs by Rao et al."
-ethics_overall: "Yes"
-virtue_ethics: "Yes"
-deontological_ethics: "Yes"
-utilitarian_ethics: "Yes"
 research_topic: "LLM Moral Reasoning"
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, ChatGPT, Llama-2"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
 local_pdf: "[[PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "Yes"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them In
 

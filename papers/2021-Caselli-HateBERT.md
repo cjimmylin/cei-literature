@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,8 +32,10 @@ significance: "Demonstrates that domain-adaptive pretraining on abusive language
 tags: 
 abstract: "We introduce HateBERT, a re-trained BERT model for abusive language detection in English. The model was trained on RAL-E, a large-scale dataset of Reddit comments in English from communities banned for being offensive, abusive, or hateful that we have curated and made available to the public. We present the results of a detailed comparison between a general pre-trained language model and the retrained version on three English datasets for offensive, abusive language and hate speech detection..."
 pdf_extract: "PDF Extracts/2021/2021-Caselli-HateBERT.md"
-local_pdf: [[PDFs/2021/2021-Caselli-HateBERT.pdf]]
+local_pdf: "[[PDFs/2021/2021-Caselli-HateBERT.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "https://osf.io/tbd58/"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "https://osf.io/tbd58/"
 ---
 # HateBERT: Retraining BERT for Abusive Language Detection in English
 

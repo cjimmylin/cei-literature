@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_extract: "PDF Extracts/2023/2023-Elrod-Nothing New Under the Sun The.md"
 local_pdf: "[[PDFs/2023/2023-Elrod-Nothing New Under the Sun The.pdf]]"
 publication: "HIPHIL Novum, 8(2), 1--32"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -36,16 +35,20 @@ religious_values: "Christianity"
 religious_values_list: "Christianity"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
 tags: 
 abstract: "Main characteristics of Google Scholar Metrics’ new version (july 2013) are presented. We outline the novelties and the weaknesses detected after a first analysis. As main conclusion, we remark the lack of new functionalities with respect to last editions, as the only modification is the update of the timeframe (20082012). Hence, problems pointed out in our last reviews still remain active. Finally, it seems Google Scholar Metrics will be updated in a yearly basis."
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT"
 DATA_URL: "NA"
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Nothing New Under the Sun? The Study of Biblical Hebrew in the Era of Generative Pre-trained AI
 

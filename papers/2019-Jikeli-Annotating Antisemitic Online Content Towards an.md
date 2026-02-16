@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_extract: "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Conten
 local_pdf: "[[PDFs/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -36,16 +35,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Online antisemitism is hard to quantify. How can it be measured in rapidly growing and diversifying platforms? Are the numbers of antisemitic messages rising proportionally to other content or is it the case that the share of antisemitic content is increasing? How does such content travel and what are reactions to it? How widespread is online Jew-hatred beyond infamous websites and fora, and closed social media groups?"
-data_description: "Evaluation methodology annotated dataset for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # Annotating Antisemitic Online Content: Towards an Applicable Definition of Antisemitism
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "arXiv / Complex & Intelligent Systems"
 pdf_extract: "PDF Extracts/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md"
 local_pdf: "[[PDFs/2020/2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: English
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: BERT
 DATA_URL: "https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset"
 tags: 
 abstract: "Online hate speech is a recent problem in our society that is rising at a steady pace by leveraging the vulnerabilities of the corresponding regimes that characterise most social media platforms. This phenomenon is primarily fostered by offensive comments, either during user interaction or in the form of a posted multimedia context. Nowadays, giant corporations own platforms where millions of users log in every day, and protection from exposure to similar phenomena appears to be necessary in..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # ETHOS: an Online Hate Speech Detection Dataset
 

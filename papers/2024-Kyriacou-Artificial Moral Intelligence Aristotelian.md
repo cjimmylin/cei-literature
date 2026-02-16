@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -28,17 +30,17 @@ significance: "Rigorous Aristotelian critique of AI moral intelligence claims ba
 external_pdf: N/A
 abstract: "The paper argues that AI systems solve problems based on mechanically computational, means-end reasoning (called 'mechanical instrumental rationality'), while human intelligence, to the extent that it is rational, is not mechanically computable - not reducible to mechanical computations for at least four basic reasons. These include that human intelligence is categorically normative, AI lacks autonomous reasons-responsiveness, rational human intelligence necessarily involves indispensable affective experience, and practical wisdom (phronesis) requires genuine understanding."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "Bloom, ChatGPT, GPT-4"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective
 

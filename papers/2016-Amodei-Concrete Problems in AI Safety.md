@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ local_pdf: "[[PDFs/2016/2016-Amodei-Concrete Problems in AI Safety.pdf]]"
 abstract: "Rapid progress in machine learning and artiﬁcial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, deﬁned as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of ﬁve practical research problems related to accident risk, categorized according to whether the problem originates..."
 paper_summary: "Abstract: Rapid progress in machine learning and artiﬁcial intelligence (AI) has brought increasing atten- tion to the potential impacts of AI technologies on society. In this paper we discuss one such potentia | Overview: Concrete Problems in AI Safety Dario Amodei∗ Google Brain Chris Olah∗ Google Brain Jacob Steinhardt Stanford University Paul Christiano UC Berkeley John Schulman OpenAI Dan Man´e Google Brain Abstract | Methodology: to scalable oversight that is complementary to the approach embodied in semi-supervised RL. • Hierarchical reinforcement learning. Hierarchical reinfo | Conclusions: This paper analyzed the problem of accidents in machine learning systems and particularly rein- forcement learning agents, where an accident is deﬁned"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Concrete Problems in AI Safety
 

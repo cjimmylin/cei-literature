@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: Web
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indigenous"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on..."
-research_topic: "Social & Cultural Analysis"
 ---
 # Artificial Intelligence and Indigenous Peoples’ Realities | Cultural Survival
 

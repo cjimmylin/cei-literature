@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2026/2026-Panda-IndRegBias A Dataset for Studying Ind
 local_pdf: "[[PDFs/2026/2026-Panda-IndRegBias A Dataset for Studying Indian.pdf]]"
 publication: "WebSearch: IndRegBias regional biases"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Hindi"
@@ -34,17 +33,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Warning: This paper consists of examples representing regional biases in Indian regions that might be offensive towards a particular region. While social biases corresponding to gender, race, socio-economic conditions, etc., have been extensively studied in the major applications of Natural Language Processing (NLP), biases corresponding to regions have garnered less attention. This is mainly because of (i) difficulty in the extraction of regional bias datasets, (ii) disagreements in annotation..."
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, DeepSeek, DeepSeek-R1, GPT-4o, Gemma, Gemma-1.1, GPT-4, Llama, LLama 4, Llama-2, Llama-3.2, Llama-4, Mistral-7B, Mistral-NeMo, Mistral-Small, Phi-4-Mini, Qwen, Qwen3"
 DATA_URL: "NA"
-ethics_perspective: "Bias & Fairness"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # IndRegBias: A Dataset for Studying Indian Regional Biases in English and Code-Mixed Social Media Comments
 

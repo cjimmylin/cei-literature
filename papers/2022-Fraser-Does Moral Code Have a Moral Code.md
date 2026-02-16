@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ tags:
 abstract: "In an effort to guarantee that machine learning model outputs conform with human moral values, recent work has begun exploring the possibility of explicitly training models to learn the difference between right and wrong. This is typically done in a bottom-up fashion, by exposing the model to different scenarios, annotated with human moral judgements. One question, however, is whether the trained models actually learn any consistent, higher-level ethical principles from these datasets – and if..."
 paper_summary: "Abstract: In an effort to guarantee that machine learning model outputs conform with human moral val- ues, recent work has begun exploring the pos- sibility of explicitly training models to learn the difference | Overview: Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy Kathleen C. Fraser, Svetlana Kiritchenko, and Esma Balkır National Research Council Canada Ottawa, Canada {Kathleen.Fraser,Svetlana | Conclusions: We now discuss these results in the context of hu- man morality, including demographic and cultural differences in moral values, individual moral con-"
 DATE_ADDED: 20260208
+LLM_assessed: T5
+DATA_URL: "https://svkir.com/projects/moralQ.html"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -42,8 +46,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: T5
-DATA_URL: "https://svkir.com/projects/moralQ.html"
 ---
  Does Moral Code Have a Moral Code? Probing Delphi's Moral Philosophy
 

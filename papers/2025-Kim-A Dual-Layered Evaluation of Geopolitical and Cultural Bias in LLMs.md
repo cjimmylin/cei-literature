@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / ACL 2025 SRW
 local_pdf: "[[PDFs/2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kim-A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "American, Chinese, Japanese, Korean"
 languages_list: "Chinese, English, Japanese, Korean"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation framework dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "Bllossom-8B, Qwen-1.5-7B, Rakuten-7B, Llama-3-8B, GPT-4"
 DATA_URL: "https://github.com/seank021/LLM-Bias-Evaluation"
 tags: 
 abstract: "As large language models (LLMs) are increasingly deployed across diverse linguistic and cultural contexts, understanding their behavior in both factual and disputable scenarios is essential—especially when their outputs may shape public opinion or reinforce dominant narratives. In this paper, we define two types of bias in LLMs: model bias (bias stemming from model training) and inference bias (bias induced by the language of the query), through a two-phase evaluation."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset for question answering"
+data_metrics: "Not specified"
 ---
 # A Dual-Layered Evaluation of Geopolitical and Cultural Bias in LLMs
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,8 @@ tags:
 abstract: "We present an ethical decision-making framework that refines a pre-trained reinforcement learning (RL) model using a task-agnostic ethical layer. Following initial training, the RL model undergoes ethical finetuning, where human feedback is replaced by feedback generated from a large language model (LLM). The LLM embodies consequentialist, deontological, virtue, social justice, and care ethics as moral principles to assign belief values to recommended actions during ethical decision-making."
 paper_summary: "Abstract: We present an ethical decision-making framework that refines a pre-trained reinforcement learning (RL) model using a task-agnostic ethical layer. Following initial training, the RL model undergoes eth | Overview: Addressing Moral Uncertainty using Large Language Models for Ethical Decision-Making Rohit K. Dubey†, Damian Dailisan† and Sachit Mahajan† *Computational Social Science, ETH Z¨urich, Zurich, Switzerla | Methodology: that makes use of a Belief Jensen–Shannon Divergence (BJSD) method to systematically measure the discrepancies and conflicts among BBAs, processes the | Key Findings: benchmarks are critical for equitable and robust outcomes. By integrating Belief Probability Assignment (BPA) into reinforcement learning, AMULED enab | Conclusions: We present two simple scenarios where an ethics-based shaping algorithm helps RL agents make ethi- cally sound decisions while still achieving their p"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Mistral, Llama-3"
+DATA_URL: "https://github.com/xxxxx/moral"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
@@ -43,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Mistral, Llama-3"
-DATA_URL: "https://github.com/xxxxx/moral"
 ---
  Addressing Moral Uncertainty using Large Language Models for Ethical Decision-Making
 

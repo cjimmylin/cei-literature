@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,18 +31,18 @@ pdf_extract: "PDF Extracts/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-pur
 local_pdf: "[[PDFs/2024/2024-Ògúnrẹ̀mí-ÌròyìnSpeech A Multi-purpose Yorùbá Speech Corpus.pdf]]"
 abstract: "We introduce ÌròyìnSpeech, a new corpus influenced by the desire to increase the amount of high quality, contemporary Yorùbá speech data, which can be used for both Text-to-Speech (TTS) and Automatic Speech Recognition (ASR) tasks. We curated about 23 000 text sentences from news and creative writing domains with the open license CC-BY-4.0. To encourage a participatory approach to data creation, we provide 5 000 curated sentences to the Mozilla Common Voice platform to crowd-source the..."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Niger-Volta-LTI/yoruba-voice"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Other"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/Niger-Volta-LTI/yoruba-voice"
 ---
 # ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus
 

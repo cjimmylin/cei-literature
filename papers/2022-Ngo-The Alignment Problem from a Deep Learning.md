@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "In coming years or decades, artiﬁcial general intelligence (AGI) ma
 paper_summary: "Abstract: In coming years or decades, artiﬁcial general intelligence (AGI) may surpass human capabilities at many critical tasks. We argue that, without substantial effort to prevent it, AGIs could learn to pur | Overview: arXiv:2209.00626v8 [cs.AI] 4 May 2025 Published as a conference paper at ICLR 2024 The Alignment Problem from a Deep Learning Perspective Richard Ngo OpenAI richard@openai.com Lawrence Chan UC Berkele | Methodology: to alignment research, January 2023c. URL https://openai.com/blog/our-approach-to-alignment-research/. Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida,  | Conclusions: We ground the analysis of large-scale risks from misaligned AGI in the deep learning literature. We argue that if AGI-level policies are trained using"
 local_pdf: "[[PDFs/2022/2022-Ngo-The Alignment Problem from a Deep Learning.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
+DATA_URL: "https://github.com/antony0596/auto-gpt"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
-DATA_URL: "https://github.com/antony0596/auto-gpt"
 ---
 # The Alignment Problem from a Deep Learning Perspective
 

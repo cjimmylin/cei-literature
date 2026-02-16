@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: TMLR (Dec 2025)
 local_pdf: "[[PDFs/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Russian (among 16 countries, 14 languages)"
 languages_list: "Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark for ai safety"
-data_metrics: "14 languages"
 LLM_assessed: "GPT-4o, Gemini-2.5-Pro, Gemini-2.5-Flash, o1, o4-mini, InternVL2.5-4B, InternVL2.5-8B, InternVL2.5-38B, Qwen2.5-VL-3B, Qwen2.5-VL-7B, Qwen2.5-VL-32B, Qwen2.5-VL-72B, Llama-4-Scout, Llama-4-Maverick"
 DATA_URL: "NA"
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. Large vision-language models (LVLMs) are increasingly deployed in globally distributed applications, such as tourism assistants, yet their ability to produce culturally appropriate responses remains underexplored. Existing multimodal safety benchmarks primarily focus on physical safety and overlook violations rooted in cultural norms, which can result in symbolic harm."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "14 languages"
 ---
 # Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal
 local_pdf: "[[PDFs/2024/2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.pdf]]"
 publication: "EMNLP 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Southeast Asian"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Southeast Asia (SEA) is a region characterized by rich linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, the performance of contemporary AI models for SEA languages is compromised by a significant lack of representation of texts, images, and auditory datasets from SEA. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the predominance of English training..."
+LLM_assessed: "ALBERT, BLOOMZ, Bloom, Command-R, Deberta, Falcon 0, Falcon 7B, GPT-4, Gemma, LLaMa3, Llama, Llama-3, Llama2, Llama3., Llama39, Mistral, Mistral 0.159 Llama3, Mistral 7B, Mistral-7B, BERT, flan-t5-xl, t5-xl"
+DATA_URL: "https://huggingface.co/SEACrowd"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Southeast Asia (SEA) is a region characterized by rich linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, the performance of contemporary AI models for SEA languages is compromised by a significant lack of representation of texts, images, and auditory datasets from SEA. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the predominance of English training..."
 data_description: "Benchmark text corpus"
-data_metrics: "Not specified"
-LLM_assessed: "ALBERT, BLOOMZ, Bloom, Command-R, Deberta, Falcon 0, Falcon 7B, GPT-4, Gemma, LLaMa3, Llama, Llama-3, Llama2, Llama3., Llama39, Mistral, Mistral 0.159 Llama3, Mistral 7B, Mistral-7B, BERT, flan-t5-xl, t5-xl"
-DATA_URL: "https://huggingface.co/SEACrowd"
-research_topic: "Bias & Fairness"
+data_metrics: "36 languages"
 ---
 # SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Inspired by the superior language abilities of large language models 
 paper_summary: "Abstract: Inspired by the superior language abilities of large language models (LLM), large vision- language models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance  | Overview: Evaluating Object Hallucination in Large Vision-Language Models Yifan Li1,3∗, Yifan Du1,3∗, Kun Zhou2∗, Jinpeng Wang 4, Wayne Xin Zhao2,3† and Ji-Rong Wen1, 2,3 1Gaoling School of Artificial Intellige | Key Findings: Yes, there is a pear in the image. Is there a pear in the image? Adversarial settings POPE Yes, there is a knife in the image. Is there a knife in the | Conclusions: In this work, we conducted evaluation experiments on several LVLMs and examined how they suffer from the object hallucination issue. By investigat- in"
 local_pdf: "[[PDFs/2023/2023-Li-Evaluating Object Hallucination in Large.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
+DATA_URL: "https://github.com/RUCAIBox/POPE"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-4, Llama, Vicuna"
-DATA_URL: "https://github.com/RUCAIBox/POPE"
 ---
 # Evaluating Object Hallucination in Large Vision-Language Models (POPE)
 

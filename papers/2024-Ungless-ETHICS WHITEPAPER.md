@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ significance: "Serves as a practical guide for researchers/industry to navigate 
 tags: 
 abstract: "There is a significant body of work looking at the ethical considerations of large language models (LLMs): critiquing tools to measure performance and harms; proposing toolkits to aid in ideation; discussing the risks to workers; considering legislation around privacy and security etc. As yet there is no work that integrates these resources into a single practical guide that focuses on LLMs; we attempt this ambitious goal."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Privacy & Data Ethics"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"
 pdf_extract: "PDF Extracts/2024/2024-Ungless-ETHICS WHITEPAPER.md"
 local_pdf: "[[PDFs/2024/2024-Ungless-ETHICS WHITEPAPER.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # ETHICS WHITEPAPER: Whitepaper on Ethical Research into Large Language Models
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "One of the most challenging problems facing NLP today is evaluation. 
 paper_summary: "Abstract: One of the most challenging problems facing NLP today is evaluation. Some of the most pressing issues pertain to benchmark satura- tion, data contamination, and diversity in the quality of test exampl | Overview: Improving Model Evaluation using SMART Filtering of Benchmark Datasets Vipul Gupta1, 2, † Candace Ross1 David Pantoja3 Rebecca J. Passonneau2 Megan Ung1 Adina Williams1 1 FAIR, Meta AI 2 Pennsylvania  | Methodology: increases efficiency without hits to leaderboard util- ity. For example, on the ARC dataset, we shrink the dataset by 68.9%, increasing computational  | Key Findings: datasets, preserving the high-quality examples that are most informative and reliable as our basis for benchmarking. Our methodology applies three fil | Conclusions: Dataset Quality. Our approach removes the easy, data contaminated, and similar examples, thus im- proving the quality of the resulting dataset. Our me"
 local_pdf: "[[PDFs/2024/2024-Gupta-Improving Model Evaluation using SMART Filtering.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Qwen, Llama-3, Gemma, Phi, Mixtral"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "Qwen, Llama-3, Gemma, Phi, Mixtral"
-DATA_URL: "NA"
 ---
 # Improving Model Evaluation using SMART Filtering of Benchmark Datasets
 

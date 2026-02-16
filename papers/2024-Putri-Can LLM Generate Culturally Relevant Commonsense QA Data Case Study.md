@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Putri-Can LLM Generate Culturally Relevant 
 local_pdf: "[[PDFs/2024/2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2024)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian, Sundanese"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology text corpus for question answering"
-data_metrics: "4.5k questions"
 LLM_assessed: "BLOOMZ, ChatGPT, GPT-3, GPT-3.5, GPT-3.5 Turbo, GPT-4, GPT-4 Turbo, Llama-2, Mistral-7B, MistralOrca"
 DATA_URL: "https://github.com/commonsense/conceptnet5"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly being used to generate synthetic data for training and evaluating models. However, it is unclear whether they can generate a good quality of question answering (QA) dataset that incorporates knowledge and cultural nuance embedded in a language, especially for low-resource languages. In this study, we investigate the effectiveness of using LLMs in generating culturally relevant commonsense QA datasets for Indonesian and Sundanese languages."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Question Answering"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for question answering"
+data_metrics: "4.5k questions"
 ---
 # Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese
 

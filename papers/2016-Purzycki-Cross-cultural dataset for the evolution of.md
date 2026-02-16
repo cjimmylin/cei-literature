@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,20 +32,20 @@ significance: "Provides rare empirical data on religious beliefs and moral behav
 tags: 
 abstract: "Abstract A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The bulk of this research, however, draws from coded qualitative ethnographies rather than from standardized methods specifically designed to measure religious beliefs and behaviors. Psychological data sets that examine religious thought and behavior in controlled conditions tend to be disproportionately sampled from student populations. Some cross-national databases e"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
+pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
+local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Dataset"
+data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
-pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
-local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
 ---
 # Cross-cultural dataset for the evolution of religion and morality project
 

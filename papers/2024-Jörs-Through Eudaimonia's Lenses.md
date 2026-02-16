@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ key_contribution: "Integrates eudaimonic well-being principles into Human-Center
 significance: "Shifts the HCAI focus from mere satisfaction or efficiency to supporting deeper human potential and virtuous living"
 abstract: "Psychological-philosophical perspectives on well-being have recently become relevant in the field of human-centered artificial intelligence (HCAI). A key challenge for HCAI involves analyzing how AI impacts well-being, specifically eudaimonic well-being. This paper explores eudaimonic well-being variables as guiding principles for AI design, proposing a framework to analyze AI's impact on human flourishing beyond simple user satisfaction or task performance."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Through Eudaimonia's Lenses: EudAImonic Well-Being Variables As Guiding Principles For AI Design
 

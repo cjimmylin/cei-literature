@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: HuggingFace
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Hebrew/Israeli"
 cultures_nationalities_list: "Russian, Ukrainian, German, Spanish, Chinese, Arabic, Indian, Italian, French, Hebrew, Japanese, Ethiopian, Tatar"
 languages_list: "Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Hinglish, Italian, Japanese, Russian, Spanish, Tatar, Ukrainian"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset"
 tags: 
 abstract: "Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic). Hebrew added in 2025 extension. Includes multilingual toxic lexicon (176,347 entries across 15 languages) and ParaDetox parallel detoxification pairs."
 research_topic: "Machine Translation"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for toxicity detection"
+data_metrics: "5,000 samples; 15 languages"
 ---
 # TextDetox Multilingual Toxicity Dataset
 

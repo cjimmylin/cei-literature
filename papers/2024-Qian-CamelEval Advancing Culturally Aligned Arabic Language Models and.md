@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Pan-Arab"
 languages_list: "Arabic, English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "8,192 tokens"
 LLM_assessed: "Juhaina-9.24B, Silma-9B, Gemma-2-SimPO-9B, SauerkrautLM-Gemma-9B, Gemma-2-SPPO-9B"
 DATA_URL: "https://huggingface.co/elmrc"
 tags: 
 abstract: "Large Language Models (LLMs) are the cornerstones of modern artiﬁcial intelligence systems. This paper introduces Juhaina, a Arabic-English bilingual LLM speciﬁcally designed to align with the values and preferences of Arabic speakers. Juhaina inherently supports advanced functionalities such as instruction following, open-ended question answering, information provisioning, and text processing. Our model contains 9.24 billion parameters and is trained on a context window of up to 8,192 tokens."
-ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "805 test cases"
 ---
 # CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks
 

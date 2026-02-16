@@ -6,6 +6,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +34,10 @@ significance: "Found that deontological reasoning, when coupled with strong mora
 tags: 
 abstract: "Deontology and utilitarianism are two competing principles that guide our moral judgment. Recently, deontology is thought to be intuitive and is based on an error-prone and biased approach, whereas utilitarianism is relatively reﬂective and a suitable framework for making decision. In this research, the authors explored the relationship among moral identity, moral decision, and moral behavior to see how a preference for the deontological solution can lead to moral behavior."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
+local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -41,10 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
-local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
 ---
 # How Can a Deontological Decision Lead to Moral Behavior? The Moderating Role of Moral Identity
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: Frontiers
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
@@ -33,16 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found regarding Dialectal Arabic NLP evaluation benchmarks and fairness in 2025: Key Developments Culture & Dialects is showing growing emphasis with 7 benchmarks in 2025 alone, reflecting recognition of cultural alignment importance. Important 2025 Benchmarks DialectalArabicMMLU: A detailed analysis of model behavior across dialects reveals substantial performance disparities and highlights the need for dialect-aware evaluation and traini"
 research_topic: "Machine Translation"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "Not specified"
 ---
 # Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models
 

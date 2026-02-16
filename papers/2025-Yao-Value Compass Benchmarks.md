@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,17 +35,17 @@ abstract: "As large language models (LLMs) are gradually integrated into human d
 paper_summary: "Abstract: As large language models (LLMs) are gradu- ally integrated into human daily life, assessing their underlying values becomes essential for understanding their risks and alignment with specific customiz | Overview: arXiv:2501.07071v3 [cs.AI] 2 Jun 2025 Value Compass Benchmarks: A Comprehensive, Generative and Self-Evolving Platform for LLMs' Value Evaluation Jing Yao1, Xiaoyuan Yi1*, Shitong Duan2, Jindong Wang6 | Methodology: Existing value benchmarks follow three main paradigms. 1) Multiple-choice judgment: this approach assesses LLMs' values by asking them to judge whethe | Key Findings: Jing Yao1, Xiaoyuan Yi1*, Shitong Duan2, Jindong Wang6, Yuzhuo Bai3, Muhua Huang4, Yang Ou1, Scarlett Li1, Peng Zhang2, Tun Lu2, Zhicheng Dou5, Maoson | Conclusions: We demonstrate the Value Compass Benchmarks, an online platform that delivers comprehensive value assessment results of 33 most advanced LLMs, built o"
 local_pdf: "[[PDFs/2025/2025-Yao-Value Compass Benchmarks.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4o, GPT-3.5, o3, DeepSeek, Gemini, Claude, Llama-2, Llama-3"
+DATA_URL: "https://valuecompass.github.io/#/leaderboard"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
-utilitarian_ethics: "No"
+utilitarian_ethics: "Yes"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-3.5, o3, DeepSeek, Gemini, Claude, Llama-2, Llama-3"
-DATA_URL: "https://valuecompass.github.io/#/leaderboard"
 ---
 # Value Compass Benchmarks: A Platform for Fundamental and Validated Evaluation of LLMs Values
 

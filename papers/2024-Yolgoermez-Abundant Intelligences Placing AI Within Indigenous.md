@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing A
 local_pdf: "[[PDFs/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.pdf]]"
 publication: "AI & Society (Springer)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: ""
@@ -35,17 +34,21 @@ religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The current trajectory of artificial intelligence development suffers from fundamental epistemological shortcomings, resulting in the systematic operationalization of bias against non-white, non-male, and non-Western peoples. We argue that these failings are, in part, the result of certain Western rationalist epistemologies that exclude many ways of knowing about the world, and therefore they cannot provide a sufficient foundation on which to adequately, robustly, and humanely conceptualize..."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "The current trajectory of artificial intelligence development suffers from fundamental epistemological shortcomings, resulting in the systematic operationalization of bias against non-white, non-male, and non-Western peoples. We argue that these failings are, in part, the result of certain Western rationalist epistemologies that exclude many ways of knowing about the world, and therefore they cannot provide a sufficient foundation on which to adequately, robustly, and humanely conceptualize..."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-research_topic: Other
-ethics_perspective: "Social & Cultural Values"
 ---
 # Abundant Intelligences: Placing AI Within Indigenous Knowledge Frameworks
 

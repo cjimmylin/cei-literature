@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,8 @@ abstract: "In this work, we designed unbiased prompts to systematically evaluate
 paper_summary: "Abstract: In this work, we designed unbiased prompts to systematically evaluate the psychological safety of large language models (LLMs). First, we tested five different LLMs by using two per- sonality tests: S | Overview: Evaluating Psychological Safety of Large Language Models Xingxuan Li1,2∗Yutong Li3 Lin Qiu3 Shafiq Joty2,4 Lidong Bing1,5 1DAMO Academy, Alibaba Group, Singapore 2School of Computer Science and Engine | Key Findings: framework that we designed for fair analysis."
 local_pdf: "[[PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, InstructGPT, GPT-3.5, GPT-4, Llama-2"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, InstructGPT, GPT-3.5, GPT-4, Llama-2"
-DATA_URL: "NA"
 ---
 # Evaluating Psychological Safety of Large Language Models
 

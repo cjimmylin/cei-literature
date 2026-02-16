@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Doklady Mathematics / arXiv
 local_pdf: "[[PDFs/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian, American"
 cultures_nationalities_list: "Russian"
 languages_list: "Russian"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Kandinsky 3.1, Kandinsky 2.2, DALL-E 3, Midjourney, Stable Diffusion XL, YandexART"
 DATA_URL: "NA"
 tags: 
 abstract: "Despite the fact that popular text-to-image generation models cope well with international and general cultural queries, they have a significant knowledge gap regarding individual cultures. This is due to the content of existing large training datasets collected on the Internet, which are predominantly based on Western European or American popular culture. Meanwhile, the lack of cultural adaptation of the model can lead to incorrect results, a decrease in the generation quality, and the spread..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # CRAFT: Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ abstract: "Large language models (LLMs) can “lie”, which we define as output
 paper_summary: "Abstract: Large language models (LLMs) can 'lie', which we define as outputting false statements despite 'knowing' the truth in a demonstrable sense. LLMs might 'lie', for example, when instructed to output mis | Overview: HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS Lorenzo Pacchiardi∗ University of Oxford Alex J. Chan∗ University of Cambridge Sören Mindermann University of Oxf | Methodology: (fine-tuning). We create several versions of each model by varying the fine-tuning setup (Ap- pendix B.1). The lie detector effectively sep- arates tr | Key Findings: also raises interesting questions about yet-to-be-understood inductive biases in LLMs. 2 MOTIVATION: WHY AND HOW TO STUDY LIE DETECTION IN LLMS? Lying | Conclusions: Our simple elicitation question method generalises to unseen topics, models, and lie-generation techniques. Combined with the many promising direction"
 local_pdf: "[[PDFs/2023/2023-Tan-How to Catch an AI Liar.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-3, Llama, Alpaca, Vicuna"
+DATA_URL: "https://github.com/LoryPack/LLM-LieDetector"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-3, Llama, Alpaca, Vicuna"
-DATA_URL: "https://github.com/LoryPack/LLM-LieDetector"
 ---
 # How to Catch an AI Liar: Lie-Detection in Large Language Models
 

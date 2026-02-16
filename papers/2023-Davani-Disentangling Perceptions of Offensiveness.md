@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +36,18 @@ abstract: "Perception of offensiveness is inherently subjective, shaped by the l
 paper_summary: "Abstract: Perception of offensiveness is inherently sub- jective, shaped by the lived experiences and socio-cultural values of the perceivers. Recent years have seen substantial efforts to build AI- based tools | Overview: Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates Aida Davani Google Research aidamd@google.com Mark Díaz Google Research markdiaz@google.com Dylan Baker Distributed AI Researc | Methodology: (Ouyang et al., 2022; Kenton et al., 2021), the key role of culture in defining humans, and val- ues is overlooked in benchmark creation and fine- tun | Key Findings: data. Lora Aroyo and Chris Welty. 2015. Truth is a lie: Crowd truth and the seven myths of human annotation. AI Magazine, 36(1):15–24. Mohammad Atari, | Conclusions: Research on safety considerations of large lan- guage models has mostly focused on evaluations of model harms through crowdsourced benchmarks (Srivast"
 local_pdf: "[[PDFs/2023/2023-Davani-Disentangling Perceptions of Offensiveness.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset for toxicity detection"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates
 

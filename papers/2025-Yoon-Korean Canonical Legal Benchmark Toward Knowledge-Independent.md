@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Yoon-Korean Canonical Legal Benchmark Towar
 local_pdf: "[[PDFs/2025/2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: Korean
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark dataset for question answering"
-data_metrics: "283 questions; 169 questions; 2,739 instance"
 LLM_assessed: "Claude, Claude 3.5 Haiku, Claude 3.7 Sonnet, Claude Opus, Claude Sonnet, DeepSeek, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, LLAMA 4, Phi-4-mini"
 DATA_URL: "https://github.com/openai/tiktoken"
 tags: 
 abstract: "We introduce the Korean Canonical Legal Benchmark (KCL), a benchmark designed to assess language models’ legal reasoning capabilities independently of domain-specific knowledge. KCL provides question-level supporting precedents, enabling a more faithful disentanglement of reasoning ability from parameterized knowledge. KCL consists of two components: (1) KCL-MCQA, multiple-choice problems of 283 questions with 1,103 aligned precedents, and (2) KCL-Essay, open-ended generation problems of 169..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "283 questions; 169 questions"
 ---
 # Korean Canonical Legal Benchmark: Toward Knowledge-Independent Evaluation of LLMs' Legal Reasoning Capabilities
 

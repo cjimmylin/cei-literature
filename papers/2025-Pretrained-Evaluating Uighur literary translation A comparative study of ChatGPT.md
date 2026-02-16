@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.md"
 local_pdf: "[[PDFs/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese, Uyghur"
 languages_list: "Chinese, Uyghur"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, ChatGPT, DeepSeek, GPT-4o, Llama"
+DATA_URL: "NA"
+tags: 
+abstract: "Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, DeepSeek, GPT-4o, Llama"
-DATA_URL: "NA"
-tags: 
-abstract: "Based on the search results, I found relevant information about TarimGPT and Uyghur language model evaluation: TarimGPT Overview TarimGPT is a generative pre-trained model based on the Transformer architecture designed to explore the potential of autoregressive language modeling for mixed Chinese and Uyghur training tasks as well as lightweight models. Model Development and Purpose The model addresses the lack of support for minority languages like Uyghur, the scarcity of Uyghur languag"
-research_topic: "Machine Translation"
 ---
 # Evaluating Uighur literary translation: A comparative study of ChatGPT, Google Translate, and Bing Translator - PMC
 

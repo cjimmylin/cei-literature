@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse ben
 local_pdf: "[[PDFs/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"
 languages_list: Persian
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multi-task benchmark for bias and fairness text corpus"
-data_metrics: "4,000 questions"
 LLM_assessed: "ChatGPT, Dolly, Dolly24, Llama, Llama3"
 DATA_URL: "https://github.com/ParsBench/ParsBench"
 tags: 
 abstract: "Research on evaluating and analyzing large language models (LLMs) has been extensive for high-resource languages such as English, yet their performance in languages such as Persian has received considerably less attention. This paper introduces FarsEval-PKBETS benchmark, a subset of FarsEval project for evaluating large language models in Persian. This benchmark consists of 4,000 questions and answers in various formats, including multiple-choice, short-answer, and descriptive responses."
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "4,000 questions"
 ---
 # FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models
 

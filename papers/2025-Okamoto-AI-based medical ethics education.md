@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +31,10 @@ significance: "Explores the potential of LLMs not just as information sources bu
 osint_source: "Recovered via HTML"
 abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"
 DATE_ADDED: 20260129
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
+local_pdf: "[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "No"
@@ -38,10 +44,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
-local_pdf: "[[PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
 ---
 # AI-based medical ethics education: examining the potential of large language models as a tool for virtue cultivation
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Amano-Exploring Similarity Measures and Int
 local_pdf: "[[PDFs/2024/2024-Amano-Exploring Similarity Measures and Intertextuality in.pdf]]"
 publication: "NLP4DH 2024 (4th International Conference on NLP for Digital Humanities), Miami, USA"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "Sanskrit"
@@ -33,17 +32,21 @@ religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "This paper examines semantic similarity and intertextuality in selected texts from the Vedic Sanskrit corpus, specifically the Maitr¯ayan.¯ı Sam. hit¯a (MS) and K¯at.haka Sam. hit¯a (KS). Three computational methods are employed: Word2Vec for word embeddings, stylo package for stylometric analysis, and TRACER for text reuse detection. By comparing various sections of the texts at different granularities, patterns of similarity and structural alignment are uncovered, providing insights into..."
-data_description: "Evaluation methodology text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Word2Vec"
 DATA_URL: "NA"
-research_topic: Other
 ethics_perspective: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Exploring Similarity Measures and Intertextuality in Vedic Sanskrit Literature
 

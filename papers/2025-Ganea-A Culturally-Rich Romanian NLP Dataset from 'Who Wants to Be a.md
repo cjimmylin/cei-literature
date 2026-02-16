@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "arXiv / RANLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md"
 local_pdf: "[[PDFs/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "Yes"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "Romanian"
 languages_list: Romanian
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, GPT-4, Gemini, Gemma, Gemma-2, Gemma2, Llama, LLaMA 3.3, LLaMA3, LLaMA3., Llama-3, Llama-3.1, Llama-3.3, Mistral 7b, Mistral-7B, PaLM, Phi-4, Phi-4 56, Qwen, Qwen2.5, RoBERTa, gemini-1.5-flash"
 DATA_URL: "https://huggingface.co/datasets"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate varying performance across languages and cultural contexts. This study introduces a novel, culturally-rich, multilingual dataset derived from video recordings of the Romanian game show 'Who Wants to Be a Millionaire?' (Vrei să fii Milionar?). We employed an innovative process combining optical character recognition (OCR), automated text extraction, and manual verification to collect question-answer pairs, enriching them with metadata including question..."
-research_topic: "Machine Translation"
 authors_incomplete: false
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a Millionaire?' Videos
 

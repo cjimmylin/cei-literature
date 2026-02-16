@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md"
 local_pdf: "[[PDFs/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French, Dutch, American"
 cultures_nationalities_list: "Dutch, French, American"
 languages_list: "Dutch, English, French"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "9 categories"
 LLM_assessed: "BERTje, RobBERT, mBERT, Mistral-7B, BERT, RoBERTa, FlauBERT, CamemBERT"
 DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which might be upsetting Language models are prone to exhibiting biases, further amplifying unfair and harmful stereotypes. Given the fast-growing popularity and wide application of these models, it is necessary to ensure safe and fair language models. As of recent considerable attention has been paid to measuring bias in language models, yet the majority of studies have focused only on English language."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Social Biases in Language Models for Dutch
 

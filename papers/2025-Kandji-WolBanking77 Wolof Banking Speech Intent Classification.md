@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Kandji-WolBanking77 Wolof Banking Speech In
 local_pdf: "[[PDFs/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
 publication: "WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Senegalese, West African"
 languages_list: "Wolof"
@@ -34,16 +33,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Intent classification models have made a significant progress in recent years. However, previous studies primarily focus on high-resource language datasets, which results in a gap for low-resource languages and for regions with high rates of illiteracy, where languages are more spoken than read or written. This is the case in Senegal, for example, where Wolof is spoken by around 90% of the population, while the national illiteracy rate remains at of 42%."
-data_description: "Evaluation approach dataset"
-data_metrics: "77 dataset"
 LLM_assessed: "BERT, Deberta, GPT-4o, Llama-3.2, Phi-4-multimodal, Qwen2, RoBERTa, Llama"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Wolof-WTB"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # WolBanking77: Wolof Banking Speech Intent Classification Dataset
 

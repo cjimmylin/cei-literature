@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.md"
 local_pdf: "[[PDFs/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT"
+DATA_URL: "NA"
+tags: 
+abstract: "The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-3, GloVe, RoBERTa, Word2Vec, XLNet, distilBERT"
-DATA_URL: "NA"
-tags: 
-abstract: "The paper addresses the critical challenge of detecting and mitigating hate speech in Hindi across social media platforms, utilizing natural language processing (NLP) techniques. It underscores the complexities associated with the Hindi language, including the prevalence of code-switching, the existence of various dialects, and the inconsistent use of Romanized Hindi. These linguistic factors present significant challenges for developing automated systems capable of reliably identifying hate..."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A comprehensive review on detection of hate speech for multi-lingual data | Social Network Analysis and Mining
 

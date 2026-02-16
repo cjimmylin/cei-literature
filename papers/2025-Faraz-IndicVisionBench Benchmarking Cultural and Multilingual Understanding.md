@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Faraz-IndicVisionBench Benchmarking Cultura
 local_pdf: "[[PDFs/2025/2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf]]"
 publication: "WebSearch: IndicVisionBench"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "Multilingual"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Vision-language models (VLMs) have demonstrated impressive generalization across multimodal tasks, yet most evaluation benchmarks remain Western-centric, leaving open questions about their performance in culturally diverse and multilingual settings. To address this gap, we introduce IndicVisionBench, the first large-scale benchmark centered on the Indian subcontinent. Covering English and 10 Indian languages, our benchmark spans 3 multimodal tasks, including Optical Character Recognition (OCR),..."
+LLM_assessed: "GPT-4o, GPT-4o-mini, Gemma, Gemma-3, LLaMA-4, LLaMA-4., Llama"
+DATA_URL: "https://github.com/Yuliang-Liu/MultimodalOCR"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "Vision-language models (VLMs) have demonstrated impressive generalization across multimodal tasks, yet most evaluation benchmarks remain Western-centric, leaving open questions about their performance in culturally diverse and multilingual settings. To address this gap, we introduce IndicVisionBench, the first large-scale benchmark centered on the Indian subcontinent. Covering English and 10 Indian languages, our benchmark spans 3 multimodal tasks, including Optical Character Recognition (OCR),..."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-4o-mini, Gemma, Gemma-3, LLaMA-4, LLaMA-4., Llama"
-DATA_URL: "https://github.com/Yuliang-Liu/MultimodalOCR"
-research_topic: "Machine Translation"
 ---
 # IndicVisionBench: Benchmarking Cultural and Multilingual Understanding in VLMs
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Dou-SailCompass Towards Reproducible and Ro
 local_pdf: "[[PDFs/2024/2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Southeast Asian"
 languages_list: "Indonesian, Thai, Vietnamese"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "In this paper, we introduce SailCompass, a reproducible and robust evaluation benchmark for assessing Large Language Models (LLMs) on Southeast Asian Languages (SEA). SailCompass encompasses three main SEA languages, eight primary tasks including 14 datasets covering three task types (generation, multiplechoice questions, and classiﬁcation). To improve the robustness of the evaluation approach, we explore different prompt conﬁgurations for multiple-choice questions and leverage calibrations to..."
-data_description: "Benchmark dataset"
-data_metrics: "14 datasets"
 LLM_assessed: "BLOOM, BLOOM-7B1, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT3, GPT3.5-turbo, Gemma, Llama, Llama-2, Llama-3, Mistral, Mistral 7b, Mistral-7B, QWEN1.5, Qwen, Qwen-1.5, Qwen.5"
 DATA_URL: "https://huggingface.co/datasets/sail/Sailcompass_data"
-research_topic: "AI Safety & Alignment"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
+data_metrics: "14 datasets"
 ---
 # SailCompass: Towards Reproducible and Robust Evaluation for Southeast Asian Languages
 

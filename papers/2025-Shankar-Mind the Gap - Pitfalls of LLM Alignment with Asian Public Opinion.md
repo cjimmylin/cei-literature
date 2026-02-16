@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alig
 local_pdf: "[[PDFs/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.pdf]]"
 publication: "Proceedings of the National Academy of Sciences (PNAS)"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, East Asian, Southeast Asian"
 languages_list: "Multilingual"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual, multicultural settings, yet their reliance on predominantly English-centric training data risks misalignment with the diverse cultural values of different societies. In this paper, we present a comprehensive, multilingual audit of alignment of contemporary LLMs including GPT-4o-Mini, Gemini2.5-Flash, Llama 3.2, Mistral and Gemma 3 across India, East Asia and Southeast Asia."
+LLM_assessed: "GPT-4, Gemini, Llama-3, Mistral, Gemma"
+DATA_URL: "https://github.com/HariShankar08/LLMOpinions/"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual, multicultural settings, yet their reliance on predominantly English-centric training data risks misalignment with the diverse cultural values of different societies. In this paper, we present a comprehensive, multilingual audit of alignment of contemporary LLMs including GPT-4o-Mini, Gemini2.5-Flash, Llama 3.2, Mistral and Gemma 3 across India, East Asia and Southeast Asia."
-ethics_perspective: "Social & Cultural Values"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Gemini, Llama-3, Mistral, Gemma"
-DATA_URL: "https://github.com/HariShankar08/LLMOpinions/"
 ---
 # Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion
 

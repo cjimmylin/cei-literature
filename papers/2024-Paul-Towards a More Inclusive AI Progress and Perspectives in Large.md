@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sami"
 languages_list: "Northern Sami"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BLOOM, Pegasus"
 DATA_URL: "NA"
 tags: 
 abstract: "First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages."
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "22m tokens"
 ---
 # Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language
 

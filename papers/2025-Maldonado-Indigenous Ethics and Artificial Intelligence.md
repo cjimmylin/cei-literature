@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: AI and Ethics (Springer)
 local_pdf: "[[PDFs/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Andean Indigenous"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality."
-ethics_perspective: "Social & Cultural Values"
 ---
 # Indigenous Ethics and Artificial Intelligence
 

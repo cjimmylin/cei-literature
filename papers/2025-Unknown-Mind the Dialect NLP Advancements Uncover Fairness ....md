@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic, English"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT"
+DATA_URL: "https://github.com/alshabae/FairArRecSys"
+tags: 
+abstract: "Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "https://github.com/alshabae/FairArRecSys"
-tags: 
-abstract: "Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a..."
-ethics_perspective: "Bias & Fairness"
 ---
 # Mind the Dialect: NLP Advancements Uncover Fairness ...
 

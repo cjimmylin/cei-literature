@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Abbasi-Benchmarking Sociolinguistic Diversi
 local_pdf: "[[PDFs/2025/2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.pdf]]"
 publication: "WebSearch: Benchmarking Sociolinguistic Diversity Swahili NLP"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Kenyan"
 languages_list: "English, Swahili"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "We introduce the first taxonomy-guided evaluation of Swahili NLP, addressing gaps in sociolinguistic diversity. Drawing on health-related psychometric tasks, we collect a dataset of 2,170 free-text responses from Kenyan speakers. The data exhibits tribal influences, urban vernacular, code-mixing, and loanwords. We develop a structured taxonomy and use it as a lens for examining model prediction errors across pre-trained and instruction-tuned language models."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Llama, Llama 3.1, Llama-3.1, Llama3.1, Qwen2, Qwen2.5, RoBERTa, llama 3"
 DATA_URL: "https://github.com/nd-hal/swahili_psych_taxonomy"
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for bias and fairness"
+data_metrics: "Not specified"
 ---
 # Benchmarking Sociolinguistic Diversity in Swahili NLP: A Taxonomy-Guided Approach
 

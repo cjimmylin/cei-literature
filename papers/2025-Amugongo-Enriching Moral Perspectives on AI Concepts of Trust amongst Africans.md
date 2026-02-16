@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Ghanaian, Kenyan, Nigerian, South African, Sub-Saharan African, Ubuntu"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research."
-ethics_perspective: "General Ethics"
 ---
 # Enriching Moral Perspectives on AI: Concepts of Trust amongst Africans
 

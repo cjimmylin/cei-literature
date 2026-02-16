@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ pdf: "https://arxiv.org/pdf/2305.09941"
 pdf_extract: "PDF Extracts/2023/2023-Harrington-I'm Fully Who I Am.md"
 local_pdf: "[[PDFs/2023/2023-Harrington-I'm Fully Who I Am.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-2, OPT, ChatGPT"
+DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,11 +43,9 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation framework dataset for toxicity detection"
+is_dataset: "No"
+data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-2, OPT, ChatGPT"
-DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"
 ---
 # I'm Fully Who I Am: Towards Centering Transgender and Non-Binary Voices to Measure Biases in Open Language Generation
 

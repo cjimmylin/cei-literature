@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Evaluations of LLMs’ ethical risks and value inclinations often rel
 paper_summary: "Abstract: Evaluations of LLMs' ethical risks and value in- clinations often rely on short-form surveys and psychometric tests, yet real-world use involves long-form, open-ended responses—leaving value-related r | Overview: arXiv:2506.02481v1 [cs.CL] 3 Jun 2025 Do Language Models Think Consistently? A Study of Value Preferences Across Varying Response Lengths Inderjeet Nair and Lu Wang University of Michigan, Ann Arbor,  | Key Findings: in the erosion of these fundamental aspects over time.' Consequently, an argument associated with a less preferred value receives a higher score. In s | Conclusions: We introduce a novel perspective on evaluating the consistency of value preferences in large language models by analyzing how these preferences shift"
 local_pdf: "[[PDFs/2025/2025-Nair-Do Language Models Think Consistently.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Gemma, Mistral, Qwen"
+DATA_URL: "https://github.com/launchnlp/ValuePreferenceConsistency"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Gemma, Mistral, Qwen"
-DATA_URL: "https://github.com/launchnlp/ValuePreferenceConsistency"
 ---
 # Do Language Models Think Consistently? A Study of Value Preferences Across Varying Response Lengths
 

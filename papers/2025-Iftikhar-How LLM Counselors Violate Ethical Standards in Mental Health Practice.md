@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Iftikhar-How LLM Counselors Violate Ethical
 local_pdf: "[[PDFs/2025/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.pdf]]"
 publication: Unknown
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large language models (LLMs) were not designed to replace healthcare workers, but they are being used in ways that can lead users to overestimate the types of roles that these systems can assume. While prompt engineering has been shown to improve LLMs’ clinical effectiveness in mental health applications, little is known about whether such strategies help models adhere to ethical principles for real-world deployment."
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-3, Claude"
+DATA_URL: "https://github.com/brownhci/human-llm-cbt-evals"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Large language models (LLMs) were not designed to replace healthcare workers, but they are being used in ways that can lead users to overestimate the types of roles that these systems can assume. While prompt engineering has been shown to improve LLMs’ clinical effectiveness in mental health applications, little is known about whether such strategies help models adhere to ethical principles for real-world deployment."
-ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-3, Claude"
-DATA_URL: "https://github.com/brownhci/human-llm-cbt-evals"
 ---
 # How LLM Counselors Violate Ethical Standards in Mental Health Practice
 

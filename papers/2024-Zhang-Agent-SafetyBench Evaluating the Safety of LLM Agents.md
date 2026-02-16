@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safe
 local_pdf: "[[PDFs/2024/2024-Zhang-Agent-SafetyBench Evaluating the Safety of LLM Agents.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As large language models (LLMs) are increasingly deployed as agents, their integration into interactive environments and tool use introduce new safety challenges beyond those associated with the models themselves. However, the absence of comprehensive benchmarks for evaluating agent safety presents a significant barrier to effective assessment and further improvement. In this paper, we introduce AGENTSAFETYBENCH, a comprehensive benchmark designed to evaluate the safety of LLM agents."
+LLM_assessed: "Claude, GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
+DATA_URL: "https://github.com/thu-coai/Agent-SafetyBench/"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "As large language models (LLMs) are increasingly deployed as agents, their integration into interactive environments and tool use introduce new safety challenges beyond those associated with the models themselves. However, the absence of comprehensive benchmarks for evaluating agent safety presents a significant barrier to effective assessment and further improvement. In this paper, we introduce AGENTSAFETYBENCH, a comprehensive benchmark designed to evaluate the safety of LLM agents."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "2,000 test cases; 8 categories"
-LLM_assessed: "Claude, GPT-4, Gemini, Qwen, Llama-3, DeepSeek"
-DATA_URL: "https://github.com/thu-coai/Agent-SafetyBench/"
 ---
 # Agent-SafetyBench: Evaluating the Safety of LLM Agents
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-team-ViMUL A Culturally-diverse Multilingua
 local_pdf: "[[PDFs/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.pdf]]"
 publication: "EMNLP 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large multimodal models (LMMs) have recently gained attention due to their effectiveness to understand and generate descriptions of visual content. Most existing LMMs are in English language. While few recent works explore multilingual image LMMs, to the best of our knowledge, moving beyond the En- *Equal contribution glish language for cultural and linguistic inclusivity is yet to be investigated in the context of video LMMs."
+LLM_assessed: "ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3."
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Large multimodal models (LMMs) have recently gained attention due to their effectiveness to understand and generate descriptions of visual content. Most existing LMMs are in English language. While few recent works explore multilingual image LMMs, to the best of our knowledge, moving beyond the En- *Equal contribution glish language for cultural and linguistic inclusivity is yet to be investigated in the context of video LMMs."
 data_description: "Multilingual benchmark"
-data_metrics: "8k samples; 14 languages; 15 categories"
-LLM_assessed: "ALBERT, ChatGPT, DeepSeek-R1, GPT-4, GPT-4o, GPT-4o-mini, GPT4o, LLaMA 3, LLaMA-3.1, Llama, Mistral, Mistral-7B, Phi-4, Phi-4-14B, Qwen, Qwen 3, Qwen-3, llama., llama3, llama3."
-DATA_URL: "NA"
-research_topic: "Computer Vision & Multimodal"
+data_metrics: "14 languages; 15 categories"
 ---
 # ViMUL: A Culturally-diverse Multilingual Multimodal Video Benchmark & Model
 

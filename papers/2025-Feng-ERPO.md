@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,20 +33,20 @@ significance: "Demonstrates that teaching models to 'reason about safety' before
 pdf_extract: "PDF Extracts/2025/2025-Feng-ERPO.md"
 abstract: "Recent advancements in large language models (LLMs) have accelerated progress toward artificial general intelligence, yet their potential to generate harmful content poses critical safety challenges. Existing alignment methods often struggle to cover diverse safety scenarios and remain vulnerable to adversarial attacks. In this work, we propose SAFER, a framework for Safety Alignment via eFficient Ex-Ante Reasoning."
 paper_summary: "Abstract: Recent advancements in large language mod- els (LLMs) have accelerated progress toward artificial general intelligence, yet their poten- tial to generate harmful content poses critical safety challeng | Overview: SAFER: Advancing Safety Alignment via Efficient Ex-Ante Reasoning Kehua Feng1,2∗, Keyan Ding1,2*, Yuhao Wang2,3, Menghan Li4, Fanjunduo Wei1,2, Xinda Wang2,4, Qiang Zhang2,5†, Huajun Chen1,2† 1College"
-local_pdf: [[PDFs/2025/2025-Feng-ERPO.pdf]]
+local_pdf: "[[PDFs/2025/2025-Feng-ERPO.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Qwen, DeepSeek, GPT-4"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
-utilitarian_ethics: "Yes"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: "No"
 is_dataset: "No"
-data_description: "Evaluation framework"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Qwen, DeepSeek, GPT-4"
-DATA_URL: "NA"
 ---
 # ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization
 

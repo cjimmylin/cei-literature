@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "NoDaLiDa 2021"
 pdf_extract: "PDF Extracts/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.md"
 local_pdf: "[[PDFs/2021/2021-Hansson-The Swedish Winogender Dataset SweWinogender.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Swedish"
 languages_list: Swedish
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://spraakbanken.gu.se/en/resources/swewinogender"
 tags: 
 abstract: "We introduce the SweWinogender test set, a diagnostic dataset to measure gender bias in coreference resolution. It is modelled after the English Winogender benchmark, and is released with reference statistics on the distribution of men and women between occupations and the association between gender and occupation in modern corpus material. The paper discusses the design and creation of the dataset, and presents a small investigation of the supplementary statistics."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness text corpus"
+data_metrics: "Not specified"
 ---
 # The Swedish Winogender Dataset (SweWinogender)
 

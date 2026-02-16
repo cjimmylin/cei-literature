@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,7 +21,6 @@ doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"
 url: "https://doi.org/10.1080/23736992.2025.2553146"
 publication: "Journal of Media Ethics"
-ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -30,19 +32,20 @@ key_contribution: "Compares moral reasoning between humans and LLMs using Moral 
 significance: "Demonstrates humans consistently outperform LLMs on moral competence; LLMs overemphasize harm/care while under-representing loyalty, authority, purity"
 abstract: "Background The primary purpose of this research is to investigate the moral reasoning capabilities of Large Language Models (LLMs), especially to find out possible biases in moral reasoning by ChatGPT and other LLM-based chatbots, and whether they engage in reasoning or simply reproduce information. The study employed an experiment to assess LLMs’ performance on their moral reasoning abilities. Methods Moral reasoning is assessed using the Moral Competence Test (MCT) and the Moral Foundation..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 local_pdf: "[[PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models
 

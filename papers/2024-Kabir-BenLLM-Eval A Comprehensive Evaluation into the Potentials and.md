@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluatio
 local_pdf: "[[PDFs/2024/2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi, Bengali"
 languages_list: Bengali
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, Claude, Claude 2, Claude-2, Claude-2., Claude-23, GPT-3, GPT-3.5, GPT-3.5 turbo, GPT-4, Llama, Llama-2"
 DATA_URL: "https://github.com/saidul-islam98/BenLLMeval"
 tags: 
 abstract: "Large Language Models (LLMs) have emerged as one of the most important breakthroughs in NLP for their impressive skills in language generation and other language-specific tasks. Though LLMs have been evaluated in various tasks, mostly in English, they have not yet undergone thorough evaluation in under-resourced languages such as Bengali (Bangla). To this end, this paper introduces BenLLM-Eval, which consists of a comprehensive evaluation of LLMs to benchmark their performance in the Bengali..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # BenLLM-Eval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP
 

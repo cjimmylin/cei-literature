@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "Taylor & Francis"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Investigates ethical challenges of AI deployment in Vietnam under authoritarian governance. Uses qualitative methods including policy documents, interviews with policymakers and citizens, social media analysis, and case studies of facial recognition in Hanoi and AI in public health. Examines how Vietnam's centralized governance enables swift AI adoption but falters in ethical flexibility."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Responsible AI"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Investigates ethical challenges of AI deployment in Vietnam under authoritarian governance. Uses qualitative methods including policy documents, interviews with policymakers and citizens, social media analysis, and case studies of facial recognition in Hanoi and AI in public health. Examines how Vietnam's centralized governance enables swift AI adoption but falters in ethical flexibility."
-ethics_perspective: "Responsible AI"
 ---
 # Artificial intelligence ethics in authoritarian Vietnam: governance, trust, and societal tensions
 

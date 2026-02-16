@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Large language models (LLMs) appear to bias their survey answers towa
 paper_summary: "Abstract: Large language models (LLMs) appear to bias their survey answers toward certain values. Nonetheless, some argue that LLMs are too inconsistent to simulate particular values. Are they? To answer, we fi | Overview: Are Large Language Models Consistent over Value-laden Questions? Jared Moore Stanford University jlcmoore@stanford.edu Tanvi Deshpande Stanford University tanvimd@stanford.edu Diyi Yang Stanford Unive | Conclusions: Prior work has argued that models either do (Dur- mus et al., 2024; Santurkar et al., 2023) or do not (Röttger et al., 2024; Shu et al., 2023) hold ce"
 local_pdf: "[[PDFs/2024/2024-Moore-Are Large Language Models Consistent over.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-2, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/jlcmoore/ValueConsistency"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "8,000 questions"
-LLM_assessed: "GPT-4, Llama-2, Llama-3"
-DATA_URL: "https://huggingface.co/datasets/jlcmoore/ValueConsistency"
 ---
 # Are Large Language Models Consistent over Value-laden Questions?
 

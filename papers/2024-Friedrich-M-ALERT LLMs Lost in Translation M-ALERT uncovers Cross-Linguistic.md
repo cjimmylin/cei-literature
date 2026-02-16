@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md"
 local_pdf: "[[PDFs/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French, German, Italian, Spanish"
 cultures_nationalities_list: "French, German, Italian, Spanish"
 languages_list: "English, French, German, Italian, Spanish"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for ai safety dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, GPT-4, Claude-2, Llama-2, Mistral, Gemini, Command, and 32 additional LLMs (39 total)"
 DATA_URL: "https://github.com/cmu-lti/m-alert"
 tags: 
 abstract: "Building safe Large Language Models (LLMs) across multiple languages is essential in ensuring both safe access and linguistic diversity. To this end, we conduct a large-scale, comprehensive safety evaluation of the current LLM landscape. For this purpose, we introduce M-ALERT, a multilingual benchmark that evaluates the safety of LLMs in five languages: English, French, German, Italian, and Spanish."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies
 

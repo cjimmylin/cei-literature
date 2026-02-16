@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.md"
 local_pdf: "[[PDFs/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Mongolian, Multilingual"
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation framework text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGPT, GPT-4o"
 DATA_URL: "NA"
 tags: 
 abstract: "Entity relationship extraction tasks conducted in low-resource language domains (such as the medical and military domains) have long faced signiﬁcant challenges, and data augmentation (DA) is considered an effective solution for addressing this issue. Compared with monolingual DA methods, cross-lingual augmentation methods more effectively enhance the diversity of data in low-resource language settings by leveraging and extending data resources derived from other languages."
 research_topic: "Machine Translation"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Responsible AI"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework text corpus"
+data_metrics: "Not specified"
 ---
 # Large and Small models for collaborative cross-lingual data augmentation in entity relationship extraction for low-resource languages | Journal of King Saud University Computer and Information Sciences | Springer Nature Link
 

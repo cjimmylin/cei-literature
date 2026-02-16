@@ -253,13 +253,13 @@ The classifier uses 15 religious tradition categories with regex pattern matchin
 
 Which traditions lack non-English language support?
 
-| Tradition | Arabic | Chinese | American | African/Ubuntu | Hebrew/Israeli | Indian | Spanish | French | Iranian | Chinese/Confucian | Brazilian | Italian | Total |
+| Tradition | Arabic | Chinese | American | African/Ubuntu | Hebrew/Israeli | Indian | Spanish | Iranian | French | Chinese/Confucian | Brazilian | Italian | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Islam | 16 | - | 2 | - | - | - | - | - | 2 | - | - | - | 20 |
-| Christianity | 1 | 1 | 1 | 1 | 3 | 1 | 2 | 3 | - | - | 1 | 2 | 16 |
+| Islam | 16 | - | 2 | - | - | - | - | 2 | - | - | - | - | 20 |
+| Christianity | 1 | 1 | 1 | 1 | 3 | 1 | 2 | - | 3 | - | 1 | 2 | 16 |
 | Buddhism | - | 5 | 2 | - | 1 | - | - | - | - | - | - | - | 8 |
 | Judaism | - | - | 1 | - | 2 | - | - | - | - | - | - | - | 3 |
-| Hinduism | - | - | 1 | - | - | 2 | - | - | 1 | - | - | - | 4 |
+| Hinduism | - | - | 1 | - | - | 2 | - | 1 | - | - | - | - | 4 |
 | Sikhism | - | - | - | - | - | - | - | - | - | - | - | - | 0 |
 | Confucianism | - | 4 | - | - | - | - | - | - | - | 2 | - | - | 6 |
 | Jainism | - | - | - | - | - | 1 | - | - | - | - | - | - | 1 |

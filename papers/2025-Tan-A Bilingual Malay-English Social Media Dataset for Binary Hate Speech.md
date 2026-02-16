@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "ScienceDirect (Data in Brief)"
 pdf_extract: "PDF Extracts/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md"
 local_pdf: "[[PDFs/2025/2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Malaysian"
 languages_list: "English, Malay"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT"
 DATA_URL: "https://github.com/MaityKrishanu/Hate_Malay"
 tags: 
 abstract: "26,985 bilingual Malay-English social media texts from five public sources for binary hate speech detection. 13,609 English and 13,376 Malay-language texts with human annotation and controlled pseudo-labelling."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # A Bilingual Malay-English Social Media Dataset for Binary Hate Speech Detection
 

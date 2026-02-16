@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: NAACL 2025 Findings
 local_pdf: "[[PDFs/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
 languages_list: "English, Russian"
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "19 categories"
 LLM_assessed: "Stable Diffusion 3, DALL-E 3, Kandinsky 3.1, YandexART 2, Midjourney v6"
 DATA_URL: "https://github.com/ai-forever/RusCode"
 tags: 
 abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "19 categories"
 ---
 # RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +24,6 @@ pdf_extract: "PDF Extracts/2026/2026-Nadies-TF3-RO Training Compact Romanian Lan
 local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Romanian"
 languages_list: "Romanian"
@@ -33,15 +31,19 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Recent advances in synthetic data generation have shown that compact language models can be trained effectively when the underlying corpus is structurally controlled and linguistically coherent. However, for morphologically rich and computationally under-resourced languages such as Romanian, there is still no openly documented, end-to-end pipeline that unifies tokenizer design, preprocessing, pretraining, compression, evaluation, and large-scale synthetic data generation in a reproducible..."
+LLM_assessed: "ALBERT, BERT, DeepSeek, GPT-4, Gemma 2, Llama, Llama-3"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Recent advances in synthetic data generation have shown that compact language models can be trained effectively when the underlying corpus is structurally controlled and linguistically coherent. However, for morphologically rich and computationally under-resourced languages such as Romanian, there is still no openly documented, end-to-end pipeline that unifies tokenizer design, preprocessing, pretraining, compression, evaluation, and large-scale synthetic data generation in a reproducible..."
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, BERT, DeepSeek, GPT-4, Gemma 2, Llama, Llama-3"
-DATA_URL: "NA"
 ---
 # TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction
 

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_ANGLE2021
@@ -27,17 +29,17 @@ significance: "One of the first rigorous Confucian philosophical analyses of AI 
 external_pdf: N/A
 abstract: "Philosophers, technologists, and pundits are beginning to recognize the deep ethical questions raised by artificial intelligence. So far, attention has concentrated in three areas: (1) how we are being damaged or controlled by profit-driven algorithms ('the attention economy'), and what to do about it; (2) how to ensure that autonomous, intelligent machines (like driverless vehicles) make 'good' decisions, and how to define what these decisions are; and (3) how to think about (and perhaps resist) the possibility of artificial superintelligence surpassing and perhaps controlling us. To the extent that theorists have looked at the good that AI can bring, they have tended focus on possibilities for material abundance and leisure. In addition, virtually all of this theorizing to-date has been limited to Western ethical frameworks. Especially given the huge investments in AI presently being made in China, it seems prudent to expand our collective philosophical frameworks to encompass a more global set of ethical perspectives."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Can Artificial Intelligence Lead Us to Genuine Virtue? A Confucian Perspective
 

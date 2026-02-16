@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "American, Chinese"
 languages_list: "Chinese, English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
-data_metrics: "19,712 prompts"
 LLM_assessed: "GPT-4o, GPT-4o-mini, Claude-3.7-Sonnet, Grok-2, Gemini, Mistral, DeepSeek-R1, DeepSeek-Chat, Qwen-Max, Yi-Large, Minimax-01"
 DATA_URL: "NA"
 tags: 
 abstract: "This study systematically analyzes geopolitical bias across 11 prominent Large Language Models (LLMs) by examining their responses to seven critical topics in U.S.–China relations. Utilizing a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, we generated 19,712 prompts designed to detect ideological leanings in model outputs. Responses were quantitatively assessed on a normalized scale from −2 (strongly ProChina) to +2 (strongly Pro-U.S."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual, Dual-Framing Analysis of U.S.-China Tensions
 

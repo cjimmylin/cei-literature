@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md"
 local_pdf: "[[PDFs/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kyrgyz"
 languages_list: "Kyrgyz, Multilingual, Turkish, Uyghur"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "NA"
+tags: 
+abstract: "The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "Yes"
 is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "NA"
-tags: 
-abstract: "The advancement of Natural Language Processing (NLP) has been largely driven by large-scale transformer models, yet these breakthroughs have predominantly benefited highresource languages. Low-resource languages like Kyrgyz lack the foundational models necessary for robust NLP application development. To address this gap, we introduce KyrgyzBert, the first publicly available, monolingual BERT-based language model pre-trained for the Kyrgyz language. KyrgyzBERT is a compact and efficient 35."
-research_topic: "NLP & Representation Learning"
 ---
 # KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP
 

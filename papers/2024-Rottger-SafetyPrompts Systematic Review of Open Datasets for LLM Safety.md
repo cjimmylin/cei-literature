@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Rottger-SafetyPrompts Systematic Review of 
 local_pdf: "[[PDFs/2024/2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.pdf]]"
 publication: AAAI
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The last two years have seen a rapid growth in concerns around the safety of large language models (LLMs). Researchers and practitioners have met these concerns by creating an abundance of datasets for evaluating and improving LLM safety. However, much of this work has happened in parallel, and with very different goals in mind, ranging from the mitigation of near-term risks around bias and toxic content generation to the assessment of longer-term catastrophic risk potential."
+LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Command R, GPT-4, GPT-4o, Gemini, Gemma 2, Llama, Llama 3, Mixtral, Phi 3, Qwen 2"
+DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "The last two years have seen a rapid growth in concerns around the safety of large language models (LLMs). Researchers and practitioners have met these concerns by creating an abundance of datasets for evaluating and improving LLM safety. However, much of this work has happened in parallel, and with very different goals in mind, ranging from the mitigation of near-term risks around bias and toxic content generation to the assessment of longer-term catastrophic risk potential."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, Claude, Claude 3.5, Command R, GPT-4, GPT-4o, Gemini, Gemma 2, Llama, Llama 3, Mixtral, Phi 3, Qwen 2"
-DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 ---
 # SafetyPrompts: Systematic Review of Open Datasets for LLM Safety
 

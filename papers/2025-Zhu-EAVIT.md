@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,20 +34,20 @@ significance: "Solves the cost/scalability bottleneck of using SOTA LLMs for lar
 pdf_extract: "PDF Extracts/2025/2025-Zhu-EAVIT.md"
 abstract: "The rapid evolution of large language models (LLMs) has revolutionized various fields, including the identification and discovery of human values within text data. While traditional NLP models, such as BERT, have been employed for this task, their ability to represent textual data is significantly outperformed by emerging LLMs like GPTs. However, the performance of online LLMs often degrades when handling long contexts required for value identification, which also incurs substantial..."
 paper_summary: "Abstract: The rapid evolution of large language models (LLMs) has revolutionized various fields, includ- ing the identification and discovery of human val- ues within text data. While traditional NLP mod- els,  | Overview: arXiv:2505.12792v1 [cs.CL] 19 May 2025 EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs Wenhao Zhu1 , Yuhang Xie1 , Guojie Song∗1 and Xin Zhang1 1National Key Laborator | Methodology: effectively reduces the number of values requiring explicit definition in the input context, thereby shortening the over- all context length. To enabl | Key Findings: Output Stage | Conclusions: This paper investigates the potential of LLMs for identify- ing human values from text data. Despite challenges, LLMs have demonstrated superior capab"
-local_pdf: [[PDFs/2025/2025-Zhu-EAVIT.pdf]]
+local_pdf: "[[PDFs/2025/2025-Zhu-EAVIT.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-2, BERT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "Moral Reasoning & Psychology"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-2, BERT"
-DATA_URL: "NA"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
+data_metrics: "2000 word"
 ---
 # EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs
 

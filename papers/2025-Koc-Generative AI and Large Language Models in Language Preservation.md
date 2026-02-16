@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Koc-Generative AI and Large Language Models in Language Preservation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Koc-Generative AI and Large Language Models in Language Preservation.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Global Indigenous, Maori"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation framework text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "The global crisis of language endangerment meets a technological turning point as Generative AI (GenAI) and Large Language Models (LLMs) unlock new frontiers in automating corpus creation, transcription, translation, and tutoring. However, this promise is imperiled by fragmented practices and the critical lack of a methodology to navigate the fraught balance between LLM capabilities and the profound risks of data scarcity, cultural misappropriation, and ethical missteps."
-ethics_perspective: "Social & Cultural Values"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Responsible AI"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Generative AI and Large Language Models in Language Preservation: Opportunities and Challenges
 

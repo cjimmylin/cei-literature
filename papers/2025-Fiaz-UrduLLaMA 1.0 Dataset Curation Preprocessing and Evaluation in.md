@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preproc
 local_pdf: "[[PDFs/2025/2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Pakistani"
 languages_list: Urdu
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BLOOMZ, ChatGPT, Dolly, GPT-3, GPT-3.5-turbo, Llama, LLaMA 2, LLaMA 3, Llama-3.1, MISTRAL-X, Mistral 7B"
 DATA_URL: "https://github.com/huggingface/peft"
 tags: 
 abstract: "Multilingual Large Language Models (LLMs) often provide suboptimal performance on lowresource languages like Urdu. This paper introduces UrduLLaMA 1.0, a model derived from the open-source Llama-3.1-8B-Instruct architecture and continually pre-trained on 128 million Urdu tokens, capturing the rich diversity of the language. To enhance instructionfollowing and translation capabilities, we leverage Low-Rank Adaptation (LoRA) to fine tune the model on 41,000 Urdu instructions and approximately..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings
 

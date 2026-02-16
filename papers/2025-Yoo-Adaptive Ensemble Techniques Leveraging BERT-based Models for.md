@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "Nature Scientific Reports 2025"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md"
 local_pdf: "[[PDFs/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"
 languages_list: "English, Korean"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "BART, BERT, DistilBERT, RoBERTa"
+DATA_URL: "NA"
+tags: 
+abstract: "Adaptive ensemble techniques for hate speech detection in Korean and English using BERT-based models. Addresses multilingual hate speech detection with Korean-specific considerations."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BART, BERT, DistilBERT, RoBERTa"
-DATA_URL: "NA"
-tags: 
-abstract: "Adaptive ensemble techniques for hate speech detection in Korean and English using BERT-based models. Addresses multilingual hate speech detection with Korean-specific considerations."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Adaptive Ensemble Techniques Leveraging BERT-based Models for Multilingual Hate Speech Detection in Korean and English
 

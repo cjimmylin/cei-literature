@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +35,18 @@ significance: "Provides formal framework for programming AI that conforms to pri
 tags: 
 abstract: "In this paper, I set out some basic elements of a deontic logic with an implementation appropriate for handling conflicting legal obligations for purposes of programming autonomous machine agents. Relying on Immanuel Kant’s philosophy of law, I argue that a deontic logic of the law should not try to work around such conflicts but, instead, identify and expose them so that the rights and duties that generate inconsistencies can be explicitly qualified and the conflicts resolved."
 DATE_ADDED: 20260208
+research_topic: "Machine Ethics"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-research_topic: "Machine Ethics"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # A Deontic Logic for Programming Rightful Machines
 

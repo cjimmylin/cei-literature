@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2023/2023-Augustyniak-Massively Multilingual Corpus o
 local_pdf: "[[PDFs/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.pdf]]"
 publication: "arXiv / NeurIPS 2023"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Croatian, Czech, Polish, Serbian, Slovak, Slovenian, and 21 other languages"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "350 datasets; 27 languages; 6 language"
 LLM_assessed: "BERT, GloVe, Word2Vec, RoBERTa"
 DATA_URL: "https://github.com/wongnai/wongnai-corpus"
 tags: 
 abstract: "Despite impressive advancements in multilingual corpora collection and model training, developing large-scale deployments of multilingual models still presents a significant challenge. This is particularly true for language tasks that are culturedependent. One such example is the area of multilingual sentiment analysis, where affective markers can be subtle and deeply ensconced in culture. This work presents the most extensive open massively multilingual corpus of datasets for training..."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "27 languages"
 ---
 # Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark
 

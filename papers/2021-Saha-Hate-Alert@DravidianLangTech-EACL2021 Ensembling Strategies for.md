@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -11,7 +14,7 @@ key: LSRC0053
 type: conferencePaper
 short_title: "Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection"
 year: 2025
-first_author: [[Saha]]
+first_author: "[[Saha]]"
 last_author: "[[Saha]]"
 authors: Saha
 url: "https://hate-alert.github.io/publication/saha2021hate/"
@@ -20,10 +23,6 @@ publication: "WebSearch: DravidianLangTech shared task"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md"
 local_pdf: "[[PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "Kannada-English, Malayalam-English, Tamil-English"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, DistilBERT, RoBERTa"
 DATA_URL: "https://github.com/Debjoy10/Hate-Alert-"
 tags: 
 abstract: "Social media often acts as breeding grounds for different forms of offensive content. For low resource languages like Tamil, the situation is more complex due to the poor performance of multilingual or language-speciﬁc models and lack of proper benchmark datasets. Based on this shared task “Offensive Language Identiﬁcation in Dravidian Languages” at EACL 2021, we present an exhaustive exploration of different transformer models, We also provide a genetic algorithm technique for ensembling..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection
 

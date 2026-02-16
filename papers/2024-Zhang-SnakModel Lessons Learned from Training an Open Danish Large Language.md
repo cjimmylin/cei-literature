@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "arXiv / NoDaLiDa 2025"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.md"
 local_pdf: "[[PDFs/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Danish"
 languages_list: Danish
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "SnakModel (Llama2-7B-based), other Llama2-7B-based Danish models"
 DATA_URL: "https://github.com/NVIDIA/Megatron-LM"
 tags: 
 abstract: "We present SNAKMODEL, a Danish large language model (LLM) based on LLAMA2-7B, which we continuously pre-train on 13.6B Danish words, and further tune on 3.7M Danish instructions. As best practices for creating LLMs for smaller language communities have yet to be established, we examine the effects of early modeling and training decisions on downstream performance throughout the entire training pipeline, including (1) the creation of a strictly curated corpus of Danish text from diverse sources;..."
-research_topic: "NLP & Representation Learning"
 authors_incomplete: false
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "8 language"
 ---
 # SnakModel: Lessons Learned from Training an Open Danish Large Language Model
 

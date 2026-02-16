@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Bang-BLEnD A Benchmark for LLMs on.md"
 local_pdf: "[[PDFs/2024/2024-Bang-BLEnD A Benchmark for LLMs on.pdf]]"
 publication: "arxiv.org / NeurIPS 2024"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs’ cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
+LLM_assessed: "Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen1.5, gpt-3.5-turbo"
+DATA_URL: "https://github.com/nlee0212/BLEnD"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Large language models (LLMs) often lack culture-specific knowledge of daily life, especially across diverse regions and non-English languages. Existing benchmarks for evaluating LLMs’ cultural sensitivities are limited to a single language or collected from online sources such as Wikipedia, which do not reflect the mundane everyday lifestyles of diverse regions. That is, information about the food people eat for their birthday celebrations, spices they typically use, musical instruments..."
-data_description: "Benchmark dataset"
-data_metrics: "52.6k question"
-LLM_assessed: "Claude-3, Claude-3-Haiku, Claude-3-Opus, Claude-3-Sonnet, Command-R, GPT-3, GPT-3.5, GPT-4, Qwen, Qwen1.5, gpt-3.5-turbo"
-DATA_URL: "https://github.com/nlee0212/BLEnD"
-research_topic: "Machine Learning"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "13 languages; 2024 datasets"
 ---
 # BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages
 

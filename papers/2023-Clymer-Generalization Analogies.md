@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "As AI systems become more intelligent and their behavior becomes more
 paper_summary: "Abstract: As AI systems become more intelligent and their behavior becomes more challenging to assess, they may learn to game the flaws of human feed- back instead of genuinely striving to follow in- structions | Overview: Generalization Analogies (GENIES): A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains Joshua Clymer 1 Garrett Baker 2 Rohan Subramani 1 Sam Wang 1 Abstract As AI systems become more in"
 local_pdf: "[[PDFs/2023/2023-Clymer-Generalization Analogies.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: Llama
+DATA_URL: "https://github.com/Joshuaclymer/GENIES"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "8 categories"
-LLM_assessed: Llama
-DATA_URL: "https://github.com/Joshuaclymer/GENIES"
 ---
 # Generalization Analogies: A Testbed for Generalizing AI Oversight to Hard-To-Measure Domains
 

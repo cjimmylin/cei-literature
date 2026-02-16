@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,20 +32,20 @@ abstract: "We explore how large language models (LLMs) can be influenced by prom
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Huang-Moral Persuasion in Large Language Models.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 research_topic: "LLM Moral Persuasion"
+LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Mixtral"
+DATA_URL: "https://github.com/acyhuang/moral-persuasion"
+normative_ethics_benchmark: Borderline
+ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Mixtral"
-DATA_URL: "https://github.com/acyhuang/moral-persuasion"
-normative_ethics_benchmark: Borderline
-ethics_perspective: "General Ethics"
 ---
 # Moral Persuasion in Large Language Models
 

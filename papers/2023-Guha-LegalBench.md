@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,8 +31,10 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2023/2023-Guha-LegalBench.md"
 abstract: "The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this question, we present LEGALBENCH: a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six different types of legal reasoning. LEGALBENCH was built through an interdisciplinary process, in which we collected tasks designed and hand-crafted by legal professionals."
 paper_summary: "Abstract: The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this que | Overview: LEGALBENCH: A COLLABORATIVELY BUILT BENCHMARK FOR MEASURING LEGAL REASONING IN LARGE LANGUAGE MODELS Neel Guha∗1, Julian Nyarko∗1, Daniel E. Ho∗1, Christopher Ré∗1, Adam Chilton2, Aditya Narayana3, Al | Key Findings: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 | Conclusions: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16"
-local_pdf: [[PDFs/2023/2023-Guha-LegalBench.pdf]]
+local_pdf: "[[PDFs/2023/2023-Guha-LegalBench.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Claude, OPT, Flan-T5, Llama-2, Falcon, BLOOM"
+DATA_URL: "https://github.com/HazyResearch/legalbench/"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, OPT, Flan-T5, Llama-2, Falcon, BLOOM"
-DATA_URL: "https://github.com/HazyResearch/legalbench/"
 ---
 # LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models
 

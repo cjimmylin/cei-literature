@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Relig
 local_pdf: "[[PDFs/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.pdf]]"
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: ""
@@ -34,16 +33,20 @@ religious_values: "Islam, Christianity, Hinduism"
 religious_values_list: "Islam, Christianity, Hinduism"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "> Comparative NLP analysis of three major religious texts including the Bhagavad Gita using topic modelling, semantic similarity, and sentiment analysis. Reveals shared and unique thematic patterns across Hindu, Christian, and Islamic scriptures."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "> Comparative NLP analysis of three major religious texts including the Bhagavad Gita using topic modelling, semantic similarity, and sentiment analysis. Reveals shared and unique thematic patterns across Hindu, Christian, and Islamic scriptures."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-research_topic: "NLP & Representation Learning"
 ---
 # Comparative Analysis of Religious Texts: NLP Approaches to the Bible, Quran, and Bhagavad Gita
 

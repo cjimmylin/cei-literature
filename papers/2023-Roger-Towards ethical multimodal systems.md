@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multi
 paper_summary: "Abstract: Generative AI systems (ChatGPT, DALL-E, etc) are expanding into multiple areas of our lives, from art Rombach et al. [2021] to mental health Rob Morris and Kareem Kouddous [2022]; their rapidly growin | Overview: Towards Ethical Multimodal Systems Alexis Roger Department of Computer Science and Operations Research University of Montreal Mila - Quebec AI Institute alexis.roger@umontreal.ca Esma Aïmeur Departmen | Methodology: inspired by Elourajini and Aïmeur [2022], involving a multilayer perceptron. We based our architec- ture on the MAGMA algorithm (Eichenberg et al. [20 | Key Findings: 5 --- Page 6 --- does not rule out the proposed approach; rather, we must focus on improving the classifiers, including training larger-scale deep net"
 local_pdf: "[[PDFs/2023/2023-Roger-Towards ethical multimodal systems.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: RoBERTa
+DATA_URL: "https://github.com/kingoflolz/mesh-transformer-jax"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: RoBERTa
-DATA_URL: "https://github.com/kingoflolz/mesh-transformer-jax"
 ---
 # Towards ethical multimodal systems
 

@@ -2,6 +2,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +34,8 @@ abstract: "Moral reasoning is a complex cognitive process shaped by individual e
 paper_summary: "Abstract: Moral reasoning is a complex cognitive pro- cess shaped by individual experiences and cul- tural contexts and presents unique challenges for computational analysis. While natural lan- guage processing | Overview: Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UNIMORAL Shivani Kumar University of Michigan kshivan@umich.edu David Jurgens University of Mi | Key Findings: metric, as it emphasizes semantic similarity rather than exact word matches. [I] Action Prediction 0 20 40 60 Score Arabic Chinese English Hindi Russi | Conclusions: Moral reasoning is a complex process and here we introduce UNIMORAL to unify the multiple strands of NLP research on moral reasoning. UNI- MORAL is a"
 local_pdf: "[[PDFs/2025/2025-Kumar-Are Rules Meant to be Broken.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Phi, Llama-3, DeepSeek"
+DATA_URL: "https://huggingface.co/datasets/shivaniku/UniMoral"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Phi, Llama-3, DeepSeek"
-DATA_URL: "https://huggingface.co/datasets/shivaniku/UniMoral"
 ---
 # Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral
 

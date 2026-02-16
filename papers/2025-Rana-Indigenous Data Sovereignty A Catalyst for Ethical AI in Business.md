@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Business and Society (SAGE)
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Global Indigenous"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Addresses how digital colonialism poses a significant threat to Indigenous communities in the age of rapid AI advancement. Presents Indigenous data sovereignty as a powerful framework for resisting digital colonialism and promoting ethical AI development. Discusses OCAP principles and CARE framework as cornerstones of indigenous data governance for AI."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Addresses how digital colonialism poses a significant threat to Indigenous communities in the age of rapid AI advancement. Presents Indigenous data sovereignty as a powerful framework for resisting digital colonialism and promoting ethical AI development. Discusses OCAP principles and CARE framework as cornerstones of indigenous data governance for AI."
-ethics_perspective: "Social & Cultural Values"
 ---
 # Indigenous Data Sovereignty: A Catalyst for Ethical AI in Business
 

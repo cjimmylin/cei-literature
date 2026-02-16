@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,6 +31,10 @@ significance: "Highlights the 'safety-helpfulness trade-off', showing that curre
 tags: 
 abstract: "Without proper safeguards, large language models will readily follow malicious instructions and generate toxic content. This risk motivates safety efforts such as red-teaming and large-scale feedback learning, which aim to make models both helpful and harmless. However, there is a tension between these two objectives, since harmlessness requires models to refuse to comply with unsafe prompts, and thus not be helpful."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-2, Mistral"
+DATA_URL: "https://github.com/paul-rottger/exaggerated-safety"
+pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
+local_pdf: "[[PDFs/2024/2024-Röttger-XSTest.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,10 +45,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-2, Mistral"
-DATA_URL: "https://github.com/paul-rottger/exaggerated-safety"
-pdf_extract: "PDF Extracts/2024/2024-Röttger-XSTest.md"
-local_pdf: [[PDFs/2024/2024-Röttger-XSTest.pdf]]
 ---
 # XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models
 

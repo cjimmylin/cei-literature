@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "UX Virtue ethics, catholic social teaching"
@@ -32,17 +34,17 @@ tags:
 abstract: "Virtue ethics is a philosophical tradition that emphasizes the cultivation of virtues in achieving the common good. It has been suggested to be an effective framework for envisioning more ethical technology, yet previous work on virtue ethics and technology design has remained at theoretical recommendations. We propose an approach for identifying user experience design patterns that embody particular virtues to more concretely articulate virtuous technology designs. As a proof of concept, we documented seven design patterns for social media that uphold the virtues of Catholic Social Teaching. We interviewed 24 technology researchers and industry practitioners to evaluate these patterns, finding that overall the patterns enact the virtues they were identified to embody."
 paper_summary: "Proposes an approach for identifying UX design patterns that embody virtues from Catholic Social Teaching. Documents seven social media design patterns that uphold virtues like solidarity and subsidiarity. Evaluation with 24 practitioners found the patterns effectively enact their intended virtues."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
  Design Patterns for the Common Good: Building Better Technologies Using the Wisdom of Virtue Ethics
 

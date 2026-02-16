@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / COLING 2022
 local_pdf: "[[PDFs/2022-Yang-CINO A Chinese Minority Pre-trained Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Yang-CINO A Chinese Minority Pre-trained Language Model.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Kazakh, Korean, Mongolian, Tibetan, Uyghur, Zhuang"
 languages_list: "Chinese, Kazakh, Korean, Mongolian, Tibetan, Uyghur, Zhuang"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "http://cino.hfl-rc.com"
 tags: 
 abstract: "Multilingual pre-trained language models have shown impressive performance on crosslingual tasks. It greatly facilitates the applications of natural language processing on lowresource languages. However, there are still some languages that the current multilingual models do not perform well on. In this paper, we propose CINO (Chinese Minority Pretrained Language Model), a multilingual pretrained language model for Chinese minority languages."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # CINO: A Chinese Minority Pre-trained Language Model
 

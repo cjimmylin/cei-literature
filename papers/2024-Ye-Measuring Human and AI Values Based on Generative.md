@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Human values and their measurement are long-standing interdisciplinar
 paper_summary: "Abstract: Human values and their measurement are long-standing interdisciplinary inquiry. Recent advances in AI have sparked renewed interest in this area, with large lan- guage models (LLMs) emerging as both t | Overview: Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models Haoran Ye∗,1, Yuhang Xie∗,2, Yuanyi Ren∗,1, Hanjun Fang3, Xin Zhang4, Guojie Song†,1,5 1State Key Laboratory  | Methodology: studies. Journal of personality and social psychology, 89(6):1010, 2005. [82] S. H. Schwartz, G. Melech, A. Lehmann, S. Burgess, M. Harris, and V. Owe | Key Findings: methods [43, 69, 100], which this work aims to address. 3 --- Page 4 --- 3 Generative Psychometrics for Values (GPV) | Conclusions: Relation to Self-Reports. The items organized in self-report inventories are essentially perceptions that support or oppose specific values [78]. Comp"
 local_pdf: "[[PDFs/2024/2024-Ye-Measuring Human and AI Values Based on Generative.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3"
+DATA_URL: "https://github.com/Value4AI/gpv"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3"
-DATA_URL: "https://github.com/Value4AI/gpv"
 ---
 # Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models
 

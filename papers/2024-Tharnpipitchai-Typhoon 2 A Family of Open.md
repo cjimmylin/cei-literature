@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Tharnpipitchai-Typhoon 2 A Family of Open.m
 local_pdf: "[[PDFs/2024/2024-Tharnpipitchai-Typhoon 2 A Family of Open.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
 languages_list: "English, Thai"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "This paper introduces Typhoon 2, a series of text and multimodal large language models optimized for the Thai language. The series includes models for text, vision, and audio. Typhoon2-Text builds on state-of-the-art open models, such as Llama 3 and Qwen2, and we perform continual pretraining on a mixture of English and Thai data. We employ post-training techniques to enhance Thai language performance while preserving the base models’ original capabilities."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, BERT, ChatGPT, DeepSeekMath, DistilBERT, GPT-4o, Llama, Llama 3.3, Llama 3, Llama 3.1, Llama 3.2, Llama-3, Llama-3.1, Llama-3.2, Llama-3.3, Llama3, Llama3.1, Llama3.2, LlamaGuard, Qwen 2.5, Qwen-7B, Qwen-Audio, Qwen-based, Qwen2, Qwen2.5, Vicuna, llama-31, qwen2vl"
 DATA_URL: "https://huggingface.co/scb10x/typhoon2-safety-preview"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "9,587 prompt"
 ---
 # Typhoon 2: A Family of Open Text and Multimodal Thai Large Language Models
 

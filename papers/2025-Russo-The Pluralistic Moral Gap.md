@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "People increasingly rely on Large Language Models (LLMs) for moral ad
 paper_summary: "Abstract: People increasingly rely on Large Language Models (LLMs) for moral advice, which may influence humans' decisions. Yet, little is known about how closely LLMs align with human moral judgments. To addre | Overview: The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models Giuseppe Russo EPFL giuseppe.russo@epfl.ch Debora Nozza Bocconi University debora.nozza | Methodology: is Overton-style synthesis (Sorensen et al., 2024b), where multiple moral perspectives are integrated into a single, transparent response. Ethical Con | Key Findings: LLM Evaluation wrong right wrong Judgment: You're in the right Rationale: You have a greater obligation towards your kids … Judgment: You're in the wr | Conclusions: We analyze the moral evaluations and values ex- pressed of LLMs when providing moral advice. To enable this analysis, we introduced a novel dataset of"
 local_pdf: "[[PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, ChatGPT, Claude, Mistral, Llama-3, Qwen"
-DATA_URL: "NA"
 ---
 # The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models
 

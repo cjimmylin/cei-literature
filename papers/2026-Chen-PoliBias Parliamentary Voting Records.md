@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2026/2026-Chen-PoliBias Parliamentary Voting Records.
 local_pdf: "[[PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Dutch"
 cultures_nationalities_list: "Spanish, Dutch"
 languages_list: "Dutch, Norwegian, Spanish"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "As large language models (LLMs) become deeply embedded in digital platforms and decision-making systems, concerns about their political biases have grown. While substantial work has examined social biases such as gender and race, systematic studies of political bias remain limited—despite their direct societal impact. This paper introduces a general methodology for constructing political-bias benchmarks by aligning model-generated voting predictions with verified parliamentary voting records."
+LLM_assessed: "Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2, Llama-3"
+DATA_URL: "https://huggingface.co/projecte-aina/aguila-7b"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "As large language models (LLMs) become deeply embedded in digital platforms and decision-making systems, concerns about their political biases have grown. While substantial work has examined social biases such as gender and race, systematic studies of political bias remain limited—despite their direct societal impact. This paper introduces a general methodology for constructing political-bias benchmarks by aligning model-generated voting predictions with verified parliamentary voting records."
-ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: "Mistral, Falcon, Gemma, DeepSeek, GPT-3.5, GPT-4, Llama-2, Llama-3"
-DATA_URL: "https://huggingface.co/projecte-aina/aguila-7b"
 ---
 # PoliBias (Parliamentary Voting Records)
 

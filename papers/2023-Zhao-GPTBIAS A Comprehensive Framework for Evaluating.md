@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_extract: "PDF Extracts/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for 
 local_pdf: "[[PDFs/2023/2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -36,16 +35,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Warning: This paper contains content that may be offensive or upsetting. There has been a significant increase in the usage of large language models (LLMs) in various applications, both in their original form and through fine-tuned adaptations. As a result, LLMs have gained popularity and are being widely adopted by a large user community. However, one of the concerns with LLMs is the potential generation of socially biased content."
+LLM_assessed: "BLOOM, BLOOM 0, BLOOM 3, BLOOMZ, ChatGPT, GPT-3, GPT-4, Llama, LLaMA., OPT 3, OPT-66B, gpt-3.5-turbo"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Warning: This paper contains content that may be offensive or upsetting. There has been a significant increase in the usage of large language models (LLMs) in various applications, both in their original form and through fine-tuned adaptations. As a result, LLMs have gained popularity and are being widely adopted by a large user community. However, one of the concerns with LLMs is the potential generation of socially biased content."
 data_description: "Evaluation framework"
-data_metrics: "Not specified"
-LLM_assessed: "BLOOM, BLOOM 0, BLOOM 3, BLOOMZ, ChatGPT, GPT-3, GPT-4, Llama, LLaMA., OPT 3, OPT-66B, gpt-3.5-turbo"
-DATA_URL: "NA"
-ethics_perspective: "Bias & Fairness"
+data_metrics: "9 categories"
 ---
 # GPTBIAS: A Comprehensive Framework for Evaluating Bias in Large Language Models
 

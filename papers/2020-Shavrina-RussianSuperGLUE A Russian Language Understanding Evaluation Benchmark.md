@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2020/2020-Shavrina-RussianSuperGLUE A Russian Languag
 local_pdf: "[[PDFs/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2020)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"
 languages_list: Russian
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, T5"
 DATA_URL: "https://github.com/RussianNLP/RussianSuperGLUE"
 tags: 
 abstract: "In this paper, we introduce an advanced Russian general language understanding evaluation benchmark – RussianGLUE. Recent advances in the ﬁeld of universal language models and transformers require the development of a methodology for their broad diagnostics and testing for general intellectual skills - detection of natural language inference, commonsense reasoning, ability to perform simple logical operations regardless of text subject or lexicon."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # RussianSuperGLUE: A Russian Language Understanding Evaluation Benchmark
 

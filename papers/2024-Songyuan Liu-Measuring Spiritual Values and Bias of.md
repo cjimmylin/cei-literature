@@ -7,6 +7,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_extract: "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and
 local_pdf: "[[PDFs/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -36,16 +35,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Large language models (LLMs) have become integral tool for users from various backgrounds. Pre-trained on vast corpora, LLMs reflect the linguistic and cultural nuances embedded in their training data. However, the values and perspectives inherent in this data can influence the behavior of LLMs, leading to potential biases. As a result, the use of LLMs in contexts involving spiritual or moral values necessitates careful consideration of these underlying biases."
-data_description: "Evaluation approach text corpus for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGLM, ChatGLM 2, Chatglm2, CodeLlama, GPT-2, GPT-4, GPT-4-turbo, GPT2, Llama-2, Llama-3, Llama, Llama 3, Llama2, Llama3, Mistral, Phi-3, Qwen 1.5, Qwen-1.5, Vicuna, Vicuna 1.5"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Measuring Spiritual Values and Bias of Large Language Models
 

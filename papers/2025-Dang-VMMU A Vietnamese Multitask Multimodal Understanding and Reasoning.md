@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal
 local_pdf: "[[PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multi-task benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "Claude 4., GPT-4, Gemma, Gemma-3, Llama-4, Mistral Small, Mistral-Medium, Mistral-Small, MistralAI, Qwen, Qwen-2.5, claude-4."
 DATA_URL: "NA"
 tags: 
 abstract: "We introduce VMMU, a Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark designed to evaluate how vision language models (VLMs) interpret and reason over visual and textual information beyond English. VMMU consists of 2.5k multimodal questions across 7 tasks, covering a diverse range of problem contexts, including STEM problem solving, data interpretation, rule-governed visual reasoning, and abstract visual reasoning."
 research_topic: "Computer Vision & Multimodal"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "2,548 questions"
 ---
 # VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark
 

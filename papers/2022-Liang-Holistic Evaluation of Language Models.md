@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Language models (LMs) are becoming the foundation for almost all majo
 paper_summary: "Abstract: Language models (LMs) are becoming the foundation for almost all major language tech- nologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation o | Overview: Published in Transactions on Machine Learning Research (08/2023) Holistic Evaluation of Language Models Percy Liang†, Rishi Bommasani†, Tony Lee†, Dimitris Tsipras‡, Dilara Soylu‡, Michihiro Yasunaga‡ | Methodology: employed throughout linguistics (Chomsky, 1957) that helps to tease out fine-grained understanding of specific linguistic phenomena. Together, the two | Key Findings: No canonical tasks/not task-centric Semantics: Lexical Word sense disambiguation, word sense induction Semantics: Sentence-level Semantics, Textual In | Conclusions: 75 10 What is missing 77 10.1 Missing scenarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78 10.2 Missing"
 local_pdf: "[[PDFs/2022/2022-Liang-Holistic Evaluation of Language Models.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, InstructGPT, GPT-J, GPT-NeoX, T5, OPT, BLOOM"
+DATA_URL: "https://github.com/stanford-crfm/helm"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "42 scenarios; 21 scenarios"
-LLM_assessed: "GPT-3, InstructGPT, GPT-J, GPT-NeoX, T5, OPT, BLOOM"
-DATA_URL: "https://github.com/stanford-crfm/helm"
 ---
 # Holistic Evaluation of Language Models
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Psychology research has long explored aspects of human personality su
 paper_summary: "Abstract: Psychology research has long explored aspects of human personality such as extroversion, agreeableness and emotional stability. Catego- rizations like the 'Big Five' personality traits are commonly us | Overview: Identifying and Manipulating the Personality Traits of Language Models Graham Caron and Shashank Srivastava UNC Chapel Hill carongraham29@gmail.com, ssrivastava@cs.unc.edu Abstract Psychology research | Methodology: for controlling the personality traits of language models. Further, we show that such models could also be used with language-based question answer- i | Key Findings: Table 1 shows the results of the base personality assessment for GPT2 and BERT for each of the ﬁve traits in terms of numeric values and correspond- i | Conclusions: We have presented a simple and effective approach for controlling the personality traits of language models. Further, we show that such models could a"
 local_pdf: "[[PDFs/2022/2022-Caron-Identifying and Manipulating the Personality.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GPT-2"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-2"
-DATA_URL: "NA"
 ---
 # Identifying and Manipulating the Personality Traits of Language Models
 

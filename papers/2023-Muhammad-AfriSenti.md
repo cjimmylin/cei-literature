@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,7 +31,11 @@ tags:
 abstract: "Africa is home to over 2,000 languages from more than six language families and has the highest linguistic diversity among all continents. These include 75 languages with at least one million speakers each. Yet, there is little NLP research conducted on African languages. Crucial to enabling such research is the availability of high-quality annotated datasets. In this paper, we introduce AfriSenti, a sentiment analysis benchmark that contains a total of >110,000 tweets in 14 African languages..."
 pdf: "http://arxiv.org/pdf/2302.08956"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-AfriSenti.md"
-local_pdf: [[PDFs/2023/2023-Muhammad-AfriSenti.pdf]]
+local_pdf: "[[PDFs/2023/2023-Muhammad-AfriSenti.pdf]]"
+LLM_assessed: "BERT, Debertav3"
+DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
+publication: EMNLP 2023
+DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,10 +46,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
-LLM_assessed: "BERT, Debertav3"
-DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
-publication: EMNLP 2023
-DATE_ADDED: 20260215
 ---
 # AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
 

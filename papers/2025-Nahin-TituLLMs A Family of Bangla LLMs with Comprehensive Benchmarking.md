@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with
 local_pdf: "[[PDFs/2025/2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi"
 languages_list: Bengali
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "2 token"
 LLM_assessed: "BERT, ChatGPT, GPT-4, GPT-4o, Llama, Llama 3.2, Llama-3, Llama-3.2, t5 4"
 DATA_URL: "https://github.com/hishab-nlp/titulm"
 tags: 
 abstract: "In this paper, we present TituLLMs, the first large pretrained Bangla LLMs, available in 1b and 3b parameter sizes. Due to computational constraints during both training and inference, we focused on smaller models. To train TituLLMs, we collected a pretraining dataset of approximately ∼37 billion tokens. We extended the Llama-3.2 tokenizer to incorporate language- and culture-specific knowledge, which also enables faster training and inference."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # TituLLMs: A Family of Bangla LLMs with Comprehensive Benchmarking
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -26,6 +29,10 @@ newtags: Islam
 tags: 
 abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. In this paper, we present fatwaset, the ﬁrst public Arabic dataset of Islamic fatwas. It contains Islamic fatwas that we collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/ohoud/Fatwaset.git"
+pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
+local_pdf: "[[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -36,10 +43,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/ohoud/Fatwaset.git"
-pdf_extract: "PDF Extracts/2023/2023-Alyemny-FatwaSet.md"
-local_pdf: [[PDFs/2023/2023-Alyemny-FatwaSet.pdf]]
 ---
 # FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks
 

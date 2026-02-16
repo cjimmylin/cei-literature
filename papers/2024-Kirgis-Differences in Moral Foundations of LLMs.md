@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,19 +33,19 @@ abstract: "Large language models are increasingly being used in critical domains
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Kirgis-Differences in Moral Foundations of LLMs.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "LLM Moral Foundations"
+LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, GPT-3.5, GPT-4, o3, Grok"
+DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "LLM Moral Foundations"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
-LLM_assessed: "Claude, DeepSeek, Gemini, Llama-3, GPT-3.5, GPT-4, o3, Grok"
-DATA_URL: "https://github.com/peterkirgis/llm-moral-foundations"
 ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Differences in Moral Foundations of LLMs
 

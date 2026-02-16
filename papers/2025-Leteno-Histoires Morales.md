@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Aligning language models with human values is crucial, especially as 
 paper_summary: "Abstract: Aligning language models with human values is crucial, especially as they become more inte- grated into everyday life. While models are of- ten adapted to user preferences, it is equally im- portant t | Overview: HISTOIRESMORALES: A French Dataset for Assessing Moral Alignment Thibaud Leteno1∗, Irina Proskurina2∗, Antoine Gourru1, Julien Velcin2, Charlotte Laclau3, Guillaume Metzler2, and Christophe Gravier1 1 | Methodology: Inspired by recent works on fair- ness (Nangia et al., 2020; Manerba et al., 2023), we use the perplexity metric derived from the log- likelihood loss | Key Findings: 4.1 Translation Evaluation This section analyses the quality of the obtained HISTOIRESMORALES dataset. Grammatical Acceptability We use a rule- based  | Conclusions: This work introduces HISTOIRESMORALES, the first dataset for social reasoning informed by behavioural guidelines in the French language. The introduce"
 local_pdf: "[[PDFs/2025/2025-Leteno-Histoires Morales.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Mistral, Llama-3, GPT-3.5, T5"
+DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales, https://github.com/upunaprosk/histoires-morales"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Mistral, Llama-3, GPT-3.5, T5"
-DATA_URL: "https://hf.co/datasets/LabHC/histoires_morales, https://github.com/upunaprosk/histoires-morales"
 ---
 # Histoires Morales: A French Dataset for Assessing Moral Alignment
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: "Dicta Technical Report"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Shmidman-Dicta-LM 3.0 Advancing The Frontier of Hebrew Sovereign LLMs.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli, Hebrew"
 languages_list: "English, Hebrew"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "65k tokens"
 LLM_assessed: "GPT4o, Gemma, Gemma 3, Llama, Llama 3, Mistral Small, Mistral-Small, Qwen, Qwen3, gemma-3"
 DATA_URL: "https://github.com/NVIDIA-NeMo/RL"
 tags: 
 abstract: "Open-weight LLMs have been released by frontier labs; however, sovereign Large Language Models (for languages other than English) remain low in supply yet high in demand. Training large language models (LLMs) for low-resource languages such as Hebrew poses unique challenges. In this paper, we introduce Dicta-LM 3.0: an open-weight collection of LLMs trained on substantially-sized corpora of Hebrew and English texts. The model is released in three sizes: 24B - adapted from the Mistral-Small-3."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Dicta-LM 3.0: Advancing The Frontier of Hebrew Sovereign LLMs
 

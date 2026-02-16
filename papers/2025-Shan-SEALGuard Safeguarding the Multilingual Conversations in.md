@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Shan-SEALGuard Safeguarding the Multilingua
 local_pdf: "[[PDFs/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
 publication: "AIware 2025"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Southeast Asian"
 languages_list: "Multilingual"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Safety alignment is critical for LLM-powered systems. While recent LLM-powered guardrail approaches such as LlamaGuard achieve high detection accuracy of unsafe inputs written in English (e.g., 'How to create a bomb?'), they struggle with multilingual unsafe inputs. This limitation leaves LLM systems vulnerable to unsafe and jailbreak prompts written in low-resource languages such as those in Southeast Asia."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Alpaca, ChatGPT, GPT-4, Llama, Llama- Guard, Llama-Guard, LlamaGuard"
 DATA_URL: "https://github.com/awsm-research/SEALGuard"
-ethics_perspective: "AI Safety & Alignment"
 research_topic: "Machine Translation"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # SEALGuard: Safeguarding the Multilingual Conversations in Southeast Asian Languages for LLM Software Systems
 

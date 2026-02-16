@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "Duke Law & Technology Review"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Native American"
 languages_list: ""
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "First law review article dedicated to exploring how AI can enhance tribal sovereignty. Discusses how artificial intelligence has permeated every facet of modern existence, with governments exploring applications and regulatory frameworks. Notes that Indian tribes have been neglected in AI policy discussions. Examines Cherokee Nation's Data Sovereignty and Governance Task Force and AI policy."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "First law review article dedicated to exploring how AI can enhance tribal sovereignty. Discusses how artificial intelligence has permeated every facet of modern existence, with governments exploring applications and regulatory frameworks. Notes that Indian tribes have been neglected in AI policy discussions. Examines Cherokee Nation's Data Sovereignty and Governance Task Force and AI policy."
-research_topic: "Other"
 ---
 # Tribes and AI: Possibilities for Tribal Sovereignty
 

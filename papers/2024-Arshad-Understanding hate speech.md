@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Reveals that high-performing hate speech classifiers often fail o
 tags: 
 abstract: "The persistence of hate speech continues to pose an obstacle in the realm of online social media. Despite the continuous evolution of advanced models for identifying hate speech, the critical dimensions of interpretability and explainability have not received proportional scholarly attention. In this article, we introduce the HateInsights dataset, a groundbreaking benchmark in the ﬁeld of hate speech datasets, encompassing diverse aspects of this widespread issue."
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, RoBERTa"
+DATA_URL: "https://github.com/twintproject/twint"
+pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
+local_pdf: "[[PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, RoBERTa"
-DATA_URL: "https://github.com/twintproject/twint"
-pdf_extract: "PDF Extracts/2024/2024-Arshad-Understanding hate speech.md"
-local_pdf: "[[PDFs/2024/2024-Arshad-Understanding hate speech.pdf]]"
 ---
 # Understanding hate speech: the HateInsights dataset and model interpretability
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / NAACL 2025
 local_pdf: "[[PDFs/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Pan-Arab"
 languages_list: "Arabic"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Jais, AceGPT, Qwen-2, GPT-4o, Llama-3"
+DATA_URL: "https://github.com/mbzuai-nlp/Arabic_safety_evaluation"
+tags: 
+abstract: "The growing use of large language models (LLMs) has raised concerns regarding their safety. While many studies have focused on English, the safety of LLMs in Arabic, with its linguistic and cultural complexities, remains under-explored. Here, we aim to bridge this gap. In particular, we present an Arab-regionspecific safety evaluation dataset consisting of 5,799 questions, including direct attacks, indirect attacks, and harmless requests with sensitive words, adapted to reflect the..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "5,799 questions"
-LLM_assessed: "Jais, AceGPT, Qwen-2, GPT-4o, Llama-3"
-DATA_URL: "https://github.com/mbzuai-nlp/Arabic_safety_evaluation"
-tags: 
-abstract: "The growing use of large language models (LLMs) has raised concerns regarding their safety. While many studies have focused on English, the safety of LLMs in Arabic, with its linguistic and cultural complexities, remains under-explored. Here, we aim to bridge this gap. In particular, we present an Arab-regionspecific safety evaluation dataset consisting of 5,799 questions, including direct attacks, indirect attacks, and harmless requests with sensitive words, adapted to reflect the..."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Arabic Dataset for LLM Safeguard Evaluation
 

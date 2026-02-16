@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Hofman-MAPS A Multilingual Benchmark for Gl
 local_pdf: "[[PDFs/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese, Korean, Indian, Arabic, German, Italian, Spanish, Russian, Brazilian, Hebrew/Israeli"
 cultures_nationalities_list: "N/A"
 languages_list: "Arabic, German, Hebrew, Hindi, Italian, Japanese, Korean, Portuguese, Russian, Spanish"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for ai safety dataset"
-data_metrics: "12 languages"
 LLM_assessed: "GPT-4, GPT-4o, Qwen 2, Qwen 7B, Qwen-2, Qwen2, ChatGPT"
 DATA_URL: "NA"
 tags: 
 abstract: "Agentic AI systems, which build on Large Language Models (LLMs) and interact with tools and memory, have rapidly advanced in capability and scope. Yet, since LLMs have been shown to struggle in multilingual settings, typically resulting in lower performance and reduced safety, agentic systems risk inheriting these limitations. This raises concerns about the accessibility of such systems, as users interacting in languages other than English may encounter unreliable or security-critical agent..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark for ai safety"
+data_metrics: "10 languages"
 ---
 # MAPS: A Multilingual Benchmark for Global Agent Performance and Security
 

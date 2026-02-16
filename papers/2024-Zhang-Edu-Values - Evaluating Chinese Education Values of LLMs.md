@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Zhang-Edu-Values - Evaluating Chinese Educa
 local_pdf: "[[PDFs/2024/2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "In this paper, we present Edu-Values, the first Chinese education values evaluation benchmark that includes seven core values: professional philosophy, teachers’ professional ethics, education laws and regulations, cultural literacy, educational knowledge and skills, basic competencies and subject knowledge. We meticulously design 1,418 questions, covering multiple-choice, multi-modal question answering, subjective analysis, adversarial prompts, and Chinese traditional culture (short answer)..."
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Gemma, Mixtral, Llama-2, Llama-3, Qwen, DeepSeek"
+DATA_URL: "https://github.com/zhangpeii/Edu-Values"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "In this paper, we present Edu-Values, the first Chinese education values evaluation benchmark that includes seven core values: professional philosophy, teachers’ professional ethics, education laws and regulations, cultural literacy, educational knowledge and skills, basic competencies and subject knowledge. We meticulously design 1,418 questions, covering multiple-choice, multi-modal question answering, subjective analysis, adversarial prompts, and Chinese traditional culture (short answer)..."
-ethics_perspective: "Social & Cultural Values"
 data_description: "Benchmark"
 data_metrics: "1,418 questions"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Gemma, Mixtral, Llama-2, Llama-3, Qwen, DeepSeek"
-DATA_URL: "https://github.com/zhangpeii/Edu-Values"
 ---
 # Edu-Values -- Evaluating Chinese Education Values of LLMs
 

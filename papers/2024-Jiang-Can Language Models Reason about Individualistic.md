@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Recent calls for pluralistic alignment emphasize that AI systems shou
 paper_summary: "Abstract: Recent calls for pluralistic alignment empha- size that AI systems should address the diverse needs of all people. Yet, efforts in this space often require sorting people into fixed buck- ets of pre-s | Overview: arXiv:2410.03868v2 [cs.CL] 31 May 2025 Can Language Models Reason about Individualistic Human Values and Preferences? Liwei Jiang♠* Taylor Sorensen♠ Sydney Levine♣∗ Yejin Choi♡ University of Washingto | Methodology: The rich data in INDIEVALUECATALOG allows us to train a series of Individualistic Value Rea- soner models (INDIEVALUEREASONER) based on Llama-3.1-8B.  | Key Findings: Population Figure 6: Continent-specific INDIEVALUEREASONER evaluated with continent-specific test sets. Similar value demonstration trajectories can h | Conclusions: We propose a bottom-up approach to pluralistic value learning by inducing individualistic values bottom-up. We harvest the well-established social sci"
 local_pdf: "[[PDFs/2024/2024-Jiang-Can Language Models Reason about Individualistic.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
+DATA_URL: "https://github.com/liweijiang/indievalue"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
-DATA_URL: "https://github.com/liweijiang/indievalue"
 ---
 # Can Language Models Reason about Individualistic Human Values and Preferences?
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Large Language Models (LLMs) are expected to provide helpful and harm
 paper_summary: "Abstract: Large Language Models (LLMs) are expected to provide helpful and harmless responses, yet they often exhibit sycophancy—conforming to user beliefs regardless of factual accuracy or ethical soundness. P | Overview: Measuring Sycophancy of Language Models in Multi-turn Dialogues Jiseung Hong* 1 Grace Byun* 2 Seungone Kim1 Kai Shu2 Jinho D. Choi2 1Carnegie Mellon University {jiseungh, seungonk}@andrew.cmu.edu 2Emo | Methodology: Debate Scenario In Debate scenario, LLMs are expected to maintain their provided (initial) argu- ment and disagree with the user's counterargument. Ho | Key Findings: We use GPT-4o to conduct a qualitative evalua- tion of model responses across five conversational turns, as described in Section 3. Figure 8 shows the | Conclusions: In the Debate setting, the user's stance is explicit and model outputs are clearly po- larized (agree/disagree), making the Turn-of-Flip point easy to"
 local_pdf: "[[PDFs/2025/2025-Zheng-SYCON Bench.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, o3, Claude, Qwen, Llama-3, Gemma, DeepSeek"
+DATA_URL: "https://github.com/JiseungHong/SYCON-Bench"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,11 +43,9 @@ utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark for moral/ethical reasoning"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, o3, Claude, Qwen, Llama-3, Gemma, DeepSeek"
-DATA_URL: "https://github.com/JiseungHong/SYCON-Bench"
 ---
 # SYCON Bench: A Sycophancy Benchmark for Multi-Turn Dialogue
 

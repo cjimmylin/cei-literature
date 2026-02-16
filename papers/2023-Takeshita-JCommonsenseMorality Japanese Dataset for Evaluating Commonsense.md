@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ local_pdf: "[[PDFs/2023/2023-Takeshita-JCommonsenseMorality Japanese Dataset for
 pdf_extract: "PDF Extracts/2023/2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.md"
 "N/A"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "Japanese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Language-Media-Lab/commonsense-moral-ja"
+tags: 
+abstract: "Foundational Japanese commonsense morality dataset created through crowdsourcing, reflecting Japanese annotators' moral judgments. 19,963 sentence pairs labeled as morally acceptable (0) or unacceptable (1). Addresses cultural dependence of commonsense morality."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/Language-Media-Lab/commonsense-moral-ja"
-tags: 
-abstract: "Foundational Japanese commonsense morality dataset created through crowdsourcing, reflecting Japanese annotators' moral judgments. 19,963 sentence pairs labeled as morally acceptable (0) or unacceptable (1). Addresses cultural dependence of commonsense morality."
-ethics_perspective: "General Ethics"
 ---
 # JCommonsenseMorality: Japanese Dataset for Evaluating Commonsense Morality Understanding
 

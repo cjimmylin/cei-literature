@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2024/2024-Holm-Danoliteracy of Generative Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Holm-Danoliteracy of Generative Large Language Models.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Danish"
 languages_list: Danish
@@ -31,17 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark text corpus for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4, Claude Opus, Gemini Pro, Command R+, Llama3, Mistral, and other Danish LLMs"
 DATA_URL: "https://github.com/chakki-works/seqeval"
 tags: 
 abstract: "The language technology moonshot moment of Generative Large Language Models (GLLMs) was not limited to English: These models brought a surge of technological applications, investments, and hype to low-resource languages as well. However, the capabilities of these models in languages such as Danish were, until recently, difficult to verify beyond qualitative demonstrations due to a lack of applicable evaluation corpora."
-research_topic: "Machine Learning"
 authors_incomplete: false
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Question Answering"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "8 scenarios"
 ---
 # Danoliteracy of Generative Large Language Models
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,18 +37,18 @@ abstract: "We argue for the epistemic and ethical advantages of pluralism in Rei
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Barman-RLHF Whose Culture Whose Values.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, GPT-4, InstructGPT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3, GPT-4, InstructGPT"
-DATA_URL: "NA"
-ethics_perspective: "Social & Cultural Values"
 ---
 # RLHF Whose Culture Whose Values
 

@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "embed virtue ethics"
@@ -27,19 +29,19 @@ key_contribution: "Proposes 'Virtue Ethics by Design' (VED), a framework for emb
 significance: "Offers a proactive design methodology for superintelligence safety, arguing that virtue-oriented algorithmic design is a precondition for accountability in ASI"
 abstract: "This chapter explores the ethical challenges arising from the rapid advancements in Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). It suggests that the direct integration of virtue ethics into AI architectures—termed \"
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: Yes
-is_dataset: No
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
 local_pdf: "[[PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Virtue Ethics by Design: Embedding Morality into AGI and ASI
 

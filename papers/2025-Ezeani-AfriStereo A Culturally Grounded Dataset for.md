@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dat
 local_pdf: "[[PDFs/2025/2025-Ezeani-AfriStereo A Culturally Grounded Dataset for.pdf]]"
 publication: "arXiv (NeurIPS 2025)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Senegalese, Kenyan, Nigerian"
 languages_list: ""
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Existing AI bias evaluation benchmarks largely reflect Western perspectives, leaving African contexts underrepresented and enabling harmful stereotypes in applications across various domains. To address this gap, we introduce AfriStereo, the first open-source African stereotype dataset and evaluation framework grounded in local socio-cultural contexts. Through community engaged efforts across Senegal, Kenya, and Nigeria, we collected 1,163 stereotypes spanning gender, ethnicity, religion, age,..."
-data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Claude, Flan-T5, Flan-T5-Large, GPT-2, Gemma, Gemma 2, Llama, Llama 3.2, Mistral, Mistral 7B, Phi-3, Phi-3 Mini, Qwen, Qwen 2.5, Qwen2.5, T5, T5-Large"
 DATA_URL: "Open-source (CC BY 4.0)"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation framework dataset"
+data_metrics: "Not specified"
 ---
 # AfriStereo: A Culturally Grounded Dataset for Evaluating Stereotypical Bias in Large Language Models
 

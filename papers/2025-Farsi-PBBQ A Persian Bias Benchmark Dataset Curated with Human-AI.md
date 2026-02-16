@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Farsi-PBBQ A Persian Bias Benchmark Dataset
 local_pdf: "[[PDFs/2025/2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"
 languages_list: Persian
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, Claude, GPT-4o, Llama, Llama-3, LLaMA-3.1, Llama3, Mistral, Mistral 7b, Mistral-7B, Qwen, Qwen-2.5, Qwen-3, Qwen2.5, Qwen3, GPT-4, llama-3."
 DATA_URL: "NA"
 tags: 
 abstract: "With the increasing adoption of large language models (LLMs), ensuring their alignment with social norms has become a critical concern. While prior research has examined bias detection in various languages, there remains a significant gap in resources addressing social biases within Persian cultural contexts. In this work, we introduce PBBQ, a comprehensive benchmark dataset designed to evaluate social biases in Persian LLMs."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness dataset"
+data_metrics: "Not specified"
 ---
 # PBBQ: A Persian Bias Benchmark Dataset Curated with Human-AI Collaboration for Large Language Models
 

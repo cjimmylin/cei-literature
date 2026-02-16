@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: Springer
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Uzbek"
 languages_list: "Arabic, Mongolian, Multilingual, Tibetan, Uyghur"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca"
-research_topic: "Other"
 ---
 # Construction and Evaluation of Sentiment Datasets for Low-Resource Languages: The Case of Uzbek | Springer Nature Link
 

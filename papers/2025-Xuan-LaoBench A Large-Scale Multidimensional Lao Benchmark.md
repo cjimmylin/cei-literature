@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Xuan-LaoBench A Large-Scale Multidimensiona
 local_pdf: "[[PDFs/2025/2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Lao, Laotian"
 languages_list: "Chinese, English, Lao"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has not been matched by their evaluation in low-resource languages, especially Southeast Asian languages like Lao. To fill this gap, we introduce LaoBench, the first large-scale, high-quality, and multidimensional benchmark for assessing LLM language understanding and reasoning in Lao. LaoBench contains 17,000+ expert-curated samples across three dimensions: culturally grounded knowledge application, curriculum-aligned K12 education, and..."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude-Opus, Claude-Sonnet, DeepSeek-V3, Qwen-family, Qwen3"
 DATA_URL: "NA"
-ethics_perspective: "AI Safety & Alignment"
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # LaoBench: A Large-Scale Multidimensional Lao Benchmark for Large Language Models
 

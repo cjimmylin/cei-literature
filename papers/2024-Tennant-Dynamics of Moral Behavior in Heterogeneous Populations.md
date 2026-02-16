@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,17 +37,17 @@ significance: "Finds that the presence of deontological norm-based agents can st
 abstract: "Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i.e., Reinforcement Learning. In multi-agent (social) environments, complex population-level phenomena may emerge from interactions between individual learning agents. Many of the existing studies rely on simulated social dilemma environments to study the interactions of independent learning agents;..."
 paper_summary: "Abstract: Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i. | Overview: Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents Elizaveta Tennant1, Stephen Hailes1, Mirco Musolesi1, 2 1Department of Computer Science University College London, Gower Stre | Methodology: Experimental Setup Our environment involves a population P (of size N = 16) playing an iterated game. At each iteration, a moral player M and an oppon | Conclusions: In this paper we have investigated how the presence of different moral preferences in populations affects individ- ual agents' learning behaviors and"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/Liza-Tennant/moral_MARL"
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
-deontological_ethics: "No"
+deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/Liza-Tennant/moral_MARL"
 ---
  Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents
 

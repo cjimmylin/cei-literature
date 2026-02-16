@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: PubMed
 pdf_extract: "PDF Extracts/0000/2025-Flek-AmericasNLI Machine translation and natural language inference.md"
 local_pdf: "[[PDFs/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "Indigenous American"
 languages_list: "Guarani, Quechua"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, T5, T5-style"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas - PMC
 

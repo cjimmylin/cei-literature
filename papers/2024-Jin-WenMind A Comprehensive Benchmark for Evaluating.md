@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2024/2024-Jin-WenMind A Comprehensive Benchmark for E
 local_pdf: "[[PDFs/2024/2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.pdf]]"
 publication: "NeurIPS 2024 (Datasets and Benchmarks Track)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Large Language Models (LLMs) have made significant advancements across numerous domains, but their capabilities in Chinese Classical Literature and Language Arts (CCLLA) remain largely unexplored due to the limited scope and tasks of existing benchmarks. To fill this gap, we propose WenMind, a comprehensive benchmark dedicated for evaluating LLMs in CCLLA. WenMind covers the sub-domains of Ancient Prose, Ancient Poetry, and Ancient Literary Culture, comprising 4,875 question-answer pairs,..."
-data_description: "Benchmark dataset"
-data_metrics: "4,875 question; 3 question"
 LLM_assessed: "Baichuan, Baichuan2, Bloom, Bloom-7B, ChatGLM, GPT-3, GPT-3.5, GPT-3.5-Turbo, GPT-4, Llama, LLaMA2, LLaMA3, Qwen, Qwen-1.5, Qwen1.5, T5, T5 ROUGE, T5 T6, baichuan-inc"
 DATA_URL: "https://github.com/SCUT-DLVCLab/WenMind ; https://huggingface.co/datasets/SCUT-DLVCLab/WenMind"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # WenMind: A Comprehensive Benchmark for Evaluating Large Language Models in Chinese Classical Literature and Language Arts
 

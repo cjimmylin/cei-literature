@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv / FAccT 2026
 local_pdf: "[[PDFs/2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Gupta-Language Caste and Context Demographic Disparities in AI-Generated.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, American"
 cultures_nationalities_list: "American, Indian"
 languages_list: "English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o-mini, Qwen2.5-32B-Instruct, GPT-OSS-20B"
 DATA_URL: "NA"
 tags: 
 abstract: "The popularization of AI chatbot usage globally has created opportunities for research into their benefits and drawbacks, especially for students using AI assistants for coursework support. This paper asks: how do LLMs perceive the intellectual capabilities of student profiles from intersecting marginalized identities across different cultural contexts? We conduct one of the first large-scale intersectional analyses on LLM explanation quality for Indian and American undergraduate profiles..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Language, Caste, and Context: Demographic Disparities in AI-Generated Explanations Across Indian and American STEM Educational Systems
 

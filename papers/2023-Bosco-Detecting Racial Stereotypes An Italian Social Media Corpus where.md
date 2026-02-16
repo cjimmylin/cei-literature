@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -25,10 +28,6 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://hdl.handle.net/11586/413290"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: Italian
@@ -36,16 +35,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "AlBERTo, BERT-Italian, UmBERTo, mBERT, XLM-RoBERTa"
 DATA_URL: "https://github.com/dhfbk/LiLaH"
 tags: 
 abstract: "An Italian social media corpus from Facebook for detecting racial stereotypes, built within a social psychology study. Annotation scheme makes stereotypes and discredit explicit. Focuses on racial hoaxes and hateful content against immigrants in Italian."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Text corpus"
+data_metrics: "Not specified"
 ---
 # Detecting Racial Stereotypes: An Italian Social Media Corpus where Psychology Meets NLP
 

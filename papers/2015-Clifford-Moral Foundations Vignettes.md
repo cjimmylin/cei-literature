@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ pdf_extract: "PDF Extracts/2015/2015-Clifford-Moral Foundations Vignettes.md"
 local_pdf: "[[PDFs/2015/2015-Clifford-Moral Foundations Vignettes.pdf]]"
 abstract: "Research on the emotional, cognitive, and social determinants of moral judgment has surged in recent years. The development of moral foundations theory (MFT) has played an important role, demonstrating the breadth of morality. Moral psychology has responded by investigating how different domains of moral judgment are shaped by a variety of psychological factors. Yet, the discipline lacks a validated set of moral violations that span the moral domain, creating a barrier to investigating influences on judgment and how their neural bases might vary across the moral domain. In this paper, we aim to fill this gap by developing and validating a large set of moral foundations vignettes (MFVs). Each vignette depicts a behavior violating a particular moral foundation and not others. The vignettes are controlled on many dimensions including syntactic structure and complexity making them suitable for neuroimaging research."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Moral Foundations Vignettes: A Standardized Stimulus Database of Scenarios Based on Moral Foundations Theory
 

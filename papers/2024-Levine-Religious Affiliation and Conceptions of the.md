@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ significance: "Challenges the assumption of a universal boundary between 'moral'
 tags: 
 abstract: "What is the relationship between religious affiliation and conceptions of the moral domain? Putting aside the question of whether people from different religions agree about how to answer moral questions, here we investigate a more fundamental question: How much disagreement is there across religions about which issues count as moral in the first place? That is, do people from different religions conceptualize the scope of morality differently? Using a new methodology to map out how individuals"
 DATE_ADDED: 20260129
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/sydneylevine/moral-domain"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/sydneylevine/moral-domain"
 ---
 # Religious Affiliation and Conceptions of the Moral Domain
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchm
 local_pdf: "[[PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sri Lankan, Sinhala"
 languages_list: Sinhala
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset for question answering"
-data_metrics: "7,000 questions; over 7,000 questions"
 LLM_assessed: "CLAUDE 3.5 SONNET, CLAUDE-3, CLAUDE-3 HAIKU, CLAUDE-3-HAIKU, Claude, Claude 3 Haiku, Claude 3.5, Claude 3.5-sonnet, Claude 3.7 Sonnet, Claude Haiku, Claude-sonnet, Claude., GPT-4, GPT-4o, GPT4O, Llama-3, LLAMA-3.1, LLAMA-3.2, LLAMA-3.3, LLaMA3.1, Llama, MISTRAL-7B, Mistral, Mistral 7B, QWEN-32B, QWEN-72B, QWEN2.5, Qwen"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate impressive general knowledge and reasoning abilities, yet their evaluation has predominantly focused on global or anglocentric subjects, often neglecting low-resource languages and culturally specific content. While recent multilingual benchmarks attempt to bridge this gap, many rely on automatic translation, which can introduce errors and misrepresent the original cultural context."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala
 

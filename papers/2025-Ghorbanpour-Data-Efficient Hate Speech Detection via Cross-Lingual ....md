@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....md"
 local_pdf: "[[PDFs/2025/2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English, Multilingual"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, RoBERTa"
+DATA_URL: "https://github.com/FlagOpen/FlagEmbedding"
+tags: 
+abstract: "Considering the importance of detecting hateful language, labeled hate speech data is expensive and time-consuming to collect, particularly for low-resource languages. Prior work has demonstrated the effectiveness of cross-lingual transfer learning and data augmentation in improving performance on tasks with limited labeled data. To develop an efficient and scalable crosslingual transfer learning approach, we leverage nearest-neighbor retrieval to augment minimal labeled data in the target..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "200 instances"
-LLM_assessed: "ChatGPT, RoBERTa"
-DATA_URL: "https://github.com/FlagOpen/FlagEmbedding"
-tags: 
-abstract: "Considering the importance of detecting hateful language, labeled hate speech data is expensive and time-consuming to collect, particularly for low-resource languages. Prior work has demonstrated the effectiveness of cross-lingual transfer learning and data augmentation in improving performance on tasks with limited labeled data. To develop an efficient and scalable crosslingual transfer learning approach, we leverage nearest-neighbor retrieval to augment minimal labeled data in the target..."
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Data-Efficient Hate Speech Detection via Cross-Lingual ...
 

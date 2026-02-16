@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,17 +33,17 @@ significance: "Challenges Western-centric bioethics by establishing a relational
 abstract: "Background Effective Public Financial Management (PFM) approaches are imperative in the quest for efficiency in health service delivery. Reviews conducted in this area have assessed the impact of PFM approaches on health system efficiency but have left out the mechanisms through which PFM influences efficiency. This scoping review aims to synthesize evidence on the mechanisms by which PFM influences health system efficiency."
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
  The Ubuntu Way: Ensuring Ethical AI Integration in Health Research
 

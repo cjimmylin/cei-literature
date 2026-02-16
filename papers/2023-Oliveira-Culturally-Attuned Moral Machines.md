@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +36,18 @@ paper_summary: "Overview: Culturally-Attuned Moral Machines: Implicit Learning o
 local_pdf: "[[PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf]]"
 abstract: "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, eth"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-ethics_perspective: "General Ethics"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning
 

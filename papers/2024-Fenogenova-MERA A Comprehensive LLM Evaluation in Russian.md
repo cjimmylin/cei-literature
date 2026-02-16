@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "The primary benchmark for the Russian AI ecosystem, revealing tha
 tags: 
 abstract: "Over the past few years, one of the most notable advancements in AI research has been in foundation models (FMs), headlined by the rise of language models (LMs). However, despite researchers’ attention and the rapid growth in LM application, the capabilities, limitations, and associated risks still need to be better understood. To address these issues, we introduce a new instruction benchmark, MERA, oriented towards the FMs’ performance on the Russian language."
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-2, Mistral"
+DATA_URL: "https://github.com/ai-forever/MERA"
+pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
+local_pdf: "[[PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2, Mistral"
-DATA_URL: "https://github.com/ai-forever/MERA"
-pdf_extract: "PDF Extracts/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md"
-local_pdf: "[[PDFs/2024/2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.pdf]]"
 ---
 # MERA: A Comprehensive LLM Evaluation in Russian
 

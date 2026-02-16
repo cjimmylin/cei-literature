@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.md"
 local_pdf: "[[PDFs/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "N/A"
 languages_list: "Arabic, English, Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
+LLM_assessed: "BERT, ChatGLM-turbo, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Qwen-14B, Qwen-Max"
+DATA_URL: "https://github.com/openai/CLIP"
+tags: 
+abstract: "To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGLM-turbo, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Qwen-14B, Qwen-Max"
-DATA_URL: "https://github.com/openai/CLIP"
-tags: 
-abstract: "To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models
 

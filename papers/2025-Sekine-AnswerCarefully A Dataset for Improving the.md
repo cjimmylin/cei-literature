@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Sekine-AnswerCarefully A Dataset for Improv
 local_pdf: "[[PDFs/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.pdf]]"
 publication: "arXiv preprint (NII LLM-jp project)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "Japanese"
@@ -33,15 +31,19 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "In this paper we present AnswerCarefully, a dataset for promoting the safety and appropriateness of Japanese LLM outputs. The dataset consists of 1,800 pairs of questions and reference answers, where the questions require special attention in answering. It covers a wide range of risk categories established in prior Englishlanguage datasets, but the data samples are original in that they are manually created to reflect the socio-cultural context of LLM usage in Japan."
-data_description: "Benchmark for ai safety dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, Dolly, GPT-4, Llama, Llama Guard, Llama-3, Llama2, Llama2-Chat, Qwen, Qwen2, gemma-2, gpt-35-turbo"
 DATA_URL: "https://huggingface.co/datasets/llm-jp/AnswerCarefully"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark for ai safety dataset"
+data_metrics: "Not specified"
 ---
 # AnswerCarefully: A Dataset for Improving the Safety of Japanese LLM Output
 

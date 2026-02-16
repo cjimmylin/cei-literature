@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: ACL 2025
 local_pdf: "[[PDFs/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural, Multilingual, Multiple global cultures (multilingual), Various"
 languages_list: "Multilingual"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3.1, Qwen-2.5, GPT-4o"
 DATA_URL: "https://github.com/MMadmax/CulFiT"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, yet they often exhibit a specific cultural biases, neglecting the values and linguistic diversity of low-resource regions. This cultural bias not only undermines universal equality, but also risks reinforcing stereotypes and perpetuating discrimination. To address this, we propose CulFiT, a novel culturally-aware training paradigm that leverages multilingual data and fine-grained reward modeling to..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,19 +33,19 @@ abstract: "Computational models for ethical autonomy, are crucial for building t
 paper_summary: 
 local_pdf: "[[PDFs/2024/2024-Chhabra-Evaluating Computational Models of Ethics.pdf]]"
 DATE_ADDED: 20260208
+research_topic: "SPECTRA Ethical Framework"
+LLM_assessed: "NA"
+DATA_URL: "NA"
+normative_ethics_benchmark: Borderline
 ethics_overall: "Yes"
 virtue_ethics: "Yes"
 deontological_ethics: "Yes"
 utilitarian_ethics: "Yes"
-research_topic: "SPECTRA Ethical Framework"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-normative_ethics_benchmark: Borderline
 ---
 # Evaluating Computational Models of Ethics
 

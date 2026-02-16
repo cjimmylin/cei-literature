@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2026/2026-Klakow-AmharicStoryQA A Multicultural Story
 local_pdf: "[[PDFs/2026/2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering.pdf]]"
 publication: "WebSearch: AmharicStoryQA multicultural story question answering"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
 cultures_nationalities_list: "African/Ubuntu, Ethiopian, Multicultural/Cross-cultural"
 languages_list: "Amharic, English"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "With the growing emphasis on multilingual and cultural evaluation benchmarks for large language models, language and culture are often treated as synonymous, and performance is commonly used as a proxy for a model’s understanding of a given language. In this work, we argue that such evaluations overlook meaningful cultural variation that exists within a single language. We address this gap by focusing on narratives from different regions of Ethiopia and demonstrate that, despite shared..."
+LLM_assessed: "Gemma, Gemma 3, Gemma-3, GPT-4, Llama, Llama 3.1, Llama 3.2, Llama-3, gemma-2"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "With the growing emphasis on multilingual and cultural evaluation benchmarks for large language models, language and culture are often treated as synonymous, and performance is commonly used as a proxy for a model’s understanding of a given language. In this work, we argue that such evaluations overlook meaningful cultural variation that exists within a single language. We address this gap by focusing on narratives from different regions of Ethiopia and demonstrate that, despite shared..."
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
-LLM_assessed: "Gemma, Gemma 3, Gemma-3, GPT-4, Llama, Llama 3.1, Llama 3.2, Llama-3, gemma-2"
-DATA_URL: "NA"
-research_topic: "Machine Learning"
+data_description: "Benchmark"
+data_metrics: "649 test examples"
 ---
 # AmharicStoryQA: A Multicultural Story Question Answering Benchmark in Amharic
 

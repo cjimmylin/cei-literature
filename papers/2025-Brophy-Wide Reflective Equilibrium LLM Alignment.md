@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -28,17 +31,18 @@ significance: "Bridges moral epistemology and AI safety, arguing current methods
 external_pdf: "https://arxiv.org/pdf/2506.00415"
 abstract: "The paper proposes that the Method of Wide Reflective Equilibrium (MWRE) - a well-established coherentist moral methodology - provides an effective framework for understanding and improving LLM alignment efforts. While current techniques like Constitutional AI share structural similarities with MWRE, they reportedly lack its emphasis on dynamic, bi-directional revision of principles and the procedural legitimacy derived from such a process. The author argues this philosophical approach can enhance alignment procedures by improving their revisability, legitimacy, and ethical foundation, ultimately producing more robust and defensible AI systems."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: No
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "ChatGPT, Claude, Claude Opus, DeepSeek"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Wide Reflective Equilibrium in LLM Alignment: Bridging Moral Epistemology and AI Safety
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese, English"
 languages_list: "Chinese, English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "VC-LLM, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-72B, GPT-4o, Baichuan2-13B, GLM-4-9B, Yi-1.5-34B, InternLM2.5-20B, TigerBot-70B, Ziya-LLaMA-13B, Llama-3-8B, Mistral-7B"
+DATA_URL: "https://github.com/Ad-Align/VC-LLM"
+tags: 
+abstract: "With the wide application of large language models (LLMs), the problems of bias and value inconsistency in sensitive domains have gradually emerged, especially in terms of race, society and politics. In this paper, we propose an adversarial alignment framework, which enhances the value consistency of the model in sensitive domains through continued pre-training, instruction fine-tuning and adversarial training."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "VC-LLM, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-72B, GPT-4o, Baichuan2-13B, GLM-4-9B, Yi-1.5-34B, InternLM2.5-20B, TigerBot-70B, Ziya-LLaMA-13B, Llama-3-8B, Mistral-7B"
-DATA_URL: "https://github.com/Ad-Align/VC-LLM"
-tags: 
-abstract: "With the wide application of large language models (LLMs), the problems of bias and value inconsistency in sensitive domains have gradually emerged, especially in terms of race, society and politics. In this paper, we propose an adversarial alignment framework, which enhances the value consistency of the model in sensitive domains through continued pre-training, instruction fine-tuning and adversarial training."
-ethics_perspective: "AI Safety & Alignment"
 ---
 # Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains
 

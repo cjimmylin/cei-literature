@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,8 @@ abstract: "Complex moral trade-offs are a basic feature of human life: for examp
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Kneer-Hard Problem AI Alignment Value Forks.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Bloomsbury"
+DATA_URL: "https://osf.io/rqkcz"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "Bloomsbury"
-DATA_URL: "https://osf.io/rqkcz"
 ---
 # Hard Problem AI Alignment Value Forks
 

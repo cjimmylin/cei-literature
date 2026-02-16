@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -12,7 +15,7 @@ key: EXSR0537
 type: preprint
 short_title: "Turkish Offensive Language Detection Dataset"
 year: 2025
-first_author: [[Toygar]]
+first_author: "[[Toygar]]"
 last_author: "[[Toygar]]"
 authors: [[Toygar]]
 authors_incomplete: false
@@ -27,10 +30,6 @@ pdf_access_url: "https://www.mdpi.com/2079-9292/14/24/4919/pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: HuggingFace
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"
 languages_list: "Turkish"
@@ -38,16 +37,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
 tags: 
 abstract: "Turkish offensive language detection dataset available on HuggingFace for training and evaluating models on offensive content in Turkish. Publicly available Turkish offensive language dataset for safety evaluation of Turkish language models."
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Turkish Offensive Language Detection Dataset
 

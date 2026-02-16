@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "The recent rapid adoption of large language models (LLMs) highlights 
 paper_summary: "Abstract: The recent rapid adoption of large language mod- els (LLMs) highlights the critical need for bench- marking their fairness. Conventional fairness met- rics, which focus on discrete accuracy-based eval | Overview: arXiv:2505.23996v1 [cs.CL] 29 May 2025 Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs Yinong Oliver Wang* 1 Nivedha Sivakumar 2 Falaah Arif Khan* 3 Rin Metcalf Susa 2 Ada | Key Findings: dataset X = {xi}N i=1, an uncertainty estimator fu(x; G), we first derive the model's certainty c by converting the uncertainty estimator. For simplic | Conclusions: Per-occupation fairness analysis. To better understand fairness composition, we break down fairness scores per occupation in Fig. 7. The x-axis labels"
 local_pdf: "[[PDFs/2025/2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Mistral, Mixtral, Falcon"
+DATA_URL: "https://github.com/apple/ml-synthbias"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "31,756 samples"
-LLM_assessed: "Llama-3, Mistral, Mixtral, Falcon"
-DATA_URL: "https://github.com/apple/ml-synthbias"
 ---
 # Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs (UCerF)
 

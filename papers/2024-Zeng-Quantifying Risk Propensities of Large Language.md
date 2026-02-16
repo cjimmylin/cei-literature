@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "As Large Language Models (LLMs) become more prevalent, concerns about
 paper_summary: "Abstract: As Large Language Models (LLMs) become more preva- lent, concerns about their safety, ethics, and potential biases have risen. Systematically evaluating LLMs' risk decision- making tendencies, particu | Overview: Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play Yifan Zeng Kairong Liang Fangzhou Dong Peijia Zheng‡ School of Computer Science and Engineeri | Methodology: to moral risks, indicating that they are unlikely to engage even in minor ethical transgressions, such as talking loudly on the subway. In contrast, E | Conclusions: This study innovatively applies cognitive science risk assess- ment tools to LLMs, introducing a method to evaluate their risk propensities and ethica"
 local_pdf: "[[PDFs/2024/2024-Zeng-Quantifying Risk Propensities of Large Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vicuna"
+DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Gemma, Qwen, Mistral, Vicuna"
-DATA_URL: "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
 ---
 # Quantifying Risk Propensities of Large Language Models: Ethical Focus and Bias Detection through Role-Play
 

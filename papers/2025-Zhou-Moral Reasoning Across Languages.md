@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,9 @@ pdf_extract: "PDF Extracts/2025/2025-Zhou-Moral Reasoning Across Languages.md"
 abstract: "In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologically diverse languages and three levels of contextual complexity: sentence, paragraph, and document. Our results show moral reasoning performance degrades with increasing context complexity, particularly for low-resource languages such as Vietnamese."
 paper_summary: "Abstract: In this paper, we introduce the Multilingual Moral Reasoning Benchmark (MMRB) 1 to evaluate the moral reasoning abilities of large language models (LLMs) across five typologi- cally diverse languages  | Overview: Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs Huichi Zhou1, Zehao Xu2, Munan Zhao2, Kaihong Li3, Yiqiang Li, Hongtao Wang2, 1Imperial College London 2North Chin | Key Findings: Our goal is to evaluate the consistency of moral rea- soning in multilingual settings across five LLMs on three levels of context: sentence, paragraph | Conclusions: Win-Rate Analysis. Beyond overall accuracy, we also examine pairwise win-rates between lan- guages, as shown in Figure 2. This metric cap- tures subtl"
 local_pdf: "[[PDFs/2025/2025-Zhou-Moral Reasoning Across Languages.pdf]]"
+LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
+DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -38,12 +44,9 @@ utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "Yes"
 is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark for moral/ethical reasoning"
-data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
-DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
-DATE_ADDED: 20260207
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
+data_metrics: "5 languages"
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs
 

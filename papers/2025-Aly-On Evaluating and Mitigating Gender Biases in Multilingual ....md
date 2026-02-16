@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....md"
 local_pdf: "[[PDFs/2025/2025-Aly-On Evaluating and Mitigating Gender Biases in Multilingual ....pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Arabic"
 cultures_nationalities_list: "Indian"
 languages_list: "Arabic, Multilingual"
@@ -30,17 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"
 tags: 
 abstract: "While understanding and removing gender biases in language models has been a longstanding problem in Natural Language Processing, prior research work has primarily been limited to English. In this work, we investigate some of the challenges with evaluating and mitigating biases in multilingual settings which stem from a lack of existing benchmarks and resources for bias evaluation beyond English especially for non-western context."
 research_topic: "Bias & Fairness"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Multilingual benchmark for bias and fairness dataset"
+data_metrics: "Not specified"
 ---
 # On Evaluating and Mitigating Gender Biases in Multilingual ...
 

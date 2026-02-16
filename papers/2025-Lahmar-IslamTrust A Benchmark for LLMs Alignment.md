@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alig
 local_pdf: "[[PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.pdf]]"
 publication: "OpenReview / Workshop paper"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arabic, Islamic"
 languages_list: "Arabic, English"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "First multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains. Best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Shortcomings stem from limited Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and model tendency to default to non-Islamic knowledge."
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for moral/ethical reasoning dataset"
+data_metrics: "Not specified"
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
 

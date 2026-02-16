@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -10,7 +13,7 @@ key: LSRC0838
 type: conferencePaper
 short_title: "A Dataset for Investigating Tagalog-English Code-Switching"
 year: 2025
-first_author: [[Herrera]]
+first_author: "[[Herrera]]"
 last_author: "[[Megan Herrera]]"
 authors: "Herrera, Megan"
 url: "https://aclanthology.org/2022.lrec-1.225.pdf"
@@ -19,10 +22,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.md"
 local_pdf: "[[PDFs/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Filipino"
 cultures_nationalities_list: "Filipino"
 languages_list: "Code-switching, English"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Benchmark dataset for conversational ai"
-data_metrics: "Not specified"
 LLM_assessed: "Word2Vec"
 DATA_URL: "https://github.com/palaganaskurl/tag"
 tags: 
 abstract: "Deploying recent natural language processing innovations to low-resource settings allows for state-of-the-art research findings and applications to be accessed across cultural and linguistic borders. One low-resource setting of increasing interest is codeswitching, the phenomenon of combining, swapping, or alternating the use of two or more languages in continuous dialogue. In this paper, we introduce a large dataset (20k+ instances) to facilitate investigation of Tagalog-English..."
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # A Dataset for Investigating Tagalog-English Code-Switching
 

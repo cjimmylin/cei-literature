@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding.md"
 local_pdf: "[[PDFs/2025/2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: French
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Qwen, Bloom, CroissantLLM"
+DATA_URL: "https://huggingface.co/datasets/graalul/COLE-public"
+tags: 
+abstract: "To address the need for a more comprehensive evaluation of French Natural Language Understanding (NLU), we introduce COLE, a new benchmark composed of 23 diverse task covering a broad range of NLU capabilities, including sentiment analysis, paraphrase detection, grammatical judgment, and reasoning, with a particular focus on linguistic phenomena relevant to the French language. We benchmark 95 large language models (LLM), providing an extensive analysis of the current state of French NLU."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Qwen, Bloom, CroissantLLM"
-DATA_URL: "https://huggingface.co/datasets/graalul/COLE-public"
-tags: 
-abstract: "To address the need for a more comprehensive evaluation of French Natural Language Understanding (NLU), we introduce COLE, a new benchmark composed of 23 diverse task covering a broad range of NLU capabilities, including sentiment analysis, paraphrase detection, grammatical judgment, and reasoning, with a particular focus on linguistic phenomena relevant to the French language. We benchmark 95 large language models (LLM), providing an extensive analysis of the current state of French NLU."
-research_topic: "Machine Learning"
 ---
 # COLE: a Comprehensive Benchmark for French Language Understanding Evaluation
 

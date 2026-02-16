@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md"
 local_pdf: "[[PDFs/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: Japanese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Moral Foundations Theory"
 newtags: 
+LLM_assessed: "BERT, GPT-3, GPT-3.5, GloVE, Llama, RoBERTa"
+DATA_URL: "NA"
+tags: 
+abstract: "Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-3, GPT-3.5, GloVE, Llama, RoBERTa"
-DATA_URL: "NA"
-tags: 
-abstract: "Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives."
-ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY
 

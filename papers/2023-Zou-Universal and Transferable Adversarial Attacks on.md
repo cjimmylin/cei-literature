@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "Because “out-of-the-box” large language models are capable of gen
 paper_summary: "Abstract: Because 'out-of-the-box' large language models are capable of generating a great deal of objectionable content, recent work has focused on aligning these models in an attempt to prevent undesirable ge | Overview: Universal and Transferable Adversarial Attacks on Aligned Language Models Andy Zou1,2, Zifan Wang2, Nicholas Carlini3, Milad Nasr3, J. Zico Kolter1,4, Matt Fredrikson1 1Carnegie Mellon University, 2Ce | Methodology: improves substantially upon existing attack methods, is able to reliably break the target (white box) model, and the resulting attacks can even demons | Conclusions: At a high level, we believe that the implications of this work are quite broad, and raise substantial questions regarding current methods for the alig"
 local_pdf: "[[PDFs/2023/2023-Zou-Universal and Transferable Adversarial Attacks on.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama-2, Vicuna, PaLM-2, Falcon"
+DATA_URL: "https://github.com/llm-attacks/llm-attacks"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Llama-2, Vicuna, PaLM-2, Falcon"
-DATA_URL: "https://github.com/llm-attacks/llm-attacks"
 ---
 # Universal and Transferable Adversarial Attacks on Aligned Language Models
 

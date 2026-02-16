@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_HAN2024
@@ -28,17 +30,17 @@ significance: "Bridges virtue ethics moral exemplar theory with neural network l
 external_pdf: N/A
 abstract: "In this paper, Han examines why moral exemplars are useful and even necessary in moral education despite several critiques from researchers and educators. To support this point, Han reviews recent AI research demonstrating that exemplar-based learning is superior to rule-based learning in model performance in training neural networks, such as large language models. The paper particularly focuses on why education aiming at promoting the development of multifaceted moral functioning can be done effectively by using exemplars, which is similar to exemplar-based learning in AI model training. Furthermore, the paper discusses the potential limitations and issues related to exemplar-applied moral education with findings from recent studies in AI research raising concerns about model biases and toxic outcomes."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Why do We Need to Employ Exemplars in Moral Education? Insights from Recent Research on Artificial Intelligence
 

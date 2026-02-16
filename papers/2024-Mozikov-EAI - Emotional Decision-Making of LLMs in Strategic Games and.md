@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ external_pdf: "https://openreview.net/pdf?id=Vov1mypRjw"
 pdf_extract: "PDF Extracts/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md"
 local_pdf: "[[PDFs/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "One of the urgent tasks of artificial intelligence is to assess the safety and alignment of large language models (LLMs) with human behavior. Conventional verification only in pure natural language processing benchmarks can be insufficient. Since emotions often influence human decisions, this paper examines LLM alignment in complex strategic and ethical environments, providing an in-depth analysis of the drawbacks of our psychology and the emotional impact on decision-making in humans and LLMs."
+LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Mixtral"
+DATA_URL: "https://github.com/AIRI-Institute/EAI-Framework"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "One of the urgent tasks of artificial intelligence is to assess the safety and alignment of large language models (LLMs) with human behavior. Conventional verification only in pure natural language processing benchmarks can be insufficient. Since emotions often influence human decisions, this paper examines LLM alignment in complex strategic and ethical environments, providing an in-depth analysis of the drawbacks of our psychology and the emotional impact on decision-making in humans and LLMs."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, Claude, Llama-2, Mixtral"
-DATA_URL: "https://github.com/AIRI-Institute/EAI-Framework"
 ---
 # EAI -- Emotional Decision-Making of LLMs in Strategic Games and Ethical Dilemmas
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,20 +32,20 @@ tags:
 external_pdf: "https://openreview.net/pdf?id=JH9xhvSr4q"
 abstract: "We propose WHoW, an evaluation framework for analyzing the facilitation strategies of moderators across different domains/scenarios by examining their motives (Why), dialogue acts (How) and target speaker (Who). Using this framework, we annotated 5,657 moderation sentences with human judges and 15,494 sentences with GPT-4o from two domains: TV debates and radio panel discussions. Comparative analysis demonstrates the framework’s cross-domain generalisability and reveals distinct moderation..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4o"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
+local_pdf: "[[PDFs/2025/2025-Ali-Data Curation for Pluralistic Alignment.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation framework"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2025/2025-Ali-Data Curation for Pluralistic Alignment.md"
-local_pdf: "[[PDFs/2025/2025-Ali-Data Curation for Pluralistic Alignment.pdf]]"
 ---
 # Data Curation for Pluralistic Alignment
 

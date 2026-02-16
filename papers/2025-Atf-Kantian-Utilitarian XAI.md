@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +36,8 @@ key_contribution: "Gamified XAI system with separate Kantian and utilitarian mod
 significance: "Demonstrates tunable trade-off where Kantian module secures full deontic compliance at welfare cost"
 abstract: "We present a gamified explainable AI (XAI) system for ethically aware consumer decision-making in the coffee domain. Each session comprises six rounds with three options per round. Two symbolic engines provide real-time reasons: a Kantian module flags rule violations (e.g., child labor, deforestation risk without shade certification, opaque supply chains, unsafe decaf), and a utilitarian module scores options via multi-criteria aggregation over normalized attributes (price, carbon, water,..."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -43,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Kantian-Utilitarian XAI: Meta-Explained
 

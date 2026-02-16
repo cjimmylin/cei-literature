@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2024/2024-Fajcik-BenCzechMark A Czech-centric Multita
 local_pdf: "[[PDFs/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Czech"
 languages_list: Czech
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "8 categories"
 LLM_assessed: "ALBERT, BERT, ChatGPT, Command-R, GPT-2, Gemma 2, Gemma-2, Gemma2, InternLM CSMPT, LLama3, LLama3.1, Llama 3, Llama 3.1, Llama 3.2, Llama 3.2., Llama 3.3, Llama-3, Llama-3.1, Llama.1, Mistral, Mistral 2411 123B, Mistral 7b, Mistral 8x22B, Mistral-7B, Mistral-Nemo, Mixtral-8x22B, Phi 3 Mini, Phi-3-mini, Phi-4, Qwen 2, Qwen2, Qwen2.5, llama3.1 chat"
 DATA_URL: "https://huggingface.co/BUT-FIT/CSTinyLlama-1.2B"
 tags: 
 abstract: "We present BenCzechMark (BCM), the first comprehensive Czech language benchmark designed for large language models, offering diverse tasks, multiple task formats, and multiple evaluation metrics. Its duel scoring system is grounded in statistical significance theory and uses aggregation across tasks inspired by social preference theory. Our benchmark encompasses 50 challenging tasks, with corresponding test datasets, primarily in native Czech, with 14 newly collected ones."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark text corpus"
+data_metrics: "8 categories"
 ---
 # BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism
 

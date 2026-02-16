@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Pan-Banzhida Advancing Large Language Models for Tibetan with Curated.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Tibetan"
 languages_list: "Chinese, English, Tibetan"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "Qwen2.5-7B, Qwen3-8B, Llama-3.1-8B, DeepSeek-R1-Distill-Llama-8B"
 DATA_URL: "NA"
 tags: 
 abstract: "Large language models have achieved remarkable progress across many languages. However, Tibetan, as a representative low-resource language, is particularly underrepresented in existing models due to the scarcity of high-quality training corpora. To address this gap, we curate the largest Tibetan pre-training corpus to date, aggregating data from diverse sources and applying a dedicated data cleaning and processing pipeline tailored for Tibetan."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark text corpus for question answering"
+data_metrics: "72 gb"
 ---
 # Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training
 

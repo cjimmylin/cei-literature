@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2024/2024-Religions-The Use of Large Language Models.
 local_pdf: "[[PDFs/2024/2024-Religions-The Use of Large Language Models.pdf]]"
 publication: "Religions (MDPI), Vol. 15, Issue 12, Article 1559"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, American, Hebrew/Israeli"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "English"
@@ -33,16 +32,20 @@ religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "We evaluated the performance of a large language model called ChatGPT on the United States Medical Licensing Exam (USMLE), which consists of three exams: Step 1, Step 2CK, and Step 3. ChatGPT performed at or near the passing threshold for all three exams without any specialized training or reinforcement. Additionally, ChatGPT demonstrated a high level of concordance and insight in its explanations. These results suggest that large language models may have the potential to assist with medical..."
-data_description: "Benchmark dataset"
-data_metrics: "Not specified"
 LLM_assessed: "ChatGPT, GPT3"
 DATA_URL: "NA"
-research_topic: "NLP & Representation Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # The Use of Large Language Models for Translating Buddhist Texts from Classical Chinese to Modern English: An Analysis and Evaluation with ChatGPT 4, ERNIE Bot 4, and Gemini Advanced
 

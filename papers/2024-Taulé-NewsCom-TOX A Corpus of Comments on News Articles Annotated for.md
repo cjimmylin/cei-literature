@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: "Springer / Language Resources and Evaluation"
 pdf_extract: "PDF Extracts/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.md"
 local_pdf: "[[PDFs/2024/2024-Taulé-NewsCom-TOX A Corpus of Comments on News Articles Annotated for.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, American"
 cultures_nationalities_list: "Spanish"
 languages_list: Spanish
@@ -34,17 +33,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Annotated dataset for toxicity detection"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "In this article, we present the NewsCom-TOX corpus, a new corpus manually annotated for toxicity in Spanish. NewsCom-TOX consists of 4359 comments in Spanish posted in response to 21 news articles on social media related to immigration, in order to analyse and identify messages with racial and xenophobic content. This corpus is multi-level annotated with different binary linguistic categories -stance, target, stereotype, sarcasm, mockery, insult, improper language, aggressiveness and..."
 research_topic: Other
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Annotated dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # NewsCom-TOX: A Corpus of Comments on News Articles Annotated for Toxicity in Spanish
 

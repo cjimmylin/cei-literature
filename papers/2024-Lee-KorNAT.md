@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,12 @@ key_contribution: "Created KorNAT, a benchmark for 'national alignment' with Sou
 significance: "Defines 'National Alignment' as a distinct goal from 'Human Alignment', showing that general models often fail on specific cultural norms (Korean values) even if they are generally 'helpful'."
 tags: 
 abstract: "For Large Language Models (LLMs) to be effectively deployed in a specific country, they must possess an understanding of the nation’s culture and basic knowledge. To this end, we introduce National Alignment, which measures an alignment between an LLM and a targeted country from two aspects: social value alignment and common knowledge alignment. Social value alignment evaluates how well the model understands nation-specific social values, while common knowledge alignment examines how well the..."
+LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"
+DATA_URL: "https://huggingface.co/datasets/datumo/KorNAT"
+pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
+local_pdf: "[[PDFs/2024/2024-Lee-KorNAT.pdf]]"
+publication: arXiv / ACL Anthology
+DATE_ADDED: 20260215
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,12 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"
-DATA_URL: "https://huggingface.co/datasets/datumo/KorNAT"
-pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
-local_pdf: [[PDFs/2024/2024-Lee-KorNAT.pdf]]
-publication: arXiv / ACL Anthology
-DATE_ADDED: 20260215
 ---
 # KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge
 

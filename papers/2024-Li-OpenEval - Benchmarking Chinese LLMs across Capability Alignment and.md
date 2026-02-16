@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs acr
 local_pdf: "[[PDFs/2024/2024-Li-OpenEval - Benchmarking Chinese LLMs across Capability Alignment and.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
+tags: 
+abstract: "The rapid development of Chinese large language models (LLMs) poses big challenges for efficient LLM evaluation. While current initiatives have introduced new benchmarks or evaluation platforms for assessing Chinese LLMs, many of these focus primarily on capabilities, usually overlooking potential alignment and safety issues. To address this gap, we introduce OpenEval, an evaluation testbed that benchmarks Chinese LLMs across capability, alignment and safety."
+LLM_assessed: "Baichuan2, ChatGPT, GPT-3, GPT-3.5, GPT-4, InternLM, InternLM Team, InternLM-Chat, Qwen, Qwen Qwen, Qwen Table, Qwen technical, Qwen-72B, Qwen-7B, Yi 16, Yi-34B, alpaca, Llama"
+DATA_URL: "https://github.com/01-ai/Yi"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "The rapid development of Chinese large language models (LLMs) poses big challenges for efficient LLM evaluation. While current initiatives have introduced new benchmarks or evaluation platforms for assessing Chinese LLMs, many of these focus primarily on capabilities, usually overlooking potential alignment and safety issues. To address this gap, we introduce OpenEval, an evaluation testbed that benchmarks Chinese LLMs across capability, alignment and safety."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "7 datasets; 6 datasets"
-LLM_assessed: "Baichuan2, ChatGPT, GPT-3, GPT-3.5, GPT-4, InternLM, InternLM Team, InternLM-Chat, Qwen, Qwen Qwen, Qwen Table, Qwen technical, Qwen-72B, Qwen-7B, Yi 16, Yi-34B, alpaca, Llama"
-DATA_URL: "https://github.com/01-ai/Yi"
 ---
 # OpenEval -- Benchmarking Chinese LLMs across Capability, Alignment, and Safety
 

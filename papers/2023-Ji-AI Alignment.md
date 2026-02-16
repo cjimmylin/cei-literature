@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "AI alignment aims to make AI systems behave in line with human intent
 paper_summary: "Abstract: AI alignment aims to make AI systems behave in line with human intentions and values. As AI systems grow more capable, so do risks from misalignment. To provide a comprehensive and up-to-date overview | Overview: AI Alignment: A Comprehensive Survey Jiaming Ji*,1 Tianyi Qiu*,1 Boyuan Chen*,1 Borong Zhang*,1 Hantao Lou1 Kaile Wang1 Yawen Duan2 Zhonghao He2 Lukas Vierling3 Donghai Hong1 Jiayi Zhou1 Zhaowei Zhang | Methodology: Robustness Interpretability Controllability Ethicality Learning from Feedback (§2) Preference Modeling (§2.2) • ◦ Policy Learning (§2.3) RL/PbRL/IRL/  | Key Findings: can be simpler than task completion28. Therefore, harnessing the evaluative capabilities of AI systems can result in distributions of capacity that ar | Conclusions: 60"
 local_pdf: "[[PDFs/2023/2023-Ji-AI Alignment.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 2, Claude-2., GPT-4, Gemma, Llama2, Vicuna, Llama, Llama-2, llama."
+DATA_URL: "https://github.com/MadryLab/robustness"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Alpaca, BERT, ChatGPT, Claude, Claude 2, Claude-2., GPT-4, Gemma, Llama2, Vicuna, Llama, Llama-2, llama."
-DATA_URL: "https://github.com/MadryLab/robustness"
 ---
 # AI Alignment: A Comprehensive Survey
 

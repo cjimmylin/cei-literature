@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md"
 local_pdf: "[[PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "European"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step towards responsible AI development, but lacks clear technical interpretation, making it difficult to assess models’ compliance. This work presents COMPL-AI, a comprehensive framework consisting of (i) the first technical interpretation of the EU AI Act, translating its broad regulatory requirements into measurable technical requirements, with the focus on large language models (LLMs), and (ii) an open-source Act-centered..."
+LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, GPT-3.5, GPT-4, Claude"
+DATA_URL: "https://github.com/compl-ai/compl-ai"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step towards responsible AI development, but lacks clear technical interpretation, making it difficult to assess models’ compliance. This work presents COMPL-AI, a comprehensive framework consisting of (i) the first technical interpretation of the EU AI Act, translating its broad regulatory requirements into measurable technical requirements, with the focus on large language models (LLMs), and (ii) an open-source Act-centered..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2, Llama-3, Mistral, Mixtral, Qwen, GPT-3.5, GPT-4, Claude"
-DATA_URL: "https://github.com/compl-ai/compl-ai"
 ---
 # COMPL-AI (EU AI Act Compliance)
 

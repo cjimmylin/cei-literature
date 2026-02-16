@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Adapts the general 'datasheets for datasets' framework to the spe
 tags: 
 abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT); however, the lack of diversity of the underlying training data can lead to serious limitations in building equitable and robust SLT products, especially along dimensions of language, accent, dialect, variety, and speech impairment—and the intersectionality of speech features with socioeconomic and demographic features. Furthermore, there is often a lack of oversight on the underlying training data—commonly built on..."
 DATE_ADDED: 20260208
+LLM_assessed: "ALBERT"
+DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"
+pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
+local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT"
-DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"
-pdf_extract: "PDF Extracts/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.md"
-local_pdf: "[[PDFs/2023/2023-Andrus-Augmented Datasheets for Speech Datasets and.pdf]]"
 ---
 # Augmented Datasheets for Speech Datasets and Ethical Decision-Making
 

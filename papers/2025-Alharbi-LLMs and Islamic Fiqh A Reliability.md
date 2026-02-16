@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability
 local_pdf: "[[PDFs/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability.pdf]]"
 publication: "OpenReview (workshop paper)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Islamic, Arabic"
 languages_list: "Arabic"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "First systematic study of school-specific Islamic legal reasoning focusing on Maliki Fiqh. Tests GPT-4o and ALLaM on 550 curated questions across purification (Tahara), marital jurisprudence (Fiqh Al-Nikah), and financial transactions (Buyu). Highlights gaps in adherence to established Fiqhi rules."
+LLM_assessed: "GPT-4o, ALLaM"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
-tags: 
-abstract: "First systematic study of school-specific Islamic legal reasoning focusing on Maliki Fiqh. Tests GPT-4o and ALLaM on 550 curated questions across purification (Tahara), marital jurisprudence (Fiqh Al-Nikah), and financial transactions (Buyu). Highlights gaps in adherence to established Fiqhi rules."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, ALLaM"
-DATA_URL: "NA"
-research_topic: "Other"
 ---
 # LLMs and Islamic Fiqh: A Reliability Study
 

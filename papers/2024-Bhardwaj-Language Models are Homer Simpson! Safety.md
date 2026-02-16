@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Demonstrates an efficient, scalable way to 'fix' safety after it 
 tags: 
 abstract: "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for REstoring Safety through Task Arithmetic. At its core, it involves a simple arithmetic addition of a safety vector to the weights of the compromised model. We demonstrate the effectiveness of RESTA in both parameter-efficient and full fine-tuning, covering a wide range of downstream..."
 DATE_ADDED: 20260208
+LLM_assessed: Llama-2
+DATA_URL: "https://github.com/declare-lab/resta"
+pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
+local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "11 categories"
-LLM_assessed: Llama-2
-DATA_URL: "https://github.com/declare-lab/resta"
-pdf_extract: "PDF Extracts/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.md"
-local_pdf: "[[PDFs/2024/2024-Bhardwaj-Language Models are Homer Simpson! Safety.pdf]]"
 ---
 # Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic
 

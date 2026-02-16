@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded 
 local_pdf: "[[PDFs/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu"
 languages_list: "Multilingual"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm..."
+LLM_assessed: "DeepSeek, DeepSeek-AI, DeepSeek-V3, Deepseek-3, Llama, Llama Guard, Llama-3.1, LlamaGuard, Qwen, Qwen-3, Qwen-3.1, Qwen3"
+DATA_URL: "https://github.com/hemhemoh/UbuntuGuard (CC BY 4.0)"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm..."
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: "DeepSeek, DeepSeek-AI, DeepSeek-V3, Deepseek-3, Llama, Llama Guard, Llama-3.1, LlamaGuard, Qwen, Qwen-3, Qwen-3.1, Qwen3"
-DATA_URL: "https://github.com/hemhemoh/UbuntuGuard (CC BY 4.0)"
-ethics_perspective: "AI Safety & Alignment"
 ---
 # UbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI Safety in African Languages
 

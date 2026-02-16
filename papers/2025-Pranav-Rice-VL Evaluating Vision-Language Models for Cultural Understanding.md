@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Pranav-Rice-VL Evaluating Vision-Language M
 local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indonesian, Filipino"
 cultures_nationalities_list: "Southeast Asian, Indonesian, Filipino, Vietnamese, Thai, Malaysian, Singaporean, Cambodian, Laotian, Burmese, Bruneian"
 languages_list: "Filipino/Tagalog, Indonesian, Malay"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark for bias and fairness"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude-3, Claude-3-Opus, GPT-4, GPT-4o, LLaMA 3.2, Qwen, Qwen-VL, Qwen2.5, llama 3"
 DATA_URL: "NA"
 tags: 
 abstract: "Vision-Language Models (VLMs) excel in multimodal tasks but often exhibit Westerncentric biases, limiting their effectiveness in culturally diverse regions like Southeast Asia (SEA). To address this, we introduce RICE-VL, a novel benchmark evaluating VLM cultural understanding across 11 ASEAN countries. RICE-VL includes over 28,000 human-curated Visual Question Answering (VQA) samples—covering True/False, Fill-inthe-Blank, and open-ended formats—and 1,000 image-bounding box pairs for Visual..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Rice-VL: Evaluating Vision-Language Models for Cultural Understanding Across ASEAN Countries
 

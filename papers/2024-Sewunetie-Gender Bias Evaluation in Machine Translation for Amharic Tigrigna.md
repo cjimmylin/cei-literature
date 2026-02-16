@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: "WebSearch: gender bias machine translation Amharic Oromo Tigrinya 
 pdf_extract: "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md"
 local_pdf: "[[PDFs/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Afaan Oromoo, Amharic, Tigrinya"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT"
+DATA_URL: "https://github.com/manandey/bias_"
+tags: 
+abstract: "While Machine Translation (MT) research has progressed over the years, translation systems still suffer from biases, including gender bias. While an active line of research studies the existence and mitigation strategies of gender bias in machine translation systems, there is limited research exploring this phenomenon for lowresource languages. The limited availability of linguistic and computational resources confounded with the lack of benchmark datasets makes studying bias for low-resourced..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT"
-DATA_URL: "https://github.com/manandey/bias_"
-tags: 
-abstract: "While Machine Translation (MT) research has progressed over the years, translation systems still suffer from biases, including gender bias. While an active line of research studies the existence and mitigation strategies of gender bias in machine translation systems, there is limited research exploring this phenomenon for lowresource languages. The limited availability of linguistic and computational resources confounded with the lack of benchmark datasets makes studying bias for low-resourced..."
-ethics_perspective: "Bias & Fairness"
 ---
 # Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo
 

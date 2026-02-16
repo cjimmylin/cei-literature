@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,19 +30,19 @@ key_contribution: "Advocates for Virtue Ethics as a complement to deontological 
 significance: "Addresses the gap in global ethical frameworks by emphasizing human welfare and flourishing through character-based AI alignment"
 abstract: "This article examines the critical challenge of establishing ethical governance frameworks for artificial intelligence systems as they increasingly influence decision-making across social, economic, and political domains. The article analyzes the multidimensional nature of AI alignment, exploring both technical dimensions—including explainability challenges, value alignment algorithms, and safety mechanisms—and sociocultural dimensions encompassing cultural variations in ethical priorities and..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation framework"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aditya-Toward global ethical frameworks for AI.md"
 local_pdf: "[[PDFs/2025/2025-Aditya-Toward global ethical frameworks for AI.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "Yes"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Toward global ethical frameworks for AI: Aligning Artificial Intelligence with human values and progress
 

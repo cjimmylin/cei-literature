@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -13,15 +16,11 @@ key: EXSR0026
 type: conferencePaper
 short_title: "Awesome-LLM-Eval Repository (Meta-Resource)"
 year: 2025
-first_author: [[onejune2018]]
+first_author: "[[onejune2018]]"
 last_author: "[[onejune2018]]"
 authors: onejune2018
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -29,19 +28,23 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: 
-research_topic: "Other"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/onejune2018/Awesome-LLM-Eval"
 no_pdf_applicable: true
 pdf_extract: 
 local_pdf: N/A
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Other"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Awesome-LLM-Eval Repository (Meta-Resource)
 

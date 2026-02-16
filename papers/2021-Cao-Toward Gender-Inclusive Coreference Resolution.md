@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Correctly resolving textual mentions of people fundamentally entails 
 pdf_extract: "PDF Extracts/2021/2021-Cao-Toward Gender-Inclusive Coreference Resolution.md"
 local_pdf: "[[PDFs/2021/2021-Cao-Toward Gender-Inclusive Coreference Resolution.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/TristaCao/into_inclusivecoref"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,11 +44,9 @@ utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/TristaCao/into_inclusivecoref"
 ---
 # Toward Gender-Inclusive Coreference Resolution: An Analysis of Gender and Bias Throughout the Machine Learning Lifecycle
 

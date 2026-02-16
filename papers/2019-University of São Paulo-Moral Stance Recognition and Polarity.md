@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ significance: "Provides a rare resource for computational ethics in Portuguese, 
 tags: 
 abstract: "We introduce a labelled corpus of stances about moral issues for the Brazilian Portuguese language, and present reference results for both the stance recognition and polarity classiﬁcation tasks. The corpus is built from Twitter and further expanded with data elicited through crowd sourcing and labelled by their own authors. Put together, the corpus and reference results are expected to be taken as a baseline for further studies in the ﬁeld of stance recognition and polarity classiﬁcation from..."
 DATE_ADDED: 20260208
+LLM_assessed: Word2Vec
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: Word2Vec
-DATA_URL: "NA"
 ---
 # Moral Stance Recognition and Polarity Classification from Twitter and Elicited Text
 

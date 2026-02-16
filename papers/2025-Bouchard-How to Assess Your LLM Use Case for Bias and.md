@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ significance: "Provides a practical resource for practitioners to operationalize
 tags: 
 abstract: "Current AI evaluation methods relying on static, model-only tests fail to account for harms that emerge through sustained human-AI interaction. This paper proposes a shift towards evaluation based on interactional ethics, focusing on interaction harms like inappropriate parasocial relationships, social manipulation, and cognitive overreliance that develop over time. The authors present practical principles for designing interactive evaluations including ecologically valid scenarios, human impact metrics, and diverse human participation approaches."
 DATE_ADDED: 20260208
+LLM_assessed: Gemini
+DATA_URL: "https://github.com/cvs-health/langfair"
+pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
+local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "No"
-data_description: "N/A"
+data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: Gemini
-DATA_URL: "https://github.com/cvs-health/langfair"
-pdf_extract: "PDF Extracts/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.md"
-local_pdf: "[[PDFs/2025/2025-Bouchard-How to Assess Your LLM Use Case for Bias and.pdf]]"
 ---
 # How to Assess Your LLM Use Case for Bias and Fairness with LangFair
 

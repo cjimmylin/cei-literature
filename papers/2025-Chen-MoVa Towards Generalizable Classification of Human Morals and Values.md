@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Chen-MoVa Towards Generalizable Classificat
 local_pdf: "[[PDFs/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
 publication: EMNLP
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Identifying human morals and values embedded in language is essential to empirical studies of communication. However, researchers often face substantial difficulty navigating the diversity of theoretical frameworks and data available for their analysis. Here, we contribute MoVa, a well-documented suite of resources for generalizable classification of human morals and values, consisting of (1) 16 labeled datasets and benchmarking results from four theoretically-grounded frameworks; (2) a..."
+LLM_assessed: "GPT-4, GPT-3.5, DeepSeek, Llama-3"
+DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Identifying human morals and values embedded in language is essential to empirical studies of communication. However, researchers often face substantial difficulty navigating the diversity of theoretical frameworks and data available for their analysis. Here, we contribute MoVa, a well-documented suite of resources for generalizable classification of human morals and values, consisting of (1) 16 labeled datasets and benchmarking results from four theoretically-grounded frameworks; (2) a..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, DeepSeek, Llama-3"
-DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 ---
 # MoVa: Towards Generalizable Classification of Human Morals and Values
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "arXiv / ACL Anthology"
 pdf_extract: "PDF Extracts/2024/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.md"
 local_pdf: "[[PDFs/2024/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "French"
 languages_list: French
@@ -30,16 +29,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "XGLM, BLOOM, LLaMa, LLaMa-2"
 DATA_URL: "https://huggingface.co/datasets/FrenchToxicityPrompts"
 tags: 
 abstract: "Dataset of 50K naturally occurring French prompts and their continuations, annotated with toxicity scores from Perspective API. Evaluated 14 different LLMs from four open-source families (XGLM, BLOOM, LLaMa, LLaMa2). Found toxicity metrics grow with model size and are higher for toxic prompts. Published at TRAC Workshop @ LREC-COLING 2024."
 research_topic: "Machine Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts
 

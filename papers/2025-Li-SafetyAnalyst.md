@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/0000/2025-Li-SafetyAnalyst.md"
 local_pdf: "[[PDFs/2025/2025-Li-SafetyAnalyst.pdf]]"
 publication: "ICML 2025"
 DATE_ADDED: 20260207
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -32,17 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "The ideal AI safety moderation system would be both structurally interpretable (so its decisions can be reliably explained) and steerable (to align to safety standards and reflect a community's values), which current systems fall short on. To address this gap, we present SAFETYANALYST, a novel AI safety moderation framework. Given an AI behavior, SAFETYANALYST uses chain-of-thought reasoning to analyze its potential consequences by creating a structured 'harm-benefit tree,' which enumerates..."
-ethics_perspective: "AI Safety & Alignment"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Gemini, Llama-3, Claude"
 DATA_URL: "https://jl3676.github.io/SafetyAnalyst/"
 research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark for ai safety"
+data_metrics: "Not specified"
 ---
 # SafetyAnalyst
 

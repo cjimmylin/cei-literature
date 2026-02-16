@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / ACL 2025
 local_pdf: "[[PDFs/2025-Sadallah-Commonsense Reasoning in Arab Culture.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Sadallah-Commonsense Reasoning in Arab Culture.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, African/Ubuntu"
 cultures_nationalities_list: "13 Arab countries, Gulf, Levant, Nile Valley, North Africa"
 languages_list: "Arabic"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "GPT-4o, Llama-3.1-8B, Llama-3.1-70B, Llama-3.3-70B, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-32B, Qwen2.5-72B, Gemma-2, DeepSeek-R1, Jais-13B, Jais-v3-30B, AceGPT-v2, SILMA, Fanar, ALLAM"
+DATA_URL: "https://huggingface.co/datasets/MBZUAI/ArabCulture"
+tags: 
+abstract: "Despite progress in Arabic large language models, such as Jais and AceGPT, their evaluation on commonsense reasoning has largely relied on machine-translated datasets, which lack cultural depth and may introduce Anglocentric biases. Commonsense reasoning is shaped by geographical and cultural contexts, and existing English datasets fail to capture the diversity of the Arab world. To address this, we introduce ArabCulture, a commonsense reasoning dataset in Modern Standard Arabic (MSA), covering..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, Llama-3.1-8B, Llama-3.1-70B, Llama-3.3-70B, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-32B, Qwen2.5-72B, Gemma-2, DeepSeek-R1, Jais-13B, Jais-v3-30B, AceGPT-v2, SILMA, Fanar, ALLAM"
-DATA_URL: "https://huggingface.co/datasets/MBZUAI/ArabCulture"
-tags: 
-abstract: "Despite progress in Arabic large language models, such as Jais and AceGPT, their evaluation on commonsense reasoning has largely relied on machine-translated datasets, which lack cultural depth and may introduce Anglocentric biases. Commonsense reasoning is shaped by geographical and cultural contexts, and existing English datasets fail to capture the diversity of the Arab world. To address this, we introduce ArabCulture, a commonsense reasoning dataset in Modern Standard Arabic (MSA), covering..."
-research_topic: "Social & Cultural Analysis"
 ---
 # Commonsense Reasoning in Arab Culture
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluati
 local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.pdf]]"
 publication: "arXiv / ACL 2025"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Korean, Thai, Vietnamese, Arabic, African/Ubuntu, Italian"
 cultures_nationalities_list: "Chinese, Korean, Thai, Vietnamese, Arabic, Italian, African"
 languages_list: "Arabic, Bengali, Chinese, English, Italian, Javanese, Korean, Swahili, Thai, Vietnamese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation framework"
-data_metrics: "10 languages"
 LLM_assessed: "Claude 3, Claude 3 Haiku, Claude 3 Opus, Claude 3 Sonnet, Claude 3., Claude-3-Sonnet, Claude., GPT-4, GPT-4o, Llama, Llama 3, Llama Guard, Llama-3, Mistral, Mistral-7B, Mixtral 7B, Mixtral-8x7B, Qwen 1.5, Qwen-1.5, BERT, GPT-3, gpt-3.5-turbo"
 DATA_URL: "https://huggingface.co/datasets/openai/MMMLU"
 tags: 
 abstract: "As large language models (LLMs) have advanced rapidly, concerns regarding their safety have become prominent. In this paper, we discover that code-switching in red-teaming queries can effectively elicit undesirable behaviors of LLMs, which are common practices in natural language. We introduce a simple yet effective framework, CSRT, to synthesize codeswitching red-teaming queries and investigate the safety and multilingual understanding of LLMs comprehensively."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilingual Understanding
 

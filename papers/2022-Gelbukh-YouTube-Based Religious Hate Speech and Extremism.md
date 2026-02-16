@@ -6,6 +6,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ pdf_extract: "PDF Extracts/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech
 local_pdf: "[[PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.pdf]]"
 publication: "Journal of Intelligent and Fuzzy Systems"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"
@@ -35,16 +34,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Should social media companies ban Holocaust denial from their platforms? What about conspiracy theorists that spew hate? Does good corporate citizenship mean platforms should remove offensive speech or tolerate it? The content moderation rules that companies develop to govern speech on their platforms will have significant implications for the future of freedom of expression. Given that the prospects for compelling platforms to respect users’ free speech rights are bleak within the U.S."
-data_description: "Evaluation approach text corpus for hate speech detection"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
-ethics_perspective: "Human Rights"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # YouTube-Based Religious Hate Speech and Extremism Detection Dataset with Machine Learning Baselines
 

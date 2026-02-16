@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: "ACL Anthology / RANLP 2021"
 pdf_extract: "PDF Extracts/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md"
 local_pdf: "[[PDFs/2021/2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: Spanish
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://huggingface.co/datasets/fmplaza/offendes"
 tags: 
 abstract: "Offensive language detection and analysis has become a major area of research in Natural Language Processing. The freedom of participation in social media has exposed online users to posts designed to denigrate, insult or hurt them according to gender, race, religion, ideology, or other personal characteristics. Focusing on young inﬂuencers from the wellknown social platforms of Twitter, Instagram, and YouTube, we have collected a corpus composed of 47,128 Spanish comments manually labeled on..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # OffendES: A New Corpus in Spanish for Offensive Language Research
 

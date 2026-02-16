@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "As large language models (LLMs) increasingly integrate into our daily
 paper_summary: "Abstract: As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundati | Overview: FROM STABILITY TO INCONSISTENCY: A STUDY OF MORAL PREFERENCES IN LLMS Monika Jotautait˙e Pivotal Mary Phuong Deepmind Chatrik Singh Mangat Independent Maria Angelica Martinez Independent ABSTRACT As l | Methodology: The second contribution of this paper is a novel evaluation approach which reveals the full spectrum of evaluation preferences. In this paper, the eva | Key Findings: preferences. In this paper, the evaluation is used to accurately map model values onto the MFT framework (Figure 1). Conventional multiple-choice eval | Conclusions: In this study, we have argued that the application of existing psychological frameworks to elucidate encoded beliefs in Large Language Models (LLMs) i"
 local_pdf: "[[PDFs/2025/2025-Jotautaite-From Stability to Inconsistency.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-3, Gemini"
+DATA_URL: "https://github.com/monikajot/llm-ethics-2"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, Claude, Llama-3, Gemini"
-DATA_URL: "https://github.com/monikajot/llm-ethics-2"
 ---
 # From Stability to Inconsistency: A Study of Moral Preferences in LLMs (MFD-LLM Dataset)
 

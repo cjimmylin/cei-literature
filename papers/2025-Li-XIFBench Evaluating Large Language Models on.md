@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: OpenReview
 pdf_extract: "PDF Extracts/2025/2025-Li-XIFBench Evaluating Large Language Models on.md"
 local_pdf: "[[PDFs/2025/2025-Li-XIFBench Evaluating Large Language Models on.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: Multilingual
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Claude-3.5-Sonnet, DeepSeek-R1, GPT-4, GPT-4o, Gemma-3, InstructGPT, Llama, Llama-3.1, Qwen, Qwen-2.5, WizardLM, WizardLM 0, bloomz, claude-3"
+DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
+tags: 
+abstract: "Large Language Models (LLMs) have demonstrated remarkable instructionfollowing capabilities across various applications. However, their performance in multilingual settings lacks systematic investigation, with existing evaluations lacking fine-grained constraint analysis across diverse linguistic contexts. We introduce XIFBench, a comprehensive constraint-based benchmark for evaluating multilingual instruction-following abilities of LLMs, comprising 558 instructions with 0-5 additional..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Claude-3.5-Sonnet, DeepSeek-R1, GPT-4, GPT-4o, Gemma-3, InstructGPT, Llama, Llama-3.1, Qwen, Qwen-2.5, WizardLM, WizardLM 0, bloomz, claude-3"
-DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
-tags: 
-abstract: "Large Language Models (LLMs) have demonstrated remarkable instructionfollowing capabilities across various applications. However, their performance in multilingual settings lacks systematic investigation, with existing evaluations lacking fine-grained constraint analysis across diverse linguistic contexts. We introduce XIFBench, a comprehensive constraint-based benchmark for evaluating multilingual instruction-following abilities of LLMs, comprising 558 instructions with 0-5 additional..."
-research_topic: "Machine Translation"
 ---
 # XIFBench: Evaluating Large Language Models on
 

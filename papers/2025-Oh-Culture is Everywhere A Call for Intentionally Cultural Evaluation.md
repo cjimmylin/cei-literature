@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Findings of EMNLP 2025
 local_pdf: "[[PDFs/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: ""
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Critiques the trivia-centered paradigm for cultural alignment evaluation. Advocates for 'intentionally cultural evaluation' examining cultural assumptions embedded in all evaluation aspects. Proposes HCI-inspired participatory methodologies for inclusive NLP research."
 research_topic: "Social & Cultural Analysis"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation methodology"
+data_metrics: "Not specified"
 ---
 # Culture is Everywhere: A Call for Intentionally Cultural Evaluation
 

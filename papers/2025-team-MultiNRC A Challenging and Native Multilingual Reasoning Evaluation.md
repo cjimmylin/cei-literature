@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "arXiv / Scale AI"
 pdf_extract: "PDF Extracts/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.md"
 local_pdf: "[[PDFs/2025/2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, French, Spanish"
 cultures_nationalities_list: "Chinese, French, Spanish"
 languages_list: "Chinese, French, Spanish"
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark for bias and fairness"
-data_metrics: "Not specified"
 LLM_assessed: "o3-pro, multiple LLMs"
 DATA_URL: "https://scale.com/leaderboard/multinrc"
 tags: 
 abstract: "Although recent Large Language Models (LLMs) have shown rapid improvement on reasoning benchmarks in English, the evaluation of such LLMs’ multilingual reasoning capability across diverse languages and cultural contexts remains limited. Existing multilingual reasoning benchmarks are typically constructed by translating existing English reasoning benchmarks, biasing these benchmarks towards reasoning problems with context in English language/cultures."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Translation"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Multilingual benchmark"
+data_metrics: "Not specified"
 ---
 # MultiNRC: A Challenging and Native Multilingual Reasoning Evaluation Benchmark for LLMs
 

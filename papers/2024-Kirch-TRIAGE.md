@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,8 +32,10 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Kirch-TRIAGE.md"
 abstract: "We present the TRIAGE Benchmark, a novel machine ethics (ME) benchmark that tests LLMs’ ability to make ethical decisions during mass casualty incidents. It uses real-world ethical dilemmas with clear solutions designed by medical professionals, offering a more realistic alternative to annotation-based benchmarks. TRIAGE incorporates various prompting styles to evaluate model performance across different contexts."
 paper_summary: "Abstract: We present the TRIAGE Benchmark, a novel machine ethics (ME) benchmark that tests LLMs' ability to make ethical decisions during mass casualty incidents. It uses real-world ethical dilemmas with clear | Overview: TRIAGE: Ethical Benchmarking of AI Models Through Mass Casualty Simulations Nathalie Maria Kirch∗ King's College London Faculty of Natural, Mathematical & Engineering Sciences Konstantin Hebenstreit M | Conclusions: In this work, we demonstrated the ability of LLMs to solve ethical dilemmas in the medical context. All models, except Mistral, consistently outperfor"
-local_pdf: [[PDFs/2024/2024-Kirch-TRIAGE.pdf]]
+local_pdf: "[[PDFs/2024/2024-Kirch-TRIAGE.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, Mistral, Mixtral, Claude"
+DATA_URL: "https://github.com/NLie2/Triage"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, Mistral, Mixtral, Claude"
-DATA_URL: "https://github.com/NLie2/Triage"
 ---
 # TRIAGE: Ethical Benchmarking of AI Models Through Mass Casualty Simulations
 

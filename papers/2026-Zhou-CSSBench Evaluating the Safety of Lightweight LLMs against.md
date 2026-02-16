@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for ai safety dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Qwen3-0.6B, Qwen3-1.7B, Qwen3-8B, MiniCPM4-0.5B, MiniCPM4-8B, Hunyuan-0.5B, Hunyuan-1.8B, Hunyuan-7B, openPangu-Embedded-1B, openPangu-Embedded-7B"
 DATA_URL: "https://huggingface.co/datasets/Yaesir06/CSSBench"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in cost-sensitive and on-device scenarios, and safety guardrails have advanced mainly in English. However, real-world Chinese malicious queries typically conceal intent via homophones, pinyin, symbol-based splitting, and other Chinese-specific patterns. These Chinese-specific adversarial patterns create the safety evaluation gap that is not well captured by existing benchmarks focused on English."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # CSSBench: Evaluating the Safety of Lightweight LLMs against Chinese-Specific Adversarial Patterns
 

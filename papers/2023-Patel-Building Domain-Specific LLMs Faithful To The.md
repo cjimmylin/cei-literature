@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2023/2023-Patel-Building Domain-Specific LLMs Faithfu
 local_pdf: "[[PDFs/2023/2023-Patel-Building Domain-Specific LLMs Faithful To The.pdf]]"
 publication: "Muslims in ML Workshop at NeurIPS 2023 / arXiv"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Arabic, English"
@@ -34,16 +33,20 @@ religious_values: "Islam"
 religious_values_list: "Islam"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable performance across numerous natural language understanding use cases. However, this impressive performance comes with inherent limitations, such as the tendency to perpetuate stereotypical biases or fabricate non-existent facts. In the context of Islam and its representation, accurate and factual representation of its beliefs and teachings rooted in the Quran and Sunnah is key."
-data_description: "Evaluation methodology dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3, GPT-3.5, GPT-3.5 turbo, GPT-4, Llama"
 DATA_URL: "https://github.com/shabazpatel/domain-specific-llm"
-research_topic: "Machine Learning"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Truthfulness & Factuality"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Building Domain-Specific LLMs Faithful To The Islamic Worldview: Mirage or Technical Possibility?
 

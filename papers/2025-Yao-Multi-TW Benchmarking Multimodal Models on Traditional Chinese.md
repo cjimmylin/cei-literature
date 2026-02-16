@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Taiwanese"
 languages_list: "Chinese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "Qwen2.5-Omni-7B, Qwen2.5-Omni-3B, Baichuan-Omni-1.5, Qwen2.5-VL-7B, Qwen2-VL-7B, Llama-3.2-11B-Vision, UI-TARS-1.5-7B, Idefics2-8b, LLaVA, PaliGemma-2"
+DATA_URL: "https://drive.google.com/drive/folders/1IvBOXR1GpMNtst0T3HT6dM59_ASlXdyn"
+tags: 
+abstract: "Multimodal Large Language Models (MLLMs) process visual, acoustic, and textual inputs, overcoming the limitations of single-modality LLMs. However, existing benchmarks often neglect tri-modal evaluation in Traditional Chinese and overlook inference latency. To fill this gap, we introduce Multi-TW, the first Traditional Chinese benchmark for evaluating the performance and latency of any-toany multimodal models."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Computer Vision & Multimodal"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "Qwen2.5-Omni-7B, Qwen2.5-Omni-3B, Baichuan-Omni-1.5, Qwen2.5-VL-7B, Qwen2-VL-7B, Llama-3.2-11B-Vision, UI-TARS-1.5-7B, Idefics2-8b, LLaVA, PaliGemma-2"
-DATA_URL: "https://drive.google.com/drive/folders/1IvBOXR1GpMNtst0T3HT6dM59_ASlXdyn"
-tags: 
-abstract: "Multimodal Large Language Models (MLLMs) process visual, acoustic, and textual inputs, overcoming the limitations of single-modality LLMs. However, existing benchmarks often neglect tri-modal evaluation in Traditional Chinese and overlook inference latency. To fill this gap, we introduce Multi-TW, the first Traditional Chinese benchmark for evaluating the performance and latency of any-toany multimodal models."
-research_topic: "Computer Vision & Multimodal"
 ---
 # Multi-TW: Benchmarking Multimodal Models on Traditional Chinese Question Answering in Taiwan
 

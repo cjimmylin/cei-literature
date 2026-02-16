@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan
 local_pdf: "[[PDFs/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.pdf]]"
 publication: "arXiv preprint"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Tibetan"
 languages_list: "Tibetan"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Advancement of large language models (LLMs) has brought transformative capabilities to NLP, but such progress remains unevenly distributed, especially for low-resource and culturally rich languages like Tibetan. In this paper, we present TIB-STC, the first large-scale, expert-curated, and multidomain dataset specifically designed to support the development and evaluation of LLMs for the Tibetan language."
-data_description: "Multilingual benchmark for ai safety dataset"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, ChatGLM, ChatGPT, DeepSeek, DeepSeek-R1, GPT-3, GPT-3.5-Turbo, GPT-4, GPT-4o, GPT-4o-mini, Llama, LLaMA 3, LLaMA 3.1, Llama-3, LLaMA-3., Qwen-2.5"
 DATA_URL: "https://github.com/Vicentvankor/sun-shine"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # TIB-STC: A Large-Scale Structured Tibetan Benchmark for Low-Resource Language Modeling (Sun-Shine)
 

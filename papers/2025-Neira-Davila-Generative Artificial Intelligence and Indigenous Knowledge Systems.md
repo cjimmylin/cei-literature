@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: Letters in High Energy Physics
 local_pdf: "[[PDFs/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Global Indigenous, Latin American Indigenous"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Systematic review examining how GenAI applications within Indigenous Knowledge Systems can contribute to epistemic and cultural justice in Latin America and the Global South. Identifies four interrelated axes: Preservation and revitalization of knowledge; Culturally situated educational and evaluative tools; Data governance frameworks and knowledge cocreation; Decolonial imagination of creativity. Searches Scopus and Web of Science 2023-2025."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Nature
 pdf_extract: "PDF Extracts/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.md"
 local_pdf: "[[PDFs/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English, Uyghur"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "ChatGPT, GPT-3, GPT-3.5"
+DATA_URL: "https://osf.io/34cgd"
+tags: 
+abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Translation"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "ChatGPT, GPT-3, GPT-3.5"
-DATA_URL: "https://osf.io/34cgd"
-tags: 
-abstract: "I found the article you're looking for! The study compares ChatGPT, Google Translate, and Bing Translator for Uyghur-English literary translation."
-research_topic: "Machine Translation"
 ---
 # Machine translation of Chinese classical poetry: a comparison among ChatGPT, Google Translate, and DeepL Translator | Humanities and Social Sciences Communications
 

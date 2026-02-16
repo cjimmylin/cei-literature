@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Advocates for the decolonization of AI ethics by integrating Afri
 tags: 
 abstract: "Artificial intelligence (AI) is one of the most spoken-about topics in the media, academia, government and other platforms. One of the aspects that is often discussed is the ethical implications of AI and approaches to mitigate the risks. Artificial intelligence has an undeniable impact on industries as well as socio-economic structures; however, this article focusses on the impact of AI on three concerns mainly, humanity, spirituality and the environment. This article is an interdisciplinary study of African theological ethics and the philosophy of technology. It discusses the theological implications (doctrinal issues) of emerging technologies, particularly AI. It discusses technology as power which has impacted Africa since the first industrial revolution and emphasises the importance of African ethics in the context of AI in Africa. This article critically discusses ubuntu ethics and its critique. It focuses on AI and its impact on humanity, spirituality and the environment, and proposes a holistic ubuntu AI ethics approach in South Africa. Intradisciplinary and/or interdisciplinary implications: This article is an interdisciplinary study of African theological ethics and the philosophy of technology. Ubuntu ethics in this article derives from African Theology and African Philosophy. Ubuntu AI ethics is important for various disciplines such as theology, law, social sciences, computer sciences and information technology (especially designers and developers)."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
+pdf_extract: "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md"
+local_pdf: "[[PDFs/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-pdf_extract: "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md"
-local_pdf: "[[PDFs/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.pdf]]"
 ---
 # A holistic ubuntu artificial intelligence ethics approach in South Africa
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "rules that provide logical propositions denoting which actions are mo
 paper_summary: "Abstract: rules that provide logical propositions denoting which actions are morally acceptable. Applying ethical principles to indicate moral acceptability helps to determine which actions are aligned with AI  | Overview: Macro Ethics Principles for Responsible AI Systems: Taxonomy and Directions JESSICA WOODGATE and NIRAV AJMERI, University of Bristol, United Kingdom Responsible AI must be able to make or support deci | Methodology: Taking inspiration from software engineering research, for reproducibility we follow Kitchenham and Charters [82] guidelines on conducting a systemati | Key Findings: Type Deontology Egalitarianism Proportionalism Kantian Virtue Descriptive None [1, 14, 16, 24, 62, 66, 79, 113, 125] [16, 66, 106] [106] [1, 14, 26, 6 | Conclusions: To better address the pursuit of responsible AI, research must be human-centred [31, 41]. Shifting the perspective to the macro ethics of STS, conside"
 local_pdf: "[[PDFs/2024/2024-Woodgate-Macro Ethics Principles for Responsible AI Systems.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Macro Ethics Principles for Responsible AI Systems: Taxonomy and Future Directions
 

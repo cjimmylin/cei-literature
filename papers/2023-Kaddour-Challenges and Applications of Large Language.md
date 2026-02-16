@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Large Language Models (LLMs) went from non-existent to ubiquitous in 
 paper_summary: "Abstract: Large Language Models (LLMs) went from non-existent to ubiquitous in the machine learn- ing discourse within a few years. Due to the fast pace of the field, it is difficult to identify the remaining c | Overview: Challenges and Applications of Large Language Models Jean Kaddourα, †, ∗, Joshua Harrisβ, ∗, Maximilian Mozesα, Herbie Bradleyγ, δ, ϵ, Roberta Raileanuζ, and Robert McHardyη, ∗ αUniversity College Lon | Methodology: that extends the XLA [468] compiler. While SG- MoE selects the top-k experts with k > 1, the Switch Transformer (ST) [145] architecture uses k = 1 exp | Key Findings: Single-Turn Prompting Multi-Turn Prompting Input Output Self-Consistency Q: Lisa has 5 easy peelers. She buys 2 more nets with 6 each. How many easy p | Conclusions: 49 1 Introduction Given the quickly growing plethora of LLM re- search papers, we aim to address two questions: (1) Challenges: What problems remain u"
 local_pdf: "[[PDFs/2023/2023-Kaddour-Challenges and Applications of Large Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BART, BERT, BLOOM, BLOOM perform, Bartolo, Bloomberg, BloombergGPT, ChatGPT, Claude, Codex, GPT-2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, LaMDA, PaLM, PaLM 2, T5, T5 LLM, WizardLM, phi-1, phi-1 using"
+DATA_URL: "https://github.com/NVIDIA/FasterTransformer"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BART, BERT, BLOOM, BLOOM perform, Bartolo, Bloomberg, BloombergGPT, ChatGPT, Claude, Codex, GPT-2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, LaMDA, PaLM, PaLM 2, T5, T5 LLM, WizardLM, phi-1, phi-1 using"
-DATA_URL: "https://github.com/NVIDIA/FasterTransformer"
 ---
 # Challenges and Applications of Large Language Models
 

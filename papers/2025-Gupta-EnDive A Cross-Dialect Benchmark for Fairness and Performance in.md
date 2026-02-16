@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +23,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md"
 local_pdf: "[[PDFs/2025/2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "Yes"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Arabic, American"
 cultures_nationalities_list: "American, Indian, Singaporean, Jamaican"
 languages_list: "Arabic, English"
@@ -32,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for bias and fairness dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 3.5 Sonnet, DeepSeek-v3, GPT-4o, GPT-4o mini, GPT-4o-mini, GPT-4, Llama, Llama-3"
 DATA_URL: "NA"
 tags: 
 abstract: "The diversity of human language, shaped by social, cultural, and regional influences, presents significant challenges for natural language processing (NLP) systems. Existing benchmarks often overlook intra-language variations, leaving speakers of non-standard dialects underserved. To address this gap, we introduce ENDIVE (English Diversity), a benchmark that evaluates five widely-used large language models (LLMs) across tasks in language understanding, algorithmic reasoning, mathematics, and..."
 ethics_perspective: "Bias & Fairness"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "Yes"
+utilitarian_ethics: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness dataset"
+data_metrics: "Not specified"
 ---
 # EnDive: A Cross-Dialect Benchmark for Fairness and Performance in Large Language Models
 

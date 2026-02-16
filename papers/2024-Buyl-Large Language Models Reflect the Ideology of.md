@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,19 +33,19 @@ abstract: "Large language models (LLMs) are trained on vast amounts of data to g
 paper_summary: "Abstract: Large language models (LLMs) are trained on vast amounts of data to generate natural language, enabling them to perform tasks like text summarization and question answering. These models have become p | Overview: LARGE LANGUAGE MODELS REFLECT THE IDEOLOGY OF THEIR CREATORS Maarten Buyl1∗† Alexander Rogiers1† Sander Noels1† Guillaume Bied1 Iris Dominguez-Catena2 Edith Heiter1 Iman Johary1 Alexandru-Cristian Mar | Conclusions: Designing LLMs involves numerous choices that affect the ideological positions reflected in their behavior. These positions can also vary depending on"
 local_pdf: "[[PDFs/2024/2024-Buyl-Large Language Models Reflect the Ideology of.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
+LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Mixtral, Qwen, DeepSeek, Grok"
+DATA_URL: "https://github.com/aida-ugent/llm-ideology-analysis"
+ethics_perspective: "General Ethics"
+ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 research_topic: "Question Answering"
 is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach dataset for question answering"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Claude, Gemini, Llama, Mistral, Mixtral, Qwen, DeepSeek, Grok"
-DATA_URL: "https://github.com/aida-ugent/llm-ideology-analysis"
-ethics_perspective: "General Ethics"
 ---
 # Large Language Models Reflect the Ideology of their Creators
 

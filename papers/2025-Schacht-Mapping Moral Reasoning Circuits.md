@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Moves beyond behavioral analysis to finding the *physical* locati
 tags: 
 abstract: "This paper systematically investigates how large language models (LLMs) encode moral reasoning across six moral dimensions: care, fairness, loyalty, authority, sanctity, and liberty. We propose a novel interpretability pipeline that combines differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons aligned with each moral dimension. Our curated dataset of 240 validated moral and immoral statement pairs guides this exploration and..."
 DATE_ADDED: 20260208
+LLM_assessed: "Gemma-2"
+DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
+pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
+local_pdf: "[[PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma-2"
-DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
-pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
-local_pdf: "[[PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
 ---
 # Mapping Moral Reasoning Circuits: A Mechanistic Analysis of Ethical Decision-Making in Large Language Models
 

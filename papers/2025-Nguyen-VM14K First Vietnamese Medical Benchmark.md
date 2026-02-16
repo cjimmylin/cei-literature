@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Nguyen-VM14K First Vietnamese Medical Bench
 local_pdf: "[[PDFs/2025/2025-Nguyen-VM14K First Vietnamese Medical Benchmark.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "4k questions; 10k questions; 2k questions"
 LLM_assessed: "Claude 3.5, Claude 3.5 Sonnet, Deepseek 4o, Deepseek R1, GPT-4o, Llama 4, Llama-3, Llama-3.1, Qwen 3, Qwen3, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/ShayHill/docx2python"
 tags: 
 abstract: "Medical benchmarks are indispensable for evaluating the capabilities of language models in healthcare for non-English-speaking communities,therefore help ensuring the quality of real-life applications. However, not every community has sufficient resources and standardized methods to effectively build and design such benchmark, and available non-English medical data is normally fragmented and difficult to verify."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "14,000 questions"
 ---
 # VM14K: First Vietnamese Medical Benchmark
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2025/2025-search-DweshVaani An LLM for Detecting Reli
 local_pdf: "[[PDFs/2025/2025-search-DweshVaani An LLM for Detecting Religious.pdf]]"
 publication: "CHiPSAL 2025 Workshop (co-located with COLING 2025, Abu Dhabi)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian, Hindi"
 languages_list: "English, Hindi"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religious hate speech and identifying targeted religions in code-mixed Hindi-English. Benchmarks cutting-edge LLMs (Meta, Google, OpenAI, Nvidia) and Indic-specific LLMs (Sarvam, Indic-Gemma, Airavata). Finds that Indic-LLMs instruction-tuned on Indian content underperform. Uses knowledge-distillation based fine-tuning with rationale extraction to improve performance."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Gemma-2, Llama, GPT-4o, Sarvam, Indic-Gemma, Airavata"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # DweshVaani: An LLM for Detecting Religious Hate Speech in Code-Mixed Hindi-English
 

@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "IEEE Transactions on Computational Social Systems"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"
 languages_list: "Thai"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "Benchmark dataset labeling each post with both hate speech and sentiment information for Thai language. Uses a dual-channel deep learning approach (FastText + BERT) with capsule network. Achieves 89.67% accuracy/89.79% F1 for hate speech detection. Thai-specific hate speech detection benchmark with sentiment analysis. Addresses the gap in Thai language hate speech research. Relevant to toxicity and fairness evaluation in Thai."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness dataset for hate speech detection"
+data_metrics: "Not specified"
 ---
 # HateThaiSent: Sentiment-Aided Hate Speech Detection in Thai Language
 

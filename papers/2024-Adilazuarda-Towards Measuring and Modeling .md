@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "We present a survey of more than 90 recent papers that aim to study c
 paper_summary: "Abstract: We present a survey of more than 90 recent papers that aim to study cultural representa- tion and inclusion in large language models (LLMs). We observe that none of the studies explicitly define 'cult | Overview: Towards Measuring and Modeling 'Culture' in LLMs: A Survey Muhammad Farid Adilazuarda1∗, Sagnik Mukherjee1*, Pradhyumna Lavania2, Siddhant Singh2, Alham Fikri Aji1, Jacki O'Neill3, Ashutosh Modi2, Mon | Methodology: Scope of this survey is limited to the study of cul- tural representations within LLMs and LLM-based applications. Studies on culture in NLP that does | Conclusions: In this survey, we explored how language and cul- ture are connected and stressed the importance of LLMs' understanding of cultural differences. We ha"
 local_pdf: "[[PDFs/2024/2024-Adilazuarda-Towards Measuring and Modeling .pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Bartolo"
+DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Bartolo"
-DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 ---
 # Towards Measuring and Modeling "Culture" in LLMs: A Survey
 

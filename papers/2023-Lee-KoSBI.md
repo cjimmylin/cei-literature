@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,8 +31,10 @@ tags:
 abstract: "Large language models (LLMs) learn not only natural text generation abilities but also social biases against different demographic groups from real-world data. This poses a critical risk when deploying LLM-based applications. Existing research and resources are not readily applicable in South Korea due to the differences in language and culture, both of which significantly affect the biases and targeted demographic groups."
 pdf: "http://arxiv.org/pdf/2305.17701"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBI.md"
-local_pdf: [[PDFs/2023/2023-Lee-KoSBI.pdf]]
+local_pdf: "[[PDFs/2023/2023-Lee-KoSBI.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3, BERT"
+DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
-LLM_assessed: "GPT-3, BERT"
-DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"
 ---
 # KoSBI: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Applications
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "As AI systems become more capable, we would like to enlist their help
 paper_summary: "Abstract: As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self- improvement, without any hum | Overview: Constitutional AI: Harmlessness from AI Feedback Yuntao Bai∗, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon,  | Methodology: We will be experimenting with an extreme form of scaled supervision, which we refer to as Constitutional AI (CAI). The idea is that human supervision  | Key Findings: set of 254 such conversations, where we ask models to identify if the assistant's behavior was harmful or ethical. Note that the human was typically q | Conclusions: We have trained language assistants that are both helpful and harmless without using human feedback labels for harmlessness. We referred to the techni"
 local_pdf: "[[PDFs/2022/2022-Bai-Constitutional AI.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "InstructGPT, LaMDA"
+DATA_URL: "https://github.com/anthropics/ConstitutionalHarmlessnessPaper"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: "InstructGPT, LaMDA"
-DATA_URL: "https://github.com/anthropics/ConstitutionalHarmlessnessPaper"
 ---
 # Constitutional AI: Harmlessness from AI Feedback
 

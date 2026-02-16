@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "Moves beyond 'Western vs non-Western' to fine-grained national di
 tags: 
 abstract: "Do Large Language Models (LLMs) hold positions that conflict with your country’s values? Occasionally they do! However, existing works primarily focus on ethical reviews, failing to capture the diversity of national values, which encompass broader policy, legal, and moral considerations. Furthermore, current benchmarks that rely on spectrum tests using manually designed questionnaires are not easily scalable."
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
+DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
+pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
+local_pdf: "[[PDFs/2025/2025-Ju-NaVAB.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
-DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"
-pdf_extract: "PDF Extracts/2025/2025-Ju-NaVAB.md"
-local_pdf: [[PDFs/2025/2025-Ju-NaVAB.pdf]]
 ---
 # NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models
 

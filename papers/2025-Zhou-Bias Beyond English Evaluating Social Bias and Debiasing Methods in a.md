@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social 
 local_pdf: "[[PDFs/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Indonesian, Thai, Russian"
 cultures_nationalities_list: "Chinese, Indonesian, Thai, Russian"
 languages_list: Indonesian
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation methodology text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, Gemma, Gemma 3, Llama, LLaMA 3, LLaMA 3., Qwen, Qwen 2.5, Qwen2.5, RoBERTa, T5, gemma-3"
 DATA_URL: "NA"
 tags: 
 abstract: "This paper addresses the identification of social harms—including stereotypes and bias—which may be upsetting to some readers. Social bias in language models can potentially exacerbate social inequalities. Despite it having garnered wide attention, most research focuses on English data. In a low-resource scenario, the models often perform worse due to insufficient training data. This study aims to leverage high-resource language corpora to evaluate bias and experiment with debiasing methods in..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # Bias Beyond English: Evaluating Social Bias and Debiasing Methods in a Low-Resource Setting
 

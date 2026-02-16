@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ pdf_extract: "PDF Extracts/2021/2021-Levy-Collecting a Large-Scale Gender Bias D
 local_pdf: "[[PDFs/2021/2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.pdf]]"
 abstract: "Recent works have found evidence of gender bias in models of machine translation and coreference resolution using mostly synthetic diagnostic datasets. While these quantify bias in a controlled experiment, they often do so on a small scale and consist mostly of artiﬁcial, out-of-distribution sentences. In this work, we ﬁnd grammatical patterns indicating stereotypical and non-stereotypical gender-role assignments (e.g."
 DATE_ADDED: 20260208
+LLM_assessed: BERT
+DATA_URL: "https://github.com/SLAB-NLP/BUG"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: BERT
-DATA_URL: "https://github.com/SLAB-NLP/BUG"
 ---
 # Collecting a Large-Scale Gender Bias Dataset for Coreference Resolution and Machine Translation
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,20 +33,20 @@ significance: "Challenges the industry's rush toward standardized 'ethics scores
 tags: 
 abstract: "Benchmarks are seen as the cornerstone for measuring technical progress in artificial intelligence (AI) research and have been developed for a variety of tasks ranging from question answering to emotion recognition. An increasingly prominent research area in AI is ethics, which currently has no set of benchmarks nor commonly accepted way for measuring the 'ethicality' of an AI system. In this paper, drawing upon research in moral philosophy and metaethics, we argue that it is impossible to devel"
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "Machine Ethics"
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "BERT, GPT-3"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md"
 local_pdf: "[[PDFs/2025/2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark for moral/ethical reasoning"
+data_metrics: "Not specified"
 ---
 # Metaethical perspectives on ‘benchmarking’ AI ethics
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "Considerable advancements have been made in various NLP tasks based o
 paper_summary: "Abstract: Considerable advancements have been made in various NLP tasks based on the impressive power of large language models (LLMs) and many NLP applications are deployed in our daily lives. In this work, we  | Overview: Towards Answering Open-ended Ethical Quandary Questions Yejin Bang,1 Nayeon Lee,1 Tiezheng Yu,1 Leila Khalatbari,1 Yan Xu,1 Samuel Cahyawijaya,1 Dan Su,1 Bryan Wilie,1 Romain Barraud,1 Elham J. Barezi | Methodology: We conduct an experiment with LLMs with few-shot in- context prompt learning in ETHICAL QUANDARY GQA. Inspired by the characteristics of ethical quand | Key Findings: Q1: Can AISOCRATES answer from multiple perspec- tives? This aspect is of great interest in ETHICAL QUANDARY GQA. As shown in Figure 1, AISOCRATES pro | Conclusions: of responsible AI systems for open-ended questions by chal- lenging the capability of AI to provide relevant and nuanced answers to ethical quandary q"
 local_pdf: "[[PDFs/2023/2023-Bang-Towards Answering Open-ended Ethical Quandary.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT"
-DATA_URL: "NA"
 ---
 # Towards Answering Open-ended Ethical Quandary Questions
 

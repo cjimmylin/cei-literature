@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: arXiv
 local_pdf: "[[PDFs/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish, Dutch"
 cultures_nationalities_list: "Dutch, English, Spanish, Turkish"
 languages_list: "Dutch, English, Spanish, Turkish"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark for ai safety dataset"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-3.5, Llama-2, Mistral, Falcon, AYA, Zephyr, WizardLM"
 DATA_URL: "https://github.com/Veranep/MBBQ"
 tags: 
 abstract: "Generative large language models (LLMs) have been shown to exhibit harmful biases and stereotypes. While safety fine-tuning typically takes place in English, if at all, these models are being used by speakers of many different languages. There is existing evidence that the performance of these models is inconsistent across languages and that they discriminate based on demographic factors of the user."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Bias & Fairness"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for bias and fairness dataset"
+data_metrics: "Not specified"
 ---
 # MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs
 

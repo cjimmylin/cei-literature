@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/0000/2025-Xiong-BuddhismEval Bilingual Evaluation Ben
 local_pdf: "[[PDFs/2025/2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.pdf]]"
 publication: "Submitted to NeurIPS 2025 (under review)"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sri Lankan, Sinhala"
 languages_list: "English, Sinhala"
@@ -34,16 +33,20 @@ religious_values: "Buddhism"
 religious_values_list: "Buddhism"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: 
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "General Ethics"
 ---
 # BuddhismEval: Bilingual Evaluation Benchmark for Buddhist Ethics and Reasoning
 

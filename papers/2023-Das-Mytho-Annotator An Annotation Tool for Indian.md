@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,10 +31,6 @@ pdf_access_url: "https://doi.org/10.7717/peerj-cs.1617"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ICON 2023 (20th International Conference on Natural Language Processing)"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English"
@@ -39,16 +38,20 @@ religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "> Web-based NLP annotation tool for Hindu mythology texts, labelling named entities, relationships, and event entities. Enables creation of annotated corpora for complex information extraction from mythological texts. Foundational tool for Hindu mythology NLP research."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "> Web-based NLP annotation tool for Hindu mythology texts, labelling named entities, relationships, and event entities. Enables creation of annotated corpora for complex information extraction from mythological texts. Foundational tool for Hindu mythology NLP research."
-data_description: "Dataset"
+data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-research_topic: "Other"
 ---
 # Mytho-Annotator: An Annotation Tool for Indian Hindu Mythology
 

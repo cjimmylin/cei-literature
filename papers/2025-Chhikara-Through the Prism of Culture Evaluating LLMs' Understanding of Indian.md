@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / FAccT 2025
 local_pdf: "[[PDFs/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.md"
 DATE_ADDED: 20260215
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian"
 languages_list: ""
@@ -31,16 +30,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, GPT-4o-mini, Llama-3.3-70B, Mixtral-8x7B, Gemini-1.5-Flash"
 DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable advancements but also raise concerns about cultural bias, often reflecting dominant narratives at the expense of underrepresented subcultures. In this study, we evaluate the capacity of LLMs to recognize and accurately respond to the Little Traditions within Indian society, encompassing localized cultural practices and social institutions such as caste, kinship, marriage, and religion."
 ethics_perspective: "Social & Cultural Values"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Through the Prism of Culture: Evaluating LLMs' Understanding of Indian Subcultures and Traditions
 

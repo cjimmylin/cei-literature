@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +36,18 @@ abstract: "With the development of large language models (LLMs), striking a bala
 paper_summary: 
 local_pdf: "[[PDFs/2023/2023-Dai-Safe RLHF.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Alpaca, Llama"
+DATA_URL: "https://github.com/PKU-Alignment/safe-rlhf"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation methodology"
-data_metrics: "Not specified"
-LLM_assessed: "Alpaca, Llama"
-DATA_URL: "https://github.com/PKU-Alignment/safe-rlhf"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Safe RLHF
 

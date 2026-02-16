@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ publication: "arXiv / NoDaLiDa 2023"
 pdf_extract: "PDF Extracts/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.md"
 local_pdf: "[[PDFs/2023/2023-Nielsen-ScandEval A Benchmark for Scandinavian Natural Language Processing.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Scandinavian"
 languages_list: "Danish, Faroese, Icelandic, Norwegian, Swedish"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "NB-BERT, KB-BERT, DFM-encoder, RemBERT, mDeBERTaV3, Scandinavian BERT variants"
 DATA_URL: "https://github.com/saattrupdan/ScandEval"
 tags: 
 abstract: "This paper introduces a Scandinavian benchmarking platform, ScandEval, which can benchmark any pretrained model on four different tasks in the Scandinavian languages. The datasets used in two of the tasks, linguistic acceptability and question answering, are new. We develop and release a Python package and command-line interface, scandeval, which can benchmark any model that has been uploaded to the Hugging Face Hub, with reproducible results."
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset for question answering"
+data_metrics: "Not specified"
 ---
 # ScandEval: A Benchmark for Scandinavian Natural Language Processing
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: arXiv / ACL Anthology (ACL 2025 Findings)
 local_pdf: "[[PDFs/2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Korean"
 languages_list: "English, Korean"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "247 questions"
 LLM_assessed: "HyperCLOVA-X, GPT-3.5-Turbo, Gemini-1.5-Pro, Claude-3-Opus, Claude-3-Sonnet, Mistral-Large, Qwen-2.5-7B, EXAONE-3.0-7.8B, Mistral-7B, KULLM-v3, Llama-3-8B, Llama-3.1-8B"
 DATA_URL: "https://github.com/koreankiwi99/Nunchi-Bench"
 tags: 
 abstract: "As large language models (LLMs) become key advisors in various domains, their cultural sensitivity and reasoning skills are crucial in multicultural environments. We introduce Nunchi-Bench, a benchmark designed to evaluate LLMs’ cultural understanding, with a focus on Korean superstitions. The benchmark consists of 247 questions spanning 31 topics, assessing factual knowledge, culturally appropriate advice, and situational interpretation."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "247 questions"
 ---
 # Nunchi-Bench: Benchmarking Language Models on Cultural Reasoning with a Focus on Korean Superstition
 

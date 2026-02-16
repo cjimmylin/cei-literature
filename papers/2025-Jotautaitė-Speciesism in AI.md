@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,6 +32,8 @@ significance: "Expands the 'moral circle' of AI evaluations to non-human animals
 tags: 
 abstract: "As large language models (LLMs) become more widely deployed, it is crucial to examine their ethical tendencies. Building on research on fairness and discrimination in AI, we investigate whether LLMs exhibit speciesist bias—discrimination based on species membership— and how they value non‑human animals. We systematically examine this issue across three paradigms: (1) SpeciesismBench, a 1,003‑item benchmark assessing recognition and moral evaluation of speciesist statements; (2) established..."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, o1, o3, Claude, Llama-3, Gemini, DeepSeek, Grok, Qwen"
+DATA_URL: "https://osf.io/69epv"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -39,8 +44,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-3.5, GPT-4, ChatGPT, o1, o3, Claude, Llama-3, Gemini, DeepSeek, Grok, Qwen"
-DATA_URL: "https://osf.io/69epv"
 ---
 # Speciesism in AI: Evaluating Discrimination Against Animals in Large Language Models
 

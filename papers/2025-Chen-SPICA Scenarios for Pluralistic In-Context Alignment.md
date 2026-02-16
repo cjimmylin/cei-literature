@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ external_pdf: "https://arxiv.org/pdf/2411.10912.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Chen-SPICA Scenarios for Pluralistic In-Context Alignment.pdf]]"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "When different groups’ values differ, one approach to model alignment is to steer models at inference time towards each group’s preferences. However, techniques like in-context learning only consider similarity when drawing few-shot examples and not cross-group differences in values. We propose SPICA, a framework that accounts for group-level differences during in-context example retrieval. SPICA introduces three designs: scenario banks, groupinformed retrieval metrics, and in-context alignment..."
+LLM_assessed: "GPT-4o, Llama3"
+DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "When different groups’ values differ, one approach to model alignment is to steer models at inference time towards each group’s preferences. However, techniques like in-context learning only consider similarity when drawing few-shot examples and not cross-group differences in values. We propose SPICA, a framework that accounts for group-level differences during in-context example retrieval. SPICA introduces three designs: scenario banks, groupinformed retrieval metrics, and in-context alignment..."
-ethics_perspective: "AI Safety & Alignment"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, Llama3"
-DATA_URL: "https://github.com/Social-Futures-Lab/SPICA-code"
 ---
 # SPICA (Scenarios for Pluralistic In-Context Alignment)
 

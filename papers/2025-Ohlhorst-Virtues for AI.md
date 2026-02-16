@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: false
 Not AI: 
 key: AUTO_OHLHORST2025
@@ -28,17 +30,17 @@ significance: "Expands virtue ethics for AI beyond narrow Aristotelian moral vir
 external_pdf: N/A
 abstract: "Virtue theory is a natural approach toward designing AI systems, given that AI design essentially aims at creating agents with excellent dispositions. This has led to research on artificial virtues, though this program has focused narrowly on moral virtues in an Aristotelian mould, which unduly constrains possibilities. Drawing on philosophical tradition, the paper proposes a three-dimensional classification system of possible artificial virtues based on: the domain in which virtue is an excellence, the norm that makes a virtue an excellence, and the mode of how the virtue delivers the excellence."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "Yes"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Virtues for AI
 

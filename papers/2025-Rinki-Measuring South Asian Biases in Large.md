@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Rinki-Measuring South Asian Biases in Large
 local_pdf: "[[PDFs/2025/2025-Rinki-Measuring South Asian Biases in Large.pdf]]"
 publication: "WebSearch: South Asian biases LLM"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "South Asian, Indian, Pakistani, Bangladeshi, Sri Lankan"
 languages_list: "Multilingual"
@@ -33,17 +32,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Evaluations of Large Language Models (LLMs) often overlook intersectional and culturally specific biases, particularly in underrepresented multilingual regions like South Asia. This work addresses these gaps by conducting a multilingual and intersectional analysis of LLM outputs across 10 Indo-Aryan and Dravidian languages, identifying how cultural stigmas influenced by purdah and patriarchy are reinforced in generative tasks."
+LLM_assessed: "Gemma"
+DATA_URL: "https://huggingface.co/Telugu-LLM-Labs/Indic-"
+research_topic: "Other"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "Evaluations of Large Language Models (LLMs) often overlook intersectional and culturally specific biases, particularly in underrepresented multilingual regions like South Asia. This work addresses these gaps by conducting a multilingual and intersectional analysis of LLM outputs across 10 Indo-Aryan and Dravidian languages, identifying how cultural stigmas influenced by purdah and patriarchy are reinforced in generative tasks."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "Gemma"
-DATA_URL: "https://huggingface.co/Telugu-LLM-Labs/Indic-"
-ethics_perspective: "Bias & Fairness"
-research_topic: "Other"
 ---
 # Measuring South Asian Biases in Large Language Models
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ pdf: "http://arxiv.org/pdf/2411.09612"
 pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-3, Qwen"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Qwen"
-DATA_URL: "NA"
 ---
 # The Moral Foundations Weibo Corpus
 

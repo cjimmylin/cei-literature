@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +34,9 @@ pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Alignment for LLM Agents.md"
 abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. While their applications are currently rather specialized, several research efforts are underway to develop more generalist agents. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital."
 paper_summary: 
 local_pdf: "[[PDFs/2025/2025-Tennant-Moral Alignment for LLM Agents.pdf]]"
+LLM_assessed: Gemma
+DATA_URL: "https://github.com/liza-tennant/LLM_morality"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -41,9 +46,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: Gemma
-DATA_URL: "https://github.com/liza-tennant/LLM_morality"
-DATE_ADDED: 20260207
 ---
 # Moral Alignment for LLM Agents
 

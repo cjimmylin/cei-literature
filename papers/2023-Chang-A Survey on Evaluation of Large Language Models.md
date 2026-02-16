@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,19 +37,19 @@ abstract: "Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson,
 paper_summary: "Abstract: Reasoners. arXiv preprint arXiv:2305.19555 (2023). [57] Aidan Gilson, Conrad W Safranek, Thomas Huang, Vimig Socrates, Ling Chi, Richard Andrew Taylor, David Chartash, et al. 2023. How does CHATGPT pe | Overview: 111 A Survey on Evaluation of Large Language Models YUPENG CHANG∗and XU WANG∗, School of Artificial Intelligence, Jilin University, China JINDONG WANG†, Microsoft Research Asia, China YUAN WU†, School | Methodology: References Human-in-the-loop AdaVision [50], AdaTest [164] Crowd-sourcing testing DynaBench [94], DynaBoard [132], DynamicTempLAMA [135], DynaTask [18 | Key Findings: What to evaluate (Sec. 3) Natural language processing Natural language understanding: (1) Sentiment analysis: Bang et al. [6]/ Liang et al. [114]/ Lop | Conclusions: Evaluation carries profound significance, becoming imperative in the advancement of AI models, especially within the context of large language models."
 local_pdf: "[[PDFs/2023/2023-Chang-A Survey on Evaluation of Large Language Models.pdf]]"
 DATE_ADDED: 20260208
-ethics_overall: "No"
+LLM_assessed: "ALBERT, BERT, BLOOM, Bart, Bartolo, ChatGPT, Claude, Claude 1, Claude 2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, Llama2, Llama2., RoBERTa, Vicuna, text-davinci-002"
+DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
+research_topic: "Other"
+ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "General Ethics"
-is_benchmark: "No"
+is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "No"
-data_description: "Evaluation approach"
+data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "ALBERT, BERT, BLOOM, Bart, Bartolo, ChatGPT, Claude, Claude 1, Claude 2, GPT-3, GPT-3.5, GPT-4, InstructGPT, Llama, Llama2, Llama2., RoBERTa, Vicuna, text-davinci-002"
-DATA_URL: "https://github.com/MLGroupJLU/LLM-eval-survey"
-research_topic: "Other"
 ---
 # A Survey on Evaluation of Large Language Models
 

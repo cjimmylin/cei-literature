@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,10 +31,6 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"
 languages_list: Vietnamese
@@ -39,16 +38,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/kietnv/uit-vsfc"
 tags: 
 abstract: "16,000+ human-annotated Vietnamese sentences for sentiment-based and topic-based classification. 91.20% inter-annotator agreement for sentiment task. Used in SEA-HELM as Vietnamese sentiment benchmark."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Benchmark annotated dataset"
+data_metrics: "Not specified"
 ---
 # UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis
 

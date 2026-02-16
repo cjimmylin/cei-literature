@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2025/2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.md"
 local_pdf: "[[PDFs/2025/2025-Li-Chinese dialect speech recognition a comprehensive survey Artificial.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Cantonese, Chinese, Hakka, Min"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "As a multi-ethnic country with a large population, China is endowed with diverse dialects, which brings considerable challenges to speech recognition work. In fact, due to geographical location, population migration, and other factors, the research progress and practical application of Chinese dialect speech recognition are currently at different stages. Therefore, exploring the significant regional heterogeneities in specific recognition approaches and effects, dialect corpus, and other..."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Machine Learning"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "As a multi-ethnic country with a large population, China is endowed with diverse dialects, which brings considerable challenges to speech recognition work. In fact, due to geographical location, population migration, and other factors, the research progress and practical application of Chinese dialect speech recognition are currently at different stages. Therefore, exploring the significant regional heterogeneities in specific recognition approaches and effects, dialect corpus, and other..."
-research_topic: "Machine Learning"
 ---
 # Chinese dialect speech recognition: a comprehensive survey | Artificial Intelligence Review
 

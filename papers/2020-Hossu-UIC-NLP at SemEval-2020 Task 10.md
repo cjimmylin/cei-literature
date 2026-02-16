@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,8 @@ abstract: "In this work we describe and analyze a supervised learning system for
 pdf_extract: "PDF Extracts/2020/2020-Hossu-UIC-NLP at SemEval-2020 Task 10.md"
 local_pdf: "[[PDFs/2020/2020-Hossu-UIC-NLP at SemEval-2020 Task 10.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "ELMo, GloVe, Word2Vec"
+DATA_URL: "NA"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "ELMo, GloVe, Word2Vec"
-DATA_URL: "NA"
 ---
 # UIC-NLP at SemEval-2020 Task 10: Exploring an Alternate Perspective on Evaluation
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,18 +34,18 @@ paper_summary: "Overview: 2024-9-4 The AI Scientist: Towards Fully Automated Ope
 local_pdf: "[[PDFs/2024/2024-Lu-The AI Scientist.pdf]]"
 abstract: "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aides to human scientists, e.g. for brainstorming ideas, writing code, or prediction tasks, they still conduct only a small part of the scientific process. This paper presents the first comprehensive framework for fully automatic scientific discovery, enabling frontier large language models to"
 DATE_ADDED: 20260208
+LLM_assessed: "Claude, GPT-4, DeepSeek, Llama-3"
+DATA_URL: "https://github.com/SakanaAI/AI-Scientist"
 ethics_overall: "No"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
-research_topic: "Other"
+research_topic: "Machine Learning"
 is_benchmark: "No"
-is_eval: "No"
+is_eval: "Yes"
 is_dataset: "No"
-data_description: "N/A"
+data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "Claude, GPT-4, DeepSeek, Llama-3"
-DATA_URL: "https://github.com/SakanaAI/AI-Scientist"
 ---
 # The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
 

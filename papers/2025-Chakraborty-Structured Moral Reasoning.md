@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,23 +32,23 @@ key_contribution: "Shows structured prompting with explicit moral frameworks imp
 significance: "Practical methodology for improving LLM moral reasoning through value-grounded prompting"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in domains requiring moral understanding, yet their reasoning often remains shallow, and misaligned with human reasoning (Jiang et al., 2021). Unlike humans, whose moral reasoning integrates contextual trade-offs, value systems, and ethical theories, LLMs often rely on surface patterns, leading to biased decisions in morally and ethically complex scenarios."
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 research_topic: "LLM Moral Reasoning"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Benchmark for moral/ethical reasoning dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Llama-3, Llama-2, Mistral, Qwen, Phi"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Structured Moral Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chakraborty-Structured Moral Reasoning.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260213
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework
 

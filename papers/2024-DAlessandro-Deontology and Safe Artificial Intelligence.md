@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +35,18 @@ significance: "Critical analysis challenging assumption that moral alignment aut
 tags: 
 abstract: "The ﬁeld of AI safety aims to prevent increasingly capable artiﬁcially intelligent systems from causing humans harm. Research on moral alignment is widely thought to oﬀer a promising safety strategy: if we can equip AI systems with appropriate ethical rules, according to this line of thought, they’ll be unlikely to disempower, destroy or otherwise seriously harm us. Deontological morality looks like a particularly attractive candidate for an alignment target, given its popularity, relative..."
 DATE_ADDED: 20260208
+research_topic: "AI Safety & Alignment"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
 utilitarian_ethics: "No"
-research_topic: "AI Safety & Alignment"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
 ---
 # Deontology and safe artificial intelligence
 

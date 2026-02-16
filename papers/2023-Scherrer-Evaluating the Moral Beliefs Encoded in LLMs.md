@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +36,8 @@ abstract: "This paper presents a case study on the design, administration, post-
 paper_summary: "Abstract: This paper presents a case study on the design, administration, post-processing, and evaluation of surveys on large language models (LLMs). It comprises two components: (1) A statistical method for el | Overview: Evaluating the Moral Beliefs Encoded in LLMs Warning: This paper contains moral scenarios which are controversial and offensive in nature. Nino Scherrer ∗1, Claudia Shi ∗1,2, Amir Feder 2, and David M"
 local_pdf: "[[PDFs/2023/2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, PaLM-2, Flan-T5, BLOOM, OPT"
+DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -43,8 +48,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, GPT-3.5, text-davinci, Claude, PaLM-2, Flan-T5, BLOOM, OPT"
-DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 ---
 # Evaluating the Moral Beliefs Encoded in LLMs
 

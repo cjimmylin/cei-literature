@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,10 +30,6 @@ pdf_access_url: "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ResearchGate / IOS Press"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali"
 languages_list: "Nepali"
@@ -38,16 +37,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Large-scale Nepali hate speech dataset focused on political discourse and community targeting."
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/shucoll/NEHate"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Large-scale Nepali hate speech dataset focused on political discourse and community targeting."
-data_description: "Dataset"
+data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://github.com/shucoll/NEHate"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # NEHATE: Large-Scale Annotated Data Shedding Light on Hate Speech in Nepali Local Election Discourse
 

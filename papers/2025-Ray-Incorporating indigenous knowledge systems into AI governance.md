@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -24,10 +27,6 @@ publication: Springer
 pdf_extract: "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md"
 local_pdf: "[[PDFs/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "Yes"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Māori, Navajo"
 languages_list: "Maori, Navajo"
@@ -35,16 +34,20 @@ religious_values: "Indigenous Spirituality"
 religious_values_list: "Indigenous Spirituality"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
+tags: 
+abstract: "This paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame­ works through a comparative analysis of Māori Kaitiakitanga and Navajo Hózhó principles. While prior research empha­ sizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into AI governance. The study proposes culturally relevant AI governance frameworks by highlighting the unique contribu­ tions of each..."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-tags: 
-abstract: "This paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame­ works through a comparative analysis of Māori Kaitiakitanga and Navajo Hózhó principles. While prior research empha­ sizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into AI governance. The study proposes culturally relevant AI governance frameworks by highlighting the unique contribu­ tions of each..."
-ethics_perspective: "Responsible AI"
 ---
 # Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link
 

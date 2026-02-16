@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,6 +38,8 @@ paper_summary: "Overview: Introduction to AI Safety, Ethics, and Society This is
 local_pdf: "[[PDFs/2024/2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.pdf]]"
 abstract: "Artificial Intelligence is rapidly embedding itself within militaries, economies, and societies, reshaping their very foundations. Given the depth and breadth of its consequences, it has never been more pressing to understand how to ensure that AI systems are safe, ethical, and have a positive societal impact. This book aims to provide a comprehensive approach to understanding AI risk. Our primary goals include consolidating fragmented knowledge on AI risk, increasing the precision of core ideas"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, ChatGPT, GPT-4, Llama-2"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -45,8 +50,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, ChatGPT, GPT-4, Llama-2"
-DATA_URL: "NA"
 ---
 # Introduction to AI Safety, Ethics, and Society
 

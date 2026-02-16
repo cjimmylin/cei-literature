@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ pdf_extract: "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.
 local_pdf: "[[PDFs/2025/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
 publication: "WebSearch: MATA Telugu benchmark"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Telugu"
 languages_list: "Telugu"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "In this paper, we introduce MATA, a novel evaluation dataset to assess the ability of Large Language Models (LLMs) in Telugu language, comprising 729 carefully curated multiple-choice and open-ended questions that span diverse linguistic dimensions. We evaluate 11 openweight and closed-source LLMs on our dataset and present a fine-grained analysis of their performance. Further, we empirically show how LLMs rely on superficial heuristics such as answer position and distractor patterns for..."
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Sonnet, Claude-Sonnet, GPT-4, GPT-4o, Gemma, Gemma3, Grok3, Llama, LLaMA3, LLaMA3.3, Qwen3"
 DATA_URL: "NA"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Machine Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark dataset"
+data_metrics: "Not specified"
 ---
 # MATA (mata): Mindful Assessment of the Telugu Abilities of Large Language Models
 

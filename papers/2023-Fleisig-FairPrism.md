@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,9 +30,11 @@ key_contribution: "Introduced FairPrism, a dataset of 5k AI-generated texts with
 significance: "Provides a granular taxonomy of *how* AI harms marginalized groups, moving beyond 'toxic' labels to specific harm types (e.g., erasure, fetishization) essential for targeted mitigation."
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Fleisig-FairPrism.md"
-local_pdf: [[PDFs/2023/2023-Fleisig-FairPrism.pdf]]
+local_pdf: "[[PDFs/2023/2023-Fleisig-FairPrism.pdf]]"
 abstract: "It is critical to measure and mitigate fairnessrelated harms caused by AI text generation systems, including stereotyping and demeaning harms. To that end, we introduce FairPrism, a dataset of 5,000 examples of AI-generated English text with detailed human annotations covering a diverse set of harms relating to gender and sexuality. FairPrism aims to address several limitations of existing datasets for measuring and mitigating fairness-related harms, including improved transparency, clearer..."
 DATE_ADDED: 20260208
+LLM_assessed: "InstructGPT, GPT-3, GPT-2, XLNet"
+DATA_URL: "https://github.com/microsoft/fairprism"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,8 +45,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "5,000 examples"
-LLM_assessed: "InstructGPT, GPT-3, GPT-2, XLNet"
-DATA_URL: "https://github.com/microsoft/fairprism"
 ---
 # FairPrism: Evaluating Multilingual Models for Unfairness and Toxicity
 

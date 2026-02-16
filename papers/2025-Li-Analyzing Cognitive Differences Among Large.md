@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,6 +37,8 @@ abstract: "Large Language Models significantly influence social interactions, de
 paper_summary: "Abstract: Large Language Models significantly influence so- cial interactions, decision-making, and information dissemination, underscoring the need to understand the implicit socio-cognitive attitudes, referre | Overview: Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview Jiatao Li1,2 , Yanheng Li3 , Xiaojun Wan1 1Wangxuan Institute of Computer Technology, Peking University | Methodology: Inter-Agent Validation Accuracy The inter-agent validation accuracy is calculated by comparing automated categorization | Key Findings: of socio-cognitive biases in large language models. Leverag- ing our novel Automated Multi-Agent Prompting Framework, we operationalized and assessed  | Conclusions: We introduced the Social Worldview Taxonomy (SWT), grounded in Cultural Theory, enabling systematic evaluation of socio-cognitive biases in large lang"
 local_pdf: "[[PDFs/2025/2025-Li-Analyzing Cognitive Differences Among Large.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, DeepSeek, Phi"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, Qwen, Llama-3, Gemma, DeepSeek, Phi"
-DATA_URL: "NA"
 ---
 # Analyzing Cognitive Differences Among Large Language Models through the Lens of Social Worldview
 

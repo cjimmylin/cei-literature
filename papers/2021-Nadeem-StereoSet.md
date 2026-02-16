@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +35,10 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Nadeem-StereoSet.md"
 abstract: "A stereotype is an over-generalized belief about a particular group of people, e.g., Asians are good at math or Asians are bad drivers. Such beliefs (biases) are known to hurt target groups. Since pretrained language models are trained on large real world data, they are known to capture stereotypical biases. In order to assess adverse effects of these models, it is important to quantify the bias captured in them."
 paper_summary: "Abstract: A stereotype is an over-generalized belief about a particular group of people, e.g., Asians are good at math or Asians are bad drivers. Such beliefs (biases) are known to hurt tar- get groups. Since p | Overview: StereoSet: Measuring stereotypical bias in pretrained language models Moin Nadeem§∗and Anna Bethke† and Siva Reddy‡ §Massachusetts Institute of Technology, Cambridge MA, USA †Intel AI, Santa Clara CA, | Conclusions: Table 4 shows the overall results of baselines and models on StereoSet. Baselines vs. Models As seen in Table 4, all pretrained models have higher lms"
-local_pdf: [[PDFs/2021/2021-Nadeem-StereoSet.pdf]]
+local_pdf: "[[PDFs/2021/2021-Nadeem-StereoSet.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GPT-2, RoBERTa, XLNet"
+DATA_URL: "https://stereoset.mit.edu"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -44,8 +49,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GPT-2, RoBERTa, XLNet"
-DATA_URL: "https://stereoset.mit.edu"
 ---
 # StereoSet: Measuring stereotypical bias in pretrained language models
 

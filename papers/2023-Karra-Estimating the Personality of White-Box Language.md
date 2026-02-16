@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,6 +35,8 @@ abstract: "Technology for open-ended language generation, a key application of a
 paper_summary: "Abstract: Technology for open-ended language generation, a key application of artiﬁcial in- telligence, has advanced to a great extent in recent years. Large-scale language models, which are trained on large co | Overview: Estimating the Personality of White-Box Language Models Saketh Reddy Karraa, Son The Nguyena, Theja Tulabandhulaa aUniversity of Illinois Chicago, Chicago, United States Abstract Technology for open-e | Methodology: described in Section 4. 4 --- Page 5 --- | Conclusions: In this paper, we developed approaches to quantify the personality traits of datasets and language models designed for open-ended text generation. We"
 local_pdf: "[[PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-2, GPT-3, GPT-3.5, Llama, XLNet"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -42,8 +47,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-2, GPT-3, GPT-3.5, Llama, XLNet"
-DATA_URL: "NA"
 ---
 # Estimating the Personality of White-Box Language Models
 

@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Soci
 local_pdf: "[[PDFs/2024/2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.pdf]]"
 publication: "ACL 2024"
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Hindi"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Warning: This paper contains examples and case studies that may be offensive. The pervasive influence of social biases in language data has sparked the need for benchmark datasets that capture and evaluate these biases in Large Language Models (LLMs). Existing efforts predominantly focus on English language and the Western context, leaving a void for a reliable dataset that encapsulates India’s unique socio-cultural nuances."
+LLM_assessed: "Llama-2, Mistral, BLOOM, T5"
+DATA_URL: "https://github.com/sahoonihar/IndiBias"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "Yes"
 is_eval: "Yes"
 is_dataset: "Yes"
-tags: 
-abstract: "Warning: This paper contains examples and case studies that may be offensive. The pervasive influence of social biases in language data has sparked the need for benchmark datasets that capture and evaluate these biases in Large Language Models (LLMs). Existing efforts predominantly focus on English language and the Western context, leaving a void for a reliable dataset that encapsulates India’s unique socio-cultural nuances."
-ethics_perspective: "Bias & Fairness"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-2, Mistral, BLOOM, T5"
-DATA_URL: "https://github.com/sahoonihar/IndiBias"
 ---
 # IndiBias -- Benchmark Dataset for Social Biases in Indian Context
 

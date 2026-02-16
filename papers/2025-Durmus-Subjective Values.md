@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: Web
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multilingual/Cross-cultural"
 languages_list: Multilingual
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "https://llmglobalvalues.anthropic.com/"
 tags: 
 abstract: "Based on the search results, I found several relevant research papers and projects on World Values Survey LLM evaluation in multilingual contexts: Key Research Areas Multilingual and Multicultural LLM Evaluation: Increased multilingual capabilities do not guarantee improved cultural alignment in Large Language Models, with the relationship between improvements in multilingual capability and cultural alignment being complex. One evaluation framework enables principled statistical compar"
-ethics_perspective: "General Ethics"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Social & Cultural Values"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation framework"
+data_metrics: "Not specified"
 ---
 # Subjective Values
 

@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ publication: ResearchGate
 pdf_extract: "PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md"
 local_pdf: "[[PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"
 languages_list: "Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, Welsh"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation methodology dataset"
+data_metrics: "Not specified"
 ---
 # Decolonizing African NLP: A Survey on Power Dynamics and Data Colonialism in Tech Development
 

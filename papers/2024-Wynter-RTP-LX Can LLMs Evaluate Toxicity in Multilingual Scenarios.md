@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in
 local_pdf: "[[PDFs/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Hebrew/Israeli"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Israeli"
 languages_list: "Arabic, Chinese, Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Thai, Turkish, Ukrainian, Vietnamese"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Evaluation approach annotated dataset for toxicity detection"
-data_metrics: "28 languages"
 LLM_assessed: "ChatGPT, GPT-4, GPT-4 Turbo, Gemma, Llama, Llama Guard, Llama 2, Llama 3, Llama-2, Llama-3, LlamaGuard, Mistral, Mistral-7B, Mistral-v2, Mistral-v3, MistralAI, gpt-4-turbo"
 DATA_URL: "https://github.com/microsoft/RTP-LX"
 tags: 
 abstract: "Warning: This paper contains and discusses content that may be offensive or upsetting. Large language models (LLMs) and small language models (SLMs) are being adopted at remarkable speed, although their safety still remains a serious concern. With the advent of multilingual S/LLMs, the question now becomes a matter of scale: can we expand multilingual safety evaluations of these models with the same velocity at which they are deployed?"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "Toxicity & Hate Speech"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach text corpus for toxicity detection"
+data_metrics: "28 languages"
 ---
 # RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?
 

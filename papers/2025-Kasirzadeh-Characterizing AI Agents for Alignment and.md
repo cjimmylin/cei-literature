@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -28,20 +31,20 @@ significance: "Provides a vocabulary for regulators to classify 'Agents' distinc
 tags: 
 abstract: "Recent discussions and research in AI safety have increasingly emphasized the deep connection between AI safety and existential risk from advanced AI systems, suggesting that work on AI safety necessarily entails serious consideration of potential existential threats. However, this framing has three potential drawbacks: it may exclude researchers and practitioners who are committed to AI safety but approach the field from different angles; it could lead the public to mistakenly view AI safety..."
 DATE_ADDED: 20260208
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
-ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Evaluation approach"
-data_metrics: "Not specified"
 LLM_assessed: "NA"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.md"
 local_pdf: "[[PDFs/2025/2025-Kasirzadeh-Characterizing AI Agents for Alignment and.pdf]]"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Responsible AI"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Characterizing AI Agents for Alignment and Governance
 

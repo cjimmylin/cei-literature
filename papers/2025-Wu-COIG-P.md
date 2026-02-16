@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,20 +32,20 @@ pdf_extract: "PDF Extracts/0000/2025-Wu-COIG-P.md"
 abstract: "Aligning large language models (LLMs) with human preferences has achieved remarkable success. However, existing Chinese preference datasets are limited by small scale, narrow domain coverage, and lack of rigorous data validation. Additionally, the reliance on human annotators for instruction and response labeling significantly constrains the scalability of human preference datasets. To address these challenges, we design an LLM-based Chinese preference dataset annotation pipeline with no human i"
 paper_summary: "Abstract: Aligning large language models (LLMs) with human preferences has achieved remarkable success. However, existing Chinese preference datasets are limited by small scale, narrow domain coverage, and lack | Overview: M-A-P COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values M-A-P, 2077AI Abstract Aligning large language models (LLMs) with human preferences has achieved | Key Findings: models may favor responses that resemble their own outputs [Li et al., 2024a, Liu et al., 2024b]. Furthermore, even in LLM-driven pipelines, certain s | Conclusions: 13 8 Contributions and Acknowledgments 15 A Prompts 21 B Open-source datasets 22 C Examples 24 2 --- Page 3 ---"
 local_pdf: "[[PDFs/2025/2025-Wu-COIG-P.pdf]]"
+LLM_assessed: "GPT-4o, GPT-3.5, Claude, DeepSeek, Qwen, Gemini"
+DATA_URL: "https://github.com/multimodal-art-projection/COIG-P"
+publication: arXiv
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "No"
+is_benchmark: "Yes"
+is_eval: "Yes"
 is_dataset: "Yes"
-data_description: "Dataset"
+data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4o, GPT-3.5, Claude, DeepSeek, Qwen, Gemini"
-DATA_URL: "https://github.com/multimodal-art-projection/COIG-P"
-publication: arXiv
-DATE_ADDED: 20260207
 ---
 # COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values
 

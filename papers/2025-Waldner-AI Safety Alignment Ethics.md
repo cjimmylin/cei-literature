@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: false
 Not AI: 
 key: AUTO_WALDNER2025
@@ -28,17 +31,18 @@ significance: "Comprehensive framework viewing moral norms through evolutionary 
 external_pdf: "https://arxiv.org/pdf/2509.24065"
 abstract: "This work examines how to embed ethical principles directly into AI systems by viewing moral norms through an evolutionary lens. Rather than applying ethics as an afterthought, the author proposes a framework connecting moral representation learning with system design and governance. The research employs neural network techniques like sparse autoencoders and activation steering to encode cooperative norms as learnable representations, then applies game theory and replicator dynamics to model how these representations can shape institutional incentives for maintaining human-AI cooperation as AI capabilities advance. Virtue ethics offers a complementary paradigm that reframes alignment not as outcome optimization but as character formation - instead of selecting actions by maximizing scalar utilities, a virtue-guided system is shaped to maintain stable dispositions like honesty, courage, generosity, and prudence."
 DATE_ADDED: 20260208
-ethics_overall: No
-virtue_ethics: Yes
-deontological_ethics: No
-utilitarian_ethics: No
-is_benchmark: No
-is_eval: No
-is_dataset: No
-data_description: N/A
-data_metrics: N/A
 LLM_assessed: "NA"
 DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "No"
+data_description: "N/A"
+data_metrics: "Not specified"
 ---
 # Open Opportunities in AI Safety, Alignment, and Ethics (AI SAE)
 

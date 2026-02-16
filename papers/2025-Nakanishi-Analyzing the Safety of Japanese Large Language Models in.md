@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -19,10 +22,6 @@ pdf_extract: "PDF Extracts/2025/2025-Nakanishi-Analyzing the Safety of Japanese 
 local_pdf: "[[PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260207
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese, Japanese"
 cultures_nationalities_list: "Chinese, Japanese"
 languages_list: "Chinese, English, Japanese"
@@ -30,16 +29,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "In recent years, Large Language Models (LLMs) have attracted growing interest for their significant potential, though concerns have rapidly emerged regarding unsafe behaviors stemming from inherent stereotypes and biases. Most research on stereotypes in LLMs has primarily relied on indirect evaluation setups, in which models are prompted to select between pairs of sentences associated with particular social groups."
+LLM_assessed: "Gemma, Qwen"
+DATA_URL: "https://github.com/momijiro/stereotype_japanese_llm"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "No"
-tags: 
-abstract: "In recent years, Large Language Models (LLMs) have attracted growing interest for their significant potential, though concerns have rapidly emerged regarding unsafe behaviors stemming from inherent stereotypes and biases. Most research on stereotypes in LLMs has primarily relied on indirect evaluation setups, in which models are prompted to select between pairs of sentences associated with particular social groups."
-ethics_perspective: "Bias & Fairness"
 data_description: "Evaluation methodology"
 data_metrics: "3,612 prompts"
-LLM_assessed: "Gemma, Qwen"
-DATA_URL: "https://github.com/momijiro/stereotype_japanese_llm"
 ---
 # Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts
 

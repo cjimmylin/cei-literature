@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ publication: ACL Anthology (Findings of ACL 2025)
 local_pdf: "[[PDFs/2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.md"
 DATE_ADDED: 20260215
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew, Israeli"
 languages_list: "Hebrew"
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "Gemma-9B, Dicta-LM-2.0, GPT-4o, LongHero"
 DATA_URL: "https://github.com/oriel9p/lchaim.git"
 tags: 
 abstract: "Hebrew NLI evaluation dataset with 8,325 context-hypothesis pairs requiring coreferential, temporal, logical and analytical reasoning. LLMs like DictaLM-2.0 and GPT-4o achieve max 60.12% vs human performance of ~87%. Tests Hebrew cultural-linguistic reasoning."
-research_topic: "Other"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "Social & Cultural Analysis"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Evaluation approach dataset"
+data_metrics: "Not specified"
 ---
 # LCHAIM - Investigating Long Context Reasoning in Hebrew
 

@@ -4,6 +4,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,6 +35,9 @@ key_contribution: "Introduces a methodology to assess 'moral competence' focusin
 significance: "Shows LLMs fail at discerning relevant features when noise is present, suggesting current evaluations overestimate their true moral competence"
 abstract: "Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing interest in evaluating this ability empirically. We review existing literature and identify three significant shortcoming: (i) Over-reliance on prepackaged moral scenarios with explicitly highlighted moral features; (ii) Focus on verdict prediction rather than moral reasoning; and (iii) Inadequate..."
 paper_summary: "Abstract: Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing inte | Overview: Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs Daniel Kilov ∗ Caroline Hendy∗ Secil Yanik Guyot∗ Aaron J. Snoswell† Seth Lazar∗ Abstract Moral competence is the ab | Methodology: To address these limitations, we propose a novel experimental methodology that moves beyond simple verdict comparison to assess several distinct aspec | Conclusions: Our first experiment revealed several methodological limitations that affect how we interpret LLM performance in moral reasoning tasks. First, we sour"
+LLM_assessed: "Llama-3, GPT-4, DeepSeek, Claude"
+DATA_URL: "NA"
+DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "Yes"
@@ -42,9 +47,6 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: "Llama-3, GPT-4, DeepSeek, Claude"
-DATA_URL: "NA"
-DATE_ADDED: 20260207
 ---
  Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs
 

@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,10 +23,6 @@ pdf_extract: "PDF Extracts/2025/2025-Dadas-Evaluating Polish Linguistic and Cult
 local_pdf: "[[PDFs/2025/2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.pdf]]"
 publication: arXiv
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Polish"
 languages_list: Polish
@@ -31,16 +30,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Multilingual benchmark"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude Sonnet, Command-R, DeepSeek-V3, GPT-4, GPT-4o, Llama 3, Llama 3.1, Llama-3, Mistral, Mistral-7b, Mistral-Large, Qwen-2.5, Qwen2"
 DATA_URL: "https://huggingface.co/spaces/sdadas"
 tags: 
 abstract: "Large language models (LLMs) are becoming increasingly proficient in processing and generating multilingual texts, which allows them to address real-world problems more effectively. However, language understanding is a far more complex issue that goes beyond simple text analysis. It requires familiarity with cultural context, including references to everyday life, historical events, traditions, folklore, literature, and pop culture."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "Social & Cultural Analysis"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "6 categories"
 ---
 # Evaluating Polish Linguistic and Cultural Competency in Large Language Models
 

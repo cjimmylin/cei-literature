@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,18 +36,18 @@ abstract: "Moral framing and sentiment can affect a variety of online and offlin
 paper_summary: "Abstract: Moral framing and sentiment can affect a variety of online and offline behaviors, including donation, environmental action, political engagement, and protest. Various computational methods in Natural  | Overview: The Moral Foundations Reddit Corpus Jackson Trager1,*, Alireza S. Ziabari1,*, Elnaz Rahmati1, Aida Mostafazadeh Davani2, Preni Golazizian1, Farzan Karimi-Malekabadi1, Ali Omrani3, Zhihe Li1, Brendan K | Methodology: Model Care Equality Prop Loyalty Authority Purity Thin 0-shot Llamasingle | Key Findings: from this theoretical change, we need to have an updated annotated corpus that complies with the latest theoretical revisions. Together, the above rea | Conclusions: Moral rhetoric and framing have been shown to be predictive of various important pro-social and anti-social behaviors. Several NLP methods have recent"
 local_pdf: "[[PDFs/2022/2022-Trager-The Moral Foundations Reddit Corpus.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "Llama-3, BERT"
+DATA_URL: "NA"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
 utilitarian_ethics: "No"
 ethics_perspective: "Moral Reasoning & Psychology"
 is_benchmark: "No"
-is_eval: "Yes"
+is_eval: "No"
 is_dataset: "Yes"
-data_description: "Evaluation framework annotated dataset"
+data_description: "Annotated dataset"
 data_metrics: "8 categories"
-LLM_assessed: "Llama-3, BERT"
-DATA_URL: "NA"
 ---
 # The Moral Foundations Reddit Corpus
 

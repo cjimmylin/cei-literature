@@ -2,6 +2,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -27,6 +30,10 @@ significance: "A quintessential 'Common Ground' paper, showing that Western mode
 tags: 
 abstract: "Creating globally inclusive AI systems demands datasets reflecting diverse social norms. Iran, with its unique cultural blend, offers an ideal case study, with Farsi adding linguistic complexity. In this work, we introduce the Iranian Social Norms (ISN) dataset, a novel collection of 1,699 Iranian social norms, including environments, demographic features, and scope annotation, alongside English translations."
 DATE_ADDED: 20260208
+LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
+DATA_URL: "https://github.com/hamidds/ISN"
+pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
+local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -37,10 +44,6 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "GPT-4, Llama-3, Mixtral, Qwen, Claude"
-DATA_URL: "https://github.com/hamidds/ISN"
-pdf_extract: "PDF Extracts/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.md"
-local_pdf: "[[PDFs/2025/2025-Saffari-Can I introduce my boyfriend to my grandmother.pdf]]"
 ---
 # Can I introduce my boyfriend to my grandmother? Evaluating Large Language Models Capabilities on Iranian Social Norm Classification
 

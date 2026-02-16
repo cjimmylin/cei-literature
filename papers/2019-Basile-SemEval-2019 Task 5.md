@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,6 +34,8 @@ abstract: "The paper describes the organization of the SemEval 2019 Task 5 about
 pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md"
 local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5.pdf]]"
 DATE_ADDED: 20260208
+LLM_assessed: "BERT, GloVe"
+DATA_URL: "https://github.com/msang/hateval"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -41,8 +46,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "BERT, GloVe"
-DATA_URL: "https://github.com/msang/hateval"
 ---
 # SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter
 

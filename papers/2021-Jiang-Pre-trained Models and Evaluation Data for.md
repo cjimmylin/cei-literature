@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2021/2021-Jiang-Pre-trained Models and Evaluation Dat
 local_pdf: "[[PDFs/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.pdf]]"
 publication: Springer
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"
 languages_list: "Spanish"
@@ -32,16 +31,21 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "The Spanish language is one of the top 5 spoken languages in the world. Nevertheless, ﬁnding resources to train or evaluate Spanish language models is not an easy task. In this paper we help bridge this gap by presenting a BERT-based language model pre-trained exclusively on Spanish data. As a second contribution, we also compiled several tasks speciﬁcally for the Spanish language in a single repository much in the spirit of the GLUE benchmark."
-data_description: "Multilingual benchmark text corpus"
-data_metrics: "Not specified"
 LLM_assessed: "ALBERT, BERT, RoBERTa"
 DATA_URL: "https://github.com/dccuchile/beto"
 research_topic: "NLP & Representation Learning"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "General Ethics"
+is_benchmark: "No"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Evaluation approach"
+data_metrics: "Not specified"
 ---
 # Pre-trained Models and Evaluation Data for the Myanmar Language
 

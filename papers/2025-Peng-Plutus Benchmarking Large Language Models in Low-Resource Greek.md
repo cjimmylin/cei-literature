@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: arXiv
 pdf_extract: "PDF Extracts/2025/2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.md"
 local_pdf: "[[PDFs/2025/2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Greek"
 languages_list: Greek
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
-data_description: "Multilingual benchmark annotated dataset for question answering"
-data_metrics: "Not specified"
 LLM_assessed: "GPT-4o, Claude-3.5-Sonnet, Gemini-Pro, Llama-3.1, Qwen-2.5, DeepSeek-V3, Mistral-Large, Command-R-Plus, Aya-Expanse, GLM-4, InternLM, EXAONE, Plutus-8B"
 DATA_URL: "https://huggingface.co/collections/TheFinAI/plutus-benchmarking-greek-financial-llms-67bc718fb8d897c65f1e87db"
 tags: 
 abstract: "Despite Greece’s pivotal role in the global economy, large language models (LLMs) remain underexplored for Greek financial context due to the linguistic complexity of Greek and the scarcity of domainspecific datasets. Previous efforts in multilingual financial natural language processing (NLP) have exposed considerable performance disparities, yet no dedicated Greek financial benchmarks or Greekspecific financial LLMs have been developed until now."
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # Plutus: Benchmarking Large Language Models in Low-Resource Greek Finance
 

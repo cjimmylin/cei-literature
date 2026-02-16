@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -22,10 +25,6 @@ publication: PubMed
 pdf_extract: "PDF Extracts/2025/2025-Masood-A survey of multilingual large language models - PMC.md"
 local_pdf: "[[PDFs/2025/2025-Masood-A survey of multilingual large language models - PMC.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "N/A"
 languages_list: "Chinese, English, Kyrgyz, Maori, Multilingual, Turkish"
@@ -33,16 +32,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BLOOM, BLOOM-1, ChatGPT, GPT-3, GPT-3.5, GPT-3.5-turbo, GPT-4, Llama, Llama-2, BERT, gpt3"
 DATA_URL: "NA"
 tags: 
 abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
-research_topic: "Machine Translation"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+research_topic: "NLP & Representation Learning"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "No"
+data_description: "Benchmark"
+data_metrics: "Not specified"
 ---
 # A survey of multilingual large language models - PMC
 

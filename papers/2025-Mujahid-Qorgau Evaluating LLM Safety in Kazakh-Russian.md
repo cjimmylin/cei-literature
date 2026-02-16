@@ -3,6 +3,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,10 +24,6 @@ pdf_extract: "PDF Extracts/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kaz
 local_pdf: "[[PDFs/2025/2025-Mujahid-Qorgau Evaluating LLM Safety in Kazakh-Russian.pdf]]"
 publication: "arxiv.org / ACL 2025 Findings"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Kazakh, Russian"
 languages_list: "Kazakh, Russian"
@@ -32,16 +31,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
 tags: 
 abstract: "Large Language Models (LLMs) are known to have the potential to generate harmful content, posing risks to users. While major progress has been made in developing taxonomies for LLM risks and safety evaluation prompts, most studies have focused on monolingual contexts, primarily in English. However, language- and region-specific risks in bilingual contexts are often overlooked, and core findings can diverge from such in monolingual settings."
-data_description: "Evaluation approach dataset"
-data_metrics: "Not specified"
 LLM_assessed: "Claude, Claude 96.5, Falcon3, GPT-4o, LLama-3.1, Llama, Qwen, Qwen-2.5, Qwen2.5"
 DATA_URL: "https://github.com/mbzuai-nlp/qorgau-kaz-ru-safety"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 ethics_perspective: "AI Safety & Alignment"
+is_benchmark: "Yes"
+is_eval: "Yes"
+is_dataset: "Yes"
+data_description: "Benchmark for ai safety dataset for toxicity detection"
+data_metrics: "Not specified"
 ---
 # Qorgau: Evaluating LLM Safety in Kazakh-Russian Bilingual Contexts
 

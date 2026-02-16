@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract:
 local_pdf: N/A
 publication: "WebSearch: Tamil hate speech multimodal"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Tamil"
 languages_list: "Tamil"
@@ -34,16 +33,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+tags: 
+abstract: "Multimodal dataset comprising videos with audio and textual transcripts annotated for 4 hate speech categories: offensive, sexist, racist, and casteist. First multimodal hate speech dataset for Tamil. Multimodal Tamil hate speech dataset with culturally specific categories including casteist content. Addresses values-relevant hate speech detection."
+LLM_assessed: "NA"
+DATA_URL: "NA"
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Toxicity & Hate Speech"
 is_benchmark: "No"
 is_eval: "No"
 is_dataset: "Yes"
-tags: 
-abstract: "Multimodal dataset comprising videos with audio and textual transcripts annotated for 4 hate speech categories: offensive, sexist, racist, and casteist. First multimodal hate speech dataset for Tamil. Multimodal Tamil hate speech dataset with culturally specific categories including casteist content. Addresses values-relevant hate speech detection."
-data_description: "Dataset"
+data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A Multimodal Approach for Hate and Offensive Content Detection in Tamil: From Corpus Creation to Model Development
 

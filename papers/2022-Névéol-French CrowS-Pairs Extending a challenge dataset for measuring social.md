@@ -1,6 +1,9 @@
 ---
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -18,10 +21,6 @@ publication: "ACL Anthology"
 pdf_extract: "PDF Extracts/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.md"
 local_pdf: "[[PDFs/2022/2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.pdf]]"
 DATE_ADDED: 20260213
-ethics_overall: "Yes"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "French, American"
 cultures_nationalities_list: "French"
 languages_list: French
@@ -29,16 +28,20 @@ religious_values: "N/A"
 religious_values_list: "N/A"
 moral_psychology: "N/A"
 newtags: 
+LLM_assessed: "CamemBERT, FlauBERT, FrALBERT, mBERT"
+DATA_URL: "https://github.com/masonreznov/French-CrowS-Pairs"
+tags: 
+abstract: "Warning: This paper contains explicit statements of offensive stereotypes which may be upsetting Much work on biases in natural language processing has addressed biases linked to the social and cultural experience of English speaking individuals in the United States. We seek to widen the scope of bias studies by creating material to measure social bias in language models (LMs) against speciﬁc demographic groups in France."
+ethics_overall: "Yes"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
+ethics_perspective: "Bias & Fairness"
 is_benchmark: "No"
 is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: "CamemBERT, FlauBERT, FrALBERT, mBERT"
-DATA_URL: "https://github.com/masonreznov/French-CrowS-Pairs"
-tags: 
-abstract: "Warning: This paper contains explicit statements of offensive stereotypes which may be upsetting Much work on biases in natural language processing has addressed biases linked to the social and cultural experience of English speaking individuals in the United States. We seek to widen the scope of bias studies by creating material to measure social bias in language models (LMs) against speciﬁc demographic groups in France."
-ethics_perspective: "Bias & Fairness"
 ---
 # French CrowS-Pairs: Extending a challenge dataset for measuring social bias in masked language models to a language other than English
 

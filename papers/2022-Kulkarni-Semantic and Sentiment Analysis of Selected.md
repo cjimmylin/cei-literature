@@ -5,6 +5,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -23,10 +26,6 @@ pdf_extract: "PDF Extracts/2022/2022-Kulkarni-Semantic and Sentiment Analysis of
 local_pdf: "[[PDFs/2022/2022-Kulkarni-Semantic and Sentiment Analysis of Selected.pdf]]"
 publication: "IEEE Access"
 DATE_ADDED: 20260213
-ethics_overall: "No"
-virtue_ethics: "No"
-deontological_ethics: "No"
-utilitarian_ethics: "No"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"
 languages_list: "English, Sanskrit"
@@ -34,16 +33,20 @@ religious_values: "Hinduism"
 religious_values_list: "Hinduism"
 moral_psychology: "N/A"
 newtags: 
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
 tags: 
 abstract: "> Creates hand-labelled sentiment dataset for Bhagavad Gita and uses BERT for verse-by-verse sentiment analysis across translations. Notes the absence of a Hindu philosophy BERT model and identifies need for one that captures terms like Brahman, karma, dharma, maya."
-data_description: "N/A"
-data_metrics: "Not specified"
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/sydney-machine-learning/sentimentanalysis_bhagavadgita"
+ethics_overall: "No"
+virtue_ethics: "No"
+deontological_ethics: "No"
+utilitarian_ethics: "No"
 research_topic: "NLP & Representation Learning"
+is_benchmark: "No"
+is_eval: "No"
+is_dataset: "Yes"
+data_description: "Dataset"
+data_metrics: "Not specified"
 ---
 # Semantic and Sentiment Analysis of Selected Bhagavad Gita Translations Using BERT-Based Language Framework
 

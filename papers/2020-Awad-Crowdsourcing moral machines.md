@@ -4,6 +4,9 @@
 
 
 
+
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,6 +33,10 @@ significance: "Laid the groundwork for the largest cross-cultural study of machi
 tags: 
 abstract: "A platform for creating a crowdsourced picture of human opinions on how machines should handle moral dilemmas."
 DATE_ADDED: 20260208
+LLM_assessed: "NA"
+DATA_URL: "https://moralmachine.mit.edu"
+pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
+local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"
@@ -40,10 +47,6 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
-DATA_URL: "https://moralmachine.mit.edu"
-pdf_extract: "PDF Extracts/2020/2020-Awad-Crowdsourcing moral machines.md"
-local_pdf: "[[PDFs/2020/2020-Awad-Crowdsourcing moral machines.pdf]]"
 ---
 # Crowdsourcing moral machines
 

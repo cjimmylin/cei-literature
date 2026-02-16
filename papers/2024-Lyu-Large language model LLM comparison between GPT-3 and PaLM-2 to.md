@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3, PaLM-2"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Social & Cultural Analysis"
@@ -68,6 +69,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Compares GPT-3 and PaLM-2 on generating Indonesian cultural content about traditional dances from Palembang. PaLM-2 scored 27 points for validity vs GPT-3's 8 points. GPT-3 excelled in fine-tuning speed (50 min vs 2h10). Expert judgment assessment of cultural content correctness.
+
+## Data Description
+
+This paper compares GPT-3 and PaLM-2 on generating Indonesian cultural content using expert judgment for factual correctness and BERTScore for fine-tuning evaluation. PaLM-2 produced more factually valid content (27 vs 8 points), while GPT-3 excelled at fine-tuning (average BERTScore 0.85 vs 0.79 for PaLM-2). The evaluation covers cultural topics like traditional dances and regional customs.
+
 
 ## Notes
 

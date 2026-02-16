@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 ethics_perspective: "Bias & Fairness"
 ---
@@ -58,7 +59,7 @@ We introduce a new benchmark, WinoBias, for coreference resolution focused on ge
 
 ## Data Description
 
-The paper introduces Winogender schemas, a Winograd schema-style evaluation set of 720 sentences (120 hand-written templates across 60 occupations, with 3 pronoun genders and 2 participant types) designed to test gender bias in coreference resolution systems. Three off-the-shelf coreference systems (rule-based Stanford sieve, statistical Durrett-Klein, and neural Clark-Manning) are evaluated against real-world U.S. Bureau of Labor Statistics gender data and Bergsma-Lin textual gender statistics.
+This paper introduces Winogender schemas, a Winograd schema-style challenge dataset of minimal pair sentences differing only by pronoun gender, designed to detect gender bias in coreference resolution systems. Three publicly available coreference systems are evaluated (rule-based Stanford CoreNLP, feature-driven statistical, and neural end-to-end), demonstrating systematic gender bias correlated with real-world employment statistics. No LLMs are tested.
 
 
 ## Notes

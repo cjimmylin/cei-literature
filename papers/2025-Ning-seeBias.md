@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/nliulab/seeBias"
 ---
 # seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness
@@ -64,7 +65,7 @@ Fairness in artificial intelligence (AI) prediction models is increasingly empha
 
 ## Data Description
 
-The paper presents seeBias, an R package for comprehensive AI fairness evaluation and visualization. It is demonstrated using two case studies: the COMPAS recidivism prediction dataset (5,278 individuals) examining intersectional bias across race and sex, and the Resuscitation Outcomes Consortium Cardiac Epidemiologic Registry (58,648 patients) evaluating racial bias in return of spontaneous circulation (ROSC) prediction. The tool evaluates classification, calibration, and rank-based fairness metrics for traditional prediction models, not LLMs.
+seeBias is an R package providing tools for evaluating and visualizing algorithmic fairness in AI/ML models. It is a software toolkit rather than an LLM benchmark. No LLMs are tested. Code is available on GitHub.
 
 
 ## Notes

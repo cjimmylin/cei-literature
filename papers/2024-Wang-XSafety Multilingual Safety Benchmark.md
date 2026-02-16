@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 tags: 
 abstract: 
@@ -73,7 +74,7 @@ XSafety is a multilingual safety benchmark designed to evaluate LLM safety behav
 
 ## Data Description
 
-XSafety is a multilingual safety benchmark covering 14 commonly used safety issues across 10 languages including French, Arabic, Bengali, Chinese, English, German, Hindi, Japanese, Russian, and Spanish. Evaluates LLM safety behaviors across diverse linguistic contexts. Highlights that safety performance does not generalize well across languages.
+XSafety is a multilingual safety benchmark covering 14 commonly used safety issues across 10 languages (Arabic, Bengali, Chinese, English, French, German, Hindi, Japanese, Russian, Spanish). It evaluates LLM safety behaviors across diverse linguistic contexts, revealing that safety performance does not generalize well across languages. The benchmark enables systematic cross-lingual safety evaluation and highlights the need for language-specific safety alignment strategies.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOMZ, XGLM, XLM-R, mT0, Llama-2, Aya-101"
+DATA_URL: "https://github.com/UKPLab/maps"
 tags: 
 abstract: "Large language models (LLMs) are highly adept at question answering and reasoning tasks, but when reasoning in a situational context, human expectations vary depending on the relevant cultural common ground. As languages are associated with diverse cultures, LLMs should also be culturally-diverse reasoners. In this paper, we study the ability of a wide range of state-of-the-art multilingual LLMs (mLLMs) to reason with proverbs and sayings in a conversational context."
 research_topic: "Dialogue Systems"
@@ -66,6 +67,11 @@ research_topic: "Dialogue Systems"
 ## Abstract
 
 Evaluates mLLMs' ability to reason with proverbs in conversational context across 6 languages. Finds models struggle with figurative proverbs and exhibit a 'culture gap' when reasoning about translated proverbs.
+
+## Data Description
+
+MAPS (MulticulturAl Proverbs and Sayings) is a dataset of proverbs and sayings across six languages (English, German, Russian, Bengali, Mandarin Chinese, Indonesian) with conversational contexts and a binary-choice inference task. The paper evaluates multiple multilingual LLMs including BLOOMZ, XGLM, XLM-R, mT0, and Llama-2 (7B-70B) on memorization, figurative understanding, and cross-cultural reasoning with proverbs.
+
 
 ## Notes
 

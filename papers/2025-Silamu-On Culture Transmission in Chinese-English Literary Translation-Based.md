@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,7 +69,7 @@ Based on the search results, I found the article you're looking for: Title: "Eva
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a translation studies paper analyzing cultural translatability in the Chinese-English literary translation of Qian Zhongshu's novel Weicheng (Fortress Besieged), examining foreignization and domestication strategies through qualitative analysis of idioms, word plays, allusions, and cultural references.
+This 2019 humanities paper analyzes cultural transmission in the English translation of the Chinese novel Weicheng (Fortress Besieged) by Qian Zhongshu. It examines translation strategies (foreignization vs. domestication) and the limits of cultural translatability. The paper is a literary analysis and does not involve any LLM evaluation, dataset creation, or computational benchmark.
 
 
 ## Notes

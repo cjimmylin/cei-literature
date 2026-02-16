@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/RobustBench/robustbench"
 ---
 # RobustBench: a standardized adversarial robustness benchmark
@@ -70,7 +71,7 @@ As a research community, we are still lacking a systematic understanding of the 
 
 ## Data Description
 
-RobustBench is a standardized adversarial robustness benchmark for image classification containing evaluations of 120+ models across CIFAR-10, CIFAR-100, and ImageNet datasets under L-infinity, L2, and common corruption threat models. The Model Zoo provides unified access to 80+ robust models (ResNet, WideResNet variants) implemented in PyTorch for downstream applications.
+RobustBench is a standardized adversarial robustness benchmark for image classification models. It evaluates 120+ models using AutoAttack (an ensemble of white- and black-box attacks) on CIFAR-10, CIFAR-100, and ImageNet under L-infinity and L2 threat models, as well as common corruptions. The benchmark includes a leaderboard and a model zoo of 80+ robust models. No LLMs were tested; the focus is on image classification robustness.
 
 
 ## Notes

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ tags:
 abstract: "Summary: Most comprehensive evaluation to date of anti-Jewish and anti-Israel bias in major LLMs. Tests across 6 categories: bias against Jews, bias against Israel, Gaza/Hamas war, antisemitic conspiracy theories, Holocaust conspiracy theories, and general antisemitism. All 4 LLMs showed concerning answers; Meta's Llama performed worst."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models"
 ethics_perspective: "Bias & Fairness"
 ---
@@ -71,7 +72,8 @@ Summary: Most comprehensive evaluation to date of anti-Jewish and anti-Israel bi
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models.
+ADL report providing the most comprehensive evaluation to date of anti-Jewish and anti-Israel bias in major LLMs. Tests 8,600 queries per model across 6 antisemitism categories (34,400 total responses). All 4 tested LLMs showed concerning answers, with Meta's Llama performing worst. Specific model versions not identified from available metadata.
+
 
 ## Notes
 

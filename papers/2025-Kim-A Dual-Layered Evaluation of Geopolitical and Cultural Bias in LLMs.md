@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "Bllossom-8B, Qwen-1.5-7B, Rakuten-7B, Llama-3-8B, GPT-4"
 DATA_URL: "https://github.com/seank021/LLM-Bias-Evaluation"
 tags: 
 abstract: "As large language models (LLMs) are increasingly deployed across diverse linguistic and cultural contexts, understanding their behavior in both factual and disputable scenarios is essential—especially when their outputs may shape public opinion or reinforce dominant narratives. In this paper, we define two types of bias in LLMs: model bias (bias stemming from model training) and inference bias (bias induced by the language of the query), through a two-phase evaluation."
@@ -65,6 +66,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Defines model bias (from training) and inference bias (from query language). Two-phase evaluation with factual QA and geopolitically sensitive disputes. Manually curated dataset in four languages including Chinese.
+
+## Data Description
+
+Proposes a dual-layered evaluation framework for geopolitical and cultural bias in LLMs, testing five models on bias detection tasks. The evaluation dataset and code are publicly available on GitHub.
+
 
 ## Notes
 

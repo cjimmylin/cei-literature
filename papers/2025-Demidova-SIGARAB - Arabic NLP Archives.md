@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -68,7 +69,8 @@ Based on the search results, I found information about the "Mind the Dialect" pa
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+SIGARAB is an archive and resource hub for Arabic NLP maintained by the ACL Special Interest Group on Arabic NLP. The abstract references a related paper 'Mind the Dialect' on fairness disparities in NLP systems when processing Arabic language variants, presented at EMNLP 2025. This is a resource directory rather than an original evaluation study, and no specific LLMs were tested.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "http://aka.ms/biasbios"
 ---
 # Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting
@@ -72,7 +73,7 @@ We present a large-scale study of gender bias in occupation classification, a ta
 
 ## Data Description
 
-The Bias in Bios dataset consists of 397,340 online biographies extracted from the Common Crawl corpus, spanning 28 occupations with binary gender labels inferred from pronouns. The dataset uses stratified splits (65% training, 10% validation, 25% testing) and is used for studying gender bias in occupation classification across bag-of-words, word embedding, and deep recurrent neural network representations.
+The paper creates a large-scale dataset of 397,340 online biographies from Common Crawl spanning 28 occupations, used to study gender bias in occupation classification. Three semantic representations (bag-of-words, word embeddings, deep recurrent neural networks) are trained and evaluated on this dataset. The study measures true positive rate gender gaps across occupations and demonstrates how occupation classifiers compound existing gender imbalances.
 
 
 ## Notes

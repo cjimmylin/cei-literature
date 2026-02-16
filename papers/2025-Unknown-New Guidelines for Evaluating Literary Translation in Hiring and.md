@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ I found a highly relevant result! The study "Evaluating Uighur literary translat
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This entry links to an ALTA blog post about guidelines for evaluating literary translation in academic hiring decisions. The associated abstract references a study comparing GenAI and neural machine translation systems for Uyghur literary translation into English. Without the full text, the specific systems tested cannot be confirmed. The primary content is about human translation evaluation guidelines rather than LLM benchmarking.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Sanwoolu-Kantian deontology for AI.md"
 local_pdf: "[[PDFs/2025/2025-Sanwoolu-Kantian deontology for AI.pdf]]"
 ---
@@ -102,7 +103,7 @@ None mentioned - this research does not generate or analyze datasets.
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis exploring the application of Kant's moral philosophy to AI alignment, arguing that Kantian deontological principles, particularly the Categorical Imperative and Formula of Universal Law, can guide AI behavior without requiring moral agency.
+This theoretical philosophy paper explores the application of Kant's moral philosophy to AI alignment. It argues that the Categorical Imperative can serve as a framework for AI alignment without requiring moral agency, and proposes that transformer models serve as a functionally equivalent mechanism to Kant's practical judgment for forming context-sensitive maxims. The paper explicitly states it does not generate or analyze datasets.
 
 
 ## Notes

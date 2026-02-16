@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1-8B, Llama-3.1-70B, Qwen2-7B, Qwen2-72B, Gemma-2-9B, Mistral-7B, OLMo-7B, GPT-4o, GPT-4o-mini"
+DATA_URL: "https://github.com/thanhpv2102/CultureInstruct"
 tags: 
 abstract:
 research_topic: "Social & Cultural Analysis"
@@ -70,6 +71,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 430K multi-cultural instructions covering 11 culturally relevant topics. Fine-tuning with CultureInstruct yields consistent improvements on cultural knowledge, human opinions/values, and linguistic cultural bias benchmarks. Qwen2-Instruct 72B + CultureInstruct outperforms GPT-4o.
+
+## Data Description
+
+CultureInstruct is a large-scale instruction-tuning dataset of 430K multicultural instructions covering 11 cultural topics (norms, history, cuisine, art, religion, language, music, festivals, literature, social life) across 183 countries. Built from the DOLMA corpus via a four-step pipeline (document filtering, instruction generation with tuned BONITO, diversification, decontamination), the dataset is used to fine-tune LLMs and evaluate them on cultural benchmarks including CulturalBench, CANDLE, ETICOR, GlobalOpinionQA, and CAMEL.
+
 
 ## Notes
 

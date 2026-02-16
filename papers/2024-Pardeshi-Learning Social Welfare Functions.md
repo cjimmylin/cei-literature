@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Learning Social Welfare Functions
@@ -59,7 +60,7 @@ This paper directly addresses the topic of learning social welfare functions, sp
 
 ## Data Description
 
-The PDF extract does not correspond to the expected paper on learning social welfare functions. The extracted content is a pure mathematics paper on graph theory characterizing graphs based on eigenvalue multiplicity of adjacency matrices, containing no LLM-related data or benchmarks.
+This theoretical paper establishes the statistical learnability of weighted power mean social welfare functions, which include utilitarian and egalitarian welfare as special cases. The authors derive sample complexity bounds for learning from both cardinal and ordinal (pairwise comparison) observations. No LLMs, datasets, or benchmarks are created or evaluated; the PDF extract contained an unrelated graph theory paper.
 
 
 ## Notes

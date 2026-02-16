@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "BLOOM, Pegasus"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages.
+
+## Data Description
+
+Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens of Northern Sámi text from public resources. Trains and evaluates BLOOM decoder-only and Pegasus encoder-decoder models on language modeling for ultra-low-resource Sámi language. Experiments include monolingual, multilingual (Sámi/Finnish/Norwegian), and transfer learning settings. Code and tokens released on the project page.
+
 
 ## Notes
 

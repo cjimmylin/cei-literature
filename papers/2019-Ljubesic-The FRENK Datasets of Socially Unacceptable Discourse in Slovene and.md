@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/UCSM-DUE/IWG_hatespeech_public"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "In this paper we present datasets of Facebook comment threads to mainstream media posts in Slovene and English developed inside the Slovene national project FRENK3 which cover two topics, migrants and LGBT, and are manually annotated for diﬀerent types of socially unacceptable discourse (SUD). The main advantages of these datasets compared to the existing ones are identical sampling procedures, producing comparable data across languages and an annotation schema that takes into account six types..."
 research_topic: "Machine Learning"
@@ -74,7 +75,8 @@ Offensive language dataset of Facebook news comments from Croatian, English, and
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/UCSM-DUE/IWG_hatespeech_public.
+The paper presents the FRENK datasets of Facebook comment threads from mainstream media in Slovene and English, covering topics of migrants and LGBT. Comments are manually annotated with a two-dimensional schema for socially unacceptable discourse (SUD), covering six types of SUD and five targets. This is presented as the first multilingual dataset annotated for SUD with identical sampling and annotation procedures across languages, enabling cross-linguistic comparison.
+
 
 ## Notes
 

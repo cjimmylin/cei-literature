@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -79,7 +80,7 @@ Graph-structured dataset of multiple Isnad chains for Sahih Muslim Hadith. Repre
 
 ## Data Description
 
-Multi-IsnadSet (MIS) is a structured graph dataset for Sahih Muslim Hadith, consisting of 2,092 nodes (individual narrators) and 77,797 edges (Sanad-Hadith connections) representing 7,748 Hadiths with 14,155 ISNAD chains. The dataset was extracted from online Hadith sources (Ihsan Network and Muslim Scholars) using web crawling techniques, and is provided in multiple formats including Neo4j graph database, GML, GraphML, and NetworkX Python library dumps for social network analysis, graph neural network research, and Hadith authentication studies.
+Multi-IsnadSet (MIS) is a dataset representing the chain of narrators (ISNAD) in Sahih Muslim Hadith as a multi-directed graph structure with 2,092 nodes (narrators) and 77,797 edges (Sanad-Hadith connections). The dataset was extracted from online Hadith sources using web scraping and provides comprehensive Hadith details including book number, text content, narrator sequences, and ISNAD count. Four different tools (NetworkX, Neo4j, Gephi, CytoScape) are provided for modeling and analyzing the narrative network.
 
 
 ## Notes

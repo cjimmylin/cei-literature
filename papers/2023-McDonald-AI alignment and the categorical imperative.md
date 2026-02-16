@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI, alignment, and the categorical imperative
 
@@ -55,7 +56,7 @@ This paper responds to the work of Tae Wan Kim, John Hooker, and Thomas Donaldso
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical commentary critiquing Kim, Hooker, and Donaldson's proposal to solve the AI alignment problem using Kantian ethics cast in deontic modal logic, arguing that their approach makes demands beyond current AI capabilities.
+This philosophical commentary critiques the proposal by Kim, Hooker, and Donaldson to solve the AI alignment problem using Kantian ethics cast in deontic modal logic combined with connectionist AI. McDonald argues that their approach makes demands beyond current AI feasibility and advocates for greater emphasis on Kant's formula of humanity. No datasets, benchmarks, or AI models are tested.
 
 
 ## Notes

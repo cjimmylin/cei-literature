@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered with Indigenous communities around the world to defend their lands, languages, and cultures. We publicize Indigenous Peoples' issues through our award-winning publications; we mount letter-writing campaigns and other advocacy efforts to stop environmental destruction and abuses of Native Peoples' rights; and we work on the ground in Indigenous communities, always at their invitation. Our work is predicated on..."
 research_topic: "Social & Cultural Analysis"
@@ -68,7 +69,8 @@ Cultural Survival Quarterly Sujet : For 40 years Cultural Survival has partnered
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a Cultural Survival Quarterly article about AI and Indigenous Peoples' realities. Cultural Survival is an advocacy organization that partners with Indigenous communities worldwide. The article discusses how AI affects Indigenous Peoples' lands, languages, and cultures. No datasets, benchmarks, or LLM evaluations are presented; it is a magazine-style advocacy publication.
+
 
 ## Notes
 

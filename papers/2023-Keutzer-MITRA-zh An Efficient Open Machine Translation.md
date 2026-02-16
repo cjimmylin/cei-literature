@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: 
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "Open-source (Dharmamitra project)"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Machine Translation"
 ---
 # MITRA-zh: An Efficient, Open Machine Translation Solution for Buddhist Chinese
@@ -72,7 +73,8 @@ research_topic: "Machine Translation"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Open-source (Dharmamitra project).
+This paper presents MITRA-zh, a machine translation solution for Buddhist Chinese as part of the Dharmamitra project. It uses 209,454 bitext pairs for training and 2,300 manually curated bitext pairs for evaluation. The paper focuses on translating classical Buddhist Chinese texts to English but does not test any LLMs as part of its evaluation.
+
 
 ## Notes
 

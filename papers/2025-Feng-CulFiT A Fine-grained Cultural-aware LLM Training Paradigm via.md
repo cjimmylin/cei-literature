@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1, Qwen-2.5, GPT-4o"
+DATA_URL: "https://github.com/MMadmax/CulFiT"
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities across various tasks, yet they often exhibit a specific cultural biases, neglecting the values and linguistic diversity of low-resource regions. This cultural bias not only undermines universal equality, but also risks reinforcing stereotypes and perpetuating discrimination. To address this, we propose CulFiT, a novel culturally-aware training paradigm that leverages multilingual data and fine-grained reward modeling to..."
 ethics_perspective: "Social & Cultural Values"
@@ -70,6 +71,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Novel training paradigm enhancing LLMs' cultural sensitivity via multilingual critique data synthesis. Introduces GlobalCultureQA benchmark dataset. Reduces Euclidean distance to human values (Hofstede's dimensions) compared to GPT-4o. Achieves state-of-the-art cultural alignment for open-source models.
+
+## Data Description
+
+The paper proposes CulFiT, a culturally-aware training paradigm that leverages multilingual data and fine-grained reward modeling to enhance cultural sensitivity. It introduces GlobalCultureQA, a multilingual open-ended question-answering benchmark for evaluating culturally-aware responses in a global context. The paper fine-tunes Llama3.1-8B-Instruct and Qwen2.5-7B-Instruct models and evaluates them alongside GPT-4o on three existing cultural benchmarks plus GlobalCultureQA, measuring cultural precision and recall metrics.
+
 
 ## Notes
 

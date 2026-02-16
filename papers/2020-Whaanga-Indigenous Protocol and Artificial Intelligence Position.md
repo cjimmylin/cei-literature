@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +42,7 @@ tags:
 abstract: "This foundational position paper, written by a large consortium of Indigenous scholars from Aotearoa, Australia, North America, and the Pacific, provides guidelines for developing AI systems aligned with Indigenous perspectives on what it means to live a good life. It includes design guidelines, scholarly essays, artworks, and descriptions of technology prototypes including Hua Ki'i (an ethical Indigenous object-recognition AI). While not a benchmark per se, it defines the ethical space within which all Indigenous AI benchmarks should operate."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.indigenous-ai.net/position-paper/"
 research_topic: "Other"
 ---
@@ -77,7 +78,8 @@ N/A (position paper with prototype descriptions including Hua Ki'i)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.indigenous-ai.net/position-paper/.
+This foundational position paper by a large consortium of Indigenous scholars from Aotearoa, Australia, North America, and the Pacific provides guidelines for developing AI systems aligned with Indigenous perspectives. It includes design guidelines, scholarly essays, artworks, and descriptions of technology prototypes including Hua Ki'i (an ethical Indigenous object-recognition AI). The paper defines the ethical space within which Indigenous AI systems should operate rather than presenting a traditional benchmark or dataset.
+
 
 ## Notes
 

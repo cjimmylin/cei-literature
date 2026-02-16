@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://data.mendeley.com/datasets/x6628zzpdx/1"
 tags: 
 abstract: "First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes from TV channels, athletes, religions, politicians. SVM, Decision Tree, Naive Bayes evaluated."
@@ -74,7 +75,8 @@ First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/n
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://data.mendeley.com/datasets/x6628zzpdx/1.
+The paper presents the first Kurdish (Sorani) hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes, collected from TV channels, athletes, religions, and politicians pages. Traditional ML classifiers (SVM, Decision Tree, Naive Bayes) are evaluated on the dataset, but no LLMs are tested.
+
 
 ## Notes
 

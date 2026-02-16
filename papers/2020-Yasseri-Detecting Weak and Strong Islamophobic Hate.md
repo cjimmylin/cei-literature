@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ tags:
 abstract: "Islamophobic hate speech on social media inflicts considerable harm on both targeted individuals and wider society, and also risks reputational damage for the host platforms. Accordingly, there is a pressing need for robust tools to detect and classify Islamophobic hate speech at scale. Previous research has largely approached the detection of Islamophobic hate speech on social media as a binary task."
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/bvidgen/Weak_strong_Islamophobia"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Social & Cultural Values"
 ---
 # Detecting Weak and Strong Islamophobic Hate Speech on Social Media
@@ -74,7 +75,8 @@ Builds a multi-class classifier distinguishing non-Islamophobic, weak Islamophob
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/bvidgen/Weak_strong_Islamophobia.
+The paper creates a new annotated dataset of 4,000 tweets (1,341 after balancing) labeled as non-Islamophobic, weak Islamophobic, or strong Islamophobic, drawn from a larger corpus of 140 million tweets from UK political party followers. Traditional ML classifiers (SVM, Naive Bayes, Deep Learning) are evaluated, with SVM achieving 77.3% accuracy on unseen data. No LLMs were tested.
+
 
 ## Notes
 

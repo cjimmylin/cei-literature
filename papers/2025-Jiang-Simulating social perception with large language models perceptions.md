@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -69,6 +70,11 @@ research_topic: "Other"
 ## Abstract
 
 Leverages LLMs to simulate social perception around China's Common Prosperity agenda. Proposes CPP framework with dual-track qualitative/quantitative design. Fine-tunes base LLMs and evaluates on six-task pipeline covering social attitudes and survey simulation.
+
+## Data Description
+
+This paper leverages LLMs to simulate social perception around China's Common Prosperity agenda, proposing a CPP framework with dual-track qualitative/quantitative design. It fine-tunes base LLMs and evaluates on a six-task pipeline covering social attitudes and survey simulation. No PDF extract was available, so specific LLM models tested and data URLs could not be confirmed from the available metadata.
+
 
 ## Notes
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,7 +72,7 @@ First Khmer scene-text dataset with 1,544 expert-annotated images (997 indoor, 5
 
 ## Data Description
 
-KhmerST is the first Khmer scene-text dataset, containing 1,544 expert-annotated images (997 indoor, 547 outdoor scenes) from various locations in Cambodia. Annotations include line-level text and polygonal bounding box coordinates. The benchmark evaluates scene-text detection using YOLO models (v1, v5, v8, v10) and text recognition using TrOCR and Tesseract OCR. No canonical LLMs were tested; this is a computer vision OCR dataset.
+KhmerST is the first Khmer scene-text detection and recognition benchmark dataset, containing 1,544 expert-annotated images (997 indoor, 547 outdoor scenes) with line-level text and polygonal bounding box coordinates. The dataset addresses the complexity of Khmer script (74 distinct characters, character stacking, diacritics) and benchmarks state-of-the-art scene text detection and recognition models, though these are computer vision models, not LLMs.
 
 
 ## Notes

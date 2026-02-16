@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "983 prompts"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Flux-1.0-dev; Stable-Diffusion-3.5-Large; Imagen3; GPT-Image"
+DATA_URL: "https://culturalframes.github.io"
 tags: 
 abstract: "The increasing ubiquity of text-to-image (T2I) models as tools for visual content generation raises concerns about their ability to accurately represent diverse cultural contexts – where missed cues can stereotype communities and undermine usability. In this work, we present the first study to systematically quantify the alignment of T2I models and evaluation metrics with respect to both explicit (stated) as well as implicit (unstated, implied by the prompt’s cultural context) cultural..."
 ethics_perspective: "Social & Cultural Values"
@@ -71,6 +72,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Benchmark for evaluating cultural expectation alignment in T2I models. 983 prompts, 3,637 images, 10k+ human annotations across 10 countries and 5 socio-cultural domains. Cultural expectations missed 44% of the time on average; explicit expectations missed at 68%.
+
+## Data Description
+
+CulturalFrames is a text-to-image (T2I) cultural benchmark with 983 prompts generating 3,637 images across 10 countries. It evaluates cultural expectation alignment in T2I models through human ratings on prompt alignment, image quality, and stereotypical content. Four state-of-the-art T2I models (two open-source, two closed-source) are evaluated. GPT-4o is used as an evaluation tool but not as a T2I generator.
+
 
 ## Notes
 

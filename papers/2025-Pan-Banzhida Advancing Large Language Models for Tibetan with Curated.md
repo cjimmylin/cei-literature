@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen2.5-7B, Qwen3-8B, Llama-3.1-8B, DeepSeek-R1-Distill-Llama-8B"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models have achieved remarkable progress across many languages. However, Tibetan, as a representative low-resource language, is particularly underrepresented in existing models due to the scarcity of high-quality training corpora. To address this gap, we curate the largest Tibetan pre-training corpus to date, aggregating data from diverse sources and applying a dedicated data cleaning and processing pipeline tailored for Tibetan."
 research_topic: "Machine Translation"
@@ -66,6 +67,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Builds the largest Tibetan pre-training corpus (72 GB cleaned text) and continues pre-training Qwen2.5-7B for Tibetan. Develops new evaluation benchmarks including Hellaswag-bo, ARC-bo, and TibetanQA. Model significantly outperforms existing open-source and Tibetan-tailored models.
+
+## Data Description
+
+The paper curates the largest Tibetan pre-training corpus (72 GB) from public datasets, web crawling, synthetic data, and proprietary sources, and constructs four new Tibetan evaluation benchmarks (HellaSwag-bo, ARC-bo, Xcopa-bo, XStoryCloze-bo) by translating English benchmarks into Tibetan with native speaker verification. These benchmarks evaluate commonsense reasoning, causal reasoning, and reading comprehension in Tibetan. The continually pre-trained model based on Qwen2.5-7B is evaluated against open-source models and Tibetan-tailored models across these benchmarks plus TibetanQA and FLORES-200.
+
 
 ## Notes
 

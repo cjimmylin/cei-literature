@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Social & Cultural Values"
@@ -63,6 +64,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Identifies a hyperplane embedding ethical norms in LLM representational space and studies cultural norms with respect to this embedded ethics. Finds discordance between LLMs' embedded ethics and cultural norms, particularly evident in instruct-tuned models.
+
+## Data Description
+
+This paper identifies a hyperplane embedding ethical norms in LLM representational space and studies cultural norms with respect to this embedded ethics. It finds discordance between LLMs' embedded ethics and cultural norms, particularly in instruct-tuned models. No PDF extract was available to determine which specific models were tested.
+
 
 ## Notes
 

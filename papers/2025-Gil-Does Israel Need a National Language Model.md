@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -63,6 +64,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 INSS policy paper arguing Israel must develop a national language model to preserve cultural values, national narratives, and digital sovereignty. Notes that reliance on foreign LLMs means Israeli culture and values are shaped by external systems.
+
+## Data Description
+
+This is an INSS (Institute for National Security Studies) policy paper arguing that Israel must develop a national language model to preserve cultural values, national narratives, and digital sovereignty. It does not create or evaluate any dataset or benchmark, but rather makes a policy-level argument about the risks of relying on foreign LLMs for shaping Israeli culture and values.
+
 
 ## Notes
 

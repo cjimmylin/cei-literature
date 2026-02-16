@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, AYA, YandexGPT-2, YandexGPT-3"
 DATA_URL: "https://github.com/akylbekmaxutov/LLM-eval-using-Kazakh"
 tags: 
 abstract:
@@ -65,6 +66,11 @@ research_topic: "Other"
 ## Abstract
 
 Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets covering QA, causal reasoning, math problems, translation, and spelling correction. GPT-4 shows best results. LLM performance on Kazakh tasks is lower than on parallel English tasks.
+
+## Data Description
+
+This study evaluates seven LLMs on Kazakh language tasks using six datasets covering question answering, causal reasoning, middle school math, machine translation, and spelling correction. Three datasets were newly prepared for this study. GPT-4 achieved the best results overall, followed by Gemini and AYA, with all models performing significantly worse on Kazakh compared to parallel English tasks.
+
 
 ## Notes
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,7 +68,7 @@ Attention-based BERT model for Kazakh hate speech detection. Applies transformer
 
 ## Data Description
 
-This paper presents a multi-class hate speech classification model for Kazakh-language texts using TF-IDF, MTF-IDF vectorization combined with LSTM, XGBoost, and MLPClassifier algorithms. The dataset contains texts divided into five categories (racism, bullying, violence, nationalism, neutral) and was constructed in a prior study (Bolatbek et al. 2024). The LSTM model achieved the highest accuracy at 89%.
+This paper presents a multi-class text classification model for hate speech detection in the Kazakh language using TF-IDF, MTF-IDF, LSTM, XGBoost, and MLPClassifier. The dataset classifies Kazakh texts into five categories: racism, bullying, violence, nationalism, and neutral. LSTM achieved the highest accuracy at 89%. The study uses traditional ML and deep learning methods, not large language models, and builds on a previously constructed Kazakh-language dataset from Bolatbek et al. (2024).
 
 
 ## Notes

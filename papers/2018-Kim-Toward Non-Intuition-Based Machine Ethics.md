@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Toward Non-Intuition-Based Machine and Artificial Intelligence Ethics: A Deontological Approach Based on Modal Logic
 
@@ -74,7 +75,7 @@ The authors propose a deontological approach to machine ethics that avoids some 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical philosophy paper proposing a deontological approach to machine ethics based on quantified modal logic, using formal properties of action plans to derive ethical principles such as generalizability and joint autonomy.
+This paper proposes a deontological approach to machine ethics formalized in quantified modal logic, building on Kantian ethical theory. It derives ethical principles from first principles rather than moral intuitions, and applies them to healthcare scenarios to demonstrate advantages over Anderson and Anderson's prima facie duty approach. This is a theoretical philosophy/formal logic paper with no datasets or LLM evaluations.
 
 
 ## Notes

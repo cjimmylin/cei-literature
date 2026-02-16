@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "19 categories"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Stable Diffusion 3, DALL-E 3, Kandinsky 3.1, YandexART 2, Midjourney v6"
+DATA_URL: "https://github.com/ai-forever/RusCode"
 tags: 
 abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Benchmark for evaluating text-to-image generation on Russian cultural concepts. 19 categories covering various aspects of Russian culture. 1,250 complex textual descriptions in Russian and English. Expert-validated with humanities scholars.
+
+## Data Description
+
+RusCode is a benchmark for evaluating text-to-image generation models on Russian cultural content. It consists of 1,250 text prompts (in Russian and English) across 19 cultural categories covering art, literature, famous personalities, cuisine, holidays, and more. The authors conducted human evaluation via side-by-side comparisons among four popular T2I models, finding that Russian-developed models (Kandinsky 3.1, YandexART 2) significantly outperform Western models (Stable Diffusion 3, DALL-E 3) on Russian cultural concepts.
+
 
 ## Notes
 

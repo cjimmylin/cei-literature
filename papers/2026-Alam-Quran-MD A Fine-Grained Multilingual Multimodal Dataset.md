@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -73,7 +74,7 @@ First holistic multimodal Quranic dataset integrating textual, linguistic, and a
 
 ## Data Description
 
-QUR'AN-MD is a comprehensive multimodal dataset of the Quran integrating textual and audio dimensions at verse and word levels. It contains 114 surahs, 6,236 ayahs, approximately 77,800 words, verse-level audio from 30 reciters totaling roughly 665 hours, and word-level audio of approximately 22 hours. The dataset supports ASR, tajweed detection, text-to-speech synthesis, linguistic analysis, and digital Islamic studies applications.
+Quran-MD is a fine-grained multilingual multimodal dataset combining Quranic text and audio data. The dataset is designed for research on Quranic text processing and speech recognition. This is a dataset contribution paper and does not evaluate any LLMs on the data.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "Claude-3-Haiku; Claude-3-Sonnet; Claude-3.5-Sonnet; Claude-3-Opus; GPT-4o-Mini; GPT-4o; Gemini-1.5-Flash; Gemini-1.5-Pro; LLaMA-3.2-1B; LLaMA-3.2-3B; LLaMA-3.1-8B; LLaMA-3.1-70B; LLaMA-3.1-405B; Gemma-2-2B; Gemma-2-9B; Gemma-2-27B; Aya-23-8B; Command-R-Plus; Mistral-7B; Mistral-Nemo; Mixtral-8x22B; Qwen-2.5-72B; PersianMind-v1.0; Dorna-LLaMA3-8B"
 DATA_URL: "https://huggingface.co/datasets/teias-ai/percul"
 tags: 
 abstract: "Large language models predominantly reflect Western cultures, largely due to the dominance of English-centric training data. This imbalance presents a significant challenge, as LLMs are increasingly used across diverse contexts without adequate evaluation of their cultural competence in non-English languages, including Persian. To address this gap, we introduce PERCUL, a carefully constructed dataset designed to assess the sensitivity of LLMs toward Persian culture."
@@ -71,6 +72,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Introduces PerCul, a story-based, multiple-choice dataset capturing culturally nuanced scenarios in Persian, curated with native Persian annotators. Evaluations show an 11.3% gap between best closed-source model and layperson baseline, and 21.3% gap with best open-weight model. Translating PerCul results in significant performance drops, confirming cultural specificity.
+
+## Data Description
+
+PerCul is a story-driven benchmark for evaluating LLMs on Persian cultural knowledge. It contains culturally grounded scenarios spanning food, holidays, traditions, social norms, and history, assessed through multiple-choice and open-ended questions. Twenty-four LLMs from major families (Claude, GPT, Gemini, LLaMA, Gemma, Aya, Mistral, Qwen, and Persian-specific models) are evaluated. Dataset is publicly available on HuggingFace.
+
 
 ## Notes
 

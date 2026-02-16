@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/hhhuang/TaiwanVQA"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ research_topic: "Question Answering"
 ## Abstract
 
 Novel VQA benchmark with 2,000 image-question pairs covering Taiwanese culture and daily life including local cuisine, festivals, landmarks, and public signage. Performance gap widens between recognition (73.60%) and reasoning tasks (49.80%), indicating challenges in cultural inference.
+
+## Data Description
+
+The paper introduces TaiwanVQA, a novel VQA benchmark with 2,000 image-question pairs covering Taiwanese culture and daily life including local cuisine, festivals, landmarks, and public signage. Performance gaps widen between recognition tasks (73.60%) and reasoning tasks (49.80%), indicating challenges in cultural inference. Specific LLM models tested could not be identified from the available metadata.
+
 
 ## Notes
 

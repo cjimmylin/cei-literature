@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -67,6 +68,11 @@ research_topic: "Other"
 ## Abstract
 
 Characterizes the problem of AI in terms of impending loss of control and proposes a relational shift in attitude towards AI, considering strongly relational Indigenous epistemologies. The value of Indigenous perspectives becomes clear when considering well-developed epistemologies adept at accounting for the non-human. Presented at AAAI/ACM Conference on AI, Ethics, and Society.
+
+## Data Description
+
+This conference paper characterizes AI problems in terms of impending loss of control and proposes a relational shift in attitude towards AI drawing on Indigenous epistemologies. It is a theoretical/philosophical paper presented at AAAI/ACM AIES 2020 that does not create or evaluate any dataset or benchmark. The paper provides foundational arguments for incorporating Indigenous perspectives into AI development and evaluation.
+
 
 ## Notes
 

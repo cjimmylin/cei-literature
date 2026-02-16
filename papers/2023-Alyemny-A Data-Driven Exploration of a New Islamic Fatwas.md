@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/ohoud/Fatwaset.git"
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md"
 local_pdf: "[[PDFs/2023/2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.pdf]]"
@@ -108,7 +109,7 @@ The paper successfully introduces Fatwaset as the first publicly available Arabi
 
 ## Data Description
 
-Fatwaset is the first public Arabic dataset of Islamic fatwas, containing 130,182 records collected from 13 trusted Islamic fatwa websites across multiple Arab countries. Each record includes a fatwa question, answer, and associated metadata such as publication date, category, title, and mufti name. The paper performs exploratory data analysis on the dataset but does not evaluate any LLMs.
+The paper presents FatwaSet, the first public Arabic dataset of Islamic fatwas collected from various trusted sources including agencies, religious scholars, and websites. The dataset includes fatwas along with rich metadata and is designed for NLP tasks such as language modeling, question answering, topic identification, and text classification. An Exploratory Data Analysis is performed but no models are benchmarked.
 
 
 ## Notes

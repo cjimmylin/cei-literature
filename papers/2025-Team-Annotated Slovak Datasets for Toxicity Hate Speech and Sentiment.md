@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
-DATA_URL: "https://huggingface.co/datasets/TUKE-KEMT/toxic-sk, https://huggingface.co/datasets/TUKE-KEMT/hate_speech_slovak, https://huggingface.co/datasets/TUKE-KEMT/senti-sk"
+DATA_URL: "NA"
 tags: 
 abstract: "The rise of social media has led to an increase in toxic language, hate speech, and offensive content. While extensive research exists for widely spoken languages like English, Slovak remains underrepresented due to the lack of high-quality datasets. This gap limits the development of effective models for toxicity detection and sentiment analysis in Slovak. To address this, we introduce three new annotated Slovak datasets focused on toxic language, offensive language, hate speech detection, and..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -77,7 +78,7 @@ Three new annotated Slovak datasets for toxicity detection, hate speech detectio
 
 ## Data Description
 
-This paper introduces three new annotated Slovak-language datasets for toxicity, hate speech, and sentiment analysis. ToxicSK contains 8,840 Facebook comments (balanced toxic/non-toxic). The hate_speech_slovak dataset contains 13,189 Facebook posts annotated for hate speech (3,605 hateful, 9,584 neutral). SentiSK contains 34,006 Facebook comments annotated into three sentiment categories (20,668 negative, 9,581 neutral, 3,779 positive). The datasets are hosted on HuggingFace under the TUKE-KEMT organization. No LLMs were directly tested or evaluated in this paper.
+This paper introduces three new annotated Slovak-language datasets for toxicity detection, hate speech detection, and sentiment analysis. The datasets are designed as native Slovak resources rather than machine-translated alternatives, targeting social media content. The paper reviews existing Slovak datasets, presents the newly developed resources with comparative analysis, but does not test any LLMs on them.
 
 
 ## Notes

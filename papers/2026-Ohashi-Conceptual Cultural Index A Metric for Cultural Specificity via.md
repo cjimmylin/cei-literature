@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen2.5-7B, Llama-3.1-8B, Llama-3.1-Swallow-8B, llm-jp-3.1-13b, gpt-oss-20b"
+DATA_URL: "https://github.com/IyatomiLab/CCI"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in multicultural settings; however, systematic evaluation of cultural specificity at the sentence level remains underexplored. We propose the Conceptual Cultural Index (CCI), which estimates cultural specificity at the sentence level. CCI is defined as the difference between the generality estimate within the target culture and the average generality estimate across other cultures."
 research_topic: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 Sentence-level metric for quantifying cultural specificity. Validated on 400 sentences (200 culture-specific, 200 general). Outperforms direct LLM scoring by 10+ AUC points. Applied to assign culture-specificity scores to existing benchmarks, enabling culture-aware error analysis of model performance.
+
+## Data Description
+
+This paper proposes the Conceptual Cultural Index (CCI), a sentence-level metric for quantifying cultural specificity using LLM-based generality estimation across multiple cultures. CCI is validated using Japanese cultural and general sentences, demonstrating clearer separability than direct LLM scoring. The metric is applied to benchmark stratification on JCommonsenseQA and JCommonsenseMorality, showing that model performance varies with cultural specificity levels.
+
 
 ## Notes
 

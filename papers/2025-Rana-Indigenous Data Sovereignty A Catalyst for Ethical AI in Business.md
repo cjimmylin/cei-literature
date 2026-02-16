@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Social & Cultural Values"
@@ -67,6 +68,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Addresses how digital colonialism poses a significant threat to Indigenous communities in the age of rapid AI advancement. Presents Indigenous data sovereignty as a powerful framework for resisting digital colonialism and promoting ethical AI development. Discusses OCAP principles and CARE framework as cornerstones of indigenous data governance for AI.
+
+## Data Description
+
+This paper addresses how digital colonialism threatens Indigenous communities in the age of AI and presents Indigenous data sovereignty as a framework for ethical AI development. It discusses OCAP principles and the CARE framework as cornerstones for indigenous data governance. The paper is a conceptual/policy analysis and does not create or evaluate any dataset or benchmark.
+
 
 ## Notes
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ tags:
 abstract: "**Breakdown by paper type:** - Benchmark: 11 - Dataset: 14 - Evaluation: 12 - Bias Study: 7 - Framework: 5 (Many papers span multiple types)  **Breakdown by implementation readiness:** - HIGH: 16 - MEDIUM: 9 - LOW: 2  **Key gaps identified:** 1. **Jainism is severely underrepresented** -- no dedicated Jain NLP benchmark or LLM evaluation dataset exists in peer-reviewed literature. JainGPT is the closest but is a commercial product, not a research benchmark. 2. **Sikhism has no dedicated NLP benchmark** -- GurbaniDB exists as a digital corpus but no published paper evaluates LLMs specifically on Sikh knowledge or values. The Guru Granth Sahib is included in a few multi-faith comparative studies only. 3. **Hindu ethics/values alignment for LLMs is nascent** -- While several bias studies test how LLMs represent Hinduism, no dedicated 'Hindu values alignment benchmark' exists akin to Islamic Fatwa QA or Confucian ethics LLM evaluations. 4. **Sanskrit NLP is flourishing** but primarily f..."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://jainknowledge.com / https://jaingpt.org/"
 research_topic: "Dialogue Systems"
 ---
@@ -99,7 +100,8 @@ Extensive digitized Jain literature and sacred texts (Jain Agamas and commentary
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://jainknowledge.com / https://jaingpt.org/.
+JainGPT is a commercial AI-powered chatbot built on extensive digitized Jain literature and sacred texts (Jain Agamas and commentary) from JainELibrary.org and JainQQ.org. It is a web application rather than a research paper. No LLMs are formally tested or benchmarked; the product itself uses an undisclosed LLM backend to serve Jain religious knowledge.
+
 
 ## Notes
 

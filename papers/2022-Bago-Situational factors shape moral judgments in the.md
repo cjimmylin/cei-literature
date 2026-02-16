@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/marton-balazs-kovacs/trolleyMultilabReplication"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "General Ethics"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample
@@ -124,7 +125,7 @@ The study provides evidence that the personal force effect on moral judgments is
 
 ## Data Description
 
-The paper presents a large-scale cross-cultural replication study of Greene et al.'s trolley dilemma experiments, collecting moral judgement data from participants across 45 countries on all inhabited continents. The dataset captures responses to moral dilemmas varying in personal force and intention factors, testing the universality of situational influences on moral judgements across Eastern, Southern, and Western cultural clusters. No LLMs were involved in this psychology study.
+This is a large-scale cross-cultural psychology study replicating Greene et al.'s trolley problem experiments across 45 countries with participants from all inhabited continents. It empirically tests the universality of the effects of personal force and intention on moral dilemma judgments (deontological vs. utilitarian). The study found that personal force effects are culturally universal. No LLMs were tested; this is a human participant study.
 
 
 ## Notes

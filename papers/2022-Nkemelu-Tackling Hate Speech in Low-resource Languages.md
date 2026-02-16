@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ abstract: "Given Myanmar’s historical and socio-political context, hate speech
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
-DATA_URL: "https://github.com/TID-Lab/myanmarhsc"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Tackling Hate Speech in Low-resource Languages with Context Experts
@@ -71,7 +72,7 @@ Curated dataset of 226 Burmese hate speech posts from Facebook collected during 
 
 ## Data Description
 
-The paper presents findings from a remote study on automatic detection of hate speech in Myanmar using Burmese-language Facebook data. A dataset of 226 Burmese hate speech posts was curated from Facebook via CrowdTangle, annotated by 8 context experts. Classification models tested include SVM, Balanced Random Forests, and FastText using n-gram and TF-IDF features, with FastText (with oversampling) performing best (F1=0.87). No LLM models from the canonical list were tested.
+The paper presents a community-driven approach to hate speech detection in Myanmar (Burmese language), working with context experts to curate a dataset of 226 Burmese hate speech posts from Facebook via CrowdTangle. It develops a systematic process covering data collection, annotation, and model validation, and provides early classification results using classical and neural network-based ML models. No LLMs were tested.
 
 
 ## Notes

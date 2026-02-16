@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,7 +68,7 @@ Framework for hate speech detection in accented and low-resource Malayalam speec
 
 ## Data Description
 
-This paper proposes SigNet and SigNet2.0, deep learning frameworks for radio signal modulation classification using a trainable signal-to-matrix (S2M) operator paired with CNN architectures (ResNet50). The study evaluates on two datasets: RML2016.10a (220,000 samples, 11 modulation types) and Sig2019-12 (468,000 samples, 12 modulation types), comparing against baselines including 1D-ResNet, 2D-CNN, LSTM, and MCLDNN. No large language models are tested or evaluated.
+This paper proposes SigNet, a deep learning framework for radio signal modulation classification. It uses a signal-to-matrix (S2M) operator to convert radio signals into square matrices, then applies CNN architectures for classification. The paper evaluates on two radio signal datasets and focuses on signal processing rather than LLM evaluation. No LLMs are tested; it is a signal classification paper.
 
 
 ## Notes

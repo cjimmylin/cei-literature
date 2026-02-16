@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-5.2, GPT-4o, GPT-4o Mini, Claude Opus 4.5, Claude Sonnet 4.5, Claude 3.5 Sonnet, Gemini 3 Pro, Gemini 2.0 Flash, Grok 3, Llama 3.3 70B, Mistral Large 3, Qwen3 Max, Qwen 2.5 72B, DeepSeek R1, DeepSeek Chat, Kimi K2.5, MiniMax M2"
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual contexts, yet their consistency across languages on politically sensitive topics remains understudied. This paper presents a systematic bilingual benchmark study examining how 17 LLMs respond to questions concerning the sovereignty of the Republic of China (Taiwan) when queried in Chinese versus English. We discover significant language bias—the phenomenon where the same model produces substantively different political..."
 ethics_perspective: "Bias & Fairness"
@@ -70,6 +71,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Examines whether 17 LLMs maintain consistent political positions across Chinese and English when addressing Taiwan's sovereignty. 15 of 17 models show measurable language bias. Introduces Language Bias Score (LBS) and Quality-Adjusted Consistency (QAC) metrics.
+
+## Data Description
+
+The Taiwan Sovereignty Benchmark Pro evaluates 17 LLMs from the US, France, and China for bilingual bias on Taiwan sovereignty questions. The benchmark uses 10 carefully constructed prompts in both Traditional Chinese and English, scored using red flag detection (CCP-aligned narratives), Language Bias Score (LBS), and Quality-Adjusted Consistency (QAC) metrics. Only GPT-4o Mini achieves perfect scores in both languages, while many flagship models fail the benchmark threshold.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Llama-3.3-70B"
+DATA_URL: "https://github.com/metunlp/llmevaluation"
 tags: 
 abstract: "The reliance on translated or adapted datasets from English or multilingual resources introduces challenges regarding linguistic and cultural suitability. This study addresses the need for robust and culturally appropriate benchmarks by evaluating the quality of 17 commonly used Turkish benchmark datasets. Using a comprehensive framework that assesses six criteria, both human and LLM-judge annotators provide detailed evaluations to identify dataset strengths and shortcomings."
 research_topic: "AI Safety & Alignment"
@@ -64,6 +65,11 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 Evaluates quality of 17 commonly used Turkish benchmark datasets using framework assessing 6 criteria. Finds 70% of datasets fail heuristic quality standards. LLM judges less effective than humans at understanding cultural common sense knowledge.
+
+## Data Description
+
+This study evaluates the quality of 17 commonly used Turkish benchmark datasets using a framework assessing six criteria: answer correctness, grammatical correctness, cohesion/coherence, comprehensibility/fluency, technical term usage, and cultural common sense alignment. Both human annotators and LLM judges (GPT-4o and Llama-3.3-70B) are used for evaluation. Results show 70% of benchmark datasets fail quality standards.
+
 
 ## Notes
 

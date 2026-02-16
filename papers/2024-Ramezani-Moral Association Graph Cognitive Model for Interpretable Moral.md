@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ abstract:
 ethics_perspective: "Responsible AI"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Moral Association Graph: Cognitive Model for Interpretable Moral Inference
 
@@ -70,7 +71,8 @@ Word association network-based cognitive model for moral inference grounded in p
 
 ## Data Description
 
-No PDF extract available for analysis.
+Proposes a cognitive model for interpretable moral inference based on word association networks grounded in psychological data. The Moral Association Graph uses cognitive science approaches rather than LLM-based evaluation. Published in Topics in Cognitive Science.
+
 
 ## Notes
 

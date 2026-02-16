@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Human flourishing in AI"
@@ -29,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: 
 local_pdf: N/A
 ---
@@ -84,7 +85,7 @@ None mentioned.
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is an opinion article arguing that technology work in military contexts aligns with Aristotle's concept of eudaimonia (human flourishing), proposing embedding eudaimonia as a foundational parameter in AI development to address alignment problems.
+This online article by Palantir employees argues that technology work in military contexts aligns with Aristotle's concept of eudaimonia (human flourishing). The authors propose embedding eudaimonia as a foundational parameter in AI development. It is an opinion piece targeting computer science graduates and does not create or evaluate any dataset or benchmark.
 
 
 ## Notes

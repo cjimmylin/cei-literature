@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Abstract United Nations Development Programme worked to build a rights-based approach into each of its primary programming areas but with varying success. Access to justice programs, which seek to empower citizens through legal means, have important rights components. Work with the transgender community, for example, is clearly rights-oriented, as is Right to Information programming. Other areas have been less successful, but all have at least tried to consider what rights mean. The overall impression is of an agency that recognizes the important rights challenges, but has not yet fully decided what they mean for programming, or how they sit next to more traditional interventions."
 research_topic: "Other"
@@ -68,7 +69,8 @@ Abstract United Nations Development Programme worked to build a rights-based app
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a United Nations web page discussing ensuring Indigenous Peoples' rights in the age of AI. It is a policy-oriented document addressing data sovereignty, rights-based approaches, and the intersection of AI development with indigenous communities. No datasets, benchmarks, or LLM evaluations are involved.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
 ethics_perspective: "Responsible AI"
@@ -71,6 +72,11 @@ ethics_perspective: "Responsible AI"
 ## Abstract
 
 Maori algorithmic sovereignty is the idea that algorithms that use Maori data, or that are applied to Maori individuals or collectives, or environments that Maori have rights and interests in, are subject to laws and governance structures of Maori. Extends Maori data sovereignty principles to fit the context of algorithms, re-working underlying sub-principles to address issues related to responsible algorithms from a Maori perspective. Gives Maori a way to meaningfully participate in all aspects of algorithm development, deployment, and use.
+
+## Data Description
+
+This paper defines Maori Algorithmic Sovereignty (MASov) and presents a set of principles and sub-principles extending Maori Data Sovereignty to the domain of algorithms. It proposes culturally grounded frameworks for assessing and decolonizing algorithms applied to Maori people and data, rooted in Te Tiriti o Waitangi and Maori tikanga (cultural values). No datasets or benchmarks are created; the paper is a conceptual and policy-oriented framework.
+
 
 ## Notes
 

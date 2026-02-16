@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_TSAI2024
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Why AI May Undermine Phronesis and What to Do about It
 
@@ -63,7 +64,7 @@ Phronesis, or practical wisdom, is a capacity the possession of which enables on
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis examining how AI may undermine phronesis (practical wisdom) and proposes the principle of epistemic heed to reconcile the tensions between epistemic fulfillment and epistemic deference to superintelligent AI.
+This is a philosophical paper that examines whether AI undermines practical wisdom (phronesis) and proposes the 'principle of epistemic heed' as a middle ground between fully deferring to AI and ignoring its output. The paper does not create any dataset or benchmark; it engages in normative philosophical analysis about AI's relationship to human rational capacity and flourishing.
 
 
 ## Notes

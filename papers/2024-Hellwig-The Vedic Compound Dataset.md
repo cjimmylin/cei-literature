@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,7 +76,7 @@ Annotated compounds from Vedic Sanskrit (1500-500 BCE texts)
 
 ## Data Description
 
-The Vedic Compound Dataset (VCD) is the first annotated compound resource for Vedic Sanskrit, containing nearly 7,000 two-word compounds with morphological, syntactic (internal and external UD relations), chronological, and subtradition annotations. The dataset classifies compounds into five categories based on Scalise and Bisetto's scheme (coordinate, subordinate, attributive, each endo- or exocentric). A multinomial regression classifier was tested on this linguistic dataset, but no LLMs were evaluated.
+The Vedic Compound Dataset (VCD) is the first resource providing annotated compounds from Vedic Sanskrit (ca. 1500-500 BCE). It contains compounds annotated with their internal syntactic relations using Universal Dependencies annotations, drawn from the Vedic Treebank of approximately 32,000 sentences. The dataset covers five of six basic compound types and includes experiments with a simple ML classifier.
 
 
 ## Notes

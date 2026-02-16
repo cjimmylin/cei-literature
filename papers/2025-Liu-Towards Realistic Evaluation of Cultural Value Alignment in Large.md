@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Evaluates cultural value alignment through survey response simulation. Enhances diversity in simulated responses to better capture cultural nuances including Korean values. Uses World Values Survey as ground truth."
 ethics_perspective: "AI Safety & Alignment"
@@ -71,7 +72,8 @@ Evaluates cultural value alignment through survey response simulation. Enhances 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Proposes methods for realistic evaluation of cultural value alignment in LLMs through diversity enhancement for survey response simulation. Uses World Values Survey as ground truth covering multiple cultures. No PDF extract available; specific models tested could not be confirmed from metadata alone.
+
 
 ## Notes
 

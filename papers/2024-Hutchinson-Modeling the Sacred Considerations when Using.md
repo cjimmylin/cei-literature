@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -73,7 +74,7 @@ Empirical survey of NLP papers using religious texts
 
 ## Data Description
 
-This position paper examines the ethical considerations of using religious texts (Bible, Quran, etc.) in NLP research. It presents an empirical study of ACL Anthology papers mentioning sacred texts but does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This position paper examines ethical considerations in using religious texts (Bible, Quran, etc.) in NLP research. It includes an empirical study of NLP papers in the ACL Anthology that use sacred texts and discusses issues of data provenance, cultural contexts, proselytism, and researcher positionality. No dataset or benchmark is created, and no LLMs are tested.
 
 
 ## Notes

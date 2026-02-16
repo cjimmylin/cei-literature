@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Is ETHICS about ethics? Evaluating the ETHICS benchmark
 
@@ -71,7 +72,7 @@ ETHICS is probably the most-cited dataset for testing the ethical capabilities o
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a critical evaluation of the ETHICS benchmark dataset, examining its validity from perspectives of moral theory, construct validity, and prompt quality. The authors relabeled 100 randomly sampled prompts from each of three moral theory categories, finding considerable proportions of poor-quality prompts and labels (e.g., 19% label disagreement in utilitarianism prompts).
+This paper critically evaluates the ETHICS benchmark (Hendrycks et al.) by examining its validity for measuring ethical reasoning in language models. The authors re-labeled 100 randomly sampled prompts from each of three moral theory categories (deontology, utilitarianism, virtue ethics) and found significant quality issues: 19% disagreement in utilitarianism labels, 17% requiring more context, and 18% of deontology prompts testable without ethical reasoning. No LLMs are tested; the focus is on benchmark design flaws.
 
 
 ## Notes

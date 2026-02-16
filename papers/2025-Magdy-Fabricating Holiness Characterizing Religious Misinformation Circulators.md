@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ Fabricated Hadith dataset from Arabic social media (size in paper)
 
 ## Data Description
 
-This paper studies the spread of fabricated Hadith (quotes attributed to Prophet Muhammad) on Arabic social media (Twitter/X) as a case of religious misinformation. The dataset includes 559 circulators and 559 debunkers of fabricated Hadith, collected using the MAHADDAT dataset (2,452 fabricated hadiths), Islamweb archives, and refuting terms. Logistic regression was used to classify users, achieving 87.7% accuracy. No LLM models were tested or evaluated.
+Studies the spread of fabricated Hadith (religious quotes attributed to Prophet Muhammad) on Arabic social media. Uses Logistic Regression to characterize user behavior of fabricated Hadith circulators vs. debunkers. Collects data from Twitter/X using MAHADDAT and LK Corpus as seed datasets. No LLMs tested; uses traditional ML methods.
 
 
 ## Notes

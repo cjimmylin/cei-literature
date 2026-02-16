@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://llmglobalvalues.anthropic.com/"
 tags: 
 abstract: 
 ethics_perspective: "General Ethics"
@@ -67,7 +68,8 @@ Based on the search results, I found several relevant research papers and projec
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This entry links to Anthropic's LLM Global Values interactive visualization tool, which explores how LLMs respond to World Values Survey questions across multiple languages and cultural contexts. It examines the relationship between multilingual capabilities and cultural alignment in LLMs. Without the full underlying research paper, the specific models evaluated cannot be confirmed from the web page metadata alone.
+
 
 ## Notes
 

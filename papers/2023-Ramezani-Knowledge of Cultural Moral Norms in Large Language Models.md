@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "BERT, GPT-2, GPT-3"
 DATA_URL: "https://github.com/AidaRamezani/cultural_inference"
 tags: 
 abstract: "Moral norms vary across cultures. A recent line of work suggests that English large language models contain human-like moral biases, but these studies typically do not examine moral variation in a diverse cultural setting. We investigate the extent to which monolingual English language models contain knowledge about moral norms in different countries. We consider two levels of analysis: 1) whether language models capture fine-grained moral variation across countries over a variety of topics..."
@@ -65,6 +66,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Investigates whether monolingual English LLMs capture moral variation across 55 countries using World Values Survey and PEW data. Pre-trained models predict empirical moral norms across countries worse than English norms; fine-tuning improves cross-country inference.
+
+## Data Description
+
+The paper investigates whether English pre-trained language models encode knowledge about moral norms across different cultures. Using World Values Survey data (55 countries) and PEW Global Attitudes survey (40 countries), the authors probe Sentence-BERT, GPT-2, and GPT-3 for cultural moral knowledge. The study finds that pre-trained models predict empirical moral norms across countries worse than English-only norms, but fine-tuning on survey data improves cross-cultural inference at the cost of English norm accuracy.
+
 
 ## Notes
 

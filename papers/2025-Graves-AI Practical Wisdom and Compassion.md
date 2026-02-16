@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_GRAVES2025
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI practical wisdom and compassion
 
@@ -81,7 +82,7 @@ Operationalizing compassionate AI involves recognizing suffering, empathetic eng
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper proposing artificial practical wisdom grounded in compassion as an approach to AI alignment, integrating Aristotelian virtue ethics with cross-cultural perspectives on suffering from utilitarianism, Buddhism, and moral psychology.
+This is a theoretical paper proposing artificial practical wisdom grounded in compassion as an approach to AI alignment. It integrates Aristotelian practical wisdom with cross-cultural perspectives on suffering from utilitarianism, Buddhism, the Capability Approach, and contemporary moral psychology. The paper discusses operationalizing compassion in AI systems for healthcare applications but does not create or evaluate any dataset or benchmark.
 
 
 ## Notes

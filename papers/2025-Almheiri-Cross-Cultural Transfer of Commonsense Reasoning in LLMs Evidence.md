@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen-2.5-7B-Instruct, Gemma-2, ALLaM, SILMA-9B-Instruct"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) often reflect Western-centric biases, limiting their effectiveness in diverse cultural contexts. Although some work has explored cultural alignment, the potential for cross-cultural transfer, using alignment in one culture to improve performance in others, remains underexplored. This paper investigates cross-cultural transfer of commonsense reasoning in the Arab world, where linguistic and historical similarities coexist with local cultural differences."
 ethics_perspective: "Social & Cultural Values"
@@ -68,6 +69,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Investigates cross-cultural transfer of commonsense reasoning in LLMs across the Arab world (13 countries). Finds 12 culture-specific examples from one country improve performance in others by 10% average. DITTO method achieves 34% accuracy gains. Out-of-culture demonstrations from Indonesia/US can match in-culture alignment, highlighting cross-cultural transferability.
+
+## Data Description
+
+Evaluates cross-cultural transfer of commonsense reasoning in LLMs using evidence from Arabic contexts. Tests four models via in-context learning (ICL) and DITTO methods on Arabic commonsense reasoning tasks, examining whether cultural knowledge transfers across languages.
+
 
 ## Notes
 

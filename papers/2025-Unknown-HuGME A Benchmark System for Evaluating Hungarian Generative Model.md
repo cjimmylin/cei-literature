@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://hugme.nytud.hu/"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 First benchmark system dedicated to testing Hungarian LLMs covering linguistic proficiency, cultural & contextual understanding, and ethical considerations including bias and toxicity. Uses LLM-as-a-judge with six manually curated datasets. Presented at GEM Workshop at ACL 2025.
+
+## Data Description
+
+HuGME is the first benchmark system dedicated to evaluating Hungarian-language LLMs, covering linguistic proficiency, cultural and contextual understanding, and ethical considerations including bias and toxicity. It uses an LLM-as-a-judge approach with six manually curated datasets. Without access to the full paper, the specific models evaluated cannot be confirmed from the abstract alone. Presented at the GEM Workshop at ACL 2025.
+
 
 ## Notes
 

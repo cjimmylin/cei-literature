@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Carvalho_pt-gl: Galician-Portuguese generative model with 1.3B parameters trained on 6B+ words balanced between both varieties. Evaluated on CALAME-PT benchmark."
 research_topic: "Other"
@@ -73,7 +74,8 @@ Carvalho_pt-gl: Galician-Portuguese generative model with 1.3B parameters traine
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The paper presents Carvalho_pt-gl, a Galician-Portuguese generative language model with 1.3 billion parameters trained on 6 billion+ words balanced between both language varieties. The model was evaluated on the CALAME-PT benchmark. No PDF extract or detailed experimental data is available; based on metadata, the paper focuses on building and evaluating a low-resource language model rather than testing existing LLMs.
+
 
 ## Notes
 

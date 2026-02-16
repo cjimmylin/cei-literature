@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,11 +34,10 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "Gemma-2-9B, Llama-3.1-8B, Mistral-7B, Qwen-2.5-7B"
 DATA_URL: "https://huggingface.co/collections/Holmeister/turkish-llm-multi-prompt-evaluation-datasets-676994cd18391bb6e813bec3"
 tags: 
-abstract:
-research_topic: "Other"
+abstract: "Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets. Covers fairness, truthfulness, ethics, and NLP proficiency dimensions. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness. Directly evaluates ethics, fairness, and trustworthiness of LLMs in Turkish. Multi-faceted evaluation including prompt robustness and comparison of fine-tuned vs chat models."
 ---
 # How do LLMs perform on Turkish? A multi-faceted multi-prompt evaluation
 
@@ -68,6 +68,11 @@ research_topic: "Other"
 ## Abstract
 
 Comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets with multi-prompt approach. Covers fairness, truthfulness, and machine ethics. Found gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness.
+
+## Data Description
+
+This paper presents a comprehensive evaluation of 10 open-source LLMs across 11 tasks using 17 datasets for Turkish language. The evaluation covers fairness, truthfulness, machine ethics, and NLP proficiency dimensions with a multi-prompt approach to test robustness. Results show gemma2-9b-it outperforms other chat LLMs in understanding and trustworthiness for Turkish.
+
 
 ## Notes
 

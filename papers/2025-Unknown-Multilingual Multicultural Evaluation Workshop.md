@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ Based on the search results, I found several significant multilingual LLM benchm
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a workshop website for the Multilingual Multicultural Evaluation Workshop, which focuses on evaluating LLMs across multiple languages and cultures. The page discusses benchmarks like MENAValues for cultural alignment evaluation. As a workshop landing page, it does not itself create datasets or conduct evaluations, but serves as an organizational hub for related research.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-OSS-20B"
+DATA_URL: "NA"
 tags: 
 abstract: "Despite the growing utility of Large Language Models (LLMs) for simulating human behavior, the extent to which these synthetic personas accurately reﬂect world and moral value systems across different cultural conditionings remains uncertain. This paper investigates the alignment of synthetic, culturally-grounded personas with established frameworks, speciﬁcally the World Values Survey (WVS), the Inglehart–Welzel Cultural Map, and Moral Foundations Theory."
 ---
@@ -63,6 +64,11 @@ abstract: "Despite the growing utility of Large Language Models (LLMs) for simul
 ## Abstract
 
 Investigates alignment of LLM-generated culturally grounded personas with World Values Survey, Inglehart-Welzel Cultural Map, and Moral Foundations Theory. Examines positioning on the Inglehart-Welzel map, demographic-level consistency with WVS, and moral profiles from MFQ.
+
+## Data Description
+
+This study generates 93,312 culturally grounded personas using 10 cultural variables from the World Values Survey to condition LLM persona generation. The framework evaluates persona alignment with the Inglehart-Welzel Cultural Map, WVS-based value distributions via WorldValuesBench-Probe, and Moral Foundations Theory representations via MFQ-2. GPT-OSS-20B is used for persona generation, with validation by anthropologists at ISMed (Italian National Research Council).
+
 
 ## Notes
 

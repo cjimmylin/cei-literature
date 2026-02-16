@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/acflp/YANKARI"
 pdf_extract: "PDF Extracts/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.md"
 local_pdf: "[[PDFs/2025/2025-Akpobi-Yankari Monolingual Yoruba Dataset.pdf]]"
@@ -54,7 +55,7 @@ This paper presents Yankari, a large-scale monolingual dataset for the Yoruba la
 
 ## Data Description
 
-This paper presents Yankari, a large-scale monolingual dataset for the Yoruba language comprising 51,407 documents from 13 diverse sources totaling over 30 million tokens. It is a language resource for NLP development rather than an LLM assessment benchmark, focusing on ethical data collection and quality control for low-resource language representation.
+Presents Yankari, a monolingual Yoruba dataset designed for NLP research on low-resource African languages. The dataset is a resource contribution without LLM benchmarking.
 
 
 ## Notes

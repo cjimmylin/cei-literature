@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, Claude-3-Opus, Llama-3.1-70B"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -68,6 +69,11 @@ research_topic: "Other"
 ## Abstract
 
 Investigates which figures LLMs identify as most prominent across fields using prompts in 10 languages. Finds minimal diversity with a 'superstar effect' — a few individuals dominate responses across all languages, risking narrowed global knowledge representation.
+
+## Data Description
+
+The study examines which prominent figures are predicted by three LLMs (GPT-4, Claude-3-Opus, Llama-3.1-70B-Instruct) as the most celebrated individuals across 15 professional fields, using prompts in 10 languages with 5 descriptive adjectives. A total of 11,250 iterations were generated. The findings reveal a 'superstar effect' where a small number of globally recognized figures dominate responses regardless of language, highlighting risks of narrowing global knowledge representation.
+
 
 ## Notes
 

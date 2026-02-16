@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Voting-Based System for Ethical Decision Making
 
@@ -71,7 +72,7 @@ We present a general approach to automating ethical decisions, drawing on machin
 
 ## Data Description
 
-The paper uses the Moral Machine dataset consisting of 18,254,285 pairwise comparisons from 1,303,778 voters on ethical dilemmas in the autonomous vehicle domain. Each alternative is characterized by 23 features (relation to vehicle, legality, and counts of 20 character types). The system learns voter preference models using Thurstone-Mosteller processes with maximum likelihood estimation, summarizes them into a single model, and aggregates preferences using computational social choice theory.
+This paper proposes a voting-based system for automating ethical decisions, combining machine learning and computational social choice theory. It learns individual preference models from pairwise comparisons and aggregates them using a voting rule. The system is implemented and evaluated in the autonomous vehicle domain using preference data from 1.3 million people via the Moral Machine website. No LLMs are tested.
 
 
 ## Notes

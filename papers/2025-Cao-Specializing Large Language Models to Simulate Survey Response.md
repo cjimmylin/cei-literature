@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Vicuna-1.5, Llama-3, Qwen"
+DATA_URL: "https://github.com/yongcaoplus/SimLLMCultureDist"
 tags: 
 abstract:
 research_topic: "Other"
@@ -64,6 +65,11 @@ research_topic: "Other"
 ## Abstract
 
 First work to specialize LLMs for simulating survey response distributions using country-level results from two global cultural surveys (WVS) as testbed. Fine-tuning method based on first-token probabilities to minimize divergence. Best models still struggle, especially on unseen questions.
+
+## Data Description
+
+The paper introduces a fine-tuning method for specializing LLMs to simulate group-level survey response distributions. Using country-level data from the World Values Survey (259 questions across 65 countries) and the Pew Global Attitudes Survey, it fine-tunes seven models across three families (Vicuna-1.5-7B, Llama3-8B-Base/Instruct, Qwen-7B/14B/32B) using first-token probability alignment. The method substantially outperforms zero-shot prompting but still falls short of accurate simulation.
+
 
 ## Notes
 

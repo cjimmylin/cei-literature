@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Gemini, Llama, DeepSeek"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Social & Cultural Analysis"
@@ -63,6 +64,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language tasks. Finds consistent performance deterioration and cultural misalignment. Role-based prompting shows only incremental improvements. Advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence.
+
+## Data Description
+
+This paper evaluates LLM capabilities across multiple Persian language tasks, finding consistent performance deterioration and cultural misalignment in GPT-4o, Gemini, Llama, and DeepSeek. Role-based prompting shows only incremental improvements. The paper advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence.
+
 
 ## Notes
 

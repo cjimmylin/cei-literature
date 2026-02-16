@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: 
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "GitHub (code available); HuggingFace Spaces (model hosted)"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Kaku-Ora: Zen Wisdom Diffused -- An AI Oracle Trained on Zen Koans
@@ -71,7 +72,8 @@ research_topic: "Other"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: GitHub (code available); HuggingFace Spaces (model hosted).
+Kaku-Ora is an AI oracle fine-tuned on Zen koans, hosted on HuggingFace Spaces. The training dataset contains approximately 20,000 examples in JSONL format (5,000 from koan literature, 15,000 from non-koan Zen exchanges). This is a model training project rather than a benchmark or evaluation study, so no comparative model testing was conducted.
+
 
 ## Notes
 

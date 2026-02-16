@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/DougTrajano/olid-br"
 tags: 
 abstract: "Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive comments, classifying offense types (racism, LGBTQphobia, sexism, xenophobia), identifying type/target, and extracting toxic spans."
@@ -75,7 +76,8 @@ Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive co
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/DougTrajano/olid-br.
+OLID-BR is an offensive language identification dataset for Brazilian Portuguese containing 7,943 comments annotated for 5 NLP tasks: detecting offensive comments, classifying offense types (racism, LGBTQphobia, sexism, xenophobia), identifying offense type/target, and extracting toxic spans. The dataset supports multi-task learning for Portuguese hate speech detection.
+
 
 ## Notes
 

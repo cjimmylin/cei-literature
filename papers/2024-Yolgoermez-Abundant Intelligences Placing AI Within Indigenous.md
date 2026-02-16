@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ tags:
 abstract: "The current trajectory of artificial intelligence development suffers from fundamental epistemological shortcomings, resulting in the systematic operationalization of bias against non-white, non-male, and non-Western peoples. We argue that these failings are, in part, the result of certain Western rationalist epistemologies that exclude many ways of knowing about the world, and therefore they cannot provide a sufficient foundation on which to adequately, robustly, and humanely conceptualize..."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: Other
 ethics_perspective: "Social & Cultural Values"
 ---
@@ -74,7 +75,8 @@ N/A (research program description)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/.
+This paper presents Abundant Intelligences, an Indigenous-led interdisciplinary research program that reimagines how to conceptualize and design AI based on Indigenous knowledge (IK) systems. It argues that Western rationalist epistemologies underlying current AI are insufficient and proposes using Indigenous knowledge systems to rebuild AI's epistemological foundations. The paper does not create a dataset or benchmark; it outlines a research agenda organized around three axes: Integrations, Imaginaries, and Intelligences.
+
 
 ## Notes
 

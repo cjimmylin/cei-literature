@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4-mini, Gemini 1.5 Flash, Gemini 1.5 Pro, Claude 3.5 Sonnet, SenseChat, Aya-23, Gemma-2, Llama-3.1, Mistral Nemo, Yi-1.5, Qwen-2"
+DATA_URL: "https://github.com/hon9kon9ize/hkeval2025"
 tags: 
 abstract: "The ability of language models to comprehend and interact in diverse linguistic and cultural landscapes is crucial. The Cantonese language used in Hong Kong presents unique challenges for natural language processing due to its rich cultural nuances and lack of dedicated evaluation datasets. The HKCanto-Eval benchmark addresses this gap by evaluating the performance of large language models (LLMs) on Cantonese language understanding tasks, extending to English and Written Chinese for..."
 research_topic: "Social & Cultural Analysis"
@@ -66,6 +67,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Benchmark for evaluating LLMs on Cantonese language understanding with cross-lingual evaluation in English and Written Chinese. Covers Food Culture, History and Landmarks, Language and Expressions, Life in Hong Kong, Local Area Knowledge. Published at CoNLL 2025.
+
+## Data Description
+
+HKCanto-Eval is a benchmark for evaluating LLMs on Cantonese language understanding and Hong Kong cultural comprehension. It includes translated MMLU questions (14,042), academic/professional exams, cultural questions (277), linguistic knowledge tasks (phonological, orthographic, G2P), and NLP tasks (translation, summarization, sentiment analysis). Over 20 models were evaluated including proprietary and open-weight models across multiple families.
+
 
 ## Notes
 

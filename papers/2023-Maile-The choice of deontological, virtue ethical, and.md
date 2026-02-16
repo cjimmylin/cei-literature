@@ -1,4 +1,5 @@
 ---
+
 Human View: Yes
 Human View Date: 2026/1/24
 Human View note: "Police use of moral reasoning"
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Maile-The choice of deontological, virtue ethical, and.md"
 local_pdf: "[[PDFs/2023/2023-Maile-The choice of deontological, virtue ethical, and.pdf]]"
 ---
@@ -97,7 +98,7 @@ None mentioned.
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It reports on a cross-sectional survey study of 571 pre- and in-service U.K. police officers examining their moral reasoning strategies (deontological, virtue ethical, consequentialist) in response to six bespoke ethical dilemmas specific to policing practice.
+This empirical study examines moral reasoning strategies of 571 pre- and in-service police officers in the U.K. using a cross-sectional survey design. Participants responded to bespoke work-related moral quandaries and their preferences for deontological, virtue ethical, and consequentialist-utilitarian reasoning were analyzed. The study finds deontological reasoning is dominant, with virtue ethics second. This is a social science study with no AI models or datasets involved.
 
 
 ## Notes

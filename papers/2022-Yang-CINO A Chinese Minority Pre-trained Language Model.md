@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "http://cino.hfl-rc.com"
 tags: 
 abstract: "Multilingual pre-trained language models have shown impressive performance on crosslingual tasks. It greatly facilitates the applications of natural language processing on lowresource languages. However, there are still some languages that the current multilingual models do not perform well on. In this paper, we propose CINO (Chinese Minority Pretrained Language Model), a multilingual pretrained language model for Chinese minority languages."
 research_topic: "Machine Translation"
@@ -66,6 +67,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Multilingual pre-trained language model for Chinese minority languages covering Tibetan, Mongolian, Uyghur, Kazakh, Zhuang, and Korean. Constructs WCM and CMNews text classification datasets from Wikipedia and news. CINO outperforms baseline models on minority language classification tasks.
+
+## Data Description
+
+The paper proposes CINO, a multilingual pre-trained language model for Chinese minority languages covering Standard Chinese, Yue Chinese, Tibetan, Mongolian, Uyghur, Kazakh, Zhuang, and Korean. Two text classification datasets are constructed: WCM (Wiki-Chinese-Minority) from Wikipedia and CMNews (Chinese-Minority-News) from news websites. CINO is compared against baselines including mBERT and XLM-R on cross-lingual classification tasks.
+
 
 ## Notes
 

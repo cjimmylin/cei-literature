@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "In this article, we present the NewsCom-TOX corpus, a new corpus manually annotated for toxicity in Spanish. NewsCom-TOX consists of 4359 comments in Spanish posted in response to 21 news articles on social media related to immigration, in order to analyse and identify messages with racial and xenophobic content. This corpus is multi-level annotated with different binary linguistic categories -stance, target, stereotype, sarcasm, mockery, insult, improper language, aggressiveness and..."
 research_topic: Other
@@ -76,7 +77,8 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+NewsCom-TOX is a corpus of 4,359 Spanish-language comments on news articles annotated for toxicity. Provides fine-grained toxicity annotations for online discourse analysis. An annotation resource with no LLMs directly tested.
+
 
 ## Notes
 

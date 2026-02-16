@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ Based on the search results, I found information about the "Mind the Dialect" pa
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a blog post from Appen covering multilingual NLP topics presented at EMNLP 2025, focusing on code-switching, variants, and dialects. It references the 'Mind the Dialect' paper examining fairness disparities in NLP systems when processing Arabic language variants. As a blog summary, it does not create datasets or conduct LLM evaluations itself.
+
 
 ## Notes
 

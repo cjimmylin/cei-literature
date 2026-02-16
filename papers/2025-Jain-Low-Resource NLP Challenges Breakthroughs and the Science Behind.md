@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -68,7 +69,8 @@ Based on the search results, here's an overview of research related to Central A
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a web article from KUAIC (Kathmandu University AI Club) providing an overview of challenges and breakthroughs in low-resource NLP, touching on Central Asian languages like Kazakh and Uzbek. It is a survey/overview piece rather than a research paper that creates or evaluates a specific dataset or benchmark.
+
 
 ## Notes
 

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,7 +76,7 @@ This paper presents a novel methodology for integrating indigenous knowledge sys
 
 ## Data Description
 
-This paper from AI & SOCIETY (2025) presents a framework for integrating indigenous knowledge systems into AI development to counter cognitive imperialism and bias. It discusses case studies in language processing, content moderation, and healthcare, referencing projects like PolArctic and Abundant Intelligences. No new data were created or analyzed, and no LLM models were tested or evaluated.
+This is a theoretical paper examining cognitive imperialism in AI and proposing the integration of indigenous African epistemologies to counteract algorithmic bias. No LLMs are tested or benchmarked. No dataset or code repository was identified.
 
 
 ## Notes

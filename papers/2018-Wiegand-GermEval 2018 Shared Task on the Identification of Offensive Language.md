@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -74,7 +75,7 @@ This paper presents GermEval 2018, a shared task competition for identifying off
 
 ## Data Description
 
-The paper describes the GermEval 2018 shared task on identification of offensive language in German tweets, featuring a dataset of 8,541 tweets annotated for coarse-grained (OFFENSE/OTHER) and fine-grained (ABUSE/INSULT/PROFANITY/OTHER) classification. Twenty teams participated, submitting 51 runs for the coarse-grained task and 25 for the fine-grained task, using approaches including SVMs, CNNs, LSTMs, and GRUs. No large language models were tested or evaluated.
+This paper presents the pilot edition of the GermEval Shared Task on offensive language identification in German tweets. It includes a coarse-grained binary classification task and a fine-grained multi-class task. Twenty teams submitted 51 runs for the coarse-grained task and 25 runs for the fine-grained task. The submitted systems are traditional ML and early neural classifiers, not LLMs.
 
 
 ## Notes

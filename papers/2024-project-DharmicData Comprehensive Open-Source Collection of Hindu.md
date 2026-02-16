@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "> Comprehensive structured JSON collection of major Hindu sacred texts ready for ML/LLM analysis. Covers Vedas, epics, and Gita. Open Database License. Suitable as training or evaluation corpus for Hindu knowledge QA."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/bhavykhatri/DharmicData (ODbL license)"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/bhavykhatri/DharmicData"
 research_topic: "Other"
 ---
 # DharmicData: Comprehensive Open-Source Collection of Hindu Sacred Texts
@@ -71,7 +72,8 @@ Ramcharitmanas, Bhagavad Gita, Mahabharata (~1 lakh shlokas), Valmiki Ramayana, 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/bhavykhatri/DharmicData (ODbL license).
+Comprehensive structured JSON collection of major Hindu sacred texts including Ramcharitmanas, Bhagavad Gita, Mahabharata, Valmiki Ramayana, Rigveda, Yajurveda, and Atharvaveda. Designed for ML/LLM training or evaluation on Hindu knowledge QA, released under Open Database License.
+
 
 ## Notes
 

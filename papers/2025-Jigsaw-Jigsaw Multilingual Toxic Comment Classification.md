@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
 tags: 
 abstract: 
@@ -66,7 +67,8 @@ Based on the search results, here's what I found about the multilingual toxicity
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification.
+This is a Kaggle competition by Google's Jigsaw team for multilingual toxic comment classification. The challenge focuses on building machine learning models that can identify toxicity in online conversations across multiple languages, where toxicity is defined as anything rude, disrespectful, or likely to make someone leave a discussion. The competition provides multilingual training and test datasets for participants.
+
 
 ## Notes
 

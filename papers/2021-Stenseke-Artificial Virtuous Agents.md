@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_STENSEKE2021
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Artificial virtuous agents: from theory to machine implementation
 
@@ -73,7 +74,7 @@ Drawing on previous conceptual and technical work, the paper outlines a version 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper that explores how virtue ethics can be implemented in artificial moral agents, presenting a comprehensive framework based on moral functionalism, connectionist bottom-up learning, and eudaimonic reward for the technical development of artificial virtuous agents.
+This is a theoretical paper that presents a comprehensive framework for building artificial virtuous agents (AVAs) based on virtue ethics. It outlines how virtue ethics can be implemented in machines using moral functionalism, connectionist bottom-up learning, and eudaimonic reward. No dataset is created, no benchmark is evaluated, and no LLMs are tested.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://culturalvqa.org/"
+LLM_assessed: "GPT-4, Gemini, Claude, LLaVA, InternVL"
+DATA_URL: "https://culturalvqa.org"
 tags: 
 abstract: "Foundation models and vision-language pretraining have notably advanced Vision Language Models (VLMs), enabling multimodal processing of visual and linguistic data. However, their performance has been typically assessed on general scene understanding – recognizing objects, attributes, and actions – rather than cultural comprehension. This study introduces CULTURALVQA, a visual question-answering benchmark aimed at assessing VLM’s geo-diverse cultural understanding."
 research_topic: "Social & Cultural Analysis"
@@ -71,6 +72,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Introduces CulturalVQA, a VQA benchmark with 2,378 image-question pairs from 11 countries including Nigeria, Ethiopia, and Rwanda. Reveals significant disparity in VLM cultural understanding, with strong performance for North America but significantly weaker capabilities for Africa (29.7% gap for Ethiopia).
+
+## Data Description
+
+CulturalVQA is a visual question-answering benchmark with 2,378 image-question pairs (7,206 total answers) representing cultures from 11 countries across 5 continents. Questions probe understanding of clothing, food, drinks, rituals, and traditions. Multiple VLMs are evaluated including GPT-4o, Gemini-Pro-Vision, Claude 3.5, LLaVA-1.5, LLaVA-Next, and InternVL, revealing significant performance disparities between Western and non-Western cultural understanding.
+
 
 ## Notes
 

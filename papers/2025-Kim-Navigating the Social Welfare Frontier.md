@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Navigating the Social Welfare Frontier: Portfolios for Multi-objective Reinforcement Learning
 
@@ -58,7 +59,7 @@ This research addresses challenges in multi-objective reinforcement learning (RL
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It addresses multi-objective reinforcement learning (MORL) for preference aggregation among multiple stakeholders using generalized p-mean social welfare functions. The work proposes portfolio algorithms that compute small sets of approximately optimal policies across different fairness criteria, with experiments on synthetic and real-world healthcare intervention domains using restless multi-armed bandits.
+Theoretical paper on multi-objective reinforcement learning for navigating social welfare frontiers using portfolio-based approaches. Does not test or benchmark any LLMs; focuses on mathematical frameworks for welfare optimization.
 
 
 ## Notes

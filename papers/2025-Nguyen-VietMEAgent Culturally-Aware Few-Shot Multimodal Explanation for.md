@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "BLIP-VQA; LXMERT; PaLM-VQA; Gemini-2.0-Pro"
 DATA_URL: "https://huggingface.co/datasets/Dangindev/viet-cultural-vqa"
 tags: 
 abstract: "Contemporary Visual Question Answering (VQA) systems remain constrained when confronted with culturally specific content, largely because cultural knowledge is under-represented in training corpora and the reasoning process is not rendered interpretable to end users. This paper introduces VietMEAgent, a multimodal explainable framework engineered for Vietnamese cultural understanding. The method integrates a cultural object detection backbone with a structured program generation layer, yielding..."
@@ -67,6 +68,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 A multimodal explainable framework for Vietnamese cultural understanding featuring a Vietnamese Cultural VQA dataset of 28,484 annotated samples spanning twelve categories. Unifies cultural object detection, program-structured reasoning, and knowledge-grounded explanation to address cultural knowledge gaps in VQA systems.
+
+## Data Description
+
+The paper introduces the Vietnamese Cultural VQA dataset with 28,484 question-answer pairs about Vietnamese cultural concepts, paired with culturally relevant images. VietMEAgent is an agent-based system using Gemini 2.0 Pro for culturally-aware few-shot multimodal explanation. Baseline VQA models (BLIP-VQA, LXMERT, PaLM-VQA) are benchmarked. Dataset is available on HuggingFace.
+
 
 ## Notes
 

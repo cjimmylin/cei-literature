@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-5.1, Claude Sonnet 4.5, Gemini 2.5 Pro, Grok 4, DeepSeek-V3.2, Qwen3-Max, Kimi-K2, Lingguang, Doubao, Wenxin Yiyan 5.0-Preview"
+DATA_URL: "NA"
 tags: 
 abstract: "Cultural backgrounds shape individuals’ perspectives and approaches to problem-solving. Since the emergence of GPT-1 in 2018, large language models (LLMs) have undergone rapid development. To date, the world’s ten leading LLM developers are primarily based in China and the United States. To examine whether LLMs released by Chinese and U.S. developers exhibit cultural differences in Chinese-language settings, we evaluate their performance on questions about Chinese culture."
 research_topic: "Social & Cultural Analysis"
@@ -64,6 +65,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Evaluates Chinese and US LLMs (GPT-5.1, DeepSeek-V3.2, Qwen3-Max, Gemini2.5Pro) on traditional Chinese culture including history, literature, and poetry. Chinese models generally outperform their US counterparts.
+
+## Data Description
+
+This study evaluates 10 LLMs (6 Chinese, 4 American) on traditional Chinese cultural knowledge using 629 questions across three formats (456 multiple-choice, 144 fill-in-the-blank, 29 short-answer). Questions span six categories: traditional cultural knowledge, literary classics, history, opera and music, poetry and prose, and notable historical figures. Chinese LLMs consistently outperform American counterparts, with the largest gaps on fill-in-the-blank and short-answer questions.
+
 
 ## Notes
 

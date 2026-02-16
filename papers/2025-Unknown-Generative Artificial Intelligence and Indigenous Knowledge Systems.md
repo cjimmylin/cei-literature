@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/download/1602/1221/"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Social & Cultural Values"
@@ -65,6 +66,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Systematic review examining how GenAI applications within Indigenous Knowledge Systems can contribute to epistemic and cultural justice in Latin America and the Global South. Identifies four interrelated axes: Preservation and revitalization of knowledge; Culturally situated educational and evaluative tools; Data governance frameworks and knowledge cocreation; Decolonial imagination of creativity. Searches Scopus and Web of Science 2023-2025.
+
+## Data Description
+
+This is a systematic review following the PRISMA protocol, analyzing 15 studies on the intersection of Generative AI and Indigenous Knowledge Systems in the Global South. It identifies four axes of analysis: preservation/revitalization of knowledge, culturally situated educational tools, data governance frameworks, and decolonial imagination of creativity. No LLMs are tested; the paper is a theoretical and conceptual review of GenAI's relationship to epistemic justice and data colonialism.
+
 
 ## Notes
 

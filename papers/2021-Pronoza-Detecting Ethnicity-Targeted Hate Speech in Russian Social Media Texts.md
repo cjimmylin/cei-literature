@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/hse-scila/ethnohate-project"
 tags: 
 abstract: "First dataset annotated with ethnicity-targeted hate speech in Russian (5.5K texts). Constructed from 2.6M user messages mentioning ethnic groups with 12K annotated instances. Addresses differentiation of attitudes towards different ethnic groups."
@@ -75,7 +76,8 @@ First dataset annotated with ethnicity-targeted hate speech in Russian (5.5K tex
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/hse-scila/ethnohate-project.
+The paper creates the first dataset annotated for ethnicity-targeted hate speech in Russian, containing 5,500 texts constructed from 2.6 million user messages mentioning ethnic groups, with 12,000 annotated instances. It addresses the differentiation of attitudes towards different ethnic groups in Russian social media. No LLMs were tested; the PDF extract contained no readable text due to the scanned nature of the document.
+
 
 ## Notes
 

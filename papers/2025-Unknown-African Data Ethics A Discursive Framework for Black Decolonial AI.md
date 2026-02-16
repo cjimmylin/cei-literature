@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "The shift towards pluralism in global data ethics acknowledges the importance of including perspectives from the Global Majority to develop responsible data science practices that mitigate systemic harms in the current data science ecosystem. Sub-Saharan African (SSA) practitioners, in particular, are disseminating progressive data ethics principles and best practices for identifying and navigating anti-blackness and data colonialism."
 ethics_perspective: "Responsible AI"
@@ -69,6 +70,11 @@ ethics_perspective: "Responsible AI"
 ## Abstract
 
 Presents a framework for African data ethics with six principles including Challenge Power Asymmetries, Assert Data Self-Determination, Utilize Communalist Practices, Center Communities on the Margins. Grounded in African communitarian theories.
+
+## Data Description
+
+This paper presents a framework for African data ethics informed by thematic analysis of 50 interdisciplinary documents. The framework features six principles: Challenge Power Asymmetries, Assert Data Self-Determination, Invest in Local Data Institutions, Utilize Communalist Practices, Center Communities on the Margins, and Uphold Common Good. It compares the framework against seven particularist data ethics frameworks. No LLMs, datasets, or benchmarks are created or evaluated.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://osf.io/m3v48/"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # People Expect Artificial Moral Advisors to be More Utilitarian and Distrust Utilitarian Moral Advisors
 
@@ -124,7 +125,7 @@ None mentioned - PDF extraction was unsuccessful due to access restrictions; sum
 
 ## Data Description
 
-The paper presents four pre-registered behavioral studies (total N=2604) investigating how people perceive and trust artificial moral advisors compared to human advisors. Participants from the UK were recruited through Prolific.ac and presented with classic sacrificial moral dilemmas where advisors gave utilitarian or non-utilitarian advice. The study measures trust, willingness to adopt advice, blame attribution, and expected future agreement.
+This paper presents four pre-registered studies (total N=2,604 participants) investigating how people perceive and trust artificial moral advisors (AMAs) compared to human advisors. The studies examine algorithmic aversion in the moral domain, finding that people expect AI to make utilitarian decisions and show significant aversion to AMAs giving moral advice. No LLMs were tested; this is a human behavioral/psychology study.
 
 
 ## Notes

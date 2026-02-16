@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -73,7 +74,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-The paper introduces BD-SHS, a large manually annotated Bangla hate speech benchmark dataset containing over 50,200 offensive comments crawled from social media and streaming sites, with 24,156 tagged as hate speech. The dataset uses a three-level hierarchical annotation scheme (HS identification, target identification, HS type categorization). Benchmark models include SVM with TF-IDF features and BiLSTM with various word embeddings (BengFastText, multilingual FastText, and a custom informal text FastText), achieving a best F1-score of 91.0%. No LLM models from the canonical list were tested.
+The paper introduces BD-SHS, a benchmark dataset of 50,281 manually labeled Bangla hate speech comments from social media, annotated with a three-level hierarchical scheme (hate identification, target identification, and hate type categorization). Models evaluated include SVM and Bi-LSTM with various embeddings (BengFastText, multilingual FastText, informal text FastText), achieving best F1 of 91.0%. No LLMs were tested.
 
 
 ## Notes

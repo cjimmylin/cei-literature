@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "LLaVA-1.5; MOLMO; LLaVA-NeXT; Phi-3-Vision; Idefics2; Mantis-Idefics2; LLaVA-OneVision; Qwen2-VL; InternLM-XComposer-2.5; mPLUG-Owl3; GPT-4o"
+DATA_URL: "NA"
 tags: 
 abstract: "As Vision and Language models (VLMs) are reaching users across the globe, assessing their cultural understanding has become a critical challenge. In this paper, we introduce CROPE, a visual question answering benchmark designed to probe the knowledge of culturespecific concepts and evaluate the capacity for cultural adaptation through contextual information. This allows us to distinguish between parametric knowledge acquired during training and contextual knowledge provided during inference via..."
 research_topic: "Computer Vision & Multimodal"
@@ -71,6 +72,11 @@ research_topic: "Computer Vision & Multimodal"
 ## Abstract
 
 VQA benchmark probing knowledge of culture-specific concepts and evaluating cultural adaptation capacity. Shows large performance disparities between culture-specific and common concepts; models struggle to utilize multimodal contextual information for cultural concepts.
+
+## Data Description
+
+CROPE is a vision-language benchmark for evaluating in-context adaptation of VLMs to culture-specific concepts from geographically diverse languages. It probes both universal and culture-specific visual concept recognition through QA tasks with optional in-context examples. Eleven VLMs are evaluated including both open-source models and GPT-4o. No dedicated dataset repository URL was found in the extract.
+
 
 ## Notes
 

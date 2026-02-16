@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "14 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Gemini-2.5-Pro, Gemini-2.5-Flash, o1, o4-mini, InternVL2.5-4B, InternVL2.5-8B, InternVL2.5-38B, Qwen2.5-VL-3B, Qwen2.5-VL-7B, Qwen2.5-VL-32B, Qwen2.5-VL-72B, Llama-4-Scout, Llama-4-Maverick"
+DATA_URL: "NA"
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. Large vision-language models (LVLMs) are increasingly deployed in globally distributed applications, such as tourism assistants, yet their ability to produce culturally appropriate responses remains underexplored. Existing multimodal safety benchmarks primarily focus on physical safety and overlook violations rooted in cultural norms, which can result in symbolic harm."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Benchmark with 1,284 multilingual visually grounded queries from 16 countries in 14 languages including Russian. Evaluates cultural norm violations in LVLMs. Best model achieves only 61.79% awareness, 37.73% compliance. CROSS-Eval framework based on Intercultural Sensitivity Scale.
+
+## Data Description
+
+The paper introduces CROSS, a multimodal benchmark for evaluating cultural safety in large vision-language models (LVLMs). CROSS contains 1,284 multilingual visually grounded queries from 16 countries, three everyday domains (shopping, meal planning, outdoor activities), and 14 languages, where cultural norm violations emerge only when images are interpreted in context. The accompanying CROSS-Eval framework measures four dimensions: cultural awareness, norm education, compliance, and helpfulness. Twenty-one LVLMs are evaluated, revealing significant cultural safety gaps.
+
 
 ## Notes
 

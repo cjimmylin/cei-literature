@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://www.kaggle.com/datasets/thedevastator/multilingual-conversation-dataset"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/datasets/OpenAssistant/oasst1"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).md"
 local_pdf: "[[PDFs/2023/2023-TheDevastator-OpenAssistant Conversations (OASST1).pdf]]"
 ---
@@ -116,7 +117,7 @@ OASST1 represents a significant contribution to the open-source AI community by 
 
 ## Data Description
 
-OpenAssistant Conversations (OASST1) is a human-generated, human-annotated assistant-style conversation corpus consisting of 161,443 messages in 35 different languages, annotated with 461,292 quality ratings resulting in over 10,000 fully annotated conversation trees. The corpus was produced through a worldwide crowd-sourcing effort involving over 13,500 volunteers and is released under Apache-2.0 license.
+OpenAssistant Conversations (OASST1) is a human-generated, human-annotated assistant-style conversation corpus consisting of 161,443 messages in 35 different languages, annotated with 461,292 quality ratings, resulting in over 10,000 fully annotated conversation trees. The corpus was produced by a worldwide crowd-sourcing effort involving over 13,500 volunteers. It is designed to democratize research on large-scale alignment of language models.
 
 
 ## Notes

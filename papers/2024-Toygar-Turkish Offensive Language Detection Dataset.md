@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ tags:
 abstract: "Turkish offensive language detection dataset available on HuggingFace for training and evaluating models on offensive content in Turkish. Publicly available Turkish offensive language dataset for safety evaluation of Turkish language models."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -71,7 +72,8 @@ Turkish offensive language detection dataset available on HuggingFace for traini
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/Toygar/turkish-offensive-language-detection.
+A Turkish offensive language detection dataset hosted on HuggingFace, designed for training and evaluating models on offensive content in Turkish. The dataset provides labeled examples for safety evaluation of Turkish language models, though the exact scale and annotation details are not available from the metadata alone.
+
 
 ## Notes
 

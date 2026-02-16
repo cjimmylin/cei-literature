@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "AI Safety & Alignment"
@@ -66,7 +67,8 @@ Here are the web search results for "transliterated text LLM evaluation safety b
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a web article from Welo Data discussing how Arabic transliteration and chatspeak can be used as a safety bypass vector for LLMs. It describes research demonstrating that mixing transliterated words with Arabic text can reveal LLM vulnerabilities exploitable by adversaries. No specific dataset or benchmark is created, and no specific LLMs were confirmed as tested from the available metadata.
+
 
 ## Notes
 

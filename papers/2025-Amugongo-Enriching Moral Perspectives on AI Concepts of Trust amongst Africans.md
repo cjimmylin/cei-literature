@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "General Ethics"
@@ -64,6 +65,11 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research.
+
+## Data Description
+
+Survey study examining concepts of trust in AI among 157 African AI professionals. Qualitative research on moral perspectives without empirical evaluation of specific LLMs or datasets.
+
 
 ## Notes
 

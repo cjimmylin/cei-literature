@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/Niger-Volta-LTI/yoruba-voice"
 ---
 # ÌròyìnSpeech: A Multi-purpose Yorùbá Speech Corpus
@@ -53,7 +54,7 @@ We introduce ÌròyìnSpeech corpus—a new dataset influenced by a desire to in
 
 ## Data Description
 
-This paper introduces IroyinSpeech, a 42-hour multi-purpose Yoruba speech corpus recorded by 80 volunteers, curated from news and creative writing domains for Text-to-Speech and Automatic Speech Recognition tasks. Baseline experiments include VITS speech synthesis models and Conformer ASR models, but no large language models are tested.
+Multi-purpose Yoruba speech corpus for TTS, ASR, and speech-to-speech translation. Not an LLM evaluation study; focuses on speech technology resources for Yoruba as a low-resource language.
 
 
 ## Notes

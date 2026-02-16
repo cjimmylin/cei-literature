@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4"
+DATA_URL: "https://github.com/Khushangz/Cross-Cultural-Social-Norms-Dataset/"
 tags: 
 abstract: "Shame and pride are social emotions expressed across cultures to motivate and regulate people’s thoughts, feelings, and behaviors. In this paper, we introduce the first cross-cultural dataset of over 10k shame/pride-related expressions, with underlying social expectations from 5.4K Bollywood and Hollywood movies. We examine how and why shame and pride are expressed across cultures using a blend of psychology-informed language analysis combined with large language models."
 research_topic: "Social & Cultural Analysis"
@@ -64,6 +65,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 First cross-cultural dataset of 10K+ shame/pride-related expressions from 5.4K Bollywood and Hollywood movies. Uses psychology-informed language analysis combined with LLMs. Bollywood: shame toward others, correlated with sexual/female/conflict categories; pride centered on collective achievement. Releases 10K culture-specific social norms for LLM evaluation.
+
+## Data Description
+
+Cross-cultural analysis of shame, pride, and social norms in cinema using GPT-4 for norm extraction from movie scripts across cultures. Dataset of social norms extracted from films spanning multiple cultural contexts. Released on GitHub.
+
 
 ## Notes
 

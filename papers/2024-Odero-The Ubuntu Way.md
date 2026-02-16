@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  The Ubuntu Way: Ensuring Ethical AI Integration in Health Research
 
@@ -54,7 +55,7 @@ This paper proposes a new ethics framework that integrates the **Ubuntu** philos
 
 ## Data Description
 
-The PDF extract does not correspond to the expected paper on Ubuntu philosophy. The extracted content is a scoping review on Public Financial Management and health system efficiency, containing no LLM-related data or benchmarks.
+This paper proposes a research ethics framework integrating Ubuntu philosophy (communalism, interconnectedness, collective well-being) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making. No LLMs, datasets, or benchmarks are created or evaluated; the PDF extract contained an unrelated paper on public financial management.
 
 
 ## Notes

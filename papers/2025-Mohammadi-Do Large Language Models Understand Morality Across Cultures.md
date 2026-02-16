@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-2-Medium; GPT-2-Large; OPT-125M; OPT-350M; BLOOM-560M; BLOOMZ-560M; Qwen-0.5B"
+DATA_URL: "NA"
 tags: 
 abstract: "Recent advancements in large language models (LLMs) have established them as powerful tools across numerous domains. However, persistent concerns about embedded biases, such as gender, racial, and cultural biases arising from their training data, raise significant questions about the ethical use and societal consequences of these technologies. This study investigates the extent to which LLMs capture cross-cultural differences and similarities in moral perspectives."
 ethics_perspective: "Social & Cultural Values"
@@ -64,6 +65,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Investigates whether LLMs capture cross-cultural moral variation using international survey data. Finds LLMs fail to reproduce the full spectrum of cross-cultural moral variation, tending to compress differences. Uses WVS data covering African countries among 55+ nations.
+
+## Data Description
+
+The paper probes whether LLMs encode moral judgments consistent with cross-cultural survey data from the World Values Survey (WVS) and Pew Research Center. Seven language models of varying sizes are tested using cloze-style moral judgment tasks. The study finds that models partially reflect cultural moral variation but with significant inconsistencies across cultural clusters.
+
 
 ## Notes
 

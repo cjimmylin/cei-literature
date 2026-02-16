@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md"
 local_pdf: "[[PDFs/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.pdf]]"
 ---
@@ -103,7 +104,7 @@ None mentioned - this is a conceptual paper. No datasets were generated or analy
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual paper proposing that pro-social rule breaking (PSRB) behavior should be incorporated into AI-enabled socio-technical systems as a mechanism to overcome weaknesses in current deontological and consequentialist approaches to ethical AI.
+This is a conceptual paper proposing pro-social rule breaking (PSRB) behavior as a requirement for ethically sound AI agents. It introduces a hypothetical ethical dilemma scenario (the 'Invading User Space Dilemma') involving a healthcare robot as a benchmark for evaluating PSRB behavior, but no actual dataset or empirical evaluation is conducted.
 
 
 ## Notes

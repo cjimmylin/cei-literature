@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/mideind/IcelandicEval"
 tags: 
 abstract: 
@@ -72,7 +73,7 @@ IcelandicEval provides a set of utilities for generating evaluation datasets to 
 
 ## Data Description
 
-Utilities for generating Icelandic LLM evaluation datasets focused on word inflection and grammatical correctness. Includes noun phrase inflection tasks across all four cases in singular and plural. Does not introduce a specific benchmark dataset but provides tooling for evaluation.
+IcelandicEval is a toolkit providing utilities for generating Icelandic LLM evaluation datasets, focusing on word inflection and grammatical correctness tasks. It includes noun phrase inflection across all four Icelandic grammatical cases in singular and plural forms. Rather than providing a fixed benchmark dataset, the project offers flexible tooling for researchers to generate Icelandic-specific evaluation data.
 
 
 ## Notes

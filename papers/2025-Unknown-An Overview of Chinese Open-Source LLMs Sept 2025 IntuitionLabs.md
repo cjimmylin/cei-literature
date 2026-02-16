@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ Here are the search results for "Chinese cultural knowledge LLM evaluation 2025 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a web article from IntuitionLabs providing an overview of Chinese open-source LLMs as of September 2025. It discusses models and their performance but is an industry overview/blog post rather than a peer-reviewed paper. No original dataset, benchmark, or systematic LLM evaluation is created by the authors.
+
 
 ## Notes
 

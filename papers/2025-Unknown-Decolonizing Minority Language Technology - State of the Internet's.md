@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a web report from the State of the Internet's Languages project discussing decolonization in minority language technology. It does not create or evaluate any dataset or benchmark, nor does it test any LLMs. The piece addresses how dominant Western perspectives in NLP marginalize indigenous languages such as Guarani, Hawaiian, Inuktitut, and others.
+
 
 ## Notes
 

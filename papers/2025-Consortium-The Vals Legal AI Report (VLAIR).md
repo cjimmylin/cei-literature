@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -29,8 +30,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://www.vals.ai/vlair"
 pdf_extract: 
 no_pdf_applicable: true
 local_pdf: N/A
@@ -94,7 +95,7 @@ The VLAIR report and benchmark methodology serve as industry resources for evalu
 
 ## Data Description
 
-This report benchmarks commercial legal AI tools (Harvey Assistant, CoCounsel, Vincent AI, Oliver) on over 500 samples from Am Law 100 firms across seven legal tasks. However, it evaluates proprietary legal AI products rather than testing specific LLMs from canonical model families, using an LLM-as-judge methodology for assessment.
+VLAIR is the first independent benchmarking study evaluating legal generative AI tools against lawyer baselines across seven tasks: Document Extraction, Document Q&A, Summarization, Redlining, Transcript Analysis, Chronology Generation, and EDGAR Research. Five vendor tools were tested (Harvey, CoCounsel, Vincent AI, Oliver, LexisNexis) on 500+ samples from Am Law 100 firms. The study uses LLM-as-judge methodology but evaluates commercial legal AI products rather than base LLMs.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-3.5, Llama-2, Mistral, Falcon, AYA, Zephyr, WizardLM"
 DATA_URL: "https://github.com/Veranep/MBBQ"
 tags: 
 abstract: "Generative large language models (LLMs) have been shown to exhibit harmful biases and stereotypes. While safety fine-tuning typically takes place in English, if at all, these models are being used by speakers of many different languages. There is existing evidence that the performance of these models is inconsistent across languages and that they discriminate based on demographic factors of the user."
@@ -67,6 +68,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Hand-checked translation of English BBQ bias benchmark into Dutch, Spanish, and Turkish. Measures cross-lingual differences in stereotypes held across these languages. Finds models are generally most biased in Spanish and least biased in English or Turkish when bias scores differ significantly.
+
+## Data Description
+
+MBBQ (Multilingual Bias Benchmark for Question-answering) is a hand-checked translation of the English BBQ bias benchmark into Dutch, Spanish, and Turkish, measuring stereotypes across 6 bias categories common to all four languages. It includes a parallel control dataset measuring task performance independently from bias. Seven LLMs are evaluated for cross-lingual bias behavior, finding that non-English languages suffer from more bias even when controlling for cultural shifts.
+
 
 ## Notes
 

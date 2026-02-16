@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Technical Risks of (Lethal) Autonomous Weapons Systems
 
@@ -93,7 +94,7 @@ None mentioned - this is a policy whitepaper with no datasets or code released.
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a whitepaper analyzing technical risks of lethal autonomous weapons systems, discussing machine learning algorithms conceptually (supervised, unsupervised, reinforcement learning) without testing any specific LLM.
+This whitepaper from Encode Justice outlines technical risks associated with Lethal Autonomous Weapons Systems (LAWS), including the black-box nature of AI decision-making, susceptibility to reward hacking, goal misgeneralization, and emergent behaviors escaping human control. It is a policy analysis paper and does not create any dataset or benchmark, nor does it test any LLMs.
 
 
 ## Notes

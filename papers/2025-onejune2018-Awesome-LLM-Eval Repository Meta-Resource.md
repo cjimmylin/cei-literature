@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ abstract:
 research_topic: "Other"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/AthenaCore/AwesomeResponsibleAI"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/onejune2018/Awesome-LLM-Eval"
 no_pdf_applicable: true
 pdf_extract: 
 local_pdf: N/A
@@ -67,7 +68,8 @@ See report
 
 ## Data Description
 
-No PDF extract available for analysis.
+Awesome-LLM-Eval is a curated meta-resource repository that aggregates links to LLM evaluation benchmarks, safety papers, and responsible AI tools. It is a collection of pointers to other resources rather than a benchmark or dataset itself. The repository does not evaluate any specific models.
+
 
 ## Notes
 

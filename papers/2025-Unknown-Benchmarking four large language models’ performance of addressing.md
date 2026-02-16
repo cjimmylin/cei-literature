@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ Based on the search results, here are the key findings about Classical Chinese L
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This ScienceDirect paper benchmarks four large language models on addressing Chinese patients' inquiries about dry eye disease in a two-phase study. Insufficient metadata is available to determine specific LLM model names. The abstract in the vault references C3Bench (Classical Chinese Understanding benchmark) rather than the actual paper content, indicating possible metadata confusion during import.
+
 
 ## Notes
 

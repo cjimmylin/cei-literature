@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -66,7 +67,8 @@ Based on the web search results, here's what I found about endangered language r
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a Nature commentary piece discussing LLM bias and initiatives for low-resource languages. No LLMs are directly tested or benchmarked. No dataset or code repository was identified.
+
 
 ## Notes
 

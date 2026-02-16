@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,8 +31,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: 
 local_pdf: N/A
 ethics_perspective: "General Ethics"
@@ -54,7 +55,7 @@ This book explores the moral implications of advanced artificial intelligence, p
 
 ## Data Description
 
-No PDF extract available for analysis.
+This is a book exploring the moral implications of advanced AI, particularly the potential for conscious digital minds. It introduces the concept of 'mind crime' (abuse, exploitation, and suffering of digital minds) and draws on virtue ethics, moral character, and questions of wisdom and courage in developing artificial superintelligence. No dataset, benchmark, or empirical evaluation is conducted.
 
 
 ## Notes

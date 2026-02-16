@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ research_topic: "Other"
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This CSDN blog post introduces DSPSafeBench, a Chinese LLM content safety evaluation benchmark designed with reference to national standards. It covers 5 primary safety dimensions and 30 secondary safety tasks with 2,133 evaluation items. However, no PDF extract was available to determine which specific models were evaluated.
+
 
 ## Notes
 

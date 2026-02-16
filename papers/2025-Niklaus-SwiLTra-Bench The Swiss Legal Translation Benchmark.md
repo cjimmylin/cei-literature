@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://github.com/JoelNiklaus/SwissLegalTranslations"
+LLM_assessed: "Claude-3.5-Sonnet; Claude-3.5-Haiku; GPT-4o; GPT-4o-Mini; Gemini-1.5-Pro; Gemini-1.5-Flash; Llama-3.1-405B; Llama-3.3-70B; Gemma-2-2B; Gemma-2-9B; Llama-3.2-1B; Llama-3.2-3B; Llama-3.1-8B; Phi-3.5-Mini; Phi-3-Medium; Qwen-2.5-0.5B; Qwen-2.5-1.5B; Qwen-2.5-3B; Qwen-2.5-7B; Qwen-2.5-14B; Qwen-2.5-32B"
+DATA_URL: "NA"
 tags: 
 abstract: "In Switzerland legal translation is uniquely important due to the country’s four official languages and requirements for multilingual legal documentation. However, this process traditionally relies on professionals who must be both legal experts and skilled translators— creating bottlenecks and impacting effective access to justice. To address this challenge, we introduce SwiLTra-Bench, a comprehensive multilingual benchmark of over 180K aligned Swiss legal translation pairs comprising laws,..."
 ethics_perspective: "AI Safety & Alignment"
@@ -71,6 +72,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Comprehensive multilingual benchmark of 180K+ aligned Swiss legal translation pairs across all Swiss languages plus English. Includes SwiLTra-Judge for automated translation quality assessment. Frontier models outperform fine-tuned open SLMs.
+
+## Data Description
+
+SwiLTra-Bench is a Swiss legal translation benchmark containing 180,000+ aligned text pairs across German, French, and Italian, drawn from Swiss federal laws, court decision headnotes, and Supreme Court press releases. Eight frontier LLMs and thirteen fine-tuned SLMs (across Gemma-2, Llama, Phi-3, and Qwen-2.5 families) are evaluated. No dedicated dataset repository was found in the extract.
+
 
 ## Notes
 

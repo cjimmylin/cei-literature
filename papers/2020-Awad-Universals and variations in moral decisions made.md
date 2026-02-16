@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://bit.ly/2Y7Brr9"
+LLM_assessed: "NA"
+DATA_URL: "https://moralmachine.mit.edu"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
 ---
@@ -108,7 +109,7 @@ The authors conclude that the qualitative Switch-Loop-Footbridge pattern reflect
 
 ## Data Description
 
-The paper presents a cross-cultural dataset of moral decisions collected from approximately 70,000 participants in 10 languages and 42 countries via the Moral Machine website's Classic mode. Participants responded to three variants of the trolley problem (Switch, Loop, and Footbridge), with a minimum of 200 responses per scenario and country. All data and code are deposited on the Open Science Framework.
+The paper analyzes responses to three sacrificial moral dilemmas (trolley problem variants) from 70,000 participants across 42 countries and 10 languages, collected via the Moral Machine website. It identifies universal qualitative ordering of sacrifice acceptability across all countries but substantial quantitative variations, with low relational mobility strongly associated with rejection of sacrifices for the greater good (especially in Eastern countries). The full dataset is made publicly available as a resource for studying universals and variations in human morality.
 
 
 ## Notes

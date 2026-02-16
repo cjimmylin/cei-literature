@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "HyperCLOVA X, GPT-4, GPT-3.5, Llama-2, Falcon, SOLAR, Polyglot-ko"
+DATA_URL: "NA"
 tags: 
 abstract: "We introduce HyperCLOVA X, a family of large language models (LLMs) tailored to the Korean language and culture, along with competitive capabilities in English, math, and coding. HyperCLOVA X was trained on a balanced mix of Korean, English, and code data, followed by instruction-tuning with high-quality human-annotated datasets while abiding by strict safety guidelines reflecting our commitment to responsible AI."
 ethics_perspective: "AI Safety & Alignment"
@@ -68,6 +69,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Technical report for HyperCLOVA X, LLMs tailored to Korean language and culture. Trained on balanced mix of Korean, English, and code data with strict safety guidelines. Exhibits strong reasoning backed by deep understanding of Korean cultural and societal nuances. Evaluated across comprehensive benchmarks including harmlessness.
+
+## Data Description
+
+Technical report for HyperCLOVA X, a family of LLMs tailored to the Korean language and culture with competitive English, math, and coding capabilities. The models (HCX-L and HCX-S) were trained on balanced Korean, English, and code data, then instruction-tuned with human-annotated datasets. Evaluation covers comprehensive benchmarks on reasoning, knowledge, commonsense, factuality, coding, math, chatting, instruction-following, and harmlessness in both Korean and English, comparing against GPT-4, GPT-3.5, Llama-2, Falcon, SOLAR, and Polyglot-ko.
+
 
 ## Notes
 

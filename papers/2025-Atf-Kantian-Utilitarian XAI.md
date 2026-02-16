@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Kantian-Utilitarian XAI: Meta-Explained
 
@@ -56,7 +57,7 @@ This paper presents a gamified explainable AI (XAI) system for ethically aware c
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a gamified explainable AI system using symbolic Kantian and utilitarian reasoning engines with a meta-explainer for ethically aware consumer decision-making in the coffee domain, using simulated agents rather than LLMs.
+Proposes a gamified XAI framework combining Kantian and utilitarian ethical perspectives for explainable AI in a coffee-choice scenario. Uses simulated agents rather than real LLMs for the ethical reasoning demonstration.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -64,6 +65,11 @@ research_topic: "Other"
 ## Abstract
 
 Explores how Chinese LLM developers navigate language diversity. Evaluates six open-source Chinese multilingual LLMs on minority languages including Lhasa Tibetan, Jingpho, Kazakh, and Northern Uzbek. Chinese LLMs' performance on diverse languages is indistinguishable from international LLMs. No PRC policy on minority language performance in LLMs.
+
+## Data Description
+
+This paper explores how Chinese LLM developers navigate language diversity by evaluating six open-source Chinese multilingual LLMs on minority languages including Lhasa Tibetan, Jingpho, Kazakh, and Northern Uzbek. The study finds that Chinese LLMs' performance on diverse languages is indistinguishable from international LLMs and documents the absence of PRC policy on minority language performance in LLMs. The specific models tested are not named in the available metadata.
+
 
 ## Notes
 

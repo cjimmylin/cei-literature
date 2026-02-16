@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ tags:
 abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Large-scale Nepali hate speech dataset focused on political discourse and community targeting."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/shucoll/NEHate"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -75,7 +76,8 @@ Unknown
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/shucoll/NEHate.
+NEHATE is a large-scale dataset of 13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. The dataset is focused on political discourse and community targeting in the context of Nepali local elections. No LLMs were tested; the paper focuses on dataset construction and annotation for Nepali hate speech detection.
+
 
 ## Notes
 

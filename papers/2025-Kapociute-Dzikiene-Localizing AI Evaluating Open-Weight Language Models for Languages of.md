@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "20 words"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3, Llama-3.1, Llama-3.2, Gemma-2, Phi-3, GPT-3.5-Turbo, GPT-4o, Lt-Llama-2"
+DATA_URL: "NA"
 tags: 
 abstract: "Although large language models (LLMs) have transformed our expectations of modern language technologies, concerns over data privacy often restrict the use of commercially available LLMs hosted outside of EU jurisdictions. This limits their application in governmental, defence, and other data-sensitive sectors. In this work, we evaluate the extent to which locally deployable open-weight LLMs support lesser-spoken languages such as Lithuanian, Latvian, and Estonian."
 research_topic: "Machine Translation"
@@ -68,6 +69,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Evaluates locally deployable open-weight LLMs on Lithuanian, Latvian, and Estonian across MT, QA, and text generation. Gemma 2 27B approaches GPT-4o performance. Motivated by EU data privacy concerns for governmental use.
+
+## Data Description
+
+Evaluates open-weight LLMs on Baltic languages (Lithuanian, Latvian, Estonian) using FLORES-200 machine translation and Belebele reading comprehension benchmarks. Also tests NeMo and a locally fine-tuned Lt-Llama-2 model. No new dataset released; uses existing public benchmarks.
+
 
 ## Notes
 

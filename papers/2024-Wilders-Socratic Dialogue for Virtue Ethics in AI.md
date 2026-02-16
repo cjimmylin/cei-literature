@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Socratic Dialogue for Virtue Ethics in AI
 
@@ -62,7 +63,7 @@ This paper presents the Socratic Dialogue as a method for implementing virtue et
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a qualitative case study examining how the Socratic Dialogue method can cultivate moral virtues among AI practitioners at a financial bank's transaction monitoring department.
+This paper investigates how the Socratic Dialogue method can cultivate moral virtues among AI practitioners. Using a case study at a financial bank's transaction monitoring department, seven participants (data scientists, legal specialists, ethics experts) engaged in a facilitated Socratic Dialogue about ethical dilemmas in AI-driven fraud detection. The paper does not create any dataset or benchmark; it is a qualitative study on virtue ethics practice in AI contexts.
 
 
 ## Notes

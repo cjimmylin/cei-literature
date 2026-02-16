@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o-mini, Llama-3.1-70B, mBERT, BERTimbau"
 DATA_URL: "https://github.com/franciellevargas/SMRA"
 tags: 
 abstract: "Hate speech detection models rely on surfacelevel lexical features, increasing vulnerability to spurious correlations and limiting robustness, cultural contextualization, and interpretability. We propose Supervised Moral Rationale Attention (SMRA)1, the first selfexplaining hate speech detection framework to incorporate moral rationales as direct supervision for attention alignment. Based on Moral Foundations Theory, SMRA aligns token-level attention with expert-annotated moral rationales,..."
@@ -67,6 +68,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 Introduces HateBRMoralXplain, a Brazilian Portuguese benchmark dataset with 7,000 Instagram comments annotated with hate labels, moral categories, token-level moral rationales, and socio-political metadata. Proposes SMRA framework for supervised moral rationale attention grounded in Moral Foundations Theory.
+
+## Data Description
+
+This paper introduces SMRA (Supervised Moral Rationale Attention), a self-explaining framework for hate speech detection that aligns model attention with human-annotated moral rationales based on Moral Foundations Theory. The paper also releases HateBRMoralXplain, the third version of the HateBR corpus with 7,000 Brazilian Portuguese Instagram comments annotated for moral categories and span-level moral rationales. LLMs are evaluated on hate speech and moral sentiment classification using multiple prompting strategies.
+
 
 ## Notes
 

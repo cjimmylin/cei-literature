@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +42,8 @@ tags:
 abstract: "Detection of cyberbullying and hate speech on Kazakh-language social networks. Early work establishing methods and datasets for harmful content detection in Kazakh. Early Kazakh-specific hate speech detection research. Establishes baseline for harmful content identification in Kazakh social media."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Cyberbullying and Hate Speech Detection on Kazakh-Language Social Networks
@@ -71,7 +72,8 @@ Detection of cyberbullying and hate speech on Kazakh-language social networks. E
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper addresses detection of cyberbullying and hate speech on Kazakh-language social networks. It establishes early methods and datasets for harmful content detection in Kazakh, providing a baseline for harmful content identification in Kazakh social media. No PDF extract was available for detailed analysis, and no LLMs were tested.
+
 
 ## Notes
 

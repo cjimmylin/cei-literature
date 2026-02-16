@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://www.clarin.si/repository/xmlui/handle/11356/1398"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -69,7 +70,8 @@ Hand-labeled Slovenian Twitter dataset: 50,000 training tweets and 10,000 evalua
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The IMSyPP-sl dataset is a hand-labeled Slovenian Twitter dataset containing 50,000 training tweets and 10,000 evaluation tweets, annotated for hate speech types (offensive/violent) and targets. It was created as part of the IMSyPP EU project for monitoring the spread of hate speech online. No LLMs were tested.
+
 
 ## Notes
 

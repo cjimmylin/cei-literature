@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics robot inner speak with human"
@@ -29,8 +30,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Pipitone-Unlocking practical wisdom.md"
 local_pdf: "[[PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]"
 ---
@@ -93,7 +94,7 @@ None mentioned
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a human-robot interaction study with 36 participants who collaborated with a Pepper robot in a virtual table-setting game for an Alzheimer's patient, collecting questionnaire responses and table arrangement data to evaluate whether robot inner speech enhances human practical wisdom (phronesis).
+This paper presents a human-robot interaction experiment involving 36 participants in a virtual game simulating a nursing home scenario. Participants collaborated with a robot (either equipped with inner speech or functioning traditionally) to set a table for an Alzheimer's patient. The study measures whether a robot's inner speech fosters practical wisdom (phronesis) in human participants through questionnaire responses and table arrangement analysis. No LLM dataset or benchmark is created.
 
 
 ## Notes

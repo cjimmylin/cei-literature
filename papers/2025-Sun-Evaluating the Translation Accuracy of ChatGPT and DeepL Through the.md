@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -66,7 +67,8 @@ Based on the search results, I found information about a comprehensive evaluatio
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper evaluates the translation accuracy of ChatGPT and other neural machine translation systems (Google Translate, Bing Translator) for Uyghur-to-English literary translation. The evaluation focuses on implied subjects and translation quality in a low-resource language context. The scale and specific dataset details are limited due to the absence of a PDF extract.
+
 
 ## Notes
 

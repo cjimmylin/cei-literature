@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ More than 43% of the languages spoken in the world are endangered, and language 
 
 ## Data Description
 
-This paper discusses how NLP can help revitalize endangered languages, using Cherokee as a case study. It proposes principles for NLP practitioners working with indigenous communities, discusses NLP-assisted language education approaches (automated quiz generation, automated assessment, community-based learning), and reviews Cherokee linguistic resources. The paper provides a roadmap rather than benchmarking LLM models, and no LLMs were tested or evaluated.
+The paper discusses how NLP can help revitalize endangered languages, using Cherokee as a case study. It proposes three principles for NLP practitioners working with indigenous communities, suggests machine-in-the-loop approaches for resource enrichment, and discusses NLP tools for language education. Code and data for Cherokee language processing are provided. No LLMs were tested.
 
 
 ## Notes

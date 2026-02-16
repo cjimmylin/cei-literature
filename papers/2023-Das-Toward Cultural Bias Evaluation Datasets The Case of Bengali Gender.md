@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
-DATA_URL: "https://zenodo.org/record/7775521"
+DATA_URL: "NA"
 tags: 
 abstract: "Critical studies found NLP systems to bias based on gender and racial identities. However, few studies focused on identities defined by cultural factors like religion and nationality. Compared to English, such research efforts are even further limited in major languages like Bengali due to the unavailability of labeled datasets. This paper describes a process for developing a bias evaluation dataset highlighting cultural influences on identity."
 ethics_perspective: "Social & Cultural Values"
@@ -74,7 +75,7 @@ Bengali Identity Bias Evaluation Dataset with 25,396 gender-based sentence pairs
 
 ## Data Description
 
-BIBED (Bengali Identity-Bias Evaluation Dataset) contains over 121,000 sentences organized using the Resource Description Framework (RDF/JSON). The dataset includes explicit bias evaluation sentence pairs across gender (female/male), religion (Hindu/Muslim), and nationality (Bangladeshi/Indian) dimensions, as well as implicit bias evaluation data based on noun phrases and colloquial lexicons. Data was compiled from existing Bengali corpora, template-based sentence generation, and curated lists of culturally relevant names and kinship terms.
+The paper describes a process for developing a cultural bias evaluation dataset highlighting cultural influences on identity for Bengali, focusing on gender, religious (Muslim/Hindu), and national (Bangladeshi/Indian) identity dimensions. It produces a Bengali bias evaluation dataset as an artifact outcome. No specific models are tested; the paper focuses on the dataset construction methodology for enabling future bias evaluation studies.
 
 
 ## Notes

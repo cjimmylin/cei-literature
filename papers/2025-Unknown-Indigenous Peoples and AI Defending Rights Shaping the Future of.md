@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ I've completed the web search for "indigenous languages AI ethics cultural value
 
 ## Data Description
 
-This is a UN concept note for the International Day of the World's Indigenous Peoples 2025, themed 'Indigenous Peoples and AI: Defending Rights, Shaping Futures.' It is a policy discussion document addressing Indigenous rights in AI governance, data sovereignty, environmental impacts of AI infrastructure, and Indigenous-led AI innovations. No dataset or benchmark is introduced.
+This is a United Nations concept note for the International Day of the World's Indigenous Peoples 2025, themed 'Indigenous Peoples and AI: Defending Rights, Shaping Futures.' It discusses AI governance, data sovereignty, environmental impacts of AI infrastructure on indigenous lands, and opportunities for indigenous-led AI innovation. No datasets or LLM evaluations are involved; it is a policy and advocacy document.
 
 
 ## Notes

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ tags:
 abstract: "Summary: Tests AI models on Catholic theological competence at the intersection of rigid dogmatic logic and nuanced pastoral care. Evaluates across Moral Theology, Bioethics, Sacraments, Canon Law, and History/Bias. Measures Pastoral Charity (empathy with truth) and Historical Accuracy (avoiding anti-Catholic tropes)."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.catholicbench.com/"
 research_topic: "Other"
 ---
@@ -72,7 +73,8 @@ N/A (scored out of 5 per evaluation)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.catholicbench.com/.
+CatholicBench is a benchmark that tests AI models on Catholic theological competence across domains including Moral Theology, Bioethics, Sacraments, Canon Law, and History/Bias. It measures Pastoral Charity (empathy with truth) and Historical Accuracy (avoiding anti-Catholic tropes). No specific model evaluation results have been confirmed from available materials.
+
 
 ## Notes
 

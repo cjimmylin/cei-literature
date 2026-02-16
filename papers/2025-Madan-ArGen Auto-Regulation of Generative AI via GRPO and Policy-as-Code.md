@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.2-1B-Instruct, Gemini, Claude-3.5-Sonnet"
+DATA_URL: "https://github.com/Principled-Evolution/gopal"
 tags: 
 abstract: "This paper introduces ArGen (Auto-Regulation of Generative AI systems), a framework for aligning Large Language Models (LLMs) with complex sets of configurable, machine-readable rules spanning ethical principles, operational safety protocols, and regulatory compliance standards. Moving beyond just preference-based alignment, ArGen is designed to ensure LLMs adhere to these multifaceted policies through a novel synthesis of principle-based automated reward scoring, Group Relative Policy..."
 ethics_perspective: "AI Safety & Alignment"
@@ -64,6 +65,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Framework translating ethical principles including Dharmic ethics (Ahimsa, Dharma from Bhagavad Gita) into machine-interpretable reward signals for LLM alignment. Case study: medical AI assistant aligned with Dharmic principles achieving 70.9% improvement in domain-scope adherence. Also references Ubuntu communalistic values.
+
+## Data Description
+
+Introduces ArGen, a framework for auto-regulation of generative AI using GRPO and Policy-as-Code. Fine-tunes Llama-3.2-1B-Instruct as the policy model, uses Gemini as the evaluator LLM for reward scoring, and validates with Claude 3.5 Sonnet. Case study applies Dharmic ethics (Ahimsa, Dharma) to a medical AI assistant (MedGuide-AI). The GOPAL governance policy library is available on GitHub.
+
 
 ## Notes
 

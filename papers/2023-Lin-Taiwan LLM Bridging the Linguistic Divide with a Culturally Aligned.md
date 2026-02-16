@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "TAIWAN-LLM, GPT-4, GPT-3.5, Claude-2.1, Llama-2"
 DATA_URL: "https://github.com/MiuLab/Taiwan-LLM"
 tags: 
 abstract: "In the realm of language models, the nuanced linguistic and cultural intricacies of Traditional Chinese, as spoken in Taiwan, have been largely overlooked. This paper introduces TAIWAN-LLM, a pioneering Large Language Model that specifically caters to the Traditional Chinese language, with a focus on the variant used in Taiwan. Leveraging a comprehensive pretraining corpus and instruction-finetuning datasets, we have developed a model that not only understands the complexities of Traditional..."
@@ -67,6 +68,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Introduces a pioneering LLM specifically for Traditional Chinese as spoken in Taiwan, leveraging comprehensive pretraining and instruction-finetuning datasets to capture both linguistic nuances and cultural context. Achieves superior performance in understanding and generating Traditional Chinese text.
+
+## Data Description
+
+The paper introduces TAIWAN-LLM, a 7B/13B parameter language model specifically designed for Traditional Chinese as used in Taiwan, built on Llama-2 with continue-pretraining on 35.1 billion Taiwanese tokens. Evaluation uses the TC-Eval benchmark suite covering contextual QA (DRCD, FGC), world knowledge (TTQA, TMMLU), summarization (XSum-TC), classification (IMDB-TC), and table understanding. TAIWAN-LLM 13B achieves 53.99% average, comparable to GPT-3.5 turbo's 53.96%.
+
 
 ## Notes
 

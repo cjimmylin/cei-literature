@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://huggingface.co/blog/leaderboard-hebrew"
+LLM_assessed: "NA"
+DATA_URL: "https://huggingface.co/spaces/hebrew-llm-leaderboard/leaderboard"
 tags: 
 abstract: "Open leaderboard for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Addresses Hebrew as low-resource language with unique evaluation needs."
 research_topic: "Other"
@@ -70,7 +71,8 @@ Open leaderboard for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysi
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/blog/leaderboard-hebrew.
+Open leaderboard platform for evaluating Hebrew LLMs on four tasks: QA, Sentiment Analysis, Winograd Schema Challenge, and Translation. Addresses Hebrew as a low-resource language with unique evaluation needs. The specific models evaluated rotate as the leaderboard is continuously updated.
+
 
 ## Notes
 

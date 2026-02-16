@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +39,8 @@ tags:
 abstract: "Introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. Creates two datasets: binary (hate/not) and five-class categorization including Blasphemy and Ethnic Hatred. Achieves 98.8% accuracy (binary) and 98.6% (multiclass). Addresses Bangla-specific religious sensitivity challenges between Muslim and Hindu communities."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # hatebnBERT: An Innovative Novel Transformer Model and Datasets for Safeguarding Religious Sensitivities in Online Social Platforms
@@ -73,7 +74,8 @@ Binary classification dataset + five-class dataset (Blasphemy, Ethnic Hatred, Et
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper introduces hatebnBERT, a BERT-based model tailored to Bangla for religious hate speech detection. It creates two datasets: a binary classification dataset (hate/not) and a five-class categorization dataset (Blasphemy, Ethnic Hatred, Ethnic Group Hatred, Undetermined, Non-Hatred). The model achieves 98.8% accuracy on binary classification and 98.6% on multiclass classification, addressing Bangla-specific religious sensitivity between Muslim and Hindu communities.
+
 
 ## Notes
 

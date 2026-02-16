@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Requisite Variety Ethical Utility Functions
 
@@ -78,7 +79,7 @@ Addresses variety requirements for ethical utility functions in value alignment
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper proposing guidelines for designing ethical utility functions for AI value alignment, drawing on neuroscience (constructionist emotion theory, interoception) and psychology (dyadic morality theory) within the augmented utilitarianism framework.
+This paper proposes guidelines for designing approximate ethical utility functions for AI value alignment based on augmented utilitarianism. It performs a transdisciplinary analysis drawing on neuroscience and psychology to capture the variety of human moral judgments. This is a theoretical framework paper with no datasets, benchmarks, or computational experiments, and no LLMs are evaluated.
 
 
 ## Notes

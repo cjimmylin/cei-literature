@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -68,7 +69,8 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This essay applies Abebe Birhane's relational ethics framework to decolonize NLP for low-resource African languages. Authored by researchers from Stanford and Masakhane, it discusses how linguistic colonization persists in NLP through data extraction, diacritics loss, and exclusion of African researchers. It highlights community-driven initiatives like Masakhane, Deep Learning Indaba, and AI4D but does not create or evaluate any dataset or benchmark.
+
 
 ## Notes
 

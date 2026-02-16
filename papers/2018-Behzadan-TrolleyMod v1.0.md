@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/zminton/TrolleyMod/wiki"
 ---
 # TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles
@@ -71,7 +72,7 @@ This paper presents TrolleyMod v1.0, an open-source platform based on the CARLA 
 
 ## Data Description
 
-TrolleyMod v1.0 is an open-source simulation and data-collection platform built on the CARLA autonomous driving simulator for ethical decision-making experiments. It provides a high-fidelity 3D environment for trolley-problem scenarios where human participants or AI agents (e.g., deep reinforcement learning controllers) make driving decisions. The platform records collision outcomes and driver actions across configurable sequences of ethical dilemma scenarios, outputting results as text files or network socket data for sociological analysis and value-aligned AI training.
+TrolleyMod v1.0 is an open-source simulation platform built on the CARLA autonomous driving simulator for collecting ethical decision-making data in trolley-problem scenarios. It enables high-fidelity driving simulations where human participants or deep reinforcement learning agents face moral dilemmas. The platform is designed for data collection and agent training, not for LLM evaluation.
 
 
 ## Notes

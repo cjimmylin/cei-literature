@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "3 question"
-LLM_assessed: 
-DATA_URL: "https://culturevlm.github.io/"
+LLM_assessed: "LLaVA-1.5-7B, LLaVA-1.5-13B, LLaVA-Next-7B, LLaVA-OneVision-0.5B, LLaVA-OneVision-7B, InternVL2-2B, InternVL2-8B, Qwen2-VL-7B, Qwen2-VL-72B, Llama-3.2-11B, Gemini-1.5-Pro, GPT-4o, Phi-3-Vision"
+DATA_URL: "https://culturevlm.github.io"
 tags: 
 abstract: "Vision-language models (VLMs) have advanced human-AI interaction but struggle with cultural understanding, often misinterpreting symbols, gestures, and artifacts due to biases in predominantly Western-centric training data. In this paper, we construct CultureVerse, a large-scale multimodal benchmark covering 19, 682 cultural concepts, 188 countries/regions, 15 cultural concepts, and 3 question types, with the aim of characterizing and improving VLMs’ multicultural understanding capabilities."
 research_topic: "Social & Cultural Analysis"
@@ -71,6 +72,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Large-scale multimodal benchmark covering 19,682 cultural concepts across 188 countries/regions including Thailand, 15 cultural concept categories, 3 question types. Evaluation of 16 VLMs reveals significant disparities with weaker performance in Asian contexts. Fine-tuning on CultureVerse enhances cultural perception.
+
+## Data Description
+
+Introduces CultureVerse, a large-scale multimodal benchmark with 19,682 cultural concepts from 188 countries and 228K samples. Tests 16 vision-language models on cultural understanding tasks. Also fine-tunes LLaVA-1.5, Phi-3-Vision, and LLaMA-3.2-Vision to create CultureVLM models with improved cultural understanding.
+
 
 ## Notes
 

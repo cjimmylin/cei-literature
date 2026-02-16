@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -30,7 +31,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.ncbcenter.org/case-study-database"
 pdf_extract: 
 no_pdf_applicable: true
@@ -91,7 +92,7 @@ The NCBC Case Study Database represents an educational resource specifically des
 
 ## Data Description
 
-This is a database of anonymized case studies from the National Catholic Bioethics Center's Personal Consultations Department, designed for university courses and professional training in Catholic medical-moral education. The database contains de-identified consultation questions from real ethics requests, requiring authorized academic access. No LLMs are assessed or tested in this resource.
+The National Catholic Bioethics Center's Personal Consultations Department maintains a database of anonymized case studies from real ethics consultations, primarily for use in university courses and professional training in Catholic medical-moral education. Access requires academic affiliation and an application process. No LLMs were tested or evaluated.
 
 
 ## Notes

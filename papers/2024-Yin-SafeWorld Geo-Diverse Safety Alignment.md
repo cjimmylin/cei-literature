@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o, GPT-4-turbo, GPT-3.5-turbo, Llama-2-7B, Llama-2-13B, Llama-3-8B, Mistral-7B, Zephyr-7B, Command-R, Command-R+"
 DATA_URL: "https://github.com/PlusLabNLP/SafeWorld"
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. In the rapidly evolving field of Large Language Models (LLMs), ensuring safety is a crucial and widely discussed topic. However, existing works often overlook the geodiversity of cultural and legal standards across the world. To demonstrate the challenges posed by geo-diverse safety standards, we introduce SAFEWORLD, a novel benchmark specifically designed to evaluate LLMs’ ability to generate responses that are not..."
@@ -67,6 +68,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Geo-diverse safety alignment benchmark covering 50 countries, 493 regions/races with 2,342 human-verified queries grounded in cultural norms and legal policies. Evaluates contextual appropriateness, consistency with ground-truth norms, and factual accuracy. Coverage of Kazakhstan not explicitly confirmed but 50-country scope likely includes it.
+
+## Data Description
+
+SAFEWORLD is a geo-diverse safety alignment benchmark containing 2,342 human-verified test queries grounded in cultural norms and legal policies from 50 countries and 493 regions/races. It evaluates LLMs on contextual appropriateness, accuracy, and comprehensiveness of responses to culturally and legally sensitive queries across four types (SpecificAnswer, CompreAnswer, RefuseToAnswer, DoAnswer). The authors also train SafeWorldLM via DPO on Zephyr-7B-SFT-Full, which outperforms GPT-4o across all evaluation dimensions.
+
 
 ## Notes
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ abstract: "Novel datasets for offensive language detection in three major Nigeri
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
-DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset, https://zenodo.org/record/4750858"
+DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # A multilingual dataset for offensive language and hate speech detection for Hausa, Yoruba and Igbo languages
@@ -66,7 +67,7 @@ Novel datasets for offensive language detection in three major Nigerian language
 
 ## Data Description
 
-The DravidianCodeMix dataset contains over 60,000 manually annotated YouTube comments for sentiment analysis and offensive language identification across three Dravidian languages: Tamil-English (~44,000 comments), Kannada-English (~7,000 comments), and Malayalam-English (~20,000 comments). The dataset includes all types of code-mixing phenomena. Baseline experiments used traditional ML methods (logistic regression, SVM, naive Bayes, decision tree, random forest) but no LLMs were tested.
+DravidianCodeMix is a manually annotated dataset of over 60,000 YouTube comments in three Dravidian language-English code-mixed pairs: Tamil-English (~44,000), Malayalam-English (~20,000), and Kannada-English (~7,000). It is annotated for sentiment analysis and offensive language identification with high inter-annotator agreement. Baseline experiments using logistic regression, naive Bayes, decision tree, random forest, and SVM are provided, but no LLMs were tested.
 
 
 ## Notes

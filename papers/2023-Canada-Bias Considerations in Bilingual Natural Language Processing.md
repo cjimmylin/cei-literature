@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -69,7 +70,7 @@ This Statistics Canada research examines bias in bilingual Natural Language Proc
 
 ## Data Description
 
-Position paper discussing bias considerations in bilingual (English-French) NLP systems for Canadian context. No specific LLMs tested; provides conceptual framework and recommendations for addressing bias in bilingual language technologies.
+This Statistics Canada position paper examines bias in bilingual (English-French) NLP systems for the Canadian context. It finds that multilingual models perform 0.13 standard deviations better on English than on French, demonstrating systematic performance gaps. No specific LLMs are tested; the paper provides a conceptual framework and recommendations for addressing bias in bilingual language technologies.
 
 
 ## Notes

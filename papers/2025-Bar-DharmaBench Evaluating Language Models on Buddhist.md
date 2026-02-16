@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: 
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "Publicly released under CC-BY-4 License (code under Apache-2.0)"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # DharmaBench: Evaluating Language Models on Buddhist Texts in Sanskrit and Tibetan
@@ -72,7 +73,8 @@ research_topic: "Other"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Publicly released under CC-BY-4 License (code under Apache-2.0).
+DharmaBench presents 13 classification and detection tasks (6 Sanskrit, 7 Tibetan, 4 shared) for evaluating language models on Buddhist texts. Released under CC-BY-4 License with code under Apache-2.0. Specific evaluated models not identified from available metadata.
+
 
 ## Notes
 

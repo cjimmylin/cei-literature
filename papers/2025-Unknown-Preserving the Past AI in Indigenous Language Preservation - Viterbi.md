@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Social & Cultural Values"
@@ -67,7 +68,8 @@ I've completed the web search for "indigenous languages AI ethics cultural value
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a Viterbi Conversations in Ethics web article discussing AI's role in indigenous language preservation. It explores the opportunities and ethical challenges of using AI for preserving endangered languages such as Guarani, Hawaiian, Maori, and others. No datasets, benchmarks, or LLM evaluations are involved; it is an ethics-focused discussion piece.
+
 
 ## Notes
 

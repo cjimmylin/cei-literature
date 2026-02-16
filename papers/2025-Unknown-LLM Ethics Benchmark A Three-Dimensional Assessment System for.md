@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark"
+LLM_assessed: "GPT-4o, Claude 3.7 Sonnet, DeepSeek-V3, Llama-3.1, Gemini 2.5 Pro"
+DATA_URL: "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git"
 tags: 
 abstract:
 ethics_perspective: "Moral Reasoning & Psychology"
@@ -71,6 +72,11 @@ ethics_perspective: "Moral Reasoning & Psychology"
 ## Abstract
 
 Three-dimensional framework evaluating moral reasoning through foundational moral principles, reasoning robustness, and value consistency. Adapts Moral Foundations Questionnaire, World Values Survey, and standardized moral dilemmas. Claude and GPT-4 attain highest scores.
+
+## Data Description
+
+This study establishes a three-dimensional framework for evaluating moral reasoning in LLMs through Moral Foundation Alignment, Reasoning Quality Index, and Value Consistency Assessment. It adapts three established moral psychology instruments (MFQ-30, World Values Survey, and standardized moral dilemmas) into benchmark datasets with 50 standardized scenarios. Claude 3.7 Sonnet achieved the highest composite score (90.9), followed by GPT-4o (90.0), with LLaMA 3.1 (70B) scoring lowest (75.8). Published in Scientific Reports.
+
 
 ## Notes
 

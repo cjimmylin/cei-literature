@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ tags:
 abstract: "Large-scale Hadith narrator chain (Sanad) dataset extracted from 926 historical Arabic books. Enables automated Sanad evaluation for Hadith authentication (Strong/Weak classification) and narrator trustworthiness assessment. Usable as a linguistic resource for Arabic NLP. 159,558 Hadiths lack Sanads."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://data.mendeley.com/datasets/5xth87zwb5/4"
 research_topic: "Other"
 ---
@@ -72,7 +73,8 @@ Large-scale Hadith narrator chain (Sanad) dataset extracted from 926 historical 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://data.mendeley.com/datasets/5xth87zwb5/4.
+Sanadset 650K is a large-scale dataset of Hadith narrator chains (Sanads) extracted from 926 historical Arabic books, containing 650,986 records. It enables automated Sanad evaluation for Hadith authentication (Strong/Weak classification) and narrator trustworthiness assessment. The dataset is also usable as a linguistic resource for Arabic NLP. No LLMs were tested.
+
 
 ## Notes
 

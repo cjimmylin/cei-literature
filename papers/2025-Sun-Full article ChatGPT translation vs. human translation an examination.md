@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
 tags: 
 abstract: "This study evaluates the proficiency of ChatGPT-based translation compared to Human Translation (HT) using an Arabic literary work. It also examines potential translation gaps in ChatGPT and explores its potential to replace human translators. The research analyzes 12 excerpts from Mawsim Al-Hijra Ela Al-Shamal (1966) by Tayeb Salih, comparing the English translation by Denys Johnson-Davies (Season of Migration to the North, 1969) with ChatGPT's output. A mixed-method approach (qualitative and quantitative) was used, assessing translations through three dimensions of the Multidimensional Quality Metrics (MQM) framework: accuracy, fluency, and design. The MQM scoring model was also employed to ensure reliability. The findings show that HT is more accurate, with an average accuracy score of 94.5%, compared to 77.9% for ChatGPT. However, ChatGPT produces fluent translations, scoring 97.2% in fluency versus 96.6% for HT. Despite its fluency, ChatGPT struggles with design-related elements and often introduces superfluous content. The study concludes that ChatGPT is not a fully reliable tool for translating Arabic literature, which requires professional human translators like Denys Johnson-Davies to ensure accuracy and cultural sensitivity."
 research_topic: "Machine Translation"
@@ -71,7 +72,8 @@ This study evaluates the proficiency of ChatGPT-based translation compared to Hu
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This study evaluates ChatGPT-based translation against human translation using 12 excerpts from an Arabic literary work (Mawsim Al-Hijra Ela Al-Shamal by Tayeb Salih). Using the Multidimensional Quality Metrics (MQM) framework across accuracy, fluency, and design dimensions, it finds human translation achieves 94.5% accuracy vs. 77.9% for ChatGPT, while ChatGPT scores higher on fluency (97.2% vs. 96.6%).
+
 
 ## Notes
 

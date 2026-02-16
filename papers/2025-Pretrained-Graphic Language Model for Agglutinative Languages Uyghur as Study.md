@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ Based on the search results, I found relevant information about TarimGPT and Uyg
 
 ## Data Description
 
-This paper from CCL/NLP-NABD 2013 proposes a novel graphic language model for morphologically rich agglutinative languages, using Uyghur as a case study. The model organizes morphemes (stems and affixes) as a directed graph rather than a linear n-gram sequence. Experiments demonstrate improvements of 0.8% in morphological analysis accuracy and 1.1 BLEU points in statistical machine translation. No LLM models were tested or evaluated.
+This 2013 paper proposes a novel graphic language model for agglutinative languages using Uyghur as a case study. It organizes morphemes (stems and affixes) as a directed graph rather than a linear sequence and evaluates on morphological analysis and statistical machine translation tasks. The approach is pre-deep-learning and does not involve LLMs or create a publicly available dataset.
 
 
 ## Notes

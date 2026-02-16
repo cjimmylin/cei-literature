@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/joshua-decoder/indian-parallel-"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Resources for the non-English languages are scarce and this paper addresses this problem in the context of machine translation, by automatically extracting parallel sentence pairs from the multilingual articles available on the Internet. In this paper, we have used an endto-end Siamese bidirectional recurrent neural network to generate parallel sentences from comparable multilingual articles in Wikipedia."
 research_topic: "Machine Translation"
@@ -72,7 +73,8 @@ Machine translation–the automatic transformation of one natural language (sour
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/joshua-decoder/indian-parallel-.
+This is actually a 2018 paper (Ramesh & Sankaranarayanan) about neural machine translation for English-Hindi and English-Tamil using a Siamese BiRNN approach. The models tested are traditional NMT architectures, not LLMs. No dataset or code repository was identified in the extract.
+
 
 ## Notes
 

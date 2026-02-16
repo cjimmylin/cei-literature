@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://goo.gl/JXRrBP"
 pdf_extract: "PDF Extracts/2018/2018-Awad-The Moral Machine experiment.md"
 local_pdf: "[[PDFs/2018/2018-Awad-The Moral Machine experiment.pdf]]"
@@ -104,7 +105,7 @@ The authors conclude that while some moral preferences appear universal, substan
 
 ## Data Description
 
-The Moral Machine is a multilingual online experimental platform that gathered approximately 40 million decisions from over 2.3 million people across 233 countries and territories, exploring moral preferences in autonomous vehicle dilemma scenarios. The dataset captures human responses to nine-dimensional ethical trade-offs (e.g., sparing humans vs. pets, young vs. elderly, more vs. fewer lives) along with demographic, political, and religious survey data. Source data and reproduction code are publicly available.
+The Moral Machine experiment is a large-scale Internet-based platform that collected 40 million ethical decisions from millions of people worldwide on trolley-problem-style dilemmas for autonomous vehicles. The paper maps global moral preferences, identifying universal trends and cultural variation clustered into Western, Eastern, and Southern groups. No LLMs are tested; this is a human behavioral experiment on moral preferences.
 
 
 ## Notes

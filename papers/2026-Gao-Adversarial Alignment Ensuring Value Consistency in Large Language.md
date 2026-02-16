@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "VC-LLM, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-72B, GPT-4o, Baichuan2-13B, GLM-4-9B, Yi-1.5-34B, InternLM2.5-20B, TigerBot-70B, Ziya-LLaMA-13B, Llama-3-8B, Mistral-7B"
+DATA_URL: "https://github.com/Ad-Align/VC-LLM"
 tags: 
 abstract: "With the wide application of large language models (LLMs), the problems of bias and value inconsistency in sensitive domains have gradually emerged, especially in terms of race, society and politics. In this paper, we propose an adversarial alignment framework, which enhances the value consistency of the model in sensitive domains through continued pre-training, instruction fine-tuning and adversarial training."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Proposes adversarial alignment framework with Attacker/Actor/Critic for value consistency. Constructs bilingual Chinese-English evaluation dataset covering sovereignty, human rights, religion, politics, and ethnicity sensitive domains.
+
+## Data Description
+
+This paper introduces VC-LLM (Value-Consistent LLM) and an adversarial alignment framework for ensuring value consistency in bilingual (Chinese-English) contexts. The evaluation uses a value consistency benchmark across multiple safety and value domains. The proposed VC-LLM is compared against 13+ baseline models spanning Chinese and Western LLMs, with code and models available on GitHub.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GLM-4-Air, GPT-4o, Doubao-1.5-Pro"
+DATA_URL: "https://github.com/alexc-l/MARK-Multi-stAge-Reasoning-frameworK"
 tags: 
 abstract: "Introducing MARK, the Multi-stAge Reasoning frameworK for cultural value survey response simulation, designed to enhance the accuracy, steerability, and interpretability of large language models in this task. The system is inspired by the type dynamics theory in the MBTI psychological framework for personality research. It effectively predicts and utilizes human demographic information for simulation: life-situational stress analysis, group-level personality prediction, and self-weighted..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Introduces MARK (Multi-stAge Reasoning frameworK) for cultural value survey simulation inspired by MBTI. Tested on World Values Survey, achieves 10% accuracy improvement over baselines in predicting cross-cultural responses.
+
+## Data Description
+
+Proposes MARK, a multi-stage reasoning framework for enhancing cultural value survey simulation using personality cognition (MBTI). Tests on World Values Survey data for US and Chinese cultures. Also tested Llama-3.1-7B/13B but found them limited for cognitive simulations.
+
 
 ## Notes
 

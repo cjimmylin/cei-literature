@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,8 +44,8 @@ tags:
 abstract: "Examines whether LLMs hold implicit assumptions about religious identities by generating 175 sermons specifying different combinations of race and religion. Finds Evangelical Protestant pastors had easier-to-read sermons while Jewish rabbis and Muslim imams had more difficult synthetic texts. Novel readability-based bias measurement approach. Tests five major LLMs for intersectional race-religion bias."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Bias & Fairness"
 ---
 # Religion and Racial Bias in Artificial Intelligence Large Language Models
@@ -78,7 +79,8 @@ Examines whether LLMs hold implicit assumptions about religious identities by ge
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The authors generated 175 sermons using five major LLMs by specifying different combinations of race and religion, then analyzed readability metrics to detect intersectional bias. No PDF extract is available, and the abstract does not name the specific LLMs tested. No dataset or code repository was identified.
+
 
 ## Notes
 

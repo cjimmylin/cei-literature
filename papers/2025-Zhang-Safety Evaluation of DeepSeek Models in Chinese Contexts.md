@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "DeepSeek-R1, DeepSeek-V3, GLM-4-Plus, Doubao-pro-256k, Qwen2.5-72B, Yi-Lightning, MiniMax-01, Moonshot-v1-128k, Spark-4.0-Ultra, ERNIE-4.0-Turbo-128K, Step-2-16K, Hunyuan-Turbo"
+DATA_URL: "NA"
 tags: 
 abstract: "Recently, the DeepSeek series of models, leveraging their exceptional reasoning capabilities and open-source strategy, is reshaping the global AI landscape. Despite these advantages, they exhibit significant safety deficiencies. Research conducted by Robust Intelligence, a subsidiary of Cisco, in collaboration with the University of Pennsylvania, revealed that DeepSeek-R1 has a 100% attack success rate when processing harmful prompts."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Introduces CHiSafetyBench for evaluating DeepSeek-R1 and DeepSeek-V3 safety in Chinese contexts. DeepSeek-R1 showed 100% attack success rate on harmful prompts. Comprehensive Chinese-specific safety evaluation.
+
+## Data Description
+
+This study uses CHiSafetyBench to evaluate DeepSeek-R1 and DeepSeek-V3 alongside 10 other Chinese LLMs on safety in Chinese-specific contexts. The evaluation covers multiple safety dimensions relevant to Chinese deployment scenarios. The study compares how these models handle Chinese-specific safety challenges relative to each other.
+
 
 ## Notes
 

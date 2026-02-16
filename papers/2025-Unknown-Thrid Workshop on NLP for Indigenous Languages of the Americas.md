@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-This paper is a call for papers for the AmericasNLP 2025 workshop co-located with NAACL 2025, focused on NLP for Indigenous languages of the Americas. It does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This is a call for papers for the Fifth AmericasNLP Workshop (2025) co-located with NAACL 2025 in Albuquerque, NM. It features three shared tasks including machine translation of low-resource languages, creation of educational resources for indigenous languages, and developing metrics for MT in indigenous languages. The document itself does not present any evaluation results or datasets.
 
 
 ## Notes

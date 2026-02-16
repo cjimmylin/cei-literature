@@ -37,6 +37,8 @@ data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
 LLM_assessed: "BERT, Debertav3"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
+publication: EMNLP 2023
+DATE_ADDED: 20260215
 ---
 # AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
 

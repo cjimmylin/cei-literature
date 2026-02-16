@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://emrecanacikgoz.github.io/Bridging-the-Bosphorus/"
+LLM_assessed: "LLaMA-2, LLaMA-3, Mistral, Gemma, GPT-2, mGPT, XGLM"
+DATA_URL: "https://github.com/emrecanacikgoz/turkish-llm"
 tags: 
 abstract: "Large Language Models (LLMs) are becoming crucial across various fields, emphasizing the urgency for high-quality models in underrepresented languages. This study explores the unique challenges faced by low-resource languages, such as data scarcity, model selection, evaluation, and computational limitations, with a special focus on Turkish. We conduct an in-depth analysis to evaluate the impact of training strategies, model choices, and data availability on the performance of LLMs designed for..."
 research_topic: "NLP & Representation Learning"
@@ -65,6 +66,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Explores challenges of low-resource Turkish LLM development including data scarcity and evaluation. Creates new leaderboard for Turkish LLMs with benchmarks assessing reasoning and knowledge skills. Develops Turkish instruction-tuning dataset.
+
+## Data Description
+
+The paper presents a Turkish LLM leaderboard with two new Turkish evaluation benchmarks: TruthfulQA-TR and ARC-TR, translated and validated from English originals. It evaluates over 30 models including base LLMs (LLaMA-2/3, Mistral, Gemma, GPT-2), multilingual models (XGLM, mGPT), HuggingFace Turkish models, and the authors' own Hamza series (124M to 1.3B parameters). The paper also introduces a Turkish instruction-tuning dataset of 50,817 samples. All source code, model checkpoints, and datasets are open-sourced.
+
 
 ## Notes
 

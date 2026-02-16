@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,7 +71,7 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-This paper is a survey and position paper exploring the decolonization of African Natural Language Processing (NLP), addressing power dynamics and data colonialism in technology development. It does not introduce or utilize a specific dataset or benchmark for LLM assessment, instead providing critical analysis, case studies of projects like Masakhane and mPedigree, and future directions for equitable NLP research in Africa.
+This is a survey paper presented at the AfricaNLP workshop at ICLR 2024 that explores the imperative to decolonize African NLP by addressing power dynamics and data colonialism. It does not create any dataset or benchmark, but reviews case studies such as the Masakhane project for African language machine translation. The paper advocates for data sovereignty, community ownership, and equitable approaches to NLP technology development in Africa.
 
 
 ## Notes

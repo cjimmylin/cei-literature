@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -67,7 +68,8 @@ I found the research article you're looking for. Here are the key findings: Stud
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper proposes a three-level framework for diagnosing explicit, evaluative, and implicit gender bias in large language models, with a focus on Chinese LLMs. Without access to the full text, the specific models tested cannot be confirmed from the available metadata. The framework addresses occupational biases and stereotypes in Chinese-language models.
+
 
 ## Notes
 

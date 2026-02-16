@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ N/A (architectural blueprint)
 
 ## Data Description
 
-The PDF extract for this paper contains incorrect content (a paper about Internet architecture research and standardization by Papadimitriou et al., not the intended Nsarkoh paper). No valid extract is available for analysis.
+This paper proposes a foundational architecture blueprint for engineering Afrocentric AI systems. The PDF extract contains content from a different paper (Internet architecture by Papadimitriou et al.), so detailed assessment is based on the paper metadata only. No LLMs are tested. No dataset or code repository was identified.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4o-mini, Llama-3.3-70B, Mixtral-8x7B, Gemini-1.5-Flash"
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable advancements but also raise concerns about cultural bias, often reflecting dominant narratives at the expense of underrepresented subcultures. In this study, we evaluate the capacity of LLMs to recognize and accurately respond to the Little Traditions within Indian society, encompassing localized cultural practices and social institutions such as caste, kinship, marriage, and religion."
 ethics_perspective: "Social & Cultural Values"
@@ -64,6 +65,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 First study analyzing LLMs' engagement with Indian subcultures. Evaluates capacity to recognize Little Traditions within Indian society including localized cultural practices, caste, kinship, marriage, and religion. Uses case studies with various prompting strategies. LLMs struggle to apply cultural understanding in practical context-specific scenarios.
+
+## Data Description
+
+This study evaluates LLMs' understanding of Indian subcultures and 'Little Traditions' through 12 case studies spanning caste, kinship, marriage, and religion domains. Five LLMs were tested using zero-shot in-context learning with scenarios requiring culturally nuanced responses about localized Indian practices. The highest accuracy among all models was only 41.6% in the vanilla setup, revealing significant gaps in LLM cultural knowledge.
+
 
 ## Notes
 

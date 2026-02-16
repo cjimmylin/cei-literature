@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://github.com/MiuLab/TMLU"
+LLM_assessed: "GPT-4, GPT-3.5, Claude-3-Opus, Claude-2, Claude-Instant, Gemini-Pro, Yi-34B, Yi-6B, Qwen-14B, Qwen-7B, Qwen-0.5B, Breeze-7B, Taiwan-LLM-13B, Taiwan-LLM-7B, Llama-2-13B, Llama-2-7B, Gemma-7B"
+DATA_URL: "https://huggingface.co/datasets/miulab/tmlu"
 tags: 
 abstract: "The evaluation of large language models (LLMs) has drawn substantial attention in the field recently. This work focuses on evaluating LLMs in a Chinese context, specifically, for Traditional Chinese which has been largely underrepresented in existing benchmarks. We present TMLU, a holistic evaluation suit tailored for assessing the advanced knowledge and reasoning capability in LLMs, under the context of Taiwanese Mandarin."
 research_topic: "Machine Translation"
@@ -67,6 +68,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Introduces TMLU, a holistic evaluation suite for assessing advanced knowledge and reasoning in LLMs under Taiwanese Mandarin context. 37 subjects across social science, STEM, humanities, Taiwan-specific content, ranging from middle school to professional levels.
+
+## Data Description
+
+TMLU (Taiwanese Mandarin Language Understanding) is a comprehensive benchmark consisting of 2,981 multiple-choice questions across 37 subjects spanning social science, STEM, humanities, Taiwan-specific content, and others, from middle school to professional levels. All questions are originally in Traditional Chinese and sourced from Taiwanese exams. The benchmark includes manually curated Chain-of-Thought explanations for each development set. 24 advanced LLMs were evaluated, with Claude-3-Opus achieving the highest average score (73.59%) in direct answer prompting.
+
 
 ## Notes
 

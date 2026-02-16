@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "General Ethics"
 ---
 # Use and Abuse Normative Ethics Moral Machines
@@ -79,7 +80,7 @@ Argues machines lack resources to justify normative theory use
 
 ## Data Description
 
-No PDF extract available for analysis.
+This book chapter critiques the methodological strategy of applying normative ethical frameworks (consequentialism, deontology, virtue ethics) directly to machines. The author argues that machines lack the resources to justify normative theory use, exploring the difference between normative ethics as applied in human practices versus machine contexts. No models are tested or benchmarks created.
 
 
 ## Notes

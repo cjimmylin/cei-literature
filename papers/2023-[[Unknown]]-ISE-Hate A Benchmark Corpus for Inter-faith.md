@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +41,8 @@ tags:
 abstract: "21,759 Urdu tweets classified for hateful vs neutral content, with hateful tweets sub-categorized into interfaith, sectarian, ethnic, and other categories. Highly relevant: addresses inter-faith, sectarian, and ethnic hatred in Urdu, directly related to cultural values and religious bias."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # ISE-Hate: A Benchmark Corpus for Inter-faith, Sectarian, and Ethnic Hatred Detection on Social Media in Urdu
@@ -75,7 +76,8 @@ Unknown
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+ISE-Hate is a benchmark corpus of 21,759 Urdu tweets classified for hateful vs neutral content, with hateful tweets sub-categorized into interfaith, sectarian, ethnic, and other categories. The dataset addresses inter-faith, sectarian, and ethnic hatred detection on social media in Urdu, published in Information Processing and Management. No LLMs were tested; the paper focuses on dataset creation and traditional NLP classification approaches.
+
 
 ## Notes
 

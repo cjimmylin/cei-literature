@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
 local_pdf: "[[PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
@@ -107,7 +108,7 @@ The authors present this as a data descriptor rather than drawing theoretical co
 
 ## Data Description
 
-This paper describes the cross-cultural dataset from the Evolution of Religion and Morality Project, containing behavioral economic experiment data and survey responses from 591 participants across eight field sites in seven countries. The dataset includes variables on demographics, religious beliefs and practices, supernatural agents' characteristics, intergroup relations, and coin allocation outcomes from a modified Random Allocation Game. Data are hosted on Harvard Dataverse in CSV format with accompanying R scripts and codebooks.
+This paper describes the cross-cultural dataset from the Evolution of Religion and Morality Project, containing data from 591 participants across 8 diverse field sites (Tanna Island, Tanzania, Fiji, Mauritius, Brazil, Tuva, Yasawa). The dataset includes behavioral economic experiments and surveys on demographics, religious beliefs and practices, material security, and intergroup perceptions. No LLMs are tested; this is a social science dataset.
 
 
 ## Notes

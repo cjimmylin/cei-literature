@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -68,7 +69,8 @@ Based on the search results, here's what I found about the ADHAR multi-dialectal
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This appears to be a figure or table from a paper cataloguing available hate speech datasets for Arabic, related to the ADHAR multi-dialectal Arabic hate speech corpus. It covers multiple Arabic dialects including Egyptian, Gulf, Levantine, and Maghrebi varieties. No specific dataset creation or LLM evaluation is described in the available metadata.
+
 
 ## Notes
 

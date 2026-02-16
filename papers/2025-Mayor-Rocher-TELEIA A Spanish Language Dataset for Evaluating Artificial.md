@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Spanish language knowledge evaluation dataset for LLMs using expert-prepared multiple-choice questions matching the format and level of Spanish evaluation tests for humans (Instituto Cervantes format). 100 questions. Included in La Leaderboard."
 research_topic: "Machine Learning"
@@ -69,7 +70,8 @@ Spanish language knowledge evaluation dataset for LLMs using expert-prepared mul
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+TELEIA is a Spanish-language evaluation dataset containing 100 questions across multiple cognitive and linguistic tasks. No PDF extract is available and the abstract does not specify which LLMs were tested. No dataset or code repository URL was identified.
+
 
 ## Notes
 

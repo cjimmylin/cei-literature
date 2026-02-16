@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "XLM-T"
+DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
 ---
 # Multilingual HateCheck: Functional Tests for Hate Speech Detection Models in 16 Languages
 
@@ -66,7 +67,7 @@ Hate speech detection models are typically evaluated on held-out test sets. Howe
 
 ## Data Description
 
-Multilingual HateCheck (MHC) is a suite of functional tests for multilingual hate speech detection models, covering 34 functionalities across ten languages (Arabic, Dutch, French, German, Hindi, Italian, Mandarin, Polish, Portuguese, and Spanish). The dataset contains 36,582 hand-crafted test cases, of which 69.7% are hateful and 30.2% are non-hateful, validated by over 120 native-speaking annotators. The paper evaluates an XLM-T model fine-tuned on hate speech datasets rather than any LLM from the canonical list.
+The paper introduces Multilingual HateCheck (MHC), a suite of functional tests for multilingual hate speech detection models covering 34 functionalities across 10 languages (Arabic, Dutch, French, German, Hindi, Italian, Mandarin, Polish, Portuguese, Spanish) with 36,582 hand-crafted test cases. An XLM-T model fine-tuned on Spanish, Italian, and Portuguese hate speech datasets is evaluated, along with Google's Perspective API for comparison.
 
 
 ## Notes

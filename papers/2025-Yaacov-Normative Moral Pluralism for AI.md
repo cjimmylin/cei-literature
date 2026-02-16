@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts
 
@@ -87,7 +88,7 @@ Ethical AI cannot be a static rule-follower. It must be a "Deliberative Agent" c
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual/philosophical paper proposing a normative moral pluralism framework for AI, outlining a deliberative moral reasoning system architecture with a dual-hybrid structure combining universal normative constraints and culturally grounded flexibility for ethical AI decision-making.
+This paper proposes a conceptual framework for a deliberative moral reasoning system grounded in normative moral pluralism. It introduces a dual-hybrid architecture combining universal normative constraints with culturally grounded flexibility, designed to process complex moral situations by generating, filtering, and weighing normative arguments from diverse ethical perspectives. It is a theoretical framework paper and does not create or evaluate any dataset or benchmark.
 
 
 ## Notes

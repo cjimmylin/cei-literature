@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "LLM through view of Aristole and Kang"
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Ethicsophical Landscape of Large Language Models
 
@@ -87,7 +88,7 @@ None mentioned - This is a theoretical philosophy paper without datasets, code, 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical and theoretical essay exploring the epistemological foundations of LLMs through the lenses of Aristotle and Kant, and examining ethical implications through virtue ethics, deontological ethics, and teleological ethics frameworks. No empirical experiments or model evaluations are conducted.
+This is a philosophical essay exploring the epistemological and ethical foundations of Large Language Models through the lenses of Aristotle and Kant. It discusses virtue ethics, deontological ethics, and teleological ethics as applied to LLMs, examining biases in data, privacy concerns, and intellectual property rights. No LLMs are tested or benchmarked; the paper is purely theoretical and philosophical in nature.
 
 
 ## Notes

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -75,7 +76,7 @@ This paper addresses a significant gap in AI governance by examining the limitat
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a qualitative comparative analysis of Maori Kaitiakitanga and Navajo Hozho Indigenous knowledge systems and their potential integration into AI governance frameworks. The authors explicitly state that no datasets were generated or analysed during the study.
+This review paper examines the limitations of Western-centric AI governance frameworks through a comparative analysis of Maori Kaitiakitanga and Navajo Hozho principles. It proposes culturally relevant AI governance frameworks that incorporate Indigenous knowledge systems, covering collective data ownership, ecological stewardship, and relational accountability. No dataset, benchmark, or LLM evaluation is conducted; this is a conceptual governance analysis.
 
 
 ## Notes

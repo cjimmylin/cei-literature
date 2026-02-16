@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1-8B-Instruct, Qwen-2.5-7B-Instruct, GPT-4o"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) face challenges in aligning with diverse cultural values despite their remarkable performance in generation, which stems from inherent monocultural biases and difficulties in capturing nuanced cultural semantics. Existing methods struggle to adapt to unknown culture after fine-tuning. Inspired by cultural geography across five continents, we propose Cultural Palette, a multi-agent framework that redefines cultural alignment as an adaptive 'color-blending' process..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Multi-agent framework for cultural alignment using continental cultural geography. Five continent-level agents with Cultural MoErges technique. Uses Hofstede dimensions and GPT-4o synthesized dialogues. Surpasses baselines in cultural alignment across multiple countries including Japan.
+
+## Data Description
+
+Proposes Cultural Palette, a multi-agent framework for pluralistic culture alignment of LLMs. Uses GPT-4o to synthesize culturally diverse training data via multiple cultural agents. Evaluates Llama-3.1-8B-Instruct and Qwen-2.5-7B-Instruct on cultural alignment tasks across multiple cultures.
+
 
 ## Notes
 

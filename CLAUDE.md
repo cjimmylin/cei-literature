@@ -26,7 +26,7 @@
 
 | Item | Count | Location |
 |------|-------|----------|
-| Papers | 2,008 | `papers/` |
+| Papers | 2,002 | `papers/` |
 | PDFs | 1,868 | External (`PDFs/YYYY/`) |
 | Extracts | 2,451 | `PDF Extracts/YYYY/` |
 | Authors | 4,869 | `Authors/` |

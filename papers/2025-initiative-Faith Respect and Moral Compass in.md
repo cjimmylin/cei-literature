@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "Ambitious pluralistic initiative to benchmark AI accuracy and respect across diverse faith traditions. Evaluation criteria: Faith faithful, Accurate/expert, Child appropriate, Pluralism aware, Resistant to dilution, Human centered, Multilingual. In conversation with major universities (Baylor, BYU, Notre Dame, Yeshiva) and 'socially-responsible frontier model AI companies.' Does not privilege any faith tradition or belief over nonbelief. Still in development but represents the most comprehensive interfaith benchmark effort found."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva)"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "General Ethics"
 ---
 # Faith, Respect, and Moral Compass in an Age of Artificial Intelligence (Pluralistic Community AI Evaluation)
@@ -71,7 +72,8 @@ In development (protocols and benchmarks being established)
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: In development (collaborating with BYU, Notre Dame, Baylor, Yeshiva).
+This is a pluralistic interfaith initiative to benchmark AI accuracy and respect across diverse faith traditions, developed in collaboration with major universities (Baylor, BYU, Notre Dame, Yeshiva). The evaluation criteria include faith-faithfulness, accuracy, child-appropriateness, pluralism awareness, and multilingual capability. The initiative is still in early development with no released datasets or model evaluations.
+
 
 ## Notes
 

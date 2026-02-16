@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,7 +69,7 @@ Based on the search results, I found information about Chinese sentiment analysi
 
 ## Data Description
 
-This paper is a tutorial from COLING 2016 that introduces Chinese sentiment analysis datasets, resources, and tools. It covers resources such as the Chinese Morphological Dataset, Augmented NTU Sentiment Dictionary (ANTUSD), Chinese Opinion Treebank, and the CopeOpi Sentiment Scorer. No LLM models were tested or evaluated; the focus is on traditional sentiment analysis tools for Chinese text processing.
+Tutorial paper from COLING 2016 surveying Chinese textual sentiment analysis datasets, resources, and tools. Covers lexicon-based and corpus-based approaches to Chinese sentiment analysis. No LLMs tested; predates the LLM era.
 
 
 ## Notes

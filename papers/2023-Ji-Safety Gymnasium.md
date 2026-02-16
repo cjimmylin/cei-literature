@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://sites.google.com/view/safety-gymnasium"
 ---
 # Safety Gymnasium: A Unified Safe Reinforcement Learning Environment
@@ -66,7 +67,7 @@ Artificial intelligence (AI) systems possess significant potential to drive soci
 
 ## Data Description
 
-Safety-Gymnasium is a suite of safety-critical reinforcement learning environments built on Gymnasium and MuJoCo, encompassing single-agent, multi-agent, and vision-based tasks with various safety constraints. It includes 54 distinct environments and the SafePO algorithm library containing 16 state-of-the-art safe RL algorithms for benchmarking safe policy optimization.
+The paper presents Safety-Gymnasium, a suite of environments for safe reinforcement learning (SafeRL) built on Gymnasium and MuJoCo, along with SafePO, a library of 16 state-of-the-art SafeRL algorithms. The benchmark encompasses single-agent, multi-agent, and vision-based safety-critical tasks with various constraint types. The analysis covers 16 algorithms across 54 distinct environments. No LLMs are tested; the focus is on RL agent safety in continuous control tasks.
 
 
 ## Notes

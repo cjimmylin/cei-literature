@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Automated Classification of Modes of Moral Reasoning in Judicial Decisions
 
@@ -53,7 +54,7 @@ What modes of moral reasoning do judges employ? We construct a linear SVM classi
 
 ## Data Description
 
-The training data comprises 14 consequentialist and 11 deontological articles from PhilPapers.org, each chunked into 100 equally sized segments and featurized using tf-idf n-grams. The classifier is then applied to a corpus of U.S. Circuit Court Opinions spanning 1883 through 2013 to analyze trends in moral reasoning modes across judges and legal topics.
+The paper constructs a linear SVM classifier for moral reasoning modes (consequentialist vs. deontological) trained on applied ethics articles. The model achieves over 90% accuracy on held-out paragraph-level data and is applied to a corpus of US circuit court opinions to analyze trends in judicial moral reasoning over time. The paper reports rankings of reasoning mode usage by legal topic, judge, and judge's law school.
 
 
 ## Notes

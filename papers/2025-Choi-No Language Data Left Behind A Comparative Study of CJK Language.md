@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "3,300 datasets"
 LLM_assessed: "NA"
-DATA_URL: "https://songys.github.io/Korean-HF-datasets-catalog/, https://songys.github.io/Chinese-HF-datasets-catalog/, https://songys.github.io/Japanese-HF-datasets-catalog/, https://songys.github.io/English-HF-datasets-catalog/"
+DATA_URL: "NA"
 tags: 
 abstract: "Recent advances in Natural Language Processing (NLP) have underscored the crucial role of high-quality datasets in building large language models (LLMs). However, while extensive resources and analyses exist for English, the landscape for East Asian languages, particularly Chinese, Japanese, and Korean (CJK), remains fragmented and underexplored, despite these languages serving over 1.6 billion speakers."
 research_topic: "NLP & Representation Learning"
@@ -69,7 +70,7 @@ Based on the web search results, here's what I found about Central Asian languag
 
 ## Data Description
 
-This paper presents a cross-linguistic comparative analysis of over 3,300 Chinese, Japanese, and Korean (CJK) datasets on the HuggingFace platform. The study examines dataset metadata across four categories (scale and composition, development patterns, documentation quality, and cultural characteristics) using quantitative and qualitative methods. No LLMs were directly tested or evaluated; the focus is on dataset ecosystem analysis. Web-based catalogs for each language are provided as living documents.
+This paper presents the first large-scale comparative analysis of Chinese, Japanese, and Korean (CJK) datasets within the HuggingFace ecosystem, examining over 3,300 datasets. It investigates how cultural norms, research environments, and institutional practices shape dataset availability and quality across the three language communities. No LLMs were tested; the study is a meta-analysis of dataset characteristics.
 
 
 ## Notes

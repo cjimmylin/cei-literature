@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "Benchmark dataset labeling each post with both hate speech and sentiment information for Thai language. Uses a dual-channel deep learning approach (FastText + BERT) with capsule network. Achieves 89.67% accuracy/89.79% F1 for hate speech detection. Thai-specific hate speech detection benchmark with sentiment analysis. Addresses the gap in Thai language hate speech research. Relevant to toxicity and fairness evaluation in Thai."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # HateThaiSent: Sentiment-Aided Hate Speech Detection in Thai Language
@@ -71,7 +72,8 @@ Benchmark dataset labeling each post with both hate speech and sentiment informa
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+HateThaiSent is a Thai-language benchmark dataset labeling each post with both hate speech and sentiment information. The paper uses a dual-channel deep learning approach combining FastText and BERT with a capsule network, achieving 89.67% accuracy and 89.79% F1-score for hate speech detection. It addresses the gap in Thai language hate speech research by providing a culturally specific benchmark.
+
 
 ## Notes
 

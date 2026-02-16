@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about multilingual hate spe
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This ScienceDirect article proposes methods for detecting hate speech in texts using cross-lingual learning and transfer learning from pre-trained language models. It leverages existing large corpora to address hate speech detection in lower-resource languages. Without the full text, the specific models tested cannot be confirmed, though the approach uses pre-trained language models rather than evaluating specific LLMs as benchmark subjects.
+
 
 ## Notes
 

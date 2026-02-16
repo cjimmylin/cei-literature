@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "ChatGPT"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ I found the article you're looking for! The study compares ChatGPT, Google Trans
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This preliminary study evaluates ChatGPT as a translator, comparing it with Google Translate and Bing Translator for Uyghur-English literary translation. Without access to the full text, the detailed experimental setup and dataset specifics cannot be confirmed, but the study benchmarks ChatGPT's translation capabilities for a low-resource language pair.
+
 
 ## Notes
 

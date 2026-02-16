@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/social-futures-lab/case-law-ai-policy"
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
+DATA_URL: "https://social.cs.washington.edu/case-law-ai-policy/"
 ---
 # Case Repositories: Towards Case-Based Reasoning for AI Alignment
 
@@ -71,7 +72,7 @@ Case studies commonly form the pedagogical backbone in law, ethics, and many oth
 
 ## Data Description
 
-The paper proposes a process for constructing case repositories to support case-based reasoning for AI alignment. It includes 33 seed cases in the legal advice domain collected from online communities, with expert-elicited key dimensions from 20 legal experts and LLM-assisted synthetic case generation. The work focuses on methodology rather than benchmarking LLM performance.
+The paper proposes a case-based reasoning approach for AI alignment, constructing case repositories of value-encoded precedents through expert workshops, LLM-assisted case generation (using GPT-4), and public crowdsourcing. The process is demonstrated in the domain of legal advice, where GPT-3, GPT-3.5, and GPT-4 responses to cases are observed and evaluated for appropriateness by domain experts and crowdworkers.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://mcgill-nlp.github.io/AfroBench/"
 tags: 
 abstract: 
@@ -72,7 +73,7 @@ AfroBench is a comprehensive multi-task benchmark designed to evaluate LLM perfo
 
 ## Data Description
 
-Multi-task benchmark evaluating LLM performance across 64 African languages (including Francophone African languages) with 15 tasks and 22 datasets. Tasks include NLU, text generation, knowledge/QA, and mathematical reasoning. No PDF extract available to confirm specific models tested.
+AfroBench is a comprehensive multi-task benchmark for evaluating LLM performance across 64 African languages including Francophone African languages. It covers 15 tasks and 22 datasets spanning natural language understanding, text generation, knowledge/QA, and mathematical reasoning. No PDF extract was available to confirm specific models tested.
 
 
 ## Notes

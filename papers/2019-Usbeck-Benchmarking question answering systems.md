@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/AKSW/NLIWOD"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/AKSW/gerbil/tree/QuestionAnswering"
 pdf_extract: "PDF Extracts/2019/2019-Usbeck-Benchmarking question answering systems.md"
 local_pdf: "[[PDFs/2019/2019-Usbeck-Benchmarking question answering systems.pdf]]"
 ---
@@ -107,7 +108,7 @@ GERBIL QA provides the first online benchmarking platform for factoid question a
 
 ## Data Description
 
-The paper presents GERBIL QA, an online benchmarking platform for question answering systems over Linked Data. It includes 22 question answering datasets (QALD-1 through QALD-6 and NLQ) totaling 1,431 questions, along with 6 integrated QA systems (HAWK, SINA, YodaQA, QAKIS, QANARY, OKBQA). The platform evaluates traditional QA systems using 7 metrics across 6 experiment types but does not assess any LLMs.
+The paper presents GERBIL QA, an online benchmarking platform for question answering systems over Linked Data that follows FAIR principles. It integrates 6 existing QA systems and 22 question answering datasets (QALD-1 through QALD-6, NLQ) for evaluation using 7 metrics and 6 experiment types. The platform addresses fair benchmarking across different URIs/URLs and supports both online and file-based evaluation. No LLMs were tested; the systems evaluated are traditional semantic web QA frameworks.
 
 
 ## Notes

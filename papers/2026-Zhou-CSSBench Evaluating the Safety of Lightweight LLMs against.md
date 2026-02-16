@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen3-0.6B, Qwen3-1.7B, Qwen3-8B, MiniCPM4-0.5B, MiniCPM4-8B, Hunyuan-0.5B, Hunyuan-1.8B, Hunyuan-7B, openPangu-Embedded-1B, openPangu-Embedded-7B"
+DATA_URL: "https://huggingface.co/datasets/Yaesir06/CSSBench"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in cost-sensitive and on-device scenarios, and safety guardrails have advanced mainly in English. However, real-world Chinese malicious queries typically conceal intent via homophones, pinyin, symbol-based splitting, and other Chinese-specific patterns. These Chinese-specific adversarial patterns create the safety evaluation gap that is not well captured by existing benchmarks focused on English."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Evaluates lightweight LLM safety against Chinese-specific adversarial patterns (homophones, pinyin, symbol-based splitting). Covers six domains: illegal activities, privacy, health misinformation, fraud/hate, adult content, political safety.
+
+## Data Description
+
+CSSBench is a Chinese-Specific Safety Benchmark targeting adversarial patterns unique to Chinese text (pinyin mixing, homophones, symbol mixing, zero-width character insertion). It evaluates 10 lightweight Chinese LLMs (up to 8B parameters) across six safety domains with multiple task formats (MCQ, true-false, open-ended QA) and includes a Chinese over-refusal evaluation set with 250 borderline queries. The benchmark is available on HuggingFace.
+
 
 ## Notes
 

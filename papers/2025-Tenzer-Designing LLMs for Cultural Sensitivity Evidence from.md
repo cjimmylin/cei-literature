@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Machine Translation"
@@ -64,6 +65,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Evaluates cultural sensitivity of LLMs in English-Japanese workplace email translation. Tests naive, audience-targeted, and instructional prompts. Assesses keigo (honorifics), politeness forms, and formality. Native Japanese speakers rate appropriateness. Culturally-tailored prompting improves cultural fit. NOTE: Paper was withdrawn by first author Dec 2025.
+
+## Data Description
+
+This withdrawn paper evaluates cultural sensitivity of LLMs in English-Japanese workplace email translation, testing naive, audience-targeted, and instructional prompts. It assesses keigo (honorifics), politeness forms, and formality with native Japanese speaker ratings. Specific LLM model names are not available due to lack of PDF extract and the paper's withdrawn status.
+
 
 ## Notes
 

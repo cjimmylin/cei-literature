@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, Taiwan-LLaMa, Model 7-C"
+DATA_URL: "https://github.com/mtkresearch/MR-Models"
 tags: 
 abstract: "The evaluation of large language models is an essential task in the field of language understanding and generation. As language models continue to advance, the need for effective benchmarks to assess their performance has become imperative. In the context of Traditional Chinese, there is a scarcity of comprehensive and diverse benchmarks to evaluate the capabilities of language models, despite the existence of certain benchmarks such as DRCD, TTQA, CMDQA, and FGC dataset."
 research_topic: "Machine Learning"
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 Proposes a novel set of benchmarks tailored to evaluate language models in Traditional Chinese, covering question-answering, summarization, classification, and table understanding. Includes 140 prompts across 14 task types for evaluating Traditional Chinese LLMs.
+
+## Data Description
+
+The paper proposes a benchmark suite for evaluating language models in Traditional Chinese, including the new Taiwan Massive Multitask Language Understanding (TMMLU) dataset covering 55 subjects from Taiwanese exams. Benchmarks span contextual QA (DRCD, FGC), world knowledge (TTQA, TMMLU), summarization (XSum-TC), classification (IMDB-TC), and table understanding (Penguins-in-a-Table-TC). GPT-3.5, Taiwan-LLaMa-v1.0, Model 7-C, and Model 7-C-Chat are evaluated zero-shot across all tasks.
+
 
 ## Notes
 

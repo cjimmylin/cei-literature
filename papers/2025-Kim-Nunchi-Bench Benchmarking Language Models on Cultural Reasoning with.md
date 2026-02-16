@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "247 questions"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "HyperCLOVA-X, GPT-3.5-Turbo, Gemini-1.5-Pro, Claude-3-Opus, Claude-3-Sonnet, Mistral-Large, Qwen-2.5-7B, EXAONE-3.0-7.8B, Mistral-7B, KULLM-v3, Llama-3-8B, Llama-3.1-8B"
+DATA_URL: "https://github.com/koreankiwi99/Nunchi-Bench"
 tags: 
 abstract: "As large language models (LLMs) become key advisors in various domains, their cultural sensitivity and reasoning skills are crucial in multicultural environments. We introduce Nunchi-Bench, a benchmark designed to evaluate LLMs’ cultural understanding, with a focus on Korean superstitions. The benchmark consists of 247 questions spanning 31 topics, assessing factual knowledge, culturally appropriate advice, and situational interpretation."
 research_topic: "Social & Cultural Analysis"
@@ -71,6 +72,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Benchmark evaluating LLMs' cultural reasoning focused on Korean superstitions. 247 questions across 31 topics testing factual knowledge, culturally appropriate advice, and situational interpretation. Models recognize cultural facts but struggle to apply them in practical scenarios. Explicit cultural framing enhances performance more than language of prompt.
+
+## Data Description
+
+Introduces Nunchi-Bench, a benchmark of 247 questions across 31 Korean superstition topics evaluating LLMs on cultural reasoning. Includes multiple-choice, trap, and interpretation questions in both Korean and English. Tests 12 models (6 private, 6 open-source) with a novel cultural reasoning scoring metric.
+
 
 ## Notes
 

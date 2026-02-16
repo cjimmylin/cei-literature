@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset for question answering"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o, Gemini, Llama-3.1, Mistral"
 DATA_URL: "https://huggingface.co/datasets/QCRI/MultiNativQA"
 tags: 
 abstract: "Natural Question Answering (QA) datasets play a crucial role in evaluating the capabilities of large language models (LLMs), ensuring their effectiveness in real-world applications. Despite the numerous QA datasets that have been developed and some work has been done in parallel, there is a notable lack of a framework and large scale region-specific datasets queried by native users in their own languages."
@@ -67,6 +68,11 @@ research_topic: "Question Answering"
 ## Abstract
 
 Scalable framework for constructing culturally and regionally aligned QA datasets in native languages. MultiNativQA dataset: ~64K manually annotated QA pairs in 7 languages (Arabic, Assamese, Bangla, English, Hindi, Nepali, Turkish) from 9 regions covering 18 topics. Benchmarks open- and closed-source LLMs; shows superiority of closed models and performance gaps between high- and low-resource languages.
+
+## Data Description
+
+NativQA is a framework for creating culturally and regionally aligned QA datasets. The resulting MultiNativQA dataset contains approximately 64,000 manually annotated QA pairs in seven languages (Bangla, English, Hindi, Turkish, Arabic, Assamese, Nepali) covering 18 topics from 9 regions. Four LLMs were benchmarked, and a fine-tuned Llama-3.1 model was also evaluated across all languages.
+
 
 ## Notes
 

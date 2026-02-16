@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/benavoli/prefGP"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # AI Safety Uncertainty Incomplete Preferences
 
@@ -79,7 +80,7 @@ Proposes alternatives to standard expected utility for safe AI assistance
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical work on AI safety that formalizes the AI assistance and shutdown problems using game theory, proving that safe AI agents require reasoning under uncertainty with incomplete and non-Archimedean preferences.
+Theoretical paper on AI safety addressing uncertainty and incomplete preferences in decision-making systems. Presents formal frameworks without empirical evaluation of specific LLMs or datasets.
 
 
 ## Notes

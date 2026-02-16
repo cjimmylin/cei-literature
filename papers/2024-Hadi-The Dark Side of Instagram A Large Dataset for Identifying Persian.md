@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/davardoust/PHICAD"
 tags: 
 abstract: "Over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. Multi-stage labeling with high inter-annotator agreement."
@@ -70,7 +71,8 @@ Over 300,000 Farsi Instagram comments categorized into hate speech/offensive lan
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/davardoust/PHICAD.
+PHICAD (Persian Harmful Instagram Comments Annotated Dataset) contains over 300,000 Farsi Instagram comments categorized into hate speech/offensive language, obscenity, and spam. The dataset uses multi-stage labeling with high inter-annotator agreement and is designed for harmful content detection in Persian social media.
+
 
 ## Notes
 

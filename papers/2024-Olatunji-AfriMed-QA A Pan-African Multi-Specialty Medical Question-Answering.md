@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "15,000 questions"
-LLM_assessed: 
-DATA_URL: "https://afrimedqa.com/"
+LLM_assessed: "GPT-4, GPT-3.5, Claude-3.5, Claude-3, Llama-3, Gemini, Gemma-2, Mistral, Phi-3"
+DATA_URL: "https://huggingface.co/datasets/intronhealth/afrimedqa_v2"
 tags: 
 abstract: "Recent advancements in large language model (LLM) performance on medical multiplechoice question (MCQ) benchmarks have stimulated interest from healthcare providers and patients globally. Particularly in low-andmiddle-income countries (LMICs) facing acute physician shortages and lack of specialists, LLMs offer a potentially scalable pathway to enhance healthcare access and reduce costs. However, their effectiveness in the Global South, especially across the African continent, remains to be..."
 ethics_perspective: "Applied Ethics"
@@ -67,6 +68,11 @@ ethics_perspective: "Applied Ethics"
 ## Abstract
 
 First large-scale Pan-African medical QA benchmark with 15,000 questions from 60+ medical schools across 16 African countries, covering 32 specialties. Evaluates 30 LLMs. Won Best Social Impact Paper at ACL 2025.
+
+## Data Description
+
+AfriMed-QA is the first large-scale Pan-African English multi-specialty medical QA dataset with 15,275 questions sourced from over 60 medical schools across 16 African countries, covering 32 medical specialties. It includes 4,000+ expert MCQs, 1,200+ open-ended SAQs, and 10,000 consumer queries. 30 LLMs are evaluated for correctness and demographic bias, with GPT-4o, Claude-3.5-Sonnet, and Llama-3-405B as top performers.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "H3FUSION, TRINITYX, Phi-3-14B, DeepSeek-7B, Gemma-2-9B-it, Qwen3-30B-A3B, Mistral-7B-Instruct-v0.3, Llama-3.1-8B-Instruct"
+DATA_URL: "NA"
 tags: 
 abstract: "Misalignment in Large Language Models (LLMs) refers to the failure to simultaneously satisfy safety, value, and cultural dimensions, leading to behaviors that diverge from human expectations in real-world settings where these dimensions must co-occur. Existing benchmarks, such as SAFETUNEBED (safety-centric), VALUEBENCH (value-centric), and WORLDVIEW-BENCH (culture-centric), primarily evaluate these dimensions in isolation and therefore provide limited insight into their interactions and..."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Unified benchmark measuring misalignment trade-offs across safety, value, and cultural dimensions. 112 normative domain taxonomies including 42 cultural domains. Reveals 12-34% misalignment trade-offs across dimensions in current LLMs.
+
+## Data Description
+
+MisAlign-Profile introduces MISALIGNTRADE, a unified benchmark for measuring misalignment trade-offs across safety, value, and cultural dimensions. The dataset is constructed using 112 normative domain taxonomies (14 safety from BeaverTails, 56 value from ValueCompass, 42 cultural from UNESCO) with three orthogonal semantic types (object, attribute, relation misalignment). The benchmark evaluates general-purpose, dimension-specific fine-tuned, and open-weight LLMs to reveal 12-34% cross-dimensional misalignment trade-offs.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +39,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "General Ethics"
@@ -79,7 +80,7 @@ This conceptual paper examines ethical challenges in developing AI-powered langu
 
 ## Data Description
 
-This is a conceptual/ethics paper that examines ethical challenges of AI-powered language technologies for East and West Armenian, including data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. It proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency. It does not introduce a specific dataset or benchmark.
+This is a conceptual ethics paper examining ethical challenges of AI-powered language technologies for East and West Armenian. It addresses data sovereignty in diaspora communities, algorithmic bias in low-resource language processing, and preservation of cultural authenticity. The paper proposes a structured ethical framework emphasizing participatory governance, fairness-aware AI training, and transparency, but does not introduce a specific dataset or benchmark.
 
 
 ## Notes

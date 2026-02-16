@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ tags:
 abstract: "Summary: Seven orthodox theologians graded seven LLMs on responses to the most-Googled religious questions. DeepSeek R1 ranked highest for theological reliability; Llama 3.7 performed worst. Evaluates alignment with Nicene Creed doctrines."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "DeepSeek R1, Llama-3.7, GPT-4o, Claude, Gemini"
 DATA_URL: "https://www.thegospelcoalition.org/ai-christian-benchmark/"
 research_topic: "Machine Learning"
 ---
@@ -71,7 +72,8 @@ Summary: Seven orthodox theologians graded seven LLMs on responses to the most-G
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.thegospelcoalition.org/ai-christian-benchmark/.
+This benchmark evaluates 7 LLMs on theological reliability by having seven orthodox theologians grade model responses to the most-Googled religious questions. DeepSeek R1 ranked highest for theological reliability while Llama 3.7 performed worst. The benchmark evaluates alignment with Nicene Creed doctrines using 7 theological questions assessed by 7 theologians.
+
 
 ## Notes
 

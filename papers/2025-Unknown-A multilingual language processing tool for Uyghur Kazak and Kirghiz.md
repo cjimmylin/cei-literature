@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found regarding Uyghur language t
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This IEEE conference paper describes a multilingual language processing tool for Uyghur, Kazak, and Kirghiz languages. Based on the limited metadata available, it addresses NLP resource gaps for these low-resource, agglutinative Central Asian languages. No LLMs are evaluated; the paper focuses on traditional NLP tooling rather than LLM benchmarking.
+
 
 ## Notes
 

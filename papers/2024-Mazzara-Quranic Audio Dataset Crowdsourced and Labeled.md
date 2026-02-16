@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "This paper addresses the challenge of learning to recite the Quran for non-Arabic speakers. We explore the possibility of crowdsourcing a carefully annotated Quranic dataset, on top of which AI models can be built to simplify the learning process. In particular, we use the volunteer-based crowdsourcing genre and implement a crowdsourcing API to gather audio assets. We integrated the API into an existing mobile application called NamazApp to collect audio recitations."
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://huggingface.co/datasets/RetaSy/quranic_audio_dataset"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # Quranic Audio Dataset: Crowdsourced and Labeled Recitation from Non-Arabic Speakers
@@ -72,7 +73,8 @@ Crowdsourced Quranic recitation dataset focused on non-Arabic speakers learning 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/RetaSy/quranic_audio_dataset.
+This paper presents a crowdsourced Quranic audio recitation dataset collected from non-Arabic speakers via a mobile app (NamazApp). The dataset contains approximately 7,000 recitations from 1,287 participants across 11+ non-Arabic countries, with 1,166 annotated recitations in six quality categories. It achieves crowd accuracy of 0.77 and is intended for training speech recognition models for Quranic recitation correction.
+
 
 ## Notes
 

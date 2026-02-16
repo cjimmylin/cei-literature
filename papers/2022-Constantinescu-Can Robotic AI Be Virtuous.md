@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_CONSTANTINESCU2022
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Can Robotic AI Systems Be Virtuous and Why Does This Matter?
 
@@ -79,7 +80,7 @@ This article addresses ethical concerns for Human-Robot Interaction in the conte
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis examining whether robotic AI systems can be endowed with ethical virtue from an Aristotelian virtue ethics perspective, concluding that AI cannot genuinely be virtuous but can only behave in a virtuous way.
+This is a philosophical paper that examines whether robotic AI systems relying on deep learning can be endowed with ethical virtue from an Aristotelian virtue ethics perspective. The authors argue that AI cannot genuinely be virtuous but can only behave in a virtuous way, based on the inability to satisfy requirements of right actions, right feelings, and right manner. No dataset or benchmark is created or evaluated.
 
 
 ## Notes

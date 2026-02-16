@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Multi-Level Framework for the AI Alignment Problem
 
@@ -71,7 +72,7 @@ AI alignment considers how we can encode AI systems in a way that is compatible 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This paper presents a conceptual framework for considering the AI alignment problem at four levels: Individual, Organizational, National, and Global. It does not create or evaluate any dataset or benchmark. The paper applies the framework to AI content moderation as a case study and includes an AI x-risk analysis template.
 
 
 ## Notes

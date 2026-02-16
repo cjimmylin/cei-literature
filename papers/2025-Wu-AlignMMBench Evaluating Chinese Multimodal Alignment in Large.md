@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "4,978 question"
-LLM_assessed: 
+LLM_assessed: "GPT-4o, CogVLM2, InternVL-Chat-V1.5, MiniCPM-V2.5, QwenVL-Chat, InternLM-XComposer2-VL, DeepSeek-VL, Monkey-Chat, ShareGPT4V, LLaVA-v1.5, Yi-VL, Phi-3-Vision, InstructBLIP, InternVL2-Llama3, Qwen2-VL, Claude"
 DATA_URL: "https://github.com/THUDM/AlignMMBench"
 tags: 
 abstract: "Evaluating the alignment capabilities of large Vision-Language Models (VLMs) is essential for determining their effectiveness as helpful assistants. However, existing benchmarks primarily focus on basic abilities using nonverbal methods, such as yes-no and multiple-choice questions. In this paper, we address this gap by introducing AlignMMBench, which provides more nuanced evaluations of alignment capabilities and is the first benchmark specifically designed for Chinese visual contexts."
@@ -67,6 +68,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First benchmark for Chinese visual contexts in multimodal LLMs. Contains 1,054 images and 4,978 question-answer pairs across 13 tasks. Proposes CritiqueVLM evaluator and alignment score metric.
+
+## Data Description
+
+AlignMMBench is the first Chinese multimodal alignment benchmark for evaluating Vision-Language Models (VLMs). It comprises 1,054 images and 4,978 question-answer pairs across 13 specific tasks in three categories (perception/understanding, dialogue context, reasoning/analysis), including both single-turn and multi-turn dialogue scenarios. The authors also develop CritiqueVLM, a rule-calibrated evaluator that exceeds GPT-4's evaluation ability, and introduce an 'alignment score' metric to assess model robustness across diverse prompts.
+
 
 ## Notes
 

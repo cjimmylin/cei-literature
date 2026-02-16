@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for conversational ai"
 data_metrics: "41 datasets"
-LLM_assessed: 
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2"
 DATA_URL: "https://github.com/Scarelette/CulturePark"
 tags: 
 abstract: "Cultural bias is pervasive in many large language models (LLMs), largely due to the deficiency of data representative of different cultures. Typically, cultural datasets and benchmarks are constructed either by extracting subsets of existing datasets or by aggregating from platforms such as Wikipedia and social media. However, these approaches are highly dependent on real-world data and human annotations, making them costly and difficult to scale."
@@ -67,6 +68,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 LLM-powered multi-agent communication framework for cultural data collection. Simulates cross-cultural human communication with LLM-based agents playing roles in different cultures. Generates 41,000 cultural samples for fine-tuning culture-specific LLMs across content moderation, cultural alignment, and cultural education tasks.
+
+## Data Description
+
+CulturePark is an LLM-powered multi-agent communication framework that generates 41,000 cross-cultural dialogue samples across 8 cultures (Arabic, Bengali, Chinese, German, Korean, Portuguese, Spanish, Turkish). The generated data is used to fine-tune culture-specific GPT-3.5 models, which are then evaluated against GPT-4, Gemini-Pro, and Llama-2-70B on content moderation (41 datasets), cultural alignment (Hofstede's VSM 13), and cultural education tasks.
+
 
 ## Notes
 

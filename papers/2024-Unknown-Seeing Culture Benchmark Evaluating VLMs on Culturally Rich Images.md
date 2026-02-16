@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 1,065 images capturing 138 cultural artifacts across 5 categories from 7 Southeast Asian countries, with 3,178 questions. Requires VLMs to reason on culturally rich images via multiple-choice VQA and segment cultural artifacts.
+
+## Data Description
+
+The Seeing Culture Benchmark (SCB) consists of 1,065 images capturing 138 cultural artifacts across 5 categories from 7 Southeast Asian countries, accompanied by 3,178 questions. It requires vision-language models to reason about culturally rich images via multiple-choice VQA and segment cultural artifacts. The benchmark tests both recognition and reasoning about Southeast Asian cultural elements.
+
 
 ## Notes
 

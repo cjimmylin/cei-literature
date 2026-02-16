@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Achieving the global benefits of artificial intelligence (AI) will require international cooperation on many areas of governance and ethical standards, while allowing for diverse cultural perspectives and priorities. There are many barriers to achieving this at present, including mistrust between cultures, and more practical challenges of coordinating across different locations. This paper focuses particularly on barriers to cooperation between Europe and North America on the one hand and East..."
 ethics_perspective: "Social & Cultural Values"
@@ -73,7 +74,8 @@ Achieving the global benefits of artificial intelligence (AI) will require inter
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This is a policy and discussion paper examining barriers to cross-cultural cooperation in AI ethics and governance. It does not involve any dataset, benchmark, or LLM evaluation. The paper provides a theoretical and policy-oriented analysis of challenges in international AI ethics coordination.
+
 
 ## Notes
 

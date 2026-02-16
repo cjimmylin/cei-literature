@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4.1, Claude-Sonnet-3.7, Claude-Sonnet-4, Claude-Opus-4, Llama-3.1-70B, Llama-4-Scout, Qwen-2.5-72B, Qwen-3-235B, DeepSeek-V3"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) are increasingly deployed in culturally diverse environments, yet existing evaluations of cultural competence remain limited. Existing methods focus on de-contextualized correctness or forced-choice judgments, overlooking the need for cultural understanding and reasoning required for appropriate responses. To address this gap, we introduce a set of benchmarks that, instead of directly probing abstract norms or isolated statements, present models with realistic..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Introduces benchmarks presenting models with realistic situational contexts requiring culturally grounded reasoning. Four complementary metrics: Coverage, Specificity, Connotation, and Coherence. Distinguishes 'thick' vs 'thin' cultural evaluation, arguing cultural evaluation must go beyond correctness to capture embedded norms, symbolic meaning, and situational appropriateness. Reveals thin evaluation systematically overestimates cultural competence.
+
+## Data Description
+
+CURE introduces a 'thick' cultural evaluation framework for LLMs, combining four benchmarks (NormAd, SpecNorm, CASA, CultureBank) with both thin (label-only) and thick (explanation-driven) evaluation modes. SpecNorm, a new benchmark of 3,766 subgroup-sensitive cultural scenarios from 145 countries, is the paper's primary dataset contribution. Ten frontier LLMs are evaluated across 80,000 responses, revealing that thin evaluation systematically overestimates cultural competence while thick evaluation exposes gaps in reasoning depth. Results are integrated into the HELM benchmark leaderboard.
+
 
 ## Notes
 

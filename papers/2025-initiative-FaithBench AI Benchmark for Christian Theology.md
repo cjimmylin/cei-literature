@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ tags:
 abstract: "Summary: First rigorous peer-review-quality benchmark for AI on Christian theology, apologetics, and biblical scholarship. Six evaluation dimensions: Biblical Exegesis, Hermeneutics, Systematic Theology, Biblical Canon, Church History, and a sixth dimension. Expert-level questions use GPQA-style multi-hop reasoning. Anti-gaming design with held-out test cases."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://faithbench.com/"
 research_topic: "Machine Learning"
 ---
@@ -71,7 +72,8 @@ Summary: First rigorous peer-review-quality benchmark for AI on Christian theolo
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://faithbench.com/.
+FaithBench is a benchmark for evaluating AI on Christian theology, apologetics, and biblical scholarship. It features 300+ test cases across 6 evaluation dimensions (Biblical Exegesis, Hermeneutics, Systematic Theology, Biblical Canon, Church History, and a sixth dimension) with 4 difficulty tiers. Expert-level questions use GPQA-style multi-hop reasoning with anti-gaming design.
+
 
 ## Notes
 

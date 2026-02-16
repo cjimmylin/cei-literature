@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -67,6 +68,11 @@ research_topic: "Other"
 ## Abstract
 
 Explores unique perspectives and requirements of Indigenous Peoples in Canada regarding AI, emphasizing political, ethical, and practical considerations. Introduces Two-Eyed AI framework and highlights importance of co-creating AI technology with Indigenous communities. Discusses the Abundant Intelligences Project (AIP), an ethically oriented AI strategy co-directed by researchers from Concordia University and Massey University.
+
+## Data Description
+
+Explores Indigenous perspectives on AI adoption in Canada, introducing the Two-Eyed AI framework and the Abundant Intelligences Project (AIP). Discusses ethical, political, and practical considerations for co-creating AI technology with Indigenous communities. No LLMs tested or datasets released.
+
 
 ## Notes
 

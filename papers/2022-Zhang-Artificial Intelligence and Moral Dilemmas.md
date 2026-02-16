@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Machine Ethics"
 ---
 # Artificial Intelligence and Moral Dilemmas: Perception of Ethical Decision-Making in AI
@@ -111,7 +112,7 @@ None mentioned - no datasets, code, or models were released.
 
 ## Data Description
 
-No PDF extract available for analysis. The extracted content is an error page from ScienceDirect indicating the PDF could not be accessed due to anti-bot protections.
+This experimental psychology paper investigates how people perceive AI as a moral decision-maker through four studies (N=804). It examines whether people perceive AI as more likely to make utilitarian choices than humans, finding that perceived warmth mediates this difference. No AI models are tested; the study measures human perceptions about hypothetical AI decision-makers using survey methodology.
 
 
 ## Notes

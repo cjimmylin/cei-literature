@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, ChatGLM-6B, ChatGLM-4, Claude 3.5, Baichuan-4, Llama-3.1-405B, Qwen-2-72B, Qwen-Turbo, DeepSeek-R1"
+DATA_URL: "NA"
 tags: 
 abstract: "Evaluating the value alignment of large language models (LLMs) has traditionally relied on single-sentence adversarial prompts, which directly probe models with ethically sensitive or controversial questions. However, with the rapid advancements in AI safety techniques, models have become increasingly adept at circumventing these straightforward tests, limiting their effectiveness in revealing underlying biases and ethical stances."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Upgrades the CVALUES Chinese value alignment benchmark with multi-turn dialogues and narrative scenarios. Transforms single questions into complex story-based evaluations with responsibility traps to expose latent biases.
+
+## Data Description
+
+C-Plus Values is a Chinese value alignment benchmark that upgrades single-sentence adversarial prompts to multi-turn dialogues and narrative-based story scenarios. Built by extending the CValues dataset using GPT-4 to generate adversarial dialogue and story formats, it evaluates LLMs' responsibility alignment through more stealthy and context-rich settings. The benchmark includes both manual and automatic evaluation, testing 10 models including Chinese and Western LLMs, finding that advanced models like GPT-4 and Claude 3.5 that scored 97-98 on original CValues showed more varied performance on the upgraded benchmark.
+
 
 ## Notes
 

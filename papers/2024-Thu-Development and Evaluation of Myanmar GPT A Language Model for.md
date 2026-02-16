@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "MyanmarGPT"
 DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
 tags: 
 abstract: "Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models."
@@ -71,7 +72,8 @@ Transformer-based language model specifically designed for Myanmar NLP. Trained 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/jojo-ai-mst/MyanmarGPT.
+Presents MyanmarGPT, a transformer-based language model designed for Myanmar NLP. Trained on a private Myanmar language dataset and evaluated on text classification, translation, and generation tasks. Duplicate entry of the Phyo et al. Myanmar GPT paper.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen2.5-Omni-7B, Qwen2.5-Omni-3B, Baichuan-Omni-1.5, Qwen2.5-VL-7B, Qwen2-VL-7B, Llama-3.2-11B-Vision, UI-TARS-1.5-7B, Idefics2-8b, LLaVA, PaliGemma-2"
+DATA_URL: "https://drive.google.com/drive/folders/1IvBOXR1GpMNtst0T3HT6dM59_ASlXdyn"
 tags: 
 abstract: "Multimodal Large Language Models (MLLMs) process visual, acoustic, and textual inputs, overcoming the limitations of single-modality LLMs. However, existing benchmarks often neglect tri-modal evaluation in Traditional Chinese and overlook inference latency. To fill this gap, we introduce Multi-TW, the first Traditional Chinese benchmark for evaluating the performance and latency of any-toany multimodal models."
 research_topic: "Computer Vision & Multimodal"
@@ -66,6 +67,11 @@ research_topic: "Computer Vision & Multimodal"
 ## Abstract
 
 First Traditional Chinese benchmark for evaluating performance and latency of any-to-any multimodal models. 900 multiple-choice questions from official Huayu proficiency tests. Evaluates vision-based and audio-based tasks in Traditional Chinese Taiwan context.
+
+## Data Description
+
+Multi-TW is the first Traditional Chinese benchmark for evaluating the performance and latency of any-to-any multimodal models. It comprises 900 multiple-choice questions (450 image-text and 450 audio-text pairs) from authentic proficiency tests developed with the Steering Committee for the Test of Proficiency-Huayu (SC-TOP). The benchmark evaluates both accuracy and inference latency, finding that closed-source models generally outperform open-source ones across modalities, while end-to-end any-to-any pipelines demonstrate significant latency advantages.
+
 
 ## Notes
 

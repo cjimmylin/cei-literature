@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ ethics_perspective: "Toxicity & Hate Speech"
 
 ## Data Description
 
-The paper presents a new Portuguese hate speech dataset of 5,668 tweets with two annotation schemes: binary (hate/no-hate) by 18 non-expert annotators, and a fine-grained hierarchical multi-label scheme with 81 hate speech categories annotated by experts. A baseline classification experiment using pre-trained GloVe word embeddings with LSTM and xgBoost achieves F1 scores of 0.78 (cross-validation) and 0.72 (test set). No LLMs were tested.
+The paper presents a Portuguese hate speech dataset of 5,668 tweets annotated with both binary labels (hate/no-hate) and a fine-grained hierarchical multi-label scheme with 81 hate speech categories. A baseline classification experiment using pre-trained GloVe word embeddings and LSTM combined with xgBoost achieves an F1 score of 0.78 on cross-validation. The hierarchical annotation schema models intersectionality of different hate speech subtypes across targets like sexism, racism, homophobia, and religion.
 
 
 ## Notes

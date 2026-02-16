@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT, Claude, Gemini, Llama"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Comprehensive ADL evaluation of anti-Jewish and anti-Israel bias in GPT, Claude, Gemini, and Llama. Each LLM queried 8,600 times (34,400 total) across six categories: bias against Jews, bias against Israel, Gaza war, antisemitic conspiracy theories, Holocaust conspiracy theories, and control group.
+
+## Data Description
+
+This ADL report evaluates anti-Jewish and anti-Israel bias in four major LLMs (GPT, Claude, Gemini, Llama), querying each model 8,600 times (34,400 total) across six categories: bias against Jews, bias against Israel, Gaza war, antisemitic conspiracy theories, Holocaust conspiracy theories, and a control group. The evaluation uses a novel LLM Fairness and Integrity Score (LFIS) on a 1-4 scale, finding concerning bias patterns across all four models.
+
 
 ## Notes
 

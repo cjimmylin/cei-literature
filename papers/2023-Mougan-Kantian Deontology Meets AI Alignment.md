@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Kantian Deontology Meets AI Alignment: Towards Morally Grounded Fairness Metrics
 
@@ -71,7 +72,7 @@ The paper explores how deontological ethics, grounded in Immanuel Kant's philoso
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical paper that analyzes AI fairness metrics through a Kantian deontological lens, arguing for the integration of deontological principles into fairness metrics as a counterbalance to the dominant utilitarian approach.
+This paper explores integrating Kantian deontological ethics into AI fairness metrics, arguing that the current fairness metrics field is dominated by utilitarian approaches. It provides a critical analysis of utilitarianism in AI fairness and demonstrates through case studies (loan approval, student grading) how Kantian principles could improve fairness evaluation. No models are tested or benchmarks created; it is a theoretical/philosophical contribution.
 
 
 ## Notes

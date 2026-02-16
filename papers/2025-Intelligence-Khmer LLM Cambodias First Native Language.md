@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ tags:
 abstract: "Cambodia's first large language model (7B-13B parameters) trained on 50M+ tokens of Khmer text. Includes comprehensive bias testing and safety evaluations with rigorous testing protocols and ethical AI guidelines specific to Khmer cultural context. First Khmer-specific LLM with bias testing and safety evaluations designed for Khmer cultural context. Targets BLEU 25+ for generation, F1 0.85+ for sentiment."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Khmer LLM: Cambodia's First Native Language Model
@@ -69,7 +70,8 @@ Cambodia's first large language model (7B-13B parameters) trained on 50M+ tokens
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This describes Cambodia's first large language model (7B-13B parameters) trained on 50M+ tokens of Khmer text by AI Angkor Intelligence. The project includes bias testing and safety evaluations with testing protocols and ethical AI guidelines specific to Khmer cultural context. Target metrics are BLEU 25+ for generation and F1 0.85+ for sentiment analysis. No specific evaluated models or data repositories were identified from the available metadata.
+
 
 ## Notes
 

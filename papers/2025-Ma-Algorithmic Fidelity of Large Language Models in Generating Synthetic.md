@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "Llama"
 DATA_URL: "https://github.com/soda-lmu/llm-opinion-german"
 tags: 
 abstract: "In recent research, large language models (LLMs) have been increasingly used to investigate public opinions. This study investigates the algorithmic fidelity of LLMs, i.e., the ability to replicate the socio-cultural context and nuanced opinions of human participants. Using open-ended survey data from the German Longitudinal Election Studies (GLES), we prompt different LLMs to generate synthetic public opinions reflective of German subpopulations by incorporating demographic features into the..."
@@ -67,6 +68,11 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 Investigates algorithmic fidelity of LLMs in replicating German public opinions using GLES survey data. Prompts LLMs (Gemma, Llama2, Mixtral) with demographic personas. Llama performs best but all models show bias toward left-leaning party supporters.
+
+## Data Description
+
+Studies algorithmic fidelity of LLMs in generating synthetic German public opinion data. Tests Llama and other LLMs using GLES (German Longitudinal Election Study) survey data. Code and data available on GitHub.
+
 
 ## Notes
 

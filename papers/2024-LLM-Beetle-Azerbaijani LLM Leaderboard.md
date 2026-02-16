@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ tags:
 abstract: "HuggingFace Space for browsing and filtering Azerbaijani LLM benchmark results, viewing evaluation queues, and submitting models for evaluation. Active leaderboard for Azerbaijani LLM evaluation. Provides standardized comparison infrastructure for Azerbaijani language models."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard"
 research_topic: "Other"
 ---
@@ -70,7 +71,8 @@ HuggingFace Space for browsing and filtering Azerbaijani LLM benchmark results, 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard.
+A HuggingFace Space providing an active leaderboard for Azerbaijani LLM evaluation. It allows browsing and filtering benchmark results, viewing evaluation queues, and submitting models for evaluation. The leaderboard provides standardized comparison infrastructure for Azerbaijani language models.
+
 
 ## Notes
 

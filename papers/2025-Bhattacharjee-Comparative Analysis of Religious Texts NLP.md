@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "> Comparative NLP analysis of three major religious texts including the Bhagavad Gita using topic modelling, semantic similarity, and sentiment analysis. Reveals shared and unique thematic patterns across Hindu, Christian, and Islamic scriptures."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Comparative Analysis of Religious Texts: NLP Approaches to the Bible, Quran, and Bhagavad Gita
@@ -70,7 +71,8 @@ Full texts of Bible, Quran, and Bhagavad Gita
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper performs a comparative NLP analysis of three major religious texts: the Bible, Quran, and Bhagavad Gita. It uses topic modelling, semantic similarity, and sentiment analysis to reveal shared and unique thematic patterns across Hindu, Christian, and Islamic scriptures. The full texts of these three religious books serve as the dataset. No LLMs were tested.
+
 
 ## Notes
 

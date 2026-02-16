@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -67,7 +68,8 @@ I found several relevant resources related to Mongolian NLP and sentiment analys
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This ScienceDirect article is a state-of-the-art review of recent advancements and challenges in NLP-based sentiment analysis. It references Mongolian language evaluation resources like MM-Eval. As a review paper, it surveys existing methods and datasets rather than creating new benchmarks or testing specific LLMs.
+
 
 ## Notes
 

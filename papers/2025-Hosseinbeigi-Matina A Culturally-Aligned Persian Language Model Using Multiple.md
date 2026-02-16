@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1-8B"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -68,6 +69,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Creates culturally aligned datasets for Persian contexts and develops Matina by fine-tuning LLaMA3.1 across five domains using Multiple LoRA Experts. Demonstrates that culturally aligned datasets enable the model to surpass baselines in task performance and user satisfaction, embodying Iranian cultural values and linguistic structures.
+
+## Data Description
+
+The paper introduces Matina, a Persian-focused multi-expert language model designed to embody Iranian cultural values and linguistic structures. Built by fine-tuning LLaMA3.1 8B-Instruct across five domains (culinary, tourism, socio-culture, translation, and summarization) using LoRA experts, it was trained on 264M+ tokens and 42,097+ cultural documents. The model is evaluated using LLM-based evaluations and human assessments, demonstrating improvements in cultural understanding and task-specific performance compared to baseline models.
+
 
 ## Notes
 

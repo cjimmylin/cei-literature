@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -71,7 +72,8 @@ I found the research article you're looking for. Here are the key findings: Stud
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+ACM FAccT 2025 user study investigating how users identify and perceive stereotypical biases in LLM outputs. Focuses on user perspectives rather than benchmarking specific models. No dataset or code released based on available metadata.
+
 
 ## Notes
 

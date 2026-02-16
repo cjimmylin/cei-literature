@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -70,7 +71,8 @@ Based on the web search results, here's what I found regarding Arabic NLP datase
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Meta-analysis applying Data Feminism principles to assess how well bias is addressed in English and Arabic NLP research. Finds most papers score near 1 on a 5-point scale for social bias reporting. Creates a prototype interactive form to improve bias reporting in NLP datasets.
+
 
 ## Notes
 

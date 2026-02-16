@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Mistral-7B; Zephyr-7B; BLOOM-7B; Llama-2-7B; Grok; ChatGPT"
+DATA_URL: "https://github.com/areyesan/Advancing-Equitable-AI"
 tags: 
 abstract: "Artificial intelligence (AI) systems often reflect biases from economically advanced regions, marginalizing contexts in economically developing regions like Latin America due to imbalanced datasets. This paper examines AI representations of diverse Latin American contexts, revealing disparities between data from economically advanced and developing regions. We highlight how the dominance of English over Spanish, Portuguese, and indigenous languages such as Quechua and Nahuatl perpetuates..."
 research_topic: "Social & Cultural Analysis"
@@ -66,6 +67,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Evaluates six LLMs (Mistral-7B, Zephyr-7B, BLOOM-7B, Llama-2-7B, Grok, ChatGPT) on cultural expressiveness for Latin American contexts. Introduces a culturally aware dataset from 13 Latin American subreddits (r/AskLatinAmerica, r/Mexico, r/Brazil, r/Ecuador, etc.). Fine-tuned Mistral-7B achieves 42.9% improvement in cultural expressiveness. The most directly Latin-America-focused LLM cultural evaluation paper found.
+
+## Data Description
+
+The paper evaluates cultural expressiveness of six LLMs for Latin American Spanish varieties, testing their ability to generate culturally appropriate and regionally nuanced text. The evaluation framework covers idiomatic expressions, cultural references, and regional vocabulary across multiple Latin American countries. Code and evaluation data are available on GitHub.
+
 
 ## Notes
 

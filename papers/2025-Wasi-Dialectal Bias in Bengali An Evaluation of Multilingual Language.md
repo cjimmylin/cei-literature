@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Evaluates dialectal bias in Bengali across multilingual language models. Examines how LLMs handle regional dialectal variations within Bengali and their impact on fairness."
 ethics_perspective: "Bias & Fairness"
@@ -72,7 +73,8 @@ Evaluates dialectal bias in Bengali across multilingual language models. Examine
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper evaluates dialectal bias in Bengali across multilingual language models, examining how LLMs handle regional dialectal variations and their impact on fairness. No PDF extract was available to determine which specific models were tested or which datasets were created.
+
 
 ## Notes
 

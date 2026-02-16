@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4o-mini, Qwen2.5-32B-Instruct, GPT-OSS-20B"
+DATA_URL: "NA"
 tags: 
 abstract: "The popularization of AI chatbot usage globally has created opportunities for research into their benefits and drawbacks, especially for students using AI assistants for coursework support. This paper asks: how do LLMs perceive the intellectual capabilities of student profiles from intersecting marginalized identities across different cultural contexts? We conduct one of the first large-scale intersectional analyses on LLM explanation quality for Indian and American undergraduate profiles..."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Large-scale intersectional analysis on LLM explanation quality for Indian and American student profiles. LLMs systematically adjust instructional complexity based on demographic descriptors. In India, English-medium instruction and higher caste associated with more complex explanations. All evaluated models exhibit comparable caste-based bias.
+
+## Data Description
+
+This study investigates how LLMs assign instructional complexity to student profiles across Indian and American educational contexts based on demographic attributes. Four LLMs are evaluated on two tasks (ranking and generation) using MATH-50 and JEEBench datasets, with intersectional student profiles combining caste, race, income, gender, medium of instruction, and college tier. The study finds systematic demographic-based disparities in educational AI responses across both countries.
+
 
 ## Notes
 

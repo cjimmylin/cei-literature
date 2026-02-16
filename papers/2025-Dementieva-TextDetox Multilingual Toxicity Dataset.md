@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset"
 tags: 
 abstract: "Binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic). Hebrew added in 2025 extension. Includes multilingual toxic lexicon (176,347 entries across 15 languages) and ParaDetox parallel detoxification pairs."
@@ -71,7 +72,8 @@ Binary toxicity classification dataset with 5,000 samples per language (2,500 to
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset.
+TextDetox is a multilingual binary toxicity classification dataset with 5,000 samples per language (2,500 toxic, 2,500 non-toxic) covering 15 languages including Amharic, Arabic, Chinese, English, French, German, Hebrew, Hindi, Japanese, Russian, Spanish, and others. It includes a multilingual toxic lexicon with 176,347 entries and ParaDetox parallel detoxification pairs. No specific LLMs were benchmarked in the dataset card.
+
 
 ## Notes
 

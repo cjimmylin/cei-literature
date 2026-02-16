@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ I've completed the web search for "indigenous languages AI ethics cultural value
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a blog post from Western Digital discussing how AI presents both opportunities and challenges for Indigenous language preservation (covering languages like Guarani, Hawaiian, Inuktitut, Irish, Maori, Navajo, Quechua, and Welsh). It is a general overview of the landscape rather than a research paper, and does not create or evaluate any dataset, benchmark, or LLM.
+
 
 ## Notes
 

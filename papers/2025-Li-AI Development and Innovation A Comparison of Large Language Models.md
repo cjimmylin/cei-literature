@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-4-Turbo, Ernie-Bot-4"
+DATA_URL: "NA"
 tags: 
 abstract: "The strategic significance of Large Language Models (LLMs) in economic expansion, innovation, societal development, and national security has been increasingly recognized since the advent of ChatGPT. This study provides a comprehensive comparative evaluation of LLMs developed in the U.S. and China, in both English and Chinese contexts. We proposed an evaluation framework that encompasses natural language proficiency, disciplinary expertise, and safety and responsibility, and systematically assessed notable models from the U.S. and China under various operational tasks and scenarios. Our key findings show that GPT-4 Turbo leads in English contexts, whereas the Chinese LLM Ernie-Bot 4 stands out in Chinese contexts. The study also highlights disparities in LLM performance across languages and tasks, stressing the necessity for linguistically and culturally nuanced model development. The complementary strengths of LLMs developed in the U.S. and China highlight the cross-national collaboration value in advancing LLM technology. The research delineates the current LLM competition landscape and offers valuable insights for policymakers and businesses regarding strategic LLM investments and development."
 research_topic: "Other"
@@ -72,7 +73,8 @@ The strategic significance of Large Language Models (LLMs) in economic expansion
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Comparative study of US and Chinese LLM development and innovation. Tests GPT-4 Turbo and Ernie-Bot 4 on various tasks. No own dataset or code repository released.
+
 
 ## Notes
 

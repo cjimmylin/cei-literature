@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ This paper exposes significant intrinsic language bias in Google's widely-used P
 
 ## Data Description
 
-This paper investigates language bias in Google's Perspective API for toxicity detection, using three datasets: a representative sample of 2.67 million multilingual tweets from 11 EU countries (2018-2021), 2.67 million COVID-19 vaccine-related tweets in Italian and German, and 12,279 random Wikipedia summaries in English and German. The study reveals a systematic bias where German text receives disproportionately higher toxicity scores. No canonical LLMs were tested; the focus is on the Perspective API.
+This paper investigates language bias in Google's Perspective API, a machine learning-based toxicity detection tool. Through analysis of multilingual Twitter conversations and Wikipedia summaries, the authors find that the API systematically assigns significantly higher toxicity scores to German text compared to other languages. The study shows that approximately four times more tweets/users would be moderated when using German compared to English translations. No specific LLMs were tested; the focus is on the Perspective API as a toxicity scoring tool.
 
 
 ## Detailed Summary

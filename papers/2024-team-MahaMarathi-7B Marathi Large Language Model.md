@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ tags:
 abstract: "Marathi-specific 7B parameter language model with associated evaluation benchmarks. Marathi-specific LLM with evaluation benchmarks."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "MahaMarathi-7B"
 DATA_URL: "https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base"
 research_topic: "NLP & Representation Learning"
 ---
@@ -75,7 +76,8 @@ Marathi-specific 7B parameter language model with associated evaluation benchmar
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/marathi-llm/MahaMarathi-7B-v24.01-Base.
+Presents MahaMarathi-7B, a Marathi-specific 7B parameter language model with associated evaluation benchmarks. The model itself is the primary contribution, designed for Marathi language tasks.
+
 
 ## Notes
 

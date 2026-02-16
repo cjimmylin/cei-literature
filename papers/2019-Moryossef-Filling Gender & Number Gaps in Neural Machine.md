@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Filling Gender & Number Gaps in Neural Machine Translation with Black-box Context Injection
 
@@ -69,7 +70,7 @@ When translating from a language that does not morphologically mark information 
 
 ## Data Description
 
-The paper uses a parallel corpus of 1,244 English sentences from the transcript of a stand-up comedy monologue (Sarah Silverman: A Speck of Dust) paired with Hebrew translations from OpenSubtitles, along with an English-French gender corpus from Vanmassenhove et al. (2018) based on Europarl. The study evaluates a black-box context injection method on Google Translate's Cloud API for controlling gender and number morphology in neural machine translation, testing across 10 languages.
+The paper proposes a black-box method for injecting gender and number information into pre-trained neural machine translation systems for English-to-Hebrew translation. The method concatenates textual hints about speaker/audience gender and number to input sentences and is evaluated on a state-of-the-art online NMT system (Google Translate), showing up to 2.3 BLEU improvement on a female-speaker test set. No LLMs were tested; the work focuses on controlling morphological output of existing MT systems.
 
 
 ## Notes

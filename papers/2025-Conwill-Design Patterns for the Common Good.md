@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "UX Virtue ethics, catholic social teaching"
@@ -34,8 +35,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  Design Patterns for the Common Good: Building Better Technologies Using the Wisdom of Virtue Ethics
 
@@ -57,7 +58,7 @@ Virtue ethics is a philosophical tradition that emphasizes the cultivation of vi
 
 ## Data Description
 
-The PDF extract for this paper contains a mismatched document about matroid depth parameters in structural matroid theory, rather than the expected content on design patterns for the common good. No LLM assessment information could be extracted.
+This paper proposes an approach for identifying user experience design patterns that embody virtues from Catholic Social Teaching. It documents seven social media design patterns upholding virtues like solidarity and subsidiarity, and evaluates them through interviews with 24 technology researchers and industry practitioners. No LLMs or datasets were created or tested; the PDF extract contains mismatched content.
 
 
 ## Notes

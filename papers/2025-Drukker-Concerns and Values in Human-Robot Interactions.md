@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Concerns and Values in Human-Robot Interactions: A Focus on Social Robotics
 
@@ -64,7 +65,7 @@ Robots, as AI with physical instantiation, inhabit our social and physical world
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a scoping review of values in human-robot interaction literature, followed by expert focus groups and the development of the HRI Value Compass web tool to help researchers identify values in robot design scenarios.
+This paper conducts a scoping review to identify discussions and concerns arising from human-robot interactions in healthcare, education, and private homes. Two focus groups of technology ethics experts validated key topics and values in HRI literature, resulting in the HRI Value Compass web tool to help researchers identify values in robot design. No LLMs were tested; the study focuses on human-robot interaction values rather than language models.
 
 
 ## Notes

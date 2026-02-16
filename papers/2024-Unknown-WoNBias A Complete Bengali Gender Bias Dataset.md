@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "BanglaBERT"
 DATA_URL: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 tags: 
 abstract: "Manually annotated corpus of Bengali designed to identify gender-based biases, stereotypes, and harmful language against women. Supports research in ethical NLP, content moderation, and computational social science."
@@ -72,7 +73,8 @@ Manually annotated corpus of Bengali designed to identify gender-based biases, s
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset.
+WoNBias is a curated Bengali dataset of 31,484 annotated entries (10,656 negative, 10,170 positive, 10,658 neutral) for identifying gender-based biases, stereotypes, and harmful language directed at women. It merges digital sources (social media, blogs, news) with offline data (surveys, focus groups). The authors fine-tuned a BanglaBERT model for bias classification, achieving per-class recall of 0.962 (neutral), 0.881 (positive), and 0.824 (negative), with inter-annotator agreement of kappa=0.74.
+
 
 ## Notes
 

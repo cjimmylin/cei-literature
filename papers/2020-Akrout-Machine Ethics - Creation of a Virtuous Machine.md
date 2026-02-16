@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Machine Ethics - Creation of a Virtuous Machine
 
@@ -103,7 +104,7 @@ The authors conclude that the field of machine ethics has prematurely dismissed 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual paper proposing a virtue ethics framework for AI moral agents, extending Doran et al.'s explainability framework with an additional contextual training step.
+This short paper discusses the theoretical foundations for creating a virtuous machine based on machine ethics. It argues for developing AI as moral agents that can reason about ethics, drawing on virtue ethics frameworks. The paper is primarily a philosophical argument about how to approach machine ethics through virtue-based approaches rather than presenting empirical evaluations or datasets.
 
 
 ## Notes

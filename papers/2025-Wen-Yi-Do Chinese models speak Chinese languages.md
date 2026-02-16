@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Qwen2.5, Yi-1.5, DeepSeek-R1, InternLM3, Baichuan2, Llama-3, Mistral, Gemma-2"
+DATA_URL: "NA"
 tags: 
 abstract: "The release of top-performing open-weight LLMs has cemented China’s role as a leading force in AI development. Do these models support languages spoken in China? Or do they speak the same languages as Western models? Comparing multilingual capabilities is important for two reasons. First, language ability provides insights into pre-training data curation, and thus into resource allocation and development priorities."
 research_topic: "Question Answering"
@@ -64,6 +65,11 @@ research_topic: "Question Answering"
 ## Abstract
 
 Tests whether Chinese open-weight LLMs support languages spoken within China. Chinese and Western models show strong performance correlation (r=0.93) with the sole exception of better Mandarin. Chinese models cannot identify Kazakh and Uyghur despite proficiency in French and German. Strongest evidence for the 'Mandarin Hypothesis' -- Chinese LLMs focus on Mandarin, not other Chinese languages.
+
+## Data Description
+
+This paper compares multilingual capabilities of 6 Chinese and 4 Western open-source LLMs across 21 language variants spanning Mandarin Chinese, Chinese minority languages (Tibetan, Uyghur, Mongolian, Kazakh, Jingpho), Asian regional languages, and European languages. Using Information Parity and machine reading comprehension evaluations on FLORES+ and BELEBELE benchmarks, the study finds Chinese models' performance across languages correlates strongly (r=0.93) with Western models', with the sole exception being better Mandarin support.
+
 
 ## Notes
 

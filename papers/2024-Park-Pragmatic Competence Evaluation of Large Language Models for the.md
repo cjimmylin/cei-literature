@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, Gemini, HyperCLOVA X"
+DATA_URL: "https://github.com/DojunPark/pragmatic_eval_korean"
 tags: 
 abstract: "Benchmarks play a significant role in the current evaluation of Large Language Models (LLMs), yet they often overlook the models’ abilities to capture the nuances of human language, primarily focusing on evaluating embedded knowledge and technical skills. To address this gap, our study evaluates how well LLMs understand context-dependent expressions from a pragmatic standpoint, specifically in Korean."
 research_topic: "Other"
@@ -69,6 +70,11 @@ research_topic: "Other"
 ## Abstract
 
 Systematic evaluation of LLMs' pragmatic competence for Korean through four Gricean maxims. 120 test units in MCQ and OEQ setups. GPT-4 scores 81.11/85.69, HyperCLOVA X closely follows at 81.56. Chain-of-Thought prompting tends to encourage literal interpretations limiting pragmatic inference.
+
+## Data Description
+
+This study introduces the first dedicated resource for pragmatic evaluation of LLMs in Korean, based on Gricean maxims of conversational implicature (quantity, quality, relation, manner). Using both multiple-choice questions for automatic evaluation and open-ended questions assessed by human experts, the study evaluates GPT-3.5, GPT-4, Gemini-Pro, and HyperCLOVA X. GPT-4 leads with scores of 81.11 (MCQ) and 85.69 (OEQ).
+
 
 ## Notes
 

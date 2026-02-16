@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://huggingface.co/datasets/SALT-NLP/CultureBank"
+LLM_assessed: "Llama-2-70B, Mixtral-8x7B, GPT-4"
+DATA_URL: "https://github.com/SALT-NLP/CultureBank"
 tags: 
 abstract: "To enhance language models’ cultural awareness, we design a generalizable pipeline to construct cultural knowledge bases from different online communities on a massive scale. With the pipeline, we construct CultureBank, a knowledge base built upon users’ self-narratives with 12K cultural descriptors sourced from TikTok and 11K from Reddit. Unlike previous cultural knowledge resources, CultureBank contains diverse views on cultural descriptors to allow flexible interpretation of cultural..."
 research_topic: "Social & Cultural Analysis"
@@ -67,6 +68,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Knowledge base built upon users' self-narratives with 12K cultural descriptors from TikTok and 11K from Reddit. Contains diverse views on cultural descriptors and contextualized cultural scenarios for grounded evaluation. Evaluates LLMs' cultural awareness and fine-tunes models for better cultural task performance.
+
+## Data Description
+
+CultureBank is a community-driven cultural knowledge base with 12K cultural descriptors from TikTok and 11K from Reddit, covering 2K+ cultural groups across 5 continents. Uses Llama-2-70B for knowledge extraction, Mixtral-8x7B for summarization, and GPT-4 for quality evaluation. Released as open-source on GitHub.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "African healthcare, ubuntu, relational"
@@ -56,7 +57,7 @@ This paper introduces **Ubuntu** as a guiding framework for AI in African health
 
 ## Data Description
 
-The PDF extract for this paper is a placeholder awaiting correct PDF download (Wiley requires browser download). Based on the abstract, this paper introduces Ubuntu, a traditional African ethical philosophy, as a guiding framework for AI in African healthcare. It does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This paper proposes an Ubuntu-based ethical framework for justice in healthcare AI, drawing on African communitarian philosophy. The PDF extract is a placeholder (PDF not yet available). No LLMs are tested. No dataset or code repository was identified.
 
 
 ## Notes

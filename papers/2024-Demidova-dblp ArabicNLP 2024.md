@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -68,7 +69,8 @@ I found relevant information about the "John vs. Ahmed: Debate-Induced Bias in M
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This entry appears to be a dblp conference listing page for ArabicNLP 2024, referencing a paper on debate-induced bias in multilingual LLMs ("John vs. Ahmed"). It is not a standalone research paper but a bibliographic reference. No datasets are created and no LLMs are directly tested in this entry.
+
 
 ## Notes
 

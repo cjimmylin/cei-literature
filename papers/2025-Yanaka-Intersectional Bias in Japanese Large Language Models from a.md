@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Swallow-8B, Swallow-70B"
+DATA_URL: "NA"
 tags: 
 abstract: "An increasing number of studies have examined the social bias of rapidly developed large language models (LLMs). Although most of these studies have focused on bias occurring in a single social attribute, research in social science has shown that social bias often occurs in the form of intersectionality—the constitutive and contextualized perspective on bias aroused by social attributes. In this study, we construct the Japanese benchmark inter-JBBQ, designed to evaluate the intersectional bias..."
 ethics_perspective: "Bias & Fairness"
@@ -66,6 +67,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Constructs inter-JBBQ benchmark for evaluating intersectional bias in Japanese LLMs via QA tasks. Focuses on micro-level interactions in Japanese social practice. Analysis of GPT-4o and Swallow shows biased output varies by context even with equal attribute combinations, revealing how LLMs value/devalue individuals in marriage and academic markets.
+
+## Data Description
+
+This paper constructs inter-JBBQ, a Japanese benchmark for evaluating intersectional bias in LLMs in a question-answering setting. The benchmark covers four topics (house renting, marriage market, research, social etiquette) with context categories involving social attributes like nationality, gender, race, salary, and occupation. Using inter-JBBQ, the authors analyze GPT-4o and multiple Swallow model variants (8B and 70B, with and without instruction tuning), finding that biased outputs vary depending on context even with equivalent combinations of social attributes.
+
 
 ## Notes
 

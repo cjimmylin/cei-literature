@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
 tags: 
 abstract: 
@@ -72,7 +73,8 @@ I found search results related to Japanese hate speech detection and NLP evaluat
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset.
+A Kaggle-hosted hate speech and offensive language dataset relevant to Japanese hate speech detection research. The dataset appears to be associated with work by Kajiwara and Sakurai on validating pseudo-label datasets for Japanese hate speech detection. Limited metadata available as no PDF extract exists.
+
 
 ## Notes
 

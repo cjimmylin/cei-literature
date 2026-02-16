@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ tags:
 abstract: "Main characteristics of Google Scholar Metrics’ new version (july 2013) are presented. We outline the novelties and the weaknesses detected after a first analysis. As main conclusion, we remark the lack of new functionalities with respect to last editions, as the only modification is the update of the timeframe (20082012). Hence, problems pointed out in our last reviews still remain active. Finally, it seems Google Scholar Metrics will be updated in a yearly basis."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: "GPT"
 DATA_URL: "NA"
 research_topic: "Other"
 ---
@@ -72,7 +73,7 @@ N/A (experiments using ETCBC BHSA dataset and Text-Fabric Python libraries)
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a bibliometric review of Google Scholar Metrics (2013 version), analyzing its features, limitations, and journal ranking capabilities for scientific publications across multiple languages.
+The paper investigates GPT's capabilities in biblical studies across three categories: knowledge retrieval and language understanding, generative modeling and creative problem solving, and command interpretation and query parsing for Biblical Hebrew NLP. It uses the ETCBC BHSA dataset and Text-Fabric Python libraries. The PDF extract contains a different paper, but based on the metadata, GPT is evaluated on Biblical Hebrew tasks.
 
 
 ## Notes

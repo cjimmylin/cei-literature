@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +40,7 @@ abstract: "The data article presents the large bilingual parallel corpus of lowâ
 data_description: "Text corpus for conversational ai"
 data_metrics: "1.5m sentence"
 LLM_assessed: "NA"
-DATA_URL: "https://rb.gy/hf6bp"
+DATA_URL: "NA"
 ethics_perspective: "AI Safety & Alignment"
 ---
 # SAHAAYAK 2023: The Multi-Domain Bilingual Parallel Corpus of Sanskrit to Hindi for Machine Translation
@@ -74,7 +75,7 @@ ethics_perspective: "AI Safety & Alignment"
 
 ## Data Description
 
-SAHAAYAK 2023 is a large-scale bilingual parallel corpus containing 1.5 million aligned sentence pairs from Sanskrit to Hindi. The dataset covers multiple domains including news, daily conversations, politics, history, sport, and ancient Indian literature, and was created through a three-fold mining process involving machine-readable sources, non-machine-readable sources (via OCR), and collation from existing corpora such as OPUS and NLLB.
+The paper presents SAHAAYAK 2023, a large bilingual parallel corpus of 1.5 million Sanskrit-Hindi sentence pairs for machine translation. The corpus incorporates data from multiple domains including news, daily conversations, politics, history, sport, and ancient Indian literature. A three-fold mining process was used, followed by normalization, alignment, and cleaning pipelines. No models are benchmarked in this data paper.
 
 
 ## Notes

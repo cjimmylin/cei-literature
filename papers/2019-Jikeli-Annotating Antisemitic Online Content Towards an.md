@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ tags:
 abstract: "Online antisemitism is hard to quantify. How can it be measured in rapidly growing and diversifying platforms? Are the numbers of antisemitic messages rising proportionally to other content or is it the case that the share of antisemitic content is increasing? How does such content travel and what are reactions to it? How widespread is online Jew-hatred beyond infamous websites and fora, and closed social media groups?"
 data_description: "Evaluation methodology annotated dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "http://github.com/zeerakw/hatespeech"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # Annotating Antisemitic Online Content: Towards an Applicable Definition of Antisemitism
@@ -72,7 +73,8 @@ Randomly sampled Twitter conversations about Jews and Israel
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: http://github.com/zeerakw/hatespeech.
+The paper discusses annotation methodology for identifying antisemitic content in a dataset drawn from a 10% random sample of public tweets from Twitter. The authors apply the International Holocaust Remembrance Alliance (IHRA) definition of antisemitism to online messages and find that more than 10% of Twitter conversations about Jews and Israel are antisemitic or probably antisemitic. The work focuses on establishing annotation guidelines and training annotators rather than building automated detection systems.
+
 
 ## Notes
 

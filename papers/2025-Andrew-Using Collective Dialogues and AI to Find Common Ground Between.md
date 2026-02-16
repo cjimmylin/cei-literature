@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "A growing body of work has shown that AI-assisted methods — leveraging large language models, social choice methods, and collective dialogues — can help navigate polarization and surface common ground in controlled lab settings. But what can these approaches contribute in real-world contexts? We present a case study applying these techniques to find common ground between Israeli and Palestinian peacebuilders in the period following October 7th, 2023."
 research_topic: "Other"
@@ -68,6 +69,11 @@ research_topic: "Other"
 ## Abstract
 
 Uses LLMs with bridging-based ranking and collective dialogues involving 100+ Israeli and Palestinian peacebuilders. Tests whether AI can help surface shared cultural values between conflicting groups. Culminated in statements with 84% agreement from both sides.
+
+## Data Description
+
+Uses AI (GPT-4 series) as a tool to process and analyze collective dialogues for finding common ground between groups. GPT-4 is used as an analytical instrument rather than being benchmarked or evaluated itself.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/copenlu/HumanValues"
 tags: 
 abstract: "Studying human values is instrumental for cross-cultural research, enabling a better understanding of preferences and behaviour of society at large and communities therein. To study the dynamics of communities online, we propose a method to computationally analyse values present on Reddit. Our method allows analysis at scale, complementing survey based approaches. We train a value relevance and a value polarity classifier, which we thoroughly evaluate using in-domain and out-of-domain human..."
 ethics_perspective: "Moral Reasoning & Psychology"
@@ -69,6 +70,11 @@ ethics_perspective: "Moral Reasoning & Psychology"
 ## Abstract
 
 Proposes computational method to analyse Schwartz values on Reddit at scale. Trains value relevance and polarity classifiers, automatically annotating 6 million+ posts across 12k subreddits with Schwartz values.
+
+## Data Description
+
+The paper creates a dataset of over 9 million Reddit posts across 12,000 subreddits annotated with Schwartz human values using trained DeBERTa classifiers for value relevance and stance detection. The value extraction models were trained on the ValueNet and ValueArg datasets, achieving macro-F1 of 0.76 for relevance and F1 of 0.72 for stance. No LLMs were benchmarked; the paper uses fine-tuned transformer classifiers.
+
 
 ## Notes
 

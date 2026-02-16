@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "First large-scale crowd-sourced Quranic recitation dataset. 'In-the-wild' dataset with real-world noise from diverse reciters of different ages, genders, and ethnicities. Collected over 6 months. Schema enables standardized paired Quranic audio-text datasets for ASR and related tasks."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "Tarteel.ai / Quranic Universal Library"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # The Tarteel Dataset: Crowd-Sourced and Labeled Quranic Recitation
@@ -71,7 +72,8 @@ First large-scale crowd-sourced Quranic recitation dataset. "In-the-wild" datase
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Tarteel.ai / Quranic Universal Library.
+The paper introduces the Tarteel Dataset, the first large-scale crowd-sourced Quranic recitation dataset containing approximately 25,000 audio clips (67.39 hours) from over 1,200 unique individuals of different ages, genders, and ethnicities. The dataset schema enables standardized paired Quranic audio-text datasets for automatic speech recognition (ASR) tasks. No LLMs are tested.
+
 
 ## Notes
 

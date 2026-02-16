@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/google-research-datasets/dices-dataset/"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/google-research-datasets/dices-dataset"
 ---
 # DICES Dataset: Diversity in Conversational AI Evaluation for Safety
 
@@ -71,7 +72,7 @@ Machine learning approaches often require training and evaluation datasets with 
 
 ## Data Description
 
-The DICES (Diversity In Conversational AI Evaluation for Safety) dataset contains two sets of annotated AI chatbot conversations: DICES-990 (990 conversations with 60-70 ratings each) and DICES-350 (350 conversations with approximately 120 ratings each from 123 unique raters). The dataset includes fine-grained demographic information about raters (gender, age, race/ethnicity), granular safety ratings across five categories (harmful content, unfair bias, misinformation, political affiliation, policy violations), and expert annotations for degree of harm, totaling over 2.5 million safety annotations.
+The paper introduces DICES (Diversity In Conversational AI Evaluation for Safety), containing two sets of annotated AI chatbot conversations: DICES-990 (990 conversations, ~70 annotations each) and DICES-350 (350 conversations, ~120 annotations each). Conversations were generated from human agents interacting with a generative AI chatbot, rated by a demographically diverse set of human raters across five safety categories. The dataset captures diversity in safety perceptions across gender, age, and racial/ethnic groups.
 
 
 ## Notes

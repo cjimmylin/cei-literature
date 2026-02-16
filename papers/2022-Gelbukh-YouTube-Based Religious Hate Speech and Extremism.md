@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ YouTube comments dataset from religious videos
 
 ## Data Description
 
-The PDF extract appears to contain the wrong paper content, showing a legal analysis article titled 'The Future of Freedom of Expression Online' by Evelyn Mary Aswad from Duke Law & Technology Review, rather than a paper about YouTube-based religious hate speech. The extracted content discusses aligning corporate speech codes with international human rights law, particularly the ICCPR. No LLM models were tested or evaluated in the extracted content.
+The paper creates a novel dataset for religious hate speech detection from YouTube comments, applying data mining techniques on comments from religious videos to detect religion-oriented messages and identify videos used for spreading hate. Baseline classifiers including SVM, Logistic Regression, and k-NN are evaluated. The PDF extract contained a different paper, so detailed model information could not be verified. No LLMs were tested.
 
 
 ## Notes

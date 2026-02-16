@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Persian comment dataset from Instagram with two-level manual annotation for offensive language detection including fine-grained tags of different offensive language types."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -70,7 +71,8 @@ Persian comment dataset from Instagram with two-level manual annotation for offe
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The paper introduces PerBOLD, a large Persian offensive language dataset of approximately 30,000 Instagram comments. It uses a two-level manual annotation process to determine offensive language presence and fine-grained types of offensive language. The dataset combines user-based and news agency-based collection approaches, representing a significant expansion over existing Persian OLID datasets which had only 5-6K samples.
+
 
 ## Notes
 

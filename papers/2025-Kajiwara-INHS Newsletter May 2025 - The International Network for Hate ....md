@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,7 +71,7 @@ I found search results related to Japanese hate speech detection and NLP evaluat
 
 ## Data Description
 
-This paper is a newsletter from the International Network for Hate Studies (INHS) dated May 2025. It provides a curated bibliography of recent publications on hate speech, hate crime, and related topics, along with event announcements. It does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+Newsletter publication from the International Network for Hate Studies (INHS), listing recent publications and events related to hate speech research. Not a research paper with datasets or benchmarks.
 
 
 ## Notes

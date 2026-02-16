@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Foundational Moral Values for AI Alignment
 
@@ -71,7 +72,7 @@ Solving the AI alignment problem requires having clear, defensible values toward
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This paper proposes five foundational moral values for AI alignment: survival, sustainable intergenerational existence, society, education, and truth. It is a philosophical/normative paper that does not create, use, or evaluate any dataset or benchmark. The values are grounded in moral philosophy and mapped to UN Sustainable Development Goals and corporate AI principles.
 
 
 ## Notes

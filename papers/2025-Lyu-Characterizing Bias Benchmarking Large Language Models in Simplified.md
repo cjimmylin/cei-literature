@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o, Taiwan-LLM, Qwen-1.5"
 DATA_URL: "https://github.com/brucelyu17/SC-TC-Bench"
 tags: 
 abstract: "While the capabilities of Large Language Models (LLMs) have been studied in both Simplified and Traditional Chinese, it is yet unclear whether LLMs exhibit differential performance when prompted in these two variants of written Chinese. This understanding is critical, as disparities in the quality of LLM responses can perpetuate representational harms by ignoring the different cultural contexts underlying Simplified versus Traditional Chinese, and can exacerbate downstream harms in..."
@@ -70,6 +71,11 @@ abstract: "While the capabilities of Large Language Models (LLMs) have been stud
 ## Abstract
 
 Audits 11 leading LLMs for differential performance across Simplified and Traditional Chinese. Two benchmark tasks: regional term choice and regional name choice. Most LLMs favored Simplified Chinese in terminology but Traditional Chinese names in hiring scenarios.
+
+## Data Description
+
+Introduces SC-TC-Bench, a benchmark for characterizing bias between Simplified and Traditional Chinese in LLMs. Tests 11 LLMs including GPT-4o, Taiwan-LLM, and Qwen-1.5 variants. Benchmark and code available on GitHub.
+
 
 ## Notes
 

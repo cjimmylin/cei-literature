@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ Kurdish Fake News Detection Dataset (KDFND) of 100,962 news articles (50,751 rea
 
 ## Data Description
 
-The paper introduces KurdFake, a novel Kurdish fake news corpus containing two sets of 10,000 annotated news items each (crawled fake news and manipulated text from real news) in the Sorani Kurdish dialect. The corpus was created by harvesting 5,000 real news from four official Kurdish Facebook pages and matching them with fake or manipulated counterparts. Five traditional machine learning classifiers (NB, SVM, LR, DT, RF) were applied using TF-IDF features, with no LLM models tested.
+The paper creates 'KurdFake', a novel Kurdish fake news corpus containing two sets of 10,000 annotated news items each (crawled fake news and manipulated text from real news). Five traditional ML classifiers (NB, SVM, LR, DT, RF) are evaluated using TF-IDF features, with SVM achieving the highest accuracy of 88.71% on set 1. No LLMs were tested.
 
 
 ## Notes

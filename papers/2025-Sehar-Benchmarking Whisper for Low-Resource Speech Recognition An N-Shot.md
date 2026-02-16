@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: "Whisper"
 DATA_URL: "NA"
 tags: 
 abstract: "Whisper, a large-scale multilingual model, has demonstrated strong performance in speech recognition benchmarks, but its effectiveness on low-resource languages remains underexplored. This paper evaluates Whisper’s performance on Pashto, Punjabi, and Urdu, three underrepresented languages. While Automatic Speech Recognition (ASR) has advanced for widely spoken languages, low-resource languages still face challenges due to limited data."
@@ -69,7 +70,7 @@ Benchmarks Whisper ASR model on Pashto, Punjabi, and Urdu. Few-shot fine-tuning 
 
 ## Data Description
 
-This paper benchmarks OpenAI's Whisper automatic speech recognition model (Small, Medium, and Large variants) on three low-resource South Asian languages: Pashto, Punjabi, and Urdu. The evaluation uses curated datasets including the ELRA-S0381 Pashto Broadcast dataset (108 hours), a custom in-house Punjabi dataset, the Urdu Broadcast dataset (~800 hours), and the Urdu Telephonic dataset (111.5 hours), with 15-hour subsets used for few-shot fine-tuning and separate evaluation splits. No canonical LLMs from the assessment list were tested.
+The paper benchmarks OpenAI's Whisper model for automatic speech recognition on three low-resource South Asian languages: Pashto, Punjabi, and Urdu. It evaluates zero-shot performance and then fine-tunes the Whisper-small variant using few-shot learning with language-specific datasets (15 hours for Pashto, custom in-house for Punjabi, and Common Voice for Urdu). Significant reductions in Word Error Rate are achieved through few-shot fine-tuning compared to zero-shot performance.
 
 
 ## Notes

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "Unknown"
 is_dataset: "Unknown"
 data_description: "Unknown"
 data_metrics: "Unknown"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
  A Human Rights-Based Approach to Responsible AI
 
@@ -59,7 +60,7 @@ Research on fairness, accountability, transparency and ethics of AI-based interv
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a normative framework paper arguing that universal human rights doctrine can serve as a grounding framework for cross-cultural value alignment in responsible AI development, addressing alignment, allocation of responsibilities, and civil society participation.
+This is a position paper arguing that the doctrine of universal human rights can serve as a grounding framework for cross-cultural value alignment in responsible AI. It does not create or evaluate any dataset or benchmark. Instead, it provides a theoretical framework with worked examples in online content moderation to illustrate how human rights principles can guide AI ethics.
 
 
 ## Notes

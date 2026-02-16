@@ -2,6 +2,38 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 81 (Feb 15, 2026) - Post-Culture-Import Dedup + LLM Assessment Enrichment
+
+### Overview
+Ran full deduplication pipeline on the 2,008-paper vault after the culture search import, then enriched 574 papers with LLM assessment metadata via a 20-agent swarm.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers before | 2,008 |
+| Duplicate groups found | 6 (DOI/URL exact match) |
+| Papers recycled (dedup) | 6 |
+| Papers after dedup | 2,002 |
+| Papers enriched (LLM assessment) | 574 |
+| Papers with LLM models identified | 150 |
+| Papers with DATA_URLs | 202 |
+| Papers with data descriptions | 574 |
+| Remaining bare `LLM_assessed: NA` | 0 (was 356) |
+| Validation | 2,002/2,002 pass, 0 errors |
+
+### Key Learnings
+- [Data Quality] All 6 dedup matches were CULT* keys from culture search import colliding with existing papers — lightweight import-time prefix dedup misses exact URL/DOI matches
+- [YAML] Unicode curly quotes vs ASCII straight quotes in filenames cause `Path.exists()` failures — agent JSON outputs had ASCII quotes while disk had Unicode; fixed with glob-based matching before consolidation
+- [Workflows] LLM assessment yield follows vault chronology: pre-2023 batches had 0 LLMs tested, 2024-2026 batches averaged 10-15 papers with LLMs per batch of 29. GPT-4o is the most-tested model (41 papers)
+- [Workflows] ~10 PDF extracts across 20 agents contained mismatched content (wrong PDFs downloaded earlier). Agents correctly fell back to paper metadata/abstract, demonstrating resilience of the deep-read pipeline
+
+### Files Changed
+- papers/: 577 modified (574 LLM assessment + 3 dedup field merges), 6 deleted (recycled dupes)
+- PDFs/: 2 recycled (dedup)
+- PDF Extracts/: 2 recycled (dedup)
+- STATISTICS/: 3 modified/created (2 xref updates, 1 dedup report)
+- logs/: 22 new files (20 agent outputs + manifest + consolidation log)
+
 ## Session 80 (Feb 15, 2026) - Post-Wave Gap Closure: Classification Fixes + Report Regeneration
 
 ### Overview

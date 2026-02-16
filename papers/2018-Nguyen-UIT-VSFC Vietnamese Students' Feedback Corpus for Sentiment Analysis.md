@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,7 +41,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/kietnv/uit-vsfc"
 tags: 
 abstract: 
@@ -80,7 +81,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/kietnv/uit-vsfc.
+UIT-VSFC is a Vietnamese sentiment analysis corpus containing 16,000+ human-annotated Vietnamese sentences for sentiment-based and topic-based classification, with 91.20% inter-annotator agreement for the sentiment task. It has been used as a Vietnamese sentiment benchmark in evaluation frameworks including SEA-HELM. No LLMs were tested in the original paper.
+
 
 ## Notes
 

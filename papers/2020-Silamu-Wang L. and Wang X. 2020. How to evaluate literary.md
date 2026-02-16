@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,7 +69,7 @@ Based on the search results, I found the article you're looking for: Title: "Eva
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It examines the reliability of error-based and scale-based methods for assessing literary translations (English-Chinese and Chinese-English) in a classroom context, using generalizability theory. The study involves 36 MTI students' translations scored by 9 raters.
+The paper evaluates students' translation quality through error analysis and scale-based assessment methods for literary translations in a pedagogical context. Thirty-six MTI students translated two prose literary texts, scored by nine experienced raters using both methods. The study applies Generalizability Theory (G-studies via GENOVA) to compare rater severity and consistency across methods for English-Chinese and Chinese-English literary translation assessment.
 
 
 ## Notes

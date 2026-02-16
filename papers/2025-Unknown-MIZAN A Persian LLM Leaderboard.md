@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard"
 tags: 
 abstract: "Standard Persian LLM leaderboard evaluating models across general knowledge, logical reasoning, and language skills. Includes PerCoR (Persian CommonSense Reasoning) benchmark."
@@ -71,7 +72,8 @@ Standard Persian LLM leaderboard evaluating models across general knowledge, log
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/spaces/MCINext/mizan-llm-leaderboard.
+MIZAN is a Persian LLM leaderboard hosted on HuggingFace that evaluates models across general knowledge, logical reasoning, and language skills. It includes the PerCoR (Persian CommonSense Reasoning) benchmark. Without the full documentation, the specific models evaluated on the leaderboard cannot be confirmed from the available metadata.
+
 
 ## Notes
 

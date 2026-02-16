@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Bias & Fairness"
@@ -70,7 +71,8 @@ I found the research article you're looking for. Here are the key findings: Stud
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Analysis paper on cultural bias in Chinese LLMs. Based on available metadata, the paper discusses occupational biases and stereotypes but no specific models are confirmed as tested, and no dataset or code is released.
+
 
 ## Notes
 

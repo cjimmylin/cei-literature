@@ -34,6 +34,15 @@
 
 ---
 
+## 2026-02-15 (Session 81)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-15 | Data Quality | **Culture Search Import Dedup Gap:** Lightweight filename-prefix dedup at import time missed 6 exact-match duplicates (same URL or DOI). The full `detect_duplicates.py` Union-Find pipeline on DOI/arXiv/URL caught all 6. Lesson: always run full dedup after any import, even if import-time dedup was applied. |
+| 2026-02-15 | YAML | **Unicode Curly Quotes in Filenames Break Path.exists():** Agent JSON outputs had ASCII `'` and `"` while files on disk had Unicode `'` (U+2019) and `"` `"` (U+201C/U+201D). Python `Path.exists()` does exact byte comparison, so these silently fail. Fix: glob-match on first 30 chars of filename, then replace in JSON before consolidation. Add a normalization step to agent prompt or consolidation script for future runs. |
+| 2026-02-15 | Workflows | **LLM Assessment Temporal Distribution:** Pre-2023 papers have near-zero LLM evaluations (pre-LLM era). 2024-2026 papers average 10-15 papers with tested LLMs per batch of 29. GPT-4o leads (41 papers), followed by GPT-4 (27), GPT-3.5 (17). This reflects the field's explosive growth post-ChatGPT. |
+| 2026-02-15 | Workflows | **Agent Resilience to Bad PDF Extracts:** ~10 of 574 papers had PDF extracts containing content from wrong papers (extraction errors from earlier import waves). All 20 agents independently detected this and fell back to paper markdown metadata. Key indicator agents used: content topic mismatch with paper title, wrong author names, unrelated subject matter. |
+
 ## 2026-02-15 (Session 80)
 
 | Date | Category | Learning |

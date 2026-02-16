@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ tags:
 abstract: "First paper to address religious hate speech detection in Arabic Twitter. Creates the first publicly available Arabic dataset annotated for religious hate speech and the first Arabic lexicon of religious discussion terms with polarity/strength scores. Achieves 0.84 AUROC with simple RNN-GRU architecture. Addresses sectarian hate speech, a critical gap in Arabic NLP."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/nuhaalbadi/Arabic_hatespeech"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -73,7 +74,8 @@ First paper to address religious hate speech detection in Arabic Twitter. Create
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/nuhaalbadi/Arabic_hatespeech.
+This paper is the first to address religious hate speech detection in Arabic Twitter. It creates the first publicly available Arabic dataset annotated for religious hate speech (5,569 training + 567 testing examples) and the first Arabic lexicon of religious discussion terms with polarity/strength scores. A simple RNN-GRU architecture achieves 0.84 AUROC. No LLMs are tested.
+
 
 ## Notes
 

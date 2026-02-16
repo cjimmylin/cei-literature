@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -66,7 +67,8 @@ Based on the web search results, here's what I found regarding Uyghur language t
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper describes the training and application of a lightweight agricultural domain-specific large language model supporting Mandarin Chinese and Uyghur. No PDF extract is available and no detailed information about specific models tested or datasets created could be verified from the metadata.
+
 
 ## Notes
 

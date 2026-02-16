@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -72,7 +73,7 @@ First sentiment analysis benchmark for Modern Hebrew based on 12,804 social medi
 
 ## Data Description
 
-The paper introduces a new sentiment analysis benchmark for Modern Hebrew consisting of 12,804 user comments scraped from the official Facebook page of Israel's president, annotated for positive, negative, and neutral sentiment by two trained annotators. The dataset is split into 10,244 training and 2,560 test comments, provided in both token-based and morpheme-based representational forms. The authors evaluate various neural network architectures (MLP, CNN, LSTM, BiLSTM) on this benchmark rather than testing any LLM.
+This paper develops the first sentiment analysis benchmark for Modern Hebrew, consisting of 12,000 social media comments. It studies the effects of representation choices (token-based vs. morpheme-based, string-based vs. character-based) on neural sentiment analysis across five architectures (linear baseline, fully-connected, convolutional, RNN, bidirectional RNN). The models tested are pre-LLM neural architectures, not large language models.
 
 
 ## Notes

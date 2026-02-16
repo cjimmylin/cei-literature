@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://github.com/tareknaous/camellia"
+LLM_assessed: "Llama-3.3-70B; Qwen-2.5-72B; Aya-Expanse-32B; Gemma-3-27B"
+DATA_URL: "NA"
 tags: 
 abstract: "As Large Language Models (LLMs) gain stronger multilingual capabilities, their ability to handle culturally diverse entities becomes crucial. Prior work has shown that LLMs often favor Western-associated entities in Arabic, raising concerns about cultural fairness. Due to the lack of multilingual benchmarks, it remains unclear if such biases also manifest in different non-Western languages. In this paper, we introduce Camellia, a benchmark for measuring entity-centric cultural biases in nine..."
 ethics_perspective: "Social & Cultural Values"
@@ -67,6 +68,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Benchmark for measuring entity-centric cultural biases in nine Asian languages spanning six distinct Asian cultures, including Vietnamese. Includes 19,530 entities manually annotated for cultural association and 2,173 masked contexts from social media. Shows LLMs favor Western-associated entities in 30-40% of cases even in non-Western contexts.
+
+## Data Description
+
+Camellia is a large-scale cultural bias benchmark spanning 9 Asian languages with 19,530 entities. It evaluates LLMs on extractive QA and sentiment association tasks designed to reveal cultural biases in how models handle culture-specific concepts across languages. Four large open-source multilingual LLMs are tested using vLLM inference with greedy decoding.
+
 
 ## Notes
 

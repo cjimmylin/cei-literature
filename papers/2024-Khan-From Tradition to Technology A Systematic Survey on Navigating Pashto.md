@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Systematic survey of Pashto NLP covering text processing, sentiment analysis, machine translation, and other tasks. Reviews challenges and opportunities for Pashto computational linguistics."
 research_topic: "NLP & Representation Learning"
@@ -67,7 +68,8 @@ Systematic survey of Pashto NLP covering text processing, sentiment analysis, ma
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+A systematic survey of Pashto NLP covering text processing, sentiment analysis, machine translation, and other tasks. It reviews existing challenges and opportunities for Pashto computational linguistics but does not create any new dataset or benchmark, and no LLMs are tested.
+
 
 ## Notes
 

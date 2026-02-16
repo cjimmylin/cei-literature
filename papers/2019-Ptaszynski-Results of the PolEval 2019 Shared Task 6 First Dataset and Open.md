@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/ptaszynski/cyberbullying-Polish"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "First shared task for automatic cyberbullying detection in Polish Twitter, distinguishing harmful tweets as cyberbullying (targeting private persons) or hate-speech (targeting public entities). 14 submissions."
 research_topic: "Machine Learning"
@@ -71,7 +72,8 @@ First shared task for automatic cyberbullying detection in Polish Twitter, disti
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/ptaszynski/cyberbullying-Polish.
+The paper presents results of the PolEval 2019 Shared Task 6 on automatic cyberbullying detection in Polish Twitter. It introduces the first open dataset for cyberbullying detection in Polish and reports results from multiple submitted systems using approaches ranging from traditional ML to deep learning (LSTM, ULMFiT). The shared task includes binary classification (harmful vs non-harmful) and multi-class detection of types of harmfulness.
+
 
 ## Notes
 

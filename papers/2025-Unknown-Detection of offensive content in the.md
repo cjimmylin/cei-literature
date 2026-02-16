@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -68,7 +69,7 @@ Novel hybrid models for Kazakh offensive content detection using BERT transforme
 
 ## Data Description
 
-This paper is a literature review surveying techniques for automated detection of offensive language in social media. It reviews 40 studies across natural language processing, deep learning, hybrid, and multilingual approaches using algorithms such as SVM, Naive Bayes, LSTM, and CNN. No specific dataset or benchmark is introduced by the paper itself.
+This is a 2021 literature review surveying techniques for automated detection of offensive language in social media content. It reviews 40 studies across NLP, deep learning, hybrid, and multilingual approaches using traditional ML algorithms (SVM, Naive Bayes, LSTM, CNN). No LLMs are tested and no new dataset is created; it synthesizes existing work on offensive content detection methods and their limitations.
 
 
 ## Notes

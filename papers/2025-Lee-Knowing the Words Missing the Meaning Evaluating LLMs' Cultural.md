@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o"
 DATA_URL: "https://github.com/es133lolo/Knowing-the-Words-Missing-the-Meaning"
 tags: 
 abstract:
@@ -68,6 +69,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Benchmark evaluating LLMs' cultural understanding through Sino-Korean words and four-character idioms. Four question categories: idioms, synonyms, antonyms, homophones with 200 samples each. GPT-4o shows highest accuracy but relies on primary dictionary definitions and Chinese usages rather than Korean-specific meanings.
+
+## Data Description
+
+Evaluates LLMs on understanding Korean Sino-Korean words, testing cultural and linguistic comprehension. Code and data are available on GitHub. The paper specifically tests GPT-4o on cultural meaning interpretation tasks.
+
 
 ## Notes
 

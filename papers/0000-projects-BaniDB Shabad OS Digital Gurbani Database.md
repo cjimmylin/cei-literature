@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +42,7 @@ tags:
 abstract: "> Most precise digital Gurbani database with standardized lagamatras and padh chhedh. Covers Sri Guru Granth Sahib, Sri Dasam Granth, and other Sikh canonical texts. API accessible. Could be used for Sikh knowledge QA evaluation of LLMs."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/KhalisFoundation/banidb-api / https://github.com/shabados/database / https://www.banidb.com/"
 research_topic: "Other"
 ---
@@ -76,7 +77,8 @@ research_topic: "Other"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/KhalisFoundation/banidb-api / https://github.com/shabados/database / https://www.banidb.com/.
+BaniDB/Shabad OS is a digital Gurbani database containing the most precise standardized versions of Sri Guru Granth Sahib, Sri Dasam Granth, and other Sikh canonical texts with 43,000+ corrections. The database is API-accessible and could serve as a resource for evaluating LLM knowledge of Sikh scripture, but no LLMs have been formally tested against it.
+
 
 ## Notes
 

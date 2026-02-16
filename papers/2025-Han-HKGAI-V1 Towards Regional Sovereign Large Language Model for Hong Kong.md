@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "HKGAI-V1"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Develops sovereign LLM for Hong Kong addressing multilingual environment (Cantonese, Mandarin, English) and socio-legal context. Introduces Adversarial HK Value Benchmark with 300 human-crafted sensitive questions evaluating alignment with local ethical and legal standards.
+
+## Data Description
+
+The paper presents HKGAI-V1, a 685-billion-parameter sovereign LLM tailored for Hong Kong's multilingual environment (Cantonese, Mandarin, English). Built on the DeepSeek architecture with full parameter fine-tuning, RAG integration, and RLHF alignment, it is evaluated using a proprietary Adversarial HK Value Benchmark that tests model alignment with local ethical and legal standards. The model outperforms general-purpose models on Hong Kong-specific culturally sensitive queries.
+
 
 ## Notes
 

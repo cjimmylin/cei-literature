@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Comprehensive survey of hate speech detection tasks, available datasets, and computational approaches for South Asian languages. Covers Tamil, Malayalam, Kannada and other Dravidian languages. Published in ACM TALLIP. Meta-survey covering hate speech datasets for Dravidian languages. Key reference for understanding the landscape of values-relevant datasets in these languages."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -71,7 +72,8 @@ Comprehensive survey of hate speech detection tasks, available datasets, and com
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a comprehensive survey paper reviewing hate speech detection tasks, available datasets, and computational approaches for South Asian languages including Bengali, Hindi, Kannada, Malayalam, Sinhala, Tamil, and Urdu. Published in ACM TALLIP, it serves as a meta-survey covering the landscape of values-relevant datasets in Dravidian and other South Asian languages. No LLMs were directly tested.
+
 
 ## Notes
 

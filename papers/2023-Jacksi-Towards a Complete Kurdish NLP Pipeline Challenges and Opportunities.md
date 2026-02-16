@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,7 +71,7 @@ Survey of Kurdish NLP pipeline covering all dialects. Identifies challenges in d
 
 ## Data Description
 
-This paper is a survey of Kurdish Natural Language Processing (KNLP) research covering both Sorani and Kurmanji dialects. It reviews existing work on text cleaning, tokenization, POS tagging, lemmatization/stemming, named entity recognition, and applications including fake news detection, dialect recognition, machine translation, and speech recognition, using various Kurdish corpora such as Pewan, KTC, and KDC-4007.
+This paper surveys the state of NLP for the Kurdish language, covering the pipeline from text cleaning and tokenization to POS tagging, named entity recognition, and sentiment analysis across the Sorani and Kurmanji dialects. It reviews existing tools and methods from 2010-2021 and identifies challenges including multi-script writing systems, limited resources, and morphological complexity. No new models are tested or benchmarks created.
 
 
 ## Notes

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ Two large datasets of moderated news comments from Slovene RTV MCC and Croatian 
 
 ## Data Description
 
-The paper presents two large datasets of moderated news comments: the Slovene MMC dataset (7.6 million comments, 325 million words) and the Croatian STY dataset (17 million comments, 407 million words), spanning eight and ten years respectively. Comments include metadata on whether they were deleted by moderators. The authors build baseline fastText classification models achieving ROC AUC scores of 0.794 (MMC) and 0.793 (STY) for detecting inappropriate content. No LLMs were tested.
+This paper presents two large datasets of moderated news comments from Slovene (RTV MCC) and Croatian (24sata) online news portals. The datasets include comments deleted by human moderators, annotated by deletion type. Initial experiments on automatically detecting deleted content are presented using baseline classifiers. Both datasets are published in encrypted form to protect privacy. No LLMs are evaluated.
 
 
 ## Notes

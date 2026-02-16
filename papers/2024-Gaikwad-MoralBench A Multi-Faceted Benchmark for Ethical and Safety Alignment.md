@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/krimler/moralbench"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Combines three datasets: 1K high-fidelity safety-alignment prompt set, 10K abstracted variation set for domain transfer, and 19,132-record rich metadata preference dataset with structured ethical annotations. Covers ethical reasoning, safety alignment, and socially sensitive dialogue generation.
+
+## Data Description
+
+MoralBench is a multi-faceted benchmark combining three datasets: a 1K high-fidelity safety-alignment prompt set, a 10K abstracted variation set for domain transfer, and a 19,132-record rich metadata preference dataset with structured ethical annotations. It covers ethical reasoning, safety alignment, and socially sensitive dialogue generation. Based on available metadata, no specific LLMs are identified as having been tested in the paper.
+
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -71,7 +72,8 @@ Based on the web search results, here are the findings related to Uyghur sentime
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper addresses construction and evaluation of sentiment datasets for low-resource languages, focusing on Uzbek. It relates to sentiment analysis evaluation using multiple metrics (Accuracy, Precision, Recall, F1-score) but no specific LLMs are confirmed as tested from the available metadata, and no dataset repository URL was identified.
+
 
 ## Notes
 

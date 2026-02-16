@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Social & Cultural Values"
@@ -66,7 +67,8 @@ Based on the search results, here's what recent 2025 research reveals about Chin
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper examines how LLMs mirror cultural dominance in terms of social values, attitudes, and stereotypes. No PDF extract was available for detailed analysis. The paper's abstract references studies of occupational and gender biases in Chinese LLMs but specific models evaluated by the authors could not be confirmed from available metadata.
+
 
 ## Notes
 

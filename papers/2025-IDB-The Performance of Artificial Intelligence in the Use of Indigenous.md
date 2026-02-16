@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://publications.iadb.org/publications/english/document/The-Performance-of-Artificial-Intelligence-in-the-Use-of-Indigenous-American-Languages.pdf"
 tags: 
 abstract:
@@ -67,6 +68,11 @@ research_topic: "Other"
 ## Abstract
 
 Evaluates AI/LLM performance across 7 indigenous Latin American languages (Quechua, Guarani, Aymara, Nahuatl, Quiche, Mapuche, Tupi-Guarani) using 5 language models. Uses MQM and MMLU methodologies. Finds significant performance gaps vs. Spanish/major languages. Presents 21 strategies for technological inclusion. Cultural bias toward Western hegemonic culture identified even when AI responds in indigenous languages.
+
+## Data Description
+
+This IDB publication evaluates AI/LLM performance across 7 indigenous Latin American languages (Quechua, Guarani, Aymara, Nahuatl, Quiche, Mapuche, Tupi-Guarani) using 5 language models and MQM and MMLU methodologies. It finds significant performance gaps compared to Spanish/major languages and identifies cultural bias toward Western hegemonic culture even when AI responds in indigenous languages. The PDF extract was empty, so specific model names could not be confirmed.
+
 
 ## Notes
 

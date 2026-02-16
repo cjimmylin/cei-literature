@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -65,7 +66,7 @@ First attempt at detecting hate speech in Hindi-English code-mixed text with ~4,
 
 ## Data Description
 
-The paper presents an annotated corpus of 4,575 Hindi-English code-mixed tweets for hate speech detection, with word-level language tags (English, Hindi, other) and binary hate/normal speech labels. The dataset includes 1,661 hate speech tweets and 2,914 normal speech tweets. The authors evaluate SVM and Random Forest classifiers using character n-grams, word n-grams, punctuation, negation, and lexicon features, achieving best accuracy of 71.7% with SVM.
+This paper creates the first dataset for hate speech detection in Hindi-English code-mixed social media text, consisting of tweets annotated at word-level for language and at sentence-level for hate speech vs. normal speech. A supervised classification system using character-level, word-level, and lexicon-based features is proposed. The models tested are traditional ML classifiers (SVM, Random Forest, etc.), not LLMs.
 
 
 ## Notes

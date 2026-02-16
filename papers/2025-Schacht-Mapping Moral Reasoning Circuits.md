@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "Gemma-2"
 DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
 pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
 local_pdf: "[[PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
@@ -104,7 +105,7 @@ The findings advance theoretical understanding of moral reasoning in LLMs by dem
 
 ## Data Description
 
-The paper presents a curated dataset of 240 validated moral and immoral statement pairs across six moral dimensions (care, fairness, loyalty, authority, sanctity, and liberty) based on Moral Foundations Theory. The dataset is used for differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons in LLMs aligned with each moral dimension. The specific LLM model tested is not identifiable from the extract due to paywall-limited content.
+The paper investigates how LLMs encode moral reasoning across six moral dimensions (care, fairness, loyalty, authority, sanctity, liberty) using a mechanistic interpretability approach. A curated dataset of 240 validated moral/immoral statement pairs is used to identify specialized neurons via differential activation analysis, automated neuron description, and ablation experiments. The study reveals discrete sub-circuits that influence moral outputs, with care and sanctity showing the largest sets of specialized neurons.
 
 
 ## Notes

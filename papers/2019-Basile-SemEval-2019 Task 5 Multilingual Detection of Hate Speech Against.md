@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/jaredks/tweetokenize"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "This paper describes our contribution to the SemEval-2019 Task 5 on the detection of hate speech against immigrants and women in Twitter (hatEval). We considered a supervised classiﬁcation-based approach to detect hate speech in English tweets, which combines a variety of standard lexical and syntactic features with speciﬁc features for capturing offensive language. Our experimental results show good classiﬁcation performance on the training data, but a considerable drop in recall on the..."
 ethics_perspective: "Toxicity & Hate Speech"
@@ -72,7 +73,8 @@ International shared task on hate speech detection in English and Spanish tweets
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/jaredks/tweetokenize.
+This paper describes the LT3 team's contribution to SemEval-2019 Task 5 (HatEval) on detecting hate speech against immigrants and women in English and Spanish Twitter. They use a supervised classification approach combining lexical, syntactic, and offensive-language-specific features. The classifiers used are traditional ML models (pre-LLM era), not large language models. The shared task dataset was provided by the organizers.
+
 
 ## Notes
 

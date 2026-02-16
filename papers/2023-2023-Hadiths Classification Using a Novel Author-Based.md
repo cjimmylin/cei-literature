@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "Creates ABCD (Author-Based Classification Dataset) from classical Hadith books. ML achieves 77% F1 on Matn data; DL achieves 92% F1 on Sanad data. Provides a novel author-based classification approach complementing content-based methods."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "Papers with Code listing"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # Hadiths Classification Using a Novel Author-Based Hadith Classification Dataset (ABCD)
@@ -76,7 +77,8 @@ Creates ABCD (Author-Based Classification Dataset) from classical Hadith books. 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: Papers with Code listing.
+The paper creates the ABCD (Author-Based Classification Dataset) from classical Hadith books containing 29K Hadiths and 18K unique narrators. ML classifiers achieve 77% F1 on Matn (content) data and deep learning achieves 92% F1 on Sanad (chain of narrators) data. No LLMs are tested; traditional ML and DL classifiers are used for Hadith authenticity classification.
+
 
 ## Notes
 

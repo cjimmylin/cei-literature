@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Machine Translation"
@@ -69,6 +70,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Collection of benchmark datasets spanning 8 NLP tasks covering up to 28 Creole languages. Includes MIT-Haiti Corpus for Haitian Creole with English/French/Spanish translations. Baseline zero-shot transfer learning experiments. First major NLP benchmark for Creole languages.
+
+## Data Description
+
+CreoleVal is a collection of benchmark datasets spanning 8 NLP tasks (machine translation, sentiment analysis, etc.) covering up to 28 Creole languages. It includes the MIT-Haiti Corpus for Haitian Creole with English/French/Spanish translations. The paper provides baseline zero-shot transfer learning experiments but does not test specific LLMs as its primary contribution. No PDF extract was available for deeper analysis.
+
 
 ## Notes
 

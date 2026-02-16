@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_HAYES2024
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # From applied ethics and ethical principles to virtue and narrative in AI practices
 
@@ -73,7 +74,7 @@ The objective is to examine whether a narrative and virtue-based ethics (or VPD,
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical paper exploring narrative ethics and virtue ethics (VPD - Virtuous Practice Design) as foundations for AI ethics, drawing on Paul Ricoeur's 'little ethics' and Alasdair MacIntyre's virtue ethics framework as alternatives to principles-based approaches to AI ethics.
+This paper is a theoretical exploration of narrative philosophy and virtue ethics (inspired by Paul Ricoeur's 'little ethics' and Alasdair MacIntyre's virtue ethics) as a foundation for AI ethics. It examines Virtuous Practice Design (VPD) as an alternative to principle-based and applied ethics approaches. No dataset, benchmark, or LLM evaluation is involved.
 
 
 ## Notes

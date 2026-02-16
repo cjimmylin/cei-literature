@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o-mini, GPT-4o, GPT-4, GPT-3.5, Llama-3.1-70B"
 DATA_URL: "https://github.com/SalesforceAIResearch/CASA"
 tags: 
 abstract: "As large language models (LLMs) expand into performing as agents for real-world applications beyond traditional NLP tasks, evaluating their robustness becomes increasingly important. However, existing benchmarks often overlook critical dimensions like cultural and social awareness. To address these, we introduce CASA, a benchmark designed to assess LLM agents’ sensitivity to cultural and social norms across two web-based tasks: online shopping and social discussion forums."
@@ -72,6 +73,11 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 Introduces CASA, a benchmark for assessing LLM agents' sensitivity to cultural and social norms in online shopping and social discussion forums. Agents achieve less than 10% awareness coverage and over 40% violation rates.
+
+## Data Description
+
+The paper introduces CASA, a benchmark for evaluating LLM agents' cultural and social awareness across 17 countries in two web-based task types: online shopping and social discussion forums. CASA contains 1,225 user queries and 622 observations designed to test whether agents can detect cultural/social norm violations. The evaluation framework measures awareness coverage rate, educational rate, helpfulness rate, and violation rate, revealing that current LLM agents achieve less than 10% awareness coverage in agent settings.
+
 
 ## Notes
 

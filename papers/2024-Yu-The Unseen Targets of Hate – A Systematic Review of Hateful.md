@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/uzeui/HateComm_Review.git"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Warning: This paper discusses and contains content that is offensive or upsetting. Machine learning (ML)-based content moderation tools are essential to keep online spaces free from hateful communication. Yet, ML tools can only be as capable as the quality of the data they are trained on allows them. While there is increasing evidence that they underperform in detecting hateful communications directed towards specific identities and may discriminate against them, we know surprisingly little..."
 research_topic: Other
@@ -70,7 +71,8 @@ Warning: This paper discusses and contains content that is offensive or upsettin
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/uzeui/HateComm_Review.git.
+This paper presents a systematic review of datasets for automated detection of hateful communication introduced over the past decade. It analyzes dataset quality in terms of target identities, finding skewed representation and mismatches between conceptualized and included targets. The review covers datasets across multiple languages and platforms, highlighting a positive trend toward diversification but identifying gaps in coverage of targets like age and body image.
+
 
 ## Notes
 

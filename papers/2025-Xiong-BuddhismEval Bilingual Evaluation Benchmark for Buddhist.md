@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: 
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://huggingface.co/datasets/Nethmi14/BuddhismEval"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "General Ethics"
 ---
 # BuddhismEval: Bilingual Evaluation Benchmark for Buddhist Ethics and Reasoning
@@ -71,7 +72,8 @@ Sinhala MCQ dataset + English MCQ dataset + Dhammapada Parallel Corpus (multi-co
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/Nethmi14/BuddhismEval.
+The PDF extract for this entry appears to be incorrectly mapped to an education encyclopedia/dictionary rather than the BuddhismEval paper. The content lists alphabetical education terminology entries. This appears to be a duplicate or mislabeled entry related to the BuddhismEval benchmark. No LLM evaluations are present in the extracted content.
+
 
 ## Notes
 

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "First Kurdish stance detection dataset with 2,174 news articles (economic and political) from 2024-2025. Pattern-recognition annotation with 4,243 adjectives/verbs for stance classification."
 research_topic: "Machine Learning"
@@ -69,7 +70,8 @@ First Kurdish stance detection dataset with 2,174 news articles (economic and po
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The paper presents Bochun, the first Kurdish stance detection dataset for Sorani Kurdish, containing 2,174 news articles on economic and political topics from 2024-2025. The dataset uses pattern-recognition annotation with 4,243 adjectives and verbs for stance classification. No specific LLMs are evaluated in the available metadata; it is primarily a dataset construction paper.
+
 
 ## Notes
 

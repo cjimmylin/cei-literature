@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Gemma-2B, Gemma-4B"
+DATA_URL: "NA"
 tags: 
 abstract: "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural..."
 ethics_perspective: "AI Safety & Alignment"
@@ -70,6 +71,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Bilingual moderation filter evaluating both safety and cultural alignment in Arabic/English. 468K+ prompt-response pairs dataset. First benchmark targeting Arabic cultural contexts with 1K+ norm-sensitive prompts annotated by human raters. Addresses Western-centric biases in LLMs that violate Arabic cultural or religious precepts.
+
+## Data Description
+
+The paper introduces FanarGuard, a bilingual (Arabic/English) content moderation filter that evaluates both safety and cultural alignment. It constructs a training dataset of over 468K prompt-response pairs scored by LLM judges on harmlessness and cultural awareness, and develops a new benchmark of over 1,000 culturally sensitive prompts targeting Arabic cultural contexts with human annotations. FanarGuard is trained as a regression model on RoBERTa-large, Gemma-2B, and Gemma-4B base models, achieving MAE of 0.79 on cultural alignment and F1 of 0.84 on safety benchmarks.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Deontology and safe artificial intelligence
 
@@ -73,7 +74,7 @@ Of the ethical frameworks taken most seriously by philosophers, deontology looks
 
 ## Data Description
 
-This paper is a philosophical analysis arguing that deontological morality is not a reliable path to safe AI. It examines potential risks from AI aligned with moderate, contractualist, and non-aggregative forms of deontology, discussing harm-benefit asymmetries, anti-natalism, and safety considerations. It does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This is a philosophical paper forthcoming in Philosophical Studies (AI Safety special issue) arguing that deontological morality is not a sufficient path to safe AI. It presents a framework for thinking about moral alignment and safety as conceptually distinct notions, exploring potential risks associated with moderate, contractualist, and non-aggregative forms of deontology when applied to AI systems. No LLMs are tested; the paper is purely theoretical philosophical analysis.
 
 
 ## Notes

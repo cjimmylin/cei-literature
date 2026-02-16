@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ Given a data set and a learning task such as classification, there are two prime
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical linguistics paper (in Mongolian) exploring the concept of textual value through the lens of Saussurean semiotics, Hjelmslev's Glossematics, Humboldt's language theory, and Chomsky's computational linguistics, arguing that the meaning and value of texts derive from the positional relationships of their components rather than from individual constituent properties.
+This is a Mongolian-language academic article published in the Mongolian Journal of Humanities and Social Sciences discussing the concept of text and value (utga uchir) from a semiotic and linguistic perspective. Drawing on Saussure's semiotics, Chomsky's linguistics, and Glossematics, the paper argues that the value of text components lies in their relational positions rather than individual characteristics. No datasets or benchmarks are created, and no LLMs are tested.
 
 
 ## Notes

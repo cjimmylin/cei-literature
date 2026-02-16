@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Virtue ethics"
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: 
 local_pdf: N/A
 ---
@@ -53,7 +54,7 @@ This book explores the ethics of AI from multiple Chinese philosophical traditio
 
 ## Data Description
 
-No PDF extract available for analysis.
+This is a book exploring the ethics of AI through Chinese philosophical traditions including Confucianism, Mohism, and Zhuangism. It examines how virtue ethics concepts like ren (benevolence), li (propriety), and yi (righteousness) can inform ethical development of AI systems related to digital representations of deceased individuals. No dataset or benchmark is created or used.
 
 
 ## Notes

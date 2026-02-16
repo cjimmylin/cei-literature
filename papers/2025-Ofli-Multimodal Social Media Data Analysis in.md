@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ abstract: "Fifth Workshop on Speech, Vision, and Language Technologies for Dravi
 data_description: "N/A"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
-DATA_URL: "http://crisisnlp.qcri.org/"
+DATA_URL: "NA"
 research_topic: "Computer Vision & Multimodal"
 ---
 # Multimodal Social Media Data Analysis in Dravidian Languages (MSMDA-DL) at DravidianLangTech-2025
@@ -71,7 +72,7 @@ Fifth Workshop on Speech, Vision, and Language Technologies for Dravidian Langua
 
 ## Data Description
 
-This paper proposes a multimodal deep learning architecture combining text and image modalities from social media for disaster response analysis. It uses the CrisisMMD dataset consisting of tweets and associated images from seven natural disasters in 2017, with 11,400 text entries and 12,708 images annotated for informativeness and humanitarian categorization tasks. The architecture uses VGG16 for images and a CNN for text with a shared representation layer. No LLM models from the canonical list were tested.
+This is a 2020 paper on multimodal deep learning for social media data analysis in disaster response, using VGG16 and CNN architectures rather than LLMs. No LLMs are tested or benchmarked. No dataset or code repository was identified in the extract.
 
 
 ## Notes

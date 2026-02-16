@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, Gemma-2-9B, Gemma-2-27B, Aya-101, Llama-3"
+DATA_URL: "https://huggingface.co/datasets/israel/ProverbEval"
 tags: 
 abstract: "With the rapid development of evaluation datasets to assess LLMs understanding across a wide range of subjects and domains, identifying a suitable language understanding benchmark has become increasingly challenging. In this work, we explore LLM evaluation challenges for low-resource language understanding and introduce ProverbEval, LLM evaluation benchmark for low-resource languages, focusing on low-resource language understanding in culture-specific scenarios."
 research_topic: "Machine Learning"
@@ -66,6 +67,11 @@ research_topic: "Machine Learning"
 ## Abstract
 
 LLM evaluation benchmark based on cultural proverbs across 4 Ethiopian languages plus English. Three tasks: meaning multiple-choice, fill-in-the-blank, proverb generation. Found up to 50% performance variance from choice order sensitivity.
+
+## Data Description
+
+Introduces ProverbEval, a benchmark for evaluating LLM understanding of proverbs in low-resource Ethiopian languages. Tests five models on proverb comprehension and cultural knowledge, revealing challenges in low-resource language evaluation. Code available at https://github.com/EthioNLP/EthioProverbEval.
+
 
 ## Notes
 

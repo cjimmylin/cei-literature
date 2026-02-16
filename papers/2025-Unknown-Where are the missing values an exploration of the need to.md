@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Social & Cultural Values"
@@ -68,6 +69,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Examines how Ubuntu philosophy can and should inform AI policies in Africa. Finds current AI policies in Africa have not incorporated Ubuntu values as a fundamental guiding principle but have adopted Eurocentric values instead.
+
+## Data Description
+
+This paper examines how Ubuntu philosophy can and should inform AI policies in Africa. Through content analysis of African AI policies (AUDA-NEPAD White Paper, AU AI Strategy, and national strategies of Mauritius, Rwanda, and Benin), it assesses whether African communitarian values are reflected. The paper explicitly states no datasets were generated or analysed; it is a philosophical and policy analysis paper.
+
 
 ## Notes
 

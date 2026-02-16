@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "Sherkala-Chat-8B"
 DATA_URL: "https://huggingface.co/inceptionai/Llama-3.1-Sherkala-8B-Chat"
 tags: 
 abstract: "Llama-3.1-Sherkala-8B-Chat, or Sherkala-Chat (8B) for short, is a state-ofthe-art instruction-tuned open generative large language model (LLM) designed for Kazakh. Sherkala-Chat (8B) aims to enhance the inclusivity of LLM advancements for Kazakh speakers. Adapted from the LLaMA3.1-8B model, Sherkala-Chat (8B) is trained on 45.3B tokens across Kazakh, English, Russian, and Turkish. With 8 billion parameters, it demonstrates strong knowledge and reasoning abilities in Kazakh, significantly..."
@@ -65,6 +66,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 State-of-the-art instruction-tuned open LLM for Kazakh (8B parameters, trained on 45.3B tokens). Evaluated against human-curated Kazakh-specific benchmarks covering culture, geography, and history. Includes Kazakh-specific safety data.
+
+## Data Description
+
+Develops Sherkala-Chat 8B, a state-of-the-art LLM for Kazakh language built by fine-tuning LLaMA-3.1-8B. The model is released on HuggingFace. Evaluates the model on Kazakh language tasks demonstrating competitive performance.
+
 
 ## Notes
 

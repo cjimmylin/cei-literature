@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
 local_pdf: "[[PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
 ---
@@ -103,7 +104,7 @@ None mentioned
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents two human-participant studies examining the relationship between moral identity, ethical predisposition (deontology vs. utilitarianism), and moral behavior (cheating). Study 1 is a web-based survey of 437 participants measuring moral identity and ethical predisposition via a business vignette. Study 2 is a laboratory experiment with 50 participants using a computerized gambling paradigm to measure cheating behavior.
+This paper explores the relationship between moral identity, deontological vs. utilitarian decision-making, and moral behavior through two studies: a web-based survey and a behavioral experiment. Study 1 finds that individuals with strong moral identity prefer deontological ideals; Study 2 shows that deontology coupled with moral identity most effectively predicts moral behavior. This is a psychology study with no computational benchmarks or LLM evaluation.
 
 
 ## Notes

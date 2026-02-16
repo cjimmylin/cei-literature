@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,8 +43,8 @@ tags:
 abstract: "Mixed-methods study finding Muslim users overwhelmingly preferred AI-generated responses to Islamic questions (81.3%) in blind evaluations despite expressing distrust. Expert Islamic scholars found critical shortcomings in accuracy, depth, and contextual sensitivity. Highlights the paradox of user preference vs. expert quality assessment in religious AI content."
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Blind Faith? User Preference and Expert Assessment of AI-Generated Religious Content
@@ -77,7 +78,8 @@ Mixed-methods study finding Muslim users overwhelmingly preferred AI-generated r
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This mixed-methods study examines Muslim users' preferences for AI-generated responses to Islamic religious questions. In blind evaluations, 81.3% of participants preferred AI-generated answers despite expressing distrust of AI for religious guidance. Expert Islamic scholars found critical shortcomings in accuracy, depth, and contextual sensitivity. The study uses 16 semi-structured interviews, 60 survey participants, and expert evaluation, but does not specify which LLM was tested or create a public dataset.
+
 
 ## Notes
 

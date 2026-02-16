@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "General Ethics"
@@ -71,7 +72,8 @@ Investigates language-dependent preferences in distributive justice scenarios. F
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper investigates language-dependent preferences in distributive justice scenarios across multiple languages. It finds 9-56 percentage point gaps across languages with complete preference reversals, and shows that domain persona injection reduces cross-linguistic inconsistencies by 62.7%. No specific LLMs could be confirmed from the available metadata, and no dataset repository was identified.
+
 
 ## Notes
 

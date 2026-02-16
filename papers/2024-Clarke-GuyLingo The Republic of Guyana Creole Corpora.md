@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://github.com/chrisisking/caribbean-creole-languages-translation"
+LLM_assessed: "GPT-4"
+DATA_URL: "https://github.com/ChrisIsKing/Caribbean-Creole-Languages-Translation"
 tags: 
 abstract: "While major languages often enjoy substantial attention and resources, the linguistic diversity across the globe encompasses a multitude of smaller, indigenous, and regional languages that lack the same level of computational support. One such region is the Caribbean. While commonly labeled as 'English speaking', the ex-British Caribbean region consists of a myriad of Creole languages thriving alongside English."
 research_topic: "NLP & Representation Learning"
@@ -67,6 +68,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Comprehensive corpus for advancing NLP research in Guyanese Creole (Creolese). Explores machine translation between English and Creolese. Includes GPT-powered translation tool. Discusses opportunities for NLP advances to support formal adoption of Creole languages in the Caribbean.
+
+## Data Description
+
+GuyLingo is a comprehensive corpus for Creolese (Guyanese English-lexicon Creole) consisting of 2,373 Guyanese Creole sentences with a vocabulary of 4,177 unique words. The corpus includes conversational dialogues, idiomatic expressions, proverbs, and regional variations. The paper evaluates machine translation between English and Creolese using fine-tuned models (BART-Large, T5) and GPT-4 in zero-shot and few-shot settings. BART-Large achieves the best BLEU score among all models for English-to-Creole translation.
+
 
 ## Notes
 

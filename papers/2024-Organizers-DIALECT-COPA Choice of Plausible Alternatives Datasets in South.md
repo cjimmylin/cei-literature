@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://www.clarin.si/repository/xmlui/handle/11356/1766"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -69,7 +70,8 @@ COPA causal commonsense reasoning adapted for South Slavic dialects: Slovenian C
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+DIALECT-COPA adapts the COPA causal commonsense reasoning task for South Slavic dialects including Slovenian Cerkno, Croatian Chakavian, and Serbian Torlak, with training data for standard Slovenian, Croatian, Serbian, and Macedonian. The dataset is part of the VarDial 2024 shared task. No PDF extract was available for deeper analysis, and no specific LLM evaluations are documented in the paper metadata.
+
 
 ## Notes
 

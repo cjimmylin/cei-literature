@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "Influential and popular benchmarks in AI are largely irrelevant to developing NLP tools for low-resource, Indigenous languages. With the primary goal of measuring the performance of general-purpose AI systems, these benchmarks fail to give due consideration and care to individual language communities, especially low-resource languages. The datasets contain numerous grammatical and orthographic errors, poor pronunciation, limited vocabulary, and the content lacks cultural relevance to the..."
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://papareo.nz/"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Fit for Our Purpose, Not Yours: Benchmark for a Low-Resource, Indigenous Language
@@ -72,7 +73,8 @@ Custom benchmark based on community-curated speech data; builds on 300+ hours of
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://papareo.nz/.
+This paper introduces Te Reo Irirangi o Te Hiku o te Ika's curated benchmark for the Maori language, the first of its kind. It critiques existing multilingual benchmarks (FLoRes-101, FLEURS) for their poor quality Maori translations, grammatical errors, and cultural irrelevance, and presents a methodology for Indigenous communities to develop high-quality, culturally appropriate benchmarks. The benchmark is designed for speech and NLP tools but no specific DATA_URL is provided.
+
 
 ## Notes
 

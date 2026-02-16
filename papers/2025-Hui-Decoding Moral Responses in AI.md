@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4.1, Claude-3.7-Sonnet, Grok-3, Gemini-2.5-Pro"
+DATA_URL: "NA"
 normative_ethics_benchmark: Borderline
 ethics_perspective: "General Ethics"
 ---
@@ -113,7 +114,7 @@ None mentioned - the study is primarily empirical and comparative, without relea
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. The PDF extract contains only an access error page from ScienceDirect, so no substantive content is available for analysis.
+This study systematically compares the moral response patterns of seven LLMs on a series of moral dilemmas, both personal and impersonal, under three conditions: no rule, a deontological preamble, and a utilitarian preamble. The findings show that LLMs differentiate moral personal and impersonal dilemmas like humans, exhibiting more utilitarian choices in non-emotional decisions. The study does not introduce a new dataset but uses established moral dilemma scenarios to evaluate LLM moral reasoning.
 
 
 ## Notes

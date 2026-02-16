@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,7 +72,7 @@ research_topic: "Machine Learning"
 
 ## Data Description
 
-The paper introduces a benchmark dataset of 7,494 Czech newspaper articles from four digital news servers annotated for the presence of manipulative propaganda techniques including blaming, demonizing, labelling, fear mongering, and fabulation. The dataset contains 3.7 million tokens and is evaluated using 10 machine learning classifiers (including SVMs, Naive Bayes, Random Forest, Ridge) with bag-of-words TF-IDF features. No LLMs were tested.
+The paper introduces a benchmark dataset of 7,494 Czech newspaper articles from four digital news servers annotated for the presence of specific manipulative propaganda techniques including blaming, demonizing, labelling, fear mongering, and fabulation. Ten machine learning classifiers (including SVM, Random Forest, Ridge, Naive Bayes) are evaluated using bag-of-words features with TF-IDF weighting via stratified 3-fold cross-validation. The dataset also includes sentiment analysis correlations with propaganda attributes.
 
 
 ## Notes

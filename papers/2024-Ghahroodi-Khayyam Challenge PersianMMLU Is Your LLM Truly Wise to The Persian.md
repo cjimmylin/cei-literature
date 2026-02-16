@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-3.5, Claude-3-Haiku, Aya, XVERSE-13B, XVERSE-7B, PersianMind, mT0XL, mGPT"
+DATA_URL: "NA"
 tags: 
 abstract: "Evaluating Large Language Models (LLMs) is challenging due to their generative nature, necessitating precise evaluation methodologies. Additionally, non-English LLM evaluation lags behind English, resulting in the absence or weakness of LLMs for many languages. In response to this necessity, we introduce Khayyam Challenge (also known as PersianMMLU), a meticulously curated collection comprising 20,192 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations,..."
 research_topic: "Machine Translation"
@@ -70,6 +71,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 A meticulously curated collection of 20,192 four-choice questions from 38 diverse tasks extracted from Persian examinations. Uses original, non-translated data tailored for Persian speakers, encompassing cultural nuances. Includes rich metadata such as human response rates and difficulty levels. Evaluated GPT-3.5, GPT-4, Aya, PersianMind, mGPT, mT0, Claude3-haiku.
+
+## Data Description
+
+The Khayyam Challenge (PersianMMLU) is a benchmark of 20,192 four-choice questions sourced from 38 diverse tasks extracted from Persian examinations, spanning subjects from primary to upper secondary school. It includes rich metadata such as human response rates, difficulty levels, descriptive answers, and trapped questions. Nine LLMs supporting Persian were evaluated on this benchmark in zero-shot and chain-of-thought settings.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "19,712 prompts"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o, GPT-4o-mini, Claude-3.7-Sonnet, Grok-2, Gemini, Mistral, DeepSeek-R1, DeepSeek-Chat, Qwen-Max, Yi-Large, Minimax-01"
+DATA_URL: "NA"
 tags: 
 abstract: "This study systematically analyzes geopolitical bias across 11 prominent Large Language Models (LLMs) by examining their responses to seven critical topics in U.S.–China relations. Utilizing a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, we generated 19,712 prompts designed to detect ideological leanings in model outputs. Responses were quantitatively assessed on a normalized scale from −2 (strongly ProChina) to +2 (strongly Pro-U.S."
 ethics_perspective: "Bias & Fairness"
@@ -64,6 +65,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Systematically analyzes geopolitical bias across 11 LLMs using 19,712 bilingual (English and Chinese) dual-framing prompts on seven U.S.-China tension topics. US-origin models lean Pro-US, Chinese models exhibit Pro-China biases.
+
+## Data Description
+
+The study systematically analyzes geopolitical bias across 11 LLMs by examining responses to seven critical U.S.-China relations topics. Using a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, 19,712 prompts were generated. Responses were scored on a scale from -2 (strongly Pro-China) to +2 (strongly Pro-U.S.) and categorized by stance, neutrality, and refusal rates, revealing consistent ideological alignments correlated with LLM geographic origins.
+
 
 ## Notes
 

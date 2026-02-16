@@ -1,5 +1,6 @@
 ---
 
+
 Human View: false
 Not AI: 
 key: AUTO_TABACZEK2024
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Virtuous AI? Some Considerations from the Aristotelian-Thomistic Perspective
 
@@ -72,7 +73,7 @@ This paper offers an Aristotelian-Thomistic response to the question whether AI 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis examining whether AI can develop virtue from an Aristotelian-Thomistic perspective, exploring the ontological status of AI and the distinction between intellectual and moral virtues.
+Philosophical analysis of whether AI can develop virtue from an Aristotelian-Thomistic perspective. Examines concepts of habit, prudence, and moral character in the context of artificial agents. A theoretical paper with no LLMs tested or datasets released.
 
 
 ## Notes

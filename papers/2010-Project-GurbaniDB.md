@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/sikher/gurbanidb"
 ---
 # GurbaniDB
@@ -101,7 +102,7 @@ GurbaniDB represents a successful model for digitizing and democratizing access 
 
 ## Data Description
 
-GurbaniDB is an open-source database of the Guru Granth Sahib (Sikh scripture) designed to provide multilingual access to the text. The project includes a SQL database, a RESTful API, and a web-based search engine. It is a religious text digitization project and does not involve any LLM assessment or AI ethics benchmarking.
+GurbaniDB is a comprehensive digital database and search engine for Sikh scriptures (Guru Granth Sahib) maintained by The Sikher Project. It provides the text in Gurmukhi, English, and 52 other languages with a RESTful API. This is a digital humanities resource, not a research paper, and no LLMs are evaluated.
 
 
 ## Notes

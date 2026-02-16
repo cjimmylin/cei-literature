@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Risk Taxonomy for Evaluating AI-Powered Psychotherapy Agents
 
@@ -64,7 +65,7 @@ The proliferation of Large Language Models (LLMs) and Intelligent Virtual Agents
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It proposes a risk ontology for evaluating AI-powered psychotherapy virtual agents, developed through literature review, qualitative interviews with 11 clinical and legal experts, and alignment with DSM-5 criteria and existing assessment tools (NEQ, UE-ATR).
+This paper introduces a risk ontology for evaluating AI-powered psychotherapy virtual agents, developed through literature review, qualitative interviews with 11 clinical and legal experts, and alignment with DSM-5 criteria and assessment tools (NEQ, UE-ATR). The ontology has three categories: Acute Crisis, In-Session Warning Signs, and Potential Real-World Consequences. No LLMs were directly tested; the paper proposes a conceptual framework for future safety evaluation.
 
 
 ## Notes

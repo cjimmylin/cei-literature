@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4o-mini, Gemini 2.5 Flash Lite, Qwen 2.5, EXAONE 3.5"
+DATA_URL: "NA"
 tags: 
 abstract: "Large Language Models (LLMs) increasingly support culturally sensitive decision making, yet often exhibit misalignment due to skewed pretraining data and the absence of structured value representations. Existing methods can steer outputs, but often lack demographic grounding and treat values as independent, unstructured signals, reducing consistency and interpretability. We propose OG-MAR, an Ontology-Guided MultiAgent Reasoning framework."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Proposes OG-MAR framework using WVS data and cultural ontology. Evaluated on six regional benchmarks including LAPOP (Latin American Public Opinion Project) with 590 instances from 64,352 respondents across 48 value-related items. LAPOP provides a regionally distinct Latin American testbed for evaluating LLM cultural alignment.
+
+## Data Description
+
+OG-MAR is an ontology-driven cultural reasoning framework that integrates World Values Survey data, structured value ontologies, and multi-agent simulation for culturally aligned LLM inference. The framework is evaluated on six regional social survey datasets (EVS for Europe, GSS for US, CGSS for China, ISD for India, LAPOP for Latin America, Afrobarometer for Africa) using 2,000 representative test instances. Results show consistent gains in cultural alignment over baseline prompting methods including ValuesRAG and debate.
+
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -71,7 +72,8 @@ Based on the search results, I found information about a paper titled "Evaluatin
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This Frontiers journal article is a systematic review of efficiency, applications, and future directions in evaluating large language models. The metadata references Mongolian language evaluation (MM-Eval). As a systematic review, it surveys existing evaluation approaches rather than creating new benchmarks or testing specific models itself.
+
 
 ## Notes
 

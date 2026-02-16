@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for bias and fairness dataset"
 data_metrics: "7 languages"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "ChatGPT-4o-Latest, GPT-4o mini, Claude-3.5-Sonnet, Qwen2.5-0.5B, Qwen2.5-3B, Qwen2.5-7B, Qwen2.5-14B, Qwen2.5-32B, Qwen2.5-72B, Llama-3-8B, Llama-3.1-70B, Mixtral-8x7B, Mistral-7B-v0.3, Gemma2-27B-it"
+DATA_URL: "https://github.com/Eyr3/CultureSynth"
 tags: 
 abstract: "Cultural competence, defined as the ability to understand and adapt to multicultural contexts, is increasingly vital for large language models (LLMs) in global environments. While several cultural benchmarks exist to assess LLMs’ cultural competence, current evaluations suffer from fragmented taxonomies, domain specificity, and heavy reliance on manual data annotation. To address these limitations, we introduce CultureSynth, a novel framework comprising (1) a comprehensive hierarchical..."
 research_topic: "Social & Cultural Analysis"
@@ -67,6 +68,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Framework with hierarchical multilingual cultural taxonomy (12 primary, 130 secondary topics) and RAG-based QA synthesis. CultureSynth-7 has 19,360 entries across 7 languages. Evaluation of 14 LLMs reveals a 3B-parameter threshold for basic cultural competence and significant geographic disparities.
+
+## Data Description
+
+CultureSynth is a hierarchical taxonomy-guided cultural QA benchmark covering 7 languages and 3 cultural levels (national, regional, community). The framework uses retrieval-augmented generation to synthesize culturally diverse questions from structured knowledge sources. The benchmark evaluates 14 LLMs on their ability to answer culturally specific questions across multiple languages and cultural granularities.
+
 
 ## Notes
 

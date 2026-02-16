@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,8 +41,8 @@ tags:
 abstract: "Comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman Urdu comments from social media, achieving 95% F1-score with data augmentation techniques. Large-scale Urdu toxicity detection benchmark relevant to safety evaluation."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Urdu Toxicity Detection: A Multi-Stage and Multi-Label Classification Approach
@@ -74,7 +75,8 @@ Comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman U
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Introduces a comprehensive multilabel Urdu toxicity detection corpus with over 72,000 Roman Urdu comments from social media. Achieves 95% F1-score using data augmentation techniques with traditional ML classifiers, not LLMs.
+
 
 ## Notes
 

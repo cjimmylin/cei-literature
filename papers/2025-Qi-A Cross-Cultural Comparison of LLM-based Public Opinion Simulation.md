@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "DeepSeek-R1, DeepSeek-V3, Qwen2.5-72B, GPT-4o, Llama-3.3-70B"
+DATA_URL: "NA"
 tags: 
 abstract: "This study evaluates the ability of DeepSeek, an open-source large language model (LLM), to simulate public opinions in comparison to LLMs developed by major tech companies. By comparing DeepSeek-R1 and DeepSeek-V3 with Qwen2.5, GPT-4o, and Llama-3.3 and utilizing survey data from the American National Election Studies (ANES) and the Zuobiao dataset of China, we assess these models’ capacity to predict public opinions on social issues in both China and the United States, highlighting their..."
 research_topic: "AI Safety & Alignment"
@@ -64,6 +65,11 @@ research_topic: "AI Safety & Alignment"
 ## Abstract
 
 Compares DeepSeek-R1, DeepSeek-V3, Qwen2.5, GPT-4o, and Llama-3.3 on simulating Chinese and US public opinions using ANES and Zuobiao datasets. Finds LLM cultural origin does not confer 'home-field advantage' in opinion simulation.
+
+## Data Description
+
+The paper evaluates five LLMs on their ability to simulate public opinions in both the US and China by comparing model outputs against survey data from the American National Election Studies (ANES 2020) and China's Zuobiao dataset. For each survey participant, demographic attributes are provided as prompts and the LLMs generate simulated survey responses. The study measures accuracy across demographic groups and examines cultural and demographic biases in opinion modeling.
+
 
 ## Notes
 

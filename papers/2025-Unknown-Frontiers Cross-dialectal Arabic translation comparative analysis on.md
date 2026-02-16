@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -71,7 +72,8 @@ Based on the search results, here's what I found regarding Dialectal Arabic NLP 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This Frontiers journal article presents a comparative analysis of large language models for cross-dialectal Arabic translation. The abstract mentions DialectalArabicMMLU and evaluates model behavior across Arabic dialects. Without access to the full text, the specific LLMs tested cannot be confirmed from available metadata, though the study focuses on Arabic-English translation performance disparities across dialects.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "EthioLLM-small, EthioLLM-base, EthioLLM-large, XLM-R, AfroXLMR, AfroLM, EthioMT5"
+DATA_URL: "https://github.com/EthioNLP/EthioLLM"
 tags: 
 abstract: "Large language models (LLMs) have gained popularity recently due to their outstanding performance in various downstream Natural Language Processing (NLP) tasks. However, low-resource languages are still lagging behind current state-of-the-art (SOTA) developments in the ﬁeld of NLP due to insuﬃcient resources to train LLMs. Ethiopian languages exhibit remarkable linguistic diversity, encompassing a wide array of scripts, and are imbued with profound religious and cultural signiﬁcance."
 research_topic: "NLP & Representation Learning"
@@ -66,6 +67,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 Multilingual LLMs for five Ethiopian languages with new EthioBenchmark dataset for downstream NLP tasks. Ethiopian languages are noted to be imbued with profound religious and cultural significance.
+
+## Data Description
+
+Presents EthioLLM, a family of multilingual language models for Ethiopian languages (Amharic, Afaan Oromoo, Tigrinya, Somali). Evaluates EthioLLM variants against multilingual baselines (XLM-R, AfroXLMR, AfroLM) on downstream NLP tasks including sentiment analysis and NER for Ethiopian languages.
+
 
 ## Notes
 

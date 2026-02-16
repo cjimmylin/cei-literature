@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "1 language"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Proxecto Nós is an initiative aimed at providing the Galician language with openly licensed resources, tools, and demonstrators in the area of intelligent technologies. The Project has two main scientific and technological objectives: (i) to integrate the Galician language into cuttingedge AI and language technologies, thus enabling the natural use of Galician in human-machine interactions; and (ii) to improve the state of the art of language technologies for Galician."
 research_topic: "Other"
@@ -71,7 +72,8 @@ Major initiative providing Galician NLP resources: TTS, ASR, text generation, ma
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This paper describes Proxecto Nos, an initiative to develop openly licensed NLP resources, tools, and demonstrators for the Galician language. It covers machine translation, speech processing, text analytics, and language model development for Galician, including references to existing tools like COTOVIA, CORGA, and Bertinho. No specific LLMs were tested or benchmarked in this paper.
+
 
 ## Notes
 

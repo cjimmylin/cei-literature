@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -71,7 +72,7 @@ Develops Thai hate-speech classification method with various loss functions on a
 
 ## Data Description
 
-The PDF extract appears to contain the wrong paper content, showing a legal analysis article titled 'The Future of Freedom of Expression Online' by Evelyn Mary Aswad from Duke Law & Technology Review, rather than a paper about hate speech detection in Thai social media. No LLM models were tested or evaluated in the extracted content, and no dataset or benchmark related to Thai hate speech detection is present.
+The paper develops a Thai hate speech classification method with various loss functions on a corpus of ordinal-imbalanced Thai text, addressing hate speech severity grading in Thai social media. The PDF extract contains a different paper, so specific model details cannot be confirmed. Based on the abstract, it creates a Thai-specific hate speech dataset with ordinal severity labels.
 
 
 ## Notes

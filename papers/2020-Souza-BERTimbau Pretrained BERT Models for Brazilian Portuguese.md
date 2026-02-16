@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/neuralmind/bert-base-portuguese-cased"
 tags: 
 abstract: "Pretrained BERT models for Brazilian Portuguese achieving state-of-the-art on sentence similarity, textual entailment, and NER. Widely used baseline for Portuguese hate speech detection."
@@ -71,7 +72,8 @@ Pretrained BERT models for Brazilian Portuguese achieving state-of-the-art on se
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/neuralmind/bert-base-portuguese-cased.
+The paper presents BERTimbau, pretrained BERT models (base and large) for Brazilian Portuguese, achieving state-of-the-art results on sentence similarity (ASSIN/ASSIN-2), textual entailment, and named entity recognition benchmarks. The models are trained on the brWaC corpus and released on HuggingFace. BERTimbau has become a widely used baseline for Portuguese NLP tasks including hate speech detection.
+
 
 ## Notes
 

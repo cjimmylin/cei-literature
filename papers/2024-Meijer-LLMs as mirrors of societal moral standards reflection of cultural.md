@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-2, OPT, BLOOM"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have become increasingly pivotal in various domains due the recent advancements in their performance capabilities. However, concerns persist regarding biases in LLMs, including gender, racial, and cultural biases derived from their training data. These biases raise critical questions about the ethical deployment and societal impact of LLMs. Acknowledging these concerns, this study investigates whether LLMs accurately reflect cross-cultural variations and..."
 ethics_perspective: "Social & Cultural Values"
@@ -64,6 +65,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Investigates whether LLMs accurately reflect cross-cultural moral variations using WVS (55 countries) and Pew Global Attitudes (40 countries) data. Methods include variance comparison, cluster alignment analysis, and direct comparative prompts. LLMs capture certain value differences but only weakly align with established surveys.
+
+## Data Description
+
+This study investigates whether LLMs accurately reflect cross-cultural variations in moral perspectives using three methods: variance comparison, cluster alignment analysis, and direct comparative prompts. The authors test GPT-2 (Medium, Large), OPT-125M, OPT-350M, BLOOM-560M, and BLOOMZ-560M against World Values Survey data across multiple countries. Results show variable and generally low performance in reflecting cross-cultural moral differences.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Cross-cultural awareness benchmark studying elements from five countries and four ethnicities in cultural mixture contexts. MLLMs achieve higher accuracy for high-resource cultures but not for low-resource cultures.
+
+## Data Description
+
+MixCuBe is a cross-cultural awareness benchmark studying cultural mixture contexts from five countries and four ethnicities. Evaluates multimodal LLMs on cultural awareness in scenarios where cultural elements are mixed. Finds MLLMs achieve higher accuracy for high-resource cultures but not for low-resource ones.
+
 
 ## Notes
 

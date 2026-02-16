@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,7 +37,7 @@ tags:
 abstract: "BuddhismEval is the first bilingual evaluation benchmark specifically designed to assess LLMs on Buddhist ethical reasoning and philosophical understanding. It includes factual, ethical, philosophical, and applied reasoning questions drawn from the Dhammapada, Abhidharma texts, Sri Lankan government Buddhism exam papers, and Buddhist literature. While focused on Theravada Buddhism (Sinhala/Pali tradition) rather than Japanese Buddhism specifically, it represents the most comprehensive Buddhist knowledge evaluation resource for LLMs and could serve as a template for Zen/Shingon/Pure Land Buddhist variants relevant to Japan."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/Nethmi14/BuddhismEval"
 ethics_perspective: "General Ethics"
 ---
@@ -71,7 +72,8 @@ BuddhismEval is the first bilingual evaluation benchmark specifically designed t
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/Nethmi14/BuddhismEval.
+BuddhismEval is the first bilingual evaluation benchmark for assessing LLMs on Buddhist ethical reasoning and philosophical understanding. It contains 1,242 English MCQs, 1,023 Sinhala MCQs, and 423 parallel Dhammapada verses (approximately 2,688 items total), drawn from the Dhammapada, Abhidharma texts, Sri Lankan government Buddhism exam papers, and Buddhist literature. No PDF extract confirmed which specific LLMs were tested.
+
 
 ## Notes
 

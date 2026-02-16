@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Machine Ethics and the Architecture of Virtue
 
@@ -72,7 +73,7 @@ This paper presents Virtue Ethics as a better option for implementing moral beha
 
 ## Data Description
 
-No PDF extract available for analysis.
+Theoretical paper presenting Virtue Ethics as an optimal framework for implementing moral behavior in robots, based on advances in neural networks, machine learning, and cognitive robotics. No LLMs tested or datasets released.
 
 
 ## Notes

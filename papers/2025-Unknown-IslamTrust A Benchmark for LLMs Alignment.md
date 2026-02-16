@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ tags:
 abstract: "First multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains. Best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Shortcomings stem from limited Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and model tendency to default to non-Islamic knowledge."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust and https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark"
+LLM_assessed: "NA"
+DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust"
 ethics_perspective: "Social & Cultural Values"
 ---
 # IslamTrust: A Benchmark for LLMs Alignment with Islamic Values
@@ -72,7 +73,8 @@ First multi-choice benchmark evaluating LLM alignment with Islamic values across
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/aii-lab-dot-org/IslamTrust and https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark.
+IslamTrust is the first multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains, containing 406 questions. The best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Without the full paper, the specific models tested cannot be confirmed from the abstract alone. The dataset is available on GitHub and HuggingFace.
+
 
 ## Notes
 

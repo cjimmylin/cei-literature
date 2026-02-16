@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://scholarship.law.duke.edu/cgi/viewcontent.cgi?article=1389&context=dltr"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -64,6 +65,11 @@ research_topic: "Other"
 ## Abstract
 
 First law review article dedicated to exploring how AI can enhance tribal sovereignty. Discusses how artificial intelligence has permeated every facet of modern existence, with governments exploring applications and regulatory frameworks. Notes that Indian tribes have been neglected in AI policy discussions. Examines Cherokee Nation's Data Sovereignty and Governance Task Force and AI policy.
+
+## Data Description
+
+This is a law review article published in Duke Law & Technology Review exploring how AI can enhance tribal sovereignty. It discusses how artificial intelligence intersects with Native American self-governance, examines the Cherokee Nation's Data Sovereignty and Governance Task Force, and evaluates how AI systems should align with tribal cultural values and governance structures. No datasets or benchmarks are created, and no LLMs are tested.
+
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -67,7 +68,8 @@ Based on the search results, here's what I found about the ADHAR multi-dialectal
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Based on available metadata, this paper presents a deep learning framework for automatic detection of hate speech embedded in Arabic tweets. It is related to the ADHAR multi-dialectal Arabic hate speech corpus covering multiple Arabic dialects (Egyptian, Gulf, Levantine, Maghrebi). No specific dataset URL or LLM evaluation details are available.
+
 
 ## Notes
 

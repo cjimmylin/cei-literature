@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/sequitur-g2p/sequitur-g2p"
+LLM_assessed: "NA"
+DATA_URL: "http://www.jonnesaleva.com/yi-lrec"
 tags: 
 abstract: "Yiddish is a low­resource language belonging to the Germanic language family and written using the Hebrew alphabet. As a language, Yiddish can be considered resource­poor as it lacks both public accessible corpora and a widely­used standard orthography, with various countries and organizations influencing the spellings speakers use. While existing corpora of Yiddish text do exist, they are often only written in a single, potentially non­standard orthography, with no parallel version with..."
 research_topic: "Other"
@@ -70,7 +71,8 @@ First multi-orthography parallel corpus of Yiddish nouns built from Wiktionary. 
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/sequitur-g2p/sequitur-g2p.
+The paper introduces the first multi-orthography parallel corpus of Yiddish nouns built by scraping word entries from Wiktionary, containing nouns in romanized, YIVO, and diacriticless Chasidic orthography forms. A transliteration model bootstrapped using Sequitur-G2P achieves error rates between 16.79% and 28.47% depending on orthography pairs. The corpus and code are released under a permissive license to support NLP development for this low-resource language.
+
 
 ## Notes
 

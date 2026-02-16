@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +40,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "XLM-RoBERTa"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -76,7 +77,8 @@ The search results reveal significant research on code-switching bias, fairness,
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper studies bilingual code-switching between Korean and English using the XLM-RoBERTa model. It evaluates the model's ability to handle mixed-language inputs, finding that models consistently default to Korean and accuracy drops when expected responses are in English. No PDF extract is available, and no specific public dataset created by the authors could be verified.
+
 
 ## Notes
 

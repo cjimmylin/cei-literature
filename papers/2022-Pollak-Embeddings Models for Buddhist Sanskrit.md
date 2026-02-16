@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,8 +42,8 @@ tags:
 abstract: 
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_models_for_Buddhist_Sanskrit/24056319 ; https://huggingface.co/Matej/bert-base-buddhist-sanskrit"
+LLM_assessed: "NA"
+DATA_URL: "https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_models_for_Buddhist_Sanskrit/24056319"
 research_topic: "Other"
 ---
 # Embeddings Models for Buddhist Sanskrit
@@ -77,7 +78,8 @@ Novel Buddhist Sanskrit corpus + general Sanskrit corpus + word similarity and w
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://figshare.com/articles/code/Gitlab_repository_of_Embeddings_models_for_Buddhist_Sanskrit/24056319 ; https://huggingface.co/Matej/bert-base-buddhist-sanskrit.
+The paper builds word embedding models (FastText, Word2Vec) for Buddhist Sanskrit using a novel Buddhist Sanskrit corpus and a general Sanskrit corpus. Evaluation datasets for word similarity and word analogy tasks are also created. No LLMs were tested; the focus is on static word embeddings for a low-resource ancient language.
+
 
 ## Notes
 

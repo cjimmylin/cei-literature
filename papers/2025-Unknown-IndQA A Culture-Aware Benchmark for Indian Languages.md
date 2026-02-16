@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-5"
+DATA_URL: "NA"
 tags: 
 abstract: "OpenAI benchmark with 2,278 questions across 12 languages and 10 cultural domains (architecture, arts, food, history, law/ethics, religion/spirituality, etc.) created with 261 domain experts. GPT-5 best at 34.9%. Includes Bengali and Odia natively written questions."
 research_topic: "Machine Learning"
@@ -70,7 +71,8 @@ OpenAI benchmark with 2,278 questions across 12 languages and 10 cultural domain
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+IndQA is an OpenAI culture-aware benchmark containing 2,278 questions across 12 Indian languages (Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Hinglish, English) and 10 cultural domains including architecture, arts, food, history, law/ethics, and religion/spirituality. Created with 261 domain experts, it includes natively written questions. GPT-5 achieved the best performance at 34.9%.
+
 
 ## Notes
 

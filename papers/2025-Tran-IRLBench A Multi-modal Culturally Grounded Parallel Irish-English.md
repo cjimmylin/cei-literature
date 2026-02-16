@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4.1, o4-mini, Gemini-2.0-Flash, Llama-4-Scout, Aya-Vision-32B, Aya-Vision-8B"
+DATA_URL: "https://huggingface.co/datasets/ReliableAI/IRLBench"
 tags: 
 abstract: "Recent advances in Large Language Models (LLMs) have demonstrated promising knowledge and reasoning abilities, yet their performance in multilingual and low-resource settings remains underexplored. Existing benchmarks often exhibit cultural bias, restrict evaluation to text-only, rely on multiple-choice formats, and, more importantly, are limited for extremely low-resource languages. To address these gaps, we introduce IRLBench, presented in parallel English and Irish, which is considered..."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First multilingual, culturally grounded, parallel benchmark for open-ended generative evaluation in Irish (an extremely low-resource, UNESCO 'definitely endangered' language). Derived from 2024 Irish Leaving Certificate exams across 12 subjects. Reveals persistent English-Irish performance gap: best model achieves 76.2% in English vs 55.8% in Irish.
+
+## Data Description
+
+IRLBench is a multimodal, culturally grounded, parallel Irish-English benchmark derived from the 2024 Irish Leaving Certificate exams. It comprises 1,700 samples across 12 subjects in four domains (Science, Applied Science, Business Studies, Social Studies), with parallel English and Irish versions. The benchmark uses open-ended generation rather than multiple-choice, enabling evaluation of language fidelity and reasoning. Results reveal a persistent 10-20% accuracy gap between English and Irish across all tested models.
+
 
 ## Notes
 

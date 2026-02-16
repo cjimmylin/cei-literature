@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
 local_pdf: "[[PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 ---
@@ -98,7 +99,7 @@ None mentioned
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical working paper examining the ethics of artificial intelligence through the lens of Ubuntu (African communal philosophy), analyzing UNESCO COMEST principles and their implications when viewed from a collective ontology rather than Western individualist frameworks.
+This is a theoretical working paper that examines the ethics of AI through the lens of Ubuntu (African philosophy). It compares UNESCO COMEST AI ethics principles with Ubuntu values, analyzing implications for AI governance, care robotics, language, and bias. No dataset or benchmark is created or evaluated.
 
 
 ## Notes

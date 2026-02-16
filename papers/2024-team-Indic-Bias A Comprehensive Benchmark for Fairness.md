@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,7 +36,7 @@ tags:
 abstract: "Comprehensive benchmark evaluating fairness of LLMs across 85 Indian identity groups, focusing on bias and stereotypes through judgment and generation tasks. Broad Indian identity-based fairness evaluation covering 85 identity groups across multiple Indic languages."
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/ai4bharat/Indic-Bias"
 ethics_perspective: "Bias & Fairness"
 ---
@@ -70,7 +71,8 @@ Comprehensive benchmark evaluating fairness of LLMs across 85 Indian identity gr
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/ai4bharat/Indic-Bias.
+Comprehensive benchmark by AI4Bharat evaluating fairness of LLMs across 85 Indian identity groups, focusing on bias and stereotypes through judgment and generation tasks across multiple Indic languages. Specific evaluated models not identified from available metadata.
+
 
 ## Notes
 

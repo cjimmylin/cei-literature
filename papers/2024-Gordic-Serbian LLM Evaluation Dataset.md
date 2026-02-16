@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/gordicaleksa/serbian-llm-eval"
 tags: 
 abstract: "First Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, TriviaQA, Winogrande tasks. Machine-translated and GPT-4 refined. Integrated with Lighteval framework."
@@ -70,7 +71,8 @@ First Serbian LLM evaluation dataset covering ARC, BoolQ, HellaSwag, PIQA, Trivi
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/gordicaleksa/serbian-llm-eval.
+First Serbian LLM evaluation dataset covering six tasks: ARC, BoolQ, HellaSwag, PIQA, TriviaQA, and Winogrande. The dataset was created through machine translation and GPT-4 refinement, and is integrated with the Lighteval framework for standardized evaluation of Serbian language models.
+
 
 ## Notes
 

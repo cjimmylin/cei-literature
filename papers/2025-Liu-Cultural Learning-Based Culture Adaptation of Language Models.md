@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Llama-3.1-8B, Llama-3.1-70B, Llama-3.2-3B, Llama-3.2-1B, Mistral-v0.3-7B, Qwen-2.5-0.5B, Qwen-2.5-1.5B, Qwen-2.5-7B, GPT-4"
+DATA_URL: "NA"
 tags: 
 abstract: "Adapting large language models (LLMs) to diverse cultural values is a challenging task, as existing LLMs often reflect the values of specific groups by default, and potentially causing harm to others. In this paper, we present CLCA, a novel framework for enhancing LLM alignment with cultural values based on cultural learning. The framework leverages simulated social interactions to generate conversations in which LLMs engage in role-playing within culturally adapted social scenarios, capturing..."
 ethics_perspective: "Social & Cultural Values"
@@ -66,6 +67,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Novel framework CLCA enhances LLM alignment with cultural values through simulated social interactions and role-playing in culturally adapted scenarios. Improves cultural value alignment across model architectures measured using WVS data. Japanese conversations rated 5/5 by human evaluators.
+
+## Data Description
+
+Proposes CLCA, a cultural learning framework for adapting LLMs to diverse cultural values through simulated social interactions. Fine-tunes multiple model architectures and evaluates cultural value alignment using World Values Survey data. Uses GPT-4 for data quality filtering and evaluation. Code link mentioned ('Code: CLCA') but full URL not provided in extract.
+
 
 ## Notes
 

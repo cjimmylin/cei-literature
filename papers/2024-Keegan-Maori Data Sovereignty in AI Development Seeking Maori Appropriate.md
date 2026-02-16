@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 research_topic: "Other"
@@ -63,6 +64,11 @@ research_topic: "Other"
 ## Abstract
 
 Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development.
+
+## Data Description
+
+This report from the University of Waikato evaluates how LLMs handle the Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). It explores bias mitigation and Maori data sovereignty in AI development but does not specify which LLMs were tested, and no dataset URL is provided.
+
 
 ## Notes
 

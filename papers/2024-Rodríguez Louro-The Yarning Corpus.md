@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "517,600 words"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Yarning Corpus: Aboriginal English in Southwest Western Australia
 
@@ -106,7 +107,7 @@ The Yarning Corpus fills a significant gap in Australian sociolinguistics by doc
 
 ## Data Description
 
-The Yarning Corpus consists of 517,600 words of unscripted, interactional speech data from 58 Aboriginal English speakers (36 women and 22 men, aged 10-88) recorded in metropolitan Perth, Western Australia. The corpus documents acrolectal Aboriginal English through culturally grounded yarning sessions, featuring video-recorded interactions collected primarily in 2019-2020.
+The Yarning Corpus is a linguistic corpus of Aboriginal English speech collected in Western Australia. Documents sociolinguistic features of Aboriginal English including phonological, morphosyntactic, and pragmatic patterns. A linguistic resource, not an LLM evaluation dataset.
 
 
 ## Notes

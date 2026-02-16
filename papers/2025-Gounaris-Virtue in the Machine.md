@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Virtue ethics certification"
@@ -32,8 +33,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Virtue in the Machine: Beyond a One-size-fits-all Approach and Aristotelian Ethics for Artificial Intelligence
 
@@ -53,7 +54,7 @@ This article explores the application of **Aristotelian virtue** (**arete**), de
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical philosophy paper exploring the application of Aristotelian virtue ethics to AI systems as classified under the EU AI Act, proposing a virtue-based evaluation framework and an AI Seal of Excellence certification process.
+This is a philosophical paper exploring the application of Aristotelian virtue ethics to AI systems as classified in the EU AI Act. It argues that while the Act's approach aligns with a Rossian paradigm of prima facie values, Aristotelian ethics can serve as a post-evaluation framework for AI systems and proposes a 'virtuous-based AI Seal of Excellence' certification process. No dataset or benchmark is created or evaluated.
 
 
 ## Notes

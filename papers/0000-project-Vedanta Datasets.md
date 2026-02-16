@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ tags:
 abstract: "> Repository of datasets from Vedantic texts formatted for ML analysis. Useful for Hindu philosophical text classification and evaluation."
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/atmabodha/Vedanta_Datasets"
 research_topic: "Other"
 ---
@@ -72,7 +73,8 @@ Datasets from various Vedantic texts
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/atmabodha/Vedanta_Datasets.
+A community-maintained GitHub repository of datasets derived from Vedantic Hindu philosophical texts, formatted for machine learning analysis. The datasets are intended for Hindu philosophical text classification and evaluation tasks. No LLMs are tested or benchmarked in this project.
+
 
 ## Notes
 

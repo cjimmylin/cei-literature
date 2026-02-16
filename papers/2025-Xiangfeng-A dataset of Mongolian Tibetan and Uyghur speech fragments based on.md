@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://www.scidb.cn/en/detail?dataSetId=743522838262054912"
 tags: 
 abstract: 
 research_topic: "Machine Learning"
@@ -66,7 +67,8 @@ Based on my search results, here's what I found regarding datasets for Uyghur, M
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper presents a dataset of Mongolian, Tibetan, and Uyghur speech fragments based on voice activity detection. The dataset is part of broader efforts in the M2ASR project to construct speech and text resources for minority languages in China. No LLMs are tested; it is a speech dataset resource for low-resource language processing.
+
 
 ## Notes
 

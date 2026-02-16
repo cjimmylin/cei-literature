@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://github.com/sail-sg/sailor2"
+LLM_assessed: "Sailor2, Qwen-2.5, GPT-4o, Llama-3.1, Gemma-2, SeaLLM-v3, Aya-Expanse"
+DATA_URL: "https://sea-sailor.github.io/blog/sailor2/"
 tags: 
 abstract: "Sailor2 is a family of cutting-edge multilingual language models for SouthEast Asian (SEA) languages, available in 1B, 8B, and 20B sizes to suit diverse applications. Building on Qwen2.5, Sailor2 undergoes continuous pre-training on 500B tokens (400B SEA-specific and 100B replay tokens) to support 13 SEA languages while retaining proficiency in Chinese and English. Sailor2-20B model achieves a 50-50 win rate against GPT-4o across SEA languages."
 research_topic: "Machine Translation"
@@ -67,6 +68,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Multilingual LLM family (1B/8B/20B) for 13 SEA languages. Built on Qwen2.5 with 500B tokens (400B SEA-specific). Sailor2-20B achieves 50-50 win rate against GPT-4o across SEA languages. Evaluation includes cultural understanding about SEA cuisine and traditions.
+
+## Data Description
+
+Sailor2 is a family of multilingual LLMs (1B, 8B, 20B sizes) for 13 South-East Asian languages, built on Qwen2.5 with continuous pre-training on 500B tokens. The paper provides a comprehensive cookbook covering data curation, pre-training, post-training, model customization, and evaluation. Sailor2-20B achieves a 50-50 win rate against GPT-4o on SEA languages. All models, datasets, and codebases are released under Apache 2.0 license.
+
 
 ## Notes
 

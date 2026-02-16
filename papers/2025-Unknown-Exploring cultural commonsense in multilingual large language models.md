@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ Based on the search results, here's what I found about cross-cultural AI ethics 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a survey paper from Beijing Institute of Technology exploring cultural commonsense in multilingual large language models. It reviews existing benchmarks like MENAValues for evaluating cultural alignment of LLMs across Arabic, Turkish, and other languages. Without the full text, the specific models tested cannot be confirmed from metadata alone.
+
 
 ## Notes
 

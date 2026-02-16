@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/Language-Media-Lab/commonsense-moral-ja"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ ethics_perspective: "General Ethics"
 ## Abstract
 
 Foundational Japanese commonsense morality dataset created through crowdsourcing, reflecting Japanese annotators' moral judgments. 19,963 sentence pairs labeled as morally acceptable (0) or unacceptable (1). Addresses cultural dependence of commonsense morality.
+
+## Data Description
+
+The paper introduces JCommonsenseMorality, a foundational Japanese commonsense morality dataset created through crowdsourcing with Japanese annotators' moral judgments. It contains 19,963 sentence pairs labeled as morally acceptable (0) or unacceptable (1), addressing the cultural dependence of commonsense morality. This dataset serves as the basis for subsequent Japanese AI ethics evaluation work including eJCM and JETHICS.
+
 
 ## Notes
 

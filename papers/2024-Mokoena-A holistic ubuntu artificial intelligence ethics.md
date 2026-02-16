@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md"
 local_pdf: "[[PDFs/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.pdf]]"
 ---
@@ -119,7 +120,7 @@ None mentioned
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is an interdisciplinary study of African theological ethics and the philosophy of technology, proposing a holistic ubuntu artificial intelligence ethics approach in South Africa that addresses the impact of AI on humanity, spirituality, and the environment.
+This is a theoretical/philosophical paper from the field of African theological ethics that proposes a holistic Ubuntu AI ethics approach for South Africa. It discusses Ubuntu ethics principles (communalism, interconnectedness) as applied to AI's impact on humanity, spirituality, and the environment. No LLMs, datasets, or benchmarks are created or evaluated.
 
 
 ## Notes

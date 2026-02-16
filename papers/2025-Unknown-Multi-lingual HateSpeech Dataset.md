@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespeech-dataset"
 tags: 
 abstract: 
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about multilingual hate spe
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://www.kaggle.com/datasets/wajidhassanmoosa/multilingual-hatespeech-dataset.
+This is a multilingual hate speech dataset hosted on Kaggle, designed for cross-lingual hate speech detection research. Without detailed documentation, the exact languages covered and dataset scale cannot be confirmed from the metadata alone. It is a dataset resource rather than an LLM evaluation study.
+
 
 ## Notes
 

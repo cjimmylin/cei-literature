@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Deontological coherence: A framework for commonsense moral reasoning.
 
@@ -55,7 +56,7 @@ We review a broad range of work, primarily in cognitive and social psychology, t
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical review article that proposes a framework of deontological coherence for understanding commonsense moral reasoning, drawing on literature from cognitive psychology, social psychology, and legal philosophy to unify findings about moral judgment that have previously been explained by heuristics and biases.
+This paper proposes a psychological framework called 'deontological coherence' for understanding commonsense moral reasoning. It reviews literature from cognitive and social psychology on pragmatic reasoning about regulations and coherence in decision making, arguing that moral judgments emerge from coherence maximization between competing duties and consequences. This is a theoretical review paper with no datasets, benchmarks, or computational experiments.
 
 
 ## Notes

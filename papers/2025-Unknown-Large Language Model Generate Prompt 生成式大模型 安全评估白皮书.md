@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -68,7 +69,8 @@ research_topic: "NLP & Representation Learning"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This is a Chinese-language white paper on generative large model security assessment (2024 edition), jointly authored by the Key Laboratory of Intelligent Algorithm Security (CAS), the Third Research Institute of the Ministry of Public Security, and Ant Security Lab. It comprehensively reviews security risks of generative AI across ethics, content safety, privacy, and robustness dimensions, and surveys evaluation methods including HELM, TrustGPT, DecodingTrust, and SuperCLUE-Safety. It is a survey/review document, not an original benchmark or evaluation study.
+
 
 ## Notes
 

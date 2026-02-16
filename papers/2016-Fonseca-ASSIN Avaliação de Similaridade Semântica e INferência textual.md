@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/nilc-nlp/assin2"
 tags: 
 abstract: "10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 adds 6,500 training pairs for Brazilian Portuguese."
@@ -71,7 +72,8 @@ research_topic: "Other"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/datasets/nilc-nlp/assin2.
+ASSIN is a Portuguese NLU benchmark consisting of 10,000 sentence pairs (5,000 Brazilian Portuguese + 5,000 European Portuguese) annotated for semantic similarity and textual entailment. ASSIN-2 extends this with 6,500 additional training pairs for Brazilian Portuguese. It serves as a foundational benchmark for Portuguese language understanding. No LLMs were evaluated in the original paper.
+
 
 ## Notes
 

@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o, GPT-4o-mini, Claude-3.5-Sonnet, Claude-3.5-Haiku, Sabia-3, Sabiazinho-3, Qwen-2.5-1.5B, Qwen-2.5-3B, Qwen-2.5-7B, Qwen-2.5-14B, Llama-1-7B, Llama-2-7B, Llama-3-8B, Llama-3.1-8B, Sabia-7B, Tucano-1B, Tucano-2B, Tucano-7B, TinyLlama-1.1B, Curio-7B"
 DATA_URL: "https://huggingface.co/datasets/Tropic-AI/BRoverbs"
 tags: 
 abstract: "Large Language Models (LLMs) exhibit significant performance variations depending on the linguistic and cultural context in which they are applied. This disparity signals the necessity of mature evaluation frameworks that can assess their capabilities in specific regional settings. In the case of Portuguese, existing evaluations remain limited, often relying on translated datasets that may not fully capture linguistic nuances or cultural references."
@@ -67,6 +68,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Introduces BRoverbs, a dataset specifically designed to assess LLM performance through Brazilian proverbs, encapsulating cultural wisdom, figurative expressions, and complex syntactic structures that challenge model comprehension of regional expressions. Evaluates diverse set of LLMs including commercial and open-source models.
+
+## Data Description
+
+Introduces BRoverbs, a benchmark for evaluating how well LLMs understand Brazilian Portuguese proverbs. Tests 20 models spanning proprietary (GPT-4o, Claude-3.5) and open-source (Llama, Qwen, Sabia, Tucano, Curio) families on proverb comprehension tasks, revealing significant performance gaps for Portuguese cultural knowledge.
+
 
 ## Notes
 

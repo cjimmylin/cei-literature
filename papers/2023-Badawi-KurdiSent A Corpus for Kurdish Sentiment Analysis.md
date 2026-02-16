@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -35,8 +36,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "XLM-R"
+DATA_URL: "NA"
 tags: 
 abstract: "Kurdish sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves best accuracy of 85%."
 research_topic: "NLP & Representation Learning"
@@ -74,7 +75,8 @@ Kurdish sentiment analysis corpus evaluated with machine learning and deep learn
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The paper presents KurdiSent, a Kurdish (Sorani) sentiment analysis corpus evaluated with machine learning and deep learning classifiers. XLM-R achieves the best accuracy of 85% on sentiment classification. The corpus provides a foundational resource for evaluating bias and sentiment understanding in the Kurdish language.
+
 
 ## Notes
 

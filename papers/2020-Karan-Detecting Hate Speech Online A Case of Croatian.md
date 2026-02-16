@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,8 +40,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Toxicity & Hate Speech"
@@ -76,7 +77,8 @@ Proposes NooJ algorithm for finding and categorizing slurs, insults, and hate sp
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The paper proposes a NooJ algorithm for finding and categorizing slurs, insults, and hate speech in Croatian social media content. It uses rule-based and ML approaches for hate speech detection in Croatian. No PDF extract was available, and the paper uses traditional NLP methods rather than LLMs for its analysis.
+
 
 ## Notes
 

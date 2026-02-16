@@ -1,4 +1,5 @@
 ---
+
 Human View: false
 Not AI: 
 key: AUTO_SMITH2024
@@ -30,8 +31,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: N/A
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Living well with AI: Virtue, education, and artificial intelligence
 
@@ -63,7 +64,7 @@ The authors show how Aristotelian virtue ethics provides a better rubric for liv
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical paper arguing for an Aristotelian virtue ethics approach to living well with artificial intelligence, contrasting it with principlist and consequentialist approaches in AI ethics education.
+Philosophical paper applying Aristotelian virtue ethics to the question of living well with AI. Discusses flourishing and practical wisdom in the context of human-AI interaction. A theoretical paper with no LLMs tested or datasets released.
 
 
 ## Notes

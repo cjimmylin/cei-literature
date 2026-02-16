@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Social & Cultural Values"
@@ -68,6 +69,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality.
+
+## Data Description
+
+Theoretical paper examining indigenous ethics of reciprocity as a normative framework for critiquing AI. Draws from Andean traditions (ayni, minka, randi-randi) and Marcel Mauss's theory of the gift. No LLMs tested or benchmarked; proposes relational responsibility as an alternative ethical foundation for AI development.
+
 
 ## Notes
 

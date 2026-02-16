@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -66,7 +67,8 @@ Based on the search results, here are the key findings about Turkic languages, K
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper describes the development and experimental evaluation of a multilingual speech corpus for low-resource Turkic languages including Kyrgyz, Turkish, and Uyghur. It is related to the TUMLU benchmark, a multilingual language understanding benchmark for Turkic languages covering 11 academic subjects. No specific LLM evaluations or dataset URLs are available from the metadata.
+
 
 ## Notes
 

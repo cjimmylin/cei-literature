@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "General Ethics"
 ---
 # Whose Morality? Which Rationality? Challenging Artificial Intelligence as a Remedy for the Lack of Moral Enhancement
@@ -73,7 +74,7 @@ This paper addresses the moral implications of algorithm-based decision-making w
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis comparing three first-order normative theories (Kantian, utilitarian, and virtue ethical) applied to the design of moral machines, examining the challenges of building autonomous moral agents.
+This philosophical paper examines three first-order normative theories in machine ethics: Powers' Kantian machine, Anderson and Anderson's act utilitarianism reinterpretation, and Howard and Muntean's virtue ethical approach. It discusses the differences between calculation and moral estimation, questioning the possibility of building strong moral AI. The paper is a theoretical analysis and does not create or evaluate any dataset or benchmark.
 
 
 ## Notes

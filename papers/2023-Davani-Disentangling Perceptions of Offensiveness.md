@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,8 +38,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for toxicity detection"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates
 
@@ -71,7 +72,7 @@ Perception of offensiveness is inherently subjective, shaped by the lived experi
 
 ## Data Description
 
-The study collects offensiveness annotations from 4,309 participants across 21 countries and 8 geo-cultural regions on 4,554 text items sampled from Jigsaw's Toxic Comments and Unintended Bias datasets. Each participant labeled 40 items on a 5-point Likert scale and completed the Moral Foundations Questionnaire (MFQ-2). The data is used for cross-cultural analysis of offensiveness perception and comparison with Perspective API predictions.
+The paper conducts a large-scale cross-cultural study with 4,309 participants from 21 countries across 8 cultural regions to examine how cultural and moral values shape perceptions of offensiveness. It demonstrates that moral concerns about Care and Purity mediate cross-cultural differences in offensiveness judgments. No AI models are tested; the study is an empirical human subjects investigation into the moral psychology underlying offensiveness perception.
 
 
 ## Notes

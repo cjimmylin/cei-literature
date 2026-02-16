@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Towards Artificial Virtuous Agents - Games and ML
 
@@ -66,7 +67,7 @@ This paper proposes using role-playing games riddled with moral dilemmas to brid
 
 ## Data Description
 
-No PDF extract available for analysis. The extracted content corresponds to a different paper (a mathematics paper on non-linear heat equations) due to a mismatched PDF extract.
+This paper proposes using role-playing games riddled with moral dilemmas to bridge the gap in engineering artificial virtuous agents. It describes how a systemic role-playing game can be designed to develop virtues within an AI agent using affinity-based reinforcement learning and explainable AI. No specific dataset or benchmark is created, and no LLMs are tested.
 
 
 ## Notes

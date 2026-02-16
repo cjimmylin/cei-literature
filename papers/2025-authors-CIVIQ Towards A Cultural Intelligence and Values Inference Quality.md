@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Large language models (LLMs) have emerged as a powerful technology, and thus, we have seen widespread adoption and use on software engineering teams. Most often, LLMs are designed as “general purpose” technologies meant to represent the general population. Unfortunately, this often means alignment with predominantly Western Caucasian narratives and misalignment with other cultures and populations that engage in collaborative innovation."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Replication study translating KorNAT methodology to develop a Cultural Intelligence and Values Inference Quality benchmark centered on alignment with community social values and common knowledge for historically marginalized US populations.
+
+## Data Description
+
+CIVIQ is a proposed benchmark framework for evaluating cultural intelligence and values inference quality, specifically designed for assessing how well LLMs understand and represent Black cultural values and perspectives. This is a research agenda paper describing the planned benchmark design; no models have been tested yet and no dataset has been released.
+
 
 ## Notes
 

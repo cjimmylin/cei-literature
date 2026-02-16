@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
 local_pdf: "[[PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
 ---
@@ -105,7 +106,7 @@ None mentioned - this is a theoretical/philosophical paper without released data
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a normative ethics perspective paper exploring how the Sub-Saharan African value of Ubuntu can contribute to global AI ethics inclusion discourse, arguing for culturally sensitive implementation of universal AI ethics principles.
+This is a perspective article arguing that the Sub-Saharan African value of Ubuntu could be of immense value in AI applied normative ethics, particularly toward an inclusive approach for implementing universal AI ethics principles. It examines how Ubuntu's relational philosophy can address AI exclusion challenges facing Africa. No dataset or benchmark is created or evaluated.
 
 
 ## Notes

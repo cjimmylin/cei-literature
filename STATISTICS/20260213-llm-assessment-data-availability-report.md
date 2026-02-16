@@ -554,7 +554,7 @@ Among papers with data URLs, classified by hosting platform:
 | 134 | [[2024-Wong-The Humanistic Buddhism Corpus (HBC)]] | https://www.fgstranslation.org/hbc |
 | 135 | [[2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding]] | https://github.com/yuting-wei/AC-EVAL |
 | 136 | [[2024-Xie-CultureLLM Incorporating Cultural Differences into Large]] | https://github.com/Scarelette/CultureLLM |
-| 137 | [[2024-Yakunin-Kazakh Dastur-MC Multiple Choice Benchmark on]] | https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc |
+| 137 | [[2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark]] | https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc |
 | 138 | [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous]] | https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/ |
 | 139 | [[2024-Zeng-LLM-GLOBE A Benchmark Evaluating the Cultural]] | https://github.com/raovish6/LLM-GLOBE |
 | 140 | [[2024-Zhang-CHiSafetyBench]] | https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench |

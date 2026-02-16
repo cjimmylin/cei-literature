@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "Analyzes 240 outputs from GPT-5, Gemini 2.0 Pro, and LLaMA 4 for Uzbek text generation. Finds morphological errors account for 33%+ of errors. Sociolinguistic sen/siz pronoun contrast often misapplied, reflecting limited cultural awareness. Evaluates sociolinguistic competence of LLMs in Uzbek. Sen/siz formality pronoun misapplication reveals limited understanding of Uzbek cultural hierarchy and respect norms. First systematic linguistic evaluation of Uzbek LLM output."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "GPT-5, Gemini-2.0-Pro, Llama-4"
+DATA_URL: "NA"
 research_topic: "NLP & Representation Learning"
 ---
 # Investigating linguistic errors in large language model generation of Uzbek text
@@ -67,7 +68,8 @@ Analyzes 240 outputs from GPT-5, Gemini 2.0 Pro, and LLaMA 4 for Uzbek text gene
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+The paper analyzes 240 outputs from three LLMs for Uzbek text generation, finding that morphological errors account for over 33% of total errors. It specifically examines sociolinguistic competence, particularly the sen/siz (informal/formal) pronoun contrast, revealing limited understanding of Uzbek cultural hierarchy and respect norms. This is the first systematic linguistic evaluation of LLM output quality in Uzbek.
+
 
 ## Notes
 

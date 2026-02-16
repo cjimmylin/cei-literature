@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md"
 local_pdf: "[[PDFs/2025/2025-Yilma-Ethics of AI in Africa.pdf]]"
 ---
@@ -104,7 +105,7 @@ None mentioned - this is a policy analysis and theoretical paper that does not r
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual analysis examining the role of Ubuntu ethics and AI governance initiatives in Africa, interrogating their potential to address epistemic injustice in western-centric AI ethics discourse through a study of five national AI strategies and continental-level governance initiatives.
+This paper critically interrogates the role of Ubuntu and AI governance initiatives in advancing an African perspective of AI ethics. Through analysis of five national AI strategies (Mauritius, Rwanda, Ghana, Egypt, Benin) and continental strategies (AU AI Strategy, AUDA-NEPAD), it argues that neither Ubuntu's normative structure nor recent AI governance initiatives offer a clear and practicable framework of 'African AI ethics'. It is a policy analysis paper and does not create or evaluate any dataset or benchmark.
 
 
 ## Notes

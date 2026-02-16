@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Published on the EPIC (Ethnographic Praxis in Industry Community) platform, this paper proposes an ethnographic framework for deploying AI in African contexts. It addresses decolonization of LLMs by examining how dominant Western perspectives in NLP eclipse indigenous knowledge systems. No datasets, benchmarks, or LLM evaluations are presented; it is a conceptual framework paper.
+
 
 ## Notes
 

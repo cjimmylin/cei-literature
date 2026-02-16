@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,7 +68,7 @@ Applies Birhane's relational ethics framework to argue for decolonizing NLP for 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical essay applying Abebe Birhane's relational ethics framework to decolonizing NLP for low-resource African languages, discussing community ownership over data and models, and reviewing projects such as Masakhane, MasakhaNER, and AfriBERTa in the context of African language NLP development.
+This paper applies Abebe Birhane's relational ethics framework to the decolonization of NLP for African languages. It argues that African language communities should have ownership over their data and agency in algorithmic design, rather than being treated as data sources for Big Tech. The paper discusses initiatives like Masakhane, AfriBERTa, and MasakhaNER as exemplary community-driven approaches. No models are directly tested; it is a theoretical/ethical analysis.
 
 
 ## Notes

@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability t
 
 ## Data Description
 
-This paper presents a dataset of 30 multiple-choice questions designed to assess the capability of Large Language Models in handling different Spanish dialects. The dataset covers lexical and morphosyntactic variations across seven Spanish varieties (Andean, Antillean, Chilean, Continental Caribbean, Mexican/Central American, Peninsular, and Rioplatense). While the paper states LLMs were tested on these questions, the specific models tested are reported in a separate companion paper (arXiv:2504.20049), and no specific model names are identified in this data article extract.
+The paper presents a dataset of 30 multiple-choice questions designed for Spanish dialect recognition across Latin American, Peninsular, and Equatorial Guinea varieties. The questions test knowledge of regional vocabulary and linguistic features. The dataset is publicly available on Zenodo. The extract references LLM evaluation but specific model names are deferred to a related paper.
 
 
 ## Notes

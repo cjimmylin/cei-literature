@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 research_topic: "Other"
 ---
 # Aligning AI Agents with Humans through Law as Information
@@ -56,7 +57,7 @@ This white paper proposes "Law Informs Code" as a legal informatics approach to 
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a theoretical legal informatics paper arguing that democratically developed law should serve as the target for AI alignment, proposing that contract law and public law methodologies can inform how AI agents are aligned with human and societal goals.
+This is a legal theory paper proposing the use of law as structured information for aligning AI agents with human values. No LLMs are tested or benchmarked. No dataset or code repository was identified.
 
 
 ## Notes

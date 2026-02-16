@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-3.5, GPT-4, MariTalk"
+DATA_URL: "NA"
 tags: 
 abstract: "The Exame Nacional do Ensino M´edio (ENEM) is a pivotal test for Brazilian students, required for admission to a significant number of universities in Brazil. The test consists of four objective high-school level tests on Math, Humanities, Natural Sciences and Languages, and one writing essay. Students’ answers to the test and to the accompanying socioeconomic status questionnaire are made public every year (albeit anonymized) due to transparency policies from the Brazilian Government."
 research_topic: "Interpretability & Explainability"
@@ -66,6 +67,11 @@ research_topic: "Interpretability & Explainability"
 ## Abstract
 
 Uses Brazil's ENEM national exam to compare GPT-3.5, GPT-4, and MariTalk (Portuguese-trained model) to human students. Divides humans by socioeconomic status. Finds LLM outputs represent no group of humans, being significantly different from Brazilian students across all tests. Essay analysis reveals word choice and syntactic differences.
+
+## Data Description
+
+This study uses the Brazilian ENEM national exam (180 objective questions across 4 subjects plus an essay) as a benchmark to compare LLM performance with human students. GPT-3.5, GPT-4, and MariTalk (a Portuguese-trained model) are evaluated on multiple-choice questions and essay generation, analyzing socioeconomic bias and syntactic complexity differences between LLM-generated and human-written essays.
+
 
 ## Notes
 

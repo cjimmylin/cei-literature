@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-3.5; GPT-4; Llama-2"
 DATA_URL: "https://github.com/reemim/Hofstedes_CAT"
 tags: 
 abstract: "The deployment of large language models (LLMs) raises concerns regarding their cultural misalignment and potential ramifications on individuals and societies with diverse cultural backgrounds. While the discourse has focused mainly on political and social biases, our research proposes a Cultural Alignment Test (Hoftede’s CAT) to quantify cultural alignment using Hofstede’s cultural dimension framework, which offers an explanatory cross-cultural comparison through the latent variable analysis."
@@ -67,6 +68,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Proposes Cultural Alignment Test (Hofstede's CAT) using Hofstede's six cultural dimensions to quantify LLM cultural alignment. Evaluates GPT-3.5, GPT-4, and LLaMA 2 against US, Chinese, and Arab cultural values. Demonstrates fine-tuning with different languages changes cultural responses.
+
+## Data Description
+
+The paper evaluates cultural alignment using Hofstede's Cultural Alignment Test (CAT) framework, probing LLMs across six cultural dimensions with survey-style prompts. The benchmark covers multiple countries and uses Hofstede's Value Survey Module (VSM) methodology. Code and data are available on GitHub.
+
 
 ## Notes
 

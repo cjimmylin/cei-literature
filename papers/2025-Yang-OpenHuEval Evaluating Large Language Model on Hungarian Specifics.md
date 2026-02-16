@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "GPT-4o, GPT-4o-mini, DeepSeek-V3, Qwen2.5, Llama-3.1, o1-mini"
 DATA_URL: "https://github.com/opendatalab/OpenHuEval"
 tags: 
 abstract:
@@ -71,6 +72,11 @@ research_topic: "NLP & Representation Learning"
 ## Abstract
 
 First LLM benchmark focused on Hungarian language and cultural specifics across eight Hungarian-specific dimensions with 3,953 questions, including morphology, pragmatics, cultural knowledge, and dialectal understanding.
+
+## Data Description
+
+OpenHuEval is the first benchmark for LLMs focusing on Hungarian language and specifics, encompassing eight Hungarian-specific dimensions (language, history, life/culture/customs, education, geography, figure, politics/policy/law, business/finance) with five tasks and 3,953 questions. The benchmark incorporates real user queries, generative task evaluation, and LLM-as-judge methodology. The authors evaluate mainstream LLMs including traditional LLMs and Large Reasoning Models, revealing significant performance gaps in Hungarian compared to English.
+
 
 ## Notes
 

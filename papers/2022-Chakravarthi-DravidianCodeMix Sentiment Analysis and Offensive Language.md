@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ abstract: "Manually annotated dataset of 60,000+ YouTube comments for sentiment 
 data_description: "Dataset"
 data_metrics: "Not specified"
 LLM_assessed: "NA"
-DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset, https://zenodo.org/record/4750858"
+DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # DravidianCodeMix: Sentiment Analysis and Offensive Language Identification Dataset for Dravidian Languages in Code-Mixed Text
@@ -72,7 +73,7 @@ Manually annotated dataset of 60,000+ YouTube comments for sentiment analysis an
 
 ## Data Description
 
-The paper presents the DravidianCodeMix dataset, a multilingual manually annotated corpus of over 60,000 YouTube comments for sentiment analysis and offensive language identification in three Dravidian languages: Tamil-English (~44,000 comments), Kannada-English (~7,000 comments), and Malayalam-English (~20,000 comments). Baseline experiments use traditional machine learning methods (logistic regression, naive Bayes, decision tree, random forest, SVM) for classification benchmarks. No LLM models were tested or evaluated.
+The paper presents a multilingual, manually annotated dataset of over 60,000 YouTube comments for sentiment analysis and offensive language identification in three code-mixed Dravidian languages: Tamil-English (~44,000), Malayalam-English (~20,000), and Kannada-English (~7,000). Baseline experiments using logistic regression, naive Bayes, decision tree, random forest, and SVM are provided. No LLMs were tested.
 
 
 ## Notes

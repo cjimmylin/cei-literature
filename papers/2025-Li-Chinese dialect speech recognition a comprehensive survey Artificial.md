@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -74,7 +75,7 @@ As a multi-ethnic country with a large population, China is endowed with diverse
 
 ## Data Description
 
-This paper is a comprehensive survey of Chinese dialect speech recognition (DSR) published in Artificial Intelligence Review (2024). It reviews 246 articles on dialect recognition approaches including HMM, DNN, and End-to-End methods across seven major Chinese dialect categories. The paper catalogs existing dialect speech corpora and recognition techniques but does not test or evaluate any LLM models.
+Comprehensive survey paper on Chinese dialect speech recognition covering Cantonese, Shanghainese, Hokkien, and other Chinese dialects. Reviews traditional and deep learning approaches but does not test or benchmark specific LLMs.
 
 
 ## Notes

@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -69,7 +70,7 @@ I found a highly relevant result! The study "Evaluating Uighur literary translat
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a translation studies paper discussing objective and subjective criteria for evaluating literary translation quality, illustrated through a comparative analysis of the Armenian translation of Saint-John Perse's poem 'Rains' examining equivalence, line lengthening, and translator freedom.
+This paper discusses evaluation criteria for literary translation, analyzing the Armenian translation of Saint-John Perse's poem 'Rains' by A. Alexanyan. It examines equivalence, morphological and syntactical transformations, and semantic changes using reverse/backward translation as a validation method. No LLMs, datasets, or benchmarks are involved; this is a traditional literary translation criticism paper.
 
 
 ## Notes

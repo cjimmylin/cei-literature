@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 ethics_perspective: "Responsible AI"
@@ -67,7 +68,8 @@ I've completed the web search for "indigenous languages AI ethics cultural value
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a UNESCO Global AI Ethics and Governance Observatory page discussing a report and guidelines for indigenous data sovereignty in artificial intelligence developments. It addresses ethical AI development in the context of indigenous language preservation and cultural values. No datasets, benchmarks, or LLM evaluations are involved; it is a policy guidance document.
+
 
 ## Notes
 

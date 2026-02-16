@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Machine Ethics"
 ---
 # Axiology AI Ethics MCDA
@@ -79,7 +80,7 @@ Enables structured trade-offs between utilitarian and non-utilitarian values
 
 ## Data Description
 
-The PDF extract contains only an access denied error and no usable content could be extracted from this paper.
+This paper proposes a value-centered framework for AI ethics grounded in axiology, distinguishing intrinsic values (dignity, fairness) from instrumental ones (accuracy, efficiency). It uses Multi-Criteria Decision Analysis (MCDA) to translate values into structured evaluations enabling transparent trade-offs. No LLM evaluation or dataset is created; this is a theoretical framework paper.
 
 
 ## Notes

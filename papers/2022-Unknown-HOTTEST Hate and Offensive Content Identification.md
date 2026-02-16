@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +38,7 @@ tags:
 abstract: "Hate and offensive content identification in Tamil using transformer models (BERT, XLM-RoBERTa, IndicBERT, MuRIL) with enhanced stemming for Tamil's morphologically rich nature. Uses HASOC 2021 dataset of YouTube comments in Tamil script. Tamil-specific hate speech benchmark using HASOC shared task data. Tests multiple transformer models on culturally specific offensive content."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: "NA"
+LLM_assessed: "BERT, XLM-RoBERTa, IndicBERT, MuRIL"
 DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
@@ -72,7 +73,7 @@ Hate and offensive content identification in Tamil using transformer models (BER
 
 ## Data Description
 
-The PDF extract for this paper is empty with 0 pages of content extracted. No information about datasets, models, or data URLs could be determined from the available extract.
+The paper evaluates hate and offensive content identification in Tamil using transformer models (BERT, XLM-RoBERTa, IndicBERT, MuRIL) with enhanced stemming for Tamil's morphologically rich nature. It uses the HASOC 2021 dataset of YouTube comments in Tamil script for evaluation. No LLMs (generative models) were tested; only encoder-based transformer models were evaluated.
 
 
 ## Notes

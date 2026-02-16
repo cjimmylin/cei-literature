@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: 
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://zenodo.org/records/3951503 ; https://github.com/lothelanor/actib"
+LLM_assessed: "NA"
+DATA_URL: "https://zenodo.org/records/3951503"
 research_topic: "Other"
 ---
 # Optimisation of the Largest Annotated Tibetan Corpus Combining Rule-based, Memory-based, and Deep-learning Methods (ACTib v2.0)
@@ -72,7 +73,8 @@ research_topic: "Other"
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://zenodo.org/records/3951503 ; https://github.com/lothelanor/actib.
+The paper presents ACTib v2.0, the largest annotated Tibetan corpus with over 185 million tokens that are segmented and POS-tagged, achieving 91.99% end-to-end accuracy. It combines rule-based, memory-based, and deep-learning methods for Tibetan text processing. No LLMs were tested.
+
 
 ## Notes
 

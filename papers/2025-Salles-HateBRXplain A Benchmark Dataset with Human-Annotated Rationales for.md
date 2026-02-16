@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "mBERT, BERTimbau, DistilBERTimbau, PTT5"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "Toxicity & Hate Speech"
@@ -65,6 +66,11 @@ ethics_perspective: "Toxicity & Hate Speech"
 ## Abstract
 
 First benchmark dataset for hate speech detection in Brazilian Portuguese with human-annotated text span rationales. Evaluated using mBERT, BERTimbau, DistilBERTimbau, and PTT5 models for explainability using LIME and SHAP.
+
+## Data Description
+
+HateBRXplain is the first benchmark dataset for explainable hate speech detection in Brazilian Portuguese, featuring human-annotated text span rationales. The dataset is evaluated using transformer-based models (mBERT, BERTimbau, DistilBERTimbau, PTT5) with explainability methods LIME and SHAP. It focuses on evaluating model alignment with human moral judgments about offensive content in Brazilian Portuguese.
+
 
 ## Notes
 

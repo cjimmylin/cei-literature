@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ tags:
 abstract: "Presents DweshVaani, a fine-tuned Gemma-2 model for detecting religious hate speech and identifying targeted religions in code-mixed Hindi-English. Benchmarks cutting-edge LLMs (Meta, Google, OpenAI, Nvidia) and Indic-specific LLMs (Sarvam, Indic-Gemma, Airavata). Finds that Indic-LLMs instruction-tuned on Indian content underperform. Uses knowledge-distillation based fine-tuning with rationale extraction to improve performance."
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "Gemma-2, Llama, GPT-4o, Sarvam, Indic-Gemma, Airavata"
+DATA_URL: "NA"
 ethics_perspective: "Toxicity & Hate Speech"
 ---
 # DweshVaani: An LLM for Detecting Religious Hate Speech in Code-Mixed Hindi-English
@@ -71,7 +72,8 @@ Religious hate speech corpus in code-mixed Hindi-English
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+DweshVaani is a fine-tuned Gemma-2 model for detecting religious hate speech and identifying targeted religions in code-mixed Hindi-English text. The paper benchmarks cutting-edge LLMs from Meta, Google, OpenAI, and Nvidia alongside Indic-specific LLMs (Sarvam, Indic-Gemma, Airavata), finding that Indic-LLMs instruction-tuned on Indian content underperform on this task.
+
 
 ## Notes
 

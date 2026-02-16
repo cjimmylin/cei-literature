@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "The global crisis of language endangerment meets a technological turning point as Generative AI (GenAI) and Large Language Models (LLMs) unlock new frontiers in automating corpus creation, transcription, translation, and tutoring. However, this promise is imperiled by fragmented practices and the critical lack of a methodology to navigate the fraught balance between LLM capabilities and the profound risks of data scarcity, cultural misappropriation, and ethical missteps."
 ethics_perspective: "Social & Cultural Values"
@@ -64,6 +65,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Introduces a novel analytical framework that systematically evaluates GenAI applications against language-specific needs, embedding community governance and ethical safeguards. Demonstrates efficacy through Te Reo Maori revitalization case study with community-led ASR achieving 92% accuracy. Identifies persistent challenges in data sovereignty, model bias for digital archives and educational tools. Discusses Kaitiakitanga license for indigenous data governance.
+
+## Data Description
+
+Framework paper proposing the use of generative AI and LLMs for endangered language preservation, with Te Reo Maori as a case study. Discusses potential applications but does not benchmark or test specific LLMs.
+
 
 ## Notes
 

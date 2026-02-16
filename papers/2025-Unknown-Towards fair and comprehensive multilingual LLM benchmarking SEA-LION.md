@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ Based on the search results, here's an overview of research related to Central A
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a blog post by SEA-LION discussing fair and comprehensive multilingual LLM benchmarking for Southeast Asian languages. It addresses issues of bias and fairness in multilingual contexts. No PDF extract was available to determine specific models tested or datasets created.
+
 
 ## Notes
 

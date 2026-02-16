@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://autonlp.ai/datasets/cc100-mongolian"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -69,7 +70,8 @@ I found several relevant resources related to Mongolian NLP and sentiment analys
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+CC100-Mongolian is a monolingual Mongolian dataset from the CC-Net pipeline, part of the broader CC100 multilingual collection. It provides text data for training and evaluating NLP models in Mongolian, which is a low-resource language. The entry is a dataset catalog page rather than a research paper; no LLMs are directly evaluated.
+
 
 ## Notes
 

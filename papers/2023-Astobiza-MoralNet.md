@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://osf.io/dbyw7"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
 local_pdf: [[PDFs/2023/2023-Astobiza-MoralNet.pdf]]
 ---
@@ -112,7 +113,7 @@ The paper concludes that MoralNet can combine philosophical rigor with technical
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a theoretical exposition of MoralNet, a proposed benchmarking platform and competition inspired by ImageNet, designed to assess ethical decision-making capabilities in AI systems through adversarial collaboration protocols grounded in moral philosophy, moral psychology, and cognitive science.
+The paper introduces MoralNet, a proof-of-concept benchmarking protocol for evaluating morality in AI systems, inspired by ImageNet. It proposes a competition framework to assess ethical decision-making in machines, drawing on moral psychology and moral philosophy. The paper is primarily a conceptual proposal and does not implement or evaluate specific models on a dataset.
 
 
 ## Notes

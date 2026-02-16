@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,7 +32,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://github.com/Mik3M4n/help_dicrah"
 tags: 
 abstract: 
@@ -70,7 +71,7 @@ This project presents help_dicrah, a machine learning-based hate speech detectio
 
 ## Data Description
 
-ML-based hate speech detection tool for French Twitter developed with DILCRAH (French government agency). Uses translated Hatebase.org lexicon filtered for French context. Provides complete pipeline from data collection to online detection tool, using traditional ML approaches rather than LLMs.
+This project presents help_dicrah, a machine learning-based hate speech detection tool for French Twitter developed in collaboration with DILCRAH, the French government's interministerial delegation against racism and anti-LGBTQ+ hatred. It uses a translated and French-contextualized version of the Hatebase.org hate speech lexicon and provides a complete pipeline from data collection to deployment as an online detection tool using traditional ML approaches.
 
 
 ## Notes

@@ -37,6 +37,8 @@ LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, PaLM-2, Gemini"
 DATA_URL: "https://huggingface.co/datasets/datumo/KorNAT"
 pdf_extract: "PDF Extracts/2024/2024-Lee-KorNAT.md"
 local_pdf: [[PDFs/2024/2024-Lee-KorNAT.pdf]]
+publication: arXiv / ACL Anthology
+DATE_ADDED: 20260215
 ---
 # KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge
 

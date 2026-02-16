@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,7 +35,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "45k post"
-LLM_assessed: 
+LLM_assessed: "Llama-3, Mistral, Jais, AceGPT"
 DATA_URL: "https://huggingface.co/datasets/QCRI/AraDiCE"
 tags: 
 abstract: "Arabic, with its rich diversity of dialects, remains significantly underrepresented in Large Language Models, particularly in dialectal variations. We address this gap by introducing seven synthetic datasets in dialects alongside Modern Standard Arabic (MSA), created using Machine Translation (MT) combined with human post-editing. We present AraDiCE, a benchmark for Arabic Dialect and Cultural Evaluation."
@@ -71,6 +72,11 @@ research_topic: "Machine Translation"
 ## Abstract
 
 Introduces AraDiCE-Culture, the first benchmark for region-wise cultural evaluation across Gulf, Egyptian, and Levant regions. 180 MCQs covering public holidays, food, geography, history, public figures, traditional clothing. Also includes 45K post-edited dialect samples. Evaluates whether LLMs grasp regional cultural nuances beyond language.
+
+## Data Description
+
+AraDiCE is a benchmark suite for evaluating Arabic dialect and cultural capabilities in LLMs. It includes approximately 45,000 post-edited dialectal samples across Modern Standard Arabic, Levantine, Egyptian, and Gulf dialects, plus AraDiCE-Culture, the first fine-grained benchmark for cultural awareness across Gulf, Egypt, and Levant regions. Llama-3, Mistral, Jais, and AceGPT are evaluated on dialect identification, generation, translation, world knowledge, commonsense reasoning, and cultural understanding.
+
 
 ## Notes
 

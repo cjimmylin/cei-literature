@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,8 +39,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://huggingface.co/hakurei/lit-6B"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # The Chai Platform's AI Safety Framework
 
@@ -72,7 +73,7 @@ Chai empowers users to create and interact with customized chatbots, offering un
 
 ## Data Description
 
-This paper presents Chai's AI safety framework for conversational chatbot platforms, describing three safety pillars: Content Safeguarding, Stability and Robustness, and Operational Transparency and Traceability. The experimental analysis uses a NSFW words ratio metric measured across real user conversations (approximately 2 million user-chatbot conversations per day) on the Chai platform, which uses a fine-tuned GPT-J 6B model as its base.
+This paper presents Chai's AI safety framework for its conversational chatbot platform, organized around three pillars: Content Safeguarding, Stability and Robustness, and Operational Transparency and Traceability. The framework integrates principles from DeepMind, Meta, and OpenAI safety research adapted for chat AI. The paper describes implementation strategies and experimental analysis of the framework's real-world impact but does not name specific LLMs tested.
 
 
 ## Notes

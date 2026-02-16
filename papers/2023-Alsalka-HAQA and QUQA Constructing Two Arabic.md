@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +39,7 @@ abstract: "It is neither possible nor fair to compare the performance of questio
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "1598 question"
 LLM_assessed: "NA"
-DATA_URL: "http://github.com/scsaln/HAQA-and-QUQA"
+DATA_URL: "NA"
 research_topic: "Machine Learning"
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
@@ -72,7 +73,7 @@ QUQA: 3,369 records (2,189 unique questions, 301K+ tokens); HAQA: Hadith QA corp
 
 ## Data Description
 
-The paper presents two Arabic question-answering datasets for Islamic texts: HAQA (1,598 question-answer pairs for Hadith Sharif) and QUQA (3,382 question-answer pairs for the Quran). HAQA is the first publicly available Arabic Hadith QA dataset, while QUQA is the most extensive Quran QA collection, integrating existing datasets (AQQAC, AyaTEC) with new data from expert books. The datasets are designed for use as gold-standard evaluation sets and training data for language models, but no LLM models were tested in this paper.
+The paper constructs two Arabic question-answering datasets for Islamic texts: HAQA (Hadith Question-Answer pairs, 1,598 QA pairs) and QUQA (Quran Question-Answer pairs, 3,382 QA pairs). HAQA is the first Arabic Hadith QA dataset. The datasets are designed as gold-standard benchmarks for evaluating question-answering systems on Islamic religious texts. No models are tested in this paper.
 
 
 ## Notes

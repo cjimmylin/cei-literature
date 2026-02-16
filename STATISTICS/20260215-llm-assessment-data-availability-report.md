@@ -1745,7 +1745,7 @@ Among papers with data URLs, classified by hosting platform:
 | 71 | [[2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned]] | https://github.com/MiuLab/Taiwan-LLM |
 | 72 | [[2023-Lu-The Chai Platform's AI Safety Framework]] | https://huggingface.co/hakurei/lit-6B |
 | 73 | [[2023-Miah-Islam QA]] | https://www.kaggle.com/datasets/mamun18/islam-qa-dataset |
-| 74 | [[2023-Muhammad-AfriSenti A Twitter Sentiment Analysis Benchmark for African Languages]] | https://github.com/afrisenti-semeval/afrisent-semeval-2023 |
+| 74 | [[2023-Muhammad-AfriSenti]] | https://github.com/afrisenti-semeval/afrisent-semeval-2023 |
 | 75 | [[2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models]] | https://github.com/AidaRamezani/cultural_inference |
 | 76 | [[2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern]] | https://huggingface.co/dicta-il/dictalm-7b |
 | 77 | [[2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense]] | https://github.com/Language-Media-Lab/commonsense-moral-ja |
@@ -1774,7 +1774,7 @@ Among papers with data URLs, classified by hosting platform:
 | 100 | [[2024-LLM-Beetle-Azerbaijani LLM Leaderboard]] | https://huggingface.co/spaces/LLM-Beetle/azerbaijani-llm-leaderboard |
 | 101 | [[2024-Lab-AfroBench Multi-task Benchmark for Evaluating LLMs in African]] | https://mcgill-nlp.github.io/AfroBench/ |
 | 102 | [[2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling]] | https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling |
-| 103 | [[2024-Lee-KorNAT LLM Alignment Benchmark for Korean Social Values and Common]] | https://huggingface.co/datasets/jiyounglee0523/KorNAT |
+| 103 | [[2024-Lee-KorNAT]] | https://huggingface.co/datasets/jiyounglee0523/KorNAT |
 | 104 | [[2024-Levine-Religious Affiliation and Conceptions of the]] | https://github.com/sydneylevine/moral-domain |
 | 105 | [[2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language]] | https://github.com/Scarelette/CulturePark |
 | 106 | [[2024-Masood-Hadith QA Pairs Dataset]] | https://www.kaggle.com/datasets/rwmasood/hadith-qa-pairs |
@@ -1812,7 +1812,7 @@ Among papers with data URLs, classified by hosting platform:
 | 138 | [[2024-Vladimirova-FairJob]] | https://huggingface.co/datasets/criteo/FairJob |
 | 139 | [[2024-Wang-XSafety Multilingual Safety Benchmark]] | https://github.com/Jarviswang94/Multilingual_safety_benchmark |
 | 140 | [[2024-Wong-The Humanistic Buddhism Corpus (HBC)]] | https://www.fgstranslation.org/hbc |
-| 141 | [[2024-Yakunin-Kazakh Dastur-MC Multiple Choice Benchmark on]] | https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc |
+| 141 | [[2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark]] | https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc |
 | 142 | [[2024-Yin-SafeWorld Geo-Diverse Safety Alignment]] | https://github.com/PlusLabNLP/SafeWorld |
 | 143 | [[2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous]] | https://www.indigenous-ai.net/ ; https://abundant-intelligences.net/ |
 | 144 | [[2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful]] | https://github.com/uzeui/HateComm_Review.git |
@@ -1859,7 +1859,7 @@ Among papers with data URLs, classified by hosting platform:
 | 185 | [[2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark]] | https://github.com/JoelNiklaus/SwissLegalTranslations |
 | 186 | [[2025-Ning-seeBias]] | https://github.com/nliulab/seeBias |
 | 187 | [[2025-Ofli-Multimodal Social Media Data Analysis in]] | http://crisisnlp.qcri.org/ |
-| 188 | [[2025-Ola-BharatBench Comprehensive Multilingual Multimodal Evaluations of LLMs]] | https://github.com/ola-krutrim/BharatBench |
+| 188 | [[2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of]] | https://github.com/ola-krutrim/BharatBench |
 | 189 | [[2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents]] | https://github.com/SalesforceAIResearch/CASA |
 | 190 | [[2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad']] | https://airi-institute.github.io/geopolitical_llm_bias/ |
 | 191 | [[2025-Schacht-Mapping Moral Reasoning Circuits]] | https://github.com/coairesearch/mapping_moral_reasoning.git |

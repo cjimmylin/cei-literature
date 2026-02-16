@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ Based on the search results, I found information about the "Mind the Dialect" pa
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This entry refers to the ArabicNLP 2025 workshop or conference page, which serves as a venue for Arabic NLP research. The page references work on fairness disparities in NLP systems when processing Arabic language variants (e.g., 'Mind the Dialect' paper at EMNLP 2025). This is a venue/event page rather than a specific research paper with its own dataset or LLM evaluation.
+
 
 ## Notes
 

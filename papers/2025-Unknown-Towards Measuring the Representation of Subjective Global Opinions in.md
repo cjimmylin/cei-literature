@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Other"
@@ -67,7 +68,8 @@ Based on the search results, here's what I found about the Anthropic LLM global 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is an Anthropic research blog post about measuring the representation of subjective global opinions in language models, related to the World Values Survey. The metadata references the LLM Global Opinions dataset for analyzing biases in AI systems on subjective topics. No PDF extract was available to confirm which models were tested.
+
 
 ## Notes
 

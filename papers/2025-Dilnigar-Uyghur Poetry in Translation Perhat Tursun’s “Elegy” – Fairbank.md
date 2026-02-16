@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -66,7 +67,8 @@ Based on the search results, I found a PLOS ONE article on Uyghur literary trans
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This is a blog post from the Fairbank Center for Chinese Studies at Harvard about translating Uyghur poetry into English. The abstract references a related PLOS ONE study comparing generative AI and neural machine translation systems for Uyghur literary translation. No dataset or benchmark was created, and no specific LLMs were tested in this piece.
+
 
 ## Notes
 

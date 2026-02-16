@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Social network platforms have a big impact on the development of companies by influencing clients' behaviors and sentiments, which directly affect corporate reputations. Analyzing this feedback has become an essential component of business intelligence, supporting the improvement of long-term marketing strategies on a larger scale. The implementation of powerful sentiment analysis models requires a comprehensive and in-depth examination of each stage of the process. In this study, we present a new comparative approach for several feature extraction techniques, including TF-IDF, Word2Vec, FastText, and BERT embeddings. These methods are applied to three multilingual datasets collected from hotel review platforms in the tourism sector in English, French, and Arabic languages. Those datasets were preprocessed through cleaning, normalization, labeling, and balancing before being trained on various machine learning and deep learning algorithms. The effectiveness of each feature extraction method was evaluated using metrics such as accuracy, F1-score, precision, recall, ROC AUC curve, and a new metric that measures the execution time for generating word representations. Our extensive experiments demonstrate significant and excellent results, achieving accuracy rates of approximately 99% for the English dataset, 94% for the Arabic dataset, and 89% for the French dataset. These findings confirm the important impact of vectorization techniques on the performance of sentiment analysis models. They also highlight the important relationship between balanced datasets, effective feature extraction methods, and the choice of classification algorithms. So, this study aims to simplify the selection of feature extraction methods and appropriate classifiers for each language, thereby contributing to advancements in sentiment analysis."
 research_topic: "Machine Translation"
@@ -67,7 +68,8 @@ Social network platforms have a big impact on the development of companies by in
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This study compares feature extraction techniques (TF-IDF, Word2Vec, FastText, BERT embeddings) for sentiment analysis on three multilingual hotel review datasets in English, French, and Arabic. It achieves accuracy rates of approximately 99% for English, 94% for Arabic, and 89% for French. The study uses traditional ML/DL classifiers and BERT-based models rather than LLMs for evaluation.
+
 
 ## Notes
 

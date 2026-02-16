@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -67,7 +68,8 @@ Based on the web search results, here are the findings related to Uyghur sentime
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+A structured sentiment analysis dataset based on public comments from various domains, relevant to low-resource languages including Uyghur, Mongolian, and Tibetan. The dataset appears to involve sentiment classification with multiple evaluation metrics (accuracy, precision, recall, F1-score). Exact dataset scale and construction details are not available from the metadata.
+
 
 ## Notes
 

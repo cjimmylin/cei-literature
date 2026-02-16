@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Kandinsky 3.1, Kandinsky 2.2, DALL-E 3, Midjourney, Stable Diffusion XL, YandexART"
+DATA_URL: "NA"
 tags: 
 abstract: "Despite the fact that popular text-to-image generation models cope well with international and general cultural queries, they have a significant knowledge gap regarding individual cultures. This is due to the content of existing large training datasets collected on the Internet, which are predominantly based on Western European or American popular culture. Meanwhile, the lack of cultural adaptation of the model can lead to incorrect results, a decrease in the generation quality, and the spread..."
 ethics_perspective: "Social & Cultural Values"
@@ -70,6 +71,11 @@ ethics_perspective: "Social & Cultural Values"
 ## Abstract
 
 Methodology for collecting and processing data to form a dataset based on Russian cultural code for text-to-image generation. Addresses Western cultural bias in training datasets that leads to misrepresentation of Russian culture.
+
+## Data Description
+
+CRAFT (Cultural Russian-Oriented Dataset Adaptation for Focused Text-to-Image Generation) proposes a methodology for collecting and processing data to adapt text-to-image models for Russian cultural awareness. The authors collected approximately 8,000 entities across 17 categories of Russian cultural code, manually filtered and captioned images, and fine-tuned Kandinsky 3.1. They compared cultural generation quality against DALL-E 3, Midjourney V5.2, Stable Diffusion XL, YandexART, and Kandinsky 2.2 through human evaluation.
+
 
 ## Notes
 

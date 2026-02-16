@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,7 +33,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/mair-lab/CulturalVQA"
 tags: 
 abstract:
@@ -66,6 +67,11 @@ research_topic: "Social & Cultural Analysis"
 ## Abstract
 
 Visual question-answering benchmark with 2,378 image-question pairs representing cultures from 11 countries across 5 continents. Probes understanding of clothing, food, drinks, rituals, and traditions.
+
+## Data Description
+
+CulturalVQA is a visual question-answering benchmark with 2,378 image-question pairs representing cultures from 11 countries across 5 continents. It probes VLMs' understanding of clothing, food, drinks, rituals, and traditions. The benchmark evaluates geo-diverse cultural understanding in vision-language models, though specific models tested are not documented in the available metadata.
+
 
 ## Notes
 

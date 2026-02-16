@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
+LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard"
 tags: 
 abstract: "Community benchmark for evaluation of LLMs in Portuguese across a variety of tasks and datasets. Public leaderboard tracking model performance."
@@ -70,7 +71,8 @@ Community benchmark for evaluation of LLMs in Portuguese across a variety of tas
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard.
+The Open Portuguese LLM Leaderboard is a community-driven benchmark platform hosted on HuggingFace for evaluating LLMs in Portuguese across a variety of tasks and datasets. It provides a public leaderboard tracking model performance. While many LLMs are evaluated on the leaderboard, this is a platform/resource rather than a paper reporting specific experimental results, so no specific tested models can be attributed to the authors.
+
 
 ## Notes
 

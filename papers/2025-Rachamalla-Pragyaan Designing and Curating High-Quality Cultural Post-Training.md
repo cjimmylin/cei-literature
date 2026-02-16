@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "The effectiveness of Large Language Models (LLMs) depends heavily on the availability of high-quality post-training data, particularly instruction-tuning and preference-based examples. Existing open-source datasets, however, often lack multilingual coverage, cultural grounding, and suffer from task diversity gaps that are especially pronounced for Indian languages. We introduce a human-inthe-loop pipeline that combines translations with synthetic expansion to produce reliable and diverse Indic..."
 ethics_perspective: "AI Safety & Alignment"
@@ -66,6 +67,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Two datasets: Pragyaan-IT (22.5K) and Pragyaan-Align (100K) across 10 Indian languages covering 13 broad and 56 sub-categories. Human-in-the-loop pipeline combining translations with synthetic expansion for culturally grounded Indic post-training data. Emphasizes task diversity, safety alignment, and cultural nuance preservation.
+
+## Data Description
+
+The paper presents Pragyaan, a human-in-the-loop pipeline for curating high-quality post-training datasets for Indian languages. It produces two datasets: Pragyaan-IT (22.5K instruction-tuning examples) and Pragyaan-Align (100K preference examples) across 10 Indian languages covering 56 task sub-categories. The pipeline combines translation of English prompts with synthetic expansion and manual editing to ensure linguistic accuracy and cultural appropriateness. No specific LLMs are benchmarked in the paper; it focuses on dataset construction methodology.
+
 
 ## Notes
 

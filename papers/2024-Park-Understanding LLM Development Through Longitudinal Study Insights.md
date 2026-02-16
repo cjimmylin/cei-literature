@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/tatsu-lab/alpaca_eval"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "This paper conducts a longitudinal study over eleven months to address the limitations of prior research on the Open Ko-LLM Leaderboard, which have relied on empirical studies with restricted observation periods of only five months. By extending the analysis duration, we aim to provide a more comprehensive understanding of the progression in developing Korean large language models (LLMs). Our study is guided by three primary research questions: (1) What are the specific challenges in improving..."
 research_topic: "Other"
@@ -67,7 +68,8 @@ Longitudinal analysis of 1,769 Korean LLMs over 11 months on Open Ko-LLM Leaderb
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list was identified. Verified dataset/resource link: https://github.com/tatsu-lab/alpaca_eval.
+This paper conducts a longitudinal study over eleven months analyzing 1,769 models submitted to the Open Ko-LLM Leaderboard, which evaluates Korean LLMs on five tasks (Ko-HellaSwag, Ko-ARC, Ko-MMLU, Ko-CommonGen V2, Ko-TruthfulQA). Rather than testing specific LLMs, the paper provides a meta-analysis of performance trends, model size impacts, and leaderboard dynamics for Korean language models over time.
+
 
 ## Notes
 

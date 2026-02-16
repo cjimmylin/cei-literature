@@ -2,6 +2,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -70,7 +71,7 @@ Nine benchmarks covering reasoning, instruction-following, emotional intelligenc
 
 ## Data Description
 
-This paper introduces the Open Ko-LLM Leaderboard2, a Korean LLM evaluation platform with nine benchmark tasks including Ko-GPQA, Ko-WinoGrande, Ko-GSM8K, Ko-EQ-Bench, Ko-IFEval, KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, and Ko-Helpfulness. Dataset sizes range from 171 to 10,000 samples. While the leaderboard evaluates many Korean LLMs, all datasets are kept private, and the paper does not report results for specific canonical LLM names from the assessment list.
+Open Ko-LLM Leaderboard2 is an evaluation platform for Korean LLMs that replaces the original leaderboard's benchmarks with nine new tasks: Ko-GPQA, Ko-WinoGrande, Ko-GSM8K, Ko-EQ-Bench, Ko-IFEval, KorNAT-Knowledge, KorNAT-Social-Value, Ko-Harmlessness, and Ko-Helpfulness. Four tasks are native Korean benchmarks. The paper introduces the leaderboard infrastructure and evaluation methodology rather than testing specific models.
 
 
 ## Notes

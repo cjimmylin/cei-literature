@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: "https://airi-institute.github.io/geopolitical_llm_bias/"
+LLM_assessed: "GPT-4o-mini, Qwen2.5-72B, Llama-4-Maverick, GigaChat-Max"
+DATA_URL: "https://github.com/AIRI-Institute/geopolitical_llm_bias"
 tags: 
 abstract: "This paper evaluates geopolitical biases in LLMs with respect to various countries though an analysis of their interpretation of historical events with conflicting national perspectives (USA, UK, USSR, and China). We introduce a novel dataset with neutral event descriptions and contrasting viewpoints from different countries. Our findings show significant geopolitical biases, with models favoring specific national narratives."
 ethics_perspective: "Bias & Fairness"
@@ -65,6 +66,11 @@ ethics_perspective: "Bias & Fairness"
 ## Abstract
 
 Evaluates geopolitical biases in LLMs regarding historical events from conflicting national perspectives (USA, UK, USSR, China). Russian researchers from AIRI/Skoltech/Sber AI. Finds significant biases favoring Western narratives; even Russian/Chinese models prefer US viewpoints.
+
+## Data Description
+
+The paper introduces a novel dataset of 109 historical events across 55 conflicts involving the USA, UK, USSR, and China, with neutral event descriptions and contrasting national viewpoints. Four LLMs are evaluated on their geopolitical biases by asking them to assess which country's perspective aligns with historical facts. The study reveals significant geopolitical biases with models favoring specific national narratives, and finds that simple debiasing prompts have limited effectiveness.
+
 
 ## Notes
 

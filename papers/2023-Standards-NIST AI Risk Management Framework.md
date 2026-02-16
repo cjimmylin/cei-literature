@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -31,8 +32,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "https://doi.org/10.6028/NIST.AI.100-1"
 pdf_extract: "PDF Extracts/2023/2023-Standards-NIST AI Risk Management Framework.md"
 local_pdf: "[[PDFs/2023/2023-Standards-NIST AI Risk Management Framework.pdf]]"
 ---
@@ -106,7 +107,7 @@ The AI RMF concludes that effective AI risk management requires treating AI syst
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is the NIST AI Risk Management Framework (AI RMF 1.0), a voluntary policy framework providing guidance for organizations to manage AI risks across the lifecycle, organized around four functions: Govern, Map, Measure, and Manage.
+The NIST AI Risk Management Framework (AI RMF 1.0) is a U.S. government policy document providing a structured approach to managing AI risks. It defines trustworthy AI characteristics (valid, reliable, safe, secure, resilient, accountable, transparent, explainable, interpretable, privacy-enhanced, fair) and organizes risk management into four functions: Govern, Map, Measure, and Manage. No AI models are tested; it is a governance framework document.
 
 
 ## Notes

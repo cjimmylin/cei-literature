@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -34,8 +35,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: "https://github.com/FilipeMaia/owl"
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Religious Belief and the Moral Circle.md"
 local_pdf: "[[PDFs/2016/2016-Purzycki-Religious Belief and the Moral Circle.pdf]]"
 ---
@@ -107,7 +108,7 @@ The dataset provides empirical resources for testing theories about religion's r
 
 ## Data Description
 
-The PDF extract for this paper contains mismatched content (X-ray diffraction data from a Mimivirus study rather than the expected paper on religious belief and the moral circle). Based on the available extract, no LLM assessment or relevant dataset could be identified. This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This paper presents the 'Religious Belief and the Moral Circle' cross-cultural dataset, part of the Evolution of Religion and Morality Project, investigating the link between moralistic gods and prosocial behavior. The dataset includes behavioral economic experiments and surveys of religious beliefs across diverse populations. The PDF extract is mismatched (contains X-ray diffraction data), but based on metadata this is a social science dataset with no LLM evaluation.
 
 
 ## Notes

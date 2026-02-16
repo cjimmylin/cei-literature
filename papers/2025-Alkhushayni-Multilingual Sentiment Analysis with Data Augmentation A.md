@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -32,8 +33,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "Machine Translation"
@@ -66,7 +67,8 @@ I found several relevant resources related to Mongolian NLP and sentiment analys
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+Cross-language evaluation of sentiment analysis using data augmentation techniques in French, German, and Japanese. Focuses on traditional ML approaches rather than LLMs for multilingual sentiment classification.
+
 
 ## Notes
 

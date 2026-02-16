@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "GPT-4, GPT-3.5, Claude-2, Bard"
+DATA_URL: "NA"
 tags: 
 abstract:
 ethics_perspective: "AI Safety & Alignment"
@@ -69,6 +70,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 Four LLMs (Bard, Claude 2, GPT-3.5, GPT-4) completed the Portrait Values Questionnaire-Revised and results compared to data from 53,472 individuals across 49 nations. All models prioritized universalism and self-direction while de-emphasizing achievement, power, and security relative to humans.
+
+## Data Description
+
+Four LLMs completed the Portrait Values Questionnaire-Revised (PVQ-RR) based on Schwartz's Theory of Basic Values, and their responses were compared to data from 53,472 individuals across 49 nations. The study assessed cross-cultural value alignment by measuring how LLMs prioritize different values (universalism, self-direction, achievement, power, security) relative to human populations.
+
 
 ## Notes
 

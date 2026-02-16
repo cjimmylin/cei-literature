@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "embed virtue ethics"
@@ -29,8 +30,8 @@ is_eval: Yes
 is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
 local_pdf: "[[PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
 ---
@@ -93,7 +94,7 @@ None mentioned. The paper proposes a conceptual framework.
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a conceptual framework paper proposing Virtue Ethics by Design (VED) for embedding virtues such as fairness, honesty, and prudence into AGI and ASI architectures.
+Theoretical paper exploring virtue ethics as a design framework for AGI and ASI systems. Discusses philosophical foundations without empirical evaluation of specific LLMs or datasets.
 
 
 ## Notes

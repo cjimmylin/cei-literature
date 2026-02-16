@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: 
 research_topic: "NLP & Representation Learning"
@@ -67,7 +68,8 @@ Based on the web search results, here's what I found about decolonizing NLP for 
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This ResearchGate paper surveys power dynamics and data colonialism in African NLP technology development. It examines how dominant Western perspectives, datasets, and methodologies overshadow indigenous knowledge systems and local voices in NLP research. No LLMs are evaluated or datasets created; it is a survey/position paper on decolonization themes in NLP.
+
 
 ## Notes
 

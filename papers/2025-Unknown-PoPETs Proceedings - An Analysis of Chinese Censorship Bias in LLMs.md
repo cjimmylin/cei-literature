@@ -41,6 +41,7 @@ DATA_URL: "https://github.com/citizenlab/chat-censorship"
 tags: 
 abstract: "When a large language model (LLM) has been trained on text featuring social biases, those biases implicitly impact the outputs of the model. Training an LLM on sanitized content, i.e., those pieces of content which remain after being subjected to state censorship (including alterations, deletions, and self-imposed censorship), results in what we term censorship bias. A model impacted by censorship bias may be less likely to reflect views that are routinely prohibited and more likely to reflect..."
 ethics_perspective: "Bias & Fairness"
+doi: 10.56553/popets-2025-0122
 ---
 # PoPETs Proceedings — An Analysis of Chinese Censorship Bias in LLMs
 

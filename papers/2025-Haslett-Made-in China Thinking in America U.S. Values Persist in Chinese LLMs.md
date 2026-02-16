@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: 
-DATA_URL: 
+LLM_assessed: "Baichuan2-13B, Claude-3.5-Sonnet, Claude-3.7-Sonnet, Claude-Opus-4, DeepSeek-V2-Lite, DeepSeek-V3, Ernie-4.5, Gemini-2.0-Flash, Gemini-2.5-Flash, GLM-4-Plus, GPT-4, GPT-4o, GPT-4.1, Kimi-1.5, Kimi-K2, Llama-3.3-70B, Llama-4-Maverick, Qwen2.5-72B, Qwen3-235B, Yi-34B"
+DATA_URL: "NA"
 tags: 
 abstract: "As large language models increasingly mediate access to information and facilitate decision-making, they are becoming instruments in soft power competitions between global actors such as the United States and China. So far, language models seem to be aligned with the values of Western countries, but evidence for this ethical bias comes mostly from models made by American companies. The current crop of stateof-the-art models includes several made in China, so we conducted the first large-scale..."
 ethics_perspective: "AI Safety & Alignment"
@@ -64,6 +65,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First large-scale investigation of how models made in China and the USA align with people from China and the USA. Elicits responses to MFQ 2.0 and World Values Survey from 10 Chinese and 10 American models, finding all models respond more like American people than Chinese people.
+
+## Data Description
+
+The paper conducts the first large-scale investigation comparing how 10 Chinese-made and 10 American-made LLMs align with Chinese and American human values. Models were presented with the Moral Foundations Questionnaire 2.0 (36 items, 6 moral dimensions) and the World Values Survey (19 ethical values items) in both English and Chinese, with and without national identity personas. Responses were compared against data from thousands of Chinese and American human participants, finding that all LLMs respond more like American people.
+
 
 ## Notes
 

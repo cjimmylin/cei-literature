@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "With the advancement of pre-trained language models, prompt learning has emerged as a trend for text classification. It offers several advantages over traditional machine learning methods, particularly for low-resource natural language processing tasks. Prompt learning enables fine-tuning of pre-trained language models on relatively small datasets, eliminating the need for a large number of expensive labeled samples. This article proposes an effective approach that combines prompt learning and ensemble learning, aiming to enhance the performance of individual language models in Tibetan text classification tasks. This approach introduces a different perspective by transforming the traditional text classification problem into an entailment relationship exploration. Instead of directly assigning categories to sentences, models judge the sentence category based on whether it is entailed by a given prompt. This innovative method enables us to leverage the strengths of prompt learning and ensemble learning simultaneously, resulting in improved classification accuracy. To evaluate the effectiveness of our approach, we conducted extensive experiments on two public datasets, TNCC and WCM. The experimental results demonstrate the effectiveness of our method, achieving weighted F1 scores of 72.72% and 78% on TNCC and WCM, respectively. Compared to traditional machine learning methods, this prompt learning approach exhibits a significant 10% performance gain in low-resource natural language processing tasks."
 research_topic: "Other"
@@ -71,7 +72,8 @@ With the advancement of pre-trained language models, prompt learning has emerged
 
 ## Data Description
 
-Backfill summary: No PDF extract was available, and no repository-style data URL could be verified from metadata context.
+This paper proposes an approach combining prompt learning and ensemble learning for Tibetan text classification. It transforms the classification problem into an entailment relationship exploration using pre-trained language models. Experiments on two public Tibetan datasets (TNCC and WCM) achieve weighted F1 scores of 72.72% and 78% respectively, demonstrating a 10% improvement over traditional machine learning methods. No specific LLMs by name were benchmarked.
+
 
 ## Notes
 

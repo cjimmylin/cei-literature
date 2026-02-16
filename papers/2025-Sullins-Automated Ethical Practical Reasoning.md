@@ -1,4 +1,5 @@
 ---
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics in robot"
@@ -31,8 +32,8 @@ is_eval: No
 is_dataset: No
 data_description: N/A
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Automated Ethical Practical Reasoning: The Problem of Artificial Phronesis
 
@@ -52,7 +53,7 @@ This chapter explores the application of **Aristotelian virtue** (**arete**) and
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a philosophical analysis exploring the concept of artificial phronesis (practical ethical reasoning) in AI and robotics, drawing on Aristotelian virtue ethics, John Dewey's pragmatism, and case studies of AlphaGo and Microsoft Tay.
+This is a philosophy book chapter exploring the concept of 'artificial phronesis' (practical ethical wisdom) for AI and robotic systems. Drawing on Aristotle, Dewey, and Kawabata's 'The Master of Go,' it argues that ethical reasoning must be distributed across techno-social assemblies rather than residing solely in the machine. No dataset, benchmark, or empirical evaluation is presented.
 
 
 ## Notes

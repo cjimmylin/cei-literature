@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,7 +34,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "Not specified"
-LLM_assessed: 
+LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/STAIR-BUPT/JailBench"
 tags: 
 abstract: "Large language models (LLMs) have demonstrated remarkable capabilities across various applications, highlighting the urgent need for comprehensive safety evaluations. In particular, the enhanced Chinese language proficiency of LLMs, combined with the unique characteristics and complexity of Chinese expressions, has driven the emergence of Chinese-specific benchmarks for safety assessment. However, these benchmarks generally fall short in effectively exposing LLM safety vulnerabilities."
@@ -67,6 +68,11 @@ ethics_perspective: "AI Safety & Alignment"
 ## Abstract
 
 First comprehensive Chinese security benchmark with hierarchical safety taxonomy: Violation of Core Socialist Values, Discrimination, Commercial Offences, Infringement of Legal Rights, Specific Security Needs. 10,800 queries, 40 risk types, evaluated on 13 LLMs.
+
+## Data Description
+
+Introduces JailBench, a comprehensive Chinese security assessment benchmark with 10,800 queries across multiple safety categories. Tests 13 LLMs including ChatGPT on jailbreak resistance. Code and benchmark available on GitHub.
+
 
 ## Notes
 

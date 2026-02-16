@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ethics_perspective: "Moral Reasoning & Psychology"
 ---
 # Nothing Comes Without Its World – Practical Challenges of Aligning LLMs to Situated Human Values through RLHF
@@ -74,7 +75,7 @@ This perspective paper unpacks the limitations of predominant alignment practice
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a perspective paper that critically examines the limitations of RLHF alignment practices for LLMs through the lens of situated values drawn from feminist epistemology, proposing three research directions: situated annotation, expressive instruction, and reflexive adaptation.
+This is a perspective paper published at AIES 2024 that unpacks the limitations of RLHF alignment practices for LLMs through the lens of situated values, drawing on feminist epistemology. It proposes three research directions: situated annotation, expressive instruction, and reflexive adaptation. No LLMs are tested or benchmarked; the paper is a theoretical critique of current value alignment approaches rather than an empirical evaluation.
 
 
 ## Notes

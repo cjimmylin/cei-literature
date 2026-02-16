@@ -1,6 +1,7 @@
 ---
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -33,8 +34,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 tags: 
 abstract: "Indigenous languages are historically underserved by Natural Language Processing (NLP) technologies, but this is changing for some languages with the recent scaling of large multilingual models and an increased focus by the NLP community on endangered languages. This position paper explores ethical considerations in building NLP technologies for Indigenous languages, based on the premise that such projects should primarily serve Indigenous communities. We report on interviews with 17 researchers working in or with Aboriginal and/or Torres Strait Islander communities on language technology projects in Australia. Drawing on insights from the interviews, we recommend practices for NLP researchers to increase attention to the process of engagements with Indigenous communities, rather than focusing only on decontextualised artefacts."
 research_topic: "Other"
@@ -68,7 +69,8 @@ Indigenous languages are historically underserved by Natural Language Processing
 
 ## Data Description
 
-Backfill summary: No high-confidence evaluated model list or repository-style data URL was identified from available extract/context.
+This position paper explores ethical considerations in building NLP technologies for Indigenous languages, based on interviews with 17 researchers working with Aboriginal and/or Torres Strait Islander communities in Australia. It does not create or evaluate any dataset or benchmark, but rather provides recommendations for NLP researchers on process-oriented engagement with Indigenous communities.
+
 
 ## Notes
 

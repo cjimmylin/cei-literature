@@ -3,6 +3,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -67,7 +68,7 @@ Explores how the Sub-Saharan African value of Ubuntu could improve terms on whic
 
 ## Data Description
 
-The PDF extract appears to contain a different paper titled 'From Social Exclusion to Social Inclusion: Theory and Practice over Two Continents' by Saloojee and Saloojee (2011) from the African Journal of Public Affairs, rather than Mhlambi's paper on Ubuntu and AI inclusion. The extracted content discusses social exclusion/inclusion theory with reference to European, Canadian, and South African contexts. This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment.
+This paper explores how the Sub-Saharan African value of Ubuntu could improve the terms on which African populations are included in global AI ethics discourses. It argues that Ubuntu's relational approach has immense value for applied normative ethics in AI. The PDF extract contained a different paper on social exclusion theory. No dataset, benchmark, or LLM evaluation is presented.
 
 
 ## Notes

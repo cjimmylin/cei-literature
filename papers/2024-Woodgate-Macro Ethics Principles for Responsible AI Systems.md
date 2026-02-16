@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # Macro Ethics Principles for Responsible AI Systems: Taxonomy and Future Directions
 
@@ -74,7 +75,7 @@ Responsible AI must be able to make or support decisions that consider human val
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It is a survey that develops a taxonomy of 21 normative ethical principles from AI and computer science literature, describing how each principle has been operationalized for responsible AI systems.
+This paper surveys AI and computer science literature to develop a taxonomy of 21 normative ethical principles that can be operationalized in AI systems. It describes how each principle (from deontological, virtue ethics, and consequentialist traditions) has been previously operationalized, providing a comprehensive mapping. The paper does not create a dataset or benchmark but provides a conceptual framework for incorporating normative ethical principles into responsible AI reasoning.
 
 
 ## Notes

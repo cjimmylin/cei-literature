@@ -1,5 +1,6 @@
 ---
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -36,8 +37,8 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
-LLM_assessed: NA
-DATA_URL: NA
+LLM_assessed: "NA"
+DATA_URL: "NA"
 ---
 # A Deontic Logic for Programming Rightful Machines
 
@@ -71,7 +72,7 @@ A "rightful machine" is an explicitly moral, autonomous machine agent whose beha
 
 ## Data Description
 
-This paper does not introduce or utilize a specific dataset or benchmark for LLM assessment. It presents a theoretical deontic logic framework based on Kant's philosophy of law, proposing a modified answer set programming approach for handling conflicting legal obligations in autonomous machine agents.
+The paper proposes a deontic logic for programming autonomous machine agents based on Immanuel Kant's philosophy of law. It argues for a credulous, non-monotonic deontic logic to handle conflicting legal obligations while satisfying Kantian normative demands for consistency, precision, and minimal justifiability. An implementation via modified answer set programming is demonstrated with simple examples. The paper is a formal logic/philosophy contribution and does not create or evaluate any dataset.
 
 
 ## Notes

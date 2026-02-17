@@ -34,6 +34,23 @@
 
 ---
 
+## 2026-02-16 (Session 89)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Workflows | **Template Injection for Large Dashboards:** When updating a 636KB single-page app with 55 ECharts visualizations, regenerating the entire HTML/CSS/JS is wasteful and fragile. Instead, extract the template, replace only the `const DATA = {...};` blob, and preserve all UI code. Use brace-counting (not regex) to find the JSON boundary — regex like `\{.*?\}` fails on nested braces and `\{.*\}` overshoots. |
+| 2026-02-16 | YAML | **Extended YAML Scanner for List Fields:** The simple per-line `key: value` scanner can't parse multi-line list fields (`cultures_nationalities_list`, `languages_list`, `religious_values_list`). Solution: track `current_list_field` state and collect `- item` continuation lines. Must also handle inline single values (`cultures_nationalities_list: Chinese`) vs empty key followed by list items. |
+| 2026-02-16 | Data Quality | **Post-Enrichment Section Inflation:** After the culture/language/religion backfill, 63% of papers have culture data (vs 22% pre-enrichment). This is accurate — the enrichment properly classified papers that were previously untagged. Dashboard sections should display all enriched data rather than artificially filtering to match old numbers. 248 distinct cultures across 13 regions. |
+
+## 2026-02-16 (Session 88)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-16 | Workflows | **Culture-Before-Language Ordering in Enrichment Pipeline:** Language batch generator (`generate_language_list_batches.py`) includes the `cultures_nationalities_list` field as a hint for agents. Running culture enrichment first gives agents cultural context (e.g., "Zoroastrian, Avestan" culture → "Avestan" language is an obvious inference). Without this ordering, language agents must rely solely on abstracts and titles, which may be ambiguous. |
+| 2026-02-16 | Workflows | **`--since` Date Filter Uses macOS `st_birthtime`:** Both batch generators support `--since YYYY-MM-DD` to target only recently-imported papers. This avoids re-processing the 2,002 already-enriched papers by filtering on file creation date (`stat().st_birthtime`), which is reliable on macOS but may not be available on all platforms (falls through gracefully via `AttributeError` catch). |
+| 2026-02-16 | Data Quality | **ZERO Papers: 100% Culture Coverage, 22% Language Coverage:** All 32 religious tradition papers got specific culture data (Shinto 10, Indigenous 7, Zoroastrian 6, etc.) — none were N/A because they were imported specifically for cultural coverage. Only 7/32 (22%) had language focus — the Avestan/Pahlavi NLP papers and the AmericasNLP workshop. The other 25 are philosophy/ethics/policy papers written in English with no computational language focus. |
+| 2026-02-16 | Git | **Cloned Repos Need Local Git Config:** `/tmp` clones for GitHub Pages deploy don't inherit user git config. Setting `git config user.email` and `user.name` locally (repo-scoped, not `--global`) resolves "Author identity unknown" errors without modifying the global config. |
+
 ## 2026-02-16 (Session 87)
 
 | Date | Category | Learning |

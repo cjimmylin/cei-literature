@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -21,8 +23,8 @@ local_pdf:
 pdf_extract: 
 DATE_ADDED: 20260216
 national_ethnic_cultural: 
-cultures_nationalities_list: 
-languages_list: 
+cultures_nationalities_list: "Japanese, Shinto, Confucian"
+languages_list: ""
 religious_values: Buddhism, Shinto
 religious_values_list: "Buddhism, Shinto"
 moral_psychology: 

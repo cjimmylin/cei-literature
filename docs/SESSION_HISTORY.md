@@ -2,6 +2,65 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 89 (Feb 16, 2026) - Dashboard v3 Regeneration & Deployment
+
+### Overview
+Built a new Python script (`generate_vault_dashboard_3.py`, 1,903 lines) to regenerate the v3 interactive dashboard with data from all 2,034 papers. Uses template injection architecture: reads the old v3 HTML (636KB), replaces the `const DATA` JSON blob with freshly computed data, preserves all CSS/JS/chart code. Deployed to GitHub Pages at `cjimmylin.github.io/cei-dashboard-3/`.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Script created | `PYTHON/generate_vault_dashboard_3.py` (1,903 lines) |
+| Dashboard generated | `STATISTICS/20260216-vault-dashboard-3.html` (767 KB) |
+| Total papers | 2,034 (was 924 in old v3) |
+| Benchmark candidates | 986 (was 528) |
+| Cultural papers | 1,275 (was 207) |
+| Moral psychology papers | 134 (was 124) |
+| Religious values papers | 142 (was 52) |
+| Normative ethics papers | 144 (was 80) |
+| Public resources | 481 (was 306) |
+| LLM-assessed papers | 1,579 (78%) |
+| GitHub Pages | `cjimmylin.github.io/cei-dashboard-3/` — deployed + built |
+
+### Key Learnings
+- [Architecture] Template injection is far more efficient than regenerating 636KB of HTML/CSS/JS — replace only the DATA blob using a brace-counting parser for robust nested JSON boundary detection
+- [YAML] Extended YAML scanner needs list-field state tracking (`current_list_field`) to handle multi-line `- item` continuations; simple key:value regex is insufficient for cultures_nationalities_list, languages_list, religious_values_list
+- [Data Quality] Post-enrichment cultural data inflated from 22% to 63% of papers — the backfill dramatically changed section scope; 248 distinct cultures across 13 regions
+
+### Files Changed
+- PYTHON/: 1 new script (`generate_vault_dashboard_3.py`)
+- STATISTICS/: 1 new file (`20260216-vault-dashboard-3.html`, 767 KB)
+- GitHub: 1 new repo (`cjimmylin/cei-dashboard-3`)
+
+---
+
+## Session 88 (Feb 16, 2026) - ZERO Paper Enrichment + Dashboard Deploy
+
+### Overview
+Enriched 32 ZERO-prefix religious tradition papers (imported in Session 86) with culture and language list metadata, and deployed the current vault dashboard to the `cei-dashboard-llm` GitHub Pages site replacing stale Feb 12 data.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers enriched (cultures_nationalities_list) | 32/32 (all got specific culture data, 0 N/A) |
+| Papers enriched (languages_list) | 32/32 (7 with language data, 25 blank) |
+| Top cultures assigned | Shinto (10), Indigenous (7), Zoroastrian (6), Japanese (8) |
+| Top languages assigned | Avestan (3), Pahlavi (3), Chatino/Guarani/Quechua/etc. (1 each) |
+| Dashboard deployed | `cei-dashboard-llm` updated to 2,034 papers (commit f40fcc6) |
+| Final validation | 2,034/2,034 pass, 0 errors |
+
+### Key Learnings
+- [Workflows] Culture enrichment must run before language enrichment — the language batch generator includes `cultures_nationalities_list` as a hint field for more accurate language classification
+- [Data Quality] All 32 ZERO papers have specific cultural focus (no N/A) — expected since they were imported specifically for religious tradition coverage
+- [Data Quality] Only 7/32 ZERO papers have language focus — the NLP/corpus papers (Avestan, Pahlavi, Indigenous American languages) vs the majority philosophy/ethics/policy papers
+
+### Files Changed
+- papers/: 32 modified (culture + language field enrichment)
+- logs/: 14 new files (2 backup _v1, 6 culture pipeline, 6 language pipeline)
+- External: `cei-dashboard-llm` GitHub Pages repo updated
+
+---
+
 ## Session 87 (Feb 16, 2026) - Vault Cleanup: Root PDFs, Legacy Ethics, ZERO Assessment
 
 ### Overview

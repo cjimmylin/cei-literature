@@ -3,6 +3,8 @@
 
 
 
+
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -20,8 +22,8 @@ local_pdf:
 pdf_extract: 
 DATE_ADDED: 20260216
 national_ethnic_cultural: 
-cultures_nationalities_list: 
-languages_list: 
+cultures_nationalities_list: "First Nations, Canadian Indigenous"
+languages_list: ""
 religious_values: Indigenous (North America)
 religious_values_list: "Indigenous (North America)"
 moral_psychology: 

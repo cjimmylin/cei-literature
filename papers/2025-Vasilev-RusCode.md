@@ -31,6 +31,7 @@ key_contribution: "Proposes the RusCode benchmark, consisting of 1250 text promp
 significance: "Mitigates Western/English-speaking cultural bias in generative CV models, ensuring unique cultural characteristics of diverse language groups are accurately represented."
 tags: 
 abstract: "Text-to-image generation models have gained popularity among users around the world. However, many of these models exhibit a strong bias toward English-speaking cultures, ignoring or misrepresenting the unique characteristics of other language groups, countries, and nationalities. The lack of cultural awareness can reduce the generation quality and lead to undesirable consequences such as unintentional insult, and the spread of prejudice."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Ernie"
 DATA_URL: "https://github.com/ai-forever/RusCode"

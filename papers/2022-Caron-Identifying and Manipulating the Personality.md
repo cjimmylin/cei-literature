@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2212.10276"
 external_pdf: "http://arxiv.org/pdf/2212.10276.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

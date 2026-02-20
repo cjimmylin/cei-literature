@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "NLP4DH 2023 (Joint 3rd International Conference on Natural Language Processing for Digital Humanities and 8th International Workshop on Computational Linguistics for Uralic Languages), pages 266-277, Tokyo, Japan"
+CONF-CC: "Workshop (2023)"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

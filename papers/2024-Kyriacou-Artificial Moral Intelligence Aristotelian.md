@@ -30,6 +30,7 @@ key_contribution: "Argues human rational intelligence is not mechanically comput
 significance: "Rigorous Aristotelian critique of AI moral intelligence claims based on computability arguments"
 external_pdf: N/A
 abstract: "The paper argues that AI systems solve problems based on mechanically computational, means-end reasoning (called 'mechanical instrumental rationality'), while human intelligence, to the extent that it is rational, is not mechanically computable - not reducible to mechanical computations for at least four basic reasons. These include that human intelligence is categorically normative, AI lacks autonomous reasons-responsiveness, rational human intelligence necessarily involves indispensable affective experience, and practical wisdom (phronesis) requires genuine understanding."
+CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "Bloom, ChatGPT, GPT-4"
 DATA_URL: "NA"

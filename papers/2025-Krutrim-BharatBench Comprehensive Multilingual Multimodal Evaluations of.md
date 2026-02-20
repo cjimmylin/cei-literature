@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
 external_pdf: "https://ai-labs.olakrutrim.com/static/Bharatbench-report-4thfeb.pdf"
 publication: "Krutrim AI Labs"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md"
 local_pdf: "[[PDFs/2025/2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.pdf]]"
 DATE_ADDED: 20260213

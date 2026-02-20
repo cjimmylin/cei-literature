@@ -22,6 +22,7 @@ tags:
 url: "http://arxiv.org/abs/2405.09373"
 external_pdf: "http://arxiv.org/pdf/2405.09373.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multilingual"

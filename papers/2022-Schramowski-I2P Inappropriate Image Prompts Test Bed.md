@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2202.06675.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md"
 local_pdf: "[[PDFs/2022/2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.pdf]]"
 publication: FAccT
+CONF-CC: "FAccT 2022"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -20,6 +20,7 @@ authors: Kapil Madan
 url: "https://arxiv.org/abs/2509.07006"
 external_pdf: "https://arxiv.org/pdf/2509.07006.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md"
 DATE_ADDED: 20260215

@@ -20,6 +20,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2402.00786"
 external_pdf: "https://arxiv.org/pdf/2402.00786.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.md"
 local_pdf: "[[PDFs/2024/2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.pdf]]"
 DATE_ADDED: 20260213

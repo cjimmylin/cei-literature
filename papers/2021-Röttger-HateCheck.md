@@ -33,6 +33,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Röttger-HateCheck.md"
 local_pdf: "[[PDFs/2021/2021-Röttger-HateCheck.pdf]]"
 abstract: "Detecting online hate is a difﬁcult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accuracy and F1 score. However, this approach makes it difﬁcult to identify speciﬁc model weak points. It also risks overestimating generalisable model performance due to increasingly well-evidenced systematic gaps and biases in hate speech datasets."
+CONF-CC: "ACL 2020"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/paul-rottger/hatecheck-data"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2506.02280.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Tewabe-The State of Large Language Models for African Languages Progress and.md"
 local_pdf: "[[PDFs/2025/2025-Tewabe-The State of Large Language Models for African Languages Progress and.pdf]]"
 publication: "WebSearch: decolonial AI African languages benchmark evaluation"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, African/Ubuntu"
 cultures_nationalities_list: "African, Arabic"

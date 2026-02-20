@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2505.14971.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md"
 local_pdf: "[[PDFs/2025/2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.pdf]]"
 publication: "IJCAI 2025 (AI and Social Good Track)"
+CONF-CC: "IJCAI 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

@@ -33,6 +33,7 @@ significance: "Challenges post-hoc alignment methods (like fine-tuning) by argui
 abstract: "As large language models (LLMs) increasingly mediate human decision-making, discourse, and behaviour, ensuring the LLM's processing of moral meaning has become a critical challenge. Current approaches to increase LLM's processing of moral meaning rely predominantly on bottom-up methods such as fine-tuning and reinforcement learning from human feedback. We propose a complementary, yet fundamentally different approach: embedding processing moral meaning directly into the architectural mechanisms a"
 paper_summary: "Abstract: As large language models (LLMs) increasingly mediate human decision-making, discourse, and behaviour, ensuring the LLM's processing of moral meaning has become a critical challenge. Current approaches | Overview: Morality in AI. A plea to embed morality in LLM architectures and frameworks Authors • Gunter Bombaerts, Eindhoven University of Technology, the Netherlands, 0000-0002- 8006-1617, g.bombaerts@tue.nl.  | Methodology: embedding processing moral meaning directly into the architectural mechanisms and frameworks of transformer-based models through top-down design princ | Conclusions: This work-in-progress article makes three key contributions to embedding morality in LLM architectures and frameworks. First, we demonstrate that atte"
 external_pdf: "https://arxiv.org/pdf/2511.20689.pdf"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "NA"

@@ -22,6 +22,7 @@ authors: "Combining Pretrained"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548925/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC12548925&blobtype=pdf"
 publication: PubMed
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.md"
 local_pdf: "[[PDFs/2025/2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.pdf]]"
 DATE_ADDED: 20260213

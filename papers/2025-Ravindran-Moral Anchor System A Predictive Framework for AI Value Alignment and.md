@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2510.04073.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md"
 local_pdf: "[[PDFs/2025/2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

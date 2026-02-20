@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.1709.06692
 url: "http://arxiv.org/abs/1709.06692"
 external_pdf: "http://arxiv.org/pdf/1709.06692.pdf"
 publication: "Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)"
+CONF-CC: "AAAI 2018"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

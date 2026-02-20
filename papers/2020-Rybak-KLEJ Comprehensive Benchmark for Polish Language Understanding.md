@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2005.00630.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md"
 local_pdf: "[[PDFs/2020/2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.pdf]]"
 publication: "arXiv / ACL 2020"
+CONF-CC: "ACL 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Polish"

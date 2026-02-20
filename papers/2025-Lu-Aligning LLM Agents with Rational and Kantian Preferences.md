@@ -25,6 +25,7 @@ pdf_extract: "PDF Extracts/2025/2025-Lu-Aligning LLM Agents with Rational and Ka
 local_pdf: "[[PDFs/2025/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.20796.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: "French, American"
 cultures_nationalities_list: "N/A"

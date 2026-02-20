@@ -20,6 +20,7 @@ authors: Vassilis Galanos, Mary Reisel
 doi: 10.1007/978-3-030-62803-1_12
 url: "https://link.springer.com/chapter/10.1007/978-3-030-62803-1_12"
 publication: Springer IFIP AICT / HAL Open Archive
+CONF-CC: "IFIP advances in information and communication technology 2020"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

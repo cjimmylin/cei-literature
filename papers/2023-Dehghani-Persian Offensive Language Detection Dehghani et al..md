@@ -23,6 +23,7 @@ doi: 10.1007/s10994-023-06370-5
 url: "https://link.springer.com/article/10.1007/s10994-023-06370-5"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10994-023-06370-5.pdf"
 publication: "Machine Learning (Springer)"
+CONF-CC: "Machine Learning"
 pdf_extract: "PDF Extracts/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..md"
 local_pdf: "[[PDFs/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..pdf]]"
 DATE_ADDED: 20260213

@@ -29,6 +29,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "This is a dataset of prompt injections from Gandalf by Lakera. Gandalf is a challenge to find a hidden password in increasingly difficult levels of a prompted LLM, demonstrating how adversarial prompt engineering can be used to manipulate AI models into revealing sensitive information. The dataset was collected from prompts submitted to Gandalf in July 2023, filtered using OpenAI text embeddings to find prompts similar to 'Ignore all previous instructions' with similarity of at least 0.825, with PII removed and near-duplicates deduplicated."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"

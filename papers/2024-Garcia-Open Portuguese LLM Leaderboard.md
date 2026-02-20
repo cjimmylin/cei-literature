@@ -21,6 +21,7 @@ last_author: "[[Eduardo Garcia]]"
 authors: "Eduardo Garcia"
 url: "https://huggingface.co/spaces/eduagarcia/open_pt_llm_leaderboard"
 publication: HuggingFace
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

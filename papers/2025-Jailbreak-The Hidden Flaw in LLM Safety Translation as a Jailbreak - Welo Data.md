@@ -21,6 +21,7 @@ last_author: "[[Embedding Jailbreak]]"
 authors: "Embedding Jailbreak"
 url: "https://welodata.ai/2025/12/10/the-hidden-flaw-in-llm-safety-translation-as-a-jailbreak/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

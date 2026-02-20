@@ -27,6 +27,7 @@ external_pdf: "https://arxiv.org/pdf/2508.07845.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.md"
 local_pdf: "[[PDFs/2025/2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.pdf]]"
 publication: "ICWSM 2026 (AAAI Press) / arXiv"
+CONF-CC: "ICWSM 2026"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"

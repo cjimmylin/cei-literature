@@ -27,6 +27,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "ACM Transactions on Asian and Low-Resource Language Information Processing"
+CONF-CC: "ACM TALIP"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Tibetan"

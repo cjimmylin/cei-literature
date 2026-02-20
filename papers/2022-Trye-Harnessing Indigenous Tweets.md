@@ -33,6 +33,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Trye-Harnessing Indigenous Tweets.md"
 local_pdf: "[[PDFs/2022/2022-Trye-Harnessing Indigenous Tweets.pdf]]"
 abstract: "Abstract Te reo Māori, the Indigenous language of Aotearoa New Zealand, is a distinctive feature of the nation's cultural heritage. This paper documents our efforts to build a corpus of 79,000 Māori-language tweets using computational methods. The Reo Māori Twitter (RMT) Corpus was created by targeting Māori-language users identified by the Indigenous Tweets website, pre-processing their data and filtering out non-Māori tweets, together with other sources of noise. Our motivation for creating su"
+CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

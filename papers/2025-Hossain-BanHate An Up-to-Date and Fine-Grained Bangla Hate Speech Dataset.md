@@ -24,6 +24,7 @@ authors_incomplete: true
 url: "https://aclanthology.org/2025.banglalp-1.19/"
 external_pdf: "https://aclanthology.org/2025.banglalp-1.19.pdf"
 publication: "ACL Anthology (BLP 2025)"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2025/2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.pdf]]"
 DATE_ADDED: 20260213

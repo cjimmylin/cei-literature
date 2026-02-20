@@ -21,6 +21,7 @@ last_author: "[[Sanad Sha Nour Rabih]]"
 authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
 url: "https://dblp.org/db/conf/wanlp/arabicnlp2024.html"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

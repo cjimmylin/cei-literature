@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2505.21479
 url: "https://arxiv.org/abs/2505.21479"
 external_pdf: "https://arxiv.org/pdf/2505.21479.pdf"
 publication: "EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

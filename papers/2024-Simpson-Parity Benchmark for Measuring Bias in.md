@@ -27,6 +27,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-024-00613-4.
 pdf_extract: PDF Extracts/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.md
 local_pdf: "[[PDFs/2024/2024-Simpson-Parity Benchmark for Measuring Bias in.pdf]]"
 publication: "AI and Ethics (Springer)"
+CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"

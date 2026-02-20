@@ -24,6 +24,7 @@ doi: 10.48550/arXiv.2407.18369
 url: "http://arxiv.org/abs/2407.18369"
 external_pdf: "http://arxiv.org/pdf/2407.18369.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

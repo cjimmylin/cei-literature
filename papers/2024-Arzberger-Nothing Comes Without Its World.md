@@ -25,6 +25,7 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31617/33784/
 pdf_extract: "PDF Extracts/2024/2024-Arzberger-Nothing Comes Without Its World.md"
 local_pdf: "[[PDFs/2024/2024-Arzberger-Nothing Comes Without Its World.pdf]]"
 publication: "AIES 2024"
+CONF-CC: "AIES 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

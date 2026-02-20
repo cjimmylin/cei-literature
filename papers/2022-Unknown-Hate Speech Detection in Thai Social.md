@@ -27,6 +27,7 @@ external_pdf:
 pdf_extract: "PDF Extracts/2022/2022-Unknown-Hate Speech Detection in Thai Social.md"
 local_pdf: "[[PDFs/2022/2022-Unknown-Hate Speech Detection in Thai Social.pdf]]"
 publication: IEEE
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2403.03218
 url: "http://arxiv.org/abs/2403.03218"
 external_pdf: "http://arxiv.org/pdf/2403.03218.pdf"
 publication: "International Conference on Machine Learning"
+CONF-CC: "ICML 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

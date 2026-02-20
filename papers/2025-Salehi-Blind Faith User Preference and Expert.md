@@ -32,6 +32,7 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://dl.acm.org/doi/pdf/10.1145/3715275.3732162"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ACM FAccT 2025"
+CONF-CC: "FAccT 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Muslim"

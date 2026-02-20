@@ -22,6 +22,7 @@ authors: Md. Tanzib Hosain; Md. Kishor Morol
 url: "https://aclanthology.org/2025.findings-emnlp.492/"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.492.pdf"
 publication: "ACL Anthology (EMNLP 2025 Findings)"
+CONF-CC: "EMNLP 2025 Findings"
 pdf_extract: PDF Extracts/2025/2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.md
 local_pdf: "[[PDFs/2025/2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.pdf]]"
 DATE_ADDED: 20260213

@@ -32,6 +32,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10280248/pdf/peerj-cs-08-1128.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "LREC 2022 (Thirteenth Language Resources and Evaluation Conference), pages 3861-3871, Marseille, France"
+CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

@@ -19,6 +19,7 @@ first_author: "[[E So]]"
 last_author: "[[E]]"
 authors: "So, E"
 publication: Unknown
+CONF-CC: "Preprint"
 external_pdf: "https://arxiv.org/pdf/2601.16513v1.pdf"
 pdf_extract: "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
 local_pdf: "[[PDFs/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.pdf]]"

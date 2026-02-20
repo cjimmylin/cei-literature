@@ -20,6 +20,7 @@ authors: Hitomi Yanaka, Xinqi He, Jie Lu, Namgi Han, Sunjin Oh, Ryoma Kumon, Yum
 url: "https://arxiv.org/abs/2506.12327"
 external_pdf: "https://arxiv.org/pdf/2506.12327.pdf"
 publication: arXiv / GeBNLP 2025
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md"
 DATE_ADDED: 20260215

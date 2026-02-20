@@ -20,6 +20,7 @@ authors: "Irakli Koberidze, Archil Elizbarashvili, Magda Tsintsadze"
 url: "https://aclanthology.org/2025.lowresnlp-1.13.pdf"
 external_pdf: "https://aclanthology.org/2025.lowresnlp-1.13.pdf"
 publication: "ACL Anthology / LowResNLP 2025"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md"
 local_pdf: "[[PDFs/2025/2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.pdf]]"
 DATE_ADDED: 20260213

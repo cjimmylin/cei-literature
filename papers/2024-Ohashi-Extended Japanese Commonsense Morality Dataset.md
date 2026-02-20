@@ -34,6 +34,7 @@ pdf_extract: "PDF Extracts/2024/2024-Ohashi-Extended Japanese Commonsense Morali
 abstract: "Rapid advancements in artificial intelligence (AI) have made it crucial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural differences. To address this shortcoming, we have expanded the JCommonsenseMorality (JCM) dataset, the only publicly available dataset focused on Japanese morality. The Extended JCM (eJCM) has grown from the original 13,975 sentences to 31,184 sentences using our proposed sentence expansion method called..."
 paper_summary: "Abstract: Rapid advancements in artificial intelligence (AI) have made it cru- cial to integrate moral reasoning into AI systems. However, existing models and datasets often overlook regional and cultural diffe | Overview: Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement Takumi Ohashi Hosei University Tokyo, Japan takumi.ohashi.4g@stu.hosei.ac.jp Tsubasa Nakagawa Hosei University To | Conclusions: 5.1 Effects of eJCM There are two possible reasons for the fact that the results ob- tained by MTLE were comparable to or better than those obtained b"
 local_pdf: "[[PDFs/2024/2024-Ohashi-Extended Japanese Commonsense Morality Dataset.pdf]]"
+CONF-CC: "International Conference on Information and Knowledge Management"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ChatGPT, GPT-4"
 DATA_URL: "https://github.com/IyatomiLab/extended-jcm"

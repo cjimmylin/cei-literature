@@ -22,6 +22,7 @@ doi: 10.1145/3715275.3732174
 url: "https://dl.acm.org/doi/10.1145/3715275.3732174"
 external_pdf: "https://philarchive.org/archive/KNETHP"
 publication: "ACM FAccT"
+CONF-CC: "FAccT 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

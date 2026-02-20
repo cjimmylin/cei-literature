@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2310.18974.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md"
 local_pdf: "[[PDFs/2023/2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.pdf]]"
 publication: "EMNLP 2023"
+CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"

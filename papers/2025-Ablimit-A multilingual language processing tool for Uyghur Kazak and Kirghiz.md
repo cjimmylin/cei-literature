@@ -22,6 +22,7 @@ authors: Mijit Ablimit; Sardar Parhat; Askar Hamdulla; Thomas Fang Zheng
 authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/8282131"
 publication: IEEE
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

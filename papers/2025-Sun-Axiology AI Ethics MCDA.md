@@ -23,6 +23,7 @@ doi: 10.3390/proceedings2025126017
 url: "https://www.mdpi.com/2504-3900/126/1/17"
 external_pdf: "https://www.mdpi.com/2504-3900/126/1/17/pdf"
 publication: "Proceedings (MDPI)"
+CONF-CC: "The 1st International Online Conference of the Journal Philosophies"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

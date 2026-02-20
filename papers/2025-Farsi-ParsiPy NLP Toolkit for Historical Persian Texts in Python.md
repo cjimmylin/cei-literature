@@ -21,6 +21,7 @@ doi: 10.18653/v1/2025.alp-1.17
 url: "https://aclanthology.org/2025.alp-1.17/"
 external_pdf: "https://arxiv.org/pdf/2503.17810.pdf"
 publication: ACL Anthology (ALP 2025 Workshop) / arXiv
+CONF-CC: "Workshop (2025)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

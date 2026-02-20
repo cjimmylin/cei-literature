@@ -21,6 +21,7 @@ authors: Saha
 url: "https://hate-alert.github.io/publication/saha2021hate/"
 external_pdf: "https://arxiv.org/pdf/2102.10084v1.pdf"
 publication: "WebSearch: DravidianLangTech shared task"
+CONF-CC: "Shared Task (2021)"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md"
 local_pdf: "[[PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 DATE_ADDED: 20260213

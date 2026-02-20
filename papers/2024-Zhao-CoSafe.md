@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Zhao-CoSafe.pdf]]"
 LLM_assessed: "Alpaca, Llama-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/ErxinYu/CoSafe-Dataset"
 publication: "EMNLP 2024"
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

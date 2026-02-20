@@ -33,6 +33,7 @@ key_contribution: "Argues for 'pro-social rule breaking' as a benchmark for ethi
 significance: "Proposes that true ethical behavior in AI requires the capability to recognize when moral goals outweigh rigid rule-based constraints, offering a more sophisticated metric for alignment."
 tags: 
 abstract: "The current mainstream approaches to ethical intelligence in modern socio-technical systems have weaknesses. This paper argues that implementing and validating prosocial rule breaking behaviour can be used as a mechanism to overcome these weaknesses and introduce a sample scenario that can be used to validate this behaviour. Keywords Machine ethics · Pro-social rule breaking · Socio-technical systems 1 Current Approaches to Ethical Agents Incidents resulting in unethical outcomes from..."
+CONF-CC: "Digital Society"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

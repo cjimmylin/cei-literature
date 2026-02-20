@@ -24,6 +24,7 @@ authors_incomplete: true
 url: "https://turcomat.org/index.php/turkbilmat/article/view/8393"
 external_pdf: "https://turcomat.org/index.php/turkbilmat/article/download/8393/6569"
 publication: "Turkish Journal of Computer and Mathematics Education"
+CONF-CC: "Turkish Journal of Computer and Mathematics Education"
 pdf_extract: "PDF Extracts/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md"
 local_pdf: "[[PDFs/2021/2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.pdf]]"
 DATE_ADDED: 20260213

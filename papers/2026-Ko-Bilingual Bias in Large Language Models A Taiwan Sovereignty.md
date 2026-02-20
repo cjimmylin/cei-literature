@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2602.06371
 url: "https://arxiv.org/abs/2602.06371"
 external_pdf: "https://arxiv.org/pdf/2602.06371.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2026/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.md"
 DATE_ADDED: 20260215

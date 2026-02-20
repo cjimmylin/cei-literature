@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2407.07080.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.md"
 local_pdf: "[[PDFs/2024/2024-Koppel-Adapting LLMs to Hebrew Unveiling DictaLM.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew, Israeli"

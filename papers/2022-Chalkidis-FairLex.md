@@ -33,6 +33,7 @@ tags:
 pdf_extract: "PDF Extracts/2022/2022-Chalkidis-FairLex.md"
 local_pdf: "[[PDFs/2022/2022-Chalkidis-FairLex.pdf]]"
 abstract: "We present a benchmark suite of four datasets for evaluating the fairness of pre-trained language models and the techniques used to ﬁne-tune them for downstream tasks. Our benchmarks cover four jurisdictions (European Council, USA, Switzerland, and China), ﬁve languages (English, German, French, Italian and Chinese) and fairness across ﬁve attributes (gender, age, region, language, and legal area). In our experiments, we evaluate pretrained language models using several grouprobust ﬁne-tuning..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, elmo"
 DATA_URL: "https://github.com/coastalcph/fairlex"

@@ -20,6 +20,7 @@ authors: "Ravi Shekhar, Marko Pranjic, Senja Pollak, Andraz Pelicon, Matthew Pur
 url: "https://jlcl.org/article/view/224"
 external_pdf: "https://jlcl.org/article/download/224/222"
 publication: JLCL
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.md"
 local_pdf: "[[PDFs/2020/2020-Shekhar-Automating News Comment Moderation with Limited Resources.pdf]]"
 DATE_ADDED: 20260213

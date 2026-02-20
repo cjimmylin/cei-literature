@@ -22,6 +22,7 @@ doi: 10.1057/s41599-020-00614-8
 url: "https://www.nature.com/articles/s41599-020-00614-8"
 external_pdf: "https://www.nature.com/articles/s41599-020-00614-8.pdf"
 publication: "Humanities and Social Sciences Communications"
+CONF-CC: "Humanities and Social Sciences Communications"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -20,6 +20,7 @@ authors: "Ejiro Onose"
 url: "https://arxiv.org/html/2602.02182"
 external_pdf: "https://arxiv.org/pdf/2602.02182.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.md"
 local_pdf: "[[PDFs/2026/2026-Onose-Evaluating Metalinguistic Knowledge in Large Language Models across.pdf]]"
 DATE_ADDED: 20260213

@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2410.18417
 url: "http://arxiv.org/abs/2410.18417"
 external_pdf: "http://arxiv.org/pdf/2410.18417.pdf"
 publication: "npj Artificial Intelligence"
+CONF-CC: "npj AI"
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "Multilingual"

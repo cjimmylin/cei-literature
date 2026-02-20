@@ -21,6 +21,7 @@ authors: Andrea W Wen-Yi, Unso Eun Seo Jo, Lu Jia Lin, David Mimno
 url: "https://arxiv.org/abs/2407.09652"
 external_pdf: "https://arxiv.org/pdf/2407.09652.pdf"
 publication: arXiv (withdrawn)
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

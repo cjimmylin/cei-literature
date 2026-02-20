@@ -22,6 +22,7 @@ doi: 10.3233/FAIA220614
 url: "https://ebooks.iospress.nl/doi/10.3233/FAIA220614"
 external_pdf: N/A
 publication: "Social Robots in Social Institutions (IOS Press)"
+CONF-CC: "Frontiers in artificial intelligence and applications"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

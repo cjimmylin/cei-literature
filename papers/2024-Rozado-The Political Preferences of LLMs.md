@@ -24,6 +24,7 @@ external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal
 pdf_extract: "PDF Extracts/2024/2024-Rozado-The Political Preferences of LLMs.md"
 local_pdf: "[[PDFs/2024/2024-Rozado-The Political Preferences of LLMs.pdf]]"
 publication: Unknown
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

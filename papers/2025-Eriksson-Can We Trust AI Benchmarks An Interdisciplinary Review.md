@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2502.06559.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md"
 local_pdf: "[[PDFs/2025/2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

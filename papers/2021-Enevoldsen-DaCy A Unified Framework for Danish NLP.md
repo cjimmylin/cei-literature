@@ -19,6 +19,7 @@ authors: "Kenneth C. Enevoldsen, Lasse Hansen, Kristoffer Nielbo"
 url: "https://arxiv.org/abs/2107.05295"
 external_pdf: "https://arxiv.org/pdf/2107.05295.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md"
 local_pdf: "[[PDFs/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.pdf]]"
 DATE_ADDED: 20260213

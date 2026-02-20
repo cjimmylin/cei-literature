@@ -22,6 +22,7 @@ doi: 10.1145/3700438
 url: "https://dl.acm.org/doi/10.1145/3700438"
 external_pdf: "https://doras.dcu.ie/30830/1/Gender-Bias-in-Natural-Language-Processing-and-Computer-Vision-A-Comparative-SurveyACM-Computing-Surveys.pdf"
 publication: ACM
+CONF-CC: "ACM Computing Surveys"
 pdf_extract: "PDF Extracts/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md"
 local_pdf: "[[PDFs/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.pdf]]"
 DATE_ADDED: 20260213

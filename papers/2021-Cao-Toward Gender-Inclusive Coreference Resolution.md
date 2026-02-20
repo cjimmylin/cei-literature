@@ -35,6 +35,7 @@ tags:
 abstract: "Correctly resolving textual mentions of people fundamentally entails making inferences about those people. Such inferences raise the risk of systemic biases in coreference resolution systems, including biases that can harm binary and non-binary trans and cis stakeholders. To better understand such biases, we foreground nuanced conceptualizations of gender from sociology and sociolinguistics, and develop two new datasets for interrogating bias in crowd annotations and in existing coreference..."
 pdf_extract: "PDF Extracts/2021/2021-Cao-Toward Gender-Inclusive Coreference Resolution.md"
 local_pdf: "[[PDFs/2021/2021-Cao-Toward Gender-Inclusive Coreference Resolution.pdf]]"
+CONF-CC: "Computational Linguistics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/TristaCao/into_inclusivecoref"

@@ -21,6 +21,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.thegreenreport.blog/articles/three-red-flags-that-your-llm-testing-strategy-is-too-shallow/three-red-flags-that-your-llm-testing-strategy-is-too-shallow.html"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

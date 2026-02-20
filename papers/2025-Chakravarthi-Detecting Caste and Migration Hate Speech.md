@@ -25,6 +25,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-025-09848-x.
 pdf_extract: "PDF Extracts/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.md"
 local_pdf: "[[PDFs/2025/2025-Chakravarthi-Detecting Caste and Migration Hate Speech.pdf]]"
 publication: "WebSearch: Tamil caste migration hate speech"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

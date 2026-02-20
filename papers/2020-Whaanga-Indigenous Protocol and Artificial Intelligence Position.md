@@ -31,6 +31,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.11573/spectrum.library.concordia.ca.00986506"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "The Indigenous Protocol and Artificial Intelligence Working Group / CIFAR"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Māori, Indigenous Australian, Indigenous North American, Indigenous Pacific"

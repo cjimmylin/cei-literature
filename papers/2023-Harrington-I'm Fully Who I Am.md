@@ -34,6 +34,7 @@ abstract: "Warning: This paper contains examples of gender non-affirmative langu
 pdf: "https://arxiv.org/pdf/2305.09941"
 pdf_extract: "PDF Extracts/2023/2023-Harrington-I'm Fully Who I Am.md"
 local_pdf: "[[PDFs/2023/2023-Harrington-I'm Fully Who I Am.pdf]]"
+CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, OPT, ChatGPT"
 DATA_URL: "https://github.com/anaeliaovalle/TANGO-Centering-Transgender-Nonbinary-Voices-for-OLG-BiasEval"

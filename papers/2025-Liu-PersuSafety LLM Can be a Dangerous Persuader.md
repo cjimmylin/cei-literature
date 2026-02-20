@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2504.10430.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Liu-PersuSafety LLM Can be a Dangerous Persuader.md"
 local_pdf: "[[PDFs/2025/2025-Liu-PersuSafety LLM Can be a Dangerous Persuader.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

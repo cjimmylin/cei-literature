@@ -32,6 +32,7 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-VidHalluc.md"
 abstract: "Multimodal large language models (MLLMs) have recently shown significant advancements in video understanding, excelling in content reasoning and instruction-following tasks. However, hallucination, where models generate inaccurate or misleading content, remains underexplored in the video domain. Building on the observation that MLLM visual encoders often fail to distinguish visually different yet semantically similar video pairs, we introduce VIDHALLUC, the largest benchmark designed to examine..."
 paper_summary: "Abstract: Multimodal large language models (MLLMs) have recently shown significant advancements in video understanding, excelling in content reasoning and instruction-following tasks. However, hallucination, wh | Overview: VIDHALLUC: Evaluating Temporal Hallucinations in Multimodal Large Language Models for Video Understanding Chaoyu Li Eun Woo Im Pooyan Fazli Arizona State University {chaoyuli, eunwooim, pooyan}@asu.ed | Methodology: can be applied directly during inference without additional 2 --- Page 3 --- Benchmark # of Ques. / # of Videos Binary QA MCQ Open-Ended Ques. Sorting | Key Findings: metric, calculated in the same manner as in Equation 1."
 local_pdf: "[[PDFs/2025/2025-Liu-VidHalluc.pdf]]"
+CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Gemini"
 DATA_URL: "https://people-robots.github.io/vidhalluc"

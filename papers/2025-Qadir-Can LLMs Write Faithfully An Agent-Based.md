@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2510.24438.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.md"
 local_pdf: "[[PDFs/2025/2025-Qadir-Can LLMs Write Faithfully An Agent-Based.pdf]]"
 publication: "NeurIPS 2025 Workshop on Muslims in Machine Learning / arXiv"
+CONF-CC: "NeurIPS 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Islamic"

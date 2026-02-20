@@ -33,6 +33,7 @@ tags:
 abstract: "The advent of social media has immensely proliferated the amount of opinions and arguments voiced on the internet. These virtual debates often present cases of aggression. While research has been focused largely on analyzing aggression and stance in isolation from each other, this work is the ﬁrst attempt to gain an extensive and ﬁne-grained understanding of patterns of aggression and ﬁgurative language use when voicing opinion."
 pdf_extract: "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md"
 local_pdf: "[[PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

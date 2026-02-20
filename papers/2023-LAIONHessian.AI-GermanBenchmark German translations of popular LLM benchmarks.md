@@ -19,6 +19,7 @@ last_author: "[[Bjorn Pluster (LAIONHessian.AI)]]"
 authors: "Bjorn Pluster (LAION/Hessian.AI)"
 url: "https://github.com/bjoernpl/GermanBenchmark"
 publication: GitHub
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

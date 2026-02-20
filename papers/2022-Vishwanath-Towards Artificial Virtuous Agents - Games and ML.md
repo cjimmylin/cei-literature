@@ -21,6 +21,7 @@ authors: "Ajay Vishwanath; E. Bøhn; Ole-Christoffer Granmo; Charl Maree; C. Oml
 doi: 10.1007/s43681-022-00251-8
 url: "https://link.springer.com/article/10.1007/s43681-022-00251-8"
 publication: "AI and Ethics"
+CONF-CC: "AI and Ethics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

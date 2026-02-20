@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://www.nature.com/articles/s41598-025-22198-6"
 external_pdf: "https://www.nature.com/articles/s41598-025-22198-6.pdf"
 publication: Nature
+CONF-CC: "Nature"
 pdf_extract: "PDF Extracts/2025/2025-approach-A Language model-based approach to sentiment classification of.md"
 local_pdf: "[[PDFs/2025/2025-approach-A Language model-based approach to sentiment classification of.pdf]]"
 DATE_ADDED: 20260213

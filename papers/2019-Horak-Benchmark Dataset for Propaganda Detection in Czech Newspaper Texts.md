@@ -23,6 +23,7 @@ authors: "Ales Horak, Vit Baisa, Ondrej Herman"
 url: "https://aclanthology.org/R19-1010/"
 external_pdf: "https://doi.org/10.26615/978-954-452-056-4_010"
 publication: "ACL Anthology / RANLP 2019"
+CONF-CC: "RANLP 2019"
 pdf_extract: "PDF Extracts/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md"
 local_pdf: "[[PDFs/2019/2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.pdf]]"
 DATE_ADDED: 20260213

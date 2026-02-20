@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2601.06861.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.md"
 local_pdf: "[[PDFs/2026/2026-Guey-BiasLab Multilingual Dual-Framing Framework.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

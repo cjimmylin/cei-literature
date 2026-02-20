@@ -24,6 +24,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.alvr-1.15/"
 external_pdf: "https://aclanthology.org/2024.alvr-1.15.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md"
 local_pdf: "[[PDFs/2024/2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.pdf]]"
 DATE_ADDED: 20260213

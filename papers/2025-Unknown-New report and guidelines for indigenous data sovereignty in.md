@@ -22,6 +22,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.unesco.org/ethics-ai/en/articles/new-report-and-guidelines-indigenous-data-sovereignty-artificial-intelligence-developments"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

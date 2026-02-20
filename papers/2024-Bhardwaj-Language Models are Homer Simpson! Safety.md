@@ -30,6 +30,7 @@ key_contribution: "Proposed RESTA (Restoring Safety through Task Arithmetic), a 
 significance: "Demonstrates an efficient, scalable way to 'fix' safety after it has been compromised by downstream fine-tuning, likening the process to 'Homer Simpson' (clumsy but fixable) and offering a parameter-efficient alternative to full retraining."
 tags: 
 abstract: "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for REstoring Safety through Task Arithmetic. At its core, it involves a simple arithmetic addition of a safety vector to the weights of the compromised model. We demonstrate the effectiveness of RESTA in both parameter-efficient and full fine-tuning, covering a wide range of downstream..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: Llama-2
 DATA_URL: "https://github.com/declare-lab/resta"

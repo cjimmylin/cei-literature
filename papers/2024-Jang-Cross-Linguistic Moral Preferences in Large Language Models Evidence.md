@@ -23,6 +23,7 @@ authors_incomplete: false
 doi: 10.3390/electronics14244919
 url: "https://www.mdpi.com/2079-9292/14/24/4919"
 publication: "MDPI Electronics"
+CONF-CC: "Electronics"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

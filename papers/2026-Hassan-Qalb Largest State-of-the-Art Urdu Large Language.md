@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2601.08141.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language.md"
 local_pdf: "[[PDFs/2026/2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Urdu, Pakistani"

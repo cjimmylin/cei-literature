@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2601.10410.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md"
 local_pdf: "[[PDFs/2026/2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Romanian"

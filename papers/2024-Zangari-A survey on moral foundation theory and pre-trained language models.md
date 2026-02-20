@@ -22,6 +22,7 @@ doi: 10.1007/s00146-025-02225-w
 url: "https://link.springer.com/article/10.1007/s00146-025-02225-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-025-02225-w.pdf"
 publication: Springer
+CONF-CC: "AI & Society"
 pdf_extract: "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md"
 local_pdf: "[[PDFs/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf]]"
 DATE_ADDED: 20260213

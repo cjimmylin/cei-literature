@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2403.17553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Grigoreva-RuBia A Russian Language Bias Detection Dataset.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

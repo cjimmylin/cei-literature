@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2308.09662.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.md"
 local_pdf: "[[PDFs/2023/2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Vietnamese"
 cultures_nationalities_list: "N/A"

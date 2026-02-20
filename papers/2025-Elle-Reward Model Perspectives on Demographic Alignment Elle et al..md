@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2510.06391.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md"
 local_pdf: "[[PDFs/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"

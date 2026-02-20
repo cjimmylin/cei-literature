@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Wei-MedEthicsQA.pdf]]"
 LLM_assessed: "GPT-4o, Llama-3, Llama-2, Qwen"
 DATA_URL: "https://github.com/JianhuiWei7/MedEthicsQA"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

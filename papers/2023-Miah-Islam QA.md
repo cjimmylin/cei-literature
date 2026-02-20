@@ -30,6 +30,7 @@ moral_psychology: "N/A"
 newtags: Islam
 tags: 
 abstract: "This work introduces a comprehensive dataset of over 73,000 question-answer pairs for Quranic Tafsir and Ahadith domains. The dataset is meticulously enriched with contextual information to train and evaluate specialized Question-Answering systems for Islamic texts. Human evaluation revealed significant limitations in automatic metrics like ROUGE scores, with model consistency with expert scholars ranging from 11-20%, while contextual understanding spanned 50-90%. The findings highlight the need for evaluation techniques that better capture the nuances of religious text understanding."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://www.kaggle.com/datasets/abdullahalmamunn/islam-qa-dataset"

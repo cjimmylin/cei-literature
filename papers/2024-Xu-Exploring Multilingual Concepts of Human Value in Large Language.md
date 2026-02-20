@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2402.18120.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md"
 local_pdf: "[[PDFs/2024/2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.pdf]]"
 publication: "Findings of EMNLP 2024"
+CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Spanish, Russian, Brazilian"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Spanish, Russian, Brazilian"

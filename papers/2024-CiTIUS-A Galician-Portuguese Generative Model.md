@@ -22,6 +22,7 @@ authors: "CiTIUS, Universidade de Santiago de Compostela"
 doi: 10.1007/978-3-031-73503-5_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-73503-5_24"
 publication: "Springer (EPIA 2024)"
+CONF-CC: "EPIA 2024"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

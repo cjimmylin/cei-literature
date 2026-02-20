@@ -21,6 +21,7 @@ authors: "Leonardelli, Elisa; Casula, Camilla; Vecellio Salto, Sebastiano; Bak, 
 url: "https://aclanthology.org/2025.clicit-1.56.pdf"
 external_pdf: "https://ceur-ws.org/Vol-4112/55_main_long.pdf"
 publication: "ACL Anthology (CLiC-it 2025)"
+CONF-CC: "N/A"
 pdf_extract: PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md
 local_pdf: "[[PDFs/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 DATE_ADDED: 20260213

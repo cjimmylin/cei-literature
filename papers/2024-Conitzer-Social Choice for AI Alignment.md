@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2024/2024-Conitzer-Social Choice for AI Alignment.md"
 abstract: "A model potential previously developed for the ammonia molecule is treated in a single-center partial-wave approximation in analogy with a self-consistent field method developed by Moccia. The latter was used in a number of collision studies. The model potential is used to calculate dc Stark resonance parameters, i.e., resonance positions and shifts within a single-center partial wave expansion, using the exterior complex scaling method for the radial coordinate."
 paper_summary: "Abstract: A model potential previously developed for the ammonia molecule is treated in a single-center partial-wave approximation in analogy with a self-consistent field method developed by Moccia. The latter  | Overview: Calculation of DC Stark Resonances for the Ammonia Molecule Patrik Pirkola∗and Marko Horbatsch† Department of Physics and Astronomy, York University, Toronto, Ontario M3J 1P3, Canada (Dated: April 17,"
 local_pdf: "[[PDFs/2024/2024-Conitzer-Social Choice for AI Alignment.pdf]]"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

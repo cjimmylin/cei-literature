@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2110.08193.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.md"
 local_pdf: "[[PDFs/2022/2022-Parrish-BBQ Bias Benchmark for Question Answering.pdf]]"
 publication: "ACL 2022"
+CONF-CC: "ACL 2022"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"

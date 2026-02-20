@@ -31,6 +31,7 @@ newtags: "Arabic, Islam"
 tags: 
 abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. In this paper, we present fatwaset, the ﬁrst public Arabic dataset of Islamic fatwas. It contains Islamic fatwas that we collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites."
 pdf: "https://www.mdpi.com/2306-5729/8/10/155/pdf?version=1697687515"
+CONF-CC: "Data"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/ohoud/Fatwaset.git"

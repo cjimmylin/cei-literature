@@ -20,6 +20,7 @@ authors: "Rui Sun"
 url: "https://www.micjournal.org/article_206500_a5b4e89e67fae3aef1d4eeb3301d6723.pdf"
 external_pdf: "https://www.micjournal.org/article_206500_a5b4e89e67fae3aef1d4eeb3301d6723.pdf"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Sun-Evaluating ChatGPT's Performance in Creative Text ....md"
 local_pdf: "[[PDFs/2025/2025-Sun-Evaluating ChatGPT's Performance in Creative Text ....pdf]]"
 DATE_ADDED: 20260213

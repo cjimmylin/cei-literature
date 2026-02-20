@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://arxiv.org/pdf/2507.21536"
 external_pdf: "https://arxiv.org/pdf/2507.21536.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.md"
 local_pdf: "[[PDFs/2025/2025-Zuo-MUDT A Dependency Annotation Framework for Low-Resource Uyghur.pdf]]"
 DATE_ADDED: 20260213

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2307.04657.pdf"
 pdf_extract: "PDF Extracts/0000/2023-Ji-BeaverTails.md"
 local_pdf: "[[PDFs/2023/2023-Ji-BeaverTails.pdf]]"
 publication: "NeurIPS 2023"
+CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

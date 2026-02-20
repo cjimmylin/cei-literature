@@ -30,6 +30,7 @@ key_contribution: "Introduced NaVAB, a benchmark for multi-national value alignm
 significance: "Moves beyond 'Western vs non-Western' to fine-grained national distinctions (e.g., French vs German values), providing a scalable pipeline for national value alignment."
 tags: 
 abstract: "Do Large Language Models (LLMs) hold positions that conflict with your country’s values? Occasionally they do! However, existing works primarily focus on ethical reviews, failing to capture the diversity of national values, which encompass broader policy, legal, and moral considerations. Furthermore, current benchmarks that rely on spectrum tests using manually designed questionnaires are not easily scalable."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen, Mixtral, DeepSeek, GPT-4, Claude"
 DATA_URL: "https://huggingface.co/datasets/JadenGGGeee/NaVAB"

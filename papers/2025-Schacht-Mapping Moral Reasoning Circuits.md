@@ -22,6 +22,7 @@ authors: "Sigurd Schacht; Carsten Lanquillon"
 doi: 10.1007/978-3-031-93415-5_6
 url: "https://link.springer.com/chapter/10.1007/978-3-031-93415-5_6"
 publication: "HCII 2025 - Artificial Intelligence in HCI"
+CONF-CC: "HCII 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

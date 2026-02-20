@@ -31,6 +31,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "http://xplorestaging.ieee.org/ielx7/8643018/8645960/08646190.pdf?arnumber=864619"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "GitHub / Web API"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

@@ -22,6 +22,7 @@ doi: N/A
 url: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 publication: "CEUR Workshop Proceedings"
+CONF-CC: "Workshop (2025)"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

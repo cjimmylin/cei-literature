@@ -22,6 +22,7 @@ authors: "Jim, Jamin Rahman; Talukder, Md Apon Riaz; Malakar, Partha; Kabir, Md.
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2949719124000074"
 publication: ScienceDirect
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

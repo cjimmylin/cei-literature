@@ -20,6 +20,7 @@ authors: Stephanie Russo Carroll, Edit Herczog, Maui Hudson, Keith Russell, Shel
 doi: 10.1038/s41597-021-00892-0
 url: "https://www.nature.com/articles/s41597-021-00892-0"
 publication: Nature Scientific Data
+CONF-CC: "Nature Scientific Data"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

@@ -34,6 +34,7 @@ key_contribution: "Created the MFTC, a large corpus of 35k tweets annotated for 
 significance: "The gold-standard dataset for studying 'moral sentiment' in natural language social media analysis, enabling researchers to track how moral values drive online polarization and diffusion."
 tags: 
 abstract: "Research has shown that accounting for moral sentiment in natural language can yield insight into a variety of on- and off-line phenomena, such as message diffusion, protest dynamics, and social distancing. However, measuring moral sentiment in natural language is challenging and the difficulty of this task is exacerbated by the limited availability of annotated data. To address this issue, we introduce the Moral Foundations Twitter Corpus, a collection of 35,108 tweets that have been curated..."
+CONF-CC: "Social Psychological and Personality Science"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://osf.io/ezn37/"

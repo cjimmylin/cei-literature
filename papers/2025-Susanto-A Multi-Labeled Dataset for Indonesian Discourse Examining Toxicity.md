@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2503.00417.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md"
 local_pdf: "[[PDFs/2025/2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.pdf]]"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

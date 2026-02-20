@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2407.12878.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rozen-Do LLMs Have Consistent Values.md"
 local_pdf: "[[PDFs/2025/2025-Rozen-Do LLMs Have Consistent Values.pdf]]"
 publication: "ICLR 2025"
+CONF-CC: "ICLR 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

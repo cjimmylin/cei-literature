@@ -32,6 +32,7 @@ abstract: "As the broad scale adoption of Artificial Intelligence (AI) and deep 
 external_pdf: "https://journal.iscast.org/wp-content/uploads/2025/07/CPOSAT-Vol3-SpecialEdition.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rusnak-EudAImonia.md"
 local_pdf: "[[PDFs/2025/2025-Rusnak-EudAImonia.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Barton, ChatGPT, Gemini"
 DATA_URL: "https://huggingface.co/blog/rlhf"

@@ -21,6 +21,7 @@ last_author: "[[Lj Miranda]]"
 authors: "Lj Miranda"
 url: "https://ljvmiranda921.github.io/notebook/2024/12/17/filipino-llm/"
 publication: "Blog / Technical Report"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

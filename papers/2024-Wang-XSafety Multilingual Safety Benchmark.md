@@ -21,6 +21,7 @@ authors: "[[Wang, Wenxuan]]; [[Tu, Zhaopeng]]; [[Chen, Chang]]; [[Yuan, Youliang
 authors_incomplete: false
 url: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"
 publication: GitHub
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

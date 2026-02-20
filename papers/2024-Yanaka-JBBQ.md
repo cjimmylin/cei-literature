@@ -36,6 +36,7 @@ local_pdf: "[[PDFs/2024/2024-Yanaka-JBBQ.pdf]]"
 LLM_assessed: "GPT-4, Llama-2, Llama-3"
 DATA_URL: "https://github.com/ynklab/JBBQ_data"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

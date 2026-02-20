@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2507.00999.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish.md"
 local_pdf: "[[PDFs/2025/2025-Vallego-La Leaderboard A Large Language Model Leaderboard for Spanish.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Spanish, Latin American"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2509.25369.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md"
 local_pdf: "[[PDFs/2025/2025-Liu-ConflictScope Generative Value Conflicts Reveal LLM Priorities.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

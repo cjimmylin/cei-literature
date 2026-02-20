@@ -25,6 +25,7 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31717/33884"
 pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md"
 local_pdf: "[[PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 publication: Unknown
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

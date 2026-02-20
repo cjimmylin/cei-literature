@@ -22,6 +22,7 @@ authors_incomplete: true
 url: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6626"
 external_pdf: "https://core.ac.uk/download/655275054.pdf"
 publication: "IberLEF / SEPLN 2024"
+CONF-CC: "IberLEF 2024"
 pdf_extract: "PDF Extracts/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.md"
 local_pdf: "[[PDFs/2024/2024-Gómez-Adorno-Overview of HOMO-MEX at IberLEF 2024 Hate Speech Detection Towards.pdf]]"
 DATE_ADDED: 20260213

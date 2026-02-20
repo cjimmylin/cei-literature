@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2025/2025-Lee-When Prompting Fails to Sway.md"
 abstract: "Large Language Models (LLMs) exhibit nondeterministic behavior, and prompting has emerged as a primary method for steering their outputs toward desired directions. One popular strategy involves assigning a specific ‘persona’ to the model to induce more varied and context-sensitive responses, akin to the diversity found in human perspectives. However, contrary to the expectation that persona-based prompting would yield a wide range of opinions, our experiments demonstrate that LLMs maintain..."
 paper_summary: "Abstract: Large Language Models (LLMs) exhibit non- deterministic behavior, and prompting has emerged as a primary method for steering their outputs toward desired directions. One popu- lar strategy involves as | Overview: When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models Bruce W. Lee1 Yeongheon Lee1 Hyunsoo Cho2 1University of Pennsylvania 2Ewha Womans University brucelws@seas. | Conclusions: We introduce a novel method called role-play-at- scale and verify the persistence of moral biases in LLMs. Our research raises questions about the fea"
 local_pdf: "[[PDFs/2025/2025-Lee-When Prompting Fails to Sway.pdf]]"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4, GPT-3.5, Llama-3"
 DATA_URL: "NA"

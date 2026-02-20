@@ -19,6 +19,7 @@ authors: "Various (LTG Oslo)"
 url: "https://arxiv.org/abs/2305.03880"
 external_pdf: "https://arxiv.org/pdf/2305.03880.pdf"
 publication: "arXiv / NoDaLiDa 2023"
+CONF-CC: "NoDaLiDa 2023"
 pdf_extract: "PDF Extracts/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md"
 local_pdf: "[[PDFs/2023/2023-Oslo-NorBench A Benchmark for Norwegian Language Models.pdf]]"
 DATE_ADDED: 20260213

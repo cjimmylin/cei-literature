@@ -20,6 +20,7 @@ last_author: "[[Shaaban Sahmoud]]"
 authors: Kevser Büşra Zümberoğlu; Sümeyye Zülal Dik; Büşra Sinem Karadeniz; Shaaban Sahmoud
 url: "https://www.mdpi.com/2076-3417/15/4/2062"
 publication: MDPI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

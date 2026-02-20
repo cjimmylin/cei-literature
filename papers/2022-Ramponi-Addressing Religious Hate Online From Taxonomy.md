@@ -28,6 +28,7 @@ external_pdf: "https://cris.fbk.eu/bitstream/11582/335767/1/peerj-cs-1128.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.md"
 local_pdf: "[[PDFs/2022/2022-Ramponi-Addressing Religious Hate Online From Taxonomy.pdf]]"
 publication: "PeerJ Computer Science"
+CONF-CC: "PeerJ Computer Science"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

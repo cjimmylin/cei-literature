@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2409.09586.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.pdf]]"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

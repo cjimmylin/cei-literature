@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.coling-main.318/"
 external_pdf: "https://aclanthology.org/2025.coling-main.318.pdf"
 publication: "ACL Anthology (COLING 2025)"
+CONF-CC: "COLING 2025"
 pdf_extract: "PDF Extracts/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md"
 local_pdf: "[[PDFs/2025/2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.pdf]]"
 DATE_ADDED: 20260213

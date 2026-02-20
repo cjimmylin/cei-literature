@@ -33,6 +33,7 @@ abstract: "Moral sentiments expressed in natural language significantly influenc
 pdf: "http://arxiv.org/pdf/2411.09612"
 pdf_extract: "PDF Extracts/2024/2024-Cao-The Moral Foundations Weibo Corpus.md"
 local_pdf: "[[PDFs/2024/2024-Cao-The Moral Foundations Weibo Corpus.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Qwen"
 DATA_URL: "NA"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2305.13989.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md"
 local_pdf: "[[PDFs/2023/2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.pdf]]"
 publication: "WebSearch: MasakhaPOS African languages part-of-speech benchmark"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

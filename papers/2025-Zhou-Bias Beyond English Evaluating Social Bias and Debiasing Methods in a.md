@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2504.11183.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.md"
 local_pdf: "[[PDFs/2025/2025-Zhou-Bias Beyond English Evaluating Social Bias and Debiasing Methods in a.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Indonesian, Thai, Russian"
 cultures_nationalities_list: "Chinese, Indonesian, Thai, Russian"

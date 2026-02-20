@@ -21,6 +21,7 @@ last_author: "[[Bojan Radišić]]"
 authors: Kristian Đokić; Barbara Pisker; Bojan Radišić
 url: "https://www.mdpi.com/2075-4698/15/5/142"
 publication: MDPI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

@@ -20,6 +20,7 @@ authors_incomplete: true
 url: "https://arxiv.org/abs/2508.11281"
 external_pdf: "https://arxiv.org/pdf/2508.11281.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md"
 local_pdf: "[[PDFs/2025/2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.pdf]]"
 DATE_ADDED: 20260213

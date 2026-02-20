@@ -22,6 +22,7 @@ authors: Kajiwara
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9807815/"
 external_pdf: "http://arxiv.org/abs/2212.12799"
 publication: PubMed
+CONF-CC: "NAACL 2022"
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.md"
 local_pdf: "[[PDFs/2024/2024-Kajiwara-A curated dataset for hate speech detection on social media text - PMC.pdf]]"
 pdf_access_status: manual_only

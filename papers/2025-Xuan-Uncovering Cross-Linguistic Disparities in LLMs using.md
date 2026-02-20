@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2507.18918.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md"
 local_pdf: "[[PDFs/2025/2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.pdf]]"
 publication: "WebSearch: cross-linguistic disparities LLM Malayalam"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese, Russian, Spanish, Italian, Indonesian, Catalan, Marathi, Malayalam, Hindi"

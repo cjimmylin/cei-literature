@@ -20,6 +20,7 @@ last_author: "[[Agrawal, Aishwarya]]"
 authors: Shravan Nayak; Kanishk Jain; Rabiul Awal; Siva Reddy; Sjoerd van Steenkiste; Lisa Anne Hendricks; Karolina Stanczak; Aishwarya Agrawal
 url: "https://huggingface.co/datasets/mair-lab/CulturalVQA"
 publication: HuggingFace
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

@@ -24,6 +24,7 @@ external_pdf: "https://aclanthology.org/2024.findings-emnlp.928.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bajaj-GenMO Gender-bias in Morality Opinions.md"
 local_pdf: "[[PDFs/2024/2024-Bajaj-GenMO Gender-bias in Morality Opinions.pdf]]"
 publication: "EMNLP 2024"
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

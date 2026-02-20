@@ -36,6 +36,7 @@ local_pdf: "[[PDFs/2025/2025-Farid-One Model, Many Morals.pdf]]"
 LLM_assessed: "Qwen, Llama-3, Llama-3, Mistral, DeepSeek, Phi"
 DATA_URL: "https://github.com/sualehafarid/moral-project"
 publication: "ICLR 2026"
+CONF-CC: "ICLR 2026"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

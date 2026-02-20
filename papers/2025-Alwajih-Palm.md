@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2503.00151
 url: "http://arxiv.org/abs/2503.00151"
 external_pdf: "http://arxiv.org/pdf/2503.00151.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2025"
 national_ethnic_cultural: "Arabic, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic"
 languages_list: "Arabic"

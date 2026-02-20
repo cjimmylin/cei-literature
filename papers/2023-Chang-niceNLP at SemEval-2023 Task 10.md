@@ -33,6 +33,7 @@ abstract: "Sexism is a growing online problem. It harms women who are targeted a
 pdf: "https://aclanthology.org/2023.semeval-1.41.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.md"
 local_pdf: "[[PDFs/2023/2023-Chang-niceNLP at SemEval-2023 Task 10.pdf]]"
+CONF-CC: "SemEval 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "DeBERTa, RoBERTa, BERT"
 DATA_URL: "NA"

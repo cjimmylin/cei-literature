@@ -24,6 +24,7 @@ external_pdf: "https://ieeexplore.ieee.org/ielx7/5971803/9645434/09645441.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pretrained Models and Evaluation Data for.md"
 local_pdf: "[[PDFs/2021/2021-Jiang-Pretrained Models and Evaluation Data for.pdf]]"
 publication: "IEEE Xplore / Tsinghua Science and Technology"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

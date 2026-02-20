@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2510.20386.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.md"
 local_pdf: "[[PDFs/2025/2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli, Hebrew"

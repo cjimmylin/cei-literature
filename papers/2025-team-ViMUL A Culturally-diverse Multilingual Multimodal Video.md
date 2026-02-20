@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2506.07032.pdf"
 pdf_extract: "PDF Extracts/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.md"
 local_pdf: "[[PDFs/2025/2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.pdf]]"
 publication: "EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Indian, Arabic, French, German, Spanish, Russian"

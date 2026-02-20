@@ -21,6 +21,7 @@ authors: Vishal Rana
 doi: 10.1177/00076503241271143
 url: "https://journals.sagepub.com/doi/full/10.1177/00076503241271143"
 publication: Business and Society (SAGE)
+CONF-CC: "Business & Society"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

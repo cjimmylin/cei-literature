@@ -21,6 +21,7 @@ authors: "Marina Litvak, Natalia Vanetik, Chaya Liebeskind, Oren Hmdia, Eran Mad
 url: "https://aclanthology.org/2022.lrec-1.396/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.396.pdf"
 publication: "ACL Anthology (LREC 2022)"
+CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.md"
 local_pdf: "[[PDFs/2022/2022-Litvak-Offensive language detection in Hebrew can other languages help.pdf]]"
 DATE_ADDED: 20260213

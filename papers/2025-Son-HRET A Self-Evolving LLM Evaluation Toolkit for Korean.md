@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2503.22968.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.md"
 local_pdf: "[[PDFs/2025/2025-Son-HRET A Self-Evolving LLM Evaluation Toolkit for Korean.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

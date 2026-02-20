@@ -20,6 +20,7 @@ authors: Andrea W Wen-Yi, Unso Eun Seo Jo, David Mimno
 url: "https://arxiv.org/abs/2504.00289"
 external_pdf: "https://arxiv.org/pdf/2504.00289.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Wen-Yi-Do Chinese models speak Chinese languages.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Wen-Yi-Do Chinese models speak Chinese languages.md"
 DATE_ADDED: 20260215

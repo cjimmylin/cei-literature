@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2502.07459
 url: "https://arxiv.org/abs/2502.07459"
 external_pdf: "https://arxiv.org/pdf/2502.07459.pdf"
 publication: arXiv / NAACL 2025
+CONF-CC: "NAACL 2025"
 local_pdf: "[[PDFs/2025/2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian.md"
 DATE_ADDED: 20260215

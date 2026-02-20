@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2024/2024-Zhang-ValueDCG.md"
 abstract: "Personal values are a crucial factor behind human decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure they accurately understand human values to ensure their safety. However, evaluating their grasp of these values is complex due to the value’s intricate and adaptable nature. We argue that truly understanding values in LLMs requires considering both “know what” and “know why”."
 paper_summary: "Abstract: Personal values are a crucial factor behind hu- man decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure | Overview: ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models Zhaowei Zhang1,2, Fengshuo Bai1,2*, Jun Gao3, Yaodong Yang1, 1Institute for Artificial Intelligence, Peking Unive | Methodology: Our method proposes a measurement ValueDCG with an engineering implementation framework that can effectively quantify the DCG (Saunders et al., 2022)  | Key Findings: framework quantifies both 'know what' and 'know why' and computes ValueDCG based on their dis- crepancy. For the input requirements, we input the data"
 local_pdf: "[[PDFs/2024/2024-Zhang-ValueDCG.pdf]]"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Llama-3"
 DATA_URL: "https://github.com/zowiezhang/ValueDCG"

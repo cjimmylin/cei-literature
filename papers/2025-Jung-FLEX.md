@@ -30,6 +30,7 @@ key_contribution: "Introduced FLEX, a fairness benchmark designed to test LLM ro
 significance: "Demonstrates that existing benchmarks underestimate fairness risks because they don't account for adversarial conditions where prompts actively try to trigger discriminatory outputs."
 tags: 
 abstract: "Recent advancements in Large Language Models (LLMs) have significantly enhanced interactions between users and models. These advancements concurrently underscore the need for rigorous safety evaluations due to the manifestation of social biases, which can lead to harmful societal impacts. Despite these concerns, existing benchmarks may overlook the intrinsic weaknesses of LLMs, which can generate biased responses even with simple adversarial instructions."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Llama-3, Mistral, Gemma, GPT-4, GPT-3.5"
 DATA_URL: "https://github.com/ekgus9/FLEX"

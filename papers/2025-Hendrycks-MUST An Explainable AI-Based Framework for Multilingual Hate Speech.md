@@ -21,6 +21,7 @@ last_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"
 url: "https://ieeexplore.ieee.org/document/11230346/"
 publication: IEEE
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

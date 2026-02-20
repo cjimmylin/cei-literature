@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2601.07020.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md"
 local_pdf: "[[PDFs/2026/2026-Darici-TurkBench A Benchmark for Evaluating Turkish.pdf]]"
 publication: arxiv.org
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"

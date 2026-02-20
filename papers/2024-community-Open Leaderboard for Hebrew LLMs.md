@@ -21,6 +21,7 @@ last_author: "[[Hugging Face Hebrew NLP community]]"
 authors: "Hugging Face / Hebrew NLP community"
 url: "https://huggingface.co/blog/leaderboard-hebrew"
 publication: HuggingFace
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

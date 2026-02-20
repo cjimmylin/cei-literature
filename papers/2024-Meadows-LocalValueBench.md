@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2408.01460
 url: "http://arxiv.org/abs/2408.01460"
 external_pdf: "http://arxiv.org/pdf/2408.01460.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Australian/Aboriginal"
 cultures_nationalities_list: "Australian"
 languages_list: "English"

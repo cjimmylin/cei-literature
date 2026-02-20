@@ -34,6 +34,7 @@ abstract: "Current benchmarks for Hebrew Natural Language Processing (NLP) focus
 LLM_assessed: BERT
 DATA_URL: "https://github.com/NNLP-IL/Hebrew-Question-Answering-Dataset"
 publication: ACL Anthology (EMNLP 2023 Findings)
+CONF-CC: "EMNLP 2023 Findings"
 DATE_ADDED: 20260213
 ethics_overall: "No"
 virtue_ethics: "No"

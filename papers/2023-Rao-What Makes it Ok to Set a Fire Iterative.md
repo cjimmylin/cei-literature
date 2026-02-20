@@ -31,6 +31,7 @@ key_contribution: "Introduced 'defeasible moral reasoning' – a task and datase
 significance: "Moves beyond binary moral judgments to context-sensitive reasoning, handling the 'defeasibility' (exceptions) inherent in real-world ethics."
 tags: 
 abstract: "Moral or ethical judgments rely heavily on the specific contexts in which they occur. Understanding varying shades of defeasible contextualizations (i.e., additional information that strengthens or attenuates the moral acceptability of an action) is critical to accurately represent the subtlety and intricacy of grounded human moral judgment in real-life scenarios. We introduce defeasible moral reasoning: a task to provide grounded contexts that make an action more or less morally acceptable,..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, Flan-T5"
 DATA_URL: "https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb"

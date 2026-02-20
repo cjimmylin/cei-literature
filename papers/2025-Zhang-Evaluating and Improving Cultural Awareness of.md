@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2509.21798.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.md"
 local_pdf: "[[PDFs/2025/2025-Zhang-Evaluating and Improving Cultural Awareness of.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2509.21946.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sermsri-Debiasing Large Language Models in Thai.md"
 local_pdf: "[[PDFs/2025/2025-Sermsri-Debiasing Large Language Models in Thai.pdf]]"
 publication: "ACL Anthology (WiNLP 2025)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

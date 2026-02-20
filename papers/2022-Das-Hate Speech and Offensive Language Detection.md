@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2210.03479v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Das-Hate Speech and Offensive Language Detection.md"
 local_pdf: "[[PDFs/2022/2022-Das-Hate Speech and Offensive Language Detection.pdf]]"
 publication: "WebSearch: hate speech detection Dravidian languages"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

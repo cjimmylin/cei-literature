@@ -31,6 +31,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.1016/j.dib.2022.108540"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: ResearchGate
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"

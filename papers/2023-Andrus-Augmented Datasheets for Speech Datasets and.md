@@ -33,6 +33,7 @@ key_contribution: "Proposed 'augmented datasheets' for speech datasets including
 significance: "Adapts the general 'datasheets for datasets' framework to the specific high-stakes domain of voice AI, addressing issues like accent bias and speaker consent."
 tags: 
 abstract: "Speech datasets are crucial for training Speech Language Technologies (SLT); however, the lack of diversity of the underlying training data can lead to serious limitations in building equitable and robust SLT products, especially along dimensions of language, accent, dialect, variety, and speech impairment—and the intersectionality of speech features with socioeconomic and demographic features. Furthermore, there is often a lack of oversight on the underlying training data—commonly built on..."
+CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "ALBERT"
 DATA_URL: "https://github.com/SonyResearch/project_ethics_augmented_datasheets_for_speech_datasets"

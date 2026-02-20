@@ -19,6 +19,7 @@ authors: "Odysseas S. Chlapanis, Dimitrios Galanis, Nikolaos Aletras, Ion Androu
 url: "https://arxiv.org/abs/2505.17267"
 external_pdf: "https://arxiv.org/pdf/2505.17267.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning.pdf]]"
 DATE_ADDED: 20260213

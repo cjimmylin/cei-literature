@@ -22,6 +22,7 @@ authors: "[[Dementieva, Daryna]]; [[Moskovskiy, Daniil]]"
 authors_incomplete: true
 url: "https://huggingface.co/datasets/textdetox/multilingual_toxicity_dataset"
 publication: HuggingFace
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

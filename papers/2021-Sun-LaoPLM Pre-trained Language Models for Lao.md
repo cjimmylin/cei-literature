@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2110.05896.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Sun-LaoPLM Pre-trained Language Models for Lao.md"
 local_pdf: "[[PDFs/2021/2021-Sun-LaoPLM Pre-trained Language Models for Lao.pdf]]"
 publication: "ACL Anthology (LREC 2022)"
+CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Laotian"

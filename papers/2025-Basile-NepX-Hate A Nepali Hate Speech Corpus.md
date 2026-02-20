@@ -25,6 +25,7 @@ external_pdf: "https://openreview.net/pdf?id=PChNLEcv3V"
 pdf_extract: "PDF Extracts/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md"
 local_pdf: "[[PDFs/2025/2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.pdf]]"
 publication: OpenReview
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali, Indian"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2309.08573.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
 local_pdf: "[[PDFs/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

@@ -24,6 +24,7 @@ tags:
 url: "http://arxiv.org/abs/2310.19852"
 external_pdf: "http://arxiv.org/pdf/2310.19852.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

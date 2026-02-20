@@ -19,6 +19,7 @@ last_author: "[[Terina Kamailelauli'i Fa'agau]]"
 authors: "Ian Falefuafua Tapu, Terina Kamailelauli'i Fa'agau"
 url: "https://journals.law.harvard.edu/crcl/wp-content/uploads/sites/80/2023/01/ANewAgeIndigenousInstrument.pdf"
 publication: Harvard Civil Rights-Civil Liberties Law Review, Vol. 57
+CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

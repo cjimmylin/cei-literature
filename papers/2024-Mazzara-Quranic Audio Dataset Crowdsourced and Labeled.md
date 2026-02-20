@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2405.02675.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.md"
 local_pdf: "[[PDFs/2024/2024-Mazzara-Quranic Audio Dataset Crowdsourced and Labeled.pdf]]"
 publication: ScienceDirect
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

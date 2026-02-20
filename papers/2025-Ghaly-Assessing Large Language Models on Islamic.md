@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2509.01081.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ghaly-Assessing Large Language Models on Islamic.md"
 local_pdf: "[[PDFs/2025/2025-Ghaly-Assessing Large Language Models on Islamic.pdf]]"
 publication: "ArabicNLP 2025 (3rd Arabic NLP Conference) / arXiv"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Islamic"

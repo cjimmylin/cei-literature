@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2510.07290.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Liu-On the Convergence of Moral Self-Correction in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Liu-On the Convergence of Moral Self-Correction in LLMs.pdf]]"
 publication: "AACL-IJCNLP 2025"
+CONF-CC: "AACL 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

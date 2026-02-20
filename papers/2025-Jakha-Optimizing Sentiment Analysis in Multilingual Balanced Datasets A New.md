@@ -21,6 +21,7 @@ last_author: "[[Abdelali Hadir]]"
 authors: Hamza Jakha; Souad El Houssaini; Mohammed-Alamine El Houssaini; Souad Ajjaj; Abdelali Hadir
 url: "https://www.mdpi.com/2571-5577/8/4/104"
 publication: MDPI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

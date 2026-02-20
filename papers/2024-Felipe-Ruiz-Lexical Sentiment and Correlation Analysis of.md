@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Natural Language Processing (Elsevier)"
+CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"

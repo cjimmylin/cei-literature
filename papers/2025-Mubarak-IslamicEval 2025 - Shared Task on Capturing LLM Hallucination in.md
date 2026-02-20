@@ -19,6 +19,7 @@ first_author: "[[Hamdy Mubarak]]"
 last_author: "[[Walid Magdy]]"
 authors: "Hamdy Mubarak; Rana Malhas; Watheq Mansour; Abubakr Mohamed; Mahmoud Fawzi; Majd Hawasly; Tamer Elsayed; Kareem Darwish; Walid Magdy"
 publication: Unknown
+CONF-CC: "Preprint"
 external_pdf: "https://aclanthology.org/2025.arabicnlp-sharedtasks.67.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md"
 local_pdf: "[[PDFs/2025/2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.pdf]]"

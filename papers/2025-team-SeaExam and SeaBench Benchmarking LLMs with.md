@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2502.06298.pdf"
 pdf_extract: "PDF Extracts/2025/2025-team-SeaExam and SeaBench Benchmarking LLMs with.md"
 local_pdf: "[[PDFs/2025/2025-team-SeaExam and SeaBench Benchmarking LLMs with.pdf]]"
 publication: "NAACL 2025 Findings"
+CONF-CC: "NAACL 2025 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Southeast Asian"

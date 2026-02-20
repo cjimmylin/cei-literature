@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2404.19369v1"
 pdf_extract: "PDF Extracts/2024/2024-Kishore-Evaluating Telugu Proficiency in Large Language.md"
 local_pdf: "[[PDFs/2024/2024-Kishore-Evaluating Telugu Proficiency in Large Language.pdf]]"
 publication: "WebSearch: Telugu LLM evaluation"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Telugu"

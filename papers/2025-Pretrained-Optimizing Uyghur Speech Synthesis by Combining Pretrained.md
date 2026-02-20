@@ -21,6 +21,7 @@ authors: "Combining Pretrained"
 doi: 10.1145/3675397
 url: "https://dl.acm.org/doi/10.1145/3675397"
 publication: ACM
+CONF-CC: "ACM TALIP"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

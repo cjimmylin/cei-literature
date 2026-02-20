@@ -31,6 +31,7 @@ key_contribution: "Proposes using 'v-rules' (virtue-based instructions) to guide
 significance: "Explores the potential of LLMs not just as information sources but as tools for cultivating practical wisdom and moral character in professionals"
 osint_source: "Recovered via HTML"
 abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"
+CONF-CC: "BMC Medical Education"
 DATE_ADDED: 20260129
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"

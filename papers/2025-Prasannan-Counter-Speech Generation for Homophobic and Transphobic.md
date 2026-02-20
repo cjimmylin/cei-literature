@@ -26,6 +26,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01507-x.
 pdf_extract: "PDF Extracts/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.md"
 local_pdf: "[[PDFs/2025/2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.pdf]]"
 publication: "WebSearch: Malayalam hate speech counter-speech"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Malayalam"

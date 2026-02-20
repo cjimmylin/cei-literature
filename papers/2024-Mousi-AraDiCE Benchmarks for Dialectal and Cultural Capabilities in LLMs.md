@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2409.11404
 url: "https://arxiv.org/abs/2409.11404"
 external_pdf: "https://arxiv.org/pdf/2409.11404.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.md"
 DATE_ADDED: 20260215

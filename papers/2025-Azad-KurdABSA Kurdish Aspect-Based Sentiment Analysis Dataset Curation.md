@@ -22,6 +22,7 @@ authors: Rania Azad; Soran Saeed
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925007358"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"
+CONF-CC: "Data in Brief"
 pdf_extract: PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md
 local_pdf: "[[PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
 DATE_ADDED: 20260213

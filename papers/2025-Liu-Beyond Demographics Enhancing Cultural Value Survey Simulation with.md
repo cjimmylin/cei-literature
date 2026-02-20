@@ -20,6 +20,7 @@ authors: Haijiang Liu, Qiyuan Li, Chao Gao, Yong Cao, Xiangyu Xu, Xun Wu, Daniel
 url: "https://arxiv.org/abs/2508.17855"
 external_pdf: "https://arxiv.org/pdf/2508.17855.pdf"
 publication: arXiv / EMNLP 2025
+CONF-CC: "EMNLP 2025"
 local_pdf: "[[PDFs/2025/2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with.md"
 DATE_ADDED: 20260215

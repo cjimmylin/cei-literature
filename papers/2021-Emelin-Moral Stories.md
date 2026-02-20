@@ -34,6 +34,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Emelin-Moral Stories.md"
 local_pdf: "[[PDFs/2021/2021-Emelin-Moral Stories.pdf]]"
 abstract: "In social settings, much of human behavior is governed by unspoken rules of conduct rooted in societal norms. For artiﬁcial systems to be fully integrated into social environments, adherence to such norms is a central prerequisite. To investigate whether language generation models can serve as behavioral priors for systems deployed in social settings, we evaluate their ability to generate action descriptions that achieve predeﬁned goals under normative constraints."
+CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, T5, BART, RoBERTa"
 DATA_URL: "https://github.com/demelin/moral_stories"

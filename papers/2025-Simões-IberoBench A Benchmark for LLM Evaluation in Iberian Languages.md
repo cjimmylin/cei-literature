@@ -23,6 +23,7 @@ authors_incomplete: true
 url: "https://aclanthology.org/2025.coling-main.699/"
 external_pdf: "https://aclanthology.org/2025.coling-main.699.pdf"
 publication: "ACL Anthology / COLING 2025"
+CONF-CC: "COLING 2025"
 pdf_extract: "PDF Extracts/2025/2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.md"
 local_pdf: "[[PDFs/2025/2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.pdf]]"
 DATE_ADDED: 20260213

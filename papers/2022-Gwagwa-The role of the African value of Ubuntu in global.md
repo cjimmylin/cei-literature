@@ -32,6 +32,7 @@ key_contribution: "Explores how the African value of Ubuntu (relational ethics) 
 significance: "Brings a non-Western, communal ethical framework to AI, challenging individualistic Western norms and offering a path for more inclusive global AI governance."
 tags: 
 abstract: "Historically, Sub-Saharan Africa (SSA) has been excluded from the beneﬁts of the previous industrial revolutions, as its people and their resources and aspirations have been objectiﬁed through foreign domination, and its culture has either been fragmented or appropriated. While artiﬁcial intelligence (AI) is poised to generate vast amounts of wealth, its application could lead to further social and economic exclusion of SSA due to a lack of access to technological advancements and the historical"
+CONF-CC: "Patterns"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

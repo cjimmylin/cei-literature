@@ -21,6 +21,7 @@ authors_incomplete: true
 url: "https://amievalita2020.github.io/"
 external_pdf: "https://books.openedition.org/aaccademia/pdf/6732"
 publication: "EVALITA 2020"
+CONF-CC: "EVALITA 2020"
 pdf_extract: "PDF Extracts/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md"
 local_pdf: "[[PDFs/2020/2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.pdf]]"
 DATE_ADDED: 20260213

@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2020/2020-Forbes-Social Chemistry 101.pdf]]"
 LLM_assessed: "GPT-2, T5, BART"
 DATA_URL: "NA"
 publication: "EMNLP 2020"
+CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

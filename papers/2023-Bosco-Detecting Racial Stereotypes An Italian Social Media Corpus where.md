@@ -21,6 +21,7 @@ doi: 10.1016/j.ipm.2022.103118
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457322002199"
 external_pdf: "https://hdl.handle.net/11586/413290"
 publication: "Information Processing & Management (Elsevier)"
+CONF-CC: "Information Processing and Management"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

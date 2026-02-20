@@ -31,6 +31,7 @@ key_contribution: "Proposes the 'principle of epistemic heed' to reconcile AI us
 significance: "Addresses fundamental tension between AI assistance and human moral development through Aristotelian lens"
 external_pdf: N/A
 abstract: "Phronesis, or practical wisdom, is a capacity the possession of which enables one to make good practical judgments and thus fulfill the distinctive function of human beings. Nir Eisikovits and Dan Feldman convincingly argue that this capacity may be undermined by statistical machine-learning-based AI. The critic questions: why should we worry that AI undermines phronesis? Why can't we epistemically defer to AI, especially when it is superintelligent? In this paper, the authors argue that there is a way to reconcile Eisikovits and Feldman with their critic by adopting the principle of epistemic heed, according to which we should exercise our rational capacity as much as possible while heeding a superintelligence's output whenever possible."
+CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

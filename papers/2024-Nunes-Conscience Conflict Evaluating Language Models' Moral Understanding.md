@@ -19,6 +19,7 @@ first_author: "[[José Luiz Nunes]]"
 last_author: "[[Simone D. J. Barbosa]]"
 authors: "José Luiz Nunes; Guilherme F. C. F. Almeida; Marcelo de Araujo; Simone D. J. Barbosa"
 publication: Unknown
+CONF-CC: "Preprint"
 external_pdf: "https://arxiv.org/pdf/2405.11100.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md"
 local_pdf: "[[PDFs/2024/2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.pdf]]"

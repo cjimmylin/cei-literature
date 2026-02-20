@@ -20,6 +20,7 @@ authors: Agrima Seth, Sanchit Ahuja, Kalika Bali, Sunayana Sitaram
 url: "https://arxiv.org/abs/2403.14651"
 external_pdf: "https://arxiv.org/pdf/2403.14651.pdf"
 publication: arXiv / LREC-COLING 2024
+CONF-CC: "LREC-COLING 2024"
 local_pdf: "[[PDFs/2024/2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md"
 DATE_ADDED: 20260215

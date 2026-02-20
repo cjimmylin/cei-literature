@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2411.09492v1"
 external_pdf: "https://arxiv.org/pdf/2411.09492.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.md"
 local_pdf: "[[PDFs/2024/2024-Zhang-MM-Eval A Hierarchical Benchmark for Modern Mongolian Evaluation in.pdf]]"
 DATE_ADDED: 20260213

@@ -31,6 +31,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://ieeexplore.ieee.org/ielx8/10719028/10718863/10719327.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "IEEE ICCIA 2024"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"

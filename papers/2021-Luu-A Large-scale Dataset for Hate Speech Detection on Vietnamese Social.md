@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2103.11528.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md"
 local_pdf: "[[PDFs/2021/2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.pdf]]"
 publication: "arXiv / Springer"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"

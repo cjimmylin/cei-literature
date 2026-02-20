@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2412.13602.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games.md"
 local_pdf: "[[PDFs/2025/2025-Lin-GAMEBoT Transparent Assessment of LLM Reasoning in Games.pdf]]"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"

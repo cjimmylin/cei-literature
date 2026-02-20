@@ -34,6 +34,7 @@ pdf_extract: "PDF Extracts/2025/2025-Galatolo-Beyond Ethical Alignment.md"
 abstract: "The recent rise in popularity of large language models (LLMs) has prompted considerable concerns about their moral capabilities. Although considerable effort has been dedicated to aligning LLMs with human moral values, existing benchmarks and evaluations remain largely superficial, typically measuring alignment based on final ethical verdicts rather than explicit moral reasoning. In response, this paper aims to advance the investigation of LLMs’ moral capabilities by examining their capacity to..."
 paper_summary: "Abstract: ,→moral value. On the right of the ,→'Percept Derivation', there is a ,→column for entering your judgment ,→score, from 1-4 (or N/A). Where: 1 = The reasoning is flawed and/or the ,→precept does not f | Overview: Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants Alessio Galatoloa,*,1, Luca Alberto Rappuolib,1, Katie Winklea and Meriem Beloucifa aUppsala University bUniversity of St. Andr | Key Findings: Deductive reasoning evaluation Abductive reasoning production Deductive reasoning production Qwen 2.5-32B Gemma 3-12B Gemma 3-27B Qwen 2.5-72B Qwen 2."
 local_pdf: "[[PDFs/2025/2025-Galatolo-Beyond Ethical Alignment.pdf]]"
+CONF-CC: "European Conference on Artificial Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3, Phi, Qwen"
 DATA_URL: "https://github.com/alessioGalatolo/AMAeval"

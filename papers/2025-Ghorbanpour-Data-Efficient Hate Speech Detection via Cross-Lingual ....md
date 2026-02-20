@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://arxiv.org/pdf/2505.14272"
 external_pdf: "https://arxiv.org/pdf/2505.14272.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....md"
 local_pdf: "[[PDFs/2025/2025-Ghorbanpour-Data-Efficient Hate Speech Detection via Cross-Lingual ....pdf]]"
 DATE_ADDED: 20260213

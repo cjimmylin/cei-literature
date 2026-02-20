@@ -24,6 +24,7 @@ tags:
 url: "http://arxiv.org/abs/2306.11247"
 external_pdf: "http://arxiv.org/pdf/2306.11247.pdf"
 publication: "Neural Information Processing Systems"
+CONF-CC: "NeurIPS 2023"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

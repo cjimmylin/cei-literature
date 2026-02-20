@@ -22,6 +22,7 @@ doi: 10.3390/info15010008
 url: "https://www.mdpi.com/2078-2489/15/1/8"
 external_pdf: "https://doi.org/10.3390/info15010008"
 publication: "MDPI Information"
+CONF-CC: "Information"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

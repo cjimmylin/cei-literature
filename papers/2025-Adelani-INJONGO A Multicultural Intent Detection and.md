@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2502.09814.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Adelani-INJONGO A Multicultural Intent Detection and.md"
 local_pdf: "[[PDFs/2025/2025-Adelani-INJONGO A Multicultural Intent Detection and.pdf]]"
 publication: "WebSearch: INJONGO multicultural intent detection African languages"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu, Multicultural/Cross-cultural"
 cultures_nationalities_list: "African"

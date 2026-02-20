@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2407.21792
 url: "http://arxiv.org/abs/2407.21792"
 external_pdf: "http://arxiv.org/pdf/2407.21792.pdf"
 publication: "Neural Information Processing Systems"
+CONF-CC: "NeurIPS 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

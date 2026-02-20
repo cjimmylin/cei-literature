@@ -25,6 +25,7 @@ pdf_extract: "PDF Extracts/2025/2025-Kilov-Discerning What Matters.md"
 local_pdf: "[[PDFs/2025/2025-Kilov-Discerning What Matters.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.13082.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

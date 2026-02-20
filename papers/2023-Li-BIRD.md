@@ -30,6 +30,7 @@ newtags:
 tags: 
 research_topic: Other
 abstract: "Text-to-SQL parsing, which aims at converting natural language questions into executable SQLs, has gained increasing attention in recent years. In particular, GPT-4 and Claude-2 have shown impressive results in this task. However, most of the prevalent benchmarks, i.e., Spider, and WikiSQL, focus on database schema with few rows of database values leaving the gap between academic study and real-world applications."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, T5"
 DATA_URL: "https://bird-bench.github.io/"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2509.24216.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md"
 local_pdf: "[[PDFs/2025/2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.pdf]]"
 publication: EMNLP
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

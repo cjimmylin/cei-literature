@@ -20,6 +20,7 @@ last_author: "[[Bernardo Magnini Stefania Cavagnoli]]"
 authors: "Gloria Comandini, Manuela Speranza, Sofia Brenna, Davide Testa, Stefania Cavagnoli, Bernardo Magnini"
 url: "https://www.evalita.it/campaigns/evalita-2026/tasks/"
 publication: "EVALITA 2026"
+CONF-CC: "EVALITA 2026"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

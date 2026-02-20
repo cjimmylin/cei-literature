@@ -27,6 +27,7 @@ external_pdf: "https://aclanthology.org/2024.mwe-1.8.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Hellwig-The Vedic Compound Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Hellwig-The Vedic Compound Dataset.pdf]]"
 publication: "MWE-UD Workshop @ LREC-COLING 2024"
+CONF-CC: "COLING 2024 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Indian, Sanskrit"

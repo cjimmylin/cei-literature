@@ -33,6 +33,7 @@ key_contribution: "Proposes a research ethics framework integrating Ubuntu princ
 significance: "Challenges Western-centric bioethics by establishing a relational, community-centered virtue framework as essential for equitable and culturally competent AI deployment in the Global South"
 abstract: "Background Effective Public Financial Management (PFM) approaches are imperative in the quest for efficiency in health service delivery. Reviews conducted in this area have assessed the impact of PFM approaches on health system efficiency but have left out the mechanisms through which PFM influences efficiency. This scoping review aims to synthesize evidence on the mechanisms by which PFM influences health system efficiency."
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
+CONF-CC: "Wellcome Open Research"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

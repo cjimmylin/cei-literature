@@ -19,6 +19,7 @@ authors: "Various (SDU/Schneiderkamp Lab)"
 url: "https://arxiv.org/abs/2601.19930"
 external_pdf: "https://arxiv.org/pdf/2601.19930.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2026/2026-Lab-SDU's DAISY A Benchmark for Danish Culture.md"
 local_pdf: "[[PDFs/2026/2026-Lab-SDU's DAISY A Benchmark for Danish Culture.pdf]]"
 DATE_ADDED: 20260213

@@ -19,6 +19,7 @@ authors: "Thorunn Arnardottir, Elias Bjartur Einarsson, Gardar Ingvarsson Juto, 
 url: "https://aclanthology.org/2025.resourceful-1.13/"
 external_pdf: "https://aclanthology.org/2025.resourceful-1.13.pdf"
 publication: "ACL Anthology / RESOURCEFUL 2025"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md"
 local_pdf: "[[PDFs/2025/2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.pdf]]"
 DATE_ADDED: 20260213

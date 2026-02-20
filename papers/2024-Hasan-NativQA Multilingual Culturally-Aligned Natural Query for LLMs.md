@@ -20,6 +20,7 @@ authors: Md Arid Hasan, Maram Hasanain, Fatema Ahmad, Sahinur Rahman Laskar, Sun
 url: "https://arxiv.org/abs/2407.09823"
 external_pdf: "https://arxiv.org/pdf/2407.09823.pdf"
 publication: arXiv / ACL 2025 Findings
+CONF-CC: "ACL 2025 Findings"
 local_pdf: "[[PDFs/2024/2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs.md"
 DATE_ADDED: 20260215

@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11006224"
 external_pdf: "https://arxiv.org/pdf/2404.05540"
 publication: IEEE
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 DATE_ADDED: 20260213

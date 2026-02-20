@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2508.15361v1"
 external_pdf: "https://arxiv.org/pdf/2508.15361.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Ni-A Survey on Large Language Model Benchmarks.md"
 local_pdf: "[[PDFs/2025/2025-Ni-A Survey on Large Language Model Benchmarks.pdf]]"
 DATE_ADDED: 20260213

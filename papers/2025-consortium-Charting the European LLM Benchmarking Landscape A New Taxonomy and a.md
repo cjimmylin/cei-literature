@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2510.24450.pdf"
 pdf_extract: "PDF Extracts/2025/2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md"
 local_pdf: "[[PDFs/2025/2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "European, Multicultural/Cross-cultural"

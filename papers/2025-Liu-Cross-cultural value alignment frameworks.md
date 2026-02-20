@@ -23,6 +23,7 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-Cross-cultural value alignment framewor
 local_pdf: "[[PDFs/2025/2025-Liu-Cross-cultural value alignment frameworks.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.17256.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 ethics_perspective: "Cross-Cultural Ethics"
 national_ethnic_cultural: "Chinese, American, Western, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American"

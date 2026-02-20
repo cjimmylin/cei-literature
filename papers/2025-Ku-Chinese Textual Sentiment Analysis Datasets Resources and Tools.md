@@ -23,6 +23,7 @@ authors: Lun‐Wei Ku; Wei-Fan Chen
 url: "https://aclanthology.org/C16-3002/"
 external_pdf: "https://aclanthology.org/C16-3002.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: PDF Extracts/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.md
 local_pdf: "[[PDFs/2025/2025-Ku-Chinese Textual Sentiment Analysis Datasets Resources and Tools.pdf]]"
 DATE_ADDED: 20260213

@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://github.com/dr-ijaz/nlpashto"
 external_pdf: "http://thesai.org/Downloads/Volume14No6/Paper_142-NLPashto_NLP_Toolkit_for_Low_resource_Pashto_Language.pdf"
 publication: IJACSA
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.md"
 local_pdf: "[[PDFs/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.pdf]]"
 DATE_ADDED: 20260213

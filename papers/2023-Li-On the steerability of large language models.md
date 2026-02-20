@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2311.04978"
 external_pdf: "http://arxiv.org/pdf/2311.04978.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
+CONF-CC: "NAACL 2023"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

@@ -33,6 +33,7 @@ key_contribution: "Proposed 'SafeInfer' for inference-time safety alignment (dec
 significance: "Suggests shifting safety from training (fine-tuning) to inference (decoding), allowing for flexible, context-adaptive safety rails without retraining."
 tags: 
 abstract: "Language models aligned for safety often exhibit fragile and imbalanced mechanisms, increasing the chances of producing unsafe content. In addition, editing techniques to incorporate new knowledge can further compromise safety. To tackle these issues, we propose SAFEINFER, a context-adaptive, decodingtime safety alignment strategy for generating safe responses to user queries. SAFEINFER involves two phases: the ‘safety amplification’ phase, which uses safe demonstration examples to adjust the..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "Llama-2, Mistral, Vicuna, Falcon"
 DATA_URL: "https://github.com/NeuralSentinel/SafeInfer"

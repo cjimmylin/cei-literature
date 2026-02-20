@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2410.18491.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md"
 local_pdf: "[[PDFs/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

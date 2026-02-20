@@ -19,6 +19,7 @@ authors: "Erida Nurce, Jorgel Keci, Leon Derczynski"
 url: "https://arxiv.org/abs/2107.13592"
 external_pdf: "https://arxiv.org/pdf/2107.13592.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2021/2021-Nurce-Detecting Abusive Albanian.md"
 local_pdf: "[[PDFs/2021/2021-Nurce-Detecting Abusive Albanian.pdf]]"
 DATE_ADDED: 20260213

@@ -23,6 +23,7 @@ authors: Gabriel Assis; Cláudia Freitas; Aline Paes
 url: "https://journals-sol.sbc.org.br/index.php/jbcs/article/view/5814"
 external_pdf: "https://journals-sol.sbc.org.br/index.php/jbcs/article/download/5814/3514"
 publication: "Journal of the Brazilian Computer Society 2025"
+CONF-CC: "Journal of the Brazilian Computer Society 2025"
 pdf_extract: "PDF Extracts/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.md"
 local_pdf: "[[PDFs/2025/2025-Assis-Exploring Brazil's LLM Fauna Investigating the Generative Performance.pdf]]"
 DATE_ADDED: 20260213

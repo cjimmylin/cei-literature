@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2402.15813.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.md"
 local_pdf: "[[PDFs/2024/2024-Xia-Measuring Bargaining Abilities of LLMs A Benchmark and A.pdf]]"
 publication: "ACL 2024"
+CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"

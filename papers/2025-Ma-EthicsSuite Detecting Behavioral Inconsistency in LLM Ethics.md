@@ -20,6 +20,7 @@ authors: "[[Ma, Pingchuan]]; [[Li, Zongjie]]; [[Sun, Ao]]; [[Wang, Shuai]]"
 doi: 10.1145/3722554
 url: "https://doi.org/10.1145/3722554"
 publication: "ACM TOSEM"
+CONF-CC: "ACM TOSEM"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -30,6 +30,7 @@ key_contribution: "Proposes three-dimensional classification of artificial virtu
 significance: "Expands virtue ethics for AI beyond narrow Aristotelian moral virtues to broader virtue taxonomy"
 external_pdf: N/A
 abstract: "Virtue theory is a natural approach toward designing AI systems, given that AI design essentially aims at creating agents with excellent dispositions. This has led to research on artificial virtues, though this program has focused narrowly on moral virtues in an Aristotelian mould, which unduly constrains possibilities. Drawing on philosophical tradition, the paper proposes a three-dimensional classification system of possible artificial virtues based on: the domain in which virtue is an excellence, the norm that makes a virtue an excellence, and the mode of how the virtue delivers the excellence."
+CONF-CC: "AI & Society"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"

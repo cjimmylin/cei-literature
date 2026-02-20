@@ -20,6 +20,7 @@ authors: Nina Sangma
 authors_incomplete: false
 url: "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/artificial-intelligence-and-indigenous-peoples-realities"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

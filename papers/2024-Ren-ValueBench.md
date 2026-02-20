@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2406.04214"
 external_pdf: "http://arxiv.org/pdf/2406.04214.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

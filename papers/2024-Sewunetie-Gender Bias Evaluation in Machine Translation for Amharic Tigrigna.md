@@ -21,6 +21,7 @@ authors: "Walelign Sewunetie, Atnafu Tonja, Tadesse Belay, Hellina Hailu Nigatu,
 url: "https://aclanthology.org/2024.gitt-1.1/"
 external_pdf: "https://aclanthology.org/2024.gitt-1.1.pdf"
 publication: "WebSearch: gender bias machine translation Amharic Oromo Tigrinya benchmark"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md"
 local_pdf: "[[PDFs/2024/2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.pdf]]"
 DATE_ADDED: 20260213

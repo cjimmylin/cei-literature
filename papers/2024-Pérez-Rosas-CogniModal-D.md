@@ -30,6 +30,7 @@ newtags:
 tags: 
 osint_source: "Recovered via HTML"
 abstract: "CogniModal-D is a primary real-world multimodal dataset for deception detection, specifically targeting the Indian population. It spans seven modalities: electroencephalography (EEG), electrocardiography (ECG), electrooculography (EOG), eye-gaze, galvanic skin response (GSR), audio, and video, collected from over 100 subjects. Data was gathered through tasks focused on social relationships and controlled mock crime interrogations. Multimodal score-level fusion achieves 75% accuracy in mock crime interrogations and 79% in the best friend storytelling scenario."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

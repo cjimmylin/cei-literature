@@ -20,6 +20,7 @@ authors: "Longxu Dou; Qian Liu; Fan Zhou; Changyu Chen; Zili Wang; Ziqi Jin; Zi-
 url: "https://arxiv.org/abs/2502.12982"
 external_pdf: "https://arxiv.org/pdf/2502.12982.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.md"
 DATE_ADDED: 20260215

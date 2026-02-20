@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2022.findings-naacl.98/"
 external_pdf: "https://arxiv.org/pdf/2101.00204v4.pdf"
 publication: "ACL Anthology (NAACL 2022 Findings)"
+CONF-CC: "NAACL 2022 Findings"
 pdf_extract: "PDF Extracts/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md"
 local_pdf: "[[PDFs/2022/2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.pdf]]"
 DATE_ADDED: 20260213

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2312.11011.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md"
 local_pdf: "[[PDFs/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"

@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2503.07833
 url: "http://arxiv.org/abs/2503.07833"
 external_pdf: "http://arxiv.org/pdf/2503.07833.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic, Turkish"
 languages_list: "Arabic, English, Turkish"

@@ -33,6 +33,7 @@ key_contribution: "Introduced the Moral Machine platform, a global crowdsourcing
 significance: "Laid the groundwork for the largest cross-cultural study of machine ethics, providing the data necessary to understand regional variations in moral intuition for autonomous vehicle regulation."
 tags: 
 abstract: "A platform for creating a crowdsourced picture of human opinions on how machines should handle moral dilemmas."
+CONF-CC: "Communications of the ACM"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://moralmachine.mit.edu"

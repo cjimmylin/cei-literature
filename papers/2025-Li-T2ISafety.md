@@ -32,6 +32,7 @@ key_contribution: "Released T2ISafety, a benchmark for assessing fairness, toxic
 significance: "Highlights that current T2I models suffer from persistent racial bias and privacy leakage, providing a specialized tool to evaluate visual generation safety beyond simple text filters."
 tags: 
 abstract: "Text-to-image (T2I) models have rapidly advanced, enabling the generation of high-quality images from text prompts across various domains. However, these models present notable safety concerns, including the risk of generating harmful, biased, or private content. Current research on assessing T2I safety remains in its early stages. While some efforts have been made to evaluate models on specific safety dimensions, many critical risks remain unexplored."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "GPT-4o, Claude, Gemini"
 DATA_URL: "https://github.com/adwardlee/t2i_safety"

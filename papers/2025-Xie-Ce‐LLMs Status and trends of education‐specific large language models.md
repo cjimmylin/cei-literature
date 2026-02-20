@@ -22,6 +22,7 @@ authors_incomplete: false
 doi: 10.1002/fer3.70008
 url: "https://onlinelibrary.wiley.com/doi/10.1002/fer3.70008"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

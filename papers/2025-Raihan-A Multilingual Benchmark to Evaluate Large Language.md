@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.naacl-long.570.pdf"
 external_pdf: "https://arxiv.org/pdf/2410.15037v2.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.md"
 local_pdf: "[[PDFs/2025/2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.pdf]]"
 DATE_ADDED: 20260213

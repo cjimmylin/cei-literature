@@ -30,6 +30,7 @@ key_contribution: "Presented a benchmark suite (DiffAware) to measure 'desired g
 significance: "Critiques the standard 'color-blind' fairness approach, showing that bias mitigation strategies can backfire by preventing models from making necessary, context-aware distinctions between groups."
 tags: 
 abstract: "Algorithmic fairness has conventionally adopted the mathematically convenient perspective of racial color-blindness (i.e., difference unaware treatment). However, we contend that in a range of important settings, group difference awareness matters. For example, differentiating between groups may be necessary in legal contexts (e.g., the U.S. compulsory draft applies to men but not women) and harm assessments (e.g."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, Llama-3, Mistral, Gemma"
 DATA_URL: "NA"

@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2501.08441.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md"
 local_pdf: "[[PDFs/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.pdf]]"
 publication: "AI & Society (Springer) / arXiv"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

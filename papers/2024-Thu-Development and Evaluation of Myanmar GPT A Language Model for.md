@@ -22,6 +22,7 @@ last_author: "[[Pyae Sone Phyo Min Si Thu]]"
 authors: "Min Si Thu, Pyae Sone Phyo"
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4871732"
 publication: SSRN
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

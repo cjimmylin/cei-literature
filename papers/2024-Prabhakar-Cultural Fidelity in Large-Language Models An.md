@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2410.10489.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md"
 local_pdf: "[[PDFs/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.pdf]]"
 publication: "WebSearch: Cultural Fidelity LLM African languages values"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Cross-cultural"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2311.18711.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md"
 local_pdf: "[[PDFs/2024/2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.pdf]]"
 publication: "arXiv / Findings of EMNLP 2024"
+CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian, Slavic"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2410.24190.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md"
 local_pdf: "[[PDFs/2024/2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.pdf]]"
 publication: "EMNLP 2024"
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"

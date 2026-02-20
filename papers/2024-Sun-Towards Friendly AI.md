@@ -31,6 +31,7 @@ key_contribution: "Comprehensive review of Friendly AI proposing 'as-if friendsh
 significance: "Provides formal definitions of FAI with applications in XAI, privacy, fairness, and affective computing"
 external_pdf: "https://arxiv.org/pdf/2412.15114"
 abstract: "The paper examines Friendly AI (FAI) as a framework for more equitable AI development. It provides a thorough review of FAI, focusing on theoretical perspectives both for and against its development and offers formal definitions. The work discusses key applications in explainable AI, privacy, fairness, and affective computing while identifying technological challenges and proposing future research directions. The authors emphasize that FAI advancement is necessary for ensuring ethical and beneficial AI development. The 'as-if friendship' framework advocates that AI should emulate core virtues found in human friendships, such as empathy and helpfulness, promoting social functionality while positively influencing the development of human virtues."
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

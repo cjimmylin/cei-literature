@@ -20,6 +20,7 @@ authors: "Tobi Olatunji; Charles Nimo; A. Owodunni; Tassallah Abdullahi; Emmanue
 url: "https://arxiv.org/abs/2411.15640"
 external_pdf: "https://arxiv.org/pdf/2411.15640.pdf"
 publication: arXiv / ACL 2025
+CONF-CC: "ACL 2025"
 local_pdf: "[[PDFs/2024/2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Olatunji-AfriMed-QA A Pan-African Multi-Specialty Medical Question-Answering.md"
 DATE_ADDED: 20260215

@@ -29,6 +29,7 @@ key_contribution: "Shared task on offensive language identification in German tw
 significance: "A standard reference for German toxicity detection, highlighting the difficulty of detecting 'implicit' offense (sarcasm, dogwhistles) compared to explicit slurs."
 tags: 
 abstract: "We present the second edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. Two subtasks were continued from the ﬁrst edition, namely a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. As a novel subtask, we introduce the classiﬁcation of offensive tweets as explicit or implicit."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "NA"

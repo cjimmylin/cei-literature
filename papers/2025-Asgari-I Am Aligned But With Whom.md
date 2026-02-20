@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2510.13154.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Asgari-I Am Aligned But With Whom.md"
 local_pdf: "[[PDFs/2025/2025-Asgari-I Am Aligned But With Whom.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Iranian, African/Ubuntu, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic, Iranian, Turkish"

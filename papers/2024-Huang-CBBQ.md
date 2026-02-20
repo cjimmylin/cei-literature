@@ -30,6 +30,7 @@ key_contribution: "Created 'CBBQ' (Chinese Bias Benchmark for QA), a dataset of 
 significance: "A massive resource for Chinese societal bias, showing that all Chinese LLMs exhibit strong biases, and uniquely exploring 'moral self-correction' in Chinese."
 tags: 
 abstract: "Holistically measuring societal biases of large language models is crucial for detecting and reducing ethical risks in highly capable AI models. In this work, we present a Chinese Bias Benchmark dataset that consists of over 100K questions jointly constructed by human experts and generative language models, covering stereotypes and societal biases in 14 social dimensions related to Chinese culture and values."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, BLOOM"
 DATA_URL: "https://github.com/YFHuangxxxx/CBBQ/"

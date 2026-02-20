@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Shetty-VITAL.pdf]]"
 LLM_assessed: "Llama-2, Gemma, Llama-3, Qwen, ChatGPT"
 DATA_URL: "https://github.com/anudeex/VITAL.git"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2211.13112.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.md"
 local_pdf: "[[PDFs/2022/2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.pdf]]"
 publication: "arXiv / NeurIPS 2022"
+CONF-CC: "NeurIPS 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Polish"

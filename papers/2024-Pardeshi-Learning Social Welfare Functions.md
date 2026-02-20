@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2024/2024-Pardeshi-Learning Social Welfare Functions.
 abstract: "Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is not an eigenvalue of P, then by the interlacing theorem, we have mG(−1) ≤n−d−1. In this article, we characterize the extremal graphs where equality holds. Moreover, for the completeness of the results, we also characterize the graphs G that achieve mG(−1) = n −d −1 when −1 is an eigenvalue of P."
 paper_summary: "Abstract: Let G be a simple connected graph of order n with diameter d. Let mG(−1) denote the multiplicity of the eigenvalue −1 of the adjacency matrix of G, and let P = Pd+1 be the diameter path of G. If −1 is | Overview: A complete characterization of graphs for which mG(−1) = n −d −1 Songnian Xu, Wenhao Zhen, Dein Wong∗ School of Mathematics, China University of Mining and Tecnology, Xuzhou, China. Abstract Let G be"
 local_pdf: "[[PDFs/2024/2024-Pardeshi-Learning Social Welfare Functions.pdf]]"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

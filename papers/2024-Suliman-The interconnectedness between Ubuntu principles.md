@@ -31,6 +31,7 @@ key_contribution: "Explores the fusion of Ubuntu principles with Generative AI i
 significance: "Advocates for using AI not just as a tool but as a medium to restore self-determination and community well-being (Ubuntu) in educational systems"
 tags: 
 abstract: "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders."
+CONF-CC: "Discover Education"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: "NA"

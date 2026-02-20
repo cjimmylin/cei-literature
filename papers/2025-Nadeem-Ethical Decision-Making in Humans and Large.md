@@ -30,6 +30,7 @@ key_contribution: "Benchmarks 5 major LLMs against human judgments across 5 mora
 significance: "Provides empirical proof that different RLHF recipes create distinct moral 'characters', necessitating transparent categorization of model ethics"
 tags: 
 abstract: "Received: 28 Dec 2024 Revised: 18 Feb 2025 Accepted: 26 Feb 2025 Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions—especially in socially and emotionally complex situations—remains uncertain."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, DeepSeek"
 DATA_URL: "NA"

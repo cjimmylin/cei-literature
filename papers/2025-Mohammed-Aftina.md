@@ -34,6 +34,7 @@ LLM_assessed: "Gemma"
 DATA_URL: "NA"
 pdf_extract: "PDF Extracts/0000/2025-Mohammed-Aftina.md"
 local_pdf: "[[PDFs/2025/2025-Mohammed-Aftina.pdf]]"
+CONF-CC: "Neural Computing and Applications"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

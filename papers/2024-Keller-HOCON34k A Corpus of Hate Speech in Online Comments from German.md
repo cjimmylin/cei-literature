@@ -21,6 +21,7 @@ authors: "[[Max-Emanuel Keller]]; [[Maximilian Auch]]; [[Alexander Döschl]]; [[
 doi: 10.1007/978-3-031-78090-5_18
 url: "https://link.springer.com/chapter/10.1007/978-3-031-78090-5_18"
 publication: Springer
+CONF-CC: "Lecture notes in computer science 2024"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

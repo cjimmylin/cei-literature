@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2404.11726.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.md"
 local_pdf: "[[PDFs/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.pdf]]"
 publication: arxiv.org
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"

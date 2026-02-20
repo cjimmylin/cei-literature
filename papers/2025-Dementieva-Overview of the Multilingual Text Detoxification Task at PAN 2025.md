@@ -22,6 +22,7 @@ authors: "Daryna Dementieva, Daniil Moskovskiy, Nikolay Babakov, Abinew Ali Ayel
 url: "https://pan.webis.de/clef25/pan25-web/text-detoxification.html"
 external_pdf: "https://ceur-ws.org/Vol-4038/paper_278.pdf"
 publication: "CLEF 2025"
+CONF-CC: "CLEF 2025"
 pdf_extract: "PDF Extracts/2025/2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md"
 local_pdf: "[[PDFs/2025/2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.pdf]]"
 DATE_ADDED: 20260213

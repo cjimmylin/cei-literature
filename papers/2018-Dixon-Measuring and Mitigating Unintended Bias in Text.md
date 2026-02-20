@@ -34,6 +34,7 @@ significance: "A seminal work in fairness for NLP, addressing the 'identity term
 tags: 
 abstract: "We introduce and illustrate a new approach to measuring and mitigating unintended bias in machine learning models. Our definition of unintended bias is parameterized by a test set and a subset of input features. We illustrate how this can be used to evaluate text classifiers using a synthetic test set and a public corpus of comments annotated for toxicity from Wikipedia Talk pages. We also demonstrate how imbalances in training data can lead to unintended bias in the resulting models, and..."
 pdf: "https://dl.acm.org/doi/pdf/10.1145/3278721.3278729"
+CONF-CC: "AIES 2018"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"

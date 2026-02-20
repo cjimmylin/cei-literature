@@ -33,6 +33,7 @@ key_contribution: "Proposes 'MoralReason', a framework using reasoning-level rei
 significance: "Demonstrates that LLMs can be trained to internalize and generalize consistent moral reasoning to out-of-distribution scenarios, enhancing AI safety"
 abstract: "Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral decisions. We formulate this as an out-of-distribution moral alignment problem, where LLM agents must learn to apply consistent moral reasoning frameworks to scenarios beyond their training distribution. We introduce Moral-ReasonQA, a novel dataset extending 680 human-annotated, highambiguity moral scenarios with..."
 paper_summary: "Abstract: Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this  | Overview: MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning Zhiyu An, Wan Du University of California, Merced {zan7, wdu3}@ucmerced.edu Warning: Thi"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: Qwen
 DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"

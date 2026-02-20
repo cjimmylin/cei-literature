@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2406.02169.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Murtala-A multilingual dataset for offensive language.md"
 local_pdf: "[[PDFs/2024/2024-Murtala-A multilingual dataset for offensive language.pdf]]"
 publication: "WebSearch: Hausa Igbo Yoruba offensive language hate speech multilingual dataset"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

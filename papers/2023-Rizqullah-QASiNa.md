@@ -22,6 +22,7 @@ tags:
 url: "http://arxiv.org/abs/2310.08102"
 external_pdf: "http://arxiv.org/pdf/2310.08102.pdf"
 publication: "2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)"
+CONF-CC: "2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"
 languages_list: "Indonesian"

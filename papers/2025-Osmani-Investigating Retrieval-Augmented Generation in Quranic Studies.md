@@ -27,6 +27,7 @@ external_pdf: "https://arxiv.org/pdf/2503.16581.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md"
 local_pdf: "[[PDFs/2025/2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.pdf]]"
 publication: "IJACSA / arXiv"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

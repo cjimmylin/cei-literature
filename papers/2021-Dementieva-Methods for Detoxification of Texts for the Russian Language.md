@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2105.09052.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md"
 local_pdf: "[[PDFs/2021/2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.pdf]]"
 publication: "MDPI / arXiv"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

@@ -20,6 +20,7 @@ authors: "Ejiro Onose"
 url: "https://arxiv.org/html/2410.18902"
 external_pdf: "https://arxiv.org/pdf/2410.18902.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages.md"
 local_pdf: "[[PDFs/2024/2024-Onose-LLMs for Extremely Low-Resource Finno-Ugric Languages.pdf]]"
 DATE_ADDED: 20260213

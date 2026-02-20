@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2501.13912.pdf"
 pdf_extract: "PDF Extracts/2025/2025-funded-Analysis of Indic Language Capabilities in.md"
 local_pdf: "[[PDFs/2025/2025-funded-Analysis of Indic Language Capabilities in.pdf]]"
 publication: "WebSearch: Analysis Indic Language Capabilities"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Tamil, Telugu"

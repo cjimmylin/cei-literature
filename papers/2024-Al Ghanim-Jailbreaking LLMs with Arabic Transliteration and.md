@@ -30,6 +30,7 @@ key_contribution: "Showed that LLMs are vulnerable to jailbreaking via Arabic tr
 significance: "Highlights a specific 'low-resource language attack vector', where using a dialect/script mix (Arabizi) allows evasion of safety controls that work on the dominant language."
 tags: 
 abstract: "This study identifies the potential vulnerabilities of Large Language Models (LLMs) to ’jailbreak’ attacks, specifically focusing on the Arabic language and its various forms. While most research has concentrated on English-based prompt manipulation, our investigation broadens the scope to investigate the Arabic language. We initially tested the AdvBench benchmark in Standardized Arabic, finding that even with prompt manipulation techniques like prefix injection, it was insufficient to provoke..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude"
 DATA_URL: "https://github.com/SecureDL/arabic_jailbreak"

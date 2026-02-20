@@ -22,6 +22,7 @@ doi: 10.1145/3665244
 url: "https://dl.acm.org/doi/10.1145/3665244"
 external_pdf: "https://www.aclweb.org/anthology/N18-4016.pdf"
 publication: ACM
+CONF-CC: "ACM TALIP"
 pdf_extract: "PDF Extracts/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.md"
 local_pdf: "[[PDFs/2025/2025-Masood-Neural Machine Translation for Low-Resource Languages from a.pdf]]"
 DATE_ADDED: 20260213

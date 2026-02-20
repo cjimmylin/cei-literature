@@ -34,6 +34,7 @@ key_contribution: "Proposes 'Deontological Coherence' framework where moral judg
 significance: "Offers a cognitive model for how humans integrate conflicting deontological and consequentialist signals, potentially useful for AI cognitive architectures"
 tags: 
 abstract: "We review a broad range of work, primarily in cognitive and social psychology, that provides insight into the processes of moral judgment. In particular, we consider research on pragmatic reasoning about regulations and on coherence in decision making, both areas in which psychological theories have been guided by work in legal philosophy. Armed with these essential prerequisites, we sketch a psychological framework for how ordinary people make judgments about moral issues. Based on a literature review, we show how the framework of deontological coherence unifies findings in moral psychology that have often been explained in terms of a grab-bag of heuristics and biases. (PsycINFO Database Record"
+CONF-CC: "Psychological Bulletin"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

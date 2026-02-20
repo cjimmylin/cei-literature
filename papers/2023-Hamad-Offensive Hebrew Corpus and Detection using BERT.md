@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2309.02724.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
 local_pdf: "[[PDFs/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Hebrew/Israeli"
 cultures_nationalities_list: "Israeli, Arabic"

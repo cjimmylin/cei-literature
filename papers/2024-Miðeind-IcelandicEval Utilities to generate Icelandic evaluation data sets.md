@@ -20,6 +20,7 @@ last_author: "[[Miðeind]]"
 authors: Miðeind
 url: "https://github.com/mideind/IcelandicEval"
 publication: GitHub
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

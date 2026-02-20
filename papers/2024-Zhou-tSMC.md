@@ -34,6 +34,7 @@ key_contribution: "Developed the tSMC framework to evaluate and mitigate positio
 significance: "Reveals that perceived moral inconsistencies in LLMs are often artifacts of measurement bias (position/selection) rather than intrinsic moral failure, providing a more robust methodology for evaluating whether LLMs actually 'understand' moral scenarios."
 tags: 
 abstract: "Large Language Models (LLMs) have demonstrated remarkable capabilities, surpassing human experts in various benchmark tests and playing a vital role in various industry sectors. Despite their effectiveness, a notable drawback of LLMs is their inconsistent moral behavior, which raises ethical concerns. This work delves into symmetric moral consistency in large language models and demonstrates that modern LLMs lack sufficient consistency ability in moral scenarios."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Gemma, Phi"
 DATA_URL: "https://huggingface.co/google/gemma-2b-it"

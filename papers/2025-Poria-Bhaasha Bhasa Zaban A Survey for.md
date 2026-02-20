@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2509.11570.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Poria-Bhaasha Bhasa Zaban A Survey for.md"
 local_pdf: "[[PDFs/2025/2025-Poria-Bhaasha Bhasa Zaban A Survey for.pdf]]"
 publication: "EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "South Asian"

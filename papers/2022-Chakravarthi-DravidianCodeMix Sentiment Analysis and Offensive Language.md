@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2106.09460.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md"
 local_pdf: "[[PDFs/2022/2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.pdf]]"
 publication: "WebSearch: DravidianCodeMix dataset"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

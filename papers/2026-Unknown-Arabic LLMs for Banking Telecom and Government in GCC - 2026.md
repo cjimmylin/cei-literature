@@ -22,6 +22,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://makitsol.com/arabic-llms-for-banking-telecom-and-government-in-gcc/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

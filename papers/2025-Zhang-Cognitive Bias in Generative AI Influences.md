@@ -27,6 +27,7 @@ external_pdf: "https://www.nature.com/articles/s41598-025-99121-6.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.md"
 local_pdf: "[[PDFs/2025/2025-Zhang-Cognitive Bias in Generative AI Influences.pdf]]"
 publication: "Scientific Reports (Nature)"
+CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"

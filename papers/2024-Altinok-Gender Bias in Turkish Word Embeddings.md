@@ -26,6 +26,7 @@ external_pdf: "https://aclanthology.org/2024.gebnlp-1.13.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.md"
 local_pdf: "[[PDFs/2024/2024-Altinok-Gender Bias in Turkish Word Embeddings.pdf]]"
 publication: "GeBNLP 2024 (ACL Workshop)"
+CONF-CC: "ACL 2024 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"

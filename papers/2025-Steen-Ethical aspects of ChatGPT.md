@@ -31,6 +31,7 @@ newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Evaluates ChatGPT using EU 'trustworthy AI' requirements through 4 ethical lenses: consequentialism, deontology, relational, and virtue ethics"
 significance: "Argues that virtue ethics (character/wisdom) is essential alongside deontology/utilitarianism for evaluating conversational agents"
 abstract: "This paper proposes an approach to ethical reflection and deliberation for Large Language Models (LLMs) like ChatGPT. It utilizes the European Commission's requirements for \"
+CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260129
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/google/BIG-bench"

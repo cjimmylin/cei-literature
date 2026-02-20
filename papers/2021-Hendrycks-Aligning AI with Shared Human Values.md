@@ -21,6 +21,7 @@ pdf_extract: "PDF Extracts/2021/2021-Hendrycks-Aligning AI with Shared Human Val
 local_pdf: "[[PDFs/2021/2021-Hendrycks-Aligning AI with Shared Human Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2008.02275.pdf"
 publication: "International Conference on Learning Representations (ICLR 2021)"
+CONF-CC: "ICLR 2021"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: "English"

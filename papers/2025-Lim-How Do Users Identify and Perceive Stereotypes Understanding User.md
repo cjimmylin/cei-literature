@@ -23,6 +23,7 @@ authors_incomplete: false
 doi: 10.1145/3715275.3732207
 url: "https://dl.acm.org/doi/10.1145/3715275.3732207"
 publication: ACM
+CONF-CC: "FAccT 2025"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

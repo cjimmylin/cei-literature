@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-16*
+*Last updated: 2026-02-20*
 
 ---
 
@@ -38,6 +38,10 @@
 
 | Date | Category | Learning |
 |------|----------|----------|
+| 2026-02-20 | Classification | **3-Phase Waterfall for CONF-CC:** Local heuristic (regex on `publication`/`type` fields against 90+ conference aliases + 50+ journal patterns) resolves ~81% of papers. OpenAlex DOI lookup catches most journals. Semantic Scholar (arXiv ID / DOI) fills the remaining ~19%. Fallback: Preprint if `type=preprint`, else N/A. Total: 326 unique venues across 2,034 papers. |
+| 2026-02-20 | Classification | **Journal vs Conference Detection:** Hybrid approach needed — exact dictionary match alone misses ~30 journals only discoverable via API results (OpenAlex/Semantic Scholar return venue names not in local dictionaries). Supplement with substring heuristic ("Journal"/"Transactions" in name, but NOT if "Conference" also present). Year suffixes must be stripped before matching (`AI and Ethics 2024` → `AI and Ethics`). |
+| 2026-02-20 | Classification | **Conference Family Extraction:** Regex pattern `strip track suffixes (Findings/Workshop/Demo/D&B/SRW) → strip trailing year → remainder = family name` groups all editions and tracks effectively. Skip entries starting with "Workshop" or "Shared Task" (generic, no family). This gives 87 families from 326 unique CONF-CC values. |
+| 2026-02-20 | Workflows | **Single-Pass Multi-Structure Collection:** When building multiple data structures from the same paper iteration (e.g., `family_counter`, `family_tracks`, `family_year_papers`), extend the existing loop rather than adding a second pass. `defaultdict(lambda: defaultdict(list))` enables clean two-level nesting for family → year → paper filename lists. |
 | 2026-02-16 | Workflows | **Template Injection for Large Dashboards:** When updating a 636KB single-page app with 55 ECharts visualizations, regenerating the entire HTML/CSS/JS is wasteful and fragile. Instead, extract the template, replace only the `const DATA = {...};` blob, and preserve all UI code. Use brace-counting (not regex) to find the JSON boundary — regex like `\{.*?\}` fails on nested braces and `\{.*\}` overshoots. |
 | 2026-02-16 | YAML | **Extended YAML Scanner for List Fields:** The simple per-line `key: value` scanner can't parse multi-line list fields (`cultures_nationalities_list`, `languages_list`, `religious_values_list`). Solution: track `current_list_field` state and collect `- item` continuation lines. Must also handle inline single values (`cultures_nationalities_list: Chinese`) vs empty key followed by list items. |
 | 2026-02-16 | Data Quality | **Post-Enrichment Section Inflation:** After the culture/language/religion backfill, 63% of papers have culture data (vs 22% pre-enrichment). This is accurate — the enrichment properly classified papers that were previously untagged. Dashboard sections should display all enriched data rather than artificially filtering to match old numbers. 248 distinct cultures across 13 regions. |

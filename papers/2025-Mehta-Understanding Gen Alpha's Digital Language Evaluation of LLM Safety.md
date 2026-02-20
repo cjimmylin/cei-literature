@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2505.10588.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md"
 local_pdf: "[[PDFs/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

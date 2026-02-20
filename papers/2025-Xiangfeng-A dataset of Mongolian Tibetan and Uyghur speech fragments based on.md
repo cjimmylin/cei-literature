@@ -21,6 +21,7 @@ last_author: "[[Tursun Kadir Tursun Kadir]]"
 authors: Wei Xiangfeng Wei Xiangfeng; Yuan Yi Yuan Yi; Zhang Quan Zhang Quan; Tursun Kadir Tursun Kadir
 url: "https://www.scidb.cn/en/detail?dataSetId=743522838262054912"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

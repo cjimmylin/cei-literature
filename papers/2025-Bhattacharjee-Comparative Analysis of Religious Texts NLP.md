@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md"
 local_pdf: "[[PDFs/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.pdf]]"
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

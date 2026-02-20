@@ -26,6 +26,7 @@ external_pdf: "https://aclanthology.org/W18-1105.pdf"
 pdf_extract: "PDF Extracts/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md"
 local_pdf: "[[PDFs/2018/2018-Bohra-Hindi-English Code-Mixed Social Media Text for.pdf]]"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

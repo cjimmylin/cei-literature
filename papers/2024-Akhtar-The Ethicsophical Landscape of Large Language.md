@@ -31,6 +31,7 @@ key_contribution: "Analyzes LLM capabilities through Aristotelian virtue and Kan
 significance: "Highlights the need for new ethical paradigms for machine intelligence that go beyond human-like knowledge acquisition"
 tags: 
 abstract: "This paper delves into the profound advancements of Large Language Models (LLMs), epitomized by GPT-3, in natural language processing and artificial intelligence. It explores the epistemological foundations of LLMs through the lenses of Aristotle and Kant, revealing apparent distinctions from human learning. Transitioning seamlessly, the paper then delves into the ethical landscape, extending beyond knowledge acquisition to scrutinize the implications of LLMs in decision-making and content creat"
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"

@@ -25,6 +25,7 @@ pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 local_pdf: "[[PDFs/2025/2025-Atf-Kantian-Utilitarian XAI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2510.03892.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 ethics_perspective: "Kantian Ethics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://kdd-eval-workshop.github.io/genai-evaluation-kdd2025/assets/papers/Submission%2018.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.14805v2.pdf"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md"
 local_pdf: "[[PDFs/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf]]"
 DATE_ADDED: 20260213

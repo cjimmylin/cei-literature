@@ -23,6 +23,7 @@ authors: "Douglas Trajano, Henrique Bordini, Renata Vieira"
 doi: 10.1007/s10579-023-09657-0
 url: "https://link.springer.com/article/10.1007/s10579-023-09657-0"
 publication: "Springer (Language Resources and Evaluation)"
+CONF-CC: "Language Resources and Evaluation"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

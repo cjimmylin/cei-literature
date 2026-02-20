@@ -23,6 +23,7 @@ authors_incomplete: false
 doi: 10.1007/s10579-023-09716-6
 url: "https://link.springer.com/article/10.1007/s10579-023-09716-6"
 publication: "Language Resources and Evaluation (Springer)"
+CONF-CC: "Language Resources and Evaluation"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

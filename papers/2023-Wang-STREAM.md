@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2310.05563"
 external_pdf: "http://arxiv.org/pdf/2310.05563.pdf"
 publication: "Ai & Society"
+CONF-CC: "AI & Society"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -24,6 +24,7 @@ external_pdf: "https://aclanthology.org/2020.findings-emnlp.445.pdf"
 pdf_extract: "PDF Extracts/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.md"
 local_pdf: "[[PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and.pdf]]"
 publication: "EMNLP 2020 Findings"
+CONF-CC: "EMNLP 2020 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

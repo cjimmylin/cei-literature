@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2506.03458.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.md"
 local_pdf: "[[PDFs/2025/2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.pdf]]"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"

@@ -27,6 +27,7 @@ external_pdf: "https://aclanthology.org/2025.findings-acl.1144.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.md"
 local_pdf: "[[PDFs/2025/2025-Fasching-Inconsistencies in Hate Speech Detection Across.pdf]]"
 publication: "WebSearch: inconsistencies hate speech LLM Dravidian"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

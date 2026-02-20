@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2511.17808.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md"
 local_pdf: "[[PDFs/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Portuguese, Brazilian"

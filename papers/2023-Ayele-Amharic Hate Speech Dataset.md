@@ -30,6 +30,7 @@ key_contribution: "Created the first large-scale annotated hate speech dataset (
 significance: "Addresses the critical lack of safety resources for Amharic (Ethiopia), enabling the development of content moderation tools for a low-resource language with significant online conflict."
 tags: 
 abstract: "In this paper, we present a study of efficient data selection and annotation strategies for Amharic hate speech. We also build various classification models and investigate the challenges of hate speech data selection, annotation, and classification for the Amharic language. From a total of over 18 million tweets in our Twitter corpus, 15.1k tweets are annotated by two independent native speakers, and a Cohen’s kappa score of 0.48 is achieved."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"

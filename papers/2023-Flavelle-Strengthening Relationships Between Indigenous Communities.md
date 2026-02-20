@@ -20,6 +20,7 @@ authors: Darren Flavelle, Jordan Lachler
 doi: 10.18653/v1/2023.c3nlp-1.4
 url: "https://aclanthology.org/2023.c3nlp-1.4/"
 publication: ACL Proceedings (C3NLP Workshop at EACL 2023)
+CONF-CC: "ACL 2023 Workshop"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

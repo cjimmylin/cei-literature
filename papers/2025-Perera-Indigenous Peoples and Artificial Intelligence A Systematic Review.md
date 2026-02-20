@@ -20,6 +20,7 @@ authors: Maneesha Perera, Rajith Vidanaarachchi, Sangeetha Chandrashekeran, Meli
 doi: 10.1177/20539517251349170
 url: "https://journals.sagepub.com/doi/10.1177/20539517251349170"
 publication: "SAGE Big Data & Society"
+CONF-CC: "Big Data & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

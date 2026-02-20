@@ -21,6 +21,7 @@ last_author: "[[Saleh Kheiri Abdoljabbar]]"
 authors: Mohammad Karami Sheykhlan; Saleh Kheiri Abdoljabbar
 url: "https://www.authorea.com/users/581546/articles/683116-pars-hao-hate-and-offensive-language-detection-on-persian-tweets-using-machine-learning-and-deep-learning"
 publication: "TechRxiv / Authorea"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

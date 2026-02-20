@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2504.03312.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md"
 local_pdf: "[[PDFs/2025/2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.pdf]]"
 publication: "arXiv / SEPLN"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish, Brazilian"
 cultures_nationalities_list: "Spanish, Portuguese, Basque, Catalan, Galician"

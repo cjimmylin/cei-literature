@@ -21,6 +21,7 @@ last_author: "[[Aleksa Gordic]]"
 authors: "Aleksa Gordic"
 url: "https://github.com/gordicaleksa/serbian-llm-eval"
 publication: "HuggingFace / GitHub"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

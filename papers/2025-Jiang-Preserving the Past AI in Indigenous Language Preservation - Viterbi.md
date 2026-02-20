@@ -22,6 +22,7 @@ authors: "Jiang, Mo"
 authors_incomplete: false
 url: "https://vce.usc.edu/weekly-news-profile/preserving-the-past-ai-in-indigenous-language-preservation/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

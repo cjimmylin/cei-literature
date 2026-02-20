@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-acl.703.pdf"
 external_pdf: "https://arxiv.org/pdf/2408.09819v1.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md"
 local_pdf: "[[PDFs/2025/2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....pdf]]"
 DATE_ADDED: 20260213

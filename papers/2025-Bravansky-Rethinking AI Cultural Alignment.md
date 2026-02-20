@@ -20,6 +20,7 @@ authors: Michal Bravansky, Filip Trhlik, Fazl Barez
 url: "https://arxiv.org/abs/2501.07751"
 external_pdf: "https://arxiv.org/pdf/2501.07751.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Bravansky-Rethinking AI Cultural Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Bravansky-Rethinking AI Cultural Alignment.md"
 DATE_ADDED: 20260215

@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2104.04052.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.md"
 local_pdf: "[[PDFs/2022/2022-Seker-AlephBERT A Hebrew Large Pre-Trained Language Model to Start-off your.pdf]]"
 publication: "arXiv / ACL 2022"
+CONF-CC: "ACL 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew"

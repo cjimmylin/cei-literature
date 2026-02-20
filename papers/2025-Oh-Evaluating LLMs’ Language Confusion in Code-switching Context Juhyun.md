@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b205a.pdf"
 external_pdf: "https://openreview.net/pdf/2c888725c8f08727a2b712c2740bfa5e0b9b205a.pdf"
 publication: OpenReview
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Evaluating LLMs' Language Confusion in Code-switching Context Juhyun.md"
 local_pdf: "[[PDFs/2025/2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.pdf]]"
 DATE_ADDED: 20260213

@@ -31,6 +31,7 @@ key_contribution: "Empirically analyzes the moral reasoning strategies of UK pol
 significance: "Provides empirical data on how professional moral decision-making occurs in practice, highlighting the gap between theoretical virtue ethics and applied rule-following in high-stakes professions"
 tags: 
 abstract: "Drawing upon cross-sectional research with pre- and in-service police officers in the U.K. (N = 571), this paper reports on the moral reasoning strategies favored by the respondents in dealing with bespoke work-related moral quandaries specific to the professional practice of policing. The dominant form of moral reasoning in dealing with those dilemmas was deontological (rule-based). The second most frequently selected reasoning strategy was virtue ethical. Further analysis of the police researc"
+CONF-CC: "Ethics & Behavior"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

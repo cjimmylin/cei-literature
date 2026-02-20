@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2506.15911.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.md"
 local_pdf: "[[PDFs/2025/2025-Hussain-From RAG to Agentic Validating Islamic-Medicine.pdf]]"
 publication: "Muslims in Machine Learning Workshop at ICML 2025 / arXiv"
+CONF-CC: "ICML 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Islamic, Arabic"

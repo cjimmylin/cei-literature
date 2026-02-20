@@ -31,6 +31,7 @@ newtags: "Value Pluralism / Schwartz, Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Argues for the necessity of virtue ethics (wisdom, justice, temperance) alongside deontology/utilitarianism to address existential risks like rogue AI"
 significance: "Revitalizes virtue ethics for the 'Spaceship Earth' context, linking character ethics directly to the postponement of human extinction"
 abstract: "This paper explores the role of virtue ethics (also known as character ethics) in addressing existential risks, including rogue artificial intelligence. Drawing on Van Rensselaer Potter's concept of bioethics, the author argues that virtue ethics should complement deontological and consequentialist frameworks for the prevention of human extinction. The paper investigates how virtues such as wisdom, justice, temperance, and courage are essential for navigating existential ethical issues like global warming and AI alignment. It aims to revitalize the virtue ethics tradition for survival on \"
+CONF-CC: "The AMA Journal of Ethic"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"

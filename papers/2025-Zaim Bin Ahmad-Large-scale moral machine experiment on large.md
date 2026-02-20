@@ -31,6 +31,7 @@ newtags: "Trolley / Dilemmas (Psych), AI Safety & Alignment"
 key_contribution: "Replicated the Moral Machine Experiment on 52 LLMs using Conjoint Analysis, finding that larger models (10B+) align more closely with human utilitarian preferences."
 significance: "Confirms the 'Scaling Law of Morality': bigger models get better at mimicking human norms (specifically Western utilitarian ones), but also exhibit 'hyper-biases' (e.g., extreme speciesism)."
 abstract: "The rapid advancement of Large Language Models (LLMs) and their potential integration into autonomous driving systems necessitates understanding their moral decisionmaking capabilities. While our previous study examined four prominent LLMs using the Moral Machine experimental framework, the dynamic landscape of LLM development demands a more comprehensive analysis. Here, we evaluate moral judgments across 52 different LLMs, including multiple versions of proprietary models (GPT, Claude, Gemini)..."
+CONF-CC: "PLOS ONE"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, ChatGPT, Claude, Gemini, Llama-2, Llama-3, Gemma, PaLM, PaLM-2, Vicuna, Mistral, Phi, o1"
 DATA_URL: "https://github.com/kztakemoto/mmllm"

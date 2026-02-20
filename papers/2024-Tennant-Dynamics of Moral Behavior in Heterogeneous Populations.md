@@ -25,6 +25,7 @@ pdf_extract: "PDF Extracts/2024/2024-Tennant-Dynamics of Moral Behavior in Heter
 local_pdf: "[[PDFs/2024/2024-Tennant-Dynamics of Moral Behavior in Heterogeneous Populations.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2403.04202.pdf"
 publication: "Proceedings of the 7th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2024)"
+CONF-CC: "AIES 2024"
 ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

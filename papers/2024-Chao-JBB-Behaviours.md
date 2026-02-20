@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Chao-JBB-Behaviours.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Vicuna, Mixtral"
 DATA_URL: "https://github.com/JailbreakBench/jailbreakbench"
 publication: "NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 research_topic: "Machine Learning"
 ethics_overall: "Yes"

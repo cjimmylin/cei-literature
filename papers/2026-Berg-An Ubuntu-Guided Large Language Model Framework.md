@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2601.06875.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.md"
 local_pdf: "[[PDFs/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African/Ubuntu, South African"

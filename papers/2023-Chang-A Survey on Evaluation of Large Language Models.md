@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2307.03109
 url: "http://arxiv.org/abs/2307.03109"
 external_pdf: "http://arxiv.org/pdf/2307.03109.pdf"
 publication: "ACM Transactions on Intelligent Systems and Technology"
+CONF-CC: "ACM TIST"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

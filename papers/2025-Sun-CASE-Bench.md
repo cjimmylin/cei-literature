@@ -38,6 +38,7 @@ local_pdf: "[[PDFs/2025/2025-Sun-CASE-Bench.pdf]]"
 LLM_assessed: "GPT-4, Claude, Llama-3, Qwen, Mixtral"
 DATA_URL: "https://github.com/BriansIDP/CASEBench"
 publication: "ICML 2025"
+CONF-CC: "ICML 2025"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -23,6 +23,7 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36632/38770"
 pdf_extract: "PDF Extracts/2025/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.md"
 local_pdf: "[[PDFs/2025/2025-Iftikhar-How LLM Counselors Violate Ethical Standards in Mental Health Practice.pdf]]"
 publication: Unknown
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"

@@ -23,6 +23,7 @@ pdf_extract: "PDF Extracts/2022/2022-Fraser-Does Moral Code Have a Moral Code.md
 local_pdf: "[[PDFs/2022/2022-Fraser-Does Moral Code Have a Moral Code.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2205.12771.pdf"
 publication: TRUSTNLP
+CONF-CC: "TRUSTNLP"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

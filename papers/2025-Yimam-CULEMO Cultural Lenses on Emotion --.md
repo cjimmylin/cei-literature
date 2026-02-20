@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2503.10688.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.md"
 local_pdf: "[[PDFs/2025/2025-Yimam-CULEMO Cultural Lenses on Emotion --.pdf]]"
 publication: "WebSearch: CuLEmo cultural lenses emotion benchmarking"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, Arabic, African/Ubuntu, German, Spanish, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, Arabic, African, German, Spanish"

@@ -20,6 +20,7 @@ authors: "Nicole B. Halmai, Stephanie Russo Carroll, Ibrahim Garba, Joseph Yrach
 doi: 10.1080/15265161.2024.2441737
 url: "https://www.tandfonline.com/doi/full/10.1080/15265161.2024.2441737"
 publication: American Journal of Bioethics
+CONF-CC: "American Journal of Bioethics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

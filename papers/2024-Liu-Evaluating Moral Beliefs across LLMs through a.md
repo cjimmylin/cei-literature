@@ -22,6 +22,7 @@ pdf_extract: "PDF Extracts/2024/2024-Liu-Evaluating Moral Beliefs across LLMs th
 local_pdf: "[[PDFs/2024/2024-Liu-Evaluating Moral Beliefs across LLMs through a.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2411.03665.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
+CONF-CC: "EMNLP 2024"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"

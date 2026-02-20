@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2509.06838.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md"
 local_pdf: "[[PDFs/2025/2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"

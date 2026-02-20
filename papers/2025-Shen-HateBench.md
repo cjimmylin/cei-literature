@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2501.16750
 url: "http://arxiv.org/abs/2501.16750"
 external_pdf: "http://arxiv.org/pdf/2501.16750.pdf"
 publication: "USENIX Security Symposium"
+CONF-CC: "USENIX Security Symposium"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

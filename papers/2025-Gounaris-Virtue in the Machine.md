@@ -31,6 +31,7 @@ key_contribution: "Proposes a virtue-based 'AI Seal of Excellence' certification
 significance: "Offers a specific regulatory implementation of virtue ethics, contrasting it with the data-centric focus of the EU AI Act"
 external_pdf: "https://alkisgounaris.gr/downloads/stories/stories_0132_1942_1_en.pdf"
 abstract: "This article explores the application of **Aristotelian virtue** (**arete**), defined as a quality of excellence, to AI systems under the EU Artificial Intelligence Act. The authors argue that while existing regulations often focus on \"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

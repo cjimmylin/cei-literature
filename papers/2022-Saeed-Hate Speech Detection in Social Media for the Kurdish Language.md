@@ -24,6 +24,7 @@ authors_incomplete: false
 doi: 10.1007/978-3-031-14054-9_24
 url: "https://link.springer.com/chapter/10.1007/978-3-031-14054-9_24"
 publication: "Springer (ICCCI 2022)"
+CONF-CC: "ICCCI 2022"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

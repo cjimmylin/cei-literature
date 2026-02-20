@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2205.15960.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.md"
 local_pdf: "[[PDFs/2022/2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.pdf]]"
 publication: "arXiv / ACL Anthology (EACL 2023, Outstanding Paper)"
+CONF-CC: "EACL 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Indonesian"
 cultures_nationalities_list: "Indonesian"

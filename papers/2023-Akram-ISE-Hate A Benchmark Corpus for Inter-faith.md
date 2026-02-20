@@ -30,6 +30,7 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "Information Processing and Management"
+CONF-CC: "Information Processing and Management"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Pakistani"

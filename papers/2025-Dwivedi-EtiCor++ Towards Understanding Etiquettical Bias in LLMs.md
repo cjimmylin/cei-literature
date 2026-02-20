@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2506.08488.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.pdf]]"
 publication: "ACL 2024"
+CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

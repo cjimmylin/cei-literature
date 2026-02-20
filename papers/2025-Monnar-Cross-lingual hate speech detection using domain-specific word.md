@@ -22,6 +22,7 @@ doi: 10.1371/journal.pone.0306521
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306521"
 external_pdf: "https://europepmc.org/articles/PMC11288409?pdf=render"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
 local_pdf: "[[PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 DATE_ADDED: 20260213

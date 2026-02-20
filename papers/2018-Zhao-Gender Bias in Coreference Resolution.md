@@ -35,6 +35,7 @@ significance: "A foundational operationalization of the deontological duty of 'f
 tags: 
 abstract: "We present an empirical study of gender bias in coreference resolution systems. We ﬁrst introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these Winogender schemas, we evaluate and conﬁrm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
 paper_summary: "Introduces WinoBias, a benchmark for coreference resolution focused on gender bias. Demonstrates that rule-based, feature-rich, and neural coreference systems link gendered pronouns to pro-stereotypical entities with higher accuracy than anti-stereotypical entities (21.1 F1 difference). Proposes a data-augmentation debiasing approach."
+CONF-CC: "NAACL 2018"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/rudinger/winogender-schemas"

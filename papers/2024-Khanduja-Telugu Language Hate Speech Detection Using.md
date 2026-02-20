@@ -31,6 +31,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.1016/j.sasc.2024.200112"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "WebSearch: Telugu hate speech detection"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian, Telugu"

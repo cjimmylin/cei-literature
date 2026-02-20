@@ -27,6 +27,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-024-02099-4.
 pdf_extract: "PDF Extracts/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md"
 local_pdf: "[[PDFs/2024/2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.pdf]]"
 publication: "AI & Society (Springer)"
+CONF-CC: "AI & Society"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"

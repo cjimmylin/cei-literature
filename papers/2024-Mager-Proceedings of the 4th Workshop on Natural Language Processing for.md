@@ -20,6 +20,7 @@ authors: Manuel Mager, Abteen Ebrahimi, Shruti Rijhwani, Arturo Oncevay, Luis Ch
 doi: 10.18653/v1/2024.americasnlp-1
 url: "https://aclanthology.org/volumes/2024.americasnlp-1/"
 publication: ACL Anthology / NAACL 2024
+CONF-CC: "NAACL 2024"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

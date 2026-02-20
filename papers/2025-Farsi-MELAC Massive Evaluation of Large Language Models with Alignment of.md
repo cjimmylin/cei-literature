@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2508.00673.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md"
 local_pdf: "[[PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian, American"
 cultures_nationalities_list: "Iranian"

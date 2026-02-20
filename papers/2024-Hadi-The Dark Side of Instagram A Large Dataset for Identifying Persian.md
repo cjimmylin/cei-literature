@@ -21,6 +21,7 @@ last_author: "[[RafieeZade, Hossein]]"
 authors: "Davardoust, Hadi; Zare, Hadi; RafieeZade, Hossein"
 url: "https://github.com/davardoust/PHICAD"
 publication: "SoCal NLP Symposium 2024"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

@@ -21,6 +21,7 @@ last_author: "[[Kiplangat Korir]]"
 authors: "Kiplangat Korir"
 url: "https://apislhc.org/api-multilingual-multicultural-resources/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

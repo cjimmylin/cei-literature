@@ -20,6 +20,7 @@ authors: William Guey, Pierrick Bougault, Vitor D. de Moura, Wei Zhang, Jose O. 
 url: "https://arxiv.org/abs/2503.23688"
 external_pdf: "https://arxiv.org/pdf/2503.23688.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.md"
 DATE_ADDED: 20260215

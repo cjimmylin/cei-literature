@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2010.15925.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md"
 local_pdf: "[[PDFs/2020/2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2020)"
+CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

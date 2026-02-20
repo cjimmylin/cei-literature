@@ -30,6 +30,7 @@ key_contribution: "Collected the first human-annotated red teaming prompts acros
 significance: "Reveals the 'anglocentric alignment' gap, showing that safety mechanisms trained on English often fail to transfer to other languages/cultures, necessitating multilingual safety data."
 tags: 
 abstract: "A key concern with the concept of alignment is the implicit question of alignment to what? AI systems are increasingly used across the world, yet safety alignment is often focused on homogeneous monolingual settings. Additionally, preference training and safety measures often overfit to harms common in Western-centric datasets. Here, we explore the viability of different alignment approaches when balancing dual objectives: addressing and optimizing for a non-homogeneous set of languages and..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/aya_redteaming"

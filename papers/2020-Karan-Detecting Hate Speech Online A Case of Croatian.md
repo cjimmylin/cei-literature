@@ -23,6 +23,7 @@ doi: 10.1007/978-3-030-38833-1_16
 url: "https://link.springer.com/chapter/10.1007/978-3-030-38833-1_16"
 external_pdf: "https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:892/datastream/FILE0"
 publication: Springer
+CONF-CC: "Communications in computer and information science 2020"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

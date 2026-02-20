@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2311.06899
 url: "http://arxiv.org/abs/2311.06899"
 external_pdf: "http://arxiv.org/pdf/2311.06899.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
+CONF-CC: "NAACL 2023"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"

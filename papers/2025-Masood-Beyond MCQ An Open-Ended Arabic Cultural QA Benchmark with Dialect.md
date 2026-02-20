@@ -21,6 +21,7 @@ authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/html/2510.24328"
 external_pdf: "https://arxiv.org/pdf/2510.24328.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA Benchmark with Dialect.md"
 local_pdf: "[[PDFs/2025/2025-Masood-Beyond MCQ An Open-Ended Arabic Cultural QA Benchmark with Dialect.pdf]]"
 DATE_ADDED: 20260213

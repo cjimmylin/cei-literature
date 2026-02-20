@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2601.14063.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md"
 local_pdf: "[[PDFs/2026/2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Multicultural/Cross-cultural"
 cultures_nationalities_list: "Multicultural/Cross-cultural"

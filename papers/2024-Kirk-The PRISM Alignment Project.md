@@ -36,6 +36,7 @@ local_pdf: "[[PDFs/2024/2024-Kirk-The PRISM Alignment Project.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Mistral, Falcon, Flan-T5, PaLM-2"
 DATA_URL: "https://github.com/HannahKirk/prism-alignment, https://huggingface.co/datasets/HannahRoseKirk/prism-alignment"
 publication: "NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

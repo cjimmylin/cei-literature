@@ -23,6 +23,7 @@ pdf_extract: "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Value
 local_pdf: "[[PDFs/2025/2025-Sorensen-Operationalizing Pluralistic Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "German, American"
 cultures_nationalities_list: "American, German"

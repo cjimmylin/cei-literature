@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2009.08820.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md"
 local_pdf: "[[PDFs/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.pdf]]"
 publication: "arXiv / Soft Computing (Springer)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian"

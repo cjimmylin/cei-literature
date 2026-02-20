@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2024/2024-Defrance-ABCFair.md"
 abstract: "Numerous methods have been implemented that pursue fairness with respect to sensitive features by mitigating biases in machine learning. Yet, the problem settings that each method tackles vary significantly, including the stage of intervention, the composition of sensitive features, the fairness notion, and the distribution of the output. Even in binary classification, these subtle differences make it highly complicated to benchmark fairness methods, as their performance can strongly depend on..."
 paper_summary: "Abstract: Numerous methods have been implemented that pursue fairness with respect to sen- sitive features by mitigating biases in machine learning. Yet, the problem settings that each method tackles vary signi | Overview: ABCFair: an Adaptable Benchmark approach for Comparing Fairness methods MaryBeth Defrance Ghent University marybeth.defrance@ugent.be Maarten Buyl Ghent University maarten.buyl@ugent.be Tijl De Bie Gh | Methodology: for Comparing Fairness methods MaryBeth Defrance Ghent University marybeth.defrance@ugent.be Maarten Buyl Ghent University maarten.buyl@ugent.be Tijl"
 local_pdf: "[[PDFs/2024/2024-Defrance-ABCFair.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/aida-ugent/abcfair"

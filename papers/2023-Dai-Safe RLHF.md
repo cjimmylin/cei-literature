@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2310.12773
 url: "https://arxiv.org/abs/2310.12773"
 external_pdf: "https://arxiv.org/pdf/2310.12773.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: ""

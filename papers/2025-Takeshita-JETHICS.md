@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2506.16187
 url: "http://arxiv.org/abs/2506.16187"
 external_pdf: "http://arxiv.org/pdf/2506.16187.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"
 languages_list: "Japanese"

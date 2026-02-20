@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2312.07831.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md"
 local_pdf: "[[PDFs/2023/2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.pdf]]"
 publication: "arXiv / ACM SOICT 2023"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"

@@ -19,6 +19,7 @@ authors: "Janis Goldzycher, Anna Maria Planitzer, Claudia Pichler, Sebastian Pad
 url: "https://arxiv.org/abs/2406.08080"
 external_pdf: "https://arxiv.org/pdf/2406.08080.pdf"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.md"
 local_pdf: "[[PDFs/2024/2024-Goldzycher-AustroTox A Dataset for Target-Based Austrian German Offensive.pdf]]"
 DATE_ADDED: 20260213

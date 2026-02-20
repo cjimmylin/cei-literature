@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2503.08688.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Khan-Randomness Not Representation The Unreliability of Evaluating.md"
 local_pdf: "[[PDFs/2025/2025-Khan-Randomness Not Representation The Unreliability of Evaluating.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

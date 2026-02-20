@@ -21,6 +21,7 @@ last_author: "[[Dung Nguyen Quang]]"
 authors: "Dung Nguyen Quang"
 url: "https://huggingface.co/datasets/nqdhocai/vietnamese-legal-qa"
 publication: HuggingFace
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

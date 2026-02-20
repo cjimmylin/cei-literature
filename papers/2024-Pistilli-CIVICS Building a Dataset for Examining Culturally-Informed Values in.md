@@ -19,6 +19,7 @@ authors: Giada Pistilli, Alina Leidinger, Yacine Jernite, Atoosa Kasirzadeh, Ale
 url: "https://arxiv.org/abs/2405.13974"
 external_pdf: "https://arxiv.org/pdf/2405.13974.pdf"
 publication: HuggingFace
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md"
 DATE_ADDED: 20260215

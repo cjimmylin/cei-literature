@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2512.01351.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.md"
 local_pdf: "[[PDFs/2025/2025-Poole-Dayan-OvertonScore Benchmarking Overton Pluralism in LLMs.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"

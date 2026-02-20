@@ -21,6 +21,7 @@ authors: Eunsol Lee, Heeseon Do, Minseok Kim, Dongyub Oh
 doi: 10.3390/app15137561
 url: "https://www.mdpi.com/2076-3417/15/13/7561"
 publication: MDPI Applied Sciences
+CONF-CC: "MDPI Applied Sciences"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

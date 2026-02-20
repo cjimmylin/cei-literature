@@ -20,6 +20,7 @@ authors: Neel Prabhanjan Rachamalla, Aravind Konakalla, Gautam Rajeev, Ashish Ku
 url: "https://arxiv.org/abs/2510.07000"
 external_pdf: "https://arxiv.org/pdf/2510.07000.pdf"
 publication: arXiv / MRL 2025
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Rachamalla-Pragyaan Designing and Curating High-Quality Cultural Post-Training.md"
 DATE_ADDED: 20260215

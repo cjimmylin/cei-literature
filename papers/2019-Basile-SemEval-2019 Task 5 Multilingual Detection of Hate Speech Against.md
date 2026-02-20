@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/S19-2007/"
 external_pdf: "https://aclanthology.org/S19-2077.pdf"
 publication: "ACL Anthology / SemEval 2019"
+CONF-CC: "SemEval 2019"
 pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md"
 local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.pdf]]"
 DATE_ADDED: 20260213

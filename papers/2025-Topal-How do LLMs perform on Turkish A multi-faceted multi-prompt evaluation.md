@@ -20,6 +20,7 @@ authors: Mustafa Burak Topal, Aysun Bozanta, Ayse Basar
 doi: 10.1016/j.eswa.2025.127421
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417425010437"
 publication: ScienceDirect
+CONF-CC: "Expert Systems with Applications"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

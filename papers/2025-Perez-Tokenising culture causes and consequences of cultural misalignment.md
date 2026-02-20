@@ -22,6 +22,7 @@ authors: "Perez, Jorge"
 authors_incomplete: false
 url: "https://www.adalovelaceinstitute.org/blog/cultural-misalignment-llms/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

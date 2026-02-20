@@ -30,6 +30,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The Letta Leaderboard is a comprehensive benchmark suite that evaluates how effectively LLMs manage agentic memory. It measures two foundational aspects of context management: core memory (in-context memory) and archival memory (external memory). The benchmark evaluates stateful agents' fundamental capabilities on reading, writing, and updating memories using fictional question-answering datasets with supporting facts to minimize prior knowledge from LLM training."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4"
 DATA_URL: "NA"

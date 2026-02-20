@@ -21,6 +21,7 @@ last_author: "[[Dave Davies]]"
 authors: "Dave Davies"
 url: "https://responsibleailabs.ai/knowledge-hub/articles/llm-evaluation-benchmarks-2025"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

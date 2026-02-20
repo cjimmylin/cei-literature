@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2412.13013.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

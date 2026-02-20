@@ -22,6 +22,7 @@ doi: 10.2139/ssrn.4731871
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871"
 external_pdf: "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4731871_code2139.pdf"
 publication: SSRN
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

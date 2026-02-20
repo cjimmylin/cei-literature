@@ -19,6 +19,7 @@ authors: "Gorka Urbizu, Iñaki San Vicente, Xabier Saralegi, Rodrigo Agerri, Ait
 url: "https://aclanthology.org/2022.lrec-1.172/"
 external_pdf: "https://arxiv.org/pdf/2512.03903.pdf"
 publication: "ACL Anthology (LREC 2022)"
+CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md"
 local_pdf: "[[PDFs/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.pdf]]"
 DATE_ADDED: 20260213

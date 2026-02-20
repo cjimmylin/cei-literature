@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2203.13778"
 pdf_extract: "PDF Extracts/2024/2024-[[Velankar]]-SamPar A Marathi Hate Speech Dataset.md"
 local_pdf: "[[PDFs/2022/2022-team-L3Cube-MahaHate A Tweet-based Marathi Hate Speech.pdf]]"
 publication: "Springer (SPELLL 2023)"
+CONF-CC: "SPELLL 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

@@ -31,6 +31,7 @@ key_contribution: "Introduced XSTest, a test suite designed to identify 'exagger
 significance: "Highlights the 'safety-helpfulness trade-off', showing that current alignment methods often result in models that are too cautious, reducing their utility for legitimate user queries."
 tags: 
 abstract: "Without proper safeguards, large language models will readily follow malicious instructions and generate toxic content. This risk motivates safety efforts such as red-teaming and large-scale feedback learning, which aim to make models both helpful and harmless. However, there is a tension between these two objectives, since harmlessness requires models to refuse to comply with unsafe prompts, and thus not be helpful."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-2, Mistral"
 DATA_URL: "https://github.com/paul-rottger/exaggerated-safety"

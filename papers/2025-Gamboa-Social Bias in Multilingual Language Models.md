@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2508.20201.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Gamboa-Social Bias in Multilingual Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Gamboa-Social Bias in Multilingual Language Models.pdf]]"
 publication: "WebSearch: social bias multilingual LLM"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

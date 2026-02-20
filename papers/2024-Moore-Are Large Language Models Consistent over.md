@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2407.02996
 url: "http://arxiv.org/abs/2407.02996"
 external_pdf: "http://arxiv.org/pdf/2407.02996.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
+CONF-CC: "EMNLP 2024"
 national_ethnic_cultural: "Chinese, Japanese, German, American"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Chinese, English, German, Japanese"

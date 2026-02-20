@@ -22,6 +22,7 @@ doi: N/A
 url: "https://montrealethics.ai/consequentialism-and-machine-ethics-towards-a-foundational-machine-ethic-to-ensure-the-ethical-conduct-of-artificial-moral-agents/"
 external_pdf: N/A
 publication: "Montreal AI Ethics Institute"
+CONF-CC: "N/A"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

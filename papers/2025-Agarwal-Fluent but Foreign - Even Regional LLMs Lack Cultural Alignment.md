@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Indian, American"
 cultures_nationalities_list: "Indian, American"

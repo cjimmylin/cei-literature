@@ -24,6 +24,7 @@ authors_incomplete: false
 url: "https://koreascience.or.kr/article/CFKO202521032403557.page"
 external_pdf: "https://koreascience.or.kr/article/CFKO202521032403557.pdf"
 publication: "KIPS Annual Conference 2025"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md"
 local_pdf: "[[PDFs/2025/2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.pdf]]"
 DATE_ADDED: 20260213

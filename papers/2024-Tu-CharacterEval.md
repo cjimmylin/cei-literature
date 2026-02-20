@@ -32,6 +32,7 @@ significance: "Addresses the lack of benchmarks for role-playing agents (RPCAs) 
 tags: 
 abstract: "Recently, the advent of large language models (LLMs) has revolutionized generative agents. Among them, Role-Playing Conversational Agents (RPCAs) attract considerable attention due to their ability to emotionally engage users. However, the absence of a comprehensive benchmark impedes progress in this field. To bridge this gap, we introduce CharacterEval, a Chinese benchmark for comprehensive RPCA assessment, complemented by a tailored high-quality dataset. The dataset contains 1,785 multi-turn dialogues with approximately 23,000 examples featuring 77 characters sourced from Chinese literary works. We employ a multifaceted evaluation approach, encompassing thirteen targeted metrics across four dimensions."
 paper_summary: "Introduces CharacterEval, a Chinese benchmark for evaluating Role-Playing Conversational Agents (RPCAs). Dataset contains 1,785 multi-turn dialogues with 23,000 examples featuring 77 characters from Chinese literary works. Employs 13 metrics across 4 dimensions; Chinese LLMs outperformed GPT-4 in role-playing tasks."
+CONF-CC: "ACL 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5"
 DATA_URL: "https://github.com/morecry/CharacterEval"

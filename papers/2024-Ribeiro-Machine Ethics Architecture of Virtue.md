@@ -30,6 +30,7 @@ key_contribution: "Presents Virtue Ethics as optimal framework for robot moral b
 significance: "Conference paper bridging virtue ethics theory with practical robotics implementation"
 external_pdf: N/A
 abstract: "This paper presents Virtue Ethics as a better option for implementing moral behavior on robots, based on advances in robotics including neural networks, machine learning, and robots with cognitive abilities. The authors argue that virtue ethics provides a suitable framework for machine ethics given modern AI capabilities."
+CONF-CC: "Communications in computer and information science 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

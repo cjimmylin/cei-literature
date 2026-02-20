@@ -20,6 +20,7 @@ authors: Shogo Ikari, Kosuke Sato, Emily Burdett, Hiroshi Ishiguro, Jonathan Jon
 doi: 10.1177/00220221231193369
 url: "https://journals.sagepub.com/doi/10.1177/00220221231193369"
 publication: SAGE Journals / Journal of Cross-Cultural Psychology
+CONF-CC: "Journal of Cross-Cultural Psychology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

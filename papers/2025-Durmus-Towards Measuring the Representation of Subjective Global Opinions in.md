@@ -22,6 +22,7 @@ authors: "Durmus, Esin; Nguyen, Karina; Liao, Thomas I.; Schiefer, Nicholas; Ask
 authors_incomplete: false
 url: "https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md"
 local_pdf: "[[PDFs/2025/2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.pdf]]"
 DATE_ADDED: 20260213

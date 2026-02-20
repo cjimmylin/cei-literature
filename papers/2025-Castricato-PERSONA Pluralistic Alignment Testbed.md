@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2407.17387.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.md"
 local_pdf: "[[PDFs/2025/2025-Castricato-PERSONA Pluralistic Alignment Testbed.pdf]]"
 publication: "COLING 2025"
+CONF-CC: "COLING 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "American"

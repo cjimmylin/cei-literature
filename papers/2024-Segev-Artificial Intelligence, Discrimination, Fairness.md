@@ -23,6 +23,7 @@ doi: 10.1007/s11023-024-09702-z
 url: "https://doi.org/10.1007/s11023-024-09702-z"
 external_pdf: 
 publication: "Minds and Machines"
+CONF-CC: "Minds and Machines"
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"
 languages_list: ""

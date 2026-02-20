@@ -22,6 +22,7 @@ authors_incomplete: false
 doi: 10.1145/3769086
 url: "https://dl.acm.org/doi/10.1145/3769086"
 publication: ACM
+CONF-CC: "ACM Transactions on Management Information Systems"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

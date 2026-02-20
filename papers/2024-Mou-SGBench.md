@@ -38,6 +38,7 @@ local_pdf: "[[PDFs/2024/2024-Mou-SGBench.pdf]]"
 LLM_assessed: "ChatGPT, GPT-4, GPT-3.5, Claude, Mistral, Llama-3, Llama-2, Qwen"
 DATA_URL: "https://github.com/MurrayTom/SG-Bench"
 publication: "NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 authors_incomplete: false
 ethics_overall: "Yes"

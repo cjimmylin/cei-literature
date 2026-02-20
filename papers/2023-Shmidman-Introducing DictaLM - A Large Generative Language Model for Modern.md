@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2309.14568.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md"
 local_pdf: "[[PDFs/2023/2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli"

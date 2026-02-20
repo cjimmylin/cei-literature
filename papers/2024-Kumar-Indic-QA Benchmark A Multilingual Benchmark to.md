@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2407.13522.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.md"
 local_pdf: "[[PDFs/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.pdf]]"
 publication: "WebSearch: multilingual benchmark Indic"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

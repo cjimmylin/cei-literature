@@ -24,6 +24,7 @@ authors: "Authors from Stanford/Masakhane"
 url: "https://ojs.stanford.edu/ojs/index.php/grace/article/view/2584"
 external_pdf: "https://ojs.stanford.edu/ojs/index.php/grace/article/download/2584/1546"
 publication: "WebSearch: Decolonizing NLP low-resource languages relational ethics Birhane"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md"
 local_pdf: "[[PDFs/2023/2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.pdf]]"
 DATE_ADDED: 20260213

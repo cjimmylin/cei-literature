@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-acl.488.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.01771v1.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md"
 local_pdf: "[[PDFs/2025/2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....pdf]]"
 DATE_ADDED: 20260213

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2212.09648.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md"
 local_pdf: "[[PDFs/2023/2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.pdf]]"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

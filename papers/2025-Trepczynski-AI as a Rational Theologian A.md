@@ -28,6 +28,7 @@ external_pdf: "https://doi.org/10.31338/uw.9788323569183"
 pdf_extract: "PDF Extracts/2025/2025-Trepczynski-AI as a Rational Theologian A.md"
 local_pdf: "[[PDFs/2025/2025-Trepczynski-AI as a Rational Theologian A.pdf]]"
 publication: "Wydawnictwa Uniwersytetu Warszawskiego (Warsaw University Press), monograph"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

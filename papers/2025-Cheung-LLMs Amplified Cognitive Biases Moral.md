@@ -33,6 +33,7 @@ LLM_assessed: "GPT-4, Claude, Llama-3"
 DATA_URL: "https://osf.io/3ahrb"
 normative_ethics_benchmark: Yes
 publication: PNAS
+CONF-CC: "PNAS"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

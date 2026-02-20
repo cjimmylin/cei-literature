@@ -22,6 +22,7 @@ doi: 10.1007/s43681-025-00716-6
 url: "https://link.springer.com/article/10.1007/s43681-025-00716-6"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00716-6.pdf"
 publication: "Springer AI and Ethics"
+CONF-CC: "AI and Ethics"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

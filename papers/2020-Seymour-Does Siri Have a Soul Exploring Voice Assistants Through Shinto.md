@@ -21,6 +21,7 @@ doi: 10.1145/3334480.3381809
 url: "https://dl.acm.org/doi/10.1145/3334480.3381809"
 external_pdf: "https://arxiv.org/pdf/2003.03207.pdf"
 publication: ACM Digital Library / arXiv
+CONF-CC: "Preprint"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

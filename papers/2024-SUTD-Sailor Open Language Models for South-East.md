@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2404.03608.pdf"
 pdf_extract: "PDF Extracts/2024/2024-SUTD-Sailor Open Language Models for South-East.md"
 local_pdf: "[[PDFs/2024/2024-SUTD-Sailor Open Language Models for South-East.pdf]]"
 publication: "EMNLP 2024 Demo"
+CONF-CC: "EMNLP 2024 Demo"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Indonesian, Thai, Vietnamese"
 cultures_nationalities_list: "Chinese, Indonesian, Thai, Vietnamese, Southeast Asian"

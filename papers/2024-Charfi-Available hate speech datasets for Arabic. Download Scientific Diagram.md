@@ -23,6 +23,7 @@ authors: Anis Charfi; Mabrouka Besghaier; Raghda Akasheh; Andria Atalla; Wajdi Z
 authors_incomplete: false
 url: "https://www.researchgate.net/figure/Available-hate-speech-datasets-for-Arabic_tbl1_381031629"
 publication: ResearchGate
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

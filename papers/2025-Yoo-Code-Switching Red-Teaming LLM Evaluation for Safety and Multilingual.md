@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2406.15481.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md"
 local_pdf: "[[PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.pdf]]"
 publication: "arXiv / ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Korean, Thai, Vietnamese, Arabic, African/Ubuntu, Italian"
 cultures_nationalities_list: "Chinese, Korean, Thai, Vietnamese, Arabic, Italian, African"

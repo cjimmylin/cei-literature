@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2025/2025-Backmann-When Ethics and Payoffs Diverge.pdf]]"
 LLM_assessed: "GPT-4, Claude, Gemini, Llama-3, DeepSeek, Qwen, o3"
 DATA_URL: "https://github.com/sbackmann/moralsim"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

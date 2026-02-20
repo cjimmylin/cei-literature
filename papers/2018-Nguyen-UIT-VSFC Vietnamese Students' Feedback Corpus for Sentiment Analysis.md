@@ -24,6 +24,7 @@ doi: 10.1109/KSE.2018.8573337
 url: "https://ieeexplore.ieee.org/document/8573337/"
 external_pdf: "http://xplorestaging.ieee.org/ielx7/8553666/8573236/08573337.pdf?arnumber=8573337"
 publication: IEEE
+CONF-CC: "International Conference on Knowledge and Systems Engineering"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

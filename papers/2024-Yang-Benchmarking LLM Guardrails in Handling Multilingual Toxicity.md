@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2410.22153.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md"
 local_pdf: "[[PDFs/2024/2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Korean, Indian, Arabic, African/Ubuntu, French, German, Spanish"
 cultures_nationalities_list: "Chinese, Korean, Indian, Arabic, African, French, German, Spanish"

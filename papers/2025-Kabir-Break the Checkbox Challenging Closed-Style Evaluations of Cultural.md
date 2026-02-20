@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2502.08045.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"
 local_pdf: "[[PDFs/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.pdf]]"
 publication: "arXiv / EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Indian, Arabic, French, German, Spanish, Russian"

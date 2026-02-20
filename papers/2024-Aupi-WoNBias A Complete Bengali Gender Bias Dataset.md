@@ -22,6 +22,7 @@ authors: Md. Raisul Islam Aupi; Nishat Tafannum; Md. Shahidur Rahman; Kh Mahmudu
 authors_incomplete: false
 url: "https://huggingface.co/datasets/gender-bias-bengali/wonbias-complete-dataset"
 publication: HuggingFace
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.pdf]]"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.10.pdf"

@@ -22,6 +22,7 @@ doi: 10.1016/j.jesp.2022.104327
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464"
 external_pdf: "https://doi.org/10.36571/ajsp661"
 publication: "Journal of Experimental Social Psychology"
+CONF-CC: "Journal of Experimental Social Psychology"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

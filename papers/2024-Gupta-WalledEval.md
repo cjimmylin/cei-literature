@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2408.03837.pdf"
 pdf_extract: "PDF Extracts/0000/2024-Gupta-WalledEval.md"
 local_pdf: "[[PDFs/2024/2024-Gupta-WalledEval.pdf]]"
 publication: "EMNLP 2024"
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

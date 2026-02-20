@@ -21,6 +21,7 @@ authors: William Hackett; Lewis Birch; Stefan Trawicki; Neeraj Suri; Peter Garra
 url: "https://mindgard.ai/resources/bypassing-llm-guardrails-character-and-aml-attacks-in-practice"
 external_pdf: "https://arxiv.org/pdf/2504.11168"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: PDF Extracts/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.md
 local_pdf: "[[PDFs/2025/2025-Hackett-Bypassing LLM guardrails character and AML attacks in practice -.pdf]]"
 DATE_ADDED: 20260213

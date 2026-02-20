@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2402.11548.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md"
 local_pdf: "[[PDFs/2024/2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.pdf]]"
 publication: "arXiv / NAACL 2025"
+CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Korean"
 cultures_nationalities_list: "Korean"

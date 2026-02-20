@@ -20,6 +20,7 @@ last_author: "[[Proszeky, Gabor]]"
 authors: Noemi Ligeti-Nagy; Gabor Madarasz; Flora Foldesi; Mariann Lengyel; Matyas Osvath; Bence Sarossy; Kristof Varga; Gyozo Zijian Yang; Eniko Heja; Tamas Varadi; Gabor Proszeky
 url: "https://aclanthology.org/2025.gem-1.32.pdf"
 publication: ACL Anthology
+CONF-CC: "N/A"
 local_pdf: "[[PDFs/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.md"
 "N/A"

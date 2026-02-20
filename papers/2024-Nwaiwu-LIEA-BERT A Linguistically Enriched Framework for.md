@@ -25,6 +25,7 @@ external_pdf: "https://datasciencehub.net/system/files/ds-paper-909.pdf"
 pdf_extract: "PDF Extracts/0000/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md"
 local_pdf: "[[PDFs/2024/2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.pdf]]"
 publication: "Data Science Hub"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

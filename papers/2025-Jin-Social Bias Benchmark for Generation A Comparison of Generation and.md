@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2503.06987.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md"
 local_pdf: "[[PDFs/2025/2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.pdf]]"
 publication: "arXiv / ACL 2025 Findings"
+CONF-CC: "ACL 2025 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

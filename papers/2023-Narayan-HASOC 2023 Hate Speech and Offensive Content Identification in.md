@@ -23,6 +23,7 @@ doi: 10.1145/3632754.3633278
 url: "https://dl.acm.org/doi/10.1145/3632754.3633278"
 external_pdf: "https://arxiv.org/pdf/2312.05671.pdf"
 publication: "ACM (FIRE 2023)"
+CONF-CC: "FIRE 2023"
 pdf_extract: "PDF Extracts/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md"
 local_pdf: "[[PDFs/2023/2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.pdf]]"
 DATE_ADDED: 20260213

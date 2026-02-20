@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2508.07069.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.md"
 local_pdf: "[[PDFs/2025/2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indonesian, Thai, Vietnamese, Filipino, Malaysian, Burmese"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2505.01015.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Han-Value Portrait.md"
 local_pdf: "[[PDFs/2025/2025-Han-Value Portrait.pdf]]"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

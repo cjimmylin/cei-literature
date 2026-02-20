@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2404.11553.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.md"
 local_pdf: "[[PDFs/2024/2024-Li-Language Ranker A Metric for Quantifying LLM Performance Across.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, German"
 cultures_nationalities_list: "Cross-cultural"

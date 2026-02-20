@@ -33,6 +33,7 @@ key_contribution: "Investigates how religious affiliation (Muslim, Mormon, Jewis
 significance: "Challenges the assumption of a universal boundary between 'moral' and 'conventional' domains, showing that AI alignment must account for deep disagreements about *what counts* as a moral issue across religions."
 tags: 
 abstract: "What is the relationship between religious affiliation and conceptions of the moral domain? Putting aside the question of whether people from different religions agree about how to answer moral questions, here we investigate a more fundamental question: How much disagreement is there across religions about which issues count as moral in the first place? That is, do people from different religions conceptualize the scope of morality differently? Using a new methodology to map out how individuals"
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/sydneylevine/moral-domain"

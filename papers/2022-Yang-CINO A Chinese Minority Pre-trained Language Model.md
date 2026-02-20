@@ -20,6 +20,7 @@ authors: Ziqing Yang, Zihang Xu, Yiming Cui, Baoxin Wang, Min Lin, Dayong Wu, Zh
 url: "https://arxiv.org/abs/2202.13558"
 external_pdf: "https://arxiv.org/pdf/2202.13558.pdf"
 publication: arXiv / COLING 2022
+CONF-CC: "COLING 2022"
 local_pdf: "[[PDFs/2022/2022-Yang-CINO A Chinese Minority Pre-trained Language Model.pdf]]"
 pdf_extract: "PDF Extracts/2022/2022-Yang-CINO A Chinese Minority Pre-trained Language Model.md"
 DATE_ADDED: 20260215

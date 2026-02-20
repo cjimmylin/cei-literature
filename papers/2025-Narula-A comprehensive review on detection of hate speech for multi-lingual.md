@@ -22,6 +22,7 @@ doi: 10.1007/s13278-024-01401-y
 url: "https://link.springer.com/article/10.1007/s13278-024-01401-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-024-01401-y.pdf"
 publication: Springer
+CONF-CC: "Social Network Analysis and Mining"
 pdf_extract: "PDF Extracts/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.md"
 local_pdf: "[[PDFs/2025/2025-Narula-A comprehensive review on detection of hate speech for multi-lingual.pdf]]"
 DATE_ADDED: 20260213

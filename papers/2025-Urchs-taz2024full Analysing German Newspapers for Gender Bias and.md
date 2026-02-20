@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2506.05388"
 external_pdf: "https://arxiv.org/pdf/2506.05388.pdf"
 publication: "arXiv / ACL 2025"
+CONF-CC: "ACL 2025"
 pdf_extract: "PDF Extracts/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.md"
 local_pdf: "[[PDFs/2025/2025-Urchs-taz2024full Analysing German Newspapers for Gender Bias and.pdf]]"
 DATE_ADDED: 20260213

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2312.12624.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md"
 local_pdf: "[[PDFs/2023/2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

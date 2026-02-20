@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2602.03160.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md"
 local_pdf: "[[PDFs/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

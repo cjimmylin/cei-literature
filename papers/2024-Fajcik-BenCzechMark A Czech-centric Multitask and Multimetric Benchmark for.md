@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2412.17933.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md"
 local_pdf: "[[PDFs/2024/2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Czech"

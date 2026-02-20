@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2502.08177.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Fanous-SycEval Evaluating LLM Sycophancy.md"
 local_pdf: "[[PDFs/2025/2025-Fanous-SycEval Evaluating LLM Sycophancy.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

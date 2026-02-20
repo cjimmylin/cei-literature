@@ -32,6 +32,7 @@ key_contribution: "Developed a multi-label classification framework for hate spe
 significance: "Addresses the lack of safety resources for low-resource languages (Indonesian), enabling more nuanced content moderation that distinguishes between different types and severities of hate."
 tags: 
 abstract: "Hate speech and abusive language spreading on social media need to be detected automatically to avoid conﬂicts between citizens. Moreover, hate speech has a target, category, and level that also need to be detected to help the authority in prioritizing which hate speech must be addressed immediately. This research discusses multi-label text classiﬁcation for abusive language and hate speech detection including detecting the target, category, and level of hate speech in Indonesian Twitter using..."
+CONF-CC: "Proceedings of the Third Workshop on Abusive Language Online"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/okkyibrohim/id-multi-label-hate-speech-and-abusive-language-detection"

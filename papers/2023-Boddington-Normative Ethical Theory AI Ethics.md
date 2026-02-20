@@ -22,6 +22,7 @@ doi: 10.1007/978-981-19-9382-4_6
 url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"
 external_pdf: "http://arxiv.org/pdf/2306.11432"
 publication: "AI Ethics (Springer)"
+CONF-CC: "Artificial intelligence: foundations, theory, and algorithms/Artificial intelligence: Foundations, theory, and algorithms 2023"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

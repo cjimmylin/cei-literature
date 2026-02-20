@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2512.01419.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md"
 local_pdf: "[[PDFs/2025/2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino"
 cultures_nationalities_list: "Southeast Asian, Indonesian, Filipino, Vietnamese, Thai, Malaysian, Singaporean, Cambodian, Laotian, Burmese, Bruneian"

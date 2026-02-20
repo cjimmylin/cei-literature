@@ -20,6 +20,7 @@ authors: Todd J.B. Blayone, Olena Mykhailenko
 doi: 10.1515/pdtc-2024-0086
 url: "https://www.degruyterbrill.com/document/doi/10.1515/pdtc-2024-0086/html"
 publication: "De Gruyter Preservation, Digital Technology & Culture"
+CONF-CC: "Preservation Digital Technology & Culture"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

@@ -21,6 +21,7 @@ authors: "Jatin Chhabra; Kartik Sama; Jay Deshmukh"
 doi: 10.1007/s43681-024-00532-4
 url: "https://link.springer.com/article/10.1007/s43681-024-00532-4"
 publication: "AI and Ethics"
+CONF-CC: "AI and Ethics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

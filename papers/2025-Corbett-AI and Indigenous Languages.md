@@ -22,6 +22,7 @@ authors: Jon Corbett
 authors_incomplete: false
 url: "https://blog.westerndigital.com/indigenous-languages/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

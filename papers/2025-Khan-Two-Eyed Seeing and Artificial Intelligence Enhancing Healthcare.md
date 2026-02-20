@@ -20,6 +20,7 @@ authors: Amal Khan, Victoria McKinney, Ivar Mendez
 doi: 10.17269/s41997-025-01037-1
 url: "https://link.springer.com/article/10.17269/s41997-025-01037-1"
 publication: Canadian Journal of Public Health
+CONF-CC: "Canadian Journal of Public Health"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

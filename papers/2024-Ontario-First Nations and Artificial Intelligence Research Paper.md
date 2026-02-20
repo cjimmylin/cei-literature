@@ -19,6 +19,7 @@ last_author: "[[Research and Data Management Sector]]"
 authors: Chiefs of Ontario, Research and Data Management Sector
 url: "https://chiefs-of-ontario.org/wp-content/uploads/2024/05/2024_08_16_RP_First_Nations_and-_AI_Paper_BW_final_Ack.pdf"
 publication: Chiefs of Ontario
+CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

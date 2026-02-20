@@ -34,6 +34,7 @@ key_contribution: "Investigated the link between moral identity, deontological v
 significance: "Found that deontological reasoning, when coupled with strong moral identity, most effectively predicts moral behavior, challenging the view of deontology as merely Error-prone intuition"
 tags: 
 abstract: "Deontology and utilitarianism are two competing principles that guide our moral judgment. Recently, deontology is thought to be intuitive and is based on an error-prone and biased approach, whereas utilitarianism is relatively reﬂective and a suitable framework for making decision. In this research, the authors explored the relationship among moral identity, moral decision, and moral behavior to see how a preference for the deontological solution can lead to moral behavior."
+CONF-CC: "Journal of Business Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

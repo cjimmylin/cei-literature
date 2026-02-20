@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2404.11086.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.md"
 local_pdf: "[[PDFs/2024/2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"

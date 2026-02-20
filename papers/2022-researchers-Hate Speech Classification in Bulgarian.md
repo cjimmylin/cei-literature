@@ -20,6 +20,7 @@ authors: "Bulgarian NLP researchers"
 url: "https://aclanthology.org/2022.clib-1.5/"
 external_pdf: "https://aclanthology.org/2022.clib-1.5.pdf"
 publication: "ACL Anthology (CLIB 2022)"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2022/2022-researchers-Hate Speech Classification in Bulgarian.md"
 local_pdf: "[[PDFs/2022/2022-researchers-Hate Speech Classification in Bulgarian.pdf]]"
 DATE_ADDED: 20260213

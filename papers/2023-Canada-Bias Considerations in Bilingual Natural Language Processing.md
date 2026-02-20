@@ -20,6 +20,7 @@ last_author: "[[Statistics Canada]]"
 authors: "Statistics Canada"
 url: "https://www.statcan.gc.ca/en/data-science/network/language-processing"
 publication: "Statistics Canada"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

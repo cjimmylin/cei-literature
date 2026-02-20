@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2405.14812.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.md"
 local_pdf: "[[PDFs/2024/2024-Jain-Norm Inconsistency in LLM Decision-Making.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

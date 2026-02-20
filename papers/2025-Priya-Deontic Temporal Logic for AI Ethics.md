@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2501.05765.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.md"
 local_pdf: "[[PDFs/2025/2025-Priya-Deontic Temporal Logic for AI Ethics.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

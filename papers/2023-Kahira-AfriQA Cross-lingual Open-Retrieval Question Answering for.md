@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2305.06897.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md"
 local_pdf: "[[PDFs/2023/2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.pdf]]"
 publication: "WebSearch: AfriQA cross-lingual question answering African languages"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2502.12932.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.md"
 local_pdf: "[[PDFs/2025/2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.pdf]]"
 publication: "arXiv / ACL Anthology (MRL 2025)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian, Javanese, Sundanese"

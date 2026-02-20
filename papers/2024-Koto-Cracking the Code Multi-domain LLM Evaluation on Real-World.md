@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2409.08564.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.md"
 local_pdf: "[[PDFs/2024/2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.pdf]]"
 publication: "arXiv / ACL Anthology (NAACL 2025)"
+CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

@@ -31,6 +31,7 @@ key_contribution: "Introduced 'Moral High Ground', a text-based games benchmark 
 significance: "Provides an interactive environment (games) to test moral reasoning, offering a more dynamic evaluation of alignment than static QA benchmarks."
 tags: 
 abstract: "In this paper, we introduce a benchmark for the evaluation of large language models on moral values and business principles. The main focus of this framework is to evaluate the moral and ethical reasoning abilities of large language models using text-based games, which can be played by both human players and models. We present these games to the player as an interaction between the player and the environment."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Flan-T5, Falcon, Llama-2"
 DATA_URL: "NA"

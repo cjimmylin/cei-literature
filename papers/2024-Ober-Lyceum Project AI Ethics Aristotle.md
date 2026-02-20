@@ -35,6 +35,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Gemini, Llama"
 DATA_URL: "NA"
 publication: Oxford Institute for Ethics in AI
+CONF-CC: "N/A"
 ethics_overall: "Yes"
 virtue_ethics: "No"
 deontological_ethics: "No"

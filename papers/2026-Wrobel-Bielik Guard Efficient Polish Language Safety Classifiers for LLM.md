@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2602.07954.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.md"
 local_pdf: "[[PDFs/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Polish"

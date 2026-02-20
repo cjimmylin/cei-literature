@@ -22,6 +22,7 @@ authors: "Kumar Tanmay; Aditi Khandelwal; Utkarsh Agarwal; Monojit Choudhury"
 url: "https://arxiv.org/abs/2309.13356"
 external_pdf: "https://arxiv.org/pdf/2309.13356.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

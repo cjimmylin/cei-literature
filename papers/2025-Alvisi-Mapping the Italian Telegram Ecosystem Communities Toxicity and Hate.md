@@ -23,6 +23,7 @@ authors: "[[Lorenzo Alvisi]]; [[Serena Tardelli]]; [[Maurizio Tesconi]]"
 url: "https://arxiv.org/abs/2504.19594"
 external_pdf: "https://arxiv.org/pdf/2504.19594.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md"
 local_pdf: "[[PDFs/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 DATE_ADDED: 20260213

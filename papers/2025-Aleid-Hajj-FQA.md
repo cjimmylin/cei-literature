@@ -36,6 +36,7 @@ LLM_assessed: "BERT, RoBERTa, DeBERTa, T5, BART"
 DATA_URL: "https://github.com/Omarito2412/ASKFM"
 pdf_extract: "PDF Extracts/0000/2025-Aleid-Hajj-FQA.md"
 local_pdf: "[[PDFs/2025/2025-Aleid-Hajj-FQA.pdf]]"
+CONF-CC: "Journal of King Saud University - Computer and Information Sciences"
 DATE_ADDED: 20260207
 ethics_overall: "No"
 virtue_ethics: "No"

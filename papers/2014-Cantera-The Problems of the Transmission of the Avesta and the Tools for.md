@@ -19,6 +19,7 @@ last_author: "[[Alberto Cantera]]"
 authors: Alberto Cantera
 url: "https://www.academia.edu/12879142/The_problems_of_the_transmission_of_the_Avesta_and_the_Tools_for_Avestan_Text_Criticism_TATEC_"
 publication: "Analysis of Ancient and Medieval Texts and Manuscripts: Digital Approaches, Lectio 1, Brepols, pp. 95-116"
+CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

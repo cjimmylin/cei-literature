@@ -19,6 +19,7 @@ authors: "Cophi-Wue (University of Wuerzburg)"
 url: "https://github.com/cophi-wue/German_HateSpeech_Corpus"
 external_pdf: "https://ojs.aaai.org/index.php/ICWSM/article/download/31438/33598"
 publication: GitHub
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2021/2021-Wuerzburg-German HateSpeech Corpus.md"
 local_pdf: "[[PDFs/2021/2021-Wuerzburg-German HateSpeech Corpus.pdf]]"
 DATE_ADDED: 20260213

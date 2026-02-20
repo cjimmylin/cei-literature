@@ -21,6 +21,7 @@ last_author: "[[Makarov, Ilya]]"
 authors: "[[Mozikov, Mikhail]]; [[Severin, Nikita]]; [[Bodishtianu, Valeria]]; [[Glushanina, Maria]]; [[Baklashkin, Mikhail]]; [[Savchenko, Andrey V.]]; [[Makarov, Ilya]]"
 authors_incomplete: false
 publication: "NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 external_pdf: "https://openreview.net/pdf?id=Vov1mypRjw"
 pdf_extract: "PDF Extracts/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.md"
 local_pdf: "[[PDFs/2024/2024-Mozikov-EAI - Emotional Decision-Making of LLMs in Strategic Games and.pdf]]"

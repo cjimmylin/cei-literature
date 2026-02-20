@@ -23,6 +23,7 @@ doi: 10.36227/techrxiv.175756344.42614762/v1
 url: "https://doi.org/10.36227/techrxiv.175756344.42614762/v1"
 external_pdf: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175756344.42614762/v1"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

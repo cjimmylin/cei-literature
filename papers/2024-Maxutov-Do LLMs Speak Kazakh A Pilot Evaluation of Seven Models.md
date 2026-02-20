@@ -21,6 +21,7 @@ authors: Akylbek Maxutov, Ayan Myrzakhmet, Pavel Braslavski
 url: "https://aclanthology.org/2024.sigturk-1.8/"
 external_pdf: "https://aclanthology.org/2024.sigturk-1.8.pdf"
 publication: ACL Anthology (SIGTURK 2024)
+CONF-CC: "N/A"
 local_pdf: "[[PDFs/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.md"
 DATE_ADDED: 20260215

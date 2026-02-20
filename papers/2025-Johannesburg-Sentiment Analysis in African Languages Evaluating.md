@@ -25,6 +25,7 @@ external_pdf: "https://aclanthology.org/2023.findings-emnlp.271.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.md"
 local_pdf: "[[PDFs/2025/2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.pdf]]"
 publication: "SAICSIT 2025, Springer (LNCS, vol. 978-3-031-96262-2)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, African/Ubuntu, Spanish"
 cultures_nationalities_list: "African, Arabic, Spanish"

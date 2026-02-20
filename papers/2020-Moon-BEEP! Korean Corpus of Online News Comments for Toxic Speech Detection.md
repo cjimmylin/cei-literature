@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2005.12503.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md"
 local_pdf: "[[PDFs/2020/2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.pdf]]"
 publication: "arXiv / SocialNLP@ACL 2020"
+CONF-CC: "ACL 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean, German, Italian"
 cultures_nationalities_list: "Korean"

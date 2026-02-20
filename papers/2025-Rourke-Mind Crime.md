@@ -30,6 +30,7 @@ newtags: "Virtue Ethics, Deontology"
 key_contribution: "Introduces the concept of 'mind crime' and explores the moral status of potential digital minds, linking the treatment of AI to human moral character"
 significance: "Expands the scope of virtue ethics to include the moral patienthood of AI entities, arguing that our treatment of them reflects and potentially corrupts our own virtues"
 abstract: "This book explores the moral implications of advanced artificial intelligence, particularly the potential for conscious digital minds. Rourke introduces the concept of \"
+CONF-CC: "N/A"
 DATE_ADDED: 20260120
 LLM_assessed: "NA"
 DATA_URL: "NA"

@@ -23,6 +23,7 @@ authors_incomplete: false
 doi: 10.1109/taffc.2022.3219229
 url: "https://ieeexplore.ieee.org/document/9936700"
 publication: "IEEE Transactions on Affective Computing"
+CONF-CC: "IEEE TAC"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

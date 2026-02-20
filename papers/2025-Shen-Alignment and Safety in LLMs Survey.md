@@ -26,6 +26,7 @@ pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md
 local_pdf: "[[PDFs/2025/2025-Shen-Alignment and Safety in LLMs Survey.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

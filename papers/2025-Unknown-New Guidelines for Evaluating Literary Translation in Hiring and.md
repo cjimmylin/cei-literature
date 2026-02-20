@@ -22,6 +22,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://literarytranslators.wordpress.com/2023/09/18/new-guidelines-for-evaluating-literary-translation-in-hiring-and-promotion-decisions/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

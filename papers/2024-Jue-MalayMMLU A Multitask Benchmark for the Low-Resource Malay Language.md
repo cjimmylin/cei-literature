@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.findings-emnlp.36/"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.36.pdf"
 publication: "ACL Anthology (EMNLP 2024 Findings)"
+CONF-CC: "EMNLP 2024 Findings"
 pdf_extract: "PDF Extracts/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md"
 local_pdf: "[[PDFs/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.pdf]]"
 DATE_ADDED: 20260213

@@ -20,6 +20,7 @@ authors: Andrew McStay
 doi: 10.1007/s13347-021-00487-y
 url: "https://link.springer.com/article/10.1007/s13347-021-00487-y"
 publication: "Springer Philosophy & Technology"
+CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

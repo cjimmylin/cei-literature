@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2306.16388
 url: "http://arxiv.org/abs/2306.16388"
 external_pdf: "http://arxiv.org/pdf/2306.16388.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: "Multilingual"

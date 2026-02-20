@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Springer (ECML PKDD 2023)"
+CONF-CC: "ECML-PKDD 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

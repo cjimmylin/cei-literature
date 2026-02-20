@@ -27,6 +27,7 @@ external_pdf: "https://core.ac.uk/download/143685631.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Coalition-The Gospel Coalition AI Christian Benchmark.md"
 local_pdf: "[[PDFs/2025/2025-Coalition-The Gospel Coalition AI Christian Benchmark.pdf]]"
 publication: "The Gospel Coalition (industry report)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

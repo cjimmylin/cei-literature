@@ -30,6 +30,7 @@ key_contribution: "Proposes narrative and virtue-based ethics (VPD - Virtuous Pr
 significance: "Bridges Ricoeur's 'little ethics', MacIntyre's virtue ethics, and AI design practices through narrative framework"
 external_pdf: N/A
 abstract: "This paper addresses the question of how ethics and ethical frameworks can be used to avert the negative consequences of AI through guidance on human behaviour and technological system design. While a kind of AI ethics principlism has gained widespread acceptance, it still invites harsh rejections in recent scholarship. The paper explores the contribution to an ethics of AI made by a narrative philosophy and ethics of technology inspired by the 'little ethics' of Paul Ricoeur, and virtue ethics of Alasdair MacIntyre, most recently and promisingly built upon by Wessel Reijers and Mark Coeckelbergh. The objective is to examine whether a narrative and virtue-based ethics (or VPD, i.e., virtuous practice design) might be a plausible candidate for the foundation of an ethics of AI."
+CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

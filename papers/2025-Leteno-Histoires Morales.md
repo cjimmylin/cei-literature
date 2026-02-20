@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2501.17117
 url: "http://arxiv.org/abs/2501.17117"
 external_pdf: "http://arxiv.org/pdf/2501.17117.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
+CONF-CC: "NAACL 2025"
 national_ethnic_cultural: "Chinese, French"
 cultures_nationalities_list: "French"
 languages_list: "English, French"

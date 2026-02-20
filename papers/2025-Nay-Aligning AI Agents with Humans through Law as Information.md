@@ -26,6 +26,7 @@ external_pdf: "https://law.stanford.edu/wp-content/uploads/2025/10/Aligning-AI-A
 pdf_extract: "PDF Extracts/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.md"
 local_pdf: "[[PDFs/2025/2025-Nay-Aligning AI Agents with Humans through Law as Information.pdf]]"
 publication: "Stanford Center for Legal Informatics (CodeX)"
+CONF-CC: "N/A"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

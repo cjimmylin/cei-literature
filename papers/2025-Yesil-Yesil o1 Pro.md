@@ -34,6 +34,7 @@ significance: "Represents the trend of specialized 'Pro' models for high-stakes 
 tags: 
 research_topic: Other
 abstract: "Background: Integrating evidence-based approaches in healthcare and artificial intelligence (AI) is crucial for enhancing clinical decision-making and patient safety. Yesil o1 Pro is a specialized large language model (LLM) designed to transform medical knowledge synthesis by leveraging a comprehensive, curated database of scientific literature, clinical guidelines, and medical textbooks. Objective: The system's innovative 'AI Hospital' framework employs domain-specific expert agents..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Claude, DeepSeek, Llama-3, Gemini"
 DATA_URL: "https://huggingface.co/datasets/yesilhealth/Health_Benchmarks"

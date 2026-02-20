@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "LREC 2022 / ACL Anthology"
+CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic"
 cultures_nationalities_list: "Arabic"

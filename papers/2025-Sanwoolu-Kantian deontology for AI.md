@@ -20,6 +20,7 @@ authors: "[[Sanwoolu, Oluwaseun D.]]"
 doi: 10.1007/s43681-025-00784-8
 url: "https://link.springer.com/article/10.1007/s43681-025-00784-8"
 publication: "AI and Ethics"
+CONF-CC: "AI and Ethics"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "American"
 languages_list: ""

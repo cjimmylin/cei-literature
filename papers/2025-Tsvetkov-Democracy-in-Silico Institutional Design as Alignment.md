@@ -40,6 +40,7 @@ significance: "Demonstrates that institutional design—specifically constitutio
 **Publisher: "** arXiv"
 abstract: "This paper introduces Democracy-in-Silico, an agent-based simulation where societies of advanced AI agents, imbued with complex psychological personas [1, 2], govern themselves under different institutional frameworks. We explore what it means to be human in an age of AI by tasking Large Language Models (LLMs) to embody agents with traumatic memories, hidden agendas, and psychological triggers. These agents engage in deliberation, legislation, and elections under various stressors, such as..."
 paper_summary: "Abstract: This paper introduces Democracy-in-Silico, an agent-based simulation where soci- eties of advanced AI agents, imbued with complex psychological personas [1, 2], govern themselves under different insti | Overview: Democracy-in-Silico: Institutional Design as Alignment in AI-Governed Polities Trisanth Srinivasan Cyrion Labs trisanth@cyrionlabs.org Santosh Patapati Cyrion Labs santosh@cyrionlabs.org Abstract This | Conclusions: Our simulation provides a creative, critical, and empirical lens for examining what it means to be human in an era increasingly shaped by AI. Human–Ma"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, DeepSeek"
 DATA_URL: "NA"

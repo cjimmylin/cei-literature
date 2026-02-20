@@ -20,6 +20,7 @@ authors: "Gautam Kishore Shahi, Tim A. Majchrzak"
 url: "https://arxiv.org/abs/2410.05287"
 external_pdf: "https://arxiv.org/pdf/2410.05287.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md"
 local_pdf: "[[PDFs/2024/2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.pdf]]"
 DATE_ADDED: 20260213

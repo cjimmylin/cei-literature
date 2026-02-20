@@ -33,6 +33,7 @@ key_contribution: "Argues for integrating care ethics into LLM alignment to addr
 significance: "Proposes 'Attuned AI' as a model for alignment that prioritizes context, relationships, and particularity over abstract rules, crucial for empathetic AI domains"
 external_pdf: "https://openreview.net/pdf?id=s42bQle1CQ"
 abstract: "How can the Ethics of Care (EoC) inform the development and value alignment of large language models (LLMs)? This paper proposes to investigate how a Care ethics framework emphasizing relationality, attention to particularities, and contextual moral reasoning, can reshape existing approaches to aligning LLMs with human values. Mainstream AI alignment often draws on deontological or utilitarian principles, yet these frameworks can overlook the situated, affective, and power-sensitive aspects of..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2508.16431.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Erdem-Cetvel A Unified Benchmark for Evaluating.md"
 local_pdf: "[[PDFs/2025/2025-Erdem-Cetvel A Unified Benchmark for Evaluating.pdf]]"
 publication: arxiv.org
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"

@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2407.07342.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md"
 local_pdf: "[[PDFs/2024/2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.pdf]]"
 publication: "arXiv / NAACL Findings 2025"
+CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "N/A"

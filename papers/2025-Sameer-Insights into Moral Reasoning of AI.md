@@ -22,6 +22,7 @@ doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"
 url: "https://doi.org/10.1080/23736992.2025.2553146"
 publication: "Journal of Media Ethics"
+CONF-CC: "Journal of Media Ethics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

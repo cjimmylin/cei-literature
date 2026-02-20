@@ -22,6 +22,7 @@ doi: 10.1007/s11098-024-02249-w
 url: "https://link.springer.com/article/10.1007/s11098-024-02249-w"
 external_pdf: "https://arxiv.org/pdf/2408.16984.pdf"
 publication: "Philosophical Studies"
+CONF-CC: "Philosophical Studies"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

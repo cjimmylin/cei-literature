@@ -21,6 +21,7 @@ last_author: "[[Rebwar M. Nabi]]"
 authors: Payman Sabr Rostam; Rebwar M. Nabi
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925005669"
 publication: "Data in Brief (ScienceDirect)"
+CONF-CC: "Data in Brief"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

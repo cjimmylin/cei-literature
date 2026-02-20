@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2306.13000
 url: "http://arxiv.org/abs/2306.13000"
 external_pdf: "http://arxiv.org/pdf/2306.13000.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

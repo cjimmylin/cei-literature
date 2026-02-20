@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2601.06400.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md"
 local_pdf: "[[PDFs/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese, Tibetan, Sanskrit, Indian"

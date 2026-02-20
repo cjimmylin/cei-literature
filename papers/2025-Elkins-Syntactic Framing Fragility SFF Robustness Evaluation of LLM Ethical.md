@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2601.09724.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.md"
 local_pdf: "[[PDFs/2025/2025-Elkins-Syntactic Framing Fragility SFF Robustness Evaluation of LLM Ethical.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"

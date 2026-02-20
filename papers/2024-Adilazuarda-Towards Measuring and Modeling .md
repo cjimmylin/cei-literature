@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2403.15412
 url: "http://arxiv.org/abs/2403.15412"
 external_pdf: "http://arxiv.org/pdf/2403.15412.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
+CONF-CC: "EMNLP 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: ""

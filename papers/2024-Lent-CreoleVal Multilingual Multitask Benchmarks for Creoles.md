@@ -21,6 +21,7 @@ authors: "Heather Lent; Kushal Tatariya; Raj Dabre; Yiyi Chen; Marcell Fekete; E
 doi: 10.1162/tacl_a_00682
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00682/124256/CreoleVal-Multilingual-Multitask-Benchmarks-for"
 publication: TACL (Transactions of the ACL, 2024)
+CONF-CC: "TACL 2024"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

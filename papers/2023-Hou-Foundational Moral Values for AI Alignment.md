@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2311.17017
 url: "http://arxiv.org/abs/2311.17017"
 external_pdf: "http://arxiv.org/pdf/2311.17017.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

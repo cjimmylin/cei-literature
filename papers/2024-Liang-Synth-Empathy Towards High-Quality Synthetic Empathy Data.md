@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2407.21669.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md"
 local_pdf: "[[PDFs/2024/2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

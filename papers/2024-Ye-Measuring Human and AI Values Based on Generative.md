@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2409.12106
 url: "http://arxiv.org/abs/2409.12106"
 external_pdf: "http://arxiv.org/pdf/2409.12106.pdf"
 publication: "AAAI Conference on Artificial Intelligence"
+CONF-CC: "AAAI 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

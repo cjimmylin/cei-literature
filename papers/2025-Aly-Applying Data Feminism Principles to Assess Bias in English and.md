@@ -22,6 +22,7 @@ authors: "Ranwa Aly, Yara Allam, Rana Gaber"
 doi: 10.1145/3715275.3732119
 url: "https://dl.acm.org/doi/10.1145/3715275.3732119"
 publication: ACM
+CONF-CC: "FAccT 2025"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

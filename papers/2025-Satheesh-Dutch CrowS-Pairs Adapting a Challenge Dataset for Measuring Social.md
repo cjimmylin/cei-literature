@@ -20,6 +20,7 @@ authors: "Shalaka Satheesh, Katrin Klug, Katharina Beckh, Hector Allende-Cid, Se
 url: "https://arxiv.org/abs/2507.16442"
 external_pdf: "https://arxiv.org/pdf/2507.16442.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md"
 local_pdf: "[[PDFs/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.pdf]]"
 DATE_ADDED: 20260213

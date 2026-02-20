@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2505.15372"
 external_pdf: "http://arxiv.org/pdf/2505.15372.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"

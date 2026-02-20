@@ -31,6 +31,7 @@ newtags:
 tags: 
 research_topic: "Other"
 abstract: "The NIST AI Risk Management Framework (AI RMF) offers a resource to organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems. The Framework is intended to be voluntary, rights-preserving, non-sector specific, and use-case agnostic, providing flexibility to organizations of all sizes and in all sectors and throughout society to implement the approaches in the Framework. The framework is built on four core functions: Govern, Map, Measure, and Manage, which are interconnected processes designed to be implemented iteratively throughout an AI system's lifecycle."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://doi.org/10.6028/NIST.AI.100-1"

@@ -22,6 +22,7 @@ authors: "[[Beyhan, Fatih and Cark, Buse and Arn, \.Inanc and Terzioglu, Aysecan
 url: "https://aclanthology.org/2022.lrec-1.443/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
 publication: "LREC 2022"
+CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md"
 local_pdf: "[[PDFs/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.pdf]]"
 DATE_ADDED: 20260213

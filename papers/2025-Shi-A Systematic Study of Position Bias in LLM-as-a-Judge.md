@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.ijcnlp-long.18.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.07791v9.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.md"
 local_pdf: "[[PDFs/2025/2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.pdf]]"
 DATE_ADDED: 20260213

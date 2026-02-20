@@ -19,6 +19,7 @@ last_author: "[[Metric AI Research Lab]]"
 authors: "Metric AI Research Lab"
 url: "https://metric.am/blog/introducing-armbench-llm/"
 publication: "Metric AI Lab Blog"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

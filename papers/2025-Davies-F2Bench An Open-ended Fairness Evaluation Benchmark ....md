@@ -20,6 +20,7 @@ authors: "Dave Davies"
 url: "https://aclanthology.org/2025.emnlp-main.105.pdf"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.105.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md"
 local_pdf: "[[PDFs/2025/2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....pdf]]"
 DATE_ADDED: 20260213

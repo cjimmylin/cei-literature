@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2601.07274"
 external_pdf: "https://arxiv.org/pdf/2601.07274.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.md"
 local_pdf: "[[PDFs/2026/2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.pdf]]"
 DATE_ADDED: 20260213

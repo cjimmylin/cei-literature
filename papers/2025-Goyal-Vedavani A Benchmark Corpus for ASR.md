@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2506.00145.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Goyal-Vedavani A Benchmark Corpus for ASR.md"
 local_pdf: "[[PDFs/2025/2025-Goyal-Vedavani A Benchmark Corpus for ASR.pdf]]"
 publication: "World Sanskrit Conference 2025 / arXiv"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

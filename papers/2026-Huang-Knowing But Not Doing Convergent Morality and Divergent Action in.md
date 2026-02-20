@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2601.07972.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md"
 local_pdf: "[[PDFs/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"

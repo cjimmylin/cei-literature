@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2203.01111.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md"
 local_pdf: "[[PDFs/2022/2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.pdf]]"
 publication: "LREC 2022 / arxiv"
+CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Turkish"

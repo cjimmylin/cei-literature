@@ -24,6 +24,7 @@ tags:
 url: "http://arxiv.org/abs/2505.04654"
 external_pdf: "http://arxiv.org/pdf/2505.04654.pdf"
 publication: "Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities"
+CONF-CC: "Natural Language Processing"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

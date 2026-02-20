@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.15462"
 external_pdf: "https://arxiv.org/pdf/2411.15462.pdf"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md"
 local_pdf: "[[PDFs/2024/2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.pdf]]"
 DATE_ADDED: 20260213

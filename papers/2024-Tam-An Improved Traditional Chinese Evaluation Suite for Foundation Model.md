@@ -20,6 +20,7 @@ authors: Zhi-Rui Tam, Ya-Ting Pai, Yen-Wei Lee, Jun-Da Chen, Wei-Min Chu, Sega C
 url: "https://arxiv.org/abs/2403.01858"
 external_pdf: "https://arxiv.org/pdf/2403.01858.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Tam-An Improved Traditional Chinese Evaluation Suite for Foundation Model.md"
 DATE_ADDED: 20260215

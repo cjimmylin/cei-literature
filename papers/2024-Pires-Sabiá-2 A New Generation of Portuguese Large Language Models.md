@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2403.09887.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "American, Brazilian"
 cultures_nationalities_list: "Brazilian"

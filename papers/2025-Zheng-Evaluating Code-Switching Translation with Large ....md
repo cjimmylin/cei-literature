@@ -22,6 +22,7 @@ authors_incomplete: true
 url: "https://aclanthology.org/2024.lrec-main.565.pdf"
 external_pdf: "https://aclanthology.org/2024.lrec-main.565.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Zheng-Evaluating Code-Switching Translation with Large ....md"
 local_pdf: "[[PDFs/2025/2025-Zheng-Evaluating Code-Switching Translation with Large ....pdf]]"
 DATE_ADDED: 20260213

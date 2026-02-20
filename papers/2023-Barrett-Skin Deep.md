@@ -34,6 +34,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Barrett-Skin Deep.md"
 local_pdf: "[[PDFs/2023/2023-Barrett-Skin Deep.pdf]]"
 abstract: "To investigate the well-observed racial disparities in computer vision systems that analyze images of humans, researchers have turned to skin tone as more objective annotation than race metadata for fairness performance evaluations. However, the current state of skin tone annotation procedures is highly varied. For instance, researchers use a range of untested scales and skin tone categories, have unclear annotation procedures, and provide inadequate analyses of uncertainty."
+CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "ALBERT"
 DATA_URL: "https://github.com/Social-Futures-Lab/skin-deep"

@@ -22,6 +22,7 @@ authors: Anderson Almeida Firmino; Claudio de Souza Baptista; Anselmo Cardoso de
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0957417423016172"
 publication: ScienceDirect
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

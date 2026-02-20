@@ -22,6 +22,7 @@ authors: "Durmus, Esin; Nguyen, Karina; Liao, Thomas I.; Schiefer, Nicholas; Ask
 authors_incomplete: false
 url: "https://llmglobalvalues.anthropic.com/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

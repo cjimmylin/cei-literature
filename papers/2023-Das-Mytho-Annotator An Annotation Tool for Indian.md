@@ -31,6 +31,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.7717/peerj-cs.1617"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ICON 2023 (20th International Conference on Natural Language Processing)"
+CONF-CC: "ICON 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

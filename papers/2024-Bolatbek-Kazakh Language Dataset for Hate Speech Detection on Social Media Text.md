@@ -22,6 +22,7 @@ authors: "Milana Bolatbek, Moldir Sagynay, Shynar Mussiraliyeva, Zhastay Yeltay"
 url: "https://ieeexplore.ieee.org/document/10719327/"
 external_pdf: "https://core.ac.uk/download/666045464.pdf"
 publication: "IEEE ICCIA 2024"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md"
 local_pdf: "[[PDFs/2024/2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.pdf]]"
 DATE_ADDED: 20260213

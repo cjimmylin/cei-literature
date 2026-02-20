@@ -20,6 +20,7 @@ authors: Viacheslav Vasilev, Julia Agafonova, Nikolai Gerasimenko, Alexander Kap
 url: "https://arxiv.org/abs/2502.07455"
 external_pdf: "https://arxiv.org/pdf/2502.07455.pdf"
 publication: NAACL 2025 Findings
+CONF-CC: "NAACL 2025 Findings"
 local_pdf: "[[PDFs/2025/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.md"
 DATE_ADDED: 20260215

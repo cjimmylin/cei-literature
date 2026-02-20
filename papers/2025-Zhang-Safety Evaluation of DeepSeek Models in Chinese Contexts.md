@@ -20,6 +20,7 @@ authors: Wenjing Zhang, Xuejiao Lei, Zhaoxiang Liu, Ning Wang, Zhenhong Long, Pe
 url: "https://arxiv.org/abs/2502.11137"
 external_pdf: "https://arxiv.org/pdf/2502.11137.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md"
 DATE_ADDED: 20260215

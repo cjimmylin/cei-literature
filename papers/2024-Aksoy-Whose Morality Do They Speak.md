@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2412.18863
 url: "http://arxiv.org/abs/2412.18863"
 external_pdf: "http://arxiv.org/pdf/2412.18863.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Japanese, Arabic, Iranian, French, Spanish, Russian"
 languages_list: "Arabic, Chinese, English, French, Japanese, Persian, Russian, Spanish"

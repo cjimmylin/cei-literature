@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2503.11911.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in.md"
 local_pdf: "[[PDFs/2025/2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in.pdf]]"
 publication: "WebSearch: LAG-MMLU Giriama African language benchmark"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Latvian, Kenyan"

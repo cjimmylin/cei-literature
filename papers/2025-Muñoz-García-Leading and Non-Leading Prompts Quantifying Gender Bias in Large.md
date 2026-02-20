@@ -21,6 +21,7 @@ last_author: "[[Paloma Moreda]]"
 authors: Victoria Muñoz-García; Juan Pablo Consuegra‐Ayala; Paloma Moreda
 url: "https://www.sciencedirect.com/science/article/pii/S0950705125009608"
 publication: "ScienceDirect / Knowledge-Based Systems"
+CONF-CC: "Knowledge-Based Systems"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2406.07954.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Debenedetti-SaTML LLM CTF Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Debenedetti-SaTML LLM CTF Dataset.pdf]]"
 publication: "NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

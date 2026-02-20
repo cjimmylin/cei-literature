@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2501.11770.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.md"
 local_pdf: "[[PDFs/2025/2025-Wang-Multimodal Understanding of Human Values in Videos.pdf]]"
 publication: Neurocomputing
+CONF-CC: "Neurocomputing"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

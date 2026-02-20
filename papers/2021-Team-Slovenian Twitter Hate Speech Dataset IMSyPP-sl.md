@@ -21,6 +21,7 @@ last_author: "[[IMSyPP Project Team]]"
 authors: "IMSyPP Project Team"
 url: "https://www.clarin.si/repository/xmlui/handle/11356/1398"
 publication: CLARIN.SI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

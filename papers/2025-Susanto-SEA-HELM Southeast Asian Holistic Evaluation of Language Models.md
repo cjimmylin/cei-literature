@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2502.14301.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.pdf]]"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"

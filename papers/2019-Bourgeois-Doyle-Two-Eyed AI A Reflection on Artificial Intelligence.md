@@ -19,6 +19,7 @@ last_author: "[[Daniel Bourgeois-Doyle]]"
 authors: Daniel Bourgeois-Doyle
 url: "https://en.ccunesco.ca/-/media/Files/Unesco/Resources/2019/03/TwoEyedArtificialIntelligence.pdf"
 publication: Canadian Commission for UNESCO
+CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

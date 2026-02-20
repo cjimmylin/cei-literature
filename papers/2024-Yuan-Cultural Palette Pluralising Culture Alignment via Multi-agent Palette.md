@@ -20,6 +20,7 @@ authors: Jiahao Yuan, Zixiang Di, Shangzixin Zhao, Zhiqing Cui, Hanqing Wang, Gu
 url: "https://arxiv.org/abs/2412.11167"
 external_pdf: "https://arxiv.org/pdf/2412.11167.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md"
 DATE_ADDED: 20260215

@@ -21,6 +21,7 @@ authors: "Yilun Yang"
 url: "https://arxiv.org/html/2505.05063v1"
 external_pdf: "https://arxiv.org/pdf/2505.05063.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.md"
 local_pdf: "[[PDFs/2025/2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.pdf]]"
 DATE_ADDED: 20260213

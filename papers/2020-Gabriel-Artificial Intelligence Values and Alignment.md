@@ -22,6 +22,7 @@ authors: "Iason Gabriel"
 doi: 10.1007/s11023-020-09539-2
 url: "https://link.springer.com/article/10.1007/s11023-020-09539-2"
 publication: "Minds and Machines"
+CONF-CC: "Minds and Machines"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

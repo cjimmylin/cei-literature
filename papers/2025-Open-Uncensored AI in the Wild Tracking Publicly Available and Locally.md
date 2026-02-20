@@ -21,6 +21,7 @@ last_author: "[[Ant Open]]"
 authors: "[[Ant Open]]"
 url: "https://www.mdpi.com/1999-5903/17/10/477"
 publication: MDPI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

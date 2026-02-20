@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2601.07954.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.md"
 local_pdf: "[[PDFs/2026/2026-Jin-MedES Chinese Medical Ethics Scenarios.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

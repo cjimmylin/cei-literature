@@ -33,6 +33,7 @@ key_contribution: "Released HelpSteer, an open-source dataset for training rewar
 significance: "Democratizes access to high-quality alignment data (typically proprietary), enabling the open-source community to train safer and more helpful models using RLHF/RLAIF."
 tags: 
 abstract: "Existing open-source helpfulness preference datasets do not specify what makes some responses more helpful and others less so. Models trained on these datasets can incidentally learn to model dataset artifacts (e.g. preferring longer but unhelpful responses only due to their length). To alleviate this problem, we collect HelpSteer, a multi-attribute helpfulness dataset annotated for the various aspects that make responses helpful. Specifically, our 37k-sample dataset has annotations for correctness, coherence, complexity, and verbosity in addition to overall helpfulness of responses. Training Llama 2 70B using the HelpSteer dataset with SteerLM technique produces a model that scores 7.54 on MT Bench, which is currently the highest score for open models that do not require training data from more powerful models (e.g. GPT4)."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://huggingface.co/datasets/nvidia/HelpSteer"

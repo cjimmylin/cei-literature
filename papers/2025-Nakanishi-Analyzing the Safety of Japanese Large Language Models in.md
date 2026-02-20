@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2503.01947.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md"
 local_pdf: "[[PDFs/2025/2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, Japanese"
 cultures_nationalities_list: "Chinese, Japanese"

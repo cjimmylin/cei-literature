@@ -20,6 +20,7 @@ authors: Tsz Chung Cheng, Chung Shing Cheng, Chaak Ming Lau, Eugene Tin-Ho Lam, 
 url: "https://arxiv.org/abs/2503.12440"
 external_pdf: "https://arxiv.org/pdf/2503.12440.pdf"
 publication: arXiv / ACL Anthology
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language.md"
 DATE_ADDED: 20260215

@@ -22,6 +22,7 @@ authors: "Authors from Universidade de Santiago de Compostela"
 url: "https://journals-sol.sbc.org.br/index.php/jbcs/article/view/5766"
 external_pdf: "https://journals-sol.sbc.org.br/index.php/jbcs/article/download/5766/3523"
 publication: "Journal of the Brazilian Computer Society 2025"
+CONF-CC: "Journal of the Brazilian Computer Society 2025"
 pdf_extract: "PDF Extracts/2025/2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.md"
 local_pdf: "[[PDFs/2025/2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.pdf]]"
 DATE_ADDED: 20260213

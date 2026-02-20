@@ -22,6 +22,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://intuitionlabs.ai/articles/chinese-open-source-llms-2025"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

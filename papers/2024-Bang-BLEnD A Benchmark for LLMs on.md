@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2406.09948.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bang-BLEnD A Benchmark for LLMs on.md"
 local_pdf: "[[PDFs/2024/2024-Bang-BLEnD A Benchmark for LLMs on.pdf]]"
 publication: "arxiv.org / NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Cross-cultural"

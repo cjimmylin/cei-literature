@@ -31,6 +31,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "GurbaniDB is a comprehensive digital database and search engine for the Sikh scriptures, dedicated to making Sikh scriptures accessible to everyone. It is the world's first Gurbani database to correctly archive Guru Granth Sahib into all 60 Raags (moods/melodies) with pop-up descriptions of each Author and Melody. The platform allows users to search the Guru Granth Sahib in English, Gurmukhi and 52 other languages, including 22 transliterations, fostering collaboration among volunteers to enhance translations and promote innovation and community engagement."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/sikher/gurbanidb"

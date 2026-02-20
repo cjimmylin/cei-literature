@@ -22,6 +22,7 @@ last_author: "[[Roberto Lotufo]]"
 authors: "Fábio Souza, Rodrigo Nogueira, Roberto Lotufo"
 url: "https://www.researchgate.net/publication/345395208_BERTimbau_Pretrained_BERT_Models_for_Brazilian_Portuguese"
 publication: "BRACIS 2020"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

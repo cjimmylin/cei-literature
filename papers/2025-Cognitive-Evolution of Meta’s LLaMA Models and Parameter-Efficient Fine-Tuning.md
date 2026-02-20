@@ -21,6 +21,7 @@ authors: "Integrating Cognitive"
 url: "https://arxiv.org/html/2510.12178v1"
 external_pdf: "https://arxiv.org/pdf/2510.12178.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-Evolution of Meta's LLaMA Models and Parameter-Efficient Fine-Tuning.md"
 local_pdf: "[[PDFs/2025/2025-Cognitive-Evolution of Meta’s LLaMA Models and Parameter-Efficient Fine-Tuning.pdf]]"
 DATE_ADDED: 20260213

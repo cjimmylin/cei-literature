@@ -22,6 +22,7 @@ authors: Nan Yan; Cheng Xu
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/379815378_Decolonizing_African_NLP_A_Survey_on_Power_Dynamics_and_Data_Colonialism_in_Tech_Development"
 publication: ResearchGate
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md"
 local_pdf: "[[PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
 DATE_ADDED: 20260213

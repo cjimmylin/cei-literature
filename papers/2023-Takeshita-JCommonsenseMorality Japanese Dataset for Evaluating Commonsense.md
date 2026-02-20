@@ -20,6 +20,7 @@ last_author: "[[Kenji Araki]]"
 authors: Masashi Takeshita, Rafal Rzepka, Kenji Araki
 url: "https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/D2-1.pdf"
 publication: NLP2023 (Association for Natural Language Processing, Japan)
+CONF-CC: "Natural Language Processing"
 local_pdf: "[[PDFs/2023/2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.md"
 "N/A"

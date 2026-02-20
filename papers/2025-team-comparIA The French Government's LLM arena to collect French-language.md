@@ -19,6 +19,7 @@ authors: "French Ministry of Culture team"
 url: "https://arxiv.org/abs/2602.06669"
 external_pdf: "https://arxiv.org/pdf/2602.06669.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.md"
 local_pdf: "[[PDFs/2025/2025-team-comparIA The French Government's LLM arena to collect French-language.pdf]]"
 DATE_ADDED: 20260213

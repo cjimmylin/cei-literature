@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2406.01364.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md"
 local_pdf: "[[PDFs/2024/2024-Dorn-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.pdf]]"
 publication: "ICML 2024"
+CONF-CC: "ICML 2024"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "French"
 cultures_nationalities_list: "N/A"

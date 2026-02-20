@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2412.14050.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md"
 local_pdf: "[[PDFs/2025/2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.pdf]]"
 publication: "arXiv / ACL Anthology (ACL 2025 Findings)"
+CONF-CC: "ACL 2025 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

@@ -2,6 +2,41 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 90 (Feb 20, 2026) - CONF-CC Classification & Conference Report
+
+### Overview
+Created a new `CONF-CC` YAML field on all 2,034 papers to normalize conference/venue information, then generated a comprehensive 10-section conference representation report with a Top 10 Conferences × Year table featuring Obsidian wikilinks to every paper.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Papers classified (CONF-CC) | 2,034/2,034 (100%) |
+| Unique venues | 326 |
+| Phase 1+2 (local heuristic + OpenAlex) | 1,645 papers (80.9%) |
+| Phase 3 (Semantic Scholar) | 389 papers (19.1%) |
+| Category breakdown: Preprint | 952 (46.8%) |
+| Category breakdown: Conference | 501 (24.6%) |
+| Category breakdown: N/A | 256 (12.6%) |
+| Category breakdown: Journal | 249 (12.2%) |
+| Category breakdown: Workshop | 41 (2.0%) |
+| Category breakdown: Findings | 35 (1.7%) |
+| Conference families identified | 87 |
+| Report size | 902 lines, 61,560 chars |
+| Scripts created | 2 (`add_conference_field_cc.py`, `generate_conference_report_cc.py`) |
+
+### Key Learnings
+- [Classification] 3-phase waterfall (heuristic → OpenAlex → Semantic Scholar) achieves 100% CONF-CC coverage; local heuristic alone resolves ~81%
+- [Classification] Journal vs conference detection needs hybrid approach: exact dictionary + substring match + "Journal"/"Transactions" heuristic + API-discovered supplements (~30 extra journals)
+- [Report] `defaultdict(lambda: defaultdict(list))` enables single-pass collection of per-family-per-year paper lists for cross-tab tables with wikilinks
+
+### Files Changed
+- papers/: 2,034 modified (CONF-CC field added)
+- PYTHON/: 2 new scripts (`add_conference_field_cc.py` 990 lines, `generate_conference_report_cc.py` 981 lines)
+- STATISTICS/: 1 new report (`20260220-conference-representation-report.md`)
+- logs/: 1 new file (`20260220-conference_classification_cc.json`)
+
+---
+
 ## Session 89 (Feb 16, 2026) - Dashboard v3 Regeneration & Deployment
 
 ### Overview

@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2107.00061"
 external_pdf: "http://arxiv.org/pdf/2107.00061.pdf"
 publication: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL 2021)"
+CONF-CC: "ACL 2021"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

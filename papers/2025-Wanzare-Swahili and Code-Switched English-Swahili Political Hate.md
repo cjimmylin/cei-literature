@@ -24,6 +24,7 @@ external_pdf: "https://www.sciengine.com/parse/pdf/2096-7004/D74782CFAA4A4B1A9E2
 pdf_extract: "PDF Extracts/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.md"
 local_pdf: "[[PDFs/2025/2025-Wanzare-Swahili and Code-Switched English-Swahili Political Hate.pdf]]"
 publication: "WebSearch: Swahili hate speech toxicity dataset NLP"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Kenyan, African"

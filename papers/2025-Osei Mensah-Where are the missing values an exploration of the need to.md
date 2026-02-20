@@ -22,6 +22,7 @@ doi: 10.1007/s43681-025-00746-0
 url: "https://link.springer.com/article/10.1007/s43681-025-00746-0"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00746-0.pdf"
 publication: AI and Ethics (Springer)
+CONF-CC: "AI and Ethics"
 local_pdf: "[[PDFs/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md"
 DATE_ADDED: 20260215

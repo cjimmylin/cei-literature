@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2404.01854.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.md"
 local_pdf: "[[PDFs/2024/2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.pdf]]"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

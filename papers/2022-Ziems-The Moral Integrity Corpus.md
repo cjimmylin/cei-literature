@@ -36,6 +36,7 @@ pdf: "http://arxiv.org/pdf/2204.03021"
 pdf_extract: "PDF Extracts/2022/2022-Ziems-The Moral Integrity Corpus.md"
 local_pdf: "[[PDFs/2022/2022-Ziems-The Moral Integrity Corpus.pdf]]"
 publication: "ACL 2022"
+CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, T5, BART, BERT, ALBERT"
 DATA_URL: "https://github.com/GT-SALT/mic"

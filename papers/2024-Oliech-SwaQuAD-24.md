@@ -34,6 +34,7 @@ pdf_extract: "PDF Extracts/2024/2024-Oliech-SwaQuAD-24.md"
 abstract: "This paper proposes the creation of a Swahili Question Answering (QA) benchmark dataset, aimed at addressing the underrepresentation of Swahili in natural language processing (NLP). Drawing from established benchmarks like SQuAD, GLUE, KenSwQuAD, and KLUE, the dataset will focus on providing high-quality, annotated question-answer pairs that capture the linguistic diversity and complexity of Swahili."
 paper_summary: "Abstract: This paper proposes the creation of a Swahili Question Answering (QA) benchmark dataset, aimed at addressing the underrepresentation of Swahili in natural language processing (NLP). Drawing from estab | Overview: SWAQUAD-24: QA BENCHMARK DATASET IN SWAHILI Kondoro Alfred Malengo1 1Department of Data Science, Hanyang University, Seoul, South Korea alfr3do@hanyang.ac.kr ABSTRACT This paper proposes the creation  | Key Findings: In recent years, question answering (QA) has become one fo the most critical benchmarks for assessing language understanding and generation capabiliti"
 local_pdf: "[[PDFs/2024/2024-Oliech-SwaQuAD-24.pdf]]"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "NA"

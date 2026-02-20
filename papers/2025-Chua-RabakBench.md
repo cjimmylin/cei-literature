@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2507.05980
 url: "http://arxiv.org/abs/2507.05980"
 external_pdf: "http://arxiv.org/pdf/2507.05980.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Chinese, Singaporean"
 cultures_nationalities_list: "Singaporean, Chinese, Malay, Tamil"
 languages_list: "Chinese, English, Malay, Singlish, Tamil"

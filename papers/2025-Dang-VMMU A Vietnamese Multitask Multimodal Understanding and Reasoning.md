@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2508.13680.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md"
 local_pdf: "[[PDFs/2025/2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"

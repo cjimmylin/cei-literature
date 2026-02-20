@@ -21,6 +21,7 @@ doi: N/A
 url: "https://openreview.net/forum?id=ZFk4eh0WcL"
 external_pdf: "https://openreview.net/pdf?id=ZFk4eh0WcL"
 publication: "ICLR Workshop"
+CONF-CC: "ICLR 2025 Workshop"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

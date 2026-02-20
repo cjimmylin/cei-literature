@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2503.01829.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md"
 local_pdf: "[[PDFs/2025/2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.pdf]]"
 publication: "EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

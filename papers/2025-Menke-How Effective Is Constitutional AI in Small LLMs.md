@@ -24,6 +24,7 @@ pdf_extract: "PDF Extracts/2025/2025-Menke-How Effective Is Constitutional AI in
 local_pdf: "[[PDFs/2025/2025-Menke-How Effective Is Constitutional AI in Small LLMs.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2503.17365.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

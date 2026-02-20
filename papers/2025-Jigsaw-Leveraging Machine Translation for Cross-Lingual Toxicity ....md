@@ -22,6 +22,7 @@ authors: Jigsaw
 url: "https://aclanthology.org/2025.wmt-1.15.pdf"
 external_pdf: "https://arxiv.org/pdf/2509.14493v1.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md"
 local_pdf: "[[PDFs/2025/2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....pdf]]"
 DATE_ADDED: 20260213

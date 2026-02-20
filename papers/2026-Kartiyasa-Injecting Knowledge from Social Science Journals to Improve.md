@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2601.12921.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md"
 local_pdf: "[[PDFs/2026/2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

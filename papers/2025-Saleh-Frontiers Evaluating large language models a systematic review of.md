@@ -23,6 +23,7 @@ authors_incomplete: false
 doi: 10.3389/fcomp.2025.1523699/full
 url: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1523699/full"
 publication: Frontiers
+CONF-CC: "Frontiers"
 pdf_extract: "PDF Extracts/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.md"
 local_pdf: "[[PDFs/2025/2025-Saleh-Frontiers Evaluating large language models a systematic review of.pdf]]"
 DATE_ADDED: 20260213

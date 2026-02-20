@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2310.18368.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md"
 local_pdf: "[[PDFs/2023/2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.pdf]]"
 publication: "NeurIPS 2023 Workshop / arXiv"
+CONF-CC: "NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

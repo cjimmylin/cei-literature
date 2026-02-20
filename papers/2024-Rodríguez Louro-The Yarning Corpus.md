@@ -34,6 +34,7 @@ tags:
 research_topic: Other
 abstract: "The Yarning Corpus consists of acrolectal Aboriginal English data gathered in metropolitan Perth, WA. It features video-recorded interactions with 58 Aboriginal English speakers born between 1931 and 2009. Using this corpus, we sought to uncover variation and change in Aboriginal English in Nyungar Country, Southwest WA. We designed a cross-cultural research model that allowed us to document sociolinguistic aspects of Aboriginal English “yarning” – a First Nations cultural form of storytelling..."
 pdf: "https://doi.org/10.1080/07268602.2024.2380661"
+CONF-CC: "Australian Journal of Linguistics"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

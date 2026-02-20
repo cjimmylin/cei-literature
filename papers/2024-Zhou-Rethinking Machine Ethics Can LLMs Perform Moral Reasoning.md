@@ -21,6 +21,7 @@ doi: 10.18653/v1/2024.findings-naacl.144
 url: "https://aclanthology.org/2024.findings-naacl.144/"
 external_pdf: "https://aclanthology.org/2024.findings-naacl.144.pdf"
 publication: "Findings of NAACL 2024"
+CONF-CC: "NAACL 2024 Findings"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

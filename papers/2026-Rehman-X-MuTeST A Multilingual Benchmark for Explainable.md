@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2601.03194.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md"
 local_pdf: "[[PDFs/2026/2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.pdf]]"
 publication: "WebSearch: X-MuTeST Telugu hate speech"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

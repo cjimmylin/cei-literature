@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.909.pdf"
 external_pdf: "https://arxiv.org/pdf/2502.07346v2.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md"
 local_pdf: "[[PDFs/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf]]"
 DATE_ADDED: 20260213

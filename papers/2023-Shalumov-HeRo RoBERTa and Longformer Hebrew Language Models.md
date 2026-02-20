@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2304.11077.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md"
 local_pdf: "[[PDFs/2023/2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Israeli"

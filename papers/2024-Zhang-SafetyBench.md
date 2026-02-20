@@ -36,6 +36,7 @@ local_pdf: "[[PDFs/2024/2024-Zhang-SafetyBench.pdf]]"
 LLM_assessed: "GPT-4, ChatGPT, Llama, Claude"
 DATA_URL: "https://github.com/thu-coai/SafetyBench"
 publication: "ACL 2024"
+CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

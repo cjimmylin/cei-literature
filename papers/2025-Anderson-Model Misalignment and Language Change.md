@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2508.00238
 url: "http://arxiv.org/abs/2508.00238"
 external_pdf: "http://arxiv.org/pdf/2508.00238.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
+CONF-CC: "AIES 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

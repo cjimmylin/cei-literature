@@ -22,6 +22,7 @@ doi: 10.1016/j.chbr.2025.100854
 url: "https://www.sciencedirect.com/science/article/pii/S2451958825002696"
 external_pdf: "https://www.sciencedirect.com/science/article/pii/S2451958825002696/pdfft?md5=c8e7d7c8c8c8c8c8c8c8c8c8c8c8c8c8&pid=1-s2.0-S2451958825002696-main.pdf"
 publication: "Computers in Human Behavior Reports"
+CONF-CC: "Computers in Human Behavior"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

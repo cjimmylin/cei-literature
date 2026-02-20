@@ -31,6 +31,7 @@ key_contribution: "Introduced CIVICS, a multilingual dataset of value-laden prom
 significance: "Reveals the implicit value variability in models across languages and topics, showing that refusals and responses are disparately triggered depending on the cultural context of the prompt."
 tags: 
 abstract: "This paper introduces the “CIVICS: Culturally-Informed & Values-Inclusive Corpus for Societal impacts” dataset, designed to evaluate the social and cultural variation of Large Language Models (LLMs) across multiple languages and value-sensitive topics. We create a hand-crafted, multilingual dataset of value-laden prompts which address specific socially sensitive topics, including LGBTQI rights, social welfare, immigration, disability rights, and surrogacy."
+CONF-CC: "Proceedings of the AAAI/ACM Conference on AI Ethics and Society"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen, DeepSeek, Mistral, Gemma"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"

@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2024/2024-Nahian-The Goofus & Gallant Story Corpus fo
 paper_summary: "Overview: The Goofus & Gallant Story Corpus for Practical Value Alignment Md Sultan Al Nahian Institute for Biomedical Informatics University of Kentucky Lexington, KY, USA sa.nahian@uky.edu Tasmia Tasrin Depar | Key Findings: Type Acc F1-score Precision Recall MCC Scene + Strict 52.26 16.84 18.06 18.13 35.94 Action Relax 74.84 32.76 32.64 34.04 63.72 Action Strict 52.90 19. | Conclusions: In this study, we present a multi-modal dataset to facilitate value alignment. Our comprehensive experiments demonstrate the effectiveness of this dat"
 local_pdf: "[[PDFs/2024/2024-Nahian-The Goofus & Gallant Story Corpus for Practical.pdf]]"
 abstract: "Values or principles are key elements of human society that influence people to behave and function according to an accepted standard set of social rules to maintain social order. As AI systems are becoming ubiquitous in human society, it is a major concern that they could violate these norms or values and potentially cause harm. Thus, to prevent intentional or unintentional harm, AI systems are expected to take actions that align with these principles."
+CONF-CC: "Machine Learning"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, BERT"
 DATA_URL: "NA"

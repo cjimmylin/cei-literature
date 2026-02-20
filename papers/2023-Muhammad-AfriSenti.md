@@ -36,6 +36,7 @@ local_pdf: "[[PDFs/2023/2023-Muhammad-AfriSenti.pdf]]"
 LLM_assessed: "BERT, Debertav3"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
 publication: EMNLP 2023
+CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260215
 ethics_overall: "No"
 virtue_ethics: "No"

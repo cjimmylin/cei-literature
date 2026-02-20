@@ -29,6 +29,7 @@ moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have shown great potential as general-purpose AI assistants in various domains. To meet the requirements of different applications, LLMs are often customized by further fine-tuning. However, the powerful learning ability of LLMs not only enables them to acquire new tasks but also makes them susceptible to learning undesired behaviors. For example, even safety-aligned LLMs can be easily finetuned into harmful assistants as the fine-tuning data often contains implicit..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: Llama-2
 DATA_URL: "https://github.com/AI-in-Health/MedLLMsPracticalGuide"

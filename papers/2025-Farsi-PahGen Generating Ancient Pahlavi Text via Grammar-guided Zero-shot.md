@@ -19,6 +19,7 @@ last_author: "[[Hossein Sameti]]"
 authors: Farhan Farsi, Parnian Fazel, Farzaneh Goshtasb, Nadia Hajipour, Sadra Sabouri, Ehsaneddin Asgari, Hossein Sameti
 url: "https://aclanthology.org/2025.loresmt-1.16/"
 publication: ACL Anthology (LoResMT 2025 Workshop)
+CONF-CC: "Workshop (2025)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

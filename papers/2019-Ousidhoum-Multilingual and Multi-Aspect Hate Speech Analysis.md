@@ -20,6 +20,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/1908.11049"
 external_pdf: "https://arxiv.org/pdf/1908.11049.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md"
 local_pdf: "[[PDFs/2019/2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.pdf]]"
 DATE_ADDED: 20260213

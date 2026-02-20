@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2511.05819
 url: "https://arxiv.org/abs/2511.05819"
 external_pdf: "https://arxiv.org/pdf/2511.05819.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

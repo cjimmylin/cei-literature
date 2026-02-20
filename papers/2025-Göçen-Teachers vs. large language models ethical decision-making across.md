@@ -22,6 +22,7 @@ authors: "[[Ahmet Göçen]]; [[Osman Daşyol]]; [[Esra Aslan]]; [[Mürsel Aydın
 doi: 10.1080/10508422.2025.2581274
 url: "https://www.tandfonline.com/doi/full/10.1080/10508422.2025.2581274"
 publication: "Ethics & Behavior (Taylor & Francis)"
+CONF-CC: "Ethics & Behavior"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

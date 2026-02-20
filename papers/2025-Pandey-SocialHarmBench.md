@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2510.04891.pdf"
 pdf_extract: "PDF Extracts/0000/2025-Pandey-SocialHarmBench.md"
 local_pdf: "[[PDFs/2025/2025-Pandey-SocialHarmBench.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

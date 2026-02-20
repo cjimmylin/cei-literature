@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2406.16469.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md"
 local_pdf: "[[PDFs/2024/2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.pdf]]"
 publication: "arXiv / ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Korean, Cross-cultural"

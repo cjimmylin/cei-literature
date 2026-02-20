@@ -24,6 +24,7 @@ external_pdf: "https://link.springer.com/content/pdf/10.3758/s13428-023-02307-x.
 pdf_extract: "PDF Extracts/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.md"
 local_pdf: "[[PDFs/2025/2025-Oh-Robustness of Large Language Models in Moral Judgements.pdf]]"
 publication: Unknown
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2504.05747.pdf"
 pdf_extract: "PDF Extracts/2025/2025-team-SEA-LION Southeast Asian Languages in One.md"
 local_pdf: "[[PDFs/2025/2025-team-SEA-LION Southeast Asian Languages in One.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Indonesian, Filipino, Thai, Vietnamese"
 cultures_nationalities_list: "Chinese, Indonesian, Filipino, Thai, Vietnamese, Southeast Asian"

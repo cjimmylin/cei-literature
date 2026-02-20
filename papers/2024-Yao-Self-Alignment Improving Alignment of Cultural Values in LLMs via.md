@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2408.16482.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via.md"
 local_pdf: "[[PDFs/2024/2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

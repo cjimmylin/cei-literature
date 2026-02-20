@@ -20,6 +20,7 @@ authors: Weihong Qi, Fan Huang, Jisun An, Haewoon Kwak
 url: "https://arxiv.org/abs/2506.21587"
 external_pdf: "https://arxiv.org/pdf/2506.21587.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation.md"
 DATE_ADDED: 20260215

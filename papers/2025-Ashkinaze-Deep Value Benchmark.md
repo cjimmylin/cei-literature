@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2511.02109.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ashkinaze-Deep Value Benchmark.md"
 local_pdf: "[[PDFs/2025/2025-Ashkinaze-Deep Value Benchmark.pdf]]"
 publication: "NeurIPS 2025"
+CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"

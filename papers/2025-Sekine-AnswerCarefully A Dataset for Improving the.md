@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2506.02372.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.md"
 local_pdf: "[[PDFs/2025/2025-Sekine-AnswerCarefully A Dataset for Improving the.pdf]]"
 publication: "arXiv preprint (NII LLM-jp project)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese"
 cultures_nationalities_list: "Japanese"

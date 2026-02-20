@@ -34,6 +34,7 @@ key_contribution: "Part of the Holistic Evaluation of Language Models (HELM), de
 significance: "Moves safety evaluation from ad-hoc tests to a standardized, rigorous leaderboard entry, forcing all new models to report comparable safety metrics."
 tags: 
 abstract: "HELM Safety v1.0 is a broad, transparent, and standardized safety evaluation for language models. The evaluation covers a comprehensive taxonomy of risks based on developers' acceptable use policies, spanning violence, fraud, discrimination, sexual content, harassment, and deception. HELM Safety features evaluations including BBQ (social discrimination), SimpleSafetyTest, HarmBench (jailbreaking), XSTest (edge cases), and AnthropicRedTeam."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-3, Mistral, Mixtral, Qwen, DeepSeek"
 DATA_URL: "https://github.com/stanford-crfm/helm"

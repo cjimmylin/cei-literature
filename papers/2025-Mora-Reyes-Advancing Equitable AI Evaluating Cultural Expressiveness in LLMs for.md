@@ -20,6 +20,7 @@ authors: Brigitte A. Mora-Reyes, Jennifer A. Drewyor, Abel A. Reyes-Angulo
 url: "https://arxiv.org/abs/2511.04090"
 external_pdf: "https://arxiv.org/pdf/2511.04090.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.md"
 DATE_ADDED: 20260215

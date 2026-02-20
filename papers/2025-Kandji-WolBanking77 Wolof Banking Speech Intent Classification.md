@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md"
 local_pdf: "[[PDFs/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
 publication: "WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Senegalese, West African"

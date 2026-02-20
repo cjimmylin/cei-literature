@@ -25,6 +25,7 @@ pdf_extract: "PDF Extracts/2022/2022-Prabhakaran-A Human Rights-Based Approach t
 local_pdf: "[[PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2210.02667.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

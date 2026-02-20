@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://peerj.com/articles/cs-1617/"
 external_pdf: "https://europepmc.org/articles/PMC10702970?pdf=render"
 publication: "PeerJ Computer Science"
+CONF-CC: "PeerJ Computer Science"
 pdf_extract: "PDF Extracts/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md"
 local_pdf: "[[PDFs/2023/2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.pdf]]"
 DATE_ADDED: 20260213

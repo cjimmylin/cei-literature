@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2310.07019"
 external_pdf: "http://arxiv.org/pdf/2310.07019.pdf"
 publication: "International Conference on Climate Informatics"
+CONF-CC: "International Conference on Climate Informatics"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

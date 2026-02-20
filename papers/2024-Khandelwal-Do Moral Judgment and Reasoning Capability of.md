@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2402.02135
 url: "http://arxiv.org/abs/2402.02135"
 external_pdf: "http://arxiv.org/pdf/2402.02135.pdf"
 publication: "Conference of the European Chapter of the Association for Computational Linguistics"
+CONF-CC: "EACL 2024"
 national_ethnic_cultural: "Chinese, Indian, African/Ubuntu, Spanish, Russian"
 cultures_nationalities_list: "Chinese, Indian, African, Spanish, Russian"
 languages_list: "Chinese, English, Hindi, Russian, Spanish, Swahili"

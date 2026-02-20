@@ -23,6 +23,7 @@ tags: "Computer Science - Computer Vision and Pattern Recognition"
 url: "http://arxiv.org/abs/2503.16566"
 external_pdf: "http://arxiv.org/pdf/2503.16566.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 ethics_perspective: "AI Safety & Alignment"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2403.19260"
 external_pdf: "http://arxiv.org/pdf/2403.19260.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2024"
 national_ethnic_cultural: "African/Ubuntu, American"
 cultures_nationalities_list: "Nigerian"
 languages_list: "English, Nigerian Pidgin"

@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2511.04727.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.md"
 local_pdf: "[[PDFs/2025/2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.pdf]]"
 publication: "WebSearch: IndicVisionBench"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

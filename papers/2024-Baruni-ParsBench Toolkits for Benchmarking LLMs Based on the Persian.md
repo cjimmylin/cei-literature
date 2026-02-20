@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://github.com/ParsBench/ParsBench"
 external_pdf: "https://arxiv.org/pdf/2404.02403"
 publication: "GitHub / HuggingFace"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md"
 local_pdf: "[[PDFs/2024/2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.pdf]]"
 DATE_ADDED: 20260213

@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2507.11216"
 external_pdf: "http://arxiv.org/pdf/2507.11216.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Spanish, American"
 cultures_nationalities_list: "Spanish, Catalan, American"
 languages_list: "Catalan, Spanish"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2011.00677.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md"
 local_pdf: "[[PDFs/2020/2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.pdf]]"
 publication: "arXiv / ACL Anthology (COLING 2020)"
+CONF-CC: "COLING 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

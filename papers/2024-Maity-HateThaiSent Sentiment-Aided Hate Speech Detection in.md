@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "IEEE Transactions on Computational Social Systems"
+CONF-CC: "IEEE TCSS"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

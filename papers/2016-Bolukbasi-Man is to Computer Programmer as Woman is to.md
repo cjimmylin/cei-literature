@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.1607.06520
 url: "http://arxiv.org/abs/1607.06520"
 external_pdf: "http://arxiv.org/pdf/1607.06520.pdf"
 publication: "Proceedings of the 30th Conference on Neural Information Processing Systems (NIPS 2016)"
+CONF-CC: "NeurIPS 2016"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

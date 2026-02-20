@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2205.14728.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.md"
 local_pdf: "[[PDFs/2022/2022-Joshi-L3Cube-MahaNLP Marathi Natural Language Processing Datasets.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

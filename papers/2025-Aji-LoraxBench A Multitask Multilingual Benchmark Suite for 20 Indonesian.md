@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2508.12459.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md"
 local_pdf: "[[PDFs/2025/2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP 2025)"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

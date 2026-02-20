@@ -20,6 +20,7 @@ last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://ieeexplore.ieee.org/iel8/10902665/10902666/10902753.pdf"
 publication: IEEE
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

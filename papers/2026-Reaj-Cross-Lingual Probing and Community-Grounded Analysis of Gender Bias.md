@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2601.17764.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md"
 local_pdf: "[[PDFs/2026/2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bengali"

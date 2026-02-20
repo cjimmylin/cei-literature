@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2020/2020-Nangia-CrowS-Pairs.pdf]]"
 LLM_assessed: "BERT, RoBERTa, ALBERT"
 DATA_URL: "https://github.com/nyu-mll/crows-pairs/"
 publication: "EMNLP 2020"
+CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
 research_topic: "Machine Learning"
 ethics_overall: "Yes"

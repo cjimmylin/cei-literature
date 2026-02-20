@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-naacl.147/"
 external_pdf: "https://aclanthology.org/2025.findings-naacl.147.pdf"
 publication: "NAACL 2025 Findings"
+CONF-CC: "NAACL 2025 Findings"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md"
 local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Advancing Persian LLM Evaluation.pdf]]"
 DATE_ADDED: 20260213

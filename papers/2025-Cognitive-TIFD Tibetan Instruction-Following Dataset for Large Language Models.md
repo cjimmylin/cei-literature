@@ -21,6 +21,7 @@ doi: 10.3724/2096-7004.di.2024.0010
 url: "https://www.sciengine.com/DI/doi/10.3724/2096-7004.di.2024.0010"
 external_pdf: "https://www.sciengine.com/doi/pdfView/B770E370D32D49CDA44D77D17C2EBC9A"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.pdf]]"
 DATE_ADDED: 20260213

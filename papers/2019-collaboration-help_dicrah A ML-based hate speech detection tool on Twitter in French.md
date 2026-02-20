@@ -20,6 +20,7 @@ last_author: "[[Mik3M4n (DILCRAH collaboration)]]"
 authors: "Mik3M4n (DILCRAH collaboration)"
 url: "https://github.com/Mik3M4n/help_dicrah"
 publication: GitHub
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

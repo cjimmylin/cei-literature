@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2505.11615
 url: "http://arxiv.org/abs/2505.11615"
 external_pdf: "http://arxiv.org/pdf/2505.11615.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 research_topic: "NLP & Representation Learning"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

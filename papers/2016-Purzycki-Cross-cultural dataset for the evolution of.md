@@ -32,6 +32,7 @@ key_contribution: "Produced a cross-cultural dataset examining the evolution of 
 significance: "Provides rare empirical data on religious beliefs and moral behavior from non-market-integrated societies, offering a crucial baseline for understanding the universality vs. specificity of human moral evolution."
 tags: 
 abstract: "Abstract A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The bulk of this research, however, draws from coded qualitative ethnographies rather than from standardized methods specifically designed to measure religious beliefs and behaviors. Psychological data sets that examine religious thought and behavior in controlled conditions tend to be disproportionately sampled from student populations. Some cross-national databases e"
+CONF-CC: "Scientific Data"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"

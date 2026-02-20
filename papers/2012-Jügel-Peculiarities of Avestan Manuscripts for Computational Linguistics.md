@@ -20,6 +20,7 @@ authors: Thomas Jügel
 doi: 10.21248/jlcl.27.2012.161
 url: "https://www.academia.edu/3268814/Peculiarities_of_Avestan_Manuscripts_for_Computational_Linguistics"
 publication: "Journal for Language Technology and Computational Linguistics (JLCL) 27(2):25-38"
+CONF-CC: "Journal for Language Technology and Computational Linguistics (JLCL) 27(2):25-38"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

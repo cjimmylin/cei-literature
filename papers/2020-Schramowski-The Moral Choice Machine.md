@@ -34,6 +34,7 @@ key_contribution: "Extracts deontological ethical reasoning from text corpora us
 significance: "Demonstrates that text corpora contain recoverable imprints of social/ethical choices that can be quantified and tracked temporally"
 tags: 
 abstract: "Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about 'right' and 'wrong' conduct. We create a template list of prompts and responses, such as 'Should I [action]?', 'Is it okay to [action]?', etc. with corresponding answers of 'Yes/no, I should (n"
+CONF-CC: "Frontiers in Artificial Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

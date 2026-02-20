@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2411.16508
 url: "http://arxiv.org/abs/2411.16508"
 external_pdf: "http://arxiv.org/pdf/2411.16508.pdf"
 publication: "Computer Vision and Pattern Recognition"
+CONF-CC: "CVPR 2024"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "Multilingual"

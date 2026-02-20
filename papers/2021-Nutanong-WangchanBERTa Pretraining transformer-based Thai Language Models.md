@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2101.09635.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md"
 local_pdf: "[[PDFs/2021/2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

@@ -31,6 +31,7 @@ key_contribution: "Built XSafety, a multilingual safety benchmark (10 languages,
 significance: "Highlights the 'multilingual safety gap', showing that safety alignment often fails to transfer zero-shot to other languages, necessitating native safety data."
 tags: 
 abstract: "Ensuring safety is fundamental when developing and deploying large language models (LLMs). However, previous safety benchmarks only concern the safety in one language, e.g., the majority language in the pretraining data, such as English. In this work, we build the first multilingual safety benchmark for LLMs, XSAFETY, in response to the global deployment of LLMs in practice. XSAFETY covers 14 commonly used safety issues across ten languages spanning several language families."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-3.5, PaLM-2, Llama-2, Vicuna"
 DATA_URL: "https://github.com/Jarviswang94/Multilingual_safety_benchmark"

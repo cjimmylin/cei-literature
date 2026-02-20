@@ -33,6 +33,7 @@ significance: "Provides the empirical data underpinning major theories in the ev
 tags: 
 osint_source: "Recovered via HTML"
 abstract: "A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The Evolution of Religion and Morality Project sought to generate a data set that systematically probed individual level measures sampling across a wider range of human populations. The set includes data from behavioral economic experiments and detailed surveys of demographics, religious beliefs and practices, material security, and intergroup perceptions."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

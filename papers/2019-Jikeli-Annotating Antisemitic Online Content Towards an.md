@@ -28,6 +28,7 @@ external_pdf: "https://arxiv.org/pdf/1910.01214.pdf"
 pdf_extract: "PDF Extracts/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.md"
 local_pdf: "[[PDFs/2019/2019-Jikeli-Annotating Antisemitic Online Content Towards an.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"

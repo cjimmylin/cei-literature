@@ -22,6 +22,7 @@ authors: Geleta Negasa Binegde; Huaping Zhang
 authors_incomplete: false
 url: "https://pure.bit.edu.cn/en/publications/exploring-cultural-commonsense-in-multilingual-large-language-mod/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

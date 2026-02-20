@@ -33,6 +33,7 @@ key_contribution: "Released the Socio-Moral Image Database (SMID), a standardize
 significance: "Provides a necessary visual alternative to text-based vignettes for cross-cultural and developmental moral psychology research."
 tags: 
 abstract: "A major obstacle for the design of rigorous, reproducible studies in moral psychology is the lack of suitable stimulus sets. Here, we present the Socio-Moral Image Database (SMID), the largest standardized moral stimulus set assembled to date, containing 2,941 freely available photographic images, representing a wide range of morally (and affectively) positive, negative and neutral content. The SMID was validated with over 820,525 individual judgments from 2,716 participants, with normative..."
+CONF-CC: "PLOS ONE"
 DATE_ADDED: 20260208
 LLM_assessed: "Bloom P"
 DATA_URL: "https://osf.io/2rqad/"

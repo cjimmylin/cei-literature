@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2103.11811.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Adelani-MasakhaNER Named Entity Recognition for African.md"
 local_pdf: "[[PDFs/2021/2021-Adelani-MasakhaNER Named Entity Recognition for African.pdf]]"
 publication: "WebSearch: MasakhaNER African languages named entity recognition"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

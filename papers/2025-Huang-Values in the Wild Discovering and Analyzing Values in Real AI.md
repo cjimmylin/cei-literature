@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2504.15236.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md"
 local_pdf: "[[PDFs/2025/2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

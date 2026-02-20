@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2405.14141.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md"
 local_pdf: "[[PDFs/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.pdf]]"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Vietnamese"
 cultures_nationalities_list: "Vietnamese"

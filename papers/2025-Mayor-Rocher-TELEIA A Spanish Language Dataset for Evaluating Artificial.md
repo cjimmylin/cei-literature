@@ -21,6 +21,7 @@ last_author: "[[Pedro Reviriego]]"
 authors: Marina Mayor-Rocher; Nina Melero; Elena Merino-Gómez; Miguel Ángel Pesquera González; Raquel Ferrando; Javier Conde; Pedro Reviriego
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925001696"
 publication: "ScienceDirect / Data in Brief"
+CONF-CC: "Data in Brief"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

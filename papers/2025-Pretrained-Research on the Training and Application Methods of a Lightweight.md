@@ -21,6 +21,7 @@ last_author: "[[Combining Pretrained]]"
 authors: "Combining Pretrained"
 url: "https://www.mdpi.com/2076-3417/14/13/5764"
 publication: MDPI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

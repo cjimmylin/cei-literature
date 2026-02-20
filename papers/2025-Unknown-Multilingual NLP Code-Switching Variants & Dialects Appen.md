@@ -22,6 +22,7 @@ authors: "[[Hamed, Injy]]; [[Sabty, Caroline]]; [[Abdennadher, Slim]]; [[Vu, Ngo
 authors_incomplete: false
 url: "https://www.appen.com/blog/emnlp-2025-multilingual-nlp"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

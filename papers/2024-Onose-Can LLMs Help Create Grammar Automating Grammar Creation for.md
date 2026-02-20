@@ -22,6 +22,7 @@ authors: "Ejiro Onose"
 url: "https://arxiv.org/html/2412.10960v1"
 external_pdf: "https://arxiv.org/pdf/2412.10960.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for.md"
 local_pdf: "[[PDFs/2024/2024-Onose-Can LLMs Help Create Grammar Automating Grammar Creation for.pdf]]"
 DATE_ADDED: 20260213

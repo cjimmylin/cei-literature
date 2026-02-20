@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2504.21026.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and.md"
 local_pdf: "[[PDFs/2025/2025-Pandey-Creating and Evaluating Code-Mixed Nepali-English and.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali, Telugu, Indian"

@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2505.24671
 url: "http://arxiv.org/abs/2505.24671"
 external_pdf: "http://arxiv.org/pdf/2505.24671.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multicultural/Cross-cultural"
 languages_list: ""

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2302.14494.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kuriyozov-Text classification dataset and analysis for.md"
 local_pdf: "[[PDFs/2023/2023-Kuriyozov-Text classification dataset and analysis for.pdf]]"
 publication: arxiv.org
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Uzbek"

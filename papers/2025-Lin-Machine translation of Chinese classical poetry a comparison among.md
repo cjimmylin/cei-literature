@@ -22,6 +22,7 @@ authors_incomplete: true
 url: "https://www.nature.com/articles/s41599-024-03363-0"
 external_pdf: "https://www.nature.com/articles/s41599-024-03363-0.pdf?error=cookies_not_supported&code=29f09f92-c181-467c-91ee-bad257558a9a"
 publication: Nature
+CONF-CC: "Nature"
 pdf_extract: "PDF Extracts/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.md"
 local_pdf: "[[PDFs/2025/2025-Lin-Machine translation of Chinese classical poetry a comparison among.pdf]]"
 DATE_ADDED: 20260213

@@ -21,6 +21,7 @@ last_author: "[[VarDial 2024 Shared Task Organizers]]"
 authors: "VarDial 2024 Shared Task Organizers"
 url: "https://www.clarin.si/repository/xmlui/handle/11356/1766"
 publication: "VarDial 2024 / CLARIN"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

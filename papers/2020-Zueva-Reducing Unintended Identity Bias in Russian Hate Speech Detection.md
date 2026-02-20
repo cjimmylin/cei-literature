@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2010.11666.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Zueva-Reducing Unintended Identity Bias in Russian Hate Speech Detection.md"
 local_pdf: "[[PDFs/2020/2020-Zueva-Reducing Unintended Identity Bias in Russian Hate Speech Detection.pdf]]"
 publication: "arXiv / ACL Anthology (ALW 2020)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

@@ -35,6 +35,7 @@ DATA_URL: "NA"
 pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
 local_pdf: "[[PDFs/2025/2025-Flores-BenchMoral.pdf]]"
 publication: EA Forum
+CONF-CC: "N/A"
 DATE_ADDED: 20260213
 ethics_overall: "Yes"
 virtue_ethics: "No"

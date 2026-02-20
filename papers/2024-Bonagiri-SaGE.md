@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2402.13709
 url: "http://arxiv.org/abs/2402.13709"
 external_pdf: "http://arxiv.org/pdf/2402.13709.pdf"
 publication: "International Conference on Language Resources and Evaluation"
+CONF-CC: "Language Resources and Evaluation"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

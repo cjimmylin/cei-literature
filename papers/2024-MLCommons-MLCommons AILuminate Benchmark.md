@@ -30,6 +30,7 @@ newtags:
 tags: 
 research_topic: "Machine Learning"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama, LlamaGuard, Mistral, Mistral Nemo, Mistral-7B, mistralai"
 DATA_URL: "https://github.com/mlcommons/ailuminate"

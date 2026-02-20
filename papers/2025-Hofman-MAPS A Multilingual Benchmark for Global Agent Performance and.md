@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2505.15935.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.md"
 local_pdf: "[[PDFs/2025/2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Japanese, Korean, Indian, Arabic, German, Italian, Spanish, Russian, Brazilian, Hebrew/Israeli"
 cultures_nationalities_list: "N/A"

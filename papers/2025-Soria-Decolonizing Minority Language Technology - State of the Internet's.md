@@ -22,6 +22,7 @@ authors: Claudia Soria
 authors_incomplete: false
 url: "https://internetlanguages.org/en/stories/decolonizing-minority-language/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

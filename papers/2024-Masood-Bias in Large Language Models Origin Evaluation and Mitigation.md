@@ -21,6 +21,7 @@ authors: "Adnan Masood, Ph"
 url: "https://arxiv.org/html/2411.10915v1"
 external_pdf: "https://arxiv.org/pdf/2411.10915.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.md"
 local_pdf: "[[PDFs/2024/2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.pdf]]"
 DATE_ADDED: 20260213

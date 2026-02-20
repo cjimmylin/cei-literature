@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2310.13297.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md"
 local_pdf: "[[PDFs/2025/2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.pdf]]"
 publication: Unknown
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

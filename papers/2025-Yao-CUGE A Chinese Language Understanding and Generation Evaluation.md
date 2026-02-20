@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "http://cuge.baai.ac.cn/pdf/CUGE.pdf"
 external_pdf: "https://arxiv.org/pdf/2112.13610v2.pdf"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.md"
 local_pdf: "[[PDFs/2025/2025-Yao-CUGE A Chinese Language Understanding and Generation Evaluation.pdf]]"
 DATE_ADDED: 20260213

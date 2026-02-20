@@ -33,6 +33,7 @@ key_contribution: "Outlines 10 'hard problems' for AI2050 (e.g., alignment, assu
 significance: "Provides a high-level strategic roadmap for the field, connecting technical alignment challenges (like goal specification) with broader sociotechnical and political issues."
 tags: 
 abstract: "We explore the AI2050 \"
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "BERT, Bartlett, Codex, GPT-3, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/Veriﬁed-Intelligence/alpha-beta-"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2304.07880.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Pires-Sabiá Portuguese Large Language Models.md"
 local_pdf: "[[PDFs/2023/2023-Pires-Sabiá Portuguese Large Language Models.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian, Portuguese"

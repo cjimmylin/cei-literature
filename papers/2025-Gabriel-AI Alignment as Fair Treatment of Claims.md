@@ -22,6 +22,7 @@ authors: "Iason Gabriel; Geoff Keeling"
 doi: 10.1007/s11098-025-02300-4
 url: "https://link.springer.com/article/10.1007/s11098-025-02300-4"
 publication: "Philosophical Studies"
+CONF-CC: "Philosophical Studies"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -20,6 +20,7 @@ last_author: "[[Ngo, Chong-Wah]]"
 authors: Burak Satar; Zhixin Ma; Patrick A. Irawan; Wilfried A. Mulyawan; Jing Jiang; Ee-Peng Lim; Chong-Wah Ngo
 url: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 publication: HuggingFace
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

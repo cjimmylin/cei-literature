@@ -39,6 +39,7 @@ local_pdf: "[[PDFs/2022/2022-Bai-Training a Helpful and Harmless Assistant with.
 LLM_assessed: "GPT-2, GPT-3, InstructGPT, LaMDA, Palm, BERT, codex, grok"
 DATA_URL: "https://github.com/anthropics/hh-rlhf"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

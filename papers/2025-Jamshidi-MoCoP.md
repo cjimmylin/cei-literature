@@ -38,6 +38,7 @@ local_pdf: "[[PDFs/2025/2025-Jamshidi-MoCoP.pdf]]"
 LLM_assessed: "GPT-4, DeepSeek"
 DATA_URL: "NA"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2402.12969.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese.md"
 local_pdf: "[[PDFs/2024/2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese.pdf]]"
 publication: "arXiv / PROPOR 2024"
+CONF-CC: "PROPOR 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Portuguese"

@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2408.09945v1"
 external_pdf: "https://arxiv.org/pdf/2408.09945.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md"
 local_pdf: "[[PDFs/2024/2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.pdf]]"
 DATE_ADDED: 20260213

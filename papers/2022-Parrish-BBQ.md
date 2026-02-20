@@ -33,6 +33,7 @@ tags:
 abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
 pdf_extract: "PDF Extracts/2022/2022-Parrish-BBQ.md"
 local_pdf: "[[PDFs/2022/2022-Parrish-BBQ.pdf]]"
+CONF-CC: "Findings of the Association for Computational Linguistics: ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "T5, RoBERTa, DeBERTa"
 DATA_URL: "https://github.com/nyu-mll/BBQ"

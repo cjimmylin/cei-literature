@@ -24,6 +24,7 @@ pdf_extract: "PDF Extracts/2024/2024-Huang-TrustLLM.md"
 local_pdf: "[[PDFs/2024/2024-Huang-TrustLLM.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

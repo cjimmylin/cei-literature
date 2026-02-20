@@ -27,6 +27,7 @@ external_pdf:
 pdf_extract: "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md"
 local_pdf: "[[PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.pdf]]"
 publication: "OpenReview / Workshop paper"
+CONF-CC: "Workshop (2025)"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Arabic, Islamic"

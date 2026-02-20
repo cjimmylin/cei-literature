@@ -25,6 +25,7 @@ external_pdf: "https://aclanthology.org/2024.nlp4dh-1.12.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Amano-Exploring Similarity Measures and Intertextuality in.md"
 local_pdf: "[[PDFs/2024/2024-Amano-Exploring Similarity Measures and Intertextuality in.pdf]]"
 publication: "NLP4DH 2024 (4th International Conference on NLP for Digital Humanities), Miami, USA"
+CONF-CC: "N/A"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

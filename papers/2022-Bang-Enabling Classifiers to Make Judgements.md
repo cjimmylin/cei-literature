@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2210.07652
 url: "http://arxiv.org/abs/2210.07652"
 external_pdf: "http://arxiv.org/pdf/2210.07652.pdf"
 publication: TRUSTNLP
+CONF-CC: "TRUSTNLP"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

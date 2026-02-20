@@ -21,6 +21,7 @@ authors: "[[Alexandru-Gabriel Ganea]]; [[Antonia-Adelina Popovici]]; [[Adrian-Ma
 url: "https://arxiv.org/abs/2506.05991"
 external_pdf: "https://arxiv.org/pdf/2506.05991.pdf"
 publication: "arXiv / RANLP 2025"
+CONF-CC: "RANLP 2025"
 pdf_extract: "PDF Extracts/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md"
 local_pdf: "[[PDFs/2025/2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.pdf]]"
 DATE_ADDED: 20260213

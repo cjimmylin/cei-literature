@@ -19,6 +19,7 @@ authors: "Xueqing Peng, Triantafillos Papadopoulos, Efstathia Soufleri, Polydoro
 url: "https://arxiv.org/abs/2502.18772"
 external_pdf: "https://arxiv.org/pdf/2502.18772.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.md"
 local_pdf: "[[PDFs/2025/2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.pdf]]"
 DATE_ADDED: 20260213

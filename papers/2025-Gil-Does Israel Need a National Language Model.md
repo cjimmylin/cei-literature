@@ -20,6 +20,7 @@ last_author: "[[Shapira, Noa]]"
 authors: Baram, Gil; Lavi, Hadas; Shapira, Noa
 url: "https://www.inss.org.il/publication/israel-ai/"
 publication: INSS (Institute for National Security Studies)
+CONF-CC: "N/A"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

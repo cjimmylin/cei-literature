@@ -31,6 +31,7 @@ key_contribution: "Published a comprehensive whitepaper detailing best practices
 significance: "Serves as a practical guide for researchers/industry to navigate the ethical landscape of LLM development, addressing issues from data procurement to deployment impact."
 tags: 
 abstract: "There is a significant body of work looking at the ethical considerations of large language models (LLMs): critiquing tools to measure performance and harms; proposing toolkits to aid in ideation; discussing the risks to workers; considering legislation around privacy and security etc. As yet there is no work that integrates these resources into a single practical guide that focuses on LLMs; we attempt this ambitious goal."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT"
 DATA_URL: "https://github.com/MxEddie/Ethics-Whitepaper"

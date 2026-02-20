@@ -22,6 +22,7 @@ doi: 10.1101/2024.09.18.24313931
 url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"
 publication: medRxiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -20,6 +20,7 @@ last_author: "[[Elena Gavagnin]]"
 authors: Jasmin Heierli, Rebecca Bahar Ganjineh, Elena Gavagnin
 url: "https://acl-bg.org/proceedings/2025/LowResNLP%202025/pdf/2025.lowresnlp-1.12.pdf"
 publication: LowResNLP 2025 Workshop (RANLP 2025)
+CONF-CC: "RANLP 2025 Workshop"
 local_pdf: "[[PDFs/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.md"
 "N/A"

@@ -21,6 +21,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://www.preprints.org/manuscript/202512.1084/v1/download"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

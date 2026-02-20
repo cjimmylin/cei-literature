@@ -26,6 +26,7 @@ external_pdf: "https://openreview.net/pdf?id=6hTgB2PR5Z"
 pdf_extract: "PDF Extracts/2024/2024-Jones-Fit for Our Purpose Not Yours.md"
 local_pdf: "[[PDFs/2024/2024-Jones-Fit for Our Purpose Not Yours.pdf]]"
 publication: "NeurIPS 2024 Datasets and Benchmarks Track"
+CONF-CC: "NeurIPS 2024 D&B"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indigenous"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2502.15422.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md"
 local_pdf: "[[PDFs/2025/2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.pdf]]"
 publication: "arXiv / NAACL 2025"
+CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

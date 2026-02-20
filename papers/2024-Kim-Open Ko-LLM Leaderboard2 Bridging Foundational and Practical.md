@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2410.12445.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.md"
 local_pdf: "[[PDFs/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

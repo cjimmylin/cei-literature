@@ -34,6 +34,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11096860/pdf/main.pdf"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "Data in Brief (ScienceDirect)"
+CONF-CC: "Data in Brief"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

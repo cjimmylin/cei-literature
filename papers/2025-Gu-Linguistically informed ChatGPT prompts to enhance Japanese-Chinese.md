@@ -23,6 +23,7 @@ doi: 10.1371/journal.pone.0313264
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313264"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0313264&type=printable"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md"
 local_pdf: "[[PDFs/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf]]"
 DATE_ADDED: 20260213

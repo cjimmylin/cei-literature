@@ -21,6 +21,7 @@ authors: "[[Vladislav Mikhailov]]; [[Tita Enstad]]; [[David Samuel]]; [[Hans Chr
 url: "https://arxiv.org/abs/2504.07749"
 external_pdf: "https://arxiv.org/pdf/2504.07749.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.md"
 local_pdf: "[[PDFs/2025/2025-Mikhailov-NorEval A Norwegian Language Understanding and Generation Evaluation.pdf]]"
 DATE_ADDED: 20260213

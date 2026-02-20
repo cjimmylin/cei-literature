@@ -31,6 +31,7 @@ key_contribution: "Released ToxicChat, a benchmark of real-world user-AI convers
 significance: "Reveals that models trained on standard social media data fail to detect the subtle, interaction-based toxicity found in real user-AI chats, highlighting a critical domain gap in safety evaluation."
 tags: 
 abstract: "Despite remarkable advances that large language models have achieved in chatbots, maintaining a non-toxic user-AI interactive environment has become increasingly critical nowadays. However, previous efforts in toxicity detection have been mostly based on benchmarks derived from social media content, leaving the unique challenges inherent to real-world user-AI interactions insufficiently explored. In this work, we introduce TOXICCHAT, a novel benchmark based on real user queries from an..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/lmsys/toxic-chat"

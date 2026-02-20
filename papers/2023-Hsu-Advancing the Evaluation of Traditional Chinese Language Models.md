@@ -20,6 +20,7 @@ authors: Chan-Jan Hsu, Chang-Le Liu, Feng-Ting Liao, Po-Chun Hsu, Yi-Chang Chen,
 url: "https://arxiv.org/abs/2309.08448"
 external_pdf: "https://arxiv.org/pdf/2309.08448.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2023/2023-Hsu-Advancing the Evaluation of Traditional Chinese Language Models.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Hsu-Advancing the Evaluation of Traditional Chinese Language Models.md"
 DATE_ADDED: 20260215

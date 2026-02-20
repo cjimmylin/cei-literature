@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2511.14295"
 external_pdf: "https://arxiv.org/pdf/2511.14295.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md"
 local_pdf: "[[PDFs/2025/2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.pdf]]"
 DATE_ADDED: 20260213

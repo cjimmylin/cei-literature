@@ -21,6 +21,7 @@ authors: "Nir Eisikovits; Dan Feldman"
 doi: 10.1515/mopp-2021-0026
 url: "https://www.degruyter.com/document/doi/10.1515/mopp-2021-0026/html"
 publication: "Moral Philosophy and Politics"
+CONF-CC: "Moral Philosophy and Politics"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: ""

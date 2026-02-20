@@ -22,6 +22,7 @@ doi: 10.1162/tacl_a_00404
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00404/107206"
 external_pdf: "https://arxiv.org/pdf/2007.15620"
 publication: TACL
+CONF-CC: "TACL 2021"
 pdf_extract: "PDF Extracts/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md"
 local_pdf: "[[PDFs/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.pdf]]"
 DATE_ADDED: 20260213

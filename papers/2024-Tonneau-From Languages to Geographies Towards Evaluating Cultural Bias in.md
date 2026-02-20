@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2404.17874.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md"
 local_pdf: "[[PDFs/2024/2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Spanish, American"
 cultures_nationalities_list: "Arabic, Spanish, American"

@@ -21,6 +21,7 @@ authors: Nir Hadar-Shoval, Zohar Elyoseph, Yuval Lvov, Oren Asraf
 doi: 10.2196/55988
 url: "https://mental.jmir.org/2024/1/e55988"
 publication: JMIR Mental Health
+CONF-CC: "JMIR Mental Health"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

@@ -20,6 +20,7 @@ authors: "Caroline Brun, Vassilina Nikoulina, Nadi Tomeh"
 url: "https://arxiv.org/abs/2406.17566"
 external_pdf: "https://arxiv.org/pdf/2406.17566.pdf"
 publication: "arXiv / ACL Anthology"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.md"
 local_pdf: "[[PDFs/2024/2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.pdf]]"
 DATE_ADDED: 20260213

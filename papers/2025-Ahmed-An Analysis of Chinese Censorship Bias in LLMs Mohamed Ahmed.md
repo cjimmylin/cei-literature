@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 external_pdf: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md"
 local_pdf: "[[PDFs/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.pdf]]"
 DATE_ADDED: 20260213

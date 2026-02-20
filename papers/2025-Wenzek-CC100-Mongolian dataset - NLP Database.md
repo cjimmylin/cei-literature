@@ -22,6 +22,7 @@ authors: Guillaume Wenzek; Marie-Anne Lachaux; Alexis Conneau; Vishrav Chaudhary
 authors_incomplete: false
 url: "https://autonlp.ai/datasets/cc100-mongolian"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

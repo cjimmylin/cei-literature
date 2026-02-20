@@ -20,6 +20,7 @@ authors: Sunny Rai, Khushang Jilesh Zaveri, Shreya Havaldar, Soumna Nema, Lyle U
 url: "https://arxiv.org/abs/2402.11333"
 external_pdf: "https://arxiv.org/pdf/2402.11333.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Rai-Social Norms in Cinema A Cross-Cultural Analysis of Shame Pride and.md"
 DATE_ADDED: 20260215

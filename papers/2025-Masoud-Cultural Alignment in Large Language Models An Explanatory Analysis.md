@@ -20,6 +20,7 @@ authors: Reem I. Masoud, Ziquan Liu, Martin Ferianc, Philip Treleaven, Miguel Ro
 url: "https://arxiv.org/abs/2309.12342"
 external_pdf: "https://arxiv.org/pdf/2309.12342.pdf"
 publication: COLING 2025
+CONF-CC: "COLING 2025"
 local_pdf: "[[PDFs/2025/2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Masoud-Cultural Alignment in Large Language Models An Explanatory Analysis.md"
 DATE_ADDED: 20260215

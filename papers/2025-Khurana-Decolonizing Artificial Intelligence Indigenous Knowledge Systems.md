@@ -20,6 +20,7 @@ authors: Shivam Khurana
 doi: 10.69996/jcai.2025013
 url: "https://fringeglobal.com/ojs/index.php/jcai/article/view/decolonizing-artificial-intelligence-indigenous-knowledge-system"
 publication: Journal of Computer Allied Intelligence (JCAI)
+CONF-CC: "Journal of Computer Allied Intelligence (JCAI)"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

@@ -23,6 +23,7 @@ pdf_extract: "PDF Extracts/0000/2025-Wu-CVC.md"
 local_pdf: "[[PDFs/2025/2025-Wu-CVC.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"

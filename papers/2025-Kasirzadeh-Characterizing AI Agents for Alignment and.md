@@ -31,6 +31,7 @@ key_contribution: "Proposed a 4-dimensional framework (Autonomy, Efficacy, Goal 
 significance: "Provides a vocabulary for regulators to classify 'Agents' distinct from 'Tools', which is crucial for upcoming AI legislation (e.g., EU AI Act, liability laws)."
 tags: 
 abstract: "Recent discussions and research in AI safety have increasingly emphasized the deep connection between AI safety and existential risk from advanced AI systems, suggesting that work on AI safety necessarily entails serious consideration of potential existential threats. However, this framing has three potential drawbacks: it may exclude researchers and practitioners who are committed to AI safety but approach the field from different angles; it could lead the public to mistakenly view AI safety..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

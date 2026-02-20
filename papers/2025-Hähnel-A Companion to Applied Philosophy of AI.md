@@ -31,6 +31,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Advocates for a neo-Aristotelian approach to AI ethics, applying virtue ethics principles to address the complexities of AI's governance and design"
 significance: "Provides a comprehensive philosophical framework that centers moral character and virtuous design practices in the broader discourse of applied AI philosophy"
 abstract: "This edited volume provides an applied philosophy perspective on artificial intelligence, featuring contributions from leading philosophers and interdisciplinary experts. Topics include ethics, epistemology, politics, and law as they relate to AI. The editors, particularly Martin Hähnel, advocate for a neo-Aristotelian approach to AI ethics, applying virtue ethics principles to address the complexities of AI's practical implications. The volume provides a critical philosophical framework for understanding AI governance, moral character in AI development, and the cultivation of virtuous design practices."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude, LaMDA"
 DATA_URL: "NA"

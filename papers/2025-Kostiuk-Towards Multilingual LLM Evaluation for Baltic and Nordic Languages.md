@@ -21,6 +21,7 @@ authors: "[[Yevhen Kostiuk]]; [[Oxana Vitman]]; [[Łukasz Gagała]]; [[Artur Kiu
 url: "https://arxiv.org/abs/2501.09154"
 external_pdf: "https://arxiv.org/pdf/2501.09154.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md"
 local_pdf: "[[PDFs/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.pdf]]"
 DATE_ADDED: 20260213

@@ -24,6 +24,7 @@ authors_incomplete: true
 url: "https://www.culturalsurvival.org/news/indigenous-peoples-and-ai-defending-rights-shaping-future-technology"
 external_pdf: "https://social.desa.un.org/sites/default/files/IDWIP%202025%20Concept%20Note%20FINAL.pdf?_gl=1*mx0iql*_ga*NDU3NDA5NzM1LjE3NTMxOTI1Nzg.*_ga_TK9BQL5X7Z*czE3NTQ2NTgxMDckbzIkZzAkdDE3NTQ2NTgxMDckajYwJGwwJGgw"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.pdf]]"
 DATE_ADDED: 20260213

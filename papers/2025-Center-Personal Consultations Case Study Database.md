@@ -30,6 +30,7 @@ newtags:
 tags: 
 research_topic: "Other"
 abstract: "A case study database containing records of personal consultations for ethics and values research. The database provides real-world examples of ethical decision-making scenarios and consultations that can be used to study how individuals and organizations approach moral dilemmas and value conflicts in practice."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "https://www.ncbcenter.org/case-study-database"

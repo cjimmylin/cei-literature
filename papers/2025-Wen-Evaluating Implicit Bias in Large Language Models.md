@@ -31,6 +31,7 @@ key_contribution: "Proposed psychometric-inspired attack methods (Disguise, Dece
 significance: "Shows that standard safety evaluations may miss 'implicit' biases that can be triggered by psychological framing, providing a more rigorous stress-test for model fairness."
 tags: 
 abstract: "As large language models (LLMs) become an important way of information access, there have been increasing concerns that LLMs may intensify the spread of unethical content, including implicit bias that hurts certain populations without explicit harmful words. In this paper, we conduct a rigorous evaluation of LLMs’ implicit bias towards certain demographics by attacking them from a psychometric perspective to elicit agreements to biased viewpoints."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Mistral, Llama-3, Qwen"
 DATA_URL: "https://github.com/yuchenwen1/BUMBLE"

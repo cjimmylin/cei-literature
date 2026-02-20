@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2504.10823.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.md"
 local_pdf: "[[PDFs/2025/2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2201.08277.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md"
 local_pdf: "[[PDFs/2022/2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.pdf]]"
 publication: "WebSearch: NaijaSenti Nigerian sentiment Hausa Yoruba Igbo dataset"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu, American"
 cultures_nationalities_list: "Nigerian"

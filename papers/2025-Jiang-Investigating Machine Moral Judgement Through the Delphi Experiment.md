@@ -24,6 +24,7 @@ external_pdf: "https://www.nature.com/articles/s42256-024-00969-6.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md"
 local_pdf: "[[PDFs/2025/2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.pdf]]"
 publication: "Nature Machine Intelligence"
+CONF-CC: "Nature Machine Intelligence"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "American"

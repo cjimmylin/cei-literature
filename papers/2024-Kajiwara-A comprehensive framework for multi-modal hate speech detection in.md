@@ -21,6 +21,7 @@ authors: Kajiwara
 url: "https://www.nature.com/articles/s41598-025-94069-z"
 external_pdf: "https://www.nature.com/articles/s41598-025-94069-z.pdf"
 publication: Nature
+CONF-CC: "Nature"
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md"
 local_pdf: "[[PDFs/2024/2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.pdf]]"
 DATE_ADDED: 20260213

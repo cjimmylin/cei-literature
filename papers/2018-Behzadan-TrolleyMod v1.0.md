@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.1811.05594
 url: "http://arxiv.org/abs/1811.05594"
 external_pdf: "http://arxiv.org/pdf/1811.05594.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)"
+CONF-CC: "AIES 2018"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

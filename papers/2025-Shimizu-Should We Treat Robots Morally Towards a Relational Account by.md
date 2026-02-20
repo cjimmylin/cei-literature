@@ -20,6 +20,7 @@ authors: H. Shimizu
 doi: 10.1007/s43681-025-00771-z
 url: "https://link.springer.com/article/10.1007/s43681-025-00771-z"
 publication: Springer AI and Ethics
+CONF-CC: "AI and Ethics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

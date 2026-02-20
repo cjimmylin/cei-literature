@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2312.00738.pdf"
 pdf_extract: "PDF Extracts/2023/2023-team-SeaLLMs Large Language Models for Southeast.md"
 local_pdf: "[[PDFs/2023/2023-team-SeaLLMs Large Language Models for Southeast.pdf]]"
 publication: "ACL 2024 Demo"
+CONF-CC: "ACL 2024 Demo"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai, Vietnamese, Indonesian"

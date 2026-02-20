@@ -33,6 +33,7 @@ abstract: "Pretrained multilingual models are able to perform cross-lingual tran
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
 local_pdf: "[[PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
+CONF-CC: "Frontiers in Artificial Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/abteen/americasnli"

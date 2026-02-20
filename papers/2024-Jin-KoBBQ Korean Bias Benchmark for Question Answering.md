@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2307.16778.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md"
 local_pdf: "[[PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.pdf]]"
 publication: "arXiv / TACL 2024"
+CONF-CC: "TACL 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean, American"
 cultures_nationalities_list: "Korean"

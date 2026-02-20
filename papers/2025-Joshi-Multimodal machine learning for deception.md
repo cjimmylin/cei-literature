@@ -32,6 +32,7 @@ newtags:
 tags: 
 research_topic: "Truthfulness & Factuality"
 abstract: "Deception detection is crucial in domains like national security, privacy, judiciary, and courtroom trials. Differentiating truth from lies is inherently challenging due to many complex, diversified behavioural, physiological and cognitive aspects. Traditional lie detector tests (polygraphs) have been widely used but remain controversial due to scientific, ethical, and practical concerns. With advancements in machine learning, deception detection can be automated. However, existing secondary datasets are limited—they are small, unimodal, and predominantly based on non-Indian populations. To address these gaps, we present CogniModal-D, a primary real-world multimodal dataset for deception detection, specifically targeting the Indian population. It spans seven modalities—electroencephalography (EEG), electrocardiography (ECG), electrooculography (EOG), eye-gaze, galvanic skin response (GSR), audio, and video—collected from over 100 subjects."
+CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

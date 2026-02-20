@@ -30,6 +30,7 @@ key_contribution: "Created EMoTES-3K, the first dataset for emotion-based morali
 significance: "Addresses the 'Anglocentrism' of moral AI benchmarks, providing a crucial resource for Filipino NLP and showing that models struggle with 'mixed' moral scenarios in Tagalog."
 tags: 
 abstract: "Grasping morality is vital in AI systems, particularly as they become more prevalent in humanfocused applications. Yet, research is scarce on this topic. This study presents the Emotionbased Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "RoBERTa, Flan-T5"
 DATA_URL: "NA"

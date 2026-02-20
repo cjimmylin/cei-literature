@@ -20,6 +20,7 @@ authors: "Allison Huang; Yulu Niki Pi; Carlos Mougan"
 url: "https://arxiv.org/abs/2411.11731"
 external_pdf: "https://arxiv.org/pdf/2411.11731.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

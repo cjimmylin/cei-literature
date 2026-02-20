@@ -20,6 +20,7 @@ last_author: "[[Alice Oh]]"
 authors: "Jun Seong Kim; Kyaw Ye Thu; Javad Ismayilzada; Junyeong Park; Eunsu Kim; Huzama Ahmad; Na Min An; James Thorne; Alice Oh"
 url: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 publication: HuggingFace
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

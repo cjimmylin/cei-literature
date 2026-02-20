@@ -22,6 +22,7 @@ last_author: "[[Ph Adnan Masood]]"
 authors: "Adnan Masood, Ph"
 url: "https://www.nature.com/articles/d41586-025-03891-y"
 publication: Nature
+CONF-CC: "Nature"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

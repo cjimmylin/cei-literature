@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2509.25897.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md"
 local_pdf: "[[PDFs/2025/2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -33,6 +33,7 @@ abstract: "Large language models (LLMs) learn not only natural text generation a
 pdf: "http://arxiv.org/pdf/2305.17701"
 pdf_extract: "PDF Extracts/2023/2023-Lee-KoSBI.md"
 local_pdf: "[[PDFs/2023/2023-Lee-KoSBI.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, BERT"
 DATA_URL: "https://github.com/naver-ai/korean-safety-benchmarks"

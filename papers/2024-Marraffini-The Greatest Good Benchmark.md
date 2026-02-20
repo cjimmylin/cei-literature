@@ -31,6 +31,7 @@ key_contribution: "Introduces 'The Greatest Good Benchmark' to evaluate LLM alig
 significance: "Reveals that LLMs consistently reject instrumental harm (unlike strict utilitarians) but favor impartial beneficence, showcasing a distinct 'artificial moral compass' different from human lay populations"
 tags: 
 abstract: "The question of how to make decisions that maximise the well-being of all persons is very relevant to design language models that are beneficial to humanity and free from harm. We introduce the Greatest Good Benchmark (GGB), to evaluate LLMs moral judgments using utilitarian dilemmas. Our framework enables a direct comparison between the moral preferences of LLMs and humans, contributing to a deeper understanding of LLMs’ alignment with human moral values."
+CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Falcon, Gemma, Gemini, Claude, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/noehsueh/greatest-good-benchmark"

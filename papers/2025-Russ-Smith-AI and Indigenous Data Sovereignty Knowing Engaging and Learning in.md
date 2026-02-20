@@ -20,6 +20,7 @@ authors: Jessica Russ-Smith, Holly Randell-Moon
 doi: 10.3366/soma.2025.0467
 url: "https://www.euppublishing.com/doi/10.3366/soma.2025.0467"
 publication: Somatechnics
+CONF-CC: "Somatechnics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

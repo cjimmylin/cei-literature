@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2212.10785.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Inciarte-SERENGETI Massively Multilingual Language Models for.md"
 local_pdf: "[[PDFs/2023/2023-Inciarte-SERENGETI Massively Multilingual Language Models for.pdf]]"
 publication: "WebSearch: SERENGETI multilingual language model African evaluation"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
 pdf_extract: "PDF Extracts/0000/2026-Lee-BiasJailbreak.md"
 local_pdf: "[[PDFs/2026/2026-Lee-BiasJailbreak.pdf]]"
 publication: "AAAI 2026"
+CONF-CC: "AAAI 2026"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

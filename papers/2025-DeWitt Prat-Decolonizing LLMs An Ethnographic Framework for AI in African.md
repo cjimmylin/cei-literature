@@ -22,6 +22,7 @@ authors: Lindsey DeWitt Prat; Olivia Nercy Ndlovu Lucas; Christopher Golias; Mia
 authors_incomplete: false
 url: "https://www.epicpeople.org/decolonizing-llms-ethnographic-framework-for-ai-in-african-contexts/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

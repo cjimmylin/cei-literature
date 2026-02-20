@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2409.16884.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.md"
 local_pdf: "[[PDFs/2024/2024-Khaksar-Shifting from Endangerment to Rebirth in the Artificial Intelligence.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kurdish, Hawrami"

@@ -23,6 +23,7 @@ external_pdf: "https://mdpi-res.com/d_attachment/analytics/analytics-05-00005/ar
 pdf_extract: "PDF Extracts/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md"
 local_pdf: "[[PDFs/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.pdf]]"
 publication: Analytics
+CONF-CC: "Analytics"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

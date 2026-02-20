@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2506.02573.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md"
 local_pdf: "[[PDFs/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

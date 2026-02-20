@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://dialogue-conf.org/wp-content/uploads/2025/04/GromenkoEetal.029.pdf"
 external_pdf: "https://doi.org/10.28995/2075-7182-2025-23-117-128"
 publication: "Dialogue Conference 2025"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types.md"
 local_pdf: "[[PDFs/2025/2025-Gromenko-Cultural Evaluation of LLMs in Russian Catchphrases and Cultural Types.pdf]]"
 DATE_ADDED: 20260213

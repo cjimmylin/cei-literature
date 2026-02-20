@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2506.10245.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md"
 local_pdf: "[[PDFs/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"

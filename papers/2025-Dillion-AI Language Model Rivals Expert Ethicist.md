@@ -22,6 +22,7 @@ doi: 10.1038/s41598-025-86510-0
 url: "https://www.nature.com/articles/s41598-025-86510-0"
 external_pdf: "https://www.nature.com/articles/s41598-025-86510-0.pdf"
 publication: "Scientific Reports"
+CONF-CC: "Nature Scientific Reports"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "American"
 languages_list: ""

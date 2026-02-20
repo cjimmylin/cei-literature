@@ -21,6 +21,7 @@ authors: "Bruna Santana, Vinicius Woloszyn"
 url: "https://www.inf.ufrgs.br/propor-2018/wp-content/uploads/2018/10/PROPOR2018-SRW_paper_6.pdf"
 external_pdf: "https://arxiv.org/pdf/1810.04528v1.pdf"
 publication: "PROPOR 2018"
+CONF-CC: "PROPOR 2018"
 pdf_extract: "PDF Extracts/2018/2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md"
 local_pdf: "[[PDFs/2018/2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.pdf]]"
 DATE_ADDED: 20260213

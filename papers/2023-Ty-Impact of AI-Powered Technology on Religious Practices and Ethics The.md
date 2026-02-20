@@ -19,6 +19,7 @@ last_author: "[[Rey Ty]]"
 authors: Rey Ty
 url: "https://asianresearchcenter.org/blog/articles/impact-of-ai-powered-technology-on-religious-practices-and-ethics-the-road-ahead"
 publication: Asian Research Center / Semantic Scholar
+CONF-CC: "N/A"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

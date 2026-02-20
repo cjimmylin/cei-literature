@@ -24,6 +24,7 @@ authors_incomplete: true
 url: "https://journal.uad.ac.id/index.php/JIFO/article/view/26053"
 external_pdf: "https://journal.uad.ac.id/index.php/JIFO/article/download/26053/pdf_66"
 publication: "Jurnal Informatika"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md"
 local_pdf: "[[PDFs/2023/2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.pdf]]"
 DATE_ADDED: 20260213

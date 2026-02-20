@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2411.07854.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md"
 local_pdf: "[[PDFs/2025/2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.pdf]]"
 publication: "arXiv / Patterns (Cell Press)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian, Portuguese"

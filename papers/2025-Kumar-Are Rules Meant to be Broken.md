@@ -21,6 +21,7 @@ tags:
 url: "http://arxiv.org/abs/2502.14083"
 external_pdf: "http://arxiv.org/pdf/2502.14083.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2025"
 national_ethnic_cultural: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Indian, Arabic, Spanish, Russian, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, English, Hindi, Russian, Spanish"

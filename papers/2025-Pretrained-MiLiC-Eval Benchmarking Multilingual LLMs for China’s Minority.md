@@ -20,6 +20,7 @@ authors: "Combining Pretrained"
 url: "https://arxiv.org/html/2503.01150v1"
 external_pdf: "https://arxiv.org/pdf/2503.01150.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China's Minority.md"
 local_pdf: "[[PDFs/2025/2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China’s Minority.pdf]]"
 DATE_ADDED: 20260213

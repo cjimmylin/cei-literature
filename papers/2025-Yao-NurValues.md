@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2505.08734"
 external_pdf: "http://arxiv.org/pdf/2505.08734.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese, English"

@@ -20,6 +20,7 @@ authors: Jason Edward Lewis, Hēmi Whaanga, Ceyda Yolgörmez
 doi: 10.1007/s00146-024-02099-4
 url: "https://link.springer.com/article/10.1007/s00146-024-02099-4"
 publication: "Springer AI & Society"
+CONF-CC: "AI & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

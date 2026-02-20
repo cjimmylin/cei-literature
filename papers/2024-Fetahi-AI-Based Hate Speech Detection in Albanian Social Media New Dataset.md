@@ -21,6 +21,7 @@ doi: 10.3991/ijim.v18i24.50851
 url: "https://online-journals.org/index.php/i-jim/article/view/50851"
 external_pdf: "https://online-journals.org/index.php/i-jim/article/download/50851/15687"
 publication: "International Journal of Interactive Mobile Technologies"
+CONF-CC: "International Journal of Interactive Mobile Technologies"
 pdf_extract: "PDF Extracts/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.md"
 local_pdf: "[[PDFs/2024/2024-Fetahi-AI-Based Hate Speech Detection in Albanian Social Media New Dataset.pdf]]"
 DATE_ADDED: 20260213

@@ -21,6 +21,7 @@ authors: Zhuoren Jiang, Biao Huang
 doi: 10.1080/23812346.2025.2603822
 url: "https://www.tandfonline.com/doi/full/10.1080/23812346.2025.2603822"
 publication: "Journal of Chinese Governance (Taylor & Francis)"
+CONF-CC: "Journal of Chinese Governance (Taylor & Francis)"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

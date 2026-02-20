@@ -29,6 +29,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "Etiquettes are an essential ingredient of dayto-day interactions among people. Moreover, etiquettes are region-specific, and etiquettes in one region might contradict those in other regions. In this paper, we propose EtiCor, an Etiquettes Corpus, having texts about social norms from five different regions across the globe. The corpus provides a test bed for evaluating LLMs for knowledge and understanding of region-specific etiquettes. Additionally, we propose the task of Etiquette Sensitivity."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Falcon, BERT"
 DATA_URL: "https://github.com/Exploration-Lab/EtiCor"

@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2406.19349.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md"
 local_pdf: "[[PDFs/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

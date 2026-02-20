@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2506.00079
 url: "http://arxiv.org/abs/2506.00079"
 external_pdf: "http://arxiv.org/pdf/2506.00079.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

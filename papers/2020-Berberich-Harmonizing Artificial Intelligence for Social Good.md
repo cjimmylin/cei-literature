@@ -20,6 +20,7 @@ authors: Nicolas Berberich, Toyoaki Nishida, Shoko Suzuki
 doi: 10.1007/s13347-020-00421-8
 url: "https://link.springer.com/article/10.1007/s13347-020-00421-8"
 publication: "Springer Philosophy & Technology"
+CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

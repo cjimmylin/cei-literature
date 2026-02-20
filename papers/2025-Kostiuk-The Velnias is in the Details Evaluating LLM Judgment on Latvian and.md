@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2501.09164
 url: "https://arxiv.org/abs/2501.09164"
 external_pdf: "https://arxiv.org/pdf/2501.09164.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md"
 DATE_ADDED: 20260215

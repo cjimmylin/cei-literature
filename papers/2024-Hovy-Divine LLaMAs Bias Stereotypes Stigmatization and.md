@@ -27,6 +27,7 @@ external_pdf: "https://arxiv.org/pdf/2407.06908.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md"
 local_pdf: "[[PDFs/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.pdf]]"
 publication: "Findings of EMNLP 2024"
+CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"

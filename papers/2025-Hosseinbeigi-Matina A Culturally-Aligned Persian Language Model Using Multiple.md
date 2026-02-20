@@ -22,6 +22,7 @@ doi: 10.18653/v1/2025.findings-acl.1074
 url: "https://aclanthology.org/2025.findings-acl.1074/"
 external_pdf: "https://aclanthology.org/2025.findings-acl.1074.pdf"
 publication: ACL 2025 Findings
+CONF-CC: "ACL 2025 Findings"
 local_pdf: "[[PDFs/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.md"
 DATE_ADDED: 20260215

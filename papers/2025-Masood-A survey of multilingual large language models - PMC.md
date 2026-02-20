@@ -23,6 +23,7 @@ authors: "Adnan Masood, Ph"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783891/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11783891&blobtype=pdf"
 publication: PubMed
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Masood-A survey of multilingual large language models - PMC.md"
 local_pdf: "[[PDFs/2025/2025-Masood-A survey of multilingual large language models - PMC.pdf]]"
 DATE_ADDED: 20260213

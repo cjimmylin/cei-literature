@@ -22,6 +22,7 @@ authors: "[[Jiao, Wenxiang]]; [[Wang, Wenxuan]]; [[Huang, Jen-Tse]]; [[Wang, Xin
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/367359399_Is_ChatGPT_A_Good_Translator_A_Preliminary_Study"
 publication: ResearchGate
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.pdf]]"
 DATE_ADDED: 20260213

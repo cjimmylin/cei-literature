@@ -22,6 +22,7 @@ tags:
 url: "http://arxiv.org/abs/2310.05818"
 external_pdf: "http://arxiv.org/pdf/2310.05818.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"
 languages_list: "Chinese"

@@ -20,6 +20,7 @@ last_author: "[[Mohamed Abomhara]]"
 authors: Ehtesham Hashmi; Sule Yildirim Yayilgan; Ibrahim A. Hameed; Muhammad Mudassar Yamin; Mohib Ullah; Mohamed Abomhara
 url: "https://www.researchgate.net/publication/383673931_Enhancing_Multilingual_Hate_Speech_Detection_From_Language-Specific_Insights_to_Cross-Linguistic_Integration"
 publication: ResearchGate
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

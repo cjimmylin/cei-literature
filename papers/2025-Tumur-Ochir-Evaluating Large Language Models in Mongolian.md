@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-12.pdf"
 external_pdf: "https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q1-12.pdf"
 publication: ANLP
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian.md"
 local_pdf: "[[PDFs/2025/2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian.pdf]]"
 DATE_ADDED: 20260213

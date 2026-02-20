@@ -32,6 +32,7 @@ key_contribution: "A report tracking the state of AI safety metrics and policy d
 significance: "High-level tracking of industry and policy progress in AI safety."
 tags: 
 abstract: "The AI Safety Index provides an independent assessment of leading AI companies' efforts to manage both immediate harms and catastrophic risks from advanced AI systems. Conducted with an expert review panel of distinguished AI researchers and governance specialists, this evaluation reveals an industry struggling to keep pace with its own rapid capability advances with critical gaps in risk management and safety planning. The index evaluates companies on indicators of responsible AI development and deployment practices spanning six critical domains."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek"
 DATA_URL: "NA"

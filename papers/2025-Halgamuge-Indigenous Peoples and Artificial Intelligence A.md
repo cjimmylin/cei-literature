@@ -26,6 +26,7 @@ external_pdf: "https://osf.io/6hrqj/download"
 pdf_extract: "PDF Extracts/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md"
 local_pdf: "[[PDFs/2025/2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.pdf]]"
 publication: "Big Data & Society (SAGE)"
+CONF-CC: "Big Data & Society"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indigenous Australian"

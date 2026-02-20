@@ -26,6 +26,7 @@ external_pdf: "https://openreview.net/pdf?id=ZWxM9OG7m5"
 pdf_extract: "PDF Extracts/2024/2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md"
 local_pdf: "[[PDFs/2024/2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.pdf]]"
 publication: "NeurIPS 2024 (Datasets and Benchmarks Track)"
+CONF-CC: "NeurIPS 2024 D&B"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

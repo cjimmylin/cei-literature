@@ -20,6 +20,7 @@ authors: Anna Puzio
 doi: 10.1007/s13347-024-00730-2
 url: "https://link.springer.com/article/10.1007/s13347-024-00730-2"
 publication: "Springer Philosophy & Technology"
+CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

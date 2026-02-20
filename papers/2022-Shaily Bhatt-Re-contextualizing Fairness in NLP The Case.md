@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2209.12226.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md"
 local_pdf: "[[PDFs/2022/2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.pdf]]"
 publication: "AACL-IJCNLP 2022"
+CONF-CC: "AACL 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

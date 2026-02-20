@@ -23,6 +23,7 @@ doi: 10.48550/arXiv.2206.08325
 url: "http://arxiv.org/abs/2206.08325"
 external_pdf: "http://arxiv.org/pdf/2206.08325.pdf"
 publication: "Neural Information Processing Systems"
+CONF-CC: "NeurIPS 2022"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2410.13727
 url: "http://arxiv.org/abs/2410.13727"
 external_pdf: "http://arxiv.org/pdf/2410.13727.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
+CONF-CC: "NAACL 2024"
 national_ethnic_cultural: "Chinese, Western"
 cultures_nationalities_list: "Chinese, Western"
 languages_list: "Chinese, English"

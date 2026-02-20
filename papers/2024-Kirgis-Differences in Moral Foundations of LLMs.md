@@ -21,6 +21,7 @@ authors: "Peter Kirgis"
 url: "https://arxiv.org/abs/2511.11790"
 external_pdf: "https://arxiv.org/pdf/2511.11790.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2408.11903.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md"
 local_pdf: "[[PDFs/2024/2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.pdf]]"
 publication: "ML4AL Workshop, ACL 2024 (Outstanding Paper Award)"
+CONF-CC: "ACL 2024 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

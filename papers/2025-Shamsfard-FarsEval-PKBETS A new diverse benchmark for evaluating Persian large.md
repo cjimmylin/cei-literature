@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2504.14690.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.md"
 local_pdf: "[[PDFs/2025/2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"

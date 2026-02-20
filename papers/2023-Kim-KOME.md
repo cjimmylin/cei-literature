@@ -34,6 +34,7 @@ abstract: "In order to determine the status of malaria among schoolchildren on K
 pdf: "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kim-KOME.md"
 local_pdf: "[[PDFs/2023/2023-Kim-KOME.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

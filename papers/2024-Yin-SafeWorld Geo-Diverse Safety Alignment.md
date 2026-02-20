@@ -20,6 +20,7 @@ authors: Da Yin, Haoyi Qiu, Kung-Hsiang Huang, Kai-Wei Chang, Nanyun Peng
 url: "https://arxiv.org/abs/2412.06483"
 external_pdf: "https://arxiv.org/pdf/2412.06483.pdf"
 publication: arXiv / NeurIPS 2024
+CONF-CC: "NeurIPS 2024"
 local_pdf: "[[PDFs/2024/2024-Yin-SafeWorld Geo-Diverse Safety Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Yin-SafeWorld Geo-Diverse Safety Alignment.md"
 DATE_ADDED: 20260215

@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2501.15463.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.md"
 local_pdf: "[[PDFs/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.pdf]]"
 publication: "EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multicultural"

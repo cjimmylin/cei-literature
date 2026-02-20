@@ -22,6 +22,7 @@ authors: Mariana O. Silva; Michele A. Brandão; Mirella M. Moro
 url: "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620/"
 external_pdf: "https://sol.sbc.org.br/index.php/stil/article/download/37842/37620"
 publication: "STIL 2024"
+CONF-CC: "STIL 2024"
 pdf_extract: PDF Extracts/2024/2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model.md
 local_pdf: "[[PDFs/2024/2024-Silva-Gender Bias in Portuguese Literary Texts A Masked Language Model.pdf]]"
 DATE_ADDED: 20260213

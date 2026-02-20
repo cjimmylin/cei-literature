@@ -26,6 +26,7 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36583/38721"
 pdf_extract: "PDF Extracts/2025/2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.md"
 local_pdf: "[[PDFs/2025/2025-Antar-Do Your Guardrails Even Guard Evaluating Moderation Guardrails for.pdf]]"
 publication: Unknown
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

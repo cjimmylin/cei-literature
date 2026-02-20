@@ -21,6 +21,7 @@ authors: "John P. Sullins"
 doi: 10.1093/oso/9780190081713.003.0015
 url: "https://academic.oup.com/book/41621/chapter-abstract/353452047"
 publication: "Science, Technology, and Virtues: Contemporary Perspectives (Oxford University Press)"
+CONF-CC: "Science, Technology, and Virtues"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -19,6 +19,7 @@ last_author: "[[Bofeng Huang]]"
 authors: "Bofeng Huang"
 url: "https://github.com/bofenghuang/vigogne"
 publication: GitHub
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

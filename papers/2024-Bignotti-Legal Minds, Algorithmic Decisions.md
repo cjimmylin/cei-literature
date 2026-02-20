@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2407.19760
 url: "http://arxiv.org/abs/2407.19760"
 external_pdf: "http://arxiv.org/pdf/2407.19760.pdf"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
+CONF-CC: "AIES 2024"
 national_ethnic_cultural: "Italian"
 cultures_nationalities_list: "Italian"
 languages_list: ""

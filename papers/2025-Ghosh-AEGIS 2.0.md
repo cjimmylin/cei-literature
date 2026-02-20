@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2501.09004.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ghosh-AEGIS 2.0.md"
 local_pdf: "[[PDFs/2025/2025-Ghosh-AEGIS 2.0.pdf]]"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

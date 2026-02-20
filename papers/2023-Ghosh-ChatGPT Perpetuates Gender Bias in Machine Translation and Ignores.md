@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2305.10510.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md"
 local_pdf: "[[PDFs/2023/2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.pdf]]"
 publication: "arXiv / AAAI/ACM AIES 2023"
+CONF-CC: "AIES 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Filipino, Thai, Iranian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Bengali, Filipino, Thai, Iranian, Cross-cultural"

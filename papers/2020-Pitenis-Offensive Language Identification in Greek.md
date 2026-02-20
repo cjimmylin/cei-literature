@@ -20,6 +20,7 @@ authors: "Zeses Pitenis, Marcos Zampieri, Tharindu Ranasinghe"
 url: "https://aclanthology.org/2020.lrec-1.629/"
 external_pdf: "https://arxiv.org/pdf/2003.07459.pdf"
 publication: "ACL Anthology / LREC 2020"
+CONF-CC: "LREC 2020"
 pdf_extract: "PDF Extracts/2020/2020-Pitenis-Offensive Language Identification in Greek.md"
 local_pdf: "[[PDFs/2020/2020-Pitenis-Offensive Language Identification in Greek.pdf]]"
 DATE_ADDED: 20260213

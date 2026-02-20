@@ -22,6 +22,7 @@ authors: "Michael Wiegand, Melanie Siegel, Josef Ruppenhofer"
 url: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
 external_pdf: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
 publication: "GermEval Workshop"
+CONF-CC: "Workshop (2018)"
 pdf_extract: "PDF Extracts/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md"
 local_pdf: "[[PDFs/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.pdf]]"
 DATE_ADDED: 20260213

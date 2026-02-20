@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2410.01811.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Dawson-Evaluating Cultural Awareness of LLMs for.md"
 local_pdf: "[[PDFs/2024/2024-Dawson-Evaluating Cultural Awareness of LLMs for.pdf]]"
 publication: "WebSearch: Malayalam cultural awareness LLM"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Indian, African"

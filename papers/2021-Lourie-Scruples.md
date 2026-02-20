@@ -23,6 +23,7 @@ tags:
 url: "http://arxiv.org/abs/2008.09094"
 external_pdf: "http://arxiv.org/pdf/2008.09094.pdf"
 publication: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-21)"
+CONF-CC: "AAAI 2021"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

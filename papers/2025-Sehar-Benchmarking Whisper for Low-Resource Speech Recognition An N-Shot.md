@@ -23,6 +23,7 @@ authors: "Najm Ul Sehar, Ayesha Khalid, Farah Adeeba, Sarmad Hussain"
 url: "https://aclanthology.org/2025.chipsal-1.20/"
 external_pdf: "https://aclanthology.org/2025.chipsal-1.20.pdf"
 publication: "CHiPSAL 2025 Workshop (ACL)"
+CONF-CC: "ACL 2025 Workshop"
 pdf_extract: "PDF Extracts/2025/2025-Sehar-Benchmarking Whisper for Low-Resource Speech Recognition An N-Shot.md"
 local_pdf: "[[PDFs/2025/2025-Sehar-Benchmarking Whisper for Low-Resource Speech Recognition An N-Shot.pdf]]"
 DATE_ADDED: 20260213

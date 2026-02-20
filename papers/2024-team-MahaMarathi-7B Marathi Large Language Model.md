@@ -30,6 +30,7 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://www.mdpi.com/2079-9292/14/17/3484/pdf?version=1756625048"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: HuggingFace
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

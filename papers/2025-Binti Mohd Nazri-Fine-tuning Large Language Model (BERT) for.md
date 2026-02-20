@@ -31,6 +31,7 @@ key_contribution: "Fine-tunes a BERT model on the 'Islam: Questions and Answers'
 significance: "Demonstrates the feasibility of specializing LLMs for non-Western, virtue-based (Islamic character) moral inquiry using targeted domain-specific fine-tuning"
 tags: 
 abstract: "The development of Large Language Models (LLM) that are capable of understanding and responding to issues from an Islamic perspective is extremely insightful as it will benefit many people. For an LLM to do so, it is not enough for the model to only understand the language, but it also needs to understand the context and specific doctrines within the Islamic texts due to the complexity of Islamic jurisprudence and moral philosophy."
+CONF-CC: "International Journal on Perceptive and Cognitive Computing"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/krishnaik06/Trnasformer-"

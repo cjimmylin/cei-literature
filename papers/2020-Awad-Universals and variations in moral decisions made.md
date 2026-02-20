@@ -33,6 +33,7 @@ significance: "Demonstrates that while some moral cognitive processes are univer
 tags: 
 abstract: "When do people find it acceptable to sacrifice one life to save many? Cross-cultural studies suggested a complex pattern of universals and variations in the way people approach this question, but data were often based on small samples from a small number of countries outside of the Western world. Here we analyze responses to three sacrificial dilemmas by 70,000 participants in 10 languages and 42 countries. In every country, the three dilemmas displayed the same qualitative ordering of sacrifice"
 pdf: "https://www.pnas.org/content/pnas/117/5/2332.full.pdf"
+CONF-CC: "PNAS"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://moralmachine.mit.edu"

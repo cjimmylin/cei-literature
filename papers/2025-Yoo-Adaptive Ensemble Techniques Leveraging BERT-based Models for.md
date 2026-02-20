@@ -23,6 +23,7 @@ doi: 10.1038/s41598-025-88960-y
 url: "https://www.nature.com/articles/s41598-025-88960-y"
 external_pdf: "https://www.nature.com/articles/s41598-025-88960-y.pdf"
 publication: "Nature Scientific Reports 2025"
+CONF-CC: "Nature Scientific Reports"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md"
 local_pdf: "[[PDFs/2025/2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.pdf]]"
 DATE_ADDED: 20260213

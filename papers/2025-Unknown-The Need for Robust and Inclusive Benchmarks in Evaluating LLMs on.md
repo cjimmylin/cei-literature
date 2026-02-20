@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 external_pdf: "https://aclanthology.org/2025.icnlsp-1.20.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on.md"
 local_pdf: "[[PDFs/2025/2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on.pdf]]"
 DATE_ADDED: 20260213

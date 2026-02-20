@@ -21,6 +21,7 @@ authors: "INSAIT / CLaDA-BG researchers"
 url: "https://aclanthology.org/2023.ranlp-1.77.pdf"
 external_pdf: "https://doi.org/10.26615/978-954-452-092-2_077"
 publication: "ACL Anthology (RANLP 2023)"
+CONF-CC: "RANLP 2023"
 pdf_extract: "PDF Extracts/2023/2023-researchers-Transformer-Based Language Models for Bulgarian.md"
 local_pdf: "[[PDFs/2023/2023-researchers-Transformer-Based Language Models for Bulgarian.pdf]]"
 DATE_ADDED: 20260213

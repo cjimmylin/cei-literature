@@ -33,6 +33,7 @@ abstract: "Conversational artificial intelligence (AI) disrupts how humans inter
 pdf: "http://arxiv.org/pdf/2301.01768"
 pdf_extract: "PDF Extracts/2023/2023-Hartmann-The political ideology of conversational AI.md"
 local_pdf: "[[PDFs/2023/2023-Hartmann-The political ideology of conversational AI.pdf]]"
+CONF-CC: "SSRN Electronic Journal 2023"
 DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "NA"

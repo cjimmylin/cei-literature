@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2507.19156"
 external_pdf: "https://arxiv.org/pdf/2507.19156.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.md"
 local_pdf: "[[PDFs/2025/2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.pdf]]"
 DATE_ADDED: 20260213

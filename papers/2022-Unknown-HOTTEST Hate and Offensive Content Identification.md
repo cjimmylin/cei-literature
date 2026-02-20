@@ -27,6 +27,7 @@ external_pdf: "https://core.ac.uk/download/143686156.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Unknown-HOTTEST Hate and Offensive Content Identification.md"
 local_pdf: "[[PDFs/2022/2022-Unknown-HOTTEST Hate and Offensive Content Identification.pdf]]"
 publication: "WebSearch: Tamil AI safety hate speech"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

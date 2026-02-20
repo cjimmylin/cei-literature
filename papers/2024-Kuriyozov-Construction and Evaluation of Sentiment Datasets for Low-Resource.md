@@ -23,6 +23,7 @@ authors_incomplete: false
 doi: 10.1007/978-3-031-05328-3_15
 url: "https://link.springer.com/chapter/10.1007/978-3-031-05328-3_15"
 publication: Springer
+CONF-CC: "Lecture notes in computer science 2024"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

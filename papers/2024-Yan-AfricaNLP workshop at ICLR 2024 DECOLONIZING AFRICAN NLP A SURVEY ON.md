@@ -24,6 +24,7 @@ authors_incomplete: false
 url: "https://openreview.net/pdf?id=D698BEfwgv"
 external_pdf: "https://openreview.net/pdf?id=D698BEfwgv"
 publication: OpenReview
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2024/2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md"
 local_pdf: "[[PDFs/2024/2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.pdf]]"
 DATE_ADDED: 20260213

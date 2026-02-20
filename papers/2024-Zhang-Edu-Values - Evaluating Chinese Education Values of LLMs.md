@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2409.12739.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md"
 local_pdf: "[[PDFs/2024/2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

@@ -30,6 +30,7 @@ key_contribution: "Introduced MedEthicEval, a benchmark for Chinese Medical Ethi
 significance: "Addresses the gap in domain-specific safety evaluation, providing a culturally specific resource for evaluating AI in the high-stakes context of Chinese healthcare."
 tags: 
 abstract: "Large language models (LLMs) demonstrate significant potential in advancing medical applications, yet their capabilities in addressing medical ethics challenges remain underexplored. This paper introduces MedEthicEval, a novel benchmark designed to systematically evaluate LLMs in the domain of medical ethics. Our framework encompasses two key components: knowledge, assessing the models’ grasp of medical ethics principles, and application, focusing on their ability to apply these principles..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Qwen, Llama-3"
 DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"

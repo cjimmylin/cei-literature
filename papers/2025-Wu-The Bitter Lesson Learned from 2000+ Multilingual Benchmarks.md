@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2504.15521.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md"
 local_pdf: "[[PDFs/2025/2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Korean, Arabic, French, German, Spanish, Russian, Brazilian"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Arabic, French, German, Spanish, Russian, Brazilian"

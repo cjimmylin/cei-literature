@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2508.03712.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bali-How Deep Is Representational Bias in.md"
 local_pdf: "[[PDFs/2025/2025-Bali-How Deep Is Representational Bias in.pdf]]"
 publication: "AIES 2025"
+CONF-CC: "AIES 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

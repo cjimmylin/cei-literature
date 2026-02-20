@@ -23,6 +23,7 @@ doi: 10.1007/s13347-025-00861-0
 url: "https://link.springer.com/article/10.1007/s13347-025-00861-0"
 external_pdf: "https://arxiv.org/pdf/2407.17482.pdf"
 publication: "Philosophy & Technology"
+CONF-CC: "Philosophy & Technology"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

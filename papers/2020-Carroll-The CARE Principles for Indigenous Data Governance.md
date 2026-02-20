@@ -21,6 +21,7 @@ authors: Stephanie Russo Carroll, Ibrahim Garba, Oscar L. Figueroa-Rodriguez, Ja
 doi: 10.5334/dsj-2020-043
 url: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"
 publication: Data Science Journal
+CONF-CC: "Data Science Journal"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

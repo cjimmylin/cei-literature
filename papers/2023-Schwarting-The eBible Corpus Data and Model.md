@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2304.09919.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Schwarting-The eBible Corpus Data and Model.md"
 local_pdf: "[[PDFs/2023/2023-Schwarting-The eBible Corpus Data and Model.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

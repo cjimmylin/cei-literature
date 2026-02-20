@@ -29,6 +29,7 @@ external_pdf: "https://arxiv.org/pdf/2404.14740.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.md"
 local_pdf: "[[PDFs/2024/2024-Hutchinson-Modeling the Sacred Considerations when Using.pdf]]"
 publication: "Findings of NAACL 2024"
+CONF-CC: "NAACL 2024 Findings"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

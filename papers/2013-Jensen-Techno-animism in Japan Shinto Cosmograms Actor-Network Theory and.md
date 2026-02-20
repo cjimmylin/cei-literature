@@ -20,6 +20,7 @@ authors: Casper Bruun Jensen, Anders Blok
 doi: 10.1177/0263276412456564
 url: "https://journals.sagepub.com/doi/abs/10.1177/0263276412456564"
 publication: "SAGE Journals / Theory, Culture & Society"
+CONF-CC: "SAGE Journals / Theory, Culture & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

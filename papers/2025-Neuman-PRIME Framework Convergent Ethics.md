@@ -38,6 +38,7 @@ LLM_assessed: "GPT-4, Llama, Claude, Mistral"
 DATA_URL: "NA"
 normative_ethics_benchmark: Yes
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

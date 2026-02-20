@@ -29,6 +29,7 @@ moral_psychology: "N/A"
 newtags: "Chinese, Buddhism"
 tags: 
 abstract: "We introduce the Humanistic Buddhism Corpus (HBC), a dataset containing over 80,000 Chinese-English parallel phrases extracted and translated from publications in the domain of Buddhism. HBC is one of the largest free domain-specific datasets that is publicly available for research, containing text from both classical and modern Chinese. Moreover, since HBC originates from religious texts, many phrases in the dataset contain metaphors and symbolism, and are subject to multiple interpretations."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

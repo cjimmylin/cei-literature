@@ -22,6 +22,7 @@ pdf_extract: "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md"
 local_pdf: "[[PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: N/A
 cultures_nationalities_list: "N/A"
 languages_list: ""

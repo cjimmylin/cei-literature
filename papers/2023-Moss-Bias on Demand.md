@@ -33,6 +33,7 @@ key_contribution: "A framework to generate synthetic data with *controlled bias*
 significance: "Useful for creating stress-tests: instead of waiting for bias to appear, we can manufacture biased datasets to test if our mitigation strategies work."
 tags: 
 abstract: "Recommendation systems increasingly depend on massive humanlabeled datasets; however, the human annotators hired to generate these labels increasingly come from homogeneous backgrounds. This poses an issue when downstream predictive models—based on these labels—are applied globally to a heterogeneous set of users. We study this disconnect with respect to the labels themselves, asking whether they are “consistently conceptualized” across annotators of different demographics."
+CONF-CC: "FAccT 2023"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT"
 DATA_URL: "https://github.com/koenecke/crosscultural_labelconsistency/"

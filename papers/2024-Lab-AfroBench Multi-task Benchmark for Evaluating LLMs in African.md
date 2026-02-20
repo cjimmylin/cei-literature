@@ -20,6 +20,7 @@ last_author: "[[McGill NLP Lab]]"
 authors: "McGill NLP Lab"
 url: "https://mcgill-nlp.github.io/AfroBench/"
 publication: "McGill NLP"
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

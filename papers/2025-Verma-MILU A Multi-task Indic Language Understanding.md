@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2411.02538.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.md"
 local_pdf: "[[PDFs/2025/2025-Verma-MILU A Multi-task Indic Language Understanding.pdf]]"
 publication: "WebSearch: MILU benchmark"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2023/2023-Santurkar-Whose Opinions Do Language Models Reflect
 LLM_assessed: "GPT-3, text-davinci, InstructGPT"
 DATA_URL: "https://github.com/tatsu-lab/opinions_qa"
 publication: "ICML 2023"
+CONF-CC: "ICML 2023"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2401.10535.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.md"
 local_pdf: "[[PDFs/2024/2024-Das-The 'Colonial Impulse' of Natural Language Processing An Audit of.pdf]]"
 publication: "arXiv / CHI 2024"
+CONF-CC: "CHI 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bengali"

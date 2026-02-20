@@ -30,6 +30,7 @@ key_contribution: "Introduced MERA, a comprehensive instruction-tuning benchmark
 significance: "The primary benchmark for the Russian AI ecosystem, revealing that Russian open models still lag behind closed Western models (GPT-4) and human performance."
 tags: 
 abstract: "Over the past few years, one of the most notable advancements in AI research has been in foundation models (FMs), headlined by the rise of language models (LMs). However, despite researchers’ attention and the rapid growth in LM application, the capabilities, limitations, and associated risks still need to be better understood. To address these issues, we introduce a new instruction benchmark, MERA, oriented towards the FMs’ performance on the Russian language."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Mistral"
 DATA_URL: "https://github.com/ai-forever/MERA"

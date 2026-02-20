@@ -33,6 +33,7 @@ pdf_extract: "PDF Extracts/2025/2025-Laukkonen-Contemplative Artificial Intellig
 local_pdf: "[[PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]"
 abstract: "As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. Inspired by contemplative wisdom traditions, we show how four axiomatic principles can instil a resilient ‘Wise World Model’ in AI systems. First, mindfulness enables selfmonitoring and recalibration of emergent subgoals. Second, emptiness forestalls dogmatic goal fixation and relaxes rigid priors."
 paper_summary: "Abstract: As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. I | Overview: 1 Contemplative Artificial Intelligence Ruben E. Laukkonen1, Fionn Inglis2; Shamil Chandaria3; Lars Sandved-Smith4; Edmundo Lopez-Sola5; Jakob Hohwy4; Jonathan Gold6; Adam Elwood7 1Faculty of Health,  | Methodology: succeeds when technical sophistication meets genuine wisdom. To this end, interdisciplinary research is central. | Conclusions: We have argued that an AI endowed with a Wise World Model grounded in contemplative insights would not infer alignment as an external condition to be"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
 DATA_URL: "https://osf.io/az59t"

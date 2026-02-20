@@ -31,6 +31,7 @@ key_contribution: "Introduced 'HypoTermQA', a dataset of *hypothetical* terms (f
 significance: "A clever way to measure 'intrinsic hallucination' without needing external knowledge bases, testing the model's epistemic humility (can it say 'I don't know'?)."
 tags: 
 abstract: "Hallucinations pose a significant challenge to the reliability and alignment of Large Language Models (LLMs), limiting their widespread acceptance beyond chat-bot applications. Despite ongoing efforts, hallucinations remain a prevalent challenge in LLMs. The detection of hallucinations itself is also a formidable task, frequently requiring manual labeling or constrained evaluations. This paper introduces an automated scalable framework that combines benchmarking LLMs’ hallucination tendencies..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, Llama-2"
 DATA_URL: "https://github.com/cemuluoglakci/HypoTermQA"

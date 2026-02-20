@@ -21,6 +21,7 @@ authors: "Dave Davies"
 url: "https://www.nature.com/articles/s41598-025-89965-3"
 external_pdf: "https://www.nature.com/articles/s41598-025-89965-3.pdf"
 publication: Nature
+CONF-CC: "Nature"
 pdf_extract: "PDF Extracts/2025/2025-Davies-Fairness identification of large language models in recommendation.md"
 local_pdf: "[[PDFs/2025/2025-Davies-Fairness identification of large language models in recommendation.pdf]]"
 DATE_ADDED: 20260213

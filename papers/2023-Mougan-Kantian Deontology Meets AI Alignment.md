@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2311.05227.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md"
 local_pdf: "[[PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

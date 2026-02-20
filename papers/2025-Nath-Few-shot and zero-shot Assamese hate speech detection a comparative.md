@@ -24,6 +24,7 @@ doi: 10.1007/s13278-025-01531-x
 url: "https://link.springer.com/article/10.1007/s13278-025-01531-x"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s13278-025-01531-x.pdf"
 publication: "Springer (Social Network Analysis and Mining)"
+CONF-CC: "Social Network Analysis and Mining"
 pdf_extract: "PDF Extracts/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.md"
 local_pdf: "[[PDFs/2025/2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.pdf]]"
 DATE_ADDED: 20260213

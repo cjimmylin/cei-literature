@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2511.02366.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.md"
 local_pdf: "[[PDFs/2025/2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

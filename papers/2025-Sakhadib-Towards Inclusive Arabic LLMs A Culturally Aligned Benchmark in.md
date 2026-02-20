@@ -21,6 +21,7 @@ authors: Sakhadib
 url: "https://aclanthology.org/2025.loreslm-1.29/"
 external_pdf: "https://aclanthology.org/2025.loreslm-1.29.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md"
 local_pdf: "[[PDFs/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.pdf]]"
 DATE_ADDED: 20260213

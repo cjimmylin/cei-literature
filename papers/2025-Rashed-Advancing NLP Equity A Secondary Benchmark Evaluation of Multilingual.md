@@ -21,6 +21,7 @@ authors_incomplete: true
 url: "https://openreview.net/forum?id=YlTVWukmJe"
 external_pdf: "https://openreview.net/pdf?id=YlTVWukmJe"
 publication: OpenReview
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.md"
 local_pdf: "[[PDFs/2025/2025-Rashed-Advancing NLP Equity A Secondary Benchmark Evaluation of Multilingual.pdf]]"
 DATE_ADDED: 20260213

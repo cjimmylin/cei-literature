@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2511.20182"
 external_pdf: "https://arxiv.org/pdf/2511.20182.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md"
 local_pdf: "[[PDFs/2025/2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.pdf]]"
 DATE_ADDED: 20260213

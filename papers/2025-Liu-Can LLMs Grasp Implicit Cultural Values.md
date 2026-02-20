@@ -37,6 +37,7 @@ paper_summary: "Abstract: Cultural Intelligence (CQ) refers to the ability to un
 LLM_assessed: "GPT-4o, o1, o3, Qwen, Llama-3, DeepSeek"
 DATA_URL: "https://github.com/uscnlp-lime/CQ-Bench"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "Yes"

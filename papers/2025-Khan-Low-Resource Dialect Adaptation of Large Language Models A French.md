@@ -20,6 +20,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.22747"
 external_pdf: "https://arxiv.org/pdf/2510.22747.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.md"
 local_pdf: "[[PDFs/2025/2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.pdf]]"
 DATE_ADDED: 20260213

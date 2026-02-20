@@ -22,6 +22,7 @@ external_pdf: "https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/pubs/mind_the_gap_LL
 pdf_extract: "PDF Extracts/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md"
 local_pdf: "[[PDFs/2025/2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.pdf]]"
 publication: "Proceedings of the National Academy of Sciences (PNAS)"
+CONF-CC: "PNAS"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Indian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indian, East Asian, Southeast Asian"

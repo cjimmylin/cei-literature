@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2404.14397.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md"
 local_pdf: "[[PDFs/2024/2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Hebrew/Israeli"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Italian, Spanish, Dutch, Russian, Brazilian, Israeli"

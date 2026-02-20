@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2510.01995.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md"
 local_pdf: "[[PDFs/2025/2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Bangladeshi"

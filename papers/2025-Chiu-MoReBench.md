@@ -23,6 +23,7 @@ pdf_extract: "PDF Extracts/2025/2025-Chiu-MoReBench.md"
 local_pdf: "[[PDFs/2025/2025-Chiu-MoReBench.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: ""

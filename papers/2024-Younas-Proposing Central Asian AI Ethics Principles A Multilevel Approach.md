@@ -22,6 +22,7 @@ authors: "Ammar Younas, Yi Zeng"
 doi: 10.1007/s43681-024-00505-7
 url: "https://link.springer.com/article/10.1007/s43681-024-00505-7"
 publication: "AI and Ethics (Springer)"
+CONF-CC: "AI and Ethics"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

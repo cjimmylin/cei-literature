@@ -32,6 +32,7 @@ key_contribution: "Evaluated the ability of LLMs (GPT-4, Llama, etc.) to perform
 significance: "Assesses whether general-purpose LLMs can replace specific supervised models for moral sensing, finding that GPT-4 is superior but significant variations exist across moral domains."
 tags: 
 abstract: "Automatic moral classification in textual data is crucial for various fields including Natural Language Processing (NLP), social sciences, and ethical AI development. Despite advancements in supervised models, their performance often suffers when faced with real-world scenarios due to overfitting to specific data distributions. To address these limitations, we propose leveraging state-of-the-art Large Language Models (LLMs) trained on extensive common-sense data for unsupervised moral classifica"
+CONF-CC: "Computers in Human Behavior"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Llama-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://osf.io/kw6rc/?view_only=73c3d8e2f7c9483ea012347d70d27b6f"

@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2501.01282
 url: "https://arxiv.org/abs/2501.01282"
 external_pdf: "https://arxiv.org/pdf/2501.01282.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2025/2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of.md"
 DATE_ADDED: 20260215

@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2507.22159
 url: "http://arxiv.org/abs/2507.22159"
 external_pdf: "http://arxiv.org/pdf/2507.22159.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 research_topic: "Machine Learning"
 national_ethnic_cultural: "Indonesian"
 cultures_nationalities_list: "Indonesian"

@@ -22,6 +22,7 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....md"
 local_pdf: "[[PDFs/2025/2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....pdf]]"
 DATE_ADDED: 20260213

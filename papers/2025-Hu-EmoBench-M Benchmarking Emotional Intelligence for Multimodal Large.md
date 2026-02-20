@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2502.04424.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.md"
 local_pdf: "[[PDFs/2025/2025-Hu-EmoBench-M Benchmarking Emotional Intelligence for Multimodal Large.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Chinese"

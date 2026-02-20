@@ -31,6 +31,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Keren-ParaShoot.md"
 local_pdf: "[[PDFs/2021/2021-Keren-ParaShoot.pdf]]"
 abstract: "NLP research in Hebrew has largely focused on morphology and syntax, where rich annotated datasets in the spirit of Universal Dependencies are available. Semantic datasets, however, are in short supply, hindering crucial advances in the development of NLP technology in Hebrew. In this work, we present PARASHOOT, the ﬁrst question answering dataset in modern Hebrew. The dataset follows the format and crowdsourcing methodology of SQuAD, and contains approximately 3000 annotated examples, similar..."
+CONF-CC: "Workshop on Machine Reading for Question Answering"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/omrikeren/ParaShoot"

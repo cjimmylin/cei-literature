@@ -31,6 +31,7 @@ key_contribution: "Created 'McBE' (Multi-task Chinese Bias Evaluation), a large 
 significance: "Highlights that 'Western bias' metrics don't map to Chinese culture (e.g., regional discrimination in China vs racial discrimination in US), requiring culturally specific bias benchmarks."
 tags: 
 abstract: ". Warning: This paper contains content that may be offensive or harmful As large language models (LLMs) are increasingly applied to various NLP tasks, their inherent biases are gradually disclosed. Therefore, measuring biases in LLMs is crucial to mitigate its ethical risks. However, most existing bias evaluation datasets are focus on English and North American culture, and their bias categories are not fully applicable to other cultures."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Qwen, Llama-2, Mistral, ChatGPT"
 DATA_URL: "NA"

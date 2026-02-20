@@ -23,6 +23,7 @@ authors: "Adam Amram, Anat Ben David, Reut Tsarfaty"
 url: "https://aclanthology.org/C18-1190/"
 external_pdf: "https://aclanthology.org/C18-1190.pdf"
 publication: "ACL Anthology (COLING 2018)"
+CONF-CC: "COLING 2018"
 pdf_extract: "PDF Extracts/2018/2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md"
 local_pdf: "[[PDFs/2018/2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.pdf]]"
 DATE_ADDED: 20260213

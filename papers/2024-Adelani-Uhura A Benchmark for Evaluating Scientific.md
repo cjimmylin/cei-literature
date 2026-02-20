@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2412.00948.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Adelani-Uhura A Benchmark for Evaluating Scientific.md"
 local_pdf: "[[PDFs/2024/2024-Adelani-Uhura A Benchmark for Evaluating Scientific.pdf]]"
 publication: "WebSearch: Uhura benchmark African languages scientific question answering"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2110.09393.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md"
 local_pdf: "[[PDFs/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.pdf]]"
 publication: "WebSearch: Somali NLP benchmark dataset evaluation hate speech"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Somali"

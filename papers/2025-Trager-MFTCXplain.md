@@ -22,6 +22,7 @@ tags:
 url: "http://arxiv.org/abs/2506.19073"
 external_pdf: "http://arxiv.org/pdf/2506.19073.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
+CONF-CC: "EMNLP 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Multilingual/Cross-cultural"
 languages_list: "English, Italian, Persian, Portuguese"

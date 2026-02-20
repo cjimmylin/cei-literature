@@ -29,6 +29,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "VLAIR (Vals Legal AI Report) is the first independent benchmarking study of legal AI tools, released in February 2025. The study evaluated legal AI tools on tasks including Document Extraction, Document Question-Answering, Document Summarization, Redlining, Transcript Analysis, Chronology Generation, EDGAR Research, and Legal Research. Results showed that in four tasks, at least one AI tool outperformed human lawyers: Data Extraction, Document Q&A, Document Summarization, and Transcript Analysis."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "https://www.vals.ai/vlair"

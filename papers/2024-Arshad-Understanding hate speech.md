@@ -33,6 +33,7 @@ key_contribution: "Introduced HateInsights, a hate speech dataset with dual eval
 significance: "Reveals that high-performing hate speech classifiers often fail on explainability metrics (plausibility/faithfulness), arguing that effective moderation requires transparent reasoning, not just accurate flag-prediction."
 tags: 
 abstract: "The persistence of hate speech continues to pose an obstacle in the realm of online social media. Despite the continuous evolution of advanced models for identifying hate speech, the critical dimensions of interpretability and explainability have not received proportional scholarly attention. In this article, we introduce the HateInsights dataset, a groundbreaking benchmark in the ﬁeld of hate speech datasets, encompassing diverse aspects of this widespread issue."
+CONF-CC: "PeerJ Computer Science"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/twintproject/twint"

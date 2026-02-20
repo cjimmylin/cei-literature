@@ -21,6 +21,7 @@ authors: Helene Tenzer, Oumnia Abidi, Stefan Feuerriegel
 url: "https://arxiv.org/abs/2509.11921"
 external_pdf: "https://arxiv.org/pdf/2509.11921.pdf"
 publication: arXiv (WITHDRAWN)
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

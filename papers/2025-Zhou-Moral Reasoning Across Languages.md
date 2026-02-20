@@ -22,6 +22,7 @@ tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2504.19759"
 external_pdf: "http://arxiv.org/pdf/2504.19759.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Vietnamese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Vietnamese"
 languages_list: "Chinese, English, Indonesian, Russian, Vietnamese"

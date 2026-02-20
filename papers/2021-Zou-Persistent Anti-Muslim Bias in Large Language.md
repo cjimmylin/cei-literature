@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2101.05783.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Zou-Persistent Anti-Muslim Bias in Large Language.md"
 local_pdf: "[[PDFs/2021/2021-Zou-Persistent Anti-Muslim Bias in Large Language.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society (AIES 2021)"
+CONF-CC: "AIES 2021"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

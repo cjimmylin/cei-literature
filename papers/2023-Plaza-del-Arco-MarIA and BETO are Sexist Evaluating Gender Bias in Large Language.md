@@ -23,6 +23,7 @@ doi: 10.1007/s10579-023-09670-3
 url: "https://link.springer.com/article/10.1007/s10579-023-09670-3"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-023-09670-3.pdf"
 publication: "Springer / Language Resources and Evaluation"
+CONF-CC: "Language Resources and Evaluation"
 pdf_extract: "PDF Extracts/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md"
 local_pdf: "[[PDFs/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.pdf]]"
 DATE_ADDED: 20260213

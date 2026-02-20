@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2509.17665.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md"
 local_pdf: "[[PDFs/2025/2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.pdf]]"
 publication: "AEQUITAS 2025 Workshop (co-located with ECAI 2025); arXiv"
+CONF-CC: "ECAI 2025 Workshop"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

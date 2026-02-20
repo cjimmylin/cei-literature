@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2311.07463.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md"
 local_pdf: "[[PDFs/2024/2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.pdf]]"
 publication: "WebSearch: Megaverse benchmarking LLM"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "Cross-cultural"

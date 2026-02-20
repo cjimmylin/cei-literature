@@ -22,6 +22,7 @@ tags:
 url: "http://arxiv.org/abs/2508.12411"
 external_pdf: "http://arxiv.org/pdf/2508.12411.pdf"
 publication: arXiv.org
+CONF-CC: "Preprint"
 national_ethnic_cultural: "Chinese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American"
 languages_list: ""

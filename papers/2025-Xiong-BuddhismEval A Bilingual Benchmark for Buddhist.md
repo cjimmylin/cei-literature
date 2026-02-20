@@ -26,6 +26,7 @@ external_pdf:
 pdf_extract: 
 local_pdf: N/A
 publication: "Hugging Face dataset (paper under review, likely NeurIPS 2025)"
+CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Sri Lankan, Sinhala"

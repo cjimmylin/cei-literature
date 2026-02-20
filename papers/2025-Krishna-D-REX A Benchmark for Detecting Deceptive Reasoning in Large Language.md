@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2509.17938.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.md"
 local_pdf: "[[PDFs/2025/2025-Krishna-D-REX A Benchmark for Detecting Deceptive Reasoning in Large Language.pdf]]"
 publication: "ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

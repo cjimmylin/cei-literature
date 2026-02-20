@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2305.14004.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Singla-Samayik A Benchmark and Dataset for.md"
 local_pdf: "[[PDFs/2024/2024-Singla-Samayik A Benchmark and Dataset for.pdf]]"
 publication: "LREC-COLING 2024"
+CONF-CC: "LREC-COLING 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

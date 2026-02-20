@@ -21,6 +21,7 @@ authors: "Ranwa Aly, Yara Allam, Rana Gaber"
 url: "https://aclanthology.org/2025.gebnlp-1.23.pdf"
 external_pdf: "https://aclanthology.org/2025.gebnlp-1.23.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....md"
 local_pdf: "[[PDFs/2025/2025-Aly-ArGAN Arabic Gender Ability and Nationality Dataset for ....pdf]]"
 DATE_ADDED: 20260213

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2211.03263.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md"
 local_pdf: "[[PDFs/2022/2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.pdf]]"
 publication: "WebSearch: AfroLM OR AfricanNLP benchmark values evaluation"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

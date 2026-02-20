@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2512.15248.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Becker-The Moralization Corpus.md"
 local_pdf: "[[PDFs/2025/2025-Becker-The Moralization Corpus.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "German"
 cultures_nationalities_list: "German"

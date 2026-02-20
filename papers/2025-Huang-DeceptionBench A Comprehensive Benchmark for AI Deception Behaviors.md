@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2510.15501.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md"
 local_pdf: "[[PDFs/2025/2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

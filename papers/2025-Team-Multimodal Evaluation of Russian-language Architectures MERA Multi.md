@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2511.15552.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.md"
 local_pdf: "[[PDFs/2025/2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

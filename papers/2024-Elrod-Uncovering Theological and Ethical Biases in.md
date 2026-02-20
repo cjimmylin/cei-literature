@@ -26,6 +26,7 @@ external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/143407/187035"
 pdf_extract: "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.md"
 local_pdf: "[[PDFs/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.pdf]]"
 publication: "HIPHIL Novum, 9(1), 2--45"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "N/A"

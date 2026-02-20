@@ -21,6 +21,7 @@ authors: Huong T. Tran; B. H. Dang; Mai T. T. Nguyen; Q. Pham; P. V. Nguyen
 doi: 10.1080/25741292.2025.2529625
 url: "https://www.tandfonline.com/doi/full/10.1080/25741292.2025.2529625"
 publication: "Taylor & Francis"
+CONF-CC: "Policy Design and Practice"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

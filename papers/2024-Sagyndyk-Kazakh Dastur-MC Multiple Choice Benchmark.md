@@ -19,6 +19,7 @@ last_author: "[[Kirill Yakunin Sanzhar Umbet]]"
 authors: Beksultan Sagyndyk, Sanzhar Murzakhmetov, Sanzhar Umbet, Kirill Yakunin
 url: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 publication: HuggingFace
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

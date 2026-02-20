@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2312.17479
 url: "http://arxiv.org/abs/2312.17479"
 external_pdf: "http://arxiv.org/pdf/2312.17479.pdf"
 publication: "PLoS ONE"
+CONF-CC: "PLOS ONE"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"
 languages_list: ""

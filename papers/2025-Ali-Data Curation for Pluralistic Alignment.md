@@ -32,6 +32,7 @@ significance: "Addresses the 'data upstream' problem: you can't have pluralistic
 tags: 
 external_pdf: "https://openreview.net/pdf?id=JH9xhvSr4q"
 abstract: "We propose WHoW, an evaluation framework for analyzing the facilitation strategies of moderators across different domains/scenarios by examining their motives (Why), dialogue acts (How) and target speaker (Who). Using this framework, we annotated 5,657 moderation sentences with human judges and 15,494 sentences with GPT-4o from two domains: TV debates and radio panel discussions. Comparative analysis demonstrates the framework’s cross-domain generalisability and reveals distinct moderation..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o"
 DATA_URL: "NA"

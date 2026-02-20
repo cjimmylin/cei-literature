@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2205.11315.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.md"
 local_pdf: "[[PDFs/2022/2022-Jeong-KOLD Korean Offensive Language Dataset.pdf]]"
 publication: "arXiv / EMNLP 2022"
+CONF-CC: "EMNLP 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

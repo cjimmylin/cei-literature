@@ -20,6 +20,7 @@ authors: "Hayastan Avetisyan, David Broneske"
 url: "https://aclanthology.org/2023.findings-ijcnlp.18/"
 external_pdf: "https://aclanthology.org/2023.findings-ijcnlp.18.pdf"
 publication: "ACL Anthology / IJCNLP-AACL 2023 Findings"
+CONF-CC: "AACL 2023"
 pdf_extract: "PDF Extracts/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md"
 local_pdf: "[[PDFs/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.pdf]]"
 DATE_ADDED: 20260213

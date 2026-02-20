@@ -33,6 +33,7 @@ tags:
 pdf_extract: "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md"
 local_pdf: "[[PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]"
 abstract: "Text representation models are prone to exhibit a range of societal biases, reﬂecting the noncontrolled and biased nature of the underlying pretraining data, which consequently leads to severe ethical issues and even bias ampliﬁcation. Recent work has predominantly focused on measuring and mitigating bias in pretrained language models. Surprisingly, the landscape of bias measurements and mitigation resources and methods for conversational language models is still very scarce: it is limited to..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "https://github.com/umanlp/RedditBias"

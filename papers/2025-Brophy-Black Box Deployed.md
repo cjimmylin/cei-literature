@@ -35,6 +35,7 @@ key_contribution: "Establishes 'Moral Imagination' and 'Normative Integrity' as 
 significance: "Provides a pragmatic, behavior-focused evaluation framework compatible with the opaque nature of modern deep learning models"
 abstract: "The combination of higher-order theories and fuzzy logic can be useful in decision-making tasks that involve reasoning across abstract functions and predicates, where exact matches are often rare or unnecessary. Developing efficient reasoning and computational techniques for such a combined formalism presents a significant challenge. In this paper, we adopt a more straightforward approach aiming at integrating two well-established and computationally well-behaved components: higherorder..."
 paper_summary: "Proposes ten functional criteria for evaluating LLM-based Artificial Moral Agents: moral concordance, context sensitivity, normative integrity, metaethical awareness, system resilience, trustworthiness, corrigibility, partial transparency, functional autonomy, and moral imagination. These criteria focus on observable behavior rather than internal moral understanding."
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

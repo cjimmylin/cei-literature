@@ -20,6 +20,7 @@ last_author: "[[Madhava Gaikwad]]"
 authors: Madhava Gaikwad
 url: "https://philarchive.org/archive/GAIMAM"
 publication: PhilArchive
+CONF-CC: "Preprint"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

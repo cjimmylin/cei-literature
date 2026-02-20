@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2303.16828v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"
 local_pdf: "[[PDFs/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.pdf]]"
 publication: "ACM Digital Library"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Burmese"

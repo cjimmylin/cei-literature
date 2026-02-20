@@ -34,6 +34,7 @@ significance: "Moves virtue ethics from theory to practice by providing concrete
 tags: 
 abstract: "Virtue ethics is a philosophical tradition that emphasizes the cultivation of virtues in achieving the common good. It has been suggested to be an effective framework for envisioning more ethical technology, yet previous work on virtue ethics and technology design has remained at theoretical recommendations. We propose an approach for identifying user experience design patterns that embody particular virtues to more concretely articulate virtuous technology designs. As a proof of concept, we documented seven design patterns for social media that uphold the virtues of Catholic Social Teaching. We interviewed 24 technology researchers and industry practitioners to evaluate these patterns, finding that overall the patterns enact the virtues they were identified to embody."
 paper_summary: "Proposes an approach for identifying UX design patterns that embody virtues from Catholic Social Teaching. Documents seven social media design patterns that uphold virtues like solidarity and subsidiarity. Evaluation with 24 practitioners found the patterns effectively enact their intended virtues."
+CONF-CC: "International Conference on Human Factors in Computing Systems"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

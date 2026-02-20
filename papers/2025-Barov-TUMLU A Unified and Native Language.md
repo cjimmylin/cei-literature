@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2502.11020.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Barov-TUMLU A Unified and Native Language.md"
 local_pdf: "[[PDFs/2025/2025-Barov-TUMLU A Unified and Native Language.pdf]]"
 publication: "arxiv.org / ACL 2025"
+CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Azerbaijani, Kazakh, Kyrgyz, Turkish, Uzbek, Uyghur, Tatar, Crimean Tatar, Karakalpak"

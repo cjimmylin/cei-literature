@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Zhang-CHiSafetyBench.pdf]]"
 LLM_assessed: "Baichuan, Baichuan2, ChatGLM, ChatGLM series, ChatGLM3, Qwen, Qwen and, Qwen se, Qwen series, Qwen-110B, Qwen-72B, Qwen1.5, Yi-34B, Yi-6B"
 DATA_URL: "https://github.com/UnicomAI/UnicomBenchmark/tree/main/CHiSafetyBench"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

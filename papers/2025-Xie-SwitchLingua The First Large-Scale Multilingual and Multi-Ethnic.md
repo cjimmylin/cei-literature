@@ -21,6 +21,7 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2506.00087v1"
 external_pdf: "https://arxiv.org/pdf/2506.00087.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.md"
 local_pdf: "[[PDFs/2025/2025-Xie-SwitchLingua The First Large-Scale Multilingual and Multi-Ethnic.pdf]]"
 DATE_ADDED: 20260213

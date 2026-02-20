@@ -22,6 +22,7 @@ authors: Leonardo Grotti
 url: "https://journals.openedition.org/ijcol/1367"
 external_pdf: "http://journals.openedition.org/ijcol/pdf/1367"
 publication: "Italian Journal of Computational Linguistics"
+CONF-CC: "Italian Journal of Computational Linguistics"
 pdf_extract: PDF Extracts/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.md
 local_pdf: "[[PDFs/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
 DATE_ADDED: 20260213

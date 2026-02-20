@@ -22,6 +22,7 @@ authors: Z Y Liu
 doi: 10.1515/jtc-2023-0019/html?lang=en
 url: "https://www.degruyterbrill.com/document/doi/10.1515/jtc-2023-0019/html?lang=en"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

@@ -21,6 +21,7 @@ authors: "Rui Sun"
 doi: 10.1080/23311886.2025.2472916
 url: "https://www.tandfonline.com/doi/full/10.1080/23311886.2025.2472916"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

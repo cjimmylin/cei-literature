@@ -22,6 +22,7 @@ tags:
 url: "http://arxiv.org/abs/2305.17008"
 external_pdf: "http://arxiv.org/pdf/2305.17008.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
+CONF-CC: "ACL 2023"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

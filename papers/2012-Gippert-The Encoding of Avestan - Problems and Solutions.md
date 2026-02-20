@@ -20,6 +20,7 @@ authors: Jost Gippert
 doi: 10.21248/jlcl.27.2012.160
 url: "https://www.academia.edu/20005323/The_Encoding_of_Avestan_Problems_and_Solutions"
 publication: "Journal for Language Technology and Computational Linguistics (JLCL) 27(2):1-24"
+CONF-CC: "Journal for Language Technology and Computational Linguistics (JLCL) 27(2):1-24"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

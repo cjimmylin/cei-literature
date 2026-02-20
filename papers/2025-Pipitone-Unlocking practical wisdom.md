@@ -29,6 +29,7 @@ newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how robotic 'inner speech' can enhance human phronesis (practical wisdom) and foster virtuous decision-making in collaborative contexts"
 significance: "Proposes a novel mechanism for human-robot ethical alignment where the robot's transparent internal reasoning acts as a catalyst for human moral reflection"
 abstract: "This research explores how a robot's \"
+CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"

@@ -25,6 +25,7 @@ external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/144177/189562"
 pdf_extract: "PDF Extracts/2024/2024-Staps-Large Language Models and Biblical Hebrew.md"
 local_pdf: "[[PDFs/2024/2024-Staps-Large Language Models and Biblical Hebrew.pdf]]"
 publication: "HIPHIL Novum, 9(1), 46--55"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Hebrew/Israeli"
 cultures_nationalities_list: "Hebrew"

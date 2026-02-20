@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2505.18466.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rinki-Measuring South Asian Biases in Large.md"
 local_pdf: "[[PDFs/2025/2025-Rinki-Measuring South Asian Biases in Large.pdf]]"
 publication: "WebSearch: South Asian biases LLM"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "South Asian, Indian, Pakistani, Bangladeshi, Sri Lankan"

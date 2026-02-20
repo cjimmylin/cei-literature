@@ -22,6 +22,7 @@ last_author: "[[Jigsaw]]"
 authors: Jigsaw
 url: "https://www.kaggle.com/competitions/jigsaw-multilingual-toxic-comment-classification"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

@@ -21,6 +21,7 @@ authors: Hate-speech-CNERG
 url: "https://huggingface.co/Hate-speech-CNERG/kannada-codemixed-abusive-MuRIL"
 external_pdf: "https://arxiv.org/pdf/2204.12543"
 publication: "WebSearch: Kannada hate speech HuggingFace"
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md"
 local_pdf: "[[PDFs/2022/2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.pdf]]"
 DATE_ADDED: 20260213

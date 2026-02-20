@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2306.07902.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.md"
 local_pdf: "[[PDFs/2023/2023-Augustyniak-Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted.pdf]]"
 publication: "arXiv / NeurIPS 2023"
+CONF-CC: "NeurIPS 2023"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Cross-cultural"

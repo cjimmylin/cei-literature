@@ -20,6 +20,7 @@ last_author: "[[Kajiwara]]"
 authors: Kajiwara
 url: "https://www.mdpi.com/2079-3197/13/8/196"
 publication: MDPI
+CONF-CC: "N/A"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

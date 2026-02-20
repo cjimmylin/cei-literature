@@ -32,6 +32,7 @@ key_contribution: "Investigated ethical reasoning in LLaMA, Mistral, and Qwen us
 significance: "Found significant biases in model decisions based on nationality, and distinct 'moral personalities' (e.g., Mistral's tendency to intervene vs. Qwen's passivity), revealing the brittleness of current alignment."
 tags: 
 abstract: "The trolley problem has long served as a lens for exploring moral decision-making, now gaining renewed significance in the context of artificial intelligence (AI). This study investigates ethical reasoning in three open-source large language models (LLMs)—LLaMA, Mistral and Qwen—through variants of the trolley problem. By introducing demographic prompts (age, nationality and gender) into three scenarios (switch, loop and footbridge), we systematically evaluate LLM responses against human survey..."
+CONF-CC: "N/A"
 DATE_ADDED: 20260129
 LLM_assessed: "Llama-3, Mistral, Qwen"
 DATA_URL: "https://shorturl.at/u2h3K"

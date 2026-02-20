@@ -22,6 +22,7 @@ authors: "Hulagadri, Adithya Venkatadri; Kreutzer, Julia; Ngui, Jian Gang; Yong,
 authors_incomplete: false
 url: "https://sea-lion.ai/blog/multilingual-llm-benchmarking/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

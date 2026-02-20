@@ -21,6 +21,7 @@ doi: 10.48550/arXiv.2403.12675
 url: "https://aclanthology.org/2024.paclic-1.25/"
 external_pdf: "https://arxiv.org/pdf/2403.12675.pdf"
 publication: arXiv / ACL Anthology (PACLIC 2024)
+CONF-CC: "Preprint"
 local_pdf: "[[PDFs/2024/2024-Park-Pragmatic Competence Evaluation of Large Language Models for the.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Park-Pragmatic Competence Evaluation of Large Language Models for the.md"
 DATE_ADDED: 20260215

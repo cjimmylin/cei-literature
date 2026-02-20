@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2312.06861
 url: "http://arxiv.org/abs/2312.06861"
 external_pdf: "http://arxiv.org/pdf/2312.06861.pdf"
 publication: "Conference on Fairness, Accountability and Transparency"
+CONF-CC: "FAccT 2023"
 national_ethnic_cultural: "Chinese, Brazilian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Brazilian, Cross-cultural"
 languages_list: "English"

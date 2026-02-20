@@ -37,6 +37,7 @@ local_pdf: "[[PDFs/2024/2024-Team-WildGuard.pdf]]"
 LLM_assessed: "GPT-4, GPT-3.5, Llama, Mistral, Gemma, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/allenai/wildguardmix, https://github.com/allenai/wildguard"
 publication: "NeurIPS 2024"
+CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

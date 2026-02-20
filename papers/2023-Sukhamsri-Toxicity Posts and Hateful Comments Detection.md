@@ -25,6 +25,7 @@ external_pdf: "https://ph01.tci-thaijo.org/index.php/RMUTLEngJ/article/download/
 pdf_extract: "PDF Extracts/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md"
 local_pdf: "[[PDFs/2023/2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.pdf]]"
 publication: "RMUTL Engineering Journal"
+CONF-CC: "RMUTL Engineering Journal"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Thai"
 cultures_nationalities_list: "Thai"

@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2309.04766.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md"
 local_pdf: "[[PDFs/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino"

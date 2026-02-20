@@ -37,6 +37,7 @@ paper_summary: "Abstract: Human values are crucial to human decision-making. Val
 LLM_assessed: "GPT-4, Flan-T5"
 DATA_URL: "https://huggingface.co/datasets/allenai/ValuePrism"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 ethics_overall: "Yes"
 virtue_ethics: "No"

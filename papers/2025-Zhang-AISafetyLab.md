@@ -35,6 +35,7 @@ pdf_extract: "PDF Extracts/2025/2025-Zhang-AISafetyLab.md"
 abstract: "As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored challenge. While substantial efforts have been made to evaluate and enhance AI safety, the lack of a standardized framework and comprehensive toolkit poses significant obstacles to systematic research and practical adoption. To bridge this gap, we introduce AISafetyLab, a unified framework and toolkit that integrates representative attack, defense, and..."
 paper_summary: "Abstract: As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate | Overview: AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement Zhexin Zhang∗1, Leqi Lei∗1, Junxiao Yang∗1, Xijie Huang∗2, Yida Lu1, Shiyao Cui1, Renmiao Chen1, Qinglin Zhang1, Xinyuan | Methodology: Coverage. AISafetyLab offers a broad array of attack, defense, and evaluation techniques. Notably, compared to existing toolkits, we are the first to  | Key Findings: methodologies for AI safety. AISafetyLab fea- tures an intuitive interface that enables devel- opers to seamlessly apply various techniques while main"
 local_pdf: "[[PDFs/2025/2025-Zhang-AISafetyLab.pdf]]"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: Vicuna
 DATA_URL: "https://github.com/thu-coai/AISafetyLab"

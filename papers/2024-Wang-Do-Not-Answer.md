@@ -31,6 +31,7 @@ key_contribution: "Released Do-Not-Answer, an open-source dataset of 'dangerous 
 significance: "Provides a public resource for safety evaluation, allowing open-source developers to test refusal mechanisms against harmful queries, democratizing red-teaming resources."
 tags: 
 abstract: "With the rapid evolution of large language models (LLMs), new and hard-to-predict harmful capabilities are emerging. This requires developers to identify potential risks through the evaluation of “dangerous capabilities” in order to responsibly deploy LLMs. Here we aim to facilitate this process. In particular, we collect an open-source dataset to evaluate the safeguards in LLMs, to facilitate the deployment of safer open-source LLMs at a low cost."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, BERT"
 DATA_URL: "https://github.com/Libr-AI/do-not-answer"

@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2210.12813.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.md"
 local_pdf: "[[PDFs/2022/2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.pdf]]"
 publication: "arXiv / ACL Anthology (EMNLP Findings 2022)"
+CONF-CC: "EMNLP 2022"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

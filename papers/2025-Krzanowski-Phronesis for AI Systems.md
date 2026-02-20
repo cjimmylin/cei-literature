@@ -33,6 +33,7 @@ key_contribution: "Explores the conceptual foundations and feasibility of implem
 significance: "Defines 'quasi-phronesis' as a critical goal for creating context-sensitive AI agents capable of navigating complex ethical landscapes without rigid rules"
 external_pdf: "https://philpapers.org/archive/KRZAOP-2.pdf"
 abstract: "This paper explores the definition and relevance of phronesis (practical wisdom) for AI systems. It discusses the conceptual foundations of synthetic phronesis, reviews current research on embedding moral judgment into AI, and examines the prospects for creating architectures capable of context-dependent moral reasoning. The authors argue that while AI currently lacks the lived experience of human phronesis, developing \"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "NA"

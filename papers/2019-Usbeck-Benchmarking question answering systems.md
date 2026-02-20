@@ -32,6 +32,7 @@ moral_psychology: "N/A"
 newtags: 
 tags: 
 abstract: "The need for making the Semantic Web better accessible for lay users and the uptake of interactive systems and smart assistants for the Web have spawned a new generation of RDF-based question answering systems. However, the fair evaluation of these systems remains a challenge due to the different type of answers that they provide. Hence, repeating current published experiments or even benchmarking on the same datasets remains a complex and time-consuming task."
+CONF-CC: "Semantic Web"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "https://github.com/AKSW/gerbil/tree/QuestionAnswering"

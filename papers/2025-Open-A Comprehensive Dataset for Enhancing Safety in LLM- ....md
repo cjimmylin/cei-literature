@@ -21,6 +21,7 @@ authors: "Ant Open"
 url: "https://aclanthology.org/2025.emnlp-main.714.pdf"
 external_pdf: "https://aclanthology.org/2025.emnlp-main.714.pdf"
 publication: "ACL Anthology"
+CONF-CC: "N/A"
 pdf_extract: "PDF Extracts/2025/2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....md"
 local_pdf: "[[PDFs/2025/2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....pdf]]"
 DATE_ADDED: 20260213

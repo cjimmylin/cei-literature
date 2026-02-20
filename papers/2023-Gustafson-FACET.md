@@ -33,6 +33,7 @@ key_contribution: "Released FACET (Fairness in Computer Vision Evaluation), a be
 significance: "Enables granular analysis of performance disparities in vision tasks (classification, detection) across intersectional demographics, revealing significant biases in state-of-the-art models."
 tags: 
 abstract: "Computer vision models have known performance disparities across attributes such as gender and skin tone. This means during tasks such as classification and detection, model performance differs for certain classes based on the demographics of the people in the image. These disparities have been shown to exist, but until now there has not been a unified approach to measure these differences for common use-cases of computer vision models."
+CONF-CC: "IEEE International Conference on Computer Vision"
 DATE_ADDED: 20260208
 LLM_assessed: "CLIP ViT-B/32, ViT-B/16, Faster R-CNN ResNet-50-FPN, Mask R-CNN ResNet-50-FPN"
 DATA_URL: "https://facet.metademolab.com"

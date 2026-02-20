@@ -21,6 +21,7 @@ authors: Sjur Moshagen; Lene Antonsen; Linda Wiechetek; Trond Trosterud
 doi: 10.1080/08003831.2024.2410124
 url: "https://www.tandfonline.com/doi/full/10.1080/08003831.2024.2410124"
 publication: Policy and Internet / Tandfonline
+CONF-CC: "Acta Borealia"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

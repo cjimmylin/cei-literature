@@ -23,6 +23,7 @@ doi: 10.1145/3715275.3732044
 url: "https://dl.acm.org/doi/10.1145/3715275.3732044"
 external_pdf: "https://arxiv.org/pdf/2501.18081.pdf"
 publication: "ACM FAccT 2025"
+CONF-CC: "FAccT 2025"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

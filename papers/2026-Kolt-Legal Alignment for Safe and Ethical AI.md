@@ -27,6 +27,7 @@ pdf_extract: "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical A
 local_pdf: "[[PDFs/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2601.04175.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

@@ -22,6 +22,7 @@ authors: "[[Unknown]]"
 authors_incomplete: true
 url: "https://icmagazine.org/indigenous-futures-in-artificial-intelligence-from-language-sovereignty-to-ecological-stewardship/"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

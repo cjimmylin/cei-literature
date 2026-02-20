@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2509.05367.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.md"
 local_pdf: "[[PDFs/2025/2025-Chua-Between a Rock and a Hard Place TRIAL.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

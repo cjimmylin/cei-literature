@@ -30,6 +30,7 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ResearchGate / IOS Press"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Nepali"

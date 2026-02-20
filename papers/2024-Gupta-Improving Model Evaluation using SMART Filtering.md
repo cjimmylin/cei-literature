@@ -22,6 +22,7 @@ doi: 10.48550/arXiv.2410.20245
 url: "http://arxiv.org/abs/2410.20245"
 external_pdf: "http://arxiv.org/pdf/2410.20245.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
+CONF-CC: "NAACL 2024"
 national_ethnic_cultural: "American"
 cultures_nationalities_list: "N/A"
 languages_list: "English"

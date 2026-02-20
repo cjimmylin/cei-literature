@@ -24,6 +24,7 @@ url: "https://doi.org/10.5406/21521123.62.3.06"
 pdf_extract: 
 local_pdf: N/A
 publication: "American Philosophical Quarterly"
+CONF-CC: "American Philosophical Quarterly"
 volume: 62
 issue: 3
 pages: 279-308

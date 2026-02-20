@@ -27,6 +27,7 @@ external_pdf: "https://arxiv.org/pdf/2104.05947.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md"
 local_pdf: "[[PDFs/2021/2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.pdf]]"
 publication: "ACM Web Science Conference 2021"
+CONF-CC: "Web Science Conference"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

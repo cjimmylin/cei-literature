@@ -23,6 +23,7 @@ doi: 10.1007/s10462-024-10732-3
 url: "https://link.springer.com/article/10.1007/s10462-024-10732-3"
 external_pdf: "https://arxiv.org/pdf/2302.04218.pdf"
 publication: "Artificial Intelligence Review"
+CONF-CC: "Artificial Intelligence Review"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

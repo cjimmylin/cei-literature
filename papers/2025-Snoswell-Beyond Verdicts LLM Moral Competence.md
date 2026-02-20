@@ -32,6 +32,7 @@ key_contribution: "Comprehensive survey of 69 LLM ethical evaluation papers (202
 significance: "Identifies three critical paradigm shifts needed: from curated scenarios to unfiltered streams, from verdict accuracy to reasoning quality, from ground truth to reasonableness assessment"
 external_pdf: "https://philarchive.org/archive/SNOBVE"
 abstract: "Existing evaluations may inadequately assess the moral reasoning capabilities needed for real-world deployment, focusing primarily on whether models can match human judgments on carefully curated ethical scenarios. The authors surveyed 69 papers evaluating LLM ethical competence (2020-2025) and developed a taxonomy categorizing evaluations across datasets, behaviors, and metrics. The analysis reveals a field experiencing explosive growth—doubling approximately every 14 months—but also exposes systematic limitations that constrain our ability to assess real-world moral competence. Most significantly, the vast majority of studies rely on pre-packaged scenarios that highlight morally relevant features, failing to test models' ability to identify ethical considerations in noisy, realistic contexts—what they term 'moral sensitivity'."
+CONF-CC: "Preprint"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, DeepSeek, GPT-4"
 DATA_URL: "NA"

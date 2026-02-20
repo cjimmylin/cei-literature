@@ -20,6 +20,7 @@ authors: "Anni Eskelinen, Laura Silvala, Filip Ginter, Sampo Pyysalo, Veronika L
 url: "https://aclanthology.org/2023.nodalida-1.68/"
 external_pdf: "https://aclanthology.org/2023.nodalida-1.68.pdf"
 publication: "ACL Anthology / NoDaLiDa 2023"
+CONF-CC: "NoDaLiDa 2023"
 pdf_extract: "PDF Extracts/2023/2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.md"
 local_pdf: "[[PDFs/2023/2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.pdf]]"
 DATE_ADDED: 20260213

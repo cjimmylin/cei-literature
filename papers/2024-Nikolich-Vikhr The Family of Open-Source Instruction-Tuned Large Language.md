@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2405.13929.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.md"
 local_pdf: "[[PDFs/2024/2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.pdf]]"
 publication: "arXiv / ACL Anthology (MRL 2024)"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Russian"
 cultures_nationalities_list: "Russian"

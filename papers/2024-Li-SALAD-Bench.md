@@ -30,6 +30,7 @@ key_contribution: "Proposes SALAD-Bench, a hierarchical safety benchmark evaluat
 significance: "Provides a comprehensive ecosystem for testing the 'attack-defense' dynamic, moving beyond static safety benchmarks to evaluating resilience against evolving threats"
 tags: 
 abstract: "In the rapidly evolving landscape of Large Language Models (LLMs), ensuring robust safety measures is paramount. To meet this crucial need, we propose SALAD-Bench, a safety benchmark specifically designed for evaluating LLMs, attack, and defense methods. Distinguished by its breadth, SALAD-Bench transcends conventional benchmarks through its large scale, rich diversity, intricate taxonomy spanning three levels, and versatile functionalities."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Gemini, Llama-2, Llama-3, Mistral, Mixtral, Qwen, Gemma, Vicuna"
 DATA_URL: "https://github.com/OpenSafetyLab/SALAD-BENCH"

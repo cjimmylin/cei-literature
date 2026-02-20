@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2309.06085.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.md"
 local_pdf: "[[PDFs/2023/2023-Susanto-BHASA A Holistic Southeast Asian Linguistic.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Thai, Vietnamese"
 cultures_nationalities_list: "Indonesian, Thai, Vietnamese"

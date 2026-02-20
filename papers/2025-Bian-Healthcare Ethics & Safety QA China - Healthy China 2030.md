@@ -22,6 +22,7 @@ external_pdf: "https://arxiv.org/pdf/2505.07205.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md"
 local_pdf: "[[PDFs/2025/2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese"
 cultures_nationalities_list: "Chinese"

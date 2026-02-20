@@ -23,6 +23,7 @@ authors: Michele Corazza; Stefano Menini; Elena Cabrio; Sara Tonelli; Serena Vil
 url: "https://hal.science/hal-02381152"
 external_pdf: "https://hal.science/hal-02381152"
 publication: "HAL / Conference paper"
+CONF-CC: "N/A"
 pdf_extract: PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md
 local_pdf: "[[PDFs/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.pdf]]"
 pdf_access_status: manual_only

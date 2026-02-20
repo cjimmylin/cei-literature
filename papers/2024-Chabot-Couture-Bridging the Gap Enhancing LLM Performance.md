@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2412.12417.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance.md"
 local_pdf: "[[PDFs/2024/2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance.pdf]]"
 publication: "AAAI 2025"
+CONF-CC: "AAAI 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "African/Ubuntu"
 cultures_nationalities_list: "African"

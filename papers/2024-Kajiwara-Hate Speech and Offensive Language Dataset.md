@@ -22,6 +22,7 @@ authors: Kajiwara
 url: "https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset"
 external_pdf: "https://doi.org/10.1016/j.ipm.2021.102524"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only

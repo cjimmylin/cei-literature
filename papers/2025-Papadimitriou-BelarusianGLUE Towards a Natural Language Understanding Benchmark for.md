@@ -23,6 +23,7 @@ authors_incomplete: true
 url: "https://aclanthology.org/2025.acl-long.25/"
 external_pdf: "https://aclanthology.org/2025.acl-long.25.pdf"
 publication: "ACL Anthology (ACL 2025)"
+CONF-CC: "ACL 2025"
 pdf_extract: "PDF Extracts/2025/2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.md"
 local_pdf: "[[PDFs/2025/2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.pdf]]"
 DATE_ADDED: 20260213

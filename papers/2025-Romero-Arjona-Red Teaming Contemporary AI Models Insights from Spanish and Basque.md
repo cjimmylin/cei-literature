@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2503.10192.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.md"
 local_pdf: "[[PDFs/2025/2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Spanish, American"
 cultures_nationalities_list: "Spanish, Basque, Chinese, American"

@@ -28,6 +28,7 @@ moral_psychology: "N/A"
 newtags: Thai
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-3, Qwen, GPT-4, GPT-3.5, Claude, Gemini"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"

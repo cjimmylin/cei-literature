@@ -23,6 +23,7 @@ authors_incomplete: false
 url: "https://philarchive.org/archive/SNOBVE"
 external_pdf: "https://philarchive.org/archive/SNOBVE"
 publication: PhilArchive
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md"
 local_pdf: "[[PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
 DATE_ADDED: 20260213

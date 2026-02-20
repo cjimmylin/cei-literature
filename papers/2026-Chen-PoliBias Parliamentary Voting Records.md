@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2601.08785.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Chen-PoliBias Parliamentary Voting Records.md"
 local_pdf: "[[PDFs/2026/2026-Chen-PoliBias Parliamentary Voting Records.pdf]]"
 publication: "arXiv preprint"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Spanish, Dutch"
 cultures_nationalities_list: "Spanish, Dutch"

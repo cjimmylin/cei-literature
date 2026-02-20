@@ -25,6 +25,7 @@ external_pdf: "https://arxiv.org/pdf/2403.05696.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.md"
 local_pdf: "[[PDFs/2024/2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.pdf]]"
 publication: "arXiv / COLM 2024"
+CONF-CC: "COLM 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African/Ubuntu, French, German, Italian, Spanish, Russian, Brazilian"
 cultures_nationalities_list: "Chinese, Japanese, Korean, Indonesian, Indian, Thai, Vietnamese, Arabic, African, French, German, Italian, Spanish, Russian, Brazilian"

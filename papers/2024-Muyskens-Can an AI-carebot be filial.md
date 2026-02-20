@@ -30,6 +30,7 @@ newtags: "Chinese, Value Pluralism / Schwartz, Virtue Ethics, Deontology, Utilit
 key_contribution: "Examines AI-carebots through a Confucian virtue ethics lens, analyzing interactions with filial piety (xiao) and benevolence (ren)"
 significance: "Argues that while robots lack legitimate moral agency for virtuous care, they can be acceptable if bounded by relational responsibility parameters"
 abstract: "This paper explores the ethical considerations of applying artificially intelligent robots in eldercare from a **Confucian virtue ethics** perspective. The authors examine how AI technology interacts with traditional Chinese concepts of filial piety (**xiao**) and **ren** (benevolence). They argue that robots may not adequately fulfill care duties from a Confucian perspective due to their lack of genuine emotional abilities and detachment from personal relationships, which are central to **virtuous** caregiving. However, the paper also acknowledges the utility of AI robots in addressing elder care demands and proposes parameters for their acceptable use within a **virtue-based** ethical framework that emphasizes **moral character** and relational responsibility."
+CONF-CC: "Nursing Ethics"
 DATE_ADDED: 20260129
 LLM_assessed: "NA"
 DATA_URL: "NA"

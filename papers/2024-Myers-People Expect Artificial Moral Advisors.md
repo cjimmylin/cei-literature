@@ -22,6 +22,7 @@ doi: 10.1016/j.cognition.2024.106028
 url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
 external_pdf: 
 publication: Cognition
+CONF-CC: "Cognition"
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"
 languages_list: ""

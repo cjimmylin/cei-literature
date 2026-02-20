@@ -20,6 +20,7 @@ last_author: "[[Daniel Kelley]]"
 authors: ADL Center for Technology and Society; Daniel Kelley
 url: "https://www.adl.org/resources/report/generating-hate-anti-jewish-and-anti-israel-bias-leading-large-language-models"
 publication: ADL Report
+CONF-CC: "N/A"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

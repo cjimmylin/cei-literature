@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2308.02976"
 pdf_extract: "PDF Extracts/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.md"
 local_pdf: "[[PDFs/2021/2021-Jiang-Pre-trained Models and Evaluation Data for.pdf]]"
 publication: Springer
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Spanish"
 cultures_nationalities_list: "Spanish"

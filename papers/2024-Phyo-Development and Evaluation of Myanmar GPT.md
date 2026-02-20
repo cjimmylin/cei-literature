@@ -31,6 +31,7 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "http://dx.doi.org/10.2139/ssrn.4871732"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: SSRN
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Myanmar"

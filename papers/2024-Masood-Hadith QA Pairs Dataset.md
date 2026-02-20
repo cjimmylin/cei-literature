@@ -31,6 +31,7 @@ moral_psychology: "N/A"
 newtags: Islam
 tags: 
 abstract: "A dataset of question-answer pairs derived from authentic Hadith collections for training and evaluating QA systems on Islamic texts. The dataset provides structured QA pairs covering various topics from Hadith literature, enabling research on question answering systems that can accurately understand and respond to queries about Islamic traditions and teachings."
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "NA"
 DATA_URL: "NA"

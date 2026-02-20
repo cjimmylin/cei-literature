@@ -34,6 +34,7 @@ tags:
 abstract: "The paper describes the organization of the SemEval 2019 Task 5 about the detection of hate speech against immigrants and women in Spanish and English messages extracted from Twitter. The task is organized in two related classiﬁcation subtasks: a main binary subtask for detecting the presence of hate speech, and a ﬁner-grained one devoted to identifying further features in hateful contents such as the aggressive attitude and the target harassed, to distinguish if the incitement is against an..."
 pdf_extract: "PDF Extracts/2019/2019-Basile-SemEval-2019 Task 5.md"
 local_pdf: "[[PDFs/2019/2019-Basile-SemEval-2019 Task 5.pdf]]"
+CONF-CC: "SemEval 2019"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GloVe"
 DATA_URL: "https://github.com/msang/hateval"

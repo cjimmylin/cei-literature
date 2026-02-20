@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2509.01035.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.md"
 local_pdf: "[[PDFs/2025/2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.pdf]]"
 publication: "arXiv / EMNLP 2025"
+CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Iranian"
 cultures_nationalities_list: "Iranian, Persian"

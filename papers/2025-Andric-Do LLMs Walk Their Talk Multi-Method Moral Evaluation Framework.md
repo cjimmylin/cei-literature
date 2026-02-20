@@ -24,6 +24,7 @@ external_pdf: "https://arxiv.org/pdf/2512.01568.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md"
 local_pdf: "[[PDFs/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "N/A"

@@ -33,6 +33,7 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Qian-Understanding Chinese Moral Stories with Further.md"
 local_pdf: "[[PDFs/2023/2023-Qian-Understanding Chinese Moral Stories with Further.pdf]]"
 abstract: "The goal of moral understanding is to grasp the theoretical concepts embedded in a narrative by delving beyond the concrete occurrences and dynamic personas. Specifically, the narrative is compacted into a single statement without involving any characters within the original text, necessitating a more astute language model that can comprehend connotative morality and exhibit commonsense reasoning. The “pretraining + fine-tuning” paradigm is widely embraced in neural language models."
+CONF-CC: "International Journal on Natural Language Computing"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: "NA"

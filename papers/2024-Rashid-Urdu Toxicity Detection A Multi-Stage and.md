@@ -30,6 +30,7 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://www.mdpi.com/2673-2688/6/8/194/pdf?version=1755769417"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: MDPI
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Pakistani"

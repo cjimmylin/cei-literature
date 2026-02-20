@@ -21,6 +21,7 @@ last_author: "[[Sanad Sha Nour Rabih]]"
 authors: "Anastasiia Demidova, Hanin Atwany, Nour Rabih, Sanad Sha"
 url: "https://www.sigarab.org/arabic-nlp-archives"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213

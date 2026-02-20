@@ -20,6 +20,7 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2502.02289"
 external_pdf: "https://arxiv.org/pdf/2502.02289.pdf"
 publication: arXiv
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md"
 local_pdf: "[[PDFs/2025/2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.pdf]]"
 DATE_ADDED: 20260213

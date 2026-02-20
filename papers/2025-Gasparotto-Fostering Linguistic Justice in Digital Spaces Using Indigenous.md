@@ -20,6 +20,7 @@ authors: Melissa Gasparotto
 doi: 10.1177/27523543241305814
 url: "https://journals.sagepub.com/doi/10.1177/27523543241305814"
 publication: SAGE Emerging Media
+CONF-CC: "Emerging Media"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216

@@ -22,6 +22,7 @@ doi: 10.1371/journal.pone.0319301
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319301"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0319301&type=printable"
 publication: Web
+CONF-CC: "Preprint"
 pdf_extract: "PDF Extracts/2025/2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.md"
 local_pdf: "[[PDFs/2025/2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.pdf]]"
 DATE_ADDED: 20260213

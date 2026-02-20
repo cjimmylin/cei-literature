@@ -20,6 +20,7 @@ last_author: "[[Adam Crepelle]]"
 authors: Adam Crepelle
 url: "https://scholarship.law.duke.edu/dltr/vol25/iss1/1/"
 publication: "Duke Law & Technology Review"
+CONF-CC: "N/A"
 local_pdf: 
 "N/A"
 DATE_ADDED: 20260215

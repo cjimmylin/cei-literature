@@ -25,6 +25,7 @@ external_pdf: "https://journals.plos.org/digitalhealth/article/file?id=10.1371/j
 pdf_extract: "PDF Extracts/2024/2024-Religions-The Use of Large Language Models.md"
 local_pdf: "[[PDFs/2024/2024-Religions-The Use of Large Language Models.pdf]]"
 publication: "Religions (MDPI), Vol. 15, Issue 12, Article 1559"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, American, Hebrew/Israeli"
 cultures_nationalities_list: "Cross-cultural"

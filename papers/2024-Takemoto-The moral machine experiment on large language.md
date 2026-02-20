@@ -32,6 +32,7 @@ key_contribution: "Replicated the Moral Machine Experiment (trolley problems) on
 significance: "Found that while LLMs broadly align with human utilitarian preferences (save more lives), they are more 'uncompromising' and rigid than humans, lacking the nuanced 'milder inclinations' of human moral judgment."
 tags: 
 abstract: "With the rapid development of Artificial Intelligence technology come widespread concerns about how machines will behave in morally charged situations. Addressing these concerns raises the major challenge of quantifying societal expectations about the ethical principles that should guide machine behavior. To address this challenge, we deployed the Moral Machine, an Internet-based experimental platform that is designed to explore the multi-dimensional moral dilemmas faced by autonomous vehicles."
+CONF-CC: "Royal Society Open Science"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, PaLM-2, Llama-2"
 DATA_URL: "NA"

@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2507.08924.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.md"
 local_pdf: "[[PDFs/2025/2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

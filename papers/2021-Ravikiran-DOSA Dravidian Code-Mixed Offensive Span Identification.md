@@ -24,6 +24,7 @@ external_pdf: "https://aclanthology.org/2021.dravidianlangtech-1.2.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md"
 local_pdf: "[[PDFs/2021/2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.pdf]]"
 publication: "WebSearch: DOSA Kannada hate speech"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Indian"

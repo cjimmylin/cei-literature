@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2010.04543.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md"
 local_pdf: "[[PDFs/2020/2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.pdf]]"
 publication: "ACL Anthology (AACL 2020)"
+CONF-CC: "AACL 2020"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Brazilian"
 cultures_nationalities_list: "Brazilian"

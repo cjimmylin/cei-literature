@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2510.08543.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md"
 local_pdf: "[[PDFs/2025/2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.pdf]]"
 publication: arXiv
+CONF-CC: "Preprint"
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "American, Chinese"

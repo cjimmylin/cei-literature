@@ -32,6 +32,7 @@ tags:
 abstract: "We present the results and the main ﬁndings of SemEval-2020 Task 12 on Multilingual Offensive Language Identiﬁcation in Social Media (OffensEval-2020). The task included three subtasks corresponding to the hierarchical taxonomy of the OLID schema from OffensEval-2019, and it was offered in ﬁve languages: Arabic, Danish, English, Greek, and Turkish. OffensEval-2020 was one of the most popular tasks at SemEval-2020, attracting a large number of participants across all subtasks and languages: a..."
 pdf_extract: "PDF Extracts/2020/2020-Zampieri-SemEval-2020 Task 12.md"
 local_pdf: "[[PDFs/2020/2020-Zampieri-SemEval-2020 Task 12.pdf]]"
+CONF-CC: "N/A"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ALBERT, GPT-2, XLNet, ELMo"
 DATA_URL: "http://sites.google.com/site/offensevalsharedtask/home"

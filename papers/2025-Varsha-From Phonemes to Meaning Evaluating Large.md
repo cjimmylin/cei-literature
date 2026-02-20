@@ -26,6 +26,7 @@ external_pdf: "https://arxiv.org/pdf/2511.12387.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Varsha-From Phonemes to Meaning Evaluating Large.md"
 local_pdf: "[[PDFs/2025/2025-Varsha-From Phonemes to Meaning Evaluating Large.pdf]]"
 publication: "WebSearch: Tamil LLM evaluation"
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Tamil, Indian"

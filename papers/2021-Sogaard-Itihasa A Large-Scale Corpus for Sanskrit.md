@@ -27,6 +27,7 @@ external_pdf: "https://arxiv.org/pdf/2106.03269.pdf"
 pdf_extract: "PDF Extracts/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md"
 local_pdf: "[[PDFs/2021/2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.pdf]]"
 publication: "WAT 2021 (Workshop on Asian Translation)"
+CONF-CC: "Workshop (2021)"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian"
 cultures_nationalities_list: "Indian"

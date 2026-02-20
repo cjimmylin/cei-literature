@@ -27,6 +27,7 @@ external_pdf: "https://czasopisma.uni.lodz.pl/research/article/download/28493/27
 pdf_extract: "PDF Extracts/2025/2025-Bolatbek-Hate Speech Detection in the Kazakh.md"
 local_pdf: "[[PDFs/2025/2025-Bolatbek-Hate Speech Detection in the Kazakh.pdf]]"
 publication: IEEE
+CONF-CC: "Preprint"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "N/A"
 cultures_nationalities_list: "Kazakh"

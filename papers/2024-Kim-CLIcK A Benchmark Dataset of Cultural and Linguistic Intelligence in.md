@@ -23,6 +23,7 @@ external_pdf: "https://arxiv.org/pdf/2403.06412.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.md"
 local_pdf: "[[PDFs/2024/2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.pdf]]"
 publication: "arXiv / LREC-COLING 2024"
+CONF-CC: "LREC-COLING 2024"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Korean"
 cultures_nationalities_list: "Korean"

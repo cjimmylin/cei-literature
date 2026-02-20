@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2023"
 ---
 # HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith
 

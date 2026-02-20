@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Optimizing Uyghur Speech Synthesis by Combining Pretrained Cross-Lingual Model | ACM Transactions on Asian and Low-Resource Language Information Processing
 

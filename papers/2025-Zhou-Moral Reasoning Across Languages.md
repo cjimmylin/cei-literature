@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
+CONFERENCE: "Other Conference"
 ---
 # Moral Reasoning Across Languages: The Critical Role of Low-Resource Languages in LLMs
 

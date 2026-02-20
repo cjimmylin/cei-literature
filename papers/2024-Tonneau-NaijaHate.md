@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2024"
 ---
 # NaijaHate: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data
 

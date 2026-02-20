@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Geopolitical biases in LLMs: what are the 'good' and the 'bad' countries according to contemporary language models
 

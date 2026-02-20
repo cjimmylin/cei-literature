@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # FatwaSet: A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks
 

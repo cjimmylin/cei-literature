@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Research on the Training and Application Methods of a Lightweight Agricultural Domain-Specific Large Language Model Supporting Mandarin Chinese and Uyghur
 

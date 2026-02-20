@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "517 languages"
+CONFERENCE: "ACL 2025"
 ---
 # Where Are We? Evaluating LLM Performance on African Languages (Sahara Benchmark)
 

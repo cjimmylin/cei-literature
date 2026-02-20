@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Hate Speech Detection Using Cross-Platform Social Media Data In English and German Language
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # A Turkish Hate Speech Dataset and Detection System
 

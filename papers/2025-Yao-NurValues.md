@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context
 

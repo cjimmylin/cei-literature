@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "12 languages"
+CONFERENCE: "EACL 2023"
 ---
 # NusaX: Multilingual Parallel Sentiment Dataset for 10 Indonesian Local Languages
 

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_ANGLE2021
@@ -40,6 +41,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Can Artificial Intelligence Lead Us to Genuine Virtue? A Confucian Perspective
 

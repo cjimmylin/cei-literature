@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2024"
 ---
 # From Linguistics to Practice: a Case Study of Offensive Language Taxonomy in Hebrew
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "15 languages"
+CONFERENCE: "Other Conference"
 ---
 # Overview of the Multilingual Text Detoxification Task at PAN 2025
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Hajj-FQA: A benchmark Arabic dataset for developing question-answering systems on Hajj fatwas
 

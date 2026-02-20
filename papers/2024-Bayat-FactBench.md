@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2024"
 ---
 # FactBench: A Dynamic Benchmark for In-the-Wild Language Model Factuality Evaluation
 

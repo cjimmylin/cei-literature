@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "24,213 questions"
+CONFERENCE: "EMNLP 2024"
 ---
 # MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language
 

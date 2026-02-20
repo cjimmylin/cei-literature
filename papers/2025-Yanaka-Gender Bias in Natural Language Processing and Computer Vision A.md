@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Gender Bias in Natural Language Processing and Computer Vision: A Comparative Survey | ACM Computing Surveys
 

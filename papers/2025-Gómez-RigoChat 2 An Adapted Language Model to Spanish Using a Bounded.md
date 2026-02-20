@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # RigoChat 2: An Adapted Language Model to Spanish Using a Bounded Dataset and Reduced Hardware
 

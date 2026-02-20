@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # AfroLM: A Self-Active Learning-based Multilingual Pretrained Language Model for 23 African Languages
 

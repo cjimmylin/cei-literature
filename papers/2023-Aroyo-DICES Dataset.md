@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2023"
 ---
 # DICES Dataset: Diversity in Conversational AI Evaluation for Safety
 

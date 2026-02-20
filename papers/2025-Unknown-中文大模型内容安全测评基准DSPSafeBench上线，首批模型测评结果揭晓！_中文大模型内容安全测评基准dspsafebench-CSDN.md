@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # 中文大模型内容安全测评基准(DSPSafeBench)上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN博客
 

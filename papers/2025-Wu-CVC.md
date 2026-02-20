@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
  CVC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models
 

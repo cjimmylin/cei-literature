@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +43,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "NAACL 2022"
 ---
 # HATE-ITA: Hate Speech Detection in Italian Social Media Text
 

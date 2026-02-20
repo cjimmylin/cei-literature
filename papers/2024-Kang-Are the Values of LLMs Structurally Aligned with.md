@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2024"
 ---
 # Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts
 

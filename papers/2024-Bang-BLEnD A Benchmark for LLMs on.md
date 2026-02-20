@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "13 languages; 2024 datasets"
+CONFERENCE: "NeurIPS 2024"
 ---
 # BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages
 

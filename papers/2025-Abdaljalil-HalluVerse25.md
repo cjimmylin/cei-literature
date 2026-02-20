@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # HalluVerse25: Fine-grained Multilingual Benchmark Dataset for LLM Hallucinations
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "23 languages"
+CONFERENCE: "Preprint"
 ---
 # CaLMQA: Exploring culturally specific long-form question answering across 23 languages
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation
 

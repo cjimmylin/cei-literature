@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "78.5gb"
+CONFERENCE: "Preprint"
 ---
 # WangchanBERTa: Pretraining transformer-based Thai Language Models
 

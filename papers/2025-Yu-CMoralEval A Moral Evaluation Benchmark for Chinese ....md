@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "14,964 instances; 15,424 instances"
+CONFERENCE: "ACL 2025"
 ---
 # CMoralEval: A Moral Evaluation Benchmark for Chinese ...
 

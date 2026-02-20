@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "100,000 tokens"
+CONFERENCE: "Preprint"
 ---
 # A Framework for Analyzing and Measuring Goal Drift in Language Model Agents
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish
 

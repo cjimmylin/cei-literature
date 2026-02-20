@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "16 languages"
+CONFERENCE: "ACL 2025"
 ---
 # Towards a Multilingual Assessment of Stereotypes in Large ...
 

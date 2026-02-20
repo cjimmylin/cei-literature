@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "4,000 questions"
+CONFERENCE: "Preprint"
 ---
 # FarsEval-PKBETS: A new diverse benchmark for evaluating Persian large language models
 

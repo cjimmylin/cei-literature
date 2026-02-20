@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2023"
 ---
 # Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models
 

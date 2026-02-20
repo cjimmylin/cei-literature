@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "5,169 questions; 352 questions; 1,715 questions; 16,774 questions"
+CONFERENCE: "ACL 2024"
 ---
 # Latxa: An Open Language Model and Evaluation Suite for Basque
 

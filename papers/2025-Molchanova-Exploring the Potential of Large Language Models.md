@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Exploring the Potential of Large Language Models to Simulate Personality
 

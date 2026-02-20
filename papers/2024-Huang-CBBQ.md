@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "100k questions; over 100k questions"
+CONFERENCE: "Other Conference"
 ---
 # CBBQ: A Chinese Bias Benchmark Dataset Curated with Human–AI Collaboration
 

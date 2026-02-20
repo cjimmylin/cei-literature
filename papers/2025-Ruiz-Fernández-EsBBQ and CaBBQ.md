@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "10 categories"
+CONFERENCE: "Other Conference"
 ---
 # EsBBQ and CaBBQ: The Spanish and Catalan Bias Benchmarks for Question Answering
 

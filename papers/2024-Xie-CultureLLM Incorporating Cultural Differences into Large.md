@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "59 datasets"
+CONFERENCE: "NeurIPS 2024"
 ---
 # CultureLLM: Incorporating Cultural Differences into Large Language Models
 

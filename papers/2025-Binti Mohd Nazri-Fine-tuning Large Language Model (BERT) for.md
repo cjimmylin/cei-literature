@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
+CONFERENCE: "Journal"
 ---
 # Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response
 

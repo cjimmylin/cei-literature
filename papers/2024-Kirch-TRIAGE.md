@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # TRIAGE: Ethical Benchmarking of AI Models Through Mass Casualty Simulations
 

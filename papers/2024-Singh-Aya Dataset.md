@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "101 languages; 99 languages"
+CONFERENCE: "Journal"
 ---
 # Aya Dataset: A Massively Multilingual Instruction-Tuned Dataset
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # RUSSE 2022: Findings of the First Russian Detoxification Shared Task Based on Parallel Corpora
 

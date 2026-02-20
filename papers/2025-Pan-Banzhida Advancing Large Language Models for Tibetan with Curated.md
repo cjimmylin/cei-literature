@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "72 gb"
+CONFERENCE: "Preprint"
 ---
 # Banzhida: Advancing Large Language Models for Tibetan with Curated Data and Continual Pre-Training
 

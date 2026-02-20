@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2022"
 ---
 # ProsocialDialog: A Prosocial Backbone for Conversational Agents
 

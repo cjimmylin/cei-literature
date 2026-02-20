@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models
 

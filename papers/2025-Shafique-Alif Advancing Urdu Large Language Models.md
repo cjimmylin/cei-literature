@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Alif: Advancing Urdu Large Language Models via Multilingual Synthetic Data Distillation
 

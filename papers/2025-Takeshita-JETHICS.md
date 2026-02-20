@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "78k examples"
+CONFERENCE: "Other Conference"
 ---
 # JETHICS: Japanese Ethics Understanding Evaluation Dataset
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "651.1m words; 1m words"
+CONFERENCE: "Preprint"
 ---
 # Open foundation models for Azerbaijani language
 

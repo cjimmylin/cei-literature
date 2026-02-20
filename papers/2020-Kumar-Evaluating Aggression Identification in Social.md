@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +43,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "5,000 instances; 1,000 instances"
+CONFERENCE: "Other Conference"
 ---
 # Evaluating Aggression Identification in Social Media (TRAC-2 Shared Task Report)
 

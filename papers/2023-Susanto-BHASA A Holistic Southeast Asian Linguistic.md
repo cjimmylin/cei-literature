@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation Suite for Large Language Models
 

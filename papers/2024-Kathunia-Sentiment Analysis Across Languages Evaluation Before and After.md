@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "7,000 languages; 780 languages"
+CONFERENCE: "Preprint"
 ---
 # Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English
 

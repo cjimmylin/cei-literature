@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Assessing Cross-Cultural Alignment between ChatGPT and Human Societies: An Empirical Study
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Nicer Than Humans: How Do Large Language Models Behave in the Prisoner's Dilemma?
 

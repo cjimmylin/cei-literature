@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "10.7k sentences"
+CONFERENCE: "ACL 2022"
 ---
 # Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT
 

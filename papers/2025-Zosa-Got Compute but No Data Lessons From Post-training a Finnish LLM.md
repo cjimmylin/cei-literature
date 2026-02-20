@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +43,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Got Compute, but No Data: Lessons From Post-training a Finnish LLM
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents
 

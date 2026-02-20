@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "15 datasets"
+CONFERENCE: "Preprint"
 ---
 # Benchmarking Pre-trained Large Language Models' Potential Across Urdu NLP tasks
 

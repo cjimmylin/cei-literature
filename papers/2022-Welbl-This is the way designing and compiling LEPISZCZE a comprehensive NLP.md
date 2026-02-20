@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2022"
 ---
 # This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish
 

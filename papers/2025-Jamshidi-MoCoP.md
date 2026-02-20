@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
 

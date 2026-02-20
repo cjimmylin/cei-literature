@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Towards an Automated Islamic Fatwa System: Survey, Dataset and Benchmarks
 

@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "61 languages"
+CONFERENCE: "Preprint"
 ---
 # MuBench: Assessment of Multilingual Capabilities of Large Language Models Across 61 Languages
 

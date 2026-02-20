@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Unknown"
 ---
 # OpenAssistant Conversations (OASST1)
 

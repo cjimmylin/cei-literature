@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas
 

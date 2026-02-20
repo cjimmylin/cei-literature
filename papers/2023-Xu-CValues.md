@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "10 scenarios"
+CONFERENCE: "Other Conference"
 ---
 # CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility
 

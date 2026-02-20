@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # HateThaiSent: Sentiment-Aided Hate Speech Detection in Thai Language
 

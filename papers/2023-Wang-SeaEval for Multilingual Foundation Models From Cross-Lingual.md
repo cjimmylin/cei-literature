@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "29 datasets; 7 languages"
+CONFERENCE: "Preprint"
 ---
 # SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning
 

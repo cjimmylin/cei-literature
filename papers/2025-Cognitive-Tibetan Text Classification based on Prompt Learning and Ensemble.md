@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Tibetan Text Classification based on Prompt Learning and Ensemble Learning | ACM Transactions on Asian and Low-Resource Language Information Processing
 

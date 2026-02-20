@@ -5,6 +5,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_BERBERICH2018
@@ -42,6 +43,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # The Virtuous Machine - Old Ethics for New Technology?
 

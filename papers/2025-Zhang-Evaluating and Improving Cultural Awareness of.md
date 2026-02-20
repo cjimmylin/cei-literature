@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment (CARB)
 

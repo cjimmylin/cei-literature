@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # A multilingual dataset for offensive language and hate speech detection for Hausa, Yoruba and Igbo languages
 

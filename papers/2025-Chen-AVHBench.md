@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models
 

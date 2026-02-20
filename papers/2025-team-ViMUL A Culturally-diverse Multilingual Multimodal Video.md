@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "14 languages; 15 categories"
+CONFERENCE: "EMNLP 2025"
 ---
 # ViMUL: A Culturally-diverse Multilingual Multimodal Video Benchmark & Model
 

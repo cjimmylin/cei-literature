@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # AILuminate LLM v1.1: Adding French Language Capabilities to Industry-Leading AI Safety Benchmark
 

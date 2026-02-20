@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus"
 data_metrics: "2,660 languages"
+CONFERENCE: "Preprint"
 ---
 # Evaluating Metalinguistic Knowledge in Large Language Models across the World’s Languages
 

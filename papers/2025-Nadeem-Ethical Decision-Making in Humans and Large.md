@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Ethical Decision-Making in Humans and Large Language Models: Insights from Five Moral Domains
 

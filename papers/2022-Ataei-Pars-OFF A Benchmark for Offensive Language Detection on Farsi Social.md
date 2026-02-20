@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Pars-OFF: A Benchmark for Offensive Language Detection on Farsi Social Media
 

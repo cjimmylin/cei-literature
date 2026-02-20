@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Multilingual HateCheck: Functional Tests for Hate Speech Detection Models in 16 Languages
 

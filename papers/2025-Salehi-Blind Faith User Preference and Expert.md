@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,6 +54,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+CONFERENCE: "FAccT 2025"
 ---
 # Blind Faith? User Preference and Expert Assessment of AI-Generated Religious Content
 

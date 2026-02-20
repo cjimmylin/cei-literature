@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "3,612 prompts"
+CONFERENCE: "Preprint"
 ---
 # Analyzing the Safety of Japanese Large Language Models in Stereotype-Triggering Prompts
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multi-task benchmark for bias and fairness"
 data_metrics: "10,032 questions"
+CONFERENCE: "Preprint"
 ---
 # TurkishMMLU: Measuring Massive Multitask Language Understanding in Turkish
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets
 

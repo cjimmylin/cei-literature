@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
  Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods
 

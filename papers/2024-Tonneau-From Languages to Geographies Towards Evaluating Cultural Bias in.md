@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # From Languages to Geographies: Towards Evaluating Cultural Bias in Hate Speech Datasets
 

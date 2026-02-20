@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+CONFERENCE: "ICML 2025"
 ---
 # SafetyAnalyst: Interpretable, Transparent, and Steerable Safety Moderation for AI Behavior
 

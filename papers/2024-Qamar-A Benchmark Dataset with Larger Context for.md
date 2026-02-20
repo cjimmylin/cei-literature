@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "73,000 question; over 73,000 question"
+CONFERENCE: "Journal"
 ---
 # A Benchmark Dataset with Larger Context for Non-Factoid QA over Islamic Text
 

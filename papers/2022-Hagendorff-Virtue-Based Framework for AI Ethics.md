@@ -5,6 +5,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_HAGENDORFF2022
@@ -41,6 +42,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # A Virtue-Based Framework to Support Putting AI Ethics into Practice
 

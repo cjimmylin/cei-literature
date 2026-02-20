@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Evaluating the Quality of Benchmark Datasets for Low-Resource Languages: A Case Study on Turkish
 

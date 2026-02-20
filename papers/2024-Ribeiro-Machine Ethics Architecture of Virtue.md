@@ -5,6 +5,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
@@ -41,6 +42,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Machine Ethics and the Architecture of Virtue
 

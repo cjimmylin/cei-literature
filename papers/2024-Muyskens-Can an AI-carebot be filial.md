@@ -4,6 +4,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Confuscian Virtue Ethics"
@@ -41,6 +42,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Can an AI-carebot be filial? Reflections from Confucian ethics
 

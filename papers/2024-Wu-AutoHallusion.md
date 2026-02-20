@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # AutoHallusion: Automatic Generation of Hallucination Benchmarks for Vision-Language Models
 

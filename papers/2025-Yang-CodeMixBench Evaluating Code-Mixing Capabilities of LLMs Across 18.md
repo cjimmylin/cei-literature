@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for conversational ai"
 data_metrics: "4 prompt; 18 languages"
+CONFERENCE: "Preprint"
 ---
 # CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages
 

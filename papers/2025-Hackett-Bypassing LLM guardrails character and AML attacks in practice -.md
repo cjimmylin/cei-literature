@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Bypassing LLM guardrails: character and AML attacks in practice - Mindgard
 

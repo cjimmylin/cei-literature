@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations
 

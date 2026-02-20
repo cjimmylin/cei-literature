@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2024"
 ---
 # Measuring Political Bias in LLMs: What Is Said and How It Is Said
 

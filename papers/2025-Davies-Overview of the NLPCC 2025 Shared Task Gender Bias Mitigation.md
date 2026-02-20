@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "32.9k sentences"
+CONFERENCE: "Preprint"
 ---
 # Overview of the NLPCC 2025 Shared Task: Gender Bias Mitigation Challenge
 

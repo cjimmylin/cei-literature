@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "186k tokens; 660m word"
+CONFERENCE: "Preprint"
 ---
 # Jochre 3 and the Yiddish OCR corpus
 

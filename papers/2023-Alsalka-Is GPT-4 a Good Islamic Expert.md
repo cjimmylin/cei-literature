@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "2,189 questions"
+CONFERENCE: "ACL 2023"
 ---
 # Is GPT-4 a Good Islamic Expert for Answering Quran Questions?
 

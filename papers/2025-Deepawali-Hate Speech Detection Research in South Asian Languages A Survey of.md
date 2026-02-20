@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Hate Speech Detection Research in South Asian Languages: A Survey of Tasks, Datasets and Methods
 

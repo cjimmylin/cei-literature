@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for conversational ai"
 data_metrics: "12 languages"
+CONFERENCE: "Preprint"
 ---
 # SwitchLingua : The First Large-Scale Multilingual and Multi-Ethnic Code-Switching Dataset
 

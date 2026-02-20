@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark for ai safety dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Measuring Moral LLM Responses in Multilingual Capacities
 

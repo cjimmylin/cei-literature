@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "2021 dataset"
+CONFERENCE: "Preprint"
 ---
 # HOTTEST: Hate and Offensive Content Identification in Tamil using Transformers and Enhanced Stemming
 

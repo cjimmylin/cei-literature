@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "14,000 questions"
+CONFERENCE: "Preprint"
 ---
 # VM14K: First Vietnamese Medical Benchmark
 

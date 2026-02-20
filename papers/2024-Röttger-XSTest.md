@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
+CONFERENCE: "NAACL 2024"
 ---
 # XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models
 

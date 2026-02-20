@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "6 categories"
+CONFERENCE: "Preprint"
 ---
 # TurkBench: A Benchmark for Evaluating Turkish Large Language Models
 

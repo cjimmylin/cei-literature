@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "6 categories"
+CONFERENCE: "Preprint"
 ---
 # Evaluating Polish Linguistic and Cultural Competency in Large Language Models
 

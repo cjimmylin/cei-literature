@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "15,341 tokens"
+CONFERENCE: "Preprint"
 ---
 # LongEmotion: Measuring Emotional Intelligence of Large Language Models in Long-Context Interaction
 

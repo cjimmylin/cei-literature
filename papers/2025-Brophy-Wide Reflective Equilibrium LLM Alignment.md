@@ -6,6 +6,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_BROPHY2025
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Wide Reflective Equilibrium in LLM Alignment: Bridging Moral Epistemology and AI Safety
 

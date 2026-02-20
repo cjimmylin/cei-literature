@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # API Multilingual & Multicultural Resources - Asian Pacific Islander Speech-Language-Hearing Caucus
 

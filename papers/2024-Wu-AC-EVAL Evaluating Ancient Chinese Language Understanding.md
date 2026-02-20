@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # AC-EVAL: Evaluating Ancient Chinese Language Understanding in Large Language Models
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+CONFERENCE: "ICML 2023"
 ---
 # Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision
 

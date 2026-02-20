@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Measuring and Mitigating Unintended Bias in Text Classification
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +43,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "COLING 2025"
 ---
 # Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI)
 

@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "500 questions"
+CONFERENCE: "Preprint"
 ---
 # MultiLoKo: A Multilingual Local Knowledge Benchmark for LLMs Spanning 31 Languages
 

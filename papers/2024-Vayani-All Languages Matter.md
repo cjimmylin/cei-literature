@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "100 languages"
+CONFERENCE: "CVPR 2024"
 ---
 # All Languages Matter: Evaluating LMMs on Culturally Diverse 100 Languages
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,6 +53,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # ISE-Hate: A Benchmark Corpus for Inter-faith, Sectarian, and Ethnic Hatred Detection on Social Media in Urdu
 

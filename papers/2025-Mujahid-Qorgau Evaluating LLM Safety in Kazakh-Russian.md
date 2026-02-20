@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # Qorgau: Evaluating LLM Safety in Kazakh-Russian Bilingual Contexts
 

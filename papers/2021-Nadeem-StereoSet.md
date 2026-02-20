@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2021"
 ---
 # StereoSet: Measuring stereotypical bias in pretrained language models
 

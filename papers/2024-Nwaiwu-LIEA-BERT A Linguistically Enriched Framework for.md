@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # LIEA-BERT: A Linguistically Enriched Framework for Hate Speech Detection in Low-Resource Thai
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Research on Uyghur‐Chinese Neural Machine Translation Based on the Transformer at Multistrategy Segmentation Granularity - Xu - 2021 - Mobile Information Systems - Wiley Online Library
 

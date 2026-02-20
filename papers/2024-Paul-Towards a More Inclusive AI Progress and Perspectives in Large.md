@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "22m tokens"
+CONFERENCE: "Preprint"
 ---
 # Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language
 

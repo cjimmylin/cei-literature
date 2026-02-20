@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "5,799 questions"
+CONFERENCE: "NAACL 2025"
 ---
 # Arabic Dataset for LLM Safeguard Evaluation
 

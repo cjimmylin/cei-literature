@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "6 languages"
+CONFERENCE: "EMNLP 2024"
 ---
 # The Multilingual Alignment Prism: Aligning Global and Local Preferences to Reduce Harm
 

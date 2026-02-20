@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "342 samples"
+CONFERENCE: "Preprint"
 ---
 # TeleAI-Safety: A comprehensive LLM jailbreaking benchmark towards attacks,
 

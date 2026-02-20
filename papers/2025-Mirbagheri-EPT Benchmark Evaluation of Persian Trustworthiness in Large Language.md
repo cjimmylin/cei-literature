@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models
 

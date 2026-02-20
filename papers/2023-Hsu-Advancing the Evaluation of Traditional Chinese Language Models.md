@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "140 prompts"
+CONFERENCE: "Preprint"
 ---
 # Advancing the Evaluation of Traditional Chinese Language Models: Towards a Comprehensive Benchmark Suite (TC-Eval)
 

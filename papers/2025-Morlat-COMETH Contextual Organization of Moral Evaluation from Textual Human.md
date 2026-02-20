@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "300 scenarios"
+CONFERENCE: "Preprint"
 ---
 # COMETH: Contextual Organization of Moral Evaluation from Textual Human Inputs
 

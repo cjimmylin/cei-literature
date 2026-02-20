@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+CONFERENCE: "AAAI 2024"
 ---
 # Measuring Human and AI Values Based on Generative Psychometrics with Large Language Models
 

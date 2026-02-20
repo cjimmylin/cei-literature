@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2020"
 ---
 # GLUECoS: An Evaluation Benchmark for Code-Switched NLP | Request PDF
 

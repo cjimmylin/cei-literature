@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_KYRIACOU2024
@@ -41,6 +42,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective
 

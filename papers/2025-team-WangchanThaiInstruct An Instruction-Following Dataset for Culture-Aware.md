@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2025"
 ---
 # WangchanThaiInstruct: An Instruction-Following Dataset for Culture-Aware, Multitask, and Multi-domain Evaluation in Thai
 

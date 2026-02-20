@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "9,587 prompt"
+CONFERENCE: "Preprint"
 ---
 # Typhoon 2: A Family of Open Text and Multimodal Thai Large Language Models
 

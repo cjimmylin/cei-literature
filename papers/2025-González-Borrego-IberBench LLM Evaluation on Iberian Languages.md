@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for toxicity detection"
 data_metrics: "101 datasets"
+CONFERENCE: "Preprint"
 ---
 # IberBench: LLM Evaluation on Iberian Languages
 

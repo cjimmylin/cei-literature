@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "21,640 samples"
+CONFERENCE: "Other Conference"
 ---
 # SEA-SafeguardBench: Evaluating AI Safety in SEA Languages and Cultures
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values
 

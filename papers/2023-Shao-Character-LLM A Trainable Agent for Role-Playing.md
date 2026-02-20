@@ -5,6 +5,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2023"
 ---
  Character-LLM: A Trainable Agent for Role-Playing
 

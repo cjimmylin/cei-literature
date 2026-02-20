@@ -4,6 +4,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Role Playing Personas"
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "23,020 examples"
+CONFERENCE: "Journal"
 ---
  CharacterEval: A Chinese Benchmark for Role-Playing Conversational Agent Evaluation
 

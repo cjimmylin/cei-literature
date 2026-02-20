@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "10 languages"
+CONFERENCE: "Preprint"
 ---
 # MAPS: A Multilingual Benchmark for Global Agent Performance and Security
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "7,000 languages"
+CONFERENCE: "ACL 2025"
 ---
 # X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System
 

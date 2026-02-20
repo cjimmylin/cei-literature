@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset for question answering"
 data_metrics: "22 datasets"
+CONFERENCE: "Other Conference"
 ---
 # AfroBench: Multi-task Benchmark for Evaluating LLMs in African Languages
 

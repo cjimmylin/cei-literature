@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "11 categories"
+CONFERENCE: "LREC-COLING 2024"
 ---
 # CLIcK: A Benchmark Dataset of Cultural and Linguistic Intelligence in Korean
 

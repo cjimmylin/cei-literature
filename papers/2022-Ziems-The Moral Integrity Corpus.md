@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2022"
 ---
 # The Moral Integrity Corpus: A Benchmark for Ethical Dialogue Systems
 

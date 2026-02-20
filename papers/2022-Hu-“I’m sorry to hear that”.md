@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +43,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2022"
 ---
 # “I’m sorry to hear that”: Finding New Biases in Language Models with a Holistic Descriptor Dataset
 

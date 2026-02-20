@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "723 words; 630 words"
+CONFERENCE: "Other Conference"
 ---
 # AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios
 

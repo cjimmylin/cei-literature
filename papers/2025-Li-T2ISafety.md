@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety annotated dataset for toxicity detection"
 data_metrics: "44 categories"
+CONFERENCE: "Journal"
 ---
 # T2ISafety: Benchmark for Assessing Fairness, Toxicity, and Privacy in Image Generation
 

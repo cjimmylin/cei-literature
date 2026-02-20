@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "1,000 samples; over 1,000 samples"
+CONFERENCE: "Preprint"
 ---
 # DeceptionBench: A Comprehensive Benchmark for AI Deception Behaviors in Real-world Scenarios
 

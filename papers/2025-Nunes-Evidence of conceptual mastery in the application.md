@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "240 instances"
+CONFERENCE: "Preprint"
 ---
  Evidence of conceptual mastery in the application of rules by Large Language Models
 

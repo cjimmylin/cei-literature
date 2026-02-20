@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2024"
 ---
 # ABCFair: an Adaptable Benchmark approach for Comparing Fairness Methods
 

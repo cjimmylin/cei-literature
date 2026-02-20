@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2023"
 ---
 # K-HATERS: A Hate Speech Detection Corpus in Korean with Target-Specific Ratings
 

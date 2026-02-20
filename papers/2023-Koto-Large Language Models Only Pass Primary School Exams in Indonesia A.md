@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multi-task benchmark"
 data_metrics: "14,981 questions"
+CONFERENCE: "ACL 2023"
 ---
 # Large Language Models Only Pass Primary School Exams in Indonesia: A Comprehensive Test on IndoMMLU
 

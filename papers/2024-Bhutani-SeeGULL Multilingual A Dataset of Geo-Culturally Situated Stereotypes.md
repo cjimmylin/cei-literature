@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "20 languages; 23 languages"
+CONFERENCE: "Preprint"
 ---
 # SeeGULL Multilingual: A Dataset of Geo-Culturally Situated Stereotypes
 

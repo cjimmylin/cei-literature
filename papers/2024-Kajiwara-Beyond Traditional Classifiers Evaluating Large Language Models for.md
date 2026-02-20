@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Beyond Traditional Classifiers: Evaluating Large Language Models for Robust Hate Speech Detection
 

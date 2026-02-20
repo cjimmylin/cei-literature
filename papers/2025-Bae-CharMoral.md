@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+CONFERENCE: "COLING 2025"
 ---
  CharMoral: A Character Morality Dataset for Morally Dynamic Character Analysis in Long-Form Narratives
 

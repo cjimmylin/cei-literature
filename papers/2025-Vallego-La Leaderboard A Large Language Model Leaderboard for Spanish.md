@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "66 datasets"
+CONFERENCE: "Preprint"
 ---
 # La Leaderboard: A Large Language Model Leaderboard for Spanish Varieties and Languages of Spain and Latin America
 

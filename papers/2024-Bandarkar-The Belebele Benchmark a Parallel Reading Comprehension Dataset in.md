@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "122 languages"
+CONFERENCE: "ACL 2024"
 ---
 # The Belebele Benchmark: a Parallel Reading Comprehension Dataset in 122 Language Variants
 

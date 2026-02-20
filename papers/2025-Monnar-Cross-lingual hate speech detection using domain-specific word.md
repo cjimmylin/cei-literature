@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2024"
 ---
 # WildGuard: Open One-Stop Moderation Tools for Safety Risks, Jailbreaks, and Refusals of LLMs
 

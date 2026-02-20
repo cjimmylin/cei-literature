@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2025"
 ---
 # Bias Mitigation or Cultural Commonsense? Evaluating LLMs with a Japanese Dataset (SOBACO)
 

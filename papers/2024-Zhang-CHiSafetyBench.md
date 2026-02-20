@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "31 categories"
+CONFERENCE: "Journal"
 ---
 # CHiSafetyBench: A Chinese Hierarchical Safety Benchmark for Large Language Models
 

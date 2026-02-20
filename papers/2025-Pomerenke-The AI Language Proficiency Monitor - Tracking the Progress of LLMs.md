@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "200 languages"
+CONFERENCE: "Preprint"
 ---
 # The AI Language Proficiency Monitor -- Tracking the Progress of LLMs on Multilingual Benchmarks
 

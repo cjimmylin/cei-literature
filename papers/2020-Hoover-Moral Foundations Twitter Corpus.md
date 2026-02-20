@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology annotated dataset"
 data_metrics: "10 categories"
+CONFERENCE: "Journal"
 ---
 # Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment
 

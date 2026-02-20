@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "8 language"
+CONFERENCE: "Preprint"
 ---
 # SnakModel: Lessons Learned from Training an Open Danish Large Language Model
 

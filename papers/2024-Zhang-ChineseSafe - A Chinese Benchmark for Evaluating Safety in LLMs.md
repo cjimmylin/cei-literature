@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "205,034 examples; 20,000 examples"
+CONFERENCE: "Preprint"
 ---
 # ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs
 

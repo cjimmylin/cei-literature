@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
+CONFERENCE: "EMNLP 2023"
 ---
 # AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages
 

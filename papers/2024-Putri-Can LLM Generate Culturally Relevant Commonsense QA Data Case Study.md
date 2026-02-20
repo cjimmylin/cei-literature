@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "4.5k questions"
+CONFERENCE: "EMNLP 2024"
 ---
 # Can LLM Generate Culturally Relevant Commonsense QA Data? Case Study in Indonesian and Sundanese
 

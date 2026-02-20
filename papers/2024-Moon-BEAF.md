@@ -6,6 +6,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Hallucination in VLM"
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
  BEAF: Observing BEfore-AFter Changes to Evaluate Hallucination in Vision-language Models
 

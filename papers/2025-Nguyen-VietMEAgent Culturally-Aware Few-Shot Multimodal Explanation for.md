@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # VietMEAgent: Culturally-Aware Few-Shot Multimodal Explanation for Vietnamese Visual Question Answering
 

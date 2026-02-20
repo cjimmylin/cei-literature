@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "73,000 question; over 73,000 question"
+CONFERENCE: "Unknown"
 ---
 # Islam QA: Web-scraped Islamic Question-Answer Corpus
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "5,000 examples"
+CONFERENCE: "ACL 2023"
 ---
 # FairPrism: Evaluating Multilingual Models for Unfairness and Toxicity
 

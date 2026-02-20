@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "AIES 2024"
 ---
 # Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges
 

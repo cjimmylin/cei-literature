@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
+CONFERENCE: "LREC-COLING 2024"
 ---
 # EthioLLM: Multilingual Large Language Models for Ethiopian Languages with Task Evaluation
 

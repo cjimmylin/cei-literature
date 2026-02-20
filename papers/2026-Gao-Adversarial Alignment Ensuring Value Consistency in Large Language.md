@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains
 

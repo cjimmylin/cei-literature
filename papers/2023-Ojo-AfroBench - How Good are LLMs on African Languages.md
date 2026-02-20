@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "22 datasets"
+CONFERENCE: "Preprint"
 ---
 # AfroBench -- How Good are LLMs on African Languages?
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # Course-Correction: Safety Alignment Using Synthetic Preferences
 

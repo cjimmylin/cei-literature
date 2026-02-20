@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "522 prompts; 10 categories"
+CONFERENCE: "Other Conference"
 ---
 # IndoPref: A Multi-Domain Pairwise Preference Dataset for Indonesian
 

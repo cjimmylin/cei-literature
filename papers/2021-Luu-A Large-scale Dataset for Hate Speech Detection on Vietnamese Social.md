@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # A Large-scale Dataset for Hate Speech Detection on Vietnamese Social Media Texts
 

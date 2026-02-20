@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # CUS-QA: Local-Knowledge-Oriented Open-Ended Question Answering Dataset
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "22 datasets; 83 languages"
+CONFERENCE: "Other Conference"
 ---
 # MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks
 

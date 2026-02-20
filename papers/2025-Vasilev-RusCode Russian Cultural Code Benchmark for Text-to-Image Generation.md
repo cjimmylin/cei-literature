@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "19 categories"
+CONFERENCE: "NAACL 2025"
 ---
 # RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation
 

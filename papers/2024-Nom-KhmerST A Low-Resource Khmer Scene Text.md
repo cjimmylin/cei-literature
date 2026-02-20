@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # KhmerST: A Low-Resource Khmer Scene Text Detection and Recognition Benchmark
 

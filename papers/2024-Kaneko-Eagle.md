@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset for toxicity detection"
 data_metrics: "1 datasets"
+CONFERENCE: "Other Conference"
 ---
 # Eagle: Ethical Dataset Given from Real Interactions
 

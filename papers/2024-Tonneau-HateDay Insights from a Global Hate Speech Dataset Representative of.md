@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "540k tweets; 20k tweets; 8 languages"
+CONFERENCE: "ACL 2024"
 ---
 # HateDay: Insights from a Global Hate Speech Dataset Representative of a Day on Twitter
 

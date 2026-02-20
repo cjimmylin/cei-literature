@@ -5,6 +5,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_HAN2024
@@ -41,6 +42,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Why do We Need to Employ Exemplars in Moral Education? Insights from Recent Research on Artificial Intelligence
 

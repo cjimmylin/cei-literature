@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models
 

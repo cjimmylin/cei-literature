@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # NaVAB: Benchmarking Multi-National Value Alignment for Large Language Models
 

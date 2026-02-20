@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "107,250 samples"
+CONFERENCE: "Other Conference"
 ---
 # ForbiddenQuestions: A Benchmark of In-the-Wild Jailbreak Prompts
 

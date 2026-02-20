@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for question answering"
 data_metrics: "7 languages"
+CONFERENCE: "ACL 2025"
 ---
 # NativQA: Multilingual Culturally-Aligned Natural Query for LLMs
 

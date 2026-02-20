@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "2,996 questions"
+CONFERENCE: "EMNLP 2025"
 ---
 # LLMEval-Med (Medical Safety & Ethics Component)
 

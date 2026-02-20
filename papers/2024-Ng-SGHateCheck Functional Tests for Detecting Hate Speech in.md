@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "21,152 test cases"
+CONFERENCE: "ACL 2024"
 ---
 # SGHateCheck: Functional Tests for Detecting Hate Speech in Low-Resource Languages of Singapore
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "1000 prompts"
+CONFERENCE: "Preprint"
 ---
 # DIVE: Dataset for Pluralistic Alignment of Text-to-Image Models
 

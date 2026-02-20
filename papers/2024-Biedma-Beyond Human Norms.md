@@ -4,6 +4,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Elicit Human View from scratch: ValueLex"
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
  Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches
 

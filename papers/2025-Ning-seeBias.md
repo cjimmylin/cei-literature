@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness
 

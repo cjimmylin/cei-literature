@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "284 datasets"
+CONFERENCE: "NeurIPS 2024"
 ---
 # GMAI-MMBench: A Comprehensive Multimodal Evaluation Benchmark Towards General Medical AI
 

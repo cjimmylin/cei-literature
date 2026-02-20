@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2025"
 ---
 # Culture is Everywhere: A Call for Intentionally Cultural Evaluation
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # JainGPT: AI-Powered Chatbot for Jain Literature
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "2000 word"
+CONFERENCE: "IJCAI 2025"
 ---
 # EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs
 

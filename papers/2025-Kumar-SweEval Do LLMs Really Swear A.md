@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "8 languages"
+CONFERENCE: "NAACL 2025"
 ---
 # SweEval: Do LLMs Really Swear? A Safety Benchmark for Testing Limits for Enterprise Use
 

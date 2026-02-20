@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
  Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs
 

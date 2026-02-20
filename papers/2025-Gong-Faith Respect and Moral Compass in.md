@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Faith, Respect, and Moral Compass in an Age of Artificial Intelligence (Pluralistic Community AI Evaluation)
 

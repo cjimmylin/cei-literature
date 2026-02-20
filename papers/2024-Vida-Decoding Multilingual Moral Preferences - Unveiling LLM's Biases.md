@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "6500 scenarios"
+CONFERENCE: "AIES 2024"
 ---
 # Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment
 

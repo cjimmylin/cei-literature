@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # compar:IA: The French Government's LLM arena to collect French-language human prompts and preference data
 

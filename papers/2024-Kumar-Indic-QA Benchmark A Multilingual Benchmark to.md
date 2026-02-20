@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Indic-QA Benchmark: A Multilingual Benchmark to Evaluate Question Answering Capability of LLMs for Indic Languages
 

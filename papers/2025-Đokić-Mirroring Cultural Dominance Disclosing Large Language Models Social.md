@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Mirroring Cultural Dominance: Disclosing Large Language Models Social Values, Attitudes and Stereotypes
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Two-Eyed Seeing and Artificial Intelligence: Enhancing Healthcare Delivery in Indigenous Communities Requires an Ethical and Culturally Relevant Public Health Framework
 

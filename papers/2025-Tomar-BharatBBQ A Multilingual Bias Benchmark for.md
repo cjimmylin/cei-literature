@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "392,864 examples; 8 languages"
+CONFERENCE: "Preprint"
 ---
 # BharatBBQ: A Multilingual Bias Benchmark for Question Answering in the Indian Context
 

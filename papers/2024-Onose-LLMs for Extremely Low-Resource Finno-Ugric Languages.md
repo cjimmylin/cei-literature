@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # LLMs for Extremely Low-Resource Finno-Ugric Languages
 

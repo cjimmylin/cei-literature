@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "1.5k questions"
+CONFERENCE: "LREC-COLING 2024"
 ---
 # HAE-RAE Bench: Evaluation of Korean Knowledge in Language Models
 

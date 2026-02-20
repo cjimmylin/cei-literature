@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "18 languages"
+CONFERENCE: "Other Conference"
 ---
 # Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation
 

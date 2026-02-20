@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "510 examples; 288 examples; 2,510 examples"
+CONFERENCE: "EMNLP 2024"
 ---
 # Developing a Pragmatic Benchmark for Assessing Korean Legal Language Understanding in Large Language Models
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "8 categories"
+CONFERENCE: "ACL 2022"
 ---
 # LaoPLM: Pre-trained Language Models for Lao
 

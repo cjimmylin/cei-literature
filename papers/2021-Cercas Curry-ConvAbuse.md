@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2021"
 ---
  ConvAbuse: Data, Analysis, and Benchmarks for Nuanced Abuse Detection in Conversational AI
 

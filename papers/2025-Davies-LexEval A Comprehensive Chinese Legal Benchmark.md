@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "14,150 questions"
+CONFERENCE: "NeurIPS 2024"
 ---
 # LexEval: A Comprehensive Chinese Legal Benchmark
 

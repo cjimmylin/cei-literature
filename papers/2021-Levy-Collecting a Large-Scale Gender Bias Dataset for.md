@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2021"
 ---
 # Collecting a Large-Scale Gender Bias Dataset for Coreference Resolution and Machine Translation
 

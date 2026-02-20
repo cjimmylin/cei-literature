@@ -6,6 +6,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # The Lyceum Project: AI Ethics with Aristotle
 

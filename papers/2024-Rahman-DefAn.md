@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset"
 data_metrics: "75,000 prompts"
+CONFERENCE: "Other Conference"
 ---
 # DefAn: Definitive Answer Dataset for LLMs Hallucination Evaluation
 

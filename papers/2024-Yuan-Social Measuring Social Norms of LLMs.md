@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "383 questions"
+CONFERENCE: "ACL 2024"
 ---
 # Social (Measuring Social Norms of LLMs)
 

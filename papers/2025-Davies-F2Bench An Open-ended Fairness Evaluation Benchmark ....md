@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # F2Bench: An Open-ended Fairness Evaluation Benchmark ...
 

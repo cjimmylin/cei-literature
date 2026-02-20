@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "805 test cases"
+CONFERENCE: "Preprint"
 ---
 # CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks
 

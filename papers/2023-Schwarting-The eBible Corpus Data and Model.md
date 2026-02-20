@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # The eBible Corpus: Data and Model Benchmarks for Bible Translation for Low-Resource Languages
 

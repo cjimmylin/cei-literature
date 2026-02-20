@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for ai safety"
 data_metrics: "2,000 test cases; 8 categories"
+CONFERENCE: "Preprint"
 ---
 # Agent-SafetyBench: Evaluating the Safety of LLM Agents
 

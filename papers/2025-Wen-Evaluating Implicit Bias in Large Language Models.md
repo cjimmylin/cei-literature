@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "2.7k instances; 12.7k instances"
+CONFERENCE: "ACL 2025"
 ---
 # Evaluating Implicit Bias in Large Language Models by Attacking From a Psychometric Perspective
 

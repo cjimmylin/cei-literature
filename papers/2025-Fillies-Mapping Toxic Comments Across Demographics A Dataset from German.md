@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Mapping Toxic Comments Across Demographics: A Dataset from German Public Broadcasting
 

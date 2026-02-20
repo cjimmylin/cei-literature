@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework dataset"
 data_metrics: "14 datasets"
+CONFERENCE: "Preprint"
 ---
 # SailCompass: Towards Reproducible and Robust Evaluation for Southeast Asian Languages
 

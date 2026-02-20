@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset for toxicity detection"
 data_metrics: "7 cases; 16 languages"
+CONFERENCE: "ACL 2025"
 ---
 # Leveraging Machine Translation for Cross-Lingual Toxicity ...
 

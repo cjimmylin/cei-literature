@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # MoralBench: A Multi-Faceted Benchmark for Ethical and Safety Alignment in LLMs
 

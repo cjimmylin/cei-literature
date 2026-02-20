@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # HalluLens: LLM Hallucination Benchmark
 

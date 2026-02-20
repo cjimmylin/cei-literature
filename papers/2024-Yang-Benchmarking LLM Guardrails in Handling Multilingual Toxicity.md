@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset for toxicity detection"
 data_metrics: "7 datasets"
+CONFERENCE: "Preprint"
 ---
 # Benchmarking LLM Guardrails in Handling Multilingual Toxicity
 

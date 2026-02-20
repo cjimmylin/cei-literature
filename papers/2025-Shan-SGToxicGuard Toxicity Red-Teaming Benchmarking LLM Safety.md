@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # SGToxicGuard: Toxicity Red-Teaming: Benchmarking LLM Safety in Singapore's Low-Resource Languages
 

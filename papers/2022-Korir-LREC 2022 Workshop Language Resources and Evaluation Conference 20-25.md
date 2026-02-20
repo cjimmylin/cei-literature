@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2022"
 ---
 # LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022
 

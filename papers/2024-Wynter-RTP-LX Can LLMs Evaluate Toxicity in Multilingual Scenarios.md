@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus for toxicity detection"
 data_metrics: "28 languages"
+CONFERENCE: "Preprint"
 ---
 # RTP-LX: Can LLMs Evaluate Toxicity in Multilingual Scenarios?
 

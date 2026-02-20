@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multi-task benchmark dataset"
 data_metrics: "22,690 questions"
+CONFERENCE: "Preprint"
 ---
 # An Improved Traditional Chinese Evaluation Suite for Foundation Model (TMMLU+)
 

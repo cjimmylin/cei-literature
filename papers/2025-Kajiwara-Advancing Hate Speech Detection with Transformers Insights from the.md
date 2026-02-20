@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset for hate speech detection"
 data_metrics: "36 datasets"
+CONFERENCE: "Preprint"
 ---
 # Advancing Hate Speech Detection with Transformers: Insights from the MetaHate
 

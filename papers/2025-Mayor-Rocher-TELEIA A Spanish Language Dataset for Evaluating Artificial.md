@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "100 questions"
+CONFERENCE: "Journal"
 ---
 # TELEIA: A Spanish Language Dataset for Evaluating Artificial Intelligence Models
 

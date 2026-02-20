@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation methodology"
 data_metrics: "4,156 prompts"
+CONFERENCE: "AAAI 2025"
 ---
 # SESGO: Spanish Evaluation of Stereotypical Generative Outputs
 

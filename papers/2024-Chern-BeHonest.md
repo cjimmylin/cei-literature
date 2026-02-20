@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "10 scenarios"
+CONFERENCE: "Preprint"
 ---
 # BeHonest: Benchmarking Honesty in Large Language Models
 

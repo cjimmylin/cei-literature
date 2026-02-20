@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "16 languages"
+CONFERENCE: "NAACL 2025"
 ---
 # SHADES: Towards a Multilingual Assessment of Stereotypes in Large Language Models | Montreal AI Ethics Institute
 

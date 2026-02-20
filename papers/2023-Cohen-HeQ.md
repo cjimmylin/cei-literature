@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2023"
 ---
 # HeQ: a Large and Diverse Hebrew Reading Comprehension Benchmark
 

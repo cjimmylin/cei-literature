@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # SI-Bench: Benchmarking Social Intelligence of Large Language Models in Human-to-Human Conversations
 

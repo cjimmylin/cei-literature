@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "11,862 instances; 20 languages"
+CONFERENCE: "Preprint"
 ---
 # Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment
 

@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,6 +43,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multi-task benchmark"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # GreekMMLU: A Native-Sourced Multitask Benchmark for Evaluating Language Models in Greek
 

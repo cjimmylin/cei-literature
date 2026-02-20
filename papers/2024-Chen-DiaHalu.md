@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models
 

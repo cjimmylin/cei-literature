@@ -5,6 +5,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "UX Virtue ethics, catholic social teaching"
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
  Design Patterns for the Common Good: Building Better Technologies Using the Wisdom of Virtue Ethics
 

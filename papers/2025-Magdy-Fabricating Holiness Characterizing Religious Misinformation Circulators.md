@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "AAAI 2026"
 ---
 # Fabricating Holiness: Characterizing Religious Misinformation Circulators on Arabic Social Media
 

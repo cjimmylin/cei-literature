@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset for hate speech detection"
 data_metrics: "59 languages; 38 datasets"
+CONFERENCE: "Preprint"
 ---
 # AfriMTEB and AfriE5: Benchmarking and Adapting Text Embedding Models for African Languages
 

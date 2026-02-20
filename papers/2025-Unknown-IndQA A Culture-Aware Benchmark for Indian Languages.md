@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "2,278 questions; 12 languages"
+CONFERENCE: "Other Conference"
 ---
 # IndQA: A Culture-Aware Benchmark for Indian Languages
 

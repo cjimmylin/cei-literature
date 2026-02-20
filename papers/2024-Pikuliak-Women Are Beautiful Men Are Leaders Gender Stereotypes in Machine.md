@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # Women Are Beautiful, Men Are Leaders: Gender Stereotypes in Machine Translation and Language Modeling
 

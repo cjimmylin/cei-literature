@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark
 

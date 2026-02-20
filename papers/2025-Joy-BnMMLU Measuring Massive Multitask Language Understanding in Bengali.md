@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "138,949 question"
+CONFERENCE: "Preprint"
 ---
 # BnMMLU: Measuring Massive Multitask Language Understanding in Bengali
 

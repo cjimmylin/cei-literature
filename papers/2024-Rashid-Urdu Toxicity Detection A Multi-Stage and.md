@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,6 +53,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Urdu Toxicity Detection: A Multi-Stage and Multi-Label Classification Approach
 

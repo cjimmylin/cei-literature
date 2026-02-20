@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "26 languages"
+CONFERENCE: "Preprint"
 ---
 # One Ruler to Measure Them All: Benchmarking Multilingual Long-Context Language Models
 

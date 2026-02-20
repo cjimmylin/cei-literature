@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons
 

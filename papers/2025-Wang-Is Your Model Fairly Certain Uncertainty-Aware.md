@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "31,756 samples"
+CONFERENCE: "Preprint"
 ---
 # Is Your Model Fairly Certain? Uncertainty-Aware Fairness Evaluation for LLMs (UCerF)
 

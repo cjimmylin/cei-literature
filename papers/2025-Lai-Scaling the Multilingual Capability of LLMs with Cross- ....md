@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "100 languages; 30 languages"
+CONFERENCE: "ACL 2025"
 ---
 # Scaling the Multilingual Capability of LLMs with Cross- ...
 

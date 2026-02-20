@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # BiasLab: Toward Explainable Political Bias Detection with Dual-Axis Annotations and Rationale Indicators
 

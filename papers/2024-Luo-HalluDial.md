@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for hallucination detection dataset for conversational ai"
 data_metrics: "146,856 samples"
+CONFERENCE: "Other Conference"
 ---
 # HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation
 

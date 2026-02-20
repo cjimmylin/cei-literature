@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for conversational ai"
 data_metrics: "1,400 questions; 14 categories"
+CONFERENCE: "EMNLP 2024"
 ---
 # CoSafe: Evaluating Large Language Model Safety in Multi-Turn Dialogue Coreference
 

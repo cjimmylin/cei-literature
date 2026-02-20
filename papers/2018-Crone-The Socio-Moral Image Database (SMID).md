@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # The Socio-Moral Image Database (SMID): A Novel Stimulus Set for the Study of Social, Moral and Affective Processes
 

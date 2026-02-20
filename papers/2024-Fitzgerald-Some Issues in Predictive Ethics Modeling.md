@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "5 words"
+CONFERENCE: "Preprint"
 ---
 # Some Issues in Predictive Ethics Modeling: An Annotated Contrast Set of "Moral Stories"
 

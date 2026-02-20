@@ -6,6 +6,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_TSAI2024
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Why AI May Undermine Phronesis and What to Do about It
 

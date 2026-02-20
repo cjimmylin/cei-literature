@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Why We Build Local Large Language Models: An Observational Analysis from 35 Japanese and Multilingual LLMs
 

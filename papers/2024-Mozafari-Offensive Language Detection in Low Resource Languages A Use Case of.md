@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "520,000 samples"
+CONFERENCE: "Other Conference"
 ---
 # Offensive Language Detection in Low Resource Languages: A Use Case of Persian Language
 

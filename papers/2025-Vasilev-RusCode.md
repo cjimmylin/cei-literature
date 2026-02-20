@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "1250 prompts; 19 categories"
+CONFERENCE: "NAACL 2025"
 ---
 # RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation
 

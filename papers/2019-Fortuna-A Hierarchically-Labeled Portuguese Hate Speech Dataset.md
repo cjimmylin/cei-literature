@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "81 categories"
+CONFERENCE: "ACL 2019"
 ---
 # A Hierarchically-Labeled Portuguese Hate Speech Dataset
 

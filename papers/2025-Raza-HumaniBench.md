@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation
 

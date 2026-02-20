@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION
 

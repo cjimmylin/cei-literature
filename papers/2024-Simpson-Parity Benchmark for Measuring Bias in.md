@@ -10,6 +10,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Parity Benchmark for Measuring Bias in LLMs
 

@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "ICML 2025"
 ---
 # From RAG to Agentic: Validating Islamic-Medicine Responses with LLM Agents (Tibbe-AG)
 

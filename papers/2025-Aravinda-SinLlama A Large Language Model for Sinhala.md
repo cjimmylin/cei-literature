@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "10m sentence"
+CONFERENCE: "Preprint"
 ---
 # SinLlama: A Large Language Model for Sinhala
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus for conversational ai"
 data_metrics: "517,600 words"
+CONFERENCE: "Journal"
 ---
 # The Yarning Corpus: Aboriginal English in Southwest Western Australia
 

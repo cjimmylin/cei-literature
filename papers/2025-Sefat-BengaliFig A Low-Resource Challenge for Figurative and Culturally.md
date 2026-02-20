@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # BengaliFig: A Low-Resource Challenge for Figurative and Culturally Grounded Reasoning in Bengali
 

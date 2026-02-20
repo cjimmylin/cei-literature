@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation approach"
 data_metrics: "8,000 questions"
+CONFERENCE: "EMNLP 2024"
 ---
 # Are Large Language Models Consistent over Value-laden Questions?
 

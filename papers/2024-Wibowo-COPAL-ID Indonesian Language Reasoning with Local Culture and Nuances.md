@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Text corpus"
 data_metrics: "559 instances"
+CONFERENCE: "NAACL 2024"
 ---
 # COPAL-ID: Indonesian Language Reasoning with Local Culture and Nuances
 

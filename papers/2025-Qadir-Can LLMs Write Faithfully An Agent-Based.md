@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2025"
 ---
 # Can LLMs Write Faithfully? An Agent-Based Evaluation of LLM-generated Islamic Content
 

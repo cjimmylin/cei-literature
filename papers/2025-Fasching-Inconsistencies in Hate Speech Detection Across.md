@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2025"
 ---
 # Inconsistencies in Hate Speech Detection Across LLM-Generated Datasets
 

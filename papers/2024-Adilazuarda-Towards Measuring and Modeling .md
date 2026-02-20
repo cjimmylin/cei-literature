@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2024"
 ---
 # Towards Measuring and Modeling "Culture" in LLMs: A Survey
 

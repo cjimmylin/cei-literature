@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "LREC-COLING 2024"
 ---
 # Samayik: A Benchmark and Dataset for English-Sanskrit Translation
 

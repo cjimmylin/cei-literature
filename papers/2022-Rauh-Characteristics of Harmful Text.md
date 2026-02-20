@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
+CONFERENCE: "NeurIPS 2022"
 ---
 # Characteristics of Harmful Text: Towards Rigorous Benchmarking of Language Models
 

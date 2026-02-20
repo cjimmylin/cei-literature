@@ -5,6 +5,7 @@
 
 
 
+
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "combine ethics - deon, virtue, conseq"
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
  Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,6 +48,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "17 languages"
+CONFERENCE: "Other Conference"
 ---
 # PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models
 

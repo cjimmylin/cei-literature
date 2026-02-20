@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
+CONFERENCE: "ICLR 2025"
 ---
 # PersuasionBench & PersuasionArena: Measuring and Improving Persuasiveness of Large Language Models
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "247 questions"
+CONFERENCE: "ACL 2025"
 ---
 # Nunchi-Bench: Benchmarking Language Models on Cultural Reasoning with a Focus on Korean Superstition
 

@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "15,590 questions"
+CONFERENCE: "Preprint"
 ---
 # No Shortcuts to Culture: Indonesian Multi-hop Question Answering for Complex Cultural Understanding
 

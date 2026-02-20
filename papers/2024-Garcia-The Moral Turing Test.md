@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making
 

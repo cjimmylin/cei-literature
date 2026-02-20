@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs
 

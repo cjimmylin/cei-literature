@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for ai safety dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "ICML 2024"
 ---
 # BELLS: A Framework Towards Future Proof Benchmarks for the Evaluation of LLM Safeguards
 

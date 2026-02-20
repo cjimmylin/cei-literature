@@ -8,6 +8,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,6 +53,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis
 

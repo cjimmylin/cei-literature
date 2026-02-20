@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark for hallucination detection"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # 1 Benchmarking GPT-4 against Human Translators: A
 

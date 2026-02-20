@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Multilingual benchmark"
 data_metrics: "14 languages"
+CONFERENCE: "Other Conference"
 ---
 # Multimodal Cultural Safety: Evaluation Framework and Alignment Strategies
 

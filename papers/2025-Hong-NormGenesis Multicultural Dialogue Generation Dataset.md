@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark for moral/ethical reasoning annotated dataset for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "EMNLP 2025"
 ---
 # NormGenesis: Multicultural Dialogue Generation Dataset
 

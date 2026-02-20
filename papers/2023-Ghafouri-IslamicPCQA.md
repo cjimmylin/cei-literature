@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for question answering"
 data_metrics: "12,282 question"
+CONFERENCE: "Journal"
 ---
 # IslamicPCQA: A Dataset for Persian Multi-hop Complex Question Answering in Islamic Text Resources
 

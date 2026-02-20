@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark dataset"
 data_metrics: "27 languages"
+CONFERENCE: "NeurIPS 2023"
 ---
 # Massively Multilingual Corpus of Sentiment Datasets and Multi-faceted Sentiment Classification Benchmark
 

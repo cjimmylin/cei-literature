@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "4,978 question"
+CONFERENCE: "ACL 2025"
 ---
 # AlignMMBench: Evaluating Chinese Multimodal Alignment in Large Vision-Language Models
 

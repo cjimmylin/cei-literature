@@ -9,6 +9,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Detecting Anti-Semitic Hate Speech Using Transformer-Based Large Language Models
 

@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,6 +47,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "15k instances"
+CONFERENCE: "ACL 2025"
 ---
 # BelarusianGLUE: Towards a Natural Language Understanding Benchmark for Belarusian
 

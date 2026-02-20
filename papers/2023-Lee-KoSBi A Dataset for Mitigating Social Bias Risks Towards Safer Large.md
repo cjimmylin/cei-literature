@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "15 categories"
+CONFERENCE: "ACL 2023"
 ---
 # KoSBi: A Dataset for Mitigating Social Bias Risks Towards Safer Large Language Model Application
 

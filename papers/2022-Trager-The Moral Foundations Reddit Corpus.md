@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Annotated dataset"
 data_metrics: "8 categories"
+CONFERENCE: "Other Conference"
 ---
 # The Moral Foundations Reddit Corpus
 

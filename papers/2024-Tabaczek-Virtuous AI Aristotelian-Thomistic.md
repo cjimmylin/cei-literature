@@ -6,6 +6,7 @@
 
 
 
+
 Human View: false
 Not AI: 
 key: AUTO_TABACZEK2024
@@ -42,6 +43,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "N/A"
 data_metrics: "Not specified"
+CONFERENCE: "Journal"
 ---
 # Virtuous AI? Some Considerations from the Aristotelian-Thomistic Perspective
 

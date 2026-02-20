@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # SemEval-2020 Task 12: Multilingual Offensive Language Identification in Social Media (OffensEval 2020)
 

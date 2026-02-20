@@ -7,6 +7,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,6 +50,7 @@ is_eval: "No"
 is_dataset: "Yes"
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "Other Conference"
 ---
 # Enabling Classifiers to Make Judgements Explicitly Aligned with Human Values
 

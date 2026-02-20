@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "Yes"
 is_dataset: "No"
 data_description: "Benchmark"
 data_metrics: "100 questions"
+CONFERENCE: "ACL 2025"
 ---
 # GeoLogicQA: A Benchmark for Evaluating Logical Reasoning in Georgian for Large Language Models
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation framework text corpus for conversational ai"
 data_metrics: "Not specified"
+CONFERENCE: "Preprint"
 ---
 # Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns and Social Groups
 

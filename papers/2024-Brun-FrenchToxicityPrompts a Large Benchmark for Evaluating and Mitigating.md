@@ -5,6 +5,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,6 +45,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Benchmark annotated dataset for toxicity detection"
 data_metrics: "Not specified"
+CONFERENCE: "ACL 2024"
 ---
 # FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts
 

@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,6 +49,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
+CONFERENCE: "NAACL 2024"
 ---
 # High-Dimension Human Value Representation in Large Language Models
 

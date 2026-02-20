@@ -6,6 +6,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,6 +46,7 @@ is_eval: "Yes"
 is_dataset: "Yes"
 data_description: "Evaluation approach text corpus"
 data_metrics: "50 scenarios"
+CONFERENCE: "Other Conference"
 ---
 # Corpus-Based Medical Ethics Decision-Making Evaluation
 

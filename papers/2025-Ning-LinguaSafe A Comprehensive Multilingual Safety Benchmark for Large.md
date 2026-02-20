@@ -4,6 +4,7 @@
 
 
 
+
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,6 +44,7 @@ is_eval: "No"
 is_dataset: "No"
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "12 languages"
+CONFERENCE: "Preprint"
 ---
 # LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models
 

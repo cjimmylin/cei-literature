@@ -1,3 +1,9 @@
+---
+name: generate-dashboard
+description: Regenerate interactive HTML dashboard from JSON classification data. Creates self-contained HTML with ECharts visualizations.
+disable-model-invocation: true
+---
+
 # Generate Dashboard
 
 **Purpose:** Regenerate the interactive HTML dashboard from the vault's JSON classification data. Produces a single self-contained HTML file with ECharts visualizations, filterable tables, and KPI cards.

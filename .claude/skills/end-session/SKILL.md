@@ -1,3 +1,9 @@
+---
+name: end-session
+description: Orchestrate systematic session closure with memory consolidation and quality assurance. Runs remember-thread then finalize-thread.
+disable-model-invocation: true
+---
+
 # End Session
 
 **Purpose:** Orchestrate systematic session closure with memory consolidation and quality assurance.

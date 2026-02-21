@@ -2,6 +2,37 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 102 (Feb 21, 2026) - Skills Modernization: Frontmatter, Directory Structure, Safety Gates
+
+### Overview
+Audited and modernized all 42 vault skill definitions against Claude Code best practices (code.claude.com/docs/en/skills). Added YAML frontmatter for auto-discovery, migrated flat files to directory structure, added safety gates (`disable-model-invocation`), and removed redundant legacy commands.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| P0: Structured skills with frontmatter | 6/6 |
+| P1: Flat skills migrated to directory/SKILL.md | 21/21 |
+| P2: Legacy commands recycled | 19 files → RECYCLE-BIN |
+| P3: finalize-thread split | 521→242 lines (+296-line qa-checklist.md) |
+| P4: Skills with $ARGUMENTS support | 7 |
+| P5: Read-only skills with context:fork | 3 |
+| Auto-discoverable skills | 5 (4 read-only + frontend-design) |
+| Protected from auto-trigger | 23 (disable-model-invocation: true) |
+
+### Key Learnings
+- [Skills] YAML frontmatter `description` field enables Claude Code's auto-discovery engine — without it, skills only work via explicit `/name` invocation. 4 read-only skills now auto-load when contextually relevant.
+- [Skills] `disable-model-invocation: true` is the critical safety gate preventing Claude from auto-triggering side-effect workflows (git commits, batch downloads, file modifications). Applied to 23 skills.
+- [Skills] `context: fork` with `agent: Explore` runs read-only skills in a forked subagent context, keeping the main conversation clean from heavy search/scan noise. Trade-off: forked skills lose conversation history.
+- [Skills] The `.claude/commands/` directory is fully superseded by `.claude/skills/` — when both exist with the same name, skills take precedence. Safe to recycle commands.
+
+### Files Changed
+- `CEI-Lit-WS/.claude/skills/*/SKILL.md`: 6 structured skills — frontmatter added, finalize-thread split
+- `.claude/skills/*/SKILL.md`: 21 flat files migrated to directory structure with frontmatter
+- `.claude/commands/` → `RECYCLE-BIN/20260221-legacy-commands/`: 19 files recycled
+- `CEI-Lit-WS/.claude/skills/finalize-thread/qa-checklist.md`: New supporting file (296 lines)
+
+---
+
 ## Session 101 (Feb 21, 2026) - Dashboard v6d: Column Reorder + Flags Rightmost
 
 ### Overview

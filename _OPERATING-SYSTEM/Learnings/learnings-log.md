@@ -34,6 +34,18 @@
 
 ---
 
+## 2026-02-21 (Session 102)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Skills | **YAML Frontmatter = Claude Code Discovery:** Skills without `---` frontmatter are invisible to Claude's auto-discovery engine — only accessible via explicit `/name` invocation. Adding a `description` field enables context-aware auto-loading. The `disable-model-invocation: true` flag prevents auto-triggering of side-effect skills (git commits, downloads, batch operations). Applied to 23/28 skills; 5 read-only skills left auto-invocable. |
+| 2026-02-21 | Skills | **Directory Structure Enables Supporting Files:** Migrating `foo.md` → `foo/SKILL.md` enables co-located supporting files (e.g., `qa-checklist.md` alongside `SKILL.md`). This was critical for splitting `finalize-thread` from 521→242 lines while keeping the 296-line QA checklist accessible via relative link. |
+| 2026-02-21 | Skills | **`context: fork` + `agent: Explore` for Read-Only Skills:** Forked context runs skills in a subagent, preventing heavy search/scan operations from polluting the main conversation window. Trade-off: forked skills lose access to conversation history, but read-only skills (vault-stats, identify-targets, research-paper) don't need it. |
+| 2026-02-21 | Skills | **`$ARGUMENTS` Template Variable:** When a user types `/download-pdf 2024-Smith-Ethics`, the `$ARGUMENTS` placeholder in the skill body gets replaced with `2024-Smith-Ethics`. Paired with `argument-hint` in frontmatter for tab-completion. Without this, Claude must infer parameters from conversation context. |
+| 2026-02-21 | Skills | **Legacy `.claude/commands/` Superseded:** Skills take precedence over commands when both share a name. After migrating all 21 commands to skills with proper frontmatter, the 19 command files became fully redundant. Safely recycled to `RECYCLE-BIN/20260221-legacy-commands/`. |
+
+---
+
 ## 2026-02-21 (Session 101)
 
 | Date | Category | Learning |

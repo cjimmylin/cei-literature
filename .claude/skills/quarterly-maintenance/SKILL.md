@@ -1,3 +1,9 @@
+---
+name: quarterly-maintenance
+description: Run 8-step automated health check for vault integrity including YAML validation, PDF links, author profiles, and duplicate detection.
+disable-model-invocation: true
+---
+
 # Quarterly Maintenance - Vault Health Check
 
 **Purpose:** Automated quarterly health check for CEI Literature Vault

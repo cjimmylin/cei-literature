@@ -1,3 +1,10 @@
+---
+name: download-pdf
+description: Download a PDF for a paper using 13-strategy waterfall, extract text, and update YAML metadata.
+argument-hint: <paper-name-or-DOI-or-URL>
+disable-model-invocation: true
+---
+
 # Download PDF
 
 **Purpose:** Download a PDF for a paper, extract its text, and update YAML metadata — the full acquisition-to-extraction pipeline for a single paper.
@@ -5,6 +12,12 @@
 **When to use:** When you need to obtain a PDF for a paper that has `local_pdf: "N/A"` or no `local_pdf` field. Also used after importing new papers that lack PDFs.
 
 **Trigger:** `/download-pdf <paper-name-or-DOI-or-URL>`
+
+## Input
+
+The user's input is: `$ARGUMENTS`
+
+This can be a paper name (e.g., `2024-Smith-Ethics`), a DOI, or a direct PDF URL.
 
 ---
 

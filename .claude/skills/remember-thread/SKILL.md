@@ -1,3 +1,9 @@
+---
+name: remember-thread
+description: Consolidate session learnings, update SESSION_HISTORY.md and learnings-log.md, run pre-QA validation. Use at end of work sessions.
+disable-model-invocation: true
+---
+
 # Remember Thread
 
 **Purpose:** Consolidate session learnings, update documentation, and prepare for quality assurance.

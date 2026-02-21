@@ -2,6 +2,72 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 104 (Feb 21, 2026) - Context Optimization: CLAUDE.md + Memory Progressive Disclosure
+
+### Overview
+Major context optimization to reduce auto-loaded context from 781 lines (with zero safety rules) to ~203 lines where every line is operationally relevant. Created the missing root CLAUDE.md, promoted critical bug patterns to top of MEMORY.md, archived completed pipeline histories, and cleaned 54+ stale docs.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Root CLAUDE.md | Created (71 lines — was missing!) |
+| Auto-loaded context | 781 → 203 lines (-74%) |
+| memory/MEMORY.md | 199 → 58 lines (bug patterns at top) |
+| memory/ files archived | 3 (434 lines removed from auto-load) |
+| docs/ files archived | 54 files → docs/archive/ |
+| _OPERATING-SYSTEM recycled | 4 files (1,309+ lines) |
+| New files created | outstanding-tasks.md, completed-initiatives.md |
+| CEI-Lit-WS/CLAUDE.md | 155 → 67 lines, author count fixed (9,791 → 11,439) |
+| Validation | 2,034/2,034 pass, 0 errors |
+
+### Key Learnings
+- [Context] Root CLAUDE.md (Layer 0) auto-loads every session — was entirely missing, so safety rules were never enforced at session start. Single most impactful change.
+- [Memory] MEMORY.md has a 200-line hard cap with silent truncation. Bug patterns at lines 189-199 were at risk. Most critical content must go at the TOP.
+- [Architecture] Progressive disclosure layers: root CLAUDE.md (L0) → memory/*.md (L1) → sub-project CLAUDE.md (L2) → Standards/ (L3, on-demand). Completed history is context debt — archive it.
+
+### Files Changed
+- `CLAUDE.md` (root): NEW — 71 lines (safety rules, structure, utilities, standards, skills)
+- `CEI-Lit-WS/CLAUDE.md`: Rewritten 155 → 67 lines (delegated to root)
+- `memory/MEMORY.md`: Rewritten 199 → 58 lines (bug patterns first)
+- `memory/report-generation.md`: Trimmed 149 → 43 lines
+- `memory/outstanding-tasks.md`: NEW — 31 lines (accurate task list)
+- `memory/archive/`: NEW dir with 4 files (completed pipelines)
+- `docs/archive/`: NEW dir with 54 archived docs
+- `RECYCLE-BIN/20260221-context-optimization/`: 4 stale files
+
+---
+
+## Session 103 (Feb 21, 2026) - Dashboard v7: Cross-Dimensional Analysis + Expert Assessment Features
+
+### Overview
+Implemented the full v7 dashboard upgrade from the expert assessment plan — adding cross-dimensional intersection analysis, benchmark deep-dive, model breadth analysis, temporal trend enhancements, key findings panel, filter presets, and chart export. Built as a copy of v6d with 685 lines of new code across 4 files.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| New tab | Intersections (cross-dimensional heatmaps) |
+| New sub-tabs | 2 (Benchmarks under Taxonomy, Model Depth under Models) |
+| New chart visualizations | ~16 (4 heatmaps, 4 bars, 3 donuts, 2 timelines, 1 breadth bar, 2 KPI panels) |
+| Chart export buttons | All charts (PNG, 2x resolution) |
+| Filter presets | 5 (Benchmarks, Non-WEIRD, Religious Ethics, Cross-Cultural, Open Models) |
+| Key Findings KPIs | 6 (WEIRD%, zero-bench, top model, YoY, non-English%, benchmark%) |
+| Total file delta | +685 lines (93 HTML + 361 JS charts + 137 JS app + 94 CSS) |
+| Data pipeline changes | 0 (all client-side computation) |
+
+### Key Learnings
+- [JavaScript] Inserting methods after the closing `};` of an object literal causes `SyntaxError: Unexpected token '{'` — shorthand method syntax is only valid inside the object. Always verify insertion point and run `node -c` immediately.
+- [Dashboard] Cross-dimensional heatmaps (Model×Ethics, Venue×Dimension, Framework×Religion) can be fully computed client-side from `papers[]` without any data pipeline changes — the existing compact paper properties (p.ve, p.de, p.lm, p.rv, p.cu) provide all needed dimensions.
+- [ECharts] `chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor })` enables client-side chart export with theme-aware backgrounds — no server-side rendering needed.
+
+### Files Changed
+- `STATISTICS/cei-dashboard-7/`: New directory (copy of v6d + v7 features)
+  - `index.html`: +93 lines (Intersections tab, Benchmarks/Model Depth sub-tabs, Key Findings, Presets)
+  - `charts.js`: +361 lines (6 new methods: _initIntersections, _initBenchmarks, _initModelDepth, _timelineYoYLabels, _injectExportBtn, _showIxDrilldown)
+  - `app.js`: +137 lines (_computeKeyFindings, _initFilterPresets, OPEN_MODELS)
+  - `style.css`: +94 lines (key-findings, preset-bar, chart-export-btn, responsive)
+
+---
+
 ## Session 102 (Feb 21, 2026) - Skills Modernization: Frontmatter, Directory Structure, Safety Gates
 
 ### Overview

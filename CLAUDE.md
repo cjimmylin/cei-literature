@@ -1,88 +1,9 @@
-# CLAUDE.md - CEI Literature Vault Configuration
+# CLAUDE.md — CEI-Lit-WS Sub-Project Configuration
 
-**Last Updated:** 2026-02-16
+**Last Updated:** 2026-02-21
 
----
-
-## System Context
-
-**Role:** Academic Literature Database Manager for CEI Research
-**Mission:** Classify, enrich, and maintain 2,034 AI ethics papers
-**GitHub:** https://github.com/cjimmylin/cei-literature (actively tracked)
-
----
-
-## Operating Principles
-
-- **Proactive:** Suggest classification improvements and data quality fixes
-- **Accurate:** Zero tolerance for hallucinated citations or invented metadata
-- **Structured:** Follow paper metadata schema strictly
-- **Data Safety:** NEVER use `rm`. Move to `RECYCLE-BIN/`
-- **Progressive Disclosure:** Keep configs lean. Add detailed rules to `_OPERATING-SYSTEM/Standards/`
-
----
-
-## Quick Stats
-
-| Item | Count | Location |
-|------|-------|----------|
-| Papers | 2,034 | `papers/` |
-| PDFs | 1,886 | External (`PDFs/YYYY/`) |
-| Extracts | 2,467 | `PDF Extracts/YYYY/` |
-| Authors | 9,791 | `Authors/` |
-| AI Labs | 14 labs, 350+ papers | `AI Labs/` |
-
----
-
-## Essential Rules (CRITICAL)
-
-### 1. NO FILE DELETIONS ⛔
-**NEVER use `rm`, `unlink`, or any delete command.**
-
-```bash
-# ❌ FORBIDDEN
-rm file.pdf
-
-# ✅ REQUIRED
-mv file.pdf RECYCLE-BIN/
-```
-
-**Why:** Session 7 accidentally deleted 422 PDFs. NO EXCEPTIONS.
-**Reference:** `@_OPERATING-SYSTEM/Standards/file-safety.md`
-
-### 2. YAML Safety (CRITICAL)
-**Always use `PYTHON/yaml_frontmatter_utils.py`** for ALL YAML modifications.
-
-```python
-from PYTHON.yaml_frontmatter_utils import write_paper, validate_frontmatter
-write_paper(filepath, frontmatter, body, validate=True)  # Validation mandatory
-```
-
-**Reference:** `@_OPERATING-SYSTEM/Standards/yaml-standards.md`
-
-### 3. Report Immutability
-**NEVER overwrite or regenerate existing reports.** Always create NEW reports with NEW date prefixes.
-
-```bash
-# ❌ FORBIDDEN — overwriting existing report
-OUTPUT_FILE = "20260212-vault-overview-report.md"  # already exists!
-
-# ✅ REQUIRED — new date = new file
-OUTPUT_FILE = "20260215-vault-overview-report.md"  # fresh date
-```
-
-**Why:** Old reports are historical snapshots. Overwriting destroys provenance.
-
-### 4. Git Tracking
-**This repository is tracked on GitHub.** Commit meaningful changes.
-
-```bash
-git add .
-git commit -m "Descriptive message"
-git push
-```
-
-**PDFs are NOT tracked** (external storage via `.vault-config.json`).
+> Safety rules, vault structure, and utilities are in the **root CLAUDE.md** (auto-loaded).
+> This file covers sub-project specifics only.
 
 ---
 
@@ -111,11 +32,11 @@ Load relevant standards **when needed** for specific tasks:
 **See:** `.claude/skills/` and `docs/COMMANDS.md` for full list.
 
 **Quick reference:**
-- `/download-pdf` - Download → Extract → Summarize workflow
-- `/classify-papers` - Run classification pipeline
-- `/enrich-paper` - Add metadata enrichment
-- `/vault-stats` - Generate vault statistics
-- `/qc-code` - Code quality check
+- `/download-pdf` — Download → Extract → Summarize workflow
+- `/classify-papers` — Run classification pipeline
+- `/enrich-paper` — Add metadata enrichment
+- `/vault-stats` — Generate vault statistics
+- `/identify-targets` — Find papers needing attention
 
 ---
 
@@ -134,7 +55,7 @@ python3 PYTHON/audit_pdf_links.py
 
 ---
 
-## Documentation Index
+## Documentation
 
 **All documentation:** `docs/INDEX.md`
 **Session history:** `docs/SESSION_HISTORY.md`
@@ -143,13 +64,4 @@ python3 PYTHON/audit_pdf_links.py
 
 ---
 
-## Memory & Learning
-
-**Learnings log:** `_OPERATING-SYSTEM/Learnings/learnings-log.md`
-**Standards:** `_OPERATING-SYSTEM/Standards/`
-**Session closure:** Use `/end-session` skill (orchestrates remember-thread → finalize-thread)
-
----
-
-**Version:** 2.0 (Refactored with progressive disclosure architecture)
-**Maintained by:** CEI Literature Vault AI Agents
+**Version:** 3.0 (Refactored 2026-02-21 — safety rules moved to root CLAUDE.md)

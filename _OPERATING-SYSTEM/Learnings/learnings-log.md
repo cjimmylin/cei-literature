@@ -34,6 +34,27 @@
 
 ---
 
+## 2026-02-21 (Session 104)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Workflows | **Root CLAUDE.md is Layer 0 — must exist:** Claude Code auto-loads the root `CLAUDE.md` every session. Without it, safety rules (no `rm`, YAML round-trip ban, report immutability) were never enforced at session start. This was the single highest-impact fix for session quality. |
+| 2026-02-21 | Data Quality | **MEMORY.md has a 200-line hard truncation cap:** Lines beyond 200 are silently dropped. Critical bug patterns placed at lines 189-199 were at constant risk. Lesson: most important content goes at the TOP of MEMORY.md, and total length should stay well under 200 (target: ~120). |
+| 2026-02-21 | Workflows | **Completed history is context debt:** 15+ completed initiative sections consumed ~600 lines of auto-loaded context. Moving them to `memory/archive/` (not auto-loaded) freed space without losing records. Progressive disclosure: Layer 0 (CLAUDE.md) → Layer 1 (memory/) → Layer 2 (sub-project CLAUDE.md) → Layer 3 (Standards/, on-demand). |
+
+---
+
+## 2026-02-21 (Session 103)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Dashboard | **Object Literal Method Insertion Bug:** When programmatically appending methods to `const Charts = { ... };`, placing code after the closing `};` produces `SyntaxError: Unexpected token '{'` because shorthand method syntax (`methodName() {`) is only valid inside an object literal. Fix: ensure new methods are inserted before the closing `};`. Always run `node -c file.js` immediately after edits to large object literals. |
+| 2026-02-21 | Dashboard | **Cross-Dimensional Heatmaps — Client-Side Pattern:** For intersectional analysis (Model×Framework, Venue×Dimension), the pattern is: (1) frequency map → topN for each dimension, (2) nested filter to build matrix, (3) pass to `_heatmap()` factory, (4) click handler → drilldown paper list. All computed from `papers[]` — zero data pipeline changes needed. |
+| 2026-02-21 | Dashboard | **ECharts `getDataURL()` for Chart Export:** `chart.getDataURL({ type: 'png', pixelRatio: 2, backgroundColor })` enables client-side chart export. Background color should be dynamically read from CSS `--bg-card` to respect current theme. The export button is injected via `_injectExportBtn()` in the `_get()` factory so every chart automatically gets it. |
+| 2026-02-21 | Dashboard | **Key Findings as Computed KPIs:** Dynamic summary stats (WEIRD%, zero-benchmark traditions, YoY growth) computed at init time from `DATA.papers` and injected into `<details>` panel. Avoids hardcoded numbers that go stale. WEIRD detection uses a region substring match against 18 Western country/region names. |
+
+---
+
 ## 2026-02-21 (Session 102)
 
 | Date | Category | Learning |

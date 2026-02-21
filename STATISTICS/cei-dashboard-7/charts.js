@@ -1890,7 +1890,7 @@ const Charts = {
             {
                 chartId: 'chart-md-model-culture',
                 dim: 'model',
-                filterFn: (p, val) => (p.lm || []).includes(val),
+                filterFn: (p, val) => (p.lm || []).includes(val) && p.cu && p.cu.length > 0,
             },
             {
                 chartId: 'chart-md-open-closed',

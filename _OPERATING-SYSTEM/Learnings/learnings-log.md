@@ -34,6 +34,14 @@
 
 ---
 
+## 2026-02-21 (Session 107)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-02-21 | Data Quality | **Chart/filter scope parity:** When a chart computes data using predicate A∧B (e.g., model + culture tags) but the `filterFn` only checks predicate A (model only), clicking a bar shows items the chart never counted. Always mirror the chart's full data-selection logic in its `filterFn`. Fixed in `chart-md-model-culture` binding. |
+
+---
+
 ## 2026-02-21 (Session 106)
 
 | Date | Category | Learning |

@@ -2,6 +2,26 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 107 (Feb 21, 2026) - Dashboard v7: Fix Model Cultural Exposure Filter Scope
+
+### Overview
+Fixed a filter/chart scope mismatch in the "Model Cultural Exposure" chart (Models & LLMs → Model Depth). Clicking a model bar previously showed all papers with that model, ignoring whether they had culture tags — inconsistent with the chart which only counted papers with both model and culture data.
+
+### Results
+| Metric | Value |
+|--------|-------|
+| Files modified | 1 (charts.js) |
+| Lines changed | 1 |
+| Bug type | filterFn scope mismatch (predicate A∧B in chart, predicate A in filter) |
+
+### Key Learnings
+- [Dashboard] **Chart/filter scope parity:** When a chart computes data using predicate A∧B (e.g., `p.lm.includes(m) && p.cu`) but the `filterFn` only checks predicate A (e.g., `p.lm.includes(val)`), clicking a bar shows items the chart never counted. Always mirror the chart's data-selection logic in its `filterFn`.
+
+### Files Changed
+- `STATISTICS/cei-dashboard-7/charts.js`: 1 line fix (added `&& p.cu && p.cu.length > 0` to `chart-md-model-culture` filterFn)
+
+---
+
 ## Session 106 (Feb 21, 2026) - Dashboard v7: Click-to-Filter Paper Lists for Conference & Venue Tab
 
 ### Overview
